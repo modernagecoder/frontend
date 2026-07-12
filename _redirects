@@ -12,6 +12,8 @@
 
 # Resources sitemap — clean URL for robots.txt to reference (no trailing slash)
 /sitemap-resources.xml /content/resources/generated/sitemap-entries.xml 200
+# Human-readable sitemap page (/sitemap.xml stays the machine sitemap)
+/sitemap /sitemap.html 200
 /pages/*.gif /src/pages/:splat 200
 /pages/*.png /src/pages/:splat 200
 /pages/*.jpg /src/pages/:splat 200

@@ -1,0 +1,136 @@
+/* ============================================================
+   Site Ledger — shared design for the human-readable sitemap.
+   Used by /sitemap (generated sitemap.html). Warm "Ledger & Proof"
+   editorial brand: ivory paper, ink, burnt-amber accent.
+   ============================================================ */
+:root{
+  --paper:#f7f1e4; --card:#fffdf7; --ink:#211c14; --muted:#6f6654;
+  --rule:#e6dcc7; --rule-strong:#d6c6a5;
+  --amber:#bd6510; --amber-bright:#e0952f; --amber-soft:#f6ead2;
+  --link:#211c14; --maxw:1080px;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#17140e; --card:#201b12; --ink:#ece3d0; --muted:#a89a80;
+    --rule:#332b1d; --rule-strong:#4a3d28;
+    --amber:#e0952f; --amber-bright:#f2b45a; --amber-soft:#28210f;
+    --link:#ece3d0;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased;}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+a{color:var(--link)}
+
+/* Masthead */
+.masthead{padding:56px 0 26px;border-bottom:2px solid var(--ink)}
+.eyebrow{font-weight:600;font-size:12px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--amber)}
+.title{font-family:Fraunces,Georgia,serif;font-weight:600;
+  font-size:clamp(42px,7.5vw,74px);line-height:.96;margin:.24em 0 0;
+  letter-spacing:-.015em}
+.lede{margin:16px 0 0;max-width:56ch;color:var(--muted);font-size:16px}
+.ledger-meta{display:flex;flex-wrap:wrap;gap:14px 40px;margin-top:30px;
+  align-items:flex-end}
+.figure{display:flex;flex-direction:column;gap:8px}
+.figure b{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:36px;
+  line-height:1}
+.figure b.amber{color:var(--amber)}
+.figure span{font-weight:600;font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted)}
+
+/* Search toolbar (progressive enhancement — revealed by JS) */
+.toolbar{position:sticky;top:0;z-index:5;background:var(--paper);
+  border-bottom:1px solid var(--rule);margin:0 -24px;padding:14px 24px;
+  display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.search-field{flex:1 1 260px;position:relative;display:flex;align-items:center}
+.search-field svg{position:absolute;left:12px;width:16px;height:16px;
+  color:var(--muted);pointer-events:none}
+.search{width:100%;font:400 15px/1.2 Inter,system-ui,sans-serif;color:var(--ink);
+  background:var(--card);border:1px solid var(--rule-strong);border-radius:8px;
+  padding:11px 14px 11px 36px;outline:none}
+.search:focus{border-color:var(--amber);box-shadow:0 0 0 3px var(--amber-soft)}
+.search::placeholder{color:var(--muted)}
+.result-note{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted);
+  white-space:nowrap}
+.result-note b{color:var(--amber);font-weight:500}
+
+/* Contents index */
+.contents{margin:34px 0 4px;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
+  gap:0 32px;border-top:1px solid var(--rule)}
+.contents a{display:flex;justify-content:space-between;gap:12px;
+  align-items:baseline;padding:13px 2px;border-bottom:1px solid var(--rule);
+  text-decoration:none}
+.contents a:hover .nm{color:var(--amber)}
+.contents .nm{font-weight:500}
+.contents .ct{font-family:"JetBrains Mono",monospace;font-size:12px;
+  color:var(--muted)}
+
+/* Ledger block */
+.block{margin:52px 0 0}
+.block-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;
+  border-bottom:2px solid var(--ink);padding-bottom:10px}
+.block-head .n{font-family:"JetBrains Mono",monospace;font-size:13px;
+  font-weight:500;color:var(--amber)}
+.block-head h2{font-family:Fraunces,Georgia,serif;font-weight:600;
+  font-size:25px;margin:0}
+.block-note{color:var(--muted);font-size:13px;margin-left:auto}
+
+.tbl-wrap{overflow-x:auto}
+table.ledger{width:100%;border-collapse:collapse;margin-top:2px}
+.ledger th{font-weight:600;font-size:11px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted);text-align:left;
+  padding:13px 10px;border-bottom:1px solid var(--rule-strong);
+  white-space:nowrap}
+.ledger td{padding:11px 10px;border-bottom:1px solid var(--rule);
+  vertical-align:baseline}
+.ledger tr:hover td{background:var(--amber-soft)}
+.col-no{width:46px;text-align:right;font-family:"JetBrains Mono",monospace;
+  font-size:12px;color:var(--muted)}
+.page a{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:13px;
+  text-decoration:none;overflow-wrap:anywhere;line-height:1.45}
+.page a:hover{color:var(--amber);text-decoration:underline;
+  text-decoration-color:var(--amber-bright)}
+.imgchip{display:inline-block;margin-left:8px;font-weight:600;font-size:10px;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--amber);
+  border:1px solid var(--amber);border-radius:3px;padding:1px 5px;
+  vertical-align:1px}
+.col-prio{width:190px}
+.meter{display:inline-block;vertical-align:middle;width:92px;height:6px;
+  background:var(--rule);border-radius:3px;overflow:hidden}
+.meter i{display:block;height:100%;
+  background:linear-gradient(90deg,var(--amber),var(--amber-bright))}
+.pval{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted);
+  margin-left:11px;vertical-align:middle}
+.upd,.freq{font-family:"JetBrains Mono",monospace;font-size:12px;
+  color:var(--muted);white-space:nowrap}
+.dash{color:var(--rule-strong)}
+
+/* Search: hidden rows/sections + empty state */
+.block[hidden],tr[hidden]{display:none}
+.no-results{display:none;margin:56px 0;text-align:center;color:var(--muted);
+  font-size:16px}
+.no-results.show{display:block}
+.no-results b{color:var(--ink)}
+
+/* Footer */
+.foot{margin:66px 0 52px;padding-top:22px;border-top:2px solid var(--ink);
+  color:var(--muted);font-size:13px;display:flex;flex-wrap:wrap;
+  gap:10px 26px;justify-content:space-between;align-items:baseline}
+.foot code{font-family:"JetBrains Mono",monospace;color:var(--ink)}
+.foot a{color:var(--amber);text-decoration:none}
+.foot a:hover{text-decoration:underline}
+
+@media (max-width:640px){
+  .masthead{padding-top:40px}
+  .contents{grid-template-columns:1fr}
+  .col-freq,.freq,.col-prio,.block-note{display:none}
+  .ledger th,.ledger td{padding:11px 8px}
+}
+@media (prefers-reduced-motion:no-preference){
+  .ledger tr td{transition:background .12s ease}
+}
