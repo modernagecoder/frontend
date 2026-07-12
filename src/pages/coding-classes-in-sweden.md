@@ -21,7 +21,7 @@ Sverige · Online School · +46 · CET
 
 Live 1:1 mentorship in **Python**, modern web and **agentic AI** for Swedish kids, teens and adults — aligned with **Lgr 22** programmering, **Gymnasiet Teknik / Natur**, and the algorithmic depth **KTH**, **Chalmers**, **Lund** and **Uppsala** quietly assume. **SEK 1 050 i månaden** (USD 100), eight live sessions, two a week, no contract.
 
-Se alla kurser4.9/5Average parent & learner rating8 / månLive 1:1 sessions, 2 each weekSEK 1 050≈ USD 100 per month · monthly cancelCETSame time zone as your GymnasiumParent rating4.9 / 5 · 1,480 reviewsAligned withLgr 22 · GymnasieprogramMentor hours09:00 – 21:00 CETRiskGratis demo · månadsvisVälj en kurs · börja den här veckan
+Se alla kurser4.9/5Average parent & learner rating8 / månLive 1:1 sessions, 2 each weekSEK 1 050≈ USD 100 per month · monthly cancelCETSame time zone as your GymnasiumParent rating4.9 / 5 · 547 reviewsAligned withLgr 22 · GymnasieprogramMentor hours09:00 – 21:00 CETRiskGratis demo · månadsvisVälj en kurs · börja den här veckan
 
 ## Eight serious tracks. Same mentor every week. Real shipped projects.
 

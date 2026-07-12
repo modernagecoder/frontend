@@ -11,7 +11,7 @@ Disallow: /api/
 Disallow: /admin/
 Disallow: /test-*.html
 Disallow: /*-test.html
-Disallow: /check-status.html
+Disallow: /check-status
 Disallow: /dummy.html
 Disallow: /form-example.html
 
