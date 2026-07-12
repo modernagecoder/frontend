@@ -1143,6 +1143,132 @@
             min-height: 52px !important;
         }
     }
+
+    /* ============================================================
+       CORPORATE / CUSTOM-PROGRAM FORM  —  "Ledger & Proof" editorial
+       (Customized sub-tab.) Injected into #coursesGrid, so it must
+       span the full grid width; classes are scoped to the container.
+       ============================================================ */
+    .corporate-training-container {
+        grid-column: 1 / -1;
+        width: 100%;
+        max-width: 760px;
+        margin: .5rem auto 0;
+        padding: 0 .25rem;
+    }
+
+    .corporate-intro { text-align: center; margin-bottom: 2rem; }
+    .corporate-eyebrow {
+        display: inline-block;
+        font-family: var(--font-mono);
+        font-size: .72rem; letter-spacing: .18em; text-transform: uppercase;
+        color: var(--amber); font-weight: 600; margin-bottom: .6rem;
+    }
+    .corporate-title {
+        font-family: var(--font-display);
+        font-size: clamp(1.7rem, 3.4vw, 2.4rem);
+        font-weight: 600; color: var(--ink); line-height: 1.12; margin: 0 0 .7rem;
+    }
+    .corporate-subtitle {
+        color: var(--muted); font-size: 1.02rem; line-height: 1.65;
+        max-width: 52ch; margin: 0 auto;
+    }
+
+    .corporate-training-form {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow-sm);
+        padding: clamp(1.4rem, 3vw, 2.4rem);
+    }
+
+    .corporate-form-head {
+        text-align: center;
+        padding-bottom: 1.4rem; margin-bottom: 1.6rem;
+        border-bottom: 1px solid var(--line-2);
+    }
+    .corporate-training-container .form-title {
+        font-family: var(--font-display);
+        font-size: clamp(1.3rem, 2.4vw, 1.7rem);
+        font-weight: 600; color: var(--ink); margin: 0 0 .35rem;
+    }
+    .corporate-training-container .form-note {
+        color: var(--muted); font-size: .9rem; margin: 0;
+    }
+
+    .corporate-training-container .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.1rem;
+        margin-bottom: 1.1rem;
+    }
+    .corporate-training-container .form-group { display: flex; flex-direction: column; min-width: 0; }
+    .corporate-training-container .form-group.full-width { grid-column: 1 / -1; }
+
+    .corporate-training-container label {
+        font-size: .8rem; font-weight: 600; color: var(--ink-soft);
+        margin-bottom: .45rem; letter-spacing: .01em;
+    }
+    .corporate-training-container input,
+    .corporate-training-container select,
+    .corporate-training-container textarea {
+        width: 100%;
+        font-family: var(--font-body); font-size: .95rem; color: var(--ink);
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: .72rem .85rem;
+        transition: border-color .18s, box-shadow .18s, background .18s;
+    }
+    .corporate-training-container input::placeholder,
+    .corporate-training-container textarea::placeholder { color: #a59c90; }
+    .corporate-training-container input:focus,
+    .corporate-training-container select:focus,
+    .corporate-training-container textarea:focus {
+        outline: none;
+        border-color: var(--amber);
+        background: var(--surface);
+        box-shadow: 0 0 0 3px var(--amber-tint-2);
+    }
+    .corporate-training-container select {
+        cursor: pointer; appearance: none; -webkit-appearance: none;
+        padding-right: 2.4rem;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23B45309'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E");
+        background-repeat: no-repeat; background-position: right .8rem center; background-size: 1.15rem;
+    }
+    .corporate-training-container textarea { resize: vertical; min-height: 110px; line-height: 1.55; }
+
+    .corporate-training-container .form-actions {
+        display: flex; flex-direction: column; align-items: center; gap: .7rem;
+        margin-top: 1.8rem;
+    }
+    .corporate-training-container .submit-btn {
+        appearance: none; border: none; cursor: pointer;
+        font-family: var(--font-body); font-size: 1rem; font-weight: 600;
+        color: #fff;
+        background: linear-gradient(135deg, var(--amber-bright), var(--amber-deep));
+        padding: .85rem 2.4rem; border-radius: 11px;
+        box-shadow: 0 8px 20px -8px rgba(143, 63, 8, .55);
+        transition: transform .18s, box-shadow .18s, opacity .18s;
+    }
+    .corporate-training-container .submit-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 14px 26px -10px rgba(143, 63, 8, .6);
+    }
+    .corporate-training-container .submit-btn:active { transform: translateY(0); }
+    .corporate-training-container .submit-btn:disabled { opacity: .6; cursor: progress; transform: none; box-shadow: none; }
+    .corporate-training-container .submit-btn:focus-visible { outline: 2px solid var(--amber); outline-offset: 3px; }
+    .corporate-training-container .form-reassure {
+        color: var(--muted); font-size: .82rem; margin: 0; text-align: center;
+    }
+
+    @media (max-width: 560px) {
+        .corporate-training-container .form-row { grid-template-columns: 1fr; gap: .95rem; }
+        .corporate-training-container .submit-btn { width: 100%; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+        .corporate-training-container .submit-btn:hover { transform: none; }
+    }
 </style>
 
 <!-- Lenis Smooth Scrolling -->
@@ -2111,58 +2237,76 @@
                 grid.innerHTML = `
                     <div class="corporate-training-container">
                         <div class="corporate-intro">
+                            <span class="corporate-eyebrow">Custom Programs</span>
                             <h3 class="corporate-title">Level Up Your Career or Team</h3>
-                            <p class="corporate-subtitle">Whether you're looking to switch careers, get promoted, or train your team - we'll create a custom program that fits your goals.</p>
+                            <p class="corporate-subtitle">Switching careers, getting promoted, or training your team? Tell us the goal and we will design a program around it.</p>
                         </div>
-                        <div class="corporate-form-wrapper">
-                            <form class="corporate-training-form" id="corporateTrainingFormCourse">
-                                <h3 class="form-title">Tell Us What You Need</h3>
-                                <div class="form-row">
-                                    <div class="form-group">
-                                        <label for="trainingTypeCourse">I'm looking for:</label>
-                                        <select id="trainingTypeCourse" name="trainingType" required>
-                                            <option value="">Select an option</option>
-                                            <option value="company">Corporate Training for My Team</option>
-                                            <option value="individual-upskill">Personal Upskilling</option>
-                                            <option value="individual-career">Career Change</option>
-                                        </select>
-                                    </div>
+                        <form class="corporate-training-form" id="corporateTrainingFormCourse">
+                            <div class="corporate-form-head">
+                                <h4 class="form-title">Tell us what you need</h4>
+                                <p class="form-note">Takes under a minute. We reply within 24 hours.</p>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group full-width">
+                                    <label for="trainingTypeCourse">I'm looking for</label>
+                                    <select id="trainingTypeCourse" name="trainingType" required>
+                                        <option value="">Select an option</option>
+                                        <option value="company">Corporate training for my team</option>
+                                        <option value="individual-upskill">Personal upskilling</option>
+                                        <option value="individual-career">Career change</option>
+                                    </select>
                                 </div>
-                                <div class="form-row">
-                                    <div class="form-group"><label for="fullNameCourse">Name</label><input type="text" id="fullNameCourse" name="fullName" required placeholder="Your name"></div>
-                                    <div class="form-group"><label for="emailCourse">Email</label><input type="email" id="emailCourse" name="email" required placeholder="your@email.com"></div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="fullNameCourse">Name</label>
+                                    <input type="text" id="fullNameCourse" name="fullName" required placeholder="Your name">
                                 </div>
-                                <div class="form-row">
-                                    <div class="form-group"><label for="phoneCourse">Phone</label><input type="tel" id="phoneCourse" name="phone" required placeholder="+91 98765 43210"></div>
-                                    <div class="form-group">
-                                        <label for="trainingAreaCourse">Training Area</label>
-                                        <select id="trainingAreaCourse" name="trainingArea" required>
-                                            <option value="">Select area</option>
-                                            <option value="web-development">Web Development</option>
-                                            <option value="ai-ml">AI & Machine Learning</option>
-                                            <option value="data-science">Data Science</option>
-                                            <option value="mobile-app">Mobile App Development</option>
-                                            <option value="python">Python Programming</option>
-                                            <option value="custom">Custom Program</option>
-                                        </select>
+                                <div class="form-group">
+                                    <label for="emailCourse">Email</label>
+                                    <input type="email" id="emailCourse" name="email" required placeholder="your@email.com">
                                 </div>
-                                <div class="form-row">
-                                    <div class="form-group">
-                                        <label for="currentSkillLevelCourse">Current Skill Level</label>
-                                        <select id="currentSkillLevelCourse" name="currentSkillLevel" required>
-                                            <option value="">Select your level</option>
-                                            <option value="beginner">Beginner (No experience)</option>
-                                            <option value="intermediate">Intermediate (Some experience)</option>
-                                            <option value="advanced">Advanced (Experienced)</option>
-                                        </select>
-                                    </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="phoneCourse">Phone</label>
+                                    <input type="tel" id="phoneCourse" name="phone" required placeholder="+91 98765 43210">
                                 </div>
-                                <div class="form-row">
-                                    <div class="form-group full-width"><label for="trainingGoalsCourse">What do you want to achieve?</label><textarea id="trainingGoalsCourse" name="trainingGoals" rows="3" required placeholder="Tell us about your goals..."></textarea></div>
+                                <div class="form-group">
+                                    <label for="trainingAreaCourse">Training area</label>
+                                    <select id="trainingAreaCourse" name="trainingArea" required>
+                                        <option value="">Select area</option>
+                                        <option value="web-development">Web Development</option>
+                                        <option value="ai-ml">AI &amp; Machine Learning</option>
+                                        <option value="data-science">Data Science</option>
+                                        <option value="mobile-app">Mobile App Development</option>
+                                        <option value="python">Python Programming</option>
+                                        <option value="custom">Custom Program</option>
+                                    </select>
                                 </div>
-                                <div class="form-actions"><button type="submit" class="submit-btn">Submit Request</button></div>
-                            </form>
-                        </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group full-width">
+                                    <label for="currentSkillLevelCourse">Current skill level</label>
+                                    <select id="currentSkillLevelCourse" name="currentSkillLevel" required>
+                                        <option value="">Select your level</option>
+                                        <option value="beginner">Beginner (no experience)</option>
+                                        <option value="intermediate">Intermediate (some experience)</option>
+                                        <option value="advanced">Advanced (experienced)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group full-width">
+                                    <label for="trainingGoalsCourse">What do you want to achieve?</label>
+                                    <textarea id="trainingGoalsCourse" name="trainingGoals" rows="4" required placeholder="Tell us about your goals, timeline, and team size if relevant..."></textarea>
+                                </div>
+                            </div>
+                            <div class="form-actions">
+                                <button type="submit" class="submit-btn">Submit Request</button>
+                                <p class="form-reassure">No spam. Your details are only used to plan your program.</p>
+                            </div>
+                        </form>
                     </div>
                 `;
                 initCorporateForm();
