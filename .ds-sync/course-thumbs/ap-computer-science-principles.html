@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:800px;height:450px;overflow:hidden}
+:root{
+  --paper:#211D18; --ink:#F3EDE0; --muted:#A79C89;
+  --accent:#E8A33D; --accent-soft:rgba(232,163,61,.16);
+  --dot:rgba(243,237,224,.06); --hairline:rgba(243,237,224,.22);
+}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);position:relative}
+body::before{content:"";position:absolute;inset:0;background-image:radial-gradient(var(--dot) 1.2px,transparent 1.2px);background-size:26px 26px}
+.card{position:absolute;inset:0;padding:30px 40px 24px;display:flex;flex-direction:column}
+.top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:2}
+.wordmark{display:flex;align-items:center;gap:11px;font-size:13px;font-weight:800;letter-spacing:.22em}
+.mark{width:17px;height:17px;position:relative;display:inline-block}
+.mark b{position:absolute;left:5px;top:5px;width:15px;height:15px;border:2.5px solid var(--ink)}
+.mark i{position:absolute;left:0;top:0;width:15px;height:15px;background:var(--accent)}
+.badge{border:2.5px solid var(--ink);padding:8px 16px;border-radius:999px;font-weight:800;font-size:13px;letter-spacing:.12em}
+.main{flex:1;display:flex;align-items:center;position:relative;z-index:1}
+.titleblock{max-width:380px}
+.kicker{font-size:12.5px;font-weight:800;letter-spacing:.3em;color:var(--accent);margin-bottom:14px}
+h1{font-family:'Fraunces',Georgia,serif;font-weight:800;font-size:43px;line-height:1.05;letter-spacing:-.01em}
+.sub{margin-top:15px;font-size:15.5px;line-height:1.45;color:var(--muted);font-weight:500;max-width:350px}
+.bottom{display:flex;justify-content:space-between;align-items:center;border-top:1.5px solid var(--hairline);padding-top:13px;font-size:11px;letter-spacing:.12em;font-weight:700;color:var(--muted);position:relative;z-index:2}
+.motif{position:absolute;right:34px;top:50%;transform:translateY(-50%);width:308px;height:250px}
+.term{position:absolute;right:0;top:18px;width:306px;height:214px;background:#2B251D;border:2px solid rgba(243,237,224,.28);border-radius:14px;box-shadow:0 14px 34px rgba(0,0,0,.35)}
+.tbar{height:34px;border-bottom:2px solid rgba(243,237,224,.18);display:flex;align-items:center;gap:7px;padding:0 13px}
+.dot2{width:9px;height:9px;border-radius:50%;background:rgba(243,237,224,.28)}
+.dot2.f{background:var(--accent)}
+.tname{margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--muted)}
+.tbody{padding:15px 18px;font-family:'JetBrains Mono',monospace;font-size:14.5px;line-height:1.62;color:var(--ink)}
+.kw{color:var(--accent);font-weight:700}
+.mut{color:var(--muted)}
+.hl{color:var(--ink);font-weight:700}
+.ind{padding-left:16px}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="top">
+    <div class="wordmark"><span class="mark"><b></b><i></i></span>MODERN AGE CODERS</div>
+    <div class="badge">AP EXAM</div>
+  </div>
+  <div class="main">
+    <div class="titleblock">
+      <div class="kicker">COMPUTER SCIENCE</div>
+      <h1>AP Computer<br>Science<br>Principles</h1>
+      <p class="sub">Create task, all five big ideas, and the exam</p>
+    </div>
+  </div>
+  <div class="motif">
+    <div class="term">
+      <div class="tbar"><span class="dot2 f"></span><span class="dot2"></span><span class="dot2"></span><span class="tname">program</span></div>
+      <div class="tbody">
+        <div><span class="kw">REPEAT</span> <span class="hl">5</span> <span class="kw">TIMES</span></div>
+        <div>{</div>
+        <div class="ind">score <span class="kw">&lt;-</span> score + <span class="hl">1</span></div>
+        <div>}</div>
+        <div><span class="kw">DISPLAY</span>(score)</div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom"><span>LIVE ONLINE CLASSES</span><span>learn.modernagecoders.com</span></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,555 @@
+{
+  "meta": {
+    "slug": "ap-computer-science-principles-exam-prep-course",
+    "title": "AP Computer Science Principles: Create Task and Exam Prep",
+    "description": "Live online AP Computer Science Principles course: programming fundamentals, data, algorithms, the Create performance task, and full digital exam prep for CSP.",
+    "keywords": [
+      "ap computer science principles course online",
+      "ap csp exam prep",
+      "ap csp create task help",
+      "ap computer science principles online course",
+      "csp create performance task guide",
+      "ap csp practice exam",
+      "learn computer science principles online",
+      "ap csp course for beginners"
+    ],
+    "category": "Advanced Placement Computer Science",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "6 months (24 weeks)",
+    "level": "High school students preparing for AP Computer Science Principles; beginner-friendly, no prior coding required",
+    "commitment": "2 live classes/week + 3-4 hours practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "ap-computer-science-principles.png"
+  },
+  "program_overview": {
+    "title": "AP Computer Science Principles",
+    "tagline": "A broad, honest introduction to computing, built for the exam and the Create task exactly as they exist right now.",
+    "description": "AP Computer Science Principles is deliberately the wide-angle course: instead of teaching one language deeply the way AP Computer Science A teaches Java, CSP is organised around five Big Ideas, Creative Development, Data, Algorithms and Programming, Computer Systems and Networks, and Impact of Computing, and it is language-flexible by design. Students may build in a block-based or a text-based language, and this course teaches with a beginner-friendly, text-based language while also teaching fluent reading of the College Board's own pseudocode, since exam questions are written in that pseudocode regardless of what a student builds with. What matters on the exam is the concept underneath, a loop, a list, a procedure with parameters, not which keyword a particular language happens to use for it.\n\nThe course is also built for the assessment as it currently works, which changed in 2024 in a way many older courses have not caught up to. Students still spend at least nine hours of guided development time building an individually developed program with a list, a procedure that takes parameters, and an algorithm that manages complexity with selection or iteration, the Create Performance Task, and they still submit their code as a Personalized Project Reference PDF through the AP Digital Portfolio near the end of April. What changed is that this submission is no longer scored on its own by AP readers. Instead, on the end-of-course exam in May, students answer two written-response questions about their own program using that same Personalized Project Reference as their permitted reference material. Section I, seventy multiple-choice questions in one hundred twenty minutes, is worth seventy percent of the score. Section II, the two written responses about the student's own code, is worth thirty percent. The six-month structure follows this directly: Months 1 and 2 build Creative Development and core programming; Months 3 and 4 cover Data and deeper Algorithms and Programming while the Create Task is planned, built, and finished; Months 5 and 6 cover Computer Systems and Networks and Impact of Computing, then turn fully to full-length multiple-choice practice and drilling the two written responses against the student's own finished project, ending in complete timed mock exams under digital conditions.",
+    "what_makes_this_different": [
+      "Taught to the exam as it is scored now: the 2024 change to the Create Performance Task, no longer a separately scored artifact but the reference material for two written-response questions on the exam itself, is built into the course from month one",
+      "Genuinely language-flexible teaching: concepts are taught to transfer, and students also learn to read the College Board's own pseudocode fluently, since that is the language most multiple-choice questions are actually written in",
+      "A real, individually developed Create Task, built over guided sessions across month 4 with instructor feedback, not assembled the week before the deadline",
+      "All five Big Ideas covered in proportion to how the exam actually weights them, so time is not lost over-teaching one area and under-teaching another",
+      "Written-response practice done the way the exam requires it: against the student's own finished program and their own Personalized Project Reference, not a generic prompt",
+      "Live, small batches where every class involves writing or reading real code, not lecture slides watched alone"
+    ],
+    "learning_path": {
+      "phase_1": "Creative Development and programming foundations: variables, lists, selection, iteration, and procedures, built alongside the habits of incremental development, testing, and choosing a Create Task idea",
+      "phase_2": "Data and deeper Algorithms and Programming, while the Create Performance Task itself is planned, built across guided sessions, tested, and finished with its Personalized Project Reference",
+      "phase_3": "Computer Systems and Networks and Impact of Computing, then full seventy-question multiple-choice practice, written-response drilling against your own code, and complete timed digital mock exams"
+    },
+    "career_outcomes": [
+      "Readiness for the AP Computer Science Principles exam as it is tested now, including the 2024 written-response format for the Create Task",
+      "A completed, individually developed program you can explain in writing, which is the actual skill CSP is built to measure",
+      "A broad, honest first exposure to computing that helps decide whether a deeper single-language course like AP Computer Science A is the right next step",
+      "Genuine programming ability with lists, selection, iteration, and procedures that carries into any later language",
+      "An honest, evidence-based read on where you stand across all five Big Ideas, from your own mock exam results"
+    ]
+  },
+  "phase_1_creative_development": {
+    "title": "PHASE 1: Creative Development and Programming Foundations (Big Idea 1 and Core of Big Idea 3, Months 1-2, Weeks 1-8)",
+    "description": "Computational thinking, the core programming building blocks CSP tests, and the habits of incremental development, ending with a planned and approved Create Task idea.",
+    "month_1_computational_thinking": {
+      "title": "Month 1: Computational Thinking and Programming Building Blocks",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Course Map, Computational Thinking, and What CSP Actually Tests",
+        "topics": [
+          "What AP Computer Science Principles covers: the five Big Ideas, Creative Development, Data, Algorithms and Programming, Computer Systems and Networks, and Impact of Computing, and how this course maps to them",
+          "How CSP differs from AP Computer Science A: a broad, language-flexible course about computing itself, not a single-language programming course",
+          "The two-part assessment at a glance: a seventy-question multiple-choice exam and a written-response section built around a program you build yourself",
+          "Computational thinking as a habit: decomposition, abstraction, and pattern recognition, not just vocabulary to memorise",
+          "A first look at the language and environment we build in, and why the concept matters more than the exact keyword a language uses for it",
+          "Setting up your development environment and a running course notebook, where every future Create Task idea starts getting written down"
+        ],
+        "projects": [
+          "First program: a short interactive program that takes input and produces output, run and explained line by line"
+        ],
+        "practice": "10 short exercises identifying which Big Idea a given exam-style question is testing, plus a first working program written and run"
+      },
+      "week_2": {
+        "title": "Variables, Data Abstraction, and Expressions",
+        "topics": [
+          "Variables as named, reusable storage, and why naming them clearly is a skill the exam rewards directly",
+          "Data types CSP cares about: numbers, text, and Boolean values, and how the College Board's own pseudocode represents each",
+          "Assignment versus comparison, and expressions that combine arithmetic and logic correctly",
+          "Data abstraction: hiding detail behind a clear name so a program stays readable as it grows",
+          "Lists as CSP's core data structure: creating a list and accessing an item by its index",
+          "Reading and predicting the output of short CSP-style pseudocode blocks, the single most common multiple-choice question shape"
+        ],
+        "projects": [
+          "Variable tracker: a short program that stores, updates, and reports several related values, traced by hand before it is run"
+        ],
+        "practice": "14 pseudocode-tracing problems written to the CSP Exam Reference Sheet conventions, each paired with equivalent code in our teaching language"
+      },
+      "week_3": {
+        "title": "Lists and Iteration",
+        "topics": [
+          "Traversing a list with a loop, the single most tested list pattern on the exam",
+          "FOR EACH style iteration versus counting loops, and reading both forms in CSP pseudocode",
+          "Building a list up over time: appending, inserting, and removing items",
+          "Searching a list: finding a matching value and correctly handling the case where none exists",
+          "Common list bugs: off-by-one errors and changing a list while iterating over it",
+          "Using a list to model something real, such as scores, names, or sensor readings"
+        ],
+        "projects": [
+          "List toolkit: procedures that sum, count, filter, and find the maximum of a list, tested on an empty list and a single-item list"
+        ],
+        "practice": "12 list and iteration problems, half written in CSP pseudocode and translated, half written directly in code"
+      },
+      "week_4": {
+        "title": "Selection, Boolean Logic, and Procedures",
+        "topics": [
+          "Boolean expressions and the relational operators the exam tests",
+          "IF, IF-ELSE, and nested selection, read in both CSP pseudocode and our teaching language",
+          "AND, OR, and NOT, and reasoning carefully through compound conditions",
+          "Defining a procedure with parameters and a return value",
+          "Why breaking a program into procedures is itself a Creative Development skill, not just tidy style",
+          "Combining selection, iteration, and procedures into one small, working program"
+        ],
+        "projects": [
+          "Decision-making procedure: a small program that classifies input using nested conditionals, tested against every boundary case"
+        ],
+        "practice": "16 problems mixing selection and procedure tracing, pitched at the same difficulty as the exam's code-reading questions",
+        "assessment": "Month 1 checkpoint: a timed set covering variables, lists, selection, and procedures, scored the way Section I multiple choice is scored"
+      }
+    },
+    "month_2_algorithms_and_planning": {
+      "title": "Month 2: Algorithms, Procedural Abstraction, and Planning the Create Task",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Algorithms: Combining Sequencing, Selection, and Iteration",
+        "topics": [
+          "What an algorithm means in CSP's terms: a precise sequence of steps that solves a problem or a whole class of problems",
+          "Combining sequencing, selection, and iteration together to express a real algorithm",
+          "Simulating an algorithm by hand on paper before trusting it in code",
+          "Search: a first look at how a program finds something inside a list",
+          "Sort: the idea of putting data in order, without needing to memorise every sorting method by name",
+          "Recognising an algorithm's purpose from CSP-style pseudocode alone, a guaranteed multiple-choice skill"
+        ],
+        "projects": [
+          "Algorithm workbook: a search and a sort implemented from a plain-language description, each hand-traced on a small list first"
+        ],
+        "practice": "12 algorithm-tracing problems in CSP pseudocode, each requiring a predicted output before running the equivalent code"
+      },
+      "week_6": {
+        "title": "Procedural Abstraction and Parameters",
+        "topics": [
+          "Procedural abstraction: naming a block of steps so it can be reused without re-reading it every time",
+          "Parameters as a procedure's inputs, and return values as its output",
+          "Building a program from smaller, individually tested procedures instead of one long block",
+          "Libraries and built-in procedures: using code you did not write, correctly and with understanding",
+          "How the CSP Exam Reference Sheet documents procedures, and reading a procedure header quickly",
+          "Documenting what a procedure does so a reader does not have to trace it line by line to understand it"
+        ],
+        "projects": [
+          "Procedure library: a small set of reusable procedures for a chosen task, called from one main program and tested independently"
+        ],
+        "practice": "10 problems designing a procedure header from a plain-language specification, plus 4 tracing problems on procedure calls"
+      },
+      "week_7": {
+        "title": "The Development Process: Incremental Building, Testing, and Collaboration",
+        "topics": [
+          "Incremental and iterative development: build a little, test a little, the exact process Creative Development questions test",
+          "Identifying and fixing errors, and the real difference between a syntax error and a logic error",
+          "Testing with a range of inputs, including edge cases that break naive solutions",
+          "Collaboration in program development, and describing working with others honestly the way CSP expects",
+          "Program documentation: comments that explain why a choice was made, not only what a line does",
+          "Keeping a running development log, the exact habit month 4 relies on for the Create Task"
+        ],
+        "projects": [
+          "Debug and repair: a deliberately broken program fixed step by step, with every bug and its fix logged in writing"
+        ],
+        "practice": "8 debugging exercises with planted logic errors, plus a short written reflection on the development process used"
+      },
+      "week_8": {
+        "title": "Choosing and Planning Your Create Task Idea",
+        "topics": [
+          "What the Create Performance Task actually requires: an individually developed program with at least one list, a procedure that takes parameters, and an algorithm using selection or iteration to manage complexity",
+          "Choosing an idea you can build and explain in your own words, not one that looks impressive but that you cannot honestly walk through",
+          "Scoping a project to roughly nine hours of hands-on development time, the College Board's own minimum",
+          "Sketching the program's purpose, inputs, and outputs before writing a line of code",
+          "Planning exactly where the required list, procedure, and algorithm will live in your design",
+          "Instructor sign-off on your Create Task idea before month 3's Data content and month 4's build sessions begin"
+        ],
+        "projects": [
+          "Approved Create Task proposal: a one-page plan naming your program's purpose, its list, its procedure with parameters, and its core algorithm"
+        ],
+        "practice": "A written self-check against the official Create Task requirements, item by item, before the idea is approved",
+        "assessment": "Unit assessment: a timed multiple-choice set on Creative Development and the core programming content, reviewed question by question"
+      }
+    }
+  },
+  "phase_2_data_and_create_task": {
+    "title": "PHASE 2: Data, Deeper Algorithms, and Building the Create Task (Big Ideas 2 and 3, Months 3-4, Weeks 9-16)",
+    "description": "How computers represent and use data, then a return to algorithms with more complex data, while the Create Performance Task itself is planned, built across guided sessions, and finished.",
+    "month_3_data_and_information": {
+      "title": "Month 3: Data and Information",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Binary and How Computers Represent Data",
+        "topics": [
+          "Binary numbers: converting between binary and decimal by hand",
+          "Why computers store everything, numbers, text, images, and sound, as binary underneath",
+          "Bits, bytes, and the sizes CSP expects a student to reason about",
+          "Representing text with character encodings, and images as grids of coloured bits",
+          "Analog versus digital data, and what is gained and lost when something is digitised",
+          "Reading CSP multiple-choice questions that test binary conversion directly"
+        ],
+        "projects": [
+          "Binary explorer: a program that converts numbers between binary and decimal and explains each step of the conversion"
+        ],
+        "practice": "14 binary conversion problems plus 6 conceptual questions on the digital representation of text, image, and sound"
+      },
+      "week_10": {
+        "title": "Data Compression",
+        "topics": [
+          "Lossless compression: preserving every bit of the original data on the way back out",
+          "Lossy compression: trading some detail for a much smaller file",
+          "Where each type is actually used, and why source code and financial data are never compressed lossily",
+          "A simple compression scheme worked by hand to see the size trade-off directly",
+          "Metadata: what it is and why it travels with compressed and uncompressed data alike",
+          "Compression questions the way CSP tends to ask them: scenario-based, not formula-based"
+        ],
+        "projects": [
+          "Compression demo: a small program that compresses a repetitive data set with a simple scheme and reports the size saved"
+        ],
+        "practice": "10 scenario questions on choosing lossless versus lossy compression for a stated real-world use"
+      },
+      "week_11": {
+        "title": "Extracting Information from Data",
+        "topics": [
+          "Why data alone is not information, and the extraction step that sits between the two",
+          "Filtering, sorting, and searching a large data set for a specific answer",
+          "Combining two data sets to surface a relationship that neither shows on its own",
+          "Using tools to explore a data set too large to read by hand",
+          "Visualising data honestly, echoing the same cautions taught in our data-focused courses",
+          "Drawing a defensible conclusion from a data set, and stating plainly what that conclusion cannot claim"
+        ],
+        "projects": [
+          "Data-set investigation: a provided data set explored with filtering and grouping to answer three written questions with cited evidence"
+        ],
+        "practice": "8 data-extraction problems on real-style tables, each answer required to cite which rows or columns support it"
+      },
+      "week_12": {
+        "title": "Using Data to Solve Problems and Simulations",
+        "topics": [
+          "Simulations as simplified models of a real or imagined process",
+          "What a simulation can tell you, and what it cannot, since it is only ever a model",
+          "Building a simple simulation and running it many times to see a pattern emerge",
+          "Bias in data, and bias in the people who select or interpret it",
+          "How Data-focused questions typically read on the exam: a short scenario, then a reasoning question",
+          "Pulling the month together: binary, compression, extraction, and simulation as one connected story about data"
+        ],
+        "projects": [
+          "Simple simulation: a small program that models a repeated random process, for example a game of chance, and reports results across many runs"
+        ],
+        "practice": "A timed set of Data-focused multiple-choice questions, reviewed with the reasoning written out for every miss",
+        "assessment": "Unit assessment: a timed multiple-choice section on data representation, compression, extraction, and simulation"
+      }
+    },
+    "month_4_building_the_create_task": {
+      "title": "Month 4: Robust Programs and Building the Create Task",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Two-Dimensional Lists and Algorithmic Thinking",
+        "topics": [
+          "Lists of lists: representing a grid or a table of data",
+          "Traversing a two-dimensional list with nested iteration",
+          "Choosing a data structure that fits the problem, not just the one you already know best",
+          "A first, intuitive look at algorithm efficiency: why some approaches slow down badly as the data grows",
+          "Undecidable problems: an honest look at problems no algorithm can solve correctly for every possible input",
+          "Reading exam questions that compare two different algorithms solving the same problem"
+        ],
+        "projects": [
+          "Grid processor: a program that stores and analyses a small two-dimensional data set, for example a seating chart or a simple game board"
+        ],
+        "practice": "10 two-dimensional list problems plus 4 short-answer questions comparing the efficiency of two approaches to the same task"
+      },
+      "week_14": {
+        "title": "Simulations, Abstraction, and Managing Complexity",
+        "topics": [
+          "Abstraction as the tool that lets a program grow without becoming unreadable",
+          "Managing complexity with procedures, parameters, and well-named variables used together",
+          "Building a slightly larger simulation than week 12's, with more moving parts",
+          "Deciding what detail a simulation can safely leave out without breaking its usefulness",
+          "Refactoring a working but messy program into a cleaner one without changing what it does",
+          "Applying these same habits directly to your own Create Task program, starting this week"
+        ],
+        "projects": [
+          "Create Task build session one: the first working version of your program's core algorithm and required list, reviewed live with the instructor"
+        ],
+        "practice": "A self-review of your in-progress Create Task code against the list, procedure, and algorithm requirements"
+      },
+      "week_15": {
+        "title": "Building the Create Task: Robust Programs and Instructor Feedback",
+        "topics": [
+          "Writing a procedure with parameters that genuinely does the work your program needs, not one added only to meet a checklist",
+          "Testing your Create Task program against both typical and edge-case inputs",
+          "Handling unexpected input without the program crashing, a real mark of a robust program",
+          "Explaining your own code out loud in class, the exact skill the exam later asks for in writing",
+          "Incorporating instructor feedback into a second, improved working version",
+          "Keeping your development log current: what changed, why it changed, and what you tested afterward"
+        ],
+        "projects": [
+          "Create Task build session two: a tested, working version of your full program, incorporating the feedback from session one"
+        ],
+        "practice": "A written walkthrough of your program explaining what your list, procedure, and algorithm each do and why you built them that way"
+      },
+      "week_16": {
+        "title": "Completing the Create Task and the Personalized Project Reference",
+        "topics": [
+          "Finalising your Create Task program: last fixes, clear comments, and a clean final run",
+          "Producing your Personalized Project Reference, the PDF of your own code you are permitted to use on exam day",
+          "What changed in 2024: the Create Task is no longer submitted as a separately scored artifact; instead your Personalized Project Reference becomes the material you use on the exam itself to answer two written-response questions about your own program",
+          "Submitting through the AP Digital Portfolio, and the real deadline this falls near, around the end of April on a typical school-year calendar",
+          "A first practice attempt at explaining your program in writing, the same task the exam itself will ask for",
+          "Why building a program you can actually explain matters more than building one that merely runs without errors"
+        ],
+        "projects": [
+          "Completed Create Task: a finished, tested program with its Personalized Project Reference PDF prepared exactly as exam day requires"
+        ],
+        "practice": "Two practice written responses about your own program, self-checked against the kind of reasoning the real prompts reward",
+        "assessment": "Create Task checkpoint: instructor review of the finished program, its documentation, and a first written explanation of your own code"
+      }
+    }
+  },
+  "phase_3_systems_impact_and_mastery": {
+    "title": "PHASE 3: Computer Systems, Impact of Computing, and Exam Mastery (Big Ideas 4 and 5 and Full Practice, Months 5-6, Weeks 17-24)",
+    "description": "How the internet and larger computing systems actually work, an honest look at computing's effects on real people, then a full turn to exam craft built around your own finished Create Task.",
+    "month_5_computer_systems": {
+      "title": "Month 5: Computer Systems and Networks",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "How the Internet Works",
+        "topics": [
+          "The internet as a network of networks, not a single thing that lives anywhere",
+          "IP addresses and how a message finds its way to the right destination",
+          "Packets: breaking a message into pieces that can travel by different paths",
+          "Protocols as the agreed rules that let different systems talk to each other reliably",
+          "Bandwidth and latency, and why a fast connection is not the same thing as a low-delay one",
+          "Reading a CSP question about internet infrastructure for the exact concept being tested"
+        ],
+        "projects": [
+          "Packet-trace exercise: a written walkthrough of how a message would be broken into packets, routed, and reassembled between two points"
+        ],
+        "practice": "10 conceptual questions on IP addressing, packets, and protocols, each answered in one or two precise sentences"
+      },
+      "week_18": {
+        "title": "Fault Tolerance and Parallel Computing",
+        "topics": [
+          "Redundancy: why the internet keeps working even when a piece of it fails",
+          "Fault tolerance as a deliberate design goal, not an accident of good luck",
+          "Sequential versus parallel computing, and where each is genuinely the right choice",
+          "Distributed computing: splitting one large problem across many machines",
+          "Speedup, and why doubling the number of machines rarely halves the time exactly",
+          "Scenario questions that ask you to identify a fault-tolerant or a parallel design"
+        ],
+        "projects": [
+          "Parallel-versus-sequential demo: a small program run two ways, timed and compared, with the result explained in writing"
+        ],
+        "practice": "8 scenario questions distinguishing genuinely fault-tolerant designs from a single point of failure"
+      },
+      "week_19": {
+        "title": "Cybersecurity Fundamentals",
+        "topics": [
+          "What makes a system a worthwhile target: the value of the data it holds, not just its size",
+          "Common attacks explained plainly: phishing, malware, and denial-of-service, at the level CSP tests",
+          "Symmetric encryption: one shared key, and where that approach breaks down",
+          "Public-key encryption: how two sides can agree on a secret without ever meeting first",
+          "Authentication: passwords, multi-factor methods, and why each adds a genuine barrier",
+          "Practical safe-computing habits worth keeping regardless of the exam"
+        ],
+        "projects": [
+          "Encryption walkthrough: a simple substitution-style cipher implemented and then explained alongside why real systems need something far stronger"
+        ],
+        "practice": "10 cybersecurity scenario questions, each requiring the specific vulnerability or protection to be named"
+      },
+      "week_20": {
+        "title": "Computer Systems Review and Practice",
+        "topics": [
+          "Pulling the month together: the internet, fault tolerance, parallel computing, and cybersecurity as one connected system",
+          "Common traps in this area: mixing up a protocol with a specific piece of hardware",
+          "Practising the reading-passage multiple-choice questions, five of the seventy on the real exam",
+          "Timing strategy for the systems and networks questions specifically",
+          "Building a personal glossary of systems terms from the errors made this month",
+          "A short look ahead at Impact of Computing, which closes out the exam's content"
+        ],
+        "projects": [
+          "Systems glossary: a personal reference of every systems term missed this month, defined in your own words"
+        ],
+        "practice": "A timed multiple-choice set on computer systems and networks content only, reviewed with every miss traced to its specific concept",
+        "assessment": "Unit assessment: a timed multiple-choice section on computer systems and networks, including reading-passage-style questions"
+      }
+    },
+    "month_6_impact_and_exam_mastery": {
+      "title": "Month 6: Impact of Computing and Full Exam Mastery",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "Beneficial and Harmful Effects of Computing",
+        "topics": [
+          "Computing innovations as double-edged: the same tool serving different purposes for different people",
+          "The digital divide: unequal access to computing, and what that actually costs the people on the wrong side of it",
+          "Bias in algorithms: where it enters, from the data going in to the decisions coming out",
+          "Case studies of real computing innovations, weighed honestly for who benefits and who is put at risk",
+          "Safe computing practices: privacy settings, a personal data footprint, and informed consent",
+          "Writing a balanced answer that names both a genuine benefit and a genuine risk, the exact shape these questions want"
+        ],
+        "projects": [
+          "Impact case study: one real computing innovation analysed in writing for its benefits, its risks, and who is affected by each"
+        ],
+        "practice": "6 short-answer questions each requiring one genuine benefit and one genuine harm for a given computing innovation"
+      },
+      "week_22": {
+        "title": "Intellectual Property, Open Source, and Full Multiple-Choice Practice",
+        "topics": [
+          "Intellectual property: copyright, and why code can be protected the same way other creative work is",
+          "Open source and Creative Commons licensing, and how each differs from default copyright",
+          "Crowdsourcing and collaborative projects as a computing-enabled way of working",
+          "Legal and ethical questions CSP expects you to reason through, not just define",
+          "Starting full-length, seventy-question multiple-choice practice sets under timed conditions",
+          "Building the error log that will drive the final two weeks of review"
+        ],
+        "projects": [
+          "First full multiple-choice practice set: seventy questions in one hundred twenty minutes, scored and logged by Big Idea"
+        ],
+        "practice": "The full timed multiple-choice set plus a written review of every question missed, grouped by which Big Idea it tested"
+      },
+      "week_23": {
+        "title": "Written-Response Drilling with the Personalized Project Reference",
+        "topics": [
+          "The written-response section in full: two required questions about your own program, answered using your Personalized Project Reference",
+          "What each written-response question actually asks for, and how it is scored",
+          "Practising with your own finished Create Task code, exactly as the real exam requires",
+          "Multiple-choice pacing refined: fifty-seven single-select, eight multiple-select choose-two, and five reading-passage questions in the mix",
+          "Strategies for the multiple-select questions specifically, since a partial answer does not earn partial credit there",
+          "A second full multiple-choice practice set, timed, with pacing tracked question by question"
+        ],
+        "projects": [
+          "Two scored written responses about your own Create Task program, written exactly as the real exam requires and reviewed against the reasoning the rubric rewards"
+        ],
+        "practice": "The second full timed multiple-choice set, plus two written-response drafts scored and revised"
+      },
+      "week_24": {
+        "title": "Full Mock Exam and Test-Ready Review",
+        "topics": [
+          "A complete timed mock exam: seventy multiple-choice questions plus both written-response questions, run under digital conditions",
+          "Reviewing the mock section by section, multiple choice against written response",
+          "Closing the last content gaps the mock exposed",
+          "The test-day routine: the Personalized Project Reference on hand, digital exam navigation, and timing across both sections",
+          "An honest, evidence-based look at where you stand across all five Big Ideas",
+          "Where to go next: AP Computer Science A, a first real coding course, or building further on the Create Task itself"
+        ],
+        "projects": [
+          "Full mock exam, scored across both sections, ending in a one-page test-day plan built from your own results"
+        ],
+        "practice": "The complete mock exam plus targeted repair of the single weakest Big Idea it revealed",
+        "assessment": "Final assessment: a complete timed mock exam covering both the multiple-choice and written-response sections, plus a progress summary from week 1 to now"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A list toolkit of procedures tested on an empty list and a single-item list",
+      "An algorithm workbook implementing a search and a sort from plain-language descriptions",
+      "A binary explorer that converts and explains number representations",
+      "A data-set investigation answering written questions with cited evidence",
+      "A finished, tested Create Performance Task program with its own required list, procedure, and algorithm",
+      "A Personalized Project Reference prepared exactly as exam day requires",
+      "An impact case study weighing a real computing innovation's benefits and risks",
+      "A complete timed mock exam covering multiple choice and both written responses"
+    ],
+    "total_projects_built": "Dozens of small programs plus a completed Create Performance Task, an impact case study, two scored written responses, and a full timed mock exam, all mapped to the current CSP exam",
+    "skills_mastered": [
+      "Reading and writing real code built around variables, lists, selection, iteration, and procedures",
+      "Designing, building, testing, and explaining an individually developed program, the exact demand of the Create Performance Task",
+      "Reasoning about data: binary representation, compression, and drawing defensible conclusions from a data set",
+      "Understanding how the internet, fault tolerance, and parallel computing actually work, at the depth the exam tests",
+      "Weighing the beneficial and harmful effects of a computing innovation in writing, including bias and the digital divide",
+      "Multiple-choice pacing and written-response habits drilled on full timed mock exams"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, building and discussing real programs rather than watching slides",
+      "practice": "3-4 hours weekly of coding exercises and pseudocode tracing, plus dedicated Create Task build time from month 4 onward",
+      "review": "Homework, the Create Task, and written responses reviewed with written feedback, scored the way the real exam scores each section"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, awarded on finishing the course, the Create Task, and the final timed mock exam"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with worked explanations for the problems that stall you",
+      "progress_updates": "Monthly progress notes tracking unit assessments, Create Task milestones and, in the final month, mock-exam scores",
+      "career_guidance": "Honest guidance on what an AP score does and does not do for college admissions and credit, and what to study next in computer science"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "Comfortable school-level arithmetic and logical reasoning. No calculus or advanced maths is required for AP Computer Science Principles",
+    "programming": "None required. The course is beginner-friendly and builds programming concepts from the first class; CSP is intentionally language-flexible, and no prior experience is assumed",
+    "equipment": "A computer that can run our teaching language and a modern browser, since the real exam and our mock exams use a digital testing environment. We help with the full setup in week 1",
+    "audience": "High school students preparing for AP Computer Science Principles, typically as their first AP computer science course, whether taking it at school or self-studying"
+  },
+  "who_is_this_for": {
+    "ap_students": "Students taking AP Computer Science Principles at school who want a structured, current course and real code review alongside their class",
+    "self_studiers": "Students whose school does not offer AP CSP and who are preparing for the exam independently",
+    "first_ap_course": "Students choosing CSP as their first AP computer science course, since it is broader and more forgiving of a standing start than AP Computer Science A",
+    "curious_beginners": "Students who are not yet sure programming is for them and want an honest, low-pressure introduction to what computing actually involves",
+    "international_students": "International students sitting AP for university applications who need the exam taught to its current, digital, two-part format"
+  },
+  "career_paths_after_completion": [
+    "A strong footing for the AP Computer Science Principles exam and, through it, university applications",
+    "A natural next step into AP Computer Science A, our Java-based course, for students who want to go deeper into a single language",
+    "A genuine first exposure to computing broad enough to inform a computer science, data, or engineering degree choice",
+    "The programming and problem-solving base for our other coding courses, including Python and web development",
+    "A completed, explainable programming project and an honest sense of what computing work actually involves, useful well beyond the exam itself"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured curriculum that builds programming concepts from scratch and follows the current two-part exam, with hands-on coding in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so a stuck problem does not cost you a week.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "How is AP Computer Science Principles different from AP Computer Science A?",
+      "answer": "CSP is the broad, conceptual course. It covers five Big Ideas, Creative Development, Data, Algorithms and Programming, Computer Systems and Networks, and Impact of Computing, and it is language-flexible, so students may work in a block-based or a text-based language. AP Computer Science A, by contrast, is a single-language course taught entirely in Java, with no data, internet, or impact content. Many students take CSP first, since it needs no prior coding background and gives an honest sense of whether programming and computing are worth going deeper into with AP Computer Science A afterward."
+    },
+    {
+      "question": "Do I need any coding experience before I start?",
+      "answer": "No. The course is built to be beginner-friendly from the first class, and CSP itself is designed for students with no programming background. We teach the concepts, variables, lists, procedures, selection, and iteration, from scratch, alongside the College Board's own pseudocode conventions used in most exam questions. Some prior exposure to any language, block-based or text-based, helps you move faster, but nothing is assumed."
+    },
+    {
+      "question": "What is the Create Performance Task, and how is it assessed now?",
+      "answer": "The Create Performance Task is an individually developed program you build over at least nine hours of guided development time, using at least one list, a procedure that takes parameters, and an algorithm that manages complexity with selection or iteration. You submit your code as a Personalized Project Reference PDF through the AP Digital Portfolio, with a deadline that falls near the end of April on a typical school-year calendar. What changed starting with the 2024-25 exam is how this is scored: the Create Task is no longer graded as a standalone submitted artifact by AP readers. Instead, on the end-of-course exam itself, you answer two written-response questions about your own program, using your Personalized Project Reference as permitted reference material. This written-response section is Section II of the exam and is worth thirty percent of your score. We build and finish your Create Task across guided sessions in month 4, then drill exactly this written-response format against your own finished code in month 6."
+    },
+    {
+      "question": "What programming language will I use?",
+      "answer": "CSP is intentionally language-flexible: the College Board allows both block-based and text-based languages for the Create Task, and does not test any one language's exact syntax on the multiple-choice exam. We teach with a beginner-friendly, text-based language for building real programs, including your Create Task, and we also teach fluent reading of the College Board's own pseudocode, since that is the notation most multiple-choice questions are actually written in. The point of the course is the underlying concept, a loop, a list, a procedure with parameters, which transfers to any language you use later, including Java if you go on to AP Computer Science A."
+    },
+    {
+      "question": "What is the exam format?",
+      "answer": "The exam has two sections, taken digitally. Section I is multiple choice: seventy questions in one hundred twenty minutes, worth seventy percent of the score. Of those seventy, fifty-seven are single-select questions, eight are multiple-select questions where you must choose exactly two correct answers, and five are based on a short reading passage. Section II is the written-response section: two questions about your own Create Task program, answered using your Personalized Project Reference, worth thirty percent of the score. We run full timed practice on both sections, including complete mock exams under digital conditions."
+    },
+    {
+      "question": "Will this course get me a 5, or college credit?",
+      "answer": "No honest course can promise a specific score. AP exams are graded 1 to 5, and your result depends on your starting point, the hours you put into practice, and your performance on the day. What we can promise is honest: live teaching to the current two-part exam, a real, individually developed Create Task built with instructor feedback, full multiple-choice and written-response practice, and complete timed mock exams, plus a clear, evidence-based read on a realistic target for you. Whether a given score earns college credit is decided by each university individually, not by us or by the College Board, so check the specific policy of the colleges you care about."
+    },
+    {
+      "question": "Can I manage this alongside school and other subjects?",
+      "answer": "Yes, it is built for a school student's week: two live one-hour classes plus three to four hours of practice you can place where it fits, with evening and weekend class slots. The pace stays steady rather than crushing, and WhatsApp doubt support means a problem that stalls you on a school night does not have to wait for the next class. Students who miss a session can usually attend the same class with another batch where scheduling allows, so a busy exam week does not leave a real gap."
+    },
+    {
+      "question": "What does the course cost, and can I try it first?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $40 per month for group classes and $100 per month for 1-on-1. The first demo class is free, so you can see the teaching before deciding: book at learn.modernagecoders.com/contact or on WhatsApp at +91 91233 66161."
+    },
+    {
+      "question": "Is this course affiliated with the College Board?",
+      "answer": "No. Modern Age Coders is an independent education provider and is not affiliated with, authorised by, or endorsed by the College Board. AP and Advanced Placement are registered trademarks of the College Board, used here only to describe the exam this course prepares students for. For official course and exam information, students should always refer to the College Board and AP Central directly."
+    }
+  ]
+}

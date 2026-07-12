@@ -1,0 +1,555 @@
+{
+  "meta": {
+    "slug": "ap-statistics-maths-exam-prep-course",
+    "title": "AP Statistics: Exam Prep with the Investigative Task",
+    "description": "Live online AP Statistics exam prep: all nine AP units, the Investigative Task, free-response rubric mastery and full digital mock exams for a real score.",
+    "keywords": [
+      "ap statistics course online",
+      "ap stats exam prep",
+      "ap statistics investigative task",
+      "ap stats free response practice",
+      "ap statistics units review",
+      "ap statistics tutoring online",
+      "ap statistics graphing calculator course",
+      "ap statistics digital mock exams"
+    ],
+    "category": "Advanced Placement Mathematics",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "6 months (24 weeks)",
+    "level": "High school students preparing for AP Statistics; taught from the ground up, comfort with school algebra assumed",
+    "commitment": "2 live classes/week + 4-5 hours practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "ap-statistics.png"
+  },
+  "program_overview": {
+    "title": "AP Statistics",
+    "tagline": "A statistics course built around one exam: nine AP units, the Investigative Task, and the free-response rubric that decides most of the score.",
+    "description": "AP Statistics is not the same subject as a general college statistics course, even though the two share a name. It is organised around nine specific units, tested on one specific exam, in one specific format, and this course is built around exactly that exam as it exists now, not around statistics in general. The exam runs in two equal halves: Section I is 40 multiple-choice questions in 90 minutes, worth half the score, and Section II is 6 free-response questions in 90 minutes, worth the other half. Of those six, the first five are short-answer questions, budgeted at roughly 12 minutes each, and the sixth is the Investigative Task, a single longer question worth about 30 of those 90 minutes that asks you to apply and extend what you know to a scenario the exam has not shown you before. The exam is also hybrid: multiple-choice questions and the free-response prompts are viewed in the College Board's Bluebook digital testing app, but every free-response answer is handwritten in a paper booklet that is collected and scored separately. A graphing calculator, such as a TI-84, is expected and permitted for the whole exam, and this course teaches its use from week one.\n\nThe six-month structure follows the nine AP units in the order the exam tests them. Months 1 and 2 cover Units 1 through 3: exploring one-variable data with the normal model, exploring two-variable data with correlation and least-squares regression, and collecting data through sampling and experimental design. Months 3 and 4 cover Units 4 and 5: probability, random variables, the binomial and geometric distributions, then sampling distributions and the Central Limit Theorem that every later inference procedure depends on. Months 5 and 6 cover Units 6 through 9, formal inference for proportions, means, chi-square settings and regression slopes, then turn fully to exam craft: the Investigative Task practiced as its own skill, every free-response question type drilled against the real rubric, and two full timed mock exams run under the exam's actual hybrid-digital conditions. Because the rubric rewards communication as much as computation, every answer in this course, from week one onward, is written to justify a conclusion with evidence, interpret it correctly in context, and state the conditions it depends on, since a right number with no justification earns limited credit on the real exam.",
+    "what_makes_this_different": [
+      "Organised around the nine official AP Statistics units in the order the exam actually tests them, not a general statistics syllabus with an AP label attached",
+      "The Investigative Task, free-response Question 6, practiced as its own skill from month 6 onward, since it is scored differently from the other five questions and most courses barely touch it",
+      "Free-response answers drilled against the communication standard the rubric truly rewards: justifying a conclusion with evidence, interpreting it correctly, and stating the conditions it depends on",
+      "Graphing calculator fluency built in from week 1, since the real exam expects confident use of a calculator such as a TI-84 throughout both sections",
+      "Full readiness for the hybrid-digital format: multiple-choice and free-response prompts viewed in the Bluebook app, but free-response answers handwritten in paper booklets, practiced under those exact conditions",
+      "Live, small batches where you work real data and real free responses during class and get them reviewed, not lecture videos watched alone"
+    ],
+    "learning_path": {
+      "phase_1": "Exploring data and collecting it: one-variable distributions and the normal model, two-variable scatterplots and least-squares regression, then sampling methods, experiments and bias (Units 1-3)",
+      "phase_2": "Randomness and its rules: probability, random variables, binomial and geometric distributions, then sampling distributions and the Central Limit Theorem (Units 4-5)",
+      "phase_3": "Formal inference and the exam itself: confidence intervals and significance tests for proportions, means, chi-square settings and slopes (Units 6-9), Investigative Task mastery, and full timed mock exams under real hybrid-digital conditions"
+    },
+    "career_outcomes": [
+      "Readiness for the AP Statistics exam as it is currently tested, including the Investigative Task and the hybrid-digital format",
+      "Genuine statistical reasoning: reading a study or a data set and knowing exactly what the evidence does and does not support",
+      "A realistic, evidence-based read on a target AP score, built from your own mock-exam results rather than a guess",
+      "Free-response and justification habits, stating assumptions and interpreting evidence, that carry into any college course requiring data analysis",
+      "A strong foundation for a college-level introductory statistics course, since AP Statistics closely mirrors it in both content and reasoning"
+    ]
+  },
+  "phase_1_exploring_and_collecting_data": {
+    "title": "PHASE 1: Exploring Data and Collecting Data (Units 1-3, Months 1-2, Weeks 1-8)",
+    "description": "The data-analysis half of the course: describing one-variable and two-variable data honestly, then how data is collected in the first place. The graphing calculator and the free-response communication standard are introduced here and used every week from this point on.",
+    "month_1_exploring_one_variable_data": {
+      "title": "Month 1: Exploring One-Variable Data (Unit 1)",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Displaying and Describing Distributions",
+        "topics": [
+          "Individuals, variables, and the shape of the AP Statistics course: nine units, two exam sections, and the exam that ends it",
+          "Categorical versus quantitative data, and the type of graph each one calls for",
+          "Dotplots, stemplots and histograms: reading shape, not just drawing it",
+          "Describing a distribution in words: shape, outliers, center and spread, the sentence the exam always wants",
+          "Setting up the graphing calculator: entering lists, running 1-Var Stats, and building a first histogram on screen",
+          "The AP Statistics communication standard: why a correct number with no justification earns limited credit"
+        ],
+        "projects": [
+          "First distribution report: a real one-variable data set displayed, described in full shape-outliers-center-spread sentences, and checked on the calculator"
+        ],
+        "practice": "12 distribution-description problems, each answer required to name shape, outliers, center and spread in one paragraph, not a list of numbers"
+      },
+      "week_2": {
+        "title": "Measuring Center and Spread",
+        "topics": [
+          "Mean and median, and which one a skewed distribution or an outlier pulls away from the other",
+          "Range, interquartile range, and the 1.5 times IQR rule for flagging outliers",
+          "Variance and standard deviation built up from deviations, not dropped as a formula",
+          "The five-number summary, and building a boxplot from it by hand and by calculator",
+          "Choosing mean and standard deviation versus median and IQR to summarise a distribution, and defending the choice",
+          "Comparing two distributions side by side on boxplots, a guaranteed exam question type"
+        ],
+        "projects": [
+          "Center-and-spread comparison: two real groups compared on boxplots with a full written comparison of shape, center, spread and outliers"
+        ],
+        "practice": "14 problems computing and choosing summary measures, half requiring a written comparison between two groups"
+      },
+      "week_3": {
+        "title": "The Normal Distribution",
+        "topics": [
+          "The normal curve, its parameters, and the 68-95-99.7 rule",
+          "Standardising a value into a z-score and reading what it says about relative position",
+          "Finding areas under the normal curve on the calculator with normalcdf",
+          "The inverse problem: finding a value from a given percentile with invNorm",
+          "Assessing normality with a normal probability plot, read for curvature rather than computed",
+          "Normal calculations written up in context, the way the exam scores them, not just the final number"
+        ],
+        "projects": [
+          "Normal model check: a real quantitative data set tested against the 68-95-99.7 rule, with normalcdf and invNorm used to answer three context questions"
+        ],
+        "practice": "14 normal distribution problems, each opened with a labelled sketch of the curve and the shaded region before any calculator work"
+      },
+      "week_4": {
+        "title": "Unit 1 Mastery and the Free-Response Standard",
+        "topics": [
+          "Pulling Unit 1 together: distributions, summary statistics and the normal model in one paper",
+          "Reading a Unit 1 free-response prompt the way the rubric is written, points named as sentences rather than numbers",
+          "The exam's two sections at a glance: 40 multiple-choice questions in 90 minutes worth 50 percent of the score, and 6 free-response questions in 90 minutes worth the other 50 percent",
+          "Multiple-choice pacing for a Unit 1 style set: roughly two minutes a question",
+          "Common Unit 1 mistakes: describing shape from a boxplot alone, and confusing standard deviation with interquartile range",
+          "Starting a personal error log, kept and grown for the rest of the course"
+        ],
+        "projects": [
+          "First scored free response: a Unit 1 style question written under time and self-scored against a rubric, with every lost point named"
+        ],
+        "practice": "A timed Unit 1 multiple-choice set at exam pace, followed by one full free-response question reviewed line by line against its rubric",
+        "assessment": "Unit 1 assessment: a timed paper on one-variable data covering multiple-choice and one free response, marked on both the number and the justification"
+      }
+    },
+    "month_2_two_variable_data_and_collecting_data": {
+      "title": "Month 2: Two-Variable Data and Collecting Data (Units 2-3)",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Exploring Two-Variable Data: Scatterplots and Correlation",
+        "topics": [
+          "Explanatory and response variables, and setting up a scatterplot correctly",
+          "Describing a scatterplot: direction, form, strength and outliers, the two-variable version of shape-outliers-center-spread",
+          "The correlation coefficient r: what it measures and where its usefulness stops",
+          "Correlation is not causation, with a plausible confounding variable named every time",
+          "Computing r on the calculator from two lists",
+          "Why a strong r does not automatically mean a good model, previewing residuals"
+        ],
+        "projects": [
+          "Relationship study: a real two-variable data set plotted, described in full, and its correlation computed and interpreted in context"
+        ],
+        "practice": "12 scatterplot and correlation problems, every claim of a relationship backed by a described scatterplot, not just an r value"
+      },
+      "week_6": {
+        "title": "Least-Squares Regression",
+        "topics": [
+          "The least-squares regression line and exactly what quantity it minimises",
+          "Finding the equation on the calculator with LinRegTTest, and reading slope and intercept in context",
+          "The coefficient of determination, r-squared, and what percentage of variation it explains",
+          "Residuals and the residual plot: the honesty check the exam consistently asks for",
+          "Predicting within the range of the data versus extrapolating beyond it",
+          "Influential points and outliers in a regression setting"
+        ],
+        "projects": [
+          "Prediction model: a regression line fit to real data, its residual plot checked for pattern, and two predictions made with their limits stated"
+        ],
+        "practice": "12 regression problems with slope and intercept interpreted in the units of the problem every time, plus 4 residual-plot readings"
+      },
+      "week_7": {
+        "title": "Collecting Data: Sampling",
+        "topics": [
+          "Population versus sample, and why that distinction drives all of Unit 3",
+          "Simple random samples, stratified samples, cluster samples and systematic samples",
+          "Convenience sampling and voluntary response, and why both are biased by design",
+          "Sources of bias: undercoverage, nonresponse, and response bias from question wording",
+          "How a sampling method is described and evaluated on the free-response section",
+          "Designing a sampling plan for a given population and research question"
+        ],
+        "projects": [
+          "Sampling critique: a real published survey evaluated for its sampling method, with specific bias risks named in writing"
+        ],
+        "practice": "10 sampling-design problems, each requiring the method to be named and one bias risk identified"
+      },
+      "week_8": {
+        "title": "Collecting Data: Experiments and Unit 2-3 Mastery",
+        "topics": [
+          "Observational studies versus experiments, and what only a well-designed experiment can show",
+          "Experimental design vocabulary: treatments, experimental units, and the placebo effect",
+          "The principles of good experimental design: control, randomisation, and replication",
+          "Blocking and why it is used, contrasted with a completely randomised design",
+          "Confounding variables in an experiment versus in an observational study",
+          "Units 2 and 3 pulled together, with a timed multiple-choice set mixing both"
+        ],
+        "projects": [
+          "Experiment design: a full experimental design written for a given research question, naming treatments, randomisation and control"
+        ],
+        "practice": "10 experimental-design problems plus a timed Unit 2-3 multiple-choice set reviewed question by question",
+        "assessment": "Unit 2-3 assessment: a timed paper on two-variable data and data collection, including one regression free response and one design free response"
+      }
+    }
+  },
+  "phase_2_probability_and_sampling": {
+    "title": "PHASE 2: Probability and Sampling Distributions (Units 4-5, Months 3-4, Weeks 9-16)",
+    "description": "The mechanics of randomness that make inference possible: probability rules, random variables, the named distributions, then sampling distributions and the Central Limit Theorem that the entire second half of the course depends on.",
+    "month_3_probability_and_random_variables": {
+      "title": "Month 3: Probability, Random Variables and Probability Distributions (Unit 4)",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Probability Rules",
+        "topics": [
+          "Randomness, probability as long-run relative frequency, and simulating it on the calculator",
+          "Sample spaces, events, and the basic probability rules",
+          "The addition rule for mutually exclusive and overlapping events",
+          "Conditional probability, and what being told the condition changes about the sample space",
+          "Independence: the definition, and testing for it using a two-way table",
+          "The multiplication rule for independent and dependent events"
+        ],
+        "projects": [
+          "Two-way table study: a real two-way table used to compute conditional probabilities and formally test two events for independence"
+        ],
+        "practice": "14 probability problems from single events through conditional probability, independence checked by calculation, not by eye"
+      },
+      "week_10": {
+        "title": "Random Variables",
+        "topics": [
+          "Discrete random variables and their probability distributions",
+          "Mean, or expected value, of a discrete random variable, and what it means for a variable that only takes whole values",
+          "Standard deviation of a discrete random variable",
+          "Combining random variables: rules for the mean and variance of sums and differences",
+          "Independence between two random variables, and why it matters before combining variances",
+          "Random variables in context: insurance, games, and simple business scenarios"
+        ],
+        "projects": [
+          "Combined-variable analysis: two random variables combined by sum or difference, with mean and standard deviation of the result found and interpreted"
+        ],
+        "practice": "12 random variable problems including 4 combination questions checked for the independence condition first"
+      },
+      "week_11": {
+        "title": "Binomial and Geometric Distributions",
+        "topics": [
+          "The binomial setting: the four conditions checked in words before any formula is used",
+          "Binomial probability, mean and standard deviation, by hand and with binompdf and binomcdf",
+          "The geometric setting: waiting for the first success",
+          "Geometric probability, mean and standard deviation, with geometpdf and geometcdf",
+          "Choosing between a binomial and a geometric model from the story in the question",
+          "The 10 percent condition: when sampling without replacement behaves close enough to independent"
+        ],
+        "projects": [
+          "Model choice project: three real scenarios each modelled correctly as binomial or geometric, with the setting's conditions checked in writing"
+        ],
+        "practice": "14 binomial and geometric problems, the first written step always naming and checking the setting's conditions"
+      },
+      "week_12": {
+        "title": "Unit 4 Mastery and Probability Free Response",
+        "topics": [
+          "Pulling Unit 4 together: probability rules, random variables, binomial and geometric models",
+          "Reading a probability free-response question for exactly what it asks: a probability, a mean, or a standard deviation",
+          "Common Unit 4 mistakes: using a binomial model when trials are not independent, and misreading at least versus more than",
+          "Calculator fluency check: normalcdf, invNorm, binompdf, binomcdf, geometpdf and geometcdf used correctly and quickly",
+          "A timed Unit 4 multiple-choice set at exam pace",
+          "Error log review: Unit 4 mistakes classified and drilled"
+        ],
+        "projects": [
+          "Timed probability free response written under exam conditions and self-scored against a rubric"
+        ],
+        "practice": "A timed Unit 4 multiple-choice set plus one full free-response question reviewed against its rubric",
+        "assessment": "Unit 4 assessment: a timed paper on probability, random variables and probability distributions, including one free response"
+      }
+    },
+    "month_4_sampling_distributions": {
+      "title": "Month 4: Sampling Distributions (Unit 5)",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Sampling Variability and the Sampling Distribution of a Proportion",
+        "topics": [
+          "Parameter versus statistic, and why every sample gives a slightly different answer",
+          "The idea of a sampling distribution: the distribution of a statistic over repeated samples",
+          "Simulating a sampling distribution on the calculator to watch shape, center and spread build up",
+          "The sampling distribution of a sample proportion: its mean, its standard deviation, and when it is approximately normal",
+          "The conditions for that normal approximation: random, 10 percent, and large counts",
+          "Unbiased estimators, and why the sample proportion is one for the population proportion"
+        ],
+        "projects": [
+          "Simulation build: a sampling distribution for a proportion simulated by hand or calculator, with shape, center and spread reported from the simulation"
+        ],
+        "practice": "10 sampling-distribution problems for proportions, each requiring the three conditions checked before any normal calculation"
+      },
+      "week_14": {
+        "title": "The Sampling Distribution of a Sample Mean and the Central Limit Theorem",
+        "topics": [
+          "The sampling distribution of a sample mean: its mean and its standard deviation",
+          "The Central Limit Theorem stated precisely: what a large sample size buys you even from a skewed population",
+          "Watching the Central Limit Theorem happen: simulating sample means from a skewed population as sample size grows",
+          "When the population itself is already normal, and why a large sample size is not needed then",
+          "The 10 percent condition applied to sample means",
+          "Common misreadings of the theorem, including confusing the population's shape with the sampling distribution's shape"
+        ],
+        "projects": [
+          "Central Limit Theorem simulation: sample means drawn repeatedly from a skewed population, with the resulting shape compared at small and large sample sizes"
+        ],
+        "practice": "10 sampling-distribution problems for means, plus the simulation repeated on a second population shape"
+      },
+      "week_15": {
+        "title": "Sampling Distributions for Differences and Exam-Style Reasoning",
+        "topics": [
+          "The sampling distribution of a difference in two proportions",
+          "The sampling distribution of a difference in two sample means",
+          "Conditions for each, including independence between the two samples",
+          "Reading a scenario to decide which sampling distribution applies: one sample or two, proportion or mean",
+          "Connecting Unit 5 forward to Units 6 and 7: every confidence interval and test still to come rests on one of these distributions",
+          "Free-response practice describing a sampling distribution in full: shape, center, spread and the conditions that justify each"
+        ],
+        "projects": [
+          "Distribution identification drill: ten scenarios each matched to the correct sampling distribution, with mean, standard deviation and conditions stated"
+        ],
+        "practice": "12 mixed sampling-distribution problems where the question never announces which distribution to use"
+      },
+      "week_16": {
+        "title": "Unit 5 Mastery and the Bridge to Inference",
+        "topics": [
+          "Pulling Unit 5 together: sampling variability and every sampling distribution covered so far",
+          "A worked preview of how a confidence interval is really a sampling distribution centered on a statistic",
+          "A worked preview of how a significance test asks whether a statistic is surprising given an assumed sampling distribution",
+          "A timed multiple-choice set at exam pace covering Units 4 and 5 together",
+          "Error log review: probability and sampling-distribution mistakes classified and drilled",
+          "Calculator fluency check across every function used so far in the course"
+        ],
+        "projects": [
+          "Timed Unit 5 free response written under exam conditions and self-scored against a rubric"
+        ],
+        "practice": "A timed Units 4-5 multiple-choice set plus one full free-response question reviewed against its rubric",
+        "assessment": "Unit 5 assessment: a timed paper on sampling distributions, including one free response connecting a distribution to its conditions"
+      }
+    }
+  },
+  "phase_3_inference_and_exam_mastery": {
+    "title": "PHASE 3: Inference and Exam Mastery (Units 6-9 and Full Mocks, Months 5-6, Weeks 17-24)",
+    "description": "Formal inference for every setting the exam tests, then a full turn to exam craft: the Investigative Task drilled as its own skill, every free-response type reviewed against the real rubric, and two complete timed mock exams under hybrid-digital conditions.",
+    "month_5_inference_for_proportions_and_means": {
+      "title": "Month 5: Inference for Proportions and Means (Units 6-7)",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "Confidence Intervals for a Proportion",
+        "topics": [
+          "The logic of a confidence interval: an interval built to have a stated chance of capturing the true parameter",
+          "The conditions for inference on one proportion: random, 10 percent, and large counts",
+          "Constructing a one-sample z-interval for a proportion, by hand and with the calculator",
+          "Margin of error, and the three things that change it",
+          "What 95 percent confidence actually means, and the misreadings the exam is built to catch",
+          "Confidence intervals for a difference in two proportions"
+        ],
+        "projects": [
+          "Interval report: a confidence interval for a real proportion built from data, with the correct interpretation written out in full context"
+        ],
+        "practice": "12 proportion-interval problems, every interval followed by a correctly worded, in-context interpretation sentence"
+      },
+      "week_18": {
+        "title": "Significance Tests for a Proportion",
+        "topics": [
+          "Stating null and alternative hypotheses correctly for a one-proportion test",
+          "The test statistic, the p-value, and what a p-value actually measures",
+          "Checking the same three conditions before trusting a test",
+          "One-sample and two-sample z-tests for proportions, by hand and with the calculator",
+          "Type I and Type II errors, and significance level as the Type I error rate you choose",
+          "Writing a full test conclusion in context: state, plan, do, conclude, the four-step structure the rubric rewards"
+        ],
+        "projects": [
+          "Claim test: a real claim about a proportion tested against data, written up in the full state-plan-do-conclude structure"
+        ],
+        "practice": "12 proportion-test problems, every conclusion written in context and linked back to the p-value"
+      },
+      "week_19": {
+        "title": "Confidence Intervals for a Mean",
+        "topics": [
+          "Why a t-distribution, not a normal distribution, is used for inference on a mean",
+          "Degrees of freedom in plain language, and how the t-distribution compares to normal as they grow",
+          "The conditions for inference on one mean: random, 10 percent, and normal or large sample",
+          "Constructing a one-sample t-interval for a mean, by hand and with the calculator",
+          "Confidence intervals for a difference in two means, paired and unpaired designs told apart",
+          "Recognising a paired design, a frequent trap on the exam"
+        ],
+        "projects": [
+          "Interval report: a confidence interval for a real mean built from data, with the paired-versus-unpaired decision justified in writing"
+        ],
+        "practice": "12 mean-interval problems including two paired designs hidden among unpaired ones"
+      },
+      "week_20": {
+        "title": "Significance Tests for a Mean and Unit 6-7 Mastery",
+        "topics": [
+          "One-sample and two-sample t-tests for means, hypotheses stated and conditions checked every time",
+          "Paired t-tests, and why they are really a one-sample test performed on the differences",
+          "Effect size, and why a significant result is not automatically an important one",
+          "Pulling Units 6 and 7 together: proportions and means, intervals and tests, side by side",
+          "A timed multiple-choice set at exam pace covering both units",
+          "Error log review: inference mistakes classified, especially condition-checking and interpretation wording"
+        ],
+        "projects": [
+          "Timed inference free response written under exam conditions and self-scored against a rubric"
+        ],
+        "practice": "A timed Units 6-7 multiple-choice set plus one full free-response question reviewed against its rubric",
+        "assessment": "Unit 6-7 assessment: a timed paper on inference for proportions and means, including one free response scored on conditions and conclusion wording"
+      }
+    },
+    "month_6_chi_square_slopes_and_investigative_task": {
+      "title": "Month 6: Chi-Square, Slopes, the Investigative Task, and Full Mock Exams (Units 8-9)",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "Inference for Categorical Data: Chi-Square",
+        "topics": [
+          "The chi-square goodness-of-fit test: does one categorical variable match a claimed distribution",
+          "The chi-square test for independence: are two categorical variables related, within one sample",
+          "The chi-square test for homogeneity: do several populations share the same distribution, and how it differs from independence",
+          "Expected counts, the conditions for a valid chi-square test, and computing the test statistic",
+          "Running each chi-square test on the calculator and reading its output correctly",
+          "Writing a full chi-square conclusion in the state-plan-do-conclude structure"
+        ],
+        "projects": [
+          "Independence study: a real two-way table tested for independence, with expected counts shown and a full written conclusion"
+        ],
+        "practice": "12 chi-square problems split across the three test types, the correct type identified from the scenario before any calculation"
+      },
+      "week_22": {
+        "title": "Inference for the Slope of a Regression Line",
+        "topics": [
+          "The population regression model, and what the true value of the slope represents",
+          "Conditions for inference on a slope, read from a residual plot and a normal probability plot of residuals",
+          "The t-test for the slope: hypotheses, test statistic, and reading calculator regression output",
+          "The confidence interval for the slope, constructed from the same output",
+          "Connecting Unit 9 back to Unit 2: the regression skills from month 2, now formally tested",
+          "Interpreting a slope-test conclusion in the context of the original two variables"
+        ],
+        "projects": [
+          "Slope inference project: a real two-variable data set tested for a nonzero slope, with conditions checked from residual and normal plots"
+        ],
+        "practice": "10 slope-inference problems, conditions checked from a described or sketched residual plot every time"
+      },
+      "week_23": {
+        "title": "The Investigative Task",
+        "topics": [
+          "What free-response Question 6, the Investigative Task, actually asks: applying and extending the course's skills to a scenario that will not look familiar",
+          "Why the Investigative Task is scored differently from Questions 1 through 5, and what that means for pacing, roughly 30 of the 90 free-response minutes",
+          "Reading an unfamiliar prompt calmly: identifying which unit's tools actually apply underneath the new dressing",
+          "Extending a known method one step further than it was originally taught, the specific skill the task tests",
+          "Working through released Investigative Task style prompts, one full task per session",
+          "Building a personal checklist for the task: state assumptions, justify every step, and answer the question actually asked"
+        ],
+        "projects": [
+          "Two full Investigative Task style responses written under time and self-scored against a released-style rubric, with the extension step highlighted"
+        ],
+        "practice": "Two more Investigative Task style prompts worked untimed first for understanding, then timed, with every assumption stated in writing"
+      },
+      "week_24": {
+        "title": "Full Mock Exams and Test-Ready Review",
+        "topics": [
+          "A first complete timed mock exam: all 40 multiple-choice questions and all 6 free-response questions, including the Investigative Task",
+          "Running the mock under real hybrid-digital conditions: multiple-choice and free-response prompts viewed digitally, free-response answers handwritten on paper",
+          "Scoring the mock against official-style rubrics and converting toward the 1 to 5 scale",
+          "A second complete timed mock, then closing whatever gaps the first one exposed",
+          "Test-day logistics: the Bluebook app, the graphing calculator, the paper answer booklets, and timing across both sections",
+          "A one-page, evidence-based test-day plan built from your own two mock scores"
+        ],
+        "projects": [
+          "Two full mock exams, scored, with a written comparison of the two and a final one-page test-day plan"
+        ],
+        "practice": "Both full timed mocks plus a complete review, every missed multiple-choice question re-worked and every free response re-scored",
+        "assessment": "Final assessment: a complete timed mock exam under hybrid-digital conditions, a progress summary from week 1 to now, and certificate review"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A full shape-outliers-center-spread distribution report on a real one-variable data set",
+      "A least-squares regression model with residuals checked and predictions limited to the data range",
+      "A sampling-method critique of a real published survey",
+      "A full experimental design written for a real research question",
+      "A simulated sampling distribution built and reported by you",
+      "A confidence interval and significance test written in the full state-plan-do-conclude structure",
+      "A chi-square independence study with a complete written conclusion",
+      "Two Investigative Task style responses and two full timed mock exams under hybrid-digital conditions"
+    ],
+    "total_projects_built": "A portfolio of unit projects across all nine AP units plus multiple scored free responses, two Investigative Task responses and two complete timed mock exams",
+    "skills_mastered": [
+      "Describing and comparing distributions with full statistical language, not just numbers",
+      "Scatterplots, correlation and least-squares regression, checked with residual plots",
+      "Sound data collection: sampling methods, bias, and experimental design",
+      "Probability, random variables, and the binomial and geometric distributions",
+      "Sampling distributions and the Central Limit Theorem that inference depends on",
+      "Confidence intervals and significance tests for proportions, means, chi-square settings and slopes, plus Investigative Task reasoning"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, working problems and free responses live rather than watching solutions scroll by",
+      "practice": "4-5 hours weekly of problem sets, calculator drills and, from month 5 onward, timed free-response and mock sections",
+      "review": "Homework and free responses reviewed with written feedback, scored against AP-style rubrics so you see exactly where points are earned and lost"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, awarded on finishing the course and its final timed mock exams"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with worked solutions for the problems that stall you",
+      "progress_updates": "Monthly progress notes tracking unit assessments and, in the final months, mock-exam scores against your target",
+      "career_guidance": "Honest guidance on what an AP score does and does not do for college admissions and credit, and what to study next after AP Statistics"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "Comfortable school algebra: working with formulas, fractions, percentages and graphs. No calculus is required anywhere in AP Statistics",
+    "programming": "None required. All work is done with a graphing calculator and by hand; no coding or spreadsheet skills are needed for this course",
+    "equipment": "A graphing calculator such as a TI-84 or an equivalent approved model, used and permitted throughout the real exam, plus a device with a stable internet connection for live classes. We help with calculator setup in week 1",
+    "audience": "High school students preparing for AP Statistics, typically in the years leading up to the exam, whether taking it at school or self-studying"
+  },
+  "who_is_this_for": {
+    "ap_students": "Students taking AP Statistics at school who want a structured, unit-by-unit course and real feedback on their free responses alongside their class",
+    "self_studiers": "Students whose school does not offer AP Statistics and who are preparing for the exam independently",
+    "score_focused": "Students aiming for a strong score who want free-response drilling against the real rubric, Investigative Task practice, and full timed mock exams",
+    "math_and_science_bound": "Students headed for a data-heavy college major, from psychology to engineering, who want genuine statistical reasoning, not just exam tricks",
+    "international_students": "International students sitting AP Statistics for university applications who need the exam taught to its current hybrid-digital format"
+  },
+  "career_paths_after_completion": [
+    "A strong footing for the AP Statistics exam and, through it, university applications",
+    "Readiness for a college introductory statistics course, which AP Statistics closely mirrors in both content and reasoning",
+    "A genuine base of statistical reasoning for any data-heavy major: psychology, economics, biology, business or engineering",
+    "Free-response and justification habits, stating assumptions and interpreting evidence, that transfer directly into college coursework",
+    "A natural next step into our Statistics and Probability course for students who want the subject's college-level and professional applications beyond the AP exam"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured curriculum that follows the current nine-unit AP Statistics course in order, with hands-on data analysis and calculator work in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so a stuck problem does not cost you a week.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "How is this different from a general statistics course, and from your other Statistics and Probability course?",
+      "answer": "It is a different subject taught for a different purpose. Our Statistics and Probability course is a general college-level and professional course, spreadsheet-first, with no exam and no fixed unit order, ending in a capstone analysis of a dataset you choose. This AP Statistics course is exam-specific: it is organised around the nine official AP units in the order the College Board tests them, it drills the free-response section against the actual AP rubric, it dedicates real time to the Investigative Task, it teaches graphing-calculator methods the AP exam expects, and it is built for high school students working toward an AP score of 1 to 5. If your goal is the AP exam, take this course. If your goal is statistics for a data-heavy career with no exam involved, our Statistics and Probability course is the better fit, and graduates of this course who want that broader, professional-facing material are welcome there afterward."
+    },
+    {
+      "question": "Do I need a graphing calculator, and which one?",
+      "answer": "Yes. A graphing calculator is expected and permitted throughout the entire AP Statistics exam, and we use one in class from week 1 onward, both for computation and because the exam expects you to read and quote calculator output correctly. A TI-84 or TI-84 Plus is the most common model and the one our examples default to, but any calculator on the College Board's approved list works, and we help you get comfortable with whichever model you already own during the first week rather than requiring a specific purchase."
+    },
+    {
+      "question": "What is the Investigative Task?",
+      "answer": "It is free-response Question 6, and it is different from the other five free-response questions. Where Questions 1 through 5 test one unit's skills in a fairly direct way, the Investigative Task hands you a scenario you have not seen before and asks you to apply and extend the statistical reasoning you already have to fit it, sometimes stretching a method slightly beyond how it was originally taught. It is budgeted at roughly 30 of the 90 free-response minutes, making it worth real, focused preparation rather than being left as an afterthought, which is why we give it a dedicated week, week 23, plus additional timed practice in the mock phase."
+    },
+    {
+      "question": "What is the exam format, and why does justification matter so much?",
+      "answer": "Section I is 40 multiple-choice questions in 90 minutes, worth 50 percent of the score. Section II is 6 free-response questions in 90 minutes, worth the other 50 percent: 5 short-answer questions budgeted at roughly 12 minutes each, plus the Investigative Task at around 30 minutes. The free-response rubric is built around communication, not just a final number: you are scored on justifying a conclusion with evidence from the data, interpreting a result correctly in context, and stating the conditions or assumptions a procedure depends on. A correct number with a missing or wrong justification consistently loses points, which is why every free response in this course, from week 1, is written to that standard rather than left as bare arithmetic."
+    },
+    {
+      "question": "What is the hybrid digital format of the exam?",
+      "answer": "The multiple-choice section and the free-response prompts are both delivered digitally through the College Board's Bluebook application. However, your free-response answers themselves are handwritten in a paper answer booklet, which is collected separately and scored by hand. This mixed format catches students who have only ever practiced on paper or only ever practiced on screen, so our mock exams in weeks 23 and 24 are run under the same conditions: prompts read digitally, answers written out by hand, so test day is not the first time you have worked this way."
+    },
+    {
+      "question": "How much maths do I need coming in?",
+      "answer": "Comfortable school algebra: rearranging a formula, working with fractions and percentages, and reading a graph. There is no calculus anywhere in AP Statistics, which surprises some students expecting a more advanced maths course. Where a result would traditionally require calculus to fully derive, the course demonstrates it through simulation and the graphing calculator instead, which is also how the AP exam itself expects the material to be handled."
+    },
+    {
+      "question": "Will this get me a 5, or college credit?",
+      "answer": "No honest course can promise a specific score. AP exams are graded 1 to 5, and your result depends on your starting point, the hours you put in, and your performance on the day itself. What we can promise is honest: live teaching to the current nine-unit exam, small batches, real doubt support, free-response drilling against the official rubric, dedicated Investigative Task practice, and two full timed mock exams, plus a clear, evidence-based read on a realistic target score for you. Whether a given score earns college credit is decided by each university individually, not by us or by the College Board, so check the specific policy of the colleges you are applying to."
+    },
+    {
+      "question": "What does the course cost, and can I try it first?",
+      "answer": "This is a mathematics course, priced for India at ₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $100 per month for group classes and $150 per month for 1-on-1. The first demo class is free, so you can see the teaching before deciding: book at learn.modernagecoders.com/contact or on WhatsApp at +91 91233 66161."
+    },
+    {
+      "question": "Is this course affiliated with the College Board?",
+      "answer": "No. Modern Age Coders is an independent education provider and is not affiliated with, authorised by, or endorsed by the College Board. AP and Advanced Placement are trademarks of the College Board, used here only to describe the exam this course prepares students for. For official course descriptions, syllabus updates and exam information, students should always refer to the College Board and AP Central directly."
+    }
+  ]
+}

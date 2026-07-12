@@ -1,0 +1,555 @@
+{
+  "meta": {
+    "slug": "ap-precalculus-exam-prep-course",
+    "title": "AP Precalculus: Units 1 to 3 and Full Exam Prep",
+    "description": "Live online AP Precalculus exam prep covering Units 1-3: functions, exponentials, trig and polar. Small batches, real teachers, full timed mock exams.",
+    "keywords": [
+      "ap precalculus course online",
+      "ap precalc exam prep",
+      "ap precalculus units 1 2 3",
+      "ap precalculus tutoring online",
+      "ap precalculus practice problems",
+      "ap precalculus unit circle and trig",
+      "ap precalculus exponential and logarithmic functions",
+      "ap precalculus free response practice"
+    ],
+    "category": "Advanced Placement Mathematics",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "6 months (24 weeks)",
+    "level": "High school students preparing for AP Precalculus; a solid Algebra 2 background is assumed",
+    "commitment": "2 live classes/week + 4-5 hours practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "ap-precalculus.png"
+  },
+  "program_overview": {
+    "title": "AP Precalculus",
+    "tagline": "A function-fluency course that happens to end in an AP exam, concentrated exactly where the exam is scored: Units 1 to 3.",
+    "description": "AP Precalculus is the newest AP mathematics course, and it is tested in a specific, slightly unusual way that changes how it should be prepared for. The classroom course covers four units, but the exam assesses only Units 1, 2 and 3. Unit 4, functions involving parameters, vectors and matrices, is taught across a full school year but does not appear on the exam at all. A prep course that spends real weeks drilling Unit 4 for exam purposes is spending time a student does not get back. This course concentrates its exam preparation exactly where the College Board tests: polynomial and rational functions, exponential and logarithmic functions, and trigonometric and polar functions.\n\nThe six-month structure follows the three tested units in order, with the later weeks given fully to exam craft once each unit's content is covered. Months 1 and 2 build Unit 1: rates of change, polynomial behaviour and zeros, rational functions with their asymptotes and holes, transformations, and choosing the right model for a data set. Months 3 and 4 build Unit 2: arithmetic and geometric sequences, exponential functions and modelling, function composition and inverses, and logarithms through to equation solving. Month 5 builds Unit 3: the unit circle, sinusoidal functions and modelling, tangent and the reciprocal trig functions, inverse trig, and polar coordinates and functions. Month 6 turns fully to exam mastery: the calculator versus no-calculator skill that decides pacing on both sections, free-response method drilled against real question types, and two full timed mock exams run under the hybrid digital format, multiple choice answered in the Bluebook app and free response handwritten in paper booklets. A short, clearly labelled preview of Unit 4 closes the final week for students continuing on to calculus, with the honest note attached that it is not assessed on this exam.\n\nEvery class is live and small, and the exam's calculator boundary, no calculator in Multiple Choice Part A, calculator required in Part B, calculator required again in Free Response Part A, then no calculator in Part B, is treated as a skill in its own right and drilled on both sides from week one, not left to the final month.",
+    "what_makes_this_different": [
+      "Exam prep concentrated exactly where the College Board tests: Units 1, 2 and 3. Unit 4, functions involving parameters, vectors and matrices, is taught in the full course but is not assessed on the exam, and this course does not spend exam-prep weeks pretending otherwise",
+      "The calculator and no-calculator boundary is taught as its own skill from week one: Multiple Choice Part A with no calculator and Part B with one, Free Response Part A with a calculator and Part B without, drilled deliberately on both sides of the line",
+      "A real function-fluency course, not a formula-memorisation cram sheet: transformations, end behaviour, equivalent representations and modelling are practised until they are habits, because that fluency is exactly what AP Calculus assumes on day one",
+      "Free-response method drilled against real question types: modelling justification, equation solving and graph reading, with partial credit understood the way the rubric actually awards it",
+      "Hybrid digital exam readiness: multiple-choice pacing for the Bluebook app and genuine handwriting practice for the paper free-response booklets, so the test-day format itself holds no surprises",
+      "Live, small batches where problems are worked and reasoning is checked in class, not lecture videos watched alone"
+    ],
+    "learning_path": {
+      "phase_1": "Unit 1: rates of change, polynomial functions and zeros, rational functions and asymptotes, transformations, and choosing the right function model",
+      "phase_2": "Unit 2: arithmetic and geometric sequences, exponential functions and modelling, function composition and inverses, logarithms and equation solving",
+      "phase_3": "Unit 3 and exam mastery: the unit circle, sinusoidal and trigonometric functions, polar coordinates and functions, then the calculator/no-calculator skill, free-response method, and full timed hybrid-digital mock exams"
+    },
+    "career_outcomes": [
+      "Readiness for the AP Precalculus exam as it is tested now, Units 1 through 3, on the hybrid digital Bluebook format",
+      "The function fluency, transformations, equivalent representations and modelling, that AP Calculus AB and BC assume from their first week",
+      "A genuine step toward AP Calculus, university STEM coursework, or any degree that leans on quantitative reasoning",
+      "Modelling and justification habits that transfer to statistics, physics and later coursework, not just to this one exam",
+      "An honest, evidence-based read on a realistic target score for your level and the work needed to reach it"
+    ]
+  },
+  "phase_1_polynomial_and_rational_functions": {
+    "title": "PHASE 1: Polynomial and Rational Functions (Unit 1, Months 1-2, Weeks 1-8)",
+    "description": "Rates of change, polynomial behaviour and zeros, rational functions with their asymptotes and holes, transformations, and model selection: the function-behaviour toolkit every later unit builds on.",
+    "month_1_rates_of_change_and_polynomial_behaviour": {
+      "title": "Month 1: Rates of Change and Polynomial Behaviour",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Functions, Change, and Rates of Change",
+        "topics": [
+          "Function notation, domain and range refreshed from Algebra 2, plus a first look at the Bluebook digital exam environment",
+          "Change in tandem: reading how one quantity's change drives another's from a table of values",
+          "Average rate of change as the slope of a secant line over a stated interval",
+          "Comparing rates of change across different intervals to describe where a function is increasing or decreasing",
+          "Using a second layer of differences to notice when a rate of change is itself changing, an early signal of concavity",
+          "Reading the same function's behaviour from a table, a graph and an equation, and checking that the three agree"
+        ],
+        "projects": [
+          "Rate-of-change notebook: a function studied three ways, table, graph and average rate of change over five different intervals, with each answer interpreted in a sentence"
+        ],
+        "practice": "16 rate-of-change problems worked from tables and graphs, half requiring the interval to be chosen from a written description"
+      },
+      "week_2": {
+        "title": "Polynomial Functions: Zeros and Local Behaviour",
+        "topics": [
+          "Polynomial vocabulary: degree, leading coefficient and standard form, read at a glance",
+          "Zeros of a polynomial function and what multiplicity does to the graph at each one",
+          "Distinguishing a zero where the graph crosses the axis from one where it only touches",
+          "Local maxima and minima, and intervals of increase and decrease read from a polynomial's graph",
+          "Complex zeros and the fact that non-real zeros of a real polynomial always come in conjugate pairs",
+          "Sketching a polynomial from its zeros, their multiplicities and its degree, before ever plotting a point"
+        ],
+        "projects": [
+          "Zero-to-graph drill: eight polynomials sketched from a list of zeros and multiplicities alone, then checked point by point"
+        ],
+        "practice": "14 problems finding zeros, multiplicities and local behaviour, each sketch attempted before any calculator is used"
+      },
+      "week_3": {
+        "title": "End Behaviour and Rational Functions",
+        "topics": [
+          "End behaviour of a polynomial function read directly from its degree and leading coefficient",
+          "Rational functions introduced as one polynomial divided by another, and why their behaviour differs from a polynomial's",
+          "Horizontal asymptotes of a rational function from comparing numerator and denominator degree",
+          "Slant asymptotes, which appear when the numerator's degree is exactly one more than the denominator's",
+          "Zeros of a rational function found from the numerator, and why the denominator is never asked for a zero",
+          "Describing end behaviour the way the exam expects it written, not just sketched"
+        ],
+        "projects": [
+          "Asymptote hunt: twelve rational functions sorted into horizontal-asymptote, slant-asymptote or neither, then verified by long division where needed"
+        ],
+        "practice": "16 end-behaviour and asymptote problems across polynomials and rational functions, degree comparison written before any graphing"
+      },
+      "week_4": {
+        "title": "Vertical Asymptotes, Holes, and Equivalent Forms",
+        "topics": [
+          "Vertical asymptotes of a rational function from the zeros of the denominator",
+          "Holes: what happens when a factor cancels between numerator and denominator, and why that point still does not exist",
+          "Telling an asymptote from a hole by algebra, not by guessing from a rough sketch",
+          "Equivalent representations of a polynomial or rational expression, factored versus standard form, and what each reveals faster",
+          "Rewriting a rational expression to expose its asymptotes, holes and end behaviour in a single step",
+          "Choosing the representation that answers a given question fastest, a real time-saver under the no-calculator clock"
+        ],
+        "projects": [
+          "Rewrite-and-reveal set: ten rational functions rewritten from standard to factored form specifically to expose a hidden hole or asymptote"
+        ],
+        "practice": "18 mixed Unit 1 problems on asymptotes, holes and equivalent forms, worked at no-calculator pace",
+        "assessment": "Month 1 checkpoint: a timed, no-calculator paper on rates of change, polynomial behaviour and rational functions, marked for reasoning as well as answers"
+      }
+    },
+    "month_2_transformations_and_unit_one_mastery": {
+      "title": "Month 2: Transformations, Modelling, and Unit 1 Mastery",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Transformations of Functions",
+        "topics": [
+          "Parent function shapes reviewed: linear, quadratic, cubic, square root and reciprocal",
+          "Vertical and horizontal translations applied to a parent function's equation and graph",
+          "Vertical and horizontal stretches and compressions, and how they interact with translations",
+          "Reflections, and combining several transformations correctly in one rule",
+          "Reading a transformed equation straight into a sketch without plotting points first",
+          "Recovering the transformation from a before-and-after pair of graphs, a favourite exam question style"
+        ],
+        "projects": [
+          "Transformation matching set: ten transformed graphs matched to their equations, then the reverse, equation to sketch, for the same ten"
+        ],
+        "practice": "20 transformation problems split evenly between equation-to-graph and graph-to-equation"
+      },
+      "week_6": {
+        "title": "Choosing a Function Model",
+        "topics": [
+          "Deciding whether a data table is better modelled as linear, polynomial or rational, from its pattern of change",
+          "Using constant, changing or ratio-based differences to identify the right model family",
+          "Stating the assumptions a chosen model makes, and saying honestly where it might not hold",
+          "Fitting a model to a short data table and justifying the choice of model in writing",
+          "The justify-your-model free-response style, where the reasoning earns as many points as the equation",
+          "Common model-selection traps: data that looks exponential over a short interval but is not"
+        ],
+        "projects": [
+          "Model justification write-up: two data tables modelled and the choice of model defended in four written sentences each"
+        ],
+        "practice": "10 model-selection problems, a written justification required for every answer, not just an equation"
+      },
+      "week_7": {
+        "title": "Algebraic Fluency with Polynomial and Rational Expressions",
+        "topics": [
+          "Factoring polynomial and rational expressions at exam speed, not textbook speed",
+          "Polynomial long division and how a leftover remainder connects to a slant asymptote",
+          "Combining rational expressions and simplifying without silently losing a domain restriction",
+          "Solving polynomial and rational equations cleanly, checking every solution against the original domain",
+          "Sign analysis on a number line for solving rational inequalities",
+          "The domain-restriction mistakes that quietly cost marks on an otherwise correct answer"
+        ],
+        "projects": [
+          "Domain-safe solving set: eight rational equations and inequalities solved with every excluded value stated before the algebra begins"
+        ],
+        "practice": "18 equation and inequality problems, domain restrictions written first on every single one"
+      },
+      "week_8": {
+        "title": "Unit 1 Mastery and the Multiple-Choice Format",
+        "topics": [
+          "Pulling Unit 1 together: rates of change, polynomial behaviour, rational functions and equivalent forms",
+          "The multiple-choice section as it is now: 40 questions, 2 hours, worth 62.5 percent of the score",
+          "Part A: 28 questions in 80 minutes with no calculator, fluency without a crutch",
+          "Part B: 12 questions in 40 minutes with a graphing calculator required",
+          "Recognising on sight which Unit 1 questions reward hand analysis and which are faster on a calculator",
+          "A personal error log started here, tagged by unit and by calculator or no-calculator part, and grown for the rest of the course"
+        ],
+        "projects": [
+          "First timed multiple-choice block on Unit 1, split into a no-calculator half and a calculator half, reviewed question by question"
+        ],
+        "practice": "A timed Unit 1 multiple-choice set at exam pace, both parts, followed by a written review of every miss",
+        "assessment": "Unit 1 assessment: a timed multiple-choice section on polynomial and rational functions, run in two parts, calculator and no-calculator, with the error log updated"
+      }
+    }
+  },
+  "phase_2_exponential_and_logarithmic_functions": {
+    "title": "PHASE 2: Exponential and Logarithmic Functions (Unit 2, Months 3-4, Weeks 9-16)",
+    "description": "Sequences as the discrete root of exponential change, exponential functions and modelling, composition and inverses, then logarithms through to equation solving, closing with a first look at free response.",
+    "month_3_sequences_exponentials_and_modelling": {
+      "title": "Month 3: Sequences, Exponential Functions, and Modelling",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Sequences and the Roots of Exponential Growth",
+        "topics": [
+          "Arithmetic sequences as discrete linear change, and the common difference that defines one",
+          "Geometric sequences as discrete exponential change, and the common ratio that defines one",
+          "Telling an arithmetic pattern from a geometric one directly from a table, before writing any formula",
+          "Moving from a geometric sequence to a continuous exponential function",
+          "The general exponential function form and what its starting value and base each control",
+          "Growth versus decay, read straight from whether the base is greater than or less than one"
+        ],
+        "projects": [
+          "Sequence-to-function bridge: four geometric sequences extended into continuous exponential models, with the jump from discrete to continuous explained in writing"
+        ],
+        "practice": "16 sequence problems, half arithmetic and half geometric, each one converted into a formula from a table alone"
+      },
+      "week_10": {
+        "title": "Exponential Functions: Behaviour and Manipulation",
+        "topics": [
+          "Domain, range and end behaviour of an exponential function",
+          "Percent change and how it connects directly to the growth or decay factor in the equation",
+          "Rewriting an exponential expression with a different base without changing what it represents",
+          "Transformations of exponential functions, applied the same way as any other parent function",
+          "Why an exponential function's average rate of change scales rather than stays constant across equal-length intervals",
+          "Spotting an exponential pattern in a table from that scaling behaviour, before any equation is written"
+        ],
+        "projects": [
+          "Percent-change translator: eight real-world growth and decay descriptions rewritten as exponential equations, base and starting value identified from the words alone"
+        ],
+        "practice": "18 exponential-function problems mixing percent change, rewriting bases and reading behaviour from tables"
+      },
+      "week_11": {
+        "title": "Exponential Modelling and Competing Models",
+        "topics": [
+          "Setting up an exponential model from a context: identifying the starting value and the rate",
+          "Interpreting the parameters of a fitted exponential model back in the words of the original problem",
+          "Competing function model validation: choosing between linear, polynomial and exponential from how a data set actually changes",
+          "Checking a proposed model against the given data points before trusting it further",
+          "The build-a-model and justify-your-choice free-response style, and what earns the reasoning point",
+          "Recognising when a model is being used outside a domain where it still makes sense"
+        ],
+        "projects": [
+          "Model face-off: one data set modelled two competing ways, exponential and polynomial, with a written case for which one actually fits"
+        ],
+        "practice": "12 modelling problems, each requiring both a model and a two-to-three sentence justification"
+      },
+      "week_12": {
+        "title": "Function Composition and Inverses",
+        "topics": [
+          "Composing two functions and evaluating the result from a table, a graph, or an equation",
+          "Interpreting what a composition means in a real-world context, not just computing it",
+          "Inverse functions: what it actually means for one function to undo another",
+          "Finding an inverse algebraically and confirming it graphically as a reflection over y = x",
+          "The domain restriction a function needs before a true inverse exists",
+          "Why exponential and logarithmic functions are built as a natural inverse pair, setting up the second half of this unit"
+        ],
+        "projects": [
+          "Inverse verification set: six functions inverted algebraically, then checked both by composing and graphically, by reflecting"
+        ],
+        "practice": "14 composition and inverse problems, each inverse checked by composing it back with the original",
+        "assessment": "Month 3 checkpoint: a timed paper on sequences, exponential functions and modelling, composition and inverses"
+      }
+    },
+    "month_4_logarithms_and_equation_solving": {
+      "title": "Month 4: Logarithms and Equation Solving",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Logarithms as Inverses of Exponential Functions",
+        "topics": [
+          "Defining the logarithm as the inverse of an exponential function, not as an isolated new rule",
+          "Converting fluently between exponential form and logarithmic form in both directions",
+          "The common logarithm and the natural logarithm, and when each one is the natural choice",
+          "Domain and range of a logarithmic function, and why the domain excludes zero and negative numbers",
+          "Graphing a logarithmic function directly from its exponential parent by reflecting over y = x",
+          "Vertical asymptotes of logarithmic graphs, and why they sit exactly where the exponential's horizontal asymptote was"
+        ],
+        "projects": [
+          "Exponential-log translation set: twelve equations converted between exponential and logarithmic form, evaluated by hand where the values are friendly"
+        ],
+        "practice": "16 problems converting between forms and sketching logarithmic graphs from their exponential parents"
+      },
+      "week_14": {
+        "title": "Logarithmic Properties and Manipulation",
+        "topics": [
+          "The product, quotient and power properties of logarithms, and where each one comes from",
+          "Expanding a single logarithmic expression into several, and condensing several back into one",
+          "The change-of-base formula and exactly when a calculator needs it",
+          "The property-application mistakes the exam sets on purpose, misapplying a rule that only works one way",
+          "Using log properties to simplify an expression before solving, which is almost always faster than solving first",
+          "Transformations of logarithmic functions, applied the same way as exponential ones"
+        ],
+        "projects": [
+          "Expand-and-condense drill: ten logarithmic expressions expanded fully, then condensed back, each check confirming the two forms are equal"
+        ],
+        "practice": "18 logarithm-property problems, half expanding and half condensing, plus 4 change-of-base calculator problems"
+      },
+      "week_15": {
+        "title": "Solving Exponential and Logarithmic Equations",
+        "topics": [
+          "Solving exponential equations by matching bases when possible",
+          "Solving exponential equations by taking a logarithm of both sides when bases will not match",
+          "Solving logarithmic equations and checking every solution against the original domain for extraneous answers",
+          "Exponential and logarithmic inequalities, solved and expressed in interval form",
+          "Semi-log plots: why data that looks exponential on a normal grid becomes a straight line on a semi-log scale",
+          "Reading a semi-log plot to recover the original exponential model's parameters"
+        ],
+        "projects": [
+          "Extraneous-solution audit: eight logarithmic equations solved, with every solution checked back in the original equation and any extraneous root explained"
+        ],
+        "practice": "20 equation and inequality problems across exponential and logarithmic functions, extraneous-solution checks required throughout"
+      },
+      "week_16": {
+        "title": "Unit 2 Mastery and a First Look at Free Response",
+        "topics": [
+          "Pulling Unit 2 together: sequences, exponential functions, composition, inverses and logarithms",
+          "A first full look at the free-response section: 4 questions, 1 hour, worth 37.5 percent of the score",
+          "Part A of free response: 2 questions, 30 minutes, graphing calculator required",
+          "Part B of free response: 2 questions, 30 minutes, no calculator allowed",
+          "The style of exponential and logarithmic modelling question that tends to appear in free response",
+          "Writing a modelling justification in full sentences, since the reasoning point is scored separately from the equation"
+        ],
+        "projects": [
+          "First free-response attempt: one Unit 2 style modelling question answered under time and self-scored against a sample rubric"
+        ],
+        "practice": "A timed Unit 2 multiple-choice set at exam pace plus one full free-response attempt, reviewed for both content and communication",
+        "assessment": "Unit 2 assessment: a timed section on exponential and logarithmic functions, run in calculator and no-calculator parts, with the error log updated"
+      }
+    }
+  },
+  "phase_3_trigonometric_polar_and_exam_mastery": {
+    "title": "PHASE 3: Trigonometric and Polar Functions, and Full Exam Mastery (Unit 3 and Mocks, Months 5-6, Weeks 17-24)",
+    "description": "The unit circle, sinusoidal and trigonometric functions, and polar coordinates and functions, followed by a full turn to exam craft: the calculator/no-calculator skill, free-response method, and complete timed hybrid-digital mock exams.",
+    "month_5_trigonometric_and_polar_functions": {
+      "title": "Month 5: Trigonometric and Polar Functions",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "The Unit Circle and Periodic Behaviour",
+        "topics": [
+          "The unit circle built from angle, radius one, and the coordinates it defines as cosine and sine",
+          "Radians as the natural unit for angle measure, and fluent conversion between radians and degrees",
+          "Special angles and the exact sine and cosine values worth having memorised, not looked up",
+          "Periodicity: why sine and cosine repeat, and what a period of two-pi actually means",
+          "Sine and cosine graphed directly from the unit circle, point by point at first, then from pattern",
+          "Amplitude, period and midline read from a sinusoidal graph or straight from its equation"
+        ],
+        "projects": [
+          "Unit-circle-to-graph build: the sine and cosine graphs constructed point by point from the unit circle, then compared to the pattern-based shortcut"
+        ],
+        "practice": "20 unit-circle and radian-conversion problems, exact values required wherever the angle is a special one"
+      },
+      "week_18": {
+        "title": "Sinusoidal Functions and Modelling",
+        "topics": [
+          "The general sinusoidal function form and what amplitude, period, midline and phase shift each control",
+          "Phase shift and exactly how it moves a sine or cosine graph left or right",
+          "Building a sinusoidal model from a context description: extracting amplitude, period, midline and phase from words",
+          "Sinusoidal context and data modelling questions in the free-response style",
+          "Reading a sinusoidal model's parameters back out of a real-world description, the reverse skill",
+          "Checking a fitted sinusoidal model against given data points before trusting it"
+        ],
+        "projects": [
+          "Sinusoidal modelling write-up: two real-world periodic scenarios, tides and temperature style, modelled with a full equation and parameters explained in words"
+        ],
+        "practice": "14 sinusoidal modelling problems, amplitude, period, midline and phase identified separately before the equation is assembled"
+      },
+      "week_19": {
+        "title": "Tangent, Reciprocal Trig, and Inverse Trig",
+        "topics": [
+          "The tangent function: its period, its vertical asymptotes and how its graph differs from sine and cosine",
+          "Secant, cosecant and cotangent as reciprocal functions, graphed from their sine and cosine parents",
+          "Inverse trigonometric functions and the restricted domains that make them true functions",
+          "Using an inverse trig function to solve for an angle in a real context",
+          "Solving trigonometric equations over a stated interval, finding every solution, not just one",
+          "Trigonometric inequalities and expressing the solution as an interval"
+        ],
+        "projects": [
+          "Solve-and-verify set: ten trigonometric equations solved over a stated interval, every solution checked back on the unit circle"
+        ],
+        "practice": "18 problems across tangent, reciprocal trig functions and inverse trig, solution intervals stated before solving begins"
+      },
+      "week_20": {
+        "title": "Equivalent Trig Forms and Polar Functions",
+        "topics": [
+          "Trig identities as equivalent representations: the Pythagorean identity and the reciprocal identities",
+          "Rewriting a trigonometric expression into an equivalent form that reveals its behaviour faster",
+          "Polar coordinates: converting a point between polar and rectangular form in both directions",
+          "Polar functions and their graphs: circles, roses and limacons recognised at a glance from their equation",
+          "Reading symmetry and key features, maximum distance, zeros, directly from a polar graph",
+          "How a polar function's periodic behaviour connects back to everything studied in this unit"
+        ],
+        "projects": [
+          "Polar gallery: six polar functions graphed and identified by family, circle, rose or limacon, with symmetry and key points labelled"
+        ],
+        "practice": "16 problems mixing trig identity rewriting and polar coordinate conversion, plus 4 polar-graph identification questions",
+        "assessment": "Unit 3 assessment: a timed section on trigonometric and polar functions, run in calculator and no-calculator parts"
+      }
+    },
+    "month_6_free_response_and_full_mock_exams": {
+      "title": "Month 6: Free-Response Mastery and Full Mock Exams",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "The Calculator/No-Calculator Split and Multiple-Choice Strategy",
+        "topics": [
+          "Mapping all four exam parts precisely: MC Part A, 28 questions, 80 minutes, no calculator; MC Part B, 12 questions, 40 minutes, calculator required; FRQ Part A, 2 questions, 30 minutes, calculator; FRQ Part B, 2 questions, 30 minutes, no calculator",
+          "Building genuine no-calculator fluency: exact values, factoring and algebraic manipulation done by hand at speed",
+          "Calculator strategy for Part B: what a graphing calculator is actually good for, and what it cannot substitute for",
+          "Pacing each part on its own terms, roughly two minutes a question in Part A and just over three in Part B",
+          "Recognising at a glance which part of the exam a released question is drawn from, and adjusting method accordingly",
+          "A first timed multiple-choice block mixing both parts, reviewed question by question with each miss tagged by cause"
+        ],
+        "projects": [
+          "Timed mixed multiple-choice block, Part A followed immediately by Part B, reviewed with every miss tagged calculator, no-calculator, concept or pacing"
+        ],
+        "practice": "A timed multiple-choice set at full exam pace across both parts, followed by a written review of every wrong and every guessed answer"
+      },
+      "week_22": {
+        "title": "Free-Response Method Across Units 1 to 3",
+        "topics": [
+          "The free-response rubric mindset: where partial credit lives and how to secure it even on a question you cannot fully finish",
+          "Justification writing: what actually earns the communication point on a modelling question, in plain, specific sentences",
+          "A Unit 1 style free-response task: justifying a polynomial or rational model against given data",
+          "A Unit 2 style free-response task: building an exponential or logarithmic model and solving an equation from it",
+          "A Unit 3 style free-response task: building a sinusoidal model from a context description",
+          "Self-scoring a free-response answer against a sample rubric, and naming exactly which point was lost and why"
+        ],
+        "projects": [
+          "Three timed free-response responses, one from each tested unit, each self-scored against a sample rubric with lost points named"
+        ],
+        "practice": "Timed free-response practice across all three units, every attempt scored for both the answer and the justification"
+      },
+      "week_23": {
+        "title": "Full Mock Exam One",
+        "topics": [
+          "Running a complete timed mock in the real order: Multiple Choice Part A, Part B, then Free Response Part A, Part B",
+          "Working under hybrid-digital conditions: multiple choice answered in a Bluebook-style flow, free response handwritten on paper",
+          "Scoring the mock and converting the raw result toward the 1 to 5 scale",
+          "Reviewing errors sorted by unit, Units 1, 2 and 3, to see where the real gaps sit",
+          "Reviewing errors sorted by part, so a calculator-dependent weakness is not confused with a content gap",
+          "Naming the single biggest gap the mock revealed and building one week's plan to close it"
+        ],
+        "projects": [
+          "Full mock exam one, scored and reviewed, with a written breakdown of performance by unit and by calculator or no-calculator part"
+        ],
+        "practice": "The full timed mock plus a complete review, every missed multiple-choice question re-worked correctly by hand"
+      },
+      "week_24": {
+        "title": "Full Mock Exam Two, Test-Ready Review, and a Unit 4 Preview",
+        "topics": [
+          "A second complete timed mock, run fully under exam conditions from Multiple Choice Part A through Free Response Part B",
+          "Comparing the two mocks directly to see real direction of travel, not just a single score",
+          "The test-day routine: the Bluebook app for multiple choice, the paper booklet for free response, and timing across all four parts",
+          "A realistic, evidence-based target score built from both mocks, not a guess",
+          "An optional, clearly labelled preview of Unit 4, functions involving parameters, vectors and matrices, for students continuing on to calculus; this content is not tested on the AP Precalculus exam and is covered only as a bridge forward",
+          "Where to go next: AP Calculus AB or BC, or a next mathematics course, chosen honestly from where this course leaves you"
+        ],
+        "projects": [
+          "Full mock exam two, scored and reviewed, ending in a one-page test-day plan built from both mocks' results"
+        ],
+        "practice": "The second full mock plus targeted repair of any remaining weak topic from either mock",
+        "assessment": "Final assessment: a complete timed mock exam covering Units 1 through 3, a progress summary from week 1 to now, and certificate review"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A rate-of-change notebook studying one function across table, graph and equation",
+      "A zero-to-graph and asymptote-hunt portfolio across polynomial and rational functions",
+      "A model-justification write-up defending a chosen function model in writing",
+      "A sequence-to-function bridge connecting discrete geometric sequences to continuous exponential models",
+      "An inverse-verification set checking every inverse both algebraically and graphically",
+      "A sinusoidal modelling write-up built from real-world periodic scenarios",
+      "A polar gallery of graphed and identified polar function families",
+      "Three scored free-response answers across all three tested units, plus two full timed mock exams under hybrid-digital conditions"
+    ],
+    "total_projects_built": "Dozens of worked problem sets plus three scored free responses and two complete timed mock exams, all mapped to Units 1 through 3",
+    "skills_mastered": [
+      "Function fluency: rates of change, transformations, end behaviour and equivalent representations",
+      "Polynomial and rational function analysis, including zeros, asymptotes and holes",
+      "Exponential and logarithmic reasoning, from sequences through to equation solving",
+      "Trigonometric and polar function analysis, from the unit circle through to polar graphs",
+      "Model selection and modelling justification, written the way the free-response rubric rewards",
+      "Calculator and no-calculator fluency on both sides of the exam's part boundary, drilled on full timed mocks"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, working and checking problems live rather than watching solutions scroll by",
+      "practice": "4-5 hours weekly of problem sets and, in the final month, timed free-response and full mock sections",
+      "review": "Homework and free responses reviewed with written feedback, scored against a sample rubric so you see exactly where reasoning is won and lost"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, awarded on finishing the course and its final timed mock exams"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with worked solutions for the problems that stall you",
+      "progress_updates": "Monthly progress notes tracking unit assessments and, in the final month, mock-exam scores against your target",
+      "career_guidance": "Honest guidance on what an AP score does and does not do for college admissions and credit, and what mathematics course to take next"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "A solid Algebra 2 background: comfort with function notation, factoring, exponents and basic graphing. This course does not re-teach Algebra 2 from scratch, though real gaps are patched as they surface",
+    "programming": "None required and none used. This is a pure mathematics course; no coding background is assumed or needed, even though Modern Age Coders also teaches programming",
+    "equipment": "A graphing calculator of the kind allowed on the AP exam, for Multiple Choice Part B and Free Response Part A, plus a notebook for the no-calculator hand-work, and a device with stable internet for live classes. Since the real exam and our mock exams use the Bluebook digital platform, we help with the setup in week 1",
+    "audience": "High school students preparing for AP Precalculus, typically in the year before AP Calculus, whether taking the course at school or preparing independently"
+  },
+  "who_is_this_for": {
+    "ap_students": "Students taking AP Precalculus at school who want a structured, exam-focused course and real problem-solving alongside their class",
+    "self_studiers": "Students whose school does not offer AP Precalculus and who are preparing for the exam independently",
+    "score_focused": "Students aiming for a strong score who want free-response drilling against a real rubric and full timed mock exams under hybrid-digital conditions",
+    "calculus_bound": "Students headed for AP Calculus AB or BC who want genuine function fluency, not just exam tricks, since that fluency is exactly what calculus assumes",
+    "international_students": "International students sitting AP exams for university applications who need Units 1 to 3 taught to the current hybrid digital format"
+  },
+  "career_paths_after_completion": [
+    "A strong footing for the AP Precalculus exam, Units 1 through 3, and through it, university applications",
+    "The function fluency, transformations, modelling and equivalent representations, that AP Calculus AB and BC assume from the first week",
+    "A genuine next step toward AP Calculus or a first university mathematics course",
+    "Modelling and justification habits that transfer to statistics, physics and other quantitative coursework",
+    "The problem-solving base for our AP Calculus and college-level mathematics courses"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured curriculum that concentrates on the units the AP Precalculus exam actually tests, with hands-on problem-solving in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so a stuck problem does not cost you a week.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "Is Unit 4 tested on the AP Precalculus exam?",
+      "answer": "No, and this is the single most useful thing to know before you plan your prep time. AP Precalculus is taught as four units, but the exam only assesses Units 1, 2 and 3: polynomial and rational functions, exponential and logarithmic functions, and trigonometric and polar functions. Unit 4, functions involving parameters, vectors and matrices, is part of the full-year classroom course but is not assessed on the exam. This course concentrates its exam preparation on Units 1 through 3, exactly where the scoring happens, and covers Unit 4 only as a short, clearly labelled preview in the final week for students continuing on to calculus."
+    },
+    {
+      "question": "What is the calculator versus no-calculator split on this exam?",
+      "answer": "Both sections are split into a calculator part and a no-calculator part, and knowing the boundary cold is a real exam skill. Section I, Multiple Choice, has Part A with 28 questions in 80 minutes and no calculator allowed, then Part B with 12 questions in 40 minutes where a graphing calculator is required. Section II, Free Response, has Part A with 2 questions in 30 minutes where a graphing calculator is required, then Part B with 2 questions in 30 minutes and no calculator. We drill both sides of that line from week one, not just in the final month."
+    },
+    {
+      "question": "What do I need to know before starting this course?",
+      "answer": "A solid Algebra 2 background: comfort with function notation, factoring, exponents and basic graphing. The course does not re-teach Algebra 2 from the beginning, though real gaps are patched as they show up rather than ignored. No programming or coding background is needed or used; this is a pure mathematics course."
+    },
+    {
+      "question": "How does AP Precalculus actually prepare me for AP Calculus?",
+      "answer": "Honestly, and mostly through fluency rather than new tricks. AP Calculus assumes you can read a function's behaviour, transformations, end behaviour, zeros, asymptotes, without hesitating, and that you are comfortable moving between exponential, logarithmic and trigonometric forms. That is exactly what Units 1 through 3 build. Students who finish this course fluent in function behaviour spend their first weeks of calculus learning calculus, not relearning precalculus under a new name."
+    },
+    {
+      "question": "What is the AP Precalculus exam format?",
+      "answer": "Two sections. Section I, Multiple Choice, is 40 questions in 2 hours and is worth 62.5 percent of the score, split into a 28-question no-calculator Part A and a 12-question calculator-required Part B. Section II, Free Response, is 4 questions in 1 hour and is worth 37.5 percent of the score, split into a 2-question calculator-required Part A and a 2-question no-calculator Part B."
+    },
+    {
+      "question": "What is the hybrid digital exam format?",
+      "answer": "The multiple-choice section is taken digitally in the College Board's Bluebook app, the same platform used for the digital SAT and several other AP exams. The free-response section, though, is answered by hand: you view the questions in Bluebook but write your actual answers in a paper booklet. We run our mock exams under exactly this split, digital multiple choice and handwritten free response, so the format itself is familiar by test day."
+    },
+    {
+      "question": "Will this course get me a 5, or college credit?",
+      "answer": "No honest course can promise a specific score. AP exams are graded 1 to 5, and your result depends on your starting point, the hours you put in and your performance on the day. What we can promise is honest: live teaching concentrated on the tested units, small batches, real doubt support, free-response drilling against a real rubric, and full timed mock exams under hybrid-digital conditions, plus a clear, evidence-based read on a realistic target for you. Whether a given score earns college credit, and for what, is decided by each university, and AP Precalculus credit policies vary more than AP Calculus policies do, so we point students to check the specific policy of the colleges they care about."
+    },
+    {
+      "question": "What does the course cost, and can I try it first?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $100 per month for group classes and $150 per month for 1-on-1. The first demo class is free, so you can see the teaching before deciding: book at learn.modernagecoders.com/contact or on WhatsApp at +91 91233 66161."
+    },
+    {
+      "question": "Is this course affiliated with the College Board?",
+      "answer": "No. Modern Age Coders is an independent education provider and is not affiliated with, authorised by, or endorsed by the College Board. AP and Advanced Placement are trademarks of the College Board, used here only to describe the exam this course prepares students for. For official course and exam information, students should always refer to the College Board and AP Central directly."
+    }
+  ]
+}
