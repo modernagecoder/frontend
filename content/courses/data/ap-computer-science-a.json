@@ -1,0 +1,555 @@
+{
+  "meta": {
+    "slug": "ap-computer-science-a-java-exam-prep-course",
+    "title": "AP Computer Science A: Java Programming and Full Exam Prep",
+    "description": "Live online AP Computer Science A prep taught to the 2025-26 redesign: Java from scratch, all four units, free-response mastery and full digital mock exams.",
+    "keywords": [
+      "ap computer science a course online",
+      "ap csa exam prep",
+      "ap computer science a java course",
+      "ap csa 2026 redesign",
+      "learn java for ap computer science a",
+      "ap csa free response practice",
+      "ap computer science a tutoring online",
+      "ap csa digital mock exams"
+    ],
+    "category": "Advanced Placement Computer Science",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "6 months (24 weeks)",
+    "level": "High school students preparing for AP Computer Science A; taught from Java basics, no prior coding required",
+    "commitment": "2 live classes/week + 4-5 hours practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "ap-computer-science-a.png"
+  },
+  "program_overview": {
+    "title": "AP Computer Science A",
+    "tagline": "A real Java programming course that happens to end in a top exam score, taught to the 2025-26 redesign that most courses have not caught up to yet.",
+    "description": "AP Computer Science A is a real first course in programming, taught in Java, and this course treats it that way: you leave able to write Java, not just to pass a test. It is also built for the exam as it exists now, not as it existed last year. The College Board redesigned AP CS A for 2025-26, collapsing the old ten units into four, moving the whole exam onto the digital Bluebook platform, and changing what is tested. Inheritance, polymorphism, interfaces and writing recursive methods were removed. Reading text files with Scanner, working with data sets, and tracing recursive calls were added. A course still teaching the ten-unit format with an inheritance unit is preparing students for an exam that no longer exists.\n\nThe six-month structure follows the four redesigned units in order. Months 1 and 2 build Java from nothing and cover Unit 1, using objects and methods. Months 3 and 4 cover selection and iteration, then class creation, which is exactly what the class-design free-response question asks for. Months 5 and 6 cover data collections, arrays, ArrayList, 2D arrays, file reading and data sets, then turn fully to exam craft: all four free-response question types drilled against the real rubric, multiple-choice strategy for the forty-two-question digital section, and full timed mock exams under Bluebook-style conditions. Every class is live and small, and every concept is practised by writing code, because that is the only way this subject is ever actually learned.",
+    "what_makes_this_different": [
+      "Taught to the 2025-26 redesign: four units, the fully digital Bluebook exam, and the current content, so no time is wasted on inheritance, polymorphism or writing recursion, all of which were removed",
+      "The added topics are covered properly: reading text files with Scanner, working with data sets, and tracing recursive calls, which many older courses and books still omit",
+      "A real Java course, not a cram sheet: students finish able to read and write Java, which is the point of a first programming course",
+      "Free-response mastery against the actual rubric: all four question types, drilled until earning points is a habit, with partial credit understood",
+      "Digital-exam readiness: multiple-choice pacing for the forty-two-question section and full mock exams run under Bluebook-style conditions, so test day holds no surprises",
+      "Live, small batches where you write code during class and get it reviewed, not lecture videos you watch alone"
+    ],
+    "learning_path": {
+      "phase_1": "Java from scratch and Unit 1: primitive types, expressions, Strings, the Math class, and using objects and methods correctly",
+      "phase_2": "Units 2 and 3: boolean logic, conditionals and loops, then writing your own classes with constructors, methods and encapsulation",
+      "phase_3": "Unit 4 and exam mastery: arrays, ArrayList, 2D arrays, files and data sets, then all four free-response types and full timed digital mock exams"
+    },
+    "career_outcomes": [
+      "Readiness for the AP Computer Science A exam as it is tested from 2025-26, on the digital platform",
+      "The ability to actually write Java, the foundation for a college introductory programming course",
+      "A genuine first step toward a computer science degree or any programming-heavy field",
+      "Free-response and problem-solving habits that transfer to college coursework and technical interviews later",
+      "An honest, evidence-based read on a realistic target score for your level and the work to reach it"
+    ]
+  },
+  "phase_1_java_foundations": {
+    "title": "PHASE 1: Java Foundations and Using Objects (Unit 1, Months 1-2, Weeks 1-8)",
+    "description": "Java built from nothing, then Unit 1 of the redesigned course: using objects and methods, the largest single source of early marks and the base everything else stands on.",
+    "month_1_java_from_scratch": {
+      "title": "Month 1: Java From the Ground Up",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Setup, the Java Program, and Output",
+        "topics": [
+          "Installing Java and a clean editor setup, plus a first look at the Bluebook exam environment",
+          "The anatomy of a Java program: class, main method, statements and semicolons",
+          "Printing with System.out.print and println, and reading output carefully",
+          "Comments, whitespace and why readable code earns marks in free response",
+          "The compile-and-run cycle and reading your first error messages without fear",
+          "The AP Java Quick Reference: what it gives you on the exam and how to use it"
+        ],
+        "projects": [
+          "First program: a short Java program that prints a formatted pattern, run and explained line by line"
+        ],
+        "practice": "10 short output-tracing exercises: predict what a snippet prints, then run it and reconcile any difference"
+      },
+      "week_2": {
+        "title": "Primitive Types, Variables, and Expressions",
+        "topics": [
+          "The primitive types AP tests: int, double and boolean",
+          "Declaration, initialisation and assignment",
+          "Arithmetic operators, and the two that trip everyone: integer division and modulus",
+          "Operator precedence and using parentheses to mean what you intend",
+          "Casting between int and double, and where rounding silently happens",
+          "Compound assignment and increment operators read correctly"
+        ],
+        "projects": [
+          "Calculator methods: small programs computing averages, remainders and unit conversions, each predicting integer versus double results first"
+        ],
+        "practice": "16 expression-evaluation problems, half of them designed around the integer-division and modulus traps"
+      },
+      "week_3": {
+        "title": "Using Objects and the String Class",
+        "topics": [
+          "Objects versus primitives, and the reference model that explains so many exam questions",
+          "Creating objects and calling methods on them",
+          "String concatenation and building output",
+          "The tested String methods: length, substring, indexOf, equals and compareTo",
+          "Why equals and == are different for objects, a guaranteed exam theme",
+          "Reading a method's header to know what it needs and what it returns"
+        ],
+        "projects": [
+          "String toolkit: methods that extract initials, reverse words and search text, using only the AP-tested String methods"
+        ],
+        "practice": "14 String problems worked against the Quick Reference, each solution using only methods the exam actually provides"
+      },
+      "week_4": {
+        "title": "The Math Class and Method Basics",
+        "topics": [
+          "The Math methods AP tests: abs, pow, sqrt and random",
+          "Turning Math.random into an integer in a target range, a classic exam skill",
+          "Calling methods: arguments, parameters and return values",
+          "void methods versus value-returning methods",
+          "Method signatures and matching a call to a header",
+          "Tracing a program that hands values between several methods"
+        ],
+        "projects": [
+          "Dice and ranges: a program that generates random values in given ranges and verifies the distribution by counting"
+        ],
+        "practice": "12 mixed problems on Math and method calls, plus 4 random-range questions built the way the exam builds them",
+        "assessment": "Month 1 checkpoint: a timed set on types, expressions, Strings and methods, marked on accuracy and correct tracing"
+      }
+    },
+    "month_2_unit_one_depth": {
+      "title": "Month 2: Unit 1 Depth, Using Objects and Methods",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Wrapper Classes and Number Handling",
+        "topics": [
+          "Integer and Double wrapper classes and why they exist",
+          "Autoboxing and unboxing seen in code you will meet later with ArrayList",
+          "Parsing numbers and Integer.MAX_VALUE and MIN_VALUE",
+          "Double precision surprises and why you never test doubles with ==",
+          "Choosing int versus double deliberately, not by habit",
+          "Reading questions that hide a type mismatch"
+        ],
+        "projects": [
+          "Number-handling drill: a program that safely parses, compares and formats numeric input, with the precision traps annotated"
+        ],
+        "practice": "12 problems on wrapper classes, parsing and precision, each with a one-line note on the type decision made"
+      },
+      "week_6": {
+        "title": "String Manipulation Deep Dive",
+        "topics": [
+          "Building, searching and comparing Strings at exam difficulty",
+          "Common String algorithms: counting characters, extracting parts, reversing",
+          "The off-by-one errors that live in substring and indexOf",
+          "Traversing a String by index, a bridge to loops in Unit 2",
+          "Comparing Strings correctly with equals and compareTo",
+          "Writing a helper method that returns a processed String"
+        ],
+        "projects": [
+          "Text processor: methods that clean, search and transform text, each tested on tricky edge cases like empty and single-character strings"
+        ],
+        "practice": "14 String-algorithm problems, every solution checked against an empty-string and one-character edge case"
+      },
+      "week_7": {
+        "title": "Designing and Calling Methods",
+        "topics": [
+          "Decomposing a problem into small, named methods",
+          "Helper methods and why they make free-response answers cleaner",
+          "Method overloading, recognised and read correctly",
+          "Tracing a chain of method calls and their return values",
+          "Parameter passing in Java: what a method can and cannot change about what you pass it",
+          "Reading a specification and turning it into method headers"
+        ],
+        "projects": [
+          "Method decomposition: one larger task solved twice, once as a single long method and once split into helpers, then compared for clarity"
+        ],
+        "practice": "12 method-tracing problems plus 4 parameter-passing questions built around the value-semantics trap"
+      },
+      "week_8": {
+        "title": "Unit 1 Mastery and the Digital Multiple Choice",
+        "topics": [
+          "Pulling Unit 1 together: objects, methods, Strings and the Math class",
+          "The multiple-choice section as it is now: forty-two questions, choices A to D, ninety minutes",
+          "Roughly two minutes a question, and how that changes pacing",
+          "Reading code-snippet questions quickly and accurately",
+          "Eliminating wrong answers on tracing questions",
+          "A personal error log started here and grown all course"
+        ],
+        "projects": [
+          "First timed multiple-choice block on Unit 1 content, reviewed question by question with each miss tagged by cause"
+        ],
+        "practice": "A timed Unit 1 multiple-choice set at exam pace, followed by a written review of every wrong and every guessed answer",
+        "assessment": "Unit 1 assessment: a timed multiple-choice section on using objects and methods, scored with the error log updated"
+      }
+    }
+  },
+  "phase_2_control_and_classes": {
+    "title": "PHASE 2: Selection, Iteration and Class Creation (Units 2 and 3, Months 3-4, Weeks 9-16)",
+    "description": "The logic and loops that drive every program, then writing your own classes, which is exactly what the class-design free-response question demands.",
+    "month_3_selection_and_iteration": {
+      "title": "Month 3: Selection and Iteration (Unit 2)",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Boolean Expressions and if Statements",
+        "topics": [
+          "Boolean values and relational operators",
+          "if, if-else and if-else-if chains",
+          "Nested conditionals and reading them without getting lost",
+          "Common logic errors and how the exam sets them",
+          "Writing conditions that match a worded specification exactly",
+          "Deciding between an if-else-if chain and separate ifs, and why it matters"
+        ],
+        "projects": [
+          "Decision engine: a grading or categorising program driven entirely by conditionals, tested against every boundary value"
+        ],
+        "practice": "14 conditional problems, each one required to be traced for at least three different inputs"
+      },
+      "week_10": {
+        "title": "Compound Conditions and De Morgan's Laws",
+        "topics": [
+          "The logical operators and, or and not",
+          "Short-circuit evaluation and when the second condition is never checked",
+          "De Morgan's laws and rewriting a condition as its equivalent",
+          "Simplifying tangled boolean expressions",
+          "Boolean-returning methods, a frequent exam and free-response pattern",
+          "Truth-table thinking for questions that look harder than they are"
+        ],
+        "projects": [
+          "Condition simplifier: a set of gnarly boolean expressions rewritten in simplest equivalent form and verified by truth table"
+        ],
+        "practice": "12 compound-condition problems including 4 De Morgan rewrites checked both ways"
+      },
+      "week_11": {
+        "title": "While and For Loops",
+        "topics": [
+          "The while loop and its three moving parts",
+          "The for loop as a compact while, and converting between them",
+          "Counters, accumulators and running totals",
+          "Sentinel-controlled loops",
+          "Off-by-one errors and infinite loops, diagnosed on purpose",
+          "Counting exactly how many times a loop body runs, a guaranteed multiple-choice type"
+        ],
+        "projects": [
+          "Loop patterns: programs that sum, count, find and build using loops, each with the iteration count predicted before running"
+        ],
+        "practice": "16 loop problems, half asking for the exact number of executions rather than the final value"
+      },
+      "week_12": {
+        "title": "Nested Loops and String Traversal",
+        "topics": [
+          "Nested loops and how the inner loop multiplies the work",
+          "Traversing a String character by character with a loop",
+          "Building patterns and tables with nested iteration",
+          "Analysing nested-loop statement execution counts",
+          "Combining loops with the conditionals from earlier weeks",
+          "Recognising when a loop is the wrong tool"
+        ],
+        "projects": [
+          "Pattern generator: nested-loop programs that draw shapes and process text grids, with execution counts worked out by hand"
+        ],
+        "practice": "12 nested-loop and String-traversal problems, execution counts required on the nested ones",
+        "assessment": "Unit 2 assessment: a timed section on conditionals and loops, including statement-execution-count questions"
+      }
+    },
+    "month_4_class_creation": {
+      "title": "Month 4: Class Creation (Unit 3)",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Anatomy of a Class",
+        "topics": [
+          "Instance variables and the state an object holds",
+          "Constructors and initialising an object correctly",
+          "Default values and the null reference",
+          "Creating objects with new and calling their methods",
+          "The this reference and when you need it",
+          "Reading a class specification the way a free-response question presents it"
+        ],
+        "projects": [
+          "First class from scratch: a small class with fields and a constructor, instantiated and exercised from a tester program"
+        ],
+        "practice": "10 problems building constructors and instance variables from a written specification"
+      },
+      "week_14": {
+        "title": "Methods, Encapsulation, and Access",
+        "topics": [
+          "Accessor and mutator methods done cleanly",
+          "private versus public and why encapsulation is tested",
+          "Returning and updating an object's state safely",
+          "Writing methods that use the object's own instance variables",
+          "Method contracts: honouring exactly what a specification promises",
+          "Common class-design mistakes that cost free-response points"
+        ],
+        "projects": [
+          "Encapsulated class: a class with private fields and a full set of methods, with a test proving the state can only change through methods"
+        ],
+        "practice": "12 problems adding correct accessor, mutator and behaviour methods to given classes"
+      },
+      "week_15": {
+        "title": "Static, Scope, and Designing to a Specification",
+        "topics": [
+          "static variables and methods, and how they differ from instance members",
+          "Local versus instance scope, a frequent source of exam confusion",
+          "Designing a whole class from a table of required behaviour",
+          "Choosing fields, constructors and methods that satisfy every listed case",
+          "Testing your own class against the specification before trusting it",
+          "How this maps directly onto free-response Question 2, class design"
+        ],
+        "projects": [
+          "Spec-to-class: a complete class built from a behaviour table alone, then checked case by case against that table"
+        ],
+        "practice": "10 class-design problems worked from specification to tested class, scope errors flagged as they appear"
+      },
+      "week_16": {
+        "title": "Unit 3 Mastery and the Class-Design Free Response",
+        "topics": [
+          "Writing a full class to specification under time",
+          "The Class Design free-response question and its rubric",
+          "Reading the specification table for exactly the points on offer",
+          "Where partial credit lives in a class-design answer",
+          "Self-checking an answer against the rubric before moving on",
+          "Handwriting and clarity habits that protect marks on a digital exam"
+        ],
+        "projects": [
+          "Full class-design response written to a released-style prompt, then scored against the rubric point by point"
+        ],
+        "practice": "Two timed class-design responses, each self-scored on the rubric with the lost points named",
+        "assessment": "Unit 3 assessment: a timed section plus one class-design free response, scored on the official rubric"
+      }
+    }
+  },
+  "phase_3_data_and_exam_mastery": {
+    "title": "PHASE 3: Data Collections and Exam Mastery (Unit 4 and Full Mocks, Months 5-6, Weeks 17-24)",
+    "description": "Arrays, ArrayList, 2D arrays, files and data sets, then a full turn to exam craft: every free-response type drilled and complete timed digital mock exams.",
+    "month_5_data_collections": {
+      "title": "Month 5: Data Collections (Unit 4)",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "One-Dimensional Arrays",
+        "topics": [
+          "Declaring, creating and initialising arrays",
+          "Indexing, length and the out-of-bounds error",
+          "Traversing an array with a standard for loop",
+          "The enhanced for loop and when it can and cannot be used",
+          "Array algorithms: minimum, maximum, sum, count and average",
+          "The array traps the exam reuses, including modifying while traversing"
+        ],
+        "projects": [
+          "Array analyser: methods that scan an array for statistics and matches, each tested on empty and single-element arrays"
+        ],
+        "practice": "14 array problems spanning both loop styles, edge cases required on every algorithm"
+      },
+      "week_18": {
+        "title": "ArrayList",
+        "topics": [
+          "ArrayList versus arrays, and why the exam tests both",
+          "The tested methods: add, get, set, remove and size",
+          "Autoboxing in an ArrayList of Integer",
+          "Traversing and searching an ArrayList",
+          "The removal-during-iteration bug and the two correct fixes",
+          "ArrayList algorithms that mirror free-response Question 3, data analysis"
+        ],
+        "projects": [
+          "Data-analysis methods: an ArrayList processed to filter, count and summarise, written the way the free response asks"
+        ],
+        "practice": "14 ArrayList problems, including two built specifically around the remove-while-iterating trap"
+      },
+      "week_19": {
+        "title": "Two-Dimensional Arrays",
+        "topics": [
+          "Declaring and initialising 2D arrays",
+          "Row-major order and what it means for traversal",
+          "Nested loops over a grid, rows then columns",
+          "2D array algorithms: row sums, column sums, searching and counting",
+          "Common indexing mistakes on the second dimension",
+          "How this maps onto free-response Question 4, the 2D array question"
+        ],
+        "projects": [
+          "Grid processor: methods that analyse a 2D array by row, column and whole grid, each traced on a small sample grid first"
+        ],
+        "practice": "12 two-dimensional array problems, a hand trace required before coding each solution"
+      },
+      "week_20": {
+        "title": "Files, Data Sets, and Recursion Tracing",
+        "topics": [
+          "Reading text files with Scanner, a topic added in the 2025-26 redesign",
+          "Working with data sets: loading, storing and processing real rows of data",
+          "Tracing recursive calls, which the current exam tests; you trace recursion, you do not write it",
+          "Why inheritance, polymorphism and writing recursion are not on the redesigned exam, so we do not spend time on them",
+          "Combining files, arrays and ArrayList into one small data program",
+          "A clear map of exactly what Unit 4 does and does not require"
+        ],
+        "projects": [
+          "Mini data project: read a small text data set with Scanner, store it, and answer questions about it with array or ArrayList methods"
+        ],
+        "practice": "10 problems mixing file reading and data processing, plus 6 recursion-tracing questions that ask only for the traced result",
+        "assessment": "Unit 4 assessment: a timed section on arrays, ArrayList, 2D arrays, file reading and recursion tracing"
+      }
+    },
+    "month_6_free_response_and_mocks": {
+      "title": "Month 6: Free-Response Mastery and Full Mock Exams",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "Free Response 1 and 2: Methods, Control Structures and Class Design",
+        "topics": [
+          "Question 1, methods and control structures: writing two methods, or a constructor and a method, to spec",
+          "Handling the String-method part cleanly in Question 1",
+          "Question 2, class design, revisited under exam time",
+          "Reading a rubric to see exactly where points are awarded",
+          "The commonest point-losing mistakes on these two questions",
+          "Writing code clean enough to be scored quickly and correctly"
+        ],
+        "projects": [
+          "Two timed responses, one Question-1 style and one Question-2 style, each scored against the official rubric"
+        ],
+        "practice": "Timed free-response practice on Questions 1 and 2, every attempt self-scored with the lost points named"
+      },
+      "week_22": {
+        "title": "Free Response 3 and 4: ArrayList Data Analysis and 2D Arrays",
+        "topics": [
+          "Question 3, data analysis with an ArrayList, from spec to working method",
+          "Question 4, the 2D array question, traversed and manipulated correctly",
+          "The data-manipulation patterns these two questions reward",
+          "Partial-credit strategy: securing points even when the full method is hard",
+          "Time budgeting across all four free-response questions",
+          "Checking a method against the given examples before you commit"
+        ],
+        "projects": [
+          "Two timed responses, one Question-3 style and one Question-4 style, scored against the rubric and compared to week 21"
+        ],
+        "practice": "Timed free-response practice on Questions 3 and 4, with a written note on where partial credit was won or missed"
+      },
+      "week_23": {
+        "title": "Multiple-Choice Strategy and Full Mock Exam One",
+        "topics": [
+          "Pacing the forty-two-question digital multiple-choice section",
+          "Fast, accurate code tracing under time",
+          "Elimination and educated guessing when a trace stalls",
+          "A first complete timed mock: multiple choice and free response together",
+          "Running the mock under Bluebook-style digital conditions",
+          "Scoring the mock and converting toward the 1 to 5 scale"
+        ],
+        "projects": [
+          "Full mock exam one, scored, with a written breakdown of multiple-choice versus free-response performance"
+        ],
+        "practice": "The full timed mock plus a complete review, every missed multiple-choice question re-traced correctly"
+      },
+      "week_24": {
+        "title": "Full Mock Exam Two and Test-Ready Review",
+        "topics": [
+          "A second complete timed mock under exam conditions",
+          "Comparing the two mocks for direction of travel",
+          "Closing the last content gaps the mocks exposed",
+          "The test-day digital routine: the Bluebook app, the Quick Reference, timing",
+          "A realistic, evidence-based target score from your mock results",
+          "Where to go next: college programming, data structures, or a first real project"
+        ],
+        "projects": [
+          "Full mock exam two, scored and reviewed, ending in a one-page test-day plan built from your own results"
+        ],
+        "practice": "The second full mock plus targeted repair of any remaining weak topic",
+        "assessment": "Final assessment: a complete timed mock exam, a progress summary from week 1 to now, and certificate review"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A String toolkit built from only the AP-tested String methods",
+      "An encapsulated class designed from a behaviour specification",
+      "An array analyser tested on every edge case",
+      "An ArrayList data-analysis method in the free-response style",
+      "A 2D array grid processor",
+      "A mini data project that reads a text data set with Scanner",
+      "Eight scored free-response answers across all four question types",
+      "Two full timed mock exams under digital conditions"
+    ],
+    "total_projects_built": "Dozens of small Java programs plus eight scored free responses and two complete timed mock exams, all mapped to the 2025-26 exam",
+    "skills_mastered": [
+      "Reading and writing real Java, not just recognising it",
+      "Using objects and methods, the largest scored area of the redesigned exam",
+      "Conditionals, loops and nested iteration with correct execution-count reasoning",
+      "Designing and writing classes to a specification, the class-design free response",
+      "Arrays, ArrayList, 2D arrays, file reading and recursion tracing under the new Unit 4",
+      "Free-response point-earning and digital multiple-choice pacing on full timed mocks"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, writing and tracing Java code live rather than watching solutions scroll by",
+      "practice": "4-5 hours weekly of coding problems, tracing exercises and, later, timed free-response and mock sections",
+      "review": "Homework and free responses reviewed with written feedback, scored against the official rubric so you see exactly where points are won and lost"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, awarded on finishing the course and its final timed mock exams"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with worked solutions for the problems that stall you",
+      "progress_updates": "Monthly progress notes tracking unit assessments and, in the final months, mock-exam scores against your target",
+      "career_guidance": "Honest guidance on what an AP score does and does not do for college admissions and credit, and what to study next in computer science"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "Comfortable school algebra: variables, expressions and basic logic. No advanced maths is required for AP Computer Science A",
+    "programming": "None required. The course teaches Java from the first line, so a complete beginner can start here; prior block-based or Python experience helps but is not assumed",
+    "equipment": "A computer that can run Java and a modern browser, since the real exam and our mock exams use a digital testing environment. We help with the full setup in week 1",
+    "audience": "High school students preparing for AP Computer Science A, typically in the years leading up to the exam, whether taking it at school or self-studying"
+  },
+  "who_is_this_for": {
+    "ap_students": "Students taking AP Computer Science A at school who want a structured, current course and real code review alongside their class",
+    "self_studiers": "Students whose school does not offer AP CS A and who are preparing for the exam independently",
+    "score_focused": "Students aiming for a strong score who want free-response drilling against the real rubric and full timed mock exams",
+    "cs_bound": "Students headed for a computer science or engineering degree who want a genuine first programming course, not just exam tricks",
+    "international_students": "International students sitting AP for university applications who need the exam taught to its current, digital, 2025-26 format"
+  },
+  "career_paths_after_completion": [
+    "A strong footing for the AP Computer Science A exam and, through it, university applications",
+    "Readiness for a college introductory programming course, often the exact content AP CS A mirrors",
+    "A genuine first step toward a computer science, software engineering or data degree",
+    "The Java and problem-solving base for our more advanced coding courses, including data structures and algorithms",
+    "Programming and free-response habits that transfer to later coursework and technical interviews"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured curriculum that teaches Java from scratch and follows the current four-unit exam, with hands-on coding in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so a stuck problem does not cost you a week.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "Is this course taught to the new 2025-26 AP CS A exam?",
+      "answer": "Yes, and this is the single most important thing to check in any AP CS A course right now. The College Board redesigned the course for 2025-26: the old ten units became four, the exam moved fully onto the digital Bluebook platform, and the content changed. Inheritance, polymorphism, interfaces and writing recursive methods were removed. Reading text files with Scanner, working with data sets, and tracing recursive calls were added. We teach the four-unit course and the digital exam as they are now. A course or textbook still built around a separate inheritance unit is preparing you for an exam that no longer exists."
+    },
+    {
+      "question": "Do I need to know Java or any programming before I start?",
+      "answer": "No. The course starts at the very first line of Java and builds up, so a complete beginner is exactly who it is designed for. If you have done some block coding or a little Python, that background helps you move faster, but nothing is assumed. What the course does need is the practice hours: programming is learned by writing code, and the four to five hours a week of practice are where the real progress happens, not only in class."
+    },
+    {
+      "question": "What is the exam format now?",
+      "answer": "The redesigned exam has two sections of equal length. Section 1 is multiple choice: forty-two questions with answer choices A to D, ninety minutes, and it is worth fifty-five percent of the score. Section 2 is free response: four questions, ninety minutes, worth forty-five percent. The four free-response questions are methods and control structures, class design, data analysis with an ArrayList, and a 2D array question. The whole exam is taken digitally in the Bluebook app, with the Java Quick Reference available on screen. We run full mock exams under these conditions so test day feels familiar."
+    },
+    {
+      "question": "Will this course get me a 5, or college credit?",
+      "answer": "No honest course can promise a specific score. AP exams are graded 1 to 5, and your result depends on your starting point, the hours you put in and your performance on the day. What we can promise is honest: live teaching to the current exam, small batches, real doubt support, free-response drilling against the official rubric, and full timed mock exams, plus a clear, evidence-based read on a realistic target for you. Whether a given score earns college credit is decided by each university, not by us or by the College Board, so we will point you to check the specific policy of the colleges you care about."
+    },
+    {
+      "question": "What happened to inheritance and recursion?",
+      "answer": "They changed in the redesign, and knowing this saves you real time. Inheritance, polymorphism, the extends and super keywords, interfaces, and writing recursive methods were all removed from the required content. Recursion is still on the exam, but only tracing: you follow recursive calls and state the result, you are not asked to write a recursive method. We teach recursion tracing properly, and we deliberately do not spend weeks on the removed topics, which is time we give back to the areas the exam actually tests, especially Unit 4 data collections, the largest scored unit."
+    },
+    {
+      "question": "Can I manage this alongside school and other subjects?",
+      "answer": "Yes, it is built for a school student's week: two live one-hour classes plus four to five hours of practice you can place where they fit, with evening and weekend class slots. The pace is steady rather than crushing, and WhatsApp doubt support means a problem that stalls you on a school night does not have to wait for the next class. Students who miss a session can usually attend the same class with another batch where scheduling allows, so a busy exam week does not leave a gap."
+    },
+    {
+      "question": "How is the free response practised and marked?",
+      "answer": "The way it is actually scored. From month 4 onward you write timed free-response answers to released-style prompts, and each one is marked against the official College Board rubric, point by point, so you see exactly where marks are earned and lost. By the final month you will have written and reviewed several answers across all four question types. This rubric-first habit is what separates students who understand Java from students who reliably score on the free-response section, and the two are not the same thing."
+    },
+    {
+      "question": "What does the course cost, and can I try it first?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $40 per month for group classes and $100 per month for 1-on-1. The first demo class is free, so you can see the teaching before deciding: book at learn.modernagecoders.com/contact or on WhatsApp at +91 91233 66161."
+    },
+    {
+      "question": "Is this course affiliated with the College Board?",
+      "answer": "No. Modern Age Coders is an independent education provider and is not affiliated with, authorised by, or endorsed by the College Board. AP and Advanced Placement are registered trademarks of the College Board, used here only to describe the exam this course prepares students for. For official course and exam information, students should always refer to the College Board and AP Central directly."
+    }
+  ]
+}
