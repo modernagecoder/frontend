@@ -1,0 +1,451 @@
+{
+  "meta": {
+    "slug": "11-plus-maths-preparation-course-uk",
+    "title": "11 Plus Maths Preparation UK: Grammar and Independent School Entrance",
+    "description": "11 plus maths preparation course for UK grammar and independent school entrance: live online classes, full KS2-based syllabus, GL-style papers and timed practice.",
+    "keywords": [
+      "11 plus maths preparation course",
+      "11 plus maths tuition online",
+      "gl assessment maths practice",
+      "grammar school maths preparation",
+      "11 plus maths topics year 5",
+      "eleven plus online classes uk",
+      "iseb pretest maths preparation",
+      "11 plus maths mock papers"
+    ],
+    "category": "Test Prep Mathematics",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "8 months (32 weeks)",
+    "level": "UK students ages 9-11 (Years 5-6), grammar and independent school applicants",
+    "commitment": "2 live classes/week + 2-3 hours practice, rising to timed papers in the final phase",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "eleven-plus-maths.png"
+  },
+  "program_overview": {
+    "title": "11 Plus Maths Preparation UK",
+    "tagline": "The maths half of the 11 plus, taught properly over eight months, so test day tests the child and not the preparation.",
+    "description": "11 plus maths does not go beyond the national curriculum; what makes it hard is that it asks Key Stage 2 mathematics at speed, in unfamiliar wording, against children who have often prepared for years. This 8-month live course covers the full ground in a teaching order that builds: number fluency first, because a child who hesitates over 7 times 8 loses time on every question that follows; then fractions, decimals and percentages, ratio and proportion, early algebra, geometry and measures, and data. The final two months turn knowledge into test performance: multi-step word problems, timing strategy, multiple-choice technique, and a run of practice papers in the style of GL Assessment, which now sets the tests for most grammar schools in England.\n\nWe are honest about the landscape. CEM stopped producing its familiar paper-based 11 plus tests in 2023 and most regions that used them have moved to GL, so we do not sell CEM prep as if those regional tests still run. Families targeting independent schools that use the online ISEB Pre-Tests or their own papers get practice aligned to those formats. And we are honest about outcomes: good preparation raises a child's chances and steadies their nerves, but grammar school places are competitive and nobody can promise one.",
+    "what_makes_this_different": [
+      "Aligned to the tests as they are now: GL Assessment for most grammar schools, ISEB Pre-Tests for many independents, and bespoke papers such as the CSSE in Essex, with practice matched to your target schools",
+      "No false CEM promises: CEM's paper-based regional tests ended in 2023, and our format practice reflects what children will actually sit",
+      "Number fluency is drilled before anything else, because test timing punishes slow arithmetic more than any missing topic",
+      "Word problems are treated as a skill of their own: reading, extracting and choosing the operation, taught explicitly rather than assumed",
+      "Two full months of timed technique and practice papers, with a marked review after every paper and an error log per child",
+      "Live small classes where the teacher watches the child work, plus honest monthly notes to parents about readiness"
+    ],
+    "learning_path": {
+      "phase_1": "Number fluency: place value, all four operations mental and written, tables cold, factors, multiples, primes and sequences",
+      "phase_2": "Fractions, decimals and percentages as one connected system, then ratio, proportion and best-value reasoning",
+      "phase_3": "Early algebra, geometry, measures and data: missing numbers and simple equations, shapes, angles, area, units, charts and averages",
+      "phase_4": "Test craft: multi-step word problems, timing strategy, multiple-choice technique and a full practice-paper cycle with marked reviews"
+    },
+    "career_outcomes": [
+      "The full 11 plus maths syllabus covered with two months reserved for timed practice",
+      "Arithmetic speed that holds up under test timing",
+      "A tested routine for word problems: read, extract, choose, check",
+      "Familiarity with GL-style multiple-choice papers and answer sheets before test day",
+      "A stronger Year 6, whatever the test result: the same maths underpins KS2 SATs and secondary school entry"
+    ]
+  },
+  "phase_1_number_fluency": {
+    "title": "PHASE 1: Number Fluency (Months 1-2, Weeks 1-8)",
+    "description": "Speed and accuracy with number come first. Every later topic, and every timed paper, leans on arithmetic that works without hesitation.",
+    "month_1_place_value_and_operations": {
+      "title": "Month 1: Place Value and the Four Operations",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: Place Value, Ordering and Mental Methods",
+        "topics": [
+          "Diagnostic check: where each child's number work actually stands",
+          "Place value to millions and reading large numbers aloud",
+          "Ordering, comparing and rounding to any power of ten",
+          "Mental addition and subtraction strategies: partitioning, compensation, near doubles",
+          "Column addition and subtraction with carrying and borrowing secure",
+          "Negative numbers in context: temperature, money, number lines"
+        ],
+        "projects": [
+          "Speed grid week: a daily 5-minute arithmetic grid, times recorded so the child can watch their own speed climb"
+        ],
+        "practice": "Daily 10-minute number work set as a routine, plus 20 mixed place value and rounding questions"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Multiplication, Division and Order of Operations",
+        "topics": [
+          "Times tables to 12 made automatic, with the stubborn facts targeted",
+          "Written multiplication: two digits by two digits and beyond",
+          "Short division and long division, including remainders in context",
+          "Choosing between mental, jotted and written methods",
+          "Order of operations with brackets",
+          "Estimating first: catching wrong answers before they are written down"
+        ],
+        "projects": [
+          "Personal tables map: each child's slowest facts identified and drilled until they match their fastest"
+        ],
+        "practice": "25 multiplication and division questions plus daily tables sprints, errors sorted into fact errors and method errors",
+        "assessment": "Month 1 check: a 20-minute arithmetic paper, marked for accuracy first and speed second"
+      }
+    },
+    "month_2_number_properties": {
+      "title": "Month 2: Number Properties and Fluency Under Time",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Factors, Multiples, Primes and Sequences",
+        "topics": [
+          "Factors and multiples, and the difference stated without hesitation",
+          "Prime numbers to 100 and how to test for them",
+          "Square numbers and cube numbers",
+          "Divisibility rules for 2, 3, 4, 5, 6, 9 and 10",
+          "Number sequences: finding the rule and the next terms",
+          "Special sequences: triangular numbers and patterns that alternate"
+        ],
+        "projects": [
+          "Number detective set: 12 who-am-I number puzzles solved using properties, the kind the 11 plus loves"
+        ],
+        "practice": "24 property and sequence questions plus one puzzle set done with a parent, for fun rather than marks"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Mixed Arithmetic with the Clock Running Gently",
+        "topics": [
+          "Mixed four-operation problems in 11 plus wording",
+          "Inverse operations: checking answers and finding missing digits",
+          "Money calculations: change, totals and unit prices",
+          "Estimation and sense checks: is this answer even possible",
+          "Introducing gentle time pressure: untimed first, then generous, then realistic",
+          "What to do when stuck: skip, mark and return"
+        ],
+        "projects": [
+          "First mini-paper: a 15-question arithmetic paper under generous timing, reviewed question by question in class"
+        ],
+        "practice": "Three 15-minute mixed sets across the fortnight, each one slightly tighter on time than the last",
+        "assessment": "Phase 1 milestone: a 30-minute number paper covering both months, with a speed and accuracy report for parents"
+      }
+    }
+  },
+  "phase_2_fractions_to_proportion": {
+    "title": "PHASE 2: Fractions, Decimals, Percentages, Ratio and Proportion (Months 3-4, Weeks 9-16)",
+    "description": "The part-whole toolkit that 11 plus papers test relentlessly, taught as one connected system rather than three separate topics, then extended into ratio and proportion.",
+    "month_3_fractions_decimals_percentages": {
+      "title": "Month 3: Fractions, Decimals and Percentages",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Fractions That Make Sense",
+        "topics": [
+          "Equivalent fractions and simplifying to lowest terms",
+          "Comparing and ordering fractions with different denominators",
+          "Adding and subtracting fractions, including mixed numbers",
+          "Fractions of amounts: two thirds of 96 without fear",
+          "Improper fractions and mixed numbers, converting both ways",
+          "Fraction word problems: half of a half, and shares that do not split evenly"
+        ],
+        "projects": [
+          "Fraction wall build: each child makes their own fraction wall and uses it to settle five comparison arguments"
+        ],
+        "practice": "28 fraction questions from equivalence to word problems, working shown even when the answer is obvious"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Decimals, Percentages and Moving Between All Three",
+        "topics": [
+          "Decimal place value and ordering decimals",
+          "Multiplying and dividing by 10, 100 and 1000",
+          "Adding, subtracting and multiplying decimals in money contexts",
+          "Percentages as hundredths: finding 10 percent, 5 percent and 1 percent and building the rest",
+          "Percentage of an amount, and simple percentage increase and decrease",
+          "The conversion triangle: fractions, decimals and percentages swapped fluently"
+        ],
+        "projects": [
+          "Conversion pack: a self-made table of the equivalences worth knowing cold, from a half down to a twentieth"
+        ],
+        "practice": "26 decimal and percentage questions plus 10 rapid conversions daily until they are automatic",
+        "assessment": "Month 3 test: a 25-minute paper across fractions, decimals and percentages in 11 plus style"
+      }
+    },
+    "month_4_ratio_and_proportion": {
+      "title": "Month 4: Ratio, Proportion and Best Value",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Ratio and Sharing",
+        "topics": [
+          "Ratio notation and what 3 to 2 actually says",
+          "Simplifying ratios, including with units",
+          "Sharing an amount in a given ratio",
+          "Ratio and fractions: moving between the two views",
+          "Scaling recipes up and down",
+          "Ratio word problems in test wording: sweets, marbles, paint mixes"
+        ],
+        "projects": [
+          "Recipe rescale: one real family recipe scaled for 2, 6 and 9 people, with the working presented neatly"
+        ],
+        "practice": "24 ratio questions, every sharing answer checked by adding the parts back together"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Proportion, Best Value and Scale",
+        "topics": [
+          "Direct proportion: the unitary method taught as a habit",
+          "Best value: comparing pack sizes and unit prices",
+          "Scale on maps and plans",
+          "Speed, distance and time in simple, whole-number cases",
+          "Proportion word problems that mix money and measures",
+          "Spotting proportion questions hidden inside long wording"
+        ],
+        "projects": [
+          "Supermarket challenge: real price comparisons worked as best-value problems and written up as answers with reasons"
+        ],
+        "practice": "22 proportion and best-value questions plus a 20-minute mixed paper on all of phase 2",
+        "assessment": "Phase 2 milestone: a 30-minute paper across fractions, decimals, percentages, ratio and proportion"
+      }
+    }
+  },
+  "phase_3_algebra_geometry_data": {
+    "title": "PHASE 3: Early Algebra, Geometry, Measures and Data (Months 5-6, Weeks 17-24)",
+    "description": "The remaining syllabus ground: missing-number thinking and simple equations, then shapes, angles, area, units and time, and finally charts, tables and averages.",
+    "month_5_algebra_and_shape": {
+      "title": "Month 5: Early Algebra and Geometry",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Missing Numbers and Simple Equations",
+        "topics": [
+          "Missing number problems as balance puzzles",
+          "Function machines forwards and backwards",
+          "Simple one-step and two-step equations solved by undoing",
+          "Substituting numbers into simple rules and formulas",
+          "Word puzzles turned into number sentences",
+          "Think-of-a-number problems worked backwards"
+        ],
+        "projects": [
+          "Puzzle exchange: each child writes three think-of-a-number puzzles and solves three written by classmates"
+        ],
+        "practice": "24 missing-number and equation questions, each answer substituted back to check itself"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Shapes, Angles and Position",
+        "topics": [
+          "2D shapes and their properties: triangles by type, quadrilaterals by name",
+          "Angle types, angles on a line, around a point and inside a triangle",
+          "Symmetry: line and rotational",
+          "Coordinates in all four quadrants",
+          "Reflection and translation on a grid",
+          "3D shapes, faces, edges, vertices and nets"
+        ],
+        "projects": [
+          "Shape fact file: a one-page reference of shape and angle facts in the child's own words and drawings"
+        ],
+        "practice": "26 geometry questions with every angle answer justified by the fact used",
+        "assessment": "Month 5 test: a 25-minute paper on algebra and geometry in test style"
+      }
+    },
+    "month_6_measures_and_data": {
+      "title": "Month 6: Measures, Time and Data",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Perimeter, Area, Volume and Units",
+        "topics": [
+          "Perimeter and area of rectangles and compound shapes",
+          "Area of a triangle",
+          "Volume of cuboids, counting cubes first and formula second",
+          "Metric units and conversions: length, mass, capacity",
+          "Reading scales and measuring instruments accurately",
+          "Time: 24-hour clock, timetables and elapsed-time problems"
+        ],
+        "projects": [
+          "Room plan: the child's own room measured, drawn to scale and its floor area calculated"
+        ],
+        "practice": "24 measures questions with units written in every answer, timetable problems done against a gentle clock"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Charts, Tables and Averages",
+        "topics": [
+          "Reading tables, bar charts, pictograms and line graphs quickly and exactly",
+          "Two-step chart questions: differences, totals and comparisons",
+          "Pie charts read as fractions of a whole",
+          "Mean, median, mode and range, and which the question is really asking for",
+          "Simple probability language: likely, unlikely, evens, and fractions for equally likely outcomes",
+          "The data traps: misread scales and units, and how to avoid them"
+        ],
+        "projects": [
+          "Family survey: a small data set collected at home, charted by hand, and turned into three test-style questions"
+        ],
+        "practice": "22 data questions plus one full mixed set covering everything taught so far",
+        "assessment": "Phase 3 milestone: a 40-minute paper across the whole syllabus, the first true full-coverage test"
+      }
+    }
+  },
+  "phase_4_test_craft_and_papers": {
+    "title": "PHASE 4: Problem Solving Under Time and the Practice-Paper Cycle (Months 7-8, Weeks 25-32)",
+    "description": "The syllabus is done; now the test itself is the subject. Multi-step word problems, timing strategy and multiple-choice technique, then a full cycle of practice papers with marked reviews.",
+    "month_7_problem_solving_under_time": {
+      "title": "Month 7: Word Problems and Test Technique",
+      "weeks": "Weeks 25-28",
+      "week_25_26": {
+        "title": "Weeks 25-26: Multi-Step Word Problems",
+        "topics": [
+          "The four-step routine: read, extract, choose the operations, check",
+          "Two-step and three-step problems across money, measures and time",
+          "Problems that mix topics: a ratio inside a word problem inside a timetable",
+          "Drawing the problem: bar models and quick sketches that untangle wording",
+          "Spotting the trap answer: options built from common mistakes",
+          "Logic-flavoured questions: working backwards and eliminating cases"
+        ],
+        "projects": [
+          "Problem autopsy set: 10 hard word problems dissected in writing, what was given, what was asked, what was the trap"
+        ],
+        "practice": "20 multi-step problems, each one annotated with the four-step routine before any arithmetic",
+        "assessment": "Month 7 opens with a timed baseline paper so the next four weeks of technique work can be measured against it"
+      }
+      ,
+      "week_27_28": {
+        "title": "Weeks 27-28: Timing and Multiple-Choice Technique",
+        "topics": [
+          "How GL-style papers present maths: multiple choice with a separate answer sheet",
+          "Answer-sheet discipline: keeping the row and the question in step",
+          "Elimination: earning marks on questions you cannot fully solve",
+          "Time budgeting: when to skip, how to mark for return, when to guess",
+          "Estimation as a speed tool: rejecting three options in five seconds",
+          "Staying calm mid-paper: the reset routine after a hard question"
+        ],
+        "projects": [
+          "Technique card: each child writes their own one-page test plan, timings, skip rules and reset routine included"
+        ],
+        "practice": "Three timed 20-minute sections across the fortnight, answer sheets used every time, technique reviewed after each"
+      }
+    },
+    "month_8_practice_papers": {
+      "title": "Month 8: The Practice-Paper Cycle",
+      "weeks": "Weeks 29-32",
+      "week_29_30": {
+        "title": "Weeks 29-30: Full Papers, Marked and Mined",
+        "topics": [
+          "A full GL-style maths paper under real timing",
+          "Marked review: every miss classified as knowledge, misread or timing",
+          "Targeted drills built from each child's error pattern",
+          "A second full paper, with the error log guiding the warm-up",
+          "Format variations: standard-format papers and ISEB-style online questions for children who need them",
+          "Parent briefing: what the scores mean and what they do not"
+        ],
+        "projects": [
+          "Error log finalised: each child's recurring mistakes named, with the fix written next to each"
+        ],
+        "practice": "One paper in class and one at home per week, home papers sat under honest exam conditions",
+        "assessment": "Weekly full papers, each marked with a per-topic breakdown shared with parents"
+      },
+      "week_31_32": {
+        "title": "Weeks 31-32: Final Papers and a Calm Finish",
+        "topics": [
+          "Two final papers under strict test conditions",
+          "Closing the last recurring errors, not chasing new topics",
+          "The taper: why the last week before a test should be lighter, not heavier",
+          "Test-day practicalities: sleep, breakfast, what to expect in the room",
+          "Confidence talk: the test samples one morning, it does not measure the child",
+          "Course close: readiness review with each family, honest and specific"
+        ],
+        "projects": [
+          "Readiness pack: the child's error log, technique card and score chart bound together as their own record of the eight months"
+        ],
+        "practice": "Light mixed sets only in the final week, chosen from each child's strongest topics to finish on solid ground",
+        "assessment": "Course milestone: final full paper reviewed one to one with child and parents, plus certificate review"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A daily speed-grid routine with the child's own times charted across the course",
+      "A personal tables map targeting each child's slowest number facts",
+      "A self-made conversion pack for fractions, decimals and percentages",
+      "A shape and angle fact file in the child's own words",
+      "A real-data family survey turned into test-style questions",
+      "A problem autopsy set dissecting hard word problems in writing",
+      "A personal technique card with timings, skip rules and a reset routine",
+      "A full practice-paper cycle with error log and score chart, bound as a readiness pack"
+    ],
+    "total_projects_built": "A complete child-built preparation record: speed charts, fact files, error log, technique card and marked paper series",
+    "skills_mastered": [
+      "Arithmetic speed and accuracy that hold up under test timing",
+      "The full 11 plus maths syllabus: number, fractions and percentages, ratio, early algebra, geometry, measures and data",
+      "A reliable routine for multi-step word problems",
+      "Multiple-choice and answer-sheet technique for GL-style papers",
+      "Timing strategy: skipping, returning and guessing intelligently",
+      "Calm under test conditions, built through graduated practice rather than pressure"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week; paper-phase sittings run longer for full timed papers",
+      "practice": "2-3 hours weekly: a short daily number routine plus set questions, rising to weekly papers in month 8",
+      "review": "Homework marked with per-topic feedback; the error log is reviewed with the child so they own their own progress"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, alongside the child's readiness pack and marked paper series"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes for both child and parents, with worked solutions for stuck problems",
+      "progress_updates": "Monthly progress notes to parents with scores, the error-log summary and an honest readiness view"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "Comfortable Year 4 maths: tables mostly known and written addition and subtraction secure. The week 1 diagnostic finds the true starting point",
+    "target_schools": "Any UK grammar or independent school. Tell us the target schools and we align format practice to the tests they actually use",
+    "equipment": "Pencil and paper, a quiet place to work, and a device with stable internet for live classes. 11 plus maths papers do not allow calculators",
+    "timing": "Ideally started in Year 5, so the course finishes shortly before tests taken at the start of Year 6"
+  },
+  "who_is_this_for": {
+    "grammar_school_applicants": "Children in Years 5 and 6 preparing for GL-style grammar school tests anywhere in England",
+    "independent_school_applicants": "Families targeting independent senior schools that use the ISEB Pre-Tests or their own entrance papers",
+    "strong_but_slow": "Children whose maths is sound but whose speed under timing gives their scores away",
+    "wordy_problem_strugglers": "Children who can compute but freeze when the question arrives as a paragraph",
+    "parents_who_want_structure": "Families who would rather have a taught course with honest feedback than a pile of practice books and guesswork"
+  },
+  "career_paths_after_completion": [
+    "Grammar school entrance tests, sat with the maths half properly prepared",
+    "Independent school pretests and entrance papers, including ISEB-style online formats",
+    "Key Stage 2 SATs, which draw on the same curriculum this course secures",
+    "A confident start to secondary maths, whichever school the child joins",
+    "Our school maths and maths-through-coding courses for children who find they enjoy the subject"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "Which 11 plus test formats does the course prepare for?",
+      "answer": "Most grammar schools in England now use tests from GL Assessment, so GL-style multiple-choice papers with separate answer sheets are our default format practice. Some areas set their own papers, such as the CSSE in Essex, and many independent schools use the online ISEB Pre-Tests or their own exams. Tell us your target schools at the start and we align the paper phase to the formats your child will actually sit. The maths syllabus underneath is the same in every case."
+    },
+    {
+      "question": "Do you offer CEM preparation?",
+      "answer": "We prepare children for the tests that exist now, and the familiar paper-based CEM regional tests are not among them: CEM stopped producing them in 2023, and most areas that used them have moved to GL Assessment. CEM continues as an online product used mainly by some independent schools, and if a target school uses it we practise accordingly. What we will not do is sell CEM-branded preparation as if the old regional tests still run, because they do not."
+    },
+    {
+      "question": "Will this course get my child into grammar school?",
+      "answer": "No course can honestly promise that, and you should be wary of any that does. Grammar school places are competitive, pass marks move with each year's cohort, and admission can also depend on catchment and oversubscription rules that have nothing to do with maths. What preparation genuinely does is make sure the test measures your child's ability rather than their unfamiliarity with the format. We commit to full syllabus coverage, honest monthly reporting, and a clear readiness picture before test day."
+    },
+    {
+      "question": "When should we start preparing, and is 8 months enough?",
+      "answer": "Most families start in Year 5, and this course is built for that: eight months starting in the autumn or spring of Year 5 finishes shortly before tests sat at the start of Year 6. Eight months is enough for a child with sound school maths; it allows the syllabus to be taught rather than crammed, with two full months left for timed practice. Children starting later can still join, but we compress honestly and tell you what the shorter runway does and does not allow."
+    },
+    {
+      "question": "What maths is actually on the 11 plus?",
+      "answer": "Nothing beyond the national curriculum, mostly content taught up to the end of Year 5, since tests are sat early in Year 6. The difficulty comes from presentation and pace: multi-step word problems, unfamiliar wording, and timing that punishes slow arithmetic. That is why this course spends its first two months on number fluency and its last two on technique and timed papers, with the syllabus taught properly in between. Calculators are not allowed, so everything is built for pencil and paper."
+    },
+    {
+      "question": "Does the course cover verbal reasoning, English and non-verbal reasoning too?",
+      "answer": "No, this course is the maths paper only, taught deeply rather than four subjects taught thinly. Many families pair it with their own English and reasoning practice or another provider for those papers. We would rather be excellent at one quarter of the 11 plus than mediocre at all of it, and we will always tell you honestly whether your child's remaining preparation time is better spent on maths or elsewhere."
+    },
+    {
+      "question": "How much homework is there, and will my child burn out?",
+      "answer": "Two to three hours a week: a short daily number routine of about ten minutes plus one or two problem sets, rising to a weekly practice paper in the final month. We taper deliberately before test day rather than piling on, because a tired nine-year-old tests worse than a fresh one. If homework is causing tears, we want to know, and we adjust the load; an 11 plus campaign that makes a child hate maths has failed even if the result is a pass."
+    },
+    {
+      "question": "You are based in India. Can you really prepare a child for a UK exam?",
+      "answer": "The 11 plus maths syllabus is published, the test formats are public, and our 11 plus teachers work with UK materials, GL-style papers and UK curriculum terminology throughout. Classes are scheduled for UK afternoons and evenings, and many of our students are British families, both in the UK and expatriates preparing for a return. What matters is whether the teaching is live, small-group and honest about progress, and that is exactly what we do. Judge us at the free demo class."
+    },
+    {
+      "question": "What does the course cost, and can we try it first?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students, which includes most UK families, pay $100 per month for group classes and $150 per month for 1-on-1. The first demo class is free: book at learn.modernagecoders.com/contact or on WhatsApp at +91 91233 66161."
+    }
+  ]
+}
