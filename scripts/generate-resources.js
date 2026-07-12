@@ -179,7 +179,7 @@ class ResourceGenerator {
         const chapter = chapterData.chapterMeta;
         const content = chapterData.content;
 
-        const seoTitle = `${chapter.title} - ${meta.language} Tutorial | Modern Age Coders`;
+        const seoTitle = `${chapter.title} | ${meta.language} Tutorial`;
         const seoDescription = chapter.description;
         const seoKeywords = `${chapter.title.toLowerCase()}, ${meta.language.toLowerCase()} tutorial, ${meta.language.toLowerCase()} ${chapter.title.toLowerCase()}, learn ${meta.language.toLowerCase()}`;
 
@@ -238,7 +238,7 @@ class ResourceGenerator {
         const chapter = chapterData.chapterMeta;
         const practice = chapterData.practice;
 
-        const seoTitle = `Practice Questions - ${chapter.title} | ${meta.language} | Modern Age Coders`;
+        const seoTitle = `${chapter.title} Practice | ${meta.language}`;
         const seoDescription = `${practice.totalQuestions || 50}+ practice questions on ${chapter.title} in ${meta.language}. Easy, medium, and hard questions with hints, answers, and coding challenges.`;
         const seoKeywords = `${chapter.title.toLowerCase()} practice, ${meta.language.toLowerCase()} questions, ${meta.language.toLowerCase()} practice problems, ${chapter.title.toLowerCase()} exercises`;
 

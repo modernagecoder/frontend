@@ -1,8 +1,8 @@
 {
   "meta": {
     "slug": "complete-golang-programming-masterclass-college",
-    "title": "Complete Go Programming Masterclass - Zero to Cloud Native Expert",
-    "description": "The most comprehensive 1-year Go (Golang) programming masterclass. From absolute basics to cloud-native microservices. Master Go fundamentals, concurrency, web frameworks, gRPC, Kubernetes operators, distributed systems, and everything needed for a successful Go engineering career.",
+    "title": "Go (Golang) Programming: Concurrency, gRPC & Microservices",
+    "description": "Live online Go (Golang) course for college students: a 1-year path from fundamentals to concurrency, gRPC, Kubernetes and cloud-native microservices.",
     "keywords": [
       "golang programming",
       "go masterclass",
