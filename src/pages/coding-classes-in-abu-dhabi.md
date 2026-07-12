@@ -25,7 +25,15 @@ The language first, then the models[![Python for Teens course thumbnail](/images
 
 ### College Students & Professionals
 
-Evening tracks around a working day[![Python Mastery course thumbnail](/images/python-college.webp)  Python Mastery Zero to competent in one track: syntax, data structures, object-oriented design and the working habits that make code worth showing to someone. View syllabus](/courses/python-mastery-college)[![AI and Machine Learning course thumbnail](/images/ai-ml-college.webp)  AI & Machine Learning Regression through neural networks with the mathematics explained rather than waved away, practised on datasets that push back a little. View syllabus](/courses/ai-ml-college)[![Generative AI course thumbnail](/images/generative-ai-college.webp)  Generative AI Large language models in working practice: prompting that holds up, API integration, retrieval, and small applications that run end to end. View syllabus](/courses/gen-ai)
+Evening tracks around a working day[![Python Mastery course thumbnail](/images/python-college.webp)  Python Mastery Zero to competent in one track: syntax, data structures, object-oriented design and the working habits that make code worth showing to someone. View syllabus](/courses/python-mastery-college)[![AI and Machine Learning course thumbnail](/images/ai-ml-college.webp)  AI & Machine Learning Regression through neural networks with the mathematics explained rather than waved away, practised on datasets that push back a little. View syllabus](/courses/ai-ml-college)[![Generative AI course thumbnail](/images/generative-ai-college.webp)  Generative AI Large language models in working practice: prompting that holds up, API integration, retrieval, and small applications that run end to end. View syllabus](/courses/gen-ai)04
+
+### International school exam prep
+
+AP, IGCSE and IB, alongside school
+
+Many Abu Dhabi families are at American, British and IB schools. These live courses prepare the specific exams those curricula set, taught to the current formats alongside the school year.
+
+[AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)[AP Statistics](/courses/ap-statistics-maths-exam-prep-course)[AP Precalculus](/courses/ap-precalculus-exam-prep-course)[IGCSE Maths](/courses/igcse-mathematics-mastery)[IB Maths](/courses/ib-mathematics-aa-ai-masterclass)
 
 02 · The format
 

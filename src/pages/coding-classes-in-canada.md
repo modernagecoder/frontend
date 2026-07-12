@@ -1,5 +1,5 @@
 ---
-title: "Coding & AI Classes in Canada · Toronto · Montréal · Vancouver · 6 time zones — Modern Age Coders"
+title: "Coding & AI Classes in Canada | Toronto & Vancouver"
 description: "Live 1:1 online coding, Python, AI & agentic-AI mentorship for Canadian students — kids to adults. Ontario, BC ADST, Québec ESS & CEGEP, Alberta CTF aligned. University of Waterloo, UofT, UBC, McGill prep. Mentors live in your time zone (PT / MT / CT / ET / AT / NT). USD 100 (≈ CAD 135) a month. Book a free trial."
 canonical: https://learn.modernagecoders.com/coding-classes-in-canada
 keywords: ["coding classes Canada", "online coding classes Canada", "coding classes Toronto", "coding classes Vancouver", "coding classes Montreal", "coding classes Calgary", "coding classes Ottawa", "coding classes Edmonton", "coding classes Winnipeg", "coding classes Halifax", "coding classes Kitchener Waterloo", "Python tutor Toronto"]
@@ -27,7 +27,11 @@ See all coursesMentors live in **6 Canadian time zones**Booking now · 09:00 –
 
 Each row below is a live course you can join this week. Click anywhere on the row to open the full course page.
 
-[Ages 6 – 12 · Elementary Coding for Kids — Scratch to real Python, gentle Canadian pace. For students from JK through Grade 6 across Ontario, BC, Québec, Alberta and the Maritimes. Starts in Scratch, switches to real Python by week 10, ships a tiny project a month. ScratchPythonGamesAI intro CAD 135/ mo · ≈ USD 100Open course →   Sample weekly slot · ET 17:00 Tue + 17:00 Thu  2 × 45 min · same mentor every week Recordings + parent note after every class Maps to Ontario coding strand & BC ADST](/courses/coding/kids)[Most chosen · Ages 13 – 18 · High school Coding & AI for Teens — Waterloo / UofT / UBC / McGill-aware. Real Python, JavaScript, Git, web apps and modern AI engineering on a 12-month arc. Coaches the Canadian Computing Competition (CCC) and Canadian Computing Olympiad (CCO). PythonJavaScriptWebGitCCC / CCO CAD 135/ mo · ≈ USD 100Open course →   A typical year // Year 1 plan, grade 10 student, Toronto Term 1 · Python deep + Git Term 2 · Web apps shipped to Vercel Term 3 · Modern AI: RAG + agents Summer · CCC + portfolio capstone](/courses/coding/teens)[New · Ages 13 – 18 · AI track AI & Agentic-AI — the way Cohere, Vector and Mila ship. Build real LLM apps end-to-end: prompts, retrieval, tool-calling agents, evals, deploy. The same patterns Canadian AI shops actually use in production. OpenAI APIClaude APIRAGAgentsLangGraph CAD 135/ mo · ≈ USD 100Open course →   First two months  **Week 1–2:** calling LLM APIs from Python **Week 3–4:** structured output & tools **Week 5–6:** RAG over your own notes **Week 7–8:** first deployed agent](/ai-ml-course-for-teens)[CEGEP · University · Adults Coding for CEGEP, university & career switch. For CEGEP CS students in Québec, Canadian undergrads at any university, and adults retraining into software / data / AI roles at Shopify, Wealthsimple, RBC, TD, Constellation Software, Cohere, Telus, etc. AlgorithmsSystem designCloudAI engineering CAD 135/ mo · ≈ USD 100Open course →   Common goals  CEGEP CS programme top-up & project supervision Waterloo / UofT / UBC CS prep for high school grads Career switch into a Toronto / Montréal / Vancouver SWE role Interview prep: DSA + system design](/courses/coding/college)[For girls · 8 – 22 Special For Girls — all-female mentor pairing. Same curriculum as every other track. All-female mentor pairing. Role models from the Toronto, Montréal and Vancouver tech scenes. Optional intro through Ladies Learning Code partner cohorts. PythonWebAIMentorship CAD 135/ mo · ≈ USD 100Open course →   Why it works  Same-mentor pairing for confidence and continuity Project briefs tuned to real-world impact Network of role-model alumnae across Canada](/courses/coding/girls)[Schools · Boards · Companies For Canadian schools & teams — bilingual cohorts available. For Canadian schools (independent, public, French-immersion), school boards, and companies upskilling staff. Cohorts of 6 – 30, tailored to your provincial framework, delivered on your hours. CohortCustom curriculumBilingualReports CAD 54/ seat · group · ≈ USD 40Talk to us →   Recent partner profiles  Independent school in Greater Toronto Area — Grade 9 cohort Toronto District School Board — code club partner pilot French-immersion *polyvalente* in Montréal — bilingual format Calgary tech firm — adult upskilling cohort](/courses/coding/corporate)Canada's AI Triangle
+[Ages 6 – 12 · Elementary Coding for Kids — Scratch to real Python, gentle Canadian pace. For students from JK through Grade 6 across Ontario, BC, Québec, Alberta and the Maritimes. Starts in Scratch, switches to real Python by week 10, ships a tiny project a month. ScratchPythonGamesAI intro CAD 135/ mo · ≈ USD 100Open course →   Sample weekly slot · ET 17:00 Tue + 17:00 Thu  2 × 45 min · same mentor every week Recordings + parent note after every class Maps to Ontario coding strand & BC ADST](/courses/coding/kids)[Most chosen · Ages 13 – 18 · High school Coding & AI for Teens — Waterloo / UofT / UBC / McGill-aware. Real Python, JavaScript, Git, web apps and modern AI engineering on a 12-month arc. Coaches the Canadian Computing Competition (CCC) and Canadian Computing Olympiad (CCO). PythonJavaScriptWebGitCCC / CCO CAD 135/ mo · ≈ USD 100Open course →   A typical year // Year 1 plan, grade 10 student, Toronto Term 1 · Python deep + Git Term 2 · Web apps shipped to Vercel Term 3 · Modern AI: RAG + agents Summer · CCC + portfolio capstone](/courses/coding/teens)[New · Ages 13 – 18 · AI track AI & Agentic-AI — the way Cohere, Vector and Mila ship. Build real LLM apps end-to-end: prompts, retrieval, tool-calling agents, evals, deploy. The same patterns Canadian AI shops actually use in production. OpenAI APIClaude APIRAGAgentsLangGraph CAD 135/ mo · ≈ USD 100Open course →   First two months  **Week 1–2:** calling LLM APIs from Python **Week 3–4:** structured output & tools **Week 5–6:** RAG over your own notes **Week 7–8:** first deployed agent](/ai-ml-course-for-teens)[CEGEP · University · Adults Coding for CEGEP, university & career switch. For CEGEP CS students in Québec, Canadian undergrads at any university, and adults retraining into software / data / AI roles at Shopify, Wealthsimple, RBC, TD, Constellation Software, Cohere, Telus, etc. AlgorithmsSystem designCloudAI engineering CAD 135/ mo · ≈ USD 100Open course →   Common goals  CEGEP CS programme top-up & project supervision Waterloo / UofT / UBC CS prep for high school grads Career switch into a Toronto / Montréal / Vancouver SWE role Interview prep: DSA + system design](/courses/coding/college)[For girls · 8 – 22 Special For Girls — all-female mentor pairing. Same curriculum as every other track. All-female mentor pairing. Role models from the Toronto, Montréal and Vancouver tech scenes. Optional intro through Ladies Learning Code partner cohorts. PythonWebAIMentorship CAD 135/ mo · ≈ USD 100Open course →   Why it works  Same-mentor pairing for confidence and continuity Project briefs tuned to real-world impact Network of role-model alumnae across Canada](/courses/coding/girls)[Schools · Boards · Companies For Canadian schools & teams — bilingual cohorts available. For Canadian schools (independent, public, French-immersion), school boards, and companies upskilling staff. Cohorts of 6 – 30, tailored to your provincial framework, delivered on your hours. CohortCustom curriculumBilingualReports CAD 54/ seat · group · ≈ USD 40Talk to us →   Recent partner profiles  Independent school in Greater Toronto Area — Grade 9 cohort Toronto District School Board — code club partner pilot French-immersion *polyvalente* in Montréal — bilingual format Calgary tech firm — adult upskilling cohort](/courses/coding/corporate)
+
+Many Canadian students take AP for university credit, and international schools here also run IB and Cambridge curricula. These live courses prepare those exams directly.
+
+[AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)[AP Statistics](/courses/ap-statistics-maths-exam-prep-course)[AP Precalculus](/courses/ap-precalculus-exam-prep-course)[IB Maths](/courses/ib-mathematics-aa-ai-masterclass)[IGCSE Maths](/courses/igcse-mathematics-mastery)Canada's AI Triangle
 
 ## Three cities. Three Turing Awards. One country.
 
@@ -131,49 +135,49 @@ Start atAny age 22 – 65Ships projectsPortfolio-gradeTarget outcomeFirst SWE / 
 
 > "My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions."
 
-SOSonam OswalParent of DhairyaReal shipped projects · real Canadian students
+SOSonam OswalParent of DhairyaReal shipped student projects
 
-## Six things our Canadian students built with us this year.
+## Real apps our students built — live, public, and yours to open.
 
-Names abbreviated. Each project deployed publicly during normal class hours and used by the student afterwards.
+Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
 
-Aaron W. · Grade 11 · Toronto (North York)
+Built by Vivaan · AI & ML
 
-### UofT & Waterloo essay assistant
+### GuardianX — AI Bodyguard for the Internet
 
-A retrieval-augmented Python agent trained on the OUAC + Waterloo AIF guidance docs that drafted a first-pass of Aaron's CS application essays. He used it. Got into Waterloo.
+Paste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for…
 
-PythonRAGClaude APIFastAPISophie L. · Sec V · Montréal (Plateau)
+Vibe CodingAIReactLovable[Open the live project ↗](https://guardianx-cybersaver.lovable.app)Built by Modern Age Coders · Game
 
-### Bilingual STM transit-delay bot
+### Babu — 90 Second Maths Challenge
 
-Pulls live STM open data, predicts delays on Sophie's school commute, replies in French or English depending on the prompt language. CEGEP entry essay topic.
+An exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.
 
-PythonpandasOpenAITelegram botMateo R. · Grade 7 · Vancouver (Kitsilano)
+JavaScriptFirebaseMongoDB[Open the live project ↗](https://babu.modernagecoders.com)Built by Raayan · Web App
 
-### Powder-day predictor for Whistler
+### LumenFX — AR/VR Photo Effects Studio
 
-A web app that fetches Whistler-Blackcomb snow data and predicts whether his Saturday up the mountain will be a powder day. His Coquihalla-bound parents trust it now.
+Upload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets.
 
-Pythonscikit-learnmatplotlibGitHub PagesKhadija S. · CEGEP 1 · Montréal (Westmount)
+Vibe CodingAR / VRWebGLLovable[Open the live project ↗](https://arvrbadestweb.lovable.app)Built by Vedant · Web App
 
-### CEGEP CS programme study agent
+### MyDay — Social Productivity Organizer
 
-Khadija's CEGEP CS project: a Streamlit app that indexed her course notes and quizzed her on programming-paradigms topics. Now used across two CEGEP CS sections.
+A beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.
 
-PythonRAGChromaStreamlitLiam & Maeve · Grades 4 & 6 · Halifax (Bedford)
+JavaScriptNode.jsMongoDBPython[Open the live project ↗](https://myday.modernagecoders.com)Built by Kriti · AI & ML
 
-### Chore-coin Next.js app
+### HairSync — AI Hairstyle Try-On
 
-Two siblings shipped a Next.js web app to track family chores. Real auth. Real database. Demoed at their Bedford Forsyth Education Centre cohort.
+Upload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds.
 
-TypeScriptNext.jsSupabaseTailwindNikhil R. · adult learner · Calgary (Beltline)
+Vibe CodingAI ImageVirtual Try-OnLovable[Open the live project ↗](https://hairsync.lovable.app)Built by Manay · Tool
 
-### Internal compliance agent (energy sector)
+### Life Span Tracker
 
-Nikhil shipped an agentic-AI compliance summary tool for his Calgary energy employer. Saves his team hours per week, helped land him an AI-engineer role internally.
+An interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.
 
-PythonLangGraphOpenAIPostgreSQLDockerMeet the mentor team
+JavaScriptAPIsDate Calc[Open the live project ↗](https://lifespantracker.netlify.app/)Meet the mentor team
 
 ## Working engineers, CCC veterans, patient teachers.
 

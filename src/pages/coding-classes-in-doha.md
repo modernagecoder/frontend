@@ -25,7 +25,15 @@ Serious code before university[![Python for Teens course thumbnail](/images/pyth
 
 ### College Students & Professionals
 
-After lectures, after office hours[![Python Mastery course thumbnail](/images/python-college.webp)  Python Mastery For adults beginning from nothing, or nearly nothing. Core Python, object-oriented design and the standard libraries, ending in programs worth showing another person. View syllabus](/courses/python-mastery-college)[![AI and Machine Learning course thumbnail](/images/ai-ml-college.webp)  AI & Machine Learning From regression up to neural networks, with the maths kept in plain view. Real datasets, and a straight conversation about what models cannot do. View syllabus](/courses/ai-ml-college)[![Generative AI course thumbnail](/images/generative-ai-college.webp)  Generative AI What an LLM looks like to the person building with it: prompting that holds up, API work, retrieval, and compact applications you can demonstrate. View syllabus](/courses/gen-ai)
+After lectures, after office hours[![Python Mastery course thumbnail](/images/python-college.webp)  Python Mastery For adults beginning from nothing, or nearly nothing. Core Python, object-oriented design and the standard libraries, ending in programs worth showing another person. View syllabus](/courses/python-mastery-college)[![AI and Machine Learning course thumbnail](/images/ai-ml-college.webp)  AI & Machine Learning From regression up to neural networks, with the maths kept in plain view. Real datasets, and a straight conversation about what models cannot do. View syllabus](/courses/ai-ml-college)[![Generative AI course thumbnail](/images/generative-ai-college.webp)  Generative AI What an LLM looks like to the person building with it: prompting that holds up, API work, retrieval, and compact applications you can demonstrate. View syllabus](/courses/gen-ai)IV
+
+### International school exam prep
+
+AP, IGCSE and IB, alongside school
+
+Many Doha families are at American, British and IB schools. These live courses prepare the specific exams those curricula set, taught to the current formats alongside the school year.
+
+[AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)[AP Statistics](/courses/ap-statistics-maths-exam-prep-course)[AP Precalculus](/courses/ap-precalculus-exam-prep-course)[IGCSE Maths](/courses/igcse-mathematics-mastery)[IB Maths](/courses/ib-mathematics-aa-ai-masterclass)
 
 The format
 

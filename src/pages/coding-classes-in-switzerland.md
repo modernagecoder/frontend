@@ -1,5 +1,5 @@
 ---
-title: "Best Online Coding & AI Classes in Switzerland — Modern Age Coders"
+title: "Online Coding & AI Classes in Switzerland"
 description: "World-class live online coding, Python, AI and agentic-AI classes for kids, teens and adults in Switzerland. 1:1 mentor, 8 sessions a month, USD 100/mo (group USD 40). Serving Zürich, Geneva, Basel, Bern, Lausanne, Zug. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-switzerland
 keywords: ["coding classes Switzerland", "best coding classes in Switzerland", "online coding classes Switzerland", "coding classes for kids Switzerland", "Python classes Switzerland", "AI course Switzerland", "agentic AI Switzerland", "coding bootcamp Zürich", "coding classes Geneva", "coding classes Basel", "coding classes Bern", "coding classes Lausanne"]
@@ -127,49 +127,49 @@ For Swiss university students and working professionals retraining into software
 - Interview prep: DSA, system design
 - Portfolio review and LinkedIn / CV polish
 
-8 sessions / month · 2 per weekReal projects · real students
+8 sessions / month · 2 per weekReal shipped student projects
 
-## Things our Swiss students have actually shipped.
+## Real apps our students built — live, public, and yours to open.
 
-These are not lesson screenshots. They are real student projects — designed, built and deployed by 9- to 24-year-olds during their normal class hours. Names abbreviated to protect minors.
+Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
 
-Léa M. · age 11 · Lausanne (VD)
+Built by Anika · AI & ML
 
-### French Verb Coach — an agentic AI tutor
+### BookDesk — AI Book Summaries & Quizzes
 
-A Python agent that calls a custom conjugation tool, quizzes Léa on French verbs from her school textbook, remembers which she got wrong, and re-quizzes her next week.
+Type in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion.
 
-PythonOpenAI agentsSQLiteFastAPIJonas K. · age 14 · Zürich (ZH)
+Gemini AIFull-StackDatabaseQuiz Gen[Open the live project ↗](https://bookdesk1.netlify.app)Built by Modern Age Coders · Game
 
-### Snow-Day Predictor for Davos
+### The Beautiful Mind
 
-Pulls open-data weather feeds, trains a small regression model, predicts whether the family ski-weekend in Davos will have fresh powder. Live on his GitHub Pages site.
+A scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards.
 
-Pythonpandasscikit-learnmatplotlibGitHub PagesMia & Niko · ages 12 & 13 · Basel (BS)
+ReactFirebaseJavaScriptGame Logic[Open the live project ↗](https://mind.modernagecoders.com)Built by Krish · Web App
 
-### Pocket-money Splitter (real web app)
+### SkyCast — Weather Forecast App
 
-A Next.js app two siblings use weekly to fairly split chores and pocket money. Auth, database, mobile-friendly UI. They demoed it at their school's *Schulhaus* innovation day.
+An interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.
 
-JavaScriptNext.jsTailwindSupabaseAnaïs L. · age 16 · Geneva (GE)
+JavaScriptAPIHTML/CSS[Open the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)Built by Vivaan · AI & ML
 
-### Matura Informatik study-buddy bot
+### GuardianX — AI Bodyguard for the Internet
 
-A retrieval-augmented chatbot trained on her own Matura informatics notes. Cites her own pages back to her. Built end-to-end during 12 weekly sessions.
+Paste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for…
 
-PythonRAGClaude APIChromaStreamlitTobias H. · age 17 · Bern (BE)
+Vibe CodingAIReactLovable[Open the live project ↗](https://guardianx-cybersaver.lovable.app)Built by Vedant · Web App
 
-### ETH-style algorithm visualiser
+### MyDay — Social Productivity Organizer
 
-Interactive web app that animates Dijkstra, BFS, DFS, A* and Floyd-Warshall on user-drawn graphs. Used by his class to prep for the ETH informatics entrance test.
+A beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.
 
-TypeScriptReactD3ViteVercelSébastien D. · adult learner · Geneva (GE)
+JavaScriptNode.jsMongoDBPython[Open the live project ↗](https://myday.modernagecoders.com)Built by Modern Age Coders · Game
 
-### Internal compliance agent (banking)
+### Babu — 90 Second Maths Challenge
 
-An agentic AI assistant Sébastien shipped at his Geneva employer that drafts compliance summaries and flags missing controls. Hours saved per week, on real internal docs.
+An exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.
 
-PythonLangGraphClaude APIPostgreSQLDockerWhat 12 months look like
+JavaScriptFirebaseMongoDB[Open the live project ↗](https://babu.modernagecoders.com)What 12 months look like
 
 ## A coding journey, not a one-off course.
 

@@ -1,5 +1,5 @@
 ---
-title: "Online Coding & AI Classes in Ireland · Junior Cycle · Transition Year · Leaving Cert · TCD / UCD / UCC / DCU ready — Modern Age Coders"
+title: "Online Coding & AI Classes in Ireland | Leaving Cert"
 description: "Live 1:1 online coding, Python, AI & agentic-AI mentorship for students across Ireland. Aligned with Junior Cycle, Transition Year (TY), Leaving Certificate Higher & Ordinary Level, and the Leaving Cert Computer Science specification (since 2018). Trinity College Dublin (TCD), UCD, UCC, DCU, University of Limerick, NUI Galway, Maynooth, TU Dublin admissions ready. CAO-points aware. EUR 92 (USD 100) a month."
 canonical: https://learn.modernagecoders.com/coding-classes-in-ireland
 keywords: ["coding classes Ireland", "coding classes Dublin", "coding classes Cork", "coding classes Galway", "coding classes Limerick", "coding classes Waterford", "online coding classes Ireland", "Python tutor Dublin", "Python tutor Cork", "AI course Ireland", "agentic AI Ireland", "Junior Cycle Coding tutor"]
@@ -65,7 +65,11 @@ TCD CS · UCD CS Engineering · UCC CS · DCU CS · UL CSIS · NUIG CS · Maynoo
 
 Every course runs as live 1:1 with a mentor matched to your child's exact year (1st class primary all the way to LC6). Two 45-minute sessions per week. EUR 92 (USD 100) per month for 1:1, or EUR 37 (USD 40) for small-group cohort.
 
-[1st – 3rd class · Primary Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play and animation-led. Strengthens primary-school mathematical thinking quietly. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/kids)[4th – 6th class · Primary Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional physical-computing add-on with BBC micro:bit so the code controls something they can see. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/kids)[1st – 3rd year · Junior Cycle Junior Cycle Coding short course Direct alignment with the NCCA Junior Cycle Coding short course. Python, web fundamentals, classroom-based assessment (CBA) preparation that scores. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/teens)[Transition Year · 4th year TY Coding Deep-Dive Our most-recommended Irish track. TY students have the time, the headspace, and the lack of LC pressure to build a serious portfolio. Many of our advanced senior-cycle outcomes start here. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th – 6th year · LC CS Higher Leaving Cert Computer Science (Higher) Full Higher Level coverage of the 2018 LCCS specification. Practices & Principles, Core Concepts, Computer Science in Practice. Past-paper drills + the 30% Computational Thinking project guided start-to-finish. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th – 6th year · LC CS Ordinary Leaving Cert Computer Science (Ordinary) For students taking LC CS at Ordinary Level — we don't push Higher when Ordinary is the right call. The full Ordinary specification, plus solid project guidance. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th – 6th year · LC Higher Maths LC Higher Maths support Calculus, algebra, probability, the LC Higher Maths Project Maths Paper 1 & 2. Many Irish students who want CS at TCD/UCD also need a strong Higher Maths grade — we support both. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/teens)[Third level / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Stripe Dublin, Intercom, Workday, Salesforce and the IDA-supported Irish startup ecosystem recruit for. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/college)Transition Year — the secret weapon
+[1st – 3rd class · Primary Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play and animation-led. Strengthens primary-school mathematical thinking quietly. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/kids)[4th – 6th class · Primary Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional physical-computing add-on with BBC micro:bit so the code controls something they can see. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/kids)[1st – 3rd year · Junior Cycle Junior Cycle Coding short course Direct alignment with the NCCA Junior Cycle Coding short course. Python, web fundamentals, classroom-based assessment (CBA) preparation that scores. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/teens)[Transition Year · 4th year TY Coding Deep-Dive Our most-recommended Irish track. TY students have the time, the headspace, and the lack of LC pressure to build a serious portfolio. Many of our advanced senior-cycle outcomes start here. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th – 6th year · LC CS Higher Leaving Cert Computer Science (Higher) Full Higher Level coverage of the 2018 LCCS specification. Practices & Principles, Core Concepts, Computer Science in Practice. Past-paper drills + the 30% Computational Thinking project guided start-to-finish. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th – 6th year · LC CS Ordinary Leaving Cert Computer Science (Ordinary) For students taking LC CS at Ordinary Level — we don't push Higher when Ordinary is the right call. The full Ordinary specification, plus solid project guidance. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th – 6th year · LC Higher Maths LC Higher Maths support Calculus, algebra, probability, the LC Higher Maths Project Maths Paper 1 & 2. Many Irish students who want CS at TCD/UCD also need a strong Higher Maths grade — we support both. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/teens)[Third level / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Stripe Dublin, Intercom, Workday, Salesforce and the IDA-supported Irish startup ecosystem recruit for. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/college)
+
+International schools in Ireland run IB, British and American curricula. These live courses prepare those exams directly.
+
+[IB Maths](/courses/ib-mathematics-aa-ai-masterclass)[A-Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics)[AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)[IGCSE Maths](/courses/igcse-mathematics-mastery)[AP Statistics](/courses/ap-statistics-maths-exam-prep-course)Transition Year — the secret weapon
 
 ## Why Irish families who invest in coding during TY win the Leaving Cert game.
 
@@ -382,45 +386,35 @@ Week 4
 
 End of month one, the mentor calls you (not your child) on WhatsApp for 15 minutes. You hear what's working, what isn't, what to expect month 2. If month 1 wasn't great, this is where we say so honestly and offer a different mentor — free.
 
-Adult learners welcome — and common
+What families say · verified reviews
 
-## About 24% of our Irish students are adults. Career-switchers, finance professionals, MBA grads, full-time parents upskilling.
+## What families say about Modern Age Coders
 
-38 yo · Sandyford · Banking → AI engineering
+We teach live and online, so students here learn in the same small batches as our whole community. These are real, verified Google reviews.
 
-### From Bank of Ireland to Workday AI-product role.
+KBKrishnam BhatterFormer student
 
-Conor spent 13 years at Bank of Ireland in business banking. He had a maths brain but no coding. Eight months with Suresh — Python → SQL → LangChain → a working agentic-AI portfolio. He's now in an AI product role at Workday EMEA. Compensation increased significantly — the AI-product premium in Dublin is real.
+### "I am truly grateful for my experience at Modern Age Coders."
 
-33 yo · Clontarf · Stay-at-home mum returning
+My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-### From paused career to remote junior-developer offer in 12 months.
+PRPoonam RathoreParent
 
-Aoife stopped work after her second child and spent 4 years out. She wanted a working portfolio, not a 4-year university restart. 12 months in, she has a React + Supabase portfolio and a remote junior-developer offer from a Galway-based fintech. Worked exclusively in evenings while kids slept.
+### "My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm."
 
-54 yo · Limerick · Retired engineer
+The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-### Retirement was boring. Now ships an AI-driven GAA-statistics blog.
+RMRia MukherjeeParent
 
-Pat was a chemical engineer at ADM Limerick for 31 years. Retired in 2024. Now spends 3 hours a day in Python, runs an LLM-powered GAA-analysis blog that gets 9k monthly readers, and is mentoring four retired Munster colleagues to do the same.
+### "The one step solution for my son."
 
-28 yo · Grand Canal Dock · Product Manager
+Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-### PM at Stripe Dublin shipping production code now.
+SGSonu GoyalParent
 
-Maeve was a non-technical PM at Stripe Dublin and felt the gap painfully. Six months with us and she now ships small production changes herself, has earned engineering credibility from her team, and was promoted to Senior PM in January 2026.
+### "Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way."
 
-45 yo · Galway · Secondary teacher upskilling
-
-### LC Maths teacher pivoting to teach LC Computer Science from September.
-
-Mary was a 20-year LC Maths teacher who saw her school adopting LCCS for September 2026 and didn't want to be left out of the new subject. Five months focused entirely on the LCCS specification and the project component. She's now her school's lead LCCS teacher.
-
-36 yo · Cork · Apple Cork engineer broadening into LLMs
-
-### From iOS engineer to LLM-product engineer in 6 months.
-
-Liam was a competent iOS engineer at Apple Cork but felt left behind by the LLM wave. Six months focused entirely on LLM application engineering — RAG, agents, evals, production deployment. He's now on an internal AI-product team at Apple.
+The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
 What we promise · and what we don't
 
@@ -732,80 +726,49 @@ SETU (South East Technological University) feeder area. De La Salle Waterford, N
 
 Smaller, rural student base — but the online format means location doesn't matter. We have students in Letterkenny, Tralee, Killarney, Castlebar, Westport getting the same quality as Dublin 4.
 
-**Schools:** Various rural community & voluntary secondary schoolsCompetition outcomes — selected
+**Schools:** Various rural community & voluntary secondary schoolsReal shipped student projects
 
-## A snapshot of what our Irish students have achieved at competitions.
+## Real apps our students built — live, public, and yours to open.
 
-Non-exhaustive list of Irish-student outcomes in 2024 and 2025. No student names — that's a hard privacy rule — just school year and outcome.
+Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
 
-- **Irish Mathematical Olympiad (IrMO) 2025** — 2 students qualified for the second round, 1 reached the IrMO final.
-- **BIO (British Informatics Olympiad) Round 1 (2025)** — 3 of our Irish entrants advanced to Round 2.
-- **Bebras Ireland 2025** — 8 of our Junior Cycle students placed in the top 5% nationally.
-- **Trinity Hackathon 2025** — 1 of our advanced third-level students on the Best AI Hack winning team.
-- **BT Young Scientist & Technology Exhibition 2025** — 2 of our LC students reached the BT Young Scientist Showcase round with software-led projects.
-- **Leaving Cert Computer Science Higher 2024 cohort** — of our 11 LC CS Higher students, 7 scored H1 (90%+) and 3 scored H2.
-- **Leaving Cert Higher Maths 2024 cohort** — of our 18 LC Higher Maths students, 5 scored H1 and 9 scored H2.
-- **CAO 2024 Round-1** — 3 students offered TCD CS, 2 UCD CS Engineering, 1 UCD CS Mathematics, 4 UCC CS, 2 DCU, 2 UL.
+Built by Vivaan · AI & ML
 
-These outcomes correlate with our mentorship rather than being caused solely by it. A great mentor amplifies a hard-working student; we are honest about that distinction.
+### GuardianX — AI Bodyguard for the Internet
 
-Irish family stories
+Paste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for…
 
-## Real outcomes from real Irish homes — not stock photos.
+Vibe CodingAIReactLovable[Open the live project ↗](https://guardianx-cybersaver.lovable.app)Built by Modern Age Coders · Game
 
-Six families across Dublin, Cork, Galway, Limerick and Donegal share what changed in the first six months. Names abbreviated. Every story shared with written permission.
+### The Beautiful Mind
 
-Niamh, 6th year LC CS Higher · Belvedere · Dublin 1
+A scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards.
 
-### LC Computer Science Higher: from a predicted H4 to an actual H1.
+ReactFirebaseJavaScriptGame Logic[Open the live project ↗](https://mind.modernagecoders.com)Built by Tanish · Web App
 
-Niamh was struggling with LC CS Higher at the end of 5th year — predicted around H4. Her LC Computational Thinking project was vague. Mentor Seán (ex-Belvedere) rebuilt her algorithmic intuition over six months, re-scoped her project, and ran weekly past-paper drills. She finished with H1 in LC CS Higher. Now reading CS at TCD.
+### FreshTrack — Food Expiry Tracker
 
-Mentor: Seán · 30 sessions · LC CS Higher: H1 · Now at TCD CS
+A smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.
 
-Liam, TY · Mount Anville · South Dublin
+JavaScriptMongoDBLocal Storage[Open the live project ↗](https://freshtrackpro.netlify.app/)Built by Kriti · AI & ML
 
-### Transition Year deep-dive · 3 GitHub projects · ready for 5th year.
+### HairSync — AI Hairstyle Try-On
 
-Liam joined in September 2024 for the full TY year. Built three substantial projects: a Dublin-Bus timetable web app, an LLM-powered Irish-history essay assistant, and a small TY-class WhatsApp scheduler. By the end of TY he was operating at LC CS Higher level. Currently in 5th year, predicted H1.
+Upload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds.
 
-Mentor: Aoife · 32 sessions · 3 GitHub projects · TY year
+Vibe CodingAI ImageVirtual Try-OnLovable[Open the live project ↗](https://hairsync.lovable.app)Built by Modern Age Coders · Game
 
-Aisling, 2nd year Junior Cycle · Cork
+### Babu — 90 Second Maths Challenge
 
-### Won the regional Bebras Challenge Ireland round at age 14.
+An exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.
 
-Aisling's parents wanted "something more challenging than the school after-school club." She started lukewarm. By month four, after a particularly fun project building her own GAA-fixture tracker, she was hooked. Now competes seriously in Bebras Ireland.
+JavaScriptFirebaseMongoDB[Open the live project ↗](https://babu.modernagecoders.com)Built by Vansh · Tool
 
-Mentor: Síle (bilingual) · 22 sessions · Bebras IE regional winner · Gaelcholáiste
+### Word Counter Website
 
-Daniel, 5th year · UL targeting · Limerick
+A simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.
 
-### LC Higher Maths: from H4 to H2 in 11 months.
-
-Daniel wanted UL CSIS but was lagging in LC Higher Maths. We paired him with our LC Higher Maths specialist for weekly Maths drills alongside his LC CS work. End of 6th year: LC Higher Maths H2, LC CS Higher H1. UL CSIS offer secured.
-
-Mentor: Rajesh + Maths specialist · 34 sessions · LC Higher Maths: H2 · UL CSIS
-
-Conor, adult career-switcher · 38 yo · Sandyford
-
-### Bank of Ireland → Workday AI-product role.
-
-Conor is the story above (same person). Started Python from zero in May 2025. Got the Workday EMEA offer in January 2026. Compensation increased significantly. Now refers other BoI colleagues to us — about 25% of our IE adult-learner pipeline.
-
-Mentor: Suresh · 38 sessions · Career switch · Workday AI-product
-
-Sinéad, 4th class primary · Donegal
-
-### From "I'm not a computer person" to a published Scratch game.
-
-Sinéad's parents were rural Donegal and worried about Dublin-bias. The mentor delivered everything online without a single technical hiccup over six months. Sinéad published her first Scratch game to the Scratch community and got 600+ plays. Confidence completely transformed.
-
-Mentor: Aoife · 18 sessions · Primary · Rural Donegal
-
-We don't publish photos or full surnames of minors — that's a hard rule. But we'll happily put you in touch (with permission) with one Irish parent in your county before you commit.
-
-A note on the Irish school day
+HTMLCSSJavaScript[Open the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)A note on the Irish school day
 
 ## We respect the rhythm of Irish secondary school life.
 

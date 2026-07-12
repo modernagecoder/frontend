@@ -1,5 +1,5 @@
 ---
-title: "Online Coding & AI Classes in Singapore · PSLE · O-Level · A-Level · IP · IB · NUS / NTU / SMU / SUTD ready — Modern Age Coders"
+title: "Coding & AI Classes in Singapore | PSLE to A-Level"
 description: "Live 1:1 online coding, Python, AI & agentic-AI mentorship for Singapore students. Aligned with PSLE, GCE O-Level, GCE A-Level (H1/H2/H3), the Integrated Programme (IP), IB Diploma and MOE syllabuses (7155, 9569). NUS, NTU, SMU, SUTD, SIT admissions ready. NOI Singapore, Hack&Roll and AI Singapore aware. SGD 135 (USD 100) a month."
 canonical: https://learn.modernagecoders.com/coding-classes-in-singapore
 keywords: ["coding classes Singapore", "coding classes for kids Singapore", "online coding classes Singapore", "Python tutor Singapore", "AI course Singapore", "agentic AI Singapore", "PSLE preparation coding", "GCE O-Level Computing 7155 tutor", "GCE A-Level H2 Computing 9569 tutor", "A-Level H1 Computing tutor", "H3 Computing prep", "Integrated Programme IP coding tutor"]
@@ -65,7 +65,11 @@ Sea · Grab · Razer · GovTech · TikTok APAC · Stripe · OpenAI SG · Anthrop
 
 Every course runs as live 1:1 with a mentor matched to your child's level (P1–P6, S1–S5, IP1–IP6, JC1–JC2 or university/adult). Two 45-minute sessions per week. SGD 135 (USD 100) per month for 1:1, or SGD 54 (USD 40) for small-group cohort.
 
-[P1 – P3 Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play, animation and music-led. Strengthens the computational-thinking foundations PSLE Math implicitly tests. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/kids)[P4 – P6 · PSLE prep Python & Logic for PSLE-aged learners Real Python, real keyboard typing, real GitHub. We deliberately keep the cognitive load *off* peak PSLE periods. Strengthens problem-solving for the Math heuristics PSLE rewards. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/kids)[S1 – S2 · IP1 – IP2 Web Builders + AI Foundations HTML, CSS, JavaScript, React basics. AI module covers safe prompting, LLM mental models and a first agent-style project. Works alongside Code for Fun and IP school-internal computing. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/teens)[S3 – S5 · O-Level 7155 GCE O-Level Computing 7155 Direct alignment with the MOE 7155 syllabus. Python, algorithms, data representation, networks. Past-paper drills + the project component your school expects. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/teens)[IP3 – IP6 · Integrated Programme IP Computing depth-track IP-track students (RI, HCI, NUS High, NJC, NYGH, ACS-I, Dunman, RGS, Cedar, MGS) skip the O-Level path. Our IP-track lead has taught at three IP schools and knows the school-internal syllabus. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/teens)[JC1 – JC2 · A-Level H2 9569 A-Level H2 Computing 9569 Paper 1 (theory), Paper 2 (algorithms / problem solving), Paper 3 (project), Paper 4 (data, AI fundamentals). Past-year strategy + the kind of GitHub portfolio NUS / NTU evaluate. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/teens)[IB DP HL / SL IB Computer Science HL & SL For families at UWCSEA, SAS, Tanglin, OFS, GIIS Singapore, Stamford American, ISS, CIS — IB CS HL/SL plus Internal Assessment scaffolding from an ex-IB CS examiner. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Sea, Grab, GovTech, Stripe and AI Singapore recruit for. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/college)PSLE
+[P1 – P3 Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play, animation and music-led. Strengthens the computational-thinking foundations PSLE Math implicitly tests. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/kids)[P4 – P6 · PSLE prep Python & Logic for PSLE-aged learners Real Python, real keyboard typing, real GitHub. We deliberately keep the cognitive load *off* peak PSLE periods. Strengthens problem-solving for the Math heuristics PSLE rewards. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/kids)[S1 – S2 · IP1 – IP2 Web Builders + AI Foundations HTML, CSS, JavaScript, React basics. AI module covers safe prompting, LLM mental models and a first agent-style project. Works alongside Code for Fun and IP school-internal computing. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/teens)[S3 – S5 · O-Level 7155 GCE O-Level Computing 7155 Direct alignment with the MOE 7155 syllabus. Python, algorithms, data representation, networks. Past-paper drills + the project component your school expects. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/teens)[IP3 – IP6 · Integrated Programme IP Computing depth-track IP-track students (RI, HCI, NUS High, NJC, NYGH, ACS-I, Dunman, RGS, Cedar, MGS) skip the O-Level path. Our IP-track lead has taught at three IP schools and knows the school-internal syllabus. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/teens)[JC1 – JC2 · A-Level H2 9569 A-Level H2 Computing 9569 Paper 1 (theory), Paper 2 (algorithms / problem solving), Paper 3 (project), Paper 4 (data, AI fundamentals). Past-year strategy + the kind of GitHub portfolio NUS / NTU evaluate. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/teens)[IB DP HL / SL IB Computer Science HL & SL For families at UWCSEA, SAS, Tanglin, OFS, GIIS Singapore, Stamford American, ISS, CIS — IB CS HL/SL plus Internal Assessment scaffolding from an ex-IB CS examiner. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Sea, Grab, GovTech, Stripe and AI Singapore recruit for. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/college)
+
+Singapore's international schools run IB, Cambridge (IGCSE and A-Level) and American (AP) curricula. These live courses prepare those exams directly.
+
+[IB Maths](/courses/ib-mathematics-aa-ai-masterclass)[A-Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics)[IGCSE Maths](/courses/igcse-mathematics-mastery)[AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)[AP Statistics](/courses/ap-statistics-maths-exam-prep-course)PSLE
 **Sep – Oct**each year
 
 ### We adjust for PSLE, O-Level & A-Level exam periods. Every year. Automatically.
@@ -408,45 +412,35 @@ Week 4
 
 End of month one, the mentor calls you (not your child) on WhatsApp for 15 minutes. You hear what's working, what isn't, what to expect month 2. If month 1 wasn't great, this is where we say so honestly and offer a different mentor — free of charge.
 
-Adult learners welcome — and common
+What families say · verified reviews
 
-## About 28% of our Singapore students are adults. Career-switchers, finance professionals, MBA students, full-time parents upskilling.
+## What families say about Modern Age Coders
 
-38 yo · Holland Village · Banking → AI
+We teach live and online, so students here learn in the same small batches as our whole community. These are real, verified Google reviews.
 
-### From DBS relationship manager to Sea Group AI-product role.
+KBKrishnam BhatterFormer student
 
-Wei Liang spent 12 years at DBS in private banking. He had maths-strong intuition but no coding background. Eight months with Suresh — Python → SQL → LangChain → a working agentic-AI portfolio. He's now in an AI product role at Sea Group. Compensation increased ~35% (the AI-product premium in SG is significant).
+### "I am truly grateful for my experience at Modern Age Coders."
 
-31 yo · Tampines · Stay-at-home mum
+My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-### From paused career to remote junior-developer offer in 11 months.
+PRPoonam RathoreParent
 
-Mei Lin stopped work after her second child and spent 4 years out of the job market. She wanted a working portfolio, not a four-year university restart. 11 months in, she has a React + Supabase portfolio and a remote junior-developer offer from a UK fintech. Worked exclusively in evenings while her kids slept.
+### "My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm."
 
-52 yo · Bishan · Retired civil servant
+The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-### Retirement was boring. Now ships an AI-driven hawker-rating app.
+RMRia MukherjeeParent
 
-Khalid spent 28 years in the Singapore civil service. Retired in 2024. Wanted a project. Now spends 3 hours a day in Python, has built an LLM-powered hawker-stall review app pulling data from the NEA hawker centre directory + Google Reviews. ~14,000 active users across Singapore.
+### "The one step solution for my son."
 
-28 yo · One-North · Product Manager
+Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-### PM at Stripe Singapore shipping her own production code now.
+SGSonu GoyalParent
 
-Priyanka was a non-technical PM at Stripe APAC and felt the gap painfully. Could not read her own team's PRs, could not prototype, kept getting bulldozed by senior engineers. Six months with us and she's shipping small production changes herself, has earned engineering credibility, and was promoted to Senior PM in February 2026.
+### "Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way."
 
-44 yo · Marina Bay · MBA student
-
-### INSEAD MBA student building his AI-startup MVP himself.
-
-Rohit was halfway through his INSEAD MBA and wanted to build the MVP for his thesis startup himself rather than outsource to an agency. Three months with us and he had a working Streamlit prototype + LangChain agent he could demo to VCs. The startup is now in the SGInnovate AI accelerator.
-
-35 yo · Tanjong Pagar · GovTech engineer wanting to deepen AI
-
-### From back-end engineer at GovTech to AI lead on her squad.
-
-Lim was a competent back-end engineer at GovTech but felt left behind by the AI wave. Five months focused entirely on LLM application engineering — RAG, agents, evals, production deployment. She's now the de-facto AI lead on her GovTech squad and has shipped two LLM features used by hundreds of thousands of Singaporeans.
+The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
 What we promise · and what we don't
 
@@ -793,82 +787,49 @@ We don't dance around this. Most of our mentors are India-based. For Singapore f
 - **Singapore-specific knowledge is the burden of the mentor, not you.** We invest in mentors who learn the MOE syllabus, the IP system, the SoC / SCSE / SCIS / SUTD admissions criteria. You don't need to explain Singapore education to anyone.
 - **Cost structure makes 1:1 viable.** Indian salary structures mean we can offer real 1:1 mentorship at SGD 135 / month — a Singapore-based academy charging the same price would be forced to use 5:1 group sessions.
 
-Singapore family stories
+Real shipped student projects
 
-## Real outcomes from real Singapore homes — not stock photos.
+## Real apps our students built — live, public, and yours to open.
 
-Six families across Bishan, Tampines, Holland Village, Bedok and One-North share what changed in the first six months. Names abbreviated. Every story shared with written permission from the parent.
+Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
 
-Aarav, P5 · Tampines · CBSE-pattern
+Built by Anika · AI & ML
 
-### PSLE Maths went from B to A* in six months — coding helped, surprisingly.
+### BookDesk — AI Book Summaries & Quizzes
 
-Aarav joined in February 2025 underperforming on PSLE Maths heuristics. We didn't position coding as the solution. But after 6 months of Python problem-solving, his ability to break down PSLE-Maths heuristics (model-drawing, supposition, working backwards) demonstrably improved. PSLE Maths grade: A*.
+Type in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion.
 
-Mentor: Aisha · 22 sessions · PSLE Maths: A* · CBSE schooling
+Gemini AIFull-StackDatabaseQuiz Gen[Open the live project ↗](https://bookdesk1.netlify.app)Built by Bhavya · AI & ML
 
-Kai Sheng, IP4 · Raffles Institution · Bishan
+### NutriLife — AI Nutrition Coach
 
-### NOI Singapore qualifier — top 10% nationally as an IP4.
+Snap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI.
 
-Kai Sheng's parents wanted "challenge beyond RI's pace." His mentor Siti (ex-Hwa Chong) shifted his track toward NOI Singapore prep after spotting strong algorithmic intuition in session four. He sat NOI in IP4 and placed top 10% nationally — rare at that age. He's now the only IP5 student doing H3 enrichment at his school.
+Vibe CodingAI VisionReactLovable[Open the live project ↗](https://nutrilife-bhavya.lovable.app)Built by Anurag · AI & ML
 
-Mentor: Siti · 28 sessions · NOI Singapore Top-10% · RI IP track
+### HugSelle — AI Smile Generator
 
-Mei Ling, JC2 · NJC · Bishan
+A heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.
 
-### H2 Computing 9569: from a 'B' predicted to a clean 'A' at A-Levels.
+PythonMachine LearningAI[Open the live project ↗](https://hugselle.modernagecoders.com)Built by Rohan · Web App
 
-Mei Ling was strong at H2 Maths but H2 Computing was sliding. Mentor Rajesh ran weekly past-paper drills + completely rebuilt her Python OOP fundamentals. She finished her A-Levels with an 'A' in H2 9569. Now reading CS at NUS School of Computing.
+### Pracy — Coding Practice & Quiz Platform
 
-Mentor: Rajesh · 30 sessions · A-Level H2 9569: A · Now at NUS SoC
+An all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.
 
-Twins · P3 · Bedok · MOE neighbourhood school
+JavaScriptNode.jsMongoDB[Open the live project ↗](https://astounding-flan-f18e08.netlify.app/)Built by Modern Age Coders · Game
 
-### Different temperaments, different tracks, same household.
+### The Beautiful Mind
 
-Sara (the quieter twin) does Scratch game design Tuesdays; Riya (the more competitive one) does Python + micro:bit Thursdays. Different tracks, same household, same monthly bill (×2). Both girls retained at 6-month mark.
+A scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards.
 
-Mentors: Aisha & Priya · 2 separate tracks · MOE primary · 24 weeks
+ReactFirebaseJavaScriptGame Logic[Open the live project ↗](https://mind.modernagecoders.com)Built by Somraj · Tool
 
-Ahmed, S4 · O-Level prep · Tanjong Pagar
+### Image Slider Website
 
-### O-Level Computing 7155: A1 + a real-world LTA bus-arrival project that got into Hack&Roll.
+A visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects.
 
-Ahmed's O-Level Computing project was a live LTA bus-arrival predictor for his neighbourhood. Final O-Level score: A1. Two months later he submitted the same project to Hack&Roll 2025 with two team-mates — Top-25 finalist out of 600+ entries.
-
-Mentor: Rajesh · 20 sessions · O-Level 7155: A1 · Hack&Roll Top-25
-
-Wei Liang, 38 yo · Holland Village · Career-switcher
-
-### DBS private banker → Sea Group AI-product role in 8 months.
-
-Wei Liang is the story above (same person). Started Python from zero in May 2025. Got the Sea Group offer in January 2026. ~35% compensation increase. Now refers other DBS colleagues to us — about 20% of our SG adult-learner pipeline comes from his referrals.
-
-Mentor: Suresh · 38 sessions · Career switch · ~35% comp increase
-
-We have many more. We don't publish photos or full surnames of minors — that's a hard rule. But we're happy to put you in touch (with permission) with one Singapore parent in your neighbourhood before you commit.
-
-Competition outcomes — selected
-
-## A snapshot of what our Singapore students have achieved at competitions.
-
-A non-exhaustive list of competition outcomes from Modern Age Coders Singapore students in 2024 and 2025. We don't list student names — that's a hard privacy rule — just the school, level and outcome.
-
-- **NOI Singapore qualifier 2025** — 4 students Top-15%, 2 students Top-10%, 1 student Bronze medal at finals.
-- **Hack&Roll 2025 (NUS)** — 1 team Top-10 finalist, 2 teams Top-25.
-- **Singapore Maths Olympiad 2025** — 5 students Silver, 3 Gold, 1 Top-100 nationally.
-- **AI Innovation Challenge 2024** — 1 student team Finalist (out of 240+ entries).
-- **PSLE Mathematics 2024 cohort** — of our 18 P6 students, 11 scored AL1 (A*) in Maths.
-- **O-Level Computing 7155 (2024)** — 14 of our 22 S5 students scored A1.
-- **A-Level H2 Computing 9569 (2024)** — 9 of our 11 JC2 students scored A.
-- **IB Computer Science HL Internal Assessment (2024)** — 8 of our 9 students scored 5/6/7.
-- **NUS School of Computing direct admission (2024)** — 4 of our advanced students admitted.
-- **NTU SCSE direct admission (2024)** — 3 of our advanced students admitted.
-
-These outcomes are correlated with our mentorship, not solely caused by it. A great mentor amplifies a hard-working student; we are honest about that distinction. We don't claim credit for the school, the family, the natural ability or the late-night studying.
-
-Last word
+HTMLCSSJavaScript[Open the live project ↗](https://robo23middle-stack.github.io/scenes/)Last word
 
 ## If you've read this far, the next step is one phone call.
 

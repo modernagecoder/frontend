@@ -1,5 +1,5 @@
 ---
-title: "Online Coding & AI Classes in the UK · GCSE, A-Level, Oxbridge-ready — Modern Age Coders"
+title: "Online Coding & AI Classes in the UK | GCSE & A-Level"
 description: "Live 1:1 online coding, Python, AI & agentic-AI mentorship for British students. KS3–KS5 aligned, GCSE Computer Science (AQA · OCR · Pearson) and A-Level ready. Russell-Group & Oxbridge interview prep. London, Manchester, Birmingham, Edinburgh, Cambridge, Oxford and beyond. £79/mo (USD 100). Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-united-kingdom
 keywords: ["coding classes UK", "online coding classes UK", "coding classes London", "coding classes Manchester", "coding classes Birmingham", "coding classes Edinburgh", "coding classes Glasgow", "coding classes Leeds", "coding classes Liverpool", "coding classes Bristol", "coding classes Cambridge", "coding classes Oxford"]
@@ -177,6 +177,10 @@ CSAT · MAT-style CS · Interview prep
 - Imperial & UCL interview question patterns
 - British Informatics Olympiad rounds 1 & 2 — coached by veterans
 
+Need maths exam prep too? We also run live GCSE, A-Level and 11 Plus maths courses.
+
+[A-Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics)[GCSE Maths](/courses/gcse-mathematics-mastery)[11 Plus Maths](/courses/11-plus-maths-preparation-course-uk)
+
 > My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
 SOSonam OswalParent of Dhairya · Verified Google review
@@ -227,49 +231,49 @@ Russell Group24 universities
 
 Oxbridge, Imperial, UCL, KCL, Edinburgh, Manchester, Bristol, Warwick, Durham, Southampton, Leeds, Sheffield — CS demand outstrips supply at every one.
 
-Real shipped projects · real British students
+Real shipped student projects
 
-## Six things UK students have built with us this year.
+## Real apps our students built — live, public, and yours to open.
 
-Names abbreviated. Each project deployed publicly during normal class hours and used by the student afterwards.
+Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
 
-Olivia P. · Year 11 · London (Wimbledon)
+Built by Kriti · AI & ML
 
-### Mock-exam Python helper
+### HairSync — AI Hairstyle Try-On
 
-A Python program that randomly generates AQA-style 8525 questions from her revision notes, marks them, and tracks which topics she keeps losing marks on. Used by her whole class.
+Upload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds.
 
-PythonSQLiteOpenAIFlaskArjun K. · Year 13 · Cambridge (Hills Road)
+Vibe CodingAI ImageVirtual Try-OnLovable[Open the live project ↗](https://hairsync.lovable.app)Built by Aarush · Game
 
-### Cambridge CSAT trainer
+### Palm Arcana — Summon the Elements
 
-A web app that generates CSAT-style problems on the fly and explains solutions. Arjun used it for two months before his Cambridge interview — got an offer.
+Open your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning.
 
-TypeScriptNext.jsClaude APIVercelMaya R. · Year 4 · Edinburgh (Morningside)
+Vibe CodingComputer VisionJavaScriptCanvas[Open the live project ↗](https://superpawer.netlify.app)Built by Raayan · Web App
 
-### Hogwarts House Quiz
+### LumenFX — AR/VR Photo Effects Studio
 
-A Python quiz program with real input handling and scoring. Maya is 9. She runs the family quiz nights on it now.
+Upload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets.
 
-PythontkinterfilesBen T. · Year 12 · Manchester (Stretford)
+Vibe CodingAR / VRWebGLLovable[Open the live project ↗](https://arvrbadestweb.lovable.app)Built by Rohan · Web App
 
-### A-Level NEA — Football statistics agent
+### Pracy — Coding Practice & Quiz Platform
 
-His OCR A-Level NEA project: an agentic-AI assistant that pulls Premier League stats and answers questions about Manchester United form. Predicted A* on it.
+An all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.
 
-PythonLangGraphOpenAIPostgreSQLZoe & Theo · Years 7 & 9 · Bristol (Redland)
+JavaScriptNode.jsMongoDB[Open the live project ↗](https://astounding-flan-f18e08.netlify.app/)Built by Anurag · AI & ML
 
-### Family chores Next.js app
+### HugSelle — AI Smile Generator
 
-Two siblings shipped a real Next.js web app to manage their family's chores rota. Real auth, real database — their Year 7 form teacher demoed it in assembly.
+A heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.
 
-TypeScriptNext.jsSupabaseTailwindDaniel B. · adult learner · Birmingham
+PythonMachine LearningAI[Open the live project ↗](https://hugselle.modernagecoders.com)Built by Manay · Tool
 
-### Internal compliance agent (banking)
+### Life Span Tracker
 
-Daniel built an agentic-AI compliance summary tool for his Birmingham bank that saves his team eight hours a week. Switched into AI engineering on the back of it.
+An interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.
 
-PythonLangGraphClaudePostgreSQLMeet the mentor team
+JavaScriptAPIsDate Calc[Open the live project ↗](https://lifespantracker.netlify.app/)Meet the mentor team
 
 ## Working engineers, Oxbridge alumni and patient teachers.
 

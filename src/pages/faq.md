@@ -7,7 +7,7 @@ source: src/pages/faq.html
 ---
 > Find answers to common questions about Modern Age Coders courses, pricing, enrollment, and more. Get all the information you need to start your coding journey.
 
-## Frequently Asked Questions
+# Frequently Asked Questions
 
 Find answers to common questions about our courses, pricing, and enrollment
 

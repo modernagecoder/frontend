@@ -1,5 +1,5 @@
 ---
-title: "Coding Classes in Uttarakhand | Online Python, AI & Web Dev for All Ages"
+title: "Coding Classes in Uttarakhand | Python, AI & Web Dev"
 description: "Live online coding & maths classes in Uttarakhand for kids, teens & adults. Scratch, Python, AI, Java, Web Dev & DSA. Serving Dehradun, Haridwar, Roorkee & Haldwani. Rated 4.9/5. Free demo!"
 canonical: /coding-classes-in-uttarakhand
 keywords: ["coding classes in Uttarakhand", "online coding classes Uttarakhand", "coding classes for kids Uttarakhand", "Python classes Uttarakhand", "AI course for kids Uttarakhand", "coding institute Uttarakhand", "learn coding Uttarakhand", "coding classes Dehradun", "coding classes Haridwar", "coding classes Roorkee", "coding classes Haldwani", "UBSE coding"]

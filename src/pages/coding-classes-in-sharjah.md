@@ -25,7 +25,15 @@ Python, data, and honest machine learning[![Python for Teens course thumbnail](/
 
 ### College Students & Professionals
 
-Evening tracks, steady workloads[![Python Mastery course thumbnail](/images/python-college.webp)  Python Mastery For college students and working adults starting properly: core Python, data structures and object-oriented design, built up week by steady week. View syllabus](/courses/python-mastery-college)[![Python Automation with AI course thumbnail](/images/python-automation-ai-college.webp)  Python Automation with AI Turn the repetitive slice of a workday into scripts: files, spreadsheets, reports and email, useful from the very first month. View syllabus](/courses/python-ai-automation-college)
+Evening tracks, steady workloads[![Python Mastery course thumbnail](/images/python-college.webp)  Python Mastery For college students and working adults starting properly: core Python, data structures and object-oriented design, built up week by steady week. View syllabus](/courses/python-mastery-college)[![Python Automation with AI course thumbnail](/images/python-automation-ai-college.webp)  Python Automation with AI Turn the repetitive slice of a workday into scripts: files, spreadsheets, reports and email, useful from the very first month. View syllabus](/courses/python-ai-automation-college)04
+
+### International school exam prep
+
+AP, IGCSE and IB, alongside school
+
+Many Sharjah families are at American, British and IB schools. These live courses prepare the specific exams those curricula set, taught to the current formats alongside the school year.
+
+[AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)[AP Statistics](/courses/ap-statistics-maths-exam-prep-course)[AP Precalculus](/courses/ap-precalculus-exam-prep-course)[IGCSE Maths](/courses/igcse-mathematics-mastery)[IB Maths](/courses/ib-mathematics-aa-ai-masterclass)
 
 02 · Local context
 

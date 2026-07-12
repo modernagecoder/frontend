@@ -1,5 +1,5 @@
 ---
-title: "Online Coding & AI Classes in the United States · AP CS, USACO & Ivy-ready — Modern Age Coders"
+title: "Online Coding & AI Classes in the USA | AP CS & USACO"
 description: "Live 1:1 online coding, Python, AI & agentic-AI mentorship for American students. AP Computer Science Principles & A aligned, USACO coached, MIT / Stanford / CMU / Berkeley / Ivy admissions aware. All 50 states. Mentors in PT / MT / CT / ET / AKT / HT. USD 100 a month. Book a free trial."
 canonical: https://learn.modernagecoders.com/coding-classes-in-united-states
 keywords: ["coding classes USA", "online coding classes USA", "coding classes for kids USA", "Python tutor New York", "Python tutor Los Angeles", "Python tutor San Francisco", "coding classes Boston", "coding classes Chicago", "coding classes Houston", "coding classes Seattle", "coding classes Austin", "coding classes Atlanta"]
@@ -43,26 +43,26 @@ Tap a track to see exactly what we cover and what it leads to. Most American tee
 
 Broad-stroke introduction to computer science — algorithms, data, the internet, programming and the impact of computing. Friendlier on-ramp than AP CSA, often taken in 10th or 11th grade. We cover the full course with extra Python depth.
 
-College Board · taught nationwide
+College Board · taught nationwide[View the full AP CSP course](/courses/ap-computer-science-principles-exam-prep-course)
 
-- **Big Ideas 1–5** — creative development, data, algorithms, computer systems, impact
-- **Python & pseudocode** — fluency with both representations
-- **Create Performance Task** — full coaching on the original-program submission
-- **End-of-course exam** — past free-response drills since 2020
-- **5-score goal** — most of our committed students score 4 or 5
+- **All five Big Ideas:** creative development, data, algorithms and programming, computer systems and networks, and the impact of computing
+- **Programming plus pseudocode:** fluency in real code and the AP CSP reference language
+- **Create Performance Task:** coaching on the through-course program and the Personalized Project Reference you build
+- **End-of-course exam:** the 70-question section plus the written responses about your own program, drilled on released questions
+- **Structured toward a strong score:** steady preparation with a mentor, and no shortcuts promised
 
 ### AP Computer Science A (AP CSA)
 
 The serious AP — Java-based, deeper, more selective. Often taken in 11th or 12th grade by students aiming at top CS programs. Our mentors are fluent in the AP CSA Java idiom and the FRQ rubrics.
 
-College Board · Java focus
+College Board · Java focus[View the full AP CSA course](/courses/ap-computer-science-a-java-exam-prep-course)
 
-- **Java fundamentals** — OOP, classes, inheritance, polymorphism, interfaces
-- **ArrayList & 2D arrays** — common FRQ territory
-- **Recursion & sorting** — selection / insertion / merge sort, binary search
-- **Free-response practice** — every AP CSA FRQ since 2014, with rubrics
-- **MCQ drills** — Princeton Review, Barron's, College Board released items
-- **5-score goal** — paired with a CS-rigorous mentor
+- **Java from the ground up:** types, objects, methods and the four redesigned units
+- **Selection, iteration and class design:** the core of the current exam
+- **Arrays, ArrayList and 2D arrays:** the Data Collections unit and common FRQ territory
+- **Recursion tracing, file reading and data sets:** the topics the 2025-26 redesign added
+- **Free-response practice:** all four current FRQ types with the official rubrics
+- **Fully digital exam:** the Bluebook format, 42 multiple choice plus 4 free response
 
 ### USACO · Bronze → Silver → Gold
 
@@ -89,7 +89,9 @@ Top-1% high-school CS
 - **Camp shortlist preparation** for those invited
 - **Long-term Ivy / MIT / Stanford trajectory** woven in
 
-American AI & software pulse
+Preparing for AP maths as well? We coach those too, with the same live small-group and 1:1 approach.
+
+[AP Calculus AB & BC](/courses/ap-calculus-exam-prep)[AP Statistics](/courses/ap-statistics-maths-exam-prep-course)[AP Precalculus](/courses/ap-precalculus-exam-prep-course)American AI & software pulse
 
 ## The country your student is about to graduate into.
 
@@ -159,49 +161,49 @@ State flagshipsHonors CS programs4-year state univ.Community college → transfe
 
 > "My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions."
 
-SOSonam OswalParent of Dhairya · Verified Google reviewReal shipped projects · real American students
+SOSonam OswalParent of Dhairya · Verified Google reviewReal shipped student projects
 
-## Six things our American students built with us this year.
+## Real apps our students built — live, public, and yours to open.
 
-Names abbreviated. Each project deployed publicly during normal class hours, used by the student afterwards.
+Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
 
-Aiden W. · 16 · Palo Alto, CA
+Built by Harshit · AI & ML
 
-### USACO Silver → Gold prep tool
+### Misti — AI Chatbot for Maths & Coding
 
-Python-based problem generator that creates USACO Silver-style problems on demand and grades solutions. Aiden used it personally, then open-sourced it for his school's CS club. Promoted to Gold the same season.
+An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.
 
-PythonFastAPIClaude APISQLiteMaya R. · 14 · Brooklyn, NY
+PythonAI/MLLLM APIs[Open the live project ↗](https://misti.modernagecoders.com)Built by Shubh · Game
 
-### AP CSA exam companion
+### Doodle Dash — 30-Second Drawing Challenge
 
-A Streamlit app that drills past AP CSA FRQs and grades Maya's Java responses against rubrics. Picked up by her teacher and now used by the whole class.
+Pick a difficulty, get a prompt, and you have exactly 30 seconds to draw it — then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes.
 
-PythonStreamlitOpenAIJavaCaleb J. · 10 · Austin, TX
+Vibe CodingAI JudgeCanvasLovable[Open the live project ↗](https://doodledashmaster.lovable.app)Built by Isha · Web App
 
-### Family chore-tracker web app
+### Moxo — Company Landing Page
 
-Caleb's first Next.js app, with real auth and a real database. His family uses it every Saturday. His grandmother in Dallas thinks he built it for Apple.
+A stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.
 
-TypeScriptNext.jsSupabaseTailwindSophia L. · 17 · Boston, MA
+JavaScriptGSAPParallax[Open the live project ↗](https://moxo.modernagecoders.com)Built by Bhavya · AI & ML
 
-### MIT admissions essay AI co-author
+### NutriLife — AI Nutrition Coach
 
-Sophia built (with mentor oversight) a RAG agent over her own activity-log and project journal. It helped her draft her MIT supplemental essays — she wrote every word, the agent surfaced the moments she'd forgotten about.
+Snap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI.
 
-PythonRAGClaudeChromaEthan K. · 13 · Seattle, WA
+Vibe CodingAI VisionReactLovable[Open the live project ↗](https://nutrilife-bhavya.lovable.app)Built by Kritika · Game
 
-### Seahawks fantasy-team optimizer
+### Baby — Typing Speed Challenge
 
-Pulls live NFL stats and recommends fantasy-team lineups for his dad's league. His dad has won three weeks in a row.
+An engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.
 
-Pythonpandasscikit-learnGitHub PagesPriya S. · adult learner · Chicago, IL
+JavaScriptNode.jsMongoDB[Open the live project ↗](https://baby.modernagecoders.com)Built by Anika · AI & ML
 
-### Internal compliance agent (insurance)
+### BookDesk — AI Book Summaries & Quizzes
 
-Priya shipped an agentic-AI compliance assistant at her Chicago insurance employer. Saves the team several hours each week. Helped her move into an AI-engineer role internally.
+Type in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion.
 
-PythonLangGraphClaudePostgreSQLDockerMeet the mentor team
+Gemini AIFull-StackDatabaseQuiz Gen[Open the live project ↗](https://bookdesk1.netlify.app)Meet the mentor team
 
 ## FAANG engineers, USACO veterans, Ivy / MIT / Stanford alumni.
 

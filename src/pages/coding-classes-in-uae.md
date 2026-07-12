@@ -1,5 +1,5 @@
 ---
-title: "Online Coding & AI Classes in UAE · Dubai · Abu Dhabi · KHDA-aware · CBSE / IB / British / American — Modern Age Coders"
+title: "Online Coding & AI Classes in the UAE | Dubai & Beyond"
 description: "Live 1:1 online coding, Python, AI & agentic-AI mentorship for students across the UAE — Dubai, Abu Dhabi, Sharjah and all seven emirates. CBSE, ICSE, British (GCSE/A-Level), American (AP), IB DP, MOE-UAE and KHDA / ADEK aware. NYU Abu Dhabi, AUS, Khalifa, Heriot-Watt Dubai admissions ready. AED 368 (USD 100) a month."
 canonical: https://learn.modernagecoders.com/coding-classes-in-uae
 keywords: ["coding classes UAE", "coding classes Dubai", "coding classes Abu Dhabi", "coding classes Sharjah", "coding classes for kids Dubai", "coding for teens UAE", "online coding classes Dubai", "Python tutor Dubai", "Python tutor Abu Dhabi", "AI course UAE", "agentic AI UAE", "CBSE coding classes Dubai"]
@@ -31,7 +31,11 @@ The UAE is one single time zone — **GST (UTC+4)**. That makes scheduling simpl
 
 Every course below runs as live 1:1 with a mentor matched to your child's curriculum (CBSE, ICSE, British, American, IB or MOE-UAE) and age. Two 45-minute sessions per week. AED 368 (USD 100) per month for 1:1, or AED 147 (USD 40) for small-group cohort.
 
-[Grades 1 – 3 Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Built around play, animation and music — but no “Python for kids” toys that hide the real language. AED 368 / month · 1:1 · 8 sessions](/courses/coding/kids)[Grades 4 – 6 Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional physical-computing add-on with BBC micro:bit so the code controls something they can see. AED 368 / month · 1:1 · 8 sessions](/courses/coding/kids)[Grades 7 – 8 Web Builders + AI Foundations HTML, CSS, JavaScript, React basics — they ship a real website by month two. AI module covers safe prompting, LLM mental models and a first agent-style project. AED 368 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 9 – 10 (IGCSE / CBSE) IGCSE / CBSE Computer Science Direct alignment with Cambridge IGCSE 0478, Pearson Edexcel IGCSE 4CP1, CBSE Class 10 IT 402 / 416 and Oxford AQA. Past-paper drills + a real coursework project that scores. AED 368 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 11 – 12 (A-Level / IB / AP) A-Level / IB DP / AP CS Cambridge 9608 / 9618 · Pearson 9CP0 · IB Computer Science HL & SL · AP CSP + AP CSA. Predicted-grade strategy, project portfolios and admissions-ready coding depth. AED 368 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 11 – 12 (CBSE / ICSE) CBSE / ICSE Class 11 – 12 CS CBSE Class 11 / 12 Computer Science (083) and Informatics Practices (065). ISC Computer Science. Board-paper strategy + the real CS depth IIT-Delhi, BITS-Pilani and IIT-Bombay actually evaluate. AED 368 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Tabby, Careem, Talabat and DIFC-based AI startups recruit for. AED 368 / month · 1:1 · 8 sessions](/courses/coding/college)[For Girls — Grades 4 – 12 Girls-Only Coding & AI All-female mentor pool. Same Python / web / AI track, designed around a girls-only cohort. Many Emirati and South-Asian families specifically prefer this option for daughters. AED 368 / month · 1:1 · 8 sessions](/courses/coding/girls)Curriculum coverage
+[Grades 1 – 3 Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Built around play, animation and music — but no “Python for kids” toys that hide the real language. AED 368 / month · 1:1 · 8 sessions](/courses/coding/kids)[Grades 4 – 6 Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional physical-computing add-on with BBC micro:bit so the code controls something they can see. AED 368 / month · 1:1 · 8 sessions](/courses/coding/kids)[Grades 7 – 8 Web Builders + AI Foundations HTML, CSS, JavaScript, React basics — they ship a real website by month two. AI module covers safe prompting, LLM mental models and a first agent-style project. AED 368 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 9 – 10 (IGCSE / CBSE) IGCSE / CBSE Computer Science Direct alignment with Cambridge IGCSE 0478, Pearson Edexcel IGCSE 4CP1, CBSE Class 10 IT 402 / 416 and Oxford AQA. Past-paper drills + a real coursework project that scores. AED 368 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 11 – 12 (A-Level / IB / AP) A-Level / IB DP / AP CS Cambridge 9608 / 9618 · Pearson 9CP0 · IB Computer Science HL & SL · AP CSP + AP CSA. Predicted-grade strategy, project portfolios and admissions-ready coding depth. AED 368 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 11 – 12 (CBSE / ICSE) CBSE / ICSE Class 11 – 12 CS CBSE Class 11 / 12 Computer Science (083) and Informatics Practices (065). ISC Computer Science. Board-paper strategy + the real CS depth IIT-Delhi, BITS-Pilani and IIT-Bombay actually evaluate. AED 368 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Tabby, Careem, Talabat and DIFC-based AI startups recruit for. AED 368 / month · 1:1 · 8 sessions](/courses/coding/college)[For Girls — Grades 4 – 12 Girls-Only Coding & AI All-female mentor pool. Same Python / web / AI track, designed around a girls-only cohort. Many Emirati and South-Asian families specifically prefer this option for daughters. AED 368 / month · 1:1 · 8 sessions](/courses/coding/girls)
+
+Preparing for a specific exam? These live courses target the American, British and IB papers directly, taught to the current formats.
+
+[AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)[AP Statistics](/courses/ap-statistics-maths-exam-prep-course)[AP Precalculus](/courses/ap-precalculus-exam-prep-course)[IGCSE Maths](/courses/igcse-mathematics-mastery)[IB Maths](/courses/ib-mathematics-aa-ai-masterclass)Curriculum coverage
 
 ## Every UAE school curriculum, taught by a mentor who actually knows it.
 
@@ -408,45 +412,35 @@ Week 4
 
 End of month one, the mentor calls you (not your child) on WhatsApp for 15 minutes. You hear what's working, what isn't, what to expect month 2. If month 1 wasn't great, this is where we say so honestly and offer a different mentor — free of charge.
 
-Adult learners welcome — and common
+What families say · verified reviews
 
-## About 22% of our UAE students are adults. Career-switchers, retired engineers, MBA students, full-time mums upskilling.
+## What families say about Modern Age Coders
 
-42 yo · Dubai Marina · Pakistani · Banking → AI
+We teach live and online, so students here learn in the same small batches as our whole community. These are real, verified Google reviews.
 
-### From relationship-manager at ENBD to Lean Technologies AI hire.
+KBKrishnam BhatterFormer student
 
-Aamir spent 14 years in relationship-management at Emirates NBD. He had no coding background but a maths brain. Nine months with Suresh — Python → SQL → LangChain → a working agentic-AI portfolio. He's now in an AI-product role at Lean Technologies (Riyadh-headquartered, Dubai office). Salary went from AED 32k/month banking to AED 41k/month AI-product.
+### "I am truly grateful for my experience at Modern Age Coders."
 
-35 yo · Sharjah · Egyptian-Emirati · Stay-at-home mum
+My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-### From paused career to remote junior-developer offer in 14 months.
+PRPoonam RathoreParent
 
-Mariam stopped work after her second child and spent 5 years out of the job market. She didn't want a 4-year university restart — she wanted a working portfolio. 14 months in, she has a React + Supabase portfolio and a remote junior-developer offer from a UK fintech for £42k/year. Worked exclusively in evenings while kids slept.
+### "My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm."
 
-58 yo · Abu Dhabi · Indian · Retired engineer
+The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-### Retirement was boring. Now ships an AI-driven cricket-statistics blog.
+RMRia MukherjeeParent
 
-Hardeep was a chemical engineer at ADNOC for 30 years. Retired in 2024. Wanted to stay sharp. Now spends 3 hours a day in Python, has built an LLM-powered cricket-analysis blog that gets 12k monthly readers, and runs a small WhatsApp community of Indian-expat retirees in the UAE learning to code with him.
+### "The one step solution for my son."
 
-29 yo · Dubai Internet City · Lebanese · Product Manager
+Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-### PM at Property Finder shipping her own production code now.
+SGSonu GoyalParent
 
-Lara was a non-technical PM and felt the gap painfully — couldn't read her own team's PRs, couldn't prototype, kept getting bulldozed by senior engineers. Six months with us and she's now shipping small production-ready changes herself, has earned engineering credibility, and was promoted to Senior PM in December 2025.
+### "Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way."
 
-47 yo · Abu Dhabi · Bahraini · Civil servant
-
-### Wrote an internal-AI tool for the Department of Health that's still in production.
-
-Khaled works for an Abu Dhabi government health entity. Frustrated by manual processes. Built an internal Python tool that classifies patient feedback emails using an LLM — saved his team an estimated 18 hours / week. His director then funded a small "AI internal-tools" team and made him deputy lead.
-
-31 yo · Dubai · Filipino-Indian · MBA student
-
-### INSEAD-MBA student running his AI-startup hypothesis from class.
-
-Rohit was halfway through his INSEAD MBA (Abu Dhabi campus) and wanted to build the MVP for his thesis startup himself rather than outsource it. Three months with us and he had a working Streamlit prototype + LangChain agent he could demo to investors. The startup is now in a Wamda accelerator.
+The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
 What we promise · and what we don't
 
@@ -789,63 +783,49 @@ We don't dance around this. Most of our mentors are India-based. For UAE familie
 - **CS depth is world-class.** India produces more CS graduates per year than any other country, and the top tier of that pool — the people who passed IIT JEE Advanced, BITSAT, or top-IIT placement — is who teaches your child.
 - **Cost structure makes 1:1 viable.** Indian salary structures mean we can offer real 1:1 mentorship at AED 368 / month — a Dubai-based academy charging the same price would have to use 5:1 group sessions.
 
-Emirates family stories
+Real shipped student projects
 
-## Real outcomes from real UAE homes — not stock photos.
+## Real apps our students built — live, public, and yours to open.
 
-Six families across Dubai, Abu Dhabi, Sharjah and RAK share what changed in the first six months. Names abbreviated for privacy. Every story is shared with written permission from the parent.
+Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
 
-Aarav, Grade 8 · Indian High School · Dubai
+Built by Vivaan · AI & ML
 
-### From Roblox player to Class-8 CBSE topper.
+### GuardianX — AI Bodyguard for the Internet
 
-Aarav joined in March 2025 with zero coding background, spending 4+ hours a day on Roblox. By August he was writing real Python, had pushed 12 projects to GitHub, and won his school's Class 8 CBSE Computer Science prize — for which the curriculum officially starts in Class 11. His mother credits the “structured thinking” the coding sessions built.
+Paste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for…
 
-Mentor: Aditya · 18 sessions · Parent confidence score 10/10 · CBSE board
+Vibe CodingAIReactLovable[Open the live project ↗](https://guardianx-cybersaver.lovable.app)Built by Harshit · AI & ML
 
-Khaled, Grade 12 · ASD · Dubai
+### Misti — AI Chatbot for Maths & Coding
 
-### AP Computer Science A: from 3 to 5 in seven months.
+An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.
 
-Khaled was failing AP CSA mock papers and panicking about his MIT application. We paired him with Priya — ex-ASD teacher — who rebuilt his Java fundamentals from scratch (literally), then ran past-paper drills weekly. His May 2025 score was a clean 5. He's now at CMU.
+PythonAI/MLLLM APIs[Open the live project ↗](https://misti.modernagecoders.com)Built by Isha · Web App
 
-Mentor: Priya · 28 sessions · Final AP score: 5 · Now at CMU CS
+### Moxo — Company Landing Page
 
-Sara, Grade 6 · Brighton College Abu Dhabi · IGCSE-prep
+A stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.
 
-### From "I hate coding" to AIO-style competitive programming.
+JavaScriptGSAPParallax[Open the live project ↗](https://moxo.modernagecoders.com)Built by Shubh · Game
 
-Sara's parents wanted “something more challenging than the school after-school club.” She started lukewarm. By month four, after a particularly fun project building her own version of the UAE Pavilion website from Expo 2020, she was hooked. Now competes in the Bebras Australia challenge (yes, Australian — we re-route her to that one).
+### Doodle Dash — 30-Second Drawing Challenge
 
-Mentor: Rania · 22 sessions · Bebras Distinction · UK-curriculum
+Pick a difficulty, get a prompt, and you have exactly 30 seconds to draw it — then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes.
 
-Twin sisters · Mira & Nora, Grade 4 · GEMS Wellington · Dubai
+Vibe CodingAI JudgeCanvasLovable[Open the live project ↗](https://doodledashmaster.lovable.app)Built by Manay · Tool
 
-### Two sisters, same time slot, completely different tracks.
+### Life Span Tracker
 
-The parents wanted to enrol both girls together for scheduling reasons but the twins have very different temperaments. Mira does Scratch game design Mondays with one mentor; Nora does Python + micro:bit Wednesdays with another. Different tracks, same household, same monthly bill (×2). Both girls retained at the 6-month mark.
+An interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.
 
-Mentors: Faisal & Rania · 2 separate tracks · IGCSE prep · 24 weeks
+JavaScriptAPIsDate Calc[Open the live project ↗](https://lifespantracker.netlify.app/)Built by Kriti · AI & ML
 
-Ahmed, Grade 11 IB · Raha International · Abu Dhabi
+### HairSync — AI Hairstyle Try-On
 
-### IB Computer Science Internal Assessment: 7/7.
+Upload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds.
 
-Ahmed's mentor was a former IB CS examiner. Over four months they shaped his IA — a personal-finance budgeting app for Abu Dhabi expats — into a textbook-perfect 7/7 submission. Combined with strong predicted grades, he's now in the running for ANU Bachelor of Advanced Computing R&D.
-
-Mentor: Faisal · 16 sessions · IA score: 7/7 · IB DP
-
-Yusuf, 42 yo · Dubai Marina · Career-switcher
-
-### Banker → AI product role at Lean Technologies.
-
-Yusuf is the Aamir story above (same person, name unchanged with permission). Started with zero Python in March 2025. Got the AI product role in October 2025. Salary increased 28%. Now refers other ENBD colleagues to us — about 30% of our adult-learner pipeline comes from his referrals.
-
-Mentor: Suresh · 38 sessions · Career switch confirmed · AED 41k/month
-
-We have many more. We don't publish photos or full surnames of minors — that's a hard rule. But we're happy to put you in touch (with permission) with one UAE parent in your emirate before you commit. Just ask the mentor on your callback.
-
-Last word
+Vibe CodingAI ImageVirtual Try-OnLovable[Open the live project ↗](https://hairsync.lovable.app)Last word
 
 ## If you've read this far, the next step is one phone call.
 

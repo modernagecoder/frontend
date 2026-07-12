@@ -27,6 +27,14 @@ Depth now, options later[![Python for Teens course thumbnail](/images/python-tee
 
 Evening batches for full calendars[![Python Automation with AI course thumbnail](/images/python-automation-ai-college.webp)  Python Automation with AI Turn the repetitive quarter of a desk job into scripts: data pulls, file handling, reporting. The kind of quiet efficiency technical managers notice. View syllabus](/courses/python-ai-automation-college)[![AI and Machine Learning course thumbnail](/images/ai-ml-college.webp)  AI & Machine Learning Machine learning with its working parts exposed: the maths where it earns its keep, the code throughout, and projects on data that resembles your industry's. View syllabus](/courses/ai-ml-college)[![Codex and Claude Code for Professionals course thumbnail](/images/codex-claude-code-adults.webp)  Codex & Claude Code for Professionals Building software with agents in the loop: precise instructions in, careful review out, and a workflow that multiplies what one developer can deliver. View syllabus](/courses/codex-claude-code-adults)
 
+### International school exam prep
+
+AP, IGCSE and IB, alongside school
+
+Many Dammam families are at American, British and IB schools. These live courses prepare the specific exams those curricula set, taught to the current formats alongside the school year.
+
+[AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)[AP Statistics](/courses/ap-statistics-maths-exam-prep-course)[AP Precalculus](/courses/ap-precalculus-exam-prep-course)[IGCSE Maths](/courses/igcse-mathematics-mastery)[IB Maths](/courses/ib-mathematics-aa-ai-masterclass)
+
 The Eastern Province
 
 ## Where engineering is the family business

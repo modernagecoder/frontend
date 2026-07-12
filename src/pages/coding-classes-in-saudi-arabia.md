@@ -27,6 +27,14 @@ From first program to trained model[![Python for Teens course thumbnail](/images
 
 Career-grade skills, evening batches[![Python Mastery course thumbnail](/images/python-college.webp)  Python Mastery Python from zero to working fluency: core language, object-oriented code, files, libraries and a portfolio of programs that run. View syllabus](/courses/python-mastery-college)[![AI and Machine Learning course thumbnail](/images/ai-ml-college.webp)  AI & Machine Learning The mathematics and the code behind machine learning, taught together. Regression through neural networks, with projects on real datasets. View syllabus](/courses/ai-ml-college)[![Python Automation with AI course thumbnail](/images/python-automation-ai-college.webp)  Python Automation with AI Make the boring parts of a job disappear: spreadsheets, reports, files and emails handled by scripts you wrote yourself. View syllabus](/courses/python-ai-automation-college)[![Generative AI course thumbnail](/images/generative-ai-college.webp)  Generative AI How large language models work and how to build with them: prompting that holds up, APIs, retrieval and small end-to-end applications. View syllabus](/courses/gen-ai)[![Codex and Claude Code for Professionals course thumbnail](/images/codex-claude-code-adults.webp)  Codex & Claude Code for Professionals The AI coding agents course for working developers and determined career-switchers. Direct the tools, review their output, ship faster. View syllabus](/courses/codex-claude-code-adults)
 
+### International school exam prep
+
+AP, IGCSE and IB, alongside school
+
+Many Saudi families are at American, British and IB schools. These live courses prepare the specific exams those curricula set, taught to the current formats alongside the school year.
+
+[AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)[AP Statistics](/courses/ap-statistics-maths-exam-prep-course)[AP Precalculus](/courses/ap-precalculus-exam-prep-course)[IGCSE Maths](/courses/igcse-mathematics-mastery)[IB Maths](/courses/ib-mathematics-aa-ai-masterclass)
+
 Across the Kingdom
 
 ## Where our Saudi students join from

@@ -27,6 +27,14 @@ Where hobby code turns into ability[![Python for Teens course thumbnail](/images
 
 Evening study that survives a working week[![Python Mastery course thumbnail](/images/python-college.webp)  Python Mastery For adults who need Python whole, not in fragments: the core language through object-oriented design, closing with a set of finished programs you can show. View syllabus](/courses/python-mastery-college)[![AI and Machine Learning course thumbnail](/images/ai-ml-college.webp)  AI & Machine Learning A working adult's route into machine learning: real datasets, models you train yourself, and enough theory to judge when a result deserves trust. View syllabus](/courses/ai-ml-college)[![Generative AI course thumbnail](/images/generative-ai-college.webp)  Generative AI Large language models from the builder's side of the counter: calling them from code, grounding them with retrieval, and finishing with compact applications that actually run. View syllabus](/courses/gen-ai)
 
+### International school exam prep
+
+AP, IGCSE and IB, alongside school
+
+Many Riyadh families are at American, British and IB schools. These live courses prepare the specific exams those curricula set, taught to the current formats alongside the school year.
+
+[AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)[AP Statistics](/courses/ap-statistics-maths-exam-prep-course)[AP Precalculus](/courses/ap-precalculus-exam-prep-course)[IGCSE Maths](/courses/igcse-mathematics-mastery)[IB Maths](/courses/ib-mathematics-aa-ai-masterclass)
+
 Local context
 
 ## Learning to code in the middle of Riyadh's decade

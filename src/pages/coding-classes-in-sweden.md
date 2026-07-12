@@ -1,5 +1,5 @@
 ---
-title: "Online Coding & AI Classes in Sweden · Stockholm · Göteborg · Malmö · Lgr 22 to KTH-ready — Modern Age Coders"
+title: "Online Coding & AI Classes in Sweden | Stockholm"
 description: "Live 1:1 online coding, Python, AI & agentic-AI mentorship for Swedish students. Aligned with Lgr 22 programming strand, Gymnasium Teknikprogrammet and the algorithmic depth KTH, Chalmers, Lund and Uppsala expect. Mentors on CET. USD 100 (≈ SEK 1,050) per month. Boka en gratis demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-sweden
 keywords: ["coding classes Sweden", "online coding classes Sweden", "programmeringskurs online Sverige", "kodning för barn Stockholm", "Python tutor Stockholm", "Python kurs online", "coding classes Göteborg", "coding classes Malmö", "coding classes Uppsala", "coding classes Lund", "coding classes Linköping", "coding classes Västerås"]
@@ -287,49 +287,49 @@ Mentor writes a 4-line note to the parent: what was covered, how the student fel
 
 > "Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-SSShradha SarafParent of MivaanReal shipped projects · real Swedish students
+SSShradha SarafParent of MivaanReal shipped student projects
 
-## Six things our Swedish students built this year.
+## Real apps our students built — live, public, and yours to open.
 
-Names abbreviated to protect minors. Each project deployed publicly during normal class hours.
+Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
 
-Astrid B. · 15 · Stockholm (Vasastan)
+Built by Bhavya · AI & ML
 
-### Gymnasieprov RAG study agent
+### NutriLife — AI Nutrition Coach
 
-Astrid indexed her Matematik 3c and Programmering 1 notes into a Python RAG agent that quizzes her in Swedish or English. Her teacher asked her to demo it to the class.
+Snap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI.
 
-PythonRAGOpenAIChromaFastAPILinus J. · 13 · Göteborg (Majorna)
+Vibe CodingAI VisionReactLovable[Open the live project ↗](https://nutrilife-bhavya.lovable.app)Built by Kritika · Game
 
-### SL / Västtrafik delay predictor
+### Baby — Typing Speed Challenge
 
-Pulls open transit data from Västtrafik, predicts which tram from Majorna to school will be late tomorrow morning. Now used by his whole klassrum.
+An engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.
 
-Pythonpandasscikit-learnGitHub PagesSofia & Mikael · 11 & 13 · Malmö (Limhamn)
+JavaScriptNode.jsMongoDB[Open the live project ↗](https://baby.modernagecoders.com)Built by Isha · Web App
 
-### Family chores Next.js app
+### Moxo — Company Landing Page
 
-Two siblings shipped a real Next.js web app to track family chores. Their parents demoed it at a Malmö startup-house meetup. Real auth, real DB.
+A stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.
 
-TypeScriptNext.jsSupabaseTailwindHugo W. · 17 · Lund (Östra)
+JavaScriptGSAPParallax[Open the live project ↗](https://moxo.modernagecoders.com)Built by Harshit · AI & ML
 
-### Gymnasium-arbete capstone — algorithm visualiser
+### Misti — AI Chatbot for Maths & Coding
 
-A web app animating Dijkstra, BFS, DFS, A* and Floyd-Warshall on user-drawn graphs. Used by his Programmering 2 class. Submitted as his gymnasiearbete.
+An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.
 
-TypeScriptReactD3ViteVercelMaja K. · 16 · Uppsala
+PythonAI/MLLLM APIs[Open the live project ↗](https://misti.modernagecoders.com)Built by Yashaswi · Game
 
-### Studiebot — Swedish-language chatbot
+### Simon Game
 
-A Streamlit chatbot trained on her Samhällskunskap textbook chapters. Answers her questions in Swedish, cites the page. Picked up by two friends.
+A fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge — brain-boosting for kids learning logic and focus.
 
-PythonClaude APIStreamlitChromaHenrik N. · adult learner · Linköping
+HTMLCSSJavaScript[Open the live project ↗](http://yashaswi-2017.my.canva.site)Built by Somraj · Tool
 
-### Internal Saab compliance agent
+### Image Slider Website
 
-An agentic-AI compliance assistant Henrik shipped at his Linköping employer. Saves the team several hours per week on report drafting. Worth every krona.
+A visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects.
 
-PythonLangGraphClaudePostgreSQLDockerHonest commitments
+HTMLCSSJavaScript[Open the live project ↗](https://robo23middle-stack.github.io/scenes/)Honest commitments
 
 ## What we'll always do — and what we'll never do.
 

@@ -1,5 +1,5 @@
 ---
-title: "Online Coding & AI Classes in Australia · ATAR · HSC · VCE · Group of Eight ready — Modern Age Coders"
+title: "Online Coding & AI Classes in Australia | ATAR Ready"
 description: "Live 1:1 online coding, Python, AI & agentic-AI mentorship for Aussie students. Aligned with NSW HSC, VIC VCE, QLD QCE, WA WACE, SA SACE, TAS TCE, ACT, NT — plus the Australian Curriculum Digital Technologies. U of Melbourne, U of Sydney, ANU, UNSW, Monash, UQ ready. USD 100 (≈ AUD 152) a month."
 canonical: https://learn.modernagecoders.com/coding-classes-in-australia
 keywords: ["coding classes Australia", "online coding classes Australia", "coding classes Sydney", "coding classes Melbourne", "coding classes Brisbane", "coding classes Perth", "coding classes Adelaide", "coding classes Canberra", "Python tutor Sydney", "Python tutor Melbourne", "AI course Australia", "agentic AI Australia"]
@@ -27,7 +27,11 @@ See your state's pathway4.9/5Average parent & learner rating · 547 reviews8 sta
 
 Click a card to open the course page, or hit "Book a free trial" and a mentor matches your student to the right one.
 
-[View all courses](/courses)[Most popular  Years 1 – 6 Coding for Kids Scratch → real Python by month three. Build games, drawing apps, friendly AI projects. ScratchPythonGamesAI intro  AUD152/ mo · 1:1 Enroll](/courses/coding/kids)[ATAR · Year 11/12  Years 7 – 12 Coding for Teens Python, JavaScript, web apps. HSC / VCE / QCE / WACE / SACE / TCE aligned + AIO coaching. PythonJSWebAIOATAR  AUD152/ mo · 1:1 Enroll](/courses/coding/teens)[New · AI  Years 7 – 12 AI & Agentic-AI Build real LLM apps the way Atlassian, Canva, SafetyCulture and CSIRO Data61 actually ship. PythonOpenAIClaudeAgentsRAG  AUD152/ mo · 1:1 Enroll](/ai-ml-course-for-teens)[Group of Eight  University prep Top-tier CS admissions Melbourne · Sydney · ANU · UNSW · Monash · UQ · UWA · Adelaide CS / engineering ready. AlgorithmsAIO CampSystem designPortfolio  AUD152/ mo · 1:1 Enroll](/courses/coding/college)[Career switch  Adults · 22 – 65 For Professionals Mid-career switch into software, data & AI roles at Atlassian, Canva, REA, Seek, SafetyCulture, NAB, Westpac, CBA. PythonTypeScriptCloudAI eng  AUD152/ mo · 1:1 Enroll](/courses/coding/college)[Girls in STEM  Ages 8 – 22 Special For Girls Same curriculum, all-female mentor pairing, role models from Aussie tech (Canva, Atlassian, CSIRO). PythonWebAIMentorship  AUD152/ mo · 1:1 Enroll](/courses/coding/girls)[Schools & teams  Cohorts Customised & Schools For Aussie schools (independent, public, Catholic), school clusters and companies. Cohorts of 6–30, tailored to your state framework. CohortCustomReportsMentor team  AUD61/ seat · group Talk to us](/courses/coding/corporate)[Free · join  All ages Monthly Hackathons Free monthly coding & AI hackathons for Aussie kids, teens and adults. Real prizes. Real shipped work. FreeLiveMonthlyPrizes  Free· no card Join next one](/courses)Every state. Every exam system.
+[View all courses](/courses)[Most popular  Years 1 – 6 Coding for Kids Scratch → real Python by month three. Build games, drawing apps, friendly AI projects. ScratchPythonGamesAI intro  AUD152/ mo · 1:1 Enroll](/courses/coding/kids)[ATAR · Year 11/12  Years 7 – 12 Coding for Teens Python, JavaScript, web apps. HSC / VCE / QCE / WACE / SACE / TCE aligned + AIO coaching. PythonJSWebAIOATAR  AUD152/ mo · 1:1 Enroll](/courses/coding/teens)[New · AI  Years 7 – 12 AI & Agentic-AI Build real LLM apps the way Atlassian, Canva, SafetyCulture and CSIRO Data61 actually ship. PythonOpenAIClaudeAgentsRAG  AUD152/ mo · 1:1 Enroll](/ai-ml-course-for-teens)[Group of Eight  University prep Top-tier CS admissions Melbourne · Sydney · ANU · UNSW · Monash · UQ · UWA · Adelaide CS / engineering ready. AlgorithmsAIO CampSystem designPortfolio  AUD152/ mo · 1:1 Enroll](/courses/coding/college)[Career switch  Adults · 22 – 65 For Professionals Mid-career switch into software, data & AI roles at Atlassian, Canva, REA, Seek, SafetyCulture, NAB, Westpac, CBA. PythonTypeScriptCloudAI eng  AUD152/ mo · 1:1 Enroll](/courses/coding/college)[Girls in STEM  Ages 8 – 22 Special For Girls Same curriculum, all-female mentor pairing, role models from Aussie tech (Canva, Atlassian, CSIRO). PythonWebAIMentorship  AUD152/ mo · 1:1 Enroll](/courses/coding/girls)[Schools & teams  Cohorts Customised & Schools For Aussie schools (independent, public, Catholic), school clusters and companies. Cohorts of 6–30, tailored to your state framework. CohortCustomReportsMentor team  AUD61/ seat · group Talk to us](/courses/coding/corporate)[Free · join  All ages Monthly Hackathons Free monthly coding & AI hackathons for Aussie kids, teens and adults. Real prizes. Real shipped work. FreeLiveMonthlyPrizes  Free· no card Join next one](/courses)
+
+International schools across Australia run American (AP), British (IGCSE and A-Level) and IB curricula. These live courses prepare those exams directly.
+
+[AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)[AP Statistics](/courses/ap-statistics-maths-exam-prep-course)[IGCSE Maths](/courses/igcse-mathematics-mastery)[A-Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics)[IB Maths](/courses/ib-mathematics-aa-ai-masterclass)Every state. Every exam system.
 
 ## We map to your state's senior secondary computing exam.
 
@@ -225,49 +229,49 @@ Modern LLM patterns: prompting, retrieval, tool-calling agents, evals, deploymen
 
 > "Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
 
-SMSamridho MondalStudentReal shipped projects · real Aussie students
+SMSamridho MondalStudentReal shipped student projects
 
-## Six things our Australian students built with us this year.
+## Real apps our students built — live, public, and yours to open.
 
-Names abbreviated. Each project deployed publicly during normal class hours.
+Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
 
-Liam C. · Year 11 · Sydney (Mosman)
+Built by Harshit · AI & ML
 
-### HSC Software Design RAG study agent
+### Misti — AI Chatbot for Maths & Coding
 
-Indexed every HSC Software Design & Development past paper since 2018 into a Python RAG agent that quizzes him in HSC-style language. His teacher now recommends it to the year level.
+An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.
 
-PythonRAGOpenAIFastAPIMia K. · Year 12 · Melbourne (Kew)
+PythonAI/MLLLM APIs[Open the live project ↗](https://misti.modernagecoders.com)Built by Modern Age Coders · Game
 
-### VCE Algorithmics graph-visualiser
+### The Beautiful Mind
 
-Mia's VCE Algorithmics SAT — an interactive web app animating Dijkstra, A* and DP on user-drawn graphs. Submitted with her Year-12 exam folio. Now used by her cohort.
+A scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards.
 
-TypeScriptReactD3ViteVercelEthan B. · Year 5 · Brisbane (Bulimba)
+ReactFirebaseJavaScriptGame Logic[Open the live project ↗](https://mind.modernagecoders.com)Built by Bhavya · AI & ML
 
-### NRL fantasy-team Python tool
+### NutriLife — AI Nutrition Coach
 
-Pulls live NRL stats and recommends fantasy-team lineups. His dad has won the office league three weeks running and Ethan thinks he's now a "professional Python developer".
+Snap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI.
 
-PythonpandasmatplotlibPriya R. · Year 12 · Perth (Subiaco)
+Vibe CodingAI VisionReactLovable[Open the live project ↗](https://nutrilife-bhavya.lovable.app)Built by Isha · Web App
 
-### WACE Applied IT capstone — AI revision app
+### Moxo — Company Landing Page
 
-A Streamlit chatbot trained on Priya's biology and chemistry notes. Cites her own pages. Submitted as her WACE Applied IT major project. Predicted high distinction.
+A stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.
 
-PythonClaude APIStreamlitChromaJack & Lucy · Years 4 & 6 · Adelaide (Norwood)
+JavaScriptGSAPParallax[Open the live project ↗](https://moxo.modernagecoders.com)Built by Anika · AI & ML
 
-### Family chore-tracker Next.js app
+### BookDesk — AI Book Summaries & Quizzes
 
-Two siblings shipped a real Next.js web app to manage the household chores rota. Their school's IT teacher demoed it at assembly.
+Type in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion.
 
-TypeScriptNext.jsSupabaseTailwindNadia M. · adult learner · Canberra
+Gemini AIFull-StackDatabaseQuiz Gen[Open the live project ↗](https://bookdesk1.netlify.app)Built by Krish · Web App
 
-### Internal compliance agent (Aussie defence-tech)
+### SkyCast — Weather Forecast App
 
-Nadia shipped an agentic-AI compliance assistant at her Canberra defence-tech employer. Saves the team hours each week and helped her move into an AI engineer role.
+An interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.
 
-PythonLangGraphClaudePostgreSQLMeet the mentor team
+JavaScriptAPIHTML/CSS[Open the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)Meet the mentor team
 
 ## Working engineers, AIO veterans and Go8 alumni.
 
@@ -740,62 +744,6 @@ No. Bootcamps compress 12 weeks of intense, transactional study aiming at a job.
 "Will my Year-11 student keep up with HSC / VCE during all this?"
 
 Yes — and usually they pull ahead. Most Year-11 / 12 students who join us see their school-based assessment marks rise because we directly cover the curriculum they'll be tested on, with a real mentor 1:1. We coordinate around exam fortnight and major-project deadlines.
-
-Australian family stories
-
-## Real outcomes from real Aussie homes — not stock photos, not testimonials we paid for.
-
-Six families across NSW, VIC, QLD, WA and SA share what changed in the first six months. Names abbreviated for privacy; we have written permission from every parent to share these stories.
-
-Aanya, Year 8 · Castle Hill NSW
-
-### From Roblox player to Roblox *builder* in one term.
-
-Aanya joined in February with zero coding experience, spending 4+ hours a day in Roblox. By April she had published a working obstacle-course game on Roblox Studio with Lua scripting, ten paying friends and a Term-2 entry into the NSW Premier's Coding Challenge. Her selective-school exam English mark also went up — her mum credits the "structured thinking" the coding sessions built.
-
-Mentor: Aditya · Track: Lua → Python → web · 16 sessions · Parent confidence score 9/10
-
-Liam, Year 11 · Brighton VIC
-
-### VCE Algorithmics SAC mark rose from 62 % to 89 %.
-
-Liam was doing fine in VCE Software Development but bombing the Algorithmics extension SACs because the graph theory and dynamic-programming questions felt "from another planet." A retired Monash CS lecturer worked with him weekly for ten weeks — by his end-of-year SAC, his school told his mum his answers "looked like third-year university work."
-
-Mentor: Dr Beena · Track: VCE Algorithmics + competitive programming · 32 sessions · ATAR uplift estimate +3.2
-
-Mia & Ruby, Years 4 & 6 · Toowong QLD
-
-### Two sisters, same time slot, completely different tracks.
-
-The parents wanted to enrol both sisters at once for logistical reasons but the girls have very different temperaments. Mia (Year 4) does Scratch game design Wednesdays with a mentor who specialises in younger learners; Ruby (Year 6) does Python + micro:bit Thursdays with a different mentor focused on her STEM-school entry exam. Different tracks, same household, same monthly bill.
-
-Mentors: Priya & Karan · 2 separate tracks · 12 weeks · Both girls retained into Term 4
-
-Jasper, Year 10 · Subiaco WA
-
-### Built an actual app his school now uses.
-
-Jasper's school librarian was struggling with a paper-based book-return system. Over six weeks with his mentor, Jasper built a real React + Supabase web app that barcode-scans returned books and emails overdue notices. The school is still using it in production a year later. He's now applying to UWA Computer Science for early entry.
-
-Mentor: Sourav · Track: React + Supabase + project-based · 24 sessions · WACE Computer Science A1
-
-Eliza, Year 6 · Norwood SA
-
-### Got into the Australian Informatics Olympiad shortlist as a primary-schooler.
-
-Eliza's parents weren't pushing for olympiads — they just wanted "something more challenging than the school after-school club." Her mentor noticed strong logical-thinking patterns within four sessions and shifted her track toward AIO prep. She sat the AIO in Year 6 and placed in the top 12 % nationally — extraordinarily rare for that age. She's now the only Year-7 student at her school doing IB Computer Science enrichment.
-
-Mentor: Vikrant · Track: AIO + Python algorithms · 18 sessions · National AIO percentile 88
-
-Robert, 54 · Newtown NSW (adult learner)
-
-### Career pivot from engineering management to AI product role.
-
-Robert's a chemical engineer with 28 years in operations who was made redundant in 2025. He didn't want a 4-year CS degree — he wanted a working portfolio in 9 months. Mentor Suresh built him a custom track: Python → SQL → LangChain agents → a real internal-tool agent he shipped to a friend's logistics company. Three months after starting he was offered an "AI Strategy Lead" role at a Sydney consultancy. Adult learners get the same mentor quality as students.
-
-Mentor: Suresh · Track: Python → SQL → LangChain · 38 sessions · Hired into AI Strategy role at AUD 165 k
-
-We have hundreds more stories. We don't publish photos or full surnames of minors — that's a hard rule. But we are happy to put you in touch (with permission) with one Aussie parent in your state before you commit. Just ask the mentor on your callback.
 
 Last word
 

@@ -27,6 +27,14 @@ The years when practice starts to compound[![Python for Teens course thumbnail](
 
 For degrees, day jobs and career changes[![Python Mastery course thumbnail](/images/python-college.webp)  Python Mastery The whole language for adults who want it thorough rather than quick: syntax, object-oriented structure, libraries, and a shelf of finished programs by the end. View syllabus](/courses/python-mastery-college)[![Python Automation with AI course thumbnail](/images/python-automation-ai-college.webp)  Python Automation with AI Point scripts at the tedious half of office life. Reports assemble themselves, files sort themselves, spreadsheets reconcile themselves, and you take the credit. View syllabus](/courses/python-ai-automation-college)[![Codex and Claude Code for Professionals course thumbnail](/images/codex-claude-code-adults.webp)  Codex & Claude Code for Professionals Working with AI coding agents the way modern teams do: writing the brief, reviewing the output line by line, and shipping code you can stand behind. View syllabus](/courses/codex-claude-code-adults)
 
+### International school exam prep
+
+AP, IGCSE and IB, alongside school
+
+Many Jeddah families are at American, British and IB schools. These live courses prepare the specific exams those curricula set, taught to the current formats alongside the school year.
+
+[AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)[AP Statistics](/courses/ap-statistics-maths-exam-prep-course)[AP Precalculus](/courses/ap-precalculus-exam-prep-course)[IGCSE Maths](/courses/igcse-mathematics-mastery)[IB Maths](/courses/ib-mathematics-aa-ai-masterclass)
+
 Why here, why now
 
 ## An old trading city meets a new trade

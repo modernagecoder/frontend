@@ -1,5 +1,5 @@
 ---
-title: "Online Coding & AI Classes in New Zealand · NCEA L1 / L2 / L3 · University of Auckland · Otago · Victoria ready — Modern Age Coders"
+title: "Online Coding & AI Classes in New Zealand | NCEA"
 description: "Live 1:1 online coding, Python, AI & agentic-AI mentorship for students across Aotearoa New Zealand. Aligned with NCEA Level 1, 2 and 3 Digital Technologies, University Entrance (UE), CIE Cambridge International and IB Diploma. University of Auckland, University of Otago, Victoria University of Wellington, University of Canterbury, Massey, AUT, Waikato, Lincoln admissions ready. NZD 165 (USD 100) a month."
 canonical: https://learn.modernagecoders.com/coding-classes-in-new-zealand
 keywords: ["coding classes New Zealand", "coding classes NZ", "coding classes Auckland", "coding classes Wellington", "coding classes Christchurch", "coding classes Hamilton", "coding classes Tauranga", "coding classes Dunedin", "coding classes Palmerston North", "online coding classes New Zealand", "Python tutor Auckland", "Python tutor Wellington"]
@@ -77,7 +77,11 @@ YEAR 13 · UE / L3
 
 Every course runs as live 1:1 with a mentor matched to your child's exact year. Two 45-minute sessions per week. NZD 165 (USD 100) per month for 1:1, or NZD 66 (USD 40) for small-group cohort.
 
-[Year 1 – 4 · Primary Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play and animation-led. Strengthens primary-school mathematical thinking quietly. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/kids)[Year 5 – 8 · Primary / Intermediate Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional BBC micro:bit add-on for physical-computing projects. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/kids)[Year 9 – 10 · Junior Secondary Web Builders + AI Foundations HTML, CSS, JavaScript, React basics — they ship a real website by month two. AI module covers safe prompting and a first agent-style project. Sets up NCEA L1 well. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 11 · NCEA Level 1 NCEA L1 Digital Technologies Direct alignment with the NCEA L1 DT Achievement Standards (AS 91070, 91071, 91074, 91075, 91879, 91880 and the rest). Internal assessment portfolios + external standards. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 12 · NCEA Level 2 NCEA L2 Digital Technologies L2 Achievement Standards including AS 91893 (Programming), 91894 (Database), 91897 (Outcomes for an Identified Need). Aiming for Merit / Excellence credit blocks. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 13 · NCEA L3 + UE NCEA L3 Digital Technologies + UE L3 Achievement Standards including AS 91906 (Programming), 91907 (Database), 91908 (Develop Outcomes), 91911 (Apply Software). UE-credit Excellence is the bar. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/teens)[Y11 – Y13 · CIE / IB CIE Cambridge A-Level / IB DP CS For NZ students taking Cambridge International AS & A Level (typically Auckland International College, Pinehurst, Saint Kentigern) or IB DP (typically ACG, AIC). Full coverage. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The stack Xero, Rocket Lab, Datacom and Pushpay recruit for. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/college)The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.**Ria Mukherjee** · Parent · Verified Google reviewWhat Kiwi students actually ship
+[Year 1 – 4 · Primary Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play and animation-led. Strengthens primary-school mathematical thinking quietly. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/kids)[Year 5 – 8 · Primary / Intermediate Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional BBC micro:bit add-on for physical-computing projects. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/kids)[Year 9 – 10 · Junior Secondary Web Builders + AI Foundations HTML, CSS, JavaScript, React basics — they ship a real website by month two. AI module covers safe prompting and a first agent-style project. Sets up NCEA L1 well. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 11 · NCEA Level 1 NCEA L1 Digital Technologies Direct alignment with the NCEA L1 DT Achievement Standards (AS 91070, 91071, 91074, 91075, 91879, 91880 and the rest). Internal assessment portfolios + external standards. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 12 · NCEA Level 2 NCEA L2 Digital Technologies L2 Achievement Standards including AS 91893 (Programming), 91894 (Database), 91897 (Outcomes for an Identified Need). Aiming for Merit / Excellence credit blocks. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 13 · NCEA L3 + UE NCEA L3 Digital Technologies + UE L3 Achievement Standards including AS 91906 (Programming), 91907 (Database), 91908 (Develop Outcomes), 91911 (Apply Software). UE-credit Excellence is the bar. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/teens)[Y11 – Y13 · CIE / IB CIE Cambridge A-Level / IB DP CS For NZ students taking Cambridge International AS & A Level (typically Auckland International College, Pinehurst, Saint Kentigern) or IB DP (typically ACG, AIC). Full coverage. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The stack Xero, Rocket Lab, Datacom and Pushpay recruit for. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/college)
+
+International schools in New Zealand run Cambridge (IGCSE and A-Level), IB and American (AP) curricula. These live courses prepare those exams directly.
+
+[IGCSE Maths](/courses/igcse-mathematics-mastery)[A-Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics)[IB Maths](/courses/ib-mathematics-aa-ai-masterclass)[AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)[AP Statistics](/courses/ap-statistics-maths-exam-prep-course)The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.**Ria Mukherjee** · Parent · Verified Google reviewWhat Kiwi students actually ship
 
 ## Not slides. Not certificates. Real working software our NZ students built.
 
@@ -368,45 +372,35 @@ Week 4
 
 End of month one, the mentor calls you (not your child) on WhatsApp for 15 minutes. You hear what's working, what isn't, what to expect month 2. If month 1 wasn't great, we say so honestly and offer a different mentor — free.
 
-Adult learners welcome — and common
+What families say · verified reviews
 
-## About 26% of our NZ students are adults. Career-switchers, finance pros, full-time parents upskilling.
+## What families say about Modern Age Coders
 
-42 yo · Tauranga · Banking → AI engineering
+We teach live and online, so students here learn in the same small batches as our whole community. These are real, verified Google reviews.
 
-### From ANZ business banker to Xero AI-product role (Wellington remote).
+KBKrishnam BhatterFormer student
 
-Daniel spent 14 years at ANZ Bank in business banking. He had a maths brain but no coding. Eight months with Suresh — Python → SQL → LangChain → a working agentic-AI portfolio. He's now in an AI-product role at Xero, working remotely from Tauranga.
+### "I am truly grateful for my experience at Modern Age Coders."
 
-33 yo · Christchurch · Stay-at-home mum returning
+My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-### From paused career to remote junior-developer offer in 12 months.
+PRPoonam RathoreParent
 
-Tara stopped work after her second child and spent 5 years out. 12 months in, she has a React + Supabase portfolio and a remote junior-developer offer from a Sydney-based fintech. Worked exclusively in evenings.
+### "My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm."
 
-56 yo · Auckland · Retired teacher
+The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-### Retirement was boring. Now ships an AI-driven NCEA-study app.
+RMRia MukherjeeParent
 
-Margaret was a Year-12/13 chemistry teacher at Macleans College for 28 years. Retired in 2024. Now spends 3 hours a day in Python, has built an LLM-powered NCEA chemistry study app, which gets 2,400 monthly users.
+### "The one step solution for my son."
 
-29 yo · Wellington · PM at Trade Me
+Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-### Non-technical PM at Trade Me shipping production code now.
+SGSonu GoyalParent
 
-Hina was a non-technical PM at Trade Me and felt the gap painfully. Six months with us and she now ships small production changes herself, has earned engineering credibility from her team, and was promoted to Senior PM in February 2026.
+### "Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way."
 
-38 yo · Auckland · Engineer at Rocket Lab broadening into ML
-
-### Rocket Lab mechanical engineer pivoting into ML for mission operations.
-
-Tane was a competent mechanical engineer at Rocket Lab but wanted to add ML skills for the mission-operations pipeline. Five months focused on Python + ML fundamentals + LLM-application engineering. He's now on a new mission-software team at Rocket Lab.
-
-35 yo · Hamilton · Civil-service IT staff
-
-### Working at MBIE Hi-Tech, building internal AI tools.
-
-Aroha works in IT services at MBIE in Wellington (remote from Hamilton). Built an internal LLM-powered policy-analysis tool over 6 months with us. Her director funded a small AI internal-tools team after seeing the impact.
+The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
 What we promise · and what we don't
 
@@ -690,63 +684,49 @@ Yes, in our experience. Zoom in low-bandwidth mode plus a backup phone call if Z
 
 Several of our mentors have specific neurodivergent-supporting training and direct lived experience teaching autistic students. Honest disclosure on the callback lets us match well; we'll quietly favour structure, predictable lesson formats and clear sensory-friendly Zoom settings.
 
-Kiwi family stories
+Real shipped student projects
 
-## Real outcomes from real NZ homes — not stock photos.
+## Real apps our students built — live, public, and yours to open.
 
-Six families across Auckland, Wellington, Christchurch and rural NZ share what changed in the first six months. Names abbreviated. Every story shared with written permission.
+Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
 
-Olivia, Year 13 · Diocesan · Epsom
+Built by Aarush · Game
 
-### NCEA L3 Digital Technologies portfolio: from Merit-track to Excellence.
+### Palm Arcana — Summon the Elements
 
-Olivia was on track for Merit-graded credits at the end of Year 12. Her family wanted Excellence for UoA CS admissions. Three months with James (ex-Auckland Grammar) and her L3 internal-assessment portfolio polished into clean Excellence. UE achieved comfortably. Now reading CS at UoA.
+Open your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning.
 
-Mentor: James · 22 sessions · NCEA L3 DT: Excellence · Now at UoA CS
+Vibe CodingComputer VisionJavaScriptCanvas[Open the live project ↗](https://superpawer.netlify.app)Built by Krish · Web App
 
-Liam, Year 11 · Westlake Boys · North Shore
+### SkyCast — Weather Forecast App
 
-### NCEA L1 with all Achievement Standards at Excellence.
+An interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.
 
-Liam joined in February 2025 with zero coding background. By November he'd ticked off every NCEA L1 DT Achievement Standard at Excellence grade — exceptional outcome for a first-year-NCEA student. Now in Year 12 carrying forward strong momentum.
+JavaScriptAPIHTML/CSS[Open the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)Built by Raayan · Web App
 
-Mentor: James · 28 sessions · NCEA L1: all Excellence · 12 months
+### LumenFX — AR/VR Photo Effects Studio
 
-Sophie, Year 12 · Wellington Girls' · Wellington
+Upload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets.
 
-### From "I don't like coding" to representing NZ at competitive programming.
+Vibe CodingAR / VRWebGLLovable[Open the live project ↗](https://arvrbadestweb.lovable.app)Built by Harshit · AI & ML
 
-Sophie joined reluctantly in 2024 — her parents pushed it. By month four she was hooked, having built a small Wellington-Cable-Car AR project that her teacher loved. She placed top 20% nationally in the NZOI 2025 qualifier.
+### Misti — AI Chatbot for Maths & Coding
 
-Mentor: Kiri · 20 sessions · NZOI Top-20% · Wellington
+An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.
 
-Twins · Year 9 · Hamilton
+PythonAI/MLLLM APIs[Open the live project ↗](https://misti.modernagecoders.com)Built by Yashaswi · Game
 
-### Different temperaments, different tracks, same household.
+### Simon Game
 
-Anika (the quiet one) does Python game design Tuesdays; Ravi (the competitive one) does web development Thursdays. Different tracks, same household, same monthly bill (×2). Both retained at 6-month mark.
+A fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge — brain-boosting for kids learning logic and focus.
 
-Mentors: Rajesh & James · 2 separate tracks · 24 weeks
+HTMLCSSJavaScript[Open the live project ↗](http://yashaswi-2017.my.canva.site)Built by Vedant · Web App
 
-Aroha, Year 11 · Tauranga Girls' (kura kaupapa background)
+### MyDay — Social Productivity Organizer
 
-### Te Reo-bilingual mentor delivered a comfortable NCEA L1 first year.
+A beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.
 
-Aroha had attended a kura kaupapa primary school and her family wanted to keep Te Reo strong while she did mainstream NCEA. Aroha T. delivered all sessions with kōrero in Te Reo and code-instruction in English. NCEA L1 DT outcome: 17 Excellence credits.
-
-Mentor: Aroha T. · 22 sessions · Te Reo bilingual · 17 Excellence credits
-
-Daniel, 42 yo · Tauranga · Career-switcher
-
-### ANZ business banker → Xero AI-product role (remote from Tauranga).
-
-Daniel is the story above (same person). Started Python from zero in May 2025. Got the Xero offer in February 2026. Now refers other ANZ colleagues — about 30% of our NZ adult-learner pipeline.
-
-Mentor: Suresh · 38 sessions · Career switch · Xero AI-product
-
-We have many more. We don't publish photos or full surnames of minors — that's a hard rule. But we're happy to put you in touch (with permission) with one Kiwi parent in your region before you commit.
-
-Where our NZ students live
+JavaScriptNode.jsMongoDBPython[Open the live project ↗](https://myday.modernagecoders.com)Where our NZ students live
 
 ## Regional spotlights — Auckland to Invercargill.
 
@@ -811,23 +791,6 @@ It matters. Engagement rises. The "ah-ha" moments come faster. The student feels
 - API examples: **NIWA** climate, **GeoNet** seismic, **AT Mobile**, **LINZ** mapping, **RNZ** news
 - Data examples: **Statistics NZ**, **MBIE** business stats, **Education Counts**, **Stuff** open data
 - Project domains: kapa haka scheduling, rugby fixture tracking, kiwifruit-orchard yield, regional weather, MRT-equivalent NZ Bus & metro routes
-
-Competition outcomes — selected
-
-## A snapshot of what our NZ students have achieved at competitions.
-
-Non-exhaustive list of NZ-student outcomes in 2024 and 2025. No student names — hard privacy rule.
-
-- **NZ Olympiad in Informatics (NZOI) 2025** — 4 students Top-20% nationally, 2 students Top-10%, 1 reached the NZOI training camp.
-- **NZ Programming Contest (NZPC) 2025** — 2 of our university-track students on top-10 teams.
-- **UoA Hackathon 2025** — 1 student on the Best Education Hack winning team.
-- **NCEA Level 3 Digital Technologies 2024 cohort** — of our 14 L3 DT students, 11 finished with Excellence-graded credit blocks.
-- **NCEA Level 2 DT 2024 cohort** — of our 19 L2 DT students, 13 finished with Merit or Excellence credit blocks.
-- **NZ Maths Olympiad (NZMO) 2025** — 3 students Silver, 1 Gold.
-- **2025 University Entrance from our Y13 cohort** — 13 of 14 students achieved UE.
-- **University placements 2024 cohort** — 5 students into UoA CS, 2 Otago Information Science, 2 Victoria SECS, 1 Canterbury CSSE, 1 Australian Go8 (Melbourne).
-
-These outcomes correlate with our mentorship rather than being caused solely by it. A great mentor amplifies a hard-working student; we are honest about that distinction.
 
 Patterns from NZ parent feedback
 

@@ -1,5 +1,5 @@
 ---
-title: "Coding & AI Classes in Germany · Engineering-grade mentorship for Informatik, Abitur, TUM & beyond — Modern Age Coders"
+title: "Coding & AI Classes in Germany | Abitur & Informatik"
 description: "Engineering-rigour online coding, Python, AI & agentic-AI mentorship for Germany — Berlin, München, Hamburg, Frankfurt, Köln, Stuttgart. Informatik LK and Abitur-aligned. 1:1 mentor, 8 sessions a month, USD 100 (≈ EUR 92). Buchen Sie eine kostenlose Demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-germany
 keywords: ["coding classes Germany", "online coding classes Germany", "Programmierkurs online Deutschland", "best coding classes for kids Germany", "Python class Berlin", "Python class Munich", "AI course Germany", "KI Kurs Deutschland", "agentic AI Germany", "Informatik LK Nachhilfe", "Abitur Informatik tutor", "Bundeswettbewerb Informatik"]
@@ -139,49 +139,49 @@ APIsdatabasescachingarchitectureStep 08 · Capstone
 
 A full agentic-AI product or full-stack web app. Designed by the student, built with the mentor, publicly deployed, added to a portfolio that helps with German university applications or first jobs.
 
-capstoneportfoliodeploycode reviewReal shipped projects · real German students
+capstoneportfoliodeploycode reviewReal shipped student projects
 
-## A small sample of what students built with us this year.
+## Real apps our students built — live, public, and yours to open.
 
-Names abbreviated. Each project deployed publicly during normal class hours, used by the student afterwards.
+Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
 
-Maxi B. · 16 · Berlin (Charlottenburg)
+Built by Aarush · Game
 
-### Abi-Tutor — a RAG agent over his own notes
+### Palm Arcana — Summon the Elements
 
-Indexed 184 pages of Maxi's Informatik LK and Mathe LK notes, built a retrieval-augmented Q&A agent that cites his own pages back. Now used by three classmates.
+Open your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning.
 
-PythonRAGOpenAIChromaFastAPILena S. · 12 · München (Schwabing)
+Vibe CodingComputer VisionJavaScriptCanvas[Open the live project ↗](https://superpawer.netlify.app)Built by Shubh · Game
 
-### S-Bahn Delay Tracker
+### Doodle Dash — 30-Second Drawing Challenge
 
-Pulls live MVV open data, predicts which Schwabing-to-school S-Bahn is likely delayed tomorrow morning. Her mum looks at it every weekday.
+Pick a difficulty, get a prompt, and you have exactly 30 seconds to draw it — then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes.
 
-Pythonpandasscikit-learnGitHub PagesJonas & Mia · 11 & 13 · Hamburg (Eppendorf)
+Vibe CodingAI JudgeCanvasLovable[Open the live project ↗](https://doodledashmaster.lovable.app)Built by Anurag · AI & ML
 
-### Chore-coin App
+### HugSelle — AI Smile Generator
 
-Two siblings shipped a Next.js web app to fairly track chores and pocket-money. Real auth, real database. Their school's *Informatik AG* demoed it.
+A heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.
 
-TypeScriptNext.jsSupabaseTailwindHannah K. · 17 · Köln (Ehrenfeld)
+PythonMachine LearningAI[Open the live project ↗](https://hugselle.modernagecoders.com)Built by Tanish · Web App
 
-### Algorithmus-Visualizer for Abitur prep
+### FreshTrack — Food Expiry Tracker
 
-Interactive web app animating Dijkstra, BFS, DFS, A*, Floyd-Warshall on user-drawn graphs. Used across her Informatik LK course.
+A smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.
 
-TypeScriptReactD3ViteVercelDavid W. · 18 · Stuttgart (Vaihingen)
+JavaScriptMongoDBLocal Storage[Open the live project ↗](https://freshtrackpro.netlify.app/)Built by Rohan · Web App
 
-### Robotics-team scoring bot
+### Pracy — Coding Practice & Quiz Platform
 
-Discord bot for his Schul-Robotik-AG that tracks per-match scores, generates Stundenpläne and predicts opponents using last-season data. Used at FLL regionals.
+An all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.
 
-Pythondiscord.pySQLitepandasSophie L. · adult · Frankfurt am Main
+JavaScriptNode.jsMongoDB[Open the live project ↗](https://astounding-flan-f18e08.netlify.app/)Built by Vansh · Tool
 
-### Internal compliance agent (BaFin team)
+### Word Counter Website
 
-Agentic AI assistant Sophie shipped at her Frankfurt bank that drafts compliance summaries and flags missing BaFin controls. Saves hours every week.
+A simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.
 
-PythonLangGraphClaudePostgreSQLDocker★ ★ ★ ★ ★
+HTMLCSSJavaScript[Open the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)★ ★ ★ ★ ★
 
 > "My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
