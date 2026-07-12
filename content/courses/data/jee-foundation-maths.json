@@ -1,0 +1,591 @@
+{
+  "meta": {
+    "slug": "jee-foundation-maths-course-class-8-10",
+    "title": "JEE Foundation Maths for Class 8-10: Depth, Proofs and Problem Solving",
+    "description": "JEE foundation maths course for Class 8-10: NCERT-aligned depth, geometry proof skills, olympiad-style problem solving and timed MCQ practice in live batches.",
+    "keywords": [
+      "jee foundation course class 8",
+      "jee foundation maths class 9",
+      "foundation course for class 10 maths",
+      "iit foundation classes online",
+      "maths foundation course for jee",
+      "olympiad maths classes for school students",
+      "ntse style mcq practice maths",
+      "online foundation maths coaching india"
+    ],
+    "category": "Foundation Mathematics",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "12 months (48 weeks)",
+    "level": "Class 8 to 10 students, batched by class",
+    "commitment": "2 live classes/week + 3-4 hours of problem sets",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "jee-foundation-maths.png"
+  },
+  "program_overview": {
+    "title": "JEE Foundation Maths for Class 8-10",
+    "tagline": "Class 11 physics and maths punish shaky algebra. This course is where the algebra stops being shaky.",
+    "description": "Most students who struggle in JEE preparation do not struggle with Class 11 topics; they struggle with Class 8 to 10 topics that were never made solid. Fractions handled nervously, identities half-remembered, geometry never actually proved. A foundation course exists to fix that before it costs anything, and this one does it honestly: no rank promises, no 'future IITian' theatre, just the school syllabus taught deeper than school goes, plus the problem-solving habits that entrance exams eventually demand.\n\nThe 12-month plan runs in four phases. First, numbers and algebra at real depth: divisibility and remainders, exponents and surds, identities and factorisation, equations and inequalities. Second, geometry as a proof discipline, congruence, similarity, circles, because writing a correct proof is the closest a school student comes to real mathematical thinking. Third, mensuration, introductory trigonometry and coordinate geometry, the toolkit chapters. Fourth, the part school never teaches: problem-solving heuristics, olympiad-style questions, and a full timed MCQ phase in the style of NTSE-type talent exams and entrance papers, with error logs and review clinics.\n\nContent is NCERT-aligned and batched by class, so a Class 8 student and a Class 10 student meet the same ideas at different depths. School marks tend to improve as a side effect; the actual product is a student who reaches Class 11 with nothing to repair."
+    ,
+    "what_makes_this_different": [
+      "NCERT-aligned but deeper: every chapter is taken past the textbook stopping point, into the why and the harder problem forms",
+      "Proof skills taught deliberately: given, to prove, construction, proof, drilled until writing a geometry argument feels normal",
+      "A genuine problem-solving phase: heuristics like working backwards, small cases and clean diagrams, practised on olympiad-style questions",
+      "A full timed MCQ phase with error logs: elimination, option testing and time budgeting, the craft entrance exams actually test",
+      "Honest positioning: this is foundation, not JEE coaching, and we say plainly that nobody can promise selections or ranks",
+      "Batched by class: Class 8, 9 and 10 groups meet the same arc at the right depth, so nobody is drowned or bored"
+    ],
+    "learning_path": {
+      "phase_1": "Numbers and algebra at depth: divisibility and remainders, exponents and surds, identities, factorisation, equations and inequalities",
+      "phase_2": "Geometry as a proof discipline: angles, congruence, similarity, quadrilaterals and circle theorems, with proof writing drilled throughout",
+      "phase_3": "The toolkit chapters: mensuration in 2D and 3D, introductory trigonometry with heights and distances, and coordinate geometry",
+      "phase_4": "Problem-solving heuristics and olympiad-style questions, then a timed MCQ and mock phase with error clinics and a readiness review"
+    },
+    "career_outcomes": [
+      "Algebra and geometry solid enough that Class 11 maths builds on them instead of exposing them",
+      "The ability to write a correct mathematical proof, which most students first meet far too late",
+      "MCQ craft under timing: elimination, option testing and pacing, with a personal error log as evidence",
+      "Experience with olympiad-style problems, so unfamiliar questions become interesting rather than frightening",
+      "A documented mock series showing exactly where the student stands before Class 11 begins"
+    ]
+  },
+  "phase_1_numbers_and_algebra": {
+    "title": "PHASE 1: Numbers and Algebra at Depth (Months 1-3, Weeks 1-12)",
+    "description": "The chapters every entrance exam quietly assumes: number theory basics, exponents and surds, identities, factorisation, and equations, taken well past the textbook stopping point.",
+    "month_1_number_systems": {
+      "title": "Month 1: Number Systems, Properly",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: The Number Line, End to End",
+        "topics": [
+          "Diagnostic paper: arithmetic, fractions, basic algebra and geometry from earlier classes",
+          "Integers, rationals and irrationals, and how to prove a number belongs where it does",
+          "Decimal expansions: terminating, recurring, and converting recurring decimals to fractions",
+          "Representing surds on the number line",
+          "Density: finding rationals and irrationals between any two numbers",
+          "Comparing numbers cleverly: without calculators, by squaring or bounding"
+        ],
+        "projects": [
+          "Number-line dossier: one page classifying 20 assorted numbers with a one-line justification each"
+        ],
+        "practice": "30 classification and conversion problems, including 5 recurring-decimal conversions written out in full"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Divisibility and Remainders",
+        "topics": [
+          "Divisibility rules for 2 through 11, proved rather than just stated",
+          "Primes, composites and prime factorisation as the master tool",
+          "HCF and LCM: computation, the product relationship, and word problems",
+          "Remainder thinking: what is left when powers are divided, kept concrete",
+          "Digit problems: unit digits of large powers, digit sums",
+          "First olympiad-style flavour: divisibility puzzles with small numbers"
+        ],
+        "projects": [
+          "Divisibility rule proof sheet: the rules for 3, 9 and 11 explained in the student's own words with examples"
+        ],
+        "practice": "25 divisibility and HCF-LCM problems plus 5 unit-digit puzzles, hardest two attempted before class discussion",
+        "assessment": "Month 1 test: a 25-mark paper on number systems mixing standard questions with two puzzle-style problems"
+      }
+    },
+    "month_2_exponents_identities": {
+      "title": "Month 2: Exponents, Surds and Identities",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Exponents and Surds",
+        "topics": [
+          "Laws of exponents for integer and rational powers, with the proofs sketched",
+          "Negative and fractional exponents handled without fear",
+          "Surds: simplifying, adding, and rationalising denominators including two-term denominators",
+          "Comparing surds and exponential expressions by clever bounding",
+          "Scientific notation and orders of magnitude",
+          "Exam forms: simplify-this-monster questions and how to dismantle them"
+        ],
+        "projects": [
+          "Simplification gauntlet: 10 layered exponent-surd expressions reduced step by step, each step justified"
+        ],
+        "practice": "35 exponent and surd problems including 8 rationalisations and 5 comparison questions without a calculator"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Identities and Factorisation",
+        "topics": [
+          "The square and cube identities, derived, visualised, and drilled",
+          "Sum and difference of cubes, and the three-variable identity for a cubed sum",
+          "Factorisation strategy: common factors, grouping, splitting the middle term, identities",
+          "The remainder theorem and factor theorem, introduced with numeric checks",
+          "Evaluating expressions cleverly: 99 squared, 101 cubed via identities",
+          "Identity-based olympiad-style problems: finding values without finding variables"
+        ],
+        "projects": [
+          "Identity map: every identity in the phase on one sheet with a numeric example and one exam use each"
+        ],
+        "practice": "30 factorisations across all five strategies plus 8 evaluate-cleverly problems, strategy named before each",
+        "assessment": "Month 2 test: a 30-mark paper on exponents, surds and identities including two multi-step simplifications"
+      }
+    },
+    "month_3_equations": {
+      "title": "Month 3: Equations and Inequalities",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Linear Equations and Systems",
+        "topics": [
+          "Linear equations in one variable, including fractional and bracketed forms",
+          "Word-problem craft: translating ages, digits, mixtures and motion into equations",
+          "Pairs of linear equations: substitution and elimination done cleanly",
+          "Consistency: when systems have one, many or no solutions, seen graphically",
+          "Parameter questions: for what value of k does the system break",
+          "Checking solutions as a habit, not an afterthought"
+        ],
+        "projects": [
+          "Translation drill sheet: 12 word problems converted to equations before any are solved"
+        ],
+        "practice": "25 equations and systems plus 8 word problems, with the check step written for every answer"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Inequalities and a First Look at Quadratics",
+        "topics": [
+          "Linear inequalities: solving, representing on the number line, and the sign-flip rule proved",
+          "Compound conditions: and versus or, read carefully",
+          "Quadratic equations by factorisation: the bridge from identities to solving",
+          "The idea of a discriminant, previewed for the Class 10 batch",
+          "Absolute value as distance, kept geometric and gentle",
+          "Phase consolidation: mixed algebra sets that do not announce their chapter"
+        ],
+        "projects": [
+          "Personal error log opened: every phase 1 test miss classified as concept, method or slip, used all year"
+        ],
+        "practice": "20 inequalities and 15 factorisation-solved quadratics, plus one mixed set of 15 unannounced problems",
+        "assessment": "Phase 1 milestone: a 40-mark numbers-and-algebra paper, one third of it in MCQ format as a preview of phase 4"
+      }
+    }
+  },
+  "phase_2_geometry_and_proof": {
+    "title": "PHASE 2: Geometry as a Proof Discipline (Months 4-6, Weeks 13-24)",
+    "description": "Geometry is where students first learn what mathematical certainty means. Congruence, similarity, quadrilaterals and circles, with proof writing drilled from the first week.",
+    "month_4_angles_and_congruence": {
+      "title": "Month 4: Angles, Triangles and Congruence",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Lines, Angles and What a Proof Is",
+        "topics": [
+          "Angles on a line, vertically opposite angles, and angles with parallel lines",
+          "The triangle angle-sum result and exterior angle theorem, proved",
+          "What a proof is: statements, reasons, and why 'it looks true' is not enough",
+          "The four-part format: given, to prove, construction, proof",
+          "Angle chasing: finding unknown angles in layered figures",
+          "Drawing honest figures: large, labelled, and not misleadingly special"
+        ],
+        "projects": [
+          "First proof portfolio entries: angle-sum and exterior-angle proofs written in full four-part format"
+        ],
+        "practice": "20 angle-chasing figures of rising difficulty plus 2 proofs, every figure redrawn by hand before solving"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Congruence",
+        "topics": [
+          "Congruence criteria: SAS, ASA, AAS, SSS and RHS, and why AAA fails",
+          "Choosing the right criterion: reading the figure for what is actually given",
+          "Isosceles triangle results, proved both directions",
+          "Inequalities in a triangle: bigger side, bigger angle, and the triangle inequality",
+          "Multi-step congruence proofs: proving parts equal via congruent triangles",
+          "Common proof errors: assuming the conclusion, circular reasoning, unstated steps"
+        ],
+        "projects": [
+          "Criterion sorting sheet: 12 figures matched to their congruence criterion with the given parts marked"
+        ],
+        "practice": "15 congruence problems including 5 full proofs, each proof peer-checked against the four-part format",
+        "assessment": "Month 4 test: a 25-mark geometry paper with two full proofs marked strictly on structure and justification"
+      }
+    },
+    "month_5_similarity_and_quadrilaterals": {
+      "title": "Month 5: Similarity, Pythagoras and Quadrilaterals",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Similarity and Pythagoras",
+        "topics": [
+          "Similar triangles: the AA, SSS and SAS similarity criteria",
+          "The basic proportionality theorem and its converse",
+          "How similarity scales lengths and areas differently, seen with numbers first",
+          "The Pythagoras theorem proved by similarity, and its converse",
+          "Applications: heights via shadows, distances across rivers, ladders and slopes",
+          "Pythagorean triples and spotting them fast in MCQs"
+        ],
+        "projects": [
+          "Proof portfolio extended: BPT and the similarity proof of Pythagoras written in full"
+        ],
+        "practice": "20 similarity and Pythagoras problems including 3 proofs and 5 real-setting applications"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Quadrilaterals and the Midpoint Theorem",
+        "topics": [
+          "The parallelogram theorems: sides, angles and diagonals, proved and reversed",
+          "Tests for a parallelogram: which minimal facts force the shape",
+          "Rectangle, rhombus and square as parallelograms with extra conditions",
+          "The midpoint theorem and its converse, with applications",
+          "Multi-step figures: midpoints inside triangles inside parallelograms",
+          "Proof strategy: what to construct when the figure refuses to yield"
+        ],
+        "projects": [
+          "Quadrilateral family tree: the shapes and the exact conditions separating them, made by the student"
+        ],
+        "practice": "18 quadrilateral problems including 4 proofs, plus 5 midpoint-theorem applications",
+        "assessment": "Month 5 test: a 25-mark paper on similarity and quadrilaterals with two proofs and one construction-strategy question"
+      }
+    },
+    "month_6_circles": {
+      "title": "Month 6: Circles and the Geometry Workshop",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Circle Theorems",
+        "topics": [
+          "Chords: equal chords, distances from the centre, the perpendicular from the centre",
+          "The central angle theorem: the angle at the centre doubles the angle at the arc",
+          "Angles in the same segment, and the angle in a semicircle",
+          "Cyclic quadrilaterals and their opposite angles",
+          "Tangents: perpendicularity to the radius and equal tangents from an external point",
+          "Angle chasing in circle figures, the entrance-exam favourite"
+        ],
+        "projects": [
+          "Circle theorem atlas: every theorem drawn, stated and proved or justified on the student's own pages"
+        ],
+        "practice": "20 circle problems from single-theorem to three-theorem figures, plus 2 full proofs"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: The Geometry Problem Workshop",
+        "topics": [
+          "Hard multi-step figures mixing congruence, similarity, quadrilaterals and circles",
+          "Auxiliary constructions: when and what to draw, taught as a decision, not magic",
+          "Working backwards from what must be proved",
+          "Olympiad-style geometry: problems where the figure is the puzzle",
+          "Timed geometry MCQs: answering from the figure without full proofs",
+          "Phase review: the proof portfolio completed and audited"
+        ],
+        "projects": [
+          "Workshop set: 6 multi-step geometry problems solved with the construction decision written out for each"
+        ],
+        "practice": "One timed 15-question geometry MCQ set plus 4 workshop problems, error log updated with figure-reading misses",
+        "assessment": "Phase 2 milestone: a 40-mark geometry paper, half proofs and half timed MCQs, with a one-on-one proof review"
+      }
+    }
+  },
+  "phase_3_toolkit_chapters": {
+    "title": "PHASE 3: Mensuration, Trigonometry and Coordinates (Months 7-9, Weeks 25-36)",
+    "description": "The toolkit chapters every entrance exam draws on: 2D and 3D mensuration, introductory trigonometry with heights and distances, and coordinate geometry.",
+    "month_7_mensuration": {
+      "title": "Month 7: Mensuration in Two and Three Dimensions",
+      "weeks": "Weeks 25-28",
+      "week_25_26": {
+        "title": "Weeks 25-26: Areas in the Plane",
+        "topics": [
+          "Areas of triangles: half base times height, and Heron's formula for when heights hide",
+          "Areas of parallelograms, trapeziums and rhombuses, derived not memorised",
+          "Circles, sectors and segments, with arc lengths",
+          "Composite figures: decomposing shaded regions cleanly",
+          "Same base, same parallels: area relationships without any measuring",
+          "Estimation checks: is that area plausible for that figure"
+        ],
+        "projects": [
+          "Decomposition sheet: 8 shaded-region problems with the cut lines drawn and named before any formula is used"
+        ],
+        "practice": "22 area problems including 5 Heron applications and 5 composite figures, decomposition stated in one line each"
+      },
+      "week_27_28": {
+        "title": "Weeks 27-28: Solids and Scaling",
+        "topics": [
+          "Surface areas and volumes: cube, cuboid, cylinder, cone, sphere, hemisphere",
+          "Combined solids and which surfaces vanish at the joins",
+          "Melting and recasting problems: volume as the conserved quantity",
+          "Scaling laws: double the length, four times the area, eight times the volume",
+          "Unit discipline across centimetres, metres and litres",
+          "MCQ forms: ratio-based mensuration questions solved without computing either quantity"
+        ],
+        "projects": [
+          "Scaling experiment write-up: one solid scaled by 2 and by 3, with areas and volumes tabulated and the pattern stated"
+        ],
+        "practice": "18 solid problems including 4 recasting and 4 ratio questions, units checked on every line",
+        "assessment": "Month 7 test: a 25-mark mensuration paper mixing computation, ratio reasoning and one composite figure"
+      }
+    },
+    "month_8_trigonometry": {
+      "title": "Month 8: Introductory Trigonometry",
+      "weeks": "Weeks 29-32",
+      "week_29_30": {
+        "title": "Weeks 29-30: Ratios and Identities",
+        "topics": [
+          "The six trigonometric ratios in a right triangle and the naming logic",
+          "Exact values at 0, 30, 45, 60 and 90 degrees, rebuilt from two triangles rather than memorised",
+          "Finding all ratios from one, with Pythagoras doing the work",
+          "The fundamental identity and its rearrangements",
+          "Proving simple identities with a fixed strategy list",
+          "Ratio MCQs at speed: value questions in under a minute"
+        ],
+        "projects": [
+          "Two-triangle derivation page: the 30-60-90 and 45-45-90 triangles built and every standard value read off them"
+        ],
+        "practice": "30 ratio evaluations and 6 identity proofs, plus one 10-question timed MCQ set on values"
+      },
+      "week_31_32": {
+        "title": "Weeks 31-32: Heights and Distances",
+        "topics": [
+          "Angles of elevation and depression on honest, labelled figures",
+          "Single-triangle problems: towers, poles, kites and slopes",
+          "Two-triangle problems: two observation points and moving observers",
+          "Choosing the ratio that solves in one step",
+          "Rounding sensibly and sanity-checking against the figure",
+          "Where trigonometry goes in Class 11: a preview, not a syllabus"
+        ],
+        "projects": [
+          "Figure-first set: 8 heights and distances problems where the marked figure is drawn and approved before solving"
+        ],
+        "practice": "15 heights and distances problems including 4 two-triangle setups, every figure labelled with the given angle",
+        "assessment": "Month 8 test: a 25-mark trigonometry paper of ratios, identities and applications, one third MCQ"
+      }
+    },
+    "month_9_coordinate_geometry": {
+      "title": "Month 9: Coordinate Geometry",
+      "weeks": "Weeks 33-36",
+      "week_33_34": {
+        "title": "Weeks 33-34: The Plane and Its Formulas",
+        "topics": [
+          "The Cartesian plane: plotting, quadrants and reading coordinates fluently",
+          "The distance formula from Pythagoras, derived and drilled",
+          "Classifying triangles and quadrilaterals by computed distances",
+          "The section formula and midpoints, with internal division problems",
+          "Ratios from coordinates: where the axes cut a segment",
+          "Sketch-first habit: every coordinate problem starts with a drawing"
+        ],
+        "projects": [
+          "Coordinate gallery: 6 figures plotted, classified and verified by distances, presented on graph paper"
+        ],
+        "practice": "25 distance and section formula problems, each with a labelled sketch, plus 5 classification questions"
+      },
+      "week_35_36": {
+        "title": "Weeks 35-36: Lines and Coordinate Problem Solving",
+        "topics": [
+          "Slope as steepness: computing it and reading it from a sketch",
+          "Parallel and perpendicular slopes, kept concrete",
+          "Collinearity by slope and by distance, two roads to one answer",
+          "Coordinate proofs: choosing axes cleverly to make geometry easy",
+          "Mixed coordinate MCQs under time",
+          "Phase review: the toolkit chapters consolidated onto revision sheets"
+        ],
+        "projects": [
+          "Coordinate proof piece: one classical geometry fact proved by placing coordinates well, written up in full"
+        ],
+        "practice": "20 slope and collinearity problems plus one timed 12-question coordinate MCQ set, error log updated",
+        "assessment": "Phase 3 milestone: a 40-mark paper across mensuration, trigonometry and coordinates, half MCQ, fully reviewed"
+      }
+    }
+  },
+  "phase_4_problem_solving_and_mcq": {
+    "title": "PHASE 4: Problem Solving and the MCQ Phase (Months 10-12, Weeks 37-48)",
+    "description": "The part school never teaches: heuristics for unfamiliar problems, olympiad-style questions, then a full timed MCQ and mock phase in the style of NTSE-type talent exams and entrance papers.",
+    "month_10_problem_solving": {
+      "title": "Month 10: How Hard Problems Are Actually Solved",
+      "weeks": "Weeks 37-40",
+      "week_37_38": {
+        "title": "Weeks 37-38: The Heuristics",
+        "topics": [
+          "Understand, plan, execute, check: the honest version of problem solving",
+          "Trying small cases and looking for the pattern that survives",
+          "Working backwards from what is asked",
+          "Drawing the right diagram, and redrawing when it misleads",
+          "Parity and simple invariants: what cannot change no matter the moves",
+          "Olympiad-style number and algebra problems using the heuristics, difficulty honest but humane"
+        ],
+        "projects": [
+          "Solution journal opened: every hard problem written up with the heuristic used and the dead ends kept, not erased"
+        ],
+        "practice": "8 problems for the week, chosen to need different heuristics; write-ups matter more than answer counts"
+      },
+      "week_39_40": {
+        "title": "Weeks 39-40: Counting and Logical Structure",
+        "topics": [
+          "Systematic listing: counting without missing and without double-counting",
+          "The multiplication principle and simple arrangements",
+          "Combinations kept concrete: choosing teams and handshakes",
+          "The pigeonhole principle through puzzles",
+          "Logic puzzles: knights, liars and truth tables lite",
+          "Where these ideas reappear: Class 11 permutations and combinations, and reasoning sections of talent exams"
+        ],
+        "projects": [
+          "Counting problem set write-up: 5 counting problems solved twice, once by listing and once by principle, results reconciled"
+        ],
+        "practice": "12 counting and logic problems with full write-ups in the solution journal",
+        "assessment": "Month 10 checkpoint: a 20-mark problem-solving paper where method write-ups earn marks alongside answers"
+      }
+    },
+    "month_11_mcq_craft": {
+      "title": "Month 11: MCQ Craft Under Time",
+      "weeks": "Weeks 41-44",
+      "week_41_42": {
+        "title": "Weeks 41-42: The Craft of the Multiple Choice Question",
+        "topics": [
+          "How MCQ setters build wrong options, and what that tells the solver",
+          "Elimination: discarding options by sign, size, units or parity",
+          "Option testing: substituting answers back instead of solving forwards",
+          "Special values: choosing convenient numbers for variable-heavy questions",
+          "Estimation as a weapon: bounding the answer before computing it",
+          "When to solve honestly: questions where shortcuts are traps"
+        ],
+        "projects": [
+          "Technique tally: 30 MCQs solved with the technique noted per question, then tallied to see each student's habits"
+        ],
+        "practice": "Three 15-question topic-wise MCQ sets under time, error log updated with technique choices, not just misses"
+      },
+      "week_43_44": {
+        "title": "Weeks 43-44: Sectional Timing and the Error Log",
+        "topics": [
+          "Time budgeting: marks per minute and the discipline of moving on",
+          "Sectional MCQ sets across algebra, geometry, mensuration, trigonometry and coordinates",
+          "The two-pass strategy: bank the easy questions first",
+          "Guessing policy: when unanswered beats wrong, and reading the paper's rules",
+          "Error log analytics: which topic, which technique, which minute of the section",
+          "Building each student's personal weak-topic drill plan for the mock month"
+        ],
+        "projects": [
+          "Error log analysis report: the student's own two-page summary of their MCQ patterns going into the mocks"
+        ],
+        "practice": "Four timed sectional sets across the fortnight, each reviewed the same week, drill plan agreed with the teacher",
+        "assessment": "Month 11 checkpoint: one full-length topic-mixed MCQ paper under exam timing, fully debriefed"
+      }
+    },
+    "month_12_mock_phase": {
+      "title": "Month 12: Mocks and the Readiness Review",
+      "weeks": "Weeks 45-48",
+      "week_45_46": {
+        "title": "Weeks 45-46: The Mock Series",
+        "topics": [
+          "Full-length foundation mocks in the style of NTSE-type talent exams and entrance papers",
+          "Exam-day routine rehearsed: instructions, bubbling, rough-work discipline",
+          "Review clinic after every mock: every miss classified and assigned a fix",
+          "Score movement read honestly: trends matter, single papers do not",
+          "Targeted drills between mocks from each student's plan",
+          "Stamina: holding accuracy in the last quarter of a long paper"
+        ],
+        "projects": [
+          "Mock file: each paper filed with its marked script, error classification and one-line fix per miss"
+        ],
+        "practice": "One additional mock at home under honest timing, self-marked and brought to the review clinic"
+      },
+      "week_47_48": {
+        "title": "Weeks 47-48: Final Mocks and the Road to Class 11",
+        "topics": [
+          "Two final mocks under strict conditions, spaced for recovery",
+          "The readiness map: every topic rated from the year's evidence, no vibes",
+          "The solution journal and proof portfolio reviewed as a body of work",
+          "What Class 11 changes: pace, abstraction, and how this foundation meets it",
+          "Keeping the edge: a weekly problem habit for the months after the course",
+          "Course close: one-on-one review with each family"
+        ],
+        "projects": [
+          "Personal readiness map: topic-by-topic strengths and fixes, built from the error log and mock file",
+          "Completed solution journal: a year of hard problems with the student's own write-ups"
+        ],
+        "practice": "Light targeted drills only, set individually from the final error log",
+        "assessment": "Course milestone: final full-length mock and readiness review with the family, plus certificate review"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A proof portfolio: every major theorem of the course written in full four-part format",
+      "A solution journal: hard problems written up with heuristics and honest dead ends",
+      "A personal error log maintained from phase 1 and analysed before the mock phase",
+      "The identity map and circle theorem atlas, built by the student",
+      "A coordinate proof piece: classical geometry proved by clever axis placement",
+      "A scaling experiment write-up connecting length, area and volume",
+      "The technique tally and error log analysis report from the MCQ phase",
+      "A mock file with marked scripts and a final topic-by-topic readiness map"
+    ],
+    "total_projects_built": "A year-long body of work: proof portfolio, solution journal, error log, mock file and readiness map",
+    "skills_mastered": [
+      "Number theory basics: divisibility, primes, HCF-LCM and remainder thinking",
+      "Algebra at depth: exponents, surds, identities, factorisation, equations and inequalities",
+      "Proof writing across congruence, similarity, quadrilaterals and circle theorems",
+      "Mensuration, introductory trigonometry and coordinate geometry to entrance-exam standard",
+      "Problem-solving heuristics: small cases, working backwards, invariants and clean diagrams",
+      "Timed MCQ craft: elimination, option testing, time budgeting and error-log-driven improvement"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week; mock sittings in month 12 run longer for full papers",
+      "practice": "3-4 hours weekly of problem sets, proofs and journal write-ups between classes",
+      "review": "Problem sets marked with written feedback; proofs and journal entries reviewed line by line each month"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, alongside the student's readiness map and mock file"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with worked solutions for stuck problems",
+      "progress_updates": "Monthly progress notes to parents with test scores, error-log trends and the current readiness picture"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "Comfortable with the previous class's school maths. The week 1 diagnostic finds the gaps and the early weeks patch them",
+    "class": "Class 8, 9 or 10. Batches are separated by class so depth and pace fit the student",
+    "equipment": "The student's NCERT maths textbook, a geometry box, graph paper, notebooks, and a device with stable internet",
+    "mindset": "Willingness to write solutions out in full. This course grades reasoning, not just answers"
+  },
+  "who_is_this_for": {
+    "future_jee_aspirants": "Students in Class 8 to 10 who intend to attempt JEE or similar entrances and want the base built before Class 11 raises the stakes",
+    "strong_students_underfed": "Students who find school maths easy and are bored, and need harder problems rather than more of the same",
+    "proof_never_taught": "Students who can compute but have never been taught to prove, which is most students",
+    "mcq_first_timers": "Students who have only ever written school papers and need timed MCQ craft before any talent or entrance exam",
+    "families_avoiding_hype": "Parents who want serious foundation work without rank promises and future-topper theatre"
+  },
+  "career_paths_after_completion": [
+    "Class 11 maths in the science stream, entered with algebra and geometry that do not need repair",
+    "Formal JEE preparation from Class 11, with the foundation layer already done",
+    "Olympiad tracks such as IOQM for students who discover they enjoy the hard problems",
+    "School exams along the way: the depth here makes board-level questions feel routine",
+    "Our data science and programming courses, where the same structured thinking transfers directly"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "What exactly is a foundation course? Is this JEE coaching for a 13-year-old?",
+      "answer": "No, and be wary of anything that says otherwise. JEE tests Class 11 and 12 material; no Class 8 student should be solving JEE papers. A foundation course strengthens the Class 8 to 10 layer that JEE preparation later stands on: algebra done at depth, geometry actually proved, and the problem-solving and MCQ habits school never teaches. Students who arrive in Class 11 with that layer solid cope with the pace; students who arrive with gaps spend Class 11 repairing them."
+    },
+    {
+      "question": "Do you promise selection in JEE or any exam?",
+      "answer": "No. Nobody can honestly promise a selection or a rank, least of all three or four years out, and we think enrolling a 13-year-old on the back of such a promise is wrong. What we commit to is specific: the full curriculum taught at depth, marked work with written feedback, a proof portfolio and solution journal the student builds, a timed mock series, and honest monthly reporting on exactly where the student stands."
+    },
+    {
+      "question": "Is this course NTSE preparation? Is NTSE even happening?",
+      "answer": "We are careful here because many courses are not: NCERT suspended the National Talent Search Scheme, and the exam has not been conducted since the 2021-22 cycle, with the scheme stalled until further orders. There has been talk of a revamped revival, but nothing a family should plan around. We use NTSE-style papers in the mock phase because the format is excellent training, and if the exam returns our students will be ready for it, but nobody should enrol anywhere on the promise of an exam that is currently not running."
+    },
+    {
+      "question": "Which class is the right time to start, 8, 9 or 10?",
+      "answer": "Any of the three works, which is why batches are separated by class. Starting in Class 8 gives the most room: depth can build gradually with no exam pressure. Class 9 is the most common entry point and aligns well, since Class 9 NCERT is where proofs and harder algebra begin. Class 10 students run the same arc with board preparation happening in parallel, and the overlap actually helps, because the foundation depth makes board questions feel easy."
+    },
+    {
+      "question": "Will this clash with what school teaches?",
+      "answer": "No, because the course is NCERT-aligned by design. We teach the same chapters school does, in a compatible order, and go deeper rather than sideways: harder problem forms, the proofs behind the formulas, and extensions school skips for time. Most families find school marks improve as a side effect, since school papers sample the easier end of what students here practise weekly."
+    },
+    {
+      "question": "What are the olympiad-style problems? Is this an olympiad course?",
+      "answer": "It is not a dedicated olympiad course; serious olympiad preparation for exams like IOQM is its own track with its own syllabus. What we teach in month 10 is the thinking style olympiads reward: heuristics like small cases, working backwards and invariants, practised on genuinely unfamiliar problems at a humane difficulty. Students who light up during that phase get pointed, honestly, toward proper olympiad training as a next step."
+    },
+    {
+      "question": "How much homework should we expect?",
+      "answer": "Three to four hours a week: problem sets after each class, proof write-ups during the geometry phase, journal entries during the problem-solving phase, and timed papers in the final months. The write-ups are non-negotiable, because this course grades reasoning, not answer lists. It is a real commitment, and we would rather say so now than surprise you in month 2."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $100 per month for group classes and $150 per month for 1-on-1."
+    },
+    {
+      "question": "Can we try a class before enrolling?",
+      "answer": "Yes, the first demo class is free and carries no obligation. Book it at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. The demo includes a short diagnostic, after which the teacher will tell you plainly whether the student is ready for this course or better served by our school maths courses first."
+    }
+  ]
+}
