@@ -1,0 +1,562 @@
+{
+  "meta": {
+    "slug": "gre-gmat-quant-maths-prep-course",
+    "title": "GRE & GMAT Quantitative Prep: Live Maths Coaching",
+    "description": "Live online GRE and GMAT quantitative maths prep for adults: arithmetic, algebra, word problems, data interpretation, quantitative comparison and data sufficiency, taught to the current shorter GRE and GMAT Focus Edition formats.",
+    "keywords": [
+      "gre quant preparation online",
+      "gmat quantitative prep course",
+      "gre gmat maths coaching",
+      "gmat focus edition quant course",
+      "gre quantitative reasoning class",
+      "data sufficiency preparation",
+      "quantitative comparison gre",
+      "gre gmat maths online india"
+    ],
+    "category": "Graduate Exam Mathematics",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "6 months (24 weeks)",
+    "level": "Adults preparing for graduate admissions; school maths is refreshed from the ground up",
+    "commitment": "2 live classes/week + 4-5 hours practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "gre-gmat-quant-maths.png"
+  },
+  "program_overview": {
+    "title": "GRE & GMAT Quantitative Prep",
+    "tagline": "The quantitative sections of both tests are built on school maths done under time pressure with tricks laid deliberately in the way. This course rebuilds the maths and then trains the exam.",
+    "description": "The quantitative sections of the GRE and the GMAT do not test advanced mathematics. The GRE goes no higher than a second course in school algebra, and the GMAT Focus Edition covers arithmetic, algebra and statistics with no plane geometry at all. What makes them hard is that they test speed, careful reading and trap-awareness on maths most adults last touched years ago. This 6-month live course treats that honestly. The first two months rebuild the arithmetic and algebra foundation from the ground up, because a shaky foundation is where most lost marks actually come from. The middle two months cover the full content map of both exams: word problems, ratios and rates, exponents and roots, the geometry the GRE still tests, coordinate geometry, and the descriptive statistics both exams lean on. The final two months are pure exam craft: quantitative comparison for the GRE, data sufficiency and the GMAT Data Insights section, timing strategy, educated guessing, and full timed practice sets reviewed question by question.\n\nWe teach to the current formats, not the old ones. That means the shorter GRE introduced in September 2023, with its two quant sections of twelve and fifteen questions, and the GMAT Focus Edition with its three forty-five-minute sections and data sufficiency moved into Data Insights. A course still teaching the old GMAT with sentence correction and an in-quant data sufficiency block is a course teaching an exam that no longer exists.",
+    "what_makes_this_different": [
+      "Taught to the current exams: the shorter GRE (from September 2023) and the GMAT Focus Edition, including data sufficiency now living in the Data Insights section, not the quant section",
+      "Foundation rebuilt first: two full months of arithmetic and algebra before any exam tricks, because that is where most lost marks come from",
+      "One course for both tests: the shared arithmetic, algebra, word-problem and statistics core taught once, then the GRE-specific and GMAT-specific pieces taught separately and clearly labelled",
+      "Trap-awareness as a taught skill: the specific ways each exam sets bait, drilled until you see them coming",
+      "Timed from the middle of the course, not just at the end, so pace becomes a habit rather than a panic",
+      "Every full practice set reviewed question by question, with the focus on why the wrong answer was tempting"
+    ],
+    "learning_path": {
+      "phase_1": "Foundations rebuilt: number properties, fractions, decimals, percentages, ratios, exponents, roots and the algebra of equations and inequalities, all at exam speed",
+      "phase_2": "The full content map: word problems, rates and work, geometry for the GRE, coordinate geometry, and the descriptive statistics and data interpretation both exams test",
+      "phase_3": "Exam craft: quantitative comparison, data sufficiency, the GMAT Data Insights section, timing and guessing strategy, and repeated full timed practice with question-by-question review"
+    },
+    "career_outcomes": [
+      "Readiness for the quantitative section of whichever exam you are sitting, the GRE, the GMAT Focus Edition, or both",
+      "A rebuilt maths foundation that also serves the analytical demands of the graduate programme you are aiming for",
+      "Timing and trap-awareness habits that hold up under real exam pressure",
+      "The confidence that comes from having worked, and reviewed, many full timed sections before test day",
+      "A clear, honest picture of where your quant stands and what a realistic target looks like for your programme"
+    ]
+  },
+  "phase_1_foundations": {
+    "title": "PHASE 1: Rebuilding the Maths Foundation (Months 1-2, Weeks 1-8)",
+    "description": "The arithmetic and algebra both exams assume you already own, rebuilt from the ground up and drilled at exam speed, because this is where the majority of lost marks quietly come from.",
+    "month_1_arithmetic_and_number": {
+      "title": "Month 1: Arithmetic and Number Properties",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Diagnostic and the Number System",
+        "topics": [
+          "A full diagnostic to locate your real starting point, not your assumed one",
+          "How the current GRE and GMAT quant sections are actually built, question by question",
+          "Integers, factors, multiples and the properties that questions hinge on",
+          "Prime numbers, prime factorisation and why the exams love them",
+          "Even, odd, positive, negative: the rules that turn a hard question easy",
+          "Divisibility rules that save real seconds under time pressure"
+        ],
+        "projects": [
+          "Personal weakness map: your diagnostic broken down by topic into a ranked list of what to fix first"
+        ],
+        "practice": "20 number-property questions, timed loosely at first, with every mistake tagged by cause: knowledge, careless, or misread"
+      },
+      "week_2": {
+        "title": "Fractions, Decimals and Percentages",
+        "topics": [
+          "Fractions without a calculator: comparing, combining and simplifying at speed",
+          "Decimals and place value, and converting fluently between the three forms",
+          "Percentages, percentage change and the reversal trap that catches everyone",
+          "Successive percentage changes and why they do not simply add",
+          "Estimation as a real technique: when the exam wants an approximate answer",
+          "The on-screen GRE calculator and the GMAT Data Insights calculator: when they help and when they waste time"
+        ],
+        "projects": [
+          "Percentage trap set: ten deliberately baited percentage questions worked slowly, then reworked at speed"
+        ],
+        "practice": "24 fraction, decimal and percentage questions, half of them worded to hide which operation is needed"
+      },
+      "week_3": {
+        "title": "Ratios, Proportions and Rates",
+        "topics": [
+          "Ratios and how to scale them without losing the units",
+          "Proportions and direct and inverse variation",
+          "Rates: speed, work and price per unit, all as the same idea",
+          "Mixtures and blends, a favourite of both exams",
+          "Reading a multi-part ratio question without dropping a condition",
+          "The bridge from ratios to the word problems of month 3"
+        ],
+        "projects": [
+          "Rate reasoning: five real-world rate scenarios set up as equations before any number is plugged in"
+        ],
+        "practice": "20 ratio and rate questions, each one required to be set up in writing before it is solved"
+      },
+      "week_4": {
+        "title": "Exponents, Roots and Number Sense",
+        "topics": [
+          "Exponent rules until they are automatic, not looked up",
+          "Square roots, cube roots and simplifying surds",
+          "Scientific notation and handling very large and very small numbers",
+          "Absolute value and what it does to inequalities",
+          "Number-sense shortcuts: last-digit tricks, sign tricks, magnitude checks",
+          "Sanity-checking an answer in five seconds before you commit to it"
+        ],
+        "projects": [
+          "Shortcut library: your own one-page sheet of the number-sense checks that will not fit in a calculator"
+        ],
+        "practice": "22 exponent and root questions, with a sanity-check written next to each final answer",
+        "assessment": "Month 1 checkpoint: a timed arithmetic and number-properties set graded on accuracy and on whether the timing held"
+      }
+    },
+    "month_2_algebra_foundation": {
+      "title": "Month 2: The Algebra Foundation",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Expressions and Linear Equations",
+        "topics": [
+          "Algebraic expressions: simplifying, expanding and factoring cleanly",
+          "Solving linear equations and rearranging formulas under time",
+          "Translating words into equations, the single most valuable exam skill",
+          "Substitution and picking smart numbers to test answer choices",
+          "Working backwards from the answer options when it is faster",
+          "Common algebra traps and the misreads that trigger them"
+        ],
+        "projects": [
+          "Translation drill: fifteen word phrases each converted to an equation, the step where most marks are won or lost"
+        ],
+        "practice": "24 algebra questions solved twice each: once by direct algebra, once by testing the options, to learn which is faster when"
+      },
+      "week_6": {
+        "title": "Systems, Inequalities and Absolute Value",
+        "topics": [
+          "Systems of equations by substitution and elimination",
+          "Inequalities and the sign-flip rule that quietly loses marks",
+          "Compound inequalities and interval reasoning",
+          "Absolute value equations and inequalities",
+          "When a system has one solution, none, or infinitely many, and why the exam asks",
+          "Recognising a system hiding inside a word problem"
+        ],
+        "projects": [
+          "Two-variable challenge: a set of word problems that each resolve to a two-equation system, set up before solving"
+        ],
+        "practice": "20 systems and inequalities questions with the setup shown in full before any solving"
+      },
+      "week_7": {
+        "title": "Quadratics and Functions",
+        "topics": [
+          "Factoring quadratics and the common exam-friendly forms",
+          "The quadratic formula and completing the square, used sparingly and correctly",
+          "Functions and function notation without the fear",
+          "Reading a function defined by a rule or a table",
+          "Sequences: arithmetic and geometric, as the exams present them",
+          "Spotting the quadratic buried in a word problem"
+        ],
+        "projects": [
+          "Quadratic recognition: ten problems where the challenge is realising a quadratic is involved at all"
+        ],
+        "practice": "22 quadratics and functions questions, each opened by naming the structure before touching the algebra"
+      },
+      "week_8": {
+        "title": "Algebra Under Exam Pressure",
+        "topics": [
+          "Choosing between algebra, plugging in numbers, and testing options, deliberately",
+          "Algebraic word problems: age, mixture, work and money set up cleanly",
+          "Multi-step problems and keeping track without losing the thread",
+          "Where the two exams differ in how they dress algebra questions",
+          "Building a personal decision rule for which method to reach for",
+          "Timed algebra: getting the right answer inside the clock"
+        ],
+        "projects": [
+          "Method-choice audit: a mixed algebra set where you record which method you chose and whether it was the fastest available"
+        ],
+        "practice": "24 mixed algebra questions under a soft timer, reviewed for method choice as much as for the answer",
+        "assessment": "Month 2 checkpoint: a timed algebra section, marked on accuracy, timing and whether the fastest method was chosen"
+      }
+    }
+  },
+  "phase_2_full_content_map": {
+    "title": "PHASE 2: The Full Content Map of Both Exams (Months 3-4, Weeks 9-16)",
+    "description": "Word problems, the geometry the GRE still tests, coordinate geometry that the GMAT counts as algebra, and the descriptive statistics and data interpretation both exams rely on.",
+    "month_3_word_problems_and_geometry": {
+      "title": "Month 3: Word Problems and Geometry",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Word Problems That Actually Appear",
+        "topics": [
+          "Distance, rate and time, including two-traveller and round-trip variants",
+          "Work and combined-work problems set up without the classic error",
+          "Mixture, interest and profit-and-loss problems",
+          "Overlapping-sets problems and the two-way table that tames them",
+          "Age and consecutive-integer problems",
+          "A method for translating any dense word problem into a clean setup"
+        ],
+        "projects": [
+          "Word-problem playbook: your own labelled template for each of the six recurring problem types"
+        ],
+        "practice": "24 word problems spanning all six types, each set up in writing before it is solved"
+      },
+      "week_10": {
+        "title": "Geometry for the GRE: Lines, Angles and Triangles",
+        "topics": [
+          "Why this month matters for the GRE and not for the GMAT Focus quant section",
+          "Lines, angles and the parallel-line rules the exam reuses constantly",
+          "Triangles: properties, the Pythagorean theorem and the special right triangles",
+          "Similar and congruent triangles and the ratios they give you",
+          "Perimeter and area worked cleanly",
+          "The figure-not-to-scale warning and how the GRE uses it against you"
+        ],
+        "projects": [
+          "Triangle toolkit: a reference of every triangle fact the GRE reuses, drawn and annotated by you"
+        ],
+        "practice": "20 GRE-style geometry questions, GMAT-only students substituting an equivalent Data Insights set"
+      },
+      "week_11": {
+        "title": "Geometry for the GRE: Circles, Polygons and Solids",
+        "topics": [
+          "Circles: radius, diameter, circumference, area, arcs and sectors",
+          "Quadrilaterals and regular polygons and their angle sums",
+          "Three-dimensional solids: volume and surface area of boxes, cylinders and spheres",
+          "Inscribed and combined figures, a favourite GRE construction",
+          "Estimating from a figure when exact computation is slow",
+          "Knowing which formulas to memorise and which to reconstruct"
+        ],
+        "projects": [
+          "Formula sheet, earned: build the geometry formula reference yourself, which is how it actually sticks"
+        ],
+        "practice": "20 circle, polygon and solid questions, each with a labelled diagram drawn before solving"
+      },
+      "week_12": {
+        "title": "Coordinate Geometry",
+        "topics": [
+          "The coordinate plane, distance and midpoint",
+          "Slope and the equation of a line in its several forms",
+          "Parallel and perpendicular lines by their slopes",
+          "Why the GMAT Focus Edition counts coordinate geometry as algebra and still tests it",
+          "Intersections, and reading a graph the exam gives you",
+          "Reflections and simple transformations on the plane"
+        ],
+        "projects": [
+          "Line investigation: a set of coordinate problems solved both algebraically and by sketching, to see which is faster where"
+        ],
+        "practice": "22 coordinate geometry questions relevant to both exams, since this topic survives on the GMAT as algebra",
+        "assessment": "Month 3 checkpoint: a timed section mixing word problems, GRE geometry and coordinate geometry"
+      }
+    },
+    "month_4_statistics_and_data": {
+      "title": "Month 4: Statistics and Data Interpretation",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Descriptive Statistics",
+        "topics": [
+          "Mean, median, mode and range, and which one a question is really testing",
+          "Weighted averages, a heavily tested and heavily missed idea",
+          "Standard deviation conceptually: the exams test understanding, not hand calculation",
+          "Quartiles, percentiles and the reasoning around them",
+          "How adding or changing a value moves the mean and the median",
+          "The statistics traps both exams set, catalogued"
+        ],
+        "projects": [
+          "Average-shift study: a set of questions about how statistics change when the data changes, reasoned without brute force"
+        ],
+        "practice": "22 statistics questions weighted towards weighted averages and standard-deviation reasoning"
+      },
+      "week_14": {
+        "title": "Counting and Probability",
+        "topics": [
+          "The fundamental counting principle applied cleanly",
+          "Permutations and combinations, and telling which the question wants",
+          "Basic probability and the complement shortcut",
+          "Probability with and without replacement",
+          "Combined events and when to add versus multiply",
+          "The exam-realistic level of difficulty, so you neither under nor over-prepare"
+        ],
+        "projects": [
+          "Counting decision tree: your own flowchart for choosing between permutation, combination and direct counting"
+        ],
+        "practice": "20 counting and probability questions pitched at the exams' actual difficulty, not competition-maths depth"
+      },
+      "week_15": {
+        "title": "Data Interpretation and Graphs",
+        "topics": [
+          "Reading tables, bar charts, line graphs and pie charts accurately and fast",
+          "Multi-source questions where two graphs must be combined",
+          "GRE data interpretation sets and how they are scored",
+          "The visual and quantitative formats inside GMAT Data Insights",
+          "Percentage and ratio reasoning applied to chart data",
+          "Not being fooled by a chart drawn to mislead"
+        ],
+        "projects": [
+          "Graph deconstruction: a real multi-graph data set answered, then examined for how it could have been misread"
+        ],
+        "practice": "20 data-interpretation questions across chart types, timed as the sets are on the real exams"
+      },
+      "week_16": {
+        "title": "Consolidation and First Full Quant Section",
+        "topics": [
+          "Pulling the whole content map together into one map you can see",
+          "A personal error log built from every month so far",
+          "Your two or three recurring mistake patterns, named and targeted",
+          "Pacing across a full section rather than a single question",
+          "A pre-test routine for the quant section",
+          "Setting a realistic target score band for your programme"
+        ],
+        "projects": [
+          "First full timed quant section, GRE or GMAT to match your goal, followed by a written self-review"
+        ],
+        "practice": "One complete timed quant section plus a question-by-question review of every miss and every lucky guess",
+        "assessment": "Month 4 checkpoint: a full timed quant section scored, with an honest read on your current band and gap to target"
+      }
+    }
+  },
+  "phase_3_exam_craft": {
+    "title": "PHASE 3: Exam Craft and Timed Mastery (Months 5-6, Weeks 17-24)",
+    "description": "The question formats unique to each exam, the timing and guessing strategy that protects a score, and repeated full timed practice reviewed until the mistake patterns are gone.",
+    "month_5_question_formats_and_strategy": {
+      "title": "Month 5: Exam-Specific Formats and Strategy",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "GRE Quantitative Comparison",
+        "topics": [
+          "The four answer choices of quantitative comparison and what each really means",
+          "Why quantitative comparison rewards reasoning over full computation",
+          "Testing cases: zero, one, negatives, fractions and the numbers that break patterns",
+          "The must-not-compute mindset for a whole question type",
+          "The specific traps built into quantitative comparison",
+          "GMAT-only students spend this session on an equivalent problem-solving intensive"
+        ],
+        "projects": [
+          "Case-testing drill: quantitative comparison questions solved purely by choosing the numbers that expose the answer"
+        ],
+        "practice": "24 quantitative comparison questions, no full calculation permitted where case-testing will do"
+      },
+      "week_18": {
+        "title": "Data Sufficiency and the GMAT Data Insights Section",
+        "topics": [
+          "Data sufficiency: the format that asks whether you can answer, not what the answer is",
+          "The fixed five answer choices and a reliable order to eliminate them",
+          "Why data sufficiency now lives in GMAT Data Insights, not the quant section",
+          "The other Data Insights formats: table analysis, graphics interpretation, multi-source reasoning, two-part analysis",
+          "The calculator that Data Insights allows and quant does not",
+          "GRE-only students use this session to deepen data interpretation instead"
+        ],
+        "projects": [
+          "Data sufficiency ladder: a graded set that builds the elimination habit from simple to genuinely tricky"
+        ],
+        "practice": "24 data sufficiency and Data Insights questions worked with the elimination framework applied every time"
+      },
+      "week_19": {
+        "title": "Timing, Pacing and Educated Guessing",
+        "topics": [
+          "The real time budget: roughly one minute forty-five per GRE quant question, just over two minutes on GMAT quant",
+          "The thirty-second rule for deciding to move on",
+          "Educated guessing that beats random, and when to deploy it",
+          "Section-level pacing rather than fighting for every single question",
+          "Managing the adaptive nature of the GMAT and the section-adaptive GRE",
+          "Recovering calmly from a question that goes wrong mid-section"
+        ],
+        "projects": [
+          "Pacing plan: your written per-section time strategy, including your personal move-on triggers"
+        ],
+        "practice": "Timed blocks focused purely on pacing decisions, tracking how many move-on calls were correct"
+      },
+      "week_20": {
+        "title": "Error Patterns and Targeted Repair",
+        "topics": [
+          "Mining your accumulated error log for the two or three patterns that cost the most",
+          "Careless-error reduction as a trainable, measurable skill",
+          "Rebuilding any content weakness the practice sections have exposed",
+          "Distinguishing knowledge gaps from timing errors from misreads, because the fixes differ",
+          "Re-attempting past misses cold to confirm the repair held",
+          "Adjusting the target band with real evidence now in hand"
+        ],
+        "projects": [
+          "Repair sprint: your top mistake pattern attacked with a focused set until the error rate on it visibly drops"
+        ],
+        "practice": "Targeted sets built from your own error log, retested a week later to prove the fix stuck",
+        "assessment": "Month 5 checkpoint: a full timed section compared against month 4 to measure real movement"
+      }
+    },
+    "month_6_full_practice_and_review": {
+      "title": "Month 6: Full Timed Practice and Test-Ready Review",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "Full Section One and Deep Review",
+        "topics": [
+          "A complete timed quant section under genuine exam conditions",
+          "Question-by-question review focused on why the wrong answer was tempting",
+          "Separating unlucky guesses from real knowledge, since only one needs fixing",
+          "Updating the error log with the newest patterns",
+          "Retiming the questions that were slow but correct",
+          "Setting the single focus for the coming week"
+        ],
+        "projects": [
+          "Full section one, reviewed in a written report: score, error breakdown and the one thing to fix next"
+        ],
+        "practice": "The full section plus a complete written review; slow-but-correct questions retimed to build margin"
+      },
+      "week_22": {
+        "title": "Full Section Two and Format Sharpening",
+        "topics": [
+          "A second full timed section, rotating to the other exam if you are sitting both",
+          "Sharpening the exam-specific formats: quantitative comparison or data sufficiency, whichever is yours",
+          "Comparing this section against the last for direction of travel",
+          "Fatigue management across a real testing block",
+          "Fine-tuning the pacing plan with fresh data",
+          "Locking in the guessing strategy so it is automatic on the day"
+        ],
+        "projects": [
+          "Full section two, with a side-by-side comparison against section one and a revised pacing plan"
+        ],
+        "practice": "The second full section plus focused drilling on whichever format still leaks marks"
+      },
+      "week_23": {
+        "title": "Full Section Three and Final Content Gaps",
+        "topics": [
+          "A third full timed section to make exam pace feel ordinary",
+          "Closing the last content gaps the three sections have exposed",
+          "A calm, repeatable pre-section routine rehearsed until it is automatic",
+          "Test-day logistics: what to expect at the centre or on the online exam",
+          "Building the mental stamina for a full test, not just a section",
+          "Confirming a realistic, evidence-based target for test day"
+        ],
+        "projects": [
+          "Full section three, with the final short list of content gaps and a plan to close each one"
+        ],
+        "practice": "The third full section plus targeted repair of any content weakness still standing"
+      },
+      "week_24": {
+        "title": "Test-Ready: Final Review and Plan",
+        "topics": [
+          "A final mixed timed set drawing on everything the course covered",
+          "The last pass over the error log, now much shorter than it started",
+          "Your personal test-day playbook: pacing, guessing rules and pre-section routine on one page",
+          "Managing exam nerves with preparation rather than hope",
+          "A realistic score expectation grounded in your practice results",
+          "Where to go next if you want to lift a strong score to an excellent one"
+        ],
+        "projects": [
+          "Test-day playbook: a single sheet with your pacing plan, guessing rules, routine and target, ready for the exam"
+        ],
+        "practice": "A final timed set and a full walk-through of the test-day playbook",
+        "assessment": "Final review: a complete timed section, a progress summary from diagnostic to now, and certificate review"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A personal weakness map built from the opening diagnostic",
+      "A shortcut and number-sense reference sheet you build yourself",
+      "A word-problem playbook covering all six recurring types",
+      "A geometry formula sheet earned by reconstruction, not handout",
+      "A running error log that drives the whole second half of the course",
+      "A written per-section pacing and guessing plan",
+      "Three fully reviewed timed quant sections in the final month",
+      "A one-page test-day playbook ready to take into the exam"
+    ],
+    "total_projects_built": "A complete personal prep kit: weakness map, reference sheets, error log, pacing plan and a test-day playbook, plus multiple fully reviewed timed sections",
+    "skills_mastered": [
+      "A rebuilt arithmetic and algebra foundation worked at exam speed",
+      "The full content map of both exams: word problems, GRE geometry, coordinate geometry, statistics and data interpretation",
+      "Quantitative comparison for the GRE and data sufficiency and Data Insights for the GMAT",
+      "Timing, pacing and educated-guessing strategy that holds under pressure",
+      "Trap-recognition as a trained reflex on both exams",
+      "A disciplined review habit that turns practice sections into real improvement"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, solving and reviewing questions live rather than watching worked solutions go by",
+      "practice": "4-5 hours weekly of timed problem sets and full sections between classes",
+      "review": "Homework and practice sections reviewed with written feedback, with equal attention to timing, method choice and accuracy"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, awarded on finishing the course and its final timed sections"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with worked solutions for the questions that stall you",
+      "progress_updates": "Monthly progress notes tracking practice-section scores and movement toward your target band",
+      "career_guidance": "Honest guidance on realistic target scores for your programme and on what the quant score does and does not decide in an application"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "School maths up to about class 10, even if it is rusty. The course rebuilds arithmetic and algebra from the ground up, so being out of practice is expected and planned for, not a problem",
+    "programming": "None. This is a maths and exam-strategy course with no coding at all",
+    "equipment": "A computer with a stable internet connection, and paper and pen, since both exams reward working things out by hand at speed",
+    "audience": "Adults preparing for graduate admissions who need the quantitative section of the GRE, the GMAT, or both. Final-year undergraduates planning ahead are welcome"
+  },
+  "who_is_this_for": {
+    "mba_applicants": "MBA applicants sitting the GMAT Focus Edition who need to lift a quant score that stands between them and their target schools",
+    "masters_applicants": "Applicants to masters and PhD programmes sitting the GRE, where a strong quant score matters most for quantitative and technical fields",
+    "both_exam_takers": "Candidates deciding between the two exams, or sitting both, who want the shared maths taught once and the differences taught clearly",
+    "rusty_professionals": "Working professionals years out of school who are strong in their field but need the exam maths rebuilt from the foundation",
+    "self_study_stalled": "Self-preppers who have plateaued and know the missing piece is structured teaching and reviewed timed practice, not another book"
+  },
+  "career_paths_after_completion": [
+    "A completed graduate-admissions application with the quantitative section prepared for, whether that is an MBA, an MS, or a PhD track",
+    "The quantitative reasoning base that graduate business and technical programmes assume from day one",
+    "A stronger footing for any role or programme that leans on analytical and quantitative reasoning",
+    "A foundation you can extend into our statistics or data courses if your path runs toward analytics",
+    "The habit of timed, reviewed practice that transfers to any high-stakes exam you sit later"
+  ],
+  "salary_expectations": {
+    "market_context": "The GRE and GMAT are gateways to graduate programmes, and it is those programmes, not this course, that connect to long-term career outcomes years later. The figures below are broad, publicly reported market ranges for the kinds of graduate paths these exams lead toward, shown purely for context. They are not a promise of any score, admission, or income, all of which depend on your application as a whole, the programme, the market and your own work. This course prepares you for the quantitative section and does not guarantee a score, an admission, or a salary.",
+    "context_note": "A quant score is one input among many in an application. It opens doors; it does not by itself determine the outcome on the other side of them",
+    "mba_pathways": "Graduate business programmes report a wide range of post-degree outcomes depending heavily on school, industry, geography and prior experience",
+    "ms_and_analytics_pathways": "Masters routes in data, analytics, finance and engineering lead into quantitative roles whose pay varies widely by field, location and experience",
+    "honest_framing": "Treat the exam as a step, not a guarantee. The honest promise this course can make is quantitative readiness and reviewed timed practice, not a number on a payslip"
+  },
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum that rebuilds the maths before drilling the exam, with hands-on practice every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so a stuck question does not cost you a week.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "Does this course cover both the GRE and the GMAT, or do I have to choose?",
+      "answer": "Both, and that is deliberate. The two exams share most of their quantitative content: arithmetic, algebra, word problems, statistics and data interpretation are common ground, so we teach that core once, to everyone. The exam-specific pieces are then taught separately and clearly labelled: quantitative comparison and geometry for the GRE, data sufficiency and the Data Insights formats for the GMAT. If you are sitting only one exam, you focus your practice there while the other exam's students do their format-specific session; if you are sitting or still deciding between both, you get the full picture. Tell us your target at the diagnostic and we tune your practice accordingly."
+    },
+    {
+      "question": "The exams changed recently. Is this course current?",
+      "answer": "Yes, and this matters more than it sounds. We teach the shorter GRE introduced in September 2023, with its two quant sections of twelve and fifteen questions, and the GMAT Focus Edition with its three forty-five-minute sections. A crucial change many older courses miss: on the GMAT, data sufficiency is no longer in the quant section at all. It now lives in the Data Insights section, and the Focus Edition quant section has no plane geometry. We teach the exams as they are today, not as they were before 2023."
+    },
+    {
+      "question": "My maths is very rusty. Am I too far behind for this?",
+      "answer": "No. Rusty is the assumption the course is built on, which is exactly why the first two full months rebuild arithmetic and algebra from the ground up before any exam strategy appears. Most adults sitting these exams last studied this maths years ago, and the biggest score gains usually come from repairing that foundation rather than from clever tricks. The week 1 diagnostic tells us precisely where you stand so the early weeks target your real gaps. What the course does need from you is the practice hours; the starting level it can work with is genuinely low."
+    },
+    {
+      "question": "Do you guarantee a particular score?",
+      "answer": "No, and you should be wary of any course that does. Your score depends on your starting point, the hours you put in, and your performance on the day, none of which a course can guarantee. What this course does guarantee is honest: live teaching that rebuilds the maths and drills the exam, small batches, real doubt support, and multiple full timed sections reviewed question by question. We will give you a clear, evidence-based read on a realistic target band from your practice results, and we will be straight with you about the gap and the work it takes to close it."
+    },
+    {
+      "question": "How much time do I need to put in each week?",
+      "answer": "Two live one-hour classes plus four to five hours of practice a week is the plan the course is paced around. The practice is not optional padding: these exams reward drilled speed and reviewed mistakes, and the improvement happens in that practice time as much as in class. In the final month the practice includes full timed sections, which take longer in a single sitting, so allow for that. The schedule offers evening and weekend slots so working professionals can fit it around a job."
+    },
+    {
+      "question": "Does the maths on these exams get very advanced?",
+      "answer": "No, and this reassures most people. Neither exam tests advanced mathematics. The GRE goes no higher than a second course in school algebra, with no trigonometry and no calculus, and the GMAT Focus quant section covers arithmetic, algebra and statistics with no plane geometry. The difficulty is not the depth of the maths; it is the speed, the careful reading, and the traps deliberately laid in the questions. That is genuinely good news, because those are trainable skills, which is exactly what the second half of the course trains."
+    },
+    {
+      "question": "Can I use a calculator on the exam?",
+      "answer": "Partly, and knowing when is itself a skill. The GRE gives you an on-screen calculator for the quant section. On the GMAT Focus Edition, the quant section does not allow a calculator at all; only the Data Insights section does. Because of this, we drill mental and paper methods hard, since leaning on a calculator you may not have is a costly habit. We also teach when reaching for the calculator, where you are allowed one, actually wastes time versus estimating or reasoning to the answer."
+    },
+    {
+      "question": "What does the course cost, and can I try it first?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $100 per month for group classes and $150 per month for 1-on-1. The first demo class is free, so you can see the teaching and the diagnostic before deciding: book at learn.modernagecoders.com/contact or on WhatsApp at +91 91233 66161."
+    },
+    {
+      "question": "Will this course help with the rest of the exam too, not just quant?",
+      "answer": "This course is focused specifically on the quantitative section, which is where a structured maths rebuild and timed practice make the biggest, most reliable difference. It does not teach the verbal sections or the GMAT Data Insights verbal-style reasoning beyond the quantitative and data-analysis parts. Many students take this course precisely because quant is their weak half and they can prepare verbal on their own. In the career-guidance sessions we are happy to point you to sensible resources for the other sections so your overall preparation is balanced."
+    }
+  ]
+}
