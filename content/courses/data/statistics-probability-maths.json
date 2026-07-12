@@ -1,0 +1,564 @@
+{
+  "meta": {
+    "slug": "statistics-probability-maths-course",
+    "title": "Statistics & Probability: From Describing Data to Testing Claims",
+    "description": "Statistics and probability course online for college students and professionals: descriptive statistics, distributions, hypothesis testing and regression on real data.",
+    "keywords": [
+      "statistics and probability course online",
+      "statistics course for beginners",
+      "learn statistics for data analysis",
+      "hypothesis testing course",
+      "probability course for college students",
+      "statistics for working professionals",
+      "regression analysis course online",
+      "statistics course without coding"
+    ],
+    "category": "Data Science & Analytics Mathematics",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "6 months (24 weeks)",
+    "level": "College students and working professionals; no programming required",
+    "commitment": "2 live classes/week + 3-4 hours practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "statistics-probability-maths.png"
+  },
+  "program_overview": {
+    "title": "Statistics & Probability",
+    "tagline": "The subject that decides whether a claim is evidence or noise, taught on real data from the first week.",
+    "description": "Statistics is the working mathematics of almost every field that touches data: business, medicine, psychology, economics, engineering, machine learning. It is also routinely taught backwards, as formula memorisation first and meaning never. This 6-month live course teaches it the other way. Months 1 and 2 build the two foundations: describing data honestly, and probability as the grammar of uncertainty, including conditional probability and Bayes' theorem worked through real cases like medical test results. Months 3 and 4 cover the distributions that model the world, then sampling, the central limit theorem seen through simulation rather than assertion, and confidence intervals interpreted the way they actually work. Month 5 is hypothesis testing done properly: t-tests, proportion tests and chi-square, with equal attention to what p-values do not say. Month 6 covers correlation and regression, then a capstone: a full analysis of a real dataset of your choosing, written up with methods and limitations.\n\nEvery technique is practised on real data in a spreadsheet, and an optional Python track runs alongside for those who want it. Neither is required knowledge coming in; one of them becomes a working skill going out.",
+    "what_makes_this_different": [
+      "Real datasets from week 1: public health, sports, economics and business data, not textbook tables invented to make the arithmetic clean",
+      "Spreadsheet-first with an optional Python track, so non-programmers finish everything and programmers get the pandas version of each technique",
+      "Probability taught through consequential examples: false positives in medical testing, base-rate mistakes, and why intuition fails on conditional probability",
+      "The central limit theorem demonstrated by simulation you run yourself, because a theorem you have watched happen is one you actually trust",
+      "Honest inference: what a p-value is and is not, why statistical significance is not importance, and how p-hacking happens",
+      "A capstone analysis of a dataset you choose, written up with methods and limitations like a piece of real analytical work"
+    ],
+    "learning_path": {
+      "phase_1": "Foundations: describing data with the right summaries and charts, then probability, conditional probability, Bayes' theorem and random variables",
+      "phase_2": "Models and estimation: binomial, Poisson and normal distributions, sampling and the central limit theorem, and confidence intervals done honestly",
+      "phase_3": "Inference and the capstone: hypothesis tests for means, proportions and categories, correlation and regression, then a full real-data analysis of your own"
+    },
+    "career_outcomes": [
+      "The statistical core that analyst roles and graduate courses assume",
+      "The ability to read a study, a dashboard or an A/B test result and know what it does and does not show",
+      "Working fluency in spreadsheet analysis, plus optional Python with pandas for those who take that track",
+      "A completed capstone analysis you can show: question, method, findings and limitations",
+      "The prerequisite base for machine learning and data science courses, where statistics is the half people arrive missing"
+    ]
+  },
+  "phase_1_data_and_probability": {
+    "title": "PHASE 1: Describing Data and Probability (Months 1-2, Weeks 1-8)",
+    "description": "The two foundations everything else stands on: honest description of data, and probability as the language of uncertainty.",
+    "month_1_descriptive_statistics": {
+      "title": "Month 1: Describing Data Honestly",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Data: What It Is and How It Lies to You",
+        "topics": [
+          "Populations, samples and why the difference drives everything",
+          "Types of data: categorical and numerical, and the scales of measurement",
+          "Tidy data: rows, columns and the shape analysis expects",
+          "Where data comes from: surveys, experiments, logs and their built-in biases",
+          "Spreadsheet setup: importing, cleaning basics and first summaries",
+          "Famous data failures: survivorship bias and selection bias with real stories"
+        ],
+        "projects": [
+          "First dataset walk: load a real public dataset, document its variables, units and suspicious values before computing anything"
+        ],
+        "practice": "Profile two provided datasets: identify variable types, spot three data-quality problems, write one paragraph on each"
+      },
+      "week_2": {
+        "title": "Central Tendency: What Is Typical",
+        "topics": [
+          "Mean, median and mode, and what question each one answers",
+          "How skew and outliers pull the mean away from the median",
+          "Weighted means and when unweighted averages mislead",
+          "Group comparisons: the danger of comparing averages of unequal groups",
+          "Computing summaries in the spreadsheet with named functions",
+          "Reading claims critically: what average salary headlines usually hide"
+        ],
+        "projects": [
+          "Income exercise: a salary dataset summarised with mean and median, with a written note on why they disagree and which to report"
+        ],
+        "practice": "12 central tendency problems on real data, each answer accompanied by one sentence on which measure fits and why"
+      },
+      "week_3": {
+        "title": "Spread: How Much Things Vary",
+        "topics": [
+          "Range and interquartile range",
+          "Variance and standard deviation, built up from deviations rather than dropped as a formula",
+          "The 1.5 IQR rule for flagging outliers",
+          "z-scores: how unusual is this value",
+          "Comparing variability across different units with the coefficient of variation",
+          "Why spread is the half of the story that dashboards leave out"
+        ],
+        "projects": [
+          "Consistency study: two players or products with the same average compared on spread, with a recommendation written up"
+        ],
+        "practice": "14 spread problems including 4 z-score questions, standard deviation computed once by hand and thereafter by software"
+      },
+      "week_4": {
+        "title": "Charts That Tell the Truth",
+        "topics": [
+          "Histograms and the shapes of distributions: symmetric, skewed, bimodal",
+          "Box plots and comparing groups at a glance",
+          "Scatter plots and the first look at relationships",
+          "Bar charts versus histograms, and why the difference matters",
+          "Misleading charts: truncated axes, cherry-picked windows, area distortions",
+          "Building clean charts in the spreadsheet, with labels that earn their space"
+        ],
+        "projects": [
+          "Chart audit: find one misleading chart in the wild, explain the distortion, and rebuild it honestly from the underlying data"
+        ],
+        "practice": "Build five charts from a real dataset, each with a one-line takeaway written underneath",
+        "assessment": "Month 1 checkpoint: a full descriptive analysis of a provided dataset, summaries, charts and a short written brief"
+      }
+    },
+    "month_2_probability_foundations": {
+      "title": "Month 2: Probability, the Grammar of Uncertainty",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Probability from First Ideas",
+        "topics": [
+          "Experiments, outcomes, sample spaces and events",
+          "Probability as long-run frequency and as degree of belief",
+          "The complement rule and the addition rule",
+          "Mutually exclusive events versus events that overlap",
+          "Venn diagrams that actually resolve arguments",
+          "Simulating simple probabilities in the spreadsheet to check intuition"
+        ],
+        "projects": [
+          "Simulation warm-up: estimate a dice probability by simulation, compare with the exact answer, watch the gap shrink with more trials"
+        ],
+        "practice": "16 probability problems from single events to unions, each hard one checked by a quick simulation"
+      },
+      "week_6": {
+        "title": "Conditional Probability and Independence",
+        "topics": [
+          "Conditional probability: how information changes the odds",
+          "The multiplication rule and tree diagrams",
+          "Independence: what it means and how to test for it",
+          "The base-rate fallacy introduced with a real screening example",
+          "Sampling with and without replacement",
+          "Why P(A given B) and P(B given A) are different, and the famous confusions"
+        ],
+        "projects": [
+          "Two-way table study: a real dataset cross-tabulated, with conditional probabilities read off and independence checked"
+        ],
+        "practice": "14 conditional probability problems, every tree diagram drawn before any multiplication"
+      },
+      "week_7": {
+        "title": "Bayes' Theorem: Updating Beliefs with Evidence",
+        "topics": [
+          "Bayes' theorem derived from the definition of conditional probability",
+          "The medical test problem: why a positive result on a rare disease is usually a false alarm",
+          "Prior, likelihood and posterior in plain language",
+          "Natural frequencies: the counting method that makes Bayes intuitive",
+          "Spam filters and diagnostic reasoning as everyday Bayes",
+          "The prosecutor's fallacy and other courtroom probability errors"
+        ],
+        "projects": [
+          "Bayes explainer: work the medical test problem with natural frequencies and write an explanation a friend could follow"
+        ],
+        "practice": "10 Bayes problems solved twice each, once by formula and once by counting, until the two views agree in your head"
+      },
+      "week_8": {
+        "title": "Counting and Random Variables",
+        "topics": [
+          "Permutations and combinations, and which one the question wants",
+          "Discrete random variables and probability distributions",
+          "Expected value: what fair means, and why casinos always win",
+          "Variance of a random variable",
+          "Expected value in decisions: insurance, warranties and lotteries",
+          "Building a probability distribution from real frequency data"
+        ],
+        "projects": [
+          "Game analysis: compute the expected value of a real lottery or carnival game and write the verdict in two sentences"
+        ],
+        "practice": "12 counting and random variable problems including 3 expected-value decisions argued in writing",
+        "assessment": "Month 2 checkpoint: a mixed probability paper from basic rules through Bayes and expected value"
+      }
+    }
+  },
+  "phase_2_distributions_and_sampling": {
+    "title": "PHASE 2: Distributions, Sampling and Estimation (Months 3-4, Weeks 9-16)",
+    "description": "The named distributions that model real processes, then the machinery of inference: sampling distributions, the central limit theorem seen by simulation, and confidence intervals.",
+    "month_3_distributions": {
+      "title": "Month 3: The Distributions That Model the World",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "The Binomial Distribution",
+        "topics": [
+          "Bernoulli trials and the binomial conditions, checked in words",
+          "The binomial formula and where it comes from",
+          "Mean and variance of a binomial",
+          "Computing binomial probabilities in the spreadsheet and, on the Python track, with scipy",
+          "Cumulative probabilities and careful at-least versus at-most reading",
+          "Real binomial settings: quality control, conversion rates, free-throw streaks"
+        ],
+        "projects": [
+          "Conversion study: model a marketing conversion scenario as a binomial and answer three business questions with it"
+        ],
+        "practice": "14 binomial problems, the conditions checked in writing before any computation"
+      },
+      "week_10": {
+        "title": "Poisson and Geometric: Counts and Waits",
+        "topics": [
+          "The Poisson distribution for counts per interval: arrivals, defects, calls",
+          "When Poisson fits and when it does not",
+          "Poisson as a limit of the binomial, seen numerically",
+          "The geometric distribution: waiting for the first success",
+          "Choosing the right model: binomial, Poisson or geometric from the story",
+          "Fitting a Poisson to real count data and judging the fit by eye"
+        ],
+        "projects": [
+          "Arrivals study: fit a Poisson model to real count data, compare observed and expected counts in a table"
+        ],
+        "practice": "12 modelling problems where the first marked step is naming the right distribution and defending the choice"
+      },
+      "week_11": {
+        "title": "Continuous Distributions and the Normal",
+        "topics": [
+          "From histograms to density curves: probability as area",
+          "The uniform distribution as the simplest continuous case",
+          "The normal distribution: shape, parameters and the 68-95-99.7 rule",
+          "Standardising and the standard normal",
+          "Normal probabilities by software, with the table method understood once",
+          "What is and is not normal in real data: heights yes, incomes no"
+        ],
+        "projects": [
+          "Normal check: test the 68-95-99.7 rule against a real dataset and report where it holds and where it breaks"
+        ],
+        "practice": "14 normal distribution problems, each one opened with a sketch of the shaded region"
+      },
+      "week_12": {
+        "title": "Working with the Normal",
+        "topics": [
+          "Inverse problems: finding cutoffs from probabilities",
+          "Percentiles, reference ranges and grading on a curve",
+          "Assessing normality with histograms and quantile plots",
+          "The normal approximation to the binomial and when it is safe",
+          "Combining independent normal quantities",
+          "A distribution field guide: one page mapping situations to models"
+        ],
+        "projects": [
+          "Field guide build: your own one-page reference mapping real situations to binomial, Poisson, geometric, uniform or normal"
+        ],
+        "practice": "12 mixed distribution problems where the model is never announced in the question",
+        "assessment": "Month 3 checkpoint: a distributions paper mixing model choice, computation and interpretation"
+      }
+    },
+    "month_4_sampling_and_estimation": {
+      "title": "Month 4: Sampling, the CLT and Confidence Intervals",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Sampling: How Data Gets Collected and Corrupted",
+        "topics": [
+          "Simple random, stratified, cluster and systematic sampling",
+          "Convenience samples and why most internet polls mean little",
+          "Sampling bias, nonresponse bias and question wording effects",
+          "Famous polling failures and what went wrong",
+          "Randomised experiments versus observational studies",
+          "Designing a small survey that will not embarrass you"
+        ],
+        "projects": [
+          "Survey critique: take one published poll, identify its sampling method, and write three specific bias risks"
+        ],
+        "practice": "10 sampling design problems plus one short survey designed, with its weaknesses honestly listed"
+      },
+      "week_14": {
+        "title": "Sampling Distributions and the Central Limit Theorem",
+        "topics": [
+          "The sampling distribution of the mean: a distribution of statistics, not data",
+          "Standard error and why bigger samples pin the mean down",
+          "The central limit theorem stated carefully",
+          "The CLT demonstrated by simulation: skewed populations, normal-looking sample means",
+          "How sample size affects the shape, watched live",
+          "Why the CLT is the load-bearing wall of everything that follows"
+        ],
+        "projects": [
+          "CLT simulation: run the resampling experiment yourself in the spreadsheet or Python, and keep the charts as evidence"
+        ],
+        "practice": "10 standard error and sampling distribution problems, plus the simulation repeated on a second population shape"
+      },
+      "week_15": {
+        "title": "Confidence Intervals for Means",
+        "topics": [
+          "The logic of interval estimation",
+          "z-intervals and t-intervals, and when the t-distribution is the honest choice",
+          "Degrees of freedom in plain language",
+          "What 95 percent confidence actually means, and the misreadings to avoid",
+          "Interval width: the three levers of confidence, spread and sample size",
+          "Computing and reporting intervals from real data"
+        ],
+        "projects": [
+          "Interval report: a confidence interval for a real dataset's mean, reported in one correct sentence and one wrong-but-common sentence, labelled"
+        ],
+        "practice": "12 confidence interval problems, every interval followed by a correctly worded interpretation"
+      },
+      "week_16": {
+        "title": "Proportions and Planning Sample Sizes",
+        "topics": [
+          "Confidence intervals for proportions",
+          "Margin of error and how polls report it",
+          "Sample size calculations: how many people do we actually need",
+          "Reading polling small print: confidence level, margin, population",
+          "Intervals for differences, previewed",
+          "Estimation recap: the full toolkit so far, organised"
+        ],
+        "projects": [
+          "Poll deconstruction: take a real published poll and verify its stated margin of error from its sample size"
+        ],
+        "practice": "12 proportion and sample size problems including two taken from real published surveys",
+        "assessment": "Month 4 checkpoint: an estimation paper from sampling design through confidence intervals, interpretation marked as strictly as computation"
+      }
+    }
+  },
+  "phase_3_inference_regression_capstone": {
+    "title": "PHASE 3: Hypothesis Testing, Regression and the Capstone (Months 5-6, Weeks 17-24)",
+    "description": "Testing claims with data, measuring and modelling relationships, and then a complete analysis of a real dataset of your own, written up like professional work.",
+    "month_5_hypothesis_testing": {
+      "title": "Month 5: Hypothesis Testing Done Honestly",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "The Logic of a Hypothesis Test",
+        "topics": [
+          "Null and alternative hypotheses: the courtroom analogy done carefully",
+          "Test statistics and the p-value defined precisely",
+          "Significance levels and the arbitrary honesty of 0.05",
+          "Type I and Type II errors, and which one your situation fears more",
+          "What a p-value is not: not the probability the null is true",
+          "One-tailed versus two-tailed tests and how to choose before seeing data"
+        ],
+        "projects": [
+          "Error analysis: for three real scenarios, name both error types and argue which is costlier in each"
+        ],
+        "practice": "10 test-logic problems with no computation at all: hypotheses, tails and error types only"
+      },
+      "week_18": {
+        "title": "One-Sample Tests",
+        "topics": [
+          "The one-sample t-test for a mean, start to finish",
+          "The one-sample proportion test",
+          "Checking conditions before trusting the test",
+          "Computing tests in the spreadsheet and, on the Python track, with scipy",
+          "Writing conclusions in context, with the p-value reported not worshipped",
+          "Confidence intervals and tests as two views of the same evidence"
+        ],
+        "projects": [
+          "Claim check: test a real advertised claim against real or provided data, and write the verdict in three sentences"
+        ],
+        "practice": "12 one-sample tests, each conclusion written in context and checked against its confidence interval"
+      },
+      "week_19": {
+        "title": "Comparing Two Groups",
+        "topics": [
+          "Independent two-sample t-tests",
+          "Paired tests and recognising paired designs",
+          "Two-proportion tests: the A/B test in its natural form",
+          "Effect size: statistically significant versus actually important",
+          "How A/B testing works in product teams, and where it goes wrong",
+          "Reading a published study's methods section without fear"
+        ],
+        "projects": [
+          "A/B analysis: a realistic conversion dataset analysed end to end, with a recommendation that weighs effect size, not just p"
+        ],
+        "practice": "12 two-group problems including one paired design hiding among independent ones"
+      },
+      "week_20": {
+        "title": "Chi-Square and the Ethics of Testing",
+        "topics": [
+          "Chi-square goodness of fit: does the data match the claimed distribution",
+          "Chi-square test of independence on two-way tables",
+          "Expected counts and when the test is valid",
+          "Multiple comparisons: why testing twenty things finds one false discovery",
+          "p-hacking and publication bias: how honest people fool themselves",
+          "Pre-registering your question: deciding what to test before looking"
+        ],
+        "projects": [
+          "Independence study: a real two-way table tested for independence with the full expected-count working shown"
+        ],
+        "practice": "10 chi-square problems plus a written half-page on one real p-hacking case",
+        "assessment": "Month 5 checkpoint: a full inference paper across one-sample, two-sample and chi-square tests, conclusions marked for wording"
+      }
+    },
+    "month_6_regression_and_capstone": {
+      "title": "Month 6: Correlation, Regression and the Capstone",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "Correlation",
+        "topics": [
+          "Covariance and the Pearson correlation coefficient",
+          "What r measures and the linear-only caveat",
+          "Anscombe's quartet: four datasets, one r, four different stories",
+          "Correlation is not causation, with the confounder named each time",
+          "Rank correlation for curved but monotonic relationships",
+          "Computing and charting correlations across a real dataset"
+        ],
+        "projects": [
+          "Correlation hunt: find the three strongest relationships in a real dataset, chart them, and flag which might be confounded"
+        ],
+        "practice": "10 correlation problems, every claim of relationship backed by a scatter plot"
+      },
+      "week_22": {
+        "title": "Linear Regression",
+        "topics": [
+          "The least squares line: what is being minimised and why",
+          "Interpreting slope and intercept in the units of the problem",
+          "R-squared: how much variation the line explains",
+          "Residual plots: the honesty check most analyses skip",
+          "Prediction within range versus extrapolation beyond it",
+          "Multiple regression previewed: several predictors at once, and its dangers"
+        ],
+        "projects": [
+          "Prediction model: fit a regression on real data, check residuals, make two predictions and state their limits"
+        ],
+        "practice": "10 regression problems with slope interpretations written in context every time",
+        "assessment": "Capstone gate: analysis plan approved, dataset, question, methods and chosen track (spreadsheet or Python)"
+      },
+      "week_23": {
+        "title": "Capstone Build",
+        "topics": [
+          "Framing an answerable question before touching the data",
+          "Cleaning and documenting the dataset",
+          "Choosing methods that fit the data, not the other way around",
+          "Descriptive pass first: summaries and charts before any test",
+          "Running the inference or regression the question calls for",
+          "Instructor review checkpoint mid-build"
+        ],
+        "projects": [
+          "Capstone analysis in progress: the full pipeline from raw data to preliminary findings, on your own chosen dataset"
+        ],
+        "practice": "Capstone work sessions with a written progress note after each: what was found, what is uncertain, what is next"
+      },
+      "week_24": {
+        "title": "Capstone Write-Up and Presentation",
+        "topics": [
+          "Structuring an analysis report: question, data, methods, findings, limitations",
+          "Writing limitations honestly: what your analysis cannot claim",
+          "Charts chosen for the reader, not the author",
+          "Presenting analytical work in ten minutes",
+          "Answering methods questions about your own work",
+          "Where to go next: deeper statistics, Python for data, or machine learning"
+        ],
+        "projects": [
+          "Completed capstone: a written analysis report and a short presentation, delivered to the class and kept for your portfolio"
+        ],
+        "practice": "Final report polish plus a dry-run presentation with peer questions",
+        "assessment": "Capstone review: report and presentation assessed on method, honesty of interpretation and clarity, plus certificate review"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A full descriptive analysis brief on a real public dataset",
+      "A Bayes explainer of the medical test problem in your own words",
+      "An expected-value verdict on a real lottery or game",
+      "A Poisson model fitted to real count data",
+      "A CLT simulation run and charted by you",
+      "A deconstruction of a real published poll's margin of error",
+      "An A/B test analysed end to end with an effect-size-aware recommendation",
+      "A regression prediction model with residual checks",
+      "The capstone: a complete written analysis of a dataset you chose"
+    ],
+    "total_projects_built": "A portfolio of small real-data studies plus one complete capstone analysis with report and presentation",
+    "skills_mastered": [
+      "Describing data honestly with the right summaries and charts",
+      "Probability, conditional probability and Bayes' theorem used correctly",
+      "Choosing and applying binomial, Poisson and normal models",
+      "Confidence intervals and hypothesis tests, computed and worded properly",
+      "Correlation and regression with the honesty checks included",
+      "Spreadsheet analysis throughout, plus optional Python with pandas and scipy on the parallel track"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, working on real data during class",
+      "practice": "3-4 hours weekly of problem sets and dataset work between classes",
+      "review": "Homework reviewed with written feedback; interpretation wording corrected as strictly as calculations"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, backed by your capstone analysis report"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with worked solutions for stuck problems",
+      "progress_updates": "Monthly progress notes covering test scores and capstone readiness",
+      "career_guidance": "Honest guidance on next steps: which roles use these skills, what to learn next, and what this course alone does and does not qualify you for"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "Comfortable school algebra: rearranging formulas and working with fractions and percentages. No calculus is needed anywhere in the course",
+    "programming": "None. Everything can be completed in a spreadsheet; the Python track is optional and taught from zero for those who choose it",
+    "equipment": "A computer with a spreadsheet application (Excel or Google Sheets) and a stable internet connection",
+    "audience": "Built for college students and working professionals; motivated final-year school students who clear the diagnostic are welcome"
+  },
+  "who_is_this_for": {
+    "college_students": "Students in commerce, economics, psychology, biology or engineering whose degrees assume statistics that was never properly taught",
+    "working_professionals": "Analysts, marketers, product managers and operations people who face dashboards and A/B tests daily and want to stop nodding along",
+    "data_science_aspirants": "People headed for data science or machine learning who know the statistics half is the half they are missing",
+    "researchers": "Postgraduate students and early researchers who need to design studies and read papers with methods sections",
+    "non_programmers": "Anyone who wants rigorous data skills without being forced through a programming course to get them"
+  },
+  "career_paths_after_completion": [
+    "Data analyst and reporting analyst roles, where descriptive statistics and inference are the daily toolkit",
+    "Business and product analytics: A/B testing, metrics and experiment literacy",
+    "A prepared entry into data science and machine learning courses, including our Python and AI/ML tracks",
+    "Research work in any field with a methods section: psychology, economics, public health",
+    "Better decisions in your current role, which is the quiet majority use of statistics"
+  ],
+  "salary_expectations": {
+    "market_context": "The ranges below are general market salary bands for roles where statistics is a core skill, in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "early_career_roles": "₹3-6 LPA (Data Analyst / Reporting Analyst / MIS Analyst)",
+    "growing_roles": "₹6-12 LPA (Senior Analyst / Business Analyst / Product Analyst)",
+    "experienced_roles": "₹12-25 LPA (Analytics Lead / Data Scientist, typically with added programming and ML skills)",
+    "international": "$55k-110k USD (USA) for analyst roles, depending on role, industry and experience"
+  },
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "Do I need to know programming for this course?",
+      "answer": "No, and this is a real no, not a marketing one. Every technique in the course, from descriptive statistics through regression, is taught and assessed in a spreadsheet, and the capstone can be completed entirely without code. A parallel Python track runs for those who want it: the same analyses redone with pandas and scipy, taught from zero. Roughly speaking, the spreadsheet track gives you the statistics; adding the Python track gives you the statistics plus a tool employers increasingly expect."
+    },
+    {
+      "question": "How much maths do I need coming in?",
+      "answer": "School algebra: you should be able to rearrange a simple formula and be comfortable with fractions, percentages and squared terms. There is no calculus in the course. Where a result normally requires calculus to derive, we demonstrate it numerically or by simulation instead, which is often more convincing anyway. The week 1 diagnostic catches genuine gaps, and we patch them in the early weeks rather than turning you away."
+    },
+    {
+      "question": "How is this different from a data science course?",
+      "answer": "A data science course is mostly tooling: Python, data wrangling, machine learning libraries, deployment. This course is the statistical reasoning underneath, which data science courses typically compress into two rushed weeks and which is exactly where most self-taught data scientists are weakest. If your goal is data science, this course first and a data science course second is the strong order. If your goal is to understand data, studies and experiments in your existing work, this course alone may be all you need."
+    },
+    {
+      "question": "What is the capstone project, and do I choose the dataset?",
+      "answer": "In the final month you take one real dataset, yours from work, or one you choose from public sources with our help, frame a question, run the appropriate analysis and write it up with methods and limitations, then present it. The write-up format mirrors how analytical work is actually reported. Students on the spreadsheet track and the Python track complete the same capstone with different tools, and both versions are portfolio pieces you keep."
+    },
+    {
+      "question": "I am a working professional. Can I manage this alongside a job?",
+      "answer": "The course is built for it: two live one-hour classes a week, scheduled in evening and weekend slots, plus three to four hours of practice you can place wherever your week allows. The pace is steady rather than punishing, and WhatsApp doubt support means a stuck Tuesday problem does not have to wait for Saturday. Professionals who miss a class can attend the same session with another batch where scheduling allows."
+    },
+    {
+      "question": "Will this course make me a data analyst?",
+      "answer": "It gives you the statistical core of the job, which is genuinely the hard part, and a capstone analysis to show. It does not by itself supply everything analyst job listings ask for: SQL and dashboard tools are common requirements we do not cover here. Our honest advice, which we repeat in the career guidance sessions, is that this course plus SQL practice plus a portfolio of two or three analyses is a credible analyst preparation. The course alone is the foundation, not the whole house."
+    },
+    {
+      "question": "Is this course aligned to any university syllabus?",
+      "answer": "It covers the standard core of a first university statistics course: descriptive statistics, probability, distributions, estimation, hypothesis testing and regression, so students frequently use it alongside degree coursework in commerce, economics, psychology and engineering. It is not tied to any single university's paper pattern, and we do not teach to one exam. Students preparing for a specific university exam get targeted practice on their syllabus topics in the doubt sessions."
+    },
+    {
+      "question": "What software do I need, and does it cost anything?",
+      "answer": "A spreadsheet application, either Google Sheets, which is free, or Excel, plus a free Python setup if you take the optional Python track; we help install everything in the first week. All datasets used in the course are public and free. There is no paid statistical software anywhere in the course: everything runs on tools you will still have access to after the course ends."
+    },
+    {
+      "question": "What does the course cost, and can I try it first?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $100 per month for group classes and $150 per month for 1-on-1. The first demo class is free: book at learn.modernagecoders.com/contact or on WhatsApp at +91 91233 66161."
+    }
+  ]
+}
