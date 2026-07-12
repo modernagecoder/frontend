@@ -58,7 +58,8 @@ body.editorial .blog-search-input:focus{outline:none;border-color:var(--amber);b
 /* grid + cards */
 .blog-listing-section{max-width:var(--container);margin-inline:auto;padding:clamp(1.5rem,3vw,2.4rem) 1.5rem clamp(3rem,6vw,4.5rem)}
 .blog-grid,.related-posts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.6rem}
-.blog-card{position:relative;display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;cursor:pointer;transition:transform .25s,box-shadow .25s,border-color .25s}
+.blog-card{position:relative;display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;cursor:pointer;text-decoration:none;color:inherit;transition:transform .25s,box-shadow .25s,border-color .25s}
+a.blog-card:hover,a.blog-card:focus,a.blog-card:visited{text-decoration:none;color:inherit}
 .blog-card::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--amber);transform:scaleX(0);transform-origin:left;transition:transform .3s;z-index:3}
 .blog-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-md);border-color:rgba(180,83,9,.4)}
 .blog-card:hover::before{transform:scaleX(1)}

@@ -630,7 +630,10 @@ class BlogGenerator {
 
         let html = '';
 
-        for (const slug of relatedSlugs) {
+        for (const entry of relatedSlugs) {
+            // relatedPosts may be plain slug strings OR {title, slug} objects
+            const slug = typeof entry === 'string' ? entry : (entry && entry.slug);
+            if (!slug) continue;
             try {
                 const relatedPath = this.slugToFileMap[slug];
 
@@ -655,7 +658,7 @@ class BlogGenerator {
         const category = blogData.meta.category || 'Blog';
         const tags = (blogData.meta.tags || []).join(',');
         return `
-        <div class="blog-card" data-blog-url="${blogData.meta.slug}" data-category="${category}" data-tags="${tags}">
+        <a class="blog-card" href="/blog/${blogData.meta.slug}" data-blog-url="${blogData.meta.slug}" data-category="${category}" data-tags="${tags}">
             <div class="blog-card-image">
                 <img src="${blogData.hero.featuredImage.url}" alt="${blogData.hero.featuredImage.alt}" loading="lazy">
             </div>
@@ -668,7 +671,7 @@ class BlogGenerator {
                     <span class="blog-card-read-time">${blogData.meta.readTime || '5 min read'}</span>
                 </div>
             </div>
-        </div>
+        </a>
     `;
     }
 

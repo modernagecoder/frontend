@@ -848,5 +848,10 @@
         "text": "Modern Age Coders offers structured vibe coding programs for every age and skill level — from kids building their first game to college students deploying production applications. Every course teaches BOTH traditional coding fundamentals AND cutting-edge AI tools, because the best vibe coders are great engineers first. <a href='/courses/'>Explore our courses</a> and join the thousands of students already building the future."
       }
     ]
-  }
+  },
+  "relatedPosts": [
+    "best-free-platforms-for-vibe-coding",
+    "agentic-terminology-in-ai",
+    "what-is-the-responsibility-of-developers-using-generative-AI"
+  ]
 }
