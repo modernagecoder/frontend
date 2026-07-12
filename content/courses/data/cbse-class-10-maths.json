@@ -1,0 +1,520 @@
+{
+  "meta": {
+    "slug": "cbse-class-10-maths-board-exam-prep-course",
+    "title": "CBSE Class 10 Maths Board Prep: Full Syllabus, Case Studies and Mocks",
+    "description": "CBSE Class 10 Maths board prep course aligned to the 2026-27 syllabus: all 14 chapters, competency and case-study practice, sample-paper mocks, live classes.",
+    "keywords": [
+      "cbse class 10 maths coaching online",
+      "class 10 maths board exam preparation",
+      "cbse class 10 maths syllabus 2026-27",
+      "class 10 maths tuition online",
+      "cbse standard vs basic maths",
+      "class 10 maths case study questions practice",
+      "cbse class 10 maths sample papers course",
+      "best online classes for class 10 maths"
+    ],
+    "category": "School Board Mathematics",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "10 months (40 weeks)",
+    "level": "CBSE Class 10 students, Standard (041) and Basic (241)",
+    "commitment": "2 live classes/week + 3-4 hours practice, rising to timed papers in the mock phase",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "cbse-class-10-maths.png"
+  },
+  "program_overview": {
+    "title": "CBSE Class 10 Maths Board Prep",
+    "tagline": "The whole syllabus taught properly, then the board paper practised until it holds no surprises.",
+    "description": "Class 10 is the first year the maths marks travel with the student, and the current board paper rewards more than memorised solutions: roughly half of it is competency-based, case studies, data interpretation and situational problems, alongside about 20 percent MCQs and 30 percent traditional short and long answers. This 10-month live course is built for exactly that paper. Months 1 to 8 teach all 14 NCERT chapters across the seven syllabus units, with the unit weightage kept in view throughout: Algebra carries 20 of the 80 theory marks, Geometry 15, Trigonometry 12, Statistics and Probability 11, Mensuration 10, and Number Systems and Coordinate Geometry 6 each. Months 9 and 10 are pure exam craft: structured revision, CBSE sample papers and previous-year papers under real timing, and error clinics after every mock.\n\nCase-study and MCQ practice is not saved for the end. From the first chapter, every topic closes with the question forms the board actually asks, so by the mock phase the format is familiar and only speed and polish remain. We teach both Standard (041) and Basic (241) tracks and help each family make that choice with evidence from the student's own test scores, not guesswork. What we promise is preparation and honest feedback; nobody can promise marks, and we do not."
+    ,
+    "what_makes_this_different": [
+      "Aligned to the 2026-27 CBSE syllabus as released, all 14 chapters across the 7 units, with the 80-mark theory weightage steering how class time is spent",
+      "Competency questions from week 1: every chapter closes with case-study, data and MCQ practice in the board's actual style, not as a panic module in January",
+      "Two full months of revision and mocks, with CBSE sample papers and previous-year papers under real 3-hour timing and a marked review of every attempt",
+      "Standard versus Basic decided with data: periodic test scores through the year tell each family which paper suits, and we advise honestly either way",
+      "Proof writing and stepwise presentation taught explicitly, because the board marking scheme awards steps, and students lose easy marks by skipping them",
+      "Live small batches where the teacher sees each student's working, not a video series with a doubt inbox"
+    ],
+    "learning_path": {
+      "phase_1": "Number Systems and the full Algebra unit: real numbers, polynomials, pairs of linear equations, quadratics and arithmetic progressions, the 26-mark backbone of the paper",
+      "phase_2": "Geometry, Coordinate Geometry and Trigonometry: similarity, distance and section formulae, trigonometric ratios and identities, heights and distances, and circle theorems",
+      "phase_3": "Mensuration, Statistics and Probability: areas related to circles, combined solids, grouped data measures and classical probability",
+      "phase_4": "Revision and the mock cycle: structured re-teaching of weak spots, CBSE sample papers and previous years under timing, error clinics and exam-day strategy"
+    },
+    "career_outcomes": [
+      "Full syllabus coverage with time left over: content done by month 8, then two months of revision and mocks",
+      "Fluency in the board's actual question forms: case studies, MCQs, assertion-reason and stepwise long answers",
+      "A marked mock series with error analysis, so the student walks into the exam knowing their own weak spots are closed",
+      "Presentation habits the marking scheme rewards: figures drawn, steps shown, units stated",
+      "A solid base for Class 11, whichever stream the student chooses"
+    ]
+  },
+  "phase_1_number_systems_and_algebra": {
+    "title": "PHASE 1: Number Systems and Algebra (Months 1-3, Weeks 1-12)",
+    "description": "The heaviest unit first. Algebra alone carries 20 of the 80 theory marks, and with Real Numbers this phase covers 26. Every chapter closes with board-style MCQ and case-study practice.",
+    "month_1_real_numbers_and_polynomials": {
+      "title": "Month 1: Real Numbers and Polynomials",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: Real Numbers",
+        "topics": [
+          "Diagnostic paper on Class 9 essentials: identities, linear equations, basic geometry",
+          "The fundamental theorem of arithmetic and prime factorisation",
+          "HCF and LCM by prime factorisation, and the HCF x LCM relationship",
+          "Proving irrationality: root 2, root 3, root 5 by contradiction, written to board standard",
+          "Word problems on HCF and LCM: bells, circular tracks, stacking crates",
+          "Board question forms for this chapter: 1-mark MCQs and 2-3 mark proofs"
+        ],
+        "projects": [
+          "Chapter question bank entry: 15 solved board-style questions on real numbers, built and kept by the student"
+        ],
+        "practice": "25 prime factorisation and HCF-LCM problems plus 3 irrationality proofs written out in full board steps"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Polynomials",
+        "topics": [
+          "Zeros of a polynomial read from the graph: where the curve cuts the x-axis",
+          "Geometric meaning of zeros for linear and quadratic polynomials",
+          "Relationship between zeros and coefficients of a quadratic polynomial",
+          "Forming a quadratic polynomial from given zeros",
+          "Verification questions: checking the zero-coefficient relationships",
+          "MCQ traps in this chapter: sign errors and reversed relationships"
+        ],
+        "projects": [
+          "Graph-reading sheet: 8 polynomial graphs interpreted for number and sign of zeros"
+        ],
+        "practice": "30 zeros-and-coefficients problems, 10 of them MCQ format, misses redone with the relationship written out",
+        "assessment": "Month 1 test: a 25-mark paper on Real Numbers and Polynomials in board format, marked with the board's stepwise scheme"
+      }
+    },
+    "month_2_linear_and_quadratic_equations": {
+      "title": "Month 2: Pair of Linear Equations and Quadratic Equations",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Pair of Linear Equations in Two Variables",
+        "topics": [
+          "Graphical solution: consistent, inconsistent and dependent pairs seen as line pictures",
+          "The ratio test for number of solutions, and why it works",
+          "Substitution method with clean recording of steps",
+          "Elimination method and choosing which variable to remove",
+          "Word problems: ages, two-digit numbers, speeds and boats, fixed plus per-unit costs",
+          "Case-study practice: fare structures and cafeteria pricing, the board's favourite settings"
+        ],
+        "projects": [
+          "Word-problem translation drill: 10 situations converted to equation pairs before any solving"
+        ],
+        "practice": "20 equation pairs solved by the method of your choice plus 6 word problems and 1 full case study, self-timed"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Quadratic Equations",
+        "topics": [
+          "Standard form and checking whether an equation is quadratic",
+          "Solving by factorisation: splitting the middle term with speed",
+          "The quadratic formula, derived once and then drilled",
+          "The discriminant and nature of roots: real, equal, or none",
+          "Word problems: consecutive numbers, areas, speed-time, work problems",
+          "Finding unknown coefficients from conditions on the roots"
+        ],
+        "projects": [
+          "Chapter question bank entry: 15 solved board-style quadratics including 2 case studies"
+        ],
+        "practice": "25 quadratics split between factorisation and formula, plus 8 nature-of-roots questions with reasons stated",
+        "assessment": "Month 2 test: a 30-mark paper on both equation chapters with MCQ, short answer and one case study"
+      }
+    },
+    "month_3_arithmetic_progressions": {
+      "title": "Month 3: Arithmetic Progressions and Algebra Consolidation",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Arithmetic Progressions",
+        "topics": [
+          "Recognising an AP and finding the common difference",
+          "The nth term formula, forwards and in reverse: which term is 78",
+          "Sum of the first n terms, both formula forms and when each helps",
+          "Word problems: instalments, salaries, theatre seating, ladder rungs",
+          "Three unknowns from two conditions: combining the nth term and sum formulas",
+          "AP case studies: savings plans and stacked logs in board style"
+        ],
+        "projects": [
+          "AP situations sheet: 8 real-life progressions identified, with first term and difference extracted"
+        ],
+        "practice": "30 AP problems from nth term to sums, including 5 word problems and 1 case study, misses logged by type"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Algebra Unit Under Board Conditions",
+        "topics": [
+          "Mixed revision across all five phase 1 chapters",
+          "Stepwise presentation clinic: what the marking scheme pays for and what it ignores",
+          "Assertion-reason questions: the logic and the common traps",
+          "Case-study workshop: reading the stem once, answering all sub-parts efficiently",
+          "Timed sectional practice: the algebra questions of a sample paper in isolation",
+          "Error log review: each student's top three algebra weak spots named and drilled"
+        ],
+        "projects": [
+          "Personal error log formalised: every phase 1 test miss classified as concept, method or presentation"
+        ],
+        "practice": "One timed algebra-only sectional paper plus 10 assertion-reason questions, reviewed against the marking scheme",
+        "assessment": "Phase 1 milestone: a 40-mark algebra and number systems paper in full board format, 50 percent competency questions"
+      }
+    }
+  },
+  "phase_2_geometry_and_trigonometry": {
+    "title": "PHASE 2: Geometry, Coordinate Geometry and Trigonometry (Months 4-6, Weeks 13-24)",
+    "description": "The proof-and-figure half of the paper: 33 marks across Geometry, Coordinate Geometry and Trigonometry, where drawing the figure and showing the steps is most of the battle.",
+    "month_4_triangles_and_coordinates": {
+      "title": "Month 4: Triangles and Coordinate Geometry",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Triangles and Similarity",
+        "topics": [
+          "Similar figures and what similarity actually claims",
+          "The basic proportionality theorem and its converse, proved and applied",
+          "Similarity criteria: AA, SSS and SAS, with when to use which",
+          "Finding lengths in nested and overlapping triangle figures",
+          "Writing a geometry proof the board way: given, to prove, construction, proof",
+          "Similarity in the wild: shadows, ramps and scale models as case studies"
+        ],
+        "projects": [
+          "Proof portfolio started: BPT and two similarity applications written to full board standard"
+        ],
+        "practice": "20 similarity problems including 4 proofs written out in the four-part format, figures drawn for every question"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Coordinate Geometry",
+        "topics": [
+          "The distance formula, derived from Pythagoras and drilled",
+          "Types of triangles and quadrilaterals verified by distances",
+          "The section formula and midpoint as its special case",
+          "Finding ratios: where the x-axis cuts a line segment",
+          "Collinearity and equidistance problems",
+          "Coordinate case studies: layouts of gardens, flags on a sports field"
+        ],
+        "projects": [
+          "Chapter question bank entry: 12 solved coordinate geometry questions across all board formats"
+        ],
+        "practice": "25 distance and section formula problems with a labelled sketch for each, plus 1 case study",
+        "assessment": "Month 4 test: a 25-mark paper on Triangles and Coordinate Geometry with one full proof question"
+      }
+    },
+    "month_5_trigonometry": {
+      "title": "Month 5: Trigonometry and Its Applications",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Introduction to Trigonometry",
+        "topics": [
+          "The six ratios defined in a right triangle, with the naming logic",
+          "Exact values for 0, 30, 45, 60 and 90 degrees, and how to rebuild the table from two triangles",
+          "Finding all ratios when one is given",
+          "The fundamental identity and its two rearrangements",
+          "Proving trigonometric identities: strategy, not trial and error",
+          "MCQ speed work on ratio values and identity recognition"
+        ],
+        "projects": [
+          "Identity toolkit card: the identities plus the five standard proof moves, in the student's own words"
+        ],
+        "practice": "30 ratio evaluations and 8 identity proofs, each proof annotated with which move was used at each step"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Heights and Distances",
+        "topics": [
+          "Angles of elevation and depression, and reading them off a clean figure",
+          "The non-negotiable first step: draw and label the right triangle",
+          "Single-triangle problems: towers, kites, ladders",
+          "Two-triangle problems: two observers, moving closer, two levels",
+          "Choosing the ratio that solves in one step instead of three",
+          "Case studies: lighthouses, drones and temple towers in board style"
+        ],
+        "projects": [
+          "Figure-first drill set: 10 heights and distances problems where the marked figure is drawn before any calculation"
+        ],
+        "practice": "18 heights and distances problems including 4 two-triangle setups and 1 case study, every figure labelled",
+        "assessment": "Month 5 test: a 25-mark trigonometry paper mixing ratios, identities and applications"
+      }
+    },
+    "month_6_circles_and_consolidation": {
+      "title": "Month 6: Circles and the Half-Syllabus Checkpoint",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Circles and Tangents",
+        "topics": [
+          "Tangents and secants: what touching actually means",
+          "The tangent-radius perpendicularity theorem, proved and used",
+          "Equal tangents from an external point, proved and used",
+          "Angle chasing in tangent figures using both theorems",
+          "Lengths in circumscribed quadrilaterals and triangles",
+          "Circle proofs written to the four-part board standard"
+        ],
+        "projects": [
+          "Proof portfolio extended: both tangent theorems plus two applications written in full"
+        ],
+        "practice": "20 circle problems including 3 proofs and 5 angle-chasing figures, figures redrawn not copied"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Half-Syllabus Mock and Review",
+        "topics": [
+          "Structured revision across phases 1 and 2: one summary mat per chapter",
+          "Half-syllabus mock in full board format and timing",
+          "Marking workshop: students mark an anonymised script against the scheme",
+          "Error clinic: every mock miss classified and assigned a drill",
+          "Basic versus Standard conversation opens: what the mock evidence suggests for each student",
+          "Presentation audit: figures, steps and units checked across the whole script"
+        ],
+        "projects": [
+          "Half-syllabus mock with a written self-review: three strengths, three fixes, one habit to change"
+        ],
+        "practice": "Redo every mock miss untimed with full working, then a 15-question drill on your weakest chapter",
+        "assessment": "Phase 2 milestone: half-syllabus board-format mock covering all ten chapters taught so far"
+      }
+    }
+  },
+  "phase_3_mensuration_statistics_probability": {
+    "title": "PHASE 3: Mensuration, Statistics and Probability (Months 7-8, Weeks 25-32)",
+    "description": "The final 21 marks of new content: areas related to circles, combined solids, grouped data and probability, all heavy with the data-interpretation forms the competency questions love.",
+    "month_7_mensuration": {
+      "title": "Month 7: Areas Related to Circles and Combined Solids",
+      "weeks": "Weeks 25-28",
+      "week_25_26": {
+        "title": "Weeks 25-26: Areas Related to Circles",
+        "topics": [
+          "Sector area and arc length, tied back to the fraction of the full circle",
+          "Segment area: sector minus triangle, set up cleanly",
+          "Combination figures: designs, running tracks, flower beds",
+          "Working with standard angles in sectors and segments",
+          "Leaving answers in terms of pi versus computing, and when the paper wants which",
+          "Case studies: clock faces, umbrellas and window designs"
+        ],
+        "projects": [
+          "Combination-figure sheet: 8 shaded-region problems with the decomposition drawn before any formula"
+        ],
+        "practice": "20 sector, segment and shaded-region problems with the decomposition stated in one line each time"
+      },
+      "week_27_28": {
+        "title": "Weeks 27-28: Surface Areas and Volumes",
+        "topics": [
+          "Surface areas and volumes of cube, cuboid, cylinder, cone, sphere and hemisphere, consolidated",
+          "Combined solids: capsule, tent, ice-cream cone, toy on a hemisphere",
+          "Which surfaces vanish when solids join: the one idea behind every surface-area question",
+          "Volume problems on combined solids",
+          "Unit discipline: cubic centimetres, litres and the conversions the board expects",
+          "Case studies: storage tanks, medicine capsules and circus tents"
+        ],
+        "projects": [
+          "Solid dissection cards: 6 combined solids sketched, split into parts, with the joining surfaces marked"
+        ],
+        "practice": "18 combined-solid problems, half surface area and half volume, units checked on every answer",
+        "assessment": "Month 7 test: a 20-mark mensuration paper including one case study and one MCQ set"
+      }
+    },
+    "month_8_statistics_and_probability": {
+      "title": "Month 8: Statistics and Probability",
+      "weeks": "Weeks 29-32",
+      "week_29_30": {
+        "title": "Weeks 29-30: Statistics of Grouped Data",
+        "topics": [
+          "Grouped frequency tables: class marks, limits and boundaries",
+          "Mean by the direct method, assumed mean and step deviation, and when each saves time",
+          "Median of grouped data: the cumulative frequency column done carefully",
+          "Mode of grouped data and the modal class",
+          "Reading and interpreting data tables the way competency questions present them",
+          "Choosing between mean, median and mode when a question asks which represents the data"
+        ],
+        "projects": [
+          "Data study: the student collects a real dataset from home or school, groups it and computes all three measures"
+        ],
+        "practice": "12 full grouped-data problems covering all three measures, tables laid out to board standard"
+      },
+      "week_31_32": {
+        "title": "Weeks 31-32: Probability and the Content Finish Line",
+        "topics": [
+          "Classical probability: equally likely outcomes and the counting behind them",
+          "Cards, dice, coins and balls: the standard sample spaces mastered",
+          "Complementary events and the not-happening shortcut",
+          "Two-object experiments: two dice, two coins, drawn without replacement kept simple",
+          "Probability case studies and data-linked questions",
+          "Full-syllabus map: every chapter now taught, revision plan issued"
+        ],
+        "projects": [
+          "Chapter question bank completed: the student's own solved bank now covers all 14 chapters"
+        ],
+        "practice": "30 probability questions from single events to two-object experiments, plus 1 case study",
+        "assessment": "Phase 3 milestone: a 25-mark statistics and probability paper, plus the full-syllabus revision plan agreed with each student"
+      }
+    }
+  },
+  "phase_4_revision_and_mocks": {
+    "title": "PHASE 4: Revision and the Mock Cycle (Months 9-10, Weeks 33-40)",
+    "description": "No new content, on purpose. Structured revision by unit, then CBSE sample papers and previous-year papers under real timing, each followed by an error clinic.",
+    "month_9_structured_revision": {
+      "title": "Month 9: Structured Revision",
+      "weeks": "Weeks 33-36",
+      "week_33_34": {
+        "title": "Weeks 33-34: Algebra and Number Systems Revisited",
+        "topics": [
+          "Rapid re-teach of the five algebra-phase chapters, driven by each student's error log",
+          "Mixed-chapter problem sets: questions that do not announce their chapter",
+          "MCQ sprint sessions: 20 questions in 25 minutes with instant review",
+          "Case-study circuit: four stems across four chapters in one sitting",
+          "Formula-free fluency check: rebuilding key formulas from scratch",
+          "One-page revision sheets finalised per chapter"
+        ],
+        "projects": [
+          "Revision sheet set one: student-made single pages for all five algebra-phase chapters"
+        ],
+        "practice": "One mixed algebra paper of 30 marks self-timed, plus 20 MCQs, both marked in class"
+      },
+      "week_35_36": {
+        "title": "Weeks 35-36: Geometry, Trigonometry and the Data Chapters Revisited",
+        "topics": [
+          "Proof rehearsal: BPT, tangent theorems and identity proofs rewritten from memory",
+          "Heights and distances mixed set, figures first as always",
+          "Mensuration decomposition drills on unseen combination figures",
+          "Statistics and probability rapid set with full table discipline",
+          "The 50 percent competency share: reviewing what the recent board papers actually asked",
+          "Time budgeting: minutes per section planned for the 3-hour paper"
+        ],
+        "projects": [
+          "Revision sheet set two: single pages for the remaining nine chapters, completing the personal revision pack"
+        ],
+        "practice": "One mixed geometry-trigonometry paper of 30 marks self-timed, plus a 15-question data-chapters drill",
+        "assessment": "Month 9 checkpoint: two sectional papers marked against the board scheme, error logs updated"
+      }
+    },
+    "month_10_mock_cycle": {
+      "title": "Month 10: The Mock Cycle",
+      "weeks": "Weeks 37-40",
+      "week_37_38": {
+        "title": "Weeks 37-38: Sample Papers Under Real Timing",
+        "topics": [
+          "The CBSE sample paper attempted in one 3-hour sitting",
+          "Marking against the official scheme, step by step",
+          "Error clinic one: concept gaps versus presentation losses separated",
+          "Previous-year paper attempted under timing",
+          "Question selection strategy: order of attack, when to move on, returning to parked questions",
+          "Handling the case-study section efficiently: stem once, sub-parts in order"
+        ],
+        "projects": [
+          "Mock file opened: each paper filed with its marked script, error classification and one-line fix per miss"
+        ],
+        "practice": "Between classes: one additional sample paper attempted at home under honest timing, brought marked to class"
+      },
+      "week_39_40": {
+        "title": "Weeks 39-40: Final Mocks and Exam Craft",
+        "topics": [
+          "Two final full mocks under strict conditions, spaced for recovery",
+          "Error clinic two: closing the last recurring mistakes",
+          "Presentation final pass: figures, steps, units, boxed answers",
+          "The last 48 hours: what to revise, what to leave alone, sleep over cramming",
+          "Exam-day routine: admit card to answer script, walked through calmly",
+          "Course close: results of the mock series reviewed with each family"
+        ],
+        "projects": [
+          "Completed mock file: the full series with scores charted, handed to the student as their evidence of readiness"
+        ],
+        "practice": "Light targeted drills only, set individually from each student's final error log",
+        "assessment": "Course milestone: final full-syllabus mock in board format, reviewed one-on-one, plus certificate review"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A personal chapter question bank: 12-15 solved board-style questions per chapter, built across all 14 chapters",
+      "A proof portfolio: every syllabus theorem written to the four-part board standard",
+      "A personal error log maintained from month 1 and used to steer revision",
+      "Word-problem translation drills for both equation chapters",
+      "A real-data statistics study grouped and analysed by the student",
+      "One-page revision sheets for all 14 chapters, student-made",
+      "A half-syllabus mock at month 6 and a full mock series in month 10",
+      "The completed mock file: marked scripts, error classifications and score chart"
+    ],
+    "total_projects_built": "A complete self-built revision system: question bank, proof portfolio, revision sheets, error log and marked mock file",
+    "skills_mastered": [
+      "Every chapter of the 2026-27 CBSE Class 10 Maths syllabus, taught to Standard (041) depth",
+      "Case-study, MCQ and assertion-reason technique for the competency-heavy board pattern",
+      "Geometry and identity proofs written the way the marking scheme pays",
+      "Grouped-data statistics and classical probability with full table discipline",
+      "Timed paper craft: question selection, time budgeting and clean presentation",
+      "Self-review: marking your own work against a scheme and classifying your own errors"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week; mock-phase sittings run longer for full papers",
+      "practice": "3-4 hours weekly of problem sets and question-bank building, rising with timed papers in months 9-10",
+      "review": "Homework marked against board-style stepwise schemes; error logs reviewed with the teacher monthly"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, alongside the student's marked mock series"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with worked solutions for stuck problems",
+      "progress_updates": "Monthly progress notes to parents with test scores and the error-log summary, plus a Standard versus Basic recommendation by mid-course"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "Class 9 promotion. Weak spots in Class 9 algebra or geometry are caught by the week 1 diagnostic and patched inside the course",
+    "board": "Built for CBSE Class 10, both Mathematics Standard (041) and Mathematics Basic (241). Students of other boards are better served by our other maths courses",
+    "equipment": "NCERT Class 10 Maths textbook, a geometry box, notebooks, and a device with stable internet for live classes",
+    "timing": "Best joined at the start of Class 10; mid-year joiners get a catch-up plan after the diagnostic"
+  },
+  "who_is_this_for": {
+    "board_year_students": "CBSE Class 10 students who want the syllabus finished early and the board pattern practised properly, not crammed",
+    "students_choosing_standard": "Students keeping science or maths streams open for Class 11, who need Standard (041) depth and proof fluency",
+    "students_considering_basic": "Students unsure between Standard and Basic, who want the choice made on test evidence rather than fear",
+    "case_study_strugglers": "Students who know the methods but lose marks on the long competency stems and data questions",
+    "presentation_losers": "Students whose answers are right but whose marks are not, because steps, figures and units go missing"
+  },
+  "career_paths_after_completion": [
+    "Class 11 Mathematics in the science or commerce stream, entered with the Class 10 base genuinely solid",
+    "Class 11 Applied Mathematics for students who took the Basic paper route",
+    "Our JEE Foundation and higher maths courses for students aiming at engineering entrances",
+    "Computer science and economics electives, both of which lean on Class 10 algebra and statistics",
+    "Confident handling of any exam built on the competency pattern, which CBSE is extending across subjects"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "Should my child take Mathematics Standard (041) or Basic (241)?",
+      "answer": "Both papers cover the same syllabus; Standard asks harder questions. Standard is the safer choice for students keeping science or maths-based streams open, while Basic suits students certain they will not continue maths after Class 10. The rules have also loosened: from the 2025-26 session CBSE allows students who took Basic to move to Standard Mathematics in Class 11, subject to the school being satisfied they can cope. We teach to Standard depth by default and give each family a data-backed recommendation by mid-course, based on the student's own test scores."
+    },
+    {
+      "question": "What is the current CBSE Class 10 Maths exam pattern?",
+      "answer": "The subject is assessed out of 100: an 80-mark theory paper and 20 marks of school-conducted internal assessment. In recent board papers roughly 50 percent of the theory questions are competency-based, meaning case studies, data interpretation and situational problems, with about 20 percent MCQs and 30 percent traditional short and long answers. The whole course is built around that split, which is why case-study practice starts in week 1 rather than in the revision phase."
+    },
+    {
+      "question": "What are case-study questions and how do you prepare students for them?",
+      "answer": "A case study gives a short real-world stem, a savings plan, a temple tower, a cafeteria price list, followed by three or four sub-questions drawn from the syllabus. Students rarely lack the maths; they lose marks to slow reading and poor extraction of the given data. We close every chapter with case studies in the board's own style and teach a fixed routine: read the stem once, list the givens, answer sub-parts in order. By the mock phase the format is routine."
+    },
+    {
+      "question": "Is the NCERT textbook enough for the board exam?",
+      "answer": "NCERT is the core, and every board question is rooted in it, so we work through it completely, including the examples students usually skip. For Standard-paper depth we add NCERT Exemplar problems, CBSE sample papers and previous-year questions, because the competency questions dress NCERT ideas in unfamiliar settings and a student who has only seen textbook phrasing can freeze. No private publisher guides are required."
+    },
+    {
+      "question": "How does the course handle the syllabus itself? Has anything changed?",
+      "answer": "We teach the 2026-27 syllabus as CBSE released it: 14 NCERT chapters across seven units, with the 80 theory marks weighted 20 to Algebra, 15 to Geometry, 12 to Trigonometry, 11 to Statistics and Probability, 10 to Mensuration, and 6 each to Number Systems and Coordinate Geometry. Constructions remains out of the syllabus, as it has been in recent sessions, and no new chapter deletions were made for 2026-27. If CBSE issues a mid-year circular, the course plan is adjusted the same week."
+    },
+    {
+      "question": "What about the internal assessment marks? Do you help with those?",
+      "answer": "The 20 internal marks are awarded by the school: 10 for periodic tests (the best two count), 5 for the portfolio of notebooks and assignments, and 5 for maths lab activities with viva. We cannot award those marks, but the course feeds them directly: our monthly tests mirror periodic-test formats, and the question bank, proof portfolio and revision sheets the student builds all belong in a portfolio a school is happy to see."
+    },
+    {
+      "question": "I have heard Class 10 boards are now held twice a year. How does the course schedule work with that?",
+      "answer": "Yes, CBSE has moved Class 10 to two board sittings from 2026, with the main exam in February and an optional second sitting in May for improvement. Our 10-month plan targets the February main exam: content finishes by month 8, and months 9 and 10 are revision and full mock cycles timed to peak just before the paper. A student who chooses the May sitting to improve keeps their revision system, mock file and error log, which is most of what a second attempt needs."
+    },
+    {
+      "question": "Can my child join mid-year, and do you promise a particular score?",
+      "answer": "Mid-year joining works until about month 5; the week 1 diagnostic tells us what has been missed and the catch-up plan covers it through extra problem sets and doubt sessions. On scores we are direct: nobody can honestly promise board marks, and we do not. What we commit to is full syllabus coverage, board-pattern practice from the first chapter, a marked mock series, and honest monthly reporting so you always know exactly where your child stands."
+    },
+    {
+      "question": "What does the course cost, and can we try it first?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $100 per month for group classes and $150 per month for 1-on-1. The first demo class is free: book at learn.modernagecoders.com/contact or on WhatsApp at +91 91233 66161."
+    }
+  ]
+}
