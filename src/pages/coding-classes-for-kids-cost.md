@@ -106,6 +106,33 @@ Book a free demo class and see what a full hour of deep, project-first coding te
 
 [Book a free demo](/book-demo)[See what our students built](/student-labs)
 
+Parent & student voices
+
+## What our families say
+
+Real, verified reviews from Modern Age Coders families. Read hundreds more on our [Wall of Love](/love).
+
+★★★★★
+
+> “Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training.”
+
+*VVikram Joshi
+Working Professional*
+
+★★★★★
+
+> “The amount of hands-on practice is insane. Built 15+ projects in 3 months. Each one taught me something new. Theory + Practice = Perfect combination.”
+
+*AAditya Singh
+College Student, BCA*
+
+★★★★★
+
+> “They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!”
+
+*NNeha Desai
+Grade 6 Student*
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-for-kids-cost*

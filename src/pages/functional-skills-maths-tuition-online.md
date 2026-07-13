@@ -252,6 +252,41 @@ Tell us the level you need and your deadline. We'll assess where you are calmly 
 
 [UK · adultsMaths Classes for Adults](/online-maths-classes-for-adults-in-uk)[UK · examGCSE Maths Tuition](/gcse-maths-tuition-online)[UK · 16–19College & Sixth Form Maths](/online-maths-tuition-for-college-students-in-uk)[USA · adultsMaths Classes for Adults (USA)](/online-maths-classes-for-adults-in-usa)[UK · KS3/KS4Maths Tuition for Teens](/online-maths-tuition-for-teens-in-uk)[CourseBusiness & Finance Mathematics](/courses/complete-business-finance-mathematics-mastery)
 
+Real student projects
+
+## What our students actually build
+
+Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
+
+[![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync — AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast — Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle — AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle — AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)
+
+Parent & student voices
+
+## What our families say
+
+Real, verified reviews from Modern Age Coders families. Read hundreds more on our [Wall of Love](/love).
+
+★★★★★
+
+> “Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore, I'm engineering solutions.”
+
+*SSanjay Deshmukh
+Working Professional*
+
+★★★★★
+
+> “They practice A LOT. Not just 2-3 problems, but 20-30 variations until the concept is crystal clear. My kids can now solve problems they've never seen before.”
+
+*MMr. Rajesh Kumar
+Parent of Twins*
+
+★★★★★
+
+> “My daughter used to memorize formulas blindly. Here they derive everything from scratch using real examples. She now understands the logic behind multiplication itself!”
+
+*MMrs. Priya Patel
+Parent of Ananya (Grade 3)*
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/functional-skills-maths-tuition-online*

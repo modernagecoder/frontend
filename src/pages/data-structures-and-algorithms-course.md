@@ -294,6 +294,33 @@ Build the problem-solving foundation that pays off for the rest of your coding l
 
 Reserve your seat — ₹1499/month[Book a free demo](/book-demo)
 
+Parent & student voices
+
+## What our families say
+
+Real, verified reviews from Modern Age Coders families. Read hundreds more on our [Wall of Love](/love).
+
+★★★★★
+
+> “Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease.”
+
+*SSamriddha Mondal
+Student*
+
+★★★★★
+
+> “My son struggled with percentages and ratios. The teachers here explained it using money, discounts, and recipes—real things he sees daily. Now he calculates discounts faster than me! Understanding the 'how' and 'why' changed everything.”
+
+*MMr. Suresh Patel
+Parent of Vihaan (Grade 6)*
+
+★★★★★
+
+> “I absolutely love it here! I made new friends and learned important valuable coding skills while having the fun of my life. It's not just coding here, it's outings, bonding and most importantly preparing you for your future. Definitely five stars.”
+
+*YYug Rathore
+Student*
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/data-structures-and-algorithms-course*

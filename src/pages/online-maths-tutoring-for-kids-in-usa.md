@@ -252,6 +252,41 @@ Meet the mentor, see how we teach, and watch your child explain a piece of math 
 
 [USA · ages 12–17Maths Tutoring for Teens](/online-maths-tutoring-for-teens-in-usa)[USA · collegeMaths Tutoring for College Students](/online-maths-tutoring-for-college-students-in-usa)[USA · competitionMath Olympiad & AMC Coaching](/math-olympiad-amc-tutoring)[USA · homeschoolHomeschool Math Curriculum](/homeschool-math-curriculum-usa)[UK · primaryMaths Tuition for Kids in the UK](/online-maths-tuition-for-kids-in-uk)[CourseElementary Mathematics Masterclass](/courses/elementary-mathematics-complete-masterclass)
 
+Real student projects
+
+## What our students actually build
+
+Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
+
+[![Moxo — Company Landing Page](/images/projects/moxo.webp)Web AppMoxo — Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby — Typing Speed Challenge](/images/projects/baby.webp)GameBaby — Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay — Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay — Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)
+
+Parent & student voices
+
+## What our families say
+
+Real, verified reviews from Modern Age Coders families. Read hundreds more on our [Wall of Love](/love).
+
+★★★★★
+
+> “Sir explained calculus using a car's speedometer! Suddenly derivatives made perfect sense. No rote learning, just pure understanding. Scored 98% in math!”
+
+*AArjun Mehta
+Grade 9 Student*
+
+★★★★★
+
+> “Ma'am uses toys and drawings to teach fractions! I understood why 1/2 is bigger than 1/4 by cutting a pizza. Math is so easy when you see it in real life!”
+
+*RRiya Gupta
+Kid, Grade 4*
+
+★★★★★
+
+> “They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold.”
+
+*KKavya Iyer
+Teen, Grade 11*
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/online-maths-tutoring-for-kids-in-usa*

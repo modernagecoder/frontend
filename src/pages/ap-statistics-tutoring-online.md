@@ -252,6 +252,41 @@ Tell us where your student is in the course and how the FRQs are going. We'll sh
 
 [USA · APAP Calculus AB & BC](/ap-calculus-tutoring-online)[USA · collegeMaths for College Students](/online-maths-tutoring-for-college-students-in-usa)[USA · adultsMaths Classes for Adults](/online-maths-classes-for-adults-in-usa)[USA · grades 6–12Maths Tutoring for Teens](/online-maths-tutoring-for-teens-in-usa)[USA · examSAT Math Prep](/sat-math-tutoring-online)[CourseData Analytics Mathematics](/courses/data-analytics-mathematics-masterclass)
 
+Real student projects
+
+## What our students actually build
+
+Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
+
+[![Palm Arcana — Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana — Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)[![LumenFX — AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX — AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)[![Doodle Dash — 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash — 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it — then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)
+
+Parent & student voices
+
+## What our families say
+
+Real, verified reviews from Modern Age Coders families. Read hundreds more on our [Wall of Love](/love).
+
+★★★★★
+
+> “They derive every formula from basic principles. I learned why (a+b)² = a² + 2ab + b² by actually drawing squares and rectangles. Visual proofs make concepts stick forever. I never need to memorize—I just understand!”
+
+*IIshita Reddy
+Grade 9 Student*
+
+★★★★★
+
+> “Trigonometry made zero sense until they showed me how it works with actual triangles and circles. They explained WHY sin²θ + cos²θ = 1 using geometry. Once I saw the proof, I never forgot it. This is how math should be taught!”
+
+*PPriya Malhotra
+Grade 11 Student*
+
+★★★★★
+
+> “My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!”
+
+*MMrs. Meera Jain
+Parent of Aadhya (Grade 5)*
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/ap-statistics-tutoring-online*

@@ -285,6 +285,33 @@ Tell us about your project and we'll get back to you within 24 hours
 
 Mon - Sat: 9:00 AM - 6:00 PM
 
+Parent & student voices
+
+## What our families say
+
+Real, verified reviews from Modern Age Coders families. Read hundreds more on our [Wall of Love](/love).
+
+★★★★★
+
+> “One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.”
+
+*VVansh Agarwal
+Student*
+
+★★★★★
+
+> “They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!”
+
+*RRohan Kapoor
+Grade 10 Student*
+
+★★★★★
+
+> “Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.”
+
+*SSonu Goyal
+Parent*
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/business-solutions*

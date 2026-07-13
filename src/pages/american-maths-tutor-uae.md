@@ -242,6 +242,14 @@ Tell us your child's grade and goal — a math course, the SAT, or an AP. We'll 
 
 [ExamSAT Math Prep](/sat-math-tutoring-online)[APAP Calculus AB & BC](/ap-calculus-tutoring-online)[APAP Statistics](/ap-statistics-tutoring-online)[UAE · teensMaths Tuition for Teens](/maths-tuition-for-teens-uae)[UAE · emirateMaths Tutor in Dubai](/maths-tutor-in-dubai)[UAE · hubAll UAE Maths Tuition](/online-maths-tuition-uae)
 
+Real student projects
+
+## What our students actually build
+
+Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
+
+[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti — AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti — AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/american-maths-tutor-uae*

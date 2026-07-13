@@ -252,6 +252,41 @@ Your teen meets the mentor, we find the gap that's actually holding the grade do
 
 [USA · examSAT Math Prep](/sat-math-tutoring-online)[USA · examACT Math Prep](/act-math-tutoring-online)[USA · topicAlgebra Tutoring](/algebra-tutoring-online-usa)[USA · topicGeometry Tutoring](/geometry-tutoring-online-usa)[USA · ages 6–11Maths Tutoring for Kids](/online-maths-tutoring-for-kids-in-usa)[CourseHigh School Mathematics Masterclass](/courses/complete-high-school-mathematics-mastery)
 
+Real student projects
+
+## What our students actually build
+
+Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
+
+[![SkyCast — Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle — AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle — AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo — Company Landing Page](/images/projects/moxo.webp)Web AppMoxo — Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)
+
+Parent & student voices
+
+## What our families say
+
+Real, verified reviews from Modern Age Coders families. Read hundreds more on our [Wall of Love](/love).
+
+★★★★★
+
+> “The amount of hands-on practice is insane. Built 15+ projects in 3 months. Each one taught me something new. Theory + Practice = Perfect combination.”
+
+*AAditya Singh
+College Student, BCA*
+
+★★★★★
+
+> “They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!”
+
+*NNeha Desai
+Grade 6 Student*
+
+★★★★★
+
+> “Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class.”
+
+*SShradha Saraf
+Parent of Mivaan*
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/online-maths-tutoring-for-teens-in-usa*

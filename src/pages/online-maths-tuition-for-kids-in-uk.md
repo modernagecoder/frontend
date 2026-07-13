@@ -252,6 +252,14 @@ Meet the tutor, see how we teach, and watch your child explain a piece of maths 
 
 [UK · KS2KS2 Maths Tuition (SATs)](/ks2-maths-tuition-online)[UK · entry11 Plus Maths Tuition](/11-plus-maths-tuition)[UK · KS3/KS4Maths Tuition for Teens](/online-maths-tuition-for-teens-in-uk)[UK · KS3KS3 Maths Tuition](/ks3-maths-tuition-online)[USA · ages 6–11Maths Tutoring for Kids (USA)](/online-maths-tutoring-for-kids-in-usa)[CourseElementary Mathematics Masterclass](/courses/elementary-mathematics-complete-masterclass)
 
+Real student projects
+
+## What our students actually build
+
+Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
+
+[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[![Simon Game](/images/projects/simongame.webp)GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge — brain-boosting for kids learning logic and focus.by YashaswiOpen the live project ↗](http://yashaswi-2017.my.canva.site)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/online-maths-tuition-for-kids-in-uk*

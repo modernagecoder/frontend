@@ -252,6 +252,14 @@ We'll hand your child a couple of competition problems, see how they think, and 
 
 [UK · competitionUKMT Maths Challenge](/ukmt-maths-challenge-tutoring)[USA · grades 6–12Maths Tutoring for Teens](/online-maths-tutoring-for-teens-in-usa)[USA · examSAT Math Prep](/sat-math-tutoring-online)[USA · topicGeometry Tutoring](/geometry-tutoring-online-usa)[USA · ages 6–11Maths Tutoring for Kids](/online-maths-tutoring-for-kids-in-usa)[CourseOlympiad & Competition Mathematics](/courses/olympiad-competition-mathematics-mastery)
 
+Real student projects
+
+## What our students actually build
+
+Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
+
+[![BookDesk — AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk — AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync — AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast — Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/math-olympiad-amc-tutoring*

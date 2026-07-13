@@ -70,7 +70,36 @@ Syllabus-aware Python tracks for middle and high school, including CBSE-specific
 
 All our classes are live, online and 1-on-1. Every student from anywhere in India or the world gets the same expert-led program. Book a free demo and we'll match you with the right batch.
 
-[Book a free demo →](/book-demo)[Ask Misti AI](https://misti.modernagecoders.com)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[Book a free demo →](/book-demo)
+
+Parent & student voices
+
+## What our families say
+
+Real, verified reviews from Modern Age Coders families. Read hundreds more on our [Wall of Love](/love).
+
+★★★★★
+
+> “Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore, I'm engineering solutions.”
+
+*SSanjay Deshmukh
+Working Professional*
+
+★★★★★
+
+> “They practice A LOT. Not just 2-3 problems, but 20-30 variations until the concept is crystal clear. My kids can now solve problems they've never seen before.”
+
+*MMr. Rajesh Kumar
+Parent of Twins*
+
+★★★★★
+
+> “My daughter used to memorize formulas blindly. Here they derive everything from scratch using real examples. She now understands the logic behind multiplication itself!”
+
+*MMrs. Priya Patel
+Parent of Ananya (Grade 3)*
+
+[Ask Misti AI](https://misti.modernagecoders.com)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

@@ -252,6 +252,41 @@ Tell us about your child and how you homeschool. We'll assess where they are and
 
 [USA · ages 6–11Maths Tutoring for Kids](/online-maths-tutoring-for-kids-in-usa)[USA · grades 6–12Maths Tutoring for Teens](/online-maths-tutoring-for-teens-in-usa)[USA · competitionMath Olympiad & AMC](/math-olympiad-amc-tutoring)[USA · topicAlgebra Tutoring](/algebra-tutoring-online-usa)[USA · collegeMaths for College Students](/online-maths-tutoring-for-college-students-in-usa)[CourseElementary Mathematics Masterclass](/courses/elementary-mathematics-complete-masterclass)
 
+Real student projects
+
+## What our students actually build
+
+Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
+
+[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy — Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
+
+Parent & student voices
+
+## What our families say
+
+Real, verified reviews from Modern Age Coders families. Read hundreds more on our [Wall of Love](/love).
+
+★★★★★
+
+> “Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class.”
+
+*SShradha Saraf
+Parent of Mivaan*
+
+★★★★★
+
+> “I tried 3 other platforms before this. Everyone teaches 'what' to code. Only Modern Age Coders taught me 'how it actually works'. The depth is unmatched.”
+
+*DDiya Kapoor
+Working Professional*
+
+★★★★★
+
+> “Sir explained calculus using a car's speedometer! Suddenly derivatives made perfect sense. No rote learning, just pure understanding. Scored 98% in math!”
+
+*AArjun Mehta
+Grade 9 Student*
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/homeschool-math-curriculum-usa*

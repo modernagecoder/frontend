@@ -184,7 +184,7 @@ Web App
 
 A beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.
 
-by by Vedant · [Open the live project ↗](https://myday.modernagecoders.com)
+by Vedant · [Open the live project ↗](https://myday.modernagecoders.com)
 
 ![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)
 
@@ -194,7 +194,7 @@ Web App
 
 A smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.
 
-by by Tanish · [Open the live project ↗](https://freshtrackpro.netlify.app/)
+by Tanish · [Open the live project ↗](https://freshtrackpro.netlify.app/)
 
 ![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)
 
@@ -204,7 +204,7 @@ Web App
 
 An all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.
 
-by by Rohan · [Open the live project ↗](https://astounding-flan-f18e08.netlify.app/)
+by Rohan · [Open the live project ↗](https://astounding-flan-f18e08.netlify.app/)
 
 More Saudi guides
 

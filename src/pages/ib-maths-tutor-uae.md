@@ -242,6 +242,41 @@ Tell us your child's course (AA or AI), level, and where they're stuck — inclu
 
 [UAE · teensMaths Tuition for Teens](/maths-tuition-for-teens-uae)[UAE · curriculumGCSE Maths Tutor](/gcse-maths-tutor-uae)[UAE · curriculumA-Level Maths Tutor](/a-level-maths-tutor-uae)[UAE · curriculumAmerican & SAT Maths Tutor](/american-maths-tutor-uae)[UAE · emirateMaths Tutor in Dubai](/maths-tutor-in-dubai)[UAE · hubAll UAE Maths Tuition](/online-maths-tuition-uae)
 
+Real student projects
+
+## What our students actually build
+
+Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
+
+[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy — Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
+
+Parent & student voices
+
+## What our families say
+
+Real, verified reviews from Modern Age Coders families. Read hundreds more on our [Wall of Love](/love).
+
+★★★★★
+
+> “Trigonometry made zero sense until they showed me how it works with actual triangles and circles. They explained WHY sin²θ + cos²θ = 1 using geometry. Once I saw the proof, I never forgot it. This is how math should be taught!”
+
+*PPriya Malhotra
+Grade 11 Student*
+
+★★★★★
+
+> “My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!”
+
+*MMrs. Meera Jain
+Parent of Aadhya (Grade 5)*
+
+★★★★★
+
+> “Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease.”
+
+*SSamriddha Mondal
+Student*
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/ib-maths-tutor-uae*

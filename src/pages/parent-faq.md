@@ -179,6 +179,33 @@ Book the free trial: your child gets a real one-hour lesson, you get every remai
 
 [WhatsApp a human instead](https://wa.me/919123366161?text=Hi%2C%20I%20have%20a%20question%20about%20your%20classes)
 
+Parent & student voices
+
+## What our families say
+
+Real, verified reviews from Modern Age Coders families. Read hundreds more on our [Wall of Love](/love).
+
+★★★★★
+
+> “Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!”
+
+*DDiya Agarwal
+College Student, B.Sc Math*
+
+★★★★★
+
+> “Calculus was a nightmare until I joined here. They explained derivatives using real motion—how speed changes over time. Integration became about finding areas, not just formulas. I scored 98% in my boards because I understood every concept from the root!”
+
+*TTanvi Sharma
+Grade 12 Student*
+
+★★★★★
+
+> “The classes are excellent. The teachers explain concepts very clearly and make code fun and easy to understand. The sessions are interactive and fun. They also help students boost their confidence. We not only focus on academics, but also on logic building and problem solving.”
+
+*PPragyen Diwan
+Parent*
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/parent-faq*

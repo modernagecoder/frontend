@@ -83,6 +83,33 @@ One live demo tells you more than any brochure could.
 
 [Book your free demo](/book-demo)[See transparent pricing](/pricing)
 
+Parent & student voices
+
+## What our families say
+
+Real, verified reviews from Modern Age Coders families. Read hundreds more on our [Wall of Love](/love).
+
+★★★★★
+
+> “They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold.”
+
+*KKavya Iyer
+Teen, Grade 11*
+
+★★★★★
+
+> “Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore, I'm engineering solutions.”
+
+*SSanjay Deshmukh
+Working Professional*
+
+★★★★★
+
+> “They practice A LOT. Not just 2-3 problems, but 20-30 variations until the concept is crystal clear. My kids can now solve problems they've never seen before.”
+
+*MMr. Rajesh Kumar
+Parent of Twins*
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/guarantee*

@@ -242,6 +242,41 @@ Tell us your goal — a work skill, the GMAT/GRE, or just confidence. We'll show
 
 [UAE · teensMaths Tuition for Teens](/maths-tuition-for-teens-uae)[UAE · curriculumAmerican & SAT Maths Tutor](/american-maths-tutor-uae)[UAE · emirateMaths Tutor in Dubai](/maths-tutor-in-dubai)[UAE · hubAll UAE Maths Tuition](/online-maths-tuition-uae)[CourseData Analytics Mathematics](/courses/data-analytics-mathematics-masterclass)[CourseBusiness & Finance Mathematics](/courses/complete-business-finance-mathematics-mastery)
 
+Real student projects
+
+## What our students actually build
+
+Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
+
+[![SkyCast — Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle — AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle — AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo — Company Landing Page](/images/projects/moxo.webp)Web AppMoxo — Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)
+
+Parent & student voices
+
+## What our families say
+
+Real, verified reviews from Modern Age Coders families. Read hundreds more on our [Wall of Love](/love).
+
+★★★★★
+
+> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
+
+*SShaarav Wadhwa
+Student*
+
+★★★★★
+
+> “Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner.”
+
+*AArush Poddar
+Student*
+
+★★★★★
+
+> “Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training.”
+
+*VVikram Joshi
+Working Professional*
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/maths-classes-for-adults-uae*

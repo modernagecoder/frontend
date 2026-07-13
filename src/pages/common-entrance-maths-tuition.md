@@ -252,6 +252,14 @@ Tell us your child's level, exam date and target schools. We'll assess where the
 
 [UK · entry11 Plus Maths Tuition](/11-plus-maths-tuition)[UK · KS3/KS4Maths Tuition for Teens](/online-maths-tuition-for-teens-in-uk)[UK · KS3KS3 Maths Tuition](/ks3-maths-tuition-online)[UK · examGCSE Maths Tuition](/gcse-maths-tuition-online)[UK · competitionUKMT Maths Challenge](/ukmt-maths-challenge-tutoring)[CourseMiddle School Mathematics Masterclass](/courses/comprehensive-middle-school-mathematics-mastery)
 
+Real student projects
+
+## What our students actually build
+
+Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
+
+[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti — AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti — AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[![Babu — 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu — 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/common-entrance-maths-tuition*

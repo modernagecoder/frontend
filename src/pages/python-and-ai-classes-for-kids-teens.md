@@ -366,6 +366,33 @@ What projects can kids build with Python?
 
 Kids can build games (using Pygame), chatbots, web scrapers, quiz apps, calculators, personal websites, data visualizations, and even simple AI models. Our course includes 5+ guided projects and encourages kids to create their own ideas as well.
 
+Parent & student voices
+
+## What our families say
+
+Real, verified reviews from Modern Age Coders families. Read hundreds more on our [Wall of Love](/love).
+
+★★★★★
+
+> “I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself. I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success.”
+
+*SSujal Ramola
+Student*
+
+★★★★★
+
+> “Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!”
+
+*DDiya Agarwal
+College Student, B.Sc Math*
+
+★★★★★
+
+> “Calculus was a nightmare until I joined here. They explained derivatives using real motion—how speed changes over time. Integration became about finding areas, not just formulas. I scored 98% in my boards because I understood every concept from the root!”
+
+*TTanvi Sharma
+Grade 12 Student*
+
 [![Modern Age Coders Logo](/images/logo.svg)Modern Age Coders](/)
 
 Forging the next generation of innovators.

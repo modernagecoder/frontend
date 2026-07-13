@@ -242,6 +242,41 @@ Meet the tutor, see how we teach, and watch your child explain a piece of maths 
 
 [UAE · ages 12–17Maths Tuition for Teens](/maths-tuition-for-teens-uae)[UAE · curriculumCBSE Maths Tutor](/cbse-maths-tutor-uae)[UAE · emirateMaths Tutor in Dubai](/maths-tutor-in-dubai)[UAE · curriculumIB Maths Tutor (AA & AI)](/ib-maths-tutor-uae)[UAE · hubAll UAE Maths Tuition](/online-maths-tuition-uae)[CourseElementary Mathematics Masterclass](/courses/elementary-mathematics-complete-masterclass)
 
+Real student projects
+
+## What our students actually build
+
+Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
+
+[![MyDay — Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay — Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy — Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)
+
+Parent & student voices
+
+## What our families say
+
+Real, verified reviews from Modern Age Coders families. Read hundreds more on our [Wall of Love](/love).
+
+★★★★★
+
+> “Trigonometry made zero sense until they showed me how it works with actual triangles and circles. They explained WHY sin²θ + cos²θ = 1 using geometry. Once I saw the proof, I never forgot it. This is how math should be taught!”
+
+*PPriya Malhotra
+Grade 11 Student*
+
+★★★★★
+
+> “My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!”
+
+*MMrs. Meera Jain
+Parent of Aadhya (Grade 5)*
+
+★★★★★
+
+> “Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease.”
+
+*SSamriddha Mondal
+Student*
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/maths-tuition-for-kids-uae*

@@ -252,6 +252,14 @@ Tell us your board, your options and the topic that's lost you. We'll show you h
 
 [UK · examA-Level Maths Tuition](/a-level-maths-tuition-online)[UK · 16–19College & Sixth Form Maths](/online-maths-tuition-for-college-students-in-uk)[UK · competitionUKMT Maths Challenge](/ukmt-maths-challenge-tutoring)[USA · competitionMath Olympiad & AMC](/math-olympiad-amc-tutoring)[USA · APAP Calculus AB & BC](/ap-calculus-tutoring-online)[CourseCollege Mathematics Masterclass](/courses/college-mathematics-complete-masterclass)
 
+Real student projects
+
+## What our students actually build
+
+Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
+
+[![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy — Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/further-maths-tuition-online*

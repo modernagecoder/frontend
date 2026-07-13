@@ -242,6 +242,41 @@ Tell us your child's curriculum and where they're stuck. We'll match a tutor, sh
 
 [UAE · emirateMaths Tutor in Dubai](/maths-tutor-in-dubai)[UAE · emirateMaths Tutor in Abu Dhabi](/maths-tutor-in-abu-dhabi)[UAE · emirateMaths Tutor in Sharjah](/maths-tutor-in-sharjah)[UAE · curriculumIB Maths Tutor (AA & AI)](/ib-maths-tutor-uae)[UAE · curriculumCBSE Maths Tutor](/cbse-maths-tutor-uae)[UAE · agesMaths Tuition for Kids](/maths-tuition-for-kids-uae)
 
+Real student projects
+
+## What our students actually build
+
+Every one is a real, live project shipped by a Modern Age Coders student. Explore more in [Student Labs](/student-labs).
+
+[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy — Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
+
+Parent & student voices
+
+## What our families say
+
+Real, verified reviews from Modern Age Coders families. Read hundreds more on our [Wall of Love](/love).
+
+★★★★★
+
+> “Sir explained calculus using a car's speedometer! Suddenly derivatives made perfect sense. No rote learning, just pure understanding. Scored 98% in math!”
+
+*AArjun Mehta
+Grade 9 Student*
+
+★★★★★
+
+> “Ma'am uses toys and drawings to teach fractions! I understood why 1/2 is bigger than 1/4 by cutting a pizza. Math is so easy when you see it in real life!”
+
+*RRiya Gupta
+Kid, Grade 4*
+
+★★★★★
+
+> “They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold.”
+
+*KKavya Iyer
+Teen, Grade 11*
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/online-maths-tuition-uae*
