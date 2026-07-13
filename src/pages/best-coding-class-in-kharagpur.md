@@ -7,552 +7,313 @@ source: src/pages/best-coding-class-in-kharagpur.html
 ---
 > Coding classes in Kharagpur for kids, teens & college. Live online Python, AI, Java, Web Dev & DSA in the town of IIT Kharagpur. Rated 4.9/5. Book a free demo!
 
-Live Online · IIT Kharagpur · Hijli · Gole Bazar · Inda
+Live online · serving Kharagpur
 
-# The Best Coding Classes in Kharagpur for Kids, Teens & College Students
+# Coding classes in Kharagpur, built to actually stick.
 
-Indian engineering education **began right here** — in 1951, on the old Hijli site, IIT Kharagpur opened as the country's first IIT. Your child grows up beside that institution and a **railway junction that connects the whole country**. We teach the very discipline IIT-KGP pioneers — coding and AI — so an ambitious Kharagpur child can build for the world, from home.
+Real programming for kids, teens and college students in Kharagpur — from **Kharagpur Town to IIT Kharagpur (Hijli), Inda to Gole Bazar**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Home of India's first IIT · 4.9/5 parent rating · CBSE / ICSE / WB Board friendly · Free demo class
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Kharagpur)★★★★★ **4.9/5****500+** students across India**5–8** students per batchFirst class is **free**KharagpurEnrollingAreasKharagpur Town, IIT Kharagpur (Hijli), Inda, Gole Bazar, Malancha & all of KharagpurBoardsWBBSE / WBCHSE · CBSE · ICSE · IGCSEAges**8–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across KharagpurFREE DEMO OPEN
 
-Book a Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Kharagpur)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 StudentsJump to:Kids (8–12)Teens (13–18)College (18+)Vibe Coding + AI ⚡Your LocalityPricingFree DemoFAQs> build_the_future --with-aiTrending · The Future of Coding
+## Where in Kharagpur we teach
 
-## Vibe Coding & AI Agents
+Every class is live online, so your child learns from home — no travel across the city, same small batch either way.
 
-The town that gave India its first IIT taught generations to build the future — and your child can learn its newest form first, right here in Kharagpur. **Vibe coding** — you describe what you want, the AI drafts it, and you refine it — together with **AI coding agents** such as **Codex & Claude Code** is how software actually gets shipped in 2026. We teach this agentic workflow *and* the fundamentals beneath it, so students **direct the AI instead of being replaced by it.**
+Kharagpur TownIIT Kharagpur (Hijli)IndaGole BazarMalanchaNimpuraTalbagichaBhabanipurPrembazarKaushalyaJhapetapurRailway SettlementNearby (Hijli / Midnapore / Salboni / Belda / Kharagpur Local)**Also teaching families near Kharagpur**[Asansol](/best-coding-class-in-asansol) · [Durgapur](/best-coding-class-in-durgapur) · [Kolkata](/best-coding-class-in-kolkata) · [Siliguri](/best-coding-class-in-siliguri) · [every city in West Bengal →](/coding-classes-in-west-bengal)
 
-New · Ages 8–12
+## Why Kharagpur families start here
 
-### Vibe Coding for Kids
+From Kharagpur Town and IIT Kharagpur (Hijli) to Inda and Gole Bazar, families across Kharagpur are choosing live online coding classes that go beyond a certificate. We build for real skills — the kind that hold up in an interview or a first internship.
 
-Kharagpur kids turn a sentence into a working game — describe the idea, watch the AI draft it, then learn the Scratch & logic that make it real. Curiosity first, fundamentals close behind.
+What that looks like week to week: a live one-hour class with a real mentor, a batch of five to eight so nobody hides at the back, and a project on the screen at the end of most modules. Parents get recorded sessions and honest progress notes.
 
-[Explore →](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)Trending · Ages 13–18
+Whether your child is in a WBBSE / WBCHSE, CBSE, ICSE or IGCSE school, the plan is the same: start at the right level, build something real, and keep the momentum going.
 
-### Vibe Coding for Teens
+Ages 8–12
 
-Python, web and AI projects built the modern way — prompt, generate, refine. Kharagpur teens ship products they can actually deploy while genuinely understanding the engineering under the hood.
+## Coding for kids in Kharagpur
 
-[Explore →](/courses/vibe-coding-for-teens-python-web-ai-projects-course)Future · Ages 13–18
-
-### AI Coding Agents — Codex & Claude Code
-
-Working hands-on with the very AI agents professional engineers rely on today. Teens learn to plan a build, brief the agent and ship code with an AI pair-programmer beside them — the workflow tomorrow's IIT-calibre builders are already adopting.
-
-[Explore →](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)Pro · College & 18+
-
-### AI Agents for Pros & College
-
-Master Codex, Claude Code & agentic workflows to multiply your output — the exact skill product companies and core-engineering teams are hiring for, whether you're an IIT-KGP aspirant, student or working professional in Kharagpur.
-
-[Explore →](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)More on the frontier:[Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[Generative AI Masterclass](/courses/complete-generative-ai-masterclass-college)[AI Tools Mastery](/courses/ai-tools-mastery-complete-college)[AI & Machine Learning](/courses/ai-ml-masterclass-teens)Where Indian engineering began
-
-## Your Child Is Growing Up Beside the Institute That Started It All
-
-Few towns in India can say this: the country's technical education was *born* here. A child in Kharagpur lives a short ride from a world-class institute and a railway that touches every corner of the nation. Here is the ground reality that makes starting to code early so natural in this town.
-
-1951
-
-### India's FIRST IIT was founded here
-
-IIT Kharagpur opened on the historic Hijli site as the country's first IIT — the institution that launched Indian technical education.
-
-Largest IIT
-
-### by campus & departments
-
-IIT-KGP's sprawling campus is the biggest of all the IITs — a town within a town that has shaped India's engineers for over seven decades.
-
-~1.07 km
-
-### one of the world's longest platforms
-
-Kharagpur's railway platform is famous for its extraordinary length — the mark of a great South Eastern Railway junction and workshop town.
-
-Junction
-
-### that connects the country
-
-A major rail workshop and junction since the colonial era — Kharagpur families have always lived where engineering, industry and movement meet.
-
-Context: IIT Kharagpur (est. 1951, Hijli) and South Eastern Railway, Kharagpur. We are independent and unaffiliated; we simply teach the skills this engineering town has always valued.
-
-## Live Online Coding Classes for Kids in Kharagpur (Age 8–12)
-
-Built to spark curiosity and logic in young minds — through games, animation and their first real lines of code. Loved by families across Kharagpur Town, Inda, Gole Bazar, Malancha and the railway settlements.
-
-![Kids coding with Scratch — best coding class for kids in Kharagpur](/images/kids-coding.webp)Most Popular
+Most popular![Kids coding with Scratch — best coding class for kids in Kharagpur](/images/kids-coding.webp)
 
 ### Kids Coding with Scratch
 
 A joyful first step for any Kharagpur child. Drag-and-drop block coding to build real games, animations and interactive stories — pure logic, zero typing pressure, and no prior experience needed.
 
-- ✓ Game development basics
-- ✓ Animation & interactive stories
-- ✓ Logic building & problem solving
-- ✓ 10+ projects to show off
+- Game development basics
+- Animation & interactive stories
+- Logic building & problem solving
+- 10+ projects to show off
 
-[View Course Details →](/courses/kids-coding-blocks-masterclass)![Web design for kids — HTML CSS course in Kharagpur](/images/html-css-kids.webp)Creative
+[View course](/courses/kids-coding-blocks-masterclass)Creative![Web design for kids — HTML CSS course in Kharagpur](/images/html-css-kids.webp)
 
 ### Web Design for Kids
 
 A child builds their very first colourful website with HTML & CSS, then sends the live link to family in Kharagpur and beyond. The moment "I use the internet" becomes "I made this."
 
-- ✓ HTML basics & structure
-- ✓ CSS styling & colours
-- ✓ Fun, real web projects
-- ✓ A personal portfolio page
+- HTML basics & structure
+- CSS styling & colours
+- Fun, real web projects
+- A personal portfolio page
 
-[View Course Details →](/courses/kids-ai-web-development-course)![Python for kids — programming course in Kharagpur](/images/python-kids.webp)Next Level
+[View course](/courses/kids-ai-web-development-course)Next step![Python for kids — programming course in Kharagpur](/images/python-kids.webp)
 
 ### Python for Young Coders
 
 The leap to real, typed code in the world's most popular language. Children write Python to make games, solve puzzles and meet their first AI ideas — the same language used in labs and industry alike.
 
-- ✓ Python fundamentals
-- ✓ Problem-solving skills
-- ✓ Fun game projects
-- ✓ Intro to AI concepts
+- Python fundamentals
+- Problem-solving skills
+- Fun game projects
+- Intro to AI concepts
 
-[View Course Details →](/courses/python-ai-kids-masterclass)[View All Kids Coding Courses →](/courses/coding/kids)
+[View course](/courses/python-ai-kids-masterclass)Ages 13–18
 
-## Live Online Coding Classes for Teens in Kharagpur (Age 13–18)
+## Coding for teens in Kharagpur
 
-Serious, real-world skills for Kharagpur teens — the kind that sharpen engineering-style logic, power up CBSE, ICSE and West Bengal Board Computer Science, and look outstanding on a Class 12 portfolio or an IIT-aspirant's profile.
-
-![Python programming for teens — best coding institute in Kharagpur](/images/python-teens.webp)Beginner Friendly
+In demand![Python programming for teens — best coding institute in Kharagpur](/images/python-teens.webp)
 
 ### Python Programming
 
 The language behind research labs, data science and modern AI — and the cleanest on-ramp for a teen. We move from first script to real projects without losing anyone along the way.
 
-- ✓ Python fundamentals & OOP
-- ✓ Data structures & algorithms
-- ✓ Automation & scripting
-- ✓ Real-world projects
+- Python fundamentals & OOP
+- Data structures & algorithms
+- Automation & scripting
+- Real-world projects
 
-[View Course Details →](/courses/python-complete-masterclass-teens)![Java programming for teens — best coding class in Kharagpur](/images/java-teens.webp)Board + Career
+[View course](/courses/python-complete-masterclass-teens)Career![Java programming for teens — best coding class in Kharagpur](/images/java-teens.webp)
 
 ### Java Programming
 
-Java sits at the heart of ICSE/CBSE Computer Science *and* the enterprise software world. A strong choice for Kharagpur teens aiming at engineering, solid board marks and a real grasp of object-oriented thinking.
+Java sits at the heart of ICSE/CBSE Computer Science and the enterprise software world. A strong choice for Kharagpur teens aiming at engineering, solid board marks and a real grasp of object-oriented thinking.
 
-- ✓ Core Java & OOP concepts
-- ✓ Data structures in Java
-- ✓ Intro to Android app building
-- ✓ Board-aligned practice
+- Core Java & OOP concepts
+- Data structures in Java
+- Intro to Android app building
+- Board-aligned practice
 
-[View Course Details →](/courses/java-programming-masterclass-for-teens)![Web development for teens — programming classes in Kharagpur](/images/web-dev-teens.webp)In Demand
+[View course](/courses/java-programming-masterclass-for-teens)Build![Web development for teens — programming classes in Kharagpur](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
 Build and deploy complete websites from scratch with HTML, CSS, JavaScript and React. A Kharagpur teen ends this track with a live URL they can hand to anyone — proof of skill that outshines a marksheet.
 
-- ✓ HTML, CSS, JavaScript
-- ✓ React framework
-- ✓ Backend with Node.js
-- ✓ Live portfolio projects
+- HTML, CSS, JavaScript
+- React framework
+- Backend with Node.js
+- Live portfolio projects
 
-[View Course Details →](/courses/web-development-masterclass-teens)![AI and machine learning for teens — coding course in Kharagpur](/images/ai-ml-teens.webp)Future Tech
+[View course](/courses/web-development-masterclass-teens)Future![AI and machine learning for teens — coding course in Kharagpur](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning
 
 AI is the frontier IIT Kharagpur has helped lead for decades. Teens here learn Python, train real models and understand how today's AI products are actually built — not as magic, but as engineering they can do themselves.
 
-- ✓ Python for AI
-- ✓ Machine learning basics
-- ✓ Intro to neural networks
-- ✓ Real, hands-on AI projects
+- Python for AI
+- Machine learning basics
+- Intro to neural networks
+- Real, hands-on AI projects
 
-[View Course Details →](/courses/ai-ml-masterclass-teens)[View All Teen Coding Courses →](/courses/coding/teens)
+[View course](/courses/ai-ml-masterclass-teens)College & 18+
 
-## Coding Courses for College Students in Kharagpur & West Midnapore (Age 18+)
+## For Kharagpur college students
 
-Placement-focused tracks for **engineering students, IIT-KGP aspirants and serious self-learners** across Kharagpur and West Midnapore. Build the exact stack that product companies and core-software teams interview for.
-
-![Data structures and algorithms course — Kharagpur placements](/images/python-teens.webp)Interview Prep
+Placements![Data structures and algorithms course — Kharagpur placements](/images/python-teens.webp)
 
 ### Data Structures & Algorithms
 
 In an engineering town, DSA is the language placements are decided in. We work through 200+ interview-grade problems and run honest mock interviews until the patterns feel obvious — not memorised, but understood.
 
-- ✓ Arrays, linked lists, trees & graphs
-- ✓ Dynamic programming & greedy
-- ✓ 200+ LeetCode-style problems
-- ✓ Mock interviews & CP
+- Arrays, linked lists, trees & graphs
+- Dynamic programming & greedy
+- 200+ LeetCode-style problems
+- Mock interviews & CP
 
-[View Course Details →](/courses/coding/college)![Full stack web development course — Kharagpur](/images/web-dev-teens.webp)Career Ready
+[View course](/courses/coding/college)Internships![Full stack web development course — Kharagpur](/images/web-dev-teens.webp)
 
 ### Full-Stack Web Development
 
 Ship production-grade apps on the MERN stack with Git, REST APIs and cloud deployment. The kind of portfolio that gets a Kharagpur engineering student a callback from start-ups and product companies alike.
 
-- ✓ MERN (Mongo, Express, React, Node)
-- ✓ REST APIs & database design
-- ✓ Git, CI/CD & cloud deploy
-- ✓ Capstone portfolio project
+- MERN (Mongo, Express, React, Node)
+- REST APIs & database design
+- Git, CI/CD & cloud deploy
+- Capstone portfolio project
 
-[View Course Details →](/courses/coding/college)![AI and data science course — Kharagpur](/images/ai-ml-teens.webp)High Demand
+[View course](/courses/coding/college)Data![AI and data science course — Kharagpur](/images/ai-ml-teens.webp)
 
 ### AI & Data Science
 
 Python, machine learning and real data analysis — built for the AI and analytics roles multiplying everywhere, from research to industry. Includes hands-on, Kaggle-style projects you can put your name on.
 
-- ✓ Python for data science & ML
-- ✓ Pandas, NumPy & visualisation
-- ✓ ML & neural networks
-- ✓ Real projects & Kaggle
+- Python for data science & ML
+- Pandas, NumPy & visualisation
+- ML & neural networks
+- Real projects & Kaggle
 
-[View Course Details →](/courses/coding/college)[View All College Courses →](/courses/coding/college)
+[View course](/courses/coding/college)Maths, taught properly
 
-## Mathematics Classes in Kharagpur
+## Mathematics classes in Kharagpur
 
-Strong maths is the other half of strong code — and in an engineering town it matters even more. Our programmes build the rigour Kharagpur students need for the CBSE, ICSE and WB boards, JEE, NTSE and Olympiads, with the same problem-solving mindset as our coding tracks.
-
-![Elementary mathematics — maths classes in Kharagpur](/images/elementary-maths.webp)Grade 1–5
+![Elementary mathematics — maths classes in Kharagpur](/images/elementary-maths.webp)
 
 ### Elementary Mathematics
 
 Rock-solid foundations in numbers, operations, fractions, geometry and word problems for grades 1–5 — aligned to CBSE, ICSE & West Bengal Board schools across Kharagpur.
 
-[View Course Details →](/courses/elementary-mathematics-complete-masterclass)![High school mathematics — maths tuition in Kharagpur](/images/high-school-maths.webp)Grade 9–12
+[View course](/courses/elementary-mathematics-complete-masterclass)![High school mathematics — maths tuition in Kharagpur](/images/high-school-maths.webp)
 
 ### High School Mathematics
 
 Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12 — board-aligned and built to give Kharagpur's JEE and engineering aspirants a genuine head start.
 
-[View Course Details →](/courses/complete-high-school-mathematics-mastery)![Olympiad mathematics — competition prep in Kharagpur](/images/olympiad-competition-maths.webp)Competition
+[View course](/courses/complete-high-school-mathematics-mastery)Olympiad![Olympiad mathematics — competition prep in Kharagpur](/images/olympiad-competition-maths.webp)
 
 ### Olympiad & Competition Math
 
 Advanced problem-solving for IMO, PRMO, RMO and NTSE — for Kharagpur's sharpest young mathematicians who want to push well beyond the school syllabus.
 
-[View Course Details →](/courses/olympiad-competition-mathematics-mastery)[View All Mathematics Courses →](/courses/mathematics)
+- 2 live classes per week
+- Small batch (5–8 students)
+- Recorded sessions
+- Doubt-clearing support
 
-## Why Every Child in Kharagpur Should Learn to Code
+[View course](/courses/olympiad-competition-mathematics-mastery)[Browse the full course catalogue →](/courses)
 
-In a town built around an institute of technology and a great railway, engineering ambition is simply in the water. Coding gives a Kharagpur child a head start in the very fields IIT-KGP made India famous for — and a way to build globally without leaving home.
+## How a class actually runs
 
-1
+No pre-recorded videos, no batch of forty. Here's what your child gets every week.
 
-### Sharper Problem-Solving
+Live
 
-Coding teaches a child to split a hard problem into clean, ordered steps — the same engineer's discipline that lifts marks in maths and science and quietly trains the mind a place like IIT-KGP looks for.
+### A real mentor, live
 
-2
+Every class is taught live by an instructor with industry experience — questions get answered the moment they come up.
 
-### A Rare Hometown Inspiration
+Small
 
-Most children read about IITs; in Kharagpur they grow up beside one. That proximity makes a tech future feel ordinary and reachable — and coding is the first concrete step a child can take towards it today.
+### 5–8 per batch
 
-3
+Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
-### A Builder's Mindset, Early
+Build
 
-A child who codes stops asking "how do I use this app?" and starts asking "how would I make it?" That single shift — from user to maker — is the quiet difference between a passive screen habit and a creative one.
+### Project every module
 
-4
+Kids don't just watch — they build games, websites and apps they can open, use and show you.
 
-### NEP 2020 & the School Syllabus
+Track
 
-Coding and AI now sit inside the school curriculum from the middle years, across CBSE, ICSE and the West Bengal Board. A Kharagpur child who starts early treats these chapters as familiar ground rather than a sudden new subject.
+### Recordings & reports
 
-5
+Missed a class? Watch the recording. Every learner earns a completion certificate and honest progress notes.
 
-### Groundwork for JEE & an Engineering Seat
+## Simple, honest pricing
 
-JEE, NTSE and the Olympiads reward computational thinking, and the dream of an IIT seat lives close to home here. Weekly coding practice trains that reasoning years before the exam pressure arrives.
+1-hour live classes, twice a week. Start with a free demo — pay only when you're sure it's right for your child.
 
-6
+Group₹1,499/month
 
-### Work You Can Actually Show
+2 live classes a week · 5–8 students
 
-A finished game, a live website, a small app — these become real evidence for school fairs and college forms. In a town that respects what you can build, a working project says more than a marksheet ever could.
+- Live, interactive classes
+- Recorded session access
+- Doubt-clearing support
+- Completion certificate
 
-Find your area
+Start freeMini Batch₹2,499/month
 
-## Coding Classes Across Every Kharagpur Locality
+2 live classes a week · just 3–4 students
 
-Because every class is live and online, the same expert teacher reaches your child whether you live near the IIT campus, in the old town, beside the railway yards, or out towards Midnapore — no autos across the junction, no compromise.
+- Everything in Group
+- Smaller batch, more attention
+- Faster doubt resolution
+- Closer progress tracking
 
-Campus & Hijli
+Book a free demoPersonal 1-on-1₹4,999/month
 
-### IIT Kharagpur · Hijli · Prembazar
+2 private sessions a week · fully bespoke
 
-The campus belt and the historic Hijli area — homes of researchers, faculty and ambitious families who want a serious, project-based curriculum for their children.
+- Customised curriculum
+- Flexible scheduling
+- Priority support
+- Career guidance
 
-Old Town & Market
+Start free
 
-### Kharagpur Town · Gole Bazar · Jhapetapur
+International families pay flat USD rates — the prices above update automatically. Ask us anything on your free demo.
 
-The bustling heart of Kharagpur around Gole Bazar. A favourite for after-school kids' and teen batches who join from home.
+## What students actually build
 
-Railway Settlements
+Not screenshots of a syllabus — real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-### Railway Settlement · Nimpura · Kaushalya
+[![The Beautiful Mind](/images/projects/mindgame.webp) GameThe Beautiful MindA focus and brain-strength game with 15 progressive levels, real-time tracking and leaderboards. Built by Modern Age Coders · React, FirebaseOpen the live project ↗](https://mind.modernagecoders.com)[![Misti — AI Study Chatbot](/images/projects/misti.webp) AI & MLMisti — AI Study ChatbotAn AI chatbot that solves maths and coding questions with step-by-step explanations using Python and LLM APIs. Built by Harshit · Python, AI/ML, LLM APIsOpen the live project ↗](https://misti.modernagecoders.com)[![Babu — 90-Second Maths Challenge](/images/projects/babu.webp) GameBabu — 90-Second Maths ChallengeA fast maths challenge with random problems under time pressure and a live Firebase leaderboard. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[See more student projects →](/student-labs)
 
-The South Eastern Railway colonies, where transfer families value flexible, recorded online classes that move with them.
+## What families say
 
-Growing Suburbs
+Verified Google reviews from Modern Age Coders families across India. We don't invent testimonials — these are real people, real words.
 
-### Inda · Malancha · Talbagicha
+★★★★★
 
-The expanding residential belts along NH-6. Online classes erase the distance to a top-quality teacher entirely.
+"My son looks forward to every class."
 
-Nearby Towns
+He has been attending for a few months and I'm genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable, and his confidence has grown.
 
-### Midnapore · Salboni · Belda · Debra
+PRPoonam RathoreParent★★★★★
 
-Across West Midnapore, families who want serious coding without travelling to a metro find us a perfect fit — same teachers, same outcomes.
+"The one-step solution for my son."
 
-Anywhere, Online
+They make learning to code so simple that kids love it. Teachers explain complex concepts clearly with practical exercises, and the projects were challenging and rewarding.
 
-### Bhabanipur · & the rest of Kharagpur
+RMRia MukherjeeParent★★★★★
 
-Wherever you are in or around town, your child joins the same live batch with the same mentor — no commute, no quality gap.
+"Mentors, not just teachers."
 
-Don't see your area? Book a demo — we cover all of Kharagpur & West Midnapore →
+The perks are excellent — one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-## Why Kharagpur Parents Choose Modern Age Coders
+KBKrishnam BhatterFormer student★★★★★
 
-Families in an engineering town ask sharp questions before they enrol. Here is what earns their trust — and keeps it.
+"Clear, easy and practical."
 
-👩‍🏫
+Wonderful teachers who boost students' confidence, keep them updated with technology, and inspire them to learn without hesitation.
 
-### Mentors Who Have Built
+SGSonu GoyalParent★★★★★
 
-Teachers with real engineering experience who explain the "why" behind every line, not just the "what".
+"A game-changer for me."
 
-👥
+I struggled to grasp coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease.
 
-### Small Batches (5–8)
+SMSamridho MondalStudent★★★★★
 
-Tiny groups mean a teacher actually knows your child's pace and gaps — nobody quietly falls behind.
+"Maths finally made sense."
 
-🛠️
+My son struggled with maths for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended.
 
-### You Leave With Things You Built
+SSShewta SinghMother of Ishan
 
-Every track ends in working projects a student can run, share and be proud of — not a stack of watched videos.
+## Book a free demo class in Kharagpur
 
-⏯️
+Tell us a little about your child and what they'd like to learn. We'll set up a free, no-pressure demo and help you pick the right starting point.
 
-### Every Class Recorded
+- A real live class — not a sales call
+- Meet the mentor before you decide
+- We reply within 24 hours (IST)
 
-Tuition clash, a school function, a family trip to Kolkata? The recording is always there to revise from later.
+Prefer to talk now? Call [9123366161](tel:+919123366161) or [WhatsApp us](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Kharagpur).
 
-💸
+### Reserve your free demo
 
-### Fair, Transparent Fees
+Takes under a minute.
 
-Quality mentoring from just ₹1,499/month, stated upfront. No hidden charges and no hard sell — the kind of straight dealing Kharagpur families appreciate.
+## Coding classes in Kharagpur — FAQs
 
-🏅
+Which is the best coding class in Kharagpur for kids?Modern Age Coders runs Kharagpur's top-rated live online coding classes for kids aged 8-12. Children begin with Scratch (games, animation, logic) and progress to Python, in small batches of 5-8 taught by industry instructors. We serve all of Kharagpur — Kharagpur Town, IIT Kharagpur (Hijli), Inda, Gole Bazar, Malancha, Nimpura, Talbagicha and the Railway Settlement — plus nearby Midnapore and Salboni.Do you offer online coding classes across Kharagpur and the railway colonies?Yes. Every class is live and online, so a child in Kharagpur Town, the IIT Kharagpur / Hijli campus area, Inda, Gole Bazar, Malancha, Nimpura or a South Eastern Railway settlement joins the same expert teacher from home — no travelling across the junction or the level crossings. Sessions are interactive with live coding, screen sharing and recordings.How much do coding classes cost in Kharagpur?Group classes (5-8 students) start at Rs.1499/month for 2 live classes per week. Mini Batch (3-4 students) is Rs.2499/month and personalised 1-on-1 mentoring is Rs.4999/month. Every new student gets a free demo class first, and there are no hidden fees.My child wants to crack JEE and one day study at IIT Kharagpur — does coding help?Yes. Kharagpur grows up beside India's first IIT, and the computational thinking coding builds is exactly what JEE, Olympiads and a future engineering seat reward — decomposition, logic and patient problem-solving. Our Python and Java tracks also support CBSE, ICSE and West Bengal Board (WBBSE/WBCHSE) computer science, so school marks and ambition move together.What age is best to start coding in Kharagpur?Age 8 is ideal to start with visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (8-12), teens (13-18) and college/working learners (18+), so the starting point always fits the child.What programming languages and courses do you teach in Kharagpur?Kids (8-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach Vibe Coding and AI agents (Codex & Claude Code), plus school and Olympiad mathematics alongside coding.Do you prepare Kharagpur college and engineering students for placements?Yes. The college track is built end-to-end around placements — a 200+ problem DSA grind, full mock-interview rounds, a complete MERN project and a real AI/Data-Science portfolio. It suits engineering students and serious self-learners across Kharagpur and West Midnapore who want product-company and core-software roles — the very fields IIT Kharagpur helped establish in India.Are you affiliated with IIT Kharagpur?No. Modern Age Coders is an independent online coding and maths school and is not affiliated with, endorsed by or connected to IIT Kharagpur or any school. We reference IIT Kharagpur only for local context — it is the institute that anchors a world-class engineering culture in this town, and we bring that calibre of learning to school-age children early.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes — we offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.
 
-### Certificates & Progress Reports
+## Ready to start your child's coding journey in Kharagpur?
 
-A completion certificate plus honest, regular updates on how your child is really doing — useful for school files and college forms.
+Book a free demo today. Meet the mentor, watch a real class, and decide only when you're sure it's the right fit.
 
-## What Families Say About Modern Age Coders
-
-Our classes are live and online, so students from Kharagpur learn in the same small batches as families across India. These are real, verified reviews from our community.
-
- SO Sonam OswalParent of Dhairya
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
-
- ★★★★★ RM Ria MukherjeeParent
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
-
- ★★★★★ KB Krishnam BhatterFormer Student
-
-"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
-
- ★★★★★ SG Sonu GoyalParent
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
-
- ★★★★★ SS Shradha SarafParent of Mivaan
-
-"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
-
- ★★★★★ PR Poonam RathoreParent
-
-"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
-
- ★★★★★
-
-Read more reviews on our [Wall of Love](/love).
-
-## Affordable Coding Classes in Kharagpur
-
-Quality mentoring at fair, upfront prices — no hidden fees, no surprises. Every plan opens with a free demo class.
-
-Most Popular
-
-### Group Classes
-
-₹1,499/month
-
-- ✓ 2 live classes per week
-- ✓ Small batch (5–8 students)
-- ✓ Recorded sessions
-- ✓ Doubt-clearing support
-- ✓ Project-based learning
-- ✓ Completion certificate
-
-Start with a Free Demo
-
-### Mini Batch
-
-₹2,499/month
-
-- ✓ Tiny batch (3–4 students)
-- ✓ 2 live classes per week
-- ✓ Extra teacher attention
-- ✓ Recorded sessions
-- ✓ Faster doubt resolution
-- ✓ Completion certificate
-
-Start with a Free Demo
-
-### 1-on-1 Personal
-
-₹4,999/month
-
-- ✓ 2 private sessions / week
-- ✓ Fully customised curriculum
-- ✓ Flexible scheduling
-- ✓ Priority support
-- ✓ Monthly progress reports
-- ✓ Career & portfolio guidance
-
-Start with a Free Demo
-
-Unsure which tier suits your child? Take the free demo first — we'll suggest the right fit honestly, with nothing to commit to.
-
-## Book Your Free Demo Class in Kharagpur
-
-Try the best coding classes in Kharagpur, completely free. Tell us a little about your child and we'll line up the right track and the right mentor. No obligation, no pressure.
-
-Or reach us directly:
-
-[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Kharagpur. Please share more details.)[Email Us](mailto:contact@modernagecoders.com?subject=Inquiry about Coding Classes in Kharagpur)Aligned to your board
-
-## Coding That Fits Every Kharagpur Classroom
-
-We teach students from CBSE, ICSE and West Bengal Board (WBBSE / WBCHSE) schools across Kharagpur. Our kids and teen tracks line up with the computer-science and AI chapters in each of these syllabi — and for ambitious learners, they build the engineering instinct an institute like IIT Kharagpur is built on.
-
-### Boards & stages we support (Grades 4–12)
-
-CBSEICSE / ISCWB Board (WBBSE)WBCHSE (Higher Secondary)Computer ApplicationsInformatics / AI modulesOlympiad & NTSEJEE-foundation logic
-
-### Who our 18+ track is built for
-
-Engineering studentsIIT-KGP aspirantsPolytechnic / diplomaB.Sc / BCA learnersPlacement candidatesSelf-taught codersCareer switchersWorking professionals
-
-Independent programme — Modern Age Coders is not affiliated with or endorsed by IIT Kharagpur or any school or board; references are for curriculum alignment and local context only.
-
-## Frequently Asked Questions
-
-Real questions from Kharagpur parents about our coding classes. Can't find yours? Just message us.
-
-### Which is the best coding class in Kharagpur for kids?
-
-+
-
-Modern Age Coders runs Kharagpur's top-rated live online coding classes for kids aged 8–12. Children begin with Scratch (games, animation, logic) and move to Python, in small batches of 5–8 taught by experienced mentors. We reach all of Kharagpur — Kharagpur Town, IIT Kharagpur (Hijli), Inda, Gole Bazar, Malancha, Nimpura and the railway settlements — plus nearby Midnapore and Salboni.
-
-### Are the classes online or offline, and do you cover the railway colonies and nearby towns?
-
-+
-
-Every class is live and online, so we cover all of Kharagpur equally — the IIT / Hijli campus area, Kharagpur Town and Gole Bazar, Inda, Malancha, Nimpura, Talbagicha and the South Eastern Railway settlements — as well as Midnapore, Salboni and Belda. Your child joins the same mentor from home, with no travel across the junction. Each lesson is fully two-way — live coding, screen-sharing and a saved recording to revise from.
-
-### How much do coding classes cost in Kharagpur?
-
-+
-
-Group classes (5–8 students) start at ₹1,499/month for 2 live classes a week. Mini Batch (3–4 students) is ₹2,499/month, and personalised 1-on-1 mentoring is ₹4,999/month. Every new student gets a free demo class first, and the price you see is the price you pay — no hidden charges.
-
-### Will coding help with JEE and the CBSE / ICSE / WB Board exams?
-
-+
-
-Yes. In an engineering town like Kharagpur the connection is direct: coding strengthens the logical reasoning, decomposition and problem-solving that JEE and the Olympiads reward, and it supports the computer-science and AI chapters in the CBSE, ICSE and West Bengal Board syllabi. Our Python and Java tracks reinforce exactly what those boards expect.
-
-### What's the best age to start coding?
-
-+
-
-Around age 8 is a lovely time to start, using visual block coding like Scratch where ideas matter more than typing. Text languages such as Python and Java fit best from 12–13 onwards. Because we run distinct tracks for kids (8–12), teens (13–18) and 18+ learners, a child always begins at the right rung rather than being pushed ahead.
-
-### Do you prepare Kharagpur college & engineering students for placements?
-
-+
-
-Yes — our 18+ track is placement-focused: 200+ DSA problems, honest mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It suits engineering students, diploma and B.Sc/BCA learners, IIT-KGP aspirants and working professionals across Kharagpur and West Midnapore who want product-company and core-software roles.
-
-### What equipment does my child need?
-
-+
-
-A laptop or desktop and a steady internet line are all you need. A proper computer (not a tablet) works best for typing real code. As a guide: Windows 10 or macOS, 4GB RAM and a normal broadband connection. Everything we install is free, and our team walks you through the setup before the very first class.
-
-### What are the class timings? Do you have weekend batches?
-
-+
-
-Yes. Weekday batches run 4 PM–8 PM (after school) and weekend batches across Saturday and Sunday, 9 AM–6 PM. Kharagpur children juggle school, tuitions and exam prep, so we fit the class around their week. Each session is about an hour, twice a week.
-
-### What if my child doesn't enjoy it — is there a refund?
-
-+
-
-The free demo is there precisely so you can judge our teaching before paying anything. And if, after the first paid week, it simply isn't clicking for your child, we return the full fee — no awkward conversations. We'd rather have a happy learner than a reluctant subscription.
-
-### Do you run summer & winter coding camps in Kharagpur?
-
-+
-
-Yes — intensive camps run in the summer break (May–June) and winter break (Dec–Jan), letting a child finish a full course in 4–6 focused weeks. Kharagpur families love them as a productive use of a long holiday. Message us for upcoming dates and early-bird offers.
-
-## Ready to Start Your Child's Coding Journey in Kharagpur?
-
-Join families from Kharagpur Town, Hijli, Inda, Gole Bazar and across West Midnapore whose children are already building their future with code — in the town where Indian engineering began. Book a free demo today; no obligation, no pressure.
-
-Book a Free Demo Class[WhatsApp Us Now](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Kharagpur)</>{ }1951Kharagpur · Home of India's First IIT
-
-## The Best Coding Classes in Kharagpur
-
-Rooted in the town where **IIT Kharagpur** first taught India to build technology — and where the railways still connect the country
-
-What makes Kharagpur a town of engineers
-
-IIT KharagpurEst. 1951 · First IITHijli Heritage SiteSouth Eastern RailwayGreat Rail WorkshopLongest PlatformLargest IIT CampusEngineering Town
-
-### Project-First Teaching, IIT-Town Calibre
-
-Looking for the **best coding classes in Kharagpur**? Modern Age Coders runs top-rated, project-based programming for kids (8–12), teens (13–18) and 18+ learners across the whole town — from Scratch and Python to Java, Full-Stack, DSA and AI.
-
-### Every Locality, One Standard
-
-From **the IIT / Hijli campus belt to Gole Bazar, Inda, Malancha and the railway colonies**, live online classes give every child the same mentor and the same outcomes — no commute, no quality gap.
-
-Our Kharagpur Coverage
-
-Kharagpur TownIIT KharagpurHijliIndaGole BazarMalanchaNimpuraTalbagichaBhabanipurRailway SettlementMidnaporeSalboni+ all of West Midnapore
-
-In Kharagpur, engineering ambition starts at home.
-
-In the town that gave India its first IIT, coding is the most natural head start a child can have. Give that ambition somewhere to begin. **Start with a free demo today.**
-
-## Coding Classes Across West Bengal
-
-Kharagpur is part of our growing West Bengal network. The same live online programmes reach learners in the state's other cities too.
-
-[Coding Classes in West Bengal →](/coding-classes-in-west-bengal)[Coding in Kolkata →](/best-coding-class-in-kolkata)[Coding in Durgapur →](/best-coding-class-in-durgapur)[Coding in Asansol →](/best-coding-class-in-asansol)
+Book a free demo[Browse all courses](/courses)
 
 ---
 

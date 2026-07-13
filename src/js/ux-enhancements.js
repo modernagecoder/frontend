@@ -311,7 +311,7 @@
         try { initModalFocusTrap(); } catch (e) { }
         try { initStickyMobileCTA(); } catch (e) { }
         try { initActiveSectionNav(); } catch (e) { }
-        try { initDevBranchBadge(); } catch (e) { }
+        // Dev branch badge retired — the Phase 1-6 overhaul shipped. (kept fn below, no longer invoked)
         try { initSectionReveal(); } catch (e) { }
     });
 
