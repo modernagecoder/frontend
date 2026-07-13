@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Berhampur | Modern Age Coders"
-description: "Live online coding & maths classes in Berhampur (Brahmapur) for kids, teens & adults. Python, AI, Java, Web Dev & engineering-grade logic in Odisha's Silk City. Serving Gandhi Nagar, Hill Patna, Aska Road, Gate Bazar & Berhampur University area. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Berhampur for kids, teens & adults. Python, AI, Java & Web Dev in Odisha's Silk City. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-berhampur
 keywords: ["best coding classes in Berhampur", "coding classes in Berhampur", "coding classes in Brahmapur", "coding for kids in Berhampur", "coding for teens in Berhampur", "programming classes Berhampur", "coding institute Berhampur", "online coding classes Berhampur", "coding classes near me Berhampur", "Scratch programming Berhampur", "Python for kids Berhampur", "web development course Berhampur"]
 source: src/pages/best-coding-class-in-berhampur.html
 ---
-> Live online coding & maths classes in Berhampur (Brahmapur) for kids, teens & adults. Python, AI, Java, Web Dev & engineering-grade logic in Odisha's Silk City. Serving Gandhi Nagar, Hill Patna, Aska Road, Gate Bazar & Berhampur University area. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Berhampur for kids, teens & adults. Python, AI, Java & Web Dev in Odisha's Silk City. Rated 4.9/5. Book a free demo!
 
 Live Online · Gandhi Nagar · Hill Patna · Aska Road · Gate Bazar
 

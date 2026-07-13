@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Akola | Modern Age Coders"
-description: "Live online coding & maths classes in Akola for kids, teens & adults. Python, AI, Java, Web Dev & MHT-CET/JEE-aligned logic. Trusted across Tilak Road, Civil Lines, Jatharpeth, Gorakshan Road & Murtizapur Road. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Akola for kids, teens & adults. Python, AI, Java, Web Dev & MHT-CET/JEE-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-akola
 keywords: ["best coding classes in Akola", "coding classes in Akola", "coding for kids in Akola", "coding for teens in Akola", "programming classes Akola", "coding institute Akola", "online coding classes Akola", "coding classes near me Akola", "Scratch programming Akola", "Python for kids Akola", "web development course Akola", "best coding institute in Akola"]
 source: src/pages/best-coding-class-in-akola.html
 ---
-> Live online coding & maths classes in Akola for kids, teens & adults. Python, AI, Java, Web Dev & MHT-CET/JEE-aligned logic. Trusted across Tilak Road, Civil Lines, Jatharpeth, Gorakshan Road & Murtizapur Road. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Akola for kids, teens & adults. Python, AI, Java, Web Dev & MHT-CET/JEE-aligned logic. Rated 4.9/5. Book a free demo!
 
 Live Online · Tilak Road · Civil Lines · Jatharpeth · Murtizapur Road
 

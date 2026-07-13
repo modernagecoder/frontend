@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Darbhanga | Modern Age Coders"
-description: "Live online coding & maths classes in Darbhanga, Bihar for kids, teens & adults. Python, AI, Java, Web Dev & JEE/NEET-aligned logic. Trusted across Laheriasarai, Donar, Mirzapur, Bela & Tower Chowk. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Darbhanga for kids, teens & adults. Python, AI, Java, Web Dev & JEE/NEET-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-darbhanga
 keywords: ["best coding classes in Darbhanga", "coding classes in Darbhanga", "coding for kids in Darbhanga", "coding for teens in Darbhanga", "programming classes Darbhanga", "coding institute Darbhanga", "online coding classes Darbhanga", "coding classes near me Darbhanga", "Scratch programming Darbhanga", "Python for kids Darbhanga", "web development course Darbhanga", "best coding institute in Darbhanga"]
 source: src/pages/best-coding-class-in-darbhanga.html
 ---
-> Live online coding & maths classes in Darbhanga, Bihar for kids, teens & adults. Python, AI, Java, Web Dev & JEE/NEET-aligned logic. Trusted across Laheriasarai, Donar, Mirzapur, Bela & Tower Chowk. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Darbhanga for kids, teens & adults. Python, AI, Java, Web Dev & JEE/NEET-aligned logic. Rated 4.9/5. Book a free demo!
 
 Live Online · Laheriasarai · Donar · Bela · Tower Chowk
 

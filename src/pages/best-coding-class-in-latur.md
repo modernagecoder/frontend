@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Latur | Modern Age Coders"
-description: "Live online coding & maths classes in Latur for kids, teens & adults. Python, AI, Java, Web Dev & MHT-CET/JEE/NEET-aligned logic. The Latur Pattern, now for code. Trusted across Ganj Golai, Barshi Road, Ausa Road & MIDC Latur. Rated 4.9/5. Book a free demo!"
+description: "Coding classes in Latur for kids, teens & adults. Live online Python, AI, Java & Web Dev with MHT-CET/JEE logic. The Latur Pattern, now for code. Rated 4.9/5."
 canonical: /best-coding-class-in-latur
 keywords: ["best coding classes in Latur", "coding classes in Latur", "coding for kids in Latur", "coding for teens in Latur", "programming classes Latur", "coding institute Latur", "online coding classes Latur", "coding classes near me Latur", "Scratch programming Latur", "Python for kids Latur", "web development course Latur", "best coding institute in Latur"]
 source: src/pages/best-coding-class-in-latur.html
 ---
-> Live online coding & maths classes in Latur for kids, teens & adults. Python, AI, Java, Web Dev & MHT-CET/JEE/NEET-aligned logic. The Latur Pattern, now for code. Trusted across Ganj Golai, Barshi Road, Ausa Road & MIDC Latur. Rated 4.9/5. Book a free demo!
+> Coding classes in Latur for kids, teens & adults. Live online Python, AI, Java & Web Dev with MHT-CET/JEE logic. The Latur Pattern, now for code. Rated 4.9/5.
 
 Live Online · Ganj Golai · Barshi Road · Ausa Road · MIDC Latur
 

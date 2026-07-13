@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Roorkee | Modern Age Coders"
-description: "Live online coding & maths classes in Roorkee for kids, teens & adults. Python, AI, Java, Web Dev & engineering-grade logic in the town home to IIT Roorkee — where Indian engineering was taught first. Serving Civil Lines, IIT Roorkee, Cantt & Solani Vihar. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Roorkee for kids, teens & adults. Python, AI, Java & engineering logic, home to IIT Roorkee. Rated 4.9/5. Free demo!"
 canonical: /best-coding-class-in-roorkee
 keywords: ["best coding classes in Roorkee", "coding classes in Roorkee", "coding for kids in Roorkee", "coding for teens in Roorkee", "programming classes Roorkee", "coding institute Roorkee", "online coding classes Roorkee", "coding classes near me Roorkee", "Scratch programming Roorkee", "Python for kids Roorkee", "web development course Roorkee", "best coding institute in Roorkee"]
 source: src/pages/best-coding-class-in-roorkee.html
 ---
-> Live online coding & maths classes in Roorkee for kids, teens & adults. Python, AI, Java, Web Dev & engineering-grade logic in the town home to IIT Roorkee — where Indian engineering was taught first. Serving Civil Lines, IIT Roorkee, Cantt & Solani Vihar. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Roorkee for kids, teens & adults. Python, AI, Java & engineering logic, home to IIT Roorkee. Rated 4.9/5. Free demo!
 
 Live Online · Civil Lines · IIT Roorkee · Cantt · Solani Vihar
 

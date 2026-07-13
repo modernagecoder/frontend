@@ -1,11 +1,11 @@
 ---
 title: "Coding Classes in Uttar Pradesh | Online for Kids, Teens & Adults"
-description: "Live online coding & maths classes in Uttar Pradesh for kids, teens & adults. Python, AI, Java, Web Dev & DSA. Serving Lucknow, Kanpur, Agra, Varanasi & Meerut. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Uttar Pradesh for kids, teens & adults. Python, AI, Java & Web Dev across Lucknow, Kanpur & Agra. Rated 4.9/5. Free demo!"
 canonical: /coding-classes-in-uttar-pradesh
 keywords: ["coding classes in Uttar Pradesh", "online coding classes UP", "coding classes for kids Uttar Pradesh", "Python classes Uttar Pradesh", "AI course for kids UP", "coding institute Uttar Pradesh", "learn coding UP", "coding classes Lucknow", "coding classes Kanpur", "coding classes Agra", "coding classes Varanasi", "coding classes Meerut"]
 source: src/pages/coding-classes-in-uttar-pradesh.html
 ---
-> Live online coding & maths classes in Uttar Pradesh for kids, teens & adults. Python, AI, Java, Web Dev & DSA. Serving Lucknow, Kanpur, Agra, Varanasi & Meerut. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Uttar Pradesh for kids, teens & adults. Python, AI, Java & Web Dev across Lucknow, Kanpur & Agra. Rated 4.9/5. Free demo!
 
 Uttar Pradesh • **Live Online Classes**
 

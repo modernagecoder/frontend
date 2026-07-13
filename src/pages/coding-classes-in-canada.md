@@ -1,11 +1,11 @@
 ---
 title: "Coding & AI Classes in Canada | Toronto & Vancouver"
-description: "Live 1:1 online coding, Python, AI & agentic-AI mentorship for Canadian students — kids to adults. Ontario, BC ADST, Québec ESS & CEGEP, Alberta CTF aligned. University of Waterloo, UofT, UBC, McGill prep. Mentors live in your time zone (PT / MT / CT / ET / AT / NT). USD 100 (≈ CAD 135) a month. Book a free trial."
+description: "Live 1:1 online coding, Python & AI mentorship for students across Canada. Ontario, BC & Québec CEGEP aligned; Waterloo & UofT prep. USD 100 (≈ CAD 135)/mo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-canada
 keywords: ["coding classes Canada", "online coding classes Canada", "coding classes Toronto", "coding classes Vancouver", "coding classes Montreal", "coding classes Calgary", "coding classes Ottawa", "coding classes Edmonton", "coding classes Winnipeg", "coding classes Halifax", "coding classes Kitchener Waterloo", "Python tutor Toronto"]
 source: src/pages/coding-classes-in-canada.html
 ---
-> Live 1:1 online coding, Python, AI & agentic-AI mentorship for Canadian students — kids to adults. Ontario, BC ADST, Québec ESS & CEGEP, Alberta CTF aligned. University of Waterloo, UofT, UBC, McGill prep. Mentors live in your time zone (PT / MT / CT / ET / AT / NT). USD 100 (≈ CAD 135) a month. Book a free trial.
+> Live 1:1 online coding, Python & AI mentorship for students across Canada. Ontario, BC & Québec CEGEP aligned; Waterloo & UofT prep. USD 100 (≈ CAD 135)/mo.
 
 ### Request a callback
 

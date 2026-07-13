@@ -1,11 +1,11 @@
 ---
 title: "Coding Classes in Maharashtra | Online for Kids, Teens & Adults"
-description: "Live online coding & maths classes in Maharashtra for kids, teens & adults. Python, AI, Java, Web Dev & DSA. Serving Mumbai, Pune, Nagpur, Nashik & Aurangabad. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Maharashtra for kids, teens & adults. Python, AI, Java & Web Dev across Mumbai, Pune & Nagpur. Rated 4.9/5. Free demo!"
 canonical: /coding-classes-in-maharashtra
 keywords: ["coding classes in Maharashtra", "online coding classes Maharashtra", "coding classes for kids Maharashtra", "Python classes Maharashtra", "AI course for kids Maharashtra", "coding institute Maharashtra", "learn coding Maharashtra", "coding classes Mumbai", "coding classes Pune", "coding classes Nagpur", "coding classes Nashik", "coding classes Aurangabad"]
 source: src/pages/coding-classes-in-maharashtra.html
 ---
-> Live online coding & maths classes in Maharashtra for kids, teens & adults. Python, AI, Java, Web Dev & DSA. Serving Mumbai, Pune, Nagpur, Nashik & Aurangabad. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Maharashtra for kids, teens & adults. Python, AI, Java & Web Dev across Mumbai, Pune & Nagpur. Rated 4.9/5. Free demo!
 
 Maharashtra • **Live Online Classes**
 

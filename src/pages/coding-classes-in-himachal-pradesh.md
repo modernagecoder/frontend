@@ -1,11 +1,11 @@
 ---
 title: "Coding Classes in Himachal Pradesh | Python, AI & Web Dev"
-description: "Live online coding & maths classes in Himachal Pradesh for kids, teens & adults. Scratch, Python, AI, Java, Web Dev & DSA. Serving Shimla, Mandi, Solan & Dharamshala. Rated 4.9/5. Free demo!"
+description: "Live online coding & maths classes in Himachal Pradesh for kids & teens. Scratch, Python, AI, Java & DSA across Shimla & Solan. Rated 4.9/5. Free demo!"
 canonical: /coding-classes-in-himachal-pradesh
 keywords: ["coding classes in Himachal Pradesh", "online coding classes Himachal Pradesh", "coding classes for kids Himachal", "Python classes Himachal Pradesh", "AI course for kids Himachal", "coding institute Himachal Pradesh", "learn coding Himachal", "coding classes Shimla", "coding classes Mandi", "coding classes Solan", "coding classes Dharamshala", "HPBOSE coding"]
 source: src/pages/coding-classes-in-himachal-pradesh.html
 ---
-> Live online coding & maths classes in Himachal Pradesh for kids, teens & adults. Scratch, Python, AI, Java, Web Dev & DSA. Serving Shimla, Mandi, Solan & Dharamshala. Rated 4.9/5. Free demo!
+> Live online coding & maths classes in Himachal Pradesh for kids & teens. Scratch, Python, AI, Java & DSA across Shimla & Solan. Rated 4.9/5. Free demo!
 
 Himachal Pradesh • **Live Online Classes**
 

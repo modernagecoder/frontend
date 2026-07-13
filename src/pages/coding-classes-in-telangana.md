@@ -1,11 +1,11 @@
 ---
 title: "Coding Classes in Telangana | Online for Kids, Teens & Adults"
-description: "Live online coding & maths classes in Telangana for kids, teens & adults. Python, AI, Java, Web Dev & DSA. Serving Hyderabad, Warangal & all of Telangana. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Telangana for kids, teens & adults. Python, AI, Java & Web Dev across Hyderabad & Warangal. Rated 4.9/5. Book a free demo!"
 canonical: /coding-classes-in-telangana
 keywords: ["coding classes in Telangana", "online coding classes Telangana", "coding classes for kids Telangana", "Python classes Telangana", "AI course for kids Telangana", "coding institute Telangana", "learn coding Telangana", "coding classes Hyderabad", "coding classes Warangal", "TS EAMCET maths coaching", "CBSE coding Telangana", "Telangana State Board coding"]
 source: src/pages/coding-classes-in-telangana.html
 ---
-> Live online coding & maths classes in Telangana for kids, teens & adults. Python, AI, Java, Web Dev & DSA. Serving Hyderabad, Warangal & all of Telangana. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Telangana for kids, teens & adults. Python, AI, Java & Web Dev across Hyderabad & Warangal. Rated 4.9/5. Book a free demo!
 
 Telangana • **Live Online Classes**
 

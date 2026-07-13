@@ -1,11 +1,11 @@
 ---
 title: "Online Coding & AI Classes in the USA | AP CS & USACO"
-description: "Live 1:1 online coding, Python, AI & agentic-AI mentorship for American students. AP Computer Science Principles & A aligned, USACO coached, MIT / Stanford / CMU / Berkeley / Ivy admissions aware. All 50 states. Mentors in PT / MT / CT / ET / AKT / HT. USD 100 a month. Book a free trial."
+description: "Live 1:1 online coding, Python & AI mentorship for US students. AP Computer Science & USACO coached, Ivy admissions aware. USD 100/mo. Book a free trial."
 canonical: https://learn.modernagecoders.com/coding-classes-in-united-states
 keywords: ["coding classes USA", "online coding classes USA", "coding classes for kids USA", "Python tutor New York", "Python tutor Los Angeles", "Python tutor San Francisco", "coding classes Boston", "coding classes Chicago", "coding classes Houston", "coding classes Seattle", "coding classes Austin", "coding classes Atlanta"]
 source: src/pages/coding-classes-in-united-states.html
 ---
-> Live 1:1 online coding, Python, AI & agentic-AI mentorship for American students. AP Computer Science Principles & A aligned, USACO coached, MIT / Stanford / CMU / Berkeley / Ivy admissions aware. All 50 states. Mentors in PT / MT / CT / ET / AKT / HT. USD 100 a month. Book a free trial.
+> Live 1:1 online coding, Python & AI mentorship for US students. AP Computer Science & USACO coached, Ivy admissions aware. USD 100/mo. Book a free trial.
 
 ### Request a callback
 

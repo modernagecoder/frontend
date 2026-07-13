@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Pimpri-Chinchwad | Modern Age Coders"
-description: "Live online coding & maths classes in Pimpri-Chinchwad for kids, teens & adults. Python, AI, Java, Web Dev & MHT-CET/JEE-aligned logic. Trusted across Pimpri, Chinchwad, Akurdi, Nigdi, Wakad & near Hinjewadi. Rated 4.9/5. Book a free demo!"
+description: "Coding classes in Pimpri-Chinchwad for kids, teens & adults. Live online Python, AI, Java, Web Dev & MHT-CET/JEE-aligned logic, near Hinjewadi. Rated 4.9/5."
 canonical: /best-coding-class-in-pimpri-chinchwad
 keywords: ["best coding classes in Pimpri-Chinchwad", "coding classes in Pimpri-Chinchwad", "coding classes PCMC", "coding for kids in Pimpri-Chinchwad", "coding for teens in Pimpri-Chinchwad", "programming classes Pimpri-Chinchwad", "coding institute Pimpri-Chinchwad", "online coding classes Pimpri-Chinchwad", "coding classes near me PCMC", "Scratch programming Pimpri-Chinchwad", "Python for kids Chinchwad", "web development course Akurdi"]
 source: src/pages/best-coding-class-in-pimpri-chinchwad.html
 ---
-> Live online coding & maths classes in Pimpri-Chinchwad for kids, teens & adults. Python, AI, Java, Web Dev & MHT-CET/JEE-aligned logic. Trusted across Pimpri, Chinchwad, Akurdi, Nigdi, Wakad & near Hinjewadi. Rated 4.9/5. Book a free demo!
+> Coding classes in Pimpri-Chinchwad for kids, teens & adults. Live online Python, AI, Java, Web Dev & MHT-CET/JEE-aligned logic, near Hinjewadi. Rated 4.9/5.
 
 Live Online · Pimpri · Chinchwad · Akurdi · Nigdi · Wakad
 

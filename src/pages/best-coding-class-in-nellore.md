@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Nellore | Modern Age Coders"
-description: "Live online coding & maths classes in Nellore for kids, teens & adults. Python, AI, Java, Web Dev & EAPCET/JEE-aligned logic. Trusted across Magunta Layout, Dargamitta, AC Nagar & Stonehousepet. Rated 4.9/5. Book a free demo!"
+description: "Coding classes in Nellore for kids, teens & adults. Live online Python, AI, Java, Web Dev & AP EAPCET/JEE-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-nellore
 keywords: ["best coding classes in Nellore", "coding classes in Nellore", "coding for kids in Nellore", "coding for teens in Nellore", "programming classes Nellore", "coding institute Nellore", "online coding classes Nellore", "coding classes near me Nellore", "Scratch programming Nellore", "Python for kids Nellore", "web development course Nellore", "best coding institute in Nellore"]
 source: src/pages/best-coding-class-in-nellore.html
 ---
-> Live online coding & maths classes in Nellore for kids, teens & adults. Python, AI, Java, Web Dev & EAPCET/JEE-aligned logic. Trusted across Magunta Layout, Dargamitta, AC Nagar & Stonehousepet. Rated 4.9/5. Book a free demo!
+> Coding classes in Nellore for kids, teens & adults. Live online Python, AI, Java, Web Dev & AP EAPCET/JEE-aligned logic. Rated 4.9/5. Book a free demo!
 
 Live Online · Magunta Layout · Dargamitta · AC Nagar · Stonehousepet
 

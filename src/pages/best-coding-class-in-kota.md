@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Kota | Modern Age Coders"
-description: "Live online coding & AI classes in Kota for JEE/NEET aspirants, kids & teens. Python, AI agents, Java & Web Dev — the future-proof edge alongside exam prep. Trusted in Talwandi, Indra Vihar & Vigyan Nagar. Rated 4.9/5. Book a free demo!"
+description: "Coding & AI classes in Kota for JEE/NEET aspirants, kids & teens. Live online Python, Java & Web Dev — the future-proof edge alongside exam prep. Rated 4.9/5."
 canonical: /best-coding-class-in-kota
 keywords: ["best coding classes in Kota", "coding classes in Kota", "coding for kids in Kota", "coding for teens in Kota", "programming classes Kota", "coding institute Kota", "online coding classes Kota", "coding classes near me Kota", "Scratch programming Kota", "Python for kids Kota", "web development course Kota", "best coding institute in Kota"]
 source: src/pages/best-coding-class-in-kota.html
 ---
-> Live online coding & AI classes in Kota for JEE/NEET aspirants, kids & teens. Python, AI agents, Java & Web Dev — the future-proof edge alongside exam prep. Trusted in Talwandi, Indra Vihar & Vigyan Nagar. Rated 4.9/5. Book a free demo!
+> Coding & AI classes in Kota for JEE/NEET aspirants, kids & teens. Live online Python, Java & Web Dev — the future-proof edge alongside exam prep. Rated 4.9/5.
 
 Live Online · Talwandi · Indra Vihar · Vigyan Nagar · All Kota
 

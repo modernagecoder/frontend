@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Gorakhpur | Modern Age Coders"
-description: "Live online coding & maths classes in Gorakhpur for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Trusted across Civil Lines, Golghar, Mohaddipur, Taramandal & Betiahata. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Gorakhpur for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-gorakhpur
 keywords: ["best coding classes in Gorakhpur", "coding classes in Gorakhpur", "coding for kids in Gorakhpur", "coding for teens in Gorakhpur", "programming classes Gorakhpur", "coding institute Gorakhpur", "online coding classes Gorakhpur", "coding classes near me Gorakhpur", "Scratch programming Gorakhpur", "Python for kids Gorakhpur", "web development course Gorakhpur", "best coding institute in Gorakhpur"]
 source: src/pages/best-coding-class-in-gorakhpur.html
 ---
-> Live online coding & maths classes in Gorakhpur for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Trusted across Civil Lines, Golghar, Mohaddipur, Taramandal & Betiahata. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Gorakhpur for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Rated 4.9/5. Book a free demo!
 
 Live Online · Civil Lines · Golghar · Mohaddipur · Taramandal
 

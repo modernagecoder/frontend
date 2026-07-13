@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Asansol | Modern Age Coders"
-description: "Live online coding & maths classes in Asansol, West Bengal for kids, teens & adults. Python, AI, Java, Web Dev & logic in the city of coal, rail & the Rebel Poet. Serving Asansol Bazar, Burnpur, GT Road & Ushagram. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Asansol for kids, teens & adults. Python, AI, Java & Web Dev in the city of coal & rail. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-asansol
 keywords: ["best coding classes in Asansol", "coding classes in Asansol", "coding for kids in Asansol", "coding for teens in Asansol", "programming classes Asansol", "coding institute Asansol", "online coding classes Asansol", "coding classes near me Asansol", "Scratch programming Asansol", "Python for kids Asansol", "web development course Asansol", "best coding institute in Asansol"]
 source: src/pages/best-coding-class-in-asansol.html
 ---
-> Live online coding & maths classes in Asansol, West Bengal for kids, teens & adults. Python, AI, Java, Web Dev & logic in the city of coal, rail & the Rebel Poet. Serving Asansol Bazar, Burnpur, GT Road & Ushagram. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Asansol for kids, teens & adults. Python, AI, Java & Web Dev in the city of coal & rail. Rated 4.9/5. Book a free demo!
 
 Live Online · Asansol Bazar · Burnpur · GT Road · Ushagram
 

@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Jamnagar | Modern Age Coders"
-description: "Live online coding & maths classes in Jamnagar, Gujarat for kids, teens & adults — in India's Brass City, beside the world's largest oil refinery. Python, AI, Java, Web Dev, DSA & JEE/GUJCET-aligned logic. Serving Pancheshwar Tower, Patel Colony, Bedi Gate, Park Colony, Summair Club Road & nearby Khambhalia, Dwarka & Jamjodhpur. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Jamnagar for kids, teens & adults. Python, AI, Java, Web Dev & JEE/GUJCET logic, the Brass City. Rated 4.9/5. Demo!"
 canonical: /best-coding-class-in-jamnagar
 keywords: ["best coding classes in Jamnagar", "coding classes in Jamnagar", "coding for kids in Jamnagar", "coding for teens in Jamnagar", "programming classes Jamnagar", "coding institute Jamnagar", "online coding classes Jamnagar", "coding classes near me Jamnagar", "Scratch programming Jamnagar", "Python for kids Jamnagar", "web development course Jamnagar", "best coding institute in Jamnagar"]
 source: src/pages/best-coding-class-in-jamnagar.html
 ---
-> Live online coding & maths classes in Jamnagar, Gujarat for kids, teens & adults — in India's Brass City, beside the world's largest oil refinery. Python, AI, Java, Web Dev, DSA & JEE/GUJCET-aligned logic. Serving Pancheshwar Tower, Patel Colony, Bedi Gate, Park Colony, Summair Club Road & nearby Khambhalia, Dwarka & Jamjodhpur. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Jamnagar for kids, teens & adults. Python, AI, Java, Web Dev & JEE/GUJCET logic, the Brass City. Rated 4.9/5. Demo!
 
 Live Online · Pancheshwar Tower · Patel Colony · Bedi Gate · Park Colony
 

@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Anand | Modern Age Coders"
-description: "Live online coding & maths classes in Anand, Gujarat for kids, teens & adults. Python, AI, Java, Web Dev & JEE/GUJCET-aligned logic. Trusted across Vallabh Vidyanagar, Karamsad & Anand Town. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Anand for kids, teens & adults. Python, AI, Java, Web Dev & JEE/GUJCET-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-anand
 keywords: ["best coding classes in Anand", "coding classes in Anand", "coding for kids in Anand", "coding for teens in Anand", "programming classes Anand", "coding institute Anand", "online coding classes Anand", "coding classes near me Anand", "Scratch programming Anand", "Python for kids Anand", "web development course Anand", "best coding institute in Anand"]
 source: src/pages/best-coding-class-in-anand.html
 ---
-> Live online coding & maths classes in Anand, Gujarat for kids, teens & adults. Python, AI, Java, Web Dev & JEE/GUJCET-aligned logic. Trusted across Vallabh Vidyanagar, Karamsad & Anand Town. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Anand for kids, teens & adults. Python, AI, Java, Web Dev & JEE/GUJCET-aligned logic. Rated 4.9/5. Book a free demo!
 
 Live Online · Vallabh Vidyanagar · Karamsad · Anand Town · Amul Dairy Road
 

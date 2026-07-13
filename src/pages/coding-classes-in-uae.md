@@ -1,11 +1,11 @@
 ---
 title: "Online Coding & AI Classes in the UAE | Dubai & Beyond"
-description: "Live 1:1 online coding, Python, AI & agentic-AI mentorship for students across the UAE — Dubai, Abu Dhabi, Sharjah and all seven emirates. CBSE, ICSE, British (GCSE/A-Level), American (AP), IB DP, MOE-UAE and KHDA / ADEK aware. NYU Abu Dhabi, AUS, Khalifa, Heriot-Watt Dubai admissions ready. AED 368 (USD 100) a month."
+description: "Live 1:1 online coding, Python & AI mentorship for UAE students in Dubai, Abu Dhabi & Sharjah. CBSE, British & IB aware. AED 368 (USD 100)/mo. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-uae
 keywords: ["coding classes UAE", "coding classes Dubai", "coding classes Abu Dhabi", "coding classes Sharjah", "coding classes for kids Dubai", "coding for teens UAE", "online coding classes Dubai", "Python tutor Dubai", "Python tutor Abu Dhabi", "AI course UAE", "agentic AI UAE", "CBSE coding classes Dubai"]
 source: src/pages/coding-classes-in-uae.html
 ---
-> Live 1:1 online coding, Python, AI & agentic-AI mentorship for students across the UAE — Dubai, Abu Dhabi, Sharjah and all seven emirates. CBSE, ICSE, British (GCSE/A-Level), American (AP), IB DP, MOE-UAE and KHDA / ADEK aware. NYU Abu Dhabi, AUS, Khalifa, Heriot-Watt Dubai admissions ready. AED 368 (USD 100) a month.
+> Live 1:1 online coding, Python & AI mentorship for UAE students in Dubai, Abu Dhabi & Sharjah. CBSE, British & IB aware. AED 368 (USD 100)/mo. Free demo.
 
 ### Request a callback
 

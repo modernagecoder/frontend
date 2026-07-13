@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Navi Mumbai | Modern Age Coders"
-description: "Live online coding & maths classes in Navi Mumbai for kids, teens & adults. Python, AI, Java, Web Dev & JEE/MHT-CET-aligned logic. Trusted across Vashi, Nerul, Kharghar, Belapur & Airoli. Rated 4.9/5. Book a free demo!"
+description: "Coding classes in Navi Mumbai for kids, teens & adults. Live online Python, AI, Java, Web Dev & JEE/MHT-CET-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-navi-mumbai
 keywords: ["best coding classes in Navi Mumbai", "coding classes in Navi Mumbai", "coding for kids in Navi Mumbai", "coding for teens in Navi Mumbai", "programming classes Navi Mumbai", "coding institute Navi Mumbai", "online coding classes Navi Mumbai", "coding classes near me Navi Mumbai", "Scratch programming Navi Mumbai", "Python for kids Navi Mumbai", "web development course Navi Mumbai", "best coding institute in Navi Mumbai"]
 source: src/pages/best-coding-class-in-navi-mumbai.html
 ---
-> Live online coding & maths classes in Navi Mumbai for kids, teens & adults. Python, AI, Java, Web Dev & JEE/MHT-CET-aligned logic. Trusted across Vashi, Nerul, Kharghar, Belapur & Airoli. Rated 4.9/5. Book a free demo!
+> Coding classes in Navi Mumbai for kids, teens & adults. Live online Python, AI, Java, Web Dev & JEE/MHT-CET-aligned logic. Rated 4.9/5. Book a free demo!
 
 Live Online · Vashi · Nerul · Kharghar · Belapur · Airoli
 

@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Kollam | Modern Age Coders"
-description: "Live online coding & maths classes in Kollam for kids, teens & adults. Python, AI, Java, Web Dev & NEET/KEAM-aligned logic. Trusted across Chinnakada, Asramam, Kadappakada & Kottiyam. Rated 4.9/5. Book a free demo!"
+description: "Coding classes in Kollam for kids, teens & adults. Live online Python, AI, Java, Web Dev & NEET/KEAM-aligned logic. Rated 4.9/5. Book a free demo today!"
 canonical: /best-coding-class-in-kollam
 keywords: ["best coding classes in Kollam", "coding classes in Kollam", "coding for kids in Kollam", "coding for teens in Kollam", "programming classes Kollam", "coding institute Kollam", "online coding classes Kollam", "coding classes near me Kollam", "Scratch programming Kollam", "Python for kids Kollam", "web development course Kollam", "best coding institute in Kollam"]
 source: src/pages/best-coding-class-in-kollam.html
 ---
-> Live online coding & maths classes in Kollam for kids, teens & adults. Python, AI, Java, Web Dev & NEET/KEAM-aligned logic. Trusted across Chinnakada, Asramam, Kadappakada & Kottiyam. Rated 4.9/5. Book a free demo!
+> Coding classes in Kollam for kids, teens & adults. Live online Python, AI, Java, Web Dev & NEET/KEAM-aligned logic. Rated 4.9/5. Book a free demo today!
 
 Live Online · Chinnakada · Asramam · Kadappakada · Kottiyam
 

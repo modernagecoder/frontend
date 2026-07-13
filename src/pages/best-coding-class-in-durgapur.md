@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Durgapur | Modern Age Coders"
-description: "Live online coding & maths classes in Durgapur for kids, teens & adults. Python, AI, Java, Web Dev & WBJEE/JEE-aligned logic. Trusted across City Centre, Bidhannagar, Benachity & Steel Township. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Durgapur for kids, teens & adults. Python, AI, Java, Web Dev & WBJEE/JEE-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-durgapur
 keywords: ["best coding classes in Durgapur", "coding classes in Durgapur", "coding for kids in Durgapur", "coding for teens in Durgapur", "programming classes Durgapur", "coding institute Durgapur", "online coding classes Durgapur", "coding classes near me Durgapur", "Scratch programming Durgapur", "Python for kids Durgapur", "web development course Durgapur", "best coding institute in Durgapur"]
 source: src/pages/best-coding-class-in-durgapur.html
 ---
-> Live online coding & maths classes in Durgapur for kids, teens & adults. Python, AI, Java, Web Dev & WBJEE/JEE-aligned logic. Trusted across City Centre, Bidhannagar, Benachity & Steel Township. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Durgapur for kids, teens & adults. Python, AI, Java, Web Dev & WBJEE/JEE-aligned logic. Rated 4.9/5. Book a free demo!
 
 Live Online · City Centre · Bidhannagar · Benachity · Steel Township
 

@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Rourkela | Modern Age Coders"
-description: "Live online coding & maths classes in Rourkela for kids, teens & adults. Python, AI, Java, Web Dev & engineering-grade logic in the city of RSP & NIT Rourkela. Serving Civil Township, Sectors 1-22, Uditnagar, Chhend & Panposh. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Rourkela for kids, teens & adults. Python, AI, Java & engineering logic, home to NIT Rourkela. Rated 4.9/5. Free demo!"
 canonical: /best-coding-class-in-rourkela
 keywords: ["best coding classes in Rourkela", "coding classes in Rourkela", "coding for kids in Rourkela", "coding for teens in Rourkela", "programming classes Rourkela", "coding institute Rourkela", "online coding classes Rourkela", "coding classes near me Rourkela", "Scratch programming Rourkela", "Python for kids Rourkela", "web development course Rourkela", "best coding institute in Rourkela"]
 source: src/pages/best-coding-class-in-rourkela.html
 ---
-> Live online coding & maths classes in Rourkela for kids, teens & adults. Python, AI, Java, Web Dev & engineering-grade logic in the city of RSP & NIT Rourkela. Serving Civil Township, Sectors 1-22, Uditnagar, Chhend & Panposh. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Rourkela for kids, teens & adults. Python, AI, Java & engineering logic, home to NIT Rourkela. Rated 4.9/5. Free demo!
 
 Live Online · Civil Township · Steel Township · Uditnagar · Chhend
 

@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Kharagpur | Modern Age Coders"
-description: "Live online coding & maths classes in Kharagpur — home of IIT Kharagpur, India's first IIT. Python, AI, Java, Web Dev & DSA for kids, teens & college. Trusted across Kharagpur Town, Hijli, Inda, Gole Bazar & Malancha. Rated 4.9/5. Book a free demo!"
+description: "Coding classes in Kharagpur for kids, teens & college. Live online Python, AI, Java, Web Dev & DSA in the town of IIT Kharagpur. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-kharagpur
 keywords: ["best coding classes in Kharagpur", "coding classes in Kharagpur", "coding for kids in Kharagpur", "coding for teens in Kharagpur", "programming classes Kharagpur", "coding institute Kharagpur", "online coding classes Kharagpur", "coding classes near me Kharagpur", "Scratch programming Kharagpur", "Python for kids Kharagpur", "web development course Kharagpur", "best coding institute in Kharagpur"]
 source: src/pages/best-coding-class-in-kharagpur.html
 ---
-> Live online coding & maths classes in Kharagpur — home of IIT Kharagpur, India's first IIT. Python, AI, Java, Web Dev & DSA for kids, teens & college. Trusted across Kharagpur Town, Hijli, Inda, Gole Bazar & Malancha. Rated 4.9/5. Book a free demo!
+> Coding classes in Kharagpur for kids, teens & college. Live online Python, AI, Java, Web Dev & DSA in the town of IIT Kharagpur. Rated 4.9/5. Book a free demo!
 
 Live Online · IIT Kharagpur · Hijli · Gole Bazar · Inda
 

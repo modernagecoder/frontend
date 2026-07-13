@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Shivamogga (Shimoga) | Modern Age Coders"
-description: "Live online coding & maths classes in Shivamogga (Shimoga) for kids, teens & college students. Python, AI, Vibe Coding, Java, Web Dev & DSA — gateway to the Malnad. Serving Vinoba Nagar, Gopi Circle, Vidyanagar, Tunga riverfront & nearby Bhadravati / Sagar / Thirthahalli. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Shivamogga (Shimoga) for kids, teens & college. Python, AI, Java & DSA, gateway to the Malnad. Rated 4.9/5. Free demo!"
 canonical: /best-coding-class-in-shimoga
 keywords: ["best coding classes in Shimoga", "coding classes in Shivamogga", "coding classes in Shimoga", "coding for kids in Shivamogga", "coding for teens in Shimoga", "programming classes Shivamogga", "coding institute Shimoga", "online coding classes Shivamogga", "coding classes near me Shimoga", "Scratch programming Shimoga", "Python for kids Shivamogga", "web development course Shimoga"]
 source: src/pages/best-coding-class-in-shimoga.html
 ---
-> Live online coding & maths classes in Shivamogga (Shimoga) for kids, teens & college students. Python, AI, Vibe Coding, Java, Web Dev & DSA — gateway to the Malnad. Serving Vinoba Nagar, Gopi Circle, Vidyanagar, Tunga riverfront & nearby Bhadravati / Sagar / Thirthahalli. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Shivamogga (Shimoga) for kids, teens & college. Python, AI, Java & DSA, gateway to the Malnad. Rated 4.9/5. Free demo!
 
 Live Online · Vinoba Nagar · Gopi Circle · Vidyanagar · Tunga Riverfront
 

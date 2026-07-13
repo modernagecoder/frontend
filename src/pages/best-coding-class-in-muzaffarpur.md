@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Muzaffarpur | Modern Age Coders"
-description: "Live online coding & maths classes in Muzaffarpur for kids, teens & adults. Python, AI, Java, Web Dev & JEE/NEET-aligned logic. Trusted across Mithanpura, Kalambagh Chowk, Aghoria Bazar & Saraiyaganj. Rated 4.9/5. Book a free demo!"
+description: "Coding classes in Muzaffarpur for kids, teens & adults. Live online Python, AI, Java, Web Dev & JEE/NEET-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-muzaffarpur
 keywords: ["best coding classes in Muzaffarpur", "coding classes in Muzaffarpur", "coding for kids in Muzaffarpur", "coding for teens in Muzaffarpur", "programming classes Muzaffarpur", "coding institute Muzaffarpur", "online coding classes Muzaffarpur", "coding classes near me Muzaffarpur", "Scratch programming Muzaffarpur", "Python for kids Muzaffarpur", "web development course Muzaffarpur", "best coding institute in Muzaffarpur"]
 source: src/pages/best-coding-class-in-muzaffarpur.html
 ---
-> Live online coding & maths classes in Muzaffarpur for kids, teens & adults. Python, AI, Java, Web Dev & JEE/NEET-aligned logic. Trusted across Mithanpura, Kalambagh Chowk, Aghoria Bazar & Saraiyaganj. Rated 4.9/5. Book a free demo!
+> Coding classes in Muzaffarpur for kids, teens & adults. Live online Python, AI, Java, Web Dev & JEE/NEET-aligned logic. Rated 4.9/5. Book a free demo!
 
 Live Online · Mithanpura · Kalambagh Chowk · Aghoria Bazar · North Bihar
 

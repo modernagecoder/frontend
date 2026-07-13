@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Noida | Modern Age Coders"
-description: "Live online coding & maths classes in Noida for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Trusted across Sector 18, 62, 137 & Greater Noida West. Rated 4.9/5. Book a free demo!"
+description: "Coding classes in Noida for kids, teens & adults. Live online Python, AI, Java, Web Dev & JEE-aligned logic, from Sector 18 to 137. Rated 4.9/5. Free demo!"
 canonical: /best-coding-class-in-noida
 keywords: ["best coding classes in Noida", "coding classes in Noida", "coding for kids in Noida", "coding for teens in Noida", "programming classes Noida", "coding institute Noida", "online coding classes Noida", "coding classes near me Noida", "Scratch programming Noida", "Python for kids Noida", "web development course Noida", "best coding institute in Noida"]
 source: src/pages/best-coding-class-in-noida.html
 ---
-> Live online coding & maths classes in Noida for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Trusted across Sector 18, 62, 137 & Greater Noida West. Rated 4.9/5. Book a free demo!
+> Coding classes in Noida for kids, teens & adults. Live online Python, AI, Java, Web Dev & JEE-aligned logic, from Sector 18 to 137. Rated 4.9/5. Free demo!
 
 Live Online · Sector 18 · 62 · 137 · Greater Noida West
 

@@ -1,11 +1,11 @@
 ---
 title: "Coding Classes in West Bengal | Online for Kids, Teens & Adults"
-description: "Live online coding & maths classes in West Bengal for kids, teens & adults. Python, AI, Java, Web Dev & DSA. Serving Kolkata, Howrah & all of West Bengal. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in West Bengal for kids, teens & adults. Python, AI, Java & Web Dev across Kolkata, Howrah & beyond. Rated 4.9/5. Free demo!"
 canonical: /coding-classes-in-west-bengal
 keywords: ["coding classes in West Bengal", "online coding classes West Bengal", "coding classes for kids West Bengal", "Python classes West Bengal", "AI course for kids West Bengal", "coding institute West Bengal", "learn coding West Bengal", "coding classes Kolkata", "coding classes Howrah", "coding classes Siliguri", "WBJEE maths coaching", "CBSE coding West Bengal"]
 source: src/pages/coding-classes-in-west-bengal.html
 ---
-> Live online coding & maths classes in West Bengal for kids, teens & adults. Python, AI, Java, Web Dev & DSA. Serving Kolkata, Howrah & all of West Bengal. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in West Bengal for kids, teens & adults. Python, AI, Java & Web Dev across Kolkata, Howrah & beyond. Rated 4.9/5. Free demo!
 
 West Bengal • **Live Online Classes**
 

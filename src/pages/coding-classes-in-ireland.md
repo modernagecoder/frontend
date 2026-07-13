@@ -1,11 +1,11 @@
 ---
 title: "Online Coding & AI Classes in Ireland | Leaving Cert"
-description: "Live 1:1 online coding, Python, AI & agentic-AI mentorship for students across Ireland. Aligned with Junior Cycle, Transition Year (TY), Leaving Certificate Higher & Ordinary Level, and the Leaving Cert Computer Science specification (since 2018). Trinity College Dublin (TCD), UCD, UCC, DCU, University of Limerick, NUI Galway, Maynooth, TU Dublin admissions ready. CAO-points aware. EUR 92 (USD 100) a month."
+description: "Live 1:1 online coding, Python & AI for students across Ireland. Junior Cycle & Leaving Cert aligned; Trinity, UCD & UCC ready. EUR 92 (USD 100) a month."
 canonical: https://learn.modernagecoders.com/coding-classes-in-ireland
 keywords: ["coding classes Ireland", "coding classes Dublin", "coding classes Cork", "coding classes Galway", "coding classes Limerick", "coding classes Waterford", "online coding classes Ireland", "Python tutor Dublin", "Python tutor Cork", "AI course Ireland", "agentic AI Ireland", "Junior Cycle Coding tutor"]
 source: src/pages/coding-classes-in-ireland.html
 ---
-> Live 1:1 online coding, Python, AI & agentic-AI mentorship for students across Ireland. Aligned with Junior Cycle, Transition Year (TY), Leaving Certificate Higher & Ordinary Level, and the Leaving Cert Computer Science specification (since 2018). Trinity College Dublin (TCD), UCD, UCC, DCU, University of Limerick, NUI Galway, Maynooth, TU Dublin admissions ready. CAO-points aware. EUR 92 (USD 100) a month.
+> Live 1:1 online coding, Python & AI for students across Ireland. Junior Cycle & Leaving Cert aligned; Trinity, UCD & UCC ready. EUR 92 (USD 100) a month.
 
 ### Request a callback
 

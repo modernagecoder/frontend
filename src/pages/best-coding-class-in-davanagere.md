@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Davanagere (Davangere) | Modern Age Coders"
-description: "Live online coding & maths classes in Davanagere for kids, teens & adults. Python, AI, Java, Web Dev & KCET-aligned logic in central Karnataka's education hub. Serving P J Extension, Vidyanagar, MCC Block, Ring Road & nearby Harihar / Channagiri. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Davanagere for kids, teens & adults. Python, AI, Java & Web Dev, KCET-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-davanagere
 keywords: ["best coding classes in Davanagere", "coding classes in Davangere", "coding for kids in Davanagere", "coding for teens in Davanagere", "programming classes Davanagere", "coding institute Davanagere", "online coding classes Davanagere", "coding classes near me Davanagere", "Scratch programming Davanagere", "Python for kids Davanagere", "web development course Davanagere", "best coding institute in Davanagere"]
 source: src/pages/best-coding-class-in-davanagere.html
 ---
-> Live online coding & maths classes in Davanagere for kids, teens & adults. Python, AI, Java, Web Dev & KCET-aligned logic in central Karnataka's education hub. Serving P J Extension, Vidyanagar, MCC Block, Ring Road & nearby Harihar / Channagiri. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Davanagere for kids, teens & adults. Python, AI, Java & Web Dev, KCET-aligned logic. Rated 4.9/5. Book a free demo!
 
 Live Online · P J Extension · Vidyanagar · MCC Block · Ring Road
 

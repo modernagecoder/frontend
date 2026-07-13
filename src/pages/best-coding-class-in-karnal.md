@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Karnal | Modern Age Coders"
-description: "Live online coding & maths classes in Karnal for kids, teens & college students. Python, AI, Vibe Coding, AI coding agents, Java, Web Dev & DSA — in the Rice Bowl of India and a national agricultural-research city (NDRI, CSSRI). Serving Sector 12, Model Town, Kunjpura Road, Mughal Canal & nearby Nilokheri / Gharaunda / Indri / Taraori / Assandh. CBSE, ICSE & HBSE friendly. Rated 4.9/5. Book a free demo!"
+description: "Coding classes in Karnal for kids, teens & college. Live online Python, AI, Java & Web Dev in the Rice Bowl of India. CBSE, ICSE & HBSE friendly. Rated 4.9/5."
 canonical: /best-coding-class-in-karnal
 keywords: ["best coding classes in Karnal", "coding classes in Karnal", "coding for kids in Karnal", "coding for teens in Karnal", "programming classes Karnal", "coding institute Karnal", "online coding classes Karnal", "coding classes near me Karnal", "Scratch programming Karnal", "Python for kids Karnal", "web development course Karnal", "vibe coding Karnal"]
 source: src/pages/best-coding-class-in-karnal.html
 ---
-> Live online coding & maths classes in Karnal for kids, teens & college students. Python, AI, Vibe Coding, AI coding agents, Java, Web Dev & DSA — in the Rice Bowl of India and a national agricultural-research city (NDRI, CSSRI). Serving Sector 12, Model Town, Kunjpura Road, Mughal Canal & nearby Nilokheri / Gharaunda / Indri / Taraori / Assandh. CBSE, ICSE & HBSE friendly. Rated 4.9/5. Book a free demo!
+> Coding classes in Karnal for kids, teens & college. Live online Python, AI, Java & Web Dev in the Rice Bowl of India. CBSE, ICSE & HBSE friendly. Rated 4.9/5.
 
 Live Online · Sector 12 · Model Town · Kunjpura Road · Mughal Canal
 

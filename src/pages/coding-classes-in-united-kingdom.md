@@ -1,11 +1,11 @@
 ---
 title: "Online Coding & AI Classes in the UK | GCSE & A-Level"
-description: "Live 1:1 online coding, Python, AI & agentic-AI mentorship for British students. KS3–KS5 aligned, GCSE Computer Science (AQA · OCR · Pearson) and A-Level ready. Russell-Group & Oxbridge interview prep. London, Manchester, Birmingham, Edinburgh, Cambridge, Oxford and beyond. £79/mo (USD 100). Book a free demo."
+description: "Live 1:1 online coding, Python & AI mentorship for UK students. GCSE Computer Science & A-Level ready, Oxbridge prep. £79/mo (USD 100). Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-united-kingdom
 keywords: ["coding classes UK", "online coding classes UK", "coding classes London", "coding classes Manchester", "coding classes Birmingham", "coding classes Edinburgh", "coding classes Glasgow", "coding classes Leeds", "coding classes Liverpool", "coding classes Bristol", "coding classes Cambridge", "coding classes Oxford"]
 source: src/pages/coding-classes-in-united-kingdom.html
 ---
-> Live 1:1 online coding, Python, AI & agentic-AI mentorship for British students. KS3–KS5 aligned, GCSE Computer Science (AQA · OCR · Pearson) and A-Level ready. Russell-Group & Oxbridge interview prep. London, Manchester, Birmingham, Edinburgh, Cambridge, Oxford and beyond. £79/mo (USD 100). Book a free demo.
+> Live 1:1 online coding, Python & AI mentorship for UK students. GCSE Computer Science & A-Level ready, Oxbridge prep. £79/mo (USD 100). Book a free demo.
 
 ### Request a callback
 

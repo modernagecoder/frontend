@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Balasore | Modern Age Coders"
-description: "Live online coding & maths classes in Balasore (Baleswar), Odisha for kids, teens & adults. Python, AI, Java, Web Dev & precision logic in the coastal city beside India's missile test range at Chandipur. Serving Sahadevkhunta, OT Road, Station Bazar, Remuna Golei & FM University. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Balasore for kids, teens & adults. Python, AI, Java & Web Dev, logic near Chandipur. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-balasore
 keywords: ["best coding classes in Balasore", "coding classes in Balasore", "coding classes in Baleswar", "coding for kids in Balasore", "coding for teens in Balasore", "programming classes Balasore", "coding institute Balasore", "online coding classes Balasore", "coding classes near me Balasore", "Scratch programming Balasore", "Python for kids Balasore", "web development course Balasore"]
 source: src/pages/best-coding-class-in-balasore.html
 ---
-> Live online coding & maths classes in Balasore (Baleswar), Odisha for kids, teens & adults. Python, AI, Java, Web Dev & precision logic in the coastal city beside India's missile test range at Chandipur. Serving Sahadevkhunta, OT Road, Station Bazar, Remuna Golei & FM University. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Balasore for kids, teens & adults. Python, AI, Java & Web Dev, logic near Chandipur. Rated 4.9/5. Book a free demo!
 
 Live Online · Sahadevkhunta · OT Road · Chandipur · FM University
 

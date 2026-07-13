@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Patiala | Modern Age Coders"
-description: "Live online coding & maths classes in Patiala for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Trusted across Model Town, Tripuri, Urban Estate, Leela Bhawan & the Thapar–Punjabi University belt. Rated 4.9/5. Book a free demo!"
+description: "Coding classes in Patiala for kids, teens & adults. Live online Python, AI, Java, Web Dev & JEE-aligned logic near the Thapar-Punjabi University. Rated 4.9/5."
 canonical: /best-coding-class-in-patiala
 keywords: ["best coding classes in Patiala", "coding classes in Patiala", "coding for kids in Patiala", "coding for teens in Patiala", "programming classes Patiala", "coding institute Patiala", "online coding classes Patiala", "coding classes near me Patiala", "Scratch programming Patiala", "Python for kids Patiala", "web development course Patiala", "best coding institute in Patiala"]
 source: src/pages/best-coding-class-in-patiala.html
 ---
-> Live online coding & maths classes in Patiala for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Trusted across Model Town, Tripuri, Urban Estate, Leela Bhawan & the Thapar–Punjabi University belt. Rated 4.9/5. Book a free demo!
+> Coding classes in Patiala for kids, teens & adults. Live online Python, AI, Java, Web Dev & JEE-aligned logic near the Thapar-Punjabi University. Rated 4.9/5.
 
 Live Online · Model Town · Tripuri · Urban Estate · Punjabi University Belt
 

@@ -5,37 +5,187 @@
   "ageRange": "16-25",
   "tone": "practical, database-focused, interview-oriented",
   "index": {
-    "title": "SQL Tutorial - Complete Database Guide from Basics to Advanced Queries",
+    "title": "SQL Tutorial: Databases, Basics to Advanced",
     "description": "Learn SQL from scratch with our detailed chapter-by-chapter guide. Covers SELECT, JOINS, subqueries, window functions, indexes, transactions, and database design. Each topic has clear notes, real query examples, and 50+ practice questions including interview favorites.",
     "keywords": "sql tutorial, learn sql, sql for beginners, mysql tutorial, sql queries, sql joins, sql window functions, sql interview questions, database tutorial, sql practice questions, sql for data analyst",
     "intro": "<p>Every app you use stores its data somewhere. Your Instagram posts, YouTube watch history, bank transactions, school marks — all of it lives in databases. SQL (Structured Query Language) is how we talk to these databases. If you want to become a data analyst, backend developer, data scientist, or just work with data at any company, SQL is non-negotiable.</p><p>This guide takes you from writing your first SELECT query to mastering advanced concepts like window functions, CTEs, indexing strategies, and query optimization. We use MySQL syntax primarily, but cover portable SQL that works on PostgreSQL, SQL Server, and SQLite too.</p><p>Each chapter has 50+ practice questions including real interview queries asked at companies like Amazon, Google, Flipkart, and Zomato. Every concept is explained with actual sample tables and expected results so you can copy, paste, and run them. This is not theory. This is SQL you will use every day in your career.</p>"
   },
   "chapters": [
-    { "slug": "introduction-to-sql-and-databases", "order": 1, "title": "Introduction to SQL and Databases", "difficulty": "Beginner", "description": "Understand what databases are, why they matter, and how SQL lets us store, retrieve, and manage data." },
-    { "slug": "setting-up-mysql-and-first-query", "order": 2, "title": "Setting Up MySQL and Your First Query", "difficulty": "Beginner", "description": "Install MySQL, use MySQL Workbench or CLI, create your first database and table, and run your first SELECT." },
-    { "slug": "data-types-and-constraints", "order": 3, "title": "Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)", "difficulty": "Beginner", "description": "Learn INT, VARCHAR, TEXT, DATE, DATETIME, BOOLEAN, and constraints that keep your data clean." },
-    { "slug": "creating-and-modifying-tables", "order": 4, "title": "CREATE, ALTER, DROP Tables", "difficulty": "Beginner", "description": "Create tables, add/remove columns with ALTER, drop tables, truncate, and rename — the DDL commands." },
-    { "slug": "insert-update-delete", "order": 5, "title": "INSERT, UPDATE, DELETE - Manipulating Data", "difficulty": "Beginner", "description": "Add new rows with INSERT, change data with UPDATE, remove rows with DELETE, and the WHERE clause." },
-    { "slug": "select-basics-and-where", "order": 6, "title": "SELECT Queries and the WHERE Clause", "difficulty": "Beginner", "description": "Retrieve data with SELECT, filter rows with WHERE, use comparison operators, AND, OR, NOT, IN, BETWEEN." },
-    { "slug": "sorting-and-limiting", "order": 7, "title": "ORDER BY, LIMIT, and DISTINCT", "difficulty": "Beginner", "description": "Sort results, limit rows returned, remove duplicates, and use OFFSET for pagination." },
-    { "slug": "pattern-matching-and-null", "order": 8, "title": "LIKE Pattern Matching and NULL Handling", "difficulty": "Beginner", "description": "Search with LIKE, wildcards %, _, handle NULL with IS NULL, IS NOT NULL, COALESCE, IFNULL." },
-    { "slug": "aggregate-functions", "order": 9, "title": "Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)", "difficulty": "Intermediate", "description": "Summarize data with COUNT, SUM, AVG, MIN, MAX. Understand when NULL is counted and when it isn't." },
-    { "slug": "group-by-and-having", "order": 10, "title": "GROUP BY and HAVING", "difficulty": "Intermediate", "description": "Group rows for aggregation, filter groups with HAVING, and understand the order of SQL clauses." },
-    { "slug": "joins-inner-and-outer", "order": 11, "title": "JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS", "difficulty": "Intermediate", "description": "Combine data from multiple tables with all join types. Understand when to use each with clear Venn diagrams." },
-    { "slug": "self-joins-and-multi-table", "order": 12, "title": "Self Joins and Multi-Table Queries", "difficulty": "Intermediate", "description": "Join a table with itself for hierarchical data. Combine 3+ tables and avoid common join pitfalls." },
-    { "slug": "subqueries-and-nested-queries", "order": 13, "title": "Subqueries (Nested Queries) and EXISTS", "difficulty": "Intermediate", "description": "Write queries inside queries. Master scalar, row, and correlated subqueries. Use EXISTS vs IN." },
-    { "slug": "set-operations", "order": 14, "title": "UNION, UNION ALL, INTERSECT, EXCEPT", "difficulty": "Intermediate", "description": "Combine results from multiple queries with set operations. Understand performance implications." },
-    { "slug": "string-functions", "order": 15, "title": "String Functions in SQL", "difficulty": "Intermediate", "description": "Manipulate text with CONCAT, SUBSTRING, UPPER, LOWER, TRIM, REPLACE, LENGTH, LOCATE, LEFT, RIGHT." },
-    { "slug": "date-and-time-functions", "order": 16, "title": "Date and Time Functions", "difficulty": "Intermediate", "description": "Work with dates using NOW, CURDATE, DATEDIFF, DATE_ADD, DATE_FORMAT, YEAR, MONTH, DAY, and time zones." },
-    { "slug": "conditional-logic-case-when", "order": 17, "title": "Conditional Logic - CASE WHEN, IF, IFNULL", "difficulty": "Intermediate", "description": "Add if-else logic to queries with CASE expressions, IF function, and conditional aggregation patterns." },
-    { "slug": "window-functions", "order": 18, "title": "Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD", "difficulty": "Advanced", "description": "Master window functions with OVER(), PARTITION BY, and ORDER BY. Essential for data analyst interviews." },
-    { "slug": "common-table-expressions", "order": 19, "title": "Common Table Expressions (CTEs) and Recursive Queries", "difficulty": "Advanced", "description": "Write cleaner queries with WITH clause. Use recursive CTEs for hierarchies and sequences." },
-    { "slug": "indexes-and-performance", "order": 20, "title": "Indexes and Query Performance", "difficulty": "Advanced", "description": "Understand B-Tree indexes, when to add indexes, composite indexes, EXPLAIN plans, and query optimization." },
-    { "slug": "views-and-stored-procedures", "order": 21, "title": "Views, Stored Procedures, and Functions", "difficulty": "Advanced", "description": "Create reusable views, write stored procedures with parameters, loops, and user-defined functions." },
-    { "slug": "triggers-and-events", "order": 22, "title": "Triggers and Scheduled Events", "difficulty": "Advanced", "description": "Automate database actions with BEFORE/AFTER INSERT/UPDATE/DELETE triggers and scheduled events." },
-    { "slug": "transactions-and-acid", "order": 23, "title": "Transactions and ACID Properties", "difficulty": "Advanced", "description": "Use BEGIN, COMMIT, ROLLBACK, SAVEPOINT. Understand ACID, isolation levels, and deadlocks." },
-    { "slug": "database-design-and-normalization", "order": 24, "title": "Database Design and Normalization (1NF, 2NF, 3NF, BCNF)", "difficulty": "Advanced", "description": "Design clean schemas. Master the normal forms with real examples, ER diagrams, and denormalization trade-offs." },
-    { "slug": "sql-interview-masterclass", "order": 25, "title": "SQL Interview Masterclass - Top 30 Questions Solved", "difficulty": "Advanced", "description": "Solve the most-asked SQL interview questions: Nth highest salary, duplicates, consecutive rows, running totals, pivoting." }
+    {
+      "slug": "introduction-to-sql-and-databases",
+      "order": 1,
+      "title": "Introduction to SQL and Databases",
+      "difficulty": "Beginner",
+      "description": "Understand what databases are, why they matter, and how SQL lets us store, retrieve, and manage data."
+    },
+    {
+      "slug": "setting-up-mysql-and-first-query",
+      "order": 2,
+      "title": "Setting Up MySQL and Your First Query",
+      "difficulty": "Beginner",
+      "description": "Install MySQL, use MySQL Workbench or CLI, create your first database and table, and run your first SELECT."
+    },
+    {
+      "slug": "data-types-and-constraints",
+      "order": 3,
+      "title": "Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)",
+      "difficulty": "Beginner",
+      "description": "Learn INT, VARCHAR, TEXT, DATE, DATETIME, BOOLEAN, and constraints that keep your data clean."
+    },
+    {
+      "slug": "creating-and-modifying-tables",
+      "order": 4,
+      "title": "CREATE, ALTER, DROP Tables",
+      "difficulty": "Beginner",
+      "description": "Create tables, add/remove columns with ALTER, drop tables, truncate, and rename — the DDL commands."
+    },
+    {
+      "slug": "insert-update-delete",
+      "order": 5,
+      "title": "INSERT, UPDATE, DELETE - Manipulating Data",
+      "difficulty": "Beginner",
+      "description": "Add new rows with INSERT, change data with UPDATE, remove rows with DELETE, and the WHERE clause."
+    },
+    {
+      "slug": "select-basics-and-where",
+      "order": 6,
+      "title": "SELECT Queries and the WHERE Clause",
+      "difficulty": "Beginner",
+      "description": "Retrieve data with SELECT, filter rows with WHERE, use comparison operators, AND, OR, NOT, IN, BETWEEN."
+    },
+    {
+      "slug": "sorting-and-limiting",
+      "order": 7,
+      "title": "ORDER BY, LIMIT, and DISTINCT",
+      "difficulty": "Beginner",
+      "description": "Sort results, limit rows returned, remove duplicates, and use OFFSET for pagination."
+    },
+    {
+      "slug": "pattern-matching-and-null",
+      "order": 8,
+      "title": "LIKE Pattern Matching and NULL Handling",
+      "difficulty": "Beginner",
+      "description": "Search with LIKE, wildcards %, _, handle NULL with IS NULL, IS NOT NULL, COALESCE, IFNULL."
+    },
+    {
+      "slug": "aggregate-functions",
+      "order": 9,
+      "title": "Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)",
+      "difficulty": "Intermediate",
+      "description": "Summarize data with COUNT, SUM, AVG, MIN, MAX. Understand when NULL is counted and when it isn't."
+    },
+    {
+      "slug": "group-by-and-having",
+      "order": 10,
+      "title": "GROUP BY and HAVING",
+      "difficulty": "Intermediate",
+      "description": "Group rows for aggregation, filter groups with HAVING, and understand the order of SQL clauses."
+    },
+    {
+      "slug": "joins-inner-and-outer",
+      "order": 11,
+      "title": "JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS",
+      "difficulty": "Intermediate",
+      "description": "Combine data from multiple tables with all join types. Understand when to use each with clear Venn diagrams."
+    },
+    {
+      "slug": "self-joins-and-multi-table",
+      "order": 12,
+      "title": "Self Joins and Multi-Table Queries",
+      "difficulty": "Intermediate",
+      "description": "Join a table with itself for hierarchical data. Combine 3+ tables and avoid common join pitfalls."
+    },
+    {
+      "slug": "subqueries-and-nested-queries",
+      "order": 13,
+      "title": "Subqueries (Nested Queries) and EXISTS",
+      "difficulty": "Intermediate",
+      "description": "Write queries inside queries. Master scalar, row, and correlated subqueries. Use EXISTS vs IN."
+    },
+    {
+      "slug": "set-operations",
+      "order": 14,
+      "title": "UNION, UNION ALL, INTERSECT, EXCEPT",
+      "difficulty": "Intermediate",
+      "description": "Combine results from multiple queries with set operations. Understand performance implications."
+    },
+    {
+      "slug": "string-functions",
+      "order": 15,
+      "title": "String Functions in SQL",
+      "difficulty": "Intermediate",
+      "description": "Manipulate text with CONCAT, SUBSTRING, UPPER, LOWER, TRIM, REPLACE, LENGTH, LOCATE, LEFT, RIGHT."
+    },
+    {
+      "slug": "date-and-time-functions",
+      "order": 16,
+      "title": "Date and Time Functions",
+      "difficulty": "Intermediate",
+      "description": "Work with dates using NOW, CURDATE, DATEDIFF, DATE_ADD, DATE_FORMAT, YEAR, MONTH, DAY, and time zones."
+    },
+    {
+      "slug": "conditional-logic-case-when",
+      "order": 17,
+      "title": "Conditional Logic - CASE WHEN, IF, IFNULL",
+      "difficulty": "Intermediate",
+      "description": "Add if-else logic to queries with CASE expressions, IF function, and conditional aggregation patterns."
+    },
+    {
+      "slug": "window-functions",
+      "order": 18,
+      "title": "Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD",
+      "difficulty": "Advanced",
+      "description": "Master window functions with OVER(), PARTITION BY, and ORDER BY. Essential for data analyst interviews."
+    },
+    {
+      "slug": "common-table-expressions",
+      "order": 19,
+      "title": "Common Table Expressions (CTEs) and Recursive Queries",
+      "difficulty": "Advanced",
+      "description": "Write cleaner queries with WITH clause. Use recursive CTEs for hierarchies and sequences."
+    },
+    {
+      "slug": "indexes-and-performance",
+      "order": 20,
+      "title": "Indexes and Query Performance",
+      "difficulty": "Advanced",
+      "description": "Understand B-Tree indexes, when to add indexes, composite indexes, EXPLAIN plans, and query optimization."
+    },
+    {
+      "slug": "views-and-stored-procedures",
+      "order": 21,
+      "title": "Views, Stored Procedures, and Functions",
+      "difficulty": "Advanced",
+      "description": "Create reusable views, write stored procedures with parameters, loops, and user-defined functions."
+    },
+    {
+      "slug": "triggers-and-events",
+      "order": 22,
+      "title": "Triggers and Scheduled Events",
+      "difficulty": "Advanced",
+      "description": "Automate database actions with BEFORE/AFTER INSERT/UPDATE/DELETE triggers and scheduled events."
+    },
+    {
+      "slug": "transactions-and-acid",
+      "order": 23,
+      "title": "Transactions and ACID Properties",
+      "difficulty": "Advanced",
+      "description": "Use BEGIN, COMMIT, ROLLBACK, SAVEPOINT. Understand ACID, isolation levels, and deadlocks."
+    },
+    {
+      "slug": "database-design-and-normalization",
+      "order": 24,
+      "title": "Database Design and Normalization (1NF, 2NF, 3NF, BCNF)",
+      "difficulty": "Advanced",
+      "description": "Design clean schemas. Master the normal forms with real examples, ER diagrams, and denormalization trade-offs."
+    },
+    {
+      "slug": "sql-interview-masterclass",
+      "order": 25,
+      "title": "SQL Interview Masterclass - Top 30 Questions Solved",
+      "difficulty": "Advanced",
+      "description": "Solve the most-asked SQL interview questions: Nth highest salary, duplicates, consecutive rows, running totals, pivoting."
+    }
   ],
   "courseCta": {
     "text": "Want to master SQL and databases with a mentor?",
@@ -43,10 +193,25 @@
     "url": "/courses/mysql-database-complete-masterclass-college"
   },
   "relatedCourses": [
-    { "text": "MySQL Masterclass (College)", "url": "/courses/mysql-database-complete-masterclass-college" },
-    { "text": "MySQL for Teens", "url": "/courses/mysql-mastery-for-teens" },
-    { "text": "Data Analysis Masterclass", "url": "/courses/data-analysis-mastery-course-college" },
-    { "text": "Data Science Masterclass", "url": "/courses/data-science-complete-masterclass-college" },
-    { "text": "Full Stack Web Dev", "url": "/courses/full-stack-web-development-masterclass-college" }
+    {
+      "text": "MySQL Masterclass (College)",
+      "url": "/courses/mysql-database-complete-masterclass-college"
+    },
+    {
+      "text": "MySQL for Teens",
+      "url": "/courses/mysql-mastery-for-teens"
+    },
+    {
+      "text": "Data Analysis Masterclass",
+      "url": "/courses/data-analysis-mastery-course-college"
+    },
+    {
+      "text": "Data Science Masterclass",
+      "url": "/courses/data-science-complete-masterclass-college"
+    },
+    {
+      "text": "Full Stack Web Dev",
+      "url": "/courses/full-stack-web-development-masterclass-college"
+    }
   ]
 }

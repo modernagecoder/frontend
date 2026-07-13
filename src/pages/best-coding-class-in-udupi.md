@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Udupi & Manipal | Modern Age Coders"
-description: "Live online coding & maths classes in Udupi & Manipal for kids, teens & college students. Python, AI, Vibe Coding, Java, Web Dev & DSA — taught for a globally-minded university coast. Serving Udupi Town, Manipal, Malpe, Kallianpur & nearby. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Udupi & Manipal for kids, teens & college. Python, AI, Java & DSA for a university coast. Rated 4.9/5. Free demo!"
 canonical: /best-coding-class-in-udupi
 keywords: ["best coding classes in Udupi", "coding classes in Udupi", "coding classes in Manipal", "coding for kids in Udupi", "coding for teens in Udupi", "programming classes Udupi", "coding institute Udupi", "online coding classes Udupi", "coding classes near me Udupi", "Scratch programming Udupi", "Python for kids Udupi", "web development course Udupi"]
 source: src/pages/best-coding-class-in-udupi.html
 ---
-> Live online coding & maths classes in Udupi & Manipal for kids, teens & college students. Python, AI, Vibe Coding, Java, Web Dev & DSA — taught for a globally-minded university coast. Serving Udupi Town, Manipal, Malpe, Kallianpur & nearby. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Udupi & Manipal for kids, teens & college. Python, AI, Java & DSA for a university coast. Rated 4.9/5. Free demo!
 
 Live Online · Udupi · Manipal · Malpe · Kallianpur
 

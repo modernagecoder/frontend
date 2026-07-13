@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Thanjavur | Modern Age Coders"
-description: "Live online coding & maths classes in Thanjavur for kids, teens & adults. Python, AI, Java, Web Dev & JEE/NEET-aligned logic. Trusted across Medical College Road, Gandhi Road, Thillai Nagar & near SASTRA. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Thanjavur for kids, teens & adults. Python, AI, Java & JEE/NEET logic, near SASTRA University. Rated 4.9/5. Free demo!"
 canonical: /best-coding-class-in-thanjavur
 keywords: ["best coding classes in Thanjavur", "coding classes in Thanjavur", "coding for kids in Thanjavur", "coding for teens in Thanjavur", "programming classes Thanjavur", "coding institute Thanjavur", "online coding classes Thanjavur", "coding classes near me Thanjavur", "Scratch programming Thanjavur", "Python for kids Thanjavur", "web development course Thanjavur", "best coding institute in Thanjavur"]
 source: src/pages/best-coding-class-in-thanjavur.html
 ---
-> Live online coding & maths classes in Thanjavur for kids, teens & adults. Python, AI, Java, Web Dev & JEE/NEET-aligned logic. Trusted across Medical College Road, Gandhi Road, Thillai Nagar & near SASTRA. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Thanjavur for kids, teens & adults. Python, AI, Java & JEE/NEET logic, near SASTRA University. Rated 4.9/5. Free demo!
 
 Live Online · Medical College Rd · Thillai Nagar · near SASTRA
 

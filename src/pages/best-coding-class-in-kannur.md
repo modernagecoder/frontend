@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Kannur | Modern Age Coders"
-description: "Live online coding & maths classes in Kannur for kids, teens & adults — including Gulf/NRI families. Python, AI, Java, Web Dev & KEAM/JEE-aligned logic. Trusted across Thavakkara, Fort Road, Talap, Chovva & Payyambalam. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Kannur for kids, teens & adults incl. Gulf/NRI families. Python, AI, Java, Web Dev & KEAM/JEE logic. Rated 4.9/5. Demo!"
 canonical: /best-coding-class-in-kannur
 keywords: ["best coding classes in Kannur", "coding classes in Kannur", "coding for kids in Kannur", "coding for teens in Kannur", "programming classes Kannur", "coding institute Kannur", "online coding classes Kannur", "coding classes near me Kannur", "Scratch programming Kannur", "Python for kids Kannur", "web development course Kannur", "best coding institute in Kannur"]
 source: src/pages/best-coding-class-in-kannur.html
 ---
-> Live online coding & maths classes in Kannur for kids, teens & adults — including Gulf/NRI families. Python, AI, Java, Web Dev & KEAM/JEE-aligned logic. Trusted across Thavakkara, Fort Road, Talap, Chovva & Payyambalam. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Kannur for kids, teens & adults incl. Gulf/NRI families. Python, AI, Java, Web Dev & KEAM/JEE logic. Rated 4.9/5. Demo!
 
 Live Online · Thavakkara · Fort Road · Talap · For Local & Gulf Families
 

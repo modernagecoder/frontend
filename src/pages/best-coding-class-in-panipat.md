@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Panipat | Modern Age Coders"
-description: "Live online coding & maths classes in Panipat for kids, teens & adults. Python, AI, AI coding agents, Java & Web Dev. Trusted across Model Town, the HUDA Sectors, GT Road & Kabri Road. Rated 4.9/5. Book a free demo!"
+description: "Coding classes in Panipat for kids, teens & adults. Live online Python, AI, AI coding agents, Java & Web Dev with real projects. Rated 4.9/5. Free demo!"
 canonical: /best-coding-class-in-panipat
 keywords: ["best coding classes in Panipat", "coding classes in Panipat", "coding for kids in Panipat", "coding for teens in Panipat", "programming classes Panipat", "coding institute Panipat", "online coding classes Panipat", "coding classes near me Panipat", "Scratch programming Panipat", "Python for kids Panipat", "web development course Panipat", "best coding institute in Panipat"]
 source: src/pages/best-coding-class-in-panipat.html
 ---
-> Live online coding & maths classes in Panipat for kids, teens & adults. Python, AI, AI coding agents, Java & Web Dev. Trusted across Model Town, the HUDA Sectors, GT Road & Kabri Road. Rated 4.9/5. Book a free demo!
+> Coding classes in Panipat for kids, teens & adults. Live online Python, AI, AI coding agents, Java & Web Dev with real projects. Rated 4.9/5. Free demo!
 
 Live Online · Model Town · HUDA Sectors · GT Road · Kabri Road
 

@@ -5,37 +5,187 @@
   "ageRange": "10-18",
   "tone": "visual, project-oriented, hands-on, encouraging",
   "index": {
-    "title": "HTML and CSS Tutorial - Build Beautiful Websites from Scratch",
+    "title": "HTML & CSS Tutorial: Build Websites from Scratch",
     "description": "Learn HTML and CSS from scratch with our free chapter-by-chapter guide. Build real websites with forms, layouts, animations, and responsive design. Each topic includes detailed notes, live examples, and 50+ creative practice questions.",
     "keywords": "html tutorial, css tutorial, learn html, learn css, web design tutorial, html and css for beginners, flexbox tutorial, css grid tutorial, responsive web design, css animations, html5 tutorial, html css practice",
     "intro": "<p>Every website you love — Instagram, Netflix, Google, YouTube — is built with HTML and CSS at its core. HTML gives websites their structure (like the bones of a body), and CSS gives them their beauty (like the skin and clothes). If you want to create anything on the web, this is where you start.</p><p>This guide teaches HTML and CSS the way they should be learned — by building real things. You will not just memorize tags and properties. You will build navigation menus, hero sections, forms, image galleries, animated buttons, responsive layouts, dark mode toggles, and complete landing pages.</p><p>Each chapter has 50+ creative practice questions, from easy warm-ups to hard build-it-yourself challenges. By the end of this guide, you will be able to build beautiful, modern, responsive websites that work on any device. Let us begin.</p>"
   },
   "chapters": [
-    { "slug": "introduction-to-html", "order": 1, "title": "Introduction to HTML - The Language of the Web", "difficulty": "Beginner", "description": "Learn what HTML is, how browsers read it, and create your very first web page that you can open in a browser." },
-    { "slug": "html-structure-and-boilerplate", "order": 2, "title": "HTML Document Structure and Boilerplate", "difficulty": "Beginner", "description": "Understand the DOCTYPE, html, head, and body tags. Learn the standard boilerplate every HTML page needs." },
-    { "slug": "headings-paragraphs-and-text", "order": 3, "title": "Headings, Paragraphs, and Text Formatting", "difficulty": "Beginner", "description": "Use h1 to h6, p, strong, em, mark, small, sub, sup, and other text tags to structure content." },
-    { "slug": "links-and-navigation", "order": 4, "title": "Links, Anchors, and Navigation", "difficulty": "Beginner", "description": "Create clickable links with the a tag, internal page navigation, external links, email links, and download links." },
-    { "slug": "images-and-media", "order": 5, "title": "Images, Audio, and Video", "difficulty": "Beginner", "description": "Add images with img, use alt text for accessibility, embed audio and video, and use figure and figcaption." },
-    { "slug": "lists-and-tables", "order": 6, "title": "Lists and Tables", "difficulty": "Beginner", "description": "Create ordered lists, unordered lists, description lists, and data tables with thead, tbody, and tfoot." },
-    { "slug": "forms-and-inputs", "order": 7, "title": "Forms, Inputs, and Form Validation", "difficulty": "Beginner", "description": "Build forms with text, email, password, number, date, radio, checkbox, select, textarea, and HTML5 validation." },
-    { "slug": "semantic-html", "order": 8, "title": "Semantic HTML - header, nav, main, section, article, footer", "difficulty": "Beginner", "description": "Use semantic tags that describe meaning, not just appearance. Better for SEO, accessibility, and code clarity." },
-    { "slug": "introduction-to-css", "order": 9, "title": "Introduction to CSS - Styling the Web", "difficulty": "Beginner", "description": "Learn what CSS is, how it works with HTML, and the three ways to add CSS: inline, internal, and external." },
-    { "slug": "css-selectors-and-specificity", "order": 10, "title": "CSS Selectors and Specificity", "difficulty": "Beginner", "description": "Master element, class, id, attribute, and combinator selectors. Understand specificity and the cascade." },
-    { "slug": "colors-backgrounds-and-gradients", "order": 11, "title": "Colors, Backgrounds, and Gradients", "difficulty": "Intermediate", "description": "Use named colors, hex, rgb, rgba, hsl. Master background-image, background-size, and linear/radial gradients." },
-    { "slug": "typography-and-fonts", "order": 12, "title": "Typography and Google Fonts", "difficulty": "Intermediate", "description": "Control font-family, size, weight, line-height, letter-spacing, text-align. Use Google Fonts in your projects." },
-    { "slug": "the-box-model", "order": 13, "title": "The Box Model - Margin, Border, Padding", "difficulty": "Intermediate", "description": "Understand the box model, box-sizing, content/padding/border/margin, and why box-sizing: border-box matters." },
-    { "slug": "display-and-positioning", "order": 14, "title": "Display and Positioning (static, relative, absolute, fixed, sticky)", "difficulty": "Intermediate", "description": "Master block, inline, inline-block, none, and all position values with z-index for stacking." },
-    { "slug": "flexbox-complete-guide", "order": 15, "title": "Flexbox - The Complete Guide", "difficulty": "Intermediate", "description": "Master display: flex, flex-direction, justify-content, align-items, flex-wrap, gap, and build real layouts." },
-    { "slug": "css-grid-complete-guide", "order": 16, "title": "CSS Grid - The Complete Guide", "difficulty": "Intermediate", "description": "Master grid-template-columns, grid-template-rows, gap, grid-area, and build complex layouts with ease." },
-    { "slug": "responsive-design-and-media-queries", "order": 17, "title": "Responsive Design and Media Queries", "difficulty": "Intermediate", "description": "Build websites that work on phones, tablets, and desktops. Mobile-first approach, breakpoints, and fluid layouts." },
-    { "slug": "transitions-and-hover-effects", "order": 18, "title": "CSS Transitions and Hover Effects", "difficulty": "Advanced", "description": "Add smooth animations on hover. Master transition-property, duration, timing-function, and delay for interactive UI." },
-    { "slug": "css-animations-and-keyframes", "order": 19, "title": "CSS Animations with Keyframes", "difficulty": "Advanced", "description": "Create complex animations with @keyframes, animation properties, loading spinners, bouncing buttons, and more." },
-    { "slug": "transforms-2d-and-3d", "order": 20, "title": "CSS Transforms (2D and 3D)", "difficulty": "Advanced", "description": "Scale, rotate, translate, skew elements. Build flip cards, 3D rotations, and interactive image hovers." },
-    { "slug": "css-variables-and-theming", "order": 21, "title": "CSS Variables and Theming (Dark Mode)", "difficulty": "Advanced", "description": "Use CSS custom properties (--variable) for clean code and build a working dark mode toggle with pure CSS." },
-    { "slug": "pseudo-classes-and-pseudo-elements", "order": 22, "title": "Pseudo-classes and Pseudo-elements", "difficulty": "Advanced", "description": "Master :hover, :focus, :nth-child, :not, ::before, ::after, and create creative effects without extra HTML." },
-    { "slug": "modern-css-features", "order": 23, "title": "Modern CSS - Container Queries, Subgrid, clamp(), has() Selector", "difficulty": "Advanced", "description": "Learn the latest CSS: container queries, subgrid, clamp() for fluid typography, :has() parent selector, aspect-ratio." },
-    { "slug": "project-build-a-landing-page", "order": 24, "title": "Project: Build a Complete Landing Page", "difficulty": "Advanced", "description": "Build a full responsive landing page with hero, features, pricing, testimonials, and footer using HTML and CSS only." },
-    { "slug": "project-animated-portfolio-website", "order": 25, "title": "Project: Build an Animated Portfolio Website", "difficulty": "Advanced", "description": "Create a stunning portfolio with smooth scrolling, hover effects, animations, dark mode, and full responsiveness." }
+    {
+      "slug": "introduction-to-html",
+      "order": 1,
+      "title": "Introduction to HTML - The Language of the Web",
+      "difficulty": "Beginner",
+      "description": "Learn what HTML is, how browsers read it, and create your very first web page that you can open in a browser."
+    },
+    {
+      "slug": "html-structure-and-boilerplate",
+      "order": 2,
+      "title": "HTML Document Structure and Boilerplate",
+      "difficulty": "Beginner",
+      "description": "Understand the DOCTYPE, html, head, and body tags. Learn the standard boilerplate every HTML page needs."
+    },
+    {
+      "slug": "headings-paragraphs-and-text",
+      "order": 3,
+      "title": "Headings, Paragraphs, and Text Formatting",
+      "difficulty": "Beginner",
+      "description": "Use h1 to h6, p, strong, em, mark, small, sub, sup, and other text tags to structure content."
+    },
+    {
+      "slug": "links-and-navigation",
+      "order": 4,
+      "title": "Links, Anchors, and Navigation",
+      "difficulty": "Beginner",
+      "description": "Create clickable links with the a tag, internal page navigation, external links, email links, and download links."
+    },
+    {
+      "slug": "images-and-media",
+      "order": 5,
+      "title": "Images, Audio, and Video",
+      "difficulty": "Beginner",
+      "description": "Add images with img, use alt text for accessibility, embed audio and video, and use figure and figcaption."
+    },
+    {
+      "slug": "lists-and-tables",
+      "order": 6,
+      "title": "Lists and Tables",
+      "difficulty": "Beginner",
+      "description": "Create ordered lists, unordered lists, description lists, and data tables with thead, tbody, and tfoot."
+    },
+    {
+      "slug": "forms-and-inputs",
+      "order": 7,
+      "title": "Forms, Inputs, and Form Validation",
+      "difficulty": "Beginner",
+      "description": "Build forms with text, email, password, number, date, radio, checkbox, select, textarea, and HTML5 validation."
+    },
+    {
+      "slug": "semantic-html",
+      "order": 8,
+      "title": "Semantic HTML - header, nav, main, section, article, footer",
+      "difficulty": "Beginner",
+      "description": "Use semantic tags that describe meaning, not just appearance. Better for SEO, accessibility, and code clarity."
+    },
+    {
+      "slug": "introduction-to-css",
+      "order": 9,
+      "title": "Introduction to CSS - Styling the Web",
+      "difficulty": "Beginner",
+      "description": "Learn what CSS is, how it works with HTML, and the three ways to add CSS: inline, internal, and external."
+    },
+    {
+      "slug": "css-selectors-and-specificity",
+      "order": 10,
+      "title": "CSS Selectors and Specificity",
+      "difficulty": "Beginner",
+      "description": "Master element, class, id, attribute, and combinator selectors. Understand specificity and the cascade."
+    },
+    {
+      "slug": "colors-backgrounds-and-gradients",
+      "order": 11,
+      "title": "Colors, Backgrounds, and Gradients",
+      "difficulty": "Intermediate",
+      "description": "Use named colors, hex, rgb, rgba, hsl. Master background-image, background-size, and linear/radial gradients."
+    },
+    {
+      "slug": "typography-and-fonts",
+      "order": 12,
+      "title": "Typography and Google Fonts",
+      "difficulty": "Intermediate",
+      "description": "Control font-family, size, weight, line-height, letter-spacing, text-align. Use Google Fonts in your projects."
+    },
+    {
+      "slug": "the-box-model",
+      "order": 13,
+      "title": "The Box Model - Margin, Border, Padding",
+      "difficulty": "Intermediate",
+      "description": "Understand the box model, box-sizing, content/padding/border/margin, and why box-sizing: border-box matters."
+    },
+    {
+      "slug": "display-and-positioning",
+      "order": 14,
+      "title": "Display and Positioning (static, relative, absolute, fixed, sticky)",
+      "difficulty": "Intermediate",
+      "description": "Master block, inline, inline-block, none, and all position values with z-index for stacking."
+    },
+    {
+      "slug": "flexbox-complete-guide",
+      "order": 15,
+      "title": "Flexbox - The Complete Guide",
+      "difficulty": "Intermediate",
+      "description": "Master display: flex, flex-direction, justify-content, align-items, flex-wrap, gap, and build real layouts."
+    },
+    {
+      "slug": "css-grid-complete-guide",
+      "order": 16,
+      "title": "CSS Grid - The Complete Guide",
+      "difficulty": "Intermediate",
+      "description": "Master grid-template-columns, grid-template-rows, gap, grid-area, and build complex layouts with ease."
+    },
+    {
+      "slug": "responsive-design-and-media-queries",
+      "order": 17,
+      "title": "Responsive Design and Media Queries",
+      "difficulty": "Intermediate",
+      "description": "Build websites that work on phones, tablets, and desktops. Mobile-first approach, breakpoints, and fluid layouts."
+    },
+    {
+      "slug": "transitions-and-hover-effects",
+      "order": 18,
+      "title": "CSS Transitions and Hover Effects",
+      "difficulty": "Advanced",
+      "description": "Add smooth animations on hover. Master transition-property, duration, timing-function, and delay for interactive UI."
+    },
+    {
+      "slug": "css-animations-and-keyframes",
+      "order": 19,
+      "title": "CSS Animations with Keyframes",
+      "difficulty": "Advanced",
+      "description": "Create complex animations with @keyframes, animation properties, loading spinners, bouncing buttons, and more."
+    },
+    {
+      "slug": "transforms-2d-and-3d",
+      "order": 20,
+      "title": "CSS Transforms (2D and 3D)",
+      "difficulty": "Advanced",
+      "description": "Scale, rotate, translate, skew elements. Build flip cards, 3D rotations, and interactive image hovers."
+    },
+    {
+      "slug": "css-variables-and-theming",
+      "order": 21,
+      "title": "CSS Variables and Theming (Dark Mode)",
+      "difficulty": "Advanced",
+      "description": "Use CSS custom properties (--variable) for clean code and build a working dark mode toggle with pure CSS."
+    },
+    {
+      "slug": "pseudo-classes-and-pseudo-elements",
+      "order": 22,
+      "title": "Pseudo-classes and Pseudo-elements",
+      "difficulty": "Advanced",
+      "description": "Master :hover, :focus, :nth-child, :not, ::before, ::after, and create creative effects without extra HTML."
+    },
+    {
+      "slug": "modern-css-features",
+      "order": 23,
+      "title": "Modern CSS - Container Queries, Subgrid, clamp(), has() Selector",
+      "difficulty": "Advanced",
+      "description": "Learn the latest CSS: container queries, subgrid, clamp() for fluid typography, :has() parent selector, aspect-ratio."
+    },
+    {
+      "slug": "project-build-a-landing-page",
+      "order": 24,
+      "title": "Project: Build a Complete Landing Page",
+      "difficulty": "Advanced",
+      "description": "Build a full responsive landing page with hero, features, pricing, testimonials, and footer using HTML and CSS only."
+    },
+    {
+      "slug": "project-animated-portfolio-website",
+      "order": 25,
+      "title": "Project: Build an Animated Portfolio Website",
+      "difficulty": "Advanced",
+      "description": "Create a stunning portfolio with smooth scrolling, hover effects, animations, dark mode, and full responsiveness."
+    }
   ],
   "courseCta": {
     "text": "Want to learn web development with a live mentor?",
@@ -43,9 +193,21 @@
     "url": "/courses/frontend-development-masterclass-for-teens"
   },
   "relatedCourses": [
-    { "text": "Frontend for Teens", "url": "/courses/frontend-development-masterclass-for-teens" },
-    { "text": "Full Stack Web Dev (College)", "url": "/courses/full-stack-web-development-masterclass-college" },
-    { "text": "Full Stack for Teens", "url": "/courses/full-stack-web-development-teens-masterclass" },
-    { "text": "Web Dev for Kids", "url": "/courses/kids-ai-web-development-course" }
+    {
+      "text": "Frontend for Teens",
+      "url": "/courses/frontend-development-masterclass-for-teens"
+    },
+    {
+      "text": "Full Stack Web Dev (College)",
+      "url": "/courses/full-stack-web-development-masterclass-college"
+    },
+    {
+      "text": "Full Stack for Teens",
+      "url": "/courses/full-stack-web-development-teens-masterclass"
+    },
+    {
+      "text": "Web Dev for Kids",
+      "url": "/courses/kids-ai-web-development-course"
+    }
   ]
 }

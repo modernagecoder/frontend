@@ -1,11 +1,11 @@
 ---
 title: "Coding Classes in Bihar | Python, AI & Web Dev"
-description: "Live online coding & maths classes in Bihar for kids, teens & adults. Scratch, Python, AI, Java, Web Dev & DSA. Serving Patna, Gaya, Bhagalpur & Muzaffarpur. Rated 4.9/5. Free demo!"
+description: "Live online coding & maths classes in Bihar for kids, teens & adults. Scratch, Python, AI, Java & DSA across Patna, Gaya & Bhagalpur. Rated 4.9/5. Free demo!"
 canonical: /coding-classes-in-bihar
 keywords: ["coding classes in Bihar", "online coding classes Bihar", "coding classes for kids Bihar", "Python classes Bihar", "AI course for kids Bihar", "coding institute Bihar", "learn coding Bihar", "coding classes Patna", "coding classes Gaya", "coding classes Bhagalpur", "coding classes Muzaffarpur", "BSEB coding"]
 source: src/pages/coding-classes-in-bihar.html
 ---
-> Live online coding & maths classes in Bihar for kids, teens & adults. Scratch, Python, AI, Java, Web Dev & DSA. Serving Patna, Gaya, Bhagalpur & Muzaffarpur. Rated 4.9/5. Free demo!
+> Live online coding & maths classes in Bihar for kids, teens & adults. Scratch, Python, AI, Java & DSA across Patna, Gaya & Bhagalpur. Rated 4.9/5. Free demo!
 
 Bihar • **Live Online Classes**
 

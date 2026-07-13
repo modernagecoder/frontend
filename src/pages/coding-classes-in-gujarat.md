@@ -1,11 +1,11 @@
 ---
 title: "Coding Classes in Gujarat | Online for Kids, Teens & Adults"
-description: "Live online coding & maths classes in Gujarat for kids, teens & adults. Python, AI, Java, Web Dev & DSA. Serving Ahmedabad, Surat, Vadodara & Rajkot. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Gujarat for kids, teens & adults. Python, AI, Java & DSA across Ahmedabad, Surat & Vadodara. Rated 4.9/5. Free demo!"
 canonical: /coding-classes-in-gujarat
 keywords: ["coding classes in Gujarat", "online coding classes Gujarat", "coding classes for kids Gujarat", "Python classes Gujarat", "AI course for kids Gujarat", "coding institute Gujarat", "learn coding Gujarat", "coding classes Ahmedabad", "coding classes Surat", "coding classes Vadodara", "coding classes Rajkot", "GUJCET maths coaching"]
 source: src/pages/coding-classes-in-gujarat.html
 ---
-> Live online coding & maths classes in Gujarat for kids, teens & adults. Python, AI, Java, Web Dev & DSA. Serving Ahmedabad, Surat, Vadodara & Rajkot. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Gujarat for kids, teens & adults. Python, AI, Java & DSA across Ahmedabad, Surat & Vadodara. Rated 4.9/5. Free demo!
 
 Gujarat • **Live Online Classes**
 

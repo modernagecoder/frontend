@@ -1,11 +1,11 @@
 ---
 title: "Coding & AI Classes in Germany | Abitur & Informatik"
-description: "Engineering-rigour online coding, Python, AI & agentic-AI mentorship for Germany — Berlin, München, Hamburg, Frankfurt, Köln, Stuttgart. Informatik LK and Abitur-aligned. 1:1 mentor, 8 sessions a month, USD 100 (≈ EUR 92). Buchen Sie eine kostenlose Demo."
+description: "Live online coding, Python & AI for students across Germany. Informatik LK & Abitur-aligned. 1:1 mentor, USD 100 (≈ EUR 92)/mo. Buchen Sie eine Demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-germany
 keywords: ["coding classes Germany", "online coding classes Germany", "Programmierkurs online Deutschland", "best coding classes for kids Germany", "Python class Berlin", "Python class Munich", "AI course Germany", "KI Kurs Deutschland", "agentic AI Germany", "Informatik LK Nachhilfe", "Abitur Informatik tutor", "Bundeswettbewerb Informatik"]
 source: src/pages/coding-classes-in-germany.html
 ---
-> Engineering-rigour online coding, Python, AI & agentic-AI mentorship for Germany — Berlin, München, Hamburg, Frankfurt, Köln, Stuttgart. Informatik LK and Abitur-aligned. 1:1 mentor, 8 sessions a month, USD 100 (≈ EUR 92). Buchen Sie eine kostenlose Demo.
+> Live online coding, Python & AI for students across Germany. Informatik LK & Abitur-aligned. 1:1 mentor, USD 100 (≈ EUR 92)/mo. Buchen Sie eine Demo.
 
 ### Rückruf anfordern
 

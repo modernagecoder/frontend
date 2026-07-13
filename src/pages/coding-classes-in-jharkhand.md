@@ -1,11 +1,11 @@
 ---
 title: "Coding Classes in Jharkhand | Python, AI & Web Dev"
-description: "Live online coding & maths classes in Jharkhand for kids, teens & adults. Scratch, Python, AI, Java, Web Dev & DSA. Serving Ranchi, Jamshedpur, Dhanbad & Bokaro. Rated 4.9/5. Free demo!"
+description: "Live online coding & maths classes in Jharkhand for kids, teens & adults. Scratch, Python, AI, Java & DSA across Ranchi & Jamshedpur. Rated 4.9/5. Free demo!"
 canonical: /coding-classes-in-jharkhand
 keywords: ["coding classes in Jharkhand", "online coding classes Jharkhand", "coding classes for kids Jharkhand", "Python classes Jharkhand", "AI course for kids Jharkhand", "coding institute Jharkhand", "learn coding Jharkhand", "coding classes Ranchi", "coding classes Jamshedpur", "coding classes Dhanbad", "coding classes Bokaro", "JAC coding"]
 source: src/pages/coding-classes-in-jharkhand.html
 ---
-> Live online coding & maths classes in Jharkhand for kids, teens & adults. Scratch, Python, AI, Java, Web Dev & DSA. Serving Ranchi, Jamshedpur, Dhanbad & Bokaro. Rated 4.9/5. Free demo!
+> Live online coding & maths classes in Jharkhand for kids, teens & adults. Scratch, Python, AI, Java & DSA across Ranchi & Jamshedpur. Rated 4.9/5. Free demo!
 
 Jharkhand • **Live Online Classes**
 

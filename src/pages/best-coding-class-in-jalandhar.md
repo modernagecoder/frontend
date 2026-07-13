@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Jalandhar | Modern Age Coders"
-description: "Live online coding & maths classes in Jalandhar for kids, teens & adults. Python, AI, Java, Web Dev & JEE/PSEB-aligned logic. Trusted across Model Town, Urban Estate, Cantt, Maqsudan & the Doaba belt. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Jalandhar for kids, teens & adults. Python, AI, Java, Web Dev & JEE/PSEB logic, Doaba belt. Rated 4.9/5. Free demo!"
 canonical: /best-coding-class-in-jalandhar
 keywords: ["best coding classes in Jalandhar", "coding classes in Jalandhar", "coding for kids in Jalandhar", "coding for teens in Jalandhar", "programming classes Jalandhar", "coding institute Jalandhar", "online coding classes Jalandhar", "coding classes near me Jalandhar", "Scratch programming Jalandhar", "Python for kids Jalandhar", "web development course Jalandhar", "best coding institute in Jalandhar"]
 source: src/pages/best-coding-class-in-jalandhar.html
 ---
-> Live online coding & maths classes in Jalandhar for kids, teens & adults. Python, AI, Java, Web Dev & JEE/PSEB-aligned logic. Trusted across Model Town, Urban Estate, Cantt, Maqsudan & the Doaba belt. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Jalandhar for kids, teens & adults. Python, AI, Java, Web Dev & JEE/PSEB logic, Doaba belt. Rated 4.9/5. Free demo!
 
 Live Online · Model Town · Urban Estate · Cantt · Doaba
 

@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Gaya | Modern Age Coders"
-description: "Live online coding & maths classes in Gaya, Bihar for kids, teens & adults. Python, AI, Java, Web Dev & JEE/NEET-aligned logic. Trusted across Civil Lines, A.P. Colony, Rampur & Bodh Gaya. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Gaya, Bihar for kids, teens & adults. Python, AI, Java, Web Dev & JEE/NEET logic, incl. Bodh Gaya. Rated 4.9/5. Demo!"
 canonical: /best-coding-class-in-gaya
 keywords: ["best coding classes in Gaya", "coding classes in Gaya", "coding for kids in Gaya", "coding for teens in Gaya", "programming classes Gaya", "coding institute Gaya", "online coding classes Gaya", "coding classes near me Gaya", "Scratch programming Gaya", "Python for kids Gaya", "web development course Gaya", "best coding institute in Gaya Bihar"]
 source: src/pages/best-coding-class-in-gaya.html
 ---
-> Live online coding & maths classes in Gaya, Bihar for kids, teens & adults. Python, AI, Java, Web Dev & JEE/NEET-aligned logic. Trusted across Civil Lines, A.P. Colony, Rampur & Bodh Gaya. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Gaya, Bihar for kids, teens & adults. Python, AI, Java, Web Dev & JEE/NEET logic, incl. Bodh Gaya. Rated 4.9/5. Demo!
 
 Live Online · Civil Lines · A.P. Colony · Rampur · Bodh Gaya
 

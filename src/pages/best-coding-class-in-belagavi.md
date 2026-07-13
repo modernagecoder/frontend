@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Belagavi (Belgaum) | Modern Age Coders"
-description: "Live online coding & maths classes in Belagavi (Belgaum) for kids, teens & adults. Python, AI, Java, Web Dev & VTU-grade engineering logic. Trusted across Tilakwadi, Camp, Udyambag & Sadashiv Nagar. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Belagavi for kids, teens & adults. Python, AI, Java & Web Dev with VTU-grade logic. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-belagavi
 keywords: ["best coding classes in Belagavi", "coding classes in Belgaum", "coding for kids in Belagavi", "coding for teens in Belagavi", "programming classes Belagavi", "coding institute Belgaum", "online coding classes Belagavi", "coding classes near me Belagavi", "Scratch programming Belagavi", "Python for kids Belagavi", "web development course Belagavi", "best coding institute in Belagavi"]
 source: src/pages/best-coding-class-in-belagavi.html
 ---
-> Live online coding & maths classes in Belagavi (Belgaum) for kids, teens & adults. Python, AI, Java, Web Dev & VTU-grade engineering logic. Trusted across Tilakwadi, Camp, Udyambag & Sadashiv Nagar. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Belagavi for kids, teens & adults. Python, AI, Java & Web Dev with VTU-grade logic. Rated 4.9/5. Book a free demo!
 
 Live Online · Tilakwadi · Camp · Udyambag · Sadashiv Nagar
 

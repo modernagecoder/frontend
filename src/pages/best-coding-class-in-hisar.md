@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Hisar | Modern Age Coders"
-description: "Live online coding & maths classes in Hisar for kids, teens & college students. Python, AI, Vibe Coding, AI agents, Java, Web Dev & DSA — in Haryana's Steel City, home to Jindal stainless, CCS HAU, GJU and Maharaja Agrasen Airport. Serving Model Town, the HUDA Sectors, HAU Campus & Delhi Road. CBSE, ICSE & Haryana Board (HBSE/BSEH) friendly. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Hisar for kids, teens & college students. Python, AI, Java, Web Dev & DSA, CBSE/ICSE/HBSE-friendly. Rated 4.9/5. Demo!"
 canonical: /best-coding-class-in-hisar
 keywords: ["best coding classes in Hisar", "coding classes in Hisar", "coding for kids in Hisar", "coding for teens in Hisar", "programming classes Hisar", "coding institute Hisar", "online coding classes Hisar", "coding classes near me Hisar", "Scratch programming Hisar", "Python for kids Hisar", "web development course Hisar", "vibe coding Hisar"]
 source: src/pages/best-coding-class-in-hisar.html
 ---
-> Live online coding & maths classes in Hisar for kids, teens & college students. Python, AI, Vibe Coding, AI agents, Java, Web Dev & DSA — in Haryana's Steel City, home to Jindal stainless, CCS HAU, GJU and Maharaja Agrasen Airport. Serving Model Town, the HUDA Sectors, HAU Campus & Delhi Road. CBSE, ICSE & Haryana Board (HBSE/BSEH) friendly. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Hisar for kids, teens & college students. Python, AI, Java, Web Dev & DSA, CBSE/ICSE/HBSE-friendly. Rated 4.9/5. Demo!
 
 Live Online · Model Town · HUDA Sectors · HAU Campus · Delhi Road
 

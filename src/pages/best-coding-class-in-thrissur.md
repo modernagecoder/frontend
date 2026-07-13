@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Thrissur | Modern Age Coders"
-description: "Live online coding & maths classes in Thrissur for kids, teens & adults. Python, AI, Java, Web Dev & KEAM/JEE-aligned logic. Trusted across Swaraj Round, Punkunnam, Ayyanthole, Ollur & East Fort. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Thrissur for kids, teens & adults. Python, AI, Java, Web Dev & KEAM/JEE-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-thrissur
 keywords: ["best coding classes in Thrissur", "coding classes in Thrissur", "coding for kids in Thrissur", "coding for teens in Thrissur", "programming classes Thrissur", "coding institute Thrissur", "online coding classes Thrissur", "coding classes near me Thrissur", "Scratch programming Thrissur", "Python for kids Thrissur", "web development course Thrissur", "best coding institute in Thrissur"]
 source: src/pages/best-coding-class-in-thrissur.html
 ---
-> Live online coding & maths classes in Thrissur for kids, teens & adults. Python, AI, Java, Web Dev & KEAM/JEE-aligned logic. Trusted across Swaraj Round, Punkunnam, Ayyanthole, Ollur & East Fort. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Thrissur for kids, teens & adults. Python, AI, Java, Web Dev & KEAM/JEE-aligned logic. Rated 4.9/5. Book a free demo!
 
 Live Online · Swaraj Round · Punkunnam · Ayyanthole · Ollur
 

@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Srinagar | Modern Age Coders"
-description: "Live online coding & maths classes in Srinagar for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic — taught to the Kashmir Valley from home. Serving Lal Chowk, Rajbagh, Hyderpora & Sanat Nagar. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Srinagar for kids, teens & adults. Python, AI, Java & JEE logic, taught to the Kashmir Valley. Rated 4.9/5. Free demo!"
 canonical: /best-coding-class-in-srinagar
 keywords: ["best coding classes in Srinagar", "coding classes in Srinagar", "coding for kids in Srinagar", "coding for teens in Srinagar", "programming classes Srinagar", "coding institute Srinagar", "online coding classes Srinagar", "coding classes near me Srinagar", "Scratch programming Srinagar", "Python for kids Srinagar", "web development course Srinagar", "best coding institute in Srinagar"]
 source: src/pages/best-coding-class-in-srinagar.html
 ---
-> Live online coding & maths classes in Srinagar for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic — taught to the Kashmir Valley from home. Serving Lal Chowk, Rajbagh, Hyderpora & Sanat Nagar. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Srinagar for kids, teens & adults. Python, AI, Java & JEE logic, taught to the Kashmir Valley. Rated 4.9/5. Free demo!
 
 Live Online · Lal Chowk · Rajbagh · Hyderpora · Across the Valley
 

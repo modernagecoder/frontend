@@ -1,11 +1,11 @@
 ---
 title: "Coding Classes in Kerala | Online for Kids, Teens & Adults"
-description: "Live online coding & maths classes in Kerala for kids, teens & adults. Python, AI, Java, Web Dev & DSA. Serving Kochi, Kozhikode & Thiruvananthapuram. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Kerala for kids, teens & adults. Python, AI, Java, Web Dev & DSA across Kochi & Kozhikode. Rated 4.9/5. Free demo!"
 canonical: /coding-classes-in-kerala
 keywords: ["coding classes in Kerala", "online coding classes Kerala", "coding classes for kids Kerala", "Python classes Kerala", "AI course for kids Kerala", "coding institute Kerala", "learn coding Kerala", "coding classes Kochi", "coding classes Kozhikode", "coding classes Thiruvananthapuram", "coding classes Trivandrum", "KEAM maths coaching"]
 source: src/pages/coding-classes-in-kerala.html
 ---
-> Live online coding & maths classes in Kerala for kids, teens & adults. Python, AI, Java, Web Dev & DSA. Serving Kochi, Kozhikode & Thiruvananthapuram. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Kerala for kids, teens & adults. Python, AI, Java, Web Dev & DSA across Kochi & Kozhikode. Rated 4.9/5. Free demo!
 
 Kerala • **Live Online Classes**
 

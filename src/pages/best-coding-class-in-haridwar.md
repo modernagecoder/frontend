@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Haridwar | Modern Age Coders"
-description: "Live online coding & maths classes in Haridwar for kids, teens & adults. Python, AI, Java, Web Dev & strong logic — from the Gateway to God to the gateway of the future. Serving Jwalapur, Kankhal, BHEL Ranipur, Shivalik Nagar & SIDCUL. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Haridwar for kids, teens & adults. Python, AI, Java, Web Dev & logic from the Gateway to God. Rated 4.9/5. Free demo!"
 canonical: /best-coding-class-in-haridwar
 keywords: ["best coding classes in Haridwar", "coding classes in Haridwar", "coding for kids in Haridwar", "coding for teens in Haridwar", "programming classes Haridwar", "coding institute Haridwar", "online coding classes Haridwar", "coding classes near me Haridwar", "Scratch programming Haridwar", "Python for kids Haridwar", "web development course Haridwar", "best coding institute in Haridwar"]
 source: src/pages/best-coding-class-in-haridwar.html
 ---
-> Live online coding & maths classes in Haridwar for kids, teens & adults. Python, AI, Java, Web Dev & strong logic — from the Gateway to God to the gateway of the future. Serving Jwalapur, Kankhal, BHEL Ranipur, Shivalik Nagar & SIDCUL. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Haridwar for kids, teens & adults. Python, AI, Java, Web Dev & logic from the Gateway to God. Rated 4.9/5. Free demo!
 
 Live Online · Jwalapur · Kankhal · BHEL Ranipur · Shivalik Nagar
 

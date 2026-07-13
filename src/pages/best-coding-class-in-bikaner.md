@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Bikaner | Modern Age Coders"
-description: "Live online coding & maths classes in Bikaner for kids, teens & adults. Python, AI, Vibe Coding, Java, Web Dev & JEE/NEET-aligned logic. Trusted across Rani Bazar, Jaipur Road, Pawanpuri & Gangashahr. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Bikaner for kids, teens & adults. Python, AI, Vibe Coding, Java & Web Dev for JEE/NEET. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-bikaner
 keywords: ["best coding classes in Bikaner", "coding classes in Bikaner", "coding for kids in Bikaner", "coding for teens in Bikaner", "programming classes Bikaner", "coding institute Bikaner", "online coding classes Bikaner", "coding classes near me Bikaner", "Scratch programming Bikaner", "Python for kids Bikaner", "web development course Bikaner", "best coding institute in Bikaner"]
 source: src/pages/best-coding-class-in-bikaner.html
 ---
-> Live online coding & maths classes in Bikaner for kids, teens & adults. Python, AI, Vibe Coding, Java, Web Dev & JEE/NEET-aligned logic. Trusted across Rani Bazar, Jaipur Road, Pawanpuri & Gangashahr. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Bikaner for kids, teens & adults. Python, AI, Vibe Coding, Java & Web Dev for JEE/NEET. Rated 4.9/5. Book a free demo!
 
 Live Online · Rani Bazar · Jaipur Road · Pawanpuri · Junagarh
 

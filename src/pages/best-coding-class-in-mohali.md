@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Mohali | Modern Age Coders"
-description: "Live online coding & maths classes in Mohali for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Trusted across SAS Nagar, IT City, Aerocity, Kharar & Zirakpur. Rated 4.9/5. Book a free demo!"
+description: "Coding classes in Mohali for kids, teens & adults. Live online Python, AI, Java, Web Dev & JEE-aligned logic, from SAS Nagar to IT City. Rated 4.9/5. Free demo!"
 canonical: /best-coding-class-in-mohali
 keywords: ["best coding classes in Mohali", "coding classes in Mohali", "coding for kids in Mohali", "coding for teens in Mohali", "programming classes Mohali", "coding institute Mohali", "online coding classes Mohali", "coding classes near me Mohali", "Scratch programming Mohali", "Python for kids Mohali", "web development course Mohali", "best coding institute in Mohali"]
 source: src/pages/best-coding-class-in-mohali.html
 ---
-> Live online coding & maths classes in Mohali for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Trusted across SAS Nagar, IT City, Aerocity, Kharar & Zirakpur. Rated 4.9/5. Book a free demo!
+> Coding classes in Mohali for kids, teens & adults. Live online Python, AI, Java, Web Dev & JEE-aligned logic, from SAS Nagar to IT City. Rated 4.9/5. Free demo!
 
 Live Online · SAS Nagar · IT City · Aerocity · Kharar · Zirakpur
 

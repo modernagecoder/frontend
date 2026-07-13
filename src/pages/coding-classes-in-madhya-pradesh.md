@@ -1,11 +1,11 @@
 ---
 title: "Coding Classes in Madhya Pradesh | Online for Kids, Teens & Adults"
-description: "Live online coding & maths classes in Madhya Pradesh for kids, teens & adults. Python, AI, Java, Web Dev & DSA. Serving Indore, Bhopal & Jabalpur. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Madhya Pradesh for kids & teens. Python, AI, Java & DSA across Indore, Bhopal & Jabalpur. Rated 4.9/5. Free demo!"
 canonical: /coding-classes-in-madhya-pradesh
 keywords: ["coding classes in Madhya Pradesh", "online coding classes MP", "coding classes for kids Madhya Pradesh", "Python classes Madhya Pradesh", "AI course for kids MP", "coding institute Madhya Pradesh", "learn coding MP", "coding classes Indore", "coding classes Bhopal", "coding classes Jabalpur", "JEE maths coaching MP", "CBSE coding Madhya Pradesh"]
 source: src/pages/coding-classes-in-madhya-pradesh.html
 ---
-> Live online coding & maths classes in Madhya Pradesh for kids, teens & adults. Python, AI, Java, Web Dev & DSA. Serving Indore, Bhopal & Jabalpur. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Madhya Pradesh for kids & teens. Python, AI, Java & DSA across Indore, Bhopal & Jabalpur. Rated 4.9/5. Free demo!
 
 Madhya Pradesh • **Live Online Classes**
 

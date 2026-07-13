@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Ludhiana | Modern Age Coders"
-description: "Live online coding & maths classes in Ludhiana for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Trusted across Sarabha Nagar, Model Town, BRS Nagar & Pakhowal Road. Rated 4.9/5. Book a free demo!"
+description: "Coding classes in Ludhiana for kids, teens & adults. Live online Python, AI, Java, Web Dev & JEE-aligned logic. Rated 4.9/5. Book a free demo today!"
 canonical: /best-coding-class-in-ludhiana
 keywords: ["best coding classes in Ludhiana", "coding classes in Ludhiana", "coding for kids in Ludhiana", "coding for teens in Ludhiana", "programming classes Ludhiana", "coding institute Ludhiana", "online coding classes Ludhiana", "coding classes near me Ludhiana", "Scratch programming Ludhiana", "Python for kids Ludhiana", "web development course Ludhiana", "best coding institute in Ludhiana"]
 source: src/pages/best-coding-class-in-ludhiana.html
 ---
-> Live online coding & maths classes in Ludhiana for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Trusted across Sarabha Nagar, Model Town, BRS Nagar & Pakhowal Road. Rated 4.9/5. Book a free demo!
+> Coding classes in Ludhiana for kids, teens & adults. Live online Python, AI, Java, Web Dev & JEE-aligned logic. Rated 4.9/5. Book a free demo today!
 
 Live Online · Sarabha Nagar · Model Town · BRS Nagar · Pakhowal Road
 

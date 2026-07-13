@@ -1,11 +1,11 @@
 ---
 title: "Coding & AI Classes in Singapore | PSLE to A-Level"
-description: "Live 1:1 online coding, Python, AI & agentic-AI mentorship for Singapore students. Aligned with PSLE, GCE O-Level, GCE A-Level (H1/H2/H3), the Integrated Programme (IP), IB Diploma and MOE syllabuses (7155, 9569). NUS, NTU, SMU, SUTD, SIT admissions ready. NOI Singapore, Hack&Roll and AI Singapore aware. SGD 135 (USD 100) a month."
+description: "Live 1:1 online coding, Python & AI mentorship for Singapore students. Aligned with PSLE, O-Level & A-Level; NUS & NTU ready. USD 100/mo. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-singapore
 keywords: ["coding classes Singapore", "coding classes for kids Singapore", "online coding classes Singapore", "Python tutor Singapore", "AI course Singapore", "agentic AI Singapore", "PSLE preparation coding", "GCE O-Level Computing 7155 tutor", "GCE A-Level H2 Computing 9569 tutor", "A-Level H1 Computing tutor", "H3 Computing prep", "Integrated Programme IP coding tutor"]
 source: src/pages/coding-classes-in-singapore.html
 ---
-> Live 1:1 online coding, Python, AI & agentic-AI mentorship for Singapore students. Aligned with PSLE, GCE O-Level, GCE A-Level (H1/H2/H3), the Integrated Programme (IP), IB Diploma and MOE syllabuses (7155, 9569). NUS, NTU, SMU, SUTD, SIT admissions ready. NOI Singapore, Hack&Roll and AI Singapore aware. SGD 135 (USD 100) a month.
+> Live 1:1 online coding, Python & AI mentorship for Singapore students. Aligned with PSLE, O-Level & A-Level; NUS & NTU ready. USD 100/mo. Book a free demo.
 
 ### Request a callback
 

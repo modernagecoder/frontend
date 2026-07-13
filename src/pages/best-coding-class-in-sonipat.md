@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Sonipat | Modern Age Coders"
-description: "Live online coding & maths classes in Sonipat for kids, teens & adults. Python, AI, Java, Web Dev & vibe coding. Sonipat is India's Education City — bring that calibre home early. Serving Model Town, Kundli, Murthal & Education City. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Sonipat for kids, teens & adults. Python, AI, Java & vibe coding in India's Education City. Rated 4.9/5. Free demo!"
 canonical: /best-coding-class-in-sonipat
 keywords: ["best coding classes in Sonipat", "coding classes in Sonipat", "coding for kids in Sonipat", "coding for teens in Sonipat", "programming classes Sonipat", "coding institute Sonipat", "online coding classes Sonipat", "coding classes near me Sonipat", "Scratch programming Sonipat", "Python for kids Sonipat", "web development course Sonipat", "best coding institute in Sonipat"]
 source: src/pages/best-coding-class-in-sonipat.html
 ---
-> Live online coding & maths classes in Sonipat for kids, teens & adults. Python, AI, Java, Web Dev & vibe coding. Sonipat is India's Education City — bring that calibre home early. Serving Model Town, Kundli, Murthal & Education City. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Sonipat for kids, teens & adults. Python, AI, Java & vibe coding in India's Education City. Rated 4.9/5. Free demo!
 
 Live Online · Model Town · Kundli · Murthal · Education City
 

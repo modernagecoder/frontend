@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Gwalior | Modern Age Coders"
-description: "Live online coding & maths classes in Gwalior for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Trusted across Lashkar, Morar, City Centre, Thatipur & DD Nagar. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Gwalior for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-gwalior
 keywords: ["best coding classes in Gwalior", "coding classes in Gwalior", "coding for kids in Gwalior", "coding for teens in Gwalior", "programming classes Gwalior", "coding institute Gwalior", "online coding classes Gwalior", "coding classes near me Gwalior", "Scratch programming Gwalior", "Python for kids Gwalior", "web development course Gwalior", "best coding institute in Gwalior"]
 source: src/pages/best-coding-class-in-gwalior.html
 ---
-> Live online coding & maths classes in Gwalior for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Trusted across Lashkar, Morar, City Centre, Thatipur & DD Nagar. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Gwalior for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Rated 4.9/5. Book a free demo!
 
 Live Online · Lashkar · Morar · City Centre · Thatipur
 

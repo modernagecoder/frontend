@@ -1,11 +1,11 @@
 ---
 title: "Best Coding Classes in Bokaro | Modern Age Coders"
-description: "Live online coding & maths classes in Bokaro Steel City for kids, teens & adults. Python, AI, Java, Web Dev & engineering-grade logic in India's best-planned, greenest steel city. Serving City Centre, Sector 4, 9, 12, Cooperative Colony & Chas. Rated 4.9/5. Book a free demo!"
+description: "Live online coding & maths classes in Bokaro for kids, teens & adults. Python, AI, Java & Web Dev, planned Steel City logic. Rated 4.9/5. Book a free demo!"
 canonical: /best-coding-class-in-bokaro
 keywords: ["best coding classes in Bokaro", "coding classes in Bokaro", "coding for kids in Bokaro", "coding for teens in Bokaro", "programming classes Bokaro", "coding institute Bokaro", "online coding classes Bokaro", "coding classes near me Bokaro", "Scratch programming Bokaro", "Python for kids Bokaro", "web development course Bokaro", "best coding institute in Bokaro Steel City"]
 source: src/pages/best-coding-class-in-bokaro.html
 ---
-> Live online coding & maths classes in Bokaro Steel City for kids, teens & adults. Python, AI, Java, Web Dev & engineering-grade logic in India's best-planned, greenest steel city. Serving City Centre, Sector 4, 9, 12, Cooperative Colony & Chas. Rated 4.9/5. Book a free demo!
+> Live online coding & maths classes in Bokaro for kids, teens & adults. Python, AI, Java & Web Dev, planned Steel City logic. Rated 4.9/5. Book a free demo!
 
 Live Online · City Centre · Sector 4 · 9 · Cooperative Colony
 

@@ -1,11 +1,11 @@
 ---
 title: "Online Coding & AI Classes in New Zealand | NCEA"
-description: "Live 1:1 online coding, Python, AI & agentic-AI mentorship for students across Aotearoa New Zealand. Aligned with NCEA Level 1, 2 and 3 Digital Technologies, University Entrance (UE), CIE Cambridge International and IB Diploma. University of Auckland, University of Otago, Victoria University of Wellington, University of Canterbury, Massey, AUT, Waikato, Lincoln admissions ready. NZD 165 (USD 100) a month."
+description: "Live 1:1 online coding, Python & AI mentorship for New Zealand students. NCEA Digital Technologies aligned, university-entrance ready. USD 100/mo. Free trial."
 canonical: https://learn.modernagecoders.com/coding-classes-in-new-zealand
 keywords: ["coding classes New Zealand", "coding classes NZ", "coding classes Auckland", "coding classes Wellington", "coding classes Christchurch", "coding classes Hamilton", "coding classes Tauranga", "coding classes Dunedin", "coding classes Palmerston North", "online coding classes New Zealand", "Python tutor Auckland", "Python tutor Wellington"]
 source: src/pages/coding-classes-in-new-zealand.html
 ---
-> Live 1:1 online coding, Python, AI & agentic-AI mentorship for students across Aotearoa New Zealand. Aligned with NCEA Level 1, 2 and 3 Digital Technologies, University Entrance (UE), CIE Cambridge International and IB Diploma. University of Auckland, University of Otago, Victoria University of Wellington, University of Canterbury, Massey, AUT, Waikato, Lincoln admissions ready. NZD 165 (USD 100) a month.
+> Live 1:1 online coding, Python & AI mentorship for New Zealand students. NCEA Digital Technologies aligned, university-entrance ready. USD 100/mo. Free trial.
 
 ### Request a callback
 
