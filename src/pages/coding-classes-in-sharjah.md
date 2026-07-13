@@ -183,7 +183,43 @@ Shewta Singh
 
 Mother of Ishan
 
-07 · Nearby guides
+07 · Student projects
+
+## What our students actually build
+
+Every one of these is a real, live project shipped by a Modern Age Coders student — not a mockup. Explore more in our [Student Labs](/student-labs).
+
+![Doodle Dash — 30-Second Drawing Challenge](/images/projects/doodledash.webp)
+
+Game
+
+### Doodle Dash — 30-Second Drawing Challenge
+
+Pick a difficulty, get a prompt, and you have exactly 30 seconds to draw it — then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.
+
+by by Shubh · [Open the live project ↗](https://doodledashmaster.lovable.app)
+
+![BookDesk — AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)
+
+AI & ML
+
+### BookDesk — AI Book Summaries & Quizzes
+
+Type in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.
+
+by by Anika · [Open the live project ↗](https://bookdesk1.netlify.app)
+
+![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp)
+
+AI & ML
+
+### HairSync — AI Hairstyle Try-On
+
+Upload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.
+
+by by Kriti · [Open the live project ↗](https://hairsync.lovable.app)
+
+08 · Nearby guides
 
 ## Reading for the rest of the UAE
 
@@ -191,7 +227,7 @@ This page is written for Sharjah. The neighbouring guides cover the rest of the 
 
 [Coding Classes in the UAE The country-level guide: one format, seven emirates, and everything that stays identical no matter which one you call home. Read the guide](/coding-classes-in-uae)[Coding Classes in Dubai The Dubai edition, for families on the other side of the morning traffic. Same courses, same fees, Dubai's own school context. Read the guide](/coding-classes-in-dubai)[Coding Classes in Abu Dhabi The capital's page: ADEK schools, island and mainland families, and evening classes that reach Al Ain without a car. Read the guide](/coding-classes-in-abu-dhabi)[Coding for Kids in Dubai A parent's deep dive on ages six to twelve: first classes, Scratch to Python, and what progress looks like month by month. Read the guide](/coding-classes-for-kids-in-dubai)
 
-08 · Fees
+09 · Fees
 
 ## The fee, and what it actually buys
 
@@ -225,13 +261,13 @@ Book a Free Demo
 
 No registration fee, no hidden charges, no long lock-in. If the demo does not persuade you, walk away owing nothing.
 
-09 · Questions
+10 · Questions
 
 ## Frequently asked questions
 
 Do you have a centre in Sharjah?No, and that is the point. Classes are live online, so a student in Al Nahda, Muwaileh, Al Khan or even Kalba joins the same small class without anyone driving anywhere. All the class needs is a laptop or desktop and a reliable connection.What timings work for Sharjah students?Weekday slots run through the evening, roughly 4:00 to 9:00 PM Gulf Standard Time, and Saturday and Sunday slots cover the weekend. A student keeps one fixed weekly slot. The UAE does not observe daylight saving, so the slot chosen at enrolment holds all year.Will the classes fit school in Sharjah?Yes. Sharjah's private schools, licensed by SPEA, teach Indian, British, American and IB curricula, and government schools follow the Ministry of Education programme. Our coursework runs alongside any of them. The overlap is strongest for CBSE students, whose Class 11 and 12 computer science is taught in Python, the language our teen track uses.The classes are in English. Will my child manage?Almost certainly, and the free demo is the honest way to find out. Our teachers work daily with students who speak Arabic, Urdu, Hindi or Malayalam at home. They speak plainly, avoid jargon until it is earned, and ask students to explain ideas back rather than assuming a nod means understanding.How much do coding classes cost in Sharjah?Group classes cost 40 US dollars a month, about AED 150. One-on-one classes cost 100 US dollars a month, about AED 370. The dirham is pegged to the dollar, so the figures hold steady. There is no registration fee, no material charge, and billing runs month to month.Should we choose group or one-on-one?Most families should start with group. Five to eight students is small enough for personal attention and the company of other learners helps. One-on-one earns its higher fee in two cases: a schedule that cannot fit a fixed batch slot, or a student who needs a very different pace, faster or slower, than a batch would set.How does the free demo class work?Fill the form on this page or send us a WhatsApp message. A mentor calls, asks about the student's age and any past experience, and books a slot. The demo is one full hour of live teaching, identical to a paid class. No card details are taken, and no follow-up pressure comes after.
 
-10 · Free demo class
+11 · Free demo class
 
 ## Inspect the goods first
 

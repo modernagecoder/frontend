@@ -177,6 +177,42 @@ Sonam Oswal
 
 Parent of Dhairya
 
+Student projects
+
+## What our students actually build
+
+Every one of these is a real, live project shipped by a Modern Age Coders student — not a mockup. Explore more in our [Student Labs](/student-labs).
+
+![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)
+
+Web App
+
+### Pracy — Coding Practice & Quiz Platform
+
+An all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.
+
+by by Rohan · [Open the live project ↗](https://astounding-flan-f18e08.netlify.app/)
+
+![Word Counter Website](/images/projects/wordcounter.webp)
+
+Tool
+
+### Word Counter Website
+
+A simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.
+
+by by Vansh · [Open the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
+
+![Life Span Tracker](/images/projects/lifespan.webp)
+
+Tool
+
+### Life Span Tracker
+
+An interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.
+
+by by Manay · [Open the live project ↗](https://lifespantracker.netlify.app/)
+
 Fees
 
 ## Two prices, both of them small

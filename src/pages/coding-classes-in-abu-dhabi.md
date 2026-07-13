@@ -184,7 +184,43 @@ Sonu Goyal
 
 Parent
 
-07 · Nearby guides
+07 · Student projects
+
+## What our students actually build
+
+Every one of these is a real, live project shipped by a Modern Age Coders student — not a mockup. Explore more in our [Student Labs](/student-labs).
+
+![LumenFX — AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)
+
+Web App
+
+### LumenFX — AR/VR Photo Effects Studio
+
+Upload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.
+
+by by Raayan · [Open the live project ↗](https://arvrbadestweb.lovable.app)
+
+![Doodle Dash — 30-Second Drawing Challenge](/images/projects/doodledash.webp)
+
+Game
+
+### Doodle Dash — 30-Second Drawing Challenge
+
+Pick a difficulty, get a prompt, and you have exactly 30 seconds to draw it — then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.
+
+by by Shubh · [Open the live project ↗](https://doodledashmaster.lovable.app)
+
+![BookDesk — AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)
+
+AI & ML
+
+### BookDesk — AI Book Summaries & Quizzes
+
+Type in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.
+
+by by Anika · [Open the live project ↗](https://bookdesk1.netlify.app)
+
+08 · Nearby guides
 
 ## More UAE pages worth reading
 
@@ -192,7 +228,7 @@ This page covers Abu Dhabi. The guides below answer the neighbouring questions.
 
 [Coding Classes in the UAE The country guide: how one set of live online classes serves students in all seven emirates, and what stays constant wherever you live. Read the guide](/coding-classes-in-uae)[Coding Classes in Dubai The Dubai page, for families down the E11: same courses, same format, written for the city's own school landscape. Read the guide](/coding-classes-in-dubai)[Coding Classes in Sharjah For Sharjah families weighing quality against cost, with the commute taken out of the equation entirely. Read the guide](/coding-classes-in-sharjah)[Coding for Kids in Dubai A parent's guide to ages six to twelve: first classes, progress, and what a child actually builds month by month. Read the guide](/coding-classes-for-kids-in-dubai)
 
-08 · Fees
+09 · Fees
 
 ## Fees in dollars, steady in dirhams
 
@@ -226,13 +262,13 @@ Book a Free Demo
 
 No registration fee, no long lock-in, no hidden charges. If the demo does not earn the enrolment, you owe nothing at all.
 
-09 · Questions
+10 · Questions
 
 ## Frequently asked questions
 
 Are the classes online, or is there a centre in Abu Dhabi?Online only, taught live on a video call. There is no physical centre in Abu Dhabi, and none is needed: the student, the teacher and the code are all on the same screen. A laptop or desktop with a steady connection is the whole equipment list.Which parts of Abu Dhabi do you cover?All of them, because nobody travels. Students join the same class from the island, Khalifa City, Al Reef, Mohammed Bin Zayed City, Reem Island or Al Ain. Where you live changes nothing about the class itself.What class timings work for Abu Dhabi students?Weekday slots sit in the evening, roughly 4:00 to 9:00 PM Gulf Standard Time, once school and office hours are done. Saturday and Sunday slots cover the weekend. Each student keeps one fixed weekly slot, and because the UAE never shifts its clocks, that slot never moves.Will the classes suit my child's school curriculum?Abu Dhabi's private schools, overseen by ADEK, teach British, American, Indian and IB curricula, and our students come from every one of those systems. The coursework runs beside school rather than replacing it. Python is the language CBSE uses for Classes 11 and 12 computer science, and GCSE, A Level and AP papers all reward students who can genuinely program.What ages do you teach, and in what language?Ages six to adult, in English. Kids tracks run from 6 to 12, teen tracks from 13 to 18, and evening tracks serve college students and working professionals. Our teachers spend every day with students who speak another language at home, so explanations stay plain and understanding gets checked, not assumed.How much do coding classes cost in Abu Dhabi?Group classes are 40 US dollars per month, about AED 150. One-on-one classes are 100 US dollars per month, about AED 370. The dirham's dollar peg keeps those numbers steady. Billing is monthly, with no registration fee and no long contract.How does the free demo class work?Send the form on this page or a WhatsApp message. A mentor calls to ask about the student's age and experience, then books a slot. The demo is a full one-hour live class, the same thing paying students get every week. You decide afterwards, with no card details taken.
 
-10 · Free demo class
+11 · Free demo class
 
 ## Judge us by one real hour
 

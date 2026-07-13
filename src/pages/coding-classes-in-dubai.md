@@ -200,7 +200,43 @@ Shewta Singh
 
 Mother of Ishan
 
-08 · Fees
+08 · Student projects
+
+## What our students actually build
+
+Every one of these is a real, live project shipped by a Modern Age Coders student — not a mockup. Explore more in our [Student Labs](/student-labs).
+
+![GuardianX — AI Bodyguard for the Internet](/images/projects/guardianx.webp)
+
+AI & ML
+
+### GuardianX — AI Bodyguard for the Internet
+
+Paste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.
+
+by by Vivaan · [Open the live project ↗](https://guardianx-cybersaver.lovable.app)
+
+![Palm Arcana — Summon the Elements](/images/projects/superpawer.webp)
+
+Game
+
+### Palm Arcana — Summon the Elements
+
+Open your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.
+
+by by Aarush · [Open the live project ↗](https://superpawer.netlify.app)
+
+![LumenFX — AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)
+
+Web App
+
+### LumenFX — AR/VR Photo Effects Studio
+
+Upload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.
+
+by by Raayan · [Open the live project ↗](https://arvrbadestweb.lovable.app)
+
+09 · Fees
 
 ## Two plans, both billed monthly
 
@@ -234,13 +270,13 @@ Book a Free Demo
 
 Free demo first, no hidden fees, no registration charge, no long lock-in. If the demo does not earn your enrolment, you owe nothing.
 
-09 · Questions
+10 · Questions
 
 ## Frequently asked questions
 
 Are the classes online, or do you have a centre in Dubai?Fully online, taught live over video. We do not run a physical centre in Dubai or anywhere else in the UAE. A student in Mirdif joins the same class as one in Dubai Marina or Sharjah, with the same teacher. All you need is a laptop or desktop and a steady internet connection.What class timings work for students in Dubai?Weekday classes run through the Dubai evening, roughly 4:00 to 9:00 PM Gulf Standard Time, after school and office hours. Saturday and Sunday slots cover the UAE weekend. You pick a fixed weekly slot when you enrol, and since the UAE never changes its clocks, the slot stays put all year.Will the classes fit my child's school curriculum in Dubai?Yes. Our students come from British, American, Indian CBSE and ICSE, and IB curriculum schools, and the coursework runs alongside school rather than following any one board. There are direct overlaps: CBSE teaches Classes 11 and 12 computer science in Python, and GCSE, A Level and AP computer science papers all favour students who can actually program.What ages do you teach?Six to adult. Kids courses cover ages 6 to 12, teen courses cover 13 to 18, and separate evening tracks serve college students and working professionals. The free demo doubles as placement, so the teacher can recommend the right starting point after meeting the student.Are the classes taught in English?Yes, every class is taught in English, the same language most Dubai schools use. Our teachers work every day with students who speak Hindi, Arabic, Urdu, Malayalam or Tagalog at home, so they explain plainly and check understanding rather than assuming it.How much do coding classes cost in Dubai?Group classes cost 40 US dollars per month, about AED 150. One-on-one classes cost 100 US dollars per month, about AED 370. The dirham is pegged to the dollar, so those figures do not drift. Billing is monthly, there is no registration fee, and there is no long lock-in.How does the free demo class work?Fill the form on this page or message us on WhatsApp. A mentor calls you, asks about the student's age and experience, and books a slot. The student then attends a complete one-hour live class with a real teacher. You decide afterwards. No card details, no obligation.
 
-10 · Free demo class
+11 · Free demo class
 
 ## See a class before you pay for one
 

@@ -170,6 +170,42 @@ Samridho Mondal
 
 Student
 
+Student projects
+
+## What our students actually build
+
+Every one of these is a real, live project shipped by a Modern Age Coders student — not a mockup. Explore more in our [Student Labs](/student-labs).
+
+![MyDay — Social Productivity Organizer](/images/projects/myday.webp)
+
+Web App
+
+### MyDay — Social Productivity Organizer
+
+A beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.
+
+by by Vedant · [Open the live project ↗](https://myday.modernagecoders.com)
+
+![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)
+
+Web App
+
+### FreshTrack — Food Expiry Tracker
+
+A smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.
+
+by by Tanish · [Open the live project ↗](https://freshtrackpro.netlify.app/)
+
+![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)
+
+Web App
+
+### Pracy — Coding Practice & Quiz Platform
+
+An all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.
+
+by by Rohan · [Open the live project ↗](https://astounding-flan-f18e08.netlify.app/)
+
 More Saudi guides
 
 ## Other chapters in the Kingdom series

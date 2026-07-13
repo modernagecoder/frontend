@@ -184,6 +184,42 @@ Shradha Saraf
 
 Parent of Mivaan
 
+Student projects
+
+## What our students actually build
+
+Every one of these is a real, live project shipped by a Modern Age Coders student — not a mockup. Explore more in our [Student Labs](/student-labs).
+
+![SkyCast — Weather Forecast App](/images/projects/skycast.webp)
+
+Web App
+
+### SkyCast — Weather Forecast App
+
+An interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.
+
+by by Krish · [Open the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)
+
+![HugSelle — AI Smile Generator](/images/projects/hugselle.webp)
+
+AI & ML
+
+### HugSelle — AI Smile Generator
+
+A heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.
+
+by by Anurag · [Open the live project ↗](https://hugselle.modernagecoders.com)
+
+![Moxo — Company Landing Page](/images/projects/moxo.webp)
+
+Web App
+
+### Moxo — Company Landing Page
+
+A stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.
+
+by by Isha · [Open the live project ↗](https://moxo.modernagecoders.com)
+
 Fees
 
 ## One fee, billed monthly

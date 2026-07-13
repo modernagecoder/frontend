@@ -172,6 +172,42 @@ Shradha Saraf
 
 Parent of Mivaan
 
+Student projects
+
+## What our students actually build
+
+Every one of these is a real, live project shipped by a Modern Age Coders student — not a mockup. Explore more in our [Student Labs](/student-labs).
+
+![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)
+
+Web App
+
+### FreshTrack — Food Expiry Tracker
+
+A smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.
+
+by by Tanish · [Open the live project ↗](https://freshtrackpro.netlify.app/)
+
+![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)
+
+Web App
+
+### Pracy — Coding Practice & Quiz Platform
+
+An all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.
+
+by by Rohan · [Open the live project ↗](https://astounding-flan-f18e08.netlify.app/)
+
+![Word Counter Website](/images/projects/wordcounter.webp)
+
+Tool
+
+### Word Counter Website
+
+A simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.
+
+by by Vansh · [Open the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
+
 More Saudi guides
 
 ## The rest of the Saudi guide
