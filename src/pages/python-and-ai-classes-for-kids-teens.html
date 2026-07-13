@@ -199,11 +199,6 @@ canvas#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;po
   .roadmap{padding-left:22px;}
 }
 </style>
-    <!-- Phase 6 UI/UX Polish -->
-    <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p6">
-    <script src="/js/ux-enhancements.js" defer></script>
-    <script src="/js/hover-prefetch.js" defer></script>
-    <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
     <!-- Phase 7 Distinctive Identity -->
     <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p7">
     <link rel="stylesheet" href="/css/pages/identity.css?v=20260411-p7">
@@ -237,7 +232,7 @@ canvas#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;po
 <!-- NAV -->
 <style>.callback-nav-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:linear-gradient(135deg,#f59e0b,#d97706);color:white;border:none;border-radius:25px;font-size:14px;font-weight:600;cursor:pointer;transition:all .3s;box-shadow:0 2px 8px rgba(245,158,11,.3);}.callback-nav-btn:hover{transform:translateY(-2px);} @media(max-width:768px){.callback-nav-btn span{display:none;}.callback-nav-btn{padding:10px;}}</style>
 <header><nav><div class="navbar"><div class="nav-container">
-<a href="/" class="logo"><img style="border-radius:10px;" src="/images/logo.svg" alt="Modern Age Coders Logo" class="logo-img" loading="lazy"><span class="logo-text">Modern Age Coders</span></a>
+<a href="/" class="logo"><img width="512" height="512" style="border-radius:10px;" src="/images/logo.svg" alt="Modern Age Coders Logo" class="logo-img" loading="lazy"><span class="logo-text">Modern Age Coders</span></a>
 <ul class="nav-menu" id="navMenu">
 <li class="nav-item dropdown"><a href="/courses" class="nav-link">Courses <svg style="width:14px;height:14px;margin-left:4px;opacity:.7;" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></a>
 <div class="dropdown-content"><a href="/courses" class="dropdown-item" style="font-weight:bold;border-bottom:1px solid rgba(168,85,247,.3);margin-bottom:.5rem;padding-bottom:.75rem;">View All Courses</a><a href="/courses/coding/kids" class="dropdown-item">For Kids (Ages 6-12)</a><a href="/courses/coding/teens" class="dropdown-item">For Teens (Ages 13-18)</a><a href="/courses/coding/college" class="dropdown-item">For College Students</a><a href="/courses/coding/corporate" class="dropdown-item">Customized Training</a><a href="/courses/coding/girls" class="dropdown-item highlight">Special For Girls</a><a href="/summer-coding-camp" class="dropdown-item highlight">Summer Coding Camp</a></div></li>
@@ -358,7 +353,7 @@ canvas#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;po
 
 <div id="tab-kids" class="course-panel active">
   <div class="c-card">
-    <img src="/images/python-kids.webp" alt="Python for Kids course" loading="lazy">
+    <img width="800" height="450" src="/images/python-kids.webp" alt="Python for Kids course" loading="lazy">
     <div class="c-body">
       <span class="c-badge">Most Popular</span>
       <h3>Python + AI for Kids Masterclass</h3>
@@ -373,7 +368,7 @@ canvas#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;po
     </div>
   </div>
   <div class="c-card">
-    <img src="/images/ai-tools-kids.webp" alt="Kids AI Mastery course" loading="lazy">
+    <img width="800" height="450" src="/images/ai-tools-kids.webp" alt="Kids AI Mastery course" loading="lazy">
     <div class="c-body">
       <span class="c-badge">AI Explorer</span>
       <h3>Kids AI Mastery Course</h3>
@@ -388,7 +383,7 @@ canvas#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;po
     </div>
   </div>
   <div class="c-card">
-    <img src="/images/scratch-kids.webp" alt="Kids AI Web Development" loading="lazy">
+    <img width="800" height="450" src="/images/scratch-kids.webp" alt="Kids AI Web Development" loading="lazy">
     <div class="c-body">
       <span class="c-badge">Creative Coder</span>
       <h3>AI + Web Development for Kids</h3>
@@ -406,7 +401,7 @@ canvas#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;po
 
 <div id="tab-teens" class="course-panel">
   <div class="c-card">
-    <img src="/images/python-teens.webp" alt="Python Complete Masterclass for Teens" loading="lazy">
+    <img width="800" height="450" src="/images/python-teens.webp" alt="Python Complete Masterclass for Teens" loading="lazy">
     <div class="c-body">
       <span class="c-badge">Career Track</span>
       <h3>Python Complete Masterclass — Teens</h3>
@@ -421,7 +416,7 @@ canvas#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;po
     </div>
   </div>
   <div class="c-card">
-    <img src="/images/ai-ml-teens.webp" alt="AI ML Masterclass Teens" loading="lazy">
+    <img width="800" height="450" src="/images/ai-ml-teens.webp" alt="AI ML Masterclass Teens" loading="lazy">
     <div class="c-body">
       <span class="c-badge">Future-Ready</span>
       <h3>AI &amp; ML Masterclass — Teens</h3>
@@ -436,7 +431,7 @@ canvas#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;po
     </div>
   </div>
   <div class="c-card">
-    <img src="/images/python.webp" alt="Problem Solving DSA Teens" loading="lazy">
+    <img width="800" height="450" src="/images/python.webp" alt="Problem Solving DSA Teens" loading="lazy">
     <div class="c-body">
       <span class="c-badge">Competitive Edge</span>
       <h3>Problem Solving &amp; DSA in Python</h3>
@@ -454,7 +449,7 @@ canvas#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;po
 
 <div id="tab-ai" class="course-panel">
   <div class="c-card">
-    <img src="/images/ai-ml-college.webp" alt="AI ML Complete Masterclass" loading="lazy">
+    <img width="800" height="450" src="/images/ai-ml-college.webp" alt="AI ML Complete Masterclass" loading="lazy">
     <div class="c-body">
       <span class="c-badge">Most Advanced</span>
       <h3>AI &amp; ML Complete Masterclass</h3>
@@ -469,7 +464,7 @@ canvas#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;po
     </div>
   </div>
   <div class="c-card">
-    <img src="/images/generative-ai-college.webp" alt="Generative AI Masterclass" loading="lazy">
+    <img width="800" height="450" src="/images/generative-ai-college.webp" alt="Generative AI Masterclass" loading="lazy">
     <div class="c-body">
       <span class="c-badge">Trending Now</span>
       <h3>Generative AI Masterclass</h3>
@@ -484,7 +479,7 @@ canvas#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;po
     </div>
   </div>
   <div class="c-card">
-    <img src="/images/automation-with-python-ai.webp" alt="Python AI Automation" loading="lazy">
+    <img width="800" height="450" src="/images/automation-with-python-ai.webp" alt="Python AI Automation" loading="lazy">
     <div class="c-body">
       <span class="c-badge">Practical AI</span>
       <h3>Python AI &amp; Automation Masterclass</h3>
@@ -708,7 +703,7 @@ canvas#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;po
 <div class="footer-container">
 <div class="footer-grid">
   <div class="footer-column">
-    <a href="/" class="logo"><img src="/images/logo.svg" alt="Modern Age Coders Logo" class="logo-img" loading="lazy"><span class="logo-text">Modern Age Coders</span></a>
+    <a href="/" class="logo"><img width="512" height="512" src="/images/logo.svg" alt="Modern Age Coders Logo" class="logo-img" loading="lazy"><span class="logo-text">Modern Age Coders</span></a>
     <p class="footer-tagline">Forging the next generation of innovators.</p>
     <div class="social-links">
       <a href="https://instagram.com/modern_age_coders" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
@@ -774,7 +769,7 @@ canvas#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;po
 </style>
 
 <!-- SCRIPTS -->
-<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script src="/js/lenis.min.js" defer></script>
 <script>
 // Lenis smooth scroll
 document.addEventListener("DOMContentLoaded",function(){

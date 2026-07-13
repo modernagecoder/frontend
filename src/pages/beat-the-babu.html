@@ -491,11 +491,6 @@
     <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/beat-the-babu" />
     <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/beat-the-babu" />
     <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/beat-the-babu" />
-    <!-- Phase 6 UI/UX Polish -->
-    <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p6">
-    <script src="/js/ux-enhancements.js" defer></script>
-    <script src="/js/hover-prefetch.js" defer></script>
-    <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
     <!-- Phase 7 Distinctive Identity -->
     <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p7">
     <link rel="stylesheet" href="/css/pages/identity.css?v=20260411-p7">
@@ -1306,7 +1301,7 @@
 </style>
 
 <!-- Lenis Smooth Scrolling -->
-<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script src="/js/lenis.min.js" defer></script>
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         if (typeof Lenis !== 'undefined') {

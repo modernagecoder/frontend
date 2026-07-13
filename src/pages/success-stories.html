@@ -119,10 +119,6 @@
     <noscript><style>.section{opacity:1 !important;transform:none !important}</style></noscript>
 
     
-    <!-- Phase 6 UI/UX Polish -->
-    <script src="/js/ux-enhancements.js" defer></script>
-    <script src="/js/hover-prefetch.js" defer></script>
-    <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
     <!-- Phase 7 Distinctive Identity -->
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
@@ -195,7 +191,7 @@
             <div class="navbar">
                 <div class="nav-container">
                     <a href="/" class="logo">
-                        <img style="border-radius: 10px;" src="/images/logo.svg" alt="Modern Age Coders Logo"
+                        <img width="512" height="512" style="border-radius: 10px;" src="/images/logo.svg" alt="Modern Age Coders Logo"
                             class="logo-img" loading="lazy">
                         <span class="logo-text">Modern Age Coders</span>
                     </a>
@@ -519,15 +515,15 @@
             </div>
             <div class="ss-project-grid">
                 <a class="ss-project" href="/student-labs">
-                    <img src="/images/projects/misti.webp" alt="Misti, an AI chatbot for maths and coding, built by Harshit" loading="lazy">
+                    <img width="1501" height="832" src="/images/projects/misti.webp" alt="Misti, an AI chatbot for maths and coding, built by Harshit" loading="lazy">
                     <span class="ss-project-name">Misti · AI chatbot <small>by Harshit</small></span>
                 </a>
                 <a class="ss-project" href="/student-labs">
-                    <img src="/images/projects/nutrilife.webp" alt="NutriLife, an AI nutrition coach, built by Bhavya" loading="lazy">
+                    <img width="900" height="563" src="/images/projects/nutrilife.webp" alt="NutriLife, an AI nutrition coach, built by Bhavya" loading="lazy">
                     <span class="ss-project-name">NutriLife · AI nutrition coach <small>by Bhavya</small></span>
                 </a>
                 <a class="ss-project" href="/student-labs">
-                    <img src="/images/projects/guardianx.webp" alt="GuardianX, an AI link-safety checker, built by Vivaan" loading="lazy">
+                    <img width="900" height="563" src="/images/projects/guardianx.webp" alt="GuardianX, an AI link-safety checker, built by Vivaan" loading="lazy">
                     <span class="ss-project-name">GuardianX · AI bodyguard <small>by Vivaan</small></span>
                 </a>
             </div>
@@ -760,7 +756,7 @@
 </style>
 
 <!-- Lenis Smooth Scrolling -->
-<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script src="/js/lenis.min.js" defer></script>
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         if (typeof Lenis !== 'undefined') {
