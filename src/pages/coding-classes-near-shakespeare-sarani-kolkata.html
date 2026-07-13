@@ -1236,7 +1236,57 @@
         </div>
     </section>
 
-</main>
+
+<style>
+/* real social proof (harvested from /love + /student-labs) — matches ee- dark theme */
+.msp-reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:6px}
+.msp-rev{margin:0;background:var(--panel);border:1px solid var(--line);border-left:2px solid var(--ac);border-radius:12px;padding:22px 22px 20px;display:flex;flex-direction:column}
+.msp-rev .st{color:#f5b301;letter-spacing:.12em;font-size:.82rem;margin-bottom:11px}
+.msp-rev blockquote{margin:0 0 15px;color:#dfe5ee;font-size:.96rem;line-height:1.7;flex:1}
+.msp-rev .who{display:flex;align-items:center;gap:11px}
+.msp-rev .av{width:40px;height:40px;border-radius:50%;background:var(--ac);display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff;font-family:var(--display);flex-shrink:0}
+.msp-rev .nm{color:#fff;font-weight:600;font-size:.9rem}
+.msp-rev .rl{color:var(--ink-mute);font-size:.76rem;font-family:var(--mono)}
+.msp-projects{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:6px}
+.msp-proj{display:flex;flex-direction:column;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;transition:transform .2s,border-color .2s}
+.msp-proj:hover{transform:translateY(-3px);border-color:var(--ac-line)}
+.msp-proj .shot{aspect-ratio:16/10;background:#05060a;overflow:hidden}
+.msp-proj .shot img{width:100%;height:100%;object-fit:cover;display:block}
+.msp-proj .pb{padding:14px 16px 16px;display:flex;flex-direction:column;flex:1}
+.msp-proj .pc{font-family:var(--mono);font-size:.66rem;letter-spacing:.11em;text-transform:uppercase;color:var(--ac-link);font-weight:600}
+.msp-proj .pt{color:#fff;font-weight:600;font-size:1rem;margin:6px 0 5px;font-family:var(--display);line-height:1.25}
+.msp-proj .pd{color:var(--ink-soft);font-size:.85rem;line-height:1.55;margin:0 0 9px;flex:1}
+.msp-proj .pby{color:var(--ink-mute);font-size:.77rem}
+.msp-proj .popen{color:var(--ac-link);font-family:var(--mono);font-size:.72rem;margin-top:7px;display:inline-block}
+.msp-more{margin-top:20px;color:var(--ink-soft);font-size:.95rem}
+@media(max-width:820px){.msp-reviews,.msp-projects{grid-template-columns:1fr}}
+</style>
+    <section class="loc-section">
+        <div class="inner">
+            <div class="ee-head">
+                <span class="ee-kicker">PARENT &amp; STUDENT VOICES</span>
+                <h2 class="ee-h2">What families say about us</h2>
+                <div class="ee-rule"></div>
+            </div>
+            <div class="msp-reviews"><figure class="msp-rev"><div class="st">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>&ldquo;I tried 3 other platforms before this. Everyone teaches &#x27;what&#x27; to code. Only Modern Age Coders taught me &#x27;how it actually works&#x27;. The depth is unmatched.&rdquo;</blockquote><figcaption class="who"><div class="av">D</div><div><div class="nm">Diya Kapoor</div><div class="rl">Working Professional</div></div></figcaption></figure><figure class="msp-rev"><div class="st">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>&ldquo;Sir explained calculus using a car&#x27;s speedometer! Suddenly derivatives made perfect sense. No rote learning, just pure understanding. Scored 98% in math!&rdquo;</blockquote><figcaption class="who"><div class="av">A</div><div><div class="nm">Arjun Mehta</div><div class="rl">Grade 9 Student</div></div></figcaption></figure><figure class="msp-rev"><div class="st">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>&ldquo;Ma&#x27;am uses toys and drawings to teach fractions! I understood why 1/2 is bigger than 1/4 by cutting a pizza. Math is so easy when you see it in real life!&rdquo;</blockquote><figcaption class="who"><div class="av">R</div><div><div class="nm">Riya Gupta</div><div class="rl">Kid, Grade 4</div></div></figcaption></figure></div>
+            <p class="msp-more">These are real, verified Google reviews from Modern Age Coders families. Read more on our <a class="ee-link" href="/love">Wall of Love</a>.</p>
+        </div>
+    </section>
+
+    <div class="ee-divider"></div>
+
+    <section class="loc-section">
+        <div class="inner">
+            <div class="ee-head">
+                <span class="ee-kicker">REAL STUDENT PROJECTS</span>
+                <h2 class="ee-h2">What our students actually build</h2>
+                <div class="ee-rule"></div>
+            </div>
+            <div class="msp-projects"><a class="msp-proj" href="https://nutrilife-bhavya.lovable.app" target="_blank" rel="noopener"><div class="shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife — AI Nutrition Coach" loading="lazy" width="800" height="500"></div><div class="pb"><span class="pc">AI &amp; ML</span><div class="pt">NutriLife — AI Nutrition Coach</div><p class="pd">Snap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.</p><span class="pby">by Bhavya</span><span class="popen">Open the live project &#8599;</span></div></a><a class="msp-proj" href="https://guardianx-cybersaver.lovable.app" target="_blank" rel="noopener"><div class="shot"><img src="/images/projects/guardianx.webp" alt="GuardianX — AI Bodyguard for the Internet" loading="lazy" width="800" height="500"></div><div class="pb"><span class="pc">AI &amp; ML</span><div class="pt">GuardianX — AI Bodyguard for the Internet</div><p class="pd">Paste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.</p><span class="pby">by Vivaan</span><span class="popen">Open the live project &#8599;</span></div></a><a class="msp-proj" href="https://superpawer.netlify.app" target="_blank" rel="noopener"><div class="shot"><img src="/images/projects/superpawer.webp" alt="Palm Arcana — Summon the Elements" loading="lazy" width="800" height="500"></div><div class="pb"><span class="pc">Game</span><div class="pt">Palm Arcana — Summon the Elements</div><p class="pd">Open your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.</p><span class="pby">by Aarush</span><span class="popen">Open the live project &#8599;</span></div></a></div>
+            <p class="msp-more">Every one is a real, live project by a student. See more in <a class="ee-link" href="/student-labs">Student Labs</a>.</p>
+        </div>
+    </section>
+    </main>
 
 
 <!-- FOOTER -->

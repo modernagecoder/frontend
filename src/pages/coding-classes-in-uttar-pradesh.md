@@ -165,21 +165,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Uttar Pradesh Families Say
+## What Our Families Say
 
 ★★★★★
 
-"In Lucknow it was hard to find a good coding teacher nearby. These live online classes solved it — my son built a game in a few months and his confidence has shot up."
+"They derive every formula from basic principles. I learned why (a+b)² = a² + 2ab + b² by actually drawing squares and rectangles. Visual proofs make concepts stick forever. I never need to memorize—I just understand!"
 
-Anjali V.Parent · Lucknow★★★★★
+Ishita ReddyGrade 9 Student★★★★★
 
-"We're in Kanpur and wanted structured Python learning for our daughter. The small batch and project work are excellent — and they explain in Hindi whenever she needs it."
+"Trigonometry made zero sense until they showed me how it works with actual triangles and circles. They explained WHY sin²θ + cos²θ = 1 using geometry. Once I saw the proof, I never forgot it. This is how math should be taught!"
 
-Manoj T.Parent · Kanpur★★★★★
+Priya MalhotraGrade 11 Student★★★★★
 
-"As an engineering student in Varanasi, the DSA and full-stack track helped me prepare for placements. Clear, practical and to the point."
+"My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!"
 
-Ritika S.College student · Varanasi
+Mrs. Meera JainParent of Aadhya (Grade 5)
 
 ## Ready to start coding in Uttar Pradesh?
 

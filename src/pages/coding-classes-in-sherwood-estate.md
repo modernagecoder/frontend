@@ -98,9 +98,35 @@ The Love Wall
 
 ## Words from real families.
 
-We publish reviews only from verified Modern Age Coders families. Verified words from Sherwood Estate and Narendrapur parents are being added here as they come in — we will never invent a quote to fill a space.
+We publish reviews only from verified Modern Age Coders families. Below are verified words from real families across our school — we will never invent a quote to fill a space.
+
+★★★★★
+
+> “My daughter used to memorize formulas blindly. Here they derive everything from scratch using real examples. She now understands the logic behind multiplication itself!”
+
+*MMrs. Priya PatelParent of Ananya (Grade 3)*
+
+★★★★★
+
+> “Ma'am taught me division using sharing candies among friends. Now I know WHY we divide and what remainders mean. Math is not scary anymore—it's just solving real problems!”
+
+*KKabir SinghGrade 4 Student*
+
+★★★★★
+
+> “They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!”
+
+*AAarav SharmaStudent, Grade 7*
 
 A demo costs you nothing and tells you more than any review can. Book a free demo and judge the teaching for yourself, or read verified reviews from across our school on the [Love wall](https://learn.modernagecoders.com/love).
+
+Real student projects
+
+## What our students actually build.
+
+Every one of these is a real, live project shipped by a Modern Age Coders student — not a screenshot from a brochure. See more in our [Student Labs](/student-labs).
+
+[![Baby — Typing Speed Challenge](/images/projects/baby.webp)GameBaby — Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay — Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay — Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)
 
 Who teaches
 

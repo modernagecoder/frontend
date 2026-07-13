@@ -242,6 +242,38 @@ Premium, live online, project-based coding and maths — small batches, engineer
 
 School-specific: [Don Bosco School Park Circus (ICSE)](/coding-and-maths-for-don-bosco-park-circus-kolkata).
 
+PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “Ma'am taught me division using sharing candies among friends. Now I know WHY we divide and what remainders mean. Math is not scary anymore—it's just solving real problems!”
+
+*KKabir SinghGrade 4 Student*
+
+★★★★★
+
+> “They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!”
+
+*AAarav SharmaStudent, Grade 7*
+
+★★★★★
+
+> “Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'.”
+
+*IIshaan ReddyCollege Student, B.Tech CSE*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![NutriLife — AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife — AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)[![GuardianX — AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX — AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Palm Arcana — Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana — Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-near-bally-howrah*

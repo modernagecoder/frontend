@@ -240,7 +240,37 @@ Book one free live session, meet the teacher, and judge the quality yourself —
 
 ## Coding & maths in nearby localities
 
-[Park Street](/coding-classes-near-park-street-kolkata)[Camac Street](/coding-classes-near-camac-street-kolkata)[Shakespeare Sarani](/coding-classes-near-shakespeare-sarani-kolkata)[Birla High School](/coding-and-maths-for-birla-high-school-kolkata)[Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
+[Park Street](/coding-classes-near-park-street-kolkata)[Camac Street](/coding-classes-near-camac-street-kolkata)[Shakespeare Sarani](/coding-classes-near-shakespeare-sarani-kolkata)[Birla High School](/coding-and-maths-for-birla-high-school-kolkata)[Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “I used to hate algebra because I never understood WHY we do it. Here, they showed me how equations represent real-life situations. Now I can visualize every problem and solve it easily. Math finally makes sense!”
+
+*AAnanya VermaGrade 8 Student*
+
+★★★★★
+
+> “Sir taught me fractions using pizza slices and chocolate bars! I finally understood why 3/4 is bigger than 2/3. Now I can compare any fractions in my head without formulas. Math is fun when you see it in real life!”
+
+*AArnav GuptaGrade 7 Student*
+
+★★★★★
+
+> “They derive every formula from basic principles. I learned why (a+b)² = a² + 2ab + b² by actually drawing squares and rectangles. Visual proofs make concepts stick forever. I never need to memorize—I just understand!”
+
+*IIshita ReddyGrade 9 Student*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![Doodle Dash — 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash — 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it — then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)[![BookDesk — AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk — AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync — AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 
 ---
 

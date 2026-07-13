@@ -250,6 +250,38 @@ Premium, live, engineer-led coding and maths for your child — right here in Ho
 
 School-specific / board link: [Computer Applications for ICSE Class 10 (Don Bosco, St. Thomas', M.C. Kejriwal students)](/computer-applications-icse-class-10)
 
+PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
+
+*SShaarav WadhwaStudent*
+
+★★★★★
+
+> “Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner.”
+
+*AArush PoddarStudent*
+
+★★★★★
+
+> “Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training.”
+
+*VVikram JoshiWorking Professional*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![Moxo — Company Landing Page](/images/projects/moxo.webp)Web AppMoxo — Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby — Typing Speed Challenge](/images/projects/baby.webp)GameBaby — Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay — Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay — Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-near-howrah-city-howrah*

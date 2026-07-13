@@ -243,6 +243,38 @@ Book a free live demo, ask the hard questions, and watch your child build someth
 
 ICSE & CBSE board families: [Computer Science for Class 11-12 →](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)
 
+PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.”
+
+*VVansh AgarwalStudent*
+
+★★★★★
+
+> “They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!”
+
+*RRohan KapoorGrade 10 Student*
+
+★★★★★
+
+> “Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.”
+
+*SSonu GoyalParent*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![Moxo — Company Landing Page](/images/projects/moxo.webp)Web AppMoxo — Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby — Typing Speed Challenge](/images/projects/baby.webp)GameBaby — Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay — Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay — Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-near-jadavpur-kolkata*

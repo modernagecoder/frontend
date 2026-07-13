@@ -247,6 +247,38 @@ Live, small-batch coding and maths — taught by real engineers, from the same d
 
 School-specific: [Coding classes for DPS Ruby Park (CBSE)](/coding-classes-for-dps-ruby-park-kolkata)
 
+PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!”
+
+*NNeha DesaiGrade 6 Student*
+
+★★★★★
+
+> “Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class.”
+
+*SShradha SarafParent of Mivaan*
+
+★★★★★
+
+> “I tried 3 other platforms before this. Everyone teaches 'what' to code. Only Modern Age Coders taught me 'how it actually works'. The depth is unmatched.”
+
+*DDiya KapoorWorking Professional*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![MyDay — Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay — Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy — Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-near-lake-gardens-kolkata*

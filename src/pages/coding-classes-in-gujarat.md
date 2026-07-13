@@ -165,21 +165,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Gujarat Families Say
+## What Our Families Say
 
 ★★★★★
 
-"My son in Ahmedabad built his first game within weeks. The small batch keeps him engaged and the teacher is very patient. His maths has improved noticeably."
+"Trigonometry made zero sense until they showed me how it works with actual triangles and circles. They explained WHY sin²θ + cos²θ = 1 using geometry. Once I saw the proof, I never forgot it. This is how math should be taught!"
 
-Hetal S.Parent · Ahmedabad★★★★★
+Priya MalhotraGrade 11 Student★★★★★
 
-"We're in Surat and wanted serious coding for our daughter. Excellent structure, and they explain in Gujarati whenever she needs it. Worth it."
+"My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!"
 
-Jignesh P.Parent · Surat★★★★★
+Mrs. Meera JainParent of Aadhya (Grade 5)★★★★★
 
-"As an engineering student in Vadodara, the DSA and full-stack track helped me prepare for placements. Practical and well taught."
+"Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease."
 
-Krishna M.College student · Vadodara
+Samriddha MondalStudent
 
 ## Ready to start coding in Gujarat?
 

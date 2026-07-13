@@ -171,21 +171,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Haryana Families Say
+## What Our Families Say
 
 ★★★★★
 
-"In Gurugram everything is tech, and now my daughter builds her own apps. The small batch keeps her focused and the teacher is excellent. Her school maths improved too."
+"They derive every formula from basic principles. I learned why (a+b)² = a² + 2ab + b² by actually drawing squares and rectangles. Visual proofs make concepts stick forever. I never need to memorize—I just understand!"
 
-Neetu A.Parent · Gurugram★★★★★
+Ishita ReddyGrade 9 Student★★★★★
 
-"We're in Faridabad and wanted structured Python for our son. Excellent teaching, and they explain in Hindi whenever he needs it. Very happy with the progress."
+"Trigonometry made zero sense until they showed me how it works with actual triangles and circles. They explained WHY sin²θ + cos²θ = 1 using geometry. Once I saw the proof, I never forgot it. This is how math should be taught!"
 
-Rakesh D.Parent · Faridabad★★★★★
+Priya MalhotraGrade 11 Student★★★★★
 
-"As an engineering student in Rohtak, the DSA and full-stack track helped me prepare for placements. Clear, practical and to the point."
+"My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!"
 
-Pooja S.College student · Rohtak
+Mrs. Meera JainParent of Aadhya (Grade 5)
 
 ## Ready to start coding in Haryana?
 

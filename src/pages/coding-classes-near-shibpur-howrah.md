@@ -253,6 +253,38 @@ Premium live online coding and maths, small batches, full-time engineer instruct
 
 ICSE/CBSE board students at Howrah Vivekananda, Don Bosco Liluah, St. Thomas' and KV Howrah → [Computer Science for Class 11–12 (Python & Java)](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).
 
+PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
+
+*SShaarav WadhwaStudent*
+
+★★★★★
+
+> “Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner.”
+
+*AArush PoddarStudent*
+
+★★★★★
+
+> “Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training.”
+
+*VVikram JoshiWorking Professional*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti — AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti — AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-near-shibpur-howrah*

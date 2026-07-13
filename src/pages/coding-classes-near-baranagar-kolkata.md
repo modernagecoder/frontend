@@ -243,6 +243,38 @@ Live online, small-batch coding and maths taught by real engineers and maths gra
 
 School-specific: [ICSE/CBSE Computer Science Class 11-12 (board CS prep)](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)
 
+PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “I used to hate algebra because I never understood WHY we do it. Here, they showed me how equations represent real-life situations. Now I can visualize every problem and solve it easily. Math finally makes sense!”
+
+*AAnanya VermaGrade 8 Student*
+
+★★★★★
+
+> “Sir taught me fractions using pizza slices and chocolate bars! I finally understood why 3/4 is bigger than 2/3. Now I can compare any fractions in my head without formulas. Math is fun when you see it in real life!”
+
+*AArnav GuptaGrade 7 Student*
+
+★★★★★
+
+> “They derive every formula from basic principles. I learned why (a+b)² = a² + 2ab + b² by actually drawing squares and rectangles. Visual proofs make concepts stick forever. I never need to memorize—I just understand!”
+
+*IIshita ReddyGrade 9 Student*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![Misti — AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti — AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[![Babu — 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu — 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)[![NutriLife — AI Nutrition Coach](/images/projects/nutrilife.webp)AI & MLNutriLife — AI Nutrition CoachSnap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.by BhavyaOpen the live project ↗](https://nutrilife-bhavya.lovable.app)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-near-baranagar-kolkata*

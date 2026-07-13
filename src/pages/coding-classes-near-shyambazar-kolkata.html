@@ -1157,7 +1157,57 @@
         </div>
     </section>
 
-</main>
+
+<style>
+/* real social proof (harvested from /love + /student-labs) — matches ee- dark theme */
+.msp-reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:6px}
+.msp-rev{margin:0;background:var(--panel);border:1px solid var(--line);border-left:2px solid var(--ac);border-radius:12px;padding:22px 22px 20px;display:flex;flex-direction:column}
+.msp-rev .st{color:#f5b301;letter-spacing:.12em;font-size:.82rem;margin-bottom:11px}
+.msp-rev blockquote{margin:0 0 15px;color:#dfe5ee;font-size:.96rem;line-height:1.7;flex:1}
+.msp-rev .who{display:flex;align-items:center;gap:11px}
+.msp-rev .av{width:40px;height:40px;border-radius:50%;background:var(--ac);display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff;font-family:var(--display);flex-shrink:0}
+.msp-rev .nm{color:#fff;font-weight:600;font-size:.9rem}
+.msp-rev .rl{color:var(--ink-mute);font-size:.76rem;font-family:var(--mono)}
+.msp-projects{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:6px}
+.msp-proj{display:flex;flex-direction:column;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;transition:transform .2s,border-color .2s}
+.msp-proj:hover{transform:translateY(-3px);border-color:var(--ac-line)}
+.msp-proj .shot{aspect-ratio:16/10;background:#05060a;overflow:hidden}
+.msp-proj .shot img{width:100%;height:100%;object-fit:cover;display:block}
+.msp-proj .pb{padding:14px 16px 16px;display:flex;flex-direction:column;flex:1}
+.msp-proj .pc{font-family:var(--mono);font-size:.66rem;letter-spacing:.11em;text-transform:uppercase;color:var(--ac-link);font-weight:600}
+.msp-proj .pt{color:#fff;font-weight:600;font-size:1rem;margin:6px 0 5px;font-family:var(--display);line-height:1.25}
+.msp-proj .pd{color:var(--ink-soft);font-size:.85rem;line-height:1.55;margin:0 0 9px;flex:1}
+.msp-proj .pby{color:var(--ink-mute);font-size:.77rem}
+.msp-proj .popen{color:var(--ac-link);font-family:var(--mono);font-size:.72rem;margin-top:7px;display:inline-block}
+.msp-more{margin-top:20px;color:var(--ink-soft);font-size:.95rem}
+@media(max-width:820px){.msp-reviews,.msp-projects{grid-template-columns:1fr}}
+</style>
+    <section class="loc-section">
+        <div class="inner">
+            <div class="ee-head">
+                <span class="ee-kicker">PARENT &amp; STUDENT VOICES</span>
+                <h2 class="ee-h2">What families say about us</h2>
+                <div class="ee-rule"></div>
+            </div>
+            <div class="msp-reviews"><figure class="msp-rev"><div class="st">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>&ldquo;I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son&#x27;s confidence and interest in coding.&rdquo;</blockquote><figcaption class="who"><div class="av">R</div><div><div class="nm">Ritu Kedia</div><div class="rl">Parent</div></div></figcaption></figure><figure class="msp-rev"><div class="st">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>&ldquo;My son has been attending this coding class for the past couple of months, and I&#x27;ve been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he&#x27;s built. I&#x27;ve noticed a big boost in his confidence!&rdquo;</blockquote><figcaption class="who"><div class="av">P</div><div><div class="nm">Poonam Rathore</div><div class="rl">Parent</div></div></figcaption></figure><figure class="msp-rev"><div class="st">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>&ldquo;I&#x27;m truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.&rdquo;</blockquote><figcaption class="who"><div class="av">K</div><div><div class="nm">Krishnam Bhatter</div><div class="rl">Former Student</div></div></figcaption></figure></div>
+            <p class="msp-more">These are real, verified Google reviews from Modern Age Coders families. Read more on our <a class="ee-link" href="/love">Wall of Love</a>.</p>
+        </div>
+    </section>
+
+    <div class="ee-divider"></div>
+
+    <section class="loc-section">
+        <div class="inner">
+            <div class="ee-head">
+                <span class="ee-kicker">REAL STUDENT PROJECTS</span>
+                <h2 class="ee-h2">What our students actually build</h2>
+                <div class="ee-rule"></div>
+            </div>
+            <div class="msp-projects"><a class="msp-proj" href="https://bookdesk1.netlify.app" target="_blank" rel="noopener"><div class="shot"><img src="/images/projects/bookdesk.webp" alt="BookDesk — AI Book Summaries &amp; Quizzes" loading="lazy" width="800" height="500"></div><div class="pb"><span class="pc">AI &amp; ML</span><div class="pt">BookDesk — AI Book Summaries &amp; Quizzes</div><p class="pd">Type in any book name and author, and BookDesk pulls together the book&#x27;s details, a clear summary and a custom quiz to test what you&#x27;ve learned — a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.</p><span class="pby">by Anika</span><span class="popen">Open the live project &#8599;</span></div></a><a class="msp-proj" href="https://hairsync.lovable.app" target="_blank" rel="noopener"><div class="shot"><img src="/images/projects/hairsync.webp" alt="HairSync — AI Hairstyle Try-On" loading="lazy" width="800" height="500"></div><div class="pb"><span class="pc">AI &amp; ML</span><div class="pt">HairSync — AI Hairstyle Try-On</div><p class="pd">Upload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.</p><span class="pby">by Kriti</span><span class="popen">Open the live project &#8599;</span></div></a><a class="msp-proj" href="https://krish-shroff.github.io/AuraWeatherTech/" target="_blank" rel="noopener"><div class="shot"><img src="/images/projects/skycast.webp" alt="SkyCast — Weather Forecast App" loading="lazy" width="800" height="500"></div><div class="pb"><span class="pc">Web App</span><div class="pt">SkyCast — Weather Forecast App</div><p class="pd">An interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.</p><span class="pby">by Krish</span><span class="popen">Open the live project &#8599;</span></div></a></div>
+            <p class="msp-more">Every one is a real, live project by a student. See more in <a class="ee-link" href="/student-labs">Student Labs</a>.</p>
+        </div>
+    </section>
+    </main>
 
 
 <!-- FOOTER -->

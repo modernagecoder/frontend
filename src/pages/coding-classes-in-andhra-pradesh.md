@@ -157,21 +157,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Andhra Pradesh Families Say
+## What Our Families Say
 
 ★★★★★
 
-"My son in Visakhapatnam built his first game within weeks. The small batch keeps him engaged and the teacher is very patient. His maths has improved noticeably too."
+"Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore, I'm engineering solutions."
 
-Padma R.Parent · Visakhapatnam★★★★★
+Sanjay DeshmukhWorking Professional★★★★★
 
-"We're in Vijayawada and wanted serious Python for our daughter. Excellent structure, and they explain in Telugu whenever she needs it. Very happy."
+"They practice A LOT. Not just 2-3 problems, but 20-30 variations until the concept is crystal clear. My kids can now solve problems they've never seen before."
 
-Srinivas K.Parent · Vijayawada★★★★★
+Mr. Rajesh KumarParent of Twins★★★★★
 
-"As an engineering student in Guntur, the DSA and full-stack track helped me prepare for placements. Clear, practical and to the point."
+"My daughter used to memorize formulas blindly. Here they derive everything from scratch using real examples. She now understands the logic behind multiplication itself!"
 
-Lavanya M.College student · Guntur
+Mrs. Priya PatelParent of Ananya (Grade 3)
 
 ## Ready to start coding in Andhra Pradesh?
 

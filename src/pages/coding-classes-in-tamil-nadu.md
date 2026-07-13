@@ -165,21 +165,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Tamil Nadu Families Say
+## What Our Families Say
 
 ★★★★★
 
-"My son in Chennai moved from playing games to building them. The instructor is patient and the small batch means he never gets lost. His school maths improved too."
+"Very good classes. Don't worry about coding—they teach the best, especially Shivam sir."
 
-Lakshmi S.Parent · Chennai★★★★★
+Shaarav WadhwaStudent★★★★★
 
-"We're in Coimbatore and wanted serious coding for our daughter. The structure and project work are excellent — and they explain in Tamil whenever she needs it."
+"Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner."
 
-Karthik R.Parent · Coimbatore★★★★★
+Arush PoddarStudent★★★★★
 
-"As an engineering student in Trichy, the DSA and full-stack track helped me clear my placement interviews. Clear, practical and genuinely useful."
+"Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training."
 
-Divya M.College student · Trichy
+Vikram JoshiWorking Professional
 
 ## Ready to start coding in Tamil Nadu?
 

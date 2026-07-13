@@ -171,21 +171,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Goa Families Say
+## What Our Families Say
 
 ★★★★★
 
-"My daughter in Panaji built her first game within weeks. The small batch keeps her engaged and the teacher is very patient. Her school maths improved too."
+"My daughter used to memorize formulas blindly. Here they derive everything from scratch using real examples. She now understands the logic behind multiplication itself!"
 
-Maria F.Parent · Panaji★★★★★
+Mrs. Priya PatelParent of Ananya (Grade 3)★★★★★
 
-"We're in Margao and wanted quality coding without long commutes. These live online classes were perfect — flexible and genuinely interactive."
+"Ma'am taught me division using sharing candies among friends. Now I know WHY we divide and what remainders mean. Math is not scary anymore—it's just solving real problems!"
 
-Rohan N.Parent · Margao★★★★★
+Kabir SinghGrade 4 Student★★★★★
 
-"As an engineering student in Vasco, the DSA and full-stack track helped me prepare for placements. Clear, practical and to the point."
+"They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!"
 
-Sneha D.College student · Vasco da Gama
+Aarav SharmaStudent, Grade 7
 
 ## Ready to start coding in Goa?
 

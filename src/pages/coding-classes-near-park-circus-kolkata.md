@@ -240,6 +240,38 @@ Premium, live, small-batch coding and maths taught by real engineers — book a 
 
 School-specific: [Don Bosco School Park Circus (ICSE)](/coding-and-maths-for-don-bosco-park-circus-kolkata).
 
+PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!”
+
+*RRohan KapoorGrade 10 Student*
+
+★★★★★
+
+> “Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.”
+
+*SSonu GoyalParent*
+
+★★★★★
+
+> “I used to hate algebra because I never understood WHY we do it. Here, they showed me how equations represent real-life situations. Now I can visualize every problem and solve it easily. Math finally makes sense!”
+
+*AAnanya VermaGrade 8 Student*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti — AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti — AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[![Babu — 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu — 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-near-park-circus-kolkata*

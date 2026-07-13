@@ -252,7 +252,37 @@ Premium, live online coding and maths in small batches — taught by real engine
 
 ### School-specific
 
-[ICSE families near Don Bosco & MCKV](/coding-for-icse-students)[CBSE families near Sudhir Memorial & KV Howrah](/coding-for-cbse-students)
+[ICSE families near Don Bosco & MCKV](/coding-for-icse-students)[CBSE families near Sudhir Memorial & KV Howrah](/coding-for-cbse-students)PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “I absolutely love it here! I made new friends and learned important valuable coding skills while having the fun of my life. It's not just coding here, it's outings, bonding and most importantly preparing you for your future. Definitely five stars.”
+
+*YYug RathoreStudent*
+
+★★★★★
+
+> “I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself. I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success.”
+
+*SSujal RamolaStudent*
+
+★★★★★
+
+> “Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!”
+
+*DDiya AgarwalCollege Student, B.Sc Math*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti — AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti — AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[![Babu — 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu — 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 
 ---
 

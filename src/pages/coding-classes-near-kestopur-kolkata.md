@@ -238,6 +238,38 @@ Premium, live, small-batch coding and maths — taught by real engineers, no bri
 
 School / board: [ICSE Java & CBSE Python — Class 11-12 Computer Science](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).
 
+PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!”
+
+*PPoonam RathoreParent*
+
+★★★★★
+
+> “I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.”
+
+*KKrishnam BhatterFormer Student*
+
+★★★★★
+
+> “Very good classes. Makes learning very easy and interactive.”
+
+*VVineeta ShyamsukhaParent*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![GuardianX — AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX — AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Palm Arcana — Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana — Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)[![LumenFX — AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX — AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-near-kestopur-kolkata*

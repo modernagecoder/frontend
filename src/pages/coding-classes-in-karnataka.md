@@ -165,21 +165,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Karnataka Families Say
+## What Our Families Say
 
 ★★★★★
 
-"My son in Bengaluru looked forward to every class. In a few months he went from Scratch games to building a working Python quiz app. The small batch really makes a difference."
+"They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold."
 
-Priya R.Parent · Bengaluru★★★★★
+Kavya IyerTeen, Grade 11★★★★★
 
-"We're in Mysuru and were worried about finding a good coding teacher locally. These live online classes solved that completely — and the instructor explains in Kannada whenever my daughter gets stuck."
+"Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore, I'm engineering solutions."
 
-Suresh K.Parent · Mysuru★★★★★
+Sanjay DeshmukhWorking Professional★★★★★
 
-"As an engineering student in Mangaluru, the DSA and full-stack track genuinely helped me crack my placement interviews. Practical and to the point."
+"They practice A LOT. Not just 2-3 problems, but 20-30 variations until the concept is crystal clear. My kids can now solve problems they've never seen before."
 
-Ananya D.College student · Mangaluru
+Mr. Rajesh KumarParent of Twins
 
 ## Ready to start coding in Karnataka?
 

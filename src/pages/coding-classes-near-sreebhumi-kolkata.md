@@ -228,7 +228,37 @@ Small live batches, real engineers, zero commute through VIP Road traffic — st
 
 ## Coding & maths classes in nearby areas
 
-[Lake Town](/coding-classes-near-lake-town-kolkata)[Salt Lake](/coding-classes-near-salt-lake-kolkata)[VIP Road](/coding-classes-near-vip-road-kolkata)[Coding Classes in Kolkata — All Areas](/best-coding-class-in-kolkata)[Explore all courses](/courses)[Coding & Maths for DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+[Lake Town](/coding-classes-near-lake-town-kolkata)[Salt Lake](/coding-classes-near-salt-lake-kolkata)[VIP Road](/coding-classes-near-vip-road-kolkata)[Coding Classes in Kolkata — All Areas](/best-coding-class-in-kolkata)[Explore all courses](/courses)[Coding & Maths for DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “Ma'am taught me division using sharing candies among friends. Now I know WHY we divide and what remainders mean. Math is not scary anymore—it's just solving real problems!”
+
+*KKabir SinghGrade 4 Student*
+
+★★★★★
+
+> “They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!”
+
+*AAarav SharmaStudent, Grade 7*
+
+★★★★★
+
+> “Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'.”
+
+*IIshaan ReddyCollege Student, B.Tech CSE*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![Moxo — Company Landing Page](/images/projects/moxo.webp)Web AppMoxo — Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby — Typing Speed Challenge](/images/projects/baby.webp)GameBaby — Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay — Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay — Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 
 ---
 

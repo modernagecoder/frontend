@@ -238,6 +238,38 @@ Premium, live, small-batch coding and maths — taught by real engineers, no com
 
 School / board link: [ICSE Java & CBSE Python — Class 11-12 Computer Science](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).
 
+PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.”
+
+*SSonu GoyalParent*
+
+★★★★★
+
+> “I used to hate algebra because I never understood WHY we do it. Here, they showed me how equations represent real-life situations. Now I can visualize every problem and solve it easily. Math finally makes sense!”
+
+*AAnanya VermaGrade 8 Student*
+
+★★★★★
+
+> “Sir taught me fractions using pizza slices and chocolate bars! I finally understood why 3/4 is bigger than 2/3. Now I can compare any fractions in my head without formulas. Math is fun when you see it in real life!”
+
+*AArnav GuptaGrade 7 Student*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[![Simon Game](/images/projects/simongame.webp)GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge — brain-boosting for kids learning logic and focus.by YashaswiOpen the live project ↗](http://yashaswi-2017.my.canva.site)[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-near-salt-lake-kolkata*

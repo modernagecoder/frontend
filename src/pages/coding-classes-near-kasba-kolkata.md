@@ -240,6 +240,38 @@ Join Kasba, Rajdanga and Anandapur families learning live in small batches with 
 
 School-specific: [Coding & Maths for DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata).
 
+PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
+
+*SShaarav WadhwaStudent*
+
+★★★★★
+
+> “Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner.”
+
+*AArush PoddarStudent*
+
+★★★★★
+
+> “Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training.”
+
+*VVikram JoshiWorking Professional*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![Baby — Typing Speed Challenge](/images/projects/baby.webp)GameBaby — Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay — Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay — Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-near-kasba-kolkata*

@@ -165,21 +165,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Telangana Families Say
+## What Our Families Say
 
 ★★★★★
 
-"My son in Hyderabad is surrounded by tech, and now he's building his own apps. The small batch keeps him focused and the teacher is excellent."
+"Very good classes. Don't worry about coding—they teach the best, especially Shivam sir."
 
-Sravani G.Parent · Hyderabad★★★★★
+Shaarav WadhwaStudent★★★★★
 
-"We're in Warangal and finding good coding teachers locally was hard. These live online classes solved it completely — and they explain in Telugu when needed."
+"Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner."
 
-Ravi K.Parent · Warangal★★★★★
+Arush PoddarStudent★★★★★
 
-"As an engineering student in Hyderabad, the DSA and full-stack track genuinely helped me crack my placement interviews. Practical and to the point."
+"Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training."
 
-Harika M.College student · Hyderabad
+Vikram JoshiWorking Professional
 
 ## Ready to start coding in Telangana?
 

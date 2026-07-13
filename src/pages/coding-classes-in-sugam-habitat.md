@@ -98,9 +98,35 @@ The Love Wall
 
 ## Words from real families.
 
-We publish reviews only from verified Modern Age Coders families. Verified words from Picnic Garden and Tiljala parents are being added here as they come in — we will never invent a quote to fill a space.
+We publish reviews only from verified Modern Age Coders families. Below are verified words from real families across our school — we will never invent a quote to fill a space.
+
+★★★★★
+
+> “I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.”
+
+*KKrishnam BhatterFormer Student*
+
+★★★★★
+
+> “Very good classes. Makes learning very easy and interactive.”
+
+*VVineeta ShyamsukhaParent*
+
+★★★★★
+
+> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
+
+*SShaarav WadhwaStudent*
 
 A demo costs you nothing and tells you more than any review can. Book a free demo and judge the teaching for yourself, or read verified reviews from across our school on the [Love wall](https://learn.modernagecoders.com/love).
+
+Real student projects
+
+## What our students actually build.
+
+Every one of these is a real, live project shipped by a Modern Age Coders student — not a screenshot from a brochure. See more in our [Student Labs](/student-labs).
+
+[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy — Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
 
 Who teaches
 

@@ -171,21 +171,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Uttarakhand Families Say
+## What Our Families Say
 
 ★★★★★
 
-"My daughter in Dehradun built her first game within weeks. The small batch keeps her engaged and the teacher is very patient. Her school maths improved too."
+"Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'."
 
-Anjali R.Parent · Dehradun★★★★★
+Ishaan ReddyCollege Student, B.Tech CSE★★★★★
 
-"We're in Haldwani and good coding teachers were hard to find locally. These live online classes solved it — and they explain in Hindi whenever needed."
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
 
-Mahesh B.Parent · Haldwani★★★★★
+Vansh AgarwalStudent★★★★★
 
-"As an engineering student in Roorkee, the DSA and full-stack track helped me prepare for placements. Clear, practical and to the point."
+"They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!"
 
-Pooja S.College student · Roorkee
+Rohan KapoorGrade 10 Student
 
 ## Ready to start coding in Uttarakhand?
 

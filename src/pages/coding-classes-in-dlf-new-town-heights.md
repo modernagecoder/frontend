@@ -98,9 +98,35 @@ The Love Wall
 
 ## Words from real families.
 
-We publish reviews only from verified Modern Age Coders families. Verified words from DLF New Town Heights and wider New Town parents are being added here as they come in — we will never invent a quote to fill a space.
+We publish reviews only from verified Modern Age Coders families. Below are verified words from real families across our school — we will never invent a quote to fill a space.
+
+★★★★★
+
+> “My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!”
+
+*MMrs. Meera JainParent of Aadhya (Grade 5)*
+
+★★★★★
+
+> “Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease.”
+
+*SSamriddha MondalStudent*
+
+★★★★★
+
+> “My son struggled with percentages and ratios. The teachers here explained it using money, discounts, and recipes—real things he sees daily. Now he calculates discounts faster than me! Understanding the 'how' and 'why' changed everything.”
+
+*MMr. Suresh PatelParent of Vihaan (Grade 6)*
 
 A demo costs you nothing and tells you more than any review can. Book a free demo and judge the teaching for yourself, or read verified reviews from across our school on the [Love wall](https://learn.modernagecoders.com/love).
+
+Real student projects
+
+## What our students actually build.
+
+Every one of these is a real, live project shipped by a Modern Age Coders student — not a screenshot from a brochure. See more in our [Student Labs](/student-labs).
+
+[![MyDay — Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay — Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy — Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)
 
 Who teaches
 

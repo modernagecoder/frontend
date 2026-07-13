@@ -238,6 +238,38 @@ Live, premium, small-batch coding and maths — taught by full-time engineers, w
 
 School-specific: [Birla High School](/coding-and-maths-for-birla-high-school-kolkata)
 
+PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “Ma'am uses toys and drawings to teach fractions! I understood why 1/2 is bigger than 1/4 by cutting a pizza. Math is so easy when you see it in real life!”
+
+*RRiya GuptaKid, Grade 4*
+
+★★★★★
+
+> “They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold.”
+
+*KKavya IyerTeen, Grade 11*
+
+★★★★★
+
+> “Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore, I'm engineering solutions.”
+
+*SSanjay DeshmukhWorking Professional*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)[![Misti — AI Chatbot for Maths & Coding](/images/projects/misti.webp)AI & MLMisti — AI Chatbot for Maths & CodingAn intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.by HarshitOpen the live project ↗](https://misti.modernagecoders.com)[![Babu — 90 Second Maths Challenge](/images/projects/babu.webp)GameBabu — 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.by Modern Age CodersOpen the live project ↗](https://babu.modernagecoders.com)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-near-nager-bazar-kolkata*

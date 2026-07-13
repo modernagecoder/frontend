@@ -226,6 +226,38 @@ Rashbehari parents judge a teacher in a single demo. Book yours free, and watch 
 
 School-specific page: [Coding & Maths for Birla High School, Kolkata](/coding-and-maths-for-birla-high-school-kolkata).
 
+PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore, I'm engineering solutions.”
+
+*SSanjay DeshmukhWorking Professional*
+
+★★★★★
+
+> “They practice A LOT. Not just 2-3 problems, but 20-30 variations until the concept is crystal clear. My kids can now solve problems they've never seen before.”
+
+*MMr. Rajesh KumarParent of Twins*
+
+★★★★★
+
+> “My daughter used to memorize formulas blindly. Here they derive everything from scratch using real examples. She now understands the logic behind multiplication itself!”
+
+*MMrs. Priya PatelParent of Ananya (Grade 3)*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![HugSelle — AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle — AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo — Company Landing Page](/images/projects/moxo.webp)Web AppMoxo — Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby — Typing Speed Challenge](/images/projects/baby.webp)GameBaby — Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-near-rashbehari-kolkata*

@@ -237,6 +237,38 @@ One free live class near Lansdowne — small batch, real engineer, your child's 
 
 School-specific: [Coding & Maths for Birla High School, Kolkata](/coding-and-maths-for-birla-high-school-kolkata).
 
+PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!”
+
+*NNeha DesaiGrade 6 Student*
+
+★★★★★
+
+> “Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class.”
+
+*SShradha SarafParent of Mivaan*
+
+★★★★★
+
+> “I tried 3 other platforms before this. Everyone teaches 'what' to code. Only Modern Age Coders taught me 'how it actually works'. The depth is unmatched.”
+
+*DDiya KapoorWorking Professional*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![SkyCast — Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle — AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle — AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo — Company Landing Page](/images/projects/moxo.webp)Web AppMoxo — Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-near-lansdowne-kolkata*

@@ -250,6 +250,38 @@ Explore coding & maths classes in nearby areas:
 
 School-specific: [Coding & Maths for Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata)
 
+PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “They derive every formula from basic principles. I learned why (a+b)² = a² + 2ab + b² by actually drawing squares and rectangles. Visual proofs make concepts stick forever. I never need to memorize—I just understand!”
+
+*IIshita ReddyGrade 9 Student*
+
+★★★★★
+
+> “Trigonometry made zero sense until they showed me how it works with actual triangles and circles. They explained WHY sin²θ + cos²θ = 1 using geometry. Once I saw the proof, I never forgot it. This is how math should be taught!”
+
+*PPriya MalhotraGrade 11 Student*
+
+★★★★★
+
+> “My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!”
+
+*MMrs. Meera JainParent of Aadhya (Grade 5)*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![Moxo — Company Landing Page](/images/projects/moxo.webp)Web AppMoxo — Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby — Typing Speed Challenge](/images/projects/baby.webp)GameBaby — Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay — Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay — Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-near-ajc-bose-road-kolkata*

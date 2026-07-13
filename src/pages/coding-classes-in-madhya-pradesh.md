@@ -165,21 +165,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Madhya Pradesh Families Say
+## What Our Families Say
 
 ★★★★★
 
-"My son in Indore built his first game in weeks. The small batch keeps him engaged and the teacher is patient. His school maths improved noticeably too."
+"Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'."
 
-Neha A.Parent · Indore★★★★★
+Ishaan ReddyCollege Student, B.Tech CSE★★★★★
 
-"We're in Bhopal and wanted structured Python for our daughter. Excellent teaching, and they explain in Hindi whenever she needs it. Very happy."
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
 
-Sanjay T.Parent · Bhopal★★★★★
+Vansh AgarwalStudent★★★★★
 
-"As an engineering student in Jabalpur, the DSA and full-stack track helped me prepare for placements. Clear, practical and to the point."
+"They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!"
 
-Aditi R.College student · Jabalpur
+Rohan KapoorGrade 10 Student
 
 ## Ready to start coding in Madhya Pradesh?
 

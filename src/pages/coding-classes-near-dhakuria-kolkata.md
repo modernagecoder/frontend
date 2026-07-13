@@ -230,7 +230,37 @@ Premium live online coding and maths near Dhakuria, in small batches taught by f
 
 ## Coding & maths classes near you
 
-[Gariahat](/coding-classes-near-gariahat-kolkata)[Jadavpur](/coding-classes-near-jadavpur-kolkata)[Lake Gardens](/coding-classes-near-lake-gardens-kolkata)[Jodhpur Park](/coding-classes-near-jodhpur-park-kolkata)[Tollygunge](/coding-classes-near-tollygunge-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)[DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+[Gariahat](/coding-classes-near-gariahat-kolkata)[Jadavpur](/coding-classes-near-jadavpur-kolkata)[Lake Gardens](/coding-classes-near-lake-gardens-kolkata)[Jodhpur Park](/coding-classes-near-jodhpur-park-kolkata)[Tollygunge](/coding-classes-near-tollygunge-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)[DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!”
+
+*PPoonam RathoreParent*
+
+★★★★★
+
+> “I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.”
+
+*KKrishnam BhatterFormer Student*
+
+★★★★★
+
+> “Very good classes. Makes learning very easy and interactive.”
+
+*VVineeta ShyamsukhaParent*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![MyDay — Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay — Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy — Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 
 ---
 

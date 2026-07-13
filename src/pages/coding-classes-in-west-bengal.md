@@ -165,21 +165,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What West Bengal Families Say
+## What Our Families Say
 
 ★★★★★
 
-"My daughter in Kolkata took to Python beautifully. The small batch keeps her engaged and the teacher is wonderfully patient. Her school maths has improved too."
+"Calculus was a nightmare until I joined here. They explained derivatives using real motion—how speed changes over time. Integration became about finding areas, not just formulas. I scored 98% in my boards because I understood every concept from the root!"
 
-Moumita D.Parent · Kolkata★★★★★
+Tanvi SharmaGrade 12 Student★★★★★
 
-"We're in Siliguri and good coding teachers were hard to find locally. These live online classes solved it — and they explain in Bengali whenever needed."
+"The classes are excellent. The teachers explain concepts very clearly and make code fun and easy to understand. The sessions are interactive and fun. They also help students boost their confidence. We not only focus on academics, but also on logic building and problem solving."
 
-Arnab S.Parent · Siliguri★★★★★
+Pragyen DiwanParent★★★★★
 
-"As an engineering student in Kolkata, the DSA and full-stack track helped me prepare for placements. Clear, structured and genuinely useful."
+"My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-Riya B.College student · Kolkata
+Sonam OswalParent of Dhairya
 
 ## Ready to start coding in West Bengal?
 

@@ -229,7 +229,37 @@ See the teaching for yourself before you decide: one free, no-commitment live cl
 
 ## Coding & maths classes in other South Kolkata areas
 
-[New Alipore](/coding-classes-near-new-alipore-kolkata)[Bhowanipore](/coding-classes-near-bhowanipore-kolkata)[Kalighat](/coding-classes-near-kalighat-kolkata)[Tollygunge](/coding-classes-near-tollygunge-kolkata)[Golpark](/coding-classes-near-golpark-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)[Java for ICSE Students (St. Thomas', St. Lawrence, Lakshmipat Singhania)](/java-programming-for-icse-students)
+[New Alipore](/coding-classes-near-new-alipore-kolkata)[Bhowanipore](/coding-classes-near-bhowanipore-kolkata)[Kalighat](/coding-classes-near-kalighat-kolkata)[Tollygunge](/coding-classes-near-tollygunge-kolkata)[Golpark](/coding-classes-near-golpark-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)[Java for ICSE Students (St. Thomas', St. Lawrence, Lakshmipat Singhania)](/java-programming-for-icse-students)PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “Calculus was a nightmare until I joined here. They explained derivatives using real motion—how speed changes over time. Integration became about finding areas, not just formulas. I scored 98% in my boards because I understood every concept from the root!”
+
+*TTanvi SharmaGrade 12 Student*
+
+★★★★★
+
+> “The classes are excellent. The teachers explain concepts very clearly and make code fun and easy to understand. The sessions are interactive and fun. They also help students boost their confidence. We not only focus on academics, but also on logic building and problem solving.”
+
+*PPragyen DiwanParent*
+
+★★★★★
+
+> “My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class.”
+
+*SSonam OswalParent of Dhairya*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![GuardianX — AI Bodyguard for the Internet](/images/projects/guardianx.webp)AI & MLGuardianX — AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.by VivaanOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[![Palm Arcana — Summon the Elements](/images/projects/superpawer.webp)GamePalm Arcana — Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.by AarushOpen the live project ↗](https://superpawer.netlify.app)[![LumenFX — AR/VR Photo Effects Studio](/images/projects/lumenfx.webp)Web AppLumenFX — AR/VR Photo Effects StudioUpload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.by RaayanOpen the live project ↗](https://arvrbadestweb.lovable.app)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 
 ---
 

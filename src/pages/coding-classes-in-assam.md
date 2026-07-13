@@ -171,21 +171,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Assam Families Say
+## What Our Families Say
 
 ★★★★★
 
-"My son in Guwahati built his first game within weeks. The small batch keeps him engaged and the teacher is very patient. His school maths improved too."
+"Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner."
 
-Rituparna B.Parent · Guwahati★★★★★
+Arush PoddarStudent★★★★★
 
-"We're in Dibrugarh and good coding teachers were impossible to find locally. These live online classes solved it — and they explain in Assamese whenever needed."
+"Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training."
 
-Pranjal D.Parent · Dibrugarh★★★★★
+Vikram JoshiWorking Professional★★★★★
 
-"As an engineering student in Silchar, the DSA and full-stack track helped me prepare for placements. Clear, practical and to the point."
+"The amount of hands-on practice is insane. Built 15+ projects in 3 months. Each one taught me something new. Theory + Practice = Perfect combination."
 
-Madhusmita R.College student · Silchar
+Aditya SinghCollege Student, BCA
 
 ## Ready to start coding in Assam?
 

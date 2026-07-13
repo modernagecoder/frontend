@@ -240,6 +240,38 @@ Premium, live, project-based coding and maths for Domjur, Bankra, Salap and Maka
 
 ICSE students at Howrah Vivekananda Institution and M.C. Kejriwal Vidyapeeth — see [Java Programming for ICSE Students](/java-programming-for-icse-students).
 
+PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “Calculus was a nightmare until I joined here. They explained derivatives using real motion—how speed changes over time. Integration became about finding areas, not just formulas. I scored 98% in my boards because I understood every concept from the root!”
+
+*TTanvi SharmaGrade 12 Student*
+
+★★★★★
+
+> “The classes are excellent. The teachers explain concepts very clearly and make code fun and easy to understand. The sessions are interactive and fun. They also help students boost their confidence. We not only focus on academics, but also on logic building and problem solving.”
+
+*PPragyen DiwanParent*
+
+★★★★★
+
+> “The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. Teachers make it so simple with clear explanations, practical exercises, and interactive content. As per my son, the coding class is very helpful and engaging. Sir explains complex concepts clearly. The projects were challenging and rewarding.”
+
+*RRia MukherjeeParent*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![Simon Game](/images/projects/simongame.webp)GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge — brain-boosting for kids learning logic and focus.by YashaswiOpen the live project ↗](http://yashaswi-2017.my.canva.site)[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-near-domjur-howrah*

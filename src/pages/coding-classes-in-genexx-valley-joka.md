@@ -98,9 +98,35 @@ The Love Wall
 
 ## Words from real families.
 
-We publish reviews only from verified Modern Age Coders families. Verified words from Genexx Valley and Joka parents are being added here as they come in — we will never invent a quote to fill a space.
+We publish reviews only from verified Modern Age Coders families. Below are verified words from real families across our school — we will never invent a quote to fill a space.
+
+★★★★★
+
+> “They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold.”
+
+*KKavya IyerTeen, Grade 11*
+
+★★★★★
+
+> “Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore, I'm engineering solutions.”
+
+*SSanjay DeshmukhWorking Professional*
+
+★★★★★
+
+> “They practice A LOT. Not just 2-3 problems, but 20-30 variations until the concept is crystal clear. My kids can now solve problems they've never seen before.”
+
+*MMr. Rajesh KumarParent of Twins*
 
 A demo costs you nothing and tells you more than any review can. Book a free demo and judge the teaching for yourself, or read verified reviews from across our school on the [Love wall](https://learn.modernagecoders.com/love).
+
+Real student projects
+
+## What our students actually build.
+
+Every one of these is a real, live project shipped by a Modern Age Coders student — not a screenshot from a brochure. See more in our [Student Labs](/student-labs).
+
+[![Life Span Tracker](/images/projects/lifespan.webp)ToolLife Span TrackerAn interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.by ManayOpen the live project ↗](https://lifespantracker.netlify.app/)[![Simon Game](/images/projects/simongame.webp)GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge — brain-boosting for kids learning logic and focus.by YashaswiOpen the live project ↗](http://yashaswi-2017.my.canva.site)[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)
 
 Who teaches
 

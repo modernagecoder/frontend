@@ -238,7 +238,37 @@ Premium live coding and maths, taught by full-time engineers, building real proj
 
 ## More Kolkata localities
 
-[Salt Lake](/coding-classes-near-salt-lake-kolkata)[Kestopur](/coding-classes-near-kestopur-kolkata)[Baguiati](/coding-classes-near-baguiati-kolkata)[VIP Road](/coding-classes-near-vip-road-kolkata)[Lake Town](/coding-classes-near-lake-town-kolkata)[DPS New Town (ICSE)](/coding-classes-for-dps-new-town-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
+[Salt Lake](/coding-classes-near-salt-lake-kolkata)[Kestopur](/coding-classes-near-kestopur-kolkata)[Baguiati](/coding-classes-near-baguiati-kolkata)[VIP Road](/coding-classes-near-vip-road-kolkata)[Lake Town](/coding-classes-near-lake-town-kolkata)[DPS New Town (ICSE)](/coding-classes-for-dps-new-town-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease.”
+
+*SSamriddha MondalStudent*
+
+★★★★★
+
+> “My son struggled with percentages and ratios. The teachers here explained it using money, discounts, and recipes—real things he sees daily. Now he calculates discounts faster than me! Understanding the 'how' and 'why' changed everything.”
+
+*MMr. Suresh PatelParent of Vihaan (Grade 6)*
+
+★★★★★
+
+> “I absolutely love it here! I made new friends and learned important valuable coding skills while having the fun of my life. It's not just coding here, it's outings, bonding and most importantly preparing you for your future. Definitely five stars.”
+
+*YYug RathoreStudent*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync — AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast — Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![HugSelle — AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle — AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 
 ---
 

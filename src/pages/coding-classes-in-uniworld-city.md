@@ -98,9 +98,35 @@ The Love Wall
 
 ## Words from real families.
 
-We publish reviews only from verified Modern Age Coders families. Verified words from New Town parents are being added here as they come in — we will never invent a quote to fill a space.
+We publish reviews only from verified Modern Age Coders families. Below are verified words from real families across our school — we will never invent a quote to fill a space.
+
+★★★★★
+
+> “The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. Teachers make it so simple with clear explanations, practical exercises, and interactive content. As per my son, the coding class is very helpful and engaging. Sir explains complex concepts clearly. The projects were challenging and rewarding.”
+
+*RRia MukherjeeParent*
+
+★★★★★
+
+> “I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding.”
+
+*RRitu KediaParent*
+
+★★★★★
+
+> “My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!”
+
+*PPoonam RathoreParent*
 
 A demo costs you nothing and tells you more than any review can. Book a free demo and judge the teaching for yourself, or read verified reviews from across our school on the [Love wall](https://learn.modernagecoders.com/love).
+
+Real student projects
+
+## What our students actually build.
+
+Every one of these is a real, live project shipped by a Modern Age Coders student — not a screenshot from a brochure. See more in our [Student Labs](/student-labs).
+
+[![HugSelle — AI Smile Generator](/images/projects/hugselle.webp)AI & MLHugSelle — AI Smile GeneratorA heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.by AnuragOpen the live project ↗](https://hugselle.modernagecoders.com)[![Moxo — Company Landing Page](/images/projects/moxo.webp)Web AppMoxo — Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.by IshaOpen the live project ↗](https://moxo.modernagecoders.com)[![Baby — Typing Speed Challenge](/images/projects/baby.webp)GameBaby — Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)
 
 Who teaches
 

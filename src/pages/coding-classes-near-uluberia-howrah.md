@@ -239,6 +239,38 @@ Give your child metro-grade live coding and maths — same engineers, same batch
 
 ICSE student at Vivekananda Institution or Ideal Public? See [Java for ICSE Students](/java-programming-for-icse-students) and [ICSE Class 10 Computer Applications](/computer-applications-icse-class-10).
 
+PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'.”
+
+*IIshaan ReddyCollege Student, B.Tech CSE*
+
+★★★★★
+
+> “One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.”
+
+*VVansh AgarwalStudent*
+
+★★★★★
+
+> “They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!”
+
+*RRohan KapoorGrade 10 Student*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![BookDesk — AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk — AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync — AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)[![SkyCast — Weather Forecast App](/images/projects/skycast.webp)Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.by KrishOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-near-uluberia-howrah*

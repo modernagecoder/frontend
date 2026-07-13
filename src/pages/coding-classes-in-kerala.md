@@ -165,21 +165,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Kerala Families Say
+## What Our Families Say
 
 ★★★★★
 
-"My daughter in Kochi loves her Python classes. The small batch means she's never lost, and the instructor is genuinely encouraging. Her logical thinking has improved a lot."
+"I tried 3 other platforms before this. Everyone teaches 'what' to code. Only Modern Age Coders taught me 'how it actually works'. The depth is unmatched."
 
-Reena G.Parent · Kochi★★★★★
+Diya KapoorWorking Professional★★★★★
 
-"We're in Kozhikode and wanted structured coding for our son. Excellent teaching, and they explain in Malayalam whenever he needs it. Highly recommended."
+"Sir explained calculus using a car's speedometer! Suddenly derivatives made perfect sense. No rote learning, just pure understanding. Scored 98% in math!"
 
-Vinod P.Parent · Kozhikode★★★★★
+Arjun MehtaGrade 9 Student★★★★★
 
-"As an engineering student in Thiruvananthapuram, the DSA and full-stack track helped me with placements. Practical and clearly taught."
+"Ma'am uses toys and drawings to teach fractions! I understood why 1/2 is bigger than 1/4 by cutting a pizza. Math is so easy when you see it in real life!"
 
-Aparna S.College student · Thiruvananthapuram
+Riya GuptaKid, Grade 4
 
 ## Ready to start coding in Kerala?
 

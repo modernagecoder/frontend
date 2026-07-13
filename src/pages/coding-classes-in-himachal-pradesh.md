@@ -171,21 +171,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Himachal Families Say
+## What Our Families Say
 
 ★★★★★
 
-"My son in Shimla built his first game within weeks. The small batch keeps him engaged and the teacher is very patient. His school maths improved too."
+"They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!"
 
-Neha T.Parent · Shimla★★★★★
+Aarav SharmaStudent, Grade 7★★★★★
 
-"We're in Mandi and good coding teachers were hard to find locally. These live online classes solved it — and they explain in Hindi whenever needed."
+"Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'."
 
-Rakesh C.Parent · Mandi★★★★★
+Ishaan ReddyCollege Student, B.Tech CSE★★★★★
 
-"As an engineering student in Hamirpur, the DSA and full-stack track helped me prepare for placements. Clear, practical and to the point."
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
 
-Aarti S.College student · Hamirpur
+Vansh AgarwalStudent
 
 ## Ready to start coding in Himachal Pradesh?
 

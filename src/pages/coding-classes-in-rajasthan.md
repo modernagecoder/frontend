@@ -165,21 +165,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Rajasthan Families Say
+## What Our Families Say
 
 ★★★★★
 
-"My son in Jaipur built a quiz game within a few months. The small batch keeps him engaged and the teacher is patient. His school maths has improved as well."
+"They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!"
 
-Meena S.Parent · Jaipur★★★★★
+Neha DesaiGrade 6 Student★★★★★
 
-"We're in Jodhpur and wanted quality coding without travelling. These live online classes are perfect, and they explain in Hindi whenever my daughter needs it."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class."
 
-Vikram R.Parent · Jodhpur★★★★★
+Shradha SarafParent of Mivaan★★★★★
 
-"As an engineering student in Udaipur, the DSA and full-stack track helped me prepare for placements. Clear, practical and well taught."
+"I tried 3 other platforms before this. Everyone teaches 'what' to code. Only Modern Age Coders taught me 'how it actually works'. The depth is unmatched."
 
-Pooja K.College student · Udaipur
+Diya KapoorWorking Professional
 
 ## Ready to start coding in Rajasthan?
 

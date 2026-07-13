@@ -244,6 +244,38 @@ Live, small-batch coding and maths taught by full-time engineers — no commute,
 
 School-specific support: [Computer Science & Informatics Practices for Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python board prep.
 
+PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “Sir explained calculus using a car's speedometer! Suddenly derivatives made perfect sense. No rote learning, just pure understanding. Scored 98% in math!”
+
+*AArjun MehtaGrade 9 Student*
+
+★★★★★
+
+> “Ma'am uses toys and drawings to teach fractions! I understood why 1/2 is bigger than 1/4 by cutting a pizza. Math is so easy when you see it in real life!”
+
+*RRiya GuptaKid, Grade 4*
+
+★★★★★
+
+> “They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold.”
+
+*KKavya IyerTeen, Grade 11*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![Simon Game](/images/projects/simongame.webp)GameSimon GameA fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge — brain-boosting for kids learning logic and focus.by YashaswiOpen the live project ↗](http://yashaswi-2017.my.canva.site)[![Image Slider Website](/images/projects/slider.webp)ToolImage Slider WebsiteA visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects.by SomrajOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp)GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards.by Modern Age CodersOpen the live project ↗](https://mind.modernagecoders.com)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-near-lake-town-kolkata*

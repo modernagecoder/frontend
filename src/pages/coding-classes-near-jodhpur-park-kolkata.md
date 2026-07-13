@@ -236,7 +236,37 @@ Premium live online coding and maths, small batches, full-time engineers, no Gar
 
 ## Coding & maths classes across South Kolkata
 
-[Southern Avenue](/coding-classes-near-southern-avenue-kolkata)[Lake Gardens](/coding-classes-near-lake-gardens-kolkata)[Golpark](/coding-classes-near-golpark-kolkata)[Deshapriya Park](/coding-classes-near-deshapriya-park-kolkata)[Jadavpur](/coding-classes-near-jadavpur-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)[DPS Ruby Park (CBSE)](/coding-classes-for-dps-ruby-park-kolkata)
+[Southern Avenue](/coding-classes-near-southern-avenue-kolkata)[Lake Gardens](/coding-classes-near-lake-gardens-kolkata)[Golpark](/coding-classes-near-golpark-kolkata)[Deshapriya Park](/coding-classes-near-deshapriya-park-kolkata)[Jadavpur](/coding-classes-near-jadavpur-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)[DPS Ruby Park (CBSE)](/coding-classes-for-dps-ruby-park-kolkata)PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “The amount of hands-on practice is insane. Built 15+ projects in 3 months. Each one taught me something new. Theory + Practice = Perfect combination.”
+
+*AAditya SinghCollege Student, BCA*
+
+★★★★★
+
+> “They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!”
+
+*NNeha DesaiGrade 6 Student*
+
+★★★★★
+
+> “Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class.”
+
+*SShradha SarafParent of Mivaan*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy — Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 
 ---
 

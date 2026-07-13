@@ -98,9 +98,35 @@ The Love Wall
 
 ## Words from real families.
 
-We publish reviews only from verified Modern Age Coders families. Verified words from Siddha Town and Madhyamgram parents are being added here as they come in — we will never invent a quote to fill a space.
+We publish reviews only from verified Modern Age Coders families. Below are verified words from real families across our school — we will never invent a quote to fill a space.
+
+★★★★★
+
+> “Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner.”
+
+*AArush PoddarStudent*
+
+★★★★★
+
+> “Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training.”
+
+*VVikram JoshiWorking Professional*
+
+★★★★★
+
+> “The amount of hands-on practice is insane. Built 15+ projects in 3 months. Each one taught me something new. Theory + Practice = Perfect combination.”
+
+*AAditya SinghCollege Student, BCA*
 
 A demo costs you nothing and tells you more than any review can. Book a free demo and judge the teaching for yourself, or read verified reviews from across our school on the [Love wall](https://learn.modernagecoders.com/love).
+
+Real student projects
+
+## What our students actually build.
+
+Every one of these is a real, live project shipped by a Modern Age Coders student — not a screenshot from a brochure. See more in our [Student Labs](/student-labs).
+
+[![Doodle Dash — 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash — 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it — then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)[![BookDesk — AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk — AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync — AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)
 
 Who teaches
 

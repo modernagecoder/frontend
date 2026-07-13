@@ -171,21 +171,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Bihar Families Say
+## What Our Families Say
 
 ★★★★★
 
-"My son in Patna built his first game within weeks. The small batch keeps him engaged and the teacher is very patient. His school maths has improved too."
+"Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training."
 
-Anita K.Parent · Patna★★★★★
+Vikram JoshiWorking Professional★★★★★
 
-"We're in Gaya and good coding teachers were impossible to find locally. These live online classes solved it completely — and they explain in Hindi whenever needed."
+"The amount of hands-on practice is insane. Built 15+ projects in 3 months. Each one taught me something new. Theory + Practice = Perfect combination."
 
-Manoj S.Parent · Gaya★★★★★
+Aditya SinghCollege Student, BCA★★★★★
 
-"As an engineering student in Bhagalpur, the DSA and full-stack track helped me prepare for placements. Clear, practical and to the point."
+"They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!"
 
-Priya R.College student · Bhagalpur
+Neha DesaiGrade 6 Student
 
 ## Ready to start coding in Bihar?
 

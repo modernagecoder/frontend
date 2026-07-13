@@ -236,7 +236,37 @@ Nearby areas we serve:
 
 School-specific pages:
 
-[Coding & Maths for Birla High School](/coding-and-maths-for-birla-high-school-kolkata)[Coding & Maths for Mahadevi Birla World Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata)
+[Coding & Maths for Birla High School](/coding-and-maths-for-birla-high-school-kolkata)[Coding & Maths for Mahadevi Birla World Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata)PARENT & STUDENT VOICES
+
+## What families say about us
+
+★★★★★
+
+> “I absolutely love it here! I made new friends and learned important valuable coding skills while having the fun of my life. It's not just coding here, it's outings, bonding and most importantly preparing you for your future. Definitely five stars.”
+
+*YYug RathoreStudent*
+
+★★★★★
+
+> “I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself. I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success.”
+
+*SSujal RamolaStudent*
+
+★★★★★
+
+> “Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!”
+
+*DDiya AgarwalCollege Student, B.Sc Math*
+
+These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
+
+REAL STUDENT PROJECTS
+
+## What our students actually build
+
+[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)[![Pracy — Coding Practice & Quiz Platform](/images/projects/pracy.webp)Web AppPracy — Coding Practice & Quiz PlatformAn all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.by RohanOpen the live project ↗](https://astounding-flan-f18e08.netlify.app/)[![Word Counter Website](/images/projects/wordcounter.webp)ToolWord Counter WebsiteA simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.by VanshOpen the live project ↗](https://vanshagarwalwordcounter-sys.github.io/WordCounter/)
+
+Every one is a real, live project by a student. See more in [Student Labs](/student-labs).
 
 ---
 

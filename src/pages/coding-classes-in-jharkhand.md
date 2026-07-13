@@ -171,21 +171,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Jharkhand Families Say
+## What Our Families Say
 
 ★★★★★
 
-"My son in Ranchi built his first game within weeks. The small batch keeps him engaged and the teacher is very patient. His school maths improved too."
+"My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!"
 
-Sunita K.Parent · Ranchi★★★★★
+Mrs. Meera JainParent of Aadhya (Grade 5)★★★★★
 
-"We're in Jamshedpur and good coding teachers were hard to find locally. These live online classes solved it — and they explain in Hindi whenever needed."
+"Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease."
 
-Amit S.Parent · Jamshedpur★★★★★
+Samriddha MondalStudent★★★★★
 
-"As an engineering student in Dhanbad, the DSA and full-stack track helped me prepare for placements. Clear, practical and to the point."
+"My son struggled with percentages and ratios. The teachers here explained it using money, discounts, and recipes—real things he sees daily. Now he calculates discounts faster than me! Understanding the 'how' and 'why' changed everything."
 
-Nisha P.College student · Dhanbad
+Mr. Suresh PatelParent of Vihaan (Grade 6)
 
 ## Ready to start coding in Jharkhand?
 

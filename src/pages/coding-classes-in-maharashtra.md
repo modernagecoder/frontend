@@ -165,21 +165,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Maharashtra Families Say
+## What Our Families Say
 
 ★★★★★
 
-"Living in Mumbai, after-school traffic made offline classes impossible. These live online sessions are brilliant — my son built his own game in a few months and actually enjoys maths now."
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding."
 
-Deepa M.Parent · Mumbai★★★★★
+Ritu KediaParent★★★★★
 
-"We're in Pune and wanted serious, structured coding for our daughter. The small batch and project work are exactly that — and the instructor explains in Marathi whenever she needs it."
+"My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!"
 
-Rahul P.Parent · Pune★★★★★
+Poonam RathoreParent★★★★★
 
-"As an engineering student in Nagpur, the DSA and full-stack track helped me clear my placement rounds. Clear, practical and to the point."
+"I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-Sneha K.College student · Nagpur
+Krishnam BhatterFormer Student
 
 ## Ready to start coding in Maharashtra?
 
