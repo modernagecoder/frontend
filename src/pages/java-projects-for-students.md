@@ -162,21 +162,21 @@ Start Free Demo
 
 Student Voices
 
-## What Project Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"Building the bank system is when OOP finally made sense. I went from copying programs to writing my own for the ISC practical."
+"They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!"
 
-Harsh V.Class 12 ISC★★★★★
+Rohan KapoorGrade 10 Student★★★★★
 
-"My quiz app actually works and I built it myself. Showing real projects in my college application felt great."
+"Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-Ananya P.School student★★★★★
+Sonu GoyalParent★★★★★
 
-"Project-based was the right call. I remember everything because I built it, not because I memorised it."
+"I used to hate algebra because I never understood WHY we do it. Here, they showed me how equations represent real-life situations. Now I can visualize every problem and solve it easily. Math finally makes sense!"
 
-Zaid R.Beginner learner
+Ananya VermaGrade 8 Student
 
 ## Build your first real Java program
 

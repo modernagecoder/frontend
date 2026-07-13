@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"My portfolio of five projects got me shortlisted everywhere. Being able to explain each one sealed the offers."
+"Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training."
 
-Nisha R.Final-year student★★★★★
+Vikram JoshiWorking Professional★★★★★
 
-"Built my final-year project here with mentor support — top marks and a great resume piece."
+"The amount of hands-on practice is insane. Built 15+ projects in 3 months. Each one taught me something new. Theory + Practice = Perfect combination."
 
-Aman S.Engineering student★★★★★
+Aditya SinghCollege Student, BCA★★★★★
 
-"Real projects, real feedback. My GitHub finally looks hireable."
+"They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!"
 
-Tanvi M.College student
+Neha DesaiGrade 6 Student
 
 ## Build the portfolio that gets you hired
 

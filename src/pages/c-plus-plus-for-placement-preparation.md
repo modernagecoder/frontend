@@ -140,21 +140,21 @@ Start Free Demo
 
 Placed Students
 
-## What Placement Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"The mock interviews were the game-changer. By my actual technical round I'd already 'been there' five times. Cleared it and got the offer."
+"They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!"
 
-Varun S.Placed · product company★★★★★
+Rohan KapoorGrade 10 Student★★★★★
 
-"I had scattered DSA knowledge. The structured roadmap and timed practice turned it into something I could actually use in a coding round."
+"Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-Ishita M.Final-year · placed★★★★★
+Sonu GoyalParent★★★★★
 
-"They drilled both DSA and OOP theory. My technical interview asked exactly the kinds of questions we'd practised."
+"I used to hate algebra because I never understood WHY we do it. Here, they showed me how equations represent real-life situations. Now I can visualize every problem and solve it easily. Math finally makes sense!"
 
-Aman P.Campus placement
+Ananya VermaGrade 8 Student
 
 ## Ready to turn "studying" into "selected"?
 

@@ -197,21 +197,21 @@ Start Free Demo
 
 Learner Voices
 
-## What AI & ML Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"I went from knowing only basic Python to training my own image classifier. The hands-on, model-first approach made ML finally click — and my portfolio got me an internship."
+"I absolutely love it here! I made new friends and learned important valuable coding skills while having the fun of my life. It's not just coding here, it's outings, bonding and most importantly preparing you for your future. Definitely five stars."
 
-Riya S.Final-year · placed★★★★★
+Yug RathoreStudent★★★★★
 
-"I'm a working professional from a non-tech background. The flexible evening batches and real projects helped me switch into a data role in under a year."
+"I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself. I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success."
 
-Vikram T.Career switcher★★★★★
+Sujal RamolaStudent★★★★★
 
-"We built an actual LLM-powered app in the Generative AI module. Learning the latest AI while training real models with a mentor is exactly what I wanted."
+"Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!"
 
-Megha P.College student
+Diya AgarwalCollege Student, B.Sc Math
 
 ## Ready to build real AI & ML skills?
 

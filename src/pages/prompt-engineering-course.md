@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"My prompts went from hit-or-miss to reliable. I shipped an AI feature at work the same month."
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding."
 
-Neha S.Working professional★★★★★
+Ritu KediaParent★★★★★
 
-"Chain-of-thought and structured output were the missing pieces. Practical from class one."
+"My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!"
 
-Rahul D.College student★★★★★
+Poonam RathoreParent★★★★★
 
-"Turned 'playing with ChatGPT' into a real, hireable skill. Worth every rupee."
+"I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-Zoya K.Career switcher
+Krishnam BhatterFormer Student
 
 ## Make AI do exactly what you want
 

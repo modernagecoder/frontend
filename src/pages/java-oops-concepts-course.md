@@ -152,21 +152,21 @@ Start Free Demo
 
 Learner Voices
 
-## What OOP Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"Inheritance and polymorphism always confused me for ISC. Building a shape hierarchy live made it finally click — I can explain it now."
+"They derive every formula from basic principles. I learned why (a+b)² = a² + 2ab + b² by actually drawing squares and rectangles. Visual proofs make concepts stick forever. I never need to memorize—I just understand!"
 
-Tara S.Class 12 ISC★★★★★
+Ishita ReddyGrade 9 Student★★★★★
 
-"The 'explain the 4 pillars with examples' interview question used to scare me. Now it's the one I hope they ask."
+"Trigonometry made zero sense until they showed me how it works with actual triangles and circles. They explained WHY sin²θ + cos²θ = 1 using geometry. Once I saw the proof, I never forgot it. This is how math should be taught!"
 
-Mohit B.College, placements★★★★★
+Priya MalhotraGrade 11 Student★★★★★
 
-"I knew Java syntax but never really understood objects. This course rewired how I think about programs."
+"My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!"
 
-Ayesha K.Self-learner
+Mrs. Meera JainParent of Aadhya (Grade 5)
 
 ## Finally understand OOP in Java
 

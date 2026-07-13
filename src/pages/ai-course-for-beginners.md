@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"I thought AI was way out of my reach. The mentor explained everything so simply, and I actually built a model in the first few classes. Huge confidence boost."
+"They derive every formula from basic principles. I learned why (a+b)² = a² + 2ab + b² by actually drawing squares and rectangles. Visual proofs make concepts stick forever. I never need to memorize—I just understand!"
 
-Sneha P.Complete beginner★★★★★
+Ishita ReddyGrade 9 Student★★★★★
 
-"No coding background at all, but the pace was perfect. I finally understand what 'training a model' means — and I did it myself."
+"Trigonometry made zero sense until they showed me how it works with actual triangles and circles. They explained WHY sin²θ + cos²θ = 1 using geometry. Once I saw the proof, I never forgot it. This is how math should be taught!"
 
-Rakesh V.Working professional★★★★★
+Priya MalhotraGrade 11 Student★★★★★
 
-"Started from zero and now I'm excited to learn machine learning next. Best decision to start here."
+"My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!"
 
-Aditya K.College student
+Mrs. Meera JainParent of Aadhya (Grade 5)
 
 ## Your AI journey starts with one free class
 

@@ -140,21 +140,21 @@ Start Free Demo
 
 Beginner Voices
 
-## What New Coders Say
+## What Our Learners Say
 
 ★★★★★
 
-"I had never written code in my life. By the third class I'd built a working calculator. The mentor's patience made all the difference."
+"They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold."
 
-Megha T.First-time coder★★★★★
+Kavya IyerTeen, Grade 11★★★★★
 
-"Everyone said C++ was too hard to start with. It wasn't — because they explained one thing at a time and I practised live every class."
+"Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore, I'm engineering solutions."
 
-Karan D.Class 11 student★★★★★
+Sanjay DeshmukhWorking Professional★★★★★
 
-"I'm 21 and switched from a non-tech background. Starting with C++ gave me fundamentals that made everything else click."
+"They practice A LOT. Not just 2-3 problems, but 20-30 variations until the concept is crystal clear. My kids can now solve problems they've never seen before."
 
-Ritika S.College beginner
+Mr. Rajesh KumarParent of Twins
 
 ## Your first line of C++ is one demo away
 

@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"Overfitting used to baffle me. Now I read a loss curve and know exactly what to change. Game-changing."
+"The classes are excellent. The teachers explain concepts very clearly and make code fun and easy to understand. The sessions are interactive and fun. They also help students boost their confidence. We not only focus on academics, but also on logic building and problem solving."
 
-Arjun S.College student★★★★★
+Pragyen DiwanParent★★★★★
 
-"The intuition for gradient descent finally clicked. Training isn't a black box anymore."
+"My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-Meera D.Working professional★★★★★
+Sonam OswalParent of Dhairya★★★★★
 
-"Validation and tuning were the missing pieces. My models are reliable now."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. Teachers make it so simple with clear explanations, practical exercises, and interactive content. As per my son, the coding class is very helpful and engaging. Sir explains complex concepts clearly. The projects were challenging and rewarding."
 
-Karan B.Career switcher
+Ria MukherjeeParent
 
 ## Train models that learn the right thing
 

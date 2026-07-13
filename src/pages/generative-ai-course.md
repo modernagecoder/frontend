@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Generative AI Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"I built an AI document assistant with RAG that actually works. Learning to ship a real GenAI app with a mentor was a game-changer for my portfolio."
+"Sir taught me fractions using pizza slices and chocolate bars! I finally understood why 3/4 is bigger than 2/3. Now I can compare any fractions in my head without formulas. Math is fun when you see it in real life!"
 
-Aditya R.Final-year · placed★★★★★
+Arnav GuptaGrade 7 Student★★★★★
 
-"As a product person, prompt engineering and LLM APIs let me prototype AI features myself. Easily the most useful course I've taken."
+"They derive every formula from basic principles. I learned why (a+b)² = a² + 2ab + b² by actually drawing squares and rectangles. Visual proofs make concepts stick forever. I never need to memorize—I just understand!"
 
-Neha S.Working professional★★★★★
+Ishita ReddyGrade 9 Student★★★★★
 
-"We built a chatbot in the first weeks. The pace is exciting and the projects are exactly what employers ask about now."
+"Trigonometry made zero sense until they showed me how it works with actual triangles and circles. They explained WHY sin²θ + cos²θ = 1 using geometry. Once I saw the proof, I never forgot it. This is how math should be taught!"
 
-Karthik V.College student
+Priya MalhotraGrade 11 Student
 
 ## Ready to build with generative AI?
 

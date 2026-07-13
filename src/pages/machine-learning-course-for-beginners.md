@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What ML Beginners Say
+## What Our Learners Say
 
 ★★★★★
 
-"I always thought ML needed heavy maths. By week three I'd trained a working price predictor. The model-first teaching made it click."
+"I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself. I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success."
 
-Sneha R.2nd-year student★★★★★
+Sujal RamolaStudent★★★★★
 
-"From a non-coding job, I now build classifiers and understand accuracy and overfitting. The small batch and real datasets made all the difference."
+"Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!"
 
-Rahul M.Working professional★★★★★
+Diya AgarwalCollege Student, B.Sc Math★★★★★
 
-"Clear roadmap, real projects, a mentor who reviews my code. The best place to actually start machine learning."
+"Calculus was a nightmare until I joined here. They explained derivatives using real motion—how speed changes over time. Integration became about finding areas, not just formulas. I scored 98% in my boards because I understood every concept from the root!"
 
-Aditi K.College student
+Tanvi SharmaGrade 12 Student
 
 ## Ready to train your first ML model?
 

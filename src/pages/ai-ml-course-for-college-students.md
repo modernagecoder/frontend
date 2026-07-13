@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"Walked into placements with four AI/ML projects on GitHub. Interviewers asked about my work, not just CGPA. Got the offer."
+"Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!"
 
-Ankit S.Final-year student★★★★★
+Diya AgarwalCollege Student, B.Sc Math★★★★★
 
-"The portfolio focus made all the difference for my internship applications."
+"Calculus was a nightmare until I joined here. They explained derivatives using real motion—how speed changes over time. Integration became about finding areas, not just formulas. I scored 98% in my boards because I understood every concept from the root!"
 
-Riya M.3rd-year student★★★★★
+Tanvi SharmaGrade 12 Student★★★★★
 
-"Mentors helped me actually understand my projects, so interviews were easy."
+"The classes are excellent. The teachers explain concepts very clearly and make code fun and easy to understand. The sessions are interactive and fun. They also help students boost their confidence. We not only focus on academics, but also on logic building and problem solving."
 
-Harshit P.Engineering student
+Pragyen DiwanParent
 
 ## Graduate placement-ready in AI/ML
 

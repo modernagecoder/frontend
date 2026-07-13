@@ -150,21 +150,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Certified Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"The certificate was nice, but the projects behind it are what got me noticed in interviews. I could actually show my Java work."
+"The amount of hands-on practice is insane. Built 15+ projects in 3 months. Each one taught me something new. Theory + Practice = Perfect combination."
 
-Rahul D.College graduate★★★★★
+Aditya SinghCollege Student, BCA★★★★★
 
-"As a working professional, having a certificate plus a portfolio added real weight to my resume when switching roles."
+"They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!"
 
-Sneha A.Working professional★★★★★
+Neha DesaiGrade 6 Student★★★★★
 
-"I liked that they were honest — it's a course certificate backed by real skill, not an empty badge. That's exactly what I wanted."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class."
 
-Vivaan M.Self-learner
+Shradha SarafParent of Mivaan
 
 ## Get certified in Java — the honest way
 

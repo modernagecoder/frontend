@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"I knew the theory but couldn't write ML code. After this, the scikit-learn workflow is automatic — I can build and evaluate a model without thinking twice."
+"My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!"
 
-Harish R.College student★★★★★
+Poonam RathoreParent★★★★★
 
-"The fit/predict pattern finally made sense when a mentor walked me through real code. Now I prototype models at work."
+"I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-Divya S.Working professional★★★★★
+Krishnam BhatterFormer Student★★★★★
 
-"Exactly the practical coding bridge I needed before the deeper ML course. Hands-on from class one."
+"Very good classes. Makes learning very easy and interactive."
 
-Ankit M.Career switcher
+Vineeta ShyamsukhaParent
 
 ## Ready to code machine learning confidently?
 

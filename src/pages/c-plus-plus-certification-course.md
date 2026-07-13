@@ -140,21 +140,21 @@ Start Free Demo
 
 Certified Learners
 
-## What Certified Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"The certificate was nice, but the portfolio was the real win. In my interview I walked them through my capstone and got the internship."
+"My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!"
 
-Nitin R.College student · interned★★★★★
+Mrs. Meera JainParent of Aadhya (Grade 5)★★★★★
 
-"I appreciated how honest they were that it's a completion certificate, not a govt one. The projects made it worth far more than that anyway."
+"Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease."
 
-Sara K.Parent of teen★★★★★
+Samriddha MondalStudent★★★★★
 
-"Structured modules, a real capstone, and a certificate to round it off. It gave my C++ learning a clear finish line."
+"My son struggled with percentages and ratios. The teachers here explained it using money, discounts, and recipes—real things he sees daily. Now he calculates discounts faster than me! Understanding the 'how' and 'why' changed everything."
 
-Dev P.Class 12 student
+Mr. Suresh PatelParent of Vihaan (Grade 6)
 
 ## Ready to get C++ certified — for real?
 

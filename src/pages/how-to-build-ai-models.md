@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"I'd done lots of tutorials but couldn't start a project alone. Now I have a clear process and I've built two models end-to-end."
+"I absolutely love it here! I made new friends and learned important valuable coding skills while having the fun of my life. It's not just coding here, it's outings, bonding and most importantly preparing you for your future. Definitely five stars."
 
-Nikhil R.College student★★★★★
+Yug RathoreStudent★★★★★
 
-"The focus on evaluation and overfitting was eye-opening. My models actually work on new data now."
+"I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself. I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success."
 
-Pooja M.Working professional★★★★★
+Sujal RamolaStudent★★★★★
 
-"Finally understand the 'why' behind each step. This is the course that made me a builder."
+"Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!"
 
-Sameer T.Career switcher
+Diya AgarwalCollege Student, B.Sc Math
 
 ## Learn to build AI models that actually work
 

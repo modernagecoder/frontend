@@ -140,21 +140,21 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What ICSE/ISC Families Say
+## What Our Learners Say
 
 ★★★★★
 
-"My son used to memorise ICSE programs and panic in the practical. Now he writes them himself and explains the logic. His computer marks improved a lot."
+"Very good classes. Makes learning very easy and interactive."
 
-Sangeeta M.Parent · Class 10 ICSE★★★★★
+Vineeta ShyamsukhaParent★★★★★
 
-"ISC computer science finally makes sense — inheritance and recursion clicked. The mentor uses BlueJ just like our school does."
+"Very good classes. Don't worry about coding—they teach the best, especially Shivam sir."
 
-Aditya R.Class 12 ISC student★★★★★
+Shaarav WadhwaStudent★★★★★
 
-"Small batch, board-focused, and they actually fix the way you think about a problem. Highly recommend for ICSE computer."
+"Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner."
 
-Nida P.Parent · Class 9 ICSE
+Arush PoddarStudent
 
 ## Help your child truly understand Java
 

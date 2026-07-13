@@ -140,21 +140,21 @@ Start Free Demo
 
 Student Voices
 
-## What College Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"The STL and DSA classes completely changed my coding rounds. I went from timing out to solving 3/3 — and the mock interviews made the real ones feel easy."
+"They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!"
 
-Sahil M.Final-year · placed★★★★★
+Aarav SharmaStudent, Grade 7★★★★★
 
-"I was rusty at C++ in 2nd year. The fast foundation plus DSA got me contest-ready, and now I'm rated on Codeforces."
+"Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'."
 
-Neha P.2nd-year CSE★★★★★
+Ishaan ReddyCollege Student, B.Tech CSE★★★★★
 
-"Small batch, a mentor who reviews every line, and real interview problems. Exactly what I needed for product-company prep."
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
 
-Rohit K.3rd-year · placements
+Vansh AgarwalStudent
 
 ## Ready to make C++ your placement edge?
 

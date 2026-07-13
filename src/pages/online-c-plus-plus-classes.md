@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner & Parent Voices
 
-## What Online Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"We're in a small town with no good coding coaching nearby. These live online C++ classes gave my son a mentor as good as any metro — and the recordings are a lifesaver."
+"Calculus was a nightmare until I joined here. They explained derivatives using real motion—how speed changes over time. Integration became about finding areas, not just formulas. I scored 98% in my boards because I understood every concept from the root!"
 
-Manish T.Parent★★★★★
+Tanvi SharmaGrade 12 Student★★★★★
 
-"I was worried online would feel passive. It's the opposite — the mentor watches me code and corrects me live. Genuinely interactive."
+"The classes are excellent. The teachers explain concepts very clearly and make code fun and easy to understand. The sessions are interactive and fun. They also help students boost their confidence. We not only focus on academics, but also on logic building and problem solving."
 
-Pooja R.College student★★★★★
+Pragyen DiwanParent★★★★★
 
-"No commute, flexible timing, small batch. I balance C++ classes with college easily and rewatch recordings before exams."
+"My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-Karthik S.Engineering student
+Sonam OswalParent of Dhairya
 
 ## Ready to learn C++ live, from home?
 

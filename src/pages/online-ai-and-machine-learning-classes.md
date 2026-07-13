@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"Live online from a small town and got the same quality as any metro. Mentor support made all the difference."
+"Sir explained calculus using a car's speedometer! Suddenly derivatives made perfect sense. No rote learning, just pure understanding. Scored 98% in math!"
 
-Pranav R.College student★★★★★
+Arjun MehtaGrade 9 Student★★★★★
 
-"I'd failed to finish two recorded courses. The live format kept me accountable — I actually completed this one."
+"Ma'am uses toys and drawings to teach fractions! I understood why 1/2 is bigger than 1/4 by cutting a pizza. Math is so easy when you see it in real life!"
 
-Shalini M.Working professional★★★★★
+Riya GuptaKid, Grade 4★★★★★
 
-"Small batch, real-time doubts, recordings to revise. Online done properly."
+"They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold."
 
-Iqbal S.Career switcher
+Kavya IyerTeen, Grade 11
 
 ## Learn AI & ML live, from anywhere in India
 

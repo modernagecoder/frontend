@@ -144,21 +144,21 @@ Start Free Demo
 
 Learner Voices
 
-## What OOP Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"Virtual functions and polymorphism finally make sense. Building a bank system made every concept concrete instead of abstract."
+"My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!"
 
-Ishan G.2nd-year student★★★★★
+Mrs. Meera JainParent of Aadhya (Grade 5)★★★★★
 
-"I could define encapsulation but never explain it. Now I can answer any OOP interview question and back it with code."
+"Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease."
 
-Tanvi M.Placement prep★★★★★
+Samriddha MondalStudent★★★★★
 
-"Small batch, project-based, and a mentor who reviews your design choices. The clearest OOP teaching I've found."
+"My son struggled with percentages and ratios. The teachers here explained it using money, discounts, and recipes—real things he sees daily. Now he calculates discounts faster than me! Understanding the 'how' and 'why' changed everything."
 
-Rahul P.College learner
+Mr. Suresh PatelParent of Vihaan (Grade 6)
 
 ## Ready to truly understand OOP?
 

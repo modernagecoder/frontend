@@ -150,21 +150,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Online Java Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"I was sceptical about online, but it's genuinely live. The mentor sees my screen and fixes my code instantly. Feels better than my old offline class."
+"I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself. I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success."
 
-Tanvi G.Class 11 ISC★★★★★
+Sujal RamolaStudent★★★★★
 
-"No travel, flexible evening timing, and the recordings are a lifesaver before exams. Exactly what I needed."
+"Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!"
 
-Karthik V.College student★★★★★
+Diya AgarwalCollege Student, B.Sc Math★★★★★
 
-"We're in a small town with no good Java tutors nearby. These live online classes solved that completely for my son."
+"Calculus was a nightmare until I joined here. They explained derivatives using real motion—how speed changes over time. Integration became about finding areas, not just formulas. I scored 98% in my boards because I understood every concept from the root!"
 
-Sunita J.Parent
+Tanvi SharmaGrade 12 Student
 
 ## Experience a real live online Java class
 

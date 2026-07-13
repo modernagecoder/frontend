@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Data Science Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"I learned to clean a messy dataset and pull real insights from it. My EDA project became the highlight of my resume and helped me land a data analyst role."
+"Ma'am uses toys and drawings to teach fractions! I understood why 1/2 is bigger than 1/4 by cutting a pizza. Math is so easy when you see it in real life!"
 
-Priyanka S.Data analyst★★★★★
+Riya GuptaKid, Grade 4★★★★★
 
-"The pandas and visualisation skills were exactly what my job needed. Learning on real datasets with a mentor beat any video course."
+"They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold."
 
-Arnav T.Working professional★★★★★
+Kavya IyerTeen, Grade 11★★★★★
 
-"Clear roadmap from raw data to a model. I finished with a portfolio and a real understanding of the data-science workflow."
+"Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore, I'm engineering solutions."
 
-Nidhi K.College student
+Sanjay DeshmukhWorking Professional
 
 ## Ready to become a data scientist?
 

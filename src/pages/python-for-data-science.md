@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"pandas felt like a superpower once it clicked. This course gave me the exact Python foundation I needed before jumping into machine learning."
+"Ma'am taught me division using sharing candies among friends. Now I know WHY we divide and what remainders mean. Math is not scary anymore—it's just solving real problems!"
 
-Ria T.College student★★★★★
+Kabir SinghGrade 4 Student★★★★★
 
-"I came in knowing zero coding. Now I clean and analyse data at work with pandas. Learning on real datasets with a mentor was perfect."
+"They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!"
 
-Manish K.Working professional★★★★★
+Aarav SharmaStudent, Grade 7★★★★★
 
-"Clear, practical, hands-on. The best starting point for anyone heading into data science or AI."
+"Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'."
 
-Sara P.Career switcher
+Ishaan ReddyCollege Student, B.Tech CSE
 
 ## Ready to build your data-science foundation?
 

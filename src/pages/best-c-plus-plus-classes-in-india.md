@@ -197,21 +197,21 @@ Start Free Demo
 
 Learner & Parent Voices
 
-## What C++ Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"My son finally understands pointers and the STL instead of fearing them. He's now solving Codeforces problems for fun and his college coding-round scores jumped."
+"Ma'am uses toys and drawings to teach fractions! I understood why 1/2 is bigger than 1/4 by cutting a pizza. Math is so easy when you see it in real life!"
 
-Anita R.Parent of engineering student★★★★★
+Riya GuptaKid, Grade 4★★★★★
 
-"The DSA-in-C++ classes were exactly what I needed for placements. Clear explanations, real practice, and a mentor who actually reviews your code line by line."
+"They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold."
 
-Sahil M.College student · placements★★★★★
+Kavya IyerTeen, Grade 11★★★★★
 
-"I'm 15 and I built my own console game in C++. Small batch, patient teacher, and real projects — way better than watching random YouTube videos."
+"Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore, I'm engineering solutions."
 
-Arjun S.Teen learner
+Sanjay DeshmukhWorking Professional
 
 ## Ready to master C++ the right way?
 

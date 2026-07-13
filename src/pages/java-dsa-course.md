@@ -174,21 +174,21 @@ Start Free Demo
 
 Learner Voices
 
-## What DSA Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"The pattern approach changed everything. I stopped fearing new problems because they mapped to patterns I'd practised. Mocks made interviews feel normal."
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
 
-Nikhil R.Final-year, placements★★★★★
+Vansh AgarwalStudent★★★★★
 
-"Trees and graphs always confused me until the mentor walked through them live in Java. Now I can actually explain my approach out loud."
+"They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!"
 
-Sneha M.College student★★★★★
+Rohan KapoorGrade 10 Student★★★★★
 
-"As a working dev preparing to switch, the weekend DSA batch and mock interviews were exactly the structured push I needed."
+"Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-Arvind K.Working professional
+Sonu GoyalParent
 
 ## Get interview-ready with Java DSA
 

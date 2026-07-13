@@ -197,21 +197,21 @@ Start Free Demo
 
 Learner & Parent Voices
 
-## What Java Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"My daughter finally understands Java instead of mugging up programs for her ICSE exam. She now writes her own code and her computer marks jumped."
+"They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!"
 
-Anita R.Parent of ICSE student★★★★★
+Neha DesaiGrade 6 Student★★★★★
 
-"The OOP and DSA classes were exactly what I needed for interviews. Clear explanations, real practice, and a mentor who actually reviews your code."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class."
 
-Sahil M.College student · placements★★★★★
+Shradha SarafParent of Mivaan★★★★★
 
-"I'm 34 and switched to learning Java for backend work. The small batch and flexible evening timing made it genuinely doable alongside my job."
+"I tried 3 other platforms before this. Everyone teaches 'what' to code. Only Modern Age Coders taught me 'how it actually works'. The depth is unmatched."
 
-Praveen K.Working professional
+Diya KapoorWorking Professional
 
 ## Ready to master Java the right way?
 

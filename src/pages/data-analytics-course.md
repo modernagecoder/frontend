@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"Learned SQL and pandas on real data and landed a data analyst role within months. Directly job-relevant."
+"They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!"
 
-Priya N.Career switcher★★★★★
+Neha DesaiGrade 6 Student★★★★★
 
-"Dashboards I built in class I now use at work. Practical from day one."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class."
 
-Sandeep R.Working professional★★★★★
+Shradha SarafParent of Mivaan★★★★★
 
-"Great foundation before moving into data science. Clear and hands-on."
+"I tried 3 other platforms before this. Everyone teaches 'what' to code. Only Modern Age Coders taught me 'how it actually works'. The depth is unmatched."
 
-Megha S.College student
+Diya KapoorWorking Professional
 
 ## Turn data into decisions — and a career
 

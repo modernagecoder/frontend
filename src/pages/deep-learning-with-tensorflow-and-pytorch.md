@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"Finally fluent in both PyTorch and TensorFlow. Reading research code and building models is no longer scary."
+"My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!"
 
-Manish R.College student★★★★★
+Poonam RathoreParent★★★★★
 
-"Using a GPU and pretrained models changed what I can build. Hands-on and practical throughout."
+"I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-Lavanya S.Working professional★★★★★
+Krishnam BhatterFormer Student★★★★★
 
-"Knowing both frameworks made me far more employable. Great mentor support."
+"Very good classes. Makes learning very easy and interactive."
 
-Yusuf K.Career switcher
+Vineeta ShyamsukhaParent
 
 ## Build deep learning the industry way
 

@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"Trained a CNN to classify images and built an object detector. Watching it draw boxes on the right things was magic."
+"My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-Harsh V.College student★★★★★
+Sonam OswalParent of Dhairya★★★★★
 
-"Clear, hands-on, and the OpenCV work was immediately useful in my job."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. Teachers make it so simple with clear explanations, practical exercises, and interactive content. As per my son, the coding class is very helpful and engaging. Sir explains complex concepts clearly. The projects were challenging and rewarding."
 
-Reena S.Working professional★★★★★
+Ria MukherjeeParent★★★★★
 
-"CNNs finally make sense. Best practical vision course I could find."
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding."
 
-Tarun M.Career switcher
+Ritu KediaParent
 
 ## Build AI that can see
 

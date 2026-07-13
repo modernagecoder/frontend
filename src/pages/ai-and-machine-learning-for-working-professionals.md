@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"Upskilled around a full-time job and now lead AI initiatives on my team. The weekend format made it possible."
+"They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!"
 
-Suresh R.Working professional★★★★★
+Aarav SharmaStudent, Grade 7★★★★★
 
-"Switched from testing into an ML role in under a year. My domain experience plus these skills sealed it."
+"Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'."
 
-Deepa M.Career switcher★★★★★
+Ishaan ReddyCollege Student, B.Tech CSE★★★★★
 
-"Applied and practical — I used what I learned at work almost immediately."
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
 
-Arvind K.Senior engineer
+Vansh AgarwalStudent
 
 ## Move into AI/ML without quitting your job
 

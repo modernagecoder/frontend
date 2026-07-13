@@ -140,21 +140,21 @@ Start Free Demo
 
 Coder Voices
 
-## What CP Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"Went from grey to Specialist on Codeforces in a few months. The pattern training and weekly contest reviews are exactly what I was missing."
+"My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!"
 
-Nikhil R.Codeforces Specialist★★★★★
+Poonam RathoreParent★★★★★
 
-"The mentor breaks down editorials so I actually learn from each contest. My CodeChef stars went up and DP finally clicked."
+"I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-Ananya S.College · CP★★★★★
+Krishnam BhatterFormer Student★★★★★
 
-"Started CP in class 11. Small batch, real contests, and a clear roadmap — it made interviews later feel trivial."
+"Very good classes. Makes learning very easy and interactive."
 
-Veer K.School learner
+Vineeta ShyamsukhaParent
 
 ## Ready to climb the leaderboard?
 

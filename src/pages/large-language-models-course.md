@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"Built a RAG chatbot over my own documents. Understanding transformers made every design choice clearer."
+"My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!"
 
-Aditya R.Working professional★★★★★
+Poonam RathoreParent★★★★★
 
-"This took me from 'ChatGPT user' to 'I can build LLM apps'. Huge for my career."
+"I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-Sana M.Career switcher★★★★★
+Krishnam BhatterFormer Student★★★★★
 
-"Clear on attention and embeddings, and the hands-on API work was gold."
+"Very good classes. Makes learning very easy and interactive."
 
-Vivek K.College student
+Vineeta ShyamsukhaParent
 
 ## Build with the AI everyone's talking about
 

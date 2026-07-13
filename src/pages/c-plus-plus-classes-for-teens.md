@@ -140,21 +140,21 @@ Start Free Demo
 
 Parent & Teen Voices
 
-## What Families Say
+## What Our Learners Say
 
 ★★★★★
 
-"My 15-year-old went from confused about pointers to building his own console game for fun. The mentor actually reviews his code every class."
+"My daughter used to memorize formulas blindly. Here they derive everything from scratch using real examples. She now understands the logic behind multiplication itself!"
 
-Deepa N.Parent of Class 10 student★★★★★
+Mrs. Priya PatelParent of Ananya (Grade 3)★★★★★
 
-"I'm 16 and OOP finally clicked when we built a bank system in C++. Way better than watching random videos — and I'm already trying Codeforces problems."
+"Ma'am taught me division using sharing candies among friends. Now I know WHY we divide and what remainders mean. Math is not scary anymore—it's just solving real problems!"
 
-Arjun S.Teen learner★★★★★
+Kabir SinghGrade 4 Student★★★★★
 
-"Small batch, patient teacher, and real projects. My daughter's logic and confidence both improved noticeably, and she's set for engineering."
+"They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!"
 
-Farida K.Parent of Class 9 student
+Aarav SharmaStudent, Grade 7
 
 ## Ready to see your teen build real C++?
 

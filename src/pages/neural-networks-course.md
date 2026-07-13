@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"Backpropagation finally makes sense — I built a network from near-scratch and watched it learn. Incredible feeling."
+"Calculus was a nightmare until I joined here. They explained derivatives using real motion—how speed changes over time. Integration became about finding areas, not just formulas. I scored 98% in my boards because I understood every concept from the root!"
 
-Rohan M.College student★★★★★
+Tanvi SharmaGrade 12 Student★★★★★
 
-"The neuron-up approach is brilliant. Deep learning isn't intimidating anymore."
+"The classes are excellent. The teachers explain concepts very clearly and make code fun and easy to understand. The sessions are interactive and fun. They also help students boost their confidence. We not only focus on academics, but also on logic building and problem solving."
 
-Shruti K.Working professional★★★★★
+Pragyen DiwanParent★★★★★
 
-"Best explanation of neural nets I've found anywhere, and I actually coded one."
+"My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-Imran S.Career switcher
+Sonam OswalParent of Dhairya
 
 ## Understand the engine behind modern AI
 

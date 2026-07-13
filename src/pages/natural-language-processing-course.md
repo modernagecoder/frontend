@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"Built a sentiment analyser on real reviews in week three. Seeing the model 'get' language was amazing."
+"They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!"
 
-Divya N.College student★★★★★
+Rohan KapoorGrade 10 Student★★★★★
 
-"The embeddings explanation made transformers and LLMs finally make sense to me."
+"Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-Aakash R.Working professional★★★★★
+Sonu GoyalParent★★★★★
 
-"Perfect bridge into LLMs. Practical, hands-on, and genuinely useful at work."
+"I used to hate algebra because I never understood WHY we do it. Here, they showed me how equations represent real-life situations. Now I can visualize every problem and solve it easily. Math finally makes sense!"
 
-Nadia K.Career switcher
+Ananya VermaGrade 8 Student
 
 ## Build AI that understands language
 

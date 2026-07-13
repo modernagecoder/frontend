@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"I have four real models in my GitHub now, all built in class. Interviews are a different conversation when you can show working code."
+"Calculus was a nightmare until I joined here. They explained derivatives using real motion—how speed changes over time. Integration became about finding areas, not just formulas. I scored 98% in my boards because I understood every concept from the root!"
 
-Vikram N.College student★★★★★
+Tanvi SharmaGrade 12 Student★★★★★
 
-"Building hands-on made everything click that videos never did. The mentor caught my mistakes instantly."
+"The classes are excellent. The teachers explain concepts very clearly and make code fun and easy to understand. The sessions are interactive and fun. They also help students boost their confidence. We not only focus on academics, but also on logic building and problem solving."
 
-Anjali R.Career switcher★★★★★
+Pragyen DiwanParent★★★★★
 
-"Project-based is the only way I'd learn ML again. I actually ship models now."
+"My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-Faizan A.Working professional
+Sonam OswalParent of Dhairya
 
 ## Stop watching ML — start building it
 

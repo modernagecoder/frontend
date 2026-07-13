@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Adult Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"I'm 29 and switched from a non-tech job. Starting Java from zero felt impossible until the mentor broke it down. I'm now comfortable with OOP and DSA."
+"I tried 3 other platforms before this. Everyone teaches 'what' to code. Only Modern Age Coders taught me 'how it actually works'. The depth is unmatched."
 
-Vikram T.Career switcher★★★★★
+Diya KapoorWorking Professional★★★★★
 
-"The Java + DSA track and mock interviews were exactly what I needed for campus placements. Practical and to the point."
+"Sir explained calculus using a car's speedometer! Suddenly derivatives made perfect sense. No rote learning, just pure understanding. Scored 98% in math!"
 
-Ritika S.Final-year college student★★★★★
+Arjun MehtaGrade 9 Student★★★★★
 
-"Weekend batch fit perfectly around my job. The classes are live and the mentor actually reviews your code — not a recorded course."
+"Ma'am uses toys and drawings to teach fractions! I understood why 1/2 is bigger than 1/4 by cutting a pizza. Math is so easy when you see it in real life!"
 
-Imran A.Working professional
+Riya GuptaKid, Grade 4
 
 ## Ready to make Java your next career skill?
 

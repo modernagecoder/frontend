@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Deep Learning Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"Building a CNN that actually recognises images was a wow moment. The way they explain backprop and then code it in Keras made deep learning real for me."
+"I absolutely love it here! I made new friends and learned important valuable coding skills while having the fun of my life. It's not just coding here, it's outings, bonding and most importantly preparing you for your future. Definitely five stars."
 
-Karan V.Final-year · AI track★★★★★
+Yug RathoreStudent★★★★★
 
-"As a working dev, I wanted real DL skills, not theory. Training models in PyTorch with a mentor reviewing my code was exactly right."
+"I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself. I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success."
 
-Shreya M.Software engineer★★★★★
+Sujal RamolaStudent★★★★★
 
-"We went from a single neuron to a small transformer. The roadmap is clear and every stage ends with a model I built."
+"Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!"
 
-Ayaan K.College student
+Diya AgarwalCollege Student, B.Sc Math
 
 ## Ready to build and train neural networks?
 

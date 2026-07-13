@@ -149,21 +149,21 @@ Start Free Demo
 
 Builder Voices
 
-## What Project Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"I built a bank system and a console game I can actually show. My college project submission was the best in class and I finally understand OOP."
+"Very good classes. Don't worry about coding—they teach the best, especially Shivam sir."
 
-Harsh M.Engineering student★★★★★
+Shaarav WadhwaStudent★★★★★
 
-"Learning by building made everything stick. The debugging sessions taught me more than any lecture."
+"Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner."
 
-Sneha R.Class 12 student★★★★★
+Arush PoddarStudent★★★★★
 
-"My capstone inventory manager became a real talking point in my internship interview. Worth every rupee."
+"Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training."
 
-Aditya K.Intern
+Vikram JoshiWorking Professional
 
 ## Ready to build something real in C++?
 

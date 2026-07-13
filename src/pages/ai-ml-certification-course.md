@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"The certificate got me the interview; the portfolio behind it got me the job. Honest, substantial program."
+"They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!"
 
-Rohit S.Career switcher★★★★★
+Neha DesaiGrade 6 Student★★★★★
 
-"I appreciated how upfront they were about what the certificate is. The skills are very real."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class."
 
-Bhavna M.Working professional★★★★★
+Shradha SarafParent of Mivaan★★★★★
 
-"Capstone project is now the centrepiece of my resume. Worth it for the work, not just the paper."
+"I tried 3 other platforms before this. Everyone teaches 'what' to code. Only Modern Age Coders taught me 'how it actually works'. The depth is unmatched."
 
-Saurabh K.College student
+Diya KapoorWorking Professional
 
 ## Earn a certificate backed by real skills
 

@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"Built an agent that researches and summarises using tools. Seeing it plan and act on its own was incredible."
+"Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-Kabir S.Working professional★★★★★
+Sonu GoyalParent★★★★★
 
-"The focus on reliability and debugging is what makes this course stand out. My agent actually finishes tasks."
+"I used to hate algebra because I never understood WHY we do it. Here, they showed me how equations represent real-life situations. Now I can visualize every problem and solve it easily. Math finally makes sense!"
 
-Ira M.Career switcher★★★★★
+Ananya VermaGrade 8 Student★★★★★
 
-"Cutting-edge and hands-on. I'm building things I couldn't have imagined a month ago."
+"Sir taught me fractions using pizza slices and chocolate bars! I finally understood why 3/4 is bigger than 2/3. Now I can compare any fractions in my head without formulas. Math is fun when you see it in real life!"
 
-Dev P.College student
+Arnav GuptaGrade 7 Student
 
 ## Build AI that acts, not just answers
 

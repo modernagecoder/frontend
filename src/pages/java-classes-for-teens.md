@@ -140,21 +140,21 @@ Start Free Demo
 
 Parent & Teen Voices
 
-## What Families Say
+## What Our Learners Say
 
 ★★★★★
 
-"My 15-year-old went from dreading the ICSE computer paper to building his own quiz app for fun. The mentor actually reviews his code every class."
+"They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!"
 
-Deepa N.Parent of Class 10 student★★★★★
+Aarav SharmaStudent, Grade 7★★★★★
 
-"I'm 16 and I finally get OOP — classes and objects clicked when we built a bank system. Way better than watching random videos."
+"Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'."
 
-Arjun S.Teen learner★★★★★
+Ishaan ReddyCollege Student, B.Tech CSE★★★★★
 
-"Small batch, patient teacher, and real projects. My daughter's logic and confidence both improved noticeably."
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
 
-Farida K.Parent of Class 9 student
+Vansh AgarwalStudent
 
 ## Ready to see your teen build real Java?
 

@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What DSA Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"Graphs and DP always scared me. The way they built each structure first, then showed the STL shortcut, made it finally make sense. Cleared 2 coding rounds."
+"Ma'am uses toys and drawings to teach fractions! I understood why 1/2 is bigger than 1/4 by cutting a pizza. Math is so easy when you see it in real life!"
 
-Aman V.Final-year · placed★★★★★
+Riya GuptaKid, Grade 4★★★★★
 
-"The interview-style problems every class are gold. I stopped memorising and started actually solving."
+"They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold."
 
-Priya R.3rd-year CSE★★★★★
+Kavya IyerTeen, Grade 11★★★★★
 
-"Best DSA course I tried — small batch, real code review, and a clear roadmap from arrays to DP. My Codeforces rating climbed fast."
+"Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore, I'm engineering solutions."
 
-Sourav B.Competitive programmer
+Sanjay DeshmukhWorking Professional
 
 ## Ready to actually master DSA?
 

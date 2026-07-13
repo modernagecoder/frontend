@@ -150,21 +150,21 @@ Start Free Demo
 
 Beginner Voices
 
-## What New Java Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"I'd never coded before and was nervous. By the end of the first class I'd written a real program. The mentor never made me feel slow."
+"My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!"
 
-Meera D.Adult beginner★★★★★
+Poonam RathoreParent★★★★★
 
-"Started from absolute zero in Class 9. Now I actually understand loops and methods instead of memorising. Confidence is totally different."
+"I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-Rishabh K.School student★★★★★
+Krishnam BhatterFormer Student★★★★★
 
-"I tried free videos and gave up twice. A live mentor and a small batch made all the difference — I finally stuck with it."
+"Very good classes. Makes learning very easy and interactive."
 
-Pooja N.College beginner
+Vineeta ShyamsukhaParent
 
 ## Your first line of Java is one demo away
 

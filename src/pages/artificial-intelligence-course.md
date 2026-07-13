@@ -140,21 +140,21 @@ Start Free Demo
 
 Learner Voices
 
-## What AI Learners Say
+## What Our Learners Say
 
 ★★★★★
 
-"I wanted the big picture of AI, not just one tool. This course gave me ML, deep learning, NLP and generative AI — and helped me pick computer vision as my focus."
+"Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'."
 
-Tanmay R.College student★★★★★
+Ishaan ReddyCollege Student, B.Tech CSE★★★★★
 
-"As a professional, understanding how all of AI fits together made me far more useful at work. The generative AI module was an instant win."
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
 
-Anjali S.Working professional★★★★★
+Vansh AgarwalStudent★★★★★
 
-"Hands-on projects in every area, a clear roadmap, and a mentor who answers everything. The most complete AI course I found."
+"They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!"
 
-Dev M.Career switcher
+Rohan KapoorGrade 10 Student
 
 ## Ready to master the whole of AI?
 
