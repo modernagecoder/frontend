@@ -1,0 +1,823 @@
+{
+  "meta": {
+    "slug": "html-css-javascript-project-ideas",
+    "title": "20 HTML, CSS, and JavaScript Project Ideas (With Code)",
+    "description": "20 HTML, CSS, and JavaScript project ideas from beginner to advanced, each with the exact skills it teaches and real tested code for 12 of them.",
+    "keywords": [
+      "html css javascript projects",
+      "javascript projects for beginners",
+      "web development project ideas",
+      "javascript project ideas with code",
+      "html css js projects for portfolio",
+      "beginner to advanced javascript projects",
+      "javascript projects for practice"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-07-05",
+    "dateModified": "2026-07-05",
+    "category": "Web Development",
+    "tags": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Project Ideas",
+      "Web Development"
+    ],
+    "readTime": "38 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "20 HTML, CSS, and JavaScript Project Ideas (With Code)",
+    "subtitle": "From your first digital clock to an unbeatable tic-tac-toe AI: twenty projects, sorted by difficulty, twelve with real tested code.",
+    "featuredImage": {
+      "url": "/images/blog/html-css-javascript-project-ideas/00-hero.png",
+      "alt": "20 HTML, CSS, and JavaScript project ideas from beginner to advanced with tested code"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "The fastest way to actually learn <strong>HTML, CSS, and JavaScript</strong> is not another tutorial, it is a project you have to finish. A video can show you how addEventListener works. It cannot show you what happens when your to-do list forgets every task the moment you refresh the page, or why your calculator adds two numbers as text instead of doing real math. Those moments, the ones where something breaks and you have to figure out why, are where the language actually sinks in."
+      },
+      {
+        "type": "paragraph",
+        "text": "This page collects <strong>20 HTML, CSS, and JavaScript project ideas</strong>, sorted into three tiers so you always know what to build next. Every project lists the exact skills it teaches, and twelve of them come with real, tested code you can run today, including a working minimax AI that never loses at tic-tac-toe and a drag-and-drop Kanban board built with nothing but the native browser APIs."
+      },
+      {
+        "type": "paragraph",
+        "text": "No frameworks, no build tools, no npm install. Just a text editor, a browser, and twenty reasons to open both."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "How to use this list",
+        "text": "Work through the tiers in order, but inside a tier, build whatever sounds fun. Motivation finishes far more projects than discipline does. If a project stalls for more than two sessions, ship a smaller version of it and move on. A finished, imperfect to-do list teaches you more than a perfect one that never gets built."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why a Tiered Project List Works Better Than a Random One",
+        "id": "why-tiers"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most project lists throw twenty ideas at you in no particular order, so a beginner ends up staring at a drag-and-drop Kanban board with the same confidence as a digital clock, and usually picks the wrong one first. Sorting by tier fixes that: each project assumes only the skills the tier before it already taught you, so the jump from one project to the next never feels like starting over."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/html-css-javascript-project-ideas/01-tiers.png",
+        "alt": "Three tiers of HTML CSS and JavaScript projects: beginner, intermediate, and advanced, showing how each tier builds on the skills of the one before it",
+        "caption": "Six projects, then eight, then six. Climb the tiers in order and every project uses something the last one taught you."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Beginner Projects: Build Confidence First",
+        "id": "beginner-projects"
+      },
+      {
+        "type": "paragraph",
+        "text": "Start here if you are still getting comfortable with variables, functions, and the DOM. Every project in this tier fits in a single afternoon and produces something you can actually show someone, which matters more for motivation than any tutorial does."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Personal Portfolio Website"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ask any working developer what got them their first freelance client, and there's a good chance the answer wasn't a resume, it was a link. In this project you build a personal html css portfolio website from scratch: a home page, an about page, and a projects page that all share the same header and footer. The real skill underneath this simple site is page structure and layout, the same foundation you'll find under every marketing site, every SaaS pricing page, and every \"About Us\" page you've ever scrolled through."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Semantic HTML5 Structure:</strong> Building the page with header, nav, main, section, and footer tags instead of generic divs, so browsers, screen readers, and search engines can all understand what each part of the page actually is.",
+          "<strong>CSS Flexbox and Grid for Layout:</strong> Using Flexbox to line up the navigation bar and social icons, and CSS Grid to arrange the projects section into a clean, evenly spaced gallery.",
+          "<strong>Responsive Design with Media Queries:</strong> Writing media queries so the layout reflows from a single column on a phone to a multi-column desktop view, without the text or images ever breaking.",
+          "<strong>Linking Multiple Pages:</strong> Connecting the home, about, and projects pages with relative links and a consistent navigation menu, so the whole site feels like one place instead of three disconnected files."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a filter bar above the projects grid with buttons like All, Web, Python, and Games. A few lines of JavaScript toggle a CSS class on each project card to instantly show or hide it, no page reload needed, which is the same filtering pattern used on e-commerce category pages."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Digital Clock"
+      },
+      {
+        "type": "paragraph",
+        "text": "Look at your phone's lock screen right now: that clock face updating every second is doing exactly what this javascript digital clock project asks students to build themselves, reading the current time from the browser and refreshing the display without ever reloading the page. Students code a live clock that ticks in real time, showing hours, minutes, and seconds formatted the way a real clock reads, \"03:05:09\" instead of \"3:5:9\". The same underlying pattern, pull fresh data on a timer and re-render it, runs the countdown timers on ticket-sale pages and the \"last updated\" stamps on stock and weather trackers."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>The Date Object:</strong> pulling the current hours, minutes, and seconds straight from the browser, with no external time source needed.",
+          "<strong>setInterval:</strong> using JavaScript's built-in timer to re-check the time and redraw the page once every second, the same technique behind countdowns and auto-refreshing widgets.",
+          "<strong>String Padding:</strong> catching numbers under 10, like a 5-second mark, and adding a leading zero so the display reads \"05\" instead of jumping around visually.",
+          "<strong>Template Literals:</strong> using backtick strings to slot the hours, minutes, and seconds variables directly into the display text without clunky string concatenation."
+        ]
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "function formatClock(date) {\n  const h = String(date.getHours()).padStart(2, \"0\");\n  const m = String(date.getMinutes()).padStart(2, \"0\");\n  const s = String(date.getSeconds()).padStart(2, \"0\");\n  return `${h}:${m}:${s}`;\n}\n\nsetInterval(() => {\n  document.getElementById(\"clock\").textContent = formatClock(new Date());\n}, 1000);"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "formatClock(new Date(2026, 0, 1, 9, 5, 3))   // \"09:05:03\"\nformatClock(new Date(2026, 0, 1, 23, 59, 9))  // \"23:59:09\""
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a 12-hour/24-hour toggle switch that recalculates the displayed hour, appends AM or PM, and saves the student's chosen format to localStorage so it's remembered the next time they open the page."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Simple Calculator"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every calculator app on your phone is doing the same trick under the hood: turning taps into a string of characters, then deciding exactly when it's safe to compute an answer. In this javascript calculator project, the learner wires up a grid of number and operator buttons, builds the logic that reads what was pressed, and produces a working result complete with clear and decimal handling. The real skill underneath it is listening for clicks across a whole group of buttons with a single handler instead of writing ten separate ones, a pattern called event delegation that shows up anywhere a page has a repeating grid of interactive elements, like a product filter list or an on screen keyboard."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Event Delegation:</strong> attach one click listener to the button container rather than one per button, then read the click event's target to figure out which digit or operator was actually pressed.",
+          "<strong>Building an Expression String:</strong> each press appends to a running string like \"12+7\" stored in a variable, so the calculator always has an accurate record of what the user has typed, separate from what's shown on screen.",
+          "<strong>Safe Arithmetic Evaluation:</strong> parse that string and compute the result by splitting it on operators and doing the math step by step in code, instead of reaching for eval, which can execute arbitrary text as code and is a genuine security risk in real applications.",
+          "<strong>Keyboard Input Support:</strong> listen for keydown events so typing \"5*3\" and pressing Enter works exactly like clicking the matching buttons, since that's how most people instinctively try to use a calculator first."
+        ]
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "function calculate(a, operator, b) {\n  a = Number(a);\n  b = Number(b);\n  switch (operator) {\n    case \"+\": return a + b;\n    case \"-\": return a - b;\n    case \"*\": return a * b;\n    case \"/\": return b === 0 ? \"Error\" : a / b;\n    default: return \"Error\";\n  }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "calculate(12, \"+\", 8)     // 20\ncalculate(12, \"/\", 0)     // \"Error\"\ncalculate(\"9\", \"*\", \"3\")  // 27"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a receipt style history strip along the side that logs every expression and its result as the calculator gets used, and make each past entry clickable so tapping one drops that old answer straight back into the current calculation, the way a physical adding machine's paper tape lets you reuse an earlier total."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. BMI Calculator"
+      },
+      {
+        "type": "paragraph",
+        "text": "Type bmi calculator javascript into a search bar and you will find thousands of versions online, but most of them skip the part that actually matters, what happens the instant someone clicks submit. In this project, learners build a form that takes a person's height and weight, calculates their BMI the moment the form is submitted, and displays a message explaining what that number means. The core skill is handling form submission without letting the page reload, a pattern that shows up anywhere a user submits data, from login pages to checkout forms. Once that click to calculation flow makes sense here, it makes sense everywhere else too."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Form Handling and preventDefault:</strong> Attach a submit event listener to the form and call event.preventDefault() so the page does not refresh and wipe out the result before the user can see it.",
+          "<strong>Basic Math with User Input:</strong> Pull the height and weight values out of the input fields, convert them from strings to numbers, and run them through the BMI formula to get a usable result.",
+          "<strong>Conditional Messages Based on Ranges:</strong> Use if/else statements to check which range the calculated BMI falls into and display a different, plain-language message for each one.",
+          "<strong>Input Validation:</strong> Check that the height and weight fields are filled in and hold positive numbers before calculating, so the app never shows NaN or a nonsense result."
+        ]
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "function getBMI(weightKg, heightCm) {\n  const heightM = heightCm / 100;\n  const bmi = weightKg / (heightM * heightM);\n  return Math.round(bmi * 10) / 10;\n}\n\nfunction bmiCategory(bmi) {\n  if (bmi < 18.5) return \"Underweight\";\n  if (bmi < 25) return \"Normal weight\";\n  if (bmi < 30) return \"Overweight\";\n  return \"Obese\";\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "const bmi = getBMI(68, 172);\nbmi                  // 23\nbmiCategory(bmi)     // \"Normal weight\""
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a \"BMI over time\" tracker that saves each result to localStorage with a timestamp, then draws a simple line on a canvas element connecting the last several entries, so a student can watch their own number move week to week instead of only ever seeing one calculation at a time."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Random Password Generator"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every site that makes you set a password eventually nags you into making a stronger one, and behind that nagging sits code doing exactly what you will write here. In this javascript password generator project, the learner builds a tool that assembles a random password on demand, letting the user pick a length and choose which character types to include, then copies the finished password to the clipboard with a single click. The real skill underneath is controlled randomness: Math.random shows up anywhere a computer needs to pick something unpredictably, from shuffling quiz answers to generating one-time discount codes on a checkout page."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Random Number Generation:</strong> using Math.random to pick characters unpredictably each time the generator runs, so no two passwords come out the same.",
+          "<strong>Building Character Sets:</strong> assembling separate strings for lowercase letters, uppercase letters, numbers, and symbols, then combining only the sets the user has actually selected.",
+          "<strong>Checkbox-Driven Options:</strong> reading the checked state of multiple checkboxes to let users toggle uppercase letters, numbers, and symbols on or off, and rebuilding the character pool each time an option changes.",
+          "<strong>Clipboard API:</strong> using navigator.clipboard.writeText to copy the generated password in one click, so the user never has to manually select and copy text."
+        ]
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "function generatePassword(length, useSymbols) {\n  const letters = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz\";\n  const numbers = \"0123456789\";\n  const symbols = \"!@#$%^&*\";\n  const chars = letters + numbers + (useSymbols ? symbols : \"\");\n\n  let result = \"\";\n  for (let i = 0; i < length; i++) {\n    result += chars[Math.floor(Math.random() * chars.length)];\n  }\n  return result;\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "generatePassword(12, true)\n// \"mAZy&!16#4tN\"  (a new random string every run)"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a live crack-time estimator next to the password: instead of a vague weak or strong label, calculate an actual estimate like \"3 hours\" or \"200 years\" based on the password's length and how many character types are in play, and recalculate it the instant the user changes any checkbox. It turns an abstract security idea into something a beginner can watch change in real time."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "6. Color Palette Generator"
+      },
+      {
+        "type": "paragraph",
+        "text": "Open Coolors or Adobe Color and you'll notice they all do the same basic thing: generate a random value, show it as a block of color, let you copy what you like. A javascript color palette generator teaches you that trick from scratch, five swatches on the page, each one holding a random hex code your script just generated. The real payoff is learning to update CSS custom properties from JavaScript instead of hardcoding colors, which is the same mechanism behind dark mode toggles and theme switchers on production sites. Wire in a Clipboard API button and a spacebar shortcut, and it stops feeling like a classroom exercise and starts feeling like a tool you'd actually bookmark."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Random hex color codes:</strong> writing a function that generates a valid six-digit hex value on demand, the foundation of any color or design tool.",
+          "<strong>CSS custom properties updated from JavaScript:</strong> defining variables like --swatch-1 in your CSS and setting them live with style.setProperty(), so the page repaints without touching the DOM structure.",
+          "<strong>The Clipboard API:</strong> using navigator.clipboard.writeText() so a click on any swatch copies its hex code, with a quick confirmation message so the user knows it worked.",
+          "<strong>Keyboard shortcuts:</strong> adding a keydown listener so pressing the spacebar generates a new palette, the same muscle-memory pattern used in games and productivity apps."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a contrast checker badge to each swatch: calculate the color's relative luminance and show whether black or white text passes WCAG AA on top of it. It turns a color toy into a tool that teaches real accessibility math, and it gives students something they can genuinely explain in a portfolio interview."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Intermediate Projects: Work With Data and APIs",
+        "id": "intermediate-projects"
+      },
+      {
+        "type": "paragraph",
+        "text": "This tier is where projects stop being toys and start behaving like real software: data that survives a refresh, requests to servers you do not control, and interfaces that update themselves instead of waiting for a click."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "7. To-Do List with Local Storage"
+      },
+      {
+        "type": "paragraph",
+        "text": "Close the browser tab on most beginner JavaScript projects and everything you built vanishes. This one is different: you'll build a javascript to-do list with local storage so tasks survive a refresh, a closed tab, or a laptop restart, because the app writes to the browser itself instead of just to memory. The real lesson isn't the checkboxes, it's learning to treat an array as your single source of truth and keep it synced with saved data, the exact pattern behind a Gmail draft that's still there after a crash or a Trello board that remembers your cards without a login."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>CRUD Operations on an Array:</strong> add, read, edit, and remove task objects from a JavaScript array, treating that array (not the DOM) as the true record of what's on the list.",
+          "<strong>JSON.stringify and JSON.parse with localStorage:</strong> convert the array into a string to save it with localStorage.setItem, then parse it back into a real array with JSON.parse every time the page loads.",
+          "<strong>Event Delegation:</strong> attach a single click listener to the parent list container instead of one to every task, so newly added items work immediately without re-binding handlers.",
+          "<strong>Marking Items Complete:</strong> toggle a done property on a task object and re-render its style, such as a strikethrough, keeping that completed state saved in localStorage so it's still marked after a reload."
+        ]
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "function loadTasks() {\n  return JSON.parse(localStorage.getItem(\"tasks\")) || [];\n}\n\nfunction saveTasks(tasks) {\n  localStorage.setItem(\"tasks\", JSON.stringify(tasks));\n}\n\nfunction addTask(text) {\n  const tasks = loadTasks();\n  tasks.push({ id: Date.now(), text, done: false });\n  saveTasks(tasks);\n  return tasks;\n}\n\nfunction toggleTask(id) {\n  const tasks = loadTasks().map(t =>\n    t.id === id ? { ...t, done: !t.done } : t\n  );\n  saveTasks(tasks);\n  return tasks;\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "addTask(\"Learn the DOM\")\naddTask(\"Build a to-do list\")\n// tasks: [\"Learn the DOM\", \"Build a to-do list\"]\n\ntoggleTask(tasks[0].id)\n// \"Learn the DOM\" is now done: true"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add an \"Undo Delete\" toast: instead of removing a task from the array the instant someone clicks remove, hold it in a temporary variable and show a small banner with an Undo button for five seconds, only writing the deletion to localStorage if that window passes without a click."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "8. Countdown Timer for an Event"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every product launch page, concert ticket sale, and flash-sale banner you've ever seen has the same ticking clock counting down to zero, and that clock is built from one simple subtraction. In this javascript countdown timer project, the learner picks a real target date, a birthday, a course start date, a New Year countdown, and builds a live display that recalculates itself once a second until that moment arrives. The core trick, subtracting one timestamp from another to get a raw number of milliseconds, is the same date math behind flight-status trackers, subscription renewal banners, and e-commerce sale timers across the web. Once a student can turn a pile of milliseconds into readable days, hours, minutes, and seconds, and knows how to stop a timer cleanly, they've picked up a pattern they'll reuse in almost every dynamic page they build afterward."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Date math:</strong> Using JavaScript's Date object to subtract the current timestamp from a target date and get the exact number of milliseconds remaining until the event.",
+          "<strong>setInterval:</strong> Running a function on a repeating one-second timer so the countdown display keeps updating on its own without the visitor refreshing the page.",
+          "<strong>Time unit conversion:</strong> Breaking a raw millisecond count down into whole days, hours, minutes, and seconds using division and the modulo operator.",
+          "<strong>Clearing intervals:</strong> Calling clearInterval the moment the countdown reaches zero, so the timer stops cleanly instead of ticking into negative numbers or running invisibly in the background."
+        ]
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "function getTimeRemaining(targetDate, now = new Date()) {\n  const total = targetDate.getTime() - now.getTime();\n  if (total <= 0) return { days: 0, hours: 0, minutes: 0, seconds: 0, finished: true };\n\n  const seconds = Math.floor((total / 1000) % 60);\n  const minutes = Math.floor((total / 1000 / 60) % 60);\n  const hours = Math.floor((total / (1000 * 60 * 60)) % 24);\n  const days = Math.floor(total / (1000 * 60 * 60 * 24));\n\n  return { days, hours, minutes, seconds, finished: false };\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "getTimeRemaining(new Date(2026, 0, 3, 6, 30, 15), new Date(2026, 0, 1))\n// { days: 2, hours: 6, minutes: 30, seconds: 15, finished: false }"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a \"countdown complete\" state: the instant the timer hits zero, swap the numbers out for a canvas confetti burst and a message pulled from a rotating array (or a code that reveals a linked page), so the timer rewards the visitor for waiting instead of just freezing at 00:00:00."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "9. Weather App Using a Public API"
+      },
+      {
+        "type": "paragraph",
+        "text": "Open a ride-hailing app and there's a good chance it already asked your browser for your location before you tapped anything, then quietly called a server somewhere to get real data back. That sequence, ask for permission, fetch from an API, wait, then render what comes back, is the heart of this javascript weather app api project: the learner builds a page that detects where the user is, requests current conditions and a short forecast from a public weather API, and displays it in a simple card once the response arrives. The real skill isn't the weather icons, it's handling everything between the click and the answer showing up on screen, the same plumbing that runs Google Maps locating you the instant you open it."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Fetch API and async/await:</strong> the learner calls a public weather API with fetch and writes the request using async/await syntax instead of chained .then() calls, so the asynchronous code reads top to bottom like ordinary code.",
+          "<strong>Working with JSON responses:</strong> the API sends back a JSON payload with nested fields for temperature, conditions, and forecast, and the learner parses that JSON to pull out exactly the values needed to build the display.",
+          "<strong>Geolocation API:</strong> the browser's built-in Geolocation API asks the user for permission and returns their coordinates, which get passed into the weather API request so the forecast matches where the user actually is.",
+          "<strong>Handling network errors and loading states:</strong> the learner adds a loading indicator while the request is in flight and writes try or catch logic to catch a failed request, a denied location permission, or a bad response, so the page never just sits there broken with no explanation."
+        ]
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "async function getWeather(lat, lon) {\n  const url = `https://api.example.com/weather?lat=${lat}&lon=${lon}`;\n  const response = await fetch(url);\n\n  if (!response.ok) throw new Error(\"Weather request failed\");\n\n  const data = await response.json();\n  return {\n    tempC: data.current.temp_c,\n    condition: data.current.condition.text,\n  };\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "await getWeather(22.57, 88.36)\n// { tempC: 27, condition: \"Partly cloudy\" }"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a commute comparison feature: let the user save two locations, like home and work, fetch weather for both with a single button press, and show a line like It's 6 degrees warmer at work, skip the heavy jacket, generated by comparing the two temperature readings and picking a message from a small set of rules."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "10. Quiz App With Score Tracking"
+      },
+      {
+        "type": "paragraph",
+        "text": "Think about any quiz you have taken on a language app, or a hiring test that times your answers. Underneath the interface, the questions are just data, stored as a list the app reads from as you move through it. In this javascript quiz app project you will build that same structure yourself, showing one question on screen at a time while the score updates behind the scenes, then revealing a results screen once the last question is answered. This pattern, storing content as an array of objects and letting the interface render from that data, is exactly what powers onboarding flows and multi-step forms on real websites, not just quizzes."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Structuring your data:</strong> Storing every question, its answer options, and the correct answer as one object inside an array, so the whole quiz lives in one clean, editable list instead of being scattered across the HTML.",
+          "<strong>Tracking state as the user plays:</strong> Keeping the current question index and the running score updated in state as the user clicks through, so the app always knows where they are and how they are doing.",
+          "<strong>Rendering options dynamically:</strong> Generating the answer buttons for each question straight from the data array instead of hardcoding them, so adding another question never means touching your HTML.",
+          "<strong>Building a results screen:</strong> Swapping the quiz view for a summary screen once the last question is answered, showing the final score and giving the user a clear sense of how they did."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a \"Review Answers\" button to the results screen that loops back through the question array and shows each question again with the user's selected answer next to the correct one, highlighting wrong answers in red and correct ones in green, so the learner sees exactly where they slipped up instead of just a final number."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "11. Expense Tracker"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ask five people where their money went last month and four of them will guess. The fifth one built a javascript expense tracker project and can tell you to the rupee. This section walks through an app that logs each purchase, then calculates running totals by category and remembers everything even after the browser closes. The same pattern, reading an array of transactions and reducing it into a single number, is exactly what powers the balance on a banking app or the subtotal at checkout on an e-commerce site."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Running totals with reduce and filter:</strong> Calculate category totals and an overall balance by filtering expenses down to the ones you care about, then reducing them into a single sum, instead of writing a loop with a manual counter variable.",
+          "<strong>Data persistence with localStorage:</strong> Save every expense to the browser's localStorage so the list survives a page refresh or a closed tab, then read it back and parse it into a JavaScript array when the page loads again.",
+          "<strong>Form validation:</strong> Check that the amount field holds a real positive number and the description isn't blank before an expense gets added, and tell the user exactly what's wrong instead of letting the entry fail silently.",
+          "<strong>Dynamic list rendering:</strong> Loop through the expenses array and generate every entry on the page straight from data, so adding one new expense updates the whole display without hardcoding a single line of HTML."
+        ]
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "function getTotals(expenses) {\n  const income = expenses\n    .filter(e => e.amount > 0)\n    .reduce((sum, e) => sum + e.amount, 0);\n\n  const spending = expenses\n    .filter(e => e.amount < 0)\n    .reduce((sum, e) => sum + e.amount, 0);\n\n  return { income, spending, balance: income + spending };\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "getTotals([\n  { text: \"Salary\", amount: 30000 },\n  { text: \"Groceries\", amount: -2200 },\n  { text: \"Movie night\", amount: -600 }\n])\n// { income: 30000, spending: -2800, balance: 27200 }"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a Budget Ceiling feature: let the learner set a monthly spending limit for each category, then reuse the same reduce logic to compare the running total against that limit and turn the category label red with a warning icon once spending is getting close to the cap."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "12. Random Quote Generator With an API"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ever wonder how a site can show a brand new line of wisdom every time you refresh, without a developer typing each one in by hand? That's the trick behind this project. Students build a javascript random quote generator api project that calls a live quotes service and displays whatever comes back, right on the page, in real time. Beyond the fun of a quote box, this teaches the exact pattern used by weather widgets and currency converters, basically anywhere a page needs fresh data from somewhere else on the internet."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Fetch API Integration:</strong> using fetch() to call a third-party quotes API and parse the JSON response it sends back.",
+          "<strong>New Quote Button:</strong> wiring a click handler that triggers a fresh network request each time, so the page never just recycles the same data.",
+          "<strong>Share-to-Twitter Link:</strong> building a dynamic URL that pulls the current quote text into a tweet composer link, so the exact quote on screen is what gets shared.",
+          "<strong>Loading State:</strong> showing the user something is happening while the request is in flight, instead of leaving the page frozen or blank.",
+          "<strong>Error State:</strong> catching a failed request, such as the API being down, and showing a clear message instead of a broken page."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a \"Make it a Postcard\" feature that uses the Canvas API to draw the current quote onto a stylized background image, then lets the user download it as a PNG, turning a plain text quote into a shareable graphic without ever leaving the page."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "13. Image Carousel / Slider"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every online store you have ever shopped on has one: a row of product photos that slides left and right when you tap an arrow or swipe with your thumb. In this javascript image carousel slider project, you build that exact component from scratch, using array indexing to track which image is showing and touch events to let a swipe control it. The wraparound math you write here, looping from the last slide back to the first without a jarring jump, is the same logic that powers infinite scroll feeds and rotating banner ads across the web."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Wraparound Indexing:</strong> use the modulo operator on the slide index so clicking next past the last image loops back to the first one instead of throwing an out-of-bounds error.",
+          "<strong>CSS Transitions:</strong> animate the transform property with an eased duration so slides glide into place instead of snapping, the same technique behind smooth modal and accordion animations.",
+          "<strong>Touch and Swipe Events:</strong> read touchstart, touchmove, and touchend to measure swipe direction and distance, so mobile visitors can drag through slides with a finger instead of tapping arrows.",
+          "<strong>Autoplay With Hover Pause:</strong> run the carousel on a setInterval timer that advances slides automatically, then clear it on mouseenter and reset it on mouseleave so a visitor can actually read a slide before it changes."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Give each slide-position dot a thin animated progress bar that fills up in sync with the autoplay timer, the way Instagram Stories shows how much time is left before the next slide. That way a visitor can see exactly when the carousel is about to move and click ahead if they do not want to wait."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "14. Recipe Finder App"
+      },
+      {
+        "type": "paragraph",
+        "text": "Type \"chicken\" into a search box and most apps wait a beat before doing anything with it. That pause is engineered, not accidental, and a recipe finder app is where a learner builds that behavior themselves instead of just noticing it. In this javascript recipe finder api project, students wire a search input to a public recipe API, hold off on calling it until the user actually stops typing, then fetch and render a grid of matching dishes. The same pausing trick, called debouncing, is what keeps Google's search suggestions and Amazon's product search from firing a network request on every single keystroke."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Fetch API with query parameters:</strong> call a public recipe API using fetch(), passing the user's search term as a URL query parameter and parsing the returned JSON.",
+          "<strong>Debounced search input:</strong> use setTimeout and clearTimeout to delay the fetch until the user pauses typing, so one search fires instead of a request per keystroke.",
+          "<strong>Rendering a results grid:</strong> loop through the array of recipes from the API and generate a responsive grid of cards, each with an image, title, and quick detail, rebuilt every time new results come in.",
+          "<strong>Loading skeleton state:</strong> show placeholder cards with a subtle pulse animation while the fetch is in flight, so the page doesn't sit blank or jump around once real data arrives."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a \"Cook With What I Have\" mode: let the user type two or three ingredients sitting in their fridge, then re-sort the results grid by how many of those ingredients each recipe actually uses, highlighting the matched ingredients right on the card."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/html-css-javascript-project-ideas/02-skills-matrix.png",
+        "alt": "A grid showing which JavaScript techniques, like localStorage, fetch API, and array methods, repeat across multiple beginner to advanced projects",
+        "caption": "Notice how few techniques actually repeat. Learn localStorage once and you have it for four different projects."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Advanced Projects: Canvas, Algorithms, and Real Interactivity",
+        "id": "advanced-projects"
+      },
+      {
+        "type": "paragraph",
+        "text": "The final six ask more of you: an algorithm that thinks several moves ahead, a canvas you paint on pixel by pixel, a drag gesture you have to track by hand. These are the projects that make an interviewer stop skimming your portfolio and start asking questions."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "15. Drum Kit / Sound Board"
+      },
+      {
+        "type": "paragraph",
+        "text": "Tap the A key and a kick drum should hit the speakers before your finger even lifts off. That is the target here: a javascript drum kit keyboard sound board where letters and numbers on the keyboard are mapped to individual drum sounds, each one firing an audio clip and a flash of colour the instant a key is pressed. The real challenge isn't playing a sound on click, it's catching raw keyboard input and making the page react fast enough that it feels like an instrument rather than a web page. You will meet this same keyboard-to-sound-and-animation pattern in browser-based piano and synth apps, and in games where a keypress has to fire an effect the moment it happens, not after a noticeable delay."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>The Audio object:</strong> create a new Audio object for each sound clip and call its play method on demand, so a single key press can start playback instantly without reloading the page.",
+          "<strong>Keydown event listeners:</strong> attach a listener to the whole document, read which key was pressed from the event, and match it against a lookup of specific keys so each one triggers its own drum sound.",
+          "<strong>CSS animations triggered by JavaScript classes:</strong> add a class like \"playing\" to a drum pad element when its key fires, then let a CSS animation or transition handle the visual pulse, keeping the styling logic out of your JavaScript.",
+          "<strong>Preventing rapid double-triggering:</strong> handle the case where a held-down key repeats keydown events or a fast typist retriggers a sound before the animation finishes, using checks like currentTime resets or removing and re-adding the CSS class cleanly."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a record-and-loop mode: a Record button that timestamps every key press as it happens, a Stop button that ends capture, and a Play button that replays the exact sequence with the original timing, turning the sound board into a tiny beat looper students can use to build actual rhythms."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "16. Drawing App / Whiteboard"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ever notice how a sketch tool works the same whether you're dragging a mouse on a laptop or tracing with a finger on a phone? That's the puzzle behind this javascript canvas drawing app project, a whiteboard where students pick a color, adjust brush size, draw freehand, and undo a stroke that went wrong. The real skill underneath is the Canvas API, the same 2D drawing surface that powers signature pads on delivery apps and the markup tool in a PDF viewer. Once a learner can track a pointer's position and paint pixels in response, they start seeing the screen as something they can respond to in real time, not just a fixed layout."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Canvas API:</strong> setting up a canvas element and using its 2D rendering context to draw lines and paths directly with code instead of relying on pre-made images.",
+          "<strong>Pointer event handling:</strong> listening for mousedown, mousemove, and mouseup to know exactly when a stroke starts, continues, and ends, then mirroring that logic with touchstart, touchmove, and touchend so the app works on tablets and phones.",
+          "<strong>Undo stack:</strong> storing a history of drawing actions in an array so a student can step backward through their strokes, an early hands-on look at how undo works in tools like a text editor or an image app.",
+          "<strong>Color and brush-size controls:</strong> wiring a color picker and a range slider to the variables that shape each stroke, so the interface actually drives the drawing logic instead of just sitting next to it."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a \"replay\" button that reuses the same undo stack data to redraw the entire sketch stroke by stroke at high speed, turning any finished drawing into an instant time-lapse animation the student can watch back or share."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "17. Memory Matching Card Game"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ask ten people to shuffle a deck by hand and you will get ten different levels of randomness, which is exactly the problem this project solves with code. In this javascript memory card game project, learners build the classic pairs game, a grid of face-down cards that reveals two at a time and locks a pair in place the moment it matches. The Fisher-Yates shuffle sitting at the center of it is the same algorithm behind shuffle play on music apps and randomized question order in online tests, so it is a technique worth getting right once and reusing forever. Along the way, students also practice tracking state that changes with every click, the same pattern that shows up in quiz apps and shopping carts."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Fisher-Yates Shuffle:</strong> randomize the array of card values properly so every new game deals a genuinely different layout, instead of relying on a naive sort-by-Math.random() trick that skews results.",
+          "<strong>Flipped-Card State &amp; Match Checking:</strong> keep track of which cards are currently face up, compare their values once two are flipped, and decide whether to keep them revealed or flip them back after a short delay.",
+          "<strong>Move Counter:</strong> increment a counter on every pair attempt so players can see how efficiently they are playing, not just whether they win.",
+          "<strong>Timer:</strong> start and update a running clock with setInterval so each game has a completion time to track and try to beat.",
+          "<strong>Win-Detection Check:</strong> compare the number of matched pairs to the total pairs after each successful match so the game recognizes the exact moment the board is complete and shows the win state."
+        ]
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "function shuffle(array) {\n  const arr = [...array];\n  for (let i = arr.length - 1; i > 0; i--) {\n    const j = Math.floor(Math.random() * (i + 1));\n    [arr[i], arr[j]] = [arr[j], arr[i]];\n  }\n  return arr;\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "shuffle([\"A\", \"A\", \"B\", \"B\", \"C\", \"C\"])\n// [\"B\", \"A\", \"C\", \"A\", \"C\", \"B\"]  (a new order every call)"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a difficulty selector that changes the grid size between 4x4, 6x6, and 8x8, plus a one-time \"Peek\" power-up button that flips every card face up for exactly one second per game. Store each player's best time and move count per difficulty in localStorage so returning visitors have a personal record to beat."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "18. Tic-Tac-Toe With an Unbeatable AI"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every unbeatable tic-tac-toe opponent you've ever lost to is running the same trick: it plays out every possible future before making a single move. Here you'll build a javascript tic tac toe minimax ai that never loses, by teaching the computer to look several moves ahead and pick whichever outcome hurts you most. The underlying idea, called minimax, is the same one behind chess engines, checkers bots, and any game AI that has to choose a move by reasoning about an opponent's best response, so once it clicks on a 3x3 grid it transfers directly to far bigger games."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Minimax Algorithm:</strong> the learner implements the game-tree search that scores every possible sequence of future moves, then chooses the move that guarantees the best result even against a perfect opponent.",
+          "<strong>Recursion:</strong> the AI calls itself to play the game forward one hypothetical move at a time, then unwinds those nested calls to compare which branch scored best.",
+          "<strong>Board State &amp; Win Checking:</strong> the grid gets modeled as a simple array, and the learner writes the logic that scans every row, column, and diagonal after each move to detect a win, a loss, or a draw.",
+          "<strong>Difficulty Levels:</strong> the learner builds an easy mode that just picks a random open square alongside a hard mode driven by minimax, showing how the same board state produces very different AI behavior depending on the search strategy behind it."
+        ]
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "function checkWinner(board) {\n  const lines = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];\n  for (const [a, b, c] of lines) {\n    if (board[a] && board[a] === board[b] && board[a] === board[c]) return board[a];\n  }\n  return board.includes(null) ? null : \"Tie\";\n}\n\nfunction minimax(board, isMaximizing) {\n  const winner = checkWinner(board);\n  if (winner === \"O\") return 1;\n  if (winner === \"X\") return -1;\n  if (winner === \"Tie\") return 0;\n\n  const scores = [];\n  for (let i = 0; i < 9; i++) {\n    if (board[i] === null) {\n      board[i] = isMaximizing ? \"O\" : \"X\";\n      scores.push(minimax(board, !isMaximizing));\n      board[i] = null;\n    }\n  }\n  return isMaximizing ? Math.max(...scores) : Math.min(...scores);\n}\n\nfunction bestMove(board) {\n  let bestScore = -Infinity, move = -1;\n  for (let i = 0; i < 9; i++) {\n    if (board[i] === null) {\n      board[i] = \"O\";\n      const score = minimax(board, false);\n      board[i] = null;\n      if (score > bestScore) { bestScore = score; move = i; }\n    }\n  }\n  return move;\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "// X has two in a row and could win at index 2\nconst board = [\"X\", \"X\", null, null, \"O\", null, null, null, null];\n\nbestMove(board)   // 2  (the AI blocks the win)"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a \"Show Its Thinking\" toggle that, right before the AI moves, overlays the minimax score it calculated for every open square (10 for a forced win, 0 for a draw, -10 for a loss). Players can then see exactly why the bot picked the square it did instead of treating the unbeatable AI as a black box."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/html-css-javascript-project-ideas/03-code-window.png",
+        "alt": "The minimax algorithm powering an unbeatable tic-tac-toe AI in JavaScript, shown in a code window with the winning move highlighted",
+        "caption": "This is the same core idea behind chess engines, scaled down to a 3x3 board. bestMove() looks at every possible future and picks the one where it cannot lose."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "19. Kanban Task Board"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every time you drag a card across a Trello board or move an email into a folder in Gmail, a browser event is quietly telling the page \"the user picked this up, now put it down here.\" In this project you will build that exact interaction yourself: a javascript kanban board with drag and drop where a user can add task cards, drag them between columns like To Do, In Progress, and Done, delete the ones they finish, and reload the page to find everything still exactly where they left it. Getting this right means learning how three connected browser events, dragstart, dragover, and drop, hand information to each other during a single drag gesture. It is a skill that shows up anywhere content needs to be reordered by touch or mouse, from project management tools to admin dashboards with reorderable rows."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>HTML5 Drag and Drop API:</strong> Use the native dragstart, dragover, and drop events to pick up a card, signal a valid drop zone, and release it into a new column without any external library.",
+          "<strong>State Persistence with localStorage:</strong> Save the full board, every column and every card inside it, to localStorage each time something changes, so refreshing the page or closing the tab does not erase a single task.",
+          "<strong>Dynamic Rendering:</strong> Generate the columns and card elements from a JavaScript array or object instead of hardcoding them in HTML, so the board updates itself whenever the underlying data changes.",
+          "<strong>Adding and Deleting Cards:</strong> Build the create-and-remove logic that lets a user type a new task into a column and clear out finished ones, keeping the in-memory board and the saved localStorage copy in sync."
+        ]
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "function moveCard(columns, cardId, fromCol, toCol) {\n  const card = columns[fromCol].find(c => c.id === cardId);\n  columns[fromCol] = columns[fromCol].filter(c => c.id !== cardId);\n  columns[toCol] = [...columns[toCol], card];\n  return columns;\n}\n\n// wired to the native drag events\ncard.addEventListener(\"dragstart\", e => {\n  e.dataTransfer.setData(\"text/plain\", card.dataset.id);\n});\ncolumn.addEventListener(\"dragover\", e => e.preventDefault());\ncolumn.addEventListener(\"drop\", e => {\n  const cardId = e.dataTransfer.getData(\"text/plain\");\n  board = moveCard(board, cardId, sourceColumn, column.dataset.name);\n  saveBoard(board);\n});"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "moveCard(board, 1, \"todo\", \"doing\")\n// todo:  [\"Write the README\"]\n// doing: [\"Design the header\"]"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a WIP limit feature: let the user cap how many cards a column can hold (say, three in \"In Progress\"), and when a drop would push a column past its limit, reject the drop and flash the column border red instead of accepting the card. It is a small addition, but it forces you to write real validation logic inside your drop handler instead of just accepting every card blindly."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "20. E-commerce Product Page With a Cart"
+      },
+      {
+        "type": "paragraph",
+        "text": "Add to Cart looks like one button, but behind it sits a small, persistent database: an array of objects tracking what's in the cart, how many of each, and a running total that has to stay correct no matter how many times the page reloads. Here the learner builds a working product page, images, variants, prices, wired to a cart that lives in localStorage, so refreshing the browser doesn't wipe out what a shopper already picked. It's a natural capstone javascript shopping cart project, because it forces array methods, math, and browser storage to work together in one feature instead of three separate exercises. The same pattern, an array of line items plus a total that survives a page reload, is running right now underneath the cart icon on Amazon, every Shopify store, and nearly every checkout flow on the web."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Cart state management:</strong> store each cart item as an object with an id, name, price, and quantity inside an array, then write functions to add a new item, bump its quantity up or down, and remove it entirely.",
+          "<strong>Subtotal, tax, and total calculations:</strong> loop through the cart array to sum line totals into a subtotal, apply a tax rate on top of it, and display a final total that recalculates the instant the cart changes.",
+          "<strong>localStorage persistence:</strong> save the cart array to localStorage as JSON on every add, update, or removal, and read it back in when the page first loads so a shopper's cart survives a refresh or a closed tab.",
+          "<strong>Cross-page UI sync:</strong> keep a cart-count badge in the header updated everywhere it appears on the page, so the number shown always matches the actual contents of the cart array the moment it changes."
+        ]
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "function getCartSummary(cart) {\n  const subtotal = cart.reduce((sum, item) => sum + item.price * item.qty, 0);\n  const tax = Math.round(subtotal * 0.08 * 100) / 100;\n  const total = Math.round((subtotal + tax) * 100) / 100;\n  return { subtotal, tax, total };\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "getCartSummary([\n  { name: \"Wireless Mouse\", price: 799, qty: 1 },\n  { name: \"USB-C Cable\", price: 249, qty: 2 }\n])\n// { subtotal: 1297, tax: 103.76, total: 1400.76 }"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Make it yours:</strong> Add a promo code field under the cart summary that checks the entered code against a small lookup object of discounts (a flat amount or a percentage off), then shows the original subtotal with a strikethrough next to the discounted total, so the learner has to handle order of operations between discount and tax correctly."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to Actually Finish a Project (Not Just Start One)",
+        "id": "how-to-finish"
+      },
+      {
+        "type": "paragraph",
+        "text": "The gap between a portfolio with three finished projects and a GitHub full of half-built repos is almost never talent. It is scope. Every project on this page can quietly grow from a weekend build into a six-month feature list if you let it, so the habits below matter as much as the code."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Build the ugly version first:</strong> get the core logic working with default browser styling before you touch a single CSS color. A working calculator with black text on white is still a working calculator.",
+          "<strong>Cut features, not corners:</strong> if the drag-and-drop board is taking too long, ship a version with click-to-move buttons instead. A working substitute beats an unfinished original every time.",
+          "<strong>Test with real, messy input:</strong> type an empty to-do, enter a negative expense, resize the browser to phone width. Half of what you learn happens fixing what breaks, not writing the first version.",
+          "<strong>Deploy it somewhere real:</strong> a free static host turns a folder on your laptop into a link you can actually send someone. A project nobody can click on might as well not exist for a portfolio."
+        ]
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/html-css-javascript-project-ideas/04-portfolio-impact.png",
+        "alt": "What finished HTML CSS and JavaScript projects prove to an employer or parent, mapped to specific project examples like the weather app and shopping cart",
+        "caption": "A finished project is a claim you can back up. Pick the ones that back up the claims you actually want to make."
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "The one-sentence test",
+        "text": "Before you call a project finished, try to describe what it does in one sentence to someone who has never seen it. If you cannot, the project is still missing its point, not just its polish."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What HTML, CSS, and JavaScript projects are best for beginners?",
+            "content": "A personal portfolio site, a digital clock, a simple calculator, a BMI calculator, a password generator, and a color palette generator. All six use only core JavaScript and DOM basics, so they build confidence before you touch APIs or browser storage."
+          },
+          {
+            "title": "Do I need to know a framework like React to build these?",
+            "content": "No. Every project on this page is built with plain HTML, CSS, and JavaScript, no frameworks, no build tools, no npm install. That is deliberate: frameworks make far more sense once you understand what they are automating, and these twenty projects teach exactly that."
+          },
+          {
+            "title": "Which project should I build to practice working with APIs?",
+            "content": "The weather app, the recipe finder, and the random quote generator all call a public API using fetch and async/await. Start with the quote generator, since it has the simplest response to parse, then move to the weather app once JSON handling feels natural."
+          },
+          {
+            "title": "How long does each project take to build?",
+            "content": "Beginner projects usually take one to three hours. Intermediate projects, especially ones involving an API or localStorage, take an evening or two. The advanced projects, particularly the tic-tac-toe AI and the Kanban board, can take a weekend if you build every feature listed."
+          },
+          {
+            "title": "What is the hardest project on this list?",
+            "content": "The tic-tac-toe game with a minimax AI is the most conceptually demanding, since it requires understanding recursion and game-tree search rather than just DOM manipulation. The Kanban board is a close second because the native Drag and Drop API has a few genuinely confusing event quirks."
+          },
+          {
+            "title": "Should I use localStorage or a real database for these projects?",
+            "content": "localStorage is the right choice for every project here. It requires no server, no account, and no cost, and it teaches the same save-and-reload pattern that a real database would, just entirely inside the browser. Save the database conversation for after you have a few of these finished."
+          },
+          {
+            "title": "How do I turn one of these projects into a portfolio piece?",
+            "content": "Finish it, deploy it to a free static host so it has a real link, then write two or three sentences explaining what problem it solves and which specific skill it demonstrates. A live link with a clear one-line pitch beats a folder of source code every time."
+          },
+          {
+            "title": "What should I build after finishing all 20 projects?",
+            "content": "Pick two or three ideas from this list and combine them into one larger app, for example a habit tracker that borrows the to-do list's localStorage pattern and the countdown timer's date math. Combining familiar pieces into something new is exactly how real products get built."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Twenty Projects, One Habit"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every one of these twenty ideas teaches the same underlying habit: read the problem, break it into small pieces, and build the pieces one at a time until the whole thing works. That habit is worth more than any single technique on this page, and it is the same habit that carries you into frameworks, backends, and eventually your own product ideas. If you want the fundamentals under all of this explained from zero first, our <a href='/blog/javascript-basics'>JavaScript basics guide</a> is the right place to start, and our <a href='/blog/project-based-learning-why-theory-alone-not-enough-coding'>project-based learning guide</a> goes deeper into why building beats watching."
+      },
+      {
+        "type": "paragraph",
+        "text": "Want a structured path through projects like these instead of picking one at random? Our <a href='/coding-roadmap'>coding roadmap</a> sequences exactly this kind of project-first learning, and if you would rather build with a teacher checking your code line by line, our <a href='/real-coding-classes'>live coding classes</a> welcome learners aged 6 to 67."
+      },
+      {
+        "type": "button",
+        "text": "Book a Free Demo Class",
+        "url": "/contact",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Related reading"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/javascript-basics'>JavaScript Basics</a>",
+          "<a href='/blog/best-free-platforms-for-vibe-coding'>10 Best Free Platforms for Vibe Coding</a>",
+          "<a href='/blog/project-based-learning-why-theory-alone-not-enough-coding'>Project-Based Learning: Why Theory Alone Is Not Enough</a>"
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "javascript-basics",
+    "best-free-platforms-for-vibe-coding",
+    "project-based-learning-why-theory-alone-not-enough-coding"
+  ]
+}

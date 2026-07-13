@@ -781,6 +781,10 @@
         ]
       },
       {
+        "type": "paragraph",
+        "text": "If you genuinely have nothing to build yet, a starter list still beats a blank page. Our <a href='/blog/html-css-javascript-project-ideas'>20 HTML, CSS, and JavaScript project ideas</a> guide sorts twenty real builds into beginner, intermediate, and advanced tiers, so you can pick the one that matches where you actually are instead of guessing."
+      },
+      {
         "type": "callout",
         "calloutType": "success",
         "title": "The Best Project Idea",

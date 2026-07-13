@@ -300,6 +300,10 @@
       },
       {
         "type": "paragraph",
+        "text": "One of the fastest ways to build that understanding is to hand-build a few small projects yourself before you lean on an AI tool for bigger ones. Our <a href='/blog/html-css-javascript-project-ideas'>20 HTML, CSS, and JavaScript project ideas</a> guide is a good place to start, twenty real builds with tested code, so you can recognize good output from a generator instead of just trusting it."
+      },
+      {
+        "type": "paragraph",
         "text": "Take a few minutes to read up on <a href='https://learn.modernagecoders.com/blog/what-is-the-responsibility-of-developers-using-generative-ai' target='_blank' rel='noopener noreferrer'>the responsibility of developers using generative AI</a>. Because at the end of the day, if your app leaks user data, you can't blame the AI. You are the one deploying the code. Use AI integrations as your co-pilot, but keep your hands firmly on the steering wheel."
       },
       {
@@ -328,4 +332,3 @@
     "best-coding-languages-kids-10-18-beginner-advanced"
   ]
 }
-

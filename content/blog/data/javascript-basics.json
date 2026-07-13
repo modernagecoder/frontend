@@ -568,6 +568,10 @@
         "text": "Each of these projects builds on the fundamentals you've learned. Start simple, get it working, then add features. The key is to build things that interest you—you'll learn faster when you're excited about what you're creating!"
       },
       {
+        "type": "paragraph",
+        "text": "Want the full list with real, tested code for each one? Our <a href='/blog/html-css-javascript-project-ideas'>20 HTML, CSS, and JavaScript project ideas</a> guide sorts twenty builds like these into beginner, intermediate, and advanced tiers, twelve of them with working code you can run today."
+      },
+      {
         "type": "divider",
         "style": "gradient"
       },
