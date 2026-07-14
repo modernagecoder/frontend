@@ -45,8 +45,56 @@ desktop.ini
 phase*.png
 baseline*.png
 
-# Plan files
-image-prompts-for-blogs.md
+# Internal plans, prompts and working notes.
+# netlify.toml sets publish = "." — every tracked file at the repo root is deployed and
+# publicly fetchable. /company-profile.md (67 KB of confidential business analysis) and
+# /promptseo.md were both live and returning HTTP 200. Keep these files local: if you need
+# one deployed, move it under src/pages and route it deliberately.
+# Patterns are anchored with a leading "/" so they only ever match the repo root. Without
+# it, git applies them at every level and a future public/images/ca-hero.png or
+# docs/prompt.md would be silently untracked.
+/image-prompts-for-blogs.md
+/blogsystem.md
+/blogsgenerateprompt.md
+/cityprompt.md
+/cityprompt2.md
+/company-profile.md
+/countryprompt.md
+/kolkatacomplexesandsociety.md
+/newpage.md
+/newpageofcourse.md
+/newpages2.md
+/newuniquepages.md
+/page404error.md
+/pagenotfound.md
+/planbyclaude.md
+/prompt.md
+/prompt1.md
+/promptcertificate.md
+/promptseo.md
+/schoolnames.md
+/statespagesplan.md
+/uiuxplan.md
+/VISIBILITY-100X-MASTER-PLAN.md
+/VISIBILITY-SEO-AEO-PLAN.md
+
+# Debug screenshots taken while building pages: root-level scratch, never referenced by the
+# site, but they were deploying as public assets. Real page images live in public/images/
+# and content/, which these patterns deliberately do not reach.
+/ca-*.png
+/de-*.png
+/dps-*.png
+/germany-*.png
+/heritage-*.png
+/donbosco-*.png
+/qa-*.png
+/sa-*.png
+/*-1280*.png
+/*-390*.png
+/*-1280*.jpeg
+/*-390*.jpeg
+/bash.exe.stackdump
+/et --hard HEAD
 
 # design-sync (claude.ai/design) — regenerable build artifacts, not source
 .ds-sync/

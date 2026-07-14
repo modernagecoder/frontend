@@ -1,3 +1,0 @@
-here is the blog topic ""
-i want you write detailed blog by undesrtandin the pattern and format of the blog
-generate images using nano banana 2 there are many images in the blog around 4 or 5 high quality understand the format and theme and generate accordinly very deeper very artistic image and save here and use the image path wiht proper rename image must be anime cartoon or other art form it must be look very beautiful and attractive and touching
