@@ -130,7 +130,9 @@ class CourseGenerator {
             // Linux/Netlify returns inode order). Two JSONs can declare the same meta.slug,
             // and whichever is written last wins — so an unsorted read means the build can
             // publish a different title/price on Netlify than it does locally.
-            const courseFiles = fs.readdirSync(this.dataDir).filter(f => f.endsWith('.json')).sort();
+            const courseFiles = fs.readdirSync(this.dataDir)
+                .filter(f => f.endsWith('.json') && f !== 'courses-config.json')
+                .sort();
 
             if (courseFiles.length === 0) {
                 console.log('⚠️  No course files found');
@@ -629,6 +631,32 @@ class CourseGenerator {
         return out.length ? out : null;
     }
 
+    /**
+     * meta.commitment is written for humans ("12-15 hours/week recommended"). Google expects
+     * courseWorkload as an ISO 8601 duration, so convert; return null when the text carries no
+     * usable figure, and let the caller omit the property rather than publish a guess.
+     */
+    isoWorkload(text) {
+        if (!text) return null;
+        const t = String(text).toLowerCase().replace(/[–—]/g, '-');
+
+        // A stated weekly total wins. Anything following it in parentheses breaks that total
+        // down ("5-7 hours/week (2 live classes + self-practice)") — it is not extra work, so
+        // adding the class count here would overstate the commitment.
+        const weekly = t.match(/(?:(\d+(?:\.\d+)?)\s*-\s*)?(\d+(?:\.\d+)?)\s*hours?\s*(?:\/\s*|per\s+)week/);
+        if (weekly) return `PT${Math.round(parseFloat(weekly[2]))}H`;
+
+        // Otherwise the text is additive: live class time plus any stated practice hours
+        // ("2 live classes/week + 3-4 hours practice"). Ranges take the upper bound; practice
+        // quoted in minutes is ignored rather than rounded up to an hour.
+        let hours = 0;
+        const cls = t.match(/(\d+)\s*live\s*(?:one-hour\s*)?class/);
+        if (cls) hours += parseInt(cls[1], 10);
+        const practice = t.match(/(?:\d+(?:\.\d+)?\s*-\s*)?(\d+(?:\.\d+)?)\s*hours?/);
+        if (practice) hours += Math.round(parseFloat(practice[1]));
+        return hours > 0 ? `PT${hours}H` : null;
+    }
+
     generateStructuredData(courseData) {
         const meta = courseData.meta || {};
         const overview = courseData.program_overview || {};
@@ -662,14 +690,22 @@ class CourseGenerator {
             "educationalLevel": meta.level || "All Levels",
             "hasCourseInstance": {
                 "@type": "CourseInstance",
-                "courseMode": "online",
-                "courseWorkload": meta.commitment || "Flexible",
+                // "Online", not "online" — Google matches this against a case-sensitive
+                // enum (Online | Onsite | Blended) and ignores the value otherwise.
+                "courseMode": "Online",
                 "instructor": {
                     "@type": "Organization",
                     "name": "Modern Age Coders Expert Instructors"
                 }
             }
         };
+
+        // A CourseInstance needs courseSchedule or courseWorkload, and Google expects
+        // courseWorkload as an ISO 8601 duration. meta.commitment is human prose
+        // ("12-15 hours/week recommended"), which Google cannot parse — so the property
+        // was present but useless. Convert it; omit rather than guess when it cannot be read.
+        const workload = this.isoWorkload(meta.commitment);
+        if (workload) courseSchema.hasCourseInstance.courseWorkload = workload;
 
         // Add image if available
         if (meta.image_path) {
@@ -681,6 +717,13 @@ class CourseGenerator {
         }
 
         // Pricing offers — enforce standard 3-tier structure across all courses.
+        // offers.category must be one of Google's four values: Free | Partially Free |
+        // Subscription | Paid. It previously held the tier name ("Group Classes", "Mini
+        // Batch", "Personalized 1-on-1"), which fails a *required* property and made every
+        // course page ineligible for the Course rich result. The tier name belongs in
+        // offers.name, where it already is. Billing here is monthly and recurring, so
+        // "Subscription" is the accurate value.
+        const OFFER_CATEGORY = 'Subscription';
         const today = new Date().toISOString().split('T')[0];
         const validUntil = `${new Date().getUTCFullYear() + 1}-12-31`;
         const seller = { "@type": "Organization", "name": "Modern Age Coders", "url": "https://learn.modernagecoders.com" };
@@ -696,7 +739,7 @@ class CourseGenerator {
                 "availability": "https://schema.org/InStock",
                 "validFrom": today,
                 "priceValidUntil": validUntil,
-                "category": "Group Classes",
+                "category": OFFER_CATEGORY,
                 "url": courseUrl,
                 "seller": seller,
                 "eligibleRegion": eligibleRegion
@@ -710,7 +753,7 @@ class CourseGenerator {
                 "availability": "https://schema.org/InStock",
                 "validFrom": today,
                 "priceValidUntil": validUntil,
-                "category": "Mini Batch",
+                "category": OFFER_CATEGORY,
                 "url": courseUrl,
                 "seller": seller,
                 "eligibleRegion": eligibleRegion
@@ -724,7 +767,7 @@ class CourseGenerator {
                 "availability": "https://schema.org/InStock",
                 "validFrom": today,
                 "priceValidUntil": validUntil,
-                "category": "Personalized 1-on-1",
+                "category": OFFER_CATEGORY,
                 "url": courseUrl,
                 "seller": seller,
                 "eligibleRegion": eligibleRegion
