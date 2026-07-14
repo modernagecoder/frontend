@@ -10,6 +10,7 @@
     "generate:llms": "node scripts/generate-llms-full.js",
     "generate:sitemap-html": "node scripts/generate-sitemap-html.js",
     "verify:sitemap": "node scripts/verify-sitemap.js",
+    "indexnow": "node scripts/indexnow-ping.js",
     "generate:all": "npm run generate:blogs && npm run generate:courses && npm run generate:resources && npm run generate:static-md && npm run generate:llms && npm run generate:sitemap-html && npm run verify:sitemap",
     "update:course-links": "node scripts/update-course-links.js",
     "build:links": "node scripts/build-internal-links.js",
