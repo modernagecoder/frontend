@@ -343,49 +343,49 @@ export const VIDEO_REVIEWS: VideoReview[] = [
     youtubeId: 'U7vTcMULDY8',
     title: 'Pure Love & Joy',
     author: 'Modern Age Coders',
-    duration: '2:30'
+    duration: '0:31'
   },
   {
     id: 'v2',
     youtubeId: 'GhoF3-d-92E',
     title: 'Honest Feelings',
     author: 'Modern Age Coders',
-    duration: '1:45'
+    duration: '0:59'
   },
   {
     id: 'v3',
     youtubeId: 'Up6S920LyRs',
     title: 'Life Changing Moments',
     author: 'Modern Age Coders',
-    duration: '4:10'
+    duration: '0:48'
   },
   {
     id: 'v4',
     youtubeId: 'j-eaIPbSksc',
     title: 'Proud & Happy',
     author: 'Modern Age Coders',
-    duration: '3:05'
+    duration: '0:51'
   },
   {
     id: 'v5',
     youtubeId: '5hgvxieimTM',
     title: 'Sweet Memories',
     author: 'Modern Age Coders',
-    duration: '2:15'
+    duration: '0:53'
   },
   {
     id: 'v6',
     youtubeId: 'v9pNat8vY9M',
     title: 'Heartfelt Stories',
     author: 'Modern Age Coders',
-    duration: '3:20'
+    duration: '1:00'
   },
   {
     id: 'v7',
     youtubeId: '7Y4qFO1VwKc',
     title: 'Genuine Smiles',
     author: 'Modern Age Coders',
-    duration: '2:45'
+    duration: '0:47'
   }
 ];
 

@@ -22,6 +22,101 @@
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://learn.modernagecoders.com/love" />
+
+    <!-- VideoObject schema for the seven feedback videos on this page.
+         This page is a client-rendered SPA: the served HTML is an empty #root, so a crawler
+         that does not run JavaScript sees no videos at all (and most LLM crawlers do not run
+         it). This block is static in the entry HTML, so it survives into dist/index.html and
+         is readable without JavaScript — it is the only evidence these videos exist.
+         Every value below was read from YouTube on 2026-07-14, not estimated: uploadDate and
+         duration come from each video's own watch page. Google requires name, description,
+         thumbnailUrl and uploadDate, and treats them as factual claims — do not hand-edit
+         these to round numbers. thumbnailUrl uses YouTube's own i.ytimg.com derivative,
+         which exists for every public video. -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "VideoObject",
+          "name": "Feedback by Harnoor Kaur",
+          "description": "Harnoor Kaur shares feedback on learning to code with Modern Age Coders.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/U7vTcMULDY8/hqdefault.jpg",
+          "uploadDate": "2023-05-07T02:51:58-07:00",
+          "duration": "PT31S",
+          "embedUrl": "https://www.youtube.com/embed/U7vTcMULDY8",
+          "contentUrl": "https://www.youtube.com/watch?v=U7vTcMULDY8",
+          "publisher": { "@id": "https://learn.modernagecoders.com/#organization" }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Feedback by Adishree",
+          "description": "Adishree shares feedback on learning to code with Modern Age Coders.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/GhoF3-d-92E/hqdefault.jpg",
+          "uploadDate": "2023-08-03T07:14:31-07:00",
+          "duration": "PT59S",
+          "embedUrl": "https://www.youtube.com/embed/GhoF3-d-92E",
+          "contentUrl": "https://www.youtube.com/watch?v=GhoF3-d-92E",
+          "publisher": { "@id": "https://learn.modernagecoders.com/#organization" }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Feedback by Muqeem",
+          "description": "Muqeem shares feedback on the web development classes at Modern Age Coders.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/Up6S920LyRs/hqdefault.jpg",
+          "uploadDate": "2022-03-01T21:28:01-08:00",
+          "duration": "PT48S",
+          "embedUrl": "https://www.youtube.com/embed/Up6S920LyRs",
+          "contentUrl": "https://www.youtube.com/watch?v=Up6S920LyRs",
+          "publisher": { "@id": "https://learn.modernagecoders.com/#organization" }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Feedback by Ayushi",
+          "description": "Ayushi shares feedback on learning with Modern Age Coders.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/j-eaIPbSksc/hqdefault.jpg",
+          "uploadDate": "2023-04-21T02:49:16-07:00",
+          "duration": "PT51S",
+          "embedUrl": "https://www.youtube.com/embed/j-eaIPbSksc",
+          "contentUrl": "https://www.youtube.com/watch?v=j-eaIPbSksc",
+          "publisher": { "@id": "https://learn.modernagecoders.com/#organization" }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Feedback by Aarya Shee",
+          "description": "Aarya Shee shares feedback on classes at Modern Age Coders.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/5hgvxieimTM/hqdefault.jpg",
+          "uploadDate": "2023-03-27T22:09:29-07:00",
+          "duration": "PT53S",
+          "embedUrl": "https://www.youtube.com/embed/5hgvxieimTM",
+          "contentUrl": "https://www.youtube.com/watch?v=5hgvxieimTM",
+          "publisher": { "@id": "https://learn.modernagecoders.com/#organization" }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Feedback by Sahreen, a young coder from Dehradun",
+          "description": "Sahreen, a young coder from Dehradun, shares feedback on learning with Modern Age Coders.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/v9pNat8vY9M/hqdefault.jpg",
+          "uploadDate": "2024-07-11T23:00:25-07:00",
+          "duration": "PT1M",
+          "embedUrl": "https://www.youtube.com/embed/v9pNat8vY9M",
+          "contentUrl": "https://www.youtube.com/watch?v=v9pNat8vY9M",
+          "publisher": { "@id": "https://learn.modernagecoders.com/#organization" }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Feedback by Pratik",
+          "description": "Pratik shares feedback on learning programming with Modern Age Coders.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/7Y4qFO1VwKc/hqdefault.jpg",
+          "uploadDate": "2024-10-21T01:13:13-07:00",
+          "duration": "PT47S",
+          "embedUrl": "https://www.youtube.com/embed/7Y4qFO1VwKc",
+          "contentUrl": "https://www.youtube.com/watch?v=7Y4qFO1VwKc",
+          "publisher": { "@id": "https://learn.modernagecoders.com/#organization" }
+        }
+      ]
+    }
+    </script>
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />

@@ -51,59 +51,12 @@
     <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
 
     <!-- Structured Data: Event -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "name": "Modern Age Coders Hackathon 1.0",
-      "description": "The biggest build-anything online hackathon by Modern Age Coders. Open to everyone worldwide, all ages and skill levels. Participants individually register for ₹500, then build a working solution to a real-life problem across three rounds. ₹30,000 total prize pool awarded to the top 10 builders. Any AI tool, agent or IDE is allowed.",
-      "startDate": "2026-06-07T10:00:00+05:30",
-      "endDate": "2026-06-13T20:00:00+05:30",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-      "location": {
-        "@type": "VirtualLocation",
-        "url": "https://learn.modernagecoders.com/hackathon"
-      },
-      "image": ["https://learn.modernagecoders.com/images/og-modern-age-coders.png"],
-      "organizer": {
-        "@type": "Organization",
-        "name": "Modern Age Coders",
-        "url": "https://learn.modernagecoders.com",
-        "logo": "https://learn.modernagecoders.com/images/logo.webp",
-        "sameAs": [
-          "https://www.instagram.com/modern_age_coders",
-          "https://www.youtube.com/@modernagecoders",
-          "https://www.linkedin.com/in/shivam-khemka-948a2a277",
-          "https://github.com/modernagecoder"
-        ]
-      },
-      "offers": {
-        "@type": "Offer",
-        "name": "Hackathon 1.0 Registration",
-        "price": "500",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "validFrom": "2026-05-30T00:00:00+05:30",
-        "validThrough": "2026-06-06T23:59:00+05:30",
-        "url": "https://learn.modernagecoders.com/hackathon",
-        "category": "Hackathon registration"
-      },
-      "performer": {
-        "@type": "Organization",
-        "name": "Builders Worldwide"
-      },
-      "inLanguage": "en",
-      "isAccessibleForFree": false,
-      "maximumAttendeeCapacity": 1500,
-      "keywords": "hackathon 2026, online hackathon, hackathon with prize money, AI hackathon, coding competition, build real world projects, hackathon for students and beginners, ₹30000 prize pool",
-      "audience": {
-        "@type": "Audience",
-        "audienceType": "Students, beginners, developers, designers and builders of all ages, worldwide"
-      },
-      "about": "A worldwide online hackathon where participants build a working solution to a real-life problem across three rounds, using any AI tool, agent or IDE, to compete for a ₹30,000 prize pool."
-    }
-    </script>
+    <!-- Event schema removed 2026-07-14: this edition ended and the block still said
+         eventStatus: EventScheduled, which is a false claim in structured data.
+         To restore, re-add a single ld+json <script> with @type Event and REAL dates:
+         name, startDate, endDate (ISO 8601), eventAttendanceMode OnlineEventAttendanceMode,
+         eventStatus EventScheduled, location VirtualLocation {url}, organizer, offers,
+         and image (must return 200 — the old /pages/summer-coding-camp.png was a 404). -->
 
     <!-- Structured Data: Organization -->
     <script type="application/ld+json">

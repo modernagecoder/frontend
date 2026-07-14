@@ -86,40 +86,12 @@
       ]
     }
     </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "name": "Summer Coding Camp for Teens 2026",
-      "description": "16-session online summer coding camp for teens ages 12-17. Learn Python, Web Development, AI Tools, and Game Development with live instructors.",
-      "startDate": "2026-05-01",
-      "endDate": "2026-06-30",
-      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "location": {
-        "@type": "VirtualLocation",
-        "url": "https://learn.modernagecoders.com/summer-coding-camp-teens"
-      },
-      "organizer": {
-        "@type": "Organization",
-        "name": "Modern Age Coders",
-        "url": "https://learn.modernagecoders.com"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "4999",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "validFrom": "2026-03-01",
-        "url": "https://learn.modernagecoders.com/summer-coding-camp-teens#pricing"
-      },
-      "performer": {
-        "@type": "Organization",
-        "name": "Modern Age Coders"
-      },
-      "image": "https://learn.modernagecoders.com/pages/summer-coding-camp.png"
-    }
-    </script>
+    <!-- Event schema removed 2026-07-14: this edition ended and the block still said
+         eventStatus: EventScheduled, which is a false claim in structured data.
+         To restore, re-add a single ld+json <script> with @type Event and REAL dates:
+         name, startDate, endDate (ISO 8601), eventAttendanceMode OnlineEventAttendanceMode,
+         eventStatus EventScheduled, location VirtualLocation {url}, organizer, offers,
+         and image (must return 200 — the old /pages/summer-coding-camp.png was a 404). -->
     <!-- Phase 7 Distinctive Identity -->
     <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p7">
     <link rel="stylesheet" href="/css/pages/identity.css?v=20260411-p7">
