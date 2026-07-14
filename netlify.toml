@@ -5347,6 +5347,10 @@
   status = 404
 
 # Security headers
+# No X-Robots-Tag here on purpose: "index, follow" is already the default, so the header
+# added nothing — but /*.md matches this rule too, so it sent markdown twins a second,
+# contradictory X-Robots-Tag alongside their "noindex" one. Omitting it leaves the twins
+# with exactly one directive and leaves HTML pages indexable exactly as before.
 [[headers]]
   for = "/*"
   [headers.values]
@@ -5354,7 +5358,6 @@
     X-Content-Type-Options = "nosniff"
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    X-Robots-Tag = "index, follow"
     Content-Signal = "ai-train=yes, search=yes, ai-input=yes"
 
 # Markdown twins for AI agents — text/markdown content type. Kept out of

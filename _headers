@@ -1,10 +1,22 @@
-# Security headers (backup to netlify.toml)
+# Header rules. netlify.toml [[headers]] is the primary source; this file must mirror it,
+# because Netlify applies BOTH and a path can match rules in each.
+#
+# Deliberately no "X-Robots-Tag: index, follow" on /*: index,follow is already the default,
+# so it added nothing, but /* also matches the .md twins and sent them a second directive
+# contradicting their noindex. See the /*.md rule below.
+
 /*
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 1; mode=block
   Referrer-Policy: strict-origin-when-cross-origin
-  X-Robots-Tag: index, follow
+
+# Markdown twins for AI agents — keep out of the search index so they can't compete with
+# the canonical HTML as duplicate content. Mirrors netlify.toml.
+/*.md
+  Content-Type: text/markdown; charset=utf-8
+  X-Robots-Tag: noindex, follow
+  Cache-Control: public, max-age=3600
 
 # Cache static assets
 /*.css
