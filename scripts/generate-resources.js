@@ -738,20 +738,54 @@ class ResourceGenerator {
      */
     generateSitemapEntries(allLanguageMeta) {
         let entries = '';
-        const today = new Date().toISOString().split('T')[0];
+
+        // lastmod must reflect when the content actually changed. Stamping today's date on
+        // every build tells Google all 358 resource pages change on every deploy; once it
+        // catches lastmod lying it stops trusting the field for the whole site. Each chapter
+        // JSON already carries a real `lastUpdated`, so use it and roll it up to the indexes.
+        const chapterDate = (langSlug, chapterSlug) => {
+            const p = path.join(this.dataDir, langSlug, `${chapterSlug}.json`);
+            if (!fs.existsSync(p)) return null;
+            try {
+                const d = JSON.parse(fs.readFileSync(p, 'utf8')).lastUpdated;
+                return /^\d{4}-\d{2}-\d{2}$/.test(d || '') ? d : null;
+            } catch (_) {
+                return null;
+            }
+        };
+        const newest = (dates) => dates.filter(Boolean).sort().pop() || null;
+
+        // Resolve every chapter's real date once, then roll up: language index = newest of its
+        // chapters, master index = newest of everything.
+        const dates = new Map(); // `${lang}/${chapter}` -> YYYY-MM-DD
+        for (const meta of allLanguageMeta) {
+            for (const chapter of meta.chapters) {
+                const d = chapterDate(meta.slug, chapter.slug);
+                if (d) dates.set(`${meta.slug}/${chapter.slug}`, d);
+            }
+        }
+        const langDate = (meta) =>
+            newest(meta.chapters.map((c) => dates.get(`${meta.slug}/${c.slug}`)));
+        const masterDate = newest([...dates.values()]);
+
+        const urlBlock = (loc, lastmod, changefreq, priority) =>
+            `  <url>\n    <loc>${loc}</loc>\n` +
+            (lastmod ? `    <lastmod>${lastmod}</lastmod>\n` : '') +
+            `    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
 
         // Master index
-        entries += `  <url>\n    <loc>${SEO_CONFIG.domain}/resources</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
+        entries += urlBlock(`${SEO_CONFIG.domain}/resources`, masterDate, 'weekly', '0.8');
 
         for (const meta of allLanguageMeta) {
             // Language index
-            entries += `  <url>\n    <loc>${SEO_CONFIG.domain}/resources/${meta.slug}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
+            entries += urlBlock(`${SEO_CONFIG.domain}/resources/${meta.slug}`, langDate(meta), 'weekly', '0.8');
 
             for (const chapter of meta.chapters) {
+                const d = dates.get(`${meta.slug}/${chapter.slug}`);
                 // Notes page
-                entries += `  <url>\n    <loc>${SEO_CONFIG.domain}/resources/${meta.slug}/${chapter.slug}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n  </url>\n`;
+                entries += urlBlock(`${SEO_CONFIG.domain}/resources/${meta.slug}/${chapter.slug}`, d, 'monthly', '0.7');
                 // Practice page
-                entries += `  <url>\n    <loc>${SEO_CONFIG.domain}/resources/${meta.slug}/${chapter.slug}/practice</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>\n`;
+                entries += urlBlock(`${SEO_CONFIG.domain}/resources/${meta.slug}/${chapter.slug}/practice`, d, 'monthly', '0.6');
             }
         }
 

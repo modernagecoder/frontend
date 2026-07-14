@@ -11,12 +11,15 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const XML = path.join(ROOT, 'sitemap.xml');
+// Resources live in their own sitemap (rewritten to /sitemap-resources.xml). Crawlers read
+// both via robots.txt, so the human view must too — otherwise the 358 resource pages are
+// invisible to anyone browsing /sitemap.
+const RESOURCES_XML = path.join(ROOT, 'content', 'resources', 'generated', 'sitemap-entries.xml');
 const CSS = path.join(ROOT, 'src', 'css', 'site-ledger.css');
 const OUT = path.join(ROOT, 'sitemap.html');
 const SITE = 'https://learn.modernagecoders.com';
 
 // ---- parse -----------------------------------------------------------------
-const xml = fs.readFileSync(XML, 'utf8');
 const css = fs.readFileSync(CSS, 'utf8');
 
 function pick(block, name) {
@@ -24,21 +27,33 @@ function pick(block, name) {
   return m ? m[1].trim() : '';
 }
 
-const urls = [];
-const re = /<url>([\s\S]*?)<\/url>/g;
-let m;
-while ((m = re.exec(xml))) {
-  const b = m[1];
-  const loc = pick(b, 'loc');
-  if (!loc) continue;
-  urls.push({
-    loc,
-    lastmod: pick(b, 'lastmod'),
-    changefreq: pick(b, 'changefreq'),
-    priority: pick(b, 'priority'),
-    images: (b.match(/<image:image>/g) || []).length,
-  });
+function parseUrls(file) {
+  if (!fs.existsSync(file)) return [];
+  const xml = fs.readFileSync(file, 'utf8');
+  const out = [];
+  const re = /<url>([\s\S]*?)<\/url>/g;
+  let m;
+  while ((m = re.exec(xml))) {
+    const b = m[1];
+    const loc = pick(b, 'loc');
+    if (!loc) continue;
+    out.push({
+      loc,
+      lastmod: pick(b, 'lastmod'),
+      changefreq: pick(b, 'changefreq'),
+      priority: pick(b, 'priority'),
+      images: (b.match(/<image:image>/g) || []).length,
+    });
+  }
+  return out;
 }
+
+const seen = new Set();
+const urls = [...parseUrls(XML), ...parseUrls(RESOURCES_XML)].filter((u) => {
+  if (seen.has(u.loc)) return false;
+  seen.add(u.loc);
+  return true;
+});
 
 // ---- categorise (mirrors sitemap.xsl groups; first match wins) -------------
 function category(loc) {
@@ -179,7 +194,7 @@ ${blocks}
   <p class="no-results" id="empty">No pages match <b id="empty-q"></b>. Try a shorter term.</p>
 
   <footer class="foot">
-    <span>Generated from <code>/sitemap.xml</code>. Search engines read the raw XML.</span>
+    <span>Generated from <code>/sitemap.xml</code> and <code>/sitemap-resources.xml</code>. Search engines read the raw XML.</span>
     <span><a href="/">learn.modernagecoders.com</a></span>
   </footer>
 
