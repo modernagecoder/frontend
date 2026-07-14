@@ -2895,6 +2895,62 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/50-java-programs-for-icse-class-10</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/learn-python-step-by-step</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/modern-age-coders-certificate-earned-not-given</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/how-to-write-a-leap-year-program-in-python</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/how-to-read-and-write-files-in-python</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/how-to-build-menu-driven-program-in-python</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/python-basic-programs-for-beginners</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/best-free-platforms-for-vibe-coding</loc>
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Legal Pages -->
   <url>
     <loc>https://learn.modernagecoders.com/terms</loc>

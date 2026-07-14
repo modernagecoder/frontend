@@ -1,0 +1,133 @@
+#!/usr/bin/env node
+/**
+ * verify-sitemap.js — fail the build when content exists but isn't in sitemap.xml.
+ *
+ * The blog/course generators never touch sitemap.xml, so every new post or course
+ * has to be added by hand. That has silently failed 8 times (8 posts were live but
+ * unlisted for months). This makes the gap loud instead of silent.
+ *
+ * Checks:
+ *   1. every blog JSON slug has a /blog/<slug> entry
+ *   2. every course JSON slug has a /courses/<slug> entry
+ *   3. no sitemap entry points at a slug with no source JSON (dead links)
+ *   4. no duplicate <loc> values
+ *   5. sitemap.xml parses and every lastmod is a valid ISO date, not in the future
+ *
+ * Usage:  node scripts/verify-sitemap.js
+ * Exit 0 = clean, exit 1 = problems (prints exactly what to add).
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+const ROOT = path.join(__dirname, '..');
+const SITEMAP = path.join(ROOT, 'sitemap.xml');
+const BASE = 'https://learn.modernagecoders.com';
+
+function readJsonDir(dir, { exclude = [] } = {}) {
+  if (!fs.existsSync(dir)) return [];
+  return fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith('.json') && !exclude.includes(f))
+    .map((f) => {
+      const full = path.join(dir, f);
+      try {
+        const data = JSON.parse(fs.readFileSync(full, 'utf8'));
+        const meta = data.meta || data;
+        const slug = data.slug || meta.slug || path.basename(f, '.json');
+        return { file: f, slug, date: meta.dateModified || meta.date || null };
+      } catch (err) {
+        return { file: f, slug: null, error: err.message };
+      }
+    });
+}
+
+const sitemapXml = fs.readFileSync(SITEMAP, 'utf8');
+const locs = [...sitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
+const problems = [];
+
+// --- 1 & 3: blog parity -----------------------------------------------------
+const blogs = readJsonDir(path.join(ROOT, 'content/blog/data'));
+const blogBroken = blogs.filter((b) => b.error);
+const blogSlugs = new Set(blogs.filter((b) => b.slug).map((b) => b.slug));
+const blogInMap = new Set(
+  locs
+    .filter((l) => l.startsWith(`${BASE}/blog/`))
+    .map((l) => l.slice(`${BASE}/blog/`.length).replace(/\/$/, ''))
+);
+
+const blogMissing = [...blogSlugs].filter((s) => !blogInMap.has(s)).sort();
+const blogDead = [...blogInMap].filter((s) => !blogSlugs.has(s)).sort();
+
+// --- 2: course parity -------------------------------------------------------
+const courses = readJsonDir(path.join(ROOT, 'content/courses/data'), {
+  exclude: ['courses-config.json'],
+});
+const courseSlugs = new Set(courses.filter((c) => c.slug).map((c) => c.slug));
+const courseInMap = new Set(
+  locs
+    .filter((l) => l.startsWith(`${BASE}/courses/`))
+    .map((l) => l.slice(`${BASE}/courses/`.length).replace(/\/$/, ''))
+    .filter((s) => s && !s.includes('/'))
+);
+const courseMissing = [...courseSlugs].filter((s) => !courseInMap.has(s)).sort();
+
+// duplicate slugs across course JSONs (two files claiming one URL clobber each other)
+const slugOwners = new Map();
+courses.forEach((c) => {
+  if (!c.slug) return;
+  if (!slugOwners.has(c.slug)) slugOwners.set(c.slug, []);
+  slugOwners.get(c.slug).push(c.file);
+});
+const slugClashes = [...slugOwners.entries()].filter(([, files]) => files.length > 1);
+
+// --- 4: duplicate locs ------------------------------------------------------
+const seen = new Set();
+const dupes = new Set();
+locs.forEach((l) => (seen.has(l) ? dupes.add(l) : seen.add(l)));
+
+// --- 5: lastmod sanity ------------------------------------------------------
+const today = new Date().toISOString().slice(0, 10);
+const badDates = [...sitemapXml.matchAll(/<lastmod>([^<]+)<\/lastmod>/g)]
+  .map((m) => m[1].trim())
+  .filter((d) => !/^\d{4}-\d{2}-\d{2}/.test(d) || d.slice(0, 10) > today);
+
+// --- report -----------------------------------------------------------------
+const say = (label, items, hint) => {
+  if (!items.length) return;
+  problems.push(label);
+  console.error(`\n✖ ${label} (${items.length})`);
+  items.slice(0, 25).forEach((i) => console.error(`    ${i}`));
+  if (items.length > 25) console.error(`    …and ${items.length - 25} more`);
+  if (hint) console.error(`  → ${hint}`);
+};
+
+console.log(
+  `sitemap.xml: ${locs.length} URLs · blog JSONs: ${blogSlugs.size} · course JSONs: ${courseSlugs.size}`
+);
+
+say('Unparseable JSON', blogBroken.map((b) => `${b.file}: ${b.error}`));
+say(
+  'Blog posts MISSING from sitemap.xml',
+  blogMissing,
+  'add a <url> block for each: ' + BASE + '/blog/<slug>'
+);
+say('Sitemap blog URLs with no source JSON', blogDead, 'remove these <url> blocks');
+say(
+  'Course pages MISSING from sitemap.xml',
+  courseMissing,
+  'add a <url> block for each: ' + BASE + '/courses/<slug>'
+);
+say(
+  'Duplicate course slugs (one URL, two JSONs — one silently wins)',
+  slugClashes.map(([slug, files]) => `${slug}  ←  ${files.join(' , ')}`),
+  'give each course its own slug'
+);
+say('Duplicate <loc> entries', [...dupes]);
+say('Invalid or future <lastmod> values', badDates, 'lastmod must be a real past date');
+
+if (problems.length) {
+  console.error(`\nsitemap verification FAILED: ${problems.length} problem type(s).\n`);
+  process.exit(1);
+}
+console.log('✓ sitemap verification passed — blog, courses and dates all consistent.\n');
