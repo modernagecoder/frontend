@@ -195,11 +195,11 @@ function buildContact() {
 - Phone / WhatsApp: +91 9123366161 — https://wa.me/919123366161
 - Email: contact@modernagecoders.com
 - Book a free demo: ${SITE}/book-demo
-- Instagram: https://instagram.com/modern_age_coders
+- Instagram: https://www.instagram.com/modern_age_coders
 - YouTube: https://www.youtube.com/@modernagecoders
 - LinkedIn: https://www.linkedin.com/in/shivam-khemka-948a2a277
 - GitHub: https://github.com/modernagecoder
-- Facebook: https://www.facebook.com/profile.php?id=100088860364349
+- Facebook: https://www.facebook.com/modernagecoders
 
 ## Tools Built by Modern Age Coders
 

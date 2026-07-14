@@ -48,13 +48,19 @@ const SEO_CONFIG = {
       addressCountry: 'IN'
     },
 
-    // Social Media Profiles
+    // Social Media Profiles — emitted verbatim as schema.org sameAs (see seo-utils.js).
+    // Every URL here MUST resolve: sameAs is how an engine confirms this site is this brand,
+    // and an entry that 404s undermines that confirmation. Re-verify before adding.
+    // Checked 2026-07-14: three of the previous five were dead and have been removed —
+    // twitter.com/modernagecoders (404), linkedin.com/company/modernagecoders (404, no such
+    // company page) and instagram.com/modernagecoders (no such handle; the real one is
+    // modern_age_coders).
     socialProfiles: [
-      'https://facebook.com/modernagecoders',
-      'https://twitter.com/modernagecoders',
-      'https://linkedin.com/company/modernagecoders',
-      'https://instagram.com/modernagecoders',
-      'https://youtube.com/@modernagecoders'
+      'https://www.facebook.com/modernagecoders',
+      'https://www.instagram.com/modern_age_coders',
+      'https://www.youtube.com/@modernagecoders',
+      'https://github.com/modernagecoder',
+      'https://www.linkedin.com/in/shivam-khemka-948a2a277'
     ]
   },
 

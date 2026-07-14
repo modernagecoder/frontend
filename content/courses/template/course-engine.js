@@ -275,8 +275,9 @@ class CourseEngine {
             "description": meta.description,
             "provider": {
                 "@type": "Organization",
+                "@id": "https://learn.modernagecoders.com/#organization",
                 "name": "Modern Age Coders",
-                "sameAs": "https://learn.modernagecoders.com"
+                "url": "https://learn.modernagecoders.com"
             },
             "courseCode": meta.slug.toUpperCase(),
             "hasCourseInstance": {

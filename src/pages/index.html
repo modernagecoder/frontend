@@ -62,7 +62,8 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "Organization",
+          "@type": ["Organization", "EducationalOrganization"],
+          "@id": "https://learn.modernagecoders.com/#organization",
           "name": "Modern Age Coders",
           "legalName": "Modern Age Coders Education",
           "url": "https://learn.modernagecoders.com",
@@ -70,8 +71,11 @@
             "@type": "ImageObject",
             "url": "https://learn.modernagecoders.com/images/logo.webp"
           },
-          "description": "Professional coding and mathematics education platform for kids, teens, college students, and working professionals",
+          "image": "https://learn.modernagecoders.com/images/logo.webp",
+          "description": "Online maths and coding classes for children and adults. Live 1-on-1 and group sessions for ages 6 to 65. Students from 15+ countries.",
           "foundingDate": "2020",
+          "areaServed": "Worldwide",
+          "teaches": ["Computer Programming", "Mathematics", "Python", "JavaScript", "Java", "Data Science", "AI Machine Learning", "Web Development"],
           "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+919123366161",
@@ -84,18 +88,23 @@
             "addressCountry": "IN"
           },
           "sameAs": [
-            "https://www.facebook.com/profile.php?id=100088860364349",
-            "https://www.linkedin.com/in/shivam-khemka-948a2a277",
-            "https://instagram.com/modern_age_coders",
+            "https://www.facebook.com/modernagecoders",
+            "https://www.instagram.com/modern_age_coders",
             "https://www.youtube.com/@modernagecoders",
             "https://github.com/modernagecoder",
-            "https://www.modernagecoders.com"
+            "https://www.linkedin.com/in/shivam-khemka-948a2a277",
+            "https://g.page/r/Cff_QkHNaP9yEAE/review"
           ]
         },
         {
           "@type": "WebSite",
+          "@id": "https://learn.modernagecoders.com/#website",
           "name": "Modern Age Coders",
           "url": "https://learn.modernagecoders.com",
+          "publisher": {
+            "@id": "https://learn.modernagecoders.com/#organization"
+          },
+          "inLanguage": "en",
           "potentialAction": {
             "@type": "SearchAction",
             "target": {
@@ -103,23 +112,6 @@
               "urlTemplate": "https://learn.modernagecoders.com/search?q={search_term_string}"
             },
             "query-input": "required name=search_term_string"
-          }
-        },
-        {
-          "@type": "EducationalOrganization",
-          "name": "Modern Age Coders",
-          "description": "Online maths and coding classes for children and adults. Live 1-on-1 and group sessions for ages 6 to 65. Students from 15+ countries.",
-          "url": "https://learn.modernagecoders.com",
-          "foundingDate": "2020",
-          "areaServed": "Worldwide",
-          "teaches": ["Computer Programming", "Mathematics", "Python", "JavaScript", "Java", "Data Science", "AI Machine Learning", "Web Development"],
-          "numberOfEmployees": {
-            "@type": "QuantitativeValue",
-            "value": "50+"
-          },
-          "alumni": {
-            "@type": "QuantitativeValue",
-            "value": "10000+"
           }
         }
       ]
@@ -165,12 +157,6 @@
               "item": "https://learn.modernagecoders.com/"
             }
           ]
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://learn.modernagecoders.com/#organization-rating",
-          "name": "Modern Age Coders",
-          "url": "https://learn.modernagecoders.com"
         },
         {
           "@type": "ItemList",
@@ -343,24 +329,9 @@
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
-<!-- mac-org-ld -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://learn.modernagecoders.com/#organization",
-  "name": "Modern Age Coders",
-  "url": "https://learn.modernagecoders.com/",
-  "logo": "https://learn.modernagecoders.com/images/logo.webp",
-  "sameAs": [
-    "https://g.page/r/Cff_QkHNaP9yEAE/review",
-    "https://www.facebook.com/profile.php?id=100088860364349",
-    "https://instagram.com/modern_age_coders",
-    "https://www.youtube.com/@modernagecoders",
-    "https://www.linkedin.com/in/shivam-khemka-948a2a277"
-  ]
-}
-</script>
+<!-- mac-org-ld: the canonical #organization node lives in the @graph at the top of this
+     page (richer, and typed Organization + EducationalOrganization). The injected copy that
+     every other page carries would only re-state a thinner version of the same @id here. -->
 </head>
 
 <body class="index-page">

@@ -258,8 +258,9 @@ function generateCourseSchema(courseData) {
     "description": meta.description,
     "provider": {
       "@type": "Organization",
+      "@id": `${SEO_CONFIG.domain}/#organization`,
       "name": SEO_CONFIG.organization.name,
-      "sameAs": SEO_CONFIG.domain
+      "url": SEO_CONFIG.domain
     },
     "timeRequired": meta.duration || "Self-paced",
     "educationalLevel": meta.level || "All Levels",

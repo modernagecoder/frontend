@@ -941,11 +941,15 @@ class CourseGenerator {
             "name": "Modern Age Coders",
             "url": "https://learn.modernagecoders.com/",
             "logo": "https://learn.modernagecoders.com/images/logo.webp",
+            // Verified live 2026-07-14. Every entry must resolve: a sameAs that 404s
+            // undermines entity confirmation instead of supporting it. The LinkedIn company
+            // page and the instagram.com/modernagecoders handle were both dead and are gone.
             "sameAs": [
                 "https://g.page/r/Cff_QkHNaP9yEAE/review",
-                "https://www.facebook.com/profile.php?id=100088860364349",
-                "https://instagram.com/modern_age_coders",
+                "https://www.facebook.com/modernagecoders",
+                "https://www.instagram.com/modern_age_coders",
                 "https://www.youtube.com/@modernagecoders",
+                "https://github.com/modernagecoder",
                 "https://www.linkedin.com/in/shivam-khemka-948a2a277"
             ]
         };

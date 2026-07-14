@@ -175,7 +175,7 @@ def jsonld(c):
           "@type": "Course",
           "name": "{jstr(nm)}",
           "description": "{jstr(ds)}",
-          "provider": {{ "@type": "Organization", "name": "Modern Age Coders", "sameAs": "https://learn.modernagecoders.com" }},
+          "provider": {{ "@type": "Organization", "@id": "https://learn.modernagecoders.com/#organization", "name": "Modern Age Coders", "url": "https://learn.modernagecoders.com" }},
           "educationalLevel": "{lvl}", "courseCode": "{code}",
           "hasCourseInstance": {{ "@type": "CourseInstance", "courseMode": "online", "courseWorkload": "PT2H" }},
           "offers": {{ "@type": "Offer", "price": "{price}", "priceCurrency": "INR", "availability": "https://schema.org/InStock" }}
@@ -203,8 +203,8 @@ def jsonld(c):
           "sameAs": [
             "https://www.facebook.com/modernagecoders",
             "https://www.instagram.com/modern_age_coders",
-            "https://www.linkedin.com/company/modernagecoders",
-            "https://www.youtube.com/@modernagecoders"
+            "https://www.youtube.com/@modernagecoders",
+            "https://www.linkedin.com/in/shivam-khemka-948a2a277"
           ]
         }},
 {courses}        {{
