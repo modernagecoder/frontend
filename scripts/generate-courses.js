@@ -866,9 +866,20 @@ class CourseGenerator {
                     "url": "https://learn.modernagecoders.com/images/logo.webp"
                 }
             },
-            "datePublished": new Date().toISOString(),
-            "dateModified": new Date().toISOString()
         };
+
+        // Dates must describe the course content, not the build. This used to emit
+        // new Date(), so every deploy told Google all 104 course pages had been published
+        // AND modified at that exact second — pure fake freshness, and Google treats a
+        // dateModified that moves without the content moving as a low-trust signal.
+        // Use the author-declared dates; when a course JSON has none, omit the fields
+        // rather than invent them. (Backfilling meta.dateModified across the catalog is
+        // tracked as Phase 6.4 — only 6 of 103 courses declare a date today.)
+        const published = meta.date || meta.dateModified;
+        const modified = meta.dateModified || meta.date;
+        if (published) articleSchema.datePublished = published;
+        if (modified) articleSchema.dateModified = modified;
+
         schemas.push(articleSchema);
 
         // Organization entity. sameAs links the real Google Business Profile so
