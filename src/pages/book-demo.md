@@ -2,7 +2,6 @@
 title: "Book a Free Coding Demo Class | Try Coding & Maths Live | Modern Age Coders"
 description: "Book your FREE coding demo class — available worldwide. Live 1-on-1 session for kids (6+), teens, college students & adults. Try Python, Scratch, Web Development or Maths tutoring. No commitment required!"
 canonical: https://learn.modernagecoders.com/book-demo
-keywords: ["book free coding demo class", "free coding demo", "free maths demo", "coding class for kids", "python demo class", "scratch programming demo", "maths tutoring demo", "online coding class trial", "free programming lesson", "book demo class online", "free coding class worldwide"]
 source: src/pages/book-demo.html
 ---
 > Book your FREE coding demo class — available worldwide. Live 1-on-1 session for kids (6+), teens, college students & adults. Try Python, Scratch, Web Development or Maths tutoring. No commitment required!

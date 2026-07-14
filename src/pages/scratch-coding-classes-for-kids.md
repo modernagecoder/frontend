@@ -2,7 +2,6 @@
 title: "Scratch Coding Classes for Kids | Live 1:1, Ages 6-11 | Modern Age Coders"
 description: "Live online Scratch coding classes for kids ages 6-11: real computer-science ideas inside games and stories your child builds, taught 1-on-1 by a dedicated mentor, with a deliberate Scratch-to-Python path. One-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/scratch-coding-classes-for-kids
-keywords: ["scratch coding classes for kids", "scratch classes online", "scratch programming for kids", "learn scratch for kids", "kids coding classes scratch", "scratch tutor online", "block coding classes for kids", "scratch game making class", "mit scratch classes", "scratch to python for kids"]
 source: src/pages/scratch-coding-classes-for-kids.html
 ---
 > Live online Scratch coding classes for kids ages 6-11: real computer-science ideas inside games and stories your child builds, taught 1-on-1 by a dedicated mentor, with a deliberate Scratch-to-Python path. One-hour classes twice a week, free demo.

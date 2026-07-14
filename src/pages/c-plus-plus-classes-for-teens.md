@@ -2,7 +2,6 @@
 title: "C++ Classes for Teens | Online C++ Coding Course (Ages 13–18)"
 description: "Live online C++ classes for teens aged 13–18. Build games, tools & real projects while mastering logic, pointers, OOP and the STL. A genuine head start for engineering & CS. Small batches, free demo."
 canonical: https://learn.modernagecoders.com/c-plus-plus-classes-for-teens
-keywords: ["c++ classes for teens", "c++ coding for teenagers", "online c++ course for teens", "c++ for high school students", "c++ programming for teens", "teen c++ classes India", "c++ projects for teens", "learn c++ age 13 14 15 16", "c++ OOP for teens", "c++ game development for teens", "c++ for cbse students"]
 source: src/pages/c-plus-plus-classes-for-teens.html
 ---
 > Live online C++ classes for teens aged 13–18. Build games, tools & real projects while mastering logic, pointers, OOP and the STL. A genuine head start for engineering & CS. Small batches, free demo.

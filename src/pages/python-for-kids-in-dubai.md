@@ -2,7 +2,6 @@
 title: "Python for Kids in Dubai | Fun Live Classes, Ages 8-14"
 description: "Python classes for kids in Dubai, ages 8 to 14. Live online lessons in batches of 5 to 8, from turtle drawings to first games. Free demo class for parents."
 canonical: https://learn.modernagecoders.com/python-for-kids-in-dubai
-keywords: ["python for kids in dubai", "python classes for kids dubai", "kids python course dubai", "python for children dubai", "learn python kids dubai", "coding for kids python dubai", "python classes ages 8 to 14", "online python classes for kids uae"]
 source: src/pages/python-for-kids-in-dubai.html
 ---
 > Python classes for kids in Dubai, ages 8 to 14. Live online lessons in batches of 5 to 8, from turtle drawings to first games. Free demo class for parents.

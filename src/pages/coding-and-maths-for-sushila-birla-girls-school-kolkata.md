@@ -2,7 +2,6 @@
 title: "Coding & Maths Classes for Sushila Birla Girls' School Kolkata | CBSE Python, AI & Maths for Girls | Modern Age Coders"
 description: "Premium coding & maths classes for Sushila Birla Girls' School (SBGS) students in Kolkata. CBSE-aligned Python, AI, Web Dev & board maths — live online, dedicated girls batches near Park Street & Bhowanipore. Girls-only school deserves girls-first coding. From ₹1499/mo. Book free demo!"
 canonical: https://learn.modernagecoders.com/coding-and-maths-for-sushila-birla-girls-school-kolkata
-keywords: ["coding classes for SBGS students Kolkata", "maths tuition Sushila Birla Girls School", "Python classes near SBGS Kolkata", "coding classes for girls Park Street Kolkata", "coding for girls Bhowanipore Kolkata", "CBSE computer science tuition girls Kolkata", "after school coding SBGS Kolkata", "coding classes near Moira Street Kolkata", "maths classes Theatre Road Kolkata", "coding classes AJC Bose Road Kolkata", "girls coding class south Kolkata", "Python classes for girls Kolkata"]
 source: src/pages/coding-and-maths-for-sushila-birla-girls-school-kolkata.html
 ---
 > Premium coding & maths classes for Sushila Birla Girls' School (SBGS) students in Kolkata. CBSE-aligned Python, AI, Web Dev & board maths — live online, dedicated girls batches near Park Street & Bhowanipore. Girls-only school deserves girls-first coding. From ₹1499/mo. Book free demo!

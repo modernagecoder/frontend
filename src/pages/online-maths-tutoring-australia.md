@@ -2,7 +2,6 @@
 title: "Online Maths Tutoring Australia | NAPLAN to Methods, Live 1:1 | Modern Age Coders"
 description: "Live 1:1 online maths tutoring for Australian students: Australian Curriculum Years 3-10, NAPLAN gap repair, HSC/VCE/QCE senior maths and honest Methods vs General advice. After-school AEST slots, one-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/online-maths-tutoring-australia
-keywords: ["online maths tutoring australia", "maths tutor australia", "naplan numeracy help", "hsc maths tutor", "vce methods tutor", "qce maths tutor", "mathematical methods tutoring", "year 7 maths help australia", "maths tutor sydney melbourne brisbane online"]
 source: src/pages/online-maths-tutoring-australia.html
 ---
 > Live 1:1 online maths tutoring for Australian students: Australian Curriculum Years 3-10, NAPLAN gap repair, HSC/VCE/QCE senior maths and honest Methods vs General advice. After-school AEST slots, one-hour classes twice a week, free demo.

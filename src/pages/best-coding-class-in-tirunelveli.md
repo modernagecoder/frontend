@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Tirunelveli | Modern Age Coders"
 description: "Live online coding & maths classes in Tirunelveli for kids, teens & adults. Python, AI, Java, Web Dev & JEE/NEET-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-tirunelveli
-keywords: ["best coding classes in Tirunelveli", "coding classes in Tirunelveli", "coding for kids in Tirunelveli", "coding for teens in Tirunelveli", "programming classes Tirunelveli", "coding institute Tirunelveli", "online coding classes Tirunelveli", "coding classes near me Tirunelveli", "Scratch programming Tirunelveli", "Python for kids Tirunelveli", "web development course Tirunelveli", "best coding institute in Tirunelveli"]
 source: src/pages/best-coding-class-in-tirunelveli.html
 ---
 > Live online coding & maths classes in Tirunelveli for kids, teens & adults. Python, AI, Java, Web Dev & JEE/NEET-aligned logic. Rated 4.9/5. Book a free demo!

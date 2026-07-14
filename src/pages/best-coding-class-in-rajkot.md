@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Rajkot | Modern Age Coders"
 description: "Live online coding & maths classes in Rajkot for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-rajkot
-keywords: ["best coding classes in Rajkot", "coding for kids in Rajkot", "coding for teens in Rajkot", "programming classes Rajkot", "coding institute Rajkot", "online coding classes Rajkot", "coding classes near me Rajkot", "Scratch programming Rajkot", "Python for kids Rajkot", "web development Rajkot", "best coding institute in Rajkot", "GSEB coding class Rajkot"]
 source: src/pages/best-coding-class-in-rajkot.html
 ---
 > Live online coding & maths classes in Rajkot for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

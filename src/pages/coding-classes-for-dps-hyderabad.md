@@ -2,7 +2,6 @@
 title: "Coding Classes for DPS Hyderabad Students | Python, Maths & CBSE | Modern Age Coders"
 description: "Best coding classes for DPS Hyderabad students in Hyderabad. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near R.K. Puram. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!"
 canonical: https://learn.modernagecoders.com/coding-classes-for-dps-hyderabad
-keywords: ["coding classes for DPS Hyderabad students", "coding classes near South Delhi Hyderabad", "Python course near DPS Hyderabad Hyderabad", "after school coding DPS Hyderabad", "maths tuition for DPS Hyderabad Hyderabad", "DPS Hyderabad coding", "CBSE coding classes Hyderabad", "coding classes near me Hyderabad", "online coding classes for kids Hyderabad", "best coding institute Hyderabad", "Java classes for CBSE students Hyderabad", "AI classes for school students Hyderabad"]
 source: src/pages/coding-classes-for-dps-hyderabad.html
 ---
 > Best coding classes for DPS Hyderabad students in Hyderabad. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near R.K. Puram. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!

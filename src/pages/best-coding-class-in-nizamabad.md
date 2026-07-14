@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Nizamabad | Modern Age Coders"
 description: "Coding classes in Nizamabad (Indur) for kids, teens & adults. Live online Python, AI, Java, Web Dev & TS EAPCET/JEE-aligned logic. Rated 4.9/5. Free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-nizamabad
-keywords: ["best coding classes in Nizamabad", "coding classes in Nizamabad", "coding for kids in Nizamabad", "coding for teens in Nizamabad", "programming classes Nizamabad", "coding institute Nizamabad", "online coding classes Nizamabad", "coding classes near me Nizamabad", "Scratch programming Nizamabad", "Python for kids Nizamabad", "web development course Nizamabad", "best coding institute in Nizamabad"]
 source: src/pages/best-coding-class-in-nizamabad.html
 ---
 > Coding classes in Nizamabad (Indur) for kids, teens & adults. Live online Python, AI, Java, Web Dev & TS EAPCET/JEE-aligned logic. Rated 4.9/5. Free demo!

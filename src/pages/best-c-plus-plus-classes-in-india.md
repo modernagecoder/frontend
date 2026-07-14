@@ -2,7 +2,6 @@
 title: "Best C++ Classes in India | Online C++ Course for Teens & College Students"
 description: "India's best live online C++ classes for teens & college students. Master Core C++, OOP, STL, Data Structures, competitive programming & real projects with expert mentors in small batches. Rated 4.9/5. Free demo class."
 canonical: https://learn.modernagecoders.com/best-c-plus-plus-classes-in-india
-keywords: ["best c++ classes in India", "online c++ course", "c++ classes for teens", "c++ for college students", "c++ dsa course", "c++ competitive programming", "c++ for placements", "c++ OOP course", "c++ STL course", "c++ projects for students", "learn c++ online India", "core c++ course"]
 source: src/pages/best-c-plus-plus-classes-in-india.html
 ---
 > India's best live online C++ classes for teens & college students. Master Core C++, OOP, STL, Data Structures, competitive programming & real projects with expert mentors in small batches. Rated 4.9/5. Free demo class.

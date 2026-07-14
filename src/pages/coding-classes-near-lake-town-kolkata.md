@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Lake Town, Kolkata"
 description: "Live online coding & maths classes for Lake Town, Kolkata. Small batches, Python, Java, AI/ML, ICSE & CBSE board prep. Free demo. From ₹1,499/month."
 canonical: https://learn.modernagecoders.com/coding-classes-near-lake-town-kolkata
-keywords: ["coding classes Lake Town Kolkata", "Python classes Lake Town", "Java classes ICSE Kolkata", "AI ML classes for teens Kolkata", "coding classes Bangur Avenue", "online maths tuition Lake Town", "coding for kids VIP Road Kolkata", "ICSE Java BlueJ classes Kolkata", "CBSE Informatics Practices Kolkata", "live online coding classes Kolkata", "coding classes near Sreebhumi", "Scratch classes Dum Dum Park"]
 source: src/pages/coding-classes-near-lake-town-kolkata.html
 ---
 > Live online coding & maths classes for Lake Town, Kolkata. Small batches, Python, Java, AI/ML, ICSE & CBSE board prep. Free demo. From ₹1,499/month.

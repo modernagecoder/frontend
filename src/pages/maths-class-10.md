@@ -2,7 +2,6 @@
 title: "Maths Tuition for Class 10 | CBSE & ICSE Board Exam Prep | Modern Age Coders"
 description: "Expert online maths tuition for Class 10 students. CBSE, ICSE, and international board exam preparation with personalized 1-on-1 and group classes. Score 95+ in your board exams. Book a free demo today."
 canonical: https://learn.modernagecoders.com/maths-class-10
-keywords: ["maths tuition for class 10", "class 10 maths tuition online", "CBSE maths tuition class 10", "ICSE maths class 10", "board exam maths preparation", "online maths tuition class 10", "maths tutor for class 10", "class 10 maths online classes"]
 source: src/pages/maths-class-10.html
 ---
 > Expert online maths tuition for Class 10 students. CBSE, ICSE, and international board exam preparation with personalized 1-on-1 and group classes. Score 95+ in your board exams. Book a free demo today.

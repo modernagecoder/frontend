@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near New Alipore"
 description: "Premium live online coding & maths classes for New Alipore, Kolkata. Small batches, project-based, taught by engineers. ICSE/ISC/CBSE. Free demo class."
 canonical: https://learn.modernagecoders.com/coding-classes-near-new-alipore-kolkata
-keywords: ["coding classes New Alipore", "maths tuition New Alipore Kolkata", "online coding classes Kolkata", "Python classes New Alipore", "Java ICSE classes Kolkata", "ISC Computer Science New Alipore", "coding for kids New Alipore", "AI ML classes Kolkata", "coding classes near Sahapur", "live online coding Kolkata", "coding classes Block A New Alipore", "South Point coding classes"]
 source: src/pages/coding-classes-near-new-alipore-kolkata.html
 ---
 > Premium live online coding & maths classes for New Alipore, Kolkata. Small batches, project-based, taught by engineers. ICSE/ISC/CBSE. Free demo class.

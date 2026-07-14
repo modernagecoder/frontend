@@ -2,7 +2,6 @@
 title: "Best Coding Classes for Kids in India and Worldwide | Online & Live | Modern Age Coders"
 description: "Compare the best coding classes for kids in India and worldwide. Live 1-on-1 sessions, Scratch, Python, AI courses. Expert teachers, rated 4.9/5 by parents. Students from 15+ countries. Book a free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-classes-online
-keywords: ["best coding classes for kids in India", "best coding classes online", "online coding classes", "coding for kids online", "best online coding institute", "python classes online", "AI course online", "coding classes for kids", "learn coding online", "best coding classes worldwide", "online coding classes for children"]
 source: src/pages/best-coding-classes-online.html
 ---
 > Compare the best coding classes for kids in India and worldwide. Live 1-on-1 sessions, Scratch, Python, AI courses. Expert teachers, rated 4.9/5 by parents. Students from 15+ countries. Book a free demo!

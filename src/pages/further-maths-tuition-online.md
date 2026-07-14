@@ -2,7 +2,6 @@
 title: "Further Maths Tuition Online · 1:1 A-Level Further Mathematics — Modern Age Coders"
 description: "Live 1:1 online Further Maths tuition for A-Level (Edexcel, AQA, OCR). Complex numbers, matrices, proof by induction, polar coordinates and further mechanics, stats and decision — taught from the ideas up. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
 canonical: https://learn.modernagecoders.com/further-maths-tuition-online
-keywords: ["further maths tuition online", "A-level further maths tutor", "further mathematics tutor", "complex numbers tutor", "matrices A-level", "proof by induction", "polar coordinates A-level", "further mechanics tutor", "further statistics", "decision maths tutor", "STEP MAT tutor", "further maths revision"]
 source: src/pages/further-maths-tuition-online.html
 ---
 > Live 1:1 online Further Maths tuition for A-Level (Edexcel, AQA, OCR). Complex numbers, matrices, proof by induction, polar coordinates and further mechanics, stats and decision — taught from the ideas up. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.

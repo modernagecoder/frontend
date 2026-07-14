@@ -2,7 +2,6 @@
 title: "Modern Age Coders Hackathon 1.0 — ₹30,000 Prize Pool | Biggest Build-Anything Online Hackathon 2026"
 description: "Modern Age Coders Hackathon 1.0 — the biggest build-anything online hackathon. Open to everyone worldwide, all ages. Solve a real-life problem, win from a ₹30,000 prize pool (top 10 builders). 3 rounds, 48-hour build sprint, any AI tool, agent or IDE allowed. Register individually for just ₹500. Registrations closing soon — sign up now!"
 canonical: https://learn.modernagecoders.com/hackathon
-keywords: ["Modern Age Coders Hackathon", "hackathon 2026", "online hackathon", "biggest hackathon India", "hackathon with prize money", "₹30000 prize pool hackathon", "build real world projects", "AI hackathon", "coding competition online", "hackathon for students", "hackathon for beginners", "register for hackathon"]
 source: src/pages/hackathon.html
 ---
 > Modern Age Coders Hackathon 1.0 — the biggest build-anything online hackathon. Open to everyone worldwide, all ages. Solve a real-life problem, win from a ₹30,000 prize pool (top 10 builders). 3 rounds, 48-hour build sprint, any AI tool, agent or IDE allowed. Register individually for just ₹500. Registrations closing soon — sign up now!

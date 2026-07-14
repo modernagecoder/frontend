@@ -2,7 +2,6 @@
 title: "Online Math Tutor for 2nd Grade | Regrouping That Makes Sense | Modern Age Coders"
 description: "Live 1:1 second grade math tutoring: regrouping as real bundling (not a borrowing ritual), fact fluency within 20 finished through games, and the grade-3 multiplication runway laid on time. One-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/online-math-tutor-2nd-grade
-keywords: ["online math tutor 2nd grade", "second grade math tutoring", "2nd grade math help", "regrouping help", "borrowing subtraction help", "math facts within 20", "place value help 2nd grade", "math tutor for 7 year old"]
 source: src/pages/online-math-tutor-2nd-grade.html
 ---
 > Live 1:1 second grade math tutoring: regrouping as real bundling (not a borrowing ritual), fact fluency within 20 finished through games, and the grade-3 multiplication runway laid on time. One-hour classes twice a week, free demo.

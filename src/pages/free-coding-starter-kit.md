@@ -2,7 +2,6 @@
 title: "Free Coding Starter Kit | A Parent's 8-Page Field Guide | Modern Age Coders"
 description: "Download the free coding starter kit: the honest age map, six readiness signals, the first ten projects in Scratch and Python, the free-tools shortlist, and the checklist for judging any coding class. Written by real mentors, zero fluff."
 canonical: https://learn.modernagecoders.com/free-coding-starter-kit
-keywords: ["free coding starter kit", "coding guide for parents", "how to start kids coding", "coding readiness checklist", "first coding projects for kids", "free coding resources parents", "kids coding pdf guide"]
 source: src/pages/free-coding-starter-kit.html
 ---
 > Download the free coding starter kit: the honest age map, six readiness signals, the first ten projects in Scratch and Python, the free-tools shortlist, and the checklist for judging any coding class. Written by real mentors, zero fluff.

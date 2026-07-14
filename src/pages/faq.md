@@ -2,7 +2,6 @@
 title: "FAQ - Modern Age Coders | Frequently Asked Questions"
 description: "Find answers to common questions about Modern Age Coders courses, pricing, enrollment, and more. Get all the information you need to start your coding journey."
 canonical: https://learn.modernagecoders.com/faq
-keywords: ["coding course FAQ", "programming questions", "Modern Age Coders help", "course information"]
 source: src/pages/faq.html
 ---
 > Find answers to common questions about Modern Age Coders courses, pricing, enrollment, and more. Get all the information you need to start your coding journey.

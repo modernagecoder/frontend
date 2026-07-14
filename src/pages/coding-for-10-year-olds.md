@@ -2,7 +2,6 @@
 title: "Coding for 10 Year Olds | Python, Scratch & AI Classes for Kids | Modern Age Coders"
 description: "Live 1-on-1 and small-group coding classes for 10 year olds. Learn Scratch, Python, AI and web basics with 1 hour sessions. Free demo. Curriculum built for Class 5 students."
 canonical: https://learn.modernagecoders.com/coding-for-10-year-olds
-keywords: ["coding for 10 year olds", "coding classes for 10 year olds", "python for 10 year olds", "scratch for 10 year olds", "coding for kids", "AI for kids", "coding for class 5", "programming for 10 year olds", "best coding class for kids", "online coding for 10 year old", "python programming for kids", "java for kids"]
 source: src/pages/coding-for-10-year-olds.html
 ---
 > Live 1-on-1 and small-group coding classes for 10 year olds. Learn Scratch, Python, AI and web basics with 1 hour sessions. Free demo. Curriculum built for Class 5 students.

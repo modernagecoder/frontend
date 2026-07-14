@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Golpark, Kolkata"
 description: "Premium live online coding & maths classes near Golpark, Kolkata. Small batches, real engineers, Python, Java & AI for South Point, Modern High & ICSE/CBSE."
 canonical: https://learn.modernagecoders.com/coding-classes-near-golpark-kolkata
-keywords: ["coding classes near Golpark", "coding classes Golpark Kolkata", "Python classes Golpark", "Java classes ICSE Kolkata", "online coding classes South Kolkata", "maths tuition Golpark", "AI ML classes Kolkata", "coding classes South Point students", "BlueJ Java ICSE Kolkata", "CBSE computer science Python", "coding classes Lake Gardens", "coding classes Gariahat"]
 source: src/pages/coding-classes-near-golpark-kolkata.html
 ---
 > Premium live online coding & maths classes near Golpark, Kolkata. Small batches, real engineers, Python, Java & AI for South Point, Modern High & ICSE/CBSE.

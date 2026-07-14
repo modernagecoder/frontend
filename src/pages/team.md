@@ -2,7 +2,6 @@
 title: "Our Team | Founder & Mentors | Modern Age Coders"
 description: "Meet the founder and senior mentors behind Modern Age Coders. Live teaching since 2020, small batches capped at 10, and a 4.9 rating across 547 Google reviews."
 canonical: https://learn.modernagecoders.com/team
-keywords: ["modern age coders founder", "modern age coders team", "coding class teachers", "online coding mentors", "shivam sir modern age coders"]
 source: src/pages/team.html
 ---
 > Meet the founder and senior mentors behind Modern Age Coders. Live teaching since 2020, small batches capped at 10, and a 4.9 rating across 547 Google reviews.

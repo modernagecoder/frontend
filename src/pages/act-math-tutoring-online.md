@@ -2,7 +2,6 @@
 title: "ACT Math Tutoring Online · 1:1 ACT Math Prep — Modern Age Coders"
 description: "Live 1:1 online ACT Math tutoring. We rebuild the algebra, geometry and trig the ACT tests, then train the pacing the ACT demands — 60 questions in 60 minutes. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/act-math-tutoring-online
-keywords: ["ACT math tutoring online", "ACT math prep", "ACT math tutor", "online ACT prep", "ACT math practice", "ACT math pacing", "raise ACT math score", "ACT geometry", "ACT trigonometry", "ACT algebra", "ACT 1:1 tutoring", "ACT math 36"]
 source: src/pages/act-math-tutoring-online.html
 ---
 > Live 1:1 online ACT Math tutoring. We rebuild the algebra, geometry and trig the ACT tests, then train the pacing the ACT demands — 60 questions in 60 minutes. Mentors in every US time zone. $150/month, 8 classes. Free trial.

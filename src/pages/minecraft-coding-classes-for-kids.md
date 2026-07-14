@@ -2,7 +2,6 @@
 title: "Minecraft Coding Classes for Kids | MakeCode & Python, Live 1:1 | Modern Age Coders"
 description: "Live online Minecraft coding classes for kids ages 7-13: MakeCode blocks, then real Python commanding the world - loops that build, traps that trigger - in safe class worlds with a dedicated mentor. One-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/minecraft-coding-classes-for-kids
-keywords: ["minecraft coding classes for kids", "minecraft coding course", "learn python with minecraft", "makecode minecraft classes", "minecraft education coding", "minecraft programming for kids", "minecraft coding tutor", "coding classes minecraft kids", "minecraft python classes"]
 source: src/pages/minecraft-coding-classes-for-kids.html
 ---
 > Live online Minecraft coding classes for kids ages 7-13: MakeCode blocks, then real Python commanding the world - loops that build, traps that trigger - in safe class worlds with a dedicated mentor. One-hour classes twice a week, free demo.

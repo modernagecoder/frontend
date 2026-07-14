@@ -2,7 +2,6 @@
 title: "Artificial Intelligence Course | Complete AI Course Online (India)"
 description: "A complete Artificial Intelligence course. Live online AI course covering Python, Machine Learning, Deep Learning, NLP, Computer Vision and Generative AI — the full AI journey, hands-on with real projects. For college, professionals & teens. Small batches, free demo."
 canonical: https://learn.modernagecoders.com/artificial-intelligence-course
-keywords: ["artificial intelligence course", "ai course online", "complete ai course", "learn artificial intelligence", "ai course India", "ai course for beginners", "ai full course", "ai certification course", "ai and ml course", "ai training online"]
 source: src/pages/artificial-intelligence-course.html
 ---
 > A complete Artificial Intelligence course. Live online AI course covering Python, Machine Learning, Deep Learning, NLP, Computer Vision and Generative AI — the full AI journey, hands-on with real projects. For college, professionals & teens. Small batches, free demo.

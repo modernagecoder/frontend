@@ -2,7 +2,6 @@
 title: "Coding for College Students - Python, DSA, Web Dev & AI | Modern Age Coders"
 description: "Coding courses designed for college students. Learn Python, Data Structures, Web Development, AI/ML. Build real projects for your portfolio. Placement-ready skills. Students from 15+ countries. Book a free demo!"
 canonical: https://learn.modernagecoders.com/levels/coding-for-college-students
-keywords: ["coding for college students", "coding courses for college students", "programming for college students", "data science course", "college coding courses online", "full stack development course", "AI ML course", "learn web development", "MERN stack course", "DSA course", "competitive programming course online", "python course college"]
 source: src/pages/category/college.html
 ---
 > Coding courses designed for college students. Learn Python, Data Structures, Web Development, AI/ML. Build real projects for your portfolio. Placement-ready skills. Students from 15+ countries. Book a free demo!

@@ -2,7 +2,6 @@
 title: "Cancellation Policy - Modern Age Coders"
 description: "Read about modern age coders cancellation policy. Understand the guidelines and terms for cancelling courses and subscriptions."
 canonical: https://learn.modernagecoders.com/cancellation
-keywords: ["cancellation policy", "terminate", "subscription", "course cancellation"]
 source: src/pages/cancellation.html
 ---
 > Read about modern age coders cancellation policy. Understand the guidelines and terms for cancelling courses and subscriptions.

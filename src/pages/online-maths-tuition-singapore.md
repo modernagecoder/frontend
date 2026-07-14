@@ -2,7 +2,6 @@
 title: "Online Maths Tuition Singapore | PSLE to A Maths, Live 1:1 | Modern Age Coders"
 description: "Live 1:1 online maths tuition on the MOE syllabus: model method, heuristics, PSLE Paper 1 fluency, E Maths and A Maths. Singapore evening slots, one-hour classes twice a week, free demo. USD $150 1-on-1."
 canonical: https://learn.modernagecoders.com/online-maths-tuition-singapore
-keywords: ["online maths tuition singapore", "maths tutor singapore", "psle maths tuition", "psle problem sums help", "a maths tuition", "e maths tuition", "moe syllabus maths tutor", "model method tuition", "psle paper 1 practice"]
 source: src/pages/online-maths-tuition-singapore.html
 ---
 > Live 1:1 online maths tuition on the MOE syllabus: model method, heuristics, PSLE Paper 1 fluency, E Maths and A Maths. Singapore evening slots, one-hour classes twice a week, free demo. USD $150 1-on-1.

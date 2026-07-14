@@ -2,7 +2,6 @@
 title: "Summer Coding Camp for Teens 2026 (Ages 12-17) | Online Worldwide | Modern Age Coders"
 description: "Summer Coding Camp 2026 for Teens Ages 12-17. Learn HTML, CSS, JavaScript, Python, AI Tools in 16 live sessions. Build real projects. Students worldwide — limited seats!"
 canonical: https://learn.modernagecoders.com/summer-coding-camp-teens
-keywords: ["summer coding camp for teens", "teen coding camp 2026", "summer coding for teenagers", "web development for teens", "python for teens", "javascript course", "summer coding camp online", "Modern Age Coders"]
 source: src/pages/summer-coding-camp-teens.html
 ---
 > Summer Coding Camp 2026 for Teens Ages 12-17. Learn HTML, CSS, JavaScript, Python, AI Tools in 16 live sessions. Build real projects. Students worldwide — limited seats!

@@ -2,7 +2,6 @@
 title: "SAT Math Tutoring Online · 1:1 Digital SAT Math Prep — Modern Age Coders"
 description: "Live 1:1 online SAT Math tutoring for the Digital SAT. We rebuild the algebra and data reasoning the test rewards — Heart of Algebra, Problem Solving & Data Analysis, Passport to Advanced Math — then train pacing and the traps. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/sat-math-tutoring-online
-keywords: ["SAT math tutoring online", "SAT math prep", "digital SAT math", "SAT math tutor", "online SAT prep", "SAT math practice", "Heart of Algebra", "Passport to Advanced Math", "problem solving and data analysis SAT", "SAT math score improvement", "Desmos SAT", "Bluebook SAT"]
 source: src/pages/sat-math-tutoring-online.html
 ---
 > Live 1:1 online SAT Math tutoring for the Digital SAT. We rebuild the algebra and data reasoning the test rewards — Heart of Algebra, Problem Solving & Data Analysis, Passport to Advanced Math — then train pacing and the traps. Mentors in every US time zone. $150/month, 8 classes. Free trial.

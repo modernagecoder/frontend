@@ -2,7 +2,6 @@
 title: "Online Math Tutor for 11th Grade | Algebra 2 + SAT, One Campaign | Modern Age Coders"
 description: "Live 1:1 junior-year math tutoring run as one campaign: Algebra 2 taught for ownership, SAT and PSAT craft layered in season, the calendar planned backward from real test dates, and the GPA protected live. One-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/online-math-tutor-11th-grade
-keywords: ["online math tutor 11th grade", "11th grade math help", "junior year math tutoring", "algebra 2 and sat prep together", "psat nmsqt prep", "junior gpa math help", "sat math junior year"]
 source: src/pages/online-math-tutor-11th-grade.html
 ---
 > Live 1:1 junior-year math tutoring run as one campaign: Algebra 2 taught for ownership, SAT and PSAT craft layered in season, the calendar planned backward from real test dates, and the GPA protected live. One-hour classes twice a week, free demo.

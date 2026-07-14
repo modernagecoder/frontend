@@ -2,7 +2,6 @@
 title: "Corporate Coding Training | AI, Data Science & Tech Upskilling for Global Teams | Modern Age Coders"
 description: "Custom corporate coding training for global teams — AI/ML, Data Science, Full Stack & Python programs for teams of 5 to 500+. Flexible online delivery across time zones, live dashboards, and certified completion. Get a free consultation today."
 canonical: https://learn.modernagecoders.com/levels/corporate-training
-keywords: ["corporate coding training", "corporate training programs", "team upskilling", "corporate coding courses", "enterprise training", "workforce development", "tech training for companies", "AI ML corporate training", "data science training", "employee upskilling", "corporate learning solutions worldwide"]
 source: src/pages/category/corporate.html
 ---
 > Custom corporate coding training for global teams — AI/ML, Data Science, Full Stack & Python programs for teams of 5 to 500+. Flexible online delivery across time zones, live dashboards, and certified completion. Get a free consultation today.

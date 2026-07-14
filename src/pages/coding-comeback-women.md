@@ -2,7 +2,6 @@
 title: "Coding Comeback for Women — Return to Tech After a Career Break, Maternity Pause or Sabbatical | Modern Age Coders"
 description: "A returnship-style coding programme for women restarting their career after a break — maternity, caregiving, sabbatical, or burnout. Python, full-stack web, data analysis or AI tools in a structured 18-week track. Live online, India and global. Mentor-led, small cohorts, judgement-free."
 canonical: https://learn.modernagecoders.com/coding-comeback-women
-keywords: ["coding for women after career break", "returnship india", "women returning to work", "women in tech comeback", "coding classes for housewives", "coding for women after maternity", "women back to work programme", "returnee programme tech", "learn python after career break", "coding for working mothers", "mid-career women coding", "second career in tech"]
 source: src/pages/coding-comeback-women.html
 ---
 > A returnship-style coding programme for women restarting their career after a break — maternity, caregiving, sabbatical, or burnout. Python, full-stack web, data analysis or AI tools in a structured 18-week track. Live online, India and global. Mentor-led, small cohorts, judgement-free.

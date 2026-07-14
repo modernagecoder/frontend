@@ -2,7 +2,6 @@
 title: "Natural Language Processing Course (NLP) | Learn NLP in Python"
 description: "NLP course — learn natural language processing in Python. Tokenization, embeddings, sentiment analysis, text classification and transformers. Build AI that understands text. Live, hands-on, small batches. Free demo."
 canonical: https://learn.modernagecoders.com/natural-language-processing-course
-keywords: ["natural language processing course", "nlp course", "learn nlp", "nlp python", "text classification course", "sentiment analysis course", "word embeddings", "transformers nlp", "nlp with python", "spacy nltk course"]
 source: src/pages/natural-language-processing-course.html
 ---
 > NLP course — learn natural language processing in Python. Tokenization, embeddings, sentiment analysis, text classification and transformers. Build AI that understands text. Live, hands-on, small batches. Free demo.

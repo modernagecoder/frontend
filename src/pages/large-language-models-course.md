@@ -2,7 +2,6 @@
 title: "Large Language Models Course (LLMs) | Learn & Build with LLMs"
 description: "Large Language Models course — understand how LLMs like GPT work, and build real apps with them. Transformers, tokens, embeddings, fine-tuning and RAG, plus building with LLM APIs in Python. Live, small batches. Free demo."
 canonical: https://learn.modernagecoders.com/large-language-models-course
-keywords: ["large language models course", "llm course", "learn llms", "gpt course", "transformers course", "build with llms", "llm api course", "fine-tuning llm", "rag course", "llm engineering", "generative ai llm course"]
 source: src/pages/large-language-models-course.html
 ---
 > Large Language Models course — understand how LLMs like GPT work, and build real apps with them. Transformers, tokens, embeddings, fine-tuning and RAG, plus building with LLM APIs in Python. Live, small batches. Free demo.

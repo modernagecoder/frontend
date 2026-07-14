@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Tirupati | Modern Age Coders"
 description: "Live online coding & maths classes in Tirupati for kids, teens & adults. Python, AI, Java, Web Dev & EAPCET/JEE-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-tirupati
-keywords: ["best coding classes in Tirupati", "coding classes in Tirupati", "coding for kids in Tirupati", "coding for teens in Tirupati", "programming classes Tirupati", "coding institute Tirupati", "online coding classes Tirupati", "coding classes near me Tirupati", "Scratch programming Tirupati", "Python for kids Tirupati", "web development course Tirupati", "best coding institute in Tirupati"]
 source: src/pages/best-coding-class-in-tirupati.html
 ---
 > Live online coding & maths classes in Tirupati for kids, teens & adults. Python, AI, Java, Web Dev & EAPCET/JEE-aligned logic. Rated 4.9/5. Book a free demo!

@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Loudon Street"
 description: "Live online, premium coding & maths classes near Loudon Street, Kolkata. Small batches for St. Xavier's, La Martiniere & Loreto families. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-loudon-street-kolkata
-keywords: ["coding classes near Loudon Street", "coding classes Loudon Street Kolkata", "Python classes Kolkata 700017", "Java ICSE classes Kolkata", "AI ML classes for teens Kolkata", "online maths tuition Loudon Street", "coding classes near Park Street Kolkata", "coding classes near Camac Street", "ICSE computer applications coaching Kolkata", "La Martiniere coding classes", "St Xavier's coding classes Kolkata", "live online coding classes Kolkata"]
 source: src/pages/coding-classes-near-loudon-street-kolkata.html
 ---
 > Live online, premium coding & maths classes near Loudon Street, Kolkata. Small batches for St. Xavier's, La Martiniere & Loreto families. Book a free demo.

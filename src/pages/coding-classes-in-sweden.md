@@ -2,7 +2,6 @@
 title: "Online Coding & AI Classes in Sweden | Stockholm"
 description: "Live 1:1 online coding, Python & AI mentorship for Sweden students. Lgr 22 & Gymnasium aligned, built for KTH & Chalmers depth. USD 100/mo. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-sweden
-keywords: ["coding classes Sweden", "online coding classes Sweden", "programmeringskurs online Sverige", "kodning för barn Stockholm", "Python tutor Stockholm", "Python kurs online", "coding classes Göteborg", "coding classes Malmö", "coding classes Uppsala", "coding classes Lund", "coding classes Linköping", "coding classes Västerås"]
 source: src/pages/coding-classes-in-sweden.html
 ---
 > Live 1:1 online coding, Python & AI mentorship for Sweden students. Lgr 22 & Gymnasium aligned, built for KTH & Chalmers depth. USD 100/mo. Free demo.

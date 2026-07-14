@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Bhavnagar | Modern Age Coders"
 description: "Live online coding & maths classes in Bhavnagar for kids, teens & adults. Python, AI, Java & Web Dev, logic near Alang port. Rated 4.9/5. Book a free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-bhavnagar
-keywords: ["best coding classes in Bhavnagar", "coding classes in Bhavnagar", "coding for kids in Bhavnagar", "coding for teens in Bhavnagar", "programming classes Bhavnagar", "coding institute Bhavnagar", "online coding classes Bhavnagar", "coding classes near me Bhavnagar", "Scratch programming Bhavnagar", "Python for kids Bhavnagar", "web development course Bhavnagar", "DSA classes Bhavnagar"]
 source: src/pages/best-coding-class-in-bhavnagar.html
 ---
 > Live online coding & maths classes in Bhavnagar for kids, teens & adults. Python, AI, Java & Web Dev, logic near Alang port. Rated 4.9/5. Book a free demo!

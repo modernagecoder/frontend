@@ -2,7 +2,6 @@
 title: "Singapore Math Method Tutoring Online | Bar Models, Live 1:1 | Modern Age Coders"
 description: "Live 1:1 Singapore Math method tutoring: the full Concrete-Pictorial-Abstract progression, bar models and number bonds taught by real teachers, your workbooks folded in. One-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/singapore-math-method-tutoring
-keywords: ["singapore math method tutoring", "singapore math tutor online", "bar model tutoring", "bar model method", "CPA math method", "singapore math homeschool help", "number bonds tutoring", "singapore math online classes"]
 source: src/pages/singapore-math-method-tutoring.html
 ---
 > Live 1:1 Singapore Math method tutoring: the full Concrete-Pictorial-Abstract progression, bar models and number bonds taught by real teachers, your workbooks folded in. One-hour classes twice a week, free demo.

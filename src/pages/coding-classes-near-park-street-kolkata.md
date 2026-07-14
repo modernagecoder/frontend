@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Park Street"
 description: "Premium live online coding & maths classes near Park Street, Kolkata. Small batches, project-based, taught by engineers. ICSE Java, Python, AI/ML. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-park-street-kolkata
-keywords: ["coding classes near Park Street Kolkata", "online coding classes Park Street", "maths tuition Park Street Kolkata", "ICSE Java classes Kolkata", "Python classes for kids Kolkata", "AI ML classes Kolkata", "coding classes Camac Street", "computer science tuition Park Street", "La Martiniere coding classes", "St Xavier's coding classes", "live online coding Kolkata", "ISC computer science tuition Kolkata"]
 source: src/pages/coding-classes-near-park-street-kolkata.html
 ---
 > Premium live online coding & maths classes near Park Street, Kolkata. Small batches, project-based, taught by engineers. ICSE Java, Python, AI/ML. Free demo.

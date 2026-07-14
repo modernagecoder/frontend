@@ -2,7 +2,6 @@
 title: "Best AI & Machine Learning Course in India | Live Online ML, DL & Python"
 description: "India's best live online AI & Machine Learning course. Master Python, Machine Learning, Deep Learning, Neural Networks, Data Science & Generative AI by building and training real models. For college students, professionals & serious teens. Small batches, free demo."
 canonical: https://learn.modernagecoders.com/best-ai-and-machine-learning-course-in-india
-keywords: ["best ai and machine learning course in india", "ai ml course", "machine learning course", "deep learning course", "python for machine learning", "data science course", "generative ai course", "learn ai online india", "neural networks course", "ai certification course", "how to build ai models", "train machine learning models"]
 source: src/pages/best-ai-and-machine-learning-course-in-india.html
 ---
 > India's best live online AI & Machine Learning course. Master Python, Machine Learning, Deep Learning, Neural Networks, Data Science & Generative AI by building and training real models. For college students, professionals & serious teens. Small batches, free demo.

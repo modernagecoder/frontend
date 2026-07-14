@@ -2,7 +2,6 @@
 title: "Learn Coding by Age (8–17) | Kids & Teen Programming | Modern Age Coders"
 description: "Age-specific coding classes for kids and teens from 8 to 17. Scratch, Python, AI, web development. Live 1-on-1 instruction rated 4.9/5. Book a free demo."
 canonical: https://learn.modernagecoders.com/learn-coding-by-age
-keywords: ["coding for 8 year olds", "coding for 9 year olds", "coding for 10 year olds", "coding for 11 year olds", "coding for 12 year olds", "coding for 13 year olds", "coding for 14 year olds", "coding for 15 year olds", "coding for 16 year olds", "coding for 17 year olds", "python for kids by age", "python for teens by age"]
 source: src/pages/learn-coding-by-age.html
 ---
 > Age-specific coding classes for kids and teens from 8 to 17. Scratch, Python, AI, web development. Live 1-on-1 instruction rated 4.9/5. Book a free demo.

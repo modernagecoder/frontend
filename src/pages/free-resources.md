@@ -2,7 +2,6 @@
 title: "Free Programming Resources | Official Documentation & Learning Platforms | Modern Age Coders"
 description: "Curated collection of official programming documentation and trusted learning platforms. Access Python, JavaScript, Java, React documentation and more - all free."
 canonical: https://learn.modernagecoders.com/free-resources
-keywords: ["programming documentation", "python docs", "javascript MDN", "java oracle docs", "react documentation", "free coding resources", "learn programming", "developer resources"]
 source: src/pages/free-resources.html
 ---
 > Curated collection of official programming documentation and trusted learning platforms. Access Python, JavaScript, Java, React documentation and more - all free.

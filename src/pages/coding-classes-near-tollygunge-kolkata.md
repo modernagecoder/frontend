@@ -2,7 +2,6 @@
 title: "Coding & Maths Classes near Tollygunge, Kolkata | Live"
 description: "Live online coding & maths classes for Tollygunge, Charu Market, Bansdroni & Lake Gardens kids. Small batches, full-time engineers, from ₹1,499/mo. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-tollygunge-kolkata
-keywords: ["coding classes near Tollygunge", "coding classes Tollygunge Kolkata", "maths tuition Tollygunge", "Python classes for kids Tollygunge", "Java ICSE coding South Point", "coding classes Charu Market", "coding classes Bansdroni", "AI ML classes for teens Kolkata", "online coding classes Lake Gardens", "ICSE Computer Applications Java BlueJ Kolkata", "CBSE Computer Science Class 11 12 online", "coding classes for girls South Kolkata"]
 source: src/pages/coding-classes-near-tollygunge-kolkata.html
 ---
 > Live online coding & maths classes for Tollygunge, Charu Market, Bansdroni & Lake Gardens kids. Small batches, full-time engineers, from ₹1,499/mo. Free demo.

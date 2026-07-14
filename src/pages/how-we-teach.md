@@ -2,7 +2,6 @@
 title: "How We Teach — Watch Our Free Coding & Maths Demo Library | Modern Age Coders"
 description: "Watch every Modern Age Coders teaching demo, free. Our open methodology library shows exactly how we teach coding (Python, AI, web design) and maths (fractions, algebra, calculus) — real class recordings, organised by topic and age. No sign-up, no payment."
 canonical: https://learn.modernagecoders.com/how-we-teach
-keywords: ["how we teach coding", "coding class demo", "maths class demo", "free coding lessons online", "free maths lessons online", "modern age coders methodology", "watch coding lesson before buying", "python lessons for kids", "ai lessons for teens", "fractions lesson", "algebra lesson", "calculus lesson"]
 source: src/pages/how-we-teach.html
 ---
 > Watch every Modern Age Coders teaching demo, free. Our open methodology library shows exactly how we teach coding (Python, AI, web design) and maths (fractions, algebra, calculus) — real class recordings, organised by topic and age. No sign-up, no payment.

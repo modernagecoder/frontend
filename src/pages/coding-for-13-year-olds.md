@@ -2,7 +2,6 @@
 title: "Coding for 13 Year Olds — Python, Full Stack Web & App Development for Teens | Modern Age Coders"
 description: "Live online coding classes for 13 year olds. Python OOP, full stack web, app development, AI/ML and DSA intro. 1 hour classes, 1:1 or small group. Free demo."
 canonical: https://learn.modernagecoders.com/coding-for-13-year-olds
-keywords: ["coding for 13 year olds", "python for teens", "coding for class 8", "full stack for teens", "app development for teens", "ai ml for 13 year olds", "javascript for teens", "react for teens", "coding for teenagers", "teen coding classes online", "coding for 8th grade", "best coding class for 13 year old"]
 source: src/pages/coding-for-13-year-olds.html
 ---
 > Live online coding classes for 13 year olds. Python OOP, full stack web, app development, AI/ML and DSA intro. 1 hour classes, 1:1 or small group. Free demo.

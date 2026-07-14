@@ -2,7 +2,6 @@
 title: "Computer Science Class 11 ICSE — Java OOP, Boolean Algebra & ISC Full Syllabus | Modern Age Coders"
 description: "ISC Class 11 Computer Science tuition. Java OOP, boolean algebra, number systems, computer ethics — CISCE-aligned. 1 hour live classes, 1:1 or small group."
 canonical: https://learn.modernagecoders.com/computer-science-class-11-icse
-keywords: ["computer science class 11 icse", "isc class 11 cs", "icse class 11 java", "isc computer science class 11", "class 11 icse java tuition", "isc 11 boolean algebra", "isc 11 cs syllabus", "icse class 11 java oop", "cisce class 11 cs", "isc class 11 cs sample papers", "isc 11 practical", "class 11 icse cs online"]
 source: src/pages/computer-science-class-11-icse.html
 ---
 > ISC Class 11 Computer Science tuition. Java OOP, boolean algebra, number systems, computer ethics — CISCE-aligned. 1 hour live classes, 1:1 or small group.

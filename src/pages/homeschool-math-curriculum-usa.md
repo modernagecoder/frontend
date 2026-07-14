@@ -2,7 +2,6 @@
 title: "Homeschool Math Curriculum (USA) · 1:1 Online Math for Homeschoolers — Modern Age Coders"
 description: "Live 1:1 online math for US homeschoolers, K–12. A custom scope-and-sequence built around your child, taught for understanding, with mastery-based pacing and parent reporting. Aligns with Common Core if you want it. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/homeschool-math-curriculum-usa
-keywords: ["homeschool math curriculum", "online math for homeschoolers", "homeschool math tutor", "homeschool math program", "K-12 homeschool math", "homeschool math help", "custom math curriculum", "mastery based math", "homeschool math online classes", "Common Core homeschool math", "homeschool math sequence", "eclectic homeschool math"]
 source: src/pages/homeschool-math-curriculum-usa.html
 ---
 > Live 1:1 online math for US homeschoolers, K–12. A custom scope-and-sequence built around your child, taught for understanding, with mastery-based pacing and parent reporting. Aligns with Common Core if you want it. Mentors in every US time zone. $150/month, 8 classes. Free trial.

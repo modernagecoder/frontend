@@ -2,7 +2,6 @@
 title: "Machine Learning Course for Beginners | Learn ML with Python Online"
 description: "Learn Machine Learning from scratch. Beginner-friendly live online ML course in Python — regression, classification, clustering & model evaluation with scikit-learn. Build & train real models. No advanced maths needed. Small batches, free demo."
 canonical: https://learn.modernagecoders.com/machine-learning-course-for-beginners
-keywords: ["machine learning course for beginners", "learn machine learning", "ml course online", "machine learning with python", "scikit-learn course", "machine learning for beginners India", "ml basics", "supervised learning course", "how to learn machine learning", "machine learning online classes"]
 source: src/pages/machine-learning-course-for-beginners.html
 ---
 > Learn Machine Learning from scratch. Beginner-friendly live online ML course in Python — regression, classification, clustering & model evaluation with scikit-learn. Build & train real models. No advanced maths needed. Small batches, free demo.

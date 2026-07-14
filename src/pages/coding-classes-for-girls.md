@@ -2,7 +2,6 @@
 title: "Coding Classes for Girls | Empowering Future Women in Tech Worldwide | Modern Age Coders"
 description: "Best online coding classes for girls in India and worldwide. Python, AI, web development in a safe, encouraging all-girls environment. 500+ girls from 15+ countries already learning. Book a free demo!"
 canonical: https://learn.modernagecoders.com/coding-classes-for-girls
-keywords: ["coding classes for girls", "coding classes for girls India", "coding for girls online", "STEM education for girls", "python for girls", "tech for girls", "coding for teenage girls", "girls who code", "girls who code India", "AI for girls", "computer science girls", "women in tech"]
 source: src/pages/coding-classes-for-girls.html
 ---
 > Best online coding classes for girls in India and worldwide. Python, AI, web development in a safe, encouraging all-girls environment. 500+ girls from 15+ countries already learning. Book a free demo!

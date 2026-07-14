@@ -2,7 +2,6 @@
 title: "Python for Kids & Teens | Learn Python & AI Online | Modern Age Coders"
 description: "Python for kids aged 10-18. Learn Python programming through fun projects like games, chatbots, and web apps. Live 1-on-1 classes with expert instructors. Students from 15+ countries. Book a free demo!"
 canonical: https://learn.modernagecoders.com/python-and-ai-classes-for-kids-teens
-keywords: ["python for kids", "python programming for kids", "python for children", "learn python kids", "python coding for kids", "kids python course online", "python classes for kids", "learn python for beginners", "AI course for kids", "python for teens", "artificial intelligence course kids", "python programming kids"]
 source: src/pages/python-and-ai-classes-for-kids-teens.html
 ---
 > Python for kids aged 10-18. Learn Python programming through fun projects like games, chatbots, and web apps. Live 1-on-1 classes with expert instructors. Students from 15+ countries. Book a free demo!

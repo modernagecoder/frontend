@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Shibpur, Howrah"
 description: "Live online coding & maths classes near Shibpur, Howrah. Python, Java, AI/ML, Scratch + ICSE/CBSE board prep. Small live batches from ₹1,499/mo. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-shibpur-howrah
-keywords: ["coding classes near Shibpur Howrah", "coding classes Shibpur", "IIEST Shibpur coding classes", "Python classes Shibpur Howrah", "Java BlueJ ICSE Shibpur", "maths tuition Shibpur Howrah", "online coding classes Howrah", "AI ML classes for teens Howrah", "CBSE computer science Howrah", "coding for kids Shibpur", "coding classes near Botanic Garden Howrah", "coding classes near Mandirtala"]
 source: src/pages/coding-classes-near-shibpur-howrah.html
 ---
 > Live online coding & maths classes near Shibpur, Howrah. Python, Java, AI/ML, Scratch + ICSE/CBSE board prep. Small live batches from ₹1,499/mo. Free demo.

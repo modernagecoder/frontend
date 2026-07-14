@@ -2,7 +2,6 @@
 title: "AI & ML Projects for Students | Build a Portfolio That Gets You Hired"
 description: "AI &amp; ML projects for students — build a portfolio that gets you noticed. Guided, real-world machine learning and deep learning projects in Python, fully explained, mentor-reviewed. Live, small batches. Free demo."
 canonical: https://learn.modernagecoders.com/ai-ml-projects-for-students
-keywords: ["ai ml projects for students", "machine learning projects", "ai project ideas students", "ml portfolio projects", "deep learning projects", "final year ai ml project", "ai ml project course", "hands-on ml projects", "ml projects python", "student ai projects"]
 source: src/pages/ai-ml-projects-for-students.html
 ---
 > AI &amp; ML projects for students — build a portfolio that gets you noticed. Guided, real-world machine learning and deep learning projects in Python, fully explained, mentor-reviewed. Live, small batches. Free demo.

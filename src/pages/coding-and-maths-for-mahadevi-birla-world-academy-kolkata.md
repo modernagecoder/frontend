@@ -2,7 +2,6 @@
 title: "Coding & Maths Classes for Mahadevi Birla World Academy Students | CBSE Kolkata | Modern Age Coders"
 description: "Premium coding & mathematics classes designed for Mahadevi Birla World Academy (MBWA) students in Kolkata. Python, AI, Web Dev & CBSE maths tuition near Park Circus. Small batches, expert mentors. ₹1499/mo. Book free demo!"
 canonical: https://learn.modernagecoders.com/coding-and-maths-for-mahadevi-birla-world-academy-kolkata
-keywords: ["coding classes for Mahadevi Birla World Academy students", "CBSE maths tuition near Park Circus Kolkata", "Python course MBWA students", "coding classes near Darga Road Kolkata", "maths tuition for MBWA Kolkata", "after school coding Mahadevi Birla", "CBSE coding classes Kolkata", "online coding classes Park Circus", "best coding institute Kolkata", "AI classes for school students Kolkata", "computer classes Mahadevi Birla World Academy", "programming classes Park Circus Kolkata"]
 source: src/pages/coding-and-maths-for-mahadevi-birla-world-academy-kolkata.html
 ---
 > Premium coding & mathematics classes designed for Mahadevi Birla World Academy (MBWA) students in Kolkata. Python, AI, Web Dev & CBSE maths tuition near Park Circus. Small batches, expert mentors. ₹1499/mo. Book free demo!

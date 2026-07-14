@@ -2,7 +2,6 @@
 title: "AI Classes for Teenagers (13-18) - Build Real AI Projects & a Portfolio | Modern Age Coders"
 description: "Live, small-batch AI classes for teenagers aged 13 to 18. Build real AI and machine learning projects, a portfolio that stands out for college and internships, and skills that matter for the future - guided by expert mentors. Book a free trial class."
 canonical: https://learn.modernagecoders.com/ai-classes-for-teenagers
-keywords: ["ai classes for teenagers", "ai course for teens", "ai classes for teens", "machine learning for teenagers", "ai projects for teens", "ai classes for high school students", "teen ai coding classes", "ai and machine learning for teenagers", "build ai projects teens", "ai portfolio for college"]
 source: src/pages/ai-classes-for-teenagers.html
 ---
 > Live, small-batch AI classes for teenagers aged 13 to 18. Build real AI and machine learning projects, a portfolio that stands out for college and internships, and skills that matter for the future - guided by expert mentors. Book a free trial class.

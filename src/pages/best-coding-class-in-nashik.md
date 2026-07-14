@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Nashik | Modern Age Coders"
 description: "Live online coding & maths classes in Nashik for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-nashik
-keywords: ["best coding classes in Nashik", "coding for kids in Nashik", "coding for teens in Nashik", "programming classes Nashik", "coding institute Nashik", "online coding classes Nashik", "coding classes near me Nashik", "Scratch programming Nashik", "Python for kids Nashik", "web development Nashik", "best coding institute in Nashik", "Maharashtra Board coding class Nashik"]
 source: src/pages/best-coding-class-in-nashik.html
 ---
 > Live online coding & maths classes in Nashik for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

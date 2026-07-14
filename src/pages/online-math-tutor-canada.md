@@ -2,7 +2,6 @@
 title: "Online Math Tutor Canada | EQAO to Calculus & Vectors | Modern Age Coders"
 description: "Live 1:1 online math tutoring for Canadian students, province-exact: Ontario (coding strand, de-streamed Grade 9, MHF4U/MCV4U), BC pathways, Alberta diploma courses, EQAO gap repair, CEMC contest coaching. One-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/online-math-tutor-canada
-keywords: ["online math tutor canada", "math tutor ontario", "math tutor toronto online", "eqao math help", "mhf4u tutor", "mcv4u tutor", "advanced functions tutor", "calculus and vectors help", "grade 9 destreamed math help", "pre calculus 12 tutor bc", "math 30-1 tutor alberta", "euclid contest prep"]
 source: src/pages/online-math-tutor-canada.html
 ---
 > Live 1:1 online math tutoring for Canadian students, province-exact: Ontario (coding strand, de-streamed Grade 9, MHF4U/MCV4U), BC pathways, Alberta diploma courses, EQAO gap repair, CEMC contest coaching. One-hour classes twice a week, free demo.

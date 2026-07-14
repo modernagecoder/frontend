@@ -738,7 +738,7 @@
       {
         "type": "button",
         "text": "Learn Data Analysis with Python",
-        "url": "/courses/python",
+        "url": "/courses/python-programming-masterclass-zero-to-advanced-college",
         "style": "secondary"
       },
       {
@@ -960,7 +960,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The competitive advantage goes to businesses that make better decisions faster. Data analytics is how you get there. Whether you're analyzing data yourself or building custom solutions, understanding the fundamentals through <a href='/courses/python'>Python programming</a> or <a href='/courses/data-science'>data science courses</a> gives you the skills to leverage data effectively."
+        "text": "The competitive advantage goes to businesses that make better decisions faster. Data analytics is how you get there. Whether you're analyzing data yourself or building custom solutions, understanding the fundamentals through <a href='/courses/python-programming-masterclass-zero-to-advanced-college'>Python programming</a> or <a href='/courses/data-science-complete-masterclass-college'>data science courses</a> gives you the skills to leverage data effectively."
       },
       {
         "type": "callout",

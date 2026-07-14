@@ -215,7 +215,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Want to build websites? Start with <a href='/courses/kids-web-design'>HTML, CSS, and JavaScript</a>.",
+          "Want to build websites? Start with <a href='/courses/kids-ai-web-development-course'>HTML, CSS, and JavaScript</a>.",
           "Interested in data or AI? <a href='/courses/python-complete-masterclass-teens'>Python</a> is your best friend.",
           "Dreaming of mobile apps? Look into <a href='/courses/complete-app-development-masterclass-for-teens'>mobile app development</a>, or try cross-platform options like Flutter.",
           "Just want to explore? <a href='/courses/scratch-programming-complete-course'>Scratch</a> or Blockly are perfect for understanding how coding logic works without getting bogged down in syntax."
@@ -316,7 +316,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Think about it this way: kids growing up now will enter a workforce even more dominated by technology. Teaching them to code isn't just about career prep—it's about giving them the tools to understand and shape the world around them. Check out our <a href='/courses/kids-coding-complete'>Kids Coding courses</a> to get started."
+        "text": "Think about it this way: kids growing up now will enter a workforce even more dominated by technology. Teaching them to code isn't just about career prep—it's about giving them the tools to understand and shape the world around them. Check out our <a href='/courses/kids-coding-blocks-masterclass'>Kids Coding courses</a> to get started."
       },
       {
         "type": "callout",

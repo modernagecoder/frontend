@@ -2,7 +2,6 @@
 title: "PCEP Certification Preparation — Python Entry-Level Exam Guide & Live Coaching | Modern Age Coders"
 description: "A complete, in-depth guide to the PCEP (Certified Entry-Level Python Programmer) exam: full syllabus with section weights, format, cost, passing score, and a study plan — plus live, small-batch Python coaching to get you certified. Free trial."
 canonical: https://learn.modernagecoders.com/pcep-python-certification-prep
-keywords: ["PCEP certification", "PCEP exam", "Certified Entry-Level Python Programmer", "PCEP-30-02", "PCEP syllabus", "Python certification", "how to prepare for PCEP", "Python Institute certification", "PCEP exam questions", "learn Python for certification"]
 source: src/pages/pcep-python-certification-prep.html
 ---
 > A complete, in-depth guide to the PCEP (Certified Entry-Level Python Programmer) exam: full syllabus with section weights, format, cost, passing score, and a study plan — plus live, small-batch Python coaching to get you certified. Free trial.

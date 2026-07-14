@@ -2,7 +2,6 @@
 title: "Python for 10 Year Olds — Real Python Programs, Turtle Art & Mini Games | Modern Age Coders"
 description: "Live online Python classes for 10 year olds. Real Python programs, turtle graphics, a number guess game, first AI project — 1 hour live sessions, 1:1 or group."
 canonical: https://learn.modernagecoders.com/python-for-10-year-olds
-keywords: ["python for 10 year olds", "python for kids 10", "python for class 5", "learn python 10 year old", "python course for kids", "python games 10 year old", "turtle python for kids", "online python class for kids", "best python course 10 year old", "python project class 5", "python ai kids", "python for 10 year old beginner"]
 source: src/pages/python-for-10-year-olds.html
 ---
 > Live online Python classes for 10 year olds. Real Python programs, turtle graphics, a number guess game, first AI project — 1 hour live sessions, 1:1 or group.

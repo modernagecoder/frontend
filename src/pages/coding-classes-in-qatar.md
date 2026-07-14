@@ -2,7 +2,6 @@
 title: "Coding Classes in Qatar | Live Online Python & AI Courses"
 description: "Live online coding classes in Qatar for kids, teens and professionals. Python, AI and web development in small batches of 5 to 8, evenings in AST. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-qatar
-keywords: ["coding classes in qatar", "online coding classes qatar", "coding classes doha", "coding for kids qatar", "python classes qatar", "ai classes qatar", "coding classes for kids in doha", "learn python doha", "online coding classes for kids qatar", "coding courses qatar"]
 source: src/pages/coding-classes-in-qatar.html
 ---
 > Live online coding classes in Qatar for kids, teens and professionals. Python, AI and web development in small batches of 5 to 8, evenings in AST. Free demo.

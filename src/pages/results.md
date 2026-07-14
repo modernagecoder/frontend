@@ -2,7 +2,6 @@
 title: "Our Results | Evidence, Not Adjectives | Modern Age Coders"
 description: "The proof index: 4.9 across 547 Google reviews (hosted where we cannot edit them), live student projects you can click, unedited recorded classes, and an honest list of what we refuse to claim. Zero invented statistics."
 canonical: https://learn.modernagecoders.com/results
-keywords: ["modern age coders results", "modern age coders reviews", "online coding class results", "online maths tuition results", "student outcomes coding classes", "is modern age coders good", "coding class proof"]
 source: src/pages/results.html
 ---
 > The proof index: 4.9 across 547 Google reviews (hosted where we cannot edit them), live student projects you can click, unedited recorded classes, and an honest list of what we refuse to claim. Zero invented statistics.

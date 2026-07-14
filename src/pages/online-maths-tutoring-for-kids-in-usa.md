@@ -2,7 +2,6 @@
 title: "Online Maths Tutoring for Kids in the USA · 1:1 Elementary Math (K–5) — Modern Age Coders"
 description: "Live 1:1 online math tutoring for kids in the USA, ages 6–11. We teach the reasoning behind the math — place value, fractions and word problems — not tricks to memorize. Aligned to Common Core, mentors in every US time zone. $150/month, 8 classes. Book a free trial."
 canonical: https://learn.modernagecoders.com/online-maths-tutoring-for-kids-in-usa
-keywords: ["online math tutoring for kids USA", "elementary math tutor online", "math tutor for kids", "K-5 math tutoring", "1st grade math help", "2nd grade math tutor", "3rd grade math tutoring", "4th grade math", "5th grade math tutor", "Common Core math help", "fractions tutor for kids", "place value help"]
 source: src/pages/online-maths-tutoring-for-kids-in-usa.html
 ---
 > Live 1:1 online math tutoring for kids in the USA, ages 6–11. We teach the reasoning behind the math — place value, fractions and word problems — not tricks to memorize. Aligned to Common Core, mentors in every US time zone. $150/month, 8 classes. Book a free trial.

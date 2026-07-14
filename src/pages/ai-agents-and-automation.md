@@ -2,7 +2,6 @@
 title: "AI Agents & Automation for Business | WhatsApp AI, Workflow Automation, AI Integration & Training — Modern Age Coders"
 description: "Practical AI for small businesses and SMEs. We build WhatsApp AI assistants, custom AI agents, workflow automation, and integrations into the tools you already use — and we train your team to run it. No hype, no jargon, just AI that quietly works."
 canonical: https://learn.modernagecoders.com/ai-agents-and-automation
-keywords: ["AI agents for business", "AI automation for small business", "WhatsApp AI assistant", "AI integration services", "workflow automation India", "AI for SME", "custom AI agent development", "AI chatbot for business", "AI training for teams", "automate business operations", "ChatGPT for business", "business AI consultant"]
 source: src/pages/ai-agents-and-automation.html
 ---
 > Practical AI for small businesses and SMEs. We build WhatsApp AI assistants, custom AI agents, workflow automation, and integrations into the tools you already use — and we train your team to run it. No hype, no jargon, just AI that quietly works.

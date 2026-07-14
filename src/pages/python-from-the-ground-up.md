@@ -2,7 +2,6 @@
 title: "Python From the Ground Up — Complete, In-Depth Python Course (Grade 6 to Professional) | Modern Age Coders"
 description: "Learn Python from the ground up — a complete, in-depth course that teaches every fundamental, the standard-library modules other courses skip, and a real first taste of AI. Live small-batch classes: about 40 classes for Grade 6 to 12, and 24 for Grade 12 plus and adults. Stage 1 of a 3-stage Python-to-AI path. Free demo."
 canonical: https://learn.modernagecoders.com/python-from-the-ground-up
-keywords: ["learn python from the ground up", "complete python course", "python fundamentals in depth", "python from scratch", "deep python course", "python standard library course", "python from beginner to advanced", "python course grade 6 to 12", "python masterclass", "learn python deeply", "should I learn python in the age of AI", "learn python 2026"]
 source: src/pages/python-from-the-ground-up.html
 ---
 > Learn Python from the ground up — a complete, in-depth course that teaches every fundamental, the standard-library modules other courses skip, and a real first taste of AI. Live small-batch classes: about 40 classes for Grade 6 to 12, and 24 for Grade 12 plus and adults. Stage 1 of a 3-stage Python-to-AI path. Free demo.

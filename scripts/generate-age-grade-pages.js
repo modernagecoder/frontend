@@ -398,7 +398,9 @@ function render(cfg) {
     <title>${esc(title)}</title>
 
     <meta name="description" content="${esc(cfg.metaDescription)}">
-    <meta name="keywords" content="${esc(cfg.keywords)}">
+    <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and
+         Bing treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <link rel="canonical" href="${canon}">
     <link rel="alternate" hreflang="en" href="${canon}" />

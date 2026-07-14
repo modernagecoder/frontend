@@ -2,7 +2,6 @@
 title: "Coding for Class 7 — Python, JavaScript, App Dev & AI for CBSE/ICSE Students | Modern Age Coders"
 description: "Coding classes for Class 7 students. Python with functions, JavaScript intro, app development starter and real AI projects aligned to CBSE/ICSE Class 7 syllabus."
 canonical: https://learn.modernagecoders.com/coding-for-class-7
-keywords: ["coding for class 7", "class 7 python", "javascript for class 7", "app development class 7", "ai for class 7", "cbse class 7 computer", "icse class 7 computer", "coding for 12 year olds", "kids coding class 7", "coding class 7 online", "full stack class 7", "html css javascript class 7"]
 source: src/pages/coding-for-class-7.html
 ---
 > Coding classes for Class 7 students. Python with functions, JavaScript intro, app development starter and real AI projects aligned to CBSE/ICSE Class 7 syllabus.

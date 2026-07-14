@@ -2,7 +2,6 @@
 title: "Coding & Maths Classes for Don Bosco Park Circus Students Kolkata | ICSE Python, Java & Maths | Modern Age Coders"
 description: "Premium coding & maths classes for Don Bosco School Park Circus students in Kolkata. ICSE/ISC-aligned Python, Java, AI & board maths — live online, small batches near Park Circus & Beniapukur. ISC CS Practical Bootcamp. JEE Maths, Coding Olympiad prep. From ₹1499/mo. Book free demo!"
 canonical: https://learn.modernagecoders.com/coding-and-maths-for-don-bosco-park-circus-kolkata
-keywords: ["coding classes for Don Bosco Park Circus students", "maths tuition Don Bosco School Park Circus Kolkata", "Python classes near Don Bosco Park Circus", "ICSE computer applications tuition Kolkata", "ISC computer science tuition Kolkata", "coding classes Park Circus Kolkata", "ICSE maths tuition Park Circus", "after school coding Don Bosco Park Circus", "coding classes near Park Circus 7 point Kolkata", "Python classes Beniapukur Kolkata", "coding classes Tangra Kolkata", "ICSE Java programming Kolkata"]
 source: src/pages/coding-and-maths-for-don-bosco-park-circus-kolkata.html
 ---
 > Premium coding & maths classes for Don Bosco School Park Circus students in Kolkata. ICSE/ISC-aligned Python, Java, AI & board maths — live online, small batches near Park Circus & Beniapukur. ISC CS Practical Bootcamp. JEE Maths, Coding Olympiad prep. From ₹1499/mo. Book free demo!

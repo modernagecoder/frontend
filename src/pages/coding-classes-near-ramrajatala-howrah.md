@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Ramrajatala, Howrah"
 description: "Live online coding & maths classes near Ramrajatala, Howrah. Small batches, full-time engineers, Python, Java, AI/ML. From ₹1,499/mo. Free demo, zero commute."
 canonical: https://learn.modernagecoders.com/coding-classes-near-ramrajatala-howrah
-keywords: ["coding classes Ramrajatala", "coding classes Howrah", "Python classes Ramrajatala", "Java classes Howrah", "maths tuition Ramrajatala", "online coding classes Howrah", "ICSE Java BlueJ Howrah", "AI ML classes Howrah", "coding classes Santragachi", "kids coding Howrah", "WBBSE maths tuition Howrah", "coding near Ramrajatala station"]
 source: src/pages/coding-classes-near-ramrajatala-howrah.html
 ---
 > Live online coding & maths classes near Ramrajatala, Howrah. Small batches, full-time engineers, Python, Java, AI/ML. From ₹1,499/mo. Free demo, zero commute.

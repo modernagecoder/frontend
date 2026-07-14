@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Dum Dum, Kolkata"
 description: "Live online coding & maths classes near Dum Dum, Kolkata for kids, teens & college. Python, Java, AI/ML + maths. ICSE/CBSE prep, batches of 6-8, free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-dum-dum-kolkata
-keywords: ["coding classes near Dum Dum Kolkata", "coding classes Dum Dum", "Python classes Dum Dum", "Java coding Dum Dum", "AI ML classes Dum Dum", "maths tuition Dum Dum Kolkata", "online coding Nager Bazar", "coding classes Bangur Avenue", "ICSE computer applications Dum Dum", "CBSE computer science Dum Dum", "kids coding Dum Dum Cantonment", "coding classes near Kolkata airport"]
 source: src/pages/coding-classes-near-dum-dum-kolkata.html
 ---
 > Live online coding & maths classes near Dum Dum, Kolkata for kids, teens & college. Python, Java, AI/ML + maths. ICSE/CBSE prep, batches of 6-8, free demo.

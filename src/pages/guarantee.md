@@ -2,7 +2,6 @@
 title: "Our Zero-Risk Promise | Free Demo, No Lock-In | Modern Age Coders"
 description: "Start with zero risk: a free live demo class before any payment, monthly billing you can cancel anytime, no registration fees, and small live batches. The promise behind every Modern Age Coders plan."
 canonical: https://learn.modernagecoders.com/guarantee
-keywords: ["free demo coding class", "no lock-in coding classes", "cancel anytime coding classes", "coding classes without contract", "risk free coding classes for kids", "transparent pricing coding classes"]
 source: src/pages/guarantee.html
 ---
 > Start with zero risk: a free live demo class before any payment, monthly billing you can cancel anytime, no registration fees, and small live batches. The promise behind every Modern Age Coders plan.

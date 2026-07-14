@@ -2,7 +2,6 @@
 title: "Learn Coding by Class (4–12) | CBSE, ICSE, IGCSE | Modern Age Coders"
 description: "Coding classes mapped to Class 4-12 CBSE, ICSE and IGCSE syllabi. Python, Computer Science, Computer Applications, projects and board prep. Book a free demo."
 canonical: https://learn.modernagecoders.com/learn-coding-by-class
-keywords: ["coding for class 4", "coding for class 5", "coding for class 6", "coding for class 7", "coding for class 8", "coding for class 9", "coding for class 10", "coding for class 11", "coding for class 12", "python for class 10", "python for class 11 cbse", "python for class 12 cbse"]
 source: src/pages/learn-coding-by-class.html
 ---
 > Coding classes mapped to Class 4-12 CBSE, ICSE and IGCSE syllabi. Python, Computer Science, Computer Applications, projects and board prep. Book a free demo.

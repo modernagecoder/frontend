@@ -2,7 +2,6 @@
 title: "Roblox Coding Classes for Kids | Luau & Studio, Live 1:1 | Modern Age Coders"
 description: "Live online Roblox coding classes for kids ages 9-14: real Luau scripting in Roblox Studio, game design craft, safety-first setup and honest economy literacy, from first script to published game. One-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/roblox-coding-classes-for-kids
-keywords: ["roblox coding classes for kids", "roblox classes online", "learn roblox studio for kids", "luau scripting for kids", "roblox game development class", "roblox coding tutor", "roblox scripting course kids", "make roblox games class", "roblox coding for 10 year olds"]
 source: src/pages/roblox-coding-classes-for-kids.html
 ---
 > Live online Roblox coding classes for kids ages 9-14: real Luau scripting in Roblox Studio, game design craft, safety-first setup and honest economy literacy, from first script to published game. One-hour classes twice a week, free demo.

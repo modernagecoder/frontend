@@ -2,7 +2,6 @@
 title: "Math Catch-Up Program | Diagnose, Rebuild, Reconnect"
 description: "For children behind in math: a free diagnostic finds the two or three missing ideas, then a dedicated mentor rebuilds them properly while classwork stays afloat. Live one-hour classes twice a week."
 canonical: https://learn.modernagecoders.com/math-catch-up-program
-keywords: ["math catch up program", "child behind in math", "falling behind in math help", "math learning gaps", "math intervention program", "catch up on math online", "my child is struggling with math", "math diagnostic assessment"]
 source: src/pages/math-catch-up-program.html
 ---
 > For children behind in math: a free diagnostic finds the two or three missing ideas, then a dedicated mentor rebuilds them properly while classwork stays afloat. Live one-hour classes twice a week.

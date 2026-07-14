@@ -2,7 +2,6 @@
 title: "The Course Atlas — Every Coding, AI & Mathematics Course (Kids, Teens, College, Professionals) | Modern Age Coders"
 description: "The complete Modern Age Coders course catalog: 70+ live, project-based programs in coding, AI/ML, web development, app development, data science, cybersecurity and mathematics for ages 6 to 65. Browse every course by level, age and skill with thumbnails, tabs and search."
 canonical: https://learn.modernagecoders.com/course-atlas
-keywords: ["all coding courses", "online coding classes", "coding course list", "python course", "web development course", "AI ML course", "data science course", "app development course", "mathematics tuition online", "coding for kids", "coding for teens", "coding for college students"]
 source: src/pages/course-atlas.html
 ---
 > The complete Modern Age Coders course catalog: 70+ live, project-based programs in coding, AI/ML, web development, app development, data science, cybersecurity and mathematics for ages 6 to 65. Browse every course by level, age and skill with thumbnails, tabs and search.

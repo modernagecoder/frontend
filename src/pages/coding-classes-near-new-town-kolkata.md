@@ -2,7 +2,6 @@
 title: "Coding & Maths Classes near New Town, Kolkata | Live"
 description: "Live online coding & maths classes for New Town, Kolkata kids and teens. Small batches, Python, Java, AI/ML, ICSE and CBSE. Free demo. From Rs. 1,499/month."
 canonical: https://learn.modernagecoders.com/coding-classes-near-new-town-kolkata
-keywords: ["coding classes New Town Kolkata", "coding classes Rajarhat", "Python classes New Town", "Java classes ICSE Kolkata", "AI ML classes for teens Kolkata", "online maths tuition New Town", "coding for kids Action Area", "DPS Newtown coding classes", "CBSE Informatics Practices Kolkata", "live online coding classes Kolkata", "Scratch classes New Town", "coding classes near Eco Park"]
 source: src/pages/coding-classes-near-new-town-kolkata.html
 ---
 > Live online coding & maths classes for New Town, Kolkata kids and teens. Small batches, Python, Java, AI/ML, ICSE and CBSE. Free demo. From Rs. 1,499/month.

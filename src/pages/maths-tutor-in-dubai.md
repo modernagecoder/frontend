@@ -2,7 +2,6 @@
 title: "Maths Tutor in Dubai · 1:1 Online Maths Tuition, Every Curriculum — Modern Age Coders"
 description: "Looking for a maths tutor in Dubai? Live 1:1 online maths tuition for British, American, IB and CBSE schools across Dubai — no traffic, no driving. We teach the reasoning, not rote. Mentors in Gulf Standard Time. USD 150/month (about AED 550), 8 classes. Book a free trial."
 canonical: https://learn.modernagecoders.com/maths-tutor-in-dubai
-keywords: ["maths tutor Dubai", "maths tuition Dubai", "online maths tutor Dubai", "maths classes Dubai", "IB maths tutor Dubai", "GCSE maths tutor Dubai", "CBSE maths tutor Dubai", "A-level maths tutor Dubai", "maths tutor near me Dubai", "private maths tutor Dubai", "maths help Dubai", "best maths tutor Dubai"]
 source: src/pages/maths-tutor-in-dubai.html
 ---
 > Looking for a maths tutor in Dubai? Live 1:1 online maths tuition for British, American, IB and CBSE schools across Dubai — no traffic, no driving. We teach the reasoning, not rote. Mentors in Gulf Standard Time. USD 150/month (about AED 550), 8 classes. Book a free trial.

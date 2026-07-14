@@ -2,7 +2,6 @@
 title: "Coding for Class 10 — Board-Safe CS Prep, Python, Java, AI & DSA | Modern Age Coders"
 description: "Coding for Class 10 board students. CBSE Computer Applications, ICSE Computer Applications, Python project, Java BlueJ, AI/ML — all without hurting board marks."
 canonical: https://learn.modernagecoders.com/coding-for-class-10
-keywords: ["coding for class 10", "class 10 board coding", "cbse class 10 ca", "icse class 10 computer applications", "python for class 10", "java for class 10", "class 10 cs project", "dsa class 10", "coding for 15 year olds", "ai ml class 10", "class 10 board year coding", "computer applications class 10"]
 source: src/pages/coding-for-class-10.html
 ---
 > Coding for Class 10 board students. CBSE Computer Applications, ICSE Computer Applications, Python project, Java BlueJ, AI/ML — all without hurting board marks.

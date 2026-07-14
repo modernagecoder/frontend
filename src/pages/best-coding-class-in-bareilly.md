@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Bareilly | Modern Age Coders"
 description: "Live online coding & maths classes in Bareilly for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-bareilly
-keywords: ["best coding classes in Bareilly", "coding classes in Bareilly", "coding for kids in Bareilly", "coding for teens in Bareilly", "programming classes Bareilly", "coding institute Bareilly", "online coding classes Bareilly", "coding classes near me Bareilly", "Scratch programming Bareilly", "Python for kids Bareilly", "web development course Bareilly", "best coding institute in Bareilly"]
 source: src/pages/best-coding-class-in-bareilly.html
 ---
 > Live online coding & maths classes in Bareilly for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Rated 4.9/5. Book a free demo!

@@ -2,7 +2,6 @@
 title: "Coding Classes for DPS Navi Mumbai Students | Python, Maths & CBSE | Modern Age Coders"
 description: "Best coding classes for DPS Navi Mumbai students in Navi Mumbai. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near R.K. Puram. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!"
 canonical: https://learn.modernagecoders.com/coding-classes-for-dps-navi-mumbai
-keywords: ["coding classes for DPS Navi Mumbai students", "coding classes near South Delhi Navi Mumbai", "Python course near DPS Navi Mumbai Navi Mumbai", "after school coding DPS Navi Mumbai", "maths tuition for DPS Navi Mumbai Navi Mumbai", "DPS Navi Mumbai coding", "CBSE coding classes Navi Mumbai", "coding classes near me Navi Mumbai", "online coding classes for kids Navi Mumbai", "best coding institute Navi Mumbai", "Java classes for CBSE students Navi Mumbai", "AI classes for school students Navi Mumbai"]
 source: src/pages/coding-classes-for-dps-navi-mumbai.html
 ---
 > Best coding classes for DPS Navi Mumbai students in Navi Mumbai. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near R.K. Puram. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!

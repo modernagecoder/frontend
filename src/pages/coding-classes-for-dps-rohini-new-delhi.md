@@ -2,7 +2,6 @@
 title: "Coding Classes for DPS Rohini Students | Python, Maths & CBSE | Modern Age Coders"
 description: "Best coding classes for DPS Rohini students in New Delhi. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near R.K. Puram. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!"
 canonical: https://learn.modernagecoders.com/coding-classes-for-dps-rohini-new-delhi
-keywords: ["coding classes for DPS Rohini students", "coding classes near South Delhi New Delhi", "Python course near DPS Rohini New Delhi", "after school coding DPS Rohini", "maths tuition for DPS Rohini New Delhi", "DPS Rohini coding", "CBSE coding classes New Delhi", "coding classes near me New Delhi", "online coding classes for kids New Delhi", "best coding institute New Delhi", "Java classes for CBSE students New Delhi", "AI classes for school students New Delhi"]
 source: src/pages/coding-classes-for-dps-rohini-new-delhi.html
 ---
 > Best coding classes for DPS Rohini students in New Delhi. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near R.K. Puram. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!

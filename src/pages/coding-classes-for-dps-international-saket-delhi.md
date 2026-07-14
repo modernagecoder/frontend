@@ -2,7 +2,6 @@
 title: "Coding Classes for DPS Saket Students | Python, Maths & IGCSE / Cambridge | Modern Age Coders"
 description: "Best coding classes for DPS International Saket students in South Delhi. Specialized IGCSE / Cambridge aligned Python, Java, & maths classes. Elite tech curriculum. Book a free demo!"
 canonical: https://learn.modernagecoders.com/coding-classes-for-dps-international-saket-delhi
-keywords: ["coding classes for DPS Saket students", "coding classes near South Delhi New Delhi", "Python course near DPS Saket New Delhi", "after school coding DPS Saket", "maths tuition for DPS Saket New Delhi", "DPS Saket coding", "IGCSE / Cambridge coding classes New Delhi", "coding classes near me New Delhi", "online coding classes for kids New Delhi", "best coding institute New Delhi", "Java classes for IGCSE students New Delhi", "AI classes for school students New Delhi"]
 source: src/pages/coding-classes-for-dps-international-saket-delhi.html
 ---
 > Best coding classes for DPS International Saket students in South Delhi. Specialized IGCSE / Cambridge aligned Python, Java, & maths classes. Elite tech curriculum. Book a free demo!

@@ -2,7 +2,6 @@
 title: "Online Maths Tutoring for College Students in the USA · 1:1 Calculus, Linear Algebra & Stats — Modern Age Coders"
 description: "Live 1:1 online math tutoring for US college and university students. Calculus, linear algebra, discrete math, probability, statistics and proof writing — taught from the ideas up, not memorized. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/online-maths-tutoring-for-college-students-in-usa
-keywords: ["online math tutoring for college students USA", "college calculus tutor", "calculus 1 tutor online", "calculus 2 tutor", "multivariable calculus help", "linear algebra tutor online", "discrete math tutor", "probability tutor", "college statistics tutor", "differential equations help", "proof writing tutor", "university math help"]
 source: src/pages/online-maths-tutoring-for-college-students-in-usa.html
 ---
 > Live 1:1 online math tutoring for US college and university students. Calculus, linear algebra, discrete math, probability, statistics and proof writing — taught from the ideas up, not memorized. Mentors in every US time zone. $150/month, 8 classes. Free trial.

@@ -2,7 +2,6 @@
 title: "Online Math Tutor for 3rd Grade | Live 1:1 Classes | Modern Age Coders"
 description: "Live 1:1 online math tutoring for 3rd graders: multiplication, division and fractions rebuilt with the concrete-pictorial-abstract method. Full one-hour classes, twice a week, a dedicated mentor, free demo class."
 canonical: https://learn.modernagecoders.com/online-math-tutor-3rd-grade
-keywords: ["online math tutor 3rd grade", "3rd grade math help", "math tutor for 8 year old", "grade 3 math tutoring", "third grade multiplication help", "3rd grade fractions help", "elementary math tutor online", "common core 3rd grade math", "math help for third graders", "online math classes grade 3"]
 source: src/pages/online-math-tutor-3rd-grade.html
 ---
 > Live 1:1 online math tutoring for 3rd graders: multiplication, division and fractions rebuilt with the concrete-pictorial-abstract method. Full one-hour classes, twice a week, a dedicated mentor, free demo class.

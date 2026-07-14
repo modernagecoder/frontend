@@ -2,7 +2,6 @@
 title: "Coding Classes for DPS R.K. Puram Students | Python, Maths & CBSE | Modern Age Coders"
 description: "Best coding classes for DPS R.K. Puram students in New Delhi. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near R.K. Puram. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!"
 canonical: https://learn.modernagecoders.com/coding-classes-for-dps-rk-puram-new-delhi
-keywords: ["coding classes for DPS R.K. Puram students", "coding classes near South Delhi New Delhi", "Python course near DPS R.K. Puram New Delhi", "after school coding DPS R.K. Puram", "maths tuition for DPS R.K. Puram New Delhi", "DPS R.K. Puram coding", "CBSE coding classes New Delhi", "coding classes near me New Delhi", "online coding classes for kids New Delhi", "best coding institute New Delhi", "Java classes for CBSE students New Delhi", "AI classes for school students New Delhi"]
 source: src/pages/coding-classes-for-dps-rk-puram-new-delhi.html
 ---
 > Best coding classes for DPS R.K. Puram students in New Delhi. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near R.K. Puram. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!

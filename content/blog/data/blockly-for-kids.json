@@ -187,7 +187,7 @@
         "items": [
           "<strong>Math Skills:</strong> Blockly naturally incorporates coordinates, angles, variables, and arithmetic—making math concepts tangible and fun",
           "<strong>Reading Comprehension:</strong> Following instructions and understanding block descriptions improves reading skills",
-          "<strong>Foundation for Future Coding:</strong> Blockly builds the computational thinking needed for advanced languages like <a href='/courses/python-complete-masterclass-teens'>Python</a> and <a href='/courses/web-development-for-teens-complete-guide'>JavaScript</a>",
+          "<strong>Foundation for Future Coding:</strong> Blockly builds the computational thinking needed for advanced languages like <a href='/courses/python-complete-masterclass-teens'>Python</a> and <a href='/courses/full-stack-web-development-teens-masterclass'>JavaScript</a>",
           "<strong>STEM Career Preparation:</strong> Early exposure to programming concepts prepares kids for technology careers that will dominate the future job market",
           "<strong>Transferable Skills:</strong> The logical thinking developed through Blockly applies to science, engineering, and even everyday decision-making"
         ]
@@ -353,7 +353,7 @@
           "Code.org: Features famous coding challenges and Hour of Code activities powered by Blockly.",
           "Tynker: Offers interactive coding courses for beginners using Blockly blocks.",
           "<a href='/courses/scratch-programming-complete-course'>Modern Age Coders Scratch Course</a>: Offers structured, project-based learning with visual programming for building games, quizzes, and animations.",
-          "<a href='/courses/kids-coding-blocks-mastercla'>Modern Age Coders Kids Coding</a>: Comprehensive coding program for young learners starting their programming journey."
+          "<a href='/courses/kids-coding-blocks-masterclass'>Modern Age Coders Kids Coding</a>: Comprehensive coding program for young learners starting their programming journey."
         ]
       },
       {
@@ -575,7 +575,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Other good options include <a href='/courses/web-development-for-teens-complete-guide'>JavaScript</a> (for web development) and <a href='/courses/java-programming-complete-course-teens'>Java</a> (for Android apps and game development)."
+        "text": "Other good options include <a href='/courses/full-stack-web-development-teens-masterclass'>JavaScript</a> (for web development) and <a href='/courses/java-programming-masterclass-for-teens'>Java</a> (for Android apps and game development)."
       },
       {
         "type": "heading",
@@ -652,7 +652,7 @@
           "<strong>Recreate Favorite Blockly Projects:</strong> Rebuild games and apps they made in Blockly using Python or JavaScript",
           "<strong>Follow Tutorials:</strong> Use YouTube tutorials and coding books designed for kids",
           "<strong>Join Coding Communities:</strong> Platforms like Replit have communities where kids can share projects and get feedback",
-          "<strong>Take Structured Courses:</strong> Enroll in courses like our <a href='/courses/python-complete-masterclass-teens'>Python Masterclass</a> or <a href='/courses/web-development-for-teens-complete-guide'>Web Development course</a> for guided learning"
+          "<strong>Take Structured Courses:</strong> Enroll in courses like our <a href='/courses/python-complete-masterclass-teens'>Python Masterclass</a> or <a href='/courses/full-stack-web-development-teens-masterclass'>Web Development course</a> for guided learning"
         ]
       },
       {

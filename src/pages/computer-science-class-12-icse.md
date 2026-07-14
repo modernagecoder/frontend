@@ -2,7 +2,6 @@
 title: "Computer Science Class 12 ICSE — ISC Java Data Structures, Recursion & Board Prep | Modern Age Coders"
 description: "ISC Class 12 Computer Science tuition. Java inheritance, recursion, linked list, sorting, algorithmic complexity — CISCE-aligned. Project + viva prep included."
 canonical: https://learn.modernagecoders.com/computer-science-class-12-icse
-keywords: ["computer science class 12 icse", "isc class 12 cs", "class 12 icse java", "isc computer science class 12", "class 12 icse linked list", "isc 12 recursion", "isc 12 sorting", "isc 12 cs syllabus", "cisce class 12 cs", "isc class 12 sample papers", "isc 12 practical", "class 12 icse cs online"]
 source: src/pages/computer-science-class-12-icse.html
 ---
 > ISC Class 12 Computer Science tuition. Java inheritance, recursion, linked list, sorting, algorithmic complexity — CISCE-aligned. Project + viva prep included.

@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Warangal | Modern Age Coders"
 description: "Live online coding & maths classes in Warangal for kids & teens. Python, AI, Java & JEE/EAMCET-aligned logic, near NIT Warangal. Rated 4.9/5. Free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-warangal
-keywords: ["best coding classes in Warangal", "coding classes in Warangal", "coding for kids in Warangal", "coding for teens in Warangal", "programming classes Warangal", "coding institute Warangal", "online coding classes Warangal", "coding classes near me Warangal", "Scratch programming Warangal", "Python for kids Warangal", "web development course Warangal", "best coding institute in Warangal"]
 source: src/pages/best-coding-class-in-warangal.html
 ---
 > Live online coding & maths classes in Warangal for kids & teens. Python, AI, Java & JEE/EAMCET-aligned logic, near NIT Warangal. Rated 4.9/5. Free demo!

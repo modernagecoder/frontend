@@ -2,7 +2,6 @@
 title: "Online Maths Tuition in the UAE · 1:1 Across Every Curriculum & Emirate — Modern Age Coders"
 description: "Live 1:1 online maths tuition across the UAE — for British, American, IB, CBSE and MOE curricula, all ages, in every emirate. We teach the reasoning behind the maths, not rote memorising. Mentors in Gulf Standard Time. USD 150/month (about AED 550), 8 classes. Book a free trial."
 canonical: https://learn.modernagecoders.com/online-maths-tuition-uae
-keywords: ["online maths tuition UAE", "maths tutor UAE", "maths classes UAE", "online maths tutor Dubai", "maths tutor Abu Dhabi", "IB maths tutor UAE", "GCSE maths tutor UAE", "CBSE maths tutor UAE", "American curriculum maths UAE", "maths tuition for kids UAE", "maths tutor for teens UAE", "best maths tutor UAE"]
 source: src/pages/online-maths-tuition-uae.html
 ---
 > Live 1:1 online maths tuition across the UAE — for British, American, IB, CBSE and MOE curricula, all ages, in every emirate. We teach the reasoning behind the maths, not rote memorising. Mentors in Gulf Standard Time. USD 150/month (about AED 550), 8 classes. Book a free trial.

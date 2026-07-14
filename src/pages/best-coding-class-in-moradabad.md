@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Moradabad | Modern Age Coders"
 description: "Coding classes in Moradabad for kids, teens & adults. Live online Python, AI, Java, Web Dev & JEE-aligned logic. Rated 4.9/5. Book a free demo today!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-moradabad
-keywords: ["best coding classes in Moradabad", "coding classes in Moradabad", "coding for kids in Moradabad", "coding for teens in Moradabad", "programming classes Moradabad", "coding institute Moradabad", "online coding classes Moradabad", "coding classes near me Moradabad", "Scratch programming Moradabad", "Python for kids Moradabad", "web development course Moradabad", "best coding institute in Moradabad"]
 source: src/pages/best-coding-class-in-moradabad.html
 ---
 > Coding classes in Moradabad for kids, teens & adults. Live online Python, AI, Java, Web Dev & JEE-aligned logic. Rated 4.9/5. Book a free demo today!

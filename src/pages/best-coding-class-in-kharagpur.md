@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Kharagpur | Modern Age Coders"
 description: "Coding classes in Kharagpur for kids, teens & college. Live online Python, AI, Java, Web Dev & DSA in the town of IIT Kharagpur. Rated 4.9/5. Book a free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-kharagpur
-keywords: ["best coding classes in Kharagpur", "coding classes in Kharagpur", "coding for kids in Kharagpur", "coding for teens in Kharagpur", "programming classes Kharagpur", "coding institute Kharagpur", "online coding classes Kharagpur", "coding classes near me Kharagpur", "Scratch programming Kharagpur", "Python for kids Kharagpur", "web development course Kharagpur", "best coding institute in Kharagpur"]
 source: src/pages/best-coding-class-in-kharagpur.html
 ---
 > Coding classes in Kharagpur for kids, teens & college. Live online Python, AI, Java, Web Dev & DSA in the town of IIT Kharagpur. Rated 4.9/5. Book a free demo!

@@ -2,7 +2,6 @@
 title: "Coding Classes for DPS New Town | Python, Maths & CBSE | Modern Age Coders"
 description: "Best Coding Classes for DPS New Town in Kolkata. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near Rajarhat. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!"
 canonical: https://learn.modernagecoders.com/coding-classes-for-dps-new-town-kolkata
-keywords: ["Coding Classes for DPS New Town", "coding classes near New Town Kolkata", "Python course near DPS New Town Students Kolkata", "after school coding DPS New Town Students", "maths tuition for DPS New Town Kolkata", "DPS New Town Students coding", "CBSE coding classes Kolkata", "coding classes near me Kolkata", "online coding classes for kids Kolkata", "best coding institute Kolkata", "Java classes for CBSE students Kolkata", "AI classes for school students Kolkata"]
 source: src/pages/coding-classes-for-dps-new-town-kolkata.html
 ---
 > Best Coding Classes for DPS New Town in Kolkata. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near Rajarhat. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!

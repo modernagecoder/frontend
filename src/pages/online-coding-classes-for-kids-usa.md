@@ -2,7 +2,6 @@
 title: "Online Coding Classes for Kids in the USA | Live 1:1, Ages 6-14 | Modern Age Coders"
 description: "Live online coding classes for American kids ages 6-14: the Scratch-to-Python-to-AI ladder taught by one dedicated mentor, after-school slots in every US time zone, AP CS runway built in. 8 one-hour classes a month from $40. Free demo."
 canonical: https://learn.modernagecoders.com/online-coding-classes-for-kids-usa
-keywords: ["online coding classes for kids usa", "coding classes for kids america", "kids coding classes online us", "best coding classes for kids usa", "scratch classes usa kids", "python classes for kids usa", "coding tutor for kids usa", "affordable coding classes kids us"]
 source: src/pages/online-coding-classes-for-kids-usa.html
 ---
 > Live online coding classes for American kids ages 6-14: the Scratch-to-Python-to-AI ladder taught by one dedicated mentor, after-school slots in every US time zone, AP CS runway built in. 8 one-hour classes a month from $40. Free demo.

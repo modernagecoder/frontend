@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Park Circus, Kolkata"
 description: "Premium live online coding & maths near Park Circus, Kolkata. Small 6-8 batches, ICSE/ISC Java & Python, taught by full-time engineers. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-park-circus-kolkata
-keywords: ["coding classes near Park Circus", "coding classes Park Circus Kolkata", "maths tuition Park Circus", "ICSE ISC Java classes Kolkata", "Python classes for kids Park Circus", "AI ML classes for teens Kolkata", "Don Bosco Park Circus coding", "computer science Class 11 12 Kolkata", "online coding classes near Beck Bagan Karaya", "coding classes near Darga Road Kolkata", "live online coding Kolkata", "girls coding classes Kolkata"]
 source: src/pages/coding-classes-near-park-circus-kolkata.html
 ---
 > Premium live online coding & maths near Park Circus, Kolkata. Small 6-8 batches, ICSE/ISC Java & Python, taught by full-time engineers. Book a free demo.

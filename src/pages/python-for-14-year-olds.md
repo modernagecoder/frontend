@@ -2,7 +2,6 @@
 title: "Python for 14 Year Olds — Flask, Django Intro, sklearn ML & Kaggle Projects | Modern Age Coders"
 description: "Python for 14 year olds. Flask + Django intro, sklearn ML with real Kaggle datasets, pandas deep dive, DSA in Python — 1 hour live classes aligned to Class 9."
 canonical: https://learn.modernagecoders.com/python-for-14-year-olds
-keywords: ["python for 14 year olds", "python for class 9", "flask for 14 year olds", "django for teens", "kaggle python for teens", "python dsa for class 9", "cbse class 9 python", "pandas for 14 year olds", "sklearn ml class 9", "python ai class 9", "best python class 14 year old", "python project class 9"]
 source: src/pages/python-for-14-year-olds.html
 ---
 > Python for 14 year olds. Flask + Django intro, sklearn ML with real Kaggle datasets, pandas deep dive, DSA in Python — 1 hour live classes aligned to Class 9.

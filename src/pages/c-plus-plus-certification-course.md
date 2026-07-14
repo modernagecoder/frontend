@@ -2,7 +2,6 @@
 title: "C++ Certification Course | Get C++ Certified + a Project Portfolio"
 description: "Earn a C++ course-completion certificate backed by a real project portfolio. Live online C++ certification course — Core C++, OOP, the STL, DSA and projects you build and can explain. Proof of skill for college & interviews. Free demo."
 canonical: https://learn.modernagecoders.com/c-plus-plus-certification-course
-keywords: ["c++ certification course", "c++ certificate online", "get c++ certified", "c++ certification India", "c++ course with certificate", "c++ completion certificate", "certified c++ programmer", "c++ certification for students", "c++ portfolio certificate", "online c++ certification"]
 source: src/pages/c-plus-plus-certification-course.html
 ---
 > Earn a C++ course-completion certificate backed by a real project portfolio. Live online C++ certification course — Core C++, OOP, the STL, DSA and projects you build and can explain. Proof of skill for college & interviews. Free demo.

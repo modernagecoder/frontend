@@ -2,7 +2,6 @@
 title: "Python for Class 10 — Board-Safe Python for CBSE IT 402 + College Prep | Modern Age Coders"
 description: "Python classes for Class 10 board students. CBSE IT 402 aligned, paced around pre-boards, plus one serious portfolio project. Live 1 hour classes."
 canonical: https://learn.modernagecoders.com/python-for-class-10
-keywords: ["python for class 10", "cbse class 10 python", "code 402 class 10", "class 10 it 402", "python for 15 year olds", "class 10 board python", "python class 10 project", "python tutoring class 10", "python sample paper class 10", "best python class 10", "class 10 python online", "icse class 10 python"]
 source: src/pages/python-for-class-10.html
 ---
 > Python classes for Class 10 board students. CBSE IT 402 aligned, paced around pre-boards, plus one serious portfolio project. Live 1 hour classes.

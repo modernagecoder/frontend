@@ -2,7 +2,6 @@
 title: "Coding Classes in Dubai | Live Online Courses, Ages 6 to Adult"
 description: "Coding classes in Dubai for kids, teens and professionals. Live online Python and AI courses in batches of 5 to 8, evenings and weekends in GST. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-dubai
-keywords: ["coding classes in dubai", "online coding classes dubai", "coding classes for kids in dubai", "python classes dubai", "ai classes dubai", "learn coding dubai", "coding courses dubai", "kids coding classes dubai", "coding classes uae", "online coding classes for kids dubai"]
 source: src/pages/coding-classes-in-dubai.html
 ---
 > Coding classes in Dubai for kids, teens and professionals. Live online Python and AI courses in batches of 5 to 8, evenings and weekends in GST. Free demo.

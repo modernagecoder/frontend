@@ -2,7 +2,6 @@
 title: "Python for 17 Year Olds — Class 12 Board CS, College Portfolio, ML & DSA | Modern Age Coders"
 description: "Python for 17 year olds in Class 12. CBSE CS/IP alignment, one serious portfolio project, ML, DSA and college head start. Board-aware 1 hour live classes."
 canonical: https://learn.modernagecoders.com/python-for-17-year-olds
-keywords: ["python for 17 year olds", "python for class 12", "cbse class 12 python", "python data structures class 12", "python sql class 12", "python class 12 board", "python college portfolio", "python dsa class 12", "python ml class 12", "gap year python", "best python class 17 year old", "python project class 12"]
 source: src/pages/python-for-17-year-olds.html
 ---
 > Python for 17 year olds in Class 12. CBSE CS/IP alignment, one serious portfolio project, ML, DSA and college head start. Board-aware 1 hour live classes.

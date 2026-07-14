@@ -2,7 +2,6 @@
 title: "C++ OOP Concepts Course | Object-Oriented Programming in C++ Online"
 description: "Master Object-Oriented Programming in C++. Live online OOP course — classes, objects, constructors, encapsulation, inheritance, polymorphism & abstraction, applied to real projects. Great for interviews. Small batches, free demo."
 canonical: https://learn.modernagecoders.com/c-plus-plus-oops-concepts-course
-keywords: ["c++ oops concepts", "object oriented programming in c++", "c++ oop course", "oops in c++ online", "c++ classes and objects", "c++ inheritance polymorphism", "c++ encapsulation abstraction", "learn oop c++", "c++ oop for interviews", "oops c++ tutorial India"]
 source: src/pages/c-plus-plus-oops-concepts-course.html
 ---
 > Master Object-Oriented Programming in C++. Live online OOP course — classes, objects, constructors, encapsulation, inheritance, polymorphism & abstraction, applied to real projects. Great for interviews. Small batches, free demo.

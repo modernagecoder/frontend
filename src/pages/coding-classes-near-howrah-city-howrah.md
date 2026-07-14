@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Howrah City"
 description: "Premium live online coding & maths classes near Howrah City, Howrah. Small batches, full-time engineer tutors, ICSE/CBSE-aligned. From ₹1,499/month. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-howrah-city-howrah
-keywords: ["coding classes near Howrah City", "coding classes in Howrah", "online coding classes Howrah", "Python classes Howrah", "Java classes Howrah", "AI ML course Howrah", "maths tuition Howrah", "ICSE computer classes Howrah", "CBSE computer science Howrah", "coding classes Salkia Shibpur", "kids coding Howrah Maidan", "live online coding Howrah"]
 source: src/pages/coding-classes-near-howrah-city-howrah.html
 ---
 > Premium live online coding & maths classes near Howrah City, Howrah. Small batches, full-time engineer tutors, ICSE/CBSE-aligned. From ₹1,499/month. Free demo.

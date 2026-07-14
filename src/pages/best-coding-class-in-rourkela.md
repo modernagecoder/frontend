@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Rourkela | Modern Age Coders"
 description: "Live online coding & maths classes in Rourkela for kids, teens & adults. Python, AI, Java & engineering logic, home to NIT Rourkela. Rated 4.9/5. Free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-rourkela
-keywords: ["best coding classes in Rourkela", "coding classes in Rourkela", "coding for kids in Rourkela", "coding for teens in Rourkela", "programming classes Rourkela", "coding institute Rourkela", "online coding classes Rourkela", "coding classes near me Rourkela", "Scratch programming Rourkela", "Python for kids Rourkela", "web development course Rourkela", "best coding institute in Rourkela"]
 source: src/pages/best-coding-class-in-rourkela.html
 ---
 > Live online coding & maths classes in Rourkela for kids, teens & adults. Python, AI, Java & engineering logic, home to NIT Rourkela. Rated 4.9/5. Free demo!

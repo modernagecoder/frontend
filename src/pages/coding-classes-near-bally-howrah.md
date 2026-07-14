@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Bally, Howrah"
 description: "Premium live online coding & maths classes for Bally & Belur students. Small batches, project-based Python, Java, AI/ML & board prep. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-bally-howrah
-keywords: ["coding classes Bally", "coding classes near Bally Howrah", "Python classes Bally", "Java classes Bally", "ICSE computer applications Bally", "online maths tuition Bally", "AI ML course Howrah", "coding classes Belur Math", "coding classes Liluah", "kids coding Bally", "live online coding Howrah", "board exam computer science Bally"]
 source: src/pages/coding-classes-near-bally-howrah.html
 ---
 > Premium live online coding & maths classes for Bally & Belur students. Small batches, project-based Python, Java, AI/ML & board prep. Book a free demo.

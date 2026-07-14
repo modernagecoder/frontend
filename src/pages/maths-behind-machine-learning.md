@@ -2,7 +2,6 @@
 title: "The Maths Behind Machine Learning - Linear Algebra, Calculus & Probability for AI | Modern Age Coders"
 description: "Understand the maths behind machine learning and AI - linear algebra, calculus, probability and optimisation - taught deeply and tied to real code. The foundation most courses skip, in live small-batch classes for serious learners, college and professionals. Free demo."
 canonical: https://learn.modernagecoders.com/maths-behind-machine-learning
-keywords: ["maths behind machine learning", "math for machine learning", "linear algebra for machine learning", "calculus for deep learning", "probability for ai", "optimization and gradient descent maths", "maths for ai", "math behind neural networks", "understand machine learning maths", "learn ai maths", "math for data science", "do you need maths for ai"]
 source: src/pages/maths-behind-machine-learning.html
 ---
 > Understand the maths behind machine learning and AI - linear algebra, calculus, probability and optimisation - taught deeply and tied to real code. The foundation most courses skip, in live small-batch classes for serious learners, college and professionals. Free demo.

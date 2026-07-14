@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Gariahat"
 description: "Live online coding & maths classes near Gariahat, Kolkata. Small batches, full-time engineers, project-based Python, Java & AI. Free demo. From ₹1,499/month."
 canonical: https://learn.modernagecoders.com/coding-classes-near-gariahat-kolkata
-keywords: ["coding classes near Gariahat", "coding classes in Gariahat Kolkata", "maths tuition Gariahat", "Python classes Gariahat", "Java classes ICSE Kolkata", "AI ML classes Kolkata", "online coding classes South Kolkata", "coding for kids Ekdalia", "coding classes Ballygunge", "South Point coding classes", "ICSE computer applications Java", "live online coding Kolkata"]
 source: src/pages/coding-classes-near-gariahat-kolkata.html
 ---
 > Live online coding & maths classes near Gariahat, Kolkata. Small batches, full-time engineers, project-based Python, Java & AI. Free demo. From ₹1,499/month.

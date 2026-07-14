@@ -2,7 +2,6 @@
 title: "Student Labs — Real, Live Coding Projects Built by Kids, Teens & Students | Modern Age Coders"
 description: "Explore real, live coding projects built by Modern Age Coders students — games, AI chatbots, weather apps and tools. Every project below is clickable and built by a kid, teen or college student with Python, JavaScript, React, Firebase and more."
 canonical: https://learn.modernagecoders.com/student-labs
-keywords: ["student coding projects", "kids coding projects", "projects built by students", "student labs", "AI chatbot project", "JavaScript game projects", "web app projects for students", "learn to code projects", "Modern Age Coders"]
 source: src/pages/student-labs.html
 ---
 > Explore real, live coding projects built by Modern Age Coders students — games, AI chatbots, weather apps and tools. Every project below is clickable and built by a kid, teen or college student with Python, JavaScript, React, Firebase and more.

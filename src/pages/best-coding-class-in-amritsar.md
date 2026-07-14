@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Amritsar | Modern Age Coders"
 description: "Live online coding & maths classes in Amritsar for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-amritsar
-keywords: ["best coding classes in Amritsar", "coding for kids in Amritsar", "coding for teens in Amritsar", "programming classes Amritsar", "coding institute Amritsar", "online coding classes Amritsar", "coding classes near me Amritsar", "Scratch programming Amritsar", "Python for kids Amritsar", "web development Amritsar", "best coding institute in Amritsar", "Punjab Board coding class Amritsar"]
 source: src/pages/best-coding-class-in-amritsar.html
 ---
 > Live online coding & maths classes in Amritsar for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

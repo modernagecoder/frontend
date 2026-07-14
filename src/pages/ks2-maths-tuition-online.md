@@ -2,7 +2,6 @@
 title: "KS2 Maths Tuition Online · 1:1 Year 3–6 & SATs Maths — Modern Age Coders"
 description: "Live 1:1 online KS2 maths tuition for Years 3–6 and the Year 6 SATs. We teach why the maths works — long division, fractions, reasoning — aligned to the national curriculum, building both arithmetic and reasoning for the SATs papers. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
 canonical: https://learn.modernagecoders.com/ks2-maths-tuition-online
-keywords: ["KS2 maths tuition online", "KS2 maths tutor", "year 6 SATs maths", "year 5 maths tutor", "year 4 maths help", "year 3 maths tutor", "KS2 SATs preparation", "KS2 arithmetic paper", "KS2 reasoning paper", "primary maths tutor UK", "long division help", "KS2 fractions"]
 source: src/pages/ks2-maths-tuition-online.html
 ---
 > Live 1:1 online KS2 maths tuition for Years 3–6 and the Year 6 SATs. We teach why the maths works — long division, fractions, reasoning — aligned to the national curriculum, building both arithmetic and reasoning for the SATs papers. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.

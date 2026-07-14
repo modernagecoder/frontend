@@ -169,7 +169,9 @@ function headHtml({ title, description, canonicalPath, keywords, intro, breadcru
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${title}</title>
     <meta name="description" content="${description}">
-    <meta name="keywords" content="${keywords}">
+    <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and
+         Bing treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <link rel="canonical" href="${canonicalUrl}">
 

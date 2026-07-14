@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Ghaziabad | Modern Age Coders"
 description: "Live online coding & maths classes in Ghaziabad for kids, teens & adults. Python, AI, Java, Web Dev & JEE logic across Indirapuram. Rated 4.9/5. Free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-ghaziabad
-keywords: ["best coding classes in Ghaziabad", "coding classes in Ghaziabad", "coding for kids in Ghaziabad", "coding for teens in Ghaziabad", "programming classes Ghaziabad", "coding institute Ghaziabad", "online coding classes Ghaziabad", "coding classes near me Ghaziabad", "Scratch programming Ghaziabad", "Python for kids Ghaziabad", "web development course Ghaziabad", "best coding institute in Ghaziabad"]
 source: src/pages/best-coding-class-in-ghaziabad.html
 ---
 > Live online coding & maths classes in Ghaziabad for kids, teens & adults. Python, AI, Java, Web Dev & JEE logic across Indirapuram. Rated 4.9/5. Free demo!

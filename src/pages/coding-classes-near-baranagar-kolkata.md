@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Baranagar"
 description: "Live online, premium coding & maths classes for Baranagar, Bonhooghly & Sinthee families. Small batches, project-based, taught by engineers. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-baranagar-kolkata
-keywords: ["coding classes Baranagar", "coding classes near Baranagar Kolkata", "maths tuition Baranagar", "online coding classes Bonhooghly", "Python classes Baranagar", "Java ICSE classes Sinthee", "AI ML classes Kolkata", "computer science tuition Cossipore", "ISI entrance maths Baranagar", "coding for kids B.T. Road", "ICSE Java BlueJ Kolkata", "live online coding classes Dakshineswar"]
 source: src/pages/coding-classes-near-baranagar-kolkata.html
 ---
 > Live online, premium coding & maths classes for Baranagar, Bonhooghly & Sinthee families. Small batches, project-based, taught by engineers. Free demo.

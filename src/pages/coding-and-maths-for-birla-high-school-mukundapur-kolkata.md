@@ -2,7 +2,6 @@
 title: "Coding & Maths Classes for BHS Mukundapur Students Kolkata | CBSE Python, AI & Maths | Modern Age Coders"
 description: "Premium coding & maths classes for Birla High School Mukundapur students in Kolkata. CBSE-aligned Python, AI, Web Dev, Informatics Practices & board maths — live online, small batches near Kalikapur & EM Bypass. JEE Maths, Coding Olympiad prep. From ₹1499/mo. Book free demo!"
 canonical: https://learn.modernagecoders.com/coding-and-maths-for-birla-high-school-mukundapur-kolkata
-keywords: ["coding classes for BHS Mukundapur students", "maths tuition Birla High School Mukundapur", "Python classes near BHS Mukundapur Kolkata", "coding classes Mukundapur Kolkata", "coding classes Kalikapur Kolkata", "CBSE computer science tuition Mukundapur", "after school coding BHS Mukundapur", "Informatics Practices tuition CBSE Kolkata", "coding classes near AMRI Hospital Mukundapur", "maths classes Santoshpur Kolkata", "coding classes Patuli Kolkata", "maths tuition EM Bypass Kolkata"]
 source: src/pages/coding-and-maths-for-birla-high-school-mukundapur-kolkata.html
 ---
 > Premium coding & maths classes for Birla High School Mukundapur students in Kolkata. CBSE-aligned Python, AI, Web Dev, Informatics Practices & board maths — live online, small batches near Kalikapur & EM Bypass. JEE Maths, Coding Olympiad prep. From ₹1499/mo. Book free demo!

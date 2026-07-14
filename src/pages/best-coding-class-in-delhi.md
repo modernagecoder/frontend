@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Delhi | Modern Age Coders"
 description: "Live online coding & maths classes in Delhi for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-delhi
-keywords: ["best coding classes in Delhi", "coding for kids in Delhi", "coding for teens in Delhi", "programming classes Delhi", "coding institute Delhi", "online coding classes Delhi", "coding classes near me Delhi", "Scratch programming Delhi", "Python for kids Delhi", "web development Delhi", "best coding institute in Delhi", "computer classes for kids Delhi"]
 source: src/pages/best-coding-class-in-delhi.html
 ---
 > Live online coding & maths classes in Delhi for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

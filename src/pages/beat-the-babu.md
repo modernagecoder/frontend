@@ -2,7 +2,6 @@
 title: "Beat The Babu – The Fastest 90-Second Math Challenge Game | ModernAgeCoders"
 description: "Beat The Babu is a fast, fun, and family-friendly 90-second mental math challenge game. Test your speed and accuracy, solve quick questions, and try to beat the clock. Built by ModernAgeCoders for kids, teens, and parents."
 canonical: https://learn.modernagecoders.com/beat-the-babu
-keywords: ["beat the babu", "90 second math game", "smart math 90", "speed math challenge", "mental math for kids", "fast math quiz", "modern age coders", "learn.modernagecoders.com"]
 source: src/pages/beat-the-babu.html
 ---
 > Beat The Babu is a fast, fun, and family-friendly 90-second mental math challenge game. Test your speed and accuracy, solve quick questions, and try to beat the clock. Built by ModernAgeCoders for kids, teens, and parents.

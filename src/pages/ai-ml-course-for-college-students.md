@@ -2,7 +2,6 @@
 title: "AI & ML Course for College Students | Placement-Focused in India"
 description: "AI &amp; ML course for college students in India — placement-focused. Python, machine learning, deep learning and real projects that build a portfolio for internships and jobs. Live, small batches, mentor-led. Free demo."
 canonical: https://learn.modernagecoders.com/ai-ml-course-for-college-students
-keywords: ["ai ml course for college students", "machine learning course college students", "ai course for engineering students", "ml course for placements", "college ai ml course india", "ai ml internship preparation", "btech ai ml course", "final year project ai ml", "ai ml for students", "campus placement ai"]
 source: src/pages/ai-ml-course-for-college-students.html
 ---
 > AI &amp; ML course for college students in India — placement-focused. Python, machine learning, deep learning and real projects that build a portfolio for internships and jobs. Live, small batches, mentor-led. Free demo.

@@ -2,7 +2,6 @@
 title: "Coding Classes in Sharjah | Live Online Coding for Kids & Teens"
 description: "Coding classes in Sharjah, taught live online. Kids, teens and adults learn Python and AI in batches of 5 to 8, GST evening slots, no commute. Free demo class."
 canonical: https://learn.modernagecoders.com/coding-classes-in-sharjah
-keywords: ["coding classes in sharjah", "online coding classes sharjah", "coding classes for kids in sharjah", "python classes sharjah", "ai classes sharjah", "learn coding sharjah", "kids coding classes sharjah", "coding courses sharjah", "coding classes uae"]
 source: src/pages/coding-classes-in-sharjah.html
 ---
 > Coding classes in Sharjah, taught live online. Kids, teens and adults learn Python and AI in batches of 5 to 8, GST evening slots, no commute. Free demo class.

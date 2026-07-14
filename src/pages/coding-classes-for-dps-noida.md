@@ -2,7 +2,6 @@
 title: "Coding Classes for DPS Noida Students | Python, Maths & CBSE | Modern Age Coders"
 description: "Best Coding Classes for DPS Noida Students in Noida. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near Sector 30. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!"
 canonical: https://learn.modernagecoders.com/coding-classes-for-dps-noida
-keywords: ["Coding Classes for DPS Noida Students", "coding classes near South Delhi Noida", "Python course near DPS Sector 30 Noida", "after school coding DPS Sector 30", "maths tuition for DPS Sector 30 Noida", "DPS Sector 30 coding", "CBSE coding classes Noida", "coding classes near me Noida", "online coding classes for kids Noida", "best coding institute Noida", "Java classes for CBSE students Noida", "AI classes for school students Noida"]
 source: src/pages/coding-classes-for-dps-noida.html
 ---
 > Best Coding Classes for DPS Noida Students in Noida. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near Sector 30. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!

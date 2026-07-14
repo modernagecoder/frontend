@@ -2,7 +2,6 @@
 title: "Business Solutions - Custom Software, AI Chatbots & Web Development | Modern Age Coders"
 description: "Transform your business with custom software development, AI chatbots, mobile apps, and web solutions. Expert services for schools, colleges, and businesses. Get a free consultation today!"
 canonical: https://learn.modernagecoders.com/business-solutions
-keywords: ["custom software development", "AI chatbots", "Chatbase", "mobile app development", "web development", "business automation", "machine learning", "NLP", "computer vision", "enterprise solutions", "digital transformation"]
 source: src/pages/business-solutions.html
 ---
 > Transform your business with custom software development, AI chatbots, mobile apps, and web solutions. Expert services for schools, colleges, and businesses. Get a free consultation today!

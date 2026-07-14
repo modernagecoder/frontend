@@ -2,7 +2,6 @@
 title: "Python Projects for Kids — 20+ Finishable Python Projects (Ages 8 to 15) | Modern Age Coders"
 description: "The Python project shelf for kids. 20+ finishable Python projects — games, AI, turtle art, quizzes, first web pages — with a live teacher guiding every step. 1 hour classes."
 canonical: https://learn.modernagecoders.com/python-projects-for-kids
-keywords: ["python projects for kids", "python projects for beginners kids", "easy python projects for kids", "fun python projects", "python project ideas kids", "python game projects kids", "python turtle projects", "python ai projects kids", "kids python portfolio", "python projects class 5", "python projects class 6", "python projects class 7"]
 source: src/pages/python-projects-for-kids.html
 ---
 > The Python project shelf for kids. 20+ finishable Python projects — games, AI, turtle art, quizzes, first web pages — with a live teacher guiding every step. 1 hour classes.

@@ -2,7 +2,6 @@
 title: "Math Olympiad & AMC Tutoring Online · 1:1 AMC 8/10/12 & MATHCOUNTS Coaching — Modern Age Coders"
 description: "Live 1:1 online math olympiad coaching for AMC 8, AMC 10, AMC 12, MATHCOUNTS and the AIME pathway. We teach problem-solving — number theory, combinatorics, clever geometry — the way competition math is really won. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/math-olympiad-amc-tutoring
-keywords: ["math olympiad tutoring online", "AMC tutor", "AMC 8 prep", "AMC 10 prep", "AMC 12 prep", "MATHCOUNTS coaching", "AIME prep", "competition math tutor", "math olympiad coach", "problem solving math", "number theory combinatorics tutor", "math competition prep"]
 source: src/pages/math-olympiad-amc-tutoring.html
 ---
 > Live 1:1 online math olympiad coaching for AMC 8, AMC 10, AMC 12, MATHCOUNTS and the AIME pathway. We teach problem-solving — number theory, combinatorics, clever geometry — the way competition math is really won. Mentors in every US time zone. $150/month, 8 classes. Free trial.

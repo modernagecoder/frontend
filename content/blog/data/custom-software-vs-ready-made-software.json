@@ -448,7 +448,7 @@
       {
         "type": "button",
         "text": "Learn Software Development",
-        "url": "/courses/full-stack-development",
+        "url": "/courses/full-stack-web-development-masterclass-college",
         "style": "primary"
       },
       {
@@ -931,7 +931,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Your software should serve your business, not the other way around. Whether that means buying ready-made, building custom, or using a hybrid approach, make the choice that empowers your team and accelerates your growth. And if you want to understand software development better to make more informed decisions, consider learning the fundamentals through our <a href='/courses/full-stack-development'>software development courses</a>."
+        "text": "Your software should serve your business, not the other way around. Whether that means buying ready-made, building custom, or using a hybrid approach, make the choice that empowers your team and accelerates your growth. And if you want to understand software development better to make more informed decisions, consider learning the fundamentals through our <a href='/courses/full-stack-web-development-masterclass-college'>software development courses</a>."
       },
       {
         "type": "callout",
@@ -942,7 +942,7 @@
       {
         "type": "button",
         "text": "Learn Full Stack Development",
-        "url": "/courses/full-stack-development",
+        "url": "/courses/full-stack-web-development-masterclass-college",
         "style": "primary"
       },
       {

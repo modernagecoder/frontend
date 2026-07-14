@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Bhagalpur | Modern Age Coders"
 description: "Live online coding & maths classes in Bhagalpur for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-bhagalpur
-keywords: ["best coding classes in Bhagalpur", "coding classes in Bhagalpur", "coding for kids in Bhagalpur", "coding for teens in Bhagalpur", "programming classes Bhagalpur", "coding institute Bhagalpur", "online coding classes Bhagalpur", "coding classes near me Bhagalpur", "Scratch programming Bhagalpur", "Python for kids Bhagalpur", "web development course Bhagalpur", "best coding institute in Bhagalpur"]
 source: src/pages/best-coding-class-in-bhagalpur.html
 ---
 > Live online coding & maths classes in Bhagalpur for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Rated 4.9/5. Book a free demo!

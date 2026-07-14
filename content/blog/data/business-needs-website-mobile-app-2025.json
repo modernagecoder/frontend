@@ -570,7 +570,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Consider a typical small business with $500,000 in annual revenue. Based on industry averages, here's what they're likely losing each month without proper digital presence. Understanding these costs is crucial whether you're building solutions yourself (check out our <a href='/courses/web-development'>Web Development courses</a>) or hiring professionals:"
+        "text": "Consider a typical small business with $500,000 in annual revenue. Based on industry averages, here's what they're likely losing each month without proper digital presence. Understanding these costs is crucial whether you're building solutions yourself (check out our <a href='/courses/full-stack-web-development-masterclass-college'>Web Development courses</a>) or hiring professionals:"
       },
       {
         "type": "list",
@@ -663,7 +663,7 @@
       {
         "type": "button",
         "text": "Explore Our Web Development Courses",
-        "url": "/courses/full-stack-development",
+        "url": "/courses/full-stack-web-development-masterclass-college",
         "style": "primary"
       },
       {
@@ -753,7 +753,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Your customers are online right now, searching for solutions you provide. The question isn't whether you can afford to invest in digital presence. It's whether you can afford not to. If you're ready to take control of your digital future, consider learning the skills yourself through our <a href='/courses/full-stack-development'>Full Stack Development course</a> or partnering with developers who understand your vision."
+        "text": "Your customers are online right now, searching for solutions you provide. The question isn't whether you can afford to invest in digital presence. It's whether you can afford not to. If you're ready to take control of your digital future, consider learning the skills yourself through our <a href='/courses/full-stack-web-development-masterclass-college'>Full Stack Development course</a> or partnering with developers who understand your vision."
       },
       {
         "type": "callout",
@@ -764,13 +764,13 @@
       {
         "type": "button",
         "text": "Explore Web Development Courses",
-        "url": "/courses/full-stack-development",
+        "url": "/courses/full-stack-web-development-masterclass-college",
         "style": "primary"
       },
       {
         "type": "button",
         "text": "Learn Mobile App Development",
-        "url": "/courses/app-development",
+        "url": "/courses/complete-app-development-masterclass-college",
         "style": "secondary"
       },
       {

@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Raipur | Modern Age Coders"
 description: "Live online coding & maths classes in Raipur for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-raipur
-keywords: ["best coding classes in Raipur", "coding for kids in Raipur", "coding for teens in Raipur", "programming classes Raipur", "coding institute Raipur", "online coding classes Raipur", "coding classes near me Raipur", "Scratch programming Raipur", "Python for kids Raipur", "web development Raipur", "best coding institute in Raipur", "CG Board coding class Raipur"]
 source: src/pages/best-coding-class-in-raipur.html
 ---
 > Live online coding & maths classes in Raipur for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

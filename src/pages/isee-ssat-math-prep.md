@@ -2,7 +2,6 @@
 title: "ISEE & SSAT Math Prep Online | Live 1:1 Classes | Modern Age Coders"
 description: "Live 1:1 ISEE and SSAT math prep: calculator-free number sense, quantitative-comparison strategy and timed pacing, taught level by level (Lower to Upper). One-hour classes twice a week, free diagnostic demo."
 canonical: https://learn.modernagecoders.com/isee-ssat-math-prep
-keywords: ["isee math prep", "ssat math prep", "isee tutor online", "ssat tutor online", "isee quantitative reasoning", "ssat quantitative", "private school admissions test prep", "isee math tutor", "ssat math tutor"]
 source: src/pages/isee-ssat-math-prep.html
 ---
 > Live 1:1 ISEE and SSAT math prep: calculator-free number sense, quantitative-comparison strategy and timed pacing, taught level by level (Lower to Upper). One-hour classes twice a week, free diagnostic demo.

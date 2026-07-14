@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near VIP Road, Kolkata"
 description: "Live online, premium coding & maths classes near VIP Road, Kolkata. Small batches, project-based, taught by full-time engineers. Free demo. From ₹1,499/mo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-vip-road-kolkata
-keywords: ["coding classes near VIP Road Kolkata", "maths tuition VIP Road Kolkata", "Python classes Baguiati", "Java classes Kestopur", "ICSE computer applications Kolkata", "CBSE computer science online", "AI ML classes for teens Kolkata", "online coding classes Baguiati Kestopur", "live coding classes Sreebhumi", "BlueJ Java tuition Kolkata", "coding classes Lake Town", "kids coding classes VIP Road"]
 source: src/pages/coding-classes-near-vip-road-kolkata.html
 ---
 > Live online, premium coding & maths classes near VIP Road, Kolkata. Small batches, project-based, taught by full-time engineers. Free demo. From ₹1,499/mo.

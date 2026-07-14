@@ -2,7 +2,6 @@
 title: "Python for Class 6 — CBSE Code 166 Python, Turtle, First AI (Age 11) | Modern Age Coders"
 description: "Python classes for Class 6 students. CBSE Code 166 aligned, turtle graphics, first AI classifier, tiny games — 1 hour live classes, 1:1 or small group."
 canonical: https://learn.modernagecoders.com/python-for-class-6
-keywords: ["python for class 6", "class 6 python cbse", "code 166 python", "python for class 6 cbse", "python class 6 ncert", "python for 11 year olds", "cbse 6 python tuition", "python class 6 icse", "class 6 python project", "python class 6 online", "class 6 turtle python", "python for class 6 beginner"]
 source: src/pages/python-for-class-6.html
 ---
 > Python classes for Class 6 students. CBSE Code 166 aligned, turtle graphics, first AI classifier, tiny games — 1 hour live classes, 1:1 or small group.

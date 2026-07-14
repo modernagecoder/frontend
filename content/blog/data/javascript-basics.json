@@ -690,7 +690,7 @@
           },
           {
             "title": "What are the best resources for learning JavaScript?",
-            "content": "Great free resources include: MDN Web Docs (comprehensive reference), freeCodeCamp (interactive lessons), JavaScript.info (detailed tutorials), and YouTube channels like Traversy Media. For structured learning, consider our <a href='/courses/web-development-for-teens-complete-guide'>Web Development course</a> which covers JavaScript in depth with projects and mentorship."
+            "content": "Great free resources include: MDN Web Docs (comprehensive reference), freeCodeCamp (interactive lessons), JavaScript.info (detailed tutorials), and YouTube channels like Traversy Media. For structured learning, consider our <a href='/courses/full-stack-web-development-teens-masterclass'>Web Development course</a> which covers JavaScript in depth with projects and mentorship."
           },
           {
             "title": "Can I build mobile apps with JavaScript?",
@@ -768,7 +768,7 @@
           "<strong>Version Control:</strong> Master Git and GitHub for managing your code and collaborating",
           "<strong>Build Tools:</strong> Learn about npm, webpack, and modern development workflows",
           "<strong>Testing:</strong> Write tests for your code using Jest or other testing frameworks",
-          "<strong>Full-Stack Development:</strong> Combine front-end and back-end skills with our <a href='/courses/full-stack-web-development-college-students'>Full-Stack course</a>"
+          "<strong>Full-Stack Development:</strong> Combine front-end and back-end skills with our <a href='/courses/full-stack-web-development-masterclass-college'>Full-Stack course</a>"
         ]
       },
       {
@@ -791,11 +791,11 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>For Teens (13-18):</strong> Our <a href='/courses/web-development-for-teens-complete-guide'>Web Development for Teens</a> course covers HTML, CSS, and JavaScript with hands-on projects",
-          "<strong>For College Students:</strong> Check out <a href='/courses/full-stack-web-development-college-students'>Full-Stack Web Development</a> to learn both front-end and back-end",
+          "<strong>For Teens (13-18):</strong> Our <a href='/courses/full-stack-web-development-teens-masterclass'>Web Development for Teens</a> course covers HTML, CSS, and JavaScript with hands-on projects",
+          "<strong>For College Students:</strong> Check out <a href='/courses/full-stack-web-development-masterclass-college'>Full-Stack Web Development</a> to learn both front-end and back-end",
           "<strong>For React Learners:</strong> Master modern web development with our <a href='/courses/react-for-teens-complete-masterclass'>React Masterclass</a>",
-          "<strong>For Game Developers:</strong> Combine JavaScript with game development in our <a href='/courses/game-development-for-kids-teens'>Game Development course</a>",
-          "<strong>For Complete Beginners:</strong> Start with our <a href='/courses/coding-for-kids-beginners'>Coding for Kids</a> program if you need more foundational support"
+          "<strong>For Game Developers:</strong> Combine JavaScript with game development in our <a href='/courses/game-development-masterclass-for-kids'>Game Development course</a>",
+          "<strong>For Complete Beginners:</strong> Start with our <a href='/courses/kids-coding-blocks-masterclass'>Coding for Kids</a> program if you need more foundational support"
         ]
       },
       {

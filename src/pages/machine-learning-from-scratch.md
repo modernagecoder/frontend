@@ -2,7 +2,6 @@
 title: "Machine Learning From Scratch — Build Real AI/ML Models (College & Professionals) | Modern Age Coders"
 description: "Build machine learning from scratch: implement gradient descent and core models by hand, understand the maths, then master the advanced AI and ML libraries. 32 live, deeply practical classes for college students and professionals. Stage 3 of a 3-stage Python-to-AI path. Free demo."
 canonical: https://learn.modernagecoders.com/machine-learning-from-scratch
-keywords: ["machine learning from scratch", "build ml models from scratch", "gradient descent from scratch", "advanced machine learning course", "ai ml for professionals", "deep learning from scratch", "maths behind machine learning", "implement ml algorithms from scratch", "machine learning math", "will AI replace ml engineers", "learn ai ml 2026", "pytorch course"]
 source: src/pages/machine-learning-from-scratch.html
 ---
 > Build machine learning from scratch: implement gradient descent and core models by hand, understand the maths, then master the advanced AI and ML libraries. 32 live, deeply practical classes for college students and professionals. Stage 3 of a 3-stage Python-to-AI path. Free demo.

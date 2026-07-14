@@ -2,7 +2,6 @@
 title: "AI Classes in Saudi Arabia | Learn AI & ML Live Online"
 description: "AI and machine learning classes in Saudi Arabia, live online: train models with scikit-learn, build chatbots on LLM APIs, learn AI agents. Free demo class."
 canonical: https://learn.modernagecoders.com/ai-classes-in-saudi-arabia
-keywords: ["ai classes in saudi arabia", "ai course saudi arabia", "machine learning course saudi arabia", "learn ai riyadh", "ai classes riyadh", "ai training jeddah", "generative ai course ksa", "ai for kids saudi arabia", "ai agents course saudi arabia"]
 source: src/pages/ai-classes-in-saudi-arabia.html
 ---
 > AI and machine learning classes in Saudi Arabia, live online: train models with scikit-learn, build chatbots on LLM APIs, learn AI agents. Free demo class.

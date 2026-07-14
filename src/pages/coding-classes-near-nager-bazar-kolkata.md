@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Nager Bazar"
 description: "Live online coding & maths classes for Nager Bazar, Dum Dum & Bangur families. Small batches — Python, Java, AI/ML, ICSE & CBSE prep. Free demo. From ₹1,499/mo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-nager-bazar-kolkata
-keywords: ["coding classes Nager Bazar Kolkata", "Python classes Dum Dum", "Java classes ICSE Kolkata", "AI ML classes for teens Kolkata", "coding classes Bangur Avenue", "online maths tuition Nager Bazar", "coding for kids Dum Dum Park", "ICSE Java BlueJ classes Kolkata", "CBSE Informatics Practices Kolkata", "live online coding classes Kolkata", "coding classes near Patipukur", "Scratch classes Jessore Road"]
 source: src/pages/coding-classes-near-nager-bazar-kolkata.html
 ---
 > Live online coding & maths classes for Nager Bazar, Dum Dum & Bangur families. Small batches — Python, Java, AI/ML, ICSE & CBSE prep. Free demo. From ₹1,499/mo.

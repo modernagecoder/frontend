@@ -2,7 +2,6 @@
 title: "How to Train Machine Learning Models | Model Training Course"
 description: "Learn how to train machine learning models properly. Live course on the training process — loss, gradient descent, epochs, validation, overfitting and tuning — so your models actually learn and generalise. Hands-on in Python. Free demo."
 canonical: https://learn.modernagecoders.com/how-to-train-machine-learning-models
-keywords: ["how to train machine learning models", "training ml models", "model training course", "how to train a model", "machine learning training process", "train ai models", "overfitting", "gradient descent", "hyperparameter tuning", "model validation"]
 source: src/pages/how-to-train-machine-learning-models.html
 ---
 > Learn how to train machine learning models properly. Live course on the training process — loss, gradient descent, epochs, validation, overfitting and tuning — so your models actually learn and generalise. Hands-on in Python. Free demo.

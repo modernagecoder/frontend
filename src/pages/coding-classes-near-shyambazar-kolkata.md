@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Shyambazar"
 description: "Premium live online coding & maths classes near Shyambazar, Kolkata. Small batches, project-based, taught by full-time engineers. Free demo from ₹1,499/month."
 canonical: https://learn.modernagecoders.com/coding-classes-near-shyambazar-kolkata
-keywords: ["coding classes near Shyambazar", "coding classes Shyambazar Kolkata", "online coding classes Shyambazar", "maths tuition Shyambazar", "Python classes Shyambazar", "Java classes ICSE Kolkata", "coding classes Hatibagan", "coding classes Bagbazar", "coding classes for kids North Kolkata", "AI ML classes Kolkata", "ICSE Computer Applications Java BlueJ", "live online coding Kolkata"]
 source: src/pages/coding-classes-near-shyambazar-kolkata.html
 ---
 > Premium live online coding & maths classes near Shyambazar, Kolkata. Small batches, project-based, taught by full-time engineers. Free demo from ₹1,499/month.

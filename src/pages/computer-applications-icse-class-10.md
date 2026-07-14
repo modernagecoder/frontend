@@ -2,7 +2,6 @@
 title: "Computer Applications ICSE Class 10 — Java BlueJ Tuition, Project & Viva Prep | Modern Age Coders"
 description: "ICSE Class 10 Computer Applications Java/BlueJ tuition. Chapter-wise coverage, pattern questions, string problems, practical project and viva prep. 1 hour live classes."
 canonical: https://learn.modernagecoders.com/computer-applications-icse-class-10
-keywords: ["computer applications icse class 10", "icse class 10 computer applications", "icse java class 10", "bluej class 10", "icse ca class 10", "class 10 java tuition", "icse 2024 ca", "icse ca syllabus", "class 10 bluej online", "java for icse class 10", "icse ca sample papers", "class 10 ca project"]
 source: src/pages/computer-applications-icse-class-10.html
 ---
 > ICSE Class 10 Computer Applications Java/BlueJ tuition. Chapter-wise coverage, pattern questions, string problems, practical project and viva prep. 1 hour live classes.

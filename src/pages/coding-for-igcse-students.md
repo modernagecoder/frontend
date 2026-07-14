@@ -2,7 +2,6 @@
 title: "Coding for IGCSE Students — Cambridge CS 0478, 0984, ICT & Python | Modern Age Coders"
 description: "Cambridge IGCSE coding classes. CS 0478 / 0984, ICT 0417, Python programming, pseudocode, flowcharts — aligned to the IGCSE syllabus. 1 hour live classes."
 canonical: https://learn.modernagecoders.com/coding-for-igcse-students
-keywords: ["coding for igcse students", "igcse cs 0478", "igcse cs 0984", "igcse ict 0417", "cambridge igcse computer science", "igcse python", "igcse pseudocode", "igcse flowcharts", "cambridge coding classes", "igcse paper 1", "igcse paper 2", "igcse coursework"]
 source: src/pages/coding-for-igcse-students.html
 ---
 > Cambridge IGCSE coding classes. CS 0478 / 0984, ICT 0417, Python programming, pseudocode, flowcharts — aligned to the IGCSE syllabus. 1 hour live classes.

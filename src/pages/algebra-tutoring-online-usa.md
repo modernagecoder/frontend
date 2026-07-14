@@ -2,7 +2,6 @@
 title: "Algebra Tutoring Online (USA) · 1:1 Pre-Algebra, Algebra 1 & 2 — Modern Age Coders"
 description: "Live 1:1 online algebra tutoring for US students — pre-algebra, Algebra 1 and Algebra 2. We teach why algebra works, from balancing equations to functions, so it stops feeling like rules to memorize. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/algebra-tutoring-online-usa
-keywords: ["algebra tutoring online", "algebra tutor USA", "pre-algebra tutor", "algebra 1 tutor online", "algebra 2 tutor", "online algebra help", "algebra 1 help", "algebra 2 help", "quadratic equations tutor", "systems of equations help", "functions tutor", "factoring help"]
 source: src/pages/algebra-tutoring-online-usa.html
 ---
 > Live 1:1 online algebra tutoring for US students — pre-algebra, Algebra 1 and Algebra 2. We teach why algebra works, from balancing equations to functions, so it stops feeling like rules to memorize. Mentors in every US time zone. $150/month, 8 classes. Free trial.

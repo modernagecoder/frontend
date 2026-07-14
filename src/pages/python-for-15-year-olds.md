@@ -2,7 +2,6 @@
 title: "Python for 15 Year Olds — Board-Safe Python + Django, ML & DSA for Class 10 | Modern Age Coders"
 description: "Python classes for 15 year olds in Class 10. Board-safe pacing. Django, sklearn ML, DSA in Python, SQL — without hurting board marks. 1 hour live classes."
 canonical: https://learn.modernagecoders.com/python-for-15-year-olds
-keywords: ["python for 15 year olds", "python for class 10", "cbse class 10 python", "icse class 10 python", "python board year", "python dsa class 10", "django for teens", "python ml class 10", "sklearn class 10", "python sql class 10", "best python class 15 year old", "python project class 10"]
 source: src/pages/python-for-15-year-olds.html
 ---
 > Python classes for 15 year olds in Class 10. Board-safe pacing. Django, sklearn ML, DSA in Python, SQL — without hurting board marks. 1 hour live classes.

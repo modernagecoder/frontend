@@ -2,7 +2,6 @@
 title: "Python for Beginners Kids — Absolute Zero Start, Fun Projects, Live 1-on-1 Classes | Modern Age Coders"
 description: "Python for absolute beginner kids — 6 to 14 years. Start from zero with turtle graphics, silly games and tiny projects. Live 1 hour classes, 1:1 or small group. Free demo."
 canonical: https://learn.modernagecoders.com/python-for-beginners-kids
-keywords: ["python for beginners kids", "python for kids beginners", "learn python for kids", "python beginner course kids", "python for absolute beginners kids", "free python for kids", "python classes for beginners", "python lessons for kids", "python introduction for kids", "start learning python kid", "best python course for beginner kids", "python for children beginners"]
 source: src/pages/python-for-beginners-kids.html
 ---
 > Python for absolute beginner kids — 6 to 14 years. Start from zero with turtle graphics, silly games and tiny projects. Live 1 hour classes, 1:1 or small group. Free demo.

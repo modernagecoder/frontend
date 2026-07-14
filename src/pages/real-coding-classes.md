@@ -2,7 +2,6 @@
 title: "Real Coding Classes — Learn How Code Actually Works, How to Think Like a Programmer & Build Real AI/ML Models | Modern Age Coders"
 description: "Live online coding classes with real depth and applied knowledge: learn how code actually works under the hood, how to think like a programmer, how to solve coding problems, and how to build real AI/ML models — Python internals, the maths behind machine learning, DSA, C++, Java & full-stack. Small batches, expert mentors, ages 13–65, 15+ countries. Rated 4.9/5. Free demo."
 canonical: https://learn.modernagecoders.com/real-coding-classes
-keywords: ["real coding classes", "learn how code actually works", "how to think like a programmer", "how to solve coding problems", "how to build machine learning models", "applied coding knowledge", "coding classes with real depth", "advanced coding classes online", "best coding classes in the world", "in-depth programming course", "serious coding course", "deep python course"]
 source: src/pages/real-coding-classes.html
 ---
 > Live online coding classes with real depth and applied knowledge: learn how code actually works under the hood, how to think like a programmer, how to solve coding problems, and how to build real AI/ML models — Python internals, the maths behind machine learning, DSA, C++, Java & full-stack. Small batches, expert mentors, ages 13–65, 15+ countries. Rated 4.9/5. Free demo.

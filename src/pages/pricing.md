@@ -2,7 +2,6 @@
 title: "Affordable Coding Classes in India: Plans Starting Rs 1,499/month | Modern Age Coders"
 description: "Affordable coding classes in India starting at just Rs 1,499/month. Live 1-on-1 sessions, expert instructors, no hidden fees. Compare our pricing with competitors. Students from 15+ countries. Cancel anytime."
 canonical: https://learn.modernagecoders.com/pricing
-keywords: ["affordable coding classes India", "affordable coding classes", "coding course fees", "math tuition pricing", "online coding classes cost", "affordable programming courses", "1-on-1 coding classes", "personalized learning", "coding classes price", "affordable online maths tuition", "coding and maths pricing", "cheap coding classes India"]
 source: src/pages/pricing.html
 ---
 > Affordable coding classes in India starting at just Rs 1,499/month. Live 1-on-1 sessions, expert instructors, no hidden fees. Compare our pricing with competitors. Students from 15+ countries. Cancel anytime.

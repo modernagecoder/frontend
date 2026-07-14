@@ -2,7 +2,6 @@
 title: "Online Math Tutor for 5th Grade | Live 1:1 Classes | Modern Age Coders"
 description: "Live 1:1 online math tutoring for 5th graders: fraction arithmetic, decimals to thousandths, volume and the coordinate plane, built from understanding before middle school. One-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/online-math-tutor-5th-grade
-keywords: ["online math tutor 5th grade", "5th grade math help", "math tutor for 10 year old", "grade 5 math tutoring", "5th grade fractions help", "decimal help 5th grade", "middle school math readiness", "common core 5th grade math"]
 source: src/pages/online-math-tutor-5th-grade.html
 ---
 > Live 1:1 online math tutoring for 5th graders: fraction arithmetic, decimals to thousandths, volume and the coordinate plane, built from understanding before middle school. One-hour classes twice a week, free demo.

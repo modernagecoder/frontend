@@ -2,7 +2,6 @@
 title: "Online Math Tutor for 6th Grade | Live 1:1 Classes | Modern Age Coders"
 description: "Live 1:1 online math tutoring for 6th graders: ratios, negative numbers, variables and fraction division made concrete, with elementary gaps repaired inline. One-hour classes twice a week, free demo class."
 canonical: https://learn.modernagecoders.com/online-math-tutor-6th-grade
-keywords: ["online math tutor 6th grade", "6th grade math help", "math tutor for 11 year old", "grade 6 math tutoring", "ratios help 6th grade", "negative numbers help", "middle school math tutor", "common core 6th grade math"]
 source: src/pages/online-math-tutor-6th-grade.html
 ---
 > Live 1:1 online math tutoring for 6th graders: ratios, negative numbers, variables and fraction division made concrete, with elementary gaps repaired inline. One-hour classes twice a week, free demo class.

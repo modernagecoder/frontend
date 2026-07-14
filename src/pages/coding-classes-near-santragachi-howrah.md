@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Santragachi, Howrah"
 description: "Live online coding & maths classes near Santragachi, Howrah. Small batches, full-time engineers, Python, Java & AI/ML. CBSE & ICSE. Free demo in 24 hours."
 canonical: https://learn.modernagecoders.com/coding-classes-near-santragachi-howrah
-keywords: ["coding classes Santragachi", "coding classes Howrah", "Python classes Santragachi", "Java classes Howrah", "ICSE Java BlueJ Howrah", "CBSE Python coding Santragachi", "AI ML classes Howrah", "online maths tuition Santragachi", "KV Santragachi coding", "kids coding classes Howrah", "live online coding Howrah", "coding classes near Santragachi Junction"]
 source: src/pages/coding-classes-near-santragachi-howrah.html
 ---
 > Live online coding & maths classes near Santragachi, Howrah. Small batches, full-time engineers, Python, Java & AI/ML. CBSE & ICSE. Free demo in 24 hours.

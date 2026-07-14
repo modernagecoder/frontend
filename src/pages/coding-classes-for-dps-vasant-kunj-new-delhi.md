@@ -2,7 +2,6 @@
 title: "Coding Classes for DPS Vasant Kunj Students Students | Python, Maths & CBSE | Modern Age Coders"
 description: "Best coding classes for DPS Vasant Kunj Students students in New Delhi. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near Vasant Kunj. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!"
 canonical: https://learn.modernagecoders.com/coding-classes-for-dps-vasant-kunj-new-delhi
-keywords: ["coding classes for DPS Vasant Kunj Students students", "coding classes near Vasant Kunj New Delhi", "Python course near DPS Vasant Kunj Students New Delhi", "after school coding DPS Vasant Kunj Students", "maths tuition for DPS Vasant Kunj Students New Delhi", "DPS Vasant Kunj Students coding", "CBSE coding classes New Delhi", "coding classes near me New Delhi", "online coding classes for kids New Delhi", "best coding institute New Delhi", "Java classes for CBSE students New Delhi", "AI classes for school students New Delhi"]
 source: src/pages/coding-classes-for-dps-vasant-kunj-new-delhi.html
 ---
 > Best coding classes for DPS Vasant Kunj Students students in New Delhi. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near Vasant Kunj. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!

@@ -2,7 +2,6 @@
 title: "A-Level Maths Tuition Online · 1:1 Pure, Mechanics & Statistics — Modern Age Coders"
 description: "Live 1:1 online A-Level maths tuition for Edexcel, AQA and OCR. Pure, mechanics and statistics taught from the ideas up — so you can handle the unfamiliar questions A-Level is built around. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
 canonical: https://learn.modernagecoders.com/a-level-maths-tuition-online
-keywords: ["A-level maths tuition online", "A-level maths tutor", "A-level maths revision", "Edexcel A-level maths", "AQA A-level maths", "OCR A-level maths", "A-level pure maths", "A-level mechanics", "A-level statistics", "A-level maths help", "year 12 maths tutor", "year 13 maths tutor"]
 source: src/pages/a-level-maths-tuition-online.html
 ---
 > Live 1:1 online A-Level maths tuition for Edexcel, AQA and OCR. Pure, mechanics and statistics taught from the ideas up — so you can handle the unfamiliar questions A-Level is built around. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.

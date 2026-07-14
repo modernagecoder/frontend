@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Elgin Road, Kolkata"
 description: "Premium live online coding & maths classes near Elgin Road, Kolkata. Small batches of 6-8, project-based Python, Java & AI, taught by full-time engineers."
 canonical: https://learn.modernagecoders.com/coding-classes-near-elgin-road-kolkata
-keywords: ["coding classes near Elgin Road", "coding classes Elgin Road Kolkata", "maths tuition Elgin Road", "Python classes Kolkata 700020", "Java ICSE classes Kolkata", "La Martiniere coding classes", "Loreto House coding", "online coding classes Kolkata", "AI ML classes for teens Kolkata", "ICSE Computer Applications BlueJ", "CBSE Informatics Practices Kolkata", "coding classes near Forum mall Kolkata"]
 source: src/pages/coding-classes-near-elgin-road-kolkata.html
 ---
 > Premium live online coding & maths classes near Elgin Road, Kolkata. Small batches of 6-8, project-based Python, Java & AI, taught by full-time engineers.

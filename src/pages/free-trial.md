@@ -2,7 +2,6 @@
 title: "Free Trial Class | One Real Hour, No Card, No Catch | Modern Age Coders"
 description: "Book a free trial class: a complete live one-hour coding or maths lesson with a real mentor, an honest placement read, and no card details anywhere. Every student starts here. Callback within 3 hours."
 canonical: https://learn.modernagecoders.com/free-trial
-keywords: ["free trial coding class", "free demo class online", "free maths demo class", "free coding class for kids", "trial class modern age coders", "book free demo coding", "free online class trial kids"]
 source: src/pages/free-trial.html
 ---
 > Book a free trial class: a complete live one-hour coding or maths lesson with a real mentor, an honest placement read, and no card details anywhere. Every student starts here. Callback within 3 hours.

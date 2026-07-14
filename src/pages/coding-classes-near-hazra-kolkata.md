@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Hazra, Kolkata"
 description: "Live online, engineer-led coding & maths near Hazra, Kolkata. Python, Java, AI/ML for ICSE/CBSE/WBBSE kids & teens. Batches of 6-8 from ₹1,499/mo. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-hazra-kolkata
-keywords: ["coding classes near Hazra Kolkata", "online coding Hazra", "Python classes Hazra", "Java BlueJ ICSE Hazra", "AI ML classes Hazra Kolkata", "maths tuition Hazra", "coding for kids Sarat Bose Road", "coding Bhowanipore Kalighat", "Ashok Hall coding classes", "Bhavan's Gangabux Kanoria coding", "live online coding Kolkata", "Hazra Road coding tuition"]
 source: src/pages/coding-classes-near-hazra-kolkata.html
 ---
 > Live online, engineer-led coding & maths near Hazra, Kolkata. Python, Java, AI/ML for ICSE/CBSE/WBBSE kids & teens. Batches of 6-8 from ₹1,499/mo. Free demo.

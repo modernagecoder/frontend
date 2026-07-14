@@ -2,7 +2,6 @@
 title: "Java Classes for Adults | Online Java Course for Professionals & Beginners"
 description: "Live online Java classes for adults, working professionals & career switchers. Master Core Java, OOP, DSA & backend basics for placements and jobs. Flexible evening/weekend batches. Free demo."
 canonical: https://learn.modernagecoders.com/java-classes-for-adults
-keywords: ["java classes for adults", "java course for working professionals", "java for beginners adults", "learn java for job", "java for placements", "java backend course", "core java for adults", "java DSA for interviews", "java evening classes", "online java course India adults", "career switch to java"]
 source: src/pages/java-classes-for-adults.html
 ---
 > Live online Java classes for adults, working professionals & career switchers. Master Core Java, OOP, DSA & backend basics for placements and jobs. Flexible evening/weekend batches. Free demo.

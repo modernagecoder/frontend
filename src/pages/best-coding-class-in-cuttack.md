@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Cuttack | Modern Age Coders"
 description: "Live online coding & maths classes in Cuttack for kids, teens & adults. Python, AI, Java & Web Dev in Odisha's Silver City. Rated 4.9/5. Book a free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-cuttack
-keywords: ["best coding classes in Cuttack", "coding classes in Cuttack", "coding for kids in Cuttack", "coding for teens in Cuttack", "programming classes Cuttack", "coding institute Cuttack", "online coding classes Cuttack", "coding classes near me Cuttack", "Scratch programming Cuttack", "Python for kids Cuttack", "web development course Cuttack", "best coding institute in Cuttack"]
 source: src/pages/best-coding-class-in-cuttack.html
 ---
 > Live online coding & maths classes in Cuttack for kids, teens & adults. Python, AI, Java & Web Dev in Odisha's Silver City. Rated 4.9/5. Book a free demo!

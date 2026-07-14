@@ -2,7 +2,6 @@
 title: "Python for 16 Year Olds — CS Stream Python, Pandas, ML, Django & DSA | Modern Age Coders"
 description: "Python for 16 year olds in Class 11 CS stream. Pandas + SQL (CBSE IP), Django production, sklearn ML with real datasets, DSA in Python/C++. 1 hour live classes."
 canonical: https://learn.modernagecoders.com/python-for-16-year-olds
-keywords: ["python for 16 year olds", "python for class 11", "cbse class 11 python", "cbse class 11 ip", "python pandas class 11", "python for cs stream", "python django for teens", "python ml class 11", "python dsa class 11", "python sql cbse ip", "best python class 16 year old", "python project class 11"]
 source: src/pages/python-for-16-year-olds.html
 ---
 > Python for 16 year olds in Class 11 CS stream. Pandas + SQL (CBSE IP), Django production, sklearn ML with real datasets, DSA in Python/C++. 1 hour live classes.

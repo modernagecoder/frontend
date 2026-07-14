@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Ahmedabad | Modern Age Coders"
 description: "Live online coding & maths classes in Ahmedabad for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-ahmedabad
-keywords: ["best coding classes in Ahmedabad", "coding for kids in Ahmedabad", "coding for teens in Ahmedabad", "programming classes Ahmedabad", "coding institute Ahmedabad", "online coding classes Ahmedabad", "coding classes near me Ahmedabad", "Scratch programming Ahmedabad", "Python for kids Ahmedabad", "web development Ahmedabad", "best coding institute in Ahmedabad", "computer classes for kids Ahmedabad"]
 source: src/pages/best-coding-class-in-ahmedabad.html
 ---
 > Live online coding & maths classes in Ahmedabad for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

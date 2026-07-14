@@ -2,7 +2,6 @@
 title: "Online Coding Classes for Kids Ages 6-12 | Scratch, Python & Game Dev | Modern Age Coders"
 description: "Top-rated online coding classes for kids ages 6-12. Learn Scratch, Python, Web Development, Game Design & AI with fun live 1-on-1 sessions. Students from 15+ countries. 500+ kids enrolled. Book a FREE demo class today!"
 canonical: https://learn.modernagecoders.com/levels/coding-for-kids
-keywords: ["online coding classes for kids", "coding for kids", "scratch programming for kids", "python for kids", "javascript for kids", "kids coding courses online", "children programming classes", "web development kids", "game development children", "AI for kids", "machine learning for kids", "block coding"]
 source: src/pages/category/kids.html
 ---
 > Top-rated online coding classes for kids ages 6-12. Learn Scratch, Python, Web Development, Game Design & AI with fun live 1-on-1 sessions. Students from 15+ countries. 500+ kids enrolled. Book a FREE demo class today!

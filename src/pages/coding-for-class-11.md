@@ -2,7 +2,6 @@
 title: "Coding for Class 11 — CS Stream, Python/Pandas, MERN, AI/ML & DSA in C++ | Modern Age Coders"
 description: "Coding for Class 11 CS stream students. CBSE Class 11 CS + IP, ICSE Class 11, Python with Pandas, full-stack MERN, AI/ML with real datasets, DSA in C++ or Python."
 canonical: https://learn.modernagecoders.com/coding-for-class-11
-keywords: ["coding for class 11", "cbse class 11 cs", "cbse class 11 ip", "icse class 11 cs", "isc class 11", "python class 11", "pandas class 11", "mern for class 11", "ai ml class 11", "dsa c++ class 11", "coding for 16 year olds", "competitive programming class 11"]
 source: src/pages/coding-for-class-11.html
 ---
 > Coding for Class 11 CS stream students. CBSE Class 11 CS + IP, ICSE Class 11, Python with Pandas, full-stack MERN, AI/ML with real datasets, DSA in C++ or Python.

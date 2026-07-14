@@ -2,7 +2,6 @@
 title: "Computer Science Class 12 CBSE — Python Data Structures, SQL & Full Board Tuition | Modern Age Coders"
 description: "CBSE Class 12 Computer Science tuition. Python data structures, functions, file handling, SQL, networks — NCERT Code 083 aligned. Project + viva prep included."
 canonical: https://learn.modernagecoders.com/computer-science-class-12-cbse
-keywords: ["computer science class 12 cbse", "cbse class 12 cs", "cbse class 12 cs 083", "python class 12 cbse", "class 12 cs tuition", "class 12 python data structures", "class 12 sql", "class 12 mysql", "cbse 12 cs ncert", "cbse 12 cs sample paper", "class 12 cs project", "class 12 cs online tuition"]
 source: src/pages/computer-science-class-12-cbse.html
 ---
 > CBSE Class 12 Computer Science tuition. Python data structures, functions, file handling, SQL, networks — NCERT Code 083 aligned. Project + viva prep included.

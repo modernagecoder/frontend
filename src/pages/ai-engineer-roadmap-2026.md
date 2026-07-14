@@ -2,7 +2,6 @@
 title: "The AI Engineer Roadmap 2026 — From Python Day One to Shipping AI in Production | Modern Age Coders"
 description: "The honest, opinionated, step-by-step roadmap to becoming a working AI engineer in 2026. Five stages, time budgets per stage, the milestone projects that prove each one, and the one trap that wastes most learners' year. By Modern Age Coders."
 canonical: https://learn.modernagecoders.com/ai-engineer-roadmap-2026
-keywords: ["AI engineer roadmap", "machine learning engineer roadmap", "how to become an AI engineer", "AI engineer career path 2026", "roadmap to AI engineer", "AI engineer skills", "AI engineer learning path", "ML engineer roadmap 2026", "AI career", "what to learn for AI", "AI engineer salary", "modern age coders"]
 source: src/pages/ai-engineer-roadmap-2026.html
 ---
 > The honest, opinionated, step-by-step roadmap to becoming a working AI engineer in 2026. Five stages, time budgets per stage, the milestone projects that prove each one, and the one trap that wastes most learners' year. By Modern Age Coders.

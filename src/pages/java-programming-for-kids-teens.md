@@ -2,7 +2,6 @@
 title: "Java Programming for Kids & Teens: Learn Java Online | Modern Age Coders"
 description: "Java programming course for kids aged 10+ and teens. Build Android apps, learn OOP, and prepare for AP Computer Science. Live 1-on-1 classes, max 6 students, real projects. Free demo class!"
 canonical: https://learn.modernagecoders.com/java-programming-for-kids-teens
-keywords: ["java programming for kids", "java course for teens", "java for beginners kids", "java programming course teenagers", "learn java for kids", "java online course teens", "java programming children", "java course 10-18 years", "java classes for school students", "java for kids online", "AP computer science java", "android app development for kids"]
 source: src/pages/java-programming-for-kids-teens.html
 ---
 > Java programming course for kids aged 10+ and teens. Build Android apps, learn OOP, and prepare for AP Computer Science. Live 1-on-1 classes, max 6 students, real projects. Free demo class!

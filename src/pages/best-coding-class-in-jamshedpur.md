@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Jamshedpur | Modern Age Coders"
 description: "Live online coding & maths classes in Jamshedpur for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-jamshedpur
-keywords: ["best coding classes in Jamshedpur", "coding classes in Jamshedpur", "coding for kids in Jamshedpur", "coding for teens in Jamshedpur", "programming classes Jamshedpur", "coding institute Jamshedpur", "online coding classes Jamshedpur", "coding classes near me Jamshedpur", "Scratch programming Jamshedpur", "Python for kids Jamshedpur", "web development course Jamshedpur", "best coding institute in Jamshedpur"]
 source: src/pages/best-coding-class-in-jamshedpur.html
 ---
 > Live online coding & maths classes in Jamshedpur for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Rated 4.9/5. Book a free demo!

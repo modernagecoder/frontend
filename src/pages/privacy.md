@@ -2,7 +2,6 @@
 title: "Privacy Policy - Modern Age Coders"
 description: "Learn how Modern Age Coders protects your privacy and handles your personal information. Read our comprehensive privacy policy."
 canonical: https://learn.modernagecoders.com/privacy
-keywords: ["privacy policy", "data protection", "personal information"]
 source: src/pages/privacy.html
 ---
 > Learn how Modern Age Coders protects your privacy and handles your personal information. Read our comprehensive privacy policy.

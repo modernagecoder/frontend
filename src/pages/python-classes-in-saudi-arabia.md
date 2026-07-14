@@ -2,7 +2,6 @@
 title: "Python Classes in Saudi Arabia | Live, Beginner to Advanced"
 description: "Learn Python in Saudi Arabia with live online classes: basics to OOP, automation and AI libraries. Ages 8 to adult, small batches, AST evenings, free demo."
 canonical: https://learn.modernagecoders.com/python-classes-in-saudi-arabia
-keywords: ["python classes in saudi arabia", "python course saudi arabia", "learn python saudi arabia", "online python classes ksa", "python classes riyadh", "python classes jeddah", "python training saudi arabia", "python for kids saudi arabia", "python for professionals ksa"]
 source: src/pages/python-classes-in-saudi-arabia.html
 ---
 > Learn Python in Saudi Arabia with live online classes: basics to OOP, automation and AI libraries. Ages 8 to adult, small batches, AST evenings, free demo.

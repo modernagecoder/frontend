@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Andul, Howrah"
 description: "Live online coding & maths classes near Andul, Howrah. Python, Java, AI/ML + maths tuition. ICSE/CBSE/WBBSE board prep. Small batches, ₹1,499/mo. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-andul-howrah
-keywords: ["coding classes near Andul Howrah", "coding classes Andul Mouri", "Python classes Andul", "Java tuition Andul ICSE", "maths tuition Andul Howrah", "online coding Mahiari", "coding for kids Andul", "CBSE Python classes Andul", "AI ML classes Howrah", "coding classes near me Andul", "WBBSE computer science Andul", "live coding classes Andul Road"]
 source: src/pages/coding-classes-near-andul-howrah.html
 ---
 > Live online coding & maths classes near Andul, Howrah. Python, Java, AI/ML + maths tuition. ICSE/CBSE/WBBSE board prep. Small batches, ₹1,499/mo. Free demo.

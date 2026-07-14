@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Coimbatore | Modern Age Coders"
 description: "Live online coding & maths classes in Coimbatore for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-coimbatore
-keywords: ["best coding classes in Coimbatore", "coding for kids in Coimbatore", "coding for teens in Coimbatore", "programming classes Coimbatore", "coding institute Coimbatore", "online coding classes Coimbatore", "coding classes near me Coimbatore", "Scratch programming Coimbatore", "Python for kids Coimbatore", "web development Coimbatore", "best coding institute in Coimbatore", "computer classes for kids Coimbatore"]
 source: src/pages/best-coding-class-in-coimbatore.html
 ---
 > Live online coding & maths classes in Coimbatore for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

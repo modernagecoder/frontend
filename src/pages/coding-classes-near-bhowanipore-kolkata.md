@@ -2,7 +2,6 @@
 title: "Coding & Maths Classes near Bhowanipore, Kolkata"
 description: "Premium live online coding & maths classes near Bhowanipore — small batches, full-time engineers, IGCSE/CBSE/ICSE-ready. No commute through Hazra. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-bhowanipore-kolkata
-keywords: ["coding classes Bhowanipore", "maths tuition Bhowanipore", "coding classes near Hazra", "Python classes Kolkata", "Java coding ICSE Kolkata", "IGCSE computer science Bhowanipore", "AI ML classes Kolkata", "online coding classes Bhowanipore", "ICSE Computer Applications Class 10", "coding classes Sarat Bose Road", "kids coding Elgin Road", "maths Class 10 Bhowanipore"]
 source: src/pages/coding-classes-near-bhowanipore-kolkata.html
 ---
 > Premium live online coding & maths classes near Bhowanipore — small batches, full-time engineers, IGCSE/CBSE/ICSE-ready. No commute through Hazra. Free demo.

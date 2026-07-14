@@ -463,7 +463,7 @@
         "items": [
           "Transition to text-based programming (<a href='/courses/python-complete-masterclass-teens'>Python</a>, JavaScript)",
           "Build more complex projects for portfolios",
-          "Explore specializations: <a href='/courses/frontend-web-development-complete-masterclass-teens'>web development</a>, <a href='/courses/complete-app-development-masterclass-for-teens'>app development</a>, data science",
+          "Explore specializations: <a href='/courses/frontend-development-masterclass-for-teens'>web development</a>, <a href='/courses/complete-app-development-masterclass-for-teens'>app development</a>, data science",
           "Learn professional tools: Git, IDEs, collaboration platforms",
           "Consider internships or mentorship opportunities"
         ]
@@ -628,7 +628,7 @@
         "style": "unordered",
         "items": [
           "<strong><a href='/courses/python-complete-masterclass-teens'>Python Courses</a>:</strong> Text-based programming for beginners to intermediate",
-          "<strong><a href='/courses/frontend-web-development-complete-masterclass-teens'>Web Development</a>:</strong> HTML, CSS, JavaScript for building websites",
+          "<strong><a href='/courses/frontend-development-masterclass-for-teens'>Web Development</a>:</strong> HTML, CSS, JavaScript for building websites",
           "<strong><a href='/courses/complete-app-development-masterclass-for-teens'>App Development</a>:</strong> Building mobile applications",
           "<strong>Khan Academy:</strong> Free programming courses with interactive exercises",
           "<strong>Codecademy:</strong> Interactive coding lessons in multiple languages",

@@ -2,7 +2,6 @@
 title: "JEE Aspirant Coding Track — Python & Computational Maths for Class 11 & 12 Without Disturbing JEE | Modern Age Coders"
 description: "A three-hour-a-week coding and computational mathematics programme designed specifically for Class 11 and 12 JEE Main and JEE Advanced aspirants. Python, data structures and algorithms layered on top of board and JEE prep — built to protect JEE rank, not steal time. Live online from Modern Age Coders."
 canonical: https://learn.modernagecoders.com/jee-aspirant-coding-track
-keywords: ["coding for JEE aspirants", "python for JEE students", "JEE class 11 coding", "JEE class 12 coding", "coding alongside JEE preparation", "IIT preparation coding", "JEE Main coding", "JEE Advanced coding", "coding for class 11 12 PCM", "modern age coders", "coding for IIT aspirants", "python for CBSE class 11"]
 source: src/pages/jee-aspirant-coding-track.html
 ---
 > A three-hour-a-week coding and computational mathematics programme designed specifically for Class 11 and 12 JEE Main and JEE Advanced aspirants. Python, data structures and algorithms layered on top of board and JEE prep — built to protect JEE rank, not steal time. Live online from Modern Age Coders.

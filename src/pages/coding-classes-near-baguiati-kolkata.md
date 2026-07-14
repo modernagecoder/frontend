@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Baguiati, Kolkata"
 description: "Live online coding & maths classes near Baguiati, Kolkata. Python, Java, AI/ML for kids & teens. ICSE/CBSE board prep, small batches, from ₹1,499/mo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-baguiati-kolkata
-keywords: ["coding classes near Baguiati", "coding classes Baguiati Kolkata", "Python classes Baguiati", "Java classes ICSE Baguiati", "AI ML classes Baguiati", "maths tuition Baguiati", "online coding VIP Road Kolkata", "coding classes Aswini Nagar", "coding classes Jagatpur", "ICSE computer applications Baguiati", "CBSE computer science Kolkata", "coding classes for kids Deshbandhu Nagar"]
 source: src/pages/coding-classes-near-baguiati-kolkata.html
 ---
 > Live online coding & maths classes near Baguiati, Kolkata. Python, Java, AI/ML for kids & teens. ICSE/CBSE board prep, small batches, from ₹1,499/mo.

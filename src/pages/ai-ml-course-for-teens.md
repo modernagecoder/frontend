@@ -2,7 +2,6 @@
 title: "AI & ML Course for Kids & Teens — Learn Artificial Intelligence | Modern Age Coders"
 description: "AI and ML course designed for kids aged 10+ and teens. Learn machine learning, build AI projects, and understand how ChatGPT works. Live classes with expert mentors from 15+ countries. Book a free demo!"
 canonical: https://learn.modernagecoders.com/ai-ml-course-for-teens
-keywords: ["AI course for teens", "machine learning course for teenagers", "artificial intelligence class for teens", "AI ML online course teens India", "learn AI online teenagers", "best AI course for 13-18", "machine learning for high school students", "Python AI teens", "neural networks course teenagers", "AI ML course for kids", "artificial intelligence for children", "machine learning for teens"]
 source: src/pages/ai-ml-course-for-teens.html
 ---
 > AI and ML course designed for kids aged 10+ and teens. Learn machine learning, build AI projects, and understand how ChatGPT works. Live classes with expert mentors from 15+ countries. Book a free demo!

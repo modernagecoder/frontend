@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near AJC Bose Road"
 description: "Live, small-batch online coding & maths classes near AJC Bose Road, Kolkata. Python, Java, AI/ML, ICSE/CBSE board CS. Book a free demo today."
 canonical: https://learn.modernagecoders.com/coding-classes-near-ajc-bose-road-kolkata
-keywords: ["coding classes near AJC Bose Road", "coding classes AJC Bose Road Kolkata", "maths tuition AJC Bose Road", "Python classes Kolkata", "Java classes ICSE Kolkata", "AI ML classes for teens Kolkata", "ICSE computer applications BlueJ", "CBSE computer science Python", "online coding classes Kolkata", "kids coding classes Park Street", "ISC computer science Class 11 12", "live online maths tuition Kolkata"]
 source: src/pages/coding-classes-near-ajc-bose-road-kolkata.html
 ---
 > Live, small-batch online coding & maths classes near AJC Bose Road, Kolkata. Python, Java, AI/ML, ICSE/CBSE board CS. Book a free demo today.

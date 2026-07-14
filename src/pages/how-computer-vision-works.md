@@ -2,7 +2,6 @@
 title: "How Computer Vision Works - CNNs, Feature Maps & Object Detection Explained | Modern Age Coders"
 description: "Understand how computer vision actually works - pixels, convolutions, feature maps, CNNs and vision transformers, classification and object detection - explained deeply, then built. Live small-batch AI classes for serious learners, college and professionals. Free demo."
 canonical: https://learn.modernagecoders.com/how-computer-vision-works
-keywords: ["how computer vision works", "computer vision explained", "how cnns work", "convolutional neural networks explained", "image classification deep learning", "object detection explained", "feature maps", "vision transformers", "how machines see", "learn computer vision", "deep learning for images", "image recognition explained"]
 source: src/pages/how-computer-vision-works.html
 ---
 > Understand how computer vision actually works - pixels, convolutions, feature maps, CNNs and vision transformers, classification and object detection - explained deeply, then built. Live small-batch AI classes for serious learners, college and professionals. Free demo.

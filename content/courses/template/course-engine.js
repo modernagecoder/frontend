@@ -96,10 +96,6 @@ class CourseEngine {
         const metaDesc = document.querySelector('meta[name="description"]');
         if (metaDesc) metaDesc.content = meta.description;
 
-        // Update meta keywords
-        const metaKeywords = document.querySelector('meta[name="keywords"]');
-        if (metaKeywords) metaKeywords.content = meta.keywords.join(', ');
-
         // Update canonical URL
         const canonical = document.querySelector('link[rel="canonical"]');
         if (canonical) canonical.href = `https://learn.modernagecoders.com/courses/${meta.slug}`;

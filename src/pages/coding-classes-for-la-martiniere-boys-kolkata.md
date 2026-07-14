@@ -2,7 +2,6 @@
 title: "Coding Classes for La Martiniere for Boys Students | Python, Maths & ICSE | Modern Age Coders"
 description: "Best coding classes for La Martiniere for Boys students in Kolkata. Python, Java, AI, Web Dev & ICSE-aligned maths tuition. After-school & weekend batches near Park Street. ₹1499/mo. Rated 4.9/5 by parents. Book a free demo class!"
 canonical: https://learn.modernagecoders.com/coding-classes-for-la-martiniere-boys-kolkata
-keywords: ["coding classes for La Martiniere Boys students", "coding classes near Park Street Kolkata", "Python course near La Martiniere Kolkata", "after school coding La Martiniere Boys", "maths tuition for La Martiniere Boys Kolkata", "La Martiniere for Boys coding", "ICSE coding classes Kolkata", "coding classes near me Kolkata", "online coding classes for kids Kolkata", "best coding institute Kolkata", "Java classes for ICSE students Kolkata", "AI classes for school students Kolkata"]
 source: src/pages/coding-classes-for-la-martiniere-boys-kolkata.html
 ---
 > Best coding classes for La Martiniere for Boys students in Kolkata. Python, Java, AI, Web Dev & ICSE-aligned maths tuition. After-school & weekend batches near Park Street. ₹1499/mo. Rated 4.9/5 by parents. Book a free demo class!

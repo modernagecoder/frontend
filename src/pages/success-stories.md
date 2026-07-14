@@ -2,7 +2,6 @@
 title: "Success Stories | Student Transformations at Modern Age Coders"
 description: "Discover how students transformed their coding skills at Modern Age Coders. Real success stories from kids, teens, and college students who learned to code and achieve their dreams."
 canonical: https://learn.modernagecoders.com/success-stories
-keywords: ["coding success stories", "student testimonials", "learn to code results", "kids coding achievements", "teen programmers", "coding transformation", "Modern Age Coders reviews"]
 source: src/pages/success-stories.html
 ---
 > Discover how students transformed their coding skills at Modern Age Coders. Real success stories from kids, teens, and college students who learned to code and achieve their dreams.

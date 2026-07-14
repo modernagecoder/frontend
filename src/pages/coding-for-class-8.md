@@ -2,7 +2,6 @@
 title: "Coding for Class 8 — Python OOP, Full Stack, Java & AI for CBSE/ICSE Students | Modern Age Coders"
 description: "Coding for Class 8 students. Python OOP, full-stack web with React, Java for ICSE, AI with real datasets. 1 hour live classes aligned to Class 8 CS syllabus."
 canonical: https://learn.modernagecoders.com/coding-for-class-8
-keywords: ["coding for class 8", "class 8 python", "java for class 8", "icse class 8 computer", "cbse class 8 computer", "full stack class 8", "ai ml class 8", "oop class 8", "react for class 8", "coding for 13 year olds", "kids coding class 8", "teen coding class 8"]
 source: src/pages/coding-for-class-8.html
 ---
 > Coding for Class 8 students. Python OOP, full-stack web with React, Java for ICSE, AI with real datasets. 1 hour live classes aligned to Class 8 CS syllabus.

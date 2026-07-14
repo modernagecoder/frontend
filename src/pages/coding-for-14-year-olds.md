@@ -2,7 +2,6 @@
 title: "Coding for 14 Year Olds — Python OOP, Full Stack, AI/ML & DSA for Class 9 | Modern Age Coders"
 description: "Coding for 14 year olds. Python OOP, MERN full stack, AI/ML with real datasets, DSA basics and Java for Class 9. Live 1 hour classes, 1:1 or small group."
 canonical: https://learn.modernagecoders.com/coding-for-14-year-olds
-keywords: ["coding for 14 year olds", "python oop for teens", "coding for class 9", "mern for teens", "ai ml 14 year olds", "dsa for 14 year olds", "java for 14 year olds", "full stack teens", "cbse class 9 cs", "icse class 9 cs", "react for teens", "app dev 14 year old"]
 source: src/pages/coding-for-14-year-olds.html
 ---
 > Coding for 14 year olds. Python OOP, MERN full stack, AI/ML with real datasets, DSA basics and Java for Class 9. Live 1 hour classes, 1:1 or small group.

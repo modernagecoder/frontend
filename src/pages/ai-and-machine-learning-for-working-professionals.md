@@ -2,7 +2,6 @@
 title: "AI & Machine Learning for Working Professionals | Upskill / Switch"
 description: "AI &amp; machine learning for working professionals — upskill or switch careers. Weekend-friendly, applied live classes covering Python, ML and deep learning with projects, built around a busy schedule. Small batches. Free demo."
 canonical: https://learn.modernagecoders.com/ai-and-machine-learning-for-working-professionals
-keywords: ["ai ml for working professionals", "machine learning for professionals", "ai course for working professionals", "career switch to ai ml", "upskill machine learning", "weekend ai ml course", "ai ml part time course", "applied machine learning professionals", "ml course for engineers", "ai ml career change"]
 source: src/pages/ai-and-machine-learning-for-working-professionals.html
 ---
 > AI &amp; machine learning for working professionals — upskill or switch careers. Weekend-friendly, applied live classes covering Python, ML and deep learning with projects, built around a busy schedule. Small batches. Free demo.

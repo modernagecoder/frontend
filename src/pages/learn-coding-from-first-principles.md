@@ -2,7 +2,6 @@
 title: "Learn Coding From First Principles — Understand How Code Actually Works | Modern Age Coders"
 description: "Stop memorising syntax. Learn coding from first principles and finally understand how code actually works under the hood — memory, execution, data and the maths behind AI and ML. Modern Age Coders teaches the depth other classes skip, in live small-batch Python, Java, C++ and AI/ML classes. Free demo."
 canonical: https://learn.modernagecoders.com/learn-coding-from-first-principles
-keywords: ["learn coding from first principles", "how code actually works", "understand programming deeply", "first principles programming", "what coding tutorials skip", "how computers run code", "depth-first coding course", "conceptual programming course", "learn python internals", "maths behind machine learning", "why learn coding fundamentals with AI", "understand AI generated code"]
 source: src/pages/learn-coding-from-first-principles.html
 ---
 > Stop memorising syntax. Learn coding from first principles and finally understand how code actually works under the hood — memory, execution, data and the maths behind AI and ML. Modern Age Coders teaches the depth other classes skip, in live small-batch Python, Java, C++ and AI/ML classes. Free demo.

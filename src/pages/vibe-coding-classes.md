@@ -2,7 +2,6 @@
 title: "Vibe Coding Classes for Kids, Teens & College | Live, Small-Batch — Modern Age Coders"
 description: "Live vibe coding classes for kids (8-12), teens (13-17) and college students (18+). Build real apps, games and AI projects while learning the code underneath. Three 12-week tracks, small batches of 4-8, free trial. From Rs.1,499/month."
 canonical: https://learn.modernagecoders.com/vibe-coding-classes
-keywords: ["vibe coding classes", "vibe coding course", "vibe coding for kids", "vibe coding for teens", "vibe coding for college", "ai coding classes", "learn to code with ai", "vibe coding online", "ai assisted coding course", "vibe coding India"]
 source: src/pages/vibe-coding-classes.html
 ---
 > Live vibe coding classes for kids (8-12), teens (13-17) and college students (18+). Build real apps, games and AI projects while learning the code underneath. Three 12-week tracks, small batches of 4-8, free trial. From Rs.1,499/month.

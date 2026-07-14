@@ -2,7 +2,6 @@
 title: "Coding for 11 Year Olds — Python, Web Development & AI Projects for Class 6 | Modern Age Coders"
 description: "Live online coding classes for 11 year olds. Python, HTML/CSS, game development and AI tools — matched to CBSE/ICSE Class 6 syllabus. 1 hour classes, 1:1 or group."
 canonical: https://learn.modernagecoders.com/coding-for-11-year-olds
-keywords: ["coding for 11 year olds", "python for 11 year olds", "coding classes for 11 year old", "coding for class 6", "cbse class 6 coding", "icse class 6 computer", "web development for kids", "ai for kids", "coding projects for 11 year olds", "best coding class 11 year old", "online coding 11 year old", "kids python course"]
 source: src/pages/coding-for-11-year-olds.html
 ---
 > Live online coding classes for 11 year olds. Python, HTML/CSS, game development and AI tools — matched to CBSE/ICSE Class 6 syllabus. 1 hour classes, 1:1 or group.

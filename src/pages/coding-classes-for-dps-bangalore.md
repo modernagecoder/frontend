@@ -2,7 +2,6 @@
 title: "Coding Classes for DPS Bangalore Students | Python, Maths & CBSE | Modern Age Coders"
 description: "Best coding classes for DPS Bangalore students in Bengaluru. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near R.K. Puram. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!"
 canonical: https://learn.modernagecoders.com/coding-classes-for-dps-bangalore
-keywords: ["coding classes for DPS Bangalore students", "coding classes near South Delhi Bengaluru", "Python course near DPS Bangalore Bengaluru", "after school coding DPS Bangalore", "maths tuition for DPS Bangalore Bengaluru", "DPS Bangalore coding", "CBSE coding classes Bengaluru", "coding classes near me Bengaluru", "online coding classes for kids Bengaluru", "best coding institute Bengaluru", "Java classes for CBSE students Bengaluru", "AI classes for school students Bengaluru"]
 source: src/pages/coding-classes-for-dps-bangalore.html
 ---
 > Best coding classes for DPS Bangalore students in Bengaluru. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near R.K. Puram. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!

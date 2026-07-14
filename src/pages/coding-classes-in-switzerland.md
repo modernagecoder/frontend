@@ -2,7 +2,6 @@
 title: "Online Coding & AI Classes in Switzerland"
 description: "Live online coding, Python & AI classes for kids, teens & adults in Switzerland. 1:1 mentoring, 8 sessions a month across Zurich, Geneva & Basel. USD 100/mo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-switzerland
-keywords: ["coding classes Switzerland", "best coding classes in Switzerland", "online coding classes Switzerland", "coding classes for kids Switzerland", "Python classes Switzerland", "AI course Switzerland", "agentic AI Switzerland", "coding bootcamp Zürich", "coding classes Geneva", "coding classes Basel", "coding classes Bern", "coding classes Lausanne"]
 source: src/pages/coding-classes-in-switzerland.html
 ---
 > Live online coding, Python & AI classes for kids, teens & adults in Switzerland. 1:1 mentoring, 8 sessions a month across Zurich, Geneva & Basel. USD 100/mo.

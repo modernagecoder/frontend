@@ -2,7 +2,6 @@
 title: "Geometry Tutoring Online (USA) · 1:1 High School Geometry & Proofs — Modern Age Coders"
 description: "Live 1:1 online geometry tutoring for US students. We teach proofs as plain logical reasoning — congruence, similarity, circles, coordinate geometry and trig — so the subject clicks instead of confusing. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/geometry-tutoring-online-usa
-keywords: ["geometry tutoring online", "geometry tutor USA", "high school geometry help", "geometry proofs tutor", "two-column proof help", "congruence similarity tutor", "coordinate geometry help", "circle theorems tutor", "geometry for high school", "online geometry classes", "geometry homework help", "failing geometry"]
 source: src/pages/geometry-tutoring-online-usa.html
 ---
 > Live 1:1 online geometry tutoring for US students. We teach proofs as plain logical reasoning — congruence, similarity, circles, coordinate geometry and trig — so the subject clicks instead of confusing. Mentors in every US time zone. $150/month, 8 classes. Free trial.

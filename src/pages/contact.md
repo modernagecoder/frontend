@@ -2,7 +2,6 @@
 title: "Contact Us - Modern Age Coders | Get in Touch"
 description: "Have questions about coding or math courses? Want a free demo class? Contact Modern Age Coders. We respond within 24 hours. Call, email, or fill out the form."
 canonical: https://learn.modernagecoders.com/contact
-keywords: ["contact modern age coders", "coding course inquiry", "free demo class", "programming school contact", "coding classes near me"]
 source: src/pages/contact.html
 ---
 > Have questions about coding or math courses? Want a free demo class? Contact Modern Age Coders. We respond within 24 hours. Call, email, or fill out the form.

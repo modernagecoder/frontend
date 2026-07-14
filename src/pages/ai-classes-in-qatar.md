@@ -2,7 +2,6 @@
 title: "AI Classes in Qatar | Hands-On AI & ML, Live Online"
 description: "Live online AI classes in Qatar for kids, teens and professionals. Build chatbots, train ML models and work with LLM APIs in small batches. Free demo class."
 canonical: https://learn.modernagecoders.com/ai-classes-in-qatar
-keywords: ["ai classes in qatar", "ai course qatar", "machine learning classes qatar", "ai classes doha", "ai for kids qatar", "learn ai qatar", "artificial intelligence course doha", "generative ai course qatar", "ml training qatar"]
 source: src/pages/ai-classes-in-qatar.html
 ---
 > Live online AI classes in Qatar for kids, teens and professionals. Build chatbots, train ML models and work with LLM APIs in small batches. Free demo class.

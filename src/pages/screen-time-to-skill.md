@@ -2,7 +2,6 @@
 title: "Screen Time to Skill Calculator — Turn Your Child's YouTube Hours into Apps, Code & Income | Modern Age Coders"
 description: "A free, parent-honest calculator that converts the hours your child spends on YouTube, mobile games and Instagram into the apps, Python projects and real income they could be building instead. Used by 18,000+ Indian families. Live in 11 countries."
 canonical: https://learn.modernagecoders.com/screen-time-to-skill
-keywords: ["screen time calculator for kids", "productive screen time", "coding for kids", "reduce mobile addiction in children", "alternative to youtube for kids", "what to do instead of screen time", "screen time to skill", "screen time conversion", "parental control india", "coding classes for screen addicted kids", "modern age coders"]
 source: src/pages/screen-time-to-skill.html
 ---
 > A free, parent-honest calculator that converts the hours your child spends on YouTube, mobile games and Instagram into the apps, Python projects and real income they could be building instead. Used by 18,000+ Indian families. Live in 11 countries.

@@ -2,7 +2,6 @@
 title: "Coding Classes in Andhra Pradesh | Online for Kids, Teens & Adults"
 description: "Live online coding & maths classes in Andhra Pradesh for kids, teens & adults. Python, AI, Java & DSA across Visakhapatnam & Guntur. Rated 4.9/5. Free demo!"
 canonical: https://learn.modernagecoders.com/coding-classes-in-andhra-pradesh
-keywords: ["coding classes in Andhra Pradesh", "online coding classes Andhra Pradesh", "coding classes for kids Andhra Pradesh", "Python classes Andhra Pradesh", "AI course for kids AP", "coding institute Andhra Pradesh", "learn coding AP", "coding classes Visakhapatnam", "coding classes Vijayawada", "coding classes Guntur", "coding classes Tirupati", "AP EAMCET maths coaching"]
 source: src/pages/coding-classes-in-andhra-pradesh.html
 ---
 > Live online coding & maths classes in Andhra Pradesh for kids, teens & adults. Python, AI, Java & DSA across Visakhapatnam & Guntur. Rated 4.9/5. Free demo!

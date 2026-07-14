@@ -2,7 +2,6 @@
 title: "Prompt Engineering Course | Master Prompting for AI & LLMs"
 description: "Prompt engineering course — master prompting for ChatGPT, Claude and other LLMs. Prompt patterns, system prompts, few-shot, chain-of-thought, and building with LLM APIs in Python. Practical and hands-on. Live, small batches. Free demo."
 canonical: https://learn.modernagecoders.com/prompt-engineering-course
-keywords: ["prompt engineering course", "learn prompt engineering", "prompting course", "chatgpt prompt course", "llm prompting", "prompt patterns", "prompt engineering python", "ai prompting course", "master prompts", "prompt engineering india"]
 source: src/pages/prompt-engineering-course.html
 ---
 > Prompt engineering course — master prompting for ChatGPT, Claude and other LLMs. Prompt patterns, system prompts, few-shot, chain-of-thought, and building with LLM APIs in Python. Practical and hands-on. Live, small batches. Free demo.

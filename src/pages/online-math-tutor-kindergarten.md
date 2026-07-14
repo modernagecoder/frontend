@@ -2,7 +2,6 @@
 title: "Online Math Tutor for Kindergarten | Playful, Live 1:1 | Modern Age Coders"
 description: "Live 1:1 kindergarten math tutoring taught the way five-year-olds learn: playful, concrete, segment-built hours covering counting, cardinality, early operations and shapes, with an honest readiness read first. Free demo class."
 canonical: https://learn.modernagecoders.com/online-math-tutor-kindergarten
-keywords: ["online math tutor kindergarten", "kindergarten math tutoring", "math help for 5 year olds", "kindergarten math classes online", "counting help kindergarten", "early math tutor", "math readiness kindergarten", "kindergarten math curriculum help"]
 source: src/pages/online-math-tutor-kindergarten.html
 ---
 > Live 1:1 kindergarten math tutoring taught the way five-year-olds learn: playful, concrete, segment-built hours covering counting, cardinality, early operations and shapes, with an honest readiness read first. Free demo class.

@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Goa | Modern Age Coders"
 description: "Live online coding & maths classes in Goa for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-goa
-keywords: ["best coding classes in Goa", "coding for kids in Goa", "coding for teens in Goa", "programming classes Goa", "coding institute Goa", "online coding classes Goa", "coding classes near me Goa", "Scratch programming Goa", "Python for kids Goa", "web development Goa", "best coding institute in Goa", "Goa Board coding class Goa"]
 source: src/pages/best-coding-class-in-goa.html
 ---
 > Live online coding & maths classes in Goa for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

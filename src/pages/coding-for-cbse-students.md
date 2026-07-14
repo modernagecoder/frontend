@@ -2,7 +2,6 @@
 title: "Coding for CBSE Students — Python, CS & Informatics Practices from Class 6 to 12 | Modern Age Coders"
 description: "Coding classes built for CBSE students. Python-first curriculum aligned to CBSE Code 166, 402, CS and IP syllabus from Class 6 to 12. 1 hour live classes, 1:1 or group."
 canonical: https://learn.modernagecoders.com/coding-for-cbse-students
-keywords: ["coding for cbse students", "cbse coding classes", "cbse python", "cbse class 9 cs", "cbse class 10 ca", "cbse class 11 cs", "cbse class 12 cs", "cbse informatics practices", "cbse code 402", "cbse code 166", "cbse it 402", "cbse board coding"]
 source: src/pages/coding-for-cbse-students.html
 ---
 > Coding classes built for CBSE students. Python-first curriculum aligned to CBSE Code 166, 402, CS and IP syllabus from Class 6 to 12. 1 hour live classes, 1:1 or group.

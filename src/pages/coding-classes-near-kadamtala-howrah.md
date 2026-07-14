@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Kadamtala, Howrah"
 description: "Live online coding & maths classes near Kadamtala, Howrah. Small batches, project-based, taught by engineers. ICSE Java, CBSE Python. From ₹1,499/month."
 canonical: https://learn.modernagecoders.com/coding-classes-near-kadamtala-howrah
-keywords: ["coding classes near Kadamtala Howrah", "coding classes Howrah", "ICSE Java classes Howrah", "CBSE Python classes Howrah", "online coding classes Howrah", "maths tuition Kadamtala", "coding classes near Howrah Station", "BlueJ classes Howrah", "AI ML classes Howrah", "Python classes for kids Howrah", "computer applications ICSE Class 10 Howrah", "online maths tuition Kadamtala"]
 source: src/pages/coding-classes-near-kadamtala-howrah.html
 ---
 > Live online coding & maths classes near Kadamtala, Howrah. Small batches, project-based, taught by engineers. ICSE Java, CBSE Python. From ₹1,499/month.

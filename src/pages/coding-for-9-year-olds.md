@@ -2,7 +2,6 @@
 title: "Coding for 9 Year Olds — Scratch, Python Basics & Game Projects for Kids | Modern Age Coders"
 description: "Live online coding classes for 9 year olds. Scratch games, first Python lines, HTML basics and AI tools — all in 1 hour sessions, 1:1 or small group. Free demo."
 canonical: https://learn.modernagecoders.com/coding-for-9-year-olds
-keywords: ["coding for 9 year olds", "scratch for 9 year old", "coding classes for 9 year olds", "coding for class 4", "python for 9 year olds", "coding for kids", "online coding classes 9 year olds", "kids coding", "game coding for kids", "best coding class 9 year old", "web coding for kids", "coding projects class 4"]
 source: src/pages/coding-for-9-year-olds.html
 ---
 > Live online coding classes for 9 year olds. Scratch games, first Python lines, HTML basics and AI tools — all in 1 hour sessions, 1:1 or small group. Free demo.

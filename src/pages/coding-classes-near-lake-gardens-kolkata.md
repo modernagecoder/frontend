@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Lake Gardens"
 description: "Live online coding & maths classes near Lake Gardens, Kolkata. Python, Java, AI/ML + maths for South Point, Birla High, DPS Ruby Park. Small batches, free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-lake-gardens-kolkata
-keywords: ["coding classes Lake Gardens Kolkata", "coding classes near Lake Gardens", "Python classes Lake Gardens", "Java ICSE coding Lake Gardens", "maths tuition Lake Gardens Kolkata", "online coding classes South Kolkata", "AI ML classes for teens Kolkata", "coding for kids Lake Gardens", "ICSE computer applications Java tuition", "CBSE computer science Python class", "DPS Ruby Park coding classes", "coding classes near Tollygunge Jodhpur Park"]
 source: src/pages/coding-classes-near-lake-gardens-kolkata.html
 ---
 > Live online coding & maths classes near Lake Gardens, Kolkata. Python, Java, AI/ML + maths for South Point, Birla High, DPS Ruby Park. Small batches, free demo.

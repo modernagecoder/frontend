@@ -2,7 +2,6 @@
 title: "Calculus Tutoring Online | Live 1:1 Classes | Modern Age Coders"
 description: "Live 1:1 calculus tutoring: limits, derivatives and integrals taught as ideas before technique, precalculus repaired inline. School, honors, AP and college Calc 1. One-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/calculus-tutoring-online
-keywords: ["calculus tutoring online", "calculus tutor", "calculus help", "derivatives help", "limits help", "integrals help", "chain rule help", "related rates help", "college calculus tutor", "failing calculus"]
 source: src/pages/calculus-tutoring-online.html
 ---
 > Live 1:1 calculus tutoring: limits, derivatives and integrals taught as ideas before technique, precalculus repaired inline. School, honors, AP and college Calc 1. One-hour classes twice a week, free demo.

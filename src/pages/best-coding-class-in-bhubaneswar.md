@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Bhubaneswar | Modern Age Coders"
 description: "Live online coding & maths classes in Bhubaneswar for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-bhubaneswar
-keywords: ["best coding classes in Bhubaneswar", "coding for kids in Bhubaneswar", "coding for teens in Bhubaneswar", "programming classes Bhubaneswar", "coding institute Bhubaneswar", "online coding classes Bhubaneswar", "coding classes near me Bhubaneswar", "Scratch programming Bhubaneswar", "Python for kids Bhubaneswar", "web development Bhubaneswar", "best coding institute in Bhubaneswar", "Odisha Board coding class Bhubaneswar"]
 source: src/pages/best-coding-class-in-bhubaneswar.html
 ---
 > Live online coding & maths classes in Bhubaneswar for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

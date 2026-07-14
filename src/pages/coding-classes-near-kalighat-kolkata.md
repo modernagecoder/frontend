@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Kalighat, Kolkata"
 description: "Live online coding & maths classes near Kalighat — small batches, project-based, taught by full-time engineers. Python, Java, AI/ML. Free demo. From ₹1,499/mo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-kalighat-kolkata
-keywords: ["coding classes near Kalighat", "coding classes Kalighat Kolkata", "online coding classes Kalighat", "Python classes Kalighat", "Java classes ICSE Kolkata", "maths tuition Kalighat", "coding classes Hazra", "coding classes Lake Market", "AI ML classes Kolkata", "ICSE computer applications Kolkata", "online maths tuition Rashbehari", "coding classes Bhowanipore"]
 source: src/pages/coding-classes-near-kalighat-kolkata.html
 ---
 > Live online coding & maths classes near Kalighat — small batches, project-based, taught by full-time engineers. Python, Java, AI/ML. Free demo. From ₹1,499/mo.

@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Dhakuria, Kolkata"
 description: "Live online coding & maths classes near Dhakuria, Kolkata. Python, Java, AI/ML, Scratch + maths. ICSE/CBSE board prep. Small batches from ₹1,499/mo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-dhakuria-kolkata
-keywords: ["coding classes near Dhakuria Kolkata", "online coding Dhakuria", "Python classes Dhakuria", "Java BlueJ ICSE Dhakuria", "AI ML classes Dhakuria", "maths tuition Dhakuria", "coding classes Selimpur", "coding Lake Gardens Jodhpur Park", "Jadavpur University area coding", "St Lawrence South Point coding", "KV Ballygunge DPS Ruby Park coding", "coding classes near Dhakuria Bridge"]
 source: src/pages/coding-classes-near-dhakuria-kolkata.html
 ---
 > Live online coding & maths classes near Dhakuria, Kolkata. Python, Java, AI/ML, Scratch + maths. ICSE/CBSE board prep. Small batches from ₹1,499/mo.

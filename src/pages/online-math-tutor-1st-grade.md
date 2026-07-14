@@ -2,7 +2,6 @@
 title: "Online Math Tutor for 1st Grade | Strategies, Not Drills | Modern Age Coders"
 description: "Live 1:1 first grade math tutoring: counting-on and make-ten built as discoveries, fact fluency through games, place value as real bundles, word problems as stories. One-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/online-math-tutor-1st-grade
-keywords: ["online math tutor 1st grade", "first grade math tutoring", "1st grade math help", "math tutor for 6 year old", "addition subtraction help first grade", "make ten strategy", "math facts fluency first grade"]
 source: src/pages/online-math-tutor-1st-grade.html
 ---
 > Live 1:1 first grade math tutoring: counting-on and make-ten built as discoveries, fact fluency through games, place value as real bundles, word problems as stories. One-hour classes twice a week, free demo.

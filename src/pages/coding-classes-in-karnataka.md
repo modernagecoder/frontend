@@ -2,7 +2,6 @@
 title: "Coding Classes in Karnataka | Online for Kids, Teens & Adults"
 description: "Live online coding & maths classes in Karnataka for kids, teens & adults. Python, AI, Java & DSA across Bengaluru, Mysuru & Mangaluru. Rated 4.9/5. Free demo!"
 canonical: https://learn.modernagecoders.com/coding-classes-in-karnataka
-keywords: ["coding classes in Karnataka", "online coding classes Karnataka", "coding classes for kids Karnataka", "Python classes Karnataka", "AI course for kids Karnataka", "coding institute Karnataka", "learn coding Karnataka", "coding classes Bengaluru", "coding classes Mysuru", "coding classes Mangaluru", "coding classes Hubballi", "KCET maths coaching"]
 source: src/pages/coding-classes-in-karnataka.html
 ---
 > Live online coding & maths classes in Karnataka for kids, teens & adults. Python, AI, Java & DSA across Bengaluru, Mysuru & Mangaluru. Rated 4.9/5. Free demo!

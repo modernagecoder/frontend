@@ -2,7 +2,6 @@
 title: "Coding Classes in Thiruvananthapuram | Modern Age Coders"
 description: "Live online coding & maths classes in Thiruvananthapuram for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-thiruvananthapuram
-keywords: ["best coding classes in Thiruvananthapuram", "coding for kids in Thiruvananthapuram", "coding for teens in Thiruvananthapuram", "programming classes Thiruvananthapuram", "coding institute Thiruvananthapuram", "online coding classes Thiruvananthapuram", "coding classes near me Thiruvananthapuram", "Scratch programming Thiruvananthapuram", "Python for kids Thiruvananthapuram", "web development Thiruvananthapuram", "best coding institute in Thiruvananthapuram", "Kerala Board coding class Thiruvananthapuram"]
 source: src/pages/best-coding-class-in-thiruvananthapuram.html
 ---
 > Live online coding & maths classes in Thiruvananthapuram for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

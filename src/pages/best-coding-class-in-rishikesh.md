@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Rishikesh | Modern Age Coders"
 description: "Live online coding & maths classes in Rishikesh for kids, teens & adults. Python, AI, Vibe Coding, Java & Web Dev, near AIIMS Rishikesh. Rated 4.9/5. Free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-rishikesh
-keywords: ["best coding classes in Rishikesh", "coding classes in Rishikesh", "coding for kids in Rishikesh", "coding for teens in Rishikesh", "programming classes Rishikesh", "coding institute Rishikesh", "online coding classes Rishikesh", "coding classes near me Rishikesh", "Scratch programming Rishikesh", "Python for kids Rishikesh", "web development course Rishikesh", "AI classes Rishikesh"]
 source: src/pages/best-coding-class-in-rishikesh.html
 ---
 > Live online coding & maths classes in Rishikesh for kids, teens & adults. Python, AI, Vibe Coding, Java & Web Dev, near AIIMS Rishikesh. Rated 4.9/5. Free demo!

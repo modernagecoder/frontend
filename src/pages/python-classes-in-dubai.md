@@ -2,7 +2,6 @@
 title: "Python Classes in Dubai | Live Course for Teens & Professionals"
 description: "Live Python classes in Dubai for kids, teens, college students and professionals. Batches of 5 to 8, GST evening slots, real projects. Book a free demo."
 canonical: https://learn.modernagecoders.com/python-classes-in-dubai
-keywords: ["python classes in dubai", "python course dubai", "learn python dubai", "python classes for kids dubai", "python training dubai", "online python classes dubai", "python for teens dubai", "python coaching dubai", "python classes uae"]
 source: src/pages/python-classes-in-dubai.html
 ---
 > Live Python classes in Dubai for kids, teens, college students and professionals. Batches of 5 to 8, GST evening slots, real projects. Book a free demo.

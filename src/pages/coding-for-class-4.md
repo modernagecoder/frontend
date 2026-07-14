@@ -2,7 +2,6 @@
 title: "Coding for Class 4 — Scratch, Block Coding & First Python for 9 Year Olds | Modern Age Coders"
 description: "Live online coding classes for Class 4 students. Scratch games, block coding, first Python lines and AI tools matched to Class 4 ICT syllabus. 1 hour classes."
 canonical: https://learn.modernagecoders.com/coding-for-class-4
-keywords: ["coding for class 4", "class 4 computer syllabus", "scratch for class 4", "coding for 9 year olds", "cbse class 4 computer", "icse class 4 computer", "block coding class 4", "python for class 4", "online coding class 4", "computer classes class 4", "kids coding class 4", "best coding class for class 4"]
 source: src/pages/coding-for-class-4.html
 ---
 > Live online coding classes for Class 4 students. Scratch games, block coding, first Python lines and AI tools matched to Class 4 ICT syllabus. 1 hour classes.

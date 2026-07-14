@@ -2,7 +2,6 @@
 title: "Online Maths Tuition for All Ages | Class 1-12, College & Advanced | Modern Age Coders"
 description: "Expert online maths tuition for students worldwide. Personalized 1-on-1 and group classes for Class 1-12, college maths, and competitive exams. CBSE, ICSE, IB, IGCSE, and international curricula. Book a free demo today."
 canonical: https://learn.modernagecoders.com/online-maths-tuition
-keywords: ["online maths tuition", "online maths classes", "maths tutor online", "maths tuition for class 10", "maths tuition for class 12", "online maths tutoring", "CBSE maths tuition", "ICSE maths tuition", "IB maths tutor", "IGCSE maths tuition", "maths classes for kids", "college maths tuition"]
 source: src/pages/online-maths-tuition.html
 ---
 > Expert online maths tuition for students worldwide. Personalized 1-on-1 and group classes for Class 1-12, college maths, and competitive exams. CBSE, ICSE, IB, IGCSE, and international curricula. Book a free demo today.

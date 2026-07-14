@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Rashbehari"
 description: "Premium live online coding and maths classes near Rashbehari, Kolkata. Small batches, project-based, taught by full-time engineers. Book a free demo today."
 canonical: https://learn.modernagecoders.com/coding-classes-near-rashbehari-kolkata
-keywords: ["coding classes near Rashbehari", "coding classes Rashbehari Kolkata", "maths tuition Rashbehari", "Python classes Rashbehari", "Java classes ICSE Kolkata", "AI ML classes Kolkata", "online coding classes South Kolkata", "Lake Market coding classes", "Deshapriya Park coding tuition", "Sarat Bose Road coding classes", "ICSE computer applications Kolkata", "live online maths tuition Kolkata"]
 source: src/pages/coding-classes-near-rashbehari-kolkata.html
 ---
 > Premium live online coding and maths classes near Rashbehari, Kolkata. Small batches, project-based, taught by full-time engineers. Book a free demo today.

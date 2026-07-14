@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Jodhpur Park, Kolkata"
 description: "Premium live online coding & maths classes near Jodhpur Park, Kolkata. Small batches, Python, Java, AI/ML for ICSE/CBSE/WBBSE. Free demo, no commute."
 canonical: https://learn.modernagecoders.com/coding-classes-near-jodhpur-park-kolkata
-keywords: ["coding classes near Jodhpur Park", "maths tuition Jodhpur Park Kolkata", "online coding classes Kolkata", "Python classes Jodhpur Park", "Java BlueJ ICSE Kolkata", "AI ML classes for teens Kolkata", "coding classes Lake Gardens", "coding classes Dhakuria", "DPS Ruby Park coding", "South Point computer applications", "live online coding Kolkata", "coding classes for kids South Kolkata"]
 source: src/pages/coding-classes-near-jodhpur-park-kolkata.html
 ---
 > Premium live online coding & maths classes near Jodhpur Park, Kolkata. Small batches, Python, Java, AI/ML for ICSE/CBSE/WBBSE. Free demo, no commute.

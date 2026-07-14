@@ -2,7 +2,6 @@
 title: "DSA Course — Build Your Logic with Data Structures & Algorithms | Modern Age Coders"
 description: "A live, in-depth Data Structures & Algorithms (DSA) course for college students and Class 11–12. Build real problem-solving logic from first principles — arrays to dynamic programming and graphs. New batch starts Sunday 12 July, every Sunday 4:30 PM, ₹1499/month, runs until you master DSA. Prerequisite: basic coding in any language."
 canonical: https://learn.modernagecoders.com/data-structures-and-algorithms-course
-keywords: ["DSA course", "data structures and algorithms course", "best DSA course", "DSA course for placements", "learn DSA", "DSA classes online", "DSA for college students", "DSA for class 11 12", "competitive programming course", "coding interview preparation", "Modern Age Coders"]
 source: src/pages/data-structures-and-algorithms-course.html
 ---
 > A live, in-depth Data Structures & Algorithms (DSA) course for college students and Class 11–12. Build real problem-solving logic from first principles — arrays to dynamic programming and graphs. New batch starts Sunday 12 July, every Sunday 4:30 PM, ₹1499/month, runs until you master DSA. Prerequisite: basic coding in any language.

@@ -2,7 +2,6 @@
 title: "AI Agents Explained — How to Actually Build One That Doesn't Hallucinate Itself Into Pieces | Modern Age Coders"
 description: "The honest, vendor-neutral, code-first guide to AI agents. ReAct loop, planning, memory, tool use, evaluation and the architectures that actually work in production. By Modern Age Coders."
 canonical: https://learn.modernagecoders.com/ai-agents-explained
-keywords: ["AI agents explained", "how AI agents work", "build AI agent python", "agentic AI tutorial", "ReAct pattern", "LLM agent architecture", "what is an AI agent", "AI agent tutorial", "autonomous agents", "build your own agent", "langchain alternative", "claude agent"]
 source: src/pages/ai-agents-explained.html
 ---
 > The honest, vendor-neutral, code-first guide to AI agents. ReAct loop, planning, memory, tool use, evaluation and the architectures that actually work in production. By Modern Age Coders.

@@ -2,7 +2,6 @@
 title: "Algebra 2 Tutoring Online | Live 1:1 Classes | Modern Age Coders"
 description: "Live 1:1 Algebra 2 tutoring: function families as one story, logarithms as exponent questions, Algebra 1 repaired inline, SAT connected weekly. One-hour classes twice a week, free demo class."
 canonical: https://learn.modernagecoders.com/algebra-2-tutoring-online
-keywords: ["algebra 2 tutoring online", "algebra 2 tutor", "algebra 2 help", "logarithms help", "quadratic functions help", "rational expressions help", "failing algebra 2", "algebra 2 for SAT", "honors algebra 2 tutor"]
 source: src/pages/algebra-2-tutoring-online.html
 ---
 > Live 1:1 Algebra 2 tutoring: function families as one story, logarithms as exponent questions, Algebra 1 repaired inline, SAT connected weekly. One-hour classes twice a week, free demo class.

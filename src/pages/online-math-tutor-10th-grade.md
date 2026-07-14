@@ -2,7 +2,6 @@
 title: "Online Math Tutor for 10th Grade | Geometry & Proof, Taught Right | Modern Age Coders"
 description: "Live 1:1 tenth grade math tutoring: proofs taught as detective work before notation, right-triangle trig from meaning, algebra kept warm for Algebra 2, and the PSAT framed calmly. One-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/online-math-tutor-10th-grade
-keywords: ["online math tutor 10th grade", "10th grade math help", "geometry tutor 10th grade", "sophomore math tutoring", "geometry proofs help", "failing geometry help", "psat math prep 10th grade"]
 source: src/pages/online-math-tutor-10th-grade.html
 ---
 > Live 1:1 tenth grade math tutoring: proofs taught as detective work before notation, right-triangle trig from meaning, algebra kept warm for Algebra 2, and the PSAT framed calmly. One-hour classes twice a week, free demo.

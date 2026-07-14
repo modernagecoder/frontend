@@ -2,7 +2,6 @@
 title: "Coding for 8 Year Olds — Scratch, Block Coding & Creative Projects for Kids | Modern Age Coders"
 description: "Live online coding classes built for 8 year olds. Scratch Junior, block coding, animated stories and first games. 1 hour sessions, 1:1 or small group. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-for-8-year-olds
-keywords: ["coding for 8 year olds", "scratch for 8 year olds", "block coding for kids", "coding classes for 8 year old", "coding for class 3", "coding for kids", "best coding class for 8 year old", "online coding classes kids", "computer classes for 8 year olds", "scratch junior course", "coding for young children", "introduction to coding for kids"]
 source: src/pages/coding-for-8-year-olds.html
 ---
 > Live online coding classes built for 8 year olds. Scratch Junior, block coding, animated stories and first games. 1 hour sessions, 1:1 or small group. Book a free demo.

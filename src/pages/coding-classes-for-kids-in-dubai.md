@@ -2,7 +2,6 @@
 title: "Coding Classes for Kids in Dubai | Ages 6-12, Live & Online"
 description: "Live online coding classes for kids in Dubai, ages 6 to 12. Batches of 5 to 8, a teacher who knows your child, and projects instead of screen time. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-for-kids-in-dubai
-keywords: ["coding classes for kids in dubai", "kids coding classes dubai", "coding for kids dubai", "online coding classes for kids dubai", "scratch classes dubai", "python for kids dubai", "coding courses for children dubai", "kids programming classes dubai"]
 source: src/pages/coding-classes-for-kids-in-dubai.html
 ---
 > Live online coding classes for kids in Dubai, ages 6 to 12. Batches of 5 to 8, a teacher who knows your child, and projects instead of screen time. Free demo.

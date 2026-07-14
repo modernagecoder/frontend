@@ -2,7 +2,6 @@
 title: "Coding Classes in Dammam & Khobar | Live Online Courses"
 description: "Live online coding classes for Dammam, Khobar and Dhahran families. Python and AI for ages 6 to adult, small evening batches in AST. Start with a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-dammam
-keywords: ["coding classes in dammam", "coding classes in khobar", "coding classes dhahran", "online coding classes dammam", "python classes dammam", "ai classes khobar", "coding for kids dammam", "coding classes eastern province", "programming courses dammam khobar"]
 source: src/pages/coding-classes-in-dammam.html
 ---
 > Live online coding classes for Dammam, Khobar and Dhahran families. Python and AI for ages 6 to adult, small evening batches in AST. Start with a free demo.

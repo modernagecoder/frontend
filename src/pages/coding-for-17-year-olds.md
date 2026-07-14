@@ -2,7 +2,6 @@
 title: "Coding for 17 Year Olds — Class 12 CS, College Prep, Portfolio & DSA | Modern Age Coders"
 description: "Coding for 17 year olds in Class 12. CBSE/ICSE CS and IP, college-ready portfolio, DSA, competitive programming and open-source. 1 hour live classes, 1:1 or group."
 canonical: https://learn.modernagecoders.com/coding-for-17-year-olds
-keywords: ["coding for 17 year olds", "coding for class 12", "cbse cs class 12", "icse cs class 12", "class 12 informatics practices", "college ready portfolio", "dsa for class 12", "competitive programming class 12", "python for class 12", "java for class 12", "college prep coding", "gap year coding"]
 source: src/pages/coding-for-17-year-olds.html
 ---
 > Coding for 17 year olds in Class 12. CBSE/ICSE CS and IP, college-ready portfolio, DSA, competitive programming and open-source. 1 hour live classes, 1:1 or group.

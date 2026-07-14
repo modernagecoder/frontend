@@ -2,7 +2,6 @@
 title: "Learn Coding & Math Online | Courses for Kids, Teens & Adults | Modern Age Coders"
 description: "Ready to learn coding or math? We've got 30+ hands-on courses for every age - from Scratch for kids to AI for college students. Real projects, real skills, real results. Start your journey today!"
 canonical: https://learn.modernagecoders.com/courses
-keywords: ["learn coding online", "coding courses for kids", "python course", "web development course", "math tutoring online", "AI machine learning course", "programming for beginners", "coding bootcamp", "STEM education"]
 source: src/pages/course.html
 ---
 > Ready to learn coding or math? We've got 30+ hands-on courses for every age - from Scratch for kids to AI for college students. Real projects, real skills, real results. Start your journey today!

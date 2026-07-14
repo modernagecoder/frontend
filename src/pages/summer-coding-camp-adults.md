@@ -2,7 +2,6 @@
 title: "Summer Coding Bootcamp for Adults 2026 (18+) | Online Worldwide | Modern Age Coders"
 description: "Summer Coding Bootcamp 2026 for Adults 18+. Master Python, Data Science, AI Integration in 16 live sessions. Career-ready skills, flexible scheduling across time zones!"
 canonical: https://learn.modernagecoders.com/summer-coding-camp-adults
-keywords: ["summer coding bootcamp 2026", "adult coding bootcamp", "summer coding for adults", "coding for adults beginners", "python course", "data science", "AI course", "career change", "summer coding camp online", "Modern Age Coders"]
 source: src/pages/summer-coding-camp-adults.html
 ---
 > Summer Coding Bootcamp 2026 for Adults 18+. Master Python, Data Science, AI Integration in 16 live sessions. Career-ready skills, flexible scheduling across time zones!

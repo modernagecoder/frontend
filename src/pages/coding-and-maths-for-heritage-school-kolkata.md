@@ -2,7 +2,6 @@
 title: "Coding & Maths Classes for Heritage School Students Kolkata | ICSE, IGCSE & IBDP | Modern Age Coders"
 description: "Premium coding & maths classes designed for The Heritage School, Anandapur students in Kolkata. Python, AI, Web Dev & ICSE/IGCSE/IBDP maths — live online, small batches, expert mentors. Serving families near EM Bypass, Ruby Hospital & East Kolkata Township. ₹1499/mo. Book free demo!"
 canonical: https://learn.modernagecoders.com/coding-and-maths-for-heritage-school-kolkata
-keywords: ["coding classes for Heritage School students Kolkata", "maths tuition Heritage School Anandapur", "Python classes near Heritage School Kolkata", "coding classes Anandapur Kolkata", "coding classes East Kolkata Township", "ICSE maths tuition Heritage School", "IGCSE computer science coaching Kolkata", "IBDP maths Heritage School", "after school coding Heritage School Kolkata", "coding classes near EM Bypass Kolkata", "Python course near Ruby Hospital Kolkata", "coding classes Kasba Kolkata"]
 source: src/pages/coding-and-maths-for-heritage-school-kolkata.html
 ---
 > Premium coding & maths classes designed for The Heritage School, Anandapur students in Kolkata. Python, AI, Web Dev & ICSE/IGCSE/IBDP maths — live online, small batches, expert mentors. Serving families near EM Bypass, Ruby Hospital & East Kolkata Township. ₹1499/mo. Book free demo!

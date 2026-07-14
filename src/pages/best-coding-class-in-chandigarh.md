@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Chandigarh | Modern Age Coders"
 description: "Live online coding & maths classes in Chandigarh for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-chandigarh
-keywords: ["best coding classes in Chandigarh", "coding for kids in Chandigarh", "coding for teens in Chandigarh", "programming classes Chandigarh", "coding institute Chandigarh", "online coding classes Chandigarh", "coding classes near me Chandigarh", "Scratch programming Chandigarh", "Python for kids Chandigarh", "web development Chandigarh", "best coding institute in Chandigarh", "computer classes for kids Chandigarh"]
 source: src/pages/best-coding-class-in-chandigarh.html
 ---
 > Live online coding & maths classes in Chandigarh for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

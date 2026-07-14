@@ -2,7 +2,6 @@
 title: "Data Science Course | Learn Data Science with Python Online (India)"
 description: "Become a data scientist. Live online Data Science course in Python — pandas, NumPy, data cleaning, exploratory analysis, visualisation, statistics and machine learning. Build real data projects. Small batches, free demo."
 canonical: https://learn.modernagecoders.com/data-science-course
-keywords: ["data science course", "learn data science", "data science with python", "data science online course India", "pandas course", "data analysis course", "data science for beginners", "data scientist course", "data science training", "python data science"]
 source: src/pages/data-science-course.html
 ---
 > Become a data scientist. Live online Data Science course in Python — pandas, NumPy, data cleaning, exploratory analysis, visualisation, statistics and machine learning. Build real data projects. Small batches, free demo.

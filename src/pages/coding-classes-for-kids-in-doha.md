@@ -2,7 +2,6 @@
 title: "Coding Classes for Kids in Doha | Ages 6-12, Live & Online"
 description: "Live online coding classes for kids in Doha, ages 6 to 12. Gentle groups of 5 to 8, real Python and AI projects, evening AST slots. Free demo class first."
 canonical: https://learn.modernagecoders.com/coding-classes-for-kids-in-doha
-keywords: ["coding classes for kids in doha", "kids coding classes doha", "coding for children doha", "online coding for kids qatar", "python for kids doha", "coding classes for 6 year olds doha", "kids programming classes doha", "coding academy for kids doha"]
 source: src/pages/coding-classes-for-kids-in-doha.html
 ---
 > Live online coding classes for kids in Doha, ages 6 to 12. Gentle groups of 5 to 8, real Python and AI projects, evening AST slots. Free demo class first.

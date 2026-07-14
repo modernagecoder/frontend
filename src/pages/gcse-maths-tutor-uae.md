@@ -2,7 +2,6 @@
 title: "GCSE Maths Tutor in the UAE · 1:1 Online IGCSE & GCSE — AQA, Edexcel, OCR, CIE — Modern Age Coders"
 description: "Live 1:1 online GCSE & IGCSE maths tutoring for British-curriculum students in the UAE — AQA, Edexcel, OCR and Cambridge (CIE), foundation and higher. We teach reasoning, then drill past papers and method marks. Gulf Standard Time. USD 150/month (about AED 550). Free trial."
 canonical: https://learn.modernagecoders.com/gcse-maths-tutor-uae
-keywords: ["GCSE maths tutor UAE", "IGCSE maths tutor Dubai", "GCSE maths tuition UAE", "IGCSE maths tutor UAE", "Edexcel IGCSE maths UAE", "Cambridge IGCSE maths tutor", "GCSE maths tutor Abu Dhabi", "British curriculum maths tutor UAE", "online GCSE maths UAE", "higher tier GCSE maths UAE"]
 source: src/pages/gcse-maths-tutor-uae.html
 ---
 > Live 1:1 online GCSE & IGCSE maths tutoring for British-curriculum students in the UAE — AQA, Edexcel, OCR and Cambridge (CIE), foundation and higher. We teach reasoning, then drill past papers and method marks. Gulf Standard Time. USD 150/month (about AED 550). Free trial.

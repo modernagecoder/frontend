@@ -2,7 +2,6 @@
 title: "Hackathon 1.0 Guide — How It Works, 3 Rounds, Rules & What to Build | Modern Age Coders"
 description: "The complete participant guide to Modern Age Coders Hackathon 1.0. Understand exactly how the hackathon works — all 3 rounds (idea pitch, 48-hour build sprint, grand finale), what to build, submission rules, judging criteria, allowed AI tools, eligibility, prizes and the full timeline. Everything a participant needs, explained step by step."
 canonical: https://learn.modernagecoders.com/hackathon-guide
-keywords: ["hackathon guide", "how does a hackathon work", "hackathon rules", "hackathon rounds explained", "what to build in a hackathon", "hackathon judging criteria", "hackathon submission requirements", "online hackathon 2026", "AI hackathon rules", "Modern Age Coders Hackathon", "hackathon for beginners guide", "hackathon step by step"]
 source: src/pages/hackathon-guide.html
 ---
 > The complete participant guide to Modern Age Coders Hackathon 1.0. Understand exactly how the hackathon works — all 3 rounds (idea pitch, 48-hour build sprint, grand finale), what to build, submission rules, judging criteria, allowed AI tools, eligibility, prizes and the full timeline. Everything a participant needs, explained step by step.

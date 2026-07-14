@@ -2,7 +2,6 @@
 title: "Online Coding & AI Classes in Australia | ATAR Ready"
 description: "Live 1:1 online coding, Python & AI mentorship for students across Australia. Aligned with NSW HSC, VIC VCE & QCE. USD 100 (≈ AUD 152) a month. Free trial."
 canonical: https://learn.modernagecoders.com/coding-classes-in-australia
-keywords: ["coding classes Australia", "online coding classes Australia", "coding classes Sydney", "coding classes Melbourne", "coding classes Brisbane", "coding classes Perth", "coding classes Adelaide", "coding classes Canberra", "Python tutor Sydney", "Python tutor Melbourne", "AI course Australia", "agentic AI Australia"]
 source: src/pages/coding-classes-in-australia.html
 ---
 > Live 1:1 online coding, Python & AI mentorship for students across Australia. Aligned with NSW HSC, VIC VCE & QCE. USD 100 (≈ AUD 152) a month. Free trial.

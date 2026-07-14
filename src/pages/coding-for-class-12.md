@@ -2,7 +2,6 @@
 title: "Coding for Class 12 — Board CS, College-Ready Portfolio, DSA & Competitive Programming | Modern Age Coders"
 description: "Coding for Class 12 board students. CBSE/ICSE CS and IP alignment, one serious portfolio project, DSA, competitive programming and first-year college head start."
 canonical: https://learn.modernagecoders.com/coding-for-class-12
-keywords: ["coding for class 12", "cbse class 12 cs", "icse class 12 cs", "class 12 informatics practices", "class 12 board coding", "college ready portfolio", "dsa class 12", "competitive programming class 12", "python class 12", "java class 12", "class 12 cs project", "coding for 17 year olds"]
 source: src/pages/coding-for-class-12.html
 ---
 > Coding for Class 12 board students. CBSE/ICSE CS and IP alignment, one serious portfolio project, DSA, competitive programming and first-year college head start.

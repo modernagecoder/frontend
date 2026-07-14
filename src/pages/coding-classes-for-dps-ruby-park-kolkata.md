@@ -2,7 +2,6 @@
 title: "Coding Classes for DPS Ruby Park Students Students | Python, Maths & CBSE | Modern Age Coders"
 description: "Best coding classes for DPS Ruby Park Students students in Kolkata. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near Kasba. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!"
 canonical: https://learn.modernagecoders.com/coding-classes-for-dps-ruby-park-kolkata
-keywords: ["coding classes for DPS Ruby Park Students students", "coding classes near Ruby Park Kolkata", "Python course near DPS Ruby Park Students Kolkata", "after school coding DPS Ruby Park Students", "maths tuition for DPS Ruby Park Students Kolkata", "DPS Ruby Park Students coding", "CBSE coding classes Kolkata", "coding classes near me Kolkata", "online coding classes for kids Kolkata", "best coding institute Kolkata", "Java classes for CBSE students Kolkata", "AI classes for school students Kolkata"]
 source: src/pages/coding-classes-for-dps-ruby-park-kolkata.html
 ---
 > Best coding classes for DPS Ruby Park Students students in Kolkata. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near Kasba. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!

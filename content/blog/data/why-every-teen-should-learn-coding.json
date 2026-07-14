@@ -255,7 +255,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Every big project starts small. The key is starting. Check out our <a href='/courses/frontend-web-development-complete-masterclass-teens'>Frontend Development course</a> or <a href='/courses/complete-app-development-masterclass-for-teens'>App Development course</a> to begin building real projects."
+        "text": "Every big project starts small. The key is starting. Check out our <a href='/courses/frontend-development-masterclass-for-teens'>Frontend Development course</a> or <a href='/courses/complete-app-development-masterclass-for-teens'>App Development course</a> to begin building real projects."
       },
       {
         "type": "heading",
@@ -510,7 +510,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Want to build websites?</strong> Start with <a href='/courses/frontend-web-development-complete-masterclass-teens'>HTML, CSS, and JavaScript</a>",
+          "<strong>Want to build websites?</strong> Start with <a href='/courses/frontend-development-masterclass-for-teens'>HTML, CSS, and JavaScript</a>",
           "<strong>Interested in apps?</strong> Try <a href='/courses/complete-app-development-masterclass-for-teens'>mobile app development</a> or Flutter",
           "<strong>Love games?</strong> Learn <a href='/courses/python-complete-masterclass-teens'>Python</a> with Pygame or try Unity with C#",
           "<strong>Curious about AI?</strong> <a href='/courses/python-complete-masterclass-teens'>Python</a> is your best friend",

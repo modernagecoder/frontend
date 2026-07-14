@@ -2,7 +2,6 @@
 title: "Inside Neural Networks — How Deep Learning Really Works, From Perceptron to Transformer | Modern Age Coders"
 description: "The honest, mechanical deep dive into how neural networks learn. Perceptrons, multilayer networks, backpropagation derived by hand, CNNs, RNNs and transformers — explained without hiding the maths. By Modern Age Coders."
 canonical: https://learn.modernagecoders.com/inside-neural-networks
-keywords: ["how neural networks work", "deep learning explained", "backpropagation explained", "neural network from scratch", "perceptron explained", "CNN explained", "RNN explained", "gradient descent", "how does deep learning work", "neural network maths", "neural network learning", "modern age coders"]
 source: src/pages/inside-neural-networks.html
 ---
 > The honest, mechanical deep dive into how neural networks learn. Perceptrons, multilayer networks, backpropagation derived by hand, CNNs, RNNs and transformers — explained without hiding the maths. By Modern Age Coders.

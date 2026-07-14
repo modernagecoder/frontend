@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Palakkad | Modern Age Coders"
 description: "Coding classes in Palakkad for kids, teens & adults. Live online Python, AI, Java, Web Dev & JEE/NEET-aligned logic. Rated 4.9/5. Book a free demo today!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-palakkad
-keywords: ["best coding classes in Palakkad", "coding classes in Palakkad", "coding for kids in Palakkad", "coding for teens in Palakkad", "programming classes Palakkad", "coding institute Palakkad", "online coding classes Palakkad", "coding classes near me Palakkad", "Scratch programming Palakkad", "Python for kids Palakkad", "web development course Palakkad", "best coding institute in Palakkad"]
 source: src/pages/best-coding-class-in-palakkad.html
 ---
 > Coding classes in Palakkad for kids, teens & adults. Live online Python, AI, Java, Web Dev & JEE/NEET-aligned logic. Rated 4.9/5. Book a free demo today!

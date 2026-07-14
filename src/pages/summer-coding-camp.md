@@ -2,7 +2,6 @@
 title: "Summer Coding Camp 2026 | Modern Age Coders"
 description: "Summer Coding Camp 2026 for Kids, Teens, and Adults. 16 Classes, 5 Projects. Python, AI, Game Dev, Web Development. ₹4,999 only. Enroll Now!"
 canonical: https://learn.modernagecoders.com/summer-coding-camp
-keywords: ["summer coding camp", "coding bootcamp", "python course", "AI course", "kids coding", "teen coding", "web development", "Modern Age Coders"]
 source: src/pages/summer-coding-camp.html
 ---
 > Summer Coding Camp 2026 for Kids, Teens, and Adults. 16 Classes, 5 Projects. Python, AI, Game Dev, Web Development. ₹4,999 only. Enroll Now!

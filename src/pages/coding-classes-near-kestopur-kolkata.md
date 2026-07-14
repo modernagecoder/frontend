@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Kestopur, Kolkata"
 description: "Premium live online coding & maths for Kestopur families. Small batches, ICSE Java + CBSE Python + AI/ML, real engineers — no canal-bridge commute. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-kestopur-kolkata
-keywords: ["coding classes Kestopur", "coding classes near Kestopur Kolkata", "maths tuition Kestopur", "Python classes Kestopur", "Java classes Krishnapur", "ICSE computer applications Kestopur", "CBSE computer science Baguiati", "AI ML classes for teens Kolkata", "online coding classes Prafulla Kanan", "kids coding VIP Road", "coding classes near New Town fringe", "live online coding Kolkata"]
 source: src/pages/coding-classes-near-kestopur-kolkata.html
 ---
 > Premium live online coding & maths for Kestopur families. Small batches, ICSE Java + CBSE Python + AI/ML, real engineers — no canal-bridge commute. Free demo.

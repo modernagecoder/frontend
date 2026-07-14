@@ -2,7 +2,6 @@
 title: "Coding & Maths Classes for Birla High School Students Kolkata | CBSE Python, AI & JEE Maths | Modern Age Coders"
 description: "Premium coding & maths classes for Birla High School (BHS) students in Kolkata. CBSE-aligned Python, AI, Web Dev & board maths — live online, small batches near Elgin Road & Bhowanipore. CBSE CS practical prep, JEE Maths foundation. From ₹1499/mo. Book free demo!"
 canonical: https://learn.modernagecoders.com/coding-and-maths-for-birla-high-school-kolkata
-keywords: ["coding classes for Birla High School students Kolkata", "maths tuition Birla High School Kolkata", "Python classes near BHS Kolkata", "coding classes Elgin Road Kolkata", "coding classes Bhowanipore Kolkata", "CBSE computer science tuition Kolkata", "after school coding Birla High School", "Python coaching CBSE class 12 Kolkata", "CBSE maths tuition Elgin Kolkata", "coding classes near Moira Street Kolkata", "maths classes Ballygunge Kolkata", "coding classes Alipore Kolkata"]
 source: src/pages/coding-and-maths-for-birla-high-school-kolkata.html
 ---
 > Premium coding & maths classes for Birla High School (BHS) students in Kolkata. CBSE-aligned Python, AI, Web Dev & board maths — live online, small batches near Elgin Road & Bhowanipore. CBSE CS practical prep, JEE Maths foundation. From ₹1499/mo. Book free demo!

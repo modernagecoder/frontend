@@ -2,7 +2,6 @@
 title: "How to Start Coding: Which Language First & The Full Roadmap (Ages 6–65) | Modern Age Coders"
 description: "Don't know where to start coding? Here's the real, age-by-age roadmap we actually teach — block coding and Scratch for young kids, then HTML, CSS, JavaScript, Python, data science, backend, DSA for placements and app development. Which language to learn first, why, and how. Live classes, ages 6 to 65."
 canonical: https://learn.modernagecoders.com/coding-roadmap
-keywords: ["how to start coding", "which coding language should i learn first", "coding roadmap", "best first programming language", "learn coding for beginners", "block coding for kids", "scratch", "HTML CSS JavaScript", "learn python", "data science roadmap", "DSA for placements", "app development"]
 source: src/pages/coding-roadmap.html
 ---
 > Don't know where to start coding? Here's the real, age-by-age roadmap we actually teach — block coding and Scratch for young kids, then HTML, CSS, JavaScript, Python, data science, backend, DSA for placements and app development. Which language to learn first, why, and how. Live classes, ages 6 to 65.

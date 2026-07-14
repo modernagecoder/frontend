@@ -2,7 +2,6 @@
 title: "IGCSE Maths Tuition Online | Core, Extended & 0606 | Modern Age Coders"
 description: "Live 1:1 IGCSE maths tuition matched to your board and tier: Cambridge 0580/0980 Core or Extended, Additional Maths 0606, Edexcel. Non-calculator fluency, mark-scheme technique. One-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/igcse-maths-tuition-online
-keywords: ["igcse maths tuition online", "igcse maths tutor", "cambridge 0580 tutor", "igcse extended maths help", "igcse core vs extended", "additional mathematics 0606 tutor", "edexcel international gcse maths", "igcse non calculator paper", "igcse past papers help"]
 source: src/pages/igcse-maths-tuition-online.html
 ---
 > Live 1:1 IGCSE maths tuition matched to your board and tier: Cambridge 0580/0980 Core or Extended, Additional Maths 0606, Edexcel. Non-calculator fluency, mark-scheme technique. One-hour classes twice a week, free demo.

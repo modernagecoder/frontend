@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Mandirtala, Howrah"
 description: "Live online coding & maths classes near Mandirtala, Howrah. Small batches, full-time engineers, Python, Java, AI/ML. ICSE/CBSE/WBBSE. Free demo class."
 canonical: https://learn.modernagecoders.com/coding-classes-near-mandirtala-howrah
-keywords: ["coding classes near Mandirtala Howrah", "maths tuition Mandirtala", "Python classes Shibpur Howrah", "Java BlueJ ICSE Howrah", "online coding classes Howrah", "AI ML classes for teens Howrah", "CBSE computer science Class 11 12", "ICSE computer applications Class 10", "coding classes for kids Howrah", "live online coding Shibpur", "maths tuition Class 10 Howrah", "coding classes near IIEST Shibpur"]
 source: src/pages/coding-classes-near-mandirtala-howrah.html
 ---
 > Live online coding & maths classes near Mandirtala, Howrah. Small batches, full-time engineers, Python, Java, AI/ML. ICSE/CBSE/WBBSE. Free demo class.

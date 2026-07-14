@@ -2,7 +2,6 @@
 title: "NumPy, Pandas & Matplotlib Masterclass — Python Data Analysis in Depth | Modern Age Coders"
 description: "Master data analysis in Python the deep way: NumPy, Pandas and Matplotlib taught with the maths underneath and how each library is built, not just the API. 24 live, project-based classes for teens, college and professionals. Stage 2 of a 3-stage Python-to-AI path. Free demo."
 canonical: https://learn.modernagecoders.com/numpy-pandas-matplotlib-masterclass
-keywords: ["numpy pandas matplotlib course", "python data analysis in depth", "learn numpy pandas matplotlib", "data analysis with python", "pandas masterclass", "numpy masterclass", "matplotlib course", "python for data analysis", "maths behind pandas and numpy", "data analysis course online", "learn data analysis 2026", "why learn data analysis when AI exists"]
 source: src/pages/numpy-pandas-matplotlib-masterclass.html
 ---
 > Master data analysis in Python the deep way: NumPy, Pandas and Matplotlib taught with the maths underneath and how each library is built, not just the API. 24 live, project-based classes for teens, college and professionals. Stage 2 of a 3-stage Python-to-AI path. Free demo.

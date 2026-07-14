@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Berhampur | Modern Age Coders"
 description: "Live online coding & maths classes in Berhampur for kids, teens & adults. Python, AI, Java & Web Dev in Odisha's Silk City. Rated 4.9/5. Book a free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-berhampur
-keywords: ["best coding classes in Berhampur", "coding classes in Berhampur", "coding classes in Brahmapur", "coding for kids in Berhampur", "coding for teens in Berhampur", "programming classes Berhampur", "coding institute Berhampur", "online coding classes Berhampur", "coding classes near me Berhampur", "Scratch programming Berhampur", "Python for kids Berhampur", "web development course Berhampur"]
 source: src/pages/best-coding-class-in-berhampur.html
 ---
 > Live online coding & maths classes in Berhampur for kids, teens & adults. Python, AI, Java & Web Dev in Odisha's Silk City. Rated 4.9/5. Book a free demo!

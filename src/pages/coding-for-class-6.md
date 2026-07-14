@@ -2,7 +2,6 @@
 title: "Coding for Class 6 — Python, HTML/CSS & AI Projects Matched to CBSE/ICSE Syllabus | Modern Age Coders"
 description: "Live online coding for Class 6 students. Python fluency, HTML/CSS deployed websites, AI Teachable Machine, matched to CBSE Class 6 Code 166 and ICSE ICT syllabus."
 canonical: https://learn.modernagecoders.com/coding-for-class-6
-keywords: ["coding for class 6", "class 6 cbse coding", "class 6 icse computer", "python for class 6", "html css class 6", "ai projects class 6", "coding class 6 online", "cbse 166 class 6", "icse ict class 6", "coding for 11 year olds", "best coding class for class 6", "computer class 6 online"]
 source: src/pages/coding-for-class-6.html
 ---
 > Live online coding for Class 6 students. Python fluency, HTML/CSS deployed websites, AI Teachable Machine, matched to CBSE Class 6 Code 166 and ICSE ICT syllabus.

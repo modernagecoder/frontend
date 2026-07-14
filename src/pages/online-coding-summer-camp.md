@@ -2,7 +2,6 @@
 title: "Online Coding Summer Camp | Ages 6-16, Live Mentors | Modern Age Coders"
 description: "A live online coding summer camp for ages 6-16: four tracks from Scratch to Python and AI, 8 one-hour mentor-led classes a month, one shipped project, vacation-proof scheduling. From $40/month while US day camps run $300-$500 a week. Free demo."
 canonical: https://learn.modernagecoders.com/online-coding-summer-camp
-keywords: ["online coding summer camp", "virtual coding camp for kids", "summer coding classes online", "kids coding camp online", "scratch summer camp", "python summer camp kids", "online tech camp", "coding camp for teens online", "summer stem program online"]
 source: src/pages/online-coding-summer-camp.html
 ---
 > A live online coding summer camp for ages 6-16: four tracks from Scratch to Python and AI, 8 one-hour mentor-led classes a month, one shipped project, vacation-proof scheduling. From $40/month while US day camps run $300-$500 a week. Free demo.

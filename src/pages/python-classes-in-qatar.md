@@ -2,7 +2,6 @@
 title: "Python Classes in Qatar | Live Online Course for All Levels"
 description: "Live online Python classes in Qatar for kids, teens, college students and professionals. From first syntax to automation and AI libraries. Free demo class."
 canonical: https://learn.modernagecoders.com/python-classes-in-qatar
-keywords: ["python classes in qatar", "python course qatar", "learn python doha", "python classes doha", "python for kids qatar", "python training qatar", "online python course qatar", "python programming classes qatar", "python coaching qatar"]
 source: src/pages/python-classes-in-qatar.html
 ---
 > Live online Python classes in Qatar for kids, teens, college students and professionals. From first syntax to automation and AI libraries. Free demo class.

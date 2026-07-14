@@ -2,7 +2,6 @@
 title: "Coding Classes in Jeddah | Live Coding for Kids, Teens & Adults"
 description: "Live online coding classes in Jeddah for kids, teens and adults. Python and AI tracks in groups of 5 to 8, evening AST slots, no crossing the city. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-jeddah
-keywords: ["coding classes in jeddah", "online coding classes jeddah", "python classes jeddah", "ai classes jeddah", "coding for kids jeddah", "coding classes for teens jeddah", "learn to code jeddah", "programming courses jeddah", "coding classes for adults jeddah"]
 source: src/pages/coding-classes-in-jeddah.html
 ---
 > Live online coding classes in Jeddah for kids, teens and adults. Python and AI tracks in groups of 5 to 8, evening AST slots, no crossing the city. Free demo.

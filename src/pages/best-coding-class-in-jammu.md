@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Jammu | Modern Age Coders"
 description: "Live online coding & maths classes in Jammu for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-jammu
-keywords: ["best coding classes in Jammu", "coding classes in Jammu", "coding for kids in Jammu", "coding for teens in Jammu", "programming classes Jammu", "coding institute Jammu", "online coding classes Jammu", "coding classes near me Jammu", "Scratch programming Jammu", "Python for kids Jammu", "web development course Jammu", "best coding institute in Jammu"]
 source: src/pages/best-coding-class-in-jammu.html
 ---
 > Live online coding & maths classes in Jammu for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic. Rated 4.9/5. Book a free demo!

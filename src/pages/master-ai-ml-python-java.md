@@ -2,7 +2,6 @@
 title: "Master AI, ML, Python & Java — Go Deeper | Modern Age Coders"
 description: "Master Python, Java, AI and machine learning the deep way. Modern Age Coders runs live, small-batch tracks that build real engineering ability — from Python internals and the maths behind ML to Java systems, DSA and production AI. Ages 13 to 65, 15+ countries. Browse the tracks. Free demo."
 canonical: https://learn.modernagecoders.com/master-ai-ml-python-java
-keywords: ["master python", "learn java deeply", "AI ML course", "machine learning course online", "deep python course", "advanced java classes", "learn ai and ml", "python java ai ml course", "best online ai ml classes", "data science course", "deep coding tracks", "deep learning course"]
 source: src/pages/master-ai-ml-python-java.html
 ---
 > Master Python, Java, AI and machine learning the deep way. Modern Age Coders runs live, small-batch tracks that build real engineering ability — from Python internals and the maths behind ML to Java systems, DSA and production AI. Ages 13 to 65, 15+ countries. Browse the tracks. Free demo.

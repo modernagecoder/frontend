@@ -2,7 +2,6 @@
 title: "IB Maths Tuition Online | AA & AI, SL & HL | Modern Age Coders"
 description: "Live 1:1 IB maths tuition matched to your exact course: AA or AI, SL or HL. Paper-specific technique, GDC fluency, honest IA coaching within IB integrity rules, MYP gap repair. One-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/ib-maths-tuition-online
-keywords: ["ib maths tuition online", "ib maths tutor", "ib math aa tutor", "ib math ai tutor", "ib maths hl help", "ib maths sl tutor", "ib ia maths help", "ib mathematical exploration help", "myp maths tutor", "ib paper 1 practice"]
 source: src/pages/ib-maths-tuition-online.html
 ---
 > Live 1:1 IB maths tuition matched to your exact course: AA or AI, SL or HL. Paper-specific technique, GDC fluency, honest IA coaching within IB integrity rules, MYP gap repair. One-hour classes twice a week, free demo.

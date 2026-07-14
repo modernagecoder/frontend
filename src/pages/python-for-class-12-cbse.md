@@ -2,7 +2,6 @@
 title: "Python for Class 12 CBSE Board Exam — Full Syllabus, Project, SQL, Sample Papers | Modern Age Coders"
 description: "CBSE Class 12 Python board-exam tuition. Full CS 083 syllabus — Python data structures, file handling, SQL, networks — plus project and viva prep. Live 1 hour classes."
 canonical: https://learn.modernagecoders.com/python-for-class-12-cbse
-keywords: ["python for class 12 cbse", "python for class 12 cbse board exam", "cbse class 12 python", "cs 083 class 12", "class 12 python ncert", "class 12 python data structures", "python class 12 sql", "class 12 python file handling", "class 12 python sample papers", "cbse class 12 python project", "python class 12 board tuition", "class 12 python online"]
 source: src/pages/python-for-class-12-cbse.html
 ---
 > CBSE Class 12 Python board-exam tuition. Full CS 083 syllabus — Python data structures, file handling, SQL, networks — plus project and viva prep. Live 1 hour classes.

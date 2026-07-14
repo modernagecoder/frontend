@@ -2,7 +2,6 @@
 title: "Coding for 15 Year Olds — Full Stack, AI/ML & DSA for Class 10 Board Year | Modern Age Coders"
 description: "Coding for 15 year olds in Class 10. Full stack web, AI/ML projects, DSA and competitive programming — without hurting board preparation. 1 hour live classes."
 canonical: https://learn.modernagecoders.com/coding-for-15-year-olds
-keywords: ["coding for 15 year olds", "coding for class 10", "cbse class 10 cs", "icse class 10 computer", "python for class 10", "java for class 10", "board year coding", "dsa for 15 year olds", "mern for teens", "ai ml for 15 year olds", "competitive programming teens", "teen portfolio"]
 source: src/pages/coding-for-15-year-olds.html
 ---
 > Coding for 15 year olds in Class 10. Full stack web, AI/ML projects, DSA and competitive programming — without hurting board preparation. 1 hour live classes.

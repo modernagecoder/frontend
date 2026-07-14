@@ -2,7 +2,6 @@
 title: "Python for Class 7 — OOP Basics, Pygame, First sklearn for Age 12 Students | Modern Age Coders"
 description: "Python for Class 7 students. OOP basics, Pygame games, sklearn with CSV datasets, matplotlib charts. CBSE/ICSE Class 7 aligned. 1 hour live classes."
 canonical: https://learn.modernagecoders.com/python-for-class-7
-keywords: ["python for class 7", "class 7 python cbse", "python class 7 icse", "python for 12 year olds", "python oop class 7", "python pygame class 7", "class 7 python project", "python sklearn class 7", "python for class 7 online", "best python class 7", "python matplotlib class 7", "cbse class 7 python"]
 source: src/pages/python-for-class-7.html
 ---
 > Python for Class 7 students. OOP basics, Pygame games, sklearn with CSV datasets, matplotlib charts. CBSE/ICSE Class 7 aligned. 1 hour live classes.

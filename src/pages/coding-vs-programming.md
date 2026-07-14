@@ -2,7 +2,6 @@
 title: "Coding vs Programming: The Real Difference & How We Build Programmers | Modern Age Coders"
 description: "Coding is typing syntax. Programming is thinking. Learn the real difference between coding and programming, and how Modern Age Coders builds genuine programming ability, problem-solving and engineering judgment in Python, Java, C++, DSA and AI. Live small-batch classes, ages 10 to 65. Free demo."
 canonical: https://learn.modernagecoders.com/coding-vs-programming
-keywords: ["coding vs programming", "difference between coding and programming", "learn programming not just coding", "how to think like a programmer", "develop programming ability", "programming mindset", "problem solving for programmers", "coding vs software engineering", "learn to think in code", "is coding still worth it with AI", "will AI replace programmers", "coding skills AI cannot replace"]
 source: src/pages/coding-vs-programming.html
 ---
 > Coding is typing syntax. Programming is thinking. Learn the real difference between coding and programming, and how Modern Age Coders builds genuine programming ability, problem-solving and engineering judgment in Python, Java, C++, DSA and AI. Live small-batch classes, ages 10 to 65. Free demo.

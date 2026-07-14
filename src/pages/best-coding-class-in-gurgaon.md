@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Gurgaon | Modern Age Coders"
 description: "Live online coding & maths classes in Gurgaon for kids, teens & adults. Python, AI, Java, Web Dev & JEE logic across Cyber City & DLF. Rated 4.9/5. Free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-gurgaon
-keywords: ["best coding classes in Gurgaon", "coding classes in Gurgaon", "coding classes in Gurugram", "coding for kids in Gurgaon", "coding for teens in Gurgaon", "programming classes Gurgaon", "coding institute Gurgaon", "online coding classes Gurgaon", "coding classes near me Gurgaon", "Scratch programming Gurgaon", "Python for kids Gurgaon", "web development course Gurgaon"]
 source: src/pages/best-coding-class-in-gurgaon.html
 ---
 > Live online coding & maths classes in Gurgaon for kids, teens & adults. Python, AI, Java, Web Dev & JEE logic across Cyber City & DLF. Rated 4.9/5. Free demo!

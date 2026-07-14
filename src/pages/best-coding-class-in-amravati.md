@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Amravati | Modern Age Coders"
 description: "Live online coding & maths classes in Amravati for kids, teens & adults. Python, AI, Java & Web Dev with MHT-CET/JEE logic. Rated 4.9/5. Book a free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-amravati
-keywords: ["best coding classes in Amravati", "coding classes in Amravati", "coding for kids in Amravati", "coding for teens in Amravati", "programming classes Amravati", "coding institute Amravati", "online coding classes Amravati", "coding classes near me Amravati", "Scratch programming Amravati", "Python for kids Amravati", "web development course Amravati", "best coding institute in Amravati"]
 source: src/pages/best-coding-class-in-amravati.html
 ---
 > Live online coding & maths classes in Amravati for kids, teens & adults. Python, AI, Java & Web Dev with MHT-CET/JEE logic. Rated 4.9/5. Book a free demo!

@@ -2,7 +2,6 @@
 title: "Coding Classes for Kids in Riyadh | Ages 6-12, Live Online"
 description: "Riyadh parents: live online coding classes for children aged 6 to 12. Scratch into Python, batches of 5 to 8, progress notes you can read. Free demo class."
 canonical: https://learn.modernagecoders.com/coding-classes-for-kids-in-riyadh
-keywords: ["coding classes for kids in riyadh", "kids coding classes riyadh", "coding for kids riyadh", "online coding classes for kids riyadh", "scratch classes riyadh", "python for kids riyadh", "coding for children riyadh", "kids programming classes riyadh"]
 source: src/pages/coding-classes-for-kids-in-riyadh.html
 ---
 > Riyadh parents: live online coding classes for children aged 6 to 12. Scratch into Python, batches of 5 to 8, progress notes you can read. Free demo class.

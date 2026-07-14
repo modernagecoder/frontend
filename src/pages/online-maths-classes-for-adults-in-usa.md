@@ -2,7 +2,6 @@
 title: "Online Maths Classes for Adults in the USA · 1:1 Math for Work, Study & Confidence — Modern Age Coders"
 description: "Live 1:1 online math classes for adults in the USA. Rebuild the basics, master statistics and financial math for work, or prep for the GRE/GMAT quant — taught patiently, from the ground up, no judgment. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/online-maths-classes-for-adults-in-usa
-keywords: ["online math classes for adults USA", "math tutor for adults", "adult math help", "learn math as an adult", "basic math for adults", "math refresher for adults", "statistics for adults", "financial math course", "math anxiety help", "GRE quant tutor", "GMAT quant prep", "math for career change"]
 source: src/pages/online-maths-classes-for-adults-in-usa.html
 ---
 > Live 1:1 online math classes for adults in the USA. Rebuild the basics, master statistics and financial math for work, or prep for the GRE/GMAT quant — taught patiently, from the ground up, no judgment. Mentors in every US time zone. $150/month, 8 classes. Free trial.

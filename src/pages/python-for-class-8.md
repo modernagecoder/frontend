@@ -2,7 +2,6 @@
 title: "Python for Class 8 — OOP, Flask API, sklearn, Kaggle Datasets & DSA Intro | Modern Age Coders"
 description: "Python for Class 8 students. OOP with inheritance, Flask REST APIs, sklearn ML with real Kaggle datasets, first DSA. 1 hour live classes, 1:1 or group."
 canonical: https://learn.modernagecoders.com/python-for-class-8
-keywords: ["python for class 8", "class 8 python", "cbse class 8 python", "icse class 8 python", "python oop class 8", "flask for class 8", "kaggle python class 8", "python dsa class 8", "python for 13 year olds", "class 8 python project", "best python class 8", "python ai class 8"]
 source: src/pages/python-for-class-8.html
 ---
 > Python for Class 8 students. OOP with inheritance, Flask REST APIs, sklearn ML with real Kaggle datasets, first DSA. 1 hour live classes, 1:1 or group.

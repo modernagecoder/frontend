@@ -2,7 +2,6 @@
 title: "Build Your Own GPT in Python — From Tokenizer to Trained Model in 300 Lines | Modern Age Coders"
 description: "The honest, code-first walkthrough of building a tiny transformer language model from scratch in Python. Tokenizer, embeddings, multi-head attention, training loop and sampling — written so a determined teenager can follow. By Modern Age Coders."
 canonical: https://learn.modernagecoders.com/build-your-own-gpt-python
-keywords: ["build your own GPT", "build LLM from scratch python", "nanoGPT tutorial", "transformer from scratch python", "implement GPT", "train transformer python", "code your own AI", "make your own LLM", "pytorch transformer tutorial", "attention from scratch", "gpt-2 from scratch", "llm tutorial python"]
 source: src/pages/build-your-own-gpt-python.html
 ---
 > The honest, code-first walkthrough of building a tiny transformer language model from scratch in Python. Tokenizer, embeddings, multi-head attention, training loop and sampling — written so a determined teenager can follow. By Modern Age Coders.

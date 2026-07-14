@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Deshapriya Park"
 description: "Live online, project-based coding & maths classes near Deshapriya Park, Kolkata. Small batches, full-time engineer tutors, Python, Java, AI/ML. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-deshapriya-park-kolkata
-keywords: ["coding classes near Deshapriya Park", "coding classes Lake Market Kolkata", "online coding classes Rashbehari", "Python classes for kids Kolkata", "Java ICSE classes Kolkata", "AI ML course for teens Kolkata", "maths tuition Deshapriya Park", "ICSE computer applications BlueJ Kolkata", "CBSE computer science Python Kolkata", "coding classes South Point students", "online maths tuition South Kolkata", "coding classes near Gariahat"]
 source: src/pages/coding-classes-near-deshapriya-park-kolkata.html
 ---
 > Live online, project-based coding & maths classes near Deshapriya Park, Kolkata. Small batches, full-time engineer tutors, Python, Java, AI/ML. Free demo.

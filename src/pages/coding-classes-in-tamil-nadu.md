@@ -2,7 +2,6 @@
 title: "Coding Classes in Tamil Nadu | Online for Kids, Teens & Adults"
 description: "Live online coding & maths classes in Tamil Nadu for kids, teens & adults. Python, AI, Java & Web Dev across Chennai, Coimbatore & Madurai. Rated 4.9/5. Demo!"
 canonical: https://learn.modernagecoders.com/coding-classes-in-tamil-nadu
-keywords: ["coding classes in Tamil Nadu", "online coding classes Tamil Nadu", "coding classes for kids Tamil Nadu", "Python classes Tamil Nadu", "AI course for kids Tamil Nadu", "coding institute Tamil Nadu", "learn coding Tamil Nadu", "coding classes Chennai", "coding classes Coimbatore", "coding classes Madurai", "coding classes Trichy", "TNEA maths coaching"]
 source: src/pages/coding-classes-in-tamil-nadu.html
 ---
 > Live online coding & maths classes in Tamil Nadu for kids, teens & adults. Python, AI, Java & Web Dev across Chennai, Coimbatore & Madurai. Rated 4.9/5. Demo!

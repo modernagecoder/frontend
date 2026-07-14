@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Imphal | Modern Age Coders"
 description: "Live online coding & maths classes in Imphal for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-imphal
-keywords: ["best coding classes in Imphal", "coding for kids in Imphal", "coding for teens in Imphal", "programming classes Imphal", "coding institute Imphal", "online coding classes Imphal", "coding classes near me Imphal", "Scratch programming Imphal", "Python for kids Imphal", "web development Imphal", "best coding institute in Imphal", "Manipur Board coding class Imphal"]
 source: src/pages/best-coding-class-in-imphal.html
 ---
 > Live online coding & maths classes in Imphal for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

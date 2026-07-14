@@ -2,7 +2,6 @@
 title: "Coding Olympiad Medal Track — IOQI, ZIO, INOI, IOI, Bebras, Math Kangaroo Coaching | Modern Age Coders"
 description: "A dedicated, results-driven preparation track for the Indian Computing Olympiad (IOQI, ZIO, INOI, IOI), Bebras Computational Thinking Challenge, Math Kangaroo, CodeChef Starters and IOI-level competitive programming. For ambitious students aged 10 to 18. Trained by past Olympiad medallists. Live online, India and abroad."
 canonical: https://learn.modernagecoders.com/coding-olympiad-medal-track
-keywords: ["coding olympiad", "indian computing olympiad", "ioqi preparation", "zio preparation", "inoi preparation", "ioi training", "bebras challenge", "math kangaroo india", "competitive programming for kids", "olympiad coaching online", "coding medal track", "codeforces training for school students"]
 source: src/pages/coding-olympiad-medal-track.html
 ---
 > A dedicated, results-driven preparation track for the Indian Computing Olympiad (IOQI, ZIO, INOI, IOI), Bebras Computational Thinking Challenge, Math Kangaroo, CodeChef Starters and IOI-level competitive programming. For ambitious students aged 10 to 18. Trained by past Olympiad medallists. Live online, India and abroad.

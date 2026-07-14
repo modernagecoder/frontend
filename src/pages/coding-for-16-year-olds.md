@@ -2,7 +2,6 @@
 title: "Coding for 16 Year Olds — CS Stream, Full Stack, AI/ML & DSA for Class 11 | Modern Age Coders"
 description: "Coding for 16 year olds in Class 11. Full-stack, AI/ML with Pandas and sklearn, DSA in C++/Python, CBSE/ICSE CS alignment. Build a real portfolio for college."
 canonical: https://learn.modernagecoders.com/coding-for-16-year-olds
-keywords: ["coding for 16 year olds", "coding for class 11", "cs stream class 11", "cbse cs class 11", "icse cs class 11", "python pandas class 11", "ai ml for class 11", "dsa c++ for class 11", "competitive programming teens", "mern full stack", "react teens", "informatics practices"]
 source: src/pages/coding-for-16-year-olds.html
 ---
 > Coding for 16 year olds in Class 11. Full-stack, AI/ML with Pandas and sklearn, DSA in C++/Python, CBSE/ICSE CS alignment. Build a real portfolio for college.

@@ -838,7 +838,9 @@ def head(c):
     <title>{c['title']}</title>
 
     <meta name="description" content="{html.escape(c['meta_desc'])}">
-    <meta name="keywords" content="{c['keywords']}">
+    <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and
+         Bing treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="Modern Age Coders">
     <link rel="canonical" href="/{c['slug']}">
 

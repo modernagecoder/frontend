@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Uluberia, Howrah"
 description: "Premium live online coding & maths classes for Uluberia, Howrah. Small batches, full-time engineers, Python, Java, AI/ML. Free demo. From ₹1,499/month."
 canonical: https://learn.modernagecoders.com/coding-classes-near-uluberia-howrah
-keywords: ["coding classes Uluberia", "coding classes near Uluberia Howrah", "Python classes Uluberia", "Java classes Uluberia", "online maths tuition Uluberia", "AI ML course Howrah", "ICSE computer applications Uluberia", "CBSE computer science Howrah", "coding for kids Uluberia", "live online coding Howrah", "Scratch classes Uluberia", "computer coaching Bauria Uluberia"]
 source: src/pages/coding-classes-near-uluberia-howrah.html
 ---
 > Premium live online coding & maths classes for Uluberia, Howrah. Small batches, full-time engineers, Python, Java, AI/ML. Free demo. From ₹1,499/month.

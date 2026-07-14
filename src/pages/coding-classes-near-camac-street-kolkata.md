@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Camac Street"
 description: "Live online, premium coding & maths classes near Camac Street, Kolkata. Small batches for St. Xavier's, La Martiniere & Loreto students. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-camac-street-kolkata
-keywords: ["coding classes near Camac Street", "coding classes Camac Street Kolkata", "Python classes Kolkata 700017", "Java ICSE classes Kolkata", "AI ML classes for teens Kolkata", "online maths tuition Camac Street", "coding classes near Russell Street", "coding classes near Theatre Road", "ICSE computer applications coaching Kolkata", "La Martiniere coding classes", "St Xavier's coding classes Kolkata", "live online coding classes Kolkata"]
 source: src/pages/coding-classes-near-camac-street-kolkata.html
 ---
 > Live online, premium coding & maths classes near Camac Street, Kolkata. Small batches for St. Xavier's, La Martiniere & Loreto students. Book a free demo.

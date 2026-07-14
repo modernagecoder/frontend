@@ -2,7 +2,6 @@
 title: "Refund Policy - Modern Age Coders"
 description: "Read about modern age coders refund policy. Understand the guidelines and terms for course and product refunds."
 canonical: https://learn.modernagecoders.com/refund
-keywords: ["refund policy", "cancellation", "return", "money back"]
 source: src/pages/refund.html
 ---
 > Read about modern age coders refund policy. Understand the guidelines and terms for course and product refunds.

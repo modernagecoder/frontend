@@ -2,7 +2,6 @@
 title: "Online Math Tutor for 9th Grade | Algebra 1, Taught to Own | Modern Age Coders"
 description: "Live 1:1 ninth grade math tutoring: Algebra 1 as a language, middle-school gaps repaired inline, and pacing tied to your school's test calendar in the first year colleges see. One-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/online-math-tutor-9th-grade
-keywords: ["online math tutor 9th grade", "9th grade math help", "algebra 1 tutor online", "freshman math tutoring", "high school math tutor 9th grade", "failing algebra 1 help", "9th grade math gpa"]
 source: src/pages/online-math-tutor-9th-grade.html
 ---
 > Live 1:1 ninth grade math tutoring: Algebra 1 as a language, middle-school gaps repaired inline, and pacing tied to your school's test calendar in the first year colleges see. One-hour classes twice a week, free demo.

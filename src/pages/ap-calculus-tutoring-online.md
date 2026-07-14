@@ -2,7 +2,6 @@
 title: "AP Calculus Tutoring Online · 1:1 AP Calculus AB & BC Prep — Modern Age Coders"
 description: "Live 1:1 online AP Calculus AB & BC tutoring. We teach why calculus works — limits, derivatives, integrals, the Fundamental Theorem and series — then train the AP free-response technique. Aligned to the College Board CED. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/ap-calculus-tutoring-online
-keywords: ["AP Calculus tutoring online", "AP Calculus AB tutor", "AP Calculus BC tutor", "AP Calc help", "AP Calculus prep", "AP Calc free response", "calculus tutor online", "AP Calculus 5", "limits derivatives integrals tutor", "fundamental theorem of calculus", "AP Calculus exam prep", "AP Calc BC series"]
 source: src/pages/ap-calculus-tutoring-online.html
 ---
 > Live 1:1 online AP Calculus AB & BC tutoring. We teach why calculus works — limits, derivatives, integrals, the Fundamental Theorem and series — then train the AP free-response technique. Aligned to the College Board CED. Mentors in every US time zone. $150/month, 8 classes. Free trial.

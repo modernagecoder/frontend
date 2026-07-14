@@ -2,7 +2,6 @@
 title: "Learn Programming Languages & Frameworks | Complete Coding Guide 2026 - Modern Age Coders"
 description: "The complete 2026 guide to programming languages, frameworks, databases & developer tools. Compare 60+ technologies — Python 3.13, JavaScript, React 19, Node.js 22, TypeScript, Rust, AI/ML & more — with what they're used for and how to learn each through live 1-on-1 classes at Modern Age Coders."
 canonical: https://learn.modernagecoders.com/coding-lang
-keywords: ["learn programming 2026", "best programming languages to learn", "coding languages guide", "web development", "Python tutorial", "JavaScript guide", "React 19", "Next.js", "Node.js", "TypeScript", "Rust", "Go"]
 source: src/pages/coding-lang.html
 ---
 > The complete 2026 guide to programming languages, frameworks, databases & developer tools. Compare 60+ technologies — Python 3.13, JavaScript, React 19, Node.js 22, TypeScript, Rust, AI/ML & more — with what they're used for and how to learn each through live 1-on-1 classes at Modern Age Coders.

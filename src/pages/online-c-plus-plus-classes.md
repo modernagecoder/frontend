@@ -2,7 +2,6 @@
 title: "Online C++ Classes | Live C++ Coding Classes in Small Batches (India)"
 description: "Live online C++ classes in small batches of 5–8 with a real mentor. Learn Core C++, OOP, the STL, DSA & projects from home — interactive, recorded, and flexible. For teens & college students across India. Free demo."
 canonical: https://learn.modernagecoders.com/online-c-plus-plus-classes
-keywords: ["online c++ classes", "live c++ classes online", "c++ online course India", "learn c++ online", "c++ coaching online", "online c++ tuition", "c++ classes from home", "virtual c++ classes", "c++ live mentor", "c++ small batch online"]
 source: src/pages/online-c-plus-plus-classes.html
 ---
 > Live online C++ classes in small batches of 5–8 with a real mentor. Learn Core C++, OOP, the STL, DSA & projects from home — interactive, recorded, and flexible. For teens & college students across India. Free demo.

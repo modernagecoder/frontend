@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Domjur, Howrah"
 description: "Live online coding & maths classes near Domjur, Howrah. Small project-based batches in Python, Java, AI/ML & maths. Taught by engineers. Free demo, from ₹1,499/mo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-domjur-howrah
-keywords: ["coding classes Domjur", "coding classes near Domjur Howrah", "Python classes Domjur", "Java classes ICSE Howrah", "AI ML classes Howrah", "online coding classes Salap", "maths tuition Domjur", "coding classes Bankra", "coding classes Makardah", "online coding classes Howrah", "BlueJ classes ICSE Howrah", "kids coding classes Domjur"]
 source: src/pages/coding-classes-near-domjur-howrah.html
 ---
 > Live online coding & maths classes near Domjur, Howrah. Small project-based batches in Python, Java, AI/ML & maths. Taught by engineers. Free demo, from ₹1,499/mo.

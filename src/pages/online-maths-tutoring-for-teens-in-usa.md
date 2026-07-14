@@ -2,7 +2,6 @@
 title: "Online Maths Tutoring for Teens in the USA · 1:1 Middle & High School Math — Modern Age Coders"
 description: "Live 1:1 online math tutoring for American teens, grades 6–12. We teach why the math works — algebra, geometry, functions, pre-calc — so it holds up on tests and beyond. SAT/ACT ready, Common Core aligned, mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/online-maths-tutoring-for-teens-in-usa
-keywords: ["online math tutoring for teens USA", "high school math tutor online", "middle school math tutor", "algebra tutor online", "algebra 1 help", "algebra 2 tutor", "geometry tutor online", "pre-calculus tutor", "trigonometry help", "8th grade math tutor", "9th grade math", "10th grade math tutor"]
 source: src/pages/online-maths-tutoring-for-teens-in-usa.html
 ---
 > Live 1:1 online math tutoring for American teens, grades 6–12. We teach why the math works — algebra, geometry, functions, pre-calc — so it holds up on tests and beyond. SAT/ACT ready, Common Core aligned, mentors in every US time zone. $150/month, 8 classes. Free trial.

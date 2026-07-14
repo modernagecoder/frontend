@@ -2,7 +2,6 @@
 title: "Java Classes for Teens | Online Java Coding Course (Ages 13–18)"
 description: "Live online Java classes for teens aged 13–18. Build games, apps & real projects while mastering logic, OOP and Data Structures. Great for ICSE/ISC & CBSE students. Small batches, free demo."
 canonical: https://learn.modernagecoders.com/java-classes-for-teens
-keywords: ["java classes for teens", "java coding for teenagers", "online java course for teens", "java for high school students", "java programming for teens", "teen java classes India", "java for ICSE students", "java for ISC students", "java for CBSE students", "java projects for teens", "learn java age 13 14 15 16", "java OOP for teens"]
 source: src/pages/java-classes-for-teens.html
 ---
 > Live online Java classes for teens aged 13–18. Build games, apps & real projects while mastering logic, OOP and Data Structures. Great for ICSE/ISC & CBSE students. Small batches, free demo.

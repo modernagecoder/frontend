@@ -2,7 +2,6 @@
 title: "OCA Java SE 8 Certification (1Z0-808) — Full Exam Guide, Objectives & Live Coaching | Modern Age Coders"
 description: "A complete, verified guide to the OCA Java SE 8 Programmer I exam (1Z0-808): current format (56 questions, 120 minutes, 65% to pass), full objectives, cost, and a study plan — plus the modern Java SE 17 path. Live small-batch Java coaching. Free trial."
 canonical: https://learn.modernagecoders.com/oca-java-certification-prep
-keywords: ["OCA Java certification", "1Z0-808", "Oracle Certified Associate Java SE 8", "Java SE 8 Programmer I", "OCA Java exam", "OCAJP", "Java certification", "Oracle Java certification", "OCP Java SE 17", "1Z0-829", "how to prepare for OCA Java"]
 source: src/pages/oca-java-certification-prep.html
 ---
 > A complete, verified guide to the OCA Java SE 8 Programmer I exam (1Z0-808): current format (56 questions, 120 minutes, 65% to pass), full objectives, cost, and a study plan — plus the modern Java SE 17 path. Live small-batch Java coaching. Free trial.

@@ -2,7 +2,6 @@
 title: "Python for 11 Year Olds — Functions, Files & First AI Projects for Class 6 | Modern Age Coders"
 description: "Live Python classes for 11 year olds. Functions, files, lists, first sklearn AI project, turtle art — aligned to CBSE Class 6 Code 166. 1 hour live sessions."
 canonical: https://learn.modernagecoders.com/python-for-11-year-olds
-keywords: ["python for 11 year olds", "python for class 6", "cbse class 6 python", "python for kids 11", "learn python 11 year old", "python functions for kids", "python for class 6 cbse", "code 166 python", "python projects 11 year old", "python ai 11 year old", "python course class 6", "best python class for 11 year old"]
 source: src/pages/python-for-11-year-olds.html
 ---
 > Live Python classes for 11 year olds. Functions, files, lists, first sklearn AI project, turtle art — aligned to CBSE Class 6 Code 166. 1 hour live sessions.

@@ -2,7 +2,6 @@
 title: "Coding for Adults & Beginners: Career Switch to Tech | Modern Age Coders"
 description: "Never coded before? Our coding course for adult beginners makes career switching easy. Learn Python, Web Dev, Data Science at your own pace. Evening and weekend batches. 850+ professionals trained worldwide. Book a free demo!"
 canonical: https://learn.modernagecoders.com/levels/coding-for-professionals
-keywords: ["coding for adults beginners", "professional coding courses", "upskilling courses", "career switch to tech", "coding for adults", "working professionals coding", "AI ML course professionals", "data science course", "python course working professionals", "full stack development", "weekend coding classes", "learn coding online"]
 source: src/pages/category/professionals.html
 ---
 > Never coded before? Our coding course for adult beginners makes career switching easy. Learn Python, Web Dev, Data Science at your own pace. Evening and weekend batches. 850+ professionals trained worldwide. Book a free demo!

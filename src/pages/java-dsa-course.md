@@ -2,7 +2,6 @@
 title: "Java DSA Course | Data Structures & Algorithms in Java for Placements"
 description: "Master Data Structures & Algorithms in Java for coding interviews and placements. Arrays, linked lists, trees, graphs, sorting, recursion & problem patterns, with mock interviews. Live classes. Free demo."
 canonical: https://learn.modernagecoders.com/java-dsa-course
-keywords: ["java dsa course", "data structures and algorithms in java", "java dsa for placements", "dsa interview preparation java", "java coding interview", "java algorithms course", "dsa course online", "java data structures", "competitive programming java", "java placement preparation", "dsa with java"]
 source: src/pages/java-dsa-course.html
 ---
 > Master Data Structures & Algorithms in Java for coding interviews and placements. Arrays, linked lists, trees, graphs, sorting, recursion & problem patterns, with mock interviews. Live classes. Free demo.

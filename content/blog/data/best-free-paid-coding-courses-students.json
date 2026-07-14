@@ -646,7 +646,7 @@
         "type": "callout",
         "calloutType": "info",
         "title": "Popular Modern Age Coders Courses",
-        "text": "• <a href='/courses/python-complete-masterclass-teens'>Python Masterclass</a> - ₹8,000-15,000<br>• <a href='/courses/web-development-complete-course'>Web Development</a> - ₹10,000-20,000<br>• <a href='/courses/scratch-programming-complete-course'>Scratch Programming</a> - ₹5,000-8,000<br>• <a href='/courses/data-science-complete-masterclass-college'>Data Science</a> - ₹15,000-25,000"
+        "text": "• <a href='/courses/python-complete-masterclass-teens'>Python Masterclass</a> - ₹8,000-15,000<br>• <a href='/courses/full-stack-web-development-masterclass-college'>Web Development</a> - ₹10,000-20,000<br>• <a href='/courses/scratch-programming-complete-course'>Scratch Programming</a> - ₹5,000-8,000<br>• <a href='/courses/data-science-complete-masterclass-college'>Data Science</a> - ₹15,000-25,000"
       },
       {
         "type": "button",
@@ -1127,7 +1127,7 @@
         "style": "ordered",
         "items": [
           "<strong>Month 1-2:</strong> HTML, CSS, JavaScript basics (freeCodeCamp Responsive Web Design)",
-          "<strong>Month 3-4:</strong> JavaScript deep dive (<a href='/courses/web-development-complete-course'>Modern Age Coders Web Dev</a> OR Udemy)",
+          "<strong>Month 3-4:</strong> JavaScript deep dive (<a href='/courses/full-stack-web-development-masterclass-college'>Modern Age Coders Web Dev</a> OR Udemy)",
           "<strong>Month 5-6:</strong> React framework (Codecademy Pro OR Udemy React course)",
           "<strong>Month 7-8:</strong> Backend with Node.js (The Odin Project Node.js path)",
           "<strong>Month 9-10:</strong> Full-stack projects (Build 3-4 complete applications)",

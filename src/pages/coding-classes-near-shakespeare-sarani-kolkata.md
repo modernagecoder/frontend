@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Shakespeare Sarani"
 description: "Live online, premium coding & maths classes near Shakespeare Sarani, Kolkata. Small batches for St. Xavier's, La Martiniere & Loreto students. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-shakespeare-sarani-kolkata
-keywords: ["coding classes near Shakespeare Sarani", "coding classes Shakespeare Sarani Kolkata", "Python classes Kolkata 700017", "Java ICSE classes Kolkata", "AI ML classes for teens Kolkata", "online maths tuition Shakespeare Sarani", "coding classes near Camac Street", "coding classes near Theatre Road", "ISC computer science coaching Kolkata", "La Martiniere coding classes", "St Xavier's coding classes Kolkata", "live online coding classes Kolkata"]
 source: src/pages/coding-classes-near-shakespeare-sarani-kolkata.html
 ---
 > Live online, premium coding & maths classes near Shakespeare Sarani, Kolkata. Small batches for St. Xavier's, La Martiniere & Loreto students. Free demo.

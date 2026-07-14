@@ -2,7 +2,6 @@
 title: "Winter Coding Camp for Teens 2026 (Ages 12–17) | Online Worldwide | Modern Age Coders"
 description: "Winter Coding Camp for Teens 2026 (Ages 12–17) — Online worldwide. Learn HTML, CSS, JavaScript, Python & AI in 16 live sessions. Build portfolio projects. ₹4,999 / $60. Enroll now!"
 canonical: https://learn.modernagecoders.com/winter-coding-camp-teens
-keywords: ["winter coding camp for teens", "teen coding bootcamp 2026", "coding for teenagers winter break", "web development for teens", "Python for teens", "AI course for teenagers", "holiday coding camp teens", "online coding classes teens", "winter break tech course", "Modern Age Coders"]
 source: src/pages/winter-coding-camp-teens.html
 ---
 > Winter Coding Camp for Teens 2026 (Ages 12–17) — Online worldwide. Learn HTML, CSS, JavaScript, Python & AI in 16 live sessions. Build portfolio projects. ₹4,999 / $60. Enroll now!

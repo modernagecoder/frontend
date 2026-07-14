@@ -2,7 +2,6 @@
 title: "Aura Type - Master Your Typing Flow | Modern Age Coders"
 description: "Aura Type - A minimalistic, aesthetic typing experience to improve your flow, precision and WPM. Practice with psychological words and motivational phrases."
 canonical: https://learn.modernagecoders.com/aura
-keywords: ["typing practice", "typing test", "WPM test", "typing game", "improve typing speed", "typing trainer", "aura type", "modern age coders"]
 source: src/pages/aura.html
 ---
 > Aura Type - A minimalistic, aesthetic typing experience to improve your flow, precision and WPM. Practice with psychological words and motivational phrases.

@@ -2,7 +2,6 @@
 title: "Online Maths Tuition for Kids in the UK · 1:1 Primary Maths (KS1 & KS2) — Modern Age Coders"
 description: "Live 1:1 online maths tuition for primary children in the UK (KS1 & KS2, ages 5–11). We teach why the maths works — number bonds, times tables with understanding, fractions and reasoning — aligned to the national curriculum, with Year 6 SATs readiness. £-friendly USD 150/month, 8 lessons. Free trial."
 canonical: https://learn.modernagecoders.com/online-maths-tuition-for-kids-in-uk
-keywords: ["online maths tuition for kids UK", "primary maths tutor", "KS1 maths tutor", "KS2 maths tutor", "maths tutor for kids UK", "year 3 maths help", "year 4 maths tutor", "year 5 maths", "year 6 SATs maths", "times tables tutor", "number bonds", "primary maths tuition online"]
 source: src/pages/online-maths-tuition-for-kids-in-uk.html
 ---
 > Live 1:1 online maths tuition for primary children in the UK (KS1 & KS2, ages 5–11). We teach why the maths works — number bonds, times tables with understanding, fractions and reasoning — aligned to the national curriculum, with Year 6 SATs readiness. £-friendly USD 150/month, 8 lessons. Free trial.

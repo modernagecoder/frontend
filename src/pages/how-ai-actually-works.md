@@ -2,7 +2,6 @@
 title: "How AI Actually Works — A First-Principles Guide to LLMs, Tokens, Embeddings and Transformers | Modern Age Coders"
 description: "The honest, mechanical explanation of how large language models like ChatGPT, Claude and Gemini actually generate text. Tokens, embeddings, attention, transformers, training and RLHF — explained without analogies that fall apart, for parents, students and the genuinely curious. By Modern Age Coders."
 canonical: https://learn.modernagecoders.com/how-ai-actually-works
-keywords: ["how AI works", "how does ChatGPT work", "how do LLMs work", "what is a transformer", "attention mechanism explained", "embeddings explained", "how AI generates text", "how GPT works", "AI explained simply", "transformer architecture", "how does AI learn", "RLHF explained"]
 source: src/pages/how-ai-actually-works.html
 ---
 > The honest, mechanical explanation of how large language models like ChatGPT, Claude and Gemini actually generate text. Tokens, embeddings, attention, transformers, training and RLHF — explained without analogies that fall apart, for parents, students and the genuinely curious. By Modern Age Coders.

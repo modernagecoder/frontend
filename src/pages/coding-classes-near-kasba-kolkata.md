@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Kasba, Kolkata"
 description: "Premium live online coding and maths classes near Kasba, Kolkata. Small batches of 6-8, project-based, taught by full-time engineers. Book a free demo today."
 canonical: https://learn.modernagecoders.com/coding-classes-near-kasba-kolkata
-keywords: ["coding classes near Kasba Kolkata", "maths tuition Kasba", "online coding classes Rajdanga", "Python classes Kasba Acropolis", "Java coding ICSE Kolkata", "AI ML classes for teens Kolkata", "coding classes near EM Bypass", "DPS Ruby Park coding tuition", "live online coding Anandapur", "Scratch coding for kids Kasba", "CBSE computer science Class 11 12", "coding classes near Ruby crossing Kolkata"]
 source: src/pages/coding-classes-near-kasba-kolkata.html
 ---
 > Premium live online coding and maths classes near Kasba, Kolkata. Small batches of 6-8, project-based, taught by full-time engineers. Book a free demo today.

@@ -2,7 +2,6 @@
 title: "Coding & Maths Classes near Ballygunge, Kolkata"
 description: "Live online coding & maths classes for Ballygunge families. Small 6-8 batches, ICSE Java & CBSE Python, taught by full-time engineers. Book a free demo today."
 canonical: https://learn.modernagecoders.com/coding-classes-near-ballygunge-kolkata
-keywords: ["coding classes near Ballygunge", "coding classes Ballygunge Kolkata", "maths tuition Ballygunge", "ICSE Java classes Kolkata", "CBSE Python coding Ballygunge", "online coding classes South Kolkata", "Python classes for kids Ballygunge", "coding classes near Gariahat", "AI ML classes for teens Kolkata", "computer science Class 11 12 Kolkata", "coding for kids Ballygunge Circular Road", "live online coding Kolkata"]
 source: src/pages/coding-classes-near-ballygunge-kolkata.html
 ---
 > Live online coding & maths classes for Ballygunge families. Small 6-8 batches, ICSE Java & CBSE Python, taught by full-time engineers. Book a free demo today.

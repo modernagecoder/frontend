@@ -2,7 +2,6 @@
 title: "Coding Classes in India | 60+ Cities | Modern Age Coders"
 description: "Live online coding classes for kids, teens and adults in 60+ Indian cities and neighbourhoods. Python, Scratch, Web Dev, AI and DSA. Rated 4.9/5. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-india
-keywords: ["coding classes in India", "best coding class in India", "online coding classes India", "coding classes for kids India", "coding classes for teens India", "programming institute India"]
 source: src/pages/coding-classes-in-india.html
 ---
 > Live online coding classes for kids, teens and adults in 60+ Indian cities and neighbourhoods. Python, Scratch, Web Dev, AI and DSA. Rated 4.9/5. Book a free demo.

@@ -2,7 +2,6 @@
 title: "AI Classes in Dubai | Learn AI & Machine Learning Live Online"
 description: "Live AI classes in Dubai for kids, teens and adults. Train real machine learning models, build chatbots and AI agents in small online batches. Free demo."
 canonical: https://learn.modernagecoders.com/ai-classes-in-dubai
-keywords: ["ai classes in dubai", "ai course dubai", "machine learning course dubai", "learn ai dubai", "artificial intelligence classes dubai", "ai training dubai", "generative ai course dubai", "ai classes for kids dubai", "machine learning classes uae"]
 source: src/pages/ai-classes-in-dubai.html
 ---
 > Live AI classes in Dubai for kids, teens and adults. Train real machine learning models, build chatbots and AI agents in small online batches. Free demo.

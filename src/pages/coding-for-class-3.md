@@ -2,7 +2,6 @@
 title: "Coding for Class 3 — Scratch, Block Coding & First Python for 8 Year Olds | Modern Age Coders"
 description: "Live online coding classes for Class 3 students. Scratch games, block coding, a gentle first taste of Python and AI tools matched to Class 3 ICT syllabus. 1 hour classes."
 canonical: https://learn.modernagecoders.com/coding-for-class-3
-keywords: ["coding for class 3", "class 3 computer syllabus", "scratch for class 3", "coding for 8 year olds", "cbse class 3 computer", "icse class 3 computer", "block coding class 3", "python for class 3", "online coding class 3", "computer classes class 3", "kids coding class 3", "best coding class for class 3"]
 source: src/pages/coding-for-class-3.html
 ---
 > Live online coding classes for Class 3 students. Scratch games, block coding, a gentle first taste of Python and AI tools matched to Class 3 ICT syllabus. 1 hour classes.

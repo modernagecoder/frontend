@@ -2,7 +2,6 @@
 title: "How Large Language Models Work - Understand Tokens, Embeddings & Attention | Modern Age Coders"
 description: "Understand how large language models actually work - tokens, embeddings, attention and transformers, training and fine-tuning, RAG and agents - explained from the inside, then built. Live small-batch AI classes for serious learners, college and professionals. Free demo."
 canonical: https://learn.modernagecoders.com/how-large-language-models-work
-keywords: ["how large language models work", "how llms work explained", "how chatgpt works", "understand transformers", "attention mechanism explained", "tokens and embeddings", "fine-tuning llms", "how generative ai works", "learn llms", "transformers explained simply", "build with llms", "what is a token in ai"]
 source: src/pages/how-large-language-models-work.html
 ---
 > Understand how large language models actually work - tokens, embeddings, attention and transformers, training and fine-tuning, RAG and agents - explained from the inside, then built. Live small-batch AI classes for serious learners, college and professionals. Free demo.

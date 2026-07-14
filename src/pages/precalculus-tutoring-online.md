@@ -2,7 +2,6 @@
 title: "Precalculus Tutoring Online | Live 1:1 Classes | Modern Age Coders"
 description: "Live 1:1 precalculus tutoring: the unit circle rebuilt from three triangles, function behavior made visual, identities derived not memorized, AP readiness tracked. One-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/precalculus-tutoring-online
-keywords: ["precalculus tutoring online", "precalculus tutor", "precalc help", "unit circle help", "trig identities help", "precalculus for AP calculus", "function composition help", "precalculus summer course"]
 source: src/pages/precalculus-tutoring-online.html
 ---
 > Live 1:1 precalculus tutoring: the unit circle rebuilt from three triangles, function behavior made visual, identities derived not memorized, AP readiness tracked. One-hour classes twice a week, free demo.

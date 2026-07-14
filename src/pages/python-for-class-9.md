@@ -2,7 +2,6 @@
 title: "Python for Class 9 — CBSE Code 402 Python, Flask, Django Intro & Kaggle | Modern Age Coders"
 description: "Python for Class 9 students. CBSE Code 402 IT aligned, Flask + Django intro, sklearn with Kaggle, DSA in Python. 1 hour live classes, 1:1 or group."
 canonical: https://learn.modernagecoders.com/python-for-class-9
-keywords: ["python for class 9", "cbse class 9 python", "code 402 python", "class 9 python cbse", "class 9 it 402", "python for 14 year olds", "cbse class 9 cs", "python flask class 9", "python django class 9", "python kaggle class 9", "class 9 python project", "python dsa class 9"]
 source: src/pages/python-for-class-9.html
 ---
 > Python for Class 9 students. CBSE Code 402 IT aligned, Flask + Django intro, sklearn with Kaggle, DSA in Python. 1 hour live classes, 1:1 or group.

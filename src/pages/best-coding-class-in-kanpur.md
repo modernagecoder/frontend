@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Kanpur | Modern Age Coders"
 description: "Live online coding & maths classes in Kanpur for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-kanpur
-keywords: ["best coding classes in Kanpur", "coding for kids in Kanpur", "coding for teens in Kanpur", "programming classes Kanpur", "coding institute Kanpur", "online coding classes Kanpur", "coding classes near me Kanpur", "Scratch programming Kanpur", "Python for kids Kanpur", "web development Kanpur", "best coding institute in Kanpur", "UP Board coding class Kanpur"]
 source: src/pages/best-coding-class-in-kanpur.html
 ---
 > Live online coding & maths classes in Kanpur for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

@@ -2,7 +2,6 @@
 title: "About Modern Age Coders | Coding & Math Education That Actually Works"
 description: "Modern Age Coders teaches coding and mathematics to learners aged 6-65 — kids, teens, college students, working professionals & businesses. Live 1-on-1 and group classes worldwide. We also build custom software, AI solutions & automation. Real skills, real results."
 canonical: https://learn.modernagecoders.com/about
-keywords: ["coding classes for kids", "math tutoring", "programming courses", "software development company", "AI solutions", "web development", "app development", "STEM education India", "learn coding online"]
 source: src/pages/about.html
 ---
 > Modern Age Coders teaches coding and mathematics to learners aged 6-65 — kids, teens, college students, working professionals & businesses. Live 1-on-1 and group classes worldwide. We also build custom software, AI solutions & automation. Real skills, real results.

@@ -2,7 +2,6 @@
 title: "AI Classes for Kids in UAE | Safe, Hands-On AI Learning"
 description: "AI classes for kids in the UAE, ages 8 to 12. Supervised, hands-on AI literacy in live online batches of 5 to 8, evenings in GST. Free demo class for parents."
 canonical: https://learn.modernagecoders.com/ai-classes-for-kids-in-uae
-keywords: ["ai classes for kids in uae", "ai for kids uae", "ai course for children uae", "kids ai classes dubai", "ai literacy for kids", "chatgpt for kids classes", "ai classes for children abu dhabi", "online ai classes for kids uae"]
 source: src/pages/ai-classes-for-kids-in-uae.html
 ---
 > AI classes for kids in the UAE, ages 8 to 12. Supervised, hands-on AI literacy in live online batches of 5 to 8, evenings in GST. Free demo class for parents.

@@ -2,7 +2,6 @@
 title: "IB Maths Tutor in the UAE · 1:1 Maths AA & AI (SL & HL) — Modern Age Coders"
 description: "Live 1:1 online IB Maths tutoring in the UAE — Analysis & Approaches (AA) and Applications & Interpretation (AI), SL and HL, plus the IA exploration. We teach the concepts, not rote, and coach the GDC and exam papers. Gulf Standard Time. USD 150/month (about AED 550). Free trial."
 canonical: https://learn.modernagecoders.com/ib-maths-tutor-uae
-keywords: ["IB maths tutor UAE", "IB maths tutor Dubai", "IB maths AA tutor", "IB maths AI tutor", "IB maths HL tutor", "IB maths SL tutor", "IB mathematics analysis and approaches", "applications and interpretation tutor", "IB maths IA help", "IB diploma maths tutor UAE", "MYP maths tutor UAE", "IB maths exam prep Dubai"]
 source: src/pages/ib-maths-tutor-uae.html
 ---
 > Live 1:1 online IB Maths tutoring in the UAE — Analysis & Approaches (AA) and Applications & Interpretation (AI), SL and HL, plus the IA exploration. We teach the concepts, not rote, and coach the GDC and exam papers. Gulf Standard Time. USD 150/month (about AED 550). Free trial.

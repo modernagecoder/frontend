@@ -2,7 +2,6 @@
 title: "Modern Age Coders vs WhiteHat Jr, Cuemath & Codingal - Honest Comparison | Modern Age Coders"
 description: "An honest, fair comparison of Modern Age Coders vs WhiteHat Jr, Cuemath and Codingal. Coding plus maths together, small live batches of 4-8, real projects, ages 6-65."
 canonical: https://learn.modernagecoders.com/modern-age-coders-vs-whitehat-jr-cuemath-codingal
-keywords: ["modern age coders vs whitehat jr", "modern age coders vs cuemath", "modern age coders vs codingal", "best coding classes comparison", "coding classes alternative", "whitehat jr alternative", "cuemath alternative", "codingal alternative"]
 source: src/pages/modern-age-coders-vs-whitehat-jr-cuemath-codingal.html
 ---
 > An honest, fair comparison of Modern Age Coders vs WhiteHat Jr, Cuemath and Codingal. Coding plus maths together, small live batches of 4-8, real projects, ages 6-65.

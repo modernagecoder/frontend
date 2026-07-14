@@ -2,7 +2,6 @@
 title: "Coding for Class 5 — Python, Scratch & AI Tools for 10 Year Olds | Modern Age Coders"
 description: "Live online coding classes for Class 5 students. Python basics, Scratch games, HTML first pages and AI taster projects matched to Class 5 syllabus. 1 hour live classes."
 canonical: https://learn.modernagecoders.com/coding-for-class-5
-keywords: ["coding for class 5", "class 5 computer syllabus", "python for class 5", "scratch for class 5", "cbse class 5 computer", "icse class 5 computer", "coding class 5 online", "kids coding class 5", "class 5 html", "ai class 5", "best coding class for class 5", "computer class 5"]
 source: src/pages/coding-for-class-5.html
 ---
 > Live online coding classes for Class 5 students. Python basics, Scratch games, HTML first pages and AI taster projects matched to Class 5 syllabus. 1 hour live classes.

@@ -2,7 +2,6 @@
 title: "Winter Coding Camp 2026 | Online Worldwide | Modern Age Coders"
 description: "Winter Coding Camp 2026 — Online coding bootcamp for Kids, Teens & Adults worldwide. 16 live sessions, 5 real projects. Learn Python, AI, Web Dev & more. Enroll from anywhere in the world. ₹4,999 / $60."
 canonical: https://learn.modernagecoders.com/winter-coding-camp
-keywords: ["winter coding camp", "online coding bootcamp", "coding classes winter break", "holiday coding camp for kids", "coding camp 2026", "learn to code winter", "winter break coding course", "online coding for kids", "online coding for teens", "Python course", "AI course", "web development"]
 source: src/pages/winter-coding-camp.html
 ---
 > Winter Coding Camp 2026 — Online coding bootcamp for Kids, Teens & Adults worldwide. 16 live sessions, 5 real projects. Learn Python, AI, Web Dev & more. Enroll from anywhere in the world. ₹4,999 / $60.

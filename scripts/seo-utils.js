@@ -145,7 +145,9 @@ function generateMetaTags(options) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${validatedTitle}</title>
     <meta name="description" content="${validatedDescription}">
-    <meta name="keywords" content="${validatedKeywords}">
+    <!-- meta keywords intentionally not emitted: Google has ignored it since 2009 and
+         Bing treats it as a SPAM SIGNAL — and Bing is the index ChatGPT/Copilot answer from.
+         See scripts/strip-meta-keywords.py. -->
     <meta name="author" content="${author}">
     <link rel="canonical" href="${canonicalUrl}">
 
@@ -232,14 +234,12 @@ function generateEducationalOrganizationSchema() {
     "name": SEO_CONFIG.organization.name,
     "description": SEO_CONFIG.organization.description,
     "url": SEO_CONFIG.domain,
-    "numberOfEmployees": {
-      "@type": "QuantitativeValue",
-      "value": "50+"
-    },
-    "alumni": {
-      "@type": "QuantitativeValue",
-      "value": "10000+"
-    }
+    // Removed with Phase 1.4 (same fix applied to the homepage graph): alumni expects a
+    // Person/Organization, not a QuantitativeValue — it was invalid markup doing nothing —
+    // and numberOfEmployees "50+" is not a number AND is a headcount nobody has verified.
+    // If a real, defensible figure exists, add numberOfEmployees: {"@type":
+    // "QuantitativeValue", "minValue": <n>} — a number, not a string with a plus sign.
+    "@id": `${SEO_CONFIG.domain}/#organization`
   };
 }
 

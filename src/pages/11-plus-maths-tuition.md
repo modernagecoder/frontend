@@ -2,7 +2,6 @@
 title: "11 Plus Maths Tuition Online · 1:1 GL & CEM 11+ Maths Prep — Modern Age Coders"
 description: "Live 1:1 online 11 Plus maths tuition for GL and CEM-style exams. We build real number fluency and problem-solving for grammar and independent school entry — not just past-paper drilling — with the timed-reasoning skills the 11+ rewards. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition
-keywords: ["11 plus maths tuition", "11+ maths tutor online", "11 plus maths prep", "GL assessment maths", "CEM 11 plus maths", "grammar school maths entry", "independent school 11+ maths", "11 plus problem solving", "11+ maths past papers", "year 5 11 plus maths", "11 plus reasoning maths", "online 11 plus tutor UK"]
 source: src/pages/11-plus-maths-tuition.html
 ---
 > Live 1:1 online 11 Plus maths tuition for GL and CEM-style exams. We build real number fluency and problem-solving for grammar and independent school entry — not just past-paper drilling — with the timed-reasoning skills the 11+ rewards. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.

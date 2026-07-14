@@ -2,7 +2,6 @@
 title: "Python for Data Science | Learn NumPy, pandas & Matplotlib Online"
 description: "Learn Python for Data Science from scratch. Live online course — Python, NumPy, pandas, Matplotlib and Jupyter/Colab, the coding foundation for data science, ML and AI. Hands-on with real data. Small batches, free demo."
 canonical: https://learn.modernagecoders.com/python-for-data-science
-keywords: ["python for data science", "learn python for data science", "numpy pandas course", "python data analysis", "python for ai", "python for ml", "data science python course", "pandas tutorial", "python for beginners data science", "python libraries for data science"]
 source: src/pages/python-for-data-science.html
 ---
 > Learn Python for Data Science from scratch. Live online course — Python, NumPy, pandas, Matplotlib and Jupyter/Colab, the coding foundation for data science, ML and AI. Hands-on with real data. Small batches, free demo.

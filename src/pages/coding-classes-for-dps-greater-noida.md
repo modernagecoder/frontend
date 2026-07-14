@@ -2,7 +2,6 @@
 title: "Coding Classes for DPS Greater Noida Students | Python, Maths & CBSE | Modern Age Coders"
 description: "Best Coding Classes for DPS Greater Noida Students in Greater Noida. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near Greater Noida. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!"
 canonical: https://learn.modernagecoders.com/coding-classes-for-dps-greater-noida
-keywords: ["Coding Classes for DPS Greater Noida Students", "coding classes near South Delhi Greater Noida", "Python course near DPS Greater Noida Greater Noida", "after school coding DPS Greater Noida", "maths tuition for DPS Greater Noida Greater Noida", "DPS Greater Noida coding", "CBSE coding classes Greater Noida", "coding classes near me Greater Noida", "online coding classes for kids Greater Noida", "best coding institute Greater Noida", "Java classes for CBSE students Greater Noida", "AI classes for school students Greater Noida"]
 source: src/pages/coding-classes-for-dps-greater-noida.html
 ---
 > Best Coding Classes for DPS Greater Noida Students in Greater Noida. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near Greater Noida. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!

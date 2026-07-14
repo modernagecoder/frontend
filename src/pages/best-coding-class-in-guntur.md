@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Guntur | Modern Age Coders"
 description: "Live online coding & maths classes in Guntur for kids, teens & adults. Python, AI, Java, Web Dev & AP EAPCET/JEE logic, Amaravati region. Rated 4.9/5. Demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-guntur
-keywords: ["best coding classes in Guntur", "coding classes in Guntur", "coding for kids in Guntur", "coding for teens in Guntur", "programming classes Guntur", "coding institute Guntur", "online coding classes Guntur", "coding classes near me Guntur", "Scratch programming Guntur", "Python for kids Guntur", "web development course Guntur", "best coding institute in Guntur"]
 source: src/pages/best-coding-class-in-guntur.html
 ---
 > Live online coding & maths classes in Guntur for kids, teens & adults. Python, AI, Java, Web Dev & AP EAPCET/JEE logic, Amaravati region. Rated 4.9/5. Demo!

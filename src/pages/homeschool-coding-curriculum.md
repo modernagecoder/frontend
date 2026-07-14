@@ -2,7 +2,6 @@
 title: "Homeschool Coding Curriculum | Live Mentor, Records Included | Modern Age Coders"
 description: "A live-taught homeschool coding curriculum for ages 6-16: the Scratch-to-Python-to-AI ladder with a dedicated mentor, daytime slots, and filing-ready records - curriculum maps, progress notes and a project portfolio. 8 classes a month from $40. Free demo."
 canonical: https://learn.modernagecoders.com/homeschool-coding-curriculum
-keywords: ["homeschool coding curriculum", "homeschool computer science curriculum", "coding classes for homeschoolers", "homeschool programming course", "live online coding homeschool", "homeschool coding classes with records", "scratch for homeschool", "python homeschool curriculum", "co-op coding classes"]
 source: src/pages/homeschool-coding-curriculum.html
 ---
 > A live-taught homeschool coding curriculum for ages 6-16: the Scratch-to-Python-to-AI ladder with a dedicated mentor, daytime slots, and filing-ready records - curriculum maps, progress notes and a project portfolio. 8 classes a month from $40. Free demo.

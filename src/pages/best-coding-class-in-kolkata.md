@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Kolkata | Modern Age Coders"
 description: "Live online coding & maths classes in Kolkata for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-kolkata
-keywords: ["best coding classes in Kolkata", "coding for kids in Kolkata", "coding for teens in Kolkata", "programming classes Kolkata", "coding institute Kolkata", "online coding classes Kolkata", "coding classes near me Kolkata", "Scratch programming Kolkata", "Python for kids Kolkata", "web development Kolkata", "best coding institute in Kolkata", "computer classes for kids Kolkata"]
 source: src/pages/best-coding-class-in-kolkata.html
 ---
 > Live online coding & maths classes in Kolkata for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

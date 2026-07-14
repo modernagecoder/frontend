@@ -2,7 +2,6 @@
 title: "AI Classes for Beginners - Start From Zero, No Experience Needed | Modern Age Coders"
 description: "Live, small-batch AI classes for complete beginners - no coding or maths background needed. Start from zero with patient mentors and a clear step-by-step path, and build your first real AI project in weeks. All ages 10 to 65. Book a free trial class."
 canonical: https://learn.modernagecoders.com/ai-classes-for-beginners
-keywords: ["ai classes for beginners", "ai for beginners", "learn ai from scratch", "ai course for beginners no experience", "beginner ai classes online", "ai classes no coding", "start learning ai", "ai classes for adults beginners", "easy ai course", "how to start learning ai"]
 source: src/pages/ai-classes-for-beginners.html
 ---
 > Live, small-batch AI classes for complete beginners - no coding or maths background needed. Start from zero with patient mentors and a clear step-by-step path, and build your first real AI project in weeks. All ages 10 to 65. Book a free trial class.

@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Siliguri | Modern Age Coders"
 description: "Live online coding & maths classes in Siliguri for kids, teens & adults. Python, AI, Java & JEE/WBJEE logic across North Bengal. Rated 4.9/5. Free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-siliguri
-keywords: ["best coding classes in Siliguri", "coding classes in Siliguri", "coding for kids in Siliguri", "coding for teens in Siliguri", "programming classes Siliguri", "coding institute Siliguri", "online coding classes Siliguri", "coding classes near me Siliguri", "Scratch programming Siliguri", "Python for kids Siliguri", "web development course Siliguri", "best coding institute in Siliguri"]
 source: src/pages/best-coding-class-in-siliguri.html
 ---
 > Live online coding & maths classes in Siliguri for kids, teens & adults. Python, AI, Java & JEE/WBJEE logic across North Bengal. Rated 4.9/5. Free demo!

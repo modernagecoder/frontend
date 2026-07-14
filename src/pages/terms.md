@@ -2,7 +2,6 @@
 title: "Terms of Service - Modern Age Coders"
 description: "Read our terms of service and understand the guidelines for using Modern Age Coders educational platform."
 canonical: https://learn.modernagecoders.com/terms
-keywords: ["terms of service", "user agreement", "terms and conditions"]
 source: src/pages/terms.html
 ---
 > Read our terms of service and understand the guidelines for using Modern Age Coders educational platform.

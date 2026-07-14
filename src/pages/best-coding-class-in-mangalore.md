@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Mangalore (Mangaluru) | Modern Age Coders"
 description: "Coding classes in Mangalore (Mangaluru) for kids & teens. Live online Python, Java, AI & vibe coding with real projects, small batches & 1:1. Rated 4.9/5."
 canonical: https://learn.modernagecoders.com/best-coding-class-in-mangalore
-keywords: ["best coding classes in Mangalore", "coding classes in Mangaluru", "coding for kids in Mangalore", "coding for teens in Mangalore", "online coding classes Mangalore", "AI classes Mangalore", "vibe coding Mangalore", "Python classes Mangalore", "Java classes Mangalore", "web development course Mangalore", "coding institute Mangaluru", "coding classes Dakshina Kannada"]
 source: src/pages/best-coding-class-in-mangalore.html
 ---
 > Coding classes in Mangalore (Mangaluru) for kids & teens. Live online Python, Java, AI & vibe coding with real projects, small batches & 1:1. Rated 4.9/5.

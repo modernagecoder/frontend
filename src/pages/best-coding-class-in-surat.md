@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Surat | Modern Age Coders"
 description: "Live online coding & maths classes in Surat for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-surat
-keywords: ["best coding classes in Surat", "coding for kids in Surat", "coding for teens in Surat", "programming classes Surat", "coding institute Surat", "online coding classes Surat", "coding classes near me Surat", "Scratch programming Surat", "Python for kids Surat", "web development Surat", "best coding institute in Surat", "computer classes for kids Surat"]
 source: src/pages/best-coding-class-in-surat.html
 ---
 > Live online coding & maths classes in Surat for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

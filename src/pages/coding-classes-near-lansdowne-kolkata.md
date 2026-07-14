@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Lansdowne, Kolkata"
 description: "Premium live online coding & maths classes near Lansdowne, Kolkata. Small batches, project-based, taught by engineers. Python, Java, AI/ML. Free demo class."
 canonical: https://learn.modernagecoders.com/coding-classes-near-lansdowne-kolkata
-keywords: ["coding classes near Lansdowne Kolkata", "maths tuition Lansdowne", "Sarat Bose Road coding classes", "Python classes Kolkata", "Java ICSE classes Kolkata", "AI ML classes for teens Kolkata", "online coding classes Kolkata", "La Martiniere computer applications", "ICSE Java BlueJ tuition", "CBSE computer science Python", "coding classes for kids Kolkata", "live online maths tuition Kolkata"]
 source: src/pages/coding-classes-near-lansdowne-kolkata.html
 ---
 > Premium live online coding & maths classes near Lansdowne, Kolkata. Small batches, project-based, taught by engineers. Python, Java, AI/ML. Free demo class.

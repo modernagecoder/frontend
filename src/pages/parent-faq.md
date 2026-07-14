@@ -2,7 +2,6 @@
 title: "Parent FAQ | Every Question About Our Classes, Answered Plainly | Modern Age Coders"
 description: "Thirty-plus real parent questions answered plainly: enrollment, class format, pricing (coding $40-$100, maths $100-$150), safety, recordings, time zones, progress and policies. Plus the fastest FAQ of all: the free trial class."
 canonical: https://learn.modernagecoders.com/parent-faq
-keywords: ["modern age coders faq", "parent faq online classes", "online coding classes questions", "online maths tuition questions", "kids online class safety", "online class pricing questions", "coding classes how it works"]
 source: src/pages/parent-faq.html
 ---
 > Thirty-plus real parent questions answered plainly: enrollment, class format, pricing (coding $40-$100, maths $100-$150), safety, recordings, time zones, progress and policies. Plus the fastest FAQ of all: the free trial class.

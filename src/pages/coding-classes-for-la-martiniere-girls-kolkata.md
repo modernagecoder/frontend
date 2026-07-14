@@ -2,7 +2,6 @@
 title: "Coding Classes for La Martiniere for Girls Students | Python, AI & Maths | Modern Age Coders"
 description: "Best coding classes for La Martiniere for Girls students in Kolkata. Python, Java, AI, web development & ICSE maths. Girls-only batches, expert instructors, flexible after-school schedules. ₹1499/mo. Book a free demo class!"
 canonical: https://learn.modernagecoders.com/coding-classes-for-la-martiniere-girls-kolkata
-keywords: ["coding classes for La Martiniere Girls students", "coding classes for girls Kolkata", "Python course for girls near La Martiniere Kolkata", "after school coding La Martiniere Girls", "maths tuition for La Martiniere Girls Kolkata", "girls coding program Kolkata", "La Martiniere Girls coding", "ICSE coding classes Kolkata", "coding for girls Rawdon Street", "STEM for girls Kolkata", "coding classes near me Kolkata", "online coding classes for kids Kolkata"]
 source: src/pages/coding-classes-for-la-martiniere-girls-kolkata.html
 ---
 > Best coding classes for La Martiniere for Girls students in Kolkata. Python, Java, AI, web development & ICSE maths. Girls-only batches, expert instructors, flexible after-school schedules. ₹1499/mo. Book a free demo class!

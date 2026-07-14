@@ -1370,7 +1370,7 @@
           },
           {
             "title": "Should I learn AI or web development first?",
-            "content": "If you're a complete beginner to programming: Start with web development (HTML, CSS, JavaScript) or Python basics. Get comfortable with programming concepts first (1-2 months). Then move to AI. If you already know programming basics: Jump straight into AI with Python. Web development and AI are different paths—choose based on your interests. That said, knowing both is valuable—many AI applications need web interfaces. Our <a href='/courses/web-development-for-teens-complete-guide'>Web Development course</a> and <a href='/courses/python-complete-masterclass-teens'>Python course</a> can help you start either path."
+            "content": "If you're a complete beginner to programming: Start with web development (HTML, CSS, JavaScript) or Python basics. Get comfortable with programming concepts first (1-2 months). Then move to AI. If you already know programming basics: Jump straight into AI with Python. Web development and AI are different paths—choose based on your interests. That said, knowing both is valuable—many AI applications need web interfaces. Our <a href='/courses/full-stack-web-development-teens-masterclass'>Web Development course</a> and <a href='/courses/python-complete-masterclass-teens'>Python course</a> can help you start either path."
           },
           {
             "title": "What's the difference between ChatGPT and traditional AI?",

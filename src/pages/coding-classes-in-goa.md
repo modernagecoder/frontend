@@ -2,7 +2,6 @@
 title: "Coding Classes in Goa | Python, AI & Web Dev"
 description: "Live online coding & maths classes in Goa for kids, teens & adults. Scratch, Python, AI, Java & DSA across Panaji, Margao & Vasco. Rated 4.9/5. Free demo!"
 canonical: https://learn.modernagecoders.com/coding-classes-in-goa
-keywords: ["coding classes in Goa", "online coding classes Goa", "coding classes for kids Goa", "Python classes Goa", "AI course for kids Goa", "coding institute Goa", "learn coding Goa", "coding classes Panaji", "coding classes Margao", "coding classes Vasco da Gama", "coding classes Mapusa", "GBSHSE coding"]
 source: src/pages/coding-classes-in-goa.html
 ---
 > Live online coding & maths classes in Goa for kids, teens & adults. Scratch, Python, AI, Java & DSA across Panaji, Margao & Vasco. Rated 4.9/5. Free demo!

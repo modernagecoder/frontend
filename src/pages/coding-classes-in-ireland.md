@@ -2,7 +2,6 @@
 title: "Online Coding & AI Classes in Ireland | Leaving Cert"
 description: "Live 1:1 online coding, Python & AI for students across Ireland. Junior Cycle & Leaving Cert aligned; Trinity, UCD & UCC ready. EUR 92 (USD 100) a month."
 canonical: https://learn.modernagecoders.com/coding-classes-in-ireland
-keywords: ["coding classes Ireland", "coding classes Dublin", "coding classes Cork", "coding classes Galway", "coding classes Limerick", "coding classes Waterford", "online coding classes Ireland", "Python tutor Dublin", "Python tutor Cork", "AI course Ireland", "agentic AI Ireland", "Junior Cycle Coding tutor"]
 source: src/pages/coding-classes-in-ireland.html
 ---
 > Live 1:1 online coding, Python & AI for students across Ireland. Junior Cycle & Leaving Cert aligned; Trinity, UCD & UCC ready. EUR 92 (USD 100) a month.

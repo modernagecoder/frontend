@@ -2,7 +2,6 @@
 title: "Online Math Tutor for 8th Grade | Live 1:1 Classes | Modern Age Coders"
 description: "Live 1:1 online math tutoring for 8th graders: slope with meaning, functions as machines, industrial-strength equations and honest Algebra 1 readiness. One-hour classes twice a week, free demo class."
 canonical: https://learn.modernagecoders.com/online-math-tutor-8th-grade
-keywords: ["online math tutor 8th grade", "8th grade math help", "math tutor for 13 year old", "grade 8 math tutoring", "slope help", "linear equations help", "functions 8th grade", "algebra 1 readiness", "pre algebra tutor online", "common core 8th grade math"]
 source: src/pages/online-math-tutor-8th-grade.html
 ---
 > Live 1:1 online math tutoring for 8th graders: slope with meaning, functions as machines, industrial-strength equations and honest Algebra 1 readiness. One-hour classes twice a week, free demo class.

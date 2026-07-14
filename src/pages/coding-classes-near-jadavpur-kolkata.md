@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Jadavpur, Kolkata"
 description: "Live online, small-batch coding & maths classes near Jadavpur — Python, Java, AI/ML & ICSE/CBSE board prep. Taught by full-time engineers. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-jadavpur-kolkata
-keywords: ["coding classes near Jadavpur", "coding classes Jadavpur Kolkata", "Python classes Jadavpur", "Java BlueJ classes Jadavpur", "ICSE computer applications Jadavpur", "CBSE computer science Jadavpur", "online maths tuition Jadavpur", "AI ML classes for teens Kolkata", "coding classes Bagha Jatin", "coding classes Santoshpur", "DSA classes Jadavpur University", "kids coding Patuli"]
 source: src/pages/coding-classes-near-jadavpur-kolkata.html
 ---
 > Live online, small-batch coding & maths classes near Jadavpur — Python, Java, AI/ML & ICSE/CBSE board prep. Taught by full-time engineers. Book a free demo.

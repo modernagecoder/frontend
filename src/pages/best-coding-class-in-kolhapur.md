@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Kolhapur | Modern Age Coders"
 description: "Coding classes in Kolhapur for kids, teens & adults. Live online Python, AI, Java, Web Dev & MHT-CET/JEE-aligned logic. Rated 4.9/5. Book a free demo today!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-kolhapur
-keywords: ["best coding classes in Kolhapur", "coding classes in Kolhapur", "coding for kids in Kolhapur", "coding for teens in Kolhapur", "programming classes Kolhapur", "coding institute Kolhapur", "online coding classes Kolhapur", "coding classes near me Kolhapur", "Scratch programming Kolhapur", "Python for kids Kolhapur", "web development course Kolhapur", "best coding institute in Kolhapur"]
 source: src/pages/best-coding-class-in-kolhapur.html
 ---
 > Coding classes in Kolhapur for kids, teens & adults. Live online Python, AI, Java, Web Dev & MHT-CET/JEE-aligned logic. Rated 4.9/5. Book a free demo today!

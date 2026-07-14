@@ -2,7 +2,6 @@
 title: "Online AI & Machine Learning Classes | Live, Mentor-Led in India"
 description: "Online AI &amp; machine learning classes — live, mentor-led and hands-on. Small batches, real projects, recorded sessions and doubt support. Learn Python, ML and deep learning from anywhere in India. Free demo."
 canonical: https://learn.modernagecoders.com/online-ai-and-machine-learning-classes
-keywords: ["online ai and machine learning classes", "online ml classes", "live ai ml classes", "online machine learning course india", "ai ml classes online", "learn ai online", "online deep learning classes", "live online ml course", "ai ml online classes india", "virtual ai ml course"]
 source: src/pages/online-ai-and-machine-learning-classes.html
 ---
 > Online AI &amp; machine learning classes — live, mentor-led and hands-on. Small batches, real projects, recorded sessions and doubt support. Learn Python, ML and deep learning from anywhere in India. Free demo.

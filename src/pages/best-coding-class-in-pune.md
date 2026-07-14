@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Pune | Modern Age Coders"
 description: "Live online coding & maths classes in Pune for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-pune
-keywords: ["best coding classes in Pune", "coding for kids in Pune", "coding for teens in Pune", "programming classes Pune", "coding institute Pune", "online coding classes Pune", "coding classes near me Pune", "Scratch programming Pune", "Python for kids Pune", "web development Pune", "best coding institute in Pune", "computer classes for kids Pune"]
 source: src/pages/best-coding-class-in-pune.html
 ---
 > Live online coding & maths classes in Pune for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

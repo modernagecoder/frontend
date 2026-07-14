@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Southern Avenue"
 description: "Premium live online coding & maths classes near Southern Avenue, Kolkata. Small batches, real engineers. Python, Java & AI for South Point & ICSE families."
 canonical: https://learn.modernagecoders.com/coding-classes-near-southern-avenue-kolkata
-keywords: ["coding classes near Southern Avenue", "coding classes Southern Avenue Kolkata", "Python classes Southern Avenue", "Java classes ICSE Kolkata", "online coding classes South Kolkata", "maths tuition Southern Avenue", "AI ML classes Kolkata", "coding classes Nava Nalanda students", "BlueJ Java ICSE Kolkata", "CBSE computer science South Point", "coding classes Dover Lane", "coding classes Lansdowne Kolkata"]
 source: src/pages/coding-classes-near-southern-avenue-kolkata.html
 ---
 > Premium live online coding & maths classes near Southern Avenue, Kolkata. Small batches, real engineers. Python, Java & AI for South Point & ICSE families.

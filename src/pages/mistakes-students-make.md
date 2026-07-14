@@ -2,7 +2,6 @@
 title: "11 Common Coding & Maths Mistakes Students Make | Modern Age Coders"
 description: "Discover the most common logic traps and misconceptions students face in coding and mathematics. Learn how to think clearly and avoid these critical mistakes."
 canonical: https://learn.modernagecoders.com/mistakes-students-make
-keywords: ["coding mistakes", "maths mistakes", "student errors", "learning tips", "programming mistakes to avoid", "logic errors in coding", "common math errors"]
 source: src/pages/mistakes-students-make.html
 ---
 > Discover the most common logic traps and misconceptions students face in coding and mathematics. Learn how to think clearly and avoid these critical mistakes.

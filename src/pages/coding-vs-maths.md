@@ -2,7 +2,6 @@
 title: "Coding vs Maths: Which Should Your Child Learn? The Honest Answer | Modern Age Coders"
 description: "They are the same muscle wearing different clothes: what each trains, how they multiply each other, the which-first decision table we use on real calls, and the fusion course that teaches maths by programming it. Free trial reads both."
 canonical: https://learn.modernagecoders.com/coding-vs-maths
-keywords: ["coding vs maths", "coding or maths for kids", "should my child learn coding or math", "coding and mathematics together", "does coding help with math", "maths through coding", "which first coding or maths", "stem for kids coding math"]
 source: src/pages/coding-vs-maths.html
 ---
 > They are the same muscle wearing different clothes: what each trains, how they multiply each other, the which-first decision table we use on real calls, and the fusion course that teaches maths by programming it. Free trial reads both.

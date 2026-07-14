@@ -2,7 +2,6 @@
 title: "Maths Tutor in Sharjah · 1:1 Online Maths Tuition, Every Curriculum — Modern Age Coders"
 description: "Looking for a maths tutor in Sharjah? Live 1:1 online maths tuition for CBSE, British, IB and MOE schools across Sharjah — Al Nahda, Al Majaz, Muwailih, University City. We teach reasoning, not rote. Gulf Standard Time. USD 150/month (about AED 550). Free trial."
 canonical: https://learn.modernagecoders.com/maths-tutor-in-sharjah
-keywords: ["maths tutor Sharjah", "maths tuition Sharjah", "online maths tutor Sharjah", "maths classes Sharjah", "CBSE maths tutor Sharjah", "GCSE maths tutor Sharjah", "IB maths tutor Sharjah", "private maths tutor Sharjah", "maths tutor Al Nahda Sharjah", "maths tutor Al Majaz", "best maths tutor Sharjah", "maths help Sharjah"]
 source: src/pages/maths-tutor-in-sharjah.html
 ---
 > Looking for a maths tutor in Sharjah? Live 1:1 online maths tuition for CBSE, British, IB and MOE schools across Sharjah — Al Nahda, Al Majaz, Muwailih, University City. We teach reasoning, not rote. Gulf Standard Time. USD 150/month (about AED 550). Free trial.

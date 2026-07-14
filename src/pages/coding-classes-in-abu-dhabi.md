@@ -2,7 +2,6 @@
 title: "Coding Classes in Abu Dhabi | Live Python & AI Courses Online"
 description: "Live online coding classes in Abu Dhabi for kids, teens and adults. Python and AI in small batches of 5 to 8, evening and weekend slots in GST. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-abu-dhabi
-keywords: ["coding classes in abu dhabi", "online coding classes abu dhabi", "coding classes for kids in abu dhabi", "python classes abu dhabi", "ai classes abu dhabi", "learn coding abu dhabi", "kids coding classes abu dhabi", "coding courses abu dhabi", "coding classes uae"]
 source: src/pages/coding-classes-in-abu-dhabi.html
 ---
 > Live online coding classes in Abu Dhabi for kids, teens and adults. Python and AI in small batches of 5 to 8, evening and weekend slots in GST. Free demo.

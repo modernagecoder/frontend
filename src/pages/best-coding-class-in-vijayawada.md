@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Vijayawada | Modern Age Coders"
 description: "Live online coding & maths classes in Vijayawada for kids, teens & adults. Python, AI, Java & EAPCET/JEE-aligned logic. Rated 4.9/5. Book a free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-vijayawada
-keywords: ["best coding classes in Vijayawada", "coding classes in Vijayawada", "coding for kids in Vijayawada", "coding for teens in Vijayawada", "programming classes Vijayawada", "coding institute Vijayawada", "online coding classes Vijayawada", "coding classes near me Vijayawada", "Scratch programming Vijayawada", "Python for kids Vijayawada", "web development course Vijayawada", "best coding institute in Vijayawada"]
 source: src/pages/best-coding-class-in-vijayawada.html
 ---
 > Live online coding & maths classes in Vijayawada for kids, teens & adults. Python, AI, Java & EAPCET/JEE-aligned logic. Rated 4.9/5. Book a free demo!

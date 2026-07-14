@@ -2,7 +2,6 @@
 title: "Coding for 12 Year Olds — Python, Web Dev, App Building & AI for Class 7 | Modern Age Coders"
 description: "Coding classes for 12 year olds. Python, HTML/CSS/JavaScript, app development and AI projects. Live 1 hour classes, 1:1 or group. Free demo with level check."
 canonical: https://learn.modernagecoders.com/coding-for-12-year-olds
-keywords: ["coding for 12 year olds", "python for 12 year olds", "coding for class 7", "javascript for kids", "html css for 12 year old", "app development for kids", "ai for 12 year olds", "coding projects class 7", "coding classes for 12 year olds", "kids coding advanced", "middle school coding", "online coding class 12 year old"]
 source: src/pages/coding-for-12-year-olds.html
 ---
 > Coding classes for 12 year olds. Python, HTML/CSS/JavaScript, app development and AI projects. Live 1 hour classes, 1:1 or group. Free demo with level check.

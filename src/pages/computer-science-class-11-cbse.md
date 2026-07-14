@@ -2,7 +2,6 @@
 title: "Computer Science Class 11 CBSE — Python, Boolean Logic & Full Syllabus Tuition | Modern Age Coders"
 description: "CBSE Class 11 Computer Science tuition. Python programming, boolean logic, number systems, computer networks, emerging trends — NCERT-aligned. 1 hour live classes."
 canonical: https://learn.modernagecoders.com/computer-science-class-11-cbse
-keywords: ["computer science class 11 cbse", "cbse class 11 cs", "class 11 python cbse", "cbse class 11 cs tuition", "cbse cs 083", "class 11 cs syllabus", "cbse class 11 cs ncert", "class 11 boolean algebra", "class 11 number systems", "cbse 11 cs sample papers", "python for class 11 cbse", "class 11 cs online tuition"]
 source: src/pages/computer-science-class-11-cbse.html
 ---
 > CBSE Class 11 Computer Science tuition. Python programming, boolean logic, number systems, computer networks, emerging trends — NCERT-aligned. 1 hour live classes.

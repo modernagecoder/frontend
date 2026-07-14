@@ -2,7 +2,6 @@
 title: "Coding Classes in Assam | Python, AI & Web Dev"
 description: "Live online coding & maths classes in Assam for kids, teens & adults. Scratch, Python, AI, Java & DSA across Guwahati & Dibrugarh. Rated 4.9/5. Free demo!"
 canonical: https://learn.modernagecoders.com/coding-classes-in-assam
-keywords: ["coding classes in Assam", "online coding classes Assam", "coding classes for kids Assam", "Python classes Assam", "AI course for kids Assam", "coding institute Assam", "learn coding Assam", "coding classes Guwahati", "coding classes Dibrugarh", "coding classes Silchar", "coding classes Jorhat", "SEBA coding"]
 source: src/pages/coding-classes-in-assam.html
 ---
 > Live online coding & maths classes in Assam for kids, teens & adults. Scratch, Python, AI, Java & DSA across Guwahati & Dibrugarh. Rated 4.9/5. Free demo!

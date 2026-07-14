@@ -2,7 +2,6 @@
 title: "Coding Classes in Rajasthan | Online for Kids, Teens & Adults"
 description: "Live online coding & maths classes in Rajasthan for kids, teens & adults. Python, AI, Java & Web Dev across Jaipur, Jodhpur & Udaipur. Rated 4.9/5. Free demo!"
 canonical: https://learn.modernagecoders.com/coding-classes-in-rajasthan
-keywords: ["coding classes in Rajasthan", "online coding classes Rajasthan", "coding classes for kids Rajasthan", "Python classes Rajasthan", "AI course for kids Rajasthan", "coding institute Rajasthan", "learn coding Rajasthan", "coding classes Jaipur", "coding classes Jodhpur", "coding classes Udaipur", "RBSE coding", "CBSE coding Rajasthan"]
 source: src/pages/coding-classes-in-rajasthan.html
 ---
 > Live online coding & maths classes in Rajasthan for kids, teens & adults. Python, AI, Java & Web Dev across Jaipur, Jodhpur & Udaipur. Rated 4.9/5. Free demo!

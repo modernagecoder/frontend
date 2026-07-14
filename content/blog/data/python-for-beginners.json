@@ -545,7 +545,7 @@
       {
         "type": "button",
         "text": "Explore Python Courses",
-        "url": "/courses/python",
+        "url": "/courses/python-programming-masterclass-zero-to-advanced-college",
         "style": "secondary"
       },
       {
@@ -733,7 +733,7 @@
           "<strong>Study Algorithms:</strong> Learn sorting, searching, and problem-solving techniques",
           "<strong>Join Coding Communities:</strong> Participate in forums like Stack Overflow, Reddit's r/learnpython, and Python Discord servers",
           "<strong>Practice Daily:</strong> Use platforms like HackerRank, LeetCode, Codewars, and Project Euler for coding challenges",
-          "<strong>Enroll in Structured Courses:</strong> Join our <a href='/courses/python-complete-masterclass-teens'>Python Complete Masterclass</a> or <a href='/courses/python-programming-college'>Python for College Students</a> at Modern Age Coders for guided learning with expert instructors"
+          "<strong>Enroll in Structured Courses:</strong> Join our <a href='/courses/python-complete-masterclass-teens'>Python Complete Masterclass</a> or <a href='/courses/python-programming-masterclass-zero-to-advanced-college'>Python for College Students</a> at Modern Age Coders for guided learning with expert instructors"
         ]
       },
       {

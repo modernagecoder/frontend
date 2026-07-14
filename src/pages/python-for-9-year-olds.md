@@ -2,7 +2,6 @@
 title: "Python for 9 Year Olds — First Python Programs, Turtle Graphics & Games | Modern Age Coders"
 description: "Live online Python classes for 9 year olds. Turtle graphics, number guess, tiny games and first AI taster — 1 hour sessions, 1:1 or small group. Free demo."
 canonical: https://learn.modernagecoders.com/python-for-9-year-olds
-keywords: ["python for 9 year olds", "python for kids", "python for class 4", "python for beginners kids", "learn python 9 year old", "turtle python for kids", "first python program", "kid friendly python", "online python class 9 year old", "easy python for kids", "python game for kids", "python projects 9 year olds"]
 source: src/pages/python-for-9-year-olds.html
 ---
 > Live online Python classes for 9 year olds. Turtle graphics, number guess, tiny games and first AI taster — 1 hour sessions, 1:1 or small group. Free demo.

@@ -2,7 +2,6 @@
 title: "Coding Classes in Doha | Live Online Python & AI for All Ages"
 description: "Live online coding classes in Doha for kids, teens and adults. Batches of 5 to 8, evening AST slots, real projects, taught in English. Free demo class first."
 canonical: https://learn.modernagecoders.com/coding-classes-in-doha
-keywords: ["coding classes in doha", "coding classes doha", "online coding classes doha", "python classes doha", "ai classes doha", "coding for kids doha", "coding classes for teens doha", "learn to code doha", "programming courses doha qatar"]
 source: src/pages/coding-classes-in-doha.html
 ---
 > Live online coding classes in Doha for kids, teens and adults. Batches of 5 to 8, evening AST slots, real projects, taught in English. Free demo class first.

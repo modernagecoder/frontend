@@ -2,7 +2,6 @@
 title: "Online Math Tutor for 7th Grade | Live 1:1 Classes | Modern Age Coders"
 description: "Live 1:1 online math tutoring for 7th graders: proportional reasoning, rational-number arithmetic and two-step equations built from reasons, before algebra placement. One-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/online-math-tutor-7th-grade
-keywords: ["online math tutor 7th grade", "7th grade math help", "math tutor for 12 year old", "grade 7 math tutoring", "proportions help 7th grade", "integers help", "pre algebra tutor", "algebra readiness", "common core 7th grade math"]
 source: src/pages/online-math-tutor-7th-grade.html
 ---
 > Live 1:1 online math tutoring for 7th graders: proportional reasoning, rational-number arithmetic and two-step equations built from reasons, before algebra placement. One-hour classes twice a week, free demo.

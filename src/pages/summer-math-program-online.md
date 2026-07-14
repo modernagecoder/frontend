@@ -2,7 +2,6 @@
 title: "Online Summer Math Program 2026 | Catch Up or Get Ahead"
 description: "Live online summer math for grades 3-9: a diagnostic finds what last year left broken, then a dedicated mentor repairs it or previews next year. One-hour classes twice a week, vacation-friendly. Free demo."
 canonical: https://learn.modernagecoders.com/summer-math-program-online
-keywords: ["summer math program online", "summer math tutoring", "math summer school online", "prevent summer learning loss math", "get ahead in math over summer", "summer math classes for kids", "online summer math course", "math catch up summer"]
 source: src/pages/summer-math-program-online.html
 ---
 > Live online summer math for grades 3-9: a diagnostic finds what last year left broken, then a dedicated mentor repairs it or previews next year. One-hour classes twice a week, vacation-friendly. Free demo.

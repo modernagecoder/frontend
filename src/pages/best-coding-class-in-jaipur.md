@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Jaipur | Modern Age Coders"
 description: "Live online coding & maths classes in Jaipur for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-jaipur
-keywords: ["best coding classes in Jaipur", "coding for kids in Jaipur", "coding for teens in Jaipur", "programming classes Jaipur", "coding institute Jaipur", "online coding classes Jaipur", "coding classes near me Jaipur", "Scratch programming Jaipur", "Python for kids Jaipur", "web development Jaipur", "best coding institute in Jaipur", "RBSE coding class Jaipur"]
 source: src/pages/best-coding-class-in-jaipur.html
 ---
 > Live online coding & maths classes in Jaipur for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

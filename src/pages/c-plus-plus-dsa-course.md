@@ -2,7 +2,6 @@
 title: "C++ DSA Course | Data Structures & Algorithms in C++ (with STL) Online"
 description: "Master Data Structures & Algorithms in C++ with the STL. Live online DSA course — arrays, linked lists, stacks, trees, graphs, hashing, recursion & dynamic programming for placements & competitive programming. Small batches, free demo."
 canonical: https://learn.modernagecoders.com/c-plus-plus-dsa-course
-keywords: ["c++ dsa course", "data structures and algorithms in c++", "c++ stl course", "dsa with c++ online", "c++ dsa for placements", "learn dsa in c++", "c++ algorithms course", "dsa course India", "c++ data structures", "competitive programming dsa c++"]
 source: src/pages/c-plus-plus-dsa-course.html
 ---
 > Master Data Structures & Algorithms in C++ with the STL. Live online DSA course — arrays, linked lists, stacks, trees, graphs, hashing, recursion & dynamic programming for placements & competitive programming. Small batches, free demo.

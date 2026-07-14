@@ -2,7 +2,6 @@
 title: "Online Math Tutor for 12th Grade | Finish Strong, Land Ready | Modern Age Coders"
 description: "Live 1:1 senior-year math tutoring: the mid-year report protected, AP May taken seriously, a placement-test audit through spring, and an optional college-math bridge. One-hour classes twice a week, free demo."
 canonical: https://learn.modernagecoders.com/online-math-tutor-12th-grade
-keywords: ["online math tutor 12th grade", "12th grade math help", "senior year math tutoring", "precalculus tutor senior", "ap calculus senior year", "college placement test math prep", "college math readiness"]
 source: src/pages/online-math-tutor-12th-grade.html
 ---
 > Live 1:1 senior-year math tutoring: the mid-year report protected, AP May taken seriously, a placement-test audit through spring, and an optional college-math bridge. One-hour classes twice a week, free demo.

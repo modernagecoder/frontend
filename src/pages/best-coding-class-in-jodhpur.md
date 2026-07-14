@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Jodhpur | Modern Age Coders"
 description: "Live online coding & maths classes in Jodhpur for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-jodhpur
-keywords: ["best coding classes in Jodhpur", "coding for kids in Jodhpur", "coding for teens in Jodhpur", "programming classes Jodhpur", "coding institute Jodhpur", "online coding classes Jodhpur", "coding classes near me Jodhpur", "Scratch programming Jodhpur", "Python for kids Jodhpur", "web development Jodhpur", "best coding institute in Jodhpur", "Rajasthan Board coding class Jodhpur"]
 source: src/pages/best-coding-class-in-jodhpur.html
 ---
 > Live online coding & maths classes in Jodhpur for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

@@ -2,7 +2,6 @@
 title: "Coding & Maths Classes for School Students | 21 Schools | Modern Age Coders"
 description: "Dedicated coding and maths programs for students from 21+ top schools across India — DPS, Birla, La Martiniere, Heritage, Don Bosco and more. CBSE-aligned, live online, expert instructors. Book a free demo."
 canonical: https://learn.modernagecoders.com/schools
-keywords: ["coding classes for school students India", "coding classes DPS students", "coding for Birla school students", "coding classes La Martiniere", "CBSE coding and maths classes", "school coding program India", "Python classes for school kids", "after school coding India", "modern age coders schools"]
 source: src/pages/schools.html
 ---
 > Dedicated coding and maths programs for students from 21+ top schools across India — DPS, Birla, La Martiniere, Heritage, Don Bosco and more. CBSE-aligned, live online, expert instructors. Book a free demo.

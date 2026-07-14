@@ -2,7 +2,6 @@
 title: "Python for 12 Year Olds — OOP, Pygame, sklearn & Real Projects for Class 7 | Modern Age Coders"
 description: "Live online Python for 12 year olds. OOP basics, Pygame projects, sklearn with real CSVs, matplotlib charts — aligned to Class 7 syllabus. 1 hour classes."
 canonical: https://learn.modernagecoders.com/python-for-12-year-olds
-keywords: ["python for 12 year olds", "python for class 7", "cbse class 7 python", "python oop for kids", "python for 12 year old beginner", "python pygame for kids", "python matplotlib", "python sklearn kids", "python project 12 year old", "python for kids class 7", "best python class for 12 year old", "python ai class 7"]
 source: src/pages/python-for-12-year-olds.html
 ---
 > Live online Python for 12 year olds. OOP basics, Pygame projects, sklearn with real CSVs, matplotlib charts — aligned to Class 7 syllabus. 1 hour classes.

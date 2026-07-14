@@ -2,7 +2,6 @@
 title: "Coding for Class 9 — CBSE/ICSE CS, Python, Java, Full Stack & DSA | Modern Age Coders"
 description: "Coding for Class 9 students. CBSE Python + ICSE Java aligned. Full stack web, AI/ML, DSA basics — build a portfolio before Class 10 boards. 1 hour live classes."
 canonical: https://learn.modernagecoders.com/coding-for-class-9
-keywords: ["coding for class 9", "cbse class 9 computer science", "icse class 9 computer applications", "python class 9", "java class 9", "full stack class 9", "dsa class 9", "ai ml class 9", "coding for 14 year olds", "class 9 cs", "class 9 ca", "class 9 python project"]
 source: src/pages/coding-for-class-9.html
 ---
 > Coding for Class 9 students. CBSE Python + ICSE Java aligned. Full stack web, AI/ML, DSA basics — build a portfolio before Class 10 boards. 1 hour live classes.

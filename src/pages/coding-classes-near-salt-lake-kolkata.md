@@ -2,7 +2,6 @@
 title: "Coding & Maths Classes near Salt Lake, Kolkata | Live"
 description: "Live online coding & maths classes for Salt Lake & Sector V families. Small premium batches, ICSE Java + CBSE Python, real engineers. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-salt-lake-kolkata
-keywords: ["coding classes Salt Lake", "coding classes near Salt Lake Kolkata", "maths tuition Salt Lake", "Python classes Salt Lake", "Java classes Bidhannagar", "ICSE computer applications Salt Lake", "CBSE computer science Kolkata", "AI ML classes for teens Kolkata", "online coding classes Sector V", "coding classes Karunamoyee", "kids coding Salt Lake", "live online coding Kolkata"]
 source: src/pages/coding-classes-near-salt-lake-kolkata.html
 ---
 > Live online coding & maths classes for Salt Lake & Sector V families. Small premium batches, ICSE Java + CBSE Python, real engineers. Book a free demo.

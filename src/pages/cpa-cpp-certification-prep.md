@@ -2,7 +2,6 @@
 title: "CPA C++ Certification (CPA-21-02) — Full Exam Guide, Syllabus & Live Coaching | Modern Age Coders"
 description: "A complete guide to the CPA — C++ Certified Associate Programmer exam (CPA-21-02): full 5-block syllabus with weights, format (40 questions, 65 minutes, 70% to pass), cost and a study plan — plus live small-batch C++ coaching. Searching 'CLA C++'? We explain the difference. Free trial."
 canonical: https://learn.modernagecoders.com/cpa-cpp-certification-prep
-keywords: ["CPA certification", "C++ Certified Associate Programmer", "CPA-21-02", "C++ certification", "CLA C++", "CLA vs CPA", "C++ Institute certification", "how to prepare for CPA", "C++ exam syllabus", "learn C++ for certification", "CPP C++ professional"]
 source: src/pages/cpa-cpp-certification-prep.html
 ---
 > A complete guide to the CPA — C++ Certified Associate Programmer exam (CPA-21-02): full 5-block syllabus with weights, format (40 questions, 65 minutes, 70% to pass), cost and a study plan — plus live small-batch C++ coaching. Searching 'CLA C++'? We explain the difference. Free trial.

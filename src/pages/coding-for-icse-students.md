@@ -2,7 +2,6 @@
 title: "Coding for ICSE Students — Java BlueJ, Computer Applications & ISC CS | Modern Age Coders"
 description: "ICSE coding classes. Java BlueJ, Computer Applications Class 7–10 and ISC CS Class 11–12 — aligned to the exact CISCE syllabus. 1 hour live classes, 1:1 or group."
 canonical: https://learn.modernagecoders.com/coding-for-icse-students
-keywords: ["coding for icse students", "icse java", "icse computer applications", "isc computer science", "icse bluej", "icse class 10 ca", "icse class 9 ca", "isc class 11 cs", "isc class 12 cs", "icse coding institute", "icse class 7 computer", "icse class 8 computer"]
 source: src/pages/coding-for-icse-students.html
 ---
 > ICSE coding classes. Java BlueJ, Computer Applications Class 7–10 and ISC CS Class 11–12 — aligned to the exact CISCE syllabus. 1 hour live classes, 1:1 or group.

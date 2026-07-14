@@ -2,7 +2,6 @@
 title: "Best Coding Classes in Lucknow | Modern Age Coders"
 description: "Live online coding & maths classes in Lucknow for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-class-in-lucknow
-keywords: ["best coding classes in Lucknow", "coding for kids in Lucknow", "coding for teens in Lucknow", "programming classes Lucknow", "coding institute Lucknow", "online coding classes Lucknow", "coding classes near me Lucknow", "Scratch programming Lucknow", "Python for kids Lucknow", "web development Lucknow", "best coding institute in Lucknow", "computer classes for kids Lucknow"]
 source: src/pages/best-coding-class-in-lucknow.html
 ---
 > Live online coding & maths classes in Lucknow for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!

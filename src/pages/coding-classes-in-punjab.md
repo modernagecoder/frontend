@@ -2,7 +2,6 @@
 title: "Coding Classes in Punjab | Online Python, AI & Web Dev for All Ages"
 description: "Live online coding & maths classes in Punjab for kids, teens & adults. Python, AI, Java & Web Dev across Amritsar, Ludhiana & Jalandhar. Rated 4.9/5. Free demo!"
 canonical: https://learn.modernagecoders.com/coding-classes-in-punjab
-keywords: ["coding classes in Punjab", "online coding classes Punjab", "coding classes for kids Punjab", "Python classes Punjab", "AI course for kids Punjab", "coding institute Punjab", "learn coding Punjab", "coding classes Amritsar", "coding classes Ludhiana", "coding classes Jalandhar", "coding classes Mohali", "coding classes Patiala"]
 source: src/pages/coding-classes-in-punjab.html
 ---
 > Live online coding & maths classes in Punjab for kids, teens & adults. Python, AI, Java & Web Dev across Amritsar, Ludhiana & Jalandhar. Rated 4.9/5. Free demo!

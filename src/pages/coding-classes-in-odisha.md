@@ -2,7 +2,6 @@
 title: "Coding Classes in Odisha | Python, AI & Web Dev"
 description: "Live online coding & maths classes in Odisha for kids, teens & adults. Python, AI, Java & Web Dev across Bhubaneswar & Cuttack. Rated 4.9/5. Free demo!"
 canonical: https://learn.modernagecoders.com/coding-classes-in-odisha
-keywords: ["coding classes in Odisha", "online coding classes Odisha", "coding classes for kids Odisha", "Python classes Odisha", "AI course for kids Odisha", "coding institute Odisha", "learn coding Odisha", "coding classes Bhubaneswar", "coding classes Cuttack", "coding classes Rourkela", "coding classes Sambalpur", "OJEE maths coaching"]
 source: src/pages/coding-classes-in-odisha.html
 ---
 > Live online coding & maths classes in Odisha for kids, teens & adults. Python, AI, Java & Web Dev across Bhubaneswar & Cuttack. Rated 4.9/5. Free demo!

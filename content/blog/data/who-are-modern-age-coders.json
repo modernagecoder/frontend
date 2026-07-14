@@ -157,9 +157,9 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Kids (6-12 years):</strong> Visual programming, game-based learning, creativity-focused projects with <a href='/courses/scratch-programming-complete-course'>Scratch</a> and <a href='/courses/kids-coding-complete'>block-based coding</a>",
-          "<strong>Teens (13-19 years):</strong> Real programming languages, career-focused skills, portfolio-building projects with <a href='/courses/python-complete-masterclass-teens'>Python</a>, <a href='/courses/frontend-web-development-complete-masterclass-teens'>web development</a>, and <a href='/courses/complete-app-development-masterclass-for-teens'>app development</a>",
-          "<strong>College Students:</strong> Industry-standard technologies, advanced concepts, job-ready skills with <a href='/courses/full-stack-web-development-masterclass-college'>full-stack development</a>, <a href='/courses/mern-stack-complete-masterclass-college'>MERN stack</a>, and <a href='/courses/data-science-complete-masterclass-college'>data science</a>",
+          "<strong>Kids (6-12 years):</strong> Visual programming, game-based learning, creativity-focused projects with <a href='/courses/scratch-programming-complete-course'>Scratch</a> and <a href='/courses/kids-coding-blocks-masterclass'>block-based coding</a>",
+          "<strong>Teens (13-19 years):</strong> Real programming languages, career-focused skills, portfolio-building projects with <a href='/courses/python-complete-masterclass-teens'>Python</a>, <a href='/courses/frontend-development-masterclass-for-teens'>web development</a>, and <a href='/courses/complete-app-development-masterclass-for-teens'>app development</a>",
+          "<strong>College Students:</strong> Industry-standard technologies, advanced concepts, job-ready skills with <a href='/courses/full-stack-web-development-masterclass-college'>full-stack development</a>, <a href='/courses/mern-stack-development-masterclass-college'>MERN stack</a>, and <a href='/courses/data-science-complete-masterclass-college'>data science</a>",
           "<strong>Adults & Professionals:</strong> Career transition programs, upskilling courses, practical business applications"
         ]
       },
@@ -394,7 +394,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Our <a href='/courses/python-complete-masterclass-teens'>Python</a>, <a href='/courses/frontend-web-development-complete-masterclass-teens'>web development</a>, and <a href='/courses/complete-app-development-masterclass-for-teens'>app development</a> courses are designed specifically for teen learners with teen-relevant projects."
+        "text": "Our <a href='/courses/python-complete-masterclass-teens'>Python</a>, <a href='/courses/frontend-development-masterclass-for-teens'>web development</a>, and <a href='/courses/complete-app-development-masterclass-for-teens'>app development</a> courses are designed specifically for teen learners with teen-relevant projects."
       },
       {
         "type": "heading",
@@ -403,7 +403,7 @@
       },
       {
         "type": "paragraph",
-        "text": "College students choose us to supplement their formal education with practical, industry-relevant skills. Our <a href='/courses/full-stack-web-development-masterclass-college'>full-stack</a>, <a href='/courses/mern-stack-complete-masterclass-college'>MERN stack</a>, and <a href='/courses/data-science-complete-masterclass-college'>data science</a> courses prepare them for internships and jobs."
+        "text": "College students choose us to supplement their formal education with practical, industry-relevant skills. Our <a href='/courses/full-stack-web-development-masterclass-college'>full-stack</a>, <a href='/courses/mern-stack-development-masterclass-college'>MERN stack</a>, and <a href='/courses/data-science-complete-masterclass-college'>data science</a> courses prepare them for internships and jobs."
       },
       {
         "type": "paragraph",
@@ -593,8 +593,8 @@
         "style": "unordered",
         "items": [
           "<a href='/courses/scratch-programming-complete-course'>Scratch Programming</a> - Visual coding through games and animations",
-          "<a href='/courses/kids-coding-complete'>Kids Coding Complete</a> - Introduction to programming concepts",
-          "<a href='/courses/kids-web-design'>Kids Web Design</a> - Build your first websites",
+          "<a href='/courses/kids-coding-blocks-masterclass'>Kids Coding Complete</a> - Introduction to programming concepts",
+          "<a href='/courses/kids-ai-web-development-course'>Kids Web Design</a> - Build your first websites",
           "Blockly and visual programming courses"
         ]
       },
@@ -608,10 +608,10 @@
         "style": "unordered",
         "items": [
           "<a href='/courses/python-complete-masterclass-teens'>Python Complete Masterclass</a> - From basics to advanced projects",
-          "<a href='/courses/frontend-web-development-complete-masterclass-teens'>Frontend Web Development</a> - HTML, CSS, JavaScript mastery",
-          "<a href='/courses/backend-web-development-complete-masterclass-teens'>Backend Development</a> - Server-side programming",
+          "<a href='/courses/frontend-development-masterclass-for-teens'>Frontend Web Development</a> - HTML, CSS, JavaScript mastery",
+          "<a href='/courses/backend-coding-masterclass-for-teens'>Backend Development</a> - Server-side programming",
           "<a href='/courses/complete-app-development-masterclass-for-teens'>App Development</a> - Build mobile applications",
-          "<a href='/courses/full-stack-web-development-complete-masterclass-teens'>Full-Stack Development</a> - Complete web development"
+          "<a href='/courses/full-stack-web-development-teens-masterclass'>Full-Stack Development</a> - Complete web development"
         ]
       },
       {
@@ -624,7 +624,7 @@
         "style": "unordered",
         "items": [
           "<a href='/courses/full-stack-web-development-masterclass-college'>Full-Stack Web Development</a> - Industry-ready skills",
-          "<a href='/courses/mern-stack-complete-masterclass-college'>MERN Stack</a> - MongoDB, Express, React, Node.js",
+          "<a href='/courses/mern-stack-development-masterclass-college'>MERN Stack</a> - MongoDB, Express, React, Node.js",
           "<a href='/courses/data-science-complete-masterclass-college'>Data Science</a> - Analytics and machine learning",
           "<a href='/courses/ai-ml-masterclass-complete-college'>AI & Machine Learning</a> - Artificial intelligence fundamentals",
           "<a href='/courses/react-js-complete-masterclass-college'>React.js</a> - Modern frontend framework"

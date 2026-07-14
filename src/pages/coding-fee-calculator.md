@@ -2,7 +2,6 @@
 title: "Coding Class Fee Calculator — Instant Transparent Pricing for India & Global | Modern Age Coders"
 description: "An honest, instant fee calculator for Modern Age Coders. Pick your child's age, the language or skill, the intensity and the country — get a real fee quote in seconds, plus any scholarship you may qualify for. No callbacks demanded. No hidden charges. Used by 22,000+ families."
 canonical: https://learn.modernagecoders.com/coding-fee-calculator
-keywords: ["coding class fees", "coding course fees india", "online coding class price", "coding bootcamp fees", "kids coding fees", "python class fees", "ai class fees", "coding fee calculator", "transparent coding pricing", "modern age coders fees", "coding fees abroad", "coding fees usa uk canada"]
 source: src/pages/coding-fee-calculator.html
 ---
 > An honest, instant fee calculator for Modern Age Coders. Pick your child's age, the language or skill, the intensity and the country — get a real fee quote in seconds, plus any scholarship you may qualify for. No callbacks demanded. No hidden charges. Used by 22,000+ families.

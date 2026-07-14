@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Alipore, Kolkata"
 description: "Live online coding and maths classes near Alipore, Kolkata. Small batches of 6-8, Python, Java, AI/ML, ISC/ICSE board prep. Free demo. From ₹1,499/month."
 canonical: https://learn.modernagecoders.com/coding-classes-near-alipore-kolkata
-keywords: ["coding classes near Alipore", "coding classes in Alipore Kolkata", "maths tuition Alipore", "Python classes Alipore", "Java classes Alipore", "AI ML classes Kolkata", "ICSE computer science Alipore", "ISC computer applications tuition", "online coding classes Kolkata", "coding for kids Alipore", "La Martiniere computer science tuition", "BlueJ Java ICSE Kolkata"]
 source: src/pages/coding-classes-near-alipore-kolkata.html
 ---
 > Live online coding and maths classes near Alipore, Kolkata. Small batches of 6-8, Python, Java, AI/ML, ISC/ICSE board prep. Free demo. From ₹1,499/month.

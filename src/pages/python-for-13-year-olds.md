@@ -2,7 +2,6 @@
 title: "Python for 13 Year Olds — OOP, Flask APIs, sklearn ML & Portfolio Projects | Modern Age Coders"
 description: "Python classes for 13 year olds. OOP with inheritance, Flask REST APIs, sklearn ML with Kaggle datasets — build a real portfolio. 1 hour live classes."
 canonical: https://learn.modernagecoders.com/python-for-13-year-olds
-keywords: ["python for 13 year olds", "python for class 8", "python oop for teens", "flask for teens", "sklearn ml teens", "python for 13 year old", "python portfolio teen", "python projects class 8", "python for 8th grade", "cbse class 8 python", "best python class 13 year old", "python ai class 8 teens"]
 source: src/pages/python-for-13-year-olds.html
 ---
 > Python classes for 13 year olds. OOP with inheritance, Flask REST APIs, sklearn ML with Kaggle datasets — build a real portfolio. 1 hour live classes.

@@ -2,7 +2,6 @@
 title: "Live Online Coding & Maths Classes near Liluah, Howrah"
 description: "Live online coding & maths classes for Liluah, Howrah. Small batches, project-based Python, Java, AI/ML & maths by full-time engineers. Free demo, no commute."
 canonical: https://learn.modernagecoders.com/coding-classes-near-liluah-howrah
-keywords: ["coding classes near Liluah", "coding classes Liluah Howrah", "online coding classes Liluah", "Python classes Liluah", "Java classes Liluah", "AI ML classes Liluah", "maths tuition Liluah", "ICSE computer applications Liluah", "CBSE Python classes Howrah", "coding for kids Liluah", "Don Bosco Liluah coding", "MCKV coding classes"]
 source: src/pages/coding-classes-near-liluah-howrah.html
 ---
 > Live online coding & maths classes for Liluah, Howrah. Small batches, project-based Python, Java, AI/ML & maths by full-time engineers. Free demo, no commute.

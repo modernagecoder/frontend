@@ -2,7 +2,6 @@
 title: "AP Statistics Tutoring Online · 1:1 AP Stats Prep — Modern Age Coders"
 description: "Live 1:1 online AP Statistics tutoring. We teach what the statistics actually mean — sampling, probability, inference and p-values — then train the free-response and investigative-task writing the exam scores. College Board CED aligned. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/ap-statistics-tutoring-online
-keywords: ["AP Statistics tutoring online", "AP Stats tutor", "AP Statistics prep", "AP Stats free response", "AP Statistics exam", "statistics tutor online", "hypothesis testing tutor", "confidence intervals AP Stats", "p-value explained", "AP Stats inference", "sampling distributions", "AP Statistics 5"]
 source: src/pages/ap-statistics-tutoring-online.html
 ---
 > Live 1:1 online AP Statistics tutoring. We teach what the statistics actually mean — sampling, probability, inference and p-values — then train the free-response and investigative-task writing the exam scores. College Board CED aligned. Mentors in every US time zone. $150/month, 8 classes. Free trial.
