@@ -102,6 +102,14 @@ const say = (label, items, hint) => {
   if (hint) console.error(`  → ${hint}`);
 };
 
+// Warnings are reported but never fail the build.
+const warn = (label, items, hint) => {
+  if (!items.length) return;
+  console.log(`\n⚠️  ${label} (${items.length})`);
+  items.slice(0, 25).forEach((i) => console.log(`    ${i}`));
+  if (hint) console.log(`  → ${hint}`);
+};
+
 console.log(
   `sitemap.xml: ${locs.length} URLs · blog JSONs: ${blogSlugs.size} · course JSONs: ${courseSlugs.size}`
 );
@@ -118,10 +126,12 @@ say(
   courseMissing,
   'add a <url> block for each: ' + BASE + '/courses/<slug>'
 );
-say(
-  'Duplicate course slugs (one URL, two JSONs — one silently wins)',
-  slugClashes.map(([slug, files]) => `${slug}  ←  ${files.join(' , ')}`),
-  'give each course its own slug'
+// Not fatal: generate-courses.js sorts its file list, so the winner is deterministic
+// and it prints which file won. Kept visible here so a collision can't be forgotten.
+warn(
+  'Duplicate course slugs (two JSONs, one URL — the last one alphabetically wins)',
+  slugClashes.map(([slug, files]) => `${slug}  ←  ${files.join(' , ')}  (wins: ${files.slice().sort().pop()})`),
+  'intentional? fine. Otherwise give each course its own slug.'
 );
 say('Duplicate <loc> entries', [...dupes]);
 say('Invalid or future <lastmod> values', badDates, 'lastmod must be a real past date');

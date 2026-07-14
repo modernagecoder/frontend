@@ -125,12 +125,33 @@ class CourseGenerator {
             // Load template
             const template = fs.readFileSync(this.templatePath, 'utf8');
 
-            // Get course files
-            const courseFiles = fs.readdirSync(this.dataDir).filter(f => f.endsWith('.json'));
+            // Get course files.
+            // Sorted: readdir order is filesystem-dependent (Windows returns names sorted,
+            // Linux/Netlify returns inode order). Two JSONs can declare the same meta.slug,
+            // and whichever is written last wins — so an unsorted read means the build can
+            // publish a different title/price on Netlify than it does locally.
+            const courseFiles = fs.readdirSync(this.dataDir).filter(f => f.endsWith('.json')).sort();
 
             if (courseFiles.length === 0) {
                 console.log('⚠️  No course files found');
                 return;
+            }
+
+            // Warn loudly on slug collisions instead of letting one file silently clobber another.
+            const slugOwners = new Map();
+            for (const file of courseFiles) {
+                try {
+                    const meta = JSON.parse(fs.readFileSync(path.join(this.dataDir, file), 'utf8')).meta;
+                    if (!meta || !meta.slug) continue;
+                    if (!slugOwners.has(meta.slug)) slugOwners.set(meta.slug, []);
+                    slugOwners.get(meta.slug).push(file);
+                } catch (_) { /* per-file parse errors are reported in the generate loop below */ }
+            }
+            for (const [slug, files] of slugOwners) {
+                if (files.length > 1) {
+                    console.log(`⚠️  Slug collision "${slug}": ${files.join(', ')}`);
+                    console.log(`   → "${files[files.length - 1]}" is written last and wins. The others never reach the site.`);
+                }
             }
 
             // Copy CSS files from template to generated directory
