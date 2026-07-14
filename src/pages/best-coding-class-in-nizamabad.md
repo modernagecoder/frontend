@@ -12,7 +12,7 @@ Live online · serving Nizamabad
 
 Real programming for kids, teens and college students in Nizamabad — from **Gandhi Chowk / Tilak Road to Khaleelwadi, Vinayak Nagar to Subhash Nagar**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Nizamabad)★★★★★ **4.9/5****500+** students across India**5–8** students per batchFirst class is **free**NizamabadEnrollingAreasGandhi Chowk / Tilak Road, Khaleelwadi, Vinayak Nagar, Subhash Nagar, Kanteshwar & all of NizamabadBoardsTelangana BSE/BIE · CBSE · ICSE · IGCSEAges**8–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across NizamabadFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Nizamabad)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**NizamabadEnrollingAreasGandhi Chowk / Tilak Road, Khaleelwadi, Vinayak Nagar, Subhash Nagar, Kanteshwar & all of NizamabadBoardsTelangana BSE/BIE · CBSE · ICSE · IGCSEAges**8–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across NizamabadFREE DEMO OPEN
 
 ## Where in Nizamabad we teach
 

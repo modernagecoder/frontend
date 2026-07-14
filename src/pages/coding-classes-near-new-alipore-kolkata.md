@@ -12,7 +12,7 @@ NEW ALIPORE · KOLKATA · 700053
 
 Modern Age Coders runs premium, 100% live online coding and mathematics classes for New Alipore families — never pre-recorded. We teach small batches of 3 to 8 students, project by project, from kindergarten Scratch to ISC Computer Science. Every class is led by a full-time engineer or maths graduate, delivered straight to your home in Block A, Sahapur or Sakher Bazar, with transparent fees and no brand surcharge.
 
-100% Live · Never RecordedBatches of 3-8Engineers & Maths GraduatesICSE · ISC · CBSE · IGCSE500+Students Taught Online4.9/5Parent Rating3-8Students Per Live BatchFreeFirst Demo Class[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)AT A GLANCE
+100% Live · Never RecordedBatches of 3-8Engineers & Maths GraduatesICSE · ISC · CBSE · IGCSE10,000+Students Taught Online4.9/5Parent Rating3-8Students Per Live BatchFreeFirst Demo Class[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)AT A GLANCE
 
 ## The essentials, on one page
 

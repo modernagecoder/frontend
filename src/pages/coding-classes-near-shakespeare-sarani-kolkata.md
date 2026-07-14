@@ -14,7 +14,7 @@ Modern Age Coders runs premium, live online coding and mathematics classes for f
 
 Live, never pre-recordedSmall batches of 6-8Taught by full-time engineersZero commute from Camac Street6-8Students per live batch4.9/5Parent rating6-65Ages we teach100%Live, project-based[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)
 
-Free demo · No commitment · 500+ students taught online
+Free demo · No commitment · 10,000+ students taught online
 
 At a glance
 

@@ -2,9 +2,22 @@
  * fix-visible-enrollment-numbers.js
  * ------------------------------------------------------------------
  * Replaces fabricated, per-city VISIBLE enrollment counts on the
- * geographic landing pages with truthful org-wide phrasing (the real
- * verified base is ~547 students; we use a conservative "500+ ... across
- * India"). Schema reviewCount was already normalized to 547 separately.
+ * geographic landing pages with truthful org-wide phrasing.
+ *
+ * CORRECTED 2026-07-15 (Phase 2.3). This script used to write "500+ ... across
+ * India", on the stated reasoning that "the real verified base is ~547 students".
+ * That was wrong at the root: 547 is the GOOGLE REVIEW count, not the student
+ * count. Restating reviews as students is the exact error brand-facts.json rule 4
+ * exists to stop, and because this script fans out across the geographic pages it
+ * is where most of the site's "500+" claims actually came from — including the
+ * hero strip cloned onto 131 city pages.
+ *
+ * The org-wide count now comes from scripts/brand-facts.json (10,000+). Never
+ * hard-code it here again; a number written in a fan-out script becomes a
+ * site-wide claim the moment someone re-runs it.
+ *
+ * The per-city de-fabrication rules below are unchanged and still correct — the
+ * only thing that was wrong was the number they replaced the fabrications with.
  *
  * Only touches keyword-anchored enrollment phrases with a 3-4 digit count,
  * so legitimate numbers are SAFE and untouched:
@@ -23,16 +36,19 @@ const path = require('path');
 
 const PAGES_DIR = path.join(__dirname, '..', 'src', 'pages');
 const DRY = process.argv.includes('--dry');
+// Single source of truth. See scripts/brand-facts.json.
+const FACTS = JSON.parse(fs.readFileSync(path.join(__dirname, 'brand-facts.json'), 'utf8'));
+const STUDENTS = FACTS.students; // "10,000+"
 const SCOPE = /^(best-coding-class-in|coding-classes-in|coding-classes-near)-.*\.(html|md)$/;
 
 // Each rule: a keyword-anchored regex + replacement. 3-4 digit counts only.
 const RULES = [
   // Hero stat strip: "214+ Students Enrolled" -> org-wide
-  { name: 'students-enrolled', re: /(\d{3,4})\+ Students Enrolled/g, to: () => '500+ Students Across India' },
+  { name: 'students-enrolled', re: /(\d{3,4})\+ Students Enrolled/g, to: () => `${STUDENTS} Students Across India` },
   // "412+ Ahmedabad families", "623+ Delhi NCR families", "391+ Jammu families have"
-  { name: 'city-families', re: /(\d{3,4})\+ [A-Za-z][a-zA-Z]+(?: [A-Za-z][a-zA-Z]+)? families\b/g, to: () => '500+ families across India' },
+  { name: 'city-families', re: /(\d{3,4})\+ [A-Za-z][a-zA-Z]+(?: [A-Za-z][a-zA-Z]+)? families\b/g, to: () => `${STUDENTS} families across India` },
   // "468+ Maharashtra learners", "311+ central Karnataka learners", "367+ Gwalior learners"
-  { name: 'region-learners', re: /(\d{3,4})\+ [A-Za-z][a-zA-Z]+(?: [A-Za-z][a-zA-Z]+)? learners\b/g, to: () => '500+ learners across India' },
+  { name: 'region-learners', re: /(\d{3,4})\+ [A-Za-z][a-zA-Z]+(?: [A-Za-z][a-zA-Z]+)? learners\b/g, to: () => `${STUDENTS} learners across India` },
   // CTA sentences keep the local detail, drop the fake number:
   // "Join 214+ students from Sanjay Place, ..." -> "Join students from Sanjay Place, ..."
   // "468+ learners from Tilak Nagar ...", "367+ young coders from ..."

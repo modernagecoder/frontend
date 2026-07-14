@@ -12,7 +12,7 @@ Live online · serving Roorkee
 
 Real programming for kids, teens and college students in Roorkee — from **Civil Lines to IIT Roorkee Campus, Cantt (Bengal Engineer Group) to BT Ganj**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Roorkee)★★★★★ **4.9/5****500+** students across India**5–8** students per batchFirst class is **free**RoorkeeEnrollingAreasCivil Lines, IIT Roorkee Campus, Cantt (Bengal Engineer Group), BT Ganj, Ramnagar & all of RoorkeeBoardsUBSE · CBSE · ICSE · IGCSEAges**8–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across RoorkeeFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Roorkee)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**RoorkeeEnrollingAreasCivil Lines, IIT Roorkee Campus, Cantt (Bengal Engineer Group), BT Ganj, Ramnagar & all of RoorkeeBoardsUBSE · CBSE · ICSE · IGCSEAges**8–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across RoorkeeFREE DEMO OPEN
 
 ## Where in Roorkee we teach
 

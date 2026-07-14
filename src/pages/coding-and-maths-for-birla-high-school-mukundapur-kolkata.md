@@ -12,7 +12,7 @@ Crafted for Students of BHS Mukundapur, Kalikapur Kolkata's First Birla Co-Educa
 
 Live online Python, AI, Web Dev & CBSE Mathematics — mapped to BHS Mukundapur's Informatics Practices, Data Science, and board curriculum. Ultra-small batches, expert mentors, JEE Maths foundation, Coding Olympiad prep. Serving families across Kalikapur, Santoshpur, Patuli & south-east Kolkata.
 
-500+ Students Mentored4.9/5 Parent RatingCBSE — IP, DS & Maths CoveredJEE & Coding Olympiad Prep[See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
+10,000+ Students Mentored4.9/5 Parent RatingCBSE — IP, DS & Maths CoveredJEE & Coding Olympiad Prep[See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
 
 ✔ 100% live online classes • Watch real lessons free • No commitment
 

@@ -12,7 +12,7 @@ Live online · serving Navi Mumbai
 
 Real programming for kids, teens and college students in Navi Mumbai — from **Vashi / Sanpada to Nerul / Seawoods, Belapur (CBD) / Kharghar to Kharghar / Kamothe**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Navi%20Mumbai)★★★★★ **4.9/5****500+** students across India**5–8** students per batchFirst class is **free**Navi MumbaiEnrollingAreasVashi / Sanpada, Nerul / Seawoods, Belapur (CBD) / Kharghar, Kharghar / Kamothe, Airoli / Ghansoli (Mindspace) & all of Navi MumbaiBoardsMaharashtra SSC/HSC · CBSE · ICSE · IGCSEAges**8–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across Navi MumbaiFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Navi%20Mumbai)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**Navi MumbaiEnrollingAreasVashi / Sanpada, Nerul / Seawoods, Belapur (CBD) / Kharghar, Kharghar / Kamothe, Airoli / Ghansoli (Mindspace) & all of Navi MumbaiBoardsMaharashtra SSC/HSC · CBSE · ICSE · IGCSEAges**8–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across Navi MumbaiFREE DEMO OPEN
 
 ## Where in Navi Mumbai we teach
 

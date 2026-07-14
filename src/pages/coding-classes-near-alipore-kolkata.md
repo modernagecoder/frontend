@@ -12,7 +12,7 @@ LIVE ONLINE · SOUTH KOLKATA · ALIPORE 700027
 
 Modern Age Coders runs live online coding and mathematics classes for Alipore families — taught in real time by full-time software engineers and maths graduates, never pre-recorded. Children learn in small batches of 6–8, building real Python, Java and AI projects from the bungalow drawing room. No crawl through Judges Court Road or the Diamond Harbour Road signal at Belvedere. Book a free demo class and judge the quality yourself.
 
-Live, not recordedBatches of 6–8Engineers & maths graduatesAges 6 to college500+Students taught online4.9/5Parent rating6–8Per live batchFreeFirst demo class[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)LIVE ONLINE · ALIPORE, KOLKATA
+Live, not recordedBatches of 6–8Engineers & maths graduatesAges 6 to college10,000+Students taught online4.9/5Parent rating6–8Per live batchFreeFirst demo class[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)LIVE ONLINE · ALIPORE, KOLKATA
 
 ## At a glance
 

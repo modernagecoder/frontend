@@ -12,7 +12,7 @@ Crafted for Students of The Heritage School, Anandapur
 
 Live online Python, AI, Web Dev & ICSE / IGCSE / IBDP Mathematics — built around Heritage School's unique multi-board calendar in Anandapur, East Kolkata Township. Ultra-small batches. ZCO & INOI Olympiad prep. Real projects, real results.
 
-500+ Students Mentored4.9/5 Parent RatingICSE / IGCSE / IBDP AlignedZCO & INOI Olympiad Prep[See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
+10,000+ Students Mentored4.9/5 Parent RatingICSE / IGCSE / IBDP AlignedZCO & INOI Olympiad Prep[See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
 
 ✔ 100% live online classes • Watch real lessons free • No commitment
 

@@ -12,7 +12,7 @@ Exclusive for DPS Vasant Kunj Students, New Delhi
 
 Live online classes in Python, Java, AI, Web Development & CBSE Mathematics — designed around your DPS Vasant Kunj Students schedule. Small batches. Expert instructors. Real projects.
 
- 500+ Students Taught  4.9/5 Parent Rating  CBSE Aligned  AI-Powered Learning [See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
+ 10,000+ Students Taught  4.9/5 Parent Rating  CBSE Aligned  AI-Powered Learning [See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
 
 ✔ 100% live online classes • Watch real lessons free • No commitment
 
@@ -279,7 +279,7 @@ Trusted by Delhi Public Schools
 
 ## We Also Teach Students from DPS R.K. Puram
 
-Families from both DPS Vasant Kunj Students and DPS R.K. Puram trust Modern Age Coders for their children's tech education. Our CBSE-aligned coding and maths curriculum is designed for all DPS Vasant Kunj Students students — with **girls-only batches** also available for DPS R.K. Puram families who prefer them. Over 500 students from New Delhi's top schools learn with us.
+Families from both DPS Vasant Kunj Students and DPS R.K. Puram trust Modern Age Coders for their children's tech education. Our CBSE-aligned coding and maths curriculum is designed for all DPS Vasant Kunj Students students — with **girls-only batches** also available for DPS R.K. Puram families who prefer them. Students from New Delhi's top schools learn with us.
 
 [Explore DPS R.K. Puram Page →](/coding-classes-for-la-martiniere-girls-New Delhi)Courses by Category
 
@@ -355,7 +355,7 @@ Our curriculum covers the full spectrum of technology education: from **Scratch 
 
 What sets us apart from other **online coding classes in New Delhi** is our small batch size of just 5-8 students, ensuring every DPS Vasant Kunj Students student receives personalized attention. Our after-school evening batches (4 PM – 8 PM) and weekend sessions are specifically designed around the demanding DPS Vasant Kunj Students schedule. Every class is recorded so your child never falls behind, even during exam season. We also offer **1-on-1 personalized classes** for families who prefer dedicated instruction with a custom learning plan.
 
-We are proud to be trusted by families from both [DPS R.K. Puram](/coding-classes-for-la-martiniere-girls-New Delhi) and DPS Vasant Kunj Students. Our instructors are experienced professionals who understand the CBSE system and know how to make coding engaging, challenging, and fun. With 500+ students taught, a 4.9/5 parent rating, and completion certificates that add genuine value to school portfolios and college applications, Modern Age Coders is the trusted choice for **DPS Vasant Kunj Students coding education in New Delhi**.
+We are proud to be trusted by families from both [DPS R.K. Puram](/coding-classes-for-la-martiniere-girls-New Delhi) and DPS Vasant Kunj Students. Our instructors are experienced professionals who understand the CBSE system and know how to make coding engaging, challenging, and fun. With 10,000+ students taught, a 4.9/5 parent rating, and completion certificates that add genuine value to school portfolios and college applications, Modern Age Coders is the trusted choice for **DPS Vasant Kunj Students coding education in New Delhi**.
 
 Whether your child wants to learn **Python programming**, build **AI-powered applications**, create **full-stack websites**, or excel in **CBSE Mathematics** and competitive exams — we have the right course, the right instructor, and the right schedule. Book a **free demo class** today and see why DPS Vasant Kunj Students families choose Modern Age Coders.
 

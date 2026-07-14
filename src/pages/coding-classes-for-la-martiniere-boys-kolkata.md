@@ -12,7 +12,7 @@ source: src/pages/coding-classes-for-la-martiniere-boys-kolkata.html
 
 Live online classes in Python, Java, AI, Web Development & ICSE Mathematics — designed around your La Martiniere for Boys schedule. Small batches. Expert instructors. Real projects.
 
- 💻 500+ Students Taught  ⭐ 4.9/5 Parent Rating  🏅 ICSE Aligned  🤖 AI-Powered Learning 🚀 Book Free Demo Class📚 Browse Courses
+ 💻 10,000+ Students Taught  ⭐ 4.9/5 Parent Rating  🏅 ICSE Aligned  🤖 AI-Powered Learning 🚀 Book Free Demo Class📚 Browse Courses
 
 ✔ Free demo • No commitment • Starts in 24 hours
 
@@ -257,7 +257,7 @@ Read more reviews on our [Wall of Love](/love).
 
 ## We Also Teach Students from La Martiniere for Girls
 
-Families from both La Martiniere for Boys and La Martiniere for Girls trust Modern Age Coders for their children's tech education. Our ICSE-aligned coding and maths curriculum is designed for all La Martiniere students — with **girls-only batches** also available for La Martiniere Girls families who prefer them. Over 500 students from Kolkata's top schools learn with us.
+Families from both La Martiniere for Boys and La Martiniere for Girls trust Modern Age Coders for their children's tech education. Our ICSE-aligned coding and maths curriculum is designed for all La Martiniere students — with **girls-only batches** also available for La Martiniere Girls families who prefer them. Students from Kolkata's top schools learn with us.
 
 [Explore La Martiniere Girls Page →](/coding-classes-for-la-martiniere-girls-kolkata)🎓 Courses by Category
 
@@ -335,7 +335,7 @@ Our curriculum covers the full spectrum of technology education: from **Scratch 
 
 What sets us apart from other **online coding classes in Kolkata** is our small batch size of just 5-8 students, ensuring every La Martiniere Boys student receives personalized attention. Our after-school evening batches (4 PM – 8 PM) and weekend sessions are specifically designed around the demanding La Martiniere schedule. Every class is recorded so your son never falls behind, even during exam season. We also offer **1-on-1 personalized classes** for families who prefer dedicated instruction with a custom learning plan.
 
-We are proud to be trusted by families from both [La Martiniere for Girls](/coding-classes-for-la-martiniere-girls-kolkata) and La Martiniere for Boys. Our instructors are experienced professionals who understand the ICSE system and know how to make coding engaging, challenging, and fun. With 500+ students taught, a 4.9/5 parent rating, and completion certificates that add genuine value to school portfolios and college applications, Modern Age Coders is the trusted choice for **La Martiniere Boys coding education in Kolkata**.
+We are proud to be trusted by families from both [La Martiniere for Girls](/coding-classes-for-la-martiniere-girls-kolkata) and La Martiniere for Boys. Our instructors are experienced professionals who understand the ICSE system and know how to make coding engaging, challenging, and fun. With 10,000+ students taught, a 4.9/5 parent rating, and completion certificates that add genuine value to school portfolios and college applications, Modern Age Coders is the trusted choice for **La Martiniere Boys coding education in Kolkata**.
 
 Whether your son wants to learn **Python programming**, build **AI-powered applications**, create **full-stack websites**, or excel in **ICSE Mathematics** and competitive exams — we have the right course, the right instructor, and the right schedule. Book a **free demo class** today and see why La Martiniere families choose Modern Age Coders.
 

@@ -12,7 +12,7 @@ Live online · serving Gurgaon
 
 Real programming for kids, teens and college students in Gurgaon — from **Cyber City / Cyber Hub / Udyog Vihar to DLF Phases 1–5, Golf Course Road / Sushant Lok to Sohna Road / South City / Nirvana Country**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Gurgaon)★★★★★ **4.9/5****500+** students across India**5–8** students per batchFirst class is **free**GurgaonEnrollingAreasCyber City / Cyber Hub / Udyog Vihar, DLF Phases 1–5, Golf Course Road / Sushant Lok, Sohna Road / South City / Nirvana Country, MG Road / Sector 14 / 29 & all of GurgaonBoardsHBSE · CBSE · ICSE · IGCSEAges**8–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across GurgaonFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Gurgaon)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**GurgaonEnrollingAreasCyber City / Cyber Hub / Udyog Vihar, DLF Phases 1–5, Golf Course Road / Sushant Lok, Sohna Road / South City / Nirvana Country, MG Road / Sector 14 / 29 & all of GurgaonBoardsHBSE · CBSE · ICSE · IGCSEAges**8–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across GurgaonFREE DEMO OPEN
 
 ## Where in Gurgaon we teach
 

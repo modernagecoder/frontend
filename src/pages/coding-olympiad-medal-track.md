@@ -142,7 +142,7 @@ The method, in four sentences
 
 ## Most coaching produces students who *know more*. We produce students who *solve more*.
 
-Modern Age Coders has been training Olympiad-track students since 2019. We have refined four habits that separate students who place from students who participate. They are unfashionable, slow, and almost embarrassingly old-school. They are also the only ones that worked.
+Modern Age Coders has been training Olympiad-track students since 2020. We have refined four habits that separate students who place from students who participate. They are unfashionable, slow, and almost embarrassingly old-school. They are also the only ones that worked.
 
 I.
 

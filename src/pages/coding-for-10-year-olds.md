@@ -12,7 +12,7 @@ For parents of 10 year olds · Class 5
 
 At 10, kids already read, reason and follow instructions. That is exactly what Python asks for. We guide them from Scratch games to real Python in about 10 weeks — live, 1 hour per session, taught by engineers who write software for a living.
 
-[Book a free demo class](/book-demo)See the curriculum**12,400+**Students taught across India & UAE**4.9 / 5**Average parent rating, 520+ reviews**1 hour**Per live session, 1:1 or small group**10 weeks**From first block to first Python program10Age cohortPython readyScratch gamesFirst AI projectCourses matched for age 10
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught across India & UAE**4.9 / 5**Average parent rating, 520+ reviews**1 hour**Per live session, 1:1 or small group**10 weeks**From first block to first Python program10Age cohortPython readyScratch gamesFirst AI projectCourses matched for age 10
 
 ## Pick the track that excites your child.
 

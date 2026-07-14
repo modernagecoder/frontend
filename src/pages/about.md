@@ -116,7 +116,7 @@ We decided to flip that. What if students started building from day one? What if
 
 "We don't just teach coding. We help students think like problem-solvers, build things they're proud of, and gain confidence that lasts beyond the classroom."
 
-Today, we've trained over 500 students across India. Some have gone on to win coding competitions. Others have built apps that their friends actually use. Many have improved their school grades because coding taught them how to think logically.
+Today, we've trained over 10,000 students across India. Some have gone on to win coding competitions. Others have built apps that their friends actually use. Many have improved their school grades because coding taught them how to think logically.
 
 On the business side, we've helped startups and companies build their digital products — from simple websites to complex AI-powered applications. We bring the same hands-on, practical approach to every project.
 

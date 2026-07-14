@@ -12,7 +12,7 @@ Live online · serving Mohali
 
 Real programming for kids, teens and college students in Mohali — from **SAS Nagar Phases 1–5 to SAS Nagar Phases 6–11, Sectors 70 / 71 to Sectors 82–91**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Mohali)★★★★★ **4.9/5****500+** students across India**5–8** students per batchFirst class is **free**MohaliEnrollingAreasSAS Nagar Phases 1–5, SAS Nagar Phases 6–11, Sectors 70 / 71, Sectors 82–91, IT City / Quark City & all of MohaliBoardsPSEB · CBSE · ICSE · IGCSEAges**8–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across MohaliFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Mohali)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**MohaliEnrollingAreasSAS Nagar Phases 1–5, SAS Nagar Phases 6–11, Sectors 70 / 71, Sectors 82–91, IT City / Quark City & all of MohaliBoardsPSEB · CBSE · ICSE · IGCSEAges**8–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across MohaliFREE DEMO OPEN
 
 ## Where in Mohali we teach
 

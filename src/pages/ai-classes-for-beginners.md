@@ -163,7 +163,7 @@ When you get stuck outside class, you are not stranded. You have a place to ask 
 
 ### A track record you can trust
 
-More than 10,000 students across 15+ countries, rated 4.9 out of 5 from 247+ reviews. We have helped a lot of beginners feel capable.
+More than 10,000 students across 15+ countries, Rated 4.9 across 547 Google reviews. We have helped a lot of beginners feel capable.
 
 How classes run
 

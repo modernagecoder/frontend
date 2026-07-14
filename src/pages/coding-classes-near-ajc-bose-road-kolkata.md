@@ -12,7 +12,7 @@ LIVE ONLINE CODING & MATHS — NEAR AJC BOSE ROAD, KOLKATA
 
 Modern Age Coders runs premium, 100% live online coding and mathematics classes for families near AJC Bose Road, Kolkata. We teach Python, Java, AI and machine learning, school maths and full ICSE/CBSE board Computer Science in small batches of three to eight students, led by full-time engineers and maths graduates. Nothing is pre-recorded. Your child learns from home, skips the Exide and Park Street traffic, and builds real projects from day one.
 
-100% Live, never recordedSmall batches of 3–8Engineer & maths-graduate teachersFree demo, no commitment[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)1,500+Students taught3–8Students per live batch4.9/5Average parent rating90 minsCommute saved / class dayLIVE ONLINE · AJC BOSE ROAD, KOLKATA
+100% Live, never recordedSmall batches of 3–8Engineer & maths-graduate teachersFree demo, no commitment[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)10,000+Students taught3–8Students per live batch4.9/5Average parent rating90 minsCommute saved / class dayLIVE ONLINE · AJC BOSE ROAD, KOLKATA
 
 ## At a glance
 

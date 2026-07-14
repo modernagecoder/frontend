@@ -84,9 +84,9 @@ Month 03 — Ship
 - Show it to three real humans outside your family. Take notes.
 - That is the moment the swap is complete. The child stops being a consumer of software and becomes a maker of it.
 
-## Real numbers from Modern Age Coders students, 2019–2026.
+## Real numbers from Modern Age Coders students, 2020–2026.
 
-11,400+Students who swapped at least one hour per day, tracked over 12 weeks.63%Reported voluntary reduction in YouTube minutes after week 6 — without parental rules.2.4×Average improvement in maths test scores within one term among students aged 10–14.11Countries where we currently teach live. India, US, UK, Canada, UAE, Singapore, Germany and more.
+10,000+Students who swapped at least one hour per day, tracked over 12 weeks.63%Reported voluntary reduction in YouTube minutes after week 6 — without parental rules.2.4×Average improvement in maths test scores within one term among students aged 10–14.11Countries where we currently teach live. India, US, UK, Canada, UAE, Singapore, Germany and more.
 
 "My son was the YouTube boy. Then he became the YouTube boy who also wrote a Telegram bot. Then he became the boy who built it for his school cricket team. The phone did not change. The child did." — Mrs. R. Iyer, parent, Bangalore, March 2026.
 

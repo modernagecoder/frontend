@@ -16,7 +16,7 @@ Modern Age Coders runs premium, 100% live online coding and mathematics classes 
 
 Free demo • No commitment • Classes start within 24 hours
 
-500+Students Mentored4.9/5Average Parent Rating6–8Students per Live Batch90 minSaved per Class DayLive Online · Shibpur, Howrah
+10,000+Students Mentored4.9/5Average Parent Rating6–8Students per Live Batch90 minSaved per Class DayLive Online · Shibpur, Howrah
 
 ## At a Glance
 

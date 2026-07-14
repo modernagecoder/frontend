@@ -12,7 +12,7 @@ Exclusive for DPS Ruby Park Students, Kolkata
 
 Live online classes in Python, Java, AI, Web Development & CBSE Mathematics — designed around your DPS Ruby Park Students schedule. Small batches. Expert instructors. Real projects.
 
- 500+ Students Taught  4.9/5 Parent Rating  CBSE Aligned  AI-Powered Learning [See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
+ 10,000+ Students Taught  4.9/5 Parent Rating  CBSE Aligned  AI-Powered Learning [See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
 
 ✔ 100% live online classes • Watch real lessons free • No commitment
 
@@ -279,7 +279,7 @@ Trusted by DPS Schools Across Kolkata
 
 ## We Also Teach Students from DPS New Town
 
-Families from both DPS Ruby Park Students and DPS New Town trust Modern Age Coders for their children's tech education. Our CBSE-aligned coding and maths curriculum is designed for all DPS Ruby Park Students students — with **girls-only batches** also available for DPS New Town families who prefer them. Over 500 students from Kolkata's top schools learn with us.
+Families from both DPS Ruby Park Students and DPS New Town trust Modern Age Coders for their children's tech education. Our CBSE-aligned coding and maths curriculum is designed for all DPS Ruby Park Students students — with **girls-only batches** also available for DPS New Town families who prefer them. Students from Kolkata's top schools learn with us.
 
 [Explore DPS New Town Page →](/coding-classes-for-dps-new-town-kolkata)Courses by Category
 
@@ -355,7 +355,7 @@ Our curriculum covers the full spectrum of technology education: from **Scratch 
 
 What sets us apart from other **online coding classes in Kolkata** is our small batch size of just 5-8 students, ensuring every DPS Ruby Park Students student receives personalized attention. Our after-school evening batches (4 PM – 8 PM) and weekend sessions are specifically designed around the demanding DPS Ruby Park Students schedule. Every class is recorded so your child never falls behind, even during exam season. We also offer **1-on-1 personalized classes** for families who prefer dedicated instruction with a custom learning plan.
 
-We are proud to be trusted by families from both [DPS New Town](/coding-classes-for-dps-new-town-kolkata) and DPS Ruby Park Students. Our instructors are experienced professionals who understand the CBSE system and know how to make coding engaging, challenging, and fun. With 500+ students taught, a 4.9/5 parent rating, and completion certificates that add genuine value to school portfolios and college applications, Modern Age Coders is the trusted choice for **DPS Ruby Park Students coding education in Kolkata**.
+We are proud to be trusted by families from both [DPS New Town](/coding-classes-for-dps-new-town-kolkata) and DPS Ruby Park Students. Our instructors are experienced professionals who understand the CBSE system and know how to make coding engaging, challenging, and fun. With 10,000+ students taught, a 4.9/5 parent rating, and completion certificates that add genuine value to school portfolios and college applications, Modern Age Coders is the trusted choice for **DPS Ruby Park Students coding education in Kolkata**.
 
 Whether your child wants to learn **Python programming**, build **AI-powered applications**, create **full-stack websites**, or excel in **CBSE Mathematics** and competitive exams — we have the right course, the right instructor, and the right schedule. Book a **free demo class** today and see why DPS Ruby Park Students families choose Modern Age Coders.
 

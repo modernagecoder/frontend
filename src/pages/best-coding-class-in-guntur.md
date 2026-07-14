@@ -12,7 +12,7 @@ Live online · serving Guntur
 
 Real programming for kids, teens and college students in Guntur — from **Brodipet to Arundelpet, Lakshmipuram to Kothapet**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Guntur)★★★★★ **4.9/5****500+** students across India**5–8** students per batchFirst class is **free**GunturEnrollingAreasBrodipet, Arundelpet, Lakshmipuram, Kothapet, Pattabhipuram & all of GunturBoardsAP BSE/BIE · CBSE · ICSE · IGCSEAges**8–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across GunturFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Guntur)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**GunturEnrollingAreasBrodipet, Arundelpet, Lakshmipuram, Kothapet, Pattabhipuram & all of GunturBoardsAP BSE/BIE · CBSE · ICSE · IGCSEAges**8–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across GunturFREE DEMO OPEN
 
 ## Where in Guntur we teach
 

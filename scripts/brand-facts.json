@@ -1,0 +1,43 @@
+{
+  "_comment": [
+    "SINGLE SOURCE OF TRUTH for every number the site claims about itself.",
+    "Phase 2.3. Before this existed, the site claimed anywhere from 100 to 22,000 students",
+    "across 82 pages — a 44x spread — plus four founding years. Cross-page consistency is a",
+    "named trust signal for AI engines: when a site cannot agree with itself, every number on",
+    "it gets discounted, including the true ones.",
+    "",
+    "RULES:",
+    "  1. Any new page pulls its numbers from here. Never hand-type a stat into a page.",
+    "  2. Only put a number here you could defend to a journalist or a regulator.",
+    "  3. A sub-group can never exceed the whole. No single country, age or course may claim",
+    "     more students than 'students'. (2,400+ German and 3,100+ 8-year-olds are fine",
+    "     against 10,000+; they were impossible against the 500+ that was briefly considered.)",
+    "  4. 'rating' comes from Google Business Profile REVIEWS. It is NOT 'rated by N students'.",
+    "     Say 'rated 4.9 across 547 Google reviews' — that is the claim you can evidence."
+  ],
+  "students": "10,000+",
+  "reviews": 547,
+  "rating": 4.9,
+  "founded": 2020,
+  "countries": "15+",
+  "batchSizes": {
+    "group": "5–8",
+    "miniBatch": "3–4",
+    "oneToOne": "1:1"
+  },
+  "_owner_decisions": {
+    "students": "Owner set 10,000+ on 2026-07-15. Cross-checks: 547 Google reviews against 10,000+ students is a ~5.5% review rate, which is normal; 500+ would imply a >100% review rate. It also matches /about, seo-config.js and the 65 existing on-page claims.",
+    "founded": "2020 — matches schema.org foundingDate and /about. Pages saying 2019/2021/2022 were drift.",
+    "reviews": "547 real Google reviews. Do not round, do not inflate, and never restate as a student count."
+  },
+  "_needs_owner_confirmation": {
+    "countries": [
+      "'15+' is the site majority (35 uses) and is the value above, but NOT swept onto anything — it is not yet evidenced, so it stays a reference value until the owner confirms it.",
+      "What IS evidenced: 14 country landing pages exist — Australia, Canada, Germany, India, Ireland, New Zealand, Qatar, Saudi Arabia, Singapore, Sweden, Switzerland, UAE, UK, US. That is 14, which does not reach '15+'.",
+      "The site also says 30+ (winter camp x6), 25+ (x3) and 11 (x4). 25+/30+ do not contradict a '15+' floor but nothing evidences them either.",
+      "The four '11 countries' uses are STALE, not wrong: screen-time-to-skill.html enumerates 11 by name and is missing exactly Qatar and Saudi Arabia — the Gulf cluster built 2026-07-10, after that page was written. Fixing means re-writing the enumerations by hand, not a sweep.",
+      "ASK THE OWNER: how many countries do students actually come from? Then sweep 11/25+/30+ to it and update the enumerated list on screen-time-to-skill.html."
+    ],
+    "dps_families": "14 DPS pages clone 'Join 500+ families from Delhi's top schools'. Left alone: 500 < 10,000 so it breaks no rule here, but it is an unevidenced subset claim worth confirming."
+  }
+}

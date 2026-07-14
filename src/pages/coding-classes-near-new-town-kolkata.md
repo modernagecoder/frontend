@@ -12,7 +12,7 @@ Live online coding & maths · New Town · Rajarhat · Action Area
 
 Modern Age Coders runs premium live online coding and mathematics classes for New Town and Rajarhat families — taught in small batches by full-time engineers and maths graduates, never pre-recorded. Your child learns Python, Java, AI/ML and strong school maths from your own Action Area or Sapoorji flat, with zero crawl through Major Arterial Road evening traffic. Aligned to DPS Newtown's ICSE Java and the Action Area schools' CBSE Python tracks. Book a free demo.
 
-Live, not recordedSmall batches (max 6-8)Engineer & maths-graduate tutorsICSE Java + CBSE Python ready[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)500+Students taught online4.9/5Average parent rating1:6Best batch ratioFreeFirst demo classAt a glance
+Live, not recordedSmall batches (max 6-8)Engineer & maths-graduate tutorsICSE Java + CBSE Python ready[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)10,000+Students taught online4.9/5Average parent rating1:6Best batch ratioFreeFirst demo classAt a glance
 
 ## The essentials, on one page
 

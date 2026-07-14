@@ -10,9 +10,9 @@ Trusted by Students from 15+ Countries
 
 # Best Coding Classes for Kids in India & Worldwide (2026)
 
-Compare the best online coding classes for kids, teens and adults. Live 1-on-1 sessions with expert instructors. Scratch, Python, AI, Web Dev and more. Rated 4.9/5 by 10,000+ students from 15+ countries. No pre-recorded videos, only real live classes.
+Compare the best online coding classes for kids, teens and adults. Live 1-on-1 sessions with expert instructors. Scratch, Python, AI, Web Dev and more. Rated 4.9 across 547 Google reviews. No pre-recorded videos, only real live classes.
 
-Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I want to know more about online coding classes)3,000+ Students TaughtRated 4.9/5 by ParentsBatches: Max 4-6 StudentsLive Online ClassesFree Demo Class
+Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I want to know more about online coding classes)10,000+ Students TaughtRated 4.9/5 by ParentsBatches: Max 4-6 StudentsLive Online ClassesFree Demo Class
 
 Why Modern Age Coders
 

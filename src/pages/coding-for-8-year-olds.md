@@ -12,7 +12,7 @@ For parents of 8 year olds · Class 3
 
 At 8, kids love building tiny worlds — a bouncing cat, a colour story, a singing pumpkin. We use Scratch and gentle block coding so they build those worlds themselves, with no typing pressure and no boredom. Live, 1 hour per session.
 
-[Book a free demo class](/book-demo)See the curriculum**3,100+**8-year-olds taught live since 2021**4.9 / 5**Parent rating across Class 2–4**1 hour**Per class, 1:1 or small group**6 weeks**To their first finished Scratch project8Age cohortScratch readyAnimated storiesFirst gameCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**3,100+**8-year-olds taught live since 2020**4.9 / 5**Parent rating across Class 2–4**1 hour**Per class, 1:1 or small group**6 weeks**To their first finished Scratch project8Age cohortScratch readyAnimated storiesFirst gameCourses matched for this level
 
 ## Courses made for 8-year-old fingers and minds.
 

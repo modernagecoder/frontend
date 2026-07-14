@@ -12,7 +12,7 @@ Designed for Mahadevi Birla World Academy, Park Circus
 
 Live online classes in Python, Java, AI, Web Development & CBSE Mathematics — built around the MBWA academic calendar on Darga Road, Park Circus. Ultra-small batches. Industry-grade mentors. Real-world projects.
 
- 500+ Students Mentored  4.9/5 Parent Rating  CBSE Aligned  AI-Powered Learning [See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
+ 10,000+ Students Mentored  4.9/5 Parent Rating  CBSE Aligned  AI-Powered Learning [See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
 
 ✔ 100% live online classes • Watch real lessons free • No commitment
 

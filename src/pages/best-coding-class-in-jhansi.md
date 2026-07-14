@@ -12,7 +12,7 @@ Live online · serving Jhansi
 
 Real programming for kids, teens and college students in Jhansi — from **Civil Lines to Sipri Bazar, Sadar Bazar to Nehru Nagar**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Jhansi)★★★★★ **4.9/5****500+** students across India**5–8** students per batchFirst class is **free**JhansiEnrollingAreasCivil Lines, Sipri Bazar, Sadar Bazar, Nehru Nagar, Gwalior Road & all of JhansiBoardsUP Board · CBSE · ICSE · IGCSEAges**8–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across JhansiFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Jhansi)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**JhansiEnrollingAreasCivil Lines, Sipri Bazar, Sadar Bazar, Nehru Nagar, Gwalior Road & all of JhansiBoardsUP Board · CBSE · ICSE · IGCSEAges**8–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across JhansiFREE DEMO OPEN
 
 ## Where in Jhansi we teach
 

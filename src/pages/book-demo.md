@@ -10,7 +10,7 @@ source: src/pages/book-demo.html
 
 Experience our world-class teaching before you commit. Try a live 1-on-1 session with our expert instructors — absolutely free, no strings attached.
 
-[Prefer to explore first? Watch real recorded classes](/how-we-teach)100% FreeNo Commitment30-45 Min Session500+ Students Trained
+[Prefer to explore first? Watch real recorded classes](/how-we-teach)100% FreeNo Commitment30-45 Min Session10,000+ Students Trained
 
 ## Schedule Your Demo
 

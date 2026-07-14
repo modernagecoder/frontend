@@ -18,7 +18,7 @@ source: src/pages/category/kids.html
 
 Our online coding classes for kids introduce children aged 6 to 12 to the world of programming through Scratch, Python, JavaScript, HTML, CSS, and AI tools. With live 1-on-1 sessions, project-based learning, and experienced instructors, your child builds real coding skills from home. They will create games, apps, websites, animations, and AI projects while developing lifelong logical thinking and problem-solving skills. No experience needed. Students from 15+ countries, certificates included.
 
-**10+**Courses**500+**Students**4.9★**Rating[Book Free Demo Class →](/contact)[View All Courses](/courses)
+**10+**Courses**10,000+**Students**4.9★**Rating[Book Free Demo Class →](/contact)[View All Courses](/courses)
 
 ## Best Coding Courses for Kids
 

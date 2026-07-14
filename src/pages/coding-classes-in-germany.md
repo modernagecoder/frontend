@@ -20,7 +20,7 @@ Online · Deutschland · +49 · CET
 
 One mentor. One student. Real Python, real JavaScript, real AI agents — taught with the rigour your child's Gymnasium would respect and the openness their future at **TUM**, **RWTH Aachen** or **SAP** will require. **USD 100 / Monat** (≈ EUR 92), eight live sessions, zwei pro Woche, no contract.
 
-See all courses4.9/5average parent & learner rating across Germany — 547 reviews2,400+German students mentored across 60+ cities since 20228 / molive 1:1 classes, two per week, on Central European TimeUSD 100monthly · ≈ EUR 92 · no joining fee · monatlich kündbar12+ yrsaverage mentor experience shipping real engineering codePick a course · start this week
+See all courses4.9/5average parent & learner rating across Germany — 547 reviews2,400+German students mentored across 60+ cities since 20208 / molive 1:1 classes, two per week, on Central European TimeUSD 100monthly · ≈ EUR 92 · no joining fee · monatlich kündbar12+ yrsaverage mentor experience shipping real engineering codePick a course · start this week
 
 ## Seven serious tracks. Eight live sessions a month. Same mentor every week.
 

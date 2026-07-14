@@ -12,7 +12,7 @@ Exclusive for DPS New Town, Kolkata
 
 Live online classes in Python, Java, AI, Web Development & CBSE Mathematics — designed around your DPS New Town Students schedule. Small batches. Expert instructors. Real projects.
 
- 500+ Students Taught  4.9/5 Parent Rating  CBSE Aligned  AI-Powered Learning [See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
+ 10,000+ Students Taught  4.9/5 Parent Rating  CBSE Aligned  AI-Powered Learning [See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
 
 ✔ 100% live online classes • Watch real lessons free • No commitment
 
@@ -279,7 +279,7 @@ Trusted by Top Tech Hub Schools
 
 ## We Also Teach Students from DPS Ruby Park
 
-Families from both DPS New Town Students and DPS New Town trust Modern Age Coders for their children's tech education. Our CBSE-aligned coding and maths curriculum is designed for all DPS New Town Students — with **girls-only batches** also available for DPS New Town families who prefer them. Over 500 students from Kolkata's top schools learn with us.
+Families from both DPS New Town Students and DPS New Town trust Modern Age Coders for their children's tech education. Our CBSE-aligned coding and maths curriculum is designed for all DPS New Town Students — with **girls-only batches** also available for DPS New Town families who prefer them. Students from Kolkata's top schools learn with us.
 
 [Explore DPS Ruby Park Page →](/coding-classes-for-dps-new-town-kolkata)Courses by Category
 

@@ -12,7 +12,7 @@ Crafted for Students of Birla High School, Moira Street, Elgin  India's #1 Boys 
 
 Live online Python, AI, Web Dev & CBSE Mathematics — built around BHS's academic calendar on Moira Street, Elgin. CBSE CS practical prep, JEE Maths foundation, Coding Olympiad training. Ultra-small batches, real projects, zero fluff.
 
-500+ Students Mentored4.9/5 Parent RatingCBSE Aligned — All ClassesJEE & Olympiad Prep[See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
+10,000+ Students Mentored4.9/5 Parent RatingCBSE Aligned — All ClassesJEE & Olympiad Prep[See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
 
 ✔ 100% live online classes • Watch real lessons free • No commitment
 

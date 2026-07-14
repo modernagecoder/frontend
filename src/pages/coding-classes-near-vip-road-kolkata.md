@@ -12,7 +12,7 @@ LIVE ONLINE · CODING & MATHS · VIP ROAD, KOLKATA
 
 Modern Age Coders runs premium, live online coding and maths classes for families along VIP Road, Baguiati, Kestopur and Sreebhumi. Every class is taught live in real time by full-time engineers and maths graduates — never pre-recorded — in small batches of six to eight. Your child learns Python, Java, AI/ML or school maths from home, without crossing the Baguiati VIP Road jam or the Kestopur Bridge bottleneck. Book a free demo.
 
-Live, not recordedBatches of 6–8Engineer & maths-graduate teachersProject-based learning500+Students taught online4.9/5Parent rating1:6Max 8 per live batchFreeFirst demo class[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)AT A GLANCE
+Live, not recordedBatches of 6–8Engineer & maths-graduate teachersProject-based learning10,000+Students taught online4.9/5Parent rating1:6Max 8 per live batchFreeFirst demo class[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)AT A GLANCE
 
 ## The VIP Road programme, in one fact sheet
 

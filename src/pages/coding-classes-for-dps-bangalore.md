@@ -12,7 +12,7 @@ Exclusive for DPS Bangalore, Bengaluru
 
 Live online classes in Python, Java, AI, Web Development & CBSE Mathematics — designed around your DPS Bangalore schedule. Small batches. Expert instructors. Real projects.
 
- 500+ Students Taught  4.9/5 Parent Rating  CBSE Aligned  AI-Powered Learning [See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
+ 10,000+ Students Taught  4.9/5 Parent Rating  CBSE Aligned  AI-Powered Learning [See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
 
 ✔ 100% live online classes • Watch real lessons free • No commitment
 
@@ -279,7 +279,7 @@ Trusted by DPS Schools Across Delhi
 
 ## We Also Teach Students from DPS Vasant Kunj
 
-Families from both DPS Bangalore and DPS Vasant Kunj trust Modern Age Coders for their children's tech education. Our CBSE-aligned coding and maths curriculum is designed for all DPS Bangalore students — with **separate batches** also available for DPS Vasant Kunj families who prefer them. Over 500 students from Delhi's top schools learn with us.
+Families from both DPS Bangalore and DPS Vasant Kunj trust Modern Age Coders for their children's tech education. Our CBSE-aligned coding and maths curriculum is designed for all DPS Bangalore students — with **separate batches** also available for DPS Vasant Kunj families who prefer them. Students from Delhi's top schools learn with us.
 
 [Explore DPS Vasant Kunj Page →](/coding-classes-for-la-martiniere-girls-Bengaluru)Courses by Category
 

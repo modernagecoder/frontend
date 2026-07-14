@@ -1,10 +1,10 @@
 ---
 title: "Coding Class Fee Calculator — Instant Transparent Pricing for India & Global | Modern Age Coders"
-description: "An honest, instant fee calculator for Modern Age Coders. Pick your child's age, the language or skill, the intensity and the country — get a real fee quote in seconds, plus any scholarship you may qualify for. No callbacks demanded. No hidden charges. Used by 22,000+ families."
+description: "An honest, instant fee calculator for Modern Age Coders. Pick your child's age, the language or skill, the intensity and the country — get a real fee quote in seconds, plus any scholarship you may qualify for. No callbacks demanded. No hidden charges. Used by 10,000+ families."
 canonical: https://learn.modernagecoders.com/coding-fee-calculator
 source: src/pages/coding-fee-calculator.html
 ---
-> An honest, instant fee calculator for Modern Age Coders. Pick your child's age, the language or skill, the intensity and the country — get a real fee quote in seconds, plus any scholarship you may qualify for. No callbacks demanded. No hidden charges. Used by 22,000+ families.
+> An honest, instant fee calculator for Modern Age Coders. Pick your child's age, the language or skill, the intensity and the country — get a real fee quote in seconds, plus any scholarship you may qualify for. No callbacks demanded. No hidden charges. Used by 10,000+ families.
 
 Honest pricing · instant quote
 
@@ -12,7 +12,7 @@ Honest pricing · instant quote
 
 Use this calculator to get a real Modern Age Coders fee in 30 seconds. We will not gate the number behind a callback. We will not pretend the price changes if you wait. Pick your child's age, the language, the intensity and the country. You will see exactly what it costs — and which scholarship you may already qualify for.
 
-Used by 22,000+ familiesLive in 11 countriesNo hidden fees, ever
+Used by 10,000+ familiesLive in 11 countriesNo hidden fees, ever
 
 ## Build your quote
 

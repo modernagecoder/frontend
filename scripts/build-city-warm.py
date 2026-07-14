@@ -9,6 +9,17 @@ demo form (ids/handler), Lenis, international-pricing. Removes AI-look canvas + 
 """
 import re, html, json, os, sys
 
+# Single source of truth for anything this builder claims about the business.
+# This template fans out to 131 city pages, so a number hard-coded here is not a
+# number on one page — it is a site-wide claim. It used to emit a hard-coded
+# "500+", which is where most of the site's inflated-by-nobody student count came
+# from. See scripts/brand-facts.json.
+_FACTS = json.loads(
+    open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "brand-facts.json"),
+         encoding="utf-8").read()
+)
+STUDENTS = _FACTS["students"]
+
 REPO="C:/Users/hp/Desktop/SkyCoders/kiro24/frontend"
 
 # ---------- static real content (shared across all cities) ----------
@@ -259,6 +270,7 @@ def render(slug):
              context_html=context_html, loc_tags=loc_tags, nearby_html=nearby_html, rails_html=rails_html,
              rev=rev, proj=proj, faq_html=faq_html, area_opts=area_opts, nb_rel=nb_rel,
              crumb_state=crumb_state, state_links=state_links, wa=wa,
+             students=STUDENTS,
              enroll_tag=esc((state or "India")))
     out=TEMPLATE
     for k,v in ctx.items():
@@ -280,7 +292,7 @@ TEMPLATE=r'''    <main id="main">
                     </div>
                     <div class="city-microtrust">
                         <span class="star">&#9733;&#9733;&#9733;&#9733;&#9733; <b>4.9/5</b></span>
-                        <span><b>500+</b> students across India</span>
+                        <span><b>@@students@@</b> students across India</span>
                         <span><b>5&ndash;8</b> students per batch</span>
                         <span>First class is <b>free</b></span>
                     </div>
