@@ -103,3 +103,12 @@ ds-bundle/
 .design-sync/node_modules
 design-system/node_modules/
 design-system/dist/
+
+# Editor/manual backups and scratch snapshots. Netlify publishes from "." so every tracked
+# file here is served: /src/pages/about.html.txt and /src/pages/course.txt returned HTTP 200
+# as indexable text/plain — stale near-duplicates of the live /about and /courses. The
+# .backup files were served too (as octet-stream). Nothing links to any of them; they are
+# kept on disk, just not deployed.
+*.backup
+/src/pages/about.html.txt
+/src/pages/course.txt
