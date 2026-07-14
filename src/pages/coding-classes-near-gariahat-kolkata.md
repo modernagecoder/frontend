@@ -13,7 +13,7 @@ LIVE ONLINE CODING & MATHS · SOUTH KOLKATA'S CROSSROADS
 
 Modern Age Coders runs premium, live online coding and maths classes for families across Gariahat, Ekdalia, Hindustan Park, Bondel Road and Ballygunge. Every class is taught live by full-time engineers and maths graduates in small batches of 3 to 8, never pre-recorded. Children learn Python, Java, AI/ML and school-to-Olympiad maths through real projects, logging in from home instead of crossing Gariahat junction traffic after dark.
 
-100% Live, never recordedBatches of 3–8 studentsFull-time engineers & maths graduatesFree demo, no commitment3–8Students per live batch1-on-1Personalised option6–65Ages we teach~60 minSaved each class, no commute[Book Free Demo Class](/contact)[Explore Courses](/courses)LIVE ONLINE · GARIAHAT, KOLKATA
+100% Live, never recordedBatches of 3–8 studentsFull-time engineers & maths graduatesFree demo, no commitment3–8Students per live batch1-on-1Personalised option6–65Ages we teach~60 minSaved each class, no commute[Book Free Demo Class](/book-demo)[Explore Courses](/courses)LIVE ONLINE · GARIAHAT, KOLKATA
 
 ## At a glance
 
@@ -137,7 +137,7 @@ We teach families across pin codes **700019**, **700029**, **700026**, **700031*
 
 GariahatBallygunge PhariHindustan ParkEkdaliaBondel RoadMandeville GardensKankuliaSarat Bose RoadSouthern AvenueLake MarketTriangular ParkRashbehariDover LaneGolparkDhakuria
 
-Not on the list? Because every class is live online, we serve students from anywhere in South Kolkata and beyond — [explore all Kolkata areas](/best-coding-class-in-kolkata) or [book a free demo](/contact) from wherever you are.
+Not on the list? Because every class is live online, we serve students from anywhere in South Kolkata and beyond — [explore all Kolkata areas](/best-coding-class-in-kolkata) or [book a free demo](/book-demo) from wherever you are.
 
 LIVE ONLINE · GARIAHAT, KOLKATA
 
@@ -172,7 +172,7 @@ LIVE ONLINE · GARIAHAT, KOLKATA
 - Homes with genuinely unreliable internet during class hours
 - Learners who need hands-on hardware or lab equipment we do not provide online
 
-For most Gariahat-belt families balancing demanding schools and demanding traffic, live online delivers smaller batches and better teachers with none of the commute — [book a free demo](/contact) and judge the difference yourself.
+For most Gariahat-belt families balancing demanding schools and demanding traffic, live online delivers smaller batches and better teachers with none of the commute — [book a free demo](/book-demo) and judge the difference yourself.
 
 LIVE ONLINE · GARIAHAT, KOLKATA
 
@@ -182,7 +182,7 @@ LIVE ONLINE · GARIAHAT, KOLKATA
 
 ### Book a free demo
 
-Tell us your child's age, school and board, and we'll schedule one free live class. [Book Free Demo Class](/contact)
+Tell us your child's age, school and board, and we'll schedule one free live class. [Book Free Demo Class](/book-demo)
 
 02
 
@@ -216,13 +216,13 @@ LIVE ONLINE · GARIAHAT, KOLKATA
 
 ## Frequently asked questions
 
-Every class is 100% live and taught in real time by a full-time engineer or maths graduate. Nothing is pre-recorded. Your child can ask questions and get corrected the moment they are stuck. [Book a free demo](/contact) to see the live format yourself.Group classes (max 6–8) start at ₹1,499/month, mini batches of 3–4 are ₹2,499/month, and 1-on-1 personalised classes are ₹4,999/month. Full details are on our [pricing page](/pricing).Group batches are capped at 6 to 8 students, mini batches at 3 to 4, and we also offer true 1-on-1. This is deliberately far smaller than a typical Gariahat coaching room so every child gets attention.Yes. Our [Java for ICSE Students](/java-programming-for-icse-students) track covers every theory topic and BlueJ practical in the Class 10 paper — ideal for Modern High, Loreto House and St. Lawrence students in the Gariahat belt.Classes are scheduled around school hours in short, focused live sessions, usually two to three a week. A South Point student from Mandeville Gardens logs in from home with no commute, so the workload stays manageable. Start with [Python & AI](/python-and-ai-classes-for-kids-teens) or [board CS prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Yes. Our [Coding Classes for Girls](/coding-classes-for-girls) run Princess Coders and Queen Coders batches — a good fit for daughters from the Hindustan Park and Ekdalia convent schools who prefer an all-girls setting.Absolutely — that is the whole point. Because classes are live online, your child joins from home and never crosses Gariahat junction for evening class. Families typically save around an hour each class day.Yes. Our [Online Maths Tuition](/online-maths-tuition) includes Olympiad preparation (IOQM, RMO, IMO), and our project-based coding builds the kind of portfolio that differentiates ISB, IIT and overseas applications.We teach ages 6 to 65 — from [Scratch for young kids](/courses/coding/kids) and [teen coding](/courses/coding/teens) to [college DSA and AI/ML](/courses/coding/college) and [adult Java](/java-classes-for-adults).Every live session is recorded and shared, so a missed class can always be reviewed. For longer absences, instructors help students catch up, and 1-on-1 students can reschedule.CBSE, ICSE/ISC and WBBSE. We map coding and maths directly to each syllabus while also pushing students beyond the exam.Any reasonably modern laptop or desktop with a stable internet connection and a webcam works. We guide you on free software setup before the first class.Classes are taught primarily in clear English, and our instructors comfortably switch to Bengali or Hindi to explain a tricky concept — useful for the mixed-medium Gariahat belt.Yes, students receive a certificate on completing a course, along with the real projects they build, which matter far more for school and college applications.Yes — the demo is a genuine free live class with no obligation to enrol. [Book your free demo](/contact) and see the small-batch, live format before deciding.
+Every class is 100% live and taught in real time by a full-time engineer or maths graduate. Nothing is pre-recorded. Your child can ask questions and get corrected the moment they are stuck. [Book a free demo](/book-demo) to see the live format yourself.Group classes (max 6–8) start at ₹1,499/month, mini batches of 3–4 are ₹2,499/month, and 1-on-1 personalised classes are ₹4,999/month. Full details are on our [pricing page](/pricing).Group batches are capped at 6 to 8 students, mini batches at 3 to 4, and we also offer true 1-on-1. This is deliberately far smaller than a typical Gariahat coaching room so every child gets attention.Yes. Our [Java for ICSE Students](/java-programming-for-icse-students) track covers every theory topic and BlueJ practical in the Class 10 paper — ideal for Modern High, Loreto House and St. Lawrence students in the Gariahat belt.Classes are scheduled around school hours in short, focused live sessions, usually two to three a week. A South Point student from Mandeville Gardens logs in from home with no commute, so the workload stays manageable. Start with [Python & AI](/python-and-ai-classes-for-kids-teens) or [board CS prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Yes. Our [Coding Classes for Girls](/coding-classes-for-girls) run Princess Coders and Queen Coders batches — a good fit for daughters from the Hindustan Park and Ekdalia convent schools who prefer an all-girls setting.Absolutely — that is the whole point. Because classes are live online, your child joins from home and never crosses Gariahat junction for evening class. Families typically save around an hour each class day.Yes. Our [Online Maths Tuition](/online-maths-tuition) includes Olympiad preparation (IOQM, RMO, IMO), and our project-based coding builds the kind of portfolio that differentiates ISB, IIT and overseas applications.We teach ages 6 to 65 — from [Scratch for young kids](/courses/coding/kids) and [teen coding](/courses/coding/teens) to [college DSA and AI/ML](/courses/coding/college) and [adult Java](/java-classes-for-adults).Every live session is recorded and shared, so a missed class can always be reviewed. For longer absences, instructors help students catch up, and 1-on-1 students can reschedule.CBSE, ICSE/ISC and WBBSE. We map coding and maths directly to each syllabus while also pushing students beyond the exam.Any reasonably modern laptop or desktop with a stable internet connection and a webcam works. We guide you on free software setup before the first class.Classes are taught primarily in clear English, and our instructors comfortably switch to Bengali or Hindi to explain a tricky concept — useful for the mixed-medium Gariahat belt.Yes, students receive a certificate on completing a course, along with the real projects they build, which matter far more for school and college applications.Yes — the demo is a genuine free live class with no obligation to enrol. [Book your free demo](/book-demo) and see the small-batch, live format before deciding.
 
 ## Give your child the South Kolkata edge — live, small-batch, project-based.
 
 Premium coding and maths taught live by full-time engineers, with no Gariahat commute — start with one free class.
 
-[Book Free Demo Class](/contact)[View Pricing](/pricing)[Chat on WhatsApp](https://wa.me/919123366161)LIVE ONLINE · GARIAHAT, KOLKATA
+[Book Free Demo Class](/book-demo)[View Pricing](/pricing)[Chat on WhatsApp](https://wa.me/919123366161)LIVE ONLINE · GARIAHAT, KOLKATA
 
 ## Coding & maths classes in nearby areas
 

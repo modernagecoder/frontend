@@ -13,7 +13,7 @@ Live Online · Kasba & Acropolis Belt, South Kolkata
 
 Modern Age Coders runs premium, 100% live online coding and maths classes for families across Kasba, Rajdanga, Anandapur and the EM Bypass corridor. Children learn in small batches of just 6–8, taught live by full-time software engineers and maths graduates, not pre-recorded videos. Lessons are project-based and mapped to CBSE, ICSE and IGCSE syllabi, so your child studies from the flat with zero travel through Ruby crossing traffic.
 
-100% live, never pre-recordedSmall batches of 6–8Engineer & maths-graduate tutorsFree demo before you commit6–8Students per live batch₹1,499Per month, starting fees0 minsTravel through Ruby crossing6–65Age range we teach[Book a Free Demo Class](/contact)[Explore Courses](/courses)At a glance
+100% live, never pre-recordedSmall batches of 6–8Engineer & maths-graduate tutorsFree demo before you commit6–8Students per live batch₹1,499Per month, starting fees0 minsTravel through Ruby crossing6–65Age range we teach[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)At a glance
 
 ## The Kasba coding & maths spec sheet
 
@@ -145,7 +145,7 @@ Serving Kasba and the surrounding South Kolkata belt across pin codes **700042, 
 
 KasbaAcropolis areaRajdangaAnandapurBosepukurMukundapurSantoshpur edgeTiljala borderRuby crossingKasba GolparkPark Circus edgeBeck BaganTangra edgeBagha Jatin edgeBallygunge fringe
 
-Not on the list? If you live anywhere along the EM Bypass corridor or in South Kolkata, our live online classes reach you exactly the same way — [book a free demo](/contact) and join from home.
+Not on the list? If you live anywhere along the EM Bypass corridor or in South Kolkata, our live online classes reach you exactly the same way — [book a free demo](/book-demo) and join from home.
 
 Weekly schedule
 
@@ -182,7 +182,7 @@ Online vs offline
 - Households without a reliable laptop and broadband will struggle with any online class.
 - Some parents simply prefer a local centre they can walk into, and that is a fair preference.
 
-For most Kasba families — laptop-ready, time-poor and quality-focused — live online delivers a better tutor and a better batch without the commute. [Book a free demo](/contact) and judge for yourself.
+For most Kasba families — laptop-ready, time-poor and quality-focused — live online delivers a better tutor and a better batch without the commute. [Book a free demo](/book-demo) and judge for yourself.
 
 How to start
 
@@ -192,7 +192,7 @@ How to start
 
 ### Book a free demo
 
-Tell us your child's age, board and school, and [book a free demo class](/contact) — a full live session, not a sales pitch.
+Tell us your child's age, board and school, and [book a free demo class](/book-demo) — a full live session, not a sales pitch.
 
 02
 
@@ -226,13 +226,13 @@ Frequently asked
 
 ## Kasba coding & maths questions, answered
 
-Every class is 100% live, taught in real time by a full-time engineer or maths graduate. There are no pre-recorded videos. Your child asks questions and gets answers during the class, exactly like a private session.Group batches are capped at 6–8 students. We also offer mini batches of 3–4 and true 1-on-1 for families who want the closest attention. The tutor sees every child's screen in all formats. [See pricing](/pricing).Group classes start from ₹1,499/month, mini batches (3–4) are ₹2,499/month, and 1-on-1 is ₹4,999/month. There are no hidden charges. Full details are on the [pricing page](/pricing).Yes. The demo is a full live class, not a sales call, so you can judge the tutor and the format before paying anything. [Book a free demo](/contact) in a couple of minutes.Yes. We align CBSE students (DPS Ruby Park, Heritage, Future Foundation) to Python and Informatics Practices, and ICSE students (Sri Sri Academy, Newlands, Don Bosco) to Java in BlueJ. For board years, see our [Class 11–12 Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Yes, classes are 100% live online, so your child never travels through Ruby crossing or the Kasba Golpark traffic. They join from your flat and save roughly 80–90 minutes of commute each class day.We run after-school, early-evening and late-evening slots on weekdays plus weekend mornings, so classes fit around the Bypass rush. Tell us your hours and we will place your child in a batch that works.Yes. Our [Java for ICSE Students](/java-programming-for-icse-students) course is built around every practical in the ICSE Class 10 paper, and then takes strong students beyond the syllabus into real object-oriented programming.Every live class comes with recordings and notes, so a missed session is never lost work. For 1-on-1 and mini batches we can also reschedule. Nobody falls behind for missing one evening.We teach ages 6 to 65 — young kids on [Scratch](/courses/coding/kids), teens on Python, Java and [AI/ML](/ai-ml-course-for-teens), and college students and adults on [DSA, data science](/courses/coding/college) and more.A laptop or desktop with a stable broadband connection and a webcam is ideal. Coding works best on a proper keyboard and screen rather than a phone. Nothing else needs to be installed before the demo.Classes are taught in clear English, with Hindi and Bengali used freely to explain a tricky concept when it helps. Most Kasba families find this mix comfortable for both child and parent.Yes. Our [online maths tuition](/online-maths-tuition) covers Grade 1 to college across all boards, including Olympiad preparation (AMC, IOQM, RMO, IMO) and college-level calculus and linear algebra — taught live by maths graduates.Yes. Our [Princess & Queen Coders](/coding-classes-for-girls) batches are dedicated girls-only groups that build coding skill alongside confidence and leadership, with the same engineer-led teaching.Yes, students receive a certificate on completing a track, but the real proof is the portfolio of working projects they build — apps, games and tools they can show family, schools and, later, employers.
+Every class is 100% live, taught in real time by a full-time engineer or maths graduate. There are no pre-recorded videos. Your child asks questions and gets answers during the class, exactly like a private session.Group batches are capped at 6–8 students. We also offer mini batches of 3–4 and true 1-on-1 for families who want the closest attention. The tutor sees every child's screen in all formats. [See pricing](/pricing).Group classes start from ₹1,499/month, mini batches (3–4) are ₹2,499/month, and 1-on-1 is ₹4,999/month. There are no hidden charges. Full details are on the [pricing page](/pricing).Yes. The demo is a full live class, not a sales call, so you can judge the tutor and the format before paying anything. [Book a free demo](/book-demo) in a couple of minutes.Yes. We align CBSE students (DPS Ruby Park, Heritage, Future Foundation) to Python and Informatics Practices, and ICSE students (Sri Sri Academy, Newlands, Don Bosco) to Java in BlueJ. For board years, see our [Class 11–12 Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Yes, classes are 100% live online, so your child never travels through Ruby crossing or the Kasba Golpark traffic. They join from your flat and save roughly 80–90 minutes of commute each class day.We run after-school, early-evening and late-evening slots on weekdays plus weekend mornings, so classes fit around the Bypass rush. Tell us your hours and we will place your child in a batch that works.Yes. Our [Java for ICSE Students](/java-programming-for-icse-students) course is built around every practical in the ICSE Class 10 paper, and then takes strong students beyond the syllabus into real object-oriented programming.Every live class comes with recordings and notes, so a missed session is never lost work. For 1-on-1 and mini batches we can also reschedule. Nobody falls behind for missing one evening.We teach ages 6 to 65 — young kids on [Scratch](/courses/coding/kids), teens on Python, Java and [AI/ML](/ai-ml-course-for-teens), and college students and adults on [DSA, data science](/courses/coding/college) and more.A laptop or desktop with a stable broadband connection and a webcam is ideal. Coding works best on a proper keyboard and screen rather than a phone. Nothing else needs to be installed before the demo.Classes are taught in clear English, with Hindi and Bengali used freely to explain a tricky concept when it helps. Most Kasba families find this mix comfortable for both child and parent.Yes. Our [online maths tuition](/online-maths-tuition) covers Grade 1 to college across all boards, including Olympiad preparation (AMC, IOQM, RMO, IMO) and college-level calculus and linear algebra — taught live by maths graduates.Yes. Our [Princess & Queen Coders](/coding-classes-for-girls) batches are dedicated girls-only groups that build coding skill alongside confidence and leadership, with the same engineer-led teaching.Yes, students receive a certificate on completing a track, but the real proof is the portfolio of working projects they build — apps, games and tools they can show family, schools and, later, employers.
 
 ## Premium live coding and maths, minus the Ruby crossing commute.
 
 Join Kasba, Rajdanga and Anandapur families learning live in small batches with full-time engineer and maths-graduate tutors.
 
-[Book a Free Demo Class](/contact)[View Pricing](/pricing)[+91 91233 66161](https://wa.me/919123366161)Nearby areas
+[Book a Free Demo Class](/book-demo)[View Pricing](/pricing)[+91 91233 66161](https://wa.me/919123366161)Nearby areas
 
 ## Other South Kolkata areas we serve, live online
 

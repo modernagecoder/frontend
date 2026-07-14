@@ -13,7 +13,7 @@ LIVE ONLINE · HOWRAH · DOMJUR BLOCK
 
 Modern Age Coders runs premium, 100% live online coding and mathematics classes for students across Domjur, Bankra, Salap and Makardah. Every class is small, project-based and taught in real time by full-time engineers and maths graduates — never pre-recorded video. A child near Salap More learns from the very same instructors as one in Salt Lake, with zero commute through NH-16 traffic. Book a free demo before you decide.
 
-100% Live · Not RecordedBatches of 6-8 maxAges 6 to CollegePython · Java · AI/ML · Maths1:1Attention in every live class90 minSaved vs the Salap commute30+Coding & maths courses₹1,499Starting fee per month[Book a Free Demo Class](/contact)[Explore All Courses](/courses)AT A GLANCE
+100% Live · Not RecordedBatches of 6-8 maxAges 6 to CollegePython · Java · AI/ML · Maths1:1Attention in every live class90 minSaved vs the Salap commute30+Coding & maths courses₹1,499Starting fee per month[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)AT A GLANCE
 
 ## The facts, before anything else
 
@@ -163,7 +163,7 @@ WEEKLY SCHEDULE
 | Night | 8:30 - 10:00 PM | College students & working adults | Tue / Thu / Sat |
 | Weekend Intensive | 10:00 AM - 12:00 PM | Camps, projects & catch-up | Sat / Sun |
 
-Slots are flexible — we'll fit a timing around your child's school and your family's day. [Book a free demo](/contact) to lock one in.
+Slots are flexible — we'll fit a timing around your child's school and your family's day. [Book a free demo](/book-demo) to lock one in.
 
 ONLINE vs OFFLINE
 
@@ -186,7 +186,7 @@ ONLINE vs OFFLINE
 - Pure in-person social energy of a physical room is something even the best video call only partly replaces.
 - A stable internet connection and a basic laptop or desktop are essential — we'll help you check this before you enrol.
 
-For nearly every family on the Domjur–Salap belt, live online wins decisively — you keep the quality, lose the commute, and gain back the time. [Book a free demo](/contact) and judge for yourself.
+For nearly every family on the Domjur–Salap belt, live online wins decisively — you keep the quality, lose the commute, and gain back the time. [Book a free demo](/book-demo) and judge for yourself.
 
 HOW TO START
 
@@ -196,7 +196,7 @@ HOW TO START
 
 ### Book your free demo
 
-Tell us your child's age, school board and goals, and we'll schedule one free live class. [Book a free demo →](/contact)
+Tell us your child's age, school board and goals, and we'll schedule one free live class. [Book a free demo →](/book-demo)
 
 02
 
@@ -226,13 +226,13 @@ QUESTIONS, ANSWERED
 
 ## Domjur parents ask, we answer
 
-Yes. We teach students from across the Domjur block, including from WBBSE schools like Domjur High School and Bankra Adarsha Vidyalaya, CBSE schools like DPS Howrah at Makardah Bazar, and ICSE schools such as Howrah Vivekananda Institution. Because we are fully live online, your locality is no barrier. [Book a free demo](/contact) to begin.Absolutely — most of our beginners start with no prior coding at all. We begin with [Python for beginners](/python-for-beginners-kids) or [Scratch for kids](/courses/coding/kids) and build up patiently. The whole point is to give the depth your school syllabus does not.It is 100% live online — your child never has to travel. That removes the daily grind through Salap More on NH-16 and the auto-changes along Amta Road, saving roughly 90 minutes per class day. [See how it works](/contact).Every class is genuinely live and real-time with a teacher who can see your child's screen and answer questions instantly. We never substitute pre-recorded video for a class. This is what keeps the teaching premium and personal.Yes. Our [Java for ICSE students](/java-programming-for-icse-students) course is exam-aligned and covers the theory plus every required board practical in BlueJ. For Class 11-12, see our [complete CBSE/ICSE Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Group batches start at ₹1,499/month, mini batches (3-4 students) are ₹2,499/month, and 1-on-1 is ₹4,999/month — all in rupees. You can [compare all plans here](/pricing), and there is a free demo before you commit anything.Yes — one free, no-commitment live demo class so you and your child can experience the teaching first. Many of our Domjur families decide only after they see that first session. [Book it here](/contact).A full range: [Python & AI](/python-and-ai-classes-for-kids-teens), [Java](/java-programming-for-kids-teens), [AI & Machine Learning](/ai-ml-course-for-teens), [C++ DSA](/c-plus-plus-dsa-course), [maths tuition](/online-maths-tuition) and more. Browse the [full course index](/courses).Every live session is recorded for your child's revision, so a missed class is never lost. Where possible we also help arrange a catch-up. Your child stays on track even on a busy week.A basic laptop or desktop with a stable internet connection is enough — a webcam helps. We'll check your setup before you enrol so there are no surprises. Most homes on the NH-16 belt are already well covered.Classes are taught in clear English with friendly Hindi and Bengali support whenever a child needs a concept explained again. No student is left behind because of language.Yes — our [Princess Coders and Queen Coders](/coding-classes-for-girls) are dedicated girls-only batches that build coding confidence and leadership in a comfortable environment.Yes. Our [online maths tuition](/online-maths-tuition) covers school maths from Grade 1 through college across all boards, plus Olympiad prep (AMC, IOQM, RMO, IMO) for ambitious students.Yes — structured tracks such as our [Java Certification Course](/java-certification-course) and [AI/ML Certification Course](/ai-ml-certification-course) end in a completion certificate, and every student builds a real project portfolio along the way.Yes — our [Summer Coding Camp](/summer-coding-camp) and [Winter Coding Camp](/winter-coding-camp) run intensive holiday batches that complete a full module in a few weeks, ideal for trying coding before committing to a regular plan.
+Yes. We teach students from across the Domjur block, including from WBBSE schools like Domjur High School and Bankra Adarsha Vidyalaya, CBSE schools like DPS Howrah at Makardah Bazar, and ICSE schools such as Howrah Vivekananda Institution. Because we are fully live online, your locality is no barrier. [Book a free demo](/book-demo) to begin.Absolutely — most of our beginners start with no prior coding at all. We begin with [Python for beginners](/python-for-beginners-kids) or [Scratch for kids](/courses/coding/kids) and build up patiently. The whole point is to give the depth your school syllabus does not.It is 100% live online — your child never has to travel. That removes the daily grind through Salap More on NH-16 and the auto-changes along Amta Road, saving roughly 90 minutes per class day. [See how it works](/contact).Every class is genuinely live and real-time with a teacher who can see your child's screen and answer questions instantly. We never substitute pre-recorded video for a class. This is what keeps the teaching premium and personal.Yes. Our [Java for ICSE students](/java-programming-for-icse-students) course is exam-aligned and covers the theory plus every required board practical in BlueJ. For Class 11-12, see our [complete CBSE/ICSE Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Group batches start at ₹1,499/month, mini batches (3-4 students) are ₹2,499/month, and 1-on-1 is ₹4,999/month — all in rupees. You can [compare all plans here](/pricing), and there is a free demo before you commit anything.Yes — one free, no-commitment live demo class so you and your child can experience the teaching first. Many of our Domjur families decide only after they see that first session. [Book it here](/book-demo).A full range: [Python & AI](/python-and-ai-classes-for-kids-teens), [Java](/java-programming-for-kids-teens), [AI & Machine Learning](/ai-ml-course-for-teens), [C++ DSA](/c-plus-plus-dsa-course), [maths tuition](/online-maths-tuition) and more. Browse the [full course index](/courses).Every live session is recorded for your child's revision, so a missed class is never lost. Where possible we also help arrange a catch-up. Your child stays on track even on a busy week.A basic laptop or desktop with a stable internet connection is enough — a webcam helps. We'll check your setup before you enrol so there are no surprises. Most homes on the NH-16 belt are already well covered.Classes are taught in clear English with friendly Hindi and Bengali support whenever a child needs a concept explained again. No student is left behind because of language.Yes — our [Princess Coders and Queen Coders](/coding-classes-for-girls) are dedicated girls-only batches that build coding confidence and leadership in a comfortable environment.Yes. Our [online maths tuition](/online-maths-tuition) covers school maths from Grade 1 through college across all boards, plus Olympiad prep (AMC, IOQM, RMO, IMO) for ambitious students.Yes — structured tracks such as our [Java Certification Course](/java-certification-course) and [AI/ML Certification Course](/ai-ml-certification-course) end in a completion certificate, and every student builds a real project portfolio along the way.Yes — our [Summer Coding Camp](/summer-coding-camp) and [Winter Coding Camp](/winter-coding-camp) run intensive holiday batches that complete a full module in a few weeks, ideal for trying coding before committing to a regular plan.
 
 ## On the outskirts of Howrah — but never on the outskirts of opportunity.
 
 Premium, live, project-based coding and maths for Domjur, Bankra, Salap and Makardah — same expert teachers as Kolkata, zero NH-16 commute, free demo first.
 
-[Book a Free Demo Class](/contact)[View Pricing](/pricing)[WhatsApp +91 91233 66161](https://wa.me/919123366161)NEARBY AREAS
+[Book a Free Demo Class](/book-demo)[View Pricing](/pricing)[WhatsApp +91 91233 66161](https://wa.me/919123366161)NEARBY AREAS
 
 ## Also serving nearby Howrah neighbourhoods
 

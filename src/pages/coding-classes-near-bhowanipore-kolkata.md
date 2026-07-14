@@ -13,7 +13,7 @@ LIVE ONLINE · BHOWANIPORE & SOUTH KOLKATA
 
 Modern Age Coders runs premium, live online coding and mathematics classes for Bhowanipore families — never pre-recorded. Children and college students learn Python, Java, AI/ML and school maths in small live batches of 6-8, taught by full-time engineers and maths graduates. We map straight onto the neighbourhood's mixed board landscape — IGCSE, CBSE, ICSE and WBBSE — and delete the Hazra crossing commute. Class simply comes home. Book a free demo today.
 
-Live, never recordedBatches of 6-8Full-time engineersIGCSE · CBSE · ICSE · WBBSE6-8Students Per Live Batch100%Live, Never Pre-Recorded24 hrsFrom Demo To First Class₹1,499Per Month, Starting From[Book a Free Demo Class](/contact)[Explore Courses](/courses)AT A GLANCE
+Live, never recordedBatches of 6-8Full-time engineersIGCSE · CBSE · ICSE · WBBSE6-8Students Per Live Batch100%Live, Never Pre-Recorded24 hrsFrom Demo To First Class₹1,499Per Month, Starting From[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)AT A GLANCE
 
 ## The essentials, on one fact sheet
 
@@ -143,7 +143,7 @@ We serve Bhowanipore and the surrounding South Kolkata belt across pin codes **7
 
 BhowaniporePadmapukurHazraElgin RoadSarat Bose RoadHarish Mukherjee RoadChakraberiaJadu Babu BazaarLansdowneKalighatLake MarketChetlaBhowanipore-Alipore edgeNorthern Park
 
-Anywhere near Bhowanipore not listed above? If you live within the Hazra-to-Alipore belt, you are in our serving area — and because classes are live online, your exact address never matters. [Book a free demo](/contact) and start within 24 hours.
+Anywhere near Bhowanipore not listed above? If you live within the Hazra-to-Alipore belt, you are in our serving area — and because classes are live online, your exact address never matters. [Book a free demo](/book-demo) and start within 24 hours.
 
 FLEXIBLE SLOTS
 
@@ -157,7 +157,7 @@ FLEXIBLE SLOTS
 | Weekend morning | 9:00 AM - 12:00 PM | Intensive batches, summer camp, makeup classes | Sat-Sun |
 | Weekend afternoon | 2:00 PM - 5:00 PM | Flexible slots, 1-on-1 and Olympiad prep | Sat-Sun |
 
-Slots are flexible — we fit classes around your child's school and existing tuitions. [Book a free demo](/contact) and we will find a time that works.
+Slots are flexible — we fit classes around your child's school and existing tuitions. [Book a free demo](/book-demo) and we will find a time that works.
 
 AN HONEST COMPARISON
 
@@ -180,7 +180,7 @@ AN HONEST COMPARISON
 - Learners who need physical, hands-on lab hardware rather than software projects.
 - Parents who specifically want their child physically out of the house for a structured break.
 
-For most serious Bhowanipore families — academically driven, time-poor and quality-conscious — premium live online is simply the better fit. [Book a free demo](/contact) and judge the teaching for yourself.
+For most serious Bhowanipore families — academically driven, time-poor and quality-conscious — premium live online is simply the better fit. [Book a free demo](/book-demo) and judge the teaching for yourself.
 
 HOW TO START
 
@@ -190,7 +190,7 @@ STEP 01
 
 ### Book your free demo
 
-Tell us your child's class, board and goal, and [book a free live demo class](/contact) — a real session, never a recording.
+Tell us your child's class, board and goal, and [book a free live demo class](/book-demo) — a real session, never a recording.
 
 STEP 02
 
@@ -220,13 +220,13 @@ FREQUENTLY ASKED
 
 ## Bhowanipore parents ask us
 
-Yes. We teach to each board specifically: IGCSE for The Cambridge School, CBSE for Sushila Birla and Bhavan's, and ICSE/WBBSE for Ashok Hall, St. James', Calcutta Girls' and the Bengali-medium schools. See our [Class 11-12 Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) or [Coding for IGCSE Students](/coding-for-igcse-students) for board-specific tracks.That is exactly why we are live online. There is no travel through Hazra, no parking hunt near Jadu Babu Bazaar — the class comes home and slots cleanly into a packed weekday. You choose the time; the saved 60-90 minutes goes back into homework and rest.Every session is genuinely live and taught in real time — never pre-recorded. Your child can ask questions and get corrected on the spot, the way a good tutor always has.Our classes are led by full-time software engineers and maths graduates, not rotating college freelancers. They build real software daily, so what your child learns is current and correct.Yes. Our [Java for ICSE Students](/java-programming-for-icse-students) and [ICSE Computer Applications Class 10](/computer-applications-icse-class-10) tracks drill board-style BlueJ programs, run mock practicals and help your child assemble a submission-ready Class 10 Computer Applications project file for Ashok Hall, St. James' and similar schools.Yes. Our [Coding Classes for Girls](/coding-classes-for-girls) — Princess & Queen Coders — are girls-only batches, suited to families from Sushila Birla, Calcutta Girls' and Ashok Hall who prefer them. They build tech confidence from kids through teens.Plans start from ₹1,499/month for group batches (max 6-8), ₹2,499/month for mini batches (3-4 students), and ₹4,999/month for 1-on-1. See full details on our [pricing page](/pricing).Group batches are capped at 6-8 students so every child is seen and corrected. Mini batches are 3-4, and we also offer true 1-on-1. No lecture-hall anonymity.From age 6 to 65 — kids, teens, college students and working professionals. Coding spans [Python](/python-and-ai-classes-for-kids-teens), [Java](/java-programming-for-kids-teens) and [AI/ML](/ai-ml-course-for-college-students); maths runs Grade 1 through college via [Online Maths Tuition](/online-maths-tuition).Yes. Our [Online Maths Tuition](/online-maths-tuition) covers Grade 1 to 12 and college, including Olympiad prep (IOQM, RMO, IMO). Board students can also take focused [Maths Class 10](/maths-class-10) preparation in small live batches.Tell us in advance and we will arrange a makeup session, typically in a weekend slot. Because batches are small and the same teacher stays with your child, catching up is straightforward.A laptop or desktop with a webcam and a stable internet connection is ideal; a tablet works for younger beginners. We will confirm everything you need during the free demo so nothing is left to chance.Classes are taught in clear English, and teachers comfortably switch to Hindi or Bengali to explain a tricky concept when a child needs it. The goal is understanding, not formality.Yes. Completion certificates are available, and our [Java Certification](/java-certification-course) and [AI/ML Certification](/ai-ml-certification-course) courses pair the credential with a real built project portfolio.[Book a free live demo](/contact) — a real class, not a sales call. If it is a fit, pick your course from the [catalogue](/courses) and your child's first proper class begins within 24 hours.
+Yes. We teach to each board specifically: IGCSE for The Cambridge School, CBSE for Sushila Birla and Bhavan's, and ICSE/WBBSE for Ashok Hall, St. James', Calcutta Girls' and the Bengali-medium schools. See our [Class 11-12 Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) or [Coding for IGCSE Students](/coding-for-igcse-students) for board-specific tracks.That is exactly why we are live online. There is no travel through Hazra, no parking hunt near Jadu Babu Bazaar — the class comes home and slots cleanly into a packed weekday. You choose the time; the saved 60-90 minutes goes back into homework and rest.Every session is genuinely live and taught in real time — never pre-recorded. Your child can ask questions and get corrected on the spot, the way a good tutor always has.Our classes are led by full-time software engineers and maths graduates, not rotating college freelancers. They build real software daily, so what your child learns is current and correct.Yes. Our [Java for ICSE Students](/java-programming-for-icse-students) and [ICSE Computer Applications Class 10](/computer-applications-icse-class-10) tracks drill board-style BlueJ programs, run mock practicals and help your child assemble a submission-ready Class 10 Computer Applications project file for Ashok Hall, St. James' and similar schools.Yes. Our [Coding Classes for Girls](/coding-classes-for-girls) — Princess & Queen Coders — are girls-only batches, suited to families from Sushila Birla, Calcutta Girls' and Ashok Hall who prefer them. They build tech confidence from kids through teens.Plans start from ₹1,499/month for group batches (max 6-8), ₹2,499/month for mini batches (3-4 students), and ₹4,999/month for 1-on-1. See full details on our [pricing page](/pricing).Group batches are capped at 6-8 students so every child is seen and corrected. Mini batches are 3-4, and we also offer true 1-on-1. No lecture-hall anonymity.From age 6 to 65 — kids, teens, college students and working professionals. Coding spans [Python](/python-and-ai-classes-for-kids-teens), [Java](/java-programming-for-kids-teens) and [AI/ML](/ai-ml-course-for-college-students); maths runs Grade 1 through college via [Online Maths Tuition](/online-maths-tuition).Yes. Our [Online Maths Tuition](/online-maths-tuition) covers Grade 1 to 12 and college, including Olympiad prep (IOQM, RMO, IMO). Board students can also take focused [Maths Class 10](/maths-class-10) preparation in small live batches.Tell us in advance and we will arrange a makeup session, typically in a weekend slot. Because batches are small and the same teacher stays with your child, catching up is straightforward.A laptop or desktop with a webcam and a stable internet connection is ideal; a tablet works for younger beginners. We will confirm everything you need during the free demo so nothing is left to chance.Classes are taught in clear English, and teachers comfortably switch to Hindi or Bengali to explain a tricky concept when a child needs it. The goal is understanding, not formality.Yes. Completion certificates are available, and our [Java Certification](/java-certification-course) and [AI/ML Certification](/ai-ml-certification-course) courses pair the credential with a real built project portfolio.[Book a free live demo](/book-demo) — a real class, not a sales call. If it is a fit, pick your course from the [catalogue](/courses) and your child's first proper class begins within 24 hours.
 
 ## Premium live coding & maths, minus the Hazra commute
 
 Small live batches, full-time engineers, board-mapped for Bhowanipore — see the teaching for yourself with a free demo, and start within 24 hours.
 
-[Book a Free Demo Class](/contact)[Explore Courses](/courses)[+91 91233 66161](https://wa.me/919123366161)NEARBY AREAS
+[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)[+91 91233 66161](https://wa.me/919123366161)NEARBY AREAS
 
 ## Coding & maths across South Kolkata
 

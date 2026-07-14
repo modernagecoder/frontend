@@ -13,7 +13,7 @@ source: src/pages/coding-classes-near-park-circus-kolkata.html
 
 Modern Age Coders runs premium, live online coding and maths classes for families around Park Circus, Kolkata — the 7-Point Crossing, Beck Bagan, Karaya, Darga Road and the Entally border. We teach small batches of 6-8 students, project by project, with full-time software engineers and maths graduates, not pre-recorded videos. ISC/ICSE-grade Python, Java and AI for Don Bosco, Loreto Entally, Calcutta Boys' and St. James' students — no 7-Point traffic, ever.
 
-Live, not recorded6-8 per batchEngineers & maths graduatesFree demo, no card6-8Students per live batch0 minAt the 7-Point Crossing₹1,499Starting fee per month4.9/5Parent rating · Wall of Love[Book a Free Demo](/contact)[Explore Courses](/courses)At a glance
+Live, not recorded6-8 per batchEngineers & maths graduatesFree demo, no card6-8Students per live batch0 minAt the 7-Point Crossing₹1,499Starting fee per month4.9/5Parent rating · Wall of Love[Book a Free Demo](/book-demo)[Explore Courses](/courses)At a glance
 
 ## The facts, in one screen
 
@@ -232,7 +232,7 @@ Yes. We teach Java in BlueJ aligned to ICSE Computer Applications and follow the
 
 Premium, live, small-batch coding and maths taught by real engineers — book a free demo today and skip the 7-Point Crossing for good.
 
-[Book a Free Demo](/contact)[View Pricing](/pricing)Nearby areas
+[Book a Free Demo](/book-demo)[View Pricing](/pricing)Nearby areas
 
 ## Coding & maths classes across central Kolkata
 

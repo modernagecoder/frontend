@@ -13,7 +13,7 @@ THE LA MARTINIERE BELT · ELGIN ROAD · KOLKATA 700020
 
 Modern Age Coders runs premium, live online coding and mathematics classes for families near Elgin Road, Kolkata — the La Martiniere belt around Netaji Bhawan, Forum and AJC Bose Road. Batches stay small (6–8 students), every class is taught live by full-time engineers and maths graduates, and the work is project-based, not pre-recorded. It is built to challenge La Martiniere, Loreto House and St. Xavier's children who are already ahead of their grade.
 
-Live · never pre-recordedBatches of 6–8ICSE · CBSE · ISC · IGCSEFree demo, zero commitment[Book a Free Demo Class](/contact)[Explore Courses](/courses)6–8students per live batch90 mindaily commute saved₹1,499per month, group plan100%live, full-time engineersAT A GLANCE
+Live · never pre-recordedBatches of 6–8ICSE · CBSE · ISC · IGCSEFree demo, zero commitment[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)6–8students per live batch90 mindaily commute saved₹1,499per month, group plan100%live, full-time engineersAT A GLANCE
 
 ## The programme in one screen
 
@@ -149,7 +149,7 @@ WEEKLY SCHEDULE
 | Night | 8:30 – 9:30 PM | College students & professionals | Tue / Thu / Sat |
 | Weekend morning | 10:00 – 11:30 AM | Camps, 1-on-1 and catch-up | Sat / Sun |
 
-Slots are indicative and can be arranged around heavy ICSE tuition and exam loads. Tell us your week at the [demo](/contact) and we will build the timetable around it.
+Slots are indicative and can be arranged around heavy ICSE tuition and exam loads. Tell us your week at the [demo](/book-demo) and we will build the timetable around it.
 
 LIVE ONLINE vs OFFLINE
 
@@ -172,7 +172,7 @@ LIVE ONLINE vs OFFLINE
 - Homes with genuinely unreliable internet or no quiet corner to work in.
 - Learners who simply focus better with a teacher in the same physical room.
 
-For the academically driven, time-pressed families of the Elgin Road belt, live online wins on almost every count that matters — and a [free demo](/contact) lets you judge it for yourself before paying anything.
+For the academically driven, time-pressed families of the Elgin Road belt, live online wins on almost every count that matters — and a [free demo](/book-demo) lets you judge it for yourself before paying anything.
 
 HOW TO START
 
@@ -182,7 +182,7 @@ HOW TO START
 
 ### Book a free demo
 
-Tell us your child's age, school and board, and pick a slot — [book a free demo class](/contact) with no payment and no commitment.
+Tell us your child's age, school and board, and pick a slot — [book a free demo class](/book-demo) with no payment and no commitment.
 
 02
 
@@ -212,13 +212,13 @@ FAQ
 
 ## Questions Elgin Road parents ask
 
-Yes — this is its core design. Batches are small (6–8) and taught by full-time engineers who set work above grade level, so academically strong ICSE students are stretched rather than bored. For the most advanced, the [mini batch (3–4) or 1-on-1](/pricing) push intensity close to private tuition.Yes. The [Java for ICSE Students](/java-programming-for-icse-students) track follows the BlueJ syllabus precisely — theory, every Class 10 practical, the project file and viva preparation — so it maps directly onto what La Martiniere, Loreto and St. Xavier's teach.Yes. The [Python & AI track](/python-and-ai-classes-for-kids-teens) is built to map onto CBSE Class 11–12 Informatics Practices and Computer Science, and the full [board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) adds complete theory, practicals, projects and exam prep.Group batches are capped at 6–8 students. For the academic intensity the Elgin Road belt expects, the mini batch is 3–4 and a true [1-on-1 plan](/pricing) is available at ₹4,999/month — near-private tuition delivered live online.Yes. Slots run from late afternoon to night across weekdays and weekends, and we build your child's timetable around school, tuition and exam weeks. Share your week at the [free demo](/contact) and we will fit around it.Every class is genuinely live, taught in real time by a full-time engineer or maths graduate to a small batch. Nothing is pre-recorded; recordings of your own class are provided only as revision support.Group classes start at ₹1,499/month (batch of 6–8), the mini batch (3–4) is ₹2,499/month, and 1-on-1 is ₹4,999/month. Full details are on the [pricing page](/pricing).ICSE, CBSE, ISC and IGCSE. The Java/BlueJ track suits ICSE Computer Applications, the Python track suits CBSE Informatics Practices, and [maths tuition](/online-maths-tuition) covers all boards from Grade 1 to college.You receive a recording of the missed live session to catch up, and the teacher revisits anything unclear in the next class. For repeated clashes during exam season we adjust the schedule rather than let your child fall behind.A laptop or desktop with a stable internet connection and a webcam is ideal; a tablet works for younger kids. A quiet corner helps, and any setup questions can go to us on WhatsApp at [+91 91233 66161](https://wa.me/919123366161).Classes are taught in clear English, the language of instruction across La Martiniere, Loreto and the wider belt, with friendly Bengali or Hindi explanations when a younger child needs a concept unlocked.Yes. [Princess Coders and Queen Coders](/coding-classes-for-girls) are dedicated girls-only batches for kids and teens, building confidence and tech leadership in a supportive setting — a good fit for Loreto House, Modern High and Ashok Hall students.Yes. Teens can take [AI & Machine Learning](/ai-ml-course-for-teens) after Python, and college students can do [AI/ML for College Students](/ai-ml-course-for-college-students) or the [college coding tracks](/courses/coding/college) covering DSA, MERN and data analysis for placements.Yes. Students receive a certificate on completing a track, and — more importantly for this audience — a portfolio of real projects they have built and can show, from web apps to working Python tools.Book a [free demo class](/contact) with no payment and no commitment; your child meets a teacher live and builds something in that first session. Browse the full [course catalogue](/courses) or read parent stories on our [Wall of Love](/love).
+Yes — this is its core design. Batches are small (6–8) and taught by full-time engineers who set work above grade level, so academically strong ICSE students are stretched rather than bored. For the most advanced, the [mini batch (3–4) or 1-on-1](/pricing) push intensity close to private tuition.Yes. The [Java for ICSE Students](/java-programming-for-icse-students) track follows the BlueJ syllabus precisely — theory, every Class 10 practical, the project file and viva preparation — so it maps directly onto what La Martiniere, Loreto and St. Xavier's teach.Yes. The [Python & AI track](/python-and-ai-classes-for-kids-teens) is built to map onto CBSE Class 11–12 Informatics Practices and Computer Science, and the full [board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) adds complete theory, practicals, projects and exam prep.Group batches are capped at 6–8 students. For the academic intensity the Elgin Road belt expects, the mini batch is 3–4 and a true [1-on-1 plan](/pricing) is available at ₹4,999/month — near-private tuition delivered live online.Yes. Slots run from late afternoon to night across weekdays and weekends, and we build your child's timetable around school, tuition and exam weeks. Share your week at the [free demo](/book-demo) and we will fit around it.Every class is genuinely live, taught in real time by a full-time engineer or maths graduate to a small batch. Nothing is pre-recorded; recordings of your own class are provided only as revision support.Group classes start at ₹1,499/month (batch of 6–8), the mini batch (3–4) is ₹2,499/month, and 1-on-1 is ₹4,999/month. Full details are on the [pricing page](/pricing).ICSE, CBSE, ISC and IGCSE. The Java/BlueJ track suits ICSE Computer Applications, the Python track suits CBSE Informatics Practices, and [maths tuition](/online-maths-tuition) covers all boards from Grade 1 to college.You receive a recording of the missed live session to catch up, and the teacher revisits anything unclear in the next class. For repeated clashes during exam season we adjust the schedule rather than let your child fall behind.A laptop or desktop with a stable internet connection and a webcam is ideal; a tablet works for younger kids. A quiet corner helps, and any setup questions can go to us on WhatsApp at [+91 91233 66161](https://wa.me/919123366161).Classes are taught in clear English, the language of instruction across La Martiniere, Loreto and the wider belt, with friendly Bengali or Hindi explanations when a younger child needs a concept unlocked.Yes. [Princess Coders and Queen Coders](/coding-classes-for-girls) are dedicated girls-only batches for kids and teens, building confidence and tech leadership in a supportive setting — a good fit for Loreto House, Modern High and Ashok Hall students.Yes. Teens can take [AI & Machine Learning](/ai-ml-course-for-teens) after Python, and college students can do [AI/ML for College Students](/ai-ml-course-for-college-students) or the [college coding tracks](/courses/coding/college) covering DSA, MERN and data analysis for placements.Yes. Students receive a certificate on completing a track, and — more importantly for this audience — a portfolio of real projects they have built and can show, from web apps to working Python tools.Book a [free demo class](/book-demo) with no payment and no commitment; your child meets a teacher live and builds something in that first session. Browse the full [course catalogue](/courses) or read parent stories on our [Wall of Love](/love).
 
 ## A class demanding enough for the brightest child on Elgin Road.
 
 Live, small-batch coding and maths taught by full-time engineers — no traffic, no pre-recorded videos, no commitment to try it.
 
-[Book a Free Demo Class](/contact)[View Pricing](/pricing)[+91 91233 66161](https://wa.me/919123366161)NEARBY & SCHOOL PAGES
+[Book a Free Demo Class](/book-demo)[View Pricing](/pricing)[+91 91233 66161](https://wa.me/919123366161)NEARBY & SCHOOL PAGES
 
 ## Coding & maths in other parts of Kolkata
 

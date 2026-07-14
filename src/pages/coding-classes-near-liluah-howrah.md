@@ -13,7 +13,7 @@ LILUAH · HOWRAH · LIVE ONLINE
 
 Modern Age Coders runs premium, 100% live online coding and mathematics classes for families across Liluah and the railway-workshop colony. Children learn Python, Java, AI/ML and school maths in small live batches of 3 to 8, taught by full-time engineers and maths graduates — never pre-recorded videos. Liluah's multi-generational engineering DNA already values precision and logic; we channel exactly that mindset into real, working code, with zero commute over the Liluah overbridge.
 
-100% live, never pre-recordedSmall batches of 3–8ICSE Java/BlueJ + CBSE PythonFree demo · starts in 24 hours3–8Students per live batch~90 minCommute saved each class day6–65Ages we teach24 hrsFrom demo to first class[Book a Free Demo Class](/contact)[Explore All Courses](/courses)AT A GLANCE
+100% live, never pre-recordedSmall batches of 3–8ICSE Java/BlueJ + CBSE PythonFree demo · starts in 24 hours3–8Students per live batch~90 minCommute saved each class day6–65Ages we teach24 hrsFrom demo to first class[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)AT A GLANCE
 
 ## Coding & maths near Liluah — the essentials
 
@@ -165,7 +165,7 @@ WEEKLY SCHEDULE
 | Weekend morning | 10:00–11:30 AM | College DSA & longer project sessions | Sat / Sun |
 | Flexible 1-on-1 | By arrangement | Custom pace, board crunch, professionals | Any agreed days |
 
-Slots are indicative — we fit timings around the school day and workshop hours. [Book a free demo](/contact) and we'll find a slot that suits your family.
+Slots are indicative — we fit timings around the school day and workshop hours. [Book a free demo](/book-demo) and we'll find a slot that suits your family.
 
 LIVE ONLINE vs OFFLINE
 
@@ -188,7 +188,7 @@ LIVE ONLINE vs OFFLINE
 - Homes with unreliable internet or no quiet corner can find live sessions harder.
 - Pure peer socialising — the chatter of a physical classroom — is reduced online.
 
-For almost every Liluah family, the maths is simple: live online keeps the small-batch quality and a real engineer-teacher, while handing back the commute. [Book a free demo](/contact) and judge it yourself.
+For almost every Liluah family, the maths is simple: live online keeps the small-batch quality and a real engineer-teacher, while handing back the commute. [Book a free demo](/book-demo) and judge it yourself.
 
 HOW TO START
 
@@ -198,7 +198,7 @@ HOW TO START
 
 ### Book your free demo
 
-Tell us your child's class, board and goal, and [book a free live demo](/contact) — no payment, no obligation.
+Tell us your child's class, board and goal, and [book a free live demo](/book-demo) — no payment, no obligation.
 
 02
 
@@ -238,7 +238,7 @@ Yes. We teach the precise Java/BlueJ programs and board-style practical patterns
 
 Premium, live online coding and maths in small batches — taught by real engineers, with zero commute over the crossing.
 
-[Book a Free Demo Class](/contact)[Talk to us on WhatsApp](https://wa.me/919123366161)EXPLORE NEARBY
+[Book a Free Demo Class](/book-demo)[Talk to us on WhatsApp](https://wa.me/919123366161)EXPLORE NEARBY
 
 ## Coding & maths in other Howrah neighbourhoods
 

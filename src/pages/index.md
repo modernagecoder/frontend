@@ -13,7 +13,7 @@ Coding + Maths · Ages 6–65 · Live 1-on-1
 
 We don't just teach coding and maths. We teach you how to think, build, and solve problems that actually matter. Just real skills that work in the real world at any age, any stage.
 
-[Book a Free Demo](/contact)[View Courses →](/courses)★ **4.9****547** reviews**15+** countriessince **2020**
+[Book a Free Demo](/book-demo)[View Courses →](/courses)★ **4.9****547** reviews**15+** countriessince **2020**
 
 make.js// where logic meets imaginationfunctionlearn(you) {const skill = code + maths;return you.build(skill);}learn(you); // real-world ready
 
@@ -393,7 +393,7 @@ See how we stand out from traditional coding institutes and online platforms
 
 Book a free demo class and see why 10,000+ students trust Modern Age Coders
 
-[Book a Free Demo](/contact)
+[Book a Free Demo](/book-demo)
 
 ## The Modern Age Coders Advantage
 

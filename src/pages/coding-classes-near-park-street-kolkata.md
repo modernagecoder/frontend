@@ -13,7 +13,7 @@ PARK STREET · CENTRAL KOLKATA · LIVE ONLINE
 
 Modern Age Coders runs premium, live online coding and mathematics classes for families near Park Street, Kolkata — the heritage corridor of St. Xavier's, Loreto House, La Martiniere and St. James'. Every class is a small live batch taught in real time by full-time engineers and maths graduates, never a pre-recorded video. We cover ICSE Java (BlueJ), Python, AI/ML and school maths, with a free demo before you commit.
 
-Small live batches (max 6-8)Taught by full-time engineersICSE Java · Python · AI/ML · MathsFree demo, no commitment[Book a Free Demo Class](/contact)[Explore Courses](/courses)500+Students taught online4.9/5Parent ratingMax 8True small batchFreeFirst demo classAT A GLANCE
+Small live batches (max 6-8)Taught by full-time engineersICSE Java · Python · AI/ML · MathsFree demo, no commitment[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)500+Students taught online4.9/5Parent ratingMax 8True small batchFreeFirst demo classAT A GLANCE
 
 ## The essentials, in one glance
 
@@ -193,7 +193,7 @@ HOW TO START
 
 ### Book a free demo
 
-Tell us your child's class and board, and we will schedule one free live class — no commitment. [Book a free demo →](/contact)
+Tell us your child's class and board, and we will schedule one free live class — no commitment. [Book a free demo →](/book-demo)
 
 02
 
@@ -227,7 +227,7 @@ FAQ
 
 Book one free live class, meet a real engineer or maths graduate, and see the difference before you commit a single rupee.
 
-[Book a Free Demo Class](/contact)[View Pricing](/pricing)NEARBY AREAS
+[Book a Free Demo Class](/book-demo)[View Pricing](/pricing)NEARBY AREAS
 
 ## Coding & maths classes across central Kolkata
 

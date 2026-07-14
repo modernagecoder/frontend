@@ -79,7 +79,7 @@ See how we stand out from traditional coding institutes and online platforms
 
 Book a free demo class and see why 10,000+ students trust Modern Age Coders
 
-[Book a Free Demo](/contact)
+[Book a Free Demo](/book-demo)
 
 ## Common Questions
 
