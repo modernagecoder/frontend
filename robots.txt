@@ -69,8 +69,13 @@ Allow: /coding-classes-in-ireland
 Allow: /coding-classes-in-new-zealand
 
 # Sitemap locations
-Sitemap: https://learn.modernagecoders.com/sitemap.xml
-Sitemap: https://learn.modernagecoders.com/sitemap-resources.xml
+# One index pointing at per-cluster children (core / courses / blog / cities / topics /
+# international / resources). One flat sitemap made GSC's "indexed vs submitted" useless:
+# it said 612 of 738 and never which 126. Per-cluster, a coverage problem localises to a
+# cluster in one glance. sitemap.xml is still the hand-maintained source the children are
+# generated from, and is intentionally NOT advertised here — advertising both would count
+# every URL twice and undo the split.
+Sitemap: https://learn.modernagecoders.com/sitemap-index.xml
 
 # Crawl delay (be nice to servers)
 Crawl-delay: 1

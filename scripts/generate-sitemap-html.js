@@ -56,17 +56,8 @@ const urls = [...parseUrls(XML), ...parseUrls(RESOURCES_XML)].filter((u) => {
 });
 
 // ---- categorise (mirrors sitemap.xsl groups; first match wins) -------------
-function category(loc) {
-  if (loc.includes('/courses')) return 'courses';
-  if (loc.includes('/blog')) return 'blog';
-  if (loc.includes('best-coding-class-in-')) return 'city';
-  if (loc.includes('coding-classes-in-')) return 'area';
-  if (loc.includes('coding-classes-near-')) return 'near';
-  if (/java|python|c-plus-plus|javascript|machine-learning|-ai-|ai-ml|artificial-intelligence/.test(loc)) return 'lang';
-  if (loc.includes('math')) return 'math';
-  if (loc.includes('resource')) return 'resources';
-  return 'other';
-}
+// Shared with generate-sitemap-index.js so the rules live in one place.
+const { category } = require('./sitemap-categories');
 
 const SECTIONS = [
   { id: 'courses',   title: 'Course pages',                note: 'Course catalogue and individual course pages' },
