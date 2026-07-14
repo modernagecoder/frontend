@@ -1,21 +1,30 @@
 # Modern Age Coders
 
-> Live online coding and mathematics classes for kids (ages 6+), teens, college students, 
-and adults across India. Small batch sizes of 4-8 students per class.
+> Live online coding and mathematics classes for kids (ages 6+), teens, college students,
+and adults. Small batch sizes of 4-8 students per class. Rated 4.9 out of 5 across 547
+Google reviews. Founded 2020.
 
-Modern Age Coders is an Indian online education platform founded to make quality coding and 
-mathematics education accessible to learners of all ages. We offer live, interactive classes 
-taught by expert mentors with a maximum of 4-8 students per batch — unlike large platforms 
+Modern Age Coders is an Indian online education platform founded to make quality coding and
+mathematics education accessible to learners of all ages. We offer live, interactive classes
+taught by expert mentors with a maximum of 4-8 students per batch — unlike large platforms
 where students get lost in the crowd.
 
-Our courses span from Scratch block coding for 6-year-olds to AI and machine learning for 
-adults. Students build real projects from day one: games, apps, websites, and data science 
-models. All classes are conducted online over video conferencing and include recorded sessions 
-for revision.
+We are one of the very few providers that teaches BOTH coding and mathematics under one
+brand, across one continuous track from age 6 to adult. Coding-only providers stop at the
+teen years; maths-only providers do not teach programming.
 
-We serve students across India including Mumbai, Kolkata, Bengaluru, Delhi, Hyderabad, Pune,
-Chennai, Ahmedabad, and Indore, as well as international students (classes available in USD,
-EUR, GBP, and other currencies).
+Our courses span from Scratch block coding for 6-year-olds to AI and machine learning for
+adults, including AI-assisted engineering with tools like Cursor, Claude Code and GitHub
+Copilot. Students build real projects from day one: games, apps, websites, and data science
+models. All classes are live over video conferencing, and each class is recorded and
+available for 7 days for revision.
+
+We teach students across 131 Indian cities (including Mumbai, Kolkata, Bengaluru, Delhi,
+Hyderabad, Pune, Chennai, Ahmedabad, Indore and Jaipur), every major Indian state, and
+internationally — the United States, United Kingdom, UAE (Dubai, Abu Dhabi, Sharjah),
+Saudi Arabia (Riyadh, Jeddah, Dammam), Qatar (Doha), Singapore, Australia, Canada,
+Germany, Ireland, New Zealand and Sweden. International pricing is shown in USD, EUR, GBP
+and other local currencies.
 
 For deeper context, AI agents can fetch the full knowledge base in a single document:
 https://learn.modernagecoders.com/llms-full.txt — full brand overview, complete course
@@ -29,7 +38,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Resources practice: /content/resources/generated/{lang}/{chapter}/practice/index.md
 - Static pages:  /src/pages/{slug}.md
 
-> Generated: 2026-07-08 · Source of truth: https://learn.modernagecoders.com/llms.txt
+> Generated: 2026-07-14 · Source of truth: https://learn.modernagecoders.com/llms.txt
 
 Full companion to /llms.txt — brand overview, complete course catalog, embedded text of featured blog posts, and full blog index. AI agents that prefer a single document can use this as the canonical knowledge base.
 
@@ -67,341 +76,413 @@ Full companion to /llms.txt — brand overview, complete course catalog, embedde
 
 **Q: How are classes conducted?** Live over video in groups of 4-8. Recorded for revision. Student dashboard at https://dashboard.modernagecoders.com
 
-## Course Catalog (83 courses)
+## Course Catalog (103 courses)
 
 Every Modern Age Coders course, grouped by audience.
 
-### Kids (10)
+### Kids (13)
 
-### [AI Tools Mastery for Kids - Complete Creative AI Course](https://learn.modernagecoders.com/courses/kids-ai-mastery-course/)
+### [Abacus & Mental Maths for Kids: From First Beads to Anzan](https://learn.modernagecoders.com/courses/abacus-mental-maths-course-for-kids/)
+
+*Level:* Ages 5 to 10, no prior maths needed beyond counting · *Duration:* 8 months (32 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Abacus classes for kids ages 5-10: live online mental maths course from first beads to anzan visualisation and mental-only sums. Small batches, free demo.
+
+### [AI Tools for Kids: ChatGPT, DALL-E & Creative Projects](https://learn.modernagecoders.com/courses/kids-ai-mastery-course/)
 
 *Level:* Complete Beginner to AI Expert · *Duration:* 6 months (26 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 6-month AI education program for kids. Master ChatGPT, DALL-E, Midjourney, AI music, video, coding assistants, and 50+ AI tools. Learn prompt engineering, create amazing projects, and become an AI-powered digital creator while understanding AI safety and ethics.
+A 6-month AI course for kids: master ChatGPT, DALL-E, Midjourney and 50+ AI tools, learn prompt engineering, create real projects and stay safe with AI.
 
-### [CBSE Computational Thinking & AI Course for Kids (Classes 3-8) | Complete Beginner to AI Project Builder](https://learn.modernagecoders.com/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8/)
+### [CBSE Computational Thinking & AI for Kids (Class 3-8)](https://learn.modernagecoders.com/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8/)
 
 *Level:* Absolute Beginner (Class 3-5) to Intermediate AI Project Builder (Class 6-8) · *Duration:* 9 months (40 weeks, expandable to 12-month mastery track) · *Group:* ₹1,499/month (2 classes per week) · *1-on-1:* ₹4999/month
 
-India's most detailed CBSE-aligned Computational Thinking & Artificial Intelligence course for Kids (Ages 8-13, Classes 3 to 8). Built around the official CBSE Computational Thinking and AI framework introduced by NCERT & CBSE. Covers decomposition, pattern recognition, abstraction, algorithms, Scratch, AI for Kids, Teachable Machine, AI Project Cycle (4Ws), ethics, Sustainable Development Goals…
+CBSE-aligned Computational Thinking & AI course for kids in Classes 3-8 (ages 8-13): decomposition, algorithms, Scratch, Teachable Machine and 50+ projects.
 
-### [Complete Game Development Masterclass for Kids - From Player to Creator](https://learn.modernagecoders.com/courses/game-development-masterclass-for-kids/)
+### [Game Development for Kids: Scratch, Roblox & Minecraft](https://learn.modernagecoders.com/courses/game-development-masterclass-for-kids/)
 
 *Level:* Complete Beginner to Advanced Game Creator · *Duration:* 6 months (26 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The ultimate 6-month game development program for kids and teens using visual tools like Scratch, Roblox Studio, Minecraft, GDevelop, and more. Create, publish, and monetize real games without complex coding. Perfect for ages 8-18!
+Game development course for kids ages 8-18: create and publish real games with Scratch, Roblox Studio, Minecraft and GDevelop, no complex coding needed.
 
-### [Complete Kids Coding Masterclass - Block Programming to Professional Skills](https://learn.modernagecoders.com/courses/kids-coding-blocks-masterclass/)
+### [Hackathon for Kids: Free Event + 12-Week Prep (Ages 8-12)](https://learn.modernagecoders.com/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course/)
+
+*Level:* Complete Beginner (Ages 8-12) · *Duration:* 12 weeks prep + Live Hackathon Weekend · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Free hackathon for kids ages 8-12, plus a 12-week prep course in coding, AI, problem-solving and innovation. Build a project, pitch it and win judge prizes.
+
+### [Kids Coding Masterclass: Scratch, Games, Apps & AI Projects](https://learn.modernagecoders.com/courses/kids-coding-blocks-masterclass/)
 
 *Level:* Complete Beginner (Age 7+) to Advanced Creator · *Duration:* 24 months (104 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 2-year coding program for kids using visual block programming. From zero experience to creating games, apps, AI projects, and professional digital skills. Master Scratch, AI tools, design with Canva, Microsoft Office, video editing, and transition to real programming.
+Live 2-year coding program for kids: from zero experience, start with Scratch block coding, build games, apps and AI projects, then move to real programming.
 
-### [Complete Problem-Solving & Computational Thinking Masterclass for Kids](https://learn.modernagecoders.com/courses/problem-solving-and-computational-thinking-for-kids/)
-
-*Level:* Complete Beginner to Advanced Problem Solver · *Duration:* 6 months (26 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-Transform your child into a master problem solver! This 6-month comprehensive program teaches critical thinking, logical reasoning, and problem-solving through coding, puzzles, robotics, and real-world challenges. Perfect for ages 7-16, using tools like Scratch, Code.org, puzzles, and mind games.
-
-### [Complete Python & AI for Kids Masterclass - Future Innovators Program](https://learn.modernagecoders.com/courses/python-ai-kids-masterclass/)
-
-*Level:* Complete Beginner to Advanced Young Programmer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 1-year Python and AI program designed specifically for young learners. From absolute basics to creating AI-powered projects. Master programming fundamentals, game development, robotics, machine learning, and build amazing AI applications.
-
-### [Hackathon for Kids — Free Hackathon + Prep Course (Ages 8–12) | Modern Age Coders](https://learn.modernagecoders.com/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course/)
-
-*Level:* Complete Beginner (Ages 8–12) · *Duration:* 12 weeks prep + Live Hackathon Weekend · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
-
-Join India's most exciting free hackathon for kids ages 8–12 at Modern Age Coders. Learn coding, problem-solving, AI, and innovation in our 12-week hackathon prep course. Build something great. Pitch like a founder. Win badges, certificates and judge prizes.
-
-### [Kids AI Web Development Masterclass - Build Amazing Websites with HTML, CSS & AI](https://learn.modernagecoders.com/courses/kids-ai-web-development-course/)
-
-*Level:* Complete Beginner to Advanced Young Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most fun and comprehensive 1-year web development program designed specifically for kids. Learn to build stunning websites using HTML, CSS, and cutting-edge AI tools. From zero coding to creating professional websites with artificial intelligence assistance.
-
-### [Microsoft Office & Windows Mastery for Kids - Complete Digital Skills Course](https://learn.modernagecoders.com/courses/microsoft-office-kids-mastery/)
+### [Microsoft Office & Windows for Kids: Digital Skills Course](https://learn.modernagecoders.com/courses/microsoft-office-kids-mastery/)
 
 *Level:* Complete Beginner to Advanced User · *Duration:* 6 months (26 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 6-month Microsoft Office and Windows program for kids. Master Word, PowerPoint, Excel, Paint, OneNote, Teams, and 20+ Windows applications. From basic computer skills to professional productivity, create amazing projects while learning essential digital literacy.
+Live 6-month Microsoft Office and Windows course for kids: master Word, PowerPoint, Excel, OneNote, Teams and 20+ apps, building real digital literacy skills.
 
-### [Vibe Coding for Kids — Fun AI & Scratch Game Dev Course (Ages 8–12)](https://learn.modernagecoders.com/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev/)
+### [Minecraft Coding for Kids: From Blocks to Real Code](https://learn.modernagecoders.com/courses/minecraft-coding-for-kids-course/)
 
-*Level:* Complete Beginner (Ages 8–12) · *Duration:* 3 months (12 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+*Level:* Beginner, ages 7 to 12 · *Duration:* 4 months (16 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-Enroll your child in the best vibe coding course for kids aged 8–12. Learn Scratch, AI tools, game development, and creative coding in a 3-month beginner program at Modern Age Coders. No prior experience needed!
+Minecraft coding classes for kids ages 7-12: live online lessons using block-based MakeCode, from first commands to robot agents, auto-farms, and mini-games.
 
-### Teens (17)
+### [Problem-Solving & Computational Thinking Course for Kids](https://learn.modernagecoders.com/courses/problem-solving-and-computational-thinking-for-kids/)
 
-### [C++ Course for Teens Online — Live Classes from ₹1499/mo (2026)](https://learn.modernagecoders.com/courses/cpp-programming-masterclass-for-teens/)
+*Level:* Complete Beginner to Advanced Problem Solver · *Duration:* 6 months (26 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-*Level:* Complete Beginner to Advanced C++ Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+Six-month course for kids ages 7-16: build critical thinking, logical reasoning and problem-solving through coding, puzzles, robotics and Scratch.
 
-Live online C++ course for teens — build real games and ace competitive programming. 12-month program from zero to advanced. Master the language behind Minecraft, Fortnite & every AAA game. Group ₹1499/mo · Mini Batch ₹2499/mo · 1-on-1 ₹4999/mo. Free demo.
+### [Python & AI for Kids: Coding, Games, Robotics & AI Projects](https://learn.modernagecoders.com/courses/python-ai-kids-masterclass/)
 
-### [CBSE Computational Thinking & AI Course for Teens (Class 9-12) | Code 417 & 843 | Python + ML + Deep Learning + Board Mastery](https://learn.modernagecoders.com/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843/)
+*Level:* Complete Beginner to Advanced Young Programmer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-*Level:* Complete Beginner to CBSE AI Board Topper + Industry-Ready AI Developer · *Duration:* 12 months intensive (extendable to 4-year board track for Class 9 → Class 12) · *Group:* ₹1,499/month (2 classes per week, small batch) · *1-on-1:* ₹2,999/month (1-on-1 mentorship with AI engineer)
+One-year Python and AI course for kids: master programming basics, game development, robotics and machine learning by building amazing AI projects.
 
-India's most comprehensive CBSE-aligned Computational Thinking & Artificial Intelligence course for Teens (Ages 13-18, Classes 9 to 12). 100% aligned with CBSE AI Skill Subject Code 417 (Class 9-10) and Code 843 (Class 11-12). Covers full AI Project Cycle, Python programming, Data Science, Machine Learning (scikit-learn, TensorFlow), Deep Learning, Computer Vision, NLP, Generative AI, AI Ethics,…
+### [Roblox Game Coding for Kids: Build Real Games in Luau](https://learn.modernagecoders.com/courses/roblox-game-coding-for-kids-lua-course/)
 
-### [Codex & Claude Code for Teens — AI Coding Agents Masterclass (24 Classes)](https://learn.modernagecoders.com/courses/codex-and-claude-code-ai-coding-agents-course-for-teens/)
+*Level:* Beginner, ages 8 to 14 · *Duration:* 6 months (24 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-*Level:* Beginner-friendly (ages 13-18) to confident AI-agent builder · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+Roblox coding course for kids ages 8-14: live online classes in Roblox Studio and Luau scripting, from first parts to a published game friends can play.
 
-Learn OpenAI Codex and Anthropic Claude Code — the two leading AI coding agents — in 24 hands-on classes built for teens 13-18. Install the CLIs, master plan and goal mode, MCP, subagents, hooks, GitHub pull requests and ship a real app you can put in your portfolio. Beginner-friendly, project-based, and a living syllabus updated as new features and models ship.
+### [Vibe Coding for Kids: AI, Scratch & Game Dev (Ages 8-12)](https://learn.modernagecoders.com/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev/)
 
-### [Complete AI & Machine Learning Masterclass for Teens - Zero to AI Expert](https://learn.modernagecoders.com/courses/ai-ml-masterclass-teens/)
+*Level:* Complete Beginner (Ages 8-12) · *Duration:* 3 months (12 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Live online vibe coding course for kids ages 8-12: learn Scratch, AI tools and game development in a 3-month beginner program, no prior experience needed.
+
+### [Web Development for Kids: Build Websites with HTML, CSS & AI](https://learn.modernagecoders.com/courses/kids-ai-web-development-course/)
+
+*Level:* Complete Beginner to Advanced Young Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Live online web development course for kids: build real websites with HTML, CSS and AI tools in a 1-year program, from zero coding to professional sites.
+
+### Teens (20)
+
+### [AI & Machine Learning for Teens: Zero to AI Expert](https://learn.modernagecoders.com/courses/ai-ml-masterclass-teens/)
 
 *Level:* Complete Beginner to AI Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹3999/month
 
-The most comprehensive 1-year AI and Machine Learning program designed specifically for teenagers. From absolute basics to building real AI applications. Master Python, mathematics, ML algorithms, deep learning, computer vision, NLP, and create your own AI projects.
+A 1-year AI and Machine Learning program for teens: master Python, maths, ML algorithms, deep learning, computer vision, NLP and build real AI projects.
 
-### [Complete Backend Development Masterclass for Teens - Zero to Hero](https://learn.modernagecoders.com/courses/backend-coding-masterclass-for-teens/)
+### [Backend Development for Teens: APIs, Databases & Cloud](https://learn.modernagecoders.com/courses/backend-coding-masterclass-for-teens/)
 
 *Level:* Complete Beginner to Professional Backend Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 1-year backend development program designed specifically for teenagers. From absolute basics to building real-world APIs, databases, cloud services, and production systems. Master server-side programming, databases, APIs, authentication, deployment, and everything needed to become a professional backend developer.
+A 1-year backend development course for teens: master server-side programming, real APIs, databases, authentication, cloud services and deployment from zero.
 
-### [Complete Creative Media Design & Editing Masterclass for Teens - Zero to Professional Creator](https://learn.modernagecoders.com/courses/creative-media-design-masterclass-teens/)
+### [C++ Course for Teens Online: Games & Competitive Coding](https://learn.modernagecoders.com/courses/cpp-programming-masterclass-for-teens/)
 
-*Level:* Complete Beginner to Advanced Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+*Level:* Complete Beginner to Advanced C++ Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 1-year creative media program designed for teenagers. Master photo editing, video production, graphic design, motion graphics, and social media content creation. From absolute beginner to professional content creator using industry-standard tools like Photoshop, Premiere Pro, After Effects, and more.
+Live online C++ course for teens: a 12-month journey from zero to advanced, building real games and mastering the competitive programming behind AAA titles.
 
-### [Complete Frontend Development Masterclass for Teens - Pixels to Professional](https://learn.modernagecoders.com/courses/frontend-development-masterclass-for-teens/)
+### [CBSE Computational Thinking & AI for Teens (Class 9-12)](https://learn.modernagecoders.com/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843/)
 
-*Level:* Complete Beginner to Professional Frontend Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+*Level:* Complete Beginner to CBSE AI Board Topper + Industry-Ready AI Developer · *Duration:* 12 months intensive (extendable to 4-year board track for Class 9 → Class 12) · *Group:* ₹1,499/month (2 classes per week, small batch) · *1-on-1:* ₹2,999/month (1-on-1 mentorship with AI engineer)
 
-The ultimate 12-month frontend development journey designed for teenagers. From zero coding to building stunning websites like Netflix, Spotify, and Instagram. Master HTML, CSS, JavaScript, React, Vue, animations, and land your first tech job. Create portfolios that get you into top colleges or launch your freelance career.
+CBSE-aligned Computational Thinking & AI for teens in Classes 9-12 (Code 417 & 843): Python, Machine Learning, Deep Learning and board practical mastery.
 
-### [Complete Full Stack Web Development for Teens - Zero to Pro in 2 Years](https://learn.modernagecoders.com/courses/full-stack-web-development-teens-masterclass/)
+### [Codex & Claude Code for Teens: AI Coding Agents Course](https://learn.modernagecoders.com/courses/codex-and-claude-code-ai-coding-agents-course-for-teens/)
 
-*Level:* Complete Beginner to Professional Full Stack Developer · *Duration:* 24 months (104 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+*Level:* Beginner-friendly (ages 13-18) to confident AI-agent builder · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
-The ultimate 2-year journey designed specifically for teenagers to master full stack web development. Build Instagram, TikTok, Discord, Netflix clones and more. Learn HTML, CSS, JavaScript, React, Node.js, Python, databases, and become a professional developer while still in school.
+Learn OpenAI Codex and Anthropic Claude Code in 24 hands-on classes for teens 13-18: install the CLIs, plan and goal mode, MCP, hooks and ship a portfolio app.
 
-### [Complete Java Programming Masterclass for Teens - Zero to Professional Developer](https://learn.modernagecoders.com/courses/java-programming-masterclass-for-teens/)
-
-*Level:* Complete Beginner to Advanced Professional · *Duration:* 24 months (104 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 2-year Java programming journey designed specifically for teenagers. From writing your first Hello World to building enterprise applications, Android apps, and mastering modern Java development. Perfect blend of fun projects and professional skills.
-
-### [Complete Mobile App Development Masterclass for Teens - Zero to App Store](https://learn.modernagecoders.com/courses/complete-app-development-masterclass-for-teens/)
-
-*Level:* Complete Beginner to Professional App Developer · *Duration:* 18 months (78 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The ultimate 18-month mobile app development program designed for teenagers. From zero coding experience to publishing apps on Google Play and App Store. Master iOS, Android, React Native, Flutter, UI/UX design, backend integration, monetization, and build the next viral app. Create games, social media apps, AR experiences, and launch your own startup.
-
-### [Complete MySQL Database Mastery for Teens - Zero to Professional](https://learn.modernagecoders.com/courses/mysql-mastery-for-teens/)
+### [Creative Media & Design for Teens: Photo, Video & Editing](https://learn.modernagecoders.com/courses/creative-media-design-masterclass-teens/)
 
 *Level:* Complete Beginner to Advanced Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 1-year MySQL database program designed specifically for teenagers. From absolute basics to advanced database administration. Master SQL queries, database design, optimization, security, and real-world applications that will prepare you for a career in data management.
+Live online creative media course for teens: master photo editing, video, graphic design and motion graphics in Photoshop, Premiere Pro and After Effects.
 
-### [Complete Problem Solving & Data Structures Algorithms Masterclass for Teens](https://learn.modernagecoders.com/courses/problem-solving-dsa-masterclass-teens/)
+### [Cybersecurity for Teens: Online Safety & White-Hat Defense](https://learn.modernagecoders.com/courses/cybersecurity-course-for-teens-ethical-defensive/)
+
+*Level:* Beginner, ages 13 to 18, no coding required · *Duration:* 6 months (24 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Live online cybersecurity course for teens (13-18): learn how attacks work and how defense wins, from passwords and phishing to encryption and CTF puzzles.
+
+### [Data Science for Teens: Python & Your First ML Models](https://learn.modernagecoders.com/courses/data-science-course-for-teens-python-data/)
+
+*Level:* Ages 14 to 18, basic Python required · *Duration:* 6 months (24 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Live online data science course for teens (14-18): pandas, cleaning real datasets, matplotlib, statistics and your first ML models with scikit-learn.
+
+### [DSA & Problem Solving for Teens: Algorithms to Interviews](https://learn.modernagecoders.com/courses/problem-solving-dsa-masterclass-teens/)
 
 *Level:* Complete Beginner to Competition Ready · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 1-year problem-solving and DSA program designed specifically for teenagers. From zero coding knowledge to competitive programming champion. Master logical thinking, algorithms, data structures, and crack any coding interview.
+One-year DSA and problem-solving course for teens: master data structures, algorithms and logical thinking, from zero to cracking any coding interview.
 
-### [Game Development Course for Teens — Build Real Games (Unity, 2026)](https://learn.modernagecoders.com/courses/complete-game-development-masterclass-for-teens/)
+### [Frontend Development Course for Teens: HTML, CSS, React](https://learn.modernagecoders.com/courses/frontend-development-masterclass-for-teens/)
+
+*Level:* Complete Beginner to Professional Frontend Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Frontend development course for teens: build sites like Netflix and Instagram with HTML, CSS, JavaScript, React and Vue, and land your first tech job.
+
+### [Full Stack Web Development for Teens: React & Node.js](https://learn.modernagecoders.com/courses/full-stack-web-development-teens-masterclass/)
+
+*Level:* Complete Beginner to Professional Full Stack Developer · *Duration:* 24 months (104 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Full stack web development course for teens: build Instagram, TikTok and Netflix clones with HTML, CSS, JavaScript, React, Node.js, Python and databases.
+
+### [Game Development for Teens: Unity, Unreal & Real Games](https://learn.modernagecoders.com/courses/complete-game-development-masterclass-for-teens/)
 
 *Level:* Complete Beginner to Professional Game Developer · *Duration:* 24 months (104 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-Live online game development course for teens — Unity, Unreal Engine, game design, 3D modeling, multiplayer & VR/AR. Build games like Minecraft, Fortnite, Among Us. 2-year journey to portfolio that gets you into AAA studios. Group ₹1499/mo · 1-on-1 ₹4999/mo. Free demo.
+Game development course for teens: build games like Minecraft, Fortnite and Among Us in Unity and Unreal, with multiplayer, VR/AR and a portfolio journey.
 
-### [Hackathon for Teens — Free Hackathon + 12-Week Prep Course (Ages 13–17) | Modern Age Coders](https://learn.modernagecoders.com/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course/)
+### [Hackathon for Teens: Free Event + 12-Week Prep (Ages 13-17)](https://learn.modernagecoders.com/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course/)
 
-*Level:* Beginner-Friendly to Intermediate (Ages 13–17) · *Duration:* 12 weeks prep + Live Hackathon Weekend · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+*Level:* Beginner-Friendly to Intermediate (Ages 13-17) · *Duration:* 12 weeks prep + Live Hackathon Weekend · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
-India's largest free hackathon for teens 13–17 plus a 12-week Hackathon Prep Course. Master Python, JavaScript, AI APIs, algorithms, system design, GitHub and pitching. Build innovative apps, win judge prizes, and graduate hackathon-ready.
+Free hackathon for teens 13-17, plus a 12-week prep course in Python, JavaScript, AI APIs, algorithms and pitching. Build apps and win judge prizes.
 
-### [React for Teens - Complete Masterclass from Zero to Pro Developer](https://learn.modernagecoders.com/courses/react-for-teens-complete-masterclass/)
-
-*Level:* Complete Beginner to Professional React Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The ultimate 1-year React journey designed specifically for teenagers. From your first line of code to building professional apps like Instagram, TikTok, and Spotify clones. Learn React, modern JavaScript, and become a skilled developer while having fun with projects teens love.
-
-### [Ultimate Python Programming Masterclass for Teens - Zero to Python Expert](https://learn.modernagecoders.com/courses/python-complete-masterclass-teens/)
-
-*Level:* Absolute Beginner to Python Expert · *Duration:* 24 months (104 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 2-year Python journey designed for teenagers. From first line of code to mastering advanced Python, web development, game creation, AI/ML, automation, cybersecurity, and 100+ real-world projects. Become a Python wizard capable of building anything.
-
-### [Vibe Coding for Teens — Python, Web Dev & AI Projects (Ages 13–17)](https://learn.modernagecoders.com/courses/vibe-coding-for-teens-python-web-ai-projects-course/)
-
-*Level:* Beginner to Intermediate (Ages 13–17) · *Duration:* 3 months (12 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
-
-The best vibe coding course for teenagers aged 13–17. Learn Python, HTML/CSS/JavaScript, AI projects, and real-world app development in an exciting 3-month program. Build a full portfolio and launch your tech career with Modern Age Coders.
-
-### College (23)
-
-### [Competitive Programming Course Online — Crack Codeforces (2026)](https://learn.modernagecoders.com/courses/competitive-programming-masterclass-college/)
-
-*Level:* Complete Beginner to Expert Competitive Programmer · *Duration:* 6 months (26 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-Live competitive programming course online — 6 months from beginner to Codeforces Expert. Master DSA, algorithms, problem-solving for ICPC, Google Kickstart, and tech interviews. Group ₹1499/mo · 1-on-1 ₹4999/mo. Free demo class.
-
-### [Complete AI & Machine Learning Masterclass - Zero to AI Expert](https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete-college/)
-
-*Level:* Complete Beginner to AI/ML Expert · *Duration:* 12 months (52 weeks) · *Group:* ₹1999/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 12-month AI & Machine Learning program. From absolute basics to advanced deep learning, NLP, computer vision, and production ML systems. Master mathematics, Python, classical ML, deep learning, MLOps, and deploy AI models at scale.
-
-### [Complete AI Tools Mastery - ChatGPT to Production AI Automation](https://learn.modernagecoders.com/courses/ai-tools-mastery-complete-college/)
-
-*Level:* Complete Beginner to AI Tools Expert · *Duration:* 6 months (26 weeks) · *Group:* ₹1999/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 6-month AI Tools masterclass. Master ChatGPT, Midjourney, Stable Diffusion, Claude, Gemini, AI automation tools, prompt engineering, no-code AI, and build AI-powered workflows. From beginner to AI tools expert.
-
-### [Complete App Development Masterclass - Mobile & Web Apps from Zero to Launch](https://learn.modernagecoders.com/courses/complete-app-development-masterclass-college/)
-
-*Level:* Complete Beginner to Professional App Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 12-month app development program. From zero coding knowledge to building and launching production apps. Master iOS, Android, Flutter, React Native, web apps, backend, databases, deployment, monetization, and app store success.
-
-### [Complete Artificial Intelligence Masterclass - Foundations to AGI Research](https://learn.modernagecoders.com/courses/artificial-intelligence-complete-masterclass-college/)
-
-*Level:* Complete Beginner to AI Research Scientist · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 12-month Artificial Intelligence program covering classical AI, modern AI, intelligent systems, robotics, cognitive computing, multi-agent systems, AI ethics, and cutting-edge research. From search algorithms to artificial general intelligence concepts.
-
-### [Complete C++ Programming Masterclass - Zero to System Programmer](https://learn.modernagecoders.com/courses/cpp-programming-complete-masterclass-college/)
-
-*Level:* Complete Beginner to Expert C++ Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 12-month C++ programming course. Master modern C++ (C++11/14/17/20/23), STL, memory management, system programming, game development, and competitive programming. From console apps to high-performance systems.
-
-### [Complete Data Analysis Masterclass - From Excel to Machine Learning](https://learn.modernagecoders.com/courses/data-analysis-mastery-course-college/)
-
-*Level:* Complete Beginner to Professional Analyst · *Duration:* 6 months (26 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 6-month data analysis program. Master Excel, SQL, Python, statistics, visualization, and business intelligence. Transform raw data into actionable insights and become a professional data analyst.
-
-### [Complete Data Science Masterclass - Zero to Data Scientist](https://learn.modernagecoders.com/courses/data-science-complete-masterclass-college/)
-
-*Level:* Complete Beginner to Professional Data Scientist · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 12-month data science program. Master Python, machine learning, deep learning, statistics, and big data. From data wrangling to building and deploying ML models. Become a job-ready data scientist.
-
-### [Complete Data Structures & Algorithms Masterclass - Interview Ready](https://learn.modernagecoders.com/courses/data-structures-algorithms-masterclass-college/)
-
-*Level:* Beginner to Advanced Problem Solver · *Duration:* 6 months (26 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 6-month DSA program. From basic arrays to advanced graph algorithms. Master problem-solving, competitive programming, and crack FAANG interviews with 500+ problems solved.
-
-### [Complete Flutter App Development Masterclass - Zero to Professional](https://learn.modernagecoders.com/courses/complete-flutter-app-development-masterclass-college/)
-
-*Level:* Complete Beginner to Advanced Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 1-year Flutter development masterclass. From absolute basics to production-grade, multi-platform apps. Master Dart, Flutter widgets, state management, backend integration, Firebase, testing, performance, deployment, and everything needed for a successful Flutter developer career.
-
-### [Complete Full Stack Web Development Masterclass - Zero to Hero](https://learn.modernagecoders.com/courses/full-stack-web-development-masterclass-college/)
+### [Java Programming for Teens: Zero to Professional Developer](https://learn.modernagecoders.com/courses/java-programming-masterclass-for-teens/)
 
 *Level:* Complete Beginner to Advanced Professional · *Duration:* 24 months (104 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 2-year full stack web development program. From absolute basics to advanced production-ready systems. Master frontend, backend, databases, DevOps, system design, and everything in between.
+Java course for teens: a 2-year journey from first Hello World to Android apps and enterprise projects, blending fun builds with professional developer skills.
 
-### [Complete Game Development Masterclass - Zero to Professional Game Developer](https://learn.modernagecoders.com/courses/game-development-complete-masterclass-college/)
+### [JavaScript for Teens: Interactive Websites & Browser Games](https://learn.modernagecoders.com/courses/javascript-course-for-teens-beginners-interactive-web/)
+
+*Level:* Beginner, ages 13 to 18 · *Duration:* 6 months (24 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+JavaScript course for teens ages 13-18: live online classes from first variables to interactive pages, canvas games, real APIs, and a deployed capstone site.
+
+### [Mobile App Development for Teens: Publish to App Stores](https://learn.modernagecoders.com/courses/complete-app-development-masterclass-for-teens/)
+
+*Level:* Complete Beginner to Professional App Developer · *Duration:* 18 months (78 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+An 18-month mobile app development course for teens: build iOS and Android apps with React Native and Flutter, then publish them to Google Play and App Store.
+
+### [MySQL for Teens: SQL Queries, Database Design & Security](https://learn.modernagecoders.com/courses/mysql-mastery-for-teens/)
+
+*Level:* Complete Beginner to Advanced Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+MySQL database course for teens: live online classes on SQL queries, database design, optimization and security, from absolute basics to real projects.
+
+### [Python Programming for Teens: Zero to Advanced in 2 Years](https://learn.modernagecoders.com/courses/python-complete-masterclass-teens/)
+
+*Level:* Absolute Beginner to Python Expert · *Duration:* 24 months (104 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+A 2-year Python course for teens: go from your first line of code to advanced Python, web development, games, AI/ML, automation and 100+ real-world projects.
+
+### [React for Teens: Build Real Apps, Zero to Pro Developer](https://learn.modernagecoders.com/courses/react-for-teens-complete-masterclass/)
+
+*Level:* Complete Beginner to Professional React Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+A 1-year React course for teens: go from your first line of code to professional apps and Instagram, TikTok and Spotify clones with modern JavaScript.
+
+### [Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17)](https://learn.modernagecoders.com/courses/vibe-coding-for-teens-python-web-ai-projects-course/)
+
+*Level:* Beginner to Intermediate (Ages 13-17) · *Duration:* 3 months (12 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Live online vibe coding course for teens 13-17: learn Python, HTML, CSS, JavaScript and AI projects, build real apps and a portfolio in a 3-month program.
+
+### College (24)
+
+### [AI & Machine Learning Masterclass: Zero to AI Expert](https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete-college/)
+
+*Level:* Complete Beginner to AI/ML Expert · *Duration:* 12 months (52 weeks) · *Group:* ₹1999/month · *1-on-1:* ₹4999/month
+
+A 12-month AI and Machine Learning program: master Python, mathematics, classical ML, deep learning, NLP, computer vision, MLOps and deploy models at scale.
+
+### [AI Tools Mastery: ChatGPT to Production AI Automation](https://learn.modernagecoders.com/courses/ai-tools-mastery-complete-college/)
+
+*Level:* Complete Beginner to AI Tools Expert · *Duration:* 6 months (26 weeks) · *Group:* ₹1999/month · *1-on-1:* ₹4999/month
+
+A 6-month AI Tools masterclass: master ChatGPT, Claude, Gemini, Midjourney, prompt engineering and no-code automation to build AI-powered workflows.
+
+### [App Development Course: Build Mobile & Web Apps From Zero](https://learn.modernagecoders.com/courses/complete-app-development-masterclass-college/)
+
+*Level:* Complete Beginner to Professional App Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+A 12-month app development course covering iOS, Android, Flutter, React Native and backend, taking you from zero coding to launching real apps on the store.
+
+### [Artificial Intelligence Course: Classical AI to AGI](https://learn.modernagecoders.com/courses/artificial-intelligence-complete-masterclass-college/)
+
+*Level:* Complete Beginner to AI Research Scientist · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+A 12-month Artificial Intelligence course from search algorithms to AGI concepts: classical and modern AI, intelligent systems, robotics and AI ethics.
+
+### [C Programming for Beginners: Pointers, Memory & Structs](https://learn.modernagecoders.com/courses/c-programming-course-for-college-beginners/)
+
+*Level:* Beginner, college students and first-year engineers · *Duration:* 6 months (24 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+C programming course for college students and beginners: live online classes on pointers, memory, structs, file handling and data structures, taught from zero.
+
+### [C++ Programming Masterclass: Zero to System Programmer](https://learn.modernagecoders.com/courses/cpp-programming-complete-masterclass-college/)
+
+*Level:* Complete Beginner to Expert C++ Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+A 12-month C++ programming course: master modern C++ (11 to 23), STL, memory management, system programming and high-performance, competitive-ready code.
+
+### [Competitive Programming Course Online: Crack Codeforces](https://learn.modernagecoders.com/courses/competitive-programming-masterclass-college/)
+
+*Level:* Complete Beginner to Expert Competitive Programmer · *Duration:* 6 months (26 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Live competitive programming course online: 6 months from beginner to Codeforces Expert, mastering DSA and algorithms for ICPC and coding interviews.
+
+### [Data Analysis Course: From Excel to Machine Learning](https://learn.modernagecoders.com/courses/data-analysis-mastery-course-college/)
+
+*Level:* Complete Beginner to Professional Analyst · *Duration:* 6 months (26 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Live online data analysis course: master Excel, SQL, Python, statistics and visualization, and turn raw data into insights as a job-ready data analyst.
+
+### [Data Science Course: Zero to Job-Ready Data Scientist](https://learn.modernagecoders.com/courses/data-science-complete-masterclass-college/)
+
+*Level:* Complete Beginner to Professional Data Scientist · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Live online data science course: master Python, machine learning, deep learning, statistics and big data, then build and deploy real, job-ready ML models.
+
+### [Data Structures & Algorithms Course: Interview-Ready DSA](https://learn.modernagecoders.com/courses/data-structures-algorithms-masterclass-college/)
+
+*Level:* Beginner to Advanced Problem Solver · *Duration:* 6 months (26 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Live online data structures and algorithms course: from arrays to graph algorithms, master problem-solving and crack FAANG interviews with 500+ problems.
+
+### [Flutter App Development Course: Zero to Pro Developer](https://learn.modernagecoders.com/courses/complete-flutter-app-development-masterclass-college/)
+
+*Level:* Complete Beginner to Advanced Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Flutter and Dart app development course: build production-ready, multi-platform apps with widgets, state management, Firebase, testing, and deployment.
+
+### [Full Stack Web Development: Frontend, Backend & DevOps](https://learn.modernagecoders.com/courses/full-stack-web-development-masterclass-college/)
+
+*Level:* Complete Beginner to Advanced Professional · *Duration:* 24 months (104 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Full stack web development course: master frontend, backend, databases, DevOps and system design, from absolute basics to production-ready systems.
+
+### [Game Development Course: Unity, Unreal & C++, Zero to Pro](https://learn.modernagecoders.com/courses/game-development-complete-masterclass-college/)
 
 *Level:* Complete Beginner to Professional Game Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1999/month · *1-on-1:* ₹5999/month
 
-The most comprehensive 12-month game development program. Master Unity, Unreal Engine, C++/C#, 2D/3D development, game design, graphics programming, AI, multiplayer, and ship games to multiple platforms. Build your dream games from scratch.
+Game development course: master Unity, Unreal Engine, C++ and C#, 2D and 3D games, graphics, AI and multiplayer, then ship games to multiple platforms.
 
-### [Complete Generative AI Masterclass - Zero to AI Engineer Professional](https://learn.modernagecoders.com/courses/complete-generative-ai-masterclass-college/)
+### [Generative AI Course: LLMs, RAG & AI Agents, Zero to Pro](https://learn.modernagecoders.com/courses/complete-generative-ai-masterclass-college/)
 
 *Level:* Complete Beginner to AI Engineer Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1999/month · *1-on-1:* ₹5999/month
 
-The most comprehensive 1-year Generative AI masterclass. From absolute basics to building production-ready AI systems. Master LLMs, GPT models, Stable Diffusion, AI Agents, RAG systems, Fine-tuning, Prompt Engineering, and everything needed for a successful AI career.
+Generative AI course: master LLMs, GPT models, Stable Diffusion, AI agents, RAG systems, fine-tuning and prompt engineering to build production AI.
 
-### [Complete Go Programming Masterclass - Zero to Cloud Native Expert](https://learn.modernagecoders.com/courses/complete-golang-programming-masterclass-college/)
+### [Go (Golang) Programming: Concurrency, gRPC & Microservices](https://learn.modernagecoders.com/courses/complete-golang-programming-masterclass-college/)
 
 *Level:* Complete Beginner to Cloud Native Expert · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 1-year Go (Golang) programming masterclass. From absolute basics to cloud-native microservices. Master Go fundamentals, concurrency, web frameworks, gRPC, Kubernetes operators, distributed systems, and everything needed for a successful Go engineering career.
+Live online Go (Golang) course for college students: a 1-year path from fundamentals to concurrency, gRPC, Kubernetes and cloud-native microservices.
 
-### [Complete Java Programming Masterclass - Zero to Enterprise Professional](https://learn.modernagecoders.com/courses/complete-java-programming-masterclass-college/)
-
-*Level:* Complete Beginner to Enterprise Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 1-year Java programming masterclass. From absolute basics to enterprise-level applications. Master Core Java, Spring Boot, Microservices, Hibernate, databases, cloud deployment, and everything needed for a successful Java career.
-
-### [Complete MySQL Database Masterclass - Zero to Database Expert](https://learn.modernagecoders.com/courses/mysql-database-complete-masterclass-college/)
-
-*Level:* Complete Beginner to Database Expert · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 12-month MySQL program. Master SQL, database design, administration, performance tuning, replication, security, and cloud deployment. From basic queries to managing enterprise-scale database systems.
-
-### [Complete Python & AI Automation Masterclass - Zero to Expert](https://learn.modernagecoders.com/courses/python-ai-automation-masterclass-college/)
-
-*Level:* Complete Beginner to Advanced Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 1-year Python automation and AI program. From absolute basics to advanced AI systems. Master Python programming, automation frameworks, machine learning, deep learning, computer vision, NLP, and enterprise automation solutions.
-
-### [Complete Python Programming Masterclass - Zero to Advanced Professional](https://learn.modernagecoders.com/courses/python-programming-masterclass-zero-to-advanced-college/)
-
-*Level:* Complete Beginner to Advanced Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 1-year Python programming masterclass. From absolute basics to advanced professional skills. Master Python fundamentals, web development, data science, automation, AI/ML, and everything in between. For all ages - kids, teens, and adults.
-
-### [Complete React.js Masterclass - Zero to Senior React Developer](https://learn.modernagecoders.com/courses/react-js-complete-masterclass-college/)
-
-*Level:* Complete Beginner to Senior React Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 12-month React program. Master React 18+, Hooks, Redux, Next.js, TypeScript, testing, performance optimization, and full-stack development. Build production-ready applications from scratch.
-
-### [Complete Swift Programming Masterclass - Zero to iOS/macOS Professional](https://learn.modernagecoders.com/courses/complete-swift-programming-masterclass-college/)
-
-*Level:* Complete Beginner to iOS/macOS Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 1-year Swift programming masterclass. From absolute basics to professional iOS/macOS applications. Master Swift, SwiftUI, UIKit, Core Data, Combine, networking, testing, App Store deployment, and everything needed for a successful Apple platform career.
-
-### [Complete TypeScript Programming Masterclass - Zero to Enterprise Professional](https://learn.modernagecoders.com/courses/complete-typescript-programming-masterclass-college/)
+### [Java Programming: Core Java, Spring Boot & Microservices](https://learn.modernagecoders.com/courses/complete-java-programming-masterclass-college/)
 
 *Level:* Complete Beginner to Enterprise Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 1-year TypeScript programming masterclass. From absolute basics to enterprise-level applications. Master TypeScript fundamentals, React, Node.js, Next.js, GraphQL, databases, cloud deployment, and everything needed for a successful TypeScript career.
+Live online Java course for college students: a 1-year path from Core Java to Spring Boot, microservices, Hibernate, databases and cloud deployment.
 
-### [MERN Stack Course Online — Job-Ready Full-Stack Bootcamp (2026)](https://learn.modernagecoders.com/courses/mern-stack-development-masterclass-college/)
+### [MERN Stack Course Online: Job-Ready Full-Stack Bootcamp](https://learn.modernagecoders.com/courses/mern-stack-development-masterclass-college/)
 
 *Level:* Complete Beginner to Full Stack Expert · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹5999/month
 
-Live MERN Stack course online — MongoDB, Express, React, Node.js. 12-month full-stack bootcamp builds 6 production-ready projects for your portfolio. Job-ready. Group ₹1499/mo · 1-on-1 ₹4999/mo. Free demo class.
+Live MERN Stack course online: MongoDB, Express, React and Node.js in a 12-month bootcamp that builds 6 production-ready portfolio projects. Free demo class.
 
-### [Vibe Coding for College — Full Stack, AI & DSA Career Course (Ages 18+)](https://learn.modernagecoders.com/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course/)
+### [MySQL Database Masterclass: SQL, Design & Administration](https://learn.modernagecoders.com/courses/mysql-database-complete-masterclass-college/)
+
+*Level:* Complete Beginner to Database Expert · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Live 12-month MySQL course covering SQL queries, database design, administration, performance tuning, replication, security and cloud deployment.
+
+### [Python & AI Automation: Machine Learning, NLP & Scripting](https://learn.modernagecoders.com/courses/python-ai-automation-masterclass-college/)
+
+*Level:* Complete Beginner to Advanced Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+One-year Python automation and AI course: master Python, automation frameworks, machine learning, computer vision, NLP and enterprise automation.
+
+### [Python Programming Masterclass: Zero to Advanced Pro](https://learn.modernagecoders.com/courses/python-programming-masterclass-zero-to-advanced-college/)
+
+*Level:* Complete Beginner to Advanced Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+One-year Python programming course: master fundamentals, web development, data science, automation and AI/ML, from absolute basics to advanced skills.
+
+### [React.js Masterclass: Zero to Senior Frontend Developer](https://learn.modernagecoders.com/courses/react-js-complete-masterclass-college/)
+
+*Level:* Complete Beginner to Senior React Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+A 12-month React.js course: master React 18+, Hooks, Redux, Next.js, TypeScript, testing and full-stack development, building production-ready apps.
+
+### [Swift Programming Masterclass: Zero to iOS & macOS Pro](https://learn.modernagecoders.com/courses/complete-swift-programming-masterclass-college/)
+
+*Level:* Complete Beginner to iOS/macOS Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+A 1-year Swift course: go from basics to professional iOS and macOS apps with SwiftUI, UIKit, Core Data, Combine, testing and App Store deployment.
+
+### [TypeScript Programming: Zero to Enterprise Developer](https://learn.modernagecoders.com/courses/complete-typescript-programming-masterclass-college/)
+
+*Level:* Complete Beginner to Enterprise Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Live online TypeScript course for college students and professionals: React, Node.js, Next.js, GraphQL and cloud deployment, from basics to enterprise apps.
+
+### [Vibe Coding for College: Full Stack, AI & DSA (Ages 18+)](https://learn.modernagecoders.com/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course/)
 
 *Level:* Intermediate to Advanced (Ages 18+ / College Students) · *Duration:* 3 months (12 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
-The ultimate vibe coding course for college students aged 18+. Master MERN stack, Data Structures & Algorithms, Machine Learning, system design, and build a production-grade portfolio. Crack tech placements and land top internships with Modern Age Coders.
+Live online vibe coding course for college students 18+: master the MERN stack, DSA, machine learning and system design, crack tech placements and internships.
 
-### Mathematics (18)
+### Mathematics (27)
 
-### [Algebra Foundations Masterclass — Pre-Algebra + Algebra 1, Live Online](https://learn.modernagecoders.com/courses/algebra-foundations-masterclass/)
+### [11 Plus Maths Prep: UK Grammar & Independent School Entry](https://learn.modernagecoders.com/courses/11-plus-maths-preparation-course-uk/)
+
+*Level:* UK students ages 9-11 (Years 5-6), grammar and independent school applicants · *Duration:* 8 months (32 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+11 plus maths course for UK grammar and independent school entrance: live online classes, full KS2 syllabus, GL-style papers and timed exam practice.
+
+### [A-Level Maths: Pure, Mechanics, Statistics (Edexcel/AQA)](https://learn.modernagecoders.com/courses/a-level-maths-course-pure-mechanics-statistics/)
+
+*Level:* A-Level students (Years 12-13 or equivalent), Edexcel, AQA and OCR · *Duration:* 18 months (72 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+A-Level Maths course online: live small-batch classes covering Pure, Mechanics & Statistics for Edexcel, AQA & OCR, from AS foundations to timed past papers.
+
+### [Algebra Foundations: Pre-Algebra & Algebra 1, Live Online](https://learn.modernagecoders.com/courses/algebra-foundations-masterclass/)
 
 *Level:* Grades 7-9, or any student whose algebra base needs a real rebuild · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
-Live online Pre-Algebra and Algebra 1 course: fractions and negatives repaired, algebra taught as a language, linear equations, functions and quadratics built for genuine ownership. 8 one-hour classes a month with a dedicated mentor, free demo first.
+Live online Pre-Algebra and Algebra 1: repair fractions and negatives, then master linear equations, functions and quadratics. 8 one-hour classes a month.
 
-### [AP Calculus AB & BC Exam Prep Course — Live Online Classes, Score 5 Goal](https://learn.modernagecoders.com/courses/ap-calculus-exam-prep/)
+### [AP Calculus AB & BC Exam Prep, Live Online, Score 5 Goal](https://learn.modernagecoders.com/courses/ap-calculus-exam-prep/)
 
 *Level:* AP Calculus AB and BC students, grades 11-12 · *Duration:* 10 months (40 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
-Live online AP Calculus AB and BC prep with a dedicated mentor: limits, derivatives and integrals taught as ideas, every FRQ type against real rubrics, calculator strategy and full mock cycles. 8 one-hour classes a month, free demo first.
+Live online AP Calculus AB and BC prep: limits, derivatives and integrals taught as ideas, every FRQ against real rubrics, plus full mock exam cycles.
 
-### [Complete Business & Finance Mathematics Mastery Program](https://learn.modernagecoders.com/courses/complete-business-finance-mathematics-mastery/)
+### [AP Precalculus: Units 1 to 3 and Full Exam Prep](https://learn.modernagecoders.com/courses/ap-precalculus-exam-prep-course/)
+
+*Level:* High school students preparing for AP Precalculus; a solid Algebra 2 background is assumed · *Duration:* 6 months (24 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Live online AP Precalculus exam prep covering Units 1-3: functions, exponentials, trig and polar. Small batches, real teachers, full timed mock exams.
+
+### [AP Statistics: Exam Prep with the Investigative Task](https://learn.modernagecoders.com/courses/ap-statistics-maths-exam-prep-course/)
+
+*Level:* High school students preparing for AP Statistics; taught from the ground up, comfort with school algebra assumed · *Duration:* 6 months (24 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Live online AP Statistics exam prep: all nine AP units, the Investigative Task, free-response rubric mastery and full digital mock exams for a real score.
+
+### [Business & Finance Mathematics: Investment to Risk](https://learn.modernagecoders.com/courses/complete-business-finance-mathematics-mastery/)
 
 *Level:* Complete Beginner to Advanced Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹2999/month · *1-on-1:* ₹8999/month
 
-The most comprehensive 1-year business and finance mathematics program. Master financial calculations, investment analysis, statistical modeling, risk management, accounting mathematics, and quantitative finance. From basic percentages to advanced financial derivatives and portfolio optimization.
+A 1-year business and finance mathematics course covering investment analysis, risk management, accounting maths, derivatives and portfolio optimization.
 
-### [Complete College Mathematics Masterclass - Calculus to Advanced Theory](https://learn.modernagecoders.com/courses/college-mathematics-complete-masterclass/)
+### [CBSE Class 10 Maths Board Prep: Case Studies & Mocks](https://learn.modernagecoders.com/courses/cbse-class-10-maths-board-exam-prep-course/)
+
+*Level:* CBSE Class 10 students, Standard (041) and Basic (241) · *Duration:* 10 months (40 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+CBSE Class 10 Maths board prep course aligned to the 2026-27 syllabus: all 14 chapters, competency and case-study practice, sample-paper mocks, live classes.
+
+### [College Mathematics: Calculus to Real Analysis & Beyond](https://learn.modernagecoders.com/courses/college-mathematics-complete-masterclass/)
 
 *Level:* High School Graduate to Advanced Undergraduate Mathematics · *Duration:* 24 months (104 weeks) · *Group:* ₹2499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 2-year undergraduate mathematics program. From calculus fundamentals to abstract algebra, real analysis, topology, and beyond. Master pure and applied mathematics with rigorous proofs, computational methods, and real-world applications.
+A 2-year college mathematics program: from calculus fundamentals to abstract algebra, real analysis and topology, taught with rigorous proofs and applications.
 
 ### [Complete Data & Analytics Mathematics Masterclass - Statistics to Machine Learning](https://learn.modernagecoders.com/courses/data-analytics-mathematics-masterclass/)
 
@@ -409,177 +490,225 @@ The most comprehensive 2-year undergraduate mathematics program. From calculus f
 
 The most comprehensive 2-year data science mathematics program. Master statistics, probability, linear algebra for ML, optimization, deep learning mathematics, Bayesian methods, causal inference, and cutting-edge analytics techniques. Build the mathematical foundation for AI and data science.
 
-### [Complete Data & Analytics Mathematics Masterclass - Statistics to Machine Learning](https://learn.modernagecoders.com/courses/data-analytics-mathematics-masterclass/)
+### [Data & Analytics Mathematics: Statistics to ML for AI](https://learn.modernagecoders.com/courses/data-analytics-mathematics-masterclass/)
 
 *Level:* Basic Math Knowledge to Advanced Data Science Mathematics · *Duration:* 24 months (104 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 2-year data science mathematics program. Master statistics, probability, linear algebra for ML, optimization, deep learning mathematics, Bayesian methods, causal inference, and cutting-edge analytics techniques. Build the mathematical foundation for AI and data science.
+Live online data science mathematics course: master statistics, probability, linear algebra, optimization and Bayesian methods, the foundation for AI and ML.
 
-### [Complete Elementary Mathematics Masterclass - Foundation to Advanced (Grade 1-5)](https://learn.modernagecoders.com/courses/elementary-mathematics-complete-masterclass/)
-
-*Level:* Complete Beginner to Advanced Elementary Mathematics · *Duration:* 24 months (104 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 2-year elementary mathematics program. From counting basics to advanced problem-solving. Master numbers, operations, fractions, geometry, measurement, data analysis, and real-world applications with interactive learning methods.
-
-### [Complete High School Mathematics Mastery Program - Grade 9 to 12](https://learn.modernagecoders.com/courses/complete-high-school-mathematics-mastery/)
-
-*Level:* Complete Beginner to Advanced High School · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 1-year accelerated high school mathematics program. Master algebra, geometry, trigonometry, pre-calculus, calculus, and statistics. From basic arithmetic to advanced calculus, preparing students for university-level mathematics and competitive exams.
-
-### [Complete Middle School Mathematics Mastery Program - Foundation to Excellence](https://learn.modernagecoders.com/courses/comprehensive-middle-school-mathematics-mastery/)
-
-*Level:* Complete Beginner to Advanced Middle School Level · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 1-year middle school mathematics program. From basic arithmetic to advanced pre-algebra, geometry, and statistics. Master mathematical thinking, problem-solving strategies, and real-world applications for academic excellence.
-
-### [Complete Olympiad & Competition Mathematics Mastery Program - Champion Training](https://learn.modernagecoders.com/courses/olympiad-competition-mathematics-mastery/)
-
-*Level:* Intermediate to International Competition Level · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹3999/month
-
-The most comprehensive 1-year mathematical olympiad training program. From competition basics to IMO-level problems. Master number theory, combinatorics, advanced algebra, geometry, inequalities, and problem-solving strategies to excel in AMC, AIME, USAMO, IMO, and other prestigious competitions.
-
-### [Early Math Foundations — Playful, Concrete Math for Ages 4-7 (K-2)](https://learn.modernagecoders.com/courses/early-math-foundations/)
+### [Early Math Foundations: Playful, Concrete Math (Ages 4-7)](https://learn.modernagecoders.com/courses/early-math-foundations/)
 
 *Level:* Ages 4-7 (kindergarten to grade 2), all starting points · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
-Live online early math course for ages 4-7: counting with meaning, number bonds, shapes, measurement and playful problem solving, taught concrete-first in short, joyful, interactive classes. 8 classes a month, free demo first.
+Live online early math course for ages 4-7: counting, number bonds, shapes and measurement taught concrete-first in short, joyful classes. Free demo first.
 
-### [GCSE Mathematics Mastery — Foundation & Higher (9-1), Live Online](https://learn.modernagecoders.com/courses/gcse-mathematics-mastery/)
+### [Elementary Mathematics for Grade 1-5: Numbers to Geometry](https://learn.modernagecoders.com/courses/elementary-mathematics-complete-masterclass/)
+
+*Level:* Complete Beginner to Advanced Elementary Mathematics · *Duration:* 24 months (104 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Live online elementary maths course for Grade 1-5: master numbers, operations, fractions, geometry and measurement through interactive, real-world learning.
+
+### [GCSE Maths: Foundation & Higher (9-1), AQA, Edexcel, OCR](https://learn.modernagecoders.com/courses/gcse-mathematics-mastery/)
 
 *Level:* Years 9-11 GCSE students, Foundation and Higher tiers, plus resit candidates · *Duration:* 18 months (72 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
-Live online GCSE Maths course for AQA, Edexcel and OCR: Foundation and Higher tiers, non-calculator Paper 1 fluency, grade 7-9 reach taught early and past-paper technique on real mark schemes. 8 one-hour classes a month, free demo first.
+GCSE Maths course for AQA, Edexcel and OCR: Foundation and Higher tiers, non-calculator Paper 1 fluency, grade 7-9 reach and past-paper technique.
 
-### [IB Mathematics AA & AI Masterclass — SL & HL, Live Online with IA Coaching](https://learn.modernagecoders.com/courses/ib-mathematics-aa-ai-masterclass/)
+### [GRE & GMAT Quantitative Prep: Live Maths Coaching](https://learn.modernagecoders.com/courses/gre-gmat-quant-maths-prep-course/)
+
+*Level:* Adults preparing for graduate admissions; school maths is refreshed from the ground up · *Duration:* 6 months (24 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Live online GRE and GMAT quantitative maths prep for adults: arithmetic, algebra, statistics and data sufficiency, taught to the current exam formats.
+
+### [High School Mathematics: Algebra to Calculus (Grade 9-12)](https://learn.modernagecoders.com/courses/complete-high-school-mathematics-mastery/)
+
+*Level:* Complete Beginner to Advanced High School · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Live online high school maths course for Grade 9-12: algebra, geometry, trigonometry, pre-calculus, calculus and statistics, built for university readiness.
+
+### [IB Maths AA & AI: SL & HL, Live Online with IA Coaching](https://learn.modernagecoders.com/courses/ib-mathematics-aa-ai-masterclass/)
 
 *Level:* IB DP students (AA & AI, SL & HL) and MYP students heading to the DP · *Duration:* 24 months (the full Diploma Programme arc) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
-Live online IB Maths course for Analysis & Approaches and Applications & Interpretation, SL and HL: syllabus taught for ownership, paper-specific technique, GDC fluency and honest IA coaching within IB integrity rules. 8 one-hour classes a month, free demo first.
+Live online IB Maths course for AA and AI, SL and HL: syllabus-exact teaching, paper-specific technique, GDC fluency and honest IA coaching. Free demo first.
 
-### [IGCSE Mathematics Mastery — Core, Extended & Additional 0606, Live Online](https://learn.modernagecoders.com/courses/igcse-mathematics-mastery/)
+### [IGCSE Maths: Core, Extended & Additional Mathematics Online](https://learn.modernagecoders.com/courses/igcse-mathematics-mastery/)
 
 *Level:* IGCSE students, years 9-11: Core, Extended and Additional Maths · *Duration:* 18 months (72 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
-Live online IGCSE Maths course for Cambridge 0580/0980 (Core and Extended) and Additional Mathematics 0606: non-calculator fluency, syllabus-exact teaching and past-paper technique on real mark schemes. 8 one-hour classes a month, free demo first.
+Live online IGCSE Maths course for Cambridge Core, Extended and Additional Mathematics: non-calculator fluency and past-paper technique on real mark schemes.
 
-### [Maths Through Coding — Learn Math by Building It in Python (Ages 10-15)](https://learn.modernagecoders.com/courses/maths-through-coding/)
+### [JEE Foundation Maths Class 8-10: Proofs & Problem Solving](https://learn.modernagecoders.com/courses/jee-foundation-maths-course-class-8-10/)
+
+*Level:* Class 8 to 10 students, batched by class · *Duration:* 12 months (48 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+JEE foundation maths course for Class 8-10: NCERT-aligned depth, geometry proof skills, olympiad-style problem solving and timed MCQ practice in live batches.
+
+### [Maths Olympiad & Competition Course: AMC, AIME to IMO](https://learn.modernagecoders.com/courses/olympiad-competition-mathematics-mastery/)
+
+*Level:* Intermediate to International Competition Level · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹3999/month
+
+One-year maths olympiad course: master number theory, combinatorics, algebra, geometry and inequalities, with problem-solving craft for AMC, AIME and IMO.
+
+### [Maths Through Coding: Learn Math in Python (Ages 10-15)](https://learn.modernagecoders.com/courses/maths-through-coding/)
 
 *Level:* Ages 10-15 (grades 5-10); no coding experience required · *Duration:* 9 months (36 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
-Live online course where students learn mathematics by programming it: fractions, algebra, geometry, probability and functions built as Python projects. The signature Modern Age Coders fusion, taught by mentors fluent in both. 8 one-hour classes a month, free demo first.
+Live course where kids ages 10-15 learn maths by coding it: fractions, algebra, geometry and probability built as Python projects. 8 classes a month, free demo.
 
-### [Mental Maths Mastery for Kids — Number Sense, Not Tricks (Ages 5-10)](https://learn.modernagecoders.com/courses/mental-maths-mastery-kids/)
+### [Mental Maths for Kids: Number Sense, Not Tricks (Ages 5-10)](https://learn.modernagecoders.com/courses/mental-maths-mastery-kids/)
 
 *Level:* Ages 5-10 (roughly grades K-5), all starting levels · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
-Live online mental maths course for ages 5-10: number bonds, decomposition strategies and estimation built into real number sense — the honest alternative to abacus and trick-based programs. 8 one-hour classes a month, free demo first.
+Live mental maths course for kids ages 5-10: number bonds, decomposition and estimation build real number sense, the honest alternative to abacus. Free demo.
 
-### [PSLE Maths Mastery Course — Model Method & Problem Sums, Live Online](https://learn.modernagecoders.com/courses/psle-maths-mastery/)
+### [Middle School Mathematics Mastery: Pre-Algebra & Geometry](https://learn.modernagecoders.com/courses/comprehensive-middle-school-mathematics-mastery/)
+
+*Level:* Complete Beginner to Advanced Middle School Level · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+A 1-year middle school maths program taking students from basic arithmetic to pre-algebra, geometry and statistics with real problem-solving strategies.
+
+### [PSLE Maths: Model Method, Problem Sums & MOE Syllabus](https://learn.modernagecoders.com/courses/psle-maths-mastery/)
 
 *Level:* Primary 4-6 students on the MOE syllabus, PSLE-bound · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
-Live online PSLE maths course on the MOE syllabus: model method taught as thinking, problem-sum structure families, no-calculator Paper 1 fluency and AL-banking exam craft. Singapore evening slots, 8 one-hour classes a month, free demo first.
+Live online PSLE maths on the MOE syllabus: model method taught as thinking, problem-sum families, no-calculator Paper 1 craft, Singapore evening slots.
 
-### [SAT Math 800 Prep Course — Live Online Classes for the Digital SAT](https://learn.modernagecoders.com/courses/sat-math-prep-course/)
+### [SAT Math 800 Prep: Live Classes for the Digital SAT](https://learn.modernagecoders.com/courses/sat-math-prep-course/)
 
 *Level:* Grades 10-12, all starting scores · *Duration:* 6 months (26 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
-Live online SAT Math prep with a dedicated mentor: Heart of Algebra, Advanced Math, Problem-Solving & Data Analysis, Desmos strategy and full adaptive mock cycles for the Digital SAT. 8 one-hour classes a month, free demo class first.
+Live online SAT Math prep for the Digital SAT: Heart of Algebra, Advanced Math, Data Analysis, Desmos strategy and full adaptive mock cycles with a mentor.
+
+### [Statistics & Probability: Data to Hypothesis Testing](https://learn.modernagecoders.com/courses/statistics-probability-maths-course/)
+
+*Level:* College students and working professionals; no programming required · *Duration:* 6 months (24 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Online statistics and probability course for college and professionals: descriptive stats, distributions, hypothesis testing and regression on real data.
+
+### [Vedic Maths Mastery: Speed Calculation with All 16 Sutras](https://learn.modernagecoders.com/courses/vedic-maths-course-speed-calculation-mastery/)
+
+*Level:* Beginner friendly, ages 8 to adult · *Duration:* 6 months (24 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Vedic maths course online with live classes: all 16 sutras for fast multiplication, squares, division and mental calculation. Ages 8 to adult, free demo class.
 
 ### Girls (3)
 
-### [Alpha Girls - Ultra-Elite Tech Mastery & Enterprise Leadership | Expert to Industry Pioneer](https://learn.modernagecoders.com/courses/alpha-girls-elite-tech-mastery/)
+### [Alpha Girls: Elite Tech Mastery & Leadership for Women](https://learn.modernagecoders.com/courses/alpha-girls-elite-tech-mastery/)
 
 *Level:* Expert Developer to Industry Pioneer/Tech Mogul · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most elite 1-year program for women in tech. Transform from advanced developer to industry pioneer. Master enterprise architecture, build billion-dollar systems, lead Fortune 500 projects, and command $500K+ salaries. For women ready to dominate the tech industry.
+A 1-year program for women in tech ready to go from advanced developer to industry leader: master enterprise architecture and lead large-scale systems.
 
-### [Princess Coders - Complete Coding Journey for Girls | Zero to Professional Developer](https://learn.modernagecoders.com/courses/princess-coders-complete-coding-masterclass/)
+### [Princess Coders: Complete Coding Course for Girls & Women](https://learn.modernagecoders.com/courses/princess-coders-complete-coding-masterclass/)
 
 *Level:* Complete Beginner to Advanced Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 1-year coding program exclusively designed for girls and women. From absolute beginners to professional developers. Master web development, app creation, AI basics, and creative coding with age-appropriate tracks for kids (8-12), teens (13-17), and adults (18+).
+One-year coding program for girls and women: web development, app creation, AI basics and creative coding, with tracks for kids, teens and adults.
 
-### [Queen Coders - Advanced Tech Leadership Program for Women | Intermediate to Expert](https://learn.modernagecoders.com/courses/queen-coders-advanced-tech-leadership/)
+### [Queen Coders: 1-Year Advanced Tech Leadership for Women](https://learn.modernagecoders.com/courses/queen-coders-advanced-tech-leadership/)
 
 *Level:* Intermediate Developer to Tech Leader/Architect · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-Elite 1-year advanced programming and tech leadership program exclusively for women. Transform from intermediate developer to tech leader. Master cloud architecture, AI/ML, blockchain, system design, and entrepreneurship while building production-grade applications.
+A 1-year advanced coding and leadership program for women: grow from intermediate developer to tech leader with cloud, AI/ML, system design and real apps.
 
-### Other (12)
+### Other (16)
 
-### [Codex & Claude Code Masterclass for Adults & Professionals — AI Coding Agents (24 Classes)](https://learn.modernagecoders.com/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals/)
-
-*Level:* Beginner to advanced — for working professionals, career switchers & developers · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
-
-Master OpenAI Codex and Anthropic Claude Code — the two leading agentic AI coding tools — in 24 in-depth classes for adults, working professionals, and career switchers. Install and configure the CLIs, command plan and goal mode, MCP, subagents, hooks, cloud parallel agents, GitHub code review, and the Claude Agent SDK and Codex SDK. Ship production-grade work and automate real engineering tasks.…
-
-### [Complete Algorithmic Trading & Stock Market Automation Masterclass](https://learn.modernagecoders.com/courses/algorithmic-trading-automation-masterclass/)
+### [Algorithmic Trading & Stock Market Automation Masterclass](https://learn.modernagecoders.com/courses/algorithmic-trading-automation-masterclass/)
 
 *Level:* Complete Beginner to Professional Quant Trader · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 1-year algorithmic trading program. From financial markets basics to advanced AI-powered trading systems. Master quantitative trading, portfolio management, risk analytics, backtesting, and deploy production trading bots.
+A 1-year algorithmic trading program: master quantitative trading, backtesting, portfolio management, risk analytics and deploy production trading bots.
 
-### [Complete Algorithmic Trading Masterclass - Zero to Profitable Trading Systems](https://learn.modernagecoders.com/courses/algorithmic-trading-masterclass-complete/)
+### [Algorithmic Trading Masterclass: Zero to Automated Systems](https://learn.modernagecoders.com/courses/algorithmic-trading-masterclass-complete/)
 
 *Level:* Complete Beginner to Professional Quant Trader · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 12-month algorithmic trading program. From zero knowledge to building automated trading systems. Master Python, financial markets, quantitative analysis, trading strategies, backtesting, risk management, and live trading deployment.
+A 12-month algorithmic trading program: master Python, financial markets, quant analysis, strategy design, backtesting, risk management and live trading.
 
-### [Complete Block-Based App Development Masterclass - From Zero to App Store](https://learn.modernagecoders.com/courses/block-coding-app-development-masterclass/)
+### [AP Computer Science A: Java Programming and Full Exam Prep](https://learn.modernagecoders.com/courses/ap-computer-science-a-java-exam-prep-course/)
+
+*Level:* High school students preparing for AP Computer Science A; taught from Java basics, no prior coding required · *Duration:* 6 months (24 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Live online AP Computer Science A prep taught to the 2025-26 redesign: Java from scratch, all four units, free-response mastery and full digital mock exams.
+
+### [AP Computer Science Principles: Create Task and Exam Prep](https://learn.modernagecoders.com/courses/ap-computer-science-principles-exam-prep-course/)
+
+*Level:* High school students preparing for AP Computer Science Principles; beginner-friendly, no prior coding required · *Duration:* 6 months (24 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Live online AP Computer Science Principles course: programming fundamentals, data, algorithms, the Create performance task, and full digital exam prep for CSP.
+
+### [Block-Based App Development: Build Apps With No Code](https://learn.modernagecoders.com/courses/block-coding-app-development-masterclass/)
 
 *Level:* Complete Beginner to Advanced App Creator · *Duration:* 6 months (26 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 6-month block-based app development program using visual coding platforms like Thunkable, MIT App Inventor, and Scratch. Perfect for beginners of all ages - kids, teens, and adults. Create real mobile apps without writing code!
+A 6-month block-based app development course using Thunkable, MIT App Inventor and Scratch, for kids, teens and adults to build real mobile apps with no code.
 
-### [Complete Canva & AI Design Masterclass - From Zero to Professional Designer](https://learn.modernagecoders.com/courses/canva-ai-design-masterclass/)
+### [Canva & AI Design Course: Zero to Professional Designer](https://learn.modernagecoders.com/courses/canva-ai-design-masterclass/)
 
 *Level:* Complete Beginner to Advanced Professional · *Duration:* 6 months (26 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 6-month design and content creation program. Master Canva, photo editing, video editing, AI tools, and become a professional digital designer. From absolute basics to creating stunning professional designs, social media content, and marketing materials.
+A 6-month design course to master Canva, photo and video editing and AI tools, creating professional social media content and marketing materials from zero.
 
-### [Complete Ethical Hacking & Cybersecurity Masterclass - Zero to Professional Pentester](https://learn.modernagecoders.com/courses/ethical-hacking-masterclass-complete/)
+### [Codex & Claude Code: AI Coding Agents for Professionals](https://learn.modernagecoders.com/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals/)
 
-*Level:* Complete Beginner to Professional Ethical Hacker · *Duration:* 6 months (26 weeks) - Can be taken as 1.5 hour daily sessions · *Group:* ₹999/month · *1-on-1:* ₹5999/month
+*Level:* Beginner to advanced, for working professionals, career switchers & developers · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
-The most comprehensive ethical hacking program. From absolute basics to advanced penetration testing, web application security, network hacking, mobile security, and bug bounty hunting. Master networking, Linux, programming, OWASP Top 10, wireless hacking, social engineering, and become a certified ethical hacker.
+Master OpenAI Codex and Anthropic Claude Code in 24 classes for professionals: install the CLIs, plan and goal mode, MCP, subagents, hooks and ship real work.
 
-### [Complete Kotlin Programming Masterclass - Zero to Professional Android & Backend Developer](https://learn.modernagecoders.com/courses/complete-kotlin-programming-masterclass-professional/)
-
-*Level:* Complete Beginner to Professional Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-The most comprehensive 1-year Kotlin programming masterclass. From absolute basics to professional-level applications. Master Kotlin fundamentals, Android development, Spring Boot with Kotlin, multiplatform development, coroutines, and everything needed for a successful Kotlin career.
-
-### [Computer Science Class 11 & 12 Complete Course | CBSE (Python) & ICSE/ISC (Java) | Board Exam Topper Program](https://learn.modernagecoders.com/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course/)
+### [Computer Science Class 11-12: CBSE Python & ICSE/ISC Java](https://learn.modernagecoders.com/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course/)
 
 *Level:* Class 11 Beginner to Class 12 Board Exam Ready · *Duration:* 24 months (Class 11 + Class 12 full syllabus) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-India's most comprehensive Computer Science course for Class 11 & 12 students. Covers CBSE CS (Code 083) with Python programming, SQL, networking, file handling, data structures & ICSE/ISC Computer Science with Java, OOP, linked lists, Boolean algebra. Separate dedicated batches for CBSE and ICSE boards. Aligned with Sumita Arora, Preeti Arora & NCERT textbooks. 100% syllabus coverage + board…
+Class 11 & 12 Computer Science for CBSE (Python, SQL) and ICSE/ISC (Java, OOP): separate board batches, full syllabus, practical file and project guidance.
 
-### [Creative Coding & Digital Animation Mastery - Complete Content Creator Course](https://learn.modernagecoders.com/courses/creative-coding-animation-mastery/)
+### [Creative Coding & Animation: Content Creator Course](https://learn.modernagecoders.com/courses/creative-coding-animation-mastery/)
 
 *Level:* Beginner to Professional Content Creator · *Duration:* 6 months (26 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 6-month creative coding and animation program. Master animation, video editing, motion graphics, social media content creation, visual effects, and creative programming. Create viral reels, stunning animations, and become a professional digital content creator.
+A 6-month creative coding and animation course: motion graphics, video editing, visual effects and social content, so you create viral reels as a pro creator.
 
-### [Hackathon for Adults & Professionals — Free Hackathon + 12-Week Pro Prep (18+) | Modern Age Coders](https://learn.modernagecoders.com/courses/hackathon-prep-for-adults-professionals-coding-ai-innovation-course/)
+### [Ethical Hacking & Cybersecurity: Zero to Pentester](https://learn.modernagecoders.com/courses/ethical-hacking-masterclass-complete/)
+
+*Level:* Complete Beginner to Professional Ethical Hacker · *Duration:* 6 months (26 weeks) - Can be taken as 1.5 hour daily sessions · *Group:* ₹999/month · *1-on-1:* ₹5999/month
+
+Ethical hacking and cybersecurity course covering penetration testing, OWASP Top 10, network and wireless hacking, and bug bounty hunting, from zero to pro.
+
+### [Hackathon for Adults: Free Event + 12-Week Pro Prep (18+)](https://learn.modernagecoders.com/courses/hackathon-prep-for-adults-professionals-coding-ai-innovation-course/)
 
 *Level:* Beginner-Friendly to Advanced (Adults 18+) · *Duration:* 12 weeks pro prep + Live Hackathon Weekend · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
-Free hackathon for adults, professionals, founders and career switchers (18+). Plus a 12-week Pro Hackathon Prep — full-stack engineering, AI agents, system design, distributed systems, RAG, vector DBs, and founder-grade pitching. Build something innovative. Win sponsor prizes. Ship to production.
+Free hackathon for adults, professionals and founders (18+), plus a 12-week Pro Prep in full-stack engineering, AI agents, system design and pitching.
 
-### [Informatics Practices (IP) Class 11 & 12 Complete Course | CBSE Code 065 | Python Pandas SQL Data Visualization Board Exam Topper Program](https://learn.modernagecoders.com/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course/)
+### [HTML & CSS for Beginners: Build Real Responsive Websites](https://learn.modernagecoders.com/courses/html-css-course-for-beginners-build-real-websites/)
+
+*Level:* Absolute beginner, ages 10 to adult · *Duration:* 4 months (16 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+HTML and CSS course for beginners: live online classes from your first tag to a published multi-page website, with flexbox, grid, and responsive design.
+
+### [Informatics Practices (IP) Class 11-12: CBSE Python & SQL](https://learn.modernagecoders.com/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course/)
 
 *Level:* Class 11 Beginner to Class 12 Board Exam Ready · *Duration:* 24 months (Class 11 + Class 12 full syllabus) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-India's most comprehensive Informatics Practices (IP) course for CBSE Class 11 & 12 students. 100% syllabus coverage for CBSE Code 065 — Python programming, Pandas DataFrames, NumPy, Matplotlib data visualization, MySQL SQL queries, computer networks, societal impacts, and emerging trends. Aligned with Preeti Arora, Sumita Arora & NCERT IP textbooks. Complete practical file with 15+ Pandas…
+CBSE Informatics Practices course for Class 11 & 12: master Python, Pandas, NumPy, Matplotlib and MySQL, with practical file and viva preparation.
 
-### [Scratch Programming Mastery - Complete 3-Month Course for Kids](https://learn.modernagecoders.com/courses/scratch-programming-complete-course/)
+### [Kotlin Programming: Zero to Android & Backend Developer](https://learn.modernagecoders.com/courses/complete-kotlin-programming-masterclass-professional/)
+
+*Level:* Complete Beginner to Professional Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Kotlin course online: a 1-year masterclass from basics to professional apps, covering Android, Spring Boot, coroutines and multiplatform for a Kotlin career.
+
+### [Python Web Development with Django and Flask Course](https://learn.modernagecoders.com/courses/python-web-development-django-flask-course/)
+
+*Level:* Intermediate, college students and working professionals with Python basics · *Duration:* 6 months (24 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+Python web development course with Django and Flask: live online classes on routing, templates, databases, auth, REST APIs and deploying a real project.
+
+### [Scratch Programming for Kids: 3-Month Course, 50+ Projects](https://learn.modernagecoders.com/courses/scratch-programming-complete-course/)
 
 *Level:* Complete Beginner to Advanced Scratch Developer · *Duration:* 3 months (12 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
-The most comprehensive 3-month Scratch programming course for kids. From zero experience to creating complex games, animations, and interactive stories. Master computational thinking, game design, and creative coding with 50+ projects using MIT Scratch.
+A 3-month Scratch course for kids: go from zero to games, animations and interactive stories, building computational thinking with 50+ MIT Scratch projects.
 
 ## Featured Blog Posts (full content)
 
@@ -842,7 +971,7 @@ Here is a side-by-side comparison of the features that matter most to parents. T
 
 # What is Vibe Coding? The Ultimate Deep-Dive Guide to the AI Development Revolution
 
-> 92% of US developers now use AI coding tools daily. 46% of new code on GitHub is AI-generated. Collins Dictionary named it Word of the Year. From Andrej Karpathy's tweet to a $8.5 billion industry — this is the most detailed guide to vibe coding ever written.
+> 92% of US developers now use AI coding tools daily. 46% of new code on GitHub is AI-generated. Collins Dictionary named it Word of the Year. From Andrej Karpathy's tweet to a $8.5 billion industry, this is the most detailed guide to vibe coding ever written.
 
 ![A software developer collaborating with a glowing AI entity to create digital applications in a futuristic workspace](/images/blog/vibe_coding_hero_1773774920835.png)
 
@@ -874,10 +1003,11 @@ Vibe coding burns that bridge. Instead of getting bogged down in boilerplate cod
 
 *[Truncated — read in full at the markdown URL above.]*
 
-## Full Blog Index (92 articles)
+## Full Blog Index (93 articles)
 
 Every published article. Fetch the markdown twin from the second link for full content.
 
+- 2026-07-05 — [20 HTML, CSS, and JavaScript Project Ideas (With Code)](https://learn.modernagecoders.com/blog/html-css-javascript-project-ideas/) — https://learn.modernagecoders.com/content/blog/generated/html-css-javascript-project-ideas/index.md
 - 2026-07-04 — [50 Important Java Programs for ICSE Class 10 Boards](https://learn.modernagecoders.com/blog/50-java-programs-for-icse-class-10/) — https://learn.modernagecoders.com/content/blog/generated/50-java-programs-for-icse-class-10/index.md
 - 2026-07-04 — [ICSE Class 10 Computer Applications: Revision Guide](https://learn.modernagecoders.com/blog/icse-class-10-computer-applications-revision/) — https://learn.modernagecoders.com/content/blog/generated/icse-class-10-computer-applications-revision/index.md
 - 2026-07-04 — [Java Array Programs for Beginners: 20 Solved Examples](https://learn.modernagecoders.com/blog/java-array-programs-for-beginners/) — https://learn.modernagecoders.com/content/blog/generated/java-array-programs-for-beginners/index.md
@@ -917,7 +1047,7 @@ Every published article. Fetch the markdown twin from the second link for full c
 - 2026-01-20 — [File Organization in Python: A Beginner's Guide to Managing Your Code Like a Pro](https://learn.modernagecoders.com/blog/file-organization-in-python/) — https://learn.modernagecoders.com/content/blog/generated/file-organization-in-python/index.md
 - 2026-01-19 — [What is Floor Division in Python? Complete Guide with Examples](https://learn.modernagecoders.com/blog/what-is-floor-division-in-python/) — https://learn.modernagecoders.com/content/blog/generated/what-is-floor-division-in-python/index.md
 - 2026-01-19 — [10 Best Java IDEs for Beginners: Complete Guide to Choosing Your First IDE](https://learn.modernagecoders.com/blog/best-java-ides-for-beginners/) — https://learn.modernagecoders.com/content/blog/generated/best-java-ides-for-beginners/index.md
-- 2026-01-18 — [Armstrong Number in Python — Code Examples & 5-Min Tutorial](https://learn.modernagecoders.com/blog/armstrong-number-python-complete-guide-examples-code/) — https://learn.modernagecoders.com/content/blog/generated/armstrong-number-python-complete-guide-examples-code/index.md
+- 2026-01-18 — [Armstrong Number in Python, Code Examples & 5-Min Tutorial](https://learn.modernagecoders.com/blog/armstrong-number-python-complete-guide-examples-code/) — https://learn.modernagecoders.com/content/blog/generated/armstrong-number-python-complete-guide-examples-code/index.md
 - 2026-01-18 — [Coding for 5-Year-Olds: How Young Kids Can Start Learning Programming?](https://learn.modernagecoders.com/blog/coding-for-5-year-olds-young-kids-start-learning-programming/) — https://learn.modernagecoders.com/content/blog/generated/coding-for-5-year-olds-young-kids-start-learning-programming/index.md
 - 2026-01-18 — [Coding for 6-Year-Olds: Best Ways to Introduce Programming at an Early Age](https://learn.modernagecoders.com/blog/coding-for-6-year-olds/) — https://learn.modernagecoders.com/content/blog/generated/coding-for-6-year-olds/index.md
 - 2026-01-18 — [Coding for 7-Year-Olds: What and How Kids Should Learn Programming](https://learn.modernagecoders.com/blog/coding-for-7-year-olds-what-how-kids-should-learn-programming/) — https://learn.modernagecoders.com/content/blog/generated/coding-for-7-year-olds-what-how-kids-should-learn-programming/index.md
@@ -954,10 +1084,10 @@ Every published article. Fetch the markdown twin from the second link for full c
 - 2025-03-18 — [A Parent's Guide to Starting Coding Education at Home](https://learn.modernagecoders.com/blog/parents-guide-starting-coding-education-home/) — https://learn.modernagecoders.com/content/blog/generated/parents-guide-starting-coding-education-home/index.md
 - 2025-03-16 — [Robotics and Coding: How STEM Kits Build Logical Thinking](https://learn.modernagecoders.com/blog/robotics-coding-stem-kits-build-logical-thinking/) — https://learn.modernagecoders.com/content/blog/generated/robotics-coding-stem-kits-build-logical-thinking/index.md
 - 2025-03-15 — [Common Myths About Coding for School Students (And the Truth Behind Them)](https://learn.modernagecoders.com/blog/common-myths-about-coding-for-school-students/) — https://learn.modernagecoders.com/content/blog/generated/common-myths-about-coding-for-school-students/index.md
-- 2025-03-14 — [12 Best Coding Games for Kids (2026) — Free & Fun to Play](https://learn.modernagecoders.com/blog/top-coding-games-platforms-make-learning-fun-kids/) — https://learn.modernagecoders.com/content/blog/generated/top-coding-games-platforms-make-learning-fun-kids/index.md
+- 2025-03-14 — [12 Best Coding Games for Kids (2026), Free & Fun to Play](https://learn.modernagecoders.com/blog/top-coding-games-platforms-make-learning-fun-kids/) — https://learn.modernagecoders.com/content/blog/generated/top-coding-games-platforms-make-learning-fun-kids/index.md
 - 2025-03-12 — [Scratch vs Python: Which is Better for Young Learners?](https://learn.modernagecoders.com/blog/scratch-vs-python-which-better-young-learners/) — https://learn.modernagecoders.com/content/blog/generated/scratch-vs-python-which-better-young-learners/index.md
 - 2025-03-10 — [How Learning Coding Improves Mathematical Thinking in Children](https://learn.modernagecoders.com/blog/how-coding-improves-mathematical-thinking-children/) — https://learn.modernagecoders.com/content/blog/generated/how-coding-improves-mathematical-thinking-children/index.md
-- 2025-03-06 — [Best Coding Languages for Kids Age 10-18 — 2026 Parent Guide](https://learn.modernagecoders.com/blog/best-coding-languages-kids-10-18-beginner-advanced/) — https://learn.modernagecoders.com/content/blog/generated/best-coding-languages-kids-10-18-beginner-advanced/index.md
+- 2025-03-06 — [Best Coding Languages for Kids Age 10-18-2026 Parent Guide](https://learn.modernagecoders.com/blog/best-coding-languages-kids-10-18-beginner-advanced/) — https://learn.modernagecoders.com/content/blog/generated/best-coding-languages-kids-10-18-beginner-advanced/index.md
 - 2025-03-05 — [Why Coding is the New Literacy for Kids in 2025](https://learn.modernagecoders.com/blog/why-coding-is-new-literacy-kids-2025/) — https://learn.modernagecoders.com/content/blog/generated/why-coding-is-new-literacy-kids-2025/index.md
 - 2025-03-01 — [What is AI? Complete Beginner's Guide: How to Start, Which Languages, and How Deep to Go](https://learn.modernagecoders.com/blog/what-is-ai-complete-beginners-guide-how-to-start/) — https://learn.modernagecoders.com/content/blog/generated/what-is-ai-complete-beginners-guide-how-to-start/index.md
 - 2025-02-25 — [Top 10 Java Programs Every School Student Should Know (With Solutions)](https://learn.modernagecoders.com/blog/top-10-java-programs-for-school-students/) — https://learn.modernagecoders.com/content/blog/generated/top-10-java-programs-for-school-students/index.md

@@ -1,21 +1,30 @@
 # Modern Age Coders
 
-> Live online coding and mathematics classes for kids (ages 6+), teens, college students, 
-and adults across India. Small batch sizes of 4-8 students per class.
+> Live online coding and mathematics classes for kids (ages 6+), teens, college students,
+and adults. Small batch sizes of 4-8 students per class. Rated 4.9 out of 5 across 547
+Google reviews. Founded 2020.
 
-Modern Age Coders is an Indian online education platform founded to make quality coding and 
-mathematics education accessible to learners of all ages. We offer live, interactive classes 
-taught by expert mentors with a maximum of 4-8 students per batch — unlike large platforms 
+Modern Age Coders is an Indian online education platform founded to make quality coding and
+mathematics education accessible to learners of all ages. We offer live, interactive classes
+taught by expert mentors with a maximum of 4-8 students per batch — unlike large platforms
 where students get lost in the crowd.
 
-Our courses span from Scratch block coding for 6-year-olds to AI and machine learning for 
-adults. Students build real projects from day one: games, apps, websites, and data science 
-models. All classes are conducted online over video conferencing and include recorded sessions 
-for revision.
+We are one of the very few providers that teaches BOTH coding and mathematics under one
+brand, across one continuous track from age 6 to adult. Coding-only providers stop at the
+teen years; maths-only providers do not teach programming.
 
-We serve students across India including Mumbai, Kolkata, Bengaluru, Delhi, Hyderabad, Pune,
-Chennai, Ahmedabad, and Indore, as well as international students (classes available in USD,
-EUR, GBP, and other currencies).
+Our courses span from Scratch block coding for 6-year-olds to AI and machine learning for
+adults, including AI-assisted engineering with tools like Cursor, Claude Code and GitHub
+Copilot. Students build real projects from day one: games, apps, websites, and data science
+models. All classes are live over video conferencing, and each class is recorded and
+available for 7 days for revision.
+
+We teach students across 131 Indian cities (including Mumbai, Kolkata, Bengaluru, Delhi,
+Hyderabad, Pune, Chennai, Ahmedabad, Indore and Jaipur), every major Indian state, and
+internationally — the United States, United Kingdom, UAE (Dubai, Abu Dhabi, Sharjah),
+Saudi Arabia (Riyadh, Jeddah, Dammam), Qatar (Doha), Singapore, Australia, Canada,
+Germany, Ireland, New Zealand and Sweden. International pricing is shown in USD, EUR, GBP
+and other local currencies.
 
 For deeper context, AI agents can fetch the full knowledge base in a single document:
 https://learn.modernagecoders.com/llms-full.txt — full brand overview, complete course
@@ -47,7 +56,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 
 - Homepage: https://learn.modernagecoders.com/
 - All Courses: https://learn.modernagecoders.com/courses
-- Course Atlas (complete catalogue of 70+ live courses across coding, AI/ML, web/app dev, data science and maths for ages 6-65; markdown at /course-atlas.md): https://learn.modernagecoders.com/course-atlas
+- Course Atlas (complete catalogue of 100+ live courses across coding, AI/ML, web/app dev, data science and maths for ages 6-65; markdown at /course-atlas.md): https://learn.modernagecoders.com/course-atlas
 - Real Coding Classes (depth-first manifesto — Python internals, maths-first AI/ML, DSA, C++, Java, full-stack; markdown at /real-coding-classes.md): https://learn.modernagecoders.com/real-coding-classes
 - Coding vs Programming (the real difference between coding and programming; how we build genuine programmers and problem-solvers, not just coders; markdown at /coding-vs-programming.md): https://learn.modernagecoders.com/coding-vs-programming
 - Learn Coding From First Principles (depth-first — understand how code actually works under the hood: memory, execution, the maths behind AI/ML; markdown at /learn-coding-from-first-principles.md): https://learn.modernagecoders.com/learn-coding-from-first-principles
@@ -178,6 +187,11 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 
 ## City Landing Pages (Local SEO)
 
+We publish a page for each of 131 Indian cities at /best-coding-class-in-{city}, each with
+that city's own schools, boards, timings and student projects. The full list is in
+https://learn.modernagecoders.com/sitemap.xml and browsable at
+https://learn.modernagecoders.com/sitemap — the largest cities:
+
 - Best Coding Class in Kolkata: https://learn.modernagecoders.com/best-coding-class-in-kolkata
 - Best Coding Class in Bengaluru: https://learn.modernagecoders.com/best-coding-class-in-bengaluru
 - Best Coding Class in Chennai: https://learn.modernagecoders.com/best-coding-class-in-chennai
@@ -187,6 +201,71 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Best Coding Class in Hyderabad: https://learn.modernagecoders.com/best-coding-class-in-hyderabad
 - Best Coding Class in Ahmedabad: https://learn.modernagecoders.com/best-coding-class-in-ahmedabad
 - Best Coding Class in Indore: https://learn.modernagecoders.com/best-coding-class-in-indore
+- India hub (indexes every city, state and neighbourhood): https://learn.modernagecoders.com/coding-classes-in-india
+
+Kolkata and Howrah also have 47 neighbourhood pages at /coding-classes-near-{locality}-{city}
+(Ballygunge, Salt Lake, New Town, Park Street, Jadavpur, Shibpur and more).
+
+## Indian State Pages
+
+Each state page covers that state's boards, exam calendar and city list:
+/coding-classes-in-{state} for Andhra Pradesh, Bihar, Delhi, Gujarat, Haryana, Karnataka,
+Kerala, Madhya Pradesh, Maharashtra, Odisha, Punjab, Rajasthan, Tamil Nadu, Telangana,
+Uttar Pradesh, West Bengal and others.
+
+## Gulf & Middle East (live classes in Gulf timezones)
+
+- Coding Classes in UAE: https://learn.modernagecoders.com/coding-classes-in-uae
+- Coding Classes in Dubai: https://learn.modernagecoders.com/coding-classes-in-dubai
+- Coding Classes in Abu Dhabi: https://learn.modernagecoders.com/coding-classes-in-abu-dhabi
+- Coding Classes in Sharjah: https://learn.modernagecoders.com/coding-classes-in-sharjah
+- Coding Classes in Saudi Arabia: https://learn.modernagecoders.com/coding-classes-in-saudi-arabia
+- Coding Classes in Riyadh: https://learn.modernagecoders.com/coding-classes-in-riyadh
+- Coding Classes in Jeddah: https://learn.modernagecoders.com/coding-classes-in-jeddah
+- Coding Classes in Dammam: https://learn.modernagecoders.com/coding-classes-in-dammam
+- Coding Classes in Qatar: https://learn.modernagecoders.com/coding-classes-in-qatar
+- Coding Classes in Doha: https://learn.modernagecoders.com/coding-classes-in-doha
+
+## International Country Pages
+
+- United States: https://learn.modernagecoders.com/coding-classes-in-united-states
+- United Kingdom: https://learn.modernagecoders.com/coding-classes-in-united-kingdom
+- Australia: https://learn.modernagecoders.com/coding-classes-in-australia
+- Canada: https://learn.modernagecoders.com/coding-classes-in-canada
+- Singapore: https://learn.modernagecoders.com/coding-classes-in-singapore
+- Germany: https://learn.modernagecoders.com/coding-classes-in-germany
+- Ireland: https://learn.modernagecoders.com/coding-classes-in-ireland
+- New Zealand: https://learn.modernagecoders.com/coding-classes-in-new-zealand
+- Sweden: https://learn.modernagecoders.com/coding-classes-in-sweden
+- Switzerland: https://learn.modernagecoders.com/coding-classes-in-switzerland
+
+## Certification Exam Prep
+
+- PCEP Python Certification Prep: https://learn.modernagecoders.com/pcep-python-certification-prep
+- OCA Java Certification Prep: https://learn.modernagecoders.com/oca-java-certification-prep
+- CPA/CPP C++ Certification Prep: https://learn.modernagecoders.com/cpa-cpp-certification-prep
+
+## Language Pillars & Deep Tracks
+
+- Best Java Classes in India (pillar + 9 spokes incl. ICSE/ISC BlueJ Java): https://learn.modernagecoders.com/best-java-classes-in-india
+- Best C++ Classes in India (pillar + 11 spokes, CP/DSA/placements): https://learn.modernagecoders.com/best-c-plus-plus-classes-in-india
+- Best AI & Machine Learning Course in India (pillar + 24 spokes): https://learn.modernagecoders.com/best-ai-and-machine-learning-course-in-india
+- Data Structures & Algorithms Course: https://learn.modernagecoders.com/data-structures-and-algorithms-course
+- Vibe Coding Classes (AI-assisted engineering): https://learn.modernagecoders.com/vibe-coding-classes
+
+## Honest Comparisons
+
+We publish direct, fair comparisons rather than claiming we win everything:
+- vs WhiteHat Jr, Cuemath & Codingal (three-way): https://learn.modernagecoders.com/modern-age-coders-vs-whitehat-jr-cuemath-codingal
+- vs Cuemath: https://learn.modernagecoders.com/modern-age-coders-vs-cuemath
+- vs Codingal: https://learn.modernagecoders.com/modern-age-coders-vs-codingal
+- vs Juni Learning: https://learn.modernagecoders.com/modern-age-coders-vs-juni-learning
+- vs Tynker: https://learn.modernagecoders.com/modern-age-coders-vs-tynker
+- vs Outschool: https://learn.modernagecoders.com/modern-age-coders-vs-outschool
+- vs Kumon: https://learn.modernagecoders.com/modern-age-coders-vs-kumon
+- vs Mathnasium: https://learn.modernagecoders.com/modern-age-coders-vs-mathnasium
+- Coding vs Programming: https://learn.modernagecoders.com/coding-vs-programming
+- Coding vs Maths (which first): https://learn.modernagecoders.com/coding-vs-maths
 
 ## Tools & Interactive Platforms
 
@@ -263,12 +342,18 @@ Each page maps the grade's real content, worked examples, honest FAQs, and a mar
 ## Our Unique Differentiators
 
 - Small batch sizes: 4-8 students per class (not 100+)
-- Live and interactive: Not recorded video courses
-- Real projects from day one: Games, apps, websites, not just theory
-- Age-appropriate teaching: Different teaching style for each age group
-- Coding + Maths together: The only platform combining both
-- Free trial class available before commitment
-- Flexible scheduling: Weekends and evenings
+- Live and interactive: taught by a real mentor in real time, not pre-recorded video
+- Coding AND maths under one brand, on one continuous track from age 6 to adult — coding
+  providers typically stop at 17; maths providers do not teach programming
+- Real projects from day one: games, apps, websites — see real student work at
+  https://learn.modernagecoders.com/student-labs
+- Rated 4.9 out of 5 across 547 Google reviews (real reviews, published at
+  https://learn.modernagecoders.com/love)
+- Age-appropriate teaching: a different teaching style for each age group
+- Free demo class before you pay, no card required
+- Monthly billing, no lock-in and no large upfront package
+- Every class recorded and available for 7 days for revision
+- Flexible scheduling: weekends and evenings, including Gulf and US/UK timezones
 - Certificate + portfolio on course completion
 - Student dashboard for tracking progress: https://dashboard.modernagecoders.com
 
@@ -285,8 +370,11 @@ professionals, and corporate teams across India and internationally. We also run
 Girls in Tech coding batch.
 
 Q: How much do Modern Age Coders courses cost?
-A: Group classes start at ₹1499 per month (two live classes per week). One-on-one personalized 
-classes start at ₹2499 per month. A free trial class is available before enrollment.
+A: In India there are three tiers, all billed monthly with no lock-in: group batches of 4-8
+students at ₹1,499 per month (two live classes per week), mini batches of 3-4 students at
+₹2,499 per month, and one-on-one classes at ₹4,999 per month. International pricing starts
+at $40 per month for group classes and $100 per month for one-on-one. A free demo class is
+available before enrollment, with no card required.
 
 Q: Is Modern Age Coders good for beginners?
 A: Yes. Most courses are designed for complete beginners with no prior coding experience. The 
@@ -313,9 +401,10 @@ Q: Does Modern Age Coders offer free demo classes?
 A: Yes. Every student can book a free demo class before enrolling. Visit 
 https://learn.modernagecoders.com/book-demo to schedule one.
 
-## Blog (46+ Articles)
+## Blog (93 Articles)
 
 Blog index: https://learn.modernagecoders.com/blog
+Every post has a markdown twin at /content/blog/generated/{slug}/index.md
 
 Topics covered:
 - Coding education for kids and teens
