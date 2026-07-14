@@ -309,10 +309,10 @@ Student*
 
 ★★★★★
 
-> “My son struggled with percentages and ratios. The teachers here explained it using money, discounts, and recipes—real things he sees daily. Now he calculates discounts faster than me! Understanding the 'how' and 'why' changed everything.”
+> “I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself. I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success.”
 
-*MMr. Suresh Patel
-Parent of Vihaan (Grade 6)*
+*SSujal Ramola
+Student*
 
 ★★★★★
 

@@ -235,9 +235,9 @@ See the teaching for yourself before you decide: one free, no-commitment live cl
 
 ★★★★★
 
-> “Calculus was a nightmare until I joined here. They explained derivatives using real motion—how speed changes over time. Integration became about finding areas, not just formulas. I scored 98% in my boards because I understood every concept from the root!”
+> “I absolutely love it here! I made new friends and learned important valuable coding skills while having the fun of my life. It's not just coding here, it's outings, bonding and most importantly preparing you for your future. Definitely five stars.”
 
-*TTanvi SharmaGrade 12 Student*
+*TYug RathoreStudent*
 
 ★★★★★
 

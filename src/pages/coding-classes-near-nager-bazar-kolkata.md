@@ -244,21 +244,21 @@ PARENT & STUDENT VOICES
 
 ★★★★★
 
-> “Ma'am uses toys and drawings to teach fractions! I understood why 1/2 is bigger than 1/4 by cutting a pizza. Math is so easy when you see it in real life!”
+> “I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding.”
 
-*RRiya GuptaKid, Grade 4*
-
-★★★★★
-
-> “They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold.”
-
-*KKavya IyerTeen, Grade 11*
+*RRitu KediaParent*
 
 ★★★★★
 
-> “Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore, I'm engineering solutions.”
+> “One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.”
 
-*SSanjay DeshmukhWorking Professional*
+*KVansh AgarwalStudent*
+
+★★★★★
+
+> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
+
+*SShaarav WadhwaStudent*
 
 These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
 

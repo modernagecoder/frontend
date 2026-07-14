@@ -102,21 +102,21 @@ We publish reviews only from verified Modern Age Coders families. Below are veri
 
 ★★★★★
 
-> “Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore, I'm engineering solutions.”
+> “One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.”
 
-*SSanjay DeshmukhWorking Professional*
-
-★★★★★
-
-> “They practice A LOT. Not just 2-3 problems, but 20-30 variations until the concept is crystal clear. My kids can now solve problems they've never seen before.”
-
-*MMr. Rajesh KumarParent of Twins*
+*SVansh AgarwalStudent*
 
 ★★★★★
 
-> “My daughter used to memorize formulas blindly. Here they derive everything from scratch using real examples. She now understands the logic behind multiplication itself!”
+> “Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class.”
 
-*MMrs. Priya PatelParent of Ananya (Grade 3)*
+*MShradha SarafParent of Mivaan*
+
+★★★★★
+
+> “I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself. I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success.”
+
+*MSujal RamolaStudent*
 
 A demo costs you nothing and tells you more than any review can. Book a free demo and judge the teaching for yourself, or read verified reviews from across our school on the [Love wall](https://learn.modernagecoders.com/love).
 

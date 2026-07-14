@@ -271,9 +271,9 @@ PARENT & STUDENT VOICES
 
 ★★★★★
 
-> “Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training.”
+> “Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner.”
 
-*VVikram JoshiWorking Professional*
+*VArush PoddarWorking Professional*
 
 These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
 

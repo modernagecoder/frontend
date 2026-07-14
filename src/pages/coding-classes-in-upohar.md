@@ -108,15 +108,15 @@ We publish reviews only from verified Modern Age Coders families. Below are veri
 
 ★★★★★
 
-> “I tried 3 other platforms before this. Everyone teaches 'what' to code. Only Modern Age Coders taught me 'how it actually works'. The depth is unmatched.”
+> “Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner.”
 
-*DDiya KapoorWorking Professional*
+*DArush PoddarStudent*
 
 ★★★★★
 
-> “Sir explained calculus using a car's speedometer! Suddenly derivatives made perfect sense. No rote learning, just pure understanding. Scored 98% in math!”
+> “I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself. I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success.”
 
-*AArjun MehtaGrade 9 Student*
+*ASujal RamolaStudent*
 
 A demo costs you nothing and tells you more than any review can. Book a free demo and judge the teaching for yourself, or read verified reviews from across our school on the [Love wall](https://learn.modernagecoders.com/love).
 

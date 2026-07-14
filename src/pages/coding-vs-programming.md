@@ -195,24 +195,24 @@ Real, verified reviews from Modern Age Coders families. Read hundreds more on ou
 
 ★★★★★
 
-> “Sir explained calculus using a car's speedometer! Suddenly derivatives made perfect sense. No rote learning, just pure understanding. Scored 98% in math!”
+> “I absolutely love it here! I made new friends and learned important valuable coding skills while having the fun of my life. It's not just coding here, it's outings, bonding and most importantly preparing you for your future. Definitely five stars.”
 
-*AArjun Mehta
-Grade 9 Student*
-
-★★★★★
-
-> “Ma'am uses toys and drawings to teach fractions! I understood why 1/2 is bigger than 1/4 by cutting a pizza. Math is so easy when you see it in real life!”
-
-*RRiya Gupta
-Kid, Grade 4*
+*YYug Rathore
+Student*
 
 ★★★★★
 
-> “They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold.”
+> “The classes are excellent. The teachers explain concepts very clearly and make code fun and easy to understand. The sessions are interactive and fun. They also help students boost their confidence. We not only focus on academics, but also on logic building and problem solving.”
 
-*KKavya Iyer
-Teen, Grade 11*
+*PPragyen Diwan
+Parent*
+
+★★★★★
+
+> “The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. Teachers make it so simple with clear explanations, practical exercises, and interactive content. As per my son, the coding class is very helpful and engaging. Sir explains complex concepts clearly. The projects were challenging and rewarding.”
+
+*RRia Mukherjee
+Parent*
 
 ---
 

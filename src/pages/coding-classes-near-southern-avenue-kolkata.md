@@ -244,15 +244,15 @@ PARENT & STUDENT VOICES
 
 ★★★★★
 
-> “I used to hate algebra because I never understood WHY we do it. Here, they showed me how equations represent real-life situations. Now I can visualize every problem and solve it easily. Math finally makes sense!”
+> “One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.”
 
-*AAnanya VermaGrade 8 Student*
+*AVansh AgarwalStudent*
 
 ★★★★★
 
-> “Sir taught me fractions using pizza slices and chocolate bars! I finally understood why 3/4 is bigger than 2/3. Now I can compare any fractions in my head without formulas. Math is fun when you see it in real life!”
+> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
 
-*AArnav GuptaGrade 7 Student*
+*AShaarav WadhwaStudent*
 
 These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
 

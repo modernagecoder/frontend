@@ -57,10 +57,10 @@ Student*
 
 ★★★★★
 
-> “Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!”
+> “Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.”
 
-*DDiya Agarwal
-College Student, B.Sc Math*
+*SSonu Goyal
+Parent*
 
 [Ask Misti AI](https://misti.modernagecoders.com)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 

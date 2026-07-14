@@ -268,24 +268,24 @@ Real, verified reviews from Modern Age Coders families. Read hundreds more on ou
 
 ★★★★★
 
-> “Ma'am taught me division using sharing candies among friends. Now I know WHY we divide and what remainders mean. Math is not scary anymore—it's just solving real problems!”
+> “I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding.”
 
-*KKabir Singh
-Grade 4 Student*
-
-★★★★★
-
-> “They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!”
-
-*AAarav Sharma
-Student, Grade 7*
+*RRitu Kedia
+Parent*
 
 ★★★★★
 
-> “Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'.”
+> “One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.”
 
-*IIshaan Reddy
-College Student, B.Tech CSE*
+*VVansh Agarwal
+Student*
+
+★★★★★
+
+> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
+
+*SShaarav Wadhwa
+Student*
 
 ---
 

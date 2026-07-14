@@ -246,10 +246,10 @@ Real, verified reviews from Modern Age Coders families. Read hundreds more on ou
 
 ★★★★★
 
-> “Calculus was a nightmare until I joined here. They explained derivatives using real motion—how speed changes over time. Integration became about finding areas, not just formulas. I scored 98% in my boards because I understood every concept from the root!”
+> “Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease.”
 
-*TTanvi Sharma
-Grade 12 Student*
+*SSamriddha Mondal
+Student*
 
 ★★★★★
 

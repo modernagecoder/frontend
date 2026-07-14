@@ -154,13 +154,13 @@ Learner Voices
 
 ★★★★★
 
-"The amount of hands-on practice is insane. Built 15+ projects in 3 months. Each one taught me something new. Theory + Practice = Perfect combination."
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
 
-Aditya SinghCollege Student, BCA★★★★★
+Vansh AgarwalStudent★★★★★
 
-"They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!"
+"Very good classes. Don't worry about coding—they teach the best, especially Shivam sir."
 
-Neha DesaiGrade 6 Student★★★★★
+Shaarav WadhwaStudent★★★★★
 
 "Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class."
 

@@ -268,17 +268,17 @@ Real, verified reviews from Modern Age Coders families. Read hundreds more on ou
 
 ★★★★★
 
-> “They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!”
+> “Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.”
 
-*AAarav Sharma
-Student, Grade 7*
+*SSonu Goyal
+Parent*
 
 ★★★★★
 
-> “Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'.”
+> “Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner.”
 
-*IIshaan Reddy
-College Student, B.Tech CSE*
+*AArush Poddar
+Student*
 
 ★★★★★
 

@@ -148,17 +148,17 @@ Learner Voices
 
 ★★★★★
 
-"My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!"
+"Very good classes. Don't worry about coding—they teach the best, especially Shivam sir."
 
-Mrs. Meera JainParent of Aadhya (Grade 5)★★★★★
+Shaarav WadhwaStudent★★★★★
 
 "Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease."
 
 Samriddha MondalStudent★★★★★
 
-"My son struggled with percentages and ratios. The teachers here explained it using money, discounts, and recipes—real things he sees daily. Now he calculates discounts faster than me! Understanding the 'how' and 'why' changed everything."
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding."
 
-Mr. Suresh PatelParent of Vihaan (Grade 6)
+Ritu KediaParent
 
 ## Ready to truly understand OOP?
 

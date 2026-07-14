@@ -152,24 +152,24 @@ Real, verified reviews from Modern Age Coders families. Read hundreds more on ou
 
 ★★★★★
 
-> “Sir explained calculus using a car's speedometer! Suddenly derivatives made perfect sense. No rote learning, just pure understanding. Scored 98% in math!”
+> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
 
-*AArjun Mehta
-Grade 9 Student*
-
-★★★★★
-
-> “Ma'am uses toys and drawings to teach fractions! I understood why 1/2 is bigger than 1/4 by cutting a pizza. Math is so easy when you see it in real life!”
-
-*RRiya Gupta
-Kid, Grade 4*
+*SShaarav Wadhwa
+Student*
 
 ★★★★★
 
-> “They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold.”
+> “Very good classes. Makes learning very easy and interactive.”
 
-*KKavya Iyer
-Teen, Grade 11*
+*VVineeta Shyamsukha
+Parent*
+
+★★★★★
+
+> “I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding.”
+
+*RRitu Kedia
+Parent*
 
 ---
 

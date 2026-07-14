@@ -175,17 +175,17 @@ Parent & Student Voices
 
 ★★★★★
 
-"They derive every formula from basic principles. I learned why (a+b)² = a² + 2ab + b² by actually drawing squares and rectangles. Visual proofs make concepts stick forever. I never need to memorize—I just understand!"
+"Very good classes. Makes learning very easy and interactive."
 
-Ishita ReddyGrade 9 Student★★★★★
+Vineeta ShyamsukhaParent★★★★★
 
-"Trigonometry made zero sense until they showed me how it works with actual triangles and circles. They explained WHY sin²θ + cos²θ = 1 using geometry. Once I saw the proof, I never forgot it. This is how math should be taught!"
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding."
 
-Priya MalhotraGrade 11 Student★★★★★
+Ritu KediaParent★★★★★
 
-"My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!"
+"Very good classes. Don't worry about coding—they teach the best, especially Shivam sir."
 
-Mrs. Meera JainParent of Aadhya (Grade 5)
+Shaarav WadhwaStudent
 
 ## Ready to start coding in Odisha?
 

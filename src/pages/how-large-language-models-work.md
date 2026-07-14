@@ -225,10 +225,10 @@ Student*
 
 ★★★★★
 
-> “Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!”
+> “Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease.”
 
-*DDiya Agarwal
-College Student, B.Sc Math*
+*SSamriddha Mondal
+Student*
 
 ---
 

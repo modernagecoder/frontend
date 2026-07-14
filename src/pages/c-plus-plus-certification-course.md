@@ -144,17 +144,17 @@ Certified Learners
 
 ★★★★★
 
-"My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!"
+"I absolutely love it here! I made new friends and learned important valuable coding skills while having the fun of my life. It's not just coding here, it's outings, bonding and most importantly preparing you for your future. Definitely five stars."
 
-Mrs. Meera JainParent of Aadhya (Grade 5)★★★★★
+Yug RathoreStudent★★★★★
 
 "Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease."
 
 Samriddha MondalStudent★★★★★
 
-"My son struggled with percentages and ratios. The teachers here explained it using money, discounts, and recipes—real things he sees daily. Now he calculates discounts faster than me! Understanding the 'how' and 'why' changed everything."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. Teachers make it so simple with clear explanations, practical exercises, and interactive content. As per my son, the coding class is very helpful and engaging. Sir explains complex concepts clearly. The projects were challenging and rewarding."
 
-Mr. Suresh PatelParent of Vihaan (Grade 6)
+Ria MukherjeeParent
 
 ## Ready to get C++ certified — for real?
 

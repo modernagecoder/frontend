@@ -228,24 +228,24 @@ Real, verified reviews from Modern Age Coders families. Read hundreds more on ou
 
 ★★★★★
 
-> “Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training.”
+> “My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class.”
 
-*VVikram Joshi
-Working Professional*
-
-★★★★★
-
-> “The amount of hands-on practice is insane. Built 15+ projects in 3 months. Each one taught me something new. Theory + Practice = Perfect combination.”
-
-*AAditya Singh
-College Student, BCA*
+*SSonam Oswal
+Parent of Dhairya*
 
 ★★★★★
 
-> “They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!”
+> “I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding.”
 
-*NNeha Desai
-Grade 6 Student*
+*RRitu Kedia
+Parent*
+
+★★★★★
+
+> “Very good classes. Makes learning very easy and interactive.”
+
+*VVineeta Shyamsukha
+Parent*
 
 ---
 

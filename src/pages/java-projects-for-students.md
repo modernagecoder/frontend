@@ -166,17 +166,17 @@ Student Voices
 
 ★★★★★
 
-"They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!"
+"Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner."
 
-Rohan KapoorGrade 10 Student★★★★★
+Arush PoddarStudent★★★★★
 
 "Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
 Sonu GoyalParent★★★★★
 
-"I used to hate algebra because I never understood WHY we do it. Here, they showed me how equations represent real-life situations. Now I can visualize every problem and solve it easily. Math finally makes sense!"
+"Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-Ananya VermaGrade 8 Student
+Sonu GoyalGrade 8 Student
 
 ## Build your first real Java program
 

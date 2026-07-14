@@ -250,15 +250,15 @@ PARENT & STUDENT VOICES
 
 ★★★★★
 
-> “I used to hate algebra because I never understood WHY we do it. Here, they showed me how equations represent real-life situations. Now I can visualize every problem and solve it easily. Math finally makes sense!”
+> “Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.”
 
-*AAnanya VermaGrade 8 Student*
+*ASonu GoyalGrade 8 Student*
 
 ★★★★★
 
-> “Sir taught me fractions using pizza slices and chocolate bars! I finally understood why 3/4 is bigger than 2/3. Now I can compare any fractions in my head without formulas. Math is fun when you see it in real life!”
+> “Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner.”
 
-*AArnav GuptaGrade 7 Student*
+*AArush PoddarStudent*
 
 These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
 

@@ -250,21 +250,21 @@ PARENT & STUDENT VOICES
 
 ★★★★★
 
-> “Sir taught me fractions using pizza slices and chocolate bars! I finally understood why 3/4 is bigger than 2/3. Now I can compare any fractions in my head without formulas. Math is fun when you see it in real life!”
+> “One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.”
 
-*AArnav GuptaGrade 7 Student*
-
-★★★★★
-
-> “They derive every formula from basic principles. I learned why (a+b)² = a² + 2ab + b² by actually drawing squares and rectangles. Visual proofs make concepts stick forever. I never need to memorize—I just understand!”
-
-*IIshita ReddyGrade 9 Student*
+*AVansh AgarwalStudent*
 
 ★★★★★
 
-> “Trigonometry made zero sense until they showed me how it works with actual triangles and circles. They explained WHY sin²θ + cos²θ = 1 using geometry. Once I saw the proof, I never forgot it. This is how math should be taught!”
+> “I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding.”
 
-*PPriya MalhotraGrade 11 Student*
+*IRitu KediaParent*
+
+★★★★★
+
+> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
+
+*PShaarav WadhwaStudent*
 
 These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
 

@@ -241,9 +241,9 @@ PARENT & STUDENT VOICES
 
 ★★★★★
 
-> “Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'.”
+> “One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.”
 
-*IIshaan ReddyCollege Student, B.Tech CSE*
+*IVansh AgarwalStudent*
 
 ★★★★★
 
@@ -253,9 +253,9 @@ PARENT & STUDENT VOICES
 
 ★★★★★
 
-> “They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!”
+> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
 
-*RRohan KapoorGrade 10 Student*
+*RShaarav WadhwaStudent*
 
 These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
 

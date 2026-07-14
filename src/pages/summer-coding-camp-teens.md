@@ -255,10 +255,10 @@ Real, verified reviews from Modern Age Coders families. Read hundreds more on ou
 
 ★★★★★
 
-> “They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!”
+> “I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself. I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success.”
 
-*RRohan Kapoor
-Grade 10 Student*
+*SSujal Ramola
+Student*
 
 ★★★★★
 
@@ -269,10 +269,10 @@ Parent*
 
 ★★★★★
 
-> “I used to hate algebra because I never understood WHY we do it. Here, they showed me how equations represent real-life situations. Now I can visualize every problem and solve it easily. Math finally makes sense!”
+> “Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner.”
 
-*AAnanya Verma
-Grade 8 Student*
+*AArush Poddar
+Student*
 
 ---
 

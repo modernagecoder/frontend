@@ -169,17 +169,17 @@ Parent & Student Voices
 
 ★★★★★
 
-"Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'."
+"Very good classes. Don't worry about coding—they teach the best, especially Shivam sir."
 
-Ishaan ReddyCollege Student, B.Tech CSE★★★★★
+Shaarav WadhwaStudent★★★★★
 
 "One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
 
 Vansh AgarwalStudent★★★★★
 
-"They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!"
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding."
 
-Rohan KapoorGrade 10 Student
+Ritu KediaParent
 
 ## Ready to start coding in Madhya Pradesh?
 

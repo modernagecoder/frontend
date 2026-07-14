@@ -27,17 +27,17 @@ Real, verified reviews from Modern Age Coders families. Read hundreds more on ou
 
 ★★★★★
 
-> “Trigonometry made zero sense until they showed me how it works with actual triangles and circles. They explained WHY sin²θ + cos²θ = 1 using geometry. Once I saw the proof, I never forgot it. This is how math should be taught!”
+> “My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class.”
 
-*PPriya Malhotra
-Grade 11 Student*
+*SSonam Oswal
+Parent of Dhairya*
 
 ★★★★★
 
-> “My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!”
+> “Very good classes. Makes learning very easy and interactive.”
 
-*MMrs. Meera Jain
-Parent of Aadhya (Grade 5)*
+*VVineeta Shyamsukha
+Parent*
 
 ★★★★★
 

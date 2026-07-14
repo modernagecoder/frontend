@@ -253,9 +253,9 @@ PARENT & STUDENT VOICES
 
 ★★★★★
 
-> “They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!”
+> “Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease.”
 
-*NNeha DesaiGrade 6 Student*
+*NSamriddha MondalStudent*
 
 ★★★★★
 
@@ -265,9 +265,9 @@ PARENT & STUDENT VOICES
 
 ★★★★★
 
-> “I tried 3 other platforms before this. Everyone teaches 'what' to code. Only Modern Age Coders taught me 'how it actually works'. The depth is unmatched.”
+> “My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class.”
 
-*DDiya KapoorWorking Professional*
+*DSonam OswalWorking Professional*
 
 These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
 

@@ -169,17 +169,17 @@ Parent & Student Voices
 
 ★★★★★
 
-"They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!"
+"The classes are excellent. The teachers explain concepts very clearly and make code fun and easy to understand. The sessions are interactive and fun. They also help students boost their confidence. We not only focus on academics, but also on logic building and problem solving."
 
-Neha DesaiGrade 6 Student★★★★★
+Pragyen DiwanParent★★★★★
 
 "Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class."
 
 Shradha SarafParent of Mivaan★★★★★
 
-"I tried 3 other platforms before this. Everyone teaches 'what' to code. Only Modern Age Coders taught me 'how it actually works'. The depth is unmatched."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. Teachers make it so simple with clear explanations, practical exercises, and interactive content. As per my son, the coding class is very helpful and engaging. Sir explains complex concepts clearly. The projects were challenging and rewarding."
 
-Diya KapoorWorking Professional
+Ria MukherjeeParent
 
 ## Ready to start coding in Rajasthan?
 

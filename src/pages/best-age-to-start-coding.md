@@ -146,10 +146,10 @@ Real, verified reviews from Modern Age Coders families. Read hundreds more on ou
 
 ★★★★★
 
-> “My son struggled with percentages and ratios. The teachers here explained it using money, discounts, and recipes—real things he sees daily. Now he calculates discounts faster than me! Understanding the 'how' and 'why' changed everything.”
+> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
 
-*MMr. Suresh Patel
-Parent of Vihaan (Grade 6)*
+*SShaarav Wadhwa
+Student*
 
 ★★★★★
 

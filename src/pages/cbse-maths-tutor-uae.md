@@ -258,24 +258,24 @@ Real, verified reviews from Modern Age Coders families. Read hundreds more on ou
 
 ★★★★★
 
-> “Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training.”
+> “One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.”
 
-*VVikram Joshi
-Working Professional*
-
-★★★★★
-
-> “The amount of hands-on practice is insane. Built 15+ projects in 3 months. Each one taught me something new. Theory + Practice = Perfect combination.”
-
-*AAditya Singh
-College Student, BCA*
+*VVansh Agarwal
+Student*
 
 ★★★★★
 
-> “They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!”
+> “I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself. I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success.”
 
-*NNeha Desai
-Grade 6 Student*
+*SSujal Ramola
+Student*
+
+★★★★★
+
+> “Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class.”
+
+*SShradha Saraf
+Parent of Mivaan*
 
 ---
 

@@ -169,17 +169,17 @@ Parent & Student Voices
 
 ★★★★★
 
-"They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold."
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding."
 
-Kavya IyerTeen, Grade 11★★★★★
+Ritu KediaParent★★★★★
 
-"Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore, I'm engineering solutions."
+"Very good classes. Makes learning very easy and interactive."
 
-Sanjay DeshmukhWorking Professional★★★★★
+Vineeta ShyamsukhaParent★★★★★
 
-"They practice A LOT. Not just 2-3 problems, but 20-30 variations until the concept is crystal clear. My kids can now solve problems they've never seen before."
+"Very good classes. Don't worry about coding—they teach the best, especially Shivam sir."
 
-Mr. Rajesh KumarParent of Twins
+Shaarav WadhwaStudent
 
 ## Ready to start coding in Karnataka?
 

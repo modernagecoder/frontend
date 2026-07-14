@@ -196,8 +196,8 @@ function buildContact() {
 - Email: contact@modernagecoders.com
 - Book a free demo: ${SITE}/book-demo
 - Instagram: https://www.instagram.com/modern_age_coders
-- YouTube: https://www.youtube.com/@modernagecoders
-- LinkedIn: https://www.linkedin.com/in/shivam-khemka-948a2a277
+- YouTube: https://www.youtube.com/@ModernAgeCoders
+- LinkedIn: https://www.linkedin.com/in/shivam-khemka-modern-age-coders
 - GitHub: https://github.com/modernagecoder
 - Facebook: https://www.facebook.com/modernagecoders
 

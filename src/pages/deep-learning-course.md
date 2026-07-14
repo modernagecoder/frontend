@@ -152,9 +152,9 @@ Yug RathoreStudent★★★★★
 
 Sujal RamolaStudent★★★★★
 
-"Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!"
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
 
-Diya AgarwalCollege Student, B.Sc Math
+Vansh AgarwalStudent
 
 ## Ready to build and train neural networks?
 

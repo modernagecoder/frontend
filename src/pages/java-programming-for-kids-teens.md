@@ -380,7 +380,7 @@ We don't ask you to trust us blindly. Compare every feature before you decide.
 | Batch size | Max 6 students | None | 20-40 students |
 | Separate Kids and Teens tracks | ✓ Age-appropriate | ✗ Same content | ✗ Usually mixed |
 | CBSE / ICSE curriculum aligned | ✓ Fully aligned | ✗ | Varies |
-| Recorded sessions forever | ✓ Every class | ✓ Pre-made | ✗ Rarely |
+| Recorded sessions provided | ✓ Every class | ✓ Pre-made | ✗ Rarely |
 | WhatsApp doubt support | ✓ Same-day | ✗ | ✗ |
 | Portfolio & GitHub documentation | ✓ Included | ✗ | ✗ |
 | Free full demo class | ✓ 60 min class | ✗ | Varies |
@@ -401,7 +401,7 @@ per month · 2 live classes per week
 - Batch of up to 10 students
 - Live classes (60-75 min each)
 - All 6 curriculum modules
-- Recorded sessions forever
+- Recorded sessions provided
 - WhatsApp doubt support
 - Parent progress updates
 - Certificate on completion

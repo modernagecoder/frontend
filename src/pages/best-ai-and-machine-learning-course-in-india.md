@@ -209,9 +209,9 @@ Yug RathoreStudent★★★★★
 
 Sujal RamolaStudent★★★★★
 
-"Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!"
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class."
 
-Diya AgarwalCollege Student, B.Sc Math
+Shradha SarafParent of Mivaan
 
 ## Ready to build real AI & ML skills?
 

@@ -255,9 +255,9 @@ PARENT & STUDENT VOICES
 
 ★★★★★
 
-> “They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!”
+> “My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class.”
 
-*RRohan KapoorGrade 10 Student*
+*RSonam OswalGrade 10 Student*
 
 ★★★★★
 

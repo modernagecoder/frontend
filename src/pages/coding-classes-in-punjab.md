@@ -175,13 +175,13 @@ Parent & Student Voices
 
 ★★★★★
 
-"Trigonometry made zero sense until they showed me how it works with actual triangles and circles. They explained WHY sin²θ + cos²θ = 1 using geometry. Once I saw the proof, I never forgot it. This is how math should be taught!"
+"My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-Priya MalhotraGrade 11 Student★★★★★
+Sonam OswalParent of Dhairya★★★★★
 
-"My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!"
+"Very good classes. Makes learning very easy and interactive."
 
-Mrs. Meera JainParent of Aadhya (Grade 5)★★★★★
+Vineeta ShyamsukhaParent★★★★★
 
 "Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease."
 

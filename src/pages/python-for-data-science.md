@@ -144,17 +144,17 @@ Learner Voices
 
 ★★★★★
 
-"Ma'am taught me division using sharing candies among friends. Now I know WHY we divide and what remainders mean. Math is not scary anymore—it's just solving real problems!"
+"Very good classes. Don't worry about coding—they teach the best, especially Shivam sir."
 
-Kabir SinghGrade 4 Student★★★★★
+Shaarav WadhwaStudent★★★★★
 
-"They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!"
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class."
 
-Aarav SharmaStudent, Grade 7★★★★★
+Shradha SarafParent of Mivaan★★★★★
 
-"Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'."
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
 
-Ishaan ReddyCollege Student, B.Tech CSE
+Vansh AgarwalStudent
 
 ## Ready to build your data-science foundation?
 

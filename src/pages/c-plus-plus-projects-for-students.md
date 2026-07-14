@@ -161,9 +161,9 @@ Shaarav WadhwaStudent★★★★★
 
 Arush PoddarStudent★★★★★
 
-"Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training."
+"My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-Vikram JoshiWorking Professional
+Sonam OswalParent of Dhairya
 
 ## Ready to build something real in C++?
 

@@ -152,9 +152,9 @@ Yug RathoreStudent★★★★★
 
 Sujal RamolaStudent★★★★★
 
-"Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!"
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding."
 
-Diya AgarwalCollege Student, B.Sc Math
+Ritu KediaParent
 
 ## Learn to build AI models that actually work
 

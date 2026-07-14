@@ -327,7 +327,7 @@ per month · 2 live classes per week
 - Batch of up to 10 students
 - Live classes (60-90 min each)
 - All 8 curriculum modules
-- Recorded session access forever
+- Recorded session access
 - WhatsApp doubt support
 - GitHub portfolio guidance
 - Digital certificate on graduation
@@ -344,7 +344,7 @@ per month · 2 live classes per week
 - Near 1-on-1 teacher attention
 - Live doubt-clearing every class
 - All 8 AI/ML curriculum modules
-- Recorded session access forever
+- Recorded session access
 - GitHub portfolio guidance
 - Digital certificate on graduation
 

@@ -144,17 +144,17 @@ Beginner Voices
 
 ★★★★★
 
-"They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold."
+"The classes are excellent. The teachers explain concepts very clearly and make code fun and easy to understand. The sessions are interactive and fun. They also help students boost their confidence. We not only focus on academics, but also on logic building and problem solving."
 
-Kavya IyerTeen, Grade 11★★★★★
+Pragyen DiwanParent★★★★★
 
-"Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore, I'm engineering solutions."
+"Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-Sanjay DeshmukhWorking Professional★★★★★
+Sonu GoyalParent★★★★★
 
-"They practice A LOT. Not just 2-3 problems, but 20-30 variations until the concept is crystal clear. My kids can now solve problems they've never seen before."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. Teachers make it so simple with clear explanations, practical exercises, and interactive content. As per my son, the coding class is very helpful and engaging. Sir explains complex concepts clearly. The projects were challenging and rewarding."
 
-Mr. Rajesh KumarParent of Twins
+Ria MukherjeeParent
 
 ## Your first line of C++ is one demo away
 

@@ -144,17 +144,17 @@ Learner Voices
 
 ★★★★★
 
-"Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training."
+"Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner."
 
-Vikram JoshiWorking Professional★★★★★
+Arush PoddarStudent★★★★★
 
-"The amount of hands-on practice is insane. Built 15+ projects in 3 months. Each one taught me something new. Theory + Practice = Perfect combination."
+"The classes are excellent. The teachers explain concepts very clearly and make code fun and easy to understand. The sessions are interactive and fun. They also help students boost their confidence. We not only focus on academics, but also on logic building and problem solving."
 
-Aditya SinghCollege Student, BCA★★★★★
+Pragyen DiwanParent★★★★★
 
-"They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!"
+"Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-Neha DesaiGrade 6 Student
+Sonu GoyalParent
 
 ## Build the portfolio that gets you hired
 

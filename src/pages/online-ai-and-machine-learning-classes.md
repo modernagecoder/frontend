@@ -144,17 +144,17 @@ Learner Voices
 
 ★★★★★
 
-"Sir explained calculus using a car's speedometer! Suddenly derivatives made perfect sense. No rote learning, just pure understanding. Scored 98% in math!"
+"Very good classes. Makes learning very easy and interactive."
 
-Arjun MehtaGrade 9 Student★★★★★
+Vineeta ShyamsukhaParent★★★★★
 
-"Ma'am uses toys and drawings to teach fractions! I understood why 1/2 is bigger than 1/4 by cutting a pizza. Math is so easy when you see it in real life!"
+"Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease."
 
-Riya GuptaKid, Grade 4★★★★★
+Samriddha MondalStudent★★★★★
 
-"They break down complex topics into simple building blocks. Recursion used to scare me. Now I can explain it to my friends! The practice problems are gold."
+"My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-Kavya IyerTeen, Grade 11
+Sonam OswalParent of Dhairya
 
 ## Learn AI & ML live, from anywhere in India
 

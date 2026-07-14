@@ -265,17 +265,17 @@ Parent of Mivaan*
 
 ★★★★★
 
-> “I tried 3 other platforms before this. Everyone teaches 'what' to code. Only Modern Age Coders taught me 'how it actually works'. The depth is unmatched.”
+> “One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.”
 
-*DDiya Kapoor
-Working Professional*
+*VVansh Agarwal
+Student*
 
 ★★★★★
 
-> “Sir explained calculus using a car's speedometer! Suddenly derivatives made perfect sense. No rote learning, just pure understanding. Scored 98% in math!”
+> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
 
-*AArjun Mehta
-Grade 9 Student*
+*SShaarav Wadhwa
+Student*
 
 ---
 

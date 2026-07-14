@@ -144,17 +144,17 @@ Parent & Teen Voices
 
 ★★★★★
 
-"My daughter used to memorize formulas blindly. Here they derive everything from scratch using real examples. She now understands the logic behind multiplication itself!"
+"My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-Mrs. Priya PatelParent of Ananya (Grade 3)★★★★★
+Sonam OswalParent of Dhairya★★★★★
 
-"Ma'am taught me division using sharing candies among friends. Now I know WHY we divide and what remainders mean. Math is not scary anymore—it's just solving real problems!"
+"Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease."
 
-Kabir SinghGrade 4 Student★★★★★
+Samriddha MondalStudent★★★★★
 
-"They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!"
+"Very good classes. Makes learning very easy and interactive."
 
-Aarav SharmaStudent, Grade 7
+Vineeta ShyamsukhaParent
 
 ## Ready to see your teen build real C++?
 

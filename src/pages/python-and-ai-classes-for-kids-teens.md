@@ -326,7 +326,7 @@ Frequently Asked Questions
 
 Real answers, no marketing fluff.
 
-What age can my child start learning Python?+We recommend starting Python from age 8. We begin with block coding (Scratch) for ages 6-8 to build logic, then transition to Python. By age 10, most kids are writing working Python programs. There's no "too early" — we adapt the curriculum to each child's pace.Is AI too complex for kids and teens?+Not with our approach. Our AI curriculum for kids (8-12) uses visual tools, no-code AI platforms, and fun experiments — like training a camera to recognise hand gestures. For teens, we gradually introduce Python libraries and mathematical concepts in context of real projects, making AI feel exciting, not intimidating.How long does it take to learn Python well?+With our structured roadmap, most kids achieve solid Python fundamentals in 3-4 months (2 classes/week). Teens reach a project-ready, portfolio-grade level in 4-6 months. The AI and ML specialisation adds another 4-6 months. We never rush — quality over speed.My child has no coding experience. Is that okay?+Absolutely. Most of our students start from zero. Our beginner courses assume no prior knowledge. The first class involves writing a working Python program — by the end of the session, every student leaves with something they built themselves.What if my child misses a class?+Every class is recorded and available for unlimited replay in your child's dashboard. We also schedule make-up sessions for students who miss multiple classes. No one gets left behind.How are your classes different from YouTube tutorials?+YouTube is passive. Our classes are live, interactive, and taught in small groups of 5-8 students. Your child can ask questions in real time, get code reviewed, and get personalised feedback. We also assign projects, track progress, and provide structured doubt-solving sessions. The accountability and community make all the difference.Do you offer a free trial?+Yes! We offer a completely free demo class with a live instructor. No payment required, no commitment. You see the teaching style, your child experiences the class, and then you decide. Book it below — slots fill up fast.
+What age can my child start learning Python?+We recommend starting Python from age 8. We begin with block coding (Scratch) for ages 6-8 to build logic, then transition to Python. By age 10, most kids are writing working Python programs. There's no "too early" — we adapt the curriculum to each child's pace.Is AI too complex for kids and teens?+Not with our approach. Our AI curriculum for kids (8-12) uses visual tools, no-code AI platforms, and fun experiments — like training a camera to recognise hand gestures. For teens, we gradually introduce Python libraries and mathematical concepts in context of real projects, making AI feel exciting, not intimidating.How long does it take to learn Python well?+With our structured roadmap, most kids achieve solid Python fundamentals in 3-4 months (2 classes/week). Teens reach a project-ready, portfolio-grade level in 4-6 months. The AI and ML specialisation adds another 4-6 months. We never rush — quality over speed.My child has no coding experience. Is that okay?+Absolutely. Most of our students start from zero. Our beginner courses assume no prior knowledge. The first class involves writing a working Python program — by the end of the session, every student leaves with something they built themselves.What if my child misses a class?+Every class is recorded and the recording is provided in your child's dashboard. We also schedule make-up sessions for students who miss multiple classes. No one gets left behind.How are your classes different from YouTube tutorials?+YouTube is passive. Our classes are live, interactive, and taught in small groups of 5-8 students. Your child can ask questions in real time, get code reviewed, and get personalised feedback. We also assign projects, track progress, and provide structured doubt-solving sessions. The accountability and community make all the difference.Do you offer a free trial?+Yes! We offer a completely free demo class with a live instructor. No payment required, no commitment. You see the teaching style, your child experiences the class, and then you decide. Book it below — slots fill up fast.
 
 Book Your Free Demo
 
@@ -381,17 +381,17 @@ Student*
 
 ★★★★★
 
-> “Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!”
+> “I absolutely love it here! I made new friends and learned important valuable coding skills while having the fun of my life. It's not just coding here, it's outings, bonding and most importantly preparing you for your future. Definitely five stars.”
 
-*DDiya Agarwal
-College Student, B.Sc Math*
+*YYug Rathore
+Student*
 
 ★★★★★
 
-> “Calculus was a nightmare until I joined here. They explained derivatives using real motion—how speed changes over time. Integration became about finding areas, not just formulas. I scored 98% in my boards because I understood every concept from the root!”
+> “I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.”
 
-*TTanvi Sharma
-Grade 12 Student*
+*KKrishnam Bhatter
+Former Student*
 
 [![Modern Age Coders Logo](/images/logo.svg)Modern Age Coders](/)
 

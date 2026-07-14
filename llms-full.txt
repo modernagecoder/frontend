@@ -16,8 +16,8 @@ teen years; maths-only providers do not teach programming.
 Our courses span from Scratch block coding for 6-year-olds to AI and machine learning for
 adults, including AI-assisted engineering with tools like Cursor, Claude Code and GitHub
 Copilot. Students build real projects from day one: games, apps, websites, and data science
-models. All classes are live over video conferencing, and each class is recorded and
-available for 7 days for revision.
+models. All classes are live over video conferencing, and each class is recorded and the
+recording is provided for revision.
 
 We teach students across 131 Indian cities (including Mumbai, Kolkata, Bengaluru, Delhi,
 Hyderabad, Pune, Chennai, Ahmedabad, Indore and Jaipur), every major Indian state, and
@@ -1108,8 +1108,8 @@ Every published article. Fetch the markdown twin from the second link for full c
 - Email: contact@modernagecoders.com
 - Book a free demo: https://learn.modernagecoders.com/book-demo
 - Instagram: https://www.instagram.com/modern_age_coders
-- YouTube: https://www.youtube.com/@modernagecoders
-- LinkedIn: https://www.linkedin.com/in/shivam-khemka-948a2a277
+- YouTube: https://www.youtube.com/@ModernAgeCoders
+- LinkedIn: https://www.linkedin.com/in/shivam-khemka-modern-age-coders
 - GitHub: https://github.com/modernagecoder
 - Facebook: https://www.facebook.com/modernagecoders
 

@@ -144,13 +144,13 @@ Parent & Teen Voices
 
 ★★★★★
 
-"They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!"
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
 
-Aarav SharmaStudent, Grade 7★★★★★
+Vansh AgarwalStudent★★★★★
 
-"Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'."
+"Very good classes. Don't worry about coding—they teach the best, especially Shivam sir."
 
-Ishaan ReddyCollege Student, B.Tech CSE★★★★★
+Shaarav WadhwaStudent★★★★★
 
 "One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
 

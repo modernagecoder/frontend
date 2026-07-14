@@ -232,21 +232,21 @@ PARENT & STUDENT VOICES
 
 ★★★★★
 
-> “Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore, I'm engineering solutions.”
+> “My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class.”
 
-*SSanjay DeshmukhWorking Professional*
-
-★★★★★
-
-> “They practice A LOT. Not just 2-3 problems, but 20-30 variations until the concept is crystal clear. My kids can now solve problems they've never seen before.”
-
-*MMr. Rajesh KumarParent of Twins*
+*SSonam OswalWorking Professional*
 
 ★★★★★
 
-> “My daughter used to memorize formulas blindly. Here they derive everything from scratch using real examples. She now understands the logic behind multiplication itself!”
+> “Very good classes. Makes learning very easy and interactive.”
 
-*MMrs. Priya PatelParent of Ananya (Grade 3)*
+*MVineeta ShyamsukhaParent*
+
+★★★★★
+
+> “I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding.”
+
+*MRitu KediaParent*
 
 These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
 

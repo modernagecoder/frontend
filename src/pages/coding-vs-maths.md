@@ -146,10 +146,10 @@ Student*
 
 ★★★★★
 
-> “Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!”
+> “Very good classes. Makes learning very easy and interactive.”
 
-*DDiya Agarwal
-College Student, B.Sc Math*
+*VVineeta Shyamsukha
+Parent*
 
 ---
 

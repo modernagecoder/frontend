@@ -258,17 +258,17 @@ Real, verified reviews from Modern Age Coders families. Read hundreds more on ou
 
 ★★★★★
 
-> “Trigonometry made zero sense until they showed me how it works with actual triangles and circles. They explained WHY sin²θ + cos²θ = 1 using geometry. Once I saw the proof, I never forgot it. This is how math should be taught!”
+> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
 
-*PPriya Malhotra
-Grade 11 Student*
+*SShaarav Wadhwa
+Student*
 
 ★★★★★
 
-> “My daughter used to memorize multiplication tables without understanding. Now she knows WHY 7×8=56 by visualizing arrays and groups. She can solve any variation because she understands the concept deeply. No more rote learning!”
+> “One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.”
 
-*MMrs. Meera Jain
-Parent of Aadhya (Grade 5)*
+*VVansh Agarwal
+Student*
 
 ★★★★★
 

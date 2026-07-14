@@ -175,17 +175,17 @@ Parent & Student Voices
 
 ★★★★★
 
-"Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training."
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding."
 
-Vikram JoshiWorking Professional★★★★★
+Ritu KediaParent★★★★★
 
-"The amount of hands-on practice is insane. Built 15+ projects in 3 months. Each one taught me something new. Theory + Practice = Perfect combination."
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
 
-Aditya SinghCollege Student, BCA★★★★★
+Vansh AgarwalStudent★★★★★
 
-"They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!"
+"Very good classes. Don't worry about coding—they teach the best, especially Shivam sir."
 
-Neha DesaiGrade 6 Student
+Shaarav WadhwaStudent
 
 ## Ready to start coding in Bihar?
 

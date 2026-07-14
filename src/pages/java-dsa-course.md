@@ -182,9 +182,9 @@ Learner Voices
 
 Vansh AgarwalStudent★★★★★
 
-"They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!"
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class."
 
-Rohan KapoorGrade 10 Student★★★★★
+Shradha SarafParent of Mivaan★★★★★
 
 "Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 

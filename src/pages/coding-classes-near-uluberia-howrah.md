@@ -245,9 +245,9 @@ PARENT & STUDENT VOICES
 
 ★★★★★
 
-> “Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'.”
+> “Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
 
-*IIshaan ReddyCollege Student, B.Tech CSE*
+*IShaarav WadhwaStudent*
 
 ★★★★★
 
@@ -257,9 +257,9 @@ PARENT & STUDENT VOICES
 
 ★★★★★
 
-> “They don't just teach formulas—they derive them from scratch! I learned WHERE the quadratic formula comes from. Once you understand the 'why', you never forget. My board exam score jumped from 65% to 92%!”
+> “I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding.”
 
-*RRohan KapoorGrade 10 Student*
+*RRitu KediaParent*
 
 These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
 

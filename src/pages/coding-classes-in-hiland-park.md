@@ -108,15 +108,15 @@ We publish reviews only from verified Modern Age Coders families. Below are veri
 
 ★★★★★
 
-> “Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training.”
+> “Very good classes. Makes learning very easy and interactive.”
 
-*VVikram JoshiWorking Professional*
+*VVineeta ShyamsukhaParent*
 
 ★★★★★
 
-> “The amount of hands-on practice is insane. Built 15+ projects in 3 months. Each one taught me something new. Theory + Practice = Perfect combination.”
+> “I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding.”
 
-*AAditya SinghCollege Student, BCA*
+*ARitu KediaParent*
 
 A demo costs you nothing and tells you more than any review can. Book a free demo and judge the teaching for yourself, or read verified reviews from across our school on the [Love wall](https://learn.modernagecoders.com/love).
 

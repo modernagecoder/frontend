@@ -141,7 +141,7 @@ const App: React.FC = () => {
                <a href="https://learn.modernagecoders.com/contact" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                  <SketchButton className="text-lg sm:text-xl px-8 sm:px-10 py-3 sm:py-4 bg-pop-pink text-sketch-black hover:text-sketch-black w-full sm:w-auto">Add Your Story ✍️</SketchButton>
                </a>
-               <a href="https://www.youtube.com/@modernagecoders" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+               <a href="https://www.youtube.com/@ModernAgeCoders" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                  <SketchButton variant="outline" className="text-lg sm:text-xl px-8 sm:px-10 py-3 sm:py-4 bg-white w-full sm:w-auto">Watch Reviews 🍿</SketchButton>
                </a>
             </div>
@@ -253,7 +253,7 @@ const App: React.FC = () => {
                     Unfiltered, unscripted, and totally adorable reviews from our coding rockstars.
                   </p>
                </div>
-               <a href="https://www.youtube.com/@modernagecoders?sub_confirmation=1" target="_blank" rel="noopener noreferrer" className="bg-white p-4 border-2 border-sketch-black rotate-2 shadow-sketch hover:shadow-sketch-hover hover:scale-105 transition-all duration-300 cursor-pointer">
+               <a href="https://www.youtube.com/@ModernAgeCoders?sub_confirmation=1" target="_blank" rel="noopener noreferrer" className="bg-white p-4 border-2 border-sketch-black rotate-2 shadow-sketch hover:shadow-sketch-hover hover:scale-105 transition-all duration-300 cursor-pointer">
                  <div className="flex items-center gap-3">
                     <div className="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white">
                       <Youtube size={24} fill="white" />
@@ -358,7 +358,7 @@ const App: React.FC = () => {
             
             <div className="flex gap-6">
               <a 
-                href="https://www.youtube.com/@modernagecoders" 
+                href="https://www.youtube.com/@ModernAgeCoders" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group w-14 h-14 bg-white/10 rounded-full flex items-center justify-center hover:bg-red-600 hover:text-white transition-all duration-300 border-2 border-transparent hover:border-white"

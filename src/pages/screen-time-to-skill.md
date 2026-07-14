@@ -182,17 +182,17 @@ Parent*
 
 ★★★★★
 
-> “I used to hate algebra because I never understood WHY we do it. Here, they showed me how equations represent real-life situations. Now I can visualize every problem and solve it easily. Math finally makes sense!”
+> “I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding.”
 
-*AAnanya Verma
-Grade 8 Student*
+*RRitu Kedia
+Parent*
 
 ★★★★★
 
-> “Sir taught me fractions using pizza slices and chocolate bars! I finally understood why 3/4 is bigger than 2/3. Now I can compare any fractions in my head without formulas. Math is fun when you see it in real life!”
+> “Very good classes. Makes learning very easy and interactive.”
 
-*AArnav Gupta
-Grade 7 Student*
+*VVineeta Shyamsukha
+Parent*
 
 ---
 

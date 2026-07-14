@@ -175,17 +175,17 @@ Parent & Student Voices
 
 ★★★★★
 
-"My daughter used to memorize formulas blindly. Here they derive everything from scratch using real examples. She now understands the logic behind multiplication itself!"
+"I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself. I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success."
 
-Mrs. Priya PatelParent of Ananya (Grade 3)★★★★★
+Sujal RamolaStudent★★★★★
 
-"Ma'am taught me division using sharing candies among friends. Now I know WHY we divide and what remainders mean. Math is not scary anymore—it's just solving real problems!"
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class."
 
-Kabir SinghGrade 4 Student★★★★★
+Shradha SarafParent of Mivaan★★★★★
 
-"They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!"
+"Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner."
 
-Aarav SharmaStudent, Grade 7
+Arush PoddarStudent
 
 ## Ready to start coding in Goa?
 

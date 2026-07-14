@@ -144,17 +144,17 @@ Learner Voices
 
 ★★★★★
 
-"They don't give us shortcuts, they teach us the actual logic. Now I can solve any type of problem because I understand how things work from the basics!"
+"Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner."
 
-Neha DesaiGrade 6 Student★★★★★
+Arush PoddarStudent★★★★★
 
 "Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class."
 
 Shradha SarafParent of Mivaan★★★★★
 
-"I tried 3 other platforms before this. Everyone teaches 'what' to code. Only Modern Age Coders taught me 'how it actually works'. The depth is unmatched."
+"Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-Diya KapoorWorking Professional
+Sonu GoyalParent
 
 ## Earn a certificate backed by real skills
 

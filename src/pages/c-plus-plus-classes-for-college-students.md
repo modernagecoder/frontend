@@ -144,13 +144,13 @@ Student Voices
 
 ★★★★★
 
-"They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!"
+"Very good classes. Don't worry about coding—they teach the best, especially Shivam sir."
 
-Aarav SharmaStudent, Grade 7★★★★★
+Shaarav WadhwaStudent★★★★★
 
-"Best part? They connect coding to real-world scenarios. Learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'."
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding."
 
-Ishaan ReddyCollege Student, B.Tech CSE★★★★★
+Ritu KediaParent★★★★★
 
 "One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
 

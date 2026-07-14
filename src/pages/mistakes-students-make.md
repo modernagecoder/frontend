@@ -179,10 +179,10 @@ Student*
 
 ★★★★★
 
-> “Finally found a place that teaches depth, not breadth. They explained how databases work at the storage level. This is education, not just training.”
+> “The classes are excellent. The teachers explain concepts very clearly and make code fun and easy to understand. The sessions are interactive and fun. They also help students boost their confidence. We not only focus on academics, but also on logic building and problem solving.”
 
-*VVikram Joshi
-Working Professional*
+*PPragyen Diwan
+Parent*
 
 ---
 

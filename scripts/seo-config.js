@@ -58,9 +58,9 @@ const SEO_CONFIG = {
     socialProfiles: [
       'https://www.facebook.com/modernagecoders',
       'https://www.instagram.com/modern_age_coders',
-      'https://www.youtube.com/@modernagecoders',
+      'https://www.youtube.com/@ModernAgeCoders',
       'https://github.com/modernagecoder',
-      'https://www.linkedin.com/in/shivam-khemka-948a2a277'
+      'https://www.linkedin.com/in/shivam-khemka-modern-age-coders'
     ]
   },
 

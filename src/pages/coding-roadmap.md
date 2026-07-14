@@ -265,21 +265,21 @@ Straight from our [love wall](/love) — parents of six-year-olds, teenagers who
 
 > ★★★★★
 >
-> "They connect coding to real-world scenarios — I learned how Netflix recommendations work while studying algorithms. Concepts stick forever when you understand the 'why'."
+> "Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease."
 >
-> IR**Ishaan Reddy**College student, B.Tech CSE
+> SM**Samriddha Mondal**Student
 
 > ★★★★★
 >
-> "Every concept is derived from first principles. They showed me how JavaScript works under the hood. I'm not just coding anymore — I'm engineering solutions."
+> "I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The most impressive part was working on real-world projects."
 >
-> SD**Sanjay Deshmukh**Working professional
+> KB**Krishnam Bhatter**Former Student
 
 > ★★★★★
 >
-> "I tried three other platforms before this. Everyone teaches 'what' to code. Only Modern Age Coders taught me 'how it actually works'. The depth is unmatched."
+> "One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
 >
-> DK**Diya Kapoor**Working professional
+> VA**Vansh Agarwal**Student
 
 > ★★★★★
 >

@@ -254,9 +254,9 @@ School-specific pages:
 
 ★★★★★
 
-> “Even in college, I had gaps in understanding. They filled those gaps by going back to fundamentals. They showed me the 'why' behind limits, continuity, and differentiation. Now advanced topics make perfect sense because my foundation is rock solid!”
+> “Very good classes. Makes learning very easy and interactive.”
 
-*DDiya AgarwalCollege Student, B.Sc Math*
+*DVineeta ShyamsukhaParent*
 
 These are real, verified Google reviews from Modern Age Coders families. Read more on our [Wall of Love](/love).
 

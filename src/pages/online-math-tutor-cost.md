@@ -129,17 +129,17 @@ Parent of Mivaan*
 
 ★★★★★
 
-> “I tried 3 other platforms before this. Everyone teaches 'what' to code. Only Modern Age Coders taught me 'how it actually works'. The depth is unmatched.”
+> “I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding.”
 
-*DDiya Kapoor
-Working Professional*
+*RRitu Kedia
+Parent*
 
 ★★★★★
 
-> “Sir explained calculus using a car's speedometer! Suddenly derivatives made perfect sense. No rote learning, just pure understanding. Scored 98% in math!”
+> “Very good classes. Makes learning very easy and interactive.”
 
-*AArjun Mehta
-Grade 9 Student*
+*VVineeta Shyamsukha
+Parent*
 
 ---
 

@@ -250,9 +250,9 @@ Premium live coding and maths, taught by full-time engineers, building real proj
 
 ★★★★★
 
-> “My son struggled with percentages and ratios. The teachers here explained it using money, discounts, and recipes—real things he sees daily. Now he calculates discounts faster than me! Understanding the 'how' and 'why' changed everything.”
+> “Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner.”
 
-*MMr. Suresh PatelParent of Vihaan (Grade 6)*
+*MArush PoddarStudent*
 
 ★★★★★
 
