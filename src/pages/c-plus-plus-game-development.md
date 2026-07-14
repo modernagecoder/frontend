@@ -1,7 +1,7 @@
 ---
 title: "C++ Game Development Course | Build Games with C++ (SFML) Online"
 description: "Learn game development in C++. Live online course — game loops, graphics with SFML, sprites, collisions and OOP game design, building real 2D games from console to graphical. Great for teens. Small batches, free demo."
-canonical: /c-plus-plus-game-development
+canonical: https://learn.modernagecoders.com/c-plus-plus-game-development
 keywords: ["c++ game development", "c++ game development course", "learn game development c++", "c++ games programming", "sfml c++ course", "c++ for game development", "build games with c++", "game programming for teens", "c++ 2d game course", "game dev classes India"]
 source: src/pages/c-plus-plus-game-development.html
 ---

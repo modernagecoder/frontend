@@ -1,7 +1,7 @@
 ---
 title: "AI & ML Certification Course | Certificate + Real Portfolio"
 description: "AI &amp; ML certification course — earn a course-completion certificate backed by a real project portfolio. Python, machine learning and deep learning, mentor-led and project-based. Live, small batches. Free demo."
-canonical: /ai-ml-certification-course
+canonical: https://learn.modernagecoders.com/ai-ml-certification-course
 keywords: ["ai ml certification course", "machine learning certification", "ai certification course", "ml certificate course", "ai ml course with certificate", "certified machine learning course", "ai ml certification india", "deep learning certification", "ml course certificate", "ai ml online certification"]
 source: src/pages/ai-ml-certification-course.html
 ---

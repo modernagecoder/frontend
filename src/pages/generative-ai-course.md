@@ -1,7 +1,7 @@
 ---
 title: "Generative AI Course | Build with LLMs & GenAI (Online India)"
 description: "Master Generative AI. Live online course — Large Language Models, prompt engineering, LLM APIs, RAG and building real AI apps and chatbots. Hands-on with the latest GenAI tools. For college, professionals & teens. Small batches, free demo."
-canonical: /generative-ai-course
+canonical: https://learn.modernagecoders.com/generative-ai-course
 keywords: ["generative ai course", "gen ai course", "learn generative ai", "llm course", "build ai apps", "generative ai online India", "chatgpt course", "prompt engineering", "ai chatbot course", "generative ai for beginners"]
 source: src/pages/generative-ai-course.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Sonipat | Modern Age Coders"
 description: "Live online coding & maths classes in Sonipat for kids, teens & adults. Python, AI, Java & vibe coding in India's Education City. Rated 4.9/5. Free demo!"
-canonical: /best-coding-class-in-sonipat
+canonical: https://learn.modernagecoders.com/best-coding-class-in-sonipat
 keywords: ["best coding classes in Sonipat", "coding classes in Sonipat", "coding for kids in Sonipat", "coding for teens in Sonipat", "programming classes Sonipat", "coding institute Sonipat", "online coding classes Sonipat", "coding classes near me Sonipat", "Scratch programming Sonipat", "Python for kids Sonipat", "web development course Sonipat", "best coding institute in Sonipat"]
 source: src/pages/best-coding-class-in-sonipat.html
 ---

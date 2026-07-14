@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Meerut | Modern Age Coders"
 description: "Live online coding & maths classes in Meerut for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-meerut
+canonical: https://learn.modernagecoders.com/best-coding-class-in-meerut
 keywords: ["best coding classes in Meerut", "coding for kids in Meerut", "coding for teens in Meerut", "programming classes Meerut", "coding institute Meerut", "online coding classes Meerut", "coding classes near me Meerut", "Scratch programming Meerut", "Python for kids Meerut", "web development Meerut", "best coding institute in Meerut", "UP Board coding class Meerut"]
 source: src/pages/best-coding-class-in-meerut.html
 ---

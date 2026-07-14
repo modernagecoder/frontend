@@ -1,7 +1,7 @@
 ---
 title: "Java for ICSE & ISC Students | BlueJ Coding Classes (Class 9–12)"
 description: "Online Java classes for ICSE Class 9–10 & ISC Class 11–12 students, taught with BlueJ. Master the board syllabus, write your own programs and score better. Small live batches. Free demo class."
-canonical: /java-programming-for-icse-students
+canonical: https://learn.modernagecoders.com/java-programming-for-icse-students
 keywords: ["java for ICSE students", "java for ISC students", "ICSE computer applications java", "ISC computer science java", "BlueJ classes online", "java class 9 10", "java class 11 12", "ICSE java tuition", "ISC java tuition", "java board exam preparation", "BlueJ programming", "ICSE computer applications tuition online"]
 source: src/pages/java-programming-for-icse-students.html
 ---

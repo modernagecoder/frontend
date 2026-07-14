@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Kakinada | Modern Age Coders"
 description: "Live online coding & maths classes in Kakinada for kids, teens & college students. Python, AI, Java, Web Dev & EAPCET/JEE logic, JNTU-K. Rated 4.9/5. Demo!"
-canonical: /best-coding-class-in-kakinada
+canonical: https://learn.modernagecoders.com/best-coding-class-in-kakinada
 keywords: ["best coding classes in Kakinada", "coding classes in Kakinada", "coding for kids in Kakinada", "coding for teens in Kakinada", "programming classes Kakinada", "coding institute Kakinada", "online coding classes Kakinada", "coding classes near me Kakinada", "Scratch programming Kakinada", "Python for kids Kakinada", "web development course Kakinada", "best coding institute in Kakinada"]
 source: src/pages/best-coding-class-in-kakinada.html
 ---

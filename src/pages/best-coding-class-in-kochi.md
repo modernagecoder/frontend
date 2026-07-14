@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Kochi | Modern Age Coders"
 description: "Live online coding & maths classes in Kochi for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-kochi
+canonical: https://learn.modernagecoders.com/best-coding-class-in-kochi
 keywords: ["best coding classes in Kochi", "coding for kids in Kochi", "coding for teens in Kochi", "programming classes Kochi", "coding institute Kochi", "online coding classes Kochi", "coding classes near me Kochi", "Scratch programming Kochi", "Python for kids Kochi", "web development Kochi", "best coding institute in Kochi", "computer classes for kids Kochi"]
 source: src/pages/best-coding-class-in-kochi.html
 ---

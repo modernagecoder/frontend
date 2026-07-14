@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Madurai | Modern Age Coders"
 description: "Live online coding & maths classes in Madurai for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-madurai
+canonical: https://learn.modernagecoders.com/best-coding-class-in-madurai
 keywords: ["best coding classes in Madurai", "coding for kids in Madurai", "coding for teens in Madurai", "programming classes Madurai", "coding institute Madurai", "online coding classes Madurai", "coding classes near me Madurai", "Scratch programming Madurai", "Python for kids Madurai", "web development Madurai", "best coding institute in Madurai", "Tamil Nadu Board coding class Madurai"]
 source: src/pages/best-coding-class-in-madurai.html
 ---

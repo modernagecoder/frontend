@@ -1,7 +1,7 @@
 ---
 title: "Python for Machine Learning | Learn ML Coding with scikit-learn Online"
 description: "Learn Python for Machine Learning. Live online course — the Python and scikit-learn coding skills to build, train and evaluate ML models, with NumPy and pandas. The coding bridge from Python into ML. Small batches, free demo."
-canonical: /python-for-machine-learning
+canonical: https://learn.modernagecoders.com/python-for-machine-learning
 keywords: ["python for machine learning", "python ml course", "scikit-learn course", "learn ml with python", "python for ai and ml", "ml coding python", "machine learning programming", "python for data science and ml", "sklearn tutorial", "ml with python online"]
 source: src/pages/python-for-machine-learning.html
 ---

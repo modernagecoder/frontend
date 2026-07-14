@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Rohtak | Modern Age Coders"
 description: "Live online coding & maths classes in Rohtak for kids, teens & college. Python, AI, Java, DSA & Web Dev, home to IIM Rohtak & MDU. Rated 4.9/5. Free demo!"
-canonical: /best-coding-class-in-rohtak
+canonical: https://learn.modernagecoders.com/best-coding-class-in-rohtak
 keywords: ["best coding classes in Rohtak", "coding classes in Rohtak", "coding for kids in Rohtak", "coding for teens in Rohtak", "programming classes Rohtak", "coding institute Rohtak", "online coding classes Rohtak", "coding classes near me Rohtak", "Scratch programming Rohtak", "Python for kids Rohtak", "web development course Rohtak", "vibe coding Rohtak"]
 source: src/pages/best-coding-class-in-rohtak.html
 ---

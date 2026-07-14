@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Jamnagar | Modern Age Coders"
 description: "Live online coding & maths classes in Jamnagar for kids, teens & adults. Python, AI, Java, Web Dev & JEE/GUJCET logic, the Brass City. Rated 4.9/5. Demo!"
-canonical: /best-coding-class-in-jamnagar
+canonical: https://learn.modernagecoders.com/best-coding-class-in-jamnagar
 keywords: ["best coding classes in Jamnagar", "coding classes in Jamnagar", "coding for kids in Jamnagar", "coding for teens in Jamnagar", "programming classes Jamnagar", "coding institute Jamnagar", "online coding classes Jamnagar", "coding classes near me Jamnagar", "Scratch programming Jamnagar", "Python for kids Jamnagar", "web development course Jamnagar", "best coding institute in Jamnagar"]
 source: src/pages/best-coding-class-in-jamnagar.html
 ---

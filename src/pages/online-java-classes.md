@@ -1,7 +1,7 @@
 ---
 title: "Online Java Classes | Live Java Course Online for All Levels"
 description: "Live online Java classes with a real mentor — not recorded videos. Small batches, code reviewed in real time, BlueJ & IDE support, recordings included. For teens, students & adults. Free demo."
-canonical: /online-java-classes
+canonical: https://learn.modernagecoders.com/online-java-classes
 keywords: ["online java classes", "live java classes online", "java course online", "learn java online", "online java training", "java classes online India", "java tutoring online", "live online java course", "java coaching online", "virtual java classes", "java classes from home"]
 source: src/pages/online-java-classes.html
 ---

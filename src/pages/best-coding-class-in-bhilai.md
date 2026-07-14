@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Bhilai | Modern Age Coders"
 description: "Live online coding & maths classes in Bhilai for kids, teens & adults. Python, AI, Java, Web Dev & steel-city JEE/NEET logic. Rated 4.9/5. Book a free demo!"
-canonical: /best-coding-class-in-bhilai
+canonical: https://learn.modernagecoders.com/best-coding-class-in-bhilai
 keywords: ["best coding classes in Bhilai", "coding classes in Bhilai", "coding classes Durg", "coding for kids in Bhilai", "coding for teens in Bhilai", "programming classes Bhilai", "coding institute Bhilai", "online coding classes Bhilai", "coding classes near me Bhilai", "Scratch programming Bhilai", "Python for kids Bhilai", "web development course Bhilai"]
 source: src/pages/best-coding-class-in-bhilai.html
 ---

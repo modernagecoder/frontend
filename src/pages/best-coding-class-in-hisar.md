@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Hisar | Modern Age Coders"
 description: "Live online coding & maths classes in Hisar for kids, teens & college students. Python, AI, Java, Web Dev & DSA, CBSE/ICSE/HBSE-friendly. Rated 4.9/5. Demo!"
-canonical: /best-coding-class-in-hisar
+canonical: https://learn.modernagecoders.com/best-coding-class-in-hisar
 keywords: ["best coding classes in Hisar", "coding classes in Hisar", "coding for kids in Hisar", "coding for teens in Hisar", "programming classes Hisar", "coding institute Hisar", "online coding classes Hisar", "coding classes near me Hisar", "Scratch programming Hisar", "Python for kids Hisar", "web development course Hisar", "vibe coding Hisar"]
 source: src/pages/best-coding-class-in-hisar.html
 ---

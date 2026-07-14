@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Dehradun | Modern Age Coders"
 description: "Live online coding & maths classes in Dehradun for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-dehradun
+canonical: https://learn.modernagecoders.com/best-coding-class-in-dehradun
 keywords: ["best coding classes in Dehradun", "coding for kids in Dehradun", "coding for teens in Dehradun", "programming classes Dehradun", "coding institute Dehradun", "online coding classes Dehradun", "coding classes near me Dehradun", "Scratch programming Dehradun", "Python for kids Dehradun", "web development Dehradun", "best coding institute in Dehradun", "Uttarakhand Board coding class Dehradun"]
 source: src/pages/best-coding-class-in-dehradun.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Prayagraj | Modern Age Coders"
 description: "Live online coding & maths classes in Prayagraj (Allahabad) for kids, teens & adults. Python, AI, Java & JEE/UPSC-aligned logic. Rated 4.9/5. Book a free demo!"
-canonical: /best-coding-class-in-prayagraj
+canonical: https://learn.modernagecoders.com/best-coding-class-in-prayagraj
 keywords: ["best coding classes in Prayagraj", "coding classes in Prayagraj", "coding classes in Allahabad", "coding for kids in Prayagraj", "coding for teens in Prayagraj", "programming classes Prayagraj", "coding institute Prayagraj", "online coding classes Prayagraj", "coding classes near me Prayagraj", "Scratch programming Prayagraj", "Python for kids Prayagraj", "web development course Prayagraj"]
 source: src/pages/best-coding-class-in-prayagraj.html
 ---

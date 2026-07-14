@@ -1,7 +1,7 @@
 ---
 title: "Best Java Classes in India | Online Java Course for Teens & Adults"
 description: "India's best live online Java classes for teens, ICSE/ISC students & adults. Master Core Java, OOP, DSA & real projects with expert mentors in small batches. Rated 4.9/5. Free demo class."
-canonical: /best-java-classes-in-india
+canonical: https://learn.modernagecoders.com/best-java-classes-in-india
 keywords: ["best java classes in India", "online java course", "java classes for teens", "java classes for adults", "java programming course", "learn java online India", "core java course", "java OOP course", "java DSA course", "java for ICSE students", "java for ISC students", "BlueJ java classes"]
 source: src/pages/best-java-classes-in-india.html
 ---

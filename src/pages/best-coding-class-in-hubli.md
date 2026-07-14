@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Hubli | Modern Age Coders"
 description: "Live online coding & maths classes in Hubli for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-hubli
+canonical: https://learn.modernagecoders.com/best-coding-class-in-hubli
 keywords: ["best coding classes in Hubli", "coding for kids in Hubli", "coding for teens in Hubli", "programming classes Hubli", "coding institute Hubli", "online coding classes Hubli", "coding classes near me Hubli", "Scratch programming Hubli", "Python for kids Hubli", "web development Hubli", "best coding institute in Hubli", "Karnataka Board coding class Hubli"]
 source: src/pages/best-coding-class-in-hubli.html
 ---

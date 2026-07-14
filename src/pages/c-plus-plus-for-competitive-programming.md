@@ -1,7 +1,7 @@
 ---
 title: "C++ for Competitive Programming | Codeforces, CodeChef & ICPC Course"
 description: "Learn competitive programming in C++. Live online CP course — fast I/O, the STL, time complexity, problem-solving patterns and contest strategy for Codeforces, CodeChef, AtCoder & ICPC. Small batches, free demo."
-canonical: /c-plus-plus-for-competitive-programming
+canonical: https://learn.modernagecoders.com/c-plus-plus-for-competitive-programming
 keywords: ["c++ for competitive programming", "competitive programming course", "codeforces c++ course", "codechef training", "icpc preparation", "learn cp in c++", "competitive coding classes India", "c++ contest programming", "cp with c++ online", "competitive programming for beginners"]
 source: src/pages/c-plus-plus-for-competitive-programming.html
 ---

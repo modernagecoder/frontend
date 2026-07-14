@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Panipat | Modern Age Coders"
 description: "Coding classes in Panipat for kids, teens & adults. Live online Python, AI, AI coding agents, Java & Web Dev with real projects. Rated 4.9/5. Free demo!"
-canonical: /best-coding-class-in-panipat
+canonical: https://learn.modernagecoders.com/best-coding-class-in-panipat
 keywords: ["best coding classes in Panipat", "coding classes in Panipat", "coding for kids in Panipat", "coding for teens in Panipat", "programming classes Panipat", "coding institute Panipat", "online coding classes Panipat", "coding classes near me Panipat", "Scratch programming Panipat", "Python for kids Panipat", "web development course Panipat", "best coding institute in Panipat"]
 source: src/pages/best-coding-class-in-panipat.html
 ---

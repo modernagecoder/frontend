@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Jabalpur | Modern Age Coders"
 description: "Live online coding & maths classes in Jabalpur for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-jabalpur
+canonical: https://learn.modernagecoders.com/best-coding-class-in-jabalpur
 keywords: ["best coding classes in Jabalpur", "coding for kids in Jabalpur", "coding for teens in Jabalpur", "programming classes Jabalpur", "coding institute Jabalpur", "online coding classes Jabalpur", "coding classes near me Jabalpur", "Scratch programming Jabalpur", "Python for kids Jabalpur", "web development Jabalpur", "best coding institute in Jabalpur", "MP Board coding class Jabalpur"]
 source: src/pages/best-coding-class-in-jabalpur.html
 ---

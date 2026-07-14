@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Dhanbad | Modern Age Coders"
 description: "Live online coding & maths classes in Dhanbad for kids, teens & adults. Python, AI, Java & Web Dev, logic near IIT (ISM). Rated 4.9/5. Book a free demo!"
-canonical: /best-coding-class-in-dhanbad
+canonical: https://learn.modernagecoders.com/best-coding-class-in-dhanbad
 keywords: ["best coding classes in Dhanbad", "coding classes in Dhanbad", "coding for kids in Dhanbad", "coding for teens in Dhanbad", "programming classes Dhanbad", "coding institute Dhanbad", "online coding classes Dhanbad", "coding classes near me Dhanbad", "Scratch programming Dhanbad", "Python for kids Dhanbad", "web development course Dhanbad", "best coding institute in Dhanbad"]
 source: src/pages/best-coding-class-in-dhanbad.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: "C++ for Beginners | Learn C++ From Scratch — Online Course (No Experience)"
 description: "Learn C++ from absolute zero. Beginner-friendly live online C++ classes — your first program, variables, loops, functions, then pointers, OOP and the STL, step by step. No prior coding needed. Small batches, free demo."
-canonical: /c-plus-plus-for-beginners
+canonical: https://learn.modernagecoders.com/c-plus-plus-for-beginners
 keywords: ["c++ for beginners", "learn c++ from scratch", "c++ beginner course", "c++ basics online", "c++ for absolute beginners", "c++ tutorial for beginners India", "online c++ classes for beginners", "c++ first program", "beginner c++ programming", "c++ no experience"]
 source: src/pages/c-plus-plus-for-beginners.html
 ---

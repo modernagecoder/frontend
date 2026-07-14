@@ -1,7 +1,7 @@
 ---
 title: "C++ Projects for Students | Build Real C++ Projects (Beginner to Advanced)"
 description: "Build real C++ projects with a mentor. Live online project-based C++ course — games, a bank system, inventory manager and more, from beginner to advanced. A portfolio for college, internships & interviews. Small batches, free demo."
-canonical: /c-plus-plus-projects-for-students
+canonical: https://learn.modernagecoders.com/c-plus-plus-projects-for-students
 keywords: ["c++ projects for students", "c++ project ideas", "c++ mini projects", "c++ projects for beginners", "c++ portfolio projects", "build c++ projects online", "c++ project based course", "c++ games projects", "c++ projects for college", "learn c++ by building"]
 source: src/pages/c-plus-plus-projects-for-students.html
 ---

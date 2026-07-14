@@ -1,7 +1,7 @@
 ---
 title: "AI Agents Course | Build Autonomous AI Agents with LLMs"
 description: "AI agents course — build autonomous AI agents that reason, use tools and take actions. The think-act-observe loop, tool use, memory and multi-step agents with LLMs in Python. Hands-on, live, small batches. Free demo."
-canonical: /ai-agents-course
+canonical: https://learn.modernagecoders.com/ai-agents-course
 keywords: ["ai agents course", "build ai agents", "autonomous ai agents", "llm agents", "agentic ai course", "ai agent python", "tool-using agents", "langchain agents course", "ai automation course", "build autonomous agents"]
 source: src/pages/ai-agents-course.html
 ---

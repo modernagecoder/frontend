@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Ajmer | Modern Age Coders"
 description: "Live online coding & maths classes in Ajmer for kids, teens & adults. Python, AI, Java & Web Dev, CBSE, ICSE & RBSE friendly. Rated 4.9/5. Book a free demo!"
-canonical: /best-coding-class-in-ajmer
+canonical: https://learn.modernagecoders.com/best-coding-class-in-ajmer
 keywords: ["best coding classes in Ajmer", "coding classes in Ajmer", "coding for kids in Ajmer", "coding for teens in Ajmer", "programming classes Ajmer", "coding institute Ajmer", "online coding classes Ajmer", "coding classes near me Ajmer", "Scratch programming Ajmer", "Python for kids Ajmer", "web development course Ajmer", "best coding institute in Ajmer"]
 source: src/pages/best-coding-class-in-ajmer.html
 ---

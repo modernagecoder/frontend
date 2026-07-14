@@ -1,7 +1,7 @@
 ---
 title: "Deep Learning with TensorFlow & PyTorch | Hands-On DL Course"
 description: "Deep learning with TensorFlow and PyTorch — learn the two leading frameworks hands-on. Tensors, building and training neural networks, GPUs and real DL projects in Python. Live, small batches. Free demo."
-canonical: /deep-learning-with-tensorflow-and-pytorch
+canonical: https://learn.modernagecoders.com/deep-learning-with-tensorflow-and-pytorch
 keywords: ["deep learning with tensorflow and pytorch", "tensorflow course", "pytorch course", "deep learning frameworks", "learn pytorch", "learn tensorflow", "dl course python", "build neural networks tensorflow", "pytorch tutorial course", "deep learning india"]
 source: src/pages/deep-learning-with-tensorflow-and-pytorch.html
 ---

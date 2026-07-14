@@ -1,7 +1,7 @@
 ---
 title: "Coding Classes in Chhattisgarh | Python, AI & Web Dev"
 description: "Live online coding & maths classes in Chhattisgarh for kids, teens & adults. Scratch, Python, AI, Java & DSA across Raipur & Bhilai. Rated 4.9/5. Free demo!"
-canonical: /coding-classes-in-chhattisgarh
+canonical: https://learn.modernagecoders.com/coding-classes-in-chhattisgarh
 keywords: ["coding classes in Chhattisgarh", "online coding classes Chhattisgarh", "coding classes for kids Chhattisgarh", "Python classes Chhattisgarh", "AI course for kids Chhattisgarh", "coding institute Chhattisgarh", "learn coding Chhattisgarh", "coding classes Raipur", "coding classes Bhilai", "coding classes Bilaspur", "coding classes Durg", "CGBSE coding"]
 source: src/pages/coding-classes-in-chhattisgarh.html
 ---

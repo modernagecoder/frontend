@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Bengaluru | Modern Age Coders"
 description: "Live online coding & maths classes in Bengaluru for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-bengaluru
+canonical: https://learn.modernagecoders.com/best-coding-class-in-bengaluru
 keywords: ["best coding classes in Bengaluru", "coding for kids in Bangalore", "coding for teens in Bengaluru", "programming classes Bangalore", "coding institute Bengaluru", "online coding classes Bangalore", "coding classes near me Bengaluru", "Scratch programming Bangalore", "Python for kids Bengaluru", "web development Bangalore", "best coding institute in Bengaluru", "computer classes for kids Bangalore"]
 source: src/pages/best-coding-class-in-bengaluru.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Faridabad | Modern Age Coders"
 description: "Live online coding & maths classes in Faridabad for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-faridabad
+canonical: https://learn.modernagecoders.com/best-coding-class-in-faridabad
 keywords: ["best coding classes in Faridabad", "coding for kids in Faridabad", "coding for teens in Faridabad", "programming classes Faridabad", "coding institute Faridabad", "online coding classes Faridabad", "coding classes near me Faridabad", "Scratch programming Faridabad", "Python for kids Faridabad", "web development Faridabad", "best coding institute in Faridabad", "Haryana Board coding class Faridabad"]
 source: src/pages/best-coding-class-in-faridabad.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Trichy | Modern Age Coders"
 description: "Live online coding & maths classes in Trichy for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-trichy
+canonical: https://learn.modernagecoders.com/best-coding-class-in-trichy
 keywords: ["best coding classes in Trichy", "coding for kids in Trichy", "coding for teens in Trichy", "programming classes Trichy", "coding institute Trichy", "online coding classes Trichy", "coding classes near me Trichy", "Scratch programming Trichy", "Python for kids Trichy", "web development Trichy", "best coding institute in Trichy", "Tamil Nadu Board coding class Trichy"]
 source: src/pages/best-coding-class-in-trichy.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Guwahati | Modern Age Coders"
 description: "Live online coding & maths classes in Guwahati for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-guwahati
+canonical: https://learn.modernagecoders.com/best-coding-class-in-guwahati
 keywords: ["best coding classes in Guwahati", "coding for kids in Guwahati", "coding for teens in Guwahati", "programming classes Guwahati", "coding institute Guwahati", "online coding classes Guwahati", "coding classes near me Guwahati", "Scratch programming Guwahati", "Python for kids Guwahati", "web development Guwahati", "best coding institute in Guwahati", "Assam Board coding class Guwahati"]
 source: src/pages/best-coding-class-in-guwahati.html
 ---

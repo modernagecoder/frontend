@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Vadodara | Modern Age Coders"
 description: "Live online coding & maths classes in Vadodara for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-vadodara
+canonical: https://learn.modernagecoders.com/best-coding-class-in-vadodara
 keywords: ["best coding classes in Vadodara", "coding for kids in Vadodara", "coding for teens in Vadodara", "programming classes Vadodara", "coding institute Vadodara", "online coding classes Vadodara", "coding classes near me Vadodara", "Scratch programming Vadodara", "Python for kids Vadodara", "web development Vadodara", "best coding institute in Vadodara", "GSEB coding class Vadodara"]
 source: src/pages/best-coding-class-in-vadodara.html
 ---

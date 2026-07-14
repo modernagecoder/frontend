@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Nagpur | Modern Age Coders"
 description: "Live online coding & maths classes in Nagpur for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-nagpur
+canonical: https://learn.modernagecoders.com/best-coding-class-in-nagpur
 keywords: ["best coding classes in Nagpur", "coding for kids in Nagpur", "coding for teens in Nagpur", "programming classes Nagpur", "coding institute Nagpur", "online coding classes Nagpur", "coding classes near me Nagpur", "Scratch programming Nagpur", "Python for kids Nagpur", "web development Nagpur", "best coding institute in Nagpur", "computer classes for kids Nagpur"]
 source: src/pages/best-coding-class-in-nagpur.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Java Projects for Students | Build Real Java Programs (Beginner to Advanced)"
 description: "Learn Java by building real projects — calculator, bank system, quiz app, games & more. Project-based live classes that build strong logic and a portfolio. For school, college & beginners. Free demo."
-canonical: /java-projects-for-students
+canonical: https://learn.modernagecoders.com/java-projects-for-students
 keywords: ["java projects for students", "java projects for beginners", "java mini projects", "java project ideas", "build java projects", "java project based learning", "java practical projects", "java projects with source code learning", "java portfolio projects", "java programming projects", "ISC java practical projects"]
 source: src/pages/java-projects-for-students.html
 ---

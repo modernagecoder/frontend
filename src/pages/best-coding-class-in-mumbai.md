@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Mumbai | Modern Age Coders"
 description: "Live online coding & maths classes in Mumbai for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-mumbai
+canonical: https://learn.modernagecoders.com/best-coding-class-in-mumbai
 keywords: ["best coding classes in Mumbai", "coding for kids in Mumbai", "coding for teens in Mumbai", "programming classes Mumbai", "coding institute Mumbai", "online coding classes Mumbai", "coding classes near me Mumbai", "Scratch programming Mumbai", "Python for kids Mumbai", "web development Mumbai", "best coding institute in Mumbai", "computer classes for kids Mumbai"]
 source: src/pages/best-coding-class-in-mumbai.html
 ---

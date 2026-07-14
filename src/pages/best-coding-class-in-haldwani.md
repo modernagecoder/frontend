@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Haldwani | Modern Age Coders"
 description: "Live online coding & maths classes in Haldwani for kids, teens & adults. Python, AI, Java, Web Dev & strong logic, the Gateway to Kumaon. Rated 4.9/5. Demo!"
-canonical: /best-coding-class-in-haldwani
+canonical: https://learn.modernagecoders.com/best-coding-class-in-haldwani
 keywords: ["best coding classes in Haldwani", "coding classes in Haldwani", "coding for kids in Haldwani", "coding for teens in Haldwani", "programming classes Haldwani", "coding institute Haldwani", "online coding classes Haldwani", "coding classes near me Haldwani", "Scratch programming Haldwani", "Python for kids Haldwani", "web development course Haldwani", "best coding institute in Haldwani"]
 source: src/pages/best-coding-class-in-haldwani.html
 ---

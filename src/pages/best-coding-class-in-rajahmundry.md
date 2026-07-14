@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Rajahmundry | Modern Age Coders"
 description: "Live online coding & maths classes in Rajahmundry for kids, teens & adults. Python, AI, Java, Web Dev & EAPCET/JEE-aligned logic. Rated 4.9/5. Free demo!"
-canonical: /best-coding-class-in-rajahmundry
+canonical: https://learn.modernagecoders.com/best-coding-class-in-rajahmundry
 keywords: ["best coding classes in Rajahmundry", "coding classes in Rajahmundry", "coding classes in Rajamahendravaram", "coding for kids in Rajahmundry", "coding for teens in Rajahmundry", "programming classes Rajahmundry", "coding institute Rajahmundry", "online coding classes Rajahmundry", "coding classes near me Rajahmundry", "Scratch programming Rajahmundry", "Python for kids Rajahmundry", "web development course Rajahmundry"]
 source: src/pages/best-coding-class-in-rajahmundry.html
 ---

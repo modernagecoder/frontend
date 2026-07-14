@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Mysore | Modern Age Coders"
 description: "Live online coding & maths classes in Mysore for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-mysore
+canonical: https://learn.modernagecoders.com/best-coding-class-in-mysore
 keywords: ["best coding classes in Mysore", "coding for kids in Mysore", "coding for teens in Mysore", "programming classes Mysore", "coding institute Mysore", "online coding classes Mysore", "coding classes near me Mysore", "Scratch programming Mysore", "Python for kids Mysore", "web development Mysore", "best coding institute in Mysore", "Karnataka Board coding class Mysore"]
 source: src/pages/best-coding-class-in-mysore.html
 ---

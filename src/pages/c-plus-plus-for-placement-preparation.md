@@ -1,7 +1,7 @@
 ---
 title: "C++ for Placement Preparation | Crack Coding Rounds & Interviews"
 description: "Crack placements with C++. Live online placement-prep course — DSA, the STL, OOP theory, problem-solving patterns and mock interviews for coding rounds, online assessments & technical interviews at product companies. Free demo."
-canonical: /c-plus-plus-for-placement-preparation
+canonical: https://learn.modernagecoders.com/c-plus-plus-for-placement-preparation
 keywords: ["c++ for placement preparation", "c++ coding round preparation", "c++ interview preparation", "placement preparation with c++", "dsa for placements c++", "c++ mock interviews", "crack coding interviews c++", "technical interview preparation", "c++ for product companies", "placement training online"]
 source: src/pages/c-plus-plus-for-placement-preparation.html
 ---

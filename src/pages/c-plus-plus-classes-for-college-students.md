@@ -1,7 +1,7 @@
 ---
 title: "C++ Classes for College Students | DSA, STL & Placement-Ready C++"
 description: "Live online C++ classes for college students. Master Core C++, OOP, the STL, Data Structures & Algorithms and competitive programming for placement coding rounds & product-company interviews. Small batches, free demo."
-canonical: /c-plus-plus-classes-for-college-students
+canonical: https://learn.modernagecoders.com/c-plus-plus-classes-for-college-students
 keywords: ["c++ classes for college students", "c++ for placements", "c++ dsa for college", "c++ stl course", "c++ coding round preparation", "c++ for engineering students", "online c++ course for college", "c++ interview preparation", "c++ competitive programming college", "learn c++ for placements India"]
 source: src/pages/c-plus-plus-classes-for-college-students.html
 ---

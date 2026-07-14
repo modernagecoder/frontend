@@ -1,7 +1,7 @@
 ---
 title: "Java for Beginners | Learn Java From Scratch (Online Live Course)"
 description: "Learn Java from absolute scratch with live online classes. No experience needed — write your first program in class one, then build up to OOP and projects. For students & adults. Free demo class."
-canonical: /java-for-beginners
+canonical: https://learn.modernagecoders.com/java-for-beginners
 keywords: ["java for beginners", "learn java from scratch", "java basics course", "beginner java classes", "java for absolute beginners", "java programming for beginners", "java step by step", "easy java course", "java first program", "java tutorial for beginners online", "core java beginners"]
 source: src/pages/java-for-beginners.html
 ---

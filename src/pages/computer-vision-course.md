@@ -1,7 +1,7 @@
 ---
 title: "Computer Vision Course | Learn Image AI & CNNs in Python"
 description: "Computer vision course — learn how AI sees. Image classification, convolutional neural networks (CNNs), object detection and OpenCV in Python. Build vision models hands-on. Live, small batches. Free demo."
-canonical: /computer-vision-course
+canonical: https://learn.modernagecoders.com/computer-vision-course
 keywords: ["computer vision course", "learn computer vision", "cnn course", "image classification course", "object detection course", "opencv python course", "deep learning vision", "image recognition course", "computer vision python", "cv course india"]
 source: src/pages/computer-vision-course.html
 ---

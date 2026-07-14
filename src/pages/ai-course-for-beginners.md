@@ -1,7 +1,7 @@
 ---
 title: "AI Course for Beginners | Learn Artificial Intelligence from Zero"
 description: "AI course for absolute beginners. Live online classes that take you from zero to building your first AI model — no prior coding or maths needed. Plain-English, hands-on, small batches. Free demo."
-canonical: /ai-course-for-beginners
+canonical: https://learn.modernagecoders.com/ai-course-for-beginners
 keywords: ["ai course for beginners", "learn ai from scratch", "artificial intelligence for beginners", "ai course no experience", "beginner ai class", "ai for non-programmers", "start learning ai", "ai basics course", "ai course india", "intro to ai"]
 source: src/pages/ai-course-for-beginners.html
 ---

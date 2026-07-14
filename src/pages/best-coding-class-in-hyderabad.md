@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Hyderabad | Modern Age Coders"
 description: "Live online coding & maths classes in Hyderabad for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-hyderabad
+canonical: https://learn.modernagecoders.com/best-coding-class-in-hyderabad
 keywords: ["best coding classes in Hyderabad", "coding for kids in Hyderabad", "coding for teens in Hyderabad", "programming classes Hyderabad", "coding institute Hyderabad", "online coding classes Hyderabad", "coding classes near me Hyderabad", "Scratch programming Hyderabad", "Python for kids Hyderabad", "web development Hyderabad", "best coding institute in Hyderabad", "computer classes for kids Hyderabad"]
 source: src/pages/best-coding-class-in-hyderabad.html
 ---

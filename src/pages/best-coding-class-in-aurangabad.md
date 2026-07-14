@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Aurangabad | Modern Age Coders"
 description: "Live online coding & maths classes in Aurangabad for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-aurangabad
+canonical: https://learn.modernagecoders.com/best-coding-class-in-aurangabad
 keywords: ["best coding classes in Aurangabad", "coding for kids in Aurangabad", "coding for teens in Aurangabad", "programming classes Aurangabad", "coding institute Aurangabad", "online coding classes Aurangabad", "coding classes near me Aurangabad", "Scratch programming Aurangabad", "Python for kids Aurangabad", "web development Aurangabad", "best coding institute in Aurangabad", "Maharashtra Board coding class Aurangabad"]
 source: src/pages/best-coding-class-in-aurangabad.html
 ---

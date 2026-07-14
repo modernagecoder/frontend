@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Bhopal | Modern Age Coders"
 description: "Live online coding & maths classes in Bhopal for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-bhopal
+canonical: https://learn.modernagecoders.com/best-coding-class-in-bhopal
 keywords: ["best coding classes in Bhopal", "coding for kids in Bhopal", "coding for teens in Bhopal", "programming classes Bhopal", "coding institute Bhopal", "online coding classes Bhopal", "coding classes near me Bhopal", "Scratch programming Bhopal", "Python for kids Bhopal", "web development Bhopal", "best coding institute in Bhopal", "computer classes for kids Bhopal"]
 source: src/pages/best-coding-class-in-bhopal.html
 ---

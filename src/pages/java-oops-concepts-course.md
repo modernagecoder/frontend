@@ -1,7 +1,7 @@
 ---
 title: "Java OOP Concepts Course | Master Object-Oriented Programming in Java"
 description: "Master Object-Oriented Programming in Java — classes, objects, inheritance, polymorphism, abstraction & encapsulation — with live, project-based classes. For ICSE/ISC, college & interviews. Free demo."
-canonical: /java-oops-concepts-course
+canonical: https://learn.modernagecoders.com/java-oops-concepts-course
 keywords: ["java oops concepts", "object oriented programming java", "java oop course", "oops in java", "inheritance polymorphism abstraction encapsulation", "java classes and objects", "learn oop java", "java oops for interview", "oops concepts for ICSE ISC", "java oop tutorial online"]
 source: src/pages/java-oops-concepts-course.html
 ---

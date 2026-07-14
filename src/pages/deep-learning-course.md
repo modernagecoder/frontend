@@ -1,7 +1,7 @@
 ---
 title: "Deep Learning Course | Neural Networks, CNNs & Transformers (Online)"
 description: "Master Deep Learning hands-on. Live online course — neural networks, backpropagation, CNNs for vision, RNNs and transformers for language, with TensorFlow/Keras & PyTorch. Build and train deep models. Small batches, free demo."
-canonical: /deep-learning-course
+canonical: https://learn.modernagecoders.com/deep-learning-course
 keywords: ["deep learning course", "neural networks course", "deep learning with python", "cnn course", "transformers course", "tensorflow course", "pytorch course", "deep learning online India", "learn deep learning", "deep learning for beginners"]
 source: src/pages/deep-learning-course.html
 ---

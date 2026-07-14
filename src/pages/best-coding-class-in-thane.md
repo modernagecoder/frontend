@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Thane | Modern Age Coders"
 description: "Live online coding & maths classes in Thane for kids, teens & adults. Python, AI, Java, Web Dev & MHT-CET/JEE-aligned logic. Rated 4.9/5. Book a free demo!"
-canonical: /best-coding-class-in-thane
+canonical: https://learn.modernagecoders.com/best-coding-class-in-thane
 keywords: ["best coding classes in Thane", "coding classes in Thane", "coding for kids in Thane", "coding for teens in Thane", "programming classes Thane", "coding institute Thane", "online coding classes Thane", "coding classes near me Thane", "Scratch programming Thane", "Python for kids Thane", "web development course Thane", "best coding institute in Thane"]
 source: src/pages/best-coding-class-in-thane.html
 ---

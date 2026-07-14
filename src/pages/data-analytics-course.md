@@ -1,7 +1,7 @@
 ---
 title: "Data Analytics Course | Learn Data Analysis, SQL & Dashboards"
 description: "Data analytics course — turn data into decisions. Excel, SQL, Python (pandas), visualization and dashboards, plus analytical thinking for real business insight. Live, hands-on, small batches. Free demo."
-canonical: /data-analytics-course
+canonical: https://learn.modernagecoders.com/data-analytics-course
 keywords: ["data analytics course", "data analysis course", "learn data analytics", "sql course", "data analyst course", "python pandas course", "data visualization course", "business analytics", "dashboard course", "data analyst india"]
 source: src/pages/data-analytics-course.html
 ---

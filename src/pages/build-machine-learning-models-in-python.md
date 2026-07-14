@@ -1,7 +1,7 @@
 ---
 title: "Build Machine Learning Models in Python | Project-Based ML Course"
 description: "Build machine learning models in Python, hands-on. Project-based live course — regression, classification, clustering and more with scikit-learn — you ship real models, not just notes. Small batches, free demo."
-canonical: /build-machine-learning-models-in-python
+canonical: https://learn.modernagecoders.com/build-machine-learning-models-in-python
 keywords: ["build machine learning models in python", "ml models python", "scikit-learn projects", "build ml models", "python machine learning projects", "hands-on ml python", "ml model building", "classification regression python", "sklearn course", "practical machine learning"]
 source: src/pages/build-machine-learning-models-in-python.html
 ---

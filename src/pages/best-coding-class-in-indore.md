@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Indore | Modern Age Coders"
 description: "Live online coding & maths classes in Indore for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-indore
+canonical: https://learn.modernagecoders.com/best-coding-class-in-indore
 keywords: ["best coding classes in Indore", "coding for kids in Indore", "coding for teens in Indore", "programming classes Indore", "coding institute Indore", "online coding classes Indore", "coding classes near me Indore", "Scratch programming Indore", "Python for kids Indore", "web development Indore", "best coding institute in Indore", "computer classes for kids Indore"]
 source: src/pages/best-coding-class-in-indore.html
 ---

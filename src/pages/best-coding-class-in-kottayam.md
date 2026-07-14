@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Kottayam | Modern Age Coders"
 description: "Coding classes in Kottayam for kids, teens & adults. Live online Python, AI, Java, Web Dev & logic building with real projects. Rated 4.9/5. Book a free demo!"
-canonical: /best-coding-class-in-kottayam
+canonical: https://learn.modernagecoders.com/best-coding-class-in-kottayam
 keywords: ["best coding classes in Kottayam", "coding classes in Kottayam", "coding for kids in Kottayam", "coding for teens in Kottayam", "programming classes Kottayam", "coding institute Kottayam", "online coding classes Kottayam", "coding classes near me Kottayam", "Scratch programming Kottayam", "Python for kids Kottayam", "web development course Kottayam", "best coding institute in Kottayam"]
 source: src/pages/best-coding-class-in-kottayam.html
 ---

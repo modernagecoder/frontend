@@ -1,7 +1,7 @@
 ---
 title: "How to Build AI Models | Course on Building AI & ML Models"
 description: "Learn how to build AI models end-to-end. Live course covering the full build process — framing the problem, preparing data, choosing and building the model, evaluating and improving it. Hands-on with Python. Free demo."
-canonical: /how-to-build-ai-models
+canonical: https://learn.modernagecoders.com/how-to-build-ai-models
 keywords: ["how to build ai models", "build ai models", "building machine learning models", "how to make ai models", "ai model development", "create ai model", "ml model building course", "how ai models are built", "build your own ai", "ai model from scratch"]
 source: src/pages/how-to-build-ai-models.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Ujjain | Modern Age Coders"
 description: "Live online coding & maths classes in Ujjain for kids, teens & adults. Python, AI, Java, Web Dev & logic-first problem solving. Rated 4.9/5. Book a free demo!"
-canonical: /best-coding-class-in-ujjain
+canonical: https://learn.modernagecoders.com/best-coding-class-in-ujjain
 keywords: ["best coding classes in Ujjain", "coding classes in Ujjain", "coding for kids in Ujjain", "coding for teens in Ujjain", "programming classes Ujjain", "coding institute Ujjain", "online coding classes Ujjain", "coding classes near me Ujjain", "Scratch programming Ujjain", "Python for kids Ujjain", "web development course Ujjain", "best coding institute in Ujjain"]
 source: src/pages/best-coding-class-in-ujjain.html
 ---

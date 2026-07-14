@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Karimnagar | Modern Age Coders"
 description: "Live online coding & maths classes in Karimnagar for kids, teens & adults. Python, AI, Java, Web Dev & EAMCET/JEE-aligned logic. Rated 4.9/5. Free demo!"
-canonical: /best-coding-class-in-karimnagar
+canonical: https://learn.modernagecoders.com/best-coding-class-in-karimnagar
 keywords: ["best coding classes in Karimnagar", "coding classes in Karimnagar", "coding for kids in Karimnagar", "coding for teens in Karimnagar", "programming classes Karimnagar", "coding institute Karimnagar", "online coding classes Karimnagar", "coding classes near me Karimnagar", "Scratch programming Karimnagar", "Python for kids Karimnagar", "web development course Karimnagar", "best coding institute in Karimnagar"]
 source: src/pages/best-coding-class-in-karimnagar.html
 ---

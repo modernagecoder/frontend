@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Sambalpur | Modern Age Coders"
 description: "Live online coding & maths classes in Sambalpur for kids, teens & adults. Python, AI, Java & engineering logic near VSSUT & Hirakud Dam. Rated 4.9/5. Free demo!"
-canonical: /best-coding-class-in-sambalpur
+canonical: https://learn.modernagecoders.com/best-coding-class-in-sambalpur
 keywords: ["best coding classes in Sambalpur", "coding classes in Sambalpur", "coding for kids in Sambalpur", "coding for teens in Sambalpur", "programming classes Sambalpur", "coding institute Sambalpur", "online coding classes Sambalpur", "coding classes near me Sambalpur", "Scratch programming Sambalpur", "Python for kids Sambalpur", "web development course Sambalpur", "best coding institute in Sambalpur"]
 source: src/pages/best-coding-class-in-sambalpur.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Salem | Modern Age Coders"
 description: "Live online coding & maths classes in Salem for kids, teens & adults. Python, AI, Java, Web Dev & TNEA/JEE-aligned logic. Rated 4.9/5. Book a free demo!"
-canonical: /best-coding-class-in-salem
+canonical: https://learn.modernagecoders.com/best-coding-class-in-salem
 keywords: ["best coding classes in Salem", "coding classes in Salem", "coding for kids in Salem", "coding for teens in Salem", "programming classes Salem", "coding institute Salem", "online coding classes Salem", "coding classes near me Salem", "Scratch programming Salem", "Python for kids Salem", "web development course Salem", "best coding institute in Salem"]
 source: src/pages/best-coding-class-in-salem.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Kozhikode | Modern Age Coders"
 description: "Live online coding & maths classes in Kozhikode for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-kozhikode
+canonical: https://learn.modernagecoders.com/best-coding-class-in-kozhikode
 keywords: ["best coding classes in Kozhikode", "coding for kids in Kozhikode", "coding for teens in Kozhikode", "programming classes Kozhikode", "coding institute Kozhikode", "online coding classes Kozhikode", "coding classes near me Kozhikode", "Scratch programming Kozhikode", "Python for kids Kozhikode", "web development Kozhikode", "best coding institute in Kozhikode", "Kerala Board coding class Kozhikode"]
 source: src/pages/best-coding-class-in-kozhikode.html
 ---

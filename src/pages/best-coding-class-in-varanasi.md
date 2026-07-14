@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Varanasi | Modern Age Coders"
 description: "Live online coding & maths classes in Varanasi for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-varanasi
+canonical: https://learn.modernagecoders.com/best-coding-class-in-varanasi
 keywords: ["best coding classes in Varanasi", "coding for kids in Varanasi", "coding for teens in Varanasi", "programming classes Varanasi", "coding institute Varanasi", "online coding classes Varanasi", "coding classes near me Varanasi", "Scratch programming Varanasi", "Python for kids Varanasi", "web development Varanasi", "best coding institute in Varanasi", "UP Board coding class Varanasi"]
 source: src/pages/best-coding-class-in-varanasi.html
 ---

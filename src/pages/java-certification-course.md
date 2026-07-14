@@ -1,7 +1,7 @@
 ---
 title: "Java Certification Course | Online Java Course with Certificate & Portfolio"
 description: "Live online Java certification course — learn Core Java, OOP & projects and earn a verifiable course-completion certificate plus a real project portfolio. For students & professionals. Free demo."
-canonical: /java-certification-course
+canonical: https://learn.modernagecoders.com/java-certification-course
 keywords: ["java certification course", "java course with certificate", "java certificate online", "certified java course", "java programming certification", "java course completion certificate", "online java certification India", "java certification for beginners", "java certificate for resume"]
 source: src/pages/java-certification-course.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Greater Noida | Modern Age Coders"
 description: "Live online coding & maths classes in Greater Noida for kids, teens & adults. Python, AI, Java, Web Dev & JEE logic near Knowledge Park. Rated 4.9/5. Demo!"
-canonical: /best-coding-class-in-greater-noida
+canonical: https://learn.modernagecoders.com/best-coding-class-in-greater-noida
 keywords: ["best coding classes in Greater Noida", "coding classes in Greater Noida", "coding for kids in Greater Noida", "coding for teens in Greater Noida", "programming classes Greater Noida", "coding institute Greater Noida", "online coding classes Greater Noida", "coding classes near me Greater Noida", "Scratch programming Greater Noida", "Python for kids Greater Noida", "web development course Greater Noida", "best coding institute in Greater Noida"]
 source: src/pages/best-coding-class-in-greater-noida.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Chennai | Modern Age Coders"
 description: "Live online coding & maths classes in Chennai for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-chennai
+canonical: https://learn.modernagecoders.com/best-coding-class-in-chennai
 keywords: ["best coding classes in Chennai", "coding for kids in Chennai", "coding for teens in Chennai", "programming classes Chennai", "coding institute Chennai", "online coding classes Chennai", "coding classes near me Chennai", "Scratch programming Chennai", "Python for kids Chennai", "web development Chennai", "best coding institute in Chennai", "computer classes for kids Chennai"]
 source: src/pages/best-coding-class-in-chennai.html
 ---

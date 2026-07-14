@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Thanjavur | Modern Age Coders"
 description: "Live online coding & maths classes in Thanjavur for kids, teens & adults. Python, AI, Java & JEE/NEET logic, near SASTRA University. Rated 4.9/5. Free demo!"
-canonical: /best-coding-class-in-thanjavur
+canonical: https://learn.modernagecoders.com/best-coding-class-in-thanjavur
 keywords: ["best coding classes in Thanjavur", "coding classes in Thanjavur", "coding for kids in Thanjavur", "coding for teens in Thanjavur", "programming classes Thanjavur", "coding institute Thanjavur", "online coding classes Thanjavur", "coding classes near me Thanjavur", "Scratch programming Thanjavur", "Python for kids Thanjavur", "web development course Thanjavur", "best coding institute in Thanjavur"]
 source: src/pages/best-coding-class-in-thanjavur.html
 ---

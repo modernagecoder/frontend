@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Sikar | Modern Age Coders"
 description: "Live online coding & AI classes in Sikar for JEE/NEET aspirants, kids & teens. Python, AI agents, Java & Web Dev alongside exam prep. Rated 4.9/5. Free demo!"
-canonical: /best-coding-class-in-sikar
+canonical: https://learn.modernagecoders.com/best-coding-class-in-sikar
 keywords: ["best coding classes in Sikar", "coding classes in Sikar", "coding for kids in Sikar", "coding for teens in Sikar", "programming classes Sikar", "coding institute Sikar", "online coding classes Sikar", "coding classes near me Sikar", "Scratch programming Sikar", "Python for kids Sikar", "web development course Sikar", "best coding institute in Sikar"]
 source: src/pages/best-coding-class-in-sikar.html
 ---

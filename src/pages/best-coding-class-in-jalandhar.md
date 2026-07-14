@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Jalandhar | Modern Age Coders"
 description: "Live online coding & maths classes in Jalandhar for kids, teens & adults. Python, AI, Java, Web Dev & JEE/PSEB logic, Doaba belt. Rated 4.9/5. Free demo!"
-canonical: /best-coding-class-in-jalandhar
+canonical: https://learn.modernagecoders.com/best-coding-class-in-jalandhar
 keywords: ["best coding classes in Jalandhar", "coding classes in Jalandhar", "coding for kids in Jalandhar", "coding for teens in Jalandhar", "programming classes Jalandhar", "coding institute Jalandhar", "online coding classes Jalandhar", "coding classes near me Jalandhar", "Scratch programming Jalandhar", "Python for kids Jalandhar", "web development course Jalandhar", "best coding institute in Jalandhar"]
 source: src/pages/best-coding-class-in-jalandhar.html
 ---

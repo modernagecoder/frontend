@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Erode | Modern Age Coders"
 description: "Live online coding & maths classes in Erode for kids, teens & adults. Python, AI, Java, Web Dev & JEE/NEET-aligned logic. Rated 4.9/5. Book a free demo!"
-canonical: /best-coding-class-in-erode
+canonical: https://learn.modernagecoders.com/best-coding-class-in-erode
 keywords: ["best coding classes in Erode", "coding classes in Erode", "coding for kids in Erode", "coding for teens in Erode", "programming classes Erode", "coding institute Erode", "online coding classes Erode", "coding classes near me Erode", "Scratch programming Erode", "Python for kids Erode", "web development course Erode", "best coding institute in Erode"]
 source: src/pages/best-coding-class-in-erode.html
 ---

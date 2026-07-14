@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Aligarh | Modern Age Coders"
 description: "Live online coding & maths classes in Aligarh for kids, teens & adults. Python, AI, Java, Web Dev & JEE-aligned logic near AMU. Rated 4.9/5. Book a free demo!"
-canonical: /best-coding-class-in-aligarh
+canonical: https://learn.modernagecoders.com/best-coding-class-in-aligarh
 keywords: ["best coding classes in Aligarh", "coding classes in Aligarh", "coding for kids in Aligarh", "coding for teens in Aligarh", "programming classes Aligarh", "coding institute Aligarh", "online coding classes Aligarh", "coding classes near me Aligarh", "Scratch programming Aligarh", "Python for kids Aligarh", "web development course Aligarh", "best coding institute in Aligarh"]
 source: src/pages/best-coding-class-in-aligarh.html
 ---

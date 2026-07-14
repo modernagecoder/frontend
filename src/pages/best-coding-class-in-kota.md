@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Kota | Modern Age Coders"
 description: "Coding & AI classes in Kota for JEE/NEET aspirants, kids & teens. Live online Python, Java & Web Dev — the future-proof edge alongside exam prep. Rated 4.9/5."
-canonical: /best-coding-class-in-kota
+canonical: https://learn.modernagecoders.com/best-coding-class-in-kota
 keywords: ["best coding classes in Kota", "coding classes in Kota", "coding for kids in Kota", "coding for teens in Kota", "programming classes Kota", "coding institute Kota", "online coding classes Kota", "coding classes near me Kota", "Scratch programming Kota", "Python for kids Kota", "web development course Kota", "best coding institute in Kota"]
 source: src/pages/best-coding-class-in-kota.html
 ---

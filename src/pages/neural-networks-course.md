@@ -1,7 +1,7 @@
 ---
 title: "Neural Networks Course | Learn & Build Neural Networks in Python"
 description: "Neural networks course — understand neurons, layers, weights and backpropagation, then build your own neural network in Python. Live, hands-on, small batches. The heart of deep learning, made clear. Free demo."
-canonical: /neural-networks-course
+canonical: https://learn.modernagecoders.com/neural-networks-course
 keywords: ["neural networks course", "learn neural networks", "neural network python", "deep learning neural networks", "backpropagation course", "build a neural network", "artificial neural networks", "neural net training", "perceptron course", "ann course"]
 source: src/pages/neural-networks-course.html
 ---

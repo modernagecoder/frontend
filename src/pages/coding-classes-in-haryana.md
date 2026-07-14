@@ -1,7 +1,7 @@
 ---
 title: "Coding Classes in Haryana | Python, AI & Web Dev"
 description: "Live online coding & maths classes in Haryana for kids, teens & adults. Scratch, Python, AI, Java & DSA across Gurugram & Faridabad. Rated 4.9/5. Free demo!"
-canonical: /coding-classes-in-haryana
+canonical: https://learn.modernagecoders.com/coding-classes-in-haryana
 keywords: ["coding classes in Haryana", "online coding classes Haryana", "coding classes for kids Haryana", "Python classes Haryana", "AI course for kids Haryana", "coding institute Haryana", "learn coding Haryana", "coding classes Gurugram", "coding classes Faridabad", "coding classes Panipat", "coding classes Karnal", "coding classes Ambala"]
 source: src/pages/coding-classes-in-haryana.html
 ---

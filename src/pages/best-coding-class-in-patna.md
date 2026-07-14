@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Patna | Modern Age Coders"
 description: "Live online coding & maths classes in Patna for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-patna
+canonical: https://learn.modernagecoders.com/best-coding-class-in-patna
 keywords: ["best coding classes in Patna", "coding for kids in Patna", "coding for teens in Patna", "programming classes Patna", "coding institute Patna", "online coding classes Patna", "coding classes near me Patna", "Scratch programming Patna", "Python for kids Patna", "web development Patna", "best coding institute in Patna", "Bihar Board coding class Patna"]
 source: src/pages/best-coding-class-in-patna.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Udaipur | Modern Age Coders"
 description: "Live online coding & maths classes in Udaipur for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-udaipur
+canonical: https://learn.modernagecoders.com/best-coding-class-in-udaipur
 keywords: ["best coding classes in Udaipur", "coding for kids in Udaipur", "coding for teens in Udaipur", "programming classes Udaipur", "coding institute Udaipur", "online coding classes Udaipur", "coding classes near me Udaipur", "Scratch programming Udaipur", "Python for kids Udaipur", "web development Udaipur", "best coding institute in Udaipur", "Rajasthan Board coding class Udaipur"]
 source: src/pages/best-coding-class-in-udaipur.html
 ---

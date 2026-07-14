@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Agra | Modern Age Coders"
 description: "Live online coding & maths classes in Agra for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-agra
+canonical: https://learn.modernagecoders.com/best-coding-class-in-agra
 keywords: ["best coding classes in Agra", "coding for kids in Agra", "coding for teens in Agra", "programming classes Agra", "coding institute Agra", "online coding classes Agra", "coding classes near me Agra", "Scratch programming Agra", "Python for kids Agra", "web development Agra", "best coding institute in Agra", "UP Board coding class Agra"]
 source: src/pages/best-coding-class-in-agra.html
 ---

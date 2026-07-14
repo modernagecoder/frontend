@@ -828,6 +828,21 @@ class CourseGenerator {
         // the page, so the markup matches on-page content. With aggregateRating
         // present, the multiple reviews are valid (fixes the GSC "Multiple reviews
         // without aggregateRating object" error).
+        //
+        // DECISION CHECKPOINT — review by 2026-09-15 (Phase 1.6).
+        // Known risk, accepted knowingly by the owner on 2026-07-01, recorded here so the
+        // next person to read this code sees the trade-off rather than assuming it is fine:
+        // this is ONE organisation-level rating (4.9/547, a real Google Business Profile
+        // figure for the business as a whole) applied to 102 DIFFERENT Course items, with
+        // the same 4 reviews cloned onto each. Google's guidance is that a review must be
+        // about the specific item it is attached to. The likely outcome is silent
+        // suppression — no stars, markup ignored, no penalty; the bad outcome is a
+        // Review-snippet manual action that can cost rich-result eligibility site-wide.
+        // ACTION: watch GSC → Enhancements → Review snippets weekly. If no course page is
+        // showing stars by 2026-09-15, this block and courseSchema.review below are pure
+        // downside — delete both. The durable fix is per-course reviews (Phase 9.1): ask
+        // each batch's parents to name the course in their Google review, then mark up only
+        // the reviews that genuinely belong to that course.
         courseSchema.aggregateRating = {
             "@type": "AggregateRating",
             "ratingValue": "4.9",

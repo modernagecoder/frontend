@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Jhansi | Modern Age Coders"
 description: "Live online coding & maths classes in Jhansi for kids, teens & adults. Python, AI, Java, Web Dev & JEE logic near the BHEL township. Rated 4.9/5. Free demo!"
-canonical: /best-coding-class-in-jhansi
+canonical: https://learn.modernagecoders.com/best-coding-class-in-jhansi
 keywords: ["best coding classes in Jhansi", "coding classes in Jhansi", "coding for kids in Jhansi", "coding for teens in Jhansi", "programming classes Jhansi", "coding institute Jhansi", "online coding classes Jhansi", "coding classes near me Jhansi", "Scratch programming Jhansi", "Python for kids Jhansi", "web development course Jhansi", "best coding institute in Jhansi"]
 source: src/pages/best-coding-class-in-jhansi.html
 ---

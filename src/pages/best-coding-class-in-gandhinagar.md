@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Gandhinagar | Modern Age Coders"
 description: "Live online coding & maths classes in Gandhinagar for kids, teens & adults. Python, AI, Java, Web Dev & JEE logic near GIFT City. Rated 4.9/5. Free demo!"
-canonical: /best-coding-class-in-gandhinagar
+canonical: https://learn.modernagecoders.com/best-coding-class-in-gandhinagar
 keywords: ["best coding classes in Gandhinagar", "coding classes in Gandhinagar", "coding for kids in Gandhinagar", "coding for teens in Gandhinagar", "programming classes Gandhinagar", "coding institute Gandhinagar", "online coding classes Gandhinagar", "coding classes near me Gandhinagar", "Scratch programming Gandhinagar", "Python for kids Gandhinagar", "web development course Gandhinagar", "best coding institute in Gandhinagar"]
 source: src/pages/best-coding-class-in-gandhinagar.html
 ---

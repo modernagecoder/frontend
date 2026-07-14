@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Visakhapatnam | Modern Age Coders"
 description: "Live online coding & maths classes in Visakhapatnam for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-visakhapatnam
+canonical: https://learn.modernagecoders.com/best-coding-class-in-visakhapatnam
 keywords: ["best coding classes in Visakhapatnam", "coding for kids in Visakhapatnam", "coding for teens in Visakhapatnam", "programming classes Visakhapatnam", "coding institute Visakhapatnam", "online coding classes Visakhapatnam", "coding classes near me Visakhapatnam", "Scratch programming Visakhapatnam", "Python for kids Visakhapatnam", "web development Visakhapatnam", "best coding institute in Visakhapatnam", "AP Board coding class Visakhapatnam"]
 source: src/pages/best-coding-class-in-visakhapatnam.html
 ---

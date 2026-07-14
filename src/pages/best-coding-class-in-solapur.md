@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Solapur | Modern Age Coders"
 description: "Live online coding & maths classes in Solapur for kids, teens & adults. Python, AI, Java, Web Dev & JEE/MHT-CET-aligned logic. Rated 4.9/5. Book a free demo!"
-canonical: /best-coding-class-in-solapur
+canonical: https://learn.modernagecoders.com/best-coding-class-in-solapur
 keywords: ["best coding classes in Solapur", "coding classes in Solapur", "coding for kids in Solapur", "coding for teens in Solapur", "programming classes Solapur", "coding institute Solapur", "online coding classes Solapur", "coding classes near me Solapur", "Scratch programming Solapur", "Python for kids Solapur", "web development course Solapur", "best coding institute in Solapur"]
 source: src/pages/best-coding-class-in-solapur.html
 ---

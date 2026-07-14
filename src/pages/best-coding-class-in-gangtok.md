@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Gangtok | Modern Age Coders"
 description: "Live online coding & maths classes in Gangtok for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-gangtok
+canonical: https://learn.modernagecoders.com/best-coding-class-in-gangtok
 keywords: ["best coding classes in Gangtok", "coding for kids in Gangtok", "coding for teens in Gangtok", "programming classes Gangtok", "coding institute Gangtok", "online coding classes Gangtok", "coding classes near me Gangtok", "Scratch programming Gangtok", "Python for kids Gangtok", "web development Gangtok", "best coding institute in Gangtok", "Sikkim Board coding class Gangtok"]
 source: src/pages/best-coding-class-in-gangtok.html
 ---

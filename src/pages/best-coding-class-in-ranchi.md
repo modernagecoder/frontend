@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Ranchi | Modern Age Coders"
 description: "Live online coding & maths classes in Ranchi for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-ranchi
+canonical: https://learn.modernagecoders.com/best-coding-class-in-ranchi
 keywords: ["best coding classes in Ranchi", "coding for kids in Ranchi", "coding for teens in Ranchi", "programming classes Ranchi", "coding institute Ranchi", "online coding classes Ranchi", "coding classes near me Ranchi", "Scratch programming Ranchi", "Python for kids Ranchi", "web development Ranchi", "best coding institute in Ranchi", "Jharkhand Board coding class Ranchi"]
 source: src/pages/best-coding-class-in-ranchi.html
 ---

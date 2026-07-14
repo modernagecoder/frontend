@@ -1,7 +1,7 @@
 ---
 title: "Best Coding Classes in Shimla | Modern Age Coders"
 description: "Live online coding & maths classes in Shimla for kids, teens & adults. Python, AI, Java, Web Dev. Rated 4.9/5. Book free demo!"
-canonical: /best-coding-class-in-shimla
+canonical: https://learn.modernagecoders.com/best-coding-class-in-shimla
 keywords: ["best coding classes in Shimla", "coding for kids in Shimla", "coding for teens in Shimla", "programming classes Shimla", "coding institute Shimla", "online coding classes Shimla", "coding classes near me Shimla", "Scratch programming Shimla", "Python for kids Shimla", "web development Shimla", "best coding institute in Shimla", "HP Board coding class Shimla"]
 source: src/pages/best-coding-class-in-shimla.html
 ---
