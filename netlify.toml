@@ -4496,6 +4496,12 @@
 
 # Course static assets (CSS, JS, images)
 [[redirects]]
+  from = "/content/courses/generated/kids-ai-mastery-course/*"
+  to = "/content/courses/generated/teens-ai-tools-mastery-course/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/content/courses/generated/*"
   to = "/content/courses/generated/:splat"
   status = 200

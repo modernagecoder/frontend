@@ -644,6 +644,9 @@
 /courses/mathematics/* /src/pages/course.html 200
 
 # Course static assets
+# The .md twin lives under /content/..., so the /courses/<slug>/* splat below misses it.
+# Must precede the passthrough on the next line: first match wins.
+/content/courses/generated/kids-ai-mastery-course/* /content/courses/generated/teens-ai-tools-mastery-course/:splat 301!
 /content/courses/generated/* /content/courses/generated/:splat 200
 
 # 301 Redirects for retired/changed course slugs (must come BEFORE catch-all)
