@@ -109,8 +109,7 @@
       "tools_covered": [
         "ChatGPT web interface",
         "ChatGPT mobile app",
-        "Microsoft Copilot",
-        "Google Gemini introduction"
+        "Microsoft Copilot"
       ],
       "projects": [
         "Interview ChatGPT about its capabilities",
@@ -139,7 +138,6 @@
       ],
       "tools_covered": [
         "ChatGPT advanced features",
-        "Claude.ai introduction",
         "Perplexity AI for research",
         "Prompt libraries exploration"
       ],
@@ -208,10 +206,7 @@
         "Planning AI art projects"
       ],
       "tools_covered": [
-        "DALL-E 3 introduction",
-        "Bing Image Creator (free)",
-        "Craiyon (formerly DALL-E mini)",
-        "NightCafe Creator basics"
+        "Bing Image Creator (free)"
       ],
       "projects": [
         "First AI artwork collection",
@@ -223,9 +218,9 @@
       "practice": "Describe your dream bedroom in words, generate an image from the description and circle two details the AI got right."
     },
     "week_6": {
-      "title": "DALL-E and Bing Image Creator Mastery",
+      "title": "AI Image Generation Mastery",
       "topics": [
-        "DALL-E interface deep dive",
+        "Image generator interface deep dive",
         "Crafting detailed image prompts",
         "Style modifiers: cartoon, realistic, abstract",
         "Artist styles (ethically)",
@@ -239,7 +234,6 @@
         "Saving and organizing AI art"
       ],
       "tools_covered": [
-        "DALL-E 3 advanced features",
         "Bing Image Creator full guide",
         "Microsoft Designer integration",
         "Canva AI image tools"
@@ -276,9 +270,7 @@
       ],
       "tools_covered": [
         "Midjourney",
-        "Leonardo.ai",
-        "Stable Diffusion online",
-        "Lexica.art for inspiration"
+        "Leonardo.ai"
       ],
       "projects": [
         "Create brand mascot variations",
@@ -346,7 +338,6 @@
       ],
       "tools_covered": [
         "Soundraw",
-        "AIVA",
         "Chrome Music Lab"
       ],
       "projects": [
@@ -476,7 +467,6 @@
       "tools_covered": [
         "Khan Academy's Khanmigo",
         "Wolfram Alpha",
-        "Quillbot",
         "Duolingo AI",
         "Brainly"
       ],
@@ -608,9 +598,7 @@
       ],
       "tools_covered": [
         "Replit AI",
-        "CodePen AI features",
-        "Programming Helper",
-        "AI Code Mentor"
+        "CodePen AI features"
       ],
       "projects": [
         "Build first website with AI help",
@@ -709,7 +697,6 @@
         "Promethean AI",
         "Roblox AI features",
         "Unity ML-Agents basics",
-        "Artbreeder for characters",
         "GPT for game dialogue",
         "Rosebud.ai"
       ],
@@ -947,28 +934,16 @@
   "ai_tools_masterlist": {
     "text_ai": [
       "ChatGPT",
-      "Claude (Anthropic)",
-      "Google Gemini",
       "Microsoft Copilot",
-      "Perplexity AI",
-      "You.com",
-      "Poe by Quora",
-      "Pi by Inflection"
+      "Perplexity AI"
     ],
     "image_ai": [
-      "DALL-E 3",
       "Midjourney",
-      "Stable Diffusion",
       "Bing Image Creator",
-      "Leonardo.ai",
-      "NightCafe",
-      "Craiyon",
-      "Deep Dream Generator",
-      "Artbreeder"
+      "Leonardo.ai"
     ],
     "music_ai": [
       "Soundraw",
-      "AIVA",
       "Suno AI",
       "Boomy"
     ],
@@ -978,14 +953,11 @@
     ],
     "coding_ai": [
       "Replit AI",
-      "AI Code Mentor",
-      "Programming Helper",
       "GitHub Copilot"
     ],
     "learning_ai": [
       "Khan Academy Khanmigo",
       "Duolingo Max",
-      "Quillbot",
       "Wolfram Alpha",
       "Elicit",
       "Photomath",
@@ -1263,8 +1235,8 @@
     ],
     "total_projects_built": "50+ AI-powered creative projects + Grand Capstone",
     "skills_mastered": [
-      "AI Chat: ChatGPT, Google Gemini, Claude - prompt engineering and conversation design",
-      "AI Art: DALL-E, Midjourney, Bing Image Creator, AI photo editing",
+      "AI Chat: ChatGPT and Perplexity - prompt engineering and conversation design",
+      "AI Art: Midjourney, Bing Image Creator, Leonardo.ai, AI photo editing",
       "AI Music & Audio: AI music generation, voice tools, audio creation",
       "AI Video: AI video generation, animation, motion graphics",
       "AI Productivity: study assistants, research tools, writing helpers",
