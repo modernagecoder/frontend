@@ -236,5 +236,276 @@
     },
     "_excluded": "IIT KHARAGPUR IS NOT IN KOLKATA (~120km away) - never named. The 460-vs-418 figures are CISCE vs CBSE ONLY: the same notification's WBBSE figure (740) counts UNAIDED schools only and must never be compared against the other two. No Kolkata city-level school count exists in the source, so none is claimed; aggregator ICSE counts (353/375) conflict and were discarded. The ISC-Java syllabus is CISCE-wide/national - it is distinctive for Kolkata only IN COMBINATION with the state's atypical ICSE density, and the copy says exactly that rather than implying a Kolkata-only syllabus. IIEST 'second-oldest engineering college' dropped (its own site says second, Wikipedia says third). Salt Lake Sector V dropped: an IT hub is not city-unique and the '430 acres' figure is Wikipedia-only. ISI's live history page 500s and Calcutta University blocks fetching, so both are cited to Wayback snapshots of the institutions' OWN pages, opened and read.",
     "_note": "Dropped a drafted line placing the child 'about seven kilometres from where the country learned to': the classes are online from the child's home, which can be anywhere in Kolkata, so the distance was both unverifiable and incoherent."
+  },
+  "patna": {
+    "lede": "Patna has taught engineering since 1886, when what is now NIT Patna opened as the Bihar School of Engineering &mdash; and Patna College goes back to 1863, before the university that was later built on it. One thing surprises parents: Bihar runs no state engineering entrance at all. UGEAC fills the seats in the state&#x27;s government engineering colleges on JEE Main rank. BCECE, the exam everyone assumes is the engineering route, now covers pharmacy, medical and agriculture.",
+    "faqs": [
+      {
+        "q": "Which entrance exam does a Bihar student need for engineering?",
+        "a": "JEE Main. Bihar does not run a separate state engineering entrance: UGEAC, conducted by BCECEB, allots seats in the state&#x27;s government engineering colleges on JEE Main rank, and B.Arch uses JEE Main plus NATA. BCECE itself now covers pharmacy, medical and agriculture, not engineering &mdash; a distinction a lot of sites still get wrong."
+      },
+      {
+        "q": "Can IIT Patna or NIT Patna students join your programming courses?",
+        "a": "Yes, and one practical note: IIT Patna&#x27;s campus is at Bihta, about 40 km out, while NIT Patna sits on Ashok Rajpath in the city. Since our classes are live online, neither commute matters. The college track is Python, Java, full-stack or AI/ML built into something that actually runs."
+      }
+    ],
+    "_sources": {
+      "NIT Patna 1886 as Bihar School of Engineering": "https://www.nitp.ac.in/",
+      "IIT Patna 2008, campus at Bihta ~40km from the city": "https://www.iitp.ac.in/about",
+      "Patna University 1917, built on Patna College (1863)": "https://pup.ac.in/History.aspx",
+      "UGEAC fills Bihar govt engineering seats on JEE Main; BCECE = pharmacy/medical/agriculture": "https://bceceboard.bihar.gov.in/",
+      "BSEB": "https://biharboardonline.com/"
+    },
+    "_excluded": "BCECE IS NOT BIHAR'S ENGINEERING ENTRANCE - the BCECEB portal states UGEAC runs on JEE Main. Most sites get this wrong. Super 30 omitted from the copy: super30.org confirms the 30-student intake and the free coaching/lodging/food, but not the 2002 founding or Anand Kumar's name, which are Wikipedia-only. No JEE candidate-count statistics for Bihar - no official state-wise breakdown was verifiable."
+  },
+  "kochi": {
+    "lede": "Kerala reads. At the 2011 Census the state recorded 93.91 per cent literacy against a national figure around 73 &mdash; the highest of any Indian state, on the State Planning Board&#x27;s own numbers. Kochi turned that into an industry: Infopark opened in 2004 and now runs to 323 acres and 9.2 million square feet, with more than 580 companies and over 70,000 IT professionals. CUSAT has been here since 1971. The route in is KEAM, through the state&#x27;s centralised allotment.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Kerala state board students in Kochi?",
+        "a": "Yes. Kerala splits its state board in two &mdash; Pareeksha Bhavan runs the SSLC for Class 10, and the Directorate of Higher Secondary Education runs Plus One and Plus Two separately &mdash; and CBSE and ICSE schools operate here as well. Our classes are built to work beside any of them."
+      },
+      {
+        "q": "Can CUSAT or Model Engineering College students join your programming courses?",
+        "a": "Yes. Infopark is on the doorstep with 580-odd companies in it, which is exactly why a portfolio matters more here than a transcript. The college track is project work: Python, Java, full-stack or AI/ML, carried through to something you can deploy and link to."
+      }
+    ],
+    "_sources": {
+      "Kerala 93.91% literacy, Census 2011 (Kerala State Planning Board Economic Review)": "https://spb.kerala.gov.in/economic-review/ER2017/web_e/ch11.php?id=1&ch=11",
+      "Infopark 2004, 323 acres, 9.2M sqft, 582+ companies, 70,000+ professionals": "https://infopark.in/about/overview",
+      "Kerala DHSE (Classes 11-12) separate from SSLC": "https://education.kerala.gov.in/dhse-2/",
+      "KEAM / Commissioner for Entrance Examinations": "https://cee.kerala.gov.in/"
+    },
+    "_excluded": "REFUSED: 'Kerala declared fully literate in 2024'. Under ULLAS/NILP the bar is 95% adult literacy, Mizoram was declared before Kerala, and Kerala had not been declared under that framework. The widely-quoted 96.2% is a different survey, not the Census. Only the Census 2011 figure (93.91%) is used, attributed to the State Planning Board. CUSAT 1971 and MEC 1989 are second-source (cusat.ac.in TLS-failed, ihrd.ac.in 403) so no founding year is asserted for MEC. Several Kochi schools assumed to be ICSE are actually CBSE (Choice School, Toc H, Delta Study)."
+  },
+  "visakhapatnam": {
+    "lede": "Andhra University has taught here since 1926, and the Eastern Naval Command runs the Indian Navy&#x27;s eastern seaboard from this city. Vizag also sits on the far side of a split most families still trip over: Andhra Pradesh and Telangana have run separate examination boards since 2014, so a Vizag student sits the SSC under the Board of Secondary Education Andhra Pradesh, with Intermediate under a different body again. The engineering route is AP EAPCET, or JEE Main.",
+    "faqs": [
+      {
+        "q": "Which board and entrance exam apply to a Visakhapatnam student?",
+        "a": "Andhra Pradesh ones, not Telangana&#x27;s. Since the 2014 bifurcation the two states run separate examination bodies: Vizag students sit the Class 10 SSC under BSEAP and Classes 11-12 Intermediate under BIEAP. For engineering the route is AP EAPCET, conducted by JNTU Kakinada for APSCHE, or JEE Main for the national institutes."
+      },
+      {
+        "q": "Can Andhra University or GITAM students join your programming courses?",
+        "a": "Yes. Andhra University&#x27;s engineering college has been running since the 1950s and IIM Visakhapatnam arrived in 2015, so the theory is well covered locally. The college track adds the part that is not: Python, Java, full-stack or AI/ML written until it deploys."
+      }
+    ],
+    "_sources": {
+      "Andhra University 1926": "https://www.andhrauniversity.edu.in/",
+      "IIM Visakhapatnam 2015": "https://www.iimv.ac.in/about-iimv/about-iimv1",
+      "Eastern Naval Command HQ at Visakhapatnam": "https://indiannavy.gov.in/content/flag-officer-commanding-chief-eastern-naval-command",
+      "BSEAP (SSC Class 10)": "https://bse.ap.gov.in/",
+      "AP EAPCET via APSCHE": "https://cets.apsche.ap.gov.in/EAPCET/EAPCET/EAPCET_HomePage.aspx"
+    },
+    "_excluded": "AUCE 1955 and GITAM 1980 are second-source (gitam.edu 403s; AU's own page lists the engineering college without a year), so the copy says 'since the 1950s' rather than asserting 1955. AUCE's 'first Indian Chemical Engineering department' claim dropped - uncited even on Wikipedia."
+  },
+  "surat": {
+    "lede": "Surat cuts and polishes 42 per cent of the world&#x27;s rough diamonds &mdash; the city government&#x27;s own figure, not the inflated one that circulates &mdash; and makes 40 per cent of India&#x27;s man-made fabric. It is a city that builds things at scale, and it has trained the engineers to do it since 1961, when SVNIT opened. For your child the route runs through GUJCET, where the merit list is half board marks in Maths, Physics and Chemistry and half the entrance percentile.",
+    "faqs": [
+      {
+        "q": "How much do Gujarat board marks count for engineering admission?",
+        "a": "Half of it. ACPC builds the merit list from 50 per cent board theory percentile in Maths, Physics and Chemistry and 50 per cent GUJCET percentile, for 95 per cent of seats in government and grant-in-aid institutions. Several coaching sites report a 60:40 split; the official ACPC admission programme says 50:50."
+      },
+      {
+        "q": "Can SVNIT or VNSGU students join your programming courses?",
+        "a": "Yes. SVNIT has been an engineering school since 1961 and Veer Narmad South Gujarat University covers seven districts from its Surat campus. Neither of them ships you a portfolio at graduation. That is the college track: Python, Java, full-stack or AI/ML, built until it runs."
+      }
+    ],
+    "_sources": {
+      "Surat = 42% of world rough diamond cutting/polishing, 40% of nation's man-made fabric (Surat Municipal Corporation)": "https://www.suratmunicipal.gov.in/TheCity/Contribution",
+      "SVNIT 1961 (as SVRCET)": "https://www.svnit.ac.in/web/about-us.php",
+      "VNSGU 1965, 210-acre Surat campus, seven districts": "https://vnsguadm.samarth.edu.in/",
+      "ACPC 50:50 board PCM percentile + GUJCET percentile (official 2026-27 PDF)": "https://cdnbbsr.s3waas.gov.in/s35938b4d054136e5d59ada6ec9c295d7a/uploads/2026/04/202604011111330009.pdf"
+    },
+    "_excluded": "REFUSED: the famous '90% of the world's diamonds'. Surat Municipal Corporation's OWN Contribution page says 42% of world rough cutting/polishing (70% of the nation's). The 90% figure is everywhere in secondary press with no primary backing. Also refused: the 60:40 ACPC weightage reported by aggregators - the official PDF says 50:50. SMC does not date its figures, so they are undated official claims."
+  },
+  "vadodara": {
+    "lede": "Vadodara has been teaching technology since 1890, when Maharaja Sayajirao Gaekwad III started the Kala Bhavan Technical Institute &mdash; an idea first floated at a prize-giving at Baroda College in 1886. It became MSU&#x27;s Faculty of Technology and Engineering in 1949. The city stayed an engineering town: the district administration reckons over 35 per cent of India&#x27;s power transmission and distribution equipment makers are here, with some 800 ancillaries around them. The route in is GUJCET and ACPC.",
+    "faqs": [
+      {
+        "q": "Do you offer coding classes for GSEB students in Vadodara?",
+        "a": "Yes. Vadodara runs GSEB, CBSE, IB and Cambridge IGCSE across its schools, and our classes work alongside whichever your child attends. What we teach is the programming itself &mdash; Python, Java, web development &mdash; rather than a second pass over the school computer paper."
+      },
+      {
+        "q": "Can MSU Baroda students join your programming courses?",
+        "a": "Yes. MSU&#x27;s Faculty of Technology has roots going back to Kala Bhavan in 1890, which is a long lineage and still not a portfolio. The college track is where the projects come from: Python, Java, full-stack or AI/ML, built to the point of being usable."
+      }
+    ],
+    "_sources": {
+      "Kala Bhavan Technical Institute June 1890, conceived Aug 1886; MSU Faculty of Technology 1949 (Vadodara Collectorate, .gov.in)": "https://vadodara.gujarat.gov.in/tourist/faculty-of-technology-and-engineering-msu-kalabhavan",
+      "Vadodara: 35%+ of India's power T&D equipment makers, ~800 ancillaries (district admin, .nic.in)": "https://vadodara.nic.in/economy/",
+      "Navrachana University 2009": "https://nuv.ac.in/aboutus/",
+      "ACPC / GUJCET": "https://gujacpc.admissions.nic.in/home-8/be-b-tech/"
+    },
+    "_excluded": "MSU's 1949/1881 founding is Wikipedia-only (msubaroda.ac.in TLS-failed), so the copy leans on the Kala Bhavan dates, which come from an official .gov.in page. REFUSED: 'MSU is the only university in Gujarat with English medium' - not confirmed. Parul University omitted: its main campus is in Waghodia taluka, Vadodara DISTRICT, not the city."
+  },
+  "noida": {
+    "lede": "The board that lets anyone in India finish school from anywhere is headquartered in Noida: the National Institute of Open Schooling has run from Sector 62 since 1989. Sector 16-A holds Film City, roughly 100 acres and 16 studios, from which the government&#x27;s own directory counts 350 channels broadcasting to 162 countries. Noida is in Uttar Pradesh, so the state board is UPMSP &mdash; not Haryana&#x27;s, whatever the NCR postcode suggests. The routes onward are JEE Main and CUET-UG.",
+    "faqs": [
+      {
+        "q": "Is Noida under the UP board or a Delhi board?",
+        "a": "Uttar Pradesh. Noida sits in Gautam Buddha Nagar district, so the state board is UPMSP, the same one that examines Lucknow and Kanpur &mdash; not a Delhi board and not Haryana&#x27;s, despite Noida and Gurgaon both being NCR. In practice most Noida schools are CBSE, and ICSE, IB and Cambridge IGCSE schools operate here too."
+      },
+      {
+        "q": "Can Amity or JIIT students join your programming courses?",
+        "a": "Yes. JIIT sits in Sector 62 and Amity has been a Noida university since 2005. The college track is for the gap neither closes on its own: Python, Java, full-stack or AI/ML built into a project you can hand someone."
+      }
+    ],
+    "_sources": {
+      "NIOS HQ A-24/25 Sector 62 Noida, est 1989": "https://rcdelhi.nios.ac.in/at-a-glance.html",
+      "Noida Film City Sector 16-A, ~100 acres, 16 studios, 350 channels to 162 countries (Govt of India film directory)": "https://indiacinehub.gov.in/production-directory/film-cities/noida-film-city",
+      "Amity University UP, 2005 (UP Act 11 of 2005)": "https://en.wikipedia.org/wiki/Amity_University,_Noida",
+      "JIIT 2001, Sector 62": "https://en.wikipedia.org/wiki/Jaypee_Institute_of_Information_Technology",
+      "Noida is in Gautam Buddha Nagar district, UP": "https://gbnagar.nic.in/about-district/"
+    },
+    "_excluded": "REFUSED: NTA (which runs JEE/NEET/CUET) headquartered in Noida - would have been a perfect hook, but sources conflict; Wikipedia puts its HQ in Okhla, New Delhi, and the Sector 62 address appears to be an IITK Outreach Centre. Greater Noida institutions (Shiv Nadar, Sharda, Bennett, GBU) excluded - different urban centre. No board-share percentage: no source quantifies CBSE share in Noida. Amity campus size omitted (aggregators say 1,300 acres, Wikipedia says 60)."
+  },
+  "gurgaon": {
+    "lede": "Gurgaon is in Haryana, so its state board is BSEH at Bhiwani &mdash; a different state and a different board from Noida&#x27;s, whatever the shared NCR postcode suggests. The city grew up around Maruti Suzuki in the early 1980s and kept going: the district administration calls the Gurugram-Manesar-Bawal stretch the auto hub of the country, and DLF Cyber City packs roughly 15 million square feet of offices into about 125 acres, much of it Global Capability Centres. MDI has been here since 1973.",
+    "faqs": [
+      {
+        "q": "Which school board applies in Gurgaon, and does it differ from Noida?",
+        "a": "It differs, and the confusion is common. Gurgaon is in Haryana, so the state board is the Board of School Education Haryana at Bhiwani. Noida is in Uttar Pradesh under UPMSP. Both sit in the NCR and both are heavily CBSE in practice, with ICSE, IB and Cambridge IGCSE schools present, but the state machinery behind them is not the same."
+      },
+      {
+        "q": "Can Gurugram University or MDI students join your programming courses?",
+        "a": "Yes. Cyber City is full of Global Capability Centres hiring engineers a few kilometres away, and they interview on what you have built. The college track exists for that: Python, Java, full-stack or AI/ML, taken as far as a working deployment."
+      }
+    ],
+    "_sources": {
+      "BSEH / Board of School Education Haryana, Bhiwani": "https://bseh.org.in/",
+      "DLF Cyber City ~125 acres, ~15M sqft, Fortune 500 / GCCs": "https://www.dlf.in/offices/gurugram/dlfcybercity",
+      "Gurugram-Manesar-Bawal auto hub; Maruti Suzuki early 1980s (district admin, .gov.in)": "https://gurugram.gov.in/about-district/",
+      "MDI Gurgaon 1973": "https://en.wikipedia.org/wiki/Management_Development_Institute",
+      "Gurugram University 2017": "https://gurugramuniversity.ac.in/"
+    },
+    "_excluded": "FLAGGED AND NOT USED: gurugram.gov.in claims the city has 'the 3rd highest per capita income in India'. It is on an official page but carries no date, citation or dataset, and it is exactly the kind of stat that propagates unchecked. No board-share percentage: the two CBSE counts found (156 vs 117 for the same district) came from aggregators and contradicted each other."
+  },
+  "nagpur": {
+    "lede": "Nagpur has taught at university level since 1923, when RTMNU opened with six affiliated colleges and 927 students, and VNIT has trained engineers here since 1960. The city is Maharashtra&#x27;s second capital by agreement rather than accident: the Nagpur Pact of 1953 guarantees it a High Court bench and a full legislature session every year. The Zero Mile Stone downtown was a Great Trigonometrical Survey reference point from 1907. The routes onward are MHT-CET and JEE Main.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Maharashtra board students in Nagpur?",
+        "a": "Yes. Nagpur has its own divisional board under MSBSHSE, covering Nagpur, Bhandara, Chandrapur, Wardha, Gadchiroli and Gondia, and CBSE and ICSE schools run here too. Our classes sit beside whichever your child attends rather than repeating it back to them."
+      },
+      {
+        "q": "Can VNIT or RTMNU students join your programming courses?",
+        "a": "Yes. VNIT admits on JEE Main and RTMNU has been running since 1923, so the credential side is handled. What the college track adds is evidence: Python, Java, full-stack or AI/ML built into something a recruiter can open."
+      }
+    ],
+    "_sources": {
+      "RTMNU 4 Aug 1923, six colleges, 927 students": "https://www.nagpuruntimeversity.ac.in/",
+      "VNIT June 1960 (as VRCE)": "https://vnit.ac.in/history/",
+      "Nagpur Pact 1953 - High Court bench + annual legislature session": "https://en.wikipedia.org/wiki/Nagpur_Pact",
+      "Zero Mile Stone 1907, Great Trigonometrical Survey reference point": "https://en.wikipedia.org/wiki/Zero_Mile_Stone_(Nagpur)",
+      "MSBSHSE Nagpur Divisional Board (1966)": "https://www.msbshse.org/index_nagpur.html"
+    },
+    "_excluded": "The Zero Mile Stone is described as a SURVEY REFERENCE POINT, not as 'the geographic centre of India'. That claim is contested - two Madhya Pradesh villages (Karaundi, Barsali) also claim it, and the source only supports Nagpur sitting at the centre of nine major metros. Do not let a copy pass sharpen this back into the punchier false version. IIM Nagpur 2015 is Wikipedia-only (its site is JS-rendered)."
+  },
+  "thane": {
+    "lede": "India&#x27;s first passenger train ended its journey in Thane. On 16 April 1853 the Great Indian Peninsula Railway ran 21 miles from Bori Bunder with 14 carriages and about 400 passengers aboard, and the country has not stopped building since. Thane is its own city with its own municipal corporation, not a suburb of Mumbai, though for schooling it falls under MSBSHSE&#x27;s Mumbai divisional board. Vidya Prasarak Mandal has run schools and colleges here since 1935.",
+    "faqs": [
+      {
+        "q": "Does Thane have its own school board?",
+        "a": "No, and it is worth knowing. Thane is its own city with its own municipal corporation, but for schooling it sits under the Mumbai divisional board of MSBSHSE, which covers Mumbai, Thane and Raigad. CBSE and ICSE schools operate here as well. Our classes work alongside any of them."
+      },
+      {
+        "q": "Do you teach coding to students in Thane, or only Mumbai?",
+        "a": "Thane directly. Every class is live online, which matters more here than in most places: Thane has no IIT or NIT of its own, and the alternative to online has historically been a commute into Mumbai. Your child learns from home, in a batch of five to eight, with the same mentors."
+      }
+    ],
+    "_sources": {
+      "First passenger train: Bori Bunder to Thane, 16 April 1853, 21 miles, 14 carriages, ~400 passengers": "https://en.wikipedia.org/wiki/Great_Indian_Peninsula_Railway",
+      "Thane: own municipal corporation, district HQ, part of MMR but distinct from Mumbai": "https://en.wikipedia.org/wiki/Thane",
+      "MSBSHSE Mumbai Divisional Board (1985) covers Mumbai, Thane, Raigad": "https://www.msbshse.org/index_mumbai.html",
+      "Vidya Prasarak Mandal, Thane, 1935": "https://www.joshibedekar.org/history.html"
+    },
+    "_excluded": "GEOGRAPHY: IIT Bombay and ICT are in MUMBAI, not Thane, and are excluded. Thane genuinely has no IIT/IIM/NIT/AIIMS - the copy says so rather than implying otherwise. Thane does NOT have its own board (Mumbai divisional board covers it) - a page claiming one would be wrong. Joshi-Bedekar's 'first institution of higher learning in Thane' is the college's own self-description, so it is not asserted."
+  },
+  "bhopal": {
+    "lede": "Bhopal quietly collected the whole set. MANIT has taught engineering here since 1960, IISER Bhopal does basic science at Bhauri, NLIU was the second national law school in the country, and SPA Bhopal is one of only three Schools of Planning and Architecture in India. The state board, MPBSE, is headquartered here too, at Shivaji Nagar. Madhya Pradesh runs no engineering entrance of its own: the route is JEE Main.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to MP Board students in Bhopal?",
+        "a": "Yes. MPBSE is headquartered in Bhopal itself, at Shivaji Nagar, and CBSE and ICSE schools run across the city alongside it. Our classes are board-agnostic by design: your child learns Python or Java properly and the school paper looks after itself."
+      },
+      {
+        "q": "Can MANIT or IISER Bhopal students join your programming courses?",
+        "a": "Yes. MANIT admits on JEE Main and IISER on the science route, and both teach fundamentals thoroughly. The college track covers the applied half: Python, Java, full-stack or AI/ML, written until it deploys and can be shown."
+      }
+    ],
+    "_sources": {
+      "MPBSE, Shivaji Nagar Bhopal": "https://www.mpbse.nic.in/",
+      "MANIT 1960 (as Maulana Azad College of Technology)": "https://en.wikipedia.org/wiki/Maulana_Azad_National_Institute_of_Technology,_Bhopal",
+      "IISER Bhopal 2008, Bhauri": "https://en.wikipedia.org/wiki/Indian_Institute_of_Science_Education_and_Research,_Bhopal",
+      "NLIU 1997, second national law school": "https://en.wikipedia.org/wiki/National_Law_Institute_University",
+      "SPA Bhopal 2008, one of only three SPAs in India": "https://spabhopal.ac.in/"
+    },
+    "_excluded": "MHT-CET IS A MAHARASHTRA EXAM and must never be presented as a Bhopal route. An earlier draft named it in order to rule it out; cut, because it answers a question no MP parent asks. MANIT/IISER/NLIU/IIIT Bhopal years are Wikipedia-sourced (official sites JS-rendered or blocked); only SPA Bhopal's 2008 is from its own site. The claim that MP scrapped MP-PET in 2013 for JEE Main is omitted - search-summary only - so the copy says only that no state entrance exists, which the JEE-Main-only route shows."
+  },
+  "ghaziabad": {
+    "lede": "Ghaziabad has been the gateway into Uttar Pradesh since long before the expressway &mdash; the district administration still uses the phrase, and the place was founded in 1740 as Ghaziuddinnagar, 19 km east of Delhi. It is now on the Namo Bharat corridor, 82 km of 160 kmph track through some of the densest population in the NCR. IMT has taught management here since 1980. For engineering, seats at the AKTU-affiliated colleges are filled on JEE Main through UPTAC counselling.",
+    "faqs": [
+      {
+        "q": "Which board and entrance route apply in Ghaziabad?",
+        "a": "Ghaziabad is in Uttar Pradesh, so the state board is UPMSP, and CBSE lists Ghaziabad by name under its Noida regional office. For engineering there is no separate UP entrance any more: seats at AKTU-affiliated colleges are allotted on JEE Main rank through UPTAC counselling, run out of Lucknow."
+      },
+      {
+        "q": "Can KIET or AKGEC students join your programming courses?",
+        "a": "Yes. KIET was conferred Deemed-to-be-University status in November 2025, and AKGEC sits on the Delhi-Meerut Expressway. Neither degree arrives with a portfolio attached. The college track is Python, Java, full-stack or AI/ML, built until it runs and can be linked to."
+      }
+    ],
+    "_sources": {
+      "Ghaziabad: district status 14 Nov 1976, 'Gateway of UP', 19km east of Delhi, founded 1740 as Ghaziuddinnagar": "https://ghaziabad.nic.in/about-district/",
+      "Namo Bharat RRTS: 82km corridor, 160 kmph, densest NCR section": "https://ncrtc.in/details/",
+      "KIET: Deemed-to-be-University under Section 3 UGC Act, Nov 2025": "https://www.old.kiet.edu/overview",
+      "AKGEC 1998, Delhi-Meerut Expressway": "https://www.akgec.ac.in/about/",
+      "IMT Ghaziabad 1980": "https://www.imt.edu/about-imt/",
+      "UPTAC allots on JEE Main": "https://uptac.samarth.edu.in/"
+    },
+    "_excluded": "KIET IS NO LONGER AN AKTU-AFFILIATED COLLEGE - it became a Deemed-to-be-University in Nov 2025, so calling it an affiliated engineering college is now wrong. ABES Engineering College omitted: aggregator-only. ICSE/CISCE presence not verified, so not claimed."
+  },
+  "ludhiana": {
+    "lede": "The Green Revolution has an address, and it is in this city. Punjab Agricultural University, running since 1962, describes itself as the mother of the green revolution in India &mdash; the place the crop varieties came from. Punjab&#x27;s first engineering college is here too: GNDEC, whose foundation stone was laid in 1956 by Rajendra Prasad, India&#x27;s first President. The state government&#x27;s own district portal calls Ludhiana the Industrial Capital of Punjab. Engineering seats run on JEE Main through IKGPTU counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to PSEB students in Ludhiana?",
+        "a": "Yes. The Punjab School Education Board has run the state&#x27;s schools since 1969 from Mohali, and CBSE schools operate across Ludhiana alongside it. Our classes are live online and work beside either &mdash; we teach the programming, not a second pass at the school syllabus."
+      },
+      {
+        "q": "Can PAU or GNDEC students join your programming courses?",
+        "a": "Yes. GNDEC was Punjab&#x27;s first engineering college and has been autonomous since 2012; PAU runs its own entrance for the agriculture and biotech routes. Software is where both increasingly lead, and the college track is the practical half: Python, Java, full-stack or AI/ML, built until it works."
+      }
+    ],
+    "_sources": {
+      "PAU: 'pioneered the green revolution in India in 1960s... mother of green revolution in India' (PAU's own site)": "https://pau.edu/index.php?DO=firstLink&_act=manageLink&intSubID=27",
+      "GNDEC: foundation stone 8 Apr 1956 by Dr Rajendra Prasad; first engineering college of Punjab; autonomous 2012": "https://www.gndec.ac.in/?q=node/10",
+      "PSEB est. Nov 1969, Mohali": "https://www.pseb.ac.in/",
+      "Ludhiana = 'The Industrial Capital of Punjab' (Punjab govt district portal)": "https://ludhiana.nic.in/",
+      "IKGPTU centralised counselling, B.Tech on JEE Main basis": "https://ptu.ac.in/admissions/"
+    },
+    "_excluded": "REFUSED: every 'Ludhiana makes X% of India's bicycles / woollen knitwear' figure - sources ranged 50% to 92% with no official backing. The government's own 'Industrial Capital of Punjab' framing is used instead. PAU's 1962 is the weakest fact in the set (pau.edu 403s, history pages dead; corroborated by Wikipedia + PAU's live '64th Year' banner) - no inauguration date is published, as sources conflict (8 Jul 1962 vs 8 Aug 1963). The Green Revolution wording IS from pau.edu itself."
+  },
+  "coimbatore": {
+    "lede": "Coimbatore builds engineers the way it builds everything else &mdash; at volume. Anna University&#x27;s own registry lists 80 affiliated institutions in this district alone, and the city has taught engineering since 1945, when what is now GCT opened as the Arthur Hope College of Technology. PSG Tech put its campus deliberately alongside a working industrial institute in 1951. The district calls itself the Manchester of South India, with more than 25,000 industries. And Tamil Nadu asks for no engineering entrance exam at all.",
+    "faqs": [
+      {
+        "q": "Does a Coimbatore student need an entrance exam for engineering?",
+        "a": "Not for the state route. TNEA is run by the Directorate of Technical Education as a fully online counselling process &mdash; registration, certificate verification, rank list, choice filling, allotment &mdash; with no examination stage anywhere in it. Amrita runs its own AEEE, and JEE Main covers the national institutes, but the Tamil Nadu route itself has no entrance test."
+      },
+      {
+        "q": "Can PSG Tech, CIT or Amrita students join your programming courses?",
+        "a": "Yes. With 80 affiliated institutions in the district, a Coimbatore degree competes against a lot of identical Coimbatore degrees. What separates them is built work, which is what the college track is for: Python, Java, full-stack or AI/ML, carried to something that runs."
+      }
+    ],
+    "_sources": {
+      "Anna University CAI registry: 80 affiliated institutions in Coimbatore district": "https://www.annauniv.edu/cai/District%20wise/district/Coimbatore.php",
+      "GCT: started July 1945 as Arthur Hope College of Technology": "https://gct.ac.in/about-institute",
+      "PSG College of Technology 1951, sited with the PSG Industrial Institute for industry-institute interaction": "https://www.psgtech.edu/",
+      "Coimbatore: 'Manchester of South India', 25,000+ industries (district admin)": "https://coimbatore.nic.in/en/about-district/",
+      "TNEA: online counselling, no entrance exam stage (official portal)": "https://www.tneaonline.org/",
+      "Amrita AEEE or JEE Main": "https://aeee.amrita.edu/"
+    },
+    "_excluded": "REFUSED: the famous TNEA cutoff formula (Maths + Physics/2 + Chemistry/2 out of 200) - it appears ONLY on coaching/aggregator sites and no official DoTE or Anna University page could be opened to confirm it. '80' is phrased as 'affiliated institutions', NOT 'engineering colleges': the registry rows include architecture and standalone management institutes. ICSE/CISCE presence not verified, so not claimed."
   }
 }
