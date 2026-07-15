@@ -6,7 +6,7 @@ source: src/pages/index2.html
 ---
 > Online coding and maths classes for ages 6-65 — learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!
 
-Live online classes · ages 6 to 65 · 15+ countries · rated 4.9/5
+Live online classes · ages 6 to 65 · 25+ countries · rated 4.9/5
 
 # Maths Code Made for Each Other.
 
@@ -16,7 +16,7 @@ Live, expert-led coding & maths classes for ages 6 to 65 — small batches, real
 
 Free 45-minute class — no credit card, no commitment. Pick a time that suits you.
 
-**4.9/5** from 247+ parents**10,000+** students taught · 15+ countries[or browse all courses](/courses)
+**4.9/5** from 247+ parents**10,000+** students taught · 25+ countries[or browse all courses](/courses)
 
 S = ∑i=1n i
 
@@ -50,7 +50,7 @@ The world's first of its kind
 
 ## Why Coding Maths Together?
 
-Most platforms teach coding OR maths. Modern Age Coders is the world's first platform that combines coding and maths, because every algorithm needs mathematical thinking and every equation clicks better when you can code it. Students from 15+ countries across Asia, the Middle East, Europe, and North America already learn with us. No matter where you are, we bring world-class education to your screen.
+Most platforms teach coding OR maths. Modern Age Coders is the world's first platform that combines coding and maths, because every algorithm needs mathematical thinking and every equation clicks better when you can code it. Students from 25+ countries across Asia, the Middle East, Europe, and North America already learn with us. No matter where you are, we bring world-class education to your screen.
 
 Coding tracks
 

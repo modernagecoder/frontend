@@ -1,16 +1,16 @@
 ---
 title: "Python for Kids & Teens | Learn Python & AI Online | Modern Age Coders"
-description: "Python for kids aged 10-18. Learn Python programming through fun projects like games, chatbots, and web apps. Live 1-on-1 classes with expert instructors. Students from 15+ countries. Book a free demo!"
+description: "Python for kids aged 10-18. Learn Python programming through fun projects like games, chatbots, and web apps. Live 1-on-1 classes with expert instructors. Students from 25+ countries. Book a free demo!"
 canonical: https://learn.modernagecoders.com/python-and-ai-classes-for-kids-teens
 source: src/pages/python-and-ai-classes-for-kids-teens.html
 ---
-> Python for kids aged 10-18. Learn Python programming through fun projects like games, chatbots, and web apps. Live 1-on-1 classes with expert instructors. Students from 15+ countries. Book a free demo!
+> Python for kids aged 10-18. Learn Python programming through fun projects like games, chatbots, and web apps. Live 1-on-1 classes with expert instructors. Students from 25+ countries. Book a free demo!
 
 World's Most Loved Python & AI Program for Kids & Teens
 
 # Python for Kids & Teens — Learn to Code with the World's #1 Language
 
-Python for kids is the best way to transition from visual block coding like Scratch to real text-based programming. Our Python course for kids teaches through hands-on projects your child will love, from building games and chatbots to creating web apps and AI models. Students from 15+ countries learn with us in live 1-on-1 sessions.
+Python for kids is the best way to transition from visual block coding like Scratch to real text-based programming. Our Python course for kids teaches through hands-on projects your child will love, from building games and chatbots to creating web apps and AI models. Students from 25+ countries learn with us in live 1-on-1 sessions.
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in Python and AI classes for my child)1500+ Students EnrolledRated 4.9/5 by Parents100% Live Online ClassesBatches: 5-8 Students OnlyFree Demo Class
 

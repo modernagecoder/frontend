@@ -1,10 +1,10 @@
 ---
 title: "Coding for Teenagers Ages 13-18 | Python, React, AI & Web Dev | Modern Age Coders"
-description: "Top-rated online coding courses for teenagers ages 13-18. Learn Python, JavaScript, React, AI/ML, Full Stack Development & more. Live 1-on-1 classes, students from 15+ countries. Learn web development as a teenager. Book a FREE demo today!"
+description: "Top-rated online coding courses for teenagers ages 13-18. Learn Python, JavaScript, React, AI/ML, Full Stack Development & more. Live 1-on-1 classes, students from 25+ countries. Learn web development as a teenager. Book a FREE demo today!"
 canonical: https://learn.modernagecoders.com/levels/coding-for-teens
 source: src/pages/category/teens.html
 ---
-> Top-rated online coding courses for teenagers ages 13-18. Learn Python, JavaScript, React, AI/ML, Full Stack Development & more. Live 1-on-1 classes, students from 15+ countries. Learn web development as a teenager. Book a FREE demo today!
+> Top-rated online coding courses for teenagers ages 13-18. Learn Python, JavaScript, React, AI/ML, Full Stack Development & more. Live 1-on-1 classes, students from 25+ countries. Learn web development as a teenager. Book a FREE demo today!
 
 1. [Home](/)
 2. /

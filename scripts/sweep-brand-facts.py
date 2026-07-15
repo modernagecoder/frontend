@@ -58,6 +58,8 @@ BARE = STUDENTS.rstrip("+")           # "10,000"
 REVIEWS = FACTS["reviews"]
 RATING = FACTS["rating"]
 FOUNDED = FACTS["founded"]
+COUNTRIES = FACTS["countries"]        # "25+"
+CBARE = COUNTRIES.rstrip("+")         # "25"
 
 pages = sorted(
     list((ROOT / "src" / "pages").glob("*.html"))
@@ -91,6 +93,17 @@ STAT_TEXT = re.compile(
     re.I,
 )
 
+# --- countries -------------------------------------------------------------
+# Owner set 25+ on 2026-07-15. Only OUR numbers are listed here. The site also
+# carries 134 (Don Bosco's religious order), 90+ (the IOI), 60+ (Bebras) and 95
+# (Math Kangaroo) — third parties whose counts are none of our business. Naming
+# 15/30/11 explicitly rather than matching \d+ is what keeps them safe.
+COUNTRY_OUT = r"(?<![\d,])(?:15|30|11)"
+COUNTRY_SPLIT = re.compile(
+    r"(<(?P<t>b|strong|span|div)(?:\s[^>]*)?>)\s*" + COUNTRY_OUT + r"\+\s*"
+    r"(</(?P=t)>\s*(?:countries|Countries)\b)",
+)
+
 RULES = [
     # --- student counts that are unambiguously ours -> canonical ----------
     # Must name the verb. This used to be a bare "<OUTLIER>+ Students" with a (?!\s+per)
@@ -115,6 +128,14 @@ RULES = [
      f"Rated {RATING} across {REVIEWS} Google reviews", "FALSE: 4.9 is from reviews, not students"),
     (r"[Rr]ated\s+4\.9\s+out\s+of\s+5\s+from\s+247\+?\s+reviews",
      f"Rated {RATING} across {REVIEWS} Google reviews", "wrong review count"),
+    # --- country count, ours only (25|30|11 named; third parties untouched) --
+    # "over 15 countries" first: it carries its own qualifier, so "over 25+" would
+    # read as two hedges stacked. Order matters — the generic rule below would
+    # otherwise reach it first.
+    (r"\bover\s+15\s+countries\b", f"over {CBARE} countries", "countries: keep the 'over' qualifier"),
+    (r"\b[Ee]leven\s+countries\b", f"{COUNTRIES} countries", "countries (spelled out)"),
+    (COUNTRY_SPLIT, rf"\g<1>{COUNTRIES}\g<3>", "countries (number and label in separate elements)"),
+    (rf"{COUNTRY_OUT}\s*\+?\s+(countries|Countries)\b", rf"{COUNTRIES} \1", "country count -> canonical"),
     # --- founding year, ours only (phrase-anchored) -----------------------
     (r"\btaught\s+online\s+since\s+2021\b", f"taught online since {FOUNDED}", "founding drift"),
     (r"\btaught\s+live\s+since\s+2021\b", f"taught live since {FOUNDED}", "founding drift"),

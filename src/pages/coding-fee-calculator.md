@@ -12,7 +12,7 @@ Honest pricing · instant quote
 
 Use this calculator to get a real Modern Age Coders fee in 30 seconds. We will not gate the number behind a callback. We will not pretend the price changes if you wait. Pick your child's age, the language, the intensity and the country. You will see exactly what it costs — and which scholarship you may already qualify for.
 
-Used by 10,000+ familiesLive in 11 countriesNo hidden fees, ever
+Used by 10,000+ familiesLive in 25+ countriesNo hidden fees, ever
 
 ## Build your quote
 

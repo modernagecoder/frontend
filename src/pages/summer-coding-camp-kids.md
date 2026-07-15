@@ -1,10 +1,10 @@
 ---
 title: "Summer Coding Camp for Kids 2026 - Ages 6-12 | Online Live Classes | Modern Age Coders"
-description: "Enroll in the best summer coding camp for kids in 2026. 2-week and 4-week programs for ages 6-12. Learn Scratch, Python, Game Design in live online classes. Students from 15+ countries. Limited seats!"
+description: "Enroll in the best summer coding camp for kids in 2026. 2-week and 4-week programs for ages 6-12. Learn Scratch, Python, Game Design in live online classes. Students from 25+ countries. Limited seats!"
 canonical: https://learn.modernagecoders.com/summer-coding-camp-kids
 source: src/pages/summer-coding-camp-kids.html
 ---
-> Enroll in the best summer coding camp for kids in 2026. 2-week and 4-week programs for ages 6-12. Learn Scratch, Python, Game Design in live online classes. Students from 15+ countries. Limited seats!
+> Enroll in the best summer coding camp for kids in 2026. 2-week and 4-week programs for ages 6-12. Learn Scratch, Python, Game Design in live online classes. Students from 25+ countries. Limited seats!
 
 Investment
 

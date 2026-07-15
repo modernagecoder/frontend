@@ -1,12 +1,12 @@
 ---
 title: "Best Coding Classes for Kids in India and Worldwide | Online & Live | Modern Age Coders"
-description: "Compare the best coding classes for kids in India and worldwide. Live 1-on-1 sessions, Scratch, Python, AI courses. Expert teachers, rated 4.9/5 by parents. Students from 15+ countries. Book a free demo!"
+description: "Compare the best coding classes for kids in India and worldwide. Live 1-on-1 sessions, Scratch, Python, AI courses. Expert teachers, rated 4.9/5 by parents. Students from 25+ countries. Book a free demo!"
 canonical: https://learn.modernagecoders.com/best-coding-classes-online
 source: src/pages/best-coding-classes-online.html
 ---
-> Compare the best coding classes for kids in India and worldwide. Live 1-on-1 sessions, Scratch, Python, AI courses. Expert teachers, rated 4.9/5 by parents. Students from 15+ countries. Book a free demo!
+> Compare the best coding classes for kids in India and worldwide. Live 1-on-1 sessions, Scratch, Python, AI courses. Expert teachers, rated 4.9/5 by parents. Students from 25+ countries. Book a free demo!
 
-Trusted by Students from 15+ Countries
+Trusted by Students from 25+ Countries
 
 # Best Coding Classes for Kids in India & Worldwide (2026)
 
@@ -409,7 +409,7 @@ Countries Represented
 
 Parents across India and worldwide choose Modern Age Coders because we combine everything a child needs to succeed in tech under one platform. Unlike other coding institutes that only teach Scratch or only focus on one age group, we offer a complete learning journey from age 6 to 65 covering Scratch, Python, JavaScript, AI, Web Development, and even Mathematics.
 
-Our classes are 100% live with expert instructors, not pre-recorded videos or student tutors. Every student gets personalized attention in small batches of 5-6 or dedicated 1-on-1 sessions. We are the world's first platform that integrates coding and maths education because every algorithm needs mathematical thinking. With students from 15+ countries and pricing starting at just ₹1,499/month, we make quality tech education accessible to everyone.
+Our classes are 100% live with expert instructors, not pre-recorded videos or student tutors. Every student gets personalized attention in small batches of 5-6 or dedicated 1-on-1 sessions. We are the world's first platform that integrates coding and maths education because every algorithm needs mathematical thinking. With students from 25+ countries and pricing starting at just ₹1,499/month, we make quality tech education accessible to everyone.
 
 ## How We Compare to Other Coding Platforms
 

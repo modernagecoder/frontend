@@ -1,10 +1,10 @@
 ---
 title: "Master AI, ML, Python & Java — Go Deeper | Modern Age Coders"
-description: "Master Python, Java, AI and machine learning the deep way. Modern Age Coders runs live, small-batch tracks that build real engineering ability — from Python internals and the maths behind ML to Java systems, DSA and production AI. Ages 13 to 65, 15+ countries. Browse the tracks. Free demo."
+description: "Master Python, Java, AI and machine learning the deep way. Modern Age Coders runs live, small-batch tracks that build real engineering ability — from Python internals and the maths behind ML to Java systems, DSA and production AI. Ages 13 to 65, 25+ countries. Browse the tracks. Free demo."
 canonical: https://learn.modernagecoders.com/master-ai-ml-python-java
 source: src/pages/master-ai-ml-python-java.html
 ---
-> Master Python, Java, AI and machine learning the deep way. Modern Age Coders runs live, small-batch tracks that build real engineering ability — from Python internals and the maths behind ML to Java systems, DSA and production AI. Ages 13 to 65, 15+ countries. Browse the tracks. Free demo.
+> Master Python, Java, AI and machine learning the deep way. Modern Age Coders runs live, small-batch tracks that build real engineering ability — from Python internals and the maths behind ML to Java systems, DSA and production AI. Ages 13 to 65, 25+ countries. Browse the tracks. Free demo.
 
 Mastery tracks / Est. depth
 
@@ -170,7 +170,7 @@ These deep tracks are built for serious teens, college students and working prof
 
 ### Global classroom
 
-Students from 15+ countries learn with us. Because every class is live and batch-scheduled, we match you to a slot that fits your time zone, wherever you are.
+Students from 25+ countries learn with us. Because every class is live and batch-scheduled, we match you to a slot that fits your time zone, wherever you are.
 
 Section 05 / Questions
 

@@ -1,10 +1,10 @@
 ---
 title: "Online Coding Classes for Kids Ages 6-12 | Scratch, Python & Game Dev | Modern Age Coders"
-description: "Top-rated online coding classes for kids ages 6-12. Learn Scratch, Python, Web Development, Game Design & AI with fun live 1-on-1 sessions. Students from 15+ countries. 500+ kids enrolled. Book a FREE demo class today!"
+description: "Top-rated online coding classes for kids ages 6-12. Learn Scratch, Python, Web Development, Game Design & AI with fun live 1-on-1 sessions. Students from 25+ countries. 500+ kids enrolled. Book a FREE demo class today!"
 canonical: https://learn.modernagecoders.com/levels/coding-for-kids
 source: src/pages/category/kids.html
 ---
-> Top-rated online coding classes for kids ages 6-12. Learn Scratch, Python, Web Development, Game Design & AI with fun live 1-on-1 sessions. Students from 15+ countries. 500+ kids enrolled. Book a FREE demo class today!
+> Top-rated online coding classes for kids ages 6-12. Learn Scratch, Python, Web Development, Game Design & AI with fun live 1-on-1 sessions. Students from 25+ countries. 500+ kids enrolled. Book a FREE demo class today!
 
 1. [Home](/)
 2. /
@@ -16,7 +16,7 @@ source: src/pages/category/kids.html
 
 # Online Coding Classes for Kids Ages 6-12
 
-Our online coding classes for kids introduce children aged 6 to 12 to the world of programming through Scratch, Python, JavaScript, HTML, CSS, and AI tools. With live 1-on-1 sessions, project-based learning, and experienced instructors, your child builds real coding skills from home. They will create games, apps, websites, animations, and AI projects while developing lifelong logical thinking and problem-solving skills. No experience needed. Students from 15+ countries, certificates included.
+Our online coding classes for kids introduce children aged 6 to 12 to the world of programming through Scratch, Python, JavaScript, HTML, CSS, and AI tools. With live 1-on-1 sessions, project-based learning, and experienced instructors, your child builds real coding skills from home. They will create games, apps, websites, animations, and AI projects while developing lifelong logical thinking and problem-solving skills. No experience needed. Students from 25+ countries, certificates included.
 
 **10+**Courses**10,000+**Students**4.9★**Rating[Book Free Demo Class →](/contact)[View All Courses](/courses)
 

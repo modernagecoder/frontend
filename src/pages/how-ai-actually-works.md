@@ -164,7 +164,7 @@ Pro · weekly live[College / Adult · AI / ML AI & ML *Complete* The flagship en
 
 ## If you read this page and want a *human* to suggest the right course — we have one for you.
 
-Modern Age Coders has been teaching live online since 2020. 10,000+ families in eleven countries. Real teachers, small cohorts, no recorded-video nonsense. Tell us who is learning and we will write back within twenty-four hours with the cohort that fits.
+Modern Age Coders has been teaching live online since 2020. 10,000+ families in 25+ countries. Real teachers, small cohorts, no recorded-video nonsense. Tell us who is learning and we will write back within twenty-four hours with the cohort that fits.
 
 Questions readers ask after finishing this article
 

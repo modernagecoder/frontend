@@ -12,7 +12,7 @@ Stage 1 of 3 — Python from the roots
 
 A complete, in-depth Python course that does not stop at the basics. You learn **every fundamental for real understanding**, then the **standard-library modules most courses never open**, and you finish with a genuine **first taste of AI**. Live, small-batch, instructor-led — built for Grade 6 learners through working professionals.
 
-[Book a free demo](/book-demo)See the full path>>> **10,000+** students>>> **15+** countries>>> **70+** live courses>>> **4.9/5** from 247+ reviews
+[Book a free demo](/book-demo)See the full path>>> **10,000+** students>>> **25+** countries>>> **70+** live courses>>> **4.9/5** from 247+ reviews
 
 ## The full path, end to end
 

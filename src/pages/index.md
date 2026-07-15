@@ -12,7 +12,7 @@ Coding + Maths · Ages 6–65 · Live 1-on-1
 
 We don't just teach coding and maths. We teach you how to think, build, and solve problems that actually matter. Just real skills that work in the real world at any age, any stage.
 
-[Book a Free Demo](/book-demo)[View Courses →](/courses)★ **4.9****547** reviews**15+** countriessince **2020**
+[Book a Free Demo](/book-demo)[View Courses →](/courses)★ **4.9****547** reviews**25+** countriessince **2020**
 
 make.js// where logic meets imaginationfunctionlearn(you) {const skill = code + maths;return you.build(skill);}learn(you); // real-world ready
 
@@ -34,7 +34,7 @@ codingmaths
 
 ## Why Coding + Maths Together?
 
-Most platforms teach coding OR maths. Modern Age Coders is the world's first platform that combines coding and maths, because every algorithm needs mathematical thinking and every equation clicks better when you can code it. Students from 15+ countries across Asia, the Middle East, Europe, and North America already learn with us. No matter where you are, we bring world-class education to your screen.
+Most platforms teach coding OR maths. Modern Age Coders is the world's first platform that combines coding and maths, because every algorithm needs mathematical thinking and every equation clicks better when you can code it. Students from 25+ countries across Asia, the Middle East, Europe, and North America already learn with us. No matter where you are, we bring world-class education to your screen.
 
 ## Coding Curriculum
 

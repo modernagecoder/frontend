@@ -1,10 +1,10 @@
 ---
 title: "AI Classes for Kids (Ages 6-12) - Fun, Live, Project-Based | Modern Age Coders"
-description: "Live, small-batch AI classes for kids aged 6 to 12. Your child builds real AI projects - chatbots, smart games and image creators - with patient mentors, in a safe and fun way. Trusted by 10,000+ families across 15+ countries. Book a free trial class."
+description: "Live, small-batch AI classes for kids aged 6 to 12. Your child builds real AI projects - chatbots, smart games and image creators - with patient mentors, in a safe and fun way. Trusted by 10,000+ families across 25+ countries. Book a free trial class."
 canonical: https://learn.modernagecoders.com/ai-classes-for-kids
 source: src/pages/ai-classes-for-kids.html
 ---
-> Live, small-batch AI classes for kids aged 6 to 12. Your child builds real AI projects - chatbots, smart games and image creators - with patient mentors, in a safe and fun way. Trusted by 10,000+ families across 15+ countries. Book a free trial class.
+> Live, small-batch AI classes for kids aged 6 to 12. Your child builds real AI projects - chatbots, smart games and image creators - with patient mentors, in a safe and fun way. Trusted by 10,000+ families across 25+ countries. Book a free trial class.
 
 Live AI classes for kids, ages 6 to 12
 

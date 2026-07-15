@@ -198,7 +198,7 @@ With real coding skills and a live portfolio, you can apply for tech internships
 
 #### Global Peer Network
 
-Connect with ambitious peers from 30+ countries. Friendships built on shared projects — a network that outlasts the camp.
+Connect with ambitious peers from 25+ countries. Friendships built on shared projects — a network that outlasts the camp.
 
 #### Startup Potential
 
@@ -222,7 +222,7 @@ Each session is 90 minutes — long enough for meaningful learning but short eno
 
 #### I'm in the US/UK/UAE — can I join?
 
-Absolutely! We have students from 30+ countries. International students pay $60 (USD). We schedule batches across time zones — contact us to find a batch that fits your schedule.
+Absolutely! We have students from 25+ countries. International students pay $60 (USD). We schedule batches across time zones — contact us to find a batch that fits your schedule.
 
 #### Can I use these skills for college or career?
 

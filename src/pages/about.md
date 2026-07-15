@@ -206,7 +206,7 @@ Yes! Apart from education, we build custom software, websites, mobile apps, and 
 
 Modern Age Coders is the world's first platform offering integrated maths and coding online. We believe coding without maths is incomplete, and maths without coding is abstract. Together, they create powerful thinkers.
 
-When a learner picks up Python alongside algebra, they see variables come alive. When they build a game using geometry, triangles stop being textbook diagrams. This is the philosophy behind every course we offer, from age 6 to 65, across 15+ countries.
+When a learner picks up Python alongside algebra, they see variables come alive. When they build a game using geometry, triangles stop being textbook diagrams. This is the philosophy behind every course we offer, from age 6 to 65, across 25+ countries.
 
 Maths + Code for Ages 6 to 65. That is what we do. And we do it better than anyone.
 

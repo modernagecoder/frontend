@@ -1,10 +1,10 @@
 ---
 title: "AI & ML Course for Kids & Teens — Learn Artificial Intelligence | Modern Age Coders"
-description: "AI and ML course designed for kids aged 10+ and teens. Learn machine learning, build AI projects, and understand how ChatGPT works. Live classes with expert mentors from 15+ countries. Book a free demo!"
+description: "AI and ML course designed for kids aged 10+ and teens. Learn machine learning, build AI projects, and understand how ChatGPT works. Live classes with expert mentors from 25+ countries. Book a free demo!"
 canonical: https://learn.modernagecoders.com/ai-ml-course-for-teens
 source: src/pages/ai-ml-course-for-teens.html
 ---
-> AI and ML course designed for kids aged 10+ and teens. Learn machine learning, build AI projects, and understand how ChatGPT works. Live classes with expert mentors from 15+ countries. Book a free demo!
+> AI and ML course designed for kids aged 10+ and teens. Learn machine learning, build AI projects, and understand how ChatGPT works. Live classes with expert mentors from 25+ countries. Book a free demo!
 
 India's #1 Rated AI & ML Course for Teens
 
@@ -426,7 +426,7 @@ The course starts with Python basics (since Python is the language behind most A
 - ✓ Data collection, cleaning, and visualization basics
 - ✓ Ethical AI and responsible technology use
 
-Our AI ML course for kids is available as both group classes and personalized 1-on-1 sessions. Students from 15+ countries join our AI program, and classes are scheduled flexibly across time zones. Whether your child is in India, the US, UK, or UAE, they can learn AI with expert mentors who make complex topics simple and fun.
+Our AI ML course for kids is available as both group classes and personalized 1-on-1 sessions. Students from 25+ countries join our AI program, and classes are scheduled flexibly across time zones. Whether your child is in India, the US, UK, or UAE, they can learn AI with expert mentors who make complex topics simple and fun.
 
 [![Modern Age Coders](/images/logo.svg)Modern Age Coders](/)
 

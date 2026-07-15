@@ -10,7 +10,7 @@ source: src/pages/winter-coding-camp.html
 
 Winter break is the hidden superpower. When school stops, curious minds accelerate. No distractions, no exams — just pure, focused time to master skills that shape the future. Students from every corner of the world join us to build, learn, and launch.
 
-No School Distractions3-Week Intensive5 Deployable ProjectsStudents from 30+ CountriesAdmissions Open — Winter 2026
+No School Distractions3-Week Intensive5 Deployable ProjectsStudents from 25+ CountriesAdmissions Open — Winter 2026
 
 # Code the Future
 
@@ -90,7 +90,7 @@ PythonGlobal Community
 
 Our online classes are designed for students across time zones. Join from India, the US, the UK, UAE, Australia, Canada, or anywhere else — all you need is a laptop and Wi-Fi.
 
-#### 30+ Countries
+#### 25+ Countries
 
 Students from India, US, UK, UAE, Canada, Australia, Singapore, and more join our batches every term.
 

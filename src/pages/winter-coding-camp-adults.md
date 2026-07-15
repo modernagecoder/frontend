@@ -219,7 +219,7 @@ Absolutely. We schedule evening and weekend batches specifically for working pro
 
 #### I'm outside India — can I join?
 
-Yes! We have learners from 30+ countries. International participants pay $60 USD. Contact us to find a time-zone-friendly batch. All sessions are 100% online via Zoom.
+Yes! We have learners from 25+ countries. International participants pay $60 USD. Contact us to find a time-zone-friendly batch. All sessions are 100% online via Zoom.
 
 #### Will 16 sessions really be enough to get a job?
 

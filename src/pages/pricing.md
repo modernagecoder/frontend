@@ -1,10 +1,10 @@
 ---
 title: "Affordable Coding Classes in India: Plans Starting Rs 1,499/month | Modern Age Coders"
-description: "Affordable coding classes in India starting at just Rs 1,499/month. Live 1-on-1 sessions, expert instructors, no hidden fees. Compare our pricing with competitors. Students from 15+ countries. Cancel anytime."
+description: "Affordable coding classes in India starting at just Rs 1,499/month. Live 1-on-1 sessions, expert instructors, no hidden fees. Compare our pricing with competitors. Students from 25+ countries. Cancel anytime."
 canonical: https://learn.modernagecoders.com/pricing
 source: src/pages/pricing.html
 ---
-> Affordable coding classes in India starting at just Rs 1,499/month. Live 1-on-1 sessions, expert instructors, no hidden fees. Compare our pricing with competitors. Students from 15+ countries. Cancel anytime.
+> Affordable coding classes in India starting at just Rs 1,499/month. Live 1-on-1 sessions, expert instructors, no hidden fees. Compare our pricing with competitors. Students from 25+ countries. Cancel anytime.
 
 # Affordable Coding & Maths Classes: Transparent Pricing
 
@@ -272,7 +272,7 @@ Affordable coding classes in India without compromising on quality.
 | Coding + Maths | Both Integrated | Coding Only | Maths Only | Maths Only |
 | Live Classes | 100% Live | Live | Mostly Recorded | Live |
 | Contracts | None. Cancel anytime | 6-12 month packs | Long-term lock-in | Varies |
-| Global Access | 15+ Countries | India focused | India focused | India focused |
+| Global Access | 25+ Countries | India focused | India focused | India focused |
 
 No long-term contracts. No hidden fees. Cancel anytime.
 

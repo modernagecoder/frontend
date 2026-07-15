@@ -18,7 +18,7 @@ Variables & Data TypesFunctionsOOPLibrariesFile HandlingAPIs
 
 #### Learn Python for Beginners at Modern Age Coders
 
-Ready to learn Python? Our beginner-friendly Python course takes you from zero to building real projects in 60 days. Whether you are a kid starting your first text-based language, a teen preparing for competitive programming, a college student diving into data science, or a working professional switching careers, Python is the perfect first language. Live 1-on-1 sessions with expert instructors, project-based curriculum, and students from 15+ countries.
+Ready to learn Python? Our beginner-friendly Python course takes you from zero to building real projects in 60 days. Whether you are a kid starting your first text-based language, a teen preparing for competitive programming, a college student diving into data science, or a working professional switching careers, Python is the perfect first language. Live 1-on-1 sessions with expert instructors, project-based curriculum, and students from 25+ countries.
 
 [Start Learning Python →](https://learn.modernagecoders.com/book-demo/)
 

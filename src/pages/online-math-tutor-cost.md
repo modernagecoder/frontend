@@ -66,7 +66,7 @@ Full disclosure: this is us
 
 ## Where Modern Age Coders lands, and why
 
-We are a live online school teaching maths and coding to students in 15+ countries. Our maths classes are one full hour, deep and interactive, twice a week, taught by a dedicated mentor. Not recordings, not worksheets, not a learning floor.
+We are a live online school teaching maths and coding to students in 25+ countries. Our maths classes are one full hour, deep and interactive, twice a week, taught by a dedicated mentor. Not recordings, not worksheets, not a learning floor.
 
 ### Our published maths pricing
 

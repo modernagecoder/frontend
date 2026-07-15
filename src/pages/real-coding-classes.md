@@ -1,10 +1,10 @@
 ---
 title: "Real Coding Classes — Learn How Code Actually Works, How to Think Like a Programmer & Build Real AI/ML Models | Modern Age Coders"
-description: "Live online coding classes with real depth and applied knowledge: learn how code actually works under the hood, how to think like a programmer, how to solve coding problems, and how to build real AI/ML models — Python internals, the maths behind machine learning, DSA, C++, Java & full-stack. Small batches, expert mentors, ages 13–65, 15+ countries. Rated 4.9/5. Free demo."
+description: "Live online coding classes with real depth and applied knowledge: learn how code actually works under the hood, how to think like a programmer, how to solve coding problems, and how to build real AI/ML models — Python internals, the maths behind machine learning, DSA, C++, Java & full-stack. Small batches, expert mentors, ages 13–65, 25+ countries. Rated 4.9/5. Free demo."
 canonical: https://learn.modernagecoders.com/real-coding-classes
 source: src/pages/real-coding-classes.html
 ---
-> Live online coding classes with real depth and applied knowledge: learn how code actually works under the hood, how to think like a programmer, how to solve coding problems, and how to build real AI/ML models — Python internals, the maths behind machine learning, DSA, C++, Java & full-stack. Small batches, expert mentors, ages 13–65, 15+ countries. Rated 4.9/5. Free demo.
+> Live online coding classes with real depth and applied knowledge: learn how code actually works under the hood, how to think like a programmer, how to solve coding problems, and how to build real AI/ML models — Python internals, the maths behind machine learning, DSA, C++, Java & full-stack. Small batches, expert mentors, ages 13–65, 25+ countries. Rated 4.9/5. Free demo.
 
 The depth-first coding school
 
@@ -14,7 +14,7 @@ Most courses teach you to *type* code. We teach you **how code actually works, h
 
 Book a free demo classSee how deep we go ↓
 
-★★★★★ **4.9/5** from 247+ reviews **10,000+** students taught **15+** countries **70+** live courses
+★★★★★ **4.9/5** from 247+ reviews **10,000+** students taught **25+** countries **70+** live courses
 
 week-11/pipelines.py
 
@@ -468,7 +468,7 @@ Pricing is fully transparent: Group classes (up to 10 students) are ₹1,499 per
 
 Do you teach students outside India? What about time zones?
 
-Yes — students from 15+ countries learn with us, including the United States, United Kingdom, UAE, Singapore, Australia and Canada. Because every class is live and scheduled per batch, we match you to a batch (or 1-on-1 slot) that fits your time zone.
+Yes — students from 25+ countries learn with us, including the United States, United Kingdom, UAE, Singapore, Australia and Canada. Because every class is live and scheduled per batch, we match you to a batch (or 1-on-1 slot) that fits your time zone.
 
 Can a complete beginner join, or is this only for advanced students?
 

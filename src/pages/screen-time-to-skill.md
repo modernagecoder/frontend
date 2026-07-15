@@ -1,10 +1,10 @@
 ---
 title: "Screen Time to Skill Calculator — Turn Your Child's YouTube Hours into Apps, Code & Income | Modern Age Coders"
-description: "A free, parent-honest calculator that converts the hours your child spends on YouTube, mobile games and Instagram into the apps, Python projects and real income they could be building instead. Used by 18,000+ Indian families. Live in 11 countries."
+description: "A free, parent-honest calculator that converts the hours your child spends on YouTube, mobile games and Instagram into the apps, Python projects and real income they could be building instead. Used by 18,000+ Indian families. Live in 25+ countries."
 canonical: https://learn.modernagecoders.com/screen-time-to-skill
 source: src/pages/screen-time-to-skill.html
 ---
-> A free, parent-honest calculator that converts the hours your child spends on YouTube, mobile games and Instagram into the apps, Python projects and real income they could be building instead. Used by 18,000+ Indian families. Live in 11 countries.
+> A free, parent-honest calculator that converts the hours your child spends on YouTube, mobile games and Instagram into the apps, Python projects and real income they could be building instead. Used by 18,000+ Indian families. Live in 25+ countries.
 
 An honest calculator for parents
 
@@ -126,7 +126,7 @@ It is designed for parents of children aged 6 to 18. The reading mix is age-adju
 
 Do you have classes outside India?
 
-Yes. Modern Age Coders teaches live online in 11 countries. Class timings are scheduled in the parent's local time zone. Country-specific information lives on our pages for [the United States](/coding-classes-in-united-states), [the United Kingdom](/coding-classes-in-united-kingdom), [Canada](/coding-classes-in-canada), [the UAE](/coding-classes-in-uae), [Singapore](/coding-classes-in-singapore), [Australia](/coding-classes-in-australia), [Germany](/coding-classes-in-germany), [Sweden](/coding-classes-in-sweden), [Switzerland](/coding-classes-in-switzerland), [Ireland](/coding-classes-in-ireland) and [New Zealand](/coding-classes-in-new-zealand).
+Yes. Modern Age Coders teaches live online in 25+ countries. Class timings are scheduled in the parent's local time zone. Country-specific information lives on our pages for [the United States](/coding-classes-in-united-states), [the United Kingdom](/coding-classes-in-united-kingdom), [Canada](/coding-classes-in-canada), [the UAE](/coding-classes-in-uae), [Singapore](/coding-classes-in-singapore), [Australia](/coding-classes-in-australia), [Germany](/coding-classes-in-germany), [Sweden](/coding-classes-in-sweden), [Switzerland](/coding-classes-in-switzerland), [Ireland](/coding-classes-in-ireland) and [New Zealand](/coding-classes-in-new-zealand).
 
 Is this a guilt-trip page disguised as a calculator?
 
