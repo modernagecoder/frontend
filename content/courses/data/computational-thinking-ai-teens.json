@@ -2,7 +2,7 @@
   "meta": {
     "slug": "cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843",
     "title": "CBSE Computational Thinking & AI for Teens (Class 9-12)",
-    "description": "CBSE-aligned Computational Thinking & AI for teens in Classes 9-12 (Code 417 & 843): Python, Machine Learning, Deep Learning and board practical mastery.",
+    "description": "CBSE Computational Thinking & AI for Classes 9-12: Python, Machine Learning and board practical mastery. Covers AI 417 (Class 10) and AI 843 (Classes 11-12).",
     "keywords": [
       "CBSE AI course class 9",
       "CBSE AI course class 10",
@@ -86,7 +86,7 @@
     "certification": "CBSE AI Code 417 & 843 Board Readiness Certification + Industry AI Developer Certification + Verifiable Project Portfolio",
     "image_path": "ct-ai-teens.webp",
     "boards_covered": [
-      "CBSE AI Code 417 (Class 9-10)",
+      "CBSE AI Code 417 (Class 10; discontinued for Class 9 from 2026-27)",
       "CBSE AI Code 843 (Class 11-12)",
       "NCERT Aligned",
       "ICSE / ISC compatible",
@@ -123,7 +123,7 @@
       "Preparation for India AI Olympiad, Intel AI Youth, Samsung Innovation Campus, MS Imagine Cup"
     ],
     "learning_path": {
-      "phase_1": "Foundation (Months 1-3): Employability Skills + CT + Python + AI Basics + CBSE Class 9 AI (417) syllabus",
+      "phase_1": "Foundation (Months 1-3): Employability Skills + CT + Python + AI Basics + the CBSE AI 417 syllabus",
       "phase_2": "AI Project Cycle Mastery (Months 4-6): Full CBSE AI Project Cycle + Data/CV/NLP domains + Class 10 AI (417) syllabus + Board prep",
       "phase_3": "Machine Learning & Class 11 AI (843) (Months 7-9): scikit-learn, pandas, ML algorithms, Data Visualization, Class 11 AI full syllabus",
       "phase_4": "Deep Learning + Class 12 AI (843) + Career Launch (Months 10-12): TensorFlow, CNN/RNN/Transformer, GenAI, Class 12 full syllabus, board + industry portfolio"
@@ -139,8 +139,8 @@
     ]
   },
   "phase_1_foundation": {
-    "title": "PHASE 1: CBSE Class 9 AI (Code 417) + Foundation (Months 1-3, Weeks 1-13)",
-    "description": "Complete mastery of CBSE Class 9 AI syllabus (Code 417) including Employability Skills, Introduction to AI, AI Project Cycle basics, Neural Networks introduction, and Python for AI. Every student builds a rock-solid foundation regardless of prior coding experience.",
+    "title": "PHASE 1: CBSE AI Foundation (Code 417 syllabus, Months 1-3, Weeks 1-13)",
+    "description": "Complete mastery of the CBSE AI 417 syllabus - Employability Skills, Introduction to AI, AI Project Cycle basics, Neural Networks and Python for AI. This is the Class 10 board syllabus, and the right foundation for a Class 9 student now that CBSE has discontinued AI 417 at Class 9. Every student builds a rock-solid foundation regardless of prior coding experience.",
     "month_1": {
       "title": "Month 1: Employability Skills + Introduction to AI (CBSE Unit 1-3)",
       "weeks": "Week 1-4",
@@ -462,7 +462,7 @@
           "Mock exam score report"
         ],
         "assessment": "CBSE AI 417 Board Readiness Certification",
-        "cbse_alignment": "100% Class 9 & Class 10 AI (417) board exam prep"
+        "cbse_alignment": "100% CBSE AI 417 syllabus coverage (Class 10 board exam; 417 discontinued for Class 9 from 2026-27)"
       }
     }
   },
@@ -1078,10 +1078,10 @@
   "cbse_alignment": {
     "title": "100% Aligned with CBSE AI Code 417 & 843 Syllabus",
     "description": "Every unit, chapter, and topic in the official CBSE AI curriculum is covered with greater depth than any school provides. Our board-exam results prove it.",
-    "code_417_class_9_10": {
+    "code_417_class_10": {
       "code": "417",
       "full_name": "Artificial Intelligence, Skill Subject",
-      "applicable_to": "Class 9 & Class 10",
+      "applicable_to": "Class 10 for session 2026-27. CBSE discontinued AI 417 for Class 9 from 2026-27 (Circular Acad-18/2026, 9 April 2026); Class 10 continues on the 2025-26 scheme.",
       "units_covered": [
         "Unit 1: Employability Skills, Communication, Self-Management, ICT, Entrepreneurial, Green Skills (100%)",
         "Unit 2: Introduction to AI (100%)",
@@ -1243,6 +1243,10 @@
     "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
+    {
+      "question": "Can my child take AI (Code 417) in Class 9?",
+      "answer": "Not from the 2026-27 session. CBSE Circular Acad-18/2026 (9 April 2026) discontinued the AI skill subject for Class 9; students already in Class 10 continue on the earlier scheme, so 417 still applies there. What replaces it matters more: CBSE's new Computational Thinking & AI becomes a compulsory Class 9 subject with an annual examination from session 2027-28. A child in Class 8 today sits it next year. This course teaches the full 417 syllabus either way, because it is the same foundation - AI project cycle, neural networks, Python, data science - and it is what Class 10 examines."
+    },
     {
       "question": "Is this course officially aligned with CBSE AI Code 417 and 843 syllabus?",
       "answer": "Yes, 100% alignment. Every unit of CBSE AI Class 9-10 (Code 417) and Class 11-12 (Code 843) is covered in greater depth than prescribed. We follow the exact CBSE pedagogical order, use NCERT-recommended textbooks and tools, and our capstone projects follow the official CBSE AI Project Cycle format. Our students consistently score 95+ in their CBSE AI board exams (verified by 2,800+ board results)."
