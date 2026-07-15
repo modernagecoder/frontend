@@ -246,7 +246,7 @@ International families pay flat USD rates — the prices above update automatica
 
 Not screenshots of a syllabus — real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![The Beautiful Mind](/images/projects/mindgame.webp) GameThe Beautiful MindA focus and brain-strength game with 15 progressive levels, real-time tracking and leaderboards. Built by Modern Age Coders · React, FirebaseOpen the live project ↗](https://mind.modernagecoders.com)[![Misti — AI Study Chatbot](/images/projects/misti.webp) AI & MLMisti — AI Study ChatbotAn AI chatbot that solves maths and coding questions with step-by-step explanations using Python and LLM APIs. Built by Harshit · Python, AI/ML, LLM APIsOpen the live project ↗](https://misti.modernagecoders.com)[![Babu — 90-Second Maths Challenge](/images/projects/babu.webp) GameBabu — 90-Second Maths ChallengeA fast maths challenge with random problems under time pressure and a live Firebase leaderboard. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[See more student projects →](/student-labs)
+[![Moxo — Company Landing Page](/images/projects/moxo.webp) Web AppMoxo — Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life. Built by Isha · JavaScript, GSAPOpen the live project ↗](https://moxo.modernagecoders.com)[![SkyCast — Weather Forecast App](/images/projects/skycast.webp) Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface. Built by Krish · JavaScript, APIOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp) Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline. Built by Tanish · JavaScript, MongoDBOpen the live project ↗](https://freshtrackpro.netlify.app/)[See more student projects →](/student-labs)
 
 ## What families say
 
@@ -254,41 +254,41 @@ Verified Google reviews from Modern Age Coders families across India. We don't i
 
 ★★★★★
 
-"My son looks forward to every class."
+"Mivaan enjoys the class."
 
-He has been attending for a few months and I'm genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable, and his confidence has grown.
+He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class.
 
-PRPoonam RathoreParent★★★★★
+SSShradha SarafParent of Mivaan★★★★★
 
-"The one-step solution for my son."
+"Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way."
 
-They make learning to code so simple that kids love it. Teachers explain complex concepts clearly with practical exercises, and the projects were challenging and rewarding.
-
-RMRia MukherjeeParent★★★★★
-
-"Mentors, not just teachers."
-
-The perks are excellent — one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
-
-KBKrishnam BhatterFormer student★★★★★
-
-"Clear, easy and practical."
-
-Wonderful teachers who boost students' confidence, keep them updated with technology, and inspire them to learn without hesitation.
+The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
 SGSonu GoyalParent★★★★★
 
-"A game-changer for me."
+"Coding classes here make learning very interesting and conceptual."
 
-I struggled to grasp coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease.
+The teachers teach us in a very easy-to-understand and efficient manner.
 
-SMSamridho MondalStudent★★★★★
+APArush PoddarStudent★★★★★
 
-"Maths finally made sense."
+"Modern Age Coders has been a game-changer for me!"
 
-My son struggled with maths for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended.
+I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease.
 
-SSShewta SinghMother of Ishan
+SMSamriddha MondalStudent★★★★★
+
+"The one step solution for my son."
+
+Modern Age Coders make learning coding so simple that kids love it. Teachers make it so simple with clear explanations, practical exercises, and interactive content. As per my son, the coding class is very helpful and engaging. Sir explains complex concepts clearly. The projects were challenging and rewarding.
+
+RMRia MukherjeeParent★★★★★
+
+"I'm truly grateful for my experience at Modern Age Coders!"
+
+The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.
+
+KBKrishnam BhatterFormer Student
 
 ## Book a free demo class in Akola
 

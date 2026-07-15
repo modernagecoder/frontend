@@ -246,7 +246,7 @@ International families pay flat USD rates — the prices above update automatica
 
 Not screenshots of a syllabus — real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![The Beautiful Mind](/images/projects/mindgame.webp) GameThe Beautiful MindA focus and brain-strength game with 15 progressive levels, real-time tracking and leaderboards. Built by Modern Age Coders · React, FirebaseOpen the live project ↗](https://mind.modernagecoders.com)[![Misti — AI Study Chatbot](/images/projects/misti.webp) AI & MLMisti — AI Study ChatbotAn AI chatbot that solves maths and coding questions with step-by-step explanations using Python and LLM APIs. Built by Harshit · Python, AI/ML, LLM APIsOpen the live project ↗](https://misti.modernagecoders.com)[![Babu — 90-Second Maths Challenge](/images/projects/babu.webp) GameBabu — 90-Second Maths ChallengeA fast maths challenge with random problems under time pressure and a live Firebase leaderboard. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[See more student projects →](/student-labs)
+[![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp) AI & MLHairSync — AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app. Built by Kriti · Vibe Coding, AI ImageOpen the live project ↗](https://hairsync.lovable.app)[![Image Slider Website](/images/projects/slider.webp) ToolImage Slider WebsiteA visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects. Built by Somraj · HTML, CSSOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![Babu — 90 Second Maths Challenge](/images/projects/babu.webp) GameBabu — 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[See more student projects →](/student-labs)
 
 ## What families say
 
@@ -254,41 +254,41 @@ Verified Google reviews from Modern Age Coders families across India. We don't i
 
 ★★★★★
 
-"My son looks forward to every class."
+"Coding classes here make learning very interesting and conceptual."
 
-He has been attending for a few months and I'm genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable, and his confidence has grown.
+The teachers teach us in a very easy-to-understand and efficient manner.
 
-PRPoonam RathoreParent★★★★★
+APArush PoddarStudent★★★★★
 
-"The one-step solution for my son."
+"Mivaan enjoys the class."
 
-They make learning to code so simple that kids love it. Teachers explain complex concepts clearly with practical exercises, and the projects were challenging and rewarding.
+He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class.
 
-RMRia MukherjeeParent★★★★★
+SSShradha SarafParent of Mivaan★★★★★
 
-"Mentors, not just teachers."
+"Modern Age Coders has been a game-changer for me!"
 
-The perks are excellent — one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
+I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease.
 
-KBKrishnam BhatterFormer student★★★★★
+SMSamriddha MondalStudent★★★★★
 
-"Clear, easy and practical."
+"I'm truly grateful for my experience at Modern Age Coders!"
 
-Wonderful teachers who boost students' confidence, keep them updated with technology, and inspire them to learn without hesitation.
+The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.
 
-SGSonu GoyalParent★★★★★
+KBKrishnam BhatterFormer Student★★★★★
 
-"A game-changer for me."
+"I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself."
 
-I struggled to grasp coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease.
+I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success.
 
-SMSamridho MondalStudent★★★★★
+SRSujal RamolaStudent★★★★★
 
-"Maths finally made sense."
+"One of the most wonderful education centres out there."
 
-My son struggled with maths for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended.
+Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.
 
-SSShewta SinghMother of Ishan
+VAVansh AgarwalStudent
 
 ## Book a free demo class in Delhi
 

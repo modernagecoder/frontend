@@ -226,7 +226,7 @@ International families pay flat USD rates — the prices above update automatica
 
 Not screenshots of a syllabus — real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![The Beautiful Mind](/images/projects/mindgame.webp) GameThe Beautiful MindA focus and brain-strength game with 15 progressive levels, real-time tracking and leaderboards. Built by Modern Age Coders · React, FirebaseOpen the live project ↗](https://mind.modernagecoders.com)[![Misti — AI Study Chatbot](/images/projects/misti.webp) AI & MLMisti — AI Study ChatbotAn AI chatbot that solves maths and coding questions with step-by-step explanations using Python and LLM APIs. Built by Harshit · Python, AI/ML, LLM APIsOpen the live project ↗](https://misti.modernagecoders.com)[![Babu — 90-Second Maths Challenge](/images/projects/babu.webp) GameBabu — 90-Second Maths ChallengeA fast maths challenge with random problems under time pressure and a live Firebase leaderboard. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[See more student projects →](/student-labs)
+[![Image Slider Website](/images/projects/slider.webp) ToolImage Slider WebsiteA visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects. Built by Somraj · HTML, CSSOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![The Beautiful Mind](/images/projects/mindgame.webp) GameThe Beautiful MindA scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards. Built by Modern Age Coders · React, FirebaseOpen the live project ↗](https://mind.modernagecoders.com)[![SkyCast — Weather Forecast App](/images/projects/skycast.webp) Web AppSkyCast — Weather Forecast AppAn interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface. Built by Krish · JavaScript, APIOpen the live project ↗](https://krish-shroff.github.io/AuraWeatherTech/)[See more student projects →](/student-labs)
 
 ## What families say
 
@@ -234,41 +234,41 @@ Verified Google reviews from Modern Age Coders families across India. We don't i
 
 ★★★★★
 
-"My son looks forward to every class."
+"I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself."
 
-He has been attending for a few months and I'm genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable, and his confidence has grown.
+I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success.
 
-PRPoonam RathoreParent★★★★★
+SRSujal RamolaStudent★★★★★
 
-"The one-step solution for my son."
+"Mivaan enjoys the class."
 
-They make learning to code so simple that kids love it. Teachers explain complex concepts clearly with practical exercises, and the projects were challenging and rewarding.
+He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class.
 
-RMRia MukherjeeParent★★★★★
+SSShradha SarafParent of Mivaan★★★★★
 
-"Mentors, not just teachers."
+"Coding classes here make learning very interesting and conceptual."
 
-The perks are excellent — one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
+The teachers teach us in a very easy-to-understand and efficient manner.
 
-KBKrishnam BhatterFormer student★★★★★
+APArush PoddarStudent★★★★★
 
-"Clear, easy and practical."
+"Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way."
 
-Wonderful teachers who boost students' confidence, keep them updated with technology, and inspire them to learn without hesitation.
+The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
 SGSonu GoyalParent★★★★★
 
-"A game-changer for me."
+"My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm."
 
-I struggled to grasp coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease.
+The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!
 
-SMSamridho MondalStudent★★★★★
+PRPoonam RathoreParent★★★★★
 
-"Maths finally made sense."
+"The one step solution for my son."
 
-My son struggled with maths for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended.
+Modern Age Coders make learning coding so simple that kids love it. Teachers make it so simple with clear explanations, practical exercises, and interactive content. As per my son, the coding class is very helpful and engaging. Sir explains complex concepts clearly. The projects were challenging and rewarding.
 
-SSShewta SinghMother of Ishan
+RMRia MukherjeeParent
 
 ## Book a free demo class in Lucknow
 

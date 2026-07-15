@@ -246,7 +246,7 @@ International families pay flat USD rates — the prices above update automatica
 
 Not screenshots of a syllabus — real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![The Beautiful Mind](/images/projects/mindgame.webp) GameThe Beautiful MindA focus and brain-strength game with 15 progressive levels, real-time tracking and leaderboards. Built by Modern Age Coders · React, FirebaseOpen the live project ↗](https://mind.modernagecoders.com)[![Misti — AI Study Chatbot](/images/projects/misti.webp) AI & MLMisti — AI Study ChatbotAn AI chatbot that solves maths and coding questions with step-by-step explanations using Python and LLM APIs. Built by Harshit · Python, AI/ML, LLM APIsOpen the live project ↗](https://misti.modernagecoders.com)[![Babu — 90-Second Maths Challenge](/images/projects/babu.webp) GameBabu — 90-Second Maths ChallengeA fast maths challenge with random problems under time pressure and a live Firebase leaderboard. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[See more student projects →](/student-labs)
+[![Moxo — Company Landing Page](/images/projects/moxo.webp) Web AppMoxo — Company Landing PageA stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life. Built by Isha · JavaScript, GSAPOpen the live project ↗](https://moxo.modernagecoders.com)[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp) Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline. Built by Tanish · JavaScript, MongoDBOpen the live project ↗](https://freshtrackpro.netlify.app/)[![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp) AI & MLHairSync — AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app. Built by Kriti · Vibe Coding, AI ImageOpen the live project ↗](https://hairsync.lovable.app)[See more student projects →](/student-labs)
 
 ## What families say
 
@@ -254,41 +254,41 @@ Verified Google reviews from Modern Age Coders families across India. We don't i
 
 ★★★★★
 
-"My son looks forward to every class."
+"Coding classes here make learning very interesting and conceptual."
 
-He has been attending for a few months and I'm genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable, and his confidence has grown.
+The teachers teach us in a very easy-to-understand and efficient manner.
+
+APArush PoddarStudent★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coder IT classes."
+
+This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class.
+
+SOSonam OswalParent of Dhairya★★★★★
+
+"My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm."
+
+The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!
 
 PRPoonam RathoreParent★★★★★
 
-"The one-step solution for my son."
+"The classes are excellent."
 
-They make learning to code so simple that kids love it. Teachers explain complex concepts clearly with practical exercises, and the projects were challenging and rewarding.
+The teachers explain concepts very clearly and make code fun and easy to understand. The sessions are interactive and fun. They also help students boost their confidence. We not only focus on academics, but also on logic building and problem solving.
 
-RMRia MukherjeeParent★★★★★
+PDPragyen DiwanParent★★★★★
 
-"Mentors, not just teachers."
+"I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself."
 
-The perks are excellent — one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
+I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success.
 
-KBKrishnam BhatterFormer student★★★★★
+SRSujal RamolaStudent★★★★★
 
-"Clear, easy and practical."
+"I'm truly grateful for my experience at Modern Age Coders!"
 
-Wonderful teachers who boost students' confidence, keep them updated with technology, and inspire them to learn without hesitation.
+The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.
 
-SGSonu GoyalParent★★★★★
-
-"A game-changer for me."
-
-I struggled to grasp coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease.
-
-SMSamridho MondalStudent★★★★★
-
-"Maths finally made sense."
-
-My son struggled with maths for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended.
-
-SSShewta SinghMother of Ishan
+KBKrishnam BhatterFormer Student
 
 ## Book a free demo class in Davanagere
 

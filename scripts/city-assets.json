@@ -1,0 +1,384 @@
+{
+  "projects": [
+    {
+      "url": "https://mind.modernagecoders.com",
+      "img": "mindgame",
+      "cat": "Game",
+      "title": "The Beautiful Mind",
+      "by": "by Modern Age Coders",
+      "desc": "A scientifically designed focus and brain-strength game with 15 progressive levels — testing attention, control and mental endurance with real-time progress tracking and leaderboards.",
+      "tags": [
+        "React",
+        "Firebase",
+        "JavaScript",
+        "Game Logic"
+      ],
+      "level": "Advanced"
+    },
+    {
+      "url": "https://misti.modernagecoders.com",
+      "img": "misti",
+      "cat": "AI &amp; ML",
+      "title": "Misti — AI Chatbot for Maths &amp; Coding",
+      "by": "by Harshit",
+      "desc": "An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.",
+      "tags": [
+        "Python",
+        "AI/ML",
+        "LLM APIs"
+      ],
+      "level": "Advanced"
+    },
+    {
+      "url": "https://babu.modernagecoders.com",
+      "img": "babu",
+      "cat": "Game",
+      "title": "Babu — 90 Second Maths Challenge",
+      "by": "by Modern Age Coders",
+      "desc": "An exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.",
+      "tags": [
+        "JavaScript",
+        "Firebase",
+        "MongoDB"
+      ],
+      "level": "Advanced"
+    },
+    {
+      "url": "https://nutrilife-bhavya.lovable.app",
+      "img": "nutrilife",
+      "cat": "AI &amp; ML",
+      "title": "NutriLife — AI Nutrition Coach",
+      "by": "by Bhavya",
+      "desc": "Snap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.",
+      "tags": [
+        "Vibe Coding",
+        "AI Vision",
+        "React",
+        "Lovable"
+      ],
+      "level": "Advanced"
+    },
+    {
+      "url": "https://guardianx-cybersaver.lovable.app",
+      "img": "guardianx",
+      "cat": "AI &amp; ML",
+      "title": "GuardianX — AI Bodyguard for the Internet",
+      "by": "by Vivaan",
+      "desc": "Paste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.",
+      "tags": [
+        "Vibe Coding",
+        "AI",
+        "React",
+        "Lovable"
+      ],
+      "level": "Advanced"
+    },
+    {
+      "url": "https://superpawer.netlify.app",
+      "img": "superpawer",
+      "cat": "Game",
+      "title": "Palm Arcana — Summon the Elements",
+      "by": "by Aarush",
+      "desc": "Open your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.",
+      "tags": [
+        "Vibe Coding",
+        "Computer Vision",
+        "JavaScript",
+        "Canvas"
+      ],
+      "level": "Advanced"
+    },
+    {
+      "url": "https://arvrbadestweb.lovable.app",
+      "img": "lumenfx",
+      "cat": "Web App",
+      "title": "LumenFX — AR/VR Photo Effects Studio",
+      "by": "by Raayan",
+      "desc": "Upload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits — the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets. Raayan vibe-coded the whole studio from an idea: prompted the concept, then built the effects engine and gallery UI by hand.",
+      "tags": [
+        "Vibe Coding",
+        "AR / VR",
+        "WebGL",
+        "Lovable"
+      ],
+      "level": "Advanced"
+    },
+    {
+      "url": "https://doodledashmaster.lovable.app",
+      "img": "doodledash",
+      "cat": "Game",
+      "title": "Doodle Dash — 30-Second Drawing Challenge",
+      "by": "by Shubh",
+      "desc": "Pick a difficulty, get a prompt, and you have exactly 30 seconds to draw it — then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.",
+      "tags": [
+        "Vibe Coding",
+        "AI Judge",
+        "Canvas",
+        "Lovable"
+      ],
+      "level": "Advanced"
+    },
+    {
+      "url": "https://bookdesk1.netlify.app",
+      "img": "bookdesk",
+      "cat": "AI &amp; ML",
+      "title": "BookDesk — AI Book Summaries &amp; Quizzes",
+      "by": "by Anika",
+      "desc": "Type in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.",
+      "tags": [
+        "Gemini AI",
+        "Full-Stack",
+        "Database",
+        "Quiz Gen"
+      ],
+      "level": "Advanced"
+    },
+    {
+      "url": "https://hairsync.lovable.app",
+      "img": "hairsync",
+      "cat": "AI &amp; ML",
+      "title": "HairSync — AI Hairstyle Try-On",
+      "by": "by Kriti",
+      "desc": "Upload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.",
+      "tags": [
+        "Vibe Coding",
+        "AI Image",
+        "Virtual Try-On",
+        "Lovable"
+      ],
+      "level": "Advanced"
+    },
+    {
+      "url": "https://krish-shroff.github.io/AuraWeatherTech/",
+      "img": "skycast",
+      "cat": "Web App",
+      "title": "SkyCast — Weather Forecast App",
+      "by": "by Krish",
+      "desc": "An interactive weather forecasting site with real-time updates for any location — temperature, humidity, wind speed and conditions in a clean, responsive interface.",
+      "tags": [
+        "JavaScript",
+        "API",
+        "HTML/CSS"
+      ],
+      "level": "Intermediate"
+    },
+    {
+      "url": "https://hugselle.modernagecoders.com",
+      "img": "hugselle",
+      "cat": "AI &amp; ML",
+      "title": "HugSelle — AI Smile Generator",
+      "by": "by Anurag",
+      "desc": "A heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile — a creative blend of technology and positivity.",
+      "tags": [
+        "Python",
+        "Machine Learning",
+        "AI"
+      ],
+      "level": "Advanced"
+    },
+    {
+      "url": "https://moxo.modernagecoders.com",
+      "img": "moxo",
+      "cat": "Web App",
+      "title": "Moxo — Company Landing Page",
+      "by": "by Isha",
+      "desc": "A stunning modern landing page with smooth parallax scrolling, advanced GSAP animations and elegant section transitions that bring the brand to life.",
+      "tags": [
+        "JavaScript",
+        "GSAP",
+        "Parallax"
+      ],
+      "level": "Advanced"
+    },
+    {
+      "url": "https://baby.modernagecoders.com",
+      "img": "baby",
+      "cat": "Game",
+      "title": "Baby — Typing Speed Challenge",
+      "by": "by Kritika",
+      "desc": "An engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.",
+      "tags": [
+        "JavaScript",
+        "Node.js",
+        "MongoDB"
+      ],
+      "level": "Intermediate"
+    },
+    {
+      "url": "https://myday.modernagecoders.com",
+      "img": "myday",
+      "cat": "Web App",
+      "title": "MyDay — Social Productivity Organizer",
+      "by": "by Vedant",
+      "desc": "A beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.",
+      "tags": [
+        "JavaScript",
+        "Node.js",
+        "MongoDB",
+        "Python"
+      ],
+      "level": "Advanced"
+    },
+    {
+      "url": "https://freshtrackpro.netlify.app/",
+      "img": "fresh",
+      "cat": "Web App",
+      "title": "FreshTrack — Food Expiry Tracker",
+      "by": "by Tanish",
+      "desc": "A smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.",
+      "tags": [
+        "JavaScript",
+        "MongoDB",
+        "Local Storage"
+      ],
+      "level": "Intermediate"
+    },
+    {
+      "url": "https://astounding-flan-f18e08.netlify.app/",
+      "img": "pracy",
+      "cat": "Web App",
+      "title": "Pracy — Coding Practice &amp; Quiz Platform",
+      "by": "by Rohan",
+      "desc": "An all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.",
+      "tags": [
+        "JavaScript",
+        "Node.js",
+        "MongoDB"
+      ],
+      "level": "Intermediate"
+    },
+    {
+      "url": "https://vanshagarwalwordcounter-sys.github.io/WordCounter/",
+      "img": "wordcounter",
+      "cat": "Tool",
+      "title": "Word Counter Website",
+      "by": "by Vansh",
+      "desc": "A simple yet powerful tool that counts words, sentences and paragraphs from user input with instant, real-time results and a clean responsive interface.",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "level": "Beginner"
+    },
+    {
+      "url": "https://lifespantracker.netlify.app/",
+      "img": "lifespan",
+      "cat": "Tool",
+      "title": "Life Span Tracker",
+      "by": "by Manay",
+      "desc": "An interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.",
+      "tags": [
+        "JavaScript",
+        "APIs",
+        "Date Calc"
+      ],
+      "level": "Intermediate"
+    },
+    {
+      "url": "http://yashaswi-2017.my.canva.site",
+      "img": "simongame",
+      "cat": "Game",
+      "title": "Simon Game",
+      "by": "by Yashaswi",
+      "desc": "A fun memory-based game where players repeat colour and sound sequences. Each level adds a new challenge — brain-boosting for kids learning logic and focus.",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "level": "Beginner"
+    },
+    {
+      "url": "https://robo23middle-stack.github.io/scenes/",
+      "img": "slider",
+      "cat": "Tool",
+      "title": "Image Slider Website",
+      "by": "by Somraj",
+      "desc": "A visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects.",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "level": "Beginner"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Sonam Oswal",
+      "role": "Parent of Dhairya",
+      "text": "My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
+    },
+    {
+      "name": "Samriddha Mondal",
+      "role": "Student",
+      "text": "Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease."
+    },
+    {
+      "name": "Poonam Rathore",
+      "role": "Parent",
+      "text": "My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!"
+    },
+    {
+      "name": "Krishnam Bhatter",
+      "role": "Former Student",
+      "text": "I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
+    },
+    {
+      "name": "Yug Rathore",
+      "role": "Student",
+      "text": "I absolutely love it here! I made new friends and learned important valuable coding skills while having the fun of my life. It's not just coding here, it's outings, bonding and most importantly preparing you for your future. Definitely five stars."
+    },
+    {
+      "name": "Ria Mukherjee",
+      "role": "Parent",
+      "text": "The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. Teachers make it so simple with clear explanations, practical exercises, and interactive content. As per my son, the coding class is very helpful and engaging. Sir explains complex concepts clearly. The projects were challenging and rewarding."
+    },
+    {
+      "name": "Pragyen Diwan",
+      "role": "Parent",
+      "text": "The classes are excellent. The teachers explain concepts very clearly and make code fun and easy to understand. The sessions are interactive and fun. They also help students boost their confidence. We not only focus on academics, but also on logic building and problem solving."
+    },
+    {
+      "name": "Sonu Goyal",
+      "role": "Parent",
+      "text": "Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
+    },
+    {
+      "name": "Arush Poddar",
+      "role": "Student",
+      "text": "Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner."
+    },
+    {
+      "name": "Sujal Ramola",
+      "role": "Student",
+      "text": "I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself. I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success."
+    },
+    {
+      "name": "Shradha Saraf",
+      "role": "Parent of Mivaan",
+      "text": "Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class."
+    },
+    {
+      "name": "Vansh Agarwal",
+      "role": "Student",
+      "text": "One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing."
+    },
+    {
+      "name": "Shaarav Wadhwa",
+      "role": "Student",
+      "text": "Very good classes. Don't worry about coding—they teach the best, especially Shivam sir."
+    },
+    {
+      "name": "Ritu Kedia",
+      "role": "Parent",
+      "text": "I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding."
+    },
+    {
+      "name": "Vineeta Shyamsukha",
+      "role": "Parent",
+      "text": "Very good classes. Makes learning very easy and interactive."
+    }
+  ]
+}

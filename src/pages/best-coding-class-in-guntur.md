@@ -246,7 +246,7 @@ International families pay flat USD rates — the prices above update automatica
 
 Not screenshots of a syllabus — real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![The Beautiful Mind](/images/projects/mindgame.webp) GameThe Beautiful MindA focus and brain-strength game with 15 progressive levels, real-time tracking and leaderboards. Built by Modern Age Coders · React, FirebaseOpen the live project ↗](https://mind.modernagecoders.com)[![Misti — AI Study Chatbot](/images/projects/misti.webp) AI & MLMisti — AI Study ChatbotAn AI chatbot that solves maths and coding questions with step-by-step explanations using Python and LLM APIs. Built by Harshit · Python, AI/ML, LLM APIsOpen the live project ↗](https://misti.modernagecoders.com)[![Babu — 90-Second Maths Challenge](/images/projects/babu.webp) GameBabu — 90-Second Maths ChallengeA fast maths challenge with random problems under time pressure and a live Firebase leaderboard. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[See more student projects →](/student-labs)
+[![BookDesk — AI Book Summaries & Quizzes](/images/projects/bookdesk.webp) AI & MLBookDesk — AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it. Built by Anika · Gemini AI, Full-StackOpen the live project ↗](https://bookdesk1.netlify.app)[![Image Slider Website](/images/projects/slider.webp) ToolImage Slider WebsiteA visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects. Built by Somraj · HTML, CSSOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![Palm Arcana — Summon the Elements](/images/projects/superpawer.webp) GamePalm Arcana — Summon the ElementsOpen your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience. Built by Aarush · Vibe Coding, Computer VisionOpen the live project ↗](https://superpawer.netlify.app)[See more student projects →](/student-labs)
 
 ## What families say
 
@@ -254,41 +254,41 @@ Verified Google reviews from Modern Age Coders families across India. We don't i
 
 ★★★★★
 
-"My son looks forward to every class."
+"Modern Age Coders has been a game-changer for me!"
 
-He has been attending for a few months and I'm genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable, and his confidence has grown.
+I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease.
+
+SMSamriddha MondalStudent★★★★★
+
+"I absolutely love it here!"
+
+I made new friends and learned important valuable coding skills while having the fun of my life. It's not just coding here, it's outings, bonding and most importantly preparing you for your future. Definitely five stars.
+
+YRYug RathoreStudent★★★★★
+
+"My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm."
+
+The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!
 
 PRPoonam RathoreParent★★★★★
 
-"The one-step solution for my son."
+"Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way."
 
-They make learning to code so simple that kids love it. Teachers explain complex concepts clearly with practical exercises, and the projects were challenging and rewarding.
-
-RMRia MukherjeeParent★★★★★
-
-"Mentors, not just teachers."
-
-The perks are excellent — one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
-
-KBKrishnam BhatterFormer student★★★★★
-
-"Clear, easy and practical."
-
-Wonderful teachers who boost students' confidence, keep them updated with technology, and inspire them to learn without hesitation.
+The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
 SGSonu GoyalParent★★★★★
 
-"A game-changer for me."
+"The one step solution for my son."
 
-I struggled to grasp coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease.
+Modern Age Coders make learning coding so simple that kids love it. Teachers make it so simple with clear explanations, practical exercises, and interactive content. As per my son, the coding class is very helpful and engaging. Sir explains complex concepts clearly. The projects were challenging and rewarding.
 
-SMSamridho MondalStudent★★★★★
+RMRia MukherjeeParent★★★★★
 
-"Maths finally made sense."
+"My child Dhairya is really enjoying the Modern Age Coder IT classes."
 
-My son struggled with maths for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended.
+This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class.
 
-SSShewta SinghMother of Ishan
+SOSonam OswalParent of Dhairya
 
 ## Book a free demo class in Guntur
 

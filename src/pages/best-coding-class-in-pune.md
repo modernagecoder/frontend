@@ -241,7 +241,7 @@ International families pay flat USD rates — the prices above update automatica
 
 Not screenshots of a syllabus — real, live projects from Modern Age Coders learners and labs. Click through and use them.
 
-[![The Beautiful Mind — a focus and brain-strength game](/images/projects/mindgame.webp)  Game The Beautiful Mind A focus and brain-strength game with 15 progressive levels, real-time tracking and leaderboards. Built by Modern Age Coders · React, Firebase Open the live project ↗](https://mind.modernagecoders.com)[![Misti — an AI chatbot for maths and coding](/images/projects/misti.webp)  AI & ML Misti — AI Study Chatbot An AI chatbot that solves maths and coding questions with step-by-step explanations using Python and LLM APIs. Built by Harshit · Python, AI/ML, LLM APIs Open the live project ↗](https://misti.modernagecoders.com)[![Babu — a 90-second maths challenge game](/images/projects/babu.webp)  Game Babu — 90-Second Maths Challenge A fast maths challenge with random problems under time pressure and a live Firebase leaderboard. Built by Modern Age Coders · JavaScript, Firebase Open the live project ↗](https://babu.modernagecoders.com)[See more student projects →](/student-labs)
+[![Image Slider Website](/images/projects/slider.webp) ToolImage Slider WebsiteA visually appealing site with a smooth image carousel — auto or manual navigation, responsive layout and beautiful transition effects. Built by Somraj · HTML, CSSOpen the live project ↗](https://robo23middle-stack.github.io/scenes/)[![Babu — 90 Second Maths Challenge](/images/projects/babu.webp) GameBabu — 90 Second Maths ChallengeAn exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates. Built by Modern Age Coders · JavaScript, FirebaseOpen the live project ↗](https://babu.modernagecoders.com)[![GuardianX — AI Bodyguard for the Internet](/images/projects/guardianx.webp) AI & MLGuardianX — AI Bodyguard for the InternetPaste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work. Built by Vivaan · Vibe Coding, AIOpen the live project ↗](https://guardianx-cybersaver.lovable.app)[See more student projects →](/student-labs)
 
 ## What families say
 
@@ -249,41 +249,41 @@ Verified Google reviews from Modern Age Coders families across India. We don't i
 
 ★★★★★
 
-"My son looks forward to every class."
+"I highly recommend this computer coding class!"
 
-He has been attending for a few months and I'm genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable, and his confidence has grown.
+The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding.
+
+RKRitu KediaParent★★★★★
+
+"I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself."
+
+I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success.
+
+SRSujal RamolaStudent★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coder IT classes."
+
+This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class.
+
+SOSonam OswalParent of Dhairya★★★★★
+
+"My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm."
+
+The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!
 
 PRPoonam RathoreParent★★★★★
 
-"The one-step solution for my son."
+"Mivaan enjoys the class."
 
-They make learning to code so simple that kids love it. Teachers explain complex concepts clearly with practical exercises, and the projects were challenging and rewarding.
+He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class.
 
-RMRia MukherjeeParent★★★★★
+SSShradha SarafParent of Mivaan★★★★★
 
-"Mentors, not just teachers."
+"Very good classes."
 
-The perks are excellent — one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
+Don't worry about coding—they teach the best, especially Shivam sir.
 
-KBKrishnam BhatterFormer student★★★★★
-
-"Clear, easy and practical."
-
-Wonderful teachers who boost students' confidence, keep them updated with technology, and inspire them to learn without hesitation.
-
-SGSonu GoyalParent★★★★★
-
-"A game-changer for me."
-
-I struggled to grasp coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease.
-
-SMSamridho MondalStudent★★★★★
-
-"Maths finally made sense."
-
-My son struggled with maths for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended.
-
-SSShewta SinghMother of Ishan
+SWShaarav WadhwaStudent
 
 ## Book a free demo class in Pune
 
