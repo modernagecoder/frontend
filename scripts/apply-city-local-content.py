@@ -94,10 +94,17 @@ for slug, d in sorted(DATA.items()):
     if d.get("lede"):
         new, n = PARA_RE.subn(lambda m: f"<p>{d['lede']}</p>", out, count=1)
         if n != 1:
-            problems.append(f"{slug}: lede paragraph matched {n}x")
-            continue
-        out = new
-        did.append("lede")
+            # Already applied is a skip, not a failure — this has to be re-runnable as
+            # cities land in batches. Only a page that has NEITHER the cloned paragraph
+            # nor our replacement is genuinely wrong.
+            if d["lede"] in out:
+                did.append("lede already applied")
+            else:
+                problems.append(f"{slug}: lede paragraph matched {n}x and our lede is absent")
+                continue
+        else:
+            out = new
+            did.append("lede")
 
     # ---- 2. FAQs into BOTH the visible list and the schema ------------------
     faqs = d.get("faqs") or []
@@ -107,7 +114,12 @@ for slug, d in sorted(DATA.items()):
         if vis_before != sch_before:
             problems.append(f"{slug}: FAQ already out of sync ({vis_before} visible / {sch_before} schema)")
             continue
+        # Re-runnable: skip FAQs already on the page rather than duplicating them.
+        faqs = [f for f in faqs if f"<summary>{esc(f['q'])}</summary>" not in out]
+        if not faqs:
+            did.append("faqs already applied")
 
+    if faqs:
         block = "".join(
             f'\n                <details class="faq-item"><summary>{esc(f["q"])}</summary>'
             f'<div class="faq-a">{esc(f["a"])}</div></details>'

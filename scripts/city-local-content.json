@@ -41,5 +41,200 @@
       "MHT-CET / CAP": "https://fe2026.mahacet.org/"
     },
     "_excluded": "Fergusson 1885 is Wikipedia-only — the college's own site supports 1884 (society) and 1895 (campus), so no Fergusson year is used. Hinjawadi headcount omitted: sources conflict (3 lakh vs 4.5 lakh). COEP's 'third oldest in Asia' is COEP's own claim, so not asserted. 'Oxford of the East' is a nickname, not a fact. IGCSE presence in Pune unverified, so not claimed."
+  },
+  "mumbai": {
+    "lede": "Mumbai has had a university since 1857 &mdash; one of the first three in India &mdash; and an IIT since 1958. The Powai campus was built with help no other IIT received in quite the same form: UNESCO and the Soviet government supplied the equipment, the experts and the fellowships. TIFR has done fundamental science from Colaba since 1945, and VJTI has taught engineering since 1887. Your child&#x27;s route into any of it runs through MHT-CET, or JEE Main and Advanced.",
+    "faqs": [
+      {
+        "q": "Which school board do you follow for Mumbai students?",
+        "a": "None of them, deliberately. Mumbai runs the Maharashtra State Board, CBSE, ICSE, IB and Cambridge IGCSE side by side, and a coding class built around one syllabus is useless to the other four. We teach the language itself and fit around whichever board your child actually sits."
+      },
+      {
+        "q": "Can IIT Bombay or Mumbai University students join your programming courses?",
+        "a": "Yes. The college track takes students from IIT Bombay, Mumbai University, VJTI and the engineering colleges around the city who want working Python, Java, full-stack or AI/ML projects to show, rather than another line on a CV."
+      }
+    ],
+    "_sources": {
+      "IIT Bombay 1958 Powai + UNESCO/USSR support": "https://www.iitb.ac.in/about",
+      "University of Mumbai 1857, first three universities": "https://mu.ac.in/",
+      "VJTI 1887": "https://vjti.ac.in/about/",
+      "TIFR 1945 Colaba": "https://www.tifr.res.in/portal/history.php",
+      "MHT-CET": "https://cetcell.mahacet.org/be-b-tech/",
+      "JEE Main / Advanced": "https://jeeadv.ac.in/"
+    },
+    "_excluded": "VJTI 'one of Asia's oldest' — MY prompt suggested it; VJTI's own About page claims only the 1887 founding, so only the year is used. SEEPZ deliberately NOT called a software/IT hub: the official SEEPZ page says electronics (and gems/jewellery from 1987-88), never software. ICT Mumbai (1933) omitted — its site 403s every fetch and the year could not be opened at source. TIFR's move from Bangalore not asserted (only the 1945 founding and the Colaba address are verified). No school counts or rankings anywhere."
+  },
+  "bengaluru": {
+    "lede": "India&#x27;s space programme is run from Bengaluru &mdash; ISRO&#x27;s headquarters sit at Antariksh Bhavan on New BEL Road &mdash; and the city has done science since IISc opened in 1909 on a Tata endowment. What matters more for your child is how Karnataka counts. KCET builds its engineering merit list from the entrance test and 2nd PUC marks in the same subjects, taken, in the statutory wording, &quot;in equal proportions&quot;. Board marks here carry weight they simply do not carry at JEE Main.",
+    "faqs": [
+      {
+        "q": "Do Karnataka PUC board marks matter for engineering admission?",
+        "a": "More than most parents expect. Under Rule 4 of the CET-2006 Admission Rules, KCET merit is built from Physics, Chemistry and Maths in the entrance test and the same subjects at 2nd PUC, taken in equal proportions. At JEE Main, board marks only set an eligibility bar. That difference is worth knowing before Class 11, not after it."
+      },
+      {
+        "q": "Can IIIT-B or UVCE students join your programming courses?",
+        "a": "Yes. UVCE has taught engineering here since 1917 and IIIT-B was built in 1998 with the IT industry&#x27;s own money, but a syllabus is still not a portfolio. Our college track is project work: Python, Java, full-stack or AI/ML, built until it actually runs."
+      }
+    ],
+    "_sources": {
+      "IISc 1909 / Tata endowment": "https://www.iisc.ac.in/history/",
+      "UVCE 1917": "https://uvce.ac.in/",
+      "IIIT-B 1998 govt+industry funded": "https://www.iiitb.ac.in/about-us",
+      "ISRO HQ Antariksh Bhavan Bengaluru": "https://www.isro.gov.in/DOS&ISROHQ.html",
+      "KCET 'equal proportions' Rule 4 CET-2006": "https://cetonline.karnataka.gov.in/keawebentry456/ugcet2025/UGCET_Brochure_2025_Engenglish.pdf"
+    },
+    "_excluded": "Aggregators say KCET is '50:50' but they are coaching sites; the statutory wording is 'in equal proportions' (Rule 4, CET-2006), quoted from the KEA brochure. IISc 'oldest research institute' NOT claimed - IISc's own pages never say it; the verified 1909 date does the same work. UVCE's 'fifth engineering college in the country' is its own self-claim. RVCE dropped (site TLS-failed; 1963 unverifiable at source). The KCET rule is Karnataka-wide, not Bengaluru-only."
+  },
+  "hyderabad": {
+    "lede": "India&#x27;s first technological university was founded here: JNTU opened on 2 October 1972. HITEC City followed on 22 November 1998, the same year IIIT Hyderabad was set up as the country&#x27;s first not-for-profit public-private institute of its kind. Osmania has been teaching since 1918. Your child&#x27;s route onward is TG EAPCET or JEE Main &mdash; and if they aim at IIIT-H itself, its own UGEE, which tests research aptitude alongside subject knowledge.",
+    "faqs": [
+      {
+        "q": "Is it TS EAMCET or TG EAPCET now?",
+        "a": "Officially TG EAPCET. Telangana separated from Andhra Pradesh in 2014 and the state code later moved from TS to TG, so the exam most people still call TS EAMCET is now the Telangana Engineering, Agriculture and Pharmacy Common Entrance Test, conducted by JNTU Hyderabad. Both names point at the same exam. Telangana also runs two school boards: BSE Telangana for Class 10, and TGBIE separately for Intermediate."
+      },
+      {
+        "q": "Can IIIT Hyderabad or JNTUH students join your programming courses?",
+        "a": "Yes. Students from IIIT-H, JNTUH, Osmania, the University of Hyderabad and BITS Hyderabad take the college track. The point of it is a deployed project rather than a syllabus &mdash; Python, Java, full-stack or AI/ML, built until someone else can use it."
+      }
+    ],
+    "_sources": {
+      "JNTUH 1972, first technological university in the country": "https://jntuh.ac.in/welcome/",
+      "IIIT-H 1998, first N-PPP IIIT": "https://www.iiit.ac.in/at-a-glance/",
+      "Osmania 1918": "https://en.wikipedia.org/wiki/Osmania_University",
+      "HITEC City inaugurated 22 Nov 1998": "https://en.wikipedia.org/wiki/HITEC_City",
+      "TG EAPCET (conducted by JNTUH)": "https://eapcet.tgche.ac.in/",
+      "IIIT-H UGEE": "https://ugadmissions.iiit.ac.in/ugee/"
+    },
+    "_excluded": "IIT HYDERABAD IS NOT IN HYDERABAD - its campus is at Kandi, Sangareddy district. Never name it as a Hyderabad institution. T-Hub's 'world's largest startup hub' is self-description. Microsoft IDC 'largest outside Redmond' is Wikipedia-only. There is NO CBSE regional office in Hyderabad - CBSE's own document shows the region served from Kakinada - despite search engines asserting one."
+  },
+  "chennai": {
+    "lede": "Tamil Nadu is the one big state where an engineering seat turns on school marks instead of a coaching-driven entrance exam. TNEA builds its merit list from Class 12 marks alone, reduced to 200 &mdash; Maths 100, Physics 50, Chemistry 50 &mdash; and normalises every other board against the Tamil Nadu State Board. Chennai has taught engineering since 1794, when the College of Engineering, Guindy began life as a School of Survey with eight students near Fort St. George.",
+    "faqs": [
+      {
+        "q": "Does Tamil Nadu need an entrance exam for engineering?",
+        "a": "Not for B.E. or B.Tech. TNEA is single-window counselling and the merit list comes from Class 12 marks alone, cut to 200 across Maths, Physics and Chemistry, with CBSE and ICSE marks normalised against the Tamil Nadu State Board. One caveat parents miss: this does not extend to B.Arch, which is still ranked on NATA or JEE Paper 2."
+      },
+      {
+        "q": "Can IIT Madras or Anna University students join your programming courses?",
+        "a": "Yes. Anna University&#x27;s CEG campus traces back to 1794 and IIT Madras to 1959, and both teach theory well. What the college track adds is the other half &mdash; Python, Java, full-stack or AI/ML, written until it deploys."
+      }
+    ],
+    "_sources": {
+      "TNEA marks-only + cross-board normalisation (official brochure)": "https://static.tneaonline.org/docs/2_Information_Brochure_2026.pdf",
+      "IIT Madras 1959": "https://www.iitm.ac.in/happenings/about-iitm",
+      "Anna University 1978": "https://www.annauniv.edu/",
+      "CEG 1794, School of Survey, 8 students": "https://ceg.annauniv.edu/history.html"
+    },
+    "_excluded": "TNEA marks-only applies to B.E./B.Tech ONLY - B.Arch ranks on 400 marks incl. NATA/JEE Paper 2. The researcher nearly published the B.Arch rule as the engineering rule, so the FAQ states the caveat explicitly. CEG's 'oldest technical institution in Asia' is CEG's OWN claim - not asserted in our voice. NIRF ranking omitted: it would need re-dating every September. OMR/TIDEL Park dropped - tidelpark.com carries no founding date and its history pages 404."
+  },
+  "jaipur": {
+    "lede": "Jaipur has been building computing machines since 1734. The Jantar Mantar&#x27;s Vrihat Samrat Yantra is an 88-foot stone sundial, its face angled to 27 degrees to match the city&#x27;s own latitude, and it still tells the time to roughly two seconds. That is what an algorithm looked like before there were computers to run one on. The board that sets your child&#x27;s papers, RBSE, was founded here in 1957 before moving to Ajmer; the routes onward are REAP and JEE Main.",
+    "faqs": [
+      {
+        "q": "Do you offer coding classes for RBSE students in Jaipur?",
+        "a": "Yes. Jaipur schools run RBSE, CBSE, ICSE and IB, and our classes work alongside any of them. One thing worth knowing: RBSE was founded in Jaipur in 1957 but has been headquartered in Ajmer since 1961, so the board setting your child&#x27;s papers is not actually a Jaipur body."
+      },
+      {
+        "q": "Can MNIT Jaipur or LNMIIT students join your programming courses?",
+        "a": "Yes. Students from MNIT Jaipur, LNMIIT, the University of Rajasthan and Manipal Jaipur take the college track. It is project work rather than lectures: Python, Java, full-stack or AI/ML, built to the point where you can hand someone a URL."
+      }
+    ],
+    "_sources": {
+      "Jantar Mantar 1734 / Vrihat Samrat Yantra 88ft, 27deg, ~2s": "https://en.wikipedia.org/wiki/Jantar_Mantar,_Jaipur",
+      "RBSE founded Jaipur 4 Dec 1957, moved to Ajmer 1961": "https://rajeduboard.rajasthan.gov.in/0.htm",
+      "MNIT Jaipur 1963": "http://www.mnit.ac.in/about_us/about_mnit.php",
+      "University of Rajasthan 1947": "https://www.uniraj.ac.in/index.php?mid=1101",
+      "REAP counselling": "https://reaprajasthan.co.in/"
+    },
+    "_excluded": "RBSE IS HEADQUARTERED IN AJMER, not Jaipur - it was only founded in Jaipur (1957) and moved in 1961. Mahindra World City 'largest planned IT SEZ in India' is press-release copy absent from Mahindra's own page. BSDU 'India's first skill university' is its own marketing. Manipal Jaipur's campus is ~30km out at Dehmi Kalan, so it is never described as 'in Jaipur'."
+  },
+  "indore": {
+    "lede": "Indore is one of the few places where a fifteen-year-old can already see the whole ladder. IIM Indore launched India&#x27;s first five-year Integrated Programme in Management in 2011 &mdash; a degree you enter straight after Class XII &mdash; and SGSITS has taught engineering here since 1952. IIT Indore arrived in 2009, though its campus sits out at Simrol on Khandwa Road rather than in the city itself. The routes are JEE, MP DTE counselling, or IPMAT.",
+    "faqs": [
+      {
+        "q": "Can a Class 12 student in Indore apply straight to IIM Indore?",
+        "a": "Yes, through IPMAT. IIM Indore launched its five-year Integrated Programme in Management in 2011 and calls it the first of its kind in India: students enter directly after Class XII. It is an aptitude test rather than a syllabus test, and aptitude is built over years rather than crammed in one."
+      },
+      {
+        "q": "Do you teach coding to MP Board students in Indore?",
+        "a": "Yes. Indore schools run MPBSE, CBSE, ICSE, Cambridge and IB between them, so the classes are built to be board-agnostic. Your child learns Python or Java properly, and the school computer paper takes care of itself."
+      }
+    ],
+    "_sources": {
+      "IIM Indore 1996 (6th IIM) / IPM 2011 'first of its kind in India'": "https://iimidr.ac.in/programmes/academic-programmes/five-year-integrated-programme-in-management-ipm/",
+      "IIT Indore 2009 / Simrol campus ~25km out": "https://www.iiti.ac.in/page/about-us",
+      "SGSITS 1952": "https://sgsits.mponline.gov.in/",
+      "DAVV 1964": "https://www.ietdavv.edu.in/index.php/about-davv",
+      "MP DTE B.Tech counselling": "https://dte.mponline.gov.in/",
+      "IPMAT": "https://iimidr.ac.in/wp-content/uploads/2026/01/AdmissionProcedure_IPM-2026-31_-Domestic-Applicants.pdf"
+    },
+    "_excluded": "MY PROMPT WAS WRONG: 'Indore is notable for having both an IIT and an IIM' is NOT distinctive - Mumbai has had both since NITIE became IIM Mumbai in Aug 2023 (PIB), and Jammu likely too. No uniqueness is claimed anywhere. IIT Indore's campus is at Simrol ~25km outside the city, stated honestly rather than implied to be in it. Daly College is NOT ICSE (aggregators say it is; the school's own site shows CBSE + Cambridge only)."
+  },
+  "delhi": {
+    "lede": "Delhi keeps 85 per cent of the seats at its own engineering institutions &mdash; NSUT, DTU, IIIT-Delhi, IGDTUW and DSEU &mdash; for candidates who passed Class 12 from a school inside the NCT. Your child is competing mainly against other Delhi students for them, and the allocation runs on JEE Main. IIIT-Delhi even adds bonus points for Olympiads and programming contests. DTU has been teaching here since 1941, when it opened as Delhi Polytechnic.",
+    "faqs": [
+      {
+        "q": "Does a Delhi address help with admission to DTU or NSUT?",
+        "a": "Substantially. 85 per cent of seats at NSUT, DTU, IIIT-Delhi, IGDTUW and DSEU are reserved for Delhi Region candidates &mdash; defined as having passed the qualifying exam from an institution inside the NCT of Delhi &mdash; leaving 15 per cent for everyone else. IIIT-Delhi also awards bonus points for Olympiads and programming contests, which is the rare case where competitive coding converts directly into a seat."
+      },
+      {
+        "q": "Which board do Delhi schools follow?",
+        "a": "Overwhelmingly CBSE, which is itself headquartered in Dwarka. Delhi set up its own board, DBSE, in 2021, but it has been wound up from 2025 and its Schools of Specialised Excellence moved back to CBSE. ICSE, IB and Cambridge IGCSE schools also operate in the city, and our classes run alongside any of them."
+      }
+    ],
+    "_sources": {
+      "85% Delhi-region quota, JAC Delhi + IIIT-D bonus points (official brochure)": "https://cdnbbsr.s3waas.gov.in/s3e45823afe1e5120cec11fc4c379a0c67/uploads/2026/05/202605261990309362.pdf",
+      "CBSE headquartered Dwarka": "https://www.cbse.gov.in/cbsenew/contact-us.html",
+      "DBSE wound up, students enrolled under CBSE (DoE circular 22/04/2025)": "https://edudel.nic.in/upload/upload_2025_26/41_46_dt_22042025.pdf",
+      "DTU 1941 as Delhi Polytechnic": "http://dtu.ac.in/Web/About/history.php",
+      "IIT Delhi 1961": "https://home.iitd.ac.in/about.php"
+    },
+    "_excluded": "MY PROMPT WAS WRONG: I described DBSE as 'the newer Delhi Board of School Education (2021)'. It is DEFUNCT - wound up from 2025, its schools moved to CBSE, confirmed by an official DoE circular AND the Education Minister on record. Calling DBSE a live Delhi board would have been a false fact. No 'X% of Delhi schools are CBSE' claim: no board-wise count was verifiable. NIOS omitted (HQ is in Noida, UP)."
+  },
+  "lucknow": {
+    "lede": "The largest school on earth is in Lucknow. City Montessori School started in 1959 with five pupils in rented rooms and now holds a Guinness World Record with 61,345 pupils across 21 campuses in this city. Down the road, La Martiniere &mdash; open since 1845 &mdash; is the only school anywhere to hold royal battle honours, for the defence of the Residency in 1857. Lucknow takes schooling unusually seriously. The routes onward are JEE Main through UPTAC, or JEECUP for polytechnics.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to UP Board students in Lucknow?",
+        "a": "Yes. Lucknow runs the UP Board alongside CBSE, ICSE and IB, and our classes sit beside whichever your child attends. The UP Board describes itself as the biggest examining body in the world; whatever the ranking, its Class 10 and 12 papers are not where a child learns to actually write software. That is the gap we fill."
+      },
+      {
+        "q": "Can IIM Lucknow or AKTU students join your programming courses?",
+        "a": "Yes. AKTU affiliates the engineering colleges across the whole state from its Jankipuram campus, and its B.Tech admissions run on JEE Main through UPTAC. Students already inside that system take our college track for the part it does not cover: Python, Java, full-stack or AI/ML built into something that runs."
+      }
+    ],
+    "_sources": {
+      "City Montessori School: largest school by pupils, 61,345, 21 campuses (Guinness, 10 Aug 2023)": "https://www.guinnessworldrecords.com/world-records/largest-school-by-pupils",
+      "La Martiniere 1845, only school with royal battle honours": "https://en.wikipedia.org/wiki/La_Martini%C3%A8re_College,_Lucknow",
+      "IIM Lucknow 1984 (4th IIM)": "https://www.iiml.ac.in/about-iim-lucknow/history-&-milestones",
+      "AKTU 2000, Jankipuram, UPTAC counselling on JEE Main": "https://uptac.samarth.edu.in/",
+      "University of Lucknow 1920": "https://www.lkouniv.ac.in/en/page/university-history",
+      "UPMSP self-description 'biggest examining body in the World'": "https://upmsp.edu.in/Aboutus.aspx"
+    },
+    "_excluded": "'UP Board is India's largest board' is UPMSP's OWN self-description and is NOT Lucknow-specific (equally true of Kanpur/Varanasi/Agra) - so it is attributed in-sentence ('describes itself as') rather than asserted. No school counts: UPMSP says 22,000+ recognised schools, Wikipedia says 29,208 - do not publish a number. No AKTU affiliated-college count: official says 756, Wikipedia ~800. CMS's 2002 UNESCO peace prize omitted (UNESCO's own doc 403s). La Martiniere battle honours rests on Wikipedia; the school's own site 403s - high confidence, not primary."
+  },
+  "kolkata": {
+    "lede": "Indian computing started in this city. The Indian Statistical Institute took delivery of the HEC-2M in February 1956 &mdash; by ISI&#x27;s own account the first electronic computer installed in India, and ISI was the first place in the country to turn out trained programmers. Ten years later ISI and Jadavpur University built ISIJU-1 together, the first solid state computer made in India, commissioned in April 1966. Kolkata has been teaching people to program for longer than anywhere else in the country.",
+    "faqs": [
+      {
+        "q": "Is ISC Computer Science in Kolkata taught in Java?",
+        "a": "Yes. CISCE prescribes Java for ISC Class 12 Computer Science &mdash; version 5.0 or later, with BlueJ strongly recommended &mdash; and the practical exam asks candidates to hand-write a program in a planning session before keying it in and running it. That matters more here than elsewhere: West Bengal is one of the few states with more ICSE and ISC schools than CBSE ones, 460 against 418 on the state&#x27;s own 2023 count. We teach Java properly for exactly this reason."
+      },
+      {
+        "q": "Can Jadavpur, Calcutta University or ISI students join your programming courses?",
+        "a": "Yes. Jadavpur has taught engineering since 1955, Calcutta University since 1857, and ISI has taught statistics and computer science since 1931 &mdash; the theory is not the gap. The college track is for the other half: Python, Java, full-stack or AI/ML carried through to something that runs and can be shown."
+      }
+    ],
+    "_sources": {
+      "HEC-2M Feb 1956 = first electronic computer in India; ISI first to train programmers; ISIJU-1 first solid state computer built in India (Apr 1966)": "http://web.archive.org/web/20250316164201/https://www.isical.ac.in/~repro/history/public/notepage/ISI_Computers-F.html",
+      "WB has 460 CISCE schools vs 418 CBSE (WB Directorate of School Education notification, 28 Aug 2023)": "https://banglarshiksha.wb.gov.in/readwrite/List%20of%20affiliated%20schools_WB.pdf",
+      "ISC Class 12 Computer Science is Java 5.0+, BlueJ recommended, planning-session practical": "https://cisce.org/wp-content/uploads/2025/04/36.-ISC-Computer-Science-XII_2025.pdf",
+      "Jadavpur University 1955": "https://jadavpuruniversity.in/about/",
+      "University of Calcutta 1857": "http://web.archive.org/web/20140302153946/http://www.caluniv.ac.in:80/About%20the%20university/Foundation%20of%20the%20University.htm",
+      "ISI founded 1931 by P.C. Mahalanobis": "https://www.isical.ac.in/isical_web/static/about/timeline.php",
+      "WBJEE": "https://wbjeeb.in/wbjee-exam/"
+    },
+    "_excluded": "IIT KHARAGPUR IS NOT IN KOLKATA (~120km away) - never named. The 460-vs-418 figures are CISCE vs CBSE ONLY: the same notification's WBBSE figure (740) counts UNAIDED schools only and must never be compared against the other two. No Kolkata city-level school count exists in the source, so none is claimed; aggregator ICSE counts (353/375) conflict and were discarded. The ISC-Java syllabus is CISCE-wide/national - it is distinctive for Kolkata only IN COMBINATION with the state's atypical ICSE density, and the copy says exactly that rather than implying a Kolkata-only syllabus. IIEST 'second-oldest engineering college' dropped (its own site says second, Wikipedia says third). Salt Lake Sector V dropped: an IT hub is not city-unique and the '430 acres' figure is Wikipedia-only. ISI's live history page 500s and Calcutta University blocks fetching, so both are cited to Wayback snapshots of the institutions' OWN pages, opened and read.",
+    "_note": "Dropped a drafted line placing the child 'about seven kilometres from where the country learned to': the classes are online from the child's home, which can be anywhere in Kolkata, so the distance was both unverifiable and incoherent."
   }
 }
