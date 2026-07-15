@@ -34,7 +34,7 @@ module.exports = [
         coursesLede: 'We match the course to the child\'s age and reading level. The options below are all beginner-safe — no prior knowledge required.',
         courses: [PY.pythonKids, PY.aiKids, PY.pythonTeen, PY.aimlTeen, PY.dsaTeen, PY.flaskBackend, PY.dsTeen, PY.autoPy],
         skipHeading: 'Has your child already done Scratch?',
-        skipBody: 'If your child has some Scratch or Code.org under the belt, <strong>skip the very first weeks</strong> and jump into <a href="/courses/python-ai-kids-masterclass" style="color:inherit;text-decoration:underline;">Python for Kids</a> or <a href="/courses/kids-ai-mastery-course" style="color:inherit;text-decoration:underline;">AI Tools</a>. The demo teacher does a 10-minute level check.',
+        skipBody: 'If your child has some Scratch or Code.org under the belt, <strong>skip the very first weeks</strong> and jump into <a href="/courses/python-ai-kids-masterclass" style="color:inherit;text-decoration:underline;">Python for Kids</a> or <a href="/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8" style="color:inherit;text-decoration:underline;">AI Tools</a>. The demo teacher does a 10-minute level check.',
         whyHeading: 'The right beginner path depends on the child.',
         whyLede: 'A 7-year-old beginner needs very different pacing from a 13-year-old beginner. Our teachers shape the first month around the child — shorter programs, silly content, plenty of wins.',
         whys: [

@@ -1,26 +1,19 @@
 {
   "meta": {
-    "slug": "kids-ai-mastery-course",
-    "title": "AI Tools for Kids: Prompting, Creative Projects & Safe AI Use",
-    "description": "A 6-month AI course for kids: learn prompt engineering with age-appropriate AI tools, create real projects, and learn to use AI safely and honestly.",
+    "slug": "teens-ai-tools-mastery-course",
+    "title": "AI Tools for Teens (13+): Prompting, Creative Projects & Safe AI Use",
+    "description": "A 6-month AI course for teens aged 13+: prompt engineering, AI image, audio, video and code tools, real projects, and how to use AI honestly. Every tool is one a 13+ student can actually sign up for.",
     "keywords": [
-      "AI for kids",
+      "AI course for teens",
+      "AI tools for teenagers",
       "ChatGPT for students",
-      "prompt engineering",
-      "DALL-E",
-      "Midjourney",
-      "AI art generation",
-      "AI music creation",
-      "AI video tools",
-      "machine learning for kids",
-      "AI safety",
-      "creative AI",
-      "educational AI",
-      "AI literacy",
-      "future skills",
-      "digital creativity"
+      "prompt engineering for teens",
+      "AI art course for teens",
+      "teen AI class",
+      "AI course for class 8 to 12",
+      "safe AI use for teenagers"
     ],
-    "category": "AI Education for Youth",
+    "category": "AI Education for Teens",
     "price": {
       "group": "₹1499/month",
       "miniBatch": "₹2499/month",
@@ -28,17 +21,17 @@
       "lifetime": "₹8,999 (one-time)"
     },
     "duration": "6 months (26 weeks)",
-    "level": "Complete Beginner to AI Expert",
+    "level": "Complete Beginner to Confident AI User",
     "commitment": "5-8 hours/week recommended",
     "certification": "Certified AI Creator for Youth",
     "image_path": "ai-tools-kids.png"
   },
   "program_overview": {
-    "title": "AI Tools Mastery for Kids - Creative Intelligence",
+    "title": "AI Tools Mastery for Teens - Creative Intelligence",
     "tagline": "From AI Curious to AI Creator - Master the Future Today",
-    "description": "This revolutionary 6-month program transforms kids into confident AI users and creators. Students will master prompt engineering, explore AI tools chosen for their age, create amazing projects, and develop critical thinking about AI's role in society.\n\nPerfect for ages 8-18, this course covers everything from ChatGPT conversations to creating AI art, music, videos, games, and even AI-assisted coding. Students will build an impressive portfolio while learning AI safety, ethics, and future-ready skills.",
+    "description": "This revolutionary 6-month program transforms teens into confident AI users and creators. Students will master prompt engineering, explore AI tools chosen for their age, create amazing projects, and develop critical thinking about AI's role in society.\n\nPerfect for ages 13-18, this course covers everything from ChatGPT conversations to creating AI art, music, videos, games, and even AI-assisted coding. Students will build an impressive portfolio while learning AI safety, ethics, and future-ready skills.",
     "what_makes_this_different": [
-      "Kid-friendly approach to complex AI concepts",
+      "Plain-language approach to complex AI concepts",
       "Hands-on with 50+ real AI tools",
       "Safety-first approach with parental controls",
       "Creative project-based learning",
@@ -71,7 +64,7 @@
       "topics": [
         "What is Artificial Intelligence? Simple explanation",
         "AI in everyday life: Siri, Alexa, YouTube recommendations",
-        "How AI learns: Machine Learning basics for kids",
+        "How AI learns: Machine Learning basics for teens",
         "Types of AI: Narrow AI vs General AI",
         "AI history: From calculators to ChatGPT",
         "AI vocabulary: Model, training, dataset, algorithm",
@@ -411,7 +404,12 @@
         "Lip-sync and dubbing AI",
         "Short-form content creation"
       ],
-      "tools_covered": [],
+      "tools_covered": [
+        "Runway ML",
+        "Pictory.ai",
+        "Kapwing AI",
+        "Descript"
+      ],
       "projects": [
         "Create AI news report",
         "Animated explainer video",
@@ -622,7 +620,7 @@
         "Design personal portfolio"
       ],
       "languages": "HTML/CSS, Python, JavaScript basics with AI assistance",
-      "practice": "Ask an AI assistant to explain a small piece of code in kid friendly words, then change one thing and predict what happens."
+      "practice": "Ask an AI assistant to explain a small piece of code in plain words, then change one thing and predict what happens."
     },
     "week_18": {
       "title": "No-Code AI App Builders",
@@ -795,7 +793,7 @@
         "Develop business pitch"
       ],
       "skills": "Entrepreneurial thinking, problem-solving, innovation",
-      "practice": "Invent a kid business idea, generate a logo for it with AI and write its one line slogan yourself."
+      "practice": "Invent a small business idea, generate a logo for it with AI and write its one line slogan yourself."
     },
     "week_23": {
       "title": "AI Safety and Ethics",
@@ -972,7 +970,9 @@
     ],
     "music_ai": [
       "Soundraw",
-      "AIVA"
+      "AIVA",
+      "Suno AI",
+      "Boomy"
     ],
     "voice_ai": [
       "Speechify",
@@ -981,19 +981,24 @@
     "coding_ai": [
       "Replit AI",
       "AI Code Mentor",
-      "Programming Helper"
+      "Programming Helper",
+      "GitHub Copilot"
     ],
     "learning_ai": [
       "Khan Academy Khanmigo",
       "Duolingo Max",
       "Quillbot",
       "Wolfram Alpha",
-      "Elicit"
+      "Elicit",
+      "Photomath",
+      "Consensus",
+      "Scholarcy"
     ],
     "creative_ai": [
       "Canva AI",
       "Khroma",
-      "Fontjoy"
+      "Fontjoy",
+      "Adobe Firefly"
     ],
     "specialized_ai": [
       "Teachable Machine",
@@ -1001,6 +1006,16 @@
       "CreateML",
       "Gradio",
       "Streamlit"
+    ],
+    "video_ai": [
+      "Runway ML",
+      "Pictory.ai",
+      "Kapwing AI",
+      "Descript"
+    ],
+    "productivity_ai": [
+      "Otter.ai",
+      "Reclaim.ai"
     ]
   },
   "safety_guidelines": {
@@ -1114,7 +1129,7 @@
       "Mentor office hours"
     ],
     "additional_resources": [
-      "AI news digest for kids",
+      "AI news digest for teens",
       "Tool update notifications",
       "Competition announcements",
       "Guest speaker series",
@@ -1124,7 +1139,7 @@
   "career_pathways": {
     "immediate_opportunities": [
       "AI content creation for social media",
-      "Tutoring other kids in AI tools",
+      "Tutoring other teens in AI tools",
       "Freelance creative projects",
       "School tech helper",
       "AI club leadership"
@@ -1155,11 +1170,11 @@
     ]
   },
   "who_is_this_for": {
-    "students": "Kids (8+) and teens curious about AI",
-    "working_professionals": "Teachers and parents learning with kids",
+    "students": "Teenagers (13-18) curious about AI",
+    "working_professionals": "Teachers and parents learning alongside their teenager",
     "entrepreneurs": "Young entrepreneurs exploring AI opportunities",
     "freelancers": "Future AI content creators and developers",
-    "kids": "Creative kids who want to master AI tools",
+    "creative_teens": "Creative teenagers who want to use AI tools well",
     "anyone": "Anyone passionate about using AI creatively"
   },
   "career_paths_after_completion": [
@@ -1184,51 +1199,51 @@
   },
   "faqs": [
     {
-      "question": "What age is appropriate for this AI tools course for kids?",
-      "answer": "This course is designed for children ages 8-18. We use kid-friendly AI tools with parental supervision for younger ages (8-12), while teens can explore more advanced features independently. All tools are carefully selected for age-appropriate content and safety."
+      "question": "What age is appropriate for this AI tools course for teens?",
+      "answer": "This course is for ages 13 to 18. The age floor is not arbitrary: most AI tools set 13 as their own minimum in their terms of use, so a younger student cannot lawfully hold an account. Every tool in this course is one a 13+ student can actually sign up for. If your child is under 13, ask us about our AI courses built for that age group instead."
     },
     {
-      "question": "Is it safe for my child to use AI tools?",
-      "answer": "Absolutely! Safety is our top priority. We teach safe AI usage from day one, including never sharing personal information, always verifying AI outputs, understanding AI limitations, and using parental controls. All tools used are educational-friendly versions with content filters."
+      "question": "Is it safe for my teenager to use AI tools?",
+      "answer": "Safety is built into the course, not bolted on. We teach it from day one: never share personal information, always verify what the AI tells you, understand what it cannot do, and know when not to use it at all. We also check each tool's own age requirement before we teach it, and we tell students plainly which tools they are not old enough for yet."
     },
     {
-      "question": "Does my child need any prior experience to start this course?",
+      "question": "Does my teenager need any prior experience to start this course?",
       "answer": "No prior experience is needed! We start from the very basics of what AI is and how it works. The course is designed for complete beginners while also challenging those who already have some familiarity with AI tools."
     },
     {
-      "question": "Will my child learn actual skills or just play with AI toys?",
-      "answer": "This is a comprehensive skill-building program! Students learn prompt engineering, critical thinking, creative problem-solving, digital literacy, and ethical reasoning. They'll master 50+ professional AI tools used in real industries - from ChatGPT to Midjourney to coding assistants."
+      "question": "Will my teenager learn actual skills or just play with AI toys?",
+      "answer": "This is a comprehensive skill-building program! Students learn prompt engineering, critical thinking, creative problem-solving, digital literacy, and ethical reasoning. They work with professional AI tools used in real industries, from ChatGPT to Midjourney to coding assistants."
     },
     {
-      "question": "How will this course help my child's future career?",
+      "question": "How will this course help my teenager's future career?",
       "answer": "AI literacy is becoming essential across all careers. This course prepares students for the AI-driven future with skills in prompt engineering, AI ethics, creative AI applications, and critical evaluation of AI outputs. These skills are already in high demand across industries."
     },
     {
-      "question": "What equipment does my child need for this AI course?",
+      "question": "What equipment does my teenager need for this AI course?",
       "answer": "A basic computer or laptop with internet connection is sufficient. Some tools work on tablets too. All software used is either free or has free educational versions. We guide parents on setting up safe accounts with appropriate controls."
     }
   ],
   "related_courses": [
     {
-      "slug": "python-ai-kids-masterclass",
-      "title": "Python for AI Kids",
-      "description": "Learn to code and build AI with Python"
+      "slug": "ai-ml-masterclass-teens",
+      "title": "AI & Machine Learning for Teens: Zero to AI Expert",
+      "description": "Go from using AI tools to building your own models."
     },
     {
-      "slug": "game-development-masterclass-for-kids",
-      "title": "Game Development for Kids",
-      "description": "Create games using AI-powered tools"
+      "slug": "python-complete-masterclass-teens",
+      "title": "Python Programming for Teens: Zero to Advanced in 2 Years",
+      "description": "Learn the language most AI is actually written in."
     },
     {
-      "slug": "problem-solving-and-computational-thinking-for-kids",
-      "title": "Problem Solving for Kids",
-      "description": "Develop logical thinking skills"
+      "slug": "problem-solving-dsa-masterclass-teens",
+      "title": "DSA & Problem Solving for Teens: Algorithms to Interviews",
+      "description": "Build the problem-solving muscle AI cannot do for you."
     }
   ],
   "why_this_course": {
-    "title": "Why AI Literacy is the Most Important Skill for Kids Today",
+    "title": "Why AI Literacy is the Most Important Skill for Teens Today",
     "paragraphs": [
-      "AI is transforming every industry, every career, and every aspect of life. Kids who master AI tools today will have an unprecedented advantage in tomorrow's world. This isn't about replacing human skills, it's about amplifying them with the most powerful tools ever created.",
+      "AI is transforming every industry, every career, and every aspect of life. Teens who master AI tools today will have an unprecedented advantage in tomorrow's world. This isn't about replacing human skills, it's about amplifying them with the most powerful tools ever created.",
       "From creating stunning artwork to writing compelling content, from coding applications to solving complex problems, AI tools are becoming as essential as knowing how to use a computer. Students learn to use 50+ real AI tools while developing critical thinking about AI's capabilities and limitations.",
       "Beyond tools, this course builds the ethical framework and critical thinking skills needed to navigate an AI-powered world responsibly. Our graduates don't just use AI, they understand it, question it, and shape how it's used for good."
     ],
@@ -1280,7 +1295,7 @@
     }
   },
   "prerequisites": {
-    "age": "Ages 8-16 (multiple difficulty tracks)",
+    "age": "Ages 13-18 (multiple difficulty tracks)",
     "experience": "No prior AI or coding experience needed",
     "equipment": "Computer or tablet with internet connection",
     "software": "Most AI tools used are free or have free tiers - guidance provided",

@@ -35,7 +35,7 @@ module.exports = [
         coursesLede: 'At Class 6, the right Python course blends CBSE chapters with real projects. These are our top picks.',
         courses: [PY.pythonKids, PY.aiKids, PY.pythonTeen, PY.aimlTeen, PY.flaskBackend, PY.dsaTeen, PY.dsTeen, PY.autoPy],
         skipHeading: 'Already did Python in Class 5?',
-        skipBody: 'If your Class 6 child already handled Python in Class 5, <strong>skip basics</strong> and move into <a href="/courses/python-ai-kids-masterclass" style="color:inherit;text-decoration:underline;">Python + AI</a> or <a href="/courses/kids-ai-mastery-course" style="color:inherit;text-decoration:underline;">AI Tools</a>. Free demo places them.',
+        skipBody: 'If your Class 6 child already handled Python in Class 5, <strong>skip basics</strong> and move into <a href="/courses/python-ai-kids-masterclass" style="color:inherit;text-decoration:underline;">Python + AI</a> or <a href="/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8" style="color:inherit;text-decoration:underline;">AI Tools</a>. Free demo places them.',
         whyHeading: 'Class 6 Python is when the real thing starts.',
         whyLede: 'Code 166 introduces Python, blocks, AI basics and digital citizenship. Most school classrooms cannot do real projects. We can. And we are aligned to exactly what your child\'s school teaches.',
         whys: [

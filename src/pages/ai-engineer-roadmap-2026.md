@@ -169,7 +169,7 @@ Each course below maps to one or two stages of the roadmap. You can self-study e
 
 ### For *kids*, age 8–12 — start Stage 1 early
 
-Junior · weekly live[Stage 1 prep · Ages 7-11 Vibe Coding for *Kids* The pre-Stage-1 on-ramp. Scratch through first Python with AI-assisted projects. 2 classes/week₹1,499/mo](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Stage 1 + 5 preview · Ages 8-12 Python & AI Kids *Masterclass* Real Python with first-touch AI tools. The fastest Stage-1 path for a serious kid. 2 classes/week₹1,499/mo](/courses/python-ai-kids-masterclass)[Stage 5 lite · Ages 9-13 Kids AI *Mastery* The Stage-5 starter pack — using LLM tools to build real things, kid-paced. 2 classes/week₹1,499/mo](/courses/kids-ai-mastery-course)
+Junior · weekly live[Stage 1 prep · Ages 7-11 Vibe Coding for *Kids* The pre-Stage-1 on-ramp. Scratch through first Python with AI-assisted projects. 2 classes/week₹1,499/mo](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Stage 1 + 5 preview · Ages 8-12 Python & AI Kids *Masterclass* Real Python with first-touch AI tools. The fastest Stage-1 path for a serious kid. 2 classes/week₹1,499/mo](/courses/python-ai-kids-masterclass)[Stage 5 lite · Ages 8–13 Computational Thinking *& AI* The Stage-5 starter pack — train a model, build a classifier, kid-paced. 2 classes/week₹1,499/mo](/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)
 
 ### For *teens*, age 13–18 — complete Stages 1–4 by college
 

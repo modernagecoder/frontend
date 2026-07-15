@@ -93,7 +93,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Scratch Programming Complete Course: https://learn.modernagecoders.com/courses/scratch-programming-complete-course
 - Kids Coding Blocks Masterclass: https://learn.modernagecoders.com/courses/kids-coding-blocks-masterclass
 - Block Coding App Development: https://learn.modernagecoders.com/courses/block-coding-app-development-masterclass
-- Kids AI Mastery Course: https://learn.modernagecoders.com/courses/kids-ai-mastery-course
+- AI Tools for Teens (13+): https://learn.modernagecoders.com/courses/teens-ai-tools-mastery-course
 - Kids AI Web Development: https://learn.modernagecoders.com/courses/kids-ai-web-development-course
 - Problem Solving & Computational Thinking: https://learn.modernagecoders.com/courses/problem-solving-and-computational-thinking-for-kids
 - Game Development for Kids: https://learn.modernagecoders.com/courses/game-development-masterclass-for-kids

@@ -54,13 +54,13 @@ HTML5CSS3JavaScriptResponsive[Build Websites](/courses/kids-ai-web-development-c
 
 Build your own games using Scratch, Python Pygame, and Roblox Studio! Create interactive stories, puzzles, platformers, and multiplayer adventures.
 
-PygameRoblox StudioGame DesignLogic[Make Games](/courses/game-development-masterclass-for-kids)![AI and machine learning tools for kids - creative AI projects](/images/ai-tools-kids.webp)New
+PygameRoblox StudioGame DesignLogic[Make Games](/courses/game-development-masterclass-for-kids)![AI and machine learning tools for kids - creative AI projects](/images/ct-ai-kids.webp)New
 
-### AI Tools for Kids
+### Computational Thinking & AI
 
 Explore AI and machine learning! Use ChatGPT, Teachable Machine, Google AI tools, and DALL-E to create art, stories, music, and games while learning how artificial intelligence actually works.
 
-AI BasicsChatGPTTeachable MachineCreative AI[Explore AI](/courses/kids-ai-mastery-course)![app development for kids - child building mobile apps](/images/app-dev-kids.webp)
+AI BasicsChatGPTTeachable MachineCreative AI[Explore AI](/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)![app development for kids - child building mobile apps](/images/app-dev-kids.webp)
 
 ### App Development
 

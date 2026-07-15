@@ -66,7 +66,7 @@ Quick links to all our coding, AI, and maths courses
 
 ### Kids (Ages 6-12)
 
-[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Scratch Programming](/courses/scratch-programming-complete-course)[Kids Coding Adventure](/courses/kids-coding-blocks-masterclass)[Python for Kids](/courses/python-ai-kids-masterclass)[Build Your First Website](/courses/kids-ai-web-development-course)[AI Tools for Kids](/courses/kids-ai-mastery-course)[Canva Design Studio](/courses/canva-ai-design-masterclass)[Microsoft Office](/courses/microsoft-office-kids-mastery)[Problem Solving](/courses/problem-solving-and-computational-thinking-for-kids)[Creative Coding & Animation](/courses/creative-coding-animation-mastery)[Block Coding App Dev](/courses/block-coding-app-development-masterclass)[Game Development](/courses/game-development-masterclass-for-kids)
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Scratch Programming](/courses/scratch-programming-complete-course)[Kids Coding Adventure](/courses/kids-coding-blocks-masterclass)[Python for Kids](/courses/python-ai-kids-masterclass)[Build Your First Website](/courses/kids-ai-web-development-course)[Computational Thinking & AI](/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)[Canva Design Studio](/courses/canva-ai-design-masterclass)[Microsoft Office](/courses/microsoft-office-kids-mastery)[Problem Solving](/courses/problem-solving-and-computational-thinking-for-kids)[Creative Coding & Animation](/courses/creative-coding-animation-mastery)[Block Coding App Dev](/courses/block-coding-app-development-masterclass)[Game Development](/courses/game-development-masterclass-for-kids)
 
 ### Teens (Ages 13-18)
 

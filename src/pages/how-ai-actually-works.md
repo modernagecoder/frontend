@@ -152,7 +152,7 @@ Reading this page gives you the map. Building gives you the territory. Below are
 
 ### For *kids*, age 7 to 12 — the on-ramp
 
-Junior · weekly live[Ages 7–11 · Beginner Vibe Coding for *Kids* Scratch and block coding plus AI-assisted projects. The on-ramp that gets a child from "what is code" to "I built this." 2 classes/week₹1,499/mo](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Ages 8–12 · Python & AI Python & AI Kids *Masterclass* Pure Python introduction with AI tooling baked in. The most-requested course in our kids catalog. 2 classes/week₹1,499/mo](/courses/python-ai-kids-masterclass)[Ages 9–13 · AI Tools Kids AI *Mastery* AI tools that real children can use to build real things — chatbots, image generators, mini agents. 2 classes/week₹1,499/mo](/courses/kids-ai-mastery-course)
+Junior · weekly live[Ages 7–11 · Beginner Vibe Coding for *Kids* Scratch and block coding plus AI-assisted projects. The on-ramp that gets a child from "what is code" to "I built this." 2 classes/week₹1,499/mo](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Ages 8–12 · Python & AI Python & AI Kids *Masterclass* Pure Python introduction with AI tooling baked in. The most-requested course in our kids catalog. 2 classes/week₹1,499/mo](/courses/python-ai-kids-masterclass)[Ages 8–13 · AI & Thinking Computational Thinking *& AI* AI a child can actually use: train a model, build a classifier, build a simple chatbot. 2 classes/week₹1,499/mo](/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)
 
 ### For *teens*, age 13 to 18 — the build years
 

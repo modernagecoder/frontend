@@ -121,9 +121,9 @@ The world's most loved beginner course. Kids learn Python through games, art pro
 - Intro to AI — teach a computer to recognise shapes
 - No prior experience needed
 
-[View Course →](https://learn.modernagecoders.com/courses/python-ai-kids-masterclass)![AI for kids online](/images/ai-tools-kids.webp)WOW Factor
+[View Course →](https://learn.modernagecoders.com/courses/python-ai-kids-masterclass)![Computational thinking and AI for kids online](/images/ct-ai-kids.webp)WOW Factor
 
-### Kids AI Mastery — Ages 9-13
+### Computational Thinking & AI — Ages 8-13
 
 Demystify artificial intelligence for your child. They'll build an image classifier, a smart chatbot, and understand how AI powers the world around them.
 
@@ -132,7 +132,7 @@ Demystify artificial intelligence for your child. They'll build an image classif
 - Build a picture-recognising AI tool
 - Responsible AI — when should AI be used?
 
-[View Course →](https://learn.modernagecoders.com/courses/kids-ai-mastery-course)![Python for teens online](/images/python-teens.webp)Core Skill
+[View Course →](https://learn.modernagecoders.com/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)![Python for teens online](/images/python-teens.webp)Core Skill
 
 ### Complete Python — Ages 13-18
 

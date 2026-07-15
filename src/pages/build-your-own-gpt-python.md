@@ -370,7 +370,7 @@ Reading this article is one path. Sitting alongside a mentor and four other lear
 
 ### For *kids*, age 8–12 — start the journey here
 
-Junior · weekly live[Ages 8–12 · Python+AI Python & AI Kids *Masterclass* The first real step toward training a model someday. Solid Python plus first-touch AI projects. 2 classes/week₹1,499/mo](/courses/python-ai-kids-masterclass)[Ages 9–13 · AI Tools Kids AI *Mastery* Use real AI tools — Claude, ChatGPT, image generators — to build real mini-projects. 2 classes/week₹1,499/mo](/courses/kids-ai-mastery-course)[Ages 7–11 · Beginner Vibe Coding for *Kids* For complete beginners. Scratch through first Python, with AI co-pilot from day one. 2 classes/week₹1,499/mo](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
+Junior · weekly live[Ages 8–12 · Python+AI Python & AI Kids *Masterclass* The first real step toward training a model someday. Solid Python plus first-touch AI projects. 2 classes/week₹1,499/mo](/courses/python-ai-kids-masterclass)[Ages 8–13 · AI & Thinking Computational Thinking *& AI* Train your own model with Teachable Machine and build real mini-projects. 2 classes/week₹1,499/mo](/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)[Ages 7–11 · Beginner Vibe Coding for *Kids* For complete beginners. Scratch through first Python, with AI co-pilot from day one. 2 classes/week₹1,499/mo](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
 
 ### For *teens*, age 13–18 — build a real model
 

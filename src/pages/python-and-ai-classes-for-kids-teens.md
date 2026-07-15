@@ -61,9 +61,9 @@ The perfect first step. Kids aged 8-12 learn Python through stories, games and a
 - Intro to AI: chatbot, image sorting
 - Completion certificate included
 
-[View Course Details →](https://learn.modernagecoders.com/courses/python-ai-kids-masterclass)![Kids AI Mastery course](/images/ai-tools-kids.webp)AI Explorer
+[View Course Details →](https://learn.modernagecoders.com/courses/python-ai-kids-masterclass)![Computational thinking and AI for kids](/images/ct-ai-kids.webp)AI Explorer
 
-### Kids AI Mastery Course
+### Computational Thinking & AI Course
 
 Designed for curious kids who want to understand how AI actually works — without complex math. Hands-on, visual, exciting.
 
@@ -72,7 +72,7 @@ Designed for curious kids who want to understand how AI actually works — witho
 - Build a voice-controlled program
 - No prior coding needed
 
-[View Course Details →](https://learn.modernagecoders.com/courses/kids-ai-mastery-course)![Kids AI Web Development](/images/scratch-kids.webp)Creative Coder
+[View Course Details →](https://learn.modernagecoders.com/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)![Kids AI Web Development](/images/scratch-kids.webp)Creative Coder
 
 ### AI + Web Development for Kids
 
@@ -399,7 +399,7 @@ Forging the next generation of innovators.
 ### Python & AI Courses
 
 - [Python + AI for Kids](https://learn.modernagecoders.com/courses/python-ai-kids-masterclass)
-- [Kids AI Mastery](https://learn.modernagecoders.com/courses/kids-ai-mastery-course)
+- [Computational Thinking & AI](https://learn.modernagecoders.com/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)
 - [Python for Teens](https://learn.modernagecoders.com/courses/python-complete-masterclass-teens)
 - [AI & ML for Teens](https://learn.modernagecoders.com/courses/ai-ml-masterclass-teens)
 - [DSA in Python](https://learn.modernagecoders.com/courses/problem-solving-dsa-masterclass-teens)

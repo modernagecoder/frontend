@@ -647,6 +647,11 @@
 /content/courses/generated/* /content/courses/generated/:splat 200
 
 # 301 Redirects for retired/changed course slugs (must come BEFORE catch-all)
+# kids-ai-mastery-course was re-pitched to 13+ and renamed; the old slug had 116 inbound refs + a sitemap entry.
+# The splat carries the .md twin (/index.md) across too. Splat, not :placeholder.ext — that
+# form is parsed as ONE placeholder and matched every /courses/X (prod outage 2026-05-06).
+/courses/kids-ai-mastery-course /courses/teens-ai-tools-mastery-course 301!
+/courses/kids-ai-mastery-course/* /courses/teens-ai-tools-mastery-course/:splat 301!
 /courses/python-programming-masterclass-teens /courses/python-complete-masterclass-teens 301!
 /courses/maths /courses/college-mathematics-complete-masterclass 301!
 /courses/python-ai-automation-masterclass /courses/python-ai-automation-masterclass-college 301!

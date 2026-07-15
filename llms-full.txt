@@ -38,7 +38,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Resources practice: /content/resources/generated/{lang}/{chapter}/practice/index.md
 - Static pages:  /src/pages/{slug}.md
 
-> Generated: 2026-07-14 · Source of truth: https://learn.modernagecoders.com/llms.txt
+> Generated: 2026-07-15 · Source of truth: https://learn.modernagecoders.com/llms.txt
 
 Full companion to /llms.txt — brand overview, complete course catalog, embedded text of featured blog posts, and full blog index. AI agents that prefer a single document can use this as the canonical knowledge base.
 
@@ -80,19 +80,13 @@ Full companion to /llms.txt — brand overview, complete course catalog, embedde
 
 Every Modern Age Coders course, grouped by audience.
 
-### Kids (13)
+### Kids (12)
 
 ### [Abacus & Mental Maths for Kids: From First Beads to Anzan](https://learn.modernagecoders.com/courses/abacus-mental-maths-course-for-kids/)
 
 *Level:* Ages 5 to 10, no prior maths needed beyond counting · *Duration:* 8 months (32 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
 
 Abacus classes for kids ages 5-10: live online mental maths course from first beads to anzan visualisation and mental-only sums. Small batches, free demo.
-
-### [AI Tools for Kids: ChatGPT, DALL-E & Creative Projects](https://learn.modernagecoders.com/courses/kids-ai-mastery-course/)
-
-*Level:* Complete Beginner to AI Expert · *Duration:* 6 months (26 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
-
-A 6-month AI course for kids: master ChatGPT, DALL-E, Midjourney and 50+ AI tools, learn prompt engineering, create real projects and stay safe with AI.
 
 ### [CBSE Computational Thinking & AI for Kids (Class 3-8)](https://learn.modernagecoders.com/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8/)
 
@@ -160,13 +154,19 @@ Live online vibe coding course for kids ages 8-12: learn Scratch, AI tools and g
 
 Live online web development course for kids: build real websites with HTML, CSS and AI tools in a 1-year program, from zero coding to professional sites.
 
-### Teens (20)
+### Teens (21)
 
 ### [AI & Machine Learning for Teens: Zero to AI Expert](https://learn.modernagecoders.com/courses/ai-ml-masterclass-teens/)
 
 *Level:* Complete Beginner to AI Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹3999/month
 
 A 1-year AI and Machine Learning program for teens: master Python, maths, ML algorithms, deep learning, computer vision, NLP and build real AI projects.
+
+### [AI Tools for Teens (13+): Prompting, Creative Projects & Safe AI Use](https://learn.modernagecoders.com/courses/teens-ai-tools-mastery-course/)
+
+*Level:* Complete Beginner to Confident AI User · *Duration:* 6 months (26 weeks) · *Group:* ₹1499/month · *1-on-1:* ₹4999/month
+
+A 6-month AI course for teens aged 13+: prompt engineering, AI image, audio, video and code tools, real projects, and how to use AI honestly. Every tool is one a 13+ student can actually sign up for.
 
 ### [Backend Development for Teens: APIs, Databases & Cloud](https://learn.modernagecoders.com/courses/backend-coding-masterclass-for-teens/)
 

@@ -16,7 +16,7 @@ Everyone is selling AI agents in 2026. Almost no one is telling you what they ac
 
 Or build one with a mentor — *here are the cohorts that walk you through it.*
 
-[all 60+ courses →](/courses)[Ages 9–13 · Kids Kids AI *Mastery* Real AI tools used by real kids — the gentle on-ramp to agent building. 2 classes/week₹1,499/mo](/courses/kids-ai-mastery-course)[Ages 14–18 · Teens AI & ML *Teens* The Python + ML foundation needed for agents. Build models. Then make them call tools. 2 classes/week₹1,499/mo](/courses/ai-ml-masterclass-teens)[College / Adult · GenAI Generative AI *Masterclass* This article is the trailer. Twelve weeks of building real production agents. 2 classes/week₹1,499/mo](/courses/complete-generative-ai-masterclass-college)[College / Adult · Automation Python AI *Automation* Agents in the context of automating real work — the high-leverage non-engineer path. 2 classes/week₹1,499/mo](/courses/python-ai-automation-masterclass-college)
+[all 60+ courses →](/courses)[Ages 8–13 · Kids Computational Thinking *& AI* Teachable Machine, image classifiers and simple chatbots — the gentle on-ramp to agent building. 2 classes/week₹1,499/mo](/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)[Ages 14–18 · Teens AI & ML *Teens* The Python + ML foundation needed for agents. Build models. Then make them call tools. 2 classes/week₹1,499/mo](/courses/ai-ml-masterclass-teens)[College / Adult · GenAI Generative AI *Masterclass* This article is the trailer. Twelve weeks of building real production agents. 2 classes/week₹1,499/mo](/courses/complete-generative-ai-masterclass-college)[College / Adult · Automation Python AI *Automation* Agents in the context of automating real work — the high-leverage non-engineer path. 2 classes/week₹1,499/mo](/courses/python-ai-automation-masterclass-college)
 
 ## // table of contents
 
@@ -233,7 +233,7 @@ An agent is not built from a tutorial. It is built by writing, breaking, fixing,
 
 ### For *kids*, age 9–13
 
-Junior · weekly live[Ages 9–13 · AI Tools Kids AI *Mastery* Use real AI tools — Claude, ChatGPT, image generators — and build small AI assistants. The on-ramp to agents. 2 classes/week₹1,499/mo](/courses/kids-ai-mastery-course)[Ages 8–12 · Python+AI Python & AI Kids *Masterclass* The Python foundation any future agent builder needs. Plus first-touch AI projects. 2 classes/week₹1,499/mo](/courses/python-ai-kids-masterclass)[Ages 10–14 · Creative AI Canva & AI *Design* For the kid more drawn to creative AI than backend. Builds taste and tool-fluency. 2 classes/week₹1,499/mo](/courses/canva-ai-design-masterclass)
+Junior · weekly live[Ages 8–13 · AI & Thinking Computational Thinking *& AI* Train a model with Teachable Machine, build an image classifier and a simple chatbot. The on-ramp to agents. 2 classes/week₹1,499/mo](/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)[Ages 8–12 · Python+AI Python & AI Kids *Masterclass* The Python foundation any future agent builder needs. Plus first-touch AI projects. 2 classes/week₹1,499/mo](/courses/python-ai-kids-masterclass)[Ages 10–14 · Creative AI Canva & AI *Design* For the kid more drawn to creative AI than backend. Builds taste and tool-fluency. 2 classes/week₹1,499/mo](/courses/canva-ai-design-masterclass)
 
 ### For *teens*, age 13–18
 

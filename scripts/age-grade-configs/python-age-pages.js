@@ -136,7 +136,7 @@ module.exports = [
         coursesLede: 'At 10, kids can hold a 30-line program in their head and follow a short YouTube tutorial between classes. The courses below are where they thrive.',
         courses: [PY.pythonKids, PY.aiKids, PY.pythonTeen, PY.aimlTeen, PY.dsTeen, PY.flaskBackend, PY.dsaTeen, PY.autoPy],
         skipHeading: 'Already printing and looping in Python?',
-        skipBody: 'If your 10-year-old already knows print, input and simple loops, <strong>skip basics</strong> and go to <a href="/courses/python-ai-kids-masterclass" style="color:inherit;text-decoration:underline;">Python + AI projects</a> or the <a href="/courses/kids-ai-mastery-course" style="color:inherit;text-decoration:underline;">AI Tools for Kids</a> track. Level check in the free demo.',
+        skipBody: 'If your 10-year-old already knows print, input and simple loops, <strong>skip basics</strong> and go to <a href="/courses/python-ai-kids-masterclass" style="color:inherit;text-decoration:underline;">Python + AI projects</a> or the <a href="/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8" style="color:inherit;text-decoration:underline;">Computational Thinking & AI</a> track. Level check in the free demo.',
         whyHeading: 'Ten is the clearest "yes" for Python.',
         whyLede: 'Below 10, Python is a stretch. Above 10, school timetables tighten. At 10, a child has exactly the right reading, typing and focus to learn Python properly — and still has years before board pressure.',
         whys: [

@@ -4509,6 +4509,18 @@
 # 301 Redirects for retired/changed course slugs
 # ----------------------------------------------------
 [[redirects]]
+  from = "/courses/kids-ai-mastery-course"
+  to = "/courses/teens-ai-tools-mastery-course"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/kids-ai-mastery-course/*"
+  to = "/courses/teens-ai-tools-mastery-course/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/courses/python-programming-masterclass-teens"
   to = "/courses/python-complete-masterclass-teens"
   status = 301
