@@ -8,7 +8,12 @@ export interface Testimonial {
   name: string;
   role: string; // e.g., "Student, Age 10" or "Parent of Sarah"
   text: string;
-  avatarUrl: string;
+  // NO avatar field, deliberately. These are real, named people who left real reviews. The
+  // field used to hold picsum.photos placeholders, so every card showed a random stranger's
+  // stock photo captioned with a real reviewer's name — a fabricated depiction of a real
+  // person, and the page is now prerendered, so it would be baked into the HTML crawlers read.
+  // TestimonialCard renders initials instead. Do not re-add avatars without real, permissioned
+  // photos of the actual reviewers.
   course: CourseType;
   color: string; // Tailwind color class for background accent
 }

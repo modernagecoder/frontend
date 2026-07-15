@@ -12,10 +12,14 @@ const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [filter, setFilter] = useState<CourseType | 'All'>('All');
 
-  // Duplicate testimonials for marquee effect
+  // Duplicate testimonials for marquee effect (the marquee translates -50%, so each row
+  // must contain the list exactly twice for the loop to be seamless).
   const marqueeItems = [...TESTIMONIALS, ...TESTIMONIALS];
-  // Reverse for the second row, shift it a bit
-  const marqueeItemsReverse = [...TESTIMONIALS.reverse(), ...TESTIMONIALS];
+  // Copy first, then reverse: bare TESTIMONIALS.reverse() mutates the module-level array in
+  // place, corrupting it for every consumer below — and since StrictMode renders twice, it
+  // flipped the order back and forth per render instead of reversing anything.
+  const reversed = [...TESTIMONIALS].reverse();
+  const marqueeItemsReverse = [...reversed, ...reversed];
 
   const filteredTestimonials = filter === 'All' 
     ? TESTIMONIALS 
@@ -118,7 +122,11 @@ const App: React.FC = () => {
           <div className="max-w-5xl mx-auto text-center relative z-10">
             <div className="inline-block mb-6 px-6 py-2 bg-pop-cyan border-2 border-sketch-black -rotate-2 shadow-sketch hover:rotate-2 transition-transform cursor-default">
               <span className="font-bold font-sans tracking-widest uppercase flex items-center gap-2 text-sketch-black">
-                <Star size={16} fill="black" /> Trusted by 500+ Families <Star size={16} fill="black" />
+                {/* Was "Trusted by 500+ Families" — unevidenced, and the same conflation Phase
+                    2.3 removed site-wide: 500 was the GOOGLE REVIEW count restated as people.
+                    The rating comes from REVIEWS, never from students. Source of truth is
+                    scripts/brand-facts.json (4.9 / 547 reviews). */}
+                <Star size={16} fill="black" /> Rated 4.9 across 547 Google reviews <Star size={16} fill="black" />
               </span>
             </div>
             <h1 className="font-marker text-5xl sm:text-6xl md:text-8xl lg:text-9xl mb-8 leading-[0.9] drop-shadow-sm">

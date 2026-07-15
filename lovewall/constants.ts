@@ -1,154 +1,124 @@
 import { CourseType, Testimonial, VideoReview, GalleryItem, Certificate } from './types';
 import { MediaItem } from './components/MediaSlider';
 
-export const TESTIMONIALS: Testimonial[
-] = [
+export const TESTIMONIALS: Testimonial[] = [
   {
     id: '1',
     name: 'Sonam Oswal',
     role: 'Parent of Dhairya',
     text: "My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class.",
-    avatarUrl: 'https://picsum.photos/150/150?random=1',
     course: CourseType.CODING,
     color: 'bg-pop-yellow'
   },
-,
   {
     id: '2',
     name: 'Samriddha Mondal',
     role: 'Student',
     text: "Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease.",
-    avatarUrl: 'https://picsum.photos/150/150?random=2',
     course: CourseType.CODING,
     color: 'bg-pop-pink'
   },
-,
   {
     id: '3',
     name: 'Poonam Rathore',
     role: 'Parent',
     text: "My son has been attending this coding class for the past couple of months, and I've been genuinely impressed with both his progress and enthusiasm. The instructors are incredibly patient and knowledgeable. What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!",
-    avatarUrl: 'https://picsum.photos/150/150?random=3',
     course: CourseType.CODING,
     color: 'bg-pop-cyan'
   },
-,
   {
     id: '4',
     name: 'Krishnam Bhatter',
     role: 'Former Student',
     text: "I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers—Shivam Sir, Mihir Sir and Sonu Sir—is extraordinary. They were not only my teachers but also mentors and friendly figures. The fee is remarkably reasonable and the perks are mind-blowing—one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects.",
-    avatarUrl: 'https://picsum.photos/150/150?random=4',
     course: CourseType.CODING,
     color: 'bg-pop-purple'
   },
-,
   {
     id: '5',
     name: 'Yug Rathore',
     role: 'Student',
     text: "I absolutely love it here! I made new friends and learned important valuable coding skills while having the fun of my life. It's not just coding here, it's outings, bonding and most importantly preparing you for your future. Definitely five stars.",
-    avatarUrl: 'https://picsum.photos/150/150?random=5',
     course: CourseType.CODING,
     color: 'bg-green-300'
   },
-,
   {
     id: '6',
     name: 'Ria Mukherjee',
     role: 'Parent',
     text: "The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. Teachers make it so simple with clear explanations, practical exercises, and interactive content. As per my son, the coding class is very helpful and engaging. Sir explains complex concepts clearly. The projects were challenging and rewarding.",
-    avatarUrl: 'https://picsum.photos/150/150?random=6',
     course: CourseType.CODING,
     color: 'bg-orange-300'
   },
-,
   {
     id: '7',
     name: 'Pragyen Diwan',
     role: 'Parent',
     text: "The classes are excellent. The teachers explain concepts very clearly and make code fun and easy to understand. The sessions are interactive and fun. They also help students boost their confidence. We not only focus on academics, but also on logic building and problem solving.",
-    avatarUrl: 'https://picsum.photos/150/150?random=7',
     course: CourseType.CODING,
     color: 'bg-pop-yellow'
   },
-,
   {
     id: '8',
     name: 'Sonu Goyal',
     role: 'Parent',
     text: "Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.",
-    avatarUrl: 'https://picsum.photos/150/150?random=8',
     course: CourseType.CODING,
     color: 'bg-pop-cyan'
   },
-,
   {
     id: '9',
     name: 'Arush Poddar',
     role: 'Student',
     text: "Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner.",
-    avatarUrl: 'https://picsum.photos/150/150?random=9',
     course: CourseType.CODING,
     color: 'bg-pop-pink'
   },
-,
   {
     id: '10',
     name: 'Sujal Ramola',
     role: 'Student',
     text: "I am really glad to be a part of Modern Age Coders as it helped me a lot to know what coding means and helped me find myself. I thank Shreya Ma'am, Mihir Sir and Shivam Sir for always being there for me and for showing me the real path for success.",
-    avatarUrl: 'https://picsum.photos/150/150?random=10',
     course: CourseType.CODING,
     color: 'bg-pop-purple'
   },
-,
   {
     id: '11',
     name: 'Shradha Saraf',
     role: 'Parent of Mivaan',
     text: "Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class.",
-    avatarUrl: 'https://picsum.photos/150/150?random=11',
     course: CourseType.CODING,
     color: 'bg-pop-yellow'
   },
-,
   {
     id: '12',
     name: 'Vansh Agarwal',
     role: 'Student',
     text: "One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.",
-    avatarUrl: 'https://picsum.photos/150/150?random=12',
     course: CourseType.CODING,
     color: 'bg-pop-cyan'
   },
-,
   {
     id: '13',
     name: 'Shaarav Wadhwa',
     role: 'Student',
     text: "Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.",
-    avatarUrl: 'https://picsum.photos/150/150?random=13',
     course: CourseType.CODING,
     color: 'bg-pop-pink'
   },
-,
   {
     id: '14',
     name: 'Ritu Kedia',
     role: 'Parent',
     text: "I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful. They explain complex concepts in an easy way and encourage students to ask questions and think critically. The friendly class atmosphere has boosted my son's confidence and interest in coding.",
-    avatarUrl: 'https://picsum.photos/150/150?random=14',
     course: CourseType.CODING,
     color: 'bg-orange-300'
   },
-,
   {
     id: '15',
     name: 'Vineeta Shyamsukha',
     role: 'Parent',
     text: "Very good classes. Makes learning very easy and interactive.",
-    avatarUrl: 'https://picsum.photos/150/150?random=15',
     course: CourseType.CODING,
     color: 'bg-green-300'
   }
@@ -207,6 +177,12 @@ export const VIDEO_REVIEWS: VideoReview[] = [
   }
 ];
 
+// DO NOT WIRE THIS UP. Currently dead code — App.tsx does not import it, so none of this is
+// published, which is the only reason it is not a problem today.
+// Every entry is fabricated: invented student names ("Vihaan, Grade 5", "Team CodeNinjas")
+// captioning random picsum.photos stock images. Rendering it would put invented social proof
+// on the site's own proof page. If a real gallery is wanted, it needs real student photos with
+// permission and real names — see /student-labs for the pattern of using genuine work.
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 'g1',

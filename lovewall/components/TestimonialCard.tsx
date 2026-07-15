@@ -7,6 +7,10 @@ interface Props {
   rotate?: number;
 }
 
+/** "Sonam Oswal" -> "SO". Single-word names give one letter. */
+const initials = (name: string): string =>
+  name.trim().split(/\s+/).slice(0, 2).map((w) => w[0]?.toUpperCase() ?? '').join('');
+
 const TestimonialCard: React.FC<Props> = React.memo(({ data, rotate = 0 }) => {
   return (
     <div 
@@ -18,8 +22,14 @@ const TestimonialCard: React.FC<Props> = React.memo(({ data, rotate = 0 }) => {
 
       <div>
         <div className="flex items-start justify-between mb-4">
-          <div className={`w-12 h-12 rounded-full border-2 border-sketch-black overflow-hidden flex-shrink-0 ${data.color}`}>
-            <img src={data.avatarUrl} alt={data.name} className="w-full h-full object-cover mix-blend-multiply" />
+          {/* Initials, not a photo. This used to be a picsum.photos placeholder — a random
+              stranger's stock face served with alt="<real reviewer's name>". Decorative, so
+              it is hidden from assistive tech; the real name is rendered below the quote. */}
+          <div
+            className={`w-12 h-12 rounded-full border-2 border-sketch-black flex-shrink-0 flex items-center justify-center ${data.color}`}
+            aria-hidden="true"
+          >
+            <span className="font-marker text-base text-sketch-black leading-none">{initials(data.name)}</span>
           </div>
           <div className="flex text-pop-yellow drop-shadow-sm">
              {[1,2,3,4,5].map(i => <Star key={i} size={16} fill="currentColor" className="text-pop-yellow stroke-black stroke-1" />)}

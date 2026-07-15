@@ -60,6 +60,16 @@ const LoveRain: React.FC = () => {
     };
   }, []);
 
+  // Decorative only, and deliberately absent from the build-time prerender: the initializer
+  // above seeds ~200 emoji from Math.random(), which would otherwise dump hundreds of
+  // meaningless emoji divs into the static HTML a crawler reads. This page exists to make 15
+  // real reviews readable; emoji confetti is not the content.
+  // This check sits AFTER the hooks on purpose — an early return above them would be a Rules
+  // of Hooks violation. Safe as a bare typeof-window test only because index.tsx uses
+  // createRoot(), not hydrateRoot(): nothing hydrates, so server and client are never diffed.
+  // If this page ever moves to hydration, make it a mounted-flag/useEffect pattern instead.
+  if (typeof window === 'undefined') return null;
+
   if (!isVisible) return null;
 
   return (
