@@ -965,7 +965,7 @@
           "Haptic feedback",
           "Full body tracking",
           "Social presence in VR",
-          "Metaverse development",
+          "Persistent multiplayer worlds",
           "Cloud streaming for XR",
           "Future of XR gaming"
         ],
@@ -1300,28 +1300,28 @@
         "practice": "Create esports-ready game"
       },
       "week_90_91": {
-        "title": "Blockchain & NFT Gaming",
+        "title": "AI in Game Development",
         "topics": [
-          "Blockchain basics for games",
-          "Smart contracts introduction",
-          "NFTs in gaming",
-          "Play-to-earn models",
-          "Cryptocurrency integration",
-          "Digital ownership concepts",
-          "Marketplace creation",
-          "Gas fees and optimization",
-          "Cross-chain compatibility",
-          "Regulatory considerations",
-          "Community reactions",
-          "Sustainable blockchain gaming"
+          "Game AI is mostly rules: state machines and behaviour trees",
+          "Pathfinding and navigation meshes",
+          "Utility AI: choosing the least-bad action",
+          "Procedural generation with constraints",
+          "Dynamic difficulty without cheating the player",
+          "LLM-driven NPC dialogue, and why it breaks",
+          "Keeping a generative NPC on-script and safe",
+          "AI-assisted asset creation and its licensing limits",
+          "Using AI to playtest and find broken levels",
+          "Performance: AI budget per frame",
+          "Ethics: manipulation, addiction and dark patterns",
+          "Crediting AI-generated work honestly"
         ],
         "projects": [
-          "NFT integration prototype",
-          "Blockchain game economy",
-          "Smart contract for items",
-          "Marketplace implementation"
+          "Behaviour-tree enemy AI",
+          "Procedural level generator",
+          "LLM NPC with guardrails",
+          "AI playtest harness"
         ],
-        "practice": "Explore Web3 gaming"
+        "practice": "Build 3 AI-driven game systems"
       },
       "week_92_93": {
         "title": "Cloud Gaming & Streaming",

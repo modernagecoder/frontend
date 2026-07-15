@@ -1125,28 +1125,28 @@
         "practice": "Build IoT control apps"
       },
       "week_87": {
-        "title": "Blockchain & Crypto Integration",
+        "title": "AI Features & Agents in Mobile Apps",
         "topics": [
-          "Blockchain basics for app developers",
-          "Web3 mobile development",
-          "Wallet integration (MetaMask, WalletConnect)",
-          "NFT marketplaces in apps",
-          "Cryptocurrency payments",
-          "Smart contract interaction",
-          "DeFi app development",
-          "IPFS for decentralized storage",
-          "Ethereum and other chains",
-          "Gas optimization for mobile",
-          "Security in crypto apps",
-          "Regulatory considerations"
+          "Calling an AI API from a mobile app",
+          "Why your API key must never ship in the app",
+          "Streaming responses so the UI does not freeze",
+          "On-device vs cloud inference, and the trade-off",
+          "Image and voice input as first-class features",
+          "Function calling: letting the model use your app's features",
+          "Building a small agent loop: plan, act, check",
+          "Handling refusals, timeouts and hallucinated answers",
+          "Caching and cost: what an AI feature actually costs per user",
+          "Rate limits and graceful degradation",
+          "Privacy: what leaves the device, and what must not",
+          "Telling users when they are talking to an AI"
         ],
         "projects": [
-          "NFT gallery app",
-          "Crypto wallet app",
-          "DeFi dashboard",
-          "Blockchain game"
+          "AI assistant app",
+          "Photo-to-text app",
+          "Voice agent app",
+          "AI feature cost dashboard"
         ],
-        "practice": "Add Web3 features to apps"
+        "practice": "Add AI features to 3 apps"
       }
     },
     "month_21_22": {

@@ -1412,25 +1412,25 @@
         "practice": "Build 5 ML/Big Data projects"
       },
       "week_96": {
-        "title": "Blockchain & Emerging Tech",
+        "title": "AI & Emerging Tech with Java",
         "topics": [
-          "Blockchain fundamentals",
-          "Cryptocurrency basics",
-          "Smart contracts concept",
-          "Web3j library for Ethereum",
-          "Hyperledger Fabric basics",
-          "Building blockchain in Java",
-          "NFT concepts",
-          "Decentralized applications",
-          "IoT with Java",
-          "Quantum computing intro",
-          "AR/VR basics",
-          "Future of Java"
+          "Calling an AI API from Java",
+          "Structured output: making the model return real objects",
+          "Function calling and tool use in a typed language",
+          "Retrieval over enterprise data",
+          "Concurrency: many AI calls without melting the server",
+          "Guardrails and validating model output",
+          "Cost, caching and quotas",
+          "IoT with Java: sensors and device control",
+          "Streaming data and event-driven design",
+          "Where Java is actually used for AI (and where Python wins)",
+          "Testing non-deterministic systems",
+          "Ethics and accountability in automated decisions"
         ],
         "projects": [
-          "Simple blockchain",
-          "Cryptocurrency wallet",
-          "Smart contract interaction",
+          "AI service in Java",
+          "Structured-output parser",
+          "Tool-using agent",
           "IoT device controller",
           "Emerging tech demo"
         ],

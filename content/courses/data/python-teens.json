@@ -1376,28 +1376,28 @@
         "practice": "Solve 15 scientific problems"
       },
       "week_96": {
-        "title": "Blockchain & Crypto",
+        "title": "AI Agents & Automation with Python",
         "topics": [
-          "Blockchain basics with Python",
-          "Building a blockchain",
-          "Smart contracts with Python",
-          "Web3.py for Ethereum",
-          "Cryptocurrency trading bots",
-          "DeFi applications",
-          "NFT platforms",
-          "IPFS integration",
-          "Cryptography deep dive",
-          "Zero-knowledge proofs basics",
-          "Consensus algorithms",
-          "Decentralized applications"
+          "Calling an AI API from Python",
+          "Structured output with Pydantic",
+          "Function calling: giving the model real tools",
+          "The agent loop: plan, act, observe, repeat",
+          "Retrieval over your own documents",
+          "Vector search basics, and when it is overkill",
+          "Guardrails: validating what comes back",
+          "When the agent is confidently wrong",
+          "Cost control: tokens, caching, spend caps",
+          "Automating a real, boring task end to end",
+          "Evaluating an agent: does it actually work?",
+          "Cryptography deep dive: hashing and signatures"
         ],
         "projects": [
-          "Blockchain from scratch",
-          "Crypto trading bot",
-          "NFT marketplace",
-          "DeFi application"
+          "Tool-using research agent",
+          "Document Q&A over your own notes",
+          "Automate a real weekly chore",
+          "Agent evaluation harness"
         ],
-        "practice": "Build 5 blockchain projects"
+        "practice": "Build 5 AI automation projects"
       }
     },
     "month_23": {

@@ -149,7 +149,7 @@
           "Regulatory reporting automation (SOX, Basel III)",
           "Core banking system architecture",
           "Credit card processing infrastructure",
-          "Cryptocurrency exchange architecture",
+          "High-throughput trading system architecture",
           "Quantum-resistant financial cryptography"
         ],
         "projects": [
@@ -496,26 +496,26 @@
         "practice": "Generate 30% IRR on deals"
       },
       "week_35": {
-        "title": "Crypto & DeFi Empire",
+        "title": "AI Platform & Agent Infrastructure",
         "topics": [
-          "Building crypto exchanges",
-          "DeFi protocol development",
-          "Yield farming strategies",
-          "NFT platform creation",
-          "DAO governance systems",
-          "Layer 1 blockchain development",
-          "Cross-chain bridges",
-          "MEV extraction strategies",
-          "Stablecoin mechanisms",
-          "Tokenomics design",
-          "Regulatory arbitrage",
-          "Crypto fund management"
+          "Designing an AI platform other teams build on",
+          "Model gateways: routing, fallback and vendor lock-in",
+          "Serving: throughput, batching and GPU economics",
+          "Fine-tuning vs retrieval vs prompting — choosing correctly",
+          "Building an evaluation pipeline that catches regressions",
+          "Guardrails and policy enforcement as infrastructure",
+          "Prompt injection defence at the platform layer",
+          "Multi-tenancy, quotas and per-team cost attribution",
+          "Observability and tracing for non-deterministic systems",
+          "Data governance: what may be sent to which provider",
+          "Rollout: shadow traffic, canaries and kill switches",
+          "Leading an AI platform team through vendor churn"
         ],
         "projects": [
-          "Launch DeFi protocol with $100M TVL",
-          "Create NFT marketplace",
-          "Build crypto exchange",
-          "Design new blockchain"
+          "Model gateway with routing + fallback",
+          "Org-wide eval pipeline",
+          "Guardrail + policy service",
+          "AI platform cost & usage dashboard"
         ],
         "practice": "Manage $10M+ crypto portfolio"
       }

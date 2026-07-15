@@ -1442,25 +1442,25 @@
         "practice": "Add AI features to projects"
       },
       "week_100": {
-        "title": "Web3 & Blockchain Basics",
+        "title": "AI Integration Basics",
         "topics": [
-          "Blockchain fundamentals",
-          "Smart contracts introduction",
-          "Web3.js basics",
-          "Connecting to Ethereum",
-          "NFT concepts",
-          "Decentralized apps (dApps)",
-          "Cryptocurrency integration",
-          "Web3 authentication",
-          "Future of web development"
+          "Where AI belongs in a full-stack app",
+          "Server-side model calls: never from the browser",
+          "Streaming responses without freezing the UI",
+          "Structured output and validation",
+          "Retrieval over your own database",
+          "Function calling to trigger app actions",
+          "Cost, caching and rate limits",
+          "Guardrails and untrusted input",
+          "Telling users honestly what the AI did"
         ],
         "projects": [
-          "Simple dApp",
-          "Crypto payment integration",
-          "Web3 authentication system",
-          "Blockchain explorer"
+          "AI-powered search",
+          "Retrieval Q&A feature",
+          "Agentic action endpoint",
+          "Guardrail + eval harness"
         ],
-        "practice": "Explore Web3 technologies"
+        "practice": "Add an AI feature end to end"
       }
     },
     "month_24": {

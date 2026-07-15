@@ -904,28 +904,28 @@
         "practice": "Add AI features to 3 projects"
       },
       "week_75_76": {
-        "title": "Blockchain & Web3 Basics",
+        "title": "AI Backends & Agent APIs",
         "topics": [
-          "Blockchain fundamentals for backend devs",
-          "Smart contracts introduction",
-          "Web3.js and Ethers.js",
-          "Integrating crypto payments",
-          "NFT minting backends",
-          "IPFS for decentralized storage",
-          "Building dApp backends",
-          "Wallet authentication",
-          "Gas optimization",
-          "Security in Web3",
-          "Popular blockchain APIs",
-          "When to use blockchain"
+          "Putting a model behind your own API",
+          "Secrets management: keys on the server, never the client",
+          "Streaming responses (SSE) and why clients need them",
+          "Queues and background jobs for slow AI calls",
+          "Function calling and tool use from a backend",
+          "Retrieval: giving the model your data without retraining",
+          "Vector search basics, and when plain SQL is better",
+          "Caching AI responses, and when caching is wrong",
+          "Rate limiting, quotas and per-user cost caps",
+          "Guardrails: validating what the model gives back",
+          "Logging and auditing AI decisions",
+          "Failure design: what happens when the provider is down"
         ],
         "projects": [
-          "NFT minting API",
-          "Crypto payment gateway",
-          "Decentralized storage system",
-          "Web3 authentication"
+          "AI chat API",
+          "Retrieval-backed Q&A service",
+          "Agent with tool access",
+          "Cost + rate-limit middleware"
         ],
-        "practice": "Add Web3 features to a project"
+        "practice": "Add an AI backend to a project"
       },
       "week_77": {
         "title": "Advanced Security Topics",

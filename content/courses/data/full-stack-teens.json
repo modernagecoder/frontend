@@ -1262,27 +1262,27 @@
         "practice": "Add ML features to 5 projects"
       },
       "week_90_91": {
-        "title": "Blockchain & Web3",
+        "title": "AI-Powered Full-Stack Apps",
         "topics": [
-          "Blockchain fundamentals",
-          "Ethereum and smart contracts",
-          "Solidity basics",
-          "Web3.js library",
-          "MetaMask integration",
-          "NFTs explained and implementation",
-          "DeFi concepts",
-          "IPFS for decentralized storage",
-          "Building dApps",
-          "Cryptocurrency payments",
-          "Web3 authentication",
-          "Future of decentralized web"
+          "Where AI belongs in a full-stack app",
+          "Server-side model calls: never from the browser",
+          "Streaming a response into React without jank",
+          "Retrieval over your own database",
+          "Vector search basics, and when plain SQL wins",
+          "Function calling to trigger real app actions",
+          "A minimal agent loop: plan, act, verify",
+          "Guardrails and output validation",
+          "Cost control: tokens, caching, per-user caps",
+          "Evaluating quality: how do you know it got better?",
+          "Privacy and what you must not send to a provider",
+          "Shipping honestly: telling users what the AI did"
         ],
         "projects": [
-          "NFT marketplace",
-          "Decentralized social app",
-          "Crypto payment system"
+          "AI-powered search over your own data",
+          "Agentic task assistant",
+          "AI feature with full guardrails + evals"
         ],
-        "practice": "Build 3 Web3 applications"
+        "practice": "Build 3 AI-powered applications"
       },
       "week_92_93": {
         "title": "Game Development for Web",

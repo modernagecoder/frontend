@@ -1555,31 +1555,31 @@
         ]
       },
       "week_96": {
-        "title": "Blockchain Integration",
+        "title": "AI Integration",
         "topics": [
-          "Blockchain basics for developers",
-          "Web3.js integration",
-          "Ethereum smart contracts",
-          "Wallet connection",
-          "NFT implementation",
-          "Cryptocurrency payments",
-          "IPFS integration",
-          "Decentralized storage",
-          "DApp development basics",
-          "Security in blockchain",
-          "Testing blockchain features",
-          "Future of Web3"
+          "Adding AI to a MERN app without leaking keys",
+          "Express routes that proxy a model provider",
+          "Streaming responses (SSE) into React",
+          "Structured output your frontend can trust",
+          "Function calling to trigger real app actions",
+          "Retrieval over your MongoDB data",
+          "Vector search in MongoDB Atlas, and when plain queries win",
+          "Caching AI responses, and when caching is wrong",
+          "Rate limiting and per-user spend caps",
+          "Validating model output before it hits the database",
+          "Evaluating whether the feature actually helps",
+          "Failure design: the provider will go down"
         ],
         "projects": [
-          "Web3 integration",
-          "NFT marketplace",
-          "DApp frontend"
+          "AI chat feature in MERN",
+          "Retrieval Q&A over your data",
+          "Agentic action endpoint"
         ],
-        "practice": "Build 3 Web3 features",
+        "practice": "Build 3 AI features",
         "tools": [
-          "Web3.js",
-          "Hardhat",
-          "MetaMask"
+          "Node/Express",
+          "MongoDB Atlas Vector Search",
+          "React streaming UI"
         ]
       }
     },

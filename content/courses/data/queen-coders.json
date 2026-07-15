@@ -273,7 +273,7 @@
       }
     },
     "month_5_6": {
-      "title": "Months 4-6: AI/ML & Blockchain Specialization",
+      "title": "Months 4-6: AI/ML & Agent Specialization",
       "weeks": "Week 14-26",
       "week_18_19": {
         "title": "Machine Learning Engineering",
@@ -324,26 +324,26 @@
         "practice": "Build 5 AI-powered applications"
       },
       "week_22_23": {
-        "title": "Blockchain & Web3 Development",
+        "title": "AI Engineering & Agent Development",
         "topics": [
-          "Blockchain architecture deep dive",
-          "Consensus mechanisms: PoW, PoS, PBFT",
-          "Smart contract development with Solidity",
-          "Ethereum development with Web3.js",
-          "DeFi protocols and architecture",
-          "NFT standards and implementation",
-          "Layer 2 scaling solutions",
-          "Cross-chain interoperability",
-          "Blockchain security best practices",
-          "Decentralized storage: IPFS, Filecoin",
-          "DAOs and governance tokens",
-          "Enterprise blockchain: Hyperledger"
+          "LLM architecture deep dive: what the model actually does",
+          "Prompting as engineering, not incantation",
+          "Structured output and schema-constrained generation",
+          "Function calling and tool use",
+          "The agent loop: plan, act, observe, correct",
+          "Retrieval-augmented generation over real corpora",
+          "Vector stores, chunking, and when retrieval is the wrong answer",
+          "Multi-agent orchestration and where it fails",
+          "Evaluation: building an eval set before you build the feature",
+          "Guardrails, injection and untrusted input",
+          "Cost, latency and token budgets in production",
+          "Observability: tracing a non-deterministic system"
         ],
         "projects": [
-          "Build DeFi lending protocol",
-          "Create NFT marketplace",
-          "Implement DAO governance",
-          "Enterprise blockchain solution"
+          "Retrieval-backed assistant",
+          "Tool-using agent",
+          "Eval harness with a real dataset",
+          "Production AI service with guardrails"
         ],
         "practice": "Deploy 5 smart contracts"
       },
@@ -445,26 +445,26 @@
         "practice": "Build 5 production LLM applications"
       },
       "week_31_32": {
-        "title": "Blockchain Architecture & DeFi",
+        "title": "AI Agent Architecture at Scale",
         "topics": [
-          "Blockchain consensus deep dive",
-          "Building custom blockchain",
-          "Smart contract security patterns",
-          "DeFi primitives: AMM, lending, derivatives",
-          "MEV and sandwich attacks",
-          "Cross-chain bridges architecture",
-          "Zero-knowledge proofs basics",
-          "Rollups and sidechains",
-          "Tokenomics and mechanism design",
-          "DAO tooling and governance",
-          "NFT advanced patterns",
-          "Regulatory compliance in blockchain"
+          "Designing an agent system that survives contact with users",
+          "Task decomposition and planner/executor splits",
+          "Memory: short-term, long-term, and why most of it is a cache",
+          "Tool design: idempotency, permissions and blast radius",
+          "Human-in-the-loop checkpoints for irreversible actions",
+          "Prompt injection and the confused-deputy problem",
+          "Sandboxing an agent that can run code",
+          "Failure modes: loops, drift and confident wrongness",
+          "Model routing and fallback across providers",
+          "Batching, caching and cost control at scale",
+          "Red-teaming your own agent",
+          "Accountability: who is responsible when it acts wrongly"
         ],
         "projects": [
-          "Build custom blockchain",
-          "DeFi protocol suite",
-          "Cross-chain bridge",
-          "ZK-proof application"
+          "Multi-step agent with tool permissions",
+          "Sandboxed code-running agent",
+          "Model-routing gateway",
+          "Agent red-team report"
         ],
         "practice": "Audit 10 smart contracts"
       },
@@ -1553,7 +1553,7 @@
   "additional_learning_resources": {
     "projects_throughout_course": [
       "Month 1-3: Distributed Systems, Cloud Platforms, ML Pipeline, Blockchain Protocol",
-      "Month 4-6: AI Products, DeFi Platforms, Data Platforms, Innovation Projects",
+      "Month 4-6: AI Products, Agent Platforms, Data Platforms, Innovation Projects",
       "Month 7-9: Leadership Initiatives, Open Source Projects, Startup Ventures",
       "Month 10-12: Industry Transformations, Global Initiatives, Legacy Projects",
       "Capstone: Industry-Changing Solution with Real Impact"
@@ -1562,7 +1562,7 @@
     "skills_mastered": [
       "Architecture: System Design, Cloud, Microservices, Event-Driven, Serverless",
       "AI/ML: Deep Learning, LLMs, Computer Vision, NLP, MLOps, Production AI",
-      "Blockchain: Smart Contracts, DeFi, Web3, Consensus, Cryptography",
+      "AI engineering: agents, tool use, retrieval, evals, guardrails",
       "Data: Big Data, Real-time Processing, Analytics, Data Platforms",
       "Leadership: Team Management, Strategic Planning, Executive Communication",
       "Innovation: R&D, Patents, Startups, Venture Building, Disruption",
