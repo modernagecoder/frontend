@@ -1,1 +1,45 @@
-{}
+{
+  "ahmedabad": {
+    "lede": "Ahmedabad was doing serious science long before most Indian tech hubs existed. Vikram Sarabhai started the Physical Research Laboratory here in 1947, and ISRO&#x27;s Space Applications Centre still builds the imaging payloads for missions like Chandrayaan and the Mars Orbiter from Ambawadi Vistar. Gujarat Technological University, which every engineering college in the state answers to, is headquartered at Chandkheda. For a child in an Ahmedabad school, GUJCET and JEE Main are the doors, and ACPC runs the counselling behind them.",
+    "faqs": [
+      {
+        "q": "Do you offer coding classes for GSEB students in Ahmedabad?",
+        "a": "Yes. Ahmedabad schools run GSEB alongside CBSE, ICSE, IB and Cambridge, and our classes sit beside all of them rather than replacing school work. We teach the programming itself — Python, Java, web development — so the computer paper stops being something your child only reads about."
+      },
+      {
+        "q": "Can students from GTU-affiliated colleges or Gujarat University join?",
+        "a": "Yes. Our college track is built for exactly that. Students at GTU-affiliated engineering colleges and Gujarat University join for real Python, Java, full-stack and AI/ML work aimed at internships and placements, not another certificate."
+      }
+    ],
+    "_sources": {
+      "PRL 1947 / Sarabhai": "https://www.prl.res.in/prl-eng/",
+      "ISRO Space Applications Centre in Ahmedabad": "https://www.isro.gov.in/SAC.html",
+      "GTU HQ Chandkheda Ahmedabad, est 2007": "https://en.wikipedia.org/wiki/Gujarat_Technological_University",
+      "GUJCET conducted by GSEB": "https://www.outlookindia.com/education/gujcet-2026-registration-begins-for-engineering-pharmacy-gseb-notifies-four-step-application-process",
+      "ACPC counselling / JEE Main AIQ": "https://gujacpc.admissions.nic.in/",
+      "GSEB": "https://en.wikipedia.org/wiki/Gujarat_Secondary_and_Higher_Secondary_Education_Board"
+    },
+    "_excluded": "DA-IICT, GIFT City, IIT Gandhinagar are in GANDHINAGAR not Ahmedabad — my own prompt suggested DA-IICT and the researcher correctly refused it. GSEB is headquartered in Gandhinagar too, so never imply the board sits in Ahmedabad. GCET (MBA/MCA, GTU) is a DIFFERENT exam from GUJCET (engineering, GSEB) — do not conflate. GUJCET weightage figures conflict across sources, so no weightage number is claimed."
+  },
+  "pune": {
+    "lede": "Pune has been teaching engineers since 1854, when COEP opened its doors, and it is still where a good deal of India&#x27;s computing actually gets made. C-DAC is headquartered out at Pashan, and it was there that India built the PARAM supercomputer after the United States refused to sell it one. The board that sets your child&#x27;s SSC and HSC papers is headquartered in Pune too &mdash; not in Mumbai. From there the doors onward are MHT-CET and JEE Main.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Maharashtra State Board students in Pune?",
+        "a": "Yes — and it is worth knowing that the board setting those SSC and HSC papers is headquartered in Pune itself. We do not coach the school syllabus back at your child. We teach the programming underneath it, so the computer paper stops being a memory test."
+      },
+      {
+        "q": "Can SPPU or COEP students join your programming courses?",
+        "a": "Yes. COEP has been turning out engineers since 1854 and Savitribai Phule Pune University since 1949, but a degree still does not hand a fresher a portfolio. The college track is built for that gap: real Python, Java, full-stack and AI/ML projects you can open in a Hinjawadi interview."
+      }
+    ],
+    "_sources": {
+      "COEP est 1854": "https://www.coeptech.ac.in/about-us/about-university/",
+      "SPPU est 1949": "https://beta.unipune.ac.in/university_files/university_history.htm",
+      "C-DAC HQ Pune / PARAM after US denial": "https://www.cdac.in/index.aspx?id=about",
+      "MSBSHSE headquartered in Pune": "https://en.wikipedia.org/wiki/Maharashtra_State_Board_of_Secondary_and_Higher_Secondary_Education",
+      "MHT-CET / CAP": "https://fe2026.mahacet.org/"
+    },
+    "_excluded": "Fergusson 1885 is Wikipedia-only — the college's own site supports 1884 (society) and 1895 (campus), so no Fergusson year is used. Hinjawadi headcount omitted: sources conflict (3 lakh vs 4.5 lakh). COEP's 'third oldest in Asia' is COEP's own claim, so not asserted. 'Oxford of the East' is a nickname, not a fact. IGCSE presence in Pune unverified, so not claimed."
+  }
+}
