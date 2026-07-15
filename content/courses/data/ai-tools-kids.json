@@ -1,8 +1,8 @@
 {
   "meta": {
     "slug": "kids-ai-mastery-course",
-    "title": "AI Tools for Kids: ChatGPT, DALL-E & Creative Projects",
-    "description": "A 6-month AI course for kids: master ChatGPT, DALL-E, Midjourney and 50+ AI tools, learn prompt engineering, create real projects and stay safe with AI.",
+    "title": "AI Tools for Kids: Prompting, Creative Projects & Safe AI Use",
+    "description": "A 6-month AI course for kids: learn prompt engineering with age-appropriate AI tools, create real projects, and learn to use AI safely and honestly.",
     "keywords": [
       "AI for kids",
       "ChatGPT for students",
@@ -36,7 +36,7 @@
   "program_overview": {
     "title": "AI Tools Mastery for Kids - Creative Intelligence",
     "tagline": "From AI Curious to AI Creator - Master the Future Today",
-    "description": "This revolutionary 6-month program transforms kids into confident AI users and creators. Students will master prompt engineering, explore 50+ AI tools, create amazing projects, and develop critical thinking about AI's role in society.\n\nPerfect for ages 8-18, this course covers everything from ChatGPT conversations to creating AI art, music, videos, games, and even AI-assisted coding. Students will build an impressive portfolio while learning AI safety, ethics, and future-ready skills.",
+    "description": "This revolutionary 6-month program transforms kids into confident AI users and creators. Students will master prompt engineering, explore AI tools chosen for their age, create amazing projects, and develop critical thinking about AI's role in society.\n\nPerfect for ages 8-18, this course covers everything from ChatGPT conversations to creating AI art, music, videos, games, and even AI-assisted coding. Students will build an impressive portfolio while learning AI safety, ethics, and future-ready skills.",
     "what_makes_this_different": [
       "Kid-friendly approach to complex AI concepts",
       "Hands-on with 50+ real AI tools",
@@ -319,10 +319,6 @@
       "tools_covered": [
         "Canva AI tools",
         "Remove.bg",
-        "Photoleap AI",
-        "Lensa AI",
-        "Prisma",
-        "FaceApp (with supervision)",
         "Cleanup.pictures",
         "Let's Enhance.io"
       ],
@@ -356,13 +352,9 @@
         "Music prompt engineering"
       ],
       "tools_covered": [
-        "Suno AI",
         "Soundraw",
-        "Mubert",
         "AIVA",
-        "Boomy",
-        "Chrome Music Lab",
-        "BandLab AI"
+        "Chrome Music Lab"
       ],
       "projects": [
         "Create theme song for imaginary show",
@@ -390,14 +382,9 @@
         "AI for language learning"
       ],
       "tools_covered": [
-        "ElevenLabs (supervised)",
-        "Murf.ai",
-        "Descript",
         "Adobe Podcast AI",
         "Krisp.ai",
-        "Otter.ai",
-        "NaturalReader",
-        "Voice.ai"
+        "NaturalReader"
       ],
       "projects": [
         "Create character voices for story",
@@ -424,16 +411,7 @@
         "Lip-sync and dubbing AI",
         "Short-form content creation"
       ],
-      "tools_covered": [
-        "Runway ML",
-        "Synthesia basics",
-        "D-ID",
-        "Kapwing AI tools",
-        "InVideo AI",
-        "Pictory.ai",
-        "Steve.ai",
-        "Lumen5"
-      ],
+      "tools_covered": [],
       "projects": [
         "Create AI news report",
         "Animated explainer video",
@@ -461,7 +439,6 @@
       ],
       "tools_covered": [
         "Meta's Animated Drawings",
-        "Deep Nostalgia",
         "Plask.ai",
         "RADiCAL motion capture",
         "Immersity AI",
@@ -500,12 +477,9 @@
       ],
       "tools_covered": [
         "Khan Academy's Khanmigo",
-        "Photomath",
         "Wolfram Alpha",
         "Quillbot",
-        "Grammarly",
         "Duolingo AI",
-        "Socratic by Google",
         "Brainly"
       ],
       "projects": [
@@ -538,8 +512,6 @@
         "Elicit.org",
         "Semantic Scholar",
         "Jenni AI",
-        "Notion AI",
-        "Tome.app",
         "Beautiful.ai",
         "Gamma.app"
       ],
@@ -569,11 +541,7 @@
         "Digital organization with AI"
       ],
       "tools_covered": [
-        "Motion.ai",
-        "Reclaim.ai",
         "Clockwise",
-        "Otter.ai for meetings",
-        "Taskade AI",
         "BeeDone",
         "Forest app",
         "IFTTT basics"
@@ -605,8 +573,6 @@
       ],
       "tools_covered": [
         "Sudowrite",
-        "NovelAI basics",
-        "AI Dungeon",
         "Scenario.gg",
         "Interior AI",
         "Khroma color AI",
@@ -643,11 +609,8 @@
         "Version control basics with AI"
       ],
       "tools_covered": [
-        "GitHub Copilot (demo)",
         "Replit AI",
         "CodePen AI features",
-        "Tabnine",
-        "Codeium",
         "BlackBox AI",
         "Programming Helper",
         "AI Code Mentor"
@@ -716,10 +679,7 @@
         "Google Teachable Machine",
         "Orange Data Mining",
         "CreateML (Mac)",
-        "Lobe.ai",
-        "Obviously.ai",
         "Machine Learning for Kids",
-        "RunwayML advanced",
         "Edge Impulse basics"
       ],
       "projects": [
@@ -752,7 +712,6 @@
         "Promethean AI",
         "Roblox AI features",
         "Unity ML-Agents basics",
-        "AI Dungeon for stories",
         "Artbreeder for characters",
         "GPT for game dialogue",
         "Rosebud.ai"
@@ -824,8 +783,6 @@
       "tools_covered": [
         "Tome for pitches",
         "Looka for branding",
-        "Copy.ai",
-        "Jasper.ai basics",
         "Buffer AI",
         "Hootsuite AI",
         "Tidio chatbots",
@@ -1011,101 +968,37 @@
       "NightCafe",
       "Craiyon",
       "Deep Dream Generator",
-      "Artbreeder",
-      "RunwayML Gen-2"
+      "Artbreeder"
     ],
     "music_ai": [
-      "Suno AI",
       "Soundraw",
-      "Mubert",
-      "AIVA",
-      "Boomy",
-      "Jukebox by OpenAI",
-      "BandLab SongStarter",
-      "Loudly",
-      "Beatoven.ai"
-    ],
-    "video_ai": [
-      "Synthesia",
-      "D-ID",
-      "Runway ML",
-      "InVideo AI",
-      "Pictory.ai",
-      "Lumen5",
-      "Steve.ai",
-      "Kapwing AI",
-      "Descript",
-      "Wonder Studio"
+      "AIVA"
     ],
     "voice_ai": [
-      "ElevenLabs",
-      "Murf.ai",
-      "Play.ht",
-      "Resemble.ai",
-      "Voice.ai",
-      "Replica Studios",
-      "WellSaid Labs",
-      "Listnr",
       "Speechify",
       "Natural Reader"
     ],
     "coding_ai": [
-      "GitHub Copilot",
       "Replit AI",
-      "Tabnine",
-      "Codeium",
-      "Amazon Q Developer",
-      "Blackbox AI",
       "AI Code Mentor",
-      "Codex by OpenAI",
-      "Programming Helper",
-      "AskCodi"
+      "Programming Helper"
     ],
     "learning_ai": [
       "Khan Academy Khanmigo",
       "Duolingo Max",
-      "Socratic by Google",
-      "Photomath",
       "Quillbot",
-      "Grammarly",
       "Wolfram Alpha",
-      "Elicit",
-      "Consensus",
-      "Scholarcy"
-    ],
-    "productivity_ai": [
-      "Notion AI",
-      "Motion.ai",
-      "Reclaim.ai",
-      "Otter.ai",
-      "Taskade AI",
-      "Mem.ai",
-      "Jasper.ai",
-      "Copy.ai",
-      "Writesonic",
-      "Tome.app"
+      "Elicit"
     ],
     "creative_ai": [
       "Canva AI",
-      "Adobe Firefly",
-      "Designs.ai",
       "Khroma",
-      "Fontjoy",
-      "This Person Does Not Exist",
-      "Artflow.ai",
-      "Dream by Wombo",
-      "Avatarify",
-      "Deep Nostalgia"
+      "Fontjoy"
     ],
     "specialized_ai": [
       "Teachable Machine",
       "Machine Learning for Kids",
       "CreateML",
-      "Lobe.ai",
-      "Obviously.ai",
-      "MonkeyLearn",
-      "Levity.ai",
-      "Hugging Face",
       "Gradio",
       "Streamlit"
     ]
@@ -1340,7 +1233,7 @@
       "Beyond tools, this course builds the ethical framework and critical thinking skills needed to navigate an AI-powered world responsibly. Our graduates don't just use AI, they understand it, question it, and shape how it's used for good."
     ],
     "highlights": [
-      "50+ AI tools mastered across all creative domains",
+      "Confident, safe use of the AI tools you are actually old enough to use",
       "Prompt engineering skills that transfer to any AI platform",
       "Safety-first approach with ethical AI understanding",
       "Real projects published and shared publicly",
