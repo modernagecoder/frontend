@@ -173,8 +173,7 @@
       "tools_covered": [
         "ChatGPT plugins",
         "ChatGPT Code Interpreter",
-        "Wolfram Alpha with ChatGPT",
-        "ScholarAI for research"
+        "Wolfram Alpha with ChatGPT"
       ],
       "projects": [
         "Create personalized study assistant",
@@ -303,9 +302,7 @@
       ],
       "tools_covered": [
         "Canva AI tools",
-        "Remove.bg",
-        "Cleanup.pictures",
-        "Let's Enhance.io"
+        "Remove.bg"
       ],
       "projects": [
         "Restore and colorize old photos",
@@ -367,7 +364,6 @@
       ],
       "tools_covered": [
         "Adobe Podcast AI",
-        "Krisp.ai",
         "NaturalReader"
       ],
       "projects": [
@@ -429,10 +425,6 @@
       "tools_covered": [
         "Meta's Animated Drawings",
         "Plask.ai",
-        "RADiCAL motion capture",
-        "Immersity AI",
-        "LeiaPix",
-        "Spark AR basics",
         "Adobe Express animation"
       ],
       "projects": [
@@ -498,10 +490,8 @@
       "tools_covered": [
         "Perplexity AI",
         "Elicit.org",
-        "Semantic Scholar",
         "Jenni AI",
-        "Beautiful.ai",
-        "Gamma.app"
+        "Beautiful.ai"
       ],
       "projects": [
         "Complete research project",
@@ -529,10 +519,8 @@
         "Digital organization with AI"
       ],
       "tools_covered": [
-        "Clockwise",
         "BeeDone",
-        "Forest app",
-        "IFTTT basics"
+        "Forest app"
       ],
       "projects": [
         "Design weekly schedule optimizer",
@@ -560,12 +548,8 @@
         "AI for makers and builders"
       ],
       "tools_covered": [
-        "Sudowrite",
-        "Scenario.gg",
-        "Interior AI",
         "Khroma color AI",
-        "Namelix",
-        "This House Does Not Exist"
+        "Namelix"
       ],
       "projects": [
         "Write and illustrate short story",
@@ -597,8 +581,8 @@
         "Version control basics with AI"
       ],
       "tools_covered": [
-        "Replit AI",
-        "CodePen AI features"
+        "GitHub Copilot",
+        "ChatGPT Code Interpreter"
       ],
       "projects": [
         "Build first website with AI help",
@@ -630,7 +614,6 @@
         "Adalo",
         "Glide Apps",
         "Softr",
-        "Zapier AI",
         "Make.com (Integromat)",
         "Voiceflow",
         "Botpress"
@@ -664,8 +647,7 @@
         "Google Teachable Machine",
         "Orange Data Mining",
         "CreateML (Mac)",
-        "Machine Learning for Kids",
-        "Edge Impulse basics"
+        "Machine Learning for Kids"
       ],
       "projects": [
         "Image classifier for recycling",
@@ -693,12 +675,7 @@
         "Multiplayer matchmaking basics"
       ],
       "tools_covered": [
-        "Scenario.gg",
-        "Promethean AI",
-        "Roblox AI features",
-        "Unity ML-Agents basics",
-        "GPT for game dialogue",
-        "Rosebud.ai"
+        "Unity ML-Agents basics"
       ],
       "projects": [
         "AI-powered adventure game",
@@ -732,7 +709,6 @@
       "tools_covered": [
         "Google AI for Social Good",
         "Microsoft AI for Earth",
-        "Be My Eyes",
         "Seeing AI",
         "PlantNet",
         "iNaturalist",
@@ -756,7 +732,7 @@
         "Business plan generation",
         "Logo and branding with AI",
         "Marketing with AI tools",
-        "Social media automation",
+        "Automating your own repetitive work",
         "Customer service bots",
         "Financial planning basics",
         "Pitch deck creation",
@@ -765,11 +741,10 @@
         "Scaling with AI"
       ],
       "tools_covered": [
-        "Looka for branding",
-        "Buffer AI",
-        "Hootsuite AI",
-        "Tidio chatbots",
-        "PitchBob"
+        "Canva AI",
+        "Adobe Express",
+        "Botpress",
+        "Glide Apps"
       ],
       "projects": [
         "Create startup concept",
@@ -797,9 +772,6 @@
         "Responsible AI use"
       ],
       "tools_covered": [
-        "Deepware Scanner",
-        "FakeCatcher",
-        "GPTZero",
         "AI content detectors",
         "Privacy tools",
         "VPN basics",
@@ -948,11 +920,9 @@
       "Boomy"
     ],
     "voice_ai": [
-      "Speechify",
       "Natural Reader"
     ],
     "coding_ai": [
-      "Replit AI",
       "GitHub Copilot"
     ],
     "learning_ai": [
