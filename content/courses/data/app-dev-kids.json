@@ -786,28 +786,28 @@
       "title": "Emerging Technologies",
       "weeks": "Advanced Optional Modules",
       "week_53_54": {
-        "title": "Blockchain and Web3 Apps",
+        "title": "AI Features in Your Apps",
         "topics": [
-          "Blockchain basics for apps",
-          "Cryptocurrency wallet integration",
-          "NFT marketplace apps",
-          "Smart contract interaction",
-          "DeFi app interfaces",
-          "Web3 authentication",
-          "Decentralized storage",
-          "Crypto payment integration",
-          "DAO voting apps",
-          "Blockchain gaming",
-          "Token economics in apps",
-          "MetaMask integration basics"
+          "What an AI API actually is",
+          "Adding a chatbot to your app",
+          "Image recognition: does this photo have a cat?",
+          "Speech to text and text to speech",
+          "Translating text inside your app",
+          "Writing a good prompt from inside an app",
+          "Handling slow, failed or weird AI answers",
+          "Keeping your API key out of your app",
+          "What an AI agent is, and how it differs from a chatbot",
+          "Letting an AI use a tool, and checking its work",
+          "When AI is the wrong tool for the job",
+          "Being honest about which parts the AI built"
         ],
         "projects": [
-          "Crypto wallet app",
-          "NFT viewer app",
-          "DeFi dashboard",
-          "Blockchain game"
+          "Chatbot helper app",
+          "Photo classifier app",
+          "Voice note-taker",
+          "Translator app"
         ],
-        "practice": "Build 3 Web3-enabled apps"
+        "practice": "Build 3 AI-powered apps"
       },
       "week_55_56": {
         "title": "Advanced AI Integration",
@@ -847,7 +847,7 @@
           "VR for education",
           "Virtual meetings apps",
           "VR gaming basics",
-          "Metaverse applications"
+          "Multi-user VR spaces"
         ],
         "projects": [
           "VR tour app",
@@ -1064,7 +1064,7 @@
           "Payment processing basics",
           "Budget management apps",
           "Investment tracking",
-          "Cryptocurrency apps",
+          "Spotting scams and fraud in finance apps",
           "Expense splitting apps",
           "Tax calculation tools",
           "Financial literacy apps",
@@ -1077,7 +1077,7 @@
           "Personal finance manager",
           "Investment tracker",
           "Expense splitting app",
-          "Crypto portfolio app"
+          "Savings goal tracker"
         ],
         "practice": "Create 5 fintech features"
       },

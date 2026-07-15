@@ -732,28 +732,28 @@
         "practice": "Implement 5 AI features"
       },
       "week_51": {
-        "title": "Blockchain Gaming Basics",
+        "title": "AI in Games",
         "topics": [
-          "NFTs in games explained",
-          "Play-to-earn concepts",
-          "Blockchain game platforms",
-          "Digital ownership",
-          "Crypto rewards basics",
-          "Metaverse gaming",
-          "Decentralized gaming",
-          "Smart contracts for games",
-          "Web3 gaming communities",
-          "Safety and scams",
-          "Future of blockchain gaming",
-          "Environmental concerns"
+          "How game AI actually works (it is mostly rules)",
+          "Enemy behaviour and state machines",
+          "Pathfinding: how an NPC finds you",
+          "Difficulty that adapts to the player",
+          "Procedural level generation",
+          "Randomness versus fairness",
+          "AI-generated art and its limits",
+          "Using AI to help you build faster",
+          "What AI cannot design for you",
+          "Playtesting: does the AI feel fun or cheap?",
+          "Ethics of AI in games",
+          "Crediting AI honestly in your credits screen"
         ],
         "projects": [
-          "NFT collectible game",
-          "Token reward system",
-          "Blockchain game concept",
-          "Metaverse experience"
+          "Smart enemy AI",
+          "Procedural level generator",
+          "Adaptive difficulty",
+          "NPC dialogue system"
         ],
-        "practice": "Research blockchain games"
+        "practice": "Build 3 AI-driven game features"
       },
       "week_52": {
         "title": "Game Developer Portfolio",
@@ -1460,28 +1460,28 @@
         "practice": "Integrate advanced AI"
       },
       "week_99": {
-        "title": "Metaverse Gaming",
+        "title": "Multiplayer & Social Game Design",
         "topics": [
-          "Metaverse concepts",
-          "Virtual worlds",
-          "Digital economies",
-          "Avatar systems",
-          "Social spaces",
-          "Virtual events",
-          "Cross-game assets",
-          "Blockchain integration",
-          "Virtual real estate",
-          "Creator economies",
-          "Governance models",
-          "Future visions"
+          "What makes a multiplayer game fun",
+          "Designing a shared space players want to stay in",
+          "Avatar and identity systems",
+          "In-game currency and item economies",
+          "Chat safety, reporting and blocking",
+          "Moderation: what happens when players are horrible",
+          "Live events and seasons",
+          "Server basics and why lag happens",
+          "Cross-platform play",
+          "Building a community around your game",
+          "Publishing responsibly to a young audience",
+          "Reading your own analytics honestly"
         ],
         "projects": [
-          "Metaverse space",
+          "Multiplayer lobby",
           "Avatar system",
-          "Virtual economy",
-          "Social hub"
+          "In-game economy",
+          "Social hub world"
         ],
-        "practice": "Build metaverse experience"
+        "practice": "Build a multiplayer social space"
       },
       "week_100": {
         "title": "Experimental Gaming",

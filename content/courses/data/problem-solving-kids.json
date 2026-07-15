@@ -968,7 +968,7 @@
           "Processing sketches",
           "p5.js creativity",
           "AR art projects",
-          "NFT art basics"
+          "AI art, credit and authorship"
         ],
         "projects": [
           "Digital art portfolio",
@@ -1427,28 +1427,28 @@
         "practice": "Quantum puzzles daily"
       },
       "week_98": {
-        "title": "Blockchain for Problem Solving",
+        "title": "AI Agents for Problem Solving",
         "topics": [
-          "Blockchain basics",
-          "Distributed systems",
-          "Consensus mechanisms",
-          "Smart contracts intro",
-          "Cryptocurrency basics",
-          "NFT concepts",
-          "DeFi introduction",
-          "Blockchain applications",
-          "Security aspects",
-          "Environmental impact",
-          "Future of blockchain",
-          "Ethical considerations"
+          "What an AI agent is, and what it is not",
+          "Breaking a big goal into steps a machine can follow",
+          "Giving an agent tools, and limits",
+          "Checking an agent's work before you trust it",
+          "When the agent is confidently wrong",
+          "The cost of a wrong answer",
+          "Keeping a human in the loop",
+          "Prompt, to plan, to action",
+          "Bias: why the answer leans one way",
+          "Privacy: what you must never tell an AI",
+          "Deciding when NOT to use AI",
+          "Distributed systems: how many machines agree on one answer"
         ],
         "projects": [
-          "Blockchain solution design",
-          "Smart contract concept",
-          "DApp prototype",
-          "Impact analysis"
+          "Plan-a-trip agent",
+          "Research helper agent",
+          "Fact-check an AI answer",
+          "Agent failure diary"
         ],
-        "practice": "Blockchain challenges daily"
+        "practice": "Daily agent challenges"
       },
       "week_99": {
         "title": "Bioinformatics Basics",
