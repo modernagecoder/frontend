@@ -70,6 +70,23 @@ def esc(s):
     return html.escape(s, quote=True)
 
 
+def assert_plain(slug, f):
+    """FAQ text must be PLAIN, the lede must be RAW. They are not interchangeable.
+
+    FAQ q/a get html.escape()d for the visible list and json.dumps()d for the schema, so an
+    HTML entity in them is escaped twice: "&#x27;" renders as the literal text &#x27; on the
+    page, and sits raw inside the JSON string where Google reads "state&#x27;s". The lede is
+    interpolated straight into <p>, so it wants entities. This caught 13 pages that had
+    shipped looking fine because only FAQ COUNTS were being checked, never FAQ TEXT.
+    """
+    for k in ("q", "a"):
+        if re.search(r"&(?:#x?[0-9a-f]+|[a-z]+);", f[k], re.I):
+            raise SystemExit(
+                f"{slug}: FAQ '{k}' contains an HTML entity — FAQ text must be plain "
+                f"(use ' and —, not &#x27; and &mdash;). Offending: {f[k][:80]!r}"
+            )
+
+
 def jstr(s):
     # JSON-LD lives inside <script>: json.dumps handles quotes/backslashes; the </ guard
     # stops a stray "</script>" in copy from closing the tag early.
@@ -108,6 +125,8 @@ for slug, d in sorted(DATA.items()):
 
     # ---- 2. FAQs into BOTH the visible list and the schema ------------------
     faqs = d.get("faqs") or []
+    for f in faqs:
+        assert_plain(slug, f)
     if faqs:
         vis_before = out.count('<details class="faq-item">')
         sch_before = len(re.findall(r'"@type":\s*"Question"', out))
