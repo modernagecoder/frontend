@@ -1,16 +1,16 @@
 ---
-title: "Hackathon 1.0 Guide — How It Works, 3 Rounds, Rules & What to Build | Modern Age Coders"
-description: "The complete participant guide to Modern Age Coders Hackathon 1.0. Understand exactly how the hackathon works — all 3 rounds (idea pitch, 48-hour build sprint, grand finale), what to build, submission rules, judging criteria, allowed AI tools, eligibility, prizes and the full timeline. Everything a participant needs, explained step by step."
+title: "Hackathon 1.0 Guide (June 2026) — How It Worked, 3 Rounds, Rules & What to Build | Modern Age Coders"
+description: "The participant guide to Modern Age Coders Hackathon 1.0, held June 2026: how all 3 rounds worked (idea pitch, 48-hour build sprint, grand finale), what to build, submission rules, judging criteria, allowed AI tools, eligibility and prizes. That edition has finished; this guide stays up as the format reference."
 canonical: https://learn.modernagecoders.com/hackathon-guide
 source: src/pages/hackathon-guide.html
 ---
-> The complete participant guide to Modern Age Coders Hackathon 1.0. Understand exactly how the hackathon works — all 3 rounds (idea pitch, 48-hour build sprint, grand finale), what to build, submission rules, judging criteria, allowed AI tools, eligibility, prizes and the full timeline. Everything a participant needs, explained step by step.
+> The participant guide to Modern Age Coders Hackathon 1.0, held June 2026: how all 3 rounds worked (idea pitch, 48-hour build sprint, grand finale), what to build, submission rules, judging criteria, allowed AI tools, eligibility and prizes. That edition has finished; this guide stays up as the format reference.
 
-OverviewJourneyRoundsWhat to buildJudgingRulesFAQ[Register · ₹500](/hackathon)****What it is
+OverviewJourneyRoundsWhat to buildJudgingRulesFAQ[Event page](/hackathon)****What it is
 
 ## A build-anything hackathon to solve a real problem
 
-Modern Age Coders Hackathon 1.0 is a fully online, worldwide hackathon open to **everyone — any age, any country, any skill level**. You register as an individual, and you can form a team of up to four people once the build round begins.
+Modern Age Coders Hackathon 1.0 was a fully online, worldwide hackathon open to **everyone — any age, any country, any skill level**. It ran in June 2026 and has finished. Participants registered as individuals and could form a team of up to four once the build round began. This guide stays up as the reference for how the format works.
 
 The single goal: **build a working solution to a real-life problem**. Not a copy of an existing app, not a slide deck — a real thing that works and helps real people. You'll move through three rounds, and the top 10 builders share a **₹30,000 prize pool**. You can use **any AI tool, agent or IDE** you like — we're looking for the world's best *builder*, not the fastest typist.
 
@@ -26,7 +26,7 @@ Six simple steps. Follow them in order and you'll never be lost.
 
 #### Register
 
-Sign up individually at [the hackathon page](/hackathon) and pay the entry fee (₹500 in India / $10 international) before **6 June 2026**. Seats are limited.
+Participants signed up individually and paid the entry fee (₹500 in India / $10 international) before **6 June 2026**. Registration for this edition is closed.
 
 2
 
@@ -270,8 +270,8 @@ Rank 1₹6,000Rank 2₹5,000Rank 3₹4,000Rank 4₹3,000Rank 5₹2,000Rank 6₹2
 
 ## The schedule
 
-- **Now → 6 June 2026:** Registrations open (₹500 / $10).
-- **6 June 2026, 11:59 PM IST:** Registrations close.
+- **→ 6 June 2026:** Registrations were open (₹500 / $10).
+- **6 June 2026, 11:59 PM IST:** Registrations closed.
 - **7–8 June 2026:** Round 1 — idea & problem pitch; shortlist announced.
 - **9–11 June 2026:** Round 2 — 48-hour build sprint & submission.
 - **12–13 June 2026:** Round 3 — grand finale, live demos & winners.
@@ -280,13 +280,13 @@ Rank 1₹6,000Rank 2₹5,000Rank 3₹4,000Rank 4₹3,000Rank 5₹2,000Rank 6₹2
 
 ## Frequently asked
 
-What exactly do I have to do?Register → join your WhatsApp group → Round 1 (pitch a real problem) → Round 2 (build it in 48 hours) → Round 3 (demo live to judges). This guide explains each step above.Do I need to know how to code?Helpful, but not required. Any AI tool, agent, IDE or no-code tool is allowed — what matters is shipping a working solution to a real problem. Beginners are welcome and can win.Do I have to build the project during the hackathon?Yes — the core build happens during the Round 2 sprint (9–11 June). You can plan and design beforehand, but the working build is created during the event.Can I take part solo?Absolutely. Registration is individual. If you'd like to collaborate, you can form a team of up to 4 during the build round.Where do I submit my work?Through the link shared in your WhatsApp group for each round. Make sure you've created your group ("Hackathon {Your Name}") and added +91 91233 66161.What does it cost?₹500 for participants in India, $10 USD internationally — a one-time individual registration fee.How and when are winners announced?After the live finale on 12–13 June 2026. Judges score all finalists on impact, innovation, execution and presentation; the top 10 are announced and prizes + certificates are sent out.****Ready?
+What exactly do I have to do?Register → join your WhatsApp group → Round 1 (pitch a real problem) → Round 2 (build it in 48 hours) → Round 3 (demo live to judges). This guide explains each step above.Do I need to know how to code?Helpful, but not required. Any AI tool, agent, IDE or no-code tool is allowed — what matters is shipping a working solution to a real problem. Beginners are welcome and can win.Do I have to build the project during the hackathon?Yes — the core build happens during the Round 2 sprint (9–11 June). You can plan and design beforehand, but the working build is created during the event.Can I take part solo?Absolutely. Registration is individual. If you'd like to collaborate, you can form a team of up to 4 during the build round.Where do I submit my work?Through the link shared in your WhatsApp group for each round. Make sure you've created your group ("Hackathon {Your Name}") and added +91 91233 66161.What does it cost?₹500 for participants in India, $10 USD internationally — a one-time individual registration fee.How and when are winners announced?After the live finale on 12–13 June 2026. Judges score all finalists on impact, innovation, execution and presentation; the top 10 are announced and prizes + certificates are sent out.****Edition 1.0 · finished
 
-## Now you know how it works. Go build something real.
+## Now you know how it worked. Want in on the next one?
 
-Registrations close 6 June 2026. Lock your spot, join your group, and start.
+Hackathon 1.0 finished on 13 June 2026, so registrations are closed. Tell us you are interested and we will let you know when the next edition opens.
 
-[Register now · ₹500](/hackathon)[Back to event page](/hackathon)
+[Tell me about the next edition](/contact)[Back to event page](/hackathon)
 
 Need help? WhatsApp / call [+91 91233 66161](https://wa.me/919123366161)
 

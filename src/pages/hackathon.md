@@ -1,12 +1,12 @@
 ---
-title: "Modern Age Coders Hackathon 1.0 — ₹30,000 Prize Pool | Biggest Build-Anything Online Hackathon 2026"
-description: "Modern Age Coders Hackathon 1.0 — the biggest build-anything online hackathon. Open to everyone worldwide, all ages. Solve a real-life problem, win from a ₹30,000 prize pool (top 10 builders). 3 rounds, 48-hour build sprint, any AI tool, agent or IDE allowed. Register individually for just ₹500. Registrations closing soon — sign up now!"
+title: "Modern Age Coders Hackathon 1.0 (June 2026) — ₹30,000 Prize Pool | Build-Anything Online Hackathon"
+description: "Modern Age Coders Hackathon 1.0 — our worldwide build-anything online hackathon, held June 2026. Open to all ages, any AI tool allowed, 3 rounds and a 48-hour build sprint for a ₹30,000 prize pool. This edition has finished; registrations are closed."
 canonical: https://learn.modernagecoders.com/hackathon
 source: src/pages/hackathon.html
 ---
-> Modern Age Coders Hackathon 1.0 — the biggest build-anything online hackathon. Open to everyone worldwide, all ages. Solve a real-life problem, win from a ₹30,000 prize pool (top 10 builders). 3 rounds, 48-hour build sprint, any AI tool, agent or IDE allowed. Register individually for just ₹500. Registrations closing soon — sign up now!
+> Modern Age Coders Hackathon 1.0 — our worldwide build-anything online hackathon, held June 2026. Open to all ages, any AI tool allowed, 3 rounds and a 48-hour build sprint for a ₹30,000 prize pool. This edition has finished; registrations are closed.
 
-AboutPrizesRoundsTracksTimelineFAQ[Guide](/hackathon-guide)₹*30K*Prize Pool48*h*Build Sprint3Rounds10Winners Paid₹*500*Entry Fee****The mission
+AboutPrizesRoundsTracksTimelineFAQ[Guide](/hackathon-guide)[Tell me about the next one](/contact)₹*30K*Prize Pool48*h*Build Sprint3Rounds10Winners Paid₹*500*Entry Fee****The mission
 
 ## Don't build a demo. Build something real.
 
@@ -98,17 +98,17 @@ Got a problem that fits no box? Build it anyway. Surprise us.
 
 ## Key dates
 
-Now → 6 June 2026
+→ 6 June 2026
 
-#### Registrations open
+#### Registrations were open
 
-Sign up individually for ₹500. Seats are limited and closing soon — lock yours in.
+Entry was ₹500 per participant in India, $10 internationally.
 
 6 June 2026 · 11:59 PM IST
 
-#### Registrations close
+#### Registrations closed
 
-Last call. No entries after the countdown hits zero.
+Entries for edition 1.0 shut at this point.
 
 7–8 June 2026
 
@@ -136,7 +136,7 @@ STEP 01
 
 #### Register
 
-Pay ₹500 individually & secure your spot before registrations close.
+Entry was ₹500 individually in India, $10 internationally, before registrations closed.
 
 STEP 02
 
@@ -188,7 +188,7 @@ How clearly you pitch, demo & defend it in the finale.
 
 ## Frequently asked
 
-Who can participate?Anyone, anywhere in the world — any age, any skill level. You don't need to be a Modern Age Coders student. Registration is individual; you can form a team of up to 4 *after* you register, during the build round.How much does it cost & how do I pay?Just ₹500 per participant, paid securely online via Razorpay (UPI, cards, net-banking & wallets). Hit “Register Now”, fill in your details, and complete payment — you'll get instant confirmation.Can I really use AI tools and agents?Yes — everything is allowed and encouraged. Cursor, Windsurf, Copilot, Claude Code, ChatGPT, Gemini, v0, Bolt, Lovable, Replit Agent, Devin… use whatever makes you the best builder. There are no restrictions on tooling.Do I need a team?No. You register and compete as an individual. If you'd like to collaborate, you can team up with up to 3 others (4 total) once the build round begins. Solo builders are completely welcome.What are the 3 rounds?Round 1 — submit your idea & problem pitch (screening). Round 2 — the 48-hour build sprint where you ship a working solution. Round 3 — the grand finale where finalists demo live to judges and winners are announced.How is the ₹30,000 split?The top 5 share ₹20,000, graduated by rank — ₹6,000 / ₹5,000 / ₹4,000 / ₹3,000 / ₹2,000. Ranks 6–10 each receive ₹2,000 (₹10,000 total). All ten winners get paid, and a higher rank never earns less than a lower one.What should I build?Anything that solves a real-life problem — in healthcare, education, sustainability, fintech, daily-life automation, or a fully open wildcard. The judges reward genuine impact over flashy demos.****The full story
+Who can participate?Anyone, anywhere in the world — any age, any skill level. You don't need to be a Modern Age Coders student. Registration is individual; you can form a team of up to 4 *after* you register, during the build round.How much did it cost & can I still enter?Entry to edition 1.0 was ₹500 per participant in India and $10 internationally. You can no longer enter: registrations closed on 6 June 2026 and the hackathon finished on 13 June 2026. If you want to hear when the next edition opens, [tell us here](/contact).Can I really use AI tools and agents?Yes — everything is allowed and encouraged. Cursor, Windsurf, Copilot, Claude Code, ChatGPT, Gemini, v0, Bolt, Lovable, Replit Agent, Devin… use whatever makes you the best builder. There are no restrictions on tooling.Do I need a team?No. You register and compete as an individual. If you'd like to collaborate, you can team up with up to 3 others (4 total) once the build round begins. Solo builders are completely welcome.What are the 3 rounds?Round 1 — submit your idea & problem pitch (screening). Round 2 — the 48-hour build sprint where you ship a working solution. Round 3 — the grand finale where finalists demo live to judges and winners are announced.How is the ₹30,000 split?The top 5 share ₹20,000, graduated by rank — ₹6,000 / ₹5,000 / ₹4,000 / ₹3,000 / ₹2,000. Ranks 6–10 each receive ₹2,000 (₹10,000 total). All ten winners get paid, and a higher rank never earns less than a lower one.What should I build?Anything that solves a real-life problem — in healthcare, education, sustainability, fintech, daily-life automation, or a fully open wildcard. The judges reward genuine impact over flashy demos.****The full story
 
 ## About Modern Age Coders Hackathon 1.0
 
@@ -206,15 +206,15 @@ This is an **AI-friendly hackathon**. Every AI tool, autonomous agent and AI-nat
 
 ### Prizes & key dates
 
-The **₹30,000 prize pool** is split so the top 10 builders are all rewarded: the top five share ₹20,000 (₹6,000 / ₹5,000 / ₹4,000 / ₹3,000 / ₹2,000) and ranks six to ten each receive ₹2,000. **Registrations are open now and close on 6 June 2026**, the three rounds run from 7 June (48-hour build sprint 9–11 June), and the grand finale with winners is on 12–13 June 2026. Seats are limited and the whole world is signing up — register for ₹500 before the countdown hits zero. Hosted by [Modern Age Coders](/), India's online coding and mathematics school.
+The **₹30,000 prize pool** is split so the top 10 builders are all rewarded: the top five share ₹20,000 (₹6,000 / ₹5,000 / ₹4,000 / ₹3,000 / ₹2,000) and ranks six to ten each receive ₹2,000. **That edition has finished.** Registrations closed on 6 June 2026, the three rounds ran from 7 June (48-hour build sprint 9–11 June), and the grand finale was on 12–13 June 2026. If you want to hear when the next edition opens, [tell us here](/contact). Hosted by [Modern Age Coders](/), India's online coding and mathematics school.
 
-****Last call
+****Edition 1.0 · finished
 
-## The world is building. Don't watch from the sidelines.
+## Hackathon 1.0 is done. Want in on the next one?
 
-Registrations close soon and seats are limited. Lock in your spot for ₹500 and take your shot at the ₹30,000 pool.
+This edition ran in June 2026 and has finished, so registrations are closed. Tell us you are interested and we will let you know when the next one opens.
 
-Registrations close in00Days00Hours00Mins00SecsNeed help? WhatsApp / call [+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20register%20for%20Modern%20Age%20Coders%20Hackathon%201.0)
+[Tell me about the next edition](/contact)Questions? WhatsApp / call [+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20hear%20about%20the%20next%20Modern%20Age%20Coders%20Hackathon)
 
 Real student projects
 

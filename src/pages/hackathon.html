@@ -13,11 +13,11 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Age Coders Hackathon 1.0 — ₹30,000 Prize Pool | Biggest Build-Anything Online Hackathon 2026</title>
+    <title>Modern Age Coders Hackathon 1.0 (June 2026) — ₹30,000 Prize Pool | Build-Anything Online Hackathon</title>
 
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="description"
-        content="Modern Age Coders Hackathon 1.0 — the biggest build-anything online hackathon. Open to everyone worldwide, all ages. Solve a real-life problem, win from a ₹30,000 prize pool (top 10 builders). 3 rounds, 48-hour build sprint, any AI tool, agent or IDE allowed. Register individually for just ₹500. Registrations closing soon — sign up now!">
+        content="Modern Age Coders Hackathon 1.0 — our worldwide build-anything online hackathon, held June 2026. Open to all ages, any AI tool allowed, 3 rounds and a 48-hour build sprint for a ₹30,000 prize pool. This edition has finished; registrations are closed.">
     <meta name="author" content="Modern Age Coders">
     <link rel="canonical" href="https://learn.modernagecoders.com/hackathon">
 
@@ -33,17 +33,17 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://learn.modernagecoders.com/hackathon">
-    <meta property="og:title" content="Modern Age Coders Hackathon 1.0 — ₹30,000 Prize Pool | The Biggest Build-Anything Hackathon">
+    <meta property="og:title" content="Modern Age Coders Hackathon 1.0 (June 2026) — ₹30,000 Prize Pool">
     <meta property="og:description"
-        content="Solve a real-life problem, win from a ₹30,000 prize pool. Open worldwide, all ages, any AI tool allowed. 3 rounds. Register individually for just ₹500. Registrations closing soon!">
+        content="Our worldwide build-anything hackathon, held June 2026: 3 rounds, a 48-hour build sprint and a ₹30,000 prize pool. This edition has finished.">
     <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
     <meta property="og:site_name" content="Modern Age Coders">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://learn.modernagecoders.com/hackathon">
-    <meta name="twitter:title" content="Modern Age Coders Hackathon 1.0 — ₹30,000 Prize Pool">
+    <meta name="twitter:title" content="Modern Age Coders Hackathon 1.0 (June 2026) — ₹30,000 Prize Pool">
     <meta name="twitter:description"
-        content="The biggest build-anything online hackathon. Solve real problems, win ₹30,000. Open worldwide. Any AI tool allowed. Register for ₹500 — closing soon!">
+        content="Our worldwide build-anything online hackathon, held June 2026. Any AI tool allowed, ₹30,000 prize pool. This edition has finished.">
     <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
 
     <!-- Structured Data: Event -->
@@ -87,8 +87,8 @@
         },
         {
           "@type": "Question",
-          "name": "How much is the registration fee?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Registration is just ₹500 per participant, paid securely online via Razorpay. Registration closes on 6 June 2026 or when seats fill — whichever comes first." }
+          "name": "How much was the registration fee for Hackathon 1.0?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Registration for Hackathon 1.0 was ₹500 per participant in India and $10 internationally. That edition closed on 6 June 2026 and the hackathon finished on 13 June 2026, so registration is no longer open." }
         },
         {
           "@type": "Question",
@@ -135,8 +135,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Razorpay checkout -->
-    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 
     <style>
         /* ============================================================
@@ -274,6 +272,11 @@
         .hx-prizebadge .lab { font-family: var(--hx-mono); font-size: 0.68rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--hx-gold); }
         .hx-prizebadge .amt { font-family: var(--hx-disp); font-weight: 800; font-size: clamp(2.2rem, 6vw, 3.4rem); line-height: 1; color: #fff; text-shadow: 0 0 30px rgba(255, 210, 74, 0.4); }
 
+        .hx-closed { display:inline-flex; flex-direction:column; gap:.4rem; align-items:center; text-align:center;
+            margin: 0 auto 1.6rem; padding: 1rem 1.6rem; border-radius: 16px; max-width: 62ch;
+            background: rgba(255,255,255,0.05); border: 1px solid var(--hx-line-2); }
+        .hx-closed b { color:#fff; font-size:1.05rem; }
+        .hx-closed span { color: var(--hx-mut); font-size:.88rem; line-height:1.5; }
         /* countdown */
         .hx-count { margin: 2.2rem auto 0; }
         .hx-count-lab { font-family: var(--hx-mono); font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--hx-pink); margin-bottom: 0.85rem; }
@@ -446,33 +449,10 @@
         @media (prefers-reduced-motion: reduce) { .hx-reveal { opacity: 1 !important; transform: none !important; } .hx-marquee-track, .hx-hero h1 .hx-l2, .hx-marquee, .hx-kicker b { animation: none !important; } }
 
         /* ============== REGISTRATION MODAL ============== */
-        .hx-modal-overlay { position: fixed; inset: 0; z-index: 100000; display: none; align-items: center; justify-content: center; padding: 1.2rem; background: rgba(4,1,12,0.82); backdrop-filter: blur(10px); }
-        .hx-modal-overlay.open { display: flex; animation: hx-fade .25s ease; }
         @keyframes hx-fade { from { opacity: 0; } }
-        .hx-modal { width: 100%; max-width: 440px; border-radius: 22px; padding: 1.8rem; position: relative; background: linear-gradient(165deg, #0f0820, #0a0416); border: 1px solid var(--hx-line-2); box-shadow: 0 40px 90px rgba(0,0,0,0.6), 0 0 60px rgba(168,85,247,0.15); animation: hx-pop .35s var(--ease-spring, ease); }
         @keyframes hx-pop { from { opacity: 0; transform: translateY(24px) scale(0.97); } }
-        .hx-modal-x { position: absolute; top: 1rem; right: 1rem; width: 34px; height: 34px; border-radius: 50%; border: none; background: rgba(255,255,255,0.08); color: #fff; font-size: 1.3rem; cursor: pointer; }
-        .hx-modal-x:hover { background: rgba(255,255,255,0.16); }
-        .hx-modal h3 { font-family: var(--hx-disp); font-weight: 800; font-size: 1.5rem; margin: 0 0 0.25rem; color: #fff; }
-        .hx-modal .msub { color: var(--hx-mut); font-size: 0.9rem; margin: 0 0 1.2rem; }
-        .hx-fee { display: flex; justify-content: space-between; align-items: center; padding: 0.9rem 1.1rem; border-radius: 12px; margin-bottom: 1.2rem; background: rgba(196,248,42,0.08); border: 1px solid rgba(196,248,42,0.3); }
-        .hx-fee .l { color: var(--hx-mut); font-size: 0.92rem; } .hx-fee .p { font-family: var(--hx-disp); font-weight: 800; font-size: 1.5rem; color: var(--hx-acid); }
-        .hx-field { margin-bottom: 0.9rem; }
-        .hx-field label { display: block; font-family: var(--hx-mono); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--hx-faint); margin-bottom: 0.4rem; }
-        .hx-field input { width: 100%; padding: 0.8rem 1rem; border-radius: 11px; background: rgba(0,0,0,0.35); border: 1px solid var(--hx-line-2); color: #fff; font-family: var(--hx-body); font-size: 1rem; }
-        .hx-field input:focus { outline: none; border-color: var(--hx-acid); box-shadow: 0 0 0 3px rgba(196,248,42,0.18); }
         .hx-phone { display: flex; gap: 0.5rem; }
         .hx-phone select { padding: 0.8rem 0.5rem; border-radius: 11px; background: rgba(0,0,0,0.35); border: 1px solid var(--hx-line-2); color: #fff; font-family: var(--hx-mono); font-size: 0.9rem; max-width: 110px; }
-        .hx-pay-btn { width: 100%; margin-top: 0.5rem; padding: 1rem; border: none; border-radius: 13px; cursor: pointer; font-family: var(--hx-body); font-weight: 700; font-size: 1.05rem; color: #14021f; background: linear-gradient(100deg, var(--hx-acid), var(--hx-cyan-hi)); transition: transform .2s, box-shadow .25s; }
-        .hx-pay-btn:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(196,248,42,0.4); }
-        .hx-pay-btn:disabled { opacity: 0.65; cursor: not-allowed; transform: none; }
-        .hx-secure { text-align: center; margin-top: 0.9rem; font-family: var(--hx-mono); font-size: 0.74rem; color: var(--hx-faint); }
-        .hx-secure a { color: var(--hx-cyan-hi); }
-        .hx-modal .success-wrap { text-align: center; padding: 0.5rem 0; }
-        .hx-modal .success-wrap .tick { width: 72px; height: 72px; border-radius: 50%; margin: 0 auto 1rem; display: grid; place-items: center; font-size: 2.2rem; background: linear-gradient(135deg, var(--hx-acid), var(--hx-cyan)); color: #07030f; }
-        .hx-modal .success-wrap h3 { margin-bottom: 0.5rem; }
-        .hx-modal .success-wrap p { color: var(--hx-mut); font-size: 0.92rem; line-height: 1.6; }
-        .hx-modal .success-wrap .oid { font-family: var(--hx-mono); font-size: 0.8rem; color: var(--hx-cyan-hi); margin-top: 0.6rem; word-break: break-all; }
 
         /* Post-payment "next step": create a WhatsApp group */
         .hx-next { text-align: left; background: rgba(37,179,88,0.08); border: 1px solid rgba(37,179,88,0.32); border-radius: 14px; padding: 1.1rem 1.2rem; margin: 1.3rem 0 0.4rem; }
@@ -495,7 +475,6 @@
         .hx-trustrow svg { width: 16px; height: 16px; color: var(--hx-cyan-hi); }
         .hx-count-lab { display: inline-flex; align-items: center; gap: 0.45rem; justify-content: center; }
         .hx-count-lab svg { width: 15px; height: 15px; }
-        .hx-secure svg { width: 13px; height: 13px; vertical-align: -0.12em; margin-right: 0.15rem; }
         .hx-point .ic svg { width: 22px; height: 22px; fill: none; stroke: var(--hx-cyan-hi); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
         .hx-step .ic { display: inline-flex; width: 50px; height: 50px; border-radius: 13px; align-items: center; justify-content: center; margin: 0.5rem 0; background: linear-gradient(135deg, rgba(168,85,247,0.16), rgba(255,45,142,0.1)); border: 1px solid var(--hx-line-2); }
         .hx-step .ic svg { width: 24px; height: 24px; fill: none; stroke: var(--hx-violet-light, #c084fc); stroke: #c4b5fd; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
@@ -617,8 +596,8 @@
                 <li><a href="/hackathon-guide">Guide</a></li>
             </ul>
             <div class="hx-nav-right">
-                <span class="hx-nav-status"><i></i>Registrations open</span>
-                <button class="hx-btn hx-btn-primary hx-nav-reg" type="button" onclick="HackathonRegister.open()">Register · ₹500</button>
+                <span class="hx-nav-status"><i></i>Edition 1.0 finished</span>
+                <a class="hx-btn hx-btn-primary hx-nav-reg" href="/contact">Tell me about the next one</a>
                 <button class="hx-burger" id="hxBurger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
             </div>
         </div>
@@ -631,7 +610,7 @@
         <a href="#timeline">Timeline</a>
         <a href="#faq">FAQ</a>
         <a href="/hackathon-guide">Guide</a>
-        <button class="hx-btn hx-btn-primary" type="button" onclick="HackathonRegister.open()">Register · ₹500</button>
+        <a class="hx-btn hx-btn-primary" href="/contact">Tell me about the next one</a>
     </div>
 
     <!-- MARQUEE -->
@@ -646,7 +625,7 @@
                 <span class="hx-pill"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.7 2.6 15.3 0 18M12 3c-2.6 2.7-2.6 15.3 0 18"/></svg><b>Worldwide</b> &amp; all ages</span>
                 <span class="hx-pill"><svg viewBox="0 0 24 24"><rect x="6.5" y="6.5" width="11" height="11" rx="2"/><path d="M9.5 9.5h5v5h-5z"/><path d="M9 3v3.5M15 3v3.5M9 17.5V21M15 17.5V21M3 9h3.5M3 15h3.5M17.5 9H21M17.5 15H21"/></svg><b>Any AI tool</b> allowed</span>
                 <span class="hx-pill"><svg viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3.5 12L12 17l8.5-5M3.5 16L12 21l8.5-5"/></svg><b>3 rounds</b></span>
-                <span class="hx-pill"><svg viewBox="0 0 24 24"><path d="M13 2L4.5 13.5H11l-1 8.5L19.5 10H13l1-8z"/></svg>Registrations <b>closing soon</b></span>
+                <span class="hx-pill"><svg viewBox="0 0 24 24"><path d="M13 2L4.5 13.5H11l-1 8.5L19.5 10H13l1-8z"/></svg>Held <b>June 2026</b></span>
             </div>
 
             <h1 class="hx-reveal">
@@ -655,35 +634,28 @@
                 <span class="hx-l3"><em>1.0</em></span>
             </h1>
 
-            <p class="hx-hero-sub hx-reveal">The biggest <b>build-anything</b> hackathon. Pick a <b>real-life problem</b>, ship a working solution, and compete for a <b>₹30,000 prize pool</b> — the whole world is building. Are you?</p>
+            <p class="hx-hero-sub hx-reveal">Our <b>build-anything</b> hackathon: pick a <b>real-life problem</b>, ship a working solution, compete for a <b>₹30,000 prize pool</b>. Edition 1.0 ran in June 2026 and has finished — here is what it was, and how to hear about the next one.</p>
 
             <div class="hx-prizebadge hx-reveal">
                 <span class="lab">Total Prize Pool</span>
                 <span class="amt">₹30,000</span>
             </div>
 
-            <div class="hx-count hx-reveal" data-deadline="2026-06-06T23:59:00+05:30">
-                <div class="hx-count-lab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3 2"/></svg>Registrations close in</div>
-                <div class="hx-count-grid">
-                    <div class="hx-count-cell"><div class="num" data-cd="d">00</div><span class="unit">Days</span></div>
-                    <div class="hx-count-cell"><div class="num" data-cd="h">00</div><span class="unit">Hours</span></div>
-                    <div class="hx-count-cell"><div class="num" data-cd="m">00</div><span class="unit">Mins</span></div>
-                    <div class="hx-count-cell"><div class="num" data-cd="s">00</div><span class="unit">Secs</span></div>
-                </div>
+            <div class="hx-closed hx-reveal">
+                <b>Hackathon 1.0 has finished.</b>
+                <span>Registrations closed 6 June 2026 · the three rounds ran 7&ndash;11 June · grand finale 12&ndash;13 June 2026.</span>
             </div>
 
             <div class="hx-cta-row hx-reveal">
-                <button class="hx-btn hx-btn-primary" type="button" onclick="HackathonRegister.open()">
-                    Register Now <span class="tag">₹500</span>
-                </button>
-                <a class="hx-btn hx-btn-ghost" href="#prizes">See the ₹30,000 prizes ↓</a>
+                <a class="hx-btn hx-btn-primary" href="/contact">Tell me about the next edition</a>
+                <a class="hx-btn hx-btn-ghost" href="#prizes">See how the ₹30,000 was split ↓</a>
             </div>
 
             <div class="hx-trustrow hx-reveal">
-                <span><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M5 20a7 7 0 0 1 14 0"/></svg>Register individually</span>
-                <span><svg viewBox="0 0 24 24"><circle cx="9" cy="8.5" r="3"/><path d="M3 19a6 6 0 0 1 12 0"/><path d="M16 5.5a3 3 0 0 1 0 6M21 19a6 6 0 0 0-3.5-5.4"/></svg>Team up later (up to 4)</span>
+                <span><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M5 20a7 7 0 0 1 14 0"/></svg>Entry was individual</span>
+                <span><svg viewBox="0 0 24 24"><circle cx="9" cy="8.5" r="3"/><path d="M3 19a6 6 0 0 1 12 0"/><path d="M16 5.5a3 3 0 0 1 0 6M21 19a6 6 0 0 0-3.5-5.4"/></svg>Teams of up to 4</span>
                 <span><svg viewBox="0 0 24 24"><path d="M8 9l-3.5 3L8 15M16 9l3.5 3L16 15M13.5 7l-3 10"/></svg>Beginners welcome</span>
-                <span><svg viewBox="0 0 24 24"><path d="M7 4h10v4.5a5 5 0 0 1-10 0V4z"/><path d="M7 6H4.5a2.5 2.5 0 0 0 2.5 3M17 6h2.5a2.5 2.5 0 0 1-2.5 3"/><path d="M12 13.5V17M9 20h6M10 20v-1.5h4V20"/></svg>Top 10 win cash</span>
+                <span><svg viewBox="0 0 24 24"><path d="M7 4h10v4.5a5 5 0 0 1-10 0V4z"/><path d="M7 6H4.5a2.5 2.5 0 0 0 2.5 3M17 6h2.5a2.5 2.5 0 0 1-2.5 3"/><path d="M12 13.5V17M9 20h6M10 20v-1.5h4V20"/></svg>Top 10 won cash</span>
             </div>
         </div>
     </header>
@@ -855,8 +827,8 @@
                 <h2 class="hx-h2">Key <span class="hx-grad">dates</span></h2>
             </div>
             <div class="hx-timeline">
-                <div class="hx-tl hx-reveal"><div class="d">Now → 6 June 2026</div><h4>Registrations open</h4><p>Sign up individually for ₹500. Seats are limited and closing soon — lock yours in.</p></div>
-                <div class="hx-tl hx-reveal"><div class="d">6 June 2026 · 11:59 PM IST</div><h4>Registrations close</h4><p>Last call. No entries after the countdown hits zero.</p></div>
+                <div class="hx-tl hx-reveal"><div class="d">→ 6 June 2026</div><h4>Registrations were open</h4><p>Entry was ₹500 per participant in India, $10 internationally.</p></div>
+                <div class="hx-tl hx-reveal"><div class="d">6 June 2026 · 11:59 PM IST</div><h4>Registrations closed</h4><p>Entries for edition 1.0 shut at this point.</p></div>
                 <div class="hx-tl hx-reveal"><div class="d">7–8 June 2026</div><h4>Round 1 — Idea &amp; problem pitch</h4><p>Submit your problem statement and approach. Shortlist announced.</p></div>
                 <div class="hx-tl hx-reveal"><div class="d">9–11 June 2026</div><h4>Round 2 — 48-hour build sprint</h4><p>Build &amp; submit your working solution. Form your team (up to 4) here if you want.</p></div>
                 <div class="hx-tl hx-reveal"><div class="d">12–13 June 2026</div><h4>Round 3 — Grand finale &amp; winners</h4><p>Finalists demo live. Judges score. Top 10 winners &amp; the ₹30,000 pool announced.</p></div>
@@ -872,7 +844,7 @@
                 <h2 class="hx-h2">From ₹500 to the <span class="hx-grad">podium</span></h2>
             </div>
             <div class="hx-steps">
-                <div class="hx-step hx-reveal"><div class="n">STEP 01</div><div class="ic"><svg viewBox="0 0 24 24"><circle cx="9.5" cy="8" r="3.5"/><path d="M3.5 20a6 6 0 0 1 12 0"/><path d="M18 7v6M21 10h-6"/></svg></div><h4>Register</h4><p>Pay ₹500 individually &amp; secure your spot before registrations close.</p></div>
+                <div class="hx-step hx-reveal"><div class="n">STEP 01</div><div class="ic"><svg viewBox="0 0 24 24"><circle cx="9.5" cy="8" r="3.5"/><path d="M3.5 20a6 6 0 0 1 12 0"/><path d="M18 7v6M21 10h-6"/></svg></div><h4>Register</h4><p>Entry was ₹500 individually in India, $10 internationally, before registrations closed.</p></div>
                 <div class="hx-step hx-reveal"><div class="n">STEP 02</div><div class="ic"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.8c.7.5 1 1.3 1 2.2h5c0-.9.3-1.7 1-2.2A6 6 0 0 0 12 3z"/></svg></div><h4>Pitch (R1)</h4><p>Submit your real-world problem &amp; idea. Get shortlisted.</p></div>
                 <div class="hx-step hx-reveal"><div class="n">STEP 03</div><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 5l5 5-5 5M11 16h8"/><rect x="2.5" y="3" width="19" height="18" rx="2.5"/></svg></div><h4>Build (R2)</h4><p>48 hours, any AI tool. Solo or team up to 4. Ship it.</p></div>
                 <div class="hx-step hx-reveal"><div class="n">STEP 04</div><div class="ic"><svg viewBox="0 0 24 24"><path d="M7 4h10v4.5a5 5 0 0 1-10 0V4z"/><path d="M7 6H4.5a2.5 2.5 0 0 0 2.5 3M17 6h2.5a2.5 2.5 0 0 1-2.5 3"/><path d="M12 13.5V17M9 20h6M10 20v-1.5h4V20"/></svg></div><h4>Win (R3)</h4><p>Demo live, impress the judges, take your share of ₹30,000.</p></div>
@@ -905,7 +877,7 @@
             </div>
             <div class="hx-faq">
                 <details class="hx-q hx-reveal"><summary>Who can participate?</summary><div class="a">Anyone, anywhere in the world — any age, any skill level. You don't need to be a Modern Age Coders student. Registration is individual; you can form a team of up to 4 <em>after</em> you register, during the build round.</div></details>
-                <details class="hx-q hx-reveal"><summary>How much does it cost &amp; how do I pay?</summary><div class="a">Just ₹500 per participant, paid securely online via Razorpay (UPI, cards, net-banking &amp; wallets). Hit “Register Now”, fill in your details, and complete payment — you'll get instant confirmation.</div></details>
+                <details class="hx-q hx-reveal"><summary>How much did it cost &amp; can I still enter?</summary><div class="a">Entry to edition 1.0 was ₹500 per participant in India and $10 internationally. You can no longer enter: registrations closed on 6 June 2026 and the hackathon finished on 13 June 2026. If you want to hear when the next edition opens, <a href="/contact">tell us here</a>.</div></details>
                 <details class="hx-q hx-reveal"><summary>Can I really use AI tools and agents?</summary><div class="a">Yes — everything is allowed and encouraged. Cursor, Windsurf, Copilot, Claude Code, ChatGPT, Gemini, v0, Bolt, Lovable, Replit Agent, Devin… use whatever makes you the best builder. There are no restrictions on tooling.</div></details>
                 <details class="hx-q hx-reveal"><summary>Do I need a team?</summary><div class="a">No. You register and compete as an individual. If you'd like to collaborate, you can team up with up to 3 others (4 total) once the build round begins. Solo builders are completely welcome.</div></details>
                 <details class="hx-q hx-reveal"><summary>What are the 3 rounds?</summary><div class="a">Round 1 — submit your idea &amp; problem pitch (screening). Round 2 — the 48-hour build sprint where you ship a working solution. Round 3 — the grand finale where finalists demo live to judges and winners are announced.</div></details>
@@ -933,7 +905,7 @@
                 <p><strong>Round 1 — Idea &amp; Problem Pitch:</strong> after registrations close, you submit the real-life problem you are tackling and your approach. Our panel screens entries and shortlists the strongest ideas. <strong>Round 2 — the 48-Hour Build Sprint:</strong> the clock starts and you build a working solution in 48 hours, solo or in a team of up to four. <strong>Round 3 — the Grand Finale:</strong> finalists present live to the judges, defend their build, and the top 10 winners are crowned. Projects are judged on real-world impact, innovation, execution, and presentation.</p>
 
                 <h3>Prizes &amp; key dates</h3>
-                <p>The <strong>₹30,000 prize pool</strong> is split so the top 10 builders are all rewarded: the top five share ₹20,000 (₹6,000 / ₹5,000 / ₹4,000 / ₹3,000 / ₹2,000) and ranks six to ten each receive ₹2,000. <strong>Registrations are open now and close on 6 June 2026</strong>, the three rounds run from 7 June (48-hour build sprint 9–11 June), and the grand finale with winners is on 12–13 June 2026. Seats are limited and the whole world is signing up — <a href="#register">register for ₹500</a> before the countdown hits zero. Hosted by <a href="/">Modern Age Coders</a>, India's online coding and mathematics school.</p>
+                <p>The <strong>₹30,000 prize pool</strong> is split so the top 10 builders are all rewarded: the top five share ₹20,000 (₹6,000 / ₹5,000 / ₹4,000 / ₹3,000 / ₹2,000) and ranks six to ten each receive ₹2,000. <strong>That edition has finished.</strong> Registrations closed on 6 June 2026, the three rounds ran from 7 June (48-hour build sprint 9–11 June), and the grand finale was on 12–13 June 2026. If you want to hear when the next edition opens, <a href="/contact">tell us here</a>. Hosted by <a href="/">Modern Age Coders</a>, India's online coding and mathematics school.</p>
             </div>
         </div>
     </section>
@@ -942,24 +914,15 @@
     <section class="hx-section hx-final" id="register">
         <div class="hx-wrap">
             <div class="hx-final-card hx-reveal">
-                <span class="hx-kicker"><b></b>Last call</span>
-                <h2>The world is <span class="hx-grad">building.</span><br>Don't watch from the sidelines.</h2>
-                <p class="sub">Registrations close soon and seats are limited. Lock in your spot for ₹500 and take your shot at the ₹30,000 pool.</p>
+                <span class="hx-kicker"><b></b>Edition 1.0 · finished</span>
+                <h2>Hackathon 1.0 is <span class="hx-grad">done.</span><br>Want in on the next one?</h2>
+                <p class="sub">This edition ran in June 2026 and has finished, so registrations are closed. Tell us you are interested and we will let you know when the next one opens.</p>
 
-                <div class="hx-count" data-deadline="2026-06-06T23:59:00+05:30">
-                    <div class="hx-count-lab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3 2"/></svg>Registrations close in</div>
-                    <div class="hx-count-grid">
-                        <div class="hx-count-cell"><div class="num" data-cd="d">00</div><span class="unit">Days</span></div>
-                        <div class="hx-count-cell"><div class="num" data-cd="h">00</div><span class="unit">Hours</span></div>
-                        <div class="hx-count-cell"><div class="num" data-cd="m">00</div><span class="unit">Mins</span></div>
-                        <div class="hx-count-cell"><div class="num" data-cd="s">00</div><span class="unit">Secs</span></div>
-                    </div>
-                </div>
 
                 <div class="hx-cta-row" style="justify-content:center;">
-                    <button class="hx-btn hx-btn-primary" type="button" onclick="HackathonRegister.open()">Register Now <span class="tag">₹500</span></button>
+                    <a class="hx-btn hx-btn-primary" href="/contact">Tell me about the next edition</a>
                 </div>
-                <div class="hx-help">Need help? WhatsApp / call <a href="https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20register%20for%20Modern%20Age%20Coders%20Hackathon%201.0">+91 91233 66161</a></div>
+                <div class="hx-help">Questions? WhatsApp / call <a href="https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20hear%20about%20the%20next%20Modern%20Age%20Coders%20Hackathon">+91 91233 66161</a></div>
             </div>
         </div>
     </section>
@@ -1031,7 +994,7 @@
                         <li><a href="#judging">Judging</a></li>
                         <li><a href="#ai-tools">AI tools allowed</a></li>
                         <li><a href="/hackathon-guide">Full participant guide</a></li>
-                        <li><a href="#register" onclick="HackathonRegister.open();return false;">Register · ₹500</a></li>
+                        <li><a href="/contact">Next edition</a></li>
                         <li><a href="/">Modern Age Coders ↗</a></li>
                     </ul>
                 </div>
@@ -1057,54 +1020,16 @@
     </footer>
 
     <!-- Floating WhatsApp help -->
-    <a class="hx-wa" href="https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20register%20for%20Modern%20Age%20Coders%20Hackathon%201.0" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+    <a class="hx-wa" href="https://wa.me/919123366161?text=Hi%2C%20I%20have%20a%20question%20about%20the%20Modern%20Age%20Coders%20Hackathon" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
         <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
     </a>
-
-    <!-- REGISTRATION MODAL -->
-    <div class="hx-modal-overlay" id="hx-modal-overlay">
-        <div class="hx-modal" role="dialog" aria-modal="true" aria-labelledby="hx-modal-title">
-            <button class="hx-modal-x" type="button" onclick="HackathonRegister.close()" aria-label="Close">&times;</button>
-            <div id="hx-modal-body">
-                <h3 id="hx-modal-title">Join Hackathon 1.0</h3>
-                <p class="msub">Register individually. Team up later (up to 4) during the build round.</p>
-                <div class="hx-fee"><span class="l">Registration fee</span><span class="p" id="hx-fee-amt">₹500</span></div>
-                <form id="hx-reg-form" onsubmit="HackathonRegister.submit(event)">
-                    <div class="hx-field"><label for="hx-name">Full name</label><input id="hx-name" type="text" required placeholder="Your full name" autocomplete="name"></div>
-                    <div class="hx-field"><label for="hx-email">Email address</label><input id="hx-email" type="email" required placeholder="you@email.com" autocomplete="email"></div>
-                    <div class="hx-field">
-                        <label for="hx-phone">Phone (WhatsApp)</label>
-                        <div class="hx-phone">
-                            <select id="hx-dial" aria-label="Country code">
-                                <option value="+91" data-iso="IN" selected>IN +91</option>
-                                <option value="+1" data-iso="US">US +1</option>
-                                <option value="+44" data-iso="GB">UK +44</option>
-                                <option value="+971" data-iso="AE">AE +971</option>
-                                <option value="+61" data-iso="AU">AU +61</option>
-                                <option value="+65" data-iso="SG">SG +65</option>
-                                <option value="+1" data-iso="CA">CA +1</option>
-                                <option value="+49" data-iso="DE">DE +49</option>
-                                <option value="+880" data-iso="BD">BD +880</option>
-                                <option value="+92" data-iso="PK">PK +92</option>
-                                <option value="+977" data-iso="NP">NP +977</option>
-                                <option value="+00" data-iso="OT">Other</option>
-                            </select>
-                            <input id="hx-phone" type="tel" required placeholder="Mobile number" autocomplete="tel" maxlength="15">
-                        </div>
-                    </div>
-                    <button class="hx-pay-btn" id="hx-pay-btn" type="submit">Pay ₹500 &amp; Register</button>
-                </form>
-                <div class="hx-secure"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Secured by Razorpay · <a href="https://wa.me/919123366161?text=Hi%2C%20I%20need%20help%20registering%20for%20Hackathon%201.0" target="_blank" rel="noopener">Need help?</a></div>
-            </div>
-        </div>
-    </div>
 
     <!-- ============ PAGE SCRIPTS ============ -->
     <script>
     /* ---------- Marquee fill ---------- */
     (function () {
-        var items = ['Registrations Open', '₹30,000 Prize Pool', 'Builders Worldwide', 'Any AI Tool Allowed',
-            '3 Rounds', 'Just ₹500 To Enter', 'Closing Soon — Register Fast', 'Top 10 Win Cash', '48-Hour Build Sprint'];
+        var items = ['Edition 1.0 · June 2026', '₹30,000 Prize Pool', 'Builders Worldwide', 'Any AI Tool Allowed',
+            '3 Rounds', 'Top 10 Won Cash', '48-Hour Build Sprint', 'That Edition Has Finished'];
         var html = items.map(function (t) { return '<span><i>◆</i>&nbsp;' + t + '</span>'; }).join('');
         var track = document.getElementById('hx-marquee-track');
         if (track) track.innerHTML = html + html;
@@ -1215,210 +1140,11 @@
         })();
     }
 
-    /* ---------- Registration + Razorpay ---------- */
-    var HackathonRegister = {
-        FEE_INR: 500,
-        FEE_USD: 10,
-        getApiUrl: function () {
-            var h = window.location.hostname;
-            var local = (h === 'localhost' || h === '127.0.0.1' || h === '' || window.location.protocol === 'file:');
-            return local ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
-        },
-        // Currency follows the selected country: India pays ₹500, everyone else $10 USD.
-        priceFor: function (iso) {
-            return (iso === 'IN')
-                ? { amount: this.FEE_INR, currency: 'INR', label: '₹500' }
-                : { amount: this.FEE_USD, currency: 'USD', label: '$10' };
-        },
-        selectedIso: function () {
-            var sel = document.getElementById('hx-dial');
-            return sel.options[sel.selectedIndex].getAttribute('data-iso') || 'IN';
-        },
-        isIndianTimezone: function () {
-            try {
-                var tz = (Intl.DateTimeFormat().resolvedOptions().timeZone || '');
-                if (tz === 'Asia/Kolkata' || tz === 'Asia/Calcutta') return true;
-                if (tz) return false;
-            } catch (e) {}
-            return true; // unknown → default to India (primary audience)
-        },
-        // Update the fee box + pay button to match the currently selected country.
-        refreshPrice: function () {
-            var p = this.priceFor(this.selectedIso());
-            var amtEl = document.getElementById('hx-fee-amt');
-            var btn = document.getElementById('hx-pay-btn');
-            if (amtEl) amtEl.textContent = p.label;
-            if (btn && !btn.disabled) btn.textContent = 'Pay ' + p.label + ' & Register';
-        },
-        open: function () {
-            document.getElementById('hx-modal-overlay').classList.add('open');
-            document.body.style.overflow = 'hidden';
-            this.refreshPrice();
-            try { gtag('event', 'hackathon_register_open'); } catch (e) {}
-        },
-        close: function () {
-            document.getElementById('hx-modal-overlay').classList.remove('open');
-            document.body.style.overflow = '';
-        },
-        submit: function (e) {
-            e.preventDefault();
-            var name = document.getElementById('hx-name').value.trim();
-            var email = document.getElementById('hx-email').value.trim();
-            var phone = document.getElementById('hx-phone').value.trim();
-            var dialSel = document.getElementById('hx-dial');
-            var dial = dialSel.value;
-            var iso = dialSel.options[dialSel.selectedIndex].getAttribute('data-iso') || 'IN';
-            if (!name || !email || !phone) { alert('Please fill in all fields.'); return; }
-            var digits = phone.replace(/\D/g, '');
-            var ok = (iso === 'IN') ? /^[0-9]{10}$/.test(digits) : /^[0-9]{6,15}$/.test(digits);
-            if (!ok) { alert(iso === 'IN' ? 'Please enter a valid 10-digit phone number.' : 'Please enter a valid phone number.'); return; }
-            this.pay(name, email, digits, dial, iso);
-        },
-        pay: function (name, email, phone, dial, iso) {
-            var self = this;
-            var price = this.priceFor(iso);
-            var resetLabel = 'Pay ' + price.label + ' & Register';
-            var btn = document.getElementById('hx-pay-btn');
-            btn.disabled = true; btn.textContent = 'Processing…';
-            if (typeof Razorpay === 'undefined') {
-                alert('Payment library is still loading. Please try again in a moment.');
-                btn.disabled = false; btn.textContent = resetLabel; return;
-            }
-            fetch(this.getApiUrl() + '/api/payment/create-order', {
-                method: 'POST', headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    amount: price.amount, currency: price.currency,
-                    productType: 'other',
-                    productId: 'hackathon-1.0',
-                    productName: 'Modern Age Coders Hackathon 1.0 — Registration',
-                    customerName: name, customerEmail: email, customerPhone: phone,
-                    customerCountryCode: dial, customerCountryIso: iso
-                })
-            })
-            .then(function (r) { return r.json(); })
-            .then(function (data) {
-                if (!data.success) throw new Error(data.error || 'Could not create order');
-                var options = {
-                    key: data.key, amount: data.order.amount, currency: data.order.currency,
-                    name: 'Modern Age Coders', description: 'Hackathon 1.0 Registration (' + price.label + ')',
-                    order_id: data.order.id,
-                    prefill: { name: name, email: email, contact: phone },
-                    theme: { color: '#a855f7' },
-                    handler: function (resp) { self.verify(resp, data.order.orderId, name); },
-                    modal: { ondismiss: function () { btn.disabled = false; btn.textContent = resetLabel; } }
-                };
-                var rzp = new Razorpay(options);
-                rzp.on('payment.failed', function (resp) {
-                    alert('Payment failed: ' + (resp.error && resp.error.description ? resp.error.description : 'please try again'));
-                    btn.disabled = false; btn.textContent = resetLabel;
-                });
-                rzp.open();
-            })
-            .catch(function (err) {
-                console.error('Hackathon payment error:', err);
-                alert('Something went wrong: ' + err.message + '\nPlease try again or WhatsApp +91 91233 66161.');
-                btn.disabled = false; btn.textContent = resetLabel;
-            });
-        },
-        verify: function (resp, orderId, name) {
-            var self = this;
-            fetch(this.getApiUrl() + '/api/payment/verify', {
-                method: 'POST', headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    razorpay_order_id: resp.razorpay_order_id,
-                    razorpay_payment_id: resp.razorpay_payment_id,
-                    razorpay_signature: resp.razorpay_signature
-                })
-            })
-            .then(function (r) { return r.json(); })
-            .then(function (data) {
-                if (data.success) { self.success(data.payment, name); }
-                else { throw new Error(data.error || 'Verification failed'); }
-            })
-            .catch(function (err) {
-                alert('Payment verification failed. Please contact +91 91233 66161 with your payment ID. (' + err.message + ')');
-            });
-        },
-        success: function (payment, name) {
-            try { gtag('event', 'hackathon_register_success'); } catch (e) {}
-            hxConfetti();
-            var oid = (payment && payment.orderId) ? payment.orderId : '';
-            var fullName = (name || '').trim();
-            var firstName = fullName ? fullName.split(' ')[0] : '';
-            var groupTitle = 'Hackathon ' + (fullName || 'Participant');
-            var safeTitle = this.escapeHtml(groupTitle);
-            var WA = 'M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z';
-            var waMsg = encodeURIComponent('Hi! I have registered for Modern Age Coders Hackathon 1.0.' +
-                (fullName ? ' Name: ' + fullName + '.' : '') + (oid ? ' Order ID: ' + oid + '.' : '') +
-                ' I am creating my WhatsApp group "' + groupTitle + '" and adding this number. Please guide me on the next steps.');
-            document.getElementById('hx-modal-body').innerHTML =
-                '<div class="success-wrap">' +
-                '<div class="tick">✓</div>' +
-                '<h3>You\'re in' + (firstName ? ', ' + this.escapeHtml(firstName) : '') + '!</h3>' +
-                '<p>Payment confirmed — your spot in <b style="color:#fff">Hackathon 1.0</b> is locked.</p>' +
-                (oid ? '<div class="oid">Order ID: ' + this.escapeHtml(oid) + '</div>' : '') +
-                '<div class="hx-next">' +
-                  '<div class="hx-next-title"><svg viewBox="0 0 24 24"><path d="' + WA + '"/></svg>Your next step — create your hackathon WhatsApp group</div>' +
-                  '<ol>' +
-                    '<li>Open WhatsApp and tap <b>New group</b>.</li>' +
-                    '<li>Name the group:' +
-                      '<div class="hx-copyrow"><span class="hx-chipval">' + safeTitle + '</span>' +
-                      '<button type="button" class="hx-copybtn" data-copy="' + safeTitle + '">COPY</button></div>' +
-                    '</li>' +
-                    '<li>Add this number to the group:' +
-                      '<div class="hx-copyrow"><span class="hx-chipval">+91 91233 66161</span>' +
-                      '<button type="button" class="hx-copybtn" data-copy="+91 91233 66161">COPY</button></div>' +
-                    '</li>' +
-                  '</ol>' +
-                  '<p class="hx-note">All your idea submission, the 3 rounds, schedule &amp; announcements will be shared inside <b>your</b> group — our team joins to guide you.</p>' +
-                '</div>' +
-                '<a class="hx-wa-btn" href="https://wa.me/919123366161?text=' + waMsg + '" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="' + WA + '"/></svg>Message +91 91233 66161 on WhatsApp</a>' +
-                '<button class="hx-pay-btn" style="margin-top:0.7rem" type="button" onclick="HackathonRegister.close()">Done</button>' +
-                '</div>';
-            var box = document.getElementById('hx-modal-body');
-            box.querySelectorAll('.hx-copybtn').forEach(function (b) {
-                b.addEventListener('click', function () { HackathonRegister.copy(b.getAttribute('data-copy'), b); });
-            });
-        },
-        escapeHtml: function (s) {
-            return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
-                return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
-            });
-        },
-        copy: function (text, btn) {
-            var done = function () { if (btn) { var t = btn.textContent; btn.textContent = 'COPIED'; setTimeout(function () { btn.textContent = t; }, 1500); } };
-            try {
-                if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(text).then(done, function () {}); }
-                else { var ta = document.createElement('textarea'); ta.value = text; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta); done(); }
-            } catch (e) {}
-        }
-    };
-    window.HackathonRegister = HackathonRegister;
-
-    /* close modal on overlay click / escape */
-    document.getElementById('hx-modal-overlay').addEventListener('click', function (e) {
-        if (e.target === this) HackathonRegister.close();
-    });
-    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') HackathonRegister.close(); });
-
-    /* Country selector → phone length + price (₹500 for India, $10 USD elsewhere) */
-    document.getElementById('hx-dial').addEventListener('change', function () {
-        var iso = this.options[this.selectedIndex].getAttribute('data-iso');
-        document.getElementById('hx-phone').maxLength = (iso === 'IN') ? 10 : 15;
-        HackathonRegister.refreshPrice();
-    });
-
-    /* Auto-detect: foreign visitors default to USD pricing (and a non-India dial code) */
-    (function () {
-        var sel = document.getElementById('hx-dial');
-        if (!HackathonRegister.isIndianTimezone()) {
-            for (var i = 0; i < sel.options.length; i++) {
-                if (sel.options[i].getAttribute('data-iso') === 'US') { sel.selectedIndex = i; break; }
-            }
-            document.getElementById('hx-phone').maxLength = 15;
-        }
-        HackathonRegister.refreshPrice();
-    })();
+    /* Registration + Razorpay removed 2026-07-15: Hackathon 1.0 finished on 13 June 2026 and
+       this page was still charging ₹500/$10 for it. The modal, the payment flow and the
+       Razorpay checkout script are gone; interest in a future edition goes to /contact.
+       To run edition 2.0, restore from git history (this file @ ff6ba1c3) and re-date it —
+       do NOT reuse the 1.0 copy or its countdowns. */
     </script>
 
     <!-- Custom nav behaviour: scroll state, mobile menu, active-section highlight -->
