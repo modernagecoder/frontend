@@ -912,18 +912,23 @@
     "image_ai": [
       "Midjourney",
       "Bing Image Creator",
-      "Leonardo.ai"
+      "Leonardo.ai",
+      "Deep Dream Generator (16+)"
     ],
     "music_ai": [
       "Soundraw",
       "Suno AI",
-      "Boomy"
+      "Boomy",
+      "Loudly (16+)"
     ],
     "voice_ai": [
-      "Natural Reader"
+      "Natural Reader",
+      "Murf.ai (16+)"
     ],
     "coding_ai": [
-      "GitHub Copilot"
+      "GitHub Copilot",
+      "Blackbox AI (14+)",
+      "AskCodi (16+)"
     ],
     "learning_ai": [
       "Khan Academy Khanmigo",
@@ -937,7 +942,8 @@
     "creative_ai": [
       "Canva AI",
       "Khroma",
-      "Fontjoy"
+      "Fontjoy",
+      "Scenario (16+)"
     ],
     "specialized_ai": [
       "Teachable Machine",
@@ -950,11 +956,14 @@
       "Runway ML",
       "Pictory.ai",
       "Kapwing AI",
-      "Descript"
+      "Descript",
+      "Lumen5 (16+)"
     ],
     "productivity_ai": [
       "Otter.ai",
-      "Reclaim.ai"
+      "Reclaim.ai",
+      "Notion AI (14+)",
+      "IFTTT (16+)"
     ]
   },
   "safety_guidelines": {
@@ -1160,6 +1169,10 @@
     {
       "question": "What equipment does my teenager need for this AI course?",
       "answer": "A basic computer or laptop with internet connection is sufficient. Some tools work on tablets too. All software used is either free or has free educational versions. We guide parents on setting up safe accounts with appropriate controls."
+    },
+    {
+      "question": "Can my teenager use every tool in this course?",
+      "answer": "Almost all of them, from 13. A few are marked (14+) or (16+) because the company that makes them sets that as its own minimum age in its terms of use, so a younger student cannot lawfully hold an account. Those tools are demonstrated in class and picked up later, rather than skipped. We check every tool's published age limit before we teach it, and we publish what we found, including the tools we rejected and why, in our AI tool age guide at /ai-tools-age-guide."
     }
   ],
   "related_courses": [

@@ -239,6 +239,16 @@
   status = 200
 
 [[redirects]]
+  from = "/ai-tools-age-guide"
+  to = "/src/pages/ai-tools-age-guide.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-tools-age-guide.md"
+  to = "/src/pages/ai-tools-age-guide.md"
+  status = 200
+
+[[redirects]]
   from = "/course-atlas.md"
   to = "/src/pages/course-atlas.md"
   status = 200

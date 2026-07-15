@@ -55,6 +55,8 @@
 /about /src/pages/about.html 200
 /courses /src/pages/course.html 200
 /course-atlas /src/pages/course-atlas.html 200
+/ai-tools-age-guide /src/pages/ai-tools-age-guide.html 200
+/ai-tools-age-guide.md /src/pages/ai-tools-age-guide.md 200
 /course-atlas.md /src/pages/course-atlas.md 200
 /real-coding-classes /src/pages/real-coding-classes.html 200
 /real-coding-classes.md /src/pages/real-coding-classes.md 200
