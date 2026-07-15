@@ -511,7 +511,7 @@
           "CORS configuration",
           "Rate limiting",
           "API documentation",
-          "Deployment basics (Heroku, Railway)"
+          "Deployment basics (Render, Railway)"
         ],
         "projects": [
           "Simple REST API for todo app",

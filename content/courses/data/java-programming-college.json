@@ -1155,7 +1155,7 @@
           "Docker best practices for Java",
           "Cloud platforms: AWS, Azure, GCP",
           "Deploying to AWS Elastic Beanstalk",
-          "Deploying to Heroku",
+          "Deploying to Render",
           "CI/CD for Spring Boot with Jenkins",
           "GitHub Actions for Java projects"
         ],

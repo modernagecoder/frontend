@@ -920,14 +920,14 @@
           "Database configuration for production",
           "Gunicorn and uWSGI web servers",
           "Nginx as reverse proxy",
-          "Deployment to Heroku",
+          "Deployment to Render",
           "Deployment to PythonAnywhere",
           "Deployment to DigitalOcean/AWS EC2",
           "Docker basics for Python applications",
           "Creating Dockerfile for Python apps"
         ],
         "projects": [
-          "Deploy Flask app to Heroku",
+          "Deploy Flask app to Render",
           "Deploy Django app to production",
           "Dockerize Python web application",
           "Set up CI/CD for Python project",

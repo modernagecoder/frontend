@@ -98,7 +98,7 @@
           "Virtual DOM concept",
           "React ecosystem overview",
           "Setting up development environment",
-          "Create React App vs Vite",
+          "Vite vs Next.js: choosing a React setup",
           "Project structure best practices",
           "JSX syntax and expressions",
           "JSX vs HTML differences",
@@ -523,7 +523,7 @@
           "Type inference",
           "Strict mode",
           "tsconfig.json configuration",
-          "TypeScript with Create React App",
+          "TypeScript with Vite",
           "TypeScript with Vite",
           "Migration strategies",
           "Common TypeScript errors"
@@ -629,7 +629,7 @@
           "Image optimization",
           "CSS and styling in Next.js",
           "Environment variables",
-          "Next.js vs Create React App",
+          "Next.js vs a plain Vite SPA",
           "Migration to Next.js"
         ],
         "projects": [

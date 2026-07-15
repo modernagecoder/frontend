@@ -245,7 +245,7 @@
         "topics": [
           "What is React and why teens should learn it",
           "React vs vanilla JavaScript - the difference",
-          "Setting up React with Create React App",
+          "Setting up React with Vite",
           "Understanding the React project structure",
           "JSX - writing HTML in JavaScript",
           "Your first React component",
@@ -771,7 +771,7 @@
           "Installing PWAs",
           "Cache strategies",
           "Background sync",
-          "PWA with Create React App",
+          "PWA with Vite",
           "Workbox for PWAs",
           "Testing PWAs",
           "PWA best practices"
@@ -1047,7 +1047,7 @@
       "week_96": {
         "title": "Advanced React Ecosystem",
         "topics": [
-          "Vite vs Create React App",
+          "Vite vs Next.js: which to start with",
           "Modern build tools comparison",
           "Turbopack and speed",
           "Bun runtime for React",

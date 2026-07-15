@@ -116,8 +116,8 @@
       "tools_covered": [
         "ChatGPT web interface",
         "ChatGPT mobile app",
-        "Bing Chat (Microsoft Copilot)",
-        "Google Bard introduction"
+        "Microsoft Copilot",
+        "Google Gemini introduction"
       ],
       "projects": [
         "Interview ChatGPT about its capabilities",
@@ -215,7 +215,7 @@
         "Planning AI art projects"
       ],
       "tools_covered": [
-        "DALL-E 2/3 introduction",
+        "DALL-E 3 introduction",
         "Bing Image Creator (free)",
         "Craiyon (formerly DALL-E mini)",
         "NightCafe Creator basics"
@@ -993,19 +993,17 @@
   },
   "ai_tools_masterlist": {
     "text_ai": [
-      "ChatGPT (GPT-3.5/4)",
+      "ChatGPT",
       "Claude (Anthropic)",
-      "Google Bard",
+      "Google Gemini",
       "Microsoft Copilot",
       "Perplexity AI",
       "You.com",
       "Poe by Quora",
-      "Character.ai",
-      "Replika",
       "Pi by Inflection"
     ],
     "image_ai": [
-      "DALL-E 2/3",
+      "DALL-E 3",
       "Midjourney",
       "Stable Diffusion",
       "Bing Image Creator",
@@ -1022,7 +1020,6 @@
       "Mubert",
       "AIVA",
       "Boomy",
-      "Amper Music",
       "Jukebox by OpenAI",
       "BandLab SongStarter",
       "Loudly",
@@ -1057,7 +1054,7 @@
       "Replit AI",
       "Tabnine",
       "Codeium",
-      "Amazon CodeWhisperer",
+      "Amazon Q Developer",
       "Blackbox AI",
       "AI Code Mentor",
       "Codex by OpenAI",

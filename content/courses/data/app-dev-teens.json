@@ -170,7 +170,7 @@
         "title": "React.js Fundamentals",
         "topics": [
           "Why React? Facebook, Instagram, Netflix use it",
-          "Create React App: Starting projects quickly",
+          "Vite: Starting projects quickly",
           "JSX: HTML in JavaScript (weird but awesome)",
           "Components: Building blocks of apps",
           "Props: Passing data between components",

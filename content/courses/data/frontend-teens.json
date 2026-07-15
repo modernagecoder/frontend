@@ -415,7 +415,7 @@
         "title": "React Basics",
         "topics": [
           "Why React? Facebook, Instagram, Netflix use it",
-          "Create React App: Quick start",
+          "Vite: Quick start",
           "JSX: HTML in JavaScript (weird but powerful)",
           "Components: Building blocks of React",
           "Functional vs Class components",

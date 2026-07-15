@@ -899,7 +899,7 @@
         "title": "Cloud Services & Deployment",
         "topics": [
           "Introduction to cloud computing",
-          "Deploying to Heroku",
+          "Deploying to Render",
           "Using Netlify for frontend",
           "MongoDB Atlas setup",
           "Environment management",

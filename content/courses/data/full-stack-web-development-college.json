@@ -523,7 +523,7 @@
         "title": "React Fundamentals",
         "topics": [
           "What is React? Virtual DOM explained",
-          "Create React App setup",
+          "Vite setup",
           "JSX syntax and rules",
           "Components: functional vs class",
           "Props and prop drilling",

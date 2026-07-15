@@ -344,7 +344,7 @@
         "title": "React Fundamentals & JSX",
         "topics": [
           "Introduction to React: component-based architecture",
-          "Create React App with TypeScript template",
+          "TypeScript with Vite",
           "Vite for React TypeScript projects",
           "JSX syntax and expressions",
           "Components: functional components",

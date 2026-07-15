@@ -335,7 +335,7 @@
         "topics": [
           "What is React? Why it's so popular",
           "React vs vanilla JavaScript",
-          "Create React App setup",
+          "Vite setup",
           "JSX - HTML in JavaScript",
           "Components - building blocks of React",
           "Props - passing data to components",

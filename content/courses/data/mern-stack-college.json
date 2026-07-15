@@ -346,7 +346,7 @@
         "title": "Introduction to React",
         "topics": [
           "React philosophy and virtual DOM",
-          "Create React App setup",
+          "Vite setup",
           "JSX syntax and expressions",
           "Components: functional vs class",
           "Props and prop types",
@@ -365,7 +365,7 @@
         ],
         "practice": "Build 20 React components",
         "tools": [
-          "Create React App",
+          "Vite",
           "React DevTools",
           "React playground"
         ]
@@ -1393,7 +1393,7 @@
           "Elastic Beanstalk",
           "Vercel deployment",
           "Netlify for frontend",
-          "Heroku deployment",
+          "Render deployment",
           "Digital Ocean setup",
           "Domain and SSL setup",
           "CDN configuration"

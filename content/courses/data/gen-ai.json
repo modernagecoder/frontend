@@ -353,7 +353,7 @@
         "topics": [
           "OpenAI API overview and capabilities",
           "Getting API keys and authentication",
-          "GPT-4 and GPT-3.5-turbo models",
+          "Current OpenAI chat models, and how to choose between them",
           "Chat completions API: messages and roles",
           "System, user, and assistant messages",
           "Completion parameters: temperature, max_tokens, top_p",
@@ -829,11 +829,11 @@
           "Evaluation metrics for fine-tuned models",
           "Benchmark datasets and tasks",
           "OpenAI fine-tuning API",
-          "Fine-tuning GPT-3.5 and GPT-4",
+          "Fine-tuning current OpenAI models",
           "Cost considerations for fine-tuning"
         ],
         "projects": [
-          "Fine-tune GPT-3.5 for customer support",
+          "Fine-tune a current OpenAI model for customer support",
           "Domain-specific chatbot fine-tuning",
           "Code completion model fine-tuning",
           "Fine-tuned model for legal documents",

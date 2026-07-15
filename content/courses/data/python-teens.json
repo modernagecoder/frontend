@@ -615,7 +615,7 @@
         "title": "Cloud & Deployment",
         "topics": [
           "Cloud platforms: AWS, Google Cloud, Azure",
-          "Heroku for easy deployment",
+          "Render for easy deployment",
           "Docker containerization",
           "Kubernetes basics",
           "Nginx and Gunicorn configuration",
