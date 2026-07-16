@@ -546,6 +546,38 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Blog category hubs (Phase 3.8) -->
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/topic/python</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/topic/java</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/topic/kids-coding</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/topic/maths</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/topic/ai</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 
   <!-- Static Pages (City, Summer Camp, Challenges, etc.) -->
   <url>

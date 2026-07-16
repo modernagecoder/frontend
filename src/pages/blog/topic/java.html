@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Java Tutorials &amp; Programs | Modern Age Coders Blog</title>
+<meta name="description" content="Java for school boards, placements and real projects: worked programs for ICSE and CBSE, OOP explainers, DSA in Java and career paths. 11 guides from Modern A">
+<link rel="canonical" href="https://learn.modernagecoders.com/blog/topic/java">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Java Tutorials &amp; Programs">
+<meta property="og:description" content="Java for school boards, placements and real projects: worked programs for ICSE and CBSE, OOP explainers, DSA in Java and career paths. 11 guides from Modern A">
+<meta property="og:url" content="https://learn.modernagecoders.com/blog/topic/java">
+<link rel="alternate" type="text/markdown" href="https://learn.modernagecoders.com/blog/topic/java.md" title="Markdown version for AI agents">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Java Tutorials & Programs","description":"Java for school boards, placements and real projects: worked programs for ICSE and CBSE, OOP explainers, DSA in Java and career paths.","url":"https://learn.modernagecoders.com/blog/topic/java","inLanguage":"en-IN","isPartOf":{"@type":"Blog","name":"Modern Age Coders Blog","url":"https://learn.modernagecoders.com/blog"},"mainEntity":{"@type":"ItemList","numberOfItems":11,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://learn.modernagecoders.com/blog/50-java-programs-for-icse-class-10","name":"50 Important Java Programs for ICSE Class 10 Boards"},{"@type":"ListItem","position":2,"url":"https://learn.modernagecoders.com/blog/icse-class-10-computer-applications-revision","name":"ICSE Class 10 Computer Applications: Revision Guide"},{"@type":"ListItem","position":3,"url":"https://learn.modernagecoders.com/blog/java-array-programs-for-beginners","name":"Java Array Programs for Beginners: 20 Solved Examples"},{"@type":"ListItem","position":4,"url":"https://learn.modernagecoders.com/blog/java-constructors-explained","name":"Java Constructors Explained: Types, Overloading, ICSE"},{"@type":"ListItem","position":5,"url":"https://learn.modernagecoders.com/blog/string-handling-in-java","name":"String Handling in Java: The ICSE and CBSE Guide"},{"@type":"ListItem","position":6,"url":"https://learn.modernagecoders.com/blog/top-20-java-programs-for-icse-class-10","name":"Top 20 Java Programs for ICSE Class 10 (With Code)"},{"@type":"ListItem","position":7,"url":"https://learn.modernagecoders.com/blog/30-best-java-programs-for-class-8-students","name":"30+ Best Java Programs for Class 8 Students: Easy Projects to Start Coding"},{"@type":"ListItem","position":8,"url":"https://learn.modernagecoders.com/blog/best-java-ides-for-beginners","name":"10 Best Java IDEs for Beginners: Complete Guide to Choosing Your First IDE"},{"@type":"ListItem","position":9,"url":"https://learn.modernagecoders.com/blog/java-for-kids-complete-guide-learning-programming-2026","name":"Java for Kids: Complete Kids Guide to Learning Java Programming in 2026"},{"@type":"ListItem","position":10,"url":"https://learn.modernagecoders.com/blog/top-10-java-programs-for-school-students","name":"Top 10 Java Programs Every School Student Should Know (With Solutions)"},{"@type":"ListItem","position":11,"url":"https://learn.modernagecoders.com/blog/top-10-java-programs-every-college-student-must-know","name":"Top 10 Java Programs Every College Student Must Know (With Solutions)"}]}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://learn.modernagecoders.com/blog"},{"@type":"ListItem","position":3,"name":"Java","item":"https://learn.modernagecoders.com/blog/topic/java"}]}</script>
+<style>
+:root{--paper:#FBF8F2;--ink:#1C1814;--amber:#B45309;--amber2:#D97706;--muted:#6B6259;--line:#E5DED1;--card:#fff;--capsule:#F4EFE4}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.68;-webkit-font-smoothing:antialiased}
+a{color:var(--amber)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header.top{border-bottom:1px solid var(--line);padding:16px 0}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.brand{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:1.12rem;color:var(--ink);text-decoration:none}
+.topnav a{margin-left:18px;font-size:.92rem;text-decoration:none;color:var(--muted)}
+.topnav a:hover{color:var(--amber)}
+nav.crumb{font-size:.82rem;color:var(--muted);padding:18px 0 0;font-family:'JetBrains Mono',monospace}
+nav.crumb a{color:var(--muted);text-decoration:none}
+nav.crumb a:hover{color:var(--amber)}
+.hero{padding:24px 0 26px;border-bottom:1px solid var(--line)}
+h1{font-family:Fraunces,Georgia,serif;font-size:clamp(1.9rem,4.2vw,2.9rem);line-height:1.12;margin:0 0 14px;font-weight:700}
+.lead{font-size:1.08rem;color:var(--muted);max-width:760px;margin:0}
+.count{font-family:'JetBrains Mono',monospace;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--amber2);margin:0 0 8px}
+.blocks{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin:28px 0 10px}
+.rel-card{border:1px solid var(--line);border-radius:8px;padding:18px 20px;background:var(--card);text-decoration:none;color:var(--ink);display:block}
+.rel-card:hover{border-color:var(--amber)}
+.rel-kind{font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:.05em;text-transform:uppercase;color:var(--amber2)}
+.rel-card h3{font-family:Fraunces,Georgia,serif;font-size:1.12rem;margin:6px 0 0;line-height:1.25}
+.rel-sum{margin:8px 0 0;font-size:.92rem;color:var(--muted);line-height:1.5}
+.cta{background:var(--ink);color:var(--paper);border-radius:10px;padding:28px;margin:40px 0;text-align:center}
+.cta h2{font-family:Fraunces,Georgia,serif;margin:0 0 10px;color:var(--paper)}
+.cta p{margin:0 0 18px;color:#D8D0C4}
+.cta a{display:inline-block;background:var(--amber);color:#fff;padding:12px 26px;border-radius:8px;text-decoration:none;font-weight:600;margin:0 6px 8px}
+.cta a.ghost{background:transparent;border:1px solid var(--amber);color:var(--amber)}
+footer.bot{margin-top:24px;border-top:1px solid var(--line);padding:30px 0 50px;color:var(--muted);font-size:.9rem}
+footer.bot a{color:var(--muted)}
+@media (prefers-color-scheme:dark){
+  :root{--paper:#16130F;--ink:#F0EAE0;--muted:#A79C8D;--line:#332C24;--amber:#E9A23B;--amber2:#E9A23B;--card:#1E1A15;--capsule:#1E1A15}
+  .cta{background:#000}
+}
+:root[data-theme="dark"]{--paper:#16130F;--ink:#F0EAE0;--muted:#A79C8D;--line:#332C24;--amber:#E9A23B;--amber2:#E9A23B;--card:#1E1A15;--capsule:#1E1A15}
+:root[data-theme="light"]{--paper:#FBF8F2;--ink:#1C1814;--muted:#6B6259;--line:#E5DED1;--amber:#B45309;--amber2:#D97706;--card:#fff;--capsule:#F4EFE4}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="/">Modern Age Coders</a>
+  <nav class="topnav"><a href="/blog">Blog</a><a href="/courses">Courses</a><a href="/contact">Contact</a></nav>
+</div></header>
+
+<main class="wrap">
+  <nav class="crumb"><a href="/">Home</a> / <a href="/blog">Blog</a> / Java</nav>
+  <div class="hero">
+    <p class="count">11 articles</p>
+    <h1>Java Tutorials &amp; Programs</h1>
+    <p class="lead">Java for school boards, placements and real projects: worked programs for ICSE and CBSE, OOP explainers, DSA in Java and career paths.</p>
+  </div>
+
+  <div class="blocks">
+      <a class="rel-card" href="/blog/50-java-programs-for-icse-class-10">
+        <span class="rel-kind">Java &middot; 24 min read</span>
+        <h3>50 Important Java Programs for ICSE Class 10 Boards</h3>
+        <p class="rel-sum">The complete ICSE Class 10 Java program bank: 50 board-style programs in 7 families, every one compiled and run, with its real output shown.</p>
+      </a>
+      <a class="rel-card" href="/blog/icse-class-10-computer-applications-revision">
+        <span class="rel-kind">Java &middot; 6 min read</span>
+        <h3>ICSE Class 10 Computer Applications: Revision Guide</h3>
+        <p class="rel-sum">The complete ICSE Class 10 Computer Applications revision guide: paper structure, topic-by-topic notes, 70 executed Java programs, and a 4-week plan.</p>
+      </a>
+      <a class="rel-card" href="/blog/java-array-programs-for-beginners">
+        <span class="rel-kind">Java &middot; 12 min read</span>
+        <h3>Java Array Programs for Beginners: 20 Solved Examples</h3>
+        <p class="rel-sum">20 Java array programs for beginners, solved and executed: storing, searching, bubble and selection sort, string arrays, and 2D matrices with output.</p>
+      </a>
+      <a class="rel-card" href="/blog/java-constructors-explained">
+        <span class="rel-kind">Java &middot; 8 min read</span>
+        <h3>Java Constructors Explained: Types, Overloading, ICSE</h3>
+        <p class="rel-sum">Constructors in Java explained for ICSE and CBSE: default, parameterised, copy, overloading, this, and constructor vs method, all run with real output.</p>
+      </a>
+      <a class="rel-card" href="/blog/string-handling-in-java">
+        <span class="rel-kind">Java &middot; 8 min read</span>
+        <h3>String Handling in Java: The ICSE and CBSE Guide</h3>
+        <p class="rel-sum">String handling in Java for ICSE and CBSE: the method toolkit, equals vs ==, immutability, substring rules, and 5 board programs with real output.</p>
+      </a>
+      <a class="rel-card" href="/blog/top-20-java-programs-for-icse-class-10">
+        <span class="rel-kind">Java &middot; 16 min read</span>
+        <h3>Top 20 Java Programs for ICSE Class 10 (With Code)</h3>
+        <p class="rel-sum">The top 20 Java programs for ICSE Class 10, each with the exam-style question and tested BlueJ code: special numbers, strings, arrays, patterns and more.</p>
+      </a>
+      <a class="rel-card" href="/blog/30-best-java-programs-for-class-8-students">
+        <span class="rel-kind">Programming &middot; 18 min read</span>
+        <h3>30+ Best Java Programs for Class 8 Students: Easy Projects to Start Coding</h3>
+        <p class="rel-sum">Start coding with 30+ easy Java programs for Class 8 students. Practice basic concepts with simple examples and real coding exercises.</p>
+      </a>
+      <a class="rel-card" href="/blog/best-java-ides-for-beginners">
+        <span class="rel-kind">Programming &middot; 15 min read</span>
+        <h3>10 Best Java IDEs for Beginners: Complete Guide to Choosing Your First IDE</h3>
+        <p class="rel-sum">Compare the 10 best Java IDEs for beginners. Find the perfect IDE with features, pros, cons, and setup guides for 2026.</p>
+      </a>
+      <a class="rel-card" href="/blog/java-for-kids-complete-guide-learning-programming-2026">
+        <span class="rel-kind">Education &middot; 15 min read</span>
+        <h3>Java for Kids: Complete Kids Guide to Learning Java Programming in 2026</h3>
+        <p class="rel-sum">Complete guide to teaching Java for kids. Best age, resources, projects, and tips for young programmers. Perfect for ages 11+.</p>
+      </a>
+      <a class="rel-card" href="/blog/top-10-java-programs-for-school-students">
+        <span class="rel-kind">Programming &middot; 12 min read</span>
+        <h3>Top 10 Java Programs Every School Student Should Know (With Solutions)</h3>
+        <p class="rel-sum">Master 10 essential Java programs for school students. Complete solutions, explanations, and practice exercises for beginners.</p>
+      </a>
+      <a class="rel-card" href="/blog/top-10-java-programs-every-college-student-must-know">
+        <span class="rel-kind">Programming &middot; 15 min read</span>
+        <h3>Top 10 Java Programs Every College Student Must Know (With Solutions)</h3>
+        <p class="rel-sum">Master 10 essential Java programs with complete solutions and explanations. Perfect for college students, interviews, and exams.</p>
+      </a>
+  </div>
+
+  <div class="cta">
+    <h2>Ready to go from reading to building?</h2>
+    <p>Live, small-batch classes with a mentor who reviews your work. Start with a free demo.</p>
+    <a href="/best-java-classes-in-india">Best Java Classes in India</a>
+    <a class="ghost" href="/courses">All courses</a>
+  </div>
+</main>
+
+<footer class="bot"><div class="wrap">
+  <p>Modern Age Coders &middot; <a href="/blog">Blog</a> &middot; <a href="/courses">Courses</a> &middot; <a href="/best-java-classes-in-india">Best Java Classes in India</a> &middot; <a href="/contact">Contact</a></p>
+</div></footer>
+</body>
+</html>

@@ -725,6 +725,18 @@
 /blog/example-all-features /blog 301!
 /blog/mathematics-programming-logical-problem-solving /blog/role-of-mathematics-programming-logical-problem-solving 301!
 
+# Blog category hubs (Phase 3.8) — MUST come before the /blog/* catch-all below
+/blog/topic/python /src/pages/blog/topic/python.html 200
+/blog/topic/java /src/pages/blog/topic/java.html 200
+/blog/topic/kids-coding /src/pages/blog/topic/kids-coding.html 200
+/blog/topic/maths /src/pages/blog/topic/maths.html 200
+/blog/topic/ai /src/pages/blog/topic/ai.html 200
+/blog/topic/python.md /src/pages/blog/topic/python.md 200
+/blog/topic/java.md /src/pages/blog/topic/java.md 200
+/blog/topic/kids-coding.md /src/pages/blog/topic/kids-coding.md 200
+/blog/topic/maths.md /src/pages/blog/topic/maths.md 200
+/blog/topic/ai.md /src/pages/blog/topic/ai.md 200
+
 # Blog posts (catch-all — must come AFTER specific redirects above)
 /blog/* /content/blog/generated/:splat/index.html 200
 

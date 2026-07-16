@@ -5494,6 +5494,57 @@
   to = "/src/pages/ai-engineer-roadmap-2026.md"
   status = 200
 
+# Blog category hubs (Phase 3.8) — MUST precede the /blog/* catch-all
+[[redirects]]
+  from = "/blog/topic/python"
+  to = "/src/pages/blog/topic/python.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/topic/java"
+  to = "/src/pages/blog/topic/java.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/topic/kids-coding"
+  to = "/src/pages/blog/topic/kids-coding.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/topic/maths"
+  to = "/src/pages/blog/topic/maths.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/topic/ai"
+  to = "/src/pages/blog/topic/ai.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/topic/python.md"
+  to = "/src/pages/blog/topic/python.md"
+  status = 200
+
+[[redirects]]
+  from = "/blog/topic/java.md"
+  to = "/src/pages/blog/topic/java.md"
+  status = 200
+
+[[redirects]]
+  from = "/blog/topic/kids-coding.md"
+  to = "/src/pages/blog/topic/kids-coding.md"
+  status = 200
+
+[[redirects]]
+  from = "/blog/topic/maths.md"
+  to = "/src/pages/blog/topic/maths.md"
+  status = 200
+
+[[redirects]]
+  from = "/blog/topic/ai.md"
+  to = "/src/pages/blog/topic/ai.md"
+  status = 200
+
 [[redirects]]
   from = "/blog/*"
   to = "/content/blog/generated/:splat/index.html"

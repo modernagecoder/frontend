@@ -1004,6 +1004,14 @@ class BlogGenerator {
                 </div>
             </div>
         </section>
+        <nav class="blog-topic-hubs section" aria-label="Browse the blog by topic" style="max-width:1100px;margin:-8px auto 0;padding:6px 20px 0;display:flex;flex-wrap:wrap;gap:10px;align-items:center">
+            <span style="font-size:.85rem;font-weight:600;opacity:.7">Browse by topic:</span>
+            <a href="/blog/topic/python" style="border:1px solid rgba(128,128,128,.32);border-radius:20px;padding:6px 14px;text-decoration:none;color:inherit;font-size:.88rem;font-weight:600">Python</a>
+            <a href="/blog/topic/java" style="border:1px solid rgba(128,128,128,.32);border-radius:20px;padding:6px 14px;text-decoration:none;color:inherit;font-size:.88rem;font-weight:600">Java</a>
+            <a href="/blog/topic/kids-coding" style="border:1px solid rgba(128,128,128,.32);border-radius:20px;padding:6px 14px;text-decoration:none;color:inherit;font-size:.88rem;font-weight:600">Kids Coding</a>
+            <a href="/blog/topic/maths" style="border:1px solid rgba(128,128,128,.32);border-radius:20px;padding:6px 14px;text-decoration:none;color:inherit;font-size:.88rem;font-weight:600">Maths</a>
+            <a href="/blog/topic/ai" style="border:1px solid rgba(128,128,128,.32);border-radius:20px;padding:6px 14px;text-decoration:none;color:inherit;font-size:.88rem;font-weight:600">AI</a>
+        </nav>
     `;
 
 
