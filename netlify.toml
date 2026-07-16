@@ -239,6 +239,36 @@
   status = 200
 
 [[redirects]]
+  from = "/cbse-ai-curriculum-classes"
+  to = "/src/pages/cbse-ai-curriculum-classes.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-ai-curriculum-classes.md"
+  to = "/src/pages/cbse-ai-curriculum-classes.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-computational-thinking-classes-3-to-5"
+  to = "/src/pages/cbse-computational-thinking-classes-3-to-5.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-computational-thinking-classes-3-to-5.md"
+  to = "/src/pages/cbse-computational-thinking-classes-3-to-5.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-classes-for-cbse-class-6-to-8"
+  to = "/src/pages/ai-classes-for-cbse-class-6-to-8.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-classes-for-cbse-class-6-to-8.md"
+  to = "/src/pages/ai-classes-for-cbse-class-6-to-8.md"
+  status = 200
+
+[[redirects]]
   from = "/ai-tools-age-guide"
   to = "/src/pages/ai-tools-age-guide.html"
   status = 200

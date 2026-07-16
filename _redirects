@@ -55,6 +55,12 @@
 /about /src/pages/about.html 200
 /courses /src/pages/course.html 200
 /course-atlas /src/pages/course-atlas.html 200
+/cbse-ai-curriculum-classes /src/pages/cbse-ai-curriculum-classes.html 200
+/cbse-ai-curriculum-classes.md /src/pages/cbse-ai-curriculum-classes.md 200
+/cbse-computational-thinking-classes-3-to-5 /src/pages/cbse-computational-thinking-classes-3-to-5.html 200
+/cbse-computational-thinking-classes-3-to-5.md /src/pages/cbse-computational-thinking-classes-3-to-5.md 200
+/ai-classes-for-cbse-class-6-to-8 /src/pages/ai-classes-for-cbse-class-6-to-8.html 200
+/ai-classes-for-cbse-class-6-to-8.md /src/pages/ai-classes-for-cbse-class-6-to-8.md 200
 /ai-tools-age-guide /src/pages/ai-tools-age-guide.html 200
 /ai-tools-age-guide.md /src/pages/ai-tools-age-guide.md 200
 /course-atlas.md /src/pages/course-atlas.md 200

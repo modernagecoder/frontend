@@ -1,0 +1,131 @@
+{
+  "_about": {
+    "purpose": "Single source for the CBSE AI curriculum cluster (Phase 5.1). Every CBSE fact here was read from CBSE's own circulars on 2026-07-15 and is quoted or cited by circular number. Do NOT hand-edit the generated HTML; edit this file and run scripts/build-cbse-ai-cluster.js.",
+    "verified": "2026-07-15",
+    "must_not_say": [
+      "CBSE has made AI mandatory/compulsory for Classes 3-8 (it is 'directed to introduce', not mandatory)",
+      "AI is taught from Class 3 (Classes 3-5 are Computational Thinking only; AI literacy starts Class 6)",
+      "A new AI subject or extra AI periods (it is integrated, with no additional instructional time)",
+      "CBSE announced this on 30 Oct 2025 (that was the Ministry of Education, a consultation readout; CBSE launched it 1 April 2026)"
+    ]
+  },
+
+  "facts": {
+    "circular_launch": "CBSE Circular Acad-15/2026, dated 1 April 2026",
+    "circular_discontinue": "CBSE Circular Acad-18/2026, dated 9 April 2026",
+    "subject_name": "Computational Thinking and Artificial Intelligence (CT & AI)",
+    "classes": "III to VIII",
+    "session": "2026-27",
+    "mandate_verb": "schools are directed to introduce",
+    "mandate_note": "CBSE's own wording. The curriculum is not a mandatory or optional 'subject' at this stage; it is integrated into existing periods.",
+    "delivery": "low-tech and activity-driven, without reliance on specific platforms, devices, or additional instructional time, delivered within existing subject periods as a companion to the NCERT Mathematics textbooks",
+    "hours_3_5": "50 hours a year",
+    "hours_6_8": "100 hours a year",
+    "ai_starts_class": "Class 6",
+    "committee_chair": "Prof. Karthik Raman, IIT Madras",
+    "aim_quote": "with the aim of creating AI-literate learners by 2030",
+    "compulsory_class9": "CT & AI becomes a compulsory Class 9 subject with an annual examination from session 2027-28",
+    "class9_417_discontinued": "AI (code 417) was discontinued for Class 9 from 2026-27; Class 10 continues on the earlier scheme",
+    "launch_quote": "In alignment with the National Education Policy (NEP) 2020 and the National Curriculum for School Education, CBSE introduces the Computational Thinking (CT) and Artificial Intelligence (AI) Curriculum for Classes III-VIII from the academic session 2026-27.",
+    "codes": "AI skill subject codes 417 (Class 10) and 843 (Classes 11-12) remain current for 2026-27",
+    "frameworks_line": "reflects the learner competencies in UNESCO's AI competency frameworks for students and teachers (2024) and the EU-OECD AILit Framework (June 2026)"
+  },
+
+  "founder": {
+    "name": "Shivam Khemka",
+    "role": "Founder, Modern Age Coders",
+    "quote": "CBSE has done the right thing by putting computational thinking in front of every child. But read the circular and you see the honest limit: it is deliberately low-tech, it adds no new class time, and it is taught by the existing maths teacher from a companion book. That is a floor, not a ceiling. A child who is genuinely curious about how AI works needs to build something and get it wrong and fix it, with a teacher who has done it. That is the gap we exist to fill, and it is why our classes go deeper than any school timetable has room for."
+  },
+
+  "pages": {
+    "cbse-ai-curriculum-classes": {
+      "kind": "pillar",
+      "title": "CBSE's Computational Thinking & AI Curriculum (2026-27): A Parent's Complete Guide",
+      "meta": "CBSE launched Computational Thinking & AI for Classes 3-8 from 2026-27. What it is, the honest class-by-class breakdown, and how to give your child real depth. Sourced from CBSE's circulars.",
+      "h1": "CBSE's Computational Thinking & AI Curriculum: a parent's complete guide",
+      "capsule": "From the 2026-27 session, CBSE introduces Computational Thinking and Artificial Intelligence (CT & AI) for Classes 3 to 8. It is integrated into existing periods, not a separate subject, and schools are directed to introduce it rather than being ordered to. Classes 3-5 cover computational thinking only; AI literacy begins in Class 6. It becomes a compulsory Class 9 subject with a board examination from 2027-28.",
+      "sections": [
+        {
+          "h2": "What CBSE actually announced (and what it did not)",
+          "html": "<p>The headlines were noisy, so here is what the paperwork says. On 30 October 2025 the Ministry of Education announced a consultation and an expert committee, though that was not the launch. The curriculum was launched by <strong>CBSE Circular Acad-15/2026 on 1 April 2026</strong>, which states: <em>&ldquo;CBSE introduces the Computational Thinking (CT) and Artificial Intelligence (AI) Curriculum for Classes III&ndash;VIII from the academic session 2026&ndash;27.&rdquo;</em></p><p>Three things are widely misreported, so be careful:</p><ul><li><strong>It is not 'mandatory'.</strong> CBSE's own verb is <em>directed to introduce</em>. The word compulsory is used for Class 9, from 2027-28, not for Classes 3-8.</li><li><strong>It is not a new subject with new periods.</strong> CBSE describes it as low-tech and activity-driven, <em>without reliance on specific platforms, devices, or additional instructional time</em>. It is taught inside existing periods, as a companion to the NCERT Mathematics textbook.</li><li><strong>It is not 'AI from Class 3'.</strong> Classes 3-5 are computational thinking only, and the handbooks are literally titled that. AI literacy begins in Class 6.</li></ul><p>The curriculum was written by an expert committee chaired by Prof. Karthik Raman of IIT Madras, with the stated aim of creating AI-literate learners by 2030.</p>"
+        },
+        {
+          "h2": "The class-by-class breakdown",
+          "html": "<p><strong>Classes 3, 4 and 5: Computational Thinking (50 hours a year).</strong> Decomposition, patterns, algorithms and logical sequencing, embedded in Mathematics and The World Around Us. No AI tools, no coding platform required.</p><p><strong>Class 6: where AI literacy starts.</strong> What AI is and is not, automation versus intelligence, the three ways machines learn (supervised, unsupervised, reinforcement), and digital footprints.</p><p><strong>Class 7.</strong> Regression, classification and clustering in plain terms; an introduction to computer vision and natural language processing; and, importantly, bias: why an AI system can be unfair.</p><p><strong>Class 8.</strong> The AI project cycle: define the problem, collect data, test AI tools, reflect and improve, plus no-code tools and fairness. Classes 6-8 carry 100 hours a year.</p><p><strong>Class 9, from 2027-28.</strong> This is the part parents should plan around: CT &amp; AI becomes a <strong>compulsory Class 9 subject with an annual examination</strong>. A child in Class 8 this year sits it as a board subject next year.</p>"
+        },
+        {
+          "h2": "The honest gap, and why it matters for your child",
+          "html": "<p>None of the above is a criticism of CBSE. Putting computational thinking in front of every child is the right move. But the design has a ceiling that CBSE states plainly: it is low-tech, it adds no instructional time, and it is delivered by the existing subject teacher from a companion book. For a child who is simply meeting the competency, that is enough. But a child who is <em>curious</em>, who wants to actually train a model, build a chatbot, and understand why it gets things wrong, will not find that in a shared maths period with no extra time.</p><p>That is the gap we were built for. Our CBSE AI courses follow the CBSE CT &amp; AI curriculum and go well beyond it: real projects, a teacher who has built AI systems, and the depth a school timetable has no room for. They also reflect the learner competencies in UNESCO's AI competency frameworks for students and teachers (2024) and the EU-OECD AILit Framework (June 2026).</p>"
+        }
+      ],
+      "faqs": [
+        {"q": "Is AI compulsory for Classes 3 to 8 in CBSE?", "a": "No. CBSE's own wording is that schools are 'directed to introduce' Computational Thinking and AI from 2026-27 (Circular Acad-15/2026). It is integrated into existing periods, not a separately examined subject. It becomes a compulsory subject with a board examination in Class 9, from the 2027-28 session."},
+        {"q": "From which class does CBSE actually teach AI?", "a": "AI literacy begins in Class 6. Classes 3 to 5 cover computational thinking only - decomposition, patterns and algorithms - and the official handbooks for those classes are titled 'Computational Thinking', with no AI. This is the single most misreported point about the rollout."},
+        {"q": "Does the new curriculum need a computer or special software?", "a": "No. CBSE has deliberately designed it to be low-tech and activity-driven, 'without reliance on specific platforms, devices, or additional instructional time'. It is taught inside existing periods as a companion to the NCERT Mathematics textbook. Real hands-on tools are exactly what a dedicated class adds on top."},
+        {"q": "How is this different from what Modern Age Coders teaches?", "a": "Our CBSE AI courses cover the full CBSE CT & AI curriculum and go deeper: real projects, a live instructor who has built AI systems, and time the school timetable does not have. The school curriculum is the floor; we teach for genuine understanding and building ability on top of it."}
+      ],
+      "related": ["cbse-computational-thinking-classes-3-to-5", "ai-classes-for-cbse-class-6-to-8"],
+      "courses": ["cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8", "cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843"]
+    },
+
+    "cbse-computational-thinking-classes-3-to-5": {
+      "kind": "spoke",
+      "title": "CBSE Computational Thinking for Classes 3-5: What Your Child Actually Learns",
+      "meta": "At Classes 3-5, CBSE's new curriculum is computational thinking - not AI. Here is exactly what your child learns, why AI starts later at Class 6, and how to add real depth.",
+      "h1": "CBSE Computational Thinking for Classes 3-5: what your child actually learns",
+      "capsule": "For Classes 3, 4 and 5, CBSE's 2026-27 curriculum teaches computational thinking - decomposition, patterns, algorithms and logical sequencing - for 50 hours a year, integrated into Mathematics. It is not AI. Artificial intelligence begins in Class 6. If you have seen 'CBSE AI from Class 3', that is a misreading of the official handbooks, which are titled 'Computational Thinking'.",
+      "sections": [
+        {
+          "h2": "At this age, it is computational thinking - not AI",
+          "html": "<p>A lot of parents searched for 'CBSE AI class 3' after the news, so let us clear it up directly: <strong>there is no artificial intelligence in the Class 3-5 curriculum.</strong> CBSE's official handbooks for these classes are titled 'Computational Thinking', full stop. AI literacy is deliberately held back until Class 6, when children are old enough for the ideas.</p><p>That is the right call. Computational thinking is the foundation AI later sits on, and it is genuinely valuable on its own.</p>"
+        },
+        {
+          "h2": "What your child actually does (50 hours a year)",
+          "html": "<p>Across Classes 3-5, embedded in Mathematics and The World Around Us, children practise:</p><ul><li><strong>Decomposition</strong>: breaking a big problem into small, do-able steps.</li><li><strong>Pattern recognition</strong>: spotting what repeats, and using it.</li><li><strong>Algorithms</strong>: writing a clear, ordered set of instructions that always works.</li><li><strong>Logical sequencing</strong>: putting steps in the order that actually gets the result.</li></ul><p>CBSE allocates 50 hours a year to this, and keeps it low-tech and activity-driven, delivered within existing periods. No computer or special software is required at this stage.</p>"
+        },
+        {
+          "h2": "How to give a curious 8-to-11-year-old more",
+          "html": "<p>If your child races through the school activities and wants more, the honest next step at this age is not 'AI tools', because most of those set 13 as their own minimum age anyway. It is block coding and computational-thinking projects that turn the same ideas into things they build. Our course for Classes 3-8 does exactly that: it covers the CBSE computational-thinking foundation and then lets a curious child build with Scratch and hands-on projects, with a live teacher, and it introduces real AI properly once they reach the age for it.</p>"
+        }
+      ],
+      "faqs": [
+        {"q": "Does CBSE teach AI in Class 3, 4 or 5?", "a": "No. The Class 3-5 curriculum is computational thinking only - decomposition, patterns, algorithms and logical sequencing. CBSE's own handbooks for these classes are titled 'Computational Thinking'. Artificial intelligence begins in Class 6."},
+        {"q": "What is computational thinking for a Class 3 child?", "a": "It is learning to solve problems the way a computer scientist does, without a computer: breaking a problem into steps (decomposition), noticing what repeats (patterns), and writing clear ordered instructions (algorithms). CBSE teaches it through everyday Maths activities."},
+        {"q": "How many hours does CBSE give to it?", "a": "50 hours a year across Classes 3 to 5, integrated into existing Mathematics and 'The World Around Us' periods rather than added as extra classes."},
+        {"q": "Should my Class 4 child be using AI tools like ChatGPT?", "a": "Not yet, and not just because of the curriculum. Most mainstream AI tools set 13 as their own minimum age in their terms of use, so a younger child cannot lawfully hold an account. At this age the real growth is in computational thinking and block coding, which build the foundation AI later needs."}
+      ],
+      "related": ["cbse-ai-curriculum-classes", "ai-classes-for-cbse-class-6-to-8"],
+      "courses": ["cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8"]
+    },
+
+    "ai-classes-for-cbse-class-6-to-8": {
+      "kind": "spoke",
+      "title": "CBSE AI Classes for Class 6-8: Where AI Literacy Actually Begins",
+      "meta": "AI literacy begins at Class 6 in CBSE's 2026-27 curriculum. The class-by-class syllabus, why the Class 8 - Class 9 jump matters, and how to build real AI skills beyond the textbook.",
+      "h1": "CBSE AI for Classes 6-8: where AI literacy actually begins",
+      "capsule": "Class 6 is where CBSE's new curriculum introduces artificial intelligence: what AI is, automation versus intelligence, and how machines learn. Class 7 adds regression, classification, clustering, computer vision, NLP and bias. Class 8 teaches the full AI project cycle. It runs for 100 hours a year, integrated into existing periods. And from 2027-28, CT & AI becomes a compulsory Class 9 subject with a board exam - so a Class 8 student this year sits it next year.",
+      "sections": [
+        {
+          "h2": "The class-by-class AI syllabus",
+          "html": "<p><strong>Class 6: foundations.</strong> What AI is and is not, automation versus intelligence, the three ways machines learn (supervised, unsupervised, reinforcement), and digital footprints. This is where AI literacy genuinely starts in the CBSE curriculum.</p><p><strong>Class 7: how AI works.</strong> Regression, classification and clustering explained simply; an introduction to computer vision and natural language processing; and bias: why an AI system can produce unfair results.</p><p><strong>Class 8: building with AI.</strong> The AI project cycle: define the problem, collect data, test AI tools, reflect and improve. Plus no-code tools and fairness. Classes 6-8 carry 100 hours a year, integrated into existing periods.</p>"
+        },
+        {
+          "h2": "Why the Class 8 to Class 9 jump is the one to plan for",
+          "html": "<p>Here is the fact worth acting on. From the <strong>2027-28 session, CT &amp; AI becomes a compulsory Class 9 subject with an annual examination.</strong> That means a child in Class 8 this year meets it as a board subject next year: not an elective, not an activity in a maths period, but an examined subject.</p><p>A note for older students: CBSE discontinued the earlier AI skill subject (code 417) for Class 9 from 2026-27, and Class 10 continues on the previous scheme. The skill-subject codes 417 (Class 10) and 843 (Classes 11-12) remain current for 2026-27.</p>"
+        },
+        {
+          "h2": "Beyond the textbook: building real AI skill",
+          "html": "<p>CBSE's Class 6-8 material is genuinely good on concepts, but by design it is low-tech and shares time with existing subjects. A student who wants to actually train a classifier, build a chatbot, and understand why a model gets things wrong needs to build, not just read. Our CBSE AI course for Classes 3-8 covers the full curriculum and then goes hands-on with a live instructor; students heading into the compulsory Class 9 subject can continue into our Class 9-12 AI course. Both reflect the learner competencies in UNESCO's AI competency frameworks (2024) and the EU-OECD AILit Framework (June 2026).</p>"
+        }
+      ],
+      "faqs": [
+        {"q": "From which class does CBSE start teaching AI?", "a": "Class 6. Classes 3 to 5 are computational thinking only. Class 6 introduces what AI is, automation versus intelligence, and how machines learn (supervised, unsupervised and reinforcement learning)."},
+        {"q": "What AI topics are in CBSE Class 7 and Class 8?", "a": "Class 7 covers regression, classification and clustering, an introduction to computer vision and natural language processing, and bias in AI. Class 8 teaches the AI project cycle - define the problem, collect data, test AI tools, reflect and improve - along with no-code tools and fairness."},
+        {"q": "Is CBSE AI a compulsory subject?", "a": "For Classes 6 to 8 it is integrated into existing periods, not separately examined. It becomes a compulsory Class 9 subject with an annual board examination from the 2027-28 session - so a Class 8 student this year takes it as a board subject next year."},
+        {"q": "My child is in Class 9 - can they still take AI 417?", "a": "Not from 2026-27. CBSE Circular Acad-18/2026 discontinued the AI skill subject for Class 9; students already in Class 10 continue on the earlier scheme. What replaces it is the new compulsory CT & AI subject from 2027-28. Our Class 9-12 AI course prepares students for both the codes that remain (417 at Class 10, 843 at Classes 11-12) and the new curriculum."}
+      ],
+      "related": ["cbse-ai-curriculum-classes", "cbse-computational-thinking-classes-3-to-5"],
+      "courses": ["cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8", "cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843"]
+    }
+  }
+}
