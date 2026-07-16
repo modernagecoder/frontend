@@ -74,6 +74,15 @@
 
     <main>
 
+        <!-- Visible breadcrumb (Phase 3.7) — matches the BreadcrumbList schema: Home / Courses / {{COURSE_TITLE}} -->
+        <nav class="course-breadcrumb" aria-label="Breadcrumb" style="max-width:1200px;margin:0 auto;padding:14px 24px 0;font-size:.82rem;line-height:1.6">
+            <a href="/" style="color:inherit;opacity:.65;text-decoration:none">Home</a>
+            <span style="opacity:.4;margin:0 7px" aria-hidden="true">/</span>
+            <a href="/courses" style="color:inherit;opacity:.65;text-decoration:none">Courses</a>
+            <span style="opacity:.4;margin:0 7px" aria-hidden="true">/</span>
+            <span style="opacity:.95">{{COURSE_TITLE}}</span>
+        </nav>
+
         <!-- Enhanced Hero Section with Image Support -->
         <section class="course-hero">
             <div class="course-hero-content">
