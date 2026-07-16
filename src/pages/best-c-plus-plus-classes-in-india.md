@@ -107,7 +107,7 @@ More From Modern Age Coders
 
 C++ pairs beautifully with these — explore the full range or book a free demo for any.
 
-[Java ClassesOur full Java cluster](/best-java-classes-in-india)[Python & AICode + intelligence](/python-and-ai-classes-for-kids-teens)[AI & ML for TeensReal ML projects](/ai-ml-course-for-teens)[DSA & Full-StackPlacement-ready](/courses/coding/college)[Web DevelopmentHTML, CSS & JavaScript](/courses/coding/teens)[Scratch for KidsFirst steps in code](/courses/coding/kids)[Coding for GirlsSupportive batches](/coding-classes-for-girls)[Summer Coding CampFast project sprints](/summer-coding-camp)
+[Java ClassesOur full Java cluster](/best-java-classes-in-india)[Python & AICode + intelligence](/python-and-ai-classes-for-kids-teens)[AI & ML for TeensReal ML projects](/ai-ml-course-for-teens)[DSA & Full-StackPlacement-ready](/courses/coding/college)[Web DevelopmentHTML, CSS & JavaScript](/courses/coding/teens)[Scratch for KidsFirst steps in code](/courses/coding/kids)[Coding for GirlsSupportive batches](/coding-classes-for-girls)[Summer Coding CampFast project sprints](/summer-coding-camp)[CPA/CPP Exam PrepC++ Institute certification](/cpa-cpp-certification-prep)
 
 Why C++
 

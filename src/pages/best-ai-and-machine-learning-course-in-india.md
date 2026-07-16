@@ -107,7 +107,7 @@ More From Modern Age Coders
 
 AI pairs beautifully with these — explore the full range or book a free demo for any.
 
-[AI & ML for TeensOur teen AI track](/ai-ml-course-for-teens)[Python & AI for KidsYounger learners](/python-and-ai-classes-for-kids-teens)[C++ ClassesDSA & performance](/best-c-plus-plus-classes-in-india)[Java ClassesBackend & OOP](/best-java-classes-in-india)[DSA & Full-StackPlacement-ready](/courses/coding/college)[Build Your Own GPTHands-on guide](/build-your-own-gpt-python)[AI Engineer RoadmapPlan your path](/ai-engineer-roadmap-2026)[Coding for GirlsSupportive batches](/coding-classes-for-girls)
+[AI & ML for TeensOur teen AI track](/ai-ml-course-for-teens)[Python & AI for KidsYounger learners](/python-and-ai-classes-for-kids-teens)[C++ ClassesDSA & performance](/best-c-plus-plus-classes-in-india)[Java ClassesBackend & OOP](/best-java-classes-in-india)[DSA & Full-StackPlacement-ready](/courses/coding/college)[Build Your Own GPTHands-on guide](/build-your-own-gpt-python)[AI Engineer RoadmapPlan your path](/ai-engineer-roadmap-2026)[Coding for GirlsSupportive batches](/coding-classes-for-girls)[PCEP Python PrepPython Institute cert](/pcep-python-certification-prep)
 
 Why AI & ML
 

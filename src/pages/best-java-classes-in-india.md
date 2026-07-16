@@ -107,7 +107,7 @@ More From Modern Age Coders
 
 Java pairs beautifully with these — explore the full range or book a free demo for any.
 
-[Java for Kids & TeensOur original Java track](/java-programming-for-kids-teens)[Python & AICode + intelligence](/python-and-ai-classes-for-kids-teens)[AI & ML for TeensReal ML projects](/ai-ml-course-for-teens)[DSA & Full-StackPlacement-ready](/courses/coding/college)[Web DevelopmentHTML, CSS & JavaScript](/courses/coding/teens)[Scratch for KidsFirst steps in code](/courses/coding/kids)[Coding for GirlsSupportive batches](/coding-classes-for-girls)[Summer Coding CampFast project sprints](/summer-coding-camp)
+[Java for Kids & TeensOur original Java track](/java-programming-for-kids-teens)[Python & AICode + intelligence](/python-and-ai-classes-for-kids-teens)[AI & ML for TeensReal ML projects](/ai-ml-course-for-teens)[DSA & Full-StackPlacement-ready](/courses/coding/college)[Web DevelopmentHTML, CSS & JavaScript](/courses/coding/teens)[Scratch for KidsFirst steps in code](/courses/coding/kids)[Coding for GirlsSupportive batches](/coding-classes-for-girls)[Summer Coding CampFast project sprints](/summer-coding-camp)[OCA Java Exam PrepOracle certification](/oca-java-certification-prep)
 
 Why Java
 
