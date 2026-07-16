@@ -1,0 +1,16 @@
+Most students don't struggle with coding interviews because they can't write code. They struggle because nobody taught them how to think through a problem they've never seen before.
+
+That's the whole point of this DSA batch.
+
+We start right at the basics — how to actually approach a problem — and build up properly to arrays, hashing, trees, graphs, recursion and DP. No rote, no shortcuts. We dry-run everything on the board until it genuinely clicks, and the course keeps going until you've finished the whole thing.
+
+New live batch starts Sunday, 12 July at 4:30 PM, then every Sunday.
+Fees are ₹1499/month. It's made for college students and class 11–12 who already know a little coding in any language — C, C++, Java or Python, doesn't matter which.
+
+If "I'll get serious about DSA someday" has been sitting on your list for a while… this is the someday. Start early and you'll move a lot faster later, when placements and contests show up.
+
+Seats are limited. Want in? DM us "DSA" or message us on WhatsApp at 91233 66161. Not sure yet? Book a free demo and see how we teach first.
+
+Register: link in bio.
+
+#DSA #DataStructuresAndAlgorithms #CodingInterview #Placements #LearnToCode #CompetitiveProgramming #ComputerScience #CollegeLife #Class12 #ModernAgeCoders
