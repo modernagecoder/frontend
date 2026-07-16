@@ -151,10 +151,16 @@ function classify(slug, content) {
     // Is it a known Indian state slug?
     const isState = Object.values(ISO_TO_STATE).some(([s]) => s === x);
     if (isState) return { type: 'state', stateSlug: x, stateName: titleCase(x) };
-    // Otherwise it's a Kolkata-area residential complex/society.
+    // Otherwise it MIGHT be a Kolkata-area residential complex/society — but only if
+    // its geo.placename actually sits in Kolkata or Howrah. Gulf city/country pages
+    // (Dubai, Doha, Riyadh, Qatar, Saudi Arabia, ...) also match coding-classes-in-<x>;
+    // filing them as Kolkata complexes stamped them "in West Bengal" and injected them
+    // into Kolkata's neighbourhood list. Anything not placed in Kolkata/Howrah is left
+    // as 'other' (untouched) so its own design and links stay intact.
     const place = (readMeta(content, 'geo.placename') || '').toLowerCase();
-    const city = place.includes('howrah') ? 'howrah' : 'kolkata';
-    return { type: 'complex', city, area: x };
+    if (place.includes('howrah')) return { type: 'complex', city: 'howrah', area: x };
+    if (place.includes('kolkata') || place.includes('bengal')) return { type: 'complex', city: 'kolkata', area: x };
+    return { type: 'other' };
   }
 
   return { type: 'other' };
@@ -370,6 +376,11 @@ ${ctas([{ slug: 'coding-classes-in-india', label: 'Coding Classes in India' }])}
   }
 
   if (page.type === 'india-hub') {
+    // slug -> State Name (dedup the many ISO codes that point at one state).
+    const stateNameOf = (slug) => {
+      const k = Object.keys(ISO_TO_STATE).find((kk) => ISO_TO_STATE[kk][0] === slug);
+      return k ? ISO_TO_STATE[k][1] : titleCase(slug);
+    };
     const stateSlugsWithPages = Object.values(ISO_TO_STATE)
       .map(([s]) => s)
       .filter((s, i, a) => a.indexOf(s) === i)
@@ -377,23 +388,35 @@ ${ctas([{ slug: 'coding-classes-in-india', label: 'Coding Classes in India' }])}
       .sort();
     const stateItems = stateSlugsWithPages.map((s) => ({
       slug: `coding-classes-in-${s}`,
-      label: `Coding Classes in ${ISO_TO_STATE[Object.keys(ISO_TO_STATE).find((k) => ISO_TO_STATE[k][0] === s)][1]}`,
+      label: `Coding Classes in ${stateNameOf(s)}`,
     }));
-    // A handful of marquee cities.
-    const topCities = ['mumbai', 'delhi', 'bengaluru', 'hyderabad', 'chennai', 'kolkata',
-      'pune', 'ahmedabad', 'jaipur', 'lucknow', 'indore', 'chandigarh']
-      .filter((c) => fileExists(`best-coding-class-in-${c}`))
-      .slice(0, MAX_TOP_CITIES)
-      .map(cityLink);
+
+    // EVERY city page, grouped under its state (all 131 become 2 clicks from home).
+    const cityGroupsHtml = Object.keys(citiesByState)
+      .sort((a, b) => stateNameOf(a).localeCompare(stateNameOf(b)))
+      .map((s) => {
+        const cities = (citiesByState[s] || []).slice().sort();
+        return group(`Coding classes in ${stateNameOf(s)}`, cities.map(cityLink));
+      });
+
+    // Kolkata & Howrah neighbourhoods + residential complexes (all 47 near-* + 25 complexes).
+    const kolAreas = areasByCity['kolkata'] || [];
+    const howAreas = areasByCity['howrah'] || [];
+    const areaGroupsHtml = [
+      group('Coding classes in Kolkata neighbourhoods &amp; residential complexes', kolAreas),
+      group('Coding classes in Howrah neighbourhoods &amp; complexes', howAreas),
+    ];
+
     const breadcrumb = [
       { label: 'Home', href: '/' },
       { label: 'Coding Classes in India' },
     ];
     const inner = `      <nav aria-label="Breadcrumb" style="${S.crumb}">${crumb(breadcrumb)}</nav>
       <h2 style="${S.h2}">Browse coding classes by state &amp; city</h2>
-      <p style="${S.lead}">Live online coding and maths classes for kids, teens and adults across India &mdash; small 4&ndash;8 student batches, expert mentors, real projects. Choose your state or city below.</p>
+      <p style="${S.lead}">Live online coding and maths classes for kids, teens and adults across India &mdash; small 4&ndash;8 student batches, expert mentors, real projects. Choose your state, city or neighbourhood below.</p>
 ${group('Coding classes by state', stateItems)}
-${group('Popular cities', topCities)}
+${cityGroupsHtml.filter(Boolean).join('\n')}
+${areaGroupsHtml.filter(Boolean).join('\n')}
 ${ctas([{ slug: 'best-coding-classes-online', label: 'Best Coding Classes Online' }])}`;
     return wrapBlock(inner);
   }
