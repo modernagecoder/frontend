@@ -278,6 +278,8 @@ No long-term contracts. No hidden fees. Cancel anytime.
 
 Every plan comes with live classes, doubt clearing, progress reports, and a completion certificate.
 
+Detailed comparisons: [vs WhiteHat Jr, Cuemath & Codingal](/modern-age-coders-vs-whitehat-jr-cuemath-codingal) · [vs Codingal](/modern-age-coders-vs-codingal) · [vs Tynker](/modern-age-coders-vs-tynker) · [vs Juni Learning](/modern-age-coders-vs-juni-learning) · [vs Outschool](/modern-age-coders-vs-outschool) · [coding vs programming](/coding-vs-programming) · [coding vs maths](/coding-vs-maths)
+
 ## Common Questions
 
 Quick answers to things parents and students often ask.

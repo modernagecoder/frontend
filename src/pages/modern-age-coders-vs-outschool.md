@@ -121,6 +121,21 @@ Book a free demo class and feel the difference one dedicated mentor and one full
 
 [Book a free demo](/book-demo)[See what our students built](/student-labs)
 
+## More comparisons
+
+See how Modern Age Coders compares with other programmes, and how coding and maths learning paths differ.
+
+- [Coding vs Maths](/coding-vs-maths)
+- [Coding vs Programming](/coding-vs-programming)
+- [Modern Age Coders vs Codingal](/modern-age-coders-vs-codingal)
+- [Modern Age Coders vs Cuemath](/modern-age-coders-vs-cuemath)
+- [Modern Age Coders vs Juni Learning](/modern-age-coders-vs-juni-learning)
+- [Modern Age Coders vs Kumon](/modern-age-coders-vs-kumon)
+- [Modern Age Coders vs Mathnasium](/modern-age-coders-vs-mathnasium)
+- [Modern Age Coders vs Tynker](/modern-age-coders-vs-tynker)
+- [Modern Age Coders vs WhiteHat Jr, Cuemath & Codingal](/modern-age-coders-vs-whitehat-jr-cuemath-codingal)
+- [Private Tutor vs Online Tutoring](/private-math-tutor-vs-online-tutoring)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/modern-age-coders-vs-outschool*

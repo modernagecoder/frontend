@@ -116,7 +116,7 @@ Explore More
 
 Part of our full Java cluster — explore any or book a free demo.
 
-[Best Java Classes in IndiaThe full Java course hub](/best-java-classes-in-india)[Java for AdultsCareer & backend](/java-classes-for-adults)[Java OOP ConceptsMaster OOP first](/java-oops-concepts-course)[Java for BeginnersStart from zero](/java-for-beginners)[Java ProjectsBuild real programs](/java-projects-for-students)[Full-Stack & DSACollege & pros](/courses/coding/college)[Java for TeensAges 13–18](/java-classes-for-teens)[Online Java ClassesHow live online works](/online-java-classes)
+[Best Java Classes in IndiaThe full Java course hub](/best-java-classes-in-india)[Java for AdultsCareer & backend](/java-classes-for-adults)[Java OOP ConceptsMaster OOP first](/java-oops-concepts-course)[Java for BeginnersStart from zero](/java-for-beginners)[Java ProjectsBuild real programs](/java-projects-for-students)[Full-Stack & DSACollege & pros](/courses/coding/college)[Java for TeensAges 13–18](/java-classes-for-teens)[Online Java ClassesHow live online works](/online-java-classes)[DSA Course (Any Language)Language-agnostic DSA](/data-structures-and-algorithms-course)
 
 Why Java for DSA
 

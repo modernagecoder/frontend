@@ -82,7 +82,7 @@ Explore More
 
 Part of our full C++ cluster and beyond — explore any or book a free demo.
 
-[Best C++ Classes in IndiaThe full C++ course hub](/best-c-plus-plus-classes-in-india)[Competitive ProgrammingCodeforces & CodeChef](/c-plus-plus-for-competitive-programming)[C++ Placement PrepCoding rounds & interviews](/c-plus-plus-for-placement-preparation)[C++ for CollegePlacement-ready C++](/c-plus-plus-classes-for-college-students)[C++ OOP ConceptsMaster object thinking](/c-plus-plus-oops-concepts-course)[C++ for BeginnersNeed the basics first?](/c-plus-plus-for-beginners)[DSA & Full-StackComplete track](/courses/coding/college)[Java DSAPrefer Java?](/best-java-classes-in-india)
+[Best C++ Classes in IndiaThe full C++ course hub](/best-c-plus-plus-classes-in-india)[Competitive ProgrammingCodeforces & CodeChef](/c-plus-plus-for-competitive-programming)[C++ Placement PrepCoding rounds & interviews](/c-plus-plus-for-placement-preparation)[C++ for CollegePlacement-ready C++](/c-plus-plus-classes-for-college-students)[C++ OOP ConceptsMaster object thinking](/c-plus-plus-oops-concepts-course)[C++ for BeginnersNeed the basics first?](/c-plus-plus-for-beginners)[DSA & Full-StackComplete track](/courses/coding/college)[Java DSAPrefer Java?](/best-java-classes-in-india)[DSA Course (Any Language)Language-agnostic DSA](/data-structures-and-algorithms-course)
 
 Why C++ for DSA
 

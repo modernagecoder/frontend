@@ -130,6 +130,21 @@ Every one is a real, live project shipped by a Modern Age Coders student. Explor
 
 [![Baby — Typing Speed Challenge](/images/projects/baby.webp)GameBaby — Typing Speed ChallengeAn engaging typing speed challenge where users test how fast and accurately they can type, with a live leaderboard connected to a MongoDB backend.by KritikaOpen the live project ↗](https://baby.modernagecoders.com)[![MyDay — Social Productivity Organizer](/images/projects/myday.webp)Web AppMyDay — Social Productivity OrganizerA beautifully designed productivity platform to organise daily tasks, set goals and stay consistent — with a community feed of others' plans for inspiration.by VedantOpen the live project ↗](https://myday.modernagecoders.com)[![FreshTrack — Food Expiry Tracker](/images/projects/fresh.webp)Web AppFreshTrack — Food Expiry TrackerA smart food-management system to track expiry dates — add, update and delete items while the app checks expiry automatically, online and offline.by TanishOpen the live project ↗](https://freshtrackpro.netlify.app/)
 
+## More comparisons
+
+See how Modern Age Coders compares with other programmes, and how coding and maths learning paths differ.
+
+- [Coding vs Maths](/coding-vs-maths)
+- [Coding vs Programming](/coding-vs-programming)
+- [Modern Age Coders vs Codingal](/modern-age-coders-vs-codingal)
+- [Modern Age Coders vs Cuemath](/modern-age-coders-vs-cuemath)
+- [Modern Age Coders vs Juni Learning](/modern-age-coders-vs-juni-learning)
+- [Modern Age Coders vs Kumon](/modern-age-coders-vs-kumon)
+- [Modern Age Coders vs Outschool](/modern-age-coders-vs-outschool)
+- [Modern Age Coders vs Tynker](/modern-age-coders-vs-tynker)
+- [Modern Age Coders vs WhiteHat Jr, Cuemath & Codingal](/modern-age-coders-vs-whitehat-jr-cuemath-codingal)
+- [Private Tutor vs Online Tutoring](/private-math-tutor-vs-online-tutoring)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/modern-age-coders-vs-mathnasium*

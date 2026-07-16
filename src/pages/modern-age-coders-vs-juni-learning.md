@@ -128,6 +128,21 @@ Every one is a real, live project shipped by a Modern Age Coders student. Explor
 
 [![Doodle Dash — 30-Second Drawing Challenge](/images/projects/doodledash.webp)GameDoodle Dash — 30-Second Drawing ChallengePick a difficulty, get a prompt, and you have exactly 30 seconds to draw it — then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.by ShubhOpen the live project ↗](https://doodledashmaster.lovable.app)[![BookDesk — AI Book Summaries & Quizzes](/images/projects/bookdesk.webp)AI & MLBookDesk — AI Book Summaries & QuizzesType in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.by AnikaOpen the live project ↗](https://bookdesk1.netlify.app)[![HairSync — AI Hairstyle Try-On](/images/projects/hairsync.webp)AI & MLHairSync — AI Hairstyle Try-OnUpload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.by KritiOpen the live project ↗](https://hairsync.lovable.app)
 
+## More comparisons
+
+See how Modern Age Coders compares with other programmes, and how coding and maths learning paths differ.
+
+- [Coding vs Maths](/coding-vs-maths)
+- [Coding vs Programming](/coding-vs-programming)
+- [Modern Age Coders vs Codingal](/modern-age-coders-vs-codingal)
+- [Modern Age Coders vs Cuemath](/modern-age-coders-vs-cuemath)
+- [Modern Age Coders vs Kumon](/modern-age-coders-vs-kumon)
+- [Modern Age Coders vs Mathnasium](/modern-age-coders-vs-mathnasium)
+- [Modern Age Coders vs Outschool](/modern-age-coders-vs-outschool)
+- [Modern Age Coders vs Tynker](/modern-age-coders-vs-tynker)
+- [Modern Age Coders vs WhiteHat Jr, Cuemath & Codingal](/modern-age-coders-vs-whitehat-jr-cuemath-codingal)
+- [Private Tutor vs Online Tutoring](/private-math-tutor-vs-online-tutoring)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/modern-age-coders-vs-juni-learning*
