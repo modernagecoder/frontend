@@ -38,8 +38,13 @@ const REL_START = '<!-- BEGIN_RELATED_PAGES -->';
 const REL_END = '<!-- END_RELATED_PAGES -->';
 
 // How many sibling/child links to show per group (keeps the block tidy).
-const MAX_SIBLING_CITIES = 8;
-const MAX_AREAS = 8;
+// MAX_SIBLING_CITIES covers the largest state (Uttar Pradesh, 14 cities) so no
+// state's siblings get truncated. On a Kolkata/Howrah CITY page we list every
+// locality + complex child (MAX_CITY_AREAS) to create the parent->child crawl
+// path; on a single LOCALITY page we cap sibling areas so 47 pages stay tidy.
+const MAX_SIBLING_CITIES = 15;
+const MAX_AREAS = 12;
+const MAX_CITY_AREAS = 80;
 const MAX_TOP_CITIES = 12;
 
 // ---------------------------------------------------------------------------
@@ -291,10 +296,11 @@ function buildBlock(page, inv) {
     breadcrumb.push({ label: `Best Coding Class in ${cityName}` });
 
     const groups = [];
-    // Neighbourhoods for Kolkata / Howrah.
+    // Neighbourhoods + residential complexes for Kolkata / Howrah — list every
+    // child so the city page is the crawl parent for all its locality pages.
     const areas = areasByCity[page.city] || [];
     if (areas.length) {
-      groups.push(group(`Coding classes in ${cityName} neighbourhoods`, areas.slice(0, MAX_AREAS)));
+      groups.push(group(`Coding classes in ${cityName} neighbourhoods &amp; residential complexes`, areas.slice(0, MAX_CITY_AREAS)));
     }
     // Sibling cities in the same state.
     const siblings = (citiesByState[stateSlug] || []).filter((c) => c !== page.city);
