@@ -507,5 +507,112 @@
       "Amrita AEEE or JEE Main": "https://aeee.amrita.edu/"
     },
     "_excluded": "REFUSED: the famous TNEA cutoff formula (Maths + Physics/2 + Chemistry/2 out of 200) - it appears ONLY on coaching/aggregator sites and no official DoTE or Anna University page could be opened to confirm it. '80' is phrased as 'affiliated institutions', NOT 'engineering colleges': the registry rows include architecture and standalone management institutes. ICSE/CISCE presence not verified, so not claimed."
+  },
+  "kota": {
+    "lede": "Kota carries a title the Government of India put in writing. When the Cabinet cleared the new Kota-Bundi airport in 2025, the official note called Kota, on the banks of the Chambal, the industrial capital of Rajasthan and, in the same sentence, the Educational Coaching Hub of India. The city has degree institutions of its own too: IIIT Kota has been an Institute of National Importance since 2013, and Vardhman Mahaveer Open University has run distance education from here since 1987. One thing parents should know early is that RBSE, the board that sets your child's school papers, is not a Kota body at all. It sits in Ajmer.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to RBSE students in Kota?",
+        "a": "Yes. Kota schools run RBSE alongside CBSE and ICSE, and our classes work with any of them. It is worth knowing that RBSE, the board setting those papers, is headquartered in Ajmer rather than Kota, so it is not a local body. Either way, we do not coach the school syllabus back at your child. We teach the programming underneath it, so the computer paper stops being a memory test."
+      },
+      {
+        "q": "Can IIIT Kota or University of Kota students join your programming courses?",
+        "a": "Yes. IIIT Kota has been an Institute of National Importance since 2013 and the University of Kota was set up by the state in 2003, and both teach the theory well. What the college track adds is the other half: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown in an interview. A city famous for exam preparation still leaves that gap, and this is where we fill it."
+      }
+    ],
+    "_sources": {
+      "Kota = 'Educational Coaching Hub of India' and industrial capital of Rajasthan on the Chambal (PIB, Cabinet approval of Kota-Bundi airport, 2025)": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2157883",
+      "IIIT Kota, Institute of National Importance, established 2013": "https://iiitkota.ac.in/about-institute",
+      "Vardhman Mahaveer Open University (formerly Kota Open University), 1987, Kota": "https://www.vmou.ac.in/about-vmou",
+      "University of Kota established 2003 by Govt of Rajasthan": "https://uok.ac.in/about-organisation",
+      "RBSE headquartered in Ajmer": "https://rajeduboard.rajasthan.gov.in/"
+    },
+    "_excluded": "Rajasthan Technical University (RTU) HQ Kota / est 2006 REFUSED: rtu.ac.in is Cloudflare-blocked (403) and the govt HTE portal failed, so only Wikipedia/aggregators support it. Kota's annual coaching-student headcount omitted: sources range 100,000-250,000 with no official figure. The 'Coaching Capital' / 'Suicide Capital' labels are news framings; the official PIB wording 'Educational Coaching Hub of India' is used instead. REAP is named nowhere because its merit basis (JEE Main vs RPET) could not be confirmed on the official REAP portal. Rajasthan Atomic Power Station is at Rawatbhata, not Kota (geography). The Bansal-Classes-1985 origin story is aggregator-only."
+  },
+  "guwahati": {
+    "lede": "Guwahati has been the education gateway of the Northeast for over a century. When Cotton College opened here on 27 May 1901, Assam was, in the college's own record, the only British province in India without a college of its own, and Guwahati was judged the most suitable place for one. That college is now Cotton University. The Assam government today describes the city as the seat of power in the state and the node that connects six other Northeastern states. The engineering name families aim at most, IIT Guwahati, sits a little apart: its campus spreads over 285 hectares on the north bank of the Brahmaputra.",
+    "faqs": [
+      {
+        "q": "Which board runs schools in Guwahati now, SEBA or the new one?",
+        "a": "Both names point at the same body now. Assam merged its two boards: the Class 10 board, SEBA, became Division I of the new Assam State School Education Board, and the Classes 11 and 12 council, AHSEC, became Division II. CBSE and ICSE schools operate in Guwahati as well. Our classes fit around whichever your child sits, because we teach the programming itself rather than a second run at the school computer paper."
+      },
+      {
+        "q": "Can IIT Guwahati or Cotton University students join your programming courses?",
+        "a": "Yes. IIT Guwahati was the sixth IIT, set up in 1994, and Cotton University traces back to 1901, so the theory is in good hands locally. For engineering admission, Assam runs its own Combined Entrance Examination for state college seats, separate from JEE Main. What the college track adds is built work: Python, Java, full-stack or AI/ML, carried through to something that actually runs."
+      }
+    ],
+    "_sources": {
+      "Cotton College inaugurated 27 May 1901; Assam then the only British province without a college": "https://cottonuniversity.ac.in/index_page_details?page=d01MbVlLSi82UzBZYk96K0pwS0FZZz09&title=history-of-the-institution",
+      "IIT Guwahati, sixth IIT, established 1994; campus 285 hectares on the north bank of the Brahmaputra": "https://www.iitg.ac.in/",
+      "Guwahati = seat of power in Assam, node connecting six NE states (Kamrup Metro district portal)": "https://kamrupmetro.assam.gov.in/about-district/district-glance",
+      "SEBA now ASSEB Division I, AHSEC now Division II (Assam State School Education Board)": "https://asseb.in/",
+      "Assam CEE for state B.Tech seats": "https://astu.formsrec.in/"
+    },
+    "_excluded": "Gauhati University 'oldest/first university in NE India, est 26 Jan 1948' REFUSED: gauhati.ac.in returned 403 on every fetch; the date and superlative sit only on Wikipedia/aggregators. Cotton 'oldest institute of higher education in Assam/NE' not asserted: the superlative is not on Cotton's own history page, so only the verified 'only British province without a college' fact is used. IIT Guwahati's exact distance from the city (~20-25 km) is dropped because IITG's own pages conflict; only the consistent '285 hectares, north bank' detail is used. 'Largest city/metropolis of NE India' avoided: the official district page says 'seat of power' and 'node connecting six states', not 'largest'. Assam CEE's conducting body stated as ASTU by attribution only (the verbatim 'conducted by ASTU' phrase is Wikipedia's, not an official page)."
+  },
+  "bhubaneswar": {
+    "lede": "Bhubaneswar is one of India's first planned cities. The German architect Otto Konigsberger drew up its modern plan in 1946, and the city administration still lists it, alongside Chandigarh and Jamshedpur, among the country's earliest planned cities. It was inaugurated as the capital of Odisha two years later, on 13 April 1948. The engineering names families reach for sit outside the city core: IIT Bhubaneswar's permanent campus is at Argul, about 30 km out, and NISER is at Jatni. Inside the city is OUTR, the state technical university, formed in 2021 from the old College of Engineering and Technology. The route onward is JEE Main, with the OJEE committee running the counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to BSE Odisha students in Bhubaneswar?",
+        "a": "Yes. Odisha runs its schooling in two halves: the Board of Secondary Education sets the Class 10 exam, and a separate council, CHSE, runs Plus One and Plus Two. CBSE and ICSE schools operate in Bhubaneswar too. Our classes work with any of them. We teach Python or Java properly, so the school computer paper stops being something your child only reads about."
+      },
+      {
+        "q": "Can OUTR or IIT Bhubaneswar students join your programming courses?",
+        "a": "Yes. OUTR became Odisha's state technical university in 2021, built on the old College of Engineering and Technology, and IIT Bhubaneswar sits about 30 km out at Argul. A degree from either still does not hand a fresher a portfolio. That is what the college track is for: real Python, Java, full-stack or AI/ML work, taken as far as a working deployment you can link to."
+      }
+    ],
+    "_sources": {
+      "Bhubaneswar planned by Otto Konigsberger 1946; among India's first planned cities (BMC)": "https://www.bmc.gov.in/about",
+      "Inaugurated as capital of Odisha 13 April 1948": "https://smartcitybhubaneswar.gov.in/know-your-bhubaneswar",
+      "IIT Bhubaneswar permanent campus at Argul, ~30 km from the city": "https://www.iitbbs.ac.in/index.php/home/how-to-reach/",
+      "OUTR established 2021 by upgrading College of Engineering & Technology, Bhubaneswar": "https://outr.ac.in/about-outr",
+      "BSE Odisha (Class 10) under the Odisha Secondary Education Act 1953": "https://bseodisha.nic.in/",
+      "B.Tech seats on JEE Main All India Rank via OJEE counselling": "https://ojee.nic.in/about-ojee/"
+    },
+    "_excluded": "The 'Temple City of India' nickname and any temple count are not claimed: they appear only on tourism/aggregator sites, not an official page (the verified Lingaraj Temple fact was available but not needed). NIT Rourkela is in Rourkela, not Bhubaneswar (geography). KIIT founding year and 'largest'/ranking superlatives not asserted: not verified from KIIT's own site. The board split (BSE for Class 10, CHSE for Plus Two) is used, but no HQ city is asserted for either because the fetched quote did not support one. NISER's campus is at Jatni ~25 km out, so it is not attributed to the city core."
+  },
+  "dehradun": {
+    "lede": "Dehradun is where several of India's national institutions keep their headquarters. The Survey of India, which the organisation itself calls the oldest scientific department of the Government of India, maps the country from Hathibarkala here, and the Forest Research Institute has stood in the city since 1906. The district administration lists ONGC and the Indian Institute of Petroleum among the bodies based here as well. Dehradun is also the capital of Uttarakhand. One point that surprises parents: the state school board, UBSE, does not sit in Dehradun at all. It is headquartered at Ramnagar, in Nainital district.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Uttarakhand Board students in Dehradun?",
+        "a": "Yes. Dehradun schools run the Uttarakhand Board, UBSE, alongside CBSE, ICSE and a strong set of long-established private schools, and our classes fit beside any of them. One local quirk is that UBSE itself is not a Dehradun body: it is headquartered at Ramnagar in Nainital district. We teach the programming rather than the school syllabus, so the computer paper takes care of itself."
+      },
+      {
+        "q": "How does a Dehradun student get into engineering, and can college students join?",
+        "a": "For engineering, Uttarakhand fills first-year B.Tech seats through a single admission window run by the state technical university in Dehradun, on JEE Main and Class 12 merit. College students are welcome on the college track wherever they study: real Python, Java, full-stack or AI/ML work, built until it runs. A transcript rarely shows any of that, which is exactly the gap it fills."
+      }
+    ],
+    "_sources": {
+      "Dehradun HQ of Survey of India, FRI, ONGC, Indian Institute of Petroleum (district portal)": "https://dehradun.nic.in/about-district/",
+      "FRI established 1906, one of the oldest institutions of its kind": "https://fri.icfre.gov.in/the-institute/history/",
+      "Survey of India = oldest scientific department of the Govt of India, at Hathibarkala Dehradun": "https://surveyofindia.gov.in/",
+      "Dehradun capital and administrative centre of Uttarakhand": "https://nndehradun.uk.gov.in/about-dehradun/",
+      "UBSE headquartered at Ramnagar, Nainital district": "https://ubse.uk.gov.in/",
+      "Uttarakhand B.Tech admission on JEE Main / Class 12 merit via UTU (official 2026-27 brochure)": "https://uktech.ac.in/downloadmedia/UploadNews/pdf/C_202605271117347425.pdf"
+    },
+    "_excluded": "Indian Military Academy 'founded 1932 / one of the oldest military academies' not asserted: IMA's own site did not resolve and the year/superlative sit only on Wikipedia (IMA's presence in Dehradun IS confirmed by the district site, but the founding year is not primary-sourced). The Doon School's 1935 founding dropped: doonschool.com returned 403, no primary source readable. IIT Roorkee is in Roorkee (~65 km), not Dehradun (geography). LBSNAA is in Mussoorie (in the district, not the city), so it is not attributed to the city. Dehradun is described as 'capital and administrative centre' rather than sole/permanent capital, since Uttarakhand also names Gairsain a summer capital."
+  },
+  "chandigarh": {
+    "lede": "Chandigarh was built new as a modern capital, and Le Corbusier's mark on it is now world heritage: his Capitol Complex was inscribed by UNESCO in 2016 as part of the Architectural Work of Le Corbusier. The city's main university carries the same lineage. Panjab University began in Lahore in 1882, and its red-sandstone Chandigarh campus was designed by Pierre Jeanneret under Le Corbusier's guidance, with the university moving in between 1958 and 1960. Punjab Engineering College is older still in its roots, tracing to Lahore in 1921 before it moved here in 1953. One thing to get straight: Panjab University is the public university in the city, not the private Chandigarh University, which is actually in Mohali.",
+    "faqs": [
+      {
+        "q": "Which school board do Chandigarh students follow?",
+        "a": "Chandigarh is a Union Territory with no school board of its own, so its government schools are affiliated to CBSE and run under the Chandigarh Department of Education, and private ICSE and other-board schools operate here too. Our classes fit around whichever your child attends. We teach the programming itself, so the school computer paper stops being a subject to memorise."
+      },
+      {
+        "q": "Can Panjab University or PEC students join your programming courses?",
+        "a": "Yes. For engineering admission in Chandigarh, the Joint Admission Committee fills seats at the government institutes on JEE Main scores and Class 12 marks, while PEC admits through JoSAA and CSAB on JEE Main rank. Whichever route a student came in by, the college track is about built work: real Python, Java, full-stack or AI/ML, carried to something that runs and can be shown."
+      }
+    ],
+    "_sources": {
+      "Panjab University initiated at Lahore 1882; red-sandstone Chandigarh campus designed by Pierre Jeanneret under Le Corbusier, PU moved in 1958-1960; distinct from the private Chandigarh University in Mohali": "https://puchd.ac.in/pu-profile.php",
+      "Punjab Engineering College roots in Lahore 1921, moved to Chandigarh 1953, Deemed University 2003": "https://pec.ac.in/history",
+      "Capitol Complex, Chandigarh inscribed by UNESCO in 2016 under 'The Architectural Work of Le Corbusier'": "https://whc.unesco.org/en/list/1321/",
+      "Chandigarh government schools CBSE-affiliated under the Department of Education, Chandigarh": "https://gmsss40b.com/about-us-govt-model-sr-sec-school-sector-40-b-chandigarh/",
+      "JAC Chandigarh admits to government institutes on JEE Main + Class 12; PEC via JoSAA/CSAB on JEE Main": "https://jacchd.admissions.nic.in/joint-admission-committee-jac/"
+    },
+    "_excluded": "Whole-city 'Le Corbusier master-planned Chandigarh' NOT asserted: the primary chandigarh.gov.in history page is JS-rendered/unreachable, so only the verified Capitol Complex (UNESCO) and the Jeanneret-under-Le-Corbusier PU campus are claimed, not whole-city authorship. The Albert-Mayer-1949 / Le-Corbusier-1951 / '63 sectors' / 'city as a human body' chronology is aggregator-only and dropped. 'All Chandigarh schools follow CBSE' avoided: only government-school CBSE affiliation is evidenced (a UT has no board of its own), and private ICSE/other-board schools exist. No government-school count is claimed: chdeducation.gov.in gives 111 consistently but sub-breakdowns and an alternate '115' conflict."
   }
 }
