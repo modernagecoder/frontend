@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Coding Agents for Finance Teams — Codex + Claude Code</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap');
+
+  :root {
+    --ink:        #201E24;
+    --ink-soft:   #4a4640;
+    --muted:      #7a7264;
+    --paper:      #FCFAF4;
+    --card:       #FFFFFF;
+    --amber:      #B7770F;
+    --amber-tint: #FBF1DC;
+    --line:       #E7DCC4;
+    --line-soft:  #EFE8D8;
+    --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+    --font-body:    'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --font-mono:    'JetBrains Mono', 'Consolas', monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 10.5pt;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .doc { max-width: 720px; margin: 0 auto; padding: 0 4px; }
+
+  h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; margin: 0; color: var(--ink); }
+
+  p { margin: 0 0 8px; }
+
+  a { color: var(--amber); text-decoration: none; }
+
+  code {
+    font-family: var(--font-mono);
+    font-size: 0.86em;
+    background: var(--amber-tint);
+    color: var(--ink);
+    padding: 0.5px 4px;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+
+  /* ---------- Cover ---------- */
+  .cover { padding: 18px 0 26px; border-bottom: 2px solid var(--ink); margin-bottom: 26px; }
+  .cover .brand {
+    font-family: var(--font-mono);
+    font-size: 8.5pt;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 22px;
+  }
+  .cover .kicker {
+    font-family: var(--font-mono);
+    font-size: 9pt;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 10px;
+  }
+  .cover h1 { font-size: 30pt; line-height: 1.08; font-weight: 600; letter-spacing: -0.01em; }
+  .cover h1 .em { font-style: italic; color: var(--amber); }
+  .cover .sub { margin-top: 14px; font-size: 12pt; color: var(--ink-soft); max-width: 540px; }
+  .cover .meta-row {
+    margin-top: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 28px;
+    font-family: var(--font-mono);
+    font-size: 8.5pt;
+    letter-spacing: 0.03em;
+    color: var(--muted);
+  }
+  .cover .meta-row b { color: var(--ink); font-weight: 600; }
+
+  /* ---------- Sections ---------- */
+  section { margin-bottom: 22px; }
+  .section-label {
+    font-family: var(--font-mono);
+    font-size: 8pt;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 6px;
+  }
+  h2.section-title { font-size: 15pt; font-weight: 600; margin-bottom: 10px; }
+  .lead { font-size: 11pt; color: var(--ink-soft); }
+
+  /* Two-column bullet lists */
+  ul.tidy { list-style: none; margin: 4px 0 0; padding: 0; }
+  ul.tidy li { position: relative; padding-left: 15px; margin-bottom: 5px; color: var(--ink-soft); }
+  ul.tidy li::before {
+    content: "";
+    position: absolute; left: 0; top: 0.55em;
+    width: 5px; height: 5px; border-radius: 50%;
+    background: var(--amber);
+  }
+  ul.tidy li b { color: var(--ink); font-weight: 600; }
+
+  .cols { column-count: 2; column-gap: 26px; }
+  .cols li { break-inside: avoid; }
+
+  /* Highlight note */
+  .note {
+    background: var(--amber-tint);
+    border-left: 3px solid var(--amber);
+    border-radius: 3px;
+    padding: 11px 14px;
+    color: var(--ink-soft);
+    margin-top: 4px;
+  }
+  .note b { color: var(--ink); }
+
+  /* Build-in-practice grid */
+  .build-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 11px 26px; margin-top: 4px; }
+  .build-cat { break-inside: avoid; }
+  .build-h {
+    font-family: var(--font-mono);
+    font-size: 8pt;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 2px;
+  }
+  .build-cat ul.tidy { margin-top: 2px; }
+  .build-cat ul.tidy li { font-size: 9.6pt; margin-bottom: 3px; }
+
+  /* ---------- Curriculum ---------- */
+  .phase { margin-top: 6px; }
+  .phase-head {
+    border-top: 1.5px solid var(--ink);
+    padding-top: 9px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    break-after: avoid;
+  }
+  .phase-head .pk {
+    font-family: var(--font-mono);
+    font-size: 8pt;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--amber);
+  }
+  .phase-head h3 { font-size: 13.5pt; margin-top: 2px; }
+  .phase-head .pd { font-size: 9.5pt; color: var(--muted); margin-top: 3px; }
+
+  .klass {
+    break-inside: avoid;
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    background: var(--card);
+    padding: 11px 14px 12px;
+    margin-bottom: 9px;
+  }
+  .klass-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 5px; }
+  .klass-num {
+    font-family: var(--font-mono);
+    font-size: 10pt;
+    font-weight: 700;
+    color: var(--amber);
+    flex: 0 0 auto;
+  }
+  .klass-title { font-size: 11.5pt; font-weight: 600; line-height: 1.2; }
+  .klass-learn { font-size: 9.7pt; color: var(--ink-soft); margin: 0 0 7px; }
+  .klass-learn .lbl, .klass-proj .lbl {
+    font-family: var(--font-mono);
+    font-size: 7.5pt;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    display: block;
+    margin-bottom: 1px;
+  }
+  .klass-proj {
+    font-size: 9.7pt;
+    color: var(--ink);
+    margin: 0;
+    padding-top: 7px;
+    border-top: 1px dashed var(--line-soft);
+  }
+  .klass-proj .lbl { color: var(--amber); }
+
+  /* ---------- Closing ---------- */
+  .kv { display: grid; grid-template-columns: 130px 1fr; gap: 4px 14px; margin-top: 4px; }
+  .kv dt { font-family: var(--font-mono); font-size: 8pt; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); padding-top: 2px; }
+  .kv dd { margin: 0; color: var(--ink-soft); }
+  .kv dd b { color: var(--ink); font-weight: 600; }
+
+  .cta {
+    margin-top: 18px;
+    border: 1.5px solid var(--ink);
+    border-radius: 5px;
+    padding: 16px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    break-inside: avoid;
+  }
+  .cta .headline { font-family: var(--font-display); font-size: 13pt; font-weight: 600; }
+  .cta .price { font-size: 9.7pt; color: var(--ink-soft); margin-top: 3px; }
+  .cta .contact { font-family: var(--font-mono); font-size: 9pt; color: var(--ink); text-align: right; }
+  .cta .contact .amber { color: var(--amber); }
+
+  .foot {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid var(--line);
+    font-family: var(--font-mono);
+    font-size: 7.5pt;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .page-break { break-before: page; }
+</style>
+</head>
+<body>
+<div class="doc">
+
+  <!-- ============ COVER ============ -->
+  <header class="cover">
+    <div class="brand">Modern Age Coders · learn.modernagecoders.com</div>
+    <div class="kicker">Live online professional training programme</div>
+    <h1>AI Coding Agents<br>for <span class="em">Finance Teams</span></h1>
+    <p class="sub">A hands-on programme that trains your engineering, quant and analytics teams to direct
+      OpenAI <b>Codex</b> and Anthropic <b>Claude Code</b> on real financial-software work — safely, and
+      under full review.</p>
+    <div class="meta-row">
+      <span><b>24</b> classes</span>
+      <span><b>12</b> weeks · 2 / week</span>
+      <span><b>4–6</b> hrs / week</span>
+      <span>Live online · mentor-led</span>
+      <span>Professional certificate</span>
+    </div>
+  </header>
+
+  <!-- ============ OVERVIEW ============ -->
+  <section>
+    <div class="section-label">The programme</div>
+    <h2 class="section-title">What this is</h2>
+    <p class="lead">Agentic coding tools no longer just autocomplete. They read a repository, plan a
+      change, edit across files, run tests and iterate — under your team's approval. This programme
+      trains your people to <b>direct the two leading agents</b> on the software your business actually
+      runs on.</p>
+    <p>Delivered as a <b>live online programme</b>, it recasts every lesson around financial engineering:
+      reconciliation and reporting pipelines, market-data tooling, risk and pricing modules, transaction
+      and positions APIs, and the compliance automation around them. It spans both <b>general finance</b>
+      (reporting, reconciliation, dashboards, data pipelines, controls) and <b>trading, quant and asset
+      management</b> (algorithmic trading, market data, backtesting, risk and pricing). Every class is lab-driven and
+      ends with a working deliverable in a finance context.</p>
+    <div class="note"><b>Built for regulated environments.</b> Approvals, OS-level sandboxing, secrets
+      denial, prompt-injection defence and enterprise/managed settings run through the whole course and
+      are consolidated in Class 23 — so agents are adopted with auditability and control, never as a
+      black box.</div>
+  </section>
+
+  <!-- ============ WHO ============ -->
+  <section>
+    <div class="section-label">Audience</div>
+    <h2 class="section-title">Who this is for</h2>
+    <ul class="tidy cols">
+      <li><b>Quant &amp; algo developers</b> and researchers moving faster from idea to tested code</li>
+      <li><b>Fintech, banking &amp; payments engineers</b> maintaining and extending production systems</li>
+      <li><b>Data &amp; analytics engineers</b> building reporting and reconciliation pipelines</li>
+      <li><b>Risk, compliance &amp; controls</b> technologists who need auditable, governed automation</li>
+      <li><b>Operations &amp; back-office</b> teams automating repetitive engineering work</li>
+      <li><b>Tech leads</b> introducing safe, governed agentic coding to a regulated team</li>
+    </ul>
+  </section>
+
+  <!-- ============ STACK ============ -->
+  <section>
+    <div class="section-label">Coverage</div>
+    <h2 class="section-title">Tools &amp; stack covered</h2>
+    <ul class="tidy cols">
+      <li><b>OpenAI Codex</b> — CLI, Codex Cloud, IDE extension, Codex SDK</li>
+      <li><b>Anthropic Claude Code</b> — terminal, VS Code / JetBrains, web, mobile, Claude Agent SDK</li>
+      <li><b>MCP</b> (Model Context Protocol) to connect internal data &amp; tools</li>
+      <li><b>Subagents, hooks &amp; skills</b> for automation and guardrails</li>
+      <li><b>OS-level sandboxing</b> — Seatbelt / bubblewrap / Windows Sandbox</li>
+      <li><b>GitHub / CI integration</b> and AI code review at scale</li>
+    </ul>
+    <p style="margin-top:10px; font-size:9.5pt; color:var(--muted);">Current model backends taught:
+      Claude Code on <b style="color:var(--ink);">Opus 4.7</b> (up to xhigh effort, 1M-token context);
+      Codex on <b style="color:var(--ink);">GPT-5.3-Codex</b> and <b style="color:var(--ink);">GPT-5.5</b>.
+      The syllabus is <b style="color:var(--ink);">living</b> — updated as the tools ship new models and
+      features, at no extra cost.</p>
+  </section>
+
+  <!-- ============ WHAT WE BUILD ============ -->
+  <section>
+    <div class="section-label">In practice</div>
+    <h2 class="section-title">What your team builds with AI agents in finance</h2>
+    <p class="lead" style="margin-bottom:8px;">Across the programme, participants direct Codex and Claude
+      Code to build, extend and safeguard real financial software — from algorithmic trading to reporting,
+      risk, forecasting and compliance. A snapshot of what they build:</p>
+    <div class="build-grid">
+      <div class="build-cat">
+        <div class="build-h">Algorithmic &amp; systematic trading</div>
+        <ul class="tidy">
+          <li>Strategy, signal and indicator code; feature pipelines</li>
+          <li>Order-execution / OMS integration and market-microstructure tools</li>
+        </ul>
+      </div>
+      <div class="build-cat">
+        <div class="build-h">Backtesting &amp; simulation</div>
+        <ul class="tidy">
+          <li>Event-driven backtesters and historical replay</li>
+          <li>Performance / attribution and Monte-Carlo simulations</li>
+        </ul>
+      </div>
+      <div class="build-cat">
+        <div class="build-h">Market data &amp; analysis</div>
+        <ul class="tidy">
+          <li>Tick / feed ingestion, normalization and quality checks</li>
+          <li>Market analysis and market share / market sizing (TAM) estimation</li>
+        </ul>
+      </div>
+      <div class="build-cat">
+        <div class="build-h">Risk &amp; pricing</div>
+        <ul class="tidy">
+          <li>VaR, stress tests, exposure and limit checks</li>
+          <li>Derivatives / fixed-income pricing and valuation refactors</li>
+        </ul>
+      </div>
+      <div class="build-cat">
+        <div class="build-h">Portfolio &amp; quant research</div>
+        <ul class="tidy">
+          <li>Portfolio optimization and rebalancing</li>
+          <li>Factor models and statistical research notebooks</li>
+        </ul>
+      </div>
+      <div class="build-cat">
+        <div class="build-h">Forecasting &amp; financial modeling</div>
+        <ul class="tidy">
+          <li>FP&amp;A, budgeting and cash-flow forecasts</li>
+          <li>Scenario and sensitivity analysis</li>
+        </ul>
+      </div>
+      <div class="build-cat">
+        <div class="build-h">Reporting &amp; reconciliation</div>
+        <ul class="tidy">
+          <li>P&amp;L and trade-reconciliation fixes and refactors</li>
+          <li>Month-end and regulatory report generators</li>
+        </ul>
+      </div>
+      <div class="build-cat">
+        <div class="build-h">Compliance, controls &amp; surveillance</div>
+        <ul class="tidy">
+          <li>KYC / AML and trade-surveillance automation</li>
+          <li>Anomaly / fraud detection</li>
+        </ul>
+      </div>
+      <div class="build-cat">
+        <div class="build-h">APIs, data &amp; platform</div>
+        <ul class="tidy">
+          <li>Transactions / positions APIs and data pipelines</li>
+          <li>Reporting-library migrations rolled across a codebase</li>
+        </ul>
+      </div>
+      <div class="build-cat">
+        <div class="build-h">Governance &amp; security</div>
+        <ul class="tidy">
+          <li>Hardened permissions + sandbox + secrets for a regulated repo</li>
+          <li>MCP links to internal systems: trades / positions DB, market-data API</li>
+        </ul>
+      </div>
+    </div>
+    <div class="note" style="margin-top:12px;"><b>Customizable syllabus.</b> This is our core
+      curriculum — we shape it to your team. Topics can be added, deepened or swapped to fit your stack,
+      asset classes, internal systems and regulatory context, and we can extend the programme with
+      additional finance modules on request.</div>
+  </section>
+
+  <!-- ============ CURRICULUM ============ -->
+  <section class="page-break">
+    <div class="section-label">The curriculum · 24 classes</div>
+    <h2 class="section-title">Detailed syllabus</h2>
+    <p class="lead" style="margin-bottom:2px;">Five phases, from first install to a shipped, AI-reviewed
+      capstone. Each class lists the skills your team learns and the finance deliverable they produce.</p>
+
+    <!-- Phase 1 -->
+    <div class="phase">
+      <div class="phase-head">
+        <div class="pk">Phase 1</div>
+        <h3>Foundations of AI Coding Agents</h3>
+        <div class="pd">Understand the landscape, install and configure both agents, and master the
+          approval / permission models before the first real task.</div>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">01</span>
+          <span class="klass-title">The Agentic Coding Landscape — Codex vs Claude Code</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>What agentic coding is — an
+          autonomous loop that reads context, plans, edits, runs commands, verifies and iterates; the full
+          Codex family (CLI, Cloud, IDE, ChatGPT apps, SDK) and Claude Code surfaces (terminal, IDE, web,
+          mobile, Slack, CI); where each wins; and the 2026 model backends.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Write a one-page internal brief —
+          "Codex vs Claude Code: where our finance / trading engineering team should use each" — with a
+          six-dimension comparison matrix (latency, review workflow, data-residency &amp; sandbox control,
+          cost, IDE fit, cloud parallelism).</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">02</span>
+          <span class="klass-title">Installing &amp; Configuring Claude Code</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>Install across macOS / Linux /
+          Windows; authenticate via subscription or API key; enterprise provider routing (Amazon Bedrock,
+          Google Vertex AI, Azure AI Foundry) for cloud-governed AI; the settings hierarchy (user /
+          project / gitignored-local); model selection; the IDE extension.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Install Claude Code and configure a
+          project <code>.claude/settings.json</code> inside a real reporting / analytics repo, then run a
+          first scoped task.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">03</span>
+          <span class="klass-title">Installing &amp; Configuring the OpenAI Codex CLI</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>Install the CLI; sign in with
+          ChatGPT or an API key; run <code>codex doctor</code>; navigate the interactive TUI; per-project
+          profiles via <code>~/.codex/config.toml</code>; model &amp; reasoning selection; native Windows
+          vs WSL2.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Create a <code>config.toml</code>
+          profile for a finance workspace (pinned model + workspace-write sandbox) and complete a task in
+          it.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">04</span>
+          <span class="klass-title">Approval &amp; Permission Models — the Safety Backbone</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>Why approvals are the safety
+          backbone; Claude Code permission modes (default / acceptEdits / plan / auto) and allow / ask /
+          deny rule syntax; Codex sandbox modes (read-only / workspace-write / danger-full-access) and
+          approval policies; switching live; designing a restrictive default posture.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Author a restrictive policy for both
+          agents suited to a regulated environment — deny edits to production config and secret files,
+          block force-push — and prove a disallowed action is denied.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">05</span>
+          <span class="klass-title">Your First Real Engineering Task in Both Agents</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>Scope a real bug precisely; the
+          Claude Code plan → diff → approve → verify loop; run the same task in Codex and compare; read
+          multi-file diffs critically; drive iteration; verify behaviour via app and tests.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Fix a real bug in a P&amp;L /
+          trade-reconciliation script and in a market-data ingestion job with each agent, then compare
+          edit quality and effort.</p>
+      </div>
+    </div>
+
+    <!-- Phase 2 -->
+    <div class="phase">
+      <div class="phase-head">
+        <div class="pk">Phase 2</div>
+        <h3>Your Daily Engineering Workflow</h3>
+        <div class="pd">A fast, reliable daily loop: commands, planning, reviewing diffs, running tests
+          and git, teaching the agent your codebase, and recovering safely.</div>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">06</span>
+          <span class="klass-title">Slash Commands &amp; Session Control</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>The core command sets for both
+          TUIs (<code>/help</code>, <code>/clear</code>, <code>/compact</code>, <code>/context</code>,
+          <code>/diff</code>, <code>/review</code>; Codex <code>/approvals</code>, <code>/status</code>,
+          <code>/plan</code>, <code>/goal</code>, the @ picker); deliberate context management; precise
+          targeting; monitoring cost and limits; recovering a derailed session.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Build a team quick-reference of the
+          twelve most-used commands across both tools, with examples drawn from your finance repos.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">07</span>
+          <span class="klass-title">Plan Mode &amp; Goal Mode</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>Plan Mode (read-only research and
+          a proposed plan before any edit) and Goal Mode (works to a defined completion condition) in both
+          agents; writing checkable acceptance criteria; editing the plan to constrain scope;
+          plan-then-execute as the default for risky changes.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Use Plan Mode to design a non-trivial
+          change — add pagination + date / instrument filtering to a transactions / positions API, or a
+          new risk metric to a report — with acceptance criteria, then execute the approved plan.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">08</span>
+          <span class="klass-title">Diffs, Multi-File Edits &amp; Review Discipline</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>How agents render diffs across
+          files; reviewing a multi-file feature coherently; accept / reject / request-changes per hunk;
+          inline IDE review; keeping PRs small; asking for rationale; detecting and reverting unintended
+          edits.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Have an agent refactor a pricing /
+          valuation module and review every hunk, rejecting anything out of scope.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">09</span>
+          <span class="klass-title">Running Tests, Commands &amp; Git from the Agent</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>Delegating build / run / lint /
+          test; test-driven loops (failing test → implement → pass); git with the agent (staged diffs,
+          clear commit messages, branch hygiene); approving commands with judgment; fixing flaky tests;
+          small frequent commits.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>TDD a calculation function — e.g.
+          interest accrual or a Value-at-Risk helper — from failing test → implementation → green →
+          commit.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">10</span>
+          <span class="klass-title">Project Memory — CLAUDE.md &amp; AGENTS.md</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span><code>/init</code> generates
+          CLAUDE.md (auto-loads each session); the memory hierarchy (managed / user / project / local) and
+          imports; 2026 auto-memory; Codex AGENTS.md (root + nested + personal); a "Review guidelines"
+          section; keeping memory lean and version-controlled for the team.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Write production-quality CLAUDE.md
+          and AGENTS.md for a real finance repo, including compliance and code-review guidelines the
+          agents must follow.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">11</span>
+          <span class="klass-title">Checkpoints, Rewind &amp; Session Management</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>Automatic checkpointing and
+          <code>/rewind</code> to restore code / conversation / both; the key limitation (checkpoints
+          track file-tool edits, not shell <code>rm</code>/<code>mv</code> — git remains the real safety
+          net); resuming, forking and branching sessions; Codex session resume.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Run a risky refactor of a reporting
+          module, reject the outcome, and recover cleanly via <code>/rewind</code> plus git.</p>
+      </div>
+    </div>
+
+    <!-- Phase 3 -->
+    <div class="phase">
+      <div class="phase-head">
+        <div class="pk">Phase 3</div>
+        <h3>Extending &amp; Connecting Your Agents</h3>
+        <div class="pd">Make the agents fit your stack: connect internal tools via MCP, build skills,
+          deploy subagents, automate with hooks, tune models, and feed visual context.</div>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">12</span>
+          <span class="klass-title">MCP — Connecting Tools, Data &amp; Services</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>What the Model Context Protocol
+          is; adding servers in Claude Code (http / sse / stdio; local / project / user scopes) and Codex
+          (config.toml); MCP resources and prompts; deferred tool loading; and — critically — trust
+          boundaries, OAuth, and prompt-injection risk from MCP content.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Connect internal systems via MCP — an
+          issue tracker, a trades / positions database, a market-data API and internal docs — and complete
+          a task using them, with untrusted content treated as hostile.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">13</span>
+          <span class="klass-title">Skills, Custom Commands &amp; Codex Plugins</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>Claude Code Skills and custom
+          commands (<code>.claude/commands</code>, <code>.claude/skills</code>); frontmatter control (who
+          can invoke, allowed tools, subagent execution); designing a workflow-encapsulating command;
+          Codex profiles and the plugin marketplace; distributing and versioning shared automations.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Build a reusable skill — e.g.
+          <code>/month-end-report</code> or <code>/compliance-check</code> — that encodes a repeatable
+          finance workflow, plus a Codex profile for the project.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">14</span>
+          <span class="klass-title">Subagents — Specialized, Isolated Helpers</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>Subagents run in their own context,
+          tools and permissions; the built-ins (Explore, Plan, General-purpose); defining your own
+          (<code>.claude/agents/*.md</code> with tools, model, permissionMode); least-privilege design;
+          dispatching parallel subagents; why they protect the main context.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Create a read-only code-reviewer
+          subagent scoped to the risk / pricing module and a test-writer scoped to tests, and use them on
+          a real change.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">15</span>
+          <span class="klass-title">Hooks &amp; Workflow Automation</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>Hooks run deterministic code at
+          lifecycle events (PreToolUse, PostToolUse, SessionStart, Stop, PreCompact…); config via matcher +
+          handler with exit-code 2 to block; practical hooks (auto-format / lint, run tests, inject
+          context, block dangerous commands); enforcing team standards automatically.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Implement a PostToolUse format + lint
+          hook and a PreToolUse guard that blocks force-push and any edit to production config or secret
+          files.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">16</span>
+          <span class="klass-title">Models, Reasoning Effort &amp; Context</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>Claude Code models (Opus 4.7 /
+          Sonnet / Haiku), effort levels (low → xhigh, ultrathink) and 1M-token context for large
+          codebases; Codex models (GPT-5.3-Codex / GPT-5.5) and reasoning levels; cost / performance
+          trade-offs; subagent model overrides; measuring whether more effort actually helped.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Benchmark a hard refactor of a legacy
+          finance library at two effort levels and two models; document quality vs cost / latency on a
+          large 1M-context codebase.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">17</span>
+          <span class="klass-title">Multimodal Inputs — Visual Context</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>Why visuals accelerate work;
+          drag-and-drop screenshots / images as context; Codex Appshots (macOS); building UI from a design
+          screenshot; debugging from a screenshot; current limits (image input; no audio / video).</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Recreate a trading / analytics
+          dashboard from a design screenshot and reconcile it against the spec; diagnose a rendering bug
+          from a screenshot alone.</p>
+      </div>
+    </div>
+
+    <!-- Phase 4 -->
+    <div class="phase">
+      <div class="phase-head">
+        <div class="pk">Phase 4</div>
+        <h3>Cloud, Collaboration &amp; Scale</h3>
+        <div class="pd">Operate beyond one machine: delegate to Codex Cloud, use Claude Code across
+          surfaces, integrate AI code review into GitHub / CI, and orchestrate parallel agents.</div>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">18</span>
+          <span class="klass-title">Codex Cloud — Parallel Tasks &amp; Auto-PRs</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>Codex Cloud runs asynchronous
+          agents in isolated, sandboxed environments; connect GitHub; queue many tasks in parallel, each
+          returning its own PR; configure cloud environments (repo, setup steps, tools, internet-access
+          controls); review cloud PRs; governance for cloud agents.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Delegate three parallel Codex Cloud
+          chores across a finance monorepo — with internet access locked down for regulated data — and
+          review / merge the resulting PRs.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">19</span>
+          <span class="klass-title">Claude Code Across Surfaces (Web, Desktop, Mobile, Background)</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span><code>claude.ai/code</code> on the
+          web for long-running / parallel tasks even on repos you don't have locally; desktop visual diff
+          review; background agents (<code>/background</code>, attach, logs); mobile approvals; teleporting
+          a web session into the terminal; Slack / GitHub triggers.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Start a task on the web, hand it to
+          the desktop / terminal, finish it, and run one agent in the background — approving a step from
+          mobile.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">20</span>
+          <span class="klass-title">GitHub Integration &amp; AI Code Review at Scale</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>Connect GitHub apps so both agents
+          open and review PRs; Codex review (<code>@codex review</code>, automatic reviews, scoped reviews
+          for security regressions) and <code>@codex fix</code>; Claude Code <code>/code-review</code> with
+          <code>--comment</code> and <code>--fix</code>; CI automation; acting on AI feedback with rigor.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Set up automatic AI code review on a
+          regulated repo, scoped to security regressions, and run a PR through both Codex and Claude Code
+          review.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">21</span>
+          <span class="klass-title">Parallel Agents, Worktrees, /batch &amp; Teams</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>Decompose large work into
+          independent units; git worktrees for isolation; Claude Code <code>/batch</code> (split a change
+          into 5–30 units, one background subagent per worktree, each tests + opens a PR); agent teams;
+          when serial is safer than parallel.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Use <code>/batch</code> (or parallel
+          Codex Cloud tasks) to roll a cross-cutting change — e.g. a reporting-library migration — across
+          the codebase and review each PR.</p>
+      </div>
+    </div>
+
+    <!-- Phase 5 -->
+    <div class="phase">
+      <div class="phase-head">
+        <div class="pk">Phase 5</div>
+        <h3>Build, Secure &amp; Ship</h3>
+        <div class="pd">Operationalize agents: automate with the SDKs, harden security for a regulated
+          team, and deliver a production-grade finance capstone — then certify.</div>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">22</span>
+          <span class="klass-title">Building With the SDKs (Claude Agent SDK &amp; Codex SDK)</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>Headless automation
+          (<code>claude -p</code> with text / json / stream-json output; <code>codex exec</code> with
+          <code>--output-schema</code> for structured JSON); the Claude Agent SDK and Codex SDK; piping and
+          composition; budget / turn controls for safe unattended runs.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Build a CI automation that reviews
+          every PR for secret leakage and security issues, emitting structured JSON that gates the merge —
+          a programmatic compliance check.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">23</span>
+          <span class="klass-title">Security, Sandboxing &amp; Governance for Teams</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns · finance centerpiece</span>Permission
+          rules evaluated before any tool runs; OS-level sandboxes (Seatbelt / bubblewrap / Windows
+          Sandbox) with filesystem &amp; network isolation and domain allow / deny; secrets hygiene
+          (denyRead for <code>~/.ssh</code>, <code>~/.aws</code>, market-data keys; env scrubbing);
+          prompt-injection defence against untrusted web / market / news content; managed / enterprise
+          settings; accountability and audit.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Define and test a hardened
+          configuration for a regulated team repo — permissions + OS sandbox + secret denials — and
+          demonstrate a sandbox blocking access outside the allowed scope.</p>
+      </div>
+
+      <div class="klass">
+        <div class="klass-head"><span class="klass-num">24</span>
+          <span class="klass-title">Capstone — Ship a Production-Grade Build + Certification</span></div>
+        <p class="klass-learn"><span class="lbl">Your team learns</span>Scope a real deliverable; plan with
+          Plan / Goal mode; author CLAUDE.md and AGENTS.md with review guidelines; build with both agents
+          (subagents / hooks / MCP where they add value); quality-gate with tests + AI code review + a
+          clean PR history; ship and document the workflow.</p>
+        <p class="klass-proj"><span class="lbl">Finance project</span>Ship a finance deliverable
+          end-to-end — a backtested algorithmic-trading strategy, a reconciliation automation, a
+          risk-&amp;-P&amp;L report generator, a market-data dashboard, or a compliance-check bot — deployed,
+          tested, AI-reviewed and documented, earning the <b>AI Coding Agents Professional</b> certificate.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ OUTCOMES ============ -->
+  <section class="page-break">
+    <div class="section-label">Outcomes</div>
+    <h2 class="section-title">What your team can do by the end</h2>
+    <ul class="tidy">
+      <li>Direct <b>both Codex and Claude Code</b> through real financial-software tasks, and choose the
+        right tool per job.</li>
+      <li>Ship a <b>production-grade capstone in a finance context</b> — a backtested trading strategy,
+        reconciliation automation, risk / P&amp;L report generator, market-data dashboard or
+        compliance-check bot — deployed, tested and AI-reviewed.</li>
+      <li>Build at least one <b>headless SDK automation</b>, such as a CI compliance / secret-leak gate.</li>
+      <li>Integrate <b>AI code review</b> into a GitHub / CI workflow, scoped to security regressions.</li>
+      <li>Produce a team-ready <b>"safe agentic coding" governance policy</b> — permission rules, OS
+        sandboxing, secrets hygiene and prompt-injection defence fit for a regulated environment.</li>
+      <li>Earn the Modern Age Coders <b>"AI Coding Agents Professional"</b> certificate.</li>
+    </ul>
+  </section>
+
+  <!-- ============ PREREQS ============ -->
+  <section>
+    <div class="section-label">Requirements</div>
+    <h2 class="section-title">Prerequisites</h2>
+    <dl class="kv">
+      <dt>Devices</dt><dd>A laptop / desktop (Windows, Mac or Linux) with internet and admin rights to
+        install the CLIs.</dd>
+      <dt>Experience</dt><dd><b>Helpful but not required</b> — we start from install and ramp quickly;
+        suitable for engineers and technical analysts alike.</dd>
+      <dt>Accounts</dt><dd>A GitHub account, plus access to Claude (Pro / Max) and ChatGPT (Plus / Pro)
+        plans or API keys; enterprise provider routing (Bedrock / Vertex / Azure) covered for teams.</dd>
+      <dt>Environment</dt><dd>Works with your existing repos and toolchain; labs can be tailored to your
+        stack on request.</dd>
+    </dl>
+  </section>
+
+  <!-- ============ FORMAT / CTA ============ -->
+  <section>
+    <div class="section-label">Format &amp; next step</div>
+    <h2 class="section-title">Delivery &amp; logistics</h2>
+    <dl class="kv">
+      <dt>Format</dt><dd><b>Live online cohort</b> — 24 classes, two per week over ~12 weeks; 4–6 hours /
+        week recommended.</dd>
+      <dt>Delivery</dt><dd>Live, mentor-led and lab-driven; every class ends with a deliverable; capstone
+        review at the end.</dd>
+      <dt>Living syllabus</dt><dd>Updated continuously as Codex and Claude Code ship new features and
+        models, at no extra cost.</dd>
+      <dt>Customization</dt><dd>Curriculum tailored to your team's stack, priorities and regulatory
+        context; additional finance modules can be added on request.</dd>
+      <dt>Certification</dt><dd>Modern Age Coders "AI Coding Agents Professional" certificate on
+        completion.</dd>
+    </dl>
+
+    <div class="cta">
+      <div>
+        <div class="headline">Scope a cohort for your finance team</div>
+        <div class="price"><b>Team &amp; corporate pricing available on request</b> — tailored to cohort
+          size, schedule and any stack-specific customization.</div>
+      </div>
+      <div class="contact">
+        <div class="amber">Modern Age Coders</div>
+        <div>mahaviracodingclasses@gmail.com</div>
+        <div>learn.modernagecoders.com</div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <span>Modern Age Coders · AI Coding Agents for Finance Teams</span>
+      <span>Codex + Claude Code · Live online professional training</span>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

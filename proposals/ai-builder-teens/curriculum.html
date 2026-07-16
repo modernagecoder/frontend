@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>From Zero to AI Builder — Two-Month Teen Programme</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap');
+
+  :root {
+    --ink:        #201E24;
+    --ink-soft:   #4a4640;
+    --muted:      #7a7264;
+    --paper:      #FCFAF4;
+    --card:       #FFFFFF;
+    --amber:      #B7770F;
+    --amber-tint: #FBF1DC;
+    --line:       #E7DCC4;
+    --line-soft:  #EFE8D8;
+    --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+    --font-body:    'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --font-mono:    'JetBrains Mono', 'Consolas', monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 10.5pt;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .doc { max-width: 720px; margin: 0 auto; padding: 0 4px; }
+
+  h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; margin: 0; color: var(--ink); }
+  p { margin: 0 0 8px; }
+  a { color: var(--amber); text-decoration: none; }
+
+  code {
+    font-family: var(--font-mono);
+    font-size: 0.86em;
+    background: var(--amber-tint);
+    color: var(--ink);
+    padding: 0.5px 4px;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+
+  /* ---------- Cover ---------- */
+  .cover { padding: 18px 0 26px; border-bottom: 2px solid var(--ink); margin-bottom: 26px; }
+  .cover .brand {
+    font-family: var(--font-mono);
+    font-size: 8.5pt;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 22px;
+  }
+  .cover .kicker {
+    font-family: var(--font-mono);
+    font-size: 9pt;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 10px;
+  }
+  .cover h1 { font-size: 31pt; line-height: 1.06; font-weight: 600; letter-spacing: -0.01em; }
+  .cover h1 .em { font-style: italic; color: var(--amber); }
+  .cover .sub { margin-top: 14px; font-size: 12pt; color: var(--ink-soft); max-width: 560px; }
+  .cover .meta-row {
+    margin-top: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 26px;
+    font-family: var(--font-mono);
+    font-size: 8.5pt;
+    letter-spacing: 0.03em;
+    color: var(--muted);
+  }
+  .cover .meta-row b { color: var(--ink); font-weight: 600; }
+
+  /* ---------- Sections ---------- */
+  section { margin-bottom: 22px; }
+  .section-label {
+    font-family: var(--font-mono);
+    font-size: 8pt;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 6px;
+  }
+  h2.section-title { font-size: 15pt; font-weight: 600; margin-bottom: 10px; }
+  .lead { font-size: 11pt; color: var(--ink-soft); }
+
+  ul.tidy { list-style: none; margin: 4px 0 0; padding: 0; }
+  ul.tidy li { position: relative; padding-left: 15px; margin-bottom: 5px; color: var(--ink-soft); }
+  ul.tidy li::before {
+    content: "";
+    position: absolute; left: 0; top: 0.55em;
+    width: 5px; height: 5px; border-radius: 50%;
+    background: var(--amber);
+  }
+  ul.tidy li b { color: var(--ink); font-weight: 600; }
+
+  .cols { column-count: 2; column-gap: 26px; }
+  .cols li { break-inside: avoid; }
+
+  .note {
+    background: var(--amber-tint);
+    border-left: 3px solid var(--amber);
+    border-radius: 3px;
+    padding: 11px 14px;
+    color: var(--ink-soft);
+    margin-top: 4px;
+  }
+  .note b { color: var(--ink); }
+
+  /* Build-highlights grid */
+  .build-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 11px 26px; margin-top: 4px; }
+  .build-cat { break-inside: avoid; }
+  .build-h {
+    font-family: var(--font-mono);
+    font-size: 8pt;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 2px;
+  }
+  .build-cat ul.tidy { margin-top: 2px; }
+  .build-cat ul.tidy li { font-size: 9.6pt; margin-bottom: 3px; }
+
+  /* ---------- Curriculum ---------- */
+  .phase-head {
+    border-top: 1.5px solid var(--ink);
+    padding-top: 9px;
+    margin-top: 18px;
+    margin-bottom: 6px;
+    break-after: avoid;
+  }
+  .phase-head .pk {
+    font-family: var(--font-mono);
+    font-size: 8pt;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--amber);
+  }
+  .phase-head h3 { font-size: 13.5pt; margin-top: 2px; }
+  .phase-head .pd { font-size: 9.5pt; color: var(--muted); margin-top: 3px; }
+
+  .week-head {
+    margin: 13px 0 8px;
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 11pt;
+    color: var(--ink);
+    break-after: avoid;
+  }
+  .week-head .wk {
+    font-family: var(--font-mono);
+    font-size: 8pt;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-right: 8px;
+  }
+
+  .klass {
+    break-inside: avoid;
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    background: var(--card);
+    padding: 10px 14px 11px;
+    margin-bottom: 8px;
+  }
+  .klass-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 4px; }
+  .klass-num {
+    font-family: var(--font-mono);
+    font-size: 10pt;
+    font-weight: 700;
+    color: var(--amber);
+    flex: 0 0 auto;
+  }
+  .klass-title { font-size: 11pt; font-weight: 600; line-height: 1.2; }
+  .klass-learn { font-size: 9.6pt; color: var(--ink-soft); margin: 0 0 6px; }
+  .klass-learn .lbl, .klass-proj .lbl {
+    font-family: var(--font-mono);
+    font-size: 7.5pt;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    display: block;
+    margin-bottom: 1px;
+  }
+  .klass-proj {
+    font-size: 9.6pt;
+    color: var(--ink);
+    margin: 0;
+    padding-top: 6px;
+    border-top: 1px dashed var(--line-soft);
+  }
+  .klass-proj .lbl { color: var(--amber); }
+
+  /* ---------- Closing ---------- */
+  .kv { display: grid; grid-template-columns: 130px 1fr; gap: 4px 14px; margin-top: 4px; }
+  .kv dt { font-family: var(--font-mono); font-size: 8pt; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); padding-top: 2px; }
+  .kv dd { margin: 0; color: var(--ink-soft); }
+  .kv dd b { color: var(--ink); font-weight: 600; }
+
+  .cta {
+    margin-top: 18px;
+    border: 1.5px solid var(--ink);
+    border-radius: 5px;
+    padding: 16px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    break-inside: avoid;
+  }
+  .cta .headline { font-family: var(--font-display); font-size: 13pt; font-weight: 600; }
+  .cta .price { font-size: 9.7pt; color: var(--ink-soft); margin-top: 3px; }
+  .cta .contact { font-family: var(--font-mono); font-size: 9pt; color: var(--ink); text-align: right; }
+  .cta .contact .amber { color: var(--amber); }
+
+  .foot {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid var(--line);
+    font-family: var(--font-mono);
+    font-size: 7.5pt;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .page-break { break-before: page; }
+</style>
+</head>
+<body>
+<div class="doc">
+
+  <!-- ============ COVER ============ -->
+  <header class="cover">
+    <div class="brand">Modern Age Coders · learn.modernagecoders.com</div>
+    <div class="kicker">Two-month live programme · Ages 13–18</div>
+    <h1>From Zero to<br><span class="em">AI Builder</span></h1>
+    <p class="sub">In two months, go from your very first line of code to building and shipping real,
+      AI-powered apps — websites, JavaScript apps, Python, machine learning, and apps powered by
+      large language models.</p>
+    <div class="meta-row">
+      <span><b>32</b> classes</span>
+      <span><b>8</b> weeks · 4 / week</span>
+      <span>Live online · mentor-led</span>
+      <span>Project-based</span>
+      <span>Certificate</span>
+    </div>
+  </header>
+
+  <!-- ============ OVERVIEW ============ -->
+  <section>
+    <div class="section-label">The programme</div>
+    <h2 class="section-title">What this is</h2>
+    <p class="lead">A fast, hands-on two-month programme where teens go from <b>knowing nothing about
+      code</b> to <b>building and launching their own AI-powered apps</b>. Every single class builds
+      something real — no endless theory.</p>
+    <p>We start on the web (HTML, CSS and <b>JavaScript</b>) so students see results on screen from day
+      one. Then we move into <b>Python</b>, the language of AI. Finally we go deep into the exciting part:
+      <b>machine learning and building apps with LLMs</b> — chatbots, AI tools, "chat with your own notes",
+      and a full-stack AI product — connecting everything using API keys and real AI models.</p>
+    <div class="note"><b>Three phases, one journey.</b>
+      <b>Phase 1 · Web &amp; JavaScript</b> (Weeks 1–3) → build and deploy interactive apps ·
+      <b>Phase 2 · Python</b> (Weeks 4–5) → real programming and automation ·
+      <b>Phase 3 · AI, ML &amp; LLM apps</b> (Weeks 6–8) → build and ship your own AI product.</div>
+  </section>
+
+  <!-- ============ WHO ============ -->
+  <section>
+    <div class="section-label">Who it's for</div>
+    <h2 class="section-title">Made for teenage builders (13–18)</h2>
+    <ul class="tidy cols">
+      <li><b>Total beginners</b> — no coding experience needed at all</li>
+      <li><b>Curious teens</b> who love tech, games, or AI and want to build, not just use</li>
+      <li><b>Students</b> who want a real portfolio of projects before college</li>
+      <li><b>Future creators &amp; founders</b> with app or startup ideas</li>
+      <li><b>Scratch / Python graduates</b> ready to level up to real apps and AI</li>
+      <li><b>Anyone 13–18</b> who wants to actually ship something cool</li>
+    </ul>
+  </section>
+
+  <!-- ============ WHAT YOU BUILD ============ -->
+  <section>
+    <div class="section-label">In practice</div>
+    <h2 class="section-title">What you'll build</h2>
+    <p class="lead" style="margin-bottom:8px;">By the end you'll have a portfolio of real projects you
+      can show off and share with a link. Highlights:</p>
+    <div class="build-grid">
+      <div class="build-cat">
+        <div class="build-h">Websites &amp; landing pages</div>
+        <ul class="tidy">
+          <li>A personal "about me" site and a polished landing page</li>
+        </ul>
+      </div>
+      <div class="build-cat">
+        <div class="build-h">Interactive web apps &amp; games</div>
+        <ul class="tidy">
+          <li>A quiz app, a to-do list and a number-guessing game</li>
+        </ul>
+      </div>
+      <div class="build-cat">
+        <div class="build-h">Live API-powered apps</div>
+        <ul class="tidy">
+          <li>A weather / movie app that pulls real data, deployed to a URL</li>
+        </ul>
+      </div>
+      <div class="build-cat">
+        <div class="build-h">Python automations</div>
+        <ul class="tidy">
+          <li>A web-scraper or auto-report script that does the boring work</li>
+        </ul>
+      </div>
+      <div class="build-cat">
+        <div class="build-h">Machine-learning apps</div>
+        <ul class="tidy">
+          <li>A model that predicts something from real data</li>
+        </ul>
+      </div>
+      <div class="build-cat">
+        <div class="build-h">AI chatbots &amp; LLM tools</div>
+        <ul class="tidy">
+          <li>Your own chatbot with a personality and an AI study-helper</li>
+        </ul>
+      </div>
+      <div class="build-cat">
+        <div class="build-h">AI with your own data</div>
+        <ul class="tidy">
+          <li>A "chat with my notes / PDF" app and an AI agent that uses tools</li>
+        </ul>
+      </div>
+      <div class="build-cat">
+        <div class="build-h">Capstone AI product</div>
+        <ul class="tidy">
+          <li>A full-stack AI app, deployed live, that you present and share</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STACK ============ -->
+  <section>
+    <div class="section-label">Coverage</div>
+    <h2 class="section-title">Tools &amp; skills you'll learn</h2>
+    <ul class="tidy cols">
+      <li><b>Web</b> — HTML, CSS, responsive design</li>
+      <li><b>JavaScript</b> — logic, the DOM, interactive apps</li>
+      <li><b>Git &amp; GitHub</b> + deploying live to the web</li>
+      <li><b>Python</b> — the language of AI, from scratch</li>
+      <li><b>APIs &amp; JSON</b> — connecting apps to the internet</li>
+      <li><b>Data</b> — pandas, charts and real datasets</li>
+      <li><b>Machine learning</b> — train and use your own model</li>
+      <li><b>AI &amp; LLMs</b> — API keys, prompting, RAG, agents, images/voice</li>
+    </ul>
+  </section>
+
+  <!-- ============ CURRICULUM ============ -->
+  <section class="page-break">
+    <div class="section-label">The curriculum · 32 classes</div>
+    <h2 class="section-title">Week-by-week syllabus</h2>
+    <p class="lead" style="margin-bottom:2px;">Four live classes a week for eight weeks. Each class lists
+      what you learn and what you build.</p>
+
+    <!-- ===== PHASE 1 ===== -->
+    <div class="phase-head">
+      <div class="pk">Phase 1 · Weeks 1–3</div>
+      <h3>Web &amp; JavaScript — see results from day one</h3>
+      <div class="pd">Build and deploy interactive web apps while learning how code really works.</div>
+    </div>
+
+    <div class="week-head"><span class="wk">Week 1</span> Your first web pages — HTML &amp; CSS</div>
+
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">01</span>
+        <span class="klass-title">How the Web Works + Your First Page</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>What happens when you open a website;
+        HTML basics — headings, text, links and images; using a code editor.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>Your first live web page — an "about me".</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">02</span>
+        <span class="klass-title">Structure &amp; Forms</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Page structure, lists, buttons, forms and
+        inputs, and semantic HTML.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A profile page with a working contact form.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">03</span>
+        <span class="klass-title">Styling with CSS</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Colors, fonts, spacing and the box model;
+        classes and selectors.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>Restyle your page so it actually looks great.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">04</span>
+        <span class="klass-title">Layouts That Look Pro</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Flexbox and grid; responsive design that
+        works on phone and laptop.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A clean landing page for an idea you love.</p>
+    </div>
+
+    <div class="week-head"><span class="wk">Week 2</span> JavaScript — make it interactive</div>
+
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">05</span>
+        <span class="klass-title">JavaScript Basics</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Variables, text and numbers, operators;
+        running JavaScript in the browser.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A tip / score calculator.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">06</span>
+        <span class="klass-title">Logic &amp; Functions</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span><code>if</code>/<code>else</code>, loops,
+        and writing your own reusable functions.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A number-guessing game.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">07</span>
+        <span class="klass-title">The DOM — Bring Pages to Life</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Selecting elements, handling clicks and
+        events, and changing the page live.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>An interactive to-do list.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">08</span>
+        <span class="klass-title">Project — Interactive Quiz App</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Putting it together — app state, events
+        and updating the UI.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A multi-question quiz app that scores you.</p>
+    </div>
+
+    <div class="week-head"><span class="wk">Week 3</span> Real apps — data, APIs &amp; going live</div>
+
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">09</span>
+        <span class="klass-title">Working with Data — Arrays &amp; Objects</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Storing lists and structured data; looping
+        over data to build a UI automatically.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A card gallery generated from data.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">10</span>
+        <span class="klass-title">Talking to the Internet — APIs &amp; JSON</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>What an API is; <code>fetch</code>; reading
+        JSON responses.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>An app that pulls live data from a public API.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">11</span>
+        <span class="klass-title">Async JavaScript</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Promises, <code>async</code>/<code>await</code>,
+        loading states and handling errors.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A search app with live results.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">12</span>
+        <span class="klass-title">Ship It — Git, GitHub &amp; Deploy</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Saving your work with Git &amp; GitHub, then
+        deploying to the web.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>Your app live on a real URL you can share.</p>
+    </div>
+
+    <!-- ===== PHASE 2 ===== -->
+    <div class="phase-head">
+      <div class="pk">Phase 2 · Weeks 4–5</div>
+      <h3>Python — the language of AI</h3>
+      <div class="pd">Learn real programming and automation, and get ready for machine learning.</div>
+    </div>
+
+    <div class="week-head"><span class="wk">Week 4</span> Python foundations</div>
+
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">13</span>
+        <span class="klass-title">Meet Python</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Why Python; setup; variables, types, and
+        input / output.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>An interactive text-based mini-app.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">14</span>
+        <span class="klass-title">Logic in Python</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Conditionals, loops, and writing clean,
+        readable code.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A quiz or calculator in Python.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">15</span>
+        <span class="klass-title">Functions &amp; Modules</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Reusable functions, importing modules, and
+        organizing your code.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A small toolkit of your own functions.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">16</span>
+        <span class="klass-title">Data Structures</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Lists, dictionaries and sets — and when to
+        use each.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A command-line contact book or inventory.</p>
+    </div>
+
+    <div class="week-head"><span class="wk">Week 5</span> Python for real work</div>
+
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">17</span>
+        <span class="klass-title">Files &amp; Real Data (JSON)</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Reading and writing files; working with
+        JSON data that persists.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A note-saver or expense tracker that remembers.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">18</span>
+        <span class="klass-title">Libraries &amp; Environments</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span><code>pip</code>, installing packages, and
+        virtual environments.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>Something fun with a library — a QR code or an
+        edited image.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">19</span>
+        <span class="klass-title">Python Meets APIs</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>The <code>requests</code> library; calling
+        APIs and handling responses in Python.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A script that fetches and shows live data.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">20</span>
+        <span class="klass-title">Project — Python Automation</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Automating a boring task end-to-end.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A mini web-scraper or an auto-report generator.</p>
+    </div>
+
+    <!-- ===== PHASE 3 ===== -->
+    <div class="phase-head">
+      <div class="pk">Phase 3 · Weeks 6–8</div>
+      <h3>AI, Machine Learning &amp; LLM Apps — the exciting part</h3>
+      <div class="pd">Understand how AI works, then build and ship your own AI-powered product.</div>
+    </div>
+
+    <div class="week-head"><span class="wk">Week 6</span> Into AI &amp; machine learning</div>
+
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">21</span>
+        <span class="klass-title">What AI &amp; ML Really Are</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>AI vs machine learning vs deep learning; how
+        machines "learn" from data — with real examples, no hype.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>Explore a real dataset and spot patterns.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">22</span>
+        <span class="klass-title">Data Superpowers — pandas</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Loading, cleaning and exploring data with
+        pandas; making simple charts.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>Analyze a real dataset and chart your findings.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">23</span>
+        <span class="klass-title">Your First ML Model</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Features &amp; labels, train / test split,
+        and making predictions with scikit-learn.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A model that predicts something real.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">24</span>
+        <span class="klass-title">Project — Prediction App</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Checking if your model is any good, then
+        using it on brand-new input.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A small app that makes predictions from your model.</p>
+    </div>
+
+    <div class="week-head"><span class="wk">Week 7</span> Building with LLMs — the fun part</div>
+
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">25</span>
+        <span class="klass-title">How LLMs Work + Your First API Key</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>What large language models do; getting and
+        safely protecting an API key.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>Your very first call to an AI model from code.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">26</span>
+        <span class="klass-title">Build an AI Chatbot</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Sending prompts, reading responses, and
+        building a chat loop.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>Your own chatbot with its own personality.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">27</span>
+        <span class="klass-title">Prompt Engineering &amp; Structured Output</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Writing great prompts and getting clean JSON
+        back to power a real app.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>An AI tool — a study-helper or idea generator.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">28</span>
+        <span class="klass-title">AI Superpowers — Images &amp; Voice</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Sending images to AI, generating images, and
+        text-to-speech basics (multimodal AI).</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>An app that describes or creates images.</p>
+    </div>
+
+    <div class="week-head"><span class="wk">Week 8</span> Connect everything &amp; ship your AI product</div>
+
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">29</span>
+        <span class="klass-title">Chat With Your Own Data (RAG)</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Embeddings and retrieval — letting AI answer
+        questions from your own documents.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A "chat with my notes / PDF" app.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">30</span>
+        <span class="klass-title">AI Agents — Apps That Take Action</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Connecting tools and APIs so AI can do
+        things, not just talk.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A mini AI agent that uses a real tool.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">31</span>
+        <span class="klass-title">Full-Stack AI App</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Connecting a web front-end to a Python +
+        LLM backend into one app.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>A polished AI web app, end-to-end.</p>
+    </div>
+    <div class="klass">
+      <div class="klass-head"><span class="klass-num">32</span>
+        <span class="klass-title">Capstone — Ship Your AI Product + Showcase</span></div>
+      <p class="klass-learn"><span class="lbl">You'll learn</span>Planning, building, testing and deploying a
+        real product you're proud of.</p>
+      <p class="klass-proj"><span class="lbl">You'll build</span>Your own deployed AI app with a shareable URL,
+        which you present — and earn your Modern Age Coders certificate.</p>
+    </div>
+  </section>
+
+  <!-- ============ OUTCOMES ============ -->
+  <section class="page-break">
+    <div class="section-label">Outcomes</div>
+    <h2 class="section-title">What you'll be able to do</h2>
+    <ul class="tidy">
+      <li>Build and <b>deploy your own websites and web apps</b> to a real URL.</li>
+      <li>Write real programs in <b>JavaScript and Python</b>.</li>
+      <li>Pull <b>live data from APIs</b> and build apps around it.</li>
+      <li>Train and use a <b>simple machine-learning model</b>.</li>
+      <li>Build <b>AI apps with LLMs</b> — chatbots, tools, "chat with your data", and agents.</li>
+      <li>Ship a <b>capstone AI product</b> with a shareable link for your portfolio.</li>
+      <li>Earn the Modern Age Coders <b>certificate</b> of completion.</li>
+    </ul>
+  </section>
+
+  <!-- ============ PREREQS ============ -->
+  <section>
+    <div class="section-label">Requirements</div>
+    <h2 class="section-title">What you need to start</h2>
+    <dl class="kv">
+      <dt>Device</dt><dd>Any laptop or desktop (Windows, Mac or Linux) with internet — nothing powerful
+        needed.</dd>
+      <dt>Experience</dt><dd><b>None at all</b> — we start from your very first line of code.</dd>
+      <dt>Accounts</dt><dd>A free GitHub account, and free / low-cost AI access for the LLM classes — we
+        guide students and parents through safe setup.</dd>
+      <dt>Attitude</dt><dd>Curiosity and a willingness to build. That's it.</dd>
+    </dl>
+  </section>
+
+  <!-- ============ FORMAT / CTA ============ -->
+  <section>
+    <div class="section-label">Format &amp; next step</div>
+    <h2 class="section-title">Delivery &amp; logistics</h2>
+    <dl class="kv">
+      <dt>Format</dt><dd><b>Two-month programme</b> — 32 live classes, 4 per week over 8 weeks.</dd>
+      <dt>Delivery</dt><dd>Live online, mentor-led and project-based; every class builds something real.</dd>
+      <dt>Support</dt><dd>Small batches, doubt-clearing, and class recordings so nothing is missed.</dd>
+      <dt>Certification</dt><dd>Modern Age Coders certificate on completion, plus a portfolio of projects.</dd>
+    </dl>
+
+    <div class="cta">
+      <div>
+        <div class="headline">Enrol your teen — or book a free demo class</div>
+        <div class="price"><b>Pricing available on request.</b> Group and 1-on-1 options; flexible batches
+          for school schedules.</div>
+      </div>
+      <div class="contact">
+        <div class="amber">Modern Age Coders</div>
+        <div>mahaviracodingclasses@gmail.com</div>
+        <div>learn.modernagecoders.com</div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <span>Modern Age Coders · From Zero to AI Builder</span>
+      <span>Two-month live programme · Ages 13–18</span>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
