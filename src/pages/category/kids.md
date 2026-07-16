@@ -272,6 +272,15 @@ Join thousands of kids already creating amazing projects
 
 [Book Free Demo](/contact)[Browse Courses](/courses#coding-kids)
 
+## Coding for kids, wherever you are
+
+Live small-batch classes for children in India and around the world, plus a full homeschool track.
+
+- [Coding classes for kids in the UK](/online-coding-classes-for-kids-uk)
+- [Coding classes for kids in the USA](/online-coding-classes-for-kids-usa)
+- [Homeschool coding curriculum](/homeschool-coding-curriculum)
+- [Coding classes across India](/coding-classes-in-india)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/levels/coding-for-kids*
