@@ -42,7 +42,7 @@ Students with Python skills win science fairs, ace computer science exams, and s
 
 ### Recorded Sessions
 
-Every live class is recorded. Missed a session or need revision? Your child can re-watch unlimited times — zero fear of falling behind.
+Every live class is recorded. Missed a session or need revision? Your child can re-watch the recording for revision, zero fear of falling behind.
 
 Our Python & AI Courses
 

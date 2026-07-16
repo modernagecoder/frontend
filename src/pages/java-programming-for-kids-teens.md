@@ -281,9 +281,9 @@ We don't put 9-year-olds and 17-year-olds in the same class. The Kids Java Track
 
 Our syllabus directly maps to Java topics in CBSE Class 11 & 12 Computer Science and ICSE Class 9 & 10. Students don't just learn Java — they master exactly what appears in board exams.
 
-### Every Class Recorded Forever
+### Every Class Recorded
 
-Miss a class? Your child re-watches it that evening. Want to revise before an exam? Every session is in the student portal permanently — not deleted after 7 days like some platforms.
+Miss a class? Your child re-watches it that evening. Want to revise before an exam? Every session recording is added to the student portal so your child can revise before an exam.
 
 ### Doubt Support on WhatsApp
 

@@ -54,7 +54,7 @@ Our online format isn't a fallback. It's deliberately designed to be better than
 
 Unlike offline coaching centres with 30+ students in a room, our online batches cap at 6. Every student gets seen, heard, and supported every single class.
 
-### Every Class Recorded — Forever
+### Every Class Recorded
 
 Miss a class? Zoned out for 5 minutes? Re-watch the exact moment. Every session is recorded and added to your personal library within 2 hours of the class ending.
 
