@@ -2426,5 +2426,106 @@
       "HSTES centralised counselling on JEE Main All India Rank": "https://www.hstes.org.in/"
     },
     "_excluded": "The 'Rajiv Gandhi Education City' name is not asserted (no primary source fetched this pass); the universities' Sonipat location and founding years are used instead. BSEH is at Bhiwani, not Sonipat."
+  },
+  "hubli": {
+    "lede": "Hubli, officially Hubballi, is the commercial engine of North Karnataka, twinned with Dharwad into one of the state's biggest urban areas. Its main technical institution is KLE Technological University, which grew from a college run by the KLE Society, founded back in 1947, into a university in 2012. The twin cities also hold the Karnataka State Law University and a large medical college. Schools follow the Karnataka board, and engineering admission runs through KCET, conducted by the Karnataka Examinations Authority.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Karnataka board students in Hubli?",
+        "a": "Yes. Hubballi schools run the Karnataka state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can KLE Technological University students join your programming courses?",
+        "a": "Yes. KLE Technological University teaches engineering here, so the fundamentals are well covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Hubli, the commercial hub of North Karnataka, twinned with Dharwad (Karnataka Tourism)": "https://karnatakatourism.org/en/destinations/hubballi",
+      "KLE Technological University, Hubballi (from the KLE Society, founded 1947; university in 2012)": "https://www.kletech.ac.in/",
+      "Karnataka School Examination and Assessment Board (KSEAB)": "https://kseab.karnataka.gov.in/english",
+      "KCET via the Karnataka Examinations Authority (KEA)": "https://cetonline.karnataka.gov.in/kea/"
+    },
+    "_excluded": "IIIT Dharwad is in Dharwad, not Hubli, so it is not attributed to the city (geography). Dharwad, not Hubli, is the administrative centre of the twin-city corporation."
+  },
+  "shimoga": {
+    "lede": "Shivamogga, long known as Shimoga, is the gateway to the Malnad, the hill-and-forest country of the Western Ghats. Its state university, Kuvempu University, was set up in 1987 at Shankaraghatta and covers the Malnad districts of Shivamogga and Chikmagaluru, its campus fittingly named Jnana Sahyadri, the Western Ghats of knowledge. Schools follow the Karnataka board, and engineering admission runs through KCET, conducted by the Karnataka Examinations Authority.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Karnataka board students in Shimoga?",
+        "a": "Yes. Shivamogga schools run the Karnataka state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Kuvempu University students join your programming courses?",
+        "a": "Yes. Kuvempu University has served the Malnad region from Shankaraghatta since 1987, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Kuvempu University, Shankaraghatta, Shivamogga, established 1987, covering the Malnad districts (district portal)": "https://shivamogga.nic.in/en/public-utility-category/colleges/",
+      "Karnataka School Examination and Assessment Board (KSEAB)": "https://kseab.karnataka.gov.in/english",
+      "KCET via the Karnataka Examinations Authority (KEA)": "https://cetonline.karnataka.gov.in/kea/"
+    },
+    "_excluded": "Jog Falls is in the wider Malnad region (Sagara taluk), not Shivamogga city, so it is not made a city fact. Kuvempu University's campus is at Shankaraghatta, in the Bhadravathi taluk of the district."
+  },
+  "udupi": {
+    "lede": "Udupi is a temple town with an outsized name. Its Sri Krishna Matha, founded by the philosopher Madhvacharya in the thirteenth century, gave the world Udupi cuisine, the vegetarian cooking that spread through south India's Udupi hotels. The district also holds one of the country's best-known private universities: the Manipal Academy of Higher Education, at Manipal, whose engineering arm, the Manipal Institute of Technology, dates to 1957. Schools follow the Karnataka board, and engineering admission runs through KCET, conducted by the Karnataka Examinations Authority.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Karnataka board students in Udupi?",
+        "a": "Yes. Udupi schools run the Karnataka state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Manipal Institute of Technology students join your programming courses?",
+        "a": "Yes. The Manipal Institute of Technology at Manipal, in Udupi district, has taught engineering since 1957, so the theory is well covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Udupi Sri Krishna Matha, founded by Madhvacharya in the 13th century; origin of Udupi cuisine": "https://krishnamatha.org/",
+      "Manipal Academy of Higher Education (Manipal, Udupi district); Manipal Institute of Technology established 1957": "https://www.manipal.edu/mit.html",
+      "Udupi district (carved from Dakshina Kannada, 1997)": "https://udupi.nic.in/en/about-district/",
+      "Karnataka School Examination and Assessment Board (KSEAB)": "https://kseab.karnataka.gov.in/english",
+      "KCET via the Karnataka Examinations Authority (KEA)": "https://cetonline.karnataka.gov.in/kea/"
+    },
+    "_excluded": "MAHE and MIT are at Manipal, a town in Udupi district a few kilometres from Udupi city, stated honestly. MAHE's 1953 founding is corroborated via search; the verified engineering-arm date (MIT, 1957) is used in the copy."
+  },
+  "greater-noida": {
+    "lede": "Greater Noida is a planned city and a university town, distinct from Noida though in the same Gautam Buddha Nagar district. It holds Gautam Buddha University, set up by the state in 2008 on a campus of over 500 acres, and sits in a belt of private universities, Shiv Nadar, Bennett, Sharda and Galgotias among them. The district is also home to the new Noida International Airport at Jewar, opened in 2026. Schools follow the UP Board, UPMSP, and engineering seats fill on JEE Main rank through UPTAC counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to UP Board students in Greater Noida?",
+        "a": "Yes. Greater Noida schools run the UP Board, UPMSP, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Gautam Buddha University or Shiv Nadar University students join your programming courses?",
+        "a": "Yes. Greater Noida holds Gautam Buddha University and a cluster of private universities, so serious study is on the doorstep. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Gautam Buddha University, Greater Noida, came into existence 2008 (UP Act 2002)": "https://www.gbu.ac.in/",
+      "Noida International Airport at Jewar, Gautam Buddha Nagar (inaugurated 2026)": "https://gbnagar.nic.in/jewar_airport/",
+      "Shiv Nadar University, near Greater Noida (an Institution of Eminence)": "https://snu.edu.in/",
+      "UP Board UPMSP": "https://upmsp.edu.in/",
+      "B.Tech on JEE Main via UPTAC counselling": "https://uptac.admissions.nic.in/entrance-examinations/"
+    },
+    "_excluded": "Greater Noida is distinct from Noida (both are in Gautam Buddha Nagar district). Shiv Nadar University's campus is near Greater Noida (Dadri), stated as 'near'. The Noida International Airport is at Jewar, in the district, not in Greater Noida town itself."
+  },
+  "jhansi": {
+    "lede": "Jhansi is the gateway to Bundelkhand and the city of Rani Lakshmibai. Its fort, built in 1613 by the Orchha ruler Vir Singh Deo, was the scene of the queen's famous stand in the revolt of 1857. The city anchors the region's higher education through Bundelkhand University, established in 1975. Schools follow the UP Board, UPMSP, seated in Prayagraj, and engineering seats fill on JEE Main rank through UPTAC counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to UP Board students in Jhansi?",
+        "a": "Yes. Jhansi schools run the UP Board, UPMSP, along with CBSE and ICSE, and our classes fit around any of them. The board is seated in Prayagraj. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Bundelkhand University students join your programming courses?",
+        "a": "Yes. Bundelkhand University has served the region from Jhansi since 1975, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Jhansi Fort, built 1613 by Vir Singh Deo of Orchha, site of Rani Lakshmibai's 1857 stand (Incredible India)": "https://www.incredibleindia.gov.in/en/uttar-pradesh/jhansi/jhansi-fort",
+      "Bundelkhand University, Jhansi, established 1975": "https://www.bujhansi.ac.in/about-bu/",
+      "UP Board UPMSP, Prayagraj": "https://upmsp.edu.in/",
+      "B.Tech on JEE Main via UPTAC counselling": "https://uptac.admissions.nic.in/entrance-examinations/"
+    },
+    "_excluded": "Jhansi lies in the Uttar Pradesh part of Bundelkhand (the region straddles UP and MP). The precise wording 'Gateway to Bundelkhand' is widely used; the fort and university facts are primary-sourced."
   }
 }
