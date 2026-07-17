@@ -1872,5 +1872,111 @@
       "TNEA single-window counselling (Anna University Centre for Admissions)": "https://cfa.annauniv.edu/cfa/"
     },
     "_excluded": "The 'Steel City' and 'Mango City' nicknames are not asserted (not on the official pages). Salem's magnesite 'hub' superlative and specific tonnage are dropped. GI-registration status for Salem sago and mango is left out (the district page shows them as under review, only Salem fabric/silk as registered). GCE Salem's Anna University affiliation is not asserted (its own site emphasises autonomy)."
+  },
+  "palakkad": {
+    "lede": "Palakkad is Kerala's doorway and its granary. The Palakkad Gap, a break in the Western Ghats between 32 and 40 kilometres wide, is what opens the state to the rest of the country, and the district administration calls Palakkad one of the main granaries of Kerala, an economy built on rice. The newest arrival is IIT Palakkad, whose campus sits at Kanjikode on the district's eastern edge near the Tamil Nadu border. Schools follow the Kerala board, and engineering admission runs through KEAM, conducted by the state's Commissioner for Entrance Examinations.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Kerala board students in Palakkad?",
+        "a": "Yes. Palakkad schools run the Kerala board, with the SSLC for Class 10, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can IIT Palakkad students join your programming courses?",
+        "a": "Yes. IIT Palakkad's campus is at Kanjikode, on the edge of the district, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "IIT Palakkad campus at Kanjikode, Palakkad": "https://iitpkd.ac.in/how-reach",
+      "Palakkad one of the main granaries of Kerala; economy primarily agricultural (district portal)": "https://palakkad.nic.in/en/about-district/",
+      "The Palakkad Gap, a 32-40 km break in the Western Ghats (district portal)": "https://palakkad.nic.in/en/about-district/",
+      "Kerala Board of Public Examinations (SSLC)": "https://kbpe.kerala.gov.in/?page=seo",
+      "KEAM via the Commissioner for Entrance Examinations, Kerala": "https://cee.kerala.gov.in/main.php"
+    },
+    "_excluded": "Palakkad Fort (Tipu's Fort) and the Malampuzha dam are not asserted (they appear only as photo-gallery labels on the district site, not as quoted identity statements). IIT Palakkad's 2015 founding year is not asserted (not on a primary page fetched this pass; only the Kanjikode location is)."
+  },
+  "shimla": {
+    "lede": "Shimla was the summer capital of British India and is today the capital of Himachal Pradesh, and its colonial institutions still shape it. Himachal Pradesh University was established at Summer Hill in 1970, the former Viceregal Lodge now houses the Indian Institute of Advanced Study, and the Kalka-Shimla Railway that climbs to the city is a UNESCO World Heritage site. One thing worth knowing: the state school board, HPBOSE, does not sit in Shimla but at Dharamshala in Kangra district. Engineering seats in the state fill on JEE Main.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to HP Board students in Shimla?",
+        "a": "Yes. Shimla schools run the Himachal Pradesh board, HPBOSE, along with CBSE and ICSE, and our classes fit around any of them. The board is at Dharamshala, not Shimla. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Himachal Pradesh University students join your programming courses?",
+        "a": "Yes. Himachal Pradesh University has taught from Summer Hill since 1970, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Shimla the former summer capital of British India, present capital of Himachal Pradesh (district portal)": "https://hpshimla.nic.in/about-district/",
+      "Himachal Pradesh University established at Summer Hill on 22 July 1970": "https://www.hpuniv.ac.in/innerpages/university-profile.php",
+      "The former Viceregal Lodge now houses the Indian Institute of Advanced Study (district portal)": "https://hpshimla.nic.in/tourist-place/advance-study/",
+      "The Kalka-Shimla Railway, a UNESCO World Heritage site": "https://himachalservices.nic.in/heritage/",
+      "Himachal Pradesh board HPBOSE, Dharamshala (Kangra district)": "https://hpbose.org/",
+      "B.Tech via JEE Main (NTA)": "https://nta.ac.in/Engineeringexam"
+    },
+    "_excluded": "The Indian Institute of Advanced Study's founding year is not asserted (its own site failed on an SSL error). No Shimla-based engineering institution is claimed: Himachal Pradesh Technical University is at Hamirpur, not Shimla (geography). HPBOSE is at Dharamshala, not Shimla."
+  },
+  "rajahmundry": {
+    "lede": "Rajahmundry, officially Rajamahendravaram, is the cultural capital of Andhra Pradesh, a town more than a thousand years old that the district records say was built by the Eastern Chalukya ruler Rajaraja Narendra in 1022. It is the home of Nannaya, the Adi Kavi or first Telugu poet, and the state university here carries his name. The Godavari runs mighty past the city, where it is called Akhanda Godavari before it splits toward the sea. Schools follow the Andhra Pradesh boards, and engineering admission is AP EAPCET, conducted by JNTU Kakinada for the state council.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to BSEAP students in Rajahmundry?",
+        "a": "Yes. Rajahmundry schools run the Andhra Pradesh board, BSEAP for Class 10 and BIEAP for Intermediate, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Adikavi Nannaya University students join your programming courses?",
+        "a": "Yes. The state university here is named after Nannaya, the first Telugu poet, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Rajahmundry (Rajamahendravaram) the cultural capital of Andhra Pradesh, more than 1000 years old (East Godavari district portal)": "https://eastgodavari.ap.gov.in/about-district/",
+      "Built by the Eastern Chalukya ruler Rajaraja Narendra in A.D. 1022; home of Nannaya (Adi Kavi); the Akhanda Godavari (district portal)": "https://eastgodavari.ap.gov.in/tourist-place/rajamahendravaram/",
+      "Board of Secondary Education, Andhra Pradesh (SSC)": "https://bse.ap.gov.in/",
+      "AP EAPCET conducted by JNTU Kakinada for APSCHE": "https://cets.apsche.ap.gov.in/EAPCET/EAPCET/EAPCET_HomePage.aspx"
+    },
+    "_excluded": "Adikavi Nannaya University's 2006 founding year is not asserted (its own site is JS-rendered and returned only the name). The modern 'Godavari Arch Bridge' is not named (the district source documents the older Kovvur-Rajahmundry road-cum-rail bridge, a different structure)."
+  },
+  "mohali": {
+    "lede": "Mohali, officially Sahibzada Ajit Singh Nagar, was carved out as Punjab's eighteenth district in 2006, and though it adjoins Chandigarh it is a Punjab city in its own right, one the district administration calls an emerging IT hub of northern India. Its Knowledge City at Sector 81 holds IISER Mohali and a campus of the Indian School of Business, and the Punjab School Education Board is headquartered here at Phase 8. Schools follow the Punjab board, PSEB, and engineering seats fill on JEE Main rank through the state technical university's counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to PSEB students in Mohali?",
+        "a": "Yes, and the Punjab board, PSEB, is headquartered right here in Mohali at Phase 8. CBSE and ICSE schools run in the city too. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can IISER Mohali or ISB students join your programming courses?",
+        "a": "Yes. Mohali's Knowledge City holds IISER Mohali and an ISB campus, so serious study is on the doorstep. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Mohali (Sahibzada Ajit Singh Nagar), Punjab's 18th district, formed 14 April 2006; an emerging IT hub of northern India (district portal)": "https://sasnagar.nic.in/about-district-second/",
+      "IISER Mohali, Knowledge City, Sector 81, SAS Nagar": "https://www.iisermohali.ac.in/",
+      "Indian School of Business (ISB) campus at Knowledge City, Sector 81, Mohali": "https://www.isb.edu/en/about-isb/isb-advantage/campuses.html",
+      "Punjab School Education Board (PSEB) headquartered at Phase-8, SAS Nagar (Mohali)": "https://www.pseb.ac.in/",
+      "B.Tech on JEE Main via IKGPTU centralised counselling": "https://ptu.ac.in/admissions/"
+    },
+    "_excluded": "IISER Mohali's 2007 founding and 'Institute of National Importance' status are not asserted (not on its own homepage). The PCA cricket stadium and 'IT City / Quark City' are not asserted (no primary source fetched). IKGPTU is in Jalandhar, not Mohali; it is named only as Punjab's state-wide admission route."
+  },
+  "guntur": {
+    "lede": "Guntur is the chilli capital of the country. Its district administration calls the Guntur market yard Asia's biggest chilli market and the district the Chilli City of India, and Guntur is a major tobacco centre too, home to the Government of India's Tobacco Board. Its main university, Acharya Nagarjuna University, was inaugurated in 1976, and Guntur Medical College, one of the state's oldest, sits in the heart of the city. Schools follow the Andhra Pradesh boards, and engineering admission is AP EAPCET, conducted by JNTU Kakinada for the state council.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to BSEAP students in Guntur?",
+        "a": "Yes. Guntur schools run the Andhra Pradesh board, BSEAP for Class 10 and BIEAP for Intermediate, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Acharya Nagarjuna University students join your programming courses?",
+        "a": "Yes. Acharya Nagarjuna University has served the Guntur region since 1976, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Guntur market yard 'Asia's biggest Chilli market yard'; the 'Chilli City of India' (district ODOP portal)": "https://guntur.ap.gov.in/odop2024/",
+      "The Government of India's Tobacco Board is at Guntur (district portal)": "https://guntur.ap.gov.in/district-produce/tobacco/",
+      "Acharya Nagarjuna University inaugurated 11 September 1976": "https://moocs.anuonline.ac.in/about-anu.html",
+      "Guntur Medical College, in the heart of Guntur city": "https://gunturmedicalcollege.edu.in/",
+      "Board of Secondary Education, Andhra Pradesh (SSC)": "https://bse.ap.gov.in/",
+      "AP EAPCET conducted by JNTU Kakinada for APSCHE": "https://cets.apsche.ap.gov.in/EAPCET/EAPCET/HomePages/EAPCET_HomePage.aspx"
+    },
+    "_excluded": "SRM University-AP and VIT-AP are in the Amaravati capital region / Mangalagiri, not Guntur city (geography). Guntur Medical College's exact founding year is not asserted (its own site is internally inconsistent, 1946 vs 1947); only its in-city, pre-independence origin is used."
   }
 }
