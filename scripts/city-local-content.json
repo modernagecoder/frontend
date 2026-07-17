@@ -2120,5 +2120,108 @@
       "AP EAPCET conducted by JNTU Kakinada for APSCHE": "https://cets.apsche.ap.gov.in/EAPCET/EAPCET/EAPCET_HomePage.aspx"
     },
     "_excluded": "Vikrama Simhapuri University's campus is at Kakuturu, about 13 km from the city, stated honestly. Aquaculture/paddy-acreage figures are not asserted (only the qualitative identity from the district portal is used)."
+  },
+  "kannur": {
+    "lede": "Kannur is Kerala's land of looms and Theyyam. Kerala Tourism and the district administration know it as the home of Theyyam, a ritual art performed for some two thousand years, and of a centuries-old handloom weaving tradition still practised by thousands of artisans. Kannur University has served the north of the state since 1996, and the Kannur International Airport, opened in 2018 at Mattanur, connected the region to the world. Schools follow the Kerala board, and engineering admission runs through KEAM, conducted by the state's Commissioner for Entrance Examinations.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Kerala board students in Kannur?",
+        "a": "Yes. Kannur schools run the Kerala board, with the SSLC for Class 10, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Kannur University students join your programming courses?",
+        "a": "Yes. Kannur University has served the region since 1996, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Kannur, the 'Land of Theyyams' and of handloom weaving (Kerala Tourism / district portal)": "https://www.keralatourism.org/districts/kannur/",
+      "Kannur University, established 1996": "https://www.kannuruniversity.ac.in/en/",
+      "Kannur International Airport, opened December 2018 at Mattanur": "https://www.kannurairport.aero/",
+      "Kerala Board of Public Examinations (SSLC)": "https://kbpe.kerala.gov.in/?page=seo",
+      "KEAM via the Commissioner for Entrance Examinations, Kerala": "https://cee.kerala.gov.in/"
+    },
+    "_excluded": "The airport is at Mattanur, about 28 km from the city, stated honestly. Kannur University's founding year (1996) is corroborated via search (its own site confirms the university and Kannur location)."
+  },
+  "kollam": {
+    "lede": "Kollam is the cashew capital of the country. Its district administration brands it the land of cashew, coir and backwaters, and Kollam has been the centre of India's cashew-processing trade for about a century. The city sits on Ashtamudi Lake, the gateway to Kerala's backwaters, and holds TKM College of Engineering, which opened in 1958 as the first government-aided engineering college in Kerala. Schools follow the Kerala board, and engineering admission runs through KEAM, conducted by the state's Commissioner for Entrance Examinations.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Kerala board students in Kollam?",
+        "a": "Yes. Kollam schools run the Kerala board, with the SSLC for Class 10, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can TKM College of Engineering students join your programming courses?",
+        "a": "Yes. TKM College of Engineering opened in 1958 as Kerala's first government-aided engineering college, so the fundamentals are well covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Kollam, the 'Land of Cashew, Coir and Backwaters', capital of Kerala's cashew industry (district portal)": "https://kollam.nic.in/en/",
+      "TKM College of Engineering, established 1958, the first government-aided engineering college in Kerala": "https://tkmce.ac.in/about-tkm-enggineering-college",
+      "Ashtamudi Lake, the gateway to Kerala's backwaters (Kerala Tourism)": "https://www.keralatourism.org/destination/ashtamudi-backwaters/426/",
+      "Kerala Board of Public Examinations (SSLC)": "https://kbpe.kerala.gov.in/?page=seo",
+      "KEAM via the Commissioner for Entrance Examinations, Kerala": "https://cee.kerala.gov.in/"
+    },
+    "_excluded": "The '90% of India's cashew-kernel exports' figure is not asserted (it appears in secondary sources, not the official district page); the cashew-capital identity is used qualitatively. TKM College's campus is at Karicode, about 6 km from the city centre."
+  },
+  "kottayam": {
+    "lede": "Kottayam calls itself the land of letters. It was the first town in India to reach full literacy, in 1989, on the back of a survey by students of its own Mahatma Gandhi University, which had been established here on Gandhi Jayanti in 1983. The city is the heart of India's rubber country, home to the Rubber Board, and a long-standing centre of Malayalam publishing. Schools follow the Kerala board, and engineering admission runs through KEAM, conducted by the state's Commissioner for Entrance Examinations.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Kerala board students in Kottayam?",
+        "a": "Yes. Kottayam schools run the Kerala board, with the SSLC for Class 10, along with CBSE and ICSE, and our classes fit around any of them. In a town this literate, we push past the syllabus: we teach the programming itself, Python or Java, so it becomes something your child can build with."
+      },
+      {
+        "q": "Can Mahatma Gandhi University students join your programming courses?",
+        "a": "Yes. Mahatma Gandhi University has been based in Kottayam since 1983, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Kottayam, the 'Land of Letters', the first town in India to achieve full literacy (1989) (district portal)": "https://kottayam.nic.in/en/",
+      "Mahatma Gandhi University, established at Kottayam on 2 October 1983": "https://www.mgu.ac.in/",
+      "Kerala Board of Public Examinations (SSLC)": "https://kbpe.kerala.gov.in/?page=seo",
+      "KEAM via the Commissioner for Entrance Examinations, Kerala": "https://cee.kerala.gov.in/"
+    },
+    "_excluded": "The Rubber Board's exact statutory details and 'X% of India's rubber' figures are not asserted (kept qualitative). The 100%-literacy claim (1989) and 'Land of Letters' identity come from the district portal; the founding of MG University is from its own site."
+  },
+  "karimnagar": {
+    "lede": "Karimnagar is Telangana's granite country. Its economy leans on granite quarrying and the old craft of silver filigree, and its history runs back through the Kakatiya-era Elgandal fort nearby, from which the district headquarters shifted to Karimnagar in 1905. Satavahana University has served the region since 2008. Schools follow the Telangana boards, BSE Telangana for Class 10 and TGBIE for Intermediate, and engineering admission is TG EAPCET.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Telangana board students in Karimnagar?",
+        "a": "Yes. Karimnagar schools run the Telangana boards, BSE Telangana for Class 10 and TGBIE for Intermediate, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Satavahana University students join your programming courses?",
+        "a": "Yes. Satavahana University has served Karimnagar since 2008, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Satavahana University, Karimnagar, established 2008 (district portal)": "https://karimnagar.telangana.gov.in/public-utility/satavahana-university/",
+      "Elgandal fort (Kakatiya era); district headquarters moved to Karimnagar (district history)": "https://karimnagar.telangana.gov.in/about-district/history/",
+      "Board of Secondary Education, Telangana (SSC)": "https://bse.telangana.gov.in/",
+      "TG EAPCET (Telangana Engineering, Agriculture and Pharmacy Common Entrance Test)": "https://eapcet.tgche.ac.in/"
+    },
+    "_excluded": "The 'City of Granites' nickname is not asserted as an official title (it appears in secondary sources); granite quarrying and silver filigree are stated as the district's known industries. Satavahana University's 2008 founding is from the district public-utility page."
+  },
+  "nizamabad": {
+    "lede": "Nizamabad takes its name from the Nizams of Hyderabad, though the old town was once called Indur. Today it is one of Telangana's big agricultural markets: the Nizamabad market yard is among the largest grain markets in the state and a major turmeric-trading hub, drawing paddy, maize and turmeric from the Godavari and Manjira basins. Telangana University, set up in 2006 at Dichpally, serves the region. Schools follow the Telangana boards, BSE Telangana for Class 10 and TGBIE for Intermediate, and engineering admission is TG EAPCET.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Telangana board students in Nizamabad?",
+        "a": "Yes. Nizamabad schools run the Telangana boards, BSE Telangana for Class 10 and TGBIE for Intermediate, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Telangana University students join your programming courses?",
+        "a": "Yes. Telangana University has served Nizamabad from its Dichpally campus since 2006, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Nizamabad named after the Nizam of Hyderabad (originally Indur) (district portal)": "https://nizamabad.telangana.gov.in/about-district/",
+      "The Nizamabad market yard, among the largest grain markets in Telangana, a major turmeric-trading hub (district portal)": "https://nizamabad.telangana.gov.in/",
+      "Telangana University, established 2006 at Dichpally, Nizamabad (district portal)": "https://nizamabad.telangana.gov.in/public-utility/telangana-university/",
+      "Board of Secondary Education, Telangana (SSC)": "https://bse.telangana.gov.in/",
+      "TG EAPCET (Telangana Engineering, Agriculture and Pharmacy Common Entrance Test)": "https://eapcet.tgche.ac.in/"
+    },
+    "_excluded": "Telangana University's campus is at Dichpally, on the edge of Nizamabad, stated honestly. Exact market-turnover and turmeric-tonnage figures are not asserted (kept qualitative from the district portal)."
   }
 }
