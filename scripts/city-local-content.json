@@ -614,5 +614,174 @@
       "JAC Chandigarh admits to government institutes on JEE Main + Class 12; PEC via JoSAA/CSAB on JEE Main": "https://jacchd.admissions.nic.in/joint-admission-committee-jac/"
     },
     "_excluded": "Whole-city 'Le Corbusier master-planned Chandigarh' NOT asserted: the primary chandigarh.gov.in history page is JS-rendered/unreachable, so only the verified Capitol Complex (UNESCO) and the Jeanneret-under-Le-Corbusier PU campus are claimed, not whole-city authorship. The Albert-Mayer-1949 / Le-Corbusier-1951 / '63 sectors' / 'city as a human body' chronology is aggregator-only and dropped. 'All Chandigarh schools follow CBSE' avoided: only government-school CBSE affiliation is evidenced (a UT has no board of its own), and private ICSE/other-board schools exist. No government-school count is claimed: chdeducation.gov.in gives 111 consistently but sub-breakdowns and an alternate '115' conflict."
+  },
+  "kanpur": {
+    "lede": "Kanpur has been an engineering town for over a century. It started in 1920 with the Government Research Institute that grew into Harcourt Butler Technical University, and in 1959 the government set up IIT Kanpur out at Kalyanpur, one of the country's first IITs. Chhatrapati Shahu Ji Maharaj University, the old Kanpur University, followed in 1966. The city's own district administration still calls it a major industrial town of Uttar Pradesh. For school students the board is UPMSP, seated in Prayagraj, and the route into engineering runs through JEE Main and UPTAC counselling, since UP no longer holds a separate state entrance.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to UP Board students in Kanpur?",
+        "a": "Yes. Kanpur schools run the UP Board, UPMSP, alongside CBSE and ICSE, and our classes work with any of them. The board itself is seated in Prayagraj rather than Kanpur, so it is a state body, not a local one. We teach the programming itself, Python or Java, rather than a second pass over the school computer paper, so the exam takes care of itself."
+      },
+      {
+        "q": "Can IIT Kanpur or HBTU students join your programming courses?",
+        "a": "Yes. IIT Kanpur has taught here since 1959 and HBTU traces back to 1920, so the theory is in good hands. What the college track adds is built work: real Python, Java, full-stack or AI/ML projects, carried through to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "IIT Kanpur established 1959, campus at Kalyanpur": "https://www.iitk.ac.in/",
+      "HBTU traces to the Government Research Institute, Cawnpore, 1920": "https://hbtu.ac.in/about-us/",
+      "CSJM University (former Kanpur University) established 1966": "https://csjmu.ac.in/",
+      "Kanpur a major industrial town of Uttar Pradesh (district portal)": "https://kanpurnagar.nic.in/en/about-district/",
+      "UP Board UPMSP seated at Prayagraj": "http://madhyamikshiksha.upsdc.gov.in/en-us/",
+      "B.Tech on JEE Main via UPTAC": "https://uptac.admissions.nic.in/entrance-examinations/"
+    },
+    "_excluded": "'Manchester of the East' / 'Leather City' and the Jajmau tannery statistics are not claimed: they appear only on aggregators/NGO pages and the official ODOP UP page 403'd, so only the district portal's 'major industrial town' is used. UPMSP's 1921 founding and IIT Kanpur campus-size/first-computer-science claims are dropped (Wikipedia-only). UPMSP's own site blocks fetching, so the board name and Prayagraj seat are cited to the UP Department of Secondary Education portal."
+  },
+  "varanasi": {
+    "lede": "Varanasi has taught engineering for over a hundred years. Banaras Hindu University was founded here in 1916 by Madan Mohan Malaviya, and engineering teaching on its campus began in 1919 as Banaras Engineering College, the ancestor of what became IIT (BHU) Varanasi by an Act of Parliament in 2012. The city also holds Sampurnanand Sanskrit University at Jagatganj. For school students the board is the UP Board, UPMSP, seated in Prayagraj, while the state route into engineering runs on JEE Main through UPTAC counselling. The national institute inside BHU admits separately, through JEE Advanced.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to UP Board students in Varanasi?",
+        "a": "Yes. Varanasi schools run the UP Board, UPMSP, along with CBSE and ICSE, and our classes fit around any of them. The board is headquartered in Prayagraj, not Varanasi. We teach the programming underneath the syllabus, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can IIT (BHU) or BHU students join your programming courses?",
+        "a": "Yes. BHU has taught here since 1916 and its engineering lineage runs back to 1919, so the fundamentals are well covered. The college track is for the other half: real Python, Java, full-stack or AI/ML work, built until it deploys and can be shown."
+      }
+    ],
+    "_sources": {
+      "BHU founded 1916 by Madan Mohan Malaviya": "https://www.bhu.ac.in/",
+      "IIT (BHU) Varanasi became an IIT on 29 June 2012; engineering at BHU from 1919 (BENCO)": "https://www.iitbhu.ac.in/",
+      "Sampurnanand Sanskrit University at Jagatganj, Varanasi": "https://varanasi.nic.in/public-utility/sampoornanand-sanskrit-university/",
+      "UP Board UPMSP seated at Prayagraj": "http://madhyamikshiksha.upsdc.gov.in/en-us/",
+      "B.Tech on JEE Main via UPTAC": "https://uptac.admissions.nic.in/entrance-examinations/"
+    },
+    "_excluded": "BHU 'largest residential university in Asia' is not asserted (not in the verified text from bhu.ac.in). Sampurnanand Sanskrit University's 1958 founding is dropped (its own site 403s and the varanasi.nic.in listing gives no year). UPMSP's 1921 founding is dropped (Wikipedia-only; upmsp.edu.in blocks fetching), so the board name and Prayagraj seat are cited to the UP Department of Secondary Education portal."
+  },
+  "prayagraj": {
+    "lede": "Prayagraj, renamed from Allahabad by the state government in 2018, sits at the Sangam where the Ganga and Yamuna meet. It is an old university town: the University of Allahabad was established in 1887 and calls itself the fourth oldest in India, after Calcutta, Bombay and Madras. MNNIT has trained engineers here since 1961, IIIT-Allahabad sits at Jhalwa on the city's edge, and the Allahabad High Court is seated here too. Usefully for local families, the UP Board, UPMSP, is headquartered in Prayagraj itself. The state route into engineering runs on JEE Main through UPTAC.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to UP Board students in Prayagraj?",
+        "a": "Yes, and it is worth knowing that the UP Board, UPMSP, is headquartered in Prayagraj itself, so for once the state board is a local body. CBSE and ICSE schools run here as well, and our classes fit around any of them. We teach the programming itself rather than coaching the school syllabus back at your child."
+      },
+      {
+        "q": "Can MNNIT or University of Allahabad students join your programming courses?",
+        "a": "Yes. MNNIT has run since 1961 and the University of Allahabad since 1887, so the theory is well taught locally. One note: those national institutes admit through JEE, while the state colleges fill on JEE Main via UPTAC counselling run from Lucknow. Either way, the college track adds real project work: Python, Java, full-stack or AI/ML, built until it runs."
+      }
+    ],
+    "_sources": {
+      "Allahabad renamed Prayagraj on 18 October 2018 (gazette); Sangam of Ganga and Yamuna": "https://prayagrajdivision.nic.in/about-department/introduction/",
+      "University of Allahabad established 1887, fourth oldest in India": "https://www.allduniv.ac.in/p/16/history",
+      "MNNIT Allahabad established 1961 as a Regional Engineering College": "https://www.mnnit.ac.in/index.php/institute/about-us",
+      "IIIT-Allahabad campus at Devghat Jhalwa, Prayagraj": "https://iiita.ac.in/institute/maps_and_directions/",
+      "High Court of Judicature at Allahabad seated in Prayagraj": "https://www.allahabadhighcourt.in/",
+      "B.Tech via UPTAC (AKTU, Lucknow) on JEE Main": "https://uptac.samarth.edu.in/"
+    },
+    "_excluded": "IIIT-Allahabad's 1999 founding is dropped (Wikipedia-only; iiita.ac.in confirms only the Jhalwa/Prayagraj campus, not the year). UPMSP's 1921 founding is dropped (aggregator-only). AKTU/UPTAC is in Lucknow, so the copy does not imply it is a Prayagraj body, and the two national institutes (MNNIT, IIIT-A) admit via JEE/JoSAA, not UPTAC."
+  },
+  "ranchi": {
+    "lede": "Ranchi became a state capital in 2000, when Jharkhand was carved out of Bihar, though it had long served as Bihar's summer capital and is still known as the City of Waterfalls. Its best-known institution predates all of that: BIT Mesra, founded in 1955 by the industrialist B.M. Birla, sits just outside the centre at Mesra. The state school board is the Jharkhand Academic Council, based here in Ranchi at Namkum. One thing parents get wrong is the engineering route: Jharkhand no longer runs a JCECE engineering exam, and B.Tech seats are filled on JEE Main rank, with JCECEB handling the counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Jharkhand Academic Council students in Ranchi?",
+        "a": "Yes. Ranchi schools run the Jharkhand Academic Council board, which is based here in the city at Namkum, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something to memorise."
+      },
+      {
+        "q": "How does a Ranchi student get into engineering, and can BIT Mesra students join?",
+        "a": "For engineering, Jharkhand fills B.Tech seats on JEE Main rank, with JCECEB running the counselling, not the older JCECE exam that many families still expect. BIT Mesra and other college students are welcome on the college track: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown."
+      }
+    ],
+    "_sources": {
+      "BIT Mesra founded 1955 by B.M. Birla, located in Ranchi": "https://www.bitmesra.ac.in/",
+      "Ranchi capital of Jharkhand, former summer capital of Bihar, 'City of Waterfalls'": "https://ranchi.nic.in/about-district/",
+      "Jharkhand formed from Bihar on 15 November 2000": "https://www.jharkhand.gov.in/home/AboutState",
+      "Jharkhand Academic Council (JAC) at Namkum, Ranchi": "https://jac.jharkhand.gov.in/about-jac.html",
+      "B.Tech seats on JEE Main via JCECEB state merit list": "https://jceceb.jharkhand.gov.in/"
+    },
+    "_excluded": "NIT Jamshedpur is in Jamshedpur, not Ranchi (geography). JCECE is not the engineering route: JCECEB's own notices show B.Tech seats fill on JEE Main, while JCECE covers agriculture and allied streams. The JAC Act year is left out because JAC's own pages conflict between 2002 and 2003."
+  },
+  "vijayawada": {
+    "lede": "Vijayawada sits on the Krishna at the foot of Indrakeeladri, the hill that holds the Kanaka Durga temple, and it has long been one of Andhra's busiest trade and railway hubs. Its engineering story has a first in it: VR Siddhartha Engineering College, founded in 1977, was the first private engineering college in undivided Andhra Pradesh. The state school board, BSEAP, runs the Class 10 exam from Gollapudi in Vijayawada itself, and the engineering route is AP EAPCET, conducted by JNTU Kakinada for the state council. One caution for families: SRM-AP and VIT-AP are in the Amaravati capital region, not in Vijayawada city.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to BSEAP students in Vijayawada?",
+        "a": "Yes. Vijayawada runs the Andhra Pradesh board, whose examinations directorate sits at Gollapudi in the city, along with CBSE and ICSE schools, and our classes fit around any of them. We teach the programming itself rather than a second pass over the school computer paper."
+      },
+      {
+        "q": "Can VR Siddhartha or other Vijayawada engineering students join your courses?",
+        "a": "Yes. VR Siddhartha has taught engineering here since 1977, so the fundamentals are covered. What the college track adds is built work: real Python, Java, full-stack or AI/ML projects, carried to something that actually runs. A degree rarely shows that, which is exactly the gap it fills."
+      }
+    ],
+    "_sources": {
+      "VR Siddhartha Engineering College: first private engineering college in united Andhra Pradesh, founded 1977": "https://www.vrsiddhartha.ac.in/about-university/",
+      "Kanaka Durga temple on Indrakeeladri; Vijayawada the largest commercial centre and a major railway junction": "https://ntr.ap.gov.in/about-district/",
+      "BSEAP / Directorate of Government Examinations at Gollapudi, Vijayawada": "https://bse.ap.gov.in/",
+      "AP EAPCET conducted by JNTU Kakinada for APSCHE": "https://cets.apsche.ap.gov.in/EAPCET/EAPCET_HomePage.aspx"
+    },
+    "_excluded": "SRM University-AP and VIT-AP are in the Amaravati capital region (Mangalagiri/Guntur side), not Vijayawada city (geography). Kanaka Durga 'second largest temple in Andhra Pradesh' is not claimed (aggregator-only). Vijayawada's 626 AD founding is Wikipedia-only. VRSEC 'deemed university 2024' was a search snippet only, unconfirmed, so not asserted."
+  },
+  "srinagar": {
+    "lede": "Srinagar keeps its main campuses on the water. NIT Srinagar, set up in 1960, stands on the banks of Dal Lake with the Hazratbal shrine across from it, and the University of Kashmir sits at Hazratbal too, flanked by the Dal and Nigeen lakes, with roots in a university founded in 1948. Jammu and Kashmir became a Union Territory in 2019, and its school board is JKBOSE. For engineering, admission runs through JKBOPEE, which conducts the entrance and counselling for the region's colleges rather than leaving it to JEE Main alone.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to JKBOSE students in Srinagar?",
+        "a": "Yes. Srinagar schools run the Jammu and Kashmir board, JKBOSE, along with CBSE schools, and our classes are live online and fit around either. We teach the programming itself, Python or Java, so the school computer paper stops being a subject to memorise."
+      },
+      {
+        "q": "Can NIT Srinagar or University of Kashmir students join your programming courses?",
+        "a": "Yes. NIT Srinagar has run since 1960 and the University of Kashmir traces to 1948, so the theory is well taught. The college track adds the applied half: real Python, Java, full-stack or AI/ML work, built until it runs and can be linked to in an interview."
+      }
+    ],
+    "_sources": {
+      "NIT Srinagar established 1960, on the banks of Dal Lake with the Hazratbal shrine opposite": "https://nitsri.ac.in/",
+      "University of Kashmir at Hazratbal, Srinagar; University of Jammu and Kashmir founded 1948": "http://kucms.uok.edu.in/Main/AboutUs.aspx",
+      "Jammu and Kashmir became a Union Territory on 31 October 2019": "https://jklokbhavan.nic.in/aboutjk/",
+      "J&K State Board of School Education (JKBOSE)": "https://jkbose.jk.gov.in/introduction.html",
+      "B.E./B.Tech admission for J&K via JKBOPEE": "https://jkbopee.gov.in/"
+    },
+    "_excluded": "IUST is at Awantipora (Pulwama), about 40 km from Srinagar, not in the city (geography). Founding years for NIT Srinagar (1960) and the University of Kashmir (1948) are taken from the institutions' own sites, not aggregators. JEE Main alone is not stated as 'the' route, since J&K B.E./B.Tech admission runs through JKBOPEE."
+  },
+  "amritsar": {
+    "lede": "Amritsar is built around the Golden Temple, Sikhism's holiest shrine, and its education has deep roots too. Khalsa College was founded here in 1892 by the leaders of the Singh Sabha movement, and Guru Nanak Dev University was established in the city in 1969 to mark the 500th birth anniversary of Guru Nanak. The state school board is PSEB, headquartered at Mohali rather than Amritsar. For engineering, Punjab fills B.Tech seats on JEE Main scores through IKGPTU's centralised counselling, so the entrance is national even though the counselling is run within the state.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to PSEB students in Amritsar?",
+        "a": "Yes. Amritsar schools run the Punjab board, PSEB, along with CBSE and ICSE, and our classes fit around any of them. The board is headquartered at Mohali, not Amritsar. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Guru Nanak Dev University or Khalsa College students join your programming courses?",
+        "a": "Yes. GNDU has taught here since 1969 and Khalsa College since 1892, so the fundamentals are covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Guru Nanak Dev University established at Amritsar on 24 November 1969": "https://digital.gndu.ac.in/",
+      "Khalsa College founded 1892 by leaders of the Singh Sabha movement": "https://khalsacollege.edu.in/",
+      "The Golden Temple (Sri Harmandir Sahib) is in Amritsar": "https://www.incredibleindia.gov.in/en/punjab/amritsar/sri-harmandir-sahib-golden-temple",
+      "Punjab School Education Board (PSEB) at SAS Nagar, Mohali": "https://www.faq.pseb.ac.in/Help.htm",
+      "B.Tech seats on JEE Main via IKGPTU centralised counselling": "https://ptu.ac.in/admissions/"
+    },
+    "_excluded": "Guru Nanak Dev Engineering College (GNDEC) is in Ludhiana, not Amritsar (geography). GNDU's founding is taken from its own site, not aggregators. The Golden Temple location is cited to the Government of India Incredible India page because the SGPC page 403'd."
+  },
+  "jamshedpur": {
+    "lede": "Jamshedpur is India's first planned industrial city, built by Tata Steel around its works. The company was established in 1907 as Asia's first integrated private steel company, and it developed the city alongside the plant, which is why it is still called the Steel City. Education grew with it: XLRI, one of India's leading business schools, was founded here in 1949, and NIT Jamshedpur, an Institute of National Importance, has run since 1960. The state school board is the Jharkhand Academic Council, and B.Tech seats in the state are filled on JEE Main rank, with JCECEB running the counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Jharkhand Academic Council students in Jamshedpur?",
+        "a": "Yes. Jamshedpur schools run the Jharkhand Academic Council board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about."
+      },
+      {
+        "q": "Can NIT Jamshedpur or XLRI students join your programming courses?",
+        "a": "Yes. NIT Jamshedpur has run since 1960 and XLRI since 1949, so the theory and the management side are well covered. The college track adds engineering evidence: real Python, Java, full-stack or AI/ML work, built until it runs and can be opened by a recruiter."
+      }
+    ],
+    "_sources": {
+      "Tata Steel established 1907 as Asia's first integrated private steel company; developed India's first industrial city at Jamshedpur": "https://www.tatasteel.com/corporate/our-organisation/company-profile/",
+      "NIT Jamshedpur, Institute of National Importance, established 1960": "https://josaa.admissions.nic.in/seatinfo/root/InstProfile.aspx?instcd=219",
+      "XLRI founded 1949 in Jamshedpur": "https://acad.xlri.ac.in/isep/about-xlri.php",
+      "Jharkhand Academic Council (JAC)": "https://jac.jharkhand.gov.in/about-jac.html",
+      "B.Tech seats on JEE Main via JCECEB state merit list": "https://jceceb.jharkhand.gov.in/"
+    },
+    "_excluded": "'Founded by Jamsetji Tata' is not asserted: the Tata Steel page states the 1907 establishment but names no founder verbatim (Jamsetji conceived it; Sir Dorabji Tata actually established it). 'Tatanagar' as the city's name is not asserted (it is the railway station's name; no primary source confirmed it as the city name). XLRI 'oldest business school in India' is dropped (its own pages are JS-rendered; only the 1949 founding and Jamshedpur location are confirmed)."
   }
 }
