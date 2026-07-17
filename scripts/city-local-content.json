@@ -1700,5 +1700,177 @@
       "B.E./B.Tech via MHT-CET and the state CAP": "https://fe2026.mahacet.org/"
     },
     "_excluded": "The university's own history page gives 22 July 2004 (the aggregators' 1 August 2004 is discarded). The 'Asia's largest spinning mills' superlative is dropped (Wikipedia only). The Siddheshwar temple is not asserted (not primary-verified in this pass)."
+  },
+  "roorkee": {
+    "lede": "Roorkee owes its existence to engineering and water. IIT Roorkee, which its own history calls the oldest engineering college in India, grew out of the Thomason College built beside the Ganges Canal in the nineteenth century, and the town became the University of Roorkee before being made an IIT in 2001. The city still houses national laboratories: the Central Building Research Institute and the National Institute of Hydrology are both here. Schools follow the Uttarakhand board, UBSE, headquartered at Ramnagar in Nainital district, and engineering seats fill on JEE Main.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Uttarakhand Board students in Roorkee?",
+        "a": "Yes. Roorkee schools run the Uttarakhand board, UBSE, along with CBSE and ICSE, and our classes fit around any of them. The board is at Ramnagar in Nainital district, not Roorkee. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can IIT Roorkee students join your programming courses?",
+        "a": "Yes. IIT Roorkee is, by its own account, the oldest engineering college in India, so the theory is in the best of hands. The college track adds the applied, portfolio side: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "IIT Roorkee (Thomason College) the oldest engineering college in India, born of the Ganges Canal": "https://iitr.ac.in/Institute/History.html",
+      "University of Roorkee converted into an IIT by an Act of Parliament in 2001": "https://iitr.ac.in/Institute/About%20the%20Institute/Institute%20Time%20Capsule.html",
+      "CSIR-Central Building Research Institute (CBRI), Roorkee": "https://www.cbri.res.in/",
+      "National Institute of Hydrology (NIH), Roorkee": "https://nihroorkee.gov.in/",
+      "Uttarakhand board UBSE, Ramnagar (Nainital district)": "https://ubse.uk.gov.in/",
+      "B.Tech via JEE Main (NTA)": "https://nta.ac.in/Engineeringexam"
+    },
+    "_excluded": "The 'first engineering college in Asia / the British Empire, 1847' framing is not asserted (only secondary sources; IIT Roorkee's own pages say 'oldest engineering college in India'). The canal is named the 'Ganges Canal' per the primary source, not the modern 'Upper Ganga Canal'."
+  },
+  "ujjain": {
+    "lede": "Ujjain has kept time for India for over two thousand years. Ancient Hindu geographers ran their first meridian of longitude through the city, and its district administration still calls Ujjain India's Greenwich; the Vedh Shala observatory here was built in 1719 by Maharaja Jai Singh of Jaipur. The city is also one of Hinduism's holiest, home to the Mahakaleshwar Jyotirlinga and host to the Simhastha Kumbh on the Shipra every twelve years. Vikram University was established here in 1957. Schools follow the Madhya Pradesh board, MPBSE, and since the state runs no engineering entrance, B.Tech seats fill on JEE Main.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to MP Board students in Ujjain?",
+        "a": "Yes. Ujjain schools run the Madhya Pradesh board, MPBSE, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Vikram University students join your programming courses?",
+        "a": "Yes. Vikram University has served Ujjain since 1957, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Ujjain 'India's Greenwich' (first meridian); Vedh Shala observatory built 1719 by Maharaja Jai Singh (district portal)": "https://ujjain.nic.in/en/tourist-place/observatory/",
+      "Mahakaleshwar Jyotirlinga and the Simhastha (Kumbh) on the Shipra (MP Tourism)": "https://www.mptourism.com/destination-ujjain.php",
+      "Vikram University established in Ujjain on 1 March 1957": "https://vikramuniv.ac.in/",
+      "Madhya Pradesh board MPBSE, Bhopal": "https://www.mpbse.nic.in/",
+      "B.Tech via JEE Main (NTA); MP has no state engineering entrance": "https://nta.ac.in/Engineeringexam"
+    },
+    "_excluded": "The 'only working Jantar Mantar in India' and the exact Surya-Siddhanta zero-meridian/Tropic-of-Cancer intersection claims are not asserted (blog/secondary sources only). Vikram University's reported 2025 renaming is not asserted (news only)."
+  },
+  "siliguri": {
+    "lede": "Siliguri is the neck through which the whole Northeast connects. The Government of India describes it as the gateway to North East India and the transit point for air, road and rail traffic to Nepal, Bhutan and Bangladesh, and its economy runs on what is called the four Ts: tea, timber, tourism and transport. It is the trading and student city for the whole north of Bengal. Schools follow the West Bengal boards, WBBSE for Class 10 and WBCHSE for Plus Two, and engineering admission runs through the state entrance, WBJEE.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to West Bengal board students in Siliguri?",
+        "a": "Yes. Siliguri schools run the West Bengal boards, WBBSE for the Class 10 Madhyamik and WBCHSE for Plus Two, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "How does a Siliguri student get into engineering, and can college students join?",
+        "a": "West Bengal fills its engineering seats through its own state entrance, WBJEE, rather than JEE Main alone. College students anywhere in the north of Bengal are welcome on the college track: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Siliguri the gateway to North East India, transit point for Nepal/Bhutan/Bangladesh, economy on the '4 Ts' (Government of India, STPI)": "https://noida.stpi.in/en/about-siliguri",
+      "West Bengal Council of Higher Secondary Education (WBCHSE), Plus Two": "https://wbchse.wb.gov.in/brief-history-of-the-council/",
+      "West Bengal Board of Secondary Education (WBBSE), Class 10 Madhyamik": "https://wbbse.wb.gov.in/",
+      "WBJEE, the state engineering entrance, via WBJEEB": "https://wbjeeb.in/wbjee-exam/"
+    },
+    "_excluded": "The University of North Bengal is not asserted with a founding year (its own site returned 403; only Wikipedia carried the year). The 'Chicken's Neck' corridor and its width are not asserted (no primary source). Siliguri Tea Auction Centre and 'largest commercial centre' superlatives are dropped (secondary only)."
+  },
+  "udaipur": {
+    "lede": "Udaipur is the City of Lakes, founded by Maharana Udai Singh II in 1553 as a refuge for the Mewar dynasty, and its palaces and lakes still define it. Behind the tourism is a working education town: the College of Technology and Engineering, started in 1964, is a constituent college of Maharana Pratap University of Agriculture and Technology, which is based in the city. Schools follow the Rajasthan board, RBSE, which sits in Ajmer rather than Udaipur, and engineering seats fill through the state's REAP counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to RBSE students in Udaipur?",
+        "a": "Yes. Udaipur schools run the Rajasthan board, RBSE, along with CBSE and ICSE, and our classes fit around any of them. The board is based in Ajmer, not Udaipur. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can College of Technology and Engineering students join your programming courses?",
+        "a": "Yes. CTAE has taught here since 1964 as part of Maharana Pratap University, so the fundamentals are well covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Udaipur the 'City of Lakes', founded by Maharana Udai Singh II in 1553, refuge of the Mewar dynasty (Incredible India)": "https://www.incredibleindia.gov.in/en/rajasthan/udaipur",
+      "College of Technology and Engineering (CTAE), Udaipur, started 1964": "https://www.ctae.ac.in/",
+      "Maharana Pratap University of Agriculture and Technology (MPUAT), Udaipur": "https://www.mpuat.ac.in/",
+      "Rajasthan board RBSE, based in Ajmer": "https://rajeduboard.rajasthan.gov.in/",
+      "REAP engineering admission process, Rajasthan": "https://reaprajasthan.co.in/"
+    },
+    "_excluded": "Mohanlal Sukhadia University (1962) and IIM Udaipur (2011) are not asserted with founding years (both own sites returned 403). MPUAT's founding year is not asserted (not on the page fetched). REAP's JEE-Main basis is not asserted (no primary quote obtained)."
+  },
+  "navi-mumbai": {
+    "lede": "Navi Mumbai was built to order. Planned by CIDCO across a set of nodes such as Vashi, Nerul, Belapur and Ulwe, it is a distinct city from Mumbai, and it has just gained a new international airport at Ulwe, built to carry twenty million passengers a year in its first phase. Vashi holds the Mumbai APMC, the region's big wholesale agricultural market, and DY Patil University has been in Nerul since 1983. Schools follow the Maharashtra state board, and engineering admission is MHT-CET through the state's centralised process.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Maharashtra board students in Navi Mumbai?",
+        "a": "Yes. Navi Mumbai schools run the Maharashtra state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about."
+      },
+      {
+        "q": "Can DY Patil University students join your programming courses?",
+        "a": "Yes. DY Patil University has been in the Nerul node since 1983, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Navi Mumbai International Airport at Ulwe, developed by NMIAL (MIAL + CIDCO), 20 MPPA first phase": "https://navimumbai.adaniairports.com/en/about-us",
+      "Navi Mumbai a CIDCO-planned node city (Vashi, Nerul, Belapur, Kharghar, Ulwe)": "https://cidco.maharashtra.gov.in/Page?Token=831AAA8551",
+      "DY Patil (Deemed to be) University in the Nerul node of Navi Mumbai, since 1983": "https://dypatil.edu/",
+      "Mumbai APMC wholesale market, head office in the Vashi node": "https://apmcmumbai.in/en",
+      "Maharashtra State Board (MSBSHSE), Pune": "https://sscboardpune.in/",
+      "B.E./B.Tech via MHT-CET and the state CAP": "https://fe2026.mahacet.org/"
+    },
+    "_excluded": "The 'largest planned city in the world' superlative and a 1972 founding date are not asserted (secondary sources). DY Patil's 2002 deemed-university year is not asserted (its own site says only 'since its inception in 1983'). The Vashi APMC 'largest in India' superlative is dropped."
+  },
+  "kolhapur": {
+    "lede": "Kolhapur carries the Chhatrapati legacy and its own crafts. The Mahalaxmi, or Ambabai, temple here is one of Maharashtra's four Shakti Peethas, and the New Palace, built in the 1880s, is still the residence of the Chhatrapati of Kolhapur. The city's name is a mark of quality: both the Kolhapuri Chappal, the handcrafted leather sandal, and Kolhapur Jaggery carry a Geographical Indication tag from the Government of India. Shivaji University has served the region since 1962. Schools follow the Maharashtra state board through its Kolhapur divisional office, and engineering admission is MHT-CET through the state's process.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Maharashtra board students in Kolhapur?",
+        "a": "Yes. Kolhapur has its own divisional office of the Maharashtra state board, and CBSE and ICSE schools run here too. Our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Shivaji University students join your programming courses?",
+        "a": "Yes. Shivaji University has served Kolhapur since 1962, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Mahalaxmi (Ambabai) temple, one of Maharashtra's four Shakti Peethas (Incredible India)": "https://www.incredibleindia.gov.in/en/maharashtra/kolhapur/mahalaxmi-temple",
+      "Shivaji University, Kolhapur, established 1962": "https://www.unishivaji.ac.in/",
+      "Kolhapuri Chappal and Kolhapur Jaggery, both Registered Geographical Indications (IP India registry)": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "The New Palace, still the residence of the Chhatrapati of Kolhapur (Incredible India)": "https://www.incredibleindia.gov.in/en/maharashtra/kolhapur/new-palace",
+      "Maharashtra State Board, Kolhapur divisional board": "https://boardmarksheet.maharashtra.gov.in/emarksheet/DIV_KOLHAPUR.jsp",
+      "B.E./B.Tech via MHT-CET and the state CAP": "https://fe2026.mahacet.org/"
+    },
+    "_excluded": "Panhala Fort is about 20 km northwest of the city in Panhala town, so it is not presented as a Kolhapur-city fact (geography). Shahu Maharaj's 1902 reservation order 'one of the earliest in the world' and the chappal's '12th-century origin' are dropped (secondary sources only); the GI facts come from the official IP India registry."
+  },
+  "tirunelveli": {
+    "lede": "Tirunelveli sits on the Thamirabarani, one of Tamil Nadu's few perennial rivers, and grew around the Nellaiyappar temple in its old town. Its education is anchored by Manonmaniam Sundaranar University, established in 1990 to serve the southern districts, and the Government College of Engineering, Tirunelveli, which has taught since 1981. The Tamil Nadu board keeps one of its regional examination offices in the city. Schools follow the Tamil Nadu state board, and engineering admission is TNEA, the state's single-window counselling on Class 12 marks rather than an entrance exam.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Tamil Nadu board students in Tirunelveli?",
+        "a": "Yes. Tirunelveli schools run the Tamil Nadu state board, which keeps a regional examinations office in the city, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Manonmaniam Sundaranar University or GCE Tirunelveli students join your programming courses?",
+        "a": "Yes. MSU dates to 1990 and the Government College of Engineering to 1981, so the fundamentals are well covered. The college track adds the built work a transcript never shows: real Python, Java, full-stack or AI/ML, carried to something that runs."
+      }
+    ],
+    "_sources": {
+      "Manonmaniam Sundaranar University, Tirunelveli, established 7 September 1990": "https://www.msuniv.ac.in/msuniv_history.php",
+      "Government College of Engineering, Tirunelveli, established 1981": "https://www.gcetly.ac.in/about.php",
+      "Nellaiyappar temple, Tirunelveli town (district portal)": "https://tirunelveli.nic.in/arulmigu-nellaiyappar-arultharum-gandhimathi-amman-temple-tirunelveli-town/",
+      "The perennial Thambraparani (Thamirabarani) river (district portal)": "https://tirunelveli.nic.in/pwd-thambraparani-irrigation-system/",
+      "Tamil Nadu Directorate of Government Examinations, regional office at Tirunelveli": "https://dge.tn.gov.in/aboutus.html",
+      "TNEA single-window counselling (Anna University Centre for Admissions)": "https://cfa.annauniv.edu/cfa/"
+    },
+    "_excluded": "Tirunelveli halwa is not asserted (no primary/official source opened this pass). MSU's coverage is stated as 'the southern districts' per its own site (which says three, not the third-party 'four'). The exact TNEA marks-only formula is not asserted (the official TNEA portal did not open)."
+  },
+  "salem": {
+    "lede": "Salem is a hill-ringed industrial and farming city in western Tamil Nadu. It is India's sago capital, where the district administration says over eighty per cent of the country's sago is made from tapioca starch, and it is known for its Malgoa mangoes, its silk and cotton weaving, and the Salem Steel Plant. Its main institutions are the Government College of Engineering, Salem, which opened in 1966, and Periyar University, established in 1997. Schools follow the Tamil Nadu state board, and engineering admission is TNEA, the state's single-window counselling on Class 12 marks.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Tamil Nadu board students in Salem?",
+        "a": "Yes. Salem schools run the Tamil Nadu state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Government College of Engineering Salem or Periyar University students join your programming courses?",
+        "a": "Yes. GCE Salem has taught since 1966 and Periyar University since 1997, so the fundamentals are well covered. The college track adds the built work a transcript never shows: real Python, Java, full-stack or AI/ML, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Salem produces over 80% of India's sago (district portal)": "https://salem.nic.in/about-district/geographical-indications/",
+      "Salem's Malgoa mango and its silk/cotton weaving; the Salem Steel Plant (district portal)": "https://salem.nic.in/about-district/",
+      "Government College of Engineering, Salem, started 1966": "https://gcesalem.edu.in/genesis",
+      "Periyar University established in Salem on 17 September 1997": "https://www.periyaruniversity.ac.in/",
+      "Tamil Nadu Directorate of Government Examinations (state board)": "https://dge.tn.gov.in/aboutus.html",
+      "TNEA single-window counselling (Anna University Centre for Admissions)": "https://cfa.annauniv.edu/cfa/"
+    },
+    "_excluded": "The 'Steel City' and 'Mango City' nicknames are not asserted (not on the official pages). Salem's magnesite 'hub' superlative and specific tonnage are dropped. GI-registration status for Salem sago and mango is left out (the district page shows them as under review, only Salem fabric/silk as registered). GCE Salem's Anna University affiliation is not asserted (its own site emphasises autonomy)."
   }
 }
