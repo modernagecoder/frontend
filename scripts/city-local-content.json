@@ -2223,5 +2223,106 @@
       "TG EAPCET (Telangana Engineering, Agriculture and Pharmacy Common Entrance Test)": "https://eapcet.tgche.ac.in/"
     },
     "_excluded": "Telangana University's campus is at Dichpally, on the edge of Nizamabad, stated honestly. Exact market-turnover and turmeric-tonnage figures are not asserted (kept qualitative from the district portal)."
+  },
+  "haridwar": {
+    "lede": "Haridwar is one of Hinduism's holiest cities, the place where the Ganges leaves the mountains for the plains at Har Ki Pauri, and every twelve years it hosts the Kumbh Mela on those banks. It has a long educational tradition too: Gurukul Kangri, now a deemed university, was founded here in 1902 to revive the ancient gurukula system of learning. On the industrial side, BHEL built one of independent India's great heavy-engineering plants at Ranipur in Haridwar. Schools follow the Uttarakhand board, UBSE, based at Ramnagar, and engineering seats fill on JEE Main.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Uttarakhand Board students in Haridwar?",
+        "a": "Yes. Haridwar schools run the Uttarakhand board, UBSE, along with CBSE and ICSE, and our classes fit around any of them. The board is at Ramnagar, not Haridwar. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Gurukul Kangri University students join your programming courses?",
+        "a": "Yes. Gurukul Kangri has taught here since 1902 and now runs engineering and science departments, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Gurukul Kangri (Deemed to be University), Haridwar, founded 1902 by Swami Shraddhanand": "https://www.gkv.ac.in/",
+      "Har Ki Pauri, where the Ganges enters the plains, host to the Kumbh Mela (Incredible India)": "https://www.incredibleindia.gov.in/en/uttarakhand/haridwar/har-ki-pauri",
+      "BHEL's Haridwar plants (HEEP and CFFP) at Ranipur": "https://hwr.bhel.com/",
+      "Uttarakhand board UBSE, Ramnagar (Nainital district)": "https://ubse.uk.gov.in/",
+      "B.Tech via JEE Main (NTA)": "https://nta.ac.in/Engineeringexam"
+    },
+    "_excluded": "Patanjali Yogpeeth (2006) is a real Haridwar institution but not made the lead here. The Kumbh's exact pilgrim counts are not asserted. UBSE is at Ramnagar, not Haridwar."
+  },
+  "rishikesh": {
+    "lede": "Rishikesh is known as the yoga capital of the world, a town on the Ganga at the foothills of the Himalayas and the traditional starting point for the Char Dham pilgrimage to Yamunotri, Gangotri, Kedarnath and Badrinath. Its old landmark is the Lakshman Jhula suspension bridge across the river. The city also holds AIIMS Rishikesh, one of the national medical institutes set up under the PMSSY scheme. Schools follow the Uttarakhand board, UBSE, based at Ramnagar, and engineering seats fill on JEE Main.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Uttarakhand Board students in Rishikesh?",
+        "a": "Yes. Rishikesh schools run the Uttarakhand board, UBSE, along with CBSE and ICSE, and our classes are live online and fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can college students in Rishikesh join your programming courses?",
+        "a": "Yes. Whether you study at AIIMS Rishikesh or an engineering college nearby, the college track is the same: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter. A transcript rarely shows built work, and that is the gap we fill."
+      }
+    ],
+    "_sources": {
+      "Rishikesh, the yoga capital of the world and starting point of the Char Dham Yatra (Incredible India)": "https://www.incredibleindia.gov.in/en/uttarakhand/rishikesh",
+      "AIIMS Rishikesh, established under the PMSSY scheme": "https://www.aiimsrishikesh.edu.in/",
+      "Uttarakhand board UBSE, Ramnagar (Nainital district)": "https://ubse.uk.gov.in/",
+      "B.Tech via JEE Main (NTA)": "https://nta.ac.in/Engineeringexam"
+    },
+    "_excluded": "AIIMS Rishikesh's exact founding year is not asserted (kept to its PMSSY origin). The Lakshman Jhula bridge was closed in 2022; it is named as the old landmark, not as currently open. UBSE is at Ramnagar, not Rishikesh."
+  },
+  "haldwani": {
+    "lede": "Haldwani is the commercial heart of the Kumaon hills. The largest city of the Kumaon region, it sits in the foothills and is long known as the gateway to Kumaon, the point where the plains give way to the mountains, and it is one of the busiest trading and transport hubs of the Uttarakhand plains. Uttarakhand Open University, set up in 2005, is based here. Schools follow the Uttarakhand board, UBSE, based at Ramnagar, and engineering seats fill on JEE Main.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Uttarakhand Board students in Haldwani?",
+        "a": "Yes. Haldwani schools run the Uttarakhand board, UBSE, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Uttarakhand Open University students join your programming courses?",
+        "a": "Yes. Uttarakhand Open University has been based in Haldwani since 2005, and college students anywhere in Kumaon are welcome. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Uttarakhand Open University, established 2005, based at Haldwani": "https://www.uou.ac.in/",
+      "Uttarakhand board UBSE, Ramnagar (Nainital district)": "https://ubse.uk.gov.in/",
+      "B.Tech via JEE Main (NTA)": "https://nta.ac.in/Engineeringexam"
+    },
+    "_excluded": "The 'financial capital of Uttarakhand' superlative is not asserted (secondary sources); Haldwani's role as the largest Kumaon city and commercial hub is stated qualitatively. The 'gateway of Kumaon' description centres on the Kathgodam side of the city."
+  },
+  "gaya": {
+    "lede": "Gaya is one of the great pilgrimage cities of India, sacred to two faiths at once. Just outside it at Bodh Gaya stands the Mahabodhi temple, built where the Buddha attained enlightenment, which UNESCO inscribed as a World Heritage Site in 2002, while in the city itself the Vishnupad temple on the Phalgu river is a major centre for Hindu shraddha rites. Magadh University, established in 1962, serves the region from Bodh Gaya. Schools follow the Bihar board, BSEB, and engineering seats fill on JEE Main through UGEAC counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Bihar board students in Gaya?",
+        "a": "Yes. Gaya schools run the Bihar board, BSEB, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Magadh University students join your programming courses?",
+        "a": "Yes. Magadh University has served the region from Bodh Gaya since 1962, so the theory is close at hand. One useful note: Bihar fills engineering seats through UGEAC on JEE Main rank, not the BCECE exam. The college track adds real Python, Java, full-stack or AI/ML work, built until it runs."
+      }
+    ],
+    "_sources": {
+      "Mahabodhi Temple Complex at Bodh Gaya, near Gaya, a UNESCO World Heritage Site (inscribed 2002)": "https://whc.unesco.org/en/list/1056/",
+      "Vishnupad Temple, Gaya, on the Phalgu river, a centre for shraddha rites (Bihar Tourism)": "https://tourism.bihar.gov.in/en/destinations/gaya/vishnupad-temple",
+      "Magadh University, established 1962, Bodh Gaya": "https://www.mueducation.ac.in/Magadh_University.aspx",
+      "Bihar School Examination Board (BSEB)": "https://biharboardonline.com/",
+      "UGEAC engineering admission on JEE Main rank": "https://bceceboard.bihar.gov.in/UGEACIndex.php"
+    },
+    "_excluded": "The Mahabodhi temple is at Bodh Gaya, about 16 km from Gaya city, stated honestly. BCECE is not the engineering route: Bihar fills B.Tech seats through UGEAC on JEE Main. The recent 'Gaya Ji' renaming is not made the lead."
+  },
+  "darbhanga": {
+    "lede": "Darbhanga is the seat of Mithila, the old cultural region whose language is Maithili and whose best-known art is Madhubani painting. The city was the capital of the Darbhanga Raj, once among the largest zamindaris of North Bihar, and its former royal palace grounds now hold Lalit Narayan Mithila University, established in 1972. Darbhanga is also getting the second AIIMS of Bihar, whose foundation stone was laid in 2024. Schools follow the Bihar board, BSEB, and engineering seats fill on JEE Main through UGEAC counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Bihar board students in Darbhanga?",
+        "a": "Yes. Darbhanga schools run the Bihar board, BSEB, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Lalit Narayan Mithila University students join your programming courses?",
+        "a": "Yes. Lalit Narayan Mithila University has served Darbhanga since 1972, so the theory is close at hand. Bihar fills engineering seats through UGEAC on JEE Main rank, and the college track adds the built work a transcript never shows: real Python, Java, full-stack or AI/ML, carried to something that runs."
+      }
+    ],
+    "_sources": {
+      "Lalit Narayan Mithila University, Darbhanga, established 5 August 1972 (on the former Raj Darbhanga palace grounds)": "https://lnmuonline.in/",
+      "AIIMS Darbhanga, the second AIIMS of Bihar (foundation stone laid 2024)": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-establishment-of-new-all-india-institute-of-medical-sciences-aiims-at-darbhanga-bihar/",
+      "Bihar School Examination Board (BSEB)": "https://biharboardonline.com/",
+      "UGEAC engineering admission on JEE Main rank": "https://bceceboard.bihar.gov.in/UGEACIndex.php"
+    },
+    "_excluded": "AIIMS Darbhanga is under construction; it is described as the second AIIMS of Bihar with its 2024 foundation stone, not as operational. The Madhubani-painting and Maithili references are cultural context for the Mithila region centred on Darbhanga, not asserted as city institutions."
   }
 }
