@@ -1376,5 +1376,158 @@
       "TNEA single-window counselling (Anna University Centre for Admissions)": "https://cfa.annauniv.edu/cfa/"
     },
     "_excluded": "The 'no entrance exam, Class 12 marks only' specifics of TNEA are not asserted (the official TNEA portal did not open; only the single-window-counselling mechanism is confirmed). The Meenakshi temple's gopuram counts and heights are not asserted (available only in Tamil, not character-exact). Madurai Kamaraj University's own site gives 1965 (Act year), so the conflicting 1966 is not used."
+  },
+  "gwalior": {
+    "lede": "Gwalior wears its Scindia past in its institutions. The Scindia maharaja Jiwaji Rao founded Madhav Institute of Technology and Science here in 1957, and it was declared a deemed university in 2024. The city also holds ABV-IIITM, an Institute of National Importance set up in 1997, and Jiwaji University, which came into existence in 1964. Above it all stands Gwalior Fort, which the district calls the city's most significant monument. Schools follow the Madhya Pradesh board, MPBSE, based in Bhopal, and since the state runs no engineering entrance of its own, B.Tech seats fill on JEE Main.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to MP Board students in Gwalior?",
+        "a": "Yes. Gwalior schools run the Madhya Pradesh board, MPBSE, along with CBSE and ICSE, and our classes fit around any of them. The board is based in Bhopal. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can ABV-IIITM or MITS Gwalior students join your programming courses?",
+        "a": "Yes. ABV-IIITM has been an Institute of National Importance since 1997 and MITS has taught here since 1957, so the theory is in good hands. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "ABV-IIITM Gwalior, an Institute of National Importance, established 1997": "https://www.iiitm.ac.in/",
+      "MITS Gwalior established 1957 by Jiwaji Rao Scindia, Maharaja of the erstwhile state of Gwalior": "https://web.mitsgwalior.in/about-institute/about-mits",
+      "MITS Gwalior declared a deemed university in 2024": "https://www.mitsgwalior.in/",
+      "Jiwaji University, Gwalior, came into existence 1964": "https://www.jiwaji.edu/",
+      "Gwalior Fort, the city's most significant monument (district portal)": "https://gwalior.nic.in/en/tourist-place/the-fort/",
+      "Madhya Pradesh board MPBSE, Bhopal": "https://mpbse.nic.in/",
+      "B.Tech via JEE Main (NTA); MP has no state engineering entrance": "https://nta.ac.in/Engineeringexam"
+    },
+    "_excluded": "Madhya Pradesh runs no state engineering entrance, so B.Tech is on JEE Main. The Jai Vilas / Daulat Rao Scindia detail is dropped (search-snippet only); the Scindia link is instead sourced to MITS's own founder statement."
+  },
+  "mangalore": {
+    "lede": "Mangaluru is Karnataka's coastal education and trade hub. NITK, one of the national institutes, began as Karnataka Regional Engineering College in 1960 and became an NIT in 2002; its own site places it in Mangalore City, though the campus sits at Surathkal on the northern edge. Mangalore University runs from Konaje, about twenty kilometres out, and St Aloysius has taught here since 1880, now as a deemed university. The New Mangalore Port at Panambur is the only major port in Karnataka. Schools follow the Karnataka board, and engineering seats are filled through KCET, conducted by the Karnataka Examinations Authority.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Karnataka board students in Mangalore?",
+        "a": "Yes. Mangaluru schools run the Karnataka state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about."
+      },
+      {
+        "q": "Can NITK Surathkal or St Aloysius students join your programming courses?",
+        "a": "Yes. NITK traces to 1960 and St Aloysius to 1880, so the fundamentals are well covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "NITK established as Karnataka Regional Engineering College 1960, upgraded to NIT 2002, 'located in Mangalore City'": "https://www.nitk.ac.in/about_us",
+      "Mangalore University campus at Mangalagangothri (Konaje), about 20 km from the city, independent since 1980": "https://www.mangaloreuniversity.ac.in/history-and-evolution",
+      "St Aloysius (Deemed to be University), Mangaluru, since 1880": "https://staloysius.edu.in/",
+      "New Mangalore Port at Panambur, the only major port of Karnataka": "https://newmangaloreport.gov.in/brief-history",
+      "Karnataka School Examination and Assessment Board (KSEAB)": "https://kseab.karnataka.gov.in/english",
+      "KCET via the Karnataka Examinations Authority (KEA)": "https://cetonline.karnataka.gov.in/kea/"
+    },
+    "_excluded": "NITK's campus is stated honestly as being at Surathkal on the city's northern edge (its own site nonetheless says 'located in Mangalore City'). Mangalore University's main campus is at Konaje, about 20 km out, not downtown. The Karnataka Bank 'cradle of banking' identity is dropped (its own site returned 403)."
+  },
+  "warangal": {
+    "lede": "Warangal was the twelfth-century capital of the Kakatiya dynasty, and its Kakatiya heritage still defines it: the Warangal Fort, the Thousand Pillar Temple at Hanamkonda, and the Kakatiya Kala Thoranam arch that appears on the Telangana state emblem. Its modern claim is education. NIT Warangal, whose foundation stone Jawaharlal Nehru laid on 10 October 1959, was the first in the country's chain of RECs and NITs, and Kakatiya University has served the region since 1976. Schools follow the Telangana board, and engineering admission is TG EAPCET, conducted by JNTU Hyderabad for the state council.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Telangana board students in Warangal?",
+        "a": "Yes. Warangal schools run the Telangana board, BSE Telangana for Class 10 and TGBIE for Intermediate, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can NIT Warangal or Kakatiya University students join your programming courses?",
+        "a": "Yes. NIT Warangal was the first in the country's chain of NITs, dating to 1959, and Kakatiya University has served the region since 1976, so the theory is well taught. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs."
+      }
+    ],
+    "_sources": {
+      "NIT Warangal, foundation stone laid by Jawaharlal Nehru on 10 October 1959, the first in the chain of NITs (formerly RECs)": "https://nitw.ac.in/aboutus",
+      "Kakatiya University, Warangal, established 19 August 1976": "https://www.kakatiya.ac.in/",
+      "Warangal Fort (12th-century Kakatiya), the Thousand Pillar Temple, and the Kakatiya Kala Thoranam on the Telangana emblem (Incredible India)": "https://www.incredibleindia.gov.in/en/telangana/warangal",
+      "Board of Secondary Education, Telangana (SSC)": "https://bse.telangana.gov.in/",
+      "TG EAPCET conducted by JNTU Hyderabad for TGCHE": "https://eapcet.tgche.ac.in/"
+    },
+    "_excluded": "The Ramappa Temple (UNESCO) is at Palampet in Mulugu district, about 65 km away, not in Warangal city (geography). NIT Warangal's 'Institute of National Importance (2007)' status is not asserted (not on the primary about page in this pass). The Telangana emblem's designer and adoption date are not asserted (secondary sources only)."
+  },
+  "jammu": {
+    "lede": "Jammu is the City of Temples and the winter capital of Jammu and Kashmir, the place government offices move to from Srinagar every November in the old Darbar Move. Its main university, the University of Jammu, came into existence in 1969, and IIT Jammu has built its permanent campus at Jagti, Nagrota, on the edge of the city. Jammu and Kashmir was reorganised into a Union Territory in 2019. Schools follow the J&K board, JKBOSE, and engineering admission runs through the Common Entrance Test conducted by JKBOPEE.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to JKBOSE students in Jammu?",
+        "a": "Yes. Jammu schools run the Jammu and Kashmir board, JKBOSE, along with CBSE schools, and our classes are live online and fit around either. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can University of Jammu or IIT Jammu students join your programming courses?",
+        "a": "Yes. The University of Jammu dates to 1969 and IIT Jammu sits at Jagti near Nagrota, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "University of Jammu came into existence 1969": "https://www.jammuuniversity.ac.in/university/about-university",
+      "Jammu known as the 'City of Temples' (district portal)": "https://jammu.nic.in/about-district/",
+      "Jammu the winter capital of J&K (Darbar Move, Nov-Apr)": "https://jammu.nic.in/history/",
+      "IIT Jammu permanent campus at Jagti, NH-44, Nagrota, Jammu": "https://iitjammu.ac.in/",
+      "Jammu and Kashmir reorganised as a Union Territory on 31 October 2019": "https://jktpo.jk.gov.in/",
+      "J&K Board of School Education (JKBOSE)": "http://jkbose.jk.gov.in/",
+      "Engineering Common Entrance Test via JKBOPEE": "https://www.jkbopee.gov.in/"
+    },
+    "_excluded": "The Vaishno Devi shrine is at Katra in Reasi district, not in Jammu city (geography). JKBOSE's specific street addresses are not asserted (only secondary sources give them). The UT-2019 date is cited to a Government of J&K document because the MHA page returned 403."
+  },
+  "gorakhpur": {
+    "lede": "Gorakhpur takes its name from the medieval saint Gorakhnath, whose temple, the Gorakhnath Math, still stands in the city, and it is also the headquarters of the North Eastern Railway zone. On the education side, Deen Dayal Upadhyaya Gorakhpur University has been here since 1957, and Madan Mohan Malaviya University of Technology was created in 2013 out of the old Malaviya Engineering College of 1962. Schools follow the UP Board, UPMSP, seated in Prayagraj, and engineering seats fill on JEE Main rank through UPTAC counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to UP Board students in Gorakhpur?",
+        "a": "Yes. Gorakhpur schools run the UP Board, UPMSP, along with CBSE and ICSE, and our classes fit around any of them. The board is seated in Prayagraj. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can MMMUT or DDU Gorakhpur University students join your programming courses?",
+        "a": "Yes. MMMUT became a technical university in 2013, built on an engineering college running since 1962, and DDU Gorakhpur University dates to 1957, so the theory is well taught. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs."
+      }
+    ],
+    "_sources": {
+      "Madan Mohan Malaviya University of Technology established 2013 (from the 1962 Malaviya Engineering College)": "https://www.mmmut.ac.in/gtss2026/aboutMMMUT.html",
+      "Deen Dayal Upadhyaya Gorakhpur University, established 1957": "https://ddugu.ac.in/university-at-glance.php",
+      "Gorakhpur named after the saint Gorakhnath; the Gorakhnath Temple is in the city (district portal)": "https://gorakhpur.nic.in/tourist-place/gorakhnath-temple/",
+      "North Eastern Railway headquartered at Gorakhpur (Indian Railways)": "https://ner.indianrailways.gov.in/view_section.jsp?lang=0&id=0,1,283",
+      "UP Board UPMSP, Prayagraj": "https://upmsp.edu.in/",
+      "B.Tech on JEE Main via UPTAC counselling": "https://uptac.admissions.nic.in/entrance-examinations/"
+    },
+    "_excluded": "The 'world's longest railway platform' claim is not asserted (it is outdated: Hubballi Junction became the longest in 2021). DDUGU 'first university of eastern UP' superlative is dropped (not on its own site). MMMUT-specific counselling attribution is left general (JEE Main via UPTAC)."
+  },
+  "vellore": {
+    "lede": "Vellore is defined by two very different institutions. Christian Medical College, founded by Ida Scudder in 1900, grew from a single-bed clinic into one of the country's foremost medical schools and hospitals, and VIT, founded in 1984 as Vellore Engineering College, became one of India's best-known private engineering universities. The old Vellore Fort, built by the Nayak rulers in the sixteenth century, still holds the Jalakandeswarar temple under the care of the Archaeological Survey of India. Schools follow the Tamil Nadu state board, and while the state route is TNEA single-window counselling, VIT admits through its own VITEEE exam.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Tamil Nadu board students in Vellore?",
+        "a": "Yes. Vellore schools run the Tamil Nadu state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can VIT or CMC Vellore students join your programming courses?",
+        "a": "Yes. VIT has taught engineering here since 1984, admitting through its own VITEEE exam, while state colleges fill on TNEA counselling. Whichever route a student came in by, the college track adds the built work a transcript never shows: real Python, Java, full-stack or AI/ML, carried to something that runs."
+      }
+    ],
+    "_sources": {
+      "VIT (Vellore Institute of Technology) founded 1984 as Vellore Engineering College": "https://vit.ac.in/about",
+      "Christian Medical College (CMC) Vellore established 1900 by Ida Sophia Scudder": "https://www.cmch-vellore.edu/about-us/",
+      "Vellore Fort built by the Nayak rulers (16th century); fort and Jalakandeswarar temple preserved by the ASI (district portal)": "https://vellore.nic.in/archaeological-survey-of-india-asi-protected-monuments/",
+      "VIT admits via its own VITEEE entrance exam": "https://viteee.vit.ac.in/",
+      "Tamil Nadu State Board examinations (DGE)": "https://apply1.tndge.org/ta/contact-us",
+      "TNEA single-window counselling (Directorate of Technical Education)": "https://dte.tn.gov.in/Homepage"
+    },
+    "_excluded": "Thiruvalluvar University is not asserted (its own site returned 403 and its campus is at Serkadu, about 16 km from the city). The exact TNEA marks-only formula is not asserted (only secondary sources state it). VIT's NIRF/ranking superlatives are not asserted."
+  },
+  "jalandhar": {
+    "lede": "Jalandhar is where India makes its sports gear. When craftsmen moved across from Sialkot after Partition, the country's sports-goods industry settled here, and the district's own portal records that the industry is concentrated in Jalandhar and Meerut. The city's engineering anchor is Dr B.R. Ambedkar NIT Jalandhar, which began as the Punjab Regional Engineering College in 1987 and became a National Institute of Technology in 2002. Schools follow the Punjab board, PSEB, headquartered at Mohali, and engineering seats fill on JEE Main rank through IKGPTU's centralised counselling. Lovely Professional University, often linked with the city, is actually at Phagwara, not in Jalandhar.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to PSEB students in Jalandhar?",
+        "a": "Yes. Jalandhar schools run the Punjab board, PSEB, along with CBSE and ICSE, and our classes fit around any of them. The board is headquartered at Mohali. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Dr B.R. Ambedkar NIT Jalandhar students join your programming courses?",
+        "a": "Yes. NIT Jalandhar grew out of the Punjab Regional Engineering College of 1987 and became a National Institute of Technology in 2002, so the theory is in good hands. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown."
+      }
+    ],
+    "_sources": {
+      "Jalandhar the base of India's sports-goods industry, concentrated in Jalandhar and Meerut (district Sports Hub portal)": "https://jalandhar.nic.in/sportshub/",
+      "Dr B.R. Ambedkar NIT Jalandhar, from the Punjab Regional Engineering College (1987), a National Institute of Technology since 2002": "https://www.nitj.ac.in/",
+      "Punjab School Education Board (PSEB), Mohali": "https://www.pseb.ac.in/",
+      "B.Tech seats on JEE Main via IKGPTU centralised counselling": "https://ptu.ac.in/admissions/"
+    },
+    "_excluded": "Lovely Professional University is at Phagwara (Kapurthala district), not Jalandhar city (geography). Guru Nanak Dev University is in Amritsar, not Jalandhar. The sports-goods turnover and market-share percentages are not asserted (kept general). NIT Jalandhar's founding is corroborated via search because nitj.ac.in redirect-loops on direct fetch; the fact and canonical source are sound."
   }
 }
