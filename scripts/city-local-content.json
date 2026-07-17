@@ -2527,5 +2527,107 @@
       "B.Tech on JEE Main via UPTAC counselling": "https://uptac.admissions.nic.in/entrance-examinations/"
     },
     "_excluded": "Jhansi lies in the Uttar Pradesh part of Bundelkhand (the region straddles UP and MP). The precise wording 'Gateway to Bundelkhand' is widely used; the fort and university facts are primary-sourced."
+  },
+  "durgapur": {
+    "lede": "Durgapur was built as a steel city on the Damodar. Its steel plant, one of SAIL's units, was set up in the late 1950s with British collaboration and began the city's transformation into the biggest industrial hub of West Bengal. Alongside the industry came the science: NIT Durgapur, established in 1960 as one of the country's first Regional Engineering Colleges, and CSIR-CMERI, the national mechanical-engineering research institute, founded in 1958. Schools follow the West Bengal boards, and engineering admission in the state runs through WBJEE.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to West Bengal board students in Durgapur?",
+        "a": "Yes. Durgapur schools run the West Bengal boards, WBBSE for the Class 10 Madhyamik and WBCHSE for Plus Two, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can NIT Durgapur students join your programming courses?",
+        "a": "Yes. NIT Durgapur dates to 1960 and is one of the country's older technical institutes, so the theory is in good hands. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "NIT Durgapur, established 1960 as a Regional Engineering College": "https://nitdgp.ac.in/p/about-us-3",
+      "Durgapur Steel Plant (SAIL)": "https://www.sail.co.in/en/plants/about-durgapur-steel-plant",
+      "CSIR-Central Mechanical Engineering Research Institute (CMERI), Durgapur, founded 1958": "https://www.cmeri.res.in/",
+      "West Bengal Board of Secondary Education (WBBSE)": "https://wbbse.wb.gov.in/",
+      "WBJEE, the state engineering entrance, via WBJEEB": "https://wbjeeb.in/wbjee-exam/"
+    },
+    "_excluded": "The Durgapur Steel Plant's capacity figures are not asserted. Durgapur is a planned industrial city on the Damodar in Paschim Bardhaman district."
+  },
+  "erode": {
+    "lede": "Erode is the turmeric city of India. Its district administration carries the title, and Erode turmeric holds a Geographical Indication tag, traded through one of the country's biggest turmeric markets alongside a long textile and handloom industry. The city was also the birthplace of the social reformer Periyar, born here in 1879. Its engineering anchor is Kongu Engineering College at Perundurai, established in 1984. Schools follow the Tamil Nadu state board, and engineering admission is TNEA, the state's single-window counselling on Class 12 marks.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Tamil Nadu board students in Erode?",
+        "a": "Yes. Erode schools run the Tamil Nadu state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Kongu Engineering College students join your programming courses?",
+        "a": "Yes. Kongu Engineering College at Perundurai has taught since 1984, so the fundamentals are well covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Erode, the 'Turmeric City', birthplace of Periyar (district portal)": "https://erode.nic.in/",
+      "Erode Turmeric, a Geographical Indication (Incredible India / district portal)": "https://erode.nic.in/",
+      "Kongu Engineering College, Perundurai, Erode district, established 1984": "https://kongu.ac.in/",
+      "Tamil Nadu State Board examinations (DGE)": "https://dge.tn.gov.in/aboutus.html",
+      "TNEA single-window counselling (Anna University Centre for Admissions)": "https://cfa.annauniv.edu/cfa/"
+    },
+    "_excluded": "Kongu Engineering College is at Perundurai, in Erode district, stated honestly. The 'second-largest turmeric market in India' ranking is not asserted (secondary sources); the GI-tagged Erode Turmeric and the turmeric-city identity are used."
+  },
+  "sambalpur": {
+    "lede": "Sambalpur, on the Mahanadi in western Odisha, is best known for two things: its handloom and its dam. Sambalpuri textiles, the tie-dye Baandha weave, have earned the town international fame, while nearby Hirakud is one of the world's longest dams. The town holds Sambalpur University at Jyoti Vihar in Burla, set up in 1967, and VSSUT Burla, the technology university that grew from an engineering college founded in 1956 to train engineers for the Hirakud project. Schools follow the Odisha board, and first-year engineering seats fill on JEE Main rank through OJEE counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to BSE Odisha students in Sambalpur?",
+        "a": "Yes. Sambalpur schools run the Odisha board, BSE Odisha for Class 10 and CHSE for Plus Two, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can VSSUT Burla or Sambalpur University students join your programming courses?",
+        "a": "Yes. VSSUT Burla grew from an engineering college set up in 1956, and Sambalpur University has run since 1967, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Sambalpur University, Jyoti Vihar, Burla, established under the 1966 Act (functioning from 1967)": "https://www.suniv.ac.in/",
+      "VSSUT Burla, from the University College of Engineering (1956), set up to train engineers for the Hirakud Dam": "https://www.vssut.ac.in/",
+      "Sambalpur, famous for Sambalpuri handloom, the Samaleswari Temple and the Hirakud Dam (Odisha, Mission Shakti district page)": "https://missionshakti.odisha.gov.in/en/district-pages/sambalpur",
+      "Board of Secondary Education, Odisha (BSE Odisha), Cuttack": "https://bseodisha.nic.in/",
+      "First-year B.Tech on JEE Main via OJEE counselling": "https://ojee.nic.in/about-ojee/"
+    },
+    "_excluded": "Sambalpur University and VSSUT are at Burla, adjacent to Sambalpur town, stated honestly. The 'world's longest earthen dam' phrasing for Hirakud is kept qualitative ('one of the world's longest')."
+  },
+  "moradabad": {
+    "lede": "Moradabad is the Brass City of India, the Pital Nagri that has hammered brassware for about four hundred years. Its district administration records that Moradabad's handicrafts account for more than forty per cent of India's handicraft exports, shipped to Britain, the United States, Germany and the Gulf. It is a city that lives by making things at scale. Schools follow the UP Board, UPMSP, seated in Prayagraj, and engineering seats fill on JEE Main rank through UPTAC counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to UP Board students in Moradabad?",
+        "a": "Yes. Moradabad schools run the UP Board, UPMSP, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can college students in Moradabad join your programming courses?",
+        "a": "Yes. In a city built on export manufacturing, what recruiters look at is built work, and that is what the college track provides: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown, which a degree alone rarely gives you."
+      }
+    ],
+    "_sources": {
+      "Moradabad, the 'Brass City' / Pital Nagri; handicrafts more than 40% of India's handicraft exports (district economy page)": "https://moradabad.nic.in/economy/",
+      "UP Board UPMSP, Prayagraj": "https://upmsp.edu.in/",
+      "B.Tech on JEE Main via UPTAC counselling": "https://uptac.admissions.nic.in/entrance-examinations/"
+    },
+    "_excluded": "Exact export-value figures and unit counts are not asserted (kept qualitative). The metal-craft Geographical Indication (reported for 2014) is not asserted with a hard citation here; the export-share and Brass-City identity come from the district economy page. Teerthanker Mahaveer University is a real Moradabad institution but not made the lead."
+  },
+  "muzaffarpur": {
+    "lede": "Muzaffarpur is the litchi kingdom of India. The Shahi Litchi grown here, which won a Geographical Indication tag in 2018, comes overwhelmingly from Muzaffarpur and its neighbouring districts, and the city is the headquarters of the Tirhut division on the Burhi Gandak. Its main university is Babasaheb Bhimrao Ambedkar Bihar University. Schools follow the Bihar board, BSEB, and engineering seats fill on JEE Main rank through UGEAC counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Bihar board students in Muzaffarpur?",
+        "a": "Yes. Muzaffarpur schools run the Bihar board, BSEB, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Babasaheb Bhimrao Ambedkar Bihar University students join your programming courses?",
+        "a": "Yes. B.R.A. Bihar University serves Muzaffarpur, so the theory is close at hand. One useful note: Bihar fills engineering seats through UGEAC on JEE Main rank, not the BCECE exam. The college track adds real Python, Java, full-stack or AI/ML work, built until it runs."
+      }
+    ],
+    "_sources": {
+      "Shahi Litchi of Bihar, grown mainly in Muzaffarpur, granted a Geographical Indication tag in 2018 (oriGIn GI documentation)": "https://www.origin-gi.com/wp-content/uploads/2022/02/552-shahi-litchi-of-bihar.pdf",
+      "Babasaheb Bhimrao Ambedkar Bihar University (B.R.A. Bihar University), Muzaffarpur": "https://www.brabu.net/",
+      "Bihar School Examination Board (BSEB)": "https://biharboardonline.com/",
+      "UGEAC engineering admission on JEE Main rank": "https://bceceboard.bihar.gov.in/UGEACIndex.php"
+    },
+    "_excluded": "The '70% of Bihar's litchi' figure is not asserted (kept qualitative). Muzaffarpur Institute of Technology is a real local engineering college but not primary-sourced this pass. BCECE is not the engineering route: Bihar fills B.Tech seats through UGEAC on JEE Main."
   }
 }
