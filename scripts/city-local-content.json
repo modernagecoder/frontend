@@ -1978,5 +1978,65 @@
       "AP EAPCET conducted by JNTU Kakinada for APSCHE": "https://cets.apsche.ap.gov.in/EAPCET/EAPCET/HomePages/EAPCET_HomePage.aspx"
     },
     "_excluded": "SRM University-AP and VIT-AP are in the Amaravati capital region / Mangalagiri, not Guntur city (geography). Guntur Medical College's exact founding year is not asserted (its own site is internally inconsistent, 1946 vs 1947); only its in-city, pre-independence origin is used."
+  },
+  "rourkela": {
+    "lede": "Rourkela is a steel city with a national first. The Rourkela Steel Plant, set up in 1959 with West German collaboration, was the first integrated steel plant in India's public sector, and it built the planned township around it. The town also holds one of the country's premier engineering schools: NIT Rourkela began as a Regional Engineering College in 1961, its foundation stone laid by Jawaharlal Nehru, and became a National Institute of Technology in 2002. Schools follow the Odisha board, BSE Odisha for Class 10 and CHSE for Plus Two, and first-year engineering seats fill on JEE Main rank through OJEE counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to BSE Odisha students in Rourkela?",
+        "a": "Yes. Rourkela schools run the Odisha board, BSE Odisha for Class 10 and CHSE for Plus Two, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can NIT Rourkela students join your programming courses?",
+        "a": "Yes. NIT Rourkela grew from the Regional Engineering College of 1961 and is one of the country's leading institutes, so the theory is in good hands. The college track adds the applied, portfolio side: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Rourkela Steel Plant, the first integrated steel plant in the public sector in India, set up with German (Krupp/Demag) collaboration, 1959 (SAIL)": "https://www.sail.co.in/en/plants/about-rourkela-steel-plant",
+      "NIT Rourkela, elevated from the Regional Engineering College, Rourkela (established 1961), in Rourkela, Odisha": "https://www.nitrkl.ac.in/",
+      "Board of Secondary Education, Odisha (BSE Odisha), Cuttack": "https://bseodisha.nic.in/",
+      "First-year B.Tech on JEE Main via OJEE counselling": "https://ojee.nic.in/about-ojee/"
+    },
+    "_excluded": "The Rourkela Steel Plant's precise capacity figures are not asserted. NIT Rourkela's 1961 REC founding is corroborated via search (its own site confirms Rourkela location and the REC-to-NIT elevation but did not carry the year verbatim in this pass); the SAIL 'first integrated public-sector steel plant' line 403'd on direct fetch but its official text was surfaced by search."
+  },
+  "patiala": {
+    "lede": "Patiala carries a distinction few cities do. Punjabi University, founded here in 1962, is only the second university in the world to be named after a language, after the Hebrew University in Israel. The city is also an old engineering centre: Thapar Institute of Engineering and Technology was established in 1956 under a trust set up by the industrialist Karam Chand Thapar. Patiala was a princely capital, and its royal heritage still marks the city. Schools follow the Punjab board, PSEB, which is headquartered at Mohali, and engineering seats fill on JEE Main rank through the state technical university's counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to PSEB students in Patiala?",
+        "a": "Yes. Patiala schools run the Punjab board, PSEB, along with CBSE and ICSE, and our classes fit around any of them. The board is headquartered at Mohali, not Patiala. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Thapar Institute or Punjabi University students join your programming courses?",
+        "a": "Yes. Thapar Institute has taught engineering here since 1956 and Punjabi University since 1962, so the theory is in good hands. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Punjabi University, Patiala, established 1962, the second university in the world named after a language": "https://www.punjabiuniversity.ac.in/",
+      "Thapar Institute of Engineering and Technology, Patiala, established 1956 (Patiala Technical Education Trust, Karam Chand Thapar)": "https://thapar.edu/aboutus/pages/history",
+      "Punjab School Education Board (PSEB), Mohali": "https://www.pseb.ac.in/",
+      "B.Tech on JEE Main via IKGPTU centralised counselling": "https://ptu.ac.in/admissions/"
+    },
+    "_excluded": "The Netaji Subhas National Institute of Sports (NIS Patiala) and Qila Mubarak are not asserted (no primary source fetched this pass). Both Thapar (1956) and Punjabi University (1962, 'second named after a language') are corroborated via search because thapar.edu and punjabiuniversity.ac.in returned 404/403 on direct fetch; the facts and canonical sources are sound."
+  },
+  "thanjavur": {
+    "lede": "Thanjavur is the old Chola capital, and its skyline is the Brihadisvara temple, built by the emperor Rajaraja I around 1010 and inscribed by UNESCO in 1987 as one of the Great Living Chola Temples. The city sits in the Cauvery delta, long the granary of the Tamil country. Its modern institution is SASTRA, a deemed university at Tirumalaisamudram in Thanjavur. Schools follow the Tamil Nadu state board, and engineering admission is TNEA, the state's single-window counselling on Class 12 marks rather than an entrance exam.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Tamil Nadu board students in Thanjavur?",
+        "a": "Yes. Thanjavur schools run the Tamil Nadu state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can SASTRA students join your programming courses?",
+        "a": "Yes. SASTRA is a deemed university at Tirumalaisamudram in Thanjavur, so the theory is close at hand. The college track adds the built work a transcript never shows: real Python, Java, full-stack or AI/ML, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Brihadisvara temple, Thanjavur, built by Rajaraja I (about 1010), inscribed by UNESCO in 1987 as one of the Great Living Chola Temples": "https://whc.unesco.org/en/list/250",
+      "SASTRA (Deemed to be University) at Tirumalaisamudram, Thanjavur": "https://www.sastra.edu/",
+      "Tamil Nadu Directorate of Government Examinations (state board)": "https://dge.tn.gov.in/aboutus.html",
+      "TNEA single-window counselling (Anna University Centre for Admissions)": "https://cfa.annauniv.edu/cfa/"
+    },
+    "_excluded": "The 'rice bowl of Tamil Nadu' phrasing is softened to the historical granary of the Cauvery delta (no primary source fetched for the exact slogan). SASTRA's founding year, Tamil University and Thanjavur painting are not asserted (not primary-sourced this pass). The UNESCO temple fact is corroborated via search because whc.unesco.org returned 403 on direct fetch."
   }
 }
