@@ -783,5 +783,443 @@
       "B.Tech seats on JEE Main via JCECEB state merit list": "https://jceceb.jharkhand.gov.in/"
     },
     "_excluded": "'Founded by Jamsetji Tata' is not asserted: the Tata Steel page states the 1907 establishment but names no founder verbatim (Jamsetji conceived it; Sir Dorabji Tata actually established it). 'Tatanagar' as the city's name is not asserted (it is the railway station's name; no primary source confirmed it as the city name). XLRI 'oldest business school in India' is dropped (its own pages are JS-rendered; only the 1949 founding and Jamshedpur location are confirmed)."
+  },
+  "agra": {
+    "lede": "Agra is world-famous for its Mughal monuments, the Taj Mahal and Agra Fort, both UNESCO World Heritage Sites on the district's own portal. Behind the tourism is a long-standing university town. Dr Bhimrao Ambedkar University, the old Agra University, was founded on 1 July 1927, and the Dayalbagh Educational Institute became a deemed university in 1981 and runs its own engineering faculty. For school students the board is UPMSP, seated in Prayagraj, and engineering seats fill on JEE Main rank through UPTAC counselling, since Uttar Pradesh runs no separate state entrance exam.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to UP Board students in Agra?",
+        "a": "Yes. Agra schools run the UP Board, UPMSP, along with CBSE and ICSE, and our classes fit around any of them. The board is seated in Prayagraj, not Agra. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Dr Bhimrao Ambedkar University or DEI students join your programming courses?",
+        "a": "Yes. Agra University dates to 1927 and Dayalbagh Educational Institute became a deemed university in 1981, so the theory is well covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown."
+      }
+    ],
+    "_sources": {
+      "Taj Mahal and Agra Fort, both UNESCO World Heritage Sites (Agra district portal)": "https://agra.nic.in/tourist-places/",
+      "Dr Bhimrao Ambedkar University (former Agra University) founded 1 July 1927": "https://dbrau.ac.in/about/",
+      "Dayalbagh Educational Institute declared a deemed university on 16 May 1981": "https://www.dei.ac.in/dei/index.php?option=com_content&view=article&id=84:brief-history",
+      "UP Board UPMSP, seated at Prayagraj": "https://upmsp.edu.in/",
+      "B.Tech on JEE Main via UPTAC counselling": "https://uptac.samarth.edu.in/"
+    },
+    "_excluded": "Fatehpur Sikri (UNESCO) is in Agra district but well outside the city, so it is not presented as an Agra-city fact. DBRAU 'renamed 1996' and DEI 'established' year variants are dropped (not on the institutions' About pages). UP fills B.Tech seats on JEE Main via UPTAC, so no state entrance exam is implied."
+  },
+  "ajmer": {
+    "lede": "Ajmer is where Rajasthan sets its school papers. The Board of Secondary Education, Rajasthan, is headquartered here, so the RBSE that examines the whole state is an Ajmer institution. The city is also an old education centre: Mayo College, one of India's oldest public schools, was founded here in 1875, and Maharshi Dayanand Saraswati University serves the region from a campus in the city. One point worth clearing up is that the Central University of Rajasthan belongs to Ajmer district but sits at Bandarsindri in Kishangarh, not in Ajmer city. Engineering seats fill through REAP on JEE Main rank.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to RBSE students in Ajmer?",
+        "a": "Yes, and Ajmer is unusual: the Rajasthan board, RBSE, is headquartered right here, so the state board is a local body. CBSE and ICSE schools run in the city too. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test rather than something your child can actually build with."
+      },
+      {
+        "q": "Can Maharshi Dayanand Saraswati University students join your programming courses?",
+        "a": "Yes. MDS University serves Ajmer from within the city, so the theory is close at hand. What the college track adds is built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Board of Secondary Education, Rajasthan (RBSE) headquartered in Ajmer": "https://rajeduboard.rajasthan.gov.in/",
+      "Mayo College founded 1875, Ajmer": "https://mayocollege.com/public/school-profile",
+      "Maharshi Dayanand Saraswati University in Ajmer city": "https://hte.rajasthan.gov.in/college/maharshi_dayanand_saraswati_university_ajmer",
+      "Central University of Rajasthan campus at Bandarsindri, Kishangarh (Ajmer district, not the city)": "https://www.curaj.ac.in/contact-us-0",
+      "REAP engineering admission on JEE Main rank": "https://reaprajasthan.co.in/"
+    },
+    "_excluded": "The Central University of Rajasthan is attributed to Ajmer district, not the city (its campus is at Bandarsindri, Kishangarh). RBSE and MDSU founding years are left out (aggregator variants). RPET is not named as the engineering route: Rajasthan fills seats through REAP on JEE Main."
+  },
+  "akola": {
+    "lede": "Akola sits at the heart of Vidarbha's cotton belt, and its district administration describes the district as well known for cotton. Its main institution reflects that farming economy: Dr Panjabrao Deshmukh Krishi Vidyapeeth, the region's agricultural university, was established here in 1969 and is named after the Vidarbha statesman Panjabrao Deshmukh. The College of Engineering and Technology has served the city since 1983. For schooling, Akola falls under the Amravati divisional board of the Maharashtra state board, and engineering seats are filled through MHT-CET and the state's centralised admission process.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Maharashtra board students in Akola?",
+        "a": "Yes. Akola schools run the Maharashtra state board through its Amravati divisional office, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about."
+      },
+      {
+        "q": "Can engineering college students in Akola join your programming courses?",
+        "a": "Yes. Akola has taught engineering since 1983, so the fundamentals are covered locally. The college track adds the applied half: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter. A transcript rarely shows any of that, which is the gap it fills."
+      }
+    ],
+    "_sources": {
+      "Dr Panjabrao Deshmukh Krishi Vidyapeeth established 1969, headquartered in Akola": "https://www.pdkv.ac.in/?page_id=57",
+      "Akola district well known for cotton production (district portal)": "https://akola.gov.in/en/history/",
+      "College of Engineering and Technology, Akola, established 1983": "https://coeta.ac.in/about/",
+      "Maharashtra State Board (MSBSHSE), Amravati divisional board covers Akola": "http://mahahsscboard.org/index_amravati.htm",
+      "MHT-CET via the State CET Cell's centralised admission process": "https://cetcell.mahacet.org/"
+    },
+    "_excluded": "The 'Cotton City' nickname and 'largest cotton-producing district in India' are not asserted (aggregator claims); only the district portal's 'well known for cotton' is used. Akola is in Vidarbha, not Marathwada. Maharashtra fills B.Tech seats via MHT-CET/CAP, so JEE Main is not stated as the state route."
+  },
+  "aligarh": {
+    "lede": "Aligarh is a university town built around one institution. Aligarh Muslim University began as the Muhammadan Anglo-Oriental College, founded by the reformer Sir Syed Ahmad Khan in 1877, and grew into a full university by 1920. AMU describes itself as one of the first purely residential universities established in India, which gives Aligarh its campus-town character. The city's other identity is industrial: its district portal, titled City of Locks, records that Aligarh is internationally known for its lock industry. Schools follow the UP Board, UPMSP, and engineering seats fill on JEE Main rank through UPTAC.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to UP Board students in Aligarh?",
+        "a": "Yes. Aligarh schools run the UP Board, UPMSP, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, rather than a second pass over the school computer paper, so the exam takes care of itself."
+      },
+      {
+        "q": "Can Aligarh Muslim University students join your programming courses?",
+        "a": "Yes. AMU has taught here since 1877 and is one of India's oldest residential universities, so the theory is in good hands. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "AMU founded as MAO College by Sir Syed Ahmad Khan in 1877, a university by 1920": "https://www.amu.ac.in/about-us/history",
+      "Aligarh internationally known for its lock industry (district portal, 'City of Locks')": "https://aligarh.nic.in/about-district/",
+      "UP Board UPMSP": "https://upmsp.edu.in/",
+      "B.Tech on JEE Main via UPTAC counselling": "https://uptac.samarth.edu.in/"
+    },
+    "_excluded": "The '5,000 registered lock units' and 'Tala Nagari' nickname are not asserted (aggregator detail); only the district portal's lock-industry line is used. AMU's 1875 date is dropped in favour of the 1877 MAO College founding on AMU's own history page. UP fills B.Tech seats on JEE Main via UPTAC."
+  },
+  "amravati": {
+    "lede": "Amravati anchors western Vidarbha, and it should not be confused with the Andhra Pradesh capital of a similar name. Its principal university, Sant Gadge Baba Amravati University, was established on Maharashtra Day in 1983 to serve the region's rural population. The Government College of Engineering, Amravati, is older still, dating to 1964, and by the college's own account is one of the oldest engineering institutes in Maharashtra. The region's cotton heritage runs deep, and a PM MITRA textile park is now being developed in the district. Schools follow the Maharashtra state board, with engineering seats filled through MHT-CET.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Maharashtra board students in Amravati?",
+        "a": "Yes. Amravati schools run the Maharashtra state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Government College of Engineering or SGBAU students join your programming courses?",
+        "a": "Yes. The Government College of Engineering has taught here since 1964 and SGBAU since 1983, so the fundamentals are well covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that actually runs."
+      }
+    ],
+    "_sources": {
+      "Sant Gadge Baba Amravati University established 1 May 1983": "https://sgbau.ac.in/pages/about_us.aspx",
+      "Government College of Engineering, Amravati, established 1964, among the oldest in Maharashtra": "https://gcoea.ac.in/?page=MQ%3D%3D&name=Institute+Profile",
+      "PM MITRA textile park being developed in Amravati district (MPCB)": "https://mpcb.gov.in/node/6721",
+      "Maharashtra State Board (MSBSHSE)": "https://mahahsscboard.in/en",
+      "B.E./B.Tech via MHT-CET and the centralised admission process": "https://cetcell.mahacet.org/"
+    },
+    "_excluded": "This Amravati is the Maharashtra city (Sant Gadge Baba Amravati University), not the Andhra Pradesh capital Amaravati. PM MITRA site-count and acreage detail and the 'named after Ambadevi' claim are left out (not needed or unverified). Maharashtra fills B.Tech seats via MHT-CET/CAP."
+  },
+  "anand": {
+    "lede": "Anand is known nationally as the Milk Capital of India, the town that Amul and the milk revolution made famous. The National Dairy Development Board, headquartered here, ran Operation Flood, the programme that turned India into the world's largest milk producer, and the Institute of Rural Management Anand was founded in the town in 1979 under Verghese Kurien. Anand became a district in its own right only in 1997, carved out of Kheda. Schools follow the Gujarat board, GSEB, and for engineering the main route for Gujarat students is GUJCET, the state exam run alongside the ACPC admission process.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to GSEB students in Anand?",
+        "a": "Yes. Anand schools run the Gujarat board, GSEB, along with CBSE and other boards, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about."
+      },
+      {
+        "q": "Can IRMA or Anand Agricultural University students join your programming courses?",
+        "a": "Yes. Anand has strong institutions in IRMA, founded in 1979, and Anand Agricultural University, so the theory is well covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown."
+      }
+    ],
+    "_sources": {
+      "Anand the 'Milk Capital of India', home of Amul and the milk revolution (district portal)": "https://anand.nic.in/en/about-district/",
+      "NDDB, headquartered in Anand, ran Operation Flood": "https://www.nddb.coop/about/genesis",
+      "IRMA founded 1979 under Dr Verghese Kurien": "https://irma.ac.in/about-irma/knowing-irma",
+      "Anand Agricultural University established 2004": "https://aau.in/about-us",
+      "Gujarat board GSEB": "https://www.gseb.org/",
+      "GUJCET the primary engineering route via ACPC": "https://acpc.gujarat.gov.in/be-b-tech"
+    },
+    "_excluded": "The '95% of Gujarat engineering seats via GUJCET' figure is not asserted in the lede (kept general). GCMMF 'largest food-marketing organisation' and NDDB 'Institution of National Importance' claims are left out (not needed). Anand became a district in 1997."
+  },
+  "asansol": {
+    "lede": "Asansol grew up on coal and steel. The district it heads, Paschim Bardhaman, is officially described as a mining-industrial district, and SAIL's IISCO Steel Plant at Burnpur, a neighbourhood of the city, traces back to 1918 as the old Indian Iron and Steel Company. The city gained its own university in 2012, Kazi Nazrul University, named after the Bengali poet. Schools follow the West Bengal boards, and for engineering West Bengal fills its degree seats through its own state entrance, WBJEE, rather than on JEE Main alone.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to West Bengal board students in Asansol?",
+        "a": "Yes. Asansol schools run the West Bengal boards, WBBSE for Class 10 and WBCHSE for Plus Two, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Kazi Nazrul University students join your programming courses?",
+        "a": "Yes. Kazi Nazrul University has served Asansol since 2012, so the theory is close at hand. The college track adds the applied half: real Python, Java, full-stack or AI/ML work, built until it runs and can be opened by a recruiter."
+      }
+    ],
+    "_sources": {
+      "Kazi Nazrul University, main campus in Asansol, opened 2012": "https://paschimbardhaman.gov.in/public-utility/kazi-nazrul-university/",
+      "SAIL IISCO Steel Plant at Burnpur, Asansol, founded 1918 as Indian Iron & Steel Company": "https://www.sail.co.in/en/plants/about-iisco-steel-plant",
+      "Paschim Bardhaman a mining-industrial district, HQ Asansol": "https://paschimbardhaman.gov.in/",
+      "West Bengal Council of Higher Secondary Education (WBCHSE)": "https://wbchse.wb.gov.in/about/contacts/",
+      "WBJEE the state engineering entrance": "https://wbjeeb.nic.in/wbjee/"
+    },
+    "_excluded": "The exact WBJEE-versus-JEE-Main seat split (the '10% of self-financing seats' figure) is not asserted; only that WBJEE is West Bengal's own engineering entrance. IIEST is at Shibpur, not Asansol. The 1774 Raniganj coal-mining date is not tied to Asansol city."
+  },
+  "aurangabad": {
+    "lede": "Aurangabad now carries the official name Chhatrapati Sambhajinagar, used on the Maharashtra government's own district portal. Its principal university, Dr Babasaheb Ambedkar Marathwada University, was established in 1958 and occupies a 725-acre campus in the centre of the city. The district is a heritage anchor, with the Ellora Caves, a UNESCO World Heritage Site, lying about 30 km out, while AURIC at the Shendra-Bidkin nodes is promoted as India's first greenfield smart industrial city under the Delhi-Mumbai Industrial Corridor. Schools follow the Maharashtra state board, and engineering seats are filled through MHT-CET.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Maharashtra board students in Chhatrapati Sambhajinagar?",
+        "a": "Yes. Schools in the city, officially now Chhatrapati Sambhajinagar, run the Maharashtra state board through its local divisional office, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Dr Babasaheb Ambedkar Marathwada University students join your programming courses?",
+        "a": "Yes. The university has taught here since 1958, so the fundamentals are well covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Official name Chhatrapati Sambhajinagar (formerly Aurangabad), Maharashtra district portal": "https://chhatrapatisambhajinagar.maharashtra.gov.in/en/about-district/",
+      "Dr Babasaheb Ambedkar Marathwada University established 1958, 725-acre campus": "https://www.bamu.ac.in/en/aboutuniversitypage/",
+      "Ellora Caves, UNESCO World Heritage Site, about 30 km from the city": "https://asi.nic.in/pages/WorldHeritageElloraCaves",
+      "AURIC, India's first greenfield smart industrial city (DMIC)": "https://www.auric.city/",
+      "MHT-CET feeding the centralised admission process for B.E./B.Tech": "https://cetcell.mahacet.org/be-b-tech/"
+    },
+    "_excluded": "Ajanta Caves are treated as an Aurangabad-district heritage site but not the lead fact (Ellora is nearer). The campus is stated as 725 acres per the university's own page (not the 752 aggregator figure). The city's rename is presented as its current official name, not a dated event. Maharashtra fills B.Tech seats via MHT-CET."
+  },
+  "balasore": {
+    "lede": "Balasore is the missile coast of India. At Chandipur, in Balasore district about 16 km from the town, the DRDO runs the Integrated Test Range where the country flight-tests its missiles off the Odisha coast. The town itself is a major railhead for northern Odisha, and its main public university, Fakir Mohan University, was set up here in 1999 at Vyasa Vihar. Schools follow the Odisha board, BSE Odisha, based in Cuttack, and first-year engineering seats in the state are filled on JEE Main rank through OJEE counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to BSE Odisha students in Balasore?",
+        "a": "Yes. Balasore schools run the Odisha board, BSE Odisha for Class 10 and CHSE for Plus Two, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about."
+      },
+      {
+        "q": "Can Fakir Mohan University students join your programming courses?",
+        "a": "Yes. Fakir Mohan University has served Balasore since 1999, so the theory is close at hand. The college track adds the applied half: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Fakir Mohan University, Vyasa Vihar, Balasore, notified 1999": "https://fmuniversity.nic.in/",
+      "DRDO Integrated Test Range at Chandipur, Balasore, India's missile flight-testing range (PIB)": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2115509",
+      "Chandipur about 16 km from Balasore; Balasore a major railhead (Odisha Tourism)": "https://odishatourism.gov.in/content/tourism/en/blog-details/the-tale-of-chandipur-beach-beyond-the-vanishing-sea.html",
+      "Board of Secondary Education, Odisha (BSE Odisha), Cuttack": "https://bseodisha.nic.in/",
+      "First-year B.Tech on JEE Main via OJEE counselling": "https://ojee.nic.in/about-ojee/"
+    },
+    "_excluded": "Chandipur is placed in Balasore district about 16 km from the town, not in the town itself. The 'sea recedes 5 km' and 'Missile City of India' phrasings and specific ITR founding year are not asserted. OJEE's own exam is not the first-year B.Tech route (that is JEE Main via OJEE counselling); OJEE covers pharmacy, nursing, lateral-entry and PG."
+  },
+  "bareilly": {
+    "lede": "Bareilly is the historic centre of the Rohilkhand region, popularly called Nath Nagri after four ancient Shiva temples set around it. Its scientific standing comes from the ICAR-Indian Veterinary Research Institute at Izatnagar, one of India's premier veterinary institutions and a deemed university, on land held since 1913. The regional state university, Mahatma Jyotiba Phule Rohilkhand University, is based in the city. Bareilly's economy runs on furniture manufacturing and the cotton, cereal and sugar trade. Schools follow the UP Board, UPMSP, and engineering seats fill on JEE Main rank through UPTAC.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to UP Board students in Bareilly?",
+        "a": "Yes. Bareilly schools run the UP Board, UPMSP, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can MJP Rohilkhand University students join your programming courses?",
+        "a": "Yes. MJP Rohilkhand University serves the region from Bareilly, so the theory is close at hand. The college track adds the applied half: real Python, Java, full-stack or AI/ML work, built until it runs and can be opened by a recruiter."
+      }
+    ],
+    "_sources": {
+      "ICAR-Indian Veterinary Research Institute at Izatnagar, Bareilly, on land held since 1913": "https://www.ivri.nic.in/about/default.aspx",
+      "Bareilly known as 'Nath Nagri' after four ancient Nath (Shiva) temples (district portal)": "https://bareilly.nic.in/en/about-district/",
+      "Mahatma Jyotiba Phule Rohilkhand University, Bareilly": "https://mjpru.ac.in/overview.aspx",
+      "UP Board UPMSP": "https://upmsp.edu.in/",
+      "B.Tech on JEE Main via UPTAC counselling": "https://uptac.samarth.edu.in/"
+    },
+    "_excluded": "IVRI and MJPRU founding years are left out (the district/varsity About pages give the location and role, not a settled year here). The Ahichhatra archaeological site is treated as a district fact, not a city one. UP fills B.Tech seats on JEE Main via UPTAC."
+  },
+  "belagavi": {
+    "lede": "Belagavi is the seat of Karnataka's technical university. Visvesvaraya Technological University runs its main campus and head office, Jnana Sangama, from the city, which means the body that governs engineering education across the state is based here. Belagavi also has deep education roots: the KLE Society was founded here in 1916, and Rani Channamma University was set up in 2010. The city has a place in national history too, having hosted in 1924 the only Congress session ever presided over by Mahatma Gandhi. Schools follow the Karnataka board, and engineering seats are filled through KCET.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Karnataka board students in Belagavi?",
+        "a": "Yes. Belagavi schools run the Karnataka state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about."
+      },
+      {
+        "q": "Can VTU-affiliated college students in Belagavi join your programming courses?",
+        "a": "Yes. VTU is headquartered right here, and its colleges teach the theory well. What the college track adds is built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown, which a degree alone rarely provides."
+      }
+    ],
+    "_sources": {
+      "VTU main campus and head office 'Jnana Sangama' in Belagavi (590018)": "https://vtu.ac.in/contact/",
+      "KLE Society founded in Belagavi in 1916": "https://kleit.ac.in/11137-2/",
+      "Rani Channamma University, Belagavi, established 2010": "https://rcub.ac.in/en/about-us.php",
+      "39th Congress session at Belagavi in 1924, presided over by Mahatma Gandhi": "https://inc.in/congress-sandesh/archives/belgaum-session-1924",
+      "Karnataka Common Entrance Test (KCET)": "https://cetonline.karnataka.gov.in/kea/"
+    },
+    "_excluded": "Belagavi's 'second capital of Karnataka' framing (Suvarna Vidhana Soudha) and VTU's affiliated-college and student counts are not asserted (aggregator detail). VTU's 1998 founding year is left out. KCET is the state engineering route."
+  },
+  "berhampur": {
+    "lede": "Berhampur is southern Odisha's education and craft centre. Berhampur University, named for the city, came into existence in 1967 and now runs from a campus at Bhanja Bihar. The city is officially described on the national tourism portal as a silk city of India, known for its GI-recognised Berhampur Patta silk saree, and MKCG Medical College, established in 1962, is the region's premier medical institution. Schools follow the Odisha board, BSE Odisha, based in Cuttack, and first-year engineering seats in the state are filled on JEE Main rank through OJEE counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to BSE Odisha students in Berhampur?",
+        "a": "Yes. Berhampur schools run the Odisha board, BSE Odisha for Class 10 and CHSE for Plus Two, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Berhampur University students join your programming courses?",
+        "a": "Yes. Berhampur University has served the region since 1967, so the theory is close at hand. The college track adds the applied half: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Berhampur University came into existence 2 January 1967, campus at Bhanja Bihar": "https://buodisha.edu.in/",
+      "Berhampur a silk city of India, GI-recognised Berhampur Patta saree (Incredible India)": "https://www.incredibleindia.gov.in/en/odisha/berhampur-patta-phoda-kumbha-saree-and-joda",
+      "MKCG Medical College, Berhampur, established 1962": "https://www.mkcgmch.org/",
+      "Board of Secondary Education, Odisha (BSE Odisha), Cuttack": "https://bseodisha.nic.in/contact_us/",
+      "First-year B.Tech on JEE Main via OJEE counselling": "https://ojee.nic.in/about-ojee/"
+    },
+    "_excluded": "Berhampur University's campus is at Bhanja Bihar, some way from the old town centre; no city-centre campus is implied. The GI year and weaver-population figures are not asserted. OJEE's own exam is not the first-year B.Tech route (that is JEE Main via OJEE counselling)."
+  },
+  "bhagalpur": {
+    "lede": "Bhagalpur is the Silk City of India, described that way on the national tourism portal and celebrated for its distinctive Tussar silk. The trade is ancient: the town, known in antiquity as Champa, has woven silk for centuries, and its official One District One Product record counts more than thirty thousand handloom weavers, with silk that reaches markets in West Asia, Europe, the United States and Japan. Tilka Manjhi Bhagalpur University serves the city. Schools follow the Bihar board, BSEB, and engineering seats are filled through UGEAC on JEE Main rank.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Bihar board students in Bhagalpur?",
+        "a": "Yes. Bhagalpur schools run the Bihar board, BSEB, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Tilka Manjhi Bhagalpur University students join your programming courses?",
+        "a": "Yes. T.M. Bhagalpur University serves the city, so the theory is close at hand. One thing worth knowing is that Bihar fills engineering seats through UGEAC on JEE Main rank, not the BCECE exam. The college track adds real Python, Java, full-stack or AI/ML work, built until it runs."
+      }
+    ],
+    "_sources": {
+      "Bhagalpur the 'Silk City of India', known for Tussar silk (Incredible India)": "https://www.incredibleindia.gov.in/en/bihar/bhagalpur-silk",
+      "Bhagalpur, known in antiquity as Champa, long a Tussar silk town; 35,000+ handloom weavers; silk exported to West Asia, Europe, US, Japan (district ODOP)": "https://bhagalpur.nic.in/odop-bhagalpur/",
+      "Tilka Manjhi Bhagalpur University in Bhagalpur city": "https://bhagalpur.nic.in/public-utility/tilka-manjhi-bhagalpur-university/",
+      "Bihar School Examination Board (BSEB)": "https://biharboardonline.com/",
+      "UGEAC engineering admission on JEE Main rank": "https://bceceboard.bihar.gov.in/UGEACIndex.php"
+    },
+    "_excluded": "T.M. Bhagalpur University's founding year and the silk industry's exact age (GI status, '200 years old') are not asserted (aggregator variants). BCECE is not the engineering route: Bihar fills B.Tech seats through UGEAC on JEE Main."
+  },
+  "bhavnagar": {
+    "lede": "Bhavnagar mixes princely history with national science. CSIR's Central Salt and Marine Chemicals Research Institute was inaugurated here by Prime Minister Jawaharlal Nehru in 1954, and the city's own Maharaja Krishnakumarsinhji Bhavnagar University runs Shamaldas College, where Mahatma Gandhi took his first college education in 1888. The city's last ruler, Krishnakumarsinhji, was the first to hand his princely state to the new nation. Down the coast in the district lies Alang, which the Gujarat Maritime Board calls Asia's largest ship-recycling yard. Schools follow the Gujarat board, and GUJCET is the main engineering route via the ACPC process.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to GSEB students in Bhavnagar?",
+        "a": "Yes. Bhavnagar schools run the Gujarat board, GSEB, along with CBSE and other boards, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about."
+      },
+      {
+        "q": "Can Maharaja Krishnakumarsinhji Bhavnagar University students join your programming courses?",
+        "a": "Yes. MKBU serves the city and its colleges teach the fundamentals well. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown, which a degree alone rarely provides."
+      }
+    ],
+    "_sources": {
+      "CSIR-CSMCRI, Bhavnagar, inaugurated by Jawaharlal Nehru on 10 April 1954": "https://www.csmcri.res.in/aboutus",
+      "Shamaldas College, where Gandhi studied in 1888, run by MKBU": "https://www.mkbhavuni.edu.in/mkbhavuniweb/",
+      "Alang, Bhavnagar district, Asia's largest ship-recycling yard (Gujarat Maritime Board)": "https://gmbports.org/ship-recycling-yards",
+      "Gujarat board GSEB": "https://gseb.org/",
+      "GUJCET the primary engineering route via ACPC": "https://cdnbbsr.s3waas.gov.in/s35938b4d054136e5d59ada6ec9c295d7a/uploads/2025/03/2025032142.pdf"
+    },
+    "_excluded": "Alang is described as Asia's largest ship-recycling yard (Gujarat Maritime Board wording), not 'the world's largest', and is placed down the coast in the district, not in the city. MKBU's 1978 founding and affiliated-college count are not asserted. The GUJCET merit weightage is left general (official split is 50:50, not the aggregators' 60:40)."
+  },
+  "bhilai": {
+    "lede": "Bhilai was built around one of India's great steel plants. The Bhilai Steel Plant, SAIL's flagship, is the country's sole producer and supplier of rails for Indian Railways, and it built the city and landmarks like Maitri Bagh around it. The state's own technical university, Chhattisgarh Swami Vivekanand Technical University, has its campus in the Durg-Bhilai twin-city area, and IIT Bhilai runs from a permanent campus at Kutelabhata village on the city's edge. Schools follow the Chhattisgarh board, CGBSE, and engineering seats are filled through the CG-PET entrance and state counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to CGBSE students in Bhilai?",
+        "a": "Yes. Bhilai schools run the Chhattisgarh board, CGBSE, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can CSVTU or IIT Bhilai students join your programming courses?",
+        "a": "Yes. CSVTU is the state technical university based in the twin-city area, and IIT Bhilai sits at Kutelabhata on the edge of the city, so the theory is well taught. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs."
+      }
+    ],
+    "_sources": {
+      "Bhilai Steel Plant, India's sole producer and supplier of rails for Indian Railways": "https://durg.gov.in/en/bhilai-steel-plant/",
+      "IIT Bhilai permanent campus at Kutelabhata village, Durg district (Bhilai-491002)": "https://events.iitbhilai.ac.in/hqcd2025/howtoreach.html",
+      "CSVTU, Chhattisgarh's technical university, campus at Newai in the Durg-Bhilai area": "https://csvtu.ac.in/",
+      "Maitri Bagh, built and run by the Bhilai Steel Plant (district portal)": "https://durg.gov.in/en/tourist-place/maitri-bagh/",
+      "Chhattisgarh board CGBSE": "https://www.cgbse.org/contactus.php",
+      "CG-PET feeding DTE Chhattisgarh counselling for B.E./B.Tech": "https://vyapamcg.cgstate.gov.in/"
+    },
+    "_excluded": "IIT Bhilai's campus is at Kutelabhata (Durg district) on the city's edge, per the institute's own site, not the old Raipur transit address the district portal still lists. Bhilai Steel Plant's 1955 commissioning year and 'world's longest rail' claims are not the lead. CGBSE state-quota seats go on CG-PET."
+  },
+  "bikaner": {
+    "lede": "Bikaner sits on the edge of the Thar and keeps some unusual national institutions. The ICAR-National Research Centre on Camel here is a Government of India institute dedicated to camel research, and the city's Junagarh Fort is one of the rare Rajasthan forts built on the plains rather than a hilltop, raised between 1589 and 1594. Bikaner has its own technical university, Bikaner Technical University, set up in 2017 to affiliate engineering colleges across western Rajasthan. Schools follow the Rajasthan board, RBSE, based in Ajmer, and engineering seats fill through REAP on JEE Main rank.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to RBSE students in Bikaner?",
+        "a": "Yes. Bikaner schools run the Rajasthan board, RBSE, along with CBSE and ICSE, and our classes fit around any of them. The board is based in Ajmer, not Bikaner. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Bikaner Technical University students join your programming courses?",
+        "a": "Yes. Bikaner Technical University affiliates engineering colleges across western Rajasthan, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "ICAR-National Research Centre on Camel, Bikaner": "https://www.indiascienceandtechnology.gov.in/organisations/ministry-and-departments/icar-national-research-centre-camel",
+      "Junagarh Fort, Bikaner, built 1589-1594 under Raja Rai Singh (Incredible India)": "https://www.incredibleindia.gov.in/en/rajasthan/bikaner/junagarh-fort",
+      "Bikaner Technical University established by the University of Bikaner Act, 2017": "https://btu.ac.in/home/About-BTU103",
+      "Rajasthan board RBSE, based in Ajmer": "https://rajeduboard.rajasthan.gov.in/",
+      "REAP engineering admission on JEE Main rank": "https://reaprajasthan.co.in/"
+    },
+    "_excluded": "The camel centre's exact 'project-to-centre' founding history and RBSE's founding year are not asserted. REAP is run through state counselling on JEE Main; it is not asserted to be conducted by RTU. Junagarh's 'only major plains fort' phrasing is softened to 'one of the rare' plains forts."
+  },
+  "bokaro": {
+    "lede": "Bokaro is a steel town by design. The Government of India decided in the early 1960s to build a modern public-sector steel plant here in collaboration with the Soviet Union, and Prime Minister Indira Gandhi laid the foundation stone of the Bokaro Steel Plant in 1966. The district itself is young, carved out in 1991 from parts of Dhanbad and Giridih. That planned-township character still shapes the city. Schools follow the Jharkhand board, the Jharkhand Academic Council, and engineering seats in the state are filled on JEE Main rank through state counselling rather than a separate state exam.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Jharkhand Academic Council students in Bokaro?",
+        "a": "Yes. Bokaro schools run the Jharkhand Academic Council board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about."
+      },
+      {
+        "q": "How does a Bokaro student get into engineering?",
+        "a": "Jharkhand fills B.Tech seats on JEE Main rank through a state merit list and counselling, not a separate state engineering exam. College students are welcome on the college track wherever they study: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Bokaro Steel Plant decided in the early 1960s with Soviet collaboration; foundation stone laid by Indira Gandhi in 1966; Bokaro district formed 1 April 1991 (district portal)": "https://bokaro.nic.in/history/",
+      "Jharkhand Academic Council (JAC), Ranchi": "https://jac.jharkhand.gov.in/about-jac.html",
+      "B.Tech seats on JEE Main via state counselling": "https://jceceb.jharkhand.gov.in/Links/counselling.aspx"
+    },
+    "_excluded": "'India's first Swadeshi steel plant' and specific production tonnage are not asserted (aggregator claims). JCECE is not the engineering route: Jharkhand fills B.Tech seats on JEE Main through state counselling."
+  },
+  "cuttack": {
+    "lede": "Cuttack is Odisha's oldest seat of learning and its former capital. Ravenshaw University is the oldest institution of higher education in the state, founded in 1868, and the city is still where the Orissa High Court sits, inaugurated in 1948, rather than in the capital Bhubaneswar. Known as the Silver City for its silver filigree and the Millennium City for its roughly thousand-year history, Cuttack also hosts SCB Medical College, one of the oldest in the country. Schools follow the Odisha board, BSE Odisha, based here, and first-year engineering seats fill on JEE Main rank through OJEE counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to BSE Odisha students in Cuttack?",
+        "a": "Yes, and the Odisha board, BSE Odisha, is based in Cuttack itself, so the state board is a local body. CBSE and ICSE schools run here too. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Ravenshaw University students join your programming courses?",
+        "a": "Yes. Ravenshaw traces to 1868 and is Odisha's oldest institution of higher education, so the theory is well taught. The college track adds the applied half: real Python, Java, full-stack or AI/ML work, built until it runs and can be opened by a recruiter."
+      }
+    ],
+    "_sources": {
+      "Ravenshaw University, oldest institution of higher education in Odisha, founded 1868": "https://ravenshawuniversity.ac.in/",
+      "Cuttack the former capital, 'Silver City' and 'Millennium City' (municipal corporation)": "https://cmccuttack.odisha.gov.in/index.php/history-3/",
+      "Orissa High Court seated in Cuttack, inaugurated 26 July 1948": "https://ecommitteesci.gov.in/od/division/high-court-of-orissa/",
+      "SCB Medical College & Hospital, Cuttack, one of the oldest in the country": "https://scbmch.odisha.gov.in/",
+      "Board of Secondary Education, Odisha (BSE Odisha), Cuttack": "https://bseodisha.nic.in/",
+      "First-year B.Tech on JEE Main via OJEE counselling": "https://ojee.nic.in/about-ojee/"
+    },
+    "_excluded": "SCB Medical's 1944 founding year and Cuttack's 989 AD founding are not asserted (only 'one of the oldest' and 'roughly 1000-year history', per the official pages). OJEE's own exam is not the first-year B.Tech route (that is JEE Main via OJEE counselling)."
+  },
+  "davanagere": {
+    "lede": "Davanagere sits in the heart of Karnataka, a phrase its own district portal uses, and it made its name in cotton textiles. Its landmark institution is the UBDT College of Engineering, which by its own account started in 1951 as the only government engineering college in Karnataka at the time and still stands in the centre of the city. The old Davangere cotton mills gave the town its industrial identity. Schools follow the Karnataka board, and engineering seats in the state are filled through KCET and centralised counselling, separate from the JEE Main route to the national institutes.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Karnataka board students in Davanagere?",
+        "a": "Yes. Davanagere schools run the Karnataka state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can UBDT College of Engineering students join your programming courses?",
+        "a": "Yes. UBDTCE has taught here since 1951, so the fundamentals are well covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown, which a degree alone rarely provides."
+      }
+    ],
+    "_sources": {
+      "UBDT College of Engineering, central Davanagere, started 1951 as the only government engineering college in Karnataka at the time": "https://www.ubdtce.org/about-us.php",
+      "Davanagere 'in the heart of Karnataka', known for its textile industry (district portal)": "https://davanagere.nic.in/en/about-district/",
+      "Karnataka Common Entrance Test (KCET) via KEA counselling": "https://cetonline.karnataka.gov.in/kea/"
+    },
+    "_excluded": "The 'Manchester of Karnataka' nickname and the 'more than 20 cotton mills' figure are not asserted (aggregator claims); only the district portal's textile line is used. UBDTCE's 'one of the oldest' superlative is stated in its own 1951 terms. KCET is the state engineering route."
+  },
+  "dhanbad": {
+    "lede": "Dhanbad is India's coal capital by function, and its best-known institution grew out of that. IIT (ISM) Dhanbad opened as the Indian School of Mines on 9 December 1926, inaugurated by the Viceroy Lord Irwin, and was raised to full IIT status in 2016. Bharat Coking Coal, headquartered in the city, produces the bulk of the country's coking coal, and the district administration describes the surrounding uplands as the area holding its coal mines and industry. Schools follow the Jharkhand board, the Jharkhand Academic Council, and engineering seats fill on JEE Main rank through state counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Jharkhand Academic Council students in Dhanbad?",
+        "a": "Yes. Dhanbad schools run the Jharkhand Academic Council board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can IIT (ISM) Dhanbad students join your programming courses?",
+        "a": "Yes. IIT (ISM) traces to 1926 and became a full IIT in 2016, so the theory is in good hands. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Indian School of Mines opened at Dhanbad on 9 December 1926 by Lord Irwin; became IIT (ISM) in 2016": "https://people.iitism.ac.in/~mvegm/about_us.php",
+      "Bharat Coking Coal Limited (BCCL), registered office in Dhanbad, produces the bulk of India's coking coal": "https://bcclweb.in/",
+      "Dhanbad district uplands hold its coal mines and industry (district portal)": "https://dhanbad.nic.in/about-district/",
+      "Jharkhand Academic Council (JAC), Ranchi": "https://jac.jharkhand.gov.in/about-jac.html",
+      "B.Tech seats on JEE Main via state merit list and counselling": "https://jceceb.jharkhand.gov.in/"
+    },
+    "_excluded": "The 'Coal Capital of India' nickname is used descriptively; 'third-oldest institute conferred IIT status' and the burning-Jharia-coalfield claim are not asserted. JCECE is not the engineering route: Jharkhand fills B.Tech seats on JEE Main."
+  },
+  "faridabad": {
+    "lede": "Faridabad is Haryana's industrial front on the edge of Delhi. Its own district portal calls it the top-ranking district in the state for industrialisation, and its main technical institution, J.C. Bose University of Science and Technology, grew from the YMCA Institute of Engineering founded as an Indo-German project in 1969. The city itself is old, established in 1707 by Sheikh Farid, the treasurer of the Mughal emperor Jahangir. Schools follow the Haryana board, BSEH, based at Bhiwani, and engineering seats fill on JEE Main rank through HSTES online counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to BSEH students in Faridabad?",
+        "a": "Yes. Faridabad schools run the Haryana board, BSEH, along with CBSE and ICSE, and our classes fit around any of them. The board is based at Bhiwani, not Faridabad. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can J.C. Bose University students join your programming courses?",
+        "a": "Yes. J.C. Bose University traces to 1969 and teaches the fundamentals well. In a district full of factories, what recruiters look at is built work, and that is what the college track provides: real Python, Java, full-stack or AI/ML projects, carried to something that runs."
+      }
+    ],
+    "_sources": {
+      "Faridabad top-ranking district in Haryana for industrialisation; city established 1707 by Sheikh Farid (district portal)": "https://faridabad.nic.in/about-district/",
+      "J.C. Bose University of Science and Technology, YMCA, from the 1969 Indo-German YMCA Institute of Engineering": "https://jcboseust.ac.in/about-us",
+      "Board of School Education Haryana (BSEH), Bhiwani": "https://bseh.org.in/home",
+      "HSTES centralised online counselling on JEE Main All India Rank": "https://www.hstes.org.in/"
+    },
+    "_excluded": "The portal's exact words are 'top ranking in terms of industrialization in the State', so 'most industrialised district' is deliberately avoided. The 'industrial capital of Haryana' phrase, the 56%-of-Haryana's-income figure, and named factories are not asserted. Haryana fills B.Tech seats on JEE Main via HSTES."
   }
 }
