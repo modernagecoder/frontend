@@ -2629,5 +2629,108 @@
       "UGEAC engineering admission on JEE Main rank": "https://bceceboard.bihar.gov.in/UGEACIndex.php"
     },
     "_excluded": "The '70% of Bihar's litchi' figure is not asserted (kept qualitative). Muzaffarpur Institute of Technology is a real local engineering college but not primary-sourced this pass. BCECE is not the engineering route: Bihar fills B.Tech seats through UGEAC on JEE Main."
+  },
+  "gangtok": {
+    "lede": "Gangtok is the capital of Sikkim, a hill town in the eastern Himalayas. Its main seat of higher learning is Sikkim University, the central university based in the city, set up by an Act of Parliament. The state's technical anchor, NIT Sikkim, was established in 2010, though its campus sits away from the capital near Ravangla in South Sikkim. Schools in Gangtok largely follow the CBSE, along with ICSE, and engineering seats fill on JEE Main rank.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to school students in Gangtok?",
+        "a": "Yes. Gangtok schools largely follow the CBSE, along with ICSE, and our live online classes fit around either. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test, and a student in the hills gets the same teaching as one in a metro."
+      },
+      {
+        "q": "Can Sikkim University or NIT Sikkim students join your programming courses?",
+        "a": "Yes. Sikkim University sits in Gangtok and NIT Sikkim is the state's institute of national importance, so the theory is well taught. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Sikkim University, a central university based in Gangtok, established by an Act of Parliament": "https://www.cus.ac.in/",
+      "NIT Sikkim, established 2010 (campus near Ravangla, South Sikkim), an Institute of National Importance": "https://nitsikkim.ac.in/",
+      "Gangtok, the capital of Sikkim (Gangtok district portal)": "https://gangtokdistrict.nic.in/",
+      "B.Tech via JEE Main (NTA)": "https://nta.ac.in/Engineeringexam"
+    },
+    "_excluded": "NIT Sikkim is near Ravangla, about 65 km from Gangtok, stated honestly (not attributed to the city). Sikkim has no widely-used separate Class 10/12 state board; Gangtok schools are described as largely CBSE, which is accurate."
+  },
+  "goa": {
+    "lede": "Goa packs a lot of higher education into a small state. Goa University, set up under a 1984 Act and running from 1985, sits on the Taleigao plateau just outside Panaji and affiliates most of the state's colleges. The Goa College of Engineering, founded in 1967, is the oldest public engineering college in Goa, and the state also holds the BITS Pilani K.K. Birla Goa Campus, opened in 2004. Schools follow the Goa board, GBSHSE, and engineering admission runs through the Goa Common Entrance Test, GCET, with JEE Main also accepted.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Goa board students in Goa?",
+        "a": "Yes. Goa schools run the GBSHSE state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Goa College of Engineering or BITS Goa students join your programming courses?",
+        "a": "Yes. The Goa College of Engineering has taught since 1967 and BITS Pilani runs a full campus here, so the theory is in good hands. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Goa University, established under the Goa University Act 1984 (functioning from 1985), Taleigao plateau near Panaji": "https://www.unigoa.ac.in/about-us/c/general-info.html",
+      "Goa College of Engineering, established 1967, the oldest public engineering college in Goa (Farmagudi, Ponda)": "https://www.gec.ac.in/",
+      "BITS Pilani, K.K. Birla Goa Campus, opened 2004": "https://www.bits-pilani.ac.in/goa/",
+      "Goa Board of Secondary and Higher Secondary Education (GBSHSE)": "https://gbshse.info/",
+      "GCET (Goa Common Entrance Test) via the Directorate of Technical Education, Goa": "https://dte.goa.gov.in/"
+    },
+    "_excluded": "Goa University and BITS Goa (Zuarinagar) are near Panaji and in South Goa respectively; Goa College of Engineering is at Farmagudi, Ponda. Locations stated honestly. GCET is the state route; JEE Main is also accepted (a 'Non JEE' category exists at DTE Goa)."
+  },
+  "imphal": {
+    "lede": "Imphal is the capital of Manipur, set in a valley ringed by hills. Its central university, Manipur University, sits at Canchipur on the edge of the city, and the state's institute of national importance, NIT Manipur, established in 2010, now runs from its permanent campus at Langol in Imphal. Schools follow the Manipur boards, BSEM for the Class 10 exam and COHSEM for higher secondary, and engineering seats fill on JEE Main rank.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Manipur board students in Imphal?",
+        "a": "Yes. Imphal schools run the Manipur boards, BSEM for Class 10 and COHSEM for higher secondary, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Manipur University or NIT Manipur students join your programming courses?",
+        "a": "Yes. Manipur University at Canchipur and NIT Manipur at Langol both teach here, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Manipur University, a central university at Canchipur, Imphal": "https://www.manipuruniv.ac.in/",
+      "NIT Manipur, established 2010, permanent campus at Langol, Imphal, an Institute of National Importance": "https://nitmanipur.ac.in/",
+      "Board of Secondary Education, Manipur (BSEM)": "https://bsem.nic.in/",
+      "Council of Higher Secondary Education, Manipur (COHSEM)": "https://cohsem.nic.in/",
+      "B.Tech via JEE Main (NTA)": "https://nta.ac.in/Engineeringexam"
+    },
+    "_excluded": "Manipur University's campus is at Canchipur, on the southern edge of Imphal, stated honestly. NIT Manipur runs from Langol within Imphal (confirmed by its own site)."
+  },
+  "latur": {
+    "lede": "Latur is a byword for exam preparation in Maharashtra. In the Marathwada region, the city is known across the state for the 'Latur Pattern' of study, an intensive coaching method that has sent its students to the top of the board and entrance results for decades, and it now draws pupils from neighbouring districts. Its colleges are affiliated to Swami Ramanand Teerth Marathwada University at Nanded, which keeps a sub-centre in the city. Schools follow the Maharashtra state board, and engineering admission runs through MHT-CET.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Maharashtra board students in Latur?",
+        "a": "Yes. Latur schools run the Maharashtra state board, along with CBSE and ICSE, and our classes fit around any of them. In a city built on exam coaching, we do something different: we teach the programming itself, Python or Java, so it becomes a skill your child can build with, not another paper to cram."
+      },
+      {
+        "q": "Can college students in Latur join your programming courses?",
+        "a": "Yes. Latur's strength is exam results, but recruiters hire on built work, and that is what the college track provides: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown. A rank rarely shows built work, and that is the gap we fill."
+      }
+    ],
+    "_sources": {
+      "Latur, in the Marathwada region, known for the 'Latur Pattern' of study (intensive coaching)": "https://en.wikipedia.org/wiki/Latur",
+      "Latur, an educational hub of the region (district portal)": "https://latur.gov.in/en/",
+      "Swami Ramanand Teerth Marathwada University, Nanded (affiliates Latur's colleges, sub-centre in Latur)": "https://srtmun.ac.in/",
+      "Maharashtra State Board of Secondary and Higher Secondary Education (MSBSHSE)": "https://mahahsscboard.in/",
+      "MHT-CET via the State CET Cell, Maharashtra": "https://cetcell.mahacet.org/"
+    },
+    "_excluded": "The 'Latur Pattern' description and the education-hub reputation are sourced to Wikipedia and the district portal; exact topper counts are not asserted. SRTMU's main campus is at Nanded, with a sub-centre in Latur, stated honestly."
+  },
+  "sikar": {
+    "lede": "Sikar is Rajasthan's fast-rising coaching town. The largest city of the Shekhawati region, it has grown in a few years into one of the country's biggest hubs for medical and engineering entrance preparation, spoken of as a calmer, cheaper rival to Kota, with its students taking top ranks in the national exams. Schools follow the Rajasthan board, RBSE, seated at Ajmer, and engineering seats fill through REAP, the state's centralised counselling, on JEE Main and state merit.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to RBSE students in Sikar?",
+        "a": "Yes. Sikar schools run the Rajasthan board, RBSE, along with CBSE and ICSE, and our classes fit around any of them. In a coaching town, we do something the coaching classes do not: we teach the programming itself, Python or Java, so it becomes a skill your child can build with, not another exam to cram."
+      },
+      {
+        "q": "Can college students in Sikar join your programming courses?",
+        "a": "Yes. Sikar is built on entrance results, but recruiters hire on built work, and that is what the college track provides: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown. A rank rarely shows built work, and that is the gap we fill."
+      }
+    ],
+    "_sources": {
+      "Sikar, the largest city of the Shekhawati region, a major competitive-exam coaching hub (Wikipedia)": "https://en.wikipedia.org/wiki/Sikar",
+      "Sikar district (Shekhawati, Rajasthan) (district portal)": "https://sikar.rajasthan.gov.in/",
+      "Board of Secondary Education, Rajasthan (RBSE), Ajmer": "https://rajeduboard.rajasthan.gov.in/",
+      "REAP (Rajasthan Engineering Admission Process), Board of Technical Education Rajasthan": "https://techedu.rajasthan.gov.in/"
+    },
+    "_excluded": "The coaching-hub identity and 'Mini Kota' framing are sourced to Wikipedia; specific centre counts and topper figures are not asserted. Sikar's own engineering colleges (for example Sobhasaria) exist but are not made the lead."
   }
 }
