@@ -1529,5 +1529,176 @@
       "B.Tech seats on JEE Main via IKGPTU centralised counselling": "https://ptu.ac.in/admissions/"
     },
     "_excluded": "Lovely Professional University is at Phagwara (Kapurthala district), not Jalandhar city (geography). Guru Nanak Dev University is in Amritsar, not Jalandhar. The sports-goods turnover and market-share percentages are not asserted (kept general). NIT Jalandhar's founding is corroborated via search because nitj.ac.in redirect-loops on direct fetch; the fact and canonical source are sound."
+  },
+  "jabalpur": {
+    "lede": "Jabalpur is Madhya Pradesh's judicial and railway capital. The High Court of Madhya Pradesh has its principal seat here, not in Bhopal, and the city is also the headquarters of the West Central Railway. Its main university, Rani Durgavati Vishwavidyalaya, was established under the Jabalpur University Act in 1956, and the district carries a syncretic culture that traces back to the Kalachuri and Gond dynasties. Schools follow the Madhya Pradesh board, MPBSE, based in Bhopal, and since the state runs no engineering entrance of its own, B.Tech seats fill on JEE Main.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to MP Board students in Jabalpur?",
+        "a": "Yes. Jabalpur schools run the Madhya Pradesh board, MPBSE, along with CBSE and ICSE, and our classes fit around any of them. The board is based in Bhopal. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Rani Durgavati Vishwavidyalaya students join your programming courses?",
+        "a": "Yes. Rani Durgavati University has served Jabalpur since 1956, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "The High Court of Madhya Pradesh at Jabalpur (principal seat)": "https://mphc.gov.in/history",
+      "Jabalpur hosts the West Central Railway headquarters; culture traces to the Kalachuri and Gond dynasties (district portal)": "https://jabalpur.nic.in/en/about-district/",
+      "Rani Durgavati Vishwavidyalaya, Jabalpur, established 12 June 1956": "https://www.rdunijbpin.org/",
+      "Madhya Pradesh board MPBSE, Bhopal": "https://mpbse.nic.in/",
+      "B.Tech via JEE Main; MP has no state engineering entrance": "https://nta.ac.in/Engineeringexam"
+    },
+    "_excluded": "The Marble Rocks at Bhedaghat and the 'Sanskardhani' nickname are not asserted (not on the district's about page fetched here). Madhya Pradesh runs no state engineering entrance, so B.Tech is on JEE Main."
+  },
+  "meerut": {
+    "lede": "Meerut makes the tools of Indian sport and music. Its district administration calls it one of the largest producers of sports goods and the largest producer of musical instruments in India, and the SG cricket brand is made here. Meerut also carries a place in national history: the uprising of 1857 began on its soil on 10 May that year. The city is an education hub of western Uttar Pradesh, anchored by Chaudhary Charan Singh University. Schools follow the UP Board, UPMSP, seated in Prayagraj, and engineering seats fill on JEE Main rank through UPTAC counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to UP Board students in Meerut?",
+        "a": "Yes. Meerut schools run the UP Board, UPMSP, along with CBSE and ICSE, and our classes fit around any of them. The board is seated in Prayagraj. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Chaudhary Charan Singh University students join your programming courses?",
+        "a": "Yes. Chaudhary Charan Singh University is headquartered in Meerut and anchors the city's role as an education hub of western UP. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Meerut one of the largest producers of sports goods and the largest producer of musical instruments in India, an education hub of western UP (district portal)": "https://meerut.nic.in/about-district/",
+      "The SG cricket brand is manufactured in Meerut (district portal)": "https://meerut.nic.in/economy/",
+      "The 1857 uprising began at Meerut on 10 May 1857 (district portal)": "https://meerut.nic.in/history/",
+      "Chaudhary Charan Singh University, Meerut": "https://ccsuniversityadm.samarth.edu.in/",
+      "UP Board UPMSP, Prayagraj": "https://upmsp.edu.in/",
+      "B.Tech on JEE Main via UPTAC counselling": "https://uptac.samarth.edu.in/"
+    },
+    "_excluded": "CCSU's 1965 founding and its former name 'Meerut University' are not asserted (its own site is a JS-only shell in this pass). SVPUAT at Modipuram is not asserted (its site returned a TLS error). The sports-goods export-share percentages are not asserted (secondary sources only)."
+  },
+  "kozhikode": {
+    "lede": "Kozhikode carries a rare double distinction. It was at Kappad, near the city, that Vasco da Gama landed in 1498, opening Europe's sea route to India, and in 2023 UNESCO named Kozhikode a Creative City of Literature. Education runs deep too: NIT Calicut, one of the national institutes, was set up as a Regional Engineering College in 1961 and became an NIT in 2002, and IIM Kozhikode has been on its hillside campus at Kunnamangalam since 1996. Schools follow the Kerala board, and engineering admission runs through KEAM. The University of Calicut, often linked with the name, is actually at Thenhipalam in Malappuram district.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Kerala board students in Kozhikode?",
+        "a": "Yes. Kozhikode schools run the Kerala board, with the SSLC for Class 10, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can NIT Calicut or IIM Kozhikode students join your programming courses?",
+        "a": "Yes. NIT Calicut dates to 1961 and IIM Kozhikode to 1996, so the theory is well taught, though both campuses sit a little outside the city. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs."
+      }
+    ],
+    "_sources": {
+      "Vasco da Gama landed at Kappad, Kozhikode, in 1498 (Kerala Tourism)": "https://www.keralatourism.org/destination/kappad-beach-kozhikode/257/",
+      "UNESCO named Kozhikode a Creative City of Literature (2023)": "https://www.unesco.org/en/articles/55-new-cities-join-unesco-creative-cities-network-world-cities-day",
+      "NIT Calicut established 1961 as a Regional Engineering College, an NIT since 2002, about 22 km from the city": "https://nitc.ac.in/about-us",
+      "IIM Kozhikode set up 1996 at Kunnamangalam": "https://www.iimk.ac.in/",
+      "Kerala Board of Public Examinations (SSLC)": "https://kbpe.kerala.gov.in/?page=seo",
+      "KEAM engineering admission via the Commissioner for Entrance Examinations, Kerala": "https://cee.kerala.gov.in/"
+    },
+    "_excluded": "The University of Calicut is at Thenhipalam in Malappuram district, not Kozhikode city (geography). Some historians dispute Kappad as da Gama's exact landing spot, so only the Kerala Tourism version is stated. NIT Calicut's exact locality (Kattangal) is context, not asserted, since its own site gives only 'about 22 km north-east'."
+  },
+  "thrissur": {
+    "lede": "Thrissur calls itself the cultural capital of Kerala, the land of Poorams, and its famous Thrissur Pooram is held at the Vadakkunnathan Temple in the heart of the city. It has substance beyond the festivals: Government Engineering College Thrissur has taught since 1957, the Kerala Agricultural University is based nearby at Vellanikkara, and the Kerala Sahitya Akademi moved its home to Thrissur in 1958. Schools follow the Kerala board, and engineering admission runs through KEAM, conducted by the state's Commissioner for Entrance Examinations.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Kerala board students in Thrissur?",
+        "a": "Yes. Thrissur schools run the Kerala board, with the SSLC for Class 10, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Government Engineering College Thrissur students join your programming courses?",
+        "a": "Yes. Government Engineering College Thrissur has taught here since 1957, so the fundamentals are well covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Thrissur the cultural capital of Kerala, the land of Poorams (district portal)": "https://thrissur.nic.in/en/district-profile/",
+      "Thrissur Pooram held at the Vadakkunnathan Temple (district portal)": "https://thrissur.nic.in/en/culture-heritage/",
+      "Government Engineering College Thrissur established 1957": "https://alumni.gectcr.ac.in/page/About-us.dz",
+      "Kerala Agricultural University headquartered at Vellanikkara, Thrissur district": "https://www.kau.in/",
+      "Kerala Sahitya Akademi moved its headquarters to Thrissur in 1958": "https://keralasahityaakademi.org/",
+      "KEAM via the Commissioner for Entrance Examinations, Kerala": "https://cee.kerala.gov.in/"
+    },
+    "_excluded": "Kerala Kalamandalam is at Cheruthuruthy, about 30 km from the city, so it is not presented as a Thrissur-city fact. Kerala Agricultural University's 1971 founding year is not asserted (its About page returned 404). GEC Thrissur's 'oldest/first-after-statehood' superlative is dropped (secondary sources)."
+  },
+  "tirupati": {
+    "lede": "Tirupati is defined by the temple on the hills above it: the Sri Venkateswara shrine at Tirumala, in the Seshachalam hills, is one of the world's most-visited pilgrimage centres, while the ancient Govindarajaswamy temple sits in the heart of the town itself. Around this, an education cluster has grown. Sri Venkateswara University was founded here in 1954, IIT Tirupati was set up in 2015 with its campus out at Yerpedu, and IISER Tirupati began the same year. Schools follow the Andhra Pradesh boards, and engineering admission is AP EAPCET, conducted by JNTU Kakinada for the state council.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to BSEAP students in Tirupati?",
+        "a": "Yes. Tirupati schools run the Andhra Pradesh board, BSEAP for Class 10 and BIEAP for Intermediate, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Sri Venkateswara University or IIT Tirupati students join your programming courses?",
+        "a": "Yes. Sri Venkateswara University dates to 1954 and IIT Tirupati to 2015, so the theory is well taught, though the IIT campus sits out at Yerpedu. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs."
+      }
+    ],
+    "_sources": {
+      "Sri Venkateswara temple atop the Tirumala/Seshachalam hills above Tirupati (district tourism portal)": "https://tirupati.ap.gov.in/tourist-place/sri-vari-temple-tirumala/",
+      "Sri Govindarajaswamy Temple in the heart of Tirupati city (district tourism portal)": "https://tirupati.ap.gov.in/tourist-place/sir-govindarajaswamy-temple/",
+      "Sri Venkateswara University founded 1954 in Tirupati": "https://svuniversity.edu.in/history/",
+      "IIT Tirupati established 2015; permanent campus at Merlapaka, Yerpedu, about 22 km out": "https://www.iittp.ac.in/permanent-campus",
+      "IISER Tirupati commenced August 2015": "https://www.iisertirupati.ac.in/about-us/",
+      "Board of Secondary Education, Andhra Pradesh (SSC)": "https://bse.ap.gov.in/",
+      "AP EAPCET conducted by JNTU Kakinada for APSCHE": "https://cets.apsche.ap.gov.in/EAPCET/EAPCET/EAPCET_HomePage.aspx"
+    },
+    "_excluded": "The Sri Venkateswara temple is placed atop the Tirumala/Seshachalam hills above the town (managed by TTD), not in the city (geography); the in-city temple is Govindarajaswamy. SVU's 'oldest/first in the region' superlatives and headcount stats are not asserted."
+  },
+  "kharagpur": {
+    "lede": "Kharagpur is where India's IIT story began. IIT Kharagpur, the first of the Indian Institutes of Technology, was born in 1950 on the site of the old Hijli Detention Camp, where freedom fighters had been imprisoned, and was formally inaugurated in 1951 by Maulana Abul Kalam Azad. That founding still defines the town. Schools follow the West Bengal boards, WBBSE for Class 10 and WBCHSE for Plus Two, and engineering admission in the state runs through its own entrance, WBJEE.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to West Bengal board students in Kharagpur?",
+        "a": "Yes. Kharagpur schools run the West Bengal boards, WBBSE for the Class 10 Madhyamik and WBCHSE for Plus Two, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can IIT Kharagpur students join your programming courses?",
+        "a": "Yes. IIT Kharagpur was the first of the IITs, dating to 1950, so the theory is in the best of hands. The college track adds the applied, portfolio side: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "IIT Kharagpur, India's first IIT, born 1950 at Hijli on the former Hijli Detention Camp site, inaugurated 18 August 1951 by Maulana Abul Kalam Azad": "https://www.iitkgp.ac.in/about-iitkgp-history",
+      "West Bengal Board of Secondary Education (WBBSE), Class 10 Madhyamik": "https://wbbse.wb.gov.in/",
+      "WBJEE, the state engineering entrance, via WBJEEB": "https://wbjeeb.in/"
+    },
+    "_excluded": "The 'world's longest railway platform' at Kharagpur is not asserted (only secondary sources, and the record has since been surpassed). WBCHSE's specific location is not asserted (not stated verbatim on the site fetched)."
+  },
+  "pimpri-chinchwad": {
+    "lede": "Pimpri-Chinchwad is a twin city with its own municipal corporation, distinct from Pune, and its official portal calls it a prominent industrial region of Maharashtra. That industry has a specific origin: development began in 1954 with Hindustan Antibiotics, described as India's first pharmaceutical company, and grew into an automobile hub home to Tata Motors, Bajaj Auto and Force Motors. Pimpri Chinchwad College of Engineering has run in Nigdi since 1999, affiliated to Savitribai Phule Pune University. Schools follow the Maharashtra state board, and engineering admission is MHT-CET through the state's centralised process.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Maharashtra board students in Pimpri-Chinchwad?",
+        "a": "Yes. Pimpri-Chinchwad schools run the Maharashtra state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about."
+      },
+      {
+        "q": "Can Pimpri Chinchwad College of Engineering students join your programming courses?",
+        "a": "Yes. PCCOE has run in Nigdi since 1999 under Savitribai Phule Pune University, so the fundamentals are well covered. In a city built on manufacturing, what recruiters look at is built work, and that is the college track: real Python, Java, full-stack or AI/ML, carried to something that runs."
+      }
+    ],
+    "_sources": {
+      "Pimpri-Chinchwad a prominent industrial region of Maharashtra; industrial development began in 1954 with Hindustan Antibiotics, the first pharmaceutical company (PCMC)": "https://www.pcmcindia.gov.in/business_info.php",
+      "Pimpri Chinchwad College of Engineering (PCCOE), Nigdi, run by PCET since 1999-2000, affiliated to SPPU": "https://www.pccoepune.com/",
+      "Maharashtra State Board (MSBSHSE), Pune": "https://mahahsscboard.org.in/MSBSHSE.html",
+      "B.E./B.Tech via MHT-CET and the state CAP": "https://fe2026.mahacet.org/"
+    },
+    "_excluded": "Pimpri-Chinchwad is distinct from Pune (its own municipal corporation, PCMC). The PCMC's 1982 formation date and the 'Detroit of the East' nickname are not asserted (secondary sources only). Hinjawadi / Rajiv Gandhi Infotech Park is in Mulshi taluka, Pune district, outside PCMC, so it is not counted as a city fact."
+  },
+  "solapur": {
+    "lede": "Solapur runs on looms. Its district administration lists the city's signature products as sheets, towels and pomegranates, and calls handloom and powerloom weaving Solapur's core industry, with the beedi trade second. The Solapur Chaddar, the city's woven blanket, received a Geographical Indication tag from the Government of India in 2005. Its state university, Punyashlok Ahilyadevi Holkar Solapur University, was formed in 2004. Schools follow the Maharashtra state board, and engineering admission is MHT-CET through the state's centralised process.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Maharashtra board students in Solapur?",
+        "a": "Yes. Solapur schools run the Maharashtra state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Punyashlok Ahilyadevi Holkar Solapur University students join your programming courses?",
+        "a": "Yes. The state university has served Solapur since 2004, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Solapur's signature products are sheets, towels and pomegranates (district portal)": "https://solapur.gov.in/en/",
+      "Handloom and powerloom weaving Solapur's core industry, with beedi second (district industries page)": "https://solapur.gov.in/en/industries/",
+      "The Solapur Chaddar granted Geographical Indication status by the Government of India in 2005 (Incredible India)": "https://www.incredibleindia.gov.in/en/maharashtra/solapur-chaddar",
+      "Punyashlok Ahilyadevi Holkar Solapur University, formed 2004": "http://www.sus.ac.in/about/History",
+      "Maharashtra State Board (MSBSHSE)": "https://www.mahahsscboard.org.in/",
+      "B.E./B.Tech via MHT-CET and the state CAP": "https://fe2026.mahacet.org/"
+    },
+    "_excluded": "The university's own history page gives 22 July 2004 (the aggregators' 1 August 2004 is discarded). The 'Asia's largest spinning mills' superlative is dropped (Wikipedia only). The Siddheshwar temple is not asserted (not primary-verified in this pass)."
   }
 }
