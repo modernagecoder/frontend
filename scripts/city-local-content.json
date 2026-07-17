@@ -1221,5 +1221,160 @@
       "HSTES centralised online counselling on JEE Main All India Rank": "https://www.hstes.org.in/"
     },
     "_excluded": "The portal's exact words are 'top ranking in terms of industrialization in the State', so 'most industrialised district' is deliberately avoided. The 'industrial capital of Haryana' phrase, the 56%-of-Haryana's-income figure, and named factories are not asserted. Haryana fills B.Tech seats on JEE Main via HSTES."
+  },
+  "raipur": {
+    "lede": "Raipur was made the capital of Chhattisgarh because it sits almost at the geographic centre of the state, and its district administration calls it the Smart City and Educational Hub of Chhattisgarh. The engineering names are here: NIT Raipur grew out of a 1956 government engineering college and became a National Institute of Technology in 2005, and AIIMS Raipur is one of the six new AIIMS set up under the PMSSY scheme. Pandit Ravishankar Shukla University serves the state from the city. Schools follow the Chhattisgarh board, CGBSE, based in Raipur, and engineering seats fill through the CG-PET entrance and state counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to CGBSE students in Raipur?",
+        "a": "Yes, and the Chhattisgarh board, CGBSE, is based in Raipur itself, so the state board is a local body. CBSE and ICSE schools run here too. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can NIT Raipur or Pandit Ravishankar Shukla University students join your programming courses?",
+        "a": "Yes. NIT Raipur became a National Institute of Technology in 2005 and PRSU serves the state from the city, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Raipur the capital of Chhattisgarh (near the state's geographic centre), the 'Smart City and Educational Hub of Chhattisgarh' (district portal)": "https://raipur.gov.in/en/",
+      "NIT Raipur, from a 1956 government engineering college, a National Institute of Technology since 1 December 2005": "https://www.nitrr.ac.in/aboutus.php",
+      "AIIMS Raipur, one of six new AIIMS under the PMSSY scheme": "https://www.aiimsraipur.edu.in/",
+      "Pandit Ravishankar Shukla University in Raipur": "https://raipur.gov.in/en/public-utility/pandit-ravishankar-shukla-university/",
+      "Chhattisgarh board CGBSE, Raipur": "https://www.cgbse.org/",
+      "CG-PET engineering entrance via CG Vyapam and DTE counselling": "https://vyapamcg.cgstate.gov.in/"
+    },
+    "_excluded": "IIT Bhilai is in Bhilai (Durg district), not Raipur (geography). PRSU's 1964 founding and 'oldest/largest university' superlative are not asserted (its own site returned 403). The Naya Raipur / Atal Nagar wording and CGBSE's founding year are not asserted (no primary source opened)."
+  },
+  "thiruvananthapuram": {
+    "lede": "Thiruvananthapuram is Kerala's capital and its technology showcase. The College of Engineering Trivandrum, established in 1939, was the first engineering college in the old Travancore State, and Technopark, on the city's edge, describes itself as the first IT park in India. ISRO's lead centre for launch-vehicle technology, the Vikram Sarabhai Space Centre, is based here, and the University of Kerala is headquartered at Palayam. For school students the Class 10 board is the Kerala Board of Public Examinations, based in the city at Poojappura, and engineering admission runs through KEAM, conducted by the state's Commissioner for Entrance Examinations.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Kerala board students in Thiruvananthapuram?",
+        "a": "Yes, and the Kerala Board of Public Examinations, which runs the SSLC, is based here in the city at Poojappura. CBSE and ICSE schools operate here too. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can College of Engineering Trivandrum or University of Kerala students join your programming courses?",
+        "a": "Yes. CET has taught here since 1939 and the University of Kerala is headquartered in the city, so the theory is close at hand. In a place built around Technopark, what counts is built work, and that is the college track: real Python, Java, full-stack or AI/ML projects, carried to something that runs."
+      }
+    ],
+    "_sources": {
+      "Thiruvananthapuram the capital and largest city of Kerala (Kerala Ecostat)": "https://ecostat.kerala.gov.in/page/Thiruvananthapuram",
+      "College of Engineering Trivandrum established 1939, first engineering college in the erstwhile Travancore State": "https://www.cet.ac.in/the-college/",
+      "Technopark, the first IT park in India and India's largest green technology park": "https://technopark.in/",
+      "Vikram Sarabhai Space Centre (VSSC), ISRO's lead centre for launch-vehicle technology, in Thiruvananthapuram": "https://www.isro.gov.in/VSSC.html",
+      "University of Kerala headquartered at Palayam, Thiruvananthapuram": "https://www.keralauniversity.ac.in/",
+      "Kerala Board of Public Examinations (SSLC) at Poojappura, Thiruvananthapuram": "https://kbpe.kerala.gov.in/",
+      "KEAM engineering admission via the Commissioner for Entrance Examinations, Kerala": "https://cee.kerala.gov.in/cee/"
+    },
+    "_excluded": "The University of Kerala's founding year is not asserted (not on its own homepage). Technopark's specific founding year is not asserted (sources conflict between 1990 inception and a 1995 inauguration); only the verified 'first IT park in India' claim is used. The Plus Two board (DHSE) and the Padmanabhaswamy temple were not primary-sourced in this pass, so they are not asserted."
+  },
+  "rajkot": {
+    "lede": "Rajkot sits in the heart of Saurashtra and carries a piece of national history: Mahatma Gandhi did his schooling here, graduating from Alfred High School in 1887, in a building that is now the Mahatma Gandhi Museum. The city's public university, Saurashtra University, was established in 1967, and Marwadi University was set up as a private university in 2016. Schools follow the Gujarat board, GSEB, whose head office is in Gandhinagar, and for engineering the main route for Gujarat students is the ACPC admission process on the GUJCET state exam.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to GSEB students in Rajkot?",
+        "a": "Yes. Rajkot schools run the Gujarat board, GSEB, along with CBSE and other boards, and our classes fit around any of them. The board's head office is in Gandhinagar, not Rajkot. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Saurashtra University or Marwadi University students join your programming courses?",
+        "a": "Yes. Saurashtra University has served the region since 1967 and Marwadi University since 2016, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "Saurashtra University, Rajkot, established 23 May 1967": "https://saurashtrauniversity.ac.in/about-saurashtra-university/",
+      "Marwadi University, Rajkot, established 2016 under the Gujarat Private Universities Act": "https://www.marwadiuniversity.ac.in/about-us/",
+      "Gandhi graduated from Alfred High School, Rajkot, in 1887; now the Mahatma Gandhi Museum": "https://gujarattourism.com/saurashtra/rajkot/gandhi-museaum.html",
+      "Rajkot in the central Saurashtra region of Gujarat (district portal)": "https://rajkot.nic.in/about-district/",
+      "Gujarat board GSEB, head office in Gandhinagar": "https://gseb.org/",
+      "BE/B.Tech admission via ACPC on GUJCET": "https://gujacpc.admissions.nic.in/about-acpc/"
+    },
+    "_excluded": "AIIMS Rajkot is not asserted: its own site returned an empty shell, PIB and the ISTI portal could not be opened, and its permanent campus is about 14 km outside the city. Marwadi University's NAAC and 'Centre of Excellence' superlatives are dropped (self-reported). Watson Museum is not asserted (not primary-verified in this pass)."
+  },
+  "mysore": {
+    "lede": "Mysuru is Karnataka's old royal capital, seat of the Wodeyar dynasty for more than five hundred years, and its landmark Amba Vilas Palace was built between 1897 and 1912 in the Indo-Saracenic style. The city was also where Karnataka's university education began: the University of Mysore, founded in 1916, was the first university in the state and the sixth oldest in the country. The National Institute of Engineering has trained engineers here since 1946. Schools follow the Karnataka board, KSEAB, and engineering seats are filled through KCET, conducted by the Karnataka Examinations Authority.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Karnataka board students in Mysore?",
+        "a": "Yes. Mysuru schools run the Karnataka state board, KSEAB, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about."
+      },
+      {
+        "q": "Can University of Mysore or NIE students join your programming courses?",
+        "a": "Yes. The University of Mysore has taught here since 1916 and the National Institute of Engineering since 1946, so the fundamentals are well covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "University of Mysore established 1916, first university in Karnataka, sixth oldest in India": "https://www.uni-mysore.in/about-the-university",
+      "Amba Vilas (Mysore) Palace, Indo-Saracenic, built 1897-1912 (Government of Karnataka)": "https://mysorepalace.karnataka.gov.in/history.html",
+      "Mysuru the seat of the Wodeyar dynasty for more than 500 years": "https://mysorepalace.karnataka.gov.in/about_us.html",
+      "National Institute of Engineering (NIE), Mysuru, established 1946": "https://nie.ac.in/about/",
+      "Karnataka School Examination and Assessment Board (KSEAB)": "https://kseab.karnataka.gov.in/english",
+      "KCET via the Karnataka Examinations Authority (KEA)": "https://cetonline.karnataka.gov.in/kea/"
+    },
+    "_excluded": "JSS Science and Technology University / SJCE (a real Mysuru engineering university) is not asserted with a founding year (its own site is JS-rendered and could not be opened). The Infosys 'world's largest corporate training centre' superlative is dropped (infosys.com returned 403). The palace visitor-count stat and KSEAB's specific address are not asserted."
+  },
+  "trichy": {
+    "lede": "Tiruchirappalli, on the banks of the Cauvery, is a temple city and an engineering town at once. Its skyline is the Rockfort, a 275-foot rock reached by 437 steps, while across the river at Srirangam stands the vast Arulmigu Ranganathaswamy temple. On the industrial side, NIT Tiruchirappalli is one of the country's premier engineering institutes, Bharathidasan University was established here in 1982, and BHEL runs two major manufacturing plants in the city. Schools follow the Tamil Nadu state board, and engineering admission is TNEA, the state's single-window counselling rather than an entrance exam.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Tamil Nadu board students in Trichy?",
+        "a": "Yes. Trichy schools run the Tamil Nadu state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can NIT Trichy or Bharathidasan University students join your programming courses?",
+        "a": "Yes. NIT Trichy is one of the country's leading institutes and Bharathidasan University has served the region since 1982, so the theory is well taught. Tamil Nadu admits through TNEA single-window counselling rather than an exam, and the college track adds the built work a transcript never shows: real Python, Java, full-stack or AI/ML, carried to something that runs."
+      }
+    ],
+    "_sources": {
+      "NIT Tiruchirappalli (620015)": "https://www.nitt.edu/",
+      "Bharathidasan University, Palkalaiperur, Tiruchirappalli, established February 1982": "https://www.bduedu.in/about-us",
+      "BHEL's High Pressure Boiler Plant and Seamless Steel Tube Plant at Tiruchirappalli": "https://www.bhel.com/units-and-divisions",
+      "Rockfort (Ucchi Pillaiyar Kovil), 275 ft, 437 steps (district portal)": "https://tiruchirappalli.nic.in/tourist-place/rockfort-temple/",
+      "Arulmigu Ranganathaswamy Temple, Srirangam, Tiruchirappalli district": "https://srirangamranganathar.hrce.tn.gov.in/",
+      "TNEA single-window counselling (Anna University Centre for Admissions)": "https://cfa.annauniv.edu/cfa/"
+    },
+    "_excluded": "Srirangam 'largest functioning Hindu temple in the world' is not asserted (not on the official HR&CE page; only the 156-acre figure is official). The exact TNEA cutoff marks formula is not asserted (only third-party sites state it; the official portal did not open). No DGE regional office in Trichy is asserted."
+  },
+  "nashik": {
+    "lede": "Nashik prints the things the country runs on. The India Security Press at Nashik Road is the only facility in India that prints the nation's passports and travel documents, and the Currency Note Press beside it is one of only two presses that print India's banknotes. The city also hosts Yashwantrao Chavan Maharashtra Open University at its Dnyangangotri campus, and Sula, the vineyard at the centre of India's wine country, is here. Schools follow the Maharashtra state board through its Nashik divisional office, and engineering seats are filled through MHT-CET and the state's centralised admission process.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Maharashtra board students in Nashik?",
+        "a": "Yes. Nashik has its own divisional office of the Maharashtra state board, and CBSE and ICSE schools run here too. Our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about."
+      },
+      {
+        "q": "Can engineering college students in Nashik join your programming courses?",
+        "a": "Yes. Maharashtra admits to engineering through MHT-CET and the state's centralised process, and Nashik's colleges teach the theory well. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter."
+      }
+    ],
+    "_sources": {
+      "India Security Press, Nashik Road, the only organisation in India that prints passports and travel documents (SPMCIL)": "https://ispnasik.spmcil.com/en/about-us/",
+      "Currency Note Press, Nashik Road, prints India's banknotes (one of two currency presses)": "https://cnpnashik.spmcil.com/en/about-us/",
+      "Yashwantrao Chavan Maharashtra Open University (YCMOU) at Dnyangangotri, Nashik": "https://nashik.gov.in/en/public-utility/ycmou/",
+      "Nashik one of the nine divisional boards of MSBSHSE": "https://mahahsscboard.org.in/MSBSHSE.html",
+      "Sula Vineyards, Nashik": "https://sulavineyards.com/",
+      "B.E./B.Tech via MHT-CET and the state CAP": "https://fe2026.mahacet.org/"
+    },
+    "_excluded": "YCMOU's 1989 founding year is not asserted (ycmou.ac.in returned 403). The Kumbh Mela is not claimed (Trimbakeshwar is about 28 km outside the city and no primary source was opened). The 'Wine Capital of India' superlative is dropped (only third-party media). The '40% of India's currency' figure is not attributed to Nashik (the official page states it jointly with Dewas)."
+  },
+  "madurai": {
+    "lede": "Madurai grew up around the Meenakshi Sundareswarar temple, the twin shrine of Meenakshi and Sundareswarar that still anchors the old city. Its education has depth too: Thiagarajar College of Engineering was established in 1957 by the philanthropist Karumuttu Thiagarajan Chettiar, and Madurai Kamaraj University was set up by the state in 1965. The city also keeps the Gandhi Memorial Museum in the historic Tamukkam Palace. Schools follow the Tamil Nadu state board, with a regional examinations office in Madurai, and engineering admission is TNEA, the state's single-window counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to Tamil Nadu board students in Madurai?",
+        "a": "Yes. Madurai schools run the Tamil Nadu state board, which keeps a regional examinations office in the city, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Thiagarajar College of Engineering or Madurai Kamaraj University students join your programming courses?",
+        "a": "Yes. TCE has taught engineering here since 1957 and Madurai Kamaraj University since 1965, so the fundamentals are well covered. The college track adds the built work a transcript never shows: real Python, Java, full-stack or AI/ML, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Thiagarajar College of Engineering, Madurai, established 1957 by Karumuttu Thiagarajan Chettiar": "https://www.tce.edu/about/about-the-college",
+      "Madurai Kamaraj University established 1965 by the Government of Tamil Nadu": "https://mkuniversity.ac.in/dde/",
+      "Meenakshi Sundareswarar temple, the twin shrine that Madurai grew around (district portal)": "https://madurai.nic.in/tourist-place/sri-meenakshi-sundareswarar-temple/",
+      "Gandhi Memorial Museum, Tamukkam, Madurai": "https://gandhimmm.org/museum-galleries/",
+      "Tamil Nadu State Board (DGE), with a Madurai regional office": "https://apply1.tndge.org/en/about-us",
+      "TNEA single-window counselling (Anna University Centre for Admissions)": "https://cfa.annauniv.edu/cfa/"
+    },
+    "_excluded": "The 'no entrance exam, Class 12 marks only' specifics of TNEA are not asserted (the official TNEA portal did not open; only the single-window-counselling mechanism is confirmed). The Meenakshi temple's gopuram counts and heights are not asserted (available only in Tamil, not character-exact). Madurai Kamaraj University's own site gives 1965 (Act year), so the conflicting 1966 is not used."
   }
 }
