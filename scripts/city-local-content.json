@@ -2324,5 +2324,107 @@
       "UGEAC engineering admission on JEE Main rank": "https://bceceboard.bihar.gov.in/UGEACIndex.php"
     },
     "_excluded": "AIIMS Darbhanga is under construction; it is described as the second AIIMS of Bihar with its 2024 foundation stone, not as operational. The Madhubani-painting and Maithili references are cultural context for the Mithila region centred on Darbhanga, not asserted as city institutions."
+  },
+  "hisar": {
+    "lede": "Hisar is one of Haryana's education and industry anchors. It holds Guru Jambheshwar University of Science and Technology, set up in 1995, and Chaudhary Charan Singh Haryana Agricultural University, which describes itself as the biggest agricultural university in Asia. The district administration calls Hisar the Steel City for its Jindal stainless-steel works, and the old town was founded by Firuz Shah Tughlaq in the fourteenth century. Schools follow the Haryana board, BSEH, based at Bhiwani, and engineering seats fill on JEE Main rank through HSTES counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to BSEH students in Hisar?",
+        "a": "Yes. Hisar schools run the Haryana board, BSEH, along with CBSE and ICSE, and our classes fit around any of them. The board is at Bhiwani, not Hisar. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Guru Jambheshwar University students join your programming courses?",
+        "a": "Yes. Guru Jambheshwar University of Science and Technology has taught here since 1995, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Guru Jambheshwar University of Science and Technology, Hisar, established 1995 (district portal)": "https://hisar.gov.in/gju/",
+      "Chaudhary Charan Singh Haryana Agricultural University, Hisar (describes itself as the biggest agricultural university in Asia)": "https://hau.ac.in/",
+      "Hisar, 'the Steel City' (Jindal stainless steel); founded by Firuz Shah Tughlaq (district portal)": "https://hisar.gov.in/",
+      "Board of School Education Haryana (BSEH), Bhiwani": "https://bseh.org.in/home",
+      "HSTES centralised counselling on JEE Main All India Rank": "https://www.hstes.org.in/"
+    },
+    "_excluded": "The 'biggest agricultural university in Asia' phrasing is stated as CCS HAU's own description. BSEH is at Bhiwani, not Hisar. Haryana fills B.Tech seats on JEE Main via HSTES."
+  },
+  "karnal": {
+    "lede": "Karnal is the rice bowl of Haryana, the heart of the state's basmati country, and it is also a national research town: the Indian Council of Agricultural Research runs the National Dairy Research Institute here, alongside institutes for soil salinity and wheat. The city takes its name from Karna of the Mahabharata. Schools follow the Haryana board, BSEH, based at Bhiwani, and engineering seats fill on JEE Main rank through HSTES counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to BSEH students in Karnal?",
+        "a": "Yes. Karnal schools run the Haryana board, BSEH, along with CBSE and ICSE, and our classes fit around any of them. The board is at Bhiwani, not Karnal. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can college students in Karnal join your programming courses?",
+        "a": "Yes. Whether you study at one of Karnal's research institutes or an engineering college, the college track is the same: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter. A transcript rarely shows built work, and that is the gap we fill."
+      }
+    ],
+    "_sources": {
+      "Karnal, the 'Rice Bowl of Haryana', a basmati hub; named after Karna (district portal)": "https://karnal.gov.in/",
+      "National Dairy Research Institute (ICAR-NDRI), Karnal": "https://ndri.res.in/",
+      "Board of School Education Haryana (BSEH), Bhiwani": "https://bseh.org.in/home",
+      "HSTES centralised counselling on JEE Main All India Rank": "https://www.hstes.org.in/"
+    },
+    "_excluded": "Rice-miller and exporter counts are not asserted (kept qualitative). The 'Rice Bowl of India' framing is softened to the well-documented 'Rice Bowl of Haryana'. BSEH is at Bhiwani, not Karnal."
+  },
+  "panipat": {
+    "lede": "Panipat carries two identities, one from history and one from its looms. Three of the battles that decided the fate of India were fought on its plains, in 1526, 1556 and 1761. Today the Government of India's tourism department calls Panipat the Textile City, the country's biggest centre for blankets, carpets and home furnishings, and the city also hosts a major IOC refinery and a fertiliser plant. Schools follow the Haryana board, BSEH, based at Bhiwani, and engineering seats fill on JEE Main rank through HSTES counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to BSEH students in Panipat?",
+        "a": "Yes. Panipat schools run the Haryana board, BSEH, along with CBSE and ICSE, and our classes fit around any of them. The board is at Bhiwani, not Panipat. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can college students in Panipat join your programming courses?",
+        "a": "Yes. In a manufacturing city, what recruiters look at is built work, and that is exactly what the college track provides: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown, which a degree alone rarely gives you."
+      }
+    ],
+    "_sources": {
+      "The three Battles of Panipat (1526, 1556, 1761) (district portal)": "https://panipat.gov.in/about-district/",
+      "Panipat, the 'Textile City', India's biggest centre for blankets, carpets and home furnishings (Incredible India)": "https://www.incredibleindia.gov.in/en/haryana/panipat",
+      "Board of School Education Haryana (BSEH), Bhiwani": "https://bseh.org.in/home",
+      "HSTES centralised counselling on JEE Main All India Rank": "https://www.hstes.org.in/"
+    },
+    "_excluded": "Specific battle casualty figures and textile-turnover numbers are not asserted. BSEH is at Bhiwani, not Panipat. Haryana fills B.Tech seats on JEE Main via HSTES."
+  },
+  "rohtak": {
+    "lede": "Rohtak is Haryana's education capital. Maharshi Dayanand University, established in 1976, is the state's big affiliating university, and it shares its campus with IIM Rohtak, one of the country's Indian Institutes of Management. The city is also a medical hub, home to PGIMS, the Pt B.D. Sharma Post Graduate Institute of Medical Sciences. Schools follow the Haryana board, BSEH, based at Bhiwani, and engineering seats fill on JEE Main rank through HSTES counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to BSEH students in Rohtak?",
+        "a": "Yes. Rohtak schools run the Haryana board, BSEH, along with CBSE and ICSE, and our classes fit around any of them. The board is at Bhiwani, not Rohtak. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can Maharshi Dayanand University or IIM Rohtak students join your programming courses?",
+        "a": "Yes. MDU has taught here since 1976 and shares its campus with IIM Rohtak, so serious study is on the doorstep. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "Maharshi Dayanand University, Rohtak, established 1976; shares its campus with IIM Rohtak": "https://mdu.ac.in/",
+      "PGIMS Rohtak (Pt B.D. Sharma Post Graduate Institute of Medical Sciences)": "http://pgims.org/about.html",
+      "Board of School Education Haryana (BSEH), Bhiwani": "https://bseh.org.in/home",
+      "HSTES centralised counselling on JEE Main All India Rank": "https://www.hstes.org.in/"
+    },
+    "_excluded": "IIM Rohtak is described as sharing MDU's campus, per MDU's own site. BSEH is at Bhiwani, not Rohtak. Haryana fills B.Tech seats on JEE Main via HSTES."
+  },
+  "sonipat": {
+    "lede": "Sonipat has become Haryana's private-university hub. Just north of Delhi, its education city holds O.P. Jindal Global University, set up in 2009 and named an Institution of Eminence, and Ashoka University, which launched in 2014, along with the state's own DCRUST at Murthal. Schools follow the Haryana board, BSEH, based at Bhiwani, and engineering seats fill on JEE Main rank through HSTES counselling.",
+    "faqs": [
+      {
+        "q": "Do you teach coding to BSEH students in Sonipat?",
+        "a": "Yes. Sonipat schools run the Haryana board, BSEH, along with CBSE and ICSE, and our classes fit around any of them. The board is at Bhiwani, not Sonipat. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test."
+      },
+      {
+        "q": "Can O.P. Jindal Global University or Ashoka University students join your programming courses?",
+        "a": "Yes. Sonipat's education city holds O.P. Jindal Global University and Ashoka, plus DCRUST at Murthal, so the theory is well taught. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview."
+      }
+    ],
+    "_sources": {
+      "O.P. Jindal Global University, Sonipat, established 2009, an Institution of Eminence": "https://jgu.edu.in/",
+      "Ashoka University, Sonipat, launched 2014": "https://www.ashoka.edu.in/",
+      "Deenbandhu Chhotu Ram University of Science and Technology (DCRUST), Murthal, Sonipat": "https://www.dcrustm.ac.in/",
+      "Board of School Education Haryana (BSEH), Bhiwani": "https://bseh.org.in/home",
+      "HSTES centralised counselling on JEE Main All India Rank": "https://www.hstes.org.in/"
+    },
+    "_excluded": "The 'Rajiv Gandhi Education City' name is not asserted (no primary source fetched this pass); the universities' Sonipat location and founding years are used instead. BSEH is at Bhiwani, not Sonipat."
   }
 }
