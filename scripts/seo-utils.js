@@ -234,6 +234,16 @@ function generateEducationalOrganizationSchema() {
     "name": SEO_CONFIG.organization.name,
     "description": SEO_CONFIG.organization.description,
     "url": SEO_CONFIG.domain,
+    // Phase 8.1: name the human founder so blog pages carry the Org -> founder Person ->
+    // LinkedIn sameAs E-E-A-T loop (credentialed authorship signal for AI engines).
+    "founder": {
+      "@type": "Person",
+      "@id": `${SEO_CONFIG.domain}/team#founder`,
+      "name": "Shivam Khemka",
+      "jobTitle": "Founder & Lead Mentor",
+      "url": `${SEO_CONFIG.domain}/team`,
+      "sameAs": ["https://www.linkedin.com/in/shivam-khemka-modern-age-coders"]
+    },
     // Removed with Phase 1.4 (same fix applied to the homepage graph): alumni expects a
     // Person/Organization, not a QuantitativeValue — it was invalid markup doing nothing —
     // and numberOfEmployees "50+" is not a number AND is a headcount nobody has verified.
@@ -301,25 +311,44 @@ function generateBlogPostingSchema(blogData) {
   const imageUrl = blogData.hero?.featuredImage?.url || SEO_CONFIG.defaultImage;
   const fullImageUrl = validateImageUrl(imageUrl);
 
-  // Build author information
-  const author = {
-    "@type": "Person",
-    "name": meta.author?.name || "Modern Age Coders Team"
-  };
+  // Build author information.
+  // Phase 8.1 fix: an Organization name must never be typed as a Person ("Person named
+  // Modern Age Coders" is invalid schema and gave zero authorship credit). When a post
+  // declares a real human byline, emit a Person linked to the founder entity; when the
+  // byline is the org/team, attribute the article to the Organization node instead.
+  // (Real per-instructor names + avatars are owner-provided and still open.)
+  const authorName = (meta.author?.name || "Modern Age Coders").trim();
+  const authorIsOrg = /^modern age coders/i.test(authorName);
+  const author = authorIsOrg
+    ? {
+        "@type": "Organization",
+        "@id": `${SEO_CONFIG.domain}/#organization`,
+        "name": "Modern Age Coders",
+        "url": SEO_CONFIG.domain
+      }
+    : {
+        "@type": "Person",
+        "name": authorName,
+        "url": `${SEO_CONFIG.domain}/team#founder`
+      };
 
   // Add author bio if available
   if (meta.author?.bio) {
     author.description = meta.author.bio;
   }
 
-  // Add author URL if available (could be profile page)
+  // Add author URL if explicitly provided (overrides the default)
   if (meta.author?.url) {
     author.url = meta.author.url;
   }
 
-  // Build publisher information with complete organization details
+  // Build publisher information with complete organization details.
+  // Phase 8.1: @id-link the publisher to the canonical #organization entity and name the
+  // human founder, so every blog post carries the Org -> founder Person -> LinkedIn E-E-A-T
+  // loop (the credentialed-authorship signal AI engines reward).
   const publisher = {
     "@type": "Organization",
+    "@id": `${SEO_CONFIG.domain}/#organization`,
     "name": SEO_CONFIG.organization.name,
     "url": SEO_CONFIG.domain,
     "logo": {
@@ -327,6 +356,14 @@ function generateBlogPostingSchema(blogData) {
       "url": SEO_CONFIG.domain + SEO_CONFIG.organization.logo,
       "width": 512,
       "height": 512
+    },
+    "founder": {
+      "@type": "Person",
+      "@id": `${SEO_CONFIG.domain}/team#founder`,
+      "name": "Shivam Khemka",
+      "jobTitle": "Founder & Lead Mentor",
+      "url": `${SEO_CONFIG.domain}/team`,
+      "sameAs": ["https://www.linkedin.com/in/shivam-khemka-modern-age-coders"]
     }
   };
 

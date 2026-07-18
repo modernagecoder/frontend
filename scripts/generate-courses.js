@@ -956,6 +956,17 @@ class CourseGenerator {
             "name": "Modern Age Coders",
             "url": "https://learn.modernagecoders.com/",
             "logo": "https://learn.modernagecoders.com/images/logo.webp",
+            // Phase 8.1: link the Organization to the named human founder (Person entity
+            // canonically defined at /team#founder). This closes the E-E-A-T loop —
+            // Org -> founder Person -> LinkedIn sameAs — that lets Google/LLMs join the dots.
+            "founder": {
+                "@type": "Person",
+                "@id": "https://learn.modernagecoders.com/team#founder",
+                "name": "Shivam Khemka",
+                "jobTitle": "Founder & Lead Mentor",
+                "url": "https://learn.modernagecoders.com/team",
+                "sameAs": ["https://www.linkedin.com/in/shivam-khemka-modern-age-coders"]
+            },
             // Verified live 2026-07-14. Every entry must resolve: a sameAs that 404s
             // undermines entity confirmation instead of supporting it. The LinkedIn company
             // page and the instagram.com/modernagecoders handle were both dead and are gone.

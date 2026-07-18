@@ -60,6 +60,12 @@ A direct line to the team on [+91 91233 66161](https://wa.me/919123366161), not 
 
 See the full picture on our [transparent pricing page](/pricing).
 
+> “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
+
+Shivam Khemka, Founder, Modern Age Coders
+
+That conviction is why we can start you with zero risk: a free demo before any payment, monthly billing you can cancel anytime, and a real teacher in every single class. If it is not right for your child, you walk away owing nothing.
+
 ## Common questions
 
 Yes. It is a full live class with a real teacher, and there is no charge and no card required.
