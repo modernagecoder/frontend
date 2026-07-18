@@ -13,7 +13,7 @@ Once fixed, this string must be identical on: site footer + /contact + /about, G
 | Field | Value | Status |
 |---|---|---|
 | Brand name | Modern Age Coders | ✅ confirmed |
-| Legal name | 🔴 **NEED OWNER** — site currently says "Modern Age Coders Education" (in schema `legalName`); the master plan says "The Mahaviras Education LLP". These conflict. Which is the registered legal entity? | conflict |
+| Legal name | Modern Age Coders Education | ✅ **owner-confirmed 2026-07-19** (the plan's "The Mahaviras Education LLP" is NOT the entity to use) |
 | Registered address | 🔴 **NEED OWNER** — full registered address incl. street, area, Kolkata, PIN. The footer/schema have NO address today (a standing E-E-A-T gap). | missing |
 | Phone | +91 9123366161 | ✅ consistent site-wide |
 | Email | contact@modernagecoders.com | ✅ |
@@ -67,5 +67,5 @@ Live and verified:
 ## 5. Other Phase 8 items still needing you
 
 - **/team completion:** the founder Person entity + LinkedIn is now in schema, but the visible bio still has open NEEDS-FACT chips. Send: founder credentials, years teaching, a 2-3 sentence bio, and a real photo.
-- **Blog authors + avatars:** all 116 posts currently show the Organization as author (I fixed the invalid "Person named Modern Age Coders" schema). If you want named human bylines, tell me who wrote them (or that they should all be under the founder as editor) and provide real headshots (they're placeholder images today).
+- **Blog authors + avatars:** ✅ RESOLVED (owner decision 2026-07-19) — posts stay attributed to the Organization. Schema is valid (Organization author), and the visible byline avatar is now the real brand logo on all 116 posts (the broken/placeholder avatars are fixed). No per-author headshots needed.
 - **/success-stories:** to turn it into 8-10 deep case studies I need real student first names (with consent), class/school, the project, and a parent quote.
