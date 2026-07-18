@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "slug": "mental-maths-tricks-for-kids",
+    "title": "10 Mental Maths Tricks for Kids (That Build Real Number Sense)",
+    "description": "Ten simple mental maths tricks for kids that make calculation faster and build genuine number sense, plus how to practise them and why understanding still comes first.",
+    "keywords": ["mental maths tricks for kids", "mental math tricks", "quick maths tricks kids", "how to do maths in your head", "mental maths for children", "fast calculation tricks kids"],
+    "author": {"name": "Modern Age Coders", "bio": "Live online coding and maths teachers for all ages, 6 to 67."},
+    "date": "2026-07-18",
+    "dateModified": "2026-07-18",
+    "category": "Mathematics",
+    "tags": ["Maths", "Mental Maths", "Kids"],
+    "readTime": "7 min read",
+    "featured": false,
+    "tldr": "The best mental maths tricks for kids build number sense, not just speed: break numbers apart, round and adjust, use doubles, and spot patterns in tens and nines. Practise them little and often through games. Speed is a nice result, but the real prize is a child who understands how numbers work and can reason with them."
+  },
+  "hero": {
+    "title": "10 Mental Maths Tricks for Kids (That Build Real Number Sense)",
+    "featuredImage": {"url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_1_hero.png", "alt": "A child doing mental maths"}
+  },
+  "content": {
+    "sections": [
+      {"type": "toc"},
+      {"type": "paragraph", "text": "Good mental maths is not about memorising a bag of magic tricks. The best tricks are really just ways of understanding how numbers work, so a child can rearrange them into something easy to calculate in their head. Here are ten that build genuine number sense, not just speed."},
+
+      {"type": "heading", "level": 2, "text": "The short answer", "id": "short-answer"},
+      {"type": "paragraph", "text": "The mental maths tricks worth teaching build number sense: breaking numbers apart, rounding and adjusting, using doubles, and spotting patterns in tens and nines. Practise them little and often through games and everyday life. The point is not to turn your child into a calculator, it is to help them truly understand how numbers behave, which makes all of maths easier."},
+
+      {"type": "heading", "level": 2, "text": "10 tricks that build number sense", "id": "tricks"},
+      {"type": "list", "items": [
+        "Break numbers apart. To add 47 and 38, add 40 and 30 to get 70, then 7 and 8 to get 15, then combine for 85. Splitting numbers is the heart of mental maths.",
+        "Round and adjust. To add 99, add 100 and take one away. To subtract 9, take away 10 and add one back.",
+        "Use doubles. If a child knows 6 plus 6 is 12, then 6 plus 7 is just one more. Doubles and near-doubles speed up a lot of addition.",
+        "Make ten first. To add 8 and 5, take 2 from the 5 to make the 8 into 10, then add the remaining 3 to get 13.",
+        "Multiply by 10, 100, 1000 by shifting. Understanding place value means multiplying by ten is just moving digits, not a rule to memorise.",
+        "The nine times trick. For 9 times a number, multiply by 10 and subtract the number. 9 times 7 is 70 minus 7, which is 63.",
+        "Halve and double. To multiply 5 by 16, double the 5 to 10 and halve the 16 to 8, giving the easier 10 times 8, which is 80.",
+        "Add from the left. Unlike written maths, mental addition is easier starting with the biggest place value first.",
+        "Use money and time. Thinking in coins and clock faces gives a child a real feel for fractions and multiples.",
+        "Estimate first. Guessing the rough answer before calculating catches mistakes and builds a sense of whether an answer is reasonable."
+      ]},
+
+      {"type": "heading", "level": 2, "text": "How to practise them", "id": "practise"},
+      {"type": "paragraph", "text": "Little and often beats long drills. Play quick number games in the car, add up the shopping together, or ask a fun mental sum at breakfast. Keep it playful and pressure-free, and never put a child on the spot in front of others. The goal is for these ways of thinking to become second nature, which happens through relaxed, repeated use, not timed tests."},
+
+      {"type": "heading", "level": 2, "text": "Why understanding still comes first", "id": "understanding"},
+      {"type": "paragraph", "text": "Notice that every trick above is really a way of understanding numbers, not a shortcut to memorise blindly. That is the difference between mental maths that helps and mental maths that becomes another thing to forget. A child who understands why the trick works can adapt it to any problem. A child who just memorised steps is stuck the moment the numbers change. Speed is a lovely side effect. Understanding is the real goal."},
+
+      {"type": "quote", "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.", "author": "Shivam Khemka, Founder of Modern Age Coders"},
+
+      {"type": "heading", "level": 2, "text": "The bottom line", "id": "bottom-line"},
+      {"type": "paragraph", "text": "The best mental maths tricks for kids build number sense: break numbers apart, round and adjust, use doubles, and spot patterns. Practise them playfully, little and often, and keep understanding at the centre. Modern Age Coders teaches maths for real understanding, live and in small batches for ages 6 to 67, and is rated 4.9 across 547 Google reviews. There is a free demo class before you pay."},
+      {"type": "button", "text": "Book a Free Maths Demo Class", "url": "/book-demo"},
+
+      {"type": "accordion", "items": [
+        {"title": "What are good mental maths tricks for kids?", "content": "The best ones build number sense: breaking numbers apart, rounding and adjusting, using doubles and near-doubles, making ten first, and spotting patterns in tens and nines. Each is really a way of understanding how numbers work, so a child can rearrange them into something easy to calculate in their head."},
+        {"title": "How can my child get faster at mental maths?", "content": "Practise little and often through games and everyday moments rather than long timed drills. Play quick number games, add up the shopping together, and estimate before calculating. Speed grows naturally when the underlying number sense is strong, so focus on understanding the tricks, not just memorising them."},
+        {"title": "Are mental maths tricks just memorising?", "content": "The good ones are not. Each is a way of understanding how numbers behave, which lets a child adapt it to any problem. A child who only memorises steps gets stuck when the numbers change, while one who understands the trick can use it flexibly. That is why understanding always comes before speed."},
+        {"title": "What age can a child start mental maths?", "content": "Simple mental maths starts young, as soon as a child is comfortable with basic numbers, and it grows with them. Keep early practice playful and hands-on, using money, games and everyday sums. There is no rush; the aim is a relaxed, growing feel for numbers, not pressure to perform."},
+        {"title": "Do mental maths tricks help in school?", "content": "Yes, when they are built on understanding. Strong number sense makes school maths easier and faster, and estimating helps a child spot unreasonable answers. But mental tricks support school maths rather than replace the reasoning and problem solving that exams mostly test, so understanding remains the priority."}
+      ]}
+    ]
+  },
+  "relatedPosts": ["abacus-vs-vedic-vs-mental-maths", "how-to-make-maths-fun-for-kids", "how-to-get-better-at-maths"]
+}
