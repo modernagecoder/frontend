@@ -1,0 +1,621 @@
+{
+  "meta": {
+    "slug": "git-github-advanced-version-control-masterclass-for-professionals",
+    "title": "Advanced Git & GitHub Masterclass for Professionals",
+    "description": "Advanced Git & GitHub masterclass for professionals: master Git internals, interactive rebase, trunk-based team workflows, monorepos, GitHub Actions CI/CD and repository security in 24 live online classes for working developers.",
+    "keywords": [
+      "advanced git course",
+      "git masterclass for professionals",
+      "git internals course",
+      "github actions ci cd course",
+      "git workflow for teams",
+      "trunk based development training",
+      "monorepo git strategies",
+      "git training for companies",
+      "interactive rebase tutorial",
+      "git bisect and reflog course",
+      "github security dependabot codeql",
+      "corporate git training india",
+      "live online git masterclass",
+      "git branching strategy course",
+      "github actions training",
+      "git for team leads",
+      "git filter-repo remove secrets",
+      "github cli automation course"
+    ],
+    "category": "Version Control & Developer Tools",
+    "price": {
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
+      "lifetime": "₹44,999 (one-time)"
+    },
+    "duration": "24 classes (12 weeks · 2 classes/week)",
+    "level": "Intermediate to advanced (working professionals; basic Git assumed or fast-tracked)",
+    "commitment": "4-5 hours/week recommended",
+    "certification": "Modern Age Coders 'Advanced Git & GitHub' certificate upon completion",
+    "image_path": "git-github-professionals.webp"
+  },
+  "program_overview": {
+    "title": "Advanced Git & GitHub Masterclass: Internals, Team Workflows, CI/CD and Security",
+    "tagline": "Stop fearing Git. Build the mental model, master history surgery, and become the engineer your team calls when version control goes wrong.",
+    "description": "Most working developers rely on the same handful of Git commands and quietly avoid everything else: rebase feels risky, reflog is a mystery, and a leaked secret in history triggers panic. This masterclass fixes that permanently, the way professionals need it fixed: from the inside out. In 24 live, instructor-led classes you first learn how Git actually stores data (blobs, trees, commits, refs, the three trees), because once the model is clear, nothing Git does is scary. Then you go deep into history mastery (interactive rebase, cherry-pick, bisect run, reflog rescues), team workflow design at scale (trunk-based development vs GitFlow, branch protection rulesets, CODEOWNERS, monorepo tooling, release management), and full GitHub platform automation: GitHub Actions matrix builds and reusable workflows, gated deployments, Dependabot, secret scanning, CodeQL, signed commits, hooks, and GitHub CLI scripting. You finish with a leadership phase covering team migrations, disaster recovery with git filter-repo, and AI-assisted review workflows, then a capstone where you design and defend a complete production-grade workflow on a real repository. Git is free, open source, and created by Linus Torvalds in 2005 for Linux kernel development; two decades later, deep fluency in it remains one of the most durable skills a working developer can build.",
+    "what_makes_this_different": [
+      "Internals-first: you learn the object model, refs, and the three trees before any advanced command, so rebase, reset, and reflog become predictable instead of frightening.",
+      "Built for professionals: every class is framed around real workplace scenarios, the broken main branch, the leaked API key, the 3,000-line PR, the release that must ship tonight.",
+      "Live, interactive classes with a real instructor: you run the commands, break real repositories, and recover them under guidance, never passive video watching.",
+      "Full platform depth, not just commands: branch protection rulesets, CODEOWNERS, merge queues, GitHub Actions, environments, OIDC deploys, CodeQL, and the gh CLI are covered as thoroughly as Git itself.",
+      "Living Syllabus: the curriculum is updated continuously as Git and GitHub ship new features, so you always learn the current toolchain, not a frozen snapshot.",
+      "A capstone you can apply at work on Monday: you leave with a fully hardened reference repository (workflow, CI/CD, security, release process) and the reasoning behind every choice."
+    ],
+    "learning_path": [
+      "Phase 1, The Git Mental Model (Classes 1-4): the object database, refs and HEAD, porcelain vs plumbing, the staging area, config layers and tooling.",
+      "Phase 2, History Mastery (Classes 5-9): interactive rebase and autosquash, cherry-pick and revert, reflog and stash rescues, git bisect automation, blame and pickaxe archaeology.",
+      "Phase 3, Team Workflows at Scale (Classes 10-14): branching strategies, branch protection and CODEOWNERS, PR culture, monorepo vs polyrepo tooling, release management.",
+      "Phase 4, Automation, CI/CD & Security (Classes 15-20): GitHub Actions in depth, secrets and environments, Dependabot and CodeQL, signed commits and hooks, GitHub CLI and API automation.",
+      "Phase 5, Leadership & Capstone (Classes 21-24): migrating teams, disaster recovery and filter-repo, AI-assisted workflows, and a complete capstone workflow you design and defend."
+    ],
+    "career_outcomes": [
+      "Confidence to perform history surgery (rebase, filter-repo, reflog recovery) on production repositories",
+      "The ability to design and roll out a branching, review, and release workflow for a whole team",
+      "Practical CI/CD skills: real GitHub Actions pipelines with matrix builds, caching, and gated deploys",
+      "Repository security competence: Dependabot, secret scanning, CodeQL, signed commits, and hook-based guardrails",
+      "A hardened capstone repository plus a certificate that documents exactly what you can do"
+    ]
+  },
+  "phase_1_git_mental_model": {
+    "title": "Phase 1: The Git Mental Model",
+    "description": "Learn how Git actually works underneath: the object database, refs and HEAD, the staging area, and the plumbing commands that make every advanced operation predictable instead of scary.",
+    "week_1": {
+      "title": "Class 1: How Git Actually Stores Data: The Object Model",
+      "topics": [
+        "Git as a content-addressable database: every file, folder, and commit is an object named by the hash of its content",
+        "The four object types: blobs (file contents), trees (directories), commits (snapshots plus parent pointers), and annotated tags",
+        "SHA-1 vs SHA-256 object formats: why the hash is the identity, and what the ongoing SHA-256 transition means for repositories",
+        "Guided tour of the .git directory: objects/, refs/, HEAD, index, config, and what actually changes on disk when you commit",
+        "Inspecting any object with plumbing: git cat-file -t <sha> and git cat-file -p <sha> to walk from a commit to its tree to a blob by hand",
+        "Writing objects manually with git hash-object -w, and why Git stores whole snapshots, never diffs",
+        "Loose objects vs packfiles: git gc, delta compression, and why full history costs less disk than people assume"
+      ],
+      "projects": [
+        "Trace one of your own commits end to end with git cat-file: from the commit SHA to the root tree to a specific blob, and diagram the object graph you found"
+      ],
+      "practice": "Run git cat-file -p HEAD, then cat-file -p the tree it references, and keep descending until you reach a blob.",
+      "assessment": "Explain the four Git object types and draw the object graph for a two-file commit from memory."
+    },
+    "week_2": {
+      "title": "Class 2: Refs, HEAD, Detached HEAD and the Three Trees",
+      "topics": [
+        "What a branch really is: a tiny file in refs/heads containing one commit SHA, nothing more",
+        "HEAD as a symbolic ref: git symbolic-ref HEAD, and what detached HEAD actually means (HEAD pointing at a SHA instead of a branch)",
+        "Working safely in detached HEAD: inspecting old commits, building from a tag, and rescuing new work with git switch -c",
+        "Revision syntax fluency: HEAD~2 vs HEAD^2, @{upstream}, main@{yesterday}, and resolving any expression with git rev-parse",
+        "The three trees model: HEAD, the index (staging area), and the working directory, and how every core command moves content between them",
+        "git reset --soft vs --mixed vs --hard explained precisely through the three trees, plus git restore and git switch as the modern split of checkout",
+        "Remote-tracking refs: refs/remotes/origin/main as your last-known snapshot of the server, and how fetch vs pull update it"
+      ],
+      "projects": [
+        "Build a personal reset cheat card: run soft, mixed, and hard resets on a scratch repository and document exactly what happened to HEAD, index, and working tree in each case"
+      ],
+      "practice": "Check out a raw commit SHA, make a commit in detached HEAD, then rescue it onto a new branch with git switch -c.",
+      "assessment": "Predict the exact effect of git reset --mixed HEAD~1 on all three trees before running it, then verify your prediction."
+    },
+    "week_3": {
+      "title": "Class 3: Porcelain vs Plumbing and the Staging Area Deep Dive",
+      "topics": [
+        "Porcelain vs plumbing: the user-facing commands vs the scriptable core, and why plumbing output stays stable for automation",
+        "Reading the index directly: git ls-files -s shows mode, SHA, and stage number for every staged file",
+        "Building a commit with pure plumbing: git update-index, git write-tree, and git commit-tree, so commits stop being magic",
+        "Surgical staging: git add -p hunk selection (y, n, s to split, e to edit the hunk) for clean, reviewable commits",
+        "Unstaging and untracking precisely: git restore --staged vs git rm --cached vs git rm, and what each leaves on disk",
+        "gitignore mechanics: pattern rules, negation with !, why an already-tracked file ignores .gitignore, and debugging with git check-ignore -v",
+        "Scripting-safe status: git status --porcelain=v2 and git diff --name-only as building blocks for your own tools"
+      ],
+      "projects": [
+        "Create a real commit using only plumbing commands (update-index, write-tree, commit-tree), then verify it with git log and git cat-file"
+      ],
+      "practice": "Take a deliberately messy working directory and use git add -p to split it into two clean, single-purpose commits.",
+      "assessment": "Explain the difference between git rm --cached and git restore --staged, and demonstrate both on a test file."
+    },
+    "week_4": {
+      "title": "Class 4: Config Layers, Aliases and Diff/Merge Tooling",
+      "topics": [
+        "The config cascade: system, global, local, and worktree levels, audited with git config --list --show-origin",
+        "Conditional includes with includeIf gitdir: separate work and personal identities (name, email, signing key) automatically per directory",
+        "Power aliases: a graph log alias, and shell aliases with the ! prefix for anything Git cannot do natively",
+        "Better conflicts by default: merge.conflictStyle zdiff3 to see the common ancestor inside conflict markers",
+        "rerere (reuse recorded resolution): letting Git remember how you resolved a conflict and replay it automatically next time",
+        "Wiring difftool and mergetool: using VS Code or your editor of choice for three-way merges instead of raw conflict markers",
+        "Cross-platform hygiene: core.autocrlf and .gitattributes eol rules so Windows, Mac, and Linux teammates stop fighting over line endings"
+      ],
+      "projects": [
+        "Ship a dotfiles-quality global .gitconfig: identities via includeIf, five aliases you will actually use, zdiff3 conflict style, rerere enabled, and a configured mergetool"
+      ],
+      "practice": "Trigger the same merge conflict twice in a scratch repo and watch rerere resolve it automatically the second time.",
+      "assessment": "Show git config --list --show-origin and explain which layer each of your key settings comes from and why it lives there."
+    }
+  },
+  "phase_2_history_mastery": {
+    "title": "Phase 2: History Mastery",
+    "description": "Rewrite, rescue, and interrogate history with confidence: interactive rebase, cherry-pick and revert, reflog and stash recovery, automated bisect, and blame and pickaxe archaeology.",
+    "week_5": {
+      "title": "Class 5: Interactive Rebase: Rewriting History with Intent",
+      "topics": [
+        "git rebase -i HEAD~n: the todo list (pick, reword, edit, squash, fixup, drop) and how Git replays commits one at a time",
+        "The autosquash workflow: git commit --fixup=<sha>, git rebase -i --autosquash, and rebase.autosquash true to make it the default",
+        "Splitting a commit with edit: stop mid-rebase, git reset HEAD~1, restage in pieces, then git rebase --continue",
+        "exec lines in the todo list: running your test suite after every replayed commit so each commit in the branch builds",
+        "git rebase --update-refs: rewriting a stack of dependent branches in a single pass",
+        "Precision transplants with git rebase --onto: moving a branch from one base to another exactly",
+        "The golden rule: never rewrite pushed shared history, and git push --force-with-lease as the seatbelt when rewriting your own branch"
+      ],
+      "projects": [
+        "Take a deliberately messy 10-commit feature branch and rebase it into 3 clean, logical, test-passing commits using fixup, squash, reword, and an exec test line"
+      ],
+      "practice": "Use git commit --fixup plus rebase --autosquash to fold a typo fix into the commit where it belongs.",
+      "assessment": "Explain when rebase is safe versus dangerous, and demonstrate --force-with-lease rejecting a push over a stale remote."
+    },
+    "week_6": {
+      "title": "Class 6: Cherry-pick, Revert and Fixing Shared History",
+      "topics": [
+        "git cherry-pick <sha> and ranges (A..B vs A^..B): replaying exact changes onto another branch",
+        "cherry-pick -x for traceability back to the original commit, and -n (--no-commit) to batch several picks into one commit",
+        "Backporting in practice: moving a hotfix from main onto a release branch without dragging unrelated work along",
+        "git revert: the only safe undo on shared history, and why it adds a new commit instead of deleting anything",
+        "Reverting a merge commit with revert -m 1: what mainline means, and the trap waiting when you later re-merge that branch",
+        "Reverting a revert: bringing previously reverted work back cleanly",
+        "Conflict handling mid-operation: --continue, --abort, and --skip, and reading the conflict to know which side you actually want"
+      ],
+      "projects": [
+        "Simulate a release: branch release/1.2 from an older commit, cherry-pick two hotfixes onto it with -x, then revert a bad feature merge on main with revert -m 1"
+      ],
+      "practice": "Cherry-pick a range of three commits onto a clean branch and resolve the one conflict it produces.",
+      "assessment": "State when to use revert versus reset versus rebase on a shared branch, with one concrete scenario for each."
+    },
+    "week_7": {
+      "title": "Class 7: Reflog Rescues, Lost Commits and Stash Mastery",
+      "topics": [
+        "git reflog: the private journal of everywhere HEAD has been, plus per-branch reflogs with git reflog show <branch>",
+        "Undoing a bad reset --hard: locate the pre-reset entry and restore with git reset --hard HEAD@{1}",
+        "Resurrecting a deleted branch: recover its tip SHA from the reflog and recreate it with git branch <name> <sha>",
+        "Deep recovery: git fsck --lost-found and dangling commits when the reflog cannot help, and how reflog expiry works",
+        "Stash beyond the basics: git stash push -m with a message, --include-untracked, and stashing selected hunks with stash push -p",
+        "apply vs pop, inspecting a stash with git stash show -p stash@{n}, and turning an old stash into a branch with git stash branch",
+        "Built-in bookmarks: ORIG_HEAD and @{1}, the markers Git leaves behind before every dangerous operation"
+      ],
+      "projects": [
+        "Run a rescue drill: deliberately destroy work three different ways (reset --hard, branch -D, dropped stash) and recover all three using reflog and fsck"
+      ],
+      "practice": "Stash only half of your working changes with stash push -p, then apply them on a different branch.",
+      "assessment": "Given a repo where a branch was force-deleted an hour ago, recover it fully and explain each command you used."
+    },
+    "week_8": {
+      "title": "Class 8: git bisect: Finding the Exact Commit That Broke It",
+      "topics": [
+        "Binary search over history: why bisect pinpoints the bad commit in a handful of steps instead of hundreds of diff readings",
+        "The manual loop: git bisect start, git bisect bad, git bisect good <sha>, test, mark, repeat, then git bisect reset",
+        "git bisect skip for commits that cannot build, and how Git routes the search around them",
+        "Full automation: git bisect run ./test.sh, with exit code 0 meaning good, 1-124 meaning bad, and 125 meaning skip",
+        "Bisecting anything scriptable: failing unit tests, performance regressions via a timing script, even bundle size growth",
+        "git bisect terms with --term-old and --term-new for hunts about behavior changes rather than breakage",
+        "Reading the verdict: the first-bad-commit report, then git show and git blame on it to understand the real cause"
+      ],
+      "projects": [
+        "In a prepared repository with a hidden regression, write a small test script and let git bisect run find the first bad commit completely automatically"
+      ],
+      "practice": "Bisect the same repository manually and count your steps to feel the binary search converge.",
+      "assessment": "Explain the meaning of exit codes 0, 1, and 125 in a bisect run script and give a case where you would return each."
+    },
+    "week_9": {
+      "title": "Class 9: History Archaeology: blame, Pickaxe and Log Forensics",
+      "topics": [
+        "git blame beyond basics: -w to ignore whitespace, -C -C to track code moved between files, and -L 10,30 for a line range",
+        "Keeping blame honest: blame.ignoreRevsFile with a .git-blame-ignore-revs file so mass reformatting commits stop hiding real authors",
+        "The pickaxe: git log -S 'someString' to find every commit that added or removed a string, with -p to see the diffs",
+        "Regex archaeology: git log -G '<pattern>' for changes matching a pattern even when the occurrence count stayed the same",
+        "Function-level history: git log -L :myFunction:path/to/file to follow one function through time, and --follow across renames",
+        "Shaping output for investigation: --oneline --graph --all, --author, --since, --grep, and custom --pretty=format: strings",
+        "Choosing the right tool: pickaxe when you know the code, bisect when you know the symptom, blame when you know the line"
+      ],
+      "projects": [
+        "Answer three archaeology questions on a real open source repository (when was X introduced, who last changed Y and why, which commit removed Z) using blame, -S, and -G, citing exact SHAs"
+      ],
+      "practice": "Use git log -L to follow one function through several refactors and renames.",
+      "assessment": "Given a mystery behavior change, produce the introducing commit SHA plus the command trail that found it."
+    }
+  },
+  "phase_3_team_workflows": {
+    "title": "Phase 3: Team Workflows at Scale",
+    "description": "Design how a whole team uses Git: pick the right branching strategy, enforce it with protection rules and CODEOWNERS, build a PR culture that scales, tame big repositories, and run professional releases.",
+    "week_10": {
+      "title": "Class 10: Branching Strategies: Trunk-Based vs GitFlow vs GitHub Flow",
+      "topics": [
+        "GitHub Flow: branch, PR, review, merge, deploy, the default loop for continuously deployed products",
+        "GitFlow honestly assessed: develop, release, and hotfix branches, where it still fits (versioned, installed software) and where it hurts",
+        "Trunk-based development: short-lived branches merged to main within a day or two, backed by strong CI",
+        "Feature flags as the enabler: shipping incomplete work safely to main instead of letting branches age for weeks",
+        "Merge strategy tradeoffs: merge commits vs squash-merge vs rebase-merge, and what each does to history, bisect, and blame",
+        "Long-lived branch pathology: drift, giant conflicts, and review fatigue, and how batch size drives team speed",
+        "A decision framework: choosing a strategy from team size, release cadence, deployment model, and compliance requirements"
+      ],
+      "projects": [
+        "Write a one-page branching strategy proposal for a team you know: chosen model, merge strategy, branch naming, and the reasoning behind each decision"
+      ],
+      "practice": "Merge the same two branches three ways (merge, squash, rebase) in a scratch repo and compare git log --graph for each result.",
+      "assessment": "Defend a recommended strategy for two scenarios: a 4-person startup deploying daily, and a 40-person team shipping quarterly releases."
+    },
+    "week_11": {
+      "title": "Class 11: Branch Protection, Rulesets and CODEOWNERS",
+      "topics": [
+        "Branch protection rules vs the newer rulesets: what each can enforce, and why rulesets can layer and apply across an organization",
+        "Required pull request reviews: approval counts, dismissing stale approvals on new commits, and requiring review from Code Owners",
+        "Required status checks: making green CI a hard merge gate, and strict mode requiring the branch to be up to date first",
+        "CODEOWNERS syntax in depth: path patterns, teams vs individuals, and the gotchas (last matching rule wins, owners need write access)",
+        "Blocking force pushes and deletions on protected branches, plus require linear history and how it interacts with squash and rebase merges",
+        "Bypass lists and enforcement for admins: granting emergency exceptions without switching protection off",
+        "Push protection and required signed commits as organization policy: stopping secrets and unverified commits at the door"
+      ],
+      "projects": [
+        "Configure a demo repository with a full ruleset: required reviews with code owners, required status checks, linear history, and a CODEOWNERS file covering two teams, then prove each rule blocks what it should"
+      ],
+      "practice": "Open a PR that violates each rule in turn (no review, failing check, force push) and document exactly what GitHub blocks.",
+      "assessment": "Explain last-match-wins in CODEOWNERS using a worked example of a pattern ordering that surprises people."
+    },
+    "week_12": {
+      "title": "Class 12: Pull Request Culture That Scales",
+      "topics": [
+        "PR templates in .github/PULL_REQUEST_TEMPLATE.md: prompting authors for context, testing notes, and rollout risk every time",
+        "Draft PRs for early feedback, and converting to ready-for-review once CI is green",
+        "Review mechanics that save hours: committable suggested changes, batching comments into one review, and viewed-files tracking",
+        "Writing reviews people accept: comment on the code not the person, separate blocking issues from nits, always explain the why",
+        "Keeping PRs small and stacked: splitting a large change into a chain of dependent PRs and landing them in order",
+        "Auto-merge and merge queues: letting approved, green PRs land themselves without last-minute conflicts on busy repositories",
+        "Review load balancing: round-robin and load-based team review assignment so reviews never bottleneck on one senior"
+      ],
+      "projects": [
+        "Design a complete PR playbook for a repository: template, review checklist, size guidelines, and auto-merge or merge queue settings, then run one real PR through it end to end"
+      ],
+      "practice": "Review a prepared flawed PR and leave at least five comments, using committable suggestions wherever possible.",
+      "assessment": "Split a provided large change into a sensible stack of three PRs and explain the landing order."
+    },
+    "week_13": {
+      "title": "Class 13: Monorepos, Submodules and Scaling Big Repositories",
+      "topics": [
+        "Monorepo vs polyrepo: atomic cross-project changes and a single-version policy versus independent cadence and access isolation",
+        "Submodules honestly: git submodule add, update --init --recursive, how the parent pins an exact SHA, and the classic detached-HEAD-inside-a-submodule trap",
+        "git subtree as the low-ceremony alternative: vendoring a repository with history and pushing changes back upstream",
+        "sparse-checkout in cone mode: git sparse-checkout init --cone and set <dirs> to work on one slice of a huge monorepo",
+        "Partial clone: git clone --filter=blob:none for full history without full content, versus shallow --depth 1 clones and their limitations",
+        "Git LFS for large binaries: git lfs track, .gitattributes, and migrating existing history with git lfs migrate import",
+        "Repo health at scale: git maintenance start, the commit-graph, and background prefetch to keep big repositories fast"
+      ],
+      "projects": [
+        "Rescue a bloated demo repo: move its binary assets to Git LFS with lfs migrate, set up cone-mode sparse-checkout for one team's directory, and measure clone size before and after using --filter=blob:none"
+      ],
+      "practice": "Add the same dependency repo as a submodule on one branch and a subtree on another, update upstream, and pull the change in both ways.",
+      "assessment": "Recommend monorepo or polyrepo for a described organization and name the specific Git features that make your choice workable."
+    },
+    "week_14": {
+      "title": "Class 14: Release Management: Tags, SemVer and Changelogs",
+      "topics": [
+        "Semantic versioning as a contract: what MAJOR.MINOR.PATCH each promise to consumers, plus pre-release and build metadata suffixes",
+        "Annotated vs lightweight tags: git tag -a v2.1.0 -m, why releases always get annotated (or signed with -s) tags, and pushing them explicitly",
+        "git describe: turning any commit into a human-readable version string for build stamping and support tickets",
+        "GitHub Releases: creating a release from a tag, attaching artifacts, and auto-generated release notes configured via release.yml categories",
+        "Conventional Commits (feat:, fix:, BREAKING CHANGE:) and how they enable automated changelogs and version bumping",
+        "Release branches and the hotfix flow: cutting release/2.1, hardening it, and backporting fixes with cherry-pick -x",
+        "Tag discipline: why a published tag must never be moved, and the correct recovery when a bad tag ships"
+      ],
+      "projects": [
+        "Run a full release cycle on your own project: conventional commits, cut a release branch, create an annotated signed v1.0.0 tag, publish a GitHub Release with categorized auto-generated notes, then ship a v1.0.1 hotfix"
+      ],
+      "practice": "Rewrite five real commit messages into Conventional Commits format and predict the version bump each one implies.",
+      "assessment": "Explain the difference between annotated and lightweight tags and demonstrate why release tooling only trusts the former."
+    }
+  },
+  "phase_4_automation_security": {
+    "title": "Phase 4: Automation, CI/CD & Security",
+    "description": "Automate everything and lock it down: GitHub Actions from fundamentals to reusable workflows, secret management and gated deployments, supply chain security, signed commits, hooks, and GitHub CLI scripting.",
+    "week_15": {
+      "title": "Class 15: GitHub Actions: The Core Model",
+      "topics": [
+        "Anatomy of a workflow: .github/workflows/*.yml, events, jobs, steps, runners, and reading logs in the Actions tab",
+        "Trigger fluency: on push with branch and path filters, pull_request vs pull_request_target (and why the latter is dangerous), workflow_dispatch with inputs, and schedule with cron",
+        "Jobs and runners: ubuntu, windows, and macos images, needs: for dependencies between jobs, and parallel-by-default execution",
+        "Using marketplace actions safely: actions/checkout and setup actions, and pinning by tag versus full commit SHA",
+        "Contexts and expressions: github and runner contexts, if: conditions, and wiring step outputs into later steps",
+        "The GITHUB_TOKEN: what it can touch, and shrinking it with workflow-level and job-level permissions: blocks",
+        "The free tier in real numbers: GitHub Free includes 2,000 Actions minutes per month plus unlimited public and private repositories, so every exercise in this course runs at no cost"
+      ],
+      "projects": [
+        "Build a CI workflow from scratch for a small app: lint, test, and build on every pull request, with path filters so documentation-only changes skip CI"
+      ],
+      "practice": "Add a workflow_dispatch trigger with an input and use its value inside a step expression.",
+      "assessment": "Read an unfamiliar failing workflow run and identify the failing job, step, and root cause from the logs alone."
+    },
+    "week_16": {
+      "title": "Class 16: Advanced Actions: Matrix Builds, Caching and Reusable Workflows",
+      "topics": [
+        "strategy.matrix: testing across language versions and operating systems from one job definition, with include and exclude for edge cells",
+        "fail-fast and max-parallel: controlling what happens to the rest of the matrix when one cell fails",
+        "actions/cache: key design with hashFiles on your lockfile, restore-keys fallback chains, and verifying the cache actually saves time",
+        "Artifacts vs cache: upload-artifact and download-artifact for passing build outputs between jobs and preserving test reports",
+        "Reusable workflows with workflow_call: one CI definition shared across many repositories, with inputs and secrets passed explicitly",
+        "Composite actions: bundling repeated step sequences into your own action under .github/actions/",
+        "concurrency groups with cancel-in-progress: stopping superseded runs on the same PR instead of burning minutes"
+      ],
+      "projects": [
+        "Upgrade your Class 15 pipeline: a six-cell OS-by-version matrix, dependency caching, a test-report artifact, and the whole pipeline extracted into a reusable workflow called from a second repository"
+      ],
+      "practice": "Measure one workflow's runtime with a cold cache and a warm cache and record the difference.",
+      "assessment": "Design a cache key strategy for a given project and justify the restore-keys ordering."
+    },
+    "week_17": {
+      "title": "Class 17: Secrets, Environments and Deployment Pipelines",
+      "topics": [
+        "The secrets hierarchy: repository, organization, and environment secrets, plus log masking and its limits",
+        "GitHub environments: production vs staging with required reviewers, wait timers, and environment-scoped secrets",
+        "Deployment jobs: attaching environment: production to a job and tracking deploy history in the repository's Environments view",
+        "OIDC federation: short-lived cloud credentials for AWS, Azure, or GCP instead of storing long-lived keys as secrets",
+        "The build-once pattern: build a single artifact, deploy that same artifact to staging, then promote it to production through an approval gate",
+        "Deploying to GitHub Pages: free static site hosting wired directly from an Actions workflow",
+        "Rollback and safety: re-running a previous successful deployment, and protecting the deploy branch so only reviewed code ships"
+      ],
+      "projects": [
+        "Build a two-stage deploy pipeline: build an artifact, auto-deploy to a staging environment, then a production deploy to GitHub Pages gated behind a required reviewer"
+      ],
+      "practice": "Rotate a repository secret and confirm the workflow picks up the new value with no file changes.",
+      "assessment": "Explain why OIDC beats long-lived cloud keys in CI and sketch the trust relationship that makes it work."
+    },
+    "week_18": {
+      "title": "Class 18: Supply Chain Security: Dependabot, Secret Scanning and CodeQL",
+      "topics": [
+        "The modern threat model: most of a repository's code is dependencies, and attacks arrive through them and through leaked credentials",
+        "Dependabot alerts and security updates: automatic PRs that bump vulnerable dependencies, and triaging them without alert fatigue",
+        "dependabot.yml version updates: scheduled freshness PRs per ecosystem and directory, with grouping to cut the noise",
+        "Secret scanning and push protection: GitHub detecting known credential patterns and blocking the push before the secret ever lands",
+        "CodeQL code scanning: enabling default setup, reading alerts as data-flow paths, and gating PRs on newly introduced alerts",
+        "Hardening Actions themselves: pinning third-party actions to full commit SHAs, least-privilege GITHUB_TOKEN, and reviewing workflow changes like code",
+        "Dependency review on pull requests: seeing new and changed dependencies with their advisories before merge"
+      ],
+      "projects": [
+        "Fully harden a demo repository: Dependabot alerts plus weekly grouped version updates, push protection, and CodeQL default setup, then deliberately introduce a vulnerable dependency and a planted fake secret and document what each defense caught"
+      ],
+      "practice": "Triage three Dependabot alerts: decide update now, ignore, or investigate, and justify each call.",
+      "assessment": "Explain the difference between Dependabot alerts, version updates, and security updates in plain language."
+    },
+    "week_19": {
+      "title": "Class 19: Signed Commits, 2FA, Hooks and the pre-commit Framework",
+      "topics": [
+        "Why signing matters: anyone can set user.name and user.email to any value, so signatures are the only real authorship proof",
+        "SSH-based signing, the easy modern path: gpg.format ssh, user.signingkey, commit.gpgsign true, and registering the key as a signing key on GitHub",
+        "The Verified badge and vigilant mode: making unsigned commits attributed to you stand out",
+        "Account hygiene: two-factor authentication, and fine-grained personal access tokens with minimal scopes and expiry dates",
+        "Client-side hooks: pre-commit, commit-msg, and pre-push, why they are per-clone by default, and sharing them with core.hooksPath",
+        "The pre-commit framework: .pre-commit-config.yaml, pre-commit install, and running formatters, linters, and secret detectors on staged files only",
+        "Server-side thinking: what pre-receive hooks do, and how GitHub replaces them for hosted repos with protection rules and push protection"
+      ],
+      "projects": [
+        "Set up verified signed commits with an SSH key, then add a pre-commit configuration running a formatter, a linter, and a secret detector, and prove a planted fake credential cannot be committed"
+      ],
+      "practice": "Write a commit-msg hook that rejects messages not matching Conventional Commits format, and test it both ways.",
+      "assessment": "Show a Verified badge on your own GitHub commit and explain the chain of trust that produces it."
+    },
+    "week_20": {
+      "title": "Class 20: GitHub CLI (gh) and API Automation",
+      "topics": [
+        "gh auth login and gh auth status: authenticated automation from any terminal once, then scriptable forever",
+        "The PR workday without a browser: gh pr create --fill, gh pr checkout, gh pr view --web, gh pr review --approve, gh pr merge --squash",
+        "Issue automation: gh issue list --label bug --json number,title for structured output, and gh issue create from scripts",
+        "Watching CI from the terminal: gh run list, gh run watch, and gh run rerun --failed",
+        "Raw API access: gh api repos/{owner}/{repo}/pulls with --jq filters and --paginate for full result sets",
+        "GraphQL for the hard questions: gh api graphql for data the REST API returns poorly, like nested review threads",
+        "Gluing it together: gh inside shell scripts and Actions workflows via GH_TOKEN, plus gh alias set for daily shortcuts"
+      ],
+      "projects": [
+        "Write a morning-review script with gh: list PRs awaiting your review with their CI status and age as a clean table, then alias it to a single command"
+      ],
+      "practice": "Open, review, and squash-merge a pull request entirely from the terminal without touching the browser.",
+      "assessment": "Use gh api with --jq to answer a repository question (for example, the five most recently updated open PRs) in one command."
+    }
+  },
+  "phase_5_leadership_capstone": {
+    "title": "Phase 5: Leadership & Capstone",
+    "description": "Operate at the level teams depend on: migrate an organization to GitHub, recover from disasters and leaked secrets, run AI-assisted review workflows responsibly, and ship a capstone workflow you can defend.",
+    "week_21": {
+      "title": "Class 21: Migrating a Team to GitHub and Teaching Git Well",
+      "topics": [
+        "Migration inventory: repositories, history depth, binaries destined for LFS, users and permissions, CI jobs, and the integrations that will break",
+        "Full-fidelity moves: git clone --mirror plus git push --mirror to carry every branch and tag, and importer tooling for other hosts",
+        "Cutover planning: freeze windows, read-only on the old host, repointing remotes with git remote set-url, and a tested rollback plan",
+        "Designing team conventions: branch naming, commit style, PR rules, and a CONTRIBUTING.md people actually read",
+        "Teaching Git so it sticks: mental model first (objects, refs, three trees), commands second, and running an internal workshop",
+        "The failure modes you will meet: force-push accidents, giant binary commits, enormous PRs, and the specific guardrail that prevents each",
+        "Measuring adoption: PR cycle time, review coverage, and revert rate as signals the new workflow is actually working"
+      ],
+      "projects": [
+        "Produce a complete migration runbook for a fictional 10-developer team moving to GitHub: timeline, mirror commands, permission mapping, guardrail configuration, and a one-hour onboarding workshop outline"
+      ],
+      "practice": "Mirror-migrate a multi-branch repository between two remotes and verify every branch and tag arrived intact.",
+      "assessment": "Deliver a five-minute explanation of the three trees model as you would to a junior teammate, without notes."
+    },
+    "week_22": {
+      "title": "Class 22: Disaster Recovery: filter-repo, Leaked Secrets and Corrupt Repos",
+      "topics": [
+        "First rule of a leaked secret: rotate the credential immediately, because forks and clones already have the history, cleanup is step two",
+        "git filter-repo, the maintained replacement for filter-branch: removing a file from all history with --path plus --invert-paths",
+        "Redacting content everywhere: filter-repo --replace-text to scrub passwords and keys from every commit that ever contained them",
+        "The aftermath of a rewrite: every SHA changes, force-push coordination, teammates re-clone or hard-reset, and open PRs need rebasing",
+        "Recovering from a bad force-push: your own reflog, teammates' clones as backups, and why --force-with-lease should be muscle memory",
+        "Corrupt repository triage: reading git fsck output, copying missing objects from a healthy clone's .git/objects, and knowing when to re-clone",
+        "Prevention as the real strategy: push protection, pre-commit secret detectors, and protected branches make most of this class unnecessary"
+      ],
+      "projects": [
+        "Run a leak drill: plant a fake API key five commits deep, then execute the full response: rotate (simulated), scrub with filter-repo --replace-text, force-push, and verify with git log -S that no trace remains"
+      ],
+      "practice": "Break a scratch repository by deleting an object file, diagnose it with git fsck, and repair it from a second clone.",
+      "assessment": "Write the incident checklist you would follow for a production secret leak, in the correct order, with commands."
+    },
+    "week_23": {
+      "title": "Class 23: AI-Assisted Git Workflows: Copilot and Coding Agents",
+      "topics": [
+        "Copilot code review on GitHub: requesting an AI review on a pull request and treating its findings as a first pass, never a verdict",
+        "Access reality: GitHub Copilot has a free tier you can practice with; check github.com/features/copilot for what the current plans include before relying on any feature",
+        "Coding agents that open PRs: routing AI-authored branches through the same protection rules, status checks, and CODEOWNERS as human code",
+        "Git hygiene for agent work: small scoped branches per task, descriptive PR bodies, and never letting an agent force-push shared history",
+        "AI-generated commit messages and PR summaries: where they genuinely help, and why the diff remains the source of truth",
+        "Team policy for AI code: disclosure, review depth, and the license and provenance questions your organization must answer",
+        "The reviewer's edge: your archaeology skills (blame, pickaxe, bisect) are exactly what keeps AI-speed development safe"
+      ],
+      "projects": [
+        "Run one feature through an AI-assisted flow: have an AI tool draft the change on a branch, then apply your full professional gauntlet (protection rules, CI, line-by-line review) before merging, and write up what the AI got right and wrong"
+      ],
+      "practice": "Request a Copilot review on a pull request and compare its findings against your own review of the same diff.",
+      "assessment": "Draft a one-page AI usage policy for a team's Git workflow covering branches, review requirements, and accountability."
+    },
+    "week_24": {
+      "title": "Class 24: Capstone: Design a Complete Team Workflow + Certification",
+      "topics": [
+        "The capstone brief: take a real repository, yours or a provided one, and productionize it end to end",
+        "Workflow layer: a written branching strategy, protected main with a ruleset, CODEOWNERS, a PR template, and an auto-merge or merge queue decision",
+        "CI/CD layer: a matrix test workflow with caching, a build artifact, and a staged deploy behind an environment approval gate",
+        "Security layer: Dependabot, secret scanning with push protection, CodeQL, signed commits, and actions pinned to SHAs",
+        "Release layer: Conventional Commits, an annotated signed tag, and a GitHub Release with generated notes",
+        "The defense: walk a mentor through every choice and justify it against the alternatives, exactly like an architecture review",
+        "Certification: present the finished repository and earn the Modern Age Coders Advanced Git & GitHub certificate"
+      ],
+      "projects": [
+        "Ship the capstone: one repository with the complete workflow, CI/CD, security, and release stack configured and demonstrably working, plus a README section documenting every design decision"
+      ],
+      "practice": "Do a dry-run presentation of your capstone to a classmate and incorporate at least one piece of their feedback.",
+      "assessment": "Final review: every guardrail demonstrated live (a blocked push, a failing check gate, a gated deploy) earns the certificate."
+    }
+  },
+  "prerequisites": {
+    "device": "A laptop or desktop (Windows, Mac, or Linux) with a terminal and a reliable internet connection; every tool used in the course is free",
+    "coding_experience": "You should already write code in some language and have touched Git (clone, add, commit, push). Rusty is fine: Classes 1-4 rebuild everything from the ground up, just at a professional pace",
+    "accounts": "A free GitHub account covers the entire course: the Free plan includes unlimited public and private repositories and 2,000 GitHub Actions minutes per month, which is more than the exercises need",
+    "mindset": "Willingness to break repositories on purpose. The course is built around controlled disasters and recoveries, because that is how the fear goes away"
+  },
+  "who_is_this_for": {
+    "working_developers": "Developers who use Git daily but lean on the same few commands and want the deep fluency that makes everything else routine",
+    "team_leads": "Leads and managers who need to design branching, review, and release workflows for a team and enforce them with the right guardrails",
+    "career_switchers": "Career switchers who already code and want the professional Git and GitHub habits that interviews and first jobs quietly assume",
+    "devops_and_platform_engineers": "Engineers moving toward DevOps or platform roles who need GitHub Actions, deployment gating, and supply chain security in depth",
+    "open_source_maintainers": "Maintainers and aspiring maintainers who want clean history, scalable review, and a professional release process for their projects"
+  },
+  "career_paths_after_completion": [
+    "Senior developer trusted with repository administration, history surgery, and release management",
+    "Team lead or engineering manager who designs and rolls out the team's branching and review workflow",
+    "DevOps or platform engineer building CI/CD pipelines and deployment gates with GitHub Actions",
+    "Build, release, or developer-experience engineer at organizations running large or monorepo codebases",
+    "The go-to Git person on any team: the one who rescues lost work instead of suggesting a re-clone"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 professionals, with mini-batch (3 to 4 learners) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck mid-rebase.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "additional_learning_resources": {
+    "total_projects_built": "24 hands-on projects, one per class, finishing with a production-grade capstone repository",
+    "projects_throughout_course": [
+      "Phase 1: a hand-traced object graph of your own commit, a three-trees reset cheat card, a commit built from pure plumbing commands, and a dotfiles-quality .gitconfig with identities, aliases, zdiff3, and rerere",
+      "Phase 2: a messy 10-commit branch rebased into 3 clean test-passing commits, a simulated release with cherry-picked hotfixes and a merge revert, a three-way rescue drill recovered via reflog and fsck, an automated bisect run hunt, and three archaeology questions answered with cited SHAs",
+      "Phase 3: a written branching strategy proposal, a fully enforced ruleset with CODEOWNERS proven by blocked PRs, a complete PR playbook run end to end, an LFS plus sparse-checkout rescue of a bloated repo, and a full v1.0.0 release cycle with a signed tag and generated notes",
+      "Phase 4: a from-scratch CI workflow, a matrix build with caching extracted into a reusable workflow, a two-stage gated deploy to GitHub Pages, a fully hardened repo that catches a planted vulnerability and secret, a signed-commit plus pre-commit guardrail setup, and a gh-powered morning-review script",
+      "Phase 5: a complete team migration runbook, a leak drill scrubbed with filter-repo and verified clean, one feature shipped through a professionally reviewed AI-assisted flow, and the capstone: a production-grade repository with workflow, CI/CD, security, and release layers demonstrated live",
+      "Total: 24 hands-on projects, one per class, finishing with a production-grade capstone repository"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live classes per week, about 1 hour each, across 12 weeks",
+      "hands_on_git_work": "1.5-2 hours running the commands from class on your own repositories, including the deliberate break-and-recover drills",
+      "project_time": "1-1.5 hours completing each class project on your own machine",
+      "review_and_doubts": "30-60 minutes reviewing your work and clearing doubts over WhatsApp before the next class"
+    },
+    "certification": {
+      "completion_certificate": "Modern Age Coders 'Advanced Git & GitHub' certificate, earned by presenting and defending your Class 24 capstone repository",
+      "project_portfolio": "A public capstone repository with a complete workflow, CI/CD, security, and release stack, plus 24 documented class projects",
+      "github_profile": "A GitHub profile showing verified signed commits, real pull requests, passing Actions workflows, and a professional release history"
+    },
+    "skills_mastered": [
+      "Git Internals: the object model, refs and HEAD, the three trees, and plumbing commands like cat-file and rev-parse",
+      "History Surgery: interactive rebase with autosquash and exec, cherry-pick, revert on shared history, and filter-repo rewrites",
+      "Rescue Operations: reflog recovery, fsck, automated git bisect run, advanced stash workflows, and corrupt repo triage",
+      "Team Workflow Design: trunk-based development vs GitFlow, rulesets, CODEOWNERS, PR templates, stacked PRs, and merge queues",
+      "Repositories at Scale: monorepo tooling, sparse-checkout, partial clone, submodules vs subtree, and Git LFS migration",
+      "CI/CD with GitHub Actions: matrix builds, caching, artifacts, reusable workflows, environments, OIDC, and gated deployments",
+      "Security: Dependabot, secret scanning with push protection, CodeQL, signed commits, and the pre-commit framework",
+      "Automation and Leadership: GitHub CLI and API scripting, team migrations, release management, and teaching Git to others"
+    ],
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes for stuck rebases, workflow errors, and setup questions",
+      "small_batches": "Small batches, with mini-batch and 1-on-1 options, so every professional gets individual attention",
+      "mentor_guidance": "Live guidance from mentors who run these workflows on real production repositories",
+      "project_feedback": "Feedback on every class project and a personal capstone review before certification",
+      "living_syllabus": "Curriculum updated as Git and GitHub ship new features, at no extra cost"
+    },
+    "git_docs": "Official Git documentation, including the complete Pro Git book free to read: https://git-scm.com/doc",
+    "github_docs": "Official GitHub documentation for Actions, rulesets, security features, and the API: https://docs.github.com",
+    "github_skills": "GitHub Skills, free hands-on courses maintained by GitHub: https://skills.github.com",
+    "learn_git_branching": "Learn Git Branching, interactive visual practice for rebase, cherry-pick, and ref movement: https://learngitbranching.js.org",
+    "github_education": "GitHub Education, including the free Student Developer Pack for verified students: https://education.github.com"
+  },
+  "why_this_course": {
+    "the_gap": "Most professionals learned Git by memorizing a survival kit of commands and hoping nothing goes wrong. The gap between that and real fluency is not more commands, it is the mental model underneath them. This course builds that model first, so every advanced operation becomes predictable instead of terrifying.",
+    "real_workflows": "Everything is taught through the situations that actually happen at work: the force-push accident, the leaked key, the release that must go out tonight, the monorepo that takes an hour to clone. You practice the recovery in class, under guidance, so the first time is never in production.",
+    "always_current": "Git and GitHub keep shipping: rulesets, merge queues, SHA-256 repositories, Copilot review. Our Living Syllabus means the curriculum is updated as the platform evolves, so you are never learning a frozen snapshot of 2020-era Git."
+  },
+  "faqs": [
+    {
+      "question": "Is this Git course too advanced if I only know basic commands like add, commit, and push?",
+      "answer": "No, that is exactly the starting profile it is designed for. The course assumes you have used basic Git at work or in projects, and Classes 1-4 rebuild your understanding from the object model up, so the advanced material lands on solid ground. If you can clone a repo and make a commit, you are ready."
+    },
+    {
+      "question": "How is this different from a beginner Git and GitHub course?",
+      "answer": "Beginner courses teach you the commands; this one teaches you the system. We cover Git internals, interactive rebase, reflog recovery, branch protection rulesets, monorepo tooling, GitHub Actions CI/CD, and repository security, the skills of the person a team calls when Git goes wrong. Our separate college-students course covers the foundations track."
+    },
+    {
+      "question": "Do I need a paid GitHub plan to take this course?",
+      "answer": "No. The GitHub Free plan includes unlimited public and private repositories and 2,000 GitHub Actions minutes per month, which comfortably covers every exercise and the capstone. If you are a verified student at a degree or diploma granting school, the free GitHub Student Developer Pack adds further benefits while you study."
+    },
+    {
+      "question": "Does this course cover GitHub Actions and CI/CD pipelines?",
+      "answer": "Yes, in depth: six full classes. You go from workflow anatomy and triggers through matrix builds, caching, artifacts, and reusable workflows, to secrets, environments with approval gates, OIDC cloud deployments, and supply chain security with Dependabot, secret scanning, and CodeQL. By the capstone you build a complete gated deploy pipeline yourself."
+    },
+    {
+      "question": "Are the classes live or pre-recorded?",
+      "answer": "Every class is live and interactive with a real instructor, never pre-recorded videos. Group batches are capped at 10 professionals, with mini-batch and 1-on-1 options, and you get WhatsApp doubt support between classes. Modern Age Coders has taught live online classes this way since 2020."
+    },
+    {
+      "question": "Does the course teach how to remove a leaked password or API key from Git history?",
+      "answer": "Yes, Class 22 is a full disaster recovery session. You run a complete leak drill: rotate the credential first, scrub every trace from history with git filter-repo --replace-text, coordinate the force-push, and verify the cleanup with git log -S. You also set up the defenses (push protection and pre-commit secret detectors) that stop the leak from happening again."
+    },
+    {
+      "question": "Can my company enrol a team for corporate Git training?",
+      "answer": "Yes. The group format works well for teams, and the Phase 3 and Phase 5 material (branching strategy, rulesets, CODEOWNERS, migration runbooks) is directly reusable as your team's internal playbook. Book a free demo class and we will discuss batch scheduling for your team's timezone; we have taught learners across 25+ countries."
+    },
+    {
+      "question": "What certificate do I get after completing the course?",
+      "answer": "You earn the Modern Age Coders 'Advanced Git & GitHub' certificate by presenting and defending your Class 24 capstone: a repository with a complete workflow, CI/CD, security, and release stack that you demonstrate live. You also leave with the repository itself and a GitHub profile full of verified signed commits, which usually says more than the certificate does."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "git-github-version-control-course-for-college-students",
+      "title": "Git & GitHub Course for College Students: Team-Ready Skills",
+      "description": "The foundations track: from first commit to team workflows, CI and open source, tuned for students and early-career developers"
+    },
+    {
+      "slug": "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals",
+      "title": "Codex & Claude Code: AI Coding Agents for Professionals",
+      "description": "Direct the two leading AI coding agents with the same professional rigor: your Git mastery is what keeps agent-speed development safe"
+    },
+    {
+      "slug": "hackathon-prep-for-adults-professionals-coding-ai-innovation-course",
+      "title": "Hackathon for Adults: Free Event + 12-Week Pro Prep (18+)",
+      "description": "Put your workflow skills under time pressure: build, branch, and ship a real project with a team at hackathon pace"
+    }
+  ]
+}

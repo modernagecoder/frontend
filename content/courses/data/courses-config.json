@@ -221,6 +221,33 @@
         "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
         "personal": { "amount": 4999, "display": "₹4,999/month" }
       }
+    },
+    "git-github-version-control-course-for-teens": {
+      "name": "Git & GitHub for Teens",
+      "pricing": {
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
+        "lifetime": { "amount": 34999, "display": "₹34,999" }
+      }
+    },
+    "git-github-version-control-course-for-college-students": {
+      "name": "Git & GitHub for College Students",
+      "pricing": {
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
+        "lifetime": { "amount": 39999, "display": "₹39,999" }
+      }
+    },
+    "git-github-advanced-version-control-masterclass-for-professionals": {
+      "name": "Advanced Git & GitHub Masterclass (Professionals)",
+      "pricing": {
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
+        "lifetime": { "amount": 44999, "display": "₹44,999" }
+      }
     }
   },
   "notes": {

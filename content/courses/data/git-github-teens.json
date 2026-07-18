@@ -1,0 +1,621 @@
+{
+  "meta": {
+    "slug": "git-github-version-control-course-for-teens",
+    "title": "Git & GitHub Course for Teens: Version Control from Zero",
+    "description": "Learn Git and GitHub from zero in 24 live classes for teens 13-18: commits, branching, pull requests, merge conflicts, a free GitHub Pages portfolio and your first real open source contribution.",
+    "keywords": [
+      "git course for teens",
+      "github for students",
+      "learn git and github online",
+      "version control course",
+      "git tutorial for beginners",
+      "github course for beginners",
+      "github pages portfolio",
+      "first open source contribution",
+      "git branching tutorial",
+      "pull request tutorial",
+      "merge conflict resolution",
+      "live online git classes",
+      "git course india",
+      "git and github for school students",
+      "github profile readme",
+      "github actions for beginners",
+      "git commands course",
+      "coding portfolio for college applications"
+    ],
+    "category": "Version Control & Developer Tools",
+    "price": {
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
+      "lifetime": "₹34,999 (one-time)"
+    },
+    "duration": "24 classes (12 weeks · 2 classes/week)",
+    "level": "Beginner-friendly (ages 13-18) to confident GitHub collaborator",
+    "commitment": "3-4 hours/week recommended",
+    "certification": "Modern Age Coders 'Git & GitHub for Teens' certificate upon completion",
+    "image_path": "git-github-teens.webp"
+  },
+  "program_overview": {
+    "title": "Git & GitHub for Teens: Version Control from Zero to Portfolio",
+    "tagline": "Never lose your work again: master the one tool every real developer uses daily, publish a live portfolio site, and make your first open source contribution in 24 live classes.",
+    "description": "Every serious young coder eventually loses work: the game mod that got overwritten, the school project that vanished the night before submission, the website folder named final-version-3-REAL. This course ends that forever. In 24 live, project-based classes for teens aged 13 to 18 (GitHub itself requires users to be 13 or older, so this is the perfect starting age), you learn Git and GitHub from absolute zero, with no terminal experience assumed. You will master real commands like git init, git commit, git branch, git merge and git rebase, resolve merge conflicts calmly, open and review pull requests, publish a free portfolio website with GitHub Pages, automate it with GitHub Actions, and make a genuine contribution to a real open source project. Every class is taught live by an instructor, using the same small-batch, mentorship-first method Modern Age Coders has used since 2020 to teach 10,000+ students across 25+ countries. You finish with a GitHub profile that colleges and internship reviewers can actually read: pinned projects with proper READMEs, a live portfolio URL, and a real pull request to someone else's codebase.",
+    "what_makes_this_different": [
+      "Zero terminal assumed: Class 2 is a full, friendly terminal bootcamp (pwd, ls, cd, mkdir) before any Git command is expected of you.",
+      "Built around YOUR projects: practice on your own website, Python script, or game mod files; we provide starter projects if you don't have one yet.",
+      "Live and interactive: every class is taught live by a real instructor in a small batch, never pre-recorded videos.",
+      "Real developer workflows, not toy demos: branches, pull requests, code reviews, project boards, and a two-person team project on one shared repo.",
+      "Living Syllabus: the curriculum is updated as Git and GitHub ship new features, so you always learn the current tool, not a frozen tutorial.",
+      "Real outcomes: a polished GitHub profile, a live GitHub Pages portfolio, one external open source pull request, and a certificate."
+    ],
+    "learning_path": [
+      "Phase 1, Git Foundations (Classes 1-5): why version control exists, installing Git, terminal survival skills, init/status/add/commit, the three areas, log and diff, undoing safely, .gitignore.",
+      "Phase 2, GitHub Essentials (Classes 6-11): your account (13+), SSH keys, clone/push/pull, Markdown READMEs, the profile README, licenses and issues, and a free website on GitHub Pages.",
+      "Phase 3, Branching & Collaboration (Classes 12-17): branches, merging, conflict resolution without panic, pull requests end to end, kind code review, forks and upstream, a real two-person team project.",
+      "Phase 4, Level Up (Classes 18-21): merge vs rebase safely, git stash, tags and releases, your first GitHub Actions workflow, and a portfolio recruiters and colleges can actually read.",
+      "Phase 5, Open Source & Capstone (Classes 22-24): finding good first issues, open source etiquette, a real external pull request, and a capstone that earns your certificate."
+    ],
+    "career_outcomes": [
+      "A GitHub profile with pinned, documented projects that strengthens college and internship applications",
+      "A live portfolio website published free on GitHub Pages with your own URL",
+      "A genuine open source contribution: proof you can collaborate on a real codebase",
+      "Team-ready collaboration skills: branches, pull requests, and reviews used in every school hackathon and future job",
+      "A foundation every future course builds on: Git works identically for Python, web, Java, C++, and AI projects"
+    ]
+  },
+  "phase_1_git_foundations": {
+    "title": "Phase 1: Git Foundations",
+    "description": "Understand why version control exists, install Git on your own machine, get comfortable in the terminal from zero, and master the everyday cycle of init, status, add, commit, log, diff, and safe undo.",
+    "week_1": {
+      "title": "Class 1: Why Version Control? (The Lost Homework Horror Story)",
+      "topics": [
+        "The horror story every student knows: project-final-v2-REAL(3), an overwritten game mod, a school submission lost the night before deadline, and how version control ends it forever",
+        "What a version control system actually does: full snapshots of your project you can return to at any moment, with a message explaining each one",
+        "Git in one line: a free, open source distributed version control system created by Linus Torvalds in 2005 to manage Linux kernel development",
+        "Centralized vs distributed: why every Git user carries the complete project history on their own machine, so no single crash can destroy it",
+        "Git vs GitHub: Git is the tool on your computer, GitHub (owned by Microsoft since 2018) is the website where Git repositories live online and people collaborate",
+        "The four words you will use every day, defined simply: repository, commit, branch, remote",
+        "Installing Git: the git-scm.com installer on Windows (Git Bash included), Homebrew or Xcode command line tools on Mac, sudo apt install git on Linux, then verify with git --version"
+      ],
+      "projects": [
+        "Install Git on your own computer, run git --version to prove it works, and write a half-page version-control horror story from your own life (or a friend's) that this course will make impossible"
+      ],
+      "practice": "Explain the difference between Git and GitHub to a family member in under a minute without notes.",
+      "assessment": "Screenshot of git --version output on your machine plus a two-sentence definition of a commit in your own words."
+    },
+    "week_2": {
+      "title": "Class 2: Terminal Survival Skills (Zero Assumed)",
+      "topics": [
+        "Opening your terminal: Git Bash on Windows, Terminal on Mac and Linux, and why developers live here instead of clicking through folders",
+        "Finding your way: pwd to see where you are, ls to list files (ls -a reveals hidden ones like .git), cd foldername, cd .. to go up, cd ~ to go home",
+        "Making and removing things: mkdir for folders, creating empty files, and why rm deserves respect before you press Enter",
+        "Speed skills: Tab completion so you never mistype a filename, and the up arrow to replay previous commands",
+        "Paths made simple: absolute vs relative paths, and why file names with spaces need quotes",
+        "Escape hatches: clear to clean the screen, Ctrl+C to cancel a stuck command, and q to exit the pager that git log opens",
+        "One-time Git setup: git config --global user.name 'Your Name', git config --global user.email, git config --global init.defaultBranch main, then check it all with git config --list"
+      ],
+      "projects": [
+        "Build a coding-projects folder tree (three nested folders and two files) entirely from the terminal, no mouse allowed, and configure your Git name and email"
+      ],
+      "practice": "Navigate from your home folder to your deepest project folder and back using only cd, pwd, and Tab completion.",
+      "assessment": "Live terminal check: reach a named folder, list its hidden files, and show your git config user.name without help."
+    },
+    "week_3": {
+      "title": "Class 3: Your First Repository: init, status, add, commit",
+      "topics": [
+        "git init: turning any folder into a repository, and the hidden .git folder that IS your history (never delete it)",
+        "The three areas every Git action moves between: working directory, staging area (the index), and the repository of committed snapshots",
+        "git status as your always-on dashboard: reading untracked, modified, and staged states without fear",
+        "Staging deliberately: git add file.html for one file, git add . for everything, and why choosing files on purpose makes better commits",
+        "git commit -m 'Add homepage heading': writing messages in present tense that say what and why, not 'stuff' or 'changes'",
+        "The git commit -am shortcut, and the catch: it only works for files Git already tracks",
+        "Reading your story back with git log: author, date, hash, and message of every snapshot you have ever taken"
+      ],
+      "projects": [
+        "Create my-first-repo and build a tiny webpage across 5 separate commits, each with a clear message, so git log reads like a story of how the page grew"
+      ],
+      "practice": "Run git status after every single command for one whole session until you can predict what it will say before you press Enter.",
+      "assessment": "Show a repository with at least 5 commits whose messages let a stranger understand the project's history without opening any file."
+    },
+    "week_4": {
+      "title": "Class 4: Time Travel: log, diff, and Inspecting History",
+      "topics": [
+        "Power views of history: git log --oneline for a compact list, git log --graph --oneline --all to see the shape of your project",
+        "Commit hashes demystified: the long SHA-1 identifier, the 7-character short form, and HEAD as 'where you are right now'",
+        "git diff: exactly what changed but is not staged yet; git diff --staged for what is about to be committed",
+        "git show <hash>: opening any single commit to see precisely what it changed and why",
+        "One file's biography: git log -p filename to see every change ever made to it",
+        "git blame filename: which commit and author last touched each line, and why it is a debugging tool, not an accusation tool",
+        "Visiting the past safely: git checkout <hash> to look at an old version, what 'detached HEAD' really means, and git switch main to come home"
+      ],
+      "projects": [
+        "History detective challenge: in a prepared repo, use log, show, diff, and blame to answer five questions like 'which commit broke the page title and what did it change?'"
+      ],
+      "practice": "Pick any two commits in your Class 3 repo and describe the difference between them using only git diff output.",
+      "assessment": "Check out an old commit, read it, return to main correctly, and explain detached HEAD in one sentence."
+    },
+    "week_5": {
+      "title": "Class 5: Undoing Safely + .gitignore",
+      "topics": [
+        "The undo ladder: from harmless to serious, and why you always reach for the safest rung first",
+        "git restore file to throw away working-directory changes, and git restore --staged file to unstage without losing work",
+        "git commit --amend to fix your last commit message or include a forgotten file, and why you only amend commits you have not pushed",
+        "git reset --soft HEAD~1 to un-commit while keeping your changes staged, and why beginners treat --hard as radioactive",
+        "git revert <hash>: the safe, history-preserving undo that creates a new commit cancelling an old one",
+        ".gitignore: keeping node_modules, __pycache__/, .DS_Store, and secret API keys out of your history, with * wildcards and folder/ patterns",
+        "The oops recovery: git rm --cached secrets.txt when you committed something you meant to ignore, and why leaked secrets must also be changed"
+      ],
+      "projects": [
+        "Rescue mission: in a prepared practice repo, unstage a file, discard a bad edit with git restore, amend a commit message, revert a bad commit, and write a .gitignore that keeps secrets.txt out forever"
+      ],
+      "practice": "Deliberately make each of the five mistakes covered in class and undo each one with the safest command that fixes it.",
+      "assessment": "Given three broken-repo scenarios, name the correct undo command for each and explain why a harsher one was not needed."
+    }
+  },
+  "phase_2_github_essentials": {
+    "title": "Phase 2: GitHub Essentials",
+    "description": "Take your repositories online: create your GitHub account, set up SSH keys, push and pull, write READMEs people actually read, build your profile page, understand licenses and issues, and publish a free website with GitHub Pages.",
+    "week_6": {
+      "title": "Class 6: Joining GitHub (13+) and Your First Push",
+      "topics": [
+        "Creating your account: GitHub's Terms of Service require users to be 13 or older, which is exactly why this course starts at 13, plus choosing a username you will still like on a college application",
+        "What GitHub Free includes: unlimited public and private repositories and 2,000 GitHub Actions minutes per month, more than enough for everything in this course",
+        "A guided tour: repositories, your profile, notifications, the new-repo button, and the real difference between public and private repos",
+        "Creating a repository on GitHub: initializing with a README, picking a .gitignore template, and what the license dropdown is for (Class 10 goes deep)",
+        "Wiring local to remote: git remote add origin <url> and confirming it with git remote -v",
+        "The first upload: git push -u origin main, and what --set-upstream actually saves you from typing forever after",
+        "Securing your account with two-factor authentication before you build anything worth stealing"
+      ],
+      "projects": [
+        "Create your GitHub account with 2FA enabled, make your first online repository, connect your Class 3 local repo to it, and push all 5 commits so they appear on github.com"
+      ],
+      "practice": "Make one more local commit and push it, then refresh the GitHub page and find your exact change in the web interface.",
+      "assessment": "Your Class 3 repository is visible on your GitHub account with full commit history and git remote -v shows origin correctly."
+    },
+    "week_7": {
+      "title": "Class 7: HTTPS vs SSH: Keys, Cloning, and Pulling",
+      "topics": [
+        "Why GitHub removed password pushes: HTTPS with tokens vs SSH keys, and which one professionals set up on day one",
+        "Generating your key pair: ssh-keygen -t ed25519 -C 'your_email', where keys live in ~/.ssh, and the golden rule that the private key never leaves your machine",
+        "Installing the key: starting ssh-agent, ssh-add, pasting the .pub file into GitHub Settings under SSH keys, and testing with ssh -T git@github.com",
+        "git clone <url>: pulling down any repository, and understanding that a clone contains the complete history, not just the latest files",
+        "git fetch vs git pull: fetch downloads new history to look at, pull is fetch plus merge into your branch",
+        "What 'origin' actually is: just the default nickname for a remote URL, changeable with git remote set-url",
+        "The two-machine workflow: clone your own repo onto a second computer (or a school machine) and keep both in sync with push and pull"
+      ],
+      "projects": [
+        "Set up a working SSH key, clone your own repository into a second folder to simulate a second computer, make a change there, push it, and pull it back into the original"
+      ],
+      "practice": "Run ssh -T git@github.com and read the greeting, then clone one interesting public repository and explore its git log.",
+      "assessment": "Demonstrate a full round trip: commit on 'computer B' clone, push, pull on 'computer A', and point to the change arriving."
+    },
+    "week_8": {
+      "title": "Class 8: READMEs That Make People Care (Markdown)",
+      "topics": [
+        "Why README.md is your project's front door: GitHub renders it automatically on the repo homepage, and most visitors never look past it",
+        "Markdown core: # and ## headings, **bold** and *italic*, bulleted and numbered lists, [links](url), and images with ![alt](path)",
+        "Code that looks like code: inline backticks and fenced code blocks with language names for syntax highlighting",
+        "The anatomy of a great project README: what it is, a screenshot, how to run it, features, what you learned, credits",
+        "Fancier moves: tables, task lists with - [ ], and collapsible details sections for long content",
+        "Badges from shields.io, used tastefully: one or two that say something true, not a wall of stickers",
+        "Previewing before pushing: VS Code's built-in Markdown preview (Ctrl+Shift+V) so you never push a broken layout"
+      ],
+      "projects": [
+        "Write a complete README.md for your webpage project with a heading, screenshot, run instructions, a feature table, and one code block, then push it and admire the rendered result"
+      ],
+      "practice": "Find a popular open source README you admire, list three techniques it uses, and steal one for your own.",
+      "assessment": "Your pushed README renders correctly on GitHub with at least five different Markdown elements used properly."
+    },
+    "week_9": {
+      "title": "Class 9: Your Profile README and GitHub Identity",
+      "topics": [
+        "The special repo trick: create a repository named exactly your username and its README becomes your public profile page",
+        "What belongs there at your age: who you are, what you are learning, projects you are proud of, and school-safe contact info (no address, no phone)",
+        "Pinned repositories: choosing up to 6 repos that represent your best work, and why order matters",
+        "The contribution graph decoded: what the green squares actually count, and why steady real work beats gaming the graph",
+        "Stars as bookmarks: starring repos you want to learn from, and building a feed by following builders you admire",
+        "Watch vs star vs fork: notifications, bookmarks, and copies, and when each one is the right click",
+        "Playing the long game: colleges and internship reviewers really do open GitHub profiles, so keep every claim honest"
+      ],
+      "projects": [
+        "Create your username/username repository with a profile README introducing yourself, your current projects, and what you are learning, then pin your two best repos"
+      ],
+      "practice": "Visit five classmates' new profiles, star one repo from each, and leave one genuine compliment as an issue or comment.",
+      "assessment": "Your profile shows a rendered profile README and at least two pinned repositories with descriptions."
+    },
+    "week_10": {
+      "title": "Class 10: Licenses, Issues, and Repo Housekeeping",
+      "topics": [
+        "The surprise default: a repo with no license means all rights reserved, so others technically cannot reuse your code even though they can read it",
+        "The big three in plain English: MIT (do almost anything, keep the notice), Apache-2.0 (MIT plus patent protection), GPL-3.0 (share-alike), and choosealicense.com for deciding",
+        "Adding a LICENSE file the easy way with GitHub's built-in template picker",
+        "Issues as a project's memory: writing a bug report with steps to reproduce, expected behavior, and actual behavior",
+        "Organizing with labels, assignees, and milestones, even on a solo school project",
+        "Closing issues from commits: writing 'fixes #12' in a commit message and watching GitHub close the issue automatically",
+        "Housekeeping: repo descriptions and topics for discoverability, renaming safely, and archiving old projects instead of deleting history"
+      ],
+      "projects": [
+        "Add an MIT license to your webpage project, open three well-written issues on it (one bug, two feature ideas), and close one automatically with a 'fixes #N' commit"
+      ],
+      "practice": "Read the licenses of three repos you starred and identify which of the big three (or something else) each one uses.",
+      "assessment": "Your repo has a LICENSE file, at least two open issues with labels, and one issue closed by a linked commit."
+    },
+    "week_11": {
+      "title": "Class 11: Publish Your First Website Free with GitHub Pages",
+      "topics": [
+        "What GitHub Pages is: free static site hosting served straight from a repository, no server rental, no credit card",
+        "The two flavors: a user site from a repo named username.github.io, and project sites served at username.github.io/repo-name",
+        "Turning it on: Settings, then Pages, then deploy from branch, choosing main and the root folder (or /docs)",
+        "Push an index.html and watch it go live: how long deploys take and how to check progress in the Actions tab",
+        "Project-site gotchas: why relative links and image paths break under /repo-name and how to write them correctly",
+        "A custom 404.html page so even your error page has personality",
+        "Why this matters: this URL becomes your portfolio home for the rest of the course, and every push updates it automatically"
+      ],
+      "projects": [
+        "Publish your webpage project live on GitHub Pages, fix any broken image paths, add a custom 404 page, and share your working URL with the class"
+      ],
+      "practice": "Change your page's heading locally, commit, push, and time how long the live site takes to update.",
+      "assessment": "A live GitHub Pages URL that loads your site correctly, including images and your custom 404 page."
+    }
+  },
+  "phase_3_branching_collaboration": {
+    "title": "Phase 3: Branching & Collaboration",
+    "description": "Learn the skill that separates solo coders from teammates: branches, merges, calm conflict resolution, pull requests end to end, kind code review, forks with upstream syncing, and a real two-person project on one shared repository.",
+    "week_12": {
+      "title": "Class 12: Branches: Parallel Universes for Your Code",
+      "topics": [
+        "What a branch really is under the hood: a movable pointer to a commit, which is why creating one is instant and free",
+        "The modern commands: git branch to list, git switch -c feature-dark-mode to create and move, and the older git checkout -b you will see in tutorials",
+        "Naming branches so future-you understands: feature/dark-mode, fix/broken-nav-link, experiment/crazy-idea",
+        "Switching with uncommitted changes: when Git lets you carry work across and when it stops you to protect it",
+        "Seeing the universe split: git log --oneline --graph --all as branches diverge from main",
+        "Cleaning up: git branch -d for merged branches, and why -D (force delete) deserves a moment of doubt",
+        "The golden rule real teams follow: main always stays working and deployable, experiments live on branches"
+      ],
+      "projects": [
+        "On your live website repo, build a new feature (a dark theme or a new section) entirely on a feature branch while main stays untouched and your live site keeps working"
+      ],
+      "practice": "Create three branches with proper names, make one commit on each, and draw the resulting graph on paper before checking it with git log --graph.",
+      "assessment": "Show a repo where main is clean, a feature branch holds new commits, and you can explain the graph line by line."
+    },
+    "week_13": {
+      "title": "Class 13: Merging Branches Like a Pro",
+      "topics": [
+        "The merge ritual: switch to the receiving branch first (git switch main), then git merge feature-dark-mode",
+        "Fast-forward merges: when main has not moved, Git just slides the pointer ahead, no new commit needed",
+        "Three-way merges: when both branches moved, Git creates a merge commit with two parents, and you can edit its message",
+        "git merge --no-ff to force a merge commit and keep the branch's shape visible in history, and why some teams prefer it",
+        "Reading history after merging: spotting merge commits and branch shapes in git log --graph",
+        "git branch --merged: finding branches that are fully merged and safe to delete",
+        "The strategy that prevents pain: small, short-lived branches merged often beat giant branches merged rarely"
+      ],
+      "projects": [
+        "Merge your dark-theme branch into main (watching your live Pages site update), then create, merge, and delete a second small feature branch using --no-ff and compare the two history shapes"
+      ],
+      "practice": "Predict before each merge whether it will fast-forward or create a merge commit, then verify with git log --graph.",
+      "assessment": "Explain the difference between your fast-forward and no-ff merges using your own repo's graph as the evidence."
+    },
+    "week_14": {
+      "title": "Class 14: Merge Conflicts Without Panic",
+      "topics": [
+        "Why conflicts happen: two branches edited the same lines of the same file, and Git refuses to guess which version you want",
+        "Decoding the conflict markers: <<<<<<< HEAD, =======, and >>>>>>> branch-name, and what sits between each",
+        "Resolving in VS Code: Accept Current, Accept Incoming, Accept Both, or hand-editing to something better than either",
+        "Finishing the job: git add the resolved files, then git commit to seal the merge",
+        "The eject button: git merge --abort to back out cleanly and try again with a clearer head",
+        "Your tools mid-conflict: git status lists exactly which files still conflict, git diff shows the battleground",
+        "Prevention beats cure: pull often, keep commits small, and talk to teammates about who is touching what"
+      ],
+      "projects": [
+        "Conflict laboratory: follow a script that manufactures a two-branch conflict in your repo, resolve it three ways (current, incoming, hand-crafted blend), and keep the best resolution"
+      ],
+      "practice": "Create and resolve one fresh conflict from scratch without the script, timing yourself from conflict to clean commit.",
+      "assessment": "Given a conflicted file, correctly identify which branch each block came from and produce a sensible resolved commit."
+    },
+    "week_15": {
+      "title": "Class 15: Pull Requests End to End",
+      "topics": [
+        "What a pull request actually is: a proposed merge plus a conversation about it, the center of collaboration on GitHub",
+        "The flow: push your branch (git push -u origin feature-name), then GitHub's 'Compare & pull request' button, understanding base vs compare",
+        "Writing a PR people want to review: a clear title, what changed and why, screenshots for visual changes, and 'closes #7' to auto-close the issue",
+        "Draft pull requests for work in progress, and requesting a specific reviewer when it is ready",
+        "Living in the Files changed tab: reading the diff, leaving comments on exact lines",
+        "Updating a PR: push more commits to the same branch and the PR updates itself, no new PR needed",
+        "The three merge buttons: merge commit, squash and merge (your 12 tiny commits become 1 clean one), and rebase and merge, with squash as the tidy default for small PRs"
+      ],
+      "projects": [
+        "Ship a real feature to your website through a complete PR: branch, push, open a PR with description and screenshot, link an issue, then squash-merge it and watch the issue close"
+      ],
+      "practice": "Open a second PR as a draft, convert it to ready for review, push one more commit to it, and observe the PR update.",
+      "assessment": "A merged pull request on your repo with a proper description, a linked closed issue, and a clean squash-merged history on main."
+    },
+    "week_16": {
+      "title": "Class 16: Reviewing Kindly + Forks and Upstream",
+      "topics": [
+        "Reviewing a friend's PR: the three verdicts (comment, approve, request changes) and how to phrase feedback that is specific, kind, and about the code, never the person",
+        "The suggestion superpower: proposing an exact code change in a review comment that the author can commit with one click",
+        "What a fork is: your own full copy of someone else's repository under your account, the key to contributing to projects you cannot push to",
+        "The cross-repo loop: fork, clone your fork, branch, push to your fork, then open a PR back to the original repository",
+        "Keeping a fork fresh: git remote add upstream <original-url>, git fetch upstream, git merge upstream/main, or GitHub's Sync fork button",
+        "Why this design is brilliant: strangers can safely propose changes to any project on Earth without anyone granting them access first",
+        "Star vs fork, settled: star to bookmark and learn, fork only when you intend to change"
+      ],
+      "projects": [
+        "Pair up: review a classmate's real PR using at least one line comment and one one-click suggestion, then fork a classmate's repo, improve their README, and send them a cross-repo PR"
+      ],
+      "practice": "Set up an upstream remote on your fork and sync it after your classmate merges someone else's change.",
+      "assessment": "One thoughtful review submitted with a committed suggestion, and one cross-repo PR opened from your fork."
+    },
+    "week_17": {
+      "title": "Class 17: Team Project: Two People, One Repo",
+      "topics": [
+        "Adding a collaborator: Settings, Collaborators, the invite, and what write access actually allows",
+        "Branch protection basics: requiring a pull request review before anything merges to main, so nobody (including you) pushes straight to main",
+        "The daily team loop: pull main, branch, commit, push, PR, review, merge, repeat until the project ships",
+        "When your partner merges first: bringing main into your branch with git pull origin main and resolving any conflict on YOUR branch, not on main",
+        "GitHub Projects boards: To do, In progress, Done columns with issues as draggable cards, perfect for school assignments",
+        "Assigning issues so two people never silently build the same thing",
+        "Communication as a Git skill: PR descriptions, issue comments, and review replies are how remote teams actually talk"
+      ],
+      "projects": [
+        "Two-person mini-sprint: with a partner, plan a small shared website on a Projects board, split it into assigned issues, and build it over branch-PR-review cycles with branch protection on"
+      ],
+      "practice": "Complete one full loop where your partner merges before you and you resolve the resulting conflict on your own branch.",
+      "assessment": "The shared repo shows commits from both partners, at least four merged PRs with reviews, and a board with every card in Done."
+    }
+  },
+  "phase_4_level_up": {
+    "title": "Phase 4: Level Up",
+    "description": "Move past the basics with the tools developers reach for daily: a safe introduction to rebase, git stash for interruptions, tags and releases for shipping versions, your first GitHub Actions automation, and a portfolio pass that makes your profile genuinely readable.",
+    "week_18": {
+      "title": "Class 18: Merge vs Rebase, a Safe Introduction",
+      "topics": [
+        "What git rebase actually does: lifts your branch's commits and replays them on top of a new base, rewriting them into new commits",
+        "Merge vs rebase honestly: merge preserves true history with merge commits, rebase produces a straight readable line, and teams simply pick a convention",
+        "The golden rule that keeps you safe: never rebase commits you have already pushed and shared with others",
+        "git pull --rebase: updating your own branch without littering it with merge commits",
+        "Conflicts during rebase: fix the file, git add it, then git rebase --continue, or bail out completely with git rebase --abort",
+        "A peek at interactive rebase: git rebase -i HEAD~3 to squash or reword your own local commits before anyone sees them",
+        "The beginner's default when unsure: just merge, it is always safe"
+      ],
+      "projects": [
+        "Rebase experiment in a sandbox copy of your repo: create the same divergence twice, resolve it once with merge and once with rebase, and screenshot the two different history graphs side by side"
+      ],
+      "practice": "Use git rebase -i on three messy local commits to squash them into one well-named commit before pushing.",
+      "assessment": "Explain, using your own two screenshots, what rebase changed about history and recite the golden rule from memory."
+    },
+    "week_19": {
+      "title": "Class 19: Stash, Tags, and Releases",
+      "topics": [
+        "The interruption problem: you are mid-feature and must switch branches NOW, and committing half-broken work feels wrong",
+        "git stash push -m 'half-done navbar': shelving working-directory changes instantly, and -u to include untracked files",
+        "Managing the shelf: git stash list, git stash pop (apply and remove) vs git stash apply (keep a copy), and git stash drop",
+        "Tags: permanent bookmarks on commits, lightweight (git tag v1.0.0) vs annotated (git tag -a v1.0.0 -m 'First public version')",
+        "Semantic versioning in one line: major.minor.patch, and what bumping each number promises",
+        "Tags are not pushed by default: git push origin v1.0.0 or git push --tags",
+        "GitHub Releases: turning a tag into a release page with human-readable notes and downloadable files, shipping v1.0.0 of your site like real software"
+      ],
+      "projects": [
+        "Practice a real interruption (stash mid-edit, fix an urgent 'bug' on main, pop your stash back), then tag your portfolio site v1.0.0 and publish a GitHub Release with proper notes"
+      ],
+      "practice": "Stash with a message, list your stashes, and explain to a partner the difference between pop and apply before using each once.",
+      "assessment": "Your repo shows a pushed annotated v1.0.0 tag and a published Release whose notes summarize the version accurately."
+    },
+    "week_20": {
+      "title": "Class 20: Your First GitHub Actions Workflow",
+      "topics": [
+        "What CI and automation mean: robots that run your chosen steps automatically on every push, so checks never depend on memory",
+        "What you get free: GitHub Free includes 2,000 Actions minutes per month, far more than this course needs",
+        "Anatomy of a workflow file at .github/workflows/deploy.yml: name, the on: push trigger, jobs, runs-on: ubuntu-latest, steps, and uses: actions/checkout@v4",
+        "YAML survival: indentation is meaning, and one stray space is the classic first bug",
+        "Reading the Actions tab: live logs, green checks and red X marks on every commit, and finding the exact failing line",
+        "Upgrading your site: deploying GitHub Pages through an Actions workflow, the modern flow that runs on every push to main",
+        "Wearing it proudly: adding the workflow status badge to your README"
+      ],
+      "projects": [
+        "Write your first workflow from scratch: auto-deploy your Pages portfolio via Actions on every push to main, break it once on purpose, fix it by reading the logs, and add the status badge to your README"
+      ],
+      "practice": "Push three commits and narrate to a partner exactly what the Actions tab shows for each, from trigger to green check.",
+      "assessment": "A green workflow run visible in your Actions tab that deployed your live site, plus a working status badge in your README."
+    },
+    "week_21": {
+      "title": "Class 21: A Portfolio Recruiters and Colleges Can Actually Read",
+      "topics": [
+        "Thinking like your reader: an admissions reviewer or intern recruiter gives your profile about two minutes, so structure for skimming",
+        "Pinned repos as your headline: choose 6, order them by impressiveness, and give every one a real README with a screenshot",
+        "Repo metadata that sells: one-line descriptions, topic tags, and the live demo URL in the About box of every project",
+        "The About box link trick: every project with a Pages site gets its URL right there, one click from visitor to live demo",
+        "Writing project blurbs in outcomes language: what it does, what you built it with, and one thing you learned, not 'a simple website'",
+        "The honest graph: steady real contributions beat manufactured green squares, and reviewers can tell the difference",
+        "Your recurring 5-minute self-audit checklist: profile README current, pins ordered, descriptions filled, demos alive, no broken links"
+      ],
+      "projects": [
+        "Full portfolio pass: apply the audit checklist to your entire account, fixing every pinned repo's README, description, topics, and About-box demo link until a stranger can navigate your work unaided"
+      ],
+      "practice": "Swap profiles with a classmate, spend exactly two minutes on theirs, and report what you understood and where you got lost.",
+      "assessment": "A classmate reviewing your profile cold can name your best project, open its live demo, and say what it does within two minutes."
+    }
+  },
+  "phase_5_open_source_capstone": {
+    "title": "Phase 5: Open Source & Capstone",
+    "description": "Graduate from your own repos to the world's: find a genuine good first issue, learn the etiquette that gets contributions merged, open a real external pull request, and complete a capstone that earns your certificate.",
+    "week_22": {
+      "title": "Class 22: Finding Your First Open Source Issue",
+      "topics": [
+        "Why contribute at all: real codebases, review from experienced maintainers, and public proof you can collaborate, the exact thing schools and employers cannot verify from solo projects",
+        "Where to hunt: the good first issue and help wanted labels, curated first-issue lists, and GitHub search filters like label:\"good first issue\" language:python",
+        "Reading the house rules first: CONTRIBUTING.md and CODE_OF_CONDUCT.md exist so you do not have to guess how a project works",
+        "Sizing your first issue honestly: documentation fixes, typos, small bugs, and missing tests beat ambitious features every time",
+        "Claiming politely: comment asking to take the issue and wait for a maintainer's reply before starting serious work",
+        "Setting up the contribution: fork the project, clone YOUR fork, and create a branch named for the issue",
+        "Reproducing before touching: run the project locally and confirm you can see the issue yourself before changing a single line"
+      ],
+      "projects": [
+        "Build a shortlist of three real candidate issues in projects you actually use or understand, pick one, claim it politely in a comment, and get your fork cloned and branched locally"
+      ],
+      "practice": "Read the CONTRIBUTING.md of all three shortlisted projects and note one rule from each that you would have broken without reading it.",
+      "assessment": "A claimed (or claim-requested) real issue, a fork with an issue-named branch, and the project running on your machine."
+    },
+    "week_23": {
+      "title": "Class 23: Making the Contribution: Etiquette and the External PR",
+      "topics": [
+        "Matching the project's style: read the neighboring code, follow their naming and formatting, and keep your diff as small as the fix allows",
+        "Commit message conventions some projects require, like Conventional Commits (fix: correct typo in install guide), and finding the rule in CONTRIBUTING.md",
+        "Opening the PR against the upstream repository: filling their PR template honestly and linking the issue you claimed",
+        "Responding to review like a professional: make the requested changes, push to the same branch, reply to each comment, and resolve conversations",
+        "Patience and kindness: maintainers are often volunteers, so wait about a week before a polite nudge, and never demand a merge",
+        "If it is not merged: what you still gained (a public PR, review experience, a work sample) and how to reference it anyway",
+        "After the merge: sync your fork from upstream, thank the reviewer, and add the contribution to your profile README"
+      ],
+      "projects": [
+        "Make the fix on your branch, open a real pull request to the upstream project with their template filled properly and the issue linked, and respond to any review feedback that arrives"
+      ],
+      "practice": "Before submitting, self-review your own PR diff line by line and remove anything not needed for the fix.",
+      "assessment": "A real external pull request open (or merged) on a project you do not own, with a clean diff and an honest description."
+    },
+    "week_24": {
+      "title": "Class 24: Capstone: Profile, Portfolio, Merged PR + Certification",
+      "topics": [
+        "The capstone checklist: polished profile README, pinned repos each with a real README, your live GitHub Pages portfolio, and one external pull request submitted or merged",
+        "Final repo audit: a license on everything public, correct .gitignore files, and absolutely no secrets in any history (plus the rotation rule if one ever slips)",
+        "A history a stranger can follow: sensible branch names, clear commit messages, and merged PRs that tell the story of each project",
+        "Presenting with Git itself: walking your reviewer through a project using git log --oneline --graph as the narrative",
+        "What unlocks next: the GitHub Student Developer Pack is free for verified students at degree or diploma granting schools and includes GitHub Pro while a student, and GitHub Education has offered free Copilot access to verified students (availability can change, check education.github.com)",
+        "Your 90-day plan: a sustainable contribution rhythm, the next two open source targets, and using branches and PRs on every school project from now on",
+        "Demo day: present your profile, live portfolio, and external PR to the class and earn your certificate"
+      ],
+      "projects": [
+        "Complete and present the full capstone: a polished GitHub profile, a live GitHub Pages portfolio linking every pinned project, and one real external pull request, defended in a demo-day walkthrough"
+      ],
+      "practice": "Do a full dress rehearsal of your demo with a partner, including the git log --graph walkthrough of your best project.",
+      "assessment": "Final capstone review passed: profile, live portfolio URL, and external PR verified, earning the Modern Age Coders 'Git & GitHub for Teens' certificate."
+    }
+  },
+  "prerequisites": {
+    "device": "A laptop or desktop (Windows, Mac, or Linux) with a stable internet connection: that is the main requirement",
+    "coding_experience": "None required for Git itself, and zero terminal experience is assumed. If you have any hobby project (a webpage, Python script, or game mod files) you can practice on it; if not, we provide starter projects",
+    "accounts": "A free GitHub account, created in Class 6. GitHub's Terms of Service require users to be 13 or older, which is exactly why this course starts at 13",
+    "mindset": "Willingness to type commands instead of clicking, and to break things on purpose in practice repos: that is how the undo skills become permanent"
+  },
+  "who_is_this_for": {
+    "teen_coders": "Ages 13-18 already building websites, Python projects, or games who are one accidental overwrite away from disaster",
+    "school_project_teams": "Students doing group coding assignments or hackathons who are still emailing zip files back and forth",
+    "game_modders_and_hobby_builders": "Teens tinkering with mods, scripts, and side projects who want every experiment safely versioned",
+    "future_cs_applicants": "Students aiming at computer science who want a GitHub profile that strengthens college and internship applications",
+    "self_taught_beginners": "Teens learning to code from tutorials who keep hearing 'just clone the repo' and want to finally understand what that means"
+  },
+  "career_paths_after_completion": [
+    "Confident collaborator on any school team or hackathon, fluent in branches, pull requests, and reviews",
+    "Open source contributor with a real external pull request as public proof of collaboration",
+    "Portfolio-ready applicant: a pinned, documented GitHub profile plus a live Pages site for college and internship applications",
+    "Prepared for every future language and course: the same Git workflow powers Python, web, Java, C++, and AI projects",
+    "On track for developer roles: version control is a day-one, non-negotiable requirement in every software job"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "additional_learning_resources": {
+    "total_projects_built": "24 hands-on deliverables, one per class, finishing with a live portfolio site and a real open source pull request",
+    "projects_throughout_course": [
+      "Phase 1: Git installed and configured, a terminal-built folder tree, a 5-commit story repo, a history-detective investigation, and a full rescue-mission undo drill with .gitignore",
+      "Phase 2: your secured GitHub account with a pushed repo, an SSH key with a two-machine sync round trip, a rich project README, your profile README with pinned repos, a licensed repo with linked issues, and your first live GitHub Pages website",
+      "Phase 3: a feature built safely on a branch, fast-forward and no-ff merges compared, a conflict resolved three ways, a complete squash-merged pull request, a kind review plus a cross-repo fork PR, and a two-person team sprint on one protected repo",
+      "Phase 4: a merge vs rebase side-by-side experiment, a stash interruption drill plus a v1.0.0 tagged Release, a from-scratch GitHub Actions deploy workflow with status badge, and a full recruiter-readability portfolio audit",
+      "Phase 5: a shortlist and claim of a real good first issue, a genuine external pull request to an open source project, and the capstone: polished profile, live portfolio, and demo-day walkthrough",
+      "Total: 24 hands-on deliverables, one per class, culminating in a public portfolio and a real open source contribution"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live classes per week, about 1 hour each, across 12 weeks",
+      "hands_on_git_work": "1-1.5 hours running real Git and GitHub commands from each class on your own machine",
+      "project_time": "1 hour completing each class deliverable, from commits and PRs to your live Pages site",
+      "review_and_doubts": "30-60 minutes reviewing your history, practicing undo drills, and clearing doubts before the next class"
+    },
+    "certification": {
+      "completion_certificate": "Modern Age Coders 'Git & GitHub for Teens' certificate, earned by presenting your Class 24 capstone",
+      "project_portfolio": "A live GitHub Pages portfolio site plus pinned, documented repositories you can show schools and colleges",
+      "github_profile": "A polished GitHub profile with a profile README, real commit history, merged pull requests, and an external open source contribution"
+    },
+    "skills_mastered": [
+      "Git Fundamentals: init, status, add, commit, log, diff, show, blame, and the three areas of every repository",
+      "Safe Undo: restore, restore --staged, commit --amend, reset --soft, revert, and .gitignore discipline",
+      "Terminal Fluency: navigating, creating, and managing projects entirely from the command line",
+      "GitHub Essentials: remotes, clone, push, pull, fetch, SSH keys, Markdown READMEs, licenses, and issues",
+      "Branching & Merging: switch -c, merge, fast-forward vs three-way, conflict resolution, stash, and a safe rebase introduction",
+      "Collaboration: pull requests end to end, kind code review, forks with upstream syncing, branch protection, and Projects boards",
+      "Publishing & Automation: GitHub Pages hosting, tags, Releases, and a GitHub Actions deploy workflow",
+      "Open Source & Portfolio: finding good first issues, contribution etiquette, external PRs, and a recruiter-readable profile"
+    ],
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes for install issues, scary error messages, and conflict emergencies",
+      "small_batches": "Small batches, with mini-batch and 1-on-1 options, so every teen gets individual attention at the terminal",
+      "mentor_guidance": "Live guidance from mentors who use Git and GitHub daily on real projects",
+      "project_feedback": "Feedback on every class deliverable and a personal capstone review before certification",
+      "living_syllabus": "Curriculum updated as Git and GitHub ship new features, at no extra cost"
+    },
+    "git_docs": "Official Git documentation, including the free Pro Git book readable online: https://git-scm.com/doc",
+    "github_docs": "Official GitHub documentation for every feature in this course: https://docs.github.com",
+    "github_skills": "GitHub Skills, free hands-on courses built by GitHub: https://skills.github.com",
+    "learn_git_branching": "Learn Git Branching, interactive visual practice for branches, merges, and rebases: https://learngitbranching.js.org",
+    "github_education": "GitHub Education, home of the Student Developer Pack for verified students: https://education.github.com"
+  },
+  "why_this_course": {
+    "the_gap": "Most coding courses teach you to write code but never how to keep it safe, track it, or share it. Version control is the missing chapter: schools skip it, tutorials assume it, and yet it is the first thing every real team expects you to know. This course fills that gap properly, from zero.",
+    "real_workflows": "You do not just memorize commands, you live the actual workflows: feature branches, pull requests with reviews, a protected main branch, a team sprint with a partner, and a genuine contribution to a stranger's open source project. By demo day these are habits, not trivia.",
+    "always_current": "Git and GitHub keep evolving: new commands like switch and restore, new Pages and Actions flows, new education offers. Our Living Syllabus is updated as Git and GitHub ship new features, so you learn the tool as it exists today, not as a tutorial froze it years ago."
+  },
+  "faqs": [
+    {
+      "question": "What age do you need to be to use GitHub?",
+      "answer": "GitHub's Terms of Service require users to be at least 13 years old to create an account. That is exactly why this course is designed for ages 13-18: every student can legally have their own real account from Class 6. We also walk through securing it with two-factor authentication."
+    },
+    {
+      "question": "What is the difference between Git and GitHub?",
+      "answer": "Git is a free, open source distributed version control system that runs on your own computer; it was created by Linus Torvalds in 2005 for Linux kernel development. GitHub is a website (owned by Microsoft since 2018) where Git repositories are hosted online so people can collaborate through pull requests, issues, and reviews. This course teaches both, in that order."
+    },
+    {
+      "question": "Is GitHub free for students?",
+      "answer": "GitHub's Free plan already includes unlimited public and private repositories and 2,000 GitHub Actions minutes per month, which covers everything in this course. On top of that, the GitHub Student Developer Pack is free for verified students enrolled at a degree or diploma granting school and includes GitHub Pro while you are a student. GitHub Education has also offered free Copilot access to verified students; availability can change, so we point students to education.github.com."
+    },
+    {
+      "question": "Do I need to know how to code before learning Git and GitHub?",
+      "answer": "No. Git tracks files, so you can learn it with a simple webpage or even text files, and we assume zero terminal experience: Class 2 teaches the command line from scratch. If you already have a hobby project like a website, Python script, or game mod, you will practice on that; if not, we provide starter projects."
+    },
+    {
+      "question": "How long does it take to learn Git and GitHub?",
+      "answer": "You will be committing confidently within the first five classes, and the full course runs 24 live classes over 12 weeks at two classes per week. We recommend 3-4 hours per week including practice. By the end you are not just 'familiar' with Git: you have merged pull requests, resolved real conflicts, and contributed to an open source project."
+    },
+    {
+      "question": "Are the classes live or recorded?",
+      "answer": "Every class is live and interactive with a real instructor, never pre-recorded videos. Group batches are capped at 10 students, with mini-batch and 1-on-1 options, and you get WhatsApp doubt support between classes. You can also take a free demo class before deciding."
+    },
+    {
+      "question": "Can I host a website for free on GitHub?",
+      "answer": "Yes. GitHub Pages provides free static site hosting straight from a repository, with no server costs. You publish your first live site in Class 11, automate its deployment with a GitHub Actions workflow in Class 20, and it becomes the portfolio you present at the capstone."
+    },
+    {
+      "question": "What will my teen actually have at the end of this course?",
+      "answer": "Four concrete things: a polished GitHub profile with a profile README and pinned, documented projects; a live portfolio website on GitHub Pages; a real pull request to an external open source project; and the Modern Age Coders 'Git & GitHub for Teens' certificate. Together they form public, verifiable proof of skill that colleges and internship reviewers can check themselves."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "codex-and-claude-code-ai-coding-agents-course-for-teens",
+      "title": "Codex & Claude Code for Teens: AI Coding Agents Course",
+      "description": "Once your Git is solid, learn to direct the AI coding agents that branch, commit, and open pull requests alongside you"
+    },
+    {
+      "slug": "python-complete-masterclass-teens",
+      "title": "Python Programming for Teens: Zero to Advanced in 2 Years",
+      "description": "Build the Python projects your new GitHub portfolio deserves, from first line of code to games, web, and AI"
+    },
+    {
+      "slug": "git-github-version-control-course-for-college-students",
+      "title": "Git & GitHub Course for College Students: Team-Ready Version Control",
+      "description": "The same Git depth tuned for placements: team workflows, CI, open source and a recruiter-ready GitHub profile"
+    }
+  ]
+}
