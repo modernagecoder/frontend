@@ -103,8 +103,8 @@
       "title": "Class 3: Your First Repository: init, status, add, commit",
       "topics": [
         "git init: turning any folder into a repository, and the hidden .git folder that IS your history (never delete it)",
-        "The three areas every Git action moves between: working directory, staging area (the index), and the repository of committed snapshots",
-        "git status as your always-on dashboard: reading untracked, modified, and staged states without fear",
+        "The three-room mental model: files change in the working directory, wait in the staging area (the index), and become permanent snapshots once committed to the repository",
+        "git status as the command you run constantly: it names every file as untracked, modified, or staged so nothing sneaks into a commit by accident",
         "Staging deliberately: git add file.html for one file, git add . for everything, and why choosing files on purpose makes better commits",
         "git commit -m 'Add homepage heading': writing messages in present tense that say what and why, not 'stuff' or 'changes'",
         "The git commit -am shortcut, and the catch: it only works for files Git already tracks",
@@ -295,7 +295,7 @@
       "assessment": "Explain the difference between your fast-forward and no-ff merges using your own repo's graph as the evidence."
     },
     "week_14": {
-      "title": "Class 14: Merge Conflicts Without Panic",
+      "title": "Class 14: When Branches Collide: Conflicts Made Simple",
       "topics": [
         "Why conflicts happen: two branches edited the same lines of the same file, and Git refuses to guess which version you want",
         "Decoding the conflict markers: <<<<<<< HEAD, =======, and >>>>>>> branch-name, and what sits between each",
@@ -614,7 +614,7 @@
     },
     {
       "slug": "git-github-version-control-course-for-college-students",
-      "title": "Git & GitHub Course for College Students: Team-Ready Version Control",
+      "title": "Git & GitHub Course for College Students: Team-Ready Skills",
       "description": "The same Git depth tuned for placements: team workflows, CI, open source and a recruiter-ready GitHub profile"
     }
   ]
