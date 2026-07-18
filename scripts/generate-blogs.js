@@ -585,10 +585,19 @@ class BlogGenerator {
         html = html.replace(/{{BLOG_TAGS}}/g, (blogData.meta.tags || []).join(', '));
         html = html.replace(/{{BLOG_READ_TIME}}/g, blogData.meta.readTime || '5 min read');
 
-        // Author replacements
+        // Author replacements.
+        // Phase 8.1: posts are authored by the Organization (owner decision 2026-07-19), so the
+        // visible byline avatar is the brand logo. Two bugs fixed here: (1) the old default
+        // '/images/default-avatar.webp' did NOT exist -> broken image on every post without an
+        // avatar; (2) 93 posts declared a placehold.co placeholder avatar (external request, in
+        // the retired purple). Both now resolve to the real, local logo.
         html = html.replace(/{{BLOG_AUTHOR_NAME}}/g, blogData.meta.author.name);
         html = html.replace(/{{BLOG_AUTHOR_BIO}}/g, blogData.meta.author.bio || '');
-        html = html.replace(/{{BLOG_AUTHOR_AVATAR}}/g, blogData.meta.author.avatar || '/images/default-avatar.webp');
+        const declaredAvatar = (blogData.meta.author && blogData.meta.author.avatar) || '';
+        const authorAvatar = (declaredAvatar && !/placehold\.co/i.test(declaredAvatar))
+            ? declaredAvatar
+            : '/images/logo.webp';
+        html = html.replace(/{{BLOG_AUTHOR_AVATAR}}/g, authorAvatar);
 
         // Date replacements
         html = html.replace(/{{BLOG_DATE}}/g, this.formatDate(blogData.meta.date));
