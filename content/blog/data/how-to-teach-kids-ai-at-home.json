@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "how-to-teach-kids-ai-at-home",
+    "title": "How to Teach Kids AI at Home: A Safe 2026 Parent Guide",
+    "description": "How to teach your child about AI at home, safely. The ground rules, age limits that actually apply, simple activities by age, and how to build understanding instead of a habit of copying.",
+    "keywords": ["how to teach kids ai at home", "teaching children about ai", "ai for kids at home", "kids and ai safety", "ai activities for children", "is ai safe for kids"],
+    "author": {"name": "Modern Age Coders", "bio": "Live online coding and maths teachers for all ages, 6 to 67."},
+    "date": "2026-07-18",
+    "dateModified": "2026-07-18",
+    "category": "Artificial Intelligence",
+    "tags": ["AI", "Kids", "Parenting", "AI Safety"],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "To teach your child about AI at home, use it together rather than handing it over. Treat AI as a helper to question and check, never an answer machine to copy. Mind the age limits, most general AI tools require users to be at least 13, and keep it supervised. Understanding beats access."
+  },
+  "hero": {
+    "title": "How to Teach Kids AI at Home: A Safe 2026 Parent Guide",
+    "featuredImage": {"url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_1_hero.png", "alt": "A parent and child exploring an AI tool together at home"}
+  },
+  "content": {
+    "sections": [
+      {"type": "toc"},
+      {"type": "paragraph", "text": "AI is part of the world your child is growing up in, so the question is not whether they will meet it but whether they meet it with guidance or on their own. Taught well at home, AI becomes a tool your child understands and controls. Left unguided, it easily becomes a machine that does their thinking for them."},
+      {"type": "paragraph", "text": "The good news is that teaching AI at home does not require you to be a technical expert. It requires a few clear rules and the willingness to explore it alongside your child rather than handing it over."},
+
+      {"type": "heading", "level": 2, "text": "The short answer", "id": "short-answer"},
+      {"type": "paragraph", "text": "Use AI with your child, not instead of teaching them. Sit together, treat the AI as a helper you both question and check rather than an oracle you trust, mind the age limits on these tools, and keep the focus on understanding how AI works and where it goes wrong. The goal is a child who can use AI thoughtfully, not one who has simply learned to copy its answers."},
+      {"type": "callout", "text": "The single most important rule: AI is a helper to check, never an answer machine to copy. A child who understands that will use AI for the rest of their life. A child who does not will quietly stop thinking for themselves."},
+
+      {"type": "heading", "level": 2, "text": "First, the age limits that actually apply", "id": "age-limits"},
+      {"type": "paragraph", "text": "Before anything else, know that most general AI tools are not built for young children. The majority of mainstream AI chatbots and image tools require users to be at least 13, and several require 18 or a parent's supervision, under their own terms of service. That means for a younger child, the parent should be the one driving: it is your account, your supervision, and your judgment. This is not a reason to avoid AI, it is a reason to introduce it together and age-appropriately rather than leaving a child alone with an open chatbot."},
+
+      {"type": "heading", "level": 2, "text": "The ground rules", "id": "ground-rules"},
+      {"type": "list", "items": [
+        "Explore it together. Especially at first, sit with your child and use the tool side by side. Your questions teach as much as the answers.",
+        "Question every output. Ask, is that actually true? How could we check? AI is confidently wrong often enough that checking must become a habit.",
+        "Never share personal information. No full names, address, school, photos or anything private goes into an AI tool.",
+        "Use it to learn, not to finish. AI should help a child understand a topic, not hand in work they did not do. For homework, that line matters.",
+        "Talk about how it works. Explain in simple terms that AI predicts likely answers from patterns in data, which is why it can sound sure and still be wrong."
+      ]},
+
+      {"type": "heading", "level": 2, "text": "Simple activities by age", "id": "activities"},
+      {"type": "list", "items": [
+        "Younger children, always with you: ask an AI to help invent a story together, then talk about which parts it got silly or wrong. The lesson is that AI is a tool you guide, not a truth teller.",
+        "Middle years, supervised: use AI to explain a tricky school topic in a simpler way, then check its explanation against the textbook. This teaches verification.",
+        "Early teens, within the tools' age limits: have your child use AI to get unstuck on a coding or maths problem by asking for a hint rather than the answer, then explain the solution back to you."
+      ]},
+
+      {"type": "heading", "level": 2, "text": "What not to do", "id": "what-not-to-do"},
+      {"type": "paragraph", "text": "Do not hand a young child an open AI chatbot and walk away. Do not let AI become the way homework gets finished, because a child who copies learns nothing and loses the habit of effort. And do not treat AI as always right. The most valuable thing you can teach is a healthy scepticism: AI is useful and impressive and also frequently wrong, and knowing the difference is the real skill."},
+
+      {"type": "heading", "level": 2, "text": "Where a class helps", "id": "where-class-helps"},
+      {"type": "paragraph", "text": "Teaching AI at home works best for curiosity and everyday habits. For real depth, understanding how AI actually works, using it safely as part of learning to code, and building projects that use it, a structured class with a mentor takes a child further than a parent and a chatbot can on their own. The mentor keeps the use purposeful, answers the why, and makes sure the child is learning to think, not just to prompt."},
+
+      {"type": "quote", "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.", "author": "Shivam Khemka, Founder of Modern Age Coders"},
+
+      {"type": "heading", "level": 2, "text": "The bottom line", "id": "bottom-line"},
+      {"type": "paragraph", "text": "You can absolutely introduce your child to AI at home. Do it together, keep it supervised, respect the age limits, and make questioning and checking the habit from day one. Understanding beats access every time. At Modern Age Coders we teach coding, maths and safe, thoughtful AI use, live and in small batches, for ages 6 to 67. We are rated 4.9 across 547 Google reviews, and there is a free demo class before you pay."},
+      {"type": "button", "text": "Book a Free Demo Class", "url": "/book-demo"},
+
+      {"type": "accordion", "items": [
+        {"title": "How do I teach my kid about AI at home?", "content": "Use AI together rather than handing it over. Sit with your child, treat the AI as a helper you both question and check, never share personal information, and use it to understand topics rather than to finish work. Keep the focus on how AI works and where it gets things wrong. The goal is a child who uses AI thoughtfully, not one who copies its answers."},
+        {"title": "Is AI safe for children?", "content": "AI can be used safely with supervision, but most general AI tools are not designed for young children and commonly require users to be at least 13, with some requiring 18. For younger children the parent should drive, using their own account and judgment. Keep personal information out of any AI tool and treat outputs as something to check, not trust."},
+        {"title": "What age can a child start using AI?", "content": "It depends on the tool. Most mainstream AI chatbots and image tools set a minimum age of 13, and several require 18 or parental supervision under their terms. Younger children should only use AI with a parent guiding. A sensible path is to build coding fundamentals from around age 6 and introduce AI as a supervised helper in the early teens."},
+        {"title": "Should I let my child use AI for homework?", "content": "Use AI to help your child understand a topic, not to finish the work for them. Asking for a hint or a simpler explanation and then checking it builds learning. Handing in AI-written work does not, and it breaks the habit of effort. The line between learning with AI and cheating with it is exactly the line worth teaching."},
+        {"title": "How do I explain how AI works to a child?", "content": "Keep it simple: AI learns patterns from huge amounts of data and then predicts the most likely answer. That is why it can sound very confident and still be wrong. Understanding this one idea helps a child treat AI as a clever but fallible helper to check, rather than a source of truth to copy."}
+      ]}
+    ]
+  },
+  "relatedPosts": ["safe-ai-tools-for-kids-homework-2025", "coding-vs-ai-what-should-my-child-learn", "what-is-ai-complete-beginners-guide-how-to-start"]
+}
