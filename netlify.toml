@@ -3087,6 +3087,62 @@
   to = "/src/pages/best-online-maths-classes-2026.md"
   status = 200
 
+# Alternative landing pages (Phase 5.3)
+[[redirects]]
+  from = "/cuemath-alternative"
+  to = "/src/pages/cuemath-alternative.html"
+  status = 200
+
+[[redirects]]
+  from = "/cuemath-alternative.md"
+  to = "/src/pages/cuemath-alternative.md"
+  status = 200
+[[redirects]]
+  from = "/whitehat-jr-alternative"
+  to = "/src/pages/whitehat-jr-alternative.html"
+  status = 200
+
+[[redirects]]
+  from = "/whitehat-jr-alternative.md"
+  to = "/src/pages/whitehat-jr-alternative.md"
+  status = 200
+[[redirects]]
+  from = "/byjus-coding-alternative"
+  to = "/src/pages/byjus-coding-alternative.html"
+  status = 200
+
+[[redirects]]
+  from = "/byjus-coding-alternative.md"
+  to = "/src/pages/byjus-coding-alternative.md"
+  status = 200
+[[redirects]]
+  from = "/codingal-alternative"
+  to = "/src/pages/codingal-alternative.html"
+  status = 200
+
+[[redirects]]
+  from = "/codingal-alternative.md"
+  to = "/src/pages/codingal-alternative.md"
+  status = 200
+[[redirects]]
+  from = "/brightchamps-alternative"
+  to = "/src/pages/brightchamps-alternative.html"
+  status = 200
+
+[[redirects]]
+  from = "/brightchamps-alternative.md"
+  to = "/src/pages/brightchamps-alternative.md"
+  status = 200
+[[redirects]]
+  from = "/tynker-alternative"
+  to = "/src/pages/tynker-alternative.html"
+  status = 200
+
+[[redirects]]
+  from = "/tynker-alternative.md"
+  to = "/src/pages/tynker-alternative.md"
+  status = 200
+
 # Listicle: best online math tutoring 2026
 [[redirects]]
   from = "/best-online-math-tutoring-2026"
