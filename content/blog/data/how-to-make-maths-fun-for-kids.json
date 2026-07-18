@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "slug": "how-to-make-maths-fun-for-kids",
+    "title": "How to Make Maths Fun for Kids: 9 Ideas That Really Work",
+    "description": "How to make maths fun for kids, without gimmicks. Nine practical ideas that turn maths from a chore into something children actually enjoy, at home and in class.",
+    "keywords": ["how to make maths fun for kids", "fun maths for kids", "make math fun", "maths games for kids", "help child enjoy maths", "fun ways to learn maths"],
+    "author": {"name": "Modern Age Coders", "bio": "Live online coding and maths teachers for all ages, 6 to 67."},
+    "date": "2026-07-18",
+    "dateModified": "2026-07-18",
+    "category": "Mathematics",
+    "tags": ["Maths", "Parenting", "Kids"],
+    "readTime": "7 min read",
+    "featured": false,
+    "tldr": "You make maths fun for kids by connecting it to things they already enjoy: games, money, cooking, sport and code. Drop the pressure and timers, celebrate effort and clever thinking over speed, and let children build and play with maths rather than only drill it. When maths becomes a tool for something a child cares about, the fun follows."
+  },
+  "hero": {
+    "title": "How to Make Maths Fun for Kids: 9 Ideas That Really Work",
+    "featuredImage": {"url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_1_hero.png", "alt": "A child having fun learning maths"}
+  },
+  "content": {
+    "sections": [
+      {"type": "toc"},
+      {"type": "paragraph", "text": "Most children do not dislike maths itself. They dislike how it is often taught: pressure, timed tests, and pages of drills with no obvious point. Make maths playful and connected to something a child cares about, and the same child who groaned at worksheets will happily do harder maths for fun. Here are nine ways to make that happen."},
+
+      {"type": "heading", "level": 2, "text": "The short answer", "id": "short-answer"},
+      {"type": "paragraph", "text": "Make maths fun by connecting it to what a child already enjoys, games, money, cooking, sport and code, and by dropping the pressure and the timers. Celebrate clever thinking and effort over pure speed, and let children build and play with maths rather than only drill it. When maths becomes useful and hands-on, the enjoyment follows naturally."},
+
+      {"type": "heading", "level": 2, "text": "9 ideas that really work", "id": "ideas"},
+      {"type": "list", "items": [
+        "Play maths games. Board games, card games and dice games sneak in counting, strategy and probability while a child is simply having fun.",
+        "Use real money. Pocket money, shopping and saving turn arithmetic into something with a real payoff a child cares about.",
+        "Cook together. Doubling a recipe, measuring and dividing portions is fractions and ratios in disguise, and the reward is edible.",
+        "Bring in sport. Scores, averages, distances and stats make maths matter to a sports-loving child.",
+        "Code it. Writing a simple game or animation uses coordinates, scoring and repetition, turning maths into a tool to build with.",
+        "Drop the timer. Speed pressure is where the fun dies. Let a child think, and enjoyment returns.",
+        "Praise the thinking, not just the answer. Celebrate a clever approach, even a wrong one, so trying feels safe and rewarding.",
+        "Tell the story behind the maths. Puzzles, patterns in nature and the history of numbers make maths feel like a mystery to explore.",
+        "Let them teach you. Explaining a method to a parent is fun, boosts confidence, and cements understanding."
+      ]},
+
+      {"type": "heading", "level": 2, "text": "Why fun is not a distraction from learning", "id": "fun-works"},
+      {"type": "paragraph", "text": "Making maths fun is not a trick to sugar-coat a boring subject. Enjoyment is how children stay engaged long enough to actually understand, and understanding is what makes maths click. A child who enjoys maths practises more, fears it less, and remembers it better. Fun and real learning are not opposites; for children, they are almost the same thing."},
+
+      {"type": "heading", "level": 2, "text": "How coding makes maths fun", "id": "coding"},
+      {"type": "paragraph", "text": "One of the most reliable ways to make maths fun is to let a child use it inside code. When maths becomes the thing that makes a game work or an animation move, it stops being an abstract chore and becomes a tool for creating something the child is proud of. The computer gives instant, playful feedback, and the maths is suddenly worth doing. That is why we teach coding and maths together."},
+
+      {"type": "quote", "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.", "author": "Shivam Khemka, Founder of Modern Age Coders"},
+
+      {"type": "heading", "level": 2, "text": "The bottom line", "id": "bottom-line"},
+      {"type": "paragraph", "text": "Make maths fun by connecting it to games, money, cooking, sport and code, dropping the pressure, and celebrating thinking over speed. When maths becomes useful and hands-on, children enjoy it and learn it better. Modern Age Coders teaches maths, and coding and maths together, live and in small batches for ages 6 to 67, with mentors who make it engaging and real. We are rated 4.9 across 547 Google reviews, and there is a free demo class before you pay."},
+      {"type": "button", "text": "Book a Free Maths Demo Class", "url": "/book-demo"},
+
+      {"type": "accordion", "items": [
+        {"title": "How do I make maths fun for my child?", "content": "Connect maths to what your child already enjoys, games, money, cooking, sport and code, and drop the pressure and timers. Celebrate clever thinking and effort over speed, and let your child build and play with maths rather than only drill it. When maths becomes useful and hands-on, the enjoyment follows naturally."},
+        {"title": "What are good maths games for kids?", "content": "Board games, card games and dice games are excellent because they sneak in counting, strategy and probability while a child is simply playing. Cooking, shopping with real money, and simple coding projects also turn maths into a game with a real payoff, which keeps children engaged far longer than worksheets."},
+        {"title": "Why does my child find maths boring?", "content": "Usually because it is taught with pressure and drills and no obvious point, not because maths itself is dull. When maths is connected to something a child cares about, and the timer and fear are removed, the same child will often happily do harder maths for fun. Relevance and play are what change it."},
+        {"title": "Does making maths fun help children learn?", "content": "Yes. Enjoyment keeps children engaged long enough to actually understand, and understanding is what makes maths stick. A child who enjoys maths practises more, fears it less, and remembers it better. Fun and real learning are not opposites for children; they work together."},
+        {"title": "How does coding make maths more fun?", "content": "Coding turns maths into a tool to build with. When maths is what makes a game work or an animation move, it stops being an abstract chore and becomes worth doing, with instant, playful feedback from the computer. Many children rediscover maths through coding, which is why teaching the two together works so well."}
+      ]}
+    ]
+  },
+  "relatedPosts": ["help-child-with-maths-anxiety", "how-to-get-better-at-maths", "how-coding-improves-mathematical-thinking-children"]
+}

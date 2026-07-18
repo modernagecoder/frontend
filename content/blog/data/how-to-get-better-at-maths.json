@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "slug": "how-to-get-better-at-maths",
+    "title": "How to Get Better at Maths: 8 Methods That Actually Work",
+    "description": "How to get better at maths, for real. Eight evidence-friendly methods that build genuine understanding, not just speed, plus the mindset shift that unlocks the rest.",
+    "keywords": ["how to get better at maths", "how to improve in maths", "how to be good at maths", "improve maths skills", "get better at math", "how to study maths"],
+    "author": {"name": "Modern Age Coders", "bio": "Live online coding and maths teachers for all ages, 6 to 67."},
+    "date": "2026-07-18",
+    "dateModified": "2026-07-18",
+    "category": "Mathematics",
+    "tags": ["Maths", "Study Skills", "Learning"],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "To get better at maths, stop trying to memorise and start understanding why methods work, then practise a little every day, fix the specific gaps underneath your struggle, and learn from mistakes instead of fearing them. Maths is not a talent you are born with, it is a skill that builds with the right practice. Understanding first, speed later."
+  },
+  "hero": {
+    "title": "How to Get Better at Maths: 8 Methods That Actually Work",
+    "featuredImage": {"url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_1_hero.png", "alt": "A student learning how to get better at maths"}
+  },
+  "content": {
+    "sections": [
+      {"type": "toc"},
+      {"type": "paragraph", "text": "Almost everyone who thinks they are bad at maths is really missing one earlier idea, or has been taught to rush and memorise instead of understand. Getting better at maths is not about being a genius. It is about a handful of habits that anyone can build. Here are eight that genuinely work."},
+
+      {"type": "heading", "level": 2, "text": "The short answer", "id": "short-answer"},
+      {"type": "paragraph", "text": "Get better at maths by understanding why methods work rather than memorising steps, practising a little every day, and going back to fix the specific gap that makes new topics feel impossible. Treat mistakes as information, not failure, and slow down before you speed up. Maths is a skill that builds with the right practice, not a talent you either have or do not."},
+      {"type": "callout", "text": "The biggest lie in maths is I am just not a maths person. There is no such thing. There are only people who understood the foundations and people who missed one and were never taken back to fill it."},
+
+      {"type": "heading", "level": 2, "text": "8 methods that actually work", "id": "methods"},
+      {"type": "list", "items": [
+        "Understand, do not memorise. If you know why a method works, you can rebuild it when you forget the steps. Memorised steps collapse under any new twist.",
+        "Practise a little, every day. Twenty focused minutes daily beats a three-hour cram once a week. Maths rewards consistency over intensity.",
+        "Find and fix the gap underneath. Most struggle sits on one missing earlier idea. Go back, fill it, and the topics above it stop feeling impossible.",
+        "Learn from every mistake. A wrong answer shows you exactly what to fix. Redo the problem understanding where it went wrong, rather than just moving on.",
+        "Slow down before you speed up. Speed comes from understanding, not the other way round. Get it right slowly first; fast follows naturally.",
+        "Make it concrete. Use money, cooking, games or code to turn abstract maths into something you can see and touch. It makes ideas click.",
+        "Explain it to someone. If you can teach a topic simply, you understand it. If you cannot, you have found your next thing to study.",
+        "Ask why, out loud. When a step confuses you, ask why it works and do not move on until you know. That single habit separates strong students from stuck ones."
+      ]},
+
+      {"type": "heading", "level": 2, "text": "The mindset that unlocks the rest", "id": "mindset"},
+      {"type": "paragraph", "text": "None of the methods above work if you believe maths ability is fixed. It is not. Getting stuck is not a sign you cannot do maths; it is the normal, expected part of learning it. The students who improve are not the ones who never struggle, they are the ones who treat struggle as the work rather than as proof they should quit. Change that belief and the methods do the rest."},
+
+      {"type": "heading", "level": 2, "text": "How coding helps", "id": "coding"},
+      {"type": "paragraph", "text": "One of the fastest ways to get better at maths is to use it inside code. When you write a program that uses coordinates, scoring or repetition, the maths becomes a tool to build something rather than a test to pass. The computer gives instant, private feedback with no red pen, and you cannot fool it with a vaguely-remembered rule. For many learners, meeting maths through coding is where it finally clicks, which is why we teach the two together."},
+
+      {"type": "quote", "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.", "author": "Shivam Khemka, Founder of Modern Age Coders"},
+
+      {"type": "heading", "level": 2, "text": "The bottom line", "id": "bottom-line"},
+      {"type": "paragraph", "text": "You get better at maths by understanding rather than memorising, practising a little daily, fixing the gap underneath, and treating mistakes as information. It is a skill, and skills grow with the right practice. Modern Age Coders teaches maths, and coding and maths together, live and in small batches for ages 6 to 67, with patient mentors who go back to the gap and build real understanding. We are rated 4.9 across 547 Google reviews, and there is a free demo class before you pay."},
+      {"type": "button", "text": "Book a Free Maths Demo Class", "url": "/book-demo"},
+
+      {"type": "accordion", "items": [
+        {"title": "How can I get better at maths fast?", "content": "There is no genuine shortcut, but the fastest real progress comes from understanding why methods work instead of memorising them, practising a little every day, and going back to fix the specific gap under your struggle. Fixing one missing foundation often makes several topics suddenly easier, which feels fast even though it is just the right work."},
+        {"title": "Is being good at maths a talent you are born with?", "content": "No. Maths is a skill that builds with the right practice, not a fixed talent. People who seem naturally good usually understood the foundations well and kept practising. The belief that you are not a maths person is the single biggest thing holding most people back, and it is not true."},
+        {"title": "Why do I keep struggling with maths?", "content": "Usually because of one missing earlier idea. Maths builds on itself, so a gap in an earlier topic makes everything above it feel impossible. The fix is to find that gap and fill it, rather than pushing harder on the topic where you are stuck. A good teacher can spot the gap quickly."},
+        {"title": "How much should I practise maths?", "content": "A little, every day, beats a long session once in a while. Around twenty focused minutes daily builds understanding and confidence far more effectively than a single long cram, because maths rewards consistency and steady reinforcement over intensity."},
+        {"title": "Does coding help you get better at maths?", "content": "Often, yes. Using maths inside code turns it from a test to fail into a tool to build with, and the computer gives instant, honest feedback. Many learners find that meeting maths through coding is where it finally clicks, which is why teaching the two together can strengthen both."}
+      ]}
+    ]
+  },
+  "relatedPosts": ["help-child-with-maths-anxiety", "how-coding-improves-mathematical-thinking-children", "abacus-vs-vedic-vs-mental-maths"]
+}

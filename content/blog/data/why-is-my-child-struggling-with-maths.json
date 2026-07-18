@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "slug": "why-is-my-child-struggling-with-maths",
+    "title": "Why Is My Child Struggling with Maths? The Real Reasons",
+    "description": "Why is your child struggling with maths? The real, fixable reasons, from a missing foundation to anxiety and pace, and what to do about each one.",
+    "keywords": ["why is my child struggling with maths", "child struggling with maths", "child bad at maths help", "why does my child hate maths", "help child failing maths", "maths difficulties children"],
+    "author": {"name": "Modern Age Coders", "bio": "Live online coding and maths teachers for all ages, 6 to 67."},
+    "date": "2026-07-18",
+    "dateModified": "2026-07-18",
+    "category": "Mathematics",
+    "tags": ["Maths", "Parenting", "Learning"],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "A child usually struggles with maths for one of a few fixable reasons: a missing earlier foundation, being taught too fast, anxiety, or memorising instead of understanding. It is almost never a lack of ability. Find the specific gap, slow down, remove the fear, and teach for understanding, and most children improve faster than parents expect."
+  },
+  "hero": {
+    "title": "Why Is My Child Struggling with Maths? The Real Reasons",
+    "featuredImage": {"url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_44_hero.png", "alt": "A parent helping a child who is struggling with maths"}
+  },
+  "content": {
+    "sections": [
+      {"type": "toc"},
+      {"type": "paragraph", "text": "Watching your child struggle with maths is stressful, and it is easy to conclude they are simply not good at it. Almost always, that is the wrong conclusion. Maths struggles have specific, fixable causes, and naming the real one is most of the solution. Here are the reasons children actually struggle, and what to do about each."},
+
+      {"type": "heading", "level": 2, "text": "The short answer", "id": "short-answer"},
+      {"type": "paragraph", "text": "Most maths struggle comes down to one of four things: a missing earlier foundation, being pushed too fast, anxiety, or memorising steps without understanding. None of them means your child cannot do maths. Find the specific cause, address it directly, and the struggle usually eases far quicker than you would expect."},
+
+      {"type": "heading", "level": 2, "text": "The real reasons children struggle", "id": "reasons"},
+      {"type": "list", "items": [
+        "A missing foundation. Maths builds on itself. If one earlier idea was never fully understood, everything above it feels impossible. This is by far the most common cause, and the most fixable.",
+        "Being taught too fast. Classes move at the pace of the syllabus, not the child. A child who needed one more day on a topic gets left a little behind, and the gap grows.",
+        "Maths anxiety. Fear shuts down the part of the brain that does maths, so an anxious child underperforms regardless of ability, which deepens the fear.",
+        "Memorising instead of understanding. A child taught to memorise steps has nothing to fall back on when a problem looks slightly different.",
+        "Boredom or lack of relevance. A child who sees no point in maths disengages. Making it concrete and useful often brings them back.",
+        "The wrong pace, either way. Some children struggle because they are bored and unchallenged, not only because they are behind."
+      ]},
+
+      {"type": "heading", "level": 2, "text": "What to do about each", "id": "what-to-do"},
+      {"type": "list", "items": [
+        "For a missing foundation: go back and fill the specific gap, rather than drilling the topic where your child is stuck. This one change often fixes several topics at once.",
+        "For pace: get your child time on the topics they missed, at their speed. A small group or one-to-one setting makes this possible in a way a big class cannot.",
+        "For anxiety: lower the pressure, remove timers, praise effort over being right, and rebuild confidence with small wins.",
+        "For memorising: switch to understanding why methods work, so your child can rebuild them under any twist.",
+        "For boredom: make maths concrete and relevant through games, money, or code, and challenge a bored child with harder problems rather than more of the same."
+      ]},
+
+      {"type": "heading", "level": 2, "text": "How to find the real gap", "id": "find-gap"},
+      {"type": "paragraph", "text": "The hardest part is spotting the specific missing foundation, because it usually sits a topic or two below where the struggle shows up. A patient teacher can find it quickly by working backwards from the point of confusion until the child is on solid ground again, then building up from there. That diagnosis, more than extra worksheets, is what turns things around."},
+
+      {"type": "quote", "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.", "author": "Shivam Khemka, Founder of Modern Age Coders"},
+
+      {"type": "heading", "level": 2, "text": "The bottom line", "id": "bottom-line"},
+      {"type": "paragraph", "text": "Your child is almost certainly not bad at maths. They are missing a foundation, moving at the wrong pace, anxious, or memorising instead of understanding, and every one of those is fixable. Modern Age Coders teaches maths, and coding and maths together, live and in small batches for ages 6 to 67, with mentors who find the gap and rebuild confidence patiently. We are rated 4.9 across 547 Google reviews, and there is a free demo class before you pay."},
+      {"type": "button", "text": "Book a Free Maths Demo Class", "url": "/book-demo"},
+
+      {"type": "accordion", "items": [
+        {"title": "Why is my child struggling with maths?", "content": "Usually because of one of a few fixable reasons: a missing earlier foundation, being taught too fast, maths anxiety, or memorising steps without understanding. It is almost never a lack of ability. Finding the specific cause and addressing it directly, especially filling a missing foundation, usually turns things around quickly."},
+        {"title": "Is my child just bad at maths?", "content": "Almost certainly not. Children who look bad at maths are usually missing one earlier idea that makes everything above it feel impossible, or they are anxious rather than unable. Remove the fear and fill the gap, and most children turn out to be far more capable than they, or their parents, believed."},
+        {"title": "How do I find out what my child is missing in maths?", "content": "The gap usually sits a topic or two below where the struggle shows up. A patient teacher finds it by working backwards from the point of confusion until the child is on solid ground, then building up. That diagnosis matters more than piling on extra worksheets at the level where the child is already stuck."},
+        {"title": "Can maths anxiety cause a child to struggle?", "content": "Yes. Anxiety triggers a fear response that shuts down the part of the brain that does maths, so an anxious child underperforms regardless of ability, which then deepens the fear. Lowering pressure, removing timers, praising effort, and rebuilding confidence with small wins usually breaks the cycle."},
+        {"title": "Should I get a tutor if my child is struggling with maths?", "content": "A patient one-to-one or small-group teacher helps most when the struggle is persistent, because they can find the missing foundation and rebuild confidence in a way a large class cannot. Look for a mentor who diagnoses the gap and teaches for understanding, rather than one who simply assigns more of the same practice."}
+      ]}
+    ]
+  },
+  "relatedPosts": ["help-child-with-maths-anxiety", "how-to-get-better-at-maths", "cbse-maths-tuition-online"]
+}
