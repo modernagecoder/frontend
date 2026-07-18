@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "slug": "uae-ai-curriculum-schools-what-it-means",
+    "title": "The UAE Made AI Mandatory in Schools: What It Means for Your Child",
+    "description": "The UAE approved a mandatory AI curriculum for public schools from kindergarten to grade 12, starting 2025-26. Here is what it teaches, how it is taught by age, and what it means for parents everywhere.",
+    "keywords": ["uae ai curriculum", "ai in uae schools", "uae mandatory ai education", "ai curriculum kindergarten uae", "teaching ai to kids", "ai education for children"],
+    "author": {"name": "Modern Age Coders", "bio": "Live online coding and maths teachers for all ages, 6 to 67."},
+    "date": "2026-07-18",
+    "dateModified": "2026-07-18",
+    "category": "Artificial Intelligence",
+    "tags": ["AI", "UAE", "Curriculum", "Parenting"],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "In May 2025 the UAE approved a mandatory AI curriculum for every public school, from kindergarten to grade twelve, rolling out in the 2025 to 2026 school year. It teaches AI concepts, data and algorithms, ethics and real projects, age by age, inside existing lessons. It signals where school is heading everywhere: understanding AI, not just using it."
+  },
+  "hero": {
+    "title": "The UAE Made AI Mandatory in Schools: What It Means for Your Child",
+    "featuredImage": {"url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_44_hero.png", "alt": "Children learning about artificial intelligence in a classroom"}
+  },
+  "content": {
+    "sections": [
+      {"type": "toc"},
+      {"type": "paragraph", "text": "In May 2025 the UAE Cabinet approved a mandatory artificial intelligence curriculum for all public schools, making it one of the first countries in the world to teach AI to every child from the very start of school. Whether or not your child studies in the UAE, this is a signal worth understanding, because it points to where education is heading everywhere."},
+
+      {"type": "heading", "level": 2, "text": "The short answer", "id": "short-answer"},
+      {"type": "paragraph", "text": "From the 2025 to 2026 school year, every public school in the UAE teaches AI as a required subject, from kindergarten all the way to grade twelve. It is woven into an existing subject rather than added as extra hours, and it is taught age by age: the youngest children compare how machines and humans think, while older students design and evaluate AI systems of their own. The goal is not to create app users, but children who understand AI and can think critically about it."},
+      {"type": "callout", "text": "The important word is understand. The UAE is not teaching children to press buttons on chatbots. It is teaching them how AI works, where its data comes from, and when to trust it, from the age of four. That is exactly the shift every parent should be preparing their child for."},
+
+      {"type": "heading", "level": 2, "text": "What the curriculum actually covers", "id": "covers"},
+      {"type": "paragraph", "text": "The UAE curriculum is built around seven core areas, so it goes far beyond just using tools. Those areas are foundational AI concepts, data and algorithms, software applications, ethical awareness, real-world applications, innovation and project design, and policies and community engagement. In plain terms, children learn what AI is, how it makes decisions from data, how to build simple projects with it, and how to think about its fairness, limits and impact on society."},
+
+      {"type": "heading", "level": 2, "text": "How it is taught by age", "id": "by-age"},
+      {"type": "list", "items": [
+        "The youngest children start simply, comparing how machines and humans think and where each is better, building intuition before any technical detail.",
+        "Through the middle years, students move on to how data and algorithms drive decisions, and begin designing and evaluating AI systems of their own.",
+        "Older students go deeper into real-world applications, ethics and the policies that should govern AI.",
+        "It all fits inside the existing timetable, within a computing, creative design and innovation subject, so schools do not add extra hours to the day."
+      ]},
+
+      {"type": "heading", "level": 2, "text": "What this means for parents everywhere", "id": "means"},
+      {"type": "paragraph", "text": "You do not need to live in the UAE for this to matter. When one of the most forward-looking education systems in the world decides that every child, from age four, should understand AI rather than just consume it, that is a strong signal about the skills the next decade will value. The children who thrive will not be the ones who can prompt a chatbot fastest. They will be the ones who understand how these systems work, can build with them, and can judge when they are wrong. That is a choice any parent can make for their child now, wherever they live."},
+
+      {"type": "quote", "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.", "author": "Shivam Khemka, Founder of Modern Age Coders"},
+
+      {"type": "heading", "level": 2, "text": "The bottom line", "id": "bottom-line"},
+      {"type": "paragraph", "text": "The UAE has made understanding AI a core part of school for every child, from kindergarten to grade twelve, starting in 2025 to 2026. The lesson for parents everywhere is clear: help your child understand and build with AI, not just use it. Modern Age Coders teaches exactly this, real coding and AI fundamentals used the right way, live and in small batches for ages 6 to 67. We are rated 4.9 across 547 Google reviews, and there is a free demo class before you pay."},
+      {"type": "button", "text": "Book a Free Demo Class", "url": "/book-demo"},
+
+      {"type": "accordion", "items": [
+        {"title": "Did the UAE really make AI mandatory in schools?", "content": "Yes. In May 2025 the UAE Cabinet approved a mandatory AI curriculum for all public schools, from kindergarten to grade twelve, with rollout in the 2025 to 2026 school year. It makes the UAE one of the first countries in the world to teach AI to every child from the start of school."},
+        {"title": "What do children learn in the UAE AI curriculum?", "content": "The curriculum is built around seven core areas: foundational AI concepts, data and algorithms, software applications, ethical awareness, real-world applications, innovation and project design, and policies and community engagement. Children learn what AI is, how it makes decisions from data, how to build simple projects, and how to think about its fairness and impact."},
+        {"title": "At what age does the UAE start teaching AI?", "content": "From kindergarten, so from around age four. The youngest children start by comparing how machines and humans think, building intuition before any technical detail. Older students design and evaluate AI systems of their own. The content is matched to each age rather than being the same for everyone."},
+        {"title": "Should my child learn AI even if we are not in the UAE?", "content": "The UAE's decision is a strong signal about the skills the coming decade will value. Children everywhere benefit from understanding how AI works, building with it, and judging when it is wrong, rather than just using chatbots. You can give your child that head start now through good teaching, wherever you live."},
+        {"title": "How do I teach my young child about AI safely?", "content": "Start with understanding, not screen time: talk about how machines make decisions, where their information comes from, and when they get things wrong. Use age-appropriate, supervised tools, and mind each tool's minimum age. A good teacher or mentor can guide this so your child learns to think about AI, not just consume it."}
+      ]}
+    ]
+  },
+  "relatedPosts": ["how-to-teach-kids-ai-at-home", "coding-vs-ai-what-should-my-child-learn", "best-ai-coding-tools-for-students-2026"]
+}

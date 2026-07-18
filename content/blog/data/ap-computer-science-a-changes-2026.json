@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "slug": "ap-computer-science-a-changes-2026",
+    "title": "AP Computer Science A Changes for 2026: A Parent's Guide",
+    "description": "The College Board revised AP Computer Science A for 2025-26. Here is what changed: four new units, inheritance dropped, file and dataset work added, and a new exam format for the May 2026 exams.",
+    "keywords": ["ap computer science a changes", "ap csa 2026", "ap computer science a new units", "ap csa exam format 2026", "ap computer science a revisions", "ap csa inheritance removed"],
+    "author": {"name": "Modern Age Coders", "bio": "Live online coding and maths teachers for all ages, 6 to 67."},
+    "date": "2026-07-18",
+    "dateModified": "2026-07-18",
+    "category": "Coding",
+    "tags": ["AP Computer Science", "Java", "Curriculum", "Parenting"],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "For 2025 to 2026, the College Board reorganised AP Computer Science A into four units, dropped the standalone inheritance unit, and added working with text files and datasets. The exam now has 42 multiple-choice questions worth 55 percent, plus four free-response questions. The move toward real data work rewards students who understand code, not memorised syntax."
+  },
+  "hero": {
+    "title": "AP Computer Science A Changes for 2026: A Parent's Guide",
+    "featuredImage": {"url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_44_hero.png", "alt": "A student studying AP Computer Science A in Java"}
+  },
+  "content": {
+    "sections": [
+      {"type": "toc"},
+      {"type": "paragraph", "text": "If your child is taking AP Computer Science A, the course has just had its biggest update in years. The College Board revised it for the 2025 to 2026 school year, and the new version takes effect with the May 2026 exams. Here is what actually changed, in plain English, and what it means for how your child should study."},
+
+      {"type": "heading", "level": 2, "text": "The short answer", "id": "short-answer"},
+      {"type": "paragraph", "text": "For 2025 to 2026, the College Board reorganised AP Computer Science A into four units instead of the old ten, removed the standalone inheritance unit, and added working with text files and real datasets. The exam changed too: the multiple-choice section now has 42 questions and is worth 55 percent, alongside four free-response questions worth 45 percent. The direction is clear: more real, practical data work, which rewards students who genuinely understand code."},
+      {"type": "callout", "text": "The headline is not the reshuffle of units. It is that AP CSA now expects students to read files and work with real datasets. That is a shift toward what programmers actually do, and it rewards understanding over memorised syntax."},
+
+      {"type": "heading", "level": 2, "text": "What changed in the course", "id": "course-changes"},
+      {"type": "list", "items": [
+        "Fewer, bigger units. The old units were consolidated into four: Using Objects and Methods, Selection and Iteration, Class Creation, and Data Collections, with Data Collections carrying the largest share.",
+        "Inheritance removed as required content. The standalone inheritance unit, including polymorphism, was dropped from the required material, though teachers may still cover it for enrichment.",
+        "File and dataset work added. Students are now expected to read from text files and work with real datasets, using Java's File and Scanner classes.",
+        "The overall aim is more practical, data-oriented programming and less abstract theory."
+      ]},
+
+      {"type": "heading", "level": 2, "text": "The new exam format", "id": "exam-format"},
+      {"type": "paragraph", "text": "The May 2026 exam has two sections. Section one is multiple choice, now with 42 questions and worth 55 percent of the score, a slightly larger share than before. Section two is free response, with four programming questions worth the remaining 45 percent. As always, the free-response section is where students write real Java code, so a child who can actually program, rather than just recognise correct answers, has a real advantage."},
+
+      {"type": "heading", "level": 2, "text": "What it means for your child", "id": "means"},
+      {"type": "paragraph", "text": "The good news is that a student who genuinely understands programming is better off than ever under the new course. Dropping the abstract inheritance unit and adding real file and dataset work moves AP CSA closer to how code is written in the real world. The students who will do best are the ones who can read a problem, break it down, and write working Java, not the ones who tried to memorise their way through. If your child is strong on understanding, these changes play to their strengths."},
+
+      {"type": "quote", "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.", "author": "Shivam Khemka, Founder of Modern Age Coders"},
+
+      {"type": "heading", "level": 2, "text": "The bottom line", "id": "bottom-line"},
+      {"type": "paragraph", "text": "AP Computer Science A for 2025 to 2026 is leaner and more practical: four units, inheritance dropped from required content, real file and dataset work added, and an exam with 42 multiple-choice questions and four free-response questions. It rewards students who truly understand code. Modern Age Coders teaches Java and computer science for real understanding, live and in small batches for ages 6 to 67, including students preparing for AP and other exams. We are rated 4.9 across 547 Google reviews, and there is a free demo class before you pay."},
+      {"type": "button", "text": "Book a Free Demo Class", "url": "/book-demo"},
+
+      {"type": "accordion", "items": [
+        {"title": "What changed in AP Computer Science A for 2025-26?", "content": "The College Board reorganised the course into four units instead of ten, removed the standalone inheritance unit from required content, and added working with text files and real datasets using Java's File and Scanner classes. The exam also changed. The revisions take effect with the May 2026 AP exams."},
+        {"title": "Is inheritance still on the AP CSA exam?", "content": "The standalone inheritance unit, including polymorphism, was removed from the required content for 2025 to 2026. Teachers may still cover it as enrichment, but it is no longer a required part of the course. The freed-up space goes toward more practical work, such as reading files and handling datasets."},
+        {"title": "What is the new AP Computer Science A exam format?", "content": "Two sections. Section one is multiple choice with 42 questions, worth 55 percent of the score. Section two is free response with four programming questions, worth 45 percent. The free-response section is where students write real Java code, so genuine programming ability matters more than recognising answers."},
+        {"title": "Does the new AP CSA make the course easier or harder?", "content": "It is not simply easier or harder; it is more practical. Removing abstract inheritance content and adding real file and dataset work moves the course closer to how programming actually works. A student who understands code well is better off, while one relying on memorisation may find the practical shift harder."},
+        {"title": "How can my child prepare for the 2026 AP CSA exam?", "content": "Focus on genuinely understanding Java, not memorising syntax, and practise writing real programs, including reading files and working with datasets. Do timed past and practice questions, then learn from every mistake. For persistent gaps, a good teacher who can pinpoint the missing concept helps far more than solo revision."}
+      ]}
+    ]
+  },
+  "relatedPosts": ["igcse-computer-science-explained-for-parents", "best-ai-coding-tools-for-students-2026", "is-coding-worth-learning-2026"]
+}

@@ -2906,6 +2906,24 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/igcse-computer-science-explained-for-parents</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/uae-ai-curriculum-schools-what-it-means</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/ap-computer-science-a-changes-2026</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
   <url>
     <loc>https://learn.modernagecoders.com/blog/why-python-most-powerful-skill-professionals-today</loc>
