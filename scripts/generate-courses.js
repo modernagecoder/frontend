@@ -1043,6 +1043,26 @@ class CourseGenerator {
         html = html.replace(/{{COMMITMENT}}/g, this.escapeHtml(meta.commitment || ''));
         html = html.replace(/{{CERTIFICATION}}/g, this.escapeHtml(meta.certification || ''));
 
+        // Visible freshness stamp (Phase 6.4). Rendered ONLY from an author-declared date,
+        // never a build-time date, so it can never fake freshness. A meta.dateModified shows
+        // "Syllabus updated <Month Year>"; otherwise a meta.date shows "Published <Month Year>";
+        // a course with no declared date shows nothing. Formatted by parsing the YYYY-MM-DD
+        // string (no Date object, to preserve build determinism).
+        const fmtMonthYear = (d) => {
+            const parts = String(d).split('-');
+            const months = ['January', 'February', 'March', 'April', 'May', 'June',
+                'July', 'August', 'September', 'October', 'November', 'December'];
+            const mi = parseInt(parts[1], 10) - 1;
+            return (months[mi] || '') + ' ' + (parts[0] || '');
+        };
+        let updatedHtml = '';
+        if (meta.dateModified) {
+            updatedHtml = `<p class="course-updated" style="margin:.6rem 0 0;font-size:.85rem;opacity:.75;">Syllabus updated ${this.escapeHtml(fmtMonthYear(meta.dateModified))}</p>`;
+        } else if (meta.date) {
+            updatedHtml = `<p class="course-updated" style="margin:.6rem 0 0;font-size:.85rem;opacity:.75;">Published ${this.escapeHtml(fmtMonthYear(meta.date))}</p>`;
+        }
+        html = html.replace(/{{SYLLABUS_UPDATED}}/g, updatedHtml);
+
         // Hero image or SVG
         if (meta.image_path) {
             const imageName = path.basename(meta.image_path);

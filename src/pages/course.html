@@ -1350,7 +1350,7 @@
             // TEENS COURSES (Ages 13-17)
             {
                 id: 131, category: 'programming', title: 'Hackathon for Teens', isHackathon: true,
-                description: 'Built for Modern Age Coders Hackathon 1.0 (held June 2026) — a 12-week pro prep for ages 13-17. Master Python, React, AI APIs, algorithms, GitHub and pitching. Build a real solution and compete for a ₹30,000 prize pool.',
+                description: 'Built for Modern Age Coders Hackathon 1.0 (held June 2026) — a 12-week pro prep for ages 13-17. Master Python, React, AI APIs, algorithms, GitHub and pitching - the skills that won its ₹30,000 prize pool. Hackathon 1.0 is over; the prep track runs year-round.',
                 skills: ['Python + JavaScript', 'React + Supabase', 'AI APIs', 'Algorithms + Pitch'], difficulty: 'intermediate', ageGroup: 'teens',
                 badges: ['new', 'hot', 'career'], templateUrl: '/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course', imageUrl: 'hackathon-teens.webp'
             },
@@ -1466,7 +1466,7 @@
             // COLLEGE COURSES
             {
                 id: 132, category: 'programming', title: 'Hackathon for Adults & Professionals', isHackathon: true,
-                description: 'Built for Modern Age Coders Hackathon 1.0 (held June 2026) — a 12-week pro-grade prep for adults 18+. Master Next.js 16, AI agents, RAG, vector DBs, system design and pitching. Builders of all kinds welcome — compete for a ₹30,000 prize pool.',
+                description: 'Built for Modern Age Coders Hackathon 1.0 (held June 2026) — a 12-week pro-grade prep for adults 18+. Master Next.js 16, AI agents, RAG, vector DBs, system design and pitching - the skills that won its ₹30,000 prize pool. Hackathon 1.0 is over; the prep track runs year-round.',
                 skills: ['Next.js 16 + AI SDK', 'Agents + RAG', 'System Design', 'Founder Pitch Lab'], difficulty: 'advanced', ageGroup: 'professional',
                 badges: ['new', 'hot', 'career'], templateUrl: '/courses/hackathon-prep-for-adults-professionals-coding-ai-innovation-course', imageUrl: 'hackathon-adults.webp'
             },
@@ -1916,6 +1916,14 @@
                 badges: ['new', 'hot'], templateUrl: '/courses/ap-precalculus-exam-prep-course/', imageUrl: 'ap-precalculus.webp'
             },
 
+            // NEW ICSE BOARD COURSE (2026-07-18) - Computer Applications
+            {
+                id: 341, category: 'programming', title: 'ICSE Computer Applications (Class 9-10)',
+                description: 'ICSE Computer Applications in Java with BlueJ, aligned to the current CISCE 100+100 scheme, so students score in both the theory paper and the internal assessment.',
+                skills: ['Java & BlueJ', 'Board Paper Technique', 'Practical File'], difficulty: 'beginner', ageGroup: 'teens',
+                badges: ['new', 'hot'], templateUrl: '/courses/icse-computer-applications-java-bluej-course/', imageUrl: 'java-teens.webp'
+            },
+
             // MATHEMATICS COURSES - Professionals
             {
                 id: 69, category: 'mathematics', title: 'Business & Finance Math',
@@ -2070,29 +2078,24 @@
                 const isHackathon = course.isHackathon === true;
                 const cardClass = isHackathon ? 'course-card-minimal hackathon-card' : 'course-card-minimal';
                 const ribbon = isHackathon
-                    ? `<div class="hackathon-ribbon"><span class="hackathon-ribbon-dot"></span>₹30,000 PRIZE POOL · LIVE</div>`
+                    ? `<div class="hackathon-ribbon"><span class="hackathon-ribbon-dot"></span>12-WEEK HACKATHON PREP · ENROL ANYTIME</div>`
                     : '';
                 const buttonLabel = 'Start Learning';
                 const btnArrow = `<svg class="btn-arrow" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
-                // Hackathon cards show TWO actions: "Register Now" → the /hackathon event page
-                // (see full details & complete the ₹500 registration), and "Start Learning" →
-                // the hackathon prep course. Non-hackathon cards keep a single button.
+                // Hackathon 1.0 was held June 2026 and is over, so the card no longer solicits the
+                // (now closed) ₹500 event registration. Only the year-round prep track is sold, so
+                // the hackathon card shows the same single "Start Learning" action as any course.
                 const buttonsBlock = isHackathon
                     ? `<div class="hackathon-btn-row">
-                            <button class="start-learning-btn hx-reg-btn" type="button" data-template-url="/hackathon" data-course-title="${course.title}">Register Now ${btnArrow}</button>
                             <button class="start-learning-btn hx-prep-btn" type="button" data-template-url="${course.templateUrl || ''}" data-course-title="${course.title}">Start Learning ${btnArrow}</button>
                         </div>`
                     : `<button class="start-learning-btn" type="button" data-template-url="${course.templateUrl || ''}" data-course-title="${course.title}">${buttonLabel} ${btnArrow}</button>`;
                 const pricingBlock = isHackathon
                     ? `
-                        <div class="hackathon-pricing" aria-label="Hackathon pricing breakdown">
-                            <div class="hackathon-pricing-row hackathon-pricing-free">
-                                <span class="hackathon-pricing-tag">₹500</span>
-                                <span class="hackathon-pricing-text">Hackathon registration &amp; participation</span>
-                            </div>
+                        <div class="hackathon-pricing" aria-label="Hackathon prep pricing">
                             <div class="hackathon-pricing-row hackathon-pricing-prep">
                                 <span class="hackathon-pricing-tag hackathon-pricing-tag-prep">PREP</span>
-                                <span class="hackathon-pricing-text">Want to prepare? <strong>${prepPrice}</strong></span>
+                                <span class="hackathon-pricing-text">12-week prep track from <strong>${prepPrice}</strong></span>
                             </div>
                         </div>
                     `

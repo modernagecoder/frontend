@@ -1,0 +1,503 @@
+{
+  "meta": {
+    "slug": "icse-computer-applications-java-bluej-course",
+    "title": "ICSE Computer Applications (Class 9-10): Java with BlueJ",
+    "description": "Live online ICSE Computer Applications classes for Class 9 and 10, taught in Java with BlueJ and aligned to the current CISCE 100+100 scheme, so students write their own programs and score in both the theory paper and the internal assessment.",
+    "keywords": [
+      "icse computer applications class 10",
+      "icse computer applications class 9",
+      "java bluej classes online",
+      "icse computer applications tuition",
+      "icse java classes for class 10",
+      "computer applications bluej course",
+      "icse class 10 computer applications syllabus",
+      "online icse computer applications classes"
+    ],
+    "category": "ICSE Computer Applications",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "Class 9 and 10 board program, monthly enrolment",
+    "level": "ICSE Class 9 and 10 students taking Computer Applications; taught from the basics, no prior coding required",
+    "commitment": "2 live classes/week + weekly BlueJ practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "java-teens.png",
+    "date": "2026-07-18",
+    "dateModified": "2026-07-18"
+  },
+  "program_overview": {
+    "title": "ICSE Computer Applications (Class 9-10)",
+    "tagline": "A real Java course, taught in BlueJ and aligned to the current CISCE scheme, that ends in top marks in both the theory paper and the internal assessment, because your child can actually write programs, not just reproduce them.",
+    "description": "ICSE Computer Applications is taught in Java using the BlueJ environment, and it is the subject where students who genuinely understand code pull away from the ones who memorise programs. This course treats it as a real first programming course, because that is exactly what it is: your child leaves able to write Java, read an error, and solve a problem they have not seen before, which is what the board paper actually asks for.\n\nIt is also taught to the scheme as it stands now. CISCE marks Computer Applications on a 100 plus 100 basis, unlike the usual 80 plus 20: a 100-mark external theory paper and a 100-mark internal assessment made up of practical lab work and a written project on Disruptive Technologies. Many students lose easy marks on the internal assessment simply because nobody prepared them for it, so we treat both halves seriously from day one.\n\nThe programme follows the ICSE Class 9 and 10 Computer Applications syllabus in order. It begins with object-oriented thinking and Java from nothing, moves through conditionals, loops and nested loops, then into the Class 10 core: classes as the basis of computation, user-defined methods, constructors, the library and wrapper classes, encapsulation, single and double dimensional arrays, and string handling. Alongside the theory, every student builds a proper practical file of at least fifteen BlueJ assignments and the Disruptive Technologies project, and drills the two-section board paper until earning marks is a habit. Every class is live and small, and every concept is practised by writing code in BlueJ, because that is the only way this subject is ever actually learned.",
+    "what_makes_this_different": [
+      "Aligned to the current CISCE 100 plus 100 scheme: a 100-mark theory paper and a 100-mark internal assessment, so we prepare your child for both halves, not just the written exam most classes stop at",
+      "Taught in BlueJ (version 5.4.2 or higher on JDK 11 or higher), the exact environment used in school and the board practical exam, so nothing on exam day is unfamiliar",
+      "The internal assessment is taken seriously: your child builds a real practical file of at least fifteen lab assignments plus the written project on Disruptive Technologies, worth a full 100 marks",
+      "A real Java course, not rote learning: students stop memorising programs and start writing their own, which is exactly what Section B of the paper rewards",
+      "Board paper technique drilled directly: the compulsory Section A short answers and the answer-any-four programs of Section B, practised against real board-style questions",
+      "Live, small batches where your child writes code during class and gets it reviewed, not lecture videos watched alone"
+    ],
+    "learning_path": {
+      "phase_1": "Java and OOP from scratch in BlueJ, the Class 9 core: objects and classes, data types, operators, input, the Math library, conditionals, and loops including nested loops",
+      "phase_2": "The Class 10 core: the class as the basis of computation, user-defined methods, constructors, library and wrapper classes, and encapsulation",
+      "phase_3": "Arrays and string handling, the full practical file and Disruptive Technologies project, and complete board theory and BlueJ practical exam mastery"
+    },
+    "career_outcomes": [
+      "Strong marks in both the ICSE Computer Applications theory paper and the 100-mark internal assessment",
+      "The ability to genuinely write and debug Java, not just reproduce learned programs",
+      "A completed practical file and Disruptive Technologies project your child understands and can defend",
+      "A real foundation for ISC Computer Science in Class 11 and 12, which continues in Java",
+      "Problem-solving and logical-thinking habits that carry into any future coding, from college to work"
+    ]
+  },
+  "phase_1_java_and_class9_core": {
+    "title": "PHASE 1: Java and OOP Foundations, the Class 9 Core (in BlueJ)",
+    "description": "Object-oriented thinking and Java built from nothing in BlueJ, then the Class 9 Computer Applications syllabus in order: the base everything in Class 10 stands on.",
+    "month_1_oop_and_java_basics": {
+      "title": "Month 1: Object-Oriented Thinking and Java Basics",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Introduction to OOP and the BlueJ Environment",
+        "topics": [
+          "What object-oriented programming means: objects, classes, and why Java is built around them",
+          "The principles behind OOP the syllabus names: abstraction, encapsulation, inheritance and polymorphism, explained in plain language",
+          "Setting up BlueJ (version 5.4.2 or higher on JDK 11 or higher), the exact tool used in school and the board practical",
+          "The anatomy of a Java program: class, main method, statements and semicolons",
+          "The compile-and-run cycle in BlueJ, and reading your first error messages without fear"
+        ],
+        "projects": [
+          "First BlueJ program: create a class, compile it, and run a method that prints a short formatted output"
+        ],
+        "practice": "8 short exercises creating and running simple classes in BlueJ, reading each error message and fixing it"
+      },
+      "week_2": {
+        "title": "Elementary Concept of Objects and Classes, Values and Data Types",
+        "topics": [
+          "Objects as instances of a class, and the class as a blueprint, with real everyday analogies",
+          "Java's primitive data types: int, double, char, boolean and the rest, and when each is used",
+          "Literals, identifiers, keywords and the rules for naming, exactly as the paper expects",
+          "Type size, range and the difference between primitive and reference types",
+          "Variables, initialisation, and Unicode and ASCII as the syllabus requires"
+        ],
+        "projects": [
+          "A class that stores and prints details using the correct data type for each field"
+        ],
+        "practice": "10 questions classifying data types and choosing the right type for a given value, board-question style",
+        "assessment": "A short written check on OOP terms and data types, marked in the board's short-answer style"
+      },
+      "week_3": {
+        "title": "Operators in Java and Expressions",
+        "topics": [
+          "Arithmetic, relational, logical and assignment operators, and operator precedence",
+          "Increment and decrement, prefix versus postfix, a classic board trap",
+          "Type conversion: implicit widening and explicit casting, and integer versus real division",
+          "The conditional (ternary) operator and evaluating mixed expressions by hand",
+          "Tracing expressions on paper the way Section A questions demand"
+        ],
+        "projects": [
+          "A simple calculator class that applies each operator and prints the result"
+        ],
+        "practice": "12 expression-evaluation questions, predicted on paper then checked in BlueJ"
+      },
+      "week_4": {
+        "title": "Input in Java and Mathematical Library Methods",
+        "topics": [
+          "Taking input with the Scanner class, the standard the syllabus uses",
+          "Reading int, double, char and String input cleanly",
+          "The Math library: pow, sqrt, abs, max, min, round, ceil, floor and random",
+          "Combining input and Math methods to solve real formulae",
+          "Common Math-method questions exactly as they appear in the paper"
+        ],
+        "projects": [
+          "A program that reads values and computes results such as area, simple interest and the roots of a quadratic using Math methods"
+        ],
+        "practice": "10 input-and-compute programs, each written and run in BlueJ",
+        "assessment": "A timed set on operators, expressions and Math methods, scored in the board's style"
+      }
+    },
+    "month_2_conditionals_and_loops": {
+      "title": "Month 2: Conditional and Iterative Constructs",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Conditional Constructs: if, if-else, if-else-if",
+        "topics": [
+          "The if, if-else and if-else-if ladder, and choosing the right form",
+          "Nested if statements and how to keep them readable",
+          "Boolean conditions built from relational and logical operators",
+          "Dry-running a decision program by hand to predict its output",
+          "Menu-style decision problems as the paper frames them"
+        ],
+        "projects": [
+          "A program that classifies input, for example grade from marks or category from a value, using an if-else-if ladder"
+        ],
+        "practice": "10 decision programs, each dry-run on paper first then verified in BlueJ"
+      },
+      "week_6": {
+        "title": "The switch-case Construct",
+        "topics": [
+          "The switch-case statement and when it beats an if-else-if ladder",
+          "The role of break, and the fall-through behaviour when it is missing, a favourite board trap",
+          "The default case and valid switch expression types",
+          "Converting between switch and if-else forms both ways",
+          "Menu-driven programs using switch, exactly as asked in Section B"
+        ],
+        "projects": [
+          "A menu-driven program, for example a units converter or a simple arithmetic menu, built with switch-case"
+        ],
+        "practice": "8 switch-case programs including deliberate missing-break tracing questions",
+        "assessment": "A timed check on conditionals covering both if-else and switch, board style"
+      },
+      "week_7": {
+        "title": "Iteration: for, while and do-while Loops",
+        "topics": [
+          "The for, while and do-while loops and how to convert one into another",
+          "Loop control: initialisation, condition and update, and off-by-one errors",
+          "The entry-controlled versus exit-controlled distinction the paper asks about",
+          "Classic loop programs: sum of a series, factorial, counting digits, reversing a number",
+          "Predicting how many times a loop runs, a common Section A question"
+        ],
+        "projects": [
+          "A program producing a series result, for example the sum of a series, factorial, or checking a number for a property"
+        ],
+        "practice": "12 loop programs, each written three ways with for, while and do-while to build fluency"
+      },
+      "week_8": {
+        "title": "Nested Loops and Patterns",
+        "topics": [
+          "Nested for loops and how the inner loop runs fully for each outer step",
+          "Number and star pattern programs, a guaranteed source of Section B marks",
+          "Prime, palindrome, Armstrong and similar number-property programs",
+          "Tracing nested loops on paper to predict the exact output",
+          "Structuring a longer program cleanly so it earns full marks"
+        ],
+        "projects": [
+          "A pattern-printing program and a number-property checker, both built with nested loops"
+        ],
+        "practice": "10 nested-loop and pattern programs at board difficulty",
+        "assessment": "End-of-phase test: a Section-A-style short-answer set plus two Section-B-style programs, scored on the board rubric"
+      }
+    }
+  },
+  "phase_2_class10_core": {
+    "title": "PHASE 2: The Class 10 Core, Classes, Methods and Encapsulation",
+    "description": "The heart of the Class 10 syllabus: writing your own classes, methods and constructors, and using the library and wrapper classes the paper depends on.",
+    "month_3_classes_methods_constructors": {
+      "title": "Month 3: Classes, User-Defined Methods and Constructors",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "The Class as the Basis of All Computation",
+        "topics": [
+          "Revisiting objects and classes as the foundation of everything in Class 10",
+          "Instance variables and methods, and the state and behaviour of an object",
+          "Access specifiers: private, public and protected, and why they matter",
+          "Creating objects and calling methods, and the role of the main method",
+          "Reading a full class definition the way a Section B question presents it"
+        ],
+        "projects": [
+          "A complete class, for example a Student or BankAccount, with fields and methods, created and used from main"
+        ],
+        "practice": "8 exercises writing and using small classes in BlueJ"
+      },
+      "week_10": {
+        "title": "User-Defined Methods",
+        "topics": [
+          "Declaring methods: return type, name, parameters and body",
+          "Parameters and arguments, and returning a value versus void",
+          "Pure and impure methods, and call by value as the syllabus frames it",
+          "Method overloading and how the compiler picks a version",
+          "The static keyword and the difference between static and instance methods"
+        ],
+        "projects": [
+          "A class with several overloaded and value-returning methods, each tested from main"
+        ],
+        "practice": "10 method-writing questions, including overloading and pure-versus-impure identification"
+      },
+      "week_11": {
+        "title": "Constructors",
+        "topics": [
+          "What a constructor is and how it differs from a method",
+          "Default, parameterised and copy constructors",
+          "Constructor overloading and choosing the right one at object creation",
+          "How constructors initialise object state cleanly",
+          "Constructor questions exactly as the board asks them"
+        ],
+        "projects": [
+          "A class with default, parameterised and copy constructors, demonstrated by creating objects several ways"
+        ],
+        "practice": "8 constructor programs and a set of spot-the-difference method-versus-constructor questions",
+        "assessment": "A timed check on classes, methods and constructors, marked on the board rubric"
+      },
+      "week_12": {
+        "title": "Encapsulation and Clean Class Design",
+        "topics": [
+          "Encapsulation: private fields with public accessor and mutator methods",
+          "Why data hiding protects an object and earns design marks",
+          "Designing a class so its methods fully control its state",
+          "Reading and completing a partially written class, a common Section B format",
+          "Good naming and structure that make a program easy to mark"
+        ],
+        "projects": [
+          "An encapsulated class with private fields and get and set methods, used safely from outside"
+        ],
+        "practice": "8 class-completion questions in the board's fill-in-the-method style"
+      }
+    },
+    "month_4_library_and_wrapper_classes": {
+      "title": "Month 4: Library Classes, Wrapper Classes and Characters",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Library Classes and Wrapper Classes",
+        "topics": [
+          "What the Java library provides and why we do not reinvent it",
+          "Wrapper classes: Integer, Double, Character and the rest, and why they exist",
+          "Autoboxing and unboxing in plain terms",
+          "Converting between primitive types and their wrapper objects",
+          "Parsing a String to a number with parseInt and parseDouble"
+        ],
+        "projects": [
+          "A program that reads numeric text input, parses it with wrapper methods, and computes a result"
+        ],
+        "practice": "8 wrapper-class and parsing questions in board format"
+      },
+      "week_14": {
+        "title": "Character and Case Handling",
+        "topics": [
+          "The char type, and ASCII and Unicode values",
+          "Character methods: isDigit, isLetter, isUpperCase, isLowerCase, toUpperCase, toLowerCase",
+          "Converting characters to and from their integer codes",
+          "Counting vowels, consonants, digits and spaces, a classic program",
+          "Character-based Section A questions and how to answer them precisely"
+        ],
+        "projects": [
+          "A program that scans text and reports counts of vowels, consonants, digits and other characters"
+        ],
+        "practice": "10 character-method programs and code-value tracing questions",
+        "assessment": "A timed set on library, wrapper and character methods, board style"
+      },
+      "week_15": {
+        "title": "Building the Practical File, Part One",
+        "topics": [
+          "The internal assessment: how the 100 practical marks are actually earned",
+          "What makes a good lab assignment: clear design, correct implementation and testing",
+          "Writing assignments that each demonstrate a theory concept, as CISCE requires",
+          "Documenting a program properly: purpose, variable description and output",
+          "Starting the required set of at least fifteen assignments for the year"
+        ],
+        "projects": [
+          "The first several formal BlueJ lab assignments, written up to internal-assessment standard"
+        ],
+        "practice": "Assignment write-ups reviewed and corrected to the standard a school and CISCE expect"
+      },
+      "week_16": {
+        "title": "The Disruptive Technologies Project",
+        "topics": [
+          "The written project on Disruptive Technologies that carries part of the internal assessment",
+          "Choosing a genuine topic, for example AI, blockchain, IoT or robotics",
+          "Structuring the project: what it is, how it works, and its real-world impact",
+          "Writing in the student's own words, honestly and clearly, not copied",
+          "Presenting the project so it earns full internal-assessment marks"
+        ],
+        "projects": [
+          "A complete, well-structured written project on a chosen disruptive technology"
+        ],
+        "practice": "Draft, review and finalise the project to internal-assessment standard",
+        "assessment": "End-of-phase test: a mixed Section-A and Section-B paper plus a practical-file review"
+      }
+    }
+  },
+  "phase_3_arrays_strings_and_board_mastery": {
+    "title": "PHASE 3: Arrays, Strings and Full Board and Practical Mastery",
+    "description": "The last major syllabus topics, then the whole subject brought together: the two-section theory paper and the BlueJ practical exam, drilled until top marks are a habit.",
+    "month_5_arrays_and_strings": {
+      "title": "Month 5: Arrays and String Handling",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "Single Dimensional Arrays",
+        "topics": [
+          "Declaring, creating and initialising a single dimensional array",
+          "Traversing an array with a loop, and reading and printing elements",
+          "Finding the sum, maximum, minimum and average of an array",
+          "Linear search and simple frequency counting",
+          "Array questions exactly as Section B presents them"
+        ],
+        "projects": [
+          "A program that reads a set of values into an array and reports statistics and a searched value"
+        ],
+        "practice": "10 single-dimensional-array programs at board difficulty"
+      },
+      "week_18": {
+        "title": "Sorting and Searching in Arrays",
+        "topics": [
+          "Bubble sort and selection sort, the two the syllabus expects, step by step",
+          "Binary search on a sorted array and why order matters",
+          "Tracing a sort or search pass by pass, a common Section A question",
+          "Choosing the right technique for a given problem",
+          "Writing a full sort-or-search program cleanly for maximum marks"
+        ],
+        "projects": [
+          "A program that sorts an array with bubble or selection sort, then binary-searches it"
+        ],
+        "practice": "8 sorting and searching programs, plus pass-by-pass tracing questions"
+      },
+      "week_19": {
+        "title": "Double Dimensional Arrays",
+        "topics": [
+          "Declaring and using a two dimensional array as rows and columns",
+          "Nested loops to fill, read and print a matrix",
+          "Row sums, column sums, and the diagonal of a square matrix",
+          "Common matrix programs the paper sets",
+          "Keeping a two-dimensional program readable so it earns full marks"
+        ],
+        "projects": [
+          "A matrix program that fills a two dimensional array and reports row, column and diagonal totals"
+        ],
+        "practice": "8 double-dimensional-array programs"
+      },
+      "week_20": {
+        "title": "String Handling",
+        "topics": [
+          "The String class and common methods: length, charAt, substring, indexOf, equals and compareTo",
+          "toUpperCase, toLowerCase, trim, replace and concatenation",
+          "Reversing a string, checking a palindrome, and counting words",
+          "Comparing strings correctly, equals versus the double-equals trap",
+          "String programs exactly as Section B frames them"
+        ],
+        "projects": [
+          "A text program that reverses input, checks for a palindrome, and counts words and characters"
+        ],
+        "practice": "10 string-handling programs at board difficulty",
+        "assessment": "A timed set covering arrays and strings, scored on the board rubric"
+      }
+    },
+    "month_6_board_and_practical_exam": {
+      "title": "Month 6: Board Theory and BlueJ Practical Exam Mastery",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "The Theory Paper: Section A Technique",
+        "topics": [
+          "How the 100-mark theory paper is structured across its two sections",
+          "Section A: the compulsory short-answer questions and how to earn every mark",
+          "Precise definitions, output prediction and one-line answers the way examiners want them",
+          "Common Section A traps: operator precedence, missing break, loop counts and casting",
+          "Timing Section A so Section B gets the minutes it needs"
+        ],
+        "projects": [
+          "A full Section A attempt under time, then a question-by-question review"
+        ],
+        "practice": "Two timed Section A sets, each fully reviewed with every miss tagged by cause"
+      },
+      "week_22": {
+        "title": "The Theory Paper: Section B Programs",
+        "topics": [
+          "Section B: answering any four of the program questions, and choosing the right four",
+          "Structuring a full program answer so partial marks are never lost",
+          "Writing clean, commented code by hand under exam conditions",
+          "Handling the class-design, array and string programs that recur every year",
+          "Checking a written program for the small errors that cost marks"
+        ],
+        "projects": [
+          "A full Section B attempt of four hand-written programs, marked on the official rubric"
+        ],
+        "practice": "Timed Section B sets across class, array and string program types"
+      },
+      "week_23": {
+        "title": "The BlueJ Practical Exam and the Internal Assessment",
+        "topics": [
+          "How the school and board practical works in BlueJ, and what is expected",
+          "Writing, compiling, testing and correcting a program under time in BlueJ",
+          "Finalising the practical file of at least fifteen assignments and the project",
+          "Reading a practical problem correctly and planning before coding",
+          "Debugging calmly when a program does not compile the first time"
+        ],
+        "projects": [
+          "A full mock practical: solve an unseen problem end to end in BlueJ under exam time"
+        ],
+        "practice": "Repeated timed BlueJ practicals on unseen problems, each reviewed",
+        "assessment": "A complete mock practical scored like the real one, with the practical file signed off"
+      },
+      "week_24": {
+        "title": "Full Mock Board Exams and Final Polishing",
+        "topics": [
+          "Full-length timed mock theory papers under real conditions",
+          "Turning the error log from every mock into a focused revision plan",
+          "Locking in the recurring high-mark programs so they are automatic",
+          "A calm, tested routine for both the theory paper and the practical",
+          "A clear, honest read on the target grade and the final push to reach it"
+        ],
+        "projects": [
+          "Two full mock board papers, each fully reviewed and converted into a revision list"
+        ],
+        "practice": "Repeated full mocks until pacing and accuracy are consistent",
+        "assessment": "Final full mock board paper, scored and benchmarked against the target grade"
+      }
+    }
+  },
+  "prerequisites": {
+    "title": "What Your Child Needs to Start",
+    "items": [
+      "Enrolment in ICSE Class 9 or Class 10 (or about to enter Class 9); no prior coding is required, everything is taught from the basics",
+      "A computer that can run BlueJ (version 5.4.2 or higher) on JDK 11 or higher, which we help set up in the first class",
+      "Comfort with basic school mathematics; the logic is taught step by step",
+      "A willingness to write programs during class, since this subject is learned by doing, not watching"
+    ]
+  },
+  "who_is_this_for": {
+    "title": "Who This Course Is For",
+    "items": [
+      "ICSE Class 9 and 10 students taking Computer Applications who want to genuinely understand it, not memorise programs",
+      "Students who find the subject confusing at school and keep losing marks on the programs",
+      "Strong students aiming for a near-perfect score in both the theory paper and the internal assessment",
+      "Students planning to continue with ISC Computer Science in Class 11 and 12, which builds directly on this in Java",
+      "Parents who want a live, small-batch class with real feedback, not a recorded course watched alone"
+    ]
+  },
+  "career_paths_after_completion": [
+    "A strong ICSE Computer Applications result in both the theory paper and the 100-mark internal assessment",
+    "A confident move into ISC Computer Science in Class 11 and 12, continuing in Java",
+    "A genuine foundation for a computer science stream and, later, an engineering or CS degree",
+    "Transferable problem-solving and logical-thinking skills that help across every subject",
+    "An early, real head start in programming that compounds for years"
+  ],
+  "course_guarantees": {
+    "title": "Our Commitment to You",
+    "items": [
+      "Every class is live and small, taught by a real mentor, never a recorded video watched alone",
+      "Taught in BlueJ and aligned to the current CISCE 100 plus 100 scheme, so both the theory paper and the internal assessment are prepared for",
+      "Your child writes and runs code in every class and gets it reviewed on the spot",
+      "A free demo class first, so you can judge the teaching before you pay anything",
+      "Honest, regular feedback on where your child actually stands and what will move their grade"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is this course aligned to the current ICSE Computer Applications syllabus?",
+      "answer": "Yes. It follows the CISCE Class 9 and 10 Computer Applications syllabus, taught in Java with BlueJ, and it is built around the current 100 plus 100 scheme: a 100-mark external theory paper and a 100-mark internal assessment made up of practical lab work and a written project on Disruptive Technologies. We prepare your child for both halves, which is where many classes stop short."
+    },
+    {
+      "question": "Do you teach in BlueJ, the environment used in school?",
+      "answer": "Yes. We teach Java in BlueJ, version 5.4.2 or higher on JDK 11 or higher, which is the same environment used in school and in the board practical exam. Your child writes, compiles and tests real programs in it from the first class, so nothing on exam day is unfamiliar."
+    },
+    {
+      "question": "How does the 100-mark internal assessment work, and do you prepare for it?",
+      "answer": "Computer Applications is marked out of 200: a 100-mark theory paper and a 100-mark internal assessment. The internal assessment comes from practical lab work, at least fifteen assignments across the year, plus a written project on Disruptive Technologies. We build the practical file and the project properly with your child, so the full 100 internal marks are genuinely earned, not left to chance."
+    },
+    {
+      "question": "My child finds Computer Applications confusing at school. Can this help?",
+      "answer": "This is exactly who the course is for. Most confusion comes from memorising programs without understanding them, so the moment the logic changes, a student is stuck. We teach the concepts from the basics, in a small live batch, until your child can write their own programs. That understanding shows up directly in both the paper and the practical."
+    },
+    {
+      "question": "Can a Class 9 student join, or is it only for Class 10?",
+      "answer": "Both. A Class 9 student builds the foundations in order, which makes Class 10 far easier. A Class 10 student joins with a quick, solid revision of the Class 9 core and then moves into the Class 10 topics and full board preparation. We place your child at the right point after the demo class."
+    },
+    {
+      "question": "How much do the ICSE Computer Applications classes cost?",
+      "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,499 per month, and 1-on-1 classes are ₹4,999 per month. There is a free demo class first, so you can see the teaching before you decide."
+    },
+    {
+      "question": "Will this help with ISC Computer Science later?",
+      "answer": "Yes. ISC Computer Science in Class 11 and 12 continues in Java and builds directly on the Class 9 and 10 foundation, adding topics like recursion, interfaces and exception handling. A student who genuinely understands Computer Applications is set up to do well in ISC, rather than starting from behind."
+    }
+  ]
+}
