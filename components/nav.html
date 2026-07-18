@@ -216,3 +216,8 @@
         </div>
     </div>
 </div>
+
+<!-- Speculation Rules (Phase 7.6): prerender same-origin links on hover (moderate), conservative prefetch. Ignored by unsupported browsers; excludes /api and query-string URLs. -->
+<script type="speculationrules">
+{"prerender":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/api/*"}},{"not":{"href_matches":"/*\\?*"}}]},"eagerness":"moderate"}],"prefetch":[{"where":{"href_matches":"/*"},"eagerness":"conservative"}]}
+</script>
