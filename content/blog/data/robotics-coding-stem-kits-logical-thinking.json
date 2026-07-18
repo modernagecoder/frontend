@@ -19,7 +19,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-03-16",
-    "dateModified": "2025-03-16",
+    "dateModified": "2026-07-18",
     "category": "Education",
     "tags": [
       "Robotics",
@@ -30,7 +30,8 @@
       "Engineering"
     ],
     "readTime": "14 min read",
-    "featured": true
+    "featured": true,
+    "tldr": "Robotics and coding kits teach children logical thinking by turning code into real movement, so a mistake becomes visible and fixable. Building and programming a robot develops problem solving and engineering sense. This guide compares top STEM kits with pricing and explains the thinking skills each one builds."
   },
   "hero": {
     "title": "Robotics and Coding: How STEM Kits Build Logical Thinking",

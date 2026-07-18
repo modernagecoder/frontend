@@ -19,7 +19,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-02-20",
-    "dateModified": "2025-02-20",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Java",
@@ -30,7 +30,8 @@
       "Advanced"
     ],
     "readTime": "15 min read",
-    "featured": true
+    "featured": true,
+    "tldr": "This article collects the ten Java programs every college student should be able to write, from core logic and strings to sorting and patterns, with complete solutions and explanations. They cover the essentials that appear in interviews and exams, so you can practise the code that matters most before you need it."
   },
   "hero": {
     "title": "Top 10 Java Programs Every College Student Must Know",

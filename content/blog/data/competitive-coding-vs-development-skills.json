@@ -19,7 +19,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-04-15",
-    "dateModified": "2025-12-14",
+    "dateModified": "2026-07-18",
     "category": "Career",
     "tags": [
       "Competitive Programming",
@@ -29,7 +29,8 @@
       "Skills"
     ],
     "readTime": "18 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Competitive coding sharpens algorithms and speed for contests and interviews, while development skills build real, usable software. Most students need both, weighted toward development for actual jobs. This article breaks down the pros and cons of each and how to balance them depending on your goals."
   },
   "hero": {
     "title": "Competitive Coding vs Development Skills: What Should Students Focus On?",

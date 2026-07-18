@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-04-12",
-    "dateModified": "2026-04-12",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -28,7 +28,8 @@
       "Data Persistence"
     ],
     "readTime": "9 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "To save data that survives after your script closes, Python reads and writes files using the open function with a mode, then read or write, ideally inside a with block that closes the file automatically. This step by step guide shows exactly how to handle text files without losing your data."
   },
   "hero": {
     "title": "How to Read and Write Files in Python (The Complete Guide)",

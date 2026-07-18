@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-07-04",
-    "dateModified": "2026-07-04",
+    "dateModified": "2026-07-18",
     "category": "Java",
     "tags": [
       "Java",
@@ -28,7 +28,8 @@
       "Exam Preparation"
     ],
     "readTime": "8 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "String handling in Java covers the methods that read and change text, why you compare strings with equals rather than the double equals operator, and how strings are immutable. This ICSE and CBSE guide explains the method toolkit, substring rules and five board style programs, each shown with real output."
   },
   "hero": {
     "title": "String Handling in Java: The ICSE and CBSE Guide",

@@ -19,7 +19,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-01-18",
-    "dateModified": "2025-01-18",
+    "dateModified": "2026-07-18",
     "category": "Education",
     "tags": [
       "Minecraft",
@@ -29,7 +29,8 @@
       "Comparison"
     ],
     "readTime": "9 min read",
-    "featured": true
+    "featured": true,
+    "tldr": "Both Minecraft and Roblox can teach coding, but differently: Minecraft introduces logic through commands and mods, while Roblox teaches real scripting in the Lua language for making games. This article compares how each one works and which suits your child's age and goals, so parents can pick the one that builds real skill."
   },
   "hero": {
     "title": "Minecraft vs. Roblox: Which One Actually Teaches Your Child to Code?",

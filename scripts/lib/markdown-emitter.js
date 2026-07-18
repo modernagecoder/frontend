@@ -245,6 +245,11 @@ function blogToMarkdown(data) {
         body += '*\n\n';
     }
 
+    // Answer capsule first (Phase 4.2/4.5 — quotable answer in the first 30% of the twin)
+    if (meta.tldr) {
+        body += `**Quick answer:** ${stripInlineHtml(meta.tldr)}\n\n`;
+    }
+
     const sections = (data.content && data.content.sections) || [];
     for (const section of sections) {
         body += blogSectionToMarkdown(section, sections);

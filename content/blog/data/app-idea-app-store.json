@@ -19,7 +19,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-01-28",
-    "dateModified": "2025-01-28",
+    "dateModified": "2026-07-18",
     "category": "Projects",
     "tags": [
       "App Development",
@@ -30,7 +30,8 @@
       "Play Store"
     ],
     "readTime": "14 min read",
-    "featured": true
+    "featured": true,
+    "tldr": "A teenager can go from idea to a published app in about 60 days by following a clear plan: validate the idea, learn the tools, build a small version, test it, then submit to the App Store or Play Store. This roadmap gives the real timeline, the tools to use and week by week milestones."
   },
   "hero": {
     "title": "App Idea to App Store in 60 Days: Teen Developer's Complete Roadmap",

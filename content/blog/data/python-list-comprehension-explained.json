@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-07-03",
-    "dateModified": "2026-07-03",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -28,7 +28,8 @@
       "Intermediate Python"
     ],
     "readTime": "9 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "A list comprehension builds a new list in one readable line using a pattern of expression, loop and optional condition, for example squaring numbers or filtering a list. This guide teaches the three slot pattern from scratch, shows exactly where the if goes, and gives 15 tested examples from simple to advanced."
   },
   "hero": {
     "title": "Python List Comprehension: 15 Examples, Simple to Advanced",

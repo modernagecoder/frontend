@@ -19,7 +19,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-03-10",
-    "dateModified": "2025-03-10",
+    "dateModified": "2026-07-18",
     "category": "Education",
     "tags": [
       "Kids",
@@ -30,7 +30,8 @@
       "Parents Guide"
     ],
     "readTime": "14 min read",
-    "featured": true
+    "featured": true,
+    "tldr": "Coding strengthens children's maths because writing programs uses the same skills: breaking problems into steps, spotting patterns, using logic and testing ideas. Research links programming to better problem solving and number sense. This article explains the connection and how coding turns abstract maths into something children can see and control."
   },
   "hero": {
     "title": "How Learning Coding Improves Mathematical Thinking in Children",

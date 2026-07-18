@@ -601,6 +601,16 @@ class BlogGenerator {
         html = html.replace(/{{HERO_IMAGE_URL}}/g, blogData.hero.featuredImage.url);
         html = html.replace(/{{HERO_IMAGE_ALT}}/g, blogData.hero.featuredImage.alt);
 
+        // TL;DR / Quick Answer callout (Phase 4.2 — GEO answer capsule, sits under the H1)
+        const tldr = (blogData.meta.tldr || blogData.tldr || '').trim();
+        const tldrHtml = tldr
+            ? `<aside class="blog-tldr" aria-label="Quick answer">
+                    <span class="blog-tldr-label">Quick answer</span>
+                    <p class="blog-tldr-text">${this.escapeHtml(tldr)}</p>
+                </aside>`
+            : '';
+        html = html.replace(/{{TLDR}}/g, tldrHtml);
+
         // Content replacement
         const contentHtml = this.generateContent(blogData.content.sections);
         html = html.replace(/{{BLOG_CONTENT}}/g, contentHtml);

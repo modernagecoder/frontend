@@ -267,9 +267,16 @@ body.editorial .share-option:hover{background:var(--amber-tint);color:var(--ambe
 .share-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 .toast-icon{color:var(--amber)}
 
+/* =====================  Quick Answer / TL;DR callout (Phase 4.2)  ===================== */
+.blog-tldr{margin:0 0 2.4rem;padding:1.15rem 1.4rem 1.25rem;background:rgba(217,119,6,.055);border:1px solid var(--line);border-left:4px solid var(--amber);border-radius:10px}
+.blog-tldr-label{display:inline-block;font-family:var(--font-mono,ui-monospace,monospace);font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);margin:0 0 .45rem}
+.blog-tldr-text{margin:0;font-family:var(--font-body);font-size:1.06rem;line-height:1.62;color:var(--ink)}
+.blog-tldr-text::first-letter{float:none;font-size:inherit;line-height:inherit;padding:0;color:inherit;font-family:inherit}
+
 /* =====================  responsive  ===================== */
 @media(max-width:760px){
   .featured-post{grid-template-columns:1fr}
   .featured-post-image{min-height:200px;aspect-ratio:16/9}
   .blog-content>p:first-of-type::first-letter{font-size:3rem}
+  .blog-tldr{padding:1rem 1.1rem 1.1rem}
 }

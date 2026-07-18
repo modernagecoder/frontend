@@ -26,7 +26,9 @@
       "Programming"
     ],
     "readTime": "12 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "This free step by step guide teaches Python from zero, covering variables, loops, functions, object oriented programming and your first real project. Each topic builds on the last with tested code, so a complete beginner can move from the first line to a working program along a clear, ordered path.",
+    "dateModified": "2026-07-18"
   },
   "hero": {
     "title": "Learn Python for Beginners: Complete Step-by-Step Guide (2026)",

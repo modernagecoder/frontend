@@ -21,7 +21,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-03-18",
-    "dateModified": "2026-03-17",
+    "dateModified": "2026-07-18",
     "category": "Career",
     "tags": [
       "College Students",
@@ -33,7 +33,8 @@
       "2026"
     ],
     "readTime": "22 min read",
-    "featured": true
+    "featured": true,
+    "tldr": "For college students in 2026, Python is the strongest first language for AI and data work, JavaScript for the web, and Java for core computer science and placements, with Go and Rust valuable later. This guide pairs each language with current salary data, the AI era job market and a realistic career path."
   },
   "hero": {
     "title": "Best Programming Languages for College Students to Learn in 2026",

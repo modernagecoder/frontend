@@ -17,7 +17,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-10-01",
-    "dateModified": "2025-10-05",
+    "dateModified": "2026-07-18",
     "category": "Education",
     "tags": [
       "Kids",
@@ -26,7 +26,8 @@
       "Beginners"
     ],
     "readTime": "8 min read",
-    "featured": true
+    "featured": true,
+    "tldr": "Teaching kids to code works best when you match the tool to the age, keep sessions short and project based, and let them build things they find fun. This 2025 guide gives parents and educators the strategies, tools and best practices to start a child's coding journey and keep them motivated over time."
   },
   "hero": {
     "title": "The Ultimate Guide to Teaching Kids Coding in 2025",

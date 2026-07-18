@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-01-24",
-    "dateModified": "2026-01-24",
+    "dateModified": "2026-07-18",
     "category": "Technology",
     "tags": [
       "Vibe Coding",
@@ -28,7 +28,8 @@
       "AI Coding"
     ],
     "readTime": "15 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Vibe coding means building software by describing what you want in plain language while an AI writes the code. The best free platforms in 2026 let you do this in the browser, turning natural language and creative intent into working apps and websites. This guide compares ten of them and what each one is best at."
   },
   "hero": {
     "title": "10 Best Free Platforms for Vibe Coding to Build Software Without Syntax",

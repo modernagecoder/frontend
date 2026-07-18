@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-01-20",
-    "dateModified": "2026-01-20",
+    "dateModified": "2026-07-18",
     "category": "Artificial Intelligence",
     "tags": [
       "AI",
@@ -28,7 +28,8 @@
       "Technology"
     ],
     "readTime": "14 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "AI agents are programs that pursue a goal on their own: they perceive input, decide, and act using tools, often powered by a large language model. This beginner guide explains the core terms in plain English, autonomous agents, LLMs, tool use, memory and multi agent systems, so you can follow modern AI conversations with confidence."
   },
   "hero": {
     "title": "Agent Terminology in AI: A Simple Guide to Understanding AI Agents",
@@ -662,4 +663,3 @@
     "python-for-beginners"
   ]
 }
-

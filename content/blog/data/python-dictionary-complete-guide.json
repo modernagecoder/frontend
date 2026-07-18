@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-07-03",
-    "dateModified": "2026-07-03",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -28,7 +28,8 @@
       "Beginner Programming"
     ],
     "readTime": "10 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "A Python dictionary stores data as key and value pairs, letting you look up a value instantly by its key. This complete guide shows how to create, read, update, loop through, merge, sort and nest dictionaries, with 20 tested examples and the common mistakes beginners should avoid."
   },
   "hero": {
     "title": "Python Dictionary: The Complete Guide With 20 Examples",

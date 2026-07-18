@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-07-05",
-    "dateModified": "2026-07-05",
+    "dateModified": "2026-07-18",
     "category": "Web Development",
     "tags": [
       "JavaScript",
@@ -28,7 +28,8 @@
       "Web Development"
     ],
     "readTime": "38 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "The best way to learn web development is to build, so this article lists 20 HTML, CSS and JavaScript project ideas from beginner to advanced. Each idea names the exact skills it teaches, and twelve come with real tested code, so you can pick a project that matches your level and start today."
   },
   "hero": {
     "title": "20 HTML, CSS, and JavaScript Project Ideas (With Code)",

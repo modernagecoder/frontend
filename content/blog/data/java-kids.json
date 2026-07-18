@@ -19,7 +19,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-01-18",
-    "dateModified": "2026-01-18",
+    "dateModified": "2026-07-18",
     "category": "Education",
     "tags": [
       "Java",
@@ -29,7 +29,8 @@
       "Programming Languages"
     ],
     "readTime": "15 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Children are usually ready for Java around age eleven, once they are comfortable with typing and basic logic, often after starting with Scratch or Python. This complete guide covers the right age, the best resources and beginner friendly projects that keep young programmers motivated as they learn real Java."
   },
   "hero": {
     "title": "Java for Kids: Complete Kids Guide to Learning Java Programming in 2026",

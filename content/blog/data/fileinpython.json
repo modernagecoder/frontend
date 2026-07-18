@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-01-20",
-    "dateModified": "2026-01-20",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -28,7 +28,8 @@
       "Beginner Python"
     ],
     "readTime": "9 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Organising Python files well means grouping code into clear modules and packages, separating source, tests and data, and using a predictable project structure. Good layout makes code easier to read, reuse and grow. This beginner guide covers a professional structure, best practices and the common mistakes to avoid."
   },
   "hero": {
     "title": "File Organization in Python: A Beginner's Guide to Managing Your Code Like a Pro",
@@ -350,4 +351,3 @@
     "advantages-functions-python-why-every-coder-should-use-them"
   ]
 }
-

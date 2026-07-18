@@ -17,7 +17,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-11-30",
-    "dateModified": "2025-11-30",
+    "dateModified": "2026-07-18",
     "category": "Education",
     "tags": [
       "Kids",
@@ -26,7 +26,8 @@
       "Beginners"
     ],
     "readTime": "12 min read",
-    "featured": true
+    "featured": true,
+    "tldr": "Blockly is a visual coding tool where children build programs by snapping colourful blocks together instead of typing, so they learn logic without worrying about syntax. It bridges block coding and real text languages. This guide covers age suitable activities, project ideas and how to move a child on to typed code."
   },
   "hero": {
     "title": "Introduction: What is Blockly for Kids?",

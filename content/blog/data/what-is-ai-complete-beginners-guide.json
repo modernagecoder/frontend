@@ -20,7 +20,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-03-01",
-    "dateModified": "2025-03-01",
+    "dateModified": "2026-07-18",
     "category": "Artificial Intelligence",
     "tags": [
       "AI",
@@ -31,7 +31,8 @@
       "Beginners"
     ],
     "readTime": "22 min read",
-    "featured": true
+    "featured": true,
+    "tldr": "AI is software that learns patterns from data to make decisions or create content, rather than following fixed rules. This complete beginner guide explains what AI is, which languages to learn, the career paths and ethics, and gives five starter projects and a roadmap from zero toward real skill over 12 to 18 months."
   },
   "hero": {
     "title": "What is AI? Complete Beginner's Guide to Getting Started",

@@ -19,7 +19,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-01-19",
-    "dateModified": "2026-01-19",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -29,7 +29,8 @@
       "Coding Tutorial"
     ],
     "readTime": "8 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Floor division in Python, written with the double slash operator, divides two numbers and rounds the result down to the nearest whole number, so 7 // 2 gives 3. It differs from normal division, which keeps the decimal. This guide covers the syntax, examples and practical uses like paging and grouping."
   },
   "hero": {
     "title": "What is Floor Division in Python? Complete Guide with Examples",

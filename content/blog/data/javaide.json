@@ -20,7 +20,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-01-19",
-    "dateModified": "2026-01-19",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Java",
@@ -30,7 +30,8 @@
       "Software Development"
     ],
     "readTime": "15 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "A Java IDE is the program you write and run code in, and the best beginner choices balance simple setup with helpful features. This guide compares ten IDEs, including BlueJ for schools and IntelliJ and Eclipse for larger work, with pros, cons and setup help so you can pick your first one."
   },
   "hero": {
     "title": "10 Best Java IDEs for Beginners: Complete Guide to Choosing Your First IDE",
@@ -589,7 +590,10 @@
     ]
   },
   "relatedPosts": [
-    {"title": "Java Array Programs for Beginners: 20 Solved Examples", "slug": "java-array-programs-for-beginners"},
+    {
+      "title": "Java Array Programs for Beginners: 20 Solved Examples",
+      "slug": "java-array-programs-for-beginners"
+    },
     {
       "title": "Best Programming Languages for College Students 2025",
       "slug": "best-programming-languages-college-students-2026"

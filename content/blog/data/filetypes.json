@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-01-23",
-    "dateModified": "2026-01-23",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -29,7 +29,8 @@
       "Beginner Programming"
     ],
     "readTime": "11 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Python can work with many file types: plain text, CSV for tables, JSON for structured data, Excel, PDF and raw binary files, each needing the right approach and library. This beginner guide explains what each type is for, how to read and write it, and best practices with clear examples."
   },
   "hero": {
     "title": "File Types in Python: A Complete Beginner's Guide to Working with Different Files",
@@ -427,4 +428,3 @@
     "how-coding-improves-mathematical-thinking-children"
   ]
 }
-

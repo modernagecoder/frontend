@@ -17,7 +17,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-03-06",
-    "dateModified": "2025-03-06",
+    "dateModified": "2026-07-18",
     "category": "Education",
     "tags": [
       "Kids",
@@ -27,7 +27,8 @@
       "Learning Path"
     ],
     "readTime": "14 min read",
-    "featured": true
+    "featured": true,
+    "tldr": "For most children aged 10 to 18, start with Scratch for the youngest, move to Python around 11 to 13, then add JavaScript, Java or C plus plus as they grow. This parent guide matches each language to an age and goal, with clear learning paths and the real career value behind every choice."
   },
   "hero": {
     "title": "Best Coding Languages for Kids Age 10-18-2026 Parent Guide",

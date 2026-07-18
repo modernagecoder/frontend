@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-07-03",
-    "dateModified": "2026-07-03",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -28,7 +28,8 @@
       "Interview Preparation"
     ],
     "readTime": "7 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "The Fibonacci series is a sequence where each number is the sum of the two before it, starting 0, 1, 1, 2, 3, 5. In Python you can generate it with a loop, recursion, memoisation, a generator or Binet's formula. This guide shows all seven methods with tested code and real timings."
   },
   "hero": {
     "title": "Fibonacci Series in Python: 7 Ways to Write It",

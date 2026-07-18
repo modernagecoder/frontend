@@ -19,7 +19,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-01-20",
-    "dateModified": "2025-01-20",
+    "dateModified": "2026-07-18",
     "category": "Education",
     "tags": [
       "CBSE",
@@ -30,7 +30,8 @@
       "Parents Guide"
     ],
     "readTime": "10 min read",
-    "featured": true
+    "featured": true,
+    "tldr": "CBSE and ICSE cover computer theory but rarely teach children to actually build software, so students learn about technology without creating it. This article explains exactly what is missing, from real coding practice to project work, and how parents can fill the gap at home to prepare a child for real world tech careers."
   },
   "hero": {
     "title": "The CBSE/ICSE Gap: What Schools Aren't Teaching About Tech (And How to Fill It)",

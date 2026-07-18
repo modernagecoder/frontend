@@ -19,7 +19,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-05-15",
-    "dateModified": "2025-05-15",
+    "dateModified": "2026-07-18",
     "category": "Business",
     "tags": [
       "Outsourcing",
@@ -29,7 +29,8 @@
       "Technology"
     ],
     "readTime": "11 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Outsourcing software development is faster to start and often cheaper, while an in house team gives tighter control, communication and long term ownership. The right choice turns on cost, how core the software is, and how long you will maintain it. This guide gives cost analysis, a decision framework and industry stats."
   },
   "hero": {
     "title": "Outsourcing Software Development vs Hiring In-House Developers",

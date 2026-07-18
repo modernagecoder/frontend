@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-07-03",
-    "dateModified": "2026-07-03",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -28,7 +28,8 @@
       "Clean Code"
     ],
     "readTime": "7 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "A lambda in Python is a small, unnamed function written in one line, useful for quick jobs like sorting by a key or transforming items with map and filter. This guide explains its anatomy, the key argument, when to use it, when a normal function is better, and ten tested examples."
   },
   "hero": {
     "title": "Python Lambda Functions: When to Use Them, 10 Examples",

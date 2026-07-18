@@ -48,7 +48,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-03-18",
-    "dateModified": "2026-03-18",
+    "dateModified": "2026-07-18",
     "category": "Technology Trends",
     "tags": [
       "Vibe Coding",
@@ -62,7 +62,8 @@
       "Developer Tools"
     ],
     "readTime": "45 min read",
-    "featured": true
+    "featured": true,
+    "tldr": "Vibe coding means building software by describing intent in natural language while AI writes and iterates on the code. This deep dive explains who coined the term, how the loop works, and compares tools like Cursor, Claude Code, Bolt, Lovable and Windsurf, with real adoption figures and the security risks to watch."
   },
   "hero": {
     "title": "What is Vibe Coding? The Ultimate Deep-Dive Guide to the AI Development Revolution",

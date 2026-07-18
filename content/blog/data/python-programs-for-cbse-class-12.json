@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-07-03",
-    "dateModified": "2026-07-03",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -28,7 +28,8 @@
       "Exam Preparation"
     ],
     "readTime": "11 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "This is a tested program bank for the CBSE Class 12 Computer Science exam, subject code 083: 20 Python programs covering functions, text, binary and CSV file handling, and the stack. Every program comes with real output, so students practise the exact styles the board asks for."
   },
   "hero": {
     "title": "20 Python Programs for CBSE Class 12 Board Exam (083)",

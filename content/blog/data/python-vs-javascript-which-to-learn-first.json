@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-07-04",
-    "dateModified": "2026-07-04",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -28,7 +28,8 @@
       "Career"
     ],
     "readTime": "8 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Learn Python first if you want data, AI or a gentle start, and JavaScript first if you want to build websites, since it runs in every browser. This honest comparison looks at syntax, use cases, speed and jobs, running the same program in both languages so you can choose with real evidence."
   },
   "hero": {
     "title": "Python vs JavaScript: Which Should You Learn First?",

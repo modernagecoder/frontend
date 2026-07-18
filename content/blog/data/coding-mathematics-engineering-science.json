@@ -19,7 +19,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-12-14",
-    "dateModified": "2025-12-14",
+    "dateModified": "2026-07-18",
     "category": "Education",
     "tags": [
       "Mathematics",
@@ -30,7 +30,8 @@
       "Career Guide"
     ],
     "readTime": "16 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Coding and mathematics work together in engineering and science because programs turn equations into simulations, models and real results you can test. Maths supplies the theory, code makes it run at scale. This article shows how the two combine across fields and why learning both multiplies what a student can do."
   },
   "hero": {
     "title": "How Coding and Mathematics Work Together in Engineering & Science",

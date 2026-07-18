@@ -21,7 +21,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-04-14",
-    "dateModified": "2026-04-14",
+    "dateModified": "2026-07-18",
     "category": "About Us",
     "tags": [
       "Certificate",
@@ -32,7 +32,8 @@
       "Student Success"
     ],
     "readTime": "12 min read",
-    "featured": true
+    "featured": true,
+    "tldr": "The Modern Age Coders certificate is awarded only after a deliberately tough exam that tests real coding skill, thinking and effort, so it cannot be earned by simply attending. This piece explains why a hard, honest certification is worth far more to students and employers than a participation certificate anyone can collect."
   },
   "hero": {
     "title": "Modern Age Coders Certificate: Earned, Not Given",
@@ -69,7 +70,6 @@
         "alt": "Students receiving Modern Age Coders certificates at the certificate distribution ceremony",
         "caption": "The smiles are real because the effort was real. Certificate distribution day at Modern Age Coders."
       },
-
       {
         "type": "heading",
         "level": 2,
@@ -119,7 +119,6 @@
         "alt": "Somraj's Modern Age Coders certificate -- earned through dedication and hard work",
         "caption": "Somraj's certificate. Not downloaded. Not auto-generated. Earned."
       },
-
       {
         "type": "heading",
         "level": 2,
@@ -136,16 +135,52 @@
       },
       {
         "type": "table",
-        "headers": ["Course / Track", "First-Attempt Passing Rate", "Difficulty Level"],
+        "headers": [
+          "Course / Track",
+          "First-Attempt Passing Rate",
+          "Difficulty Level"
+        ],
         "rows": [
-          ["HTML, CSS Basics & AI-Assisted Coding", "60%", "Accessible -- High chance with consistent effort"],
-          ["Python Fundamentals & Beginner Programming", "35%", "Moderate -- Requires solid logical thinking"],
-          ["Java Fundamentals", "30%", "Moderate -- Object-oriented concepts trip many up"],
-          ["Python Advanced Concepts, AI & ML", "21%", "Challenging -- Deep understanding required"],
-          ["JavaScript & Frontend Development", "20%", "Challenging -- DOM, async, and real projects tested"],
-          ["Data Science with Python", "18%", "Hard -- Statistics + code + real data analysis"],
-          ["Java Advanced Concepts & App Development", "9%", "Very Hard -- Architecture, design patterns, real builds"],
-          ["Full Backend, React & DSA", "8%", "Very Hard -- Only the truly dedicated clear this"]
+          [
+            "HTML, CSS Basics & AI-Assisted Coding",
+            "60%",
+            "Accessible -- High chance with consistent effort"
+          ],
+          [
+            "Python Fundamentals & Beginner Programming",
+            "35%",
+            "Moderate -- Requires solid logical thinking"
+          ],
+          [
+            "Java Fundamentals",
+            "30%",
+            "Moderate -- Object-oriented concepts trip many up"
+          ],
+          [
+            "Python Advanced Concepts, AI & ML",
+            "21%",
+            "Challenging -- Deep understanding required"
+          ],
+          [
+            "JavaScript & Frontend Development",
+            "20%",
+            "Challenging -- DOM, async, and real projects tested"
+          ],
+          [
+            "Data Science with Python",
+            "18%",
+            "Hard -- Statistics + code + real data analysis"
+          ],
+          [
+            "Java Advanced Concepts & App Development",
+            "9%",
+            "Very Hard -- Architecture, design patterns, real builds"
+          ],
+          [
+            "Full Backend, React & DSA",
+            "8%",
+            "Very Hard -- Only the truly dedicated clear this"
+          ]
         ]
       },
       {
@@ -162,7 +197,6 @@
         "title": "What These Numbers Really Mean",
         "text": "A 20% passing rate doesn't mean 80% of students fail forever. It means 80% of students need more time, more practice, and more depth before they're truly ready. And we're here for every single one of them."
       },
-
       {
         "type": "heading",
         "level": 2,
@@ -200,7 +234,6 @@
         "text": "The certificate you earn through struggle will always be worth more than the certificate you receive through attendance.",
         "author": "Modern Age Coders"
       },
-
       {
         "type": "heading",
         "level": 2,
@@ -257,7 +290,6 @@
         "alt": "Modern Age Coders students working through their certification exam with focus and determination",
         "caption": "Focus, effort, determination. The exam room is where real learning shows itself."
       },
-
       {
         "type": "heading",
         "level": 2,
@@ -306,7 +338,6 @@
         "alt": "Proud students at Modern Age Coders certificate distribution ceremony",
         "caption": "Every face in this photo failed at least once before they succeeded. That's what makes them exceptional."
       },
-
       {
         "type": "heading",
         "level": 2,
@@ -339,7 +370,6 @@
         "alt": "Vanshika's Modern Age Coders certificate -- proof of skill and perseverance",
         "caption": "Vanshika's certificate. Behind this one piece of paper are hundreds of hours of real work."
       },
-
       {
         "type": "heading",
         "level": 2,
@@ -390,7 +420,6 @@
           }
         ]
       },
-
       {
         "type": "heading",
         "level": 2,
@@ -446,7 +475,6 @@
         "alt": "Modern Age Coders team with students during certificate distribution",
         "caption": "Behind every certificate is a team that believed in the student as much as the student believed in themselves."
       },
-
       {
         "type": "heading",
         "level": 2,
@@ -478,7 +506,6 @@
         "alt": "Pratham's Modern Age Coders certificate -- earned through dedication",
         "caption": "Pratham's certificate. Every line of code he wrote to get here was worth it."
       },
-
       {
         "type": "heading",
         "level": 2,
@@ -561,12 +588,10 @@
         "type": "paragraph",
         "text": "The most demanding track we offer. Full-stack development with React, backend APIs, database design, authentication, deployment, <em>and</em> data structures and algorithms. Eight percent pass rate. Every single person who clears this exam can walk into a tech company and contribute from day one. That's not marketing -- it's fact."
       },
-
       {
         "type": "divider",
         "style": "gradient"
       },
-
       {
         "type": "heading",
         "level": 2,
@@ -610,7 +635,6 @@
         "type": "paragraph",
         "text": "These moments remind us why we do what we do. Every tough question, every extra tutoring session, every late-night doubt session with a worried parent -- it all leads here. To a room full of people who earned something real."
       },
-
       {
         "type": "heading",
         "level": 2,
@@ -653,7 +677,6 @@
         "alt": "Happy parents and students at Modern Age Coders certificate ceremony",
         "caption": "Families celebrating together. Because earning this certificate is a family victory."
       },
-
       {
         "type": "heading",
         "level": 2,

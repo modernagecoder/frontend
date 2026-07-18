@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-07-04",
-    "dateModified": "2026-07-04",
+    "dateModified": "2026-07-18",
     "category": "Java",
     "tags": [
       "Java",
@@ -28,7 +28,8 @@
       "Exam Preparation"
     ],
     "readTime": "24 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "This is a complete Java program bank for the ICSE Class 10 boards: 50 board style programs grouped into seven families, from numbers and patterns to strings, arrays and matrices. Every program is compiled and run with its real output shown, so students practise the exact question styles the exam uses."
   },
   "hero": {
     "title": "50 Important Java Programs for ICSE Class 10 Boards",

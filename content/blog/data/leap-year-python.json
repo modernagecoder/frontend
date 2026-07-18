@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-04-15",
-    "dateModified": "2026-04-15",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -28,7 +28,8 @@
       "Logic Building"
     ],
     "readTime": "8 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "A leap year in Python is found with simple rules: a year is a leap year if it divides by 4, except century years, which must also divide by 400. This guide shows the logic step by step, the exact code, and the built in calendar module that checks it for you."
   },
   "hero": {
     "title": "How to Write a Leap Year Program in Python (3 Simple Methods)",

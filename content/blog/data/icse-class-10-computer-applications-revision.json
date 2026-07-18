@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-07-04",
-    "dateModified": "2026-07-04",
+    "dateModified": "2026-07-18",
     "category": "Java",
     "tags": [
       "ICSE",
@@ -28,7 +28,8 @@
       "Exam Preparation"
     ],
     "readTime": "6 min read",
-    "featured": true
+    "featured": true,
+    "tldr": "This is a complete revision guide for the ICSE Class 10 Computer Applications exam: it explains the paper structure, gives topic by topic Java notes, includes 70 fully executed programs, and lays out a four week study plan, so a student can revise the whole syllabus in an organised way."
   },
   "hero": {
     "title": "ICSE Class 10 Computer Applications: Revision Guide",

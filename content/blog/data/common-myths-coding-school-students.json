@@ -19,7 +19,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-03-15",
-    "dateModified": "2025-03-15",
+    "dateModified": "2026-07-18",
     "category": "Education",
     "tags": [
       "Myths",
@@ -29,7 +29,8 @@
       "Beginners"
     ],
     "readTime": "9 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Common coding myths, that it needs genius level maths, that you must start very young, or that it is only for boys, are simply false. Most students can learn to code with steady practice. This article debunks the biggest myths and gives parents the honest picture of what learning to code really takes."
   },
   "hero": {
     "title": "Common Myths About Coding for School Students (And the Truth Behind Them)",

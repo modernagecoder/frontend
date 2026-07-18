@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-01-22",
-    "dateModified": "2026-01-22",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Java",
@@ -28,7 +28,8 @@
       "Coding Education"
     ],
     "readTime": "18 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "This article gives Class 8 students 30 plus easy Java programs to start coding, covering basic maths, patterns, conditions and loops. Each example is simple and practical, so young students build confidence by writing and running real code, steadily moving from single lines to small complete programs."
   },
   "hero": {
     "title": "30+ Best Java Programs for Class 8 Students: Easy Projects to Start Coding",

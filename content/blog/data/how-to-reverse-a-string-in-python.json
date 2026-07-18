@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-07-03",
-    "dateModified": "2026-07-03",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -28,7 +28,8 @@
       "Coding Practice"
     ],
     "readTime": "8 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "The quickest way to reverse a string in Python is slicing with a step of minus one, written as text with colon colon minus one. You can also use reversed with join, a loop, or recursion. This guide shows all five methods with copy paste code and points out the fastest one."
   },
   "hero": {
     "title": "How to Reverse a String in Python: 5 Easy Methods",

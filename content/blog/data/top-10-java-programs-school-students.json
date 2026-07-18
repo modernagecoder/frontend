@@ -19,7 +19,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-02-25",
-    "dateModified": "2025-02-25",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Java",
@@ -29,7 +29,8 @@
       "Learning"
     ],
     "readTime": "12 min read",
-    "featured": true
+    "featured": true,
+    "tldr": "This guide gives school students the ten essential Java programs to master, with full solutions, clear explanations and practice exercises. They cover the basics that build a real foundation, patterns, conditions, loops and simple maths, so beginners learn by writing and running working code rather than memorising theory."
   },
   "hero": {
     "title": "Top 10 Java Programs Every School Student Should Know",

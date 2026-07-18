@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-01-18",
-    "dateModified": "2026-01-18",
+    "dateModified": "2026-07-18",
     "category": "Education",
     "tags": [
       "Coding for Kids",
@@ -28,7 +28,8 @@
       "Education"
     ],
     "readTime": "16 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "At seven, children can move beyond simple blocks to guided projects that teach loops, events and basic logic, usually in tools like Scratch. This guide explains which concepts they should master, the best platforms, fun project ideas and how to recognise genuine progress rather than just screen time."
   },
   "hero": {
     "title": "Coding for 7-Year-Olds: What and How Kids Should Learn Programming",

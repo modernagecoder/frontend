@@ -19,7 +19,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-05-25",
-    "dateModified": "2025-05-25",
+    "dateModified": "2026-07-18",
     "category": "Business",
     "tags": [
       "Cloud Computing",
@@ -29,7 +29,8 @@
       "Technology"
     ],
     "readTime": "15 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Cloud computing means renting computing power, storage and software over the internet instead of buying and maintaining your own servers. For a business owner it lowers upfront cost, scales as you grow and is reachable anywhere. This plain English guide covers what the cloud really is, real cost comparisons and how to start."
   },
   "hero": {
     "title": "Cloud Computing Explained for Business Owners (Without Tech Jargon)",

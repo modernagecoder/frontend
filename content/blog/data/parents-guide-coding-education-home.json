@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-03-18",
-    "dateModified": "2025-03-18",
+    "dateModified": "2026-07-18",
     "category": "Education",
     "tags": [
       "Parents",
@@ -28,7 +28,8 @@
       "Getting Started"
     ],
     "readTime": "12 min read",
-    "featured": true
+    "featured": true,
+    "tldr": "Parents can start coding at home by picking one age suitable tool, setting a short regular routine, and encouraging small projects rather than long lessons. Support and consistency matter more than technical knowledge. This guide helps you choose the right tools and build a routine that keeps your child engaged."
   },
   "hero": {
     "title": "A Parent's Guide to Starting Coding Education at Home",

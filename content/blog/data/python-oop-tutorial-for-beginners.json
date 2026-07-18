@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-07-03",
-    "dateModified": "2026-07-03",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -28,7 +28,8 @@
       "Python Tutorial"
     ],
     "readTime": "9 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Object oriented programming in Python organises code around objects that hold both data and behaviour. This beginner tutorial teaches classes, objects, the init method, self, methods, inheritance and encapsulation through one running Student example, so the ideas connect instead of arriving as scattered rules, and you finish able to write your own classes."
   },
   "hero": {
     "title": "Python OOP Tutorial: Classes, Objects, and Inheritance",

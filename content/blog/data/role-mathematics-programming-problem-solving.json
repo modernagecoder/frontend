@@ -19,7 +19,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-04-05",
-    "dateModified": "2025-04-05",
+    "dateModified": "2026-07-18",
     "category": "Education",
     "tags": [
       "Mathematics",
@@ -29,7 +29,8 @@
       "Learning"
     ],
     "readTime": "10 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Mathematics supports programming mainly through logic, patterns and clear step by step reasoning, and the article notes that about 80 percent of coding needs only basic maths. It explains which concepts actually matter, how they progress by level, and where maths shows up in real world programming."
   },
   "hero": {
     "title": "The Role of Mathematics in Programming and Logical Problem Solving",

@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-01-18",
-    "dateModified": "2026-01-18",
+    "dateModified": "2026-07-18",
     "category": "Education",
     "tags": [
       "Coding for Kids",
@@ -28,7 +28,8 @@
       "Visual Programming"
     ],
     "readTime": "12 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "A six year old is ready for coding through visual blocks, guided apps and short, playful sessions that build sequence, loops and problem solving without heavy typing. This guide covers developmental readiness, the best tools, sensible session lengths and how parents can support real progress without pressure."
   },
   "hero": {
     "title": "Coding for 6-Year-Olds: Best Ways to Introduce Programming at an Early Age",

@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-09-28",
-    "dateModified": "2025-12-15",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "JavaScript",
@@ -27,7 +27,8 @@
       "Tutorial"
     ],
     "readTime": "15 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "JavaScript is the language that makes web pages interactive, controlling buttons, forms and live updates in the browser. This hands on guide teaches the basics, variables, functions, DOM manipulation and event listeners, through seven projects like calculators and to do lists, so you learn by building working things."
   },
   "hero": {
     "title": "Learn Web Development with JavaScript - Basics, Projects & Hands-On Guide",

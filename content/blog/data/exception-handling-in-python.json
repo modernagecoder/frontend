@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-07-03",
-    "dateModified": "2026-07-03",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -28,7 +28,8 @@
       "Best Practices"
     ],
     "readTime": "8 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Exception handling in Python lets your program catch and manage errors instead of crashing, using try to attempt code, except to handle failures, else for the success path, and finally for cleanup that always runs. You can also raise your own errors. This guide teaches each part with real tracebacks and tested examples."
   },
   "hero": {
     "title": "Exception Handling in Python: Try, Except, Finally",

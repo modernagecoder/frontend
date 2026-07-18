@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-07-04",
-    "dateModified": "2026-07-04",
+    "dateModified": "2026-07-18",
     "category": "Java",
     "tags": [
       "Java",
@@ -28,7 +28,8 @@
       "Exam Preparation"
     ],
     "readTime": "8 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "A constructor in Java is a special method that runs when an object is created and sets up its starting values. This guide explains default, parameterised and copy constructors, overloading, the this keyword, and how a constructor differs from a normal method, all shown with real ICSE and CBSE style output."
   },
   "hero": {
     "title": "Java Constructors Explained: Types, Overloading, ICSE",

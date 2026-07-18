@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-03-29",
-    "dateModified": "2026-03-29",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -28,7 +28,8 @@
       "Learn to Code"
     ],
     "readTime": "16 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "This article gives beginners 30 plus basic Python programs to practise in 2026, from simple maths and patterns to small real world utilities. Each is short and runnable, so you build hands on fluency by writing and testing code, the fastest way to move past tutorials and start coding on your own."
   },
   "hero": {
     "title": "30+ Python Basic Programs for Beginners to Practice in 2026",

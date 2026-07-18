@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-07-04",
-    "dateModified": "2026-07-04",
+    "dateModified": "2026-07-18",
     "category": "Java",
     "tags": [
       "Java",
@@ -28,7 +28,8 @@
       "Beginner Programming"
     ],
     "readTime": "12 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "This guide teaches Java arrays through 20 solved, executed programs: storing and printing values, searching, bubble and selection sort, working with string arrays and handling 2D matrices. Each comes with real output, so beginners learn array logic by reading and running working code rather than theory alone."
   },
   "hero": {
     "title": "Java Array Programs for Beginners: 20 Solved Examples",

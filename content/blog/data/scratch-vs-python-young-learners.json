@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-03-12",
-    "dateModified": "2025-03-12",
+    "dateModified": "2026-07-18",
     "category": "Education",
     "tags": [
       "Scratch",
@@ -29,7 +29,8 @@
       "Comparison"
     ],
     "readTime": "15 min read",
-    "featured": true
+    "featured": true,
+    "tldr": "For young learners, Scratch is better first because its colourful blocks teach logic without typing, then Python is the natural next step into real text code, usually around age 10 to 12. This comparison weighs age, goals and readiness so you know which to choose and exactly when to make the switch."
   },
   "hero": {
     "title": "Scratch vs Python: Which is Better for Young Learners?",

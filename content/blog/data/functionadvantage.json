@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-01-18",
-    "dateModified": "2026-01-18",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -28,7 +28,8 @@
       "Python Tutorial"
     ],
     "readTime": "10 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Functions in Python let you name a block of code and reuse it, which makes programs shorter, clearer and easier to fix. They avoid repetition, break big problems into small pieces, and make testing simpler. This practical guide explains the main advantages for students, kids and beginners with plain examples."
   },
   "hero": {
     "title": "Advantages of Functions in Python: Why Every Coder Should Use Them",

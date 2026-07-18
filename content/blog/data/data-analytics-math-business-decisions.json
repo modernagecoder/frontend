@@ -19,7 +19,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-05-20",
-    "dateModified": "2025-05-20",
+    "dateModified": "2026-07-18",
     "category": "Business",
     "tags": [
       "Data Analytics",
@@ -29,7 +29,8 @@
       "Strategy"
     ],
     "readTime": "10 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Data analytics and maths help businesses decide with evidence instead of guesswork, turning raw numbers into patterns, forecasts and clear metrics. This article shows how analytics improves pricing, marketing and operations, with real examples, practical tools and the measurements that actually drive growth, so leaders act on what the data shows."
   },
   "hero": {
     "title": "How Data Analytics and Math Help Businesses Make Better Decisions",

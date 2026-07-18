@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-04-07",
-    "dateModified": "2026-01-24",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -28,7 +28,8 @@
       "CLI Development"
     ],
     "readTime": "10 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "A menu driven program in Python shows the user a list of options and keeps running until they choose to exit, usually built with a loop, a set of choices, and a function for each action. This step by step guide covers the structure, code examples, error handling and real world uses."
   },
   "hero": {
     "title": "How to Build a Menu Driven Program in Python (Step-by-Step Guide)",

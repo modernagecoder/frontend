@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-01-21",
-    "dateModified": "2026-01-21",
+    "dateModified": "2026-07-18",
     "category": "Artificial Intelligence",
     "tags": [
       "AI",
@@ -28,7 +28,8 @@
       "Best Practices"
     ],
     "readTime": "16 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Developers using generative AI are responsible for the code and content it produces: they must check it for security flaws, bias and errors, respect privacy and licensing, and stay transparent about AI use. This guide covers the key duties across security, ethics, legal compliance and everyday best practice."
   },
   "hero": {
     "title": "What is the Responsibility of Developers Using Generative AI? A Complete Guide",
@@ -805,4 +806,3 @@
     "project-based-learning-why-theory-alone-not-enough-coding"
   ]
 }
-

@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-01-23",
-    "dateModified": "2026-01-23",
+    "dateModified": "2026-07-18",
     "category": "Artificial Intelligence",
     "tags": [
       "Generative AI",
@@ -28,7 +28,8 @@
       "Data Science"
     ],
     "readTime": "14 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Generative AI works best with large amounts of pattern rich, unstructured data such as text, images, code and audio, where it can learn style and structure to create new examples. It is weaker on sparse or highly precise numeric tasks. This guide explains each data type with beginner friendly detail."
   },
   "hero": {
     "title": "What Type of Data is Generative AI Most Suitable For? A Complete Guide",
@@ -490,4 +491,3 @@
     "ai-automation-transforming-small-medium-businesses"
   ]
 }
-

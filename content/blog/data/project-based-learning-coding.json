@@ -19,7 +19,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-03-22",
-    "dateModified": "2025-12-14",
+    "dateModified": "2026-07-18",
     "category": "Education",
     "tags": [
       "Project-Based Learning",
@@ -29,7 +29,8 @@
       "Cognitive Science"
     ],
     "readTime": "16 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "You learn to code by building, not just reading, because real projects force you to solve problems, fix errors and connect ideas. Theory alone rarely sticks. This article explains why project based learning accelerates skill, and how making real things turns knowledge into ability far faster than lessons on their own."
   },
   "hero": {
     "title": "Project-Based Learning: Why Theory Alone Is Not Enough in Coding",

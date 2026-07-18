@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-01-23",
-    "dateModified": "2026-01-23",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -28,7 +28,8 @@
       "Python Tutorial"
     ],
     "readTime": "13 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Python's built in file methods let you work with a file object directly: read and readline to get content, write and writelines to save it, seek and tell to move around, and close to finish. This guide explains each method with beginner friendly examples so you can handle files confidently."
   },
   "hero": {
     "title": "File Built-in Methods in Python: Complete Guide for Beginners",
@@ -589,4 +590,3 @@
     "how-coding-improves-mathematical-thinking-children"
   ]
 }
-

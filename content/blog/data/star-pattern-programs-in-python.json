@@ -18,7 +18,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2026-07-03",
-    "dateModified": "2026-07-03",
+    "dateModified": "2026-07-18",
     "category": "Programming",
     "tags": [
       "Python",
@@ -28,7 +28,8 @@
       "Beginner Programming"
     ],
     "readTime": "14 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "Star pattern programs print shapes such as triangles, pyramids, diamonds and grids using nested loops, and they are a classic way to master loop logic. This guide gives 30 patterns in Python with code and real output, including number and alphabet patterns, all built from just two simple loops."
   },
   "hero": {
     "title": "Star Pattern Programs in Python: 30 Patterns With Code",

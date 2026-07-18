@@ -21,7 +21,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-03-20",
-    "dateModified": "2025-06-14",
+    "dateModified": "2026-07-18",
     "category": "Career",
     "tags": [
       "College Students",
@@ -32,7 +32,8 @@
       "GitHub"
     ],
     "readTime": "18 min read",
-    "featured": false
+    "featured": false,
+    "tldr": "College students build real world projects by starting small, solving a problem they actually have, and shipping it to GitHub while they study. A portfolio of working projects beats grades alone in interviews. This guide offers 50 plus project ideas, GitHub tips and time management strategies that fit around classes."
   },
   "hero": {
     "title": "How College Students Can Build Real-World Projects While Studying",
