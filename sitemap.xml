@@ -2762,6 +2762,18 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/help-child-with-maths-anxiety</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/abacus-vs-vedic-vs-mental-maths</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   
   <url>
     <loc>https://learn.modernagecoders.com/blog/why-python-most-powerful-skill-professionals-today</loc>

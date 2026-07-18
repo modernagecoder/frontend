@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "slug": "help-child-with-maths-anxiety",
+    "title": "How to Help a Child with Maths Anxiety: A 2026 Parent Guide",
+    "description": "Maths anxiety is real and it is not about ability. Here is how to spot it, what causes it, and practical, proven ways to help your child feel calm and capable with maths again.",
+    "keywords": ["maths anxiety in children", "how to help child with maths anxiety", "my child hates maths", "math anxiety kids", "help child struggling with maths", "child afraid of maths"],
+    "author": {"name": "Modern Age Coders", "bio": "Live online coding and maths teachers for all ages, 6 to 67."},
+    "date": "2026-07-18",
+    "dateModified": "2026-07-18",
+    "category": "Mathematics",
+    "tags": ["Maths", "Parenting", "Learning", "Anxiety"],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "Maths anxiety is a fear response, not a lack of ability, and it is common and fixable. Help your child by separating maths from pressure and speed, praising effort over being right, filling the specific gaps that caused the fear, and never passing on your own maths dread. Small, patient wins rebuild confidence faster than drilling."
+  },
+  "hero": {
+    "title": "How to Help a Child with Maths Anxiety: A 2026 Parent Guide",
+    "featuredImage": {"url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_1_hero.png", "alt": "A parent gently helping an anxious child with maths homework"}
+  },
+  "content": {
+    "sections": [
+      {"type": "toc"},
+      {"type": "paragraph", "text": "If your child freezes, panics or shuts down the moment maths appears, you are not looking at a child who is bad at maths. You are looking at maths anxiety, and it is one of the most common and most misunderstood problems in learning. The good news is that it is very fixable, and it has almost nothing to do with how clever your child is."},
+
+      {"type": "heading", "level": 2, "text": "The short answer", "id": "short-answer"},
+      {"type": "paragraph", "text": "Maths anxiety is a fear response, not a measure of ability. A stressed brain cannot do maths well, which creates more failure, which deepens the fear. To break the cycle you lower the pressure, rebuild confidence with small wins, and fix the specific gaps that started it. Patience and the right support beat drilling and speed every time."},
+      {"type": "callout", "text": "A child in a state of maths panic literally cannot access the part of their brain that does maths. That is why pushing harder makes it worse. Calm comes first, then the maths."},
+
+      {"type": "heading", "level": 2, "text": "How to spot maths anxiety", "id": "spot-it"},
+      {"type": "list", "items": [
+        "Physical signs at maths time: stomach aches, tears, a racing heart, or wanting to leave the room.",
+        "Going blank on maths a child could do calmly the day before.",
+        "Saying I am just bad at maths or I am not a maths person, often word for word.",
+        "Avoidance: hiding homework, stalling, or acting out to escape the subject.",
+        "The fear is worse under time pressure, like timed tests, than in relaxed practice."
+      ]},
+
+      {"type": "heading", "level": 2, "text": "What actually causes it", "id": "causes"},
+      {"type": "paragraph", "text": "Maths anxiety usually starts with a specific gap. A concept was missed, the class moved on, and now every new topic that builds on it feels impossible, because it is. On top of that, maths is often taught with speed and public right-or-wrong pressure, which turns ordinary difficulty into fear. And children absorb attitudes: a parent or teacher who says they were always hopeless at maths quietly gives the child permission to be the same."},
+
+      {"type": "heading", "level": 2, "text": "How to help your child", "id": "how-to-help"},
+      {"type": "list", "items": [
+        "Separate maths from speed and pressure. Take away the timer. Understanding first, speed much later. A calm child can think.",
+        "Praise effort and strategy, not being right. Say I like how you tried that, not good, you got it. This makes mistakes safe, and safe mistakes are how maths is learned.",
+        "Find and fill the specific gap. Anxiety almost always sits on top of one missing foundation. Fix that, and the fear often melts faster than you expect.",
+        "Make it concrete and real. Maths through cooking, money, games or code turns an abstract threat into something a child can see and touch.",
+        "Guard your own words. Never tell a child you were bad at maths too. Model calm curiosity instead, even if you have to fake it.",
+        "Celebrate small wins loudly. Confidence is rebuilt one small success at a time, not in a single leap."
+      ]},
+
+      {"type": "heading", "level": 2, "text": "Why coding helps anxious maths learners", "id": "coding-helps"},
+      {"type": "paragraph", "text": "Many children who dread maths on paper come alive when they use the same maths inside code. When a child writes a program that uses coordinates, scoring or repetition, the maths becomes a tool to build something they want, not a test to fail. The computer gives calm, private, instant feedback with no red pen and no audience. For a lot of anxious learners, meeting maths again through code is where the fear finally breaks, which is why we teach coding and maths together."},
+
+      {"type": "heading", "level": 2, "text": "When to get help", "id": "when-help"},
+      {"type": "paragraph", "text": "If the anxiety is persistent, or your child has decided they are simply a non-maths person, a patient one-to-one or small-group teacher can change things quickly. The key is a mentor who goes back to find the gap, rebuilds confidence gently, and never adds to the pressure. That combination, a calm adult and the right missing piece, is usually all it takes to turn maths from a threat back into something a child can do."},
+
+      {"type": "quote", "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.", "author": "Shivam Khemka, Founder of Modern Age Coders"},
+
+      {"type": "heading", "level": 2, "text": "The bottom line", "id": "bottom-line"},
+      {"type": "paragraph", "text": "Maths anxiety is common, it is not about ability, and it can be undone. Lower the pressure, rebuild confidence with small wins, fix the gap underneath, and watch your words. At Modern Age Coders we teach maths, and coding and maths together, live and in small batches, for ages 6 to 67, with patient mentors who meet a child where they are. We are rated 4.9 across 547 Google reviews, and there is a free demo class before you pay."},
+      {"type": "button", "text": "Book a Free Maths Demo Class", "url": "/book-demo"},
+
+      {"type": "accordion", "items": [
+        {"title": "What is maths anxiety?", "content": "Maths anxiety is a fear or stress response that appears around maths, not a lack of ability. A stressed brain struggles to do maths, which causes more failure and deepens the fear. It is very common and very fixable, and it usually sits on top of one specific missing foundation."},
+        {"title": "How do I help my child who is scared of maths?", "content": "Lower the pressure by removing timers and speed, praise effort and strategy rather than being right, find and fill the specific gap that started the fear, make maths concrete through games or code, and never tell your child you were bad at maths too. Small, celebrated wins rebuild confidence fastest."},
+        {"title": "Is my child just bad at maths?", "content": "Almost certainly not. Children who look bad at maths are usually anxious rather than unable, or they are missing one earlier concept that makes everything after it feel impossible. Remove the fear and fill the gap, and most children turn out to be far more capable than they, or you, believed."},
+        {"title": "Can coding help a child who hates maths?", "content": "Yes, often dramatically. Using maths inside code turns it from a test to fail into a tool to build with, and the computer gives calm, instant, private feedback with no red pen. Many anxious learners reconnect with maths through coding, which is why teaching the two together works so well."},
+        {"title": "When should I get outside help for maths anxiety?", "content": "If the anxiety is persistent or your child has decided they are not a maths person, a patient one-to-one or small-group teacher can turn it around quickly. Look for a mentor who finds the missing gap, rebuilds confidence gently, and never adds pressure, rather than one who simply drills more problems."}
+      ]}
+    ]
+  },
+  "relatedPosts": ["how-coding-improves-mathematical-thinking-children", "cbse-maths-tuition-online", "role-of-mathematics-programming-logical-problem-solving"]
+}
