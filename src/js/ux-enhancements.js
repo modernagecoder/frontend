@@ -300,6 +300,16 @@
                 observer.observe(s);
             }
         });
+
+        // Failsafe (Phase 7.4): if the observer stalls or a section never
+        // intersects, force-reveal everything after 2.5s so content is never
+        // left blank below the fold. Reveal-only: never hides anything.
+        setTimeout(function () {
+            document.querySelectorAll('.section:not(.animate-in)').forEach(function (s) {
+                s.classList.add('animate-in');
+            });
+            try { observer.disconnect(); } catch (e) { }
+        }, 2500);
     }
 
     // ──────────────────────────────────────────────────────────

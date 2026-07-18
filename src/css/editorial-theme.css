@@ -71,7 +71,9 @@ body.editorial ::selection{background:var(--amber-tint-2);color:var(--ink)}
 
 /* ---------- section frame + reveal ---------- */
 body.editorial .section{width:100%;max-width:var(--container);margin-inline:auto;padding:clamp(3rem,6vw,5rem) 1.5rem;position:relative}
-body.editorial .section:not(.hero-section){opacity:0;transform:translateY(20px);transition:opacity .7s cubic-bezier(.22,.61,.36,1),transform .7s cubic-bezier(.22,.61,.36,1)}
+/* Cross-document view transitions (Phase 7.6): pure CSS, ~92% support, ignored by others */
+@view-transition { navigation: auto; }
+body.editorial .section:not(.hero-section){opacity:.01;transform:translateY(20px);transition:opacity .7s cubic-bezier(.22,.61,.36,1),transform .7s cubic-bezier(.22,.61,.36,1)}
 body.editorial .section.animate-in{opacity:1;transform:none}
 
 /* ===== Answer capsule (Phase 4.1 GEO) — always visible, no reveal dependency ===== */
