@@ -954,8 +954,18 @@ class CourseGenerator {
             "@type": "Organization",
             "@id": "https://learn.modernagecoders.com/#organization",
             "name": "Modern Age Coders",
+            "legalName": "Modern Age Coders Education",
             "url": "https://learn.modernagecoders.com/",
             "logo": "https://learn.modernagecoders.com/images/logo.webp",
+            // Phase 8.2: registered address (NAP must be byte-identical everywhere).
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "1B, JK Ambika Tower",
+                "addressLocality": "Kolkata",
+                "addressRegion": "West Bengal",
+                "postalCode": "700002",
+                "addressCountry": "IN"
+            },
             // Phase 8.1: link the Organization to the named human founder (Person entity
             // canonically defined at /team#founder). This closes the E-E-A-T loop —
             // Org -> founder Person -> LinkedIn sameAs — that lets Google/LLMs join the dots.

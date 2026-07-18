@@ -14,7 +14,7 @@ Once fixed, this string must be identical on: site footer + /contact + /about, G
 |---|---|---|
 | Brand name | Modern Age Coders | ✅ confirmed |
 | Legal name | Modern Age Coders Education | ✅ **owner-confirmed 2026-07-19** (the plan's "The Mahaviras Education LLP" is NOT the entity to use) |
-| Registered address | 🔴 **NEED OWNER** — full registered address incl. street, area, Kolkata, PIN. The footer/schema have NO address today (a standing E-E-A-T gap). | missing |
+| Registered address | 1B, JK Ambika Tower, Kolkata, West Bengal 700002 | ✅ **owner-provided 2026-07-19** — now live in footer, /contact, /about, homepage + course + blog PostalAddress schema |
 | Phone | +91 9123366161 | ✅ consistent site-wide |
 | Email | contact@modernagecoders.com | ✅ |
 | Website | https://learn.modernagecoders.com | ✅ |
@@ -33,10 +33,10 @@ Create at wikidata.org (free, no notability threshold for an organisation). Sugg
 | inception (P571) | 2020 | site (foundingDate), GBP |
 | founded by (P112) | Shivam Khemka | /team page, LinkedIn |
 | official website (P856) | https://learn.modernagecoders.com | site |
-| headquarters location (P159) | Kolkata, West Bengal, India | 🔴 add exact address once confirmed |
+| headquarters location (P159) | Kolkata, West Bengal, India (1B, JK Ambika Tower, 700002) | site footer/contact |
 | country (P17) | India | site |
 | industry (P452) | education / online tutoring | site |
-| official name (P1448) | 🔴 legal name (see §1) | registration doc |
+| official name (P1448) | Modern Age Coders Education | site legalName |
 | social media: LinkedIn/Instagram/YouTube/Facebook/GitHub | see §4 sameAs | the profiles themselves |
 | Google Knowledge/GBP | g.page/r/Cff_QkHNaP9yEAE | GBP |
 

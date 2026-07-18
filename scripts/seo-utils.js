@@ -350,7 +350,16 @@ function generateBlogPostingSchema(blogData) {
     "@type": "Organization",
     "@id": `${SEO_CONFIG.domain}/#organization`,
     "name": SEO_CONFIG.organization.name,
+    "legalName": "Modern Age Coders Education",
     "url": SEO_CONFIG.domain,
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1B, JK Ambika Tower",
+      "addressLocality": "Kolkata",
+      "addressRegion": "West Bengal",
+      "postalCode": "700002",
+      "addressCountry": "IN"
+    },
     "logo": {
       "@type": "ImageObject",
       "url": SEO_CONFIG.domain + SEO_CONFIG.organization.logo,
