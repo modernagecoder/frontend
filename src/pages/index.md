@@ -1,12 +1,12 @@
 ---
 title: "Modern Age Coders - Online Coding & Maths Classes for All Ages | Learn Worldwide"
-description: "Online coding and maths classes for ages 6-65 — learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!"
+description: "Online coding and maths classes for ages 6-67 — learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!"
 canonical: https://learn.modernagecoders.com/
 source: src/pages/index.html
 ---
-> Online coding and maths classes for ages 6-65 — learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!
+> Online coding and maths classes for ages 6-67 — learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!
 
-Coding + Maths · Ages 6–65 · Live 1-on-1
+Coding + Maths · Ages 6–67 · Live 1-on-1
 
 # Maths + Code Made for Each Other.
 

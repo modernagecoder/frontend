@@ -16,7 +16,7 @@ Live online Python, AI, Web Dev & ICSE / IGCSE / IBDP Mathematics — built arou
 
 ✔ 100% live online classes • Watch real lessons free • No commitment
 
-2,000+Live Classes Delivered3 BoardsICSE · IGCSE · IBDP Covered97%Parent Satisfaction RateAges 6–65Courses for Every Stage
+2,000+Live Classes Delivered3 BoardsICSE · IGCSE · IBDP Covered97%Parent Satisfaction RateAges 6–67Courses for Every Stage
 
 ## Coding & Maths for Heritage School Students — At a Glance
 

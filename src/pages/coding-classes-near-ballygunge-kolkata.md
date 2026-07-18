@@ -16,7 +16,7 @@ Small live batches (max 6-8)Taught by full-time engineersProject-based, not pre-
 
 ## At a glance
 
-Format**100% live online** — real teacher, real-time, never pre-recordedBatch sizeSmall live batches of **6-8**; mini batch 3-4; or 1-on-1Ages**6 to 65** — kids, teens, college and working professionalsSubjectsCoding (Python, Java, AI/ML, web, DSA) + Mathematics (school to Olympiad)Boards**ICSE, CBSE, IGCSE, WBBSE** — aligned to the syllabus your school followsFeesFrom **₹1,499/month** (group, max 6-8) · ₹2,499/month (mini batch 3-4) · ₹4,999/month (1-on-1)Free demoYes — a full live class, not a sales pitch; classes can start within 24 hoursServingBallygunge Phari, Ballygunge Circular Road, Beck Bagan, Hindustan Park, Ekdalia, Bondel Road, Gariahat, Golpark & all South KolkataWhy it works
+Format**100% live online** — real teacher, real-time, never pre-recordedBatch sizeSmall live batches of **6-8**; mini batch 3-4; or 1-on-1Ages**6 to 67** — kids, teens, college and working professionalsSubjectsCoding (Python, Java, AI/ML, web, DSA) + Mathematics (school to Olympiad)Boards**ICSE, CBSE, IGCSE, WBBSE** — aligned to the syllabus your school followsFeesFrom **₹1,499/month** (group, max 6-8) · ₹2,499/month (mini batch 3-4) · ₹4,999/month (1-on-1)Free demoYes — a full live class, not a sales pitch; classes can start within 24 hoursServingBallygunge Phari, Ballygunge Circular Road, Beck Bagan, Hindustan Park, Ekdalia, Bondel Road, Gariahat, Golpark & all South KolkataWhy it works
 
 ## Premium, live, small-batch — built for demanding families
 

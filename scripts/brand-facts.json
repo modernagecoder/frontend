@@ -20,6 +20,7 @@
   "rating": 4.9,
   "founded": 2020,
   "countries": "25+",
+  "ages": "6 to 67",
   "batchSizes": {
     "group": "5–8",
     "miniBatch": "3–4",
@@ -29,7 +30,8 @@
     "students": "Owner set 10,000+ on 2026-07-15. Cross-checks: 547 Google reviews against 10,000+ students is a ~5.5% review rate, which is normal; 500+ would imply a >100% review rate. It also matches /about, seo-config.js and the 65 existing on-page claims.",
     "founded": "2020 — matches schema.org foundingDate and /about. Pages saying 2019/2021/2022 were drift.",
     "reviews": "547 real Google reviews. Do not round, do not inflate, and never restate as a student count.",
-    "countries": "Owner set 25+ on 2026-07-15. The site had been saying 15+ (68 uses), 30+ (7), 11/eleven (5) and 25+ (3) at once. The 11 was stale — its enumerated list predates the Gulf cluster and was missing exactly Qatar and Saudi Arabia. NOTE: only 14 country LANDING PAGES exist, which is a page-coverage gap, not a contradiction — students come from more countries than we have pages for. That gap is a content opportunity, not a correction."
+    "countries": "Owner set 25+ on 2026-07-15. The site had been saying 15+ (68 uses), 30+ (7), 11/eleven (5) and 25+ (3) at once. The 11 was stale — its enumerated list predates the Gulf cluster and was missing exactly Qatar and Saudi Arabia. NOTE: only 14 country LANDING PAGES exist, which is a page-coverage gap, not a contradiction — students come from more countries than we have pages for. That gap is a content opportunity, not a correction.",
+    "ages": "Owner set 6 to 67 on 2026-07-18: coding AND maths to all ages, 6 to 67; kids category starts at 6. Retired '6-65' and the contradictory homepage/pricing/about/contact ranges (6-18,8-18,6-21,8 to 21+). Kids enrollment floor moved 8->6 (aged 8-12 -> aged 6-12). Pedagogical 'age 8 is ideal to begin block coding' copy left as-is on purpose (opinion, not an enrollment floor) - owner to review separately."
   },
   "_needs_owner_confirmation": {
     "dps_families": "14 DPS pages clone 'Join 500+ families from Delhi's top schools'. Left alone: 500 < 10,000 so it breaks no rule here, but it is an unevidenced subset claim worth confirming."

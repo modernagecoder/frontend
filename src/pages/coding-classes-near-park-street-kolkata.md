@@ -16,7 +16,7 @@ Small live batches (max 6-8)Taught by full-time engineersICSE Java · Python · 
 
 ## The essentials, in one glance
 
-Format**100% live online**, real-time, interactive — never pre-recorded videoBatch sizeGroup (max 6-8), Mini Batch (3-4), or 1-on-1AgesGrades 1-12, college students and working adults (ages 6-65)SubjectsCoding (Python, Java, AI/ML, web, DSA) and Mathematics (school + Olympiad)BoardsICSE/ISC Java (BlueJ), CBSE Computer Science (Python), IGCSEFees**₹1,499/month** group · ₹2,499/month mini batch · ₹4,999/month 1-on-1Free demoYes — one free live class before you enrol, no commitmentServingPark Street, Camac Street, Russell Street, Theatre Road, Loudon Street, Wood Street, Chowringhee, Elgin Road, AJC Bose Road and across central KolkataLIVE ONLINE · PARK STREET, KOLKATA
+Format**100% live online**, real-time, interactive — never pre-recorded videoBatch sizeGroup (max 6-8), Mini Batch (3-4), or 1-on-1AgesGrades 1-12, college students and working adults (ages 6-67)SubjectsCoding (Python, Java, AI/ML, web, DSA) and Mathematics (school + Olympiad)BoardsICSE/ISC Java (BlueJ), CBSE Computer Science (Python), IGCSEFees**₹1,499/month** group · ₹2,499/month mini batch · ₹4,999/month 1-on-1Free demoYes — one free live class before you enrol, no commitmentServingPark Street, Camac Street, Russell Street, Theatre Road, Loudon Street, Wood Street, Chowringhee, Elgin Road, AJC Bose Road and across central KolkataLIVE ONLINE · PARK STREET, KOLKATA
 
 ## What “premium and live” actually means
 

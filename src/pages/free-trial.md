@@ -144,7 +144,7 @@ Whichever your child needs or wants more; many families trial both (two children
 
 What ages do you take?
 
-Ages 6 to 65, genuinely: kids and teens across coding and maths, college students, and working professionals. The trial format is the same at every age, one real hour, honest read.
+Ages 6 to 67, genuinely: kids and teens across coding and maths, college students, and working professionals. The trial format is the same at every age, one real hour, honest read.
 
 Is the trial 1-on-1 or group?
 

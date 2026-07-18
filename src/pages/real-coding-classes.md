@@ -452,7 +452,7 @@ Yes — that is the core of the school. Alongside every language we explicitly t
 
 Who are these classes for? Is there an age limit?
 
-Our depth-first tracks are built for three groups: teenagers (13–18) who are serious about computer science, college students preparing for placements and real engineering work, and working professionals moving into AI/ML, automation or software development. Modern Age Coders as a whole teaches ages 6 to 65 — younger learners start on our foundation tracks and graduate into these deeper courses when ready.
+Our depth-first tracks are built for three groups: teenagers (13–18) who are serious about computer science, college students preparing for placements and real engineering work, and working professionals moving into AI/ML, automation or software development. Modern Age Coders as a whole teaches ages 6 to 67 — younger learners start on our foundation tracks and graduate into these deeper courses when ready.
 
 Do you really teach advanced topics like Python internals and transformers?
 

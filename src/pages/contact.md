@@ -92,7 +92,7 @@ Tell us the student's age, what they want to learn (coding, math, or both), pref
 
 Absolutely! Most of our students start with zero coding experience. We have beginner-friendly courses designed specifically for first-timers.
 
-We teach students from age 8 to 21+. We have different courses for kids (8-12), teens (13-17), and college students/adults (18+). Each course is designed for that specific age group.
+We teach students from age 6 to 67. We have different courses for kids (6-12), teens (13-17), and college students/adults (18+). Each course is designed for that specific age group.
 
 Yes! You can message us on WhatsApp at +91 9123366161. It's often the quickest way to get a response for simple questions.
 

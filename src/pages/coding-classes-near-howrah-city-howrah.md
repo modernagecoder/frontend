@@ -16,7 +16,7 @@ Modern Age Coders runs premium, live online coding and mathematics classes for f
 
 ## The essentials, in one place
 
-Format**100% live online, interactive** — taught in real time, never pre-recordedBatch sizeSmall live batches of **6–8**; mini batches of 3–4; or 1-on-1AgesKids 6–12, teens 13–18, college students and working adults (ages **6 to 65**)SubjectsCoding (Python, Java, AI/ML, web, DSA) and Mathematics (Grade 1–12 + Olympiad)BoardsICSE, CBSE, ISC and WBBSE/state — taught in English, Bengali or HindiFeesFrom **₹1,499/month** (group), ₹2,499/month (mini batch), ₹4,999/month (1-on-1)Free demoYes — one free live demo class; classes can start within 24 hoursServingHowrah Maidan, Salkia, Pilkhana, Shibpur, Kadamtala, Mandirtala, Santragachi side, GT Road belt and all of Howrah CityLIVE · PREMIUM QUALITY
+Format**100% live online, interactive** — taught in real time, never pre-recordedBatch sizeSmall live batches of **6–8**; mini batches of 3–4; or 1-on-1AgesKids 6–12, teens 13–18, college students and working adults (ages **6 to 67**)SubjectsCoding (Python, Java, AI/ML, web, DSA) and Mathematics (Grade 1–12 + Olympiad)BoardsICSE, CBSE, ISC and WBBSE/state — taught in English, Bengali or HindiFeesFrom **₹1,499/month** (group), ₹2,499/month (mini batch), ₹4,999/month (1-on-1)Free demoYes — one free live demo class; classes can start within 24 hoursServingHowrah Maidan, Salkia, Pilkhana, Shibpur, Kadamtala, Mandirtala, Santragachi side, GT Road belt and all of Howrah CityLIVE · PREMIUM QUALITY
 
 ## Live, engineer-led and premium — not recorded video
 

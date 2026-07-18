@@ -626,7 +626,7 @@ class CourseGenerator {
         } else if (/elementary|middle-school|high-school|olympiad|maths|mathematics/.test(slug)) {
             push("School and college students learning mathematics");
         } else {
-            push("Learners ages 6-65 (kids, teens, college students, professionals)");
+            push("Learners ages 6 to 67 (kids, teens, college students, professionals)");
         }
         return out.length ? out : null;
     }

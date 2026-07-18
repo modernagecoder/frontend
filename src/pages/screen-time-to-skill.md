@@ -12,7 +12,7 @@ An honest calculator for parents
 
 Modern Age Coders made this tool because parents kept asking the same question: *"my child spends six hours a day on YouTube and mobile games — am I losing them?"* The honest answer is: not yet, but the clock is loud. This calculator turns that clock into a number you can see.
 
-Run the calculator →Average daily screen time, child aged 8 to 176.4hrs / day**2,336**Hours per year**97**24-hour days, gone**4.6**Months of waking life
+Run the calculator →Average daily screen time, child aged 6 to 176.4hrs / day**2,336**Hours per year**97**24-hour days, gone**4.6**Months of waking life
 
 Source: Common Sense Media 2024, IAMAI India 2025, internal MAC parent survey 2026
 

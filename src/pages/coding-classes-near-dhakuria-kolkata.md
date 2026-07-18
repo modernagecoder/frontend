@@ -16,7 +16,7 @@ Small live batches — max 6 to 8Taught by full-time engineers & maths graduates
 
 ## At a glance
 
-Format**Live online, interactive** — small batches or 1-on-1. Never pre-recorded video.Batch sizeGroup max 6-8 · Mini batch 3-4 · One-on-one availableAges**6 to 65** — kids, teens, college students and working professionalsSubjectsCoding (Python, Java, AI/ML, Scratch, web, DSA) + Mathematics (Grade 1 to college, Olympiad)BoardsICSE (Java/BlueJ), CBSE (Python/Informatics Practices), IGCSE, WBBSEFeesGroup from **₹1,499/month** · Mini batch ₹2,499/month · 1-on-1 ₹4,999/monthFree demoFull live demo session, no commitment; classes start within 24 hoursServingDhakuria, Selimpur, Jodhpur Park, Lake Gardens, South End Park, Garcha, Surya Sen Nagar, Jadavpur, Bagha Jatin, Patuli, Kasba, Garfa, Haltu, Golpark — and across KolkataWHY MODERN AGE CODERS
+Format**Live online, interactive** — small batches or 1-on-1. Never pre-recorded video.Batch sizeGroup max 6-8 · Mini batch 3-4 · One-on-one availableAges**6 to 67** — kids, teens, college students and working professionalsSubjectsCoding (Python, Java, AI/ML, Scratch, web, DSA) + Mathematics (Grade 1 to college, Olympiad)BoardsICSE (Java/BlueJ), CBSE (Python/Informatics Practices), IGCSE, WBBSEFeesGroup from **₹1,499/month** · Mini batch ₹2,499/month · 1-on-1 ₹4,999/monthFree demoFull live demo session, no commitment; classes start within 24 hoursServingDhakuria, Selimpur, Jodhpur Park, Lake Gardens, South End Park, Garcha, Surya Sen Nagar, Jadavpur, Bagha Jatin, Patuli, Kasba, Garfa, Haltu, Golpark — and across KolkataWHY MODERN AGE CODERS
 
 ## Premium live online — nothing pre-recorded
 

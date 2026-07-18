@@ -292,7 +292,7 @@ We offer a free demo class so you can experience our teaching style before commi
 
 We accept UPI, bank transfers, and card payments. You can pay monthly or get a discount for quarterly/yearly payments.
 
-We teach students from age 8 to 21+. We have different courses designed for kids (8-12), teens (13-17), and college students/adults (18+).
+We teach students from age 8 to 21+. We have different courses designed for kids (6-12), teens (13-17), and college students/adults (18+).
 
 Yes, you can pause for exams or vacations. Just let us know at least a week in advance, and we'll hold your spot.
 

@@ -184,7 +184,7 @@ No. This course is built for true beginners, which is exactly why it is called f
 
 >>> What ages is this for?+
 
-Two tracks span ages 6 to 65. The Grade 6 to 12 track is paced for school learners across roughly 40 classes. The Grade 12 plus and adults track covers the same depth faster in 24 classes. We place every student into the track and batch that fits their grade, goals and prior exposure.
+Two tracks span ages 6 to 67. The Grade 6 to 12 track is paced for school learners across roughly 40 classes. The Grade 12 plus and adults track covers the same depth faster in 24 classes. We place every student into the track and batch that fits their grade, goals and prior exposure.
 
 >>> Are classes live?+
 

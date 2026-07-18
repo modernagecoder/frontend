@@ -222,7 +222,7 @@ For general programming, no — we teach the small amount of logic and counting 
 
 Is this only for advanced students?
 
-No. First-principles teaching helps beginners most of all, because they learn the real model of the machine before bad habits form. We teach ages 6 to 65 in small batches, and the depth is dialled to the learner. A ten-year-old learns how a variable holds a value; a college student learns how that value sits in memory and what a function call costs. Same philosophy, different altitude.
+No. First-principles teaching helps beginners most of all, because they learn the real model of the machine before bad habits form. We teach ages 6 to 67 in small batches, and the depth is dialled to the learner. A ten-year-old learns how a variable holds a value; a college student learns how that value sits in memory and what a function call costs. Same philosophy, different altitude.
 
 Are classes live?
 

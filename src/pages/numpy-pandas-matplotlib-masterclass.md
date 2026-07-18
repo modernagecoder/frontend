@@ -195,7 +195,7 @@ You need school-level arithmetic, averages, percentages and a willingness to thi
 
 Who is this for and what ages?
 
-This stage is for teens who have finished Stage 1, for college students, and for working professionals who want real data skills. Modern Age Coders teaches ages 6 to 65 across the full path, but Stage 2 assumes the maturity to work with real datasets, so it suits motivated teenagers and adults rather than young beginners.
+This stage is for teens who have finished Stage 1, for college students, and for working professionals who want real data skills. Modern Age Coders teaches ages 6 to 67 across the full path, but Stage 2 assumes the maturity to work with real datasets, so it suits motivated teenagers and adults rather than young beginners.
 
 Are classes live?
 

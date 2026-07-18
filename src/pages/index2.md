@@ -1,16 +1,16 @@
 ---
 title: "Modern Age Coders - Online Coding & Maths Classes for All Ages | Learn Worldwide"
-description: "Online coding and maths classes for ages 6-65 — learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!"
+description: "Online coding and maths classes for ages 6-67 — learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!"
 canonical: https://learn.modernagecoders.com/
 source: src/pages/index2.html
 ---
-> Online coding and maths classes for ages 6-65 — learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!
+> Online coding and maths classes for ages 6-67 — learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!
 
-Live online classes · ages 6 to 65 · 25+ countries · rated 4.9/5
+Live online classes · ages 6 to 67 · 25+ countries · rated 4.9/5
 
 # Maths Code Made for Each Other.
 
-Live, expert-led coding & maths classes for ages 6 to 65 — small batches, real projects, and a mentor who actually knows your name. See the difference in one free class.
+Live, expert-led coding & maths classes for ages 6 to 67 — small batches, real projects, and a mentor who actually knows your name. See the difference in one free class.
 
 [Book a Free Demo Class](/contact)
 
@@ -688,7 +688,7 @@ Students need a computer (Windows, Mac, or Chromebook) with a reliable internet 
 
 +
 
-Our courses are designed for students aged 6–65, with different difficulty levels tailored to specific age groups. We have beginner courses for younger students and advanced material for teens, college students and professionals.
+Our courses are designed for students aged 6–67, with different difficulty levels tailored to specific age groups. We have beginner courses for younger students and advanced material for teens, college students and professionals.
 
 ### What courses do you offer?
 

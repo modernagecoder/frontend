@@ -12,11 +12,11 @@ Live Online Coding & Maths · Lake Town · North-East Kolkata
 
 Modern Age Coders runs premium live online coding and mathematics classes for families across Lake Town, Bangur Avenue, Sreebhumi and the VIP Road belt. Every class is taught live in small batches by full-time engineers and maths graduates — never pre-recorded. Children learn Python, Java, AI/ML and school maths from their own dining table, so you skip the Lake Town crossing and Patipukur underpass traffic entirely. Book a free demo class today.
 
-100% Live, never pre-recordedBatches of 6-8, 3-4 or 1-on-1Full-time engineer & maths-graduate tutorsICSE · CBSE · WBBSE · IGCSE ready[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)100% LiveNever pre-recorded6-8Max per batchAges 6-65Kids to professionals₹1,499Starting fee/monthAt a glance
+100% Live, never pre-recordedBatches of 6-8, 3-4 or 1-on-1Full-time engineer & maths-graduate tutorsICSE · CBSE · WBBSE · IGCSE ready[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)100% LiveNever pre-recorded6-8Max per batchAges 6-67Kids to professionals₹1,499Starting fee/monthAt a glance
 
 ## The essentials, in one place
 
-Format**100% live online** — real-time teaching, screen-share and instant doubt-clearing; nothing pre-recordedBatch sizeGroup (max 6-8), Mini Batch (3-4), or true 1-on-1Ages**6 to 65** — kids, teens, college students and working professionalsSubjectsCoding (Python, Java, AI/ML, web, DSA) and Mathematics (Grade 1 to college + Olympiad)BoardsICSE (Java/BlueJ), CBSE (Python/Informatics Practices), WBBSE and IGCSEFeesFrom **₹1,499/month** (group) · ₹2,499/month (mini batch) · ₹4,999/month (1-on-1)Free demoYes — your first live class is free, with no commitmentServingLake Town (Blocks A/B/C), Bangur Avenue, Sreebhumi, Dum Dum Park, Patipukur, Kestopur, VIP Road belt and Jessore Road sideWhy it works
+Format**100% live online** — real-time teaching, screen-share and instant doubt-clearing; nothing pre-recordedBatch sizeGroup (max 6-8), Mini Batch (3-4), or true 1-on-1Ages**6 to 67** — kids, teens, college students and working professionalsSubjectsCoding (Python, Java, AI/ML, web, DSA) and Mathematics (Grade 1 to college + Olympiad)BoardsICSE (Java/BlueJ), CBSE (Python/Informatics Practices), WBBSE and IGCSEFeesFrom **₹1,499/month** (group) · ₹2,499/month (mini batch) · ₹4,999/month (1-on-1)Free demoYes — your first live class is free, with no commitmentServingLake Town (Blocks A/B/C), Bangur Avenue, Sreebhumi, Dum Dum Park, Patipukur, Kestopur, VIP Road belt and Jessore Road sideWhy it works
 
 ## Premium, live, and genuinely small-batch
 

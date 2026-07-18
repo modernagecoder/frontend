@@ -16,7 +16,7 @@ Modern Age Coders runs 100% live online coding and mathematics classes for famil
 
 ## At a glance
 
-Format**100% live online**, real-time with a teacher — never pre-recordedBatch sizeGroup max 6–8, Mini Batch 3–4, or 1-on-1 personalisedAges6 to 18 for school tracks; college and working professionals also taught (6 to 65)SubjectsCoding (Python, Java, Scratch, AI/ML, web, DSA) + Mathematics (Grade 1 to college)BoardsICSE, CBSE, ISC, IGCSE and WBBSE — Java for ICSE, Python for CBSEFeesGroup from ₹1,499/month; Mini Batch ₹2,499/month; 1-on-1 ₹4,999/monthFree demoA full live class, not a sales call; classes can start within 24 hoursServingLake Gardens (700045) and Jodhpur Park, Dhakuria, Tollygunge, Charu Market, Kalighat, Golf GreenWhy Live, Why Small
+Format**100% live online**, real-time with a teacher — never pre-recordedBatch sizeGroup max 6–8, Mini Batch 3–4, or 1-on-1 personalisedAges6 to 18 for school tracks; college and working professionals also taught (6 to 67)SubjectsCoding (Python, Java, Scratch, AI/ML, web, DSA) + Mathematics (Grade 1 to college)BoardsICSE, CBSE, ISC, IGCSE and WBBSE — Java for ICSE, Python for CBSEFeesGroup from ₹1,499/month; Mini Batch ₹2,499/month; 1-on-1 ₹4,999/monthFree demoA full live class, not a sales call; classes can start within 24 hoursServingLake Gardens (700045) and Jodhpur Park, Dhakuria, Tollygunge, Charu Market, Kalighat, Golf GreenWhy Live, Why Small
 
 ## Premium teaching, delivered live to your desk
 

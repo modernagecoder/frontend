@@ -20,7 +20,7 @@ Free demo • No commitment • Classes start within 24 hours
 
 ## At a Glance
 
-Format**100% live online, small-batch** — never pre-recorded videoBatch sizeMax 6–8 (group), 3–4 (mini batch), or 1-on-1Ages6 to 65 — kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, Web, DSA) + Mathematics (school to Olympiad)BoardsICSE (Java/BlueJ), CBSE (Python), WBBSE state board — Bengali & Hindi-medium friendlyFeesGroup ₹1,499/mo • Mini Batch ₹2,499/mo • 1-on-1 ₹4,999/moFree demoYes — no commitment; classes start within 24 hours of enrolmentServingShibpur, Botanic Garden area, IIEST side, Mandirtala, Howrah Maidan, Kadamtala, Bandhaghat & nearby (711102, 711103, 711104) — part of the greater Kolkata metroLive Online · Shibpur, Howrah
+Format**100% live online, small-batch** — never pre-recorded videoBatch sizeMax 6–8 (group), 3–4 (mini batch), or 1-on-1Ages6 to 67 — kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, Web, DSA) + Mathematics (school to Olympiad)BoardsICSE (Java/BlueJ), CBSE (Python), WBBSE state board — Bengali & Hindi-medium friendlyFeesGroup ₹1,499/mo • Mini Batch ₹2,499/mo • 1-on-1 ₹4,999/moFree demoYes — no commitment; classes start within 24 hours of enrolmentServingShibpur, Botanic Garden area, IIEST side, Mandirtala, Howrah Maidan, Kadamtala, Bandhaghat & nearby (711102, 711103, 711104) — part of the greater Kolkata metroLive Online · Shibpur, Howrah
 
 ## Premium Live Teaching, Brought Home to Shibpur
 

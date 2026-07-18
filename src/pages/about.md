@@ -1,10 +1,10 @@
 ---
 title: "About Modern Age Coders | Coding & Math Education That Actually Works"
-description: "Modern Age Coders teaches coding and mathematics to learners aged 6-65 — kids, teens, college students, working professionals & businesses. Live 1-on-1 and group classes worldwide. We also build custom software, AI solutions & automation. Real skills, real results."
+description: "Modern Age Coders teaches coding and mathematics to learners aged 6-67 — kids, teens, college students, working professionals & businesses. Live 1-on-1 and group classes worldwide. We also build custom software, AI solutions & automation. Real skills, real results."
 canonical: https://learn.modernagecoders.com/about
 source: src/pages/about.html
 ---
-> Modern Age Coders teaches coding and mathematics to learners aged 6-65 — kids, teens, college students, working professionals & businesses. Live 1-on-1 and group classes worldwide. We also build custom software, AI solutions & automation. Real skills, real results.
+> Modern Age Coders teaches coding and mathematics to learners aged 6-67 — kids, teens, college students, working professionals & businesses. Live 1-on-1 and group classes worldwide. We also build custom software, AI solutions & automation. Real skills, real results.
 
 Since 2020
 
@@ -20,7 +20,7 @@ We keep it focused. No fluff, no gimmicks — just quality work in two areas.
 
 ### Education for Students
 
-We teach coding and mathematics to learners aged 6-65 — kids, teens, college students, working professionals and corporate teams. Not through boring lectures, but by building real things — games, websites, apps. Students learn by doing.
+We teach coding and mathematics to learners aged 6-67 — kids, teens, college students, working professionals and corporate teams. Not through boring lectures, but by building real things — games, websites, apps. Students learn by doing.
 
 - Python, JavaScript, Java, C++ courses
 - Mathematics from basics to advanced
@@ -186,7 +186,7 @@ Mother of Somraj
 
 Got questions? We've got answers.
 
-We teach students from age 8 to 21+. Our courses are designed for different age groups: Kids (8-12), Teens (13-17), and College/Adults (18+). Each course is tailored to the learning style and pace appropriate for that age.
+We teach students from age 6 to 67. Our courses are designed for different age groups: Kids (6-12), Teens (13-17), and College/Adults (18+). Each course is tailored to the learning style and pace appropriate for that age.
 
 Not at all! We have courses for complete beginners. We start from the basics and gradually build up. Whether you've never written a line of code or you're looking to advance your skills, we have the right course for you.
 
@@ -206,9 +206,9 @@ Yes! Apart from education, we build custom software, websites, mobile apps, and 
 
 Modern Age Coders is the world's first platform offering integrated maths and coding online. We believe coding without maths is incomplete, and maths without coding is abstract. Together, they create powerful thinkers.
 
-When a learner picks up Python alongside algebra, they see variables come alive. When they build a game using geometry, triangles stop being textbook diagrams. This is the philosophy behind every course we offer, from age 6 to 65, across 25+ countries.
+When a learner picks up Python alongside algebra, they see variables come alive. When they build a game using geometry, triangles stop being textbook diagrams. This is the philosophy behind every course we offer, from age 6 to 67, across 25+ countries.
 
-Maths + Code for Ages 6 to 65. That is what we do. And we do it better than anyone.
+Maths + Code for Ages 6 to 67. That is what we do. And we do it better than anyone.
 
 ## Ready to Get Started?
 

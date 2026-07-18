@@ -10,7 +10,7 @@ Natural City · Garia & Tollygunge, South Kolkata
 
 # Coding and maths classes for *Garia and Tollygunge* families, taught live.
 
-Small online batches in Python, Java, AI and school maths. Real instructors on a live screen with your child, not a recorded video. For ages 6 to 65.
+Small online batches in Python, Java, AI and school maths. Real instructors on a live screen with your child, not a recorded video. For ages 6 to 67.
 
 Book a free demoSee courses 100% live, instructor-led Small batches Sessions recorded for revision
 
@@ -174,7 +174,7 @@ Are the classes really live, or recorded videos?
 
 What ages do you teach?
 
-**Children, teens and adults — roughly ages 6 to 65.** Younger children begin with visual, playful coding and age-appropriate maths; teens move into Python, Java, web development and AI; adults and college students can start fresh or go deep.
+**Children, teens and adults — roughly ages 6 to 67.** Younger children begin with visual, playful coding and age-appropriate maths; teens move into Python, Java, web development and AI; adults and college students can start fresh or go deep.
 
 We're in Garia, near Natural City — can we join from home?
 

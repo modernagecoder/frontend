@@ -16,7 +16,7 @@ Live, never pre-recordedBatches of 6–8Engineers & maths graduatesFrom ₹1,499
 
 ## The essentials, in one place
 
-Format**Premium, 100% live online**, taught in real time — never pre-recordedBatch sizeGroup of **6–8**, mini-batch of 3–4, or 1-on-1Ages**6 to 65** — kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, DSA, web) + Mathematics (Grades 1–12, Olympiad)BoardsICSE / ISC, CBSE, IGCSE and WBBSE — Java for ICSE, Python for CBSEFees**₹1,499/month** group · ₹2,499/month mini-batch · ₹4,999/month 1-on-1Free demoYes — one free live demo class, no commitmentServingDum Dum, Nager Bazar, Bangur Avenue, Motijheel, Dum Dum Cantonment, South Dum Dum, Patipukur, Lake Town sideLIVE ONLINE · PREMIUM QUALITY
+Format**Premium, 100% live online**, taught in real time — never pre-recordedBatch sizeGroup of **6–8**, mini-batch of 3–4, or 1-on-1Ages**6 to 67** — kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, DSA, web) + Mathematics (Grades 1–12, Olympiad)BoardsICSE / ISC, CBSE, IGCSE and WBBSE — Java for ICSE, Python for CBSEFees**₹1,499/month** group · ₹2,499/month mini-batch · ₹4,999/month 1-on-1Free demoYes — one free live demo class, no commitmentServingDum Dum, Nager Bazar, Bangur Avenue, Motijheel, Dum Dum Cantonment, South Dum Dum, Patipukur, Lake Town sideLIVE ONLINE · PREMIUM QUALITY
 
 ## Salt Lake-grade teaching, delivered to Dum Dum
 

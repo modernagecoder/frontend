@@ -1,10 +1,10 @@
 ---
 title: "Best Age to Start Coding? The Honest Age-by-Age Answer | Modern Age Coders"
-description: "The honest answer from mentors who teach ages 6-65: the 6-9 sweet spot for blocks, 9-12 for a text-code start, why before 6 we say wait, why later is never too late, and the six readiness signals that outweigh age. Free readiness read."
+description: "The honest answer from mentors who teach ages 6-67: the 6-9 sweet spot for blocks, 9-12 for a text-code start, why before 6 we say wait, why later is never too late, and the six readiness signals that outweigh age. Free readiness read."
 canonical: https://learn.modernagecoders.com/best-age-to-start-coding
 source: src/pages/best-age-to-start-coding.html
 ---
-> The honest answer from mentors who teach ages 6-65: the 6-9 sweet spot for blocks, 9-12 for a text-code start, why before 6 we say wait, why later is never too late, and the six readiness signals that outweigh age. Free readiness read.
+> The honest answer from mentors who teach ages 6-67: the 6-9 sweet spot for blocks, 9-12 for a text-code start, why before 6 we say wait, why later is never too late, and the six readiness signals that outweigh age. Free readiness read.
 
 Start at the right rung
 

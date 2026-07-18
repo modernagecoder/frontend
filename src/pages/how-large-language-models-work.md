@@ -176,7 +176,7 @@ You build. Every concept is paired with code you run yourself. You will tokenise
 
 Who is this for and what ages?
 
-This path is aimed at serious teenagers, college students and working professionals who want real understanding rather than a quick demo. Modern Age Coders teaches ages 6 to 65 across more than 70 live courses, and we place each learner in a track that matches their background, whether that is a curious 15-year-old or an engineer adding AI to their work.
+This path is aimed at serious teenagers, college students and working professionals who want real understanding rather than a quick demo. Modern Age Coders teaches ages 6 to 67 across more than 70 live courses, and we place each learner in a track that matches their background, whether that is a curious 15-year-old or an engineer adding AI to their work.
 
 Are classes live?
 

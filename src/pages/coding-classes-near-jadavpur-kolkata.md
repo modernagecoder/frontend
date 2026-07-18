@@ -16,7 +16,7 @@ Live, not pre-recordedSmall batches (4–8)Taught by full-time engineersICSE · 
 
 ## At a glance
 
-Format**100% live online** — real teacher, real-time, never pre-recordedBatch sizeSmall live batches of **4–8**; mini batches of 3–4; or 1-on-1Ages**6 to 65** — kids, teens, college and working professionalsSubjectsCoding (Python, Java, AI/ML, Scratch, web, DSA) + MathematicsBoardsICSE/ISC, CBSE, WBBSE, IGCSE — Java/BlueJ and Python tracksFeesGroup **₹1,499**/month · Mini batch **₹2,499**/month · 1-on-1 **₹4,999**/monthFree demoFull live demo session — no payment, no commitmentServingJadavpur, Bagha Jatin, Sulekha, Santoshpur, Garfa, Haltu, Patuli, Garia and nearbyWhy It Works
+Format**100% live online** — real teacher, real-time, never pre-recordedBatch sizeSmall live batches of **4–8**; mini batches of 3–4; or 1-on-1Ages**6 to 67** — kids, teens, college and working professionalsSubjectsCoding (Python, Java, AI/ML, Scratch, web, DSA) + MathematicsBoardsICSE/ISC, CBSE, WBBSE, IGCSE — Java/BlueJ and Python tracksFeesGroup **₹1,499**/month · Mini batch **₹2,499**/month · 1-on-1 **₹4,999**/monthFree demoFull live demo session — no payment, no commitmentServingJadavpur, Bagha Jatin, Sulekha, Santoshpur, Garfa, Haltu, Patuli, Garia and nearbyWhy It Works
 
 ## Live online, premium quality — built for a town that asks hard questions
 

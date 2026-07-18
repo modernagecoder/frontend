@@ -16,7 +16,7 @@ Live · never pre-recordedBatches of 6–8ICSE · CBSE · ISC · IGCSEFree demo,
 
 ## The programme in one screen
 
-Format**Live online, one-to-few** — never pre-recorded videoBatch size6–8 (group) · 3–4 (mini batch) · 1-on-1 availableAges**6 to 65** — kids, teens, college and working professionalsSubjectsCoding (Python, Java, AI/ML, DSA, web) + Mathematics (school to college, Olympiad)BoardsICSE · CBSE · ISC · IGCSE — syllabus-alignedFeesFrom **₹1,499/month** (group) · ₹2,499/month (mini batch) · ₹4,999/month (1-on-1)Free demoYes — one live class, no payment, no commitmentServingElgin Road, Lala Lajpat Rai Sarani, AJC Bose Road, Sarat Bose Road, Camac Street, Bhowanipore (700020/700017/700016/700025/700026/700027/700029)LIVE ONLINE · PREMIUM QUALITY
+Format**Live online, one-to-few** — never pre-recorded videoBatch size6–8 (group) · 3–4 (mini batch) · 1-on-1 availableAges**6 to 67** — kids, teens, college and working professionalsSubjectsCoding (Python, Java, AI/ML, DSA, web) + Mathematics (school to college, Olympiad)BoardsICSE · CBSE · ISC · IGCSE — syllabus-alignedFeesFrom **₹1,499/month** (group) · ₹2,499/month (mini batch) · ₹4,999/month (1-on-1)Free demoYes — one live class, no payment, no commitmentServingElgin Road, Lala Lajpat Rai Sarani, AJC Bose Road, Sarat Bose Road, Camac Street, Bhowanipore (700020/700017/700016/700025/700026/700027/700029)LIVE ONLINE · PREMIUM QUALITY
 
 ## What "premium and live" actually means here
 

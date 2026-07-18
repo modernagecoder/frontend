@@ -1,10 +1,10 @@
 ---
 title: "The Modern Age Coders Gazette | Toppers, Hackathons & Coding News"
-description: "The Modern Age Coders Gazette — a monthly broadsheet of CBSE & ICSE topper interviews, hackathon dispatches, alumni spotlights, events and editorials from India's leading coding and maths school for ages 6-65."
+description: "The Modern Age Coders Gazette — a monthly broadsheet of CBSE & ICSE topper interviews, hackathon dispatches, alumni spotlights, events and editorials from India's leading coding and maths school for ages 6-67."
 canonical: https://learn.modernagecoders.com/gazette
 source: src/pages/gazette.html
 ---
-> The Modern Age Coders Gazette — a monthly broadsheet of CBSE & ICSE topper interviews, hackathon dispatches, alumni spotlights, events and editorials from India's leading coding and maths school for ages 6-65.
+> The Modern Age Coders Gazette — a monthly broadsheet of CBSE & ICSE topper interviews, hackathon dispatches, alumni spotlights, events and editorials from India's leading coding and maths school for ages 6-67.
 
 Front Page · Board Results 2026
 

@@ -16,7 +16,7 @@ Modern Age Coders runs 100% live online coding and maths classes for students in
 
 ## Live coding & maths near Andul — the facts
 
-Format**100% live online**, interactive — not pre-recorded videos. Taught from your home in Andul.Batch sizeGroup 6–8 · Mini Batch 3–4 · 1-on-1 personalisedAges**6 to 65** — kids, teens, college students and working adultsSubjectsCoding (Python, Java, Scratch, AI/ML, web, DSA) and Mathematics (school, Olympiad, college)BoardsICSE (Java/BlueJ), CBSE (Python/IP), WBBSE and IGCSE supportedFeesFrom **₹1,499/month** (group) · ₹2,499/month (mini batch) · ₹4,999/month (1-on-1)Free demoYes — one free live demo class, no commitmentServingAndul, Andul Mouri, Mahiari, Argori, Pancharul, Sankrail edge, Mourigram and the wider NH-16 / Andul Road beltTaught byFull-time software engineers and mathematics graduatesLive online · premium quality
+Format**100% live online**, interactive — not pre-recorded videos. Taught from your home in Andul.Batch sizeGroup 6–8 · Mini Batch 3–4 · 1-on-1 personalisedAges**6 to 67** — kids, teens, college students and working adultsSubjectsCoding (Python, Java, Scratch, AI/ML, web, DSA) and Mathematics (school, Olympiad, college)BoardsICSE (Java/BlueJ), CBSE (Python/IP), WBBSE and IGCSE supportedFeesFrom **₹1,499/month** (group) · ₹2,499/month (mini batch) · ₹4,999/month (1-on-1)Free demoYes — one free live demo class, no commitmentServingAndul, Andul Mouri, Mahiari, Argori, Pancharul, Sankrail edge, Mourigram and the wider NH-16 / Andul Road beltTaught byFull-time software engineers and mathematics graduatesLive online · premium quality
 
 ## Real engineers, live, in small batches — at Andul prices
 

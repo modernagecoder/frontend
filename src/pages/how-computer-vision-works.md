@@ -158,7 +158,7 @@ Yes. You build an image classifier and train it on a real dataset, then build an
 
 Who is this for and what ages?
 
-This depth-first track suits serious teenagers, college students and working professionals who want to genuinely understand computer vision and build with it. We teach ages 6 to 65 across our courses, but the from-pixels-to-detection path here is aimed at older, motivated learners. If you are a younger beginner, a free demo helps us place you on the right starting course.
+This depth-first track suits serious teenagers, college students and working professionals who want to genuinely understand computer vision and build with it. We teach ages 6 to 67 across our courses, but the from-pixels-to-detection path here is aimed at older, motivated learners. If you are a younger beginner, a free demo helps us place you on the right starting course.
 
 Are classes live?
 

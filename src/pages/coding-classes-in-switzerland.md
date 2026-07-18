@@ -18,7 +18,7 @@ Expect a call within 3 hours during 09:00–21:00 CET.
 
 # Switzerland's most thoughtful online coding & AI school.
 
-Live 1:1 mentorship in **real coding**, **Python**, modern web, **AI** and **agentic AI** — built for Swiss students aged 6 to adult, on Central European Time. Two classes a week, eight in a month, USD 100 — no contracts, no fluff, no block-based toys past month one.
+Live 1:1 mentorship in **real coding**, **Python**, modern web, **AI** and **agentic AI** — built for Swiss students aged 6 to 67, on Central European Time. Two classes a week, eight in a month, USD 100 — no contracts, no fluff, no block-based toys past month one.
 
 See pricing25+Countries our students join from4.9 / 5Average parent ratingCETNative Swiss-hours schedulingPick a course · start this week
 

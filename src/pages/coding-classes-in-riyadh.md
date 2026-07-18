@@ -1,10 +1,10 @@
 ---
 title: "Coding Classes in Riyadh | Live Online Python & AI Courses"
-description: "Live online coding classes in Riyadh for ages 6 to adult. Python and AI tracks, groups of eight at most, evening AST slots. The first class is a free demo."
+description: "Live online coding classes in Riyadh for ages 6 to 67. Python and AI tracks, groups of eight at most, evening AST slots. The first class is a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-riyadh
 source: src/pages/coding-classes-in-riyadh.html
 ---
-> Live online coding classes in Riyadh for ages 6 to adult. Python and AI tracks, groups of eight at most, evening AST slots. The first class is a free demo.
+> Live online coding classes in Riyadh for ages 6 to 67. Python and AI tracks, groups of eight at most, evening AST slots. The first class is a free demo.
 
 Courses
 
