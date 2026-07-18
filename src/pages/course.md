@@ -8,6 +8,11 @@ source: src/pages/course.html
 
 # Find Your Perfect Course
 
+**Quick answer:** Modern Age Coders teaches live online coding and maths on one connected path, from Scratch and Python for young beginners to Java, C++, web development, AI and machine learning, data science, and full CBSE and ICSE maths. Classes are live in small batches for ages 6 to 67, with real projects and a free demo before you pay.
+
+> "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think."
+> Shivam Khemka, Founder of Modern Age Coders
+
 Whether you're 8 or 80, just starting out or leveling up - we've got a course that fits. Learn coding, math, or both with real projects and mentors who actually care about your progress.
 
 30+Courses Available500+Happy Students4.9Average Rating

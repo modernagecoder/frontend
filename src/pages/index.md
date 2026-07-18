@@ -10,6 +10,11 @@ Coding + Maths · Ages 6–67 · Live 1-on-1
 
 # Maths + Code Made for Each Other.
 
+**Quick answer:** Modern Age Coders runs live online coding and maths classes for students aged 6 to 67, taught in small batches with real projects from the first class. It is rated 4.9 across 547 Google reviews and has taught over 10,000 students since 2020. Every class is live, and there is a free demo before you pay.
+
+> "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think."
+> Shivam Khemka, Founder of Modern Age Coders
+
 We don't just teach coding and maths. We teach you how to think, build, and solve problems that actually matter. Just real skills that work in the real world at any age, any stage.
 
 [Book a Free Demo](/book-demo)[View Courses →](/courses)★ **4.9****547** reviews**25+** countriessince **2020**

@@ -8,6 +8,11 @@ source: src/pages/pricing.html
 
 # Affordable Coding & Maths Classes: Transparent Pricing
 
+**Quick answer:** Modern Age Coders keeps pricing simple: live group classes are ₹1,499 a month, a mini batch with near one-to-one attention is ₹2,499, and fully personalised one-to-one classes are ₹4,999, with plans outside India shown in local currency. Every plan is live, covers coding or maths for ages 6 to 67, and starts with a free demo before you pay.
+
+> "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think."
+> Shivam Khemka, Founder of Modern Age Coders
+
 No hidden fees, no surprises. Pick a plan that works for you. Whether you prefer learning in a group or need personalized attention, we've got you covered.
 
 ### Group Classes
