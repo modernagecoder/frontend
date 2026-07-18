@@ -4,6 +4,10 @@
      Do not hand-edit: add URLs to sitemap.xml, which is the source of truth. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://learn.modernagecoders.com/cbse-ai-curriculum-classes</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
     <loc>https://learn.modernagecoders.com/pcep-python-certification-prep</loc>
     <lastmod>2026-07-13</lastmod>
   </url>
@@ -50,6 +54,14 @@
   <url>
     <loc>https://learn.modernagecoders.com/best-online-math-tutoring-2026</loc>
     <lastmod>2026-07-13</lastmod>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/best-online-maths-classes-2026</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/cuemath-alternative</loc>
+    <lastmod>2026-07-18</lastmod>
   </url>
   <url>
     <loc>https://learn.modernagecoders.com/online-math-tutor-3rd-grade</loc>

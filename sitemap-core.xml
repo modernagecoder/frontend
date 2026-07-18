@@ -4,6 +4,18 @@
      Do not hand-edit: add URLs to sitemap.xml, which is the source of truth. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://learn.modernagecoders.com/cbse-computational-thinking-classes-3-to-5</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/ai-classes-for-cbse-class-6-to-8</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/ai-tools-age-guide</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
     <loc>https://learn.modernagecoders.com/</loc>
     <lastmod>2026-07-13</lastmod>
   </url>
@@ -102,6 +114,26 @@
   <url>
     <loc>https://learn.modernagecoders.com/best-online-coding-classes-for-kids-2026</loc>
     <lastmod>2026-07-13</lastmod>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/whitehat-jr-alternative</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/byjus-coding-alternative</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/codingal-alternative</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/brightchamps-alternative</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/tynker-alternative</loc>
+    <lastmod>2026-07-18</lastmod>
   </url>
   <url>
     <loc>https://learn.modernagecoders.com/algebra-2-tutoring-online</loc>

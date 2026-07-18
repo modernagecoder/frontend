@@ -8,11 +8,6 @@ source: src/pages/course.html
 
 # Find Your Perfect Course
 
-**Quick answer:** Modern Age Coders teaches live online coding and maths on one connected path, from Scratch and Python for young beginners to Java, C++, web development, AI and machine learning, data science, and full CBSE and ICSE maths. Classes are live in small batches for ages 6 to 67, with real projects and a free demo before you pay.
-
-> "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think."
-> Shivam Khemka, Founder of Modern Age Coders
-
 Whether you're 8 or 80, just starting out or leveling up - we've got a course that fits. Learn coding, math, or both with real projects and mentors who actually care about your progress.
 
 30+Courses Available500+Happy Students4.9Average Rating
@@ -28,6 +23,14 @@ Select your levelMost PopularNewest FirstA-Z Showing **12** courses
 We couldn't find courses matching your search. Try different keywords or browse our categories.
 
 #### Popular picks:
+
+Modern Age Coders teaches live online coding and maths on one connected path, from Scratch and Python for young beginners to Java, C++, web development, AI and machine learning, data science, and full CBSE and ICSE maths. Classes are live in small batches for ages 6 to 67, with real projects and a free demo before you pay.
+
+Rated 4.9 across 547 Google reviews
+
+> “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
+
+*Shivam Khemka, Founder of Modern Age Coders*
 
 ## Why Students Love Learning With Us
 
@@ -65,6 +68,10 @@ Yes! Upon completing any course, you'll receive a certificate of completion. But
 
 We get it - not everything clicks for everyone. That's why we offer a trial class before you commit. If after a few sessions your child isn't enjoying it, we'll work with you to find a better fit or discuss refund options. Our goal is happy learners, not trapped customers.
 
+Group classes start at ₹1,499 a month, a mini batch with near one-to-one attention is ₹2,499, and fully personalised 1-on-1 is ₹4,999, with plans outside India priced in local currency. Every course starts with a free demo class before you pay.
+
+Both are live and taught by an expert mentor. Group classes in small batches of 5 to 8 are the most affordable and add peer learning, a mini batch of 3 to 4 gives near one-to-one attention, and 1-on-1 gives a fully personalised pace. Start with a free demo, and you can change your plan later.
+
 ## Browse All Courses
 
 Quick links to all our coding, AI, and maths courses
@@ -79,7 +86,7 @@ Quick links to all our coding, AI, and maths courses
 
 ### College & Professional
 
-[Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[Full Stack Web Dev](/courses/full-stack-web-development-masterclass-college)[Python Zero to Advanced](/courses/python-programming-masterclass-zero-to-advanced-college)[Flutter App Dev](/courses/complete-flutter-app-development-masterclass-college)[Swift Programming](/courses/complete-swift-programming-masterclass-college)[Kotlin Programming](/courses/complete-kotlin-programming-masterclass-professional)[TypeScript](/courses/complete-typescript-programming-masterclass-college)[Golang](/courses/complete-golang-programming-masterclass-college)[Generative AI](/courses/complete-generative-ai-masterclass-college)[AI & ML Complete](/courses/ai-ml-masterclass-complete-college)[Data Science](/courses/data-science-complete-masterclass-college)[React.js](/courses/react-js-complete-masterclass-college)[MERN Stack](/courses/mern-stack-development-masterclass-college)[Java Programming](/courses/complete-java-programming-masterclass-college)[C++ Programming](/courses/cpp-programming-complete-masterclass-college)[DSA](/courses/data-structures-algorithms-masterclass-college)[Competitive Programming](/courses/competitive-programming-masterclass-college)[App Development](/courses/complete-app-development-masterclass-college)[Game Development](/courses/game-development-complete-masterclass-college)[AI Complete](/courses/artificial-intelligence-complete-masterclass-college)[Python AI Automation](/courses/python-ai-automation-masterclass-college)[AI Tools Mastery](/courses/ai-tools-mastery-complete-college)[MySQL Database](/courses/mysql-database-complete-masterclass-college)[Data Analysis](/courses/data-analysis-mastery-course-college)[Ethical Hacking](/courses/ethical-hacking-masterclass-complete)[Algorithmic Trading](/courses/algorithmic-trading-masterclass-complete)[Trading Automation](/courses/algorithmic-trading-automation-masterclass)[AI Tools Professional](/courses/ai-tools-mastery-complete)[Git & GitHub for College](/courses/git-github-version-control-course-for-college-students)[Advanced Git & GitHub Masterclass](/courses/git-github-advanced-version-control-masterclass-for-professionals)
+[Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[Full Stack Web Dev](/courses/full-stack-web-development-masterclass-college)[Python Zero to Advanced](/courses/python-programming-masterclass-zero-to-advanced-college)[Flutter App Dev](/courses/complete-flutter-app-development-masterclass-college)[Swift Programming](/courses/complete-swift-programming-masterclass-college)[Kotlin Programming](/courses/complete-kotlin-programming-masterclass-professional)[TypeScript](/courses/complete-typescript-programming-masterclass-college)[Golang](/courses/complete-golang-programming-masterclass-college)[Generative AI](/courses/complete-generative-ai-masterclass-college)[AI & ML Complete](/courses/ai-ml-masterclass-complete-college)[Data Science](/courses/data-science-complete-masterclass-college)[React.js](/courses/react-js-complete-masterclass-college)[MERN Stack](/courses/mern-stack-development-masterclass-college)[Java Programming](/courses/complete-java-programming-masterclass-college)[C++ Programming](/courses/cpp-programming-complete-masterclass-college)[DSA](/courses/data-structures-algorithms-masterclass-college)[Competitive Programming](/courses/competitive-programming-masterclass-college)[App Development](/courses/complete-app-development-masterclass-college)[Game Development](/courses/game-development-complete-masterclass-college)[AI Complete](/courses/artificial-intelligence-complete-masterclass-college)[Python AI Automation](/courses/python-ai-automation-masterclass-college)[AI Tools Mastery](/courses/ai-tools-mastery-complete-college)[MySQL Database](/courses/mysql-database-complete-masterclass-college)[Data Analysis](/courses/data-analysis-mastery-course-college)[Ethical Hacking](/courses/ethical-hacking-masterclass-complete)[Algorithmic Trading](/courses/algorithmic-trading-masterclass-complete)[Trading Automation](/courses/algorithmic-trading-automation-masterclass)[AI Tools Professional](/courses/ai-tools-mastery-complete)[Git & GitHub for College](/courses/git-github-version-control-course-for-college-students)[Advanced Git & GitHub](/courses/git-github-advanced-version-control-masterclass-for-professionals)
 
 ### Girls Programs
 
