@@ -98,6 +98,14 @@
 :root{--amber:#f59e0b;--amber-light:#fbbf24;--amber-dark:#d97706;--amber-glow:rgba(245,158,11,.35);--orange:#f97316;--bg:#09090f;--bg2:#0f0a06;--card:#120e08;--card-border:rgba(245,158,11,.12);--text:#e2e8f0;--muted:#94a3b8;--purple:#a855f7;--cyan:#06b6d4;}
 *{box-sizing:border-box;margin:0;padding:0;}
 body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;overflow-x:hidden;}
+/* Answer capsule (Phase 4.1 GEO) */
+.ac-mt-wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+.answer-capsule-mt{max-width:900px;margin:8px auto 0;background:var(--card);border:1px solid var(--card-border);border-left:4px solid var(--amber);border-radius:16px;padding:28px 30px}
+.answer-capsule-mt .ac-lede{color:var(--text);font-size:1.1rem;line-height:1.7;margin:0 0 16px;font-weight:500}
+.answer-capsule-mt .ac-stat{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--amber-light);background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.28);border-radius:40px;padding:7px 15px;margin:0 0 18px}
+.answer-capsule-mt .ac-quote{margin:0;border-top:1px solid var(--card-border);padding-top:16px}
+.answer-capsule-mt .ac-quote blockquote{margin:0 0 6px;font-style:italic;color:#f3e7d6;line-height:1.6;font-size:1.02rem}
+.answer-capsule-mt .ac-quote figcaption{margin:0;font-size:.85rem;color:var(--muted);font-weight:600}
 
 /* ── ANIMATED BACKGROUND ── */
 .mt-bg{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;}
@@ -482,6 +490,18 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-s
     <div class="ticker-track">
         <span>CBSE Maths</span><span>ICSE Maths</span><span>IB Mathematics</span><span>IGCSE Maths</span><span>State Board Maths</span><span>Vedic Maths</span><span>Mental Maths</span><span>Olympiad Training</span><span>JEE Maths</span><span>SAT Math</span><span>College Calculus</span><span>Statistics</span><span>Linear Algebra</span><span>Competitive Maths</span><span>Class 1-12</span><span>GRE Quantitative</span>
         <span>CBSE Maths</span><span>ICSE Maths</span><span>IB Mathematics</span><span>IGCSE Maths</span><span>State Board Maths</span><span>Vedic Maths</span><span>Mental Maths</span><span>Olympiad Training</span><span>JEE Maths</span><span>SAT Math</span><span>College Calculus</span><span>Statistics</span><span>Linear Algebra</span><span>Competitive Maths</span><span>Class 1-12</span><span>GRE Quantitative</span>
+    </div>
+</div>
+
+<!-- ANSWER CAPSULE (Phase 4.1 GEO — quotable answer for AI engines) -->
+<div class="ac-mt-wrap">
+    <div class="answer-capsule-mt">
+        <p class="ac-lede">Modern Age Coders runs live online maths tuition for school and college students, covering the CBSE, ICSE and state boards in India along with UK, US and Gulf curricula. Lessons are live in small batches or one to one, taught by expert mentors with real problem solving, and start with a free demo before you pay.</p>
+        <p class="ac-stat">Rated 4.9 across 547 Google reviews</p>
+        <figure class="ac-quote">
+            <blockquote>&ldquo;Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.&rdquo;</blockquote>
+            <figcaption>Shivam Khemka, Founder of Modern Age Coders</figcaption>
+        </figure>
     </div>
 </div>
 
