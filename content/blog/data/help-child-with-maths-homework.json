@@ -1,68 +1,239 @@
 {
   "meta": {
     "slug": "help-child-with-maths-homework",
-    "title": "How to Help Your Child with Maths Homework (Without Doing It for Them)",
-    "description": "How to help your child with maths homework the right way: how to support without solving it for them, what to do when you are both stuck, and how to build independence.",
-    "keywords": ["help child with maths homework", "how to help with maths homework", "child struggling with maths homework", "maths homework help parents", "how to help kid with math homework"],
-    "author": {"name": "Modern Age Coders", "bio": "Live online coding and maths teachers for all ages, 6 to 67."},
+    "title": "How to Help With Maths Homework (Without Solving It)",
+    "description": "How to help your child with maths homework the right way: guide instead of solve, what to do when you are both stuck, and when to get real teaching.",
+    "keywords": [
+      "help child with maths homework",
+      "how to help with maths homework",
+      "child struggling with maths homework",
+      "maths homework help parents",
+      "how to help kid with math homework"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Live online coding and maths teachers for all ages, 6 to 67."
+    },
     "date": "2026-07-18",
-    "dateModified": "2026-07-18",
+    "dateModified": "2026-07-20",
     "category": "Mathematics",
-    "tags": ["Maths", "Parenting", "Homework"],
+    "tags": [
+      "Maths",
+      "Parenting",
+      "Homework"
+    ],
     "readTime": "7 min read",
     "featured": false,
     "tldr": "To help your child with maths homework, guide rather than solve. Ask questions instead of giving answers, let them make and fix mistakes, and stay calm when you are both stuck. Your job is confidence and independence, not a finished page. If the same gap keeps blocking them, get proper teaching, not more nightly battles."
   },
   "hero": {
-    "title": "How to Help Your Child with Maths Homework (Without Doing It for Them)",
-    "featuredImage": {"url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_1_hero.png", "alt": "A parent helping a child with maths homework"}
+    "title": "How to Help With Maths Homework (Without Solving It)",
+    "featuredImage": {
+      "url": "/images/blog/help-child-with-maths-homework/00-hero.png",
+      "alt": "How to help your child with maths homework by guiding instead of solving, with a real question bank for common stuck points"
+    }
   },
   "content": {
     "sections": [
-      {"type": "toc"},
-      {"type": "paragraph", "text": "Maths homework can turn a calm evening into a battle for both of you. The instinct, when your child is stuck and upset, is to just show them the answer so everyone can move on. It is completely understandable, and it quietly teaches your child that they cannot do maths without you. Here is how to actually help."},
-
-      {"type": "heading", "level": 2, "text": "The short answer", "id": "short-answer"},
-      {"type": "paragraph", "text": "Help your child by guiding, not solving. Ask questions that nudge them to the next step, let them make and fix their own mistakes, and keep your own frustration out of it. The aim is a child who grows more confident and independent, not a finished worksheet. And if one gap keeps blocking them night after night, that is the real problem to fix, with proper teaching, not more homework struggle."},
-      {"type": "callout", "text": "The moment you take the pencil and solve it yourself, the learning stops. Your child needs to struggle just enough, with you beside them, to get through it on their own. That is where understanding is built."},
-
-      {"type": "heading", "level": 2, "text": "Do guide, do not solve", "id": "guide"},
-      {"type": "list", "items": [
-        "Ask, do not tell. Try what do you think comes first, or what is this question really asking, rather than giving the next step.",
-        "Let them hold the pencil. The child should do the writing and the thinking. You are the coach, not the player.",
-        "Praise the effort and the approach, not just the right answer. This keeps them willing to try.",
-        "Let mistakes happen. A mistake your child finds and fixes teaches more than an answer you hand over.",
-        "Stop before frustration takes over. If either of you is getting upset, take a break. Nothing is learned in a meltdown."
-      ]},
-
-      {"type": "heading", "level": 2, "text": "When you are both stuck", "id": "stuck"},
-      {"type": "paragraph", "text": "Sometimes you will not know how to do it either, and that is fine. Say so honestly: this one is tricky, let us work it out together. Read the question slowly, look for a similar solved example in the book or notes, and try to break it into smaller steps. If you genuinely cannot get it, do not fake it. Note the question, move on, and have your child ask the teacher. Modelling how to be stuck calmly is itself a valuable lesson."},
-
-      {"type": "heading", "level": 2, "text": "What not to do", "id": "what-not"},
-      {"type": "list", "items": [
-        "Do not just give the answer to end the pain. It ends tonight's pain and grows tomorrow's.",
-        "Do not say you were bad at maths too. It hands your child permission to give up.",
-        "Do not turn it into a fight. A stressed brain cannot do maths, so pressure makes it worse.",
-        "Do not do it all for them the night before a deadline. The teacher needs to see what your child actually can and cannot do."
-      ]},
-
-      {"type": "heading", "level": 2, "text": "When homework struggle means something bigger", "id": "bigger"},
-      {"type": "paragraph", "text": "If homework is a nightly battle, or the same kind of question keeps stopping your child, the issue is usually not the homework. It is a missing foundation from an earlier topic that makes everything built on it feel impossible. No amount of evening help fixes that; a teacher who finds and fills the gap does. If you are locked in the same struggle week after week, that is the signal to get proper teaching rather than more homework fights."},
-
-      {"type": "quote", "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.", "author": "Shivam Khemka, Founder of Modern Age Coders"},
-
-      {"type": "heading", "level": 2, "text": "The bottom line", "id": "bottom-line"},
-      {"type": "paragraph", "text": "Help with maths homework by guiding, not solving: ask questions, let mistakes happen, and keep it calm. Your goal is a confident, independent child, not a finished page. And when the same gap keeps blocking them, get proper teaching. Modern Age Coders teaches maths live in small batches for ages 6 to 67, with patient mentors who find the gap and build real understanding. We are rated 4.9 across 547 Google reviews, and there is a free demo class before you pay."},
-      {"type": "button", "text": "Book a Free Maths Demo Class", "url": "/book-demo"},
-
-      {"type": "accordion", "items": [
-        {"title": "How do I help my child with maths homework?", "content": "Guide rather than solve. Ask questions that nudge them to the next step instead of giving answers, let them hold the pencil and make their own mistakes, and praise effort over the right answer. Keep it calm, and stop before frustration takes over. The goal is a confident, independent child, not just a finished worksheet."},
-        {"title": "Should I give my child the answer if they are stuck?", "content": "No. Giving the answer ends tonight's struggle but teaches your child they cannot do maths without you. Instead, ask a guiding question, point to a similar solved example, or break the problem into smaller steps. If you both genuinely cannot get it, note the question and have them ask the teacher."},
-        {"title": "What do I do if I cannot do the maths homework either?", "content": "Say so honestly and work it out together: read the question slowly, look for a similar solved example, and break it into smaller steps. If you still cannot get it, do not fake it; note the question, move on, and have your child ask their teacher. Modelling how to stay calm when stuck is a valuable lesson in itself."},
-        {"title": "Why is maths homework such a battle every night?", "content": "Usually because a missing foundation from an earlier topic makes the current work feel impossible, which is stressful for everyone. Evening help does not fix a foundational gap; a teacher who finds and fills it does. If the same kind of question keeps stopping your child, that is the sign to get proper teaching."},
-        {"title": "When should I get a maths tutor for my child?", "content": "When homework is a nightly battle or the same gap keeps blocking them despite your help. A patient one-to-one or small-group teacher can find the missing foundation and rebuild confidence in a way evening homework help cannot. Look for a mentor who diagnoses the gap and teaches for understanding."}
-      ]}
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Maths homework can turn a calm evening into a battle for both of you. The instinct, when your child is stuck and upset, is to just show them the answer so everyone can move on. It is completely understandable, and it quietly teaches your child that they cannot do maths without you. Here is how to actually help, with real questions to ask instead."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The short answer",
+        "id": "short-answer"
+      },
+      {
+        "type": "paragraph",
+        "text": "Help your child by guiding, not solving. Ask questions that nudge them to the next step, let them make and fix their own mistakes, and keep your own frustration out of it. The aim is a child who grows more confident and independent, not a finished worksheet. And if one gap keeps blocking them night after night, that is the real problem to fix, with proper teaching, not more homework struggle."
+      },
+      {
+        "type": "callout",
+        "text": "The moment you take the pencil and solve it yourself, the learning stops. Your child needs to struggle just enough, with you beside them, to get through it on their own. That is where understanding is built."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What it actually sounds like",
+        "id": "scenario"
+      },
+      {
+        "type": "paragraph",
+        "text": "Guiding instead of solving is easy to describe and hard to do in the moment, so here is a real example of the difference."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/help-child-with-maths-homework/01-dialogue.png",
+        "alt": "A short worked dialogue showing a parent guiding a child through a stuck maths homework question with questions instead of answers",
+        "caption": "Notice the parent never says the answer. Every line is a question that hands the next step back to the child."
+      },
+      {
+        "type": "paragraph",
+        "text": "The whole exchange takes under a minute longer than just giving the answer, and the child leaves it having actually solved the problem themselves. That is the entire method, repeated question by question, night after night."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A question bank for common stuck points",
+        "id": "question-bank"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "When they are stuck because",
+          "Ask this",
+          "What it does"
+        ],
+        "rows": [
+          [
+            "They do not know where to start",
+            "\"What is this question actually asking you to find?\"",
+            "Separates reading the problem from solving it"
+          ],
+          [
+            "They made a small error",
+            "\"Can you check that step again, slowly?\"",
+            "Lets them catch their own mistake instead of you pointing it out"
+          ],
+          [
+            "They are rushing",
+            "\"What would happen if you wrote out each step?\"",
+            "Slows them down without accusing them of rushing"
+          ],
+          [
+            "They have frozen completely",
+            "\"What is one thing you do know about this?\"",
+            "Finds a foothold instead of confronting the whole blank page"
+          ],
+          [
+            "They finished but seem unsure",
+            "\"How could you check that answer is right?\"",
+            "Builds the habit of self-checking instead of just asking you"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Do guide, do not solve",
+        "id": "guide"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Ask, do not tell.</strong> Try what do you think comes first, or what is this question really asking, rather than giving the next step.",
+          "<strong>Let them hold the pencil.</strong> The child should do the writing and the thinking. You are the coach, not the player.",
+          "<strong>Praise the effort and the approach</strong>, not just the right answer. This keeps them willing to try.",
+          "<strong>Let mistakes happen.</strong> A mistake your child finds and fixes teaches more than an answer you hand over.",
+          "<strong>Stop before frustration takes over.</strong> If either of you is getting upset, take a break. Nothing is learned in a meltdown."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "When you are both stuck",
+        "id": "stuck"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sometimes you will not know how to do it either, and that is fine. Say so honestly: this one is tricky, let us work it out together. Read the question slowly, look for a similar solved example in the book or notes, and try to break it into smaller steps. If you genuinely cannot get it, do not fake it. Note the question, move on, and have your child ask the teacher. Modelling how to be stuck calmly is itself a valuable lesson."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What not to do",
+        "id": "what-not"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Do not just give the answer to end the pain. It ends tonight's pain and grows tomorrow's.",
+          "Do not say you were bad at maths too. It hands your child permission to give up.",
+          "Do not turn it into a fight. A stressed brain cannot do maths, so pressure makes it worse.",
+          "Do not do it all for them the night before a deadline. The teacher needs to see what your child actually can and cannot do."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "When homework struggle means something bigger",
+        "id": "bigger"
+      },
+      {
+        "type": "paragraph",
+        "text": "If homework is a nightly battle, or the same kind of question keeps stopping your child, the issue is usually not the homework. It is a missing foundation from an earlier topic that makes everything built on it feel impossible. No amount of evening help fixes that; a teacher who finds and fills the gap does. If you are locked in the same struggle week after week, that is the signal to get proper teaching rather than more homework fights."
+      },
+      {
+        "type": "quote",
+        "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.",
+        "author": "Shivam Khemka, Founder of Modern Age Coders"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The bottom line",
+        "id": "bottom-line"
+      },
+      {
+        "type": "paragraph",
+        "text": "Help with maths homework by guiding, not solving: ask questions, let mistakes happen, and keep it calm. Your goal is a confident, independent child, not a finished page. And when the same gap keeps blocking them, get proper teaching. Modern Age Coders teaches maths live in small batches for ages 6 to 67, with patient mentors who find the gap and build real understanding. We are rated 4.9 across 547 Google reviews, and there is a free demo class before you pay."
+      },
+      {
+        "type": "button",
+        "text": "Book a Free Maths Demo Class",
+        "url": "/book-demo"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How do I help my child with maths homework?",
+            "content": "Guide rather than solve. Ask questions that nudge them to the next step instead of giving answers, let them hold the pencil and make their own mistakes, and praise effort over the right answer. Keep it calm, and stop before frustration takes over. The goal is a confident, independent child, not just a finished worksheet."
+          },
+          {
+            "title": "Should I give my child the answer if they are stuck?",
+            "content": "No. Giving the answer ends tonight's struggle but teaches your child they cannot do maths without you. Instead, ask a guiding question, point to a similar solved example, or break the problem into smaller steps. If you both genuinely cannot get it, note the question and have them ask the teacher."
+          },
+          {
+            "title": "What do I do if I cannot do the maths homework either?",
+            "content": "Say so honestly and work it out together: read the question slowly, look for a similar solved example, and break it into smaller steps. If you still cannot get it, do not fake it; note the question, move on, and have your child ask their teacher. Modelling how to stay calm when stuck is a valuable lesson in itself."
+          },
+          {
+            "title": "Why is maths homework such a battle every night?",
+            "content": "Usually because a missing foundation from an earlier topic makes the current work feel impossible, which is stressful for everyone. Evening help does not fix a foundational gap; a teacher who finds and fills it does. If the same kind of question keeps stopping your child, that is the sign to get proper teaching."
+          },
+          {
+            "title": "When should I get a maths tutor for my child?",
+            "content": "When homework is a nightly battle or the same gap keeps blocking them despite your help. A patient one-to-one or small-group teacher can find the missing foundation and rebuild confidence in a way evening homework help cannot. Look for a mentor who diagnoses the gap and teaches for understanding."
+          },
+          {
+            "title": "What questions should I ask instead of giving the answer?",
+            "content": "Start broad and narrow down: what is this question actually asking, what is one thing you do know about it, and can you check that step again slowly. These questions hand the thinking back to your child instead of doing it for them, and they work for almost any subject, not just maths."
+          },
+          {
+            "title": "How long should I spend helping with one homework question?",
+            "content": "If a single question is taking more than ten or fifteen minutes of real struggle, stop rather than push through. Note it for the teacher, and come back to it another time if needed. A long, frustrated battle over one question teaches far less than a short, calm attempt followed by a break."
+          }
+        ]
+      }
     ]
   },
-  "relatedPosts": ["why-is-my-child-struggling-with-maths", "help-child-with-maths-anxiety", "how-to-get-better-at-maths"]
+  "relatedPosts": [
+    "why-is-my-child-struggling-with-maths",
+    "help-child-with-maths-anxiety",
+    "how-to-get-better-at-maths"
+  ]
 }
