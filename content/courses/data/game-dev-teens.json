@@ -23,8 +23,7 @@
     "category": "Professional Game Development",
     "price": {
       "group": "₹1,499/month",
-      "personal": "₹4,999/month",
-      "lifetime": "₹49,999 (one-time)"
+      "personal": "₹4,999/month"
     },
     "duration": "24 months (104 weeks)",
     "level": "Complete Beginner to Professional Game Developer",

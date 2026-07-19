@@ -25,8 +25,7 @@
     "category": "Full Stack Web Development",
     "price": {
       "group": "₹1,499/month",
-      "personal": "₹5,999/month",
-      "lifetime": "₹47,999 (one-time)"
+      "personal": "₹5,999/month"
     },
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Full Stack Expert",

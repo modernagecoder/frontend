@@ -61,8 +61,7 @@
     "price": {
       "group": "₹1,499/month (2 classes per week)",
       "miniBatch": "₹2,499/month",
-      "personal": "₹4,999/month",
-      "lifetime": "₹19,999 (one-time, lifetime access + certification)"
+      "personal": "₹4,999/month"
     },
     "duration": "9 months (40 weeks, expandable to 12-month mastery track)",
     "level": "Absolute Beginner (Class 3-5) to Intermediate AI Project Builder (Class 6-8)",

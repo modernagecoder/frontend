@@ -23,8 +23,7 @@
     "category": "Teen Backend Development",
     "price": {
       "group": "₹1,499/month",
-      "personal": "₹4,999/month",
-      "lifetime": "₹19,999 (one-time)"
+      "personal": "₹4,999/month"
     },
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Professional Backend Developer",

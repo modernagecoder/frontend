@@ -26,8 +26,7 @@
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,499/month",
-      "personal": "₹4,999/month",
-      "lifetime": "₹49,999 (one-time)"
+      "personal": "₹4,999/month"
     },
     "duration": "24 months (104 weeks)",
     "level": "Absolute Beginner to Python Expert",
