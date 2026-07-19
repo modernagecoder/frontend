@@ -25,8 +25,8 @@
     "category": "Professional Python Programming",
     "image_path": "python-college.png",
     "price": {
-      "group": "₹1499/month",
-      "personal": "₹4999/month",
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
       "lifetime": "₹24,999 (one-time)"
     },
     "duration": "12 months (52 weeks)",
@@ -1563,7 +1563,7 @@
     "growing_roles": "₹4-7 LPA (Python Developer / Automation Engineer); ₹7-12 LPA (Full Stack Python / Data Analyst)",
     "experienced_roles": "₹10-20 LPA (Senior Python / Data Scientist / ML Engineer)",
     "other_roles": "₹12-30 LPA in India, $80k-180k USD internationally; ₹15-40 LPA in India, $100k-200k+ USD internationally",
-    "freelance": "₹500-3000/hour based on specialization",
+    "freelance": "₹500-3,000/hour based on specialization",
     "international": "$60k-150k USD (USA) based on role and experience"
   },
   "course_guarantees": {

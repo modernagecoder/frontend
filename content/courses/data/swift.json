@@ -27,8 +27,8 @@
     ],
     "category": "Professional iOS/macOS Development",
     "price": {
-      "group": "₹1499/month",
-      "personal": "₹4999/month",
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
       "lifetime": "₹29,999 (one-time)"
     },
     "duration": "12 months (52 weeks)",
@@ -1916,7 +1916,7 @@
     "early_career_roles": "₹3-6 LPA (Junior iOS Developer / Fresher)",
     "growing_roles": "₹6-12 LPA (iOS Developer); ₹10-18 LPA (Senior iOS Developer)",
     "experienced_roles": "₹15-30 LPA (Lead iOS Developer / Mobile Architect); ₹22-50 LPA (Principal Engineer / Solutions Architect)",
-    "freelance": "₹2000-7000/hour based on expertise",
+    "freelance": "₹2,000-7,000/hour based on expertise",
     "international_usa": "$95k-210k USD (iOS Developer to Principal)",
     "international_europe": "€55k-140k EUR based on country and experience"
   },

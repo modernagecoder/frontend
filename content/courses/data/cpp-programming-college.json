@@ -23,8 +23,8 @@
     ],
     "category": "Systems & Performance Programming",
     "price": {
-      "group": "₹1499/month",
-      "personal": "₹4999/month",
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
       "lifetime": "₹39,999 (one-time)"
     },
     "duration": "12 months (52 weeks)",
@@ -1273,7 +1273,7 @@
     "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
     "growing_roles": "₹5-8 LPA (Junior C++ Developer)",
     "experienced_roles": "₹8-15 LPA (C++ Developer); ₹12-25 LPA (Senior C++ Developer); ₹20-40+ LPA (Lead Developer/Architect)",
-    "freelance": "₹2000-8000/hour based on expertise",
+    "freelance": "₹2,000-8,000/hour based on expertise",
     "international": "$80k-180k USD based on location and specialization"
   },
   "course_guarantees": {

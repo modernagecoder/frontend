@@ -24,8 +24,8 @@
     ],
     "category": "Professional Java Development",
     "price": {
-      "group": "₹1499/month",
-      "personal": "₹4999/month",
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
       "lifetime": "₹29,999 (one-time)"
     },
     "duration": "12 months (52 weeks)",
@@ -1867,7 +1867,7 @@
     "early_career_roles": "₹3-5 LPA (Junior Java Developer / Fresher)",
     "growing_roles": "₹5-9 LPA (Java Developer); ₹8-15 LPA (Senior Java Developer / Spring Boot Developer)",
     "experienced_roles": "₹12-25 LPA (Senior Java / Microservices Developer / Tech Lead); ₹18-40 LPA (Lead Developer / Architect)",
-    "freelance": "₹1000-5000/hour based on expertise",
+    "freelance": "₹1,000-5,000/hour based on expertise",
     "international_usa": "$80k-180k USD (Java Developer to Senior)",
     "international_europe": "€50k-120k EUR based on country and experience"
   },

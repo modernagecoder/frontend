@@ -21,9 +21,9 @@
     ],
     "category": "Teen C++ Programming",
     "price": {
-      "group": "₹1499/month",
-      "miniBatch": "₹2499/month",
-      "personal": "₹4999/month",
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,499/month",
+      "personal": "₹4,999/month",
       "lifetime": "₹19,999 (one-time)"
     },
     "duration": "12 months (52 weeks)",
@@ -1682,7 +1682,7 @@
     },
     {
       "question": "What equipment do I need for this C++ programming course?",
-      "answer": "Any computer (Windows, Mac, or Linux) with internet connection works perfectly. For the game development and graphics modules, we recommend at least 4GB RAM. For Arduino projects, you can optionally purchase a starter kit (₹2000-3000), but it's not mandatory - we provide simulation alternatives."
+      "answer": "Any computer (Windows, Mac, or Linux) with internet connection works perfectly. For the game development and graphics modules, we recommend at least 4GB RAM. For Arduino projects, you can optionally purchase a starter kit (₹2,000-3,000), but it's not mandatory - we provide simulation alternatives."
     }
   ],
   "related_courses": [

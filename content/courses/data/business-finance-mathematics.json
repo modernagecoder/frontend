@@ -23,8 +23,8 @@
     ],
     "category": "Business & Finance Education",
     "price": {
-      "group": "₹2999/month",
-      "personal": "₹8999/month",
+      "group": "₹2,999/month",
+      "personal": "₹8,999/month",
       "lifetime": "₹29,999 (one-time)"
     },
     "duration": "12 months (52 weeks)",
@@ -1214,7 +1214,7 @@
     "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
     "growing_roles": "₹4-8 LPA (Entry-level analyst)",
     "experienced_roles": "₹8-15 LPA (Financial Analyst); ₹12-25 LPA (Senior Analyst); ₹15-40 LPA (Manager/Specialist)",
-    "freelance": "₹1000-5000/hour consulting",
+    "freelance": "₹1,000-5,000/hour consulting",
     "international": "$60k-150k based on role and location"
   },
   "course_guarantees": {

@@ -27,8 +27,8 @@
     ],
     "category": "Professional AI Development",
     "price": {
-      "group": "₹1999/month",
-      "personal": "₹5999/month",
+      "group": "₹1,999/month",
+      "personal": "₹5,999/month",
       "lifetime": "₹39,999 (one-time)"
     },
     "duration": "12 months (52 weeks)",
@@ -1975,7 +1975,7 @@
     "early_career_roles": "₹4-7 LPA (Junior AI Developer / Prompt Engineer)",
     "growing_roles": "₹8-15 LPA (AI Application Developer / LLM Engineer); ₹15-25 LPA (AI Engineer / Senior LLM Engineer)",
     "experienced_roles": "₹20-40 LPA (Senior AI Engineer / AI Architect / AI Lead); ₹30-70 LPA (Lead AI Engineer / Principal Engineer)",
-    "freelance": "₹2000-10000/hour based on expertise and specialization",
+    "freelance": "₹2,000-10,000/hour based on expertise and specialization",
     "international_usa": "$120k-300k USD (AI Engineer to Senior/Staff level)",
     "international_europe": "€70k-180k EUR based on country and experience"
   },

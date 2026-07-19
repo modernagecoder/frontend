@@ -16,9 +16,9 @@
     ],
     "category": "Web Development",
     "price": {
-      "group": "₹1499/month",
-      "miniBatch": "₹2499/month",
-      "personal": "₹4999/month"
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,499/month",
+      "personal": "₹4,999/month"
     },
     "duration": "6 months (24 weeks)",
     "level": "Beginner, ages 13 to 18",

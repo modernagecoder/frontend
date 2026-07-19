@@ -23,8 +23,8 @@
     ],
     "category": "Frontend Development & Modern Web",
     "price": {
-      "group": "₹1499/month",
-      "personal": "₹4999/month",
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
       "lifetime": "₹39,999 (one-time)"
     },
     "duration": "12 months (52 weeks)",
@@ -1221,7 +1221,7 @@
     "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
     "growing_roles": "₹5-8 LPA (Junior React Developer)",
     "experienced_roles": "₹8-15 LPA (React Developer); ₹12-25 LPA (Senior React Developer); ₹20-40+ LPA (Lead/Architect)",
-    "freelance": "₹2000-8000/hour based on expertise",
+    "freelance": "₹2,000-8,000/hour based on expertise",
     "international": "$60k-150k USD based on location and experience"
   },
   "course_guarantees": {
@@ -1255,7 +1255,7 @@
     },
     {
       "question": "What salary can I expect as a React developer in India?",
-      "answer": "React developers are highly valued. Entry-level: ₹5-8 LPA, Mid-level: ₹8-18 LPA, Senior: ₹15-35 LPA, Lead/Architect: ₹30-60 LPA. Freelancers earn ₹2000-8000/hour. International remote positions offer $60k-150k USD. The combination of React + TypeScript + Next.js commands premium salaries."
+      "answer": "React developers are highly valued. Entry-level: ₹5-8 LPA, Mid-level: ₹8-18 LPA, Senior: ₹15-35 LPA, Lead/Architect: ₹30-60 LPA. Freelancers earn ₹2,000-8,000/hour. International remote positions offer $60k-150k USD. The combination of React + TypeScript + Next.js commands premium salaries."
     }
   ],
   "related_courses": [

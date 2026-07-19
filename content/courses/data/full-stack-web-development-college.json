@@ -24,8 +24,8 @@
     ],
     "category": "Professional Web Development",
     "price": {
-      "group": "₹1499/month",
-      "personal": "₹4999/month",
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
       "lifetime": "₹49,999 (one-time)"
     },
     "duration": "24 months (104 weeks)",
@@ -1614,7 +1614,7 @@
     "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
     "growing_roles": "₹3-5 LPA (Junior Developer)",
     "experienced_roles": "₹6-10 LPA (Full Stack Developer); ₹10-18 LPA (Senior Developer); ₹15-30+ LPA (Senior/Lead roles)",
-    "freelance": "₹500-2000/hour",
+    "freelance": "₹500-2,000/hour",
     "international": "$50k-120k USD based on location and experience"
   },
   "course_guarantees": {

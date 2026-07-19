@@ -24,8 +24,8 @@
     ],
     "category": "Professional Go Development",
     "price": {
-      "group": "₹1499/month",
-      "personal": "₹4999/month",
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
       "lifetime": "₹29,999 (one-time)"
     },
     "duration": "12 months (52 weeks)",
@@ -2008,7 +2008,7 @@
     "early_career_roles": "₹4-7 LPA (Junior Go Developer)",
     "growing_roles": "₹7-12 LPA (Go Developer / Backend Engineer); ₹12-20 LPA (Senior Go Developer)",
     "experienced_roles": "₹18-35 LPA (Lead Developer / Cloud Architect); ₹25-55 LPA (Principal Engineer / Solutions Architect)",
-    "freelance": "₹2000-8000/hour based on expertise",
+    "freelance": "₹2,000-8,000/hour based on expertise",
     "international_usa": "$100k-220k USD (Go Developer to Principal)",
     "international_europe": "€60k-150k EUR based on country and experience"
   },

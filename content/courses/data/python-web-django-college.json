@@ -16,9 +16,9 @@
     ],
     "category": "Web Development",
     "price": {
-      "group": "₹1499/month",
-      "miniBatch": "₹2499/month",
-      "personal": "₹4999/month"
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,499/month",
+      "personal": "₹4,999/month"
     },
     "duration": "6 months (24 weeks)",
     "level": "Intermediate, college students and working professionals with Python basics",
@@ -514,7 +514,7 @@
     "early_career_roles": "₹3-6 LPA (Junior Python Developer / Backend Developer)",
     "growing_roles": "₹6-12 LPA (Python/Django Developer with 2-4 years of experience)",
     "experienced_roles": "₹12-25 LPA (Senior Backend Engineer / Lead Developer)",
-    "freelance": "₹800-2500/hour for Django and API work, depending on specialization and track record",
+    "freelance": "₹800-2,500/hour for Django and API work, depending on specialization and track record",
     "international": "$70k-140k USD (USA) for backend Python roles, based on role and experience"
   },
   "course_guarantees": {

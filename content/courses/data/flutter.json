@@ -24,8 +24,8 @@
     ],
     "category": "Professional Flutter App Development",
     "price": {
-      "group": "₹1499/month",
-      "personal": "₹4999/month",
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
       "lifetime": "₹29,999 (one-time)"
     },
     "duration": "12 months (52 weeks)",
@@ -1406,7 +1406,7 @@
     "early_career_roles": "₹3-5 LPA (Junior Flutter Developer / Mobile Intern with strong fundamentals)",
     "growing_roles": "₹5-9 LPA (Flutter Developer / Mobile App Developer with portfolio apps); ₹8-15 LPA (Senior Flutter Developer / Lead Mobile Engineer in startups & agencies)",
     "experienced_roles": "₹12-25 LPA (Senior/Lead Flutter Developer or Mobile Architect in product companies); ₹18-40 LPA (Lead Developer / Mobile Architect / Specialist Consultant)",
-    "freelance": "₹1000-5000/hour or $20-$100/hour based on expertise and client region",
+    "freelance": "₹1,000-5,000/hour or $20-$100/hour based on expertise and client region",
     "international_usa": "$80k-160k USD (Mobile / Flutter Developer to Senior roles, remote or onsite)",
     "international_europe": "€50k-120k EUR based on country, role, and experience in Flutter/mobile dev"
   },
@@ -1437,7 +1437,7 @@
     },
     {
       "question": "What salary can I expect as a Flutter developer in India and internationally?",
-      "answer": "Flutter developers are in high demand. Freshers start at ₹3-5 LPA, mid-level at ₹8-15 LPA, and senior developers earn ₹15-40 LPA. Freelancers charge ₹1000-5000/hour. International remote positions offer $80k-160k USD. The cross-platform skill set commands premium rates compared to single-platform developers."
+      "answer": "Flutter developers are in high demand. Freshers start at ₹3-5 LPA, mid-level at ₹8-15 LPA, and senior developers earn ₹15-40 LPA. Freelancers charge ₹1,000-5,000/hour. International remote positions offer $80k-160k USD. The cross-platform skill set commands premium rates compared to single-platform developers."
     },
     {
       "question": "Can I build apps for iOS on a Windows computer with Flutter?",

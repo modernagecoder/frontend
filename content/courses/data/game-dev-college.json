@@ -23,8 +23,8 @@
     ],
     "category": "Game Development & Interactive Media",
     "price": {
-      "group": "₹1999/month",
-      "personal": "₹5999/month",
+      "group": "₹1,999/month",
+      "personal": "₹5,999/month",
       "lifetime": "₹59,999 (one-time)"
     },
     "duration": "12 months (52 weeks)",
@@ -1169,7 +1169,7 @@
     "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
     "growing_roles": "₹4-8 LPA (Junior Game Developer)",
     "experienced_roles": "₹8-15 LPA (Game Developer); ₹12-25 LPA (Senior Game Developer); ₹20-40+ LPA (Lead Developer/Technical Director)",
-    "freelance": "₹2000-10000/hour based on expertise",
+    "freelance": "₹2,000-10,000/hour based on expertise",
     "international": "$60k-150k USD (higher in AAA studios)"
   },
   "course_guarantees": {

@@ -23,8 +23,8 @@
     ],
     "category": "Artificial Intelligence & Machine Learning",
     "price": {
-      "group": "₹1999/month",
-      "personal": "₹4999/month",
+      "group": "₹1,999/month",
+      "personal": "₹4,999/month",
       "lifetime": "₹49,999 (one-time)"
     },
     "duration": "12 months (52 weeks)",
@@ -1669,7 +1669,7 @@
     "early_career_roles": "₹4-7 LPA (Junior Data Scientist/Analyst)",
     "growing_roles": "₹8-15 LPA (ML Engineer/Data Scientist); ₹15-25 LPA (Senior ML Engineer)",
     "experienced_roles": "₹20-40 LPA (Senior ML/AI Engineer, Research Engineer); ₹30-60 LPA (Lead ML Engineer)",
-    "freelance_consulting": "₹3000-10000/hour based on expertise"
+    "freelance_consulting": "₹3,000-10,000/hour based on expertise"
   },
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",

@@ -24,8 +24,8 @@
     ],
     "category": "Data Science & Analytics Mathematics",
     "price": {
-      "group": "₹2999/month",
-      "personal": "₹5999/month",
+      "group": "₹2,999/month",
+      "personal": "₹5,999/month",
       "lifetime": "₹89,999 (one-time)"
     },
     "duration": "24 months (104 weeks)",
@@ -1641,7 +1641,7 @@
     "early_career_roles": "₹8-15 LPA / $70-100k USD",
     "growing_roles": "₹15-30 LPA / $100-150k USD",
     "experienced_roles": "₹30-60 LPA / $150-250k USD; ₹60+ LPA / $250k+ USD",
-    "consulting": "₹5000-15000/hour"
+    "consulting": "₹5,000-15,000/hour"
   },
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
