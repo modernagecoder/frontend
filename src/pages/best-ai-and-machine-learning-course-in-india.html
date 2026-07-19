@@ -1015,7 +1015,7 @@ preds = model.<span class="fn">predict</span>(X_test)
                             countryIso:  ((window.MACCountryCode && window.MACCountryCode.read) ? window.MACCountryCode.read(document.getElementById('contactPhone') || document.getElementById('phone')).iso  : 'IN'),
                             countryName: ((window.MACCountryCode && window.MACCountryCode.read) ? window.MACCountryCode.read(document.getElementById('contactPhone') || document.getElementById('phone')).name : 'India'), message: fullMessage }) });
                         const data = await response.json();
-                        if (response.ok) { if (typeof fbq === "function") { fbq("track", "Lead", { content_name: "AI ML Demo Booking", content_category: "Free Trial" }); } showFeedback('success', 'We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).'); form.reset(); } else { throw new Error(data.message || 'Something went wrong'); }
+                        if (response.ok) { if (typeof fbq === "function") { fbq("track", "Lead", { content_name: "AI ML Demo Booking", content_category: "Free Trial" }); } showFeedback('success', 'We have received your response. We will reach out to you within 48 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).'); form.reset(); } else { throw new Error(data.message || 'Something went wrong'); }
                     } catch (error) { showFeedback('error', 'Something went wrong. Please call us at 9123366161.'); } finally { showLoading(false); }
                 });
             }

@@ -593,7 +593,7 @@ const SummerCampEnrollment = {
             <p><strong>Order ID:</strong> ${payment.orderId}</p>
             <p><strong>Amount:</strong> ${this.isIndian() ? '₹' : '$'}${payment.amount}</p>
           </div>
-          <p class="success-note">We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).</p>
+          <p class="success-note">We have received your response. We will reach out to you within 48 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).</p>
           <button onclick="document.getElementById('summerCampSuccessModal').remove(); document.body.style.overflow = '';" class="payment-submit-btn">Continue</button>
         </div>
       </div>

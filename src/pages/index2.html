@@ -1841,7 +1841,7 @@
                         <div class="corporate-form-wrapper">
                             <form class="corporate-training-form" id="corporateTrainingForm">
                                 <h3 class="form-title">Request Training &amp; Upskilling</h3>
-                                <p class="form-description">Fill out the form below and our team will contact you within 24 hours to discuss your training needs and help you achieve your career goals.</p>
+                                <p class="form-description">Fill out the form below and our team will contact you within 48 hours to discuss your training needs and help you achieve your career goals.</p>
                                 <div class="form-row"><div class="form-group full-width">
                                     <label for="trainingType">I am looking for: *</label>
                                     <select id="trainingType" name="trainingType" required>
@@ -2197,7 +2197,7 @@
             <div class="wrap sec-head">
                 <span class="eyebrow warm">Get started</span>
                 <h2 class="sec-title">Try <span class="g-code">Coding</span> and <span class="g-maths">Maths</span></h2>
-                <p class="sec-sub">Tell us what you want to learn and we'll set up your free demo class &mdash; usually within 24 hours. No credit card, no commitment.</p>
+                <p class="sec-sub">Tell us what you want to learn and we'll set up your free demo class &mdash; usually within 48 hours. No credit card, no commitment.</p>
             </div>
             <div class="wrap">
             <div class="contact-container">
@@ -3051,7 +3051,7 @@
                         const data = await response.json();
                         if (response.ok) {
                             if (typeof fbq === 'function') { fbq('track', 'Lead', { content_name: 'Demo Booking', content_category: 'Free Trial' }); }
-                            showFeedback('success', 'We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).');
+                            showFeedback('success', 'We have received your response. We will reach out to you within 48 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).');
                             tryCodeForm.reset();
                         } else {
                             showFeedback('error', data.message || data.error || 'Something went wrong. Please try again.');

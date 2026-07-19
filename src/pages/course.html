@@ -2194,7 +2194,7 @@
                         <form class="corporate-training-form" id="corporateTrainingFormCourse">
                             <div class="corporate-form-head">
                                 <h4 class="form-title">Tell us what you need</h4>
-                                <p class="form-note">Takes under a minute. We reply within 24 hours.</p>
+                                <p class="form-note">Takes under a minute. We reply within 48 hours.</p>
                             </div>
                             <div class="form-row">
                                 <div class="form-group full-width">
@@ -2280,7 +2280,7 @@
                         if (response.ok) {
                             // Fire Meta Pixel Lead event
                             if (typeof fbq === 'function') { fbq('track', 'Lead', { content_name: 'Demo Booking', content_category: 'Free Trial' }); }
-                            alert('Thanks! We\'ll be in touch within 24 hours.');
+                            alert('Thanks! We\'ll be in touch within 48 hours.');
                             form.reset();
                         } else { throw new Error('Submission failed'); }
                     } catch (error) {

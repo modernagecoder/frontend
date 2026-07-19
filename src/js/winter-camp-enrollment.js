@@ -322,7 +322,7 @@ const WinterCampEnrollment = {
               <p><strong>Order ID:</strong> ${payment.orderId}</p>
               <p><strong>Amount:</strong> ${this.isIndian() ? '₹' : '$'}${payment.amount}</p>
             </div>
-            <p class="wc-success-note">We will reach out within 24 hours. To connect now, call Shivam Sir: 9123366161</p>
+            <p class="wc-success-note">We will reach out within 48 hours. To connect now, call Shivam Sir: 9123366161</p>
             <button onclick="document.getElementById('winterCampSuccess').remove(); document.body.style.overflow='';" class="wc-submit-btn">Continue</button>
           </div>
         </div>`;

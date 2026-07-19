@@ -1506,7 +1506,7 @@ slow = <span class="f">sorted</span>(<span class="f">errors_only</span>(<span cl
                     </p>
                     <ol>
                         <li><b>Fill the form</b> (30 seconds).</li>
-                        <li><b>We call you within 24 hours</b> to schedule.</li>
+                        <li><b>We call you within 48 hours</b> to schedule.</li>
                         <li><b>Attend a live class</b> — then decide.</li>
                     </ol>
                     <div class="rc-direct">
@@ -1875,7 +1875,7 @@ slow = <span class="f">sorted</span>(<span class="f">errors_only</span>(<span cl
                     var data = await res.json();
                     if (res.ok) {
                         if (typeof fbq === 'function') { fbq('track', 'Lead', { content_name: 'Real Coding Demo Booking', content_category: 'Free Trial' }); }
-                        feedback('success', 'Got it! We’ll reach out within 24 hours to schedule your free demo. Want it faster? Call +91 91233 66161.');
+                        feedback('success', 'Got it! We’ll reach out within 48 hours to schedule your free demo. Want it faster? Call +91 91233 66161.');
                         form.reset();
                     } else {
                         throw new Error(data.message || 'Something went wrong');

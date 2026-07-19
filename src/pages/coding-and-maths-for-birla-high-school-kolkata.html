@@ -1219,7 +1219,7 @@
             const res = await fetch(`${API_BASE_URL}/api/contact/submit`, { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload) });
             if (res.ok) {
                 feedback.style.cssText = 'display:block !important;background:rgba(16,185,129,0.15);color:#10b981;border:1px solid rgba(16,185,129,0.4);';
-                feedback.textContent = ' Application Received! Our advisor will contact you via WhatsApp within 24 hours.';
+                feedback.textContent = ' Application Received! Our advisor will contact you via WhatsApp within 48 hours.';
                 this.reset();
                 document.querySelectorAll('.subject-card').forEach(c => { c.style.borderColor='rgba(255,255,255,0.1)'; c.style.background='transparent'; c.style.color='#94a3b8'; });
             } else throw new Error();
