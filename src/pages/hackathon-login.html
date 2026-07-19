@@ -2,6 +2,17 @@
 <html lang="en">
 
 <head>
+    <!-- Google Analytics stub: defines window.gtag/dataLayer so page code can
+         queue events. The actual gtag.js script is loaded after window.load
+         (see end of body) so it does NOT block rendering. -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () { window.dataLayer.push(arguments); };
+        gtag('js', new Date());
+        gtag('config', 'G-N8BM164YJP');
+        gtag('config', 'AW-16910316353');
+    </script>
+
     
     <link rel="alternate" type="text/markdown" href="/src/pages/hackathon-login.md" title="Markdown version for AI agents">
 <meta charset="UTF-8">
@@ -807,6 +818,17 @@
     }
 </style>
 
+    <!-- Google Analytics - load gtag.js after window.load (no render-blocking).
+         The gtag()/dataLayer stub in <head> queued events; this script then
+         loads the real GA which drains the queue automatically. -->
+    <script>
+        window.addEventListener('load', function () {
+            var s = document.createElement('script');
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+            s.async = true;
+            document.head.appendChild(s);
+        });
+    </script>
 </body>
 
 </html>
