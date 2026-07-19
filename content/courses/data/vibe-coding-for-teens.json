@@ -28,6 +28,7 @@
       "Modern Age Coders teens"
     ],
     "category": "Teen Coding & Web Development",
+    "taxonomy": "web-dev",
     "price": {
       "group": "₹1,499/month",
       "personal": "₹4,999/month"

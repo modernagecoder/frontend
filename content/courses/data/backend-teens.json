@@ -21,6 +21,7 @@
       "full backend course"
     ],
     "category": "Teen Backend Development",
+    "taxonomy": "backend-dev",
     "price": {
       "group": "₹1,499/month",
       "personal": "₹4,999/month"

@@ -22,6 +22,7 @@
       "progressive web apps"
     ],
     "category": "Mobile & Web App Development",
+    "taxonomy": "web-dev",
     "price": {
       "group": "₹1,499/month",
       "personal": "₹4,999/month"

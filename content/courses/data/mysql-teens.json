@@ -23,6 +23,7 @@
       "career ready"
     ],
     "category": "Database Management & Administration",
+    "taxonomy": "backend-dev",
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,499/month",

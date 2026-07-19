@@ -22,6 +22,7 @@
       "cyber defense"
     ],
     "category": "Cybersecurity & Ethical Hacking",
+    "taxonomy": "cyber-security",
     "price": {
       "group": "₹999/month",
       "personal": "₹5,999/month"

@@ -58,6 +58,7 @@
       "CBSE AI competition kids"
     ],
     "category": "CBSE School Curriculum - Computational Thinking & Artificial Intelligence",
+    "taxonomy": "ai-ml",
     "price": {
       "group": "₹1,499/month (2 classes per week)",
       "miniBatch": "₹2,499/month",

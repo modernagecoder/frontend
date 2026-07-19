@@ -23,6 +23,7 @@
       "next js"
     ],
     "category": "Full Stack Web Development",
+    "taxonomy": "web-dev",
     "price": {
       "group": "₹1,499/month",
       "personal": "₹5,999/month"

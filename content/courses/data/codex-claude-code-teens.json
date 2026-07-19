@@ -25,6 +25,7 @@
       "ai coding bootcamp for teenagers"
     ],
     "category": "AI Coding Agents",
+    "taxonomy": "ai-ml",
     "price": {
       "group": "₹1,499/month",
       "personal": "₹4,999/month"
