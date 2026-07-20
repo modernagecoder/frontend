@@ -4,82 +4,219 @@
 <meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600..900;1,9..144,600..900&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:800px;height:450px;overflow:hidden}
 :root{
-  --paper:#FBF8F2; --ink:#26211B; --muted:#877C6C;
-  --accent:#5A8A34; --accent-soft:#DFEAD0;
-  --dot:rgba(38,33,27,.07); --hairline:rgba(38,33,27,.16);
+  --paper:#FBF8F2; --dusk:#9FB0A6;
+  --grass-1:#D9F99D; --grass-2:#A3E635; --grass-3:#6ABE30; --grass-4:#3F7A1B;
+  --torch:#FFA733;
 }
-body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);position:relative}
-body::before{content:"";position:absolute;inset:0;background-image:radial-gradient(var(--dot) 1.2px,transparent 1.2px);background-size:26px 26px}
-.card{position:absolute;inset:0;padding:30px 40px 24px;display:flex;flex-direction:column}
-.top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:2}
-.wordmark{display:flex;align-items:center;gap:11px;font-size:13px;font-weight:800;letter-spacing:.22em}
-.mark{width:17px;height:17px;position:relative;display:inline-block}
-.mark b{position:absolute;left:5px;top:5px;width:15px;height:15px;border:2.5px solid var(--ink)}
-.mark i{position:absolute;left:0;top:0;width:15px;height:15px;background:var(--accent)}
-.badge{border:2.5px solid var(--ink);padding:8px 16px;border-radius:999px;font-weight:800;font-size:13px;letter-spacing:.12em;background:var(--accent);color:#FBF8F2}
-.main{flex:1;display:flex;align-items:center;position:relative;z-index:1}
-.titleblock{max-width:440px}
-.kicker{font-size:12.5px;font-weight:800;letter-spacing:.3em;color:var(--accent);margin-bottom:15px}
-h1{font-family:'Fraunces',Georgia,serif;font-weight:800;font-size:58px;line-height:1.04;letter-spacing:-.01em}
-.sub{margin-top:15px;font-size:16px;line-height:1.45;color:var(--muted);font-weight:500;max-width:380px}
-.bottom{display:flex;justify-content:space-between;align-items:center;border-top:1.5px solid var(--hairline);padding-top:13px;font-size:11px;letter-spacing:.12em;font-weight:700;color:var(--muted);position:relative;z-index:2}
-.motif{position:absolute;right:30px;top:50%;transform:translateY(-50%);width:310px;height:270px}
-.px{position:absolute;width:13px;height:13px;background:var(--accent-soft);border:2px solid var(--accent)}
-.px1{left:10px;top:20px;transform:rotate(8deg)}
-.px2{right:16px;top:44px;transform:rotate(-6deg)}
-.px3{left:34px;bottom:64px;transform:rotate(-10deg)}
-.chip{position:absolute;left:50%;transform:translateX(-50%) rotate(-1.5deg);bottom:6px;font-family:'JetBrains Mono',monospace;font-size:15px;font-weight:700;background:var(--ink);color:var(--paper);padding:9px 13px;border-radius:9px;white-space:nowrap;box-shadow:3px 3px 0 rgba(38,33,27,.18)}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--paper);position:relative;
+  background:linear-gradient(122deg,#132236 0%,#0B1220 54%,#05080E 100%)}
+/* night grid */
+body::before{content:"";position:absolute;inset:0;
+  background-image:linear-gradient(rgba(251,248,242,.045) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(251,248,242,.045) 1px,transparent 1px);
+  background-size:32px 32px}
+.glow-a{position:absolute;left:40%;top:-6%;width:540px;height:420px;
+  background:radial-gradient(closest-side,rgba(106,190,48,.2),rgba(106,190,48,.06) 55%,transparent 74%)}
+.glow-b{position:absolute;left:-150px;bottom:-190px;width:520px;height:420px;
+  background:radial-gradient(closest-side,rgba(63,122,27,.3),transparent 70%)}
+.torch-halo{position:absolute;right:20px;top:130px;width:400px;height:340px;
+  background:radial-gradient(closest-side,rgba(255,167,51,.26),rgba(255,167,51,.07) 52%,transparent 74%)}
+.vignette{position:absolute;inset:0;
+  background:radial-gradient(120% 105% at 46% 42%,transparent 54%,rgba(0,0,0,.5) 100%)}
+.grain{position:absolute;inset:0;opacity:.055;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E")}
+.frame{position:absolute;inset:11px;border:1px solid rgba(163,230,53,.28);border-radius:10px;pointer-events:none;z-index:6}
+
+.card{position:absolute;inset:0;padding:26px 40px 20px;display:flex;flex-direction:column}
+.top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:5}
+.wordmark{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:800;letter-spacing:.2em;color:rgba(251,248,242,.92)}
+.wordmark svg{display:block;border-radius:7px;box-shadow:0 3px 12px rgba(0,0,0,.5)}
+.badge{border:1.5px solid rgba(163,230,53,.7);background:rgba(106,190,48,.16);color:var(--grass-1);
+  padding:8px 17px;border-radius:999px;font-weight:800;font-size:13.5px;letter-spacing:.13em;
+  box-shadow:0 0 20px rgba(106,190,48,.26),inset 0 0 14px rgba(106,190,48,.14)}
+
+.titleblock{position:absolute;left:40px;top:114px;max-width:320px;z-index:4}
+.kicker{font-family:'JetBrains Mono',monospace;font-size:12.5px;font-weight:700;letter-spacing:.3em;color:var(--grass-2);margin-bottom:15px;display:flex;align-items:center;gap:12px}
+.kicker::before{content:"";width:28px;height:2px;background:linear-gradient(90deg,var(--grass-1),var(--grass-4))}
+h1{font-family:'Fraunces',Georgia,serif;font-weight:800;font-size:57px;line-height:1.05;letter-spacing:-.015em;color:var(--paper);text-shadow:0 3px 28px rgba(0,0,0,.65)}
+h1 .grass{font-style:italic;font-weight:700;display:inline-block;
+  background:linear-gradient(92deg,var(--grass-1) 5%,var(--grass-2) 48%,var(--grass-3) 95%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none;
+  filter:drop-shadow(0 0 20px rgba(163,230,53,.4));padding-right:.08em}
+.sub{margin-top:14px;font-size:16.5px;line-height:1.45;color:var(--dusk);font-weight:500;max-width:320px}
+.meta{margin-top:13px;font-family:'JetBrains Mono',monospace;font-size:11.5px;font-weight:700;letter-spacing:.09em;color:rgba(217,249,157,.88)}
+.meta i{font-style:normal;color:var(--grass-3);padding:0 7px}
+
+.world{position:absolute;inset:0;z-index:1}
+
+/* MakeCode block stack: the actual tool this course teaches */
+.blocks{position:absolute;left:380px;top:120px;width:212px;transform:rotate(-2deg);z-index:3;
+  filter:drop-shadow(0 16px 34px rgba(0,0,0,.6))}
+.blk{border-radius:7px;padding:8px 12px;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;
+  color:#fff;letter-spacing:.01em;white-space:nowrap}
+.ev{background:#4A7FB5;border-bottom:3px solid #315A87}
+.ag{background:#2E9E8F;border-bottom:3px solid #1E7267}
+.loop{background:#4CA83A;border-radius:7px;margin-top:5px;padding-bottom:8px;border-bottom:3px solid #347A26}
+.loop-hd{padding:8px 12px;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:#fff}
+.loop-body{padding-left:13px;padding-right:7px}
+.loop-body .blk{margin-bottom:5px}
+.loop-body .blk:last-child{margin-bottom:0}
+.lit{color:#FFE9A8}
+.num{color:#FFE9A8}
+
+.bottom{display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(251,248,242,.16);
+  padding-top:13px;font-size:11px;letter-spacing:.12em;font-weight:700;color:rgba(159,176,166,.85);
+  position:relative;z-index:5;margin-top:auto}
+.bottom .dot{color:var(--grass-2)}
 </style>
 </head>
 <body>
-<div class="card">
-  <div class="top">
-    <div class="wordmark"><span class="mark"><b></b><i></i></span>MODERN AGE CODERS</div>
-    <div class="badge">KIDS 7-12</div>
-  </div>
-  <div class="main">
-    <div class="titleblock">
-      <div class="kicker">GAME CODING COURSE</div>
-      <h1>Minecraft<br>Coding</h1>
-      <p class="sub">From code blocks to real programs</p>
+<div class="glow-a"></div>
+<div class="glow-b"></div>
+<div class="torch-halo"></div>
+<div class="vignette"></div>
+<div class="grain"></div>
+<div class="frame"></div>
+
+<!-- the world the blocks build: torch-lit voxel ground + a tower going up -->
+<svg class="world" width="800" height="450" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <radialGradient id="torchLight">
+      <stop offset="0" stop-color="#FFC46B" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#FFA733" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="mblur" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="702" cy="385" rx="168" ry="36" fill="#000" opacity=".45" filter="url(#mblur)"/>
+
+  <!-- ground block, right (grass over dirt) -->
+  <g>
+    <path d="M746 306 L790 328 L746 350 L702 328 Z" fill="#6ABE30"/>
+    <path d="M702 328 L746 350 L746 387 L702 365 Z" fill="#7A5230"/>
+    <path d="M790 328 L746 350 L746 387 L790 365 Z" fill="#8B5A2B"/>
+    <path d="M702 328 L746 350 L746 356 L702 334 Z" fill="#4E8C24"/>
+    <path d="M790 328 L746 350 L746 356 L790 334 Z" fill="#5AA02B"/>
+    <g opacity=".45">
+      <rect x="735" y="320" width="7" height="7" fill="#5CAB27"/>
+      <rect x="756" y="331" width="6" height="6" fill="#7CD03C"/>
+      <rect x="714" y="351" width="7" height="7" fill="#6B4728"/>
+      <rect x="762" y="360" width="6" height="6" fill="#9C6733"/>
+    </g>
+  </g>
+
+  <!-- ground block, left (grass over dirt) -->
+  <g>
+    <path d="M658 306 L702 328 L658 350 L614 328 Z" fill="#6ABE30"/>
+    <path d="M614 328 L658 350 L658 387 L614 365 Z" fill="#6E4A2B"/>
+    <path d="M702 328 L658 350 L658 387 L702 365 Z" fill="#8B5A2B"/>
+    <path d="M614 328 L658 350 L658 356 L614 334 Z" fill="#47801F"/>
+    <path d="M702 328 L658 350 L658 356 L702 334 Z" fill="#5AA02B"/>
+    <g opacity=".45">
+      <rect x="647" y="320" width="7" height="7" fill="#5CAB27"/>
+      <rect x="668" y="331" width="6" height="6" fill="#7CD03C"/>
+      <rect x="626" y="351" width="7" height="7" fill="#5E3E24"/>
+      <rect x="674" y="360" width="6" height="6" fill="#9C6733"/>
+    </g>
+  </g>
+
+  <!-- stone block the code already placed -->
+  <g>
+    <path d="M658 269 L702 291 L658 313 L614 291 Z" fill="#9A9A94"/>
+    <path d="M614 291 L658 313 L658 350 L614 328 Z" fill="#5E5E5A"/>
+    <path d="M702 291 L658 313 L658 350 L702 328 Z" fill="#77776F"/>
+    <g opacity=".4">
+      <rect x="647" y="283" width="7" height="7" fill="#B3B3AC"/>
+      <rect x="668" y="294" width="6" height="6" fill="#88887F"/>
+      <rect x="626" y="314" width="7" height="7" fill="#4E4E4A"/>
+      <rect x="674" y="323" width="6" height="6" fill="#8A8A82"/>
+    </g>
+  </g>
+
+  <!-- the block the code is placing right now: ghosted, snapping into place -->
+  <g>
+    <path d="M658 232 L702 254 L658 276 L614 254 Z" fill="#A3E635" opacity=".3"/>
+    <path d="M614 254 L658 276 L658 313 L614 291 Z" fill="#A3E635" opacity=".15"/>
+    <path d="M702 254 L658 276 L658 313 L702 291 Z" fill="#A3E635" opacity=".22"/>
+    <path d="M658 232 L702 254 L658 276 L614 254 Z" fill="none" stroke="#C7F09A" stroke-width="2.2" stroke-dasharray="7 5"/>
+    <path d="M614 254 L614 291 M702 254 L702 291 M658 276 L658 313" stroke="#C7F09A" stroke-width="1.8" stroke-dasharray="6 5" opacity=".75"/>
+    <path d="M614 291 L658 313 L702 291" fill="none" stroke="#C7F09A" stroke-width="1.8" stroke-dasharray="6 5" opacity=".75"/>
+  </g>
+
+  <!-- torch planted on the right ground block -->
+  <g>
+    <circle cx="746" cy="296" r="86" fill="url(#torchLight)"/>
+    <rect x="742" y="298" width="8" height="30" fill="#6B4A28"/>
+    <rect x="742" y="298" width="3" height="30" fill="#8A6236"/>
+    <rect x="740" y="286" width="12" height="13" fill="#FFC46B"/>
+    <rect x="742" y="281" width="8" height="8" fill="#FFE9A8"/>
+    <circle cx="746" cy="289" r="22" fill="#FFA733" opacity=".55" filter="url(#mblur)"/>
+  </g>
+
+  <!-- pixel sparks drifting off the new block -->
+  <g fill="#C7F09A">
+    <rect x="596" y="206" width="8" height="8" opacity=".85"/>
+    <rect x="706" y="222" width="6" height="6" opacity=".65"/>
+    <rect x="580" y="244" width="6" height="6" opacity=".5"/>
+    <rect x="686" y="182" width="5" height="5" opacity=".45"/>
+  </g>
+  <g fill="#FFC46B">
+    <rect x="780" y="242" width="6" height="6" opacity=".6"/>
+    <rect x="766" y="212" width="5" height="5" opacity=".45"/>
+  </g>
+</svg>
+
+<!-- MakeCode blocks: what the child actually snaps together -->
+<div class="blocks">
+  <div class="blk ev">on chat command <span class="lit">"castle"</span></div>
+  <div class="loop">
+    <div class="loop-hd">repeat <span class="num">4</span> times</div>
+    <div class="loop-body">
+      <div class="blk ag">agent place block</div>
+      <div class="blk ag">agent move forward <span class="num">1</span></div>
     </div>
   </div>
-  <div class="motif">
-    <span class="px px1"></span><span class="px px2"></span><span class="px px3"></span>
-    <svg width="310" height="220" viewBox="0 0 310 220" fill="none" style="position:absolute;left:0;top:8px">
-      <!-- back grass cube -->
-      <g>
-        <polygon points="155,14 199,36 155,58 111,36" fill="#7CB14E" stroke="#26211B" stroke-width="3" stroke-linejoin="round"/>
-        <polygon points="111,36 155,58 155,106 111,84" fill="#5A8A34" stroke="#26211B" stroke-width="3" stroke-linejoin="round"/>
-        <polygon points="199,36 155,58 155,106 199,84" fill="#48702A" stroke="#26211B" stroke-width="3" stroke-linejoin="round"/>
-      </g>
-      <!-- left dirt cube -->
-      <g>
-        <polygon points="111,62 155,84 111,106 67,84" fill="#A9713F" stroke="#26211B" stroke-width="3" stroke-linejoin="round"/>
-        <polygon points="67,84 111,106 111,154 67,132" fill="#8A5A33" stroke="#26211B" stroke-width="3" stroke-linejoin="round"/>
-        <polygon points="155,84 111,106 111,154 155,132" fill="#6E4426" stroke="#26211B" stroke-width="3" stroke-linejoin="round"/>
-      </g>
-      <!-- right grass cube -->
-      <g>
-        <polygon points="199,62 243,84 199,106 155,84" fill="#7CB14E" stroke="#26211B" stroke-width="3" stroke-linejoin="round"/>
-        <polygon points="155,84 199,106 199,154 155,132" fill="#5A8A34" stroke="#26211B" stroke-width="3" stroke-linejoin="round"/>
-        <polygon points="243,84 199,106 199,154 243,132" fill="#48702A" stroke="#26211B" stroke-width="3" stroke-linejoin="round"/>
-      </g>
-      <!-- front dirt cube -->
-      <g>
-        <polygon points="155,110 199,132 155,154 111,132" fill="#A9713F" stroke="#26211B" stroke-width="3" stroke-linejoin="round"/>
-        <polygon points="111,132 155,154 155,202 111,180" fill="#8A5A33" stroke="#26211B" stroke-width="3" stroke-linejoin="round"/>
-        <polygon points="199,132 155,154 155,202 199,180" fill="#6E4426" stroke="#26211B" stroke-width="3" stroke-linejoin="round"/>
-      </g>
-    </svg>
-    <div class="chip">when block placed</div>
+</div>
+
+<div class="card">
+  <div class="top">
+    <div class="wordmark">
+      <svg width="24" height="24" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <rect width="512" height="512" rx="110" fill="#007bff"/>
+        <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M116 85 C 75 85, 70 120, 70 145 V 225 C 70 250, 50 256, 40 256 C 50 256, 70 262, 70 287 V 367 C 70 392, 75 427, 116 427" stroke-width="12"/>
+          <path d="M396 85 C 437 85, 442 120, 442 145 V 225 C 442 250, 462 256, 472 256 C 462 256, 442 262, 442 287 V 367 C 442 392, 437 427, 396 427" stroke-width="12"/>
+          <line x1="182" y1="190" x2="182" y2="300" stroke-width="10"/>
+          <line x1="330" y1="190" x2="330" y2="300" stroke-width="10"/>
+          <line x1="182" y1="190" x2="262" y2="256" stroke-width="10"/>
+          <line x1="330" y1="190" x2="250" y2="256" stroke-width="10"/>
+        </g>
+        <g fill="#ffffff">
+          <circle cx="182" cy="190" r="41"/>
+          <circle cx="330" cy="190" r="41"/>
+          <path d="M182 256 A 41 41 0 1 0 182 338 C 182 338 182 380 148 412 L 140 420 C 160 420 200 390 223 300 A 41 41 0 0 0 182 256 Z"/>
+          <path d="M330 256 A 41 41 0 1 0 330 338 C 330 338 330 380 296 412 L 288 420 C 308 420 340 390 371 300 A 41 41 0 0 0 330 256 Z"/>
+        </g>
+      </svg>
+      MODERN AGE CODERS
+    </div>
+    <div class="badge">KIDS 7-12</div>
   </div>
-  <div class="bottom"><span>LIVE ONLINE CLASSES</span><span>learn.modernagecoders.com</span></div>
+
+  <div class="titleblock">
+    <div class="kicker">BLOCK CODING COURSE</div>
+    <h1>Minecraft<br><span class="grass">Coding</span></h1>
+    <p class="sub">From code blocks to real programs</p>
+    <p class="meta">16 LIVE WEEKS<i>·</i>AGENT ROBOT<i>·</i>MINI-GAMES</p>
+  </div>
+
+  <div class="bottom"><span>LIVE ONLINE CLASSES</span><span>learn<span class="dot">.</span>modernagecoders<span class="dot">.</span>com</span></div>
 </div>
 </body>
 </html>

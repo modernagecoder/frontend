@@ -4,64 +4,207 @@
 <meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600..900;1,9..144,600..900&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:800px;height:450px;overflow:hidden}
 :root{
-  --paper:#FBF8F2; --ink:#26211B; --muted:#877C6C;
-  --accent:#D9542B; --accent-soft:#F7DCD0;
-  --dot:rgba(38,33,27,.07); --hairline:rgba(38,33,27,.16);
+  --paper:#FBF8F2; --dusk:#A9A6A0;
+  --red-1:#FF8A72; --red-2:#FF5A45; --red-3:#E8382C; --red-4:#8E1F17;
 }
-body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);position:relative}
-body::before{content:"";position:absolute;inset:0;background-image:radial-gradient(var(--dot) 1.2px,transparent 1.2px);background-size:26px 26px}
-.card{position:absolute;inset:0;padding:30px 40px 24px;display:flex;flex-direction:column}
-.top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:2}
-.wordmark{display:flex;align-items:center;gap:11px;font-size:13px;font-weight:800;letter-spacing:.22em}
-.mark{width:17px;height:17px;position:relative;display:inline-block}
-.mark b{position:absolute;left:5px;top:5px;width:15px;height:15px;border:2.5px solid var(--ink)}
-.mark i{position:absolute;left:0;top:0;width:15px;height:15px;background:var(--accent)}
-.badge{border:2.5px solid var(--ink);padding:8px 16px;border-radius:999px;font-weight:800;font-size:13px;letter-spacing:.12em;background:var(--accent);color:#FBF8F2}
-.main{flex:1;display:flex;align-items:center;position:relative;z-index:1}
-.titleblock{max-width:440px}
-.kicker{font-size:12.5px;font-weight:800;letter-spacing:.3em;color:var(--accent);margin-bottom:15px}
-h1{font-family:'Fraunces',Georgia,serif;font-weight:800;font-size:58px;line-height:1.04;letter-spacing:-.01em}
-.sub{margin-top:15px;font-size:16px;line-height:1.45;color:var(--muted);font-weight:500;max-width:380px}
-.bottom{display:flex;justify-content:space-between;align-items:center;border-top:1.5px solid var(--hairline);padding-top:13px;font-size:11px;letter-spacing:.12em;font-weight:700;color:var(--muted);position:relative;z-index:2}
-.motif{position:absolute;right:36px;top:50%;transform:translateY(-50%);width:300px;height:270px}
-.blk{position:absolute;border:3px solid var(--ink);border-radius:12px;box-shadow:5px 5px 0 rgba(38,33,27,.14)}
-.stud{position:absolute;top:-15px;width:28px;height:15px;border:3px solid var(--ink);border-bottom:none;border-radius:9px 9px 0 0}
-.c1{background:#E2593A}
-.c2{background:#EFA63C}
-.c3{background:#2E9E8F}
-.b1{width:98px;height:86px;right:132px;top:22px;transform:rotate(-4deg)}
-.b2{width:122px;height:80px;right:8px;top:66px;transform:rotate(3deg)}
-.b3{width:88px;height:82px;right:148px;top:132px;transform:rotate(2deg)}
-.s1{left:14px}
-.s2{left:54px}
-.chip{position:absolute;right:6px;bottom:26px;font-family:'JetBrains Mono',monospace;font-size:15px;font-weight:700;background:var(--ink);color:var(--paper);padding:9px 13px;border-radius:9px;transform:rotate(-2deg);box-shadow:3px 3px 0 rgba(38,33,27,.18)}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--paper);position:relative;
+  background:linear-gradient(120deg,#1E1F26 0%,#121318 52%,#08090C 100%)}
+/* studio grid */
+body::before{content:"";position:absolute;inset:0;
+  background-image:linear-gradient(rgba(251,248,242,.05) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(251,248,242,.05) 1px,transparent 1px);
+  background-size:32px 32px}
+.glow-a{position:absolute;left:44%;top:-8%;width:560px;height:440px;
+  background:radial-gradient(closest-side,rgba(232,56,44,.26),rgba(232,56,44,.07) 55%,transparent 74%)}
+.glow-b{position:absolute;left:-150px;bottom:-190px;width:520px;height:420px;
+  background:radial-gradient(closest-side,rgba(142,31,23,.34),transparent 70%)}
+.stage-halo{position:absolute;right:120px;bottom:-30px;width:460px;height:340px;
+  background:radial-gradient(closest-side,rgba(255,90,69,.22),transparent 72%)}
+.vignette{position:absolute;inset:0;
+  background:radial-gradient(120% 105% at 46% 42%,transparent 54%,rgba(0,0,0,.5) 100%)}
+.grain{position:absolute;inset:0;opacity:.055;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E")}
+.frame{position:absolute;inset:11px;border:1px solid rgba(232,56,44,.3);border-radius:10px;pointer-events:none;z-index:6}
+
+.card{position:absolute;inset:0;padding:26px 40px 20px;display:flex;flex-direction:column}
+.top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:5}
+.wordmark{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:800;letter-spacing:.2em;color:rgba(251,248,242,.92)}
+.wordmark svg{display:block;border-radius:7px;box-shadow:0 3px 12px rgba(0,0,0,.5)}
+.badge{border:1.5px solid rgba(255,90,69,.75);background:rgba(232,56,44,.16);color:var(--red-1);
+  padding:8px 17px;border-radius:999px;font-weight:800;font-size:13.5px;letter-spacing:.13em;
+  box-shadow:0 0 20px rgba(232,56,44,.3),inset 0 0 14px rgba(232,56,44,.14)}
+
+.titleblock{position:absolute;left:40px;top:114px;max-width:376px;z-index:4}
+.kicker{font-family:'JetBrains Mono',monospace;font-size:12.5px;font-weight:700;letter-spacing:.3em;color:var(--red-2);margin-bottom:15px;display:flex;align-items:center;gap:12px}
+.kicker::before{content:"";width:28px;height:2px;background:linear-gradient(90deg,var(--red-1),var(--red-3))}
+h1{font-family:'Fraunces',Georgia,serif;font-weight:800;font-size:57px;line-height:1.05;letter-spacing:-.015em;color:var(--paper);text-shadow:0 3px 28px rgba(0,0,0,.65)}
+h1 .hot{font-style:italic;font-weight:700;display:inline-block;
+  background:linear-gradient(92deg,var(--red-1) 5%,var(--red-2) 48%,var(--red-3) 95%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none;
+  filter:drop-shadow(0 0 20px rgba(232,56,44,.5));padding-right:.08em}
+.sub{margin-top:14px;font-size:16.5px;line-height:1.45;color:var(--dusk);font-weight:500;max-width:346px}
+.meta{margin-top:13px;font-family:'JetBrains Mono',monospace;font-size:11.5px;font-weight:700;letter-spacing:.09em;color:rgba(255,138,114,.9)}
+.meta i{font-style:normal;color:var(--red-3);padding:0 7px}
+
+.scene{position:absolute;inset:0;z-index:1;
+  -webkit-mask-image:linear-gradient(to bottom,#000 88%,transparent 99%);
+  mask-image:linear-gradient(to bottom,#000 88%,transparent 99%)}
+
+/* Roblox Studio script editor, docked right */
+.editor{position:absolute;right:26px;top:80px;width:280px;z-index:3;border-radius:12px;
+  background:#16171C;border:1px solid rgba(232,56,44,.34);overflow:hidden;
+  box-shadow:0 26px 60px rgba(0,0,0,.66),0 0 44px rgba(232,56,44,.24)}
+.tabs{display:flex;align-items:center;gap:8px;padding:8px 11px;background:#1F2027;border-bottom:1px solid rgba(251,248,242,.07)}
+.tabs .fi{width:11px;height:11px;border-radius:3px;background:var(--red-3);box-shadow:0 0 8px rgba(232,56,44,.7)}
+.tabs .nm{font-family:'JetBrains Mono',monospace;font-size:11.5px;font-weight:600;color:#CFCBC4}
+.tabs .run{margin-left:auto;display:flex;align-items:center;gap:5px;font-family:'JetBrains Mono',monospace;
+  font-size:10px;font-weight:700;letter-spacing:.1em;color:#8DE07A;
+  border:1px solid rgba(141,224,122,.4);background:rgba(141,224,122,.1);padding:3px 8px;border-radius:6px}
+.code{display:flex;padding:10px 0 9px}
+.ln{flex:0 0 28px;text-align:right;padding-right:10px;font-family:'JetBrains Mono',monospace;font-size:11px;line-height:1.7;color:#4C4D55}
+.src{font-family:'JetBrains Mono',monospace;font-size:11px;line-height:1.7;white-space:nowrap;font-weight:500}
+.k{color:#FF6B5A}.v{color:#EFEAE3}.pr{color:#FFB38A}.n{color:#FFC46B}.st{color:#9BD86A}.pn{color:#8FB9F0}
+.out{display:flex;align-items:center;gap:8px;padding:8px 13px;background:#0E0F13;border-top:1px solid rgba(251,248,242,.07);
+  font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:#9BD86A}
+.out b{color:#5F6069;font-weight:700}
+.cur{display:inline-block;width:7px;height:13px;background:#FF8A72;vertical-align:-2px;margin-left:6px;border-radius:1px;box-shadow:0 0 8px rgba(255,138,114,.85)}
+
+.bottom{display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(251,248,242,.16);
+  padding-top:13px;font-size:11px;letter-spacing:.12em;font-weight:700;color:rgba(169,166,160,.85);
+  position:relative;z-index:5;margin-top:auto}
+.bottom .dot{color:var(--red-2)}
 </style>
 </head>
 <body>
-<div class="card">
-  <div class="top">
-    <div class="wordmark"><span class="mark"><b></b><i></i></span>MODERN AGE CODERS</div>
-    <div class="badge">KIDS 8-14</div>
+<div class="glow-a"></div>
+<div class="glow-b"></div>
+<div class="stage-halo"></div>
+<div class="vignette"></div>
+<div class="grain"></div>
+<div class="frame"></div>
+
+<!-- the world the script is acting on: Studio baseplate + a neon part -->
+<svg class="scene" width="800" height="450" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <radialGradient id="partGlow">
+      <stop offset="0" stop-color="#FF5A45" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#FF5A45" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur6" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="blur14" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- baseplate: top, then the two side faces -->
+  <path d="M600 292 L770 350 L600 408 L430 350 Z" fill="#282A31"/>
+  <path d="M430 350 L600 408 L600 422 L430 364 Z" fill="#1A1C21"/>
+  <path d="M770 350 L600 408 L600 422 L770 364 Z" fill="#212329"/>
+  <!-- studio grid on the plate -->
+  <g stroke="rgba(251,248,242,.10)" stroke-width="1">
+    <path d="M472 335 L643 394"/><path d="M515 321 L685 379"/><path d="M558 306 L728 365"/>
+    <path d="M472 365 L643 306"/><path d="M515 379 L685 321"/><path d="M558 394 L728 335"/>
+  </g>
+  <path d="M600 292 L770 350 L600 408 L430 350 Z" fill="none" stroke="rgba(251,248,242,.16)" stroke-width="1.5"/>
+
+  <!-- light pooling under the neon part -->
+  <ellipse cx="500" cy="340" rx="84" ry="40" fill="url(#partGlow)"/>
+
+  <!-- a second, plain part further back for depth -->
+  <g>
+    <path d="M688 322 L714 335 L688 348 L662 335 Z" fill="#3B3E47"/>
+    <path d="M662 335 L688 348 L688 370 L662 357 Z" fill="#25272E"/>
+    <path d="M714 335 L688 348 L688 370 L714 357 Z" fill="#31343C"/>
+    <ellipse cx="678" cy="331" rx="7" ry="3.4" fill="#4A4E58"/>
+    <ellipse cx="698" cy="331" rx="7" ry="3.4" fill="#4A4E58"/>
+  </g>
+
+  <!-- the neon part the script destroys: glowing, studded -->
+  <g>
+    <circle cx="500" cy="330" r="58" fill="#FF5A45" opacity=".34" filter="url(#blur14)"/>
+    <path d="M500 300 L537 318 L500 336 L463 318 Z" fill="#FF6E58"/>
+    <path d="M463 318 L500 336 L500 370 L463 352 Z" fill="#B9251C"/>
+    <path d="M537 318 L500 336 L500 370 L537 352 Z" fill="#E8382C"/>
+    <!-- studs: shaft, then a bright cap -->
+    <ellipse cx="485" cy="318" rx="9.5" ry="4.7" fill="#C93326"/>
+    <ellipse cx="515" cy="318" rx="9.5" ry="4.7" fill="#C93326"/>
+    <ellipse cx="485" cy="312" rx="9.5" ry="4.7" fill="#FFD5C8"/>
+    <ellipse cx="515" cy="312" rx="9.5" ry="4.7" fill="#FFD5C8"/>
+    <ellipse cx="485" cy="311" rx="5.4" ry="2.6" fill="#FFF3EE"/>
+    <ellipse cx="515" cy="311" rx="5.4" ry="2.6" fill="#FFF3EE"/>
+    <!-- edge light -->
+    <path d="M500 300 L537 318 L500 336 L463 318 Z" fill="none" stroke="#FFC0B0" stroke-width="1.4" opacity=".85"/>
+  </g>
+
+  <!-- sparkles: the part being collected -->
+  <g fill="#FFC0B0">
+    <rect x="446" y="266" width="7" height="7" rx="1.5" transform="rotate(18 449 269)" opacity=".9"/>
+    <rect x="558" y="296" width="6" height="6" rx="1.4" transform="rotate(-14 561 299)" opacity=".7"/>
+    <rect x="438" y="308" width="5" height="5" rx="1.2" transform="rotate(24 440 310)" opacity=".6"/>
+    <rect x="596" y="326" width="4.5" height="4.5" rx="1.1" transform="rotate(-20 598 328)" opacity=".5"/>
+    <circle cx="470" cy="250" r="2.6" opacity=".8"/>
+    <circle cx="536" cy="272" r="2" opacity=".55"/>
+  </g>
+</svg>
+
+<!-- Roblox Studio script editor with real Luau -->
+<div class="editor">
+  <div class="tabs">
+    <span class="fi"></span>
+    <span class="nm">CoinScript</span>
+    <span class="run">&#9654; PLAY</span>
   </div>
-  <div class="main">
-    <div class="titleblock">
-      <div class="kicker">GAME CODING COURSE</div>
-      <h1>Roblox Game<br>Coding</h1>
-      <p class="sub">Design and script your own games in Luau</p>
+  <div class="code">
+    <div class="ln">1<br>2<br>3<br>4<br>5<br>6<br>7</div>
+    <div class="src">
+      <div><span class="k">local</span><span class="v"> coin = script.</span><span class="pr">Parent</span></div>
+      <div><span class="k">local</span><span class="v"> points = </span><span class="n">0</span></div>
+      <div><span class="v">coin.</span><span class="pr">Touched</span><span class="v">:</span><span class="pr">Connect</span><span class="v">(</span><span class="k">function</span><span class="v">()</span></div>
+      <div><span class="v">&nbsp;&nbsp;points += </span><span class="n">1</span></div>
+      <div><span class="v">&nbsp;&nbsp;</span><span class="pn">print</span><span class="v">(</span><span class="st">"Score:"</span><span class="v">, points)</span></div>
+      <div><span class="v">&nbsp;&nbsp;coin:</span><span class="pr">Destroy</span><span class="v">()</span></div>
+      <div><span class="k">end</span><span class="v">)</span><span class="cur"></span></div>
     </div>
   </div>
-  <div class="motif">
-    <div class="blk b1 c1"><span class="stud s1 c1"></span><span class="stud s2 c1"></span></div>
-    <div class="blk b2 c2"><span class="stud s1 c2"></span><span class="stud s2 c2"></span></div>
-    <div class="blk b3 c3"><span class="stud s1 c3"></span><span class="stud s2 c3"></span></div>
-    <div class="chip">function onTouch()</div>
+  <div class="out"><b>&#9656;</b> Score: 1</div>
+</div>
+
+<div class="card">
+  <div class="top">
+    <div class="wordmark">
+      <svg width="24" height="24" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <rect width="512" height="512" rx="110" fill="#007bff"/>
+        <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M116 85 C 75 85, 70 120, 70 145 V 225 C 70 250, 50 256, 40 256 C 50 256, 70 262, 70 287 V 367 C 70 392, 75 427, 116 427" stroke-width="12"/>
+          <path d="M396 85 C 437 85, 442 120, 442 145 V 225 C 442 250, 462 256, 472 256 C 462 256, 442 262, 442 287 V 367 C 442 392, 437 427, 396 427" stroke-width="12"/>
+          <line x1="182" y1="190" x2="182" y2="300" stroke-width="10"/>
+          <line x1="330" y1="190" x2="330" y2="300" stroke-width="10"/>
+          <line x1="182" y1="190" x2="262" y2="256" stroke-width="10"/>
+          <line x1="330" y1="190" x2="250" y2="256" stroke-width="10"/>
+        </g>
+        <g fill="#ffffff">
+          <circle cx="182" cy="190" r="41"/>
+          <circle cx="330" cy="190" r="41"/>
+          <path d="M182 256 A 41 41 0 1 0 182 338 C 182 338 182 380 148 412 L 140 420 C 160 420 200 390 223 300 A 41 41 0 0 0 182 256 Z"/>
+          <path d="M330 256 A 41 41 0 1 0 330 338 C 330 338 330 380 296 412 L 288 420 C 308 420 340 390 371 300 A 41 41 0 0 0 330 256 Z"/>
+        </g>
+      </svg>
+      MODERN AGE CODERS
+    </div>
+    <div class="badge">KIDS 8-14</div>
   </div>
-  <div class="bottom"><span>LIVE ONLINE CLASSES</span><span>learn.modernagecoders.com</span></div>
+
+  <div class="titleblock">
+    <div class="kicker">ROBLOX STUDIO COURSE</div>
+    <h1>Roblox Game<br><span class="hot">Coding</span></h1>
+    <p class="sub">Design and script your own games in Luau</p>
+    <p class="meta">24 LIVE WEEKS<i>·</i>PUBLISH A REAL GAME</p>
+  </div>
+
+  <div class="bottom"><span>LIVE ONLINE CLASSES</span><span>learn<span class="dot">.</span>modernagecoders<span class="dot">.</span>com</span></div>
 </div>
 </body>
 </html>
