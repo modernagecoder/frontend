@@ -27,6 +27,10 @@
     letter-spacing: .02em;
 }
 .tm-avatar-lg { width: 132px; height: 132px; font-size: 46px; }
+/* real founder photo uses the same circle as the initials avatar */
+img.tm-avatar { object-fit: cover; background: none; }
+.tm-creds { margin-top: 14px; font-size: 14.5px; line-height: 1.6; opacity: .85; }
+.tm-creds a { font-weight: 600; text-decoration: underline; }
 
 /* ---------- founder ---------- */
 .tm-founder { padding: 20px 0 30px; }

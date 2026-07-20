@@ -12,11 +12,11 @@ The people behind the screen
 
 Every class at Modern Age Coders is taught live by a person who knows your child's name, pace, and goals.
 
-Add founder photo
+![Shivam Khemka, Founder of Modern Age Coders](/images/shivam-khemka.webp)
 
 Founder & Lead Mentor
 
-## Shivam Khemka confirm full-name spelling
+## Shivam Khemka
 
 Known to hundreds of families simply as **Shivam Sir**.
 
@@ -24,7 +24,7 @@ Shivam founded Modern Age Coders in 2020 around one conviction: children do not 
 
 He still teaches every week. Ask the parents: in their Google reviews, families describe him and the mentor team as teachers, life counselors, and friends first.
 
-Add education and credentials lineAdd LinkedIn URL for schema sameAs
+Educated at St. Xavier's College (Autonomous), Kolkata. Founder and CEO of Modern Age Coders, based in Kolkata, West Bengal. [Connect on LinkedIn](https://www.linkedin.com/in/shivam-khemka-modern-age-coders)
 
 > The teaching approach of my legendary teachers, Shivam Sir, Mihir Sir and Sonu Sir, is extraordinary. They were not only my teachers, but also mentors, life counselors and most importantly, a friendly figure.
 
