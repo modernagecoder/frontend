@@ -251,7 +251,16 @@ const req = https.request(
         console.log('  202 means the key file is being verified; that is expected on first use.');
       }
       if (res.statusCode === 403) {
-        console.log(`  403 = key file not reachable. Confirm ${payload.keyLocation} is live.`);
+        // Two very different causes share this code, so read the body before acting.
+        if (/SiteVerificationNotCompleted/i.test(data)) {
+          console.log('  403 (SiteVerificationNotCompleted) = the key file IS reachable, but the');
+          console.log('  search engine has not finished verifying the site yet. This is normal on a');
+          console.log('  freshly published key. Nothing is broken and nothing needs changing:');
+          console.log('  simply wait and re-run the same command later.');
+        } else {
+          console.log(`  403 = key file not reachable. Confirm ${payload.keyLocation} is live`);
+          console.log('  (curl it: it must return 200 and its body must equal the key exactly).');
+        }
       }
       if (res.statusCode === 422) {
         console.log('  422 = URLs do not match the host, or the key does not match.');
