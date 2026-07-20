@@ -1,0 +1,497 @@
+{
+  "meta": {
+    "slug": "ib-diploma-computer-science-course",
+    "taxonomy": "programming",
+    "title": "IB DP Computer Science (New Guide, First Assessment 2027)",
+    "description": "Live online IB Diploma Computer Science classes for the new guide: both themes, the case study in Paper 1, algorithmic thinking in Paper 2 (Python or Java), and full support on the internal assessment.",
+    "keywords": [
+      "ib computer science tuition",
+      "ib dp computer science new syllabus 2027",
+      "ib computer science online classes",
+      "ib computer science internal assessment help",
+      "ib computer science paper 1 paper 2",
+      "ib computer science sl hl tutor",
+      "ib computer science python java",
+      "ib diploma computer science course"
+    ],
+    "category": "IB Diploma Computer Science",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,499/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "Ongoing DP support, joinable any month",
+    "level": "IB Diploma Programme students taking Computer Science at SL or HL",
+    "commitment": "2 live classes/week + coursework and IA support",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "ib-computer-science.png",
+    "date": "2026-07-20",
+    "dateModified": "2026-07-20"
+  },
+  "program_overview": {
+    "title": "IB DP Computer Science",
+    "tagline": "Taught to the new guide, first assessed May 2027, with the internal assessment supported properly instead of left to the last term.",
+    "description": "IB Computer Science changed. The new Diploma Programme guide was launched in February 2025 for first teaching in August 2025, with first assessment in May 2027, and the differences are not cosmetic. Paper 3 has been removed entirely at both SL and HL. The options are gone. The case study is now covered by both SL and HL students and is assessed within Paper 1. Databases and object-oriented programming are now studied at both levels, not just HL. Any course still built around the old structure is preparing students for an examination that no longer exists.\n\nThis course follows the new guide as it stands. The syllabus is organised around two themes: concepts in computer science, and computational thinking and problem-solving. Theme A covers computer fundamentals, networks, databases and machine learning. Theme B is where students learn to actually solve problems with code, which is what Paper 2 tests.\n\nThe programme is built for how the Diploma actually runs. Theory is taught in the syllabus's own order so it lines up with school teaching, the case study is worked properly rather than skimmed the term before the exam, and the internal assessment, the computational solution, is supported from planning through to documentation, with the new emphasis on evidencing the computational thinking process. For Paper 2 we teach Python by default and support Java, since the new guide runs two separate versions of that paper and schools choose one at department level.",
+    "what_makes_this_different": [
+      "Taught to the NEW guide (first teaching 2025, first assessment May 2027): Paper 3 removed, options gone, case study inside Paper 1, databases and OOP at both SL and HL",
+      "The internal assessment is supported from the start, not rescued at the end, including the new emphasis on documenting the computational thinking process",
+      "The case study is worked in depth, because it now applies to SL students too and is assessed in Paper 1",
+      "Paper 2 taught in the language your school chose: Python by default, Java supported, since the guide runs two separate versions of the paper",
+      "Real programming, not slideware: students write and run code every week, which is the only thing that makes Paper 2 tractable",
+      "Live, small batches with work reviewed on the spot, and SL and HL students taught to their own level"
+    ],
+    "learning_path": {
+      "phase_1": "Theme A part one: computer fundamentals, system architecture and networks, with the ethical issues woven through",
+      "phase_2": "Theme A part two: databases and SQL, then machine learning and AI, plus the annual case study",
+      "phase_3": "Theme B: computational thinking, algorithms and OOP in Python or Java, the internal assessment, then full exam practice"
+    },
+    "career_outcomes": [
+      "Strong SL or HL grades across Paper 1 and Paper 2 under the new assessment model",
+      "An internal assessment that is genuinely the student's own work and properly documented",
+      "Real programming ability in Python or Java rather than exam-only familiarity",
+      "A strong base for a computer science or engineering degree application",
+      "Computational thinking that transfers into every other Diploma subject"
+    ]
+  },
+  "phase_1_theme_a_fundamentals_and_networks": {
+    "title": "PHASE 1: Theme A, Computer Fundamentals and Networks",
+    "description": "How computing systems actually work, taught so the Paper 1 answers come from understanding rather than recall.",
+    "month_1_computer_fundamentals": {
+      "title": "Month 1: Computer Fundamentals and System Architecture",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Hardware, Software and the System",
+        "topics": [
+          "The components of a computer system and how they interact",
+          "Primary and secondary memory, and why the distinction matters",
+          "System software versus application software",
+          "The role of the operating system as a resource manager",
+          "Reading a system description and identifying what each part contributes"
+        ],
+        "projects": [
+          "Map a described real system end to end, labelling every hardware and software component"
+        ],
+        "practice": "10 structured questions in IB command-term style"
+      },
+      "week_2": {
+        "title": "System Architecture and the Processor",
+        "topics": [
+          "CPU architecture, registers and buses",
+          "The machine instruction cycle, step by step",
+          "Cache and how it affects real performance",
+          "Binary representation and why everything reduces to it",
+          "Comparing architectures on evidence rather than assertion"
+        ],
+        "projects": [
+          "Trace a full instruction cycle and explain each stage in your own words"
+        ],
+        "practice": "10 architecture questions including compare and evaluate commands"
+      },
+      "week_3": {
+        "title": "Data Representation and Abstraction",
+        "topics": [
+          "Representing numbers, text, images and sound in binary",
+          "Abstraction as the central idea of the whole course",
+          "Why abstraction makes large systems possible",
+          "Identifying the level of abstraction in a described system",
+          "Using precise language, which the IB rewards heavily"
+        ],
+        "projects": [
+          "Describe one everyday system at three different levels of abstraction"
+        ],
+        "practice": "10 representation and abstraction questions",
+        "assessment": "A timed check on computer fundamentals, marked against IB command terms"
+      },
+      "week_4": {
+        "title": "Ethical and Social Issues in Computing",
+        "topics": [
+          "The ethical dimension the guide expects you to weave through every topic",
+          "Privacy, surveillance, data ownership and digital divide",
+          "Building a balanced argument with real stakeholders named",
+          "Why one-sided answers cap your marks on evaluate questions",
+          "Linking ethics to the specific technology in the question"
+        ],
+        "projects": [
+          "Write a balanced evaluation of one real computing controversy, naming stakeholders on both sides"
+        ],
+        "practice": "6 extended-response ethics questions, peer reviewed"
+      }
+    },
+    "month_2_networks": {
+      "title": "Month 2: Networks, Security and the Cloud",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Network Structures and Types",
+        "topics": [
+          "LAN, WAN and the topologies that matter",
+          "Client-server and peer-to-peer models compared",
+          "Network hardware and what each device is responsible for",
+          "Bandwidth, latency and what actually limits real performance",
+          "Choosing and justifying a network design for a scenario"
+        ],
+        "projects": [
+          "Design a network for a described organisation and justify every choice"
+        ],
+        "practice": "10 network-design questions with justification marks"
+      },
+      "week_6": {
+        "title": "Protocols and Data Transmission",
+        "topics": [
+          "Why protocols exist and what would happen without them",
+          "Layers, packets and packet switching",
+          "TCP/IP and HTTP at the depth the guide requires",
+          "Error handling and flow control in plain terms",
+          "Tracing a request across a network"
+        ],
+        "projects": [
+          "Trace a single web request across the layers, naming the protocol at each step"
+        ],
+        "practice": "10 protocol questions at exam standard"
+      },
+      "week_7": {
+        "title": "Cybersecurity",
+        "topics": [
+          "Threats: malware, phishing, denial of service, interception, social engineering",
+          "Encryption, symmetric and asymmetric, explained precisely",
+          "Authentication, access control and firewalls",
+          "Matching a defence to a specific threat, which is where the marks are",
+          "The human factor, usually the real vulnerability"
+        ],
+        "projects": [
+          "Produce a security assessment for a described system with prioritised, justified recommendations"
+        ],
+        "practice": "10 threat-and-mitigation scenarios",
+        "assessment": "End-of-phase test on networks and security"
+      },
+      "week_8": {
+        "title": "Cloud Computing",
+        "topics": [
+          "What cloud computing actually is, beyond the marketing",
+          "Service and deployment models at guide depth",
+          "The genuine advantages and the genuine risks",
+          "Data sovereignty and the ethical questions it raises",
+          "Evaluating whether cloud is right for a described organisation"
+        ],
+        "projects": [
+          "Write a balanced recommendation on moving a described organisation to the cloud"
+        ],
+        "practice": "8 evaluation questions on cloud adoption"
+      }
+    }
+  },
+  "phase_2_databases_machine_learning_and_case_study": {
+    "title": "PHASE 2: Databases, Machine Learning and the Case Study",
+    "description": "The two Theme A areas that are new or expanded for both SL and HL, plus the case study that is now assessed inside Paper 1.",
+    "month_3_databases": {
+      "title": "Month 3: Databases and SQL",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "The Relational Model",
+        "topics": [
+          "Tables, records, fields, primary and foreign keys",
+          "Relationships and why they prevent duplicated data",
+          "Normalisation at the level the guide expects",
+          "Reading and drawing an entity relationship diagram",
+          "Why databases are now examined at SL as well as HL"
+        ],
+        "projects": [
+          "Design a normalised relational schema for a described scenario and draw its ER diagram"
+        ],
+        "practice": "8 schema-design tasks with keys and relationships identified"
+      },
+      "week_10": {
+        "title": "SQL in Practice",
+        "topics": [
+          "SELECT, FROM, WHERE, ORDER BY",
+          "Aggregate functions and GROUP BY",
+          "Joining tables to answer a real question",
+          "INSERT, UPDATE and DELETE",
+          "Turning a written requirement into the query that satisfies it"
+        ],
+        "projects": [
+          "Build a working database and write the queries that answer real questions about it"
+        ],
+        "practice": "12 SQL problems building from single conditions to joins and aggregation"
+      },
+      "week_11": {
+        "title": "Data Storage, Integrity and Ethics",
+        "topics": [
+          "Data integrity, validation and consistency",
+          "Transactions and why they matter",
+          "Backup, recovery and redundancy",
+          "Data protection and the ethics of holding personal data",
+          "Connecting database design to the privacy questions from Phase 1"
+        ],
+        "projects": [
+          "Audit a described database for integrity and privacy risks and recommend fixes"
+        ],
+        "practice": "8 integrity and ethics questions",
+        "assessment": "A timed check on databases and SQL"
+      },
+      "week_12": {
+        "title": "Machine Learning and AI",
+        "topics": [
+          "What machine learning is, and how it differs from ordinary programming",
+          "Supervised and unsupervised learning at guide depth",
+          "Training data, features and why data quality decides outcomes",
+          "Bias in data and its real consequences",
+          "Where AI is genuinely appropriate and where it is not"
+        ],
+        "projects": [
+          "Explain how a described ML system reaches a decision, then identify where bias could enter"
+        ],
+        "practice": "10 machine-learning questions including an ethics evaluation"
+      }
+    },
+    "month_4_case_study_and_theme_b_start": {
+      "title": "Month 4: The Case Study and Computational Thinking",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Working the Annual Case Study",
+        "topics": [
+          "How the case study now sits inside Paper 1 for both SL and HL",
+          "Reading the case study actively rather than passively",
+          "Building a glossary of its specific terminology",
+          "Researching the underlying technology properly",
+          "Anticipating the question types the case study invites"
+        ],
+        "projects": [
+          "Produce a full annotated summary and terminology glossary for the current case study"
+        ],
+        "practice": "Structured questions drawn directly from the case study material"
+      },
+      "week_14": {
+        "title": "Case Study Depth and Application",
+        "topics": [
+          "Linking case study technology back to Theme A concepts",
+          "Preparing evidence-based extended answers",
+          "Handling unfamiliar terminology under exam pressure",
+          "Evaluating solutions proposed within the case study",
+          "Practising the specific command terms it attracts"
+        ],
+        "projects": [
+          "Write two full extended responses on the case study and mark them against the criteria"
+        ],
+        "practice": "Timed case-study responses with feedback",
+        "assessment": "A timed case-study section under Paper 1 conditions"
+      },
+      "week_15": {
+        "title": "Computational Thinking",
+        "topics": [
+          "Decomposition, pattern recognition, abstraction and algorithm design",
+          "Thinking through a problem before writing any code",
+          "Representing a solution as pseudocode and as a flowchart",
+          "Tracing an algorithm accurately with a trace table",
+          "Why this thinking is now explicitly assessed in the IA"
+        ],
+        "projects": [
+          "Take one problem from analysis through to a fully traced algorithm, documenting each thinking step"
+        ],
+        "practice": "10 algorithm-design and trace-table tasks"
+      },
+      "week_16": {
+        "title": "Algorithms and Efficiency",
+        "topics": [
+          "Standard algorithms: searching and sorting",
+          "Comparing algorithms on efficiency rather than preference",
+          "Arrays and collections and when each is right",
+          "Recursion at the depth the guide expects",
+          "Explaining why one algorithm beats another for a given case"
+        ],
+        "projects": [
+          "Implement and compare two searching or sorting algorithms on the same data and report the difference"
+        ],
+        "practice": "10 algorithm and efficiency questions"
+      }
+    }
+  },
+  "phase_3_programming_ia_and_exam_mastery": {
+    "title": "PHASE 3: Programming, the Internal Assessment and Exam Mastery",
+    "description": "Theme B in code, the computational solution built properly, and both papers drilled under timed conditions.",
+    "month_5_programming_and_oop": {
+      "title": "Month 5: Programming and Object-Oriented Programming",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "Programming Fundamentals in Your Paper 2 Language",
+        "topics": [
+          "Variables, data types, input and output",
+          "Selection and iteration, and nesting them cleanly",
+          "Writing readable code that a marker can follow",
+          "Python by default, Java supported, matching the version of Paper 2 your school chose",
+          "Debugging as a method rather than guesswork"
+        ],
+        "projects": [
+          "Write and run a complete program that solves a described problem end to end"
+        ],
+        "practice": "12 short programs, each tested with your own test data"
+      },
+      "week_18": {
+        "title": "Data Structures and File Handling",
+        "topics": [
+          "Arrays, lists and dictionaries or maps",
+          "Two-dimensional structures and traversing them",
+          "Reading from and writing to files",
+          "Choosing the right structure for the problem",
+          "Handling errors and unexpected input"
+        ],
+        "projects": [
+          "Build a program that loads data from a file, processes it and writes a result"
+        ],
+        "practice": "10 data-structure and file-handling programs"
+      },
+      "week_19": {
+        "title": "Object-Oriented Programming (SL and HL)",
+        "topics": [
+          "Classes and objects, and why OOP exists",
+          "Encapsulation with private fields and accessor methods",
+          "Inheritance and polymorphism at guide depth",
+          "Designing a small class hierarchy for a real problem",
+          "Why OOP is now studied at both SL and HL under the new guide"
+        ],
+        "projects": [
+          "Design and implement a small object-oriented solution with at least two related classes"
+        ],
+        "practice": "8 OOP design-and-implement tasks",
+        "assessment": "A timed programming assessment covering structures and OOP"
+      },
+      "week_20": {
+        "title": "Starting the Internal Assessment",
+        "topics": [
+          "What the computational solution actually requires",
+          "Choosing a problem with a real client and genuine scope",
+          "Planning: success criteria, record of tasks, design",
+          "The new emphasis on evidencing the computational thinking process",
+          "Common IA mistakes that cost marks before a line of code is written"
+        ],
+        "projects": [
+          "Agree an IA problem with a real client and complete the planning and design documentation"
+        ],
+        "practice": "Draft planning documents reviewed against the assessment criteria"
+      }
+    },
+    "month_6_ia_completion_and_exams": {
+      "title": "Month 6: Completing the IA and Full Exam Practice",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "Building and Documenting the Solution",
+        "topics": [
+          "Developing the solution in stages against the success criteria",
+          "Documenting techniques used, with justification",
+          "Evidencing the computational thinking process as the new guide expects",
+          "Testing with real data and recording the outcomes",
+          "Keeping the record of tasks honest and current"
+        ],
+        "projects": [
+          "Build the working solution and complete the development documentation"
+        ],
+        "practice": "Weekly IA checkpoints against the published criteria"
+      },
+      "week_22": {
+        "title": "Finishing the IA and the Video",
+        "topics": [
+          "Evaluating the solution against every success criterion",
+          "Client feedback and honest recommendations for improvement",
+          "Producing the required video demonstration",
+          "Final checks on structure, evidence and word limits",
+          "Academic honesty and correct referencing"
+        ],
+        "projects": [
+          "Complete and submit the full internal assessment package"
+        ],
+        "practice": "Final IA review against every criterion",
+        "assessment": "Full IA marked against the official criteria with written feedback"
+      },
+      "week_23": {
+        "title": "Paper 1 Technique",
+        "topics": [
+          "How Paper 1 is structured under the new assessment model",
+          "IB command terms: state, describe, explain, compare, evaluate, and what each is worth",
+          "Structuring an extended response so every mark is reachable",
+          "Handling the case study section confidently",
+          "Managing time so the long questions are not rushed"
+        ],
+        "projects": [
+          "A full timed Paper 1, reviewed question by question with every miss tagged by cause"
+        ],
+        "practice": "Two timed Paper 1 attempts, fully reviewed"
+      },
+      "week_24": {
+        "title": "Paper 2 and Full Mocks",
+        "topics": [
+          "How Paper 2 tests algorithmic thinking rather than recall",
+          "Writing correct code by hand under time",
+          "Reading the problem properly before starting to write",
+          "Full timed mocks on both papers under real conditions",
+          "Turning the error log into a final revision plan"
+        ],
+        "projects": [
+          "Two complete mock examinations across both papers, each fully reviewed"
+        ],
+        "practice": "Repeated full mocks until pacing and accuracy are consistent",
+        "assessment": "Final full mock on both papers, benchmarked against the target grade"
+      }
+    }
+  },
+  "prerequisites": {
+    "title": "What Your Child Needs to Start",
+    "items": [
+      "Enrolment in the IB Diploma Programme taking Computer Science at SL or HL",
+      "A computer that can run Python or Java, which we help set up in the first class",
+      "No prior programming experience is required; everything is taught from the basics",
+      "A willingness to write code every week, since Paper 2 and the IA both depend on it"
+    ]
+  },
+  "who_is_this_for": {
+    "title": "Who This Course Is For",
+    "items": [
+      "IB DP students taking Computer Science at SL or HL under the new guide",
+      "Students whose school teaching is moving faster than their understanding",
+      "Students who are stuck on the internal assessment or have not started it",
+      "Strong students aiming for a 6 or 7 who want the theory and the code both solid",
+      "Students who need the case study worked properly rather than skimmed"
+    ]
+  },
+  "career_paths_after_completion": [
+    "Strong SL or HL Computer Science grades under the new assessment model",
+    "A completed internal assessment that is genuinely the student's own work",
+    "Real programming ability in Python or Java",
+    "A credible foundation for a computer science or engineering degree application",
+    "Computational thinking that transfers across the whole Diploma"
+  ],
+  "course_guarantees": {
+    "title": "Our Commitment to You",
+    "items": [
+      "Taught to the NEW guide, first assessed May 2027, not the retired structure",
+      "Every class is live and small, taught by a real mentor, never a recorded video",
+      "The internal assessment is supported from planning to submission, not rescued at the end",
+      "SL and HL students are taught to their own level within the batch",
+      "A free demo class first, so you can judge the teaching before you pay anything"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is this course taught to the new IB Computer Science guide?",
+      "answer": "Yes. The new DP Computer Science guide was launched in February 2025 for first teaching in August 2025, with first assessment in May 2027. We teach that structure: Paper 3 removed at both SL and HL, options no longer available, the case study covered by SL and HL students and assessed within Paper 1, and databases and object-oriented programming studied at both levels."
+    },
+    {
+      "question": "What actually changed from the old syllabus?",
+      "answer": "The biggest changes are that Paper 3 has been removed entirely at both SL and HL, the options are gone, the case study now applies to SL students too and is assessed inside Paper 1, and databases and OOP are now studied at both SL and HL rather than being HL territory. The internal assessment remains a computational solution but with a new emphasis on documenting the computational thinking process."
+    },
+    {
+      "question": "Do you teach Python or Java for Paper 2?",
+      "answer": "Both are supported. The new guide runs two separate versions of Paper 2, one in Python and one in Java, and schools choose which at department level. We teach Python by default because most students find it clearer, and we teach Java for students whose school selected that version. Tell us which your school chose and we place your child accordingly."
+    },
+    {
+      "question": "Can you help with the internal assessment?",
+      "answer": "Yes, and we start it early rather than rescuing it at the end. We support choosing a problem with a real client, writing the success criteria, the design and record of tasks, building and documenting the solution, testing, the evaluation, and the video. The new guide puts more weight on evidencing the computational thinking process, so we build that documentation as the work happens. The solution must be the student's own work, and we keep it that way."
+    },
+    {
+      "question": "My child is taking SL. Is this course still right?",
+      "answer": "Yes. Under the new guide SL students cover the case study, databases and object-oriented programming too, so the content overlap with HL is larger than it used to be. We teach SL and HL students within the same live batch but to their own required depth, and HL-only extension work is handled separately."
+    },
+    {
+      "question": "How much do the IB Computer Science classes cost?",
+      "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,499 per month, and 1-on-1 classes are ₹4,999 per month. There is a free demo class first, so you can see the teaching before you decide."
+    }
+  ]
+}

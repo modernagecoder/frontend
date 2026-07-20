@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "slug": "pcap-python-certification-prep-course",
+    "taxonomy": "programming",
+    "title": "PCAP Certification Prep: Certified Associate in Python Programming",
+    "description": "Live online PCAP-31-03 preparation covering every exam objective: modules and packages, exceptions, strings, object-oriented Python, generators, closures and file processing, with full timed mock exams.",
+    "keywords": [
+      "pcap certification course",
+      "pcap 31-03 exam preparation",
+      "certified associate in python programming",
+      "pcap python institute certification",
+      "pcap exam training online",
+      "python certification course india",
+      "pcap mock test course",
+      "pcep to pcap upgrade"
+    ],
+    "category": "Python Certification",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,499/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "4 months (16 weeks), joinable any month",
+    "level": "Anyone with basic Python (PCEP level or equivalent) preparing for the PCAP associate certification",
+    "commitment": "2 live classes/week + weekly coding practice and mock questions",
+    "certification": "Course-completion certificate from Modern Age Coders (the PCAP credential itself is awarded by the Python Institute)",
+    "image_path": "pcap-python-certification.png",
+    "date": "2026-07-20",
+    "dateModified": "2026-07-20"
+  },
+  "program_overview": {
+    "title": "PCAP: Certified Associate in Python Programming",
+    "tagline": "Every exam objective taught properly, then drilled against the real format, so you sit the exam already knowing you will pass.",
+    "description": "PCAP, the Certified Associate in Python Programming, is the Python Institute's associate-level credential and the natural step up from PCEP. It is a genuine test of Python fluency rather than a quiz: the current PCAP-31-03 exam is 40 questions in single-choice and multiple-choice form, taken in 65 minutes, with a pass mark of 70 percent, which means at least 28 correct answers. It is delivered through Pearson VUE test centres or OnVUE online proctoring, and the exam fee is set by the Python Institute (currently around USD 295), paid directly to them.\n\nWhat makes PCAP harder than it looks is that it examines the parts of Python most self-taught programmers skip. Modules and packages. Exception handling done properly, not a bare try block. String methods in detail. Object-oriented Python including class variables and inheritance. Generators, closures and list comprehensions. File processing. Plenty of working developers write Python daily and still miss these, because everyday scripting never forces them.\n\nThis course covers every objective in that list and treats the exam format as a skill of its own. You write real code every week, then answer questions in the exact style the exam uses, including the ones designed to punish a guess. The last month is full timed mocks with question-by-question review, so by the time you book the test you already know your score range.",
+    "what_makes_this_different": [
+      "Built around the current PCAP-31-03 objectives: modules and packages, exceptions, strings, OOP, generators and closures, and file processing",
+      "Taught as real Python first and exam technique second, so the knowledge survives after the certificate",
+      "The exam format is practised deliberately: 40 questions in 65 minutes at a 70 percent pass mark leaves no room for slow reading",
+      "Covers the topics self-taught programmers usually miss, which is exactly where PCAP candidates fail",
+      "Full timed mock exams with question-by-question review and an error log, so weak areas are fixed before test day",
+      "Live, small batches where your code is reviewed on the spot, not recorded videos watched alone"
+    ],
+    "learning_path": {
+      "phase_1": "Modules, packages, strings and exception handling done to exam depth",
+      "phase_2": "Object-oriented Python: classes, class variables, inheritance, polymorphism and special methods",
+      "phase_3": "Generators, closures, comprehensions, file processing, then full timed mock exams"
+    },
+    "career_outcomes": [
+      "Readiness to sit and pass PCAP-31-03 with a known, tested score range",
+      "A vendor-recognised Python credential for your CV and LinkedIn",
+      "Genuine fluency in the intermediate Python most self-taught developers skip",
+      "A clean base for automation, backend, data or test-engineering work",
+      "A credible step toward the professional-level Python certifications"
+    ]
+  },
+  "phase_1_modules_strings_exceptions": {
+    "title": "PHASE 1: Modules, Packages, Strings and Exceptions",
+    "description": "The first block of exam objectives, taught as real Python and drilled in exam form.",
+    "month_1_modules_and_packages": {
+      "title": "Month 1: Modules, Packages and the Standard Library",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Importing and Module Basics",
+        "topics": [
+          "import, from-import, and aliasing, and how each affects the namespace",
+          "What actually happens when Python imports a module",
+          "The __name__ variable and the main guard",
+          "Where Python looks for modules, and sys.path",
+          "Exam traps around name collisions and shadowing"
+        ],
+        "projects": [
+          "Write a small multi-module program and import across it every supported way"
+        ],
+        "practice": "20 exam-style questions on imports and namespaces"
+      },
+      "week_2": {
+        "title": "Standard Library Essentials",
+        "topics": [
+          "math, random, platform and datetime as the exam uses them",
+          "Reading the documentation quickly and correctly",
+          "Predicting output from unfamiliar standard-library calls",
+          "Common function signatures worth memorising",
+          "Where the exam prefers a specific idiom"
+        ],
+        "projects": [
+          "Solve a set of tasks using only the standard library, no third-party packages"
+        ],
+        "practice": "20 output-prediction questions on standard-library calls"
+      },
+      "week_3": {
+        "title": "Packages, __init__ and Distribution",
+        "topics": [
+          "How a package differs from a module",
+          "The role of __init__.py",
+          "Nested packages and relative versus absolute imports",
+          "pip and dependency basics at exam depth",
+          "Structuring a small package correctly"
+        ],
+        "projects": [
+          "Build a small package with nested sub-packages and import from it correctly"
+        ],
+        "practice": "15 package-structure and import questions",
+        "assessment": "Timed section test on modules and packages"
+      },
+      "week_4": {
+        "title": "Strings in Depth",
+        "topics": [
+          "Strings as immutable sequences, and what that implies",
+          "Slicing, including negative indices and steps",
+          "The string methods the exam actually tests, in detail",
+          "Escape sequences, raw strings and formatting",
+          "Comparing strings, and the ordering rules"
+        ],
+        "projects": [
+          "Write a text-processing utility using only string methods, no regular expressions"
+        ],
+        "practice": "25 string-method and slicing questions, mostly output prediction"
+      }
+    },
+    "month_2_exceptions_and_practice": {
+      "title": "Month 2: Exception Handling and Consolidation",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "The Exception Hierarchy",
+        "topics": [
+          "try, except, else and finally, and the exact order they run in",
+          "The built-in exception hierarchy and why the order of except clauses matters",
+          "Catching specific exceptions instead of bare except",
+          "raise, and re-raising inside a handler",
+          "Predicting which handler catches what"
+        ],
+        "projects": [
+          "Take a fragile script and make it robust with correctly ordered handlers"
+        ],
+        "practice": "20 exception-flow questions, mostly trace-the-output"
+      },
+      "week_6": {
+        "title": "Custom Exceptions and Defensive Code",
+        "topics": [
+          "Defining your own exception classes",
+          "Inheriting from the right base exception",
+          "assert and where it belongs",
+          "Exception chaining and context",
+          "Writing code that fails clearly rather than silently"
+        ],
+        "projects": [
+          "Design a small exception hierarchy for a described domain and use it properly"
+        ],
+        "practice": "15 custom-exception questions",
+        "assessment": "Timed section test on exception handling"
+      },
+      "week_7": {
+        "title": "Data Aggregates Refresher",
+        "topics": [
+          "Lists, tuples, dictionaries and sets, and the exam-relevant differences",
+          "Mutability and the aliasing traps the exam loves",
+          "Copying: assignment versus shallow versus deep",
+          "Dictionary methods and safe key access",
+          "Sorting with keys and reverse"
+        ],
+        "projects": [
+          "Solve a data-shaping task choosing the right structure at each step and justifying it"
+        ],
+        "practice": "25 questions on aggregates, heavy on mutability traps"
+      },
+      "week_8": {
+        "title": "Functions, Scope and Arguments",
+        "topics": [
+          "Positional, keyword and default arguments",
+          "*args and **kwargs and how they bind",
+          "Scope, the LEGB rule, and the global and nonlocal keywords",
+          "The mutable-default-argument trap",
+          "Recursion at exam depth"
+        ],
+        "projects": [
+          "Write functions exercising every argument form, then predict their behaviour before running them"
+        ],
+        "practice": "25 scope and argument-binding questions",
+        "assessment": "End-of-phase test across everything so far, in exam format"
+      }
+    }
+  },
+  "phase_2_object_oriented_python": {
+    "title": "PHASE 2: Object-Oriented Python",
+    "description": "The block that decides most PCAP results, taught until class behaviour is predictable rather than surprising.",
+    "month_3_oop": {
+      "title": "Month 3: Classes, Inheritance and Special Methods",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Classes, Instances and Attributes",
+        "topics": [
+          "Defining classes, __init__, and instance attributes",
+          "Instance variables versus class variables, the single biggest PCAP trap",
+          "How attribute lookup actually resolves",
+          "Name mangling and the single and double underscore conventions",
+          "Adding attributes dynamically and what that does"
+        ],
+        "projects": [
+          "Build a class where class and instance variables are deliberately contrasted, then predict every output"
+        ],
+        "practice": "25 questions on class versus instance attributes"
+      },
+      "week_10": {
+        "title": "Inheritance and Polymorphism",
+        "topics": [
+          "Single and multiple inheritance",
+          "Method resolution order and how Python decides",
+          "Overriding, and calling the parent with super()",
+          "isinstance and issubclass, and when each is correct",
+          "Polymorphism in practice"
+        ],
+        "projects": [
+          "Design a class hierarchy with overriding and demonstrate the resolution order"
+        ],
+        "practice": "25 inheritance and MRO questions"
+      },
+      "week_11": {
+        "title": "Special Methods and Introspection",
+        "topics": [
+          "__str__ and __repr__ and the difference the exam tests",
+          "Operator overloading with special methods",
+          "__dict__, and inspecting objects at runtime",
+          "Properties and controlled attribute access",
+          "Composition versus inheritance"
+        ],
+        "projects": [
+          "Write a class with operator overloading and full introspection support"
+        ],
+        "practice": "20 special-method questions",
+        "assessment": "Timed OOP section test in exam format"
+      },
+      "week_12": {
+        "title": "OOP Consolidation",
+        "topics": [
+          "Working through the OOP question styles the exam repeats",
+          "Reading unfamiliar class code quickly and accurately",
+          "Spotting the deliberate misdirection in the options",
+          "Common wrong answers and why they look right",
+          "Building speed without losing accuracy"
+        ],
+        "projects": [
+          "A full OOP-only mock section, reviewed question by question"
+        ],
+        "practice": "40 mixed OOP questions under time"
+      }
+    }
+  },
+  "phase_3_advanced_files_and_mocks": {
+    "title": "PHASE 3: Generators, Closures, File Processing and Full Mocks",
+    "description": "The last objectives, then the exam itself rehearsed until the result is predictable.",
+    "month_4_advanced_and_exam": {
+      "title": "Month 4: Advanced Python and Exam Rehearsal",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Comprehensions, Generators and Iterators",
+        "topics": [
+          "List, dictionary and set comprehensions, including conditions",
+          "The iterator protocol: __iter__ and __next__",
+          "Generator functions and the yield keyword",
+          "Generator expressions and lazy evaluation",
+          "Why a generator is not a list, and what breaks if you forget"
+        ],
+        "projects": [
+          "Rewrite an eager data pipeline as a lazy generator pipeline and compare behaviour"
+        ],
+        "practice": "25 comprehension and generator output questions"
+      },
+      "week_14": {
+        "title": "Closures, Lambdas and Functional Tools",
+        "topics": [
+          "Lambda functions and their limits",
+          "Closures, and what a nested function captures",
+          "nonlocal in a closure",
+          "map, filter and sorted with key functions",
+          "Functions as first-class objects"
+        ],
+        "projects": [
+          "Build a small closure-based counter and function factory"
+        ],
+        "practice": "20 closure and lambda questions",
+        "assessment": "Timed section test on generators and closures"
+      },
+      "week_15": {
+        "title": "File Processing",
+        "topics": [
+          "Opening files: modes, and text versus binary",
+          "Reading with read, readline and readlines, and iterating a file",
+          "Writing and appending safely",
+          "The with statement and why it is the correct idiom",
+          "Handling file exceptions properly, tying back to Phase 1"
+        ],
+        "projects": [
+          "Write a program that reads, transforms and writes files with full error handling"
+        ],
+        "practice": "20 file-processing questions"
+      },
+      "week_16": {
+        "title": "Full Timed Mock Exams",
+        "topics": [
+          "Full mocks at the real format: 40 questions in 65 minutes",
+          "Pacing so no question is left unread, since there is no penalty for answering",
+          "Eliminating options systematically on multiple-response questions",
+          "Turning the error log into a final revision list",
+          "Booking the exam: Pearson VUE test centre or OnVUE online proctoring"
+        ],
+        "projects": [
+          "Three complete timed mock exams, each reviewed question by question"
+        ],
+        "practice": "Repeated full mocks until you clear 70 percent consistently with margin",
+        "assessment": "Final full mock scored against the 70 percent pass mark, with a go or no-go recommendation"
+      }
+    }
+  },
+  "prerequisites": {
+    "title": "What You Need to Start",
+    "items": [
+      "Basic Python already: variables, conditionals, loops and simple functions, roughly PCEP level",
+      "A computer that can run Python 3, which we help set up in the first class",
+      "No prior certification is required; PCEP is helpful but not mandatory",
+      "Time for weekly coding practice, since PCAP tests fluency rather than recall"
+    ]
+  },
+  "who_is_this_for": {
+    "title": "Who This Course Is For",
+    "items": [
+      "Self-taught Python users who want a recognised credential to prove it",
+      "PCEP holders taking the natural next step",
+      "College students and job seekers who need something verifiable on the CV",
+      "Working professionals moving into automation, testing, backend or data roles",
+      "Anyone who writes Python daily but has never learned generators, closures or proper OOP"
+    ]
+  },
+  "career_paths_after_completion": [
+    "PCAP certification, a vendor-recognised associate-level Python credential",
+    "Junior Python developer, automation engineer or QA automation roles",
+    "A solid base for data analysis and backend development",
+    "A credible step toward the professional-level Python certifications",
+    "Genuine intermediate Python fluency that outlives the certificate"
+  ],
+  "course_guarantees": {
+    "title": "Our Commitment to You",
+    "items": [
+      "Every objective on the current PCAP-31-03 exam is covered, not a selective subset",
+      "Every class is live and small, with your code reviewed on the spot",
+      "Full timed mocks at the real format, so you know your score range before booking",
+      "An honest go or no-go recommendation before you pay the exam fee",
+      "A free demo class first, so you can judge the teaching before you pay anything"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What exactly is the PCAP exam?",
+      "answer": "PCAP is the Certified Associate in Python Programming from the Python Institute. The current version, PCAP-31-03, is 40 questions in single-choice and multiple-choice form, taken in 65 minutes, with a pass mark of 70 percent, meaning at least 28 correct answers. It is delivered through Pearson VUE test centres or OnVUE online proctoring."
+    },
+    {
+      "question": "How much does the exam cost, and is it included?",
+      "answer": "The exam fee is set by the Python Institute and paid directly to them, currently around USD 295, and it is not included in the course fee. We prepare you for it and give an honest go or no-go recommendation from your mock scores before you book, so you do not pay the fee until you are consistently clearing the pass mark."
+    },
+    {
+      "question": "What does PCAP actually test?",
+      "answer": "The objectives cover modules and packages, exception handling, strings, object-oriented programming including class variables and inheritance, generators and closures, list comprehensions, and file processing, along with data aggregates like tuples and dictionaries. It is precisely the intermediate Python that self-taught programmers tend to skip, which is why candidates who write Python daily still fail it."
+    },
+    {
+      "question": "Do I need PCEP first?",
+      "answer": "No. PCEP is helpful but not required. What you do need is working basic Python: variables, conditionals, loops and simple functions. If you have that, this course takes you from there to PCAP standard. If you are starting from zero, begin with a foundational Python course first and come to this one after."
+    },
+    {
+      "question": "How long does it take to be ready?",
+      "answer": "The course runs four months across 16 weeks with two live classes a week plus weekly practice. Readiness depends on your starting point and how much you code between classes. We do not guess: the final month is full timed mocks, and we recommend booking the exam only once you are consistently clearing 70 percent with margin."
+    },
+    {
+      "question": "How much do the PCAP classes cost?",
+      "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,499 per month, and 1-on-1 classes are ₹4,999 per month. The Python Institute exam fee is separate. There is a free demo class first."
+    }
+  ]
+}

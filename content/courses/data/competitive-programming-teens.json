@@ -1,0 +1,356 @@
+{
+  "meta": {
+    "slug": "competitive-programming-for-teens-course",
+    "taxonomy": "programming",
+    "title": "Competitive Programming for Teens: ZCO, INOI and USACO Track",
+    "description": "Live online competitive programming for teenagers: algorithms, data structures and contest technique aimed at the Indian informatics olympiad path and USACO, taught in C++ or Python.",
+    "keywords": [
+      "competitive programming for teens",
+      "inoi preparation course",
+      "zco zio coaching online",
+      "usaco training india",
+      "informatics olympiad classes",
+      "competitive coding for school students",
+      "codeforces training for beginners",
+      "algorithms and data structures for teens"
+    ],
+    "category": "Competitive Programming",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,499/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks), joinable any month",
+    "level": "Teens aged 13 to 18 who can already write basic programs and want contest-level problem solving",
+    "commitment": "2 live classes/week + weekly problem sets and virtual contests",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "competitive-programming-teens.png",
+    "date": "2026-07-20",
+    "dateModified": "2026-07-20"
+  },
+  "program_overview": {
+    "title": "Competitive Programming for Teens",
+    "tagline": "Real algorithmic problem solving, aimed squarely at the informatics olympiad path and USACO, taught by solving problems rather than watching them being solved.",
+    "description": "Competitive programming is the fastest way a teenager can become genuinely good at algorithms, because a contest gives you an honest verdict in seconds. Your solution is correct and fast enough, or it is not. Nothing else in school works quite like that.\n\nThis course takes a student who can already write basic programs and builds the actual competitive toolkit: complexity analysis, the core data structures, the standard algorithm families, and the contest craft that separates a solved problem from a time-limit-exceeded verdict. In India, the informatics olympiad path runs through zonal qualifiers, ZCO and ZIO, into INOI, the Indian National Olympiad in Informatics, and onward through the training camp toward the International Olympiad in Informatics. Internationally, USACO runs its own laddered divisions from Bronze up through Silver, Gold and Platinum. Both reward the same underlying skill, so we train for the skill and prepare for both formats.\n\nStudents work in C++ or Python. C++ is the pragmatic default at higher levels because of its speed and its standard template library, and we teach it properly for students who want to go far. Python is fully supported for students who prefer it and is entirely adequate for the earlier stages. Every week ends with a timed virtual contest and a proper upsolve, because the problems you failed to solve during the contest are where nearly all the improvement actually comes from.",
+    "what_makes_this_different": [
+      "Aimed at the real contest ladder: zonal qualifiers and INOI in India, and the USACO divisions internationally",
+      "Taught by solving, not by watching: every class has students writing code against a judge",
+      "Complexity analysis from week one, because most failed submissions are correct but too slow",
+      "Weekly timed virtual contests followed by a structured upsolve, which is where the actual improvement happens",
+      "C++ taught properly for students aiming high, Python fully supported for those who prefer it",
+      "Live, small batches with solutions reviewed line by line, not a video library"
+    ],
+    "learning_path": {
+      "phase_1": "Complexity, the core data structures, sorting and searching, and reading a problem statement correctly",
+      "phase_2": "The standard algorithm families: greedy, two pointers, prefix sums, recursion, graphs and dynamic programming",
+      "phase_3": "Contest craft, harder problem sets, and full timed contests with upsolve discipline"
+    },
+    "career_outcomes": [
+      "Genuine readiness for zonal qualifiers, INOI and the USACO divisions",
+      "Algorithmic ability that makes school computer science trivial by comparison",
+      "A real advantage in university admissions and later technical interviews",
+      "The habit of proving a solution is fast enough before submitting it",
+      "A foundation for research, engineering or any quantitative field"
+    ]
+  },
+  "phase_1_foundations": {
+    "title": "PHASE 1: Foundations and Core Data Structures",
+    "description": "The tools every contest problem assumes you already have, built until they are automatic.",
+    "month_1_complexity_and_basics": {
+      "title": "Month 1: Complexity, Arrays and Strings",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Setup, Judges and Big-O",
+        "topics": [
+          "Setting up a contest environment and submitting to an online judge",
+          "Reading a problem statement precisely, including the constraints",
+          "Time and space complexity, and reading the limits to infer the intended solution",
+          "Why an O(n squared) solution fails when n is 200,000",
+          "Fast input and output, which silently costs beginners real points"
+        ],
+        "projects": [
+          "Submit your first ten problems and read every verdict, including the failures"
+        ],
+        "practice": "15 warm-up problems with a written complexity estimate before each submission"
+      },
+      "week_2": {
+        "title": "Arrays, Sorting and Binary Search",
+        "topics": [
+          "Sorting with custom comparators",
+          "Binary search on an array, and the off-by-one errors that ruin it",
+          "Binary search on the answer, a technique that unlocks many problems",
+          "Two pointers and the sliding window",
+          "Recognising which of these a statement is hinting at"
+        ],
+        "projects": [
+          "Solve a set of problems where binary search on the answer is the intended solution"
+        ],
+        "practice": "20 sorting and searching problems on a judge"
+      },
+      "week_3": {
+        "title": "Prefix Sums, Strings and Number Theory Basics",
+        "topics": [
+          "Prefix sums and difference arrays for range queries",
+          "String basics: frequency counts, palindromes, simple hashing ideas",
+          "GCD, modular arithmetic and why answers are taken modulo a prime",
+          "Sieve of Eratosthenes and simple primality",
+          "Avoiding integer overflow, a classic silent failure"
+        ],
+        "projects": [
+          "Build a small library of your own tested helper functions"
+        ],
+        "practice": "20 problems across prefix sums, strings and basic number theory",
+        "assessment": "First timed virtual contest, followed by a full upsolve"
+      },
+      "week_4": {
+        "title": "Stacks, Queues and the Standard Library",
+        "topics": [
+          "Stacks and queues and the problems that signal them",
+          "Deques and priority queues",
+          "Using the C++ STL containers properly, or Python's equivalents",
+          "Choosing the right container for the operation you repeat most",
+          "Writing clean code fast, since contests are timed"
+        ],
+        "projects": [
+          "Solve a monotonic stack problem and explain why the stack is the right structure"
+        ],
+        "practice": "20 data-structure problems"
+      }
+    },
+    "month_2_recursion_and_graphs_intro": {
+      "title": "Month 2: Recursion, Backtracking and First Graphs",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Recursion and Backtracking",
+        "topics": [
+          "Writing recursion you can reason about",
+          "The recursion tree and its cost",
+          "Backtracking with pruning",
+          "Generating permutations and subsets",
+          "When recursion is elegant and when it is simply too slow"
+        ],
+        "projects": [
+          "Solve a classic constraint problem with backtracking and measure the effect of each pruning rule"
+        ],
+        "practice": "15 recursion and backtracking problems"
+      },
+      "week_6": {
+        "title": "Graph Representation, BFS and DFS",
+        "topics": [
+          "Adjacency lists versus matrices, and when each is right",
+          "Depth-first search and its uses",
+          "Breadth-first search and shortest paths on unweighted graphs",
+          "Connected components and cycle detection",
+          "Recognising a graph problem that is not described as one"
+        ],
+        "projects": [
+          "Model a described real-world scenario as a graph and solve it with BFS"
+        ],
+        "practice": "20 graph traversal problems"
+      },
+      "week_7": {
+        "title": "Greedy Algorithms",
+        "topics": [
+          "What makes a greedy choice valid",
+          "Classic greedy problems: intervals, scheduling, coin-style problems",
+          "Proving a greedy solution correct, at least informally",
+          "Why an untested greedy hunch is the most common wrong answer",
+          "Knowing when greedy fails and DP is required"
+        ],
+        "projects": [
+          "Solve an interval-scheduling set and write a short argument for why the greedy rule works"
+        ],
+        "practice": "20 greedy problems with written justifications",
+        "assessment": "Timed contest plus upsolve, with an error log started"
+      },
+      "week_8": {
+        "title": "Contest Technique",
+        "topics": [
+          "Reading the whole problem set first and ranking by difficulty",
+          "Deciding fast whether to commit to a problem or move on",
+          "Writing test cases before submitting",
+          "Debugging under time pressure",
+          "Handling a wrong answer without panicking"
+        ],
+        "projects": [
+          "A full contest run with a written post-mortem of every decision"
+        ],
+        "practice": "Two timed contests with structured upsolve"
+      }
+    }
+  },
+  "phase_2_core_algorithms": {
+    "title": "PHASE 2: The Core Algorithm Families",
+    "description": "The material that separates a zonal qualifier from a national-level contestant.",
+    "month_3_dynamic_programming": {
+      "title": "Month 3: Dynamic Programming",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Introduction to Dynamic Programming",
+        "topics": [
+          "Recognising overlapping subproblems and optimal substructure",
+          "Memoisation versus bottom-up tabulation",
+          "Defining the state, which is the whole difficulty",
+          "Classic one-dimensional DP problems",
+          "Counting the states to get the complexity right"
+        ],
+        "projects": [
+          "Solve the same problem both top-down and bottom-up and compare"
+        ],
+        "practice": "20 introductory DP problems"
+      },
+      "week_10": {
+        "title": "Knapsack and Grid DP",
+        "topics": [
+          "The knapsack family and its variants",
+          "Two-dimensional DP on grids",
+          "Subset-sum style problems",
+          "Reconstructing the actual answer, not just its value",
+          "Space optimisation with rolling arrays"
+        ],
+        "projects": [
+          "Solve a knapsack variant and reconstruct the chosen items"
+        ],
+        "practice": "20 knapsack and grid DP problems"
+      },
+      "week_11": {
+        "title": "DP on Sequences and Intervals",
+        "topics": [
+          "Longest increasing subsequence and its faster form",
+          "Edit distance and sequence alignment",
+          "Interval DP",
+          "Bitmask DP as an introduction",
+          "Spotting the state definition from the constraints"
+        ],
+        "projects": [
+          "Implement LIS in both the quadratic and the faster form and compare on large input"
+        ],
+        "practice": "20 sequence and interval DP problems",
+        "assessment": "Timed DP-focused contest with upsolve"
+      },
+      "week_12": {
+        "title": "Weighted Graphs and Shortest Paths",
+        "topics": [
+          "Dijkstra with a priority queue",
+          "Bellman-Ford and negative edges",
+          "Floyd-Warshall for all pairs",
+          "Minimum spanning trees",
+          "Disjoint set union and its uses"
+        ],
+        "projects": [
+          "Solve a routing problem with Dijkstra and justify the data structures chosen"
+        ],
+        "practice": "20 weighted-graph problems"
+      }
+    }
+  },
+  "phase_3_contest_mastery": {
+    "title": "PHASE 3: Contest Mastery and Olympiad Preparation",
+    "description": "Harder problems and the discipline that turns knowledge into a rank.",
+    "month_4_advanced_and_contests": {
+      "title": "Months 4 to 6: Advanced Topics and Full Contests",
+      "weeks": "Weeks 13-24",
+      "week_13_16": {
+        "title": "Advanced Structures and Techniques",
+        "topics": [
+          "Segment trees and range queries",
+          "Binary indexed trees",
+          "Trees: rooting, depth, subtree sums and lowest common ancestor",
+          "String algorithms at contest level",
+          "Choosing the simplest structure that is fast enough"
+        ],
+        "projects": [
+          "Implement a segment tree from scratch and use it on a real range-query problem"
+        ],
+        "practice": "30 problems across advanced structures"
+      },
+      "week_17_20": {
+        "title": "Olympiad-Style Problem Sets",
+        "topics": [
+          "Working past problems in the style of the zonal rounds and INOI",
+          "USACO division problems from Bronze upward",
+          "Multi-part problems and partial scoring",
+          "Managing a long contest without losing focus",
+          "Building a personal template and checklist"
+        ],
+        "projects": [
+          "Complete full past sets under time and grade them honestly"
+        ],
+        "practice": "Weekly full-length problem sets with structured upsolve"
+      },
+      "week_21_24": {
+        "title": "Full Contests, Upsolve and Peak Form",
+        "topics": [
+          "Weekly full timed contests under real conditions",
+          "The upsolve discipline: every unsolved problem revisited until solved unaided",
+          "Reading the error log to find your actual weakness",
+          "Contest-day routine and nerves",
+          "Choosing the right target contests for your level"
+        ],
+        "projects": [
+          "A full contest every week with a written post-mortem"
+        ],
+        "practice": "Continuous contest and upsolve cycle",
+        "assessment": "Final rated contest performance reviewed against your starting baseline"
+      }
+    }
+  },
+  "prerequisites": {
+    "title": "What Your Child Needs to Start",
+    "items": [
+      "Age roughly 13 to 18, and able to already write basic programs with loops, conditionals and functions",
+      "Comfort in C++ or Python; we teach the contest-relevant parts of whichever you choose",
+      "A computer that can run a compiler or Python and submit to an online judge",
+      "Willingness to solve problems between classes, since contests reward practice volume more than talent"
+    ]
+  },
+  "who_is_this_for": {
+    "title": "Who This Course Is For",
+    "items": [
+      "Teens aiming at the zonal qualifiers, INOI and the informatics olympiad path in India",
+      "Students targeting USACO divisions from Bronze upward",
+      "Strong school programmers who find their computer science class far too easy",
+      "Students who want a genuine edge for competitive university admissions",
+      "Anyone who enjoys hard problems more than tutorials"
+    ]
+  },
+  "career_paths_after_completion": [
+    "Readiness for zonal qualifiers, INOI and USACO divisions",
+    "Algorithmic strength that makes school computer science straightforward",
+    "A real advantage in university applications and technical interviews",
+    "A foundation for research or engineering in any quantitative field",
+    "Problem-solving stamina that transfers well beyond programming"
+  ],
+  "course_guarantees": {
+    "title": "Our Commitment to You",
+    "items": [
+      "Every class involves writing code against a real judge, not watching solutions",
+      "Weekly timed contests with a structured upsolve, because that is where improvement comes from",
+      "Complexity analysis taught from week one, so students stop submitting correct but too-slow code",
+      "C++ taught properly for students aiming high, Python fully supported for those who prefer it",
+      "A free demo class first, so you can judge the teaching before you pay anything"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Which contests does this prepare for?",
+      "answer": "In India, the informatics olympiad path runs through the zonal qualifiers, ZCO and ZIO, into INOI, the Indian National Olympiad in Informatics, and onward through the training camp toward the International Olympiad in Informatics. Internationally we prepare students for the USACO divisions from Bronze upward. Both test the same underlying algorithmic skill, so the training serves either."
+    },
+    {
+      "question": "Should my child use C++ or Python?",
+      "answer": "Both are supported. Python is entirely adequate for the earlier stages and many students start there. C++ is the pragmatic choice at higher levels because of its speed and standard template library, and time limits eventually make that matter. We teach C++ properly for students aiming at the later rounds, and we never force a switch before it is useful."
+    },
+    {
+      "question": "Does my child need to be a strong programmer already?",
+      "answer": "They need working basics: loops, conditionals, functions and arrays. They do not need any algorithms background, which is what the course builds. What matters far more than existing skill is willingness to solve problems between classes, because in competitive programming practice volume beats natural talent almost every time."
+    },
+    {
+      "question": "What is upsolving and why does it matter so much?",
+      "answer": "Upsolving means going back after a contest and solving the problems you could not solve during it, until you can do them unaided. It is where nearly all real improvement happens, and it is the single habit that separates students who plateau from students who keep climbing. Every contest in this course is followed by a structured upsolve."
+    },
+    {
+      "question": "How much do the competitive programming classes cost?",
+      "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,499 per month, and 1-on-1 classes are ₹4,999 per month. There is a free demo class first, so you can see the teaching before you decide."
+    }
+  ]
+}

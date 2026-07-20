@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "slug": "ai-literacy-for-kids-course",
+    "taxonomy": "ai-ml",
+    "title": "AI Literacy for Kids (Ages 8 to 14): Understand AI, Do Not Just Use It",
+    "description": "Live online AI literacy classes for ages 8 to 14. Children learn how AI actually works, how it learns from data, where it goes wrong, and how to judge it, with age-appropriate supervised tools.",
+    "keywords": [
+      "ai classes for kids",
+      "ai literacy for children",
+      "how to teach kids about ai",
+      "ai course for kids 8 to 14",
+      "artificial intelligence classes for children",
+      "ai for middle school students",
+      "safe ai learning for kids",
+      "ai and machine learning for kids"
+    ],
+    "category": "AI Literacy for Kids",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,499/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "4 months (16 weeks), joinable any month",
+    "level": "Ages 8 to 14; no prior coding required, everything is taught from scratch",
+    "commitment": "2 live classes/week + small weekly projects",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "ai-literacy-for-kids.png",
+    "date": "2026-07-20",
+    "dateModified": "2026-07-20"
+  },
+  "program_overview": {
+    "title": "AI Literacy for Kids (Ages 8 to 14)",
+    "tagline": "Children who understand how AI works, where its answers come from, and when to doubt it, taught safely and at the right age.",
+    "description": "Most children already use AI daily, in recommendations, filters, voice assistants and homework help. Almost none of them understand what it is doing. That gap is the actual risk: not that children use AI, but that they trust it without knowing how it works, where its answers come from, or how confidently it can be wrong.\n\nThis course closes that gap. Children learn what artificial intelligence actually is, how a machine learns from examples rather than rules, why the data it learns from decides what it does, and why it can produce a confident answer that is simply false. They train simple models themselves, on data they collect, so machine learning stops being magic and becomes something they have done with their own hands.\n\nIt is also built to be age-appropriate in a way most AI courses are not. Almost every mainstream AI tool sets a minimum age, commonly 13 and sometimes 18, in its own terms of service. We do not ask a nine-year-old to create an account on a service that does not permit it. Younger students work with tools designed for children and with teacher-run demonstrations, while older students in the range use more capable tools where age and parental permission allow. Nobody is left out, and no family is quietly pushed past a terms-of-service line.",
+    "what_makes_this_different": [
+      "Understanding first: children learn how AI works, not just which buttons to press",
+      "Genuinely age-appropriate, because mainstream AI tools set minimum ages (commonly 13, sometimes 18) that most kids' AI courses quietly ignore",
+      "Children train their own simple models on data they collect, so machine learning becomes concrete instead of magical",
+      "Bias, hallucination and data quality taught in plain language, with examples children can see for themselves",
+      "Aligned with the direction of school curricula, including computational thinking and AI now entering national syllabuses",
+      "Live, small batches with a real teacher, never a recorded video or an app left to babysit"
+    ],
+    "learning_path": {
+      "phase_1": "What AI is and is not, how machines learn from data, and training a first model by hand",
+      "phase_2": "Where AI goes wrong: bias, hallucination and data quality, plus judging AI output critically",
+      "phase_3": "Building simple AI-assisted projects and presenting them, with safety and honesty built in"
+    },
+    "career_outcomes": [
+      "A child who can explain what AI is doing rather than just using it",
+      "The habit of questioning an AI answer instead of trusting it automatically",
+      "A real head start for school computing and the AI topics entering national curricula",
+      "Confidence with data, patterns and logical thinking that helps in maths too",
+      "A safe, informed relationship with tools they will use for the rest of their lives"
+    ]
+  },
+  "phase_1_what_ai_is_and_how_it_learns": {
+    "title": "PHASE 1: What AI Is, and How a Machine Learns",
+    "description": "The foundations, taught with hands-on activities rather than definitions to memorise.",
+    "month_1_foundations": {
+      "title": "Month 1: Machines, Rules and Learning",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "What Is Artificial Intelligence, Really",
+        "topics": [
+          "What people mean by AI, and what computers were already doing before it",
+          "The difference between following rules and learning from examples",
+          "Spotting the AI you already use every day",
+          "What computers are genuinely good at, and what humans are still better at",
+          "Why AI does not think or understand the way a person does"
+        ],
+        "projects": [
+          "An AI spotting hunt: find five AI systems you used this week and explain what each one decides"
+        ],
+        "practice": "Sort everyday examples into rule-following or learning-from-examples, and explain each choice"
+      },
+      "week_2": {
+        "title": "Teaching a Machine by Example",
+        "topics": [
+          "What training data is, in plain language",
+          "How a machine finds patterns in examples",
+          "Labels, and why a machine needs to be told what things are",
+          "Why more and better examples usually mean better results",
+          "The unplugged version, done with paper before any computer"
+        ],
+        "projects": [
+          "Train a classmate as if they were a machine: give only examples, no rules, then test them"
+        ],
+        "practice": "Build a labelled example set for a simple classification task"
+      },
+      "week_3": {
+        "title": "Training Your First Real Model",
+        "topics": [
+          "Using a child-safe, teacher-supervised training tool",
+          "Collecting your own examples for two or three categories",
+          "Training the model and testing it live",
+          "Watching accuracy change as the examples change",
+          "Why the machine gets some things confidently wrong"
+        ],
+        "projects": [
+          "Train an image or sound classifier on your own examples and demonstrate it to the class"
+        ],
+        "practice": "Improve your model by adding better examples and record what changed",
+        "assessment": "Show and explain your trained model: what it does, how you taught it, where it fails"
+      },
+      "week_4": {
+        "title": "Patterns, Data and Prediction",
+        "topics": [
+          "How patterns in data turn into predictions",
+          "Simple ideas of features: what the machine actually looks at",
+          "Why a machine can be confident and still wrong",
+          "Prediction versus certainty, in language a child can hold",
+          "Connecting this to maths patterns they already know"
+        ],
+        "projects": [
+          "Predict outcomes from a small dataset by hand, then compare with the model's prediction"
+        ],
+        "practice": "Pattern and prediction puzzles using real, small datasets"
+      }
+    }
+  },
+  "phase_2_where_ai_goes_wrong": {
+    "title": "PHASE 2: Where AI Goes Wrong, and How to Judge It",
+    "description": "The critical-thinking half, which is the part that actually protects a child.",
+    "month_2_bias_and_truth": {
+      "title": "Month 2: Bias, Hallucination and Judging Answers",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Where the Data Comes From",
+        "topics": [
+          "Every AI learns from data somebody collected",
+          "What gets left out of a dataset, and why that matters",
+          "Seeing bias appear in a model you trained yourself",
+          "Fair and unfair examples, explored with real cases suitable for the age",
+          "Why the machine is not being unkind, it is repeating its examples"
+        ],
+        "projects": [
+          "Deliberately train a model on lopsided data, then show the class exactly how it fails"
+        ],
+        "practice": "Audit a small dataset and list who or what is missing from it"
+      },
+      "week_6": {
+        "title": "When AI Makes Things Up",
+        "topics": [
+          "Why a text AI can produce a confident, fluent, completely false answer",
+          "What it means that it predicts likely words rather than looking up facts",
+          "Checking an AI answer against a real source",
+          "Why AI is a starting point and not a final authority",
+          "How to tell a class or teacher when you used AI, honestly"
+        ],
+        "projects": [
+          "Fact-check a set of teacher-provided AI answers and mark which are wrong and why"
+        ],
+        "practice": "Source-checking drills: verify five claims against real references",
+        "assessment": "A short critical-thinking test on judging AI answers"
+      },
+      "week_7": {
+        "title": "Using AI Honestly for Schoolwork",
+        "topics": [
+          "The difference between AI helping you learn and AI doing it for you",
+          "Asking AI for a hint or an explanation instead of the answer",
+          "Explaining a solution in your own words as the real test of understanding",
+          "Why copying an AI answer cheats only yourself",
+          "Simple, honest rules a child can actually follow"
+        ],
+        "projects": [
+          "Take one homework-style problem, use AI only for hints, and explain the solution back unaided"
+        ],
+        "practice": "Rewrite AI explanations in your own words and check them for errors"
+      },
+      "week_8": {
+        "title": "Staying Safe and Private",
+        "topics": [
+          "Why AI tools have minimum ages, and what a terms of service is",
+          "What personal information should never be typed into any AI tool",
+          "Why what you type may be stored or used",
+          "Talking to a parent or teacher when something feels wrong",
+          "Deepfakes and manipulated media, at an age-appropriate level"
+        ],
+        "projects": [
+          "Write a family AI agreement: what is allowed, what is not, and who to ask"
+        ],
+        "practice": "Sort scenarios into safe, unsafe and ask-an-adult",
+        "assessment": "End-of-phase check on safety, privacy and honest use"
+      }
+    }
+  },
+  "phase_3_building_and_presenting": {
+    "title": "PHASE 3: Building Something Real and Explaining It",
+    "description": "Children apply everything to a project of their own and learn to present it clearly.",
+    "month_3_building": {
+      "title": "Month 3: Simple AI Projects",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Block Coding Meets AI",
+        "topics": [
+          "Connecting a trained model to a block-coded program",
+          "Making the program react differently to each prediction",
+          "Testing your project with inputs it has never seen",
+          "Fixing it when it behaves oddly",
+          "Planning before building"
+        ],
+        "projects": [
+          "Build a block-coded project that responds to your trained model's predictions"
+        ],
+        "practice": "Debug three deliberately broken AI projects"
+      },
+      "week_10": {
+        "title": "Designing a Project That Helps Someone",
+        "topics": [
+          "Choosing a problem worth solving for a real person",
+          "Deciding whether AI is even the right tool for it",
+          "Sketching the idea before any building",
+          "Planning what data you would need and whether you can get it fairly",
+          "Setting a scope you can actually finish"
+        ],
+        "projects": [
+          "Write a one-page plan for your capstone: the person, the problem, the data, the plan"
+        ],
+        "practice": "Give and receive feedback on each other's project plans"
+      },
+      "week_11": {
+        "title": "Building the Capstone",
+        "topics": [
+          "Building in small steps and testing each one",
+          "Collecting balanced training data on purpose",
+          "Handling the cases the model gets wrong",
+          "Being honest in your project about its limits",
+          "Getting it working end to end"
+        ],
+        "projects": [
+          "Build your working capstone project"
+        ],
+        "practice": "Weekly build checkpoints with teacher review"
+      },
+      "week_12": {
+        "title": "Presenting and Explaining",
+        "topics": [
+          "Explaining what your project does and how you taught it",
+          "Showing where it fails, honestly, which is the mark of real understanding",
+          "Answering questions about your data",
+          "Speaking clearly to an audience that is not technical",
+          "Being proud of work you can actually explain"
+        ],
+        "projects": [
+          "Present your capstone to the class and to your parents"
+        ],
+        "practice": "Rehearse the presentation and take questions",
+        "assessment": "Final capstone presentation, assessed on understanding rather than polish"
+      }
+    }
+  },
+  "prerequisites": {
+    "title": "What Your Child Needs to Start",
+    "items": [
+      "Age 8 to 14, and able to read and follow instructions independently",
+      "A computer with a webcam and microphone for the live classes and the training activities",
+      "No prior coding is needed; block coding is taught from scratch where it is used",
+      "A parent's permission for any tool that requires it, which we always tell you about in advance"
+    ]
+  },
+  "who_is_this_for": {
+    "title": "Who This Course Is For",
+    "items": [
+      "Children aged 8 to 14 who already use AI and should understand it",
+      "Parents who want their child taught AI safely and at the right age, rather than handed a chatbot",
+      "Students whose schools are starting AI and computational thinking topics",
+      "Curious children who ask how things work and are not satisfied by magic",
+      "Families who want critical thinking taught alongside the technology"
+    ]
+  },
+  "career_paths_after_completion": [
+    "A genuine head start for school computing and the AI topics entering national curricula",
+    "A natural next step into Python and machine learning as a teenager",
+    "Critical-thinking habits that apply well beyond technology",
+    "Comfort with data and patterns that supports maths and science",
+    "An informed, safe relationship with tools they will use lifelong"
+  ],
+  "course_guarantees": {
+    "title": "Our Commitment to You",
+    "items": [
+      "Age-appropriate throughout: we never ask a child to use a tool below its stated minimum age",
+      "We tell you in advance about any tool that needs a parent's account or permission",
+      "Every class is live and small, taught by a real teacher, never an app left to babysit",
+      "Understanding is assessed, not polish: children must explain their own work",
+      "A free demo class first, so you can judge the teaching before you pay anything"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is my child old enough for AI tools?",
+      "answer": "This is exactly why the course is built the way it is. Most mainstream AI tools set a minimum age in their terms of service, commonly 13 and sometimes 18. We never ask a child to create an account on a service that does not permit their age. Younger students use tools designed for children and teacher-run demonstrations; older students use more capable tools where age and parental permission allow."
+    },
+    {
+      "question": "Will my child just learn to use ChatGPT?",
+      "answer": "No, and that is the point. The course is about understanding: what AI is, how a machine learns from examples, why data quality decides the outcome, and why an AI can be confidently wrong. Children train their own simple models on data they collect. Using a chatbot well is a small part, taught honestly, and always as a starting point rather than an authority."
+    },
+    {
+      "question": "Does my child need to know coding first?",
+      "answer": "No. Everything is taught from scratch. The early weeks are largely unplugged and hands-on, and where coding is used it is block-based and taught step by step. Children who already code will still be stretched, because the difficulty here is in the thinking, not the typing."
+    },
+    {
+      "question": "How is this different from a normal coding class?",
+      "answer": "A coding class teaches your child to build software. This teaches your child to understand and judge systems that learn, which is a different skill. They train models, see bias appear in data they chose, fact-check AI answers, and learn to use AI honestly for schoolwork. It pairs naturally with a coding course but does not replace one."
+    },
+    {
+      "question": "What ages are in each batch?",
+      "answer": "Batches are grouped by age band within the 8 to 14 range, so an eight-year-old is never placed with a fourteen-year-old. The concepts stay the same; the activities, tools and depth are matched to the band. We place your child after the free demo class."
+    },
+    {
+      "question": "How much do the AI literacy classes cost?",
+      "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,499 per month, and 1-on-1 classes are ₹4,999 per month. There is a free demo class first, so you can see the teaching before you decide."
+    }
+  ]
+}

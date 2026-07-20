@@ -1,0 +1,306 @@
+{
+  "meta": {
+    "slug": "olympiad-mathematics-premium-course",
+    "taxonomy": "mathematics",
+    "title": "Olympiad Mathematics: IOQM, INMO and AMC Preparation",
+    "description": "Live online olympiad mathematics for serious students: number theory, algebra, combinatorics and geometry taught as proof-based problem solving, aimed at IOQM and INMO in India and the AMC and AIME internationally.",
+    "keywords": [
+      "olympiad maths classes online",
+      "ioqm preparation course",
+      "inmo coaching online",
+      "amc 10 amc 12 preparation india",
+      "maths olympiad training",
+      "aime preparation course",
+      "number theory combinatorics for olympiad",
+      "proof based mathematics for students"
+    ],
+    "category": "Olympiad Mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,499/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "12 months (48 weeks), joinable any month",
+    "level": "Students roughly aged 12 to 18 who are strong at school maths and want genuine olympiad problem solving",
+    "commitment": "2 live classes/week + weekly problem sets and timed mocks",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "olympiad-maths-premium.png",
+    "date": "2026-07-20",
+    "dateModified": "2026-07-20"
+  },
+  "program_overview": {
+    "title": "Olympiad Mathematics",
+    "tagline": "The four olympiad pillars taught as real proof-based problem solving, for students who have outgrown school maths.",
+    "description": "Olympiad mathematics is a different subject from school mathematics wearing the same name. School maths asks you to apply a method you were just shown. Olympiad maths hands you a problem you have never seen, gives you no method, and asks you to construct an argument that is airtight. Students who top their class routinely struggle at first, and that is normal, because nothing in the school syllabus trains this.\n\nThis course teaches the four pillars that every olympiad is built on: number theory, algebra, combinatorics and geometry. Each is taught for genuine understanding and then drilled on real past problems, because olympiad ability is built by attempting hard problems and failing productively, not by watching solutions.\n\nIt is aimed at both the Indian and international ladders. In India the path runs through IOQM, the Indian Olympiad Qualifier in Mathematics, on to INMO and the training camp beyond it. Internationally students target the AMC 10 and AMC 12, then AIME. The formats differ, and we prepare for each specifically, but the underlying skill is the same: reading a problem properly, finding the idea, and writing an argument that survives scrutiny.\n\nProof is taught explicitly from the start. Most students arrive able to find an answer but unable to justify it, and at INMO level the justification is the entire mark. We fix that early, because a correct answer with a hand-waving argument scores close to nothing.",
+    "what_makes_this_different": [
+      "All four pillars taught properly: number theory, algebra, combinatorics and geometry, not just contest tricks",
+      "Proof writing taught explicitly from the start, because at INMO level the argument is the mark, not the answer",
+      "Prepared for both ladders: IOQM and INMO in India, AMC 10, AMC 12 and AIME internationally",
+      "Built on real past problems, since olympiad ability comes from productive failure on hard problems",
+      "Students are taught to sit with a problem instead of giving up after two minutes, which is the actual skill",
+      "Live, small batches where solutions are critiqued line by line for rigour, not just marked right or wrong"
+    ],
+    "learning_path": {
+      "phase_1": "Proof technique and number theory, the natural entry point into olympiad thinking",
+      "phase_2": "Algebra and combinatorics, including inequalities and counting arguments",
+      "phase_3": "Geometry, then full contest simulation for IOQM, INMO and the AMC or AIME"
+    },
+    "career_outcomes": [
+      "Genuine readiness for IOQM and INMO in India, or the AMC and AIME internationally",
+      "Proof-writing ability that makes university mathematics far less of a shock",
+      "A distinctive strength in competitive university applications",
+      "Problem-solving stamina that transfers to physics, computer science and research",
+      "The confidence that comes from having solved problems you once could not start"
+    ]
+  },
+  "phase_1_proof_and_number_theory": {
+    "title": "PHASE 1: Proof Technique and Number Theory",
+    "description": "How to argue rigorously, then the pillar that best rewards it.",
+    "month_1_proof": {
+      "title": "Months 1 to 2: Proof and Foundations",
+      "weeks": "Weeks 1-8",
+      "week_1_2": {
+        "title": "What Counts as a Proof",
+        "topics": [
+          "The difference between checking cases and proving a statement",
+          "Direct proof, and writing it so every step is justified",
+          "Proof by contradiction",
+          "Proof by contrapositive, and when it is easier",
+          "Reading a written solution critically and finding the gap"
+        ],
+        "projects": [
+          "Write five full proofs and have every line challenged in class"
+        ],
+        "practice": "Prove supplied statements and rewrite them after critique"
+      },
+      "week_3_4": {
+        "title": "Induction and Invariants",
+        "topics": [
+          "Mathematical induction, including strong induction",
+          "Common induction errors that void the proof",
+          "Invariants and monovariants, and the problems that hide them",
+          "Extremal arguments: taking the largest or smallest case",
+          "Recognising which technique a problem is inviting"
+        ],
+        "projects": [
+          "Solve a set of invariant problems and articulate the invariant explicitly in each"
+        ],
+        "practice": "20 induction and invariant problems",
+        "assessment": "A proof-writing assessment marked on rigour, not just the final answer"
+      },
+      "week_5_8": {
+        "title": "Number Theory",
+        "topics": [
+          "Divisibility, GCD and the Euclidean algorithm",
+          "Primes, factorisation and the fundamental theorem of arithmetic",
+          "Modular arithmetic and congruences",
+          "Fermat's little theorem and Euler's theorem",
+          "Diophantine equations at olympiad level"
+        ],
+        "projects": [
+          "Solve a graded ladder of number theory problems from IOQM level upward"
+        ],
+        "practice": "40 number theory problems across the difficulty range",
+        "assessment": "Timed number theory paper under contest conditions"
+      }
+    }
+  },
+  "phase_2_algebra_and_combinatorics": {
+    "title": "PHASE 2: Algebra and Combinatorics",
+    "description": "The two pillars that most often decide an IOQM or AMC score.",
+    "month_3_algebra": {
+      "title": "Months 3 to 5: Algebra",
+      "weeks": "Weeks 9-20",
+      "week_9_12": {
+        "title": "Polynomials and Functional Equations",
+        "topics": [
+          "Polynomial roots, factorisation and Vieta's formulas",
+          "Symmetric functions and their uses",
+          "Functional equations and the standard substitution strategies",
+          "Recognising the structure hidden in an ugly expression",
+          "Writing algebraic arguments cleanly"
+        ],
+        "projects": [
+          "Work a set of Vieta and functional equation problems from past papers"
+        ],
+        "practice": "30 algebra problems building in difficulty"
+      },
+      "week_13_16": {
+        "title": "Inequalities",
+        "topics": [
+          "AM-GM and its many disguises",
+          "Cauchy-Schwarz",
+          "Rearrangement and Chebyshev",
+          "Normalisation and substitution tactics",
+          "Knowing when to stop searching for a slicker method"
+        ],
+        "projects": [
+          "Prove a graded set of inequalities, each with a fully justified argument"
+        ],
+        "practice": "30 inequality problems",
+        "assessment": "Timed algebra paper under contest conditions"
+      },
+      "week_17_20": {
+        "title": "Combinatorics",
+        "topics": [
+          "Counting properly: permutations, combinations and overcounting",
+          "The pigeonhole principle and its surprisingly deep uses",
+          "Inclusion and exclusion",
+          "Bijections and counting the same set two ways",
+          "Introductory graph theory and games"
+        ],
+        "projects": [
+          "Solve a counting problem two different ways and reconcile the results"
+        ],
+        "practice": "35 combinatorics problems",
+        "assessment": "Timed combinatorics paper"
+      }
+    }
+  },
+  "phase_3_geometry_and_contest_simulation": {
+    "title": "PHASE 3: Geometry and Full Contest Simulation",
+    "description": "The pillar students most often avoid, then the contests themselves rehearsed properly.",
+    "month_6_geometry": {
+      "title": "Months 6 to 9: Geometry",
+      "weeks": "Weeks 21-36",
+      "week_21_26": {
+        "title": "Synthetic Geometry",
+        "topics": [
+          "Angle chasing done systematically rather than hopefully",
+          "Cyclic quadrilaterals and the power of a point",
+          "Similar triangles and ratio arguments",
+          "The classical centres and their properties",
+          "Drawing an accurate diagram, which solves more problems than any theorem"
+        ],
+        "projects": [
+          "Solve a ladder of synthetic geometry problems with full written proofs"
+        ],
+        "practice": "35 geometry problems from contest papers"
+      },
+      "week_27_31": {
+        "title": "Advanced Geometry Techniques",
+        "topics": [
+          "Coordinate geometry as a fallback when synthetic stalls",
+          "Trigonometric methods in geometry",
+          "Homothety and transformations",
+          "Choosing between synthetic, coordinate and trigonometric attacks",
+          "Recognising when a problem is resisting the method rather than you"
+        ],
+        "projects": [
+          "Attack the same hard problem three ways and compare which was cleanest"
+        ],
+        "practice": "25 problems requiring a deliberate choice of method",
+        "assessment": "Timed geometry paper"
+      },
+      "week_32_36": {
+        "title": "Mixed Problem Solving",
+        "topics": [
+          "Problems that do not announce their topic",
+          "Deciding quickly which pillar a problem belongs to",
+          "Working when the first idea fails, and the second",
+          "Managing frustration, which is a genuine competition skill",
+          "Building a personal record of techniques that worked"
+        ],
+        "projects": [
+          "Weekly mixed problem sets with no topic labels"
+        ],
+        "practice": "Mixed sets under time"
+      }
+    },
+    "month_10_contest_simulation": {
+      "title": "Months 10 to 12: Contest Simulation",
+      "weeks": "Weeks 37-48",
+      "week_37_42": {
+        "title": "IOQM and AMC Format Training",
+        "topics": [
+          "The IOQM format and how to pace it",
+          "AMC 10 and AMC 12 pacing, and the scoring implications of guessing",
+          "Answer-extraction techniques for short-answer formats",
+          "Knowing when to abandon a question and return",
+          "Accuracy under time, where most marks are actually lost"
+        ],
+        "projects": [
+          "Full timed IOQM and AMC papers every week"
+        ],
+        "practice": "Weekly full papers with question-by-question review"
+      },
+      "week_43_48": {
+        "title": "INMO and AIME Level, and Peak Form",
+        "topics": [
+          "The step up to full written proofs at INMO level",
+          "AIME format and its particular demands",
+          "Writing a complete solution under time pressure",
+          "Partial credit: how to secure marks on a problem you cannot finish",
+          "Contest-day routine, sleep and nerves"
+        ],
+        "projects": [
+          "Full INMO-style and AIME-style papers, marked on rigour"
+        ],
+        "practice": "Continuous full-paper cycle with detailed feedback",
+        "assessment": "Final full mock contest, marked as an examiner would, with an honest readiness assessment"
+      }
+    }
+  },
+  "prerequisites": {
+    "title": "What Your Child Needs to Start",
+    "items": [
+      "Strong school mathematics and genuine enjoyment of hard problems",
+      "Roughly age 12 to 18, though we place by ability rather than age",
+      "No prior olympiad experience is required; proof technique is taught from scratch",
+      "Willingness to spend real time on problems between classes, since that is where the ability is built"
+    ]
+  },
+  "who_is_this_for": {
+    "title": "Who This Course Is For",
+    "items": [
+      "Students preparing for IOQM and INMO in India",
+      "Students targeting AMC 10, AMC 12 and AIME internationally",
+      "Strong school mathematicians who find their class work far too easy",
+      "Students who want mathematics rather than exam technique",
+      "Students aiming at competitive university applications where olympiad results carry weight"
+    ]
+  },
+  "career_paths_after_completion": [
+    "Readiness for IOQM, INMO, AMC and AIME",
+    "Proof-writing ability that makes university mathematics far less of a shock",
+    "A distinctive strength in competitive university applications",
+    "A foundation for research mathematics, physics or theoretical computer science",
+    "Problem-solving stamina that transfers to every quantitative field"
+  ],
+  "course_guarantees": {
+    "title": "Our Commitment to You",
+    "items": [
+      "All four olympiad pillars taught properly, including the geometry most courses skimp on",
+      "Proof writing taught and marked for rigour from the first month",
+      "Real past problems throughout, not manufactured exercises",
+      "Solutions critiqued line by line, because a correct answer with a weak argument scores badly",
+      "A free demo class first, so you can judge the teaching before you pay anything"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Which contests does this prepare for?",
+      "answer": "In India the path runs through IOQM, the Indian Olympiad Qualifier in Mathematics, on to INMO and the training camp beyond it. Internationally we prepare students for AMC 10 and AMC 12 and then AIME. The formats differ and we train for each specifically, but the underlying skill is identical, so the same course serves both ladders."
+    },
+    {
+      "question": "My child tops the class in maths. Will olympiad maths be easy for them?",
+      "answer": "Almost certainly not at first, and that is completely normal. School maths asks you to apply a method you were just taught. Olympiad maths gives you an unfamiliar problem, no method, and expects a rigorous argument. Excellent school students often struggle for the first month. The ones who keep going usually become very strong, because the difficulty is trainable."
+    },
+    {
+      "question": "Why do you teach proof writing so early?",
+      "answer": "Because at INMO level the argument is the mark. Most students arrive able to find the right answer but unable to justify it, and a correct answer with hand-waving reasoning scores close to nothing. Proof technique is taught in the first two months and then marked for rigour all year, which is also exactly what makes university mathematics manageable later."
+    },
+    {
+      "question": "How long does the course run?",
+      "answer": "Twelve months across 48 weeks, with two live classes a week plus problem sets and timed mocks. That length is deliberate: olympiad ability is built by attempting hard problems over months, not by a crash course. You can join in any month and we place your child at the right point after the free demo class."
+    },
+    {
+      "question": "Is geometry really necessary?",
+      "answer": "Yes, and it is the pillar students most often try to avoid. Geometry appears reliably in both the Indian and international ladders, and students who skip it cap their own score. We spend four months on it, starting with systematic angle chasing rather than hoping, and we teach coordinate and trigonometric methods as deliberate fallbacks."
+    },
+    {
+      "question": "How much do the olympiad maths classes cost?",
+      "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,499 per month, and 1-on-1 classes are ₹4,999 per month. There is a free demo class first, so you can see the teaching before you decide."
+    }
+  ]
+}

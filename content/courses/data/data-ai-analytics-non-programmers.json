@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "slug": "data-and-ai-analytics-for-non-programmers-course",
+    "taxonomy": "ai-ml",
+    "title": "Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)",
+    "description": "Live online data analytics for working professionals who do not code: clean and model data in Excel and Sheets, build Power BI dashboards, and use AI assistants to work faster without being misled.",
+    "keywords": [
+      "data analytics without coding",
+      "data analytics for non programmers",
+      "power bi course online india",
+      "excel data analysis course",
+      "ai for business analysts",
+      "data analyst course no coding",
+      "google sheets data analysis",
+      "business intelligence course for professionals"
+    ],
+    "category": "Data and AI Analytics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,499/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "4 months (16 weeks), joinable any month",
+    "level": "Working professionals and students with no programming background; spreadsheet familiarity helps but is not required",
+    "commitment": "2 live classes/week + weekly work on real datasets",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "data-ai-analytics-non-programmers.png",
+    "date": "2026-07-20",
+    "dateModified": "2026-07-20"
+  },
+  "program_overview": {
+    "title": "Data and AI Analytics for Non-Programmers",
+    "tagline": "Become the person in the room who can actually answer the question with data, without writing a line of code.",
+    "description": "Most people who need to work with data are not going to become programmers, and they do not need to. The person who can take a messy export, clean it, find the real pattern and present it clearly in a dashboard is enormously valuable in any team, and almost none of that requires code. What it requires is knowing how to structure data, which comparison is honest, and how to build something a decision-maker can actually read.\n\nThis course teaches exactly that path, in the tools your workplace already has. You start with spreadsheets done properly, Excel and Google Sheets, including the lookup and pivot skills most people never learn. You move into cleaning and shaping real messy data, which is where most analysis actually fails. Then you build interactive dashboards in Power BI and learn to model relationships between tables so the numbers hold up under questioning.\n\nAI runs through the whole course, honestly. Modern AI assistants can write your formulas, summarise a dataset and suggest a chart, and used well they make you considerably faster. Used badly they produce confident nonsense that you then present to your manager. So we teach both: how to use AI to accelerate the work, and how to check what it gives you before you trust it. Every module ends with real, messy datasets rather than tidy teaching examples, because tidy data is not what anybody actually receives.",
+    "what_makes_this_different": [
+      "No coding required at any point, and no pretending you will secretly need Python later",
+      "Built on the tools your workplace already has: Excel, Google Sheets and Power BI",
+      "Real messy data from week one, because cleaning is where most analysis actually fails",
+      "AI assistants taught honestly: how to go faster with them, and how to catch the confident nonsense before you present it",
+      "Focused on the question behind the request, since the hard part is usually deciding what to measure",
+      "Live, small batches where your dashboard gets critiqued like a colleague would critique it"
+    ],
+    "learning_path": {
+      "phase_1": "Spreadsheets done properly: structure, lookups, pivots and the formulas that matter",
+      "phase_2": "Cleaning and shaping messy real data, then statistics that keep you honest",
+      "phase_3": "Power BI dashboards, data modelling, AI-assisted analysis and a portfolio project"
+    },
+    "career_outcomes": [
+      "The ability to answer a business question with data, end to end, without coding",
+      "Dashboards a manager can read and trust",
+      "A portfolio project you can show in an interview",
+      "A credible move toward analyst, operations or business-intelligence work",
+      "Enough statistical judgement to avoid presenting a misleading chart"
+    ]
+  },
+  "phase_1_spreadsheets_done_properly": {
+    "title": "PHASE 1: Spreadsheets Done Properly",
+    "description": "The foundation almost everyone half-knows, rebuilt so the later work holds up.",
+    "month_1_excel_and_sheets": {
+      "title": "Month 1: Excel and Google Sheets Foundations",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Structuring Data So It Can Be Analysed",
+        "topics": [
+          "What a clean table actually looks like, and why yours probably is not one",
+          "Rows as records, columns as fields, and one fact per cell",
+          "Why merged cells and colour-as-data destroy analysis",
+          "Data types, dates and the formatting traps that silently break totals",
+          "Turning a human-formatted sheet into an analysable one"
+        ],
+        "projects": [
+          "Take a genuinely badly structured sheet and restructure it into a usable table"
+        ],
+        "practice": "Restructure three messy real-world sheets"
+      },
+      "week_2": {
+        "title": "The Formulas That Actually Matter",
+        "topics": [
+          "Absolute and relative references, and why formulas break when copied",
+          "IF, nested conditions, and when to stop nesting",
+          "SUMIF, COUNTIF, AVERAGEIF and their multi-criteria versions",
+          "Text and date functions for real cleanup",
+          "Error handling so a broken cell does not poison a whole column"
+        ],
+        "projects": [
+          "Build a summary sheet driven entirely by formulas from a raw data tab"
+        ],
+        "practice": "20 formula tasks against a real dataset"
+      },
+      "week_3": {
+        "title": "Lookups and Joining Data",
+        "topics": [
+          "VLOOKUP, XLOOKUP and INDEX with MATCH, and when each is right",
+          "Joining two tables on a common key",
+          "Handling missing matches honestly instead of hiding them",
+          "Duplicate keys and the quiet damage they do",
+          "The equivalents in Google Sheets"
+        ],
+        "projects": [
+          "Combine three separate exports into one analysable table and reconcile the mismatches"
+        ],
+        "practice": "15 lookup and join exercises including deliberately broken keys",
+        "assessment": "A timed spreadsheet task: clean, join and summarise a real dataset"
+      },
+      "week_4": {
+        "title": "Pivot Tables and Fast Summaries",
+        "topics": [
+          "Pivot tables from the ground up",
+          "Grouping, filtering and calculated fields",
+          "Slicing by dimension to find where a number actually comes from",
+          "Reading a pivot critically instead of accepting it",
+          "Charts that clarify rather than decorate"
+        ],
+        "projects": [
+          "Answer five real business questions about one dataset using only pivots"
+        ],
+        "practice": "Build pivots answering supplied questions, then explain each finding"
+      }
+    }
+  },
+  "phase_2_cleaning_and_honest_analysis": {
+    "title": "PHASE 2: Cleaning Real Data and Analysing It Honestly",
+    "description": "Where most analysis fails, and the statistics you need to avoid fooling yourself.",
+    "month_2_cleaning_and_statistics": {
+      "title": "Month 2: Data Cleaning and Practical Statistics",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Cleaning Messy Real Data",
+        "topics": [
+          "Duplicates, near-duplicates and how to decide which is real",
+          "Missing values and the options: exclude, impute or report",
+          "Inconsistent categories and text normalisation",
+          "Outliers, and telling a data error from a genuine extreme",
+          "Documenting every cleaning decision so your numbers are defensible"
+        ],
+        "projects": [
+          "Clean a genuinely messy dataset and write a short log of every decision made"
+        ],
+        "practice": "Clean three datasets with different problems"
+      },
+      "week_6": {
+        "title": "Power Query for Repeatable Cleaning",
+        "topics": [
+          "Why manual cleaning does not survive next month's file",
+          "Power Query basics: importing, transforming and loading",
+          "Building a repeatable cleaning pipeline",
+          "Unpivoting and reshaping data",
+          "Refreshing when new data arrives, with no rework"
+        ],
+        "projects": [
+          "Build a Power Query pipeline that cleans a monthly export automatically"
+        ],
+        "practice": "Convert last week's manual cleaning into a repeatable query"
+      },
+      "week_7": {
+        "title": "Statistics That Keep You Honest",
+        "topics": [
+          "Mean, median and when the average actively misleads",
+          "Spread and why two datasets with the same average differ completely",
+          "Percentages, percentage points and the errors that get presented in meetings",
+          "Correlation is not causation, with real examples",
+          "Sample size and why small numbers should not drive big decisions"
+        ],
+        "projects": [
+          "Take a real claim from a report and check whether the data actually supports it"
+        ],
+        "practice": "Critique supplied analyses and identify what each gets wrong",
+        "assessment": "A written critique of a deliberately misleading analysis"
+      },
+      "week_8": {
+        "title": "Charts That Do Not Lie",
+        "topics": [
+          "Choosing the chart from the question, not from preference",
+          "Truncated axes and the other ways charts mislead",
+          "Comparing like with like",
+          "Labelling so a chart survives being forwarded without you",
+          "Removing everything that is not carrying information"
+        ],
+        "projects": [
+          "Redesign three bad charts and explain what each change fixes"
+        ],
+        "practice": "Build charts for supplied questions and defend each choice"
+      }
+    }
+  },
+  "phase_3_dashboards_ai_and_portfolio": {
+    "title": "PHASE 3: Power BI, AI-Assisted Analysis and Your Portfolio",
+    "description": "Turning analysis into something a decision-maker uses, with AI as an accelerator rather than an oracle.",
+    "month_3_power_bi": {
+      "title": "Month 3: Power BI and Data Modelling",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Power BI Foundations",
+        "topics": [
+          "Connecting to data and shaping it on import",
+          "The difference between a report and a dashboard",
+          "Core visuals and when each is appropriate",
+          "Filters, slicers and cross-filtering",
+          "Publishing and sharing safely"
+        ],
+        "projects": [
+          "Build your first working Power BI report from a real dataset"
+        ],
+        "practice": "Rebuild an existing spreadsheet report as a Power BI report"
+      },
+      "week_10": {
+        "title": "Data Modelling and Relationships",
+        "topics": [
+          "Fact and dimension tables in plain language",
+          "Relationships and why a star schema keeps numbers correct",
+          "The problems caused by one flat table",
+          "Date tables and time intelligence",
+          "Diagnosing a wrong total caused by a bad relationship"
+        ],
+        "projects": [
+          "Model a multi-table dataset properly and prove the totals reconcile"
+        ],
+        "practice": "Fix three broken data models"
+      },
+      "week_11": {
+        "title": "DAX Measures Without Fear",
+        "topics": [
+          "Calculated columns versus measures, and why the difference matters",
+          "Core DAX: SUM, AVERAGE, COUNTROWS, CALCULATE",
+          "Filter context in plain terms",
+          "Time comparisons: month on month, year on year",
+          "Writing measures you can still understand next quarter"
+        ],
+        "projects": [
+          "Add a full measure set to your model including period comparisons"
+        ],
+        "practice": "15 DAX exercises building from simple to filtered",
+        "assessment": "A timed dashboard task assessed on correctness and clarity"
+      },
+      "week_12": {
+        "title": "Designing Dashboards People Actually Use",
+        "topics": [
+          "Starting from the decision the dashboard should support",
+          "Layout, hierarchy and what belongs above the fold",
+          "Restraint: fewer visuals, better chosen",
+          "Making it self-explanatory without you presenting it",
+          "Testing it on someone who has never seen it"
+        ],
+        "projects": [
+          "Redesign your dashboard after watching someone else try to use it"
+        ],
+        "practice": "Peer usability reviews of each other's dashboards"
+      }
+    },
+    "month_4_ai_and_capstone": {
+      "title": "Month 4: AI-Assisted Analysis and the Capstone",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Using AI Assistants Well",
+        "topics": [
+          "What AI assistants are genuinely good at in analytics work",
+          "Getting formulas, DAX and cleaning steps written for you",
+          "Asking for an explanation of a formula you inherited",
+          "Writing a prompt that includes the context the model needs",
+          "Speed gains that are real, and the ones that are illusory"
+        ],
+        "projects": [
+          "Solve a full analysis task using AI assistance and log where it helped and where it did not"
+        ],
+        "practice": "Complete supplied tasks with AI, then verify every output"
+      },
+      "week_14": {
+        "title": "Checking What AI Gives You",
+        "topics": [
+          "Why an AI can produce a confident, plausible, wrong formula",
+          "Verifying a result against a known subtotal before trusting it",
+          "Spot-checking summaries against the raw data",
+          "Never pasting confidential data into a tool that is not approved",
+          "Being able to explain any number you present, whatever produced it"
+        ],
+        "projects": [
+          "Audit a set of AI-produced analyses and find the errors deliberately planted in them"
+        ],
+        "practice": "Verification drills on AI output",
+        "assessment": "A verification test: find every error in an AI-assisted analysis"
+      },
+      "week_15": {
+        "title": "Capstone Build",
+        "topics": [
+          "Choosing a question that matters to a real audience",
+          "Sourcing and cleaning the data end to end",
+          "Modelling, measures and dashboard build",
+          "Documenting assumptions and limitations honestly",
+          "Preparing to defend every number"
+        ],
+        "projects": [
+          "Build your full capstone: question, clean data, model, dashboard, findings"
+        ],
+        "practice": "Capstone checkpoints with review"
+      },
+      "week_16": {
+        "title": "Presenting and Your Portfolio",
+        "topics": [
+          "Leading with the finding, not the method",
+          "Telling the story a decision-maker needs in two minutes",
+          "Answering the hard question about your data honestly",
+          "Packaging the project for a portfolio or interview",
+          "What to say when the data does not support the hoped-for answer"
+        ],
+        "projects": [
+          "Present your capstone and take questions from the group"
+        ],
+        "practice": "Rehearsed presentations with critique",
+        "assessment": "Final capstone presentation assessed on clarity, correctness and honesty"
+      }
+    }
+  },
+  "prerequisites": {
+    "title": "What You Need to Start",
+    "items": [
+      "No programming experience at all; nothing in this course requires code",
+      "Basic comfort with a spreadsheet helps, but the fundamentals are retaught properly",
+      "A computer that can run Excel or Google Sheets, and Power BI Desktop for the later modules",
+      "A willingness to work with messy real data rather than tidy examples"
+    ]
+  },
+  "who_is_this_for": {
+    "title": "Who This Course Is For",
+    "items": [
+      "Working professionals who keep being handed data and are expected to make sense of it",
+      "Operations, marketing, finance, HR and sales people who need answers, not a developer job",
+      "Small business owners who want to actually read their own numbers",
+      "Students and graduates aiming for analyst roles without a computer science degree",
+      "Anyone who has tried a Python data course and bounced off it"
+    ]
+  },
+  "career_paths_after_completion": [
+    "Business analyst, operations analyst or MIS roles",
+    "Business intelligence and reporting work",
+    "A stronger position in your current job as the person who can answer with data",
+    "A portfolio project that demonstrates the whole workflow end to end",
+    "A natural later step into Python or SQL if you ever want it"
+  ],
+  "course_guarantees": {
+    "title": "Our Commitment to You",
+    "items": [
+      "No coding, at any point, and no bait and switch into programming",
+      "Real messy datasets throughout, not tidy teaching examples",
+      "AI taught honestly: a genuine accelerator, never treated as an authority",
+      "Your dashboards are critiqued as a colleague would critique them",
+      "A free demo class first, so you can judge the teaching before you pay anything"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I really not need to learn programming?",
+      "answer": "Correct. Everything in this course is done in Excel, Google Sheets and Power BI, all of which are built for exactly this work. Power Query and DAX are used, and although DAX is a formula language it is far closer to spreadsheet formulas than to programming. If you later want Python or SQL, this course leaves you well placed, but nothing here depends on it."
+    },
+    {
+      "question": "Which tools do I need, and do they cost anything?",
+      "answer": "You need a spreadsheet, either Excel or Google Sheets, and Power BI Desktop for the dashboard modules, which is free on Windows. If you are on a Mac we will discuss the practical alternatives in the first class. We keep the course workable with the tools most workplaces already have."
+    },
+    {
+      "question": "How is AI actually used in the course?",
+      "answer": "Honestly, and in both directions. AI assistants are genuinely good at writing formulas, drafting DAX, explaining an inherited spreadsheet and suggesting cleaning steps, and used well they make you noticeably faster. They are also very capable of producing a confident wrong answer. So we teach you to use them and to verify everything they produce against known subtotals before you present it."
+    },
+    {
+      "question": "Will I have something to show at the end?",
+      "answer": "Yes. The final month is a capstone: you choose a real question, source and clean the data, model it, build the dashboard and present the findings, including your assumptions and limitations. It is designed to be the project you show in an interview, because it demonstrates the entire workflow rather than one tool."
+    },
+    {
+      "question": "I have tried a data course before and gave up. Why would this be different?",
+      "answer": "Most data courses lose people because they open with programming or with tidy academic datasets that behave nothing like real ones. This one starts in the tools you already have and works with genuinely messy data from the first weeks, because cleaning is the part where real analysis actually fails. It is live and small, so you get unstuck in class rather than quietly falling behind."
+    },
+    {
+      "question": "How much do the classes cost?",
+      "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,499 per month, and 1-on-1 classes are ₹4,999 per month. There is a free demo class first, so you can see the teaching before you decide."
+    }
+  ]
+}
