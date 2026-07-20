@@ -6,6 +6,15 @@
   publish = "."
   functions = "api"
 
+# IndexNow auto-ping. Deliberately a plugin and NOT part of the build command above:
+# the build command runs BEFORE the deploy is published, so pinging there would send
+# search engines to crawl URLs that are not live yet (a new page would be fetched as a
+# 404). This plugin uses onSuccess, which Netlify runs only AFTER the deploy is live and
+# which cannot fail a build or deploy. It submits only URLs changed since the previous
+# successful deploy, production context only, and never bulk-submits.
+[[plugins]]
+  package = "./plugins/indexnow"
+
 # API Function redirects
 [[redirects]]
   from = "/api/*"
