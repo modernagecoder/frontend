@@ -1,0 +1,502 @@
+{
+  "meta": {
+    "slug": "igcse-computer-science-0478-course",
+    "taxonomy": "programming",
+    "title": "IGCSE Computer Science (0478): Full Syllabus and Exam Prep",
+    "description": "Live online Cambridge IGCSE Computer Science 0478 classes covering both papers in full: computer systems, algorithms, programming in Python, databases and Boolean logic, with real exam technique.",
+    "keywords": [
+      "igcse computer science 0478",
+      "igcse computer science classes online",
+      "cambridge igcse computer science tuition",
+      "igcse 0478 syllabus course",
+      "igcse computer science python",
+      "igcse computer science paper 2 programming",
+      "online igcse computer science tutor",
+      "igcse computer science exam prep"
+    ],
+    "category": "IGCSE Computer Science",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,499/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks), joinable any month",
+    "level": "IGCSE students taking Computer Science 0478; taught from the basics, no prior coding required",
+    "commitment": "2 live classes/week + weekly programming practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "igcse-computer-science.png",
+    "date": "2026-07-20",
+    "dateModified": "2026-07-20"
+  },
+  "program_overview": {
+    "title": "IGCSE Computer Science (0478)",
+    "tagline": "Both papers taught in full, with real programming in Python, so your child understands the subject instead of memorising it.",
+    "description": "Cambridge IGCSE Computer Science is two subjects wearing one name. Half of it is how computers actually work, from binary and data transmission to hardware, networks and emerging technologies. The other half is thinking like a programmer: designing algorithms, writing and correcting real code, querying a database, and reasoning through logic circuits. Students who treat it as a memory subject stall on the second half, because you cannot memorise your way through writing a program you have never seen.\n\nThis course teaches both halves properly. It follows the current 0478 syllabus (version 5, for examination in 2026, 2027 and 2028) topic by topic, and it is built around the fact that the qualification is assessed by two written papers of equal weight, with no coursework. Paper 1 covers computer systems. Paper 2 covers algorithms, programming and logic. Neither can be neglected, because each is worth exactly half the grade.\n\nThe six-month structure moves in the syllabus's own order. Months 1 and 2 build computer systems from the ground up: data representation, data transmission and hardware. Months 3 and 4 finish the theory with software, the internet and its uses, and automated and emerging technologies, then add Boolean logic. Months 5 and 6 turn to the programming half: algorithm design, pseudocode, real Python, file handling, databases and SQL, and then full timed exam practice on both papers. Every class is live and small, and every programming concept is practised by actually writing code, because that is the only part of this subject that cannot be faked.",
+    "what_makes_this_different": [
+      "Both papers taught in full and to equal depth, because each is worth exactly 50 percent of the grade and most students quietly neglect one of them",
+      "Taught to the current syllabus (0478 version 5, for examination in 2026, 2027 and 2028), so nothing covered is out of date",
+      "Real programming, not just pseudocode on paper: students write and run genuine Python, which is what makes Paper 2 straightforward instead of frightening",
+      "The scenario question is prepared for directly: candidates may answer in pseudocode or in Python, Visual Basic or Java, and we drill the choice your child is strongest in",
+      "Exam technique built in from the start: trace tables, dry runs, test data, and the difference between the marks for stating, applying and evaluating",
+      "Live, small batches where your child writes code during class and gets it reviewed on the spot, not recorded lectures watched alone"
+    ],
+    "learning_path": {
+      "phase_1": "Computer systems foundations: data representation, data transmission and hardware, built from binary upward",
+      "phase_2": "Software, the internet and its uses, automated and emerging technologies, then Boolean logic and logic circuits",
+      "phase_3": "Algorithm design, programming in Python, databases and SQL, then full timed practice on both papers"
+    },
+    "career_outcomes": [
+      "Strong grades across both IGCSE Computer Science papers, not just the theory half",
+      "The ability to genuinely write, read and debug Python, which is the real transferable skill",
+      "A solid base for A Level Computer Science or IB Computer Science afterwards",
+      "Computational thinking that carries into maths, physics and any future technical study",
+      "An early, real head start in programming that compounds for years"
+    ]
+  },
+  "phase_1_computer_systems_foundations": {
+    "title": "PHASE 1: Computer Systems Foundations (Paper 1 core, Months 1-2)",
+    "description": "How a computer actually represents, moves and processes information, built from binary upward so nothing later has to be taken on faith.",
+    "month_1_data_representation_and_transmission": {
+      "title": "Month 1: Data Representation and Data Transmission",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Binary, Denary and Hexadecimal",
+        "topics": [
+          "Why computers use binary, and what a bit and a byte actually are",
+          "Converting between denary, binary and hexadecimal in both directions",
+          "Binary addition, and what overflow means and when it happens",
+          "Logical binary shifts and their effect on a value",
+          "Where hexadecimal shows up in practice: error codes, MAC addresses, colour codes"
+        ],
+        "projects": [
+          "A conversion drill sheet worked by hand, then a short Python script that checks your answers"
+        ],
+        "practice": "20 conversion and binary-addition questions at exam difficulty, self-marked against worked solutions"
+      },
+      "week_2": {
+        "title": "Representing Text, Images and Sound",
+        "topics": [
+          "Character sets: ASCII and Unicode, and why Unicode exists",
+          "How an image is stored: pixels, resolution, colour depth, and the file-size calculation",
+          "How sound is stored: sampling rate, sample resolution, and the trade-off with quality",
+          "Calculating file sizes, a guaranteed source of marks",
+          "Measurements of storage from bit up to terabyte"
+        ],
+        "projects": [
+          "Calculate the true file size of a given image and sound clip, then verify against a real file"
+        ],
+        "practice": "12 file-size and representation calculations, shown with full working",
+        "assessment": "A short written check on number systems and data representation, marked in exam style"
+      },
+      "week_3": {
+        "title": "Compression and Data Transmission",
+        "topics": [
+          "Lossy and lossless compression, and when each is appropriate",
+          "How run-length encoding works, step by step",
+          "Data packets: structure, packet switching, and why packets can arrive out of order",
+          "Serial and parallel transmission, simplex, half-duplex and duplex",
+          "Universal Serial Bus and where it fits"
+        ],
+        "projects": [
+          "Compress a sample string by run-length encoding by hand, then reverse it"
+        ],
+        "practice": "10 questions on compression and transmission methods, including a packet-structure diagram"
+      },
+      "week_4": {
+        "title": "Error Detection and Encryption",
+        "topics": [
+          "Why errors occur in transmission, and what that means for the receiver",
+          "Parity checks (odd and even), checksums, echo check and check digits",
+          "Automatic Repeat reQuest and how acknowledgement works",
+          "Symmetric and asymmetric encryption explained plainly",
+          "Why encryption protects data but does not prevent interception"
+        ],
+        "projects": [
+          "Work a parity check and a check-digit calculation by hand, then break a deliberately corrupted example"
+        ],
+        "practice": "12 error-detection questions including trace-style parity problems",
+        "assessment": "End-of-month test on data representation and transmission, scored on the exam mark scheme"
+      }
+    },
+    "month_2_hardware": {
+      "title": "Month 2: Hardware and Computer Architecture",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "The CPU and the Fetch-Decode-Execute Cycle",
+        "topics": [
+          "The von Neumann model and the role of the processor",
+          "Registers, buses and their purpose in plain language",
+          "The fetch, decode, execute cycle in order",
+          "What actually affects CPU performance: clock speed, cores, cache",
+          "Embedded systems and where they are used"
+        ],
+        "projects": [
+          "Trace one full fetch-decode-execute cycle for a simple instruction and explain each step in your own words"
+        ],
+        "practice": "10 architecture questions, including performance-comparison scenarios"
+      },
+      "week_6": {
+        "title": "Input, Output and Sensors",
+        "topics": [
+          "Common input devices and where each is genuinely appropriate",
+          "Output devices, including printers and their differences",
+          "Sensors, what each measures, and their use in monitoring and control systems",
+          "Choosing the right device for a described scenario, which is how the exam asks it",
+          "Justifying a choice, since the marks are for the reason, not the name"
+        ],
+        "projects": [
+          "Specify the input and output devices for a described real system and justify every choice"
+        ],
+        "practice": "10 scenario questions where the marks come from justification"
+      },
+      "week_7": {
+        "title": "Memory and Storage",
+        "topics": [
+          "RAM and ROM, and the difference that actually matters",
+          "Virtual memory: what it is and why it is used",
+          "Magnetic, optical and solid state storage, and how each physically works",
+          "Comparing storage types on capacity, speed, portability and durability",
+          "Cloud storage, with its genuine advantages and real drawbacks"
+        ],
+        "projects": [
+          "Build a comparison table of storage types and defend a recommendation for a given user"
+        ],
+        "practice": "10 memory and storage questions including comparison and justification"
+      },
+      "week_8": {
+        "title": "Network Hardware and the Internet Backbone",
+        "topics": [
+          "Network interface card, MAC address and IP address, and how they differ",
+          "Routers and what they actually do",
+          "IPv4 and IPv6, and why IPv6 exists",
+          "Public and private IP addresses",
+          "How this connects to data transmission from Month 1"
+        ],
+        "projects": [
+          "Map how a request travels from a home device to a web server and back, labelling each component"
+        ],
+        "practice": "10 networking questions at exam difficulty",
+        "assessment": "End-of-phase test covering all of hardware, scored on the mark scheme"
+      }
+    }
+  },
+  "phase_2_software_internet_and_logic": {
+    "title": "PHASE 2: Software, the Internet, Emerging Technologies and Logic (Months 3-4)",
+    "description": "The rest of the Paper 1 theory, then Boolean logic, which is the bridge into the programming half of the course.",
+    "month_3_software_and_internet": {
+      "title": "Month 3: Software and the Internet",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "System Software and the Operating System",
+        "topics": [
+          "System software versus application software, with clear examples",
+          "What an operating system actually manages",
+          "Interrupts: what triggers them and how they are handled",
+          "The role of the bootstrap on start-up",
+          "Utility software and what each utility is for"
+        ],
+        "projects": [
+          "Explain, in your own words, exactly what happens between pressing power and seeing the desktop"
+        ],
+        "practice": "10 software questions including interrupt scenarios"
+      },
+      "week_10": {
+        "title": "Programming Languages, Translators and the IDE",
+        "topics": [
+          "High-level and low-level languages, and the real trade-off",
+          "Assembly language and why it still exists",
+          "Compilers and interpreters, and the difference in how each reports errors",
+          "What an Integrated Development Environment gives you",
+          "Common IDE features and how they help you debug"
+        ],
+        "projects": [
+          "Run the same short program through an interpreter and observe how errors surface"
+        ],
+        "practice": "10 questions comparing translators, with justification marks",
+        "assessment": "A timed check on software, translators and the operating system"
+      },
+      "week_11": {
+        "title": "The Internet and Its Uses",
+        "topics": [
+          "The internet and the World Wide Web are not the same thing, and the exam tests this",
+          "URLs, HTTP and HTTPS, and what the S actually secures",
+          "Web browsers, cookies (session and persistent) and how pages are retrieved and displayed",
+          "Digital currency and the idea of blockchain, at syllabus depth",
+          "Why any of this matters for security"
+        ],
+        "projects": [
+          "Trace what happens from typing a URL to the page rendering, naming every step"
+        ],
+        "practice": "10 questions on web technologies and cookies"
+      },
+      "week_12": {
+        "title": "Cyber Security",
+        "topics": [
+          "The threats named in the syllabus: brute force, data interception, DDoS, hacking, malware, phishing, pharming, social engineering",
+          "How each threat actually works, so the definitions stop blurring together",
+          "The solutions: access levels, anti-malware, authentication, firewalls, privacy settings, proxy servers, SSL",
+          "Matching the right solution to the right threat, which is how marks are awarded",
+          "Two-factor and biometric authentication"
+        ],
+        "projects": [
+          "Build a threat-and-solution table, then answer a scenario recommending and justifying protections"
+        ],
+        "practice": "12 threat-matching and justification questions",
+        "assessment": "End-of-month test on the internet and cyber security"
+      }
+    },
+    "month_4_emerging_tech_and_boolean_logic": {
+      "title": "Month 4: Automated Systems, Emerging Technologies and Boolean Logic",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Automated Systems and Robotics",
+        "topics": [
+          "How sensors, microprocessors and actuators work together in an automated system",
+          "Worked examples across transport, agriculture, weather and lighting",
+          "What characterises a robot, and where robotics is genuinely used",
+          "The real advantages and drawbacks of automation",
+          "Answering these as scenario questions rather than definitions"
+        ],
+        "projects": [
+          "Design an automated system for a described situation, naming every sensor and the microprocessor logic"
+        ],
+        "practice": "8 automated-system scenarios with full explanations"
+      },
+      "week_14": {
+        "title": "Artificial Intelligence at Syllabus Depth",
+        "topics": [
+          "What artificial intelligence means in this syllabus, precisely",
+          "Narrow, general and strong AI as the syllabus frames them",
+          "The basic characteristics of expert systems and their components",
+          "Machine learning at the level the exam requires, without overreach",
+          "The genuine limitations, so answers stay accurate"
+        ],
+        "projects": [
+          "Explain how an expert system reaches a conclusion, using its rule base and inference engine"
+        ],
+        "practice": "8 questions on AI and expert systems"
+      },
+      "week_15": {
+        "title": "Logic Gates and Truth Tables",
+        "topics": [
+          "The six gates: NOT, AND, OR, NAND, NOR and XOR",
+          "The symbol, the function and the truth table for each",
+          "Building a truth table correctly and completely, row by row",
+          "Reading a logic statement and identifying the gates involved",
+          "Why this topic is pure marks once the method is automatic"
+        ],
+        "projects": [
+          "Produce complete truth tables for all six gates from memory, then verify them"
+        ],
+        "practice": "12 truth-table exercises building to three-input problems"
+      },
+      "week_16": {
+        "title": "Logic Circuits and Logic Expressions",
+        "topics": [
+          "Drawing a logic circuit from a written scenario",
+          "Writing the logic expression for a given circuit",
+          "Completing a truth table for a multi-gate circuit without losing rows",
+          "Working backwards from a truth table to the expression",
+          "The common slips that cost marks in this topic"
+        ],
+        "projects": [
+          "Take a described safety system, draw its logic circuit, write the expression and complete the truth table"
+        ],
+        "practice": "10 full logic-circuit problems at exam standard",
+        "assessment": "End-of-phase test on emerging technologies and Boolean logic"
+      }
+    }
+  },
+  "phase_3_algorithms_programming_and_exam_mastery": {
+    "title": "PHASE 3: Algorithms, Programming, Databases and Exam Mastery (Paper 2, Months 5-6)",
+    "description": "The programming half of the qualification, taught by actually writing code, then both papers drilled under timed conditions.",
+    "month_5_algorithms_and_programming": {
+      "title": "Month 5: Algorithm Design and Programming",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "Algorithm Design, Pseudocode and Flowcharts",
+        "topics": [
+          "The program development life cycle: analysis, design, coding, testing",
+          "Decomposition and abstraction, and structure diagrams",
+          "Writing pseudocode in the style the syllabus expects",
+          "Drawing flowcharts with the correct symbols",
+          "Converting freely between pseudocode and a flowchart"
+        ],
+        "projects": [
+          "Take one described problem and express its solution as a structure diagram, pseudocode and a flowchart"
+        ],
+        "practice": "10 algorithm-design tasks in both pseudocode and flowchart form"
+      },
+      "week_18": {
+        "title": "Programming Fundamentals in Python",
+        "topics": [
+          "Data types, variables and constants, and declaring them properly",
+          "Input and output, and basic string handling",
+          "Sequence, selection (IF and CASE) and iteration (FOR, WHILE, REPEAT)",
+          "Nested statements and keeping them readable",
+          "Totalling and counting, the two patterns that appear constantly"
+        ],
+        "projects": [
+          "Write a working Python program using selection and iteration to solve a real described task"
+        ],
+        "practice": "12 short programs written and run, each tested with your own test data"
+      },
+      "week_19": {
+        "title": "Arrays, Procedures, Functions and File Handling",
+        "topics": [
+          "One-dimensional and two-dimensional arrays, and traversing them with loops",
+          "Standard methods: linear search, bubble sort, finding totals, maximum, minimum and average",
+          "Procedures and functions, parameters, and why they matter",
+          "Local and global variables",
+          "Reading from and writing to a text file"
+        ],
+        "projects": [
+          "Build a program that reads records from a file into an array, searches and sorts it, and writes results back"
+        ],
+        "practice": "10 array and file-handling programs at exam difficulty"
+      },
+      "week_20": {
+        "title": "Validation, Verification, Test Data and Trace Tables",
+        "topics": [
+          "Validation checks: range, length, type, presence, format, check digit",
+          "Verification, and how it differs from validation",
+          "Choosing normal, abnormal and boundary test data deliberately",
+          "Completing a trace table accurately, a classic source of marks",
+          "Finding the error in someone else's code, which the exam asks directly"
+        ],
+        "projects": [
+          "Add full validation to an earlier program, then produce a trace table proving it works"
+        ],
+        "practice": "10 trace-table and test-data questions, plus 5 find-the-error tasks",
+        "assessment": "Timed programming assessment: write, validate and trace a full solution"
+      }
+    },
+    "month_6_databases_and_full_exam_practice": {
+      "title": "Month 6: Databases, SQL and Full Exam Practice",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "Databases and SQL",
+        "topics": [
+          "Single-table databases: records, fields and the primary key",
+          "Choosing appropriate data types for fields",
+          "SQL: SELECT, FROM, WHERE, ORDER BY",
+          "SUM and COUNT, and when each is wanted",
+          "Reading a described scenario and writing the query it asks for"
+        ],
+        "projects": [
+          "Design a single-table database for a described scenario and write the queries that answer real questions about it"
+        ],
+        "practice": "12 SQL questions building from single conditions to sorted, aggregated queries"
+      },
+      "week_22": {
+        "title": "Paper 1 Technique",
+        "topics": [
+          "How the theory paper is structured and how the marks are distributed",
+          "Reading the command word: state, describe, explain, compare, justify",
+          "Why a one-word answer loses marks on an explain question",
+          "Managing time so the longer questions are not rushed",
+          "The topics that recur every single year"
+        ],
+        "projects": [
+          "A full timed Paper 1 attempt, then a question-by-question review with every miss tagged by cause"
+        ],
+        "practice": "Two timed Paper 1 sets, fully reviewed"
+      },
+      "week_23": {
+        "title": "Paper 2 Technique and the Scenario Question",
+        "topics": [
+          "How the programming paper is structured, including the extended scenario question",
+          "Choosing your answer language deliberately: pseudocode, Python, Visual Basic or Java",
+          "Structuring a long program answer so partial marks are never lost",
+          "Writing readable code by hand, under time, with comments that earn credit",
+          "Checking a written program for the small errors that cost marks"
+        ],
+        "projects": [
+          "A full timed Paper 2 attempt including the extended scenario question, marked on the official scheme"
+        ],
+        "practice": "Timed Paper 2 sets across algorithm, array, file and database question types"
+      },
+      "week_24": {
+        "title": "Full Mock Exams and Final Polishing",
+        "topics": [
+          "Full-length timed mocks on both papers under real conditions",
+          "Turning the error log from every mock into a focused revision plan",
+          "Locking in the recurring high-mark topics so they are automatic",
+          "A calm, tested routine for both exam days",
+          "An honest read on the target grade and the final push to reach it"
+        ],
+        "projects": [
+          "Two complete mock examinations, both papers, each fully reviewed and converted into a revision list"
+        ],
+        "practice": "Repeated full mocks until pacing and accuracy are consistent",
+        "assessment": "Final full mock on both papers, scored and benchmarked against the target grade"
+      }
+    }
+  },
+  "prerequisites": {
+    "title": "What Your Child Needs to Start",
+    "items": [
+      "Enrolment in IGCSE Computer Science (0478), or about to begin it; no prior coding is required, everything is taught from the basics",
+      "A computer that can run Python, which we help install and set up in the first class",
+      "Comfort with basic school mathematics; all the binary and logic work is taught step by step",
+      "A willingness to write code during class, since the programming paper cannot be passed by watching"
+    ]
+  },
+  "who_is_this_for": {
+    "title": "Who This Course Is For",
+    "items": [
+      "IGCSE students taking Computer Science 0478 who want to genuinely understand it, not memorise it",
+      "Students who are comfortable with the theory but freeze on the programming paper, or the reverse",
+      "Strong students aiming for a top grade across both papers",
+      "Students planning A Level Computer Science or IB Computer Science afterwards",
+      "Parents who want live, small-batch teaching with real feedback, not a recorded course watched alone"
+    ]
+  },
+  "career_paths_after_completion": [
+    "A strong IGCSE Computer Science grade across both papers",
+    "A confident move into A Level Computer Science or IB Computer Science",
+    "Genuine Python ability, the most transferable skill in the syllabus",
+    "A real foundation for a computer science degree later",
+    "Computational thinking that transfers into maths, physics and engineering"
+  ],
+  "course_guarantees": {
+    "title": "Our Commitment to You",
+    "items": [
+      "Every class is live and small, taught by a real mentor, never a recorded video watched alone",
+      "Both papers are taught in full, because each is worth exactly half the grade",
+      "Taught to the current 0478 syllabus (version 5, for examination in 2026, 2027 and 2028)",
+      "Your child writes and runs real code in class and gets it reviewed on the spot",
+      "A free demo class first, so you can judge the teaching before you pay anything"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is this course aligned to the current IGCSE Computer Science syllabus?",
+      "answer": "Yes. It follows Cambridge IGCSE Computer Science 0478, version 5, for examination in 2026, 2027 and 2028. It covers both assessed components in full: Paper 1 on computer systems, and Paper 2 on algorithms, programming and logic. There is no coursework in this qualification, so the two papers are the entire grade."
+    },
+    {
+      "question": "Which programming language do you teach for Paper 2?",
+      "answer": "We teach Python, because it is the clearest to read and the most widely used beyond the exam. In the extended scenario question candidates may answer in pseudocode or in Python, Visual Basic or Java, so we make sure your child is fluent in pseudocode too and confident in whichever form they choose to answer in."
+    },
+    {
+      "question": "My child is fine at the theory but panics on the programming paper. Can this help?",
+      "answer": "That is the single most common pattern in this subject, and it is exactly what the course is built to fix. Paper 2 is worth half the grade and cannot be memorised. We teach programming by having your child write and run real code every week, then drill trace tables, test data and the extended scenario question until writing a solution under time feels ordinary."
+    },
+    {
+      "question": "Do you cover Boolean logic and databases properly?",
+      "answer": "Yes, both in full. Boolean logic gets two dedicated weeks covering all six gates, truth tables, drawing circuits from a scenario and writing logic expressions. Databases get a full week on single-table design and SQL, including SELECT, FROM, WHERE, ORDER BY, SUM and COUNT. Both are reliable marks once the method is automatic."
+    },
+    {
+      "question": "How long is the course and when can we join?",
+      "answer": "It runs six months across 24 weeks, with two live classes a week, and you can join in any month. Students already partway through their IGCSE course are placed at the right point after the free demo class, and we fill any gaps from the earlier topics as we go."
+    },
+    {
+      "question": "How much do the IGCSE Computer Science classes cost?",
+      "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,499 per month, and 1-on-1 classes are ₹4,999 per month. There is a free demo class first, so you can see the teaching before you decide."
+    },
+    {
+      "question": "Will this prepare my child for A Level or IB Computer Science?",
+      "answer": "Yes. The programming, algorithm design and computer-systems foundations here are exactly what A Level Computer Science and IB Computer Science build on. A student who genuinely understands 0478, rather than having memorised it, starts the next qualification ahead instead of behind."
+    }
+  ]
+}
