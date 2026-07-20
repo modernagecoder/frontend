@@ -2,70 +2,214 @@
   "meta": {
     "slug": "coding-vs-ai-what-should-my-child-learn",
     "title": "Coding vs AI: What Should My Child Learn in 2026?",
-    "description": "Coding or AI, which should your child learn in 2026? It is not a choice. Here is why coding comes first, what AI skills to add and when, and the simple age-by-age roadmap we use.",
-    "keywords": ["coding vs ai for kids", "should my child learn coding or ai", "coding or ai which is better", "ai skills for kids", "what should kids learn coding or ai", "teaching kids ai and coding"],
-    "author": {"name": "Modern Age Coders", "bio": "Live online coding and maths teachers for all ages, 6 to 67."},
+    "description": "Coding or AI for your child in 2026? It is not a choice: why coding comes first and the age-by-age roadmap that adds AI on top.",
+    "keywords": [
+      "coding vs ai for kids",
+      "should my child learn coding or ai",
+      "coding or ai which is better",
+      "ai skills for kids",
+      "what should kids learn coding or ai",
+      "teaching kids ai and coding"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Live online coding and maths teachers for all ages, 6 to 67."
+    },
     "date": "2026-07-18",
-    "dateModified": "2026-07-18",
+    "dateModified": "2026-07-20",
     "category": "Kids Coding",
-    "tags": ["Coding for Kids", "AI", "Parenting", "Education"],
-    "readTime": "8 min read",
+    "tags": [
+      "Coding for Kids",
+      "AI",
+      "Parenting",
+      "Education"
+    ],
+    "readTime": "7 min read",
     "featured": false,
     "tldr": "Coding versus AI is a false choice. Coding teaches your child to think, build and understand how technology works, and AI is a tool that child will use to work faster. The right order is coding fundamentals first, then AI tools on top. A child who understands code can direct and check AI. A child who only knows AI cannot."
   },
   "hero": {
     "title": "Coding vs AI: What Should My Child Learn in 2026?",
-    "featuredImage": {"url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_44_hero.png", "alt": "A child choosing between learning coding and using AI tools"}
+    "featuredImage": {
+      "url": "/images/blog/coding-vs-ai-what-should-my-child-learn/00-hero.png",
+      "alt": "Coding vs AI: what should your child learn in 2026, why coding comes first, and the age-by-age roadmap that adds AI on top"
+    }
   },
   "content": {
     "sections": [
-      {"type": "toc"},
-      {"type": "paragraph", "text": "With AI everywhere, a lot of parents have started asking a new version of an old question: should my child bother learning to code, or should they just learn to use AI? It sounds like a sensible either/or. It is not one."},
-      {"type": "paragraph", "text": "Coding and AI are not competing subjects. One is a foundation and the other is a tool that sits on top of it. Teaching a child to use AI without teaching them to code is like handing them a calculator before they understand numbers. Here is how the two fit together, and the order that actually works."},
-
-      {"type": "heading", "level": 2, "text": "The short answer", "id": "short-answer"},
-      {"type": "paragraph", "text": "Your child should learn coding first, then add AI tools on top of it. Coding builds the understanding: how a program is structured, how to break a problem into steps, and how to tell whether an answer is correct. AI is a powerful assistant that works best in the hands of someone who has that understanding. The children who will get the most from AI are the ones who learned to code first."},
-      {"type": "callout", "text": "AI does not remove the need to understand code. It raises it. When a machine writes most of the code, the human's entire value is being able to decide what to build and to catch it when it is wrong. Both of those come from knowing how to code."},
-
-      {"type": "heading", "level": 2, "text": "Why it is a false choice", "id": "false-choice"},
-      {"type": "paragraph", "text": "AI is not a subject your child studies instead of coding. It is a way of working that runs through everything. A child still has to know what they are trying to make, describe it clearly, judge whether the AI's output is right, and fix it when it is not. Every one of those depends on understanding code. Framing it as coding or AI hides the fact that AI is most useful to people who can code, and close to useless as a shortcut for people who cannot."},
-
-      {"type": "heading", "level": 2, "text": "What coding gives your child that using AI does not", "id": "what-coding-gives"},
-      {"type": "list", "items": [
-        "Logical thinking. Breaking a fuzzy goal into precise, ordered steps is the core of coding and the core of clear thinking. Using AI does not build it.",
-        "The ability to check. AI produces confident, clean, sometimes completely wrong answers. Only a child who understands the problem can catch that.",
-        "Real problem solving. When something breaks, a coder reasons about why. A child who only prompts an AI is stuck the moment the AI is.",
-        "Creating, not just consuming. Coding turns a child from someone who uses apps into someone who builds them. AI on its own can keep them a consumer.",
-        "Confidence that transfers. A child who has built and fixed real things approaches every hard problem differently, in coding, in maths and beyond."
-      ]},
-
-      {"type": "heading", "level": 2, "text": "What AI skills a child should add, and when", "id": "ai-skills"},
-      {"type": "paragraph", "text": "AI literacy matters, and it belongs alongside coding rather than instead of it. Once a child understands the basics of how programs work, they can learn to use AI well: how to describe a task clearly, how to read and check what the AI produces, how to spot when it is wrong, and where it should not be used at all. Taught this way, AI makes a young coder faster and sharper. Taught as a replacement for thinking, it makes them dependent. The skill worth teaching is not prompting a chatbot, it is judging its output, and that only makes sense once a child can code."},
-
-      {"type": "heading", "level": 2, "text": "A simple age-by-age roadmap", "id": "roadmap"},
-      {"type": "list", "items": [
-        "Ages 6 to 10: start with the logic of coding through visual, block-based tools like Scratch. Introduce AI only lightly and always with a parent, since most AI tools have age limits and are not built for young children.",
-        "Ages 11 to 14: move to a real language such as Python and build projects. Begin using AI as a supervised helper to explain code and speed up work, while always reading and checking what it writes.",
-        "Ages 15 and up: deepen the fundamentals, take on bigger projects, and use modern AI coding tools the way professionals do, to work faster while staying fully in control of the code."
-      ]},
-
-      {"type": "heading", "level": 2, "text": "The trap to avoid", "id": "the-trap"},
-      {"type": "paragraph", "text": "The tempting shortcut is to skip the hard part and let a child build things by describing them to an AI without ever learning to code. It produces quick results and almost no understanding. The child ends up with software they cannot read, cannot fix and cannot explain, and the first real obstacle stops them cold. Understanding first, tools second, is the order that lasts."},
-
-      {"type": "quote", "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.", "author": "Shivam Khemka, Founder of Modern Age Coders"},
-
-      {"type": "heading", "level": 2, "text": "The bottom line", "id": "bottom-line"},
-      {"type": "paragraph", "text": "It was never coding versus AI. It is coding, then AI on top. Give your child the fundamentals and they can use every AI tool that comes along with judgment and control. Skip the fundamentals and no amount of AI will make up for it. At Modern Age Coders we teach coding and maths together, live and in small batches, for ages 6 to 67, and we bring AI in the right way at the right age. We are rated 4.9 across 547 Google reviews, and there is a free demo class before you pay."},
-      {"type": "button", "text": "Book a Free Demo Class", "url": "/book-demo"},
-
-      {"type": "accordion", "items": [
-        {"title": "Should my child learn coding or AI?", "content": "Both, in that order. Coding comes first because it builds the understanding, logical thinking and problem solving that let a child direct and check AI. AI is then added as a tool on top. A child who understands code can use AI well; a child who only knows AI cannot verify or fix what it produces."},
-        {"title": "Will AI make learning to code pointless for kids?", "content": "No. AI makes understanding code more valuable, not less. When a machine writes most of the code, the human's value is deciding what to build and catching mistakes, and both require knowing how to code. The children who benefit most from AI are the ones who learned the fundamentals first."},
-        {"title": "At what age should a child start using AI tools?", "content": "Most general AI tools have age limits, commonly 13 and sometimes higher, and are not designed for young children. Younger children should only use AI with a parent driving. A good approach is to build coding fundamentals from around age 6 with tools like Scratch, and introduce AI as a supervised helper in the early teens."},
-        {"title": "What is the right order to teach coding and AI?", "content": "Fundamentals first, tools second. Teach the logic of coding, then a real language such as Python, then how to use AI to work faster while always reading and checking its output. Teaching AI as a replacement for understanding leaves a child unable to verify or fix what the AI writes."},
-        {"title": "Is prompting an AI the same as coding?", "content": "No. Writing a prompt is not the same as understanding the code the AI returns. The valuable skill is judging whether that output is correct and fixing it when it is not, which requires knowing how to code. Prompting on its own does not build logical thinking or problem solving."}
-      ]}
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "With AI everywhere, a lot of parents have started asking a new version of an old question: should my child bother learning to code, or should they just learn to use AI? It sounds like a sensible either/or. It is not one."
+      },
+      {
+        "type": "paragraph",
+        "text": "Coding and AI are not competing subjects. One is a foundation and the other is a tool that sits on top of it. Teaching a child to use AI without teaching them to code is like handing them a calculator before they understand numbers. Here is how the two fit together, and the order that actually works."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The short answer",
+        "id": "short-answer"
+      },
+      {
+        "type": "paragraph",
+        "text": "Your child should learn coding first, then add AI tools on top of it. Coding builds the understanding: how a program is structured, how to break a problem into steps, and how to tell whether an answer is correct. AI is a powerful assistant that works best in the hands of someone who has that understanding. The children who will get the most from AI are the ones who learned to code first."
+      },
+      {
+        "type": "callout",
+        "text": "AI does not remove the need to understand code. It raises it. When a machine writes most of the code, the human's entire value is being able to decide what to build and to catch it when it is wrong. Both of those come from knowing how to code."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why it is a false choice",
+        "id": "false-choice"
+      },
+      {
+        "type": "paragraph",
+        "text": "AI is not a subject your child studies instead of coding. It is a way of working that runs through everything. A child still has to know what they are trying to make, describe it clearly, judge whether the AI's output is right, and fix it when it is not. Every one of those depends on understanding code. Framing it as coding or AI hides the fact that AI is most useful to people who can code, and close to useless as a shortcut for people who cannot."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What coding gives your child that using AI does not",
+        "id": "what-coding-gives"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/coding-vs-ai-what-should-my-child-learn/01-what-coding-gives.png",
+        "alt": "Five things learning to code gives a child that using AI alone does not: logical thinking, the ability to check, real problem solving, creating not consuming, and transferable confidence",
+        "caption": "AI can speed up all five of these once they exist. It cannot build them from nothing."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Logical thinking.</strong> Breaking a fuzzy goal into precise, ordered steps is the core of coding and the core of clear thinking. Using AI does not build it.",
+          "<strong>The ability to check.</strong> AI produces confident, clean, sometimes completely wrong answers. Only a child who understands the problem can catch that.",
+          "<strong>Real problem solving.</strong> When something breaks, a coder reasons about why. A child who only prompts an AI is stuck the moment the AI is.",
+          "<strong>Creating, not just consuming.</strong> Coding turns a child from someone who uses apps into someone who builds them. AI on its own can keep them a consumer.",
+          "<strong>Confidence that transfers.</strong> A child who has built and fixed real things approaches every hard problem differently, in coding, in maths and beyond."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What AI skills a child should add, and when",
+        "id": "ai-skills"
+      },
+      {
+        "type": "paragraph",
+        "text": "AI literacy matters, and it belongs alongside coding rather than instead of it. Once a child understands the basics of how programs work, they can learn to use AI well: how to describe a task clearly, how to read and check what the AI produces, how to spot when it is wrong, and where it should not be used at all. Taught this way, AI makes a young coder faster and sharper. Taught as a replacement for thinking, it makes them dependent. The skill worth teaching is not prompting a chatbot, it is judging its output, and that only makes sense once a child can code."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A simple age-by-age roadmap",
+        "id": "roadmap"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Age",
+          "Coding focus",
+          "AI's role"
+        ],
+        "rows": [
+          [
+            "6 to 10",
+            "The logic of coding through visual, block-based tools like Scratch",
+            "Light, always with a parent, since most tools set age limits"
+          ],
+          [
+            "11 to 14",
+            "A real language such as Python, building real projects",
+            "A supervised helper to explain code, always read and checked"
+          ],
+          [
+            "15 and up",
+            "Deeper fundamentals and bigger, independent projects",
+            "Modern AI coding tools used the way professionals do, in full control"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The trap to avoid",
+        "id": "the-trap"
+      },
+      {
+        "type": "paragraph",
+        "text": "The tempting shortcut is to skip the hard part and let a child build things by describing them to an AI without ever learning to code. It produces quick results and almost no understanding. The child ends up with software they cannot read, cannot fix and cannot explain, and the first real obstacle stops them cold. Understanding first, tools second, is the order that lasts."
+      },
+      {
+        "type": "quote",
+        "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.",
+        "author": "Shivam Khemka, Founder of Modern Age Coders"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The bottom line",
+        "id": "bottom-line"
+      },
+      {
+        "type": "paragraph",
+        "text": "It was never coding versus AI. It is coding, then AI on top. Give your child the fundamentals and they can use every AI tool that comes along with judgment and control. Skip the fundamentals and no amount of AI will make up for it. At Modern Age Coders we teach coding and maths together, live and in small batches, for ages 6 to 67, and we bring AI in the right way at the right age. We are rated 4.9 across 547 Google reviews, and there is a free demo class before you pay."
+      },
+      {
+        "type": "button",
+        "text": "Book a Free Demo Class",
+        "url": "/book-demo"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Should my child learn coding or AI?",
+            "content": "Both, in that order. Coding comes first because it builds the understanding, logical thinking and problem solving that let a child direct and check AI. AI is then added as a tool on top. A child who understands code can use AI well; a child who only knows AI cannot verify or fix what it produces."
+          },
+          {
+            "title": "Will AI make learning to code pointless for kids?",
+            "content": "No. AI makes understanding code more valuable, not less. When a machine writes most of the code, the human's value is deciding what to build and catching mistakes, and both require knowing how to code. The children who benefit most from AI are the ones who learned the fundamentals first."
+          },
+          {
+            "title": "At what age should a child start using AI tools?",
+            "content": "Most general AI tools have age limits, commonly 13 and sometimes higher, and are not designed for young children. Younger children should only use AI with a parent driving. A good approach is to build coding fundamentals from around age 6 with tools like Scratch, and introduce AI as a supervised helper in the early teens."
+          },
+          {
+            "title": "What is the right order to teach coding and AI?",
+            "content": "Fundamentals first, tools second. Teach the logic of coding, then a real language such as Python, then how to use AI to work faster while always reading and checking its output. Teaching AI as a replacement for understanding leaves a child unable to verify or fix what the AI writes."
+          },
+          {
+            "title": "Is prompting an AI the same as coding?",
+            "content": "No. Writing a prompt is not the same as understanding the code the AI returns. The valuable skill is judging whether that output is correct and fixing it when it is not, which requires knowing how to code. Prompting on its own does not build logical thinking or problem solving."
+          },
+          {
+            "title": "What should an 11 to 14 year old be doing with AI and coding?",
+            "content": "At this stage, the coding focus should shift from block-based tools to a real language like Python, building actual projects. AI fits in as a supervised helper for explaining tricky code and speeding up small tasks, with every output read and checked rather than copied straight in."
+          },
+          {
+            "title": "Does a child need to know how to code before using AI coding tools like Copilot?",
+            "content": "Yes, ideally. AI coding assistants suggest and edit code, but someone still has to judge whether the suggestion is correct and fix it when it is not. A child who cannot yet read code has no way to do that, so the tool ends up doing the thinking instead of accelerating it."
+          }
+        ]
+      }
     ]
   },
-  "relatedPosts": ["is-coding-worth-learning-2026", "is-coding-good-for-kids", "safe-ai-tools-for-kids-homework-2025"]
+  "relatedPosts": [
+    "is-coding-worth-learning-2026",
+    "is-coding-good-for-kids",
+    "safe-ai-tools-for-kids-homework-2025"
+  ]
 }
