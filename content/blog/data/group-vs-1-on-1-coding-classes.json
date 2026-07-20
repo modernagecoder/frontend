@@ -1,73 +1,235 @@
 {
   "meta": {
     "slug": "group-vs-1-on-1-coding-classes",
-    "title": "Group vs 1-on-1 Coding Classes: Which Is Better for Your Child?",
-    "description": "Group or 1-on-1 coding classes? An honest comparison of cost, attention, pace and peer learning, plus a simple rule for which suits your child, and the option in between.",
-    "keywords": ["group vs 1-on-1 coding classes", "one on one vs group coding", "are group coding classes good", "1-on-1 coding classes worth it", "small group coding class", "best coding class format for kids"],
-    "author": {"name": "Modern Age Coders", "bio": "Live online coding and maths teachers for all ages, 6 to 67."},
+    "title": "Group vs 1-on-1 Coding Classes: Which Is Better?",
+    "description": "Group or 1-on-1 coding classes for your child? An honest comparison, plus a simple rule for which one to pick.",
+    "keywords": [
+      "group vs 1-on-1 coding classes",
+      "one on one vs group coding",
+      "are group coding classes good",
+      "1-on-1 coding classes worth it",
+      "small group coding class",
+      "best coding class format for kids"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Live online coding and maths teachers for all ages, 6 to 67."
+    },
     "date": "2026-07-18",
-    "dateModified": "2026-07-18",
+    "dateModified": "2026-07-20",
     "category": "Kids Coding",
-    "tags": ["Coding for Kids", "Parenting", "Choosing a Class"],
-    "readTime": "7 min read",
+    "tags": [
+      "Coding for Kids",
+      "Parenting",
+      "Choosing a Class"
+    ],
+    "readTime": "6 min read",
     "featured": false,
     "tldr": "Group and 1-on-1 coding classes both work and suit different children. Small group classes are more affordable and add peer learning, which fits most children. 1-on-1 gives a personalised pace and undivided attention, for a specific goal, a big gap, or a child who needs it. A mini batch of three or four sits in between."
   },
   "hero": {
-    "title": "Group vs 1-on-1 Coding Classes: Which Is Better for Your Child?",
-    "featuredImage": {"url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_1_hero.png", "alt": "Comparing group and one-to-one coding classes for kids"}
+    "title": "Group vs 1-on-1 Coding Classes: Which Is Better?",
+    "featuredImage": {
+      "url": "/images/blog/group-vs-1-on-1-coding-classes/00-hero.png",
+      "alt": "Group vs 1-on-1 coding classes for kids: an honest comparison of cost, attention, and pace, plus the mini batch option in between"
+    }
   },
   "content": {
     "sections": [
-      {"type": "toc"},
-      {"type": "paragraph", "text": "When you sign a child up for coding, one of the first choices is the class format: a small group, or one-to-one with a private mentor. Both can be excellent. The right answer depends less on which is better in the abstract and more on your child, your goal and your budget. Here is how to decide without overthinking it."},
-
-      {"type": "heading", "level": 2, "text": "The short answer", "id": "short-answer"},
-      {"type": "paragraph", "text": "For most children, a small group class is the sweet spot: it is more affordable, and learning alongside a few peers adds motivation and a healthy bit of friendly competition. Choose 1-on-1 when your child has a specific goal, a large gap to close quickly, or genuinely needs undivided attention. If you want more attention than a group but not the full cost of private, a mini batch of three or four is the middle ground."},
-
-      {"type": "heading", "level": 2, "text": "Small group classes: the strengths", "id": "group"},
-      {"type": "list", "items": [
-        "More affordable, so it fits most family budgets.",
-        "Peer learning and motivation: children push each other and see how others solve problems.",
-        "A healthy bit of friendly competition keeps many children engaged.",
-        "Still personal, as long as the batch is genuinely small, five to eight children with a real teacher.",
-        "Good preparation for real work, where coding is almost always a team activity."
-      ]},
-
-      {"type": "heading", "level": 2, "text": "1-on-1 classes: the strengths", "id": "one-on-one"},
-      {"type": "list", "items": [
-        "Undivided attention: the whole lesson is about your child.",
-        "A fully personalised pace: race ahead, or slow down and fill a gap, without waiting for anyone.",
-        "Ideal for a specific goal, like a project, an exam, or a fast catch-up.",
-        "Flexible scheduling in many cases.",
-        "Best for a child who is shy in groups, or one who needs more support than a group can give."
-      ]},
-
-      {"type": "heading", "level": 2, "text": "The mini batch in between", "id": "mini-batch"},
-      {"type": "paragraph", "text": "There is a third option many families miss: a mini batch of just three or four children. It gives near one-to-one attention, so a child is closely supported, while keeping a little peer learning and a lower price than full private tuition. For a child who wants more attention than a large group but does not need a private mentor, it is often the ideal balance."},
-
-      {"type": "heading", "level": 2, "text": "A simple rule to decide", "id": "rule"},
-      {"type": "list", "items": [
-        "Most children, steady progress, sensible budget: small group.",
-        "Wants more attention without full private cost: mini batch of three or four.",
-        "Specific goal, big gap, shy in groups, or needs undivided attention: 1-on-1.",
-        "Not sure: start with a group and a free demo, and move up to a mini batch or 1-on-1 later if your child needs it. You can always change."
-      ]},
-
-      {"type": "quote", "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.", "author": "Shivam Khemka, Founder of Modern Age Coders"},
-
-      {"type": "heading", "level": 2, "text": "The bottom line", "id": "bottom-line"},
-      {"type": "paragraph", "text": "Group is the right default for most children, 1-on-1 is for specific needs, and a mini batch of three or four bridges the two. Whatever you choose, the class should be live, taught by a real mentor, and easy to switch. At Modern Age Coders you can pick a small group, a mini batch, or full 1-on-1, all live, for coding and maths, for ages 6 to 67, with a free demo before you pay and monthly billing you can change any time. We are rated 4.9 across 547 Google reviews."},
-      {"type": "button", "text": "Book a Free Demo Class", "url": "/book-demo"},
-
-      {"type": "accordion", "items": [
-        {"title": "Are group or 1-on-1 coding classes better for kids?", "content": "Both work, for different children. Small group classes are more affordable and add peer learning and motivation, which suits most children. 1-on-1 gives undivided attention and a fully personalised pace, which suits a specific goal, a big gap, or a child who needs it. A mini batch of three or four sits between the two."},
-        {"title": "Are small group coding classes effective?", "content": "Yes, as long as the batch is genuinely small, around five to eight children with a real live teacher. That keeps the class personal while adding the motivation and peer learning that many children thrive on. Very large batches are far less effective because each child gets little attention."},
-        {"title": "When is 1-on-1 coding worth the extra cost?", "content": "Choose 1-on-1 when your child has a specific goal such as a project or exam, a large gap to close quickly, is shy in groups, or simply needs undivided attention. For steady general progress on a sensible budget, a small group usually gives excellent value."},
-        {"title": "What is a mini batch coding class?", "content": "A mini batch is a very small group, typically three or four children, that gives near one-to-one attention while keeping some peer learning and a lower price than full private tuition. It is a good middle option for a child who wants more attention than a large group but does not need a private mentor."},
-        {"title": "Can we switch from group to 1-on-1 later?", "content": "With a good provider, yes. A sensible approach is to start with a small group and a free demo, then move up to a mini batch or 1-on-1 if your child needs more attention. Look for monthly billing you can change, rather than a locked-in plan."}
-      ]}
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "When you sign a child up for coding, one of the first choices is the class format: a small group, or one-to-one with a private mentor. Both can be excellent. The right answer depends less on which is better in the abstract and more on your child, your goal and your budget. Here is how to decide without overthinking it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The short answer",
+        "id": "short-answer"
+      },
+      {
+        "type": "paragraph",
+        "text": "For most children, a small group class is the sweet spot: it is more affordable, and learning alongside a few peers adds motivation and a healthy bit of friendly competition. Choose 1-on-1 when your child has a specific goal, a large gap to close quickly, or genuinely needs undivided attention. If you want more attention than a group but not the full cost of private, a mini batch of three or four is the middle ground."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Three formats, side by side",
+        "id": "comparison"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "",
+          "Small group (5 to 8)",
+          "Mini batch (3 to 4)",
+          "1-on-1"
+        ],
+        "rows": [
+          [
+            "Cost",
+            "Most affordable",
+            "Moderate",
+            "Highest"
+          ],
+          [
+            "Attention per child",
+            "Good",
+            "High, near one-to-one",
+            "Full, undivided"
+          ],
+          [
+            "Pace",
+            "Set by the group",
+            "Mostly personalised",
+            "Fully personalised"
+          ],
+          [
+            "Peer learning",
+            "Strong",
+            "Some",
+            "None"
+          ],
+          [
+            "Best for",
+            "Most children, steady budget",
+            "Wants more attention without full private cost",
+            "A specific goal, big gap, or shy in groups"
+          ]
+        ]
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/group-vs-1-on-1-coding-classes/01-comparison.png",
+        "alt": "A comparison of small group, mini batch, and 1-on-1 coding classes across cost, attention, pace, and peer learning",
+        "caption": "None of the three is universally best. Match the format to what your child actually needs right now."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Small group classes: the strengths",
+        "id": "group"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "More affordable, so it fits most family budgets.",
+          "Peer learning and motivation: children push each other and see how others solve problems.",
+          "A healthy bit of friendly competition keeps many children engaged.",
+          "Still personal, as long as the batch is genuinely small, five to eight children with a real teacher.",
+          "Good preparation for real work, where coding is almost always a team activity."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "1-on-1 classes: the strengths",
+        "id": "one-on-one"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Undivided attention: the whole lesson is about your child.",
+          "A fully personalised pace: race ahead, or slow down and fill a gap, without waiting for anyone.",
+          "Ideal for a specific goal, like a project, an exam, or a fast catch-up.",
+          "Flexible scheduling in many cases.",
+          "Best for a child who is shy in groups, or one who needs more support than a group can give."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The mini batch in between",
+        "id": "mini-batch"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is a third option many families miss: a mini batch of just three or four children. It gives near one-to-one attention, so a child is closely supported, while keeping a little peer learning and a lower price than full private tuition. For a child who wants more attention than a large group but does not need a private mentor, it is often the ideal balance."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A simple rule to decide",
+        "id": "rule"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Most children, steady progress, sensible budget: small group.",
+          "Wants more attention without full private cost: mini batch of three or four.",
+          "Specific goal, big gap, shy in groups, or needs undivided attention: 1-on-1.",
+          "Not sure: start with a group and a free demo, and move up to a mini batch or 1-on-1 later if your child needs it. You can always change."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.",
+        "author": "Shivam Khemka, Founder of Modern Age Coders"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The bottom line",
+        "id": "bottom-line"
+      },
+      {
+        "type": "paragraph",
+        "text": "Group is the right default for most children, 1-on-1 is for specific needs, and a mini batch of three or four bridges the two. Whatever you choose, the class should be live, taught by a real mentor, and easy to switch. At Modern Age Coders you can pick a small group, a mini batch, or full 1-on-1, all live, for coding and maths, for ages 6 to 67, with a free demo before you pay and monthly billing you can change any time. We are rated 4.9 across 547 Google reviews."
+      },
+      {
+        "type": "button",
+        "text": "Book a Free Demo Class",
+        "url": "/book-demo"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Are group or 1-on-1 coding classes better for kids?",
+            "content": "Both work, for different children. Small group classes are more affordable and add peer learning and motivation, which suits most children. 1-on-1 gives undivided attention and a fully personalised pace, which suits a specific goal, a big gap, or a child who needs it. A mini batch of three or four sits between the two."
+          },
+          {
+            "title": "Are small group coding classes effective?",
+            "content": "Yes, as long as the batch is genuinely small, around five to eight children with a real live teacher. That keeps the class personal while adding the motivation and peer learning that many children thrive on. Very large batches are far less effective because each child gets little attention."
+          },
+          {
+            "title": "When is 1-on-1 coding worth the extra cost?",
+            "content": "Choose 1-on-1 when your child has a specific goal such as a project or exam, a large gap to close quickly, is shy in groups, or simply needs undivided attention. For steady general progress on a sensible budget, a small group usually gives excellent value."
+          },
+          {
+            "title": "What is a mini batch coding class?",
+            "content": "A mini batch is a very small group, typically three or four children, that gives near one-to-one attention while keeping some peer learning and a lower price than full private tuition. It is a good middle option for a child who wants more attention than a large group but does not need a private mentor."
+          },
+          {
+            "title": "Can we switch from group to 1-on-1 later?",
+            "content": "With a good provider, yes. A sensible approach is to start with a small group and a free demo, then move up to a mini batch or 1-on-1 if your child needs more attention. Look for monthly billing you can change, rather than a locked-in plan."
+          },
+          {
+            "title": "Does a shy child do better in 1-on-1 or group classes?",
+            "content": "Often 1-on-1 at first, since a shy child can feel exposed answering in front of peers before they are ready. Some shy children grow in confidence precisely because of gentle peer interaction, so it is worth watching how your child responds in a free demo rather than assuming either format automatically."
+          },
+          {
+            "title": "Is a mini batch worth the extra cost over a large group?",
+            "content": "For a child who is getting lost in a big class but does not need full private attention, yes, the jump from a large group to a mini batch of three or four is often where the biggest improvement in attention happens. Going further to full 1-on-1 usually adds cost faster than it adds benefit unless there is a specific goal driving it."
+          }
+        ]
+      }
     ]
   },
-  "relatedPosts": ["how-to-choose-a-coding-class-for-your-child", "coding-class-fees-india-2026", "is-coding-good-for-kids"]
+  "relatedPosts": [
+    "how-to-choose-a-coding-class-for-your-child",
+    "coding-class-fees-india-2026",
+    "is-coding-good-for-kids"
+  ]
 }
