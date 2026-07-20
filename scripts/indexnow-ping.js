@@ -43,7 +43,10 @@ function findKey() {
     .filter((f) => {
       const body = fs.readFileSync(path.join(ROOT, f), 'utf8').trim();
       return body === path.basename(f, '.txt');
-    });
+    })
+    // readdirSync order is filesystem-dependent, so sort: with more than one key
+    // file present an unsorted pick could silently change between machines/runs.
+    .sort();
   if (!candidates.length) {
     console.error(
       'No IndexNow key file found at the repo root.\n' +
@@ -51,6 +54,24 @@ function findKey() {
         'const k=c.randomBytes(16).toString(\'hex\');f.writeFileSync(k+\'.txt\',k)"'
     );
     process.exit(1);
+  }
+
+  // An explicit pin always wins, so rotating keys never depends on sort order.
+  const pinned = (process.env.INDEXNOW_KEY || '').trim();
+  if (pinned) {
+    if (!candidates.includes(`${pinned}.txt`)) {
+      console.error(
+        `INDEXNOW_KEY=${pinned} was set, but no verified key file for it exists at the repo root.\n` +
+          `Found: ${candidates.join(', ') || '(none)'}`
+      );
+      process.exit(1);
+    }
+    return pinned;
+  }
+
+  if (candidates.length > 1) {
+    console.log(`  note        : ${candidates.length} key files present (${candidates.join(', ')}).`);
+    console.log(`                Using the first alphabetically. Set INDEXNOW_KEY=<key> to pin one.`);
   }
   return path.basename(candidates[0], '.txt');
 }
