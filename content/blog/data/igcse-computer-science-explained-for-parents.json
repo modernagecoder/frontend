@@ -1,67 +1,250 @@
 {
   "meta": {
     "slug": "igcse-computer-science-explained-for-parents",
-    "title": "IGCSE Computer Science (0478) Explained for Parents (2026-2028)",
-    "description": "A plain-English guide to Cambridge IGCSE Computer Science 0478 for the 2026 to 2028 syllabus: how it is assessed, what your child studies, which languages they code in, and how to prepare.",
-    "keywords": ["igcse computer science", "igcse computer science 0478", "cambridge igcse computer science syllabus", "igcse computer science for parents", "0478 syllabus 2026", "igcse coding"],
-    "author": {"name": "Modern Age Coders", "bio": "Live online coding and maths teachers for all ages, 6 to 67."},
+    "title": "IGCSE Computer Science (0478) Explained for Parents",
+    "description": "A plain-English guide to Cambridge IGCSE Computer Science 0478: how it is assessed, what your child studies, and how to prepare.",
+    "keywords": [
+      "igcse computer science",
+      "igcse computer science 0478",
+      "cambridge igcse computer science syllabus",
+      "igcse computer science for parents",
+      "0478 syllabus 2026",
+      "igcse coding"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Live online coding and maths teachers for all ages, 6 to 67."
+    },
     "date": "2026-07-18",
-    "dateModified": "2026-07-18",
+    "dateModified": "2026-07-20",
     "category": "Coding",
-    "tags": ["IGCSE", "Computer Science", "Curriculum", "Parenting"],
-    "readTime": "8 min read",
+    "tags": [
+      "IGCSE",
+      "Computer Science",
+      "Curriculum",
+      "Parenting"
+    ],
+    "readTime": "6 min read",
     "featured": false,
     "tldr": "Cambridge IGCSE Computer Science (0478) for 2026 to 2028 is assessed by two equally weighted exam papers: a theory paper and a practical paper. It covers computer systems plus algorithms, programming and logic, and lets students program in Python, Visual Basic or Java. What the exam rewards is understanding the concepts, not memorising them."
   },
   "hero": {
-    "title": "IGCSE Computer Science (0478) Explained for Parents (2026-2028)",
-    "featuredImage": {"url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_44_hero.png", "alt": "A student studying IGCSE Computer Science"}
+    "title": "IGCSE Computer Science (0478) Explained for Parents",
+    "featuredImage": {
+      "url": "/images/blog/igcse-computer-science-explained-for-parents/00-hero.png",
+      "alt": "IGCSE Computer Science 0478 explained for parents: how it is assessed, what your child studies, and how to prepare"
+    }
   },
   "content": {
     "sections": [
-      {"type": "toc"},
-      {"type": "paragraph", "text": "If your child is taking Cambridge IGCSE Computer Science, the syllabus code 0478 and its exam papers can feel like a foreign language to a parent. This is a plain-English guide to what the 2026 to 2028 syllabus actually involves, how it is marked, what your child studies, and how to help them do well, based on Cambridge's own published syllabus."},
-
-      {"type": "heading", "level": 2, "text": "The short answer", "id": "short-answer"},
-      {"type": "paragraph", "text": "Cambridge IGCSE Computer Science 0478 is assessed by two exam papers, each worth 50 percent: one theory paper and one practical, programming-focused paper. It splits into two broad areas, computer systems, and algorithms, programming and logic. Students write code in Python, Visual Basic or Java. Most of the marks reward understanding and applying concepts, not memorising facts, so genuine understanding is what carries a child through."},
-      {"type": "callout", "text": "IGCSE Computer Science is not a memory test. Around 60 percent of the marks reward applying and reasoning about concepts rather than just recalling them. A child who truly understands how a computer works and can actually write code will always beat one who crammed definitions."},
-
-      {"type": "heading", "level": 2, "text": "How it is assessed", "id": "assessment"},
-      {"type": "list", "items": [
-        "Two papers, each worth 50 percent of the grade. There is no coursework component; the whole qualification is assessed by these two papers.",
-        "One paper is theory-focused and one is practical and programming-focused, so a child cannot pass on memorised theory alone.",
-        "Marks are split across three objectives: knowledge and understanding, applying that understanding to problems, and evaluating and reasoning. The applying and evaluating objectives together carry the majority of the marks.",
-        "In the larger scenario question, candidates write a solution using pseudocode or a real language of their choice: Python, Visual Basic or Java."
-      ]},
-
-      {"type": "heading", "level": 2, "text": "What your child studies", "id": "topics"},
-      {"type": "paragraph", "text": "The syllabus covers two broad areas. The first, computer systems, includes data representation, data transmission, hardware, software, the internet and its uses, and automated and emerging technologies. The second, algorithms, programming and logic, includes algorithm design and problem-solving, programming, databases and Boolean logic. In other words, your child learns both how computers work underneath and how to actually build working programs."},
-
-      {"type": "heading", "level": 2, "text": "Which programming language should my child learn?", "id": "language"},
-      {"type": "paragraph", "text": "For the programming question, Cambridge accepts Python, Visual Basic or Java. In practice most schools and students choose Python, because it is the easiest to read and the most widely used beyond the exam. Whichever language your child uses, the skill that matters is the same underneath: understanding how to break a problem into steps and turn that into working code. That thinking transfers to any language."},
-
-      {"type": "heading", "level": 2, "text": "How to help your child prepare", "id": "prepare"},
-      {"type": "list", "items": [
-        "Make sure they actually code, regularly. The practical paper cannot be crammed; fluency in writing and fixing real programs is built over months.",
-        "Focus on understanding, not memorising. If your child can explain why something works, the definitions take care of themselves.",
-        "Practise past papers under timed conditions, then go through every mistake and understand it.",
-        "Get real teaching for the gaps. A good teacher spots the specific concept your child is missing and fixes it, which no amount of extra revision on their own can do."
-      ]},
-
-      {"type": "quote", "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.", "author": "Shivam Khemka, Founder of Modern Age Coders"},
-
-      {"type": "heading", "level": 2, "text": "The bottom line", "id": "bottom-line"},
-      {"type": "paragraph", "text": "IGCSE Computer Science 0478 rewards a child who genuinely understands how computers work and can actually write code, across two equally weighted theory and practical papers. Memorising definitions is not enough. Modern Age Coders teaches computer science for real understanding, live and in small batches for ages 6 to 67, including students preparing for IGCSE and other international boards. We are rated 4.9 across 547 Google reviews, and there is a free demo class before you pay."},
-      {"type": "button", "text": "Book a Free Demo Class", "url": "/book-demo"},
-
-      {"type": "accordion", "items": [
-        {"title": "How is IGCSE Computer Science 0478 assessed?", "content": "By two exam papers, each worth 50 percent of the grade: one theory-focused paper and one practical, programming-focused paper. There is no coursework component. Marks are split across knowledge and understanding, applying understanding to problems, and evaluating and reasoning, with the applying and evaluating objectives carrying most of the marks."},
-        {"title": "What programming languages are allowed in IGCSE Computer Science?", "content": "For the programming question, Cambridge accepts Python, Visual Basic or Java, and pseudocode. Most students use Python because it is easy to read and widely used. Whichever language your child chooses, the underlying skill of breaking a problem into steps and writing correct code is the same and transfers to any language."},
-        {"title": "What topics are covered in IGCSE Computer Science?", "content": "Two broad areas. Computer systems covers data representation, data transmission, hardware, software, the internet and its uses, and automated and emerging technologies. Algorithms, programming and logic covers algorithm design and problem-solving, programming, databases and Boolean logic. So students learn both how computers work and how to build working programs."},
-        {"title": "Is IGCSE Computer Science hard?", "content": "It is challenging but very manageable for a child who understands the concepts and codes regularly. The difficulty comes when students try to memorise their way through, especially on the practical paper, which cannot be crammed. With genuine understanding and steady coding practice, it becomes one of the more rewarding IGCSE subjects."},
-        {"title": "How can my child get better at IGCSE Computer Science?", "content": "Code regularly so the practical paper feels natural, focus on understanding why things work rather than memorising, and practise past papers under timed conditions while learning from every mistake. For persistent gaps, a good teacher who can pinpoint the missing concept and fix it makes far more difference than solo revision."}
-      ]}
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "If your child is taking Cambridge IGCSE Computer Science, the syllabus code 0478 and its exam papers can feel like a foreign language to a parent. This is a plain-English guide to what the 2026 to 2028 syllabus actually involves, how it is marked, what your child studies, and how to help them do well, based on Cambridge's own published syllabus."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The short answer",
+        "id": "short-answer"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cambridge IGCSE Computer Science 0478 is assessed by two exam papers, each worth 50 percent: one theory paper and one practical, programming-focused paper. It splits into two broad areas, computer systems, and algorithms, programming and logic. Students write code in Python, Visual Basic or Java. Most of the marks reward understanding and applying concepts, not memorising facts, so genuine understanding is what carries a child through."
+      },
+      {
+        "type": "callout",
+        "text": "IGCSE Computer Science is not a memory test. Around 60 percent of the marks reward applying and reasoning about concepts rather than just recalling them. A child who truly understands how a computer works and can actually write code will always beat one who crammed definitions."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The two papers, side by side",
+        "id": "assessment"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "",
+          "Paper 1: Theory",
+          "Paper 2: Practical"
+        ],
+        "rows": [
+          [
+            "Weight",
+            "50 percent",
+            "50 percent"
+          ],
+          [
+            "Focus",
+            "Computer systems, concepts, reasoning",
+            "Programming, problem-solving in code"
+          ],
+          [
+            "What it rewards",
+            "Understanding and applying concepts",
+            "Writing and fixing working programs"
+          ],
+          [
+            "Can it be crammed?",
+            "Rewards understanding over recall",
+            "No, fluency is built over months of practice"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How it is assessed",
+        "id": "how-assessed"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Two papers, each worth 50 percent of the grade. There is no coursework component; the whole qualification is assessed by these two papers.",
+          "One paper is theory-focused and one is practical and programming-focused, so a child cannot pass on memorised theory alone.",
+          "Marks are split across three objectives: knowledge and understanding, applying that understanding to problems, and evaluating and reasoning. The applying and evaluating objectives together carry the majority of the marks.",
+          "In the larger scenario question, candidates write a solution using pseudocode or a real language of their choice: Python, Visual Basic or Java."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What your child studies",
+        "id": "topics"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Computer Systems",
+          "Algorithms, Programming & Logic"
+        ],
+        "rows": [
+          [
+            "Data representation",
+            "Algorithm design and problem-solving"
+          ],
+          [
+            "Data transmission",
+            "Programming"
+          ],
+          [
+            "Hardware and software",
+            "Databases"
+          ],
+          [
+            "The internet and its uses",
+            "Boolean logic"
+          ],
+          [
+            "Automated and emerging technologies",
+            "Turning a problem into working code"
+          ]
+        ]
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/igcse-computer-science-explained-for-parents/01-topics.png",
+        "alt": "The two broad study areas in IGCSE Computer Science 0478: computer systems and algorithms, programming and logic, with topics under each",
+        "caption": "Half of the syllabus is how a computer works underneath. The other half is building working programs."
+      },
+      {
+        "type": "paragraph",
+        "text": "In other words, your child learns both how computers work underneath and how to actually build working programs."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Which programming language should my child learn?",
+        "id": "language"
+      },
+      {
+        "type": "paragraph",
+        "text": "For the programming question, Cambridge accepts Python, Visual Basic or Java. In practice most schools and students choose Python, because it is the easiest to read and the most widely used beyond the exam. Whichever language your child uses, the skill that matters is the same underneath: understanding how to break a problem into steps and turn that into working code. That thinking transfers to any language."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to help your child prepare",
+        "id": "prepare"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Make sure they actually code, regularly. The practical paper cannot be crammed; fluency in writing and fixing real programs is built over months.",
+          "Focus on understanding, not memorising. If your child can explain why something works, the definitions take care of themselves.",
+          "Practise past papers under timed conditions, then go through every mistake and understand it.",
+          "Get real teaching for the gaps. A good teacher spots the specific concept your child is missing and fixes it, which no amount of extra revision on their own can do."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.",
+        "author": "Shivam Khemka, Founder of Modern Age Coders"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The bottom line",
+        "id": "bottom-line"
+      },
+      {
+        "type": "paragraph",
+        "text": "IGCSE Computer Science 0478 rewards a child who genuinely understands how computers work and can actually write code, across two equally weighted theory and practical papers. Memorising definitions is not enough. Modern Age Coders teaches computer science for real understanding, live and in small batches for ages 6 to 67, including students preparing for IGCSE and other international boards. We are rated 4.9 across 547 Google reviews, and there is a free demo class before you pay."
+      },
+      {
+        "type": "button",
+        "text": "Book a Free Demo Class",
+        "url": "/book-demo"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How is IGCSE Computer Science 0478 assessed?",
+            "content": "By two exam papers, each worth 50 percent of the grade: one theory-focused paper and one practical, programming-focused paper. There is no coursework component. Marks are split across knowledge and understanding, applying understanding to problems, and evaluating and reasoning, with the applying and evaluating objectives carrying most of the marks."
+          },
+          {
+            "title": "What programming languages are allowed in IGCSE Computer Science?",
+            "content": "For the programming question, Cambridge accepts Python, Visual Basic or Java, and pseudocode. Most students use Python because it is easy to read and widely used. Whichever language your child chooses, the underlying skill of breaking a problem into steps and writing correct code is the same and transfers to any language."
+          },
+          {
+            "title": "What topics are covered in IGCSE Computer Science?",
+            "content": "Two broad areas. Computer systems covers data representation, data transmission, hardware, software, the internet and its uses, and automated and emerging technologies. Algorithms, programming and logic covers algorithm design and problem-solving, programming, databases and Boolean logic. So students learn both how computers work and how to build working programs."
+          },
+          {
+            "title": "Is IGCSE Computer Science hard?",
+            "content": "It is challenging but very manageable for a child who understands the concepts and codes regularly. The difficulty comes when students try to memorise their way through, especially on the practical paper, which cannot be crammed. With genuine understanding and steady coding practice, it becomes one of the more rewarding IGCSE subjects."
+          },
+          {
+            "title": "How can my child get better at IGCSE Computer Science?",
+            "content": "Code regularly so the practical paper feels natural, focus on understanding why things work rather than memorising, and practise past papers under timed conditions while learning from every mistake. For persistent gaps, a good teacher who can pinpoint the missing concept and fix it makes far more difference than solo revision."
+          },
+          {
+            "title": "How much does the practical paper count for in IGCSE Computer Science?",
+            "content": "The practical, programming-focused paper is worth 50 percent of the total grade, exactly the same weight as the theory paper. That even split is why coding ability cannot be an afterthought: a student who only studies theory can still lose half the available marks."
+          },
+          {
+            "title": "Is Python the best language to choose for the IGCSE Computer Science exam?",
+            "content": "It is the most common choice, and a reasonable default, mainly because it is quick to read and write correctly under exam time pressure compared with Visual Basic or Java. That said, Cambridge accepts all three, and the actual skill being tested, breaking a problem down and expressing the solution correctly, is the same regardless of which language a student picks."
+          }
+        ]
+      }
     ]
   },
-  "relatedPosts": ["best-ai-coding-tools-for-students-2026", "is-coding-worth-learning-2026", "how-to-choose-a-coding-class-for-your-child"]
+  "relatedPosts": [
+    "best-ai-coding-tools-for-students-2026",
+    "is-coding-worth-learning-2026",
+    "how-to-choose-a-coding-class-for-your-child"
+  ]
 }
