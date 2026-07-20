@@ -2,71 +2,202 @@
   "meta": {
     "slug": "learn-to-code-career-change-2026",
     "title": "Is It Worth Learning to Code for a Career Change in 2026?",
-    "description": "Thinking of switching careers into tech in 2026? The honest answer on whether learning to code is still worth it, what has changed with AI, what to learn, a realistic timeline, and the traps to avoid.",
-    "keywords": ["learn to code career change 2026", "is coding a good career change", "career change to tech 2026", "is it too late to learn coding", "coding bootcamp worth it 2026", "switching to a tech career"],
-    "author": {"name": "Modern Age Coders", "bio": "Live online coding and maths teachers for all ages, 6 to 67."},
+    "description": "Thinking of a career change into tech in 2026? The honest answer on whether learning to code is still worth it, and a realistic timeline.",
+    "keywords": [
+      "learn to code career change 2026",
+      "is coding a good career change",
+      "career change to tech 2026",
+      "is it too late to learn coding",
+      "coding bootcamp worth it 2026",
+      "switching to a tech career"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Live online coding and maths teachers for all ages, 6 to 67."
+    },
     "date": "2026-07-18",
-    "dateModified": "2026-07-18",
+    "dateModified": "2026-07-20",
     "category": "Career",
-    "tags": ["Career Change", "Coding", "AI", "Adult Learning"],
-    "readTime": "9 min read",
+    "tags": [
+      "Career Change",
+      "Coding",
+      "AI",
+      "Adult Learning"
+    ],
+    "readTime": "6 min read",
     "featured": false,
     "tldr": "Yes, learning to code for a career change is still worth it in 2026, but the goal has shifted. The valuable role is no longer typing every line by hand, it is directing and checking AI, which still requires real understanding of code. Learn the fundamentals properly, build real projects, add modern AI tools, and target roles that reward judgment."
   },
   "hero": {
     "title": "Is It Worth Learning to Code for a Career Change in 2026?",
-    "featuredImage": {"url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_44_hero.png", "alt": "An adult learner switching careers into tech by learning to code"}
+    "featuredImage": {
+      "url": "/images/blog/learn-to-code-career-change-2026/00-hero.png",
+      "alt": "Is it worth learning to code for a career change in 2026? The honest answer, what changed with AI, and a realistic timeline"
+    }
   },
   "content": {
     "sections": [
-      {"type": "toc"},
-      {"type": "paragraph", "text": "If you are thinking about switching into tech, you have probably heard two loud and opposite messages: that coding is a golden ticket, and that AI has made learning to code pointless. Both are wrong, and the truth sits in between, which is where the real opportunity is."},
-      {"type": "paragraph", "text": "Learning to code as a career change in 2026 can absolutely be worth it. But the version of the goal that made sense five years ago has changed, and going in with the old picture is how people waste a year. Here is the honest breakdown."},
-
-      {"type": "heading", "level": 2, "text": "The short answer", "id": "short-answer"},
-      {"type": "paragraph", "text": "Yes, it is still worth it, if you learn properly rather than chasing a shortcut. AI has not removed the need for people who understand code. It has shifted the valuable work from writing every line by hand toward directing AI, checking its output and fixing what it gets wrong. Those jobs need real understanding, and demand for that judgment is holding up. A career changer who learns the fundamentals and adds modern AI tools is well positioned."},
-      {"type": "callout", "text": "The old promise was learn to type code and get a job. The new reality is understand code well enough to direct and check a machine that types it for you. That is a higher bar, but it is also a more durable one."},
-
-      {"type": "heading", "level": 2, "text": "What AI actually changed for career changers", "id": "what-changed"},
-      {"type": "paragraph", "text": "Entry-level work that was purely about writing routine code has become easier to automate, which is the part of the hype that is true. But the work of deciding what to build, structuring a solution, verifying that it is correct and fixing subtle failures has not gone anywhere, and it is exactly the work that pays. The people who thrive are the ones who can use AI to move faster while staying fully in control of the code. That means understanding is now the whole game, and shortcuts that skip it lead nowhere."},
-
-      {"type": "heading", "level": 2, "text": "Is it too late to start?", "id": "too-late"},
-      {"type": "paragraph", "text": "No. Adults learn to code and change careers successfully at every age, and in some ways it is easier now: AI tools act as an always-available tutor that can explain code and speed up practice. What matters is not your age but how you learn. Building genuine understanding and a portfolio of real projects beats rushing through tutorials, at 25 or 45."},
-
-      {"type": "heading", "level": 2, "text": "What you should actually learn", "id": "what-to-learn"},
-      {"type": "list", "items": [
-        "Fundamentals first. How programs are structured, logic, data, and how to break a problem into steps. This is what lets you direct and check AI, and it does not go out of date when the tools change.",
-        "One language, deeply. Python is a strong, versatile starting point. Depth in one beats a shallow tour of five.",
-        "Modern AI coding tools. Learn to use AI assistants the way professionals do, to work faster while reading and verifying everything they produce.",
-        "A specialisation with demand. Web development, data and AI, or backend work, for example. Pick a direction and build real projects in it.",
-        "The ability to show your work. A small portfolio of things you actually built and can explain beats any certificate on its own."
-      ]},
-
-      {"type": "heading", "level": 2, "text": "A realistic timeline", "id": "timeline"},
-      {"type": "paragraph", "text": "Be wary of anyone promising a job in a few weeks. Studying seriously alongside a job, most career changers need several months to a year to reach a level where they can build real things and speak about them with confidence. Consistent weekly practice with feedback beats an intense burst that fizzles out. The honest version of this path is a marathon at a steady pace, not a sprint, and the people who treat it that way are the ones who make the switch."},
-
-      {"type": "heading", "level": 2, "text": "The traps to avoid", "id": "traps"},
-      {"type": "list", "items": [
-        "The get-rich-quick pitch. Any course promising a six-figure salary in a few weeks is selling a fantasy. Real skill takes real time.",
-        "Vibe coding your way through. Letting AI build everything while you learn nothing feels productive and leaves you unable to pass an interview or hold a job.",
-        "Collecting certificates instead of building. Employers hire on demonstrated ability. Build things you can show and explain.",
-        "Learning alone with no feedback. It is the slowest path. A mentor who reviews your work and answers why gets you there far faster."
-      ]},
-
-      {"type": "quote", "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.", "author": "Shivam Khemka, Founder of Modern Age Coders"},
-
-      {"type": "heading", "level": 2, "text": "The bottom line", "id": "bottom-line"},
-      {"type": "paragraph", "text": "Learning to code for a career change in 2026 is worth it, precisely because AI has raised the value of people who genuinely understand code. Learn the fundamentals, build real projects, add AI tools on top, and give it the honest time it takes. At Modern Age Coders we teach coding and maths to all ages, 6 to 67, including working adults and career changers, live and in small batches with real projects. We are rated 4.9 across 547 Google reviews, and there is a free demo class before you pay."},
-      {"type": "button", "text": "Book a Free Demo Class", "url": "/book-demo"},
-
-      {"type": "accordion", "items": [
-        {"title": "Is learning to code still worth it for a career change in 2026?", "content": "Yes, if you learn properly. AI has shifted the valuable work from typing every line to directing and checking a machine that writes code, which still requires real understanding. Demand for that judgment is holding up, so a career changer who learns the fundamentals and adds modern AI tools is well positioned."},
-        {"title": "Is it too late to learn to code as an adult?", "content": "No. Adults change careers into tech successfully at every age, and AI tutors make practice faster than before. What matters is how you learn, not your age. Building genuine understanding and a portfolio of real projects beats rushing tutorials, whether you are 25 or 45."},
-        {"title": "How long does it take to switch careers into coding?", "content": "Be sceptical of a-job-in-weeks promises. Studying seriously alongside a job, most career changers need several months to a year to build real things and speak about them confidently. Steady weekly practice with feedback beats an intense burst that fades. Treat it as a marathon at a steady pace."},
-        {"title": "Should I use AI to learn to code faster?", "content": "Yes, as a tutor and a tool, not as a substitute for understanding. Use AI to explain code and speed up practice, but read and verify everything it produces. Letting AI build everything while you learn nothing, sometimes called vibe coding, feels productive and leaves you unable to pass an interview or hold the job."},
-        {"title": "What should I learn to change careers into tech?", "content": "Start with fundamentals, then one language deeply such as Python, then modern AI coding tools, then a specialisation with demand such as web development or data and AI. Build a small portfolio of real projects you can explain. Demonstrated ability matters far more to employers than certificates alone."}
-      ]}
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you are thinking about switching into tech, you have probably heard two loud and opposite messages: that coding is a golden ticket, and that AI has made learning to code pointless. Both are wrong, and the truth sits in between, which is where the real opportunity is."
+      },
+      {
+        "type": "paragraph",
+        "text": "Learning to code as a career change in 2026 can absolutely be worth it. But the version of the goal that made sense five years ago has changed, and going in with the old picture is how people waste a year. Here is the honest breakdown."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The short answer",
+        "id": "short-answer"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes, it is still worth it, if you learn properly rather than chasing a shortcut. AI has not removed the need for people who understand code. It has shifted the valuable work from writing every line by hand toward directing AI, checking its output and fixing what it gets wrong. Those jobs need real understanding, and demand for that judgment is holding up. A career changer who learns the fundamentals and adds modern AI tools is well positioned."
+      },
+      {
+        "type": "callout",
+        "text": "The old promise was learn to type code and get a job. The new reality is understand code well enough to direct and check a machine that types it for you. That is a higher bar, but it is also a more durable one."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What AI actually changed for career changers",
+        "id": "what-changed"
+      },
+      {
+        "type": "paragraph",
+        "text": "Entry-level work that was purely about writing routine code has become easier to automate, which is the part of the hype that is true. But the work of deciding what to build, structuring a solution, verifying that it is correct and fixing subtle failures has not gone anywhere, and it is exactly the work that pays. The people who thrive are the ones who can use AI to move faster while staying fully in control of the code. That means understanding is now the whole game, and shortcuts that skip it lead nowhere."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Is it too late to start?",
+        "id": "too-late"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Adults learn to code and change careers successfully at every age, and in some ways it is easier now: AI tools act as an always-available tutor that can explain code and speed up practice. What matters is not your age but how you learn. Building genuine understanding and a portfolio of real projects beats rushing through tutorials, at 25 or 45."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What you should actually learn",
+        "id": "what-to-learn"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Learn",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Fundamentals first",
+            "How programs are structured, logic, data. Lets you direct and check AI, and never goes out of date"
+          ],
+          [
+            "One language, deeply",
+            "Python is a strong start. Depth in one beats a shallow tour of five"
+          ],
+          [
+            "Modern AI coding tools",
+            "Use them the way professionals do, to work faster while verifying everything they produce"
+          ],
+          [
+            "A specialisation with demand",
+            "Web development, data and AI, or backend, for example. Pick a direction and build in it"
+          ],
+          [
+            "The ability to show your work",
+            "A small portfolio of real, explainable projects beats any certificate alone"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A realistic timeline",
+        "id": "timeline"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/learn-to-code-career-change-2026/01-timeline.png",
+        "alt": "A realistic timeline for a career change into coding in 2026, from fundamentals through to a portfolio and job search over several months to a year",
+        "caption": "A steady weekly pace across these stages beats a burst of effort that fizzles out by month two."
+      },
+      {
+        "type": "paragraph",
+        "text": "Be wary of anyone promising a job in a few weeks. Studying seriously alongside a job, most career changers need several months to a year to reach a level where they can build real things and speak about them with confidence. Consistent weekly practice with feedback beats an intense burst that fizzles out. The honest version of this path is a marathon at a steady pace, not a sprint, and the people who treat it that way are the ones who make the switch."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The traps to avoid",
+        "id": "traps"
+      },
+      {
+        "type": "list",
+        "items": [
+          "The get-rich-quick pitch. Any course promising a six-figure salary in a few weeks is selling a fantasy. Real skill takes real time.",
+          "Vibe coding your way through. Letting AI build everything while you learn nothing feels productive and leaves you unable to pass an interview or hold a job.",
+          "Collecting certificates instead of building. Employers hire on demonstrated ability. Build things you can show and explain.",
+          "Learning alone with no feedback. It is the slowest path. A mentor who reviews your work and answers why gets you there far faster."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.",
+        "author": "Shivam Khemka, Founder of Modern Age Coders"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The bottom line",
+        "id": "bottom-line"
+      },
+      {
+        "type": "paragraph",
+        "text": "Learning to code for a career change in 2026 is worth it, precisely because AI has raised the value of people who genuinely understand code. Learn the fundamentals, build real projects, add AI tools on top, and give it the honest time it takes. At Modern Age Coders we teach coding and maths to all ages, 6 to 67, including working adults and career changers, live and in small batches with real projects. We are rated 4.9 across 547 Google reviews, and there is a free demo class before you pay."
+      },
+      {
+        "type": "button",
+        "text": "Book a Free Demo Class",
+        "url": "/book-demo"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Is learning to code still worth it for a career change in 2026?",
+            "content": "Yes, if you learn properly. AI has shifted the valuable work from typing every line to directing and checking a machine that writes code, which still requires real understanding. Demand for that judgment is holding up, so a career changer who learns the fundamentals and adds modern AI tools is well positioned."
+          },
+          {
+            "title": "Is it too late to learn to code as an adult?",
+            "content": "No. Adults change careers into tech successfully at every age, and AI tutors make practice faster than before. What matters is how you learn, not your age. Building genuine understanding and a portfolio of real projects beats rushing tutorials, whether you are 25 or 45."
+          },
+          {
+            "title": "How long does it take to switch careers into coding?",
+            "content": "Be sceptical of a-job-in-weeks promises. Studying seriously alongside a job, most career changers need several months to a year to build real things and speak about them confidently. Steady weekly practice with feedback beats an intense burst that fades. Treat it as a marathon at a steady pace."
+          },
+          {
+            "title": "Should I use AI to learn to code faster?",
+            "content": "Yes, as a tutor and a tool, not as a substitute for understanding. Use AI to explain code and speed up practice, but read and verify everything it produces. Letting AI build everything while you learn nothing, sometimes called vibe coding, feels productive and leaves you unable to pass an interview or hold the job."
+          },
+          {
+            "title": "What should I learn to change careers into tech?",
+            "content": "Start with fundamentals, then one language deeply such as Python, then modern AI coding tools, then a specialisation with demand such as web development or data and AI. Build a small portfolio of real projects you can explain. Demonstrated ability matters far more to employers than certificates alone."
+          }
+        ]
+      }
     ]
   },
-  "relatedPosts": ["is-coding-worth-learning-2026", "working-professionals-upskill-coding-without-quitting-job", "career-transition-guide-moving-non-tech-to-tech-roles"]
+  "relatedPosts": [
+    "is-coding-worth-learning-2026",
+    "working-professionals-upskill-coding-without-quitting-job",
+    "career-transition-guide-moving-non-tech-to-tech-roles"
+  ]
 }
