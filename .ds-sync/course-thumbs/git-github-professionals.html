@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600..900;1,9..144,600..900&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:800px;height:450px;overflow:hidden}
+:root{
+  --paper:#FBF8F2; --dusk:#C9B99F;
+  --gold-1:#FDE68A; --gold-2:#F59E0B; --gold-3:#D97706; --gold-4:#92400E;
+}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--paper);position:relative;
+  background:linear-gradient(118deg,#241811 0%,#150D08 52%,#0B0704 100%)}
+body::before{content:"";position:absolute;inset:0;
+  background-image:linear-gradient(rgba(251,248,242,.045) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(251,248,242,.045) 1px,transparent 1px);
+  background-size:34px 34px}
+.glow-a{position:absolute;left:47%;top:4%;width:560px;height:460px;
+  background:radial-gradient(closest-side,rgba(217,119,6,.24),rgba(217,119,6,.08) 55%,transparent 72%)}
+.glow-b{position:absolute;left:-140px;bottom:-180px;width:520px;height:400px;
+  background:radial-gradient(closest-side,rgba(146,64,14,.28),transparent 70%)}
+.term-halo{position:absolute;right:-20px;top:60px;width:480px;height:400px;
+  background:radial-gradient(closest-side,rgba(217,119,6,.26),rgba(217,119,6,.08) 55%,transparent 74%)}
+.vignette{position:absolute;inset:0;
+  background:radial-gradient(120% 105% at 46% 42%,transparent 55%,rgba(0,0,0,.42) 100%)}
+.grain{position:absolute;inset:0;opacity:.055;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E")}
+.frame{position:absolute;inset:11px;border:1px solid rgba(245,158,11,.26);border-radius:10px;pointer-events:none;z-index:6}
+
+.card{position:absolute;inset:0;padding:26px 40px 20px;display:flex;flex-direction:column}
+.top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:5}
+.wordmark{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:800;letter-spacing:.2em;color:rgba(251,248,242,.92)}
+.wordmark svg{display:block;border-radius:7px;box-shadow:0 3px 12px rgba(0,0,0,.45)}
+.badge{border:1.5px solid rgba(245,158,11,.7);background:rgba(217,119,6,.12);color:var(--gold-1);
+  padding:8px 17px;border-radius:999px;font-weight:800;font-size:13.5px;letter-spacing:.13em;
+  box-shadow:0 0 20px rgba(217,119,6,.25),inset 0 0 14px rgba(217,119,6,.12)}
+
+.titleblock{position:absolute;left:40px;top:112px;max-width:400px;z-index:4}
+.kicker{font-family:'JetBrains Mono',monospace;font-size:12.5px;font-weight:700;letter-spacing:.32em;color:var(--gold-2);margin-bottom:15px;display:flex;align-items:center;gap:12px}
+.kicker::before{content:"";width:28px;height:2px;background:linear-gradient(90deg,var(--gold-1),var(--gold-3))}
+h1{font-family:'Fraunces',Georgia,serif;font-weight:800;font-size:57px;line-height:1.05;letter-spacing:-.015em;color:var(--paper);text-shadow:0 3px 28px rgba(0,0,0,.6)}
+h1 .gold{font-style:italic;font-weight:700;display:inline-block;
+  background:linear-gradient(92deg,var(--gold-1) 5%,var(--gold-2) 48%,var(--gold-3) 95%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none;
+  filter:drop-shadow(0 0 20px rgba(245,158,11,.4));padding-right:.08em}
+.sub{margin-top:14px;font-size:16.5px;line-height:1.45;color:var(--dusk);font-weight:500;max-width:360px}
+.meta{margin-top:13px;font-family:'JetBrains Mono',monospace;font-size:11.5px;font-weight:700;letter-spacing:.09em;color:rgba(253,230,138,.85)}
+.meta i{font-style:normal;color:var(--gold-3);padding:0 7px}
+
+.graph{position:absolute;inset:0;z-index:1}
+
+.term{position:absolute;right:34px;top:116px;width:322px;transform:rotate(-2deg);z-index:3;
+  border-radius:13px;background:#1A110A;border:1px solid rgba(245,158,11,.42);
+  box-shadow:0 26px 60px rgba(0,0,0,.62),0 0 42px rgba(217,119,6,.26)}
+.term-bar{display:flex;align-items:center;gap:7px;padding:11px 14px;border-bottom:1px solid rgba(251,248,242,.09)}
+.term-bar b{width:10px;height:10px;border-radius:50%}
+.term-title{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:500;color:#8A7A63;margin-left:auto}
+.term-body{padding:13px 18px 16px;font-family:'JetBrains Mono',monospace;font-size:13.5px;font-weight:500;line-height:1.85;white-space:nowrap}
+.p{color:#8A7A63}.c{color:#F4EFE4}.o{color:#8A7A63}.g{color:#FDE68A;font-weight:700}.a{color:#F59E0B}.s{color:#E8A87C}
+.cur{display:inline-block;width:8px;height:15px;background:#FDE68A;vertical-align:-2px;margin-left:7px;border-radius:1px;box-shadow:0 0 8px rgba(253,230,138,.8)}
+
+.bottom{display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(251,248,242,.16);
+  padding-top:13px;font-size:11px;letter-spacing:.12em;font-weight:700;color:rgba(201,185,159,.8);
+  position:relative;z-index:5;margin-top:auto}
+.bottom .dot{color:var(--gold-2)}
+</style>
+</head>
+<body>
+<div class="glow-a"></div>
+<div class="glow-b"></div>
+<div class="term-halo"></div>
+<div class="vignette"></div>
+<div class="grain"></div>
+<div class="frame"></div>
+
+<!-- git graph: branch climbs from main into a merge burst at the terminal corner -->
+<svg class="graph" width="800" height="450" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <linearGradient id="trail" x1="400" y1="372" x2="452" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D97706"/>
+      <stop offset="1" stop-color="#FDE68A"/>
+    </linearGradient>
+    <radialGradient id="core">
+      <stop offset="0" stop-color="#FFF7E0"/>
+      <stop offset=".55" stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </radialGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="wide" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <path d="M376 374 L744 374" stroke="rgba(217,119,6,.3)" stroke-width="7" stroke-linecap="round" filter="url(#soft)"/>
+  <path d="M376 374 L744 374" stroke="rgba(251,248,242,.34)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M402 374 C 454 374 424 250 442 128" stroke="#B45309" stroke-width="11" opacity=".6" fill="none" stroke-linecap="round" filter="url(#wide)"/>
+  <path d="M402 374 C 454 374 424 250 442 128" stroke="url(#trail)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M402 374 C 454 374 424 250 442 128" stroke="#FDE68A" stroke-width="1.4" opacity=".55" fill="none" stroke-linecap="round"/>
+  <g>
+    <circle cx="402" cy="374" r="12" fill="#D97706" opacity=".35" filter="url(#soft)"/>
+    <circle cx="402" cy="374" r="7" fill="#17100A" stroke="#F59E0B" stroke-width="2"/>
+    <circle cx="402" cy="374" r="3.2" fill="url(#core)"/>
+  </g>
+  <g>
+    <circle cx="492" cy="374" r="12" fill="#D97706" opacity=".35" filter="url(#soft)"/>
+    <circle cx="492" cy="374" r="7" fill="#17100A" stroke="#F59E0B" stroke-width="2"/>
+    <circle cx="492" cy="374" r="3.2" fill="url(#core)"/>
+  </g>
+  <g>
+    <circle cx="648" cy="374" r="12" fill="#D97706" opacity=".35" filter="url(#soft)"/>
+    <circle cx="648" cy="374" r="7" fill="#17100A" stroke="#F59E0B" stroke-width="2"/>
+    <circle cx="648" cy="374" r="3.2" fill="url(#core)"/>
+  </g>
+  <g>
+    <circle cx="434" cy="296" r="12" fill="#D97706" opacity=".4" filter="url(#soft)"/>
+    <circle cx="434" cy="296" r="7" fill="#17100A" stroke="#FDE68A" stroke-width="2"/>
+    <circle cx="434" cy="296" r="3.2" fill="url(#core)"/>
+  </g>
+  <g transform="translate(442,126)">
+    <circle r="24" fill="#F59E0B" opacity=".5" filter="url(#wide)"/>
+    <g stroke="#FDE68A" stroke-width="2" stroke-linecap="round" opacity=".85">
+      <path d="M0 -30 L0 -17"/><path d="M0 17 L0 30"/>
+      <path d="M-30 0 L-17 0"/><path d="M17 0 L30 0"/>
+    </g>
+    <g stroke="#FDE68A" stroke-width="1.4" stroke-linecap="round" opacity=".4" transform="rotate(45)">
+      <path d="M0 -24 L0 -15"/><path d="M0 15 L0 24"/>
+      <path d="M-24 0 L-15 0"/><path d="M15 0 L24 0"/>
+    </g>
+    <circle r="16.5" fill="none" stroke="rgba(253,230,138,.6)" stroke-width="1.6" stroke-dasharray="3 6"/>
+    <circle r="10" fill="#17100A" stroke="#FDE68A" stroke-width="2.4"/>
+    <circle r="4.6" fill="url(#core)"/>
+  </g>
+</svg>
+
+<!-- real git session: interactive rebase -->
+<div class="term">
+  <div class="term-bar">
+    <b style="background:#C2542C"></b><b style="background:#D97706"></b><b style="background:#6B5B45"></b>
+    <span class="term-title">~/platform</span>
+  </div>
+  <div class="term-body">
+    <div><span class="p">$ </span><span class="c">git rebase -i HEAD~3</span></div>
+    <div><span class="a">pick</span><span class="o"> a1b2c3d </span><span class="c">refactor auth</span></div>
+    <div><span class="s">squash</span><span class="o"> 9f8e7d6 </span><span class="c">fix flaky test</span></div>
+    <div><span class="s">squash</span><span class="o"> 5c4b3a2 </span><span class="c">tidy configs</span></div>
+    <div><span class="o">Successfully rebased main</span></div>
+    <div><span class="p">$ </span><span class="g">git push --force-with-lease</span><span class="cur"></span></div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="top">
+    <div class="wordmark">
+      <svg width="24" height="24" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <rect width="512" height="512" rx="110" fill="#007bff"/>
+        <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M116 85 C 75 85, 70 120, 70 145 V 225 C 70 250, 50 256, 40 256 C 50 256, 70 262, 70 287 V 367 C 70 392, 75 427, 116 427" stroke-width="12"/>
+          <path d="M396 85 C 437 85, 442 120, 442 145 V 225 C 442 250, 462 256, 472 256 C 462 256, 442 262, 442 287 V 367 C 442 392, 437 427, 396 427" stroke-width="12"/>
+          <line x1="182" y1="190" x2="182" y2="300" stroke-width="10"/>
+          <line x1="330" y1="190" x2="330" y2="300" stroke-width="10"/>
+          <line x1="182" y1="190" x2="262" y2="256" stroke-width="10"/>
+          <line x1="330" y1="190" x2="250" y2="256" stroke-width="10"/>
+        </g>
+        <g fill="#ffffff">
+          <circle cx="182" cy="190" r="41"/>
+          <circle cx="330" cy="190" r="41"/>
+          <path d="M182 256 A 41 41 0 1 0 182 338 C 182 338 182 380 148 412 L 140 420 C 160 420 200 390 223 300 A 41 41 0 0 0 182 256 Z"/>
+          <path d="M330 256 A 41 41 0 1 0 330 338 C 330 338 330 380 296 412 L 288 420 C 308 420 340 390 371 300 A 41 41 0 0 0 330 256 Z"/>
+        </g>
+      </svg>
+      MODERN AGE CODERS
+    </div>
+    <div class="badge">PROFESSIONALS</div>
+  </div>
+
+  <div class="titleblock">
+    <div class="kicker">ADVANCED MASTERCLASS</div>
+    <h1><span class="gold">Advanced</span><br>Git &amp; GitHub</h1>
+    <p class="sub">Internals, workflow design and CI/CD at scale</p>
+    <p class="meta">24 LIVE CLASSES<i>·</i>ADVANCED WORKFLOWS</p>
+  </div>
+
+  <div class="bottom"><span>LIVE ONLINE CLASSES</span><span>learn<span class="dot">.</span>modernagecoders<span class="dot">.</span>com</span></div>
+</div>
+</body>
+</html>
