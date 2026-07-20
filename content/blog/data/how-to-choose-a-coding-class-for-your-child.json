@@ -1,79 +1,218 @@
 {
   "meta": {
     "slug": "how-to-choose-a-coding-class-for-your-child",
-    "title": "How to Choose a Coding Class for Your Child: A 2026 Checklist",
-    "description": "How to choose a coding class for your child in 2026: the questions to ask, the red flags to avoid, live vs recorded, batch size, and the one test that beats every brochure.",
-    "keywords": ["how to choose a coding class for kids", "best coding class for my child", "choosing a coding class", "coding class checklist", "questions to ask coding class", "kids coding class red flags"],
-    "author": {"name": "Modern Age Coders", "bio": "Live online coding and maths teachers for all ages, 6 to 67."},
+    "title": "How to Choose a Coding Class for Your Child",
+    "description": "How to choose a coding class for your child: questions to ask, red flags to avoid, and the one test that beats any brochure.",
+    "keywords": [
+      "how to choose a coding class for kids",
+      "best coding class for my child",
+      "choosing a coding class",
+      "coding class checklist",
+      "questions to ask coding class",
+      "kids coding class red flags"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Live online coding and maths teachers for all ages, 6 to 67."
+    },
     "date": "2026-07-18",
-    "dateModified": "2026-07-18",
+    "dateModified": "2026-07-20",
     "category": "Kids Coding",
-    "tags": ["Coding for Kids", "Parenting", "Choosing a Class"],
-    "readTime": "8 min read",
+    "tags": [
+      "Coding for Kids",
+      "Parenting",
+      "Choosing a Class"
+    ],
+    "readTime": "6 min read",
     "featured": false,
     "tldr": "To choose a coding class for your child, insist on live teaching in small batches, real projects rather than passive videos, and a free trial class before you pay. Ask about batch size, whether classes are genuinely live, and the refund and billing terms. Avoid big prepaid lock-ins and fake discounts. One live demo tells you more than any brochure."
   },
   "hero": {
-    "title": "How to Choose a Coding Class for Your Child: A 2026 Checklist",
-    "featuredImage": {"url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_44_hero.png", "alt": "A parent choosing a coding class for their child"}
+    "title": "How to Choose a Coding Class for Your Child",
+    "featuredImage": {
+      "url": "/images/blog/how-to-choose-a-coding-class-for-your-child/00-hero.png",
+      "alt": "How to choose a coding class for your child: a 2026 checklist of what to look for, questions to ask, and red flags to avoid"
+    }
   },
   "content": {
     "sections": [
-      {"type": "toc"},
-      {"type": "paragraph", "text": "There are more coding classes for kids than ever, and the marketing for all of them sounds the same: fun, futuristic, and guaranteed to raise a genius. Picking well is not about the flashiest website. It is about a few concrete things that separate real teaching from expensive entertainment. Here is exactly what to look for and what to avoid."},
-
-      {"type": "heading", "level": 2, "text": "The short answer", "id": "short-answer"},
-      {"type": "paragraph", "text": "Choose a class that is live, small-batch, and project-based, with a free trial before you pay and honest monthly pricing you can stop. Everything else is detail. If a class is genuinely live with a real teacher, keeps batches small, and has your child build real things, your child will learn. If it is recorded video dressed up as live, or a huge batch, or a big prepaid lock-in, be careful."},
-      {"type": "callout", "text": "The single best test is a free demo class. One live lesson tells you more about the teaching than a hundred testimonials. If a provider will not let you try before you pay, that is an answer in itself."},
-
-      {"type": "heading", "level": 2, "text": "The checklist: what to look for", "id": "checklist"},
-      {"type": "list", "items": [
-        "Live teaching, not recorded video. A real teacher who explains and corrects in the moment is worth far more than a polished pre-recorded lesson. Confirm the class is genuinely live.",
-        "Small batches. A class of five to eight children means your child is seen and helped. A class of thirty or forty is barely a class at all. Always ask the batch size.",
-        "Real projects. Your child should build things, games, apps, websites, that they can show, not just watch and copy. Building is where understanding forms.",
-        "A free trial class. You should be able to judge the teaching before any money changes hands.",
-        "Honest, monthly pricing. Clear fees you can stop any time, not a large prepaid package sold as a discount.",
-        "Coding and maths, ideally. A class that connects the two turns syntax into real problem solving."
-      ]},
-
-      {"type": "heading", "level": 2, "text": "The questions to ask before you enrol", "id": "questions"},
-      {"type": "list", "items": [
-        "Is the class live, or is it recorded video? Ask directly.",
-        "How many children are in a batch?",
-        "Can we take a free demo class first?",
-        "Do children build real projects, and can we see examples?",
-        "Is billing monthly, or do we have to prepay for months or a year?",
-        "What is the refund and cancellation policy?",
-        "Who is the teacher, and what is their experience?"
-      ]},
-
-      {"type": "heading", "level": 2, "text": "The red flags to avoid", "id": "red-flags"},
-      {"type": "list", "items": [
-        "Big prepaid lock-ins. Paying for one or two years up front looks like a discount and really just keeps your money if it does not work out.",
-        "Fake urgency. A price that is only good if you sign up today is pressure, not a deal.",
-        "Recorded content sold as live. Some platforms charge live prices for pre-recorded video. Confirm before paying.",
-        "Huge batches. A cheap group class with dozens of children gives your child almost no attention.",
-        "No free trial. If you cannot try the teaching before paying, ask why.",
-        "Constant upsells. A low headline price that turns into endless paid add-ons costs more in the end."
-      ]},
-
-      {"type": "heading", "level": 2, "text": "How to make the final decision", "id": "decide"},
-      {"type": "paragraph", "text": "Shortlist two or three classes that pass the checklist, then take a free demo of each. Watch how the teacher engages your child, whether your child is building or just watching, and how they feel afterwards. The right class is usually obvious within one live lesson. Trust that over any amount of marketing."},
-
-      {"type": "quote", "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.", "author": "Shivam Khemka, Founder of Modern Age Coders"},
-
-      {"type": "heading", "level": 2, "text": "The bottom line", "id": "bottom-line"},
-      {"type": "paragraph", "text": "A good coding class for your child is live, small-batch, project-based, and honest about pricing, and it lets you try before you pay. Modern Age Coders is built exactly that way: live small batches, real shipped projects, coding and maths together for ages 6 to 67, clear monthly pricing, and a free demo class first. We are rated 4.9 across 547 Google reviews. Judge us the same way you would judge anyone else: take the free demo and see."},
-      {"type": "button", "text": "Book a Free Demo Class", "url": "/book-demo"},
-
-      {"type": "accordion", "items": [
-        {"title": "How do I choose a coding class for my child?", "content": "Look for live teaching in small batches, real projects rather than passive video, and a free trial before you pay. Ask about batch size, whether classes are genuinely live, and the refund and billing terms. Avoid big prepaid lock-ins and fake discounts. A single free demo class tells you more than any brochure."},
-        {"title": "What questions should I ask before enrolling in a coding class?", "content": "Ask whether the class is live or recorded, how many children are in a batch, whether you can take a free demo first, whether children build real projects, whether billing is monthly or prepaid, what the refund policy is, and who the teacher is. Clear, confident answers are a good sign."},
-        {"title": "What are the red flags in a kids coding class?", "content": "Watch for large prepaid lock-ins, fake urgency and discounts, recorded video sold at live-class prices, very large batches, no free trial, and constant paid upsells. Any of these suggests the sales matter more than the teaching."},
-        {"title": "Are live coding classes better than recorded ones?", "content": "For most children, yes. A live teacher notices when a child is stuck or ready for more and helps in real time, which recorded video cannot. Recorded lessons can supplement learning, but they are not a substitute for a real teacher in a small live batch."},
-        {"title": "Should a coding class offer a free trial?", "content": "Yes. A free demo class lets you judge the actual teaching before paying, and it is the single most useful test. If a provider will not let you try before you commit, treat that as a warning sign."}
-      ]}
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "There are more coding classes for kids than ever, and the marketing for all of them sounds the same: fun, futuristic, and guaranteed to raise a genius. Picking well is not about the flashiest website. It is about a few concrete things that separate real teaching from expensive entertainment. Here is exactly what to look for, what to ask, and what to avoid."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The short answer",
+        "id": "short-answer"
+      },
+      {
+        "type": "paragraph",
+        "text": "Choose a class that is live, small-batch, and project-based, with a free trial before you pay and honest monthly pricing you can stop. Everything else is detail. If a class is genuinely live with a real teacher, keeps batches small, and has your child build real things, your child will learn. If it is recorded video dressed up as live, or a huge batch, or a big prepaid lock-in, be careful."
+      },
+      {
+        "type": "callout",
+        "text": "The single best test is a free demo class. One live lesson tells you more about the teaching than a hundred testimonials. If a provider will not let you try before you pay, that is an answer in itself."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The checklist: what to look for",
+        "id": "checklist"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Look for",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Live teaching, not recorded video",
+            "A real teacher explains and corrects in the moment, which pre-recorded lessons cannot do"
+          ],
+          [
+            "Small batches, 5 to 8 children",
+            "Your child is seen and helped instead of lost in a crowd of thirty"
+          ],
+          [
+            "Real projects",
+            "Building, not just watching, is where actual understanding forms"
+          ],
+          [
+            "A free trial class",
+            "Lets you judge the real teaching before any money changes hands"
+          ],
+          [
+            "Honest, monthly pricing",
+            "Clear fees you can stop any time, not a prepaid package sold as a discount"
+          ],
+          [
+            "Coding and maths together, ideally",
+            "Connects the two so code becomes real problem solving, not just syntax"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Seven questions to ask before you enrol",
+        "id": "questions"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-choose-a-coding-class-for-your-child/01-questions.png",
+        "alt": "Seven questions parents should ask a coding class before enrolling their child, from is it live to what is the refund policy",
+        "caption": "Ask these directly. A confident, specific answer to each is a good sign."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Is the class live, or is it recorded video? Ask directly.",
+          "How many children are in a batch?",
+          "Can we take a free demo class first?",
+          "Do children build real projects, and can we see examples?",
+          "Is billing monthly, or do we have to prepay for months or a year?",
+          "What is the refund and cancellation policy?",
+          "Who is the teacher, and what is their experience?"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The red flags to avoid",
+        "id": "red-flags"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Big prepaid lock-ins.</strong> Paying for one or two years up front looks like a discount and really just keeps your money if it does not work out.",
+          "<strong>Fake urgency.</strong> A price that is only good if you sign up today is pressure, not a deal.",
+          "<strong>Recorded content sold as live.</strong> Some platforms charge live prices for pre-recorded video. Confirm before paying.",
+          "<strong>Huge batches.</strong> A cheap group class with dozens of children gives your child almost no attention.",
+          "<strong>No free trial.</strong> If you cannot try the teaching before paying, ask why.",
+          "<strong>Constant upsells.</strong> A low headline price that turns into endless paid add-ons costs more in the end."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to make the final decision",
+        "id": "decide"
+      },
+      {
+        "type": "paragraph",
+        "text": "Shortlist two or three classes that pass the checklist, then take a free demo of each. Watch how the teacher engages your child, whether your child is building or just watching, and how they feel afterwards. The right class is usually obvious within one live lesson. Trust that over any amount of marketing."
+      },
+      {
+        "type": "quote",
+        "text": "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.",
+        "author": "Shivam Khemka, Founder of Modern Age Coders"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The bottom line",
+        "id": "bottom-line"
+      },
+      {
+        "type": "paragraph",
+        "text": "A good coding class for your child is live, small-batch, project-based, and honest about pricing, and it lets you try before you pay. Modern Age Coders is built exactly that way: live small batches, real shipped projects, coding and maths together for ages 6 to 67, clear monthly pricing, and a free demo class first. We are rated 4.9 across 547 Google reviews. Judge us the same way you would judge anyone else: take the free demo and see."
+      },
+      {
+        "type": "button",
+        "text": "Book a Free Demo Class",
+        "url": "/book-demo"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How do I choose a coding class for my child?",
+            "content": "Look for live teaching in small batches, real projects rather than passive video, and a free trial before you pay. Ask about batch size, whether classes are genuinely live, and the refund and billing terms. Avoid big prepaid lock-ins and fake discounts. A single free demo class tells you more than any brochure."
+          },
+          {
+            "title": "What questions should I ask before enrolling in a coding class?",
+            "content": "Ask whether the class is live or recorded, how many children are in a batch, whether you can take a free demo first, whether children build real projects, whether billing is monthly or prepaid, what the refund policy is, and who the teacher is. Clear, confident answers are a good sign."
+          },
+          {
+            "title": "What are the red flags in a kids coding class?",
+            "content": "Watch for large prepaid lock-ins, fake urgency and discounts, recorded video sold at live-class prices, very large batches, no free trial, and constant paid upsells. Any of these suggests the sales matter more than the teaching."
+          },
+          {
+            "title": "Are live coding classes better than recorded ones?",
+            "content": "For most children, yes. A live teacher notices when a child is stuck or ready for more and helps in real time, which recorded video cannot. Recorded lessons can supplement learning, but they are not a substitute for a real teacher in a small live batch."
+          },
+          {
+            "title": "Should a coding class offer a free trial?",
+            "content": "Yes. A free demo class lets you judge the actual teaching before paying, and it is the single most useful test. If a provider will not let you try before you commit, treat that as a warning sign."
+          },
+          {
+            "title": "How many classes should I compare before deciding?",
+            "content": "Two or three that already pass the basic checklist is usually enough. Comparing far more than that mostly adds decision fatigue rather than better information, since a single live demo class tends to make the right choice obvious well before you run out of options."
+          },
+          {
+            "title": "Is a cheaper coding class always a worse choice?",
+            "content": "Not necessarily, but a very low price paired with a large batch or no free trial is a real warning sign, since genuine live, small-batch teaching has a cost that a class has to cover somehow. Judge on the checklist first, price second, rather than assuming cheaper always means worse or pricier always means better."
+          }
+        ]
+      }
     ]
   },
-  "relatedPosts": ["coding-class-fees-india-2026", "is-coding-good-for-kids", "coding-for-kids-parents-complete-guide-2026"]
+  "relatedPosts": [
+    "coding-class-fees-india-2026",
+    "is-coding-good-for-kids",
+    "coding-for-kids-parents-complete-guide-2026"
+  ]
 }
