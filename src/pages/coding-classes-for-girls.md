@@ -213,7 +213,7 @@ Prepare for IIT-JEE, competitive coding, and top tech company interviews. Master
 - FAANG-level interview preparation
 - Competitive programming strategies
 
-[View Course →](https://learn.modernagecoders.com/courses/problem-solving-dsa-masterclass-teens)![Girl automating tasks with Python - coding classes for girls online](/images/automation-with-python-ai.webp)Work Smarter
+[View Course →](https://learn.modernagecoders.com/courses/problem-solving-dsa-masterclass-teens)![Girl automating tasks with Python - coding classes for girls online](/images/python-automation-ai-college.webp)Work Smarter
 
 ### Python Automation & AI Tools
 

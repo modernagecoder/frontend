@@ -24,73 +24,73 @@ Advance your tech career with flexible weekend and evening coding programs desig
 
 Flexible weekend and evening programs in AI, Data Science, Full Stack, and Cloud — designed for career growth
 
-![AI & Machine Learning](/images/artificial-intelligence.webp)Hot
+![AI & Machine Learning](/images/ai-ml-college.webp)Hot
 
 ### AI & Machine Learning
 
 Master neural networks, deep learning, and AI applications. Build intelligent systems that solve real business problems.
 
-Neural NetworksDeep LearningPython[Master AI](/courses/ai-ml-masterclass-complete-college)![Data Science](/images/data-science.webp)Hot
+Neural NetworksDeep LearningPython[Master AI](/courses/ai-ml-masterclass-complete-college)![Data Science](/images/data-science-college.webp)Hot
 
 ### Data Science Complete
 
 Learn data analysis, Python, Pandas, and visualization. Extract actionable insights from complex business data.
 
-PythonPandasVisualization[Analyze Data](/courses/data-science-complete-masterclass-college)![Full Stack Development](/images/full-stack.webp)Popular
+PythonPandasVisualization[Analyze Data](/courses/data-science-complete-masterclass-college)![Full Stack Development](/images/full-stack-development-college.webp)Popular
 
 ### Full Stack Development
 
 Master frontend and backend technologies. Build complete web applications from scratch with React, Node.js, and MongoDB.
 
-ReactNode.jsMongoDB[Build Apps](/courses/full-stack-web-development-masterclass-college)![Python Programming](/images/python.webp)Popular
+ReactNode.jsMongoDB[Build Apps](/courses/full-stack-web-development-masterclass-college)![Python Programming](/images/python-college.webp)Popular
 
 ### Python Programming
 
 From fundamentals to advanced. Automation, web development, data science, and AI/ML with Python.
 
-PythonAutomationAI/ML[Learn Python](/courses/python-programming-masterclass-zero-to-advanced-college)![Data Analysis](/images/data-analysis.webp)
+PythonAutomationAI/ML[Learn Python](/courses/python-programming-masterclass-zero-to-advanced-college)![Data Analysis](/images/data-analysis-college.webp)
 
 ### Data Analysis Mastery
 
 Master data analysis techniques with Excel and Python. Extract insights from complex datasets for business decisions.
 
-ExcelPythonStatistics[Analyze Now](/courses/data-analysis-mastery-course-college)![Python AI Automation](/images/automation-with-python-ai.webp)New
+ExcelPythonStatistics[Analyze Now](/courses/data-analysis-mastery-course-college)![Python AI Automation](/images/python-automation-ai-college.webp)New
 
 ### Python AI Automation
 
 Automate repetitive tasks with Python and AI. Build intelligent automation systems for real-world business applications.
 
-PythonAutomationAI Integration[Automate Now](/courses/python-ai-automation-masterclass-college)![Algorithmic Trading](/images/algo-trading.webp)New
+PythonAutomationAI Integration[Automate Now](/courses/python-ai-automation-masterclass-college)![Algorithmic Trading](/images/algo-trading-college.webp)New
 
 ### Algorithmic Trading
 
 Automate stock trading with Python. Learn algorithmic trading, market analysis, and build trading bots.
 
-PythonTradingAlgorithms[Trade Smart](/courses/algorithmic-trading-masterclass-complete)![Stock Market Automation](/images/stock-market-automation.webp)Hot
+PythonTradingAlgorithms[Trade Smart](/courses/algorithmic-trading-masterclass-complete)![Stock Market Automation](/images/algo-trading-college.webp)Hot
 
 ### Trading Automation
 
 Build automated trading systems. Trading bots, automation strategies, and risk management for consistent returns.
 
-Trading BotsAutomationRisk Management[Automate Trading](/courses/algorithmic-trading-automation-masterclass)![MERN Stack Development](/images/mern-stack.webp)Popular
+Trading BotsAutomationRisk Management[Automate Trading](/courses/algorithmic-trading-automation-masterclass)![MERN Stack Development](/images/mern-stack-college.webp)Popular
 
 ### MERN Stack Development
 
 Build full-stack applications using MongoDB, Express, React, and Node.js. Industry's most demanded stack.
 
-MongoDBExpressReact[Build Full Stack](/courses/mern-stack-development-masterclass-college)![React JS](/images/react.webp)Popular
+MongoDBExpressReact[Build Full Stack](/courses/mern-stack-development-masterclass-college)![React JS](/images/react-college.webp)Popular
 
 ### React JS Complete
 
 Master React, Redux, Next.js, and TypeScript. Build modern, scalable frontend applications.
 
-ReactReduxNext.js[Learn React](/courses/react-js-complete-masterclass-college)![Java Programming](/images/java-dev.webp)
+ReactReduxNext.js[Learn React](/courses/react-js-complete-masterclass-college)![Java Programming](/images/java-college.webp)
 
 ### Java Programming
 
 Core Java, Spring Boot, Microservices, and Hibernate. Enterprise-level development skills for corporate roles.
 
-JavaSpring BootMicroservices[Master Java](/courses/complete-java-programming-masterclass-college)![MySQL Database](/images/my-sql.webp)
+JavaSpring BootMicroservices[Master Java](/courses/complete-java-programming-masterclass-college)![MySQL Database](/images/database-college.webp)
 
 ### MySQL Database
 

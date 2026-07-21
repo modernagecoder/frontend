@@ -105,7 +105,7 @@ Build real machine learning models. Understand neural networks. Apply AI to real
 - Computer vision & NLP projects
 - Kaggle-ready skills
 
-[View Course Details →](https://learn.modernagecoders.com/courses/ai-ml-masterclass-teens)![Problem Solving DSA Teens](/images/python.webp)Competitive Edge
+[View Course Details →](https://learn.modernagecoders.com/courses/ai-ml-masterclass-teens)![Problem Solving DSA Teens](/images/problem-solving-teens.webp)Competitive Edge
 
 ### Problem Solving & DSA in Python
 
@@ -138,7 +138,7 @@ ChatGPT, DALL-E, Stable Diffusion — understand how they work and build your ow
 - Image generation with Diffusion models
 - OpenAI API integration
 
-[View Course Details →](https://learn.modernagecoders.com/courses/complete-generative-ai-masterclass-college)![Python AI Automation](/images/automation-with-python-ai.webp)Practical AI
+[View Course Details →](https://learn.modernagecoders.com/courses/complete-generative-ai-masterclass-college)![Python AI Automation](/images/python-automation-ai-college.webp)Practical AI
 
 ### Python AI & Automation Masterclass
 

@@ -124,7 +124,7 @@ The flagship course for Don Bosco Park Circus Class 9 and 10 students. ICSE Comp
 - ✓ Full ICSE board paper pattern coverage
 - ✓ BlueJ IDE — exam-accurate practice
 
-[View Course Details →](/courses/complete-java-programming-masterclass)![ISC Computer Science Practical Bootcamp Don Bosco Park Circus Class 12 Kolkata](/images/teens-coding.webp)Don Bosco Exclusive · Class 11–12
+[View Course Details →](/courses/complete-java-programming-masterclass)![ISC Computer Science Practical Bootcamp Don Bosco Park Circus Class 12 Kolkata](/images/java-teens.webp)Don Bosco Exclusive · Class 11–12
 
 ### ISC CS Practical Bootcamp
 
@@ -135,7 +135,7 @@ ISC Computer Science is one of the hardest Class 12 board subjects in India — 
 - ✓ ISC theory: networking, SQL, Boolean algebra
 - ✓ Full ISC practical exam simulation
 
-[View Course Details →](/courses/complete-java-programming-masterclass)![Competitive Programming ZCO INOI Don Bosco Park Circus students Kolkata](/images/competitive-coding.webp)Elite Track · Classes 7–12
+[View Course Details →](/courses/complete-java-programming-masterclass)![Competitive Programming ZCO INOI Don Bosco Park Circus students Kolkata](/images/competitive-programming-teens.webp)Elite Track · Classes 7–12
 
 ### Competitive Programming — ZCO & INOI
 

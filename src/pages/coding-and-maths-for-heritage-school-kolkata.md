@@ -124,7 +124,7 @@ Mapped precisely to ICSE Computer Applications (Class 10) and IGCSE Computer Sci
 - ✓ Machine learning projects with scikit-learn
 - ✓ ICSE & IGCSE past paper walkthroughs
 
-[View Course Details →](/courses/python-programming-masterclass)![IBDP Computer Science prep for Heritage School Kolkata](/images/teens-coding.webp)IBDP Exclusive · Class 11–12
+[View Course Details →](/courses/python-programming-masterclass)![IBDP Computer Science prep for Heritage School Kolkata](/images/ib-computer-science.webp)IBDP Exclusive · Class 11–12
 
 ### IBDP Computer Science & EE Support
 
@@ -135,7 +135,7 @@ Heritage School's IBDP track demands more than textbook knowledge. We support st
 - ✓ Extended Essay (EE) in Computer Science
 - ✓ Java / Python dossier project guidance
 
-[View Course Details →](/courses/teens-ai-web-development-course)![ZCO INOI Competitive Programming for Heritage School students Kolkata](/images/competitive-coding.webp)Elite Track · Class 7–12
+[View Course Details →](/courses/teens-ai-web-development-course)![ZCO INOI Competitive Programming for Heritage School students Kolkata](/images/competitive-programming-teens.webp)Elite Track · Class 7–12
 
 ### Competitive Programming — ZCO / INOI / IOI
 

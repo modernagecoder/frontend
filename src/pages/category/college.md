@@ -42,7 +42,7 @@ Neural NetworksDeep LearningPython[Explore AI](/courses/ai-ml-masterclass-comple
 
 Master DSA for technical interviews and competitive programming. Essential for FAANG placements.
 
-DSAProblem SolvingInterviews[Master DSA](/courses/data-structures-algorithms-masterclass-college)![Data Science](/images/data-science.webp)Hot
+DSAProblem SolvingInterviews[Master DSA](/courses/data-structures-algorithms-masterclass-college)![Data Science](/images/data-science-college.webp)Hot
 
 ### Data Science Complete
 
@@ -72,7 +72,7 @@ PythonWeb DevAI/ML[Master Python](/courses/python-programming-masterclass-zero-t
 
 Core Java, Spring Boot, Microservices, and Hibernate. Enterprise-level development skills.
 
-JavaSpring BootMicroservices[Learn Java](/courses/complete-java-programming-masterclass-college)![Competitive Programming](/images/data-structure-algorithms.webp)Popular
+JavaSpring BootMicroservices[Learn Java](/courses/complete-java-programming-masterclass-college)![Competitive Programming](/images/placement-prep-college.webp)Popular
 
 ### Competitive Programming
 
