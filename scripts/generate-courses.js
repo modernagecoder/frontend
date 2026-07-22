@@ -632,6 +632,27 @@ class CourseGenerator {
     }
 
     /**
+     * The two Codex + Claude Code courses are the ONLY premium-priced courses:
+     * students run the real paid agent tools (their own Claude / ChatGPT
+     * subscriptions), so the tiers are Group ₹2,499 / Mini Batch ₹4,999 /
+     * 1-on-1 ₹9,999 (international Group $100 / 1-on-1 $150). Every other
+     * course keeps the site-wide standard tiers. Prices must stay in sync
+     * with courses-config.json (Razorpay amounts) and the
+     * PRICES.internationalAgents table in international-pricing.js.
+     */
+    isPremiumAgentsCourse(slug) {
+        return /codex-and-claude-code/i.test(slug || '');
+    }
+
+    getTierPrices(slug) {
+        return this.isPremiumAgentsCourse(slug)
+            ? { group: '2499', miniBatch: '4999', personal: '9999',
+                groupDisplay: '₹2,499/month', miniBatchDisplay: '₹4,999/month', personalDisplay: '₹9,999/month' }
+            : { group: '1499', miniBatch: '2499', personal: '4999',
+                groupDisplay: '₹1,499/month', miniBatchDisplay: '₹2,499/month', personalDisplay: '₹4,999/month' };
+    }
+
+    /**
      * meta.commitment is written for humans ("12-15 hours/week recommended"). Google expects
      * courseWorkload as an ISO 8601 duration, so convert; return null when the text carries no
      * usable figure, and let the caller omit the property rather than publish a guess.
@@ -729,12 +750,13 @@ class CourseGenerator {
         const seller = { "@type": "Organization", "name": "Modern Age Coders", "url": "https://learn.modernagecoders.com" };
         const eligibleRegion = { "@type": "Place", "name": "Worldwide" };
         const courseUrl = `https://learn.modernagecoders.com/courses/${meta.slug || ''}`;
+        const tierPrices = this.getTierPrices(meta.slug);
         courseSchema.offers = [
             {
                 "@type": "Offer",
                 "name": "Group Classes",
                 "description": "Weekly two classes with up to 10 students",
-                "price": "1499",
+                "price": tierPrices.group,
                 "priceCurrency": "INR",
                 "availability": "https://schema.org/InStock",
                 "validFrom": today,
@@ -748,7 +770,7 @@ class CourseGenerator {
                 "@type": "Offer",
                 "name": "Mini Batch (3-4 students)",
                 "description": "Weekly two classes in a micro batch of 3-4 students with near 1-on-1 attention",
-                "price": "2499",
+                "price": tierPrices.miniBatch,
                 "priceCurrency": "INR",
                 "availability": "https://schema.org/InStock",
                 "validFrom": today,
@@ -762,7 +784,7 @@ class CourseGenerator {
                 "@type": "Offer",
                 "name": "Personalized 1-on-1",
                 "description": "Weekly two private sessions with a dedicated mentor",
-                "price": "4999",
+                "price": tierPrices.personal,
                 "priceCurrency": "INR",
                 "availability": "https://schema.org/InStock",
                 "validFrom": today,
@@ -1051,11 +1073,13 @@ class CourseGenerator {
         html = html.replace(/{{HERO_TITLE}}/g, this.escapeHtml(overview.title || meta.title || ''));
         html = html.replace(/{{HERO_SUBTITLE}}/g, this.escapeHtml(overview.tagline || meta.description || ''));
 
-        // Pricing — enforce consistent 3-tier pricing across every generated course page.
-        // (Per-course JSON prices are ignored in favor of site-wide standard tiers.)
-        html = html.replace(/{{PRICE_GROUP}}/g, '₹1,499/month');
-        html = html.replace(/{{PRICE_MINIBATCH}}/g, '₹2,499/month');
-        html = html.replace(/{{PRICE_PERSONAL}}/g, '₹4,999/month');
+        // Pricing — site-wide standard 3-tier pricing, except the premium
+        // Codex + Claude Code courses (see getTierPrices / isPremiumAgentsCourse).
+        // (Per-course JSON prices are otherwise ignored in favor of standard tiers.)
+        const tierP = this.getTierPrices(meta.slug);
+        html = html.replace(/{{PRICE_GROUP}}/g, tierP.groupDisplay);
+        html = html.replace(/{{PRICE_MINIBATCH}}/g, tierP.miniBatchDisplay);
+        html = html.replace(/{{PRICE_PERSONAL}}/g, tierP.personalDisplay);
         html = html.replace(/{{PRICE_LIFETIME}}/g, this.escapeHtml(meta.price?.lifetime || ''));
 
         // New meta fields
@@ -1234,6 +1258,19 @@ class CourseGenerator {
             html = html.replace("showInternationalContactModal('Personalized Mentorship', '$100 USD')", "showInternationalContactModal('Personalized Mentorship', '$150 USD')");
             // Static intl FYI cards (editorial markup). Personalized first so the
             // Group $40 -> $100 swap can't be double-bumped to $150.
+            html = html.replace(/(Personalized<\/div>\s*<div class="cd-intl-price">)\$100(<\/div>)/, '$1$$150$2');
+            html = html.replace(/(Group Classes<\/div>\s*<div class="cd-intl-price">)\$40(<\/div>)/, '$1$$100$2');
+        }
+
+        // Premium Codex + Claude Code courses: international Group $100 / 1-on-1 $150
+        // (students run the real paid agent tools). data-price-tier="agents" makes
+        // international-pricing.js and course-payment.js pick PRICES.internationalAgents
+        // when they rewrite the ₹ enrollment cards / charge USD. Same swap-order rule
+        // as maths above: Personalized first so Group $40 -> $100 can't double-bump.
+        if (this.isPremiumAgentsCourse(meta.slug)) {
+            html = html.replace(/<body class="(course-detail-page[^"]*)">/, '<body class="$1" data-price-tier="agents">');
+            html = html.replace("showInternationalContactModal('Group Classes', '$40 USD')", "showInternationalContactModal('Group Classes', '$100 USD')");
+            html = html.replace("showInternationalContactModal('Personalized Mentorship', '$100 USD')", "showInternationalContactModal('Personalized Mentorship', '$150 USD')");
             html = html.replace(/(Personalized<\/div>\s*<div class="cd-intl-price">)\$100(<\/div>)/, '$1$$150$2');
             html = html.replace(/(Group Classes<\/div>\s*<div class="cd-intl-price">)\$40(<\/div>)/, '$1$$100$2');
         }

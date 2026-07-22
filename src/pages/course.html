@@ -193,7 +193,7 @@
           "name": "How much do the courses cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Group classes start at ₹1,499 a month, a mini batch with near one-to-one attention is ₹2,499, and fully personalised 1-on-1 is ₹4,999, with plans outside India priced in local currency. Every course starts with a free demo class before you pay."
+            "text": "Group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,499, and fully personalised 1-on-1 starts at ₹4,999, with plans outside India priced in local currency. One exception: the premium Codex + Claude Code AI agents courses are ₹2,499 group, ₹4,999 mini batch and ₹9,999 1-on-1 per month. Every course starts with a free demo class before you pay."
           }
         },
         {
@@ -893,7 +893,7 @@
                     </svg>
                 </button>
                 <div class="faq-answer">
-                    <p>Group classes start at ₹1,499 a month, a mini batch with near one-to-one attention is ₹2,499, and fully personalised 1-on-1 is ₹4,999, with plans outside India priced in local currency. Every course starts with a free demo class before you pay.</p>
+                    <p>Group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,499, and fully personalised 1-on-1 starts at ₹4,999, with plans outside India priced in local currency. One exception: the premium Codex + Claude Code AI agents courses are ₹2,499 group, ₹4,999 mini batch and ₹9,999 1-on-1 per month. Every course starts with a free demo class before you pay.</p>
                 </div>
             </div>
             <div class="faq-item">
@@ -2127,9 +2127,12 @@
                 const isIndian = window.__MAC_IS_INDIAN !== false;
                 // Maths courses carry the higher maths international price; Indian
                 // group price (₹1,499) is the same for maths and coding.
+                // The premium Codex + Claude Code courses carry their own tiers in
+                // BOTH regions: India group starts at ₹2,499, international at $100.
                 const isMathsCourse = /math|calculus|algebra/i.test(course.templateUrl || '');
-                const intlStart = isMathsCourse ? '$100' : '$40';
-                const priceAmount = isIndian ? '₹1,499' : intlStart;
+                const isAgentsCourse = /codex-and-claude-code/i.test(course.templateUrl || '');
+                const intlStart = (isMathsCourse || isAgentsCourse) ? '$100' : '$40';
+                const priceAmount = isIndian ? (isAgentsCourse ? '₹2,499' : '₹1,499') : intlStart;
                 const prepPrice = isIndian ? '₹1,499/month' : intlStart + '/month';
                 const isHackathon = course.isHackathon === true;
                 const cardClass = isHackathon ? 'course-card-minimal hackathon-card' : 'course-card-minimal';

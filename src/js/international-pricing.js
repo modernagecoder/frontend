@@ -34,6 +34,17 @@ const InternationalPricing = {
     internationalMaths: {
       group:    { amount: 100, display: '$100', symbol: '$', period: '/month', currency: 'USD' },
       personal: { amount: 150, display: '$150', symbol: '$', period: '/month', currency: 'USD' }
+    },
+    // AGENTS-ONLY international pricing for the premium Codex + Claude Code
+    // courses (pages tagged data-price-tier="agents"). Students run the real
+    // paid agent tools on their own Claude / ChatGPT subscriptions, so these
+    // two courses are premium-priced: India Group ₹2,499 / Mini Batch ₹4,999 /
+    // 1-on-1 ₹9,999; international Group $100 / 1-on-1 $150. No other course
+    // uses this table. Keep in sync with courses-config.json and
+    // getTierPrices() in scripts/generate-courses.js.
+    internationalAgents: {
+      group:    { amount: 100, display: '$100', symbol: '$', period: '/month', currency: 'USD' },
+      personal: { amount: 150, display: '$150', symbol: '$', period: '/month', currency: 'USD' }
     }
   },
 
@@ -107,6 +118,17 @@ const InternationalPricing = {
     var b = document.body;
     return (!!el && el.getAttribute('data-subject') === 'maths') ||
            (!!b && b.getAttribute('data-subject') === 'maths');
+  },
+
+  // ─── Premium agents context ───
+  // True on the two Codex + Claude Code course pages, which the generator tags
+  // <body data-price-tier="agents">. Picks the premium USD prices (group $100,
+  // 1-on-1 $150) when swapping ₹ markup and when charging card payments.
+  isAgentsContext() {
+    var el = document.documentElement;
+    var b = document.body;
+    return (!!el && el.getAttribute('data-price-tier') === 'agents') ||
+           (!!b && b.getAttribute('data-price-tier') === 'agents');
   },
 
   // ─── Detection ───
@@ -228,7 +250,9 @@ const InternationalPricing = {
 
   // ─── Generated Course Pages (course-template.html) ───
   updateCoursePages() {
-    var prices = this.isMathsContext() ? this.PRICES.internationalMaths : this.PRICES.international;
+    var prices = this.isAgentsContext() ? this.PRICES.internationalAgents
+      : this.isMathsContext() ? this.PRICES.internationalMaths
+      : this.PRICES.international;
 
     // Template 1: .enrollment-option > h4 + .price
     document.querySelectorAll('.enrollment-option').forEach(function(option) {
@@ -301,7 +325,11 @@ const InternationalPricing = {
   // a plan/card/tier element that mentions both "Mini Batch" and ₹2,499.
   hideGenericMiniBatchCards() {
     var nameRx = /mini\s*batch/i;
-    var priceRx = /(?:₹|\bRs\.?)\s*2,?499(?!\d)/;
+    // On the premium agents pages the Mini Batch tier is ₹4,999 (₹2,499 is the
+    // GROUP tier there and must never be hidden); everywhere else it is ₹2,499.
+    var priceRx = this.isAgentsContext()
+      ? /(?:₹|\bRs\.?)\s*4,?999(?!\d)/
+      : /(?:₹|\bRs\.?)\s*2,?499(?!\d)/;
     var candidates = document.querySelectorAll('[class*="plan"], [class*="card"], [class*="tier"]');
     candidates.forEach(function(el) {
       var txt = el.textContent || '';
@@ -322,9 +350,18 @@ const InternationalPricing = {
   // group price (no USD Mini Batch exists; inline "from ₹2,499" mentions on
   // hyper-local pages must not surface a third SKU).
   genericPriceSwap() {
-    // Maths pages (data-subject="maths") price Group at $100 and 1-on-1 at $150.
-    // Every other page keeps the flat coding swap (Group $40, 1-on-1 $100).
-    var rules = this.isMathsContext() ? [
+    // Premium agents pages (data-price-tier="agents") carry their own tiers:
+    // Group ₹2,499 -> $100 and 1-on-1 ₹9,999 -> $150. The Mini Batch tier
+    // (₹4,999) is deliberately NOT swapped: it is an India-only plan with no
+    // USD price, and inline prose labels it "(India only)", so keeping the ₹
+    // figure stays truthful while a fabricated USD figure would not.
+    // Maths pages price Group at $100 and 1-on-1 at $150. Every other page
+    // keeps the flat coding swap (Group $40, 1-on-1 $100).
+    var rules = this.isAgentsContext() ? [
+      { rx: /(?:₹|\bRs\.?)\s*49,?999(?!\d)/g, usd: '$599' },
+      { rx: /(?:₹|\bRs\.?)\s*9,?999(?!\d)/g,  usd: '$150' },  // agents 1-on-1 tier
+      { rx: /(?:₹|\bRs\.?)\s*2,?499(?!\d)/g,  usd: '$100' }   // agents group tier
+    ] : this.isMathsContext() ? [
       { rx: /(?:₹|\bRs\.?)\s*49,?999(?!\d)/g, usd: '$599' },
       { rx: /(?:₹|\bRs\.?)\s*1,?499(?!\d)/g,  usd: '$100' },  // maths group tier
       { rx: /(?:₹|\bRs\.?)\s*1,?999(?!\d)/g,  usd: '$100' },

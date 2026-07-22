@@ -206,10 +206,18 @@ const CoursePayment = {
 
   // Get course slug from URL
   getCourseSlug: function() {
-    const pathParts = window.location.pathname.split('/');
+    const pathParts = window.location.pathname.split('/').filter(Boolean);
     const generatedIndex = pathParts.indexOf('generated');
     if (generatedIndex !== -1 && pathParts[generatedIndex + 1]) {
       return pathParts[generatedIndex + 1];
+    }
+    // Pretty URL /courses/<slug> — how Netlify actually serves every course
+    // page (a 200 rewrite, so "generated" never appears in the path). Without
+    // this branch the slug resolved to unknown-course and per-course pricing
+    // in courses-config.json silently fell back to defaultPricing.
+    const coursesIndex = pathParts.indexOf('courses');
+    if (coursesIndex !== -1 && pathParts[coursesIndex + 1] && pathParts[coursesIndex + 1] !== 'generated') {
+      return pathParts[coursesIndex + 1];
     }
     // Try body data attribute
     if (document.body.dataset.courseSlug) {
@@ -239,12 +247,15 @@ const CoursePayment = {
   },
 
   // Intl prices from the single source of truth (international-pricing.js),
-  // maths-aware: maths pages (data-subject="maths") charge $100 group /
+  // context-aware: the premium Codex + Claude Code pages (data-price-tier
+  // ="agents") and maths pages (data-subject="maths") both charge $100 group /
   // $150 personal instead of the flat coding $40/$100. Falls back to the
   // flat coding prices if that script is absent on the page.
   getIntlPricing: function(planType) {
     var ip = window.InternationalPricing;
-    var table = (ip && ip.isMathsContext && ip.isMathsContext() && ip.PRICES.internationalMaths)
+    var table = (ip && ip.isAgentsContext && ip.isAgentsContext() && ip.PRICES.internationalAgents)
+      ? ip.PRICES.internationalAgents
+      : (ip && ip.isMathsContext && ip.isMathsContext() && ip.PRICES.internationalMaths)
       ? ip.PRICES.internationalMaths
       : (ip && ip.PRICES ? ip.PRICES.international : null);
     var fallback = {
@@ -405,8 +416,17 @@ const CoursePayment = {
       
       // Determine currency and amount for international users.
       // Mini Batch has no USD price — it's India-only; foreign users are blocked earlier.
-      // Prices come from getIntlPricing (maths-aware, single source of truth).
+      // Prices come from getIntlPricing (context-aware, single source of truth).
       const isIndian = window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : (ccInfo.iso === 'IN');
+      // Re-guard here because this isIndian can differ from the modal-open one
+      // (country-code selection). Without it, a null intl price would fall back
+      // to the INR amount while currency says USD — a 90x overcharge.
+      if (!isIndian && planType === 'miniBatch') {
+        alert('The Mini Batch plan is available only in India. Please choose Group Classes or Personalized 1-on-1.');
+        const sb = document.querySelector('.payment-submit-btn');
+        if (sb) { sb.disabled = false; sb.textContent = 'Try Again'; }
+        return;
+      }
       var intlP = this.getIntlPricing(planType);
       const finalAmount = isIndian ? amount : (intlP ? intlP.amount : amount);
       const currency = isIndian ? 'INR' : 'USD';

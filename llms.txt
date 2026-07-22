@@ -373,7 +373,11 @@ Q: How much do Modern Age Coders courses cost?
 A: In India there are three tiers, all billed monthly with no lock-in: group batches of 4-8
 students at ₹1,499 per month (two live classes per week), mini batches of 3-4 students at
 ₹2,499 per month, and one-on-one classes at ₹4,999 per month. International pricing starts
-at $40 per month for group classes and $100 per month for one-on-one. A free demo class is
+at $40 per month for group classes and $100 per month for one-on-one; maths courses are
+$100 group and $150 one-on-one internationally. One exception: the two premium Codex +
+Claude Code AI coding agents courses are ₹2,499 group, ₹4,999 mini batch (India only) and
+₹9,999 one-on-one per month in India, and $100 group / $150 one-on-one internationally
+(students also need their own Claude and ChatGPT subscriptions). A free demo class is
 available before enrollment, with no card required.
 
 Q: Is Modern Age Coders good for beginners?

@@ -57,18 +57,18 @@
     "codex-and-claude-code-ai-coding-agents-course-for-teens": {
       "name": "Codex + Claude Code for Teens",
       "pricing": {
-        "group": { "amount": 1499, "display": "₹1,499/month" },
-        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
-        "personal": { "amount": 4999, "display": "₹4,999/month" },
+        "group": { "amount": 2499, "display": "₹2,499/month" },
+        "miniBatch": { "amount": 4999, "display": "₹4,999/month", "indiaOnly": true },
+        "personal": { "amount": 9999, "display": "₹9,999/month" },
         "lifetime": { "amount": 44999, "display": "₹44,999" }
       }
     },
     "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": {
       "name": "Codex + Claude Code Masterclass (Pro)",
       "pricing": {
-        "group": { "amount": 1499, "display": "₹1,499/month" },
-        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
-        "personal": { "amount": 4999, "display": "₹4,999/month" },
+        "group": { "amount": 2499, "display": "₹2,499/month" },
+        "miniBatch": { "amount": 4999, "display": "₹4,999/month", "indiaOnly": true },
+        "personal": { "amount": 9999, "display": "₹9,999/month" },
         "lifetime": { "amount": 49999, "display": "₹49,999" }
       }
     },
@@ -254,6 +254,7 @@
     "howToAddNewCourse": "Add a new entry in the 'courses' object with the course slug as key. Each course should include group, miniBatch, personal, and (optional) lifetime pricing.",
     "pricingFormat": "amount is in rupees (INR), display is the formatted string shown to users",
     "miniBatch": "indiaOnly=true means this plan is NOT available to international users. The Mini Batch card is hidden via data-india-only on foreign views.",
-    "defaultPricing": "If a course is not listed in 'courses', defaultPricing is used (Group ₹1,499 / Mini Batch ₹2,499 / 1-on-1 ₹4,999)."
+    "defaultPricing": "If a course is not listed in 'courses', defaultPricing is used (Group ₹1,499 / Mini Batch ₹2,499 / 1-on-1 ₹4,999).",
+    "premiumAgentsCourses": "The two Codex + Claude Code courses carry premium pricing (Group ₹2,499 / Mini Batch ₹4,999 / 1-on-1 ₹9,999; international Group $100 / 1-on-1 $150) because students run the real paid agent tools. Their international USD amounts come from PRICES.internationalAgents in international-pricing.js, keyed off data-price-tier=\"agents\" on the generated page body. Do NOT copy these prices to other courses."
   }
 }

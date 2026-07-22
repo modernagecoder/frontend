@@ -8,12 +8,15 @@ source: src/pages/pricing.html
 
 # Affordable Coding & Maths Classes: Transparent Pricing
 
-**Quick answer:** Modern Age Coders keeps pricing simple: live group classes are ₹1,499 a month, a mini batch with near one-to-one attention is ₹2,499, and fully personalised one-to-one classes are ₹4,999, with plans outside India shown in local currency. Every plan is live, covers coding or maths for ages 6 to 67, and starts with a free demo before you pay.
-
-> "Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think."
-> Shivam Khemka, Founder of Modern Age Coders
-
 No hidden fees, no surprises. Pick a plan that works for you. Whether you prefer learning in a group or need personalized attention, we've got you covered.
+
+Modern Age Coders keeps pricing simple: live group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,499, and fully personalised one-to-one classes start at ₹4,999, with plans outside India shown in local currency. The premium Codex + Claude Code AI agents courses are ₹2,499 group, ₹4,999 mini batch and ₹9,999 one-to-one. Every plan is live, covers coding or maths for ages 6 to 67, and starts with a free demo before you pay.
+
+Rated 4.9 across 547 Google reviews
+
+> “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
+
+*Shivam Khemka, Founder of Modern Age Coders*
 
 ### Group Classes
 
@@ -272,8 +275,8 @@ Affordable coding classes in India without compromising on quality.
 
 | Feature | Modern Age Coders | WhiteHat Jr | BYJU's | Vedantu |
 | --- | --- | --- | --- | --- |
-| Monthly Price (Group) | Rs 1,499 | Rs 5,000+ | Rs 3,000-8,000+ | Rs 3,500+ |
-| 1-on-1 Available | Yes (Rs 4,999) | Yes (Rs 8,000+) | Limited | Limited |
+| Monthly Price (Group) | From Rs 1,499 | Rs 5,000+ | Rs 3,000-8,000+ | Rs 3,500+ |
+| 1-on-1 Available | Yes (from Rs 4,999) | Yes (Rs 8,000+) | Limited | Limited |
 | Coding + Maths | Both Integrated | Coding Only | Maths Only | Maths Only |
 | Live Classes | 100% Live | Live | Mostly Recorded | Live |
 | Contracts | None. Cancel anytime | 6-12 month packs | Long-term lock-in | Varies |
@@ -297,7 +300,7 @@ We offer a free demo class so you can experience our teaching style before commi
 
 We accept UPI, bank transfers, and card payments. You can pay monthly or get a discount for quarterly/yearly payments.
 
-We teach students from age 8 to 21+. We have different courses designed for kids (6-12), teens (13-17), and college students/adults (18+).
+We teach students from age 6 to 67. We have different courses designed for kids (6-12), teens (13-17), and college students/adults (18+).
 
 Yes, you can pause for exams or vacations. Just let us know at least a week in advance, and we'll hold your spot.
 

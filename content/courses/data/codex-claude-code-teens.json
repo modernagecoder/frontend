@@ -2,18 +2,26 @@
   "meta": {
     "slug": "codex-and-claude-code-ai-coding-agents-course-for-teens",
     "date": "2026-05-27",
+    "dateModified": "2026-07-22",
     "title": "Codex & Claude Code for Teens: AI Coding Agents Course",
-    "description": "Learn OpenAI Codex and Anthropic Claude Code in 24 hands-on classes for teens 13-18: install the CLIs, plan and goal mode, MCP, hooks and ship a portfolio app.",
+    "description": "Live online Codex + Claude Code course for teens 13-18. 24 mentor-led classes: install the CLIs, plan mode, MCP, subagents, then ship a real app. Free demo class.",
     "keywords": [
-      "codex course for teens",
       "claude code course",
+      "codex course for teens",
+      "learn claude code",
       "ai coding agents course",
+      "claude code classes online",
       "learn openai codex",
+      "best claude code course",
       "claude code for beginners",
+      "anthropic claude code training",
       "agentic coding for teens",
+      "claude code course india",
+      "live ai coding classes for teens",
+      "openai codex classes",
+      "how to learn claude code",
       "vibe coding with ai",
       "openai codex tutorial",
-      "anthropic claude code training",
       "ai coding for students",
       "gpt-5-codex course",
       "claude code cli course",
@@ -27,8 +35,9 @@
     "category": "AI Coding Agents",
     "taxonomy": "ai-ml",
     "price": {
-      "group": "₹1,499/month",
-      "personal": "₹4,999/month"
+      "group": "₹2,499/month",
+      "miniBatch": "₹4,999/month",
+      "personal": "₹9,999/month"
     },
     "duration": "24 classes (12 weeks · 2 classes/week)",
     "level": "Beginner-friendly (ages 13-18) to confident AI-agent builder",
@@ -39,13 +48,14 @@
   "program_overview": {
     "title": "Codex + Claude Code: AI Coding Agents Masterclass for Teens",
     "tagline": "Don't just learn to code, learn to direct the two most powerful AI coding agents on Earth, and build real apps in 24 classes.",
-    "description": "This is the most complete teen-friendly course on the two AI coding agents every developer is talking about in 2026: OpenAI Codex and Anthropic Claude Code. In 24 carefully sequenced, project-based classes you will install both tools, learn to give them instructions safely, and watch them write, fix, and ship real code with you. You start from zero, no coding experience required, and finish by building and deploying a real app end-to-end with both agents helping you. Every class has live commands, worked examples, a hands-on project, practice, and a checkpoint. You learn the current tools as they exist today: Claude Code v2.1.x running on Anthropic's Opus 4.7 model, and the OpenAI Codex CLI running on GPT-5.3-Codex and GPT-5.5.",
+    "description": "This is the most complete teen-friendly course on the two AI coding agents every developer is talking about in 2026: OpenAI Codex and Anthropic Claude Code. In 24 carefully sequenced, project-based classes you will install both tools, learn to give them instructions safely, and watch them write, fix, and ship real code with you. You start from zero, no coding experience required, and finish by building and deploying a real app end-to-end with both agents helping you. Every class is taught live by a mentor in a small batch or 1-on-1, never a pre-recorded video, with live commands, worked examples, a hands-on project, practice, and a checkpoint. You learn the current tools as they exist today: Claude Code v2.1.x running on Anthropic's Opus 4.7 model, and the OpenAI Codex CLI running on GPT-5.3-Codex and GPT-5.5. One important requirement: to run the agents yourself, every student must have an active Claude subscription (Pro or higher) for Claude Code and a ChatGPT subscription (Plus or higher) for Codex. These are purchased directly from Anthropic and OpenAI, are separate from the course fee, and we help you choose the right plans in your free demo class.",
     "what_makes_this_different": [
       "Two agents, one course: most courses teach one tool; you graduate fluent in BOTH Codex and Claude Code and know when to use which.",
       "100% hands-on: you run real commands from Class 2. No watching, all building.",
       "Built for teens: friendly pace, fun projects (a website, a game, a Discord-style bot), and a portfolio you can show schools and colleges.",
       "Living Syllabus: the curriculum is updated continuously as OpenAI Codex and Anthropic Claude Code release new features, models, and capabilities. You always learn the latest.",
       "Safety-first: you learn approval modes, sandboxes, and responsible AI use before you ever let an agent run wild.",
+      "Real tools, not a sandbox: students bring their own Claude and ChatGPT subscriptions, so every command you practice runs on the same production agents professional developers use every day.",
       "Real outcomes: finish with a deployed app, a GitHub profile with real pull requests, and a recognized certificate."
     ],
     "learning_path": [
@@ -492,9 +502,9 @@
     }
   },
   "prerequisites": {
-    "device": "A laptop or desktop (Windows, Mac, or Linux) with internet: that's the main requirement",
+    "device": "A laptop or desktop (Windows, Mac, or Linux) with internet: that's the main hardware requirement",
     "coding_experience": "None needed! We start from absolute zero. If you've done a little Scratch or Python, even better",
-    "accounts": "A free GitHub account, and access to Claude (Pro/Max) and ChatGPT (Plus/Pro) plans for the agents: we guide you through setup",
+    "accounts": "REQUIRED: an active Claude subscription (Pro or higher) for Claude Code and a ChatGPT subscription (Plus or higher) for Codex. These are purchased directly from Anthropic and OpenAI and are not included in the course fee. You also need a free GitHub account. We guide you through every setup step and help you pick the most student-friendly plans",
     "mindset": "Curiosity and willingness to experiment. You'll learn by building, not memorizing"
   },
   "who_is_this_for": {
@@ -571,12 +581,28 @@
   },
   "faqs": [
     {
+      "question": "Do I need a Claude or ChatGPT subscription to take this course?",
+      "answer": "Yes, this is a course requirement. To actually run the agents in class, every student must have an active Claude subscription (Pro or higher) for Claude Code and a ChatGPT subscription (Plus or higher) for Codex. You buy these directly from Anthropic and OpenAI; they are separate from the course fee. We help every family choose the most cost-effective plans during the free demo class, and setup is covered step by step in Classes 2 and 3."
+    },
+    {
+      "question": "How much does the Codex + Claude Code course for teens cost?",
+      "answer": "Three plans are available: group classes at ₹2,499 per month, a mini batch of 3 to 4 students (India only) at ₹4,999 per month, and personalized 1-on-1 classes at ₹9,999 per month. Students outside India pay $100 USD per month for group classes and $150 USD per month for 1-on-1. Billing is monthly and you can stop anytime. Every student starts with a free demo class, and the required Claude and ChatGPT subscriptions are purchased separately."
+    },
+    {
+      "question": "Why is this course priced higher than other coding courses?",
+      "answer": "Because it is a premium program taught on premium tools. Your teen learns BOTH frontier AI coding agents, live, from mentors who use Codex and Claude Code in real work daily, on a Living Syllabus that is updated as OpenAI and Anthropic ship new features. Small live batches, 24 hands-on deliverables, a deployed capstone with a public URL, and doubt support between classes: that depth is what the fee buys. Very few academies teach these tools at all yet, and fewer still teach both."
+    },
+    {
       "question": "Is OpenAI Codex free?",
-      "answer": "The Codex CLI is open-source and free to install. To run it you sign in with a ChatGPT plan (Plus, Pro, Business, Edu, or Enterprise) which includes Codex usage, or you use an OpenAI API key billed per use. In 2026 usage runs on rolling limits that reset every few hours. We help you choose the most student-friendly setup."
+      "answer": "The Codex CLI is open-source and free to install, but running it requires a paid plan: you sign in with a ChatGPT subscription (Plus, Pro, Business, Edu, or Enterprise) which includes Codex usage, or you use an OpenAI API key billed per use. In 2026 usage runs on rolling limits that reset every few hours. For this course a ChatGPT plan (Plus or higher) is required, along with a Claude plan (Pro or higher) for the Claude Code half. We help you choose the most student-friendly setup."
     },
     {
       "question": "Do I need to know how to code before taking this course?",
       "answer": "No. This course is designed for complete beginners aged 13-18. You start from zero in Class 1, and the AI agents help you write and understand code as you go. By the end you'll be shipping real apps."
+    },
+    {
+      "question": "What is the best way to learn Claude Code and Codex?",
+      "answer": "Hands-on, with live guidance. These agents change monthly, so recorded tutorials go stale fast, and reading documentation alone does not build the judgment to review AI-written code safely. The most effective path is structured live classes where you run real commands in every session, build real projects, and have a mentor correct your habits as you go, which is exactly how this 24-class course is built. Modern Age Coders has taught 10,000+ students since 2020 and is rated 4.9 across 547 Google reviews."
     },
     {
       "question": "Codex vs Claude Code: which should a teen learn first?",
@@ -596,25 +622,11 @@
     },
     {
       "question": "What computer and accounts do we need?",
-      "answer": "Any modern Windows, Mac, or Linux computer with internet. You'll need a free GitHub account and access to Claude and ChatGPT plans for the agents. We walk you through every install and login step in Classes 2 and 3."
+      "answer": "Any modern Windows, Mac, or Linux computer with internet. You'll need a free GitHub account, plus the two required subscriptions: Claude (Pro or higher) for Claude Code and ChatGPT (Plus or higher) for Codex, purchased directly from Anthropic and OpenAI. We walk you through every install and login step in Classes 2 and 3."
     },
     {
       "question": "How long is the course and how is it scheduled?",
       "answer": "24 classes, typically two classes a week over about 12 weeks, with 3-4 hours of practice per week recommended. Group, mini-batch, and 1-on-1 options are available."
-    }
-  ],
-  "testimonials": [
-    {
-      "name": "Aarav (16)",
-      "text": "I'd only done a bit of Python before. By Class 5 I was fixing real bugs with both Codex and Claude Code. My capstone, a quiz app, is actually live now and on my GitHub!"
-    },
-    {
-      "name": "Meera (14)",
-      "text": "The plan mode classes changed everything. Instead of the AI making a mess, I learned to make it explain its plan first. My parents were shocked I deployed a real website."
-    },
-    {
-      "name": "Parent of a 15-year-old",
-      "text": "What sold me was the safety class and the 'living syllabus'. The tools keep changing and the course keeps up. My son now talks about MCP and subagents at dinner."
     }
   ],
   "related_courses": [

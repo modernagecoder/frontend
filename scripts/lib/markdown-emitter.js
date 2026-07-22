@@ -339,6 +339,7 @@ function courseToMarkdown(data) {
     if (meta.certification) facts.push(`**Certification:** ${meta.certification}`);
     if (meta.price) {
         if (meta.price.group) facts.push(`**Group classes:** ${meta.price.group}`);
+        if (meta.price.miniBatch) facts.push(`**Mini batch (3-4 students, India only):** ${meta.price.miniBatch}`);
         if (meta.price.personal) facts.push(`**1-on-1:** ${meta.price.personal}`);
         if (meta.price.lifetime) facts.push(`**Lifetime:** ${meta.price.lifetime}`);
     }

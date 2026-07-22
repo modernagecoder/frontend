@@ -2,18 +2,27 @@
   "meta": {
     "slug": "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals",
     "date": "2026-05-27",
+    "dateModified": "2026-07-22",
     "title": "Codex & Claude Code: AI Coding Agents for Professionals",
-    "description": "Master OpenAI Codex and Anthropic Claude Code in 24 classes for professionals: install the CLIs, plan and goal mode, MCP, subagents, hooks and ship real work.",
+    "description": "Live online Codex + Claude Code masterclass for professionals. 24 mentor-led classes: CLIs, MCP, subagents, hooks, both SDKs and a production capstone.",
     "keywords": [
-      "codex for professionals",
+      "claude code course",
       "claude code for developers",
+      "learn claude code",
+      "codex for professionals",
       "ai coding agents course",
+      "claude code training online",
+      "best claude code course",
       "claude agent sdk course",
-      "codex sdk",
+      "anthropic claude code training",
       "agentic coding masterclass",
+      "claude code corporate training",
+      "codex training for developers",
+      "claude code course india",
+      "how to learn claude code",
+      "codex sdk",
       "ai developer productivity course",
       "learn openai codex",
-      "anthropic claude code training",
       "codex cli course",
       "claude code cli",
       "gpt-5-codex",
@@ -27,8 +36,9 @@
     "category": "AI Coding Agents",
     "taxonomy": "ai-ml",
     "price": {
-      "group": "₹1,499/month",
-      "personal": "₹4,999/month"
+      "group": "₹2,499/month",
+      "miniBatch": "₹4,999/month",
+      "personal": "₹9,999/month"
     },
     "duration": "24 classes (12 weeks · 2 classes/week)",
     "level": "Beginner to advanced, for working professionals, career switchers & developers",
@@ -39,13 +49,14 @@
   "program_overview": {
     "title": "Codex + Claude Code: AI Coding Agents Masterclass for Adults & Professionals",
     "tagline": "Stop typing every line. Learn to direct the two most powerful AI coding agents and ship more, faster, safely, in 24 classes.",
-    "description": "This is the definitive professional course on the two agentic coding tools reshaping software work in 2026: OpenAI Codex and Anthropic Claude Code. Across 24 in-depth, lab-driven classes you'll go from first install to automating real engineering workflows: building features, refactoring legacy code, fixing flaky tests, reviewing PRs at scale, and orchestrating parallel agents. Whether you're a developer leveling up, a career switcher entering tech, or a professional who wants to 10x routine work, you'll learn both tools at the depth a job demands. You learn the current stack: Claude Code v2.1.x on Anthropic's Opus 4.7 (with effort levels up to xhigh and 1M-token context), and the OpenAI Codex CLI/Cloud on GPT-5.3-Codex and GPT-5.5. Every class is hands-on with real commands, config, and a deliverable.",
+    "description": "This is the definitive professional course on the two agentic coding tools reshaping software work in 2026: OpenAI Codex and Anthropic Claude Code. Across 24 in-depth, lab-driven classes you'll go from first install to automating real engineering workflows: building features, refactoring legacy code, fixing flaky tests, reviewing PRs at scale, and orchestrating parallel agents. Whether you're a developer leveling up, a career switcher entering tech, or a professional who wants to 10x routine work, you'll learn both tools at the depth a job demands. You learn the current stack: Claude Code v2.1.x on Anthropic's Opus 4.7 (with effort levels up to xhigh and 1M-token context), and the OpenAI Codex CLI/Cloud on GPT-5.3-Codex and GPT-5.5. Every class is live with a mentor in a small batch or 1-on-1, hands-on with real commands, config, and a deliverable. One important requirement: you must have your own active Claude subscription (Pro or higher) for Claude Code and ChatGPT subscription (Plus or higher) for Codex, or equivalent API access through your employer. Subscriptions are purchased directly from Anthropic and OpenAI, are separate from the course fee, and we help you pick the most cost-effective setup in your free demo.",
     "what_makes_this_different": [
       "Two agents, professionally: graduate fluent in BOTH Codex and Claude Code, and able to choose the right one per task and team.",
       "Workplace-grade labs: refactor legacy modules, fix CI, automate releases, review PRs at scale; not toy examples.",
       "Goes all the way to the SDKs: build your own automations and internal tooling with the Claude Agent SDK and Codex SDK.",
       "Living Syllabus: continuously updated as OpenAI Codex and Anthropic Claude Code ship new features, models, and capabilities. You always learn the current product.",
       "Security & governance built in: permission rules, OS sandboxes, secrets handling, and prompt-injection defense for real teams.",
+      "Real production tools, not a sandbox: you train on your own Claude and ChatGPT subscriptions, so every workflow you learn transfers directly to your day job.",
       "Outcome-focused: finish with a production-grade capstone, reusable automations, and a portfolio of AI-assisted engineering work."
     ],
     "learning_path": [
@@ -494,7 +505,7 @@
   "prerequisites": {
     "device": "A laptop/desktop (Windows, Mac, or Linux) with internet and admin rights to install CLIs",
     "coding_experience": "Helpful but not required: beginners and career switchers are welcome; we start from install and ramp quickly",
-    "accounts": "A GitHub account, plus access to Claude (Pro/Max) and ChatGPT (Plus/Pro) plans, or API keys; we cover setup and provider options",
+    "accounts": "REQUIRED: an active Claude subscription (Pro or higher) for Claude Code and a ChatGPT subscription (Plus or higher) for Codex, or equivalent API keys (for example through your employer, Bedrock, or Vertex AI). These are purchased directly from Anthropic and OpenAI and are not included in the course fee. A GitHub account is also required. We cover setup and provider options in the first classes",
     "tools": "Comfort with a terminal develops during the course; basic familiarity with git is a plus"
   },
   "who_is_this_for": {
@@ -578,8 +589,20 @@
   },
   "faqs": [
     {
+      "question": "Do I need a Claude or ChatGPT subscription to take this masterclass?",
+      "answer": "Yes, this is a course requirement. To run the agents in every lab you must have an active Claude subscription (Pro, Max, Team, or Enterprise) for Claude Code and a ChatGPT subscription (Plus, Pro, Business, Edu, or Enterprise) for Codex, or equivalent API keys, for example through your employer or via Bedrock/Vertex AI. Subscriptions are purchased directly from Anthropic and OpenAI and are separate from the course fee. We help you pick the most cost-effective setup in your free demo, and many employers reimburse these tools."
+    },
+    {
+      "question": "How much does the Codex + Claude Code masterclass cost?",
+      "answer": "Three plans are available: group classes at ₹2,499 per month, a mini batch of 3 to 4 students (India only) at ₹4,999 per month, and personalized 1-on-1 mentorship at ₹9,999 per month. Students outside India pay $100 USD per month for group classes and $150 USD per month for 1-on-1. Billing is monthly, cancel anytime, and you start with a free demo class. The required Claude and ChatGPT subscriptions are purchased separately."
+    },
+    {
+      "question": "Why is this masterclass priced above your other courses?",
+      "answer": "Because it is a premium program on premium tools, built for return on investment. You learn BOTH frontier agents to professional depth, including the Claude Agent SDK and Codex SDK, from mentors who use them in production daily, on a Living Syllabus updated as OpenAI and Anthropic ship. An automation like the one you build in Class 22, or a week of reclaimed engineering time, can be worth more than the fee itself. Small live batches and a personally reviewed capstone are part of that price."
+    },
+    {
       "question": "Is OpenAI Codex free, and what about Claude Code?",
-      "answer": "The Codex CLI and SDK are open-source/free to install; running them uses your ChatGPT plan (Plus/Pro/Business/Edu/Enterprise) or an OpenAI API key. Claude Code runs on a Claude subscription (Pro/Max/Team/Enterprise) or an Anthropic API key. Both moved to token/usage-based limits in 2026. We help you pick the most cost-effective setup for learning and for work."
+      "answer": "The Codex CLI and SDK are open-source/free to install; running them uses your ChatGPT plan (Plus/Pro/Business/Edu/Enterprise) or an OpenAI API key. Claude Code runs on a Claude subscription (Pro/Max/Team/Enterprise) or an Anthropic API key. Both moved to token/usage-based limits in 2026. For this masterclass an active plan for each tool is required, and we help you pick the most cost-effective setup for learning and for work."
     },
     {
       "question": "Can I use what I learn at my job right away?",
@@ -608,20 +631,10 @@
     {
       "question": "What's the schedule and format?",
       "answer": "24 classes, typically two per week over ~12 weeks, 4-6 hours/week recommended. Available as group, mini-batch, or 1-on-1, with live mentorship and a capstone review."
-    }
-  ],
-  "testimonials": [
-    {
-      "name": "Rohan, Backend Engineer",
-      "text": "I came in using Copilot autocomplete. I left orchestrating subagents and /batch across a repo, and shipping with Codex Cloud PRs. My throughput at work genuinely doubled."
     },
     {
-      "name": "Priya, Career Switcher",
-      "text": "I'm not from a CS background. The structured ramp plus the safety class gave me the confidence to use Claude Code at my new job in week one. The SDK automation I built is now part of our CI."
-    },
-    {
-      "name": "Daniel, Tech Lead",
-      "text": "The governance and review modules were exactly what my team needed. We standardized AGENTS.md review guidelines and permission policies straight out of the course."
+      "question": "What is the best way to learn Claude Code and Codex as a professional?",
+      "answer": "On real work, with live expert feedback. Both agents ship new features monthly, so recorded courses and blog tutorials age out quickly, and self-study rarely builds the review discipline, security posture, and SDK skills teams actually need. The fastest reliable path is structured live training where every session runs real commands on real repos with a mentor who uses these tools in production, which is exactly how this 24-class masterclass works. Modern Age Coders has taught 10,000+ students since 2020 and is rated 4.9 across 547 Google reviews."
     }
   ],
   "related_courses": [
