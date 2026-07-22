@@ -48,7 +48,7 @@
   "program_overview": {
     "title": "Codex + Claude Code: AI Coding Agents Masterclass for Teens",
     "tagline": "Don't just learn to code, learn to direct the two most powerful AI coding agents on Earth, and build real apps in 24 classes.",
-    "description": "This is the most complete teen-friendly course on the two AI coding agents every developer is talking about in 2026: OpenAI Codex and Anthropic Claude Code. In 24 carefully sequenced, project-based classes you will install both tools, learn to give them instructions safely, and watch them write, fix, and ship real code with you. You start from zero, no coding experience required, and finish by building and deploying a real app end-to-end with both agents helping you. Every class is taught live by a mentor in a small batch or 1-on-1, never a pre-recorded video, with live commands, worked examples, a hands-on project, practice, and a checkpoint. You learn the current tools as they exist today: Claude Code v2.1.x running on Anthropic's Opus 4.7 model, and the OpenAI Codex CLI running on GPT-5.3-Codex and GPT-5.5. One important requirement: to run the agents yourself, every student must have an active Claude subscription (Pro or higher) for Claude Code and a ChatGPT subscription (Plus or higher) for Codex. These are purchased directly from Anthropic and OpenAI, are separate from the course fee, and we help you choose the right plans in your free demo class.",
+    "description": "This is the most complete teen-friendly course on the two AI coding agents every developer is talking about in 2026: OpenAI Codex and Anthropic Claude Code. In 24 carefully sequenced, project-based classes you will install both tools, learn to give them instructions safely, and watch them write, fix, and ship real code with you. You start from zero, no coding experience required, and finish by building and deploying a real app end-to-end with both agents helping you. Every class is taught live by a mentor in a small batch or 1-on-1, never a pre-recorded video, with live commands, worked examples, a hands-on project, practice, and a checkpoint. You learn the current tools as they exist today: Claude Code v2.1.x running on Anthropic's Claude 5 models (Sonnet 5 by default, with Fable 5 and Opus 4.8 selectable), and the OpenAI Codex CLI running on the GPT-5.6 family (Sol, Terra, and Luna). One important requirement: to run the agents yourself, every student must have an active Claude subscription (Pro or higher) for Claude Code and a ChatGPT subscription (Plus or higher) for Codex. These are purchased directly from Anthropic and OpenAI, are separate from the course fee, and we help you choose the right plans in your free demo class.",
     "what_makes_this_different": [
       "Two agents, one course: most courses teach one tool; you graduate fluent in BOTH Codex and Claude Code and know when to use which.",
       "100% hands-on: you run real commands from Class 2. No watching, all building.",
@@ -84,7 +84,7 @@
         "Meet Anthropic Claude Code: an agentic coding tool that runs in the terminal, VS Code/JetBrains, desktop, web, and mobile",
         "How an agent loop works: you give a goal → it plans → it edits/runs → it checks → it reports back",
         "Codex vs Claude Code at a glance: both are excellent; Codex leans into cloud parallel tasks + ChatGPT, Claude Code leans into deep terminal control + subagents",
-        "The 2026 models you'll use: Claude Code on Opus 4.7; Codex on GPT-5.3-Codex and GPT-5.5",
+        "The 2026 models you'll use: Claude Code on the Claude 5 family (Sonnet 5 default, Fable 5 and Opus 4.8 above it); Codex on the GPT-5.6 family (Sol, Terra, Luna)",
         "Why learning to DIRECT an agent is now as important as writing code yourself"
       ],
       "projects": [
@@ -101,7 +101,7 @@
         "Start your first session: open a project folder and type claude",
         "Meet the REPL (the chat prompt): type a request in plain English and press Enter",
         "Type / to see the slash-command menu; try /help and /status",
-        "Understand the model: by default you're on Opus 4.7 (or Sonnet on some plans): see it with /model",
+        "Understand the model: by default you're on Sonnet 5, Anthropic's balanced Claude 5 model with a native 1M-token context: see it with /model",
         "Exit safely and resume later: your session is saved"
       ],
       "projects": [
@@ -117,7 +117,7 @@
         "Install it: npm install -g @openai/codex (needs Node.js 18+). Careful: the plain 'codex' package is something else; always use the @openai/ scope",
         "Sign in two ways: 'Sign in with ChatGPT' (uses your ChatGPT Plus/Pro plan) OR an API key",
         "Start it: type codex to open the interactive TUI; run codex doctor to check everything is healthy",
-        "Pick your model and thinking level with /model (low → medium → high → xhigh); defaults to GPT-5.3-Codex / GPT-5.5 in 2026",
+        "Pick your model and thinking level with /model (low up to ultra); the 2026 lineup is the GPT-5.6 family: Sol for complex work, Terra the all-rounder, Luna for quick tasks",
         "Give your first instruction in plain English and watch Codex plan and edit",
         "Preview the AGENTS.md idea: a file that teaches Codex your project's rules (Class 10)"
       ],
@@ -313,7 +313,7 @@
         "Create your own: a Markdown file in .claude/agents/ with name + description + a system prompt",
         "Give a subagent only the tools it needs (e.g., a 'reviewer' that can only read)",
         "Manage and generate agents with /agents",
-        "Why subagents keep the main chat clean and focused",
+        "Why subagents keep the main chat clean and focused (since mid-2026 they run in the background by default, so you keep working while they finish)",
         "Example: a 'test-writer' subagent that writes tests while you keep building"
       ],
       "projects": [
@@ -342,11 +342,11 @@
     "week_16": {
       "title": "Class 16: Models & Reasoning Effort",
       "topics": [
-        "Claude Code models: Opus 4.7 (most capable), Sonnet (balanced), Haiku (fast/cheap); switch with /model",
+        "Claude Code models: Fable 5 (most capable, the new Claude 5 flagship tier), Opus 4.8, Sonnet 5 (the default), Haiku 4.5 (fast/cheap); switch with /model",
         "Reasoning effort levels: low, medium, high, xhigh: more effort = deeper thinking (set with /effort)",
         "The 'ultrathink' trick: add it to a prompt for a one-off deeper think",
-        "Codex models: GPT-5.3-Codex and GPT-5.5; pick model + thinking level with /model",
-        "Big context: Opus 4.7 supports up to 1M tokens, great for large projects",
+        "Codex models: GPT-5.6 Sol, Terra, and Luna; pick model + reasoning level with /model (low up to ultra)",
+        "Big context: Sonnet 5 has a native 1M-token window, great for large projects",
         "Choosing wisely: fast model for simple edits, top model + high effort for hard problems",
         "Cost & limits awareness for learners on student-friendly plans"
       ],
@@ -365,7 +365,7 @@
         "Ask the agent to recreate a UI from a picture of a design",
         "Debugging from a screenshot of an error message",
         "Combining text + image: 'make my page look like THIS image'",
-        "Limits: current models read images, not audio/video"
+        "Limits: both agents read images; Codex added audio input in 2026; video is still not supported"
       ],
       "projects": [
         "Give the agent a screenshot of a website you like and have it build a similar layout"
@@ -557,7 +557,7 @@
       "Terminal Skills: installing CLIs, running sessions, slash commands, reading command output with confidence",
       "Version Control: git commits, branches, worktrees, pull requests on GitHub",
       "Reviewing AI Code: reading diffs, spotting over-broad changes, acting on AI code review feedback",
-      "Models and Effort: choosing between Opus 4.7, GPT-5.3-Codex, and GPT-5.5, and picking the right effort level",
+      "Models and Effort: choosing between Fable 5, Opus 4.8, Sonnet 5, Haiku 4.5 and the GPT-5.6 family (Sol, Terra, Luna), and picking the right effort level",
       "Shipping Projects: building, testing, deploying, and presenting a real app with a public URL"
     ],
     "support_provided": {
@@ -568,9 +568,9 @@
       "living_syllabus": "Curriculum updated as OpenAI Codex and Claude Code ship new features, at no extra cost"
     },
     "claude_code_docs": "Official Claude Code documentation: https://code.claude.com/docs",
-    "codex_docs": "Official OpenAI Codex documentation: https://developers.openai.com/codex",
+    "codex_docs": "Official OpenAI Codex documentation (moved to its new home in 2026): https://learn.chatgpt.com/docs",
     "claude_code_changelog": "Claude Code changelog (track new features): https://code.claude.com/docs/en/changelog",
-    "codex_changelog": "Codex changelog (track new features): https://developers.openai.com/codex/changelog",
+    "codex_changelog": "Codex changelog (track new features): https://learn.chatgpt.com/docs/changelog",
     "mcp_intro": "Model Context Protocol overview to understand tool connections",
     "github_skills": "GitHub's free 'Hello World' and pull-request basics for absolute beginners"
   },
@@ -610,7 +610,7 @@
     },
     {
       "question": "Will this course go out of date as the tools change?",
-      "answer": "No, this is our Living Syllabus promise. OpenAI Codex and Anthropic Claude Code ship new features and models constantly (for example, Claude Code on Opus 4.7 and Codex on GPT-5.3-Codex/GPT-5.5 in 2026). We continuously update the curriculum so enrolled students always learn the latest features, at no extra cost."
+      "answer": "No, this is our Living Syllabus promise. OpenAI Codex and Anthropic Claude Code ship new features and models constantly: mid-2026 alone brought Sonnet 5 as Claude Code's new default model with a native 1M-token context, and Codex's move to the GPT-5.6 family (Sol, Terra, Luna). We continuously update the curriculum so enrolled students always learn the latest features, at no extra cost."
     },
     {
       "question": "What can my teen build by the end of the course?",

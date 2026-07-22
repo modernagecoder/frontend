@@ -49,7 +49,7 @@
   "program_overview": {
     "title": "Codex + Claude Code: AI Coding Agents Masterclass for Adults & Professionals",
     "tagline": "Stop typing every line. Learn to direct the two most powerful AI coding agents and ship more, faster, safely, in 24 classes.",
-    "description": "This is the definitive professional course on the two agentic coding tools reshaping software work in 2026: OpenAI Codex and Anthropic Claude Code. Across 24 in-depth, lab-driven classes you'll go from first install to automating real engineering workflows: building features, refactoring legacy code, fixing flaky tests, reviewing PRs at scale, and orchestrating parallel agents. Whether you're a developer leveling up, a career switcher entering tech, or a professional who wants to 10x routine work, you'll learn both tools at the depth a job demands. You learn the current stack: Claude Code v2.1.x on Anthropic's Opus 4.7 (with effort levels up to xhigh and 1M-token context), and the OpenAI Codex CLI/Cloud on GPT-5.3-Codex and GPT-5.5. Every class is live with a mentor in a small batch or 1-on-1, hands-on with real commands, config, and a deliverable. One important requirement: you must have your own active Claude subscription (Pro or higher) for Claude Code and ChatGPT subscription (Plus or higher) for Codex, or equivalent API access through your employer. Subscriptions are purchased directly from Anthropic and OpenAI, are separate from the course fee, and we help you pick the most cost-effective setup in your free demo.",
+    "description": "This is the definitive professional course on the two agentic coding tools reshaping software work in 2026: OpenAI Codex and Anthropic Claude Code. Across 24 in-depth, lab-driven classes you'll go from first install to automating real engineering workflows: building features, refactoring legacy code, fixing flaky tests, reviewing PRs at scale, and orchestrating parallel agents. Whether you're a developer leveling up, a career switcher entering tech, or a professional who wants to 10x routine work, you'll learn both tools at the depth a job demands. You learn the current stack: Claude Code v2.1.x on Anthropic's Claude 5 family (Sonnet 5 default with native 1M-token context; Fable 5 and Opus 4.8 for the hardest work), and the OpenAI Codex CLI/Cloud on the GPT-5.6 family (Sol, Terra, Luna) with reasoning levels up to ultra. Every class is live with a mentor in a small batch or 1-on-1, hands-on with real commands, config, and a deliverable. One important requirement: you must have your own active Claude subscription (Pro or higher) for Claude Code and ChatGPT subscription (Plus or higher) for Codex, or equivalent API access through your employer. Subscriptions are purchased directly from Anthropic and OpenAI, are separate from the course fee, and we help you pick the most cost-effective setup in your free demo.",
     "what_makes_this_different": [
       "Two agents, professionally: graduate fluent in BOTH Codex and Claude Code, and able to choose the right one per task and team.",
       "Workplace-grade labs: refactor legacy modules, fix CI, automate releases, review PRs at scale; not toy examples.",
@@ -84,7 +84,7 @@
         "OpenAI Codex as a product family: the CLI, Codex Cloud, the IDE extension, the ChatGPT/desktop/mobile apps, and the Codex SDK",
         "Anthropic Claude Code surfaces: terminal, VS Code/JetBrains, desktop, web (claude.ai/code), mobile, Slack, and CI",
         "Where each excels: Codex for cloud parallelism + GitHub-native review + ChatGPT ecosystem; Claude Code for deep terminal control, subagents, hooks, and skills",
-        "The 2026 model backends: Claude Code on Opus 4.7; Codex on GPT-5.3-Codex and GPT-5.5",
+        "The 2026 model backends: Claude Code on the Claude 5 family (Sonnet 5 default, Fable 5 and Opus 4.8 above it); Codex on the GPT-5.6 family (Sol, Terra, Luna)",
         "How agentic tools change team workflows: review-centric, smaller PRs, faster iteration",
         "Building a mental model for evaluating any new agentic tool"
       ],
@@ -102,7 +102,7 @@
         "Enterprise providers: Amazon Bedrock, Google Vertex AI, Azure AI Foundry via env flags (CLAUDE_CODE_USE_BEDROCK, etc.)",
         "First session and the REPL; the slash-command menu; /status, /usage",
         "Settings hierarchy: ~/.claude/settings.json (user), .claude/settings.json (project), .claude/settings.local.json (gitignored)",
-        "Choosing your model with /model (defaults to Opus 4.7 on Max/Team Premium, Sonnet on others)",
+        "Choosing your model with /model (Sonnet 5 is the current default; Fable 5, Opus 4.8 and Haiku 4.5 are selectable)",
         "IDE integration: install the VS Code/JetBrains extension and open Claude Code in your editor"
       ],
       "projects": [
@@ -119,7 +119,7 @@
         "Health check: codex doctor verifies runtime, auth, terminal, and network",
         "The interactive TUI: model, service tier, token usage, and approval mode shown inline",
         "Config file: ~/.codex/config.toml; switch settings per project with profiles (codex --profile <name>)",
-        "Model & reasoning selection with /model (low → xhigh); 2026 defaults GPT-5.3-Codex / GPT-5.5",
+        "Model & reasoning selection with /model (low up to ultra); the 2026 lineup is GPT-5.6 Sol (complex work), Terra (all-rounder), Luna (fast, repeatable tasks)",
         "Windows options: native (PowerShell + Windows Sandbox) or WSL2"
       ],
       "projects": [
@@ -315,7 +315,7 @@
         "Least-privilege agents: a reviewer that can only read; a test-writer scoped to tests",
         "Manage and generate with /agents; subagent memory for cross-session learning",
         "Dispatching parallel subagents for independent subtasks",
-        "Why subagents protect the main context and improve reliability"
+        "Why subagents protect the main context and improve reliability (since mid-2026 they run in the background by default, so the main session keeps working)"
       ],
       "projects": [
         "Create code-reviewer and test-writer subagents and use them on a real change"
@@ -343,10 +343,10 @@
     "week_16": {
       "title": "Class 16: Models, Reasoning Effort & Context",
       "topics": [
-        "Claude Code models: Opus 4.7 (flagship), Sonnet (balanced), Haiku (fast/cheap); /model, aliases, opusplan",
+        "Claude Code models: Fable 5 (the new Claude 5 flagship tier), Opus 4.8, Sonnet 5 (the default), Haiku 4.5 (fast/cheap); /model and aliases",
         "Effort levels low/medium/high/xhigh (set via /effort, --effort) and the ultrathink keyword",
-        "1M-token context with Opus 4.7 for large codebases (opus[1m])",
-        "Codex models: GPT-5.3-Codex and GPT-5.5; reasoning levels low→xhigh; long-task compaction across context windows",
+        "Native 1M-token context on Sonnet 5 for large codebases",
+        "Codex models: GPT-5.6 Sol, Terra, and Luna; reasoning levels low up to ultra (ultra auto-delegates to subagents); long-task compaction across context windows",
         "Cost/performance trade-offs: cheap+fast for routine edits, top model+high effort for hard design",
         "Subagent model overrides for cost control at scale",
         "Measuring whether more effort actually improved the result"
@@ -366,7 +366,7 @@
         "UI-from-image: have the agent implement a layout from a design screenshot",
         "Debugging from a screenshot of an error or broken render",
         "Mixing text + image instructions for precise outcomes",
-        "Current limits: image input supported; no audio/video"
+        "Current limits: image input in both agents; Codex added audio inputs and tool outputs in 2026; video is still not supported"
       ],
       "projects": [
         "Recreate a real UI from a design screenshot and reconcile it against the spec"
@@ -561,7 +561,7 @@
       "AI Coding Agents: Codex CLI, Claude Code, agent workflows, plan and goal mode, context management",
       "Prompting for Code: precise goal statements, spec-first planning, iterative refinement, debugging prompts",
       "Extending Agents: MCP servers, skills and custom commands, subagents, hooks, Codex profiles",
-      "Model Strategy: Opus 4.7, GPT-5.3-Codex, GPT-5.5, effort levels, cost and quality trade-offs",
+      "Model Strategy: Fable 5, Opus 4.8, Sonnet 5, Haiku 4.5, GPT-5.6 Sol/Terra/Luna, effort levels, cost and quality trade-offs",
       "Version Control: git branches, worktrees, clean commit history, PR-based workflows",
       "Reviewing AI Output: reading multi-file diffs, scoping changes, AI code review in GitHub and CI",
       "Automation with SDKs: Claude Agent SDK, Codex SDK, headless runs, structured output, CI integrations",
@@ -575,11 +575,11 @@
       "living_syllabus": "Curriculum updated as OpenAI and Anthropic ship new features, at no extra cost"
     },
     "claude_code_docs": "Official Claude Code documentation: https://code.claude.com/docs",
-    "codex_docs": "Official OpenAI Codex documentation: https://developers.openai.com/codex",
+    "codex_docs": "Official OpenAI Codex documentation (moved to its new home in 2026): https://learn.chatgpt.com/docs",
     "claude_agent_sdk": "Claude Agent SDK overview: https://code.claude.com/docs/en/agent-sdk/overview",
-    "codex_sdk": "Codex SDK documentation: https://developers.openai.com/codex/sdk",
+    "codex_sdk": "Codex SDK documentation: https://learn.chatgpt.com/docs/codex-sdk",
     "claude_code_changelog": "Claude Code changelog: https://code.claude.com/docs/en/changelog",
-    "codex_changelog": "Codex changelog: https://developers.openai.com/codex/changelog",
+    "codex_changelog": "Codex changelog: https://learn.chatgpt.com/docs/changelog",
     "mcp_spec": "Model Context Protocol documentation for building/connecting servers"
   },
   "why_this_course": {
@@ -618,7 +618,7 @@
     },
     {
       "question": "Will the content stay current as the tools change so fast?",
-      "answer": "That's our Living Syllabus promise. Codex and Claude Code ship features and models constantly (e.g., Claude Code on Opus 4.7 with up to xhigh effort and 1M context; Codex on GPT-5.3-Codex/GPT-5.5 in 2026). We update the curriculum continuously so you always learn the current product, at no extra cost."
+      "answer": "That's our Living Syllabus promise. Codex and Claude Code ship features and models constantly: mid-2026 alone brought Sonnet 5 as Claude Code's default with native 1M-token context, the Claude 5 flagship tier (Fable 5), and Codex's move to the GPT-5.6 family with reasoning up to ultra. We update the curriculum continuously so you always learn the current product, at no extra cost."
     },
     {
       "question": "I'm a career switcher with limited coding experience: is this for me?",
