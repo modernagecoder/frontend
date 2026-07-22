@@ -12,7 +12,17 @@ Honest comparison · last reviewed June 2026
 
 The short version: Modern Age Coders is the only one of these four that teaches **coding and maths together**, in **small live batches of 4 to 8 students**, with **real projects from day one**, for **ages 6 to 67**. This page lays out a fair, side-by-side comparison so you can decide what fits your family.
 
-[Book a free demo](/book-demo)See the full comparison6–67Ages we teach4–8Students per batchLiveNot pre-recordedFreeTrial classIn one paragraph
+[Book a free demo](/book-demo)See the full comparison6–67Ages we teach4–8Students per batchLiveNot pre-recordedFreeTrial class
+
+Modern Age Coders vs WhiteHat Jr, Cuemath and Codingal: WhiteHat Jr and Codingal focus on coding and Cuemath on maths, while Modern Age Coders teaches coding and maths together for ages 6 to 67, in small live batches with real projects from the first class.
+
+Rated 4.9 across 547 Google reviews
+
+> “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
+
+*Shivam Khemka, Founder of Modern Age Coders*
+
+In one paragraph
 
 How is Modern Age Coders different? **We teach coding and maths together as one programme**, in live, interactive small batches of four to eight students rather than pre-recorded video, and learners build real projects from their very first class. We serve a wide age range of 6 to 67, offer a free trial, keep recordings for revision, and run mentor-led Group, Mini-Batch and one-on-one options. WhiteHat Jr, Cuemath and Codingal are each strong in their own lane — coding for kids, maths, and coding-with-competitions respectively — but the combination of coding-plus-maths in small live groups is our distinct wedge.
 

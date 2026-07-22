@@ -104,7 +104,7 @@ These are the most popular Modern Age Coders programmes for the ages 6 to 18 ban
 
 ## Want the personalised 90-day plan, written for your child specifically?
 
-We will send a single page document by WhatsApp. Not a sales pitch. The actual plan: which language, which hour, which project, which checkpoint. Free, written by a human at Modern Age Coders, usually within 24 hours of you submitting this form.
+We will send a single page document by WhatsApp. Not a sales pitch. The actual plan: which language, which hour, which project, which checkpoint. Free, written by a human at Modern Age Coders, usually within 48 hours of you submitting this form.
 
 ## The questions parents actually ask us before booking.
 

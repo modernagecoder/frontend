@@ -18,6 +18,10 @@ Book a Free Java Demo ClassSee the Curriculum**4.9/5**Learner rating**5–8**Stu
 
 **Modern Age Coders runs India's top-rated live online Java classes for teens, ICSE/ISC students and adults.** The curriculum moves from Core Java (syntax, logic, methods) through Object-Oriented Programming, Data Structures & Algorithms, and into real projects you build yourself. Classes are live and interactive in small batches of 5–8 students, the syllabus is aligned to the ICSE/ISC board (where Java is the official language), and group plans start at ₹1,499/month. Every learner gets a free demo class first.
 
+> “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
+
+*Shivam Khemka, Founder of Modern Age Coders*
+
 Start Today
 
 ## Book Your Free Java Demo Class
@@ -257,6 +261,14 @@ No. Our [beginner Java track](/java-for-beginners) starts from absolute basics �
 Will learning Java help with coding interviews and placements?+
 
 Yes. Java is one of the most common languages for Data Structures & Algorithms and technical interviews. Our [Java DSA course](/java-dsa-course) pairs Java with problem-solving patterns and mock interviews to prepare college students and professionals for placements.
+
+Should I choose group Java classes or 1-on-1?+
+
+Both are live and taught by an expert mentor. Group Java classes in small batches of 5 to 8 are the most affordable and add peer learning, a mini batch of 3 to 4 gives near one-to-one attention, and 1-on-1 gives a fully personalised pace. Start with a free demo, and you can change your plan later.
+
+Do you offer a refund if the Java course is not the right fit?+
+
+Yes. Every learner starts with a free demo class before paying, and you can request a refund within 7 days of your first purchase. Sessions already taken and heavily used courses are not refundable, and the full terms are on our Refund Policy page.
 
 ---
 

@@ -12,7 +12,11 @@ Live online · serving Ahmedabad
 
 Real programming for kids, teens and college students in Ahmedabad — from **SG Highway to Satellite, Prahlad Nagar to Vastrapur**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Ahmedabad)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**AhmedabadEnrollingAreasSG Highway, Satellite, Prahlad Nagar, Vastrapur, Bopal & all of AhmedabadBoardsGujarat GSEB · CBSE · ICSE · IGCSEAges**8–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across AhmedabadFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Ahmedabad)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**AhmedabadEnrollingAreasSG Highway, Satellite, Prahlad Nagar, Vastrapur, Bopal & all of AhmedabadBoardsGujarat GSEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across AhmedabadFREE DEMO OPEN
+
+> “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
+
+*Shivam Khemka, Founder of Modern Age Coders*
 
 ## Where in Ahmedabad we teach
 
@@ -296,7 +300,7 @@ Tell us a little about your child and what they'd like to learn. We'll set up a 
 
 - A real live class — not a sales call
 - Meet the mentor before you decide
-- We reply within 24 hours (IST)
+- We reply within 48 hours (IST)
 
 Prefer to talk now? Call [9123366161](tel:+919123366161) or [WhatsApp us](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Ahmedabad).
 

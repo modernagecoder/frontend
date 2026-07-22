@@ -14,6 +14,10 @@ Real programming for kids, teens and college students across Pune — from **Hin
 
 Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Pune)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**PUNE — MAHARASHTRAEnrollingAreasHinjewadi, Wakad, Baner, Kothrud, Viman Nagar & all of Pune + PCMCBoardsMaharashtra SSC/HSC · CBSE · ICSE · IGCSEAges**8–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across PuneFREE DEMO OPEN
 
+> “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
+
+*Shivam Khemka, Founder of Modern Age Coders*
+
 ## Where in Pune we teach
 
 Every class is live online, so your child learns from home — no travel across Pune traffic, same small batch either way.
@@ -291,7 +295,7 @@ Tell us a little about your child and what they'd like to learn. We'll set up a 
 
 - A real live class — not a sales call
 - Meet the mentor before you decide
-- We reply within 24 hours (IST)
+- We reply within 48 hours (IST)
 
 Prefer to talk now? Call [9123366161](tel:+919123366161) or [WhatsApp us](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Pune).
 

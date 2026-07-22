@@ -12,7 +12,17 @@ Honest comparison · prices verified July 2026
 
 The short version: both are live online maths programmes with Indian roots and global students. The difference shows in the classroom: our mentors teach **one full hour of deep, application-first maths**, interactive classes students wait for all week, and can carry the same student into **coding** in the same school. Cuemath's published US price is $200 to $256 a month for 1-on-1; ours is **$150 for 1-on-1**, $100 in a small group.
 
-[Book a free demo](/book-demo)See the full comparison1 hrDeep, live, every class8Classes a month4.9Across 547 Google reviews+ CodeCoding in the same schoolIn one paragraph
+[Book a free demo](/book-demo)See the full comparison1 hrDeep, live, every class8Classes a month4.9Across 547 Google reviews+ CodeCoding in the same school
+
+Modern Age Coders and Cuemath both teach live, but they focus differently: Cuemath specialises in maths, while Modern Age Coders teaches coding and maths together for ages 6 to 67, in small live batches with real projects from the first class.
+
+Rated 4.9 across 547 Google reviews
+
+> “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
+
+*Shivam Khemka, Founder of Modern Age Coders*
+
+In one paragraph
 
 Which should you choose? These two are closer cousins than most pairs on our comparison pages: both teach maths live online with structured curricula. **Pick Cuemath if you want a large, maths-only specialist** with its own learning platform and a long US track record. **Pick Modern Age Coders if you want the same live 1-on-1 format for $50 to $100 less a month**, a cheaper small-group option, and the ability to add coding without hiring a second provider. The free demo class makes the comparison concrete in an hour.
 

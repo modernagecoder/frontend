@@ -124,7 +124,7 @@ Directly mapped to CBSE Computer Science (Code 083) for BHS Classes 11–12 and 
 - ✓ Machine learning with scikit-learn
 - ✓ CBSE CS past paper walkthroughs
 
-[View Course Details →](/courses/python-programming-masterclass)![CBSE CS Practical Bootcamp Python SQL for BHS Class 12 Kolkata](/images/ip-cs-class-11-12.webp)Exam Urgent · Class 12
+[View Course Details →](/courses/python-programming-masterclass)![CBSE CS Practical Bootcamp Python SQL for BHS Class 12 Kolkata](/images/python-teens.webp)Exam Urgent · Class 12
 
 ### CBSE CS Practical Bootcamp
 
@@ -135,7 +135,7 @@ The most in-demand course among BHS Class 12 CS students. We cover every single 
 - ✓ CSV read/write & data processing
 - ✓ Python-MySQL connectivity project
 
-[View Course Details →](/courses/teens-ai-web-development-course)![Competitive Programming ZCO INOI for BHS students Kolkata](/images/competitive-programming-teens.webp)Elite Track · Classes 7–12
+[View Course Details →](/courses/teens-ai-web-development-course)![Competitive Programming ZCO INOI for BHS students Kolkata](/images/problem-solving-teens.webp)Elite Track · Classes 7–12
 
 ### Competitive Programming — ZCO / INOI
 

@@ -124,7 +124,7 @@ Mapped precisely to CBSE Computer Applications (Class 9–10) for SBGS students.
 - ✓ AI/ML mini-projects & data analysis
 - ✓ CBSE practical exam prep
 
-[View Course Details →](/courses/python-programming-masterclass)![Girls in Tech AI Web Dev programme SBGS Kolkata women in technology](/images/queen-coders.webp)SBGS Signature · Classes 8–11
+[View Course Details →](/courses/python-programming-masterclass)![Girls in Tech AI Web Dev programme SBGS Kolkata women in technology](/images/python-teens.webp)SBGS Signature · Classes 8–11
 
 ### Girls in Tech — AI, Web Dev & Portfolio
 
@@ -135,7 +135,7 @@ Our signature programme for SBGS girls — the one that doesn't just teach codin
 - ✓ Data storytelling with real datasets
 - ✓ Portfolio for IIT/global university applications
 
-[View Course Details →](/coding-classes-for-girls)![Competitive Programming ZCO INOI SBGS girls Kolkata Maths Olympiad](/images/competitive-programming-teens.webp)Elite Track · Classes 7–11
+[View Course Details →](/coding-classes-for-girls)![Competitive Programming ZCO INOI SBGS girls Kolkata Maths Olympiad](/images/problem-solving-teens.webp)Elite Track · Classes 7–11
 
 ### Competitive Programming — ZCO & INOI
 

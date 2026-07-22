@@ -123,13 +123,13 @@ Courses on this track
 
 The masterclass sits inside a wider data and AI track. These are the four courses students most often pair with it. Open any one to see the full outline, or browse the whole catalogue in the [course atlas](/course-atlas).
 
-![Python Masterclass — Zero to Advanced course thumbnail](/images/python-college.png)
+![Python Masterclass — Zero to Advanced course thumbnail](/images/python-college.webp)
 
 ### Python Masterclass — Zero to Advanced
 
 The full Python language from first principles to advanced features, the depth Stage 1 is built on.
 
-[View course →](/courses/python-programming-masterclass-zero-to-advanced-college)![Data Science Masterclass course thumbnail](/images/data-science-college.png)
+[View course →](/courses/python-programming-masterclass-zero-to-advanced-college)![Data Science Masterclass course thumbnail](/images/data-science-college.webp)
 
 ### Data Science Masterclass
 
@@ -141,7 +141,7 @@ NumPy, Pandas and Matplotlib applied end to end across real analysis projects an
 
 Machine learning built on the data skills here — models, evaluation and the maths that makes them work.
 
-[View course →](/courses/ai-ml-masterclass-complete-college)![Generative AI Masterclass course thumbnail](/images/generative-ai-college.png)
+[View course →](/courses/ai-ml-masterclass-complete-college)![Generative AI Masterclass course thumbnail](/images/generative-ai-college.webp)
 
 ### Generative AI Masterclass
 

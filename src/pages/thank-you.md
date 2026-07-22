@@ -1,10 +1,10 @@
 ---
 title: "Request Received | What Happens Next | Modern Age Coders"
-description: "Your request reached our team. We contact you within 24 hours, schedule your free demo class, and you decide only after attending. No card details needed."
+description: "Your request reached our team. We contact you within 48 hours, schedule your free demo class, and you decide only after attending. No card details needed."
 canonical: https://learn.modernagecoders.com/thank-you
 source: src/pages/thank-you.html
 ---
-> Your request reached our team. We contact you within 24 hours, schedule your free demo class, and you decide only after attending. No card details needed.
+> Your request reached our team. We contact you within 48 hours, schedule your free demo class, and you decide only after attending. No card details needed.
 
 Request received
 

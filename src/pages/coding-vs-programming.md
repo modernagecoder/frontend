@@ -12,7 +12,17 @@ FIG. 00 — A DEFINITION
 
 Anyone can learn to type code. Far fewer learn to design a solution, reason about trade-offs, debug with method, and build systems that hold up. Modern Age Coders is built to close that gap. We develop genuine programming ability and the way you think, in live small-batch classes for ages 10 to 65.
 
-[Book a free demo](/book-demo)See the full diagram10,000+Students taught15+Countries70+Live courses4.9/5From 247+ reviewsFIG. 01 — THE SPLIT
+[Book a free demo](/book-demo)See the full diagram10,000+Students taught15+Countries70+Live courses4.9/5From 247+ reviews
+
+Coding and programming overlap but differ in scope: coding is writing the instructions a computer follows, while programming is the wider craft of designing, building and maintaining complete software, including logic, testing and structure. Modern Age Coders teaches both, from first code to real projects, for ages 6 to 67.
+
+Rated 4.9 across 547 Google reviews
+
+> “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
+
+*Shivam Khemka, Founder of Modern Age Coders*
+
+FIG. 01 — THE SPLIT
 
 ## The coder and the programmer, drawn to scale.
 
@@ -106,7 +116,7 @@ FIG. 04 — THE PATHWAYS
 
 Each of these is a live, small-batch course built around thinking, not memorisation. Pick by where you are and where you want to go. You can browse the complete catalogue in the [course atlas](/course-atlas).
 
-SPEC-A1![Python Masterclass course thumbnail](/images/python-college.png)
+SPEC-A1![Python Masterclass course thumbnail](/images/python-college.webp)
 
 ### Python Masterclass — Zero to Advanced
 
@@ -118,19 +128,19 @@ Go from syntax to real fluency: data structures, internals, and the design habit
 
 The core of real programming ability: choose the right structure, reason about cost, and solve problems you have never seen.
 
-[View course →](/courses/data-structures-algorithms-masterclass-college)SPEC-A3![C++ Programming course thumbnail](/images/cpp-college.png)
+[View course →](/courses/data-structures-algorithms-masterclass-college)SPEC-A3![C++ Programming course thumbnail](/images/cpp-college.webp)
 
 ### C++ Programming
 
 Get close to the machine: memory, pointers, and performance, so you understand what every higher-level language hides.
 
-[View course →](/courses/cpp-programming-complete-masterclass-college)SPEC-A4![Problem Solving and DSA for teens course thumbnail](/images/problem-solving-teens.png)
+[View course →](/courses/cpp-programming-complete-masterclass-college)SPEC-A4![Problem Solving and DSA for teens course thumbnail](/images/problem-solving-teens.webp)
 
 ### Problem Solving & DSA (Teens)
 
 Built for younger learners who want depth: structured thinking, logic, and algorithms taught at a teenager's pace, without dumbing down.
 
-[View course →](/courses/problem-solving-dsa-masterclass-teens)SPEC-A5![Java Programming course thumbnail](/images/java-college.png)
+[View course →](/courses/problem-solving-dsa-masterclass-teens)SPEC-A5![Java Programming course thumbnail](/images/java-college.webp)
 
 ### Java Programming
 

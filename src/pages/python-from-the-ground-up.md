@@ -118,19 +118,19 @@ Faster, denser, the same depth. Older students and adults cover the entire groun
 
 Stage 1 is delivered through these live courses, matched to your age and goals. See each one, then decide.
 
-![Python for Kids course thumbnail](/images/python-kids.png)
+![Python for Kids course thumbnail](/images/python-kids.webp)
 
 ### Python for Kids
 
 Real Python for younger learners — fundamentals taught gently and visually, ending in a friendly first brush with AI.
 
-[View course >](/courses/python-ai-kids-masterclass)![Python Programming for teens course thumbnail](/images/python-teens.png)
+[View course >](/courses/python-ai-kids-masterclass)![Python Programming for teens course thumbnail](/images/python-teens.webp)
 
 ### Python Programming (Teens)
 
 The full Stage 1 climb for teenagers — roots, the standard library and a hands-on taste of AI, built project by project.
 
-[View course >](/courses/python-complete-masterclass-teens)![Python Masterclass Zero to Advanced course thumbnail](/images/python-college.png)
+[View course >](/courses/python-complete-masterclass-teens)![Python Masterclass Zero to Advanced course thumbnail](/images/python-college.webp)
 
 ### Python Masterclass — Zero to Advanced
 

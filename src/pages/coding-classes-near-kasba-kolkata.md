@@ -53,7 +53,7 @@ Course catalogue
 | Course | Who it is for | What you build / learn |
 | --- | --- | --- |
 | [Python & AI for Kids & Teens](/python-and-ai-classes-for-kids-teens) | Ages 8–17 starting their first real language | Live project-based Python plus AI fundamentals — our most in-demand track |
-| [Python for Beginners (Kids)](/python-for-beginners-kids) | Young kids 8–12, brand new to text coding | Gentle first Python, building games and scripts from scratch |
+| [Python for Beginners (Kids)](/python-for-beginners-kids) | Young kids 6–12, brand new to text coding | Gentle first Python, building games and scripts from scratch |
 | [Python Projects for Kids](/python-projects-for-kids) | Kids who know basics and want a portfolio | Hands-on Python projects to show family and friends |
 | [Java Programming for Kids & Teens](/java-programming-for-kids-teens) | Teens 13–18, especially ICSE Computer Applications | Java in BlueJ aligned to ICSE Class 9–10 plus real programming maturity |
 | [Java Programming for ICSE Students](/java-programming-for-icse-students) | ICSE Class 9–10 board students | BlueJ Java built around every practical in the Class 10 paper |

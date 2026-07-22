@@ -144,7 +144,7 @@ Specimen 04 — Course catalogue
 
 Every track below is built depth-first: you learn how the thing works, then you build it. Each is live, small-batch and mentor-led. Open the full set on the [course atlas](/course-atlas).
 
-Python![Python Masterclass course thumbnail](/images/python-college.png)
+Python![Python Masterclass course thumbnail](/images/python-college.webp)
 
 ### Python Masterclass — Zero to Advanced
 
@@ -162,19 +162,19 @@ Build models you understand. We teach the maths that makes a model learn, line b
 
 Learn why a structure is fast, not just how to use it. Cost and trade-offs, from the ground up.
 
-[View course →](/courses/data-structures-algorithms-masterclass-college)C++![C++ Programming course thumbnail](/images/cpp-college.png)
+[View course →](/courses/data-structures-algorithms-masterclass-college)C++![C++ Programming course thumbnail](/images/cpp-college.webp)
 
 ### C++ Programming
 
 The language that makes memory visible. See exactly where your data lives and what it costs.
 
-[View course →](/courses/cpp-programming-complete-masterclass-college)Data Science![Data Science Masterclass course thumbnail](/images/data-science-college.png)
+[View course →](/courses/cpp-programming-complete-masterclass-college)Data Science![Data Science Masterclass course thumbnail](/images/data-science-college.webp)
 
 ### Data Science Masterclass
 
 From raw numbers to real conclusions — and the statistics that tell you when to trust them.
 
-[View course →](/courses/data-science-complete-masterclass-college)Generative AI![Generative AI Masterclass course thumbnail](/images/generative-ai-college.png)
+[View course →](/courses/data-science-complete-masterclass-college)Generative AI![Generative AI Masterclass course thumbnail](/images/generative-ai-college.webp)
 
 ### Generative AI Masterclass
 

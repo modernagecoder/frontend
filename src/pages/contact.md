@@ -1,14 +1,14 @@
 ---
 title: "Contact Us - Modern Age Coders | Get in Touch"
-description: "Have questions about coding or math courses? Want a free demo class? Contact Modern Age Coders. We respond within 24 hours. Call, email, or fill out the form."
+description: "Have questions about coding or math courses? Want a free demo class? Contact Modern Age Coders. We respond within 48 hours. Call, email, or fill out the form."
 canonical: https://learn.modernagecoders.com/contact
 source: src/pages/contact.html
 ---
-> Have questions about coding or math courses? Want a free demo class? Contact Modern Age Coders. We respond within 24 hours. Call, email, or fill out the form.
+> Have questions about coding or math courses? Want a free demo class? Contact Modern Age Coders. We respond within 48 hours. Call, email, or fill out the form.
 
 # Let's Talk
 
-Have a question about our courses? Want to schedule a free demo class? Or just want to say hi? We'd love to hear from you. Drop us a message and we'll get back to you within 24 hours.
+Have a question about our courses? Want to schedule a free demo class? Or just want to say hi? We'd love to hear from you. Drop us a message and we'll get back to you within 48 hours.
 
 ## Send us a Message
 
@@ -36,7 +36,7 @@ Sunday: Closed
 
 ### Response Time
 
-We typically respond within 24 hours
+We typically respond within 48 hours
 
 ### Follow Us
 
@@ -88,7 +88,7 @@ Book a free demo class and see why 10,000+ students trust Modern Age Coders
 
 Quick answers to things people often ask.
 
-We typically respond within 24 hours on working days. For urgent queries, calling us directly is the fastest way to get answers.
+We typically respond within 48 hours on working days. For urgent queries, calling us directly is the fastest way to get answers.
 
 Yes! We offer a free demo class so you can experience our teaching style before enrolling. Just mention it in your message or call us to schedule one.
 

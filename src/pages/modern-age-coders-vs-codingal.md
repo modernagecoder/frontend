@@ -12,7 +12,17 @@ Honest comparison · prices verified July 2026
 
 The short version: both teach coding to Indian students through live online classes. Codingal leans into **competitions and certificates**, with published plans around **Rs 8,999 to Rs 12,999 a month**. Modern Age Coders leans into **depth**: one full hour of interactive, application-first teaching in small batches, **coding and maths taught together**, the kind of class students wait for all week. And a month with us starts at Rs 1,499.
 
-[Book a free demo](/book-demo)See the full comparison1 hrDeep, live, every class8Classes a month2-in-1Coding + maths, one school4.9Across 547 Google reviewsIn one paragraph
+[Book a free demo](/book-demo)See the full comparison1 hrDeep, live, every class8Classes a month2-in-1Coding + maths, one school4.9Across 547 Google reviews
+
+Modern Age Coders and Codingal both teach live online coding to school students, but they differ in scope: Codingal focuses on coding, while Modern Age Coders teaches coding and maths together for ages 6 to 67, in small live batches with real projects from the first class.
+
+Rated 4.9 across 547 Google reviews
+
+> “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
+
+*Shivam Khemka, Founder of Modern Age Coders*
+
+In one paragraph
 
 Which should you choose? **Pick Codingal if coding competitions and certificates are the goal**: hackathons, contests and accredited course completions are central to their pitch. **Pick Modern Age Coders if real, deep skill is the goal**: small live batches where a mentor teaches the why for a full hour, students build and ship real projects, and maths grows alongside the code in the same school. Both offer trials; ours is a free live demo class with the actual teacher, no card needed.
 

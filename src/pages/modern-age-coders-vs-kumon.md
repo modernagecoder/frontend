@@ -12,7 +12,17 @@ Honest comparison · prices verified July 2026
 
 The short version: Kumon is a worksheet-based drill programme costing **$150 to $220 per subject each month** in the US, where children largely work alone with brief instructor check-ins. Modern Age Coders is **live teaching at full depth**: a real mentor, 8 interactive one-hour classes a month that children genuinely wait for, teaching the why and applying it, with coding available in the same school. And it costs less, not more. Two genuinely different philosophies, compared fairly below.
 
-[Book a free demo](/book-demo)See the full comparisonLiveA teacher, not worksheets8Live classes a month4.9Across 547 Google reviews$0Registration feeIn one paragraph
+[Book a free demo](/book-demo)See the full comparisonLiveA teacher, not worksheets8Live classes a month4.9Across 547 Google reviews$0Registration fee
+
+Modern Age Coders and Kumon differ in method: Kumon uses a worksheet-based self-study system for maths and reading, while Modern Age Coders teaches live, mentor-led coding and maths together for ages 6 to 67, in small batches with real projects.
+
+Rated 4.9 across 547 Google reviews
+
+> “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
+
+*Shivam Khemka, Founder of Modern Age Coders*
+
+In one paragraph
 
 Which should you choose? **Pick Kumon if your child needs a daily drill habit** and thrives on repetition-to-mastery with minimal adult instruction. **Pick Modern Age Coders if your child needs someone to actually teach**: a live mentor who explains concepts, answers questions in the moment, and applies maths to real projects and code. Kumon builds fluency through worksheets; we build understanding through teaching. Many families discover the difference in one free demo class.
 

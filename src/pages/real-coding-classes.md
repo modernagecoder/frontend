@@ -433,7 +433,7 @@ Try a free demo
 The fastest way to judge a school is to sit in its classroom. Book a free demo — a mentor will assess where you are, show you the depth-first method live, and recommend the right track. No payment details, no obligation.
 
 1. **Fill the form** (30 seconds).
-2. **We call you within 24 hours** to schedule.
+2. **We call you within 48 hours** to schedule.
 3. **Attend a live class** — then decide.
 
 [📞 +91 91233 66161](tel:+919123366161)[WhatsApp us](https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20book%20a%20free%20demo%20for%20the%20real%20coding%20classes.)[Email us](mailto:contact@modernagecoders.com)

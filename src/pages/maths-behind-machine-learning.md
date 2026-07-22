@@ -118,19 +118,19 @@ These live, small-batch courses carry the maths on this page into working system
 
 The full path through machine learning - you implement gradient descent, loss functions and core models, then scale them with the standard libraries.
 
-[View course →](/courses/ai-ml-masterclass-complete-college)![Artificial Intelligence Complete course thumbnail](/images/ai-college.png)
+[View course →](/courses/ai-ml-masterclass-complete-college)![Artificial Intelligence Complete course thumbnail](/images/ai-college.webp)
 
 ### Artificial Intelligence Complete
 
 A broad, deep AI masterclass where probability, search and optimisation become the reasoning behind real intelligent systems, not just buzzwords.
 
-[View course →](/courses/artificial-intelligence-complete-masterclass-college)![Data Science Masterclass course thumbnail](/images/data-science-college.png)
+[View course →](/courses/artificial-intelligence-complete-masterclass-college)![Data Science Masterclass course thumbnail](/images/data-science-college.webp)
 
 ### Data Science Masterclass
 
 Statistics, distributions and linear algebra applied to real datasets, so your conclusions rest on maths you can defend rather than charts you hope are right.
 
-[View course →](/courses/data-science-complete-masterclass-college)![Python Masterclass from zero to advanced course thumbnail](/images/python-college.png)
+[View course →](/courses/data-science-complete-masterclass-college)![Python Masterclass from zero to advanced course thumbnail](/images/python-college.webp)
 
 ### Python Masterclass - Zero to Advanced
 

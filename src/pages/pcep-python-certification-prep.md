@@ -30,7 +30,7 @@ From **₹1,499**/mo[explore →](/courses/python-programming-masterclass-zero-t
 
 Python from scratch to confident coder, with the foundations PCEP tests built in.
 
-From **₹1,499**/mo[explore →](/courses/python-complete-masterclass-teens)Kids 8–12
+From **₹1,499**/mo[explore →](/courses/python-complete-masterclass-teens)Kids 6–12
 
 ### Python & AI for Kids
 

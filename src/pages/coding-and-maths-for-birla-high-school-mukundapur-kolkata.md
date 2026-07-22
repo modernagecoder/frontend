@@ -124,7 +124,7 @@ Mapped to CBSE Computer Applications (Class 9–10) and Informatics Practices / 
 - ✓ SQL + Python-MySQL connectivity
 - ✓ AI/ML mini-projects & data analysis
 
-[View Course Details →](/courses/python-programming-masterclass)![Informatics Practices Data Science bootcamp BHS Mukundapur Class 12 Kolkata](/images/ip-cs-class-11-12.webp)BHS Mukundapur Exclusive · Class 11–12
+[View Course Details →](/courses/python-programming-masterclass)![Informatics Practices Data Science bootcamp BHS Mukundapur Class 12 Kolkata](/images/python-teens.webp)BHS Mukundapur Exclusive · Class 11–12
 
 ### IP & Data Science Bootcamp
 
@@ -135,7 +135,7 @@ The most targeted course we offer for BHS Mukundapur. Informatics Practices and 
 - ✓ SQL: DDL, DML, DQL & joins
 - ✓ Full CBSE practical exam prep
 
-[View Course Details →](/courses/teens-ai-web-development-course)![Competitive Programming ZCO INOI BHS Mukundapur students Kolkata](/images/competitive-programming-teens.webp)Elite Track · Classes 7–12
+[View Course Details →](/courses/teens-ai-web-development-course)![Competitive Programming ZCO INOI BHS Mukundapur students Kolkata](/images/problem-solving-teens.webp)Elite Track · Classes 7–12
 
 ### Competitive Programming — ZCO / INOI
 

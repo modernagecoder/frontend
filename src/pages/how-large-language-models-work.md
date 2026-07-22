@@ -116,7 +116,7 @@ Attached learning paths
 
 Live, small-batch, instructor-led tracks that take you from the ideas on this page to working AI projects.
 
-![Generative AI Masterclass thumbnail](/images/generative-ai-college.png)
+![Generative AI Masterclass thumbnail](/images/generative-ai-college.webp)
 
 ### Generative AI Masterclass
 
@@ -128,7 +128,7 @@ Build with LLMs end to end - prompting, RAG, fine-tuning and generation projects
 
 The full machine learning foundation underneath modern language models.
 
-[View course →](/courses/ai-ml-masterclass-complete-college)![Artificial Intelligence Complete Masterclass thumbnail](/images/ai-college.png)
+[View course →](/courses/ai-ml-masterclass-complete-college)![Artificial Intelligence Complete Masterclass thumbnail](/images/ai-college.webp)
 
 ### Artificial Intelligence Complete
 
@@ -140,7 +140,7 @@ A broad, rigorous tour of AI - from search and learning to deep networks.
 
 Ship real software with AI coding agents - for adults and professionals.
 
-[View course →](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)![Python Masterclass Zero to Advanced thumbnail](/images/python-college.png)
+[View course →](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)![Python Masterclass Zero to Advanced thumbnail](/images/python-college.webp)
 
 ### Python Masterclass - Zero to Advanced
 

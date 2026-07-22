@@ -388,7 +388,7 @@ Get started
 
 ## Try Coding and Maths
 
-Tell us what you want to learn and we'll set up your free demo class — usually within 24 hours. No credit card, no commitment.
+Tell us what you want to learn and we'll set up your free demo class — usually within 48 hours. No credit card, no commitment.
 
 Compare
 

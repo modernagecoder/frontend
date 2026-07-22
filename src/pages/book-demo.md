@@ -112,7 +112,7 @@ Just a computer/laptop with a stable internet connection and a browser. We'll se
 
 Absolutely! We encourage parents to observe the demo session, especially for younger students. You'll get to see exactly how we teach and interact with your child.
 
-We typically schedule demos within 24-48 hours of your request. Submit your details above and our team will call you to arrange a convenient time slot.
+We typically schedule demos within 48 hours of your request. Submit your details above and our team will call you to arrange a convenient time slot.
 
 ---
 

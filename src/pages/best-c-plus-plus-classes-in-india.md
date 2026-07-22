@@ -18,6 +18,10 @@ Book a Free C++ Demo ClassSee the Curriculum**4.9/5**Learner rating**5–8**Stud
 
 **Modern Age Coders runs India's top-rated live online C++ classes for teens and college students.** The curriculum moves from Core C++ (syntax, logic, functions, pointers) through Object-Oriented Programming, the STL, Data Structures & Algorithms, and into competitive programming and real projects you build yourself. Classes are live and interactive in small batches of 5–8 students, the focus is on contest and placement readiness, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
 
+> “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
+
+*Shivam Khemka, Founder of Modern Age Coders*
+
 Start Today
 
 ## Book Your Free C++ Demo Class
@@ -253,6 +257,14 @@ All classes are live and interactive with a real mentor, so students can ask que
 Do I need any prior coding experience to start C++?+
 
 No. Our [beginner C++ track](/c-plus-plus-for-beginners) starts from absolute basics — your first program, variables and logic — and builds up to pointers, OOP, the STL and projects step by step. Learners with prior experience are placed in an appropriate batch after the free demo.
+
+Should I choose group C++ classes or 1-on-1?+
+
+Both are live and taught by an expert mentor. Group C++ classes in small batches of 5 to 8 are the most affordable and add peer learning, a mini batch of 3 to 4 gives near one-to-one attention, and 1-on-1 gives a fully personalised pace. Start with a free demo, and you can change your plan later.
+
+Do you offer a refund if the C++ course is not the right fit?+
+
+Yes. Every learner starts with a free demo class before paying, and you can request a refund within 7 days of your first purchase. Sessions already taken and heavily used courses are not refundable, and the full terms are on our Refund Policy page.
 
 ---
 

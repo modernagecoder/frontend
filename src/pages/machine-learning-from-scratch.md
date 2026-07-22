@@ -148,19 +148,19 @@ These are the live, college-and-professional courses that carry the from-scratch
 
 The full machine learning specialisation: build the algorithms by hand, then the advanced libraries, then real models end to end.
 
-[View course →](/courses/ai-ml-masterclass-complete-college)![Artificial Intelligence Complete course thumbnail](/images/ai-college.png)
+[View course →](/courses/ai-ml-masterclass-complete-college)![Artificial Intelligence Complete course thumbnail](/images/ai-college.webp)
 
 ### Artificial Intelligence Complete
 
 A broad, rigorous tour of modern AI — from the foundations through neural networks to the systems behind today's intelligent tools.
 
-[View course →](/courses/artificial-intelligence-complete-masterclass-college)![Generative AI Masterclass course thumbnail](/images/generative-ai-college.png)
+[View course →](/courses/artificial-intelligence-complete-masterclass-college)![Generative AI Masterclass course thumbnail](/images/generative-ai-college.webp)
 
 ### Generative AI Masterclass
 
 How generative models actually work, built up from the maths, so you can use and shape them rather than only prompt them.
 
-[View course →](/courses/complete-generative-ai-masterclass-college)![Data Science Masterclass course thumbnail](/images/data-science-college.png)
+[View course →](/courses/complete-generative-ai-masterclass-college)![Data Science Masterclass course thumbnail](/images/data-science-college.webp)
 
 ### Data Science Masterclass
 

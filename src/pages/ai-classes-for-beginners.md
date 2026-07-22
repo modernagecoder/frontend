@@ -33,19 +33,19 @@ You do not pick the perfect course on day one. Start with a free trial, and your
 
 A full journey through AI and machine learning that starts from the basics, so beginners are welcome here.
 
-[View course](/courses/ai-ml-masterclass-complete-college)![Python Masterclass from zero to advanced course thumbnail](/images/python-college.png)
+[View course](/courses/ai-ml-masterclass-complete-college)![Python Masterclass from zero to advanced course thumbnail](/images/python-college.webp)
 
 ### Python Masterclass - Zero to Advanced
 
 Python is the friendliest first language for AI, and this course truly starts you at zero.
 
-[View course](/courses/python-programming-masterclass-zero-to-advanced-college)![Artificial Intelligence Complete Masterclass course thumbnail](/images/ai-college.png)
+[View course](/courses/python-programming-masterclass-zero-to-advanced-college)![Artificial Intelligence Complete Masterclass course thumbnail](/images/ai-college.webp)
 
 ### Artificial Intelligence Complete
 
 A clear, end-to-end look at AI that explains the big ideas in plain terms for first-timers.
 
-[View course](/courses/artificial-intelligence-complete-masterclass-college)![Generative AI Masterclass course thumbnail](/images/generative-ai-college.png)
+[View course](/courses/artificial-intelligence-complete-masterclass-college)![Generative AI Masterclass course thumbnail](/images/generative-ai-college.webp)
 
 ### Generative AI Masterclass
 

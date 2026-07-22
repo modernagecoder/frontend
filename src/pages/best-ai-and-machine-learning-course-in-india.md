@@ -18,6 +18,10 @@ Book a Free AI/ML Demo ClassSee the Curriculum**4.9/5**Learner rating**5–8**St
 
 **Modern Age Coders runs India's top-rated live online AI & Machine Learning course for college students, working professionals and serious teens.** You go from Python for ML through Machine Learning, Deep Learning, Neural Networks, Data Science and Generative AI — building and training real models on real datasets with scikit-learn, TensorFlow/Keras and PyTorch. Classes are live and interactive in small batches of 5–8, focused on a real project portfolio and job-ready skills, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
 
+> “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
+
+*Shivam Khemka, Founder of Modern Age Coders*
+
 Start Today
 
 ## Book Your Free AI & ML Demo Class
@@ -253,6 +257,14 @@ You learn the real AI/ML stack — Python, NumPy, pandas, Matplotlib, scikit-lea
 Are the AI & ML classes live or recorded?+
 
 All classes are live and interactive with an expert mentor who reviews your code and models in real time. Every session is also recorded and shared, so you can revisit any concept, dataset or model whenever you need.
+
+Should I choose group AI and ML classes or 1-on-1?+
+
+Both are live and taught by an expert mentor. Group AI and ML classes in small batches of 5 to 8 are the most affordable and add peer learning, a mini batch of 3 to 4 gives near one-to-one attention, and 1-on-1 gives a fully personalised pace. Start with a free demo, and you can change your plan later.
+
+Do you offer a refund if the AI and ML course is not the right fit?+
+
+Yes. Every learner starts with a free demo class before paying, and you can request a refund within 7 days of your first purchase. Sessions already taken and heavily used courses are not refundable, and the full terms are on our Refund Policy page.
 
 ---
 

@@ -12,7 +12,17 @@ Honest comparison · prices verified July 2026
 
 The short version: these are different species. Tynker is a **self-paced coding app**, about $180 a year, where children work through gamified lessons alone. Modern Age Coders is a **live school**: a real mentor, one full hour of deep, interactive teaching twice a week, real projects with real feedback, and maths taught alongside the code. An app entertains; a teacher transforms.
 
-[Book a free demo](/book-demo)See the full comparison1 hrLive teaching, every class8Classes a monthHumanMentor, not an app4.9Across 547 Google reviewsIn one paragraph
+[Book a free demo](/book-demo)See the full comparison1 hrLive teaching, every class8Classes a monthHumanMentor, not an app4.9Across 547 Google reviews
+
+Modern Age Coders and Tynker differ in approach: Tynker is a self-paced app for kids' coding, while Modern Age Coders teaches live, mentor-led coding and maths together for ages 6 to 67, in small batches with real projects from the first class.
+
+Rated 4.9 across 547 Google reviews
+
+> “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
+
+*Shivam Khemka, Founder of Modern Age Coders*
+
+In one paragraph
 
 Which should you choose? **Pick Tynker as a first taste**: it is a well-made, gamified app that lets a young child explore block coding alone for about $15 a month. **Pick Modern Age Coders when you want your child to actually be taught**: a live mentor who explains deeply, corrects in real time, sets real projects, and keeps them accountable, in interactive one-hour classes children look forward to. Many of our families arrive after an app subscription went quiet in month two; a teacher is the difference between exploring and progressing.
 

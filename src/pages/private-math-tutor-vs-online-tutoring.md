@@ -12,7 +12,17 @@ Decision guide · prices verified July 2026
 
 The short version: a good local private tutor costs **$35 to $100 an hour** and wins on physical presence. Good live online tutoring delivers **the same dedicated hour** with a wider talent pool, tighter scheduling, and structured programs from **$100 to $256 a month**. The format matters less than most parents think; the teacher and the rhythm matter more.
 
-[Try a live online class free](/book-demo)See the comparisonThe 20-second answer
+[Try a live online class free](/book-demo)See the comparison
+
+A private in-person maths tutor gives face-to-face help but usually costs more and is limited to your area, while good online tutoring brings expert teachers, live small-group or one-to-one classes and lower cost from anywhere. Modern Age Coders runs live online maths classes for ages 6 to 67.
+
+Rated 4.9 across 547 Google reviews
+
+> “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
+
+*Shivam Khemka, Founder of Modern Age Coders*
+
+The 20-second answer
 
 Choose a **local private tutor** if your child focuses dramatically better with an adult in the room, or needs occasional exam rescue. Choose **live online tutoring** for everything else: sustained skill-building, twice-a-week rhythm, access to genuinely excellent teachers regardless of your zip code, and per-hour costs that make two weekly classes affordable. The worst option is the expensive one you use rarely.
 

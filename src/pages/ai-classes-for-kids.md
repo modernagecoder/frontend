@@ -18,13 +18,13 @@ Live, small-batch classes where a patient mentor guides your child to make real 
 
 Not sure which to choose? That is exactly what the free trial is for, and your mentor will happily recommend the best fit for your child's age and interests. Every course is project-based, taught live in small groups, and designed so beginners feel at home from day one. See them all in our [course atlas](/course-atlas), or start with one of these favourites for ages 6 to 12.
 
-![Computational Thinking & AI course thumbnail](/images/ai-tools-kids.png)
+![Computational Thinking & AI course thumbnail](/images/ai-tools-kids.webp)
 
 ### Computational Thinking & AI
 
 A gentle, playful first step into the world of AI, where your child explores friendly tools and makes their own creations.
 
-[View course](/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)![Python for Kids course thumbnail](/images/python-kids.png)
+[View course](/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)![Python for Kids course thumbnail](/images/python-kids.webp)
 
 ### Python for Kids
 

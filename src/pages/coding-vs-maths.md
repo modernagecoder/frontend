@@ -6,11 +6,19 @@ source: src/pages/coding-vs-maths.html
 ---
 > They are the same muscle wearing different clothes: what each trains, how they multiply each other, the which-first decision table we use on real calls, and the fusion course that teaches maths by programming it. Free trial reads both.
 
+Coding and maths reinforce each other: maths builds the logic and problem solving that coding puts into action, and coding makes abstract maths concrete by turning it into things that run. You do not have to choose between them. Modern Age Coders teaches coding and maths together for ages 6 to 67, in small live batches.
+
+Rated 4.9 across 547 Google reviews
+
+> “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
+
+*Shivam Khemka, Founder of Modern Age Coders*
+
 One door for each answer
 
 ## Coding, maths, or the course that refuses to choose.
 
-[![Maths Through Coding course thumbnail](/images/maths-through-coding.png)The fusion  Maths Through Coding The thesis as a course: learn maths by building it in Python, fraction machines, turtle geometry, probability sims. Ages 10-158 live classes / monthFree trial first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/maths-through-coding)[![Python and AI for Kids course thumbnail](/images/python-kids.png)  Python & AI for Kids The coding-first door: real text code taught gently, with the maths smuggled in through projects. Coding · Ages 9-138 live classes / monthFree trial first **$40**/mo group · **$100**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery The maths-first door: the make-or-break school years taught for ownership, coding connections included. Maths · Grades 6-88 live classes / monthFree trial first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[Browse all 80+ courses](/courses)The 20-second answer
+[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)The fusion  Maths Through Coding The thesis as a course: learn maths by building it in Python, fraction machines, turtle geometry, probability sims. Ages 10-158 live classes / monthFree trial first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/maths-through-coding)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The coding-first door: real text code taught gently, with the maths smuggled in through projects. Coding · Ages 9-138 live classes / monthFree trial first **$40**/mo group · **$100**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery The maths-first door: the make-or-break school years taught for ownership, coding connections included. Maths · Grades 6-88 live classes / monthFree trial first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[Browse all 80+ courses](/courses)The 20-second answer
 
 Neither "wins": **coding and maths train the same underlying muscle**, structured, logical, creative problem-solving, from two directions. Coding makes ideas touchable and motivating; maths makes them rigorous and general. Which first? Follow the current need: school maths hurting means maths first (confidence there lifts everything); curiosity burning means coding first (the motivation engine is free). Best of all worlds: both, or our fusion course where children learn maths by programming it.
 

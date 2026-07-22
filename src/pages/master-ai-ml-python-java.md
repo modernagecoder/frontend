@@ -54,25 +54,25 @@ Section 03 / Course showcase
 
 Every course below is live, mentor-led, project-based and built to go deep. Choose by language, by goal, or by age — the teen and college versions cover the same depth at the right pace. Open any course for the full syllabus, or see the complete catalogue including kids' foundations and mathematics in [the Course Atlas](/course-atlas).
 
-Python / College![Python Masterclass — Zero to Advanced course thumbnail](/images/python-college.png)
+Python / College![Python Masterclass — Zero to Advanced course thumbnail](/images/python-college.webp)
 
 ### Python Masterclass — Zero to Advanced
 
 Syntax to OOP to decorators, generators, async and the data model — the full depth of the language.
 
-[View course](/courses/python-programming-masterclass-zero-to-advanced-college)Python / Teens![Python Programming for Teens course thumbnail](/images/python-teens.png)
+[View course](/courses/python-programming-masterclass-zero-to-advanced-college)Python / Teens![Python Programming for Teens course thumbnail](/images/python-teens.webp)
 
 ### Python Programming (Teens)
 
 Serious, project-based Python for ages 13 to 17 — real fundamentals, not watered-down basics.
 
-[View course](/courses/python-complete-masterclass-teens)Java / College![Java Programming for College course thumbnail](/images/java-college.png)
+[View course](/courses/python-complete-masterclass-teens)Java / College![Java Programming for College course thumbnail](/images/java-college.webp)
 
 ### Java Programming (College)
 
 OOP to collections to concurrency and the JVM, with real multi-class projects and Spring.
 
-[View course](/courses/complete-java-programming-masterclass-college)Java / Teens![Java Programming for Teens course thumbnail](/images/java-teens.png)
+[View course](/courses/complete-java-programming-masterclass-college)Java / Teens![Java Programming for Teens course thumbnail](/images/java-teens.webp)
 
 ### Java Programming (Teens)
 
@@ -84,25 +84,25 @@ Strongly-typed thinking from the start — ideal for ICSE, ISC and CBSE learners
 
 The maths, then models from scratch, then TensorFlow and PyTorch — all the way to deployment.
 
-[View course](/courses/ai-ml-masterclass-complete-college)AI & ML / Teens![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.png)
+[View course](/courses/ai-ml-masterclass-complete-college)AI & ML / Teens![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)
 
 ### AI & Machine Learning (Teens)
 
 Real machine learning for ambitious teenagers — concepts, code and models they actually build.
 
-[View course](/courses/ai-ml-masterclass-teens)AI / College![Artificial Intelligence Complete Masterclass course thumbnail](/images/ai-college.png)
+[View course](/courses/ai-ml-masterclass-teens)AI / College![Artificial Intelligence Complete Masterclass course thumbnail](/images/ai-college.webp)
 
 ### Artificial Intelligence Complete
 
 How intelligent systems are built — search, learning, neural networks and end-to-end AI projects.
 
-[View course](/courses/artificial-intelligence-complete-masterclass-college)Gen AI / College![Generative AI Masterclass course thumbnail](/images/generative-ai-college.png)
+[View course](/courses/artificial-intelligence-complete-masterclass-college)Gen AI / College![Generative AI Masterclass course thumbnail](/images/generative-ai-college.webp)
 
 ### Generative AI Masterclass
 
 How generative models work and how to build with them — beyond prompting, into real applications.
 
-[View course](/courses/complete-generative-ai-masterclass-college)Data / College![Data Science Masterclass course thumbnail](/images/data-science-college.png)
+[View course](/courses/complete-generative-ai-masterclass-college)Data / College![Data Science Masterclass course thumbnail](/images/data-science-college.webp)
 
 ### Data Science Masterclass
 
@@ -120,7 +120,7 @@ Interview-grade problem solving — trees, graphs, dynamic programming, taught a
 
 Frontend, backend, databases and deployment — the event loop, APIs and architecture, properly.
 
-[View course](/courses/full-stack-web-development-masterclass-college)CS Core / College![C++ Programming Complete Masterclass course thumbnail](/images/cpp-college.png)
+[View course](/courses/full-stack-web-development-masterclass-college)CS Core / College![C++ Programming Complete Masterclass course thumbnail](/images/cpp-college.webp)
 
 ### C++ Programming
 

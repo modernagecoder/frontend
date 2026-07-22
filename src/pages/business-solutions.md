@@ -264,7 +264,7 @@ Dedicated support team for maintenance
 
 ## Let's Build Something Amazing
 
-Tell us about your project and we'll get back to you within 24 hours
+Tell us about your project and we'll get back to you within 48 hours
 
 **
 

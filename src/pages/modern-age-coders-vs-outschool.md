@@ -12,7 +12,17 @@ Honest comparison · prices verified July 2026
 
 The short version: Outschool is a **marketplace of one-off classes** from thousands of independent teachers, typically $10 to $30 an hour, on almost any topic. Modern Age Coders is a **school**: one dedicated mentor, a curriculum that builds week over week, and **one full hour of deep, interactive teaching twice a week**. A thousand one-off classes do not add up to one education.
 
-[Book a free demo](/book-demo)See the full comparison1Dedicated mentor, not many1 hrDeep, live, every class8Classes a month, structured4.9Across 547 Google reviewsIn one paragraph
+[Book a free demo](/book-demo)See the full comparison1Dedicated mentor, not many1 hrDeep, live, every class8Classes a month, structured4.9Across 547 Google reviews
+
+Modern Age Coders and Outschool differ in model: Outschool is a marketplace of many independent teachers and one-off classes, while Modern Age Coders is a focused school teaching coding and maths together for ages 6 to 67, with one consistent curriculum and small live batches.
+
+Rated 4.9 across 547 Google reviews
+
+> “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
+
+*Shivam Khemka, Founder of Modern Age Coders*
+
+In one paragraph
 
 Which should you choose? **Pick Outschool for exploration**: one-off workshops, unusual topics, and hobby classes across every imaginable subject, paid per class. **Pick Modern Age Coders for real skill-building**: a structured coding and maths curriculum taught by the same mentor who knows your child, where every one-hour class builds on the last and students ship real projects. Marketplaces are wonderful for sampling; schools are how children actually get good at something.
 

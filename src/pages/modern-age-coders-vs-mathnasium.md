@@ -12,7 +12,17 @@ Honest comparison · prices verified July 2026
 
 The short version: Mathnasium is a US tutoring-center franchise built around guided worksheet practice on a learning floor. Modern Age Coders teaches maths the way serious subjects deserve: **a dedicated live mentor, one full hour of deep, application-first teaching**, twice a week, the kind of interactive class students wait for all week. And a month of it costs **less than half a typical Mathnasium membership**. This page compares the two fairly, with sources.
 
-[Book a free demo](/book-demo)See the full comparison1 hrOf real teaching, every class8Live classes a month4.9Across 547 Google reviewsFreeDemo class firstIn one paragraph
+[Book a free demo](/book-demo)See the full comparison1 hrOf real teaching, every class8Live classes a month4.9Across 547 Google reviewsFreeDemo class first
+
+Modern Age Coders and Mathnasium differ in focus: Mathnasium is a maths-only tutoring centre, while Modern Age Coders teaches live online coding and maths together for ages 6 to 67, in small batches with real projects from the first class.
+
+Rated 4.9 across 547 Google reviews
+
+> “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
+
+*Shivam Khemka, Founder of Modern Age Coders*
+
+In one paragraph
 
 Which should you choose? **Pick Mathnasium if your child works best in a physical center** and you have one nearby with a schedule that suits you. **Pick Modern Age Coders if you want true 1-on-1 or small-group live teaching at home**, at roughly a third of the typical Mathnasium membership, with the option to learn coding and maths together. Both start with an assessment or trial: ours is a free live demo class with the actual teacher.
 
