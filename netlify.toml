@@ -514,13 +514,28 @@
   status = 200
 
 [[redirects]]
+  from = "/for-business.md"
+  to = "/src/pages/for-business.md"
+  status = 200
+
+[[redirects]]
   from = "/custom-software-development-services"
   to = "/src/pages/custom-software-development-services.html"
   status = 200
 
 [[redirects]]
+  from = "/custom-software-development-services.md"
+  to = "/src/pages/custom-software-development-services.md"
+  status = 200
+
+[[redirects]]
   from = "/aeo-geo-optimization-services"
   to = "/src/pages/aeo-geo-optimization-services.html"
+  status = 200
+
+[[redirects]]
+  from = "/aeo-geo-optimization-services.md"
+  to = "/src/pages/aeo-geo-optimization-services.md"
   status = 200
 
 # Old dark-theme hub retired: consolidate into the new /for-business pillar
