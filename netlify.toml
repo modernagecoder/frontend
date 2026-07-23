@@ -538,6 +538,76 @@
   to = "/src/pages/aeo-geo-optimization-services.md"
   status = 200
 
+[[redirects]]
+  from = "/web-application-development-services"
+  to = "/src/pages/web-application-development-services.html"
+  status = 200
+
+[[redirects]]
+  from = "/web-application-development-services.md"
+  to = "/src/pages/web-application-development-services.md"
+  status = 200
+
+[[redirects]]
+  from = "/mobile-app-development-services"
+  to = "/src/pages/mobile-app-development-services.html"
+  status = 200
+
+[[redirects]]
+  from = "/mobile-app-development-services.md"
+  to = "/src/pages/mobile-app-development-services.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-development-services"
+  to = "/src/pages/ai-development-services.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-development-services.md"
+  to = "/src/pages/ai-development-services.md"
+  status = 200
+
+[[redirects]]
+  from = "/mvp-development-company"
+  to = "/src/pages/mvp-development-company.html"
+  status = 200
+
+[[redirects]]
+  from = "/mvp-development-company.md"
+  to = "/src/pages/mvp-development-company.md"
+  status = 200
+
+[[redirects]]
+  from = "/software-scaling-and-modernization"
+  to = "/src/pages/software-scaling-and-modernization.html"
+  status = 200
+
+[[redirects]]
+  from = "/software-scaling-and-modernization.md"
+  to = "/src/pages/software-scaling-and-modernization.md"
+  status = 200
+
+[[redirects]]
+  from = "/software-maintenance-and-support"
+  to = "/src/pages/software-maintenance-and-support.html"
+  status = 200
+
+[[redirects]]
+  from = "/software-maintenance-and-support.md"
+  to = "/src/pages/software-maintenance-and-support.md"
+  status = 200
+
+[[redirects]]
+  from = "/seo-services"
+  to = "/src/pages/seo-services.html"
+  status = 200
+
+[[redirects]]
+  from = "/seo-services.md"
+  to = "/src/pages/seo-services.md"
+  status = 200
+
 # Old dark-theme hub retired: consolidate into the new /for-business pillar
 [[redirects]]
   from = "/business-solutions"
