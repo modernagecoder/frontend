@@ -461,9 +461,14 @@ const REL = {
 
 // ---- template ----
 function eyebrowCenter(t) { return `<span class="eyebrow" style="display:block;text-align:center;">${t}</span>`; }
+// Escape a string for safe use inside an HTML attribute / title (ampersands that are
+// not already entities, plus quotes). Keeps meta titles/descriptions valid HTML.
+function escAttr(s) { return String(s).replace(/&(?!(?:amp|lt|gt|quot|#\d+);)/g, '&amp;').replace(/"/g, '&quot;'); }
 
 function renderPage(p) {
   const url = `${BASE}/${p.slug}`;
+  const mt = escAttr(p.metaTitle);
+  const md = escAttr(p.metaDesc);
   const engage = p.engage || engageDev;
   const why = p.why || whyDev;
   const formHint = p.formHint || 'Tell us what you need. We reply within one business day with next steps and a free consultation slot. No obligation.';
@@ -514,9 +519,9 @@ function renderPage(p) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>${p.metaTitle}</title>
-    <meta name="title" content="${p.metaTitle}">
-    <meta name="description" content="${p.metaDesc}">
+    <title>${mt}</title>
+    <meta name="title" content="${mt}">
+    <meta name="description" content="${md}">
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="canonical" href="${url}">
@@ -525,8 +530,8 @@ function renderPage(p) {
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="${url}">
-    <meta property="og:title" content="${p.metaTitle}">
-    <meta property="og:description" content="${p.metaDesc}">
+    <meta property="og:title" content="${mt}">
+    <meta property="og:description" content="${md}">
     <meta property="og:image" content="${BASE}/images/og-modern-age-coders.png">
     <meta property="og:site_name" content="Modern Age Coders">
     <meta property="og:locale" content="en_US">
@@ -534,8 +539,8 @@ function renderPage(p) {
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="${url}">
-    <meta name="twitter:title" content="${p.metaTitle}">
-    <meta name="twitter:description" content="${p.metaDesc}">
+    <meta name="twitter:title" content="${mt}">
+    <meta name="twitter:description" content="${md}">
     <meta name="twitter:image" content="${BASE}/images/og-modern-age-coders.png">
 
     <!-- Favicon -->
