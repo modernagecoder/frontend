@@ -106,7 +106,15 @@
 /ai-classes-for-teenagers.md /src/pages/ai-classes-for-teenagers.md 200
 /ai-classes-for-beginners /src/pages/ai-classes-for-beginners.html 200
 /ai-classes-for-beginners.md /src/pages/ai-classes-for-beginners.md 200
-/business-solutions /src/pages/business-solutions.html 200
+# B2B services cluster (added 2026-07-23)
+/for-business /src/pages/for-business.html 200
+/for-business.md /src/pages/for-business.md 200
+/custom-software-development-services /src/pages/custom-software-development-services.html 200
+/custom-software-development-services.md /src/pages/custom-software-development-services.md 200
+/aeo-geo-optimization-services /src/pages/aeo-geo-optimization-services.html 200
+/aeo-geo-optimization-services.md /src/pages/aeo-geo-optimization-services.md 200
+# Old dark-theme hub retired: consolidate into the new /for-business pillar
+/business-solutions /for-business 301!
 /ai-agents-and-automation /src/pages/ai-agents-and-automation.html 200
 /pricing /src/pages/pricing.html 200
 /contact /src/pages/contact.html 200

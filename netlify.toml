@@ -507,10 +507,28 @@
   to = "/src/pages/beat-the-babu.html"
   status = 200
 
+# B2B services cluster (added 2026-07-23)
+[[redirects]]
+  from = "/for-business"
+  to = "/src/pages/for-business.html"
+  status = 200
+
+[[redirects]]
+  from = "/custom-software-development-services"
+  to = "/src/pages/custom-software-development-services.html"
+  status = 200
+
+[[redirects]]
+  from = "/aeo-geo-optimization-services"
+  to = "/src/pages/aeo-geo-optimization-services.html"
+  status = 200
+
+# Old dark-theme hub retired: consolidate into the new /for-business pillar
 [[redirects]]
   from = "/business-solutions"
-  to = "/src/pages/business-solutions.html"
-  status = 200
+  to = "/for-business"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/ai-agents-and-automation"
