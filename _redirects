@@ -1274,6 +1274,10 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ai-and-machine-learning-classes-in-oman /src/pages/ai-and-machine-learning-classes-in-oman.html 200
 /ai-and-machine-learning-classes-in-oman.md /src/pages/ai-and-machine-learning-classes-in-oman.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/learn-to-build-ai /src/pages/learn-to-build-ai.html 200
+/learn-to-build-ai.md /src/pages/learn-to-build-ai.md 200
 /* /src/pages/404.html 404
 
 
