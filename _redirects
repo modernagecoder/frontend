@@ -1218,6 +1218,10 @@
 /pages/love.html /love 301!
 
 # 404 fallback
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ai-and-machine-learning-classes-in-oman /src/pages/ai-and-machine-learning-classes-in-oman.html 200
+/ai-and-machine-learning-classes-in-oman.md /src/pages/ai-and-machine-learning-classes-in-oman.md 200
 /* /src/pages/404.html 404
 
 
