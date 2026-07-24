@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css">
+<style>
+.hero{display:flex;align-items:center;gap:30px}
+.txt{flex:1.06;display:flex;flex-direction:column;gap:18px}
+.art{flex:.94;display:flex;flex-direction:column;align-items:center;gap:16px}
+h1{font-size:74px}
+.cmp{display:flex;flex-direction:column;gap:12px}
+.chip{display:flex;align-items:center;gap:14px;border:3px solid var(--ink);border-radius:14px;padding:13px 18px;font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:26px;box-shadow:4px 4px 0 var(--ink)}
+.chip .t{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:16px;letter-spacing:1px;padding:5px 10px;border-radius:8px;flex:none}
+.chip.no{background:#fff;color:#8a8478}.chip.no .t{background:#EFE7D5;color:#8a8478}
+.chip.yes{background:#EAF2EE}.chip.yes .t{background:var(--pine);color:#fff}
+.illo-card{width:100%}
+.illo-card img{width:100%;height:auto;display:block}
+.scribble{font-family:'Caveat',cursive;font-weight:700;font-size:38px;color:var(--coral);transform:rotate(-2deg)}
+</style></head>
+<body><div class="frame">
+  <div class="brand-row"><span class="logo"><img src="art/logo.svg"></span><span class="brand-name">Modern Age Coders</span><span class="brand-tag">// stuck happens</span></div>
+  <div class="main"><div class="fit">
+   <div class="hero">
+    <div class="txt">
+      <h1>Tutorials don't<br>know you're<br><span class="hl">stuck</span>.</h1>
+      <div class="cmp">
+        <div class="chip no"><span class="t">VIDEO</span> Plays on while you fall behind</div>
+        <div class="chip yes"><span class="t">LIVE</span> Teacher sees it, fixes it with you</div>
+      </div>
+      <div class="cta" style="margin-top:4px">Get unstuck <span class="arw">&rarr;</span></div>
+    </div>
+    <div class="art">
+     <div class="illo-card coralbg"><img src="art/pair.svg" alt=""></div>
+     <div class="scribble">a human on your screen, live</div>
+    </div>
+   </div>
+  </div></div>
+  <div class="foot"><span class="site">learn.modernagecoders.com</span><span class="pill">Free demo class</span></div>
+</div></body></html>

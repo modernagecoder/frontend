@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css">
+<style>
+.hero{display:flex;align-items:center;gap:30px}
+.art{flex:1;display:flex;flex-direction:column;gap:14px;order:1}
+.txt{flex:1;display:flex;flex-direction:column;gap:18px;order:0}
+h1{font-size:76px}
+.sub{max-width:500px}
+.win{width:100%}
+.win .body{font-size:24px;line-height:1.6}
+.scribble{font-family:'Caveat',cursive;font-weight:700;font-size:38px;color:var(--coral);transform:rotate(-2deg)}
+</style></head>
+<body><div class="frame">
+  <div class="brand-row"><span class="logo"><img src="art/logo.svg"></span><span class="brand-name">Modern Age Coders</span><span class="brand-tag">// week three</span></div>
+  <div class="main"><div class="fit">
+   <div class="hero">
+    <div class="txt">
+      <span class="aud a">For kids &middot; 6 to 12</span>
+      <h1>Week three:<br>their first<br><span class="hl">game</span>.</h1>
+      <div class="sub">Not a video watched. A game they wrote, tested and beat their parents at.</div>
+    </div>
+    <div class="art">
+      <div class="win">
+        <div class="bar"><span class="dot" style="background:#ff5f57"></span><span class="dot" style="background:#febc2e"></span><span class="dot" style="background:#28c840"></span></div>
+        <div class="body"><span class="cmt"># guess my number</span><br>secret = <span class="yel">7</span><br>guess = <span class="cyn">int</span>(<span class="cyn">input</span>(<span class="grn">"? "</span>))<br><span class="cor">if</span> guess == secret:<br>&nbsp;&nbsp;<span class="cyn">print</span>(<span class="grn">"you win!"</span>)</div>
+      </div>
+      <div class="scribble">yes, kids really write this</div>
+    </div>
+   </div>
+  </div></div>
+  <div class="foot"><span class="site">learn.modernagecoders.com</span><span class="pill">Book a kids demo</span></div>
+</div></body></html>

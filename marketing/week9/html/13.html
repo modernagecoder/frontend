@@ -1,0 +1,40 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css">
+<style>
+.hero{display:flex;align-items:center;gap:34px}
+.txt{flex:1.1;display:flex;flex-direction:column;gap:18px}
+.art{flex:.9;display:flex;flex-direction:column;align-items:center;gap:18px}
+h1{font-size:80px}
+.sub{max-width:520px}
+.seatwrap{background:#fff;border:3px solid var(--ink);border-radius:20px;box-shadow:8px 9px 0 var(--ink);padding:24px}
+.seats{grid-template-columns:repeat(4,1fr)}
+.legend{display:flex;gap:20px;font-family:'JetBrains Mono',monospace;font-weight:500;font-size:18px;color:#3b3833}
+.legend span{display:inline-flex;align-items:center;gap:8px}
+.legend .k{width:20px;height:20px;border:2.5px solid var(--ink);border-radius:6px;display:inline-block}
+.legend .k.f{background:var(--ink)}
+.legend .k.y{background:var(--yellow)}
+.youarr{font-family:'Caveat',cursive;font-weight:700;font-size:38px;color:var(--coral);transform:rotate(-3deg)}
+</style></head>
+<body><div class="frame">
+  <div class="brand-row"><span class="logo"><img src="art/logo.svg"></span><span class="brand-name">Modern Age Coders</span><span class="brand-tag">// small on purpose</span></div>
+  <div class="main"><div class="fit">
+   <div class="hero">
+    <div class="txt">
+      <span class="kick">Group batches &middot; 5 to 8</span>
+      <h1>Small batches.<br><span class="hl">On purpose.</span></h1>
+      <div class="sub">Eight seats means the teacher knows your code, your pace and your name. It also means batches genuinely fill. When one does, you wait for the next.</div>
+      <div class="cta">Take a seat <span class="arw">&rarr;</span></div>
+    </div>
+    <div class="art">
+      <div class="seatwrap">
+        <div class="seats">
+          <div class="seat"></div><div class="seat"></div><div class="seat open"></div><div class="seat"></div>
+          <div class="seat"></div><div class="seat you"></div><div class="seat"></div><div class="seat open"></div>
+        </div>
+      </div>
+      <div class="legend"><span><span class="k f"></span>taken</span><span><span class="k"></span>open</span><span><span class="k y"></span>you?</span></div>
+      <div class="youarr">the yellow one has your name on it</div>
+    </div>
+   </div>
+  </div></div>
+  <div class="foot"><span class="site">learn.modernagecoders.com</span><span class="pill">Claim the seat</span></div>
+</div></body></html>
