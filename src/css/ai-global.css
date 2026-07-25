@@ -280,6 +280,14 @@
 .ag-table tbody tr:last-child td { border-bottom: none; }
 .ag-table td.ag-num { font-family: var(--ag-mono); font-variant-numeric: tabular-nums; }
 
+/* A totals row reads as just another data row without this, which is actively
+   misleading when the total sits alongside the regions that sum to it. */
+.ag-table tr.ag-total td {
+  font-weight: 600;
+  border-top: 2px solid var(--ag-rule);
+  background: var(--ag-accent-soft);
+}
+
 /* ------------------------------------------------------------ ladder */
 .ag-ladder { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--ag-rule); border-radius: 3px; overflow: hidden; }
 .ag-ladder-col { padding: 30px 28px; background: #fff; }
