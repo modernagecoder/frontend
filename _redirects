@@ -1318,6 +1318,10 @@
 /ai-and-machine-learning-classes-in-ireland.md /src/pages/ai-and-machine-learning-classes-in-ireland.md 200
 /ai-and-machine-learning-classes-in-hong-kong /src/pages/ai-and-machine-learning-classes-in-hong-kong.html 200
 /ai-and-machine-learning-classes-in-hong-kong.md /src/pages/ai-and-machine-learning-classes-in-hong-kong.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ai-and-machine-learning-classes-in-germany /src/pages/ai-and-machine-learning-classes-in-germany.html 200
+/ai-and-machine-learning-classes-in-germany.md /src/pages/ai-and-machine-learning-classes-in-germany.md 200
 /* /src/pages/404.html 404
 
 
