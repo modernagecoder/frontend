@@ -163,6 +163,68 @@ function wireSitemap(file, slugs, priority) {
   return added;
 }
 
+// ------------------------------------------------------------------ llms.txt
+// AI answer engines read llms.txt. A page that is routed and in the sitemap but
+// absent here is invisible to exactly the audience this cluster targets.
+const LLMS_HEADING = '## Build AI, Not Just Use It (AI & machine learning by market)';
+
+const LLMS_LABELS = {
+  'learn-to-build-ai': 'Learn to Build AI (cluster hub)',
+  'ai-and-machine-learning-classes-in-oman': 'Oman',
+  'ai-and-machine-learning-classes-in-muscat': 'Muscat',
+  'ai-and-machine-learning-classes-in-kuwait': 'Kuwait',
+  'ai-and-machine-learning-classes-in-kuwait-city': 'Kuwait City',
+  'ai-and-machine-learning-classes-in-bahrain': 'Bahrain',
+  'ai-and-machine-learning-classes-in-uae': 'United Arab Emirates',
+  'ai-and-machine-learning-classes-in-saudi-arabia': 'Saudi Arabia',
+  'ai-and-machine-learning-classes-in-qatar': 'Qatar',
+  'ai-and-machine-learning-classes-in-usa': 'United States',
+  'ai-and-machine-learning-classes-in-uk': 'United Kingdom',
+  'ai-and-machine-learning-classes-in-london': 'London',
+  'ai-and-machine-learning-classes-in-switzerland': 'Switzerland',
+  'ai-and-machine-learning-classes-in-zurich': 'Zurich',
+  'ai-and-machine-learning-classes-in-singapore': 'Singapore',
+  'ai-and-machine-learning-classes-in-canada': 'Canada',
+  'ai-and-machine-learning-classes-in-australia': 'Australia',
+  'ai-and-machine-learning-classes-in-germany': 'Germany',
+  'ai-and-machine-learning-classes-in-netherlands': 'Netherlands',
+  'ai-and-machine-learning-classes-in-ireland': 'Ireland',
+  'ai-and-machine-learning-classes-in-hong-kong': 'Hong Kong'
+};
+
+function wireLlms(slugs) {
+  const file = 'llms.txt';
+  if (!exists(file)) return 0;
+  let src = read(file);
+  const eol = src.includes('\r\n') ? '\r\n' : '\n';
+
+  const wanted = slugs.filter(s => !src.includes(`${BASE}/${s}`));
+  if (!wanted.length) return 0;
+
+  const lines = wanted.map(s => `- ${LLMS_LABELS[s] || s}: ${BASE}/${s}`);
+
+  if (src.includes(LLMS_HEADING)) {
+    // append inside the existing block, before the next "## " heading
+    const start = src.indexOf(LLMS_HEADING);
+    const rest = src.slice(start + LLMS_HEADING.length);
+    const nextIdx = rest.indexOf(eol + '## ');
+    const insertAt = nextIdx === -1 ? src.length : start + LLMS_HEADING.length + nextIdx;
+    src = src.slice(0, insertAt) + eol + lines.join(eol) + src.slice(insertAt);
+  } else {
+    // new section, placed just before the International Country Pages block so
+    // the two geo clusters sit together
+    const anchor = '## International Country Pages';
+    const block = LLMS_HEADING + eol + eol +
+      'Live AI and machine learning classes taught by building models, not by prompting tools.' + eol +
+      'Ages 6 to 67, small live batches, priced from USD 40 a month.' + eol + eol +
+      lines.join(eol) + eol + eol;
+    src = src.includes(anchor) ? src.replace(anchor, block + anchor) : src + eol + block;
+  }
+
+  write(file, src);
+  return wanted.length;
+}
+
 // ---------------------------------------------------------------------- main
 function main() {
   const argv = process.argv.slice(2);
@@ -184,6 +246,7 @@ function main() {
   const t = wireNetlifyToml(live);
   const s1 = wireSitemap('sitemap.xml', live, '0.80');
   const s2 = wireSitemap('sitemap-international.xml', live, '0.80');
+  const lm = wireLlms(live);
 
   console.log('Wired ' + live.length + ' page(s):');
   live.forEach(s => console.log('  /' + s));
@@ -192,6 +255,7 @@ function main() {
   console.log('  netlify.toml blocks added ......... ' + t);
   console.log('  sitemap.xml entries added ......... ' + s1);
   console.log('  sitemap-international entries ..... ' + s2);
+  console.log('  llms.txt entries added ............ ' + lm);
 
   const noMd = live.filter(s => !exists(`src/pages/${s}.md`));
   if (noMd.length) {
