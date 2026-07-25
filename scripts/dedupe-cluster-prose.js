@@ -36,7 +36,9 @@ const DRY = process.argv.includes('--dry');
 
 // Edit table lives in JSON so it can be regenerated and reviewed separately.
 // Keys are short market names; the full slug is derived below.
-const RAW = JSON.parse(fs.readFileSync(path.join(__dirname, 'cluster-dedupe-edits.json'), 'utf8'));
+const editsArg = process.argv.find(a => a.startsWith('--edits='));
+const EDITS_FILE = editsArg ? editsArg.slice(8) : path.join(__dirname, 'cluster-dedupe-edits.json');
+const RAW = JSON.parse(fs.readFileSync(EDITS_FILE, 'utf8'));
 const EDITS = {};
 for (const [k, v] of Object.entries(RAW)) {
   EDITS[k === 'hub' ? 'learn-to-build-ai' : 'ai-and-machine-learning-classes-in-' + k] = v;
