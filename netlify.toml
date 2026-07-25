@@ -5674,6 +5674,68 @@
   to = "/src/pages/ai-and-machine-learning-classes-in-qatar.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-usa"
+  to = "/src/pages/ai-and-machine-learning-classes-in-usa.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-usa.md"
+  to = "/src/pages/ai-and-machine-learning-classes-in-usa.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-uk"
+  to = "/src/pages/ai-and-machine-learning-classes-in-uk.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-uk.md"
+  to = "/src/pages/ai-and-machine-learning-classes-in-uk.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-london"
+  to = "/src/pages/ai-and-machine-learning-classes-in-london.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-london.md"
+  to = "/src/pages/ai-and-machine-learning-classes-in-london.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-switzerland"
+  to = "/src/pages/ai-and-machine-learning-classes-in-switzerland.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-switzerland.md"
+  to = "/src/pages/ai-and-machine-learning-classes-in-switzerland.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-zurich"
+  to = "/src/pages/ai-and-machine-learning-classes-in-zurich.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-zurich.md"
+  to = "/src/pages/ai-and-machine-learning-classes-in-zurich.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-singapore"
+  to = "/src/pages/ai-and-machine-learning-classes-in-singapore.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-singapore.md"
+  to = "/src/pages/ai-and-machine-learning-classes-in-singapore.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
