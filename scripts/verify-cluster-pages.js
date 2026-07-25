@@ -54,6 +54,15 @@ for (const line of redirectsTxt.split('\n')) {
   if (r) routed.add(r[1]);
 }
 
+// market class -> accent, read from the stylesheet rather than hardcoded here
+const ACCENTS = {};
+{
+  const css = fs.readFileSync(path.join(ROOT, 'src/css/ai-global.css'), 'utf8');
+  for (const m of css.matchAll(/\.ag-root\.(ag-[a-z]+)\s*\{[^}]*--ag-accent:\s*(#[0-9A-Fa-f]{6})/g)) {
+    ACCENTS[m[1]] = m[2];
+  }
+}
+
 const norm = s => s.replace(/\s+/g, ' ').replace(/[‘’]/g, "'").trim();
 
 function stripTags(h) {
@@ -145,8 +154,26 @@ for (const slug of slugs) {
   const words = stripTags(bodyOnly).split(' ').filter(Boolean).length;
   if (words < 3000) errs.push(`only ${words} words (<3000)`);
 
-  // --- 9. md twin ---------------------------------------------------------
-  if (!fs.existsSync(path.join(PAGES, slug + '.md'))) errs.push('.md twin missing');
+  // --- 9. md twin, existence AND substance --------------------------------
+  // The twin is the AEO deliverable. An empty or stub file passes an existence
+  // check and is useless to the crawlers it exists for, so check its contents.
+  const mdPath = path.join(PAGES, slug + '.md');
+  if (!fs.existsSync(mdPath)) errs.push('.md twin missing');
+  else {
+    const md = fs.readFileSync(mdPath, 'utf8');
+    if (!/^---[\s\S]*?canonical:/m.test(md)) errs.push('.md twin has no frontmatter canonical');
+    if (!/^>\s/m.test(md)) errs.push('.md twin has no answer-capsule blockquote');
+    const mdCourses = (md.match(/\/courses\/[a-z0-9-]+/g) || []).length;
+    if (mdCourses < 10) errs.push(`.md twin links only ${mdCourses} courses`);
+    if (md.includes('—')) errs.push('.md twin contains em-dashes');
+    if (md.split(/\s+/).length < 600) errs.push('.md twin under 600 words');
+  }
+
+  // --- 11. market accent actually resolves --------------------------------
+  // A body class with no matching rule in ai-global.css silently falls back to
+  // the default green, so several markets would look identical.
+  const mk = (bodyCls.match(/\bag-(?!root)[a-z]+\b/) || [])[0];
+  if (mk && !ACCENTS[mk]) errs.push(`market class ${mk} has no accent defined in ai-global.css`);
 
   if (errs.length) failures++;
   report.push({ slug, words, errs, warns });
