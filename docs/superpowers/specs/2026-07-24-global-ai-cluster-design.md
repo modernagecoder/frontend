@@ -160,3 +160,63 @@ Counting and grepping is not verification. Per page:
 
 Oman first, complete and verified, blessed by the owner as the template. Then the rest one at
 a time, committing per page.
+
+---
+
+## Delivery status, 2026-07-25
+
+**19 of 21 pages live and routed.** Germany and the Netherlands outstanding.
+
+Live: `/learn-to-build-ai` plus oman, muscat, kuwait, kuwait-city, bahrain, uae, saudi-arabia,
+qatar, usa, uk, london, switzerland, zurich, singapore, canada, australia, ireland, hong-kong.
+Word counts 3,257 to 7,011. Gate: 19/19 pass.
+
+### The uniqueness contract held
+
+Every market page carries a different ML project on real, named, published data:
+
+| Market | Dataset |
+|---|---|
+| Oman | Date harvest by governorate |
+| Muscat | Oman airport traffic by segment |
+| Kuwait | Kuwait Meteorological Center dust observations |
+| Kuwait City | Station OKKK dust-storm records |
+| Bahrain | Civil Aviation Affairs monthly traffic |
+| UAE | DXB traffic as published by Dubai Airports |
+| Saudi Arabia | GASTAT Hajj pilgrim totals |
+| Qatar | Mwani Qatar monthly port performance |
+| USA | State residential electricity prices |
+| UK | Office of Rail and Road punctuality |
+| London | Cycle hire joined to Heathrow weather |
+| Switzerland | GLAMOS glacier observations |
+| Zurich | Mietpreiserhebung rent medians |
+| Singapore | COE Category B bidding |
+| Canada | National fire season totals |
+| Australia | Clean Energy Regulator small-scale register |
+| Ireland | CSO data centre metered electricity |
+| Hong Kong | Observatory Signal No. 8 records |
+
+Cross-page overlap 0.4% to 5.7%, with one 8.1% outlier on Oman that is a measurement artifact,
+not prose: Oman is the shortest page, so shared chrome is a larger fraction of it.
+
+### Tooling built, reuse it
+
+- `scripts/verify-cluster-pages.js` — the gate. Nothing routes until it passes.
+- `scripts/check-cluster-uniqueness.js` — 7-word shingle overlap.
+- `scripts/dedupe-cluster-prose.js --edits=<json>` — rewrites duplicated sentences.
+- `scripts/wire-ai-global-routes.js` — routing, both sitemaps, and llms.txt in one idempotent step.
+- `scripts/link-into-ai-cluster.js` — inbound internal links.
+- `scripts/fix-dead-course-links.js` — the 167-link repair.
+
+### Lessons that cost time
+
+1. **Agent-built pages clone the template.** First sweep found 12.7% overlap. Naming the exact
+   banned phrases in the build prompt dropped later batches to 1.1% to 3.3% first time.
+2. **Replacement must be global.** Duplicated sentences appear twice per page, once in prose and
+   once in FAQPage schema. Replacing only the first silently breaks the schema match.
+3. **Matching must be whitespace-tolerant.** Sentences wrap across lines; literal matching found
+   nothing and reported success.
+4. **A new cluster is born orphaned.** Zero inbound internal links until deliberately added.
+5. **Session limits kill build agents mid-write**, but files land first. Commit immediately.
+6. **WebSearch has a per-session budget** that 20 dossiers exhaust. Agents route around it with
+   WebFetch against primary sources, which is better provenance anyway.
