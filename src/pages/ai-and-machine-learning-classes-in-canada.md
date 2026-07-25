@@ -8,12 +8,12 @@ areaServed: Canada
 ages: 6 to 67
 ---
 
-> Modern Age Coders teaches AI and machine learning live online to learners across Canada, ages 6
-> to 67, in groups of five to eight or one to one. The subject is model building: Python first, then
-> the statistics and linear algebra the field runs on, then training and testing models on published
-> Canadian data. Teaching is in English. Because the teaching staff work from India, classes sit in
-> Canadian mornings and on weekends rather than on weekday evenings. A group place is USD 40 a
-> month, CAD 56.37 at the Bank of Canada rate for 24 July 2026, and the first class costs nothing.
+> Modern Age Coders teaches AI and machine learning live online across Canada, ages 6 to 67, in a
+> cohort of five to eight or privately. What is taught is model building: Python, the probability
+> and matrix work beneath it, then training and testing models on published Canadian data. Lessons
+> are in English, and because the staff work from India the timetable sits in Canadian mornings and
+> weekends. A group seat is USD 40 a month, CAD 56.37 at the Bank of Canada rate for 24 July 2026,
+> and the first class is free.
 
 ## Direct answers
 
@@ -31,14 +31,14 @@ Saskatchewan stays on Central Standard Time all year and Yukon is permanently on
 Regina, Saskatoon and Whitehorse keep the same offset in every month.
 
 **What makes this different from the AI courses usually sold to Canadian families?**
-Most of them teach prompting. This teaches model building: assembling a dataset, choosing a split
-that does not flatter you, training, then reporting the error in units a non-specialist can argue
-with. Prompting is attached to a product that gets redesigned. Probability, matrices and code do not
-expire.
+Nearly all of those teach prompting. Here the work is assembling a dataset, picking a split that
+refuses to flatter you, training, and then stating the error in units a non-specialist can argue
+with. Prompting is bolted to a product that will be redesigned. Probability, matrices and code
+outlast it.
 
 **What does it cost?**
-Group batch of five to eight students: USD 40 a month, CAD 56.37. One to one: USD 100 a month, CAD
-140.93. Converted at 1 US dollar to 1.4093 Canadian dollars, the Bank of Canada daily rate for 24
+A seat in a cohort of five to eight: USD 40 a month, CAD 56.37. Private one to one: USD 100 a month,
+CAD 140.93. Converted at 1 US dollar to 1.4093 Canadian dollars, the Bank of Canada daily rate for 24
 July 2026, series FXUSDCAD. First class free, no card.
 
 **Does it count toward the OSSD?**
@@ -48,9 +48,9 @@ which is the kind of evidence Waterloo's Admission Information Form and the supp
 required at U of T St. George are asking for.
 
 **What ages?**
-6 to 67, in three separate curricula rather than one course delivered at three speeds. In Quebec, a
-17 year old is usually a CEGEP student and belongs in the college and adult cohort rather than a
-teen one.
+6 to 67, taught as three distinct curricula and not as one course delivered at three speeds. Note
+the Quebec exception: a 17 year old there is usually already at CEGEP and belongs with the college
+and adult group rather than with teenagers.
 
 ## Courses, by age band
 
@@ -106,22 +106,21 @@ is one province or territory in one season, so thirteen jurisdictions across N s
 
 Steps the student works through:
 
-1. Assemble the panel by hand from the situation reports, one row per province-season, and record
-   the as-of date of every area figure in its own column
-2. Normalise the snapshots, keeping only end of season figures or fixing one calendar cutoff, so
-   that scraping the latest available total does not manufacture a trend out of a publishing
-   schedule
-3. Engineer the fire weather features, seasonal mean Fire Weather Index and Drought Code, May to
+1. Assemble the panel by hand from the situation reports, one row per province-season, recording
+   the as-of date of every area figure in its own column, then normalise the snapshots by keeping
+   only end of season figures or fixing one calendar cutoff, so that scraping the latest available
+   total does not manufacture a trend out of a publishing schedule
+2. Engineer the fire weather features, seasonal mean Fire Weather Index and Drought Code, May to
    June precipitation anomaly, lightning strike count, overwintering fires carried in from the prior
    season, and days at national preparedness level 4 or 5, then write down which of them are
    actually known at the moment a forecast would be wanted
-4. Plot the target, notice how violently right skewed it is, apply log1p and plot again, then write
+3. Plot the target, notice how violently right skewed it is, apply log1p and plot again, then write
    one sentence saying why
-5. Build the baseline first, predicting each province's own historical median hectares. Any later
+4. Build the baseline first, predicting each province's own historical median hectares. Any later
    model that does not beat it is not a model
-6. Fit gradient boosting under GroupKFold with groups set to the fire season year, and report mean
+5. Fit gradient boosting under GroupKFold with groups set to the fire season year, and report mean
    absolute error on the log scale and back transformed into hectares
-7. Rerun step 6 with a plain random split, record the inflated score, and write up the difference,
+6. Rerun step 5 with a plain random split, record the inflated score, and write up the difference,
    because the gap is the lesson
 
 The trap is group leakage by fire season. Canadian fire seasons are correlated across the continent:
