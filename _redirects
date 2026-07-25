@@ -1308,6 +1308,16 @@
 /ai-and-machine-learning-classes-in-zurich.md /src/pages/ai-and-machine-learning-classes-in-zurich.md 200
 /ai-and-machine-learning-classes-in-singapore /src/pages/ai-and-machine-learning-classes-in-singapore.html 200
 /ai-and-machine-learning-classes-in-singapore.md /src/pages/ai-and-machine-learning-classes-in-singapore.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ai-and-machine-learning-classes-in-canada /src/pages/ai-and-machine-learning-classes-in-canada.html 200
+/ai-and-machine-learning-classes-in-canada.md /src/pages/ai-and-machine-learning-classes-in-canada.md 200
+/ai-and-machine-learning-classes-in-australia /src/pages/ai-and-machine-learning-classes-in-australia.html 200
+/ai-and-machine-learning-classes-in-australia.md /src/pages/ai-and-machine-learning-classes-in-australia.md 200
+/ai-and-machine-learning-classes-in-ireland /src/pages/ai-and-machine-learning-classes-in-ireland.html 200
+/ai-and-machine-learning-classes-in-ireland.md /src/pages/ai-and-machine-learning-classes-in-ireland.md 200
+/ai-and-machine-learning-classes-in-hong-kong /src/pages/ai-and-machine-learning-classes-in-hong-kong.html 200
+/ai-and-machine-learning-classes-in-hong-kong.md /src/pages/ai-and-machine-learning-classes-in-hong-kong.md 200
 /* /src/pages/404.html 404
 
 
