@@ -255,8 +255,8 @@
           <p class="ag-course-code">BH / KIDS / 02</p>
           <h4>AI Literacy for Kids</h4>
           <p>
-            Where a model's answers come from, why the wrong ones sound as certain as the right ones,
-            and how to check a claim before repeating it. The habit outlasts any tool.
+            Where a model's answers come from, why the wrong ones sound as certain as the right
+            ones, and how to check a claim before repeating it.
           </p>
           <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
         </article>
@@ -295,7 +295,7 @@
           <h4>Data Science for Teens</h4>
           <p>
             Most of the real work happens before the model exists: loading, cleaning, joining,
-            plotting, finding the row whose units are wrong. The airport dataset below lives here.
+            plotting, finding the row whose units are wrong.
           </p>
           <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
         </article>
@@ -341,8 +341,8 @@
           <p class="ag-course-code">BH / PRO / 02</p>
           <h4>Generative AI: LLMs, RAG and Agents</h4>
           <p>
-            How large language models are trained, fine tuned and grounded against a private document
-            set, and how an agent is constrained so it fails loudly rather than quietly.
+            How large language models are trained, fine tuned and grounded against a private
+            document set, and how an agent is constrained so it fails loudly.
           </p>
           <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Open the syllabus</a>
         </article>
@@ -350,8 +350,8 @@
           <p class="ag-course-code">BH / PRO / 03</p>
           <h4>Python and AI Automation</h4>
           <p>
-            For professionals in Manama who want the applied half first: machine learning and
-            language processing turned on the reports and spreadsheets already on the desk.
+            For professionals in Manama who want the applied half first: machine learning turned on
+            the reports and spreadsheets already on the desk.
           </p>
           <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Open the syllabus</a>
         </article>
@@ -398,8 +398,8 @@
         aviation forecast, and the reason is structural. Gulf Air is the rare Gulf carrier with a
         single hub, that hub is Bahrain International Airport, and it serves an island of 1.59
         million people. Every seasonal shock lands in one airport's monthly figures, so thirty six
-        rows model an entire national aviation system. The data is free and public on the Bahrain
-        Open Data Portal, published by Civil Aviation Affairs.
+        rows model a whole national aviation system. The data is free on the Bahrain Open Data
+        Portal, published by Civil Aviation Affairs.
       </p>
     </div>
 
@@ -427,27 +427,27 @@
           </tbody>
         </table>
         <p style="font-size:.85rem;opacity:.75;margin-top:10px">
-          Passengers and aircraft movements are published figures; passengers per movement is the
-          only computed column. The February 2026 Ramadan cell is deliberately blank, because a
-          number you have not checked is a guess, not a feature.
+          Passengers and aircraft movements are published; passengers per movement is the only
+          computed column. The February 2026 Ramadan cell is deliberately blank, because a number
+          you have not checked is a guess, not a feature.
         </p>
       </div>
       <div>
         <p>
           There is a schema trap, and we teach it first because it is what makes a beginner declare
-          the data broken. The passenger total is embark plus disembark plus transit. Transfers are
-          published as a separate line and are not a component of it. Check January 2025: 396,376
-          plus 411,908 plus 4,243 gives 812,527, exactly the published total.
+          the data broken. The passenger total is embark plus disembark plus transit; transfers are
+          a separate published line, not a component of it. Check January 2025: 396,376 plus 411,908
+          plus 4,243 gives 812,527, exactly the published total.
         </p>
         <p>
-          That one fact explains a discrepancy a student would otherwise chase for an hour. The
-          portal reports 9.35 million passengers for 2024 while press coverage quotes 13,970,201
-          including transfers. The gap of roughly 4.6 million is the transfer line, not an error.
+          That explains a discrepancy a student would otherwise chase for an hour. The portal
+          reports 9.35 million passengers for 2024 while press coverage quotes 13,970,201 including
+          transfers. The gap of roughly 4.6 million is the transfer line, not an error.
         </p>
         <p>
-          The target is passengers per aircraft movement rather than raw passengers, because that
-          strips out fleet growth and stops the model quietly refitting a trend. We fit raw
-          passengers too, because the comparison is where the argument lives.
+          The target is passengers per aircraft movement, not raw passengers, because that strips
+          out fleet growth and stops the model quietly refitting a trend. We fit raw passengers too,
+          because the comparison is where the argument lives.
         </p>
         <p>
           <span class="ag-chip">pandas</span><span class="ag-chip">scikit-learn</span>
@@ -475,7 +475,7 @@
             2026 fails: the portal publishes the total as 705.61 while its own components sum to
             705,610, a thousands units bug rather than a collapse. Then sum each year: 2024 gives
             9,350,580 and 2025 gives 9,739,928, matching Bahrain Airport Company's published 9.35
-            million and 9.74 million. A free external check on your own data loading is rare.
+            million and 9.74 million.
           </p>
         </li>
         <li class="ag-step" data-step="3">
@@ -483,8 +483,7 @@
           <p>
             Use a Hijri calendar library to count how many days of each Gregorian month fall inside
             Ramadan. Do not hard-code dates you have not checked. Ramadan began on 23 March 2023,
-            11 March 2024 and 1 March 2025, and its start is set by moon sighting, so it can differ
-            by a day between countries.
+            11 March 2024 and 1 March 2025, and its start is set by moon sighting.
           </p>
         </li>
         <li class="ag-step" data-step="4">
@@ -502,8 +501,7 @@
             Normalise the target to passengers per movement, then fit linear regression and ridge
             under leave one out cross validation. Features: aircraft movements, Ramadan days in the
             month, the sine and cosine of month of year, and months since January 2023. Thirty six
-            rows are far too few for a train and test split, and far too few for a random forest,
-            which would memorise them and report a beautiful number.
+            rows are far too few for a train and test split, and far too few for a random forest.
           </p>
         </li>
         <li class="ag-step" data-step="6">
@@ -524,8 +522,7 @@
             Which months does the model still miss, and why? Investigate the Formula 1 Bahrain Grand
             Prix, held on 2 March 2024 and 13 April 2025, the travel surge straight after Ramadan,
             and the December peak. One caveat belongs in the write up: passengers per movement
-            conflates how full an aircraft is with how large it is. A student who raises that
-            unprompted has understood the model better than one reporting only an R squared.
+            conflates how full an aircraft is with how large it is.
           </p>
         </li>
       </ol>
@@ -540,40 +537,40 @@
       <p class="ag-eyebrow">The distinction</p>
       <h2>Using AI and building AI are two different educations</h2>
       <p class="ag-lede">
-        We teach both, in that order, and we say plainly which of the two holds its value.
-        Prompting is a product skill and products are rewritten every year. Modelling rests on
-        mathematics, which is not.
+        We teach both, in that order, and we say plainly which holds its value. Prompting is a
+        product skill and products are rewritten every year. Modelling rests on mathematics, which
+        is not.
       </p>
     </div>
     <div class="ag-ladder">
       <div class="ag-ladder-col">
         <h4>Using AI tools</h4>
         <ul>
-          <li>Type a request, read the reply, reword it and try again</li>
+          <li>Type a request, read the reply, reword it, try again</li>
           <li>Learn the menus of whichever product is popular this quarter</li>
-          <li>Success means an answer that looks plausible on the screen</li>
+          <li>Success means an answer that looks plausible</li>
           <li>Transfers badly when the tool changes, or the pricing does</li>
-          <li>Worth about six weeks of anybody's attention</li>
-          <li>We teach it briefly and properly, including how to catch a confident wrong answer</li>
+          <li>Worth about six weeks of anyone's attention</li>
+          <li>We teach it briefly, including how to catch a confident wrong answer</li>
         </ul>
       </div>
       <div class="ag-ladder-col">
         <h4>Building AI</h4>
         <ul>
-          <li>Load real data, validate it, and defend every decision you made about it</li>
+          <li>Load real data, validate it, defend every decision about it</li>
           <li>Choose a model and know what assumption it is making on your behalf</li>
           <li>Train, then state the error in units a non specialist can check</li>
-          <li>Work out whether the failure is the data, the features or the model itself</li>
-          <li>Deploy it, then watch it degrade against inputs nobody predicted</li>
+          <li>Work out whether the failure is the data, the features or the model</li>
+          <li>Deploy it, then watch it degrade against unforeseen inputs</li>
           <li>Rests on statistics, linear algebra and code, none of which expire</li>
         </ul>
       </div>
     </div>
     <p class="ag-lede ag-mt-40">
-      The distinction is sharper in Bahrain than in most places, because the country decided some
-      time ago to run infrastructure rather than rent it: a national AI policy aimed at government
-      builders, a workforce programme with a specialist track for people who make AI tools, and a
-      cloud region live on the island since 2019. None of that is staffed by prompting.
+      The distinction is sharper in Bahrain, because the country decided some time ago to run
+      infrastructure rather than rent it: a national AI policy aimed at government builders, a
+      workforce programme with a specialist track for people who make AI tools, and a cloud region
+      live on the island since 2019. None of that is staffed by prompting.
     </p>
   </div>
 </section>
@@ -594,8 +591,8 @@
           wider audience than officials: digital service developers, decision makers, academics,
           researchers and users of smart government services. Its four pillars are legal compliance,
           including alignment with Bahrain's Personal Data Protection Law, AI use and adoption,
-          public education and awareness, and international cooperation. The authority also adopted
-          the GCC Guiding Manual on the Ethics of Artificial Intelligence Use.
+          public education, and international cooperation. The authority also adopted the GCC
+          Guiding Manual on the Ethics of Artificial Intelligence Use.
         </p>
         <p>
           A further layer is still in motion. In April 2024 the Shura Council unanimously approved a
@@ -606,10 +603,10 @@
         </p>
         <p>
           The programme that matters most to a family is Tamkeen's. In April 2025 Bahrain's Labour
-          Fund launched a bundle to train 50,000 Bahrainis in AI by 2030, delivered with local and
-          international providers across three tracks: Executive Leadership in AI, General AI Skills,
-          and AI Specialist Training for people who build AI tools. Note the shape of that. Two of
-          the three tracks are for users. One is for builders, and it is the one in shortest supply.
+          Fund launched a bundle to train 50,000 Bahrainis in AI by 2030 across three tracks:
+          Executive Leadership in AI, General AI Skills, and AI Specialist Training for people who
+          build AI tools. Note the shape. Two tracks are for users. One is for builders, and it is
+          the one in shortest supply.
         </p>
       </div>
       <div>
@@ -623,11 +620,10 @@
           The employer picture is unusually legible too. Citi opened a Global Technology Hub in Seef
           with Tamkeen and the Bahrain Economic Development Board, carrying a ten year target of
           1,000 Bahraini coding jobs; as of January 2023 it had 110 Bahraini employees, 91 already
-          at the Seef premises, with women at 22 per cent of Bahraini staff. Citi has stated that
-          across the candidate countries for its technical coding test and interview, Bahraini
-          talent had the highest pass rate. Financial services is the deepest non-oil sector:
-          Bahrain FinTech Bay hosts more than 100 firms, and the Central Bank of Bahrain runs the
-          region's first regulatory sandbox.
+          at the Seef premises. Citi has stated that across the candidate countries for its
+          technical coding test and interview, Bahraini talent had the highest pass rate. Financial
+          services is the deepest non-oil sector: Bahrain FinTech Bay hosts more than 100 firms, and
+          the Central Bank of Bahrain runs the region's first regulatory sandbox.
         </p>
         <p>
           Every item on those lists is a construction project, and a child who is twelve today will
@@ -675,12 +671,12 @@
         <h3 style="margin-top:34px">The British, American and IB schools</h3>
         <p>
           The other boards genuinely sat here are Cambridge and Pearson Edexcel IGCSE and A Level,
-          the IB Diploma, the Bahrain Ministry of Education national certificates including the
-          General Intermediate and Religious Intermediate, and the American high school diploma. St
+          the IB Diploma, the Bahrain Ministry of Education certificates including the General
+          Intermediate and Religious Intermediate, and the American high school diploma. St
           Christopher's School, established 1961, offers IGCSE, A Levels, BTEC and the IB Diploma
-          and is rated Outstanding by British Schools Overseas. The British School of Bahrain runs
-          the British curriculum, and Ibn Khuldoon National School in Isa Town, established 1983,
-          runs an American curriculum with an IB option.
+          and is rated Outstanding by British Schools Overseas. Ibn Khuldoon National School in Isa
+          Town, established 1983, runs an American curriculum with an IB option, and the British
+          School of Bahrain runs the British curriculum.
         </p>
         <p>
           Bahrain School is a local oddity worth knowing about: operated by the Bahrain
@@ -696,8 +692,7 @@
           Framework Level 9, worth 180 NQF credits, first intake October 2024, positioned for
           computer science and ICT graduates, engineering and applied science graduates, and
           technically literate graduates from other domains. Its School of ICT offers bachelor's
-          programmes in Programming, Networking, Cybersecurity, Information Systems and Database
-          Systems.
+          programmes in Programming, Networking, Cybersecurity and Database Systems.
         </p>
         <p>
           The undergraduate requirements are the ones to read years in advance: a secondary school
@@ -722,10 +717,10 @@
           alongside MSc programmes in Information Technology, Cybersecurity and Software
           Engineering. The American University of Bahrain offers a BSc in Data Science and
           Artificial Intelligence through its College of Engineering and Computing, covering
-          programming, algorithms, database systems, statistics, machine learning, deep learning,
-          data visualisation and big data analytics, which is the most direct undergraduate AI
-          degree in the country. Also in the set are the University of Technology Bahrain, Ahlia
-          University, RCSI Bahrain and the Bahrain Institute of Banking and Finance.
+          programming, algorithms, statistics, machine learning, deep learning and big data
+          analytics, which is the most direct undergraduate AI degree in the country. Also in the
+          set are the University of Technology Bahrain, Ahlia University, RCSI Bahrain and the
+          Bahrain Institute of Banking and Finance.
         </p>
       </div>
     </div>
@@ -762,9 +757,8 @@
         </p>
         <p>
           Between sessions there is a task rather than a worksheet: something to build, break and
-          bring back. Questions during the week go to the same teacher, not into a queue. We place
-          no class on a Friday before roughly 2:00pm, so Jumu'ah is never in competition with a
-          lesson.
+          bring back. Questions go to the same teacher, not into a queue. We place no class on a
+          Friday before roughly 2:00pm, so Jumu'ah is never in competition with a lesson.
         </p>
       </div>
       <div>
@@ -772,10 +766,9 @@
         <p>
           Two exam seasons dominate. The Ministry of Education's published calendar puts first term
           finals from late December into mid January, the mid year break across the second half of
-          January, and the second term opening in early February. The large Indian curriculum
-          segment has a different dead zone: CBSE board exams run roughly February to April, set
-          from India. Cambridge and Edexcel families work around the May to June and October to
-          November series.
+          January, and the second term opening in early February. The Indian curriculum segment has
+          a different dead zone: CBSE board exams run roughly February to April, set from India.
+          Cambridge and Edexcel families work around the May to June and October to November series.
         </p>
         <p>
           We pause for National Day on 16 December 2026 and Accession Day on 17 December 2026,

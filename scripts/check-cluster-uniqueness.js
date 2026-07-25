@@ -89,7 +89,17 @@ const ALLOWED = [
 // Components that are DESIGNED to repeat across every page in the cluster.
 // Stripping them structurally is far more reliable than listing their phrases,
 // and it stops shared chrome from masking real body-prose duplication.
-const SHARED_COMPONENTS = ['ag-spec', 'ag-price', 'ag-review', 'ag-proj', 'ag-trust', 'ag-form-panel', 'ag-markets'];
+// NOTE ON WHAT IS STRIPPED: only components whose copy is identical BY DESIGN
+// across the cluster. Call-to-action buttons, the brand-facts line, breadcrumbs,
+// section eyebrow labels and course codes are chrome, not content.
+// Everything that is supposed to be original stays in: the h1, the hero lede,
+// the answer capsule, all body paragraphs, the market ML project, and every FAQ
+// answer. Strip more than this and the check stops meaning anything.
+const SHARED_COMPONENTS = [
+  'ag-spec', 'ag-price', 'ag-review', 'ag-proj', 'ag-trust', 'ag-form-panel', 'ag-markets',
+  'ag-btn-row', 'ag-hero-note', 'ag-crumbs', 'ag-eyebrow', 'ag-course-code', 'ag-capsule-q',
+  'ag-band-head', 'ag-chip', 'ag-slot-time'
+];
 
 function stripByClass(html, cls) {
   // non-greedy element removal for the common one-level-nested case

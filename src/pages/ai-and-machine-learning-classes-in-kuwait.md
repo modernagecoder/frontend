@@ -9,9 +9,9 @@ ages: 6 to 67
 ---
 
 > Modern Age Coders runs live online AI and machine learning classes for students in Kuwait, ages
-> 6 to 67, in small batches of five to eight or one to one. Students learn Python and the
-> mathematics beneath machine learning, then train and evaluate their own models instead of only
-> prompting AI tools. Fees start at USD 40 a month, KD 12.312, and the first class is free.
+> 6 to 67, in batches of five to eight or one to one. Students learn Python and the mathematics
+> beneath machine learning, then train and evaluate their own models instead of only prompting AI
+> tools. Fees start at USD 40 a month, KD 12.312, and the first class is free.
 
 ## Direct answers
 
@@ -24,7 +24,8 @@ minutes ahead every day of the year.
 **Do the weekend batches run on Friday and Saturday?**
 Yes. Kuwait's weekend is Friday and Saturday and the school week runs Sunday to Thursday, so a
 Saturday and Sunday batch is wrong for this market. The weekend group meets at 10:00 Kuwait time on
-Friday or Saturday, which is 12:30 in India.
+Friday or Saturday, which is 12:30 in India. The latest weekday slot is 18:00 to 19:30 Kuwait time,
+because the practical ceiling of 7:30 PM here is already 10:00 PM in India.
 
 **What makes this different from other AI courses sold in Kuwait?**
 Most teach prompting. This teaches model building: assembling data, choosing a model, training it,
@@ -50,14 +51,14 @@ deep learning, generative AI and deployment.
 
 ### Teenagers, ages 13 to 18
 - [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): Python, the required mathematics, classical algorithms, neural networks, computer vision, language models
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): messy files, joins that disagree, plotting, and the single bad row that poisons every later number
+- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): messy files, joins that disagree, plotting, and the bad row that poisons every later number
 - [Python for Teens](/courses/python-complete-masterclass-teens): two years from the first line to genuinely advanced Python
 - [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course): shipping web and Python projects with an AI assistant, then reviewing what it wrote line by line
 
 ### University students and working professionals
 - [AI and Machine Learning Masterclass](/courses/ai-ml-masterclass-complete-college): supervised and unsupervised methods, deep networks, evaluation, deployment
 - [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): how language models are trained, fine tuned and grounded against a private document set
-- [Python and AI Automation](/courses/python-ai-automation-masterclass-college): machine learning and natural language processing applied to real working pipelines
+- [Python and AI Automation](/courses/python-ai-automation-masterclass-college): machine learning and language processing applied to real working pipelines
 - [Data Science Masterclass](/courses/data-science-complete-masterclass-college): statistics, SQL, feature engineering, modelling, communication
 - [Data Structures and Algorithms](/courses/data-structures-algorithms-masterclass-college): the interview gate, taught as problem solving
 
@@ -76,9 +77,9 @@ Kuwait Meteorological Center, annual observations at Kuwait International Airpor
 
 | Year | Dust storm | Blowing dust | Dust haze | Haze | Rainfall, mm |
 |---|---|---|---|---|---|
-| 2014 | 8 | 45 | 48 | 236 | not published |
-| 2015 | 8 | 68 | 76 | 276 | not published |
-| 2016 | 2 | 54 | 43 | 256 | not published |
+| 2014 | 8 | 45 | 48 | 236 | n/a |
+| 2015 | 8 | 68 | 76 | 276 | n/a |
+| 2016 | 2 | 54 | 43 | 256 | n/a |
 | 2017 | 2 | 62 | 47 | 292 | 52.2 |
 | 2018 | 18 | 86 | 97 | 291 | 344.1 |
 | 2019 | 4 | 63 | 93 | 295 | 69.3 |
@@ -88,10 +89,9 @@ Kuwait Meteorological Center, annual observations at Kuwait International Airpor
 | 2023 | 1 | 53 | 58 | 305 | 147.4 |
 
 2018 is a double outlier: the decade's highest dust storm count, eighteen, in its wettest year,
-344.1 mm, of which November alone delivered 261.8 mm with 79.0 mm on 14 November. 2021 was the
-driest year at 32.3 mm and still recorded seven dust storms, while 2023 had 147.4 mm and recorded
-one. Haze runs 236 to 317 days a year against 1 to 18 dust storms, a class imbalance of roughly one
-in three hundred, which is the real lesson.
+344.1 mm. 2021 was the driest year at 32.3 mm and still recorded seven dust storms, while 2023 had
+147.4 mm and recorded one. Haze runs 236 to 317 days a year against 1 to 18 dust storms, a class
+imbalance of roughly one in three hundred, which is the real lesson.
 
 Target: a four class daily label matching the Met Center's categories, dust storm, blowing dust,
 dust haze and haze, plus clear, with the headline task reduced to dust storm against everything
@@ -122,7 +122,7 @@ safety, AI governance with privacy and security, workforce empowerment through s
 literacy and scholarships, and an ecosystem of startups, venture capital and academic collaboration.
 Named first year initiatives are an AI Centre of Excellence, pilot projects, a centralised data
 repository and a High-Level Steering Committee drawing on CAIT, CITRA, the National Cybersecurity
-Center, ministries, academia and the private sector. Years 2 and 3, 2026 and 2027, scale the
+Center, ministries, academia and the private sector. Years two and three, 2026 and 2027, scale the
 successful pilots, with full sectoral integration targeted by 2028.
 
 In March 2025 Microsoft signed a strategic partnership with the Government of Kuwait announcing
@@ -151,9 +151,6 @@ Boursa Kuwait listed banks, total assets at year end 2025, KD million:
 | Burgan Bank | 9,099 |
 | Gulf Bank | 7,700 |
 | Warba Bank | 6,028 |
-
-In Q1 2026 Kuwait Finance House led on profit with KD 176.5 million, up 5.0 per cent year on year,
-and National Bank of Kuwait followed with KD 135.5 million on total assets of KD 46.10 billion.
 
 ## School and university fit
 
@@ -188,15 +185,14 @@ Those are postgraduate requirements, not school-leaver ones.
 
 Abdullah Al-Salem University, the second public university, was inaugurated by the Amir with an
 Amiri Diwan announcement dated 6 March 2024, and runs colleges of Business and Entrepreneurship,
-Computing and Systems, Engineering and Energy, and Health and Medicine, with stated focus on
-cybersecurity, data science, artificial intelligence and renewable energy under Kuwait Vision 2035.
-Gulf University for Science and Technology teaches Computer Science covering programming,
-algorithms, data structures, artificial intelligence, databases, web and mobile development,
-cybersecurity and networking. The American University of Kuwait runs a BSc in Computer Science
-through its College of Engineering and Applied Sciences at a minimum 120 credit hours. American
-International University Kuwait offers BS Computer Science with an Artificial Intelligence
-specialisation and a separate Data Science specialisation. The American University of the Middle
-East also operates in Kuwait.
+Computing and Systems, Engineering and Energy, and Health and Medicine, focused on cybersecurity,
+data science, artificial intelligence and renewable energy under Kuwait Vision 2035. Gulf University
+for Science and Technology teaches Computer Science covering programming, algorithms, data
+structures, artificial intelligence, databases, web and mobile development, cybersecurity and
+networking. The American University of Kuwait runs a BSc in Computer Science through its College of
+Engineering and Applied Sciences at a minimum 120 credit hours. American International University
+Kuwait offers BS Computer Science with an Artificial Intelligence specialisation and a separate Data
+Science specialisation. The American University of the Middle East also operates in Kuwait.
 
 ## Class times, Kuwait
 
@@ -206,17 +202,14 @@ East also operates in Kuwait.
 | 18:00 to 19:30, Sunday to Thursday | 20:30 IST | Teenagers and working adults |
 | 10:00 to 11:30, Friday or Saturday | 12:30 IST | Weekend group, all age bands |
 
-Sessions are 90 minutes, live video, five to eight students or one to one. The practical ceiling is
-7:30 PM Kuwait time, which is already 10:00 PM in India, so no 8:00 or 9:00 PM Kuwait batch is
-advertised.
+Sessions are 90 minutes, live video, five to eight students or one to one.
 
 Two academic years run side by side. Indian curriculum families run April to March with CBSE Class
 10 and 12 board exams in the February to April window. British, American, IB and Kuwaiti schools run
 late August or September to June. Kuwait English School publishes 2026 to 2027 Term 1 as Sunday 30
-August to Thursday 17 December 2026 (72 days) with a mid term break 25 to 29 October and winter break
-20 to 31 December, Term 2 as Sunday 3 January to Thursday 15 April 2027 (61 days), and Term 3 ending
-16 to 17 June 2027 (38 days), with Ramadan expected to begin 8 February 2027 subject to moon
-sighting.
+August to Thursday 17 December 2026, with a mid term break 25 to 29 October and winter break 20 to
+31 December, Term 2 as Sunday 3 January to Thursday 15 April 2027, and Term 3 ending 16 to 17 June
+2027, with Ramadan expected to begin 8 February 2027 subject to moon sighting.
 
 Kuwait has 13 official public holidays in 2026. National Day on Wednesday 25 February and Liberation
 Day on Thursday 26 February fall consecutively and, with the Friday and Saturday weekend, produce a
@@ -241,4 +234,4 @@ held instead.
 - Rated 4.9 across 547 Google reviews
 - Ages 6 to 67, coding, AI and mathematics
 - Live video only, never pre-recorded
-- Contact: [/contact](/contact) · Free first class: [/ai-and-machine-learning-classes-in-kuwait](/ai-and-machine-learning-classes-in-kuwait)
+- Contact: [/contact](/contact) . Free first class: [/ai-and-machine-learning-classes-in-kuwait](/ai-and-machine-learning-classes-in-kuwait)
