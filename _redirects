@@ -1278,6 +1278,22 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /learn-to-build-ai /src/pages/learn-to-build-ai.html 200
 /learn-to-build-ai.md /src/pages/learn-to-build-ai.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ai-and-machine-learning-classes-in-muscat /src/pages/ai-and-machine-learning-classes-in-muscat.html 200
+/ai-and-machine-learning-classes-in-muscat.md /src/pages/ai-and-machine-learning-classes-in-muscat.md 200
+/ai-and-machine-learning-classes-in-kuwait /src/pages/ai-and-machine-learning-classes-in-kuwait.html 200
+/ai-and-machine-learning-classes-in-kuwait.md /src/pages/ai-and-machine-learning-classes-in-kuwait.md 200
+/ai-and-machine-learning-classes-in-kuwait-city /src/pages/ai-and-machine-learning-classes-in-kuwait-city.html 200
+/ai-and-machine-learning-classes-in-kuwait-city.md /src/pages/ai-and-machine-learning-classes-in-kuwait-city.md 200
+/ai-and-machine-learning-classes-in-bahrain /src/pages/ai-and-machine-learning-classes-in-bahrain.html 200
+/ai-and-machine-learning-classes-in-bahrain.md /src/pages/ai-and-machine-learning-classes-in-bahrain.md 200
+/ai-and-machine-learning-classes-in-uae /src/pages/ai-and-machine-learning-classes-in-uae.html 200
+/ai-and-machine-learning-classes-in-uae.md /src/pages/ai-and-machine-learning-classes-in-uae.md 200
+/ai-and-machine-learning-classes-in-saudi-arabia /src/pages/ai-and-machine-learning-classes-in-saudi-arabia.html 200
+/ai-and-machine-learning-classes-in-saudi-arabia.md /src/pages/ai-and-machine-learning-classes-in-saudi-arabia.md 200
+/ai-and-machine-learning-classes-in-qatar /src/pages/ai-and-machine-learning-classes-in-qatar.html 200
+/ai-and-machine-learning-classes-in-qatar.md /src/pages/ai-and-machine-learning-classes-in-qatar.md 200
 /* /src/pages/404.html 404
 
 

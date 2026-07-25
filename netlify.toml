@@ -5602,6 +5602,78 @@
   to = "/src/pages/learn-to-build-ai.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-muscat"
+  to = "/src/pages/ai-and-machine-learning-classes-in-muscat.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-muscat.md"
+  to = "/src/pages/ai-and-machine-learning-classes-in-muscat.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-kuwait"
+  to = "/src/pages/ai-and-machine-learning-classes-in-kuwait.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-kuwait.md"
+  to = "/src/pages/ai-and-machine-learning-classes-in-kuwait.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-kuwait-city"
+  to = "/src/pages/ai-and-machine-learning-classes-in-kuwait-city.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-kuwait-city.md"
+  to = "/src/pages/ai-and-machine-learning-classes-in-kuwait-city.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-bahrain"
+  to = "/src/pages/ai-and-machine-learning-classes-in-bahrain.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-bahrain.md"
+  to = "/src/pages/ai-and-machine-learning-classes-in-bahrain.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-uae"
+  to = "/src/pages/ai-and-machine-learning-classes-in-uae.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-uae.md"
+  to = "/src/pages/ai-and-machine-learning-classes-in-uae.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-saudi-arabia"
+  to = "/src/pages/ai-and-machine-learning-classes-in-saudi-arabia.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-saudi-arabia.md"
+  to = "/src/pages/ai-and-machine-learning-classes-in-saudi-arabia.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-qatar"
+  to = "/src/pages/ai-and-machine-learning-classes-in-qatar.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-qatar.md"
+  to = "/src/pages/ai-and-machine-learning-classes-in-qatar.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
