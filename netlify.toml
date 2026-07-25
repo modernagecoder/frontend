@@ -5802,6 +5802,74 @@
   to = "/src/pages/ai-and-machine-learning-classes-in-netherlands.md"
   status = 200
 
+# GSC 404 fixes, second pass. Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-class-in-Noida"
+  to = "/best-coding-class-in-noida"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/best-coding-class-in-Greater*"
+  to = "/best-coding-class-in-greater-noida"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/best-coding-class-in-Gurugram"
+  to = "/best-coding-class-in-gurgaon"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/best-coding-class-in-Hyderabad"
+  to = "/best-coding-class-in-hyderabad"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/best-coding-class-in-Navi*"
+  to = "/best-coding-class-in-navi-mumbai"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-for-la-martiniere-girls-Noida"
+  to = "/best-coding-class-in-noida"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-for-la-martiniere-girls-Greater*"
+  to = "/best-coding-class-in-greater-noida"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-for-la-martiniere-girls-Gurugram"
+  to = "/best-coding-class-in-gurgaon"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-for-la-martiniere-girls-Hyderabad"
+  to = "/best-coding-class-in-hyderabad"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-for-la-martiniere-girls-Navi*"
+  to = "/best-coding-class-in-navi-mumbai"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/best-coding-class-in-howrah"
+  to = "/best-coding-class-in-kolkata"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

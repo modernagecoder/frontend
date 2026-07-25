@@ -1326,6 +1326,23 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ai-and-machine-learning-classes-in-netherlands /src/pages/ai-and-machine-learning-classes-in-netherlands.html 200
 /ai-and-machine-learning-classes-in-netherlands.md /src/pages/ai-and-machine-learning-classes-in-netherlands.md 200
+
+# GSC 404 fixes, second pass. Malformed city URLs the first pass missed:
+# a generator wrote the display name (caps, spaces) instead of the slug.
+# Splat form where the bad URL contains a space, since _redirects is
+# whitespace delimited. Must stay above the /* catch-all.
+/best-coding-class-in-Noida /best-coding-class-in-noida 301!
+/best-coding-class-in-Greater* /best-coding-class-in-greater-noida 301!
+/best-coding-class-in-Gurugram /best-coding-class-in-gurgaon 301!
+/best-coding-class-in-Hyderabad /best-coding-class-in-hyderabad 301!
+/best-coding-class-in-Navi* /best-coding-class-in-navi-mumbai 301!
+/coding-classes-for-la-martiniere-girls-Noida /best-coding-class-in-noida 301!
+/coding-classes-for-la-martiniere-girls-Greater* /best-coding-class-in-greater-noida 301!
+/coding-classes-for-la-martiniere-girls-Gurugram /best-coding-class-in-gurgaon 301!
+/coding-classes-for-la-martiniere-girls-Hyderabad /best-coding-class-in-hyderabad 301!
+/coding-classes-for-la-martiniere-girls-Navi* /best-coding-class-in-navi-mumbai 301!
+/best-coding-class-in-howrah /best-coding-class-in-kolkata 301!
+
 /* /src/pages/404.html 404
 
 
