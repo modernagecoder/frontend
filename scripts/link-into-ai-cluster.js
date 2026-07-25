@@ -100,13 +100,29 @@ const MAP2 = {
   'coding-classes-in-switzerland': [['ai-and-machine-learning-classes-in-zurich', 'AI &amp; Machine Learning in Zurich']],
   'coding-classes-in-germany': [['ai-and-machine-learning-classes-in-zurich', 'AI &amp; Machine Learning in Zurich']],
   'maths-tutor-in-dubai': [['ai-and-machine-learning-classes-in-uae', 'AI &amp; Machine Learning in the UAE']],
-  'online-maths-tuition-uae': [['ai-and-machine-learning-classes-in-uae', 'AI &amp; Machine Learning in the UAE']]
+  'online-maths-tuition-uae': [['ai-and-machine-learning-classes-in-uae', 'AI &amp; Machine Learning in the UAE']],
+
+  // Hong Kong and the Netherlands have no coding-classes-in-<market> counterpart
+  // at all, so they stay orphaned unless a regional neighbour points at them.
+  'coding-classes-in-singapore': [['ai-and-machine-learning-classes-in-hong-kong', 'AI &amp; Machine Learning in Hong Kong']],
+  'online-maths-tuition-singapore': [['ai-and-machine-learning-classes-in-hong-kong', 'AI &amp; Machine Learning in Hong Kong']],
+  'coding-classes-in-sweden': [['ai-and-machine-learning-classes-in-netherlands', 'AI &amp; Machine Learning in the Netherlands']],
+  'coding-classes-in-new-zealand': [['ai-and-machine-learning-classes-in-australia', 'AI &amp; Machine Learning in Australia']]
+};
+
+// Third pass. Same idea again for pages whose footer already carries a cluster
+// link: a second target is fine because these footers are country indexes.
+const MAP3 = {
+  'coding-classes-in-germany': [['ai-and-machine-learning-classes-in-netherlands', 'AI &amp; Machine Learning in the Netherlands']],
+  'coding-classes-in-switzerland': [['ai-and-machine-learning-classes-in-netherlands', 'AI &amp; Machine Learning in the Netherlands']],
+  'coding-classes-in-australia': [['ai-and-machine-learning-classes-in-hong-kong', 'AI &amp; Machine Learning in Hong Kong']]
 };
 
 // flatten both maps into one work list of [source, target, anchor]
 const WORK = [];
 for (const [src, [target, anchor]] of Object.entries(MAP)) WORK.push([src, target, anchor]);
 for (const [src, pairs] of Object.entries(MAP2)) for (const [t, a] of pairs) WORK.push([src, t, a]);
+for (const [src, pairs] of Object.entries(MAP3)) for (const [t, a] of pairs) WORK.push([src, t, a]);
 
 let added = 0, skipped = 0, missing = 0, noSpot = 0;
 
