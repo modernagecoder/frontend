@@ -1343,7 +1343,13 @@
 /coding-classes-for-la-martiniere-girls-Navi* /best-coding-class-in-navi-mumbai 301!
 /best-coding-class-in-howrah /best-coding-class-in-kolkata 301!
 
-/* /src/pages/404.html 404
+
+# ============================================================================
+# RELOCATED 2026-07-27: everything below this banner previously sat AFTER the
+# /* catch-all, where no rule can ever fire (first match wins). Confirmed live
+# before the fix: these rules were dead and their URLs 404ed in production,
+# including the .md twins. The /* catch-all must stay the LAST line.
+# ============================================================================
 
 
 # ===== Parity sync 2026-07-08: rules previously only in netlify.toml (md twins, alias 301s, api) =====
@@ -1453,3 +1459,6 @@
 /returnship-coding /coding-comeback-women 301!
 /transformer-explained /how-ai-actually-works 301!
 /women-back-to-tech /coding-comeback-women 301!
+
+
+/* /src/pages/404.html 404

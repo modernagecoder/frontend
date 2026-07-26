@@ -5474,64 +5474,6 @@
 
 # --- Landing pages that existed but had no clean URL ---
 [[redirects]]
-  from = "/how-ai-actually-works"
-  to = "/src/pages/how-ai-actually-works.html"
-  status = 200
-[[redirects]]
-  from = "/how-ai-actually-works.html"
-  to = "/how-ai-actually-works"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/build-your-own-gpt-python"
-  to = "/src/pages/build-your-own-gpt-python.html"
-  status = 200
-[[redirects]]
-  from = "/build-your-own-gpt-python.html"
-  to = "/build-your-own-gpt-python"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/screen-time-to-skill"
-  to = "/src/pages/screen-time-to-skill.html"
-  status = 200
-[[redirects]]
-  from = "/screen-time-to-skill.html"
-  to = "/screen-time-to-skill"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/coding-olympiad-medal-track"
-  to = "/src/pages/coding-olympiad-medal-track.html"
-  status = 200
-[[redirects]]
-  from = "/coding-olympiad-medal-track.html"
-  to = "/coding-olympiad-medal-track"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/jee-aspirant-coding-track"
-  to = "/src/pages/jee-aspirant-coding-track.html"
-  status = 200
-[[redirects]]
-  from = "/jee-aspirant-coding-track.html"
-  to = "/jee-aspirant-coding-track"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/coding-fee-calculator"
-  to = "/src/pages/coding-fee-calculator.html"
-  status = 200
-[[redirects]]
-  from = "/coding-fee-calculator.html"
-  to = "/coding-fee-calculator"
-  status = 301
-  force = true
-[[redirects]]
-  from = "/coding-comeback-women"
-  to = "/src/pages/coding-comeback-women.html"
-  status = 200
-[[redirects]]
   from = "/coding-comeback-women.html"
   to = "/coding-comeback-women"
   status = 301
@@ -5870,90 +5812,13 @@
   status = 301
   force = true
 
-[[redirects]]
-  from = "/*"
-  to = "/src/pages/404.html"
-  status = 404
-
-# Security headers
-# No X-Robots-Tag here on purpose: "index, follow" is already the default, so the header
-# added nothing — but /*.md matches this rule too, so it sent markdown twins a second,
-# contradictory X-Robots-Tag alongside their "noindex" one. Omitting it leaves the twins
-# with exactly one directive and leaves HTML pages indexable exactly as before.
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-Content-Type-Options = "nosniff"
-    X-XSS-Protection = "1; mode=block"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-    Content-Signal = "ai-train=yes, search=yes, ai-input=yes"
-
-# Markdown twins for AI agents — text/markdown content type. Kept out of
-# search index to avoid duplicate-content signals against the canonical HTML.
-[[headers]]
-  for = "/*.md"
-  [headers.values]
-    Content-Type = "text/markdown; charset=utf-8"
-    X-Robots-Tag = "noindex, follow"
-    Content-Signal = "ai-train=yes, search=yes, ai-input=yes"
-    Cache-Control = "public, max-age=3600"
-    Vary = "Accept"
-
-[[headers]]
-  for = "/llms.txt"
-  [headers.values]
-    Content-Type = "text/markdown; charset=utf-8"
-    Cache-Control = "public, max-age=3600"
-
-[[headers]]
-  for = "/llms-full.txt"
-  [headers.values]
-    Content-Type = "text/markdown; charset=utf-8"
-    Cache-Control = "public, max-age=3600"
-
-# Sitemap stylesheet — must be served with an XML/XSL content type so the
-# browser applies it to /sitemap.xml (the global nosniff header forbids sniffing).
-[[headers]]
-  for = "/sitemap.xsl"
-  [headers.values]
-    Content-Type = "text/xsl; charset=utf-8"
-    X-Robots-Tag = "noindex, follow"
-    Cache-Control = "public, max-age=3600"
-
-# Cache static assets
-[[headers]]
-  for = "/*.css"
-  [headers.values]
-    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
-
-[[headers]]
-  for = "/*.js"
-  [headers.values]
-    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
-
-[[headers]]
-  for = "/*.jpg"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/*.png"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/*.svg"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/*.webp"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-# ===== Parity sync 2026-07-08: rules previously only in _redirects =====
-# (/pages/*.gif|jpg|png intentionally stay _redirects-only: mid-pattern splats)
+# ============================================================================
+# RELOCATED 2026-07-27: these redirect blocks previously sat AFTER the
+# /* catch-all block and could never fire. Kept in their original relative
+# order. The /* catch-all must remain the LAST redirect block.
+# (Comment deliberately avoids the double-bracket block token so text-based
+# parsers do not miscount it as a block header.)
+# ============================================================================
 
 [[redirects]]
   from = "/ai-agents-explained.md"
@@ -5965,7 +5830,6 @@
   to = "/src/pages/ai-engineer-roadmap-2026.md"
   status = 200
 
-# Blog category hubs (Phase 3.8) — MUST precede the /blog/* catch-all
 [[redirects]]
   from = "/blog/topic/python"
   to = "/src/pages/blog/topic/python.html"
@@ -6085,8 +5949,6 @@
   to = "/coding-and-maths-for-sushila-birla-girls-school-kolkata"
   status = 301
   force = true
-
-# Dead /courses/ slugs referenced by 24 pages. MUST precede the /courses/* rule.
 
 [[redirects]]
   from = "/courses/ai-ml-teens"
@@ -6328,8 +6190,6 @@
   status = 301
   force = true
 
-# Dead /courses/ slugs referenced by 24 pages. MUST precede the /courses/* rule.
-
 [[redirects]]
   from = "/courses/computer-vision-course"
   to = "/computer-vision-course"
@@ -6378,3 +6238,166 @@
   from = "/resources/*"
   to = "/content/resources/generated/:splat/index.html"
   status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/src/pages/404.html"
+  status = 404
+
+# Security headers
+# No X-Robots-Tag here on purpose: "index, follow" is already the default, so the header
+# added nothing — but /*.md matches this rule too, so it sent markdown twins a second,
+# contradictory X-Robots-Tag alongside their "noindex" one. Omitting it leaves the twins
+# with exactly one directive and leaves HTML pages indexable exactly as before.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Signal = "ai-train=yes, search=yes, ai-input=yes"
+
+# Markdown twins for AI agents — text/markdown content type. Kept out of
+# search index to avoid duplicate-content signals against the canonical HTML.
+[[headers]]
+  for = "/*.md"
+  [headers.values]
+    Content-Type = "text/markdown; charset=utf-8"
+    X-Robots-Tag = "noindex, follow"
+    Content-Signal = "ai-train=yes, search=yes, ai-input=yes"
+    Cache-Control = "public, max-age=3600"
+    Vary = "Accept"
+
+[[headers]]
+  for = "/llms.txt"
+  [headers.values]
+    Content-Type = "text/markdown; charset=utf-8"
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/llms-full.txt"
+  [headers.values]
+    Content-Type = "text/markdown; charset=utf-8"
+    Cache-Control = "public, max-age=3600"
+
+# Sitemap stylesheet — must be served with an XML/XSL content type so the
+# browser applies it to /sitemap.xml (the global nosniff header forbids sniffing).
+[[headers]]
+  for = "/sitemap.xsl"
+  [headers.values]
+    Content-Type = "text/xsl; charset=utf-8"
+    X-Robots-Tag = "noindex, follow"
+    Cache-Control = "public, max-age=3600"
+
+# Cache static assets
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# ===== Parity sync 2026-07-08: rules previously only in _redirects =====
+# (/pages/*.gif|jpg|png intentionally stay _redirects-only: mid-pattern splats)
+
+
+
+# Blog category hubs (Phase 3.8) — MUST precede the /blog/* catch-all
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Dead /courses/ slugs referenced by 24 pages. MUST precede the /courses/* rule.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Dead /courses/ slugs referenced by 24 pages. MUST precede the /courses/* rule.
+
+
+
+
+
+
+
+
+
