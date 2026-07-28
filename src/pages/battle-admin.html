@@ -70,6 +70,21 @@
 
   .flag { font-family: var(--mono); font-size: .62rem; color: var(--gold); white-space: nowrap; }
 
+  /* Show/hide password. The field keeps room for the button so revealing the
+     text never reflows what is underneath it. */
+  .pw-wrap { position: relative; }
+  .pw-wrap .field { padding-right: 4.4rem; }
+  .pw-toggle {
+    position: absolute; right: .45rem; top: 50%; transform: translateY(-50%);
+    font-family: var(--mono); font-size: .62rem; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--faint);
+    background: transparent; border: 1px solid var(--line);
+    border-radius: 999px; padding: .34rem .62rem; cursor: pointer;
+    transition: color .15s ease, border-color .15s ease;
+  }
+  .pw-toggle:hover { color: var(--cyan-hi); border-color: var(--line2); }
+  .pw-toggle[aria-pressed="true"] { color: var(--acid); border-color: rgba(196,248,42,.45); }
+
   @media (max-width: 780px) { .grid2 { grid-template-columns: 1fr; } }
 </style>
 </head>
@@ -90,7 +105,14 @@
       </div>
       <div>
         <label class="lbl" for="l-pass">Password</label>
-        <input class="field" id="l-pass" type="password" autocomplete="current-password">
+        <!-- A host types this in front of a class, on a projector, under time
+             pressure. Being able to check what was actually typed is the
+             difference between signing in and guessing. -->
+        <div class="pw-wrap">
+          <input class="field" id="l-pass" type="password" autocomplete="current-password">
+          <button type="button" class="pw-toggle" id="l-show"
+                  aria-label="Show password" aria-pressed="false">Show</button>
+        </div>
       </div>
       <div id="login-error" class="banner banner-error hidden"></div>
       <button class="btn btn-primary btn-block" type="submit" id="login-btn">Sign in</button>
@@ -165,6 +187,21 @@
       btn.disabled = false;
       btn.textContent = 'Sign in';
     });
+  });
+
+  $('l-show').addEventListener('click', function () {
+    var field = $('l-pass');
+    var showing = field.type === 'text';
+
+    field.type = showing ? 'password' : 'text';
+    this.textContent = showing ? 'Show' : 'Hide';
+    this.setAttribute('aria-pressed', String(!showing));
+    this.setAttribute('aria-label', showing ? 'Show password' : 'Hide password');
+
+    // Put the caret back where it was — toggling should not cost you your place.
+    field.focus();
+    var end = field.value.length;
+    try { field.setSelectionRange(end, end); } catch (e) {}
   });
 
   $('nav-out').addEventListener('click', function () {
