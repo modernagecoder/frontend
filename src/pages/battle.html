@@ -87,6 +87,45 @@
              text-transform: uppercase; color: var(--faint); margin-bottom: 0.28rem; }
   .msg-text { font-size: 0.9rem; line-height: 1.55; white-space: pre-wrap; word-break: break-word; }
 
+  /* ---- arena (watching other debates) ----------------------------------- */
+  .seg { display: flex; gap: .3rem; border: 1px solid var(--line); border-radius: 999px;
+         padding: .22rem; margin-bottom: .9rem; }
+  .seg button { flex: 1; padding: .5rem .8rem; font-family: var(--body); font-size: .84rem;
+                font-weight: 600; color: var(--faint); background: none; border: 0;
+                border-radius: 999px; cursor: pointer; }
+  .seg button.on { color: var(--ink); background: rgba(168,85,247,.22); }
+  .seg button .n { font-family: var(--mono); font-size: .68rem; color: var(--acid); margin-left: .3rem; }
+
+  .arena-list { display: grid; gap: .6rem; }
+  .arena-card { padding: .8rem .9rem; border: 1px solid var(--line); border-radius: var(--r);
+                background: rgba(20,12,38,.5); cursor: pointer; transition: border-color .18s ease; }
+  .arena-card:hover { border-color: var(--line2); }
+  .arena-card.live { border-color: rgba(196,248,42,.35); }
+  .arena-topic { font-size: .88rem; font-weight: 600; margin-bottom: .35rem; }
+  .arena-who { font-size: .8rem; color: var(--mut); }
+  .arena-who b { color: var(--ink); }
+
+  .vote-row { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; margin-top: .7rem; }
+  .vote-btn { padding: .55rem .7rem; border-radius: var(--r-sm); border: 1px solid var(--line2);
+              background: rgba(20,12,38,.6); color: var(--mut); font-family: var(--body);
+              font-size: .82rem; font-weight: 600; cursor: pointer; text-align: center;
+              transition: all .16s ease; }
+  .vote-btn:hover { border-color: var(--violet); color: var(--ink); }
+  .vote-btn.mine { border-color: var(--acid); background: rgba(196,248,42,.12); color: var(--acid); }
+  .vote-btn small { display: block; font-family: var(--mono); font-size: .62rem;
+                    letter-spacing: .14em; text-transform: uppercase; color: var(--faint);
+                    margin-bottom: .18rem; }
+
+  .tally { display: flex; height: 7px; border-radius: 999px; overflow: hidden;
+           margin-top: .6rem; background: rgba(168,133,247,.14); }
+  .tally i { display: block; height: 100%; }
+  .tally i.a { background: var(--cyan); }
+  .tally i.b { background: var(--pink); }
+
+  .msg.audience { align-self: center; max-width: 92%; background: rgba(168,133,247,.06);
+                  border-style: dashed; font-size: .82rem; }
+  .msg.audience .msg-who { color: var(--violet); }
+
   /* ---- verdict overlay -------------------------------------------------- */
   .verdict { position: fixed; inset: 0; z-index: 200; display: grid; place-items: center;
              background: rgba(7, 3, 15, 0.9); backdrop-filter: blur(10px); padding: 1.2rem;
@@ -194,7 +233,9 @@
     lastVerdicts: {},   // questionId -> verdict, to detect a NEW mark
     timerEl: null,
     editorFor: null,
-    dirty: false
+    dirty: false,
+    pane: 'mine',       // round 2: 'mine' | 'arena'
+    watching: null      // pairId of the debate being spectated, if any
   };
 
   var $ = function (id) { return document.getElementById(id); };
@@ -264,7 +305,12 @@
     state.poller = new B.Poller({
       intervalMs: 3000,
       fetchOnce: function (version) {
-        return B.request('GET', '/battle/' + state.code + '/sync?v=' + version + '&pt=' + encodeURIComponent(PT));
+        // Only the debate actually open gets its thread sent — twenty threads
+        // to forty students every two seconds would be the most expensive
+        // thing in the app.
+        var watch = state.watching ? '&watch=' + encodeURIComponent(state.watching) : '';
+        return B.request('GET', '/battle/' + state.code + '/sync?v=' + version +
+          '&pt=' + encodeURIComponent(PT) + watch);
       },
       onData: onSync,
       onError: function (error, failures) {
@@ -289,8 +335,11 @@
     state.data = data;
 
     if (data.me) {
+      var streak = data.me.scores.streak || 0;
       $('chip-score').textContent = (data.me.scores.total || 0) + ' pts' +
-        (data.me.rank ? '  ·  #' + data.me.rank : '');
+        (data.me.rank ? '  ·  #' + data.me.rank : '') +
+        (streak >= 2 ? '  ·  ' + streak + ' in a row' : '');
+      $('chip-score').className = 'pill ' + (streak >= 3 ? 'pill-live' : 'pill-gold');
     }
 
     B.setSound(data.battle.soundEnabled !== false);
@@ -624,32 +673,68 @@
 
   /* -------------------------------------------------------------- debate -- */
 
+  /**
+   * ROUND 2 HAS TWO SEATS: debating, and watching.
+   *
+   * A debate involves two people; a class has thirty. Everyone not currently
+   * arguing gets the arena — every other live debate, watchable, with a
+   * comment box and a vote. That is the difference between a round the room is
+   * in and a round twenty-eight people sit out.
+   */
   function renderDebate(data) {
     var d = data.myDebate;
+    var arena = data.arena || { pairs: [] };
 
+    // No pair of your own — you are pure audience, so go straight to the arena.
     if (!d) {
-      return renderStage('debate-none',
-        '<div class="card" style="text-align:center"><div class="waiting-orb"></div>' +
-        '<p class="mut">Your teacher is setting up the debate pairs.</p></div>');
+      if (!arena.pairs.length) {
+        return renderStage('debate-none',
+          '<div class="card" style="text-align:center"><div class="waiting-orb"></div>' +
+          '<p class="mut">Your teacher is setting up the debate pairs.</p></div>');
+      }
+      renderStage('arena-only', '<div id="arena-host"></div>');
+      return renderArena(data, arena);
     }
 
     if (renderStage('debate-' + d.pairId,
-      '<div class="card">' +
-        '<p class="kicker" style="margin-bottom:.4rem">' + (d.isBye ? 'Solo pitch' : 'Debate') + '</p>' +
-        '<h2 style="font-size:1.3rem;margin-bottom:.9rem" id="d-topic"></h2>' +
-        '<div class="versus" id="d-versus"></div>' +
-        (d.myHint ? '<p class="faint" style="font-size:.82rem;margin-top:.9rem" id="d-hint"></p>' : '') +
+      '<div class="seg" id="d-seg">' +
+        '<button data-pane="mine" class="on">My debate</button>' +
+        '<button data-pane="arena">Watch others<span class="n" id="d-arena-n"></span></button>' +
       '</div>' +
-      '<div class="card" style="margin-top:.9rem">' +
-        '<div class="between" style="margin-bottom:.9rem">' +
-          '<p class="kicker">The floor</p><span class="pill" id="d-turn"></span>' +
+      '<div id="pane-mine">' +
+        '<div class="card">' +
+          '<p class="kicker" style="margin-bottom:.4rem">' + (d.isBye ? 'Solo pitch' : 'Debate') + '</p>' +
+          '<h2 style="font-size:1.3rem;margin-bottom:.9rem" id="d-topic"></h2>' +
+          '<div class="versus" id="d-versus"></div>' +
+          (d.myHint ? '<p class="faint" style="font-size:.82rem;margin-top:.9rem" id="d-hint"></p>' : '') +
         '</div>' +
-        '<div class="thread" id="d-thread"></div>' +
-        '<div id="d-compose" style="margin-top:.9rem"></div>' +
-      '</div>')) {
+        '<div class="card" style="margin-top:.9rem">' +
+          '<div class="between" style="margin-bottom:.9rem">' +
+            '<p class="kicker">The floor</p><span class="pill" id="d-turn"></span>' +
+          '</div>' +
+          '<div class="thread" id="d-thread"></div>' +
+          '<div id="d-compose" style="margin-top:.9rem"></div>' +
+        '</div>' +
+      '</div>' +
+      '<div id="pane-arena" class="hidden"><div id="arena-host"></div></div>')) {
       $('d-topic').textContent = d.topic || 'Topic to follow';
       if ($('d-hint')) $('d-hint').textContent = 'Your angle: ' + d.myHint;
+
+      Array.prototype.forEach.call($('d-seg').children, function (btn) {
+        btn.addEventListener('click', function () {
+          state.pane = btn.dataset.pane;
+          Array.prototype.forEach.call($('d-seg').children, function (b) {
+            b.classList.toggle('on', b.dataset.pane === state.pane);
+          });
+          $('pane-mine').classList.toggle('hidden', state.pane !== 'mine');
+          $('pane-arena').classList.toggle('hidden', state.pane !== 'arena');
+          state.poller.reset();
+        });
+      });
     }
+
+    $('d-arena-n').textContent = arena.pairs.length ? ' ' + arena.pairs.length : '';
+    renderArena(data, arena);
 
     $('d-versus').innerHTML = d.isBye
       ? '<div class="side active" style="grid-column:1/-1">' +
@@ -684,6 +769,155 @@
     if (atBottom) thread.scrollTop = thread.scrollHeight;
 
     renderCompose(d);
+  }
+
+  /* --------------------------------------------------- the arena (watch) -- */
+
+  function renderArena(data, arena) {
+    var host = $('arena-host');
+    if (!host) return;
+
+    // Nothing open — show the list of debates to pick from.
+    if (!state.watching) {
+      host.innerHTML = '<div class="card">' +
+        '<p class="kicker" style="margin-bottom:.8rem">Live debates · tap one to watch</p>' +
+        '<div class="arena-list">' + (arena.pairs.map(function (p) {
+          var live = p.status === 'active';
+          return '<div class="arena-card' + (live ? ' live' : '') + '" data-watch="' + p.pairId + '">' +
+            '<div class="between" style="margin-bottom:.35rem">' +
+              '<span class="pill ' + (live ? 'pill-live' : 'pill-wait') + '">' +
+                (live ? '<span class="dot dot-live"></span>live' : 'finished') + '</span>' +
+              (p.myVote ? '<span class="pill pill-gold">you voted</span>' : '') +
+            '</div>' +
+            '<div class="arena-topic">' + esc(p.topic || 'Debate') + '</div>' +
+            '<div class="arena-who"><b>' + esc(p.aName) + '</b> (' + esc(p.aSide) + ')' +
+              ' vs <b>' + esc(p.bName) + '</b> (' + esc(p.bSide) + ')</div>' +
+          '</div>';
+        }).join('') || '<p class="faint" style="font-size:.85rem">No other debates running.</p>') +
+        '</div></div>';
+
+      Array.prototype.forEach.call(host.querySelectorAll('[data-watch]'), function (el) {
+        el.addEventListener('click', function () {
+          state.watching = el.dataset.watch;
+          state.poller.reset();
+        });
+      });
+      return;
+    }
+
+    var open = arena.pairs.filter(function (p) { return p.pairId === state.watching; })[0];
+    if (!open) { state.watching = null; return renderArena(data, arena); }
+
+    var fresh = host.dataset.open !== open.pairId;
+    if (fresh) {
+      host.dataset.open = open.pairId;
+      host.innerHTML =
+        '<div class="card">' +
+          '<button class="btn btn-sm btn-ghost" id="a-back" style="margin-bottom:.8rem">← All debates</button>' +
+          '<h2 style="font-size:1.15rem;margin-bottom:.8rem" id="a-topic"></h2>' +
+          '<div id="a-vote"></div>' +
+        '</div>' +
+        '<div class="card" style="margin-top:.9rem">' +
+          '<div class="between" style="margin-bottom:.9rem">' +
+            '<p class="kicker">The floor</p><span class="pill" id="a-turn"></span>' +
+          '</div>' +
+          '<div class="thread" id="a-thread"></div>' +
+          '<div class="row" style="margin-top:.9rem">' +
+            '<input class="field grow" id="a-say" maxlength="300" placeholder="Say something…">' +
+            '<button class="btn btn-primary btn-sm" id="a-send">Send</button>' +
+          '</div>' +
+          '<p class="faint" style="font-size:.72rem;margin-top:.4rem">' +
+            'You are watching — your comments are not scored.</p>' +
+        '</div>';
+
+      $('a-back').addEventListener('click', function () {
+        state.watching = null;
+        host.dataset.open = '';
+        state.poller.reset();
+      });
+      $('a-send').addEventListener('click', sendComment);
+      $('a-say').addEventListener('keydown', function (e) { if (e.key === 'Enter') sendComment(); });
+      $('a-topic').textContent = open.topic || 'Debate';
+    }
+
+    $('a-turn').textContent = open.status === 'active'
+      ? 'Turn ' + (open.turnIndex + 1) + ' of ' + open.totalTurns
+      : 'Finished';
+    $('a-turn').className = 'pill ' + (open.status === 'active' ? 'pill-live' : 'pill-wait');
+
+    renderVote(open);
+
+    var thread = $('a-thread');
+    var atBottom = thread.scrollHeight - thread.scrollTop - thread.clientHeight < 60;
+
+    thread.innerHTML = (open.messages || []).map(function (m) {
+      if (m.kind === 'audience') {
+        return '<div class="msg audience"><div class="msg-who">' + esc(m.authorName) +
+          '</div><div class="msg-text">' + esc(m.text) + '</div></div>';
+      }
+      if (m.side === 'system') return '<div class="msg system">' + esc(m.text) + '</div>';
+      return '<div class="msg"><div class="msg-who">' + esc(m.authorName) + ' · ' + esc(m.side) +
+        '</div><div class="msg-text">' + esc(m.text) + '</div></div>';
+    }).join('') || '<p class="faint" style="font-size:.85rem;text-align:center">No arguments yet.</p>';
+
+    if (atBottom || fresh) thread.scrollTop = thread.scrollHeight;
+  }
+
+  /**
+   * The vote is advisory and the teacher still decides. The tally stays hidden
+   * until they have scored the debate — a live count would just tell everyone
+   * which way to pile on.
+   */
+  function renderVote(open) {
+    var box = $('a-vote');
+    if (!box) return;
+
+    var total = open.votes ? open.votes.a + open.votes.b : 0;
+    var pctA = total ? Math.round((open.votes.a / total) * 100) : 50;
+
+    box.innerHTML =
+      '<div class="vote-row">' +
+        '<button class="vote-btn' + (open.myVote === 'a' ? ' mine' : '') + '" data-vote="a">' +
+          '<small>' + esc(open.aSide) + '</small>' + esc(open.aName) + '</button>' +
+        '<button class="vote-btn' + (open.myVote === 'b' ? ' mine' : '') + '" data-vote="b">' +
+          '<small>' + esc(open.bSide) + '</small>' + esc(open.bName) + '</button>' +
+      '</div>' +
+      (open.votes
+        ? '<div class="tally"><i class="a" style="width:' + pctA + '%"></i>' +
+          '<i class="b" style="width:' + (100 - pctA) + '%"></i></div>' +
+          '<p class="faint mono" style="font-size:.68rem;margin-top:.35rem;text-align:center">' +
+          open.votes.a + ' – ' + open.votes.b + ' · the room has spoken</p>'
+        : '<p class="faint" style="font-size:.72rem;margin-top:.5rem;text-align:center">' +
+          (open.myVote ? 'Vote recorded. ' : 'Who is winning? ') +
+          'Results are revealed once your teacher scores this debate.</p>');
+
+    Array.prototype.forEach.call(box.querySelectorAll('[data-vote]'), function (el) {
+      el.addEventListener('click', function () {
+        B.request('POST', '/battle/' + state.code + '/debate/vote', {
+          body: { pairId: state.watching, side: el.dataset.vote },
+          battleToken: PT
+        }).then(function () {
+          B.playCue('turn');
+          state.poller.reset();
+        }).catch(function (error) { alertBanner(error.message); });
+      });
+    });
+  }
+
+  function sendComment() {
+    var box = $('a-say');
+    var text = box.value.trim();
+    if (!text) return;
+
+    box.value = '';
+    B.request('POST', '/battle/' + state.code + '/debate/comment', {
+      body: { pairId: state.watching, text: text },
+      battleToken: PT
+    }).then(function () { state.poller.reset(); })
+      .catch(function (error) {
+        box.value = text;
+        alertBanner(error.message);
+      });
   }
 
   function renderCompose(d) {

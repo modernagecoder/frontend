@@ -491,7 +491,14 @@
 
     (b.rounds || []).forEach(function (r) {
       bind('r-start-' + r.index, function () {
-        act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/start'), 'Round ' + r.index + ' is live');
+        // The minutes box only exists for rounds 1 and 3; round 2's length is
+        // derived from its turn settings.
+        var mins = $('r-mins-' + r.index);
+        var body = {};
+        if (mins && Number(mins.value) > 0) body.durationSec = Math.round(Number(mins.value) * 60);
+
+        act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/start', body),
+          'Round ' + r.index + ' is live' + (body.durationSec ? ' — ' + mins.value + ' min' : ''));
       });
       bind('r-end-' + r.index, function () {
         act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/end'), 'Round ' + r.index + ' closed for marking');
@@ -527,7 +534,15 @@
       '</div>' +
       '<div class="row wrap" style="gap:.4rem">' +
         (r.status === 'pending' || r.status === 'closed'
-          ? '<button class="btn btn-go btn-sm" id="r-start-' + r.index + '"' +
+          ? // Round 2's length is derived from the turn settings, so typing a
+            // duration there would only contradict the turn grid.
+            (r.type === 'debate' ? ''
+              : '<label class="row" style="gap:.35rem;font-size:.78rem;color:var(--faint)">' +
+                '<input class="field" id="r-mins-' + r.index + '" type="number" min="1" max="180" ' +
+                  'value="' + Math.round(r.durationSec / 60) + '" ' +
+                  'style="width:4.2rem;padding:.35rem .5rem;font-size:.82rem;text-align:center">' +
+                'min</label>') +
+            '<button class="btn btn-go btn-sm" id="r-start-' + r.index + '"' +
             (questions ? '' : ' disabled title="Add a question first"') + '>Start</button>' : '') +
         (live ? '<button class="btn btn-sm" id="r-ext-' + r.index + '">+1 min</button>' +
                 '<button class="btn btn-sm" id="r-cut-' + r.index + '">−1 min</button>' +
@@ -1157,6 +1172,21 @@
             'turn ' + (p.turnIndex + 1) + ' of ' + p.totalTurns +
             ' · spoke ' + p.spokenTurns.a + '/' + p.spokenTurns.b +
             ' · missed ' + p.missedTurns.a + '/' + p.missedTurns.b + '</p>' +
+
+          // The audience vote, shown ONLY to you. The room does not see it
+          // until you score the debate — so it informs your judgement without
+          // the class getting to pre-empt it.
+          (function () {
+            var v = (app.data.pairVotes || {})[p.pairId];
+            if (!v || p.isBye || (v.a + v.b) === 0) return '';
+            var total = v.a + v.b;
+            var lead = v.a === v.b ? 'split' :
+              (v.a > v.b ? p.aName : p.bName) + ' ahead';
+            return '<p class="faint mono" style="font-size:.7rem;margin-top:.25rem">' +
+              '<span style="color:var(--gold)">audience ' + v.a + '–' + v.b + '</span>' +
+              ' · ' + esc(lead) + ' · ' + total + ' voted' +
+              (v.revealed ? ' · shown to the room' : ' · hidden until you score') + '</p>';
+          })() +
           '<div class="row wrap" style="margin-top:.6rem">' +
             (p.status === 'active'
               ? '<button class="btn btn-sm" data-skip="' + p.pairId + '">Skip this turn</button>' : '') +

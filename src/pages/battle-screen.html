@@ -119,6 +119,43 @@
 
   .center-note { display: grid; place-items: center; height: 100%; text-align: center; }
 
+  /* ---- streaks, rank changes, final-30 ---------------------------------- */
+  .streak { font-family: var(--mono); font-size: calc(var(--u) * .58); color: var(--acid);
+            white-space: nowrap; }
+
+  .ticker { position: fixed; left: 50%; bottom: calc(var(--u) * 2); transform: translateX(-50%);
+            z-index: 250; display: flex; flex-direction: column; gap: calc(var(--u) * .35);
+            align-items: center; pointer-events: none; }
+  .tick-item { font-family: var(--disp); font-weight: 700; font-size: calc(var(--u) * .9);
+               padding: calc(var(--u) * .4) calc(var(--u) * .9);
+               border-radius: 999px; border: 1px solid var(--line2);
+               background: rgba(20,12,38,.9); backdrop-filter: blur(10px);
+               animation: tickin 4s ease forwards; white-space: nowrap; }
+  .tick-item b { color: var(--acid); }
+  @keyframes tickin {
+    0%   { opacity: 0; transform: translateY(calc(var(--u) * .8)) }
+    10%  { opacity: 1; transform: translateY(0) }
+    85%  { opacity: 1 }
+    100% { opacity: 0; transform: translateY(calc(var(--u) * -.5)) }
+  }
+
+  /* The last thirty seconds. Deliberately loud — it is the one moment the
+     whole room should feel at the same time. */
+  .final30 { position: fixed; inset: 0; z-index: 240; pointer-events: none;
+             box-shadow: inset 0 0 calc(var(--u) * 6) rgba(255,45,142,.45);
+             animation: final 1s ease-in-out infinite; }
+  @keyframes final { 0%,100% { opacity: .35 } 50% { opacity: 1 } }
+
+  /* ---- revealed audience vote ------------------------------------------- */
+  .reveal { margin-top: calc(var(--u) * .6); }
+  .reveal-bar { display: flex; height: calc(var(--u) * .55); border-radius: 999px;
+                overflow: hidden; background: rgba(168,133,247,.14); }
+  .reveal-bar i { display: block; height: 100% }
+  .reveal-bar i.a { background: var(--cyan) } .reveal-bar i.b { background: var(--pink) }
+  .reveal-row { display: flex; justify-content: space-between;
+                font-family: var(--mono); font-size: calc(var(--u) * .55);
+                color: var(--faint); margin-top: calc(var(--u) * .2); }
+
   @media (max-width: 900px) { .cols { grid-template-columns: 1fr; } }
 </style>
 </head>
@@ -180,6 +217,9 @@
   </footer>
 </main>
 
+<div class="ticker" id="ticker"></div>
+<div class="final30 hidden" id="final30"></div>
+
 <script src="/js/battle-client.js?v=1"></script>
 <script>
 (function () {
@@ -189,7 +229,12 @@
   var $ = function (id) { return document.getElementById(id); };
   var esc = B.escapeHtml;
 
-  var state = { code: null, data: null, timer: null, seenMarks: {}, seenCue: null };
+  var state = {
+    code: null, data: null, timer: null,
+    seenMarks: {}, seenCue: null,
+    lastBoard: null,     // previous leaderboard, for detecting overtakes
+    seenReveals: {}      // debates whose vote has already been announced
+  };
 
   var params = new URLSearchParams(location.search);
   if (params.get('code')) $('g-code').value = params.get('code').toUpperCase();
@@ -228,11 +273,15 @@
 
     (function frame() {
       var data = state.data;
-      if (data && data.round && data.round.status === 'running' && !data.battle.paused) {
-        B.renderTimer(state.timer, data.round.endsAt,
+      var live = data && data.round && data.round.status === 'running' && !data.battle.paused;
+
+      if (live) {
+        var left = B.renderTimer(state.timer, data.round.endsAt,
           (new Date(data.round.endsAt) - new Date(data.round.startedAt)) || 0);
+        finalThirty(left > 0 && left <= 30000);
       } else {
         B.renderTimer(state.timer, null);
+        finalThirty(false);
       }
       requestAnimationFrame(frame);
     })();
@@ -259,13 +308,19 @@
       return '<div class="brow">' +
         '<span class="brank">' + row.rank + '</span>' +
         '<div class="av c' + (row.colorIdx % 12) + '">' + esc(B.initials(row.displayName)) + '</div>' +
-        '<span class="bname">' + esc(row.displayName) + '</span>' +
+        '<span class="bname">' + esc(row.displayName) +
+          (row.streak >= 2 ? ' <span class="streak">' + row.streak + '&#215;</span>' : '') +
+        '</span>' +
         '<span class="bpts">' + row.total + '</span></div>';
     }).join('') || '<div class="center-note"><p class="faint">Nobody has scored yet.</p></div>';
 
+    announceRankChanges(board);
+
     // Right column: the debate spotlight during round 2, the pulse grid otherwise.
-    if (data.debateSpotlight) paintSpotlight(data.debateSpotlight);
+    if (data.debateSpotlight) paintSpotlight(data.debateSpotlight, data.debateVotes);
     else paintPulse(data);
+
+    announceReveals(data.debateVotes || []);
 
     celebrate(data.celebrations || []);
     cue(data.battle.soundCue);
@@ -285,9 +340,30 @@
       '<div class="center-note"><p class="faint">Waiting for students to join.</p></div>';
   }
 
-  function paintSpotlight(spot) {
+  /**
+   * Announces each debate's audience vote once, at the moment the teacher
+   * scores it. Deduped by pair, so a repeated poll does not replay it.
+   */
+  function announceReveals(list) {
+    list.forEach(function (r) {
+      if (state.seenReveals[r.pairId]) return;
+      state.seenReveals[r.pairId] = true;
+      // Skip the first paint after a page load, or an old battle would replay
+      // every reveal at once.
+      if (!state.lastBoard) return;
+
+      var winner = r.votesA === r.votesB ? null : (r.votesA > r.votesB ? r.aName : r.bName);
+      tick(winner
+        ? 'The room picked <b>' + esc(winner) + '</b> — ' + r.votesA + ' to ' + r.votesB
+        : 'The room was split — ' + r.votesA + ' all');
+      B.confetti(70, { x: 0.5, y: 0.4 });
+    });
+  }
+
+  function paintSpotlight(spot, votes) {
     $('s-right-title').textContent = 'On the floor';
-    $('s-submitted').textContent = 'turn ' + (spot.turnIndex + 1) + ' / ' + spot.totalTurns;
+    $('s-submitted').textContent = 'turn ' + (spot.turnIndex + 1) + ' / ' + spot.totalTurns +
+      (spot.watching ? ' · ' + spot.watching + ' watching' : '');
 
     $('s-right').innerHTML =
       '<p style="font-family:var(--disp);font-weight:700;font-size:calc(var(--u)*.95);' +
@@ -303,7 +379,19 @@
         ? '<p class="spot-quote">' + esc(spot.lastMessage.text) +
           '<br><span class="faint mono" style="font-size:calc(var(--u)*.52)">— ' +
           esc(spot.lastMessage.authorName) + '</span></p>'
-        : '<p class="faint" style="font-size:calc(var(--u)*.66)">Waiting for the first argument.</p>');
+        : '<p class="faint" style="font-size:calc(var(--u)*.66)">Waiting for the first argument.</p>') +
+
+      // Only debates the teacher has already scored show their vote. A live
+      // tally on a projector would just tell the room which way to pile on.
+      ((votes || []).map(function (r) {
+        var total = r.votesA + r.votesB;
+        var pct = total ? Math.round((r.votesA / total) * 100) : 50;
+        return '<div class="reveal">' +
+          '<div class="reveal-bar"><i class="a" style="width:' + pct + '%"></i>' +
+            '<i class="b" style="width:' + (100 - pct) + '%"></i></div>' +
+          '<div class="reveal-row"><span>' + esc(r.aName) + ' ' + r.votesA + '</span>' +
+            '<span>' + r.votesB + ' ' + esc(r.bName) + '</span></div></div>';
+      }).join(''));
   }
 
   /**
@@ -332,6 +420,76 @@
     if (!soundCue || !soundCue.at || state.seenCue === soundCue.at) return;
     if (state.seenCue !== null) B.playCue(soundCue.id);
     state.seenCue = soundCue.at;
+  }
+
+  /**
+   * RANK CHANGES.
+   *
+   * Computed here by diffing the previous leaderboard against the new one — no
+   * server state, because the projector already receives both and the answer is
+   * only interesting for the two seconds it is on screen.
+   *
+   * Only overtakes INTO the top eight are announced. "Aarav overtook Zoya for
+   * 3rd" is a moment; "Aarav overtook Zoya for 27th" is noise.
+   */
+  function announceRankChanges(board) {
+    var now = {};
+    board.forEach(function (row) { now[row.id] = row; });
+
+    if (state.lastBoard) {
+      board.forEach(function (row) {
+        var was = state.lastBoard[row.id];
+        if (!was || row.rank >= was.rank || row.rank > 8) return;
+
+        // Who they went past — whoever now sits directly below them and used
+        // to be above.
+        var passed = board.filter(function (o) {
+          var oWas = state.lastBoard[o.id];
+          return oWas && o.rank > row.rank && oWas.rank < was.rank;
+        })[0];
+
+        tick(passed
+          ? '<b>' + esc(row.displayName) + '</b> overtook ' + esc(passed.displayName) +
+            ' for ' + ordinal(row.rank)
+          : '<b>' + esc(row.displayName) + '</b> is now ' + ordinal(row.rank));
+      });
+
+      // Streak milestones — announced once, when they are reached.
+      board.forEach(function (row) {
+        var was = state.lastBoard[row.id];
+        if (!was) return;
+        if (row.streak >= 3 && row.streak > was.streak) {
+          tick('<b>' + esc(row.displayName) + '</b> — ' + row.streak + ' in a row!');
+        }
+      });
+    }
+
+    state.lastBoard = now;
+  }
+
+  function ordinal(n) {
+    var s = ['th', 'st', 'nd', 'rd'];
+    var v = n % 100;
+    return n + (s[(v - 20) % 10] || s[v] || s[0]);
+  }
+
+  function tick(html) {
+    var host = document.getElementById('ticker');
+    var el = document.createElement('div');
+    el.className = 'tick-item';
+    el.innerHTML = html;
+    host.appendChild(el);
+    setTimeout(function () { el.remove(); }, 4100);
+    B.playCue('turn');
+  }
+
+  /**
+   * The final thirty seconds get a pulsing red edge on the projector. It is the
+   * one cue the whole room reacts to at once, which is exactly the point.
+   */
+  function finalThirty(on) {
+    var el = document.getElementById('final30');
+    el.classList.toggle('hidden', !on);
   }
 })();
 </script>
