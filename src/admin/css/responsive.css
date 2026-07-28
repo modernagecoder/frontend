@@ -1,122 +1,125 @@
-/* ============================================
-   RESPONSIVE STYLES
-   ============================================ */
+/* ==========================================================================
+   ADMIN RESPONSIVE
+   The owner checks leads from a phone between classes, so the small-screen
+   layout is a first-class case rather than a squeeze of the desktop one:
+   below 720px every table becomes a stack of cards, because a horizontally
+   scrolling table on a phone hides exactly the columns this rebuild added.
+   ========================================================================== */
 
-/* Tablet and below */
+/* ---- tablet: collapse the rail to a drawer ---- */
 @media (max-width: 1024px) {
   .sidebar {
-    position: fixed;
-    left: -250px;
-    top: 64px;
-    bottom: 0;
-    z-index: 100;
-    transition: left 0.3s ease;
+    left: calc(var(--rail-w) * -1);
+    transition: left .26s ease;
+    box-shadow: var(--shadow-md);
   }
-  
-  .sidebar.open {
-    left: 0;
+
+  .sidebar.open { left: 0; }
+
+  .mobile-menu-toggle { display: flex; }
+
+  .main-content { margin-left: 0; padding: 22px 20px 56px; }
+
+  .admin-info { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sidebar { transition: none; }
+}
+
+/* ---- phone ---- */
+@media (max-width: 720px) {
+  .main-content { padding: 18px 14px 48px; }
+
+  .page-header { align-items: flex-start; flex-direction: column; gap: 12px; }
+  .page-title { font-size: 23px; }
+
+  .ledger-marks { flex-direction: column; }
+  .ledger-mark { border-right: none; border-bottom: 1px solid var(--line-2); }
+  .ledger-mark:last-child { border-bottom: none; }
+
+  /* time rail stacks: time above the person */
+  .rail-entry { grid-template-columns: 1fr; gap: 9px; }
+  .rail-time { border-left: none; padding-left: 0; border-bottom: 2px solid var(--amber); padding-bottom: 4px; display: inline-block; }
+  .rail-actions { justify-content: flex-start; }
+
+  /* ---- tables become cards ---- */
+  .data-table-container { overflow-x: visible; }
+  .data-table thead { display: none; }
+  .data-table, .data-table tbody, .data-table tr, .data-table td { display: block; width: 100%; }
+
+  .data-table tbody tr {
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    margin: 12px;
+    background: var(--surface);
+    overflow: hidden;
   }
-  
-  .mobile-menu-toggle {
+
+  .data-table tbody td {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+    padding: 9px 13px;
+    border-bottom: 1px solid var(--line-2);
+    text-align: right;
   }
-  
-  .main-content {
-    width: 100%;
+
+  .data-table tbody td:last-child { border-bottom: none; }
+
+  /* Undo the pinned action column - inside a stacked card there is no
+     sideways scroll to pin against, and a sticky block misbehaves here. */
+  .data-table th:last-child,
+  .data-table td:last-child { position: static; border-left: none; }
+
+  /* The ISO code is useful again once the row is a card with room for it */
+  .data-table .country-badge small { display: inline; }
+  .country-badge { max-width: none; }
+
+  /* Column name comes from the cell's data-label, set by the components. */
+  .data-table tbody td::before {
+    content: attr(data-label);
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: left;
+    flex: 0 0 auto;
   }
-  
-  .admin-info {
-    display: none;
-  }
-  
-  .stats-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
+
+  .data-table tbody td:empty { display: none; }
+
+  .notes-cell, .source-page { max-width: none; white-space: normal; text-align: right; }
+
+  .empty-cell, .loading-cell, .error-cell { display: block; text-align: center; }
+  .empty-cell::before, .loading-cell::before, .error-cell::before { content: none; }
+
+  .filters-bar { flex-direction: column; align-items: stretch; }
+  .search-box { flex: 1 1 auto; }
+
+  .pagination { justify-content: center; }
+
+  .sources-grid, .team-grid { grid-template-columns: 1fr; }
+
+  .modal-footer { flex-direction: column-reverse; }
+  .modal-footer .btn { width: 100%; }
+
+  .toast-container { left: 14px; right: 14px; bottom: 14px; max-width: none; }
 }
 
-/* Mobile */
-@media (max-width: 640px) {
-  .dashboard-header {
-    padding: var(--spacing-sm) var(--spacing-md);
-  }
-  
-  .logo-text {
-    display: none;
-  }
-  
-  .main-content {
-    padding: var(--spacing-md);
-  }
-  
-  .page-title {
-    font-size: var(--font-size-xl);
-  }
-  
-  .stats-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .table-header {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  
-  .table-actions {
-    flex-direction: column;
-  }
-  
-  .search-box input {
-    width: 100%;
-    min-width: auto;
-  }
-  
-  /* Hide table columns on mobile */
-  .data-table th:not(:first-child):not(:last-child),
-  .data-table td:not(:first-child):not(:last-child) {
-    display: none;
-  }
-  
-  .data-table th:first-child,
-  .data-table td:first-child {
-    width: 40px;
-  }
-  
-  .pagination {
-    flex-direction: column;
-    gap: var(--spacing-md);
-  }
-  
-  .modal {
-    max-width: 100%;
-    margin: var(--spacing-md);
-  }
-  
-  .toast-container {
-    right: var(--spacing-sm);
-    left: var(--spacing-sm);
-  }
-  
-  .toast {
-    min-width: auto;
-  }
+@media (max-width: 420px) {
+  .logo-text { display: none; }
+  .detail-grid { grid-template-columns: 1fr; }
 }
 
-/* Print styles */
+/* ---- print: a clean lead sheet to take to the phone ---- */
 @media print {
-  .dashboard-header,
-  .sidebar,
-  .table-actions,
-  .action-buttons,
-  .pagination,
-  .toast-container {
-    display: none !important;
-  }
-  
-  .main-content {
-    padding: 0;
-  }
-  
-  .table-container {
-    border: none;
-  }
+  .sidebar, .dashboard-header, .filters-bar, .pagination,
+  .table-actions, .contact-actions, .toast-container { display: none !important; }
+
+  .main-content { margin: 0; padding: 0; }
+  body { background: #fff; }
+  .table-container, .data-table-container, .time-rail { box-shadow: none; border-color: #999; }
 }

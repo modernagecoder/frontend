@@ -219,6 +219,57 @@ class APIClient {
   }
   
   // ============================================
+  // TODAY / LEAD SOURCES
+  // ============================================
+
+  /**
+   * What needs doing right now: leads in today, demos booked for today and
+   * tomorrow, and leads still untouched after 24 hours.
+   */
+  async getToday() {
+    return await this.request('/admin/today');
+  }
+
+  /**
+   * Which pages produce leads, across all four lead forms.
+   * @param {object} params - { days, limit }
+   */
+  async getLeadSources(params = {}) {
+    const queryString = new URLSearchParams(params).toString();
+    return await this.request(`/admin/analytics/sources?${queryString}`);
+  }
+
+  // ============================================
+  // TEAM (SUB-ADMIN ACCOUNTS)
+  // ============================================
+  // Admin-only. A sub-admin calling any of these gets a 403 from the server,
+  // which is the real enforcement - hiding the nav item is only tidiness.
+
+  async getTeam() {
+    return await this.request('/admin/team');
+  }
+
+  async createTeamMember(payload) {
+    return await this.request('/admin/team', {
+      method: 'POST',
+      body: JSON.stringify(payload)
+    });
+  }
+
+  async updateTeamMember(id, updates) {
+    return await this.request(`/admin/team/${id}`, {
+      method: 'PUT',
+      body: JSON.stringify(updates)
+    });
+  }
+
+  async deleteTeamMember(id) {
+    return await this.request(`/admin/team/${id}`, {
+      method: 'DELETE'
+    });
+  }
+
+  // ============================================
   // AUDIT LOG ENDPOINTS
   // ============================================
   

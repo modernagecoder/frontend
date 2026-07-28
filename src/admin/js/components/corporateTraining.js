@@ -83,7 +83,7 @@ async function loadCorporateTraining() {
                   <div class="action-buttons">
                     <button class="btn-icon" onclick="viewCorporateTraining('${training._id}')">👁️</button>
                     <button class="btn-icon" onclick="editCorporateTraining('${training._id}')">✏️</button>
-                    <button class="btn-icon btn-danger" onclick="deleteCorporateTraining('${training._id}')">🗑️</button>
+                    ${can('deleteLeads') ? `<button class="btn-icon btn-danger" onclick="deleteCorporateTraining('${training._id}')">🗑️</button>` : ''}
                   </div>
                 </td>
               </tr>
@@ -182,7 +182,7 @@ function updateCorporateBulkActions() {
           <option value="archived">Archived</option>
         </select>
         <button class="btn btn-sm btn-secondary" onclick="bulkUpdateCorporateStatus()">Apply</button>
-        <button class="btn btn-sm btn-danger" onclick="bulkDeleteCorporateTrainings()">Delete Selected</button>
+        ${can('deleteLeads') ? `<button class="btn btn-sm btn-danger" onclick="bulkDeleteCorporateTrainings()">Delete Selected</button>` : ''}
       </div>
     `;
   } else if (bulkToolbar) {

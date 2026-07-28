@@ -66,7 +66,7 @@ async function loadUsers() {
                   <div class="action-buttons">
                     <button class="btn-icon" onclick="viewUser('${user._id}')">👁️</button>
                     <button class="btn-icon" onclick="editUser('${user._id}')">✏️</button>
-                    <button class="btn-icon btn-danger" onclick="deleteUser('${user._id}')">🗑️</button>
+                    ${can('deleteLeads') ? `<button class="btn-icon btn-danger" onclick="deleteUser('${user._id}')">🗑️</button>` : ''}
                   </div>
                 </td>
               </tr>
@@ -126,7 +126,7 @@ function updateUserBulkActions() {
     bulkToolbar.innerHTML = `
       <div class="bulk-actions-info">${selected.length} user(s) selected</div>
       <div class="bulk-actions-buttons">
-        <button class="btn btn-sm btn-danger" onclick="bulkDeleteUsers()">Delete Selected</button>
+        ${can('deleteLeads') ? `<button class="btn btn-sm btn-danger" onclick="bulkDeleteUsers()">Delete Selected</button>` : ''}
       </div>
     `;
   } else if (bulkToolbar) {

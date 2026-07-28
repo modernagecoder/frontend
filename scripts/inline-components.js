@@ -21,6 +21,20 @@ const ROOT = path.resolve(__dirname, '..');
 const NAV_FILE = path.join(ROOT, 'components', 'nav.html');
 const FOOTER_FILE = path.join(ROOT, 'components', 'footer.html');
 
+// Scripts that must exist on every page, injected before </body> at build time.
+//
+//   attribution.js     - records which page earned each lead. Must run on every
+//                        page, since any page can be the first one a visitor sees.
+//   demo-slot-picker.js- builds the optional "pick a demo time" chips inside the
+//                        callback modal, whose markup is inlined on 438 pages.
+//
+// Injecting them here rather than editing pages by hand is what keeps this
+// working for generated blog and course pages too, which are rebuilt on deploy.
+const GLOBAL_LEAD_SCRIPTS = [
+    '/js/attribution.js',
+    '/js/demo-slot-picker.js'
+];
+
 // Directories to scan for HTML files
 const SCAN_DIRS = [
     path.join(ROOT, 'src', 'pages'),
@@ -144,6 +158,31 @@ function inlineFile(filePath, navHtml, footerHtml) {
     </script>`;
 
         content = content.replace(/<\/body>/i, componentBootstrap + '\n</body>');
+    }
+
+    // 9. Guarantee the site-wide lead scripts are on every page.
+    //
+    //    Deliberately OUTSIDE the `changes > 0` block above. Attribution has to
+    //    record the first page of a visit, which means it must run on every
+    //    page - not only the ones that happen to carry a nav or footer. Only
+    //    362 of 588 static pages have a nav marker, so keying this off nav
+    //    changes would silently miss around 40% of landing pages and quietly
+    //    mis-credit the leads that came from them.
+    //
+    //    Idempotent: pages that already reference a script are left alone, so
+    //    re-running the build never stacks up duplicate tags.
+    if (/<\/body>/i.test(content)) {
+        GLOBAL_LEAD_SCRIPTS.forEach((src) => {
+            // Escape for use in a regex - these are plain paths, but building
+            // the pattern from the constant keeps the two in step.
+            const present = new RegExp(src.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+            if (!present.test(content)) {
+                content = content.replace(
+                    /<\/body>/i,
+                    `    <script src="${src}" defer></script>\n</body>`
+                );
+            }
+        });
     }
 
     // Write back if changed

@@ -11,58 +11,60 @@ const CallbackRequestsComponent = {
     render: function() {
         return `
             <div class="page-header">
-                <h1>📞 Callback Requests</h1>
-                <p>Manage phone callback requests from visitors</p>
-            </div>
-            
-            <div class="stats-row" id="callbackStats">
-                <div class="stat-card pending">
-                    <div class="stat-icon">🔔</div>
-                    <div class="stat-info">
-                        <span class="stat-value" id="pendingCount">-</span>
-                        <span class="stat-label">Pending</span>
-                    </div>
+                <div>
+                    <h1 class="page-title">Callbacks</h1>
+                    <p class="page-subtitle">People who asked to be rung back, and the page they asked from</p>
                 </div>
             </div>
-            
-            <div class="filters-bar">
+
+            <div class="stats-grid" id="callbackStats">
+                <div class="stat-card">
+                    <div class="stat-label">Waiting for a call</div>
+                    <div class="stat-value" id="pendingCount">-</div>
+                    <div class="stat-trend info">Ring these first</div>
+                </div>
+            </div>
+
+            <div class="table-container">
+              <div class="filters-bar">
                 <div class="filter-group">
-                    <label>Status:</label>
+                    <label for="statusFilter">Status</label>
                     <select id="statusFilter" class="filter-select">
                         <option value="all">All</option>
                         <option value="pending">Pending</option>
                         <option value="called">Called</option>
-                        <option value="no-answer">No Answer</option>
+                        <option value="no-answer">No answer</option>
                         <option value="completed">Completed</option>
                     </select>
                 </div>
-                <button class="btn btn-primary" onclick="CallbackRequestsComponent.loadRequests()">
-                    🔄 Refresh
-                </button>
-            </div>
+                <button class="btn btn-secondary btn-sm" onclick="CallbackRequestsComponent.loadRequests()">Refresh</button>
+              </div>
             
             <div class="data-table-container">
                 <table class="data-table" id="callbackTable">
                     <thead>
                         <tr>
+                            <th>Phone number</th>
+                            <th>Came from</th>
+                            <th>Demo slot</th>
                             <th>Country</th>
-                            <th>Phone Number</th>
                             <th>Status</th>
-                            <th>Requested At</th>
-                            <th>Called At</th>
+                            <th>Requested</th>
+                            <th>Called</th>
                             <th>Notes</th>
                             <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody id="callbackTableBody">
                         <tr>
-                            <td colspan="7" class="loading-cell">Loading...</td>
+                            <td colspan="9" class="loading-cell">Loading</td>
                         </tr>
                     </tbody>
                 </table>
+              </div>
+
+              <div class="pagination" id="callbackPagination"></div>
             </div>
-            
-            <div class="pagination" id="callbackPagination"></div>
         `;
     },
     
@@ -89,7 +91,7 @@ const CallbackRequestsComponent = {
         const tbody = document.getElementById('callbackTableBody');
         if (!tbody) return;
         
-        tbody.innerHTML = '<tr><td colspan="6" class="loading-cell">Loading...</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="9" class="loading-cell">Loading</td></tr>';
         
         try {
             const token = localStorage.getItem('adminToken');
@@ -118,11 +120,11 @@ const CallbackRequestsComponent = {
                     pendingCount.textContent = data.pendingCount || 0;
                 }
             } else {
-                tbody.innerHTML = '<tr><td colspan="6" class="error-cell">Failed to load requests</td></tr>';
+                tbody.innerHTML = '<tr><td colspan="9" class="error-cell">Could not load callback requests</td></tr>';
             }
         } catch (error) {
             console.error('Error loading callback requests:', error);
-            tbody.innerHTML = '<tr><td colspan="6" class="error-cell">Error loading requests</td></tr>';
+            tbody.innerHTML = '<tr><td colspan="9" class="error-cell">Could not load callback requests</td></tr>';
         }
     },
     
@@ -132,7 +134,7 @@ const CallbackRequestsComponent = {
         if (!tbody) return;
         
         if (!requests || requests.length === 0) {
-            tbody.innerHTML = '<tr><td colspan="7" class="empty-cell">No callback requests found</td></tr>';
+            tbody.innerHTML = '<tr><td colspan="9" class="empty-cell"><div class="empty-state"><strong>No callback requests yet</strong><span>Requests from the call-back pop-up appear here.</span></div></td></tr>';
             return;
         }
 
@@ -153,35 +155,35 @@ const CallbackRequestsComponent = {
                 : `<span class="country-flag">${flag}</span> ${cName || iso}${iso ? ` <small>(${iso})</small>` : ''}`;
             return `
             <tr data-id="${req._id}">
-                <td><span class="${badgeCls}" title="${cName || 'Unknown'} (${iso || 'n/a'})">${badgeText}</span></td>
-                <td>
-                    <a href="tel:${dial}${req.phone}" class="phone-link">
-                        📱 <span class="phone-with-code"><span class="dial">${dial}</span>${this.formatPhone(req.phone)}</span>
-                    </a>
+                <td data-label="Phone number">
+                    <div style="display:flex;align-items:center;gap:10px;justify-content:flex-end;flex-wrap:wrap">
+                        <a href="tel:${dial}${req.phone}" class="phone-link">
+                            <span class="phone-with-code"><span class="dial">${dial}</span>${this.formatPhone(req.phone)}</span>
+                        </a>
+                        ${renderContactActions(req.countryCode, req.phone, null)}
+                    </div>
                 </td>
-                <td>
+                <td data-label="Came from">${renderSource(req.attribution)}</td>
+                <td data-label="Demo slot">${renderSlot(req.demoSlot, true)}</td>
+                <td data-label="Country"><span class="${badgeCls}" title="${escapeHtml(cName || 'Unknown')}">${badgeText}</span></td>
+                <td data-label="Status">
                     <span class="status-badge status-${req.status}">${this.formatStatus(req.status)}</span>
                 </td>
-                <td>${this.formatDate(req.requestedAt)}</td>
-                <td>${req.calledAt ? this.formatDate(req.calledAt) : '-'}</td>
-                <td class="notes-cell">${req.notes || '-'}</td>
-                <td class="actions-cell">
+                <td data-label="Requested" class="cell-date">${this.formatDate(req.requestedAt)}</td>
+                <td data-label="Called" class="cell-date">${req.calledAt ? this.formatDate(req.calledAt) : '—'}</td>
+                <td data-label="Notes" class="notes-cell">${escapeHtml(req.notes || '—')}</td>
+                <td data-label="Actions" class="actions-cell">
                     <div class="action-buttons">
-                        <a href="tel:${req.phone}" class="btn btn-sm btn-success" title="Call Now">
-                            📞 Call
-                        </a>
                         <select class="status-select" onchange="CallbackRequestsComponent.updateStatus('${req._id}', this.value)">
                             <option value="pending" ${req.status === 'pending' ? 'selected' : ''}>Pending</option>
                             <option value="called" ${req.status === 'called' ? 'selected' : ''}>Called</option>
-                            <option value="no-answer" ${req.status === 'no-answer' ? 'selected' : ''}>No Answer</option>
+                            <option value="no-answer" ${req.status === 'no-answer' ? 'selected' : ''}>No answer</option>
                             <option value="completed" ${req.status === 'completed' ? 'selected' : ''}>Completed</option>
                         </select>
-                        <button class="btn btn-sm btn-secondary" onclick="CallbackRequestsComponent.addNote('${req._id}')" title="Add Note">
-                            📝
-                        </button>
-                        <button class="btn btn-sm btn-danger" onclick="CallbackRequestsComponent.deleteRequest('${req._id}')" title="Delete">
-                            🗑️
-                        </button>
+                        <button class="btn btn-sm btn-secondary" onclick="CallbackRequestsComponent.addNote('${req._id}')">Note</button>
+                        ${can('deleteLeads')
+                            ? `<button class="btn-icon btn-danger" onclick="CallbackRequestsComponent.deleteRequest('${req._id}')" title="Delete" aria-label="Delete">&times;</button>`
+                            : ''}
                     </div>
                 </td>
             </tr>

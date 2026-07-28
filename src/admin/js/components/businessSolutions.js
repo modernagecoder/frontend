@@ -88,7 +88,7 @@ async function loadBusinessSolutions() {
                   <div class="action-buttons">
                     <button class="btn-icon" onclick="viewBusinessSolution('${inquiry._id}')">👁️</button>
                     <button class="btn-icon" onclick="editBusinessSolution('${inquiry._id}')">✏️</button>
-                    <button class="btn-icon btn-danger" onclick="deleteBusinessSolution('${inquiry._id}')">🗑️</button>
+                    ${can('deleteLeads') ? `<button class="btn-icon btn-danger" onclick="deleteBusinessSolution('${inquiry._id}')">🗑️</button>` : ''}
                   </div>
                 </td>
               </tr>
@@ -183,7 +183,7 @@ function updateBusinessBulkActions() {
           <option value="archived">Archived</option>
         </select>
         <button class="btn btn-sm btn-secondary" onclick="bulkUpdateBusinessStatus()">Apply</button>
-        <button class="btn btn-sm btn-danger" onclick="bulkDeleteBusinessSolutions()">Delete Selected</button>
+        ${can('deleteLeads') ? `<button class="btn btn-sm btn-danger" onclick="bulkDeleteBusinessSolutions()">Delete Selected</button>` : ''}
       </div>
     `;
   } else if (bulkToolbar) {

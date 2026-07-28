@@ -1,411 +1,568 @@
-/* ============================================
-   ADMIN DASHBOARD - MAIN STYLES
-   Modern Age Coders
-   ============================================ */
+/* ==========================================================================
+   MODERN AGE CODERS - ADMIN
+   Ledger & Proof theme: shell, navigation, login
 
-/* CSS Variables */
+   Replaces the retired dark purple (#a855f7) admin skin with the same brand
+   language as learn.modernagecoders.com.
+
+   The idea is a lead ledger. Warm paper for the working surface, a dark ink
+   rail down the left, and every piece of data - times, phone numbers, source
+   pages, counts - set in mono so columns line up and can be scanned quickly.
+
+   One deliberate departure from the public site: no opacity:0 reveal
+   animations. The site fades sections in on scroll, but a dashboard that
+   renders blank when a script hiccups is worse than one that never animates.
+   Everything here paints immediately.
+   ========================================================================== */
+
 :root {
-  /* Colors */
-  --primary-purple: #8A2BE2;
-  --secondary-teal: #4ecdc4;
-  --background: #0a0a0a;
-  --surface: #1a1a1a;
-  --surface-light: #2a2a2a;
-  --text-primary: #E2E8F0;
-  --text-secondary: #94A3B8;
-  --border: #333;
-  
-  /* Status Colors */
-  --success: #10B981;
-  --warning: #F59E0B;
-  --info: #3B82F6;
-  --neutral: #6B7280;
-  --error: #EF4444;
-  
-  /* Spacing */
-  --spacing-xs: 4px;
-  --spacing-sm: 8px;
-  --spacing-md: 16px;
-  --spacing-lg: 24px;
-  --spacing-xl: 32px;
-  --spacing-2xl: 48px;
-  
-  /* Typography */
-  --font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
-  --font-size-sm: 14px;
-  --font-size-base: 16px;
-  --font-size-lg: 20px;
-  --font-size-xl: 24px;
-  --font-size-2xl: 32px;
-  
-  /* Transitions */
-  --transition: all 0.3s ease;
+  /* Brand tokens, matching src/css/editorial-theme.css */
+  --paper: #FBF8F2;
+  --paper-2: #F4EEE3;
+  --surface: #FFFFFF;
+  --ink: #1C1814;
+  --ink-soft: #3A332C;
+  --muted: #6B6259;
+  --line: rgba(28, 24, 20, .12);
+  --line-2: rgba(28, 24, 20, .07);
+  --amber: #B45309;
+  --amber-bright: #D97706;
+  --amber-deep: #8F3F08;
+  --amber-tint: rgba(180, 83, 9, .08);
+  --amber-tint-2: rgba(180, 83, 9, .16);
+  --green: #1F8A55;
+  --green-tint: rgba(31, 138, 85, .10);
+  --red: #B0473C;
+  --red-tint: rgba(176, 71, 60, .10);
+
+  /* The dark rail. Same value as the public site's footer, so the two
+     surfaces are recognisably from one family. */
+  --rail: #17130E;
+  --rail-text: #C2BAAD;
+  --rail-line: rgba(194, 186, 173, .14);
+
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow-sm: 0 1px 2px rgba(28, 24, 20, .04), 0 8px 24px -18px rgba(28, 24, 20, .22);
+  --shadow-md: 0 24px 50px -34px rgba(28, 24, 20, .42);
+
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, Consolas, monospace;
+
+  --rail-w: 232px;
+  --header-h: 64px;
 }
 
-/* Reset & Base Styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
 
 body {
-  font-family: var(--font-family);
-  font-size: var(--font-size-base);
-  color: var(--text-primary);
-  background: var(--background);
-  line-height: 1.6;
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink);
+  background: var(--paper);
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
-/* Login Page Styles */
-.login-page {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+a { color: var(--amber); }
+
+/* Visible keyboard focus everywhere. Staff use this panel all day and some of
+   them will drive it from the keyboard. */
+:focus-visible {
+  outline: 2px solid var(--amber-bright);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+::selection { background: var(--amber-tint-2); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   LOGIN
+   Paper with the site's faint accounting grid, and a single card. The grid is
+   the only ornament on this screen and it is the same texture the public
+   homepage uses.
+   -------------------------------------------------------------------------- */
+
+body.login-page {
   min-height: 100vh;
-  background: linear-gradient(135deg, var(--background) 0%, #1a0a2e 100%);
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(rgba(28, 24, 20, .045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(28, 24, 20, .045) 1px, transparent 1px);
+  background-size: 44px 44px;
 }
 
-.login-container {
-  width: 100%;
-  max-width: 400px;
-  padding: var(--spacing-lg);
-}
+.login-container { width: 100%; max-width: 396px; }
 
 .login-card {
   background: var(--surface);
-  border-radius: 16px;
-  padding: var(--spacing-2xl);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
-  border: 1px solid var(--border);
-}
-
-.login-header {
-  text-align: center;
-  margin-bottom: var(--spacing-xl);
-}
-
-.logo-icon {
-  width: 60px;
-  height: 60px;
-  margin: 0 auto var(--spacing-md);
-  background: linear-gradient(135deg, var(--primary-purple), var(--secondary-teal));
-  border-radius: 12px;
-}
-
-.login-header h1 {
-  font-size: var(--font-size-xl);
-  margin-bottom: var(--spacing-xs);
-  background: linear-gradient(135deg, var(--primary-purple), var(--secondary-teal));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.login-header p {
-  color: var(--text-secondary);
-  font-size: var(--font-size-sm);
-}
-
-/* Form Styles */
-.form-group {
-  margin-bottom: var(--spacing-lg);
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: var(--spacing-sm);
-  color: var(--text-primary);
-  font-weight: 500;
-}
-
-.form-group input[type="email"],
-.form-group input[type="password"],
-.form-group input[type="text"],
-.form-group textarea,
-.form-group select {
-  width: 100%;
-  padding: 12px 16px;
-  background: var(--surface-light);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  color: var(--text-primary);
-  font-size: var(--font-size-base);
-  transition: var(--transition);
-}
-
-.form-group input:focus,
-.form-group textarea:focus,
-.form-group select:focus {
-  outline: none;
-  border-color: var(--primary-purple);
-  box-shadow: 0 0 0 3px rgba(138, 43, 226, 0.1);
-}
-
-.password-input {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 40px 34px 34px;
+  box-shadow: var(--shadow-md);
   position: relative;
 }
 
+/* Thin amber rule across the top edge - the "proof" mark used on the public
+   site's cards. */
+.login-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--amber-deep), var(--amber-bright));
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.login-header { text-align: center; margin-bottom: 28px; }
+
+.login-header .logo-icon {
+  width: 44px;
+  height: 44px;
+  margin: 0 auto 16px;
+  border-radius: 10px;
+  background: var(--ink);
+  display: grid;
+  place-items: center;
+}
+
+.login-header .logo-icon::after {
+  content: "M";
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 21px;
+  color: var(--paper);
+  line-height: 1;
+}
+
+.login-header h1 {
+  font-family: var(--font-display);
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: -.01em;
+  margin: 0 0 4px;
+  color: var(--ink);
+}
+
+.login-header p {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.login-form { display: grid; gap: 16px; }
+
+/* --------------------------------------------------------------------------
+   FORMS
+   -------------------------------------------------------------------------- */
+
+.form-group { display: grid; gap: 6px; }
+
+.form-group label {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="tel"],
+.form-group input[type="date"],
+.form-group select,
+.form-group textarea,
+.form-control {
+  width: 100%;
+  padding: 11px 13px;
+  font-family: var(--font-body);
+  font-size: 14.5px;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1.5px solid var(--line);
+  border-radius: var(--radius-sm);
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+
+.form-group input::placeholder,
+.form-control::placeholder { color: #A79E93; }
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus,
+.form-control:focus {
+  outline: none;
+  border-color: var(--amber);
+  box-shadow: 0 0 0 3px var(--amber-tint);
+}
+
+.form-group textarea, textarea.form-control { min-height: 92px; resize: vertical; }
+
+.form-hint { font-size: 12px; color: var(--muted); }
+
+.full-width { grid-column: 1 / -1; }
+
+.password-input { position: relative; }
+.password-input input { padding-right: 44px; }
+
 .toggle-password {
   position: absolute;
-  right: 12px;
+  right: 6px;
   top: 50%;
   transform: translateY(-50%);
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 20px;
-  padding: 4px;
+  padding: 7px 9px;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  line-height: 1;
+  border-radius: 6px;
+  color: var(--muted);
 }
+
+.toggle-password:hover { background: var(--paper-2); }
 
 .checkbox-group label {
   display: flex;
   align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  color: var(--ink-soft);
   cursor: pointer;
 }
 
-.checkbox-group input[type="checkbox"] {
-  margin-right: var(--spacing-sm);
-  width: 18px;
-  height: 18px;
+.checkbox-group input[type="checkbox"],
+.data-table input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--amber);
   cursor: pointer;
 }
 
-/* Button Styles */
+/* --------------------------------------------------------------------------
+   BUTTONS
+   -------------------------------------------------------------------------- */
+
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 8px;
-  font-size: var(--font-size-base);
-  font-weight: 500;
+  gap: 7px;
+  padding: 10px 17px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  border: 1.5px solid transparent;
+  border-radius: var(--radius-sm);
   cursor: pointer;
-  transition: var(--transition);
+  transition: background-color .15s ease, border-color .15s ease, color .15s ease, transform .08s ease;
   text-decoration: none;
+  white-space: nowrap;
 }
 
-.btn-primary {
-  background: linear-gradient(135deg, var(--primary-purple), var(--secondary-teal));
-  color: white;
-  width: 100%;
-}
+.btn:active { transform: translateY(1px); }
+.btn:disabled { opacity: .55; cursor: not-allowed; transform: none; }
 
-.btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(138, 43, 226, 0.3);
-}
-
-.btn-primary:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-  transform: none;
-}
+.btn-primary { background: var(--amber); color: #fff; }
+.btn-primary:hover:not(:disabled) { background: var(--amber-deep); }
 
 .btn-secondary {
-  background: var(--surface-light);
-  color: var(--text-primary);
-  border: 1px solid var(--border);
-}
-
-.btn-secondary:hover {
   background: var(--surface);
+  color: var(--ink-soft);
+  border-color: var(--line);
 }
+.btn-secondary:hover:not(:disabled) { border-color: var(--ink-soft); background: var(--paper-2); }
 
-.btn-sm {
-  padding: 8px 16px;
-  font-size: var(--font-size-sm);
+.btn-danger { background: var(--red); color: #fff; }
+.btn-danger:hover:not(:disabled) { background: #953A30; }
+
+.btn-success { background: var(--green); color: #fff; }
+.btn-success:hover:not(:disabled) { background: #186C43; }
+
+.btn-sm { padding: 6px 11px; font-size: 12.5px; }
+
+.btn-icon {
+  padding: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  line-height: 1;
+  color: var(--muted);
+  display: inline-grid;
+  place-items: center;
 }
+.btn-icon:hover { background: var(--paper-2); color: var(--ink); }
 
-.btn-loader {
-  display: inline-flex;
-  align-items: center;
-}
+.login-form .btn-primary { width: 100%; padding: 12px; font-size: 15px; margin-top: 4px; }
 
-/* Spinner */
+.btn-loader { display: inline-flex; }
+
 .spinner {
-  width: 20px;
-  height: 20px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  border-top-color: white;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, .35);
+  border-top-color: #fff;
   border-radius: 50%;
-  animation: spin 0.8s linear infinite;
+  animation: spin .7s linear infinite;
 }
 
-@keyframes spin {
-  to { transform: rotate(360deg); }
+.loading-spinner .spinner {
+  width: 26px;
+  height: 26px;
+  border-color: var(--line);
+  border-top-color: var(--amber);
 }
 
-/* Error Message */
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.loading-spinner {
+  display: grid;
+  place-items: center;
+  gap: 12px;
+  padding: 64px 20px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* Errors say what happened, in the interface's voice. */
 .error-message {
-  padding: 12px;
-  background: rgba(239, 68, 68, 0.1);
-  border: 1px solid var(--error);
-  border-radius: 8px;
-  color: var(--error);
-  margin-bottom: var(--spacing-md);
-  font-size: var(--font-size-sm);
+  padding: 11px 13px;
+  background: var(--red-tint);
+  border: 1px solid rgba(176, 71, 60, .3);
+  border-radius: var(--radius-sm);
+  color: #8E362C;
+  font-size: 13.5px;
 }
 
-/* Dashboard Layout */
-.dashboard-page {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  overflow: hidden;
+/* --------------------------------------------------------------------------
+   DASHBOARD SHELL
+   -------------------------------------------------------------------------- */
+
+body.dashboard-page {
+  min-height: 100vh;
+  background: var(--paper);
 }
 
 .dashboard-header {
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: var(--header-h);
+  z-index: 40;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--spacing-md) var(--spacing-lg);
-  background: var(--surface);
-  border-bottom: 1px solid var(--border);
-  height: 64px;
+  gap: 16px;
+  padding: 0 20px;
+  background: var(--rail);
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
 }
 
-.header-left {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-md);
+.header-left { display: flex; align-items: center; gap: 12px; min-width: 0; }
+
+.logo { display: flex; align-items: center; gap: 10px; min-width: 0; }
+
+.logo-img { width: 30px; height: 30px; border-radius: 7px; object-fit: cover; }
+
+.logo-text {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--paper);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header-right { display: flex; align-items: center; gap: 14px; }
+
+.admin-info { display: grid; text-align: right; line-height: 1.3; }
+
+.admin-name { font-size: 13.5px; font-weight: 600; color: var(--paper); }
+
+.admin-email {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--rail-text);
+  opacity: .8;
+}
+
+/* Role chip beside the signed-in name, so a counsellor always knows which kind
+   of account they are on and why some controls are absent. */
+.role-chip {
+  display: inline-block;
+  margin-left: 7px;
+  padding: 2px 7px;
+  border-radius: 20px;
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  vertical-align: 1px;
+  background: rgba(217, 119, 6, .2);
+  color: #F0B36B;
+  border: 1px solid rgba(217, 119, 6, .35);
+}
+
+.dashboard-header .btn-secondary {
+  background: transparent;
+  color: var(--rail-text);
+  border-color: var(--rail-line);
+}
+.dashboard-header .btn-secondary:hover {
+  background: rgba(255, 255, 255, .07);
+  color: var(--paper);
+  border-color: rgba(255, 255, 255, .28);
 }
 
 .mobile-menu-toggle {
   display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 36px;
+  height: 36px;
+  padding: 8px;
   background: none;
   border: none;
   cursor: pointer;
-  flex-direction: column;
-  gap: 4px;
+  border-radius: 7px;
 }
 
 .mobile-menu-toggle span {
-  width: 24px;
+  display: block;
   height: 2px;
-  background: var(--text-primary);
-  transition: var(--transition);
+  background: var(--paper);
+  border-radius: 2px;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-sm);
-}
+.dashboard-container { display: flex; padding-top: var(--header-h); min-height: 100vh; }
 
-.logo .logo-icon {
-  width: 32px;
-  height: 32px;
-  background: linear-gradient(135deg, var(--primary-purple), var(--secondary-teal));
-  border-radius: 6px;
-}
+/* ---- the ink rail ---- */
 
-.logo-text {
-  font-weight: 600;
-  font-size: var(--font-size-lg);
-}
-
-.header-right {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-md);
-}
-
-.admin-info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.admin-name {
-  font-weight: 500;
-}
-
-.admin-email {
-  font-size: var(--font-size-sm);
-  color: var(--text-secondary);
-}
-
-.dashboard-container {
-  display: flex;
-  flex: 1;
-  overflow: hidden;
-}
-
-/* Sidebar */
 .sidebar {
-  width: 250px;
-  background: var(--surface);
-  border-right: 1px solid var(--border);
+  position: fixed;
+  top: var(--header-h);
+  bottom: 0;
+  left: 0;
+  width: var(--rail-w);
+  background: var(--rail);
   overflow-y: auto;
+  z-index: 30;
+  padding: 18px 12px 24px;
 }
 
-.sidebar-nav {
-  padding: var(--spacing-md);
+.sidebar-nav { display: grid; gap: 2px; }
+
+/* Mono micro-caps is the ledger voice used for every label in this panel. */
+.nav-section-label {
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: rgba(194, 186, 173, .5);
+  padding: 14px 10px 6px;
 }
+.nav-section-label:first-child { padding-top: 2px; }
 
 .nav-item {
   display: flex;
   align-items: center;
-  gap: var(--spacing-md);
-  padding: 12px 16px;
-  color: var(--text-secondary);
+  gap: 11px;
+  padding: 9px 10px;
+  border-radius: var(--radius-sm);
+  color: var(--rail-text);
   text-decoration: none;
-  border-radius: 8px;
-  margin-bottom: var(--spacing-sm);
-  transition: var(--transition);
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color .14s ease, color .14s ease;
 }
 
-.nav-item:hover {
-  background: var(--surface-light);
-  color: var(--text-primary);
-}
+.nav-item:hover { background: rgba(255, 255, 255, .06); color: var(--paper); }
 
-.nav-item.active {
-  background: linear-gradient(135deg, rgba(138, 43, 226, 0.2), rgba(78, 205, 196, 0.2));
-  color: var(--text-primary);
-}
+.nav-item.active { background: var(--amber); color: #fff; font-weight: 600; }
 
 .nav-icon {
-  font-size: 20px;
+  width: 17px;
+  height: 17px;
+  flex: 0 0 17px;
+  display: grid;
+  place-items: center;
 }
 
-/* Main Content */
+.nav-icon svg { width: 17px; height: 17px; stroke-width: 1.7; }
+
+.nav-text { flex: 1; }
+
+/* Live count of things needing attention, e.g. leads untouched over a day. */
+.nav-count {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, .12);
+  color: var(--paper);
+}
+
+.nav-item.active .nav-count { background: rgba(0, 0, 0, .22); }
+
+.nav-count.is-urgent { background: var(--red); color: #fff; }
+
 .main-content {
   flex: 1;
-  overflow-y: auto;
-  padding: var(--spacing-lg);
+  min-width: 0;
+  margin-left: var(--rail-w);
+  padding: 26px 28px 64px;
 }
 
-.loading-spinner {
+/* --------------------------------------------------------------------------
+   PAGE HEADINGS
+   -------------------------------------------------------------------------- */
+
+.page-header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  gap: var(--spacing-md);
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
 }
 
-.loading-spinner .spinner {
-  width: 40px;
-  height: 40px;
-  border-width: 3px;
-  border-color: var(--primary-purple);
-  border-top-color: transparent;
-}
-.logo-img {
-    width: 45px !important;
-    height: 45px !important;
-    object-fit: contain;
-    border-radius: 0.5rem;
-    filter: drop-shadow(0 0 15px rgba(168, 85, 247, 0.5));
-    transition: all 0.4s ease;
+.page-title {
+  font-family: var(--font-display);
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: -.015em;
+  margin: 0;
+  color: var(--ink);
 }
 
-.logo:hover .logo-img {
-    transform: scale(1.05);
-    filter: drop-shadow(0 0 20px rgba(168, 85, 247, 0.6));
-}
+.page-subtitle { margin: 4px 0 0; font-size: 14px; color: var(--muted); }
+
+.page-actions { display: flex; gap: 9px; flex-wrap: wrap; }

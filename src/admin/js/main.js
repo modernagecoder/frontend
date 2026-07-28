@@ -4,19 +4,45 @@
  * Handles navigation, authentication, and page loading
  */
 
-let currentPage = 'dashboard';
+let currentPage = 'today';
 let adminInfo = null;
 
 document.addEventListener('DOMContentLoaded', async () => {
   // Check authentication
   await checkAuth();
-  
+
   // Initialize UI
   initializeUI();
-  
-  // Load initial page
-  loadPage('dashboard');
+
+  // Hide anything this account cannot use before showing the panel
+  applyCapabilities();
+
+  // Open on the work, not on statistics
+  loadPage('today');
 });
+
+/**
+ * Whether the signed-in account holds a capability.
+ * Sub-admins lack 'deleteLeads' and 'manageTeam'.
+ *
+ * This is for presentation only. Every one of these is independently enforced
+ * by the server, so a hidden button is tidiness rather than security.
+ */
+function can(capability) {
+  return !!(adminInfo && adminInfo.capabilities && adminInfo.capabilities[capability]);
+}
+
+/**
+ * Removes nav entries this account has no access to, so a sub-admin does not
+ * click into a screen that can only answer 403.
+ */
+function applyCapabilities() {
+  document.querySelectorAll('.nav-item[data-requires]').forEach(item => {
+    if (!can(item.dataset.requires)) item.remove();
+  });
+}
+
+window.can = can;
 
 /**
  * Check if user is authenticated
@@ -48,9 +74,18 @@ function updateAdminInfo() {
     const name = adminInfo.firstName && adminInfo.lastName
       ? `${adminInfo.firstName} ${adminInfo.lastName}`
       : adminInfo.username;
-    
+
     adminNameEl.textContent = name;
     adminEmailEl.textContent = adminInfo.email;
+
+    // Show sub-admins which kind of account they are on, so the absence of
+    // delete and team controls reads as intended rather than as a fault.
+    if (adminInfo.role === 'subadmin') {
+      const chip = document.createElement('span');
+      chip.className = 'role-chip';
+      chip.textContent = 'Sub-admin';
+      adminNameEl.appendChild(chip);
+    }
   }
 }
 
@@ -144,8 +179,23 @@ async function loadPage(page) {
   
   try {
     switch (page) {
-      case 'dashboard':
-        await loadDashboard();
+      case 'today':
+        mainContent.innerHTML = TodayComponent.render();
+        await TodayComponent.init();
+        break;
+      case 'lead-sources':
+        mainContent.innerHTML = LeadSourcesComponent.render();
+        await LeadSourcesComponent.init();
+        break;
+      case 'team':
+        // Guarded here as well as in the nav, in case someone reaches this by
+        // another route. The server refuses regardless.
+        if (!can('manageTeam')) {
+          mainContent.innerHTML = '<div class="error-message">Only an admin can manage staff accounts.</div>';
+          break;
+        }
+        mainContent.innerHTML = TeamComponent.render();
+        await TeamComponent.init();
         break;
       case 'contacts':
         await loadContacts();
@@ -179,67 +229,6 @@ async function loadPage(page) {
         <button class="btn btn-primary" onclick="loadPage('${page}')">Retry</button>
       </div>
     `;
-  }
-}
-
-/**
- * Load dashboard page
- */
-async function loadDashboard() {
-  const mainContent = document.getElementById('mainContent');
-  
-  try {
-    const data = await api.getAnalyticsSummary();
-    const summary = data.summary;
-    
-    mainContent.innerHTML = `
-      <div class="page-header">
-        <h1 class="page-title">Dashboard</h1>
-        <p class="page-subtitle">Welcome back, ${adminInfo.firstName || adminInfo.username}!</p>
-      </div>
-      
-      <div class="stats-grid">
-        <div class="stat-card">
-          <div class="stat-label">Total Contacts</div>
-          <div class="stat-value">${summary.contacts.total}</div>
-          <div class="stat-trend up">↑ ${summary.trends.recentContacts} in last 7 days</div>
-        </div>
-        
-        <div class="stat-card">
-          <div class="stat-label">New Inquiries</div>
-          <div class="stat-value">${summary.contacts.new}</div>
-          <div class="stat-trend info">Pending follow-up</div>
-        </div>
-        
-        <div class="stat-card">
-          <div class="stat-label">Conversions</div>
-          <div class="stat-value">${summary.contacts.converted}</div>
-          <div class="stat-trend up">${summary.contacts.conversionRate}% conversion rate</div>
-        </div>
-        
-        <div class="stat-card">
-          <div class="stat-label">Total Users</div>
-          <div class="stat-value">${summary.users.total}</div>
-          <div class="stat-trend up">↑ ${summary.trends.recentUsers} in last 7 days</div>
-        </div>
-      </div>
-      
-      <div class="table-container">
-        <div class="table-header">
-          <h2 class="table-title">Quick Stats</h2>
-        </div>
-        <div style="padding: 24px;">
-          <p><strong>Students:</strong> ${summary.users.students}</p>
-          <p><strong>Teachers:</strong> ${summary.users.teachers}</p>
-          <p><strong>Admins:</strong> ${summary.users.admins}</p>
-          <br>
-          <p><strong>Contacted:</strong> ${summary.contacts.contacted}</p>
-          <p><strong>Archived:</strong> ${summary.contacts.archived}</p>
-        </div>
-      </div>
-    `;
-  } catch (error) {
-    throw error;
   }
 }
 

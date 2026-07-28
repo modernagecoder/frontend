@@ -1394,6 +1394,14 @@ window.openCallbackModal = function() {
         if (form) form.style.display = 'flex';
         if (success) success.style.display = 'none';
         if (phone) { phone.value = ''; phone.focus(); }
+
+        // Build the optional demo-slot picker. The builder lives in the shared
+        // demo-slot-picker.js rather than in this file, because this page has
+        // callback-modal.js commented out and keeping a second copy of the
+        // picker here would be another thing to hold in step.
+        if (window.__macResetCallbackSlotPicker) {
+            try { window.__macResetCallbackSlotPicker(); } catch (e) { }
+        }
     } else {
         console.error('Modal not found!');
     }
@@ -1414,6 +1422,7 @@ window.submitCallback = function(e) {
     
     var phoneInput = document.getElementById('callbackPhoneInput');
     var phone = phoneInput ? phoneInput.value.replace(/\D/g, '') : '';
+    var slotEl = document.getElementById('callbackDemoSlot');
     var btn = document.getElementById('callbackSubmitBtn');
     var form = document.getElementById('callbackForm');
     var success = document.getElementById('callbackSuccessMsg');
@@ -1448,7 +1457,8 @@ window.submitCallback = function(e) {
             phone: phone,
             countryCode: ccInfo.dial,
             countryIso: ccInfo.iso,
-            countryName: ccInfo.name
+            countryName: ccInfo.name,
+            demoSlot: slotEl && slotEl.value ? slotEl.value : undefined
         })
     })
     .then(function(response) { return response.json(); })

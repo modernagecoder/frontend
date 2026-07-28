@@ -1161,6 +1161,8 @@
                     iso:  (phoneEl && phoneEl.dataset && phoneEl.dataset.countryIso)  || 'IN',
                     name: (phoneEl && phoneEl.dataset && phoneEl.dataset.countryName) || 'India'
                   };
+            const preferredSlot = document.getElementById('demo-slot').value;
+
             const formData = {
                 name: document.getElementById('name').value.trim(),
                 email: document.getElementById('email').value.trim(),
@@ -1168,9 +1170,14 @@
                 countryCode: cc.dial,
                 countryIso: cc.iso,
                 countryName: cc.name,
+                // The slot now travels as its own field so admin can sort and
+                // filter by it. It stays appended to the message as well, on
+                // purpose: the admin email notification renders the message
+                // body, and dropping it there would quietly stop the booked
+                // time reaching anyone's inbox.
+                demoSlot: preferredSlot || undefined,
                 message: '[Demo Request] ' + document.getElementById('message').value.trim()
-                    + (document.getElementById('demo-slot').value
-                        ? ' | Preferred slot: ' + document.getElementById('demo-slot').value : '')
+                    + (preferredSlot ? ' | Preferred slot: ' + preferredSlot : '')
             };
 
             let hasErrors = false;

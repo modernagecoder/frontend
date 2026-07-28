@@ -39,15 +39,19 @@ function renderCountryCell(record) {
   if (document.getElementById('mac-admin-country-badge-styles')) return;
   const style = document.createElement('style');
   style.id = 'mac-admin-country-badge-styles';
+  // Brand colours only. This block previously used the retired purple
+  // (#a855f7) for foreign countries and a bright green for India, which were
+  // left over from the old admin skin and showed through the new one because
+  // an injected stylesheet lands after components.css in the cascade.
   style.textContent = `
-    .country-badge{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;font-size:12.5px;font-weight:600;line-height:1.2;white-space:nowrap;}
-    .country-badge .country-flag{font-size:15px;line-height:1;}
+    .country-badge{display:inline-flex;align-items:center;gap:6px;padding:3px 9px;border-radius:999px;font-size:12px;font-weight:600;line-height:1.4;white-space:nowrap;}
+    .country-badge .country-flag{font-size:14px;line-height:1;}
     .country-badge small{opacity:.7;font-weight:500;}
-    .country-badge--india{background:rgba(34,197,94,.12);color:#16a34a;border:1px solid rgba(34,197,94,.3);}
-    .country-badge--foreign{background:rgba(168,85,247,.14);color:#a855f7;border:1px solid rgba(168,85,247,.35);}
-    .country-badge--unknown{background:rgba(148,163,184,.14);color:#64748b;border:1px solid rgba(148,163,184,.3);font-style:italic;}
-    .phone-with-code{font-variant-numeric:tabular-nums;white-space:nowrap;}
-    .phone-with-code .dial{color:var(--text-secondary,#94a3b8);margin-right:4px;}
+    .country-badge--india{background:rgba(31,138,85,.10);color:#16663E;border:1px solid rgba(31,138,85,.25);}
+    .country-badge--foreign{background:rgba(180,83,9,.08);color:#8F3F08;border:1px solid rgba(180,83,9,.16);}
+    .country-badge--unknown{background:rgba(107,98,89,.12);color:#6B6259;border:1px solid rgba(107,98,89,.2);font-style:italic;}
+    .phone-with-code{font-family:var(--font-mono);font-size:12.5px;font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--ink);}
+    .phone-with-code .dial{color:var(--muted);margin-right:4px;}
   `;
   document.head.appendChild(style);
 })();
@@ -67,13 +71,15 @@ async function loadContacts() {
     
     mainContent.innerHTML = `
       <div class="page-header">
-        <h1 class="page-title">Contacts Management</h1>
-        <p class="page-subtitle">Manage inquiries from the Try Coding form</p>
+        <div>
+          <h1 class="page-title">Enquiries</h1>
+          <p class="page-subtitle">Parents who filled in a form, and the page that brought them</p>
+        </div>
       </div>
-      
+
       <div class="table-container">
         <div class="table-header">
-          <h2 class="table-title">All Contacts (${data.pagination.total})</h2>
+          <h2 class="table-title">${data.pagination.total} enquiries</h2>
           <div class="table-actions">
             <div class="search-box">
               <span class="search-icon">🔍</span>
@@ -101,8 +107,9 @@ async function loadContacts() {
             <tr>
               <th><input type="checkbox" id="selectAll"></th>
               <th>Name</th>
-              <th>Email</th>
               <th>Phone</th>
+              <th>Came from</th>
+              <th>Demo slot</th>
               <th>Country</th>
               <th>Status</th>
               <th>Date</th>
@@ -113,17 +120,28 @@ async function loadContacts() {
             ${filteredContacts().map(contact => `
               <tr>
                 <td><input type="checkbox" class="contact-checkbox" value="${contact._id}"></td>
-                <td>${contact.name}</td>
-                <td>${contact.email}</td>
-                <td>${renderPhoneCell(contact)}</td>
-                <td>${renderCountryCell(contact)}</td>
-                <td><span class="badge badge-${contact.status}">${capitalizeFirst(contact.status)}</span></td>
-                <td>${formatDateShort(contact.submittedAt)}</td>
-                <td>
+                <td data-label="Name">
+                  <div class="lead-name" title="${escapeHtml(contact.name)}">${escapeHtml(contact.name)}</div>
+                  <div class="lead-email" title="${escapeHtml(contact.email)}">${escapeHtml(contact.email)}</div>
+                </td>
+                <td data-label="Phone">
+                  <div style="display:flex;align-items:center;gap:8px;justify-content:flex-end;flex-wrap:wrap">
+                    ${renderPhoneCell(contact)}
+                    ${renderContactActions(contact.countryCode, contact.contact, contact.email)}
+                  </div>
+                </td>
+                <td data-label="Came from">${renderSource(contact.attribution)}</td>
+                <td data-label="Demo slot">${renderSlot(contact.demoSlot, true)}</td>
+                <td data-label="Country">${renderCountryCell(contact)}</td>
+                <td data-label="Status"><span class="badge badge-${escapeHtml(contact.status)}">${escapeHtml(capitalizeFirst(contact.status))}</span></td>
+                <td data-label="Date" class="cell-date">${formatDateCompact(contact.submittedAt)}</td>
+                <td data-label="Actions">
                   <div class="action-buttons">
-                    <button class="btn-icon" onclick="viewContact('${contact._id}')">👁️</button>
-                    <button class="btn-icon" onclick="editContact('${contact._id}')">✏️</button>
-                    <button class="btn-icon btn-danger" onclick="deleteContact('${contact._id}')">🗑️</button>
+                    <button class="btn btn-secondary btn-sm" onclick="viewContact('${contact._id}')">Open</button>
+                    <button class="btn btn-secondary btn-sm" onclick="editContact('${contact._id}')">Edit</button>
+                    ${can('deleteLeads')
+                      ? `<button class="btn-icon btn-danger" onclick="deleteContact('${contact._id}')" title="Delete" aria-label="Delete">&times;</button>`
+                      : ''}
                   </div>
                 </td>
               </tr>
@@ -193,7 +211,9 @@ function updateBulkActions() {
           <option value="archived">Archived</option>
         </select>
         <button class="btn btn-sm btn-secondary" onclick="bulkUpdateStatus()">Apply</button>
-        <button class="btn btn-sm btn-danger" onclick="bulkDeleteContacts()">Delete Selected</button>
+        ${can('deleteLeads')
+          ? '<button class="btn btn-sm btn-danger" onclick="bulkDeleteContacts()">Delete selected</button>'
+          : ''}
       </div>
     `;
   } else if (bulkToolbar) {
@@ -320,22 +340,107 @@ async function viewContact(id) {
     const data = await api.getContact(id);
     const contact = data.contact;
     
+    const attr = contact.attribution || {};
+
     showModal(`
       <div class="modal-header">
-        <h2 class="modal-title">Contact Details</h2>
-        <button class="modal-close" onclick="closeModal()">×</button>
+        <h2 class="modal-title">${escapeHtml(contact.name)}</h2>
+        <button class="modal-close" onclick="closeModal()" aria-label="Close">&times;</button>
       </div>
       <div class="modal-body">
-        <p><strong>Name:</strong> ${contact.name}</p>
-        <p><strong>Email:</strong> ${contact.email}</p>
-        <p><strong>Phone:</strong> ${renderPhoneCell(contact)}</p>
-        <p><strong>Country:</strong> ${renderCountryCell(contact)}</p>
-        <p><strong>Message:</strong> ${contact.message}</p>
-        <p><strong>Status:</strong> <span class="badge badge-${contact.status}">${capitalizeFirst(contact.status)}</span></p>
-        <p><strong>Submitted:</strong> ${formatDate(contact.submittedAt)}</p>
-        ${contact.notes ? `<p><strong>Notes:</strong> ${contact.notes}</p>` : ''}
-        ${contact.ipAddress ? `<p><strong>IP Address:</strong> ${contact.ipAddress}</p>` : ''}
-        ${contact.userAgent ? `<p><strong>User Agent:</strong> ${contact.userAgent}</p>` : ''}
+
+        <div class="detail-section">
+          <h3>Contact</h3>
+          <div class="detail-grid">
+            <div class="detail-item">
+              <div class="detail-label">Phone</div>
+              <div class="detail-value">
+                <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+                  ${renderPhoneCell(contact)}
+                  ${renderContactActions(contact.countryCode, contact.contact, contact.email)}
+                </div>
+              </div>
+            </div>
+            <div class="detail-item">
+              <div class="detail-label">Email</div>
+              <div class="detail-value">${escapeHtml(contact.email)}</div>
+            </div>
+            <div class="detail-item">
+              <div class="detail-label">Country</div>
+              <div class="detail-value">${renderCountryCell(contact)}</div>
+            </div>
+            <div class="detail-item">
+              <div class="detail-label">Status</div>
+              <div class="detail-value"><span class="badge badge-${escapeHtml(contact.status)}">${escapeHtml(capitalizeFirst(contact.status))}</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Demo slot</h3>
+          <div class="detail-value">
+            ${contact.demoSlot && contact.demoSlot.raw
+              ? renderSlot(contact.demoSlot) +
+                (contact.demoSlot.localTime
+                  ? `<div class="form-hint" style="margin-top:6px">Their local time: ${escapeHtml(contact.demoSlot.localTime)}</div>`
+                  : '')
+              : '<span class="slot-empty">They did not pick a time. Call to arrange one.</span>'}
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Where they came from</h3>
+          <div class="detail-grid">
+            <div class="detail-item">
+              <div class="detail-label">Landed on</div>
+              <div class="detail-value">${attr.landingPage ? `<span class="source-page">${escapeHtml(attr.landingPage)}</span>` : '<span class="source-unknown">Not recorded</span>'}</div>
+            </div>
+            <div class="detail-item">
+              <div class="detail-label">Submitted from</div>
+              <div class="detail-value">${attr.formPage ? `<span class="source-page">${escapeHtml(attr.formPage)}</span>` : '<span class="source-unknown">Not recorded</span>'}</div>
+            </div>
+            <div class="detail-item">
+              <div class="detail-label">Arrived via</div>
+              <div class="detail-value">${escapeHtml(CHANNEL_LABELS[attr.channel] || 'Not recorded')}${attr.referrerHost ? ' &middot; ' + escapeHtml(attr.referrerHost) : ''}</div>
+            </div>
+            <div class="detail-item">
+              <div class="detail-label">First seen</div>
+              <div class="detail-value">${attr.firstSeenAt ? escapeHtml(formatDate(attr.firstSeenAt)) : '&mdash;'}</div>
+            </div>
+          </div>
+          ${attr.journey && attr.journey.length > 1 ? `
+            <div style="margin-top:14px">
+              <div class="detail-label">Pages they read before enquiring</div>
+              ${renderJourney(attr.journey)}
+            </div>` : ''}
+        </div>
+
+        <div class="detail-section">
+          <h3>Their message</h3>
+          <div class="detail-text">${escapeHtml(contact.message)}</div>
+        </div>
+
+        ${contact.notes ? `
+          <div class="detail-section">
+            <h3>Internal notes</h3>
+            <div class="detail-text">${escapeHtml(contact.notes)}</div>
+          </div>` : ''}
+
+        <div class="detail-section">
+          <h3>Record</h3>
+          <div class="detail-grid">
+            <div class="detail-item">
+              <div class="detail-label">Submitted</div>
+              <div class="detail-value">${escapeHtml(formatDate(contact.submittedAt))}</div>
+            </div>
+            ${contact.ipAddress ? `
+            <div class="detail-item">
+              <div class="detail-label">IP address</div>
+              <div class="detail-value"><span class="source-page">${escapeHtml(contact.ipAddress)}</span></div>
+            </div>` : ''}
+          </div>
+        </div>
+
       </div>
       <div class="modal-footer">
         <button class="btn btn-secondary" onclick="closeModal()">Close</button>
