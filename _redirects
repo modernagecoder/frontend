@@ -1461,4 +1461,10 @@
 /women-back-to-tech /coding-comeback-women 301!
 
 
+# Battle Arena — live coding exam. Standalone pages, noindex.
+/battle           /src/pages/battle.html         200
+/battle-screen    /src/pages/battle-screen.html  200
+/battle-admin     /src/pages/battle-admin.html   200
+
+
 /* /src/pages/404.html 404

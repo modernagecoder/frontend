@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Battle Arena — Live Screen</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#07030f">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/battle.css?v=1">
+
+<style>
+  /* Everything scales from one viewport-derived unit, so the same page is
+     legible on a laptop and from the back row of a classroom. */
+  :root { --u: clamp(14px, 1.05vw, 26px); }
+
+  body { overflow: hidden; }
+
+  .screen { height: 100vh; display: grid; grid-template-rows: auto 1fr auto;
+            gap: calc(var(--u) * .9); padding: calc(var(--u) * 1.1); }
+
+  /* ---- header band ------------------------------------------------------ */
+  .band { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;
+          gap: calc(var(--u) * 1.2); }
+  .band-l { min-width: 0; }
+  .band-r { display: flex; justify-content: flex-end; align-items: center; gap: calc(var(--u) * .8); }
+
+  .ev-title { font-family: var(--disp); font-weight: 800; font-size: calc(var(--u) * 1.9);
+              line-height: 1.05; letter-spacing: -0.02em; }
+  .ev-round { font-family: var(--mono); font-size: calc(var(--u) * .72);
+              letter-spacing: 0.28em; text-transform: uppercase; color: var(--cyan-hi);
+              margin-bottom: calc(var(--u) * .25); }
+
+  .joincode { text-align: right; }
+  .joincode small { display: block; font-family: var(--mono); font-size: calc(var(--u) * .58);
+                    letter-spacing: 0.24em; text-transform: uppercase; color: var(--faint); }
+  .joincode strong { font-family: var(--mono); font-weight: 700; font-size: calc(var(--u) * 2);
+                     letter-spacing: 0.14em; color: var(--acid); }
+
+  /* ---- body ------------------------------------------------------------- */
+  .cols { display: grid; grid-template-columns: 1.15fr 1fr; gap: calc(var(--u) * .9); min-height: 0; }
+  .col { min-height: 0; display: flex; flex-direction: column; }
+
+  .sect-head { display: flex; align-items: baseline; justify-content: space-between;
+               margin-bottom: calc(var(--u) * .6); }
+  .sect-title { font-family: var(--mono); font-size: calc(var(--u) * .62);
+                letter-spacing: 0.26em; text-transform: uppercase; color: var(--faint); }
+
+  /* ---- leaderboard ------------------------------------------------------ */
+  .board { flex: 1; overflow: hidden; display: flex; flex-direction: column;
+           gap: calc(var(--u) * .3); }
+  .brow { display: grid; grid-template-columns: calc(var(--u) * 2.2) calc(var(--u) * 2) 1fr auto;
+          align-items: center; gap: calc(var(--u) * .6);
+          padding: calc(var(--u) * .42) calc(var(--u) * .6);
+          border-radius: calc(var(--u) * .6); border: 1px solid transparent;
+          transition: transform .5s cubic-bezier(.2,.9,.3,1), background .5s ease; }
+  .brow:nth-child(1) { background: rgba(255,210,74,.1); border-color: rgba(255,210,74,.32); }
+  .brow:nth-child(2) { background: rgba(168,133,247,.08); border-color: var(--line); }
+  .brow:nth-child(3) { background: rgba(168,133,247,.05); border-color: var(--line); }
+
+  .brank { font-family: var(--mono); font-weight: 700; font-size: calc(var(--u) * .95); color: var(--faint); }
+  .brow:nth-child(1) .brank { color: var(--gold); }
+  .bname { font-family: var(--disp); font-weight: 700; font-size: calc(var(--u) * .95);
+           overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .bpts { font-family: var(--mono); font-weight: 700; font-size: calc(var(--u) * 1.05); color: var(--cyan-hi); }
+  .brow .av { width: calc(var(--u) * 1.8); height: calc(var(--u) * 1.8); font-size: calc(var(--u) * .62); }
+
+  /* ---- pulse grid ------------------------------------------------------- */
+  .pulse { display: grid; grid-template-columns: repeat(auto-fill, minmax(calc(var(--u) * 6.5), 1fr));
+           gap: calc(var(--u) * .4); align-content: start; overflow: hidden; flex: 1; }
+  .tile { display: flex; align-items: center; gap: calc(var(--u) * .4);
+          padding: calc(var(--u) * .4) calc(var(--u) * .5);
+          border-radius: calc(var(--u) * .55); border: 1px solid var(--line);
+          background: rgba(20,12,38,.5); transition: all .45s ease; min-width: 0; }
+  .tile .av { width: calc(var(--u) * 1.4); height: calc(var(--u) * 1.4); font-size: calc(var(--u) * .5); }
+  .tile span { font-size: calc(var(--u) * .62); overflow: hidden;
+               text-overflow: ellipsis; white-space: nowrap; }
+  .tile.offline { opacity: .35; }
+  .tile.draft     { border-color: rgba(255,210,74,.4); }
+  .tile.submitted { border-color: rgba(45,212,191,.55); background: rgba(45,212,191,.12); }
+  .tile.correct   { border-color: var(--acid); background: rgba(196,248,42,.16);
+                    box-shadow: 0 0 calc(var(--u) * .8) rgba(196,248,42,.28); }
+  .tile.wrong     { border-color: rgba(255,45,142,.45); background: rgba(255,45,142,.1); }
+
+  /* ---- debate spotlight ------------------------------------------------- */
+  .spot-vs { display: grid; grid-template-columns: 1fr auto 1fr; gap: calc(var(--u) * .6);
+             align-items: center; margin-bottom: calc(var(--u) * .6); }
+  .spot-side { padding: calc(var(--u) * .5); border-radius: calc(var(--u) * .5);
+               border: 1px solid var(--line); text-align: center; }
+  .spot-side.on { border-color: var(--acid); background: rgba(196,248,42,.09); }
+  .spot-side b { display: block; font-family: var(--disp); font-size: calc(var(--u) * .9); }
+  .spot-side small { font-family: var(--mono); font-size: calc(var(--u) * .5);
+                     letter-spacing: .18em; text-transform: uppercase; color: var(--faint); }
+  .spot-quote { font-size: calc(var(--u) * .72); line-height: 1.5; color: var(--mut);
+                border-left: 2px solid var(--line2); padding-left: calc(var(--u) * .6); }
+
+  /* ---- footer ----------------------------------------------------------- */
+  .foot { display: flex; align-items: center; gap: calc(var(--u) * .8);
+          font-family: var(--mono); font-size: calc(var(--u) * .6); color: var(--faint); }
+
+  /* ---- celebration ------------------------------------------------------ */
+  .cheer { position: fixed; left: 50%; top: 22%; transform: translateX(-50%);
+           z-index: 300; text-align: center; pointer-events: none;
+           animation: cheer 2.6s ease forwards; }
+  @keyframes cheer {
+    0%   { opacity: 0; transform: translateX(-50%) scale(.7) }
+    14%  { opacity: 1; transform: translateX(-50%) scale(1.05) }
+    24%  { transform: translateX(-50%) scale(1) }
+    78%  { opacity: 1 }
+    100% { opacity: 0; transform: translateX(-50%) translateY(calc(var(--u) * -1.6)) scale(.95) }
+  }
+  .cheer b { font-family: var(--disp); font-weight: 800; font-size: calc(var(--u) * 2.2);
+             display: block; color: var(--acid); text-shadow: 0 0 calc(var(--u)) rgba(196,248,42,.5); }
+  .cheer small { font-family: var(--mono); font-size: calc(var(--u) * .7); color: var(--ink); }
+
+  .center-note { display: grid; place-items: center; height: 100%; text-align: center; }
+
+  @media (max-width: 900px) { .cols { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="atmos"></div>
+
+<!-- Asks for a code when the page is opened bare. -->
+<section id="gate" class="shell" style="min-height:100vh;display:grid;place-items:center;padding:1.2rem">
+  <form class="card" id="gate-form" style="max-width:420px;width:100%">
+    <p class="kicker" style="text-align:center;margin-bottom:.5rem">Projector view</p>
+    <h1 style="text-align:center;font-size:1.6rem;margin-bottom:1.2rem">Battle <span class="grad">Screen</span></h1>
+    <label class="lbl" for="g-code">Battle code</label>
+    <input class="field mono" id="g-code" maxlength="10" autocomplete="off"
+           style="text-align:center;letter-spacing:.3em;text-transform:uppercase;font-size:1.3rem"
+           placeholder="ABC123">
+    <button class="btn btn-primary btn-block" style="margin-top:1rem" type="submit">Show the room</button>
+    <p class="faint" style="font-size:.78rem;text-align:center;margin-top:.9rem">
+      Cast this tab to the TV, or share it on the call.</p>
+  </form>
+</section>
+
+<main id="screen" class="screen shell hidden">
+  <header class="band">
+    <div class="band-l">
+      <div class="ev-round" id="s-round">Lobby</div>
+      <div class="ev-title" id="s-title">Battle Arena</div>
+    </div>
+    <div id="s-timer"></div>
+    <div class="band-r">
+      <div class="joincode">
+        <small>Join at learn.modernagecoders.com/battle</small>
+        <strong id="s-code">——————</strong>
+      </div>
+    </div>
+  </header>
+
+  <section class="cols">
+    <div class="col card" style="padding:calc(var(--u)*.9)">
+      <div class="sect-head">
+        <span class="sect-title">Leaderboard</span>
+        <span class="sect-title" id="s-lb-note"></span>
+      </div>
+      <div class="board" id="s-board"></div>
+    </div>
+
+    <div class="col card" style="padding:calc(var(--u)*.9)">
+      <div class="sect-head">
+        <span class="sect-title" id="s-right-title">Who has submitted</span>
+        <span class="sect-title" id="s-submitted"></span>
+      </div>
+      <div id="s-right" style="flex:1;min-height:0;overflow:hidden;display:flex;flex-direction:column"></div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <span id="s-status">Waiting</span>
+    <span class="grow"></span>
+    <span id="s-announce" style="color:var(--gold)"></span>
+  </footer>
+</main>
+
+<script src="/js/battle-client.js?v=1"></script>
+<script>
+(function () {
+  'use strict';
+
+  var B = window.Battle;
+  var $ = function (id) { return document.getElementById(id); };
+  var esc = B.escapeHtml;
+
+  var state = { code: null, data: null, timer: null, seenMarks: {}, seenCue: null };
+
+  var params = new URLSearchParams(location.search);
+  if (params.get('code')) $('g-code').value = params.get('code').toUpperCase();
+
+  $('gate-form').addEventListener('submit', function (event) {
+    event.preventDefault();
+    var code = $('g-code').value.trim().toUpperCase();
+    if (code) begin(code);
+  });
+
+  // ?code= in the URL means the host can bookmark the projector view.
+  if (params.get('code')) begin(params.get('code').toUpperCase());
+
+  function begin(code) {
+    state.code = code;
+    $('gate').classList.add('hidden');
+    $('screen').classList.remove('hidden');
+    $('s-code').textContent = code;
+
+    state.timer = B.makeTimer(140, 9, 'calc(var(--u) * 1.5)');
+    $('s-timer').appendChild(state.timer);
+
+    new B.Poller({
+      intervalMs: 2000,
+      // The projector never sleeps: round expiry and debate turns advance when
+      // somebody reads the battle, so this page is part of the clock.
+      pauseWhenHidden: false,
+      fetchOnce: function (version) {
+        return B.request('GET', '/battle/' + code + '/screen?v=' + version);
+      },
+      onData: paint,
+      onError: function (error, failures) {
+        $('s-status').textContent = failures > 2 ? 'Reconnecting…' : 'Live';
+      }
+    }).start();
+
+    (function frame() {
+      var data = state.data;
+      if (data && data.round && data.round.status === 'running' && !data.battle.paused) {
+        B.renderTimer(state.timer, data.round.endsAt,
+          (new Date(data.round.endsAt) - new Date(data.round.startedAt)) || 0);
+      } else {
+        B.renderTimer(state.timer, null);
+      }
+      requestAnimationFrame(frame);
+    })();
+  }
+
+  function paint(data) {
+    state.data = data;
+
+    $('s-title').textContent = data.battle.title;
+    $('s-code').textContent = data.battle.code;
+
+    var round = data.round;
+    $('s-round').textContent = data.battle.status === 'finished' ? 'Final result'
+      : data.battle.paused ? 'Paused'
+      : round ? round.label : 'Lobby';
+
+    $('s-status').textContent = data.counts.online + ' of ' + data.counts.joined + ' online';
+    $('s-announce').textContent = data.battle.announcement ? data.battle.announcement.text : '';
+
+    // Leaderboard
+    var board = data.leaderboard || [];
+    $('s-lb-note').textContent = board.length ? 'top ' + board.length : '';
+    $('s-board').innerHTML = board.map(function (row) {
+      return '<div class="brow">' +
+        '<span class="brank">' + row.rank + '</span>' +
+        '<div class="av c' + (row.colorIdx % 12) + '">' + esc(B.initials(row.displayName)) + '</div>' +
+        '<span class="bname">' + esc(row.displayName) + '</span>' +
+        '<span class="bpts">' + row.total + '</span></div>';
+    }).join('') || '<div class="center-note"><p class="faint">Nobody has scored yet.</p></div>';
+
+    // Right column: the debate spotlight during round 2, the pulse grid otherwise.
+    if (data.debateSpotlight) paintSpotlight(data.debateSpotlight);
+    else paintPulse(data);
+
+    celebrate(data.celebrations || []);
+    cue(data.battle.soundCue);
+  }
+
+  function paintPulse(data) {
+    $('s-right-title').textContent = data.battle.currentRound ? 'Who has submitted' : 'In the arena';
+    $('s-submitted').textContent = data.battle.currentRound
+      ? data.counts.submitted + ' / ' + data.counts.total
+      : data.counts.joined + ' joined';
+
+    $('s-right').innerHTML = '<div class="pulse">' + (data.pulse || []).map(function (p) {
+      return '<div class="tile ' + p.state + (p.online ? '' : ' offline') + '">' +
+        '<div class="av c' + (p.colorIdx % 12) + '">' + esc(B.initials(p.displayName)) + '</div>' +
+        '<span>' + esc(p.displayName) + '</span></div>';
+    }).join('') + '</div>' ||
+      '<div class="center-note"><p class="faint">Waiting for students to join.</p></div>';
+  }
+
+  function paintSpotlight(spot) {
+    $('s-right-title').textContent = 'On the floor';
+    $('s-submitted').textContent = 'turn ' + (spot.turnIndex + 1) + ' / ' + spot.totalTurns;
+
+    $('s-right').innerHTML =
+      '<p style="font-family:var(--disp);font-weight:700;font-size:calc(var(--u)*.95);' +
+        'margin-bottom:calc(var(--u)*.7)">' + esc(spot.topic) + '</p>' +
+      '<div class="spot-vs">' +
+        '<div class="spot-side' + (spot.currentSpeaker === 'a' ? ' on' : '') + '">' +
+          '<small>' + esc(spot.aSide) + '</small><b>' + esc(spot.aName) + '</b></div>' +
+        '<div class="vs" style="font-size:calc(var(--u)*.7)">VS</div>' +
+        '<div class="spot-side' + (spot.currentSpeaker === 'b' ? ' on' : '') + '">' +
+          '<small>' + esc(spot.bSide) + '</small><b>' + esc(spot.bName) + '</b></div>' +
+      '</div>' +
+      (spot.lastMessage
+        ? '<p class="spot-quote">' + esc(spot.lastMessage.text) +
+          '<br><span class="faint mono" style="font-size:calc(var(--u)*.52)">— ' +
+          esc(spot.lastMessage.authorName) + '</span></p>'
+        : '<p class="faint" style="font-size:calc(var(--u)*.66)">Waiting for the first argument.</p>');
+  }
+
+  /**
+   * Fires once per mark. The server sends everything marked in the last fifteen
+   * seconds, so a repeated poll would replay the same celebration — the seen
+   * set is what stops the room being confettied twice for one answer.
+   */
+  function celebrate(marks) {
+    marks.forEach(function (mark) {
+      if (state.seenMarks[mark.markId]) return;
+      state.seenMarks[mark.markId] = true;
+
+      var el = document.createElement('div');
+      el.className = 'cheer';
+      el.innerHTML = '<b>' + esc(mark.displayName) + '</b>' +
+                     '<small>+' + mark.points + ' points</small>';
+      document.body.appendChild(el);
+      setTimeout(function () { el.remove(); }, 2700);
+
+      B.confetti(120, { x: 0.5, y: 0.3 });
+      B.playCue('correct');
+    });
+  }
+
+  function cue(soundCue) {
+    if (!soundCue || !soundCue.at || state.seenCue === soundCue.at) return;
+    if (state.seenCue !== null) B.playCue(soundCue.id);
+    state.seenCue = soundCue.at;
+  }
+})();
+</script>
+</body>
+</html>

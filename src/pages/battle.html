@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Battle Arena — Modern Age Coders</title>
+
+<!-- A live exam console has no business in a search index. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#07030f">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/battle.css?v=1">
+
+<style>
+  .wrap { max-width: 940px; margin: 0 auto; padding: 1.2rem; }
+
+  /* ---- top bar ---------------------------------------------------------- */
+  .topbar {
+    position: sticky; top: 0; z-index: 40;
+    background: rgba(7, 3, 15, 0.86);
+    backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--line);
+  }
+  .topbar-in { max-width: 940px; margin: 0 auto; padding: 0.65rem 1.2rem;
+               display: flex; align-items: center; gap: 0.9rem; }
+  .brand { font-family: var(--disp); font-weight: 800; font-size: 0.9rem; letter-spacing: -0.01em; }
+  .brand em { font-style: normal; color: var(--acid); }
+
+  /* ---- join ------------------------------------------------------------- */
+  .join-wrap { min-height: 100vh; display: grid; place-items: center; padding: 1.2rem; }
+  .join-card { width: 100%; max-width: 460px; }
+  .code-input { font-family: var(--mono); font-size: 1.5rem; font-weight: 700;
+                letter-spacing: 0.35em; text-align: center; text-transform: uppercase; }
+
+  /* ---- lobby ------------------------------------------------------------ */
+  .roster { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 0.6rem; }
+  .roster-item { display: flex; align-items: center; gap: 0.6rem; padding: 0.55rem 0.7rem;
+                 border: 1px solid var(--line); border-radius: 999px; background: rgba(20, 12, 38, 0.5); }
+  .roster-item .av { width: 30px; height: 30px; font-size: 0.72rem; }
+  .roster-item.me { border-color: var(--acid); box-shadow: 0 0 0 1px rgba(196, 248, 42, 0.25); }
+  .roster-name { font-size: 0.84rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  .waiting-orb { width: 78px; height: 78px; border-radius: 50%; margin: 0 auto 1rem;
+    background: radial-gradient(circle at 35% 30%, var(--violet), transparent 70%);
+    animation: breathe 2.6s ease-in-out infinite; }
+  @keyframes breathe { 0%,100% { transform: scale(1); opacity: .85 } 50% { transform: scale(1.14); opacity: 1 } }
+
+  /* ---- question + editor ------------------------------------------------ */
+  .qhead { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; margin-bottom: 0.9rem; }
+  .prompt { white-space: pre-wrap; line-height: 1.65; color: var(--mut); font-size: 0.95rem; }
+
+  .editor { border: 1px solid var(--line2); border-radius: var(--r); overflow: hidden;
+            background: #050210; display: flex; min-height: 300px; }
+  .editor.focused { border-color: var(--violet); box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.15); }
+  .gutter { flex: none; padding: 0.9rem 0.55rem 0.9rem 0.85rem; text-align: right;
+            font-family: var(--mono); font-size: 0.82rem; line-height: 1.55; color: var(--faint);
+            background: rgba(168, 133, 247, 0.05); border-right: 1px solid var(--line);
+            user-select: none; overflow: hidden; white-space: pre; }
+  .code-area { flex: 1; padding: 0.9rem 1rem; font-family: var(--mono); font-size: 0.82rem;
+               line-height: 1.55; color: var(--ink); background: transparent; border: 0;
+               resize: none; outline: none; tab-size: 4; white-space: pre; overflow-wrap: normal;
+               overflow-x: auto; min-height: 300px; }
+
+  .savebar { display: flex; align-items: center; gap: 0.5rem; font-family: var(--mono);
+             font-size: 0.68rem; color: var(--faint); margin-top: 0.55rem; }
+
+  /* ---- debate ----------------------------------------------------------- */
+  .versus { display: grid; grid-template-columns: 1fr auto 1fr; gap: 0.9rem; align-items: center; }
+  .side { padding: 0.8rem; border-radius: var(--r); border: 1px solid var(--line); text-align: center; }
+  .side.active { border-color: var(--acid); background: rgba(196, 248, 42, 0.07); }
+  .side-label { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.2em;
+                text-transform: uppercase; color: var(--faint); margin-bottom: 0.3rem; }
+  .vs { font-family: var(--disp); font-weight: 800; color: var(--faint); font-size: 0.9rem; }
+
+  .thread { max-height: 46vh; overflow-y: auto; display: flex; flex-direction: column;
+            gap: 0.6rem; padding-right: 0.3rem; }
+  .msg { padding: 0.7rem 0.9rem; border-radius: var(--r-sm); border: 1px solid var(--line);
+         background: rgba(20, 12, 38, 0.5); max-width: 86%; }
+  .msg.mine { align-self: flex-end; border-color: rgba(168, 85, 247, 0.42); background: rgba(168, 85, 247, 0.1); }
+  .msg.system { align-self: center; max-width: 100%; text-align: center; border-style: dashed;
+                background: transparent; color: var(--faint); font-size: 0.78rem; }
+  .msg-who { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.12em;
+             text-transform: uppercase; color: var(--faint); margin-bottom: 0.28rem; }
+  .msg-text { font-size: 0.9rem; line-height: 1.55; white-space: pre-wrap; word-break: break-word; }
+
+  /* ---- verdict overlay -------------------------------------------------- */
+  .verdict { position: fixed; inset: 0; z-index: 200; display: grid; place-items: center;
+             background: rgba(7, 3, 15, 0.9); backdrop-filter: blur(10px); padding: 1.2rem;
+             animation: fadein 0.25s ease; }
+  @keyframes fadein { from { opacity: 0 } to { opacity: 1 } }
+  .verdict-card { max-width: 460px; width: 100%; text-align: center; animation: pop 0.4s cubic-bezier(.2,1.4,.4,1); }
+  @keyframes pop { from { transform: scale(0.86); opacity: 0 } to { transform: scale(1); opacity: 1 } }
+  .verdict-mark { font-size: 3.6rem; line-height: 1; margin-bottom: 0.5rem; }
+
+  /* ---- results ---------------------------------------------------------- */
+  .lb-row { display: flex; align-items: center; gap: 0.75rem; padding: 0.6rem 0.4rem;
+            border-bottom: 1px solid var(--line); }
+  .lb-row:last-child { border-bottom: 0; }
+  .lb-rank { font-family: var(--mono); font-weight: 700; width: 2.2rem; color: var(--faint); }
+  .lb-row.me { background: rgba(196, 248, 42, 0.06); border-radius: var(--r-sm); }
+  .lb-row.me .lb-rank { color: var(--acid); }
+  .lb-pts { font-family: var(--mono); font-weight: 700; color: var(--cyan-hi); }
+  .lb-row .av { width: 30px; height: 30px; font-size: 0.72rem; }
+
+  @media (max-width: 620px) {
+    .versus { grid-template-columns: 1fr; }
+    .vs { display: none; }
+    .qhead { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+<div class="atmos"></div>
+
+<!-- ======================================================== JOIN ======== -->
+<section id="view-join" class="join-wrap shell">
+  <div class="card join-card">
+    <p class="kicker" style="text-align:center;margin-bottom:.45rem">Modern Age Coders</p>
+    <h1 style="text-align:center;font-size:1.9rem;margin-bottom:.4rem">Battle <span class="grad">Arena</span></h1>
+    <p class="mut" style="text-align:center;font-size:.88rem;margin-bottom:1.4rem">
+      Live coding battle. Enter the code your teacher put on screen.
+    </p>
+
+    <form id="join-form" class="stack" novalidate>
+      <div>
+        <label class="lbl" for="f-code">Battle code</label>
+        <input class="field code-input" id="f-code" maxlength="10" autocomplete="off"
+               autocapitalize="characters" spellcheck="false" placeholder="ABC123" required>
+      </div>
+      <div>
+        <label class="lbl" for="f-name">Your full name</label>
+        <input class="field" id="f-name" maxlength="40" autocomplete="name"
+               placeholder="e.g. Aarav Kumar" required>
+        <p class="faint" style="font-size:.76rem;margin-top:.4rem">
+          Use your real name — this is what your teacher marks and what appears on the leaderboard.
+        </p>
+      </div>
+
+      <div id="join-error" class="banner banner-error hidden"></div>
+
+      <button class="btn btn-primary btn-block" id="join-btn" type="submit">Enter the arena</button>
+    </form>
+
+    <p class="faint" style="text-align:center;font-size:.78rem;margin-top:1.1rem">
+      Can't get in? WhatsApp
+      <a href="https://wa.me/919123366161" target="_blank" rel="noopener"
+         style="color:var(--cyan-hi)">+91 91233 66161</a>
+    </p>
+  </div>
+</section>
+
+<!-- ======================================================== ARENA ======= -->
+<div id="view-arena" class="hidden">
+  <header class="topbar">
+    <div class="topbar-in">
+      <span class="brand">Battle <em>Arena</em></span>
+      <span class="pill" id="chip-round">Lobby</span>
+      <span class="grow"></span>
+      <span class="pill pill-gold" id="chip-score">0 pts</span>
+      <div id="timer-slot"></div>
+    </div>
+  </header>
+
+  <main class="wrap shell stack" id="arena-body">
+    <div id="conn" class="banner banner-warn hidden">
+      Reconnecting… your work is saved.
+    </div>
+    <div id="announce" class="banner hidden"></div>
+    <div id="stage"></div>
+  </main>
+</div>
+
+<div id="verdict-host"></div>
+
+<script src="/js/battle-client.js?v=1"></script>
+<script>
+(function () {
+  'use strict';
+
+  var B = window.Battle;
+  var PT = B.participantToken();
+
+  var state = {
+    code: null,
+    me: null,
+    data: null,
+    poller: null,
+    stageKey: null,     // what the stage is currently rendering
+    seenCue: null,
+    lastVerdicts: {},   // questionId -> verdict, to detect a NEW mark
+    timerEl: null,
+    editorFor: null,
+    dirty: false
+  };
+
+  var $ = function (id) { return document.getElementById(id); };
+  var esc = B.escapeHtml;
+
+  /* ---------------------------------------------------------------- join -- */
+
+  // Deep link: /battle?code=ABC123 lets the host share one clickable link.
+  var params = new URLSearchParams(location.search);
+  if (params.get('code')) $('f-code').value = params.get('code').toUpperCase();
+
+  // A returning student should not have to retype their name.
+  try {
+    var saved = localStorage.getItem('mac_battle_name');
+    if (saved) $('f-name').value = saved;
+  } catch (e) {}
+
+  $('f-code').addEventListener('input', function () {
+    this.value = this.value.toUpperCase().replace(/[^A-Z0-9]/g, '');
+  });
+
+  $('join-form').addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    var code = $('f-code').value.trim().toUpperCase();
+    var name = $('f-name').value.trim();
+    var btn = $('join-btn');
+    var errorBox = $('join-error');
+
+    errorBox.classList.add('hidden');
+
+    if (!code) return showJoinError('Enter the battle code your teacher gave you.');
+    if (name.length < 2) return showJoinError('Enter your full name.');
+
+    btn.disabled = true;
+    btn.textContent = 'Joining…';
+
+    B.request('POST', '/battle/' + code + '/join', {
+      body: { name: name, participantToken: PT }
+    }).then(function (res) {
+      try { localStorage.setItem('mac_battle_name', name); } catch (e) {}
+      state.code = code;
+      state.me = res.me;
+      enterArena();
+    }).catch(function (error) {
+      showJoinError(error.message);
+      btn.disabled = false;
+      btn.textContent = 'Enter the arena';
+    });
+  });
+
+  function showJoinError(message) {
+    var box = $('join-error');
+    box.textContent = message;
+    box.classList.remove('hidden');
+  }
+
+  /* --------------------------------------------------------------- arena -- */
+
+  function enterArena() {
+    $('view-join').classList.add('hidden');
+    $('view-arena').classList.remove('hidden');
+
+    state.timerEl = B.makeTimer(48, 4, '0.72rem');
+    $('timer-slot').appendChild(state.timerEl);
+
+    state.poller = new B.Poller({
+      intervalMs: 3000,
+      fetchOnce: function (version) {
+        return B.request('GET', '/battle/' + state.code + '/sync?v=' + version + '&pt=' + encodeURIComponent(PT));
+      },
+      onData: onSync,
+      onError: function (error, failures) {
+        // One blip is normal on classroom wifi; three in a row is worth saying.
+        $('conn').classList.toggle('hidden', failures < 3);
+        if (error.code === 'kicked') {
+          state.poller.stop();
+          renderStage('kicked', '<div class="card" style="text-align:center">' +
+            '<h2 style="margin-bottom:.5rem">You have been removed</h2>' +
+            '<p class="mut">Speak to your teacher if you think this is a mistake.</p></div>');
+        }
+      }
+    });
+    state.poller.start();
+
+    startClockLoop();
+    startAntiCheat();
+  }
+
+  function onSync(data) {
+    $('conn').classList.add('hidden');
+    state.data = data;
+
+    if (data.me) {
+      $('chip-score').textContent = (data.me.scores.total || 0) + ' pts' +
+        (data.me.rank ? '  ·  #' + data.me.rank : '');
+    }
+
+    B.setSound(data.battle.soundEnabled !== false);
+    playCueOnce(data.battle.soundCue);
+    showAnnouncement(data.battle.announcement);
+    detectNewVerdict(data);
+
+    var round = data.round;
+    $('chip-round').textContent = data.battle.status === 'finished'
+      ? 'Finished'
+      : (round && data.battle.currentRound ? 'Round ' + round.index : 'Lobby');
+
+    render(data);
+  }
+
+  /* --------------------------------------------------- stage rendering --- */
+
+  /**
+   * The stage is only rebuilt when the KIND of thing on it changes. Re-rendering
+   * on every 3-second sync would wipe out whatever the student was typing.
+   */
+  function render(data) {
+    if (data.battle.status === 'finished') return renderResults(data);
+    if (!data.battle.currentRound || data.battle.status === 'lobby') return renderLobby(data);
+
+    var round = data.round;
+    if (!round) return renderLobby(data);
+
+    if (round.status === 'grading' || round.status === 'closed') return renderWaiting(data);
+    if (round.type === 'debate') return renderDebate(data);
+    return renderWork(data);
+  }
+
+  function renderStage(key, html) {
+    if (state.stageKey === key) return false;
+    state.stageKey = key;
+    $('stage').innerHTML = html;
+    return true;
+  }
+
+  /* ---------------------------------------------------------------- lobby - */
+
+  function renderLobby(data) {
+    var fresh = renderStage('lobby',
+      '<div class="card" style="text-align:center">' +
+        '<div class="waiting-orb"></div>' +
+        '<p class="kicker" style="margin-bottom:.4rem">You\'re in</p>' +
+        '<h2 style="font-size:1.5rem;margin-bottom:.4rem" id="lobby-title"></h2>' +
+        '<p class="mut" style="font-size:.9rem">Waiting for your teacher to start Round 1. Keep this tab open.</p>' +
+        '<p class="faint mono" style="font-size:.7rem;margin-top:.8rem" id="lobby-recovery"></p>' +
+      '</div>' +
+      '<div class="card" style="margin-top:.9rem">' +
+        '<div class="between" style="margin-bottom:.9rem">' +
+          '<p class="kicker">In the arena</p><span class="pill" id="lobby-count"></span>' +
+        '</div>' +
+        '<div class="roster" id="lobby-roster"></div>' +
+      '</div>');
+
+    if (fresh) $('lobby-title').textContent = data.battle.title;
+
+    var recovery = $('lobby-recovery');
+    if (recovery) recovery.textContent = 'Your reconnect code: ' + (data.me.recoveryCode || '—');
+
+    $('lobby-count').textContent = data.counts.joined + ' here';
+
+    var roster = data.roster || [];
+    $('lobby-roster').innerHTML = roster.map(function (p) {
+      return '<div class="roster-item' + (p.id === data.me.id ? ' me' : '') + '">' +
+        '<div class="av c' + (p.colorIdx % 12) + '">' + esc(B.initials(p.displayName)) + '</div>' +
+        '<span class="roster-name">' + esc(p.displayName) + '</span></div>';
+    }).join('') || '<p class="faint" style="font-size:.85rem">Nobody else yet.</p>';
+  }
+
+  /* ------------------------------------------------- round 1 and round 3 -- */
+
+  function renderWork(data) {
+    var round = data.round;
+    var questions = round.questions || [];
+
+    if (!questions.length) {
+      return renderStage('empty-' + round.index,
+        '<div class="card"><p class="mut">Your teacher hasn\'t added a question yet.</p></div>');
+    }
+
+    var isCreate = round.type === 'creative';
+    var key = 'work-' + round.index + '-' + questions.map(function (q) { return q.qid; }).join('.');
+
+    if (renderStage(key, questions.map(function (q, i) {
+      return isCreate ? createCard(q, i) : codeCard(q, i);
+    }).join(''))) {
+      wireWork(round, questions, isCreate);
+    }
+
+    // Verdict pills refresh every sync; the inputs are left alone.
+    questions.forEach(function (q) {
+      var work = data.myWork[q.qid];
+      var badge = document.querySelector('[data-status="' + q.qid + '"]');
+      if (!badge) return;
+
+      if (!work || work.status === 'draft') {
+        badge.className = 'pill pill-wait';
+        badge.textContent = 'Not submitted';
+      } else if (work.verdict === 'correct') {
+        badge.className = 'pill pill-correct';
+        badge.textContent = '✓ Correct · +' + work.pointsAwarded;
+      } else if (work.verdict === 'wrong') {
+        badge.className = 'pill pill-wrong';
+        badge.textContent = '✗ Not quite';
+      } else {
+        badge.className = 'pill';
+        badge.textContent = work.status === 'auto_submitted' ? 'Auto-submitted' : 'Submitted';
+      }
+
+      var submitBtn = document.querySelector('[data-submit="' + q.qid + '"]');
+      if (submitBtn && work && work.status !== 'draft') {
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Submitted';
+      }
+    });
+  }
+
+  function codeCard(q, index) {
+    return '<div class="card" style="margin-bottom:1rem">' +
+      '<div class="qhead">' +
+        '<div class="grow">' +
+          '<p class="kicker">Question ' + (index + 1) + ' · ' + q.points + ' points</p>' +
+          '<h2 style="font-size:1.25rem;margin:.3rem 0 .55rem">' + esc(q.title) + '</h2>' +
+          (q.prompt ? '<p class="prompt">' + esc(q.prompt) + '</p>' : '') +
+        '</div>' +
+        '<span class="pill pill-wait" data-status="' + q.qid + '">Not submitted</span>' +
+      '</div>' +
+      '<div class="editor" data-editor="' + q.qid + '">' +
+        '<div class="gutter" data-gutter="' + q.qid + '">1</div>' +
+        '<textarea class="code-area" data-code="' + q.qid + '" spellcheck="false" ' +
+          'autocomplete="off" autocorrect="off" autocapitalize="off" ' +
+          'aria-label="Your code for ' + esc(q.title) + '"></textarea>' +
+      '</div>' +
+      '<div class="savebar"><span data-saved="' + q.qid + '">Saved automatically</span></div>' +
+      '<button class="btn btn-go btn-block" style="margin-top:.9rem" data-submit="' + q.qid + '">' +
+        'Submit answer</button>' +
+    '</div>';
+  }
+
+  function createCard(q, index) {
+    return '<div class="card" style="margin-bottom:1rem">' +
+      '<div class="qhead">' +
+        '<div class="grow">' +
+          '<p class="kicker">Build · ' + q.points + ' points</p>' +
+          '<h2 style="font-size:1.25rem;margin:.3rem 0 .55rem">' + esc(q.title) + '</h2>' +
+          (q.brief ? '<p class="prompt">' + esc(q.brief) + '</p>' : '') +
+        '</div>' +
+        '<span class="pill pill-wait" data-status="' + q.qid + '">Not submitted</span>' +
+      '</div>' +
+      '<div class="stack">' +
+        '<div><label class="lbl" for="url-' + q.qid + '">Link to what you built</label>' +
+          '<input class="field" id="url-' + q.qid + '" data-url="' + q.qid + '" type="url" ' +
+            'placeholder="https://…" autocomplete="off"></div>' +
+        '<div><label class="lbl" for="desc-' + q.qid + '">What it does and which AI tools you used</label>' +
+          '<textarea class="field" id="desc-' + q.qid + '" data-desc="' + q.qid + '" rows="5" ' +
+            'placeholder="Explain the problem it solves, how it works, and what you used to build it."></textarea></div>' +
+      '</div>' +
+      '<div class="savebar"><span data-saved="' + q.qid + '">Saved automatically</span></div>' +
+      '<button class="btn btn-go btn-block" style="margin-top:.9rem" data-submit="' + q.qid + '">' +
+        'Submit project</button>' +
+    '</div>';
+  }
+
+  function wireWork(round, questions, isCreate) {
+    questions.forEach(function (q) {
+      var work = (state.data.myWork || {})[q.qid] || {};
+
+      if (isCreate) {
+        var url = document.querySelector('[data-url="' + q.qid + '"]');
+        var desc = document.querySelector('[data-desc="' + q.qid + '"]');
+        url.value = work.url || '';
+        desc.value = work.description || '';
+        [url, desc].forEach(function (el) {
+          el.addEventListener('input', function () { queueSave(round.index, q.qid); });
+        });
+      } else {
+        var area = document.querySelector('[data-code="' + q.qid + '"]');
+        // Restore the draft, or fall back to the starter code on a first visit.
+        area.value = work.code !== undefined && work.code !== '' ? work.code : (q.starterCode || '');
+        setupEditor(area, q.qid, round.index);
+      }
+
+      document.querySelector('[data-submit="' + q.qid + '"]')
+        .addEventListener('click', function () { submit(round, q, isCreate, this); });
+    });
+  }
+
+  /* -------------------------------------------------------------- editor -- */
+
+  /**
+   * A plain textarea, deliberately.
+   *
+   * A syntax-highlighting editor means loading a library from a CDN, and if
+   * that request fails on school wifi partway through a graded exam the student
+   * has no editor at all. This gives them line numbers, sane Tab behaviour and
+   * auto-indent with nothing to load and nothing to fail. The host grades the
+   * code by reading it, so colour was never load-bearing.
+   */
+  function setupEditor(area, qid, roundIndex) {
+    var gutter = document.querySelector('[data-gutter="' + qid + '"]');
+    var shell = document.querySelector('[data-editor="' + qid + '"]');
+
+    function renderGutter() {
+      var lines = area.value.split('\n').length;
+      var out = '';
+      for (var i = 1; i <= Math.max(lines, 1); i++) out += i + '\n';
+      gutter.textContent = out;
+      area.style.height = 'auto';
+      area.style.height = Math.max(300, area.scrollHeight) + 'px';
+    }
+
+    area.addEventListener('focus', function () { shell.classList.add('focused'); });
+    area.addEventListener('blur', function () { shell.classList.remove('focused'); });
+
+    area.addEventListener('input', function () {
+      renderGutter();
+      queueSave(roundIndex, qid);
+    });
+
+    area.addEventListener('scroll', function () { gutter.scrollTop = area.scrollTop; });
+
+    area.addEventListener('keydown', function (event) {
+      // Tab indents instead of leaving the field. Shift+Tab still escapes for
+      // keyboard users, so the editor is not a trap.
+      if (event.key === 'Tab' && !event.shiftKey) {
+        event.preventDefault();
+        insert(area, '    ');
+        renderGutter();
+        queueSave(roundIndex, qid);
+      }
+
+      // Enter keeps the current indentation, and adds a level after a colon or
+      // an opening brace.
+      if (event.key === 'Enter') {
+        var upto = area.value.slice(0, area.selectionStart);
+        var line = upto.slice(upto.lastIndexOf('\n') + 1);
+        var indent = (line.match(/^[ \t]*/) || [''])[0];
+        if (/[:{[(]\s*$/.test(line)) indent += '    ';
+        if (indent) {
+          event.preventDefault();
+          insert(area, '\n' + indent);
+          renderGutter();
+          queueSave(roundIndex, qid);
+        }
+      }
+    });
+
+    renderGutter();
+  }
+
+  function insert(area, text) {
+    var start = area.selectionStart;
+    var end = area.selectionEnd;
+    area.value = area.value.slice(0, start) + text + area.value.slice(end);
+    area.selectionStart = area.selectionEnd = start + text.length;
+  }
+
+  /* ------------------------------------------------------------ autosave -- */
+
+  var saveTimers = {};
+
+  /**
+   * Fires ten seconds after the student stops typing. Autosave writes only the
+   * student's own submission document and never bumps the battle version, so
+   * forty people typing at once costs the other thirty-nine nothing.
+   */
+  function queueSave(roundIndex, qid) {
+    setSaved(qid, 'Unsaved changes…');
+    clearTimeout(saveTimers[qid]);
+    saveTimers[qid] = setTimeout(function () { saveDraft(roundIndex, qid); }, 10000);
+  }
+
+  function saveDraft(roundIndex, qid) {
+    var body = { roundIndex: roundIndex, questionId: qid };
+    var area = document.querySelector('[data-code="' + qid + '"]');
+
+    if (area) {
+      body.code = area.value;
+      body.language = 'python';
+    } else {
+      var url = document.querySelector('[data-url="' + qid + '"]');
+      var desc = document.querySelector('[data-desc="' + qid + '"]');
+      if (!url) return;
+      body.url = url.value;
+      body.description = desc.value;
+    }
+
+    B.request('PUT', '/battle/' + state.code + '/draft', { body: body, battleToken: PT })
+      .then(function () { setSaved(qid, 'Saved ' + new Date().toLocaleTimeString()); })
+      .catch(function () { setSaved(qid, 'Could not save — check your connection'); });
+  }
+
+  function setSaved(qid, text) {
+    var el = document.querySelector('[data-saved="' + qid + '"]');
+    if (el) el.textContent = text;
+  }
+
+  function submit(round, q, isCreate, button) {
+    var body = { roundIndex: round.index, questionId: q.qid };
+
+    if (isCreate) {
+      body.url = document.querySelector('[data-url="' + q.qid + '"]').value.trim();
+      body.description = document.querySelector('[data-desc="' + q.qid + '"]').value.trim();
+    } else {
+      body.code = document.querySelector('[data-code="' + q.qid + '"]').value;
+      body.language = q.language === 'javascript' ? 'javascript' : 'python';
+    }
+
+    button.disabled = true;
+    button.textContent = 'Submitting…';
+    clearTimeout(saveTimers[q.qid]);
+
+    B.request('POST', '/battle/' + state.code + '/submit', { body: body, battleToken: PT })
+      .then(function () {
+        button.textContent = 'Submitted';
+        setSaved(q.qid, 'Sent to your teacher');
+        B.playCue('turn');
+        B.confetti(40, { x: 0.5, y: 0.7 });
+        state.poller.reset();
+      })
+      .catch(function (error) {
+        button.disabled = false;
+        button.textContent = isCreate ? 'Submit project' : 'Submit answer';
+        setSaved(q.qid, error.message);
+      });
+  }
+
+  /* -------------------------------------------------------------- debate -- */
+
+  function renderDebate(data) {
+    var d = data.myDebate;
+
+    if (!d) {
+      return renderStage('debate-none',
+        '<div class="card" style="text-align:center"><div class="waiting-orb"></div>' +
+        '<p class="mut">Your teacher is setting up the debate pairs.</p></div>');
+    }
+
+    if (renderStage('debate-' + d.pairId,
+      '<div class="card">' +
+        '<p class="kicker" style="margin-bottom:.4rem">' + (d.isBye ? 'Solo pitch' : 'Debate') + '</p>' +
+        '<h2 style="font-size:1.3rem;margin-bottom:.9rem" id="d-topic"></h2>' +
+        '<div class="versus" id="d-versus"></div>' +
+        (d.myHint ? '<p class="faint" style="font-size:.82rem;margin-top:.9rem" id="d-hint"></p>' : '') +
+      '</div>' +
+      '<div class="card" style="margin-top:.9rem">' +
+        '<div class="between" style="margin-bottom:.9rem">' +
+          '<p class="kicker">The floor</p><span class="pill" id="d-turn"></span>' +
+        '</div>' +
+        '<div class="thread" id="d-thread"></div>' +
+        '<div id="d-compose" style="margin-top:.9rem"></div>' +
+      '</div>')) {
+      $('d-topic').textContent = d.topic || 'Topic to follow';
+      if ($('d-hint')) $('d-hint').textContent = 'Your angle: ' + d.myHint;
+    }
+
+    $('d-versus').innerHTML = d.isBye
+      ? '<div class="side active" style="grid-column:1/-1">' +
+          '<div class="side-label">You are pitching solo</div>' +
+          '<strong>' + esc(data.me.displayName) + '</strong></div>'
+      : '<div class="side' + (d.iAmSpeaker ? ' active' : '') + '">' +
+          '<div class="side-label">You · ' + esc(d.mySide) + '</div>' +
+          '<strong>' + esc(data.me.displayName) + '</strong></div>' +
+        '<div class="vs">VS</div>' +
+        '<div class="side' + (!d.iAmSpeaker ? ' active' : '') + '">' +
+          '<div class="side-label">' + esc(d.mySide === 'for' ? 'against' : 'for') + '</div>' +
+          '<strong>' + esc(d.opponentName || 'Opponent') + '</strong></div>';
+
+    $('d-turn').textContent = d.status === 'finished'
+      ? 'Debate over'
+      : 'Turn ' + (d.turnIndex + 1) + ' of ' + d.totalTurns + (d.iAmSpeaker ? ' · your turn' : ' · their turn');
+    $('d-turn').className = 'pill ' + (d.iAmSpeaker && d.status !== 'finished' ? 'pill-live' : 'pill-wait');
+
+    var thread = $('d-thread');
+    var atBottom = thread.scrollHeight - thread.scrollTop - thread.clientHeight < 60;
+
+    thread.innerHTML = (d.messages || []).map(function (m) {
+      if (m.side === 'system') {
+        return '<div class="msg system">' + esc(m.text) + '</div>';
+      }
+      var mine = m.authorName === data.me.displayName;
+      return '<div class="msg' + (mine ? ' mine' : '') + '">' +
+        '<div class="msg-who">' + esc(m.authorName) + ' · ' + esc(m.side) + '</div>' +
+        '<div class="msg-text">' + esc(m.text) + '</div></div>';
+    }).join('') || '<p class="faint" style="font-size:.85rem;text-align:center">No arguments yet. Make the first one.</p>';
+
+    if (atBottom) thread.scrollTop = thread.scrollHeight;
+
+    renderCompose(d);
+  }
+
+  function renderCompose(d) {
+    var host = $('d-compose');
+
+    if (d.status === 'finished') {
+      host.innerHTML = '<p class="faint" style="font-size:.85rem;text-align:center">' +
+        'This debate is finished. Your teacher is scoring it.</p>';
+      return;
+    }
+
+    // The compose box is hidden when it is not your turn — but the server also
+    // refuses out-of-turn messages, because a client running two seconds behind
+    // still believes it is its turn.
+    if (!d.iAmSpeaker) {
+      host.innerHTML = '<p class="faint" style="font-size:.85rem;text-align:center">' +
+        'Waiting for ' + esc(d.opponentName || 'your opponent') + ' to argue.</p>';
+      return;
+    }
+
+    if (host.dataset.turn === String(d.turnIndex) && host.querySelector('textarea')) {
+      var left = host.querySelector('[data-left]');
+      if (left) left.textContent = d.messagesLeftThisTurn + ' messages left this turn';
+      return;
+    }
+
+    host.dataset.turn = String(d.turnIndex);
+    host.innerHTML =
+      '<textarea class="field" id="d-text" rows="3" maxlength="1200" ' +
+        'placeholder="Make your point…" aria-label="Your argument"></textarea>' +
+      '<div class="row" style="margin-top:.6rem">' +
+        '<span class="faint mono" style="font-size:.68rem" data-left>' +
+          d.messagesLeftThisTurn + ' messages left this turn</span>' +
+        '<span class="grow"></span>' +
+        '<button class="btn btn-ghost btn-sm" id="d-end">End my turn</button>' +
+        '<button class="btn btn-primary btn-sm" id="d-send">Send</button>' +
+      '</div>';
+
+    $('d-send').addEventListener('click', sendArgument);
+    $('d-end').addEventListener('click', function () {
+      B.request('POST', '/battle/' + state.code + '/debate/end-turn',
+        { body: { pairId: d.pairId }, battleToken: PT })
+        .then(function () { state.poller.reset(); });
+    });
+
+    $('d-text').addEventListener('keydown', function (event) {
+      if ((event.metaKey || event.ctrlKey) && event.key === 'Enter') sendArgument();
+    });
+  }
+
+  function sendArgument() {
+    var box = $('d-text');
+    var text = box.value.trim();
+    if (!text) return;
+
+    var send = $('d-send');
+    send.disabled = true;
+
+    B.request('POST', '/battle/' + state.code + '/debate/message', {
+      body: { pairId: state.data.myDebate.pairId, text: text },
+      battleToken: PT
+    }).then(function () {
+      box.value = '';
+      send.disabled = false;
+      B.playCue('turn');
+      state.poller.reset();
+    }).catch(function (error) {
+      send.disabled = false;
+      alertBanner(error.message);
+      state.poller.reset();
+    });
+  }
+
+  /* ------------------------------------------------------------- waiting -- */
+
+  function renderWaiting(data) {
+    renderStage('waiting-' + data.round.index,
+      '<div class="card" style="text-align:center">' +
+        '<div class="waiting-orb"></div>' +
+        '<h2 style="font-size:1.35rem;margin-bottom:.4rem">Round ' + data.round.index + ' is closed</h2>' +
+        '<p class="mut">Your teacher is marking. Results appear here as soon as they do.</p>' +
+      '</div>');
+  }
+
+  /* ------------------------------------------------------------- results -- */
+
+  function renderResults(data) {
+    var board = data.leaderboardTop || [];
+    var podium = board.length && board[0].id === data.me.id;
+
+    if (renderStage('results',
+      '<div class="card" style="text-align:center">' +
+        '<p class="kicker" style="margin-bottom:.4rem">Final result</p>' +
+        '<h1 style="font-size:2.4rem;margin-bottom:.2rem" class="grad" id="r-score"></h1>' +
+        '<p class="mut" id="r-rank"></p>' +
+      '</div>' +
+      '<div class="card" style="margin-top:.9rem">' +
+        '<p class="kicker" style="margin-bottom:.8rem">Leaderboard</p>' +
+        '<div id="r-board"></div>' +
+      '</div>')) {
+      if (podium) { B.playCue('finish'); B.confetti(180, { x: 0.5, y: 0.35 }); }
+    }
+
+    $('r-score').textContent = (data.me.scores.total || 0) + ' points';
+    $('r-rank').textContent = data.me.rank
+      ? 'You finished #' + data.me.rank + ' of ' + data.me.rankOf
+      : 'Thanks for playing.';
+
+    $('r-board').innerHTML = board.map(function (row) {
+      return '<div class="lb-row' + (row.id === data.me.id ? ' me' : '') + '">' +
+        '<span class="lb-rank">#' + row.rank + '</span>' +
+        '<div class="av c' + (row.colorIdx % 12) + '">' + esc(B.initials(row.displayName)) + '</div>' +
+        '<span class="grow truncate">' + esc(row.displayName) + '</span>' +
+        '<span class="lb-pts">' + row.total + '</span></div>';
+    }).join('');
+  }
+
+  /* -------------------------------------------------- verdict + feedback -- */
+
+  /**
+   * Fires the moment a mark arrives — which, because the poller is on a 2-3
+   * second loop, is effectively instant from the student's point of view.
+   */
+  function detectNewVerdict(data) {
+    Object.keys(data.myWork || {}).forEach(function (qid) {
+      var work = data.myWork[qid];
+      var previous = state.lastVerdicts[qid];
+      state.lastVerdicts[qid] = work.verdict;
+
+      if (previous === undefined || previous === work.verdict) return;
+      if (work.verdict !== 'correct' && work.verdict !== 'wrong') return;
+
+      showVerdict(work);
+    });
+  }
+
+  function showVerdict(work) {
+    var correct = work.verdict === 'correct';
+
+    $('verdict-host').innerHTML =
+      '<div class="verdict" id="verdict-overlay">' +
+        '<div class="card verdict-card">' +
+          '<div class="verdict-mark">' + (correct ? '✓' : '✗') + '</div>' +
+          '<h2 style="font-size:1.6rem;margin-bottom:.4rem;color:' +
+            (correct ? 'var(--cyan-hi)' : '#ff8bbd') + '">' +
+            (correct ? 'Correct' : 'Not quite') + '</h2>' +
+          (correct
+            ? '<p class="mut">+' + work.pointsAwarded + ' points</p>'
+            : '<p class="mut">No points for this one — keep going.</p>') +
+          (work.markNote
+            ? '<div class="panel" style="margin-top:1rem;text-align:left">' +
+                '<p class="lbl" style="margin-bottom:.35rem">From your teacher</p>' +
+                '<p style="font-size:.9rem;line-height:1.55">' + esc(work.markNote) + '</p></div>'
+            : '') +
+          '<button class="btn btn-block" style="margin-top:1.1rem" id="verdict-close">Keep going</button>' +
+        '</div>' +
+      '</div>';
+
+    $('verdict-close').addEventListener('click', function () {
+      $('verdict-host').innerHTML = '';
+    });
+
+    if (correct) { B.playCue('correct'); B.confetti(110); }
+    else B.playCue('wrong');
+  }
+
+  function showAnnouncement(announcement) {
+    var box = $('announce');
+    if (!announcement || !announcement.text) return box.classList.add('hidden');
+    box.className = 'banner banner-' + (announcement.level === 'warn' ? 'warn' : announcement.level === 'success' ? 'success' : 'info');
+    box.textContent = announcement.text;
+    box.classList.remove('hidden');
+  }
+
+  function alertBanner(message) {
+    var box = $('announce');
+    box.className = 'banner banner-error';
+    box.textContent = message;
+    box.classList.remove('hidden');
+    setTimeout(function () { showAnnouncement(state.data && state.data.battle.announcement); }, 4000);
+  }
+
+  function playCueOnce(cue) {
+    if (!cue || !cue.at) return;
+    if (state.seenCue === cue.at) return;
+    // Skip cues that fired before this page loaded, so a late joiner is not
+    // greeted by a round-start fanfare from ten minutes ago.
+    if (state.seenCue !== null || Date.now() - new Date(cue.at).getTime() < 12000) {
+      B.playCue(cue.id);
+    }
+    state.seenCue = cue.at;
+  }
+
+  /* --------------------------------------------------------------- clock -- */
+
+  /**
+   * Runs off requestAnimationFrame rather than the sync loop, so the countdown
+   * stays smooth between polls and keeps ticking through a stalled request.
+   */
+  var lastTickSecond = null;
+
+  function startClockLoop() {
+    (function frame() {
+      var data = state.data;
+      var live = data && data.round && data.round.status === 'running' && !data.battle.paused;
+
+      // The clock only appears while a round is actually running. An idle
+      // "--:--" sitting in the corner of the lobby is just noise.
+      $('timer-slot').classList.toggle('hidden', !live);
+
+      if (live) {
+        var total = (data.round.durationSec || 0) * 1000;
+        var left = B.renderTimer(state.timerEl, data.round.endsAt, total);
+
+        // The last ten seconds tick audibly. Nothing focuses a room like it.
+        var secs = Math.ceil(left / 1000);
+        if (secs <= 10 && secs > 0 && secs !== lastTickSecond) {
+          lastTickSecond = secs;
+          B.playCue('tick');
+        }
+      } else {
+        B.renderTimer(state.timerEl, null);
+      }
+      requestAnimationFrame(frame);
+    })();
+  }
+
+  /* ---------------------------------------------------------- anti-cheat -- */
+
+  /**
+   * Counts tab switches and large pastes and reports them in batches. These are
+   * signals for the teacher to look at, never automatic penalties — a paste can
+   * easily be the student's own earlier draft, and a tab switch can be a
+   * notification.
+   */
+  function startAntiCheat() {
+    var pending = { tabBlur: 0, blurSeconds: 0, paste: 0, largestPaste: 0 };
+    var hiddenAt = null;
+
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden) {
+        hiddenAt = Date.now();
+        pending.tabBlur += 1;
+      } else if (hiddenAt) {
+        pending.blurSeconds += Math.round((Date.now() - hiddenAt) / 1000);
+        hiddenAt = null;
+      }
+    });
+
+    document.addEventListener('paste', function (event) {
+      var text = (event.clipboardData || window.clipboardData);
+      var length = text ? String(text.getData('text') || '').length : 0;
+      if (length > 120) {
+        pending.paste += 1;
+        pending.largestPaste = Math.max(pending.largestPaste, length);
+      }
+    });
+
+    function flush(useBeacon) {
+      if (!state.code) return;
+      if (!pending.tabBlur && !pending.paste && !pending.blurSeconds) return;
+
+      var body = JSON.stringify({
+        participantToken: PT,
+        tabBlur: pending.tabBlur,
+        blurSeconds: pending.blurSeconds,
+        paste: pending.paste,
+        largestPaste: pending.largestPaste
+      });
+      pending = { tabBlur: 0, blurSeconds: 0, paste: 0, largestPaste: 0 };
+
+      var url = B.API_BASE + '/battle/' + state.code + '/signal';
+
+      // sendBeacon survives the page being closed, which is exactly when the
+      // last batch would otherwise be lost.
+      if (useBeacon && navigator.sendBeacon) {
+        navigator.sendBeacon(url, new Blob([body], { type: 'application/json' }));
+      } else {
+        fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: body })
+          .catch(function () {});
+      }
+    }
+
+    setInterval(function () { flush(false); }, 15000);
+
+    /**
+     * LAST CHANCE BEFORE THE TAB DISAPPEARS.
+     *
+     * Flushes the anti-cheat batch and — more importantly — beacons whatever is
+     * currently in the editor or the project fields. Autosave runs ten seconds
+     * after typing stops, so without this a student who pastes their link and
+     * immediately shuts the laptop loses it. In a graded exam that is fairness,
+     * not polish.
+     *
+     * Covers Round 3 as well as Round 1: a thirty-minute build round is exactly
+     * where "paste the link and close the lid" is normal behaviour.
+     */
+    window.addEventListener('pagehide', function () {
+      flush(true);
+      if (!navigator.sendBeacon || !state.data || !state.data.round) return;
+
+      var roundIndex = state.data.round.index;
+
+      Object.keys(saveTimers).forEach(function (qid) {
+        clearTimeout(saveTimers[qid]);
+
+        var payload = { participantToken: PT, roundIndex: roundIndex, questionId: qid, beacon: true };
+        var area = document.querySelector('[data-code="' + qid + '"]');
+
+        if (area) {
+          payload.code = area.value;
+        } else {
+          var url = document.querySelector('[data-url="' + qid + '"]');
+          var desc = document.querySelector('[data-desc="' + qid + '"]');
+          if (!url && !desc) return;
+          payload.url = url ? url.value : '';
+          payload.description = desc ? desc.value : '';
+        }
+
+        navigator.sendBeacon(
+          B.API_BASE + '/battle/' + state.code + '/draft-beacon',
+          new Blob([JSON.stringify(payload)], { type: 'application/json' })
+        );
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>

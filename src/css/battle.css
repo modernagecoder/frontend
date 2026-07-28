@@ -1,0 +1,353 @@
+/* ==========================================================================
+   BATTLE ARENA — shared design system
+   --------------------------------------------------------------------------
+   Used by /battle (student), /battle/screen (projector) and /battle-admin.
+
+   The palette and type are lifted verbatim from src/pages/hackathon-login.html
+   so the arena reads as part of the same event, not a bolt-on. These pages
+   deliberately declare their own :root rather than using src/css/tokens.css —
+   they are standalone event pages, exactly like the hackathon pages, and must
+   not be affected by a change to the main site's tokens mid-exam.
+
+   THE SIGNATURE ELEMENT is the countdown. In a live exam the clock is what the
+   whole room is looking at, so it gets the boldness budget: a depleting ring
+   that shifts violet -> gold -> pink as time runs out. Everything else stays
+   quiet on purpose.
+   ========================================================================== */
+
+:root {
+  --bg:      #07030f;
+  --ink:     #f4f0ff;
+  --mut:     #b6a9d6;
+  --faint:   #7c6da3;
+
+  --violet:  #a855f7;
+  --cyan:    #2dd4bf;
+  --cyan-hi: #5eead4;
+  --acid:    #c4f82a;
+  --pink:    #ff2d8e;
+  --gold:    #ffd24a;
+
+  --line:  rgba(168, 133, 247, 0.16);
+  --line2: rgba(168, 133, 247, 0.32);
+  --glass: rgba(20, 12, 38, 0.62);
+  --glass2:rgba(28, 18, 50, 0.78);
+
+  --disp: 'Bricolage Grotesque', system-ui, sans-serif;
+  --body: 'Sora', -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+
+  --r-sm: 10px;
+  --r:    16px;
+  --r-lg: 22px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { background: var(--bg); }
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--body);
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Ambient background. Fixed and non-interactive so it never costs a click. */
+.atmos {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(60% 50% at 15% 8%,  rgba(168, 85, 247, 0.22), transparent 60%),
+    radial-gradient(55% 45% at 85% 6%,  rgba(45, 212, 191, 0.16), transparent 60%),
+    radial-gradient(70% 60% at 50% 115%, rgba(255, 45, 142, 0.12), transparent 60%),
+    linear-gradient(180deg, #07030f, #0a0418 55%, #07030f);
+}
+
+.atmos::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(168, 133, 247, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(168, 133, 247, 0.045) 1px, transparent 1px);
+  background-size: 64px 64px;
+  -webkit-mask-image: radial-gradient(circle at 50% 30%, #000, transparent 80%);
+  mask-image: radial-gradient(circle at 50% 30%, #000, transparent 80%);
+}
+
+.shell { position: relative; z-index: 2; }
+
+/* ---------------------------------------------------------------- type --- */
+
+h1, h2, h3 { font-family: var(--disp); font-weight: 800; line-height: 1.1; }
+
+.kicker {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--cyan-hi);
+}
+
+.grad {
+  background: linear-gradient(102deg, var(--violet), var(--cyan) 50%, var(--acid));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.mono { font-family: var(--mono); }
+.mut  { color: var(--mut); }
+.faint{ color: var(--faint); }
+
+/* --------------------------------------------------------------- cards --- */
+
+.card {
+  background: var(--glass);
+  border: 1px solid var(--line2);
+  border-radius: var(--r-lg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 40px 90px rgba(0, 0, 0, 0.5), 0 0 60px rgba(168, 85, 247, 0.1);
+  padding: clamp(1.2rem, 4vw, 2rem);
+}
+
+.panel {
+  background: var(--glass);
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  padding: 1rem 1.1rem;
+}
+
+/* ------------------------------------------------------------- controls --- */
+
+.btn {
+  font-family: var(--body);
+  font-weight: 600;
+  font-size: 0.92rem;
+  padding: 0.72rem 1.25rem;
+  border-radius: 999px;
+  border: 1px solid var(--line2);
+  background: rgba(168, 85, 247, 0.12);
+  color: var(--ink);
+  cursor: pointer;
+  transition: transform 0.14s ease, background 0.18s ease, border-color 0.18s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  line-height: 1;
+}
+
+.btn:hover:not(:disabled) { background: rgba(168, 85, 247, 0.22); transform: translateY(-1px); }
+.btn:active:not(:disabled) { transform: translateY(0); }
+
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.btn-primary {
+  background: linear-gradient(102deg, var(--violet), var(--pink));
+  border-color: transparent;
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(168, 85, 247, 0.35);
+}
+.btn-primary:hover:not(:disabled) { background: linear-gradient(102deg, #b366f8, #ff4d9e); }
+
+.btn-go     { background: linear-gradient(102deg, var(--acid), var(--cyan)); border-color: transparent; color: #07030f; }
+.btn-go:hover:not(:disabled) { background: linear-gradient(102deg, #d2ff45, #4fe6d0); }
+
+.btn-right  { background: rgba(45, 212, 191, 0.16); border-color: rgba(45, 212, 191, 0.45); color: var(--cyan-hi); }
+.btn-right:hover:not(:disabled) { background: rgba(45, 212, 191, 0.3); }
+
+.btn-wrong  { background: rgba(255, 45, 142, 0.14); border-color: rgba(255, 45, 142, 0.42); color: #ff8bbd; }
+.btn-wrong:hover:not(:disabled) { background: rgba(255, 45, 142, 0.28); }
+
+.btn-ghost  { background: transparent; }
+.btn-sm     { padding: 0.45rem 0.85rem; font-size: 0.8rem; }
+.btn-block  { width: 100%; }
+
+.field {
+  width: 100%;
+  font-family: var(--body);
+  font-size: 1rem;
+  color: var(--ink);
+  background: rgba(8, 4, 18, 0.7);
+  border: 1px solid var(--line2);
+  border-radius: var(--r-sm);
+  padding: 0.8rem 0.95rem;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.field::placeholder { color: var(--faint); }
+
+.field:focus {
+  outline: none;
+  border-color: var(--violet);
+  box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.18);
+}
+
+textarea.field { resize: vertical; min-height: 90px; font-family: inherit; }
+
+label.lbl {
+  display: block;
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin-bottom: 0.4rem;
+}
+
+/* Keyboard focus must always be visible — people navigate an exam under
+   pressure and some of them use a keyboard. */
+:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+
+/* --------------------------------------------------------------- pills --- */
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.32rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--line2);
+  color: var(--mut);
+  white-space: nowrap;
+}
+
+.pill-live    { border-color: rgba(196, 248, 42, 0.5); color: var(--acid); }
+.pill-correct { border-color: rgba(45, 212, 191, 0.5); color: var(--cyan-hi); }
+.pill-wrong   { border-color: rgba(255, 45, 142, 0.5); color: #ff8bbd; }
+.pill-wait    { border-color: var(--line); color: var(--faint); }
+.pill-gold    { border-color: rgba(255, 210, 74, 0.5); color: var(--gold); }
+
+.dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.dot-live { animation: pulse 1.6s ease-in-out infinite; }
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%      { opacity: 0.35; transform: scale(0.8); }
+}
+
+/* =================================================== THE COUNTDOWN ======= */
+/* The signature element. One component, three pages, so the room, the host
+   and every student are visibly looking at the same clock.                  */
+
+.timer {
+  display: inline-grid;
+  place-items: center;
+  position: relative;
+}
+
+.timer svg { transform: rotate(-90deg); display: block; }
+
+.timer .track { stroke: rgba(168, 133, 247, 0.14); fill: none; }
+
+.timer .sweep {
+  fill: none;
+  stroke: var(--violet);
+  stroke-linecap: round;
+  /* No transition on the dash offset: it is driven every animation frame from
+     the server's clock, and easing it would make it visibly lag the number. */
+  transition: stroke 0.6s ease;
+}
+
+.timer .read {
+  position: absolute;
+  font-family: var(--mono);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+/* Hue tracks urgency. Announced to nobody — it is felt, not read. */
+.timer[data-urgency="calm"]  .sweep { stroke: var(--violet); }
+.timer[data-urgency="soon"]  .sweep { stroke: var(--gold); }
+.timer[data-urgency="final"] .sweep { stroke: var(--pink); }
+
+.timer[data-urgency="soon"]  .read { color: var(--gold); }
+.timer[data-urgency="final"] .read { color: var(--pink); }
+.timer[data-urgency="final"] { animation: tick 1s steps(1) infinite; }
+
+@keyframes tick {
+  0%, 100% { filter: drop-shadow(0 0 0 rgba(255, 45, 142, 0)); }
+  50%      { filter: drop-shadow(0 0 14px rgba(255, 45, 142, 0.55)); }
+}
+
+/* ------------------------------------------------------------- avatars --- */
+
+.av {
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-family: var(--disp);
+  font-weight: 800;
+  color: #07030f;
+  flex: none;
+}
+
+/* Twelve deterministic tints, assigned by seat number so a student's colour is
+   the same on their screen, the host's and the projector. */
+.c0  { background: #a855f7; } .c1  { background: #2dd4bf; }
+.c2  { background: #c4f82a; } .c3  { background: #ff2d8e; }
+.c4  { background: #ffd24a; } .c5  { background: #60a5fa; }
+.c6  { background: #f97316; } .c7  { background: #34d399; }
+.c8  { background: #e879f9; } .c9  { background: #facc15; }
+.c10 { background: #22d3ee; } .c11 { background: #fb7185; }
+
+/* -------------------------------------------------------------- banner --- */
+
+.banner {
+  border-radius: var(--r);
+  padding: 0.8rem 1.1rem;
+  font-size: 0.92rem;
+  border: 1px solid var(--line2);
+  background: rgba(168, 85, 247, 0.1);
+}
+.banner-warn    { border-color: rgba(255, 210, 74, 0.45); background: rgba(255, 210, 74, 0.08); color: var(--gold); }
+.banner-success { border-color: rgba(45, 212, 191, 0.45); background: rgba(45, 212, 191, 0.08); color: var(--cyan-hi); }
+.banner-error   { border-color: rgba(255, 45, 142, 0.45); background: rgba(255, 45, 142, 0.09); color: #ff8bbd; }
+
+/* --------------------------------------------------------------- misc ---- */
+
+.row  { display: flex; align-items: center; gap: 0.7rem; }
+.between { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.wrap { flex-wrap: wrap; }
+.grow { flex: 1 1 auto; min-width: 0; }
+.stack > * + * { margin-top: 0.9rem; }
+.hidden { display: none !important; }
+.truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.spinner {
+  width: 18px; height: 18px;
+  border: 2px solid var(--line2);
+  border-top-color: var(--cyan);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(168, 133, 247, 0.22); border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(168, 133, 247, 0.4); }
+
+/* Someone who has asked their operating system to reduce motion has usually
+   asked for a reason. Ambient animation goes; the countdown still counts. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

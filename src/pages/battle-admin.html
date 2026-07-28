@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Battle Arena — Host Console</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#07030f">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/battle.css?v=1">
+
+<style>
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 1.1rem; }
+
+  .topbar { position: sticky; top: 0; z-index: 50; background: rgba(7,3,15,.88);
+            backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+            border-bottom: 1px solid var(--line); }
+  .topbar-in { max-width: 1240px; margin: 0 auto; padding: .6rem 1.1rem;
+               display: flex; align-items: center; gap: .8rem; flex-wrap: wrap; }
+  .brand { font-family: var(--disp); font-weight: 800; font-size: .92rem; }
+  .brand em { font-style: normal; color: var(--acid); }
+
+  .tabs { display: flex; gap: .3rem; flex-wrap: wrap; border-bottom: 1px solid var(--line);
+          margin-bottom: 1.1rem; }
+  .tab { padding: .6rem .95rem; font-size: .86rem; font-weight: 600; color: var(--faint);
+         background: none; border: 0; border-bottom: 2px solid transparent; cursor: pointer;
+         font-family: var(--body); }
+  .tab:hover { color: var(--mut); }
+  .tab.on { color: var(--ink); border-bottom-color: var(--violet); }
+  .tab .n { font-family: var(--mono); font-size: .68rem; color: var(--acid); margin-left: .35rem; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: .9rem; }
+  .grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: .7rem; }
+
+  .stat { padding: .8rem .9rem; border: 1px solid var(--line); border-radius: var(--r);
+          background: rgba(20,12,38,.45); }
+  .stat b { display: block; font-family: var(--mono); font-weight: 700; font-size: 1.5rem;
+            line-height: 1; margin-bottom: .3rem; }
+  .stat small { font-family: var(--mono); font-size: .6rem; letter-spacing: .16em;
+                text-transform: uppercase; color: var(--faint); }
+
+  .list { display: flex; flex-direction: column; gap: .55rem; }
+  .item { padding: .8rem .95rem; border: 1px solid var(--line); border-radius: var(--r);
+          background: rgba(20,12,38,.45); }
+  .item:hover { border-color: var(--line2); }
+
+  .code-chip { font-family: var(--mono); font-weight: 700; letter-spacing: .16em;
+               color: var(--acid); }
+
+  .qbody { font-family: var(--mono); font-size: .78rem; line-height: 1.55; white-space: pre-wrap;
+           word-break: break-word; background: #050210; border: 1px solid var(--line);
+           border-radius: var(--r-sm); padding: .8rem .9rem; max-height: 420px; overflow: auto; }
+
+  .modal-back { position: fixed; inset: 0; z-index: 300; background: rgba(7,3,15,.86);
+                backdrop-filter: blur(8px); display: grid; place-items: center; padding: 1.1rem; }
+  .modal { max-width: 720px; width: 100%; max-height: 88vh; overflow: auto; }
+
+  table { width: 100%; border-collapse: collapse; font-size: .86rem; }
+  th { text-align: left; font-family: var(--mono); font-size: .6rem; letter-spacing: .16em;
+       text-transform: uppercase; color: var(--faint); padding: .5rem .55rem;
+       border-bottom: 1px solid var(--line); white-space: nowrap; }
+  td { padding: .55rem; border-bottom: 1px solid var(--line); vertical-align: middle; }
+  tr:last-child td { border-bottom: 0; }
+  .tbl-wrap { overflow-x: auto; }
+  td .av { width: 28px; height: 28px; font-size: .68rem; }
+
+  .flag { font-family: var(--mono); font-size: .62rem; color: var(--gold); white-space: nowrap; }
+
+  @media (max-width: 780px) { .grid2 { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="atmos"></div>
+
+<!-- ======================================================== LOGIN ======= -->
+<section id="view-login" class="shell" style="min-height:100vh;display:grid;place-items:center;padding:1.2rem">
+  <form class="card" id="login-form" style="max-width:400px;width:100%">
+    <p class="kicker" style="text-align:center;margin-bottom:.45rem">Host console</p>
+    <h1 style="text-align:center;font-size:1.6rem;margin-bottom:1.3rem">Battle <span class="grad">Arena</span></h1>
+
+    <div class="stack">
+      <div>
+        <label class="lbl" for="l-email">Email</label>
+        <input class="field" id="l-email" type="email" autocomplete="username"
+               value="admin@modernagecoders.com">
+      </div>
+      <div>
+        <label class="lbl" for="l-pass">Password</label>
+        <input class="field" id="l-pass" type="password" autocomplete="current-password">
+      </div>
+      <div id="login-error" class="banner banner-error hidden"></div>
+      <button class="btn btn-primary btn-block" type="submit" id="login-btn">Sign in</button>
+    </div>
+
+    <p class="faint" style="font-size:.74rem;text-align:center;margin-top:1rem">
+      This console is separate from the main admin panel.</p>
+  </form>
+</section>
+
+<!-- ======================================================= CONSOLE ====== -->
+<div id="view-app" class="hidden">
+  <header class="topbar">
+    <div class="topbar-in">
+      <span class="brand">Battle <em>Arena</em></span>
+      <button class="btn btn-ghost btn-sm" id="nav-back">← All battles</button>
+      <span class="code-chip" id="nav-code"></span>
+      <span class="grow"></span>
+      <span class="pill" id="nav-status"></span>
+      <div id="nav-timer"></div>
+      <button class="btn btn-ghost btn-sm" id="nav-out">Sign out</button>
+    </div>
+  </header>
+
+  <main class="wrap shell">
+    <div id="toast" class="banner hidden" style="margin-bottom:1rem"></div>
+    <div id="page"></div>
+  </main>
+</div>
+
+<div id="modal-host"></div>
+
+<script src="/js/battle-client.js?v=1"></script>
+<script>
+(function () {
+  'use strict';
+
+  var B = window.Battle;
+  var $ = function (id) { return document.getElementById(id); };
+  var esc = B.escapeHtml;
+  var TOKEN_KEY = 'mac_battle_admin_token';
+
+  var app = {
+    token: null,
+    battleId: null,
+    data: null,       // latest admin sync payload
+    tab: 'run',
+    poller: null,
+    timerEl: null
+  };
+
+  try { app.token = localStorage.getItem(TOKEN_KEY); } catch (e) {}
+
+  /* --------------------------------------------------------------- auth -- */
+
+  $('login-form').addEventListener('submit', function (event) {
+    event.preventDefault();
+    var btn = $('login-btn');
+    btn.disabled = true;
+    btn.textContent = 'Signing in…';
+
+    B.request('POST', '/battle-admin/login', {
+      body: { email: $('l-email').value.trim(), password: $('l-pass').value }
+    }).then(function (res) {
+      app.token = res.token;
+      try { localStorage.setItem(TOKEN_KEY, res.token); } catch (e) {}
+      showApp();
+    }).catch(function (error) {
+      var box = $('login-error');
+      box.textContent = error.message;
+      box.classList.remove('hidden');
+      btn.disabled = false;
+      btn.textContent = 'Sign in';
+    });
+  });
+
+  $('nav-out').addEventListener('click', function () {
+    try { localStorage.removeItem(TOKEN_KEY); } catch (e) {}
+    location.reload();
+  });
+
+  function api(method, path, body) {
+    return B.request(method, '/battle-admin' + path, { token: app.token, body: body })
+      .catch(function (error) {
+        if (error.status === 401) {
+          try { localStorage.removeItem(TOKEN_KEY); } catch (e) {}
+          location.reload();
+        }
+        throw error;
+      });
+  }
+
+  if (app.token) {
+    B.request('GET', '/battle-admin/me', { token: app.token })
+      .then(showApp)
+      .catch(function () { try { localStorage.removeItem(TOKEN_KEY); } catch (e) {} });
+  }
+
+  function showApp() {
+    $('view-login').classList.add('hidden');
+    $('view-app').classList.remove('hidden');
+    app.timerEl = B.makeTimer(44, 4, '0.68rem');
+    $('nav-timer').appendChild(app.timerEl);
+    startClock();
+    listBattles();
+  }
+
+  /* ------------------------------------------------------------- toast --- */
+
+  var toastTimer;
+  function toast(message, kind) {
+    var box = $('toast');
+    box.className = 'banner banner-' + (kind || 'info');
+    box.textContent = message;
+    box.classList.remove('hidden');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { box.classList.add('hidden'); }, 4500);
+  }
+
+  function act(promise, successMessage) {
+    return promise.then(function (res) {
+      if (successMessage) toast(successMessage, 'success');
+      if (app.poller) app.poller.reset();
+      return res;
+    }).catch(function (error) {
+      toast(error.message, 'error');
+      if (app.poller) app.poller.reset();
+      throw error;
+    });
+  }
+
+  /* ------------------------------------------------------- battles list -- */
+
+  function listBattles() {
+    if (app.poller) { app.poller.stop(); app.poller = null; }
+    app.battleId = null;
+    app.data = null;
+    // Nothing to show a code, status or clock for until a battle is open.
+    $('nav-back').classList.add('hidden');
+    $('nav-code').textContent = '';
+    $('nav-status').textContent = '';
+    $('nav-status').classList.add('hidden');
+    $('nav-timer').classList.add('hidden');
+
+    api('GET', '/').then(function (res) {
+      $('page').innerHTML =
+        '<div class="between" style="margin-bottom:1.1rem">' +
+          '<div><p class="kicker">Host console</p>' +
+          '<h1 style="font-size:1.7rem;margin-top:.25rem">Your battles</h1></div>' +
+          '<button class="btn btn-primary" id="new-battle">New battle</button>' +
+        '</div>' +
+        '<div class="list" id="battle-list"></div>';
+
+      $('new-battle').addEventListener('click', newBattle);
+
+      $('battle-list').innerHTML = res.battles.map(function (b) {
+        return '<div class="item between" data-open="' + b._id + '" style="cursor:pointer">' +
+          '<div class="grow" style="min-width:0">' +
+            '<div class="row" style="margin-bottom:.3rem">' +
+              '<span class="code-chip">' + esc(b.code) + '</span>' +
+              '<span class="pill ' + statusPill(b.status) + '">' + esc(b.status) + '</span>' +
+            '</div>' +
+            '<strong style="font-size:1rem">' + esc(b.title) + '</strong>' +
+            '<p class="faint" style="font-size:.78rem;margin-top:.2rem">' +
+              b.participantCount + ' students · created ' +
+              new Date(b.createdAt).toLocaleDateString() + '</p>' +
+          '</div>' +
+          '<span class="btn btn-sm btn-ghost">Open →</span></div>';
+      }).join('') ||
+        '<div class="card" style="text-align:center">' +
+          '<p class="mut">No battles yet. Create one to get started.</p></div>';
+
+      Array.prototype.forEach.call(document.querySelectorAll('[data-open]'), function (el) {
+        el.addEventListener('click', function () { openBattle(el.dataset.open); });
+      });
+    }).catch(function (error) { toast(error.message, 'error'); });
+  }
+
+  function statusPill(status) {
+    if (status === 'active') return 'pill-live';
+    if (status === 'lobby') return 'pill-gold';
+    if (status === 'finished') return 'pill-correct';
+    return 'pill-wait';
+  }
+
+  function newBattle() {
+    ask({
+      title: 'New battle',
+      hint: 'You can rename it later. A join code is generated automatically.',
+      confirm: 'Create',
+      fields: [{ name: 'title', label: 'Name', value: 'Coding Battle — ' + new Date().toLocaleDateString() }]
+    }).then(function (answer) {
+      if (!answer || !answer.title.trim()) return;
+      act(api('POST', '/', { title: answer.title.trim() }), 'Battle created')
+        .then(function (res) { openBattle(res.battle._id); });
+    });
+  }
+
+  /* --------------------------------------------------------- one battle -- */
+
+  function openBattle(id) {
+    app.battleId = id;
+    app.tab = 'run';
+    $('nav-back').classList.remove('hidden');
+    $('nav-back').onclick = listBattles;
+
+    if (app.poller) app.poller.stop();
+
+    app.poller = new B.Poller({
+      intervalMs: 2000,
+      /**
+       * THE HOST CONSOLE NEVER SLEEPS.
+       *
+       * Round expiry and debate turns advance lazily — they happen when
+       * somebody reads the battle. Students' tabs slow down when hidden, so if
+       * this one did too and the whole class alt-tabbed, the clock would simply
+       * stop. This page is the guaranteed heartbeat.
+       */
+      pauseWhenHidden: false,
+      fetchOnce: function (version) {
+        return B.request('GET', '/battle-admin/' + id + '/sync?v=' + version, { token: app.token });
+      },
+      onData: function (data) { app.data = data; paint(); },
+      onError: function (error, failures) {
+        if (failures > 2) toast('Reconnecting to the server…', 'warn');
+      }
+    });
+    app.poller.start();
+  }
+
+  /* -------------------------------------------------------------- paint -- */
+
+  function paint() {
+    var d = app.data;
+    var b = d.battle;
+
+    $('nav-code').textContent = b.code;
+    $('nav-status').textContent = b.pausedAt ? 'paused' : b.status;
+    $('nav-status').className = 'pill ' + (b.pausedAt ? 'pill-gold' : statusPill(b.status));
+
+    // The clock only appears while a round is actually running — an idle
+    // "--:--" in the corner is just noise.
+    var live = currentRound() && currentRound().status === 'running';
+    $('nav-timer').classList.toggle('hidden', !live);
+
+    var tabs = [
+      ['run', 'Run'],
+      ['questions', 'Questions'],
+      ['grading', 'Grading', d.counts.pendingGrading],
+      ['students', 'Students', d.counts.joined],
+      ['debate', 'Debate'],
+      ['board', 'Leaderboard']
+    ];
+
+    $('page').innerHTML =
+      '<div class="tabs">' + tabs.map(function (t) {
+        return '<button class="tab' + (app.tab === t[0] ? ' on' : '') + '" data-tab="' + t[0] + '">' +
+          t[1] + (t[2] ? '<span class="n">' + t[2] + '</span>' : '') + '</button>';
+      }).join('') + '</div><div id="tabbody"></div>';
+
+    Array.prototype.forEach.call(document.querySelectorAll('[data-tab]'), function (el) {
+      el.addEventListener('click', function () { app.tab = el.dataset.tab; paint(); });
+    });
+
+    ({ run: paintRun, questions: paintQuestions, grading: paintGrading,
+       students: paintStudents, debate: paintDebate, board: paintBoard })[app.tab]();
+  }
+
+  function currentRound() {
+    var d = app.data;
+    return (d.battle.rounds || []).filter(function (r) { return r.index === d.battle.currentRound; })[0];
+  }
+
+  /* ----------------------------------------------------------- run tab --- */
+
+  function paintRun() {
+    var d = app.data, b = d.battle;
+    var studentUrl = location.origin + '/battle?code=' + b.code;
+    var screenUrl = location.origin + '/battle-screen?code=' + b.code;
+
+    $('tabbody').innerHTML =
+      '<div class="grid3" style="margin-bottom:1.1rem">' +
+        stat(d.counts.joined, 'joined') + stat(d.counts.online, 'online') +
+        stat(d.counts.submittedThisRound, 'submitted') +
+        stat(d.counts.pendingGrading, 'to mark') +
+        stat(d.counts.draftsOutstanding, 'still drafting') +
+      '</div>' +
+
+      '<div class="grid2">' +
+        '<div class="card">' +
+          '<p class="kicker" style="margin-bottom:.8rem">Rounds</p>' +
+          '<div class="list">' + (b.rounds || []).map(roundRow).join('') + '</div>' +
+        '</div>' +
+
+        '<div class="stack">' +
+          '<div class="card">' +
+            '<p class="kicker" style="margin-bottom:.7rem">Battle</p>' +
+            '<div class="row wrap" style="gap:.5rem">' +
+              (b.status === 'draft'
+                ? '<button class="btn btn-go" id="a-lobby">Open the lobby</button>'
+                : '') +
+              (b.status === 'active' && !b.pausedAt
+                ? '<button class="btn" id="a-pause">Pause everything</button>' : '') +
+              (b.pausedAt ? '<button class="btn btn-go" id="a-resume">Resume</button>' : '') +
+              (b.status === 'active'
+                ? '<button class="btn btn-wrong" id="a-finish">Finish battle</button>' : '') +
+              '<button class="btn btn-ghost" id="a-lock">' +
+                (b.config.allowLateJoin ? 'Close joining' : 'Allow joining') + '</button>' +
+              '<button class="btn btn-ghost" id="a-csv">Download results</button>' +
+            '</div>' +
+          '</div>' +
+
+          '<div class="card">' +
+            '<p class="kicker" style="margin-bottom:.7rem">Share</p>' +
+            '<label class="lbl">Students join here</label>' +
+            '<div class="row" style="margin-bottom:.7rem">' +
+              '<input class="field mono" style="font-size:.78rem" readonly value="' + esc(studentUrl) + '">' +
+              '<button class="btn btn-sm" data-copy="' + esc(studentUrl) + '">Copy</button></div>' +
+            '<label class="lbl">Projector screen</label>' +
+            '<div class="row">' +
+              '<input class="field mono" style="font-size:.78rem" readonly value="' + esc(screenUrl) + '">' +
+              '<button class="btn btn-sm" data-copy="' + esc(screenUrl) + '">Copy</button>' +
+              '<a class="btn btn-sm btn-go" href="' + esc(screenUrl) + '" target="_blank" rel="noopener">Open</a></div>' +
+            '<p class="faint mono" style="font-size:1.5rem;letter-spacing:.2em;text-align:center;' +
+              'margin-top:1rem;color:var(--acid)">' + esc(b.code) + '</p>' +
+          '</div>' +
+
+          '<div class="card">' +
+            '<p class="kicker" style="margin-bottom:.7rem">Announce to everyone</p>' +
+            '<textarea class="field" id="a-msg" rows="2" maxlength="500" ' +
+              'placeholder="Five minutes left — start wrapping up."></textarea>' +
+            '<button class="btn btn-block" style="margin-top:.6rem" id="a-send">Send</button>' +
+          '</div>' +
+        '</div>' +
+      '</div>';
+
+    bind('a-lobby',  function () { act(api('POST', '/' + app.battleId + '/open-lobby'), 'Lobby is open — students can join'); });
+    bind('a-pause',  function () { act(api('POST', '/' + app.battleId + '/pause'), 'Paused — every clock is frozen'); });
+    bind('a-resume', function () { act(api('POST', '/' + app.battleId + '/resume'), 'Resumed'); });
+    bind('a-lock',   function () { act(api('POST', '/' + app.battleId + '/lobby-lock',
+                        { allowLateJoin: !app.data.battle.config.allowLateJoin }), 'Joining updated'); });
+    bind('a-finish', function () {
+      areYouSure('This publishes the final leaderboard to every student and the projector. Nothing after this counts.', 'Finish battle').then(function (yes) {
+        if (yes) act(api('POST', '/' + app.battleId + '/finish'), 'Battle finished');
+      });
+    });
+    bind('a-send', function () {
+      var text = $('a-msg').value.trim();
+      if (!text) return;
+      act(api('POST', '/' + app.battleId + '/announce', { text: text }), 'Announcement sent')
+        .then(function () { $('a-msg').value = ''; });
+    });
+    bind('a-csv', downloadCsv);
+
+    Array.prototype.forEach.call(document.querySelectorAll('[data-copy]'), function (el) {
+      el.addEventListener('click', function () {
+        navigator.clipboard.writeText(el.dataset.copy)
+          .then(function () { toast('Copied', 'success'); });
+      });
+    });
+
+    (b.rounds || []).forEach(function (r) {
+      bind('r-start-' + r.index, function () {
+        act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/start'), 'Round ' + r.index + ' is live');
+      });
+      bind('r-end-' + r.index, function () {
+        act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/end'), 'Round ' + r.index + ' closed for marking');
+      });
+      bind('r-close-' + r.index, function () {
+        act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/close'), 'Round ' + r.index + ' finalised');
+      });
+      bind('r-ext-' + r.index, function () {
+        act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/extend', { seconds: 60 }), '+1 minute');
+      });
+      bind('r-cut-' + r.index, function () {
+        act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/extend', { seconds: -60 }), '−1 minute');
+      });
+      bind('r-sweep-' + r.index, function () {
+        act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/sweep-drafts'), 'Unsubmitted drafts collected');
+      });
+    });
+  }
+
+  function roundRow(r) {
+    var live = r.status === 'running';
+    var questions = (r.questions || []).filter(function (q) { return q.active; }).length;
+
+    return '<div class="item">' +
+      '<div class="between" style="margin-bottom:.6rem">' +
+        '<div><strong>' + esc(r.label) + '</strong>' +
+          '<p class="faint" style="font-size:.75rem;margin-top:.15rem">' +
+            questions + (r.type === 'debate' ? ' topics' : ' questions') +
+            ' · ' + Math.round(r.durationSec / 60) + ' min</p></div>' +
+        '<span class="pill ' + (live ? 'pill-live' : r.status === 'closed' ? 'pill-correct' :
+          r.status === 'grading' ? 'pill-gold' : 'pill-wait') + '">' +
+          (live ? '<span class="dot dot-live"></span>' : '') + esc(r.status) + '</span>' +
+      '</div>' +
+      '<div class="row wrap" style="gap:.4rem">' +
+        (r.status === 'pending' || r.status === 'closed'
+          ? '<button class="btn btn-go btn-sm" id="r-start-' + r.index + '"' +
+            (questions ? '' : ' disabled title="Add a question first"') + '>Start</button>' : '') +
+        (live ? '<button class="btn btn-sm" id="r-ext-' + r.index + '">+1 min</button>' +
+                '<button class="btn btn-sm" id="r-cut-' + r.index + '">−1 min</button>' +
+                '<button class="btn btn-wrong btn-sm" id="r-end-' + r.index + '">End now</button>' : '') +
+        (r.status === 'grading'
+          ? '<button class="btn btn-sm" id="r-sweep-' + r.index + '">Collect drafts</button>' +
+            '<button class="btn btn-right btn-sm" id="r-close-' + r.index + '">Finalise</button>' : '') +
+      '</div></div>';
+  }
+
+  function stat(value, label) {
+    return '<div class="stat"><b>' + (value || 0) + '</b><small>' + label + '</small></div>';
+  }
+
+  function bind(id, handler) {
+    var el = $(id);
+    if (el) el.addEventListener('click', handler);
+  }
+
+  /* ----------------------------------------------------- questions tab --- */
+
+  function paintQuestions() {
+    var rounds = app.data.battle.rounds || [];
+    var totalQs = rounds.reduce(function (n, r) {
+      return n + (r.questions || []).filter(function (q) { return q.active; }).length;
+    }, 0);
+
+    $('tabbody').innerHTML =
+      '<div class="item between" style="margin-bottom:1rem">' +
+        '<div class="grow" style="min-width:0">' +
+          '<strong style="font-size:.95rem">Upload a question file</strong>' +
+          '<p class="faint" style="font-size:.8rem;margin-top:.2rem">' +
+            'Write all three rounds in one JSON file and load them in a single step ' +
+            'instead of typing each question.</p>' +
+        '</div>' +
+        '<div class="row wrap">' +
+          '<button class="btn btn-sm btn-ghost" id="q-sample">Sample file</button>' +
+          (totalQs ? '<button class="btn btn-sm btn-ghost" id="q-export">Export current</button>' : '') +
+          '<button class="btn btn-sm btn-primary" id="q-import">Import JSON</button>' +
+        '</div>' +
+      '</div>' +
+      rounds.map(function (r) {
+      var questions = (r.questions || []).slice().sort(function (a, b) { return a.order - b.order; });
+
+      return '<div class="card" style="margin-bottom:.9rem">' +
+        '<div class="between" style="margin-bottom:.9rem">' +
+          '<div><p class="kicker">Round ' + r.index + '</p>' +
+            '<h2 style="font-size:1.1rem;margin-top:.2rem">' + esc(r.label) + '</h2></div>' +
+          '<button class="btn btn-sm btn-primary" data-add="' + r.index + '">' +
+            (r.type === 'debate' ? 'Add topic' : r.type === 'creative' ? 'Add brief' : 'Add question') +
+          '</button>' +
+        '</div>' +
+        '<div class="list">' + (questions.map(function (q) {
+          return '<div class="item between">' +
+            '<div class="grow" style="min-width:0">' +
+              '<div class="row" style="margin-bottom:.25rem">' +
+                '<strong>' + esc(q.title) + '</strong>' +
+                '<span class="pill">' + q.points + ' pts</span>' +
+                (q.active ? '' : '<span class="pill pill-wrong">removed</span>') +
+              '</div>' +
+              '<p class="faint truncate" style="font-size:.78rem">' +
+                esc(q.prompt || q.topic || q.brief || '') + '</p>' +
+            '</div>' +
+            '<div class="row">' +
+              '<button class="btn btn-sm btn-ghost" data-edit="' + r.index + ':' + q.qid + '">Edit</button>' +
+              '<button class="btn btn-sm btn-wrong" data-del="' + r.index + ':' + q.qid + '">Delete</button>' +
+            '</div></div>';
+        }).join('') || '<p class="faint" style="font-size:.86rem">Nothing here yet.</p>') +
+        '</div></div>';
+    }).join('');
+
+    Array.prototype.forEach.call(document.querySelectorAll('[data-add]'), function (el) {
+      el.addEventListener('click', function () { questionModal(Number(el.dataset.add), null); });
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('[data-edit]'), function (el) {
+      el.addEventListener('click', function () {
+        var parts = el.dataset.edit.split(':');
+        questionModal(Number(parts[0]), parts[1]);
+      });
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('[data-del]'), function (el) {
+      el.addEventListener('click', function () {
+        var parts = el.dataset.del.split(':');
+        areYouSure('Delete this question? If students have already answered it, it is hidden rather than erased so their marks survive.', 'Delete', true).then(function (yes) {
+          if (yes) act(api('DELETE', '/' + app.battleId + '/rounds/' + parts[0] + '/questions/' + parts[1]), 'Deleted');
+        });
+      });
+    });
+
+    bind('q-import', importModal);
+    bind('q-sample', downloadSample);
+    bind('q-export', function () {
+      downloadAuthed('/' + app.battleId + '/questions/export',
+        'battle-' + app.data.battle.code + '-questions.json', 'Questions exported');
+    });
+  }
+
+  /* ------------------------------------------------- import from a file --- */
+
+  var SAMPLE = {
+    round1: [
+      {
+        title: 'FizzBuzz',
+        prompt: 'Print the numbers 1 to 15.\nFor multiples of 3 print Fizz, for multiples of 5 print Buzz, and for both print FizzBuzz.',
+        language: 'python',
+        starterCode: '# your code here\n',
+        answerKey: "for i in range(1,16):\n    if i%15==0: print('FizzBuzz')\n    elif i%3==0: print('Fizz')\n    elif i%5==0: print('Buzz')\n    else: print(i)",
+        points: 10
+      },
+      {
+        title: 'Reverse a string',
+        prompt: 'Write a function that takes a word and returns it backwards, without using a built-in reverse.',
+        language: 'either',
+        points: 10
+      }
+    ],
+    round2: [
+      {
+        title: 'AI and junior developers',
+        topic: 'AI will replace junior developers within five years',
+        forHint: 'Think about speed, cost, and what AI already does well today.',
+        againstHint: 'Think about judgement, context, and who trains the next seniors.'
+      }
+    ],
+    round3: [
+      {
+        title: 'Build something real',
+        brief: 'Build anything you like using AI tools or agents. It must solve a real problem for a real person. Submit a working link and explain what it does.',
+        points: 20
+      }
+    ]
+  };
+
+  function downloadSample() {
+    var blob = new Blob([JSON.stringify(SAMPLE, null, 2)], { type: 'application/json' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = 'battle-questions-sample.json';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+    toast('Sample downloaded — edit it and import it back', 'success');
+  }
+
+  /**
+   * The import flow deliberately previews before it commits. The host sees
+   * exactly what will be added and what was rejected, so pressing Import is a
+   * confident click rather than a hopeful one.
+   */
+  function importModal() {
+    openModal(
+      '<h2 style="font-size:1.2rem;margin-bottom:.3rem">Import questions</h2>' +
+      '<p class="faint" style="font-size:.83rem;margin-bottom:1rem">' +
+        'One file, all three rounds. Choose a <code>.json</code> file or paste it below. ' +
+        'Nothing is saved until you press Import.</p>' +
+
+      '<div class="stack">' +
+        '<div>' +
+          '<label class="lbl" for="imp-file">Choose a file</label>' +
+          '<input class="field" id="imp-file" type="file" accept=".json,application/json">' +
+        '</div>' +
+        '<div>' +
+          '<label class="lbl" for="imp-text">…or paste the JSON</label>' +
+          '<textarea class="field mono" id="imp-text" rows="8" style="font-size:.76rem" ' +
+            'placeholder=\'{ "round1": [ { "title": "FizzBuzz", "prompt": "…", "language": "python" } ] }\'></textarea>' +
+        '</div>' +
+        '<div id="imp-preview"></div>' +
+        '<div>' +
+          '<label class="lbl">If the round already has questions</label>' +
+          '<div class="row wrap">' +
+            '<label class="row" style="gap:.4rem;cursor:pointer;font-size:.86rem">' +
+              '<input type="radio" name="imp-mode" value="add" checked> Add to them</label>' +
+            '<label class="row" style="gap:.4rem;cursor:pointer;font-size:.86rem">' +
+              '<input type="radio" name="imp-mode" value="replace"> Replace them</label>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+
+      '<div class="row" style="margin-top:1.2rem;justify-content:flex-end">' +
+        '<button class="btn btn-ghost" id="imp-cancel">Cancel</button>' +
+        '<button class="btn btn-primary" id="imp-go" disabled>Import</button></div>');
+
+    var parsed = null;
+
+    function setPreview(html) { $('imp-preview').innerHTML = html; }
+
+    // Re-parse and re-preview whenever the text changes. Debounced, because a
+    // preview on every keystroke of a pasted 200-line file is pointless work.
+    var refresh = B.debounce(function () {
+      var text = $('imp-text').value.trim();
+      parsed = null;
+      $('imp-go').disabled = true;
+
+      if (!text) return setPreview('');
+
+      var json;
+      try {
+        json = JSON.parse(text);
+      } catch (error) {
+        return setPreview('<div class="banner banner-error">' +
+          'That is not valid JSON — ' + esc(error.message) + '</div>');
+      }
+
+      api('POST', '/' + app.battleId + '/questions/preview', { questions: json })
+        .then(function (res) {
+          parsed = json;
+          var lines = [1, 2, 3]
+            .filter(function (r) { return res.byRound[r].length; })
+            .map(function (r) {
+              return '<li><strong>Round ' + r + '</strong> — ' + res.byRound[r].length + ': ' +
+                res.byRound[r].map(esc).join(', ') + '</li>';
+            }).join('');
+
+          var html = res.total
+            ? '<div class="banner banner-success"><strong>' + res.total + ' question' +
+              (res.total === 1 ? '' : 's') + ' found</strong>' +
+              '<ul style="margin:.5rem 0 0 1.1rem;font-size:.82rem;line-height:1.7">' + lines + '</ul></div>'
+            : '<div class="banner banner-error">No usable questions in that file.</div>';
+
+          if (res.errors.length) {
+            html += '<div class="banner banner-warn" style="margin-top:.5rem">' +
+              '<strong>' + res.errors.length + ' row' + (res.errors.length === 1 ? '' : 's') +
+              ' will be skipped</strong><ul style="margin:.4rem 0 0 1.1rem;font-size:.8rem;line-height:1.6">' +
+              res.errors.map(function (e) {
+                return '<li>' + esc(e.where) + ' — ' + esc(e.message) + '</li>';
+              }).join('') + '</ul></div>';
+          }
+
+          setPreview(html);
+          $('imp-go').disabled = !res.total;
+        })
+        .catch(function (error) {
+          setPreview('<div class="banner banner-error">' + esc(error.message) + '</div>');
+        });
+    }, 350);
+
+    $('imp-text').addEventListener('input', refresh);
+
+    $('imp-file').addEventListener('change', function () {
+      var file = this.files && this.files[0];
+      if (!file) return;
+      var reader = new FileReader();
+      reader.onload = function () {
+        $('imp-text').value = String(reader.result);
+        refresh();
+      };
+      reader.onerror = function () { setPreview('<div class="banner banner-error">Could not read that file.</div>'); };
+      reader.readAsText(file);
+    });
+
+    bind('imp-cancel', closeModal);
+    bind('imp-go', function () {
+      if (!parsed) return;
+      var mode = document.querySelector('input[name="imp-mode"]:checked').value;
+      $('imp-go').disabled = true;
+      $('imp-go').textContent = 'Importing…';
+
+      act(api('POST', '/' + app.battleId + '/questions/import', { questions: parsed, mode: mode }))
+        .then(function (res) {
+          toast('Imported ' + res.imported + ' question' + (res.imported === 1 ? '' : 's') +
+            (res.skipped ? ' — ' + res.skipped + ' skipped' : ''), 'success');
+          closeModal();
+        })
+        .catch(function () {
+          $('imp-go').disabled = false;
+          $('imp-go').textContent = 'Import';
+        });
+    });
+  }
+
+  /**
+   * Downloads an authenticated endpoint. A plain <a download> cannot carry the
+   * Authorization header, so the file is fetched and handed over as a blob.
+   */
+  function downloadAuthed(path, filename, message) {
+    fetch(B.API_BASE + '/battle-admin' + path, {
+      headers: { Authorization: 'Bearer ' + app.token }
+    }).then(function (res) {
+      if (!res.ok) throw new Error('Download failed');
+      return res.blob();
+    }).then(function (blob) {
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+      toast(message, 'success');
+    }).catch(function (error) { toast(error.message, 'error'); });
+  }
+
+  function questionModal(roundIndex, qid) {
+    var round = (app.data.battle.rounds || []).filter(function (r) { return r.index === roundIndex; })[0];
+    var q = qid ? (round.questions || []).filter(function (x) { return x.qid === qid; })[0] : {};
+    var type = round.type;
+
+    var fields =
+      '<div><label class="lbl" for="q-title">Title</label>' +
+        '<input class="field" id="q-title" value="' + esc(q.title || '') + '" ' +
+          'placeholder="' + (type === 'debate' ? 'Short name for this debate' : 'e.g. FizzBuzz') + '"></div>';
+
+    if (type === 'code') {
+      fields +=
+        '<div><label class="lbl" for="q-prompt">Question shown to students</label>' +
+          '<textarea class="field" id="q-prompt" rows="5">' + esc(q.prompt || '') + '</textarea></div>' +
+        '<div class="grid2">' +
+          '<div><label class="lbl" for="q-lang">Language</label>' +
+            '<select class="field" id="q-lang">' +
+              ['either', 'python', 'javascript'].map(function (l) {
+                return '<option value="' + l + '"' + ((q.language || 'either') === l ? ' selected' : '') +
+                  '>' + l + '</option>';
+              }).join('') + '</select></div>' +
+          '<div><label class="lbl" for="q-points">Points</label>' +
+            '<input class="field" id="q-points" type="number" min="0" max="100" value="' + (q.points || 10) + '"></div>' +
+        '</div>' +
+        '<div><label class="lbl" for="q-starter">Starter code (optional)</label>' +
+          '<textarea class="field mono" id="q-starter" rows="4" style="font-size:.78rem">' +
+            esc(q.starterCode || '') + '</textarea></div>' +
+        '<div><label class="lbl" for="q-hint">Your answer key — students never see this</label>' +
+          '<textarea class="field mono" id="q-hint" rows="4" style="font-size:.78rem">' +
+            esc(q.expectedHint || '') + '</textarea></div>';
+    } else if (type === 'debate') {
+      fields +=
+        '<div><label class="lbl" for="q-topic">The motion</label>' +
+          '<textarea class="field" id="q-topic" rows="2" ' +
+            'placeholder="AI will replace junior developers">' + esc(q.topic || '') + '</textarea></div>' +
+        '<div class="grid2">' +
+          '<div><label class="lbl" for="q-for">Angle for the FOR side</label>' +
+            '<textarea class="field" id="q-for" rows="3">' + esc(q.forHint || '') + '</textarea></div>' +
+          '<div><label class="lbl" for="q-against">Angle for the AGAINST side</label>' +
+            '<textarea class="field" id="q-against" rows="3">' + esc(q.againstHint || '') + '</textarea></div>' +
+        '</div>';
+    } else {
+      fields +=
+        '<div><label class="lbl" for="q-brief">The brief</label>' +
+          '<textarea class="field" id="q-brief" rows="6" ' +
+            'placeholder="Build anything you like using AI tools or agents. It must solve a real problem.">' +
+            esc(q.brief || '') + '</textarea></div>' +
+        '<div><label class="lbl" for="q-points">Points</label>' +
+          '<input class="field" id="q-points" type="number" min="0" max="100" value="' + (q.points || 20) + '"></div>';
+    }
+
+    openModal(
+      '<h2 style="font-size:1.2rem;margin-bottom:1rem">' + (qid ? 'Edit' : 'New') + ' — ' + esc(round.label) + '</h2>' +
+      '<div class="stack">' + fields + '</div>' +
+      '<div class="row" style="margin-top:1.2rem;justify-content:flex-end">' +
+        '<button class="btn btn-ghost" id="q-cancel">Cancel</button>' +
+        '<button class="btn btn-primary" id="q-save">Save</button></div>');
+
+    bind('q-cancel', closeModal);
+    bind('q-save', function () {
+      var body = { title: $('q-title').value.trim() };
+      if (!body.title) return toast('Give it a title.', 'error');
+
+      if (type === 'code') {
+        body.prompt = $('q-prompt').value;
+        body.language = $('q-lang').value;
+        body.starterCode = $('q-starter').value;
+        body.expectedHint = $('q-hint').value;
+        body.points = Number($('q-points').value) || 10;
+      } else if (type === 'debate') {
+        body.topic = $('q-topic').value;
+        body.forHint = $('q-for').value;
+        body.againstHint = $('q-against').value;
+      } else {
+        body.brief = $('q-brief').value;
+        body.points = Number($('q-points').value) || 20;
+      }
+
+      var path = '/' + app.battleId + '/rounds/' + roundIndex + '/questions' + (qid ? '/' + qid : '');
+      act(api(qid ? 'PUT' : 'POST', path, body), 'Saved').then(closeModal);
+    });
+  }
+
+  /* ------------------------------------------------------- grading tab --- */
+
+  function paintGrading() {
+    var d = app.data;
+    var queue = d.gradingQueue || [];
+    var filter = app.gradeFilter || 'pending';
+
+    var shown = queue.filter(function (s) {
+      if (filter === 'all') return true;
+      if (filter === 'pending') return s.verdict === 'pending';
+      return s.verdict === filter;
+    });
+
+    $('tabbody').innerHTML =
+      '<div class="between" style="margin-bottom:1rem">' +
+        '<div class="row wrap">' +
+          ['pending', 'correct', 'wrong', 'all'].map(function (f) {
+            return '<button class="btn btn-sm' + (filter === f ? ' btn-primary' : ' btn-ghost') +
+              '" data-filter="' + f + '">' + f + '</button>';
+          }).join('') +
+        '</div>' +
+        (shown.length && filter === 'pending'
+          ? '<div class="row"><button class="btn btn-right btn-sm" id="bulk-right">Mark all shown correct</button>' +
+            '<button class="btn btn-wrong btn-sm" id="bulk-wrong">Mark all shown wrong</button></div>'
+          : '') +
+      '</div>' +
+      '<div class="list">' + (shown.map(function (s) {
+        return '<div class="item">' +
+          '<div class="between" style="margin-bottom:.55rem">' +
+            '<div class="row" style="min-width:0">' +
+              '<strong>' + esc(s.displayName) + '</strong>' +
+              '<span class="pill">R' + s.round + '</span>' +
+              '<span class="pill">' + esc(questionTitle(s.round, s.questionId)) + '</span>' +
+              (s.status === 'auto_submitted' ? '<span class="pill pill-gold">ran out of time</span>' : '') +
+              (s.verdict !== 'pending'
+                ? '<span class="pill ' + (s.verdict === 'correct' ? 'pill-correct' : 'pill-wrong') + '">' +
+                  s.verdict + ' · ' + s.pointsAwarded + '</span>' : '') +
+            '</div>' +
+            '<span class="flag">' + antiCheatNote(s) + '</span>' +
+          '</div>' +
+          (s.url ? '<p style="font-size:.82rem;margin-bottom:.5rem"><a href="' + esc(s.url) +
+            '" target="_blank" rel="noopener" style="color:var(--cyan-hi)">' + esc(s.url) + '</a></p>' : '') +
+          '<pre class="qbody" style="max-height:120px">' + esc(s.preview) + '</pre>' +
+          '<div class="row wrap" style="margin-top:.6rem">' +
+            '<button class="btn btn-right btn-sm" data-mark="' + s.sid + ':correct">✓ Correct</button>' +
+            '<button class="btn btn-wrong btn-sm" data-mark="' + s.sid + ':wrong">✗ Wrong</button>' +
+            '<button class="btn btn-ghost btn-sm" data-open-sub="' + s.sid + '">Open in full</button>' +
+          '</div></div>';
+      }).join('') || '<div class="card" style="text-align:center"><p class="mut">Nothing here.</p></div>') +
+      '</div>';
+
+    Array.prototype.forEach.call(document.querySelectorAll('[data-filter]'), function (el) {
+      el.addEventListener('click', function () { app.gradeFilter = el.dataset.filter; paint(); });
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('[data-mark]'), function (el) {
+      el.addEventListener('click', function () {
+        var parts = el.dataset.mark.split(':');
+        act(api('POST', '/' + app.battleId + '/submissions/' + parts[0] + '/mark',
+          { verdict: parts[1] }), 'Marked ' + parts[1]);
+      });
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('[data-open-sub]'), function (el) {
+      el.addEventListener('click', function () { openSubmission(el.dataset.openSub); });
+    });
+
+    bind('bulk-right', function () { bulk(shown, 'correct'); });
+    bind('bulk-wrong', function () { bulk(shown, 'wrong'); });
+  }
+
+  function bulk(rows, verdict) {
+    areYouSure('Mark all ' + rows.length + ' shown submissions as ' + verdict + '?', 'Mark all ' + verdict, verdict === 'wrong').then(function (yes) {
+      if (!yes) return;
+      act(api('POST', '/' + app.battleId + '/submissions/bulk-mark',
+        { ids: rows.map(function (r) { return r.sid; }), verdict: verdict }),
+        rows.length + ' marked ' + verdict);
+    });
+  }
+
+  function questionTitle(round, qid) {
+    var r = (app.data.battle.rounds || []).filter(function (x) { return x.index === round; })[0];
+    if (!r) return qid;
+    var q = (r.questions || []).filter(function (x) { return x.qid === qid; })[0];
+    return q ? q.title : qid;
+  }
+
+  function antiCheatNote(s) {
+    var bits = [];
+    if (s.meta && s.meta.tabBlurAtSubmit > 2) bits.push(s.meta.tabBlurAtSubmit + ' tab switches');
+    if (s.meta && s.meta.pasteCount) bits.push(s.meta.pasteCount + ' large paste' + (s.meta.pasteCount > 1 ? 's' : ''));
+    return bits.join(' · ');
+  }
+
+  /**
+   * Full body plus the answer key side by side — the actual act of grading.
+   */
+  function openSubmission(sid) {
+    api('GET', '/' + app.battleId + '/submissions/' + sid).then(function (res) {
+      var s = res.submission;
+      var r = (app.data.battle.rounds || []).filter(function (x) { return x.index === s.round; })[0];
+      var q = r ? (r.questions || []).filter(function (x) { return x.qid === s.questionId; })[0] : null;
+
+      openModal(
+        '<div class="between" style="margin-bottom:.9rem">' +
+          '<div><p class="kicker">' + esc(s.displayName) + '</p>' +
+          '<h2 style="font-size:1.15rem;margin-top:.2rem">' + esc(q ? q.title : '') + '</h2></div>' +
+          '<span class="pill">' + (q ? q.points : 10) + ' pts max</span>' +
+        '</div>' +
+        (s.url ? '<p style="margin-bottom:.7rem"><a href="' + esc(s.url) + '" target="_blank" ' +
+          'rel="noopener" style="color:var(--cyan-hi)">' + esc(s.url) + '</a></p>' : '') +
+        '<label class="lbl">Their answer</label>' +
+        '<pre class="qbody">' + esc(s.code || s.description || '') + '</pre>' +
+        (q && q.expectedHint
+          ? '<label class="lbl" style="margin-top:.9rem">Your answer key</label>' +
+            '<pre class="qbody" style="max-height:160px">' + esc(q.expectedHint) + '</pre>' : '') +
+        '<div style="margin-top:.9rem"><label class="lbl" for="m-note">' +
+          'Feedback (the student sees this)</label>' +
+          '<textarea class="field" id="m-note" rows="2">' + esc(s.markNote || '') + '</textarea></div>' +
+        /**
+         * Round 3 is creative work, so the host can award part marks — but the
+         * box DEFAULTS TO FULL. Defaulting it to zero meant that reading a
+         * project and clicking "Correct" without touching the number awarded
+         * nothing, while the identical button in the queue awarded full marks.
+         * Correct means correct unless the host deliberately lowers it.
+         */
+        (s.round === 3
+          ? '<div style="margin-top:.7rem"><label class="lbl" for="m-pts">Points out of ' +
+            (q ? q.points : 20) + '</label><input class="field" id="m-pts" type="number" min="0" max="' +
+            (q ? q.points : 20) + '" value="' +
+            (s.verdict !== 'pending' ? s.pointsAwarded : (q ? q.points : 20)) + '"></div>' : '') +
+        '<div class="row wrap" style="margin-top:1.1rem;justify-content:flex-end">' +
+          '<button class="btn btn-ghost" id="m-cancel">Close</button>' +
+          '<button class="btn btn-wrong" id="m-wrong">✗ Wrong</button>' +
+          '<button class="btn btn-right" id="m-right">✓ Correct</button></div>');
+
+      bind('m-cancel', closeModal);
+
+      function mark(verdict) {
+        var body = { verdict: verdict, note: $('m-note').value };
+        var pts = $('m-pts');
+        if (pts && verdict === 'correct') body.points = Number(pts.value);
+        act(api('POST', '/' + app.battleId + '/submissions/' + sid + '/mark', body),
+          'Marked ' + verdict + ' — the student sees it within seconds').then(closeModal);
+      }
+      bind('m-right', function () { mark('correct'); });
+      bind('m-wrong', function () { mark('wrong'); });
+    });
+  }
+
+  /* ------------------------------------------------------ students tab --- */
+
+  function paintStudents() {
+    var rows = app.data.participants || [];
+
+    $('tabbody').innerHTML = '<div class="card"><div class="tbl-wrap"><table>' +
+      '<thead><tr><th></th><th>Name</th><th>Seat</th><th>Total</th><th>R1</th><th>R2</th><th>R3</th>' +
+      '<th>Signals</th><th>Code</th><th></th></tr></thead><tbody>' +
+      rows.map(function (p) {
+        return '<tr' + (p.status === 'kicked' ? ' style="opacity:.4"' : '') + '>' +
+          '<td><div class="av c' + (p.colorIdx % 12) + '">' + esc(B.initials(p.displayName)) + '</div></td>' +
+          '<td><div class="row"><span>' + esc(p.displayName) + '</span>' +
+            (p.online ? '<span class="dot dot-live" style="color:var(--acid)"></span>' :
+              '<span class="faint" style="font-size:.7rem">offline</span>') +
+            (p.duplicateName ? '<span class="pill pill-gold">same name</span>' : '') + '</div></td>' +
+          '<td class="mono faint">' + p.seatNo + '</td>' +
+          '<td class="mono" style="color:var(--cyan-hi);font-weight:700">' + p.scores.total + '</td>' +
+          '<td class="mono faint">' + p.scores.round1 + '</td>' +
+          '<td class="mono faint">' + p.scores.round2 + '</td>' +
+          '<td class="mono faint">' + p.scores.round3 + '</td>' +
+          '<td class="flag">' +
+            (p.anticheat.tabBlurCount ? p.anticheat.tabBlurCount + ' tabs ' : '') +
+            (p.anticheat.pasteCount ? p.anticheat.pasteCount + ' pastes' : '') + '</td>' +
+          '<td class="mono faint" style="font-size:.72rem">' + esc(p.recoveryCode) + '</td>' +
+          '<td><div class="row">' +
+            '<button class="btn btn-sm btn-ghost" data-rename="' + p.id + '">Rename</button>' +
+            '<button class="btn btn-sm btn-ghost" data-adjust="' + p.id + '">± pts</button>' +
+            (p.status === 'active'
+              ? '<button class="btn btn-sm btn-wrong" data-kick="' + p.id + '">Remove</button>' : '') +
+          '</div></td></tr>';
+      }).join('') + '</tbody></table></div></div>';
+
+    Array.prototype.forEach.call(document.querySelectorAll('[data-rename]'), function (el) {
+      el.addEventListener('click', function () {
+        var current = rows.filter(function (p) { return p.id === el.dataset.rename; })[0];
+        ask({ title: 'Correct this name', confirm: 'Rename',
+              fields: [{ name: 'name', label: 'Name', value: current.name }] })
+          .then(function (answer) {
+            if (answer && answer.name.trim()) {
+              act(api('PUT', '/' + app.battleId + '/participants/' + el.dataset.rename,
+                { name: answer.name.trim() }), 'Renamed');
+            }
+          });
+      });
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('[data-adjust]'), function (el) {
+      el.addEventListener('click', function () {
+        ask({ title: 'Adjust score', hint: 'Use a negative number to take points away.',
+              confirm: 'Apply',
+              fields: [{ name: 'delta', label: 'Points to add or remove', type: 'number', placeholder: '5' },
+                       { name: 'reason', label: 'Why (kept in the log)', placeholder: 'Helped a teammate' }] })
+          .then(function (answer) {
+            if (!answer || answer.delta === '') return;
+            act(api('POST', '/' + app.battleId + '/participants/' + el.dataset.adjust + '/adjust',
+              { delta: Number(answer.delta), reason: answer.reason }), 'Score adjusted');
+          });
+      });
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('[data-kick]'), function (el) {
+      el.addEventListener('click', function () {
+        areYouSure('Remove this student from the battle? Their screen will tell them so.', 'Remove', true)
+          .then(function (yes) {
+            if (yes) act(api('POST', '/' + app.battleId + '/participants/' + el.dataset.kick + '/kick'), 'Removed');
+          });
+      });
+    });
+  }
+
+  /* -------------------------------------------------------- debate tab --- */
+
+  function paintDebate() {
+    var b = app.data.battle;
+    var pairs = (b.round2 && b.round2.pairings) || [];
+    var topics = ((b.rounds || []).filter(function (r) { return r.index === 2; })[0] || {}).questions || [];
+
+    $('tabbody').innerHTML =
+      '<div class="between" style="margin-bottom:1rem">' +
+        '<div><p class="kicker">Round 2</p>' +
+          '<h2 style="font-size:1.15rem;margin-top:.2rem">' + pairs.length + ' pairs</h2></div>' +
+        '<div class="row">' +
+          '<button class="btn btn-sm" id="p-skill">Pair by score</button>' +
+          '<button class="btn btn-sm" id="p-random">Pair randomly</button>' +
+        '</div>' +
+      '</div>' +
+      (pairs.length ? '<div class="list">' + pairs.map(function (p) {
+        var topic = topics.filter(function (t) { return t.qid === p.topicQid; })[0];
+        return '<div class="item">' +
+          '<div class="between" style="margin-bottom:.55rem">' +
+            '<strong style="font-size:.92rem">' + esc(topic ? (topic.topic || topic.title) : 'No topic') + '</strong>' +
+            '<span class="pill ' + (p.status === 'active' ? 'pill-live' :
+              p.status === 'finished' ? 'pill-correct' : 'pill-wait') + '">' + esc(p.status) + '</span>' +
+          '</div>' +
+          (p.isBye
+            ? '<p style="font-size:.88rem"><strong>' + esc(p.aName) + '</strong> ' +
+              '<span class="faint">— solo pitch (odd number of students)</span></p>'
+            : '<p style="font-size:.88rem">' +
+              '<strong>' + esc(p.aName) + '</strong> <span class="faint">(' + esc(p.aSide) + ')</span>' +
+              '<span class="faint"> vs </span>' +
+              '<strong>' + esc(p.bName) + '</strong> <span class="faint">(' + esc(p.bSide) + ')</span></p>') +
+          '<p class="faint mono" style="font-size:.7rem;margin-top:.3rem">' +
+            'turn ' + (p.turnIndex + 1) + ' of ' + p.totalTurns +
+            ' · spoke ' + p.spokenTurns.a + '/' + p.spokenTurns.b +
+            ' · missed ' + p.missedTurns.a + '/' + p.missedTurns.b + '</p>' +
+          '<div class="row wrap" style="margin-top:.6rem">' +
+            (p.status === 'active'
+              ? '<button class="btn btn-sm" data-skip="' + p.pairId + '">Skip this turn</button>' : '') +
+            '<button class="btn btn-sm btn-primary" data-score="' + p.pairId + '">Score the debate</button>' +
+          '</div></div>';
+      }).join('') + '</div>'
+        : '<div class="card" style="text-align:center"><p class="mut">' +
+          'No pairs yet. Add debate topics in Questions, then pair the students.</p></div>');
+
+    bind('p-skill',  function () { pairUp('skill'); });
+    bind('p-random', function () { pairUp('random'); });
+
+    Array.prototype.forEach.call(document.querySelectorAll('[data-skip]'), function (el) {
+      el.addEventListener('click', function () {
+        act(api('POST', '/' + app.battleId + '/round2/pairs/' + el.dataset.skip + '/skip-turn'), 'Turn skipped');
+      });
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('[data-score]'), function (el) {
+      el.addEventListener('click', function () { scoreModal(el.dataset.score); });
+    });
+  }
+
+  function pairUp(mode) {
+    var running = app.data.battle.currentRound === 2;
+    var go = running
+      ? areYouSure('Round 2 is already running. Re-pairing deletes every debate written so far.', 'Re-pair anyway', true)
+      : Promise.resolve(true);
+    go.then(function (yes) {
+      if (yes) act(api('POST', '/' + app.battleId + '/round2/pair', { mode: mode, force: running }), 'Students paired');
+    });
+  }
+
+  function scoreModal(pairId) {
+    var b = app.data.battle;
+    var p = (b.round2.pairings || []).filter(function (x) { return x.pairId === pairId; })[0];
+    var max = b.config.r2QualityMax;
+
+    openModal(
+      '<h2 style="font-size:1.15rem;margin-bottom:.3rem">Score the debate</h2>' +
+      '<p class="faint" style="font-size:.82rem;margin-bottom:1rem">' +
+        'Out of ' + max + ' each, for argument quality. Turns they actually spoke in are already ' +
+        'scored automatically.</p>' +
+      '<div class="stack">' +
+        '<div><label class="lbl" for="s-a">' + esc(p.aName) + ' (' + esc(p.aSide) + ')</label>' +
+          '<input class="field" id="s-a" type="number" min="0" max="' + max + '" value="' + p.quality.a + '"></div>' +
+        (p.isBye ? '' :
+        '<div><label class="lbl" for="s-b">' + esc(p.bName) + ' (' + esc(p.bSide) + ')</label>' +
+          '<input class="field" id="s-b" type="number" min="0" max="' + max + '" value="' + p.quality.b + '"></div>') +
+        '<div><label class="lbl" for="s-note">Note (for your own records)</label>' +
+          '<input class="field" id="s-note" value="' + esc(p.qualityNote || '') + '"></div>' +
+      '</div>' +
+      '<div class="row" style="margin-top:1.1rem;justify-content:flex-end">' +
+        '<button class="btn btn-ghost" id="s-cancel">Cancel</button>' +
+        '<button class="btn btn-primary" id="s-save">Save scores</button></div>');
+
+    bind('s-cancel', closeModal);
+    bind('s-save', function () {
+      var body = { a: Number($('s-a').value), note: $('s-note').value };
+      if ($('s-b')) body.b = Number($('s-b').value);
+      act(api('POST', '/' + app.battleId + '/round2/pairs/' + pairId + '/score', body), 'Scores saved')
+        .then(closeModal);
+    });
+  }
+
+  /* --------------------------------------------------- leaderboard tab --- */
+
+  function paintBoard() {
+    var board = app.data.leaderboard || [];
+
+    $('tabbody').innerHTML = '<div class="card">' +
+      '<div class="between" style="margin-bottom:1rem">' +
+        '<p class="kicker">Live standings</p>' +
+        '<button class="btn btn-sm" id="b-csv">Download CSV</button></div>' +
+      '<div class="tbl-wrap"><table><thead><tr>' +
+        '<th>#</th><th></th><th>Name</th><th>R1</th><th>R2</th><th>R3</th><th>Total</th><th></th>' +
+      '</tr></thead><tbody>' +
+      board.map(function (row) {
+        return '<tr><td class="mono" style="color:' + (row.rank === 1 ? 'var(--gold)' : 'var(--faint)') +
+            ';font-weight:700">' + row.rank + '</td>' +
+          '<td><div class="av c' + (row.colorIdx % 12) + '">' + esc(B.initials(row.displayName)) + '</div></td>' +
+          '<td>' + esc(row.displayName) + '</td>' +
+          '<td class="mono faint">' + row.r1 + '</td>' +
+          '<td class="mono faint">' + row.r2 + '</td>' +
+          '<td class="mono faint">' + row.r3 + '</td>' +
+          '<td class="mono" style="color:var(--cyan-hi);font-weight:700">' + row.total + '</td>' +
+          '<td><button class="btn btn-sm btn-ghost" data-cert="' + row.id + '">Certificate</button></td></tr>';
+      }).join('') + '</tbody></table></div></div>';
+
+    bind('b-csv', downloadCsv);
+
+    Array.prototype.forEach.call(document.querySelectorAll('[data-cert]'), function (el) {
+      el.addEventListener('click', function () {
+        certificate(board.filter(function (r) { return r.id === el.dataset.cert; })[0]);
+      });
+    });
+  }
+
+  /**
+   * WINNER CERTIFICATE.
+   *
+   * Rendered in a new window and handed straight to the browser's print dialog,
+   * where "Save as PDF" is one click away. Nothing is generated server-side and
+   * nothing is stored — there is no file storage configured on this project, and
+   * a certificate is a view of data that already exists rather than an artefact
+   * worth keeping.
+   */
+  function certificate(row) {
+    if (!row) return;
+    var b = app.data.battle;
+    var when = new Date(b.finalizedAt || Date.now()).toLocaleDateString('en-GB', {
+      day: 'numeric', month: 'long', year: 'numeric'
+    });
+    var placing = row.rank === 1 ? 'First place'
+      : row.rank === 2 ? 'Second place'
+      : row.rank === 3 ? 'Third place'
+      : 'Rank ' + row.rank;
+
+    var win = window.open('', '_blank');
+    if (!win) return toast('Allow pop-ups to print certificates.', 'warn');
+
+    win.document.write(
+      '<!DOCTYPE html><html><head><meta charset="utf-8">' +
+      '<title>Certificate — ' + esc(row.displayName) + '</title>' +
+      '<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=JetBrains+Mono:wght@400;700&family=Sora:wght@400;600&display=swap" rel="stylesheet">' +
+      '<style>' +
+        '@page { size: A4 landscape; margin: 0 }' +
+        '*{margin:0;padding:0;box-sizing:border-box}' +
+        'body{font-family:Sora,sans-serif;background:#07030f;color:#f4f0ff;' +
+          'width:297mm;height:210mm;display:grid;place-items:center;' +
+          '-webkit-print-color-adjust:exact;print-color-adjust:exact}' +
+        '.sheet{width:100%;height:100%;padding:18mm;display:flex;flex-direction:column;' +
+          'align-items:center;justify-content:center;text-align:center;position:relative;' +
+          'background:radial-gradient(60% 50% at 15% 8%,rgba(168,85,247,.22),transparent 60%),' +
+          'radial-gradient(55% 45% at 85% 6%,rgba(45,212,191,.16),transparent 60%),' +
+          'radial-gradient(70% 60% at 50% 115%,rgba(255,45,142,.12),transparent 60%),#07030f}' +
+        '.frame{position:absolute;inset:10mm;border:1px solid rgba(168,133,247,.32);border-radius:6mm}' +
+        '.kick{font-family:"JetBrains Mono",monospace;font-size:9pt;letter-spacing:.32em;' +
+          'text-transform:uppercase;color:#5eead4;margin-bottom:6mm}' +
+        '.place{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:20pt;' +
+          'color:#ffd24a;letter-spacing:.02em;margin-bottom:3mm}' +
+        'h1{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:46pt;' +
+          'line-height:1.05;margin-bottom:5mm;' +
+          'background:linear-gradient(102deg,#a855f7,#2dd4bf 50%,#c4f82a);' +
+          '-webkit-background-clip:text;background-clip:text;color:transparent}' +
+        '.for{font-size:11pt;color:#b6a9d6;margin-bottom:8mm;max-width:170mm;line-height:1.7}' +
+        '.score{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:16pt;' +
+          'color:#5eead4;margin-bottom:10mm}' +
+        '.foot{display:flex;gap:14mm;font-family:"JetBrains Mono",monospace;font-size:8.5pt;' +
+          'color:#7c6da3;letter-spacing:.14em;text-transform:uppercase}' +
+        '.org{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:11pt;' +
+          'color:#f4f0ff;margin-top:9mm}' +
+        '.org em{font-style:normal;color:#c4f82a}' +
+        '@media print{ body{background:#07030f} }' +
+      '</style></head><body><div class="sheet"><div class="frame"></div>' +
+        '<div class="kick">Certificate of Achievement</div>' +
+        '<div class="place">' + esc(placing) + '</div>' +
+        '<h1>' + esc(row.displayName) + '</h1>' +
+        '<p class="for">competed in <strong>' + esc(b.title) + '</strong>, a live three-round coding battle ' +
+          'covering programming, structured debate and building with AI tools.</p>' +
+        '<div class="score">' + row.total + ' points &nbsp;·&nbsp; Round 1: ' + row.r1 +
+          ' &nbsp;·&nbsp; Round 2: ' + row.r2 + ' &nbsp;·&nbsp; Round 3: ' + row.r3 + '</div>' +
+        '<div class="foot"><span>' + esc(when) + '</span><span>Battle ' + esc(b.code) + '</span></div>' +
+        '<div class="org">Modern Age <em>Coders</em></div>' +
+      '</div>' +
+      /**
+       * EVERY CLOSING TAG IN THIS STRING IS WRITTEN AS <\/tag>, AND MUST STAY
+       * THAT WAY — including in comments, because an HTML parser does not know
+       * what a JavaScript comment is.
+       *
+       * Two separate things bite here. A bare closing script tag ends this
+       * page's own script block. A bare closing body tag is subtler:
+       * scripts/dev-server.js injects a bootstrap snippet before the first one
+       * it finds in the file, so a literal one inside this string gets a script
+       * tag spliced into the middle of it and the console breaks locally while
+       * looking perfectly fine on disk.
+       *
+       * The backslash makes the raw bytes match neither the HTML parser nor
+       * that regex, while JavaScript still yields the correct tag.
+       */
+      '<script>window.onload=function(){setTimeout(function(){window.print()},400)}<\/script>' +
+      '<\/body><\/html>'
+    );
+    win.document.close();
+  }
+
+  function downloadCsv() {
+    downloadAuthed('/' + app.battleId + '/export.csv',
+      'battle-' + app.data.battle.code + '-results.csv', 'Results downloaded');
+  }
+
+  /* -------------------------------------------------------------- modal -- */
+
+  function openModal(html) {
+    $('modal-host').innerHTML = '<div class="modal-back" id="modal-back">' +
+      '<div class="card modal">' + html + '</div></div>';
+    $('modal-back').addEventListener('click', function (event) {
+      if (event.target.id === 'modal-back') closeModal();
+    });
+  }
+  function closeModal() { $('modal-host').innerHTML = ''; }
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeModal(); });
+
+  /**
+   * In-page replacements for prompt() and confirm().
+   *
+   * Native browser dialogs block the whole page — including the sync loop that
+   * is keeping the round clock running — and cannot be styled or dismissed by
+   * anything except the person standing at the laptop. In a live exam that is
+   * exactly wrong.
+   */
+  function ask(opts) {
+    return new Promise(function (resolve) {
+      openModal(
+        '<h2 style="font-size:1.15rem;margin-bottom:.3rem">' + esc(opts.title) + '</h2>' +
+        (opts.hint ? '<p class="faint" style="font-size:.82rem;margin-bottom:.9rem">' +
+          esc(opts.hint) + '</p>' : '') +
+        '<div class="stack">' + (opts.fields || []).map(function (f) {
+          return '<div><label class="lbl" for="ask-' + f.name + '">' + esc(f.label) + '</label>' +
+            '<input class="field" id="ask-' + f.name + '" type="' + (f.type || 'text') + '" ' +
+              'value="' + esc(f.value || '') + '" placeholder="' + esc(f.placeholder || '') + '"></div>';
+        }).join('') + '</div>' +
+        '<div class="row" style="margin-top:1.1rem;justify-content:flex-end">' +
+          '<button class="btn btn-ghost" id="ask-no">Cancel</button>' +
+          '<button class="btn btn-primary" id="ask-yes">' + esc(opts.confirm || 'Save') + '</button></div>');
+
+      var first = document.querySelector('.modal .field');
+      if (first) { first.focus(); first.select(); }
+
+      function submit() {
+        var out = {};
+        (opts.fields || []).forEach(function (f) { out[f.name] = $('ask-' + f.name).value; });
+        closeModal();
+        resolve(out);
+      }
+
+      bind('ask-yes', submit);
+      bind('ask-no', function () { closeModal(); resolve(null); });
+
+      Array.prototype.forEach.call(document.querySelectorAll('.modal .field'), function (el) {
+        el.addEventListener('keydown', function (e) { if (e.key === 'Enter') submit(); });
+      });
+    });
+  }
+
+  function areYouSure(message, confirmLabel, danger) {
+    return new Promise(function (resolve) {
+      openModal(
+        '<h2 style="font-size:1.15rem;margin-bottom:.7rem">Are you sure?</h2>' +
+        '<p class="mut" style="font-size:.92rem;line-height:1.6">' + esc(message) + '</p>' +
+        '<div class="row" style="margin-top:1.2rem;justify-content:flex-end">' +
+          '<button class="btn btn-ghost" id="sure-no">Cancel</button>' +
+          '<button class="btn ' + (danger ? 'btn-wrong' : 'btn-primary') + '" id="sure-yes">' +
+            esc(confirmLabel) + '</button></div>');
+
+      bind('sure-yes', function () { closeModal(); resolve(true); });
+      bind('sure-no', function () { closeModal(); resolve(false); });
+    });
+  }
+
+  /* -------------------------------------------------------------- clock -- */
+
+  function startClock() {
+    (function frame() {
+      var d = app.data;
+      var round = d && (d.battle.rounds || []).filter(function (r) {
+        return r.index === d.battle.currentRound;
+      })[0];
+
+      if (round && round.status === 'running' && !d.battle.pausedAt) {
+        B.renderTimer(app.timerEl, round.endsAt, (round.durationSec || 0) * 1000);
+      } else {
+        B.renderTimer(app.timerEl, null);
+      }
+      requestAnimationFrame(frame);
+    })();
+  }
+})();
+</script>
+</body>
+</html>
