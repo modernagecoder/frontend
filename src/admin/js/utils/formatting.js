@@ -185,17 +185,17 @@ function renderContactActions(countryCode, phone, email) {
 
   if (intl) {
     html += `<a class="contact-btn" href="tel:+${escapeHtml(intl)}" title="Call this number" aria-label="Call">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A15 15 0 0 1 4 5a1 1 0 0 1 1-1z"/></svg>
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A15 15 0 0 1 4 5a1 1 0 0 1 1-1z"/></svg>
     </a>`;
 
     html += `<a class="contact-btn is-whatsapp" href="https://wa.me/${escapeHtml(intl)}" target="_blank" rel="noopener" title="Message on WhatsApp" aria-label="WhatsApp">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-5.2A8.5 8.5 0 1 1 21 11.5z"/><path d="M8.8 9.2c.3 2.6 3.4 5.7 6 6l1-1.6-2-.9-1 1a7 7 0 0 1-2.5-2.5l1-1-.9-2z" fill="currentColor" stroke="none"/></svg>
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-5.2A8.5 8.5 0 1 1 21 11.5z"/><path d="M8.8 9.2c.3 2.6 3.4 5.7 6 6l1-1.6-2-.9-1 1a7 7 0 0 1-2.5-2.5l1-1-.9-2z" fill="currentColor" stroke="none"/></svg>
     </a>`;
   }
 
   if (email) {
     html += `<a class="contact-btn" href="mailto:${escapeHtml(email)}" title="Send an email" aria-label="Email">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v14H4z"/><path d="m4 7 8 5 8-5"/></svg>
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v14H4z"/><path d="m4 7 8 5 8-5"/></svg>
     </a>`;
   }
 
