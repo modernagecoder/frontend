@@ -1,4 +1,25 @@
 /**
+ * CHART PALETTE
+ *
+ * The charts were coloured for the retired dark admin skin: near-white legend
+ * text, #333 gridlines and purple/teal series. On the paper background the
+ * legends were effectively invisible. These are the brand tokens.
+ */
+const CHART = {
+  amber:      '#B45309',
+  amberSoft:  '#D97706',
+  amberFill:  'rgba(180, 83, 9, 0.10)',
+  green:      '#1F8A55',
+  greenFill:  'rgba(31, 138, 85, 0.10)',
+  muted:      '#6B6259',
+  ink:        '#1C1814',
+  grid:       'rgba(28, 24, 20, 0.07)',
+  surface:    '#FFFFFF',
+  font:       "'Inter', system-ui, sans-serif",
+  mono:       "'JetBrains Mono', ui-monospace, monospace"
+};
+
+/**
  * ANALYTICS COMPONENT
  */
 
@@ -91,7 +112,7 @@ async function loadAnalytics() {
             <p style="margin-bottom: 12px;"><strong>Students:</strong> ${summary.users.students}</p>
             <p style="margin-bottom: 12px;"><strong>Teachers:</strong> ${summary.users.teachers}</p>
             <p style="margin-bottom: 12px;"><strong>Admins:</strong> ${summary.users.admins}</p>
-            <hr style="border: none; border-top: 1px solid var(--border); margin: 16px 0;">
+            <hr style="border: none; border-top: 1px solid var(--line); margin: 16px 0;">
             <p style="margin-bottom: 12px;"><strong>New Contacts:</strong> ${summary.contacts.new}</p>
             <p style="margin-bottom: 12px;"><strong>Contacted:</strong> ${summary.contacts.contacted}</p>
             <p style="margin-bottom: 12px;"><strong>Converted:</strong> ${summary.contacts.converted}</p>
@@ -157,15 +178,15 @@ function createContactsChart(months) {
       datasets: [{
         label: 'Total Contacts',
         data: months.map(m => m.contacts.total),
-        borderColor: '#8A2BE2',
-        backgroundColor: 'rgba(138, 43, 226, 0.1)',
+        borderColor: CHART.amber,
+        backgroundColor: CHART.amberFill,
         tension: 0.4,
         fill: true
       }, {
         label: 'Conversions',
         data: months.map(m => m.contacts.converted),
-        borderColor: '#10B981',
-        backgroundColor: 'rgba(16, 185, 129, 0.1)',
+        borderColor: CHART.green,
+        backgroundColor: CHART.greenFill,
         tension: 0.4,
         fill: true
       }]
@@ -175,18 +196,18 @@ function createContactsChart(months) {
       maintainAspectRatio: false,
       plugins: {
         legend: {
-          labels: { color: '#E2E8F0' }
+          labels: { color: CHART.ink, font: { family: CHART.font } }
         }
       },
       scales: {
         y: {
           beginAtZero: true,
-          ticks: { color: '#94A3B8' },
-          grid: { color: '#333' }
+          ticks: { color: CHART.muted, font: { family: CHART.mono, size: 11 } },
+          grid: { color: CHART.grid }
         },
         x: {
-          ticks: { color: '#94A3B8' },
-          grid: { color: '#333' }
+          ticks: { color: CHART.muted, font: { family: CHART.mono, size: 11 } },
+          grid: { color: CHART.grid }
         }
       }
     }
@@ -206,8 +227,8 @@ function createUsersChart(months) {
       datasets: [{
         label: 'New Users',
         data: months.map(m => m.users),
-        backgroundColor: '#4ecdc4',
-        borderColor: '#4ecdc4',
+        backgroundColor: CHART.amberSoft,
+        borderColor: CHART.amber,
         borderWidth: 1
       }]
     },
@@ -216,18 +237,18 @@ function createUsersChart(months) {
       maintainAspectRatio: false,
       plugins: {
         legend: {
-          labels: { color: '#E2E8F0' }
+          labels: { color: CHART.ink, font: { family: CHART.font } }
         }
       },
       scales: {
         y: {
           beginAtZero: true,
-          ticks: { color: '#94A3B8' },
-          grid: { color: '#333' }
+          ticks: { color: CHART.muted, font: { family: CHART.mono, size: 11 } },
+          grid: { color: CHART.grid }
         },
         x: {
-          ticks: { color: '#94A3B8' },
-          grid: { color: '#333' }
+          ticks: { color: CHART.muted, font: { family: CHART.mono, size: 11 } },
+          grid: { color: CHART.grid }
         }
       }
     }
@@ -246,9 +267,9 @@ function createStatusChart(contacts) {
       labels: ['New', 'Contacted', 'Converted', 'Archived'],
       datasets: [{
         data: [contacts.new, contacts.contacted, contacts.converted, contacts.archived],
-        backgroundColor: ['#3B82F6', '#F59E0B', '#10B981', '#6B7280'],
+        backgroundColor: [CHART.amber, CHART.amberSoft, CHART.green, CHART.muted],
         borderWidth: 2,
-        borderColor: '#1a1a1a'
+        borderColor: CHART.surface
       }]
     },
     options: {
@@ -257,7 +278,7 @@ function createStatusChart(contacts) {
       plugins: {
         legend: {
           position: 'bottom',
-          labels: { color: '#E2E8F0', padding: 15 }
+          labels: { color: CHART.ink, padding: 15, font: { family: CHART.font } }
         }
       }
     }

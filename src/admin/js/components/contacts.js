@@ -475,7 +475,7 @@ async function editContact(id) {
           </div>
           <div class="form-group">
             <label>Notes</label>
-            <textarea name="notes" rows="4" style="width: 100%; padding: 12px; background: var(--surface-light); border: 1px solid var(--border); border-radius: 8px; color: var(--text-primary);">${contact.notes || ''}</textarea>
+            <textarea name="notes" rows="4" style="width: 100%; padding: 12px; background: var(--surface); border: 1.5px solid var(--line); border-radius: 8px; color: var(--ink); font-family: var(--font-body);">${contact.notes || ''}</textarea>
           </div>
         </form>
       </div>

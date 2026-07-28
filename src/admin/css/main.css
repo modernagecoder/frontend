@@ -132,23 +132,15 @@ body.login-page {
 
 .login-header { text-align: center; margin-bottom: 28px; }
 
-.login-header .logo-icon {
-  width: 44px;
-  height: 44px;
+/* The real company logo, same asset the public site's nav uses, so the panel
+   is recognisably part of the same product. */
+.login-header .login-logo {
+  width: 52px;
+  height: 52px;
+  display: block;
   margin: 0 auto 16px;
-  border-radius: 10px;
-  background: var(--ink);
-  display: grid;
-  place-items: center;
-}
-
-.login-header .logo-icon::after {
-  content: "M";
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 21px;
-  color: var(--paper);
-  line-height: 1;
+  border-radius: 12px;
+  object-fit: contain;
 }
 
 .login-header h1 {
@@ -170,6 +162,28 @@ body.login-page {
 }
 
 .login-form { display: grid; gap: 16px; }
+
+/* Sits outside the card, quiet by design - it is an exit, not an action. */
+.login-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin: 18px auto 0;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--muted);
+  text-decoration: none;
+  width: fit-content;
+  transition: color .15s ease, background-color .15s ease;
+}
+
+.login-back:hover { color: var(--ink); background: var(--paper-2); }
+.login-back svg { width: 15px; height: 15px; }
+
+.login-container { text-align: center; }
+.login-card { text-align: left; }
 
 /* --------------------------------------------------------------------------
    FORMS
@@ -383,9 +397,46 @@ body.dashboard-page {
 
 .header-left { display: flex; align-items: center; gap: 12px; min-width: 0; }
 
-.logo { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  text-decoration: none;
+  padding: 5px 8px 5px 5px;
+  margin-left: -5px;
+  border-radius: var(--radius-sm);
+  transition: background-color .15s ease;
+}
 
-.logo-img { width: 30px; height: 30px; border-radius: 7px; object-fit: cover; }
+.logo:hover { background: rgba(255, 255, 255, .07); }
+
+.logo-img { width: 34px; height: 34px; border-radius: 8px; object-fit: contain; flex: 0 0 34px; }
+
+/* Way out to the public site. Opens in a new tab so a half-finished piece of
+   admin work is not lost. */
+.site-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 12px;
+  border: 1.5px solid var(--rail-line);
+  border-radius: var(--radius-sm);
+  color: var(--rail-text);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+
+.site-link:hover {
+  background: rgba(255, 255, 255, .07);
+  color: var(--paper);
+  border-color: rgba(255, 255, 255, .28);
+}
+
+.site-link svg { width: 14px; height: 14px; flex: 0 0 14px; }
 
 .logo-text {
   font-family: var(--font-display);

@@ -42,13 +42,21 @@
                 <span></span>
                 <span></span>
             </button>
-            <div class="logo">
-                <img src="/images/logo.webp" alt="" class="logo-img">
+            <!-- The logo links back to the public site, which is where people
+                 expect a masthead to take them -->
+            <a class="logo" href="/" title="Back to the website">
+                <img src="/images/logo.svg" alt="Modern Age Coders" class="logo-img" width="34" height="34">
                 <span class="logo-text">Modern Age Coders</span>
-            </div>
+            </a>
         </div>
 
         <div class="header-right">
+            <!-- Explicit exit as well as the logo, since the logo as a link is
+                 a convention not everyone knows -->
+            <a class="site-link" href="/" target="_blank" rel="noopener" aria-label="View the website in a new tab" title="View the website">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6"/><path d="M20 4 10 14"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>
+                <span>View website</span>
+            </a>
             <div class="admin-info">
                 <span class="admin-name" id="adminName">Admin</span>
                 <span class="admin-email" id="adminEmail"></span>

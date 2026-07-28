@@ -88,9 +88,9 @@ async function loadAuditLogs() {
             </div>
           </div>
         ` : `
-          <div style="padding:48px 24px;text-align:center;color:var(--text-secondary,#94a3b8);">
+          <div style="padding:48px 24px;text-align:center;color:var(--muted);">
             <div style="font-size:48px;margin-bottom:12px;">📋</div>
-            <h3 style="margin:0 0 8px;color:var(--text-primary,#f1f5f9);font-size:18px;">No audit events recorded yet</h3>
+            <h3 style="margin:0 0 8px;color:var(--ink);font-size:18px;">No audit events recorded yet</h3>
             <p style="margin:0;max-width:480px;margin:0 auto;font-size:14px;">
               Actions like bulk updates, deletes and exports will appear here as
               soon as admins perform them.
@@ -107,7 +107,7 @@ async function loadAuditLogs() {
       </div>
       <div class="table-container" style="padding:32px;text-align:center;">
         <p style="color:#ef4444;font-weight:600;margin:0 0 6px;">Failed to load audit logs</p>
-        <p style="color:var(--text-secondary,#94a3b8);font-size:13px;margin:0;">${escapeHtml(error && error.message || 'Network error')}</p>
+        <p style="color:var(--muted);font-size:13px;margin:0;">${escapeHtml(error && error.message || 'Network error')}</p>
       </div>
     `;
     console.error(error);
