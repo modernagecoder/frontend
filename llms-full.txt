@@ -38,7 +38,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Resources practice: /content/resources/generated/{lang}/{chapter}/practice/index.md
 - Static pages:  /src/pages/{slug}.md
 
-> Generated: 2026-07-22 · Source of truth: https://learn.modernagecoders.com/llms.txt
+> Generated: 2026-07-29 · Source of truth: https://learn.modernagecoders.com/llms.txt
 
 Full companion to /llms.txt — brand overview, complete course catalog, embedded text of featured blog posts, and full blog index. AI agents that prefer a single document can use this as the canonical knowledge base.
 
@@ -76,7 +76,7 @@ Full companion to /llms.txt — brand overview, complete course catalog, embedde
 
 **Q: How are classes conducted?** Live over video in groups of 4-8. Recorded for revision. Student dashboard at https://dashboard.modernagecoders.com
 
-## Course Catalog (114 courses)
+## Course Catalog (116 courses)
 
 Every Modern Age Coders course, grouped by audience.
 
@@ -160,7 +160,7 @@ Live online vibe coding course for kids ages 8-12: learn Scratch, AI tools and g
 
 Live online web development course for kids: build real websites with HTML, CSS and AI tools in a 1-year program, from zero coding to professional sites.
 
-### Teens (23)
+### Teens (24)
 
 ### [AI & Machine Learning for Teens: Zero to AI Expert](https://learn.modernagecoders.com/courses/ai-ml-masterclass-teens/)
 
@@ -282,6 +282,12 @@ An 18-month mobile app development course for teens: build iOS and Android apps 
 
 MySQL database course for teens: live online classes on SQL queries, database design, optimization and security, from absolute basics to real projects.
 
+### [Orange Data Mining Course for Teens: Machine Learning Without Code](https://learn.modernagecoders.com/courses/orange-data-mining-visual-machine-learning-course-for-teens/)
+
+*Level:* Beginner-friendly (ages 13-18), no programming experience required · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Learn Orange Data Mining in 24 live classes for teens 13-18: build machine learning workflows by connecting widgets on a canvas, visualise real datasets, train and honestly evaluate models, mine text and images, and finish with a shareable data project.
+
 ### [Python Programming for Teens: Zero to Advanced in 2 Years](https://learn.modernagecoders.com/courses/python-complete-masterclass-teens/)
 
 *Level:* Absolute Beginner to Python Expert · *Duration:* 24 months (104 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
@@ -300,7 +306,7 @@ A 1-year React course for teens: go from your first line of code to professional
 
 Live online vibe coding course for teens 13-17: learn Python, HTML, CSS, JavaScript and AI projects, build real apps and a portfolio in a 3-month program.
 
-### College (25)
+### College (26)
 
 ### [AI & Machine Learning Masterclass: Zero to AI Expert](https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete-college/)
 
@@ -415,6 +421,12 @@ Live MERN Stack course online: MongoDB, Express, React and Node.js in a 12-month
 *Level:* Complete Beginner to Database Expert · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Live 12-month MySQL course covering SQL queries, database design, administration, performance tuning, replication, security and cloud deployment.
+
+### [Orange Data Mining Course for College Students: Machine Learning and Analytics](https://learn.modernagecoders.com/courses/orange-data-mining-machine-learning-course-for-college-students/)
+
+*Level:* Beginner to applied practitioner (college students and graduates), no prior machine learning required · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Master Orange Data Mining in 24 live classes for college students: reproducible workflows, feature engineering, model selection with nested validation, explainability, clustering, text mining, time series and a defended analytics capstone, plus the Python bridge to pandas and scikit-learn.
 
 ### [Python & AI Automation: Machine Learning, NLP & Scripting](https://learn.modernagecoders.com/courses/python-ai-automation-masterclass-college/)
 

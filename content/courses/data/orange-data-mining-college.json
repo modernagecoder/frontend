@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "slug": "orange-data-mining-machine-learning-course-for-college-students",
+    "date": "2026-07-29",
+    "title": "Orange Data Mining Course for College Students: Machine Learning and Analytics",
+    "description": "Master Orange Data Mining in 24 live classes for college students: reproducible workflows, feature engineering, model selection with nested validation, explainability, clustering, text mining, time series and a defended analytics capstone, plus the Python bridge to pandas and scikit-learn.",
+    "keywords": [
+      "orange data mining course",
+      "orange data mining for college students",
+      "data mining course online",
+      "machine learning course without coding",
+      "visual machine learning workflows",
+      "orange data mining tutorial advanced",
+      "data mining lab course",
+      "data analytics course for engineering students",
+      "cross validation and model evaluation course",
+      "clustering and classification training",
+      "text mining course orange",
+      "time series analysis orange",
+      "explainable ai course",
+      "data science project for final year",
+      "orange widgets machine learning",
+      "data mining and warehousing course",
+      "live online data mining classes india",
+      "internship preparation data analytics"
+    ],
+    "category": "Data Science & Machine Learning",
+    "taxonomy": "technology",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,499/month",
+      "personal": "₹4,999/month",
+      "lifetime": "₹39,999"
+    },
+    "duration": "24 classes (12 weeks · 2 classes/week)",
+    "level": "Beginner to applied practitioner (college students and graduates), no prior machine learning required",
+    "commitment": "4-6 hours/week recommended",
+    "certification": "Modern Age Coders 'Orange Data Mining for College' certificate upon completion",
+    "image_path": "orange-data-mining-college.webp"
+  },
+  "program_overview": {
+    "title": "Orange Data Mining for College: Reproducible Machine Learning and Analytics",
+    "tagline": "Cover a full data mining syllabus on a visual canvas, then defend it: rigorous validation, feature engineering, explainability, clustering, text and time series, and a capstone that reproduces from raw data on someone else's machine.",
+    "description": "Data mining appears in almost every computer science, IT, statistics, business analytics and bioinformatics programme, and it is routinely taught as a list of algorithm names to memorise before an exam. This course teaches it as a practice. Orange is free, open source machine learning and data visualisation software developed at the Bioinformatics Laboratory, Faculty of Computer and Information Science, University of Ljubljana, released under the GNU GPL version 3 or later. It was built for teaching machine learning and data mining to university students, and it is used in real research work. You assemble analysis by connecting widgets on a canvas, which removes the syntax overhead and puts the entire course budget into method: how to prepare data defensibly, how to select a model without fooling yourself, and how to explain what the model did.\n\nAcross 24 live classes you work through the six default widget sets, Data, Transform, Visualize, Model, Evaluate and Unsupervised, and then into the add-on ecosystem that makes Orange genuinely useful for project work: Text for corpus analysis, Time Series for temporal data, Explain for model interpretation, Associate for rule mining, Geo for spatial data, and Fairness for auditing. You will build classification and regression pipelines, use Preprocess inside the modelling loop so that scaling and imputation are fitted on training folds rather than leaked across them, compare learners under identical cross validation in Test and Score, tune with Parameter Fitter, read ROC, precision-recall and calibration properly, and use Explain Model and Permutation Importance to answer the question a viva always asks: why did it predict that?\n\nThe course is deliberately not a dead end at the canvas. Orange is written in Python and installable from PyPI as Orange3, and the Python Script widget exposes real Python inside a workflow with the incoming data available in your namespace. Two classes are spent on that bridge, so students moving on to pandas and scikit-learn carry the concepts across rather than starting again. Every class is taught live in a small batch by a working practitioner, the same mentorship-first method Modern Age Coders has used since 2020 to teach 10,000+ students across 25+ countries. You finish with 24 reproducible workflows, a capstone that runs end to end from a raw file, and an exported report you can put in front of an examiner, a recruiter or a project guide.",
+    "what_makes_this_different": [
+      "Built for defensible work, not demos: reproducibility, leakage control and honest validation are graded requirements from Phase 1, not closing remarks.",
+      "Covers a full university data mining syllabus, preprocessing, classification, regression, evaluation, clustering, dimensionality reduction, association rules, text and time series, with a running artefact for each.",
+      "Explainability is a full class, not a mention: Explain Model, Explain Prediction, Permutation Importance and ICE, so you can answer why a prediction happened.",
+      "The Python bridge is taught explicitly: Orange is a Python library, the Python Script widget runs real Python inside the canvas, and the same models exist in scikit-learn.",
+      "Free and open source under the GNU GPL v3 or later, so nothing in your final year project depends on a licence you lose after graduation.",
+      "Capstone standard is reproduction: your workflow must rerun from the raw file in a clean session, on a machine that is not yours."
+    ],
+    "learning_path": [
+      "Phase 1, Reproducible Foundations (Classes 1-5): the canvas and widget sets, loading files and SQL tables, variable types and roles, cleaning and imputation, joins and aggregation, the Preprocess block, and .ows workflows that reproduce.",
+      "Phase 2, Exploratory Analysis and Feature Engineering (Classes 6-10): distributions and outliers, scatter plots with informative projections, correlations and multicollinearity, heat maps and distance, discretisation, continuisation, Formula-built features and feature ranking.",
+      "Phase 3, Modelling and Rigorous Evaluation (Classes 11-16): baselines, trees and rule induction, kNN and naive Bayes, linear and logistic regression, regularisation, SVM, random forest, gradient boosting, neural networks, stacking, cross validation, ROC and calibration, and parameter tuning without leaking the test set.",
+      "Phase 4, Unsupervised, Explainable and Specialised Data (Classes 17-21): k means and silhouettes, hierarchical clustering, DBSCAN and Louvain, PCA, t-SNE and MDS, outlier detection, association rules, explainability with the Explain add-on, text mining, and time series with ARIMA and VAR.",
+      "Phase 5, The Python Bridge and Capstone (Classes 22-24): the Python Script widget and Orange as a Python library, fairness and ethics auditing, then a full capstone built, reviewed, reproduced and presented."
+    ],
+    "career_outcomes": [
+      "Able to take an unfamiliar dataset from raw file to validated model and written conclusion without supervision",
+      "Prepared for data analyst, business analyst, research assistant and junior data science interviews on the method questions that actually get asked",
+      "Ready to defend a final year project, dissertation chapter or lab report on grounds of methodology, not just results",
+      "A grounded start in pandas and scikit-learn, because every concept transfers and only the syntax is new",
+      "A portfolio of 24 reproducible workflows plus a capstone that reruns on someone else's machine"
+    ]
+  },
+  "phase_1_reproducible_foundations": {
+    "title": "Phase 1: Reproducible Foundations",
+    "description": "Classes 1 to 5. Set up Orange, learn the canvas properly, and build the habits that separate a project that survives a viva from one that falls apart when someone asks you to run it again. Everything in this phase is about data you can trust and workflows that reproduce.",
+    "week_1": {
+      "title": "Class 1: Orange, Visual Programming and Why It Is Taken Seriously",
+      "topics": [
+        "What Orange is: open source machine learning and data visualisation software from the Bioinformatics Laboratory, Faculty of Computer and Information Science, University of Ljubljana, first released in 1996 and under the GNU GPL version 3 or later",
+        "Why a visual tool belongs in a serious course: it was built to teach machine learning and data mining to university students, and it runs the same algorithms you would call from code",
+        "Installation paths: the standalone installer on Windows and macOS, and installing the Orange3 package from the Python Package Index into a Python environment",
+        "The interface: widget toolbox, canvas, the six default widget sets Data, Transform, Visualize, Model, Evaluate and Unsupervised, and the status bar",
+        "How data flows: output channels, input channels, and choosing which channel a connection uses when a widget offers several",
+        "The mental model that prevents most beginner errors: a widget recomputes whenever anything upstream changes, so the canvas is a live pipeline, not a sequence of clicks",
+        "Course standards announced up front: every deliverable is an .ows workflow that reruns from the raw data file with no manual editing anywhere"
+      ],
+      "projects": [
+        "Install Orange, build a File to Data Table to Distributions canvas on a bundled dataset, then deliberately change the upstream file and document exactly which downstream widgets recomputed"
+      ],
+      "practice": "Open three example workflows from the official examples page and write one sentence on what each pipeline is doing.",
+      "assessment": "Your first canvas plus a short written explanation of the live-pipeline model in your own words."
+    },
+    "week_2": {
+      "title": "Class 2: Data Sources, Types and Roles",
+      "topics": [
+        "The File widget across formats: .csv, .tsv, Excel and Orange's native .tab, including delimiter and encoding problems and how to diagnose them",
+        "CSV File Import for awkward files: header rows, decimal separators, thousands separators and locale issues",
+        "SQL Table: reading directly from a database rather than exporting an intermediate spreadsheet nobody can reproduce",
+        "Datasets: the bundled and downloadable example datasets used throughout the course for controlled comparisons",
+        "Variable types in Orange, numeric, categorical, text and datetime, and the downstream failures caused by each mistyped column",
+        "Roles: feature, target and meta, and why identifiers, names and free text must be pushed to meta rather than fed to a learner",
+        "Data Info and Column Statistics as a mandatory first look: instances, features, missing values, constant columns and near-duplicates"
+      ],
+      "projects": [
+        "Load one awkward real-world .csv, correct every mistyped column with Edit Domain, assign roles deliberately, and write a data dictionary describing every variable, its type and its role"
+      ],
+      "practice": "Import the same file twice, once correctly and once with a wrong delimiter, and record what silently went wrong.",
+      "assessment": "Your data dictionary plus a Data Info screenshot with a written note on every quality problem you found."
+    },
+    "week_3": {
+      "title": "Class 3: Missing Data, Outliers and Defensible Cleaning",
+      "topics": [
+        "The three kinds of missingness in plain language, and why the reason a value is missing changes what you are allowed to do about it",
+        "The Impute widget in full: leave as is, average or most frequent, replace with a fixed value, remove instances, and model-based imputation",
+        "The decision that gets challenged in every viva: dropping rows versus imputing, and how to state your choice with a defensible reason",
+        "Select Rows for rule-based filtering, and why filters belong in the workflow rather than in a spreadsheet you edited by hand",
+        "Outliers: detecting them, and the separate question of whether to remove, cap, flag or investigate them",
+        "Duplicate detection with Unique, and the near-duplicate problem that silently inflates every cross validation score",
+        "Documenting cleaning: annotating the canvas so a reader can see every judgement you made and disagree with it if they want"
+      ],
+      "projects": [
+        "Build a fully annotated cleaning pipeline on a messy dataset, recording instance counts before and after each step, and write a cleaning log justifying every decision"
+      ],
+      "practice": "Compare model-based imputation against mean imputation on the same column and record how the distribution changed.",
+      "assessment": "Your cleaning log with before and after counts, plus a defence of your imputation strategy."
+    },
+    "week_4": {
+      "title": "Class 4: Joins, Aggregation and Reshaping",
+      "topics": [
+        "Merge Data: inner, outer and left join behaviour on a shared key, and diagnosing the rows that silently disappear",
+        "Concatenate for stacking sources, including what happens when the schemas do not quite agree",
+        "Group by and Aggregate Columns: producing entity-level datasets from transaction-level records, the single most common real analytics task",
+        "Pivot Table for cross-tabulation, and Transpose for datasets stored the wrong way round",
+        "Formula: deriving ratios, differences, flags and interaction terms as genuine engineered features",
+        "Select by Data Index and Data Sampler: reproducible sampling, stratified sampling, and holding out a set you genuinely do not look at",
+        "Granularity discipline: knowing exactly what one row represents at every point in your pipeline"
+      ],
+      "projects": [
+        "Build an entity-level analysis dataset from at least two source tables using Merge Data and Group by, engineer three derived features with Formula, and document what one row represents at each stage"
+      ],
+      "practice": "Perform the same join two ways and reconcile the row counts, explaining any difference.",
+      "assessment": "Your multi-table workflow plus the row-meaning documentation at each stage."
+    },
+    "week_5": {
+      "title": "Class 5: Preprocess, Reproducibility and Workflow Engineering",
+      "topics": [
+        "The Preprocess widget as a single reusable block: normalisation, standardisation, imputation, feature selection, discretisation, continuisation and randomisation",
+        "The leakage rule stated early and repeated all course: preprocessing that learns from data, such as scaling or imputation, must be fitted inside the validation loop, not applied to the whole dataset first",
+        "How Orange helps: connecting Preprocess into a learner so the preprocessing is fitted per training fold during cross validation",
+        "Purge Domain and Randomize: cleaning unused categories, and shuffling a target deliberately as a sanity check that your pipeline cannot score well on noise",
+        "Saving workflows as .ows files: XML describing widgets, their settings and their connections, saving the workflow and settings but not the data",
+        "Consequences for sharing: an .ows file needs its data file alongside it, so a shareable project is a folder, not a single file",
+        "Workflow engineering standards: left to right layout, renamed widgets, canvas notes, and a README describing how to rerun the analysis"
+      ],
+      "projects": [
+        "Package everything from Classes 2 to 4 as a reproducible project folder: annotated .ows workflow, raw data file and a README, then have a classmate rerun it from scratch and report any step they could not reproduce"
+      ],
+      "practice": "Run the shuffled-target sanity check on your pipeline and confirm performance collapses to baseline as it should.",
+      "assessment": "A project folder a classmate successfully reran, plus their written reproduction report."
+    }
+  },
+  "phase_2_exploration_and_features": {
+    "title": "Phase 2: Exploratory Analysis and Feature Engineering",
+    "description": "Classes 6 to 10. Model performance is decided long before the learner widget. This phase covers reading a dataset properly and then constructing the features that make the difference, along with the diagnostics that tell you when a feature is helping and when it is cheating.",
+    "week_6": {
+      "title": "Class 6: Distributions, Dispersion and Group Comparison",
+      "topics": [
+        "Distributions: shape, skew, modality and the long tail, and what each implies for the models available to you",
+        "Box Plot and Violin Plot: comparing groups on a numeric variable, including unequal group sizes and what that does to a visual comparison",
+        "Central tendency and dispersion together: why reporting a mean without a spread is an incomplete claim",
+        "Detecting distributional problems that break specific models, such as heavy skew for distance-based methods",
+        "Transformations in plain terms, and when a log-style transformation genuinely helps versus when it just hides the problem",
+        "Target distribution first: class imbalance diagnosed before any model is trained, using Distributions on the target",
+        "Stating an exploratory finding as a hypothesis to test rather than a conclusion to announce"
+      ],
+      "projects": [
+        "Produce a full univariate profile of your dataset, every numeric variable charted and described, every categorical variable tabulated, ending with three written hypotheses worth testing"
+      ],
+      "practice": "Identify one variable whose mean misrepresents it and justify a better summary statistic.",
+      "assessment": "Your univariate profile document plus the three hypotheses with the evidence that prompted each."
+    },
+    "week_7": {
+      "title": "Class 7: Bivariate Analysis and Informative Projections",
+      "topics": [
+        "Scatter Plot with class colouring, point size and shape used as genuine extra dimensions",
+        "Find Informative Projections: ranking variable pairs by how well they separate the target classes",
+        "Rank: scoring features by information gain, gain ratio, gini, chi square, ReliefF and FCBF, and reading the disagreements between scores as information",
+        "Sieve Diagram and Mosaic Display for categorical against categorical relationships",
+        "Linear Projection, Radviz and FreeViz for looking at many variables at once in a single plane",
+        "Selecting subsets directly from a plot and sending them downstream for inspection, the fastest way to interrogate a suspicion",
+        "The discipline of the alternative explanation: for every relationship you find, write the confounder that could produce it"
+      ],
+      "projects": [
+        "Rank every feature by at least three scoring methods, reconcile the disagreements in writing, and build the informative projection that best separates your target classes"
+      ],
+      "practice": "Take your strongest bivariate relationship and write two plausible confounders for it.",
+      "assessment": "Your multi-method feature ranking with a written reconciliation, plus the projection and its interpretation."
+    },
+    "week_8": {
+      "title": "Class 8: Correlation, Multicollinearity and Distance",
+      "topics": [
+        "Correlations: ranking every numeric pair, and reading the coefficient without over-claiming what it establishes",
+        "Multicollinearity: what happens to a linear model's coefficients when two features carry the same information, and why the model can still predict well while its explanation becomes worthless",
+        "Heat Map with row and column clustering for whole-dataset structure at a glance",
+        "Distances: Euclidean, Manhattan, cosine, Jaccard and others, and choosing a measure that matches the data type and the question",
+        "Distance Map, Distance Matrix and Distance Transformation as the shared foundation under clustering and nearest neighbour methods",
+        "Why normalisation must precede distance, demonstrated by breaking it deliberately with one large-scale feature",
+        "Feature selection versus dimensionality reduction: dropping features versus combining them, and when each is appropriate"
+      ],
+      "projects": [
+        "Diagnose multicollinearity in a numeric dataset, decide which features to drop with a written justification, and demonstrate the effect on a linear model's coefficients before and after"
+      ],
+      "practice": "Compute the same distance matrix under three distance measures and describe how the neighbourhood structure changed.",
+      "assessment": "Your multicollinearity report including the coefficient comparison and your retained feature set."
+    },
+    "week_9": {
+      "title": "Class 9: Feature Engineering, Discretisation and Encoding",
+      "topics": [
+        "Feature engineering as the highest-leverage work in applied machine learning, with worked examples of features that transformed a weak model",
+        "Formula: ratios, differences, flags, counts and interaction terms built inside the workflow, and Create Instance for testing a model on a hand-specified case",
+        "Discretize: equal width, equal frequency and entropy-based binning, and what each does to the information in a variable",
+        "Continuize: one-hot and ordinal treatment of categorical variables, and matching the encoding to the model that will consume it",
+        "Create Class: deriving a target variable from raw columns, and the leakage danger that this step invites",
+        "Domain knowledge as a feature source: interviewing the person who understands the data before engineering anything",
+        "Testing whether a feature earned its place: rerun the cross validated comparison with and without it"
+      ],
+      "projects": [
+        "Engineer at least five new features from domain reasoning, then run a cross validated with-and-without comparison for each and keep only the ones that measurably earned their place"
+      ],
+      "practice": "Compare equal-frequency and entropy-based discretisation of the same variable and note the difference in downstream model performance.",
+      "assessment": "Your feature engineering log showing each candidate feature, its rationale, its measured effect and your keep or drop decision."
+    },
+    "week_10": {
+      "title": "Class 10: Communicating Analysis with the Orange Report",
+      "topics": [
+        "The Report system: most widgets carry a report button in the status bar that appends the current view to a running report",
+        "Which widgets do not report, and why the ones that only transmit or display data are excluded",
+        "Structuring an analytical report the way a reader needs it: question, data and its limits, method, evidence, result, threats to validity",
+        "Adding written commentary to report sections so the argument, not just the output, is preserved",
+        "Exporting as .html or .pdf for submission, and as .report so a reader can reopen the exact workflow behind each section",
+        "Reopening reports through File then Open Report, and the report view via Shift and R",
+        "Presenting to a non-technical audience: what to cut, what to keep, and how to state uncertainty without losing the room"
+      ],
+      "projects": [
+        "Produce a complete exploratory data analysis report on your project dataset: question, data dictionary, univariate and bivariate evidence, engineered features, and a stated set of limitations, exported as PDF"
+      ],
+      "practice": "Cut your report to a three minute verbal summary and note what you were forced to drop.",
+      "assessment": "Your exported EDA report, graded on whether every claim in it is supported by a visible piece of evidence."
+    }
+  },
+  "phase_3_modelling_and_evaluation": {
+    "title": "Phase 3: Modelling and Rigorous Evaluation",
+    "description": "Classes 11 to 16. The modelling half of a data mining syllabus, taught with the validation rigour that distinguishes a result from a coincidence. Classification and regression, simple models and ensembles, and tuning that does not quietly contaminate the test set.",
+    "week_11": {
+      "title": "Class 11: The Modelling Frame, Baselines and Validation Design",
+      "topics": [
+        "Supervised learning framed properly: a hypothesis space, a loss, and an estimate of generalisation error, all in plain language",
+        "Classification versus regression, decided by the target variable, and the metrics that come with each",
+        "The Orange modelling shape: data into learner into Test and Score, with Preprocess attached to the learner rather than the data",
+        "Constant as the mandatory baseline, and Feature as Predictor as a second reference point using a single variable",
+        "Choosing a validation design: train and test split, k-fold cross validation, stratified folds, leave one out, and repeated sampling, with the cost and reliability of each",
+        "Class imbalance: what accuracy hides, and why AUC, F1, precision and recall exist",
+        "Declaring your evaluation protocol before you look at any result, and writing it into the project README"
+      ],
+      "projects": [
+        "Write and register your evaluation protocol for the course project, then establish both baselines with stratified 10-fold cross validation and record the numbers every later model must beat"
+      ],
+      "practice": "Run the same model under three validation designs and record how much the estimate moves.",
+      "assessment": "Your registered evaluation protocol plus a baseline results table with the validation design justified."
+    },
+    "week_12": {
+      "title": "Class 12: Trees, Rules and Interpretable Models",
+      "topics": [
+        "Decision tree induction: impurity measures, the greedy split search, and stopping criteria as the practical control on complexity",
+        "The Tree widget's parameters, minimum instances in a leaf, maximum depth, and splitting thresholds, mapped to bias and variance",
+        "Tree Viewer, Pythagorean Tree and Pythagorean Forest for reading structure rather than guessing at it",
+        "CN2 Rule Induction and CN2 Rule Viewer: learning an ordered or unordered rule set you can read as if-then statements",
+        "Scoring Sheet and Scoring Sheet Viewer: producing the kind of simple point-based model that regulated domains actually accept",
+        "Overfitting demonstrated live: growing a tree until training accuracy is perfect and cross validated accuracy collapses",
+        "The interpretability and accuracy trade-off, and the domains where an interpretable model is a requirement rather than a preference"
+      ],
+      "projects": [
+        "Train a tuned decision tree and a CN2 rule set on the same problem, extract the decision logic from both as written rules, and compare their cross validated performance against your baselines"
+      ],
+      "practice": "Sweep maximum depth across five values and tabulate training against cross validated accuracy to locate the overfitting point.",
+      "assessment": "Your extracted rule set in plain English plus the overfitting curve with the depth you chose and why."
+    },
+    "week_13": {
+      "title": "Class 13: Distance and Probability Models, Regression Begins",
+      "topics": [
+        "k Nearest Neighbours: the choice of k, distance measure and weighting, and its total dependence on feature scaling",
+        "Naive Bayes: the conditional independence assumption, why it is usually false, and why the model often works anyway",
+        "Linear Regression in Orange: predicting a continuous target, with ridge and lasso regularisation and what each penalty does",
+        "Regression metrics and how to read them: MSE, RMSE, MAE and R squared, and what R squared does not tell you",
+        "PLS and Curve Fit for the cases where ordinary linear regression is the wrong shape",
+        "Stochastic Gradient Descent as a learner, and the intuition of iterative optimisation without the calculus",
+        "Choosing a model family from the data and the requirement, not from familiarity"
+      ],
+      "projects": [
+        "Build a full regression pipeline on a continuous target, compare linear regression with and without regularisation against kNN regression, and report RMSE and R squared under identical cross validation"
+      ],
+      "practice": "Run kNN with and without normalisation inside the Preprocess block and quantify the difference.",
+      "assessment": "Your regression comparison table with metrics defined in your own words and a justified model choice."
+    },
+    "week_14": {
+      "title": "Class 14: Evaluation in Depth, from Confusion Matrix to Calibration",
+      "topics": [
+        "Test and Score read properly: comparing learners under identical folds, and the meaning of the variation between folds",
+        "Confusion Matrix: the four cells expressed as real costs in the actual application domain",
+        "Precision, recall, specificity and F1 derived from that matrix rather than memorised",
+        "ROC Analysis: the curve as every threshold at once, AUC interpreted as a ranking probability, and reading multiple models on one plot",
+        "Performance Curve for the operational question of how many cases you must action to capture a given share of positives",
+        "Calibration Plot: whether predicted probabilities behave like probabilities, and Calibrated Learner as the fix",
+        "Choosing the operating threshold from the cost of each error type rather than accepting 0.5 by default"
+      ],
+      "projects": [
+        "Evaluate every model built so far on one problem with a full evaluation dossier: metrics table, confusion matrices with stated costs, ROC comparison, calibration plot, and a recommended operating threshold with its justification"
+      ],
+      "practice": "Take a poorly calibrated model, apply Calibrated Learner, and document the change in the calibration plot.",
+      "assessment": "Your evaluation dossier, graded on whether the threshold recommendation follows from stated error costs."
+    },
+    "week_15": {
+      "title": "Class 15: Ensembles and Neural Networks",
+      "topics": [
+        "Random Forest: bagging plus random feature subsets, why decorrelated trees generalise better, and the parameters that matter",
+        "Gradient Boosting: sequential correction of residuals, and the learning rate and depth interaction that governs overfitting",
+        "AdaBoost: reweighting the examples the ensemble keeps getting wrong",
+        "Support Vector Machines: margins, the kernel trick explained without the algebra, and the cost parameter",
+        "Neural Network in Orange: hidden layer sizes, activation functions, the solver, and realistic expectations on tabular data of student scale",
+        "Stacking: combining several learners with a meta-learner, and the extra validation care it demands",
+        "The honest finding that a well tuned simple model frequently matches an ensemble, and why reporting that is good work"
+      ],
+      "projects": [
+        "Run a full learner tournament, baseline through neural network and stacking, under one fixed cross validation, and write a model selection memo that justifies your winner on grounds beyond the top accuracy figure"
+      ],
+      "practice": "Vary the gradient boosting learning rate and depth together and record where performance stops improving.",
+      "assessment": "Your model selection memo, which must address performance, variance across folds, interpretability and runtime."
+    },
+    "week_16": {
+      "title": "Class 16: Tuning, Deployment and the Traps That Invalidate Results",
+      "topics": [
+        "Parameter Fitter: searching a learner's parameters systematically instead of by intuition",
+        "The tuning trap named precisely: selecting parameters using the same data you then report performance on inflates your result",
+        "Nested validation in principle, and the practical discipline of a genuinely held-out set that is opened exactly once",
+        "Permutation Plot and the shuffled-target sanity check as evidence that your pipeline is not learning noise",
+        "Predictions: scoring new unlabelled data, reading class probabilities, and exporting results with Save Data",
+        "Save Model and Load Model: persisting a fitted model so scoring does not require retraining",
+        "The leakage catalogue, target leakage, temporal leakage, group leakage and preprocessing leakage, each with the symptom that gives it away"
+      ],
+      "projects": [
+        "Tune your chosen model with Parameter Fitter, evaluate the tuned model on a held-out set you have not previously touched, run the shuffled-target check, and write a leakage audit against all four leakage types"
+      ],
+      "practice": "Deliberately introduce a leaking feature, observe the implausible score, and document how you would have caught it.",
+      "assessment": "Your held-out result with the tuning protocol described, plus your completed four-point leakage audit."
+    }
+  },
+  "phase_4_unsupervised_and_specialised": {
+    "title": "Phase 4: Unsupervised, Explainable and Specialised Data",
+    "description": "Classes 17 to 21. The rest of a data mining syllabus, taught to the same standard: clustering with validity measures rather than eyeballing, dimensionality reduction, association rules, model explainability, and the two data types that dominate project work, text and time series.",
+    "week_17": {
+      "title": "Class 17: Clustering and Cluster Validity",
+      "topics": [
+        "Unsupervised learning framed honestly: no ground truth, so validity has to be argued rather than measured against an answer key",
+        "k Means: the algorithm step by step, initialisation sensitivity, and scoring a range of k automatically",
+        "Silhouette score and Silhouette Plot: evaluating cohesion and separation, and finding the points that were forced into the wrong cluster",
+        "Hierarchical Clustering: linkage methods, reading a dendrogram, and choosing the cut height defensibly",
+        "DBSCAN: density-based clusters of arbitrary shape, the epsilon and minimum points parameters, and the ability to label points as noise",
+        "Louvain Clustering and Self-Organizing Map as further approaches, and Interactive k-Means from the Educational add-on for stepping through the algorithm",
+        "Profiling clusters into an interpretation: describing each group by its distinguishing features so the result means something to a domain reader"
+      ],
+      "projects": [
+        "Cluster one dataset with k means, hierarchical clustering and DBSCAN, justify your chosen k or cut with silhouette evidence, and write a business-readable profile of every cluster you keep"
+      ],
+      "practice": "Run k means on uniformly random data and write the paragraph explaining why its clusters are meaningless.",
+      "assessment": "Your three-method comparison with silhouette evidence, plus interpretable profiles for each final cluster."
+    },
+    "week_18": {
+      "title": "Class 18: Dimensionality Reduction, Outliers and Association Rules",
+      "topics": [
+        "PCA: principal components as ordered directions of maximum variance, and using explained variance to choose how many to keep",
+        "The interpretability cost of PCA, and when a loading is still readable enough to explain",
+        "t-SNE, MDS and Manifold Learning for visualisation, with an explicit warning about over-reading distances between separated clusters in a t-SNE plot",
+        "Correspondence Analysis for categorical structure",
+        "Outliers: detection methods and the analyst's decision about whether an outlier is an error, a rare event, or the entire point of the study",
+        "The Associate add-on: frequent itemsets and association rules, with support, confidence and lift defined precisely",
+        "Reading association rules critically: high confidence with low lift is usually just a popular item, not a relationship"
+      ],
+      "projects": [
+        "Reduce a wide dataset with PCA, visualise it with t-SNE, then mine association rules on a transactional dataset and identify three rules that are genuinely informative by lift rather than merely frequent"
+      ],
+      "practice": "Cluster on raw features and on PCA components and compare silhouette scores and cluster interpretability.",
+      "assessment": "Your dimensionality reduction analysis plus three association rules with support, confidence and lift interpreted correctly."
+    },
+    "week_19": {
+      "title": "Class 19: Explainability and Fairness",
+      "topics": [
+        "Why explainability is now a requirement: examiners, regulators, clinicians and clients all ask why, and a score is not an answer",
+        "The Explain add-on: Explain Model for global feature attribution across the dataset",
+        "Explain Prediction and Explain Predictions: why this specific instance received this specific output",
+        "Permutation Importance: measuring a feature's contribution by breaking it and observing the damage",
+        "ICE plots for seeing how a prediction responds as one feature is varied across its range",
+        "Nomogram for logistic regression as a fully transparent alternative to post-hoc explanation",
+        "The Fairness add-on: auditing model behaviour across a sensitive attribute, and the fact that a fairness problem is usually a data problem"
+      ],
+      "projects": [
+        "Take your best model, produce a global explanation and three individual prediction explanations, run a permutation importance check, and audit the model across one sensitive attribute with a written finding"
+      ],
+      "practice": "Find one instance your model got confidently wrong and explain, from its attribution, why it failed.",
+      "assessment": "Your explainability report including global attribution, three instance-level explanations, and the fairness audit finding."
+    },
+    "week_20": {
+      "title": "Class 20: Text Mining and Document Analysis",
+      "topics": [
+        "Installing add-ons through Options then Add-ons, and what the Text add-on contributes to the toolbox",
+        "Corpus, Import Documents and Create Corpus: loading documents as data, including a folder of your own files",
+        "Preprocess Text in detail: transformation, tokenisation, normalisation with stemming or lemmatisation, stop word and lexicon filtering, and n-grams",
+        "Bag of Words with term frequency and TF-IDF weighting, and what a bag of words representation discards",
+        "Document Embedding as the modern alternative, and when it beats a bag of words",
+        "Analysis widgets: Word Cloud, Concordance, Statistics, Word Enrichment, Extract Keywords and Duplicate Detection",
+        "Topic Modelling and Corpus Viewer, plus Sentiment Analysis with an honest account of its failure modes on sarcasm, negation and mixed-language text"
+      ],
+      "projects": [
+        "Build an end to end text pipeline: load a corpus, preprocess it deliberately, represent it with both bag of words and embeddings, classify or topic-model it, and evaluate the two representations against each other under identical validation"
+      ],
+      "practice": "Rerun your pipeline with stemming, with lemmatisation and with neither, and tabulate the effect on your metric.",
+      "assessment": "Your text mining report comparing both representations, with named topics or a validated classifier and its limitations."
+    },
+    "week_21": {
+      "title": "Class 21: Time Series and Spatial Data",
+      "topics": [
+        "The Time Series add-on: As Timeseries for converting a table, Line Chart, and Yahoo Finance for pulling market data",
+        "Why time series breaks the rules you learned: rows are not independent, so ordinary shuffled cross validation leaks the future into the past",
+        "Interpolate, Moving Transform and Seasonal Adjustment: filling gaps, computing rolling statistics, and separating trend, seasonality and remainder",
+        "Correlogram and Periodogram: autocorrelation and periodicity, and finding the cycle length in real data",
+        "ARIMA Model and VAR Model: univariate and multivariate forecasting, with Model Evaluation for out-of-sample assessment",
+        "Granger Causality read carefully: predictive precedence is not causation, whatever the widget is called",
+        "The Geo add-on and the Network add-on named and demonstrated for spatial and relational project data"
+      ],
+      "projects": [
+        "Take a real time series, decompose it, identify its dominant period, fit an ARIMA model, evaluate it out of sample against a naive last-value baseline, and state honestly whether the model beat the baseline"
+      ],
+      "practice": "Demonstrate the leakage caused by shuffled cross validation on time series data and quantify how much it inflates the score.",
+      "assessment": "Your forecasting workflow with an out-of-sample evaluation and an explicit comparison against the naive baseline."
+    }
+  },
+  "phase_5_python_bridge_and_capstone": {
+    "title": "Phase 5: The Python Bridge and Capstone",
+    "description": "Classes 22 to 24. Leave the course able to work in both worlds. Orange is a Python library, so the last phase connects the canvas to code, sets the ethical standard for the work, and produces a capstone that reproduces on a machine that is not yours.",
+    "week_22": {
+      "title": "Class 22: The Python Script Widget and Orange as a Library",
+      "topics": [
+        "Orange3 as a Python package installable from the Python Package Index, with a current Python version required for the pip installation route",
+        "The Python Script widget: running real Python inside the canvas when no existing widget does what you need",
+        "The widget's namespace: in_data, in_distance, in_learner, in_classifier and in_object arrive from the input signals, and are None when nothing is connected",
+        "Returning results to the canvas so a script sits in the middle of a workflow rather than at the end of it",
+        "The Orange.data.Table object and how it maps onto the pandas DataFrame most students will meet next",
+        "The concept map from Orange to scikit-learn: learner to estimator, Test and Score to cross_val_score, Preprocess to Pipeline, Parameter Fitter to GridSearchCV",
+        "Choosing the right tool honestly: canvas for exploration, comparison and communication, code for automation, scale and version control"
+      ],
+      "projects": [
+        "Insert a Python Script widget into an existing workflow to compute something no widget provides, pass the result downstream, and write the equivalent scikit-learn outline for one pipeline you built earlier in the course"
+      ],
+      "practice": "Map five widgets you used this course onto their scikit-learn equivalents in a written table.",
+      "assessment": "Your working Python Script integration plus the Orange to scikit-learn concept map."
+    },
+    "week_23": {
+      "title": "Class 23: Build and Defend Your Capstone",
+      "topics": [
+        "Scoping a capstone that is answerable: a specific question, an obtainable dataset, a defined target and a stated success criterion",
+        "Sourcing data responsibly: open government portals, research repositories, Kaggle and institutional data, with the licence and any consent conditions checked and recorded",
+        "Applying the full pipeline discipline: data dictionary, cleaning log, engineered feature log, registered evaluation protocol, held-out set",
+        "Beating the baseline, and the professional willingness to report that the sophisticated approach did not win",
+        "Threats to validity written before the conclusion: sample bias, leakage, confounding, temporal drift and generalisation limits",
+        "Mentor review checkpoint: an instructor interrogates your canvas the way an examiner will, step by step",
+        "Assembling the deliverable folder: .ows workflow, raw data, README with rerun instructions, and the report"
+      ],
+      "projects": [
+        "Build your complete capstone from raw data to evaluated model and written conclusion, defended live in a mentor review that challenges every methodological choice"
+      ],
+      "practice": "Have a classmate rerun your capstone folder on their own machine and log every step that failed.",
+      "assessment": "A capstone that reproduces from raw data in a clean session on someone else's machine, plus your threats-to-validity section."
+    },
+    "week_24": {
+      "title": "Class 24: Report, Present and Continue",
+      "topics": [
+        "Assembling the final report: question, data and provenance, method, evidence, results with uncertainty, threats to validity, and conclusion",
+        "Exporting for the audience you have: PDF for submission, and .report so a reviewer can reopen the workflow behind every figure",
+        "Presenting under questioning: leading with the question and the answer, defending the method, and saying clearly when something is unknown",
+        "The interview and viva questions this course prepares you for: why that validation design, why that metric, how did you rule out leakage, why should the model be believed",
+        "Portfolio assembly: 24 reproducible workflows plus the capstone, organised so a reviewer can open any one and follow it",
+        "Continuing paths: Python with pandas and scikit-learn, statistics and experimental design, and further Orange add-ons including Bioinformatics, Single-Cell, Spectroscopy, Survival Analysis and Network",
+        "Staying current with the tool: the official Orange documentation, workflow examples and video lessons, and the open source repository itself"
+      ],
+      "projects": [
+        "Present your capstone under live questioning, submit the exported report and complete portfolio, and receive written feedback plus your certificate assessment"
+      ],
+      "practice": "Write the one page project proposal for your next analysis, including its question, data source, evaluation protocol and baseline.",
+      "assessment": "Your defended presentation, exported report and 24-workflow portfolio, assessed on methodological rigour as much as on results."
+    }
+  },
+  "prerequisites": {
+    "device": "A laptop or desktop running Windows, macOS or Linux capable of installing Orange, with a stable internet connection for live classes and for the server-based image and text embedders",
+    "coding_experience": "None required. The entire course can be completed without writing code. Students who already know Python get more from Class 22, where the Python Script widget and the Orange to scikit-learn concept map are covered, but nothing earlier depends on it",
+    "maths_background": "Comfort with school-level statistics, averages, percentages, basic probability and reading a graph. Every further concept, from cross validation to regularisation to silhouette scores, is taught in the course at the point it is needed",
+    "accounts": "No account is required. Orange is free and open source software you download and run locally, and the add-ons used in this course install free from inside the application",
+    "mindset": "Willingness to be wrong in public: to report that your model lost to the baseline, to state your limitations before someone else finds them, and to rerun your own work from scratch to prove it holds"
+  },
+  "who_is_this_for": {
+    "cs_and_engineering_students": "Undergraduates with a data mining, machine learning or data warehousing paper who want to actually practise the syllabus rather than memorise algorithm names for an exam",
+    "final_year_project_students": "Students building a project, dissertation or research paper who need a defensible methodology and a workflow that reproduces under scrutiny",
+    "non_cs_students_with_data": "Students in statistics, economics, commerce, psychology, biology, biotechnology and public health who have real data and a real question but no interest in a six week detour through Python syntax",
+    "career_switchers_and_graduates": "Graduates preparing for data analyst and junior data science interviews who need the method questions, validation, metrics, leakage and explainability, answered with confidence",
+    "students_who_will_learn_python_next": "Anyone planning to learn pandas and scikit-learn who wants the modelling and evaluation concepts secure first, so only the syntax is new"
+  },
+  "career_paths_after_completion": [
+    "Data Analyst and Business Analyst roles, where cleaning, exploration, validation and clear reporting are the daily work",
+    "Junior Data Scientist and Machine Learning Analyst positions, entered with genuine evaluation and explainability discipline",
+    "Research Assistant and academic project work in bioinformatics, public health, social science, economics and environmental science",
+    "Business Intelligence and Reporting Analyst roles, building on the aggregation, visualisation and reporting work in this course",
+    "A prepared transition into Python-based data science, since every concept maps directly onto pandas and scikit-learn"
+  ],
+  "salary_expectations": {
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "early_career_roles": "₹3-5 LPA (Junior Analyst); ₹5-8 LPA (Data Analyst)",
+    "growing_roles": "₹8-15 LPA (Senior Analyst)",
+    "other_roles": "₹15-25+ LPA (Lead/Manager)",
+    "freelance": "₹500-2,000/hour",
+    "international": "$50k-100k+ USD"
+  },
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "additional_learning_resources": {
+    "total_projects_built": "24 reproducible workflows, one per class, plus a capstone project that reruns from raw data on another person's machine",
+    "projects_throughout_course": [
+      "Phase 1: a live-pipeline demonstration, a corrected dataset with a full data dictionary, an annotated cleaning log with before and after counts, a multi-table entity-level dataset, and a reproducible project folder a classmate reran successfully",
+      "Phase 2: a complete univariate profile with three testable hypotheses, a multi-method feature ranking with reconciled disagreements, a multicollinearity report with coefficient evidence, a measured feature engineering log, and an exported EDA report",
+      "Phase 3: a registered evaluation protocol with dual baselines, a tuned tree and CN2 rule set with extracted logic, a regularised regression comparison, a full evaluation dossier with a cost-justified threshold, a learner tournament with a model selection memo, and a held-out tuned result with a four-point leakage audit",
+      "Phase 4: a three-method clustering study with silhouette evidence and readable cluster profiles, a PCA and t-SNE reduction with lift-interpreted association rules, an explainability report with a fairness audit, a two-representation text mining comparison, and an out-of-sample ARIMA forecast tested against a naive baseline",
+      "Phase 5: a Python Script widget integrated mid-workflow with an Orange to scikit-learn concept map, and the capstone: reproducible folder, threats to validity, exported report and a presentation defended under questioning",
+      "Total: 24 reproducible workflows plus a capstone that survives being rerun by someone else"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live classes per week, about 1 hour each, across 12 weeks",
+      "hands_on_canvas_work": "2 hours rebuilding each class workflow on your own project dataset, not only on the class example",
+      "project_time": "1.5 hours on the class deliverable, from cleaning logs and evaluation dossiers to the capstone build",
+      "review_and_doubts": "1 hour reviewing results against your registered protocol, checking for leakage, and clearing doubts before the next class"
+    },
+    "certification": {
+      "completion_certificate": "Modern Age Coders 'Orange Data Mining for College' certificate, earned by defending your Class 24 capstone",
+      "project_portfolio": "24 reproducible .ows workflows plus a capstone folder containing the workflow, raw data and a README with rerun instructions",
+      "presented_report": "An exported Orange report (PDF and .report) covering question, method, evidence, results and threats to validity"
+    },
+    "skills_mastered": [
+      "Reproducible Workflow Engineering: canvas discipline, channel selection, annotated .ows workflows, project folders with README rerun instructions",
+      "Data Engineering in Orange: File and CSV File Import, SQL Table, Edit Domain, Impute, Select Columns and Rows, Merge Data, Concatenate, Group by, Aggregate Columns, Pivot Table and Formula",
+      "Exploratory Analysis: Distributions, Box and Violin Plot, Scatter Plot with informative projections, Rank across multiple scoring methods, Correlations, Heat Map, Distances and Distance Map",
+      "Feature Engineering: derived and interaction features, Discretize, Continuize, Create Class, and measured with-and-without validation of every candidate feature",
+      "Classification and Regression: Constant and Feature as Predictor baselines, Tree, CN2 Rule Induction, Scoring Sheet, kNN, Naive Bayes, Linear and Logistic Regression with regularisation, PLS, SVM, Random Forest, Gradient Boosting, AdaBoost, Neural Network and Stacking",
+      "Rigorous Evaluation: Test and Score validation designs, Confusion Matrix with stated error costs, ROC Analysis, Performance Curve, Calibration Plot and Calibrated Learner, Parameter Fitter tuning, Permutation Plot, and a working catalogue of leakage types",
+      "Unsupervised Learning: k Means with silhouette selection, Hierarchical Clustering, DBSCAN, Louvain, Self-Organizing Map, PCA, t-SNE, MDS, Manifold Learning, Correspondence Analysis, Outliers and association rule mining",
+      "Explainability and Fairness: Explain Model, Explain Prediction, Permutation Importance, ICE, Nomogram, and auditing across a sensitive attribute",
+      "Specialised Data: Corpus, Preprocess Text, Bag of Words with TF-IDF, Document Embedding, Topic Modelling, Sentiment Analysis, As Timeseries, Seasonal Adjustment, Correlogram, Periodogram, ARIMA and VAR",
+      "The Python Bridge: the Python Script widget with its in_data namespace, Orange3 as a Python package, and the concept map onto pandas and scikit-learn"
+    ],
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes for installation, add-on, dataset and workflow problems",
+      "small_batches": "Small batches, with mini-batch and 1-on-1 options, so your own project dataset gets attention every week",
+      "mentor_guidance": "Live guidance from mentors who build and evaluate models professionally, including an interrogation-style capstone review",
+      "project_feedback": "Feedback on every deliverable, graded on methodology, reproducibility and honest reporting as much as on performance",
+      "living_syllabus": "Curriculum updated as Orange ships new versions, widgets and add-ons, at no extra cost"
+    },
+    "orange_official_site": "Orange Data Mining, the official home of the software, with downloads for Windows, macOS and Linux: https://orangedatamining.com",
+    "orange_widget_catalog": "The official widget catalogue documenting every core widget used in this course: https://orangedatamining.com/widget-catalog/",
+    "orange_documentation": "Orange visual programming documentation, including the Report system and every widget reference: https://orange3.readthedocs.io/projects/orange-visual-programming/en/latest/",
+    "orange_python_package": "Orange3 on the Python Package Index, for installing Orange into a Python environment and using it as a library: https://pypi.org/project/Orange3/",
+    "orange_workflow_examples": "Official example workflows you can download and open on your own canvas: https://orangedatamining.com/examples/",
+    "orange_source_code": "The Orange3 source code on GitHub, open to read and to contribute to: https://github.com/biolab/orange3",
+    "orange_citation": "How to cite Orange in a paper, dissertation or project report: https://orangedatamining.com/citation/"
+  },
+  "why_this_course": {
+    "syllabus_versus_practice": "Data mining is taught in most degrees as a vocabulary test: name the algorithm, state the formula, pass the paper. Almost nobody graduates having actually cleaned a hostile dataset, defended an imputation choice, or been caught by leakage and had to explain it. This course spends every one of its 24 classes on the practice, and produces an artefact each time that you can be questioned on.",
+    "validation_is_the_real_skill": "Any student can produce a high accuracy number. The employable skill is knowing when that number is an artefact: a baseline that was never established, a preprocessing step fitted outside the validation loop, a tuning run that quietly consumed the test set, a temporal split that leaked the future. Those four failures are taught, demonstrated deliberately, and audited in your own work.",
+    "no_syntax_tax": "Removing the syntax barrier is not a shortcut, it is a reallocation. Time that a code-first course spends on environment setup, indentation errors and library versions is spent here on method, comparison and interpretation. Students reach cross validation in the third week rather than the third month, and cover association rules, explainability and time series that a first course usually never reaches.",
+    "free_and_citable": "Orange is open source under the GNU GPL version 3 or later, developed at the Bioinformatics Laboratory of the University of Ljubljana, and it is citable in academic work. Your final year project does not depend on a student licence that expires, and your workflows keep running on your own machine after graduation.",
+    "a_bridge_to_code": "Orange is written in Python and installs from PyPI, and the Python Script widget runs real Python inside the canvas. Class 22 maps every Orange concept onto its scikit-learn equivalent, so moving to pandas and scikit-learn later is a change of interface, not a restart."
+  },
+  "faqs": [
+    {
+      "question": "Is Orange serious enough for a college level data mining course?",
+      "answer": "Yes. Orange is developed at the Bioinformatics Laboratory, Faculty of Computer and Information Science, University of Ljubljana, has been in development since 1996, and was built in part for teaching machine learning and data mining to university students. It runs standard algorithms including trees, kNN, naive Bayes, SVM, random forests, gradient boosting and neural networks, evaluates them with proper cross validation and ROC analysis, and is written in Python so the same models are available as code. It is also citable, which matters for project reports."
+    },
+    {
+      "question": "Do I need to know Python before starting?",
+      "answer": "No. The full 24 classes can be completed without writing a line of code, because analysis is built by connecting widgets. Class 22 is dedicated to the Python bridge, where the Python Script widget runs real Python inside a workflow and every Orange concept is mapped onto its scikit-learn equivalent, so students who already code get extra value there and students who do not are not disadvantaged anywhere else."
+    },
+    {
+      "question": "Will this cover my university data mining syllabus?",
+      "answer": "It covers the standard ground: data preprocessing and cleaning, exploratory analysis, feature engineering, classification, regression, model evaluation, clustering, dimensionality reduction, association rule mining, text mining and time series, plus explainability and fairness which many syllabi have only recently added. It teaches these as practice rather than as definitions, so it complements exam preparation rather than replacing your notes. Bring your syllabus to the free demo class and we will map it against the 24 classes."
+    },
+    {
+      "question": "Can I use this for my final year project or dissertation?",
+      "answer": "That is exactly what Phase 5 is built for. Classes 23 and 24 take you from scoping a defensible question through data sourcing with licence checks, a registered evaluation protocol, a held-out set, a threats-to-validity section, and a mentor review conducted like a viva. The standard for the capstone is that it reproduces from the raw data file in a clean session on a machine that is not yours."
+    },
+    {
+      "question": "How is this different from a Python data science course?",
+      "answer": "A Python course spends its early weeks on syntax, environments and library APIs, which is necessary but expensive. This course removes that overhead and spends the time on method instead, so it goes further into validation design, leakage, explainability, association rules and time series than a first code course usually reaches. It is designed to be taken before or alongside Python, not instead of it, and Class 22 exists specifically to make the transition short."
+    },
+    {
+      "question": "Is Orange free, and does anything expire?",
+      "answer": "Orange is free and open source software released under the GNU General Public License version 3 or later. There is no subscription, no trial clock and no student licence. It runs on Windows, macOS and Linux, and the add-ons used in this course install free from inside the application under Options then Add-ons. Everything you build keeps working after the course ends."
+    },
+    {
+      "question": "What add-ons does the course install, and are they hard to set up?",
+      "answer": "We install them together in class from Options then Add-ons. The course uses Text for corpus analysis, Image Analytics where relevant, Time Series for temporal data, Explain for model interpretation, Associate for rule mining, and introduces Educational, Geo, Network and Fairness. All are free. The text and image embedders that run on a server need a working internet connection, which we flag before those classes."
+    },
+    {
+      "question": "Do I need my own dataset?",
+      "answer": "Not to start. Orange ships with example datasets and the Datasets widget offers more, and every class provides a working dataset. From Phase 2 onward we strongly encourage you to run each class a second time on a dataset from your own field or project, because the course is far more useful when the capstone is something you actually needed to answer."
+    },
+    {
+      "question": "What will I be able to do in an interview after this?",
+      "answer": "Answer the method questions that separate candidates: why that validation design, what the confusion matrix costs in this domain, how you ruled out leakage, why you chose that operating threshold, which features drove the prediction and how you know. You will also have a portfolio of 24 reproducible workflows plus a defended capstone to show, rather than a certificate on its own."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "orange-data-mining-visual-machine-learning-course-for-teens",
+      "title": "Orange Data Mining Course for Teens",
+      "description": "The same visual canvas pitched at ages 13 to 18, from first widget to a science fair ready capstone project"
+    },
+    {
+      "slug": "data-science-complete-masterclass-college",
+      "title": "Data Science Complete Masterclass for College",
+      "description": "The code-first companion: the same modelling and evaluation ideas written in Python with pandas and scikit-learn"
+    },
+    {
+      "slug": "data-analysis-mastery-course-college",
+      "title": "Data Analysis Mastery Course for College",
+      "description": "Broaden into the analyst toolkit with Excel, SQL and Python alongside the data mining methods you learned here"
+    }
+  ]
+}
