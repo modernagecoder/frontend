@@ -282,6 +282,12 @@
   var $ = function (id) { return document.getElementById(id); };
   var esc = B.escapeHtml;
 
+  function ordinal(n) {
+    var s = ['th', 'st', 'nd', 'rd'];
+    var v = n % 100;
+    return n + (s[(v - 20) % 10] || s[v] || s[0]);
+  }
+
   /* ---------------------------------------------------------------- join -- */
 
   // Deep link: /battle?code=ABC123 lets the host share one clickable link.
@@ -496,7 +502,8 @@
         badge.textContent = 'Not submitted';
       } else if (work.verdict === 'correct') {
         badge.className = 'pill pill-correct';
-        badge.textContent = '✓ Correct · +' + work.pointsAwarded;
+        badge.textContent = '✓ Correct · +' + (work.pointsAwarded + (work.speedBonus || 0)) +
+          (work.speedBonus ? ' (' + ordinal(work.speedRank) + ', +' + work.speedBonus + ' fast)' : '');
       } else if (work.verdict === 'wrong') {
         badge.className = 'pill pill-wrong';
         badge.textContent = '✗ Not quite';
@@ -1171,7 +1178,13 @@
             (correct ? 'var(--cyan-hi)' : '#ff8bbd') + '">' +
             (correct ? 'Correct' : 'Not quite') + '</h2>' +
           (correct
-            ? '<p class="mut">+' + work.pointsAwarded + ' points</p>'
+            ? '<p class="mut">+' + (work.pointsAwarded + (work.speedBonus || 0)) + ' points</p>' +
+              // The bonus is the reward for being fast, so say so plainly —
+              // silently adding 5 points teaches nobody anything.
+              (work.speedBonus
+                ? '<p class="pill pill-live" style="display:inline-flex;margin-top:.6rem">' +
+                  ordinal(work.speedRank) + ' to solve it · +' + work.speedBonus + ' speed bonus</p>'
+                : '')
             : '<p class="mut">No points for this one — keep going.</p>') +
           (work.markNote
             ? '<div class="panel" style="margin-top:1rem;text-align:left">' +

@@ -409,6 +409,7 @@
     var screenUrl = location.origin + '/battle-screen?code=' + b.code;
 
     $('tabbody').innerHTML =
+      nextStepPanel(d, b) +
       '<div class="grid3" style="margin-bottom:1.1rem">' +
         stat(d.counts.joined, 'joined') + stat(d.counts.online, 'online') +
         stat(d.counts.submittedThisRound, 'submitted') +
@@ -481,6 +482,7 @@
         .then(function () { $('a-msg').value = ''; });
     });
     bind('a-csv', downloadCsv);
+    wireNextStep();
 
     Array.prototype.forEach.call(document.querySelectorAll('[data-copy]'), function (el) {
       el.addEventListener('click', function () {
@@ -512,8 +514,129 @@
       bind('r-cut-' + r.index, function () {
         act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/extend', { seconds: -60 }), '−1 minute');
       });
+      bind('r-plus30-' + r.index, function () {
+        act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/extend', { seconds: 30 }), '+30 seconds');
+      });
+      bind('r-plus5-' + r.index, function () {
+        act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/extend', { seconds: 300 }), '+5 minutes');
+      });
+      bind('r-setgo-' + r.index, function () {
+        var box = $('r-set-' + r.index);
+        var mins = Number(box.value);
+        if (!(mins > 0)) return toast('Type how many minutes should be left.', 'warn');
+        act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/extend',
+          { setRemaining: Math.round(mins * 60) }), mins + ' minutes left');
+      });
       bind('r-sweep-' + r.index, function () {
         act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/sweep-drafts'), 'Unsubmitted drafts collected');
+      });
+    });
+  }
+
+  /**
+   * ONE BUTTON, SAYING EXACTLY WHAT HAPPENS NEXT.
+   *
+   * The per-round Start buttons below are still there for jumping around, but a
+   * host running a live room in front of thirty teenagers should not have to
+   * work out which of six controls is the right one. This is always the next
+   * step, named for what it does: "Let's begin Round 2", not "Start".
+   *
+   * Nothing here is automatic. A round begins when the host presses the button
+   * and not before, which is the point — the previous round's marking can take
+   * as long as it takes.
+   */
+  function nextStepPanel(d, b) {
+    var rounds = b.rounds || [];
+    var step = null;
+
+    if (b.status === 'draft') {
+      step = { id: 'ns-lobby', label: 'Open the lobby', hint: 'Students can join once this is open. Nothing starts yet.' };
+    } else if (b.pausedAt) {
+      step = { id: 'ns-resume', label: 'Resume', hint: 'Everything is frozen. This picks up exactly where it stopped.' };
+    } else {
+      var running = rounds.filter(function (r) { return r.status === 'running'; })[0];
+      var grading = rounds.filter(function (r) { return r.status === 'grading'; })[0];
+
+      if (running) {
+        step = {
+          id: 'ns-end-' + running.index,
+          label: 'End ' + shortRound(running) + ' now',
+          hint: 'Or let the clock run out — it ends by itself either way.',
+          quiet: true
+        };
+      } else if (grading) {
+        var pending = d.counts.pendingGrading;
+        step = pending
+          ? { id: 'ns-grade', label: 'Mark ' + pending + ' submission' + (pending === 1 ? '' : 's'),
+              hint: shortRound(grading) + ' is closed. Students are waiting on your verdicts.' }
+          : { id: 'ns-close-' + grading.index, label: 'Finalise ' + shortRound(grading),
+              hint: 'Everything is marked. This locks the round and banks the scores.' };
+      } else {
+        var next = rounds.filter(function (r) { return r.status === 'pending'; })[0];
+        if (next) {
+          var ready = (next.questions || []).some(function (q) { return q.active; });
+          step = ready
+            ? { id: 'ns-start-' + next.index, label: "Let's begin " + shortRound(next),
+                hint: next.type === 'debate'
+                  ? 'This pairs everyone up and starts the first turn.'
+                  : 'Everyone sees the questions the moment you press this.' }
+            : { id: 'ns-questions', label: 'Add questions to ' + shortRound(next),
+                hint: 'It cannot start with nothing in it.' };
+        } else if (b.status !== 'finished') {
+          step = { id: 'ns-finish', label: 'Finish the battle',
+                   hint: 'Publishes the final leaderboard to every screen.', danger: true };
+        }
+      }
+    }
+
+    if (!step) {
+      return '<div class="item" style="margin-bottom:1.1rem;text-align:center">' +
+        '<strong>This battle is finished.</strong>' +
+        '<p class="faint" style="font-size:.82rem;margin-top:.25rem">' +
+        'Download the results from the Leaderboard tab.</p></div>';
+    }
+
+    return '<div class="item between" style="margin-bottom:1.1rem;' +
+        'border-color:var(--line2);background:rgba(168,85,247,.08)">' +
+      '<div class="grow" style="min-width:0">' +
+        '<p class="kicker" style="margin-bottom:.25rem">Next</p>' +
+        '<p class="faint" style="font-size:.82rem">' + esc(step.hint) + '</p>' +
+      '</div>' +
+      '<button class="btn ' + (step.quiet ? 'btn-wrong' : step.danger ? 'btn-wrong' : 'btn-go') +
+        '" id="' + step.id + '" style="font-size:.95rem;padding:.8rem 1.4rem">' +
+        esc(step.label) + '</button>' +
+    '</div>';
+  }
+
+  function shortRound(r) { return 'Round ' + r.index; }
+
+  function wireNextStep() {
+    bind('ns-lobby',  function () { act(api('POST', '/' + app.battleId + '/open-lobby'), 'Lobby is open'); });
+    bind('ns-resume', function () { act(api('POST', '/' + app.battleId + '/resume'), 'Resumed'); });
+    bind('ns-grade',  function () { app.tab = 'grading'; app.gradeFilter = 'pending'; paint(); });
+    bind('ns-questions', function () { app.tab = 'questions'; paint(); });
+    bind('ns-finish', function () {
+      areYouSure('This publishes the final leaderboard to every student and the projector. Nothing after this counts.',
+        'Finish battle').then(function (yes) {
+          if (yes) act(api('POST', '/' + app.battleId + '/finish'), 'Battle finished');
+        });
+    });
+
+    (app.data.battle.rounds || []).forEach(function (r) {
+      bind('ns-start-' + r.index, function () {
+        var mins = $('r-mins-' + r.index);
+        var body = {};
+        if (mins && Number(mins.value) > 0) body.durationSec = Math.round(Number(mins.value) * 60);
+        act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/start', body),
+          'Round ' + r.index + ' is live');
+      });
+      bind('ns-end-' + r.index, function () {
+        act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/end'),
+          'Round ' + r.index + ' closed for marking');
+      });
+      bind('ns-close-' + r.index, function () {
+        act(api('POST', '/' + app.battleId + '/rounds/' + r.index + '/close'),
+          'Round ' + r.index + ' finalised');
       });
     });
   }
@@ -544,8 +667,17 @@
                 'min</label>') +
             '<button class="btn btn-go btn-sm" id="r-start-' + r.index + '"' +
             (questions ? '' : ' disabled title="Add a question first"') + '>Start</button>' : '') +
-        (live ? '<button class="btn btn-sm" id="r-ext-' + r.index + '">+1 min</button>' +
+        // Live clock control. The relative nudges are for small corrections;
+        // "set to" is for when something went wrong and you want the room back
+        // on a round number.
+        (live ? '<button class="btn btn-sm" id="r-plus30-' + r.index + '">+30s</button>' +
+                '<button class="btn btn-sm" id="r-ext-' + r.index + '">+1 min</button>' +
+                '<button class="btn btn-sm" id="r-plus5-' + r.index + '">+5 min</button>' +
                 '<button class="btn btn-sm" id="r-cut-' + r.index + '">−1 min</button>' +
+                '<label class="row" style="gap:.3rem;font-size:.76rem;color:var(--faint)">' +
+                  '<input class="field" id="r-set-' + r.index + '" type="number" min="1" max="180" ' +
+                    'placeholder="set" style="width:3.8rem;padding:.32rem .4rem;font-size:.8rem;text-align:center">' +
+                  '<button class="btn btn-sm" id="r-setgo-' + r.index + '">min left</button></label>' +
                 '<button class="btn btn-wrong btn-sm" id="r-end-' + r.index + '">End now</button>' : '') +
         (r.status === 'grading'
           ? '<button class="btn btn-sm" id="r-sweep-' + r.index + '">Collect drafts</button>' +
