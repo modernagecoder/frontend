@@ -55,6 +55,22 @@
            word-break: break-word; background: #050210; border: 1px solid var(--line);
            border-radius: var(--r-sm); padding: .8rem .9rem; max-height: 420px; overflow: auto; }
 
+  /**
+   * A STUDENT'S ANSWER IS NEVER PUT IN A SCROLL BOX.
+   *
+   * The modal already scrolls (max-height:88vh), so a scrolling <pre> inside it
+   * is a nested scroll area — and the inner one is where the last lines of a
+   * long answer go to hide. The host was marking code whose ending they could
+   * not see. Answers grow to their full height and the page does the scrolling;
+   * the answer key and the debate transcript keep their caps, because those are
+   * reference material sitting beside the thing being read, not the thing
+   * itself.
+   */
+  .qbody-full { max-height: none; overflow: visible; }
+
+  .clipped { font-family: var(--mono); font-size: .68rem; color: var(--gold);
+             margin-top: .4rem; }
+
   .modal-back { position: fixed; inset: 0; z-index: 300; background: rgba(7,3,15,.86);
                 backdrop-filter: blur(8px); display: grid; place-items: center; padding: 1.1rem; }
   .modal { max-width: 720px; width: 100%; max-height: 88vh; overflow: auto; }
@@ -1158,7 +1174,11 @@
           '</div>' +
           (s.url ? '<p style="font-size:.82rem;margin-bottom:.5rem"><a href="' + esc(s.url) +
             '" target="_blank" rel="noopener" style="color:var(--cyan-hi)">' + esc(s.url) + '</a></p>' : '') +
-          '<pre class="qbody" style="max-height:120px">' + esc(s.preview) + '</pre>' +
+          '<pre class="qbody qbody-full">' + esc(s.preview) + '</pre>' +
+          (s.codeLength > s.preview.length
+            ? '<p class="clipped">… ' + (s.codeLength - s.preview.length) +
+              ' more characters — press “Open in full” to read the rest before marking.</p>'
+            : '') +
           '<div class="row wrap" style="margin-top:.6rem">' +
             '<button class="btn btn-right btn-sm" data-mark="' + s.sid + ':correct">✓ Correct</button>' +
             '<button class="btn btn-wrong btn-sm" data-mark="' + s.sid + ':wrong">✗ Wrong</button>' +
@@ -1226,7 +1246,7 @@
         (s.url ? '<p style="margin-bottom:.7rem"><a href="' + esc(s.url) + '" target="_blank" ' +
           'rel="noopener" style="color:var(--cyan-hi)">' + esc(s.url) + '</a></p>' : '') +
         '<label class="lbl">Their answer</label>' +
-        '<pre class="qbody">' + esc(s.code || s.description || '') + '</pre>' +
+        '<pre class="qbody qbody-full">' + esc(s.code || s.description || '') + '</pre>' +
         (q && q.expectedHint
           ? '<label class="lbl" style="margin-top:.9rem">Your answer key</label>' +
             '<pre class="qbody" style="max-height:160px">' + esc(q.expectedHint) + '</pre>' : '') +
