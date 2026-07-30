@@ -1,0 +1,87 @@
+{
+  "title": "Python logic (7) + the AI vs fundamentals debate",
+  "round1": [
+    {
+      "title": "Grade the marks",
+      "language": "python",
+      "points": 10,
+      "prompt": "Write grade(marks) returning a letter:\n\n  80 or more   -> \"A\"\n  60 to 79     -> \"B\"\n  40 to 59     -> \"C\"\n  below 40     -> \"F\"\n\nMarks below 0 or above 100 are impossible — return \"INVALID\".\n\n  grade(95)  -> \"A\"      grade(80)  -> \"A\"\n  grade(79)  -> \"B\"      grade(40)  -> \"C\"\n  grade(39)  -> \"F\"      grade(100) -> \"A\"\n  grade(101) -> \"INVALID\"   grade(-1) -> \"INVALID\"\n\nThink hard about the ORDER you check things in.",
+      "starterCode": "def grade(marks):\n    # your code here\n    pass\n\n\nprint(grade(95), grade(79), grade(40), grade(39), grade(101), grade(-1))\n",
+      "answerKey": "REFERENCE:\ndef grade(m):\n    if m < 0 or m > 100:\n        return \"INVALID\"\n    if m >= 80:   return \"A\"\n    elif m >= 60: return \"B\"\n    elif m >= 40: return \"C\"\n    else:         return \"F\"\n\nTESTING: order of conditions.\n\nMARK WRONG IF:\n- grade(95) returns \"C\". They checked >= 40 first, so everybody gets the lowest\n  passing grade. THIS IS THE TRAP — test 95 before anything else.\n- grade(101) returns \"A\". They classified before validating.\n- grade(80) is \"B\" or grade(40) is \"F\" — boundary off by one.\n- Separate ifs with no elif, returning the last match.\n\nCHECK: 95, 80, 40, 101."
+    },
+    {
+      "title": "Leap year",
+      "language": "python",
+      "points": 10,
+      "prompt": "A year is a leap year if it divides by 4.\nEXCEPT century years (divisible by 100), which are leap years only if they also divide by 400.\n\nSo 2024 is, 2023 is not, 1900 is NOT, 2000 IS.\n\nWrite is_leap(year) returning True or False.\n\n  is_leap(2024) -> True     is_leap(1900) -> False\n  is_leap(2023) -> False    is_leap(2000) -> True\n  is_leap(2100) -> False    is_leap(1600) -> True\n\nRULE: you may NOT use `and` or `or`. Nest your ifs.",
+      "starterCode": "def is_leap(year):\n    # no `and` / `or` — nest the conditions\n    pass\n\n\nfor y in [2024, 2023, 1900, 2000, 2100, 1600]:\n    print(y, is_leap(y))\n",
+      "answerKey": "REFERENCE:\ndef is_leap(y):\n    if y % 4 != 0:\n        return False\n    else:\n        if y % 100 != 0:\n            return True\n        else:\n            if y % 400 == 0:\n                return True\n            else:\n                return False\n\nTESTING: an exception inside an exception. Banning and/or is what forces them to\nsee the shape instead of copying a one-liner.\n\nMARK WRONG IF:\n- 1900 comes back True. That is the entire point — divides by 4, but is a century\n  year that does not divide by 400.\n- 2000 comes back False. They stopped at the century rule.\n- They used and/or anyway. Logic may be right; the exercise was the nesting.\n  Your call on partial credit.\n\nCHECK: 1900 and 2000. Nearly every wrong answer fails one of them."
+    },
+    {
+      "title": "What kind of triangle",
+      "language": "python",
+      "points": 10,
+      "prompt": "Given three side lengths, return:\n\n  \"NOT A TRIANGLE\"  if any side is >= the sum of the other two\n  \"EQUILATERAL\"     all three equal\n  \"ISOSCELES\"       exactly two equal\n  \"SCALENE\"         none equal\n\n  triangle(5,5,5) -> \"EQUILATERAL\"    triangle(3,4,5) -> \"SCALENE\"\n  triangle(5,5,8) -> \"ISOSCELES\"      triangle(1,2,3) -> \"NOT A TRIANGLE\"\n  triangle(8,5,5) -> \"ISOSCELES\"      triangle(2,2,4) -> \"NOT A TRIANGLE\"\n  triangle(5,8,5) -> \"ISOSCELES\"\n\nLook at (2,2,4). Two sides equal — and still not a triangle.",
+      "starterCode": "def triangle(a, b, c):\n    # your code here\n    pass\n\n\nprint(triangle(5,5,5), triangle(5,5,8), triangle(3,4,5))\nprint(triangle(1,2,3), triangle(2,2,4), triangle(5,8,5))\n",
+      "answerKey": "REFERENCE:\ndef triangle(a, b, c):\n    if a >= b + c: return \"NOT A TRIANGLE\"\n    if b >= a + c: return \"NOT A TRIANGLE\"\n    if c >= a + b: return \"NOT A TRIANGLE\"\n    if a == b:\n        if b == c: return \"EQUILATERAL\"\n        else:      return \"ISOSCELES\"\n    else:\n        if b == c: return \"ISOSCELES\"\n        else:\n            if a == c: return \"ISOSCELES\"\n            else:      return \"SCALENE\"\n\nTESTING: validity BEFORE classification, and that \"exactly two equal\" happens\nthree different ways.\n\nMARK WRONG IF:\n- triangle(2,2,4) returns \"ISOSCELES\". They classified before validating. TRAP.\n- triangle(5,8,5) returns \"SCALENE\". They compared a==b and b==c and forgot a==c.\n- triangle(5,5,5) returns \"ISOSCELES\". They tested two-equal before all-equal.\n- Only one of the three validity checks is present.\n\nCHECK: (2,2,4), (5,8,5), (5,5,5)."
+    },
+    {
+      "title": "Ticket price",
+      "language": "python",
+      "points": 10,
+      "prompt": "A museum charges by age:\n\n  under 5      free\n  5 to 17      100\n  18 to 59     250\n  60 and over  120\n\nOn a Sunday everyone gets 50 off — but a price can never go below 0.\nAge below 0 or above 120 -> \"INVALID\".\n\nWrite price(age, day) where day is like \"Monday\" or \"Sunday\".\n\n  price(3,\"Sunday\")  -> 0      price(17,\"Sunday\") -> 50\n  price(10,\"Monday\") -> 100    price(18,\"Sunday\") -> 200\n  price(10,\"Sunday\") -> 50     price(60,\"Sunday\") -> 70\n  price(30,\"Monday\") -> 250    price(-1,\"Monday\") -> \"INVALID\"",
+      "starterCode": "def price(age, day):\n    # your code here\n    pass\n\n\nprint(price(3,\"Sunday\"), price(10,\"Sunday\"), price(17,\"Sunday\"))\nprint(price(18,\"Sunday\"), price(30,\"Monday\"), price(60,\"Sunday\"), price(-1,\"Monday\"))\n",
+      "answerKey": "REFERENCE:\ndef price(age, day):\n    if age < 0:   return \"INVALID\"\n    if age > 120: return \"INVALID\"\n    if age < 5:   return 0\n    if age < 18:\n        base = 100\n    else:\n        if age < 60: base = 250\n        else:        base = 120\n    if day == \"Sunday\":\n        base = base - 50\n        if base < 0: base = 0\n    return base\n\nTESTING: two independent rules applied in the right order — pick the tier, THEN\ndiscount. Students who write one branch per (age, day) combination end up with\neight branches and a bug in one of them.\n\nMARK WRONG IF:\n- price(17,\"Sunday\") is 200, or price(18,\"Sunday\") is 50 — the 17/18 boundary.\n- The discount is applied before the tier is chosen, or applied twice.\n- price(3,\"Sunday\") is -50. Free must stay free; the floor at 0 is in the question.\n- 60 is treated as the 18-59 tier.\n\nCHECK: 17 Sunday, 18 Sunday, 3 Sunday."
+    },
+    {
+      "title": "Who wins",
+      "language": "python",
+      "points": 10,
+      "prompt": "Rock paper scissors. Return \"P1\", \"P2\" or \"DRAW\".\n\n  rock beats scissors · scissors beats paper · paper beats rock\n\nWrite winner(p1, p2). Both are \"rock\", \"paper\" or \"scissors\".\n\n  winner(\"rock\",\"scissors\")  -> \"P1\"\n  winner(\"rock\",\"paper\")     -> \"P2\"\n  winner(\"paper\",\"rock\")     -> \"P1\"\n  winner(\"scissors\",\"paper\") -> \"P1\"\n  winner(\"scissors\",\"rock\")  -> \"P2\"\n  winner(\"paper\",\"paper\")    -> \"DRAW\"\n\nThere are nine possible pairs. Do NOT write nine conditions — find the shape.",
+      "starterCode": "def winner(p1, p2):\n    # nine combinations. you should not need nine ifs.\n    pass\n\n\nmoves = [\"rock\", \"paper\", \"scissors\"]\nfor a in moves:\n    for b in moves:\n        print(a, \"vs\", b, \"->\", winner(a, b))\n",
+      "answerKey": "REFERENCE:\ndef winner(p1, p2):\n    if p1 == p2:\n        return \"DRAW\"\n    if p1 == \"rock\":\n        if p2 == \"scissors\": return \"P1\"\n        else:                return \"P2\"\n    if p1 == \"paper\":\n        if p2 == \"rock\":     return \"P1\"\n        else:                return \"P2\"\n    if p1 == \"scissors\":\n        if p2 == \"paper\":    return \"P1\"\n        else:                return \"P2\"\n\nTESTING: spotting that the draw case collapses three branches into one, and that\nonce a draw is ruled out each move beats exactly one thing — so the question is\n\"did P1 beat it, else P2 did\".\n\nMARK WRONG IF:\n- Draw missing or handled last, so rock vs rock returns \"P2\".\n- Any of the nine pairs is wrong. Their starter code prints the whole grid.\n- Nine separate conditions. It works, so not wrong — but they were asked to find\n  the shape. Your call.\n\nTHE GRID MUST SHOW exactly 3 DRAW, 3 P1, 3 P2. Count them."
+    },
+    {
+      "title": "State of the water",
+      "language": "python",
+      "points": 10,
+      "prompt": "Water is SOLID below 0, LIQUID from 0 up to its boiling point, GAS at or above it.\n\nBoiling point is normally 100 — BUT under high pressure (more than 2 atm) water boils at 120 instead.\n\nWrite state(temp, atm).\n\n  state(-5,1)   -> \"SOLID\"     state(110,3)   -> \"LIQUID\"\n  state(0,1)    -> \"LIQUID\"    state(120,3)   -> \"GAS\"\n  state(99,1)   -> \"LIQUID\"    state(100,2)   -> \"GAS\"\n  state(100,1)  -> \"GAS\"       state(100,2.5) -> \"LIQUID\"\n\nRead the last two carefully. Same temperature, different answer.",
+      "starterCode": "def state(temp, atm):\n    # the boiling point is not always 100\n    pass\n\n\nprint(state(-5,1), state(0,1), state(99,1), state(100,1))\nprint(state(110,3), state(120,3), state(100,2), state(100,2.5))\n",
+      "answerKey": "REFERENCE:\ndef state(temp, atm):\n    if atm > 2:\n        boil = 120\n    else:\n        boil = 100\n    if temp < 0:\n        return \"SOLID\"\n    else:\n        if temp < boil: return \"LIQUID\"\n        else:           return \"GAS\"\n\nTESTING: a condition that changes a THRESHOLD used by a later condition. The\nelegant answer decides the boiling point first and has one temperature check;\nthe clumsy one duplicates the whole ladder inside each pressure branch.\n\nMARK WRONG IF:\n- state(110,3) is \"GAS\". They ignored pressure entirely. MAIN TRAP.\n- state(100,2) is \"LIQUID\". The rule says MORE than 2, so exactly 2 still boils at 100.\n- state(0,1) is \"SOLID\". Zero is liquid.\n- state(120,3) is \"LIQUID\". At or above boiling is GAS.\n\nCHECK: (110,3), (100,2), (100,2.5). Duplicating the ladder is not wrong, just clumsy."
+    },
+    {
+      "title": "Do the two meetings clash",
+      "language": "python",
+      "points": 10,
+      "prompt": "Two meetings on the same day. Each has a start and an end hour (numbers; the end is always after the start).\n\nReturn \"CLASH\" if they overlap at all, \"OK\" if they do not.\nTouching is NOT a clash: 9-10 and 10-11 are fine.\n\nWrite clash(start1, end1, start2, end2).\n\n  clash(9,10, 10,11) -> \"OK\"       (they touch)\n  clash(9,11, 10,12) -> \"CLASH\"    (partly overlap)\n  clash(9,17, 12,13) -> \"CLASH\"    (second is inside the first)\n  clash(12,13, 9,17) -> \"CLASH\"    (first is inside the second)\n  clash(9,10, 11,12) -> \"OK\"       (clear gap)\n  clash(14,15, 9,10) -> \"OK\"       (given in the other order)\n\nRULE: you may NOT use `and` or `or`.\n\nHINT: listing every way two meetings CAN overlap takes four cases and you will\nmiss one. There are only TWO ways they can miss each other. Find those instead.",
+      "starterCode": "def clash(start1, end1, start2, end2):\n    # no `and` / `or`.\n    # how many ways can two meetings NOT overlap?\n    pass\n\n\nprint(clash(9,10,10,11), clash(9,11,10,12), clash(9,17,12,13))\nprint(clash(12,13,9,17), clash(9,10,11,12), clash(14,15,9,10))\n",
+      "answerKey": "REFERENCE:\ndef clash(s1, e1, s2, e2):\n    if e1 <= s2:\n        return \"OK\"\n    else:\n        if e2 <= s1:\n            return \"OK\"\n        else:\n            return \"CLASH\"\n\nTESTING: inverting the problem. This is the hardest question in the set and the\nonly one with a real insight in it — there are four ways to overlap and only two\nways to miss, so you check for the misses.\n\nMARK WRONG IF:\n- clash(9,17,12,13) or clash(12,13,9,17) returns \"OK\". They enumerated the overlap\n  cases and missed \"one entirely inside the other\". THIS IS THE TRAP — test both\n  of these first, they fail in opposite directions.\n- clash(9,10,10,11) returns \"CLASH\". They used < instead of <=; the question says\n  touching is fine.\n- clash(14,15,9,10) returns \"CLASH\". They only checked one direction and assumed\n  meeting 1 always starts first.\n- They used and/or. The one-line answer `s1 < e2 and s2 < e1` is correct but was\n  not the exercise.\n\nCHECK: (9,17,12,13), (12,13,9,17), (9,10,10,11), (14,15,9,10).\n\nA student who gets this one right by finding the two-misses shape has understood\nsomething worth more than the 10 points. Say so."
+    }
+  ],
+  "round2": [
+    {
+      "title": "AI speed vs knowing how to code",
+      "topic": "We should use AI tools to work faster, even if it means we learn less programming ourselves.",
+      "forHint": "You are arguing FOR using the tools. Real ground to stand on: what gets shipped is what counts, and a student with AI builds a working app in an afternoon that would have taken a term. Every generation of programmers gave up something the one before thought essential — assembly, memory management, jQuery. Nobody hand-writes machine code to prove they can. Ask the other side which skills they are willing to give up, and why theirs are sacred.",
+      "againstHint": "You are arguing AGAINST. Real ground to stand on: you cannot check work you do not understand. When the AI is confidently wrong — and it is — the person who knows what the code does finds it in a minute and the person who does not is stuck. Speed you cannot debug is a loan, not a gain. Push them on this: who fixes it at 2am, and how do you learn to judge output you were never able to produce?"
+    },
+    {
+      "title": "Prompting vs writing",
+      "topic": "A developer who prompts an AI well is more valuable than one who writes the code by hand.",
+      "forHint": "Arguing FOR. Value is measured in problems solved, not lines typed. Describing a problem precisely enough for an AI IS the hard skill, and it is the same skill as designing well. Ask them to name a job where the employer pays for typing.",
+      "againstHint": "Arguing AGAINST. A good prompt comes from knowing what a good answer looks like — which comes from having built things yourself. Prompting is a thin skill on top of a deep one, and it collapses without the depth. Ask how they would review a pull request they could not have written."
+    },
+    {
+      "title": "Learning with the tools switched off",
+      "topic": "Coding should be taught with AI tools switched off for the first two years.",
+      "forHint": "Arguing FOR the ban. Struggle is where learning happens; an answer handed to you teaches nothing you can reuse. We do not give calculators to a child learning arithmetic. Ask what they think a student actually retains from accepting a suggestion.",
+      "againstHint": "Arguing AGAINST the ban. Learning with the tools you will actually use is not cheating, it is realistic — and AI can explain a concept at your exact level, instantly, which no textbook does. Ask whether banning the tool teaches judgement about when to trust it, or just delays that lesson."
+    },
+    {
+      "title": "Nobody needs to understand it",
+      "topic": "If AI writes the code and the tests pass, nobody needs to understand how it works.",
+      "forHint": "Arguing FOR. We already trust code we did not write and cannot read — every library, every compiler, every operating system. If the tests pass and it ships, understanding is a preference, not a requirement. Ask them how much of their own stack they truly understand.",
+      "againstHint": "Arguing AGAINST. Tests only check what somebody thought to check. The bug nobody wrote a test for is exactly the one that costs you, and finding it needs understanding. There is also a difference between trusting a library thousands of people have read and trusting output generated for you alone, thirty seconds ago."
+    }
+  ]
+}

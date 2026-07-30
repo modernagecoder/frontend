@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/battle.css?v=2">
+<link rel="stylesheet" href="/css/battle.css?v=3">
 
 <style>
   .wrap { max-width: 1240px; margin: 0 auto; padding: 1.1rem; }
@@ -145,7 +145,7 @@
 
 <div id="modal-host"></div>
 
-<script src="/js/battle-client.js?v=2"></script>
+<script src="/js/battle-client.js?v=3"></script>
 <script>
 (function () {
   'use strict';
@@ -707,11 +707,12 @@
         '<div class="grow" style="min-width:0">' +
           '<strong style="font-size:.95rem">Upload a question file</strong>' +
           '<p class="faint" style="font-size:.8rem;margin-top:.2rem">' +
-            'Write all three rounds in one JSON file and load them in a single step ' +
-            'instead of typing each question.</p>' +
+            'Grab the ready-made pack — 7 Python logic questions with answer keys, plus ' +
+            'the AI-vs-fundamentals debate topics — then import it. Or write your own.</p>' +
         '</div>' +
         '<div class="row wrap">' +
-          '<button class="btn btn-sm btn-ghost" id="q-sample">Sample file</button>' +
+          '<button class="btn btn-sm btn-go" id="q-pack">Ready-made pack</button>' +
+          '<button class="btn btn-sm btn-ghost" id="q-sample">Blank sample</button>' +
           (totalQs ? '<button class="btn btn-sm btn-ghost" id="q-export">Export current</button>' : '') +
           '<button class="btn btn-sm btn-primary" id="q-import">Import JSON</button>' +
         '</div>' +
@@ -765,6 +766,7 @@
     });
 
     bind('q-import', importModal);
+    bind('q-pack', downloadPack);
     bind('q-sample', downloadSample);
     bind('q-export', function () {
       downloadAuthed('/' + app.battleId + '/questions/export',
@@ -807,6 +809,23 @@
       }
     ]
   };
+
+  /**
+   * Two ready-made files, so a host never starts from an empty form.
+   *
+   * The real one is the pack shipped in public/downloads — seven Python logic
+   * questions with answer keys, and the AI-vs-fundamentals debate topics. The
+   * inline SAMPLE is the minimal shape, for someone writing their own.
+   */
+  function downloadPack() {
+    var a = document.createElement('a');
+    a.href = '/downloads/battle-python-and-ai-debate.json';
+    a.download = 'battle-python-and-ai-debate.json';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    toast('Downloaded — import it straight back with Import JSON', 'success');
+  }
 
   function downloadSample() {
     var blob = new Blob([JSON.stringify(SAMPLE, null, 2)], { type: 'application/json' });
