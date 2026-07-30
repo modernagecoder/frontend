@@ -186,8 +186,13 @@ test('structured currency follows the region', function () {
     const src = '<script type="application/ld+json" data-price-scope="maths.international">' +
         '{"@type":"Offer","name":"Small-Group Cohort","price":"1","priceCurrency":"INR"}</script>';
     const out = stamp(src);
-    assert.ok(/"price":"100"/.test(out.html), 'price: ' + out.html);
-    assert.ok(/"priceCurrency":"USD"/.test(out.html), 'currency: ' + out.html);
+    // Read the expected figure from the config, so a price change is a config
+    // edit rather than a test edit.
+    const expected = cfgLib.resolve('maths.international.group', config).amount;
+    assert.ok(out.html.indexOf('"price":"' + expected + '"') !== -1,
+        'expected price ' + expected + ', got: ' + out.html);
+    assert.ok(/"priceCurrency":"USD"/.test(out.html),
+        'an international scope must publish USD, not the INR it started with: ' + out.html);
 });
 
 // ─── tier name lexicon ───

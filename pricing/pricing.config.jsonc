@@ -49,16 +49,16 @@
     // Maths currently costs the same as coding inside India. It is listed
     // separately on purpose, so you can change one without touching the other.
     "maths": {
-      "india":         { "group": 1499, "miniBatch": 2499, "personal": 4999, "lifetime": null },
-      "international": { "group": 100,  "miniBatch": null, "personal": 150,  "lifetime": null }
+      "india":         { "group": 1499,   "miniBatch": 2499, "personal": 4999,   "lifetime": null },
+      "international": { "group": 149.99, "miniBatch": null, "personal": 374.99, "lifetime": null }
     },
 
     // The premium Codex + Claude Code courses. Students run the real paid
     // agent tools on their own Claude / ChatGPT subscriptions, so these are
     // priced above everything else. Applied via courseOverrides below.
     "agents": {
-      "india":         { "group": 2499, "miniBatch": 4999, "personal": 9999, "lifetime": null },
-      "international": { "group": 100,  "miniBatch": null, "personal": 150,  "lifetime": null }
+      "india":         { "group": 2499,   "miniBatch": 4999, "personal": 9999,   "lifetime": null },
+      "international": { "group": 149.99, "miniBatch": null, "personal": 374.99, "lifetime": null }
     },
 
     // In-school bootcamp programmes (CBSE CS Practical, Informatics Practices,
@@ -140,7 +140,7 @@
       // both figures, so these are insurance rather than active constraints —
       // they bind only if the top price is lowered or a currency collapses.
       "minNetInr": {
-        "group":     3800,
+        "group":     3000,
         "personal":  9500,
         "miniBatch": null,
         "lifetime":  null,
