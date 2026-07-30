@@ -187,6 +187,45 @@ function checkPaymentCode() {
     });
 }
 
+/**
+ * Refuse to report success on an empty run.
+ *
+ * walk() returns [] for a directory that does not exist, so without this a
+ * fresh clone — or a build that runs verify before generate:all — would check
+ * nothing, accumulate no failures, and print a tick. content/courses/generated
+ * is gitignored, which makes that scenario ordinary rather than exotic. A
+ * verifier that cannot fail is worse than none, because it launders confidence.
+ */
+function assertCoverage() {
+    const dataDir = path.join(ROOT, 'content', 'courses', 'data');
+    const genDir = path.join(ROOT, 'content', 'courses', 'generated');
+
+    if (fs.existsSync(dataDir)) {
+        const sources = fs.readdirSync(dataDir)
+            .filter(function (f) { return /\.json$/.test(f) && f !== 'courses-config.json'; }).length;
+        const generated = fs.existsSync(genDir)
+            ? fs.readdirSync(genDir, { withFileTypes: true }).filter(function (e) { return e.isDirectory(); }).length
+            : 0;
+
+        if (generated === 0) {
+            failures.push('content/courses/generated is empty, so no course page was checked. ' +
+                'Run: npm run generate:courses  (in a build, pricing:verify must come after generate:all)');
+        } else if (generated < sources - 1) {
+            failures.push(sources + ' course sources but only ' + generated + ' generated pages. ' +
+                'Some courses were not built, so their prices went unchecked.');
+        }
+    }
+
+    if (filesChecked === 0) {
+        failures.push('Not one page carrying a price anchor was found. Either the tree is incomplete ' +
+            'or the anchors have been stripped. Refusing to report success on an empty check.');
+    }
+    if (schemaChecked === 0) {
+        failures.push('No structured-data offer was checked. The data-price-scope attributes are ' +
+            'missing from the pages that publish prices to Google.');
+    }
+}
+
 function main() {
     let config;
     try { config = cfgLib.load({ fresh: true }); }
@@ -196,6 +235,7 @@ function main() {
     SEARCH_DIRS.forEach(function (d) { walk(d, files); });
     files.forEach(function (f) { checkFile(f, config); });
     checkPaymentCode();
+    assertCoverage();
 
     console.log('');
     console.log('  ' + filesChecked + ' page(s) carry price anchors');
