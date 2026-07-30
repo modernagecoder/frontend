@@ -37,9 +37,13 @@
   //
   "plans": {
 
+    // International list = what the RICHEST countries pay (USA, Switzerland).
+    // Everywhere else scales down from here by purchasing power, never below
+    // the floor in section 3. Owner set the group top at $149.99 on 2026-07-31;
+    // 1-on-1 keeps the 2.5x relationship the old $40/$100 pair had.
     "coding": {
-      "india":         { "group": 1499, "miniBatch": 2499, "personal": 4999, "lifetime": 49999 },
-      "international": { "group": 40,   "miniBatch": null, "personal": 100,  "lifetime": 599 }
+      "india":         { "group": 1499,   "miniBatch": 2499, "personal": 4999,   "lifetime": 49999 },
+      "international": { "group": 149.99, "miniBatch": null, "personal": 374.99, "lifetime": 599 }
     },
 
     // Maths currently costs the same as coding inside India. It is listed
@@ -131,9 +135,13 @@
       //
       // A tier not listed here falls back to scaling group by its list-price
       // ratio, so 1-on-1 at 2.5x the group list price gets 2.5x this floor.
+      // Owner's decision 2026-07-31: Rs9,500 is the 1-on-1 minimum. Group sits
+      // lower. At the current top price PPP alone keeps every country above
+      // both figures, so these are insurance rather than active constraints —
+      // they bind only if the top price is lowered or a currency collapses.
       "minNetInr": {
-        "group":     9500,
-        "personal":  23750,
+        "group":     3800,
+        "personal":  9500,
         "miniBatch": null,
         "lifetime":  null,
         "oneTime":   null

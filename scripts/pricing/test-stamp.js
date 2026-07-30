@@ -63,8 +63,21 @@ test('split format rebuilds the currency-span shape', function () {
 });
 
 test('USD prices use a dollar sign and US grouping', function () {
+    // Asserted against the config rather than a hardcoded figure, so changing
+    // the price is a config edit and not a test edit.
+    const r = cfgLib.resolve('coding.international.personal', config);
+    const expected = '>' + cfgLib.format(r.amount, 'USD') + '<';
     const out = stamp('<span data-price="coding.international.personal">x</span>');
-    assert.ok(out.html.indexOf('>$100<') !== -1, 'got: ' + out.html);
+    assert.ok(out.html.indexOf(expected) !== -1, 'expected ' + expected + ', got: ' + out.html);
+    assert.ok(/>\$[\d,]/.test(out.html), 'must start with a dollar sign: ' + out.html);
+});
+
+test('a fractional USD price keeps its two decimals', function () {
+    const out = stamp('<span data-price="coding.international.group">x</span>');
+    const r = cfgLib.resolve('coding.international.group', config);
+    if (Number.isInteger(r.amount)) return;          // nothing to check
+    assert.ok(out.html.indexOf('.' + String(r.amount).split('.')[1]) !== -1,
+        'a price like 149.99 must not be rounded to 150: ' + out.html);
 });
 
 test('rupee grouping is Indian, so lifetime reads 49,999', function () {
