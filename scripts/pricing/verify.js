@@ -174,6 +174,10 @@ function checkPaymentCode() {
         const src = fs.readFileSync(full, 'utf8');
         const hits = [];
         src.split('\n').forEach(function (line, i) {
+            // A comment citing a price is documentation — explaining why a rule
+            // exists, or recording a bug that was fixed. Only executable code
+            // can charge anyone the wrong amount.
+            if (/^\s*(\/\/|\*|\/\*)/.test(line)) return;
             if (/z-index|border-radius|setTimeout|9999px/.test(line)) return;
             const found = line.match(priceLiteral);
             if (found) hits.push('line ' + (i + 1) + ': ' + line.trim().slice(0, 90));

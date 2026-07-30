@@ -258,13 +258,41 @@ const CoursePayment = {
       : (ip && ip.isMathsContext && ip.isMathsContext() && ip.PRICES.internationalMaths)
       ? ip.PRICES.internationalMaths
       : (ip && ip.PRICES ? ip.PRICES.international : null);
-    var fallback = {
-      group:    { amount: 40,  display: '$40',  period: '/month' },
-      personal: { amount: 100, display: '$100', period: '/month' },
-      lifetime: { amount: 599, display: '$599', period: '' }
-    };
-    var p = (table && table[planType]) || fallback[planType];
-    if (!p) return null;
+    // No hardcoded fallback. This function decides what a card is charged, so
+    // a stale figure here bills a real customer the wrong amount. If the price
+    // tables are unavailable, return null and let the caller stop rather than
+    // guess. window.MAC_PRICING is read directly as a second route, so a page
+    // that loaded the data but not international-pricing.js still charges
+    // correctly.
+    var p = table && table[planType];
+
+    if (!p && window.MAC_PRICING) {
+      var data = window.MAC_PRICING;
+      var subject = (ip && ip.isAgentsContext && ip.isAgentsContext()) ? 'agents'
+        : (ip && ip.isMathsContext && ip.isMathsContext()) ? 'maths' : 'coding';
+
+      // The visitor's own country price, where one is known.
+      var country = window.__MAC_COUNTRY;
+      var entry = country && data.worldwide && data.worldwide.enabled
+        ? data.worldwide.countries[country] : null;
+      var amount = entry && entry.tiers && entry.tiers[subject]
+        ? entry.tiers[subject][planType]
+        : (data.plans[subject] && data.plans[subject].international
+            ? data.plans[subject].international[planType] : null);
+
+      if (amount === null || amount === undefined) return null;   // not sold
+      p = {
+        amount: amount,
+        display: '$' + amount,
+        period: planType === 'oneTime' ? '' : '/month'
+      };
+    }
+
+    if (!p) {
+      console.error('[CoursePayment] No international price available for "' + planType +
+        '". Refusing to guess an amount.');
+      return null;
+    }
     return { amount: p.amount, display: p.display + (p.period || '') };
   },
 

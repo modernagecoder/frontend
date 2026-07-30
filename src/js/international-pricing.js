@@ -126,15 +126,33 @@ const InternationalPricing = {
   detectRegion() {
     var urlParams = new URLSearchParams(window.location.search);
     var testMode = urlParams.get('test');
-    if (testMode === 'intl' || testMode === 'international') {
+
+    // An explicit country — from the switcher's cookie or a ?country= override —
+    // decides BOTH the country and the currency.
+    //
+    // These two used to be worked out independently, which let them disagree:
+    // a visitor who picked Nigeria in the switcher, on a machine reporting an
+    // Indian timezone, was priced as Nigerian but billed in rupees. One signal
+    // now settles both.
+    var explicit = this.explicitCountry();
+
+    if (explicit) {
+      this.country = explicit;
+      this.isIndian = (explicit === 'IN');
+    } else if (testMode === 'intl' || testMode === 'international') {
       this.isIndian = false;
+      this.country = null;                 // unknown country: list price
     } else if (testMode === 'india') {
       this.isIndian = true;
+      this.country = 'IN';
     } else {
       this.isIndian = this.detectIndia();
+      // detectIndia() is deliberately biased towards India — either an Indian
+      // locale OR an Indian timezone is enough — because an Indian family whose
+      // browser is set to en-US must still be billed in rupees. So when it says
+      // India, that answer wins over any weaker country guess.
+      this.country = this.isIndian ? 'IN' : this.detectCountry();
     }
-
-    this.country = this.detectCountry();
 
     // Store globals for payment JS files and inline scripts to read
     window.__MAC_IS_INDIAN = this.isIndian;
@@ -264,21 +282,23 @@ const InternationalPricing = {
     'Pacific/Auckland': 'NZ', 'Pacific/Fiji': 'FJ'
   },
 
-  detectCountry: function () {
-    var params = new URLSearchParams(window.location.search);
+  /**
+   * A country the visitor stated, rather than one we guessed: the ?country=
+   * override used for testing, or the nf_country cookie the switcher writes.
+   * Returns null when nothing was stated.
+   */
+  explicitCountry: function () {
+    var forced = new URLSearchParams(window.location.search).get('country');
+    if (forced && /^[A-Za-z]{2}$/.test(forced)) return forced.toUpperCase();
 
-    var forced = params.get('country');
-    if (forced) return forced.toUpperCase();
-
-    var m = document.cookie.match(/(?:^|;\s*)nf_country=([A-Za-z]{2})/);
+    var m = document.cookie.match(/(?:^|;\s*)nf_country=([A-Za-z]{2})(?:;|$)/);
     if (m) return m[1].toUpperCase();
 
-    // ?test=intl has to keep working for testing, and must not resolve to a
-    // real country or it would pick up that country's discounted price.
-    var t = params.get('test');
-    if (t === 'india') return 'IN';
-    if (t === 'intl' || t === 'international') return null;
+    return null;
+  },
 
+  /** Best guess at the visitor's country when they have not stated one. */
+  detectCountry: function () {
     var langs = navigator.languages || [navigator.language || ''];
     for (var i = 0; i < langs.length; i++) {
       var region = String(langs[i]).match(/[-_]([A-Za-z]{2})(?:$|[-_])/);

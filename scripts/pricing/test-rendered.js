@@ -219,7 +219,113 @@ test('a longer number starting with a price is not corrupted', function () {
         'the ₹4,999 rule must not match inside ₹49,999');
 });
 
-test('the generated runtime price table is loadable and complete', function () {
+// ─── the real pricing page, end to end ───
+
+test('the live pricing page prices correctly for India, Nigeria, Germany and the US', function () {
+    const pagePath = path.join(ROOT, 'src', 'pages', 'pricing.html');
+    if (!fs.existsSync(pagePath)) return;
+    const html = fs.readFileSync(pagePath, 'utf8');
+
+    function pricesFor(country) {
+        const win = render(html, country ? null : 'intl', country);
+        const cards = Array.from(win.document.querySelectorAll('#tab-coding .pricing-card-new'));
+        const out = {};
+        cards.forEach(function (card) {
+            const h = card.querySelector('h3');
+            const amt = card.querySelector('.price-amount');
+            if (!h || !amt) return;
+            out[h.textContent.trim()] = {
+                text: amt.textContent.trim(),
+                hidden: card.style.display === 'none'
+            };
+        });
+        return out;
+    }
+
+    const india = pricesFor('IN');
+    assert.ok(/₹/.test(india['Group Classes'].text), 'India must see rupees: ' + india['Group Classes'].text);
+    assert.ok(!india['Mini Batch'].hidden, 'Mini Batch must be visible in India');
+
+    const ng = pricesFor('NG');
+    const us = pricesFor('US');
+    assert.ok(/^\$/.test(ng['Group Classes'].text), 'Nigeria must see dollars: ' + ng['Group Classes'].text);
+    assert.ok(ng['Mini Batch'].hidden, 'Mini Batch has no USD price and must be hidden abroad');
+
+    const ngAmount = parseFloat(ng['Group Classes'].text.replace(/[^0-9.]/g, ''));
+    const usAmount = parseFloat(us['Group Classes'].text.replace(/[^0-9.]/g, ''));
+    assert.ok(ngAmount < usAmount,
+        'Nigeria ($' + ngAmount + ') must pay less than the US ($' + usAmount + ')');
+    assert.strictEqual(usAmount, config.plans.coding.international.group,
+        'the US pays the list price exactly');
+
+    // No rupee figure may survive on a page shown in dollars.
+    const winNg = render(html, null, 'NG');
+    const visible = winNg.document.querySelector('#tab-coding').textContent;
+    assert.ok(visible.indexOf('₹') === -1 || /Mini Batch/.test(visible),
+        'no stray rupee price should remain for an international visitor');
+});
+
+// ─── the charge path: what a card is actually billed ───
+
+/** Load a script into a DOM that already has the pricing data. */
+function withPricing(scriptRel, region, country) {
+    const win = render('<!doctype html><html><body></body></html>', region, country);
+    win.eval(fs.readFileSync(path.join(ROOT, scriptRel), 'utf8'));
+    return win;
+}
+
+test('the camp fee comes from the config for an Indian visitor', function () {
+    const win = withPricing('src/js/summer-camp-enrollment.js', 'india');
+    const camp = win.SummerCampEnrollment;
+    assert.strictEqual(camp.getCoursePrice(), config.plans.camps.india.oneTime);
+    assert.strictEqual(camp.getCourseCurrency(), 'INR');
+    assert.ok(camp.getPriceDisplay().indexOf('₹') === 0, 'got: ' + camp.getPriceDisplay());
+});
+
+test('the camp fee follows the visitor country abroad', function () {
+    const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'src', 'js', 'pricing-data.generated.js'), 'utf8')
+        .replace(/^[\s\S]*?window\.MAC_PRICING = /, '').replace(/;\s*$/, ''));
+    const expected = data.worldwide.countries.NG.tiers.camps.oneTime;
+
+    const win = withPricing('src/js/summer-camp-enrollment.js', null, 'NG');
+    assert.strictEqual(win.SummerCampEnrollment.getCoursePrice(), expected);
+    assert.strictEqual(win.SummerCampEnrollment.getCourseCurrency(), 'USD');
+});
+
+test('the winter camp behaves identically to the summer camp', function () {
+    const s = withPricing('src/js/summer-camp-enrollment.js', 'india');
+    const w = withPricing('src/js/winter-camp-enrollment.js', 'india');
+    assert.strictEqual(w.WinterCampEnrollment.getCoursePrice(),
+        s.SummerCampEnrollment.getCoursePrice(),
+        'the two camp files must not drift apart again');
+});
+
+test('a camp with no configured price charges nothing rather than guessing', function () {
+    const win = withPricing('src/js/summer-camp-enrollment.js', 'india');
+    win.MAC_PRICING.plans.camps.india.oneTime = null;
+    assert.strictEqual(win.SummerCampEnrollment.getCoursePrice(), null,
+        'a missing price must produce null, never a hardcoded fallback amount');
+});
+
+test('the camp files hold no price literals', function () {
+    ['src/js/summer-camp-enrollment.js', 'src/js/winter-camp-enrollment.js'].forEach(function (rel) {
+        const src = fs.readFileSync(path.join(ROOT, rel), 'utf8');
+        const offenders = [];
+        src.split('\n').forEach(function (line, i) {
+            if (/^\s*(\/\/|\*|\/\*)/.test(line)) return;
+            if (/z-index|border-radius|9999px|setTimeout/.test(line)) return;
+            // 60 appears legitimately in time arithmetic (60 * 60 * 1000), so
+            // it is only a suspect price when it is not part of a calculation.
+            if (/\*|\/\s*\d|TTL|ms\b|days?\b|hours?\b/i.test(line)) return;
+            if (/\b(4999|1499|2499|9999|49999)\b/.test(line) || /\b60\b\s*[;,)]/.test(line)) {
+                offenders.push(rel + ':' + (i + 1) + ' ' + line.trim().slice(0, 70));
+            }
+        });
+        assert.strictEqual(offenders.length, 0, offenders.join('\n      '));
+    });
+});
+
+test('generated runtime price table is loadable and complete', function () {
     const p = path.join(ROOT, 'src', 'js', 'pricing-data.generated.js');
     assert.ok(fs.existsSync(p), 'run npm run pricing:apply first');
     const dom = new JSDOM('<!doctype html><html><body></body></html>', { runScripts: 'outside-only' });

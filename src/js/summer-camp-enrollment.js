@@ -149,20 +149,50 @@
 
 const SummerCampEnrollment = {
   courseName: 'Summer Coding Camp',
-  coursePrice: 4999,
+
+  // The camp fee comes from pricing/pricing.config.jsonc like every other
+  // price. It used to be written here as a literal on both sides of an
+  // isIndian() check, which meant this file was a third independent authority
+  // on what a customer pays — the camps read neither of the other two tables.
+  get coursePrice() { return this.getCoursePrice(); },
 
   // International pricing helpers
   isIndian: function() {
     return window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : true;
   },
+  campPrice: function() {
+    var data = window.MAC_PRICING;
+    if (!data || !data.plans.camps) return null;
+    if (this.isIndian()) {
+      return { amount: data.plans.camps.india.oneTime, currency: 'INR', symbol: '₹' };
+    }
+    // A visitor's own country price where we know the country, list price
+    // otherwise. Never a guess.
+    var country = window.__MAC_COUNTRY;
+    var entry = country && data.worldwide && data.worldwide.enabled
+      ? data.worldwide.countries[country] : null;
+    var amount = entry && entry.tiers && entry.tiers.camps
+      ? entry.tiers.camps.oneTime
+      : data.plans.camps.international.oneTime;
+    if (amount === null || amount === undefined) return null;
+    return { amount: amount, currency: 'USD', symbol: '$' };
+  },
   getCoursePrice: function() {
-    return this.isIndian() ? 4999 : 60;
+    var p = this.campPrice();
+    if (!p) { console.error('[SummerCamp] No camp price available; refusing to guess.'); return null; }
+    return p.amount;
   },
   getCourseCurrency: function() {
-    return this.isIndian() ? 'INR' : 'USD';
+    var p = this.campPrice();
+    return p ? p.currency : (this.isIndian() ? 'INR' : 'USD');
   },
   getPriceDisplay: function() {
-    return this.isIndian() ? '₹4,999' : '$60';
+    var p = this.campPrice();
+    if (!p) return '';
+    return p.symbol + new Intl.NumberFormat(p.currency === 'INR' ? 'en-IN' : 'en-US', {
+      minimumFractionDigits: Number.isInteger(p.amount) ? 0 : 2,
+      maximumFractionDigits: Number.isInteger(p.amount) ? 0 : 2
+    }).format(p.amount);
   },
 
   // API URL - auto-detect local vs production

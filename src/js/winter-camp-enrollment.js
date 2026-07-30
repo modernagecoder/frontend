@@ -5,19 +5,46 @@
 
 const WinterCampEnrollment = {
     courseName: 'Winter Coding Camp',
-    coursePrice: 4999,
+
+    // Fee comes from pricing/pricing.config.jsonc. See the same change in
+    // summer-camp-enrollment.js: these two files used to be a third
+    // independent authority on what a customer is charged.
+    get coursePrice() { return this.getCoursePrice(); },
 
     isIndian() {
         return window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : true;
     },
+    campPrice() {
+        var data = window.MAC_PRICING;
+        if (!data || !data.plans.camps) return null;
+        if (this.isIndian()) {
+            return { amount: data.plans.camps.india.oneTime, currency: 'INR', symbol: '₹' };
+        }
+        var country = window.__MAC_COUNTRY;
+        var entry = country && data.worldwide && data.worldwide.enabled
+            ? data.worldwide.countries[country] : null;
+        var amount = entry && entry.tiers && entry.tiers.camps
+            ? entry.tiers.camps.oneTime
+            : data.plans.camps.international.oneTime;
+        if (amount === null || amount === undefined) return null;
+        return { amount: amount, currency: 'USD', symbol: '$' };
+    },
     getCoursePrice() {
-        return this.isIndian() ? 4999 : 60;
+        var p = this.campPrice();
+        if (!p) { console.error('[WinterCamp] No camp price available; refusing to guess.'); return null; }
+        return p.amount;
     },
     getCourseCurrency() {
-        return this.isIndian() ? 'INR' : 'USD';
+        var p = this.campPrice();
+        return p ? p.currency : (this.isIndian() ? 'INR' : 'USD');
     },
     getPriceDisplay() {
-        return this.isIndian() ? '₹4,999' : '$60';
+        var p = this.campPrice();
+        if (!p) return '';
+        return p.symbol + new Intl.NumberFormat(p.currency === 'INR' ? 'en-IN' : 'en-US', {
+            minimumFractionDigits: Number.isInteger(p.amount) ? 0 : 2,
+            maximumFractionDigits: Number.isInteger(p.amount) ? 0 : 2
+        }).format(p.amount);
     },
 
     getApiUrl() {
