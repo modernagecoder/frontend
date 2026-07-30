@@ -197,7 +197,73 @@ function buildTable(subject, config, pppData, fxData) {
         table[iso2] = { tiers: tiers, currency: entry.currency || null };
     });
 
-    return { table: table, staleCount: stale };
+    const unified = unifyCurrencyZones(table, cfg, intl, india, usdInr);
+
+    return { table: table, staleCount: stale, unified: unified };
+}
+
+/**
+ * Give every country sharing a currency the same price.
+ *
+ * Uses the median of the zone's purchasing-power prices, not the highest or
+ * the lowest: the highest would price Portugal and Greece at Irish levels, and
+ * the lowest would hand Ireland and the Netherlands a discount they do not
+ * need. The result is then put back through the floor, so unifying a zone can
+ * never drop a member below the configured minimums.
+ *
+ * Returns { CUR: { tier: usd } } for reporting.
+ */
+function unifyCurrencyZones(table, cfg, intl, india, usdInr) {
+    const zones = (cfg.worldwide && cfg.worldwide.unifiedCurrencyZones) || [];
+    const floorMap = cfg.worldwide.floor.matchIndiaTier;
+    const result = {};
+
+    zones.forEach(function (currency) {
+        const members = Object.keys(table).filter(function (iso) {
+            return table[iso].currency === currency;
+        });
+        if (members.length < 2) return;
+
+        const tierNames = {};
+        members.forEach(function (iso) {
+            Object.keys(table[iso].tiers).forEach(function (t) { tierNames[t] = true; });
+        });
+
+        const zonePrices = {};
+        Object.keys(tierNames).forEach(function (tier) {
+            const values = members
+                .map(function (iso) { return table[iso].tiers[tier]; })
+                .filter(function (v) { return v !== undefined && v !== null; })
+                .sort(function (a, b) { return a - b; });
+            if (!values.length) return;
+
+            const mid = Math.floor(values.length / 2);
+            let price = values.length % 2
+                ? values[mid]
+                : (values[mid - 1] + values[mid]) / 2;
+
+            // Re-apply the floor. The median of a zone can sit below the
+            // minimum even when no individual member did.
+            const indiaTier = floorMap[tier];
+            const floor = floorUsd(
+                indiaTier ? india[indiaTier] : null, usdInr, cfg, tier, intl);
+            if (price < floor) price = charmRound(floor);
+
+            zonePrices[tier] = Number(price.toFixed(2));
+        });
+
+        members.forEach(function (iso) {
+            Object.keys(zonePrices).forEach(function (tier) {
+                if (table[iso].tiers[tier] !== undefined) {
+                    table[iso].tiers[tier] = zonePrices[tier];
+                }
+            });
+        });
+
+        result[currency] = { members: members.length, prices: zonePrices };
+    });
+
+    return result;
 }
 
 module.exports = {
@@ -207,5 +273,6 @@ module.exports = {
     floorUsd: floorUsd,
     charmRound: charmRound,
     priceForCountry: priceForCountry,
-    buildTable: buildTable
+    buildTable: buildTable,
+    unifyCurrencyZones: unifyCurrencyZones
 };

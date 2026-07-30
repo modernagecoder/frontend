@@ -342,17 +342,17 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 136.99,
-            "personal": 341.99,
-            "lifetime": 545.99
+            "group": 121.99,
+            "personal": 303.99,
+            "lifetime": 544.99
           },
           "maths": {
-            "group": 136.99,
-            "personal": 341.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 136.99,
-            "personal": 341.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
@@ -496,21 +496,21 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 138.99,
-            "personal": 346.99,
-            "lifetime": 554.99
+            "group": 121.99,
+            "personal": 303.99,
+            "lifetime": 544.99
           },
           "maths": {
-            "group": 138.99,
-            "personal": 346.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 138.99,
-            "personal": 346.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
-            "oneTime": 55.99
+            "oneTime": 54.99
           }
         }
       },
@@ -1112,17 +1112,17 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 110.99,
-            "personal": 277.99,
+            "group": 121.99,
+            "personal": 303.99,
             "lifetime": 544.99
           },
           "maths": {
-            "group": 110.99,
-            "personal": 277.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 110.99,
-            "personal": 277.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
@@ -1156,17 +1156,17 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 119.99,
-            "personal": 298.99,
+            "group": 121.99,
+            "personal": 303.99,
             "lifetime": 544.99
           },
           "maths": {
-            "group": 119.99,
-            "personal": 298.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 119.99,
-            "personal": 298.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
@@ -1398,17 +1398,17 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 128.99,
-            "personal": 320.99,
+            "group": 121.99,
+            "personal": 303.99,
             "lifetime": 544.99
           },
           "maths": {
-            "group": 128.99,
-            "personal": 320.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 128.99,
-            "personal": 320.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
@@ -1508,21 +1508,21 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 141.99,
-            "personal": 354.99,
-            "lifetime": 566.99
+            "group": 121.99,
+            "personal": 303.99,
+            "lifetime": 544.99
           },
           "maths": {
-            "group": 141.99,
-            "personal": 354.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 141.99,
-            "personal": 354.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
-            "oneTime": 56.99
+            "oneTime": 54.99
           }
         }
       },
@@ -1530,17 +1530,17 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 134.99,
-            "personal": 336.99,
+            "group": 121.99,
+            "personal": 303.99,
             "lifetime": 544.99
           },
           "maths": {
-            "group": 134.99,
-            "personal": 336.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 134.99,
-            "personal": 336.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
@@ -1640,17 +1640,17 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 133.99,
-            "personal": 333.99,
+            "group": 121.99,
+            "personal": 303.99,
             "lifetime": 544.99
           },
           "maths": {
-            "group": 133.99,
-            "personal": 333.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 133.99,
-            "personal": 333.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
@@ -1684,17 +1684,17 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 117.99,
-            "personal": 294.99,
+            "group": 121.99,
+            "personal": 303.99,
             "lifetime": 544.99
           },
           "maths": {
-            "group": 117.99,
-            "personal": 294.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 117.99,
-            "personal": 294.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
@@ -2058,21 +2058,21 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "group": 121.99,
+            "personal": 303.99,
+            "lifetime": 544.99
           },
           "maths": {
-            "group": 149.99,
-            "personal": 374.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 149.99,
-            "personal": 374.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
-            "oneTime": 60
+            "oneTime": 54.99
           }
         }
       },
@@ -2102,17 +2102,17 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 125.99,
-            "personal": 313.99,
+            "group": 121.99,
+            "personal": 303.99,
             "lifetime": 544.99
           },
           "maths": {
-            "group": 125.99,
-            "personal": 313.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 125.99,
-            "personal": 313.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
@@ -2366,17 +2366,17 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 114.99,
-            "personal": 286.99,
+            "group": 121.99,
+            "personal": 303.99,
             "lifetime": 544.99
           },
           "maths": {
-            "group": 114.99,
-            "personal": 286.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 114.99,
-            "personal": 286.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
@@ -2476,17 +2476,17 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 114.99,
-            "personal": 285.99,
+            "group": 121.99,
+            "personal": 303.99,
             "lifetime": 544.99
           },
           "maths": {
-            "group": 114.99,
-            "personal": 285.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 114.99,
-            "personal": 285.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
@@ -2498,21 +2498,21 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 148.99,
-            "personal": 372.99,
-            "lifetime": 594.99
+            "group": 121.99,
+            "personal": 303.99,
+            "lifetime": 544.99
           },
           "maths": {
-            "group": 148.99,
-            "personal": 372.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 148.99,
-            "personal": 372.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
-            "oneTime": 59.99
+            "oneTime": 54.99
           }
         }
       },
@@ -2828,17 +2828,17 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 100.99,
-            "personal": 251.99,
+            "group": 121.99,
+            "personal": 303.99,
             "lifetime": 544.99
           },
           "maths": {
-            "group": 100.99,
-            "personal": 251.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 100.99,
-            "personal": 251.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
@@ -2982,21 +2982,21 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 138.99,
-            "personal": 345.99,
-            "lifetime": 552.99
+            "group": 121.99,
+            "personal": 303.99,
+            "lifetime": 544.99
           },
           "maths": {
-            "group": 138.99,
-            "personal": 345.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 138.99,
-            "personal": 345.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
-            "oneTime": 55.99
+            "oneTime": 54.99
           }
         }
       },
@@ -3378,17 +3378,17 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 117.99,
-            "personal": 293.99,
+            "group": 121.99,
+            "personal": 303.99,
             "lifetime": 544.99
           },
           "maths": {
-            "group": 117.99,
-            "personal": 293.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 117.99,
-            "personal": 293.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
@@ -3730,17 +3730,17 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 116.99,
-            "personal": 290.99,
+            "group": 121.99,
+            "personal": 303.99,
             "lifetime": 544.99
           },
           "maths": {
-            "group": 116.99,
-            "personal": 290.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 116.99,
-            "personal": 290.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
@@ -3752,17 +3752,17 @@ window.MAC_PRICING = {
         "currency": "EUR",
         "tiers": {
           "coding": {
-            "group": 119.99,
-            "personal": 298.99,
+            "group": 121.99,
+            "personal": 303.99,
             "lifetime": 544.99
           },
           "maths": {
-            "group": 119.99,
-            "personal": 298.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "agents": {
-            "group": 119.99,
-            "personal": 298.99
+            "group": 121.99,
+            "personal": 303.99
           },
           "school": {},
           "camps": {
@@ -3863,16 +3863,16 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 302.99,
+            "personal": 303.99,
             "lifetime": 544.99
           },
           "maths": {
             "group": 121.99,
-            "personal": 302.99
+            "personal": 303.99
           },
           "agents": {
             "group": 121.99,
-            "personal": 302.99
+            "personal": 303.99
           },
           "school": {},
           "camps": {

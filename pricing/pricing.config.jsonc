@@ -180,6 +180,26 @@
     // see the US dollar price only, with no local-currency estimate.
     "unstableCurrencies": ["ARS", "TRY", "VES", "LBP", "SSP", "ZWL"],
 
+    // ── ONE PRICE PER SHARED CURRENCY ──────────────────────────────────
+    // Countries sharing a currency all pay the same, instead of each getting
+    // its own purchasing-power price.
+    //
+    // Why this matters for the euro specifically: across dollars, a price
+    // difference between Portugal and Ireland is invisible. In a shared
+    // currency inside a single market, EUR 110 next to EUR 140 for the same
+    // course is conspicuous. It is permitted — EU Regulation 2018/302 Article
+    // 4(2) allows different net prices between Member States on a
+    // non-discriminatory basis — but the owner chose one euro price on
+    // 2026-07-31.
+    //
+    // The West and Central African CFA francs (XOF, XAF) and the East
+    // Caribbean dollar (XCD) have exactly the same property. Add "XOF",
+    // "XAF", "XCD" to this list to treat them the same way.
+    //
+    // The zone price is the median of its members, then floored — so
+    // unification can never drop a country below the minimums above.
+    "unifiedCurrencyZones": ["EUR"],
+
     // Ignore World Bank figures older than this many years and charge list
     // price instead, rather than quietly using a 15-year-old price level.
     "maxDataAgeYears": 3,

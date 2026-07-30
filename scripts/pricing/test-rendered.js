@@ -219,6 +219,94 @@ test('a longer number starting with a price is not corrupted', function () {
         'the ₹4,999 rule must not match inside ₹49,999');
 });
 
+// ─── local currency display ───
+
+/** Render the real pricing page for a country, with the local-currency layer. */
+function renderLocal(country) {
+    const html = fs.readFileSync(path.join(ROOT, 'src', 'pages', 'pricing.html'), 'utf8');
+    const dom = new JSDOM(html, {
+        url: 'https://learn.modernagecoders.com/pricing?country=' + country,
+        runScripts: 'outside-only', pretendToBeVisual: true
+    });
+    const win = dom.window;
+    ['pricing-data.generated', 'international-pricing', 'local-currency'].forEach(function (f) {
+        win.eval(fs.readFileSync(path.join(ROOT, 'src', 'js', f + '.js'), 'utf8'));
+    });
+    win.document.dispatchEvent(new win.Event('DOMContentLoaded', { bubbles: true }));
+
+    const card = win.document.querySelector('#tab-coding .pricing-card-new');
+    return {
+        win: win,
+        price: (card.querySelector('.price-amount') || {}).textContent || '',
+        note: (card.querySelector('.mac-charge-note') || {}).textContent || ''
+    };
+}
+
+test('a European visitor sees euros, with the dollar charge stated', function () {
+    const de = renderLocal('DE');
+    assert.ok(de.price.indexOf('€') !== -1, 'Germany must see a euro symbol, saw: ' + de.price);
+    assert.ok(/charged as US\$\d/.test(de.note), 'the exact charge must be stated: ' + de.note);
+    assert.ok(/1 USD = [\d.]+ EUR/.test(de.note), 'the rate must be disclosed: ' + de.note);
+    assert.ok(/on \d{1,2} \w{3} \d{4}/.test(de.note), 'the rate date must be disclosed: ' + de.note);
+});
+
+test('every eurozone country sees the same euro price', function () {
+    const seen = {};
+    ['DE', 'FR', 'IT', 'ES', 'PT', 'IE', 'NL', 'GR'].forEach(function (cc) {
+        seen[cc] = renderLocal(cc).price.trim();
+    });
+    const distinct = Object.keys(seen).map(function (k) { return seen[k]; })
+        .filter(function (v, i, a) { return a.indexOf(v) === i; });
+    assert.strictEqual(distinct.length, 1,
+        'the eurozone must show one price, saw: ' + JSON.stringify(seen));
+});
+
+test('the local figure is never below the dollar charge it explains', function () {
+    const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'src', 'js', 'pricing-data.generated.js'), 'utf8')
+        .replace(/^[\s\S]*?window\.MAC_PRICING = /, '').replace(/;\s*$/, ''));
+
+    ['DE', 'GB', 'NG', 'PK', 'AE', 'OM', 'JP', 'AU', 'BR', 'ZA'].forEach(function (cc) {
+        const r = renderLocal(cc);
+        const entry = data.worldwide.countries[cc];
+        const rate = data.worldwide.currencies[entry.currency];
+        if (!rate) return;
+
+        const shown = parseFloat(r.price.replace(/[^\d.]/g, ''));
+        const charged = parseFloat((r.note.match(/US\$([\d.]+)/) || [])[1]);
+        assert.ok(isFinite(shown) && isFinite(charged), cc + ': could not read figures from ' + r.price + ' / ' + r.note);
+        assert.ok(shown >= charged * rate - 0.01,
+            cc + ': shows ' + shown + ' but the charge converts to ' + (charged * rate).toFixed(2) +
+            ' — a local estimate below the real charge reads as bait and switch');
+    });
+});
+
+test('zero-decimal currencies are not given cents', function () {
+    ['JP', 'KR', 'VN', 'ID'].forEach(function (cc) {
+        const r = renderLocal(cc);
+        assert.ok(!/\.\d/.test(r.price), cc + ' should have no decimals, saw: ' + r.price);
+    });
+});
+
+test('a US visitor gets no conversion note at all', function () {
+    const us = renderLocal('US');
+    assert.strictEqual(us.note, '', 'already charged in USD, nothing to disclose');
+});
+
+test('an Indian visitor gets no conversion note and keeps rupees', function () {
+    const india = renderLocal('IN');
+    assert.ok(india.price.indexOf('₹') !== -1, 'India keeps rupees, saw: ' + india.price);
+    assert.strictEqual(india.note, '', 'billed in rupees directly, nothing to convert');
+});
+
+test('a volatile currency is left in dollars rather than quoted', function () {
+    const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'src', 'js', 'pricing-data.generated.js'), 'utf8')
+        .replace(/^[\s\S]*?window\.MAC_PRICING = /, '').replace(/;\s*$/, ''));
+    const unstable = data.worldwide.unstable || [];
+    if (unstable.indexOf('TRY') === -1) return;
+    const tr = renderLocal('TR');
+    assert.ok(tr.price.indexOf('₺') === -1, 'a currency flagged unstable must not be quoted: ' + tr.price);
+});
+
 // ─── the real pricing page, end to end ───
 
 test('the live pricing page prices correctly for India, Nigeria, Germany and the US', function () {
