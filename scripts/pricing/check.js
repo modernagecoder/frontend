@@ -16,8 +16,30 @@
 const cfgLib = require('./lib/config');
 const ppp = require('./lib/ppp');
 
+const fs = require('fs');
+const path = require('path');
+
 const errors = [];
 const warnings = [];
+
+/**
+ * Slugs of every course that actually exists, read from the course source
+ * JSON. Returns [] if the sources are unavailable, so the check degrades to a
+ * warning-free no-op rather than failing a build for the wrong reason.
+ */
+function courseSlugs() {
+    const dir = path.join(cfgLib.REPO_ROOT, 'content', 'courses', 'data');
+    if (!fs.existsSync(dir)) return [];
+    const slugs = [];
+    fs.readdirSync(dir).forEach(function (f) {
+        if (!/\.json$/.test(f) || f === 'courses-config.json') return;
+        try {
+            const j = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
+            if (j && j.meta && j.meta.slug) slugs.push(j.meta.slug);
+        } catch (e) { /* a malformed course file is not this check's problem */ }
+    });
+    return slugs;
+}
 
 function err(msg) { errors.push(msg); }
 function warn(msg) { warnings.push(msg); }
@@ -55,11 +77,23 @@ function validate(config) {
         });
     });
 
-    // --- overrides point at real subjects ---
+    // --- overrides point at real subjects AND at courses that exist ---
+    //
+    // A typo'd slug here is silent: the override simply never fires and the
+    // course quietly keeps the default price. That happened during this
+    // system's own build, so it is checked rather than trusted.
+    const knownSlugs = courseSlugs();
     Object.keys(config.courseOverrides || {}).forEach(function (slug) {
         const target = config.courseOverrides[slug];
         if (!config.plans[target]) {
             err('courseOverrides."' + slug + '" points at "' + target + '", which is not a subject in plans. Known subjects: ' + Object.keys(config.plans).join(', '));
+        }
+        if (knownSlugs.length && knownSlugs.indexOf(slug) === -1) {
+            const near = knownSlugs.filter(function (s) {
+                return s.indexOf(slug.split('-')[0]) === 0;
+            }).slice(0, 3);
+            err('courseOverrides has "' + slug + '", but no course has that slug, so this line does nothing.' +
+                (near.length ? ' Did you mean: ' + near.join(' | ') : ''));
         }
     });
 

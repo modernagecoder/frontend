@@ -8,6 +8,8 @@
 const fs = require('fs');
 const path = require('path');
 const { courseToMarkdown } = require('./lib/markdown-emitter.js');
+// Single source of truth for every price on the site. See pricing/README.md.
+const PRICING = require('./pricing/lib/config.js');
 
 // Inline SVG icon set for generated sections (stroke style matches the
 // editorial template's lucide-style icons). No emoji anywhere on course pages.
@@ -644,12 +646,49 @@ class CourseGenerator {
         return /codex-and-claude-code/i.test(slug || '');
     }
 
+    /**
+     * Which price set a course belongs to. Explicit overrides in the config win,
+     * so a course can be repriced by adding one line to pricing.config.jsonc
+     * rather than by editing this file.
+     */
+    priceSubjectFor(slug) {
+        const overrides = PRICING.load().courseOverrides || {};
+        if (overrides[slug]) return overrides[slug];
+        if (this.isPremiumAgentsCourse(slug)) return 'agents';
+        if (/math|calculus|algebra/i.test(slug || '')) return 'maths';
+        return 'coding';
+    }
+
+    /**
+     * Indian tier prices for a course, read from pricing/pricing.config.jsonc.
+     *
+     * These feed both the visible template placeholders and the INR Offers in
+     * the page's structured data, which is what keeps the price Google is told
+     * identical to the price on the page. Nothing here is hardcoded: changing
+     * a number in the config changes every generated course page on the next
+     * build.
+     */
     getTierPrices(slug) {
-        return this.isPremiumAgentsCourse(slug)
-            ? { group: '2499', miniBatch: '4999', personal: '9999',
-                groupDisplay: '₹2,499/month', miniBatchDisplay: '₹4,999/month', personalDisplay: '₹9,999/month' }
-            : { group: '1499', miniBatch: '2499', personal: '4999',
-                groupDisplay: '₹1,499/month', miniBatchDisplay: '₹2,499/month', personalDisplay: '₹4,999/month' };
+        const subject = this.priceSubjectFor(slug);
+        const config = PRICING.load();
+        const out = {};
+
+        ['group', 'miniBatch', 'personal'].forEach((tier) => {
+            const r = PRICING.resolve(`${subject}.india.${tier}`, config);
+            if (!r.exists) {
+                throw new Error(
+                    `Course "${slug}" needs an India ${tier} price but ${subject}.india.${tier} ` +
+                    `is null in pricing/pricing.config.jsonc. Set a price there, or stop ` +
+                    `rendering that tier — do not let a course page publish a plan with no price.`
+                );
+            }
+            out[tier] = PRICING.format(r.amount, r.currency, { style: 'plain' });
+            out[tier + 'Display'] = PRICING.format(r.amount, r.currency, {
+                style: 'full', period: config.display.periodLabels.monthly
+            });
+        });
+
+        return out;
     }
 
     /**

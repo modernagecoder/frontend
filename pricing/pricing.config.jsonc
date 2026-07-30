@@ -81,8 +81,8 @@
   //  no code change needed.
   //
   "courseOverrides": {
-    "codex-and-claude-code-for-teens":         "agents",
-    "codex-and-claude-code-for-professionals": "agents"
+    "codex-and-claude-code-ai-coding-agents-course-for-teens":                  "agents",
+    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": "agents"
   },
 
   // ───────────────────────────────────────────────────────────────────────
