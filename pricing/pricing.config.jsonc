@@ -122,7 +122,15 @@
     // The floor. Your protection against ever earning less abroad than at home.
     "floor": {
       // Which India price each international plan must not undercut.
-      "matchIndiaTier": { "group": "group", "personal": "personal", "miniBatch": "miniBatch" },
+      // EVERY tier you sell needs a line here. A tier missing from this list
+      // gets no floor at all and can be discounted below what India nets you.
+      "matchIndiaTier": {
+        "group":     "group",
+        "miniBatch": "miniBatch",
+        "personal":  "personal",
+        "lifetime":  "lifetime",
+        "oneTime":   "oneTime"
+      },
       // Extra safety margin on top, in percent. Raise this if you want more cushion.
       "safetyMarginPercent": 0
     },

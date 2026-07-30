@@ -47,7 +47,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
 
-    <script type="application/ld+json">
+    <!-- data-price-scope names which price set these offers belong to, so
+         npm run pricing:verify can prove the prices Google is told here match
+         both the config and the prices shown on the page. -->
+    <script type="application/ld+json" data-price-scope="{{PRICE_SCOPE}}">
     {{STRUCTURED_DATA}}
     </script>
 

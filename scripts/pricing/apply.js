@@ -28,10 +28,12 @@ const DRY = process.argv.indexOf('--dry-run') !== -1;
 const VERBOSE = process.argv.indexOf('--verbose') !== -1;
 const ROOT = cfgLib.REPO_ROOT;
 
+// content/courses/template is deliberately absent. It is a source template
+// full of {{PLACEHOLDERS}} that generate-courses.js fills in; its anchors get
+// stamped in content/courses/generated once the generator has run.
 const SEARCH_DIRS = [
     'src/pages',
     'components',
-    'content/courses/template',
     'content/courses/generated'
 ];
 

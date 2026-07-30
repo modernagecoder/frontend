@@ -1243,6 +1243,9 @@ class CourseGenerator {
         // Structured data
         const structuredData = this.generateStructuredData(courseData);
         html = html.replace(/{{STRUCTURED_DATA}}/g, JSON.stringify(structuredData, null, 2));
+        // Which price set these offers came from. The course offers are INR, so
+        // the scope is always the india side of whichever subject applies.
+        html = html.replace(/{{PRICE_SCOPE}}/g, `${this.priceSubjectFor(meta.slug)}.india`);
 
         // Image meta tags
         if (meta.image_path) {

@@ -196,29 +196,51 @@ test('offer-name lexicon maps the shapes actually used on this site', function (
 
 // ─── the money guarantee ───
 
-test('no country is ever charged below the India floor', function () {
+test('no country, on any tier of any subject, is charged below the India floor', function () {
     const pppData = cfgLib.loadData('ppp');
     const fxData = cfgLib.loadData('fx');
     if (!pppData || !fxData) throw new Error('run npm run pricing:refresh first');
 
-    const india = config.plans.coding.india.group;
-    const list = config.plans.coding.international.group;
-    const indiaNet = ppp.indiaNetInr(india, config);
     const keep = ppp.internationalNetKeep(config);
+    const floorMap = config.worldwide.floor.matchIndiaTier;
+    const breaches = [];
 
-    let worst = null;
-    Object.keys(pppData.countries).forEach(function (iso) {
-        const r = ppp.priceForCountry({
-            listUsd: list, indiaGross: india,
-            pli: pppData.countries[iso].pli, usdInrRate: fxData.rates.INR
-        }, config);
-        const netInr = r.usd * keep * fxData.rates.INR;
-        if (worst === null || netInr < worst.net) worst = { iso: iso, net: netInr, usd: r.usd };
+    Object.keys(config.plans).forEach(function (subject) {
+        const intl = config.plans[subject].international || {};
+        const india = config.plans[subject].india || {};
+
+        Object.keys(intl).forEach(function (tier) {
+            if (intl[tier] === null || intl[tier] === undefined) return;   // not sold
+
+            const indiaTier = floorMap[tier];
+            const indiaGross = indiaTier ? india[indiaTier] : null;
+
+            // Every internationally-sold tier must have a floor. Without one it
+            // can be discounted below what the same plan nets inside India —
+            // which is how the camps tier was found unprotected.
+            if (indiaGross === null || indiaGross === undefined) {
+                breaches.push(subject + '.' + tier + ' is sold internationally but has no India floor ' +
+                    '(floor.matchIndiaTier is missing "' + tier + '", or ' + subject + '.india.' + indiaTier + ' is null)');
+                return;
+            }
+
+            const indiaNet = ppp.indiaNetInr(indiaGross, config);
+            Object.keys(pppData.countries).forEach(function (iso) {
+                const r = ppp.priceForCountry({
+                    listUsd: intl[tier], indiaGross: indiaGross,
+                    pli: pppData.countries[iso].pli, usdInrRate: fxData.rates.INR
+                }, config);
+                const netInr = r.usd * keep * fxData.rates.INR;
+                if (netInr < indiaNet - 1) {
+                    breaches.push(subject + '.' + tier + ' in ' + iso + ': $' + r.usd +
+                        ' nets ₹' + netInr.toFixed(0) + ' but India nets ₹' + indiaNet.toFixed(0));
+                }
+            });
+        });
     });
 
-    assert.ok(worst.net >= indiaNet - 1,
-        'the cheapest country (' + worst.iso + ', $' + worst.usd + ') nets ₹' + worst.net.toFixed(0) +
-        ' but an Indian enrolment nets ₹' + indiaNet.toFixed(0) + ' — the floor is not holding');
+    assert.strictEqual(breaches.length, 0,
+        breaches.length + ' price(s) fall below the India floor:\n      ' + breaches.slice(0, 6).join('\n      '));
 });
 
 test('a country at or above US price level pays exactly list, not a charm-rounded price', function () {

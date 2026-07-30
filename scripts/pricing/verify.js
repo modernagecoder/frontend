@@ -33,7 +33,7 @@ const stamper = require('./lib/stamp');
 const ROOT = cfgLib.REPO_ROOT;
 const STRICT = process.argv.indexOf('--strict') !== -1;
 
-const SEARCH_DIRS = ['src/pages', 'components', 'content/courses/template', 'content/courses/generated'];
+const SEARCH_DIRS = ['src/pages', 'components', 'content/courses/generated'];
 
 const failures = [];
 const notes = [];
