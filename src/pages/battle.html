@@ -87,6 +87,47 @@
              text-transform: uppercase; color: var(--faint); margin-bottom: 0.28rem; }
   .msg-text { font-size: 0.9rem; line-height: 1.55; white-space: pre-wrap; word-break: break-word; }
 
+  /* ---- the room board (round 1 / 3) ------------------------------------- */
+  .board { display: grid; gap: .4rem; }
+
+  .brow { display: grid; grid-template-columns: 1.6rem 2rem 1fr auto auto;
+          align-items: center; gap: .6rem; padding: .5rem .6rem;
+          border: 1px solid var(--line); border-radius: var(--r-sm);
+          background: rgba(20,12,38,.42);
+          transition: border-color .4s ease, background .4s ease; }
+  .brow.me { border-color: var(--acid); background: rgba(196,248,42,.07); }
+  .brow.done { border-color: rgba(45,212,191,.4); }
+  .brow.offline { opacity: .45; }
+
+  .bpos { font-family: var(--mono); font-size: .72rem; color: var(--faint); text-align: right; }
+  .brow.me .bpos { color: var(--acid); }
+  .brow .av { width: 30px; height: 30px; font-size: .7rem; }
+  .bname { font-size: .86rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .bname i { font-style: normal; font-family: var(--mono); font-size: .66rem;
+             color: var(--faint); margin-left: .4rem; }
+
+  /* Progress across the round's questions: one pip per question, so a glance
+     tells you how far somebody is AND how they did — without saying which
+     question they got wrong. */
+  .pips { display: flex; gap: .22rem; }
+  .pip { width: 9px; height: 9px; border-radius: 3px; background: rgba(168,133,247,.18); }
+  .pip.correct { background: var(--acid); box-shadow: 0 0 7px rgba(196,248,42,.5); }
+  .pip.wrong   { background: var(--pink); }
+  .pip.partial { background: var(--gold); }
+  .pip.awaiting{ background: var(--cyan); animation: pulse 1.8s ease-in-out infinite; }
+
+  .bstate { font-family: var(--mono); font-size: .62rem; letter-spacing: .1em;
+            text-transform: uppercase; white-space: nowrap; min-width: 5.6rem;
+            text-align: right; color: var(--faint); }
+  .bstate.writing   { color: var(--gold); }
+  .bstate.submitted { color: var(--cyan-hi); }
+  .bstate.done      { color: var(--acid); }
+
+  @media (max-width: 560px) {
+    .brow { grid-template-columns: 1.4rem 1.7rem 1fr auto; }
+    .bstate { display: none; }
+  }
+
   /* ---- arena (watching other debates) ----------------------------------- */
   .seg { display: flex; gap: .3rem; border: 1px solid var(--line); border-radius: 999px;
          padding: .22rem; margin-bottom: .9rem; }
@@ -429,9 +470,20 @@
 
     if (renderStage(key, questions.map(function (q, i) {
       return isCreate ? createCard(q, i) : codeCard(q, i);
-    }).join(''))) {
+    }).join('') +
+      '<div class="card" id="board-card">' +
+        '<div class="between" style="margin-bottom:.9rem">' +
+          '<div><p class="kicker">The room</p>' +
+            '<p class="faint" style="font-size:.74rem;margin-top:.2rem">' +
+              'Live. Nobody can see anyone else\'s code.</p></div>' +
+          '<span class="pill" id="board-count"></span>' +
+        '</div>' +
+        '<div class="board" id="board"></div>' +
+      '</div>')) {
       wireWork(round, questions, isCreate);
     }
+
+    renderBoard(data);
 
     // Verdict pills refresh every sync; the inputs are left alone.
     questions.forEach(function (q) {
@@ -459,6 +511,60 @@
         submitBtn.textContent = 'Submitted';
       }
     });
+  }
+
+  /**
+   * THE ROOM, LIVE.
+   *
+   * Every participant, how far through the round they are, and how the teacher
+   * marked them — updated on every sync. This is what makes Round 1 feel like a
+   * race instead of forty people typing in silence.
+   *
+   * The pips show one square per question, coloured by verdict. That says "Zoya
+   * has two right and one wrong" without ever revealing WHICH one she got wrong
+   * — which would turn this board into a hint sheet.
+   */
+  function renderBoard(data) {
+    var host = $('board');
+    if (!host || !data.board) return;
+
+    var rows = data.board;
+    var done = rows.filter(function (r) { return r.total > 0 && r.submitted >= r.total; }).length;
+
+    $('board-count').textContent = done + ' of ' + rows.length + ' finished';
+
+    host.innerHTML = rows.map(function (r, i) {
+      var complete = r.total > 0 && r.submitted >= r.total;
+
+      var state = 'waiting';
+      var cls = '';
+      if (complete && r.awaiting === 0) { state = r.correct + '/' + r.total + ' right'; cls = 'done'; }
+      else if (complete) { state = 'submitted'; cls = 'submitted'; }
+      else if (r.submitted > 0) { state = r.submitted + ' of ' + r.total + ' sent'; cls = 'submitted'; }
+      else if (r.writing) { state = 'writing…'; cls = 'writing'; }
+
+      // One pip per question. Verdicts first, then anything awaiting marking,
+      // then the questions not yet answered.
+      var pips = '';
+      var n = 0;
+      for (var c = 0; c < r.correct; c++) { pips += '<i class="pip correct"></i>'; n++; }
+      for (var p = 0; p < r.partial; p++) { pips += '<i class="pip partial"></i>'; n++; }
+      for (var w = 0; w < r.wrong; w++) { pips += '<i class="pip wrong"></i>'; n++; }
+      for (var a = 0; a < r.awaiting; a++) { pips += '<i class="pip awaiting"></i>'; n++; }
+      for (; n < r.total; n++) pips += '<i class="pip"></i>';
+
+      return '<div class="brow' + (r.id === data.me.id ? ' me' : '') +
+          (complete && r.awaiting === 0 ? ' done' : '') +
+          (r.online ? '' : ' offline') + '">' +
+        '<span class="bpos">' + (i + 1) + '</span>' +
+        '<div class="av c' + (r.colorIdx % 12) + '">' + esc(B.initials(r.displayName)) + '</div>' +
+        '<span class="bname">' + esc(r.displayName) +
+          (r.id === data.me.id ? '<i>you</i>' : '') +
+          (r.online ? '' : '<i>offline</i>') + '</span>' +
+        '<span class="pips">' + pips + '</span>' +
+        '<span class="bstate ' + cls + '">' + esc(state) + '</span>' +
+      '</div>';
+    }).join('');
   }
 
   function codeCard(q, index) {
