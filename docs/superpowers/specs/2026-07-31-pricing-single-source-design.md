@@ -137,20 +137,38 @@ their findings are folded in and the design below is approved.**
 Commands live in `package.json`: `pricing:refresh`, `pricing:check`, `pricing:preview`,
 `pricing:apply`, `pricing:verify`.
 
+### DONE — step 1 (commit `14 commits`, branch `pricing-single-source`)
+
+**All four JS price tables retired.** `international-pricing.js`, `course-payment.js`,
+`summer-camp-enrollment.js` and `winter-camp-enrollment.js` hold no price literals.
+Everything resolves from `window.MAC_PRICING`. `verify` confirms it and will keep confirming.
+
+- `genericPriceSwap()` rules are generated from the config and sorted largest-first, so
+  changing a price can no longer silently disable the international swap, and ₹4,999 can
+  no longer match inside ₹49,999.
+- Country detection added — no network call, no third-party IP lookup. Explicit choice
+  (`nf_country` cookie / `?country=`) → India heuristic → language region → timezone map.
+- `pricing-data.generated.js` loaded on 325 pages + the course template. **6.4 KB gzipped.**
+- Bug found and fixed: country and currency were detected independently and could
+  disagree, pricing a switcher-selected Nigerian visitor in rupees.
+- Verified on the real `pricing.html`: India ₹1,499 (Mini Batch visible) · Nigeria $61.99
+  (Mini Batch hidden) · Germany $133.99 · US $149.99 list · undetected → list.
+
+50 tests pass (31 stamping, 19 rendered).
+
 ### NOT built yet — the remaining work, in order
 
-1. **Browser runtime for worldwide pricing.** `src/js/pricing-data.generated.js` is
-   emitted (101 KB, 208 countries) but **nothing reads it yet**. Needs: a timezone→country
-   table (IANA `zone.tab` + `backward`, measured at 3.9 KB brotli, 100% ICU coverage), the
-   local-currency estimate line, and a visible country switcher writing `nf_country`.
-   Until this ships, international visitors see the flat $40/$100 exactly as before.
-2. **Retire the three private price tables.** `international-pricing.js`,
-   `course-payment.js`, and the two camp files must read `window.MAC_PRICING`. Critical:
-   `genericPriceSwap()` uses the *current prices as regex keys*, so changing a price today
-   silently disables the international swap. `verify` already lists these four files.
-3. **Charge path.** Razorpay must be given the PPP price for the visitor's country, and
-   `courses-config.json` must stop being a second source of truth for the India amount.
-4. **Tag the remaining static pages.** ~529 files. Sequence: `pricing.html` visible cards →
+1. **The local-currency line and the country switcher.** The engine renders 166 currencies
+   correctly (`formatLocal`), but no page shows the local estimate yet — international
+   visitors currently see USD only. Needs the "≈ €94, charged as US$106.99" line, the
+   rate-and-date disclosure the UK CMA requires, and a visible switcher writing
+   `nf_country`. **The switcher is also the arbitrage vector** — Razorpay cannot see a
+   card's issuing country, so a US visitor can select Nigeria. The floor makes that
+   survivable (lost upside, never a loss), but the switcher's prominence is a business call.
+2. **Razorpay charge path.** `getIntlPricing()` now resolves the per-country amount, but
+   `courses-config.json` is still a second authority for the India amount and must be
+   generated from the config.
+3. **Tag the remaining static pages.** ~529 files. Sequence: `pricing.html` visible cards →
    city cluster (131, uniform shape) → country/Gulf/AI-ML → meta descriptions (94) →
    FAQ prose (~150, needs human review per the owner's decision).
 5. **Netlify build wiring.** Add `pricing:apply && pricing:verify` to the build command,
