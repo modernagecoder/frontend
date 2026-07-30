@@ -10,42 +10,111 @@
 const InternationalPricing = {
 
   // ─── Price Maps ───
-  // NOTE: For Indian users, site shows 3 tiers: Group ₹1,499, Mini Batch ₹2,499, Personal 1-on-1 ₹4,999.
-  // For international users, only 2 tiers are shown ($40 Group, $100 Personal). The Mini Batch tier
-  // is hidden via [data-india-only="true"] — NOT re-priced. No USD price exists for Mini Batch.
-  PRICES: {
-    india: {
-      group:     { amount: 1499,  display: '₹1,499',  symbol: '₹', period: '/month' },
-      miniBatch: { amount: 2499,  display: '₹2,499',  symbol: '₹', period: '/month' },
-      personal:  { amount: 4999,  display: '₹4,999',  symbol: '₹', period: '/month' },
-      lifetime:  { amount: 49999, display: '₹49,999', symbol: '₹', period: '' },
-      summer:    { amount: 4999,  display: '₹4,999',  symbol: '₹', period: '' }
-    },
-    international: {
-      group:    { amount: 40,  display: '$40',  symbol: '$', period: '/month', currency: 'USD' },
-      personal: { amount: 100, display: '$100', symbol: '$', period: '/month', currency: 'USD' },
-      lifetime: { amount: 599, display: '$599', symbol: '$', period: '',       currency: 'USD' },
-      summer:   { amount: 60,  display: '$60',  symbol: '$', period: '',       currency: 'USD' }
-    },
-    // MATHS-ONLY international pricing. Maths is priced above the flat coding
-    // price: 1-hour live classes, 2 per week, 8 per month. Indian (₹) prices are
-    // unchanged; the coding international prices above are unchanged. Applied on
-    // the pricing.html Maths tab and on any page tagged data-subject="maths".
-    internationalMaths: {
-      group:    { amount: 100, display: '$100', symbol: '$', period: '/month', currency: 'USD' },
-      personal: { amount: 150, display: '$150', symbol: '$', period: '/month', currency: 'USD' }
-    },
-    // AGENTS-ONLY international pricing for the premium Codex + Claude Code
-    // courses (pages tagged data-price-tier="agents"). Students run the real
-    // paid agent tools on their own Claude / ChatGPT subscriptions, so these
-    // two courses are premium-priced: India Group ₹2,499 / Mini Batch ₹4,999 /
-    // 1-on-1 ₹9,999; international Group $100 / 1-on-1 $150. No other course
-    // uses this table. Keep in sync with courses-config.json and
-    // getTierPrices() in scripts/generate-courses.js.
-    internationalAgents: {
-      group:    { amount: 100, display: '$100', symbol: '$', period: '/month', currency: 'USD' },
-      personal: { amount: 150, display: '$150', symbol: '$', period: '/month', currency: 'USD' }
+  //
+  // NO PRICES ARE WRITTEN HERE ANY MORE.
+  //
+  // Every figure comes from window.MAC_PRICING, generated from
+  // pricing/pricing.config.jsonc by `npm run pricing:apply`. That is what keeps
+  // the price shown on a page, the price Google is told, and the amount
+  // Razorpay charges from ever drifting apart.
+  //
+  // This table used to be hardcoded, and the price values doubled as the regex
+  // keys that genericPriceSwap() matched on. Changing a price therefore
+  // silently disabled the international swap on 325 pages. Both problems are
+  // fixed by deriving everything below from the config at runtime.
+  //
+  // For Indian visitors the site shows 3 tiers. Outside India the Mini Batch
+  // tier is hidden via [data-india-only="true"] rather than re-priced, because
+  // it is set to null in the config: it has never been sold in USD.
+  PRICES: null,
+
+  // The visitor's country, once detected. Drives the purchasing-power price.
+  country: null,
+
+  /**
+   * Build the price tables from the generated config data.
+   * Returns false if the data is missing, in which case this whole module
+   * stands down and the page keeps the rupee prices already in its markup —
+   * the safe failure, and what already happens on pages that never loaded
+   * this script.
+   */
+  loadTables: function () {
+    var data = window.MAC_PRICING;
+    if (!data || !data.plans) {
+      console.error('[International Pricing] window.MAC_PRICING is missing. ' +
+        'Add <script src="/js/pricing-data.generated.js"></script> before this file. ' +
+        'Leaving the page\'s existing prices untouched.');
+      return false;
     }
+
+    function money(amount, currency) {
+      if (amount === null || amount === undefined) return null;
+      var symbol = currency === 'INR' ? '₹' : '$';
+      var grouped = new Intl.NumberFormat(currency === 'INR' ? 'en-IN' : 'en-US', {
+        minimumFractionDigits: Number.isInteger(amount) ? 0 : 2,
+        maximumFractionDigits: Number.isInteger(amount) ? 0 : 2
+      }).format(amount);
+      return { amount: amount, display: symbol + grouped, symbol: symbol, currency: currency };
+    }
+
+    function tierSet(subject, region) {
+      var src = (data.plans[subject] && data.plans[subject][region]) || {};
+      var currency = data.display.chargeCurrencies[region];
+      var out = {};
+      Object.keys(src).forEach(function (tier) {
+        var m = money(src[tier], currency);
+        if (!m) return;                       // null = not sold, so no entry at all
+        m.period = (tier === 'oneTime') ? data.display.periodLabels.oneTime
+                                        : data.display.periodLabels.monthly;
+        out[tier] = m;
+      });
+      // The camps one-time fee is referred to as "summer" throughout this file.
+      var camp = data.plans.camps && data.plans.camps[region];
+      if (camp && camp.oneTime !== null && camp.oneTime !== undefined) {
+        out.summer = money(camp.oneTime, currency);
+        out.summer.period = '';
+      }
+      return out;
+    }
+
+    this.PRICES = {
+      india:                 tierSet('coding', 'india'),
+      international:         tierSet('coding', 'international'),
+      internationalMaths:    tierSet('maths', 'international'),
+      internationalAgents:   tierSet('agents', 'international'),
+      indiaMaths:            tierSet('maths', 'india'),
+      indiaAgents:           tierSet('agents', 'india')
+    };
+    return true;
+  },
+
+  /**
+   * Swap the USD figures for the visitor's own country, using the
+   * purchasing-power table. Falls back to the list price when the country is
+   * unknown or the worldwide layer is switched off.
+   */
+  applyCountryPrices: function () {
+    var data = window.MAC_PRICING;
+    if (!data || !data.worldwide || !data.worldwide.enabled) return;
+    var entry = this.country && data.worldwide.countries[this.country];
+    if (!entry) return;
+
+    var self = this;
+    [['international', 'coding'], ['internationalMaths', 'maths'], ['internationalAgents', 'agents']]
+      .forEach(function (pair) {
+        var table = self.PRICES[pair[0]];
+        var prices = entry.tiers && entry.tiers[pair[1]];
+        if (!table || !prices) return;
+        Object.keys(prices).forEach(function (tier) {
+          if (!table[tier]) return;
+          var amount = prices[tier];
+          table[tier].amount = amount;
+          table[tier].display = '$' + new Intl.NumberFormat('en-US', {
+            minimumFractionDigits: Number.isInteger(amount) ? 0 : 2,
+            maximumFractionDigits: Number.isInteger(amount) ? 0 : 2
+          }).format(amount);
+        });
+      });
   },
 
   isIndian: true, // default to India
@@ -65,9 +134,12 @@ const InternationalPricing = {
       this.isIndian = this.detectIndia();
     }
 
+    this.country = this.detectCountry();
+
     // Store globals for payment JS files and inline scripts to read
     window.__MAC_IS_INDIAN = this.isIndian;
     window.__MAC_CURRENCY = this.isIndian ? 'INR' : 'USD';
+    window.__MAC_COUNTRY = this.country;
   },
 
   // ─── Initialize (DOM-dependent: runs on DOMContentLoaded) ───
@@ -77,7 +149,13 @@ const InternationalPricing = {
       this.detectRegion();
     }
 
-    console.log('[International Pricing] Detected:', this.isIndian ? 'INDIA (INR)' : 'INTERNATIONAL (USD)');
+    // Every price this module writes comes from the config. Without it, stand
+    // down and leave the page exactly as the server sent it.
+    if (!this.loadTables()) return;
+    this.applyCountryPrices();
+
+    console.log('[International Pricing] Detected:', this.isIndian ? 'INDIA (INR)' : 'INTERNATIONAL (USD)',
+      this.country ? '· country ' + this.country : '');
 
     // Toggle catalog price chips (course.html) regardless of region
     this.updateCatalogPriceChips();
@@ -129,6 +207,90 @@ const InternationalPricing = {
     var b = document.body;
     return (!!el && el.getAttribute('data-price-tier') === 'agents') ||
            (!!b && b.getAttribute('data-price-tier') === 'agents');
+  },
+
+  // ─── Country detection ───
+  //
+  // No network call, and no third-party IP lookup. Sending every visitor's IP
+  // to a geolocation service would hand their address to a company they have no
+  // relationship with, add a round trip before a price could be shown, and take
+  // pricing down whenever that service had a bad day.
+  //
+  // Signals, in order of trust:
+  //   1. ?country=XX          — for testing
+  //   2. nf_country cookie    — what the visitor chose in the switcher; also
+  //                             the name Netlify itself uses
+  //   3. navigator.languages  — the region subtag of en-GB, de-DE, ar-AE...
+  //   4. timezone             — a coarse map of the zones that matter here
+  //
+  // Undetected visitors get the list price, which is the safe default for the
+  // merchant, and the switcher lets a real visitor correct it.
+
+  // Only zones whose country is unambiguous and where we actually sell. A zone
+  // that is missing simply falls through to the list price.
+  TZ_COUNTRY: {
+    'Asia/Kolkata': 'IN', 'Asia/Calcutta': 'IN',
+    'Asia/Karachi': 'PK', 'Asia/Dhaka': 'BD', 'Asia/Kathmandu': 'NP', 'Asia/Colombo': 'LK',
+    'Asia/Dubai': 'AE', 'Asia/Muscat': 'OM', 'Asia/Riyadh': 'SA', 'Asia/Qatar': 'QA',
+    'Asia/Bahrain': 'BH', 'Asia/Kuwait': 'KW', 'Asia/Amman': 'JO', 'Asia/Beirut': 'LB',
+    'Asia/Jerusalem': 'IL', 'Asia/Tehran': 'IR', 'Asia/Baghdad': 'IQ',
+    'Asia/Singapore': 'SG', 'Asia/Kuala_Lumpur': 'MY', 'Asia/Jakarta': 'ID',
+    'Asia/Manila': 'PH', 'Asia/Bangkok': 'TH', 'Asia/Ho_Chi_Minh': 'VN', 'Asia/Saigon': 'VN',
+    'Asia/Hong_Kong': 'HK', 'Asia/Tokyo': 'JP', 'Asia/Seoul': 'KR', 'Asia/Shanghai': 'CN',
+    'Asia/Taipei': 'TW', 'Asia/Yangon': 'MM', 'Asia/Phnom_Penh': 'KH',
+    'Africa/Lagos': 'NG', 'Africa/Accra': 'GH', 'Africa/Nairobi': 'KE',
+    'Africa/Kampala': 'UG', 'Africa/Dar_es_Salaam': 'TZ', 'Africa/Addis_Ababa': 'ET',
+    'Africa/Cairo': 'EG', 'Africa/Johannesburg': 'ZA', 'Africa/Casablanca': 'MA',
+    'Africa/Algiers': 'DZ', 'Africa/Tunis': 'TN', 'Africa/Kigali': 'RW',
+    'Africa/Lusaka': 'ZM', 'Africa/Harare': 'ZW', 'Africa/Abidjan': 'CI', 'Africa/Dakar': 'SN',
+    'Europe/London': 'GB', 'Europe/Dublin': 'IE', 'Europe/Paris': 'FR', 'Europe/Berlin': 'DE',
+    'Europe/Madrid': 'ES', 'Europe/Rome': 'IT', 'Europe/Amsterdam': 'NL', 'Europe/Brussels': 'BE',
+    'Europe/Vienna': 'AT', 'Europe/Zurich': 'CH', 'Europe/Lisbon': 'PT', 'Europe/Athens': 'GR',
+    'Europe/Stockholm': 'SE', 'Europe/Oslo': 'NO', 'Europe/Copenhagen': 'DK',
+    'Europe/Helsinki': 'FI', 'Europe/Warsaw': 'PL', 'Europe/Prague': 'CZ',
+    'Europe/Budapest': 'HU', 'Europe/Bucharest': 'RO', 'Europe/Sofia': 'BG',
+    'Europe/Moscow': 'RU', 'Europe/Kiev': 'UA', 'Europe/Kyiv': 'UA', 'Europe/Istanbul': 'TR',
+    'America/New_York': 'US', 'America/Chicago': 'US', 'America/Denver': 'US',
+    'America/Los_Angeles': 'US', 'America/Phoenix': 'US', 'America/Anchorage': 'US',
+    'Pacific/Honolulu': 'US', 'America/Detroit': 'US',
+    'America/Toronto': 'CA', 'America/Vancouver': 'CA', 'America/Edmonton': 'CA',
+    'America/Winnipeg': 'CA', 'America/Halifax': 'CA',
+    'America/Mexico_City': 'MX', 'America/Bogota': 'CO', 'America/Lima': 'PE',
+    'America/Santiago': 'CL', 'America/Sao_Paulo': 'BR', 'America/Argentina/Buenos_Aires': 'AR',
+    'America/Caracas': 'VE', 'America/Panama': 'PA', 'America/Guatemala': 'GT',
+    'America/Jamaica': 'JM', 'America/Port_of_Spain': 'TT',
+    'Australia/Sydney': 'AU', 'Australia/Melbourne': 'AU', 'Australia/Brisbane': 'AU',
+    'Australia/Perth': 'AU', 'Australia/Adelaide': 'AU',
+    'Pacific/Auckland': 'NZ', 'Pacific/Fiji': 'FJ'
+  },
+
+  detectCountry: function () {
+    var params = new URLSearchParams(window.location.search);
+
+    var forced = params.get('country');
+    if (forced) return forced.toUpperCase();
+
+    var m = document.cookie.match(/(?:^|;\s*)nf_country=([A-Za-z]{2})/);
+    if (m) return m[1].toUpperCase();
+
+    // ?test=intl has to keep working for testing, and must not resolve to a
+    // real country or it would pick up that country's discounted price.
+    var t = params.get('test');
+    if (t === 'india') return 'IN';
+    if (t === 'intl' || t === 'international') return null;
+
+    var langs = navigator.languages || [navigator.language || ''];
+    for (var i = 0; i < langs.length; i++) {
+      var region = String(langs[i]).match(/[-_]([A-Za-z]{2})(?:$|[-_])/);
+      if (region) return region[1].toUpperCase();
+    }
+
+    try {
+      var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+      if (this.TZ_COUNTRY[tz]) return this.TZ_COUNTRY[tz];
+    } catch (e) { /* no Intl support; fall through to list price */ }
+
+    return null;
   },
 
   // ─── Detection ───
@@ -325,11 +487,22 @@ const InternationalPricing = {
   // a plan/card/tier element that mentions both "Mini Batch" and ₹2,499.
   hideGenericMiniBatchCards() {
     var nameRx = /mini\s*batch/i;
-    // On the premium agents pages the Mini Batch tier is ₹4,999 (₹2,499 is the
-    // GROUP tier there and must never be hidden); everywhere else it is ₹2,499.
-    var priceRx = this.isAgentsContext()
-      ? /(?:₹|\bRs\.?)\s*4,?999(?!\d)/
-      : /(?:₹|\bRs\.?)\s*2,?499(?!\d)/;
+
+    // Which rupee figure identifies the Mini Batch card depends on the page:
+    // on the premium agents pages it is the agents mini-batch price, and the
+    // standard mini-batch figure is that page's GROUP tier, which must never be
+    // hidden. Read it from the config rather than hardcoding both, because a
+    // stale figure here fails OPEN — it leaves an India-only card visible to a
+    // foreign visitor who can then click toward a plan with no USD price.
+    var data = window.MAC_PRICING;
+    var subject = this.isAgentsContext() ? 'agents'
+      : this.isMathsContext() ? 'maths' : 'coding';
+    var miniBatch = data && data.plans[subject] && data.plans[subject].india
+      ? data.plans[subject].india.miniBatch : null;
+    if (miniBatch === null || miniBatch === undefined) return;
+
+    var digits = String(miniBatch).replace(/\B(?=(\d{3})+(?!\d))/g, ',?');
+    var priceRx = new RegExp('(?:₹|\\bRs\\.?)\\s*' + digits + '(?!\\d)');
     var candidates = document.querySelectorAll('[class*="plan"], [class*="card"], [class*="tier"]');
     candidates.forEach(function(el) {
       var txt = el.textContent || '';
@@ -349,33 +522,82 @@ const InternationalPricing = {
   // matters: ₹49,999 must be handled before ₹4,999. ₹2,499 maps to the $40
   // group price (no USD Mini Batch exists; inline "from ₹2,499" mentions on
   // hyper-local pages must not surface a third SKU).
+  /**
+   * Build the ₹ -> $ rules from the config, rather than hardcoding them.
+   *
+   * The old version listed the rupee figures literally, which meant the prices
+   * were also the match keys: change ₹1,499 to anything else and no rule fired,
+   * so every international visitor on 325 pages saw raw rupees. Deriving the
+   * rules from window.MAC_PRICING removes that trap entirely.
+   *
+   * Rules are sorted by rupee value, largest first. That ordering used to be a
+   * hand-written warning comment ("₹49,999 must be handled before ₹4,999")
+   * because ₹4,999 is a prefix match inside ₹49,999. Sorting makes it a
+   * property of the code instead of something a future editor has to remember.
+   */
+  buildSwapRules: function () {
+    var data = window.MAC_PRICING;
+    if (!data) return [];
+
+    var subject = this.isAgentsContext() ? 'agents'
+      : this.isMathsContext() ? 'maths' : 'coding';
+
+    var intl = this.isAgentsContext() ? this.PRICES.internationalAgents
+      : this.isMathsContext() ? this.PRICES.internationalMaths
+      : this.PRICES.international;
+    var coding = this.PRICES.international;
+
+    var rules = [];
+    var seen = {};
+
+    function add(inr, usdEntry) {
+      if (inr === null || inr === undefined || !usdEntry) return;
+      if (seen[inr]) return;                       // first rule for a value wins
+      seen[inr] = true;
+      // Match ₹1,499 / ₹1499 / Rs 1,499, but never a longer number that merely
+      // starts with these digits.
+      var digits = String(inr).replace(/\B(?=(\d{3})+(?!\d))/g, ',?');
+      rules.push({
+        value: inr,
+        rx: new RegExp('(?:₹|\\bRs\\.?)\\s*' + digits + '(?!\\d)', 'g'),
+        usd: usdEntry.display
+      });
+    }
+
+    // The subject's own tiers first, so an agents page maps its ₹2,499 group
+    // price to the group price rather than to the standard mini-batch rule.
+    var indiaTable = (data.plans[subject] && data.plans[subject].india) || {};
+    ['lifetime', 'personal', 'group'].forEach(function (tier) {
+      add(indiaTable[tier], intl[tier]);
+    });
+
+    // Mini Batch is deliberately absent: it is sold only in India, has no USD
+    // price, and the card carrying it is hidden from international visitors.
+    // Inventing a dollar figure for it would publish a plan that is not sold.
+
+    // Camps, then the in-school bootcamp tiers. School programmes run inside
+    // Indian schools and have no USD price of their own, so they borrow the
+    // matching coding tier rather than leaving a lone rupee figure on an
+    // otherwise dollar-priced page.
+    var camps = (data.plans.camps && data.plans.camps.india) || {};
+    add(camps.oneTime, this.PRICES.international.summer);
+
+    var school = (data.plans.school && data.plans.school.india) || {};
+    add(school.personal, coding.personal);
+    add(school.group, coding.group);
+
+    // Any remaining India price for this subject, mapped by tier name.
+    Object.keys(indiaTable).forEach(function (tier) {
+      add(indiaTable[tier], intl[tier] || coding[tier]);
+    });
+
+    rules.sort(function (a, b) { return b.value - a.value; });
+    return rules;
+  },
+
   genericPriceSwap() {
-    // Premium agents pages (data-price-tier="agents") carry their own tiers:
-    // Group ₹2,499 -> $100 and 1-on-1 ₹9,999 -> $150. The Mini Batch tier
-    // (₹4,999) is deliberately NOT swapped: it is an India-only plan with no
-    // USD price, and inline prose labels it "(India only)", so keeping the ₹
-    // figure stays truthful while a fabricated USD figure would not.
-    // Maths pages price Group at $100 and 1-on-1 at $150. Every other page
-    // keeps the flat coding swap (Group $40, 1-on-1 $100).
-    var rules = this.isAgentsContext() ? [
-      { rx: /(?:₹|\bRs\.?)\s*49,?999(?!\d)/g, usd: '$599' },
-      { rx: /(?:₹|\bRs\.?)\s*9,?999(?!\d)/g,  usd: '$150' },  // agents 1-on-1 tier
-      { rx: /(?:₹|\bRs\.?)\s*2,?499(?!\d)/g,  usd: '$100' }   // agents group tier
-    ] : this.isMathsContext() ? [
-      { rx: /(?:₹|\bRs\.?)\s*49,?999(?!\d)/g, usd: '$599' },
-      { rx: /(?:₹|\bRs\.?)\s*1,?499(?!\d)/g,  usd: '$100' },  // maths group tier
-      { rx: /(?:₹|\bRs\.?)\s*1,?999(?!\d)/g,  usd: '$100' },
-      { rx: /(?:₹|\bRs\.?)\s*2,?499(?!\d)/g,  usd: '$150' },
-      { rx: /(?:₹|\bRs\.?)\s*2,?999(?!\d)/g,  usd: '$150' },
-      { rx: /(?:₹|\bRs\.?)\s*4,?999(?!\d)/g,  usd: '$150' }   // maths 1-on-1 tier
-    ] : [
-      { rx: /(?:₹|\bRs\.?)\s*49,?999(?!\d)/g, usd: '$599' },
-      { rx: /(?:₹|\bRs\.?)\s*1,?499(?!\d)/g,  usd: '$40'  },
-      { rx: /(?:₹|\bRs\.?)\s*1,?999(?!\d)/g,  usd: '$40'  },  // school bootcamp group tier
-      { rx: /(?:₹|\bRs\.?)\s*2,?499(?!\d)/g,  usd: '$40'  },
-      { rx: /(?:₹|\bRs\.?)\s*2,?999(?!\d)/g,  usd: '$100' },  // school-page 1-on-1 tier
-      { rx: /(?:₹|\bRs\.?)\s*4,?999(?!\d)/g,  usd: '$100' }
-    ];
+    var rules = this.buildSwapRules();
+    if (!rules.length) return;
     var skip = { SCRIPT: 1, STYLE: 1, NOSCRIPT: 1, TEXTAREA: 1, TITLE: 1 };
     var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
     var node;

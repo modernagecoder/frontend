@@ -35,10 +35,21 @@ function test(name, fn) {
     catch (e) { failures.push({ name: name, message: e.message }); }
 }
 
-/** Build a DOM, optionally forcing region, and run international-pricing.js in it. */
-function render(html, region) {
+/**
+ * Build a DOM and run the real pricing scripts in it, in the same order a page
+ * loads them: the generated data first, then international-pricing.js.
+ *
+ * @param html    page markup
+ * @param region  'india' | 'intl' | undefined
+ * @param country ISO-2 code to simulate, e.g. 'NG'
+ */
+function render(html, region, country) {
+    let query = [];
+    if (region) query.push('test=' + region);
+    if (country) query.push('country=' + country);
+
     const dom = new JSDOM(html, {
-        url: 'https://learn.modernagecoders.com/pricing' + (region ? '?test=' + region : ''),
+        url: 'https://learn.modernagecoders.com/pricing' + (query.length ? '?' + query.join('&') : ''),
         runScripts: 'outside-only',
         pretendToBeVisual: true
     });
@@ -50,8 +61,8 @@ function render(html, region) {
         Object.defineProperty(win.navigator, 'languages', { value: ['en-IN'], configurable: true });
     }
 
-    const src = fs.readFileSync(path.join(ROOT, 'src', 'js', 'international-pricing.js'), 'utf8');
-    win.eval(src);
+    win.eval(fs.readFileSync(path.join(ROOT, 'src', 'js', 'pricing-data.generated.js'), 'utf8'));
+    win.eval(fs.readFileSync(path.join(ROOT, 'src', 'js', 'international-pricing.js'), 'utf8'));
     win.document.dispatchEvent(new win.Event('DOMContentLoaded', { bubbles: true }));
     return win;
 }
@@ -118,6 +129,94 @@ test('the Mini Batch stays visible for Indian visitors', function () {
     const win = render(stamped, 'india');
     const card = win.document.querySelector('[data-india-only="true"]');
     assert.notStrictEqual(card.style.display, 'none', 'Mini Batch must be visible in India');
+});
+
+// ─── the price tables now come from the config, not from literals ───
+
+test('international-pricing.js holds no price literals of its own', function () {
+    const src = fs.readFileSync(path.join(ROOT, 'src', 'js', 'international-pricing.js'), 'utf8');
+    const offenders = [];
+    src.split('\n').forEach(function (line, i) {
+        if (/^\s*(\/\/|\*|\/\*)/.test(line)) return;              // comments may cite prices
+        if (/z-index|border-radius|9999px|setTimeout/.test(line)) return;
+        if (/\b(1499|2499|4999|9999|49999|1999|2999|599|374\.99|149\.99)\b/.test(line)) {
+            offenders.push('line ' + (i + 1) + ': ' + line.trim().slice(0, 80));
+        }
+    });
+    assert.strictEqual(offenders.length, 0,
+        'price literals must come from the config:\n      ' + offenders.join('\n      '));
+});
+
+test('the runtime builds its tables from the config', function () {
+    const win = render(CARD, 'intl');
+    const P = win.InternationalPricing.PRICES;
+    assert.ok(P, 'PRICES must be built at init');
+    assert.strictEqual(P.india.group.amount, config.plans.coding.india.group);
+    assert.strictEqual(P.international.group.amount, config.plans.coding.international.group);
+    assert.strictEqual(P.international.miniBatch, undefined,
+        'a plan that is not sold must have no entry at all, not a fabricated one');
+});
+
+test('a visitor in Nigeria is charged the Nigerian price, not the list price', function () {
+    const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'src', 'js', 'pricing-data.generated.js'), 'utf8')
+        .replace(/^[\s\S]*?window\.MAC_PRICING = /, '').replace(/;\s*$/, ''));
+    const expected = data.worldwide.countries.NG.tiers.coding.group;
+
+    const win = render(CARD, null, 'NG');
+    assert.strictEqual(win.__MAC_COUNTRY, 'NG');
+    assert.strictEqual(win.InternationalPricing.PRICES.international.group.amount, expected,
+        'Nigeria should be charged its own price');
+    assert.ok(expected < config.plans.coding.international.group,
+        'and that price should be below the list price');
+});
+
+test('an undetected visitor pays the list price, never a discounted one', function () {
+    const win = render(CARD, 'intl');
+    assert.strictEqual(win.__MAC_COUNTRY, null);
+    assert.strictEqual(win.InternationalPricing.PRICES.international.group.amount,
+        config.plans.coding.international.group);
+});
+
+test('the rupee-to-dollar swap rules are derived from the config, largest first', function () {
+    const win = render(CARD, 'intl');
+    const rules = win.InternationalPricing.buildSwapRules();
+    assert.ok(rules.length > 0, 'rules must exist');
+
+    for (let i = 1; i < rules.length; i++) {
+        assert.ok(rules[i - 1].value > rules[i].value,
+            'rules must be sorted largest-first so ₹49,999 is handled before ₹4,999');
+    }
+    // The rules must track the config, which is the whole point of deriving them.
+    const values = rules.map(function (r) { return r.value; });
+    assert.ok(values.indexOf(config.plans.coding.india.group) !== -1,
+        'the current group price must be among the match keys, got: ' + values.join(', '));
+});
+
+test('changing a price does not break the swap — the old failure mode', function () {
+    // The rules used to be written as literals, so a price change silently
+    // stopped the swap firing and international visitors saw raw rupees.
+    const win = render(CARD, 'intl');
+    const IP = win.InternationalPricing;
+
+    win.MAC_PRICING.plans.coding.india.group = 1799;
+    IP.loadTables();
+    const rules = IP.buildSwapRules();
+    const values = rules.map(function (r) { return r.value; });
+
+    assert.ok(values.indexOf(1799) !== -1,
+        'after a price change the new figure must be a match key, got: ' + values.join(', '));
+    assert.ok(values.indexOf(1499) === -1,
+        'the old figure must no longer be matched, got: ' + values.join(', '));
+});
+
+test('a longer number starting with a price is not corrupted', function () {
+    const win = render(CARD, 'intl');
+    const rules = win.InternationalPricing.buildSwapRules();
+    const lifetime = rules.filter(function (r) { return r.value === 49999; })[0];
+    const personal = rules.filter(function (r) { return r.value === 4999; })[0];
+    if (!lifetime || !personal) return;
+    assert.ok(!personal.rx.test('₹49,999'),
+        'the ₹4,999 rule must not match inside ₹49,999');
 });
 
 test('the generated runtime price table is loadable and complete', function () {
