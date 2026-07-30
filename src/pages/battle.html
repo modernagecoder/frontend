@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/battle.css?v=1">
+<link rel="stylesheet" href="/css/battle.css?v=2">
 
 <style>
   .wrap { max-width: 940px; margin: 0 auto; padding: 1.2rem; }
@@ -68,13 +68,27 @@
   .savebar { display: flex; align-items: center; gap: 0.5rem; font-family: var(--mono);
              font-size: 0.68rem; color: var(--faint); margin-top: 0.55rem; }
 
-  /* ---- debate ----------------------------------------------------------- */
-  .versus { display: grid; grid-template-columns: 1fr auto 1fr; gap: 0.9rem; align-items: center; }
-  .side { padding: 0.8rem; border-radius: var(--r); border: 1px solid var(--line); text-align: center; }
-  .side.active { border-color: var(--acid); background: rgba(196, 248, 42, 0.07); }
-  .side-label { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.2em;
-                text-transform: uppercase; color: var(--faint); margin-bottom: 0.3rem; }
-  .vs { font-family: var(--disp); font-weight: 800; color: var(--faint); font-size: 0.9rem; }
+  /* ---- team debate ------------------------------------------------------- */
+  .team-row { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem; margin-top: 1rem; }
+  .team-side { padding: .7rem .8rem; border-radius: var(--r); border: 1px solid var(--line);
+               background: rgba(20,12,38,.4); }
+  .team-side.ours { border-color: var(--line2); background: rgba(168,85,247,.08); }
+  .team-side-label { font-family: var(--mono); font-size: .6rem; letter-spacing: .22em;
+                     text-transform: uppercase; color: var(--faint); margin-bottom: .5rem; }
+  .team-mate { display: flex; justify-content: space-between; gap: .5rem; align-items: center;
+               font-size: .84rem; padding: .22rem 0; }
+  .team-mate.me { color: var(--acid); font-weight: 600; }
+
+  /* The one instruction that matters in this round, so it does not read as
+     boilerplate to be scrolled past. */
+  .think { margin-top: .9rem; padding: .8rem 1rem; border-radius: var(--r);
+           border: 1px solid rgba(255,210,74,.4); background: rgba(255,210,74,.07);
+           font-size: .85rem; line-height: 1.6; color: var(--mut); }
+  .think strong { color: var(--gold); }
+
+  /* Which side an argument came from, at a glance. */
+  .msg.side-for     { border-left: 3px solid var(--cyan); }
+  .msg.side-against { border-left: 3px solid var(--pink); }
 
   .thread { max-height: 46vh; overflow-y: auto; display: flex; flex-direction: column;
             gap: 0.6rem; padding-right: 0.3rem; }
@@ -256,7 +270,7 @@
 
 <div id="verdict-host"></div>
 
-<script src="/js/battle-client.js?v=1"></script>
+<script src="/js/battle-client.js?v=2"></script>
 <script>
 (function () {
   'use strict';
@@ -276,7 +290,7 @@
     editorFor: null,
     dirty: false,
     pane: 'mine',       // round 2: 'mine' | 'arena'
-    watching: null      // pairId of the debate being spectated, if any
+    watching: null      // teamId of the transcript being read, if any
   };
 
   var $ = function (id) { return document.getElementById(id); };
@@ -414,6 +428,18 @@
 
     var round = data.round;
     if (!round) return renderLobby(data);
+
+    /**
+     * The debate stays on screen after the round ends.
+     *
+     * This check has to come BEFORE the generic "closed, your teacher is
+     * marking" screen, or a student would be shown a waiting message at exactly
+     * the moment the other teams' transcripts became readable — which is the
+     * whole point of the round ending.
+     */
+    if (round.type === 'debate' && data.debate && data.debate.chatsOpen) {
+      return renderDebate(data);
+    }
 
     if (round.status === 'grading' || round.status === 'closed') return renderWaiting(data);
     if (round.type === 'debate') return renderDebate(data);
@@ -794,317 +820,282 @@
    * comment box and a vote. That is the difference between a round the room is
    * in and a round twenty-eight people sit out.
    */
+  /**
+   * ROUND 2 — YOUR TEAM'S DEBATE.
+   *
+   * Four or five students argue one topic in a live group chat, split into a FOR
+   * half and an AGAINST half. No turns to wait for: an argument is something you
+   * join, and a student holding a point for ninety seconds stops caring.
+   *
+   * While the round runs you see only your own team. When it ends, every
+   * transcript opens and you can read how the other teams attacked the same
+   * topic — which is the most useful few minutes of the round.
+   */
   function renderDebate(data) {
-    var d = data.myDebate;
-    var arena = data.arena || { pairs: [] };
+    var t = data.myTeam;
+    var d = data.debate || { teams: [], messages: [] };
 
-    // No pair of your own — you are pure audience, so go straight to the arena.
-    if (!d) {
-      if (!arena.pairs.length) {
-        return renderStage('debate-none',
-          '<div class="card" style="text-align:center"><div class="waiting-orb"></div>' +
-          '<p class="mut">Your teacher is setting up the debate pairs.</p></div>');
-      }
-      renderStage('arena-only', '<div id="arena-host"></div>');
-      return renderArena(data, arena);
+    if (!t) {
+      return renderStage('team-none',
+        '<div class="card" style="text-align:center"><div class="waiting-orb"></div>' +
+        '<p class="mut">Your teacher is putting the teams together.</p></div>');
     }
 
-    if (renderStage('debate-' + d.pairId,
-      '<div class="seg" id="d-seg">' +
-        '<button data-pane="mine" class="on">My debate</button>' +
-        '<button data-pane="arena">Watch others<span class="n" id="d-arena-n"></span></button>' +
-      '</div>' +
+    var key = 'team-' + t.teamId + (d.chatsOpen ? '-open' : '');
+
+    if (renderStage(key,
+      (d.chatsOpen
+        ? '<div class="seg" id="t-seg">' +
+            '<button data-pane="mine" class="on">My team</button>' +
+            '<button data-pane="others">Read other teams<span class="n" id="t-others-n"></span></button>' +
+          '</div>'
+        : '') +
       '<div id="pane-mine">' +
         '<div class="card">' +
-          '<p class="kicker" style="margin-bottom:.4rem">' + (d.isBye ? 'Solo pitch' : 'Debate') + '</p>' +
-          '<h2 style="font-size:1.3rem;margin-bottom:.9rem" id="d-topic"></h2>' +
-          '<div class="versus" id="d-versus"></div>' +
-          (d.myHint ? '<p class="faint" style="font-size:.82rem;margin-top:.9rem" id="d-hint"></p>' : '') +
+          '<div class="between" style="margin-bottom:.7rem">' +
+            '<p class="kicker" id="t-name"></p>' +
+            '<span class="pill" id="t-side"></span>' +
+          '</div>' +
+          '<h2 style="font-size:1.25rem;line-height:1.35;margin-bottom:.8rem" id="t-topic"></h2>' +
+          '<p class="faint" id="t-hint" style="font-size:.84rem;line-height:1.6"></p>' +
+          '<div class="team-row" id="t-members"></div>' +
         '</div>' +
+
+        // The one instruction that matters in this round.
+        '<div class="think" id="t-think">' +
+          '<strong>Think, then type.</strong> Do not paste from an AI. ' +
+          'Your teacher reads every message afterwards, and an argument in your own ' +
+          'words beats a paragraph that is not.' +
+        '</div>' +
+
         '<div class="card" style="margin-top:.9rem">' +
           '<div class="between" style="margin-bottom:.9rem">' +
-            '<p class="kicker">The floor</p><span class="pill" id="d-turn"></span>' +
+            '<p class="kicker">The debate</p>' +
+            '<span class="pill" id="t-count"></span>' +
           '</div>' +
-          '<div class="thread" id="d-thread"></div>' +
-          '<div id="d-compose" style="margin-top:.9rem"></div>' +
+          '<div class="thread" id="t-thread"></div>' +
+          '<div id="t-compose" style="margin-top:.9rem"></div>' +
         '</div>' +
       '</div>' +
-      '<div id="pane-arena" class="hidden"><div id="arena-host"></div></div>')) {
-      $('d-topic').textContent = d.topic || 'Topic to follow';
-      if ($('d-hint')) $('d-hint').textContent = 'Your angle: ' + d.myHint;
+      '<div id="pane-others" class="hidden"><div id="others-host"></div></div>')) {
 
-      Array.prototype.forEach.call($('d-seg').children, function (btn) {
-        btn.addEventListener('click', function () {
-          state.pane = btn.dataset.pane;
-          Array.prototype.forEach.call($('d-seg').children, function (b) {
-            b.classList.toggle('on', b.dataset.pane === state.pane);
+      $('t-topic').textContent = t.topic || 'Topic to follow';
+      $('t-name').textContent = t.name || 'Your team';
+      if ($('t-hint')) $('t-hint').textContent = t.myHint ? 'Your angle: ' + t.myHint : '';
+
+      if ($('t-seg')) {
+        Array.prototype.forEach.call($('t-seg').children, function (btn) {
+          btn.addEventListener('click', function () {
+            state.pane = btn.dataset.pane;
+            Array.prototype.forEach.call($('t-seg').children, function (b) {
+              b.classList.toggle('on', b.dataset.pane === state.pane);
+            });
+            $('pane-mine').classList.toggle('hidden', state.pane !== 'mine');
+            $('pane-others').classList.toggle('hidden', state.pane !== 'others');
+            if (state.pane === 'mine') state.watching = null;
+            state.poller.reset();
           });
-          $('pane-mine').classList.toggle('hidden', state.pane !== 'mine');
-          $('pane-arena').classList.toggle('hidden', state.pane !== 'arena');
-          state.poller.reset();
         });
-      });
+      }
     }
 
-    $('d-arena-n').textContent = arena.pairs.length ? ' ' + arena.pairs.length : '';
-    renderArena(data, arena);
+    $('t-side').textContent = 'You argue ' + (t.mySide === 'for' ? 'FOR' : 'AGAINST');
+    $('t-side').className = 'pill ' + (t.mySide === 'for' ? 'pill-correct' : 'pill-wrong');
 
-    $('d-versus').innerHTML = d.isBye
-      ? '<div class="side active" style="grid-column:1/-1">' +
-          '<div class="side-label">You are pitching solo</div>' +
-          '<strong>' + esc(data.me.displayName) + '</strong></div>'
-      : '<div class="side' + (d.iAmSpeaker ? ' active' : '') + '">' +
-          '<div class="side-label">You · ' + esc(d.mySide) + '</div>' +
-          '<strong>' + esc(data.me.displayName) + '</strong></div>' +
-        '<div class="vs">VS</div>' +
-        '<div class="side' + (!d.iAmSpeaker ? ' active' : '') + '">' +
-          '<div class="side-label">' + esc(d.mySide === 'for' ? 'against' : 'for') + '</div>' +
-          '<strong>' + esc(d.opponentName || 'Opponent') + '</strong></div>';
+    // Teammates, grouped by side, with who has actually spoken.
+    $('t-members').innerHTML = ['for', 'against'].map(function (side) {
+      var group = t.members.filter(function (m) { return m.side === side; });
+      return '<div class="team-side' + (side === t.mySide ? ' ours' : '') + '">' +
+        '<div class="team-side-label">' + side + '</div>' +
+        group.map(function (m) {
+          return '<div class="team-mate' + (m.isMe ? ' me' : '') + '">' +
+            '<span class="truncate">' + esc(m.name) + (m.isMe ? ' (you)' : '') + '</span>' +
+            '<span class="mono faint" style="font-size:.68rem">' + m.msgCount + '</span></div>';
+        }).join('') +
+      '</div>';
+    }).join('');
 
-    $('d-turn').textContent = d.status === 'finished'
-      ? 'Debate over'
-      : 'Turn ' + (d.turnIndex + 1) + ' of ' + d.totalTurns + (d.iAmSpeaker ? ' · your turn' : ' · their turn');
-    $('d-turn').className = 'pill ' + (d.iAmSpeaker && d.status !== 'finished' ? 'pill-live' : 'pill-wait');
+    var scored = Math.min(t.myMessages, t.scoredMessages);
+    $('t-count').textContent = t.myMessages + ' sent · ' + (scored * t.pointsPerMessage) + ' pts' +
+      (t.myMessages >= t.scoredMessages ? ' (max)' : '');
+    $('t-count').className = 'pill ' + (t.myMessages ? 'pill-live' : 'pill-wait');
 
-    var thread = $('d-thread');
-    var atBottom = thread.scrollHeight - thread.scrollTop - thread.clientHeight < 60;
+    renderThread($('t-thread'), d.messages, true);
+    renderCompose(t, d);
 
-    thread.innerHTML = (d.messages || []).map(function (m) {
-      if (m.side === 'system') {
+    if (d.chatsOpen) {
+      var others = d.teams.filter(function (x) { return !x.isMine; });
+      if ($('t-others-n')) $('t-others-n').textContent = others.length ? ' ' + others.length : '';
+      renderOthers(data, d);
+    }
+  }
+
+  /** One thread renderer for your own team and for the ones you read after. */
+  function renderThread(host, messages, keepPosition) {
+    if (!host) return;
+    var atBottom = host.scrollHeight - host.scrollTop - host.clientHeight < 60;
+
+    host.innerHTML = (messages || []).map(function (m) {
+      if (m.side === 'system' || m.kind === 'system' || m.kind === 'missed') {
         return '<div class="msg system">' + esc(m.text) + '</div>';
       }
-      var mine = m.authorName === data.me.displayName;
-      return '<div class="msg' + (mine ? ' mine' : '') + '">' +
+      return '<div class="msg ' + (m.mine ? 'mine' : '') + ' side-' + esc(m.side) + '">' +
         '<div class="msg-who">' + esc(m.authorName) + ' · ' + esc(m.side) + '</div>' +
         '<div class="msg-text">' + esc(m.text) + '</div></div>';
-    }).join('') || '<p class="faint" style="font-size:.85rem;text-align:center">No arguments yet. Make the first one.</p>';
+    }).join('') ||
+      '<p class="faint" style="font-size:.85rem;text-align:center">' +
+      'Nothing said yet. Make the first argument.</p>';
 
-    if (atBottom) thread.scrollTop = thread.scrollHeight;
-
-    renderCompose(d);
+    if (!keepPosition || atBottom) host.scrollTop = host.scrollHeight;
   }
 
-  /* --------------------------------------------------- the arena (watch) -- */
-
-  function renderArena(data, arena) {
-    var host = $('arena-host');
+  function renderCompose(t, d) {
+    var host = $('t-compose');
     if (!host) return;
 
-    // Nothing open — show the list of debates to pick from.
-    if (!state.watching) {
-      host.innerHTML = '<div class="card">' +
-        '<p class="kicker" style="margin-bottom:.8rem">Live debates · tap one to watch</p>' +
-        '<div class="arena-list">' + (arena.pairs.map(function (p) {
-          var live = p.status === 'active';
-          return '<div class="arena-card' + (live ? ' live' : '') + '" data-watch="' + p.pairId + '">' +
-            '<div class="between" style="margin-bottom:.35rem">' +
-              '<span class="pill ' + (live ? 'pill-live' : 'pill-wait') + '">' +
-                (live ? '<span class="dot dot-live"></span>live' : 'finished') + '</span>' +
-              (p.myVote ? '<span class="pill pill-gold">you voted</span>' : '') +
-            '</div>' +
-            '<div class="arena-topic">' + esc(p.topic || 'Debate') + '</div>' +
-            '<div class="arena-who"><b>' + esc(p.aName) + '</b> (' + esc(p.aSide) + ')' +
-              ' vs <b>' + esc(p.bName) + '</b> (' + esc(p.bSide) + ')</div>' +
-          '</div>';
-        }).join('') || '<p class="faint" style="font-size:.85rem">No other debates running.</p>') +
-        '</div></div>';
-
-      Array.prototype.forEach.call(host.querySelectorAll('[data-watch]'), function (el) {
-        el.addEventListener('click', function () {
-          state.watching = el.dataset.watch;
-          state.poller.reset();
-        });
-      });
-      return;
-    }
-
-    var open = arena.pairs.filter(function (p) { return p.pairId === state.watching; })[0];
-    if (!open) { state.watching = null; return renderArena(data, arena); }
-
-    var fresh = host.dataset.open !== open.pairId;
-    if (fresh) {
-      host.dataset.open = open.pairId;
-      host.innerHTML =
-        '<div class="card">' +
-          '<button class="btn btn-sm btn-ghost" id="a-back" style="margin-bottom:.8rem">← All debates</button>' +
-          '<h2 style="font-size:1.15rem;margin-bottom:.8rem" id="a-topic"></h2>' +
-          '<div id="a-vote"></div>' +
-        '</div>' +
-        '<div class="card" style="margin-top:.9rem">' +
-          '<div class="between" style="margin-bottom:.9rem">' +
-            '<p class="kicker">The floor</p><span class="pill" id="a-turn"></span>' +
-          '</div>' +
-          '<div class="thread" id="a-thread"></div>' +
-          '<div class="row" style="margin-top:.9rem">' +
-            '<input class="field grow" id="a-say" maxlength="300" placeholder="Say something…">' +
-            '<button class="btn btn-primary btn-sm" id="a-send">Send</button>' +
-          '</div>' +
-          '<p class="faint" style="font-size:.72rem;margin-top:.4rem">' +
-            'You are watching — your comments are not scored.</p>' +
-        '</div>';
-
-      $('a-back').addEventListener('click', function () {
-        state.watching = null;
-        host.dataset.open = '';
-        state.poller.reset();
-      });
-      $('a-send').addEventListener('click', sendComment);
-      $('a-say').addEventListener('keydown', function (e) { if (e.key === 'Enter') sendComment(); });
-      $('a-topic').textContent = open.topic || 'Debate';
-    }
-
-    $('a-turn').textContent = open.status === 'active'
-      ? 'Turn ' + (open.turnIndex + 1) + ' of ' + open.totalTurns
-      : 'Finished';
-    $('a-turn').className = 'pill ' + (open.status === 'active' ? 'pill-live' : 'pill-wait');
-
-    renderVote(open);
-
-    var thread = $('a-thread');
-    var atBottom = thread.scrollHeight - thread.scrollTop - thread.clientHeight < 60;
-
-    thread.innerHTML = (open.messages || []).map(function (m) {
-      if (m.kind === 'audience') {
-        return '<div class="msg audience"><div class="msg-who">' + esc(m.authorName) +
-          '</div><div class="msg-text">' + esc(m.text) + '</div></div>';
-      }
-      if (m.side === 'system') return '<div class="msg system">' + esc(m.text) + '</div>';
-      return '<div class="msg"><div class="msg-who">' + esc(m.authorName) + ' · ' + esc(m.side) +
-        '</div><div class="msg-text">' + esc(m.text) + '</div></div>';
-    }).join('') || '<p class="faint" style="font-size:.85rem;text-align:center">No arguments yet.</p>';
-
-    if (atBottom || fresh) thread.scrollTop = thread.scrollHeight;
-  }
-
-  /**
-   * The vote is advisory and the teacher still decides. The tally stays hidden
-   * until they have scored the debate — a live count would just tell everyone
-   * which way to pile on.
-   */
-  function renderVote(open) {
-    var box = $('a-vote');
-    if (!box) return;
-
-    var total = open.votes ? open.votes.a + open.votes.b : 0;
-    var pctA = total ? Math.round((open.votes.a / total) * 100) : 50;
-
-    box.innerHTML =
-      '<div class="vote-row">' +
-        '<button class="vote-btn' + (open.myVote === 'a' ? ' mine' : '') + '" data-vote="a">' +
-          '<small>' + esc(open.aSide) + '</small>' + esc(open.aName) + '</button>' +
-        '<button class="vote-btn' + (open.myVote === 'b' ? ' mine' : '') + '" data-vote="b">' +
-          '<small>' + esc(open.bSide) + '</small>' + esc(open.bName) + '</button>' +
-      '</div>' +
-      (open.votes
-        ? '<div class="tally"><i class="a" style="width:' + pctA + '%"></i>' +
-          '<i class="b" style="width:' + (100 - pctA) + '%"></i></div>' +
-          '<p class="faint mono" style="font-size:.68rem;margin-top:.35rem;text-align:center">' +
-          open.votes.a + ' – ' + open.votes.b + ' · the room has spoken</p>'
-        : '<p class="faint" style="font-size:.72rem;margin-top:.5rem;text-align:center">' +
-          (open.myVote ? 'Vote recorded. ' : 'Who is winning? ') +
-          'Results are revealed once your teacher scores this debate.</p>');
-
-    Array.prototype.forEach.call(box.querySelectorAll('[data-vote]'), function (el) {
-      el.addEventListener('click', function () {
-        B.request('POST', '/battle/' + state.code + '/debate/vote', {
-          body: { pairId: state.watching, side: el.dataset.vote },
-          battleToken: PT
-        }).then(function () {
-          B.playCue('turn');
-          state.poller.reset();
-        }).catch(function (error) { alertBanner(error.message); });
-      });
-    });
-  }
-
-  function sendComment() {
-    var box = $('a-say');
-    var text = box.value.trim();
-    if (!text) return;
-
-    box.value = '';
-    B.request('POST', '/battle/' + state.code + '/debate/comment', {
-      body: { pairId: state.watching, text: text },
-      battleToken: PT
-    }).then(function () { state.poller.reset(); })
-      .catch(function (error) {
-        box.value = text;
-        alertBanner(error.message);
-      });
-  }
-
-  function renderCompose(d) {
-    var host = $('d-compose');
-
-    if (d.status === 'finished') {
+    if (t.status === 'done' || d.chatsOpen) {
       host.innerHTML = '<p class="faint" style="font-size:.85rem;text-align:center">' +
-        'This debate is finished. Your teacher is scoring it.</p>';
+        'This debate has finished. Your teacher is reading it.</p>';
       return;
     }
 
-    // The compose box is hidden when it is not your turn — but the server also
-    // refuses out-of-turn messages, because a client running two seconds behind
-    // still believes it is its turn.
-    if (!d.iAmSpeaker) {
-      host.innerHTML = '<p class="faint" style="font-size:.85rem;text-align:center">' +
-        'Waiting for ' + esc(d.opponentName || 'your opponent') + ' to argue.</p>';
-      return;
-    }
-
-    if (host.dataset.turn === String(d.turnIndex) && host.querySelector('textarea')) {
-      var left = host.querySelector('[data-left]');
-      if (left) left.textContent = d.messagesLeftThisTurn + ' messages left this turn';
-      return;
-    }
-
-    host.dataset.turn = String(d.turnIndex);
+    if (host.dataset.ready === '1') return;
+    host.dataset.ready = '1';
     host.innerHTML =
-      '<textarea class="field" id="d-text" rows="3" maxlength="1200" ' +
+      '<textarea class="field" id="t-text" rows="3" maxlength="' + t.maxChars + '" ' +
         'placeholder="Make your point…" aria-label="Your argument"></textarea>' +
       '<div class="row" style="margin-top:.6rem">' +
-        '<span class="faint mono" style="font-size:.68rem" data-left>' +
-          d.messagesLeftThisTurn + ' messages left this turn</span>' +
+        '<span class="faint mono" style="font-size:.68rem" id="t-left"></span>' +
         '<span class="grow"></span>' +
-        '<button class="btn btn-ghost btn-sm" id="d-end">End my turn</button>' +
-        '<button class="btn btn-primary btn-sm" id="d-send">Send</button>' +
+        '<button class="btn btn-primary btn-sm" id="t-send">Send</button>' +
       '</div>';
 
-    $('d-send').addEventListener('click', sendArgument);
-    $('d-end').addEventListener('click', function () {
-      B.request('POST', '/battle/' + state.code + '/debate/end-turn',
-        { body: { pairId: d.pairId }, battleToken: PT })
-        .then(function () { state.poller.reset(); });
-    });
+    var box = $('t-text');
+    var left = $('t-left');
+    function updateLeft() {
+      left.textContent = (t.maxChars - box.value.length) + ' characters left';
+    }
+    box.addEventListener('input', updateLeft);
+    updateLeft();
 
-    $('d-text').addEventListener('keydown', function (event) {
-      if ((event.metaKey || event.ctrlKey) && event.key === 'Enter') sendArgument();
+    $('t-send').addEventListener('click', sendArgument);
+    box.addEventListener('keydown', function (e) {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'Enter') sendArgument();
     });
   }
 
   function sendArgument() {
-    var box = $('d-text');
+    var box = $('t-text');
     var text = box.value.trim();
     if (!text) return;
 
-    var send = $('d-send');
+    var send = $('t-send');
     send.disabled = true;
 
     B.request('POST', '/battle/' + state.code + '/debate/message', {
-      body: { pairId: state.data.myDebate.pairId, text: text },
-      battleToken: PT
+      body: { text: text }, battleToken: PT
     }).then(function () {
       box.value = '';
+      if ($('t-left')) $('t-left').textContent = '';
       send.disabled = false;
       B.playCue('turn');
       state.poller.reset();
     }).catch(function (error) {
       send.disabled = false;
       alertBanner(error.message);
-      state.poller.reset();
     });
   }
 
-  /* ------------------------------------------------------------- waiting -- */
+  /* --------------------------------------- reading the other teams, after -- */
+
+  /**
+   * Opens once the round ends. Reading how another team argued the same topic is
+   * the point of this screen — and the vote is there because having read four
+   * debates, everyone has an opinion about which was best.
+   */
+  function renderOthers(data, d) {
+    var host = $('others-host');
+    if (!host) return;
+
+    var others = d.teams.filter(function (x) { return !x.isMine; });
+
+    if (!state.watching) {
+      host.innerHTML = '<div class="card">' +
+        '<p class="kicker" style="margin-bottom:.3rem">Every other debate</p>' +
+        '<p class="faint" style="font-size:.82rem;margin-bottom:.9rem">' +
+          'Read how they argued it. Then vote for whoever argued best.</p>' +
+        '<div class="arena-list">' + (others.map(function (x) {
+          return '<div class="arena-card" data-open-team="' + x.teamId + '">' +
+            '<div class="between" style="margin-bottom:.35rem">' +
+              '<span class="pill">' + esc(x.name) + '</span>' +
+              '<span class="faint mono" style="font-size:.68rem">' + x.messages + ' messages' +
+                (x.votes ? ' · ' + x.votes + ' votes' : '') + '</span>' +
+            '</div>' +
+            '<div class="arena-topic">' + esc(x.topic || 'Debate') + '</div>' +
+            '<div class="arena-who">' + x.members.map(function (m) {
+              return esc(m.name) + ' <span class="faint">(' + esc(m.side) + ')</span>';
+            }).join(' · ') + '</div>' +
+            (d.myVote === x.teamId ? '<div class="pill pill-gold" style="margin-top:.5rem">your vote</div>' : '') +
+          '</div>';
+        }).join('') || '<p class="faint" style="font-size:.85rem">No other teams.</p>') +
+        '</div>';
+
+      Array.prototype.forEach.call(host.querySelectorAll('[data-open-team]'), function (el) {
+        el.addEventListener('click', function () {
+          state.watching = el.dataset.openTeam;
+          state.poller.reset();
+        });
+      });
+      return;
+    }
+
+    var open = d.teams.filter(function (x) { return x.teamId === state.watching; })[0];
+    if (!open) { state.watching = null; return renderOthers(data, d); }
+
+    var fresh = host.dataset.open !== open.teamId;
+    if (fresh) {
+      host.dataset.open = open.teamId;
+      host.innerHTML =
+        '<div class="card">' +
+          '<button class="btn btn-sm btn-ghost" id="o-back" style="margin-bottom:.8rem">← All debates</button>' +
+          '<p class="kicker" style="margin-bottom:.3rem" id="o-name"></p>' +
+          '<h2 style="font-size:1.1rem;line-height:1.4;margin-bottom:.8rem" id="o-topic"></h2>' +
+          '<div id="o-vote"></div>' +
+        '</div>' +
+        '<div class="card" style="margin-top:.9rem">' +
+          '<p class="kicker" style="margin-bottom:.9rem">Their debate</p>' +
+          '<div class="thread" id="o-thread"></div>' +
+        '</div>';
+
+      $('o-back').addEventListener('click', function () {
+        state.watching = null;
+        host.dataset.open = '';
+        state.poller.reset();
+      });
+      $('o-name').textContent = open.name;
+      $('o-topic').textContent = open.topic || 'Debate';
+    }
+
+    $('o-vote').innerHTML =
+      '<button class="btn btn-block ' + (d.myVote === open.teamId ? 'btn-go' : '') + '" id="o-cast">' +
+        (d.myVote === open.teamId ? '✓ You voted for ' + esc(open.name) : 'Vote for ' + esc(open.name)) +
+      '</button>' +
+      '<p class="faint" style="font-size:.74rem;text-align:center;margin-top:.5rem">' +
+        (open.votes ? open.votes + ' vote' + (open.votes === 1 ? '' : 's') + ' so far · ' : '') +
+        'Your teacher still scores everyone individually.</p>';
+
+    $('o-cast').addEventListener('click', function () {
+      B.request('POST', '/battle/' + state.code + '/debate/vote', {
+        body: { teamId: open.teamId }, battleToken: PT
+      }).then(function () {
+        B.playCue('turn');
+        state.poller.reset();
+      }).catch(function (error) { alertBanner(error.message); });
+    });
+
+    renderThread($('o-thread'), open.teamId === d.watching ? d.messages : [], false);
+  }
+
 
   function renderWaiting(data) {
     renderStage('waiting-' + data.round.index,

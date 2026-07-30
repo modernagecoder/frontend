@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/battle.css?v=1">
+<link rel="stylesheet" href="/css/battle.css?v=2">
 
 <style>
   /* Everything scales from one viewport-derived unit, so the same page is
@@ -146,6 +146,25 @@
              animation: final 1s ease-in-out infinite; }
   @keyframes final { 0%,100% { opacity: .35 } 50% { opacity: 1 } }
 
+  /* ---- round 2 team grid ------------------------------------------------- */
+  .teamgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(calc(var(--u)*9), 1fr));
+              gap: calc(var(--u)*.45); align-content: start; }
+  .teamcard { padding: calc(var(--u)*.5) calc(var(--u)*.6); border-radius: calc(var(--u)*.55);
+              border: 1px solid var(--line); background: rgba(20,12,38,.5); min-width: 0; }
+  .teamcard.live { border-color: rgba(196,248,42,.4); background: rgba(196,248,42,.06); }
+  .teamcard-top { display: flex; justify-content: space-between; align-items: baseline;
+                  gap: calc(var(--u)*.4); margin-bottom: calc(var(--u)*.25); }
+  .teamcard-top b { font-family: var(--disp); font-size: calc(var(--u)*.78); }
+  .teamcard-top span { font-family: var(--mono); font-size: calc(var(--u)*.58); color: var(--acid); }
+  .teamcard-topic { font-size: calc(var(--u)*.55); color: var(--faint); line-height: 1.35;
+                    margin-bottom: calc(var(--u)*.35); overflow: hidden;
+                    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .teamcard-mates { display: flex; flex-wrap: wrap; gap: calc(var(--u)*.22); }
+  .mate { font-family: var(--mono); font-size: calc(var(--u)*.5); padding: 1px calc(var(--u)*.28);
+          border-radius: 999px; border: 1px solid var(--line); color: var(--mut); }
+  .mate.for { border-color: rgba(45,212,191,.45); color: var(--cyan-hi); }
+  .mate.against { border-color: rgba(255,45,142,.45); color: #ff8bbd; }
+
   /* ---- revealed audience vote ------------------------------------------- */
   .reveal { margin-top: calc(var(--u) * .6); }
   .reveal-bar { display: flex; height: calc(var(--u) * .55); border-radius: 999px;
@@ -220,7 +239,7 @@
 <div class="ticker" id="ticker"></div>
 <div class="final30 hidden" id="final30"></div>
 
-<script src="/js/battle-client.js?v=1"></script>
+<script src="/js/battle-client.js?v=2"></script>
 <script>
 (function () {
   'use strict';
@@ -232,8 +251,7 @@
   var state = {
     code: null, data: null, timer: null,
     seenMarks: {}, seenCue: null,
-    lastBoard: null,     // previous leaderboard, for detecting overtakes
-    seenReveals: {}      // debates whose vote has already been announced
+    lastBoard: null      // previous leaderboard, for detecting overtakes
   };
 
   var params = new URLSearchParams(location.search);
@@ -317,10 +335,8 @@
     announceRankChanges(board);
 
     // Right column: the debate spotlight during round 2, the pulse grid otherwise.
-    if (data.debateSpotlight) paintSpotlight(data.debateSpotlight, data.debateVotes);
+    if (data.debateBoard) paintTeams(data.debateBoard);
     else paintPulse(data);
-
-    announceReveals(data.debateVotes || []);
 
     celebrate(data.celebrations || []);
     cue(data.battle.soundCue);
@@ -341,85 +357,37 @@
   }
 
   /**
-   * Announces each debate's audience vote once, at the moment the teacher
-   * scores it. Deduped by pair, so a repeated poll does not replay it.
+   * ROUND 2 ON THE PROJECTOR — every team at once.
+   *
+   * Message counts are safe to show live: they tell the room who is engaged
+   * without telling anybody who is winning. The best-team vote appears only
+   * after the transcripts open, which is when it exists.
    */
-  function announceReveals(list) {
-    list.forEach(function (r) {
-      if (state.seenReveals[r.pairId]) return;
-      state.seenReveals[r.pairId] = true;
-      // Skip the first paint after a page load, or an old battle would replay
-      // every reveal at once.
-      if (!state.lastBoard) return;
-
-      var winner = r.votesA === r.votesB ? null : (r.votesA > r.votesB ? r.aName : r.bName);
-      tick(winner
-        ? 'The room picked <b>' + esc(winner) + '</b> — ' + r.votesA + ' to ' + r.votesB
-        : 'The room was split — ' + r.votesA + ' all');
-      B.confetti(70, { x: 0.5, y: 0.4 });
-    });
-  }
-
-  function paintSpotlight(spot, votes) {
-    $('s-right-title').textContent = 'On the floor';
-    $('s-submitted').textContent = 'turn ' + (spot.turnIndex + 1) + ' / ' + spot.totalTurns +
-      (spot.watching ? ' · ' + spot.watching + ' watching' : '');
+  function paintTeams(board) {
+    $('s-right-title').textContent = 'The debates';
+    $('s-submitted').textContent = board.chatsOpen ? 'transcripts open' : board.teams.length + ' teams';
 
     $('s-right').innerHTML =
-      '<p style="font-family:var(--disp);font-weight:700;font-size:calc(var(--u)*.95);' +
-        'margin-bottom:calc(var(--u)*.7)">' + esc(spot.topic) + '</p>' +
-      '<div class="spot-vs">' +
-        '<div class="spot-side' + (spot.currentSpeaker === 'a' ? ' on' : '') + '">' +
-          '<small>' + esc(spot.aSide) + '</small><b>' + esc(spot.aName) + '</b></div>' +
-        '<div class="vs" style="font-size:calc(var(--u)*.7)">VS</div>' +
-        '<div class="spot-side' + (spot.currentSpeaker === 'b' ? ' on' : '') + '">' +
-          '<small>' + esc(spot.bSide) + '</small><b>' + esc(spot.bName) + '</b></div>' +
-      '</div>' +
-      (spot.lastMessage
-        ? '<p class="spot-quote">' + esc(spot.lastMessage.text) +
+      '<div class="teamgrid">' + board.teams.map(function (t) {
+        return '<div class="teamcard' + (t.status === 'live' ? ' live' : '') + '">' +
+          '<div class="teamcard-top">' +
+            '<b>' + esc(t.name) + '</b>' +
+            '<span>' + t.messages + (t.votes ? ' · ' + t.votes + '&#9733;' : '') + '</span>' +
+          '</div>' +
+          '<p class="teamcard-topic">' + esc(t.topic || '') + '</p>' +
+          '<div class="teamcard-mates">' + t.members.map(function (m) {
+            return '<span class="mate ' + esc(m.side) + '">' + esc(m.name.split(' ')[0]) +
+              (m.msgCount ? ' ' + m.msgCount : '') + '</span>';
+          }).join('') + '</div>' +
+        '</div>';
+      }).join('') + '</div>' +
+      (board.lastMessage
+        ? '<p class="spot-quote" style="margin-top:calc(var(--u)*.7)">' +
+          esc(board.lastMessage.text) +
           '<br><span class="faint mono" style="font-size:calc(var(--u)*.52)">— ' +
-          esc(spot.lastMessage.authorName) + '</span></p>'
-        : '<p class="faint" style="font-size:calc(var(--u)*.66)">Waiting for the first argument.</p>') +
-
-      // Only debates the teacher has already scored show their vote. A live
-      // tally on a projector would just tell the room which way to pile on.
-      ((votes || []).map(function (r) {
-        var total = r.votesA + r.votesB;
-        var pct = total ? Math.round((r.votesA / total) * 100) : 50;
-        return '<div class="reveal">' +
-          '<div class="reveal-bar"><i class="a" style="width:' + pct + '%"></i>' +
-            '<i class="b" style="width:' + (100 - pct) + '%"></i></div>' +
-          '<div class="reveal-row"><span>' + esc(r.aName) + ' ' + r.votesA + '</span>' +
-            '<span>' + r.votesB + ' ' + esc(r.bName) + '</span></div></div>';
-      }).join(''));
-  }
-
-  /**
-   * Fires once per mark. The server sends everything marked in the last fifteen
-   * seconds, so a repeated poll would replay the same celebration — the seen
-   * set is what stops the room being confettied twice for one answer.
-   */
-  function celebrate(marks) {
-    marks.forEach(function (mark) {
-      if (state.seenMarks[mark.markId]) return;
-      state.seenMarks[mark.markId] = true;
-
-      var el = document.createElement('div');
-      el.className = 'cheer';
-      el.innerHTML = '<b>' + esc(mark.displayName) + '</b>' +
-                     '<small>+' + mark.points + ' points</small>';
-      document.body.appendChild(el);
-      setTimeout(function () { el.remove(); }, 2700);
-
-      B.confetti(120, { x: 0.5, y: 0.3 });
-      B.playCue('correct');
-    });
-  }
-
-  function cue(soundCue) {
-    if (!soundCue || !soundCue.at || state.seenCue === soundCue.at) return;
-    if (state.seenCue !== null) B.playCue(soundCue.id);
-    state.seenCue = soundCue.at;
+          esc(board.lastMessage.authorName) + ', ' + esc(board.lastMessage.teamName) +
+          ' (' + esc(board.lastMessage.side) + ')</span></p>'
+        : '');
   }
 
   /**

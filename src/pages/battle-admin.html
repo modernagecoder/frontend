@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/battle.css?v=1">
+<link rel="stylesheet" href="/css/battle.css?v=2">
 
 <style>
   .wrap { max-width: 1240px; margin: 0 auto; padding: 1.1rem; }
@@ -145,7 +145,7 @@
 
 <div id="modal-host"></div>
 
-<script src="/js/battle-client.js?v=1"></script>
+<script src="/js/battle-client.js?v=2"></script>
 <script>
 (function () {
   'use strict';
@@ -378,7 +378,7 @@
       ['questions', 'Questions'],
       ['grading', 'Grading', d.counts.pendingGrading],
       ['students', 'Students', d.counts.joined],
-      ['debate', 'Debate'],
+      ['debate', 'Teams'],
       ['board', 'Leaderboard']
     ];
 
@@ -1271,119 +1271,193 @@
 
   /* -------------------------------------------------------- debate tab --- */
 
+  /**
+   * ROUND 2 — THE TEAMS TAB.
+   *
+   * Form the teams, adjust who argues which side, read what was said, score each
+   * student individually, and download the lot.
+   *
+   * Per-student scoring rather than per-team because four students never
+   * contribute equally, and marking them as a block punishes whoever did the
+   * work. The message counts on each row are there to make that judgement
+   * possible at a glance before you read a word.
+   */
   function paintDebate() {
     var b = app.data.battle;
-    var pairs = (b.round2 && b.round2.pairings) || [];
+    var teams = (b.round2 && b.round2.teams) || [];
     var topics = ((b.rounds || []).filter(function (r) { return r.index === 2; })[0] || {}).questions || [];
+    var votes = app.data.teamVotes || {};
+    var open = !!(b.round2 && b.round2.chatsOpen);
+
+    var sizes = teams.map(function (t) { return t.members.length; });
 
     $('tabbody').innerHTML =
-      '<div class="between" style="margin-bottom:1rem">' +
-        '<div><p class="kicker">Round 2</p>' +
-          '<h2 style="font-size:1.15rem;margin-top:.2rem">' + pairs.length + ' pairs</h2></div>' +
-        '<div class="row">' +
-          '<button class="btn btn-sm" id="p-skill">Pair by score</button>' +
-          '<button class="btn btn-sm" id="p-random">Pair randomly</button>' +
+      '<div class="item between" style="margin-bottom:1rem">' +
+        '<div class="grow" style="min-width:0">' +
+          '<strong style="font-size:.95rem">' +
+            (teams.length ? teams.length + ' teams · ' + sizes.join(', ') : 'No teams yet') + '</strong>' +
+          '<p class="faint" style="font-size:.8rem;margin-top:.2rem">' +
+            (teams.length
+              ? 'Students debate in their own team only. Every transcript opens to everyone when the round ends.'
+              : 'Four per team, with the remainder as teams of five. Write a topic first.') +
+          '</p>' +
+        '</div>' +
+        '<div class="row wrap">' +
+          (teams.length ? '<button class="btn btn-sm btn-ghost" id="t-download">Download all chats</button>' : '') +
+          (teams.length && !open ? '<button class="btn btn-sm btn-ghost" id="t-open">Open transcripts</button>' : '') +
+          '<button class="btn btn-sm btn-primary" id="t-form">' +
+            (teams.length ? 'Re-form teams' : 'Form teams') + '</button>' +
         '</div>' +
       '</div>' +
-      (pairs.length ? '<div class="list">' + pairs.map(function (p) {
-        var topic = topics.filter(function (t) { return t.qid === p.topicQid; })[0];
-        return '<div class="item">' +
-          '<div class="between" style="margin-bottom:.55rem">' +
-            '<strong style="font-size:.92rem">' + esc(topic ? (topic.topic || topic.title) : 'No topic') + '</strong>' +
-            '<span class="pill ' + (p.status === 'active' ? 'pill-live' :
-              p.status === 'finished' ? 'pill-correct' : 'pill-wait') + '">' + esc(p.status) + '</span>' +
+
+      (open ? '<div class="banner banner-success" style="margin-bottom:1rem">' +
+        'Transcripts are open — students can read every team and vote for the best.</div>' : '') +
+
+      (teams.length ? teams.map(function (t) {
+        var topic = topics.filter(function (x) { return x.qid === t.topicQid; })[0];
+        var total = t.members.reduce(function (n, m) { return n + (m.msgCount || 0); }, 0);
+
+        return '<div class="card" style="margin-bottom:.9rem">' +
+          '<div class="between" style="margin-bottom:.7rem">' +
+            '<div class="grow" style="min-width:0">' +
+              '<p class="kicker">' + esc(t.name) + '</p>' +
+              '<h3 style="font-size:1rem;margin-top:.25rem;line-height:1.4">' +
+                esc(topic ? (topic.topic || topic.title) : 'No topic set') + '</h3>' +
+            '</div>' +
+            '<div class="row">' +
+              '<span class="pill ' + (t.status === 'live' ? 'pill-live' :
+                t.status === 'done' ? 'pill-correct' : 'pill-wait') + '">' + esc(t.status) + '</span>' +
+              '<span class="pill">' + total + ' messages</span>' +
+              (votes[t.teamId] ? '<span class="pill pill-gold">' + votes[t.teamId] + ' votes</span>' : '') +
+            '</div>' +
           '</div>' +
-          (p.isBye
-            ? '<p style="font-size:.88rem"><strong>' + esc(p.aName) + '</strong> ' +
-              '<span class="faint">— solo pitch (odd number of students)</span></p>'
-            : '<p style="font-size:.88rem">' +
-              '<strong>' + esc(p.aName) + '</strong> <span class="faint">(' + esc(p.aSide) + ')</span>' +
-              '<span class="faint"> vs </span>' +
-              '<strong>' + esc(p.bName) + '</strong> <span class="faint">(' + esc(p.bSide) + ')</span></p>') +
-          '<p class="faint mono" style="font-size:.7rem;margin-top:.3rem">' +
-            'turn ' + (p.turnIndex + 1) + ' of ' + p.totalTurns +
-            ' · spoke ' + p.spokenTurns.a + '/' + p.spokenTurns.b +
-            ' · missed ' + p.missedTurns.a + '/' + p.missedTurns.b + '</p>' +
 
-          // The audience vote, shown ONLY to you. The room does not see it
-          // until you score the debate — so it informs your judgement without
-          // the class getting to pre-empt it.
-          (function () {
-            var v = (app.data.pairVotes || {})[p.pairId];
-            if (!v || p.isBye || (v.a + v.b) === 0) return '';
-            var total = v.a + v.b;
-            var lead = v.a === v.b ? 'split' :
-              (v.a > v.b ? p.aName : p.bName) + ' ahead';
-            return '<p class="faint mono" style="font-size:.7rem;margin-top:.25rem">' +
-              '<span style="color:var(--gold)">audience ' + v.a + '–' + v.b + '</span>' +
-              ' · ' + esc(lead) + ' · ' + total + ' voted' +
-              (v.revealed ? ' · shown to the room' : ' · hidden until you score') + '</p>';
-          })() +
-          '<div class="row wrap" style="margin-top:.6rem">' +
-            (p.status === 'active'
-              ? '<button class="btn btn-sm" data-skip="' + p.pairId + '">Skip this turn</button>' : '') +
-            '<button class="btn btn-sm btn-primary" data-score="' + p.pairId + '">Score the debate</button>' +
+          '<div class="tbl-wrap"><table><thead><tr>' +
+            '<th>Student</th><th>Side</th><th>Messages</th><th>Auto</th>' +
+            '<th>Your mark / ' + b.config.r2QualityMax + '</th></tr></thead><tbody>' +
+          t.members.map(function (m) {
+            var auto = Math.min(m.msgCount || 0, b.config.r2MaxScoredMessages) * b.config.r2PointsPerMessage;
+            return '<tr>' +
+              '<td>' + esc(m.name) + '</td>' +
+              '<td><select class="field" data-side="' + t.teamId + ':' + m.p + '" ' +
+                  'style="padding:.28rem .4rem;font-size:.8rem;width:6rem">' +
+                ['for', 'against'].map(function (s) {
+                  return '<option value="' + s + '"' + (m.side === s ? ' selected' : '') + '>' + s + '</option>';
+                }).join('') + '</select></td>' +
+              '<td class="mono faint">' + (m.msgCount || 0) + '</td>' +
+              '<td class="mono" style="color:var(--cyan-hi)">' + auto + '</td>' +
+              '<td><input class="field" type="number" min="0" max="' + b.config.r2QualityMax + '" ' +
+                'value="' + (m.quality || 0) + '" data-q="' + t.teamId + ':' + m.p + '" ' +
+                'style="width:4.6rem;padding:.28rem .4rem;font-size:.82rem;text-align:center"></td>' +
+            '</tr>';
+          }).join('') + '</tbody></table></div>' +
+
+          '<div class="row wrap" style="margin-top:.8rem">' +
+            '<input class="field grow" data-note="' + t.teamId + '" placeholder="Your note on this debate" ' +
+              'value="' + esc(t.note || '') + '" style="font-size:.84rem">' +
+            '<button class="btn btn-sm btn-ghost" data-read="' + t.teamId + '">Read the debate</button>' +
+            '<button class="btn btn-sm btn-primary" data-save="' + t.teamId + '">Save marks</button>' +
           '</div></div>';
-      }).join('') + '</div>'
+      }).join('')
         : '<div class="card" style="text-align:center"><p class="mut">' +
-          'No pairs yet. Add debate topics in Questions, then pair the students.</p></div>');
+          'Write a debate topic in Questions, then form the teams.</p></div>');
 
-    bind('p-skill',  function () { pairUp('skill'); });
-    bind('p-random', function () { pairUp('random'); });
-
-    Array.prototype.forEach.call(document.querySelectorAll('[data-skip]'), function (el) {
-      el.addEventListener('click', function () {
-        act(api('POST', '/' + app.battleId + '/round2/pairs/' + el.dataset.skip + '/skip-turn'), 'Turn skipped');
-      });
+    bind('t-form', formTeams);
+    bind('t-download', function () {
+      downloadAuthed('/' + app.battleId + '/round2/transcript.txt',
+        'battle-' + app.data.battle.code + '-debates.txt', 'All debates downloaded');
     });
-    Array.prototype.forEach.call(document.querySelectorAll('[data-score]'), function (el) {
-      el.addEventListener('click', function () { scoreModal(el.dataset.score); });
+    bind('t-open', function () {
+      areYouSure('Open every transcript to every student now, before the round ends?',
+        'Open transcripts').then(function (yes) {
+          if (yes) act(api('POST', '/' + app.battleId + '/round2/open-chats'), 'Transcripts opened');
+        });
+    });
+
+    Array.prototype.forEach.call(document.querySelectorAll('[data-save]'), function (el) {
+      el.addEventListener('click', function () { saveTeamMarks(el.dataset.save); });
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('[data-read]'), function (el) {
+      el.addEventListener('click', function () { readDebate(el.dataset.read); });
     });
   }
 
-  function pairUp(mode) {
+  function formTeams() {
     var running = app.data.battle.currentRound === 2;
-    var go = running
-      ? areYouSure('Round 2 is already running. Re-pairing deletes every debate written so far.', 'Re-pair anyway', true)
+    var ask = running
+      ? areYouSure('Round 2 is running. Re-forming teams deletes every debate written so far.',
+          'Re-form anyway', true)
       : Promise.resolve(true);
-    go.then(function (yes) {
-      if (yes) act(api('POST', '/' + app.battleId + '/round2/pair', { mode: mode, force: running }), 'Students paired');
+
+    ask.then(function (yes) {
+      if (!yes) return;
+      act(api('POST', '/' + app.battleId + '/round2/form-teams', { force: running }))
+        .then(function (res) {
+          toast(res.teams.length + ' teams formed — ' + res.sizes.join(', '), 'success');
+        });
     });
   }
 
-  function scoreModal(pairId) {
-    var b = app.data.battle;
-    var p = (b.round2.pairings || []).filter(function (x) { return x.pairId === pairId; })[0];
-    var max = b.config.r2QualityMax;
+  function saveTeamMarks(teamId) {
+    var scores = {};
+    Array.prototype.forEach.call(document.querySelectorAll('[data-q^="' + teamId + ':"]'), function (el) {
+      scores[el.dataset.q.split(':')[1]] = Number(el.value) || 0;
+    });
 
-    openModal(
-      '<h2 style="font-size:1.15rem;margin-bottom:.3rem">Score the debate</h2>' +
-      '<p class="faint" style="font-size:.82rem;margin-bottom:1rem">' +
-        'Out of ' + max + ' each, for argument quality. Turns they actually spoke in are already ' +
-        'scored automatically.</p>' +
-      '<div class="stack">' +
-        '<div><label class="lbl" for="s-a">' + esc(p.aName) + ' (' + esc(p.aSide) + ')</label>' +
-          '<input class="field" id="s-a" type="number" min="0" max="' + max + '" value="' + p.quality.a + '"></div>' +
-        (p.isBye ? '' :
-        '<div><label class="lbl" for="s-b">' + esc(p.bName) + ' (' + esc(p.bSide) + ')</label>' +
-          '<input class="field" id="s-b" type="number" min="0" max="' + max + '" value="' + p.quality.b + '"></div>') +
-        '<div><label class="lbl" for="s-note">Note (for your own records)</label>' +
-          '<input class="field" id="s-note" value="' + esc(p.qualityNote || '') + '"></div>' +
-      '</div>' +
-      '<div class="row" style="margin-top:1.1rem;justify-content:flex-end">' +
-        '<button class="btn btn-ghost" id="s-cancel">Cancel</button>' +
-        '<button class="btn btn-primary" id="s-save">Save scores</button></div>');
+    var sides = {};
+    Array.prototype.forEach.call(document.querySelectorAll('[data-side^="' + teamId + ':"]'), function (el) {
+      sides[el.dataset.side.split(':')[1]] = el.value;
+    });
 
-    bind('s-cancel', closeModal);
-    bind('s-save', function () {
-      var body = { a: Number($('s-a').value), note: $('s-note').value };
-      if ($('s-b')) body.b = Number($('s-b').value);
-      act(api('POST', '/' + app.battleId + '/round2/pairs/' + pairId + '/score', body), 'Scores saved')
-        .then(closeModal);
+    var noteEl = document.querySelector('[data-note="' + teamId + '"]');
+    var note = noteEl ? noteEl.value : '';
+
+    // Sides first, then the marks, so a side change is reflected in the
+    // transcript header before the scores land.
+    api('PUT', '/' + app.battleId + '/round2/teams/' + teamId, { sides: sides })
+      .then(function () {
+        return act(api('POST', '/' + app.battleId + '/round2/teams/' + teamId + '/score',
+          { scores: scores, note: note }), 'Marks saved');
+      })
+      .catch(function (error) { toast(error.message, 'error'); });
+  }
+
+  /**
+   * Reads one team's transcript in a modal. Fetched from the full download and
+   * sliced client-side rather than adding a per-team endpoint — the host is
+   * about to download the whole thing anyway.
+   */
+  function readDebate(teamId) {
+    var team = ((app.data.battle.round2 || {}).teams || [])
+      .filter(function (t) { return t.teamId === teamId; })[0];
+
+    openModal('<h2 style="font-size:1.15rem;margin-bottom:.8rem">' +
+      esc(team ? team.name : 'Debate') + '</h2>' +
+      '<div id="rd-body"><div class="row"><div class="spinner"></div>' +
+      '<span class="faint" style="font-size:.85rem">Loading the transcript…</span></div></div>' +
+      '<div class="row" style="margin-top:1rem;justify-content:flex-end">' +
+        '<button class="btn btn-ghost" id="rd-close">Close</button></div>');
+
+    bind('rd-close', closeModal);
+
+    fetch(B.API_BASE + '/battle-admin/' + app.battleId + '/round2/transcript.txt', {
+      headers: { Authorization: 'Bearer ' + app.token }
+    }).then(function (r) { return r.text(); }).then(function (txt) {
+      var name = (team ? team.name : '').toUpperCase();
+      var from = txt.indexOf(name);
+      var chunk = from < 0 ? txt : txt.slice(from);
+      // Stop at the next team's banner.
+      var nextBar = chunk.indexOf('='.repeat(78), 10);
+      if (nextBar > 0) chunk = chunk.slice(0, nextBar);
+
+      var body = document.getElementById('rd-body');
+      if (body) body.innerHTML = '<pre class="qbody" style="max-height:60vh">' + esc(chunk.trim()) + '</pre>';
+    }).catch(function () {
+      var body = document.getElementById('rd-body');
+      if (body) body.innerHTML = '<div class="banner banner-error">Could not load the transcript.</div>';
     });
   }
 
-  /* --------------------------------------------------- leaderboard tab --- */
 
   function paintBoard() {
     var board = app.data.leaderboard || [];
