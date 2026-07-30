@@ -121,9 +121,28 @@
 
     // The floor. Your protection against ever earning less abroad than at home.
     "floor": {
-      // Which India price each international plan must not undercut.
-      // EVERY tier you sell needs a line here. A tier missing from this list
-      // gets no floor at all and can be discounted below what India nets you.
+      // ── THE HARD MINIMUM ──────────────────────────────────────────────
+      // The least you will accept from ONE international sale, in rupees,
+      // AFTER every fee and the currency conversion. No country, in any
+      // currency, is ever charged less than this.
+      //
+      // This is the number to change if you want more or less from abroad.
+      // Everything else in this section is secondary protection.
+      //
+      // A tier not listed here falls back to scaling group by its list-price
+      // ratio, so 1-on-1 at 2.5x the group list price gets 2.5x this floor.
+      "minNetInr": {
+        "group":     9500,
+        "personal":  23750,
+        "miniBatch": null,
+        "lifetime":  null,
+        "oneTime":   null
+      },
+
+      // Secondary floor: never charge abroad less than the matching India
+      // plan nets. With minNetInr set this rarely binds, but it keeps the
+      // guarantee true if minNetInr is ever lowered or removed.
+      // EVERY tier you sell needs a line here.
       "matchIndiaTier": {
         "group":     "group",
         "miniBatch": "miniBatch",

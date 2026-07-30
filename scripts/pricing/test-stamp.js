@@ -228,7 +228,8 @@ test('no country, on any tier of any subject, is charged below the India floor',
             Object.keys(pppData.countries).forEach(function (iso) {
                 const r = ppp.priceForCountry({
                     listUsd: intl[tier], indiaGross: indiaGross,
-                    pli: pppData.countries[iso].pli, usdInrRate: fxData.rates.INR
+                    pli: pppData.countries[iso].pli, usdInrRate: fxData.rates.INR,
+                    tier: tier, intlTable: intl
                 }, config);
                 const netInr = r.usd * keep * fxData.rates.INR;
                 if (netInr < indiaNet - 1) {
@@ -243,9 +244,101 @@ test('no country, on any tier of any subject, is charged below the India floor',
         breaches.length + ' price(s) fall below the India floor:\n      ' + breaches.slice(0, 6).join('\n      '));
 });
 
-test('a country at or above US price level pays exactly list, not a charm-rounded price', function () {
+test('with no hard minimum in play, a rich country pays exactly list rather than a charm-rounded price', function () {
+    // No tier/intlTable passed, so only the India floor applies — this pins the
+    // charm-rounding behaviour itself, not the worldwide ladder.
     const r = ppp.priceForCountry({ listUsd: 40, indiaGross: 1499, pli: 128.2, usdInrRate: 95.76 }, config);
-    assert.strictEqual(r.usd, 40, 'Switzerland should pay list $40, got $' + r.usd);
+    assert.strictEqual(r.usd, 40, 'should pay list $40, got $' + r.usd);
+});
+
+test('the hard rupee minimum overrides the list price when it sits above it', function () {
+    const intl = config.plans.coding.international;
+    const min = config.worldwide.floor.minNetInr && config.worldwide.floor.minNetInr.group;
+    if (min === null || min === undefined) return;      // no hard minimum configured
+    const keep = ppp.internationalNetKeep(config);
+    const r = ppp.priceForCountry({
+        listUsd: intl.group, indiaGross: config.plans.coding.india.group,
+        pli: 100, usdInrRate: 95.76, tier: 'group', intlTable: intl
+    }, config);
+    const net = r.usd * keep * 95.76;
+    assert.ok(net >= min - 5,
+        'a $' + r.usd + ' charge nets ₹' + net.toFixed(0) + ', below the ₹' + min + ' minimum');
+});
+
+test('every internationally sold tier clears the hard rupee minimum in every country', function () {
+    const pppData = cfgLib.loadData('ppp');
+    const fxData = cfgLib.loadData('fx');
+    if (!pppData || !fxData) throw new Error('run npm run pricing:refresh first');
+    const keep = ppp.internationalNetKeep(config);
+    const breaches = [];
+
+    Object.keys(config.plans).forEach(function (subject) {
+        const intl = config.plans[subject].international || {};
+        const india = config.plans[subject].india || {};
+        Object.keys(intl).forEach(function (tier) {
+            if (intl[tier] === null || intl[tier] === undefined) return;
+            const min = ppp.minNetInrFor(tier, config, intl);
+            if (min === null || min === undefined) return;
+            const indiaTier = config.worldwide.floor.matchIndiaTier[tier];
+            Object.keys(pppData.countries).forEach(function (iso) {
+                const r = ppp.priceForCountry({
+                    listUsd: intl[tier], indiaGross: indiaTier ? india[indiaTier] : null,
+                    pli: pppData.countries[iso].pli, usdInrRate: fxData.rates.INR,
+                    tier: tier, intlTable: intl
+                }, config);
+                const net = r.usd * keep * fxData.rates.INR;
+                if (net < min - 5) {
+                    breaches.push(subject + '.' + tier + ' in ' + iso + ': $' + r.usd +
+                        ' nets ₹' + net.toFixed(0) + ' < ₹' + Math.round(min));
+                }
+            });
+        });
+    });
+    assert.strictEqual(breaches.length, 0,
+        breaches.length + ' below the hard minimum:\n      ' + breaches.slice(0, 5).join('\n      '));
+});
+
+test('a country with no usable price level still clears the hard minimum', function () {
+    // American Samoa and ~37 other economies have a World Bank figure older
+    // than maxDataAgeYears, so buildTable passes pli: null. That path used to
+    // return list price immediately and skip the floor, which billed them $40
+    // against a ₹9,500 minimum. This is that regression.
+    const cfg = cfgLib.load();
+    const intl = cfg.plans.coding.international;
+    const min = ppp.minNetInrFor('group', cfg, intl);
+    if (min === null || min === undefined) return;
+
+    const r = ppp.priceForCountry({
+        listUsd: intl.group, indiaGross: cfg.plans.coding.india.group,
+        pli: null, usdInrRate: 95.76, tier: 'group', intlTable: intl
+    }, cfg);
+    const net = r.usd * ppp.internationalNetKeep(cfg) * 95.76;
+    assert.ok(net >= min - 5,
+        'a country with no price level was charged $' + r.usd + ', netting ₹' +
+        net.toFixed(0) + ' against a ₹' + Math.round(min) + ' minimum');
+});
+
+test('every country in the real dataset clears the hard minimum, stale ones included', function () {
+    const pppData = cfgLib.loadData('ppp');
+    const fxData = cfgLib.loadData('fx');
+    if (!pppData || !fxData) throw new Error('run npm run pricing:refresh first');
+
+    const built = ppp.buildTable('coding', config, pppData, fxData);
+    const keep = ppp.internationalNetKeep(config);
+    const min = ppp.minNetInrFor('group', config, config.plans.coding.international);
+    if (min === null || min === undefined) return;
+
+    const breaches = [];
+    Object.keys(built.table).forEach(function (iso) {
+        const g = built.table[iso].tiers.group;
+        if (g === undefined) return;
+        const net = g * keep * fxData.rates.INR;
+        if (net < min - 5) breaches.push(iso + ': $' + g + ' nets ₹' + net.toFixed(0));
+    });
+
+    assert.strictEqual(breaches.length, 0,
+        breaches.length + ' of ' + Object.keys(built.table).length +
+        ' countries fall below ₹' + Math.round(min) + ':\n      ' + breaches.slice(0, 6).join('\n      '));
 });
 
 test('the damping exponent is actually applied', function () {

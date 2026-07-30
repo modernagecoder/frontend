@@ -196,18 +196,70 @@ function format(amount, currency, options) {
     }
 }
 
-/** Format a local-currency estimate for any of the 166 supported currencies. */
-function formatLocal(amount, currency) {
+/**
+ * Round a local-currency estimate UP to a clean, quotable number.
+ *
+ * Nobody writes a price as ₦146,123.05. Rounding up rather than to nearest
+ * matters: the label is an estimate sitting beside an exact dollar charge, and
+ * an estimate that lands below what the customer is actually billed reads as a
+ * bait-and-switch.
+ */
+function niceRoundUp(amount) {
+    const step =
+        amount < 10 ? 0.5 :
+        amount < 100 ? 1 :
+        amount < 1000 ? 10 :
+        amount < 10000 ? 100 :
+        amount < 100000 ? 500 : 1000;
+    return Math.ceil(amount / step) * step;
+}
+
+/**
+ * Format a local-currency estimate in the visitor's own currency and symbol.
+ *
+ * The locale is chosen from the currency, not from the machine running this,
+ * so digit grouping is right for the reader: an Indian build must not render
+ * Nigerian naira with lakh grouping as 1,46,123.
+ */
+function formatLocal(amount, currency, options) {
+    const opts = options || {};
+    const value = opts.raw ? amount : niceRoundUp(amount);
+
+    // One formatting locale for the whole world, because every page on this
+    // site is written in English. Formatting each currency in its own locale
+    // sounds more correct but is worse here: es-MX renders Mexican pesos as a
+    // bare "$1,900" sitting beside a US dollar charge, and ar-SA adds
+    // right-to-left control characters mid-sentence. en-US keeps Latin digits
+    // and disambiguates the dollar family as A$, CA$, MX$.
+    //
+    // Indian rupees are the one exception: lakh grouping is what Indian
+    // readers expect and what the rest of the site already uses.
+    const locale = currency === 'INR' ? 'en-IN' : 'en-US';
+
     try {
-        return new Intl.NumberFormat(undefined, {
+        return new Intl.NumberFormat(locale, {
             style: 'currency',
             currency: currency,
-            // Indonesian rupiah is nominally 2dp in ISO 4217 but is never
-            // written that way; everything else takes its ISO minor unit.
-            maximumFractionDigits: currency === 'IDR' ? 0 : undefined
-        }).format(amount);
+            // 'symbol', not 'narrowSymbol'. Narrow renders Australian dollars
+            // as a bare "$160", which sits next to a US dollar charge and reads
+            // as the same currency. 'symbol' keeps A$ and MX$ distinct.
+            currencyDisplay: 'symbol',
+            // A rounded estimate should not carry cents. Small amounts keep one
+            // decimal place because 0.5 steps are meaningful there.
+            minimumFractionDigits: 0,
+            maximumFractionDigits: value < 10 ? 1 : 0
+        }).format(value);
     } catch (err) {
-        return currency + ' ' + Math.round(amount);
+        // narrowSymbol is unsupported in some older engines, and a few ISO
+        // codes have no symbol at all. Fall back rather than showing nothing.
+        try {
+            return new Intl.NumberFormat(locale, {
+                style: 'currency', currency: currency,
+                minimumFractionDigits: 0, maximumFractionDigits: 0
+            }).format(value);
+        } catch (e2) {
+            return currency + ' ' + Math.round(value).toLocaleString('en-US');
+        }
     }
 }
 

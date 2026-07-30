@@ -51,14 +51,44 @@ function charmRound(usd) {
     return Math.ceil(usd) - 0.01;
 }
 
-/**
- * The lowest USD price that still nets at least as much as the matching Indian
- * plan, expressed in dollars at the current rate.
- */
-function floorUsd(indiaGross, usdInrRate, config) {
-    const netNeeded = indiaNetInr(indiaGross, config);
+/** The USD price needed to bank a given number of rupees after all costs. */
+function usdToNetInr(targetInr, usdInrRate, config) {
     const margin = 1 + (config.worldwide.floor.safetyMarginPercent || 0) / 100;
-    return ((netNeeded / usdInrRate) / internationalNetKeep(config)) * margin;
+    return ((targetInr / usdInrRate) / internationalNetKeep(config)) * margin;
+}
+
+/**
+ * The hard minimum in rupees for a tier, from worldwide.floor.minNetInr.
+ *
+ * A tier with no explicit figure is scaled from the group figure by its
+ * list-price ratio, so a 1-on-1 plan listed at 2.5x the group price inherits
+ * 2.5x the group minimum rather than silently getting none.
+ */
+function minNetInrFor(tier, config, intlTable) {
+    const min = (config.worldwide.floor && config.worldwide.floor.minNetInr) || {};
+    if (min[tier] !== null && min[tier] !== undefined) return min[tier];
+    if (min.group === null || min.group === undefined) return null;
+    if (!intlTable || !intlTable.group || !intlTable[tier]) return null;
+    return min.group * (intlTable[tier] / intlTable.group);
+}
+
+/**
+ * The lowest USD price allowed for a tier: the greater of the owner's hard
+ * rupee minimum and the matching India plan's net.
+ */
+function floorUsd(indiaGross, usdInrRate, config, tier, intlTable) {
+    const margin = 1 + (config.worldwide.floor.safetyMarginPercent || 0) / 100;
+
+    let floor = 0;
+    if (indiaGross !== null && indiaGross !== undefined) {
+        floor = ((indiaNetInr(indiaGross, config) / usdInrRate) / internationalNetKeep(config)) * margin;
+    }
+
+    const hardMin = minNetInrFor(tier, config, intlTable);
+    if (hardMin !== null && hardMin !== undefined) {
+        floor = Math.max(floor, usdToNetInr(hardMin, usdInrRate, config));
+    }
+    return floor;
 }
 
 /**
@@ -75,35 +105,44 @@ function priceForCountry(args, config) {
     const cfg = config || cfgLib.load();
     const w = cfg.worldwide;
 
-    if (!w.enabled || args.pli === null || args.pli === undefined) {
+    // Worldwide pricing switched off entirely: behave exactly as the site did
+    // before this existed, list price for everyone, no floor logic at all.
+    if (!w.enabled) {
         return { usd: args.listUsd, floorBound: false, multiplier: 1, discountPercent: 0, reason: 'list' };
     }
 
-    const rawMultiplier = args.pli / 100;
-    const damped = Math.pow(rawMultiplier, w.dampingExponent);
+    // No usable price level for this country (missing, or older than
+    // maxDataAgeYears). Such a country charges list price rather than being
+    // priced off a stale index — but it still has to clear the floor. Returning
+    // early here was a real bug: American Samoa has no recent figure, took the
+    // early return, and was charged $40, netting Rs3,584 against a Rs9,500
+    // minimum.
+    const hasPli = args.pli !== null && args.pli !== undefined;
 
-    const lowest = 1 - w.maxDiscountPercent / 100;
-    const highest = w.maxPremiumPercent / 100;
-    const multiplier = Math.min(Math.max(damped, lowest), highest);
+    const multiplier = hasPli
+        ? Math.min(
+            Math.max(Math.pow(args.pli / 100, w.dampingExponent), 1 - w.maxDiscountPercent / 100),
+            w.maxPremiumPercent / 100)
+        : 1;
 
     let usd = args.listUsd * multiplier;
+    const atList = usd >= args.listUsd;
     let floorBound = false;
 
-    if (args.indiaGross !== null && args.indiaGross !== undefined) {
-        const floor = floorUsd(args.indiaGross, args.usdInrRate, cfg);
-        if (usd < floor) { usd = floor; floorBound = true; }
-    }
+    // The floor is applied AFTER the list cap, and deliberately overrides it.
+    // Once a hard rupee minimum is set it can sit above the list price, and in
+    // that case the minimum is the real price — clamping back down to list
+    // would silently break the guarantee the owner asked for.
+    const floor = floorUsd(args.indiaGross, args.usdInrRate, cfg, args.tier, args.intlTable);
+    if (usd < floor) { usd = floor; floorBound = true; }
 
-    // At or above list, charge list exactly. Charm-rounding here would quietly
-    // move $40 to $39.99 for American visitors, which is a price change nobody
-    // asked for.
-    if (usd >= args.listUsd) {
-        usd = args.listUsd;
-    } else if (w.rounding === 'charm') {
-        usd = charmRound(usd);
-        if (usd > args.listUsd) usd = args.listUsd;
+    if (floorBound || !atList) {
+        usd = (w.rounding === 'charm') ? charmRound(usd) : Math.round(usd);
     } else {
-        usd = Math.round(usd);
+        // At or above list with no floor in play, charge list exactly.
+        // Charm-rounding here would quietly move $40 to $39.99 for American
+        // visitors, which is a price change nobody asked for.
+        usd = args.listUsd;
     }
 
     return {
@@ -145,7 +184,12 @@ function buildTable(subject, config, pppData, fxData) {
                 listUsd: intl[tier],
                 indiaGross: indiaTier ? india[indiaTier] : null,
                 pli: tooOld ? null : entry.pli,
-                usdInrRate: usdInr
+                usdInrRate: usdInr,
+                // Both are required for the hard rupee minimum to apply. Omit
+                // them and every price silently falls back to the India-only
+                // floor, which is far lower.
+                tier: tier,
+                intlTable: intl
             }, cfg);
             tiers[tier] = result.usd;
         });
@@ -158,6 +202,7 @@ function buildTable(subject, config, pppData, fxData) {
 
 module.exports = {
     indiaNetInr: indiaNetInr,
+    minNetInrFor: minNetInrFor,
     internationalNetKeep: internationalNetKeep,
     floorUsd: floorUsd,
     charmRound: charmRound,

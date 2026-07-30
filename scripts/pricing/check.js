@@ -144,28 +144,39 @@ function showLadder(config) {
     const intl = config.plans[subject].international;
 
     console.log('    ' + 'Country'.padEnd(16) + 'PPP'.padStart(6) + '   ' +
-        'Group'.padStart(9) + '   ' + '1-on-1'.padStart(9) + '   ' + 'You net (group)'.padStart(16) + '   Why');
-    console.log('    ' + '─'.repeat(78));
+        'Group'.padStart(9) + '   ' + '1-on-1'.padStart(9) + '   ' + 'You net'.padStart(10) + '   ' + 'Shown locally'.padStart(15) + '  Why');
+    console.log('    ' + '─'.repeat(88));
 
     // India is billed domestically in rupees, so it is shown from its own row.
     const indiaNet = ppp.indiaNetInr(india.group, config);
     console.log('    ' + 'India'.padEnd(16) + (pppData.countries.IN ? pppData.countries.IN.pli.toFixed(1) : '  -').padStart(6) + '   ' +
         cfgLib.format(india.group, 'INR').padStart(9) + '   ' +
         cfgLib.format(india.personal, 'INR').padStart(9) + '   ' +
-        ('₹' + indiaNet.toFixed(0)).padStart(16) + '   domestic');
+        ('₹' + indiaNet.toFixed(0)).padStart(10) + '   ' + '(exact)'.padStart(15) + '  domestic');
 
     const netKeep = ppp.internationalNetKeep(config);
     sample.forEach(function (iso) {
         if (iso === 'IN') return;
         const c = pppData.countries[iso];
         if (!c) return;
-        const g = ppp.priceForCountry({ listUsd: intl.group, indiaGross: india.group, pli: c.pli, usdInrRate: fxData.rates.INR }, config);
-        const p = ppp.priceForCountry({ listUsd: intl.personal, indiaGross: india.personal, pli: c.pli, usdInrRate: fxData.rates.INR }, config);
+        const g = ppp.priceForCountry({ listUsd: intl.group, indiaGross: india.group, pli: c.pli, usdInrRate: fxData.rates.INR, tier: 'group', intlTable: intl }, config);
+        const p = ppp.priceForCountry({ listUsd: intl.personal, indiaGross: india.personal, pli: c.pli, usdInrRate: fxData.rates.INR, tier: 'personal', intlTable: intl }, config);
         const netInr = g.usd * netKeep * fxData.rates.INR;
+
+        // What the visitor actually reads, in their own currency and symbol.
+        var local = '';
+        var cur = c.currency;
+        if (cur && fxData.rates[cur] && config.worldwide.unstableCurrencies.indexOf(cur) === -1) {
+            local = cfgLib.formatLocal(g.usd * fxData.rates[cur], cur);
+        } else if (cur) {
+            local = '(USD only)';
+        }
+
         console.log('    ' + c.name.slice(0, 15).padEnd(16) + c.pli.toFixed(1).padStart(6) + '   ' +
             ('$' + g.usd.toFixed(2)).padStart(9) + '   ' +
             ('$' + p.usd.toFixed(2)).padStart(9) + '   ' +
-            ('₹' + netInr.toFixed(0)).padStart(16) + '   ' + g.reason);
+            ('₹' + netInr.toFixed(0)).padStart(10) + '   ' +
+            local.padStart(15) + '  ' + g.reason);
     });
 
     // How often does the floor actually bind? This is the number that tells you
