@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/battle.css?v=3">
+<link rel="stylesheet" href="/css/battle.css?v=4">
 
 <style>
   .wrap { max-width: 1240px; margin: 0 auto; padding: 1.1rem; }
@@ -145,7 +145,7 @@
 
 <div id="modal-host"></div>
 
-<script src="/js/battle-client.js?v=3"></script>
+<script src="/js/battle-client.js?v=4"></script>
 <script>
 (function () {
   'use strict';
@@ -707,11 +707,11 @@
         '<div class="grow" style="min-width:0">' +
           '<strong style="font-size:.95rem">Upload a question file</strong>' +
           '<p class="faint" style="font-size:.8rem;margin-top:.2rem">' +
-            'Grab the ready-made pack — 7 Python logic questions with answer keys, plus ' +
-            'the AI-vs-fundamentals debate topics — then import it. Or write your own.</p>' +
+            'Grab a ready-made pack — if/else logic questions with answer keys, and debate ' +
+            'topics — then import it. Or write your own.</p>' +
         '</div>' +
         '<div class="row wrap">' +
-          '<button class="btn btn-sm btn-go" id="q-pack">Ready-made pack</button>' +
+          '<button class="btn btn-sm btn-go" id="q-pack">Ready-made packs</button>' +
           '<button class="btn btn-sm btn-ghost" id="q-sample">Blank sample</button>' +
           (totalQs ? '<button class="btn btn-sm btn-ghost" id="q-export">Export current</button>' : '') +
           '<button class="btn btn-sm btn-primary" id="q-import">Import JSON</button>' +
@@ -817,14 +817,57 @@
    * questions with answer keys, and the AI-vs-fundamentals debate topics. The
    * inline SAMPLE is the minimal shape, for someone writing their own.
    */
+  /**
+   * The ready-made packs, so a host never starts from an empty form.
+   *
+   * Two of them because they suit different rooms: the worksheet-style set gives
+   * students a blank editor and asks them to write everything themselves, which
+   * is how the paper worksheets work. The Python set hands them a starter
+   * function to fill in.
+   */
+  var PACKS = [
+    { file: 'battle-round1-worksheet-style.json',
+      name: 'Worksheet style — blank editor',
+      note: '7 questions, Python OR JavaScript, nothing pre-written. Students type every line.' },
+    { file: 'battle-python-and-ai-debate.json',
+      name: 'Python + the AI debate',
+      note: '7 Python questions with starter functions, plus 4 debate topics on AI vs learning to code.' }
+  ];
+
   function downloadPack() {
-    var a = document.createElement('a');
-    a.href = '/downloads/battle-python-and-ai-debate.json';
-    a.download = 'battle-python-and-ai-debate.json';
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    toast('Downloaded — import it straight back with Import JSON', 'success');
+    openModal(
+      '<h2 style="font-size:1.2rem;margin-bottom:.3rem">Ready-made packs</h2>' +
+      '<p class="faint" style="font-size:.83rem;margin-bottom:1rem">' +
+        'Download one, then load it with Import JSON. Every question comes with an ' +
+        'answer key that names the trap and the inputs to check first.</p>' +
+      '<div class="list">' + PACKS.map(function (p, i) {
+        return '<div class="item">' +
+          '<div class="between">' +
+            '<div class="grow" style="min-width:0">' +
+              '<strong style="font-size:.92rem">' + esc(p.name) + '</strong>' +
+              '<p class="faint" style="font-size:.8rem;margin-top:.2rem">' + esc(p.note) + '</p>' +
+            '</div>' +
+            '<button class="btn btn-sm btn-go" data-pack="' + i + '">Download</button>' +
+          '</div></div>';
+      }).join('') + '</div>' +
+      '<div class="row" style="margin-top:1.1rem;justify-content:flex-end">' +
+        '<button class="btn btn-ghost" id="pk-close">Close</button></div>');
+
+    bind('pk-close', closeModal);
+
+    Array.prototype.forEach.call(document.querySelectorAll('[data-pack]'), function (el) {
+      el.addEventListener('click', function () {
+        var pack = PACKS[Number(el.dataset.pack)];
+        var a = document.createElement('a');
+        a.href = '/downloads/' + pack.file;
+        a.download = pack.file;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        closeModal();
+        toast('Downloaded — now press Import JSON and choose it', 'success');
+      });
+    });
   }
 
   function downloadSample() {
