@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Frontend for Modern Age Coders",
   "scripts": {
+    "pricing:refresh": "node scripts/pricing/refresh.js",
+    "pricing:check": "node scripts/pricing/check.js",
+    "pricing:preview": "node scripts/pricing/apply.js --dry-run",
+    "pricing:apply": "node scripts/pricing/apply.js",
+    "pricing:verify": "node scripts/pricing/verify.js",
     "generate:blogs": "node scripts/generate-blogs.js",
     "generate:courses": "node scripts/generate-courses.js",
     "generate:resources": "node scripts/generate-resources.js",

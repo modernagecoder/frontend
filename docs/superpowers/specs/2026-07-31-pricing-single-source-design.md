@@ -1,6 +1,6 @@
 # Single-Source-of-Truth Pricing System — Design
 
-**Status:** WIP — requirements captured, investigation running, design not yet approved
+**Status:** Design approved 2026-07-31 — implementation in progress
 **Branch:** `pricing-single-source`
 **Date started:** 2026-07-31
 
