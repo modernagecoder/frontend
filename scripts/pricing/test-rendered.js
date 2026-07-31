@@ -219,6 +219,65 @@ test('a longer number starting with a price is not corrupted', function () {
         'the ₹4,999 rule must not match inside ₹49,999');
 });
 
+// ─── pages that do not exist yet ───
+
+test('a page created later gets the currency scripts and localises correctly', function () {
+    // The requirement is that someone can add a page months from now, knowing
+    // nothing about this system, and a visitor in Germany still sees euros.
+    // apply injects the scripts into any page that shows a price, so this test
+    // builds an untouched page and puts it through the real pipeline.
+    const applyLib = require('./apply-lib');
+
+    const raw = [
+        '<!DOCTYPE html><html lang="en"><head><title>New page</title></head><body>',
+        '  <div class="pricing-card-new"><h3>Group Classes</h3>',
+        '  <div class="price"><span class="price-amount">₹1499</span></div></div>',
+        '</body></html>'
+    ].join('\n');
+
+    assert.ok(applyLib.showsAPrice(raw), 'a page with ₹1499 must be recognised as showing a price');
+
+    const ensured = applyLib.ensureScripts(raw);
+    assert.ok(ensured.added, 'the scripts must be injected');
+    ['pricing-data.generated.js', 'international-pricing.js', 'local-currency.js'].forEach(function (s) {
+        assert.ok(ensured.html.indexOf(s) !== -1, 'missing ' + s);
+    });
+
+    // And it must actually render in a real DOM.
+    function priceFor(country) {
+        const dom = new JSDOM(ensured.html, {
+            url: 'https://learn.modernagecoders.com/new?country=' + country,
+            runScripts: 'outside-only', pretendToBeVisual: true
+        });
+        const win = dom.window;
+        ['pricing-data.generated', 'international-pricing', 'local-currency'].forEach(function (f) {
+            win.eval(fs.readFileSync(path.join(ROOT, 'src', 'js', f + '.js'), 'utf8'));
+        });
+        win.document.dispatchEvent(new win.Event('DOMContentLoaded', { bubbles: true }));
+        return (win.document.querySelector('.price-amount') || {}).textContent || '';
+    }
+
+    assert.ok(priceFor('IN').indexOf('₹') !== -1, 'India should still see rupees, saw: ' + priceFor('IN'));
+    assert.ok(priceFor('DE').indexOf('€') !== -1, 'Germany should see euros, saw: ' + priceFor('DE'));
+    assert.ok(priceFor('GB').indexOf('£') !== -1, 'the UK should see pounds, saw: ' + priceFor('GB'));
+});
+
+test('a page with no price is left alone', function () {
+    const applyLib = require('./apply-lib');
+    const raw = '<!DOCTYPE html><html><body><h1>About us</h1><p>We teach coding.</p></body></html>';
+    assert.ok(!applyLib.showsAPrice(raw), 'no price here');
+    assert.strictEqual(applyLib.ensureScripts(raw).added, false,
+        'a page with no price should not be made to download the price table');
+});
+
+test('a currency symbol inside a script block is not mistaken for a price', function () {
+    const applyLib = require('./apply-lib');
+    const raw = '<!DOCTYPE html><html><body><h1>Docs</h1>' +
+        '<script>var re = /\\$\\d+/; var s = "₹1499";</script></body></html>';
+    assert.ok(!applyLib.showsAPrice(raw),
+        'only what a human can read counts as showing a price');
+});
+
 // ─── local currency display ───
 
 /** Render the real pricing page for a country, with the local-currency layer. */

@@ -23,6 +23,8 @@ const path = require('path');
 const cfgLib = require('./lib/config');
 const stamper = require('./lib/stamp');
 const ppp = require('./lib/ppp');
+const applyLib = require('./apply-lib');
+const ensureScripts = applyLib.ensureScripts;
 
 const DRY = process.argv.indexOf('--dry-run') !== -1;
 const VERBOSE = process.argv.indexOf('--verbose') !== -1;
@@ -271,20 +273,34 @@ function main() {
     const allErrors = [];
     const notSold = {};
 
+    let scriptsAdded = 0;
+
     files.forEach(function (rel) {
         const full = path.join(ROOT, rel);
         const before = fs.readFileSync(full, 'utf8');
-        if (before.indexOf('data-price') === -1) return;   // no anchors, nothing to do
+        let out = before;
 
-        const result = stamper.stamp(before, config);
-        anchors += result.report.anchors;
-        result.report.errors.forEach(function (e) { allErrors.push(rel + ': ' + e); });
-        result.report.notSold.forEach(function (k) { notSold[k] = (notSold[k] || 0) + 1; });
+        // Every page that shows a price gets the scripts that localise it,
+        // whether or not it has any [data-price] anchors yet. This runs on
+        // every build, so a page added later is covered without anyone having
+        // to remember.
+        const ensured = ensureScripts(out);
+        if (ensured.added) { out = ensured.html; scriptsAdded++; }
 
-        if (result.html !== before) {
+        if (out.indexOf('data-price') !== -1) {
+            const result = stamper.stamp(out, config);
+            anchors += result.report.anchors;
+            result.report.errors.forEach(function (e) { allErrors.push(rel + ': ' + e); });
+            result.report.notSold.forEach(function (k) { notSold[k] = (notSold[k] || 0) + 1; });
+            if (result.html !== out) {
+                result.report.changes.forEach(function (c) { allChanges.push({ file: rel, change: c }); });
+                out = result.html;
+            }
+        }
+
+        if (out !== before) {
             touched++;
-            result.report.changes.forEach(function (c) { allChanges.push({ file: rel, change: c }); });
-            if (!DRY) fs.writeFileSync(full, result.html);
+            if (!DRY) fs.writeFileSync(full, out);
         }
     });
 
@@ -323,6 +339,7 @@ function main() {
     }
 
     console.log(anchors + ' price anchors across ' + files.length + ' files.');
+    if (scriptsAdded) console.log(scriptsAdded + ' page(s) ' + (DRY ? 'would get' : 'given') + ' the currency scripts they were missing.');
     console.log(touched + ' file(s) ' + (DRY ? 'would change' : 'changed') + '.');
     console.log(runtime.path + (runtime.changed ? (DRY ? ' would be rewritten' : ' rewritten') : ' unchanged') +
         ' (' + (runtime.bytes / 1024).toFixed(1) + ' KB).');

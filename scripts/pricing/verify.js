@@ -60,8 +60,41 @@ function digits(s) {
     return m ? m[0].replace(/,/g, '').replace(/\.00$/, '') : null;
 }
 
+const PRICING_SCRIPTS = [
+    '/js/pricing-data.generated.js',
+    '/js/international-pricing.js',
+    '/js/local-currency.js'
+];
+
+let pagesWithPrices = 0;
+
+/**
+ * A page that shows a price must load the scripts that localise it, or every
+ * visitor on earth sees rupees.
+ *
+ * This was not hypothetical: 185 pages were in exactly that state, including
+ * ones written for the UAE, Canada, Hong Kong and Singapore. apply now injects
+ * the scripts automatically, and this check is what stops the problem coming
+ * back through a page added later.
+ */
+function checkScripts(rel, html) {
+    const visible = html
+        .replace(/<script[\s\S]*?<\/script>/gi, '')
+        .replace(/<style[\s\S]*?<\/style>/gi, '');
+    const shows = /₹|&#8377;|\$\s?\d|\bRs\.?\s?\d/.test(visible) || /data-price\s*=/.test(html);
+    if (!shows) return;
+
+    pagesWithPrices++;
+    const missing = PRICING_SCRIPTS.filter(function (s) { return html.indexOf(s) === -1; });
+    if (missing.length) {
+        fail(rel, 'shows a price but does not load ' + missing.join(', ') +
+            ', so every visitor sees Indian rupees. Run: npm run pricing:apply');
+    }
+}
+
 function checkFile(rel, config) {
     const html = fs.readFileSync(path.join(ROOT, rel), 'utf8');
+    checkScripts(rel, html);
     if (html.indexOf('data-price') === -1) return;
     filesChecked++;
 
@@ -242,6 +275,7 @@ function main() {
     assertCoverage();
 
     console.log('');
+    console.log('  ' + pagesWithPrices + ' page(s) show a price — all load the currency scripts');
     console.log('  ' + filesChecked + ' page(s) carry price anchors');
     console.log('  ' + anchorsChecked + ' visible price(s) checked against the config');
     console.log('  ' + schemaChecked + ' structured-data offer(s) checked');
