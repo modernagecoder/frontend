@@ -422,7 +422,7 @@ Just you and the mentor
 
 Try a free demo
 
-**International students:** $40 USD/month for group classes and $100 USD/month for 1-on-1 (use the toggle above). **Lifetime plans:** full masterclasses with lifetime access range from ₹34,999 to ₹69,999. Full details on the [pricing page](/pricing). The first demo class is always free — no payment details required.
+**International students:** prices are shown in your own currency and adjusted for your country (use the toggle above). Full details on the [pricing page](/pricing). The first demo class is always free — no payment details required.
 
 **International pricing:** Group classes are $40 USD/month and 1-on-1 personal classes are $100 USD/month — same live mentors, same depth-first curriculum, scheduled for your time zone. Students in India pay in ₹ (use the toggle above). Full details on the [pricing page](/pricing). The first demo class is always free — no payment details required.
 
@@ -464,7 +464,7 @@ Every class is live — never recorded-video-only. You learn in a small batch (u
 
 What do the classes cost?
 
-Pricing is fully transparent: Group classes (up to 10 students) are ₹1,499 per month, Mini batches (3–4 students, India) are ₹2,499 per month, and 1-on-1 personal classes are ₹4,999 per month. International students pay roughly $40 per month for group and $100 per month for 1-on-1. Lifetime-access plans for full masterclasses range from ₹34,999 to ₹69,999. There are no hidden costs, and the first demo class is free.
+Pricing is fully transparent: Group classes (up to 10 students) are ₹1,499 per month, Mini batches (3–4 students, India) are ₹2,499 per month, and 1-on-1 personal classes are ₹4,999 per month. International students pay roughly $40 per month for group and $100 per month for 1-on-1. There are no hidden costs, and the first demo class is free.
 
 Do you teach students outside India? What about time zones?
 

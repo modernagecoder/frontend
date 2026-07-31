@@ -114,7 +114,10 @@
       var date = this.rateDate(data);
       var seen = 0;
 
-      var selectors = ['.price-amount', '.plan-price', '.price-amt', '.enrollment-option .price'];
+      // [data-price] first: anchored prices are the ones under config control,
+      // and they carry no particular class of their own.
+      var selectors = ['[data-price]', '.price-amount', '.plan-price', '.price-amt',
+                       '.enrollment-option .price'];
       var nodes = document.querySelectorAll(selectors.join(','));
 
       Array.prototype.forEach.call(nodes, function (el) {

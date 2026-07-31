@@ -95,15 +95,15 @@ Transparent pricing
 
 Clear, published prices with live mentor-led teaching and recordings on every plan. Group classes are ₹1499/month, a small Mini-Batch is ₹2499/month, and fully personalised one-on-one classes are ₹4999/month.
 
-Group₹1499per month
+Group₹1,499per month
 
 Live small-group classes with mentor support and recordings for revision.
 
-Mini-Batch₹2499per month
+Mini-Batch₹2,499per month
 
 An even smaller group for closer attention, still live and mentor-led.
 
-1-on-1₹4999per month
+1-on-1₹4,999per month
 
 Fully personalised one-on-one classes paced entirely around the learner.
 

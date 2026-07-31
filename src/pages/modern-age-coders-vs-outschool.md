@@ -69,7 +69,7 @@ Outschool built something real. Here is the fair split.
 
 ### What sustained learning costs
 
-Outschool: **$10 to $30 per class hour**, teacher by teacher8 marketplace hours a month: **$80 to $240**, no continuityMAC group: 8 structured hours, one mentor, **$40**MAC 1-on-1: 8 dedicated hours, **$100**
+Outschool: **$10 to $30 per class hour**, teacher by teacher8 marketplace hours a month: **$80 to $240**, no continuityMAC group: 8 structured hours, one mentor, **$40**MAC 1-on-1: 8 dedicated hours, **$374.99**
 
 Outschool figures as of July 2026 (brighterly.com). The real difference is not the total, it is that our 8 hours belong to one curriculum and one mentor.
 

@@ -257,6 +257,84 @@ function syncCoursesConfig(config) {
     return { changed: changed, courses: n, changes: changes, orphans: orphans };
 }
 
+/**
+ * Rewrite the pricing answer inside llms.txt.
+ *
+ * llms.txt is the file AI engines read and quote verbatim, and it is otherwise
+ * hand-maintained, so it rots silently. Its pricing answer still described a
+ * flat $40/$100 international rate months after the config had moved to a
+ * per-country ladder.
+ *
+ * Only the answer to the pricing question is replaced, matched by its own
+ * question line, so the rest of the hand-written file is untouched.
+ */
+function syncLlmsTxt(config) {
+    const p = path.join(ROOT, 'llms.txt');
+    if (!fs.existsSync(p)) return { changed: false };
+
+    const before = fs.readFileSync(p, 'utf8');
+    const QUESTION = 'Q: How much do Modern Age Coders courses cost?';
+    const qAt = before.indexOf(QUESTION);
+    if (qAt === -1) return { changed: false, missing: true };
+
+    // This file is stored with Windows line endings, so every boundary has to
+    // tolerate a carriage return. Matching only \n found nothing and the sync
+    // quietly reported "no pricing question" while the stale text sat there
+    // being quoted by AI engines.
+    const aMatch = /\r?\nA:/.exec(before.slice(qAt));
+    if (!aMatch) return { changed: false, missing: true };
+    const aAt = qAt + aMatch.index + aMatch[0].length - 2;   // index of "A:"
+
+    // The answer runs to the next blank line followed by another question.
+    const endMatch = /\r?\n\r?\nQ:/.exec(before.slice(aAt));
+    if (!endMatch) return { changed: false, missing: true };
+    const endAt = aAt + endMatch.index;
+
+    const india = config.plans.coding.india;
+    const intl = config.plans.coding.international;
+    const agents = config.plans.agents.india;
+    const inr = function (n) { return cfgLib.format(n, 'INR', { style: 'display' }); };
+    const usd = function (n) { return cfgLib.format(n, 'USD', { style: 'display' }); };
+
+    const indiaTiers = [];
+    if (india.group != null) indiaTiers.push('group batches of 4-8 students at ' + inr(india.group) + ' per month (two live classes per week)');
+    if (india.miniBatch != null) indiaTiers.push('mini batches of 3-4 students at ' + inr(india.miniBatch) + ' per month');
+    if (india.personal != null) indiaTiers.push('one-on-one classes at ' + inr(india.personal) + ' per month');
+
+    const agentTiers = [];
+    if (agents.group != null) agentTiers.push(inr(agents.group) + ' group');
+    if (agents.miniBatch != null) agentTiers.push(inr(agents.miniBatch) + ' mini batch (India only)');
+    if (agents.personal != null) agentTiers.push(inr(agents.personal) + ' one-on-one');
+
+    // Spelled out, because this text is read aloud by assistants and quoted in
+    // answers: "there are 3 tiers" reads like a database dump.
+    const WORDS = ['no', 'one', 'two', 'three', 'four', 'five', 'six'];
+    const count = WORDS[indiaTiers.length] || String(indiaTiers.length);
+
+    const answer = 'A: In India there are ' + count + ' tiers, all billed monthly with no lock-in: ' +
+        indiaTiers.join(', ') + '. Outside India the price is set for each country using World Bank ' +
+        'purchasing power data, so a family pays what is reasonable where they live: ' +
+        usd(intl.group) + ' per month for group classes and ' + usd(intl.personal) + ' for one-on-one in the ' +
+        'highest-income countries, less elsewhere, and the price is shown in the local currency with the ' +
+        'exact US dollar charge stated beside it. One exception: the two premium Codex + Claude Code AI ' +
+        'coding agents courses are ' + agentTiers.join(', ') + ' per month in India ' +
+        '(students also need their own Claude and ChatGPT subscriptions). A free demo class is ' +
+        'available before enrollment, with no card required.';
+
+    // Wrap to the file's existing line width so it stays readable.
+    const wrapped = answer.replace(/(.{1,92})(\s|$)/g, '$1\n').trimEnd();
+
+    // Preserve whatever line ending the file already uses.
+    const eol = before.indexOf(String.fromCharCode(13,10)) !== -1
+        ? String.fromCharCode(13,10) : String.fromCharCode(10);
+    const after = before.slice(0, aAt)
+        + wrapped.split(String.fromCharCode(10)).join(eol)
+        + before.slice(endAt);
+    const changed = after !== before;
+    if (changed && !DRY) fs.writeFileSync(p, after);
+    return { changed: changed };
+}
+
 function main() {
     let config;
     try {
@@ -310,6 +388,7 @@ function main() {
 
     const runtime = emitRuntimeData(config);
     const coursesCfg = syncCoursesConfig(config);
+    const llms = syncLlmsTxt(config);
 
     // ─── report ───
     if (allChanges.length) {
@@ -349,6 +428,9 @@ function main() {
         ' (' + (runtime.bytes / 1024).toFixed(1) + ' KB).');
     console.log('courses-config.json (the Razorpay amount for ' + coursesCfg.courses + ' courses) ' +
         (coursesCfg.changed ? (DRY ? 'would change' : 'updated') : 'unchanged') + '.');
+    console.log('llms.txt (what AI engines quote) ' +
+        (llms.missing ? 'has no pricing question to update' :
+         llms.changed ? (DRY ? 'would change' : 'updated') : 'unchanged') + '.');
     if (coursesCfg.changes && coursesCfg.changes.length) {
         coursesCfg.changes.slice(0, 10).forEach(function (c) { console.log('    ' + c); });
         if (coursesCfg.changes.length > 10) console.log('    ... and ' + (coursesCfg.changes.length - 10) + ' more');

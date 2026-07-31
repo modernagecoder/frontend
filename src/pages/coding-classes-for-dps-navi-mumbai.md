@@ -281,7 +281,7 @@ Trusted by DPS Schools Across Delhi
 
 Families from both DPS Navi Mumbai and DPS Vasant Kunj trust Modern Age Coders for their children's tech education. Our CBSE-aligned coding and maths curriculum is designed for all DPS Navi Mumbai students — with **separate batches** also available for DPS Vasant Kunj families who prefer them. Students from Delhi's top schools learn with us.
 
-[Explore DPS Vasant Kunj Page →](/coding-classes-for-la-martiniere-girls-Navi Mumbai)Courses by Category
+[Explore DPS Vasant Kunj Page →](/best-coding-class-in-navi-mumbai)Courses by Category
 
 ## Find the Perfect Course for Your Age & Level
 
@@ -455,7 +455,7 @@ Yes — and we encourage it. Visit our free [How We Teach demo library](/how-we-
 
 ## Explore More
 
-[Coding for DPS Vasant Kunj](/coding-classes-for-la-martiniere-girls-Navi Mumbai)[Coding Classes in Delhi](/best-coding-class-in-Navi Mumbai)[All Courses](/courses)[Pricing](/pricing)[Summer Coding Camp](/summer-coding-camp)[How We Teach (Free Demos)](/how-we-teach)[Coding for CBSE Students](/coding-for-cbse-students)[Online Maths Tuition](/online-maths-tuition)[All School Programmes](/schools)
+[Coding for DPS Vasant Kunj](/best-coding-class-in-navi-mumbai)[Coding Classes in Delhi](/best-coding-class-in-navi-mumbai)[All Courses](/courses)[Pricing](/pricing)[Summer Coding Camp](/summer-coding-camp)[How We Teach (Free Demos)](/how-we-teach)[Coding for CBSE Students](/coding-for-cbse-students)[Online Maths Tuition](/online-maths-tuition)[All School Programmes](/schools)
 
 ---
 

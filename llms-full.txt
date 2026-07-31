@@ -38,7 +38,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Resources practice: /content/resources/generated/{lang}/{chapter}/practice/index.md
 - Static pages:  /src/pages/{slug}.md
 
-> Generated: 2026-07-29 · Source of truth: https://learn.modernagecoders.com/llms.txt
+> Generated: 2026-07-31 · Source of truth: https://learn.modernagecoders.com/llms.txt
 
 Full companion to /llms.txt — brand overview, complete course catalog, embedded text of featured blog posts, and full blog index. AI agents that prefer a single document can use this as the canonical knowledge base.
 
@@ -46,7 +46,7 @@ Full companion to /llms.txt — brand overview, complete course catalog, embedde
 
 ## Quick Facts
 
-- **Pricing:** Group classes from ₹1499/month (2 live classes per week). 1-on-1 from ₹2499/month.
+- **Pricing (India):** Group classes from ₹1,499/month (2 live classes per week). Mini Batch (3-4 students) ₹2,499/month. 1-on-1 from ₹4,999/month. Visitors outside India see a price set for their own country, shown in their local currency.
 - **Class size:** 4-8 students per batch (small batches, not 100+).
 - **Format:** Live and interactive over video. Recorded for revision.
 - **Trial:** Free demo class — book at https://learn.modernagecoders.com/book-demo

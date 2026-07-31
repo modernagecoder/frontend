@@ -175,6 +175,11 @@ const InternationalPricing = {
     console.log('[International Pricing] Detected:', this.isIndian ? 'INDIA (INR)' : 'INTERNATIONAL (USD)',
       this.country ? '· country ' + this.country : '');
 
+    // Anchors first, and for every visitor: they are the precise mechanism,
+    // and the text-scanning fallbacks below must not run over a value they
+    // have already set correctly.
+    this.updatePriceAnchors();
+
     // Toggle catalog price chips (course.html) regardless of region
     this.updateCatalogPriceChips();
 
@@ -332,6 +337,76 @@ const InternationalPricing = {
 
     // EITHER signal = India. NEITHER = International.
     return hasIndianLocale || hasIndianTimezone;
+  },
+
+  /**
+   * Re-price every [data-price] anchor for the visitor in front of us.
+   *
+   * The region baked into an anchor decides only what is in the HTML for
+   * crawlers and for anyone without JavaScript. It must NOT decide what a
+   * visitor sees: a maths page anchored to maths.international.group would
+   * otherwise show the US list price to an Indian family and to Nigeria alike.
+   *
+   * So the anchor names the plan, and the region follows the visitor:
+   *   Indian visitor        -> subject.india.tier
+   *   International visitor -> that country's price for subject.tier
+   *
+   * Runs for everyone, including India, because a page may be anchored to the
+   * international side and still need rupees.
+   */
+  updatePriceAnchors: function () {
+    var data = window.MAC_PRICING;
+    if (!data) return;
+    var self = this;
+    var country = this.country;
+    var entry = (!this.isIndian && country && data.worldwide && data.worldwide.enabled)
+      ? data.worldwide.countries[country] : null;
+
+    document.querySelectorAll('[data-price]').forEach(function (el) {
+      var parts = (el.getAttribute('data-price') || '').split('.');
+      if (parts.length !== 3) return;
+      var subject = parts[0], tier = parts[2];
+
+      var amount, currency;
+      if (self.isIndian) {
+        var indiaTable = (data.plans[subject] && data.plans[subject].india) || {};
+        amount = indiaTable[tier];
+        currency = 'INR';
+      } else {
+        var perCountry = entry && entry.tiers && entry.tiers[subject];
+        amount = perCountry ? perCountry[tier] : undefined;
+        if (amount === undefined || amount === null) {
+          var intlTable = (data.plans[subject] && data.plans[subject].international) || {};
+          amount = intlTable[tier];
+        }
+        currency = 'USD';
+      }
+
+      // Not sold in this region. Leave the markup untouched and let the
+      // India-only hiding rules deal with the card.
+      if (amount === null || amount === undefined) return;
+
+      var symbol = currency === 'INR' ? '₹' : '$';
+      var text = symbol + new Intl.NumberFormat(currency === 'INR' ? 'en-IN' : 'en-US', {
+        minimumFractionDigits: Number.isInteger(amount) ? 0 : 2,
+        maximumFractionDigits: Number.isInteger(amount) ? 0 : 2
+      }).format(amount);
+
+      // Preserve the split shape (<span class="price-currency">₹</span>1499)
+      // where a page uses it, so card layouts do not collapse.
+      var cur = el.querySelector('.price-currency');
+      if (cur) {
+        cur.textContent = symbol;
+        var rest = '';
+        el.childNodes.forEach(function (n) { if (n !== cur) rest += n.textContent; });
+        if (rest.trim() !== String(amount)) {
+          while (el.lastChild && el.lastChild !== cur) el.removeChild(el.lastChild);
+          el.appendChild(document.createTextNode(String(amount)));
+        }
+      } else {
+        el.textContent = text;
+      }
+    });
   },
 
   // ─── Update ALL pages ───

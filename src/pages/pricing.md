@@ -161,14 +161,14 @@ Custom Quote
 
 For students outside India — coding courses at a single transparent price in USD. Mathematics is priced separately — see the **Mathematics** tab above.
 
-Group Classes$40USD / month
+Group Classes$149.99USD / month
 
 - 2 classes per week (1 hr each)
 - Batch of up to 10 students
 - Recorded sessions access
 - Course completion certificate
 
-[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm interested in Group Classes ($40 USD/month). I'm an international student and would like to know about payment options.)RecommendedPersonalized 1-on-1$100USD / month
+[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm interested in Group Classes ($40 USD/month). I'm an international student and would like to know about payment options.)RecommendedPersonalized 1-on-1$374.99USD / month
 
 - 2 private sessions per week
 - 100% personalized curriculum
@@ -178,7 +178,7 @@ Group Classes$40USD / month
 
 [Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm interested in Personalized 1-on-1 Classes ($100 USD/month). I'm an international student and would like to know about payment options.)
 
-**Mathematics (international):** Group **$100** · Personalized 1-on-1 **$150** / month — 1-hour live classes, 2 per week (8 a month).
+**Mathematics (international):** Group **$374.99** · Personalized 1-on-1 **$150** / month — 1-hour live classes, 2 per week (8 a month).
 
 Also available in EUR, GBP, CAD, AUD, SGD & AED.
  Contact [+91 9123366161](tel:+919123366161) (Shivam Sir) for payment details.

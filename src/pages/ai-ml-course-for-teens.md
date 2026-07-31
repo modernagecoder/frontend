@@ -439,6 +439,7 @@ India's most trusted live online coding institute for kids, teens & adults.
 - [Web Development Teens](https://learn.modernagecoders.com/courses/frontend-development-masterclass-for-teens)
 - [Python & AI Classes](/python-and-ai-classes-for-kids-teens)
 - [Coding for Girls](/coding-classes-for-girls)
+- [Learn to Build AI, by country](/learn-to-build-ai)
 
 ### Quick Links
 

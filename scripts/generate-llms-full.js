@@ -18,6 +18,8 @@
 
 const fs = require('fs');
 const path = require('path');
+// Single source of truth for every price. See pricing/README.md.
+const PRICING = require('./pricing/lib/config.js');
 const { blogToMarkdown } = require('./lib/markdown-emitter.js');
 
 const SITE = 'https://learn.modernagecoders.com';
@@ -153,9 +155,21 @@ function buildBlogSections() {
 }
 
 function buildKeyFacts() {
+    // Prices come from pricing/pricing.config.jsonc. This line used to be
+    // hardcoded and had drifted: it advertised 1-on-1 at Rs2,499 when the real
+    // price was Rs4,999, to the AI engines that quote this file verbatim.
+    const cfg = PRICING.load();
+    const india = cfg.plans.coding.india;
+    const money = (n) => PRICING.format(n, 'INR', { style: 'display' });
+
+    const tiers = [];
+    if (india.group != null) tiers.push(`Group classes from ${money(india.group)}/month (2 live classes per week)`);
+    if (india.miniBatch != null) tiers.push(`Mini Batch (3-4 students) ${money(india.miniBatch)}/month`);
+    if (india.personal != null) tiers.push(`1-on-1 from ${money(india.personal)}/month`);
+
     return `## Quick Facts
 
-- **Pricing:** Group classes from ₹1499/month (2 live classes per week). 1-on-1 from ₹2499/month.
+- **Pricing (India):** ${tiers.join('. ')}. Visitors outside India see a price set for their own country, shown in their local currency.
 - **Class size:** 4-8 students per batch (small batches, not 100+).
 - **Format:** Live and interactive over video. Recorded for revision.
 - **Trial:** Free demo class — book at ${SITE}/book-demo
