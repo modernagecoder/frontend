@@ -164,8 +164,6 @@ Group classes
 
 $40 per month
 
-about QAR 145 per month
-
 - Your child among five to eight peers
 - One fixed weekly hour after school
 - Projects, notes home and a certificate
@@ -176,8 +174,6 @@ Book a Free Demo
 One-on-one classes
 
 $100 per month
-
-about QAR 365 per month
 
 - A private teacher, full attention
 - Timing chosen around your family

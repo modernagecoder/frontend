@@ -222,8 +222,6 @@ Group classes
 
 $40 per month
 
-about QAR 145 per month
-
 - Five to eight students per teacher
 - A fixed weekly evening hour, AST
 - Projects, homework and a certificate
@@ -234,8 +232,6 @@ Book a Free Demo
 One-on-one classes
 
 $100 per month
-
-about QAR 365 per month
 
 - Sixty minutes, one student, one teacher
 - Days and times arranged around you

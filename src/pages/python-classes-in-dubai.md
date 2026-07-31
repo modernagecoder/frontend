@@ -197,8 +197,6 @@ Group classes
 
 $40 per month
 
-about AED 150 per month
-
 - Live weekly class, batch of 5 to 8
 - GST evening and weekend slots
 - Projects kept, certificate on completion
@@ -209,8 +207,6 @@ Book a Free Demo
 One-on-one classes
 
 $100 per month
-
-about AED 370 per month
 
 - Private class, undivided teacher
 - Slot chosen around your week

@@ -1,10 +1,10 @@
 ---
 title: "Online Coding Classes for Kids in the UK | Live 1:1, Ages 6-14 | Modern Age Coders"
-description: "Live online coding classes for British kids ages 6-14: KS2 Scratch depth, the blocks-to-Python bridge before KS3, and the GCSE Computer Science runway, taught at UK evening slots. 8 one-hour classes a month from $40 (about GBP 32). Free demo."
+description: "Live online coding classes for British kids ages 6-14: KS2 Scratch depth, the blocks-to-Python bridge before KS3, and the GCSE Computer Science runway, taught at UK evening slots. 8 one-hour classes a month from $40. Free demo."
 canonical: https://learn.modernagecoders.com/online-coding-classes-for-kids-uk
 source: src/pages/online-coding-classes-for-kids-uk.html
 ---
-> Live online coding classes for British kids ages 6-14: KS2 Scratch depth, the blocks-to-Python bridge before KS3, and the GCSE Computer Science runway, taught at UK evening slots. 8 one-hour classes a month from $40 (about GBP 32). Free demo.
+> Live online coding classes for British kids ages 6-14: KS2 Scratch depth, the blocks-to-Python bridge before KS3, and the GCSE Computer Science runway, taught at UK evening slots. 8 one-hour classes a month from $40. Free demo.
 
 Enroll now
 
@@ -147,7 +147,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the form
 
 ### 1:1 Private Mentorship
 
-$100 / month
+$374.99 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your child by name
@@ -156,7 +156,7 @@ $100 / month
 
 ### Small-Group Class
 
-$40 / month
+$149.99 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level

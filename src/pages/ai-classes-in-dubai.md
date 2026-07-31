@@ -220,8 +220,6 @@ Group classes
 
 $40 per month
 
-about AED 150 per month
-
 - Weekly live class, 5 to 8 students
 - Evening and weekend GST timings
 - Projects owned by the student
@@ -232,8 +230,6 @@ Book a Free Demo
 One-on-one classes
 
 $100 per month
-
-about AED 370 per month
 
 - A teacher entirely to yourself
 - Timings shaped around your week

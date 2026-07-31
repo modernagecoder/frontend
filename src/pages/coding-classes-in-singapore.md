@@ -58,7 +58,7 @@ Sea · Grab · Razer · GovTech · TikTok APAC · Stripe · OpenAI SG · Anthrop
 
 **Where Modern Age Coders adds value:** not by replacing school — Singapore schools are already world-class — but by adding the 1:1 depth, real working projects on GitHub, and algorithmic problem-solving that school class sizes of 30+ struggle to deliver, and that NUS / NTU / SMU / SUTD admissions actually scrutinize.
 
-**4.9 / 5**From 1,620 Singapore parent & student reviews**SGT**UTC+8 · IST mentors 2.5h behind · normal teaching hours**4 curricula**MOE · O-Level · A-Level · IP · IB DP**SGD 135**Per month · ≈ USD 100 · no GST · cancel anytimeChoose your child's track
+**4.9 / 5**From 1,620 Singapore parent & student reviews**SGT**UTC+8 · IST mentors 2.5h behind · normal teaching hours**4 curricula**MOE · O-Level · A-Level · IP · IB DP**SGD 135**Per month · no GST · cancel anytimeChoose your child's track
 
 ## Pick the course that matches their level — and book a trial in under 30 seconds.
 
@@ -203,7 +203,7 @@ Most chosen by SG families
 
 A named mentor in SGT-friendly hours. Live, every session.
 
-SGD135/month≈ USD 100 / month
+SGD135/month / month
 
 - 8 live sessions per month · 2 per week · 45 min each
 - Same named mentor for as long as it's working
@@ -216,7 +216,7 @@ SGD135/month≈ USD 100 / month
 
 3 – 5 learners, same level, same curriculum.
 
-SGD54/month≈ USD 40 / month
+SGD54/month / month
 
 - 8 live group sessions per month · 2 per week · 60 min each
 - Same mentor every class · cohort stays together

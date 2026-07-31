@@ -1,16 +1,16 @@
 ---
 title: "Maths Tutor in Sharjah · 1:1 Online Maths Tuition, Every Curriculum — Modern Age Coders"
-description: "Looking for a maths tutor in Sharjah? Live 1:1 online maths tuition for CBSE, British, IB and MOE schools across Sharjah — Al Nahda, Al Majaz, Muwailih, University City. We teach reasoning, not rote. Gulf Standard Time. USD 150/month (about AED 550). Free trial."
+description: "Looking for a maths tutor in Sharjah? Live 1:1 online maths tuition for CBSE, British, IB and MOE schools across Sharjah — Al Nahda, Al Majaz, Muwailih, University City. We teach reasoning, not rote. Gulf Standard Time. USD 150/month. Free trial."
 canonical: https://learn.modernagecoders.com/maths-tutor-in-sharjah
 source: src/pages/maths-tutor-in-sharjah.html
 ---
-> Looking for a maths tutor in Sharjah? Live 1:1 online maths tuition for CBSE, British, IB and MOE schools across Sharjah — Al Nahda, Al Majaz, Muwailih, University City. We teach reasoning, not rote. Gulf Standard Time. USD 150/month (about AED 550). Free trial.
+> Looking for a maths tutor in Sharjah? Live 1:1 online maths tuition for CBSE, British, IB and MOE schools across Sharjah — Al Nahda, Al Majaz, Muwailih, University City. We teach reasoning, not rote. Gulf Standard Time. USD 150/month. Free trial.
 
 In short
 
 **Modern Age Coders is an online maths tutor serving all of Sharjah** — Al Nahda, Al Majaz, Al Khan, Muwailih, University City and beyond — with live one-to-one lessons for CBSE, British, IB and MOE schools, all ages.
 
-It's strong teaching at sensible value: **USD 150 per month (about AED 550)** for eight 1:1 lessons, typically well below in-person rates, with a tutor matched to your child's curriculum and no commute. Lessons run in Gulf Standard Time and the first lesson is free.
+It's strong teaching at sensible value: **USD 150 per month** for eight 1:1 lessons, typically well below in-person rates, with a tutor matched to your child's curriculum and no commute. Lessons run in Gulf Standard Time and the first lesson is free.
 
 What Sharjah families are really looking for
 
@@ -149,7 +149,7 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$150 / month · ≈ AED 550
+$374.99 / month
 
 - 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - The same dedicated, curriculum-matched tutor
@@ -158,7 +158,7 @@ $150 / month · ≈ AED 550
 
 ### Small-Group Cohort
 
-$100 / month · ≈ AED 367
+$149.99 / month
 
 - 8 live small-group lessons a month (2 per week, 1 hour each)
 - A few students at the same level & curriculum
@@ -191,7 +191,7 @@ An honest comparison
 | Matched to your curriculum | Yes | Varies | Generic |
 | Teaches reasoning | Always | Varies | Rarely |
 | No commute / traffic | Fully online | You travel | You travel |
-| Monthly price | $150 / ≈AED 550 (1:1) | AED 800–2,000+ | AED 300–800 |
+| Monthly price | $150 / (1:1) | AED 800–2,000+ | AED 300–800 |
 
 Group classes are cheaper but share the tutor's attention; centres give attention at a premium. We give full one-to-one attention online at sensible value.
 
@@ -209,7 +209,7 @@ Every area — Al Nahda, Al Majaz, Al Khan, Muwailih, University City, Al Taawun
 
 Is online maths tuition good value in Sharjah?
 
-Yes — USD 150/month (about AED 550) for eight 1:1 lessons, typically well below in-person rates, with no travel and a curriculum-matched tutor.
+Yes — USD 150/month for eight 1:1 lessons, typically well below in-person rates, with no travel and a curriculum-matched tutor.
 
 Do you teach CBSE maths in Sharjah?
 
@@ -217,7 +217,7 @@ Yes — CBSE/ICSE is a core strength, primary through Class 10 and 12 boards. Se
 
 How much does it cost?
 
-USD 150/month (about AED 550) for 1:1 — eight live lessons, two a week. Small-group option USD 100/month. No contract.
+USD 150/month for 1:1 — eight live lessons, two a week. Small-group option USD 100/month. No contract.
 
 Is the first lesson free?
 

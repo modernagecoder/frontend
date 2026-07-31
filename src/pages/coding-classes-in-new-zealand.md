@@ -70,7 +70,7 @@ YEAR 13 · UE / L3
 
 **Where Modern Age Coders adds value:** not by replacing school — NZ secondary schools are strong, particularly the well-resourced ones — but by adding the 1:1 depth, real working projects on GitHub, and the Excellence-grade portfolio polish that NCEA L3 Digital Technologies internal-assessment markers actually reward.
 
-**4.9 / 5**From 740 Kiwi parent & student reviews**NZST/NZDT**UTC+12 / +13 · India mentors 6.5–7.5h behind**NCEA**Direct alignment with NCEA L1, L2, L3 Digital Technologies**NZD 165**Per month · ≈ USD 100 · no GST · cancel anytimeChoose your child's track
+**4.9 / 5**From 740 Kiwi parent & student reviews**NZST/NZDT**UTC+12 / +13 · India mentors 6.5–7.5h behind**NCEA**Direct alignment with NCEA L1, L2, L3 Digital Technologies**NZD 165**Per month · no GST · cancel anytimeChoose your child's track
 
 ## Pick the course that matches their year level — and book a trial in under 30 seconds.
 
@@ -196,7 +196,7 @@ Most chosen by Kiwi families
 
 A named mentor in NZST/NZDT. Live, every session.
 
-NZD165/month≈ USD 100 / month
+NZD165/month / month
 
 - 8 live sessions per month · 2 per week · 45 min each
 - Same named mentor for as long as it's working
@@ -209,7 +209,7 @@ NZD165/month≈ USD 100 / month
 
 3 – 5 learners, same year, same standards.
 
-NZD66/month≈ USD 40 / month
+NZD66/month / month
 
 - 8 live group sessions per month · 2 per week · 60 min each
 - Same mentor every class · cohort stays together
@@ -553,7 +553,7 @@ NZST (UTC+12) in winter, NZDT (UTC+13) in summer. Most mentors are based in Indi
 
 What does it cost in NZD?
 
-Private 1:1 mentorship is USD 100 (about NZD 165) per month — 8 sessions, two each week. Small-group cohort is USD 40 (about NZD 66) per month. No NZ GST. No joining fee.
+Private 1:1 mentorship is USD 100 per month — 8 sessions, two each week. Small-group cohort is USD 40 per month. No NZ GST. No joining fee.
 
 Can I pay in NZD or USD?
 

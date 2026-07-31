@@ -1,10 +1,10 @@
 ---
 title: "Coding & AI Classes in Germany | Abitur & Informatik"
-description: "Live online coding, Python & AI for students across Germany. Informatik LK & Abitur-aligned. 1:1 mentor, USD 100 (≈ EUR 92)/mo. Buchen Sie eine Demo."
+description: "Live online coding, Python & AI for students across Germany. Informatik LK & Abitur-aligned. 1:1 mentor, USD 100 ( )/mo. Buchen Sie eine Demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-germany
 source: src/pages/coding-classes-in-germany.html
 ---
-> Live online coding, Python & AI for students across Germany. Informatik LK & Abitur-aligned. 1:1 mentor, USD 100 (≈ EUR 92)/mo. Buchen Sie eine Demo.
+> Live online coding, Python & AI for students across Germany. Informatik LK & Abitur-aligned. 1:1 mentor, USD 100 ( )/mo. Buchen Sie eine Demo.
 
 ### Rückruf anfordern
 
@@ -26,7 +26,7 @@ See all courses4.9/5average parent & learner rating across Germany — 547 revie
 
 Click any track to open the course page, or book a free demo and a mentor matches your child to the right one.
 
-[Most chosen in DE · Informatik LK Coding & AI for Teens (13–18) — Informatik LK & Abitur aligned Real Python, JavaScript, Git, web apps and modern AI engineering — paced to a German Gymnasium term. We line up with Informatik LK, Abitur exam content, BWInf rounds and Jugend forscht entries. Many of our students go on to TUM, RWTH, TU Berlin and KIT informatics tracks.  Format1:1 · 2 sessions / week Length8 sessions / month StackPython · JS · Web · LLM APIs ScheduleCET · 16:00 – 21:00 most days   USD 100/ month · ≈ EUR 92 Open course →](/courses/coding/teens)[Ages 6 – 12 Coding for Kids Scratch → real Python by month three. Tiny games, drawing apps, first AI projects. USD 100 / mo→](/courses/coding/kids)[New · Ages 13 – 18 AI & Agentic-AI LLM apps, RAG, tool-using agents — the way German AI startups actually ship. USD 100 / mo→](/ai-ml-course-for-teens)[TUM · RWTH · KIT For College & Uni Algorithms, system design, AI engineering. Top-ups for German uni students. USD 100 / mo→](/courses/coding/college)[Adults · Career switch For Professionals Mid-career Quereinsteiger into software, data and AI roles. USD 100 / mo→](/courses/coding/college)[For girls · 8 – 22 Coding für Mädchen All-female mentor pairing, role models from the Berlin & Munich AI scene. USD 100 / mo→](/courses/coding/girls)[Schulen · Firmen For Schools / Teams Gymnasium informatics cohorts, AGs and German company upskilling programmes. USD 40 / seat→](/courses/coding/corporate)Why German families pick us
+[Most chosen in DE · Informatik LK Coding & AI for Teens (13–18) — Informatik LK & Abitur aligned Real Python, JavaScript, Git, web apps and modern AI engineering — paced to a German Gymnasium term. We line up with Informatik LK, Abitur exam content, BWInf rounds and Jugend forscht entries. Many of our students go on to TUM, RWTH, TU Berlin and KIT informatics tracks.  Format1:1 · 2 sessions / week Length8 sessions / month StackPython · JS · Web · LLM APIs ScheduleCET · 16:00 – 21:00 most days   USD 100/ month Open course →](/courses/coding/teens)[Ages 6 – 12 Coding for Kids Scratch → real Python by month three. Tiny games, drawing apps, first AI projects. USD 100 / mo→](/courses/coding/kids)[New · Ages 13 – 18 AI & Agentic-AI LLM apps, RAG, tool-using agents — the way German AI startups actually ship. USD 100 / mo→](/ai-ml-course-for-teens)[TUM · RWTH · KIT For College & Uni Algorithms, system design, AI engineering. Top-ups for German uni students. USD 100 / mo→](/courses/coding/college)[Adults · Career switch For Professionals Mid-career Quereinsteiger into software, data and AI roles. USD 100 / mo→](/courses/coding/college)[For girls · 8 – 22 Coding für Mädchen All-female mentor pairing, role models from the Berlin & Munich AI scene. USD 100 / mo→](/courses/coding/girls)[Schulen · Firmen For Schools / Teams Gymnasium informatics cohorts, AGs and German company upskilling programmes. USD 40 / seat→](/courses/coding/corporate)Why German families pick us
 
 ## Six things we get right that the rest of the market mostly does not.
 
@@ -262,7 +262,7 @@ Same curriculum, same mentors, age-banded small group.
 
 USD40/ Monat
 
-≈ EUR 37 / Monat · 8 sessions · 2 per week
+/ Monat · 8 sessions · 2 per week
 
 - 8 live small-group sessions every month
 - Up to 6 students per group, age-banded
@@ -278,7 +278,7 @@ Deepest progress, fully customised pace. Used by 80% of our German families.
 
 USD100/ Monat
 
-≈ EUR 92 / Monat · 8 sessions · 2 per week
+/ Monat · 8 sessions · 2 per week
 
 - 8 live 1:1 sessions every month
 - Same mentor every week — no rotation
@@ -449,7 +449,7 @@ Classes are taught in clear, slow English — because every meaningful software 
 
 What does it cost in Euro?
 
-Private 1:1 mentorship is **USD 100 (≈ EUR 92)** per month — 8 sessions, 2 per week. Small-group cohort is **USD 40 (≈ EUR 37)** per month, same schedule. No registration fee, no contract, monatlich kündbar.
+Private 1:1 mentorship is **USD 100 ( )** per month — 8 sessions, 2 per week. Small-group cohort is **USD 40 ( )** per month, same schedule. No registration fee, no contract, monatlich kündbar.
 
 Will my child learn real AI or just "use ChatGPT"?
 
@@ -473,7 +473,7 @@ Under-13s never operate LLM APIs against the open internet without a mentor pres
 
 How do we pay? German cards and SEPA OK?
 
-Yes. We accept Visa, Mastercard, Amex, Apple Pay, Google Pay (all issued in Germany), and SEPA-Lastschrift for adult invoices. Billing is in USD; your bank applies the live EUR conversion — typically ≈ EUR 92 for the 1:1 plan.
+Yes. We accept Visa, Mastercard, Amex, Apple Pay, Google Pay (all issued in Germany), and SEPA-Lastschrift for adult invoices. Billing is in USD; your bank applies the live EUR conversion — typically for the 1:1 plan.
 
 Does the schedule pause for school holidays and Ferien?
 

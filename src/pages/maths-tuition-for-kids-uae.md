@@ -1,16 +1,16 @@
 ---
 title: "Maths Tuition for Kids in the UAE · 1:1 Online Primary Maths — Modern Age Coders"
-description: "Live 1:1 online maths tuition for children in the UAE, ages 5–11, across British, American, IB and CBSE primary schools. We teach why the maths works — number sense, times tables, fractions — not rote. Gulf Standard Time. USD 150/month (about AED 550). Free trial."
+description: "Live 1:1 online maths tuition for children in the UAE, ages 5–11, across British, American, IB and CBSE primary schools. We teach why the maths works — number sense, times tables, fractions — not rote. Gulf Standard Time. USD 150/month. Free trial."
 canonical: https://learn.modernagecoders.com/maths-tuition-for-kids-uae
 source: src/pages/maths-tuition-for-kids-uae.html
 ---
-> Live 1:1 online maths tuition for children in the UAE, ages 5–11, across British, American, IB and CBSE primary schools. We teach why the maths works — number sense, times tables, fractions — not rote. Gulf Standard Time. USD 150/month (about AED 550). Free trial.
+> Live 1:1 online maths tuition for children in the UAE, ages 5–11, across British, American, IB and CBSE primary schools. We teach why the maths works — number sense, times tables, fractions — not rote. Gulf Standard Time. USD 150/month. Free trial.
 
 In short
 
 **Modern Age Coders offers live one-to-one online maths tuition for children across the UAE, ages 5–11**, matched to their British, American, IB (PYP) or CBSE primary curriculum.
 
-We teach the reasoning behind the maths — number sense, times tables, fractions — so it sticks, with the same patient tutor each lesson. Pricing is **USD 150 per month (about AED 550)** for eight 1:1 lessons, lessons run in Gulf Standard Time, and the first lesson is free.
+We teach the reasoning behind the maths — number sense, times tables, fractions — so it sticks, with the same patient tutor each lesson. Pricing is **USD 150 per month** for eight 1:1 lessons, lessons run in Gulf Standard Time, and the first lesson is free.
 
 Why so many UAE children stall in primary maths
 
@@ -149,7 +149,7 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$150 / month · ≈ AED 550
+$374.99 / month
 
 - 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - The same dedicated, curriculum-matched tutor
@@ -158,7 +158,7 @@ $150 / month · ≈ AED 550
 
 ### Small-Group Cohort
 
-$100 / month · ≈ AED 367
+$149.99 / month
 
 - 8 live small-group lessons a month (2 per week, 1 hour each)
 - A handful of children at the same level
@@ -191,7 +191,7 @@ An honest comparison
 | Matched to your curriculum | Yes | Generic | Sometimes |
 | Notices quiet confusion | Yes, live, 1:1 | No | Group-dependent |
 | Same tutor each time | Yes | N/A | Often rotates |
-| Monthly price | $150 / ≈AED 550 (1:1) | AED 20–50 | AED 800–2,000+ |
+| Monthly price | $150 / (1:1) | AED 20–50 | AED 800–2,000+ |
 
 Apps are inexpensive and fine for drill. Centres give attention at a premium and in groups. We give full one-to-one attention, matched to your curriculum, online.
 
@@ -213,7 +213,7 @@ This is the most common reason families come to us. Patient one-to-one attention
 
 How much does it cost?
 
-USD 150/month (about AED 550) for 1:1 — eight live lessons, two a week. Small-group option USD 100/month. No contract.
+USD 150/month for 1:1 — eight live lessons, two a week. Small-group option USD 100/month. No contract.
 
 Is the first lesson free?
 

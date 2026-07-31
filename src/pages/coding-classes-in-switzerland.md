@@ -280,7 +280,7 @@ One mentor, one student, every class. Deepest progress, fully customised pace.
 
 USD100/ month
 
-≈ CHF 90 / month · billed in USD · no joining fee
+/ month · billed in USD · no joining fee
 
 - 8 live 1:1 sessions every month
 - 2 classes per week, your chosen CET slots
@@ -298,7 +298,7 @@ Same curriculum, same mentors, in a small live group. Friendly entry point.
 
 USD40/ month
 
-≈ CHF 36 / month · billed in USD · no joining fee
+/ month · billed in USD · no joining fee
 
 - 8 live small-group sessions every month
 - 2 classes per week, your chosen CET slot
@@ -452,7 +452,7 @@ We schedule against Central European Time. Most Swiss families choose after-scho
 
 How much do the classes cost in CHF?
 
-Private 1:1 mentorship is **USD 100 per month** (≈ CHF 90), for 8 sessions — two each week. Small-group classes are **USD 40 per month** (≈ CHF 36) on the same schedule. There is no joining fee, no contract, no card-on-file surprise, and you can pause for ski weeks or summer holidays.
+Private 1:1 mentorship is **USD 100 per month** ( ), for 8 sessions — two each week. Small-group classes are **USD 40 per month** ( ) on the same schedule. There is no joining fee, no contract, no card-on-file surprise, and you can pause for ski weeks or summer holidays.
 
 Do you teach real coding or just block-based tools like Scratch?
 
@@ -512,7 +512,7 @@ Yes. We adapt within a track rather than skipping content — depth before speed
 
 How do we pay from a Swiss bank account?
 
-We accept Swiss credit and debit cards (Visa, Mastercard, Amex), Apple Pay, Google Pay, TWINT-linked cards via Stripe, and SEPA / international transfer for adult invoices. Billing is in USD; your bank applies the live CHF conversion — typically ≈ CHF 90 for the 1:1 plan.
+We accept Swiss credit and debit cards (Visa, Mastercard, Amex), Apple Pay, Google Pay, TWINT-linked cards via Stripe, and SEPA / international transfer for adult invoices. Billing is in USD; your bank applies the live CHF conversion — typically for the 1:1 plan.
 
 Last thing
 

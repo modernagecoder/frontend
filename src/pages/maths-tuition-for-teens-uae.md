@@ -1,16 +1,16 @@
 ---
 title: "Maths Tuition for Teens in the UAE · 1:1 Online Secondary Maths — Modern Age Coders"
-description: "Live 1:1 online maths tuition for teenagers in the UAE, ages 12–17, across British (GCSE), American, IB and CBSE secondary schools. We rebuild the reasoning so it holds up in exams. Gulf Standard Time. USD 150/month (about AED 550). Free trial."
+description: "Live 1:1 online maths tuition for teenagers in the UAE, ages 12–17, across British (GCSE), American, IB and CBSE secondary schools. We rebuild the reasoning so it holds up in exams. Gulf Standard Time. USD 150/month. Free trial."
 canonical: https://learn.modernagecoders.com/maths-tuition-for-teens-uae
 source: src/pages/maths-tuition-for-teens-uae.html
 ---
-> Live 1:1 online maths tuition for teenagers in the UAE, ages 12–17, across British (GCSE), American, IB and CBSE secondary schools. We rebuild the reasoning so it holds up in exams. Gulf Standard Time. USD 150/month (about AED 550). Free trial.
+> Live 1:1 online maths tuition for teenagers in the UAE, ages 12–17, across British (GCSE), American, IB and CBSE secondary schools. We rebuild the reasoning so it holds up in exams. Gulf Standard Time. USD 150/month. Free trial.
 
 In short
 
 **Modern Age Coders offers live one-to-one online maths tuition for teenagers across the UAE, ages 12–17**, matched to their British (GCSE), American, IB or CBSE secondary curriculum and exams.
 
-We rebuild the reasoning underneath algebra, geometry and functions so it holds up under exam pressure, then train exam technique. Pricing is **USD 150 per month (about AED 550)** for eight 1:1 lessons, lessons run in Gulf Standard Time, and the first lesson is free.
+We rebuild the reasoning underneath algebra, geometry and functions so it holds up under exam pressure, then train exam technique. Pricing is **USD 150 per month** for eight 1:1 lessons, lessons run in Gulf Standard Time, and the first lesson is free.
 
 Why teens slip in secondary maths
 
@@ -149,7 +149,7 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$150 / month · ≈ AED 550
+$374.99 / month
 
 - 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - The same dedicated, curriculum-matched tutor
@@ -158,7 +158,7 @@ $150 / month · ≈ AED 550
 
 ### Small-Group Cohort
 
-$100 / month · ≈ AED 367
+$149.99 / month
 
 - 8 live small-group lessons a month (2 per week, 1 hour each)
 - A few students at the same level & curriculum
@@ -191,7 +191,7 @@ An honest comparison
 | Matched to your curriculum | Yes | Varies | Generic |
 | One-to-one attention | Always | Often group | N/A |
 | Same tutor each time | Yes | Often rotates | N/A |
-| Monthly price | $150 / ≈AED 550 (1:1) | AED 1,000–2,500+ | AED 20–50 |
+| Monthly price | $150 / (1:1) | AED 1,000–2,500+ | AED 20–50 |
 
 Apps are fine for practice; centres give attention at a premium and often in groups. We give full one-to-one attention, matched to your teen's curriculum, online.
 
@@ -213,7 +213,7 @@ Yes — understanding first, then exam technique. See our [GCSE](/gcse-maths-tut
 
 How much does it cost?
 
-USD 150/month (about AED 550) for 1:1 — eight live lessons, two a week. Small-group option USD 100/month. No contract.
+USD 150/month for 1:1 — eight live lessons, two a week. Small-group option USD 100/month. No contract.
 
 Is the first lesson free?
 

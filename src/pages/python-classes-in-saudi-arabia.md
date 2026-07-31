@@ -174,8 +174,6 @@ Group classes
 
 $40 per month
 
-about SAR 150 per month
-
 - Weekly live Python class, eight students at most
 - AST evening and weekend hours
 - Projects kept for good, certificate at completion
@@ -186,8 +184,6 @@ Book a Free Demo
 One-on-one classes
 
 $100 per month
-
-about SAR 375 per month
 
 - One learner, the teacher's undivided hour
 - Days and times set around your week

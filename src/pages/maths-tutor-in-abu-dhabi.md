@@ -1,16 +1,16 @@
 ---
 title: "Maths Tutor in Abu Dhabi · 1:1 Online Maths Tuition, Every Curriculum — Modern Age Coders"
-description: "Looking for a maths tutor in Abu Dhabi? Live 1:1 online maths tuition for British, American, IB and CBSE schools across the capital — Reem Island, Khalifa City, Saadiyat, Yas and beyond. We teach reasoning, not rote. Gulf Standard Time. USD 150/month (about AED 550). Free trial."
+description: "Looking for a maths tutor in Abu Dhabi? Live 1:1 online maths tuition for British, American, IB and CBSE schools across the capital — Reem Island, Khalifa City, Saadiyat, Yas and beyond. We teach reasoning, not rote. Gulf Standard Time. USD 150/month. Free trial."
 canonical: https://learn.modernagecoders.com/maths-tutor-in-abu-dhabi
 source: src/pages/maths-tutor-in-abu-dhabi.html
 ---
-> Looking for a maths tutor in Abu Dhabi? Live 1:1 online maths tuition for British, American, IB and CBSE schools across the capital — Reem Island, Khalifa City, Saadiyat, Yas and beyond. We teach reasoning, not rote. Gulf Standard Time. USD 150/month (about AED 550). Free trial.
+> Looking for a maths tutor in Abu Dhabi? Live 1:1 online maths tuition for British, American, IB and CBSE schools across the capital — Reem Island, Khalifa City, Saadiyat, Yas and beyond. We teach reasoning, not rote. Gulf Standard Time. USD 150/month. Free trial.
 
 In short
 
 **Modern Age Coders is an online maths tutor serving all of Abu Dhabi** — Al Reem Island, Khalifa City, Saadiyat, Yas Island, Al Raha, the Corniche, Mussafah and Al Ain — with live one-to-one lessons for British, American, IB and CBSE schools, all ages.
 
-Your child is matched to a tutor by curriculum and fit rather than postcode, keeps that tutor each week, and the price is **USD 150 per month (about AED 550)** for eight 1:1 lessons. Lessons run in Gulf Standard Time and the first lesson is free.
+Your child is matched to a tutor by curriculum and fit rather than postcode, keeps that tutor each week, and the price is **USD 150 per month** for eight 1:1 lessons. Lessons run in Gulf Standard Time and the first lesson is free.
 
 Why the capital's families turn to online tuition
 
@@ -149,7 +149,7 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$150 / month · ≈ AED 550
+$374.99 / month
 
 - 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - The same dedicated, curriculum-matched tutor
@@ -158,7 +158,7 @@ $150 / month · ≈ AED 550
 
 ### Small-Group Cohort
 
-$100 / month · ≈ AED 367
+$149.99 / month
 
 - 8 live small-group lessons a month (2 per week, 1 hour each)
 - A few students at the same level & curriculum
@@ -191,7 +191,7 @@ An honest comparison
 | Best-matched tutor | Anywhere, any curriculum | Centre's staff | Who's nearby |
 | Teaches reasoning | Always | Varies | Varies |
 | Same tutor each time | Yes | Often rotates | Usually |
-| Monthly price | $150 / ≈AED 550 (1:1) | AED 1,000–2,500+ | AED 1,500–4,000+ |
+| Monthly price | $150 / (1:1) | AED 1,000–2,500+ | AED 1,500–4,000+ |
 
 In-person options in Abu Dhabi are good but premium-priced and location-bound. We deliver matched, one-to-one teaching online for a fraction of the cost.
 
@@ -213,7 +213,7 @@ Yes — focused one-to-one attention on a shared whiteboard, no travel, and acce
 
 How much does a maths tutor in Abu Dhabi cost?
 
-USD 150/month (about AED 550) for 1:1 — eight live lessons, two a week. Small-group option USD 100/month. No contract.
+USD 150/month for 1:1 — eight live lessons, two a week. Small-group option USD 100/month. No contract.
 
 Is the first lesson free?
 

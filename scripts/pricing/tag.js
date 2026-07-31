@@ -203,6 +203,56 @@ function main() {
                 inner + '</' + tag + '>';
         });
 
+        // SECOND SHAPE: a price component whose content is an amount followed
+        // by a suffix element, e.g.
+        //     <p class="amt">$100<span> / month</span></p>
+        // The first pass skips these because the element holds more than the
+        // number. Wrapping just the number keeps the suffix intact.
+        const rx2 = /<(span|div|p|b|strong|h[1-6])((?:[^>"']|"[^"]*"|'[^']*')*)>((?:₹|&#8377;|\$)\s?[\d,]+(?:\.\d{2})?)(<span\b[^>]*>[^<]{0,24}<\/span>)<\/\1>/g;
+
+        html = html.replace(rx2, function (whole, tag, attrs, amountText, suffix) {
+            if (/data-price\s*=/.test(attrs)) { alreadyOk++; return whole; }
+
+            const cls = (attrs.match(/class\s*=\s*"([^"]*)"/) || [])[1] || '';
+            if (!PRICE_CLASSES.test(cls)) return whole;      // not a price component
+
+            const isRupee = /₹|&#8377;/.test(amountText);
+            const region = isRupee ? 'india' : 'international';
+            const amount = digitsOf(amountText);
+            if (!amount) return whole;
+
+            const at = arguments[arguments.length - 2];
+            const beforeText = before.slice(Math.max(0, at - 400), at);
+            const namedTier = tierFromContext(suffix) || tierFromContext(beforeText);
+            const candidates = tiersMatchingAmount(subject, region, amount, config);
+            const legacy = legacyTier(subject, region, amount);
+
+            let key = null;
+            if (namedTier && candidates.indexOf(namedTier) !== -1) key = namedTier;
+            else if (candidates.length === 1) key = candidates[0];
+            else if (legacy && namedTier === legacy) key = legacy;
+            else if (legacy && !namedTier && !legacyAmbiguous(amount)) key = legacy;
+
+            if (!key) {
+                review.push({
+                    file: f, subject: subject, region: region, amount: amount,
+                    shown: amountText.trim(), cls: cls, structural: true,
+                    why: legacy ? ('retired ' + subject + ' price in a component, plan not named nearby')
+                        : candidates.length > 1 ? ('ambiguous: could be ' + candidates.join(' or '))
+                        : 'no configured tier has this amount'
+                });
+                return whole;
+            }
+
+            tagged++;
+            if (process.env.SAMPLE) samples.push({
+                file: f, key: subject + '.' + region + '.' + key, shown: amountText.trim(),
+                ctx: ('suffix ' + suffix).replace(/\s+/g, ' ').slice(0, 60)
+            });
+            return '<' + tag + attrs + '><span data-price="' + subject + '.' + region + '.' + key + '">' +
+                amountText + '</span>' + suffix + '</' + tag + '>';
+        });
+
         if (html !== before) {
             filesChanged++;
             if (WRITE) fs.writeFileSync(p, html);

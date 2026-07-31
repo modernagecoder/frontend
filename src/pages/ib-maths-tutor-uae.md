@@ -1,16 +1,16 @@
 ---
 title: "IB Maths Tutor in the UAE · 1:1 Maths AA & AI (SL & HL) — Modern Age Coders"
-description: "Live 1:1 online IB Maths tutoring in the UAE — Analysis & Approaches (AA) and Applications & Interpretation (AI), SL and HL, plus the IA exploration. We teach the concepts, not rote, and coach the GDC and exam papers. Gulf Standard Time. USD 150/month (about AED 550). Free trial."
+description: "Live 1:1 online IB Maths tutoring in the UAE — Analysis & Approaches (AA) and Applications & Interpretation (AI), SL and HL, plus the IA exploration. We teach the concepts, not rote, and coach the GDC and exam papers. Gulf Standard Time. USD 150/month. Free trial."
 canonical: https://learn.modernagecoders.com/ib-maths-tutor-uae
 source: src/pages/ib-maths-tutor-uae.html
 ---
-> Live 1:1 online IB Maths tutoring in the UAE — Analysis & Approaches (AA) and Applications & Interpretation (AI), SL and HL, plus the IA exploration. We teach the concepts, not rote, and coach the GDC and exam papers. Gulf Standard Time. USD 150/month (about AED 550). Free trial.
+> Live 1:1 online IB Maths tutoring in the UAE — Analysis & Approaches (AA) and Applications & Interpretation (AI), SL and HL, plus the IA exploration. We teach the concepts, not rote, and coach the GDC and exam papers. Gulf Standard Time. USD 150/month. Free trial.
 
 In short
 
 **Modern Age Coders provides live one-to-one online IB Maths tutoring across the UAE** — Analysis & Approaches (AA) and Applications & Interpretation (AI), at Standard and Higher Level — including support with the Internal Assessment exploration.
 
-We teach the concepts properly, coach the GDC and Paper 1/2/3 technique, and keep the same IB-experienced tutor throughout. Pricing is **USD 150 per month (about AED 550)** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first session is free.
+We teach the concepts properly, coach the GDC and Paper 1/2/3 technique, and keep the same IB-experienced tutor throughout. Pricing is **USD 150 per month** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first session is free.
 
 Why IB Maths is so demanding
 
@@ -149,7 +149,7 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$150 / month · ≈ AED 550
+$374.99 / month
 
 - 8 live one-to-one sessions a month (2 per week, 1 hour each)
 - An IB-experienced tutor for your option & level
@@ -158,7 +158,7 @@ $150 / month · ≈ AED 550
 
 ### Small-Group Cohort
 
-$100 / month · ≈ AED 367
+$149.99 / month
 
 - 8 live small-group sessions a month (2 per week, 1 hour each)
 - A few students on the same option & level
@@ -191,7 +191,7 @@ An honest comparison
 | Supports the IA exploration | Yes, properly | Rarely | No |
 | Teaches understanding | Always | Varies | Sometimes |
 | Coaches GDC & papers | Yes | Varies | Limited |
-| Monthly price | $150 / ≈AED 550 (1:1) | AED 1,500–4,000+ | Free–AED 150 |
+| Monthly price | $150 / (1:1) | AED 1,500–4,000+ | Free–AED 150 |
 
 A general tutor may not know the IB's specific demands; videos can't guide an IA. We combine deep IB knowledge with one-to-one teaching, online, at sensible value.
 
@@ -217,7 +217,7 @@ Yes — efficient calculator use and Paper 1, 2 and (HL) Paper 3 practice.
 
 How much does it cost?
 
-USD 150/month (about AED 550) for 1:1 — eight live sessions, two a week. Small-group option USD 100/month. No contract.
+USD 150/month for 1:1 — eight live sessions, two a week. Small-group option USD 100/month. No contract.
 
 Is the first session free?
 

@@ -172,8 +172,6 @@ Group classes
 
 $40 per month
 
-about AED 150 per month
-
 - Weekly live class, 5 to 8 children
 - After-school GST and weekend slots
 - Supervised tools, projects kept
@@ -184,8 +182,6 @@ Book a Free Demo
 One-on-one classes
 
 $100 per month
-
-about AED 370 per month
 
 - One child, one teacher, full hour
 - Slot arranged around your family

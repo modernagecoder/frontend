@@ -21,6 +21,7 @@ npm run pricing:check      # is my file valid? shows the resulting prices
 npm run pricing:preview    # exactly what would change, changes nothing
 npm run pricing:apply      # write it into every page
 npm run pricing:verify     # prove nothing broke
+npm run pricing:test       # 79 checks, including prices rendered in a real browser
 
 git add -A
 git commit -m "Raise group coding to Rs1,799"
@@ -279,6 +280,35 @@ npm run pricing:verify
 
 ---
 
+## Adding prices that are not yet under control
+
+```bash
+npm run pricing:tag              # report only
+npm run pricing:tag -- --write   # anchor the confident ones
+```
+
+A price only changes when you edit the config if it is *anchored* — wrapped in
+`data-price`. An unanchored price still gets shown in the visitor's currency,
+but its VALUE stays as somebody typed it.
+
+`pricing:tag` finds unanchored prices and splits them in two:
+
+- **Confident** — a number sitting in a price component with its plan named
+  nearby. Anchored automatically.
+- **Needs you** — a number inside a sentence, or one whose plan cannot be read
+  from its surroundings. Left alone and listed in `pricing/TAGGING-REVIEW.md`.
+
+That split is deliberate. A wrong key does not fail loudly: it silently
+rewrites one plan's price to another plan's figure on the next build. `$100` is
+treated as ambiguous by default, because it used to be coding's 1-on-1 rate
+*and* maths's group rate.
+
+To anchor one from the review list yourself, wrap the number:
+
+```html
+<span data-price="coding.india.group">₹1,499</span>
+```
+
 ## Keeping the worldwide data fresh
 
 ```bash
@@ -306,13 +336,18 @@ under CC BY 4.0, so wherever these prices are shown the page must carry:
 
 ---
 
-## Two things that are still open
+## What is still open
 
-1. **Service GST.** `gstOnServicePercent` is `0` on the assumption these are
-   zero-rated exports under an LUT. Not confirmed. Ask your CA — it moves the
-   bottom of the worldwide ladder by about 22%.
+1. **Prices awaiting your decision.** See `pricing/TAGGING-REVIEW.md`. These are
+   visible on the site but not yet controlled by the config, almost all of them
+   inside sentences. Their currency is localised; their value is not.
 
-2. **Lead form phone validation.** The lead backend requires exactly 10 digits.
-   A correct Nigerian price feeding a form that rejects Nigerian phone numbers
-   converts at zero. This needs fixing for the worldwide pricing to be worth
-   anything.
+2. **Razorpay's FX spread.** `fxSpreadBufferPercent` is set to `3` as a cushion.
+   Razorpay does not publish its card conversion spread anywhere. One live
+   low-value charge, reading back `payment.base_amount` against the mid-market
+   rate at that moment, would settle it.
+
+Settled since this file was written: service GST is 0%, confirmed by the
+owner's CA on 2026-07-31 as a zero-rated export of services. And the phone
+forms now accept international numbers — they used to demand exactly ten
+digits, which rejected Oman, the UAE, Singapore, Norway and China outright.

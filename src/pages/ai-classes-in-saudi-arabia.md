@@ -178,8 +178,6 @@ Group classes
 
 $40 per month
 
-about SAR 150 per month
-
 - Weekly live AI class, capped batch
 - Evening and weekend slots, AST
 - Real projects plus a completion certificate
@@ -190,8 +188,6 @@ Book a Free Demo
 One-on-one classes
 
 $100 per month
-
-about SAR 375 per month
 
 - A dedicated teacher, a single student
 - Scheduling bent around your commitments

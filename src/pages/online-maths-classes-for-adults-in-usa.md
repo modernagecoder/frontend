@@ -143,7 +143,7 @@ Pricing
 
 ### 1:1 Private Mentorship
 
-$150 / month
+$374.99 / month
 
 - 8 live one-to-one classes a month (2 per week, 1 hour each)
 - The same patient mentor throughout
@@ -152,7 +152,7 @@ $150 / month
 
 ### Small-Group Cohort
 
-$100 / month
+$149.99 / month
 
 - 8 live small-group classes a month (2 per week, 1 hour each)
 - A few adults working toward similar goals

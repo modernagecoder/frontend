@@ -143,7 +143,7 @@ Pricing
 
 ### 1:1 Private Mentorship
 
-$150 / month
+$374.99 / month
 
 - 8 live one-to-one sessions a month (2 per week, 1 hour each)
 - The same dedicated mentor through the term
@@ -152,7 +152,7 @@ $150 / month
 
 ### Small-Group Cohort
 
-$100 / month
+$149.99 / month
 
 - 8 live small-group sessions a month (2 per week, 1 hour each)
 - A few students in the same course or topic

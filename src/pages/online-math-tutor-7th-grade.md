@@ -362,7 +362,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the same
 
 ### 1:1 Private Mentorship
 
-$150 / month
+$374.99 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your child by name
@@ -371,7 +371,7 @@ $150 / month
 
 ### Small-Group Class
 
-$100 / month
+$149.99 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level

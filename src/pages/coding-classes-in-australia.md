@@ -1,10 +1,10 @@
 ---
 title: "Online Coding & AI Classes in Australia | ATAR Ready"
-description: "Live 1:1 online coding, Python & AI mentorship for students across Australia. Aligned with NSW HSC, VIC VCE & QCE. USD 100 (≈ AUD 152) a month. Free trial."
+description: "Live 1:1 online coding, Python & AI mentorship for students across Australia. Aligned with NSW HSC, VIC VCE & QCE. USD 100 ( ) a month. Free trial."
 canonical: https://learn.modernagecoders.com/coding-classes-in-australia
 source: src/pages/coding-classes-in-australia.html
 ---
-> Live 1:1 online coding, Python & AI mentorship for students across Australia. Aligned with NSW HSC, VIC VCE & QCE. USD 100 (≈ AUD 152) a month. Free trial.
+> Live 1:1 online coding, Python & AI mentorship for students across Australia. Aligned with NSW HSC, VIC VCE & QCE. USD 100 ( ) a month. Free trial.
 
 ### Request a callback
 
@@ -20,7 +20,7 @@ Australia · Online School · +61 · AEDT · ACDT · AWST
 
 Live 1:1 mentorship in **Python**, modern web and **agentic AI** for Australian kids, teens and adults — aligned with the **Australian Curriculum Digital Technologies**, every state exam system (**HSC · VCE · QCE · WACE · SACE · TCE · ACT · NTCET**), and the algorithmic depth the **Group of Eight** (Melbourne, Sydney, ANU, UNSW, Monash, UQ, UWA, Adelaide) actually look for. **AUD 152 a month** (USD 100), eight live sessions, two a week, cancel anytime. Mentors work in **your** time zone.
 
-See your state's pathway4.9/5Average parent & learner rating · 547 reviews8 statesNSW · VIC · QLD · WA · SA · TAS · ACT · NT — every exam systemGo8Aligned to every Group of Eight CS / engineering program$152 AUDPer month · ≈ USD 100 · cancel anytime · no contractMentors live in **all 3 Australian time zones**Booking now · 09:00 – 21:00 local in each zone**AEDT / AEST** · UTC +10 / +11Sydney · Melbourne · Brisbane · Canberra · HobartAfter-school *16:30*, evening *18:30*, Saturday morning**ACDT / ACST** · UTC +9:30 / +10:30Adelaide · Darwin · Broken HillAfter-school *16:00*, evening *18:00*, weekend**AWST** · UTC +8Perth · Fremantle · MandurahAfter-school *15:30*, evening *17:30*, Saturday morningParent rating4.9 / 5 · 547 reviewsAligned withAust. Curric. · HSC · VCE · QCE · WACEMentor hours09:00 – 21:00 in your time zoneCommitmentFree trial · cancel monthlyPick a course · start this week
+See your state's pathway4.9/5Average parent & learner rating · 547 reviews8 statesNSW · VIC · QLD · WA · SA · TAS · ACT · NT — every exam systemGo8Aligned to every Group of Eight CS / engineering program$152 AUDPer month · cancel anytime · no contractMentors live in **all 3 Australian time zones**Booking now · 09:00 – 21:00 local in each zone**AEDT / AEST** · UTC +10 / +11Sydney · Melbourne · Brisbane · Canberra · HobartAfter-school *16:30*, evening *18:30*, Saturday morning**ACDT / ACST** · UTC +9:30 / +10:30Adelaide · Darwin · Broken HillAfter-school *16:00*, evening *18:00*, weekend**AWST** · UTC +8Perth · Fremantle · MandurahAfter-school *15:30*, evening *17:30*, Saturday morningParent rating4.9 / 5 · 547 reviewsAligned withAust. Curric. · HSC · VCE · QCE · WACEMentor hours09:00 – 21:00 in your time zoneCommitmentFree trial · cancel monthlyPick a course · start this week
 
 ## Eight serious tracks for Aussie learners — Year 1 to professional.
 
@@ -332,7 +332,7 @@ One mentor, one student, every class. Deepest progress, fully customised pace.
 
 USD100/ month
 
-≈ AUD 152 / month · billed in USD · no joining fee
+/ month · billed in USD · no joining fee
 
 - 8 live 1:1 sessions every month
 - 2 classes per week, your chosen Aussie time-zone slots
@@ -350,7 +350,7 @@ Same curriculum, same mentors, in a small live group. Friendly entry point.
 
 USD40/ month
 
-≈ AUD 61 / month · billed in USD · no joining fee
+/ month · billed in USD · no joining fee
 
 - 8 live small-group sessions every month
 - Up to 6 students per group, age & year-banded
@@ -638,7 +638,7 @@ All three Australian time zones — AEDT / AEST (NSW, VIC, QLD, TAS, ACT), ACDT 
 
 What does it cost in Australian dollars?
 
-Private 1:1 mentorship is **USD 100 (about AUD 152) per month** — 8 sessions, two per week. Small-group cohort is **USD 40 (about AUD 61) per month**. Billing is in USD via Stripe; your bank applies the live AUD conversion automatically.
+Private 1:1 mentorship is **USD 100 per month** — 8 sessions, two per week. Small-group cohort is **USD 40 per month**. Billing is in USD via Stripe; your bank applies the live AUD conversion automatically.
 
 Will my child build real AI, or just "use ChatGPT"?
 

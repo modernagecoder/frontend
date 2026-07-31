@@ -3,17 +3,25 @@
 [build]
   # Generate blog and course content before deployment.
   #
-  # pricing:apply runs AFTER generate:all so the freshly generated course pages
-  # get stamped too, and BEFORE build:inline so nothing downstream sees a stale
-  # price. pricing:verify then fails the build if any page shows a different
-  # price from the one it publishes to Google — the fault that was live on the
-  # homepage before this system existed.
+  # pricing:apply now sits INSIDE generate:all, between the HTML generators and
+  # everything that derives from their output. Order matters and got this wrong
+  # once: generate:static-md builds the .md files AI crawlers read straight from
+  # the HTML, so running it before the prices were stamped published 132 twins
+  # carrying the retired $40/$100/$150 figures.
+  #
+  #   generate:html    blogs, courses, resources
+  #   pricing:apply    stamp every price
+  #   generate:derived .md twins, llms.txt, sitemaps
+  #
+  # pricing:verify then fails the build if any page shows a different price from
+  # the one it publishes to Google — the fault that was live on the homepage
+  # before this system existed.
   #
   # pricing:refresh is deliberately NOT here. It pulls live World Bank and
   # exchange-rate data, and running it on every deploy would let prices move
   # without anyone reviewing the change. It is a manual command; the committed
   # data files are what deploys.
-  command = "npm install && npm run generate:all && npm run pricing:apply && npm run pricing:verify && npm run build:inline && npm run minify && cd lovewall && npm install && npm run build && cd .."
+  command = "npm install && npm run generate:all && npm run pricing:verify && npm run build:inline && npm run minify && cd lovewall && npm install && npm run build && cd .."
   publish = "."
   functions = "api"
 

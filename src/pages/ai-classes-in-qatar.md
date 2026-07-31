@@ -163,8 +163,6 @@ Group classes
 
 $40 per month
 
-about QAR 145 per month
-
 - Batches of five to eight students
 - Fixed weekly hour, AST evenings
 - Real models, real projects, kept
@@ -175,8 +173,6 @@ Book a Free Demo
 One-on-one classes
 
 $100 per month
-
-about QAR 365 per month
 
 - Undivided teacher, every session
 - Hours arranged around your diary

@@ -160,8 +160,6 @@ Group classes
 
 $40 per month
 
-about SAR 150 per month
-
 - One live hour weekly, 5 to 8 children
 - Fixed AST evening or weekend slot
 - Projects the child keeps, certificate at the end
@@ -172,8 +170,6 @@ Book a Free Demo
 One-on-one classes
 
 $100 per month
-
-about SAR 375 per month
 
 - The teacher's whole hour, one child
 - Timings shaped around the family week

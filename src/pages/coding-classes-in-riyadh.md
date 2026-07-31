@@ -221,8 +221,6 @@ Group classes
 
 $40 per month
 
-about SAR 150 per month
-
 - A live teacher and at most seven classmates
 - Evening and weekend timings in AST
 - Course projects plus a completion certificate
@@ -233,8 +231,6 @@ Book a Free Demo
 One-on-one classes
 
 $100 per month
-
-about SAR 375 per month
 
 - The whole hour belongs to one student
 - Timings arranged around your family's week

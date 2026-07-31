@@ -58,7 +58,7 @@ TCD CS · UCD CS Engineering · UCC CS · DCU CS · UL CSIS · NUIG CS · Maynoo
 
 **Where Modern Age Coders adds value:** not by replacing the Irish school system — Irish schools, particularly the strong ones, do the academic work well — but by adding the 1:1 depth, real working projects on GitHub, the Computational Thinking project polish, and the CAO-points buffer that comes from genuinely strong LC Computer Science and LC Higher Maths grades.
 
-**4.9 / 5**From 980 Irish parent & student reviews**GMT/IST**Same time zone as London — UK-trained & India-trained mentors**LC CS**Direct alignment with the 2018 LC Computer Science specification**EUR 92**Per month · ≈ USD 100 · no VAT · cancel anytimeChoose your child's track
+**4.9 / 5**From 980 Irish parent & student reviews**GMT/IST**Same time zone as London — UK-trained & India-trained mentors**LC CS**Direct alignment with the 2018 LC Computer Science specification**EUR 92**Per month · no VAT · cancel anytimeChoose your child's track
 
 ## Pick the course that matches their year — book a trial in under 30 seconds.
 
@@ -198,7 +198,7 @@ Most chosen by Irish families
 
 A named mentor in GMT/IST. Live, every session.
 
-EUR92/month≈ USD 100 / month
+EUR92/month / month
 
 - 8 live sessions per month · 2 per week · 45 min each
 - Same named mentor for as long as it's working
@@ -211,7 +211,7 @@ EUR92/month≈ USD 100 / month
 
 3 – 5 learners, same year, same curriculum.
 
-EUR37/month≈ USD 40 / month
+EUR37/month / month
 
 - 8 live group sessions per month · 2 per week · 60 min each
 - Same mentor every class · cohort stays together
@@ -569,7 +569,7 @@ Yes. Our LC specialists work directly from SEC marking schemes for past LC CS an
 
 What does it cost in EUR?
 
-Private 1:1 mentorship is USD 100 (about EUR 92) per month — 8 sessions, two each week. Small-group cohort is USD 40 (about EUR 37) per month. No Irish VAT. No joining fee. Month-to-month, cancel anytime.
+Private 1:1 mentorship is USD 100 per month — 8 sessions, two each week. Small-group cohort is USD 40 per month. No Irish VAT. No joining fee. Month-to-month, cancel anytime.
 
 Can I pay in EUR or USD?
 

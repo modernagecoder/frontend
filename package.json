@@ -17,7 +17,7 @@
     "generate:sitemap-index": "node scripts/generate-sitemap-index.js",
     "verify:sitemap": "node scripts/verify-sitemap.js",
     "indexnow": "node scripts/indexnow-ping.js",
-    "generate:all": "npm run generate:blogs && npm run generate:courses && npm run generate:resources && npm run generate:static-md && npm run generate:llms && npm run generate:sitemap-html && npm run generate:sitemap-index && npm run verify:sitemap",
+    "generate:all": "npm run generate:html && npm run pricing:apply && npm run generate:derived",
     "update:course-links": "node scripts/update-course-links.js",
     "build:links": "node scripts/build-internal-links.js",
     "dev": "node scripts/dev-server.js",
@@ -31,7 +31,9 @@
     "build:core-css": "node scripts/build-core-css.js",
     "minify": "node scripts/minify.js",
     "pricing:test": "node scripts/pricing/test-stamp.js && node scripts/pricing/test-rendered.js && node scripts/pricing/test-phone.js",
-    "pricing:tag": "node scripts/pricing/tag.js"
+    "pricing:tag": "node scripts/pricing/tag.js",
+    "generate:html": "npm run generate:blogs && npm run generate:courses && npm run generate:resources",
+    "generate:derived": "npm run generate:static-md && npm run generate:llms && npm run generate:sitemap-html && npm run generate:sitemap-index && npm run verify:sitemap"
   },
   "dependencies": {
     "cheerio": "^1.2.0",

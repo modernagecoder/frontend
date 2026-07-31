@@ -1,16 +1,16 @@
 ---
 title: "GCSE Maths Tutor in the UAE · 1:1 Online IGCSE & GCSE — AQA, Edexcel, OCR, CIE — Modern Age Coders"
-description: "Live 1:1 online GCSE & IGCSE maths tutoring for British-curriculum students in the UAE — AQA, Edexcel, OCR and Cambridge (CIE), foundation and higher. We teach reasoning, then drill past papers and method marks. Gulf Standard Time. USD 150/month (about AED 550). Free trial."
+description: "Live 1:1 online GCSE & IGCSE maths tutoring for British-curriculum students in the UAE — AQA, Edexcel, OCR and Cambridge (CIE), foundation and higher. We teach reasoning, then drill past papers and method marks. Gulf Standard Time. USD 150/month. Free trial."
 canonical: https://learn.modernagecoders.com/gcse-maths-tutor-uae
 source: src/pages/gcse-maths-tutor-uae.html
 ---
-> Live 1:1 online GCSE & IGCSE maths tutoring for British-curriculum students in the UAE — AQA, Edexcel, OCR and Cambridge (CIE), foundation and higher. We teach reasoning, then drill past papers and method marks. Gulf Standard Time. USD 150/month (about AED 550). Free trial.
+> Live 1:1 online GCSE & IGCSE maths tutoring for British-curriculum students in the UAE — AQA, Edexcel, OCR and Cambridge (CIE), foundation and higher. We teach reasoning, then drill past papers and method marks. Gulf Standard Time. USD 150/month. Free trial.
 
 In short
 
 **Modern Age Coders provides live one-to-one online GCSE and IGCSE maths tutoring for British-curriculum students across the UAE** — Edexcel, Cambridge (CIE), AQA and OCR, foundation and higher tier.
 
-We rebuild the reasoning the harder questions reward, then drill past papers and method marks, with the same tutor to the exam. Pricing is **USD 150 per month (about AED 550)** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first session is free.
+We rebuild the reasoning the harder questions reward, then drill past papers and method marks, with the same tutor to the exam. Pricing is **USD 150 per month** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first session is free.
 
 Why GCSE/IGCSE grades stall
 
@@ -151,7 +151,7 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$150 / month · ≈ AED 550
+$374.99 / month
 
 - 8 live one-to-one sessions a month (2 per week, 1 hour each)
 - The same tutor tracking progress to the exam
@@ -160,7 +160,7 @@ $150 / month · ≈ AED 550
 
 ### Small-Group Cohort
 
-$100 / month · ≈ AED 367
+$149.99 / month
 
 - 8 live small-group sessions a month (2 per week, 1 hour each)
 - A few students at a similar grade and board
@@ -193,7 +193,7 @@ An honest comparison
 | Knows your exact board | Yes | Varies | Generic |
 | One-to-one attention | Always | Often group | N/A |
 | Same tutor to the exam | Yes | Often rotates | N/A |
-| Monthly price | $150 / ≈AED 550 (1:1) | AED 1,000–2,500+ | AED 20–50 |
+| Monthly price | $150 / (1:1) | AED 1,000–2,500+ | AED 20–50 |
 
 Apps help with practice once gaps are known; centres give attention at a premium and often in groups. We add live diagnosis and the maths fix that move a grade.
 
@@ -215,7 +215,7 @@ Depends on level and target grade; we advise honestly after a diagnostic.
 
 How much does it cost?
 
-USD 150/month (about AED 550) for 1:1 — eight live sessions, two a week. Small-group option USD 100/month. No contract.
+USD 150/month for 1:1 — eight live sessions, two a week. Small-group option USD 100/month. No contract.
 
 Is the first session free?
 

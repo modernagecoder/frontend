@@ -31,6 +31,8 @@ silently rewrite a real price to a different plan's figure on the next build.
 | `ai-and-machine-learning-classes-in-singapore.html` | $130,889 | `coding.international` | no configured tier has this amount |
 | `ai-and-machine-learning-classes-in-singapore.html` | $129,801 | `coding.international` | no configured tier has this amount |
 | `ai-and-machine-learning-classes-in-usa.html` | $0 | `coding.international` | no configured tier has this amount |
+| `ap-statistics-tutoring-online.html` | $150 | `coding.international` | no configured tier has this amount |
+| `ap-statistics-tutoring-online.html` | $100 | `coding.international` | retired coding price in a component, plan not named nearby |
 | `best-coding-classes-online.html` | ₹1,499 | `coding.india` | inside prose, needs a human to confirm the plan |
 | `coding-and-maths-for-mahadevi-birla-world-academy-kolkata.html` | &#8377;1499 | `maths.india` | inside prose, needs a human to confirm the plan |
 | `coding-and-maths-for-mahadevi-birla-world-academy-kolkata.html` | &#8377;2499 | `maths.india` | inside prose, needs a human to confirm the plan |
@@ -163,6 +165,8 @@ silently rewrite a real price to a different plan's figure on the next build.
 | `free-coding-starter-kit.html` | $0 | `coding.international` | no configured tier has this amount |
 | `free-trial.html` | $100 | `coding.international` | retired coding price, but the surrounding copy does not name the plan |
 | `free-trial.html` | $150 | `coding.international` | no configured tier has this amount |
+| `geometry-tutoring-online-usa.html` | $150 | `coding.international` | no configured tier has this amount |
+| `geometry-tutoring-online-usa.html` | $100 | `coding.international` | retired coding price in a component, plan not named nearby |
 | `hackathon-guide.html` | ₹20,000 | `coding.india` | no configured tier has this amount |
 | `hackathon-guide.html` | ₹2,000 | `coding.india` | no configured tier has this amount |
 | `hackathon-guide.html` | ₹6,000 | `coding.india` | no configured tier has this amount |

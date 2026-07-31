@@ -20,13 +20,13 @@ Sverige · Online School · +46 · CET
 
 Live 1:1 mentorship in **Python**, modern web and **agentic AI** for Swedish kids, teens and adults — aligned with **Lgr 22** programmering, **Gymnasiet Teknik / Natur**, and the algorithmic depth **KTH**, **Chalmers**, **Lund** and **Uppsala** quietly assume. **SEK 1 050 i månaden** (USD 100), eight live sessions, two a week, no contract.
 
-Se alla kurser4.9/5Average parent & learner rating8 / månLive 1:1 sessions, 2 each weekSEK 1 050≈ USD 100 per month · monthly cancelCETSame time zone as your GymnasiumParent rating4.9 / 5 · 547 reviewsAligned withLgr 22 · GymnasieprogramMentor hours09:00 – 21:00 CETRiskGratis demo · månadsvisVälj en kurs · börja den här veckan
+Se alla kurser4.9/5Average parent & learner rating8 / månLive 1:1 sessions, 2 each weekSEK 1 050per month · monthly cancelCETSame time zone as your GymnasiumParent rating4.9 / 5 · 547 reviewsAligned withLgr 22 · GymnasieprogramMentor hours09:00 – 21:00 CETRiskGratis demo · månadsvisVälj en kurs · börja den här veckan
 
 ## Eight serious tracks. Same mentor every week. Real shipped projects.
 
 Click any row to open the full course page. Every track is live, 1:1 (or small-group) and runs on Swedish time.
 
-[01  Most chosen · Gymnasium-aware Coding & AI for Teens (13 – 18) — KTH / Chalmers / Lund ready Real Python, JavaScript, Git, web apps and modern AI engineering on a 12-month arc. Aligned with Teknikprogrammet & Naturvetenskapsprogrammet. Many of our students go on to KTH, Chalmers, Lund, Uppsala and Linköping informatics tracks.   SEK 1 050/ mån · ≈ USD 100 Open →](/courses/coding/teens)[02  Grundskola · Ages 6 – 12 Coding for Kids — Scratch to real Python, gentle Swedish pace For students in årskurs 1–6 across Sverige. Starts in Scratch (or BBC micro:bit), switches to real Python by week 10, ships a tiny project a month. Mapped to the Lgr 22 programming strand in Matematik and Teknik.   SEK 1 050/ mån Open →](/courses/coding/kids)[03  New · Ages 13 – 18 · AI track AI & Agentic-AI — the way Spotify, Klarna and Polestar actually ship Build real LLM apps end-to-end: prompts, retrieval, tool-calling agents, evals, deploy. The same patterns engineers ship at Stockholm and Gothenburg tech shops.   SEK 1 050/ mån Open →](/ai-ml-course-for-teens)[04  KTH · Chalmers · Lund · Uppsala · Linköping University prep & high-school top-up For Swedish Gymnasium students aiming at KTH, Chalmers, Lund, Uppsala, Linköping, Stockholm University, Umeå or KI. Algorithmic depth, system design, AI engineering — the foundations Swedish universities quietly expect.   SEK 1 050/ mån Open →](/courses/coding/college)[05  Vuxna · Career switch · Yrkesväxlare For Professionals — retraining into software, data & AI For Swedish adults aiming at SWE, data and AI engineer roles at Spotify, Klarna, King, Voi, Polestar, Zenseact, Truecaller, Tink, Volvo Cars and the rest of Sweden's tech sector. Builds a real portfolio.   SEK 1 050/ mån Open →](/courses/coding/college)[06  For girls · Ages 8 – 22 Tjejer kodar — all-female mentor pairing Same curriculum, all-female mentor pairing. Role models from the Stockholm, Gothenburg and Malmö tech scenes. We have mentors with backgrounds at Klarna, King, Spotify and AI Sweden.   SEK 1 050/ mån Open →](/courses/coding/girls)[07  Skolor · Företag · Teams For Swedish schools & companies — cohorts & AGs For Swedish skolor, friskolor, internationella skolor and companies upskilling staff. Cohorts of 6–30, tailored to your curriculum, on your hours.   SEK 420/ plats · grupp Open →](/courses/coding/corporate)[08  Free · join · Hackathon Hackathon-program för svenska familjer Free monthly coding & AI hackathons for Swedish kids, teens and adults. Real prizes, real shipped projects. A friendly entry point to see how we teach.   Free Join next →](/courses)Why Swedish families pick us
+[01  Most chosen · Gymnasium-aware Coding & AI for Teens (13 – 18) — KTH / Chalmers / Lund ready Real Python, JavaScript, Git, web apps and modern AI engineering on a 12-month arc. Aligned with Teknikprogrammet & Naturvetenskapsprogrammet. Many of our students go on to KTH, Chalmers, Lund, Uppsala and Linköping informatics tracks.   SEK 1 050/ mån Open →](/courses/coding/teens)[02  Grundskola · Ages 6 – 12 Coding for Kids — Scratch to real Python, gentle Swedish pace For students in årskurs 1–6 across Sverige. Starts in Scratch (or BBC micro:bit), switches to real Python by week 10, ships a tiny project a month. Mapped to the Lgr 22 programming strand in Matematik and Teknik.   SEK 1 050/ mån Open →](/courses/coding/kids)[03  New · Ages 13 – 18 · AI track AI & Agentic-AI — the way Spotify, Klarna and Polestar actually ship Build real LLM apps end-to-end: prompts, retrieval, tool-calling agents, evals, deploy. The same patterns engineers ship at Stockholm and Gothenburg tech shops.   SEK 1 050/ mån Open →](/ai-ml-course-for-teens)[04  KTH · Chalmers · Lund · Uppsala · Linköping University prep & high-school top-up For Swedish Gymnasium students aiming at KTH, Chalmers, Lund, Uppsala, Linköping, Stockholm University, Umeå or KI. Algorithmic depth, system design, AI engineering — the foundations Swedish universities quietly expect.   SEK 1 050/ mån Open →](/courses/coding/college)[05  Vuxna · Career switch · Yrkesväxlare For Professionals — retraining into software, data & AI For Swedish adults aiming at SWE, data and AI engineer roles at Spotify, Klarna, King, Voi, Polestar, Zenseact, Truecaller, Tink, Volvo Cars and the rest of Sweden's tech sector. Builds a real portfolio.   SEK 1 050/ mån Open →](/courses/coding/college)[06  For girls · Ages 8 – 22 Tjejer kodar — all-female mentor pairing Same curriculum, all-female mentor pairing. Role models from the Stockholm, Gothenburg and Malmö tech scenes. We have mentors with backgrounds at Klarna, King, Spotify and AI Sweden.   SEK 1 050/ mån Open →](/courses/coding/girls)[07  Skolor · Företag · Teams For Swedish schools & companies — cohorts & AGs For Swedish skolor, friskolor, internationella skolor and companies upskilling staff. Cohorts of 6–30, tailored to your curriculum, on your hours.   SEK 420/ plats · grupp Open →](/courses/coding/corporate)[08  Free · join · Hackathon Hackathon-program för svenska familjer Free monthly coding & AI hackathons for Swedish kids, teens and adults. Real prizes, real shipped projects. A friendly entry point to see how we teach.   Free Join next →](/courses)Why Swedish families pick us
 
 ## Six things we get right — Scandinavian-honest.
 
@@ -446,7 +446,7 @@ One mentor, one student, every class. Deepest progress, fully customised pace.
 
 USD100/ month
 
-≈ SEK 1 050 / month · billed in USD · no joining fee
+050 / month · billed in USD · no joining fee
 
 - 8 live 1:1 sessions every month
 - 2 classes per week, your chosen CET slots
@@ -464,7 +464,7 @@ Same curriculum, same mentors, age-banded small group. Friendly entry point.
 
 USD40/ month
 
-≈ SEK 420 / month · billed in USD · no joining fee
+/ month · billed in USD · no joining fee
 
 - 8 live small-group sessions every month
 - Up to 6 students per group, age-banded
@@ -556,7 +556,7 @@ Yes. Our Gymnasium and university-prep tracks cover the algorithmic depth, Pytho
 
 Vad kostar det i svenska kronor (SEK)?
 
-Private 1:1 mentorship is **USD 100 (about SEK 1 050) per month** — 8 sessions, 2 per week. Small-group cohort is **USD 40 (about SEK 420) per month**. Ingen registreringsavgift, ingen bindningstid, månadsvis uppsägning.
+Private 1:1 mentorship is **USD 100 (about SEK 1 050) per month** — 8 sessions, 2 per week. Small-group cohort is **USD 40 per month**. Ingen registreringsavgift, ingen bindningstid, månadsvis uppsägning.
 
 Are classes taught in English or Swedish?
 
