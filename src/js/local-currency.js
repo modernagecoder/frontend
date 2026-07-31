@@ -142,29 +142,25 @@
         var local = self.format(usd * rate, currency);
         var exact = '$' + usd.toFixed(2).replace(/\.00$/, '');
 
-        // The local figure becomes the headline; the exact charge sits under it.
+        // The price is shown in the visitor's own currency, and nothing else.
+        // The owner asked on 2026-08-01 for the on-page dollar conversion to go.
+        //
+        // The exact US dollar amount is still disclosed before anyone pays:
+        // the payment modal in course-payment.js prints the currency and the
+        // amount it is about to charge. That is the moment consumer rules care
+        // about — what is prohibited is revealing a different figure only after
+        // the customer has committed.
+        //
+        // The charge stays on the element as data-usd-charge, so the checkout
+        // and any future disclosure can read it without recomputing, and it is
+        // repeated in the title attribute for anyone who hovers.
         el.setAttribute('data-local-annotated', '1');
         el.setAttribute('data-usd-charge', exact);
+        el.setAttribute('title',
+          'Shown in ' + currency + ' at 1 USD = ' + Number(rate.toPrecision(4)) +
+          (date ? ' on ' + date : '') + '. Billed in US dollars as ' + exact + '.');
         el.textContent = local;
-
-        var note = document.createElement('span');
-        note.className = 'mac-charge-note';
-        note.textContent = 'charged as US' + exact +
-          (date ? ' · 1 USD = ' + Number(rate.toPrecision(4)) + ' ' + currency + ' on ' + date : '');
-        note.setAttribute('title',
-          'You are charged in US dollars. The ' + currency +
-          ' figure is an estimate at the rate shown; your bank applies its own rate and may add a cross-border fee.');
-
-        // Appended at the END of the price line, not straight after the
-        // number. The second tagging pass wraps the amount inside its
-        // component, so the element is often followed by a suffix like
-        // "<span> / month</span>"; inserting here would read
-        // "EUR 270 charged as US$303.99 / month".
-        var host = el.parentNode;
-        if (host) {
-          host.appendChild(note);
-          seen++;
-        }
+        seen++;
       });
 
       if (seen) {
@@ -174,15 +170,9 @@
     },
 
     addStyles: function () {
-      if (document.getElementById(this.STYLE_ID)) return;
-      var s = document.createElement('style');
-      s.id = this.STYLE_ID;
-      s.textContent = [
-        '.mac-charge-note{display:block;margin-top:.35rem;font-size:.72rem;line-height:1.45;',
-        'opacity:.72;font-weight:400;letter-spacing:.01em;max-width:26ch}',
-        '@media (max-width:600px){.mac-charge-note{font-size:.68rem;max-width:none}}'
-      ].join('');
-      document.head.appendChild(s);
+      // Nothing to style any more: the conversion note was removed, so this
+      // module only rewrites text. Kept as a no-op so callers stay unchanged.
+      return;
     }
   };
 

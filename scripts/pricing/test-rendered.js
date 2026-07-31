@@ -391,12 +391,31 @@ function renderLocal(country) {
     };
 }
 
-test('a European visitor sees euros, with the dollar charge stated', function () {
+test('a European visitor sees euros, and no dollar conversion on the page', function () {
     const de = renderLocal('DE');
     assert.ok(de.price.indexOf('€') !== -1, 'Germany must see a euro symbol, saw: ' + de.price);
-    assert.ok(/charged as US\$\d/.test(de.note), 'the exact charge must be stated: ' + de.note);
-    assert.ok(/1 USD = [\d.]+ EUR/.test(de.note), 'the rate must be disclosed: ' + de.note);
-    assert.ok(/on \d{1,2} \w{3} \d{4}/.test(de.note), 'the rate date must be disclosed: ' + de.note);
+    // The owner removed the on-page conversion on 2026-08-01. The exact charge
+    // is disclosed by the payment modal instead, before anyone pays.
+    assert.strictEqual(de.note, '', 'no conversion note should be rendered: ' + de.note);
+});
+
+test('no page shows a dollar conversion beside a local price', function () {
+    ['DE', 'OM', 'NG', 'GB', 'JP'].forEach(function (cc) {
+        const r = renderLocal(cc);
+        assert.ok(!/charged as|US\$/.test(r.note), cc + ' still shows a conversion: ' + r.note);
+    });
+});
+
+test('the exact dollar charge is still recorded for the checkout to use', function () {
+    // Removed from view, not from the data: course-payment.js needs it, and so
+    // does any future disclosure.
+    const win = renderLocal('DE').win;
+    const el = win.document.querySelector('[data-usd-charge]');
+    assert.ok(el, 'the charged amount must still be attached to the price element');
+    assert.ok(/^\$\d/.test(el.getAttribute('data-usd-charge')),
+        'expected a dollar figure, got: ' + el.getAttribute('data-usd-charge'));
+    assert.ok(/Billed in US dollars/.test(el.getAttribute('title') || ''),
+        'and stated on hover: ' + el.getAttribute('title'));
 });
 
 test('every eurozone country sees the same euro price', function () {
@@ -410,7 +429,7 @@ test('every eurozone country sees the same euro price', function () {
         'the eurozone must show one price, saw: ' + JSON.stringify(seen));
 });
 
-test('the local figure is never below the dollar charge it explains', function () {
+test('the local figure is never below the dollar amount actually charged', function () {
     const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'src', 'js', 'pricing-data.generated.js'), 'utf8')
         .replace(/^[\s\S]*?window\.MAC_PRICING = /, '').replace(/;\s*$/, ''));
 
@@ -420,12 +439,17 @@ test('the local figure is never below the dollar charge it explains', function (
         const rate = data.worldwide.currencies[entry.currency];
         if (!rate) return;
 
+        // The charge is read from the element now that it is no longer printed
+        // beside the price.
+        const el = r.win.document.querySelector('[data-usd-charge]');
+        if (!el) return;
         const shown = parseFloat(r.price.replace(/[^\d.]/g, ''));
-        const charged = parseFloat((r.note.match(/US\$([\d.]+)/) || [])[1]);
-        assert.ok(isFinite(shown) && isFinite(charged), cc + ': could not read figures from ' + r.price + ' / ' + r.note);
+        const charged = parseFloat(String(el.getAttribute('data-usd-charge')).replace(/[^\d.]/g, ''));
+
+        assert.ok(isFinite(shown) && isFinite(charged), cc + ': could not read figures');
         assert.ok(shown >= charged * rate - 0.01,
             cc + ': shows ' + shown + ' but the charge converts to ' + (charged * rate).toFixed(2) +
-            ' — a local estimate below the real charge reads as bait and switch');
+            ' — a local price below what is actually billed reads as bait and switch');
     });
 });
 
