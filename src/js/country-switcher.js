@@ -57,20 +57,19 @@
       var explicit = document.querySelector('[data-country-switcher]');
       if (explicit) return explicit;
 
-      var note = document.querySelector('.mac-charge-note');
-      if (note && note.parentNode) {
-        var host = document.createElement('div');
-        note.parentNode.insertBefore(host, note.nextSibling);
-        return host;
-      }
+      // Attach after the whole price BLOCK, not inside the price line. Sitting
+      // between the number and its "/ month" suffix reads as part of the price.
+      var anchorEl = document.querySelector('.mac-charge-note') ||
+        document.querySelector('[data-price], .price-amount, .plan-price, .price-amt');
+      if (!anchorEl) return null;
 
-      var price = document.querySelector('.price-amount, .plan-price, .price-amt');
-      if (price && price.parentNode) {
-        var host2 = document.createElement('div');
-        price.parentNode.insertBefore(host2, price.nextSibling);
-        return host2;
-      }
-      return null;
+      var block = anchorEl.closest('.pricing-card-new, .pricing-card, .price-card, .enrollment-option') ||
+        (anchorEl.parentNode && anchorEl.parentNode.parentNode) || anchorEl.parentNode;
+      if (!block || !block.parentNode) return null;
+
+      var host = document.createElement('div');
+      block.parentNode.insertBefore(host, block.nextSibling);
+      return host;
     },
 
     currentCountry: function () {

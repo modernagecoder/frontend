@@ -123,6 +123,11 @@
       Array.prototype.forEach.call(nodes, function (el) {
         if (el.getAttribute('data-local-annotated')) return;
 
+        // If this element CONTAINS an anchored price, the anchor is the real
+        // one. Rewriting the wrapper's textContent here would destroy it before
+        // the loop reached it.
+        if (!el.hasAttribute('data-price') && el.querySelector('[data-price]')) return;
+
         // Hidden plans (a tier not sold in this region) must not be annotated.
         var card = el.closest('[data-india-only], .pricing-card-new, .pricing-card, .price-card');
         if (card && card.style.display === 'none') return;
@@ -150,9 +155,14 @@
           'You are charged in US dollars. The ' + currency +
           ' figure is an estimate at the rate shown; your bank applies its own rate and may add a cross-border fee.');
 
+        // Appended at the END of the price line, not straight after the
+        // number. The second tagging pass wraps the amount inside its
+        // component, so the element is often followed by a suffix like
+        // "<span> / month</span>"; inserting here would read
+        // "EUR 270 charged as US$303.99 / month".
         var host = el.parentNode;
         if (host) {
-          host.insertBefore(note, el.nextSibling);
+          host.appendChild(note);
           seen++;
         }
       });

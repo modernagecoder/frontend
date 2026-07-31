@@ -234,6 +234,62 @@ function checkPaymentCode() {
  * is gitignored, which makes that scenario ordinary rather than exotic. A
  * verifier that cannot fail is worse than none, because it launders confidence.
  */
+/**
+ * The .md twins must agree with the pages they are derived from.
+ *
+ * 391 of them carry a price, they are git-tracked, and they are what AI
+ * crawlers read — yet every check in this file looked only at HTML, so a twin
+ * whose price disagreed with its parent could ship unnoticed. That gap is how
+ * 132 twins came to be published carrying retired $40/$100/$150 figures after
+ * generate:static-md ran before pricing:apply.
+ *
+ * Tags are stripped before comparing, because a page writes a price split
+ * across elements (<span>₹</span>1499) while the twin renders it as one string.
+ */
+function checkMarkdownTwins() {
+    const dir = path.join(ROOT, 'src', 'pages');
+    if (!fs.existsSync(dir)) return;
+
+    const PRICE = /(?:₹|\$)\s?\d[\d,]*(?:\.\d{2})?/g;
+    let checked = 0;
+
+    fs.readdirSync(dir).forEach(function (f) {
+        if (!/\.md$/.test(f)) return;
+        const htmlPath = path.join(dir, f.replace(/\.md$/, '.html'));
+        if (!fs.existsSync(htmlPath)) return;
+
+        const md = fs.readFileSync(path.join(dir, f), 'utf8');
+        const rendered = fs.readFileSync(htmlPath, 'utf8')
+            .replace(/<script[\s\S]*?<\/script>/gi, '')
+            .replace(/<style[\s\S]*?<\/style>/gi, '')
+            .replace(/<[^>]+>/g, '')
+            .replace(/&#8377;/g, '₹')
+            .replace(/\s+/g, '');
+
+        const figures = (md.match(PRICE) || []).map(function (x) { return x.replace(/\s+/g, ''); });
+        const unique = figures.filter(function (v, i, a) { return a.indexOf(v) === i; });
+        if (!unique.length) return;
+        checked++;
+
+        const missing = unique.filter(function (x) { return rendered.indexOf(x) === -1; });
+        if (missing.length) {
+            // A note rather than a failure. Two legitimate cases produce a
+            // mismatch that is not drift: a price still sitting in prose (it is
+            // in TAGGING-REVIEW.md), and a price the page renders with
+            // JavaScript, which is absent from the static HTML by design.
+            // --strict promotes these, so the signal is still available.
+            const msg = 'quotes ' + missing.slice(0, 3).join(', ') +
+                ', which its own page does not show. Either the twin is stale ' +
+                '(generate:static-md must run AFTER pricing:apply), or that ' +
+                'price is prose or rendered by JavaScript.';
+            if (STRICT) fail('src/pages/' + f, msg);
+            else notes.push('src/pages/' + f + ': ' + msg);
+        }
+    });
+
+    if (checked) console.log('  ' + checked + ' markdown twin(s) checked against their pages');
+}
+
 function assertCoverage() {
     const dataDir = path.join(ROOT, 'content', 'courses', 'data');
     const genDir = path.join(ROOT, 'content', 'courses', 'generated');
@@ -273,6 +329,7 @@ function main() {
     SEARCH_DIRS.forEach(function (d) { walk(d, files); });
     files.forEach(function (f) { checkFile(f, config); });
     checkPaymentCode();
+    checkMarkdownTwins();
     assertCoverage();
 
     console.log('');
