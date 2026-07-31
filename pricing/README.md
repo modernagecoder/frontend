@@ -41,8 +41,8 @@ Open `pricing/pricing.config.jsonc`. Find the line you want:
 
 ```jsonc
 "coding": {
-  "india":         { "group": 1499, "miniBatch": 2499, "personal": 4999, "lifetime": 49999 },
-  "international": { "group": 40,   "miniBatch": null, "personal": 100,  "lifetime": 599 }
+  "india":         { "group": 1499,   "miniBatch": 2499, "personal": 4999,   "lifetime": null },
+  "international": { "group": 149.99, "miniBatch": null, "personal": 374.99, "lifetime": null }
 },
 ```
 
@@ -65,11 +65,11 @@ This tells you whether the file is valid **and prints the price every country
 will be charged**, so you can see the consequence before anyone else does:
 
 ```
-    Country            PPP       Group      1-on-1    You net (group)   Why
-    India             22.7      ₹1,499      ₹4,999              ₹1464   domestic
-    Nigeria           20.9      $16.99      $54.99              ₹1522   ppp
-    Germany           81.2      $35.99      $88.99              ₹3225   ppp
-    United States    100.0      $40.00     $100.00              ₹3584   list
+    Country            PPP       Group      1-on-1      You net     Shown locally  Why
+    India             22.7      ₹1,499      ₹4,999        ₹1464           (exact)  domestic
+    Nigeria           20.9      $61.99     $153.99        ₹5554        NGN 85,000  ppp
+    Germany           81.2     $121.99     $303.99       ₹10932              €110  ppp
+    United States    100.0     $149.99     $374.99       ₹13438           $149.99  list
 ```
 
 Read the **"You net"** column. That is what actually reaches your bank after
@@ -125,10 +125,13 @@ Every price on the site has a name in the form **subject . region . tier**:
 |---|---|
 | **subject** | `coding`, `maths`, `agents`, `school`, `camps` |
 | **region** | `india` (rupees) or `international` (dollars) |
-| **tier** | `group`, `miniBatch`, `personal`, `lifetime`, `oneTime` |
+| **tier** | `group`, `miniBatch`, `personal`, `oneTime` |
 
 So `coding.india.group` is the ₹1,499 figure, and `maths.international.personal`
-is the $150 one.
+is the $374.99 one.
+
+**The international figures are what the RICHEST countries pay.** Everywhere
+else scales down from there by purchasing power, never below the floor.
 
 **Coding and maths are listed separately even though the Indian prices are
 identical today.** That is deliberate: it means you can raise one without
@@ -182,15 +185,22 @@ in Lagos or Oslo. So the floor guarantees:
 | `maxPremiumPercent` | `100` means never charge above list. Raise it to `110` if you decide rich countries should pay a premium |
 | `costs` | What collecting the money costs you. Used to work out the floor |
 | `unstableCurrencies` | Currencies too volatile to quote. These visitors see dollars only |
+| `unifiedCurrencyZones` | Countries sharing a currency all pay the same. `EUR` is on, so every euro country sees one price. Add `XOF`, `XAF`, `XCD` to treat the CFA franc and East Caribbean zones the same way |
 
-**Two numbers in `costs` are not verified and you should get them settled:**
+**One number in `costs` is still a guess:**
 
-- `gstOnServicePercent` is set to `0`, which assumes your classes are a
-  zero-rated export under an LUT. **Ask your CA.** If the real answer is 18,
-  put `18` here — the floor rises about 22% and several countries are currently
-  underpriced.
 - `fxSpreadBufferPercent` is set to `3`. Razorpay does not publish its card
   conversion spread anywhere. This is a cushion, not a measurement.
+
+`gstOnServicePercent` is `0`, confirmed by your CA on 2026-07-31 as a
+zero-rated export of services. If that ruling ever changes to 18, put `18` here
+and every floor rises about 22%.
+
+**`minNetInr` is your safety net.** It is the least you will accept from one
+international sale, in rupees, after every fee and the conversion: ₹3,000 for
+group, ₹9,500 for 1-on-1. At the current top price neither ever binds — the
+cheapest country still nets ₹5,375 — so they are insurance against a future
+price cut or a currency collapse.
 
 ### 4. `display`
 
