@@ -790,10 +790,21 @@ const InternationalPricing = {
 // listener queries it — even if that listener was registered before this script parsed.
 InternationalPricing.detectRegion();
 
-// ─── Run DOM-touching work on DOM ready ───
-document.addEventListener('DOMContentLoaded', function() {
+// ─── Run DOM-touching work as soon as the DOM is usable ───
+//
+// These scripts sit at the end of <body>, so by the time this line runs the
+// document has already been parsed and every price is in the DOM. Waiting for
+// DOMContentLoaded anyway meant an international visitor watched rupee prices
+// sit on screen through the rest of page setup before they were swapped. When
+// the document is already parsed, do the work now; only genuinely early loads
+// wait for the event.
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', function () {
+    InternationalPricing.init();
+  });
+} else {
   InternationalPricing.init();
-});
+}
 
 // Export for global use
 window.InternationalPricing = InternationalPricing;
