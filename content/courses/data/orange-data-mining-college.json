@@ -29,8 +29,7 @@
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,499/month",
-      "personal": "₹4,999/month",
-      "lifetime": "₹39,999"
+      "personal": "₹4,999/month"
     },
     "duration": "24 classes (12 weeks · 2 classes/week)",
     "level": "Beginner to applied practitioner (college students and graduates), no prior machine learning required",

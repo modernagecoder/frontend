@@ -394,11 +394,14 @@ const CoursePayment = {
 
   // Get plan display name
   getPlanName: function(planType) {
+    // Lifetime access was retired on 2026-07-31. It is deliberately absent
+    // here: if any stale markup still asks for it, getPricing() finds no price
+    // and the flow stops rather than charging an amount for a plan that is no
+    // longer sold.
     const names = {
       'group': 'Group Classes (up to 10 students)',
       'miniBatch': 'Mini Batch (3-4 students)',
-      'personal': 'Personalized 1-on-1 Mentorship',
-      'lifetime': 'Lifetime Access'
+      'personal': 'Personalized 1-on-1 Mentorship'
     };
     return names[planType] || 'Course Enrollment';
   },

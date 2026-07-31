@@ -80,9 +80,42 @@ test('a fractional USD price keeps its two decimals', function () {
         'a price like 149.99 must not be rounded to 150: ' + out.html);
 });
 
-test('rupee grouping is Indian, so lifetime reads 49,999', function () {
-    const out = stamp('<span data-price="coding.india.lifetime">x</span>');
-    assert.ok(out.html.indexOf('>₹49,999<') !== -1, 'got: ' + out.html);
+test('rupee grouping is Indian, not Western', function () {
+    // Tested through the formatter rather than a live price, so retiring a
+    // product cannot break a test about number formatting.
+    assert.strictEqual(cfgLib.format(49999, 'INR'), '₹49,999');
+    assert.strictEqual(cfgLib.format(149999, 'INR'), '₹1,49,999', 'lakh grouping above 99,999');
+    assert.strictEqual(cfgLib.format(149999, 'USD'), '$149,999', 'USD keeps Western grouping');
+});
+
+test('lifetime access is retired and cannot be priced', function () {
+    // The owner removed the lifetime tier on 2026-07-31. Every subject must
+    // report it as not sold, so no page, offer or payment can resurrect it.
+    Object.keys(config.plans).forEach(function (subject) {
+        cfgLib.REGIONS.forEach(function (region) {
+            const tiers = config.plans[subject][region] || {};
+            if (!('lifetime' in tiers)) return;
+            const r = cfgLib.resolve(subject + '.' + region + '.lifetime', config);
+            assert.strictEqual(r.exists, false,
+                subject + '.' + region + '.lifetime is still priced at ' + r.amount);
+        });
+    });
+});
+
+test('a retired tier is never stamped onto a page', function () {
+    const src = '<span data-price="coding.india.lifetime">₹49,999</span>';
+    const out = stamp(src);
+    assert.strictEqual(out.html, src, 'markup left alone rather than given a price');
+    assert.ok(out.report.notSold.indexOf('coding.india.lifetime') !== -1,
+        'and reported as not sold: ' + JSON.stringify(out.report.notSold));
+});
+
+test('publishing a lifetime Offer to Google is an error', function () {
+    const src = '<script type="application/ld+json" data-price-scope="coding.india">' +
+        '{"@type":"Offer","name":"Lifetime Access","price":"49999"}</script>';
+    const out = stamp(src);
+    assert.ok(/not sold/.test(out.report.errors[0] || ''),
+        'a retired product must not be advertised in structured data: ' + JSON.stringify(out.report.errors));
 });
 
 // ─── derived figures must be recalculated, not substituted ───

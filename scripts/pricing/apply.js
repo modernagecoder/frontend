@@ -138,7 +138,16 @@ function syncCoursesConfig(config) {
 
     function writeTier(target, tier, amount, label) {
         if (!target || !target[tier]) return;                    // tier absent here
-        if (amount === null || amount === undefined) return;     // not sold
+
+        // A tier set to null in the config is no longer sold. Delete it rather
+        // than leaving the old figure behind — a stale entry here is what
+        // Razorpay would still be handed if any code path asked for it.
+        if (amount === null || amount === undefined) {
+            changes.push(label + '.' + tier + ': removed (no longer sold)');
+            delete target[tier];
+            return;
+        }
+
         const display = cfgLib.format(amount, 'INR', { style: 'display' }) +
             (tier === 'lifetime' ? '' : '/month');
         if (target[tier].amount !== amount || target[tier].display !== display) {
@@ -153,6 +162,46 @@ function syncCoursesConfig(config) {
     cfgLib.MONTHLY_TIERS.forEach(function (t) {
         writeTier(json.defaultPricing, t, coding[t], 'defaultPricing');
     });
+
+    // The internationalPricing block is a third stale copy — it still carried
+    // the old flat $40/$100 long after the config moved. Nothing should have to
+    // remember to update it.
+    if (json.internationalPricing) {
+        const intl = config.plans.coding.international;
+        const camps = (config.plans.camps && config.plans.camps.international) || {};
+
+        function writeIntl(tier, amount, suffix) {
+            const target = json.internationalPricing;
+            if (!target[tier]) return;
+            if (amount === null || amount === undefined) {
+                changes.push('internationalPricing.' + tier + ': removed (no longer sold)');
+                delete target[tier];
+                return;
+            }
+            const display = cfgLib.format(amount, 'USD', { style: 'display' }) + suffix;
+            if (target[tier].amount !== amount || target[tier].display !== display) {
+                changes.push('internationalPricing.' + tier + ': ' + target[tier].amount + ' → ' + amount);
+            }
+            target[tier].amount = amount;
+            target[tier].display = display;
+        }
+
+        writeIntl('group', intl.group, '/month');
+        writeIntl('personal', intl.personal, '/month');
+        writeIntl('miniBatch', intl.miniBatch, '/month');
+        writeIntl('lifetime', intl.lifetime, '');
+        writeIntl('summer', camps.oneTime, '');
+    }
+
+    // Keep the file's own instructions honest about which tiers exist.
+    if (json.notes && typeof json.notes.howToAddNewCourse === 'string') {
+        const sold = cfgLib.MONTHLY_TIERS.filter(function (t) { return coding[t] !== null; });
+        json.notes.howToAddNewCourse =
+            "Add a new entry in the 'courses' object with the course slug as key. " +
+            'Each course should include ' + sold.join(', ') + ' pricing. ' +
+            'GENERATED: prices in this file are written by npm run pricing:apply from ' +
+            'pricing/pricing.config.jsonc — edit that file, not this one.';
+    }
 
     // Slugs of courses that actually exist. courses-config.json still carries
     // seven entries for courses that were renamed or split, and those entries
@@ -173,8 +222,23 @@ function syncCoursesConfig(config) {
     let n = 0;
     const orphans = [];
     Object.keys(json.courses || {}).forEach(function (slug) {
-        if (realSlugs.size && !realSlugs.has(slug)) { orphans.push(slug); return; }
         const prices = cfgLib.coursePrices(slug, config).india;
+        const orphaned = realSlugs.size && !realSlugs.has(slug);
+
+        if (orphaned) {
+            orphans.push(slug);
+            // An orphaned entry keeps its own figures — they may still be wanted
+            // if the course comes back. But a tier that is no longer sold at all
+            // is deleted even here, so the file never advertises a product that
+            // does not exist.
+            cfgLib.MONTHLY_TIERS.forEach(function (t) {
+                if (prices[t] === null || prices[t] === undefined) {
+                    writeTier(json.courses[slug].pricing, t, null, slug + ' (orphan)');
+                }
+            });
+            return;
+        }
+
         cfgLib.MONTHLY_TIERS.forEach(function (t) {
             writeTier(json.courses[slug].pricing, t, prices[t], slug);
         });

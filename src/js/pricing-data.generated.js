@@ -17,13 +17,13 @@ window.MAC_PRICING = {
         "group": 1499,
         "miniBatch": 2499,
         "personal": 4999,
-        "lifetime": 49999
+        "lifetime": null
       },
       "international": {
         "group": 149.99,
         "miniBatch": null,
         "personal": 374.99,
-        "lifetime": 599
+        "lifetime": null
       }
     },
     "maths": {
@@ -78,82 +78,11 @@ window.MAC_PRICING = {
     }
   },
   "courseOverrides": {
-    "vibe-coding-for-kids-beginners-ai-scratch-game-dev": {
-      "india": {
-        "lifetime": 34999
-      }
-    },
-    "vibe-coding-for-teens-python-web-ai-projects-course": {
-      "india": {
-        "lifetime": 44999
-      }
-    },
     "codex-and-claude-code-ai-coding-agents-course-for-teens": {
-      "subject": "agents",
-      "india": {
-        "lifetime": 44999
-      }
+      "subject": "agents"
     },
     "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": {
-      "subject": "agents",
-      "india": {
-        "lifetime": 49999
-      }
-    },
-    "vibe-coding-for-college-fullstack-ai-dsa-career-course": {
-      "india": {
-        "lifetime": 59999
-      }
-    },
-    "scratch-programming-complete-course": {
-      "india": {
-        "lifetime": 29999
-      }
-    },
-    "cbse-icse-computer-science-class-11-12-python-java-complete-course": {
-      "india": {
-        "lifetime": 24999
-      }
-    },
-    "cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course": {
-      "india": {
-        "lifetime": 24999
-      }
-    },
-    "cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8": {
-      "india": {
-        "lifetime": 19999
-      }
-    },
-    "cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843": {
-      "india": {
-        "lifetime": 29999
-      }
-    },
-    "git-github-version-control-course-for-teens": {
-      "india": {
-        "lifetime": 34999
-      }
-    },
-    "git-github-version-control-course-for-college-students": {
-      "india": {
-        "lifetime": 39999
-      }
-    },
-    "git-github-advanced-version-control-masterclass-for-professionals": {
-      "india": {
-        "lifetime": 44999
-      }
-    },
-    "orange-data-mining-visual-machine-learning-course-for-teens": {
-      "india": {
-        "lifetime": 34999
-      }
-    },
-    "orange-data-mining-machine-learning-course-for-college-students": {
-      "india": {
-        "lifetime": 39999
-      }
+      "subject": "agents"
     }
   },
   "display": {
@@ -176,8 +105,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 59.99,
-            "personal": 149.99,
-            "lifetime": 544.99
+            "personal": 149.99
           },
           "maths": {
             "group": 59.99,
@@ -198,8 +126,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 105.99,
-            "personal": 264.99,
-            "lifetime": 544.99
+            "personal": 264.99
           },
           "maths": {
             "group": 105.99,
@@ -220,8 +147,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 77.99,
-            "personal": 194.99,
-            "lifetime": 544.99
+            "personal": 194.99
           },
           "maths": {
             "group": 77.99,
@@ -242,8 +168,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -264,8 +189,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -286,8 +210,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 81.99,
-            "personal": 204.99,
-            "lifetime": 544.99
+            "personal": 204.99
           },
           "maths": {
             "group": 81.99,
@@ -308,8 +231,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 133.99,
-            "personal": 332.99,
-            "lifetime": 544.99
+            "personal": 332.99
           },
           "maths": {
             "group": 133.99,
@@ -330,8 +252,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -352,8 +273,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 90.99,
-            "personal": 225.99,
-            "lifetime": 544.99
+            "personal": 225.99
           },
           "maths": {
             "group": 90.99,
@@ -374,8 +294,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -396,8 +315,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 145.99,
-            "personal": 363.99,
-            "lifetime": 581.99
+            "personal": 363.99
           },
           "maths": {
             "group": 145.99,
@@ -418,8 +336,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -440,8 +357,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 78.99,
-            "personal": 195.99,
-            "lifetime": 544.99
+            "personal": 195.99
           },
           "maths": {
             "group": 78.99,
@@ -462,8 +378,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -484,8 +399,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 99.99,
-            "personal": 249.99,
-            "lifetime": 544.99
+            "personal": 249.99
           },
           "maths": {
             "group": 99.99,
@@ -506,8 +420,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 73.99,
-            "personal": 184.99,
-            "lifetime": 544.99
+            "personal": 184.99
           },
           "maths": {
             "group": 73.99,
@@ -528,8 +441,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -550,8 +462,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 72.99,
-            "personal": 180.99,
-            "lifetime": 544.99
+            "personal": 180.99
           },
           "maths": {
             "group": 72.99,
@@ -572,8 +483,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -594,8 +504,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 105.99,
-            "personal": 264.99,
-            "lifetime": 544.99
+            "personal": 264.99
           },
           "maths": {
             "group": 105.99,
@@ -616,8 +525,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 80.99,
-            "personal": 201.99,
-            "lifetime": 544.99
+            "personal": 201.99
           },
           "maths": {
             "group": 80.99,
@@ -638,8 +546,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -660,8 +567,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 66.99,
-            "personal": 166.99,
-            "lifetime": 544.99
+            "personal": 166.99
           },
           "maths": {
             "group": 66.99,
@@ -682,8 +588,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 87.99,
-            "personal": 219.99,
-            "lifetime": 544.99
+            "personal": 219.99
           },
           "maths": {
             "group": 87.99,
@@ -704,8 +609,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 94.99,
-            "personal": 235.99,
-            "lifetime": 544.99
+            "personal": 235.99
           },
           "maths": {
             "group": 94.99,
@@ -726,8 +630,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 88.99,
-            "personal": 220.99,
-            "lifetime": 544.99
+            "personal": 220.99
           },
           "maths": {
             "group": 88.99,
@@ -748,8 +651,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 96.99,
-            "personal": 241.99,
-            "lifetime": 544.99
+            "personal": 241.99
           },
           "maths": {
             "group": 96.99,
@@ -770,8 +672,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 89.99,
-            "personal": 223.99,
-            "lifetime": 544.99
+            "personal": 223.99
           },
           "maths": {
             "group": 89.99,
@@ -792,8 +693,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 97.99,
-            "personal": 243.99,
-            "lifetime": 544.99
+            "personal": 243.99
           },
           "maths": {
             "group": 97.99,
@@ -814,8 +714,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 79.99,
-            "personal": 199.99,
-            "lifetime": 544.99
+            "personal": 199.99
           },
           "maths": {
             "group": 79.99,
@@ -836,8 +735,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 68.99,
-            "personal": 170.99,
-            "lifetime": 544.99
+            "personal": 170.99
           },
           "maths": {
             "group": 68.99,
@@ -858,8 +756,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 105.99,
-            "personal": 264.99,
-            "lifetime": 544.99
+            "personal": 264.99
           },
           "maths": {
             "group": 105.99,
@@ -880,8 +777,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 84.99,
-            "personal": 211.99,
-            "lifetime": 544.99
+            "personal": 211.99
           },
           "maths": {
             "group": 84.99,
@@ -902,8 +798,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 83.99,
-            "personal": 209.99,
-            "lifetime": 544.99
+            "personal": 209.99
           },
           "maths": {
             "group": 83.99,
@@ -924,8 +819,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 141.99,
-            "personal": 353.99,
-            "lifetime": 564.99
+            "personal": 353.99
           },
           "maths": {
             "group": 141.99,
@@ -946,8 +840,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -968,8 +861,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 94.99,
-            "personal": 236.99,
-            "lifetime": 544.99
+            "personal": 236.99
           },
           "maths": {
             "group": 94.99,
@@ -990,8 +882,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 86.99,
-            "personal": 216.99,
-            "lifetime": 544.99
+            "personal": 216.99
           },
           "maths": {
             "group": 86.99,
@@ -1012,8 +903,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 102.99,
-            "personal": 255.99,
-            "lifetime": 544.99
+            "personal": 255.99
           },
           "maths": {
             "group": 102.99,
@@ -1034,8 +924,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 98.99,
-            "personal": 247.99,
-            "lifetime": 544.99
+            "personal": 247.99
           },
           "maths": {
             "group": 98.99,
@@ -1056,8 +945,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 90.99,
-            "personal": 225.99,
-            "lifetime": 544.99
+            "personal": 225.99
           },
           "maths": {
             "group": 90.99,
@@ -1078,8 +966,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 110.99,
-            "personal": 275.99,
-            "lifetime": 544.99
+            "personal": 275.99
           },
           "maths": {
             "group": 110.99,
@@ -1100,8 +987,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -1122,8 +1008,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 88.99,
-            "personal": 221.99,
-            "lifetime": 544.99
+            "personal": 221.99
           },
           "maths": {
             "group": 88.99,
@@ -1144,8 +1029,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 114.99,
-            "personal": 286.99,
-            "lifetime": 544.99
+            "personal": 286.99
           },
           "maths": {
             "group": 114.99,
@@ -1166,8 +1050,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 87.99,
-            "personal": 219.99,
-            "lifetime": 544.99
+            "personal": 219.99
           },
           "maths": {
             "group": 87.99,
@@ -1188,8 +1071,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -1210,8 +1092,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -1232,8 +1113,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -1254,8 +1134,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 119.99,
-            "personal": 298.99,
-            "lifetime": 544.99
+            "personal": 298.99
           },
           "maths": {
             "group": 119.99,
@@ -1276,8 +1155,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -1298,8 +1176,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 100.99,
-            "personal": 252.99,
-            "lifetime": 544.99
+            "personal": 252.99
           },
           "maths": {
             "group": 100.99,
@@ -1320,8 +1197,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 109.99,
-            "personal": 274.99,
-            "lifetime": 544.99
+            "personal": 274.99
           },
           "maths": {
             "group": 109.99,
@@ -1342,8 +1218,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 86.99,
-            "personal": 217.99,
-            "lifetime": 544.99
+            "personal": 217.99
           },
           "maths": {
             "group": 86.99,
@@ -1364,8 +1239,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 94.99,
-            "personal": 235.99,
-            "lifetime": 544.99
+            "personal": 235.99
           },
           "maths": {
             "group": 94.99,
@@ -1386,8 +1260,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 59.99,
-            "personal": 149.99,
-            "lifetime": 544.99
+            "personal": 149.99
           },
           "maths": {
             "group": 59.99,
@@ -1408,8 +1281,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 97.99,
-            "personal": 243.99,
-            "lifetime": 544.99
+            "personal": 243.99
           },
           "maths": {
             "group": 97.99,
@@ -1430,8 +1302,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 95.99,
-            "personal": 239.99,
-            "lifetime": 544.99
+            "personal": 239.99
           },
           "maths": {
             "group": 95.99,
@@ -1452,8 +1323,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -1474,8 +1344,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -1496,8 +1365,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -1518,8 +1386,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 64.99,
-            "personal": 160.99,
-            "lifetime": 544.99
+            "personal": 160.99
           },
           "maths": {
             "group": 64.99,
@@ -1540,8 +1407,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -1562,8 +1428,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 87.99,
-            "personal": 218.99,
-            "lifetime": 544.99
+            "personal": 218.99
           },
           "maths": {
             "group": 87.99,
@@ -1584,8 +1449,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -1606,8 +1470,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -1628,8 +1491,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -1650,8 +1512,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 99.99,
-            "personal": 247.99,
-            "lifetime": 544.99
+            "personal": 247.99
           },
           "maths": {
             "group": 99.99,
@@ -1672,8 +1533,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 73.99,
-            "personal": 183.99,
-            "lifetime": 544.99
+            "personal": 183.99
           },
           "maths": {
             "group": 73.99,
@@ -1694,8 +1554,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 88.99,
-            "personal": 221.99,
-            "lifetime": 544.99
+            "personal": 221.99
           },
           "maths": {
             "group": 88.99,
@@ -1716,8 +1575,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -1738,8 +1596,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 91.99,
-            "personal": 228.99,
-            "lifetime": 544.99
+            "personal": 228.99
           },
           "maths": {
             "group": 91.99,
@@ -1760,8 +1617,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -1782,8 +1638,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -1804,8 +1659,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 113.99,
-            "personal": 284.99,
-            "lifetime": 544.99
+            "personal": 284.99
           },
           "maths": {
             "group": 113.99,
@@ -1826,8 +1680,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -1848,8 +1701,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 94.99,
-            "personal": 236.99,
-            "lifetime": 544.99
+            "personal": 236.99
           },
           "maths": {
             "group": 94.99,
@@ -1870,8 +1722,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 91.99,
-            "personal": 228.99,
-            "lifetime": 544.99
+            "personal": 228.99
           },
           "maths": {
             "group": 91.99,
@@ -1892,8 +1743,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 87.99,
-            "personal": 218.99,
-            "lifetime": 544.99
+            "personal": 218.99
           },
           "maths": {
             "group": 87.99,
@@ -1914,8 +1764,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 97.99,
-            "personal": 243.99,
-            "lifetime": 544.99
+            "personal": 243.99
           },
           "maths": {
             "group": 97.99,
@@ -1936,8 +1785,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -1958,8 +1806,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 99.99,
-            "personal": 248.99,
-            "lifetime": 544.99
+            "personal": 248.99
           },
           "maths": {
             "group": 99.99,
@@ -1980,8 +1827,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 126.99,
-            "personal": 315.99,
-            "lifetime": 544.99
+            "personal": 315.99
           },
           "maths": {
             "group": 126.99,
@@ -2002,8 +1848,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 109.99,
-            "personal": 274.99,
-            "lifetime": 544.99
+            "personal": 274.99
           },
           "maths": {
             "group": 109.99,
@@ -2024,8 +1869,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -2046,8 +1890,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 64.99,
-            "personal": 161.99,
-            "lifetime": 544.99
+            "personal": 161.99
           },
           "maths": {
             "group": 64.99,
@@ -2068,8 +1911,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 76.99,
-            "personal": 191.99,
-            "lifetime": 544.99
+            "personal": 191.99
           },
           "maths": {
             "group": 76.99,
@@ -2090,8 +1932,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 62.99,
-            "personal": 155.99,
-            "lifetime": 544.99
+            "personal": 155.99
           },
           "maths": {
             "group": 62.99,
@@ -2112,8 +1953,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 91.99,
-            "personal": 228.99,
-            "lifetime": 544.99
+            "personal": 228.99
           },
           "maths": {
             "group": 91.99,
@@ -2134,8 +1974,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -2156,8 +1995,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -2178,8 +2016,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -2200,8 +2037,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 113.99,
-            "personal": 284.99,
-            "lifetime": 544.99
+            "personal": 284.99
           },
           "maths": {
             "group": 113.99,
@@ -2222,8 +2058,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -2244,8 +2079,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 94.99,
-            "personal": 237.99,
-            "lifetime": 544.99
+            "personal": 237.99
           },
           "maths": {
             "group": 94.99,
@@ -2266,8 +2100,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 84.99,
-            "personal": 211.99,
-            "lifetime": 544.99
+            "personal": 211.99
           },
           "maths": {
             "group": 84.99,
@@ -2288,8 +2121,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 82.99,
-            "personal": 205.99,
-            "lifetime": 544.99
+            "personal": 205.99
           },
           "maths": {
             "group": 82.99,
@@ -2310,8 +2142,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 113.99,
-            "personal": 284.99,
-            "lifetime": 544.99
+            "personal": 284.99
           },
           "maths": {
             "group": 113.99,
@@ -2332,8 +2163,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 114.99,
-            "personal": 285.99,
-            "lifetime": 544.99
+            "personal": 285.99
           },
           "maths": {
             "group": 114.99,
@@ -2354,8 +2184,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -2376,8 +2205,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 111.99,
-            "personal": 279.99,
-            "lifetime": 544.99
+            "personal": 279.99
           },
           "maths": {
             "group": 111.99,
@@ -2398,8 +2226,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 80.99,
-            "personal": 201.99,
-            "lifetime": 544.99
+            "personal": 201.99
           },
           "maths": {
             "group": 80.99,
@@ -2420,8 +2247,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 73.99,
-            "personal": 184.99,
-            "lifetime": 544.99
+            "personal": 184.99
           },
           "maths": {
             "group": 73.99,
@@ -2442,8 +2268,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -2464,8 +2289,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 117.99,
-            "personal": 294.99,
-            "lifetime": 544.99
+            "personal": 294.99
           },
           "maths": {
             "group": 117.99,
@@ -2486,8 +2310,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 82.99,
-            "personal": 205.99,
-            "lifetime": 544.99
+            "personal": 205.99
           },
           "maths": {
             "group": 82.99,
@@ -2508,8 +2331,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 104.99,
-            "personal": 262.99,
-            "lifetime": 544.99
+            "personal": 262.99
           },
           "maths": {
             "group": 104.99,
@@ -2530,8 +2352,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 80.99,
-            "personal": 202.99,
-            "lifetime": 544.99
+            "personal": 202.99
           },
           "maths": {
             "group": 80.99,
@@ -2552,8 +2373,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -2574,8 +2394,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -2596,8 +2415,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 113.99,
-            "personal": 284.99,
-            "lifetime": 544.99
+            "personal": 284.99
           },
           "maths": {
             "group": 113.99,
@@ -2618,8 +2436,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 74.99,
-            "personal": 185.99,
-            "lifetime": 544.99
+            "personal": 185.99
           },
           "maths": {
             "group": 74.99,
@@ -2640,8 +2457,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 83.99,
-            "personal": 208.99,
-            "lifetime": 544.99
+            "personal": 208.99
           },
           "maths": {
             "group": 83.99,
@@ -2662,8 +2478,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 80.99,
-            "personal": 200.99,
-            "lifetime": 544.99
+            "personal": 200.99
           },
           "maths": {
             "group": 80.99,
@@ -2684,8 +2499,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 114.99,
-            "personal": 285.99,
-            "lifetime": 544.99
+            "personal": 285.99
           },
           "maths": {
             "group": 114.99,
@@ -2706,8 +2520,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 80.99,
-            "personal": 200.99,
-            "lifetime": 544.99
+            "personal": 200.99
           },
           "maths": {
             "group": 80.99,
@@ -2728,8 +2541,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -2750,8 +2562,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -2772,8 +2583,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 76.99,
-            "personal": 191.99,
-            "lifetime": 544.99
+            "personal": 191.99
           },
           "maths": {
             "group": 76.99,
@@ -2794,8 +2604,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 93.99,
-            "personal": 233.99,
-            "lifetime": 544.99
+            "personal": 233.99
           },
           "maths": {
             "group": 93.99,
@@ -2816,8 +2625,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 110.99,
-            "personal": 277.99,
-            "lifetime": 544.99
+            "personal": 277.99
           },
           "maths": {
             "group": 110.99,
@@ -2838,8 +2646,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -2860,8 +2667,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 101.99,
-            "personal": 254.99,
-            "lifetime": 544.99
+            "personal": 254.99
           },
           "maths": {
             "group": 101.99,
@@ -2882,8 +2688,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 80.99,
-            "personal": 200.99,
-            "lifetime": 544.99
+            "personal": 200.99
           },
           "maths": {
             "group": 80.99,
@@ -2904,8 +2709,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -2926,8 +2730,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 91.99,
-            "personal": 229.99,
-            "lifetime": 544.99
+            "personal": 229.99
           },
           "maths": {
             "group": 91.99,
@@ -2948,8 +2751,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 88.99,
-            "personal": 221.99,
-            "lifetime": 544.99
+            "personal": 221.99
           },
           "maths": {
             "group": 88.99,
@@ -2970,8 +2772,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -2992,8 +2793,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 90.99,
-            "personal": 226.99,
-            "lifetime": 544.99
+            "personal": 226.99
           },
           "maths": {
             "group": 90.99,
@@ -3014,8 +2814,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -3036,8 +2835,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 69.99,
-            "personal": 173.99,
-            "lifetime": 544.99
+            "personal": 173.99
           },
           "maths": {
             "group": 69.99,
@@ -3058,8 +2856,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -3080,8 +2877,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -3102,8 +2898,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 141.99,
-            "personal": 352.99,
-            "lifetime": 563.99
+            "personal": 352.99
           },
           "maths": {
             "group": 141.99,
@@ -3124,8 +2919,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 85.99,
-            "personal": 212.99,
-            "lifetime": 544.99
+            "personal": 212.99
           },
           "maths": {
             "group": 85.99,
@@ -3146,8 +2940,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 81.99,
-            "personal": 203.99,
-            "lifetime": 544.99
+            "personal": 203.99
           },
           "maths": {
             "group": 81.99,
@@ -3168,8 +2961,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 61.99,
-            "personal": 153.99,
-            "lifetime": 544.99
+            "personal": 153.99
           },
           "maths": {
             "group": 61.99,
@@ -3190,8 +2982,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 90.99,
-            "personal": 225.99,
-            "lifetime": 544.99
+            "personal": 225.99
           },
           "maths": {
             "group": 90.99,
@@ -3212,8 +3003,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -3234,8 +3024,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 146.99,
-            "personal": 366.99,
-            "lifetime": 585.99
+            "personal": 366.99
           },
           "maths": {
             "group": 146.99,
@@ -3256,8 +3045,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 97.99,
-            "personal": 244.99,
-            "lifetime": 544.99
+            "personal": 244.99
           },
           "maths": {
             "group": 97.99,
@@ -3278,8 +3066,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 65.99,
-            "personal": 163.99,
-            "lifetime": 544.99
+            "personal": 163.99
           },
           "maths": {
             "group": 65.99,
@@ -3300,8 +3087,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 146.99,
-            "personal": 367.99,
-            "lifetime": 586.99
+            "personal": 367.99
           },
           "maths": {
             "group": 146.99,
@@ -3322,8 +3108,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 100.99,
-            "personal": 251.99,
-            "lifetime": 544.99
+            "personal": 251.99
           },
           "maths": {
             "group": 100.99,
@@ -3344,8 +3129,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 119.99,
-            "personal": 298.99,
-            "lifetime": 544.99
+            "personal": 298.99
           },
           "maths": {
             "group": 119.99,
@@ -3366,8 +3150,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 86.99,
-            "personal": 216.99,
-            "lifetime": 544.99
+            "personal": 216.99
           },
           "maths": {
             "group": 86.99,
@@ -3388,8 +3171,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 105.99,
-            "personal": 263.99,
-            "lifetime": 544.99
+            "personal": 263.99
           },
           "maths": {
             "group": 105.99,
@@ -3410,8 +3192,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 83.99,
-            "personal": 208.99,
-            "lifetime": 544.99
+            "personal": 208.99
           },
           "maths": {
             "group": 83.99,
@@ -3432,8 +3213,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 106.99,
-            "personal": 266.99,
-            "lifetime": 544.99
+            "personal": 266.99
           },
           "maths": {
             "group": 106.99,
@@ -3454,8 +3234,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -3476,8 +3255,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -3498,8 +3276,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 127.99,
-            "personal": 319.99,
-            "lifetime": 544.99
+            "personal": 319.99
           },
           "maths": {
             "group": 127.99,
@@ -3520,8 +3297,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 99.99,
-            "personal": 249.99,
-            "lifetime": 544.99
+            "personal": 249.99
           },
           "maths": {
             "group": 99.99,
@@ -3542,8 +3318,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 84.99,
-            "personal": 211.99,
-            "lifetime": 544.99
+            "personal": 211.99
           },
           "maths": {
             "group": 84.99,
@@ -3564,8 +3339,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 69.99,
-            "personal": 174.99,
-            "lifetime": 544.99
+            "personal": 174.99
           },
           "maths": {
             "group": 69.99,
@@ -3586,8 +3360,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 119.99,
-            "personal": 299.99,
-            "lifetime": 544.99
+            "personal": 299.99
           },
           "maths": {
             "group": 119.99,
@@ -3608,8 +3381,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 135.99,
-            "personal": 337.99,
-            "lifetime": 544.99
+            "personal": 337.99
           },
           "maths": {
             "group": 135.99,
@@ -3630,8 +3402,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 120.99,
-            "personal": 300.99,
-            "lifetime": 544.99
+            "personal": 300.99
           },
           "maths": {
             "group": 120.99,
@@ -3652,8 +3423,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 100.99,
-            "personal": 252.99,
-            "lifetime": 544.99
+            "personal": 252.99
           },
           "maths": {
             "group": 100.99,
@@ -3674,8 +3444,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 87.99,
-            "personal": 219.99,
-            "lifetime": 544.99
+            "personal": 219.99
           },
           "maths": {
             "group": 87.99,
@@ -3696,8 +3465,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 102.99,
-            "personal": 255.99,
-            "lifetime": 544.99
+            "personal": 255.99
           },
           "maths": {
             "group": 102.99,
@@ -3718,8 +3486,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 109.99,
-            "personal": 273.99,
-            "lifetime": 544.99
+            "personal": 273.99
           },
           "maths": {
             "group": 109.99,
@@ -3740,8 +3507,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 76.99,
-            "personal": 190.99,
-            "lifetime": 544.99
+            "personal": 190.99
           },
           "maths": {
             "group": 76.99,
@@ -3762,8 +3528,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 130.99,
-            "personal": 326.99,
-            "lifetime": 544.99
+            "personal": 326.99
           },
           "maths": {
             "group": 130.99,
@@ -3784,8 +3549,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -3806,8 +3570,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -3828,8 +3591,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -3850,8 +3612,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 142.99,
-            "personal": 357.99,
-            "lifetime": 570.99
+            "personal": 357.99
           },
           "maths": {
             "group": 142.99,
@@ -3872,8 +3633,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -3894,8 +3654,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 93.99,
-            "personal": 232.99,
-            "lifetime": 544.99
+            "personal": 232.99
           },
           "maths": {
             "group": 93.99,
@@ -3916,8 +3675,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -3938,8 +3696,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 121.99,
-            "personal": 303.99,
-            "lifetime": 544.99
+            "personal": 303.99
           },
           "maths": {
             "group": 121.99,
@@ -3960,8 +3717,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 71.99,
-            "personal": 177.99,
-            "lifetime": 544.99
+            "personal": 177.99
           },
           "maths": {
             "group": 71.99,
@@ -3982,8 +3738,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 131.99,
-            "personal": 328.99,
-            "lifetime": 544.99
+            "personal": 328.99
           },
           "maths": {
             "group": 131.99,
@@ -4004,8 +3759,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 111.99,
-            "personal": 277.99,
-            "lifetime": 544.99
+            "personal": 277.99
           },
           "maths": {
             "group": 111.99,
@@ -4026,8 +3780,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 114.99,
-            "personal": 285.99,
-            "lifetime": 544.99
+            "personal": 285.99
           },
           "maths": {
             "group": 114.99,
@@ -4048,8 +3801,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -4070,8 +3822,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 91.99,
-            "personal": 228.99,
-            "lifetime": 544.99
+            "personal": 228.99
           },
           "maths": {
             "group": 91.99,
@@ -4092,8 +3843,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 141.99,
-            "personal": 354.99,
-            "lifetime": 565.99
+            "personal": 354.99
           },
           "maths": {
             "group": 141.99,
@@ -4114,8 +3864,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -4136,8 +3885,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -4158,8 +3906,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -4180,8 +3927,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 69.99,
-            "personal": 174.99,
-            "lifetime": 544.99
+            "personal": 174.99
           },
           "maths": {
             "group": 69.99,
@@ -4202,8 +3948,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 78.99,
-            "personal": 196.99,
-            "lifetime": 544.99
+            "personal": 196.99
           },
           "maths": {
             "group": 78.99,
@@ -4224,8 +3969,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 94.99,
-            "personal": 236.99,
-            "lifetime": 544.99
+            "personal": 236.99
           },
           "maths": {
             "group": 94.99,
@@ -4246,8 +3990,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 85.99,
-            "personal": 214.99,
-            "lifetime": 544.99
+            "personal": 214.99
           },
           "maths": {
             "group": 85.99,
@@ -4268,8 +4011,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 130.99,
-            "personal": 326.99,
-            "lifetime": 544.99
+            "personal": 326.99
           },
           "maths": {
             "group": 130.99,
@@ -4290,8 +4032,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 108.99,
-            "personal": 271.99,
-            "lifetime": 544.99
+            "personal": 271.99
           },
           "maths": {
             "group": 108.99,
@@ -4312,8 +4053,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 79.99,
-            "personal": 198.99,
-            "lifetime": 544.99
+            "personal": 198.99
           },
           "maths": {
             "group": 79.99,
@@ -4334,8 +4074,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 95.99,
-            "personal": 237.99,
-            "lifetime": 544.99
+            "personal": 237.99
           },
           "maths": {
             "group": 95.99,
@@ -4356,8 +4095,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -4378,8 +4116,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -4400,8 +4137,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -4422,8 +4158,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 84.99,
-            "personal": 210.99,
-            "lifetime": 544.99
+            "personal": 210.99
           },
           "maths": {
             "group": 84.99,
@@ -4444,8 +4179,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 73.99,
-            "personal": 183.99,
-            "lifetime": 544.99
+            "personal": 183.99
           },
           "maths": {
             "group": 73.99,
@@ -4466,8 +4200,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 122.99,
-            "personal": 305.99,
-            "lifetime": 544.99
+            "personal": 305.99
           },
           "maths": {
             "group": 122.99,
@@ -4488,8 +4221,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 143.99,
-            "personal": 358.99,
-            "lifetime": 572.99
+            "personal": 358.99
           },
           "maths": {
             "group": 143.99,
@@ -4510,8 +4242,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -4532,8 +4263,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 124.99,
-            "personal": 312.99,
-            "lifetime": 544.99
+            "personal": 312.99
           },
           "maths": {
             "group": 124.99,
@@ -4554,8 +4284,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 73.99,
-            "personal": 183.99,
-            "lifetime": 544.99
+            "personal": 183.99
           },
           "maths": {
             "group": 73.99,
@@ -4576,8 +4305,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -4598,8 +4326,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -4620,8 +4347,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 73.99,
-            "personal": 184.99,
-            "lifetime": 544.99
+            "personal": 184.99
           },
           "maths": {
             "group": 73.99,
@@ -4642,8 +4368,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -4664,8 +4389,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 141.99,
-            "personal": 354.99,
-            "lifetime": 566.99
+            "personal": 354.99
           },
           "maths": {
             "group": 141.99,
@@ -4686,8 +4410,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,
@@ -4708,8 +4431,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 80.99,
-            "personal": 200.99,
-            "lifetime": 544.99
+            "personal": 200.99
           },
           "maths": {
             "group": 80.99,
@@ -4730,8 +4452,7 @@ window.MAC_PRICING = {
         "tiers": {
           "coding": {
             "group": 149.99,
-            "personal": 374.99,
-            "lifetime": 599
+            "personal": 374.99
           },
           "maths": {
             "group": 149.99,

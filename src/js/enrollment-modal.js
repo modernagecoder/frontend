@@ -46,7 +46,9 @@ const EnrollmentModal = {
           const text = heading ? heading.textContent.toLowerCase() : '';
           if (text.includes('mini batch')) this.selectedPlan = 'miniBatch';
           else if (text.includes('1-on-1') || text.includes('personal') || text.includes('private') || text.includes('mentor')) this.selectedPlan = 'personal';
-          else if (text.includes('lifetime')) this.selectedPlan = 'lifetime';
+          // 'lifetime' is not mapped: that plan was retired on 2026-07-31, and
+          // any card still saying so falls through to group rather than
+          // selecting a plan that can no longer be priced or charged.
           else this.selectedPlan = 'group';
         }
         this.open();

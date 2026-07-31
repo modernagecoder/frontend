@@ -8,16 +8,12 @@
   },
   "internationalPricing": {
     "group": {
-      "amount": 40,
-      "display": "$40/month"
+      "amount": 149.99,
+      "display": "$149.99/month"
     },
     "personal": {
-      "amount": 100,
-      "display": "$100/month"
-    },
-    "lifetime": {
-      "amount": 599,
-      "display": "$599"
+      "amount": 374.99,
+      "display": "$374.99/month"
     },
     "summer": {
       "amount": 60,
@@ -40,11 +36,6 @@
       "amount": 4999,
       "display": "₹4,999/month",
       "description": "Weekly two private 1-on-1 sessions"
-    },
-    "lifetime": {
-      "amount": 49999,
-      "display": "₹49,999",
-      "description": "One-time payment, lifetime access"
     }
   },
   "courses": {
@@ -63,10 +54,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 34999,
-          "display": "₹34,999"
         }
       }
     },
@@ -85,10 +72,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 44999,
-          "display": "₹44,999"
         }
       }
     },
@@ -107,10 +90,6 @@
         "personal": {
           "amount": 9999,
           "display": "₹9,999/month"
-        },
-        "lifetime": {
-          "amount": 44999,
-          "display": "₹44,999"
         }
       }
     },
@@ -129,10 +108,6 @@
         "personal": {
           "amount": 9999,
           "display": "₹9,999/month"
-        },
-        "lifetime": {
-          "amount": 49999,
-          "display": "₹49,999"
         }
       }
     },
@@ -151,10 +126,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 59999,
-          "display": "₹59,999"
         }
       }
     },
@@ -173,10 +144,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 49999,
-          "display": "₹49,999"
         }
       }
     },
@@ -195,10 +162,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 39999,
-          "display": "₹39,999"
         }
       }
     },
@@ -217,10 +180,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 29999,
-          "display": "₹29,999"
         }
       }
     },
@@ -239,10 +198,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 59999,
-          "display": "₹59,999"
         }
       }
     },
@@ -261,10 +216,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 59999,
-          "display": "₹59,999"
         }
       }
     },
@@ -283,10 +234,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 69999,
-          "display": "₹69,999"
         }
       }
     },
@@ -305,10 +252,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 49999,
-          "display": "₹49,999"
         }
       }
     },
@@ -327,10 +270,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 54999,
-          "display": "₹54,999"
         }
       }
     },
@@ -349,10 +288,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 59999,
-          "display": "₹59,999"
         }
       }
     },
@@ -371,10 +306,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 24999,
-          "display": "₹24,999"
         }
       }
     },
@@ -393,10 +324,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 24999,
-          "display": "₹24,999"
         }
       }
     },
@@ -415,10 +342,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 19999,
-          "display": "₹19,999"
         }
       }
     },
@@ -437,10 +360,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 29999,
-          "display": "₹29,999"
         }
       }
     },
@@ -513,10 +432,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 34999,
-          "display": "₹34,999"
         }
       }
     },
@@ -535,10 +450,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 39999,
-          "display": "₹39,999"
         }
       }
     },
@@ -557,10 +468,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 44999,
-          "display": "₹44,999"
         }
       }
     },
@@ -579,10 +486,6 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 34999,
-          "display": "₹34,999"
         }
       }
     },
@@ -601,16 +504,12 @@
         "personal": {
           "amount": 4999,
           "display": "₹4,999/month"
-        },
-        "lifetime": {
-          "amount": 39999,
-          "display": "₹39,999"
         }
       }
     }
   },
   "notes": {
-    "howToAddNewCourse": "Add a new entry in the 'courses' object with the course slug as key. Each course should include group, miniBatch, personal, and (optional) lifetime pricing.",
+    "howToAddNewCourse": "Add a new entry in the 'courses' object with the course slug as key. Each course should include group, miniBatch, personal pricing. GENERATED: prices in this file are written by npm run pricing:apply from pricing/pricing.config.jsonc — edit that file, not this one.",
     "pricingFormat": "amount is in rupees (INR), display is the formatted string shown to users",
     "miniBatch": "indiaOnly=true means this plan is NOT available to international users. The Mini Batch card is hidden via data-india-only on foreign views.",
     "defaultPricing": "If a course is not listed in 'courses', defaultPricing is used (Group ₹1,499 / Mini Batch ₹2,499 / 1-on-1 ₹4,999).",

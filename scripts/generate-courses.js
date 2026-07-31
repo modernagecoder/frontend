@@ -1122,7 +1122,10 @@ class CourseGenerator {
         html = html.replace(/{{PRICE_GROUP}}/g, tierP.groupDisplay);
         html = html.replace(/{{PRICE_MINIBATCH}}/g, tierP.miniBatchDisplay);
         html = html.replace(/{{PRICE_PERSONAL}}/g, tierP.personalDisplay);
-        html = html.replace(/{{PRICE_LIFETIME}}/g, this.escapeHtml(meta.price?.lifetime || ''));
+        // Lifetime access was retired on 2026-07-31. The placeholder is still
+        // blanked rather than left unreplaced, so a stale {{PRICE_LIFETIME}} in
+        // any template can never reach a published page as literal text.
+        html = html.replace(/{{PRICE_LIFETIME}}/g, '');
 
         // New meta fields
         html = html.replace(/{{DURATION}}/g, this.escapeHtml(meta.duration || ''));
