@@ -145,6 +145,53 @@ function resolve(key, config) {
     };
 }
 
+/**
+ * The price set a course uses, after applying its override.
+ *
+ * An override is either a subject name, or an object that may name a subject
+ * and may carry explicit per-tier amounts:
+ *
+ *   "slug": "agents"
+ *   "slug": { "india": { "lifetime": 34999 } }
+ *   "slug": { "subject": "agents", "india": { "lifetime": 44999 } }
+ *
+ * Returns { subject, india: {...}, international: {...} } with the overrides
+ * merged over the subject's own table. Never mutates the config.
+ */
+function coursePrices(slug, config) {
+    const cfg = config || load();
+    const override = (cfg.courseOverrides || {})[slug];
+
+    let subject = 'coding';
+    let explicit = null;
+
+    if (typeof override === 'string') {
+        subject = override;
+    } else if (override && typeof override === 'object') {
+        if (override.subject) subject = override.subject;
+        explicit = override;
+    }
+
+    if (!cfg.plans[subject]) {
+        throw new Error('Course "' + slug + '" points at price set "' + subject +
+            '", which does not exist. Known: ' + Object.keys(cfg.plans).join(', '));
+    }
+
+    const out = { subject: subject };
+    REGIONS.forEach(function (region) {
+        const base = cfg.plans[subject][region] || {};
+        const merged = {};
+        Object.keys(base).forEach(function (tier) { merged[tier] = base[tier]; });
+        if (explicit && explicit[region]) {
+            Object.keys(explicit[region]).forEach(function (tier) {
+                merged[tier] = explicit[region][tier];
+            });
+        }
+        out[region] = merged;
+    });
+    return out;
+}
+
 /** Every key the config defines, including the ones that are not sold. */
 function allKeys(config) {
     const cfg = config || load();
@@ -291,6 +338,7 @@ module.exports = {
     load: load,
     loadData: loadData,
     resolve: resolve,
+    coursePrices: coursePrices,
     allKeys: allKeys,
     format: format,
     formatLocal: formatLocal,

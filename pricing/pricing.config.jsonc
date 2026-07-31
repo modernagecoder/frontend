@@ -84,9 +84,31 @@
   //  here to move it onto a different price set. Add a line, run apply, done —
   //  no code change needed.
   //
+  //  A course listed here is priced differently from the default coding set.
+  //
+  //    "slug": "agents"                                  use that whole price set
+  //    "slug": { "india": { "lifetime": 34999 } }         coding prices, own lifetime
+  //    "slug": { "subject": "agents", "india": { ... } }  both
+  //
+  //  These 21 entries are the real per-course prices migrated out of
+  //  courses-config.json, which used to be a second authority on the amount
+  //  Razorpay actually charges. That file is generated from this one now.
   "courseOverrides": {
-    "codex-and-claude-code-ai-coding-agents-course-for-teens":                  "agents",
-    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": "agents"
+    "vibe-coding-for-kids-beginners-ai-scratch-game-dev": { "india": { "lifetime": 34999 } },
+    "vibe-coding-for-teens-python-web-ai-projects-course": { "india": { "lifetime": 44999 } },
+    "codex-and-claude-code-ai-coding-agents-course-for-teens": { "subject": "agents", "india": { "lifetime": 44999 } },
+    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": { "subject": "agents", "india": { "lifetime": 49999 } },
+    "vibe-coding-for-college-fullstack-ai-dsa-career-course": { "india": { "lifetime": 59999 } },
+    "scratch-programming-complete-course": { "india": { "lifetime": 29999 } },
+    "cbse-icse-computer-science-class-11-12-python-java-complete-course": { "india": { "lifetime": 24999 } },
+    "cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course": { "india": { "lifetime": 24999 } },
+    "cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8": { "india": { "lifetime": 19999 } },
+    "cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843": { "india": { "lifetime": 29999 } },
+    "git-github-version-control-course-for-teens": { "india": { "lifetime": 34999 } },
+    "git-github-version-control-course-for-college-students": { "india": { "lifetime": 39999 } },
+    "git-github-advanced-version-control-masterclass-for-professionals": { "india": { "lifetime": 44999 } },
+    "orange-data-mining-visual-machine-learning-course-for-teens": { "india": { "lifetime": 34999 } },
+    "orange-data-mining-machine-learning-course-for-college-students": { "india": { "lifetime": 39999 } }
   },
 
   // ───────────────────────────────────────────────────────────────────────
@@ -169,8 +191,10 @@
       "internationalGatewayPercent": 3.0,   // Razorpay international — published ceiling
       "gstOnGatewayFeePercent":      18.0,  // published
       "fxSpreadBufferPercent":       3.0,   // ASSUMPTION — Razorpay does not publish its card FX spread
-      "gstOnServicePercent":         0.0    // 0 assumes zero-rated export under LUT. ASK YOUR CA.
-                                            // If it is really 18, put 18 here and the floor rises ~22%.
+      "gstOnServicePercent":         0.0    // CONFIRMED by the owner's CA on 2026-07-31: these classes
+                                            // are a zero-rated export of services. Was carried as an
+                                            // open assumption until then. If the ruling ever changes to
+                                            // 18, put 18 here and every floor rises about 22%.
     },
 
     // How the final number is tidied up. "charm" turns 17.42 into 17.99.

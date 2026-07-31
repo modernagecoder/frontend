@@ -78,8 +78,83 @@ window.MAC_PRICING = {
     }
   },
   "courseOverrides": {
-    "codex-and-claude-code-ai-coding-agents-course-for-teens": "agents",
-    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": "agents"
+    "vibe-coding-for-kids-beginners-ai-scratch-game-dev": {
+      "india": {
+        "lifetime": 34999
+      }
+    },
+    "vibe-coding-for-teens-python-web-ai-projects-course": {
+      "india": {
+        "lifetime": 44999
+      }
+    },
+    "codex-and-claude-code-ai-coding-agents-course-for-teens": {
+      "subject": "agents",
+      "india": {
+        "lifetime": 44999
+      }
+    },
+    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": {
+      "subject": "agents",
+      "india": {
+        "lifetime": 49999
+      }
+    },
+    "vibe-coding-for-college-fullstack-ai-dsa-career-course": {
+      "india": {
+        "lifetime": 59999
+      }
+    },
+    "scratch-programming-complete-course": {
+      "india": {
+        "lifetime": 29999
+      }
+    },
+    "cbse-icse-computer-science-class-11-12-python-java-complete-course": {
+      "india": {
+        "lifetime": 24999
+      }
+    },
+    "cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course": {
+      "india": {
+        "lifetime": 24999
+      }
+    },
+    "cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8": {
+      "india": {
+        "lifetime": 19999
+      }
+    },
+    "cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843": {
+      "india": {
+        "lifetime": 29999
+      }
+    },
+    "git-github-version-control-course-for-teens": {
+      "india": {
+        "lifetime": 34999
+      }
+    },
+    "git-github-version-control-course-for-college-students": {
+      "india": {
+        "lifetime": 39999
+      }
+    },
+    "git-github-advanced-version-control-masterclass-for-professionals": {
+      "india": {
+        "lifetime": 44999
+      }
+    },
+    "orange-data-mining-visual-machine-learning-course-for-teens": {
+      "india": {
+        "lifetime": 34999
+      }
+    },
+    "orange-data-mining-machine-learning-course-for-college-students": {
+      "india": {
+        "lifetime": 39999
+      }
+    }
   },
   "display": {
     "chargeCurrencies": {

@@ -1,8 +1,19 @@
 # Netlify Configuration for Frontend
 
 [build]
-  # Generate blog and course content before deployment
-  command = "npm install && npm run generate:all && npm run build:inline && npm run minify && cd lovewall && npm install && npm run build && cd .."
+  # Generate blog and course content before deployment.
+  #
+  # pricing:apply runs AFTER generate:all so the freshly generated course pages
+  # get stamped too, and BEFORE build:inline so nothing downstream sees a stale
+  # price. pricing:verify then fails the build if any page shows a different
+  # price from the one it publishes to Google — the fault that was live on the
+  # homepage before this system existed.
+  #
+  # pricing:refresh is deliberately NOT here. It pulls live World Bank and
+  # exchange-rate data, and running it on every deploy would let prices move
+  # without anyone reviewing the change. It is a manual command; the committed
+  # data files are what deploys.
+  command = "npm install && npm run generate:all && npm run pricing:apply && npm run pricing:verify && npm run build:inline && npm run minify && cd lovewall && npm install && npm run build && cd .."
   publish = "."
   functions = "api"
 

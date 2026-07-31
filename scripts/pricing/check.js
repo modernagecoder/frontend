@@ -85,8 +85,30 @@ function validate(config) {
     const knownSlugs = courseSlugs();
     Object.keys(config.courseOverrides || {}).forEach(function (slug) {
         const target = config.courseOverrides[slug];
-        if (!config.plans[target]) {
-            err('courseOverrides."' + slug + '" points at "' + target + '", which is not a subject in plans. Known subjects: ' + Object.keys(config.plans).join(', '));
+
+        if (typeof target === 'string') {
+            if (!config.plans[target]) {
+                err('courseOverrides."' + slug + '" points at "' + target + '", which is not a subject in plans. Known subjects: ' + Object.keys(config.plans).join(', '));
+            }
+        } else if (target && typeof target === 'object') {
+            if (target.subject && !config.plans[target.subject]) {
+                err('courseOverrides."' + slug + '" has subject "' + target.subject + '", which is not in plans. Known: ' + Object.keys(config.plans).join(', '));
+            }
+            cfgLib.REGIONS.forEach(function (region) {
+                if (!target[region]) return;
+                Object.keys(target[region]).forEach(function (tier) {
+                    if (cfgLib.ALL_TIERS.indexOf(tier) === -1) {
+                        err('courseOverrides."' + slug + '".' + region + ' has unknown plan "' + tier + '". Use one of: ' + cfgLib.ALL_TIERS.join(', '));
+                        return;
+                    }
+                    const v = target[region][tier];
+                    if (v !== null && (typeof v !== 'number' || !isFinite(v) || v <= 0)) {
+                        err('courseOverrides."' + slug + '".' + region + '.' + tier + ' is "' + v + '". Use a plain number, or null if that course does not sell it.');
+                    }
+                });
+            });
+        } else {
+            err('courseOverrides."' + slug + '" should be a price-set name like "agents", or an object like { "india": { "lifetime": 34999 } }.');
         }
         if (knownSlugs.length && knownSlugs.indexOf(slug) === -1) {
             const near = knownSlugs.filter(function (s) {
@@ -114,8 +136,13 @@ function validate(config) {
     if (w.maxDiscountPercent < 0 || w.maxDiscountPercent > 90) {
         err('worldwide.maxDiscountPercent is ' + w.maxDiscountPercent + '. Keep it between 0 and 90.');
     }
-    if (w.costs.gstOnServicePercent === 0) {
-        warn('worldwide.costs.gstOnServicePercent is 0, which assumes these classes are a zero-rated export under an LUT. This has NOT been confirmed by an accountant. If it is really 18, the floor rises about 22% and some countries are currently underpriced.');
+    // gstOnServicePercent 0 was confirmed by the owner's CA on 2026-07-31 as a
+    // zero-rated export of services, so it is no longer flagged. What is worth
+    // flagging is a value nobody expects: anything other than 0 or 18 is almost
+    // certainly a typo, and it moves every floor.
+    if (w.costs.gstOnServicePercent !== 0 && w.costs.gstOnServicePercent !== 18) {
+        warn('worldwide.costs.gstOnServicePercent is ' + w.costs.gstOnServicePercent +
+            '. Indian GST on services is normally 0 (zero-rated export under an LUT) or 18. Check this is intended — it changes every floor.');
     }
     if (w.costs.fxSpreadBufferPercent === 0) {
         warn('worldwide.costs.fxSpreadBufferPercent is 0. Razorpay does not publish its card FX spread, so charging with no buffer means an unknown slice of every international payment is unaccounted for.');

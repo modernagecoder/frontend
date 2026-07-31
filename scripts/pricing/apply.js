@@ -119,6 +119,74 @@ function emitRuntimeData(config) {
     return { path: 'src/js/pricing-data.generated.js', changed: existing !== js, bytes: js.length };
 }
 
+/**
+ * Rewrite the pricing inside content/courses/data/courses-config.json.
+ *
+ * That file is fetched at runtime by course-payment.js and is what Razorpay is
+ * given for an Indian enrolment, which made it a second authority on price
+ * alongside the config. Only the amount and display strings are touched;
+ * descriptions, the indiaOnly flag, course names and everything else in the
+ * file are left exactly as they are.
+ */
+function syncCoursesConfig(config) {
+    const p = path.join(ROOT, 'content', 'courses', 'data', 'courses-config.json');
+    if (!fs.existsSync(p)) return { changed: false, courses: 0 };
+
+    const before = fs.readFileSync(p, 'utf8');
+    const json = JSON.parse(before);
+    const changes = [];
+
+    function writeTier(target, tier, amount, label) {
+        if (!target || !target[tier]) return;                    // tier absent here
+        if (amount === null || amount === undefined) return;     // not sold
+        const display = cfgLib.format(amount, 'INR', { style: 'display' }) +
+            (tier === 'lifetime' ? '' : '/month');
+        if (target[tier].amount !== amount || target[tier].display !== display) {
+            changes.push(label + '.' + tier + ': ' + target[tier].amount + ' → ' + amount);
+        }
+        target[tier].amount = amount;
+        target[tier].display = display;
+    }
+
+    // Defaults follow the plain coding prices.
+    const coding = config.plans.coding.india;
+    cfgLib.MONTHLY_TIERS.forEach(function (t) {
+        writeTier(json.defaultPricing, t, coding[t], 'defaultPricing');
+    });
+
+    // Slugs of courses that actually exist. courses-config.json still carries
+    // seven entries for courses that were renamed or split, and those entries
+    // are never looked up. Rewriting them would churn the file and could
+    // destroy a figure someone still wants; they are left exactly as found.
+    const realSlugs = new Set();
+    const dataDir = path.join(ROOT, 'content', 'courses', 'data');
+    if (fs.existsSync(dataDir)) {
+        fs.readdirSync(dataDir).forEach(function (f) {
+            if (!/\.json$/.test(f) || f === 'courses-config.json') return;
+            try {
+                const c = JSON.parse(fs.readFileSync(path.join(dataDir, f), 'utf8'));
+                if (c && c.meta && c.meta.slug) realSlugs.add(c.meta.slug);
+            } catch (e) { /* a malformed course file is not this script's problem */ }
+        });
+    }
+
+    let n = 0;
+    const orphans = [];
+    Object.keys(json.courses || {}).forEach(function (slug) {
+        if (realSlugs.size && !realSlugs.has(slug)) { orphans.push(slug); return; }
+        const prices = cfgLib.coursePrices(slug, config).india;
+        cfgLib.MONTHLY_TIERS.forEach(function (t) {
+            writeTier(json.courses[slug].pricing, t, prices[t], slug);
+        });
+        n++;
+    });
+
+    const after = JSON.stringify(json, null, 2) + '\n';
+    const changed = after !== before;
+    if (changed && !DRY) fs.writeFileSync(p, after);
+    return { changed: changed, courses: n, changes: changes, orphans: orphans };
+}
+
 function main() {
     let config;
     try {
@@ -157,6 +225,7 @@ function main() {
     });
 
     const runtime = emitRuntimeData(config);
+    const coursesCfg = syncCoursesConfig(config);
 
     // ─── report ───
     if (allChanges.length) {
@@ -193,6 +262,12 @@ function main() {
     console.log(touched + ' file(s) ' + (DRY ? 'would change' : 'changed') + '.');
     console.log(runtime.path + (runtime.changed ? (DRY ? ' would be rewritten' : ' rewritten') : ' unchanged') +
         ' (' + (runtime.bytes / 1024).toFixed(1) + ' KB).');
+    console.log('courses-config.json (the Razorpay amount for ' + coursesCfg.courses + ' courses) ' +
+        (coursesCfg.changed ? (DRY ? 'would change' : 'updated') : 'unchanged') + '.');
+    if (coursesCfg.changes && coursesCfg.changes.length) {
+        coursesCfg.changes.slice(0, 10).forEach(function (c) { console.log('    ' + c); });
+        if (coursesCfg.changes.length > 10) console.log('    ... and ' + (coursesCfg.changes.length - 10) + ' more');
+    }
 
     if (DRY) console.log('\nNothing was written. Run  npm run pricing:apply  to make it real.');
     else console.log('\nNext: npm run pricing:verify');
