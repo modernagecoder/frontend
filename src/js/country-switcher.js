@@ -57,18 +57,49 @@
       var explicit = document.querySelector('[data-country-switcher]');
       if (explicit) return explicit;
 
-      // Attach after the whole price BLOCK, not inside the price line. Sitting
-      // between the number and its "/ month" suffix reads as part of the price.
-      var anchorEl = document.querySelector('.mac-charge-note') ||
-        document.querySelector('[data-price], .price-amount, .plan-price, .price-amt');
-      if (!anchorEl) return null;
-
-      var block = anchorEl.closest('.pricing-card-new, .pricing-card, .price-card, .enrollment-option') ||
-        (anchorEl.parentNode && anchorEl.parentNode.parentNode) || anchorEl.parentNode;
-      if (!block || !block.parentNode) return null;
-
+      // No check for a price element here. These scripts are injected only on
+      // pages that show a price, so the page already qualifies, and hunting for
+      // one was itself a bug: on the homepage the lookup returned nothing even
+      // though eight .plan-price elements were present, so the switcher never
+      // rendered on the most important page on the site.
+      //
+      // Placement is decided STRUCTURALLY, not from computed styles.
+      //
+      // The first attempt inserted next to a pricing card and read the parent's
+      // display to decide whether to climb. That put the control inside the card
+      // grid, where it became a grid item, claimed a column of its own and
+      // pushed the third card out of the row. Computed styles also cannot be
+      // tested — jsdom does not load the stylesheets — so the bug reached a
+      // screenshot before it was seen.
+      //
+      // The rule now: if the price sits in a card, go up to the card, then up
+      // again to the container holding the cards, and insert BEFORE that whole
+      // container. A label above a set of price cards is where a reader expects
+      // it, and nothing lands inside the grid.
       var host = document.createElement('div');
-      block.parentNode.insertBefore(host, block.nextSibling);
+      host.className = 'mac-cs-host';
+
+      // Under the page heading. Deterministic, and safe on all 626 pages.
+      //
+      // Placing it near a price was tried twice and broke both times: these
+      // pages lay their prices out in grids and flex rows, and an extra child
+      // becomes a grid item that claims a column and pushes a card out of the
+      // row. Worse, the first [data-price] on a page is often not the one a
+      // reader is looking at. A heading is always in ordinary block flow, so
+      // nothing can be displaced.
+      //
+      // A page that wants it somewhere specific can say so with
+      // <div data-country-switcher></div>, which is checked first.
+      var main = document.querySelector('main') || document.body;
+      var heading = main.querySelector('h1');
+
+      if (heading && heading.parentNode) {
+        heading.parentNode.insertBefore(host, heading.nextSibling);
+        return host;
+      }
+      if (main.firstChild) { main.insertBefore(host, main.firstChild); return host; }
+
+      main.appendChild(host);
       return host;
     },
 
@@ -284,6 +315,8 @@
         // Quiet by default. Discoverable when questioned, never shouting over
         // the price itself.
         '.mac-cs{margin-top:.5rem}',
+        // Centred under the whole price block, clear of any card grid.
+        '.mac-cs-host{display:block;width:100%;text-align:center;margin:1rem 0 0}',
         '.mac-cs-btn{display:inline-flex;align-items:center;gap:.45rem;padding:.3rem .6rem;',
         'font:inherit;font-size:.74rem;line-height:1.3;color:var(--muted,#6B6259);',
         'background:transparent;border:1px solid var(--line,rgba(28,24,20,.12));',
