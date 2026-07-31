@@ -80,7 +80,11 @@ function emitRuntimeData(config) {
             const built = ppp.buildTable(subject, config, pppData, fxData);
             Object.keys(built.table).forEach(function (iso) {
                 if (!worldwide.countries[iso]) {
-                    worldwide.countries[iso] = { currency: built.table[iso].currency, tiers: {} };
+                    worldwide.countries[iso] = {
+                        currency: built.table[iso].currency,
+                        name: built.table[iso].name,
+                        tiers: {}
+                    };
                 }
                 worldwide.countries[iso].tiers[subject] = built.table[iso].tiers;
             });

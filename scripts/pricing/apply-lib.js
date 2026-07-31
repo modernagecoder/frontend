@@ -16,7 +16,8 @@
 const PRICING_SCRIPTS = [
     '/js/pricing-data.generated.js',
     '/js/international-pricing.js',
-    '/js/local-currency.js'
+    '/js/local-currency.js',
+    '/js/country-switcher.js'
 ];
 
 /**

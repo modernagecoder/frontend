@@ -278,6 +278,96 @@ test('a currency symbol inside a script block is not mistaken for a price', func
         'only what a human can read counts as showing a price');
 });
 
+
+// ─── country switcher ───
+
+function bootSwitcher(url, cookie) {
+    const html = fs.readFileSync(path.join(ROOT, 'src', 'pages', 'pricing.html'), 'utf8');
+    const dom = new JSDOM(html, { url: url, runScripts: 'outside-only', pretendToBeVisual: true });
+    const win = dom.window;
+    if (cookie) win.document.cookie = cookie;
+    ['pricing-data.generated', 'international-pricing', 'local-currency', 'country-switcher']
+        .forEach(function (f) {
+            win.eval(fs.readFileSync(path.join(ROOT, 'src', 'js', f + '.js'), 'utf8'));
+        });
+    win.document.dispatchEvent(new win.Event('DOMContentLoaded', { bubbles: true }));
+    return win;
+}
+
+test('the switcher names the country whose prices are being shown', function () {
+    [['DE', 'Germany', 'EUR'], ['OM', 'Oman', 'OMR'], ['IN', 'India', 'INR'], ['US', 'United States', 'USD']]
+        .forEach(function (c) {
+            const win = bootSwitcher('https://x.test/pricing?country=' + c[0]);
+            const btn = win.document.querySelector('.mac-cs-btn');
+            assert.ok(btn, c[0] + ': no switcher rendered');
+            const text = btn.textContent;
+            assert.ok(text.indexOf(c[1]) !== -1, c[0] + ': expected ' + c[1] + ', got: ' + text);
+            assert.ok(text.indexOf(c[2]) !== -1, c[0] + ': expected currency ' + c[2] + ', got: ' + text);
+        });
+});
+
+test('choosing a country stores it and drops any override from the URL', function () {
+    const win = bootSwitcher('https://x.test/pricing?country=DE&test=intl');
+    let target = null;
+    win.MACCountrySwitcher.reload = function (h) { target = h; };
+    win.MACCountrySwitcher.choose('NG');
+
+    assert.ok(/nf_country=NG/.test(win.document.cookie), 'cookie not set: ' + win.document.cookie);
+    assert.ok(target && !/country=/.test(target), 'the ?country= override must be dropped: ' + target);
+    assert.ok(target && !/test=/.test(target), 'the ?test= override must be dropped too: ' + target);
+});
+
+test('the stored choice decides the price on the next visit', function () {
+    const win = bootSwitcher('https://x.test/pricing', 'nf_country=NG');
+    assert.strictEqual(win.__MAC_COUNTRY, 'NG');
+    assert.strictEqual(win.__MAC_IS_INDIAN, false, 'a Nigerian choice must not be billed in rupees');
+    const shown = win.document.querySelector('#tab-coding .price-amount').textContent;
+    assert.ok(/NGN/.test(shown), 'expected naira, got: ' + shown);
+});
+
+test('choosing India restores rupees and the domestic flow', function () {
+    const win = bootSwitcher('https://x.test/pricing', 'nf_country=IN');
+    assert.strictEqual(win.__MAC_IS_INDIAN, true);
+    const shown = win.document.querySelector('#tab-coding .price-amount').textContent;
+    assert.ok(shown.indexOf('₹') !== -1, 'expected rupees, got: ' + shown);
+});
+
+test('the picker lists only countries that can actually be priced', function () {
+    const win = bootSwitcher('https://x.test/pricing?country=DE');
+    const all = win.MACCountrySwitcher.priceableCountries();
+    assert.ok(all.length > 150, 'expected most countries, got ' + all.length);
+    const data = win.MAC_PRICING;
+    all.forEach(function (c) {
+        const entry = data.worldwide.countries[c.iso];
+        assert.ok(entry && entry.tiers && Object.keys(entry.tiers).length,
+            c.iso + ' is offered in the picker but has no price');
+    });
+});
+
+test('search puts an exact country ahead of one that merely contains the word', function () {
+    const win = bootSwitcher('https://x.test/pricing?country=DE');
+    win.document.querySelector('.mac-cs-btn').dispatchEvent(new win.Event('click', { bubbles: true }));
+    const panel = win.document.getElementById('mac-cs-panel');
+    assert.ok(panel, 'picker did not open');
+
+    const search = panel.querySelector('.mac-cs-search');
+    search.value = 'oman';
+    search.dispatchEvent(new win.Event('input', { bubbles: true }));
+
+    const first = panel.querySelector('.mac-cs-item');
+    assert.ok(first && /Oman/.test(first.textContent),
+        'Oman should rank above Romania, got: ' + (first && first.textContent));
+});
+
+test('the picker can be closed with Escape', function () {
+    const win = bootSwitcher('https://x.test/pricing?country=DE');
+    win.document.querySelector('.mac-cs-btn').dispatchEvent(new win.Event('click', { bubbles: true }));
+    assert.ok(win.document.getElementById('mac-cs-panel'), 'picker did not open');
+    const ev = new win.KeyboardEvent('keydown', { key: 'Escape', bubbles: true });
+    win.document.dispatchEvent(ev);
+    assert.strictEqual(win.document.getElementById('mac-cs-panel'), null, 'Escape must close the picker');
+});
+
 // ─── local currency display ───
 
 /** Render the real pricing page for a country, with the local-currency layer. */

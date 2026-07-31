@@ -102,6 +102,7 @@ window.MAC_PRICING = {
     "countries": {
       "AF": {
         "currency": "AFN",
+        "name": "Afghanistan",
         "tiers": {
           "coding": {
             "group": 59.99,
@@ -123,6 +124,7 @@ window.MAC_PRICING = {
       },
       "AL": {
         "currency": "ALL",
+        "name": "Albania",
         "tiers": {
           "coding": {
             "group": 105.99,
@@ -144,6 +146,7 @@ window.MAC_PRICING = {
       },
       "DZ": {
         "currency": "DZD",
+        "name": "Algeria",
         "tiers": {
           "coding": {
             "group": 77.99,
@@ -165,6 +168,7 @@ window.MAC_PRICING = {
       },
       "AS": {
         "currency": null,
+        "name": "American Samoa",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -186,6 +190,7 @@ window.MAC_PRICING = {
       },
       "AD": {
         "currency": null,
+        "name": "Andorra",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -207,6 +212,7 @@ window.MAC_PRICING = {
       },
       "AO": {
         "currency": "AOA",
+        "name": "Angola",
         "tiers": {
           "coding": {
             "group": 81.99,
@@ -228,6 +234,7 @@ window.MAC_PRICING = {
       },
       "AG": {
         "currency": null,
+        "name": "Antigua and Barbuda",
         "tiers": {
           "coding": {
             "group": 133.99,
@@ -249,6 +256,7 @@ window.MAC_PRICING = {
       },
       "AR": {
         "currency": "ARS",
+        "name": "Argentina",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -270,6 +278,7 @@ window.MAC_PRICING = {
       },
       "AM": {
         "currency": "AMD",
+        "name": "Armenia",
         "tiers": {
           "coding": {
             "group": 90.99,
@@ -291,6 +300,7 @@ window.MAC_PRICING = {
       },
       "AW": {
         "currency": null,
+        "name": "Aruba",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -312,6 +322,7 @@ window.MAC_PRICING = {
       },
       "AU": {
         "currency": "AUD",
+        "name": "Australia",
         "tiers": {
           "coding": {
             "group": 145.99,
@@ -333,6 +344,7 @@ window.MAC_PRICING = {
       },
       "AT": {
         "currency": "EUR",
+        "name": "Austria",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -354,6 +366,7 @@ window.MAC_PRICING = {
       },
       "AZ": {
         "currency": "AZN",
+        "name": "Azerbaijan",
         "tiers": {
           "coding": {
             "group": 78.99,
@@ -375,6 +388,7 @@ window.MAC_PRICING = {
       },
       "BS": {
         "currency": "BSD",
+        "name": "Bahamas, The",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -396,6 +410,7 @@ window.MAC_PRICING = {
       },
       "BH": {
         "currency": "BHD",
+        "name": "Bahrain",
         "tiers": {
           "coding": {
             "group": 99.99,
@@ -417,6 +432,7 @@ window.MAC_PRICING = {
       },
       "BD": {
         "currency": "BDT",
+        "name": "Bangladesh",
         "tiers": {
           "coding": {
             "group": 73.99,
@@ -438,6 +454,7 @@ window.MAC_PRICING = {
       },
       "BB": {
         "currency": "BBD",
+        "name": "Barbados",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -459,6 +476,7 @@ window.MAC_PRICING = {
       },
       "BY": {
         "currency": "BYN",
+        "name": "Belarus",
         "tiers": {
           "coding": {
             "group": 72.99,
@@ -480,6 +498,7 @@ window.MAC_PRICING = {
       },
       "BE": {
         "currency": "EUR",
+        "name": "Belgium",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -501,6 +520,7 @@ window.MAC_PRICING = {
       },
       "BZ": {
         "currency": "BZD",
+        "name": "Belize",
         "tiers": {
           "coding": {
             "group": 105.99,
@@ -522,6 +542,7 @@ window.MAC_PRICING = {
       },
       "BJ": {
         "currency": "XOF",
+        "name": "Benin",
         "tiers": {
           "coding": {
             "group": 80.99,
@@ -543,6 +564,7 @@ window.MAC_PRICING = {
       },
       "BM": {
         "currency": null,
+        "name": "Bermuda",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -564,6 +586,7 @@ window.MAC_PRICING = {
       },
       "BT": {
         "currency": "BTN",
+        "name": "Bhutan",
         "tiers": {
           "coding": {
             "group": 66.99,
@@ -585,6 +608,7 @@ window.MAC_PRICING = {
       },
       "BO": {
         "currency": "BOB",
+        "name": "Bolivia",
         "tiers": {
           "coding": {
             "group": 87.99,
@@ -606,6 +630,7 @@ window.MAC_PRICING = {
       },
       "BA": {
         "currency": "BAM",
+        "name": "Bosnia and Herzegovina",
         "tiers": {
           "coding": {
             "group": 94.99,
@@ -627,6 +652,7 @@ window.MAC_PRICING = {
       },
       "BW": {
         "currency": "BWP",
+        "name": "Botswana",
         "tiers": {
           "coding": {
             "group": 88.99,
@@ -648,6 +674,7 @@ window.MAC_PRICING = {
       },
       "BR": {
         "currency": "BRL",
+        "name": "Brazil",
         "tiers": {
           "coding": {
             "group": 96.99,
@@ -669,6 +696,7 @@ window.MAC_PRICING = {
       },
       "BN": {
         "currency": "BND",
+        "name": "Brunei Darussalam",
         "tiers": {
           "coding": {
             "group": 89.99,
@@ -690,6 +718,7 @@ window.MAC_PRICING = {
       },
       "BG": {
         "currency": "BGN",
+        "name": "Bulgaria",
         "tiers": {
           "coding": {
             "group": 97.99,
@@ -711,6 +740,7 @@ window.MAC_PRICING = {
       },
       "BF": {
         "currency": "XOF",
+        "name": "Burkina Faso",
         "tiers": {
           "coding": {
             "group": 79.99,
@@ -732,6 +762,7 @@ window.MAC_PRICING = {
       },
       "BI": {
         "currency": "BIF",
+        "name": "Burundi",
         "tiers": {
           "coding": {
             "group": 68.99,
@@ -753,6 +784,7 @@ window.MAC_PRICING = {
       },
       "CV": {
         "currency": "CVE",
+        "name": "Cabo Verde",
         "tiers": {
           "coding": {
             "group": 105.99,
@@ -774,6 +806,7 @@ window.MAC_PRICING = {
       },
       "KH": {
         "currency": "KHR",
+        "name": "Cambodia",
         "tiers": {
           "coding": {
             "group": 84.99,
@@ -795,6 +828,7 @@ window.MAC_PRICING = {
       },
       "CM": {
         "currency": "XAF",
+        "name": "Cameroon",
         "tiers": {
           "coding": {
             "group": 83.99,
@@ -816,6 +850,7 @@ window.MAC_PRICING = {
       },
       "CA": {
         "currency": "CAD",
+        "name": "Canada",
         "tiers": {
           "coding": {
             "group": 141.99,
@@ -837,6 +872,7 @@ window.MAC_PRICING = {
       },
       "KY": {
         "currency": null,
+        "name": "Cayman Islands",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -858,6 +894,7 @@ window.MAC_PRICING = {
       },
       "CF": {
         "currency": "XAF",
+        "name": "Central African Republic",
         "tiers": {
           "coding": {
             "group": 94.99,
@@ -879,6 +916,7 @@ window.MAC_PRICING = {
       },
       "TD": {
         "currency": "XAF",
+        "name": "Chad",
         "tiers": {
           "coding": {
             "group": 86.99,
@@ -900,6 +938,7 @@ window.MAC_PRICING = {
       },
       "CL": {
         "currency": "CLP",
+        "name": "Chile",
         "tiers": {
           "coding": {
             "group": 102.99,
@@ -921,6 +960,7 @@ window.MAC_PRICING = {
       },
       "CN": {
         "currency": "CNY",
+        "name": "China",
         "tiers": {
           "coding": {
             "group": 98.99,
@@ -942,6 +982,7 @@ window.MAC_PRICING = {
       },
       "CO": {
         "currency": "COP",
+        "name": "Colombia",
         "tiers": {
           "coding": {
             "group": 90.99,
@@ -963,6 +1004,7 @@ window.MAC_PRICING = {
       },
       "KM": {
         "currency": "KMF",
+        "name": "Comoros",
         "tiers": {
           "coding": {
             "group": 110.99,
@@ -984,6 +1026,7 @@ window.MAC_PRICING = {
       },
       "CD": {
         "currency": "CDF",
+        "name": "Congo, Dem. Rep.",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -1005,6 +1048,7 @@ window.MAC_PRICING = {
       },
       "CG": {
         "currency": "XAF",
+        "name": "Congo, Rep.",
         "tiers": {
           "coding": {
             "group": 88.99,
@@ -1026,6 +1070,7 @@ window.MAC_PRICING = {
       },
       "CR": {
         "currency": "CRC",
+        "name": "Costa Rica",
         "tiers": {
           "coding": {
             "group": 114.99,
@@ -1047,6 +1092,7 @@ window.MAC_PRICING = {
       },
       "CI": {
         "currency": "XOF",
+        "name": "Cote d'Ivoire",
         "tiers": {
           "coding": {
             "group": 87.99,
@@ -1068,6 +1114,7 @@ window.MAC_PRICING = {
       },
       "HR": {
         "currency": "EUR",
+        "name": "Croatia",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -1089,6 +1136,7 @@ window.MAC_PRICING = {
       },
       "CW": {
         "currency": null,
+        "name": "Curacao",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -1110,6 +1158,7 @@ window.MAC_PRICING = {
       },
       "CY": {
         "currency": "EUR",
+        "name": "Cyprus",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -1131,6 +1180,7 @@ window.MAC_PRICING = {
       },
       "CZ": {
         "currency": "CZK",
+        "name": "Czechia",
         "tiers": {
           "coding": {
             "group": 119.99,
@@ -1152,6 +1202,7 @@ window.MAC_PRICING = {
       },
       "DK": {
         "currency": "DKK",
+        "name": "Denmark",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -1173,6 +1224,7 @@ window.MAC_PRICING = {
       },
       "DJ": {
         "currency": "DJF",
+        "name": "Djibouti",
         "tiers": {
           "coding": {
             "group": 100.99,
@@ -1194,6 +1246,7 @@ window.MAC_PRICING = {
       },
       "DM": {
         "currency": null,
+        "name": "Dominica",
         "tiers": {
           "coding": {
             "group": 109.99,
@@ -1215,6 +1268,7 @@ window.MAC_PRICING = {
       },
       "DO": {
         "currency": "DOP",
+        "name": "Dominican Republic",
         "tiers": {
           "coding": {
             "group": 86.99,
@@ -1236,6 +1290,7 @@ window.MAC_PRICING = {
       },
       "EC": {
         "currency": "USD",
+        "name": "Ecuador",
         "tiers": {
           "coding": {
             "group": 94.99,
@@ -1257,6 +1312,7 @@ window.MAC_PRICING = {
       },
       "EG": {
         "currency": "EGP",
+        "name": "Egypt, Arab Rep.",
         "tiers": {
           "coding": {
             "group": 59.99,
@@ -1278,6 +1334,7 @@ window.MAC_PRICING = {
       },
       "SV": {
         "currency": "USD",
+        "name": "El Salvador",
         "tiers": {
           "coding": {
             "group": 97.99,
@@ -1299,6 +1356,7 @@ window.MAC_PRICING = {
       },
       "GQ": {
         "currency": "XAF",
+        "name": "Equatorial Guinea",
         "tiers": {
           "coding": {
             "group": 95.99,
@@ -1320,6 +1378,7 @@ window.MAC_PRICING = {
       },
       "ER": {
         "currency": "ERN",
+        "name": "Eritrea",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -1341,6 +1400,7 @@ window.MAC_PRICING = {
       },
       "EE": {
         "currency": "EUR",
+        "name": "Estonia",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -1362,6 +1422,7 @@ window.MAC_PRICING = {
       },
       "SZ": {
         "currency": "SZL",
+        "name": "Eswatini",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -1383,6 +1444,7 @@ window.MAC_PRICING = {
       },
       "ET": {
         "currency": "ETB",
+        "name": "Ethiopia",
         "tiers": {
           "coding": {
             "group": 64.99,
@@ -1404,6 +1466,7 @@ window.MAC_PRICING = {
       },
       "FO": {
         "currency": null,
+        "name": "Faroe Islands",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -1425,6 +1488,7 @@ window.MAC_PRICING = {
       },
       "FJ": {
         "currency": "FJD",
+        "name": "Fiji",
         "tiers": {
           "coding": {
             "group": 87.99,
@@ -1446,6 +1510,7 @@ window.MAC_PRICING = {
       },
       "FI": {
         "currency": "EUR",
+        "name": "Finland",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -1467,6 +1532,7 @@ window.MAC_PRICING = {
       },
       "FR": {
         "currency": "EUR",
+        "name": "France",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -1488,6 +1554,7 @@ window.MAC_PRICING = {
       },
       "PF": {
         "currency": null,
+        "name": "French Polynesia",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -1509,6 +1576,7 @@ window.MAC_PRICING = {
       },
       "GA": {
         "currency": "XAF",
+        "name": "Gabon",
         "tiers": {
           "coding": {
             "group": 99.99,
@@ -1530,6 +1598,7 @@ window.MAC_PRICING = {
       },
       "GM": {
         "currency": "GMD",
+        "name": "Gambia, The",
         "tiers": {
           "coding": {
             "group": 73.99,
@@ -1551,6 +1620,7 @@ window.MAC_PRICING = {
       },
       "GE": {
         "currency": "GEL",
+        "name": "Georgia",
         "tiers": {
           "coding": {
             "group": 88.99,
@@ -1572,6 +1642,7 @@ window.MAC_PRICING = {
       },
       "DE": {
         "currency": "EUR",
+        "name": "Germany",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -1593,6 +1664,7 @@ window.MAC_PRICING = {
       },
       "GH": {
         "currency": "GHS",
+        "name": "Ghana",
         "tiers": {
           "coding": {
             "group": 91.99,
@@ -1614,6 +1686,7 @@ window.MAC_PRICING = {
       },
       "GR": {
         "currency": "EUR",
+        "name": "Greece",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -1635,6 +1708,7 @@ window.MAC_PRICING = {
       },
       "GL": {
         "currency": null,
+        "name": "Greenland",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -1656,6 +1730,7 @@ window.MAC_PRICING = {
       },
       "GD": {
         "currency": null,
+        "name": "Grenada",
         "tiers": {
           "coding": {
             "group": 113.99,
@@ -1677,6 +1752,7 @@ window.MAC_PRICING = {
       },
       "GU": {
         "currency": null,
+        "name": "Guam",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -1698,6 +1774,7 @@ window.MAC_PRICING = {
       },
       "GT": {
         "currency": "GTQ",
+        "name": "Guatemala",
         "tiers": {
           "coding": {
             "group": 94.99,
@@ -1719,6 +1796,7 @@ window.MAC_PRICING = {
       },
       "GN": {
         "currency": "GNF",
+        "name": "Guinea",
         "tiers": {
           "coding": {
             "group": 91.99,
@@ -1740,6 +1818,7 @@ window.MAC_PRICING = {
       },
       "GW": {
         "currency": "XOF",
+        "name": "Guinea-Bissau",
         "tiers": {
           "coding": {
             "group": 87.99,
@@ -1761,6 +1840,7 @@ window.MAC_PRICING = {
       },
       "GY": {
         "currency": "GYD",
+        "name": "Guyana",
         "tiers": {
           "coding": {
             "group": 97.99,
@@ -1782,6 +1862,7 @@ window.MAC_PRICING = {
       },
       "HT": {
         "currency": "HTG",
+        "name": "Haiti",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -1803,6 +1884,7 @@ window.MAC_PRICING = {
       },
       "HN": {
         "currency": "HNL",
+        "name": "Honduras",
         "tiers": {
           "coding": {
             "group": 99.99,
@@ -1824,6 +1906,7 @@ window.MAC_PRICING = {
       },
       "HK": {
         "currency": "HKD",
+        "name": "Hong Kong SAR, China",
         "tiers": {
           "coding": {
             "group": 126.99,
@@ -1845,6 +1928,7 @@ window.MAC_PRICING = {
       },
       "HU": {
         "currency": "HUF",
+        "name": "Hungary",
         "tiers": {
           "coding": {
             "group": 109.99,
@@ -1866,6 +1950,7 @@ window.MAC_PRICING = {
       },
       "IS": {
         "currency": "ISK",
+        "name": "Iceland",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -1887,6 +1972,7 @@ window.MAC_PRICING = {
       },
       "IN": {
         "currency": "INR",
+        "name": "India",
         "tiers": {
           "coding": {
             "group": 64.99,
@@ -1908,6 +1994,7 @@ window.MAC_PRICING = {
       },
       "ID": {
         "currency": "IDR",
+        "name": "Indonesia",
         "tiers": {
           "coding": {
             "group": 76.99,
@@ -1929,6 +2016,7 @@ window.MAC_PRICING = {
       },
       "IR": {
         "currency": "IRR",
+        "name": "Iran, Islamic Rep.",
         "tiers": {
           "coding": {
             "group": 62.99,
@@ -1950,6 +2038,7 @@ window.MAC_PRICING = {
       },
       "IQ": {
         "currency": "IQD",
+        "name": "Iraq",
         "tiers": {
           "coding": {
             "group": 91.99,
@@ -1971,6 +2060,7 @@ window.MAC_PRICING = {
       },
       "IE": {
         "currency": "EUR",
+        "name": "Ireland",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -1992,6 +2082,7 @@ window.MAC_PRICING = {
       },
       "IL": {
         "currency": "ILS",
+        "name": "Israel",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -2013,6 +2104,7 @@ window.MAC_PRICING = {
       },
       "IT": {
         "currency": "EUR",
+        "name": "Italy",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -2034,6 +2126,7 @@ window.MAC_PRICING = {
       },
       "JM": {
         "currency": "JMD",
+        "name": "Jamaica",
         "tiers": {
           "coding": {
             "group": 113.99,
@@ -2055,6 +2148,7 @@ window.MAC_PRICING = {
       },
       "JP": {
         "currency": "JPY",
+        "name": "Japan",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -2076,6 +2170,7 @@ window.MAC_PRICING = {
       },
       "JO": {
         "currency": "JOD",
+        "name": "Jordan",
         "tiers": {
           "coding": {
             "group": 94.99,
@@ -2097,6 +2192,7 @@ window.MAC_PRICING = {
       },
       "KZ": {
         "currency": "KZT",
+        "name": "Kazakhstan",
         "tiers": {
           "coding": {
             "group": 84.99,
@@ -2118,6 +2214,7 @@ window.MAC_PRICING = {
       },
       "KE": {
         "currency": "KES",
+        "name": "Kenya",
         "tiers": {
           "coding": {
             "group": 82.99,
@@ -2139,6 +2236,7 @@ window.MAC_PRICING = {
       },
       "KI": {
         "currency": null,
+        "name": "Kiribati",
         "tiers": {
           "coding": {
             "group": 113.99,
@@ -2160,6 +2258,7 @@ window.MAC_PRICING = {
       },
       "KR": {
         "currency": "KRW",
+        "name": "Korea, Rep.",
         "tiers": {
           "coding": {
             "group": 114.99,
@@ -2181,6 +2280,7 @@ window.MAC_PRICING = {
       },
       "XK": {
         "currency": null,
+        "name": "Kosovo",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -2202,6 +2302,7 @@ window.MAC_PRICING = {
       },
       "KW": {
         "currency": "KWD",
+        "name": "Kuwait",
         "tiers": {
           "coding": {
             "group": 111.99,
@@ -2223,6 +2324,7 @@ window.MAC_PRICING = {
       },
       "KG": {
         "currency": "KGS",
+        "name": "Kyrgyz Republic",
         "tiers": {
           "coding": {
             "group": 80.99,
@@ -2244,6 +2346,7 @@ window.MAC_PRICING = {
       },
       "LA": {
         "currency": "LAK",
+        "name": "Lao PDR",
         "tiers": {
           "coding": {
             "group": 73.99,
@@ -2265,6 +2368,7 @@ window.MAC_PRICING = {
       },
       "LV": {
         "currency": "EUR",
+        "name": "Latvia",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -2286,6 +2390,7 @@ window.MAC_PRICING = {
       },
       "LB": {
         "currency": "LBP",
+        "name": "Lebanon",
         "tiers": {
           "coding": {
             "group": 117.99,
@@ -2307,6 +2412,7 @@ window.MAC_PRICING = {
       },
       "LS": {
         "currency": "LSL",
+        "name": "Lesotho",
         "tiers": {
           "coding": {
             "group": 82.99,
@@ -2328,6 +2434,7 @@ window.MAC_PRICING = {
       },
       "LR": {
         "currency": "LRD",
+        "name": "Liberia",
         "tiers": {
           "coding": {
             "group": 104.99,
@@ -2349,6 +2456,7 @@ window.MAC_PRICING = {
       },
       "LY": {
         "currency": "LYD",
+        "name": "Libya",
         "tiers": {
           "coding": {
             "group": 80.99,
@@ -2370,6 +2478,7 @@ window.MAC_PRICING = {
       },
       "LT": {
         "currency": "EUR",
+        "name": "Lithuania",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -2391,6 +2500,7 @@ window.MAC_PRICING = {
       },
       "LU": {
         "currency": "EUR",
+        "name": "Luxembourg",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -2412,6 +2522,7 @@ window.MAC_PRICING = {
       },
       "MO": {
         "currency": null,
+        "name": "Macao SAR, China",
         "tiers": {
           "coding": {
             "group": 113.99,
@@ -2433,6 +2544,7 @@ window.MAC_PRICING = {
       },
       "MG": {
         "currency": "MGA",
+        "name": "Madagascar",
         "tiers": {
           "coding": {
             "group": 74.99,
@@ -2454,6 +2566,7 @@ window.MAC_PRICING = {
       },
       "MW": {
         "currency": "MWK",
+        "name": "Malawi",
         "tiers": {
           "coding": {
             "group": 83.99,
@@ -2475,6 +2588,7 @@ window.MAC_PRICING = {
       },
       "MY": {
         "currency": "MYR",
+        "name": "Malaysia",
         "tiers": {
           "coding": {
             "group": 80.99,
@@ -2496,6 +2610,7 @@ window.MAC_PRICING = {
       },
       "MV": {
         "currency": "MVR",
+        "name": "Maldives",
         "tiers": {
           "coding": {
             "group": 114.99,
@@ -2517,6 +2632,7 @@ window.MAC_PRICING = {
       },
       "ML": {
         "currency": "XOF",
+        "name": "Mali",
         "tiers": {
           "coding": {
             "group": 80.99,
@@ -2538,6 +2654,7 @@ window.MAC_PRICING = {
       },
       "MT": {
         "currency": "EUR",
+        "name": "Malta",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -2559,6 +2676,7 @@ window.MAC_PRICING = {
       },
       "MH": {
         "currency": null,
+        "name": "Marshall Islands",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -2580,6 +2698,7 @@ window.MAC_PRICING = {
       },
       "MR": {
         "currency": "MRU",
+        "name": "Mauritania",
         "tiers": {
           "coding": {
             "group": 76.99,
@@ -2601,6 +2720,7 @@ window.MAC_PRICING = {
       },
       "MU": {
         "currency": "MUR",
+        "name": "Mauritius",
         "tiers": {
           "coding": {
             "group": 93.99,
@@ -2622,6 +2742,7 @@ window.MAC_PRICING = {
       },
       "MX": {
         "currency": "MXN",
+        "name": "Mexico",
         "tiers": {
           "coding": {
             "group": 110.99,
@@ -2643,6 +2764,7 @@ window.MAC_PRICING = {
       },
       "FM": {
         "currency": null,
+        "name": "Micronesia, Fed. Sts.",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -2664,6 +2786,7 @@ window.MAC_PRICING = {
       },
       "MD": {
         "currency": "MDL",
+        "name": "Moldova",
         "tiers": {
           "coding": {
             "group": 101.99,
@@ -2685,6 +2808,7 @@ window.MAC_PRICING = {
       },
       "MN": {
         "currency": "MNT",
+        "name": "Mongolia",
         "tiers": {
           "coding": {
             "group": 80.99,
@@ -2706,6 +2830,7 @@ window.MAC_PRICING = {
       },
       "ME": {
         "currency": "EUR",
+        "name": "Montenegro",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -2727,6 +2852,7 @@ window.MAC_PRICING = {
       },
       "MA": {
         "currency": "MAD",
+        "name": "Morocco",
         "tiers": {
           "coding": {
             "group": 91.99,
@@ -2748,6 +2874,7 @@ window.MAC_PRICING = {
       },
       "MZ": {
         "currency": "MZN",
+        "name": "Mozambique",
         "tiers": {
           "coding": {
             "group": 88.99,
@@ -2769,6 +2896,7 @@ window.MAC_PRICING = {
       },
       "MM": {
         "currency": "MMK",
+        "name": "Myanmar",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -2790,6 +2918,7 @@ window.MAC_PRICING = {
       },
       "NA": {
         "currency": "NAD",
+        "name": "Namibia",
         "tiers": {
           "coding": {
             "group": 90.99,
@@ -2811,6 +2940,7 @@ window.MAC_PRICING = {
       },
       "NR": {
         "currency": null,
+        "name": "Naoero",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -2832,6 +2962,7 @@ window.MAC_PRICING = {
       },
       "NP": {
         "currency": "NPR",
+        "name": "Nepal",
         "tiers": {
           "coding": {
             "group": 69.99,
@@ -2853,6 +2984,7 @@ window.MAC_PRICING = {
       },
       "NL": {
         "currency": "EUR",
+        "name": "Netherlands",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -2874,6 +3006,7 @@ window.MAC_PRICING = {
       },
       "NC": {
         "currency": null,
+        "name": "New Caledonia",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -2895,6 +3028,7 @@ window.MAC_PRICING = {
       },
       "NZ": {
         "currency": "NZD",
+        "name": "New Zealand",
         "tiers": {
           "coding": {
             "group": 141.99,
@@ -2916,6 +3050,7 @@ window.MAC_PRICING = {
       },
       "NI": {
         "currency": "NIO",
+        "name": "Nicaragua",
         "tiers": {
           "coding": {
             "group": 85.99,
@@ -2937,6 +3072,7 @@ window.MAC_PRICING = {
       },
       "NE": {
         "currency": "XOF",
+        "name": "Niger",
         "tiers": {
           "coding": {
             "group": 81.99,
@@ -2958,6 +3094,7 @@ window.MAC_PRICING = {
       },
       "NG": {
         "currency": "NGN",
+        "name": "Nigeria",
         "tiers": {
           "coding": {
             "group": 61.99,
@@ -2979,6 +3116,7 @@ window.MAC_PRICING = {
       },
       "MK": {
         "currency": "MKD",
+        "name": "North Macedonia",
         "tiers": {
           "coding": {
             "group": 90.99,
@@ -3000,6 +3138,7 @@ window.MAC_PRICING = {
       },
       "MP": {
         "currency": null,
+        "name": "Northern Mariana Islands",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -3021,6 +3160,7 @@ window.MAC_PRICING = {
       },
       "NO": {
         "currency": "NOK",
+        "name": "Norway",
         "tiers": {
           "coding": {
             "group": 146.99,
@@ -3042,6 +3182,7 @@ window.MAC_PRICING = {
       },
       "OM": {
         "currency": "OMR",
+        "name": "Oman",
         "tiers": {
           "coding": {
             "group": 97.99,
@@ -3063,6 +3204,7 @@ window.MAC_PRICING = {
       },
       "PK": {
         "currency": "PKR",
+        "name": "Pakistan",
         "tiers": {
           "coding": {
             "group": 65.99,
@@ -3084,6 +3226,7 @@ window.MAC_PRICING = {
       },
       "PW": {
         "currency": null,
+        "name": "Palau",
         "tiers": {
           "coding": {
             "group": 146.99,
@@ -3105,6 +3248,7 @@ window.MAC_PRICING = {
       },
       "PA": {
         "currency": "USD",
+        "name": "Panama",
         "tiers": {
           "coding": {
             "group": 100.99,
@@ -3126,6 +3270,7 @@ window.MAC_PRICING = {
       },
       "PG": {
         "currency": "PGK",
+        "name": "Papua New Guinea",
         "tiers": {
           "coding": {
             "group": 119.99,
@@ -3147,6 +3292,7 @@ window.MAC_PRICING = {
       },
       "PY": {
         "currency": "PYG",
+        "name": "Paraguay",
         "tiers": {
           "coding": {
             "group": 86.99,
@@ -3168,6 +3314,7 @@ window.MAC_PRICING = {
       },
       "PE": {
         "currency": "PEN",
+        "name": "Peru",
         "tiers": {
           "coding": {
             "group": 105.99,
@@ -3189,6 +3336,7 @@ window.MAC_PRICING = {
       },
       "PH": {
         "currency": "PHP",
+        "name": "Philippines",
         "tiers": {
           "coding": {
             "group": 83.99,
@@ -3210,6 +3358,7 @@ window.MAC_PRICING = {
       },
       "PL": {
         "currency": "PLN",
+        "name": "Poland",
         "tiers": {
           "coding": {
             "group": 106.99,
@@ -3231,6 +3380,7 @@ window.MAC_PRICING = {
       },
       "PT": {
         "currency": "EUR",
+        "name": "Portugal",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -3252,6 +3402,7 @@ window.MAC_PRICING = {
       },
       "PR": {
         "currency": null,
+        "name": "Puerto Rico (US)",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -3273,6 +3424,7 @@ window.MAC_PRICING = {
       },
       "QA": {
         "currency": "QAR",
+        "name": "Qatar",
         "tiers": {
           "coding": {
             "group": 127.99,
@@ -3294,6 +3446,7 @@ window.MAC_PRICING = {
       },
       "RO": {
         "currency": "RON",
+        "name": "Romania",
         "tiers": {
           "coding": {
             "group": 99.99,
@@ -3315,6 +3468,7 @@ window.MAC_PRICING = {
       },
       "RU": {
         "currency": "RUB",
+        "name": "Russian Federation",
         "tiers": {
           "coding": {
             "group": 84.99,
@@ -3336,6 +3490,7 @@ window.MAC_PRICING = {
       },
       "RW": {
         "currency": "RWF",
+        "name": "Rwanda",
         "tiers": {
           "coding": {
             "group": 69.99,
@@ -3357,6 +3512,7 @@ window.MAC_PRICING = {
       },
       "WS": {
         "currency": null,
+        "name": "Samoa",
         "tiers": {
           "coding": {
             "group": 119.99,
@@ -3378,6 +3534,7 @@ window.MAC_PRICING = {
       },
       "SM": {
         "currency": null,
+        "name": "San Marino",
         "tiers": {
           "coding": {
             "group": 135.99,
@@ -3399,6 +3556,7 @@ window.MAC_PRICING = {
       },
       "ST": {
         "currency": null,
+        "name": "Sao Tome and Principe",
         "tiers": {
           "coding": {
             "group": 120.99,
@@ -3420,6 +3578,7 @@ window.MAC_PRICING = {
       },
       "SA": {
         "currency": "SAR",
+        "name": "Saudi Arabia",
         "tiers": {
           "coding": {
             "group": 100.99,
@@ -3441,6 +3600,7 @@ window.MAC_PRICING = {
       },
       "SN": {
         "currency": "XOF",
+        "name": "Senegal",
         "tiers": {
           "coding": {
             "group": 87.99,
@@ -3462,6 +3622,7 @@ window.MAC_PRICING = {
       },
       "RS": {
         "currency": "RSD",
+        "name": "Serbia",
         "tiers": {
           "coding": {
             "group": 102.99,
@@ -3483,6 +3644,7 @@ window.MAC_PRICING = {
       },
       "SC": {
         "currency": "SCR",
+        "name": "Seychelles",
         "tiers": {
           "coding": {
             "group": 109.99,
@@ -3504,6 +3666,7 @@ window.MAC_PRICING = {
       },
       "SL": {
         "currency": "SLE",
+        "name": "Sierra Leone",
         "tiers": {
           "coding": {
             "group": 76.99,
@@ -3525,6 +3688,7 @@ window.MAC_PRICING = {
       },
       "SG": {
         "currency": "SGD",
+        "name": "Singapore",
         "tiers": {
           "coding": {
             "group": 130.99,
@@ -3546,6 +3710,7 @@ window.MAC_PRICING = {
       },
       "SX": {
         "currency": null,
+        "name": "Sint Maarten (Dutch part)",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -3567,6 +3732,7 @@ window.MAC_PRICING = {
       },
       "SK": {
         "currency": "EUR",
+        "name": "Slovak Republic",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -3588,6 +3754,7 @@ window.MAC_PRICING = {
       },
       "SI": {
         "currency": "EUR",
+        "name": "Slovenia",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -3609,6 +3776,7 @@ window.MAC_PRICING = {
       },
       "SB": {
         "currency": null,
+        "name": "Solomon Islands",
         "tiers": {
           "coding": {
             "group": 142.99,
@@ -3630,6 +3798,7 @@ window.MAC_PRICING = {
       },
       "SO": {
         "currency": "SOS",
+        "name": "Somalia, Fed. Rep.",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -3651,6 +3820,7 @@ window.MAC_PRICING = {
       },
       "ZA": {
         "currency": "ZAR",
+        "name": "South Africa",
         "tiers": {
           "coding": {
             "group": 93.99,
@@ -3672,6 +3842,7 @@ window.MAC_PRICING = {
       },
       "SS": {
         "currency": "SSP",
+        "name": "South Sudan",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -3693,6 +3864,7 @@ window.MAC_PRICING = {
       },
       "ES": {
         "currency": "EUR",
+        "name": "Spain",
         "tiers": {
           "coding": {
             "group": 121.99,
@@ -3714,6 +3886,7 @@ window.MAC_PRICING = {
       },
       "LK": {
         "currency": "LKR",
+        "name": "Sri Lanka",
         "tiers": {
           "coding": {
             "group": 71.99,
@@ -3735,6 +3908,7 @@ window.MAC_PRICING = {
       },
       "KN": {
         "currency": null,
+        "name": "St. Kitts and Nevis",
         "tiers": {
           "coding": {
             "group": 131.99,
@@ -3756,6 +3930,7 @@ window.MAC_PRICING = {
       },
       "LC": {
         "currency": null,
+        "name": "St. Lucia",
         "tiers": {
           "coding": {
             "group": 111.99,
@@ -3777,6 +3952,7 @@ window.MAC_PRICING = {
       },
       "VC": {
         "currency": null,
+        "name": "St. Vincent and the Grenadines",
         "tiers": {
           "coding": {
             "group": 114.99,
@@ -3798,6 +3974,7 @@ window.MAC_PRICING = {
       },
       "SD": {
         "currency": "SDG",
+        "name": "Sudan",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -3819,6 +3996,7 @@ window.MAC_PRICING = {
       },
       "SR": {
         "currency": "SRD",
+        "name": "Suriname",
         "tiers": {
           "coding": {
             "group": 91.99,
@@ -3840,6 +4018,7 @@ window.MAC_PRICING = {
       },
       "SE": {
         "currency": "SEK",
+        "name": "Sweden",
         "tiers": {
           "coding": {
             "group": 141.99,
@@ -3861,6 +4040,7 @@ window.MAC_PRICING = {
       },
       "CH": {
         "currency": "CHF",
+        "name": "Switzerland",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -3882,6 +4062,7 @@ window.MAC_PRICING = {
       },
       "SY": {
         "currency": null,
+        "name": "Syrian Arab Republic",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -3903,6 +4084,7 @@ window.MAC_PRICING = {
       },
       "TJ": {
         "currency": "TJS",
+        "name": "Tajikistan",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -3924,6 +4106,7 @@ window.MAC_PRICING = {
       },
       "TZ": {
         "currency": "TZS",
+        "name": "Tanzania",
         "tiers": {
           "coding": {
             "group": 69.99,
@@ -3945,6 +4128,7 @@ window.MAC_PRICING = {
       },
       "TH": {
         "currency": "THB",
+        "name": "Thailand",
         "tiers": {
           "coding": {
             "group": 78.99,
@@ -3966,6 +4150,7 @@ window.MAC_PRICING = {
       },
       "TL": {
         "currency": "USD",
+        "name": "Timor-Leste",
         "tiers": {
           "coding": {
             "group": 94.99,
@@ -3987,6 +4172,7 @@ window.MAC_PRICING = {
       },
       "TG": {
         "currency": "XOF",
+        "name": "Togo",
         "tiers": {
           "coding": {
             "group": 85.99,
@@ -4008,6 +4194,7 @@ window.MAC_PRICING = {
       },
       "TO": {
         "currency": null,
+        "name": "Tonga",
         "tiers": {
           "coding": {
             "group": 130.99,
@@ -4029,6 +4216,7 @@ window.MAC_PRICING = {
       },
       "TT": {
         "currency": "TTD",
+        "name": "Trinidad and Tobago",
         "tiers": {
           "coding": {
             "group": 108.99,
@@ -4050,6 +4238,7 @@ window.MAC_PRICING = {
       },
       "TN": {
         "currency": "TND",
+        "name": "Tunisia",
         "tiers": {
           "coding": {
             "group": 79.99,
@@ -4071,6 +4260,7 @@ window.MAC_PRICING = {
       },
       "TR": {
         "currency": "TRY",
+        "name": "Turkiye",
         "tiers": {
           "coding": {
             "group": 95.99,
@@ -4092,6 +4282,7 @@ window.MAC_PRICING = {
       },
       "TM": {
         "currency": "TMT",
+        "name": "Turkmenistan",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -4113,6 +4304,7 @@ window.MAC_PRICING = {
       },
       "TC": {
         "currency": null,
+        "name": "Turks and Caicos Islands",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -4134,6 +4326,7 @@ window.MAC_PRICING = {
       },
       "TV": {
         "currency": null,
+        "name": "Tuvalu",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -4155,6 +4348,7 @@ window.MAC_PRICING = {
       },
       "UG": {
         "currency": "UGX",
+        "name": "Uganda",
         "tiers": {
           "coding": {
             "group": 84.99,
@@ -4176,6 +4370,7 @@ window.MAC_PRICING = {
       },
       "UA": {
         "currency": "UAH",
+        "name": "Ukraine",
         "tiers": {
           "coding": {
             "group": 73.99,
@@ -4197,6 +4392,7 @@ window.MAC_PRICING = {
       },
       "AE": {
         "currency": "AED",
+        "name": "United Arab Emirates",
         "tiers": {
           "coding": {
             "group": 122.99,
@@ -4218,6 +4414,7 @@ window.MAC_PRICING = {
       },
       "GB": {
         "currency": "GBP",
+        "name": "United Kingdom",
         "tiers": {
           "coding": {
             "group": 143.99,
@@ -4239,6 +4436,7 @@ window.MAC_PRICING = {
       },
       "US": {
         "currency": "USD",
+        "name": "United States",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -4260,6 +4458,7 @@ window.MAC_PRICING = {
       },
       "UY": {
         "currency": "UYU",
+        "name": "Uruguay",
         "tiers": {
           "coding": {
             "group": 124.99,
@@ -4281,6 +4480,7 @@ window.MAC_PRICING = {
       },
       "UZ": {
         "currency": "UZS",
+        "name": "Uzbekistan",
         "tiers": {
           "coding": {
             "group": 73.99,
@@ -4302,6 +4502,7 @@ window.MAC_PRICING = {
       },
       "VU": {
         "currency": null,
+        "name": "Vanuatu",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -4323,6 +4524,7 @@ window.MAC_PRICING = {
       },
       "VE": {
         "currency": "VES",
+        "name": "Venezuela, RB",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -4344,6 +4546,7 @@ window.MAC_PRICING = {
       },
       "VN": {
         "currency": "VND",
+        "name": "Viet Nam",
         "tiers": {
           "coding": {
             "group": 73.99,
@@ -4365,6 +4568,7 @@ window.MAC_PRICING = {
       },
       "VI": {
         "currency": null,
+        "name": "Virgin Islands (U.S.)",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -4386,6 +4590,7 @@ window.MAC_PRICING = {
       },
       "PS": {
         "currency": null,
+        "name": "West Bank and Gaza",
         "tiers": {
           "coding": {
             "group": 141.99,
@@ -4407,6 +4612,7 @@ window.MAC_PRICING = {
       },
       "YE": {
         "currency": "YER",
+        "name": "Yemen, Rep.",
         "tiers": {
           "coding": {
             "group": 149.99,
@@ -4428,6 +4634,7 @@ window.MAC_PRICING = {
       },
       "ZM": {
         "currency": "ZMW",
+        "name": "Zambia",
         "tiers": {
           "coding": {
             "group": 80.99,
@@ -4449,6 +4656,7 @@ window.MAC_PRICING = {
       },
       "ZW": {
         "currency": "USD",
+        "name": "Zimbabwe",
         "tiers": {
           "coding": {
             "group": 149.99,

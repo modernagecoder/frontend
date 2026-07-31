@@ -194,7 +194,9 @@ function buildTable(subject, config, pppData, fxData) {
             tiers[tier] = result.usd;
         });
 
-        table[iso2] = { tiers: tiers, currency: entry.currency || null };
+        // The World Bank name travels with the price so the country switcher
+        // can label itself without loading the whole country-code selector.
+        table[iso2] = { tiers: tiers, currency: entry.currency || null, name: entry.name };
     });
 
     const unified = unifyCurrencyZones(table, cfg, intl, india, usdInr);
