@@ -505,7 +505,7 @@
                 style="display:flex; align-items:center; background:#f9fafb; border:2px solid #e5e7eb; border-radius:12px; overflow:hidden;">
                 <span
                     style="padding:14px 12px; background:#f3f4f6; color:#6b7280; font-weight:600; border-right:2px solid #e5e7eb;">+91</span>
-                <input type="tel" id="callbackPhoneInput" placeholder="Enter phone number" maxlength="10" required
+                <input type="tel" id="callbackPhoneInput" placeholder="Enter phone number" maxlength="15" required
                     style="flex:1; padding:14px 15px; border:none; background:transparent; font-size:16px; color:#1f2937; outline:none;">
             </div>
             <button type="submit" id="callbackSubmitBtn"
@@ -851,7 +851,7 @@
                     <form class="contact-form" id="tryCodeForm" action="#" method="POST">
                         <div class="frow"><label for="contactName">Your name *</label><input type="text" id="contactName" name="name" placeholder="Enter your full name" required aria-label="Your Name" autocomplete="name"></div>
                         <div class="frow"><label for="contactEmail">Email address *</label><input type="email" id="contactEmail" name="email" placeholder="your.email@example.com" required aria-label="Your Email" autocomplete="email"><span class="error-message" id="emailError" role="alert" style="color:var(--red);font-size:12px;display:none"></span></div>
-                        <div class="frow"><label for="contactPhone">WhatsApp / phone number *</label><input type="tel" id="contactPhone" name="contact" placeholder="10-digit mobile number" required pattern="[0-9]{10}" aria-label="Contact Number" autocomplete="tel"><span class="error-message" id="phoneError" role="alert" style="color:var(--red);font-size:12px;display:none"></span></div>
+                        <div class="frow"><label for="contactPhone">WhatsApp / phone number *</label><input type="tel" id="contactPhone" name="contact" placeholder="Mobile number" required pattern="[0-9]{10}" aria-label="Contact Number" autocomplete="tel"><span class="error-message" id="phoneError" role="alert" style="color:var(--red);font-size:12px;display:none"></span></div>
                         <div class="frow"><label for="childAge">Learner's age *</label>
                             <select id="childAge" name="childAge" required aria-label="Child's Age">
                                 <option value="">Select age group</option>

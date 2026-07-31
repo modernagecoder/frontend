@@ -1142,11 +1142,117 @@
     };
   }
 
+  // ───────────────────── phone validation ─────────────────────
+  //
+  // National subscriber numbers are not ten digits everywhere. India is ten,
+  // but Norway, Denmark, Singapore and Hong Kong are eight, the UAE is nine,
+  // and China is eleven. Every enquiry form on this site used to test
+  // /^[0-9]{10}$/ before submitting, so a parent in Dubai or Oslo could not
+  // send an enquiry at all — the form refused before any request was made.
+  //
+  // Lengths below are national significant numbers, excluding the country
+  // dial code. Anything not listed falls back to the ITU-E.164 range of 7 to
+  // 15 digits, which is deliberately permissive: rejecting a real customer
+  // costs far more than accepting a typo that a human will see anyway.
+  var PHONE_LENGTHS = {
+    IN: [10, 10], US: [10, 10], CA: [10, 10],
+    GB: [9, 10],  IE: [7, 9],
+    AE: [8, 9],   SA: [8, 9],   OM: [7, 8],   QA: [7, 8],
+    KW: [7, 8],   BH: [8, 8],   JO: [8, 9],
+    SG: [8, 8],   HK: [8, 8],   MY: [7, 10],  ID: [8, 12],
+    PH: [9, 10],  TH: [8, 9],   VN: [9, 10],  JP: [9, 10],
+    KR: [9, 10],  CN: [11, 11], TW: [8, 9],
+    AU: [9, 9],   NZ: [8, 10],
+    DE: [6, 12],  FR: [9, 9],   IT: [9, 11],  ES: [9, 9],
+    NL: [9, 9],   BE: [8, 9],   PT: [9, 9],   CH: [9, 9],
+    AT: [7, 13],  SE: [7, 13],  NO: [8, 8],   DK: [8, 8],
+    FI: [5, 12],  PL: [9, 9],   GR: [10, 10],
+    NG: [10, 10], KE: [9, 9],   GH: [9, 9],   ZA: [9, 9],
+    EG: [10, 10], MA: [9, 9],   TZ: [9, 9],   UG: [9, 9],
+    PK: [10, 10], BD: [10, 10], LK: [9, 9],   NP: [10, 10],
+    BR: [10, 11], MX: [10, 10], AR: [10, 11],
+    RU: [10, 10], TR: [10, 10], IL: [9, 9]
+  };
+  var E164_MIN = 7, E164_MAX = 15;
+
+  function phoneRangeFor(iso) {
+    var r = PHONE_LENGTHS[String(iso || '').toUpperCase()];
+    return r || [E164_MIN, E164_MAX];
+  }
+
+  /** The dial code for a country, digits only. '91' for India. */
+  function dialDigitsFor(iso) {
+    var want = String(iso || '').toUpperCase();
+    for (var i = 0; i < COUNTRIES.length; i++) {
+      if (COUNTRIES[i].iso === want) return COUNTRIES[i].dial.replace(/\D/g, '');
+    }
+    return null;
+  }
+
+  /**
+   * Is this a plausible phone number for the given country?
+   *
+   * Only digits are counted, so spaces, dashes and brackets are fine. People
+   * routinely paste a full international number into a field that already has
+   * a country selector next to it, so a leading country code is stripped and
+   * retried rather than counted twice — "+971 50 123 4567" for the UAE is the
+   * same number as "501234567" and must not be refused.
+   */
+  function isValidPhone(value, iso) {
+    var digits = String(value == null ? '' : value).replace(/\D/g, '');
+    if (!digits) return false;
+
+    var range = phoneRangeFor(iso);
+    if (digits.length >= range[0] && digits.length <= range[1]) return true;
+
+    var dial = dialDigitsFor(iso);
+    if (dial && digits.length > dial.length && digits.indexOf(dial) === 0) {
+      var national = digits.slice(dial.length);
+      if (national.length >= range[0] && national.length <= range[1]) return true;
+    }
+    return false;
+  }
+
+  /** Wording for the error, so a visitor in Oman is not told to enter 10 digits. */
+  function phoneHint(iso) {
+    var range = phoneRangeFor(iso);
+    if (range[0] === range[1]) return 'Enter a valid ' + range[0] + '-digit number';
+    return 'Enter a valid phone number (' + range[0] + '–' + range[1] + ' digits)';
+  }
+
+  /**
+   * Validate straight from the input, taking the country from the selector
+   * attached to it. This is what the forms call, so a page never has to know
+   * any of the rules above.
+   */
+  function validateInput(input) {
+    var el = (typeof input === 'string') ? document.getElementById(input) : input;
+    if (!el) return { valid: false, message: 'Enter a valid phone number' };
+    var iso = (el.dataset && el.dataset.countryIso) || DEFAULT_ISO;
+    return {
+      valid: isValidPhone(el.value, iso),
+      message: phoneHint(iso),
+      iso: iso
+    };
+  }
+
+  // Also exposed under its own name so a page can validate without knowing
+  // about the country selector at all.
+  window.MACPhone = {
+    isValid: isValidPhone,
+    hint: phoneHint,
+    validateInput: validateInput,
+    rangeFor: phoneRangeFor
+  };
+
   // ───────────────────── public API ─────────────────────
   window.MACCountryCode = {
     countries: COUNTRIES,
     defaultDial: DEFAULT_DIAL,
     defaultIso: DEFAULT_ISO,
+    isValidPhone: isValidPhone,
+    phoneHint: phoneHint,
+    validatePhoneInput: validateInput,
     read: function (input) {
       if (!input) return { dial: DEFAULT_DIAL, iso: DEFAULT_ISO, name: 'India', digits: '', fullPhone: '' };
       var dial = input.dataset.countryDial || DEFAULT_DIAL;

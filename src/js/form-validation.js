@@ -52,9 +52,20 @@ class FormValidator {
     // Phone validation - Requirement 9.1
     else if (type === 'tel' && value) {
       const phoneRegex = /^[\d\s\-\+\(\)]+$/;
-      if (!phoneRegex.test(value) || value.replace(/\D/g, '').length < 10) {
+      // Country-aware where the selector is present. The old rule demanded at
+      // least 10 digits, which rejects Oman (8), Singapore (8), Norway (8) and
+      // the UAE (9) outright. Falls back to the ITU range of 7 to 15.
+      const iso = (field.dataset && field.dataset.countryIso) || null;
+      const digits = value.replace(/\D/g, '');
+      const okLength = window.MACPhone
+        ? window.MACPhone.isValid(value, iso)
+        : (digits.length >= 7 && digits.length <= 15);
+
+      if (!phoneRegex.test(value) || !okLength) {
         isValid = false;
-        message = 'Please enter a valid phone number (at least 10 digits)';
+        message = window.MACPhone
+          ? window.MACPhone.hint(iso)
+          : 'Please enter a valid phone number';
       }
     }
     // Number validation - Requirement 9.1

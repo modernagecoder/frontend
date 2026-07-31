@@ -1639,7 +1639,7 @@
             <h3 style="font-family:'Fraunces',serif; font-weight:500; font-size:22px; margin:0 0 6px;">We&rsquo;ll call you back.</h3>
             <p style="font-size:14px; color:#bfb9ad; margin:0 0 16px;">Drop your number — Shivam from our team will call you within the day.</p>
             <form id="aabCbForm" onsubmit="return aabCbSubmit(event)">
-                <input type="tel" id="aabCbPhone" required pattern="[0-9]{10}" maxlength="10" placeholder="10-digit phone" style="width:100%; padding:12px 14px; background:#1a1b20; color:#f3ede0; border:1px solid rgba(243,237,224,0.18); font-size:15px; outline:none; margin-bottom:12px;">
+                <input type="tel" id="aabCbPhone" required pattern="[0-9]{10}" maxlength="15" placeholder="Phone number" style="width:100%; padding:12px 14px; background:#1a1b20; color:#f3ede0; border:1px solid rgba(243,237,224,0.18); font-size:15px; outline:none; margin-bottom:12px;">
                 <button type="submit" style="width:100%; padding:13px 16px; background:#f5b73a; color:#1a1300; border:none; font-weight:700; font-size:15px; cursor:pointer;">Call me back →</button>
             </form>
             <div id="aabCbOk" style="display:none; padding:14px 0; text-align:center;">
@@ -1744,8 +1744,17 @@
     function aabCbSubmit(ev) {
         ev.preventDefault();
         var phone = (document.getElementById('aabCbPhone').value || '').trim();
-        if (!/^[0-9]{10}$/.test(phone)) return false;
-        var url = 'https://wa.me/919123366161?text=' + encodeURIComponent('Hi, please call me back. My number: +91 ' + phone + ' (from AI Agents & Automation page)');
+        // Accept international numbers. This used to demand exactly 10 digits
+        // AND stamp "+91" onto whatever was typed, so a visitor in Oman (8
+        // digits) or the UAE (9) could not request a callback at all, and any
+        // number that did get through was sent to WhatsApp as an Indian one.
+        var digits = phone.replace(/\D/g, '');
+        if (digits.length < 7 || digits.length > 15) return false;
+        // A number typed with its own country code keeps it; a bare local
+        // number is assumed Indian, which is what this page's audience is.
+        var intl = phone.trim().charAt(0) === '+' || digits.length > 10;
+        var display = intl ? ('+' + digits) : ('+91 ' + digits);
+        var url = 'https://wa.me/919123366161?text=' + encodeURIComponent('Hi, please call me back. My number: ' + display + ' (from AI Agents & Automation page)');
         try {
             if (typeof gtag === 'function') {
                 gtag('event', 'callback_request', { page_path: '/ai-agents-and-automation' });

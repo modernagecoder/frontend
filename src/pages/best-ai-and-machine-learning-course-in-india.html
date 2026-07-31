@@ -421,7 +421,7 @@
         <form id="callbackForm" onsubmit="submitCallback(event)" style="display:flex; flex-direction:column; gap:15px;">
             <div style="display:flex; align-items:center; background:#f9fafb; border:2px solid #e5e7eb; border-radius:12px; overflow:hidden;">
                 <span style="padding:14px 12px; background:#f3f4f6; color:#6b7280; font-weight:600; border-right:2px solid #e5e7eb;">+91</span>
-                <input type="tel" id="callbackPhoneInput" placeholder="Enter phone number" maxlength="10" required style="flex:1; padding:14px 15px; border:none; background:transparent; font-size:16px; color:#1f2937; outline:none;">
+                <input type="tel" id="callbackPhoneInput" placeholder="Enter phone number" maxlength="15" required style="flex:1; padding:14px 15px; border:none; background:transparent; font-size:16px; color:#1f2937; outline:none;">
             </div>
             <button type="submit" id="callbackSubmitBtn" style="padding:14px 24px; background:linear-gradient(135deg,#8b5cf6,#06b6d4); color:#fff; border:none; border-radius:12px; font-size:16px; font-weight:600; cursor:pointer;">Call Me Back</button>
         </form>
@@ -505,7 +505,7 @@ preds = model.<span class="fn">predict</span>(X_test)
                 <form class="contact-form" id="tryCodeForm" action="#" method="POST">
                     <div class="form-group"><label for="contactName" style="color:#CBD5E1!important;font-size:14px!important;margin-bottom:5px!important;display:block!important;">Your Name *</label><input type="text" id="contactName" name="name" class="input-field" placeholder="Enter your full name" required></div>
                     <div class="form-group"><label for="contactEmail" style="color:#CBD5E1!important;font-size:14px!important;margin-bottom:5px!important;display:block!important;">Email Address *</label><input type="email" id="contactEmail" name="email" class="input-field" placeholder="your.email@example.com" required></div>
-                    <div class="form-group"><label for="contactPhone" style="color:#CBD5E1!important;font-size:14px!important;margin-bottom:5px!important;display:block!important;">WhatsApp/Phone *</label><input type="tel" id="contactPhone" name="contact" class="input-field" placeholder="10-digit mobile number" required pattern="[0-9]{10}"></div>
+                    <div class="form-group"><label for="contactPhone" style="color:#CBD5E1!important;font-size:14px!important;margin-bottom:5px!important;display:block!important;">WhatsApp/Phone *</label><input type="tel" id="contactPhone" name="contact" class="input-field" placeholder="Mobile number" required pattern="[0-9]{10}"></div>
                     <div class="form-group"><label for="childAge" style="color:#CBD5E1!important;font-size:14px!important;margin-bottom:5px!important;display:block!important;">You Are *</label>
                         <select id="childAge" name="childAge" class="input-field" required>
                             <option value="">Select one</option>

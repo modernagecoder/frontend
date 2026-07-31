@@ -30,7 +30,7 @@
     "build:inline": "node scripts/inline-components.js",
     "build:core-css": "node scripts/build-core-css.js",
     "minify": "node scripts/minify.js",
-    "pricing:test": "node scripts/pricing/test-stamp.js && node scripts/pricing/test-rendered.js"
+    "pricing:test": "node scripts/pricing/test-stamp.js && node scripts/pricing/test-rendered.js && node scripts/pricing/test-phone.js"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
