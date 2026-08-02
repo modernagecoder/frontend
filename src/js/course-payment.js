@@ -253,11 +253,17 @@ const CoursePayment = {
   // flat coding prices if that script is absent on the page.
   getIntlPricing: function(planType) {
     var ip = window.InternationalPricing;
-    var table = (ip && ip.isAgentsContext && ip.isAgentsContext() && ip.PRICES.internationalAgents)
+    // ip.PRICES is checked BEFORE any table is picked. It is null until
+    // loadTables() has run — and if the data file failed to load it stays
+    // null, which used to throw here on agents/maths pages and kill the buy
+    // button outright.
+    var hasTables = !!(ip && ip.PRICES);
+    var table = !hasTables ? null
+      : (ip.isAgentsContext && ip.isAgentsContext() && ip.PRICES.internationalAgents)
       ? ip.PRICES.internationalAgents
-      : (ip && ip.isMathsContext && ip.isMathsContext() && ip.PRICES.internationalMaths)
+      : (ip.isMathsContext && ip.isMathsContext() && ip.PRICES.internationalMaths)
       ? ip.PRICES.internationalMaths
-      : (ip && ip.PRICES ? ip.PRICES.international : null);
+      : ip.PRICES.international;
     // No hardcoded fallback. This function decides what a card is charged, so
     // a stale figure here bills a real customer the wrong amount. If the price
     // tables are unavailable, return null and let the caller stop rather than
@@ -325,7 +331,16 @@ const CoursePayment = {
 
     // Use international pricing if not Indian (maths-aware, single source)
     var intlP = this.getIntlPricing(planType);
-    const displayPricing = isIndian ? pricing : (intlP || pricing);
+
+    // No fallback to the INR figure. Showing "₹1,499" in a modal that will
+    // charge US dollars is how a visitor gets billed ten times what they saw.
+    // If the region's price cannot be resolved, the modal does not open.
+    if (!isIndian && !intlP) {
+      alert('We could not load the pricing for your region. Please refresh the page and try again, or contact us on WhatsApp.');
+      return;
+    }
+
+    const displayPricing = isIndian ? pricing : intlP;
     const currencySymbol = isIndian ? '₹' : '$';
     const phoneMaxLength = isIndian ? '10' : '15';
     const phonePlaceholder = isIndian ? '10-digit mobile number' : 'Phone number';
@@ -459,9 +474,24 @@ const CoursePayment = {
         return;
       }
       var intlP = this.getIntlPricing(planType);
-      const finalAmount = isIndian ? amount : (intlP ? intlP.amount : amount);
+
+      // HARD STOP, never a fallback. The old line here read
+      //   finalAmount = isIndian ? amount : (intlP ? intlP.amount : amount)
+      // — so when the international price could not be resolved (data file
+      // blocked by an ad-blocker, CDN hiccup, deploy skew) the INR figure was
+      // sent with currency USD: a ₹1,499 plan became a US$1,499 charge, a
+      // roughly 10x overcharge. If the price cannot be resolved, no order is
+      // created.
+      if (!isIndian && !intlP) {
+        alert('We could not load the pricing for your region. Please refresh the page and try again, or contact us on WhatsApp.');
+        const sb2 = document.querySelector('.payment-submit-btn');
+        if (sb2) { sb2.disabled = false; sb2.textContent = 'Try Again'; }
+        return;
+      }
+
+      const finalAmount = isIndian ? amount : intlP.amount;
       const currency = isIndian ? 'INR' : 'USD';
-      const buttonPriceText = isIndian ? this.getPricing(planType).display : (intlP ? intlP.display : this.getPricing(planType).display);
+      const buttonPriceText = isIndian ? this.getPricing(planType).display : intlP.display;
       
       // Create order
       const apiUrl = this.getApiUrl();

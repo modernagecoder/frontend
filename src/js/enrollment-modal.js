@@ -63,12 +63,16 @@ const EnrollmentModal = {
     // Detect international user
     const isIndian = window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : true;
     const paymentFeaturesText = isIndian ? 'UPI, Cards, Net Banking' : 'Cards, International Payments';
-    // Starting (group-tier) USD price, context-aware via the shared helper.
-    // Fallback (helper absent): premium agents pages start at $100, not $40.
+    // Starting (group-tier) USD price for this visitor's country, via the
+    // shared helper. NO hardcoded fallback: the old '$40/month' / '$100/month'
+    // strings here were retired prices, and a degraded page was sending them
+    // into real WhatsApp enquiries. If the price cannot be resolved, the
+    // message simply names the course and no figure — a missing number is
+    // honest, a wrong one is a quote we then have to argue about.
     var intlGroup = (window.CoursePayment && window.CoursePayment.getIntlPricing)
       ? window.CoursePayment.getIntlPricing('group') : null;
-    var fallbackStart = (document.body && document.body.getAttribute('data-price-tier') === 'agents') ? '$100/month' : '$40/month';
-    const priceText = isIndian ? '' : ' (from ' + ((intlGroup && intlGroup.display) || fallbackStart) + ' USD)';
+    const priceText = (isIndian || !intlGroup || !intlGroup.display)
+      ? '' : ' (from ' + intlGroup.display + ' USD)';
     const whatsappMsg = encodeURIComponent('Hi, I want to enroll in ' + this.courseName + priceText + '. Please share details.');
     
     const modalHTML = `
