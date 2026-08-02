@@ -21,7 +21,7 @@ npm run pricing:check      # is my file valid? shows the resulting prices
 npm run pricing:preview    # exactly what would change, changes nothing
 npm run pricing:apply      # write it into every page
 npm run pricing:verify     # prove nothing broke
-npm run pricing:test       # 79 checks, including prices rendered in a real browser
+npm run pricing:test       # 81 checks, including prices rendered in a real browser
 
 git add -A
 git commit -m "Raise group coding to Rs1,799"
