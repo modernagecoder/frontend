@@ -168,7 +168,7 @@ Group Classes$149.99USD / month
 - Recorded sessions access
 - Course completion certificate
 
-[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm interested in Group Classes ($40 USD/month). I'm an international student and would like to know about payment options.)RecommendedPersonalized 1-on-1$374.99USD / month
+[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm interested in Group Classes. I'm an international student and would like to know the price for my country and payment options.)RecommendedPersonalized 1-on-1$374.99USD / month
 
 - 2 private sessions per week
 - 100% personalized curriculum
@@ -176,9 +176,9 @@ Group Classes$149.99USD / month
 - Dedicated mentor + priority support
 - Portfolio & career guidance
 
-[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm interested in Personalized 1-on-1 Classes ($100 USD/month). I'm an international student and would like to know about payment options.)
+[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm interested in Personalized 1-on-1 Classes. I'm an international student and would like to know the price for my country and payment options.)
 
-**Mathematics (international):** Group **$374.99** · Personalized 1-on-1 **$150** / month — 1-hour live classes, 2 per week (8 a month).
+**Mathematics (international):** Group **$149.99** · Personalized 1-on-1 **$374.99** / month — 1-hour live classes, 2 per week (8 a month).
 
 Also available in EUR, GBP, CAD, AUD, SGD & AED.
  Contact [+91 9123366161](tel:+919123366161) (Shivam Sir) for payment details.
@@ -230,7 +230,7 @@ Group classes work great when you enjoy learning with others and can keep up wit
 
 ### Choose Personalized 1-on-1
 
-₹2499/month
+₹4,999/month
 
 Personalized classes are ideal when you need individual attention or have specific learning needs.
 

@@ -386,6 +386,19 @@ const InternationalPricing = {
       // India-only hiding rules deal with the card.
       if (amount === null || amount === undefined) return;
 
+      // Derived figures — "₹187 per live class" — are recalculated from the
+      // monthly amount, exactly as the build does. Without this branch the
+      // runtime would overwrite a per-class figure with the full monthly
+      // price the moment it re-priced the anchor.
+      var derive = el.getAttribute('data-price-derive');
+      if (derive) {
+        var perMonth = (data.display && data.display.classesPerMonth) || 8;
+        var hours = (data.display && data.display.hoursPerClass) || 1;
+        if (derive === 'perClass') amount = amount / perMonth;
+        else if (derive === 'perHour') amount = amount / (perMonth * hours);
+        amount = currency === 'INR' ? Math.round(amount) : Math.round(amount * 100) / 100;
+      }
+
       var symbol = currency === 'INR' ? '₹' : '$';
       var text = symbol + new Intl.NumberFormat(currency === 'INR' ? 'en-IN' : 'en-US', {
         minimumFractionDigits: Number.isInteger(amount) ? 0 : 2,
