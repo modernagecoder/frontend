@@ -12,7 +12,10 @@
  *   next page load. Old caches are pruned in the activate event.
  */
 
-const CACHE_VERSION = 'mac-v1';
+// v2, 2026-08-01: flushes every cache built while /*.js was marked immutable
+// for a year — those caches can hold pre-worldwide-pricing JS, and the
+// pricing scripts must come in fresh under their new ?v= content-hash URLs.
+const CACHE_VERSION = 'mac-v2';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 

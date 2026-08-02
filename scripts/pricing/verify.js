@@ -91,6 +91,17 @@ function checkScripts(rel, html) {
         fail(rel, 'shows a price but does not load ' + missing.join(', ') +
             ', so every visitor sees Indian rupees. Run: npm run pricing:apply');
     }
+
+    // The data file's tag must carry a content-hash version. Without it,
+    // sw.js (cache-first) plus the HTTP cache keep serving a RETURNING
+    // visitor the previous deploy's prices — they would see and be charged
+    // old amounts after a price change. apply stamps this automatically.
+    const dataTag = html.match(/src="\/js\/pricing-data\.generated\.js(\?v=[A-Za-z0-9]+)?"/);
+    if (dataTag && !dataTag[1]) {
+        fail(rel, 'loads pricing-data.generated.js without a ?v= content hash, so a ' +
+            'returning visitor\'s cache can serve stale prices after a price change. ' +
+            'Run: npm run pricing:apply');
+    }
 }
 
 function checkFile(rel, config) {

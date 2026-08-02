@@ -46,7 +46,7 @@ function showsAPrice(html) {
  * showing Indian rupees to every visitor because nobody had added three script
  * tags by hand.
  */
-function ensureScripts(html) {
+function ensureScripts(html, versions) {
     if (!showsAPrice(html)) return { html: html, added: false };
 
     const missing = PRICING_SCRIPTS.filter(function (src) {
@@ -58,7 +58,8 @@ function ensureScripts(html) {
     // absentees are appended. Inserting a second copy of the data file after
     // the swap had run would reset the table it had just written.
     const block = missing.map(function (src) {
-        return '    <script src="' + src + '"></script>';
+        const v = versions && versions[src] ? '?v=' + versions[src] : '';
+        return '    <script src="' + src + v + '"></script>';
     }).join('\n');
 
     const closing = html.lastIndexOf('</body>');
@@ -73,8 +74,39 @@ function ensureScripts(html) {
     };
 }
 
+/**
+ * Stamp a content-hash version onto every pricing script tag.
+ *
+ * WHY THIS EXISTS — the stale-price hole the audit proved:
+ * sw.js serves .js cache-first and _headers marked /*.js immutable for a
+ * year, so after a price change a RETURNING visitor kept being shown — and
+ * therefore charged — the old prices from window.MAC_PRICING, potentially
+ * until the cache expired. The SW's background revalidation could not save
+ * them, because the immutable HTTP cache satisfied the revalidation fetch too.
+ *
+ * A content hash in the URL ends that entirely: a changed file is a NEW URL,
+ * which misses both the service-worker cache (keyed by URL) and the HTTP
+ * cache, so the first page view after a deploy gets the new prices. An
+ * unchanged file keeps its hash and stays cached — no cost to normal visits.
+ *
+ * Idempotent: an existing ?v= is rewritten, never doubled.
+ */
+function versionScripts(html, versions) {
+    if (!versions) return html;
+    let out = html;
+    PRICING_SCRIPTS.forEach(function (src) {
+        const v = versions[src];
+        if (!v) return;
+        const escaped = src.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const rx = new RegExp('(src="' + escaped + ')(\\?v=[A-Za-z0-9]+)?(")', 'g');
+        out = out.replace(rx, '$1?v=' + v + '$3');
+    });
+    return out;
+}
+
 module.exports = {
     PRICING_SCRIPTS: PRICING_SCRIPTS,
     showsAPrice: showsAPrice,
-    ensureScripts: ensureScripts
+    ensureScripts: ensureScripts,
+    versionScripts: versionScripts
 };

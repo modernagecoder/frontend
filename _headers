@@ -18,12 +18,21 @@
   X-Robots-Tag: noindex, follow
   Cache-Control: public, max-age=3600
 
-# Cache static assets
+# Cache static assets.
+#
+# CSS and JS mirror netlify.toml (one day + a week of stale-while-revalidate),
+# per this file's own contract above. These two lines used to say one year,
+# immutable — contradicting the toml — and that mattered for money: the
+# immutable HTTP cache also satisfied the service worker's background
+# revalidation, so after a price change a returning visitor could keep seeing
+# and being charged the OLD prices until the cache expired. Price-critical
+# scripts additionally carry a ?v= content hash stamped by pricing:apply, so
+# a change is a new URL regardless of what any cache believes.
 /*.css
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 
 /*.js
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 
 /*.jpg
   Cache-Control: public, max-age=31536000, immutable

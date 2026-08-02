@@ -357,6 +357,26 @@ function main() {
 
     let scriptsAdded = 0;
 
+    // The runtime data file is written BEFORE the page loop, because the page
+    // loop stamps each page's script tags with a content hash of these very
+    // files. Emitting it afterwards would version the pages against the
+    // previous deploy's data.
+    const runtime = emitRuntimeData(config);
+
+    // Content-hash versions for the four pricing scripts. A price change gives
+    // pricing-data.generated.js a new hash, which gives every page a new
+    // script URL, which busts both the service-worker cache and the HTTP
+    // cache. Without this, sw.js (cache-first) plus the long HTTP cache meant
+    // returning visitors kept seeing — and being charged — old prices.
+    const crypto = require('crypto');
+    const versions = {};
+    applyLib.PRICING_SCRIPTS.forEach(function (src) {
+        const p = path.join(ROOT, 'src', src.replace(/^\//, '').replace(/\//g, path.sep));
+        if (!fs.existsSync(p)) return;
+        versions[src] = crypto.createHash('sha1')
+            .update(fs.readFileSync(p)).digest('hex').slice(0, 10);
+    });
+
     files.forEach(function (rel) {
         const full = path.join(ROOT, rel);
         const before = fs.readFileSync(full, 'utf8');
@@ -366,8 +386,11 @@ function main() {
         // whether or not it has any [data-price] anchors yet. This runs on
         // every build, so a page added later is covered without anyone having
         // to remember.
-        const ensured = ensureScripts(out);
+        const ensured = ensureScripts(out, versions);
         if (ensured.added) { out = ensured.html; scriptsAdded++; }
+
+        // Normalise the version stamp on tags that already existed.
+        out = applyLib.versionScripts(out, versions);
 
         if (out.indexOf('data-price') !== -1) {
             const result = stamper.stamp(out, config);
@@ -386,7 +409,6 @@ function main() {
         }
     });
 
-    const runtime = emitRuntimeData(config);
     const coursesCfg = syncCoursesConfig(config);
     const llms = syncLlmsTxt(config);
 
