@@ -186,7 +186,7 @@
           "<strong>Subjects:</strong> Coding (Scratch, Python, JavaScript, Java, HTML/CSS, C++) + Mathematics (Class 1-12, college, advanced)",
           "<strong>Special programs:</strong> Code Queens (girls-only batches with female mentors), AI/ML course, game development, app development",
           "<strong>Tools taught:</strong> Pygame, Roblox Studio, MIT App Inventor, ChatGPT, Teachable Machine, Canva, Figma, p5.js",
-          "<strong>Pricing:</strong> Rs 1,499/month (group) | Rs 2,499/month (1-on-1) — no contracts, cancel anytime",
+          "<strong>Pricing:</strong> Rs 1,499/month (group) | Rs 2,999/month (1-on-1) — no contracts, cancel anytime",
           "<strong>Free demo:</strong> Yes, full class with a real instructor — <a href='/book-demo'>book here</a>",
           "<strong>Best for:</strong> Parents who want coding + maths in one place, with live expert instruction at an affordable price"
         ]
@@ -556,8 +556,8 @@
         "style": "unordered",
         "items": [
           "Group classes (up to 10 students): <strong>Rs 1,499 per month</strong>",
-          "Mini Batch (3-4 students): <strong>Rs 2,499 per month</strong>",
-          "1-on-1 personalized classes: <strong>Rs 4,999 per month</strong>",
+          "Mini Batch (3-4 students): <strong>Rs 2,999 per month</strong>",
+          "1-on-1 personalized classes: <strong>Rs 7,500 per month</strong>",
           "Both coding AND maths included in the same subscription",
           "No contracts, no lock-in — cancel anytime with zero penalties",
           "No tablet purchases, no EMI traps, no hidden fees",
@@ -566,7 +566,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Let us put this in perspective. If you are currently spending Rs 8,000/month on Byju's for maths and another Rs 6,000/month on WhiteHat Jr for coding, that is <strong>Rs 14,000 per month</strong> for two subjects. With Modern Age Coders, you get both coding and maths in a group class for <strong>Rs 1,499 per month</strong>, a 3-4 student Mini Batch for <strong>Rs 2,499 per month</strong>, or live 1-on-1 instruction for <strong>Rs 4,999 per month</strong>. Starting in a group still saves Rs 12,500 every single month, or <strong>Rs 1,50,000 per year</strong>. For the full pricing breakdown, visit our <a href='/pricing'>pricing page</a>."
+        "text": "Let us put this in perspective. If you are currently spending Rs 8,000/month on Byju's for maths and another Rs 6,000/month on WhiteHat Jr for coding, that is <strong>Rs 14,000 per month</strong> for two subjects. With Modern Age Coders, you get both coding and maths in a group class for <strong>Rs 1,499 per month</strong>, a 3-4 student Mini Batch for <strong>Rs 2,999 per month</strong>, or live 1-on-1 instruction for <strong>Rs 7,500 per month</strong>. Starting in a group still saves Rs 12,500 every single month, or <strong>Rs 1,50,000 per year</strong>. For the full pricing breakdown, visit our <a href='/pricing'>pricing page</a>."
       },
       {
         "type": "callout",
@@ -576,7 +576,7 @@
       {
         "type": "image",
         "url": "https://ik.imagekit.io/ysmxsdgmw4/blogs/blog-images/Byjus%20Alternative/student-projects-portfolio.png",
-        "alt": "Pricing comparison infographic showing Byju's plus WhiteHat Jr costing Rs 14,000 per month versus Modern Age Coders at Rs 2,499 per month for coding and maths combined",
+        "alt": "Pricing comparison infographic showing Byju's plus WhiteHat Jr costing Rs 14,000 per month versus Modern Age Coders at Rs 2,999 per month for coding and maths combined",
         "caption": "The cost difference is dramatic when you factor in both coding and maths"
       },
       {
@@ -722,7 +722,7 @@
       {
         "type": "callout",
         "style": "tip",
-        "text": "<strong>Anita S., Mother of 8 and 11 year olds, Pune:</strong> \"We were spending close to Rs 15,000 a month on Byju's for both kids. The videos were good but neither child was actually engaged. They would zone out after 10 minutes. At Modern Age Coders, both kids have a live teacher who pushes them, encourages them, and actually makes them build things. My older one built a full calculator app last month. The younger one is creating games in Scratch. And we are paying Rs 2,499 per month per child. The difference is night and day.\""
+        "text": "<strong>Anita S., Mother of 8 and 11 year olds, Pune:</strong> \"We were spending close to Rs 15,000 a month on Byju's for both kids. The videos were good but neither child was actually engaged. They would zone out after 10 minutes. At Modern Age Coders, both kids have a live teacher who pushes them, encourages them, and actually makes them build things. My older one built a full calculator app last month. The younger one is creating games in Scratch. And we are paying Rs 2,999 per month per child. The difference is night and day.\""
       },
       {
         "type": "callout",
@@ -749,7 +749,7 @@
           },
           {
             "title": "How much can I save by switching from Byju's to Modern Age Coders?",
-            "content": "Most families report saving Rs 5,000 to Rs 12,000+ per month. If you were also paying separately for coding classes (like WhiteHat Jr), the savings are even larger since Modern Age Coders includes both coding and maths in the same subscription. Our group classes are Rs 1,499/month, Mini Batch (3-4 students) is Rs 2,499/month, and 1-on-1 sessions are Rs 4,999/month with no contracts."
+            "content": "Most families report saving Rs 5,000 to Rs 12,000+ per month. If you were also paying separately for coding classes (like WhiteHat Jr), the savings are even larger since Modern Age Coders includes both coding and maths in the same subscription. Our group classes are Rs 1,499/month, Mini Batch (3-4 students) is Rs 2,999/month, and 1-on-1 sessions are Rs 7,500/month with no contracts."
           },
           {
             "title": "Does Modern Age Coders help with school maths and board exams?",
@@ -793,7 +793,7 @@
         "items": [
           "<strong>Book a free demo class</strong> at <a href='/book-demo'>learn.modernagecoders.com/book-demo</a>. Choose coding or maths (or both!) and pick a time that works for your family.",
           "<strong>Your child experiences a real class</strong> with one of our expert instructors. No sales pitch, no pressure. Just actual learning so your child can feel the difference.",
-          "<strong>Choose your plan if you love it</strong>. Group classes at Rs 1,499/month, Mini Batch at Rs 2,499/month, or 1-on-1 at Rs 4,999/month. No contracts, no EMIs, cancel anytime.",
+          "<strong>Choose your plan if you love it</strong>. Group classes at Rs 1,499/month, Mini Batch at Rs 2,999/month, or 1-on-1 at Rs 7,500/month. No contracts, no EMIs, cancel anytime.",
           "<strong>Watch your child build real skills</strong>. Within the first month, your child will have built their first project, whether it is a game, a website, or a maths visualization."
         ]
       },

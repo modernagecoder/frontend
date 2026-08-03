@@ -988,7 +988,7 @@
     "howToAddNewCourse": "Add a new entry in the 'courses' object with the course slug as key. Each course should include group, miniBatch, personal pricing. GENERATED: prices in this file are written by npm run pricing:apply from pricing/pricing.config.jsonc — edit that file, not this one.",
     "pricingFormat": "amount is in rupees (INR), display is the formatted string shown to users",
     "miniBatch": "indiaOnly=true means this plan is NOT available to international users. The Mini Batch card is hidden via data-india-only on foreign views.",
-    "defaultPricing": "If a course is not listed in 'courses', defaultPricing is used (Group ₹1,499 / Mini Batch ₹2,499 / 1-on-1 ₹4,999).",
-    "premiumAgentsCourses": "The two Codex + Claude Code courses carry premium pricing (Group ₹2,499 / Mini Batch ₹4,999 / 1-on-1 ₹9,999; international Group $100 / 1-on-1 $150) because students run the real paid agent tools. Their international USD amounts come from PRICES.internationalAgents in international-pricing.js, keyed off data-price-tier=\"agents\" on the generated page body. Do NOT copy these prices to other courses."
+    "defaultPricing": "If a course is not listed in 'courses', defaultPricing is used (Group ₹1,499 / Mini Batch ₹2,999 / 1-on-1 ₹7,500).",
+    "premiumAgentsCourses": "The two Codex + Claude Code courses carry premium pricing (Group ₹1,499 / Mini Batch ₹2,999 / 1-on-1 ₹7,500; international Group $100 / 1-on-1 $150) because students run the real paid agent tools. Their international USD amounts come from PRICES.internationalAgents in international-pricing.js, keyed off data-price-tier=\"agents\" on the generated page body. Do NOT copy these prices to other courses."
   }
 }
