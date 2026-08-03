@@ -35,6 +35,11 @@
   var CountrySwitcher = {
 
     init: function () {
+      // One control per page, whatever fires init. A double DOMContentLoaded
+      // used to render three stacked switcher buttons.
+      if (window.__MAC_SWITCHER_INIT_DONE || document.querySelector('.mac-cs-btn')) return;
+      window.__MAC_SWITCHER_INIT_DONE = true;
+
       var data = window.MAC_PRICING;
       if (!data || !data.worldwide || !data.worldwide.enabled) return;
 
@@ -284,10 +289,14 @@
      * fraction of a second and is always right.
      */
     choose: function (iso) {
-      var d = new Date();
-      d.setTime(d.getTime() + COOKIE_DAYS * 864e5);
-      document.cookie = COOKIE + '=' + encodeURIComponent(iso) +
-        ';expires=' + d.toUTCString() + ';path=/;SameSite=Lax';
+      var stored = false;
+      try {
+        var d = new Date();
+        d.setTime(d.getTime() + COOKIE_DAYS * 864e5);
+        document.cookie = COOKIE + '=' + encodeURIComponent(iso) +
+          ';expires=' + d.toUTCString() + ';path=/;SameSite=Lax';
+        stored = true;
+      } catch (e) { /* cookies blocked; carry the choice in the URL instead */ }
 
       try {
         if (typeof window.gtag === 'function') {
@@ -295,10 +304,14 @@
         }
       } catch (e) {}
 
-      // Drop any ?country= override so the cookie is what decides from now on.
+      // Drop any stale override so the cookie decides from now on. If the
+      // cookie could not be written (blocked cookies), the choice rides in
+      // ?country= instead — it will not persist across pages, but the visitor
+      // still gets the price they asked for rather than a dead button.
       var url = new URL(window.location.href);
       url.searchParams.delete('country');
       url.searchParams.delete('test');
+      if (!stored) url.searchParams.set('country', iso);
       this.reload(url.toString());
     },
 

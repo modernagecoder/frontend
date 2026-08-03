@@ -32,6 +32,9 @@
     STYLE_ID: 'mac-local-currency-styles',
 
     init: function () {
+      if (window.__MAC_LOCAL_CURRENCY_INIT_DONE) return;
+      window.__MAC_LOCAL_CURRENCY_INIT_DONE = true;
+
       var data = window.MAC_PRICING;
       if (!data || !data.worldwide || !data.worldwide.enabled) return;
 

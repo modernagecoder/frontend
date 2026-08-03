@@ -179,6 +179,13 @@ const InternationalPricing = {
 
   // ─── Initialize (DOM-dependent: runs on DOMContentLoaded) ───
   init() {
+    // Run once, whatever fires it. A second DOMContentLoaded (or a duplicate
+    // script include) used to re-run updatePriceAnchors over prices that
+    // local-currency had already converted — rewriting "OMR 38" back to
+    // "$97.99" while local-currency's own guard stopped it re-annotating.
+    if (window.__MAC_PRICING_INIT_DONE) return;
+    window.__MAC_PRICING_INIT_DONE = true;
+
     // Detection may have already run via detectRegion(); redo it if not.
     if (typeof window.__MAC_IS_INDIAN === 'undefined') {
       this.detectRegion();
@@ -313,8 +320,15 @@ const InternationalPricing = {
     var forced = new URLSearchParams(window.location.search).get('country');
     if (forced && /^[A-Za-z]{2}$/.test(forced)) return forced.toUpperCase();
 
-    var m = document.cookie.match(/(?:^|;\s*)nf_country=([A-Za-z]{2})(?:;|$)/);
-    if (m) return m[1].toUpperCase();
+    // Guarded because this runs at script parse, before anything else. Some
+    // privacy modes and embedded webviews make document.cookie THROW rather
+    // than return '' — and an unguarded read here took the whole pricing
+    // runtime down with it: prices never localised, the switcher never
+    // rendered, and a UK visitor was left on the rupee view.
+    try {
+      var m = document.cookie.match(/(?:^|;\s*)nf_country=([A-Za-z]{2})(?:;|$)/);
+      if (m) return m[1].toUpperCase();
+    } catch (e) { /* cookies unavailable: fall through to detection */ }
 
     return null;
   },
