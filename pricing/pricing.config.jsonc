@@ -25,7 +25,7 @@
 // ═══════════════════════════════════════════════════════════════════════════
 {
   "version": 2,
-  "updated": "2026-08-01",
+  "updated": "2026-08-03",
 
   // ───────────────────────────────────────────────────────────────────────
   //  THE PRICES  (subject.region.tier — e.g. coding.india.group)
@@ -49,20 +49,20 @@
     // their own row so premium pricing can be switched back on by editing
     // these numbers alone.
     "agents": {
-      "india":         { "group": 1499, "miniBatch": 2999, "personal": 7500 },
+      "india":         { "group": 1499, "miniBatch": 2999, "personal": 9999 },
       "international": { "group": 100,  "miniBatch": null, "personal": 150 }
     },
 
     // In-school bootcamp programmes (published inside school-page FAQ schema).
     "school": {
-      "india":         { "group": 1999, "miniBatch": null, "personal": 2999 },
+      "india":         { "group": 1499, "miniBatch": null, "personal": 2999 },
       "international": { "group": null, "miniBatch": null, "personal": null }
     },
 
     // Holiday camps: one payment, not monthly.
     "camps": {
-      "india":         { "oneTime": 4999 },
-      "international": { "oneTime": 60 }
+      "india":         { "oneTime": 9999 },
+      "international": { "oneTime": 200 }
     }
   },
 

@@ -16,8 +16,8 @@
       "display": "$150/month"
     },
     "summer": {
-      "amount": 60,
-      "display": "$60"
+      "amount": 200,
+      "display": "$200"
     }
   },
   "defaultPricing": {
@@ -88,8 +88,8 @@
           "indiaOnly": true
         },
         "personal": {
-          "amount": 7500,
-          "display": "₹7,500/month"
+          "amount": 9999,
+          "display": "₹9,999/month"
         }
       }
     },
@@ -106,8 +106,8 @@
           "indiaOnly": true
         },
         "personal": {
-          "amount": 7500,
-          "display": "₹7,500/month"
+          "amount": 9999,
+          "display": "₹9,999/month"
         }
       }
     },

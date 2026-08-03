@@ -113,6 +113,30 @@ const COMPETITOR_CUE = /kumon|mathnasium|juni|cuemath|outschool|tynker|whitehat|
  * schema FAQ answers, offer descriptions and meta descriptions still quoting
  * $40/$100/$150 months after the worldwide ladder replaced them.
  */
+// Every amount the config currently sells, as digit strings. A figure is only
+// "retired" if it is not in here — the owner is free to bring an old number
+// back (2026-08-04: ₹9,999 returned as both the premium 1-on-1 and the camp
+// fee, and the hardcoded tripwires false-flagged the owner's own new prices).
+let CURRENT_AMOUNTS = null;
+function currentAmounts(config) {
+    if (CURRENT_AMOUNTS) return CURRENT_AMOUNTS;
+    const s = new Set();
+    Object.keys(config.plans).forEach(function (subject) {
+        ['india', 'international'].forEach(function (region) {
+            const t = config.plans[subject][region] || {};
+            Object.keys(t).forEach(function (tier) {
+                if (typeof t[tier] === 'number') s.add(String(t[tier]));
+            });
+        });
+    });
+    CURRENT_AMOUNTS = s;
+    return s;
+}
+function isCurrentFigure(text, config) {
+    const digits = String(text).replace(/[^\d]/g, '');
+    return digits && currentAmounts(config).has(digits);
+}
+
 function checkRetiredFigures(rel, html, config) {
     const targets = [];
 
@@ -128,17 +152,19 @@ function checkRetiredFigures(rel, html, config) {
         while ((t = textRx.exec(body)) !== null) targets.push(['schema text', t[1]]);
     }
 
-    // On camp pages ₹4,999 is the CURRENT one-time fee, so only the other
-    // retired figures count there.
-    const retiredHere = /camp/i.test(rel)
-        ? /(?:\$|USD\s?)(?:40(?![\d.])|149\.99|374\.99|121\.99|61\.99)|(?:₹|&#8377;|Rs\.?\s?)\s?(?<![\d,])(?:2,?499|9,?999)(?![\d.])/
-        : RETIRED;
-
+    // A figure that is a CURRENT price somewhere in the config (the camp fee,
+    // a re-enabled premium tier) is never retired, whatever it once was.
+    const retiredG = new RegExp(RETIRED.source, 'g');
     targets.forEach(function (pair) {
-        if (!retiredHere.test(pair[1])) return;
         if (COMPETITOR_CUE.test(pair[1])) return;   // quoting others is fine
-        fail(rel, pair[0] + ' quotes a retired price: "' +
-            pair[1].slice(0, 90) + '..." — see pricing/pricing.config.jsonc for the real ones.');
+        let rm;
+        retiredG.lastIndex = 0;
+        while ((rm = retiredG.exec(pair[1])) !== null) {
+            if (isCurrentFigure(rm[0], config)) continue;
+            fail(rel, pair[0] + ' quotes a retired price ("' + rm[0] + '"): "' +
+                pair[1].slice(0, 90) + '..." — see pricing/pricing.config.jsonc for the real ones.');
+            break;
+        }
     });
 
     // Bare price fields in structured data ("highPrice": "4999") — the shape
@@ -150,8 +176,7 @@ function checkRetiredFigures(rel, html, config) {
         const bare = /"(?:price|lowPrice|highPrice)"\s*:\s*"?(2499|4999|9999)"?/g;
         let b;
         while ((b = bare.exec(m[1])) !== null) {
-            const campFee = config && config.plans.camps && config.plans.camps.india.oneTime;
-            if (/camp/i.test(rel) && Number(b[1]) === Number(campFee)) continue;
+            if (isCurrentFigure(b[1], config)) continue;
             fail(rel, 'structured data publishes the retired figure ' + b[1] +
                 ' in a price field. The stamper never writes this — the block is ' +
                 'unanchored or hand-edited; give its <script> tag a data-price-scope.');
@@ -173,6 +198,7 @@ function checkRetiredFigures(rel, html, config) {
     VISIBLE_RETIRED.forEach(function (rx) {
         let v;
         while ((v = rx.exec(visible)) !== null) {
+            if (isCurrentFigure(v[0], config)) continue;
             const around = visible.slice(Math.max(0, v.index - 120), v.index + 140);
             if (COMPETITOR_CUE.test(around)) continue;
             fail(rel, 'visible text still shows the retired price "' + v[0] +

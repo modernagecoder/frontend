@@ -194,7 +194,7 @@ CBSE Computational Thinking & AI for Classes 9-12: Python, Machine Learning and 
 
 ### [Codex & Claude Code for Teens: AI Coding Agents Course](https://learn.modernagecoders.com/courses/codex-and-claude-code-ai-coding-agents-course-for-teens/)
 
-*Level:* Beginner-friendly (ages 13-18) to confident AI-agent builder · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹7,500/month
+*Level:* Beginner-friendly (ages 13-18) to confident AI-agent builder · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹9,999/month
 
 Live online Codex + Claude Code course for teens 13-18. 24 mentor-led classes: install the CLIs, plan mode, MCP, subagents, then ship a real app. Free demo class.
 
@@ -700,7 +700,7 @@ A 6-month design course to master Canva, photo and video editing and AI tools, c
 
 ### [Codex & Claude Code: AI Coding Agents for Professionals](https://learn.modernagecoders.com/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals/)
 
-*Level:* Beginner to advanced, for working professionals, career switchers & developers · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹7,500/month
+*Level:* Beginner to advanced, for working professionals, career switchers & developers · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹9,999/month
 
 Live online Codex + Claude Code masterclass for professionals. 24 mentor-led classes: CLIs, MCP, subagents, hooks, both SDKs and a production capstone.
 

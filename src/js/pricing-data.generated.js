@@ -9,7 +9,7 @@
  */
 window.MAC_PRICING = {
   "version": 2,
-  "updated": "2026-08-01",
+  "updated": "2026-08-03",
   "generatedFrom": "pricing/pricing.config.jsonc",
   "plans": {
     "coding": {
@@ -40,7 +40,7 @@ window.MAC_PRICING = {
       "india": {
         "group": 1499,
         "miniBatch": 2999,
-        "personal": 7500
+        "personal": 9999
       },
       "international": {
         "group": 100,
@@ -50,7 +50,7 @@ window.MAC_PRICING = {
     },
     "school": {
       "india": {
-        "group": 1999,
+        "group": 1499,
         "miniBatch": null,
         "personal": 2999
       },
@@ -62,10 +62,10 @@ window.MAC_PRICING = {
     },
     "camps": {
       "india": {
-        "oneTime": 4999
+        "oneTime": 9999
       },
       "international": {
-        "oneTime": 60
+        "oneTime": 200
       }
     }
   },
