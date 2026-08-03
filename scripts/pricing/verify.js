@@ -128,8 +128,14 @@ function checkRetiredFigures(rel, html) {
         while ((t = textRx.exec(body)) !== null) targets.push(['schema text', t[1]]);
     }
 
+    // On camp pages ₹4,999 is the CURRENT one-time fee, so only the other
+    // retired figures count there.
+    const retiredHere = /camp/i.test(rel)
+        ? /(?:\$|USD\s?)(?:40(?![\d.])|149\.99|374\.99|121\.99|61\.99)|(?:₹|&#8377;|Rs\.?\s?)\s?(?<![\d,])(?:2,?499|9,?999)(?![\d.])/
+        : RETIRED;
+
     targets.forEach(function (pair) {
-        if (!RETIRED.test(pair[1])) return;
+        if (!retiredHere.test(pair[1])) return;
         if (COMPETITOR_CUE.test(pair[1])) return;   // quoting others is fine
         fail(rel, pair[0] + ' quotes a retired price: "' +
             pair[1].slice(0, 90) + '..." — see pricing/pricing.config.jsonc for the real ones.');

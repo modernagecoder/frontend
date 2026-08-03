@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-singapore.html
 
 In short
 
-Modern Age Coders teaches live online AI and machine learning to learners in Singapore aged 6 to 67, in groups of five to eight or one to one. The work is Python, the mathematics that sits under a model, and the harder discipline of proving a result is real rather than borrowed from the answer. Slots are quoted in SGT alongside IST. Group fees are USD 40 a month, about SGD 51.60, and the first class is free.
+Modern Age Coders teaches live online AI and machine learning to learners in Singapore aged 6 to 67, in groups of five to eight or one to one. The work is Python, the mathematics that sits under a model, and the harder discipline of proving a result is real rather than borrowed from the answer. Slots are quoted in SGT alongside IST. Group fees are a flat USD 100 a month, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -362,13 +362,13 @@ Fees
 
 ## What a family in Singapore pays, once the teaching argument has been made
 
-Fees are set in US dollars and shown in Singapore dollars at a mid-market rate of 1 USD to 1.29 SGD, taken on 25 July 2026 from Wise and cross-checked against exchange-rates.org, which showed 1.29094 the previous day. The rate floats, so the figure moves slightly with the day a card settles. Billing is monthly, with no joining fee.
+Fees are set in US dollars and billed in US dollars, a flat rate that is the same everywhere outside India: USD 100 a month for a group batch, USD 150 a month for one to one. Billing is monthly, with no joining fee.
 
 Free first class
 
-SGD 0
+USD 0
 
-USD 0, no card needed
+No card needed
 
 - A real lesson with a real teacher, not a sales call
 - Doubles as a placement check so the level is pitched correctly
@@ -378,9 +378,9 @@ Book it
 
 Group batch
 
-SGD 51.60
+USD 100
 
-USD 40 a month
+Per month, billed in US dollars
 
 - Five to eight students, same teacher every week
 - Live video, never a recording
@@ -391,9 +391,9 @@ Start here
 
 One to one
 
-SGD 129.00
+USD 150
 
-USD 100 a month
+Per month, billed in US dollars
 
 - Private teaching, your pace and your calendar
 - Best for examination years and for adults with few free evenings
@@ -401,7 +401,7 @@ USD 100 a month
 
 Enquire
 
-One honest note about that number. About S$52 a month sits well under what enrichment normally costs here, and a low price is usually a warning rather than a bargain, so it is worth saying where it comes from: we teach from India, and we charge the same fee in every one of the 25+ countries we serve rather than pricing by postcode.
+One honest note about that number. USD 100 a month sits well under what enrichment normally costs here, and a low price is usually a warning rather than a bargain, so it is worth saying where it comes from: we teach from India, and we charge the same fee in every one of the 25+ countries we serve rather than pricing by postcode.
 
 What families say
 
@@ -477,9 +477,9 @@ Yes. Paper 2 of syllabus 7155 runs 2 hours 30 minutes for 70 marks, is worth 40 
 
 Every class is live video with the same teacher each week, and nothing is a recording. Singapore is SGT at UTC+8 and India is IST at UTC+5:30, so Singapore is 2 hours 30 minutes ahead, and neither country observes daylight saving. Slots are 7:30pm to 8:30pm SGT on Tuesday and Thursday, 8:45pm to 9:45pm SGT on Monday and Wednesday, and Saturday 10:00am to 11:30am SGT.
 
-### How much is it in Singapore dollars, and are there any additional or hidden fees?
+### How much does it cost, and are there any additional or hidden fees?
 
-A group batch of five to eight students is USD 40 a month, about SGD 51.60, and one to one teaching is USD 100 a month, about SGD 129.00, converted at a mid-market rate of 1 USD to 1.29 SGD taken on 25 July 2026. There is no registration fee, no materials fee and no annual contract, and the first class is free.
+A group batch of five to eight students is a flat USD 100 a month, and one to one teaching is USD 150 a month, billed in US dollars, the same rate everywhere outside India. There is no registration fee, no materials fee and no annual contract, and the first class is free.
 
 ### Will this help with admission to NUS Common Computer Science Programmes or NTU Data Science and Artificial Intelligence?
 

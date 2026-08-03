@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-muscat.html
 
 In short
 
-Modern Age Coders runs live online AI and machine learning classes for students in Muscat, ages 6 to 67, in batches of five to eight or one to one. Students work in Python, take on the statistics and linear algebra machine learning actually runs on, and finish able to train a model and state how accurate it is. Classes run Sunday to Thursday on Gulf Standard Time, with a Friday or Saturday morning option. Fees are USD 40 a month, OMR 15.380, and the first class is free.
+Modern Age Coders runs live online AI and machine learning classes for students in Muscat, ages 6 to 67, in batches of five to eight or one to one. Students work in Python, take on the statistics and linear algebra machine learning actually runs on, and finish able to train a model and state how accurate it is. Classes run Sunday to Thursday on Gulf Standard Time, with a Friday or Saturday morning option. Fees are USD 100 a month for a group batch, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -357,13 +357,13 @@ Fees
 
 ## What it costs a family in Muscat
 
-The rial is not a floating currency. The Central Bank of Oman has held a fixed peg of 2.6008 US dollars to the rial since 1986, so the figures below are stable rather than a conversion that moves each week. For local scale: the Board of Directors of Indian Schools in Oman charges OMR 15 to process an online admission registration, so a month of live classes costs about what one registration form costs.
+Fees are flat and billed in US dollars: USD 100 a month for a group batch and USD 150 a month for one to one, the same figures everywhere outside India. A month covers eight live one-hour classes, and the first class is free.
 
 Free first class
 
-OMR 0
+USD 0
 
-USD 0, no card needed
+no card needed
 
 - A real class with a real teacher, not a sales call
 - Doubles as a placement check
@@ -373,9 +373,9 @@ Book it
 
 Group batch
 
-OMR 15.380
+USD 100
 
-USD 40 a month
+a month, billed in US dollars
 
 - Five to eight students, the same teacher every week
 - Live video, never a recording
@@ -386,9 +386,9 @@ Start here
 
 One to one
 
-OMR 38.450
+USD 150
 
-USD 100 a month
+a month, billed in US dollars
 
 - Private teaching at your pace and schedule
 - Best for board years and for adults with few free evenings
@@ -466,9 +466,9 @@ Batches run Sunday to Thursday, the Omani working and school week, so classes la
 
 Join in any week. Admission is rolling and the free first class doubles as a placement check, so a student starts at the level they are actually at rather than where a batch has reached. Two moments in the Muscat year are easier than the rest: the opening fortnight in early April, and the July reopening. The two we would avoid are the June travel exodus and the annual examinations in February.
 
-### What does USD 40 a month come to in rials, and does the price move when the dollar moves?
+### How much do the classes cost, and is the fee billed in rials or dollars?
 
-A group batch of five to eight students is USD 40 a month, which is OMR 15.380, that is 15 rials and 380 baisa. One to one teaching is USD 100 a month, which is OMR 38.450. The figure does not move, because the rial is not a floating currency: the Central Bank of Oman has held a fixed peg of 2.6008 US dollars to the rial since 1986. For scale, the Board of Directors of Indian Schools in Oman charges OMR 15 to process an online admission registration.
+A group batch of five to eight students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars. The fee is the same flat figure everywhere outside India, so there is no rial conversion to watch. The first class is free and does not need a card.
 
 ### My son wants the BSc in Artificial Intelligence at NU in Azaiba. What should he be able to do before he gets there?
 

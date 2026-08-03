@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-kuwait-city.html
 
 In short
 
-Modern Age Coders runs live online AI and machine learning classes for students in Kuwait City, ages 6 to 67, in small batches of five to eight or one to one. Students write Python, meet the mathematics sitting under every model, and leave having trained something and measured its error themselves. Classes are timetabled to Kuwait's Sunday to Thursday week. Fees are KD 12.312 a month for a group batch, which is USD 40, and the first class is free.
+Modern Age Coders runs live online AI and machine learning classes for students in Kuwait City, ages 6 to 67, in small batches of five to eight or one to one. Students write Python, meet the mathematics sitting under every model, and leave having trained something and measured its error themselves. Classes are timetabled to Kuwait's Sunday to Thursday week. Fees are a flat USD 100 a month for a group batch, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -367,13 +367,13 @@ Fees
 
 ## What it costs a family in Kuwait City
 
-Prices are quoted in dinars first, because that is the currency you pay in. The dinar divides into 1,000 fils, so KD 12.312 reads as twelve dinars and 312 fils. The figures below use the Central Bank of Kuwait official rate of USD 1 to KD 0.3078, published on 23 July 2026. The dinar is pegged to an undisclosed weighted basket of currencies under Decree No. 147/2007, in force since 20 May 2007, and not to the US dollar, so a dollar price drifts slightly against the dinar over time and we confirm the dinar figure at enrolment. Billing is month to month. Nothing is charged to join, and nothing ties you to a year.
+Prices are quoted in US dollars, because that is the currency we bill in: a flat USD 100 a month for a group batch and USD 150 for one to one, the same fee everywhere outside India. Your bank converts the charge to dinars at its own card rate on the day, which is why we do not print a dinar figure that would only drift. Billing is month to month. Nothing is charged to join, and nothing ties you to a year.
 
 Free first class
 
-KD 0.000
+USD 0
 
-USD 0, no card needed
+No card needed
 
 - A real class, not a sales call
 - Doubles as a placement check so the teacher pitches the level correctly
@@ -383,9 +383,9 @@ Book it
 
 Group batch
 
-KD 12.312
+USD 100
 
-USD 40 a month
+a month, billed in US dollars
 
 - Five to eight students, same teacher every week
 - Live video, never a recording
@@ -396,9 +396,9 @@ Start here
 
 One to one
 
-KD 30.780
+USD 150
 
-USD 100 a month
+a month, billed in US dollars
 
 - Private teaching, your pace and your schedule
 - Best for board exam years and for adults with limited evenings
@@ -474,7 +474,7 @@ Kuwait City runs on Arabia Standard Time, UTC+3, with no daylight saving at any 
 
 ### What is the fee in Kuwaiti dinars, and can we pay from a Kuwaiti bank card rather than being quoted in dollars?
 
-A group batch is KD 12.312 a month, twelve dinars and 312 fils, which is USD 40. One to one teaching is KD 30.780, thirty dinars and 780 fils, which is USD 100. Those figures use the Central Bank of Kuwait official rate of USD 1 to KD 0.3078, published on 23 July 2026. The dinar is not pegged to the dollar. Since 20 May 2007, under Decree No. 147/2007, it has been pegged to an undisclosed weighted basket of currencies, so a dollar price drifts slightly against the dinar rather than being fixed, and we confirm the dinar figure at enrolment. We take payment from cards issued by Kuwaiti banks including NBK, Kuwait Finance House and Boubyan.
+A group batch is a flat USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same fee everywhere outside India. We do not keep a separate dinar price list; your bank converts the dollar charge at its own card rate on the day, so the dinar amount on the statement can drift by a few fils while the fee itself stays put. We take payment from cards issued by Kuwaiti banks including NBK, Kuwait Finance House and Boubyan.
 
 ### My child is in Grade 10 at a Kuwait Ministry of Education school and AI has just been added to the computer development textbook. Does your course support that unit?
 

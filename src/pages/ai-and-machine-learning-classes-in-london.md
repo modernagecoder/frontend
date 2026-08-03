@@ -1,14 +1,14 @@
 ---
 title: "AI and Machine Learning Classes in London | Build AI"
-description: "Live online AI and machine learning classes for students in London, ages 6 to 67. Train real models in Python, not just prompts. From about 30 pounds a month."
+description: "Live online AI and machine learning classes for students in London, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month."
 canonical: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-london
 source: src/pages/ai-and-machine-learning-classes-in-london.html
 ---
-> Live online AI and machine learning classes for students in London, ages 6 to 67. Train real models in Python, not just prompts. From about 30 pounds a month.
+> Live online AI and machine learning classes for students in London, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month.
 
 In short
 
-Modern Age Coders teaches live online AI and machine learning to learners in London, age 6 to 67, in rooms of five to eight or privately. The subject is model building: Python first, then the statistics and linear algebra a model rests on, then training and measuring something real on published London data. A group place is USD 40 a month, roughly £30, and one to one is USD 100, roughly £75. Saturday 10:00 to 12:00 London is the slot most families take, and the first class costs nothing.
+Modern Age Coders teaches live online AI and machine learning to learners in London, age 6 to 67, in rooms of five to eight or privately. The subject is model building: Python first, then the statistics and linear algebra a model rests on, then training and measuring something real on published London data. A group place is USD 100 a month, and one to one is USD 150, both billed in US dollars. Saturday 10:00 to 12:00 London is the slot most families take, and the first class costs nothing.
 
 The catalogue
 
@@ -361,15 +361,15 @@ by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTe
 
 Fees
 
-## What a London family pays, and what the sterling figure rests on
+## What a London family pays
 
-We bill in US dollars and publish the sterling equivalent openly. The conversion uses the Bank of England daily spot rate, series XUDLUSS, which stood at 1.3320 dollars per pound on 23 July 2026. That series is quoted as dollars per pound, so a dollar figure is divided by 1.3320 rather than multiplied by it. Fees are monthly, with no admission charge and no annual commitment.
+We bill in US dollars: a flat USD 100 a month for a group batch and USD 150 for one to one, the same fee everywhere outside India. Your bank converts the charge to sterling at its own card rate on the day, which is why we do not print a pound figure that would only go stale. Fees are monthly, with no admission charge and no annual commitment.
 
 Free first class
 
-£0
+USD 0
 
-USD 0, and no card is taken
+No card is taken
 
 - A genuine lesson taught by the teacher you would get
 - It doubles as a placement check, so nobody starts in the wrong band
@@ -379,9 +379,9 @@ Book it
 
 Group batch
 
-about £30
+USD 100
 
-USD 40 a month
+a month, billed in US dollars
 
 - Five to eight learners with one teacher who stays with the room
 - Taught live every week, with nothing pre-recorded
@@ -392,9 +392,9 @@ Start here
 
 One to one
 
-about £75
+USD 150
 
-USD 100 a month
+a month, billed in US dollars
 
 - Private teaching at your pace and around your week
 - Suited to exam years, and to adults with one free evening
@@ -402,7 +402,7 @@ USD 100 a month
 
 Enquire
 
-A note on why those figures say about. Inside July 2026 alone the Bank of England series opened at 1.3278 on 1 July, reached 1.3489 on 16 July and stood at 1.3320 on 23 July, a swing of roughly 1.6 per cent in one month. A page printing an exact pound figure is stale within weeks, so we show the rate and the date and let you check the arithmetic. Both figures sit well below typical London in-person tutoring, which is why that argument is at the bottom of this page rather than the top.
+A note on the currency. The fee is set in dollars and held there; a page printing an exact pound figure is stale within weeks, because the exchange rate moves, so we leave the conversion to your bank. Both figures sit well below typical London in-person tutoring, which is why that argument is at the bottom of this page rather than the top.
 
 What families say
 
@@ -484,7 +484,7 @@ The government's own survey says so. DSIT's AI Labour Market Survey 2025 recorde
 
 ### How much does it cost in pounds?
 
-A group batch is USD 40 a month, about £30, and one to one teaching is USD 100 a month, about £75. Those figures use the Bank of England spot rate of 1.3320 US dollars to £1 on 23 July 2026, a series quoted as dollars per pound, so the dollar figure is divided rather than multiplied. The rate moved about 1.6 per cent inside July 2026 alone, so we publish the rate and the date beside it. The first class is free.
+We bill in US dollars, not pounds: a group batch is a flat USD 100 a month and one to one teaching is USD 150 a month, the same fee everywhere outside India. Your bank converts the charge to sterling at its own card rate on the day, which is why we do not print a pound figure that would be stale within weeks. The first class is free.
 
 ### My child sits Cambridge IGCSE rather than GCSE. Does that change anything?
 

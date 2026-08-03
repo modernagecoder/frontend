@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-uae.html
 
 In short
 
-Modern Age Coders runs live online AI and machine learning classes across the United Arab Emirates, ages 6 to 67, in batches of five to eight or one to one. Students learn Python and the mathematics beneath machine learning, then train, evaluate and correct their own models instead of only prompting AI products. Group fees are USD 40 a month, AED 146.90 at the dirham peg, and the first class is free.
+Modern Age Coders runs live online AI and machine learning classes across the United Arab Emirates, ages 6 to 67, in batches of five to eight or one to one. Students learn Python and the mathematics beneath machine learning, then train, evaluate and correct their own models instead of only prompting AI products. Group fees are USD 100 a month, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -348,13 +348,13 @@ Fees
 
 ## What it costs a family in the UAE
 
-The dirham does not float. The Central Bank of the UAE has held a fixed peg to the US dollar since 1997 at 1 USD to 3.6725 AED, defending it by standing ready to buy or sell in unlimited size, and every other rate in the country is a cross rate derived from it. The dirham figures below are therefore arithmetic rather than a conversion that drifts. Paid monthly, with no admission charge and no annual contract.
+Pricing is flat: USD 100 a month for a group batch and USD 150 a month for one to one, billed in US dollars everywhere outside India. Paid monthly, with no admission charge and no annual contract.
 
 Free first class
 
-AED 0
+USD 0
 
-USD 0, no card needed
+No card needed
 
 - A real class, not a sales call
 - Doubles as a placement check so the teacher pitches the level correctly
@@ -364,9 +364,9 @@ Book it
 
 Group batch
 
-AED 146.90
+USD 100
 
-USD 40 a month at the peg
+a month, billed in US dollars
 
 - Five to eight students, same teacher every week
 - Live video, never a recording
@@ -377,9 +377,9 @@ Start here
 
 One to one
 
-AED 367.25
+USD 150
 
-USD 100 a month at the peg
+a month, billed in US dollars
 
 - Private teaching, your pace and your schedule
 - Best for board years and adults with limited evenings
@@ -453,9 +453,9 @@ Because the school programme is literacy and ours is construction. The governmen
 
 No late nights. The UAE is on Gulf Standard Time, UTC+4, exactly one hour and thirty minutes behind India, so when it is 8:00 PM in Mumbai it is 6:30 PM in Dubai. Weekday slots run 17:00 to 18:30 for primary and middle school and 19:30 to 21:00 for Grade 9 to 12 and adults, with Saturday 10:00 to 12:00 for project builds. We also run a Friday 2:00 PM slot on request, which suits Dubai and Abu Dhabi students because schools close by noon on Fridays, and suits Sharjah families even better because Sharjah keeps a four day week.
 
-### How much is this in dirhams, and does the price move?
+### How much does it cost, and does the price move?
 
-A group batch is USD 40 a month, which is AED 146.90, and one to one teaching is USD 100 a month, which is AED 367.25. Those dirham figures do not drift, because the Central Bank of the UAE has held a fixed peg to the US dollar since 1997 at 1 USD to 3.6725 AED. Your card issuer may add its own foreign transaction fee, which is a bank charge rather than a currency movement. The first class is free and needs no card.
+A group batch is USD 100 a month and one to one teaching is USD 150 a month, flat and billed in US dollars everywhere outside India. Your card issuer may add its own foreign transaction fee, which is a bank charge rather than anything we set. The first class is free and needs no card.
 
 ### Will this actually help with MBZUAI or with Khalifa University admissions?
 

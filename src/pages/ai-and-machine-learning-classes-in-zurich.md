@@ -1,14 +1,14 @@
 ---
 title: "AI and Machine Learning Classes in Zurich | Build AI"
-description: "Live online AI and machine learning classes for students in Zurich, ages 6 to 67. Train real models in Python, not just prompts. From about CHF 32 a month."
+description: "Live online AI and machine learning classes for students in Zurich, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month."
 canonical: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-zurich
 source: src/pages/ai-and-machine-learning-classes-in-zurich.html
 ---
-> Live online AI and machine learning classes for students in Zurich, ages 6 to 67. Train real models in Python, not just prompts. From about CHF 32 a month.
+> Live online AI and machine learning classes for students in Zurich, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month.
 
 In short
 
-Modern Age Coders teaches live online AI and machine learning to learners in Zurich from age 6 to age 67, in groups of five to eight or privately. The syllabus begins with Python and the mathematics a model actually runs on, then moves through training, evaluation and deployment, so a student finishes able to build a system rather than only query one. Group fees are USD 40 a month, roughly CHF 32 at 0.8069 francs to the dollar, and the first class costs nothing.
+Modern Age Coders teaches live online AI and machine learning to learners in Zurich from age 6 to age 67, in groups of five to eight or privately. The syllabus begins with Python and the mathematics a model actually runs on, then moves through training, evaluation and deployment, so a student finishes able to build a system rather than only query one. Group fees are USD 100 a month, billed in US dollars, and the first class costs nothing.
 
 The catalogue
 
@@ -354,13 +354,13 @@ by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTe
 
 Fees
 
-## The monthly cost in francs, and what that franc figure rests on
+## The monthly cost, and why it is billed in dollars
 
-We bill in US dollars and print the franc figure next to it, because the franc floats and any number published here will drift. The conversion uses 0.8069 francs to the dollar, from the Federal Reserve H.10 release of 20 July 2026. Billing is monthly, there is no registration charge, and nothing is tied to an academic year.
+We bill in US dollars, one flat price in every country we teach outside India, so the figure printed below is the figure charged and it does not drift with the franc. Billing is monthly, there is no registration charge, and nothing is tied to an academic year.
 
 Free first class
 
-CHF 0
+$0
 
 USD 0, no card needed
 
@@ -372,9 +372,9 @@ Book it
 
 Group batch
 
-about CHF 32
+$100
 
-USD 40 a month, CHF 32.28 at 0.8069
+USD 100 a month
 
 - Five to eight learners, one teacher who stays with the batch
 - Live video every week, nothing pre-recorded
@@ -385,17 +385,15 @@ Start here
 
 One to one
 
-about CHF 81
+$150
 
-USD 100 a month, CHF 80.69 at 0.8069
+USD 150 a month
 
 - Private teaching, your calendar and your pace
 - The usual choice for an examination year, or an adult with two free evenings
 - Syllabus rebuilt around whatever you name as the goal
 
 Enquire
-
-One local yardstick, since a franc figure means nothing in the abstract. CHF 32 is roughly two per cent of the CHF 1,578 median net monthly rent on a three room flat in 2024, the same published median the first student project is built on.
 
 What families say
 
@@ -463,9 +461,9 @@ Informatik became compulsory at Swiss Gymnasien on 1 August 2022 under the parti
 
 Zurich runs CEST, UTC plus 2, from 29 March 2026 until 25 October 2026, then CET, UTC plus 1, through the winter. India keeps IST, UTC plus 5:30, all year with no daylight saving, so it sits 3 hours 30 minutes ahead in summer and 4 hours 30 minutes ahead in winter. A 17:30 Zurich start is 21:00 in India in summer and 22:00 in winter. Your slot does not move. The Indian end of it does, twice a year, and we absorb that on the roster.
 
-### Group teaching is about CHF 32 a month and one to one about CHF 81. What is included, and how does that compare with a Zurich Nachhilfe hour?
+### Group teaching is USD 100 a month and one to one USD 150. What is included, and how does that compare with a Zurich Nachhilfe hour?
 
-The dollar prices are USD 40 and USD 100 a month. At 0.8069 francs to the dollar, the rate in the Federal Reserve H.10 release of 20 July 2026, that is CHF 32.28 and CHF 80.69. Included: live weekly teaching in a group of five to eight or privately, the same teacher each week, a build task with teacher review, and a certificate. Hardware and paid AI subscriptions are neither included nor required. We publish no comparison against local tutoring rates, having no sourced Zurich figure for them. For scale, CHF 32 is about two per cent of the CHF 1,578 median monthly rent on a 3-room flat in 2024.
+The prices are USD 100 a month for group teaching and USD 150 for one to one, flat dollar prices billed in US dollars everywhere we teach outside India. Included: live weekly teaching in a group of five to eight or privately, the same teacher each week, a build task with teacher review, and a certificate. Hardware and paid AI subscriptions are neither included nor required. We publish no comparison against local tutoring rates, having no sourced Zurich figure for them.
 
 ### Does this help with the ZAP for the Langgymnasium on 8 March 2027?
 

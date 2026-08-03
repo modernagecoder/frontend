@@ -1,14 +1,14 @@
 ---
 title: "Learn to Build AI, Not Just Use It | Live Online, Worldwide"
-description: "Live online classes that teach you to train, evaluate and ship real machine learning models, not just prompt chatbots. Ages 6 to 67, taught worldwide from USD 40."
+description: "Live online classes that teach you to train, evaluate and ship real machine learning models, not just prompt chatbots. Ages 6 to 67, taught worldwide from USD 100 a month."
 canonical: https://learn.modernagecoders.com/learn-to-build-ai
 source: src/pages/learn-to-build-ai.html
 ---
-> Live online classes that teach you to train, evaluate and ship real machine learning models, not just prompt chatbots. Ages 6 to 67, taught worldwide from USD 40.
+> Live online classes that teach you to train, evaluate and ship real machine learning models, not just prompt chatbots. Ages 6 to 67, taught worldwide from USD 100 a month.
 
 In short
 
-Modern Age Coders teaches machine learning by building it. Students aged 6 to 67 learn Python, the mathematics that machine learning runs on, and the full loop of preparing data, training a model, measuring its error and improving it. Classes are live and online in small batches, priced from USD 40 a month, and taught to local evening hours in more than 25 countries. The first class is free.
+Modern Age Coders teaches machine learning by building it. Students aged 6 to 67 learn Python, the mathematics that machine learning runs on, and the full loop of preparing data, training a model, measuring its error and improving it. Classes are live and online in small batches, priced from USD 100 a month, and taught to local evening hours in more than 25 countries. The first class is free.
 
 The distinction
 
@@ -238,7 +238,7 @@ Where we teach
 
 ## The same curriculum, written for your country
 
-Each page below is written for one market: the national AI strategy your government has actually published, the exam board your child actually sits, the universities they are actually aiming at, class times in your evening, fees in your currency, and a first machine learning project built on data from your own country.
+Each page below is written for one market: the national AI strategy your government has actually published, the exam board your child actually sits, the universities they are actually aiming at, class times in your evening, one flat fee in US dollars, and a first machine learning project built on data from your own country.
 
 [OmanGST · OMR](/ai-and-machine-learning-classes-in-oman)[MuscatGST · OMR](/ai-and-machine-learning-classes-in-muscat)[KuwaitAST · KWD](/ai-and-machine-learning-classes-in-kuwait)[Kuwait CityAST · KWD](/ai-and-machine-learning-classes-in-kuwait-city)[BahrainAST · BHD](/ai-and-machine-learning-classes-in-bahrain)[United Arab EmiratesGST · AED](/ai-and-machine-learning-classes-in-uae)[Saudi ArabiaAST · SAR](/ai-and-machine-learning-classes-in-saudi-arabia)[QatarAST · QAR](/ai-and-machine-learning-classes-in-qatar)[United StatesET to PT · USD](/ai-and-machine-learning-classes-in-usa)[United KingdomGMT/BST · GBP](/ai-and-machine-learning-classes-in-uk)[LondonGMT/BST · GBP](/ai-and-machine-learning-classes-in-london)[SwitzerlandCET · CHF](/ai-and-machine-learning-classes-in-switzerland)[ZurichCET · CHF](/ai-and-machine-learning-classes-in-zurich)[SingaporeSGT · SGD](/ai-and-machine-learning-classes-in-singapore)[CanadaET to PT · CAD](/ai-and-machine-learning-classes-in-canada)[AustraliaAEST · AUD](/ai-and-machine-learning-classes-in-australia)[GermanyCET · EUR](/ai-and-machine-learning-classes-in-germany)[NetherlandsCET · EUR](/ai-and-machine-learning-classes-in-netherlands)[IrelandGMT/IST · EUR](/ai-and-machine-learning-classes-in-ireland)[Hong KongHKT · HKD](/ai-and-machine-learning-classes-in-hong-kong)
 
@@ -292,9 +292,9 @@ by Krish · [Open it](https://krish-shroff.github.io/AuraWeatherTech/)
 
 Fees
 
-## One price, shown in your currency on your country page
+## One price worldwide, billed in US dollars
 
-Monthly, with no admission fee and no annual lock in. Each market page shows the same fee converted into local currency at the published rate.
+Monthly, with no admission fee and no annual lock in. The fee is a flat USD 100 a month for group classes and USD 150 for one to one, billed in US dollars, everywhere outside India.
 
 Free first class
 
@@ -310,7 +310,7 @@ Book it
 
 Group batch
 
-USD 40
+USD 100
 
 per month
 
@@ -323,7 +323,7 @@ Start here
 
 One to one
 
-USD 100
+USD 150
 
 per month
 
@@ -413,7 +413,7 @@ Working software at a real address, not slide decks. Students train models on pu
 
 ### How much does it cost and where do you teach?
 
-Group batches of five to eight students are USD 40 a month and one to one teaching is USD 100 a month, shown in local currency on each country page. We teach live online to students in more than 25 countries, with class times set to local evenings rather than to our own convenience. The first class is free and does not require a card.
+Group batches of five to eight students are USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars everywhere outside India. We teach live online to students in more than 25 countries, with class times set to local evenings rather than to our own convenience. The first class is free and does not require a card.
 
 ### Are the classes live or recorded?
 

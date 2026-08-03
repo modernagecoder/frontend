@@ -26,7 +26,7 @@ How we ranked
 
 Live online school · maths + coding · ages 6 to 67
 
-Live, small-batch maths taught for genuine understanding rather than drilling, by a dedicated mentor, with the option to learn maths and coding together so abstract concepts become things a child can build. Aligned to CBSE, ICSE and international boards. Group is 1,499 rupees a month in India, with international prices set for your country; one-to-one is 4,999 rupees or $150.
+Live, small-batch maths taught for genuine understanding rather than drilling, by a dedicated mentor, with the option to learn maths and coding together so abstract concepts become things a child can build. Aligned to CBSE, ICSE and international boards. Group is 1,499 rupees a month in India or $100 outside; one-to-one is 8,500 rupees in India or $150.
 
 Live small batchesUnderstanding over drillingMaths + coding together4.9 across 547 reviews2
 

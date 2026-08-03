@@ -1,10 +1,10 @@
 ---
 title: "Online Coding & AI Classes in Ireland | Leaving Cert"
-description: "Live 1:1 online coding, Python & AI for students across Ireland. Junior Cycle & Leaving Cert aligned; Trinity, UCD & UCC ready. EUR 92 (USD 100) a month."
+description: "Live 1:1 online coding, Python & AI for students across Ireland. Junior Cycle & Leaving Cert aligned; Trinity, UCD & UCC ready. USD 150 a month."
 canonical: https://learn.modernagecoders.com/coding-classes-in-ireland
 source: src/pages/coding-classes-in-ireland.html
 ---
-> Live 1:1 online coding, Python & AI for students across Ireland. Junior Cycle & Leaving Cert aligned; Trinity, UCD & UCC ready. EUR 92 (USD 100) a month.
+> Live 1:1 online coding, Python & AI for students across Ireland. Junior Cycle & Leaving Cert aligned; Trinity, UCD & UCC ready. USD 150 a month.
 
 ### Request a callback
 
@@ -18,7 +18,7 @@ Ireland · Online School · +353 · GMT / IST
 
 # Real coding & AI for Irish students — from primary, through Transition Year, to Leaving Cert and beyond.
 
-Live 1:1 mentorship in **Python**, modern web and **agentic AI** for students right across the 26 counties — aligned with the **Junior Cycle Coding short course**, the **Transition Year (TY) coding module**, the **Leaving Certificate Computer Science specification** (Higher & Ordinary, since 2018), and the algorithmic depth that **TCD, UCD, UCC, DCU, UL, NUI Galway, Maynooth** and **TU Dublin** actually evaluate. **EUR 92 a month** (USD 100), eight live sessions, two per week, cancel anytime.
+Live 1:1 mentorship in **Python**, modern web and **agentic AI** for students right across the 26 counties — aligned with the **Junior Cycle Coding short course**, the **Transition Year (TY) coding module**, the **Leaving Certificate Computer Science specification** (Higher & Ordinary, since 2018), and the algorithmic depth that **TCD, UCD, UCC, DCU, UL, NUI Galway, Maynooth** and **TU Dublin** actually evaluate. **USD 150 a month**, eight live sessions, two per week, cancel anytime.
 
 See the JC → LC pathway"Ríomhchlárú agus intleacht shaorga don aos óg ar fud na hÉireann."Gaeilge-friendly. Several mentors can structure sessions for Gaelscoil / Gaelcholáiste students whose primary instruction is through Irish — code itself stays in English (Python keywords are English) but we accommodate bilingual learners on request.The Irish pathway, one diagram
 
@@ -58,13 +58,13 @@ TCD CS · UCD CS Engineering · UCC CS · DCU CS · UL CSIS · NUIG CS · Maynoo
 
 **Where Modern Age Coders adds value:** not by replacing the Irish school system — Irish schools, particularly the strong ones, do the academic work well — but by adding the 1:1 depth, real working projects on GitHub, the Computational Thinking project polish, and the CAO-points buffer that comes from genuinely strong LC Computer Science and LC Higher Maths grades.
 
-**4.9 / 5**From 980 Irish parent & student reviews**GMT/IST**Same time zone as London — UK-trained & India-trained mentors**LC CS**Direct alignment with the 2018 LC Computer Science specification**EUR 92**Per month · no VAT · cancel anytimeChoose your child's track
+**4.9 / 5**From 980 Irish parent & student reviews**GMT/IST**Same time zone as London — UK-trained & India-trained mentors**LC CS**Direct alignment with the 2018 LC Computer Science specification**USD 150**Per month · no VAT · cancel anytimeChoose your child's track
 
 ## Pick the course that matches their year — book a trial in under 30 seconds.
 
-Every course runs as live 1:1 with a mentor matched to your child's exact year (1st class primary all the way to LC6). Two 45-minute sessions per week. EUR 92 (USD 100) per month for 1:1, or EUR 37 (USD 40) for small-group cohort.
+Every course runs as live 1:1 with a mentor matched to your child's exact year (1st class primary all the way to LC6). Two 45-minute sessions per week. USD 150 per month for 1:1, or USD 100 for small-group cohort.
 
-[1st – 3rd class · Primary Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play and animation-led. Strengthens primary-school mathematical thinking quietly. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/kids)[4th – 6th class · Primary Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional physical-computing add-on with BBC micro:bit so the code controls something they can see. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/kids)[1st – 3rd year · Junior Cycle Junior Cycle Coding short course Direct alignment with the NCCA Junior Cycle Coding short course. Python, web fundamentals, classroom-based assessment (CBA) preparation that scores. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/teens)[Transition Year · 4th year TY Coding Deep-Dive Our most-recommended Irish track. TY students have the time, the headspace, and the lack of LC pressure to build a serious portfolio. Many of our advanced senior-cycle outcomes start here. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th – 6th year · LC CS Higher Leaving Cert Computer Science (Higher) Full Higher Level coverage of the 2018 LCCS specification. Practices & Principles, Core Concepts, Computer Science in Practice. Past-paper drills + the 30% Computational Thinking project guided start-to-finish. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th – 6th year · LC CS Ordinary Leaving Cert Computer Science (Ordinary) For students taking LC CS at Ordinary Level — we don't push Higher when Ordinary is the right call. The full Ordinary specification, plus solid project guidance. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th – 6th year · LC Higher Maths LC Higher Maths support Calculus, algebra, probability, the LC Higher Maths Project Maths Paper 1 & 2. Many Irish students who want CS at TCD/UCD also need a strong Higher Maths grade — we support both. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/teens)[Third level / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Stripe Dublin, Intercom, Workday, Salesforce and the IDA-supported Irish startup ecosystem recruit for. EUR 92 / month · 1:1 · 8 sessions](/courses/coding/college)
+[1st – 3rd class · Primary Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play and animation-led. Strengthens primary-school mathematical thinking quietly. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[4th – 6th class · Primary Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional physical-computing add-on with BBC micro:bit so the code controls something they can see. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[1st – 3rd year · Junior Cycle Junior Cycle Coding short course Direct alignment with the NCCA Junior Cycle Coding short course. Python, web fundamentals, classroom-based assessment (CBA) preparation that scores. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Transition Year · 4th year TY Coding Deep-Dive Our most-recommended Irish track. TY students have the time, the headspace, and the lack of LC pressure to build a serious portfolio. Many of our advanced senior-cycle outcomes start here. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th – 6th year · LC CS Higher Leaving Cert Computer Science (Higher) Full Higher Level coverage of the 2018 LCCS specification. Practices & Principles, Core Concepts, Computer Science in Practice. Past-paper drills + the 30% Computational Thinking project guided start-to-finish. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th – 6th year · LC CS Ordinary Leaving Cert Computer Science (Ordinary) For students taking LC CS at Ordinary Level — we don't push Higher when Ordinary is the right call. The full Ordinary specification, plus solid project guidance. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[5th – 6th year · LC Higher Maths LC Higher Maths support Calculus, algebra, probability, the LC Higher Maths Project Maths Paper 1 & 2. Many Irish students who want CS at TCD/UCD also need a strong Higher Maths grade — we support both. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Third level / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Stripe Dublin, Intercom, Workday, Salesforce and the IDA-supported Irish startup ecosystem recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)
 
 International schools in Ireland run IB, British and American curricula. These live courses prepare those exams directly.
 
@@ -180,17 +180,17 @@ Active GMT 15:00 – 20:00Also at Modern Age Coders
 
 ## Maths, taught with the same depth.
 
-The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For Irish families that means understanding-first teaching under the school syllabus, gaps repaired at the root, and IB or IGCSE for international schools. Premium 1-on-1 mentorship and small-group plans are priced for your country (shown on this page in your local currency), 8 classes a month, and every student starts with a free demo class.
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For Irish families that means understanding-first teaching under the school syllabus, gaps repaired at the root, and IB or IGCSE for international schools. Premium 1-on-1 mentorship is a flat USD 150 a month and small-group plans are USD 100, billed in USD, 8 classes a month, and every student starts with a free demo class.
 
 [IB Maths (AA & AI)](/ib-maths-tuition-online)[IGCSE Maths](/igcse-maths-tuition-online)[Grades 3-8 ladder](/online-math-tutor-3rd-grade)[Catch-Up Program](/math-catch-up-program)[Singapore Method](/singapore-math-method-tutoring)[The 2026 Guide](/best-online-math-tutoring-2026)
 
 Irish evening slots · 4.9 across 547 Google reviews · no registration fee
 
-Honest pricing in EUR
+Honest pricing in USD
 
-## One price for Ireland: EUR 92 a month. Eight live 1:1 sessions. Cancel anytime.
+## One price: USD 150 a month. Eight live 1:1 sessions. Cancel anytime.
 
-No joining fee. No registration fee. No annual lock-in. No "gold / platinum / diamond" upsell tiers. The same price for a 2nd-class primary student, a 6th-year LC CS Higher candidate, or a Sandyford-based adult career-switcher. We price in USD and quote the EUR equivalent at the current rate; you pay in whichever you prefer. No Irish VAT is added.
+No joining fee. No registration fee. No annual lock-in. No "gold / platinum / diamond" upsell tiers. The same price for a 2nd-class primary student, a 6th-year LC CS Higher candidate, or a Sandyford-based adult career-switcher. We price and bill in USD. No Irish VAT is added.
 
 Most chosen by Irish families
 
@@ -198,7 +198,7 @@ Most chosen by Irish families
 
 A named mentor in GMT/IST. Live, every session.
 
-EUR92/month / month
+USD150/monthBilled in USD
 
 - 8 live sessions per month · 2 per week · 45 min each
 - Same named mentor for as long as it's working
@@ -211,7 +211,7 @@ EUR92/month / month
 
 3 – 5 learners, same year, same curriculum.
 
-EUR37/month / month
+USD100/monthBilled in USD
 
 - 8 live group sessions per month · 2 per week · 60 min each
 - Same mentor every class · cohort stays together
@@ -219,7 +219,7 @@ EUR37/month / month
 - All the same project + GitHub setup as 1:1
 - Move to 1:1 anytime · prorated · no fee
 
-We accept payment in **EUR or USD**, by Visa / Mastercard, SEPA direct debit, or international bank transfer. No Irish VAT is charged.
+We bill in **USD**, by Visa / Mastercard, SEPA direct debit, or international bank transfer. No Irish VAT is charged.
 
 CAO-points awareness
 
@@ -426,7 +426,7 @@ What we promise · and what we don't
 - Send you a written 6-month outcome plan after the trial
 - Coordinate around Junior Cycle final exams, TY work-experience, LC mocks and the State Examinations Commission LC papers
 - Be honest if your child needs a different mentor — and switch them, free
-- Bill in EUR or USD on the date you joined — never on the 1st-of-month surprise
+- Bill in USD on the date you joined — never on the 1st-of-month surprise
 - Stop billing immediately on cancellation — no notice period, no last-month trick
 
 ### We won't
@@ -533,7 +533,7 @@ FAQ — Ireland-specific
 
 Are you an Ireland-registered company?
 
-We deliver as an education-services provider registered outside Ireland, which is why no Irish VAT applies to your bill. Delivery is online-only — there is no Irish office to visit. We issue cross-border invoices in EUR or USD if you need one for accounting.
+We deliver as an education-services provider registered outside Ireland, which is why no Irish VAT applies to your bill. Delivery is online-only — there is no Irish office to visit. We issue cross-border invoices in USD if you need one for accounting.
 
 Do you align with the NCCA Junior Cycle Coding short course?
 
@@ -569,11 +569,11 @@ Yes. Our LC specialists work directly from SEC marking schemes for past LC CS an
 
 What does it cost in EUR?
 
-Private 1:1 mentorship is USD 100 per month — 8 sessions, two each week. Small-group cohort is USD 40 per month. No Irish VAT. No joining fee. Month-to-month, cancel anytime.
+Private 1:1 mentorship is USD 150 per month — 8 sessions, two each week. Small-group cohort is USD 100 per month. Billed in USD. No Irish VAT. No joining fee. Month-to-month, cancel anytime.
 
-Can I pay in EUR or USD?
+How do I pay?
 
-Either. Most Irish families pay by Visa or Mastercard (EUR-billed). Some pay by SEPA direct debit. Some pay by international transfer in USD. Whichever you choose, the amount converts at the spot rate on the billing date.
+Billing is in USD. Most Irish families pay by Visa or Mastercard and let the bank handle the conversion. SEPA direct debit and international bank transfer work too.
 
 Will the mentor help set up a school-issued laptop?
 
@@ -629,7 +629,7 @@ The mentor stays with your child. Only the time zone changes. We've onboarded re
 
 Do you offer scholarships for Irish students?
 
-Yes — a small annual scholarship pool for high-potential students whose families can't comfortably afford EUR 92 / month. Email us a short note from the parent + a piece of work from the child. We award 8 – 12 Ireland scholarships per academic year, 50%–100% of the monthly fee.
+Yes — a small annual scholarship pool for high-potential students whose families can't comfortably afford USD 150 / month. Email us a short note from the parent + a piece of work from the child. We award 8 – 12 Ireland scholarships per academic year, 50%–100% of the monthly fee.
 
 What happens during Christmas / Easter / summer holidays?
 
@@ -789,7 +789,7 @@ Most of our mentors are India-based or UK-based; a smaller pool is Ireland-based
 - **CS depth is world-class.** India produces more CS graduates per year than any other country, and the top tier of that pool is who teaches your child. TCD / UCD / IIT graduates respect each other's standards.
 - **Native English-medium teaching.** Indian and UK mentors deliver in clear, professional English. For Gaeilge-medium learners, we can pair with a bilingual Irish-English mentor.
 - **Irish-system knowledge.** Our Irish-trained mentors and ex-post-primary teachers carry the LCCS / Junior Cycle / TY-curriculum knowledge so the rest of the pool can scale.
-- **Cost structure makes 1:1 viable.** A Dublin-based academy charging EUR 92 / month would be forced to use 5:1 group sessions. Our model allows real 1:1.
+- **Cost structure makes 1:1 viable.** A Dublin-based academy charging USD 150 / month would be forced to use 5:1 group sessions. Our model allows real 1:1.
 
 Last word
 

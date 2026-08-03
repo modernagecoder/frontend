@@ -1,14 +1,14 @@
 ---
 title: "AI and Machine Learning Classes in the USA | Build AI"
-description: "Live online AI and machine learning classes for students in the USA, ages 6 to 67. Train real models in Python, not just prompts. Priced for your country, first class free."
+description: "Live online AI and machine learning classes for students in the USA, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month, first class free."
 canonical: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-usa
 source: src/pages/ai-and-machine-learning-classes-in-usa.html
 ---
-> Live online AI and machine learning classes for students in the USA, ages 6 to 67. Train real models in Python, not just prompts. Priced for your country, first class free.
+> Live online AI and machine learning classes for students in the USA, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month, first class free.
 
 In short
 
-Modern Age Coders teaches live online AI and machine learning to learners across the United States between the ages of 6 and 67, in groups of five to eight or privately. The syllabus runs from Python and the mathematics underneath it to models the student trains, evaluates and publishes at a working link. Weekend cohorts serve both coasts and a weekday cohort runs on Pacific time. Group and one-to-one tuition are priced for your country and shown on this page in your local currency, and the first class costs nothing.
+Modern Age Coders teaches live online AI and machine learning to learners across the United States between the ages of 6 and 67, in groups of five to eight or privately. The syllabus runs from Python and the mathematics underneath it to models the student trains, evaluates and publishes at a working link. Weekend cohorts serve both coasts and a weekday cohort runs on Pacific time. Group tuition is USD 100 a month and one-to-one is USD 150, billed in US dollars, and the first class costs nothing.
 
 The catalogue
 
@@ -370,7 +370,7 @@ Fees
 
 ## The price, in the currency you already think in
 
-The United States is the one market we teach where nothing has to be converted. Our list prices are dollar prices, so what is printed below is what is charged: USD 40 and USD 100. Billing runs month by month. There is no enrolment charge and nothing here commits you to a year.
+Our list prices are flat dollar prices everywhere we teach outside India, so what is printed below is what is charged: USD 100 and USD 150. Billing runs month by month. There is no enrolment charge and nothing here commits you to a year.
 
 Free first class
 
@@ -388,7 +388,7 @@ Group batch
 
 $100
 
-USD 40 a month
+USD 100 a month
 
 - Five to eight students, same teacher every week
 - Live video, never a recording
@@ -401,7 +401,7 @@ One to one
 
 $150
 
-USD 100 a month
+USD 150 a month
 
 - Private teaching, your pace and your schedule
 - Best for AP years and for adults with few free evenings

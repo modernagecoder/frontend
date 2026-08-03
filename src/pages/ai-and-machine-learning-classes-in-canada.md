@@ -1,14 +1,14 @@
 ---
 title: "AI and Machine Learning Classes in Canada | Build AI"
-description: "Live online AI and machine learning classes for students in Canada, ages 6 to 67. Train real models in Python, not just prompts. From CAD 56.37 a month."
+description: "Live online AI and machine learning classes for students in Canada, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month."
 canonical: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-canada
 source: src/pages/ai-and-machine-learning-classes-in-canada.html
 ---
-> Live online AI and machine learning classes for students in Canada, ages 6 to 67. Train real models in Python, not just prompts. From CAD 56.37 a month.
+> Live online AI and machine learning classes for students in Canada, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month.
 
 In short
 
-Modern Age Coders teaches AI and machine learning live online across Canada, ages 6 to 67, in a cohort of five to eight or privately. What is taught is model building: Python, the probability and matrix work beneath it, then training and testing models on published Canadian data. Lessons are in English, and because the staff work from India the timetable sits in Canadian mornings and weekends. A group seat is USD 40 a month, CAD 56.37 at the Bank of Canada rate for 24 July 2026, and the first class is free.
+Modern Age Coders teaches AI and machine learning live online across Canada, ages 6 to 67, in a cohort of five to eight or privately. What is taught is model building: Python, the probability and matrix work beneath it, then training and testing models on published Canadian data. Lessons are in English, and because the staff work from India the timetable sits in Canadian mornings and weekends. A group seat is USD 100 a month, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -357,15 +357,15 @@ by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTe
 
 Fees
 
-## Fees in Canadian dollars, quoted at a rate you can look up yourself
+## What this costs a Canadian family, in plain US dollars
 
-Payment is monthly. Nothing is charged to join, nothing commits a family for a year, and the first class carries no fee. Canada floats its currency, so the amounts below are one conversion at one dated rate: 1 US dollar to 1.4093 Canadian dollars, the Bank of Canada daily exchange rate for 24 July 2026, series FXUSDCAD.
+Payment is monthly. Nothing is charged to join, nothing commits a family for a year, and the first class carries no fee. Fees are a flat USD 100 a month for a group seat and USD 150 for one to one, billed in US dollars everywhere outside India.
 
 Free first class
 
-CAD 0.00
+USD 0
 
-USD 0, no card needed
+No card needed
 
 - Taught by a teacher, not run by a salesperson
 - Used to place the learner at the right level
@@ -375,9 +375,9 @@ Book it
 
 Group batch
 
-CAD 56.37
+USD 100
 
-USD 40 a month
+a month, billed in US dollars
 
 - Five to eight students, one teacher, every week
 - Live video, never a recording
@@ -388,9 +388,9 @@ Start here
 
 One to one
 
-CAD 140.93
+USD 150
 
-USD 100 a month
+a month, billed in US dollars
 
 - Private teaching at the learner's own pace
 - Suited to Grade 11 and 12 years, and to adults with few free hours
@@ -398,7 +398,7 @@ USD 100 a month
 
 Enquire
 
-Two honest notes. The rate is not a one day artefact: across the same week the series read 1.4054, 1.4095, 1.4088 and 1.4083, so USD 100 sat between CAD 140.54 and CAD 140.95 throughout. It is indicative rather than a transaction rate, so a card billed in US dollars settles a little away from the arithmetic. The rate is printed beside its date because a currency figure without one is not information.
+One honest note. The price itself does not move, but the card is billed in US dollars, so the Canadian dollar figure on a statement follows your bank's rate on the day rather than any number we could print here.
 
 What families say
 
@@ -480,7 +480,7 @@ Partly, and we would rather draw the line than blur it. The Canadian Computing C
 
 ### What does it cost in Canadian dollars?
 
-A group seat is USD 40 a month, or CAD 56.37, and private one to one teaching is USD 100 a month, or CAD 140.93. Both convert at 1 US dollar to 1.4093 Canadian dollars, the Bank of Canada daily rate for 24 July 2026, series FXUSDCAD. That is an indicative rate rather than a transaction rate, so a card billed in dollars settles slightly away from it. Billing is monthly and the first class is free.
+A group seat is USD 100 a month and private one to one teaching is USD 150 a month, billed in US dollars everywhere outside India. We do not publish a Canadian dollar price list; your bank converts the charge at its own rate on the day. Billing is monthly and the first class is free.
 
 ### Is there a route from this to Cohere, Mila, Vector or Amii?
 

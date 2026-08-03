@@ -1,14 +1,14 @@
 ---
 title: "AI and Machine Learning Classes in the Netherlands | Build AI"
-description: "Live online AI and machine learning classes for students in the Netherlands, ages 6 to 67. Train real models on Dutch open data, not prompts. From EUR 35 a month."
+description: "Live online AI and machine learning classes for students in the Netherlands, ages 6 to 67. Train real models on Dutch open data, not prompts. From USD 100 a month."
 canonical: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-netherlands
 source: src/pages/ai-and-machine-learning-classes-in-netherlands.html
 ---
-> Live online AI and machine learning classes for students in the Netherlands, ages 6 to 67. Train real models on Dutch open data, not prompts. From EUR 35 a month.
+> Live online AI and machine learning classes for students in the Netherlands, ages 6 to 67. Train real models on Dutch open data, not prompts. From USD 100 a month.
 
 In short
 
-Modern Age Coders teaches live online AI and machine learning to learners in the Netherlands between the ages of 6 and 67, in groups of five to eight or one to one. The subject here is model building rather than prompt writing: students work in Python, meet the mathematics that holds machine learning up, and finish able to train something and say how far off it is. Group fees are about EUR 35 a month and the first class is free.
+Modern Age Coders teaches live online AI and machine learning to learners in the Netherlands between the ages of 6 and 67, in groups of five to eight or one to one. The subject here is model building rather than prompt writing: students work in Python, meet the mathematics that holds machine learning up, and finish able to train something and say how far off it is. Group fees are USD 100 a month, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -318,11 +318,11 @@ Fees
 
 ## What a Dutch family pays
 
-Billed monthly. Euro amounts use the European Central Bank reference rate of 1.1377 US dollars to the euro published on 24 July 2026, so read them as close rather than fixed. Nothing is charged to enrol and nothing commits you to a year.
+Billed monthly in US dollars: USD 100 for a group batch and USD 150 for one to one, the same flat figures everywhere outside India. Nothing is charged to enrol and nothing commits you to a year.
 
 Free first class
 
-EUR 0
+USD 0
 
 no card required
 
@@ -334,9 +334,9 @@ Book it
 
 Group batch
 
-EUR 35
+USD 100
 
-about USD 40 a month
+a month, billed in US dollars
 
 - Five to eight students, one teacher throughout
 - Live video, never a recording
@@ -347,9 +347,9 @@ Start here
 
 One to one
 
-EUR 88
+USD 150
 
-about USD 100 a month
+a month, billed in US dollars
 
 - Private teaching at your own pace
 - Suits examination years and adults with few free evenings
@@ -423,9 +423,9 @@ Evening slots at 17:00, 18:45 and 20:30 Dutch time, plus a Saturday morning batc
 
 Most of them teach prompting. A student finishes able to phrase a request well and unable to say whether the answer is correct. We teach the layer underneath: finding data, cleaning it, choosing a model, training it, measuring the error in units a non-specialist can check, and then improving it. Prompting is knowledge of one product in one year. Model building rests on statistics, linear algebra and code, and none of those get a version bump.
 
-### What does it cost in euros?
+### What does it cost?
 
-A group batch of five to eight students is USD 40 a month, which is about EUR 35, and one to one teaching is USD 100 a month, about EUR 88. Those euro figures use the European Central Bank reference rate of 1.1377 US dollars to the euro published on 24 July 2026, so treat them as close rather than fixed. There is no enrolment fee, no annual contract, and the first class is free without a card.
+A group batch of five to eight students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. There is no enrolment fee, no annual contract, and the first class is free without a card.
 
 ### My child is in VWO. Does this compete with school or support it?
 

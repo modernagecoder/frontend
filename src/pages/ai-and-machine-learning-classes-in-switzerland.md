@@ -1,14 +1,14 @@
 ---
 title: "AI and Machine Learning Classes in Switzerland | Build AI"
-description: "Live online AI and machine learning classes for students in Switzerland, ages 6 to 67. Train real models in Python, not just prompts. About CHF 33 a month."
+description: "Live online AI and machine learning classes for students in Switzerland, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month."
 canonical: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-switzerland
 source: src/pages/ai-and-machine-learning-classes-in-switzerland.html
 ---
-> Live online AI and machine learning classes for students in Switzerland, ages 6 to 67. Train real models in Python, not just prompts. About CHF 33 a month.
+> Live online AI and machine learning classes for students in Switzerland, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month.
 
 In short
 
-Modern Age Coders teaches live online AI and machine learning in Switzerland, ages 6 to 67, in groups of five to eight or one to one. The subject is model building: Python, then the statistics and linear algebra underneath, then training and evaluating models on real published data. Teaching is in English and the timetable follows your cantonal calendar. A group place is USD 40 a month, roughly CHF 33, and the first class is free.
+Modern Age Coders teaches live online AI and machine learning in Switzerland, ages 6 to 67, in groups of five to eight or one to one. The subject is model building: Python, then the statistics and linear algebra underneath, then training and evaluating models on real published data. Teaching is in English and the timetable follows your cantonal calendar. A group place is USD 100 a month, and the first class is free.
 
 The catalogue
 
@@ -350,15 +350,15 @@ by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTe
 
 Fees
 
-## What a Swiss family pays, and what the franc figure does not mean
+## What a Swiss family pays, and what the small figure does not mean
 
-Fees are monthly, with no joining fee and no annual contract. Switzerland has no currency peg, so the franc amounts below are conversions at one dated rate, 1 US dollar to 0.81761 francs, the European Central Bank reference cross for 24 July 2026.
+Fees are monthly, with no joining fee and no annual contract. Pricing is flat: USD 100 a month for a group batch and USD 150 a month for one to one, billed in US dollars everywhere outside India.
 
 Free first class
 
-CHF 0
+USD 0
 
-USD 0, no card needed
+No card needed
 
 - A real class, not a sales call
 - Doubles as a placement check
@@ -368,9 +368,9 @@ Book it
 
 Group batch
 
-about CHF 33
+USD 100
 
-USD 40 a month
+a month, billed in US dollars
 
 - Five to eight students, one teacher
 - Live video, never a recording
@@ -381,9 +381,9 @@ Start here
 
 One to one
 
-about CHF 82
+USD 150
 
-USD 100 a month
+a month, billed in US dollars
 
 - Private teaching, at your pace
 - Best for examination years
@@ -391,7 +391,7 @@ USD 100 a month
 
 Enquire
 
-One point deserves saying directly, because it is how this page is most often misread here. Thirty three francs is small in one of the most expensive tutoring markets in the world, and a small number usually signals a thin course. It does not here. Judge the syllabus, the glacier project and the student work, and let the franc number be the last thing you look at.
+One point deserves saying directly, because it is how this page is most often misread here. One hundred US dollars is small in one of the most expensive tutoring markets in the world, and a small number usually signals a thin course. It does not here. Judge the syllabus, the glacier project and the student work, and let the price be the last thing you look at.
 
 What families say
 
@@ -471,9 +471,9 @@ It sits beside school Informatik rather than repeating it. The EDK adopted a fra
 
 Not directly, and we will not claim otherwise. For a non-Swiss certificate ETH Zurich decides the admission category only after a complete eApply application, and any entrance examination is written in German, next on 18 to 28 January 2027, at CHF 550.00 reduced or CHF 800.00 comprehensive. EPFL needs French at B2 and admits IB Diploma holders from 38 points out of 42 with mathematics and physics at higher level at 6 out of 7. Neither gate is opened by coding.
 
-### What does it cost in francs, and is that per month or per class?
+### What does it cost, and is that per month or per class?
 
-Per month, not per class. A group batch of five to eight students is USD 40 a month, about CHF 33, and one to one teaching is USD 100 a month, about CHF 82. The franc figures convert at 1 US dollar to 0.81761 francs, the European Central Bank reference cross for 24 July 2026, and Switzerland has no currency peg, so they move. The first class is free.
+Per month, not per class. A group batch of five to eight students is USD 100 a month, and one to one teaching is USD 150 a month. Pricing is flat and billed in US dollars everywhere outside India. The first class is free.
 
 ### Why teach building AI rather than using AI tools?
 

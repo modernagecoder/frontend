@@ -1,10 +1,10 @@
 ---
 title: "Coding & AI Classes in Canada | Toronto & Vancouver"
-description: "Live 1:1 online coding, Python & AI mentorship for students across Canada. Ontario, BC & Québec CEGEP aligned; Waterloo & UofT prep. priced for your country"
+description: "Live 1:1 online coding, Python & AI mentorship for students across Canada. Ontario, BC & Québec CEGEP aligned; Waterloo & UofT prep. USD 150 a month."
 canonical: https://learn.modernagecoders.com/coding-classes-in-canada
 source: src/pages/coding-classes-in-canada.html
 ---
-> Live 1:1 online coding, Python & AI mentorship for students across Canada. Ontario, BC & Québec CEGEP aligned; Waterloo & UofT prep. priced for your country
+> Live 1:1 online coding, Python & AI mentorship for students across Canada. Ontario, BC & Québec CEGEP aligned; Waterloo & UofT prep. USD 150 a month.
 
 ### Request a callback
 
@@ -18,7 +18,7 @@ An **Online School** · Serving Canada from coast to coast to coast · +1 · EN 
 
 # Real coding & AI for Canadian students — *from Tofino to St. John's.*
 
-Live 1:1 mentorship in **Python**, modern web and **agentic AI** for Canadian kids, teens and adults — aligned with **Ontario**'s coding strand, **BC ADST**, **Québec ESS** & **CEGEP CS**, **Alberta CTF**, and the algorithmic depth University of Waterloo, UofT, UBC and McGill quietly expect. **CAD 135 a month** (USD 100), eight live sessions, two a week, cancel any time. Mentors work in **your time zone**.
+Live 1:1 mentorship in **Python**, modern web and **agentic AI** for Canadian kids, teens and adults — aligned with **Ontario**'s coding strand, **BC ADST**, **Québec ESS** & **CEGEP CS**, **Alberta CTF**, and the algorithmic depth University of Waterloo, UofT, UBC and McGill quietly expect. **USD 150 a month**, eight live sessions, two a week, cancel any time. Mentors work in **your time zone**.
 
 See all coursesMentors live in **6 Canadian time zones**Booking now · 09:00 – 21:00 local in each zone**PT** · UTC −8Vancouver · VictoriaAfter-school *15:30*, evening *18:00 – 20:00*, Sat morning**MT** · UTC −7Calgary · EdmontonAfter-school *16:00*, evening *18:30*, Sat morning**CT** · UTC −6Winnipeg · ReginaAfter-school *16:30*, evening *19:00*, weekend mornings**ET** · UTC −5Toronto · Ottawa · MontréalAfter-school *17:00*, evening *19:30*, every slot busy**AT** · UTC −4Halifax · CharlottetownAfter-school *16:30*, evening *19:00*, weekend mornings**NT** · UTC −3:30St. John's · NLAfter-school *17:30*, evening *20:00*, Sat morningParent rating4.9 / 5 · 547 reviewsAligned withOntario · BC · Québec · AlbertaTime zonesAll 6 — PT · MT · CT · ET · AT · NTCommitmentFree trial · cancel monthlyPick a course · start this week
 
@@ -26,7 +26,7 @@ See all coursesMentors live in **6 Canadian time zones**Booking now · 09:00 –
 
 Each row below is a live course you can join this week. Click anywhere on the row to open the full course page.
 
-[Ages 6 – 12 · Elementary Coding for Kids — Scratch to real Python, gentle Canadian pace. For students from JK through Grade 6 across Ontario, BC, Québec, Alberta and the Maritimes. Starts in Scratch, switches to real Python by week 10, ships a tiny project a month. ScratchPythonGamesAI intro CAD 135/ moOpen course →   Sample weekly slot · ET 17:00 Tue + 17:00 Thu  2 × 45 min · same mentor every week Recordings + parent note after every class Maps to Ontario coding strand & BC ADST](/courses/coding/kids)[Most chosen · Ages 13 – 18 · High school Coding & AI for Teens — Waterloo / UofT / UBC / McGill-aware. Real Python, JavaScript, Git, web apps and modern AI engineering on a 12-month arc. Coaches the Canadian Computing Competition (CCC) and Canadian Computing Olympiad (CCO). PythonJavaScriptWebGitCCC / CCO CAD 135/ moOpen course →   A typical year // Year 1 plan, grade 10 student, Toronto Term 1 · Python deep + Git Term 2 · Web apps shipped to Vercel Term 3 · Modern AI: RAG + agents Summer · CCC + portfolio capstone](/courses/coding/teens)[New · Ages 13 – 18 · AI track AI & Agentic-AI — the way Cohere, Vector and Mila ship. Build real LLM apps end-to-end: prompts, retrieval, tool-calling agents, evals, deploy. The same patterns Canadian AI shops actually use in production. OpenAI APIClaude APIRAGAgentsLangGraph CAD 135/ moOpen course →   First two months  **Week 1–2:** calling LLM APIs from Python **Week 3–4:** structured output & tools **Week 5–6:** RAG over your own notes **Week 7–8:** first deployed agent](/ai-ml-course-for-teens)[CEGEP · University · Adults Coding for CEGEP, university & career switch. For CEGEP CS students in Québec, Canadian undergrads at any university, and adults retraining into software / data / AI roles at Shopify, Wealthsimple, RBC, TD, Constellation Software, Cohere, Telus, etc. AlgorithmsSystem designCloudAI engineering CAD 135/ moOpen course →   Common goals  CEGEP CS programme top-up & project supervision Waterloo / UofT / UBC CS prep for high school grads Career switch into a Toronto / Montréal / Vancouver SWE role Interview prep: DSA + system design](/courses/coding/college)[For girls · 8 – 22 Special For Girls — all-female mentor pairing. Same curriculum as every other track. All-female mentor pairing. Role models from the Toronto, Montréal and Vancouver tech scenes. Optional intro through Ladies Learning Code partner cohorts. PythonWebAIMentorship CAD 135/ moOpen course →   Why it works  Same-mentor pairing for confidence and continuity Project briefs tuned to real-world impact Network of role-model alumnae across Canada](/courses/coding/girls)[Schools · Boards · Companies For Canadian schools & teams — bilingual cohorts available. For Canadian schools (independent, public, French-immersion), school boards, and companies upskilling staff. Cohorts of 6 – 30, tailored to your provincial framework, delivered on your hours. CohortCustom curriculumBilingualReports CAD 54/ seat · groupTalk to us →   Recent partner profiles  Independent school in Greater Toronto Area — Grade 9 cohort Toronto District School Board — code club partner pilot French-immersion *polyvalente* in Montréal — bilingual format Calgary tech firm — adult upskilling cohort](/courses/coding/corporate)
+[Ages 6 – 12 · Elementary Coding for Kids — Scratch to real Python, gentle Canadian pace. For students from JK through Grade 6 across Ontario, BC, Québec, Alberta and the Maritimes. Starts in Scratch, switches to real Python by week 10, ships a tiny project a month. ScratchPythonGamesAI intro USD 150/ moOpen course →   Sample weekly slot · ET 17:00 Tue + 17:00 Thu  2 × 45 min · same mentor every week Recordings + parent note after every class Maps to Ontario coding strand & BC ADST](/courses/coding/kids)[Most chosen · Ages 13 – 18 · High school Coding & AI for Teens — Waterloo / UofT / UBC / McGill-aware. Real Python, JavaScript, Git, web apps and modern AI engineering on a 12-month arc. Coaches the Canadian Computing Competition (CCC) and Canadian Computing Olympiad (CCO). PythonJavaScriptWebGitCCC / CCO USD 150/ moOpen course →   A typical year // Year 1 plan, grade 10 student, Toronto Term 1 · Python deep + Git Term 2 · Web apps shipped to Vercel Term 3 · Modern AI: RAG + agents Summer · CCC + portfolio capstone](/courses/coding/teens)[New · Ages 13 – 18 · AI track AI & Agentic-AI — the way Cohere, Vector and Mila ship. Build real LLM apps end-to-end: prompts, retrieval, tool-calling agents, evals, deploy. The same patterns Canadian AI shops actually use in production. OpenAI APIClaude APIRAGAgentsLangGraph USD 150/ moOpen course →   First two months  **Week 1–2:** calling LLM APIs from Python **Week 3–4:** structured output & tools **Week 5–6:** RAG over your own notes **Week 7–8:** first deployed agent](/ai-ml-course-for-teens)[CEGEP · University · Adults Coding for CEGEP, university & career switch. For CEGEP CS students in Québec, Canadian undergrads at any university, and adults retraining into software / data / AI roles at Shopify, Wealthsimple, RBC, TD, Constellation Software, Cohere, Telus, etc. AlgorithmsSystem designCloudAI engineering USD 150/ moOpen course →   Common goals  CEGEP CS programme top-up & project supervision Waterloo / UofT / UBC CS prep for high school grads Career switch into a Toronto / Montréal / Vancouver SWE role Interview prep: DSA + system design](/courses/coding/college)[For girls · 8 – 22 Special For Girls — all-female mentor pairing. Same curriculum as every other track. All-female mentor pairing. Role models from the Toronto, Montréal and Vancouver tech scenes. Optional intro through Ladies Learning Code partner cohorts. PythonWebAIMentorship USD 150/ moOpen course →   Why it works  Same-mentor pairing for confidence and continuity Project briefs tuned to real-world impact Network of role-model alumnae across Canada](/courses/coding/girls)[Schools · Boards · Companies For Canadian schools & teams — bilingual cohorts available. For Canadian schools (independent, public, French-immersion), school boards, and companies upskilling staff. Cohorts of 6 – 30, tailored to your provincial framework, delivered on your hours. CohortCustom curriculumBilingualReports USD 100/ seat · groupTalk to us →   Recent partner profiles  Independent school in Greater Toronto Area — Grade 9 cohort Toronto District School Board — code club partner pilot French-immersion *polyvalente* in Montréal — bilingual format Calgary tech firm — adult upskilling cohort](/courses/coding/corporate)
 
 Many Canadian students take AP for university credit, and international schools here also run IB and Cambridge curricula. These live courses prepare those exams directly.
 
@@ -218,7 +218,7 @@ Also at Modern Age Coders
 
 ## Math, taught with the same depth.
 
-The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at math. For Canadian students that means province-exact teaching, Ontario’s coding-in-math strand included, up to the Grade 12 gate. Premium 1-on-1 mentorship and small-group plans are priced for your country (shown on this page in your local currency), 8 classes a month, and every student starts with a free demo class.
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at math. For Canadian students that means province-exact teaching, Ontario’s coding-in-math strand included, up to the Grade 12 gate. Premium 1-on-1 mentorship is a flat USD 150 a month and small-group plans are USD 100, billed in USD, 8 classes a month, and every student starts with a free demo class.
 
 [Math Tutoring Canada](/online-math-tutor-canada)[Calculus](/calculus-tutoring-online)[Grades 3-8 ladder](/online-math-tutor-3rd-grade)[IB Maths (AA & AI)](/ib-maths-tuition-online)[Catch-Up Program](/math-catch-up-program)[The 2026 Guide](/best-online-math-tutoring-2026)
 
@@ -226,9 +226,9 @@ Every Canadian time zone · 4.9 across 547 Google reviews · no registration fee
 
 Plain pricing · cancel any month
 
-## CAD 135 / month. Eight live classes. No fine print.
+## USD 150 / month. Eight live classes. No fine print.
 
-One number for 1:1 mentorship, billed in USD (about CAD 135 at the live exchange rate). Small-group cohort runs at CAD 54 / month. Cancel any time, no fee, no contract.
+One number for 1:1 mentorship: USD 150 a month, billed in USD. Small-group cohort runs at USD 100 / month. Cancel any time, no fee, no contract.
 
 1:1 private mentorship
 
@@ -236,9 +236,9 @@ One number for 1:1 mentorship, billed in USD (about CAD 135 at the live exchange
 
 One mentor, one student, every class. Deepest progress, fully customised pace.
 
-USD100/ month
+USD150/ month
 
-/ month · billed in USD · no joining fee
+Billed in USD · no joining fee
 
 - 8 live 1:1 sessions every month
 - 2 classes per week, your chosen time-zone slots
@@ -254,9 +254,9 @@ Small-group cohort
 
 Same curriculum, same mentors, in a small live group. Friendly entry point.
 
-USD40/ month
+USD100/ month
 
-/ month · billed in USD · no joining fee
+Billed in USD · no joining fee
 
 - 8 live small-group sessions every month
 - Up to 6 students per group, age & province-banded
@@ -270,7 +270,7 @@ How we compare
 
 School coding clubs, Canadian online schools (Pinnguaq, Canada Learning Code), private tutors, free YouTube — they all have a place.
 
-What mattersModern Age CodersSchool / Code clubCanadian online schoolsPrivate tutorSame 1:1 mentor weekly, all year✓ Yes— No~ Rotating✓ OftenReal coding (Python · JS · Git · deploy)✓ Week 1~ Depends~ Eventually~ Tutor-specificModern AI & agentic-AI✓ Built in— No~ Marketing— RareProvincial curriculum alignment✓ All provinces✓ Native~ Generic~ Tutor-specificCCC / CCO / Waterloo prep✓ Yes— No— No~ RareBilingual EN / FR support✓ Available✓ In QC~ Partial~ Tutor-specificMonthly costCAD 135 (1:1) / 54 (group)FreeCAD 250 – 500CAD 60 – 90 / hourWhere Canadian families learn with us
+What mattersModern Age CodersSchool / Code clubCanadian online schoolsPrivate tutorSame 1:1 mentor weekly, all year✓ Yes— No~ Rotating✓ OftenReal coding (Python · JS · Git · deploy)✓ Week 1~ Depends~ Eventually~ Tutor-specificModern AI & agentic-AI✓ Built in— No~ Marketing— RareProvincial curriculum alignment✓ All provinces✓ Native~ Generic~ Tutor-specificCCC / CCO / Waterloo prep✓ Yes— No— No~ RareBilingual EN / FR support✓ Available✓ In QC~ Partial~ Tutor-specificMonthly costUSD 150 (1:1) / 100 (group)FreeCAD 250 – 500CAD 60 – 90 / hourWhere Canadian families learn with us
 
 ## Online classes — locally aware, time-zone native.
 
@@ -350,7 +350,7 @@ Yes. Core lessons are delivered in clear English (the working language of code a
 
 What does it cost in Canadian dollars?
 
-Private 1:1 mentorship is **USD 100 per month** — 8 sessions, two per week. Small-group cohort is **USD 40 per month** on the same schedule. Billing is in USD; your bank applies the live CAD conversion.
+Private 1:1 mentorship is **USD 150 per month** — 8 sessions, two per week. Small-group cohort is **USD 100 per month** on the same schedule. Billing is in USD; your bank applies the live CAD conversion.
 
 Are classes paused over Canadian school holidays?
 
@@ -370,7 +370,7 @@ Yes. Two siblings can share a 1:1 slot at a small discount, or join the same sma
 
 How do we pay? Canadian cards OK?
 
-Yes. We accept Visa, Mastercard, Amex (all issued in Canada), Apple Pay and Google Pay. Billing is in USD via Stripe; your card issuer applies the live CAD conversion — typically about CAD 135 for the 1:1 plan at current rates.
+Yes. We accept Visa, Mastercard, Amex (all issued in Canada), Apple Pay and Google Pay. Billing is in USD via Stripe; your card issuer applies the live CAD conversion.
 
 Are mentors used to French-immersion and independent Canadian schools?
 

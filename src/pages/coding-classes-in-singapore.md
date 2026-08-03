@@ -1,10 +1,10 @@
 ---
 title: "Coding & AI Classes in Singapore | PSLE to A-Level"
-description: "Live 1:1 online coding, Python & AI mentorship for Singapore students. Aligned with PSLE, O-Level & A-Level; NUS & NTU ready. USD 100/mo. Book a free demo."
+description: "Live 1:1 online coding, Python & AI mentorship for Singapore students. Aligned with PSLE, O-Level & A-Level; NUS & NTU ready. From USD 100/mo. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-singapore
 source: src/pages/coding-classes-in-singapore.html
 ---
-> Live 1:1 online coding, Python & AI mentorship for Singapore students. Aligned with PSLE, O-Level & A-Level; NUS & NTU ready. USD 100/mo. Book a free demo.
+> Live 1:1 online coding, Python & AI mentorship for Singapore students. Aligned with PSLE, O-Level & A-Level; NUS & NTU ready. From USD 100/mo. Book a free demo.
 
 ### Request a callback
 
@@ -18,7 +18,7 @@ Singapore · Online School · +65 · SGT UTC+8
 
 # Real coding, real AI — for the children of the country that takes education most seriously.
 
-Live 1:1 mentorship in **Python**, modern web and **agentic AI** for Singapore students — aligned with **PSLE** computational-thinking foundations, **GCE O-Level Computing 7155**, **GCE A-Level H2 Computing 9569**, the **Integrated Programme (IP)**, the **IB Diploma**, and the algorithmic depth that **NUS, NTU, SMU, SUTD** actually evaluate. **SGD 135 a month** (USD 100), eight live sessions, two per week, cancel anytime.
+Live 1:1 mentorship in **Python**, modern web and **agentic AI** for Singapore students — aligned with **PSLE** computational-thinking foundations, **GCE O-Level Computing 7155**, **GCE A-Level H2 Computing 9569**, the **Integrated Programme (IP)**, the **IB Diploma**, and the algorithmic depth that **NUS, NTU, SMU, SUTD** actually evaluate. **USD 150 a month**, eight live sessions, two per week, cancel anytime.
 
 See the PSLE → A-Level pathway为孩子提供真正的编程和人工智能课程 — 一对一在线指导。Mandarin, Tamil and Malay-bilingual mentors available for primary-school learners on request. Code itself is taught in English (Python keywords are English).The Singapore pathway, one diagram
 
@@ -58,13 +58,13 @@ Sea · Grab · Razer · GovTech · TikTok APAC · Stripe · OpenAI SG · Anthrop
 
 **Where Modern Age Coders adds value:** not by replacing school — Singapore schools are already world-class — but by adding the 1:1 depth, real working projects on GitHub, and algorithmic problem-solving that school class sizes of 30+ struggle to deliver, and that NUS / NTU / SMU / SUTD admissions actually scrutinize.
 
-**4.9 / 5**From 1,620 Singapore parent & student reviews**SGT**UTC+8 · IST mentors 2.5h behind · normal teaching hours**4 curricula**MOE · O-Level · A-Level · IP · IB DP**SGD 135**Per month · no GST · cancel anytimeChoose your child's track
+**4.9 / 5**From 1,620 Singapore parent & student reviews**SGT**UTC+8 · IST mentors 2.5h behind · normal teaching hours**4 curricula**MOE · O-Level · A-Level · IP · IB DP**USD 150**Per month · no GST · cancel anytimeChoose your child's track
 
 ## Pick the course that matches their level — and book a trial in under 30 seconds.
 
-Every course runs as live 1:1 with a mentor matched to your child's level (P1–P6, S1–S5, IP1–IP6, JC1–JC2 or university/adult). Two 45-minute sessions per week. SGD 135 (USD 100) per month for 1:1, or SGD 54 (USD 40) for small-group cohort.
+Every course runs as live 1:1 with a mentor matched to your child's level (P1–P6, S1–S5, IP1–IP6, JC1–JC2 or university/adult). Two 45-minute sessions per week. USD 150 per month for 1:1, or USD 100 for small-group cohort.
 
-[P1 – P3 Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play, animation and music-led. Strengthens the computational-thinking foundations PSLE Math implicitly tests. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/kids)[P4 – P6 · PSLE prep Python & Logic for PSLE-aged learners Real Python, real keyboard typing, real GitHub. We deliberately keep the cognitive load *off* peak PSLE periods. Strengthens problem-solving for the Math heuristics PSLE rewards. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/kids)[S1 – S2 · IP1 – IP2 Web Builders + AI Foundations HTML, CSS, JavaScript, React basics. AI module covers safe prompting, LLM mental models and a first agent-style project. Works alongside Code for Fun and IP school-internal computing. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/teens)[S3 – S5 · O-Level 7155 GCE O-Level Computing 7155 Direct alignment with the MOE 7155 syllabus. Python, algorithms, data representation, networks. Past-paper drills + the project component your school expects. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/teens)[IP3 – IP6 · Integrated Programme IP Computing depth-track IP-track students (RI, HCI, NUS High, NJC, NYGH, ACS-I, Dunman, RGS, Cedar, MGS) skip the O-Level path. Our IP-track lead has taught at three IP schools and knows the school-internal syllabus. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/teens)[JC1 – JC2 · A-Level H2 9569 A-Level H2 Computing 9569 Paper 1 (theory), Paper 2 (algorithms / problem solving), Paper 3 (project), Paper 4 (data, AI fundamentals). Past-year strategy + the kind of GitHub portfolio NUS / NTU evaluate. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/teens)[IB DP HL / SL IB Computer Science HL & SL For families at UWCSEA, SAS, Tanglin, OFS, GIIS Singapore, Stamford American, ISS, CIS — IB CS HL/SL plus Internal Assessment scaffolding from an ex-IB CS examiner. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Sea, Grab, GovTech, Stripe and AI Singapore recruit for. SGD 135 / month · 1:1 · 8 sessions](/courses/coding/college)
+[P1 – P3 Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play, animation and music-led. Strengthens the computational-thinking foundations PSLE Math implicitly tests. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[P4 – P6 · PSLE prep Python & Logic for PSLE-aged learners Real Python, real keyboard typing, real GitHub. We deliberately keep the cognitive load *off* peak PSLE periods. Strengthens problem-solving for the Math heuristics PSLE rewards. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[S1 – S2 · IP1 – IP2 Web Builders + AI Foundations HTML, CSS, JavaScript, React basics. AI module covers safe prompting, LLM mental models and a first agent-style project. Works alongside Code for Fun and IP school-internal computing. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[S3 – S5 · O-Level 7155 GCE O-Level Computing 7155 Direct alignment with the MOE 7155 syllabus. Python, algorithms, data representation, networks. Past-paper drills + the project component your school expects. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[IP3 – IP6 · Integrated Programme IP Computing depth-track IP-track students (RI, HCI, NUS High, NJC, NYGH, ACS-I, Dunman, RGS, Cedar, MGS) skip the O-Level path. Our IP-track lead has taught at three IP schools and knows the school-internal syllabus. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[JC1 – JC2 · A-Level H2 9569 A-Level H2 Computing 9569 Paper 1 (theory), Paper 2 (algorithms / problem solving), Paper 3 (project), Paper 4 (data, AI fundamentals). Past-year strategy + the kind of GitHub portfolio NUS / NTU evaluate. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[IB DP HL / SL IB Computer Science HL & SL For families at UWCSEA, SAS, Tanglin, OFS, GIIS Singapore, Stamford American, ISS, CIS — IB CS HL/SL plus Internal Assessment scaffolding from an ex-IB CS examiner. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Sea, Grab, GovTech, Stripe and AI Singapore recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)
 
 Singapore's international schools run IB, Cambridge (IGCSE and A-Level) and American (AP) curricula. These live courses prepare those exams directly.
 
@@ -185,17 +185,17 @@ Active SGT 15:00 – 20:00Also at Modern Age Coders
 
 ## Maths, taught with the same depth.
 
-The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For Singapore students that means the MOE syllabus: model method, heuristics, PSLE technique and the E/A Maths years. Premium 1-on-1 mentorship and small-group plans are priced for your country (shown on this page in your local currency), 8 classes a month, and every student starts with a free demo class.
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For Singapore students that means the MOE syllabus: model method, heuristics, PSLE technique and the E/A Maths years. Premium 1-on-1 mentorship (USD 150 a month) and small-group plans (USD 100 a month) are billed in USD, 8 classes a month, and every student starts with a free demo class.
 
 [Maths Tuition Singapore](/online-maths-tuition-singapore)[Singapore Method](/singapore-math-method-tutoring)[IGCSE Maths](/igcse-maths-tuition-online)[IB Maths (AA & AI)](/ib-maths-tuition-online)[GEP/DSA Stretch](/courses/olympiad-competition-mathematics-mastery)[The 2026 Guide](/best-online-math-tutoring-2026)
 
 SGT evening slots · 4.9 across 547 Google reviews · no registration fee
 
-Honest pricing in SGD
+Honest pricing in USD
 
-## One price for Singapore: SGD 135 a month. Eight live 1:1 sessions. Cancel anytime.
+## One price for Singapore: USD 150 a month. Eight live 1:1 sessions. Cancel anytime.
 
-No joining fee. No registration fee. No annual lock-in. No "gold / platinum / diamond" upsell tiers. The same price for a P2 little coder, a JC2 H2 9569 candidate or a Holland-Village-based adult career-switcher. We price in USD and quote the SGD equivalent at the current rate; you pay in whichever you prefer. No GST is added (we deliver from outside Singapore).
+No joining fee. No registration fee. No annual lock-in. No "gold / platinum / diamond" upsell tiers. The same price for a P2 little coder, a JC2 H2 9569 candidate or a Holland-Village-based adult career-switcher. We price and bill in USD, everywhere outside India. No GST is added (we deliver from outside Singapore).
 
 Most chosen by SG families
 
@@ -203,7 +203,7 @@ Most chosen by SG families
 
 A named mentor in SGT-friendly hours. Live, every session.
 
-SGD135/month / month
+USD150/monthBilled in USD
 
 - 8 live sessions per month · 2 per week · 45 min each
 - Same named mentor for as long as it's working
@@ -216,7 +216,7 @@ SGD135/month / month
 
 3 – 5 learners, same level, same curriculum.
 
-SGD54/month / month
+USD100/monthBilled in USD
 
 - 8 live group sessions per month · 2 per week · 60 min each
 - Same mentor every class · cohort stays together
@@ -224,7 +224,7 @@ SGD54/month / month
 - All the same project + GitHub setup as 1:1
 - Move to 1:1 anytime · prorated · no fee
 
-We accept payment in **SGD or USD**, by Visa / Mastercard, PayNow (where applicable), bank transfer, or Apple/Google Pay. No GST is charged.
+We bill in **USD**, by Visa / Mastercard, bank transfer, or Apple/Google Pay. No GST is charged.
 
 Why SG families pick us
 
@@ -234,7 +234,7 @@ An honest comparison vs the options most Singapore parents shortlist alongside u
 
 |   | Modern Age Coders | SG enrichment centre (in-person) | Global self-paced platform | School computing club |
 | --- | --- | --- | --- | --- |
-| Price per month | **SGD 135** | SGD 500 – 1,200 | SGD 60 (self-paced) | Subsidised / free |
+| Price per month | **USD 150** | SGD 500 – 1,200 | SGD 60 (self-paced) | Subsidised / free |
 | Format | **Live 1:1 with named mentor** | Group, in-centre, drop-off | Self-paced video + AI | Group, school-based |
 | Sessions per month | **8 live** | 4 – 8 | Unlimited self-paced | 2 – 4 |
 | MOE / O-Level / A-Level alignment | **Yes — direct** | Usually | Generic global | Yes (school's pace) |
@@ -245,7 +245,7 @@ An honest comparison vs the options most Singapore parents shortlist alongside u
 | Cancel monthly | **Yes** | Term-locked | Yes | N/A |
 | Free trial | **Yes — live with the mentor** | Discounted first month | Free tier | Open day |
 
-We've intentionally left out global online platforms whose unit economics simply don't work at SGD 135/month for a live 1:1 mentor.
+We've intentionally left out global online platforms whose unit economics simply don't work at USD 150/month for a live 1:1 mentor.
 
 University pathways
 
@@ -452,7 +452,7 @@ What we promise · and what we don't
 - Send you a written 6-month outcome plan after the trial
 - Coordinate around PSLE, O-Level, A-Level and IB exam fortnights
 - Be honest if your child needs a different mentor — and switch them, free
-- Bill in SGD or USD on the date you joined — never on the 1st-of-month surprise
+- Bill in USD on the date you joined — never on the 1st-of-month surprise
 - Stop billing immediately the moment you cancel — no notice period, no last-month trick
 
 ### We won't
@@ -559,7 +559,7 @@ FAQ — Singapore-specific
 
 Are you a Singapore-registered company?
 
-We're registered as an education-services provider outside Singapore, which is why no Singapore GST applies to your bill. Delivery is online-only — there is no Singapore office to visit. We issue cross-border invoices in SGD or USD if you need one for accounting.
+We're registered as an education-services provider outside Singapore, which is why no Singapore GST applies to your bill. Delivery is online-only — there is no Singapore office to visit. We issue cross-border invoices in USD if you need one for accounting.
 
 Do you align with the MOE Singapore syllabus?
 
@@ -627,15 +627,15 @@ You ask, we switch — free of charge, within 48 hours. About 1 in 30 families a
 
 Do you charge GST?
 
-No — we deliver as a cross-border online education provider from outside Singapore, so no GST is added to your bill. Your bill is exactly the SGD equivalent of USD 100 / month for 1:1 (or USD 40 / month for cohort), at the current exchange rate.
+No — we deliver as a cross-border online education provider from outside Singapore, so no GST is added to your bill. Your bill is exactly USD 150 / month for 1:1 (or USD 100 / month for cohort), billed in USD.
 
-Can I pay in SGD or USD?
+How do I pay?
 
-Either. Most SG families pay by Visa or Mastercard (SGD-billed). Some pay by international transfer in USD. We accept PayNow for SGD payments where applicable, plus Apple/Google Pay. Whichever you choose, the amount converts at the spot rate on billing date.
+Billing is in USD, by Visa or Mastercard, international transfer, or Apple/Google Pay. Your card issuer handles any currency conversion on its own terms.
 
 Can I use SkillsFuture Credit?
 
-Not currently. We're not a SkillsFuture-approved provider. However, our SGD 135/month adult rate is already below most local AI/coding bootcamps even after SkillsFuture is applied. Many adult Singapore learners find we're more cost-effective even without the credit.
+Not currently. We're not a SkillsFuture-approved provider. However, our USD 150/month adult rate is already below most local AI/coding bootcamps even after SkillsFuture is applied. Many adult Singapore learners find we're more cost-effective even without the credit.
 
 How do I cancel?
 
@@ -659,7 +659,7 @@ The mentor stays with your child. Only the time zone changes. We've onboarded re
 
 Do you offer scholarships?
 
-Yes — a small annual scholarship pool for high-potential Singapore students whose families can't comfortably afford SGD 135/month. Email us a short note from the parent + a piece of work from the child. We award 10 – 15 SG scholarships per academic year, 50%–100% of the monthly fee.
+Yes — a small annual scholarship pool for high-potential Singapore students whose families can't comfortably afford USD 150/month. Email us a short note from the parent + a piece of work from the child. We award 10 – 15 SG scholarships per academic year, 50%–100% of the monthly fee.
 
 Are sessions delivered via Zoom or Microsoft Teams?
 
@@ -784,7 +784,7 @@ We don't dance around this. Most of our mentors are India-based. For Singapore f
 - **English-medium teaching is native.** Indian mentors deliver in clear, professional English. For Mandarin-first or Tamil-first families, we also have bilingual mentors who can switch languages for primary-school learners.
 - **Cultural understanding is automatic.** Singapore's Indian diaspora is well-represented in our SG family base. Mentors understand the cultural texture of Singapore-Indian (and broader South-Asian) homes without needing to be briefed.
 - **Singapore-specific knowledge is the burden of the mentor, not you.** We invest in mentors who learn the MOE syllabus, the IP system, the SoC / SCSE / SCIS / SUTD admissions criteria. You don't need to explain Singapore education to anyone.
-- **Cost structure makes 1:1 viable.** Indian salary structures mean we can offer real 1:1 mentorship at SGD 135 / month — a Singapore-based academy charging the same price would be forced to use 5:1 group sessions.
+- **Cost structure makes 1:1 viable.** Indian salary structures mean we can offer real 1:1 mentorship at USD 150 / month — a Singapore-based academy charging the same price would be forced to use 5:1 group sessions.
 
 Real shipped student projects
 

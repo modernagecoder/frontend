@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-oman.html
 
 In short
 
-Modern Age Coders runs live online AI and machine learning classes for students in Oman, ages 6 to 67, in small batches of five to eight or one to one. Students learn Python and the mathematics under machine learning, then train and evaluate their own models rather than only prompting AI tools. Fees start at USD 40 a month, about 15 Omani rials, and the first class is free.
+Modern Age Coders runs live online AI and machine learning classes for students in Oman, ages 6 to 67, in small batches of five to eight or one to one. Students learn Python and the mathematics under machine learning, then train and evaluate their own models rather than only prompting AI tools. Fees start at USD 100 a month, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -323,13 +323,13 @@ Fees
 
 ## What it costs a family in Oman
 
-The Omani rial has been pegged to the US dollar at 2.6008 dollars to the rial since 1986, so the rial figures below are stable rather than a conversion that moves each month. Fees are monthly. There is no admission fee and no annual lock in.
+Fees are billed in US dollars and are the same flat figures everywhere outside India: USD 100 a month for a group batch and USD 150 a month for one to one. There is no admission fee and no annual lock in.
 
 Free first class
 
-OMR 0
+USD 0
 
-USD 0, no card needed
+no card needed
 
 - A real class, not a sales call
 - Doubles as a placement check so the teacher pitches the level correctly
@@ -339,9 +339,9 @@ Book it
 
 Group batch
 
-OMR 15
+USD 100
 
-about USD 40 a month
+a month, billed in US dollars
 
 - Five to eight students, same teacher every week
 - Live video, never a recording
@@ -352,9 +352,9 @@ Start here
 
 One to one
 
-OMR 38.5
+USD 150
 
-about USD 100 a month
+a month, billed in US dollars
 
 - Private teaching, your pace and your schedule
 - Best for exam years and for adults with limited evenings
@@ -434,7 +434,7 @@ We enrol from age 6, but a six year old does not start with neural networks. Chi
 
 ### How much do AI and machine learning classes cost in Oman?
 
-Group batches of five to eight students are USD 40 a month, which is roughly 15 Omani rials. One to one teaching is USD 100 a month, roughly 38 rials and 500 baisa. The Omani rial has been pegged to the US dollar at 2.6008 dollars to the rial since 1986, so the rial figure is stable rather than a moving conversion. The first class is free and does not need a card.
+Group batches of five to eight students are USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars. The fee is the same flat figure everywhere outside India, so there is no rial conversion to track. The first class is free and does not need a card.
 
 ### Does this fit the CBSE curriculum taught in Indian schools in Oman?
 

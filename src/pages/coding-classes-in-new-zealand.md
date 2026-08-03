@@ -1,10 +1,10 @@
 ---
 title: "Online Coding & AI Classes in New Zealand | NCEA"
-description: "Live 1:1 online coding, Python & AI mentorship for New Zealand students. NCEA Digital Technologies aligned, university-entrance ready. Priced for your country."
+description: "Live 1:1 online coding, Python & AI mentorship for New Zealand students. NCEA Digital Technologies aligned, university-entrance ready. From USD 100 a month."
 canonical: https://learn.modernagecoders.com/coding-classes-in-new-zealand
 source: src/pages/coding-classes-in-new-zealand.html
 ---
-> Live 1:1 online coding, Python & AI mentorship for New Zealand students. NCEA Digital Technologies aligned, university-entrance ready. Priced for your country.
+> Live 1:1 online coding, Python & AI mentorship for New Zealand students. NCEA Digital Technologies aligned, university-entrance ready. From USD 100 a month.
 
 ### Request a callback
 
@@ -18,7 +18,7 @@ Aotearoa New Zealand · Online · +64 · NZST/NZDT
 
 # Real coding & AI for Kiwi students — from primary, through NCEA, to the University of Auckland and beyond.
 
-Live 1:1 mentorship in **Python**, modern web and **agentic AI** for students across both islands — aligned with **NCEA Level 1, 2 and 3 Digital Technologies**, both Achievement Standards and Unit Standards, plus **University Entrance**, **Cambridge International (CIE)** AS / A-Level, and the **IB Diploma**. Admissions ready for the **University of Auckland · Otago · Victoria · Canterbury · Massey · AUT · Waikato**. **NZD 165 a month** (USD 100), eight live sessions, two per week, cancel anytime.
+Live 1:1 mentorship in **Python**, modern web and **agentic AI** for students across both islands — aligned with **NCEA Level 1, 2 and 3 Digital Technologies**, both Achievement Standards and Unit Standards, plus **University Entrance**, **Cambridge International (CIE)** AS / A-Level, and the **IB Diploma**. Admissions ready for the **University of Auckland · Otago · Victoria · Canterbury · Massey · AUT · Waikato**. **USD 150 a month**, eight live sessions, two per week, cancel anytime.
 
 See the Year 1–13 pathway"Whakaakohia ngā tamariki ki te ao o ngā rorohiko me te atamai mōhio — kanohi ki te kanohi, ipurangi."Te Reo Māori friendly. Several mentors can structure sessions for kura kaupapa or Māori-medium learners — code itself stays in English (Python keywords are English) but we accommodate bilingual learners on request.NCEA — explained for visitors and reminded for locals
 
@@ -70,13 +70,13 @@ YEAR 13 · UE / L3
 
 **Where Modern Age Coders adds value:** not by replacing school — NZ secondary schools are strong, particularly the well-resourced ones — but by adding the 1:1 depth, real working projects on GitHub, and the Excellence-grade portfolio polish that NCEA L3 Digital Technologies internal-assessment markers actually reward.
 
-**4.9 / 5**From 740 Kiwi parent & student reviews**NZST/NZDT**UTC+12 / +13 · India mentors 6.5–7.5h behind**NCEA**Direct alignment with NCEA L1, L2, L3 Digital Technologies**NZD 165**Per month · no GST · cancel anytimeChoose your child's track
+**4.9 / 5**From 740 Kiwi parent & student reviews**NZST/NZDT**UTC+12 / +13 · India mentors 6.5–7.5h behind**NCEA**Direct alignment with NCEA L1, L2, L3 Digital Technologies**USD 150**Per month · no GST · cancel anytimeChoose your child's track
 
 ## Pick the course that matches their year level — and book a trial in under 30 seconds.
 
-Every course runs as live 1:1 with a mentor matched to your child's exact year. Two 45-minute sessions per week. NZD 165 (USD 100) per month for 1:1, or NZD 66 (USD 40) for small-group cohort.
+Every course runs as live 1:1 with a mentor matched to your child's exact year. Two 45-minute sessions per week. USD 150 per month for 1:1, or USD 100 for small-group cohort.
 
-[Year 1 – 4 · Primary Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play and animation-led. Strengthens primary-school mathematical thinking quietly. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/kids)[Year 5 – 8 · Primary / Intermediate Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional BBC micro:bit add-on for physical-computing projects. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/kids)[Year 9 – 10 · Junior Secondary Web Builders + AI Foundations HTML, CSS, JavaScript, React basics — they ship a real website by month two. AI module covers safe prompting and a first agent-style project. Sets up NCEA L1 well. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 11 · NCEA Level 1 NCEA L1 Digital Technologies Direct alignment with the NCEA L1 DT Achievement Standards (AS 91070, 91071, 91074, 91075, 91879, 91880 and the rest). Internal assessment portfolios + external standards. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 12 · NCEA Level 2 NCEA L2 Digital Technologies L2 Achievement Standards including AS 91893 (Programming), 91894 (Database), 91897 (Outcomes for an Identified Need). Aiming for Merit / Excellence credit blocks. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 13 · NCEA L3 + UE NCEA L3 Digital Technologies + UE L3 Achievement Standards including AS 91906 (Programming), 91907 (Database), 91908 (Develop Outcomes), 91911 (Apply Software). UE-credit Excellence is the bar. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/teens)[Y11 – Y13 · CIE / IB CIE Cambridge A-Level / IB DP CS For NZ students taking Cambridge International AS & A Level (typically Auckland International College, Pinehurst, Saint Kentigern) or IB DP (typically ACG, AIC). Full coverage. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The stack Xero, Rocket Lab, Datacom and Pushpay recruit for. NZD 165 / month · 1:1 · 8 sessions](/courses/coding/college)
+[Year 1 – 4 · Primary Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Play and animation-led. Strengthens primary-school mathematical thinking quietly. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[Year 5 – 8 · Primary / Intermediate Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional BBC micro:bit add-on for physical-computing projects. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[Year 9 – 10 · Junior Secondary Web Builders + AI Foundations HTML, CSS, JavaScript, React basics — they ship a real website by month two. AI module covers safe prompting and a first agent-style project. Sets up NCEA L1 well. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 11 · NCEA Level 1 NCEA L1 Digital Technologies Direct alignment with the NCEA L1 DT Achievement Standards (AS 91070, 91071, 91074, 91075, 91879, 91880 and the rest). Internal assessment portfolios + external standards. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 12 · NCEA Level 2 NCEA L2 Digital Technologies L2 Achievement Standards including AS 91893 (Programming), 91894 (Database), 91897 (Outcomes for an Identified Need). Aiming for Merit / Excellence credit blocks. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Year 13 · NCEA L3 + UE NCEA L3 Digital Technologies + UE L3 Achievement Standards including AS 91906 (Programming), 91907 (Database), 91908 (Develop Outcomes), 91911 (Apply Software). UE-credit Excellence is the bar. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Y11 – Y13 · CIE / IB CIE Cambridge A-Level / IB DP CS For NZ students taking Cambridge International AS & A Level (typically Auckland International College, Pinehurst, Saint Kentigern) or IB DP (typically ACG, AIC). Full coverage. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The stack Xero, Rocket Lab, Datacom and Pushpay recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)
 
 International schools in New Zealand run Cambridge (IGCSE and A-Level), IB and American (AP) curricula. These live courses prepare those exams directly.
 
@@ -178,17 +178,17 @@ Active NZST 15:00 – 20:00Also at Modern Age Coders
 
 ## Maths, taught with the same depth.
 
-The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For New Zealand families that means understanding-first teaching that holds up from primary through NCEA years, with IB and IGCSE for international schools. Premium 1-on-1 mentorship and small-group plans are priced for your country (shown on this page in your local currency), 8 classes a month, and every student starts with a free demo class.
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For New Zealand families that means understanding-first teaching that holds up from primary through NCEA years, with IB and IGCSE for international schools. Premium 1-on-1 mentorship (USD 150 a month) and small-group plans (USD 100 a month) are billed in USD, 8 classes a month, and every student starts with a free demo class.
 
 [IB Maths (AA & AI)](/ib-maths-tuition-online)[IGCSE Maths](/igcse-maths-tuition-online)[Grades 3-8 ladder](/online-math-tutor-3rd-grade)[Catch-Up Program](/math-catch-up-program)[Singapore Method](/singapore-math-method-tutoring)[The 2026 Guide](/best-online-math-tutoring-2026)
 
 NZT after-school slots · 4.9 across 547 Google reviews · no registration fee
 
-Honest pricing in NZD
+Honest pricing in USD
 
-## One price for Aotearoa: NZD 165 a month. Eight live 1:1 sessions. Cancel anytime.
+## One price for Aotearoa: USD 150 a month. Eight live 1:1 sessions. Cancel anytime.
 
-No joining fee. No registration fee. No annual lock-in. No "gold / platinum / diamond" upsell tiers. The same price for a Year-3 little coder, a Year-13 NCEA L3 candidate, or a Tauranga-based adult career-switcher. We price in USD and quote the NZD equivalent at the current rate. No NZ GST is added.
+No joining fee. No registration fee. No annual lock-in. No "gold / platinum / diamond" upsell tiers. The same price for a Year-3 little coder, a Year-13 NCEA L3 candidate, or a Tauranga-based adult career-switcher. We price and bill in USD, everywhere outside India. No NZ GST is added.
 
 Most chosen by Kiwi families
 
@@ -196,7 +196,7 @@ Most chosen by Kiwi families
 
 A named mentor in NZST/NZDT. Live, every session.
 
-NZD165/month / month
+USD150/monthBilled in USD
 
 - 8 live sessions per month · 2 per week · 45 min each
 - Same named mentor for as long as it's working
@@ -209,7 +209,7 @@ NZD165/month / month
 
 3 – 5 learners, same year, same standards.
 
-NZD66/month / month
+USD100/monthBilled in USD
 
 - 8 live group sessions per month · 2 per week · 60 min each
 - Same mentor every class · cohort stays together
@@ -217,7 +217,7 @@ NZD66/month / month
 - All the same project + GitHub setup as 1:1
 - Move to 1:1 anytime · prorated · no fee
 
-We accept payment in **NZD or USD**, by Visa / Mastercard, or international bank transfer. No NZ GST is charged (we deliver cross-border online).
+We bill in **USD**, by Visa / Mastercard, or international bank transfer. No NZ GST is charged (we deliver cross-border online).
 
 NZ universities — at a glance
 
@@ -412,7 +412,7 @@ What we promise · and what we don't
 - Send a written 6-month outcome plan after the trial
 - Coordinate around NCEA internal-assessment due dates and externals
 - Be honest if your child needs a different mentor — and switch them, free
-- Bill in NZD or USD on the date you joined — never on the 1st-of-month surprise
+- Bill in USD on the date you joined — never on the 1st-of-month surprise
 - Stop billing immediately on cancellation — no notice period, no last-month trick
 
 ### We won't
@@ -517,7 +517,7 @@ FAQ — NZ-specific
 
 Are you a NZ-registered company?
 
-We deliver as an education-services provider registered outside New Zealand, which is why no NZ GST applies to your bill. Delivery is online-only — there is no NZ office. We issue cross-border invoices in NZD or USD if needed.
+We deliver as an education-services provider registered outside New Zealand, which is why no NZ GST applies to your bill. Delivery is online-only — there is no NZ office. We issue cross-border invoices in USD if needed.
 
 Do you align with the NZQA NCEA framework?
 
@@ -551,13 +551,13 @@ What time zone do mentors work in?
 
 NZST (UTC+12) in winter, NZDT (UTC+13) in summer. Most mentors are based in India (IST, 6.5–7.5 hours behind), so a 4 pm NZ class is 9:30 am IST — normal teaching hours on both ends. UK mentors deliver in their morning to your afternoon.
 
-What does it cost in NZD?
+What does it cost per month?
 
-Private 1:1 mentorship is USD 100 per month — 8 sessions, two each week. Small-group cohort is USD 40 per month. No NZ GST. No joining fee.
+Private 1:1 mentorship is USD 150 per month — 8 sessions, two each week. Small-group cohort is USD 100 per month. No NZ GST. No joining fee.
 
-Can I pay in NZD or USD?
+How do I pay?
 
-Either. Most NZ families pay by Visa or Mastercard (NZD-billed). Some pay by international transfer in USD. Whichever you choose, the amount converts at the spot rate on billing date.
+Billing is in USD, by Visa or Mastercard or international bank transfer. Your card issuer handles any currency conversion on its own terms.
 
 Will the mentor help set up a school-issued device?
 
@@ -601,7 +601,7 @@ The mentor stays. Only the time zone changes. Many Kiwi families have relocated 
 
 Do you offer scholarships for Kiwi students?
 
-Yes — a small annual scholarship pool for high-potential students whose families can't comfortably afford NZD 165 / month. Email a short note from the parent + a piece of work from the child. We award 8 – 12 NZ scholarships per academic year.
+Yes — a small annual scholarship pool for high-potential students whose families can't comfortably afford USD 150 / month. Email a short note from the parent + a piece of work from the child. We award 8 – 12 NZ scholarships per academic year.
 
 What happens during the summer holidays (Dec – Feb)?
 
@@ -663,9 +663,9 @@ None of our mentors are. Every mentor is a full-time professional educator with 
 
 Yes — especially yes. Strong NCEA L3 (with Excellence credits) plus a real GitHub portfolio is exactly what Melbourne, Sydney, UNSW, ANU, Monash and UQ look for in NZ-applicants. About 1 in 6 of our advanced NZ students target an Australian Go8 university.
 
-"We can't afford NZD 165/month right now. Anything we can do?"
+"We can't afford USD 150/month right now. Anything we can do?"
 
-Be honest on the callback. We have a small annual scholarship pool (8 – 12 awards / year, 50%–100% off monthly fee). We also have a cohort option at NZD 66 which is a meaningfully smaller commitment. We'd rather help you find an option that fits than lose you to a "no fit at any price" outcome.
+Be honest on the callback. We have a small annual scholarship pool (8 – 12 awards / year, 50%–100% off monthly fee). We also have a cohort option at USD 100 which is a meaningfully smaller commitment. We'd rather help you find an option that fits than lose you to a "no fit at any price" outcome.
 
 "My child is non-binary / gender-diverse. Is the mentor pool inclusive?"
 
@@ -797,7 +797,7 @@ Patterns from NZ parent feedback
 
 We collect parent feedback at the end of every 6-month review. The same six themes come back from Kiwi families more than any other country we serve. Quoting plainly:
 
-- **"No-bullshit pricing."** One number. No tiers. No annual lock-in. No "platinum" upsells. NZD 165/month, you cancel when you want.
+- **"No-bullshit pricing."** One number. No tiers. No annual lock-in. No "platinum" upsells. USD 150/month, you cancel when you want.
 - **"The mentor actually understood NCEA."** Most overseas platforms treat NZ as a generic "Australasia" market. Our NCEA specialists know Achievement Standards by code.
 - **"They didn't push."** Kiwi parents notice when there's no pressure call after the trial. Several have said this is what convinced them to actually proceed.
 - **"My daughter wasn't talked down to."** Particularly common from girls-school families. The mentor pitch matches the student's actual level, not a stereotype.
@@ -826,7 +826,7 @@ Most of our mentors are India-based; a smaller pool is NZ-based (ex-Auckland Gra
 - **CS depth is world-class.** India produces more CS graduates per year than any other country, and the top tier — IIT JEE Advanced clearers, top-IIT placement engineers — is who teaches your child. UoA, Otago and IIT graduates respect each other's standards.
 - **Native English-medium teaching.** Indian mentors deliver in clear, professional English. For Māori-medium learners, we pair with a Te Reo-fluent bilingual mentor — code in English, kōrero in Te Reo.
 - **Kiwi-system knowledge is our investment.** Our NZ-trained mentors and ex-NZ-teachers carry the NCEA / NZQA Achievement-Standards knowledge so the broader pool can scale. You never need to explain NCEA to anyone.
-- **Cost structure makes 1:1 viable.** A Wellington-based academy charging NZD 165 / month would be forced to use 5:1 group sessions. Our model allows real 1:1 with a named mentor for the same monthly cost.
+- **Cost structure makes 1:1 viable.** A Wellington-based academy charging USD 150 / month would be forced to use 5:1 group sessions. Our model allows real 1:1 with a named mentor for the same monthly cost.
 - **No "tall poppy" sales pressure.** Kiwi parents quietly hate hard-sell tactics. Our mentors don't do scripts, don't do urgency pitches, don't do "limited spots". The first call is just a conversation.
 
 Last word

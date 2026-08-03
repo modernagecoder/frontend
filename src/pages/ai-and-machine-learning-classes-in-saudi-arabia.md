@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-saudi-arabia.html
 
 In short
 
-Modern Age Coders runs live online AI and machine learning classes for students in Saudi Arabia, ages 6 to 67, in batches of five to eight or one to one. The national AI curriculum already gives every school child the vocabulary, so our work starts a level below it: Python, the mathematics under machine learning, and models the student trains, measures and publishes. Classes run Sunday to Thursday on Arabia Standard Time. Fees start at USD 40 a month, SAR 150 at the peg, and the first class is free.
+Modern Age Coders runs live online AI and machine learning classes for students in Saudi Arabia, ages 6 to 67, in batches of five to eight or one to one. The national AI curriculum already gives every school child the vocabulary, so our work starts a level below it: Python, the mathematics under machine learning, and models the student trains, measures and publishes. Classes run Sunday to Thursday on Arabia Standard Time. Fees start at a flat USD 100 a month, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -359,13 +359,13 @@ Fees
 
 ## What it costs a family in Saudi Arabia
 
-Fees are quoted monthly in US dollars. The riyal figures beside them are reference conversions at the official peg of SAR 3.75 to the dollar, which has held since June 1986 and is defended by the Saudi Central Bank. The practical effect is that this price does not drift: SAR 150 today is SAR 150 next term. There is no admission fee and no annual lock in.
+Fees are quoted monthly in US dollars and billed in US dollars, a flat rate that is the same everywhere outside India: USD 100 a month for a group batch, USD 150 a month for one to one. Because the price is set in dollars it does not drift: USD 100 today is USD 100 next term. There is no admission fee and no annual lock in.
 
 Free first class
 
 USD 0
 
-SAR 0, no card needed
+No card needed
 
 - A real class with a real teacher, not a sales call
 - Doubles as a placement check so the level is pitched correctly
@@ -375,9 +375,9 @@ Book it
 
 Group batch
 
-USD 40
+USD 100
 
-SAR 150 a month at the peg
+Per month, billed in US dollars
 
 - Five to eight students, same teacher every week
 - Live video, never a recording
@@ -388,9 +388,9 @@ Start here
 
 One to one
 
-USD 100
+USD 150
 
-SAR 375 a month at the peg
+Per month, billed in US dollars
 
 - Private teaching, at your pace and on your schedule
 - Best for exam years and for adults with limited evenings
@@ -464,9 +464,9 @@ The national curriculum settles whether a child should learn AI, so nobody needs
 
 Saudi Arabia keeps Arabia Standard Time, UTC+3, with no daylight saving and one time zone for the whole Kingdom. India is UTC+5:30, so Riyadh, Jeddah, Dammam and Madinah are 2 hours and 30 minutes behind India. Children aged 6 to 12 take 16:30 AST, which is 19:00 in India: after school, after a rest, finished before Maghrib. We do not push that age later, because they are awake again before 05:30. Teens and adults take 19:30 AST. Both run Sunday to Thursday, because the weekend here is Friday and Saturday, and the weekend intensive is on Saturday rather than Sunday.
 
-### The fee is shown in dollars. What is that in riyals, and will it change by next term if the exchange rate moves?
+### The fee is shown in dollars. Will it change by next term if the exchange rate moves?
 
-USD 40 for a group batch is SAR 150, and USD 100 for one to one teaching is SAR 375, converted at the official peg. The riyal has been fixed at SAR 3.75 to the US dollar since June 1986 and the Saudi Central Bank defends that rate with its reserves. So the price does not drift: SAR 150 this term is SAR 150 next term, which is not true of a rupee quote. We present the riyal figures as reference conversions at the peg, not as a displayed checkout price.
+No. The fee is a flat rate set in US dollars and billed in US dollars, the same everywhere outside India: USD 100 a month for a group batch and USD 150 a month for one to one teaching. Because the price is set in dollars rather than converted from another currency, it does not drift with the exchange rate: USD 100 this term is USD 100 next term.
 
 ### Will this help with Qudurat and Tahsili, or with an application to KFUPM or KAUST?
 

@@ -1,10 +1,10 @@
 ---
 title: "Online Coding & AI Classes in Australia | ATAR Ready"
-description: "Live 1:1 online coding, Python & AI mentorship for students across Australia. Aligned with NSW HSC, VIC VCE & QCE. priced for your country a month. Free trial."
+description: "Live 1:1 online coding, Python & AI mentorship for students across Australia. Aligned with NSW HSC, VIC VCE & QCE. From USD 100 a month. Free trial."
 canonical: https://learn.modernagecoders.com/coding-classes-in-australia
 source: src/pages/coding-classes-in-australia.html
 ---
-> Live 1:1 online coding, Python & AI mentorship for students across Australia. Aligned with NSW HSC, VIC VCE & QCE. priced for your country a month. Free trial.
+> Live 1:1 online coding, Python & AI mentorship for students across Australia. Aligned with NSW HSC, VIC VCE & QCE. From USD 100 a month. Free trial.
 
 ### Request a callback
 
@@ -18,15 +18,15 @@ Australia · Online School · +61 · AEDT · ACDT · AWST
 
 # Real coding & AI for Aussie students — *from Year 1 to ATAR.*
 
-Live 1:1 mentorship in **Python**, modern web and **agentic AI** for Australian kids, teens and adults — aligned with the **Australian Curriculum Digital Technologies**, every state exam system (**HSC · VCE · QCE · WACE · SACE · TCE · ACT · NTCET**), and the algorithmic depth the **Group of Eight** (Melbourne, Sydney, ANU, UNSW, Monash, UQ, UWA, Adelaide) actually look for. **AUD 152 a month** (USD 100), eight live sessions, two a week, cancel anytime. Mentors work in **your** time zone.
+Live 1:1 mentorship in **Python**, modern web and **agentic AI** for Australian kids, teens and adults — aligned with the **Australian Curriculum Digital Technologies**, every state exam system (**HSC · VCE · QCE · WACE · SACE · TCE · ACT · NTCET**), and the algorithmic depth the **Group of Eight** (Melbourne, Sydney, ANU, UNSW, Monash, UQ, UWA, Adelaide) actually look for. **USD 150 a month** for 1:1, eight live sessions, two a week, cancel anytime. Mentors work in **your** time zone.
 
-See your state's pathway4.9/5Average parent & learner rating · 547 reviews8 statesNSW · VIC · QLD · WA · SA · TAS · ACT · NT — every exam systemGo8Aligned to every Group of Eight CS / engineering program$152 AUDPer month · cancel anytime · no contractMentors live in **all 3 Australian time zones**Booking now · 09:00 – 21:00 local in each zone**AEDT / AEST** · UTC +10 / +11Sydney · Melbourne · Brisbane · Canberra · HobartAfter-school *16:30*, evening *18:30*, Saturday morning**ACDT / ACST** · UTC +9:30 / +10:30Adelaide · Darwin · Broken HillAfter-school *16:00*, evening *18:00*, weekend**AWST** · UTC +8Perth · Fremantle · MandurahAfter-school *15:30*, evening *17:30*, Saturday morningParent rating4.9 / 5 · 547 reviewsAligned withAust. Curric. · HSC · VCE · QCE · WACEMentor hours09:00 – 21:00 in your time zoneCommitmentFree trial · cancel monthlyPick a course · start this week
+See your state's pathway4.9/5Average parent & learner rating · 547 reviews8 statesNSW · VIC · QLD · WA · SA · TAS · ACT · NT — every exam systemGo8Aligned to every Group of Eight CS / engineering program$150 USDPer month · cancel anytime · no contractMentors live in **all 3 Australian time zones**Booking now · 09:00 – 21:00 local in each zone**AEDT / AEST** · UTC +10 / +11Sydney · Melbourne · Brisbane · Canberra · HobartAfter-school *16:30*, evening *18:30*, Saturday morning**ACDT / ACST** · UTC +9:30 / +10:30Adelaide · Darwin · Broken HillAfter-school *16:00*, evening *18:00*, weekend**AWST** · UTC +8Perth · Fremantle · MandurahAfter-school *15:30*, evening *17:30*, Saturday morningParent rating4.9 / 5 · 547 reviewsAligned withAust. Curric. · HSC · VCE · QCE · WACEMentor hours09:00 – 21:00 in your time zoneCommitmentFree trial · cancel monthlyPick a course · start this week
 
 ## Eight serious tracks for Aussie learners — Year 1 to professional.
 
 Click a card to open the course page, or hit "Book a free trial" and a mentor matches your student to the right one.
 
-[View all courses](/courses)[Most popular  Years 1 – 6 Coding for Kids Scratch → real Python by month three. Build games, drawing apps, friendly AI projects. ScratchPythonGamesAI intro  AUD152/ mo · 1:1 Enroll](/courses/coding/kids)[ATAR · Year 11/12  Years 7 – 12 Coding for Teens Python, JavaScript, web apps. HSC / VCE / QCE / WACE / SACE / TCE aligned + AIO coaching. PythonJSWebAIOATAR  AUD152/ mo · 1:1 Enroll](/courses/coding/teens)[New · AI  Years 7 – 12 AI & Agentic-AI Build real LLM apps the way Atlassian, Canva, SafetyCulture and CSIRO Data61 actually ship. PythonOpenAIClaudeAgentsRAG  AUD152/ mo · 1:1 Enroll](/ai-ml-course-for-teens)[Group of Eight  University prep Top-tier CS admissions Melbourne · Sydney · ANU · UNSW · Monash · UQ · UWA · Adelaide CS / engineering ready. AlgorithmsAIO CampSystem designPortfolio  AUD152/ mo · 1:1 Enroll](/courses/coding/college)[Career switch  Adults · 22 – 65 For Professionals Mid-career switch into software, data & AI roles at Atlassian, Canva, REA, Seek, SafetyCulture, NAB, Westpac, CBA. PythonTypeScriptCloudAI eng  AUD152/ mo · 1:1 Enroll](/courses/coding/college)[Girls in STEM  Ages 8 – 22 Special For Girls Same curriculum, all-female mentor pairing, role models from Aussie tech (Canva, Atlassian, CSIRO). PythonWebAIMentorship  AUD152/ mo · 1:1 Enroll](/courses/coding/girls)[Schools & teams  Cohorts Customised & Schools For Aussie schools (independent, public, Catholic), school clusters and companies. Cohorts of 6–30, tailored to your state framework. CohortCustomReportsMentor team  AUD61/ seat · group Talk to us](/courses/coding/corporate)[Free · join  All ages Monthly Hackathons Free monthly coding & AI hackathons for Aussie kids, teens and adults. Real prizes. Real shipped work. FreeLiveMonthlyPrizes  Free· no card Join next one](/courses)
+[View all courses](/courses)[Most popular  Years 1 – 6 Coding for Kids Scratch → real Python by month three. Build games, drawing apps, friendly AI projects. ScratchPythonGamesAI intro  USD150/ mo · 1:1 Enroll](/courses/coding/kids)[ATAR · Year 11/12  Years 7 – 12 Coding for Teens Python, JavaScript, web apps. HSC / VCE / QCE / WACE / SACE / TCE aligned + AIO coaching. PythonJSWebAIOATAR  USD150/ mo · 1:1 Enroll](/courses/coding/teens)[New · AI  Years 7 – 12 AI & Agentic-AI Build real LLM apps the way Atlassian, Canva, SafetyCulture and CSIRO Data61 actually ship. PythonOpenAIClaudeAgentsRAG  USD150/ mo · 1:1 Enroll](/ai-ml-course-for-teens)[Group of Eight  University prep Top-tier CS admissions Melbourne · Sydney · ANU · UNSW · Monash · UQ · UWA · Adelaide CS / engineering ready. AlgorithmsAIO CampSystem designPortfolio  USD150/ mo · 1:1 Enroll](/courses/coding/college)[Career switch  Adults · 22 – 65 For Professionals Mid-career switch into software, data & AI roles at Atlassian, Canva, REA, Seek, SafetyCulture, NAB, Westpac, CBA. PythonTypeScriptCloudAI eng  USD150/ mo · 1:1 Enroll](/courses/coding/college)[Girls in STEM  Ages 8 – 22 Special For Girls Same curriculum, all-female mentor pairing, role models from Aussie tech (Canva, Atlassian, CSIRO). PythonWebAIMentorship  USD150/ mo · 1:1 Enroll](/courses/coding/girls)[Schools & teams  Cohorts Customised & Schools For Aussie schools (independent, public, Catholic), school clusters and companies. Cohorts of 6–30, tailored to your state framework. CohortCustomReportsMentor team  USD100/ seat · group Talk to us](/courses/coding/corporate)[Free · join  All ages Monthly Hackathons Free monthly coding & AI hackathons for Aussie kids, teens and adults. Real prizes. Real shipped work. FreeLiveMonthlyPrizes  Free· no card Join next one](/courses)
 
 International schools across Australia run American (AP), British (IGCSE and A-Level) and IB curricula. These live courses prepare those exams directly.
 
@@ -312,7 +312,7 @@ Also at Modern Age Coders
 
 ## Maths, taught with the same depth.
 
-The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For Australian students that means the Australian Curriculum, NAPLAN-flagged gap repair, and the HSC/VCE/QCE road to Methods. Premium 1-on-1 mentorship and small-group plans are priced for your country (shown on this page in your local currency), 8 classes a month, and every student starts with a free demo class.
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For Australian students that means the Australian Curriculum, NAPLAN-flagged gap repair, and the HSC/VCE/QCE road to Methods. Premium 1-on-1 mentorship is USD 150 a month and small-group plans are USD 100, billed in USD, 8 classes a month, and every student starts with a free demo class.
 
 [Maths Tutoring Australia](/online-maths-tutoring-australia)[IB Maths (AA & AI)](/ib-maths-tuition-online)[IGCSE Maths](/igcse-maths-tuition-online)[Catch-Up Program](/math-catch-up-program)[Competition Maths](/courses/olympiad-competition-mathematics-mastery)[The 2026 Guide](/best-online-math-tutoring-2026)
 
@@ -320,7 +320,7 @@ AEST after-school slots · 4.9 across 547 Google reviews · no registration fee
 
 Plain pricing · month-to-month
 
-## AUD 152 a month. Eight live sessions. No fine print.
+## USD 150 a month. Eight live sessions. No fine print.
 
 No registration fee, no annual lock-in, no surprise upsells. Pay in USD with any Visa, Mastercard, Amex, Apple Pay or Google Pay — your bank handles the AUD conversion automatically.
 
@@ -330,9 +330,9 @@ No registration fee, no annual lock-in, no surprise upsells. Pay in USD with any
 
 One mentor, one student, every class. Deepest progress, fully customised pace.
 
-USD100/ month
+USD150/ month
 
-/ month · billed in USD · no joining fee
+Billed monthly in USD · no joining fee
 
 - 8 live 1:1 sessions every month
 - 2 classes per week, your chosen Aussie time-zone slots
@@ -348,9 +348,9 @@ Small-group cohort
 
 Same curriculum, same mentors, in a small live group. Friendly entry point.
 
-USD40/ month
+USD100/ month
 
-/ month · billed in USD · no joining fee
+Billed monthly in USD · no joining fee
 
 - 8 live small-group sessions every month
 - Up to 6 students per group, age & year-banded
@@ -364,7 +364,7 @@ How we compare
 
 School computing, private tutors, Cluey Learning, Code Camp / Coder Academy, free YouTube — each has a place. Here's where we sit.
 
-What mattersModern Age CodersSchool computing classCluey / Code Camp / Coder AcademyPrivate tutor / YouTubeSame 1:1 mentor weekly, all year✓ Yes— Class format~ Rotating~ Tutor-dependentReal coding (Python · JS · Git · deploy)✓ Week 1~ Sometimes~ Depends~ Self-drivenModern AI & agentic-AI engineering✓ Built in— Rare~ Marketing~ TutorialsState-exam alignment (HSC / VCE / QCE etc.)✓ All 8✓ Native (one state)~ Limited~ Tutor-dependentAIO / NCSS / Bebras coaching✓ Yes— Rare— Rare~ RareGroup of Eight admissions awareness✓ Yes~ Career counsellor~ Marketing only— NoMonthly costAUD 152 (1:1) / 61 (group)Free (in school)AUD 220 – 600 / monthAUD 50 – 120 / hourCancel / pause✓ Monthly~ Term-based~ Per term✓ HourlyWhere Australian families learn with us
+What mattersModern Age CodersSchool computing classCluey / Code Camp / Coder AcademyPrivate tutor / YouTubeSame 1:1 mentor weekly, all year✓ Yes— Class format~ Rotating~ Tutor-dependentReal coding (Python · JS · Git · deploy)✓ Week 1~ Sometimes~ Depends~ Self-drivenModern AI & agentic-AI engineering✓ Built in— Rare~ Marketing~ TutorialsState-exam alignment (HSC / VCE / QCE etc.)✓ All 8✓ Native (one state)~ Limited~ Tutor-dependentAIO / NCSS / Bebras coaching✓ Yes— Rare— Rare~ RareGroup of Eight admissions awareness✓ Yes~ Career counsellor~ Marketing only— NoMonthly costUSD 150 (1:1) / 100 (group)Free (in school)AUD 220 – 600 / monthAUD 50 – 120 / hourCancel / pause✓ Monthly~ Term-based~ Per term✓ HourlyWhere Australian families learn with us
 
 ## Online classes — locally aware, time-zone native.
 
@@ -638,7 +638,7 @@ All three Australian time zones — AEDT / AEST (NSW, VIC, QLD, TAS, ACT), ACDT 
 
 What does it cost in Australian dollars?
 
-Private 1:1 mentorship is **USD 100 per month** — 8 sessions, two per week. Small-group cohort is **USD 40 per month**. Billing is in USD via Stripe; your bank applies the live AUD conversion automatically.
+Private 1:1 mentorship is **USD 150 per month**, 8 sessions, two per week. Small-group cohort is **USD 100 per month**. Billing is in USD via Stripe; your bank applies its own conversion.
 
 Will my child build real AI, or just "use ChatGPT"?
 
@@ -666,7 +666,7 @@ You decide. Most Australian families pause across the Christmas break, mid-year 
 
 How do we pay? Aussie cards OK?
 
-Yes. We accept Visa, Mastercard, Amex (all issued in Australia), Apple Pay and Google Pay. Billing is in USD via Stripe; your card issuer applies the live AUD conversion — typically about AUD 152 for the 1:1 plan at current rates.
+Yes. We accept Visa, Mastercard, Amex (all issued in Australia), Apple Pay and Google Pay. Billing is in USD via Stripe; your card issuer applies its own conversion.
 
 Can siblings share a slot?
 

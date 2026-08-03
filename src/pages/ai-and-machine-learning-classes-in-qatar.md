@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-qatar.html
 
 In short
 
-Modern Age Coders runs live online AI and machine learning classes for students in Qatar, ages 6 to 67, in batches of five to eight or one to one. Students build in Python, study the mathematics machine learning depends on, and train models they can evaluate rather than merely operate. Classes follow the Qatari week, Sunday to Thursday, with a Saturday intensive. Fees start at USD 40 a month, about QR 146 at the riyal peg, first class free.
+Modern Age Coders runs live online AI and machine learning classes for students in Qatar, ages 6 to 67, in batches of five to eight or one to one. Students build in Python, study the mathematics machine learning depends on, and train models they can evaluate rather than merely operate. Classes follow the Qatari week, Sunday to Thursday, with a Saturday intensive. Fees start at a flat USD 100 a month, billed in US dollars, first class free.
 
 The catalogue
 
@@ -348,13 +348,13 @@ Fees
 
 ## What it costs a family in Doha
 
-The Qatari riyal, written QAR or QR and divided into 100 dirhams, is hard pegged to the US dollar at QR 3.64, a peg Qatar Central Bank has maintained since 2001. The bank buys dollars at a rate not exceeding QR 3.6385 and sells at not exceeding QR 3.6415, so the riyal figures below can be printed plainly. Paid month to month, with no admission fee and nothing to cancel.
+Fees are a flat rate billed in US dollars, the same everywhere outside India: USD 100 a month for a group batch, USD 150 a month for one to one. Paid month to month, with no admission fee and nothing to cancel.
 
 Free first class
 
-QR 0
+USD 0
 
-USD 0, no card needed
+No card needed
 
 - A real class, not a sales call
 - Doubles as a placement check
@@ -364,9 +364,9 @@ Book it
 
 Group batch
 
-QR 146
+USD 100
 
-USD 40 a month, QAR 145.60 at the peg
+Per month, billed in US dollars
 
 - Five to eight students, same teacher every week
 - Live video, never a recording
@@ -377,9 +377,9 @@ Start here
 
 One to one
 
-QR 364
+USD 150
 
-USD 100 a month, QAR 364.00 at the peg
+Per month, billed in US dollars
 
 - Private teaching, your pace and your schedule
 - Best for board exam years
@@ -473,9 +473,9 @@ That is what it is built for. Carnegie Mellon University in Qatar, in Education 
 
 Yes. The first project models monthly container throughput across Hamad Port, Old Doha Port and Al Ruwais Port from Mwani Qatar's published figures. Those ports moved 493,105 TEU in the first half of 2026 and 1,458,708 TEU across 2025. The student types the rows in, reconciles them against the published totals, finds where the totals disagree, and writes that down. That is their own work, not a downloaded notebook.
 
-### Can we pay in Qatari riyals, and what do the group and one to one fees come to in QR?
+### What do the group and one to one fees come to, and in which currency are they billed?
 
-The riyal is hard pegged at QR 3.64 to the US dollar, a peg Qatar Central Bank has held since 2001, so the rate barely moves. A group batch at USD 40 a month is QAR 145.60, quoted as about QR 146. One to one at USD 100 a month is QAR 364.00. The first class is free and needs no card.
+Fees are billed in US dollars, the same flat rate everywhere outside India: a group batch is USD 100 a month and one to one is USD 150 a month. There is no separate riyal price and no exchange arithmetic to check. The first class is free and needs no card.
 
 Start here
 

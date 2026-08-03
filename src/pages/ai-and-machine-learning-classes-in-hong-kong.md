@@ -1,14 +1,14 @@
 ---
 title: "AI and Machine Learning Classes in Hong Kong | Build AI"
-description: "Live online classes teaching students in Hong Kong, aged 6 to 67, to train and evaluate real machine learning models in Python. From about HKD 314 a month."
+description: "Live online classes teaching students in Hong Kong, aged 6 to 67, to train and evaluate real machine learning models in Python. From USD 100 a month."
 canonical: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-hong-kong
 source: src/pages/ai-and-machine-learning-classes-in-hong-kong.html
 ---
-> Live online classes teaching students in Hong Kong, aged 6 to 67, to train and evaluate real machine learning models in Python. From about HKD 314 a month.
+> Live online classes teaching students in Hong Kong, aged 6 to 67, to train and evaluate real machine learning models in Python. From USD 100 a month.
 
 In short
 
-Modern Age Coders teaches AI and machine learning live online to learners in Hong Kong, from age 6 to age 67, in groups of five to eight or privately. The subject is model construction: Python first, then the statistics and matrix work the algorithms depend on, then training a model on published data and stating in plain units how wrong it is. Teaching is in English, on Hong Kong weekday evenings and Saturday mornings. A group place is USD 40 a month, about HKD 314 under the currency peg, and the opening class costs nothing.
+Modern Age Coders teaches AI and machine learning live online to learners in Hong Kong, from age 6 to age 67, in groups of five to eight or privately. The subject is model construction: Python first, then the statistics and matrix work the algorithms depend on, then training a model on published data and stating in plain units how wrong it is. Teaching is in English, on Hong Kong weekday evenings and Saturday mornings. A group place is USD 100 a month, billed in US dollars, and the opening class costs nothing.
 
 The catalogue
 
@@ -359,15 +359,15 @@ by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTe
 
 Fees
 
-## What a Hong Kong family pays, and why the number barely moves
+## What a Hong Kong family pays, and why the number never moves
 
-The Hong Kong dollar does not float. Under the Linked Exchange Rate System, in place since 17 October 1983, the HKMA holds the rate stable within a band of 7.75 to 7.85 to one US dollar, with Convertibility Undertakings at each end. A dollar price published here therefore converts to a figure that will not have moved by the day you pay. Billing is month by month, there is no joining charge, and nothing is signed for a year.
+Pricing is flat and billed in US dollars: USD 100 a month for a group place and USD 150 a month for one to one, the same everywhere outside India. The price published here is the price on the day you pay. Billing is month by month, there is no joining charge, and nothing is signed for a year.
 
 Free first class
 
-HKD 0
+USD 0
 
-USD 0, no card needed
+No card needed
 
 - Taught, not sold, by the teacher who would take the batch
 - Also tells us the level to place the learner at
@@ -377,9 +377,9 @@ Book it
 
 Group batch
 
-about HKD 314
+USD 100
 
-USD 40 a month
+a month, billed in US dollars
 
 - Five to eight students, one teacher, every week
 - Live video, never a recording
@@ -390,9 +390,9 @@ Start here
 
 One to one
 
-about HKD 784
+USD 150
 
-USD 100 a month
+a month, billed in US dollars
 
 - Private teaching at the pace the learner sets
 - Suits Form 5 and Form 6 years and adults with few free evenings
@@ -400,7 +400,7 @@ USD 100 a month
 
 Enquire
 
-One point worth stating plainly. The peg means the truthful answer is a narrow band rather than a single number with false decimals. At the strong side of 7.75 a group place is HKD 310.00 and one to one is HKD 775.00; at the weak side of 7.85 they are HKD 314.00 and HKD 785.00. For as long as the peg holds, that is the entire range. The rate used above, USD 1 to HKD 7.8421, was retrieved on 25 July 2026 and sits near the weak side.
+One point worth stating plainly. The truthful answer is a single number, not a band: USD 100 a month for a group place and USD 150 for one to one, billed in US dollars, the same everywhere outside India. There are no decimals to defend because there is no conversion step at all.
 
 What families say
 
@@ -480,9 +480,9 @@ It helps sideways, and we would rather say so than oversell it. ICT Papers 1 and
 
 For a technical degree it deserves serious thought. HKUST programme JS5282, Engineering with Extended Major in Artificial Intelligence, accepts Mathematics Extended Module 1 or Module 2 at Level 3 in place of a second elective, which makes the Extended Part a quiet gate into engineering admission. Its paper falls on Friday 23 April 2027. Our teenage track carries the mathematics inside the machine learning rather than beside it, so the two reinforce each other.
 
-### What do the fees come to in Hong Kong dollars?
+### What do the fees come to?
 
-A group place is USD 40 a month, about HKD 314, and one to one teaching is USD 100 a month, about HKD 784. Those figures convert at USD 1 to HKD 7.8421, retrieved on 25 July 2026. The Hong Kong dollar has been held under the Linked Exchange Rate System since 17 October 1983 inside a band of 7.75 to 7.85 to the US dollar, so the honest worst case is narrow: HKD 310 to 314 for a group place and HKD 775 to 785 for one to one. The first class is free.
+A group place is USD 100 a month and one to one teaching is USD 150 a month. Pricing is flat and billed in US dollars everywhere outside India, so there is no Hong Kong dollar price list to track. The first class is free.
 
 ### Can any of this be used in a JUPAS application?
 

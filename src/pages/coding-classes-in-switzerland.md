@@ -1,10 +1,10 @@
 ---
 title: "Online Coding & AI Classes in Switzerland"
-description: "Live online coding, Python & AI classes for kids, teens & adults in Switzerland. 1:1 mentoring, 8 sessions a month across Zurich, Geneva & Basel. Priced for your country."
+description: "Live online coding, Python & AI classes for kids, teens & adults in Switzerland. 1:1 mentoring, 8 sessions a month across Zurich, Geneva & Basel. From USD 100 a month."
 canonical: https://learn.modernagecoders.com/coding-classes-in-switzerland
 source: src/pages/coding-classes-in-switzerland.html
 ---
-> Live online coding, Python & AI classes for kids, teens & adults in Switzerland. 1:1 mentoring, 8 sessions a month across Zurich, Geneva & Basel. Priced for your country.
+> Live online coding, Python & AI classes for kids, teens & adults in Switzerland. 1:1 mentoring, 8 sessions a month across Zurich, Geneva & Basel. From USD 100 a month.
 
 ### Request a Callback
 
@@ -18,7 +18,7 @@ Expect a call within 3 hours during 09:00–21:00 CET.
 
 # Switzerland's most thoughtful online coding & AI school.
 
-Live 1:1 mentorship in **real coding**, **Python**, modern web, **AI** and **agentic AI** — built for Swiss students aged 6 to 67, on Central European Time. Two classes a week, eight in a month, USD 100 — no contracts, no fluff, no block-based toys past month one.
+Live 1:1 mentorship in **real coding**, **Python**, modern web, **AI** and **agentic AI** — built for Swiss students aged 6 to 67, on Central European Time. Two classes a week, eight in a month, USD 150 — no contracts, no fluff, no block-based toys past month one.
 
 See pricing25+Countries our students join from4.9 / 5Average parent ratingCETNative Swiss-hours schedulingPick a course · start this week
 
@@ -26,7 +26,7 @@ See pricing25+Countries our students join from4.9 / 5Average parent ratingCETNat
 
 Eight live tracks for Swiss families. Click any card to open the course page, or hit "Book a free demo" and a mentor will recommend the right one for your child.
 
-[View all courses](/courses)[Most popular  Ages 6 – 12 Coding for Kids Scratch → real Python by month three. Build games, drawing apps and tiny AI chatbots. ScratchPythonGamesAI intro  USD100/ mo · 1:1 Enroll](/courses/coding/kids)[Matura-ready  Ages 13 – 18 Coding for Teens Python, JavaScript, web apps and Git. Maps to Swiss Matura Informatik & ETH / EPFL prep. PythonJSWebGitDSA  USD100/ mo · 1:1 Enroll](/courses/coding/teens)[New · AI  Ages 13 – 18 AI & Agentic-AI for Teens Build real LLM products. Prompts, RAG, tool-calling, agents that act on the world. PythonOpenAIClaudeAgentsRAG  USD100/ mo · 1:1 Enroll](/ai-ml-course-for-teens)[ETH / EPFL  18 + Coding for College For ETH Zürich, EPFL and Swiss uni students. Algorithms, system design, AI engineering. AlgorithmsPythonSystem designAI  USD100/ mo · 1:1 Enroll](/courses/coding/college)[Career switch  Adults · 22 – 65 For Professionals Mid-career switch into software, data and AI. Built around Swiss employer expectations. PythonTypeScriptCloudAI  USD100/ mo · 1:1 Enroll](/courses/coding/college)[For girls  Ages 8 – 22 Special For Girls Same curriculum, all-female mentor pairing, women-in-tech role models from Zürich & Lausanne. PythonWebAIMentorship  USD100/ mo · 1:1 Enroll](/courses/coding/girls)[Schools / B2B  Teams · groups Customised & Schools For Swiss schools, Gymnasien and companies. Cohorts of 6–30, tailored curriculum, on your hours. GroupCurriculumReportsCustom  USD40/ seat · group Talk to us](/courses/coding/corporate)[Free · join  All ages · welcome Hackathon Programme Free monthly coding & AI hackathons for Swiss kids, teens and adults. Real prizes, real shipped projects. FreeLiveMonthlyPrizes  Free· no card Join next one](/courses)Parent rating4.9 / 5 · 1,280+ reviewsSwiss coverageZürich · Geneva · Basel · Bern · Lausanne · ZugScheduleMentors live 09:00 – 21:00 CETRiskFree first demo · pause anytimeSwitzerland · the AI & coding context
+[View all courses](/courses)[Most popular  Ages 6 – 12 Coding for Kids Scratch → real Python by month three. Build games, drawing apps and tiny AI chatbots. ScratchPythonGamesAI intro  USD150/ mo · 1:1 Enroll](/courses/coding/kids)[Matura-ready  Ages 13 – 18 Coding for Teens Python, JavaScript, web apps and Git. Maps to Swiss Matura Informatik & ETH / EPFL prep. PythonJSWebGitDSA  USD150/ mo · 1:1 Enroll](/courses/coding/teens)[New · AI  Ages 13 – 18 AI & Agentic-AI for Teens Build real LLM products. Prompts, RAG, tool-calling, agents that act on the world. PythonOpenAIClaudeAgentsRAG  USD150/ mo · 1:1 Enroll](/ai-ml-course-for-teens)[ETH / EPFL  18 + Coding for College For ETH Zürich, EPFL and Swiss uni students. Algorithms, system design, AI engineering. AlgorithmsPythonSystem designAI  USD150/ mo · 1:1 Enroll](/courses/coding/college)[Career switch  Adults · 22 – 65 For Professionals Mid-career switch into software, data and AI. Built around Swiss employer expectations. PythonTypeScriptCloudAI  USD150/ mo · 1:1 Enroll](/courses/coding/college)[For girls  Ages 8 – 22 Special For Girls Same curriculum, all-female mentor pairing, women-in-tech role models from Zürich & Lausanne. PythonWebAIMentorship  USD150/ mo · 1:1 Enroll](/courses/coding/girls)[Schools / B2B  Teams · groups Customised & Schools For Swiss schools, Gymnasien and companies. Cohorts of 6–30, tailored curriculum, on your hours. GroupCurriculumReportsCustom  USD100/ seat · group Talk to us](/courses/coding/corporate)[Free · join  All ages · welcome Hackathon Programme Free monthly coding & AI hackathons for Swiss kids, teens and adults. Real prizes, real shipped projects. FreeLiveMonthlyPrizes  Free· no card Join next one](/courses)Parent rating4.9 / 5 · 1,280+ reviewsSwiss coverageZürich · Geneva · Basel · Bern · Lausanne · ZugScheduleMentors live 09:00 – 21:00 CETRiskFree first demo · pause anytimeSwitzerland · the AI & coding context
 
 ## Born next door to ETH Zürich, EPFL, CERN and Crypto Valley.
 
@@ -260,7 +260,7 @@ Also at Modern Age Coders
 
 ## Maths, taught with the same depth.
 
-The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For international-school families in Switzerland that means IB and IGCSE taught board-exact, in English, at European evening hours. Premium 1-on-1 mentorship and small-group plans are priced for your country (shown on this page in your local currency), 8 classes a month, and every student starts with a free demo class.
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For international-school families in Switzerland that means IB and IGCSE taught board-exact, in English, at European evening hours. Premium 1-on-1 mentorship is a flat USD 150 a month and small-group plans are USD 100 a month, billed in USD, 8 classes a month, and every student starts with a free demo class.
 
 [IB Maths (AA & AI)](/ib-maths-tuition-online)[IGCSE Maths](/igcse-maths-tuition-online)[Grades 3-8 ladder](/online-math-tutor-3rd-grade)[Catch-Up Program](/math-catch-up-program)[Singapore Method](/singapore-math-method-tutoring)[The 2026 Guide](/best-online-math-tutoring-2026)
 
@@ -278,9 +278,9 @@ No registration fee, no annual lock-in, no surprise upsells. Cancel or pause whe
 
 One mentor, one student, every class. Deepest progress, fully customised pace.
 
-USD100/ month
+USD150/ month
 
-/ month · billed in USD · no joining fee
+Billed in USD · no joining fee
 
 - 8 live 1:1 sessions every month
 - 2 classes per week, your chosen CET slots
@@ -296,9 +296,9 @@ Small-group cohort
 
 Same curriculum, same mentors, in a small live group. Friendly entry point.
 
-USD40/ month
+USD100/ month
 
-/ month · billed in USD · no joining fee
+Billed in USD · no joining fee
 
 - 8 live small-group sessions every month
 - 2 classes per week, your chosen CET slot
@@ -313,7 +313,7 @@ How we compare
 
 Honest comparison. We don't win on every row — but on the ones that matter for your child's progress, we do.
 
-What mattersModern Age CodersLocal Swiss tutorFree tools (Code.org, YouTube)Generic global online school1:1 live mentor, same face weekly✓ Yes✓ Often— No~ RotatingReal coding (Python, JS, Git)✓ Week 1~ Depends~ Mostly blocks~ EventuallyAgentic AI & modern LLM engineering✓ Built-in— Rare— No~ MarketingMatura Informatik / ETH / EPFL prep✓ Aligned~ If you find one— No— NoSchedule in Central European Time✓ Native✓ Native✓ Self-paced~ Often US hoursReal shipped projects in portfolio✓ Every month~ Maybe— No~ Demo appsMonthly costUSD 100 (1:1) / 40 (group)CHF 200 – 500FreeUSD 150 – 300Pause / cancel any time✓ No contract~ Varies✓ Free~ QuarterlySwiss-hour schedule
+What mattersModern Age CodersLocal Swiss tutorFree tools (Code.org, YouTube)Generic global online school1:1 live mentor, same face weekly✓ Yes✓ Often— No~ RotatingReal coding (Python, JS, Git)✓ Week 1~ Depends~ Mostly blocks~ EventuallyAgentic AI & modern LLM engineering✓ Built-in— Rare— No~ MarketingMatura Informatik / ETH / EPFL prep✓ Aligned~ If you find one— No— NoSchedule in Central European Time✓ Native✓ Native✓ Self-paced~ Often US hoursReal shipped projects in portfolio✓ Every month~ Maybe— No~ Demo appsMonthly costUSD 150 (1:1) / 100 (group)CHF 200 – 500FreeUSD 150 – 300Pause / cancel any time✓ No contract~ Varies✓ Free~ QuarterlySwiss-hour schedule
 
 ## Slots that fit Swiss school days.
 
@@ -450,9 +450,9 @@ What time of day do classes run for Swiss students?
 
 We schedule against Central European Time. Most Swiss families choose after-school slots between 16:00 and 20:00 CET on weekdays, or Saturday and Sunday mornings between 09:00 and 12:00 CET. You pick your two weekly slots when you enrol, and mentors keep the same slot every week unless you change it.
 
-How much do the classes cost in CHF?
+How much do the classes cost?
 
-Private 1:1 mentorship is **USD 100 per month** ( ), for 8 sessions — two each week. Small-group classes are **USD 40 per month** ( ) on the same schedule. There is no joining fee, no contract, no card-on-file surprise, and you can pause for ski weeks or summer holidays.
+Private 1:1 mentorship is **USD 150 per month**, for 8 sessions — two each week. Small-group classes are **USD 100 per month** on the same schedule. There is no joining fee, no contract, no card-on-file surprise, and you can pause for ski weeks or summer holidays.
 
 Do you teach real coding or just block-based tools like Scratch?
 
@@ -512,7 +512,7 @@ Yes. We adapt within a track rather than skipping content — depth before speed
 
 How do we pay from a Swiss bank account?
 
-We accept Swiss credit and debit cards (Visa, Mastercard, Amex), Apple Pay, Google Pay, TWINT-linked cards via Stripe, and SEPA / international transfer for adult invoices. Billing is in USD; your bank applies the live CHF conversion — typically for the 1:1 plan.
+We accept Swiss credit and debit cards (Visa, Mastercard, Amex), Apple Pay, Google Pay, TWINT-linked cards via Stripe, and SEPA / international transfer for adult invoices. Billing is in USD; your bank applies its own CHF conversion.
 
 Last thing
 

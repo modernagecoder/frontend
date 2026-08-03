@@ -1,14 +1,14 @@
 ---
 title: "AI and Machine Learning Classes in Germany | Build AI"
-description: "Live online AI and ML classes for Germany, ages 6 to 67. Train real models on Bundesnetzagentur power data, not prompts. EUR 35.16 a month, first class free."
+description: "Live online AI and ML classes for Germany, ages 6 to 67. Train real models on Bundesnetzagentur power data, not prompts. From USD 100 a month, first class free."
 canonical: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-germany
 source: src/pages/ai-and-machine-learning-classes-in-germany.html
 ---
-> Live online AI and ML classes for Germany, ages 6 to 67. Train real models on Bundesnetzagentur power data, not prompts. EUR 35.16 a month, first class free.
+> Live online AI and ML classes for Germany, ages 6 to 67. Train real models on Bundesnetzagentur power data, not prompts. From USD 100 a month, first class free.
 
 In short
 
-Modern Age Coders is a live online school teaching learners in Germany from age 6 to age 67, in batches of five to eight or privately. The subject is model building, not tool use: Python first, then the statistics under it, then training and testing models on published German data such as the Bundesnetzagentur SMARD electricity series. Teaching is in English, on German clock time. A group place is USD 40 a month, EUR 35.16 at the reference rate published for 24 July 2026, and the first class costs nothing.
+Modern Age Coders is a live online school teaching learners in Germany from age 6 to age 67, in batches of five to eight or privately. The subject is model building, not tool use: Python first, then the statistics under it, then training and testing models on published German data such as the Bundesnetzagentur SMARD electricity series. Teaching is in English, on German clock time. A group place is USD 100 a month, billed in US dollars, and the first class costs nothing.
 
 The catalogue
 
@@ -366,15 +366,15 @@ by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTe
 
 Fees
 
-## EUR 35.16 a month, and the direction of the rate that produced it
+## USD 100 a month, the same flat price everywhere outside India
 
 A non-EU student on the TUM M.Sc. Informatics pays EUR 6,000 per semester in tuition. Whether a learner has the mathematics for that programme is settled years before the tuition is. Billing here is monthly, there is no joining charge, and nobody signs up for a year.
 
 Free first class
 
-EUR 0
+USD 0
 
-USD 0, no card needed
+No card needed
 
 - A taught lesson, not a sales call
 - Sets the starting band honestly
@@ -384,9 +384,9 @@ Book it
 
 Group batch
 
-EUR 35.16
+USD 100
 
-USD 40 a month
+a month, billed in US dollars
 
 - Five to eight learners, one named teacher
 - Live video only, nothing resold as a recording
@@ -397,9 +397,9 @@ Start here
 
 One to one
 
-EUR 87.90
+USD 150
 
-USD 100 a month
+a month, billed in US dollars
 
 - Private pace and a private timetable
 - Built around an Abitur year or a Master's deadline
@@ -407,7 +407,7 @@ USD 100 a month
 
 Enquire
 
-One dated rate produced every euro figure above. The European Central Bank published its euro reference rate for 24 July 2026 at EUR 1 to USD 1.1377, and the direction is where conversions go wrong: one euro buys 1.1377 US dollars, so a dollar price becomes euros by division, not multiplication. USD 40 divided by 1.1377 is EUR 35.16, and USD 100 is EUR 87.90. The dollar price is the fixed one.
+One point worth stating plainly: pricing is flat. A group batch is USD 100 a month and one to one is USD 150 a month, billed in US dollars, the same everywhere outside India. There is no euro price list, so there is no exchange arithmetic to get wrong.
 
 What families say
 
@@ -475,9 +475,9 @@ Classes are taught in English. At Master's level that is genuinely useful, becau
 
 Three slots, all German local time: Tuesday and Thursday 17:00 to 18:30, Wednesday 18:30 to 20:00, and Saturday 09:30 to 11:30. Our teachers sit in India, on UTC plus 5 hours 30 minutes all year with no clock change. Germany is on Central European Summer Time until Sunday 25 October 2026, so India is 3 hours 30 minutes ahead today and 4 hours 30 minutes ahead from that Sunday. Summer time resumes on 28 March 2027, and recurring bookings are re-cut at both boundaries.
 
-### What does it cost in euros?
+### What does it cost?
 
-A group batch of five to eight students is USD 40 a month, which is EUR 35.16, and one to one teaching is USD 100 a month, which is EUR 87.90. The conversion uses the European Central Bank euro reference rate published for 24 July 2026, where one euro buys 1.1377 US dollars, so a dollar price is divided rather than multiplied. The euro floats, so the euro figures move and the dollar price is the fixed one. Billing is monthly and the first class is free.
+A group batch of five to eight students is USD 100 a month and one to one teaching is USD 150 a month. Pricing is flat and billed in US dollars everywhere outside India, so there is no euro price list to track. Billing is monthly and the first class is free.
 
 ### Our school already has Informatik as a Pflichtfach. Why would we add this?
 

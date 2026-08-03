@@ -1,14 +1,14 @@
 ---
 title: "AI and Machine Learning Classes in the UK | Build AI"
-description: "Live online AI and machine learning classes for students across the UK, ages 6 to 67. Train real models in Python, not just prompts. From £30 a month."
+description: "Live online AI and machine learning classes for students across the UK, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month."
 canonical: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-uk
 source: src/pages/ai-and-machine-learning-classes-in-uk.html
 ---
-> Live online AI and machine learning classes for students across the UK, ages 6 to 67. Train real models in Python, not just prompts. From £30 a month.
+> Live online AI and machine learning classes for students across the UK, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month.
 
 The short answer
 
-Modern Age Coders teaches live online AI and machine learning to learners anywhere in the United Kingdom, from age 6 to age 67, in groups of five to eight or else privately. The route starts at Python and the statistics that sit under machine learning, and finishes with a trained model whose error the pupil can state and defend. Group teaching is USD 40 a month, about £30, and one to one is USD 100 a month, about £75. The first lesson costs nothing and needs no card.
+Modern Age Coders teaches live online AI and machine learning to learners anywhere in the United Kingdom, from age 6 to age 67, in groups of five to eight or else privately. The route starts at Python and the statistics that sit under machine learning, and finishes with a trained model whose error the pupil can state and defend. Group teaching is USD 100 a month, and one to one is USD 150 a month, billed in US dollars. The first lesson costs nothing and needs no card.
 
 The catalogue
 
@@ -413,15 +413,15 @@ by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTe
 
 Fees
 
-## Fees, in pounds and in the dollars they are set in
+## Fees, in the dollars they are set in
 
-We price in US dollars and convert, rather than quoting a pound figure and revising it every few months. At a market rate of 1.3308 dollars to the pound on 24 July 2026, USD 40 comes to £30.06 and USD 100 to £75.14, so the published prices are £30 and £75. Billing is monthly. There is no joining fee, no term commitment and no minimum number of months.
+We price in US dollars and bill in US dollars, rather than quoting a pound figure and revising it every few months. A group batch is USD 100 a month and one to one is USD 150 a month, flat everywhere outside India. Billing is monthly. There is no joining fee, no term commitment and no minimum number of months.
 
 Free first class
 
-£0
+USD 0
 
-USD 0, no card needed
+No card needed
 
 - A genuine lesson taught by a teacher, not a call from sales
 - Doubles as a level check, so week two starts in the right place
@@ -431,9 +431,9 @@ Book it
 
 Group batch
 
-£30
+USD 100
 
-USD 40 a month
+a month, billed in US dollars
 
 - Five to eight pupils, and one teacher who stays with them
 - Taught live on camera, with nothing pre-recorded
@@ -444,9 +444,9 @@ Start here
 
 One to one
 
-£75
+USD 150
 
-USD 100 a month
+a month, billed in US dollars
 
 - Private teaching, at your pace and in your diary
 - Suits GCSE and Higher years, and adults with few free evenings
@@ -454,7 +454,7 @@ USD 100 a month
 
 Enquire
 
-One caveat we would rather state than hide. The rate above is a mid market quote, so once a bank adds its own spread the amount leaving the account is slightly larger. Sterling moved between 1.33095 and 1.34765 across the week to 24 July 2026, which puts USD 40 between £29.68 and £30.05 and USD 100 between £74.20 and £75.13. That is a swing of under 50 pence in a week, which is why round numbers are safe to print. Over the past month the pound strengthened 0.93 per cent, and across twelve months it was down 0.89 per cent.
+One caveat we would rather state than hide. Because billing is in US dollars, the pound amount leaving the account follows the exchange rate on the day, plus whatever spread your bank adds. The dollar price itself does not move: USD 100 for a group place and USD 150 for one to one, month after month.
 
 What families say
 
@@ -538,9 +538,9 @@ Your lesson stays exactly where it is in British time and moves by an hour in In
 
 The Sutton Trust survey published in February 2026 found that 45 per cent of secondary pupils in London have ever had private tutoring, against 27 per cent across the rest of England and 24 per cent in Wales. The urban figure is 33 per cent and the rural figure is 19 per cent. That 14 point gap is a supply problem rather than a demand problem, because an in person specialist has to be within driving distance of your house. Live online teaching deletes the driving distance. A pupil in rural Northumberland and a pupil in Islington sit in the same batch and get the same teacher.
 
-### What does this cost in pounds?
+### What does this cost?
 
-A group batch of five to eight pupils is USD 40 a month, which is about 30 pounds, and one to one teaching is USD 100 a month, about 75 pounds. Those conversions use a market rate of 1.3308 US dollars to the pound on 24 July 2026. It is a mid market rate before any card or foreign exchange spread, so a card billed in dollars settles a little above the arithmetic. Sterling traded between 1.33095 and 1.34765 in the week to 24 July 2026, which moves the two figures by under 50 pence across the whole week, so 30 pounds and 75 pounds are honest published prices. The first lesson is free and needs no card.
+A group batch of five to eight pupils is USD 100 a month, and one to one teaching is USD 150 a month. Pricing is flat and billed in US dollars everywhere outside India, so the dollar figure is the published price rather than a conversion that drifts. The first lesson is free and needs no card.
 
 ### Can a beginner really build a working machine learning model?
 

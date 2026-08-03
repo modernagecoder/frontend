@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-kuwait.html
 
 In short
 
-Modern Age Coders runs live online AI and machine learning classes for students in Kuwait, ages 6 to 67, in batches of five to eight or one to one. Students learn Python and the mathematics beneath machine learning, then train and evaluate their own models instead of only prompting AI tools. Fees start at USD 40 a month, KD 12.312, and the first class is free.
+Modern Age Coders runs live online AI and machine learning classes for students in Kuwait, ages 6 to 67, in batches of five to eight or one to one. Students learn Python and the mathematics beneath machine learning, then train and evaluate their own models instead of only prompting AI tools. Fees start at USD 100 a month, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -358,13 +358,13 @@ Fees
 
 ## What it costs a family in Kuwait
 
-Billing runs month to month, with nothing charged to join and no yearly commitment. The dinar figures use the Central Bank of Kuwait rate published for 23 July 2026, 307.800 fils to the US dollar, which makes KD 1 worth USD 3.2489. The dinar divides into 1,000 fils, so prices carry three decimals.
+Billing runs month to month, with nothing charged to join and no yearly commitment. Fees are a flat USD 100 a month for a group batch and USD 150 for one to one, billed in US dollars, the same fee everywhere outside India; your bank converts to dinars at its own card rate on the day.
 
 Free first class
 
-KD 0
+USD 0
 
-USD 0, no card, no KNET
+No card, no KNET
 
 - A real teaching session, not a sales call
 - Doubles as a placement check so the level is set correctly
@@ -374,9 +374,9 @@ Book it
 
 Group batch
 
-KD 12.312
+USD 100
 
-USD 40 a month
+a month, billed in US dollars
 
 - Five to eight students, same teacher every week
 - Live video only, no recording sold as a lesson
@@ -387,9 +387,9 @@ Start here
 
 One to one
 
-KD 30.780
+USD 150
 
-USD 100 a month
+a month, billed in US dollars
 
 - Private teaching at your pace and on your calendar
 - Best for board exam years and adults with one free evening
@@ -477,7 +477,7 @@ Kuwait keeps Arabia Standard Time, UTC+3, with no daylight saving in any month, 
 
 ### Is the fee fixed in dinars or in dollars, and what happens if the rate moves?
 
-The Kuwaiti dinar is the one Gulf currency not pegged straight to the US dollar. Under Decree No. 147 of 2007, effective 20 May 2007, the Central Bank of Kuwait pegs it to an undisclosed weighted basket of the currencies of Kuwait's major trade and financial partners. It tracks the dollar closely, but a price fixed in dollars can still drift by a few fils. We quote KD 12.312 a month for a group batch and KD 30.780 for one to one, and hold it.
+The fee is fixed in dollars: a flat USD 100 a month for a group batch and USD 150 for one to one, billed in US dollars, the same fee everywhere outside India, and we hold it. The Kuwaiti dinar is the one Gulf currency not pegged straight to the US dollar, so the dinar amount on your card statement can drift by a few fils from month to month while the dollar fee itself does not move.
 
 ### Will this help with admission to Kuwait University or Abdullah Al-Salem University?
 

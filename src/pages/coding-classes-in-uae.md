@@ -1,10 +1,10 @@
 ---
 title: "Online Coding & AI Classes in the UAE | Dubai & Beyond"
-description: "Live 1:1 online coding, Python & AI mentorship for UAE students in Dubai, Abu Dhabi & Sharjah. CBSE, British & IB aware. AED 368 (USD 100)/mo. Free demo."
+description: "Live 1:1 online coding, Python & AI mentorship for UAE students in Dubai, Abu Dhabi & Sharjah. CBSE, British & IB aware. From USD 100/mo. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-uae
 source: src/pages/coding-classes-in-uae.html
 ---
-> Live 1:1 online coding, Python & AI mentorship for UAE students in Dubai, Abu Dhabi & Sharjah. CBSE, British & IB aware. AED 368 (USD 100)/mo. Free demo.
+> Live 1:1 online coding, Python & AI mentorship for UAE students in Dubai, Abu Dhabi & Sharjah. CBSE, British & IB aware. From USD 100/mo. Free demo.
 
 ### Request a callback
 
@@ -18,19 +18,19 @@ United Arab Emirates · Online · +971 · GST UTC+4
 
 # World-class coding & AI for kids, teens and adults across the Emirates — from Dubai to Abu Dhabi to Ras Al Khaimah.
 
-Live 1:1 mentorship in **Python**, modern web and **agentic AI** for UAE-based learners — aligned with every curriculum your child is sitting (**CBSE · ICSE · IGCSE · A-Level · IB DP · AP · MOE-UAE**), inspector-aware for **KHDA** and **ADEK**, and admissions-ready for **NYU Abu Dhabi · MBZUAI · AUS · Khalifa · Heriot-Watt Dubai** and the international branch campuses. **AED 368 a month** (USD 100), eight live sessions, two per week, cancel anytime.
+Live 1:1 mentorship in **Python**, modern web and **agentic AI** for UAE-based learners — aligned with every curriculum your child is sitting (**CBSE · ICSE · IGCSE · A-Level · IB DP · AP · MOE-UAE**), inspector-aware for **KHDA** and **ADEK**, and admissions-ready for **NYU Abu Dhabi · MBZUAI · AUS · Khalifa · Heriot-Watt Dubai** and the international branch campuses. **USD 150 a month**, eight live sessions, two per week, cancel anytime.
 
 See your school's curriculumتعليم برمجة وذكاء اصطناعي عالمي المستوى — مع معلم خاص، عبر الإنترنت، من إنتل بمنتاج بنك أبوظبي.Arabic-speaking parents welcome — instruction in English, but bilingual mentors available on request for primary-school learners.GST · UTC+416:00 – 21:00Dubai · Abu Dhabi · Sharjah · all 7 emirates · after-school windowVS IST · −1h3014:30 – 19:30 ISTIndian-trained mentors in their own normal teaching hoursWEEKENDSat 09:00 – 17:00Many UAE families prefer Saturday for senior-secondary intensive blocks
 
 The UAE is one single time zone — **GST (UTC+4)**. That makes scheduling simpler than any other country we serve. Most of our mentors are based in India (IST, only 90 minutes behind), so a 5 pm Dubai class is a normal 3:30 pm class for the mentor — no jet-lagged teaching, no “midnight in Mumbai” tradeoffs.
 
-**4.9 / 5**From 547 UAE parent & student reviews**7 emirates**Dubai · Abu Dhabi · Sharjah · Ajman · RAK · Fujairah · UAQ**6 curricula**CBSE · ICSE · British · American · IB · MOE-UAE**AED 368**Per month · no joining fee · cancel anytimeChoose your child's track
+**4.9 / 5**From 547 UAE parent & student reviews**7 emirates**Dubai · Abu Dhabi · Sharjah · Ajman · RAK · Fujairah · UAQ**6 curricula**CBSE · ICSE · British · American · IB · MOE-UAE**USD 150**Per month · no joining fee · cancel anytimeChoose your child's track
 
 ## Pick the course that matches their school year — and book a trial in under 30 seconds.
 
-Every course below runs as live 1:1 with a mentor matched to your child's curriculum (CBSE, ICSE, British, American, IB or MOE-UAE) and age. Two 45-minute sessions per week. AED 368 (USD 100) per month for 1:1, or AED 147 (USD 40) for small-group cohort.
+Every course below runs as live 1:1 with a mentor matched to your child's curriculum (CBSE, ICSE, British, American, IB or MOE-UAE) and age. Two 45-minute sessions per week. USD 150 per month for 1:1, or USD 100 for small-group cohort.
 
-[Grades 1 – 3 Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Built around play, animation and music — but no “Python for kids” toys that hide the real language. AED 368 / month · 1:1 · 8 sessions](/courses/coding/kids)[Grades 4 – 6 Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional physical-computing add-on with BBC micro:bit so the code controls something they can see. AED 368 / month · 1:1 · 8 sessions](/courses/coding/kids)[Grades 7 – 8 Web Builders + AI Foundations HTML, CSS, JavaScript, React basics — they ship a real website by month two. AI module covers safe prompting, LLM mental models and a first agent-style project. AED 368 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 9 – 10 (IGCSE / CBSE) IGCSE / CBSE Computer Science Direct alignment with Cambridge IGCSE 0478, Pearson Edexcel IGCSE 4CP1, CBSE Class 10 IT 402 / 416 and Oxford AQA. Past-paper drills + a real coursework project that scores. AED 368 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 11 – 12 (A-Level / IB / AP) A-Level / IB DP / AP CS Cambridge 9608 / 9618 · Pearson 9CP0 · IB Computer Science HL & SL · AP CSP + AP CSA. Predicted-grade strategy, project portfolios and admissions-ready coding depth. AED 368 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 11 – 12 (CBSE / ICSE) CBSE / ICSE Class 11 – 12 CS CBSE Class 11 / 12 Computer Science (083) and Informatics Practices (065). ISC Computer Science. Board-paper strategy + the real CS depth IIT-Delhi, BITS-Pilani and IIT-Bombay actually evaluate. AED 368 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Tabby, Careem, Talabat and DIFC-based AI startups recruit for. AED 368 / month · 1:1 · 8 sessions](/courses/coding/college)[For Girls — Grades 4 – 12 Girls-Only Coding & AI All-female mentor pool. Same Python / web / AI track, designed around a girls-only cohort. Many Emirati and South-Asian families specifically prefer this option for daughters. AED 368 / month · 1:1 · 8 sessions](/courses/coding/girls)
+[Grades 1 – 3 Little Coders — Block to Python Scratch & ScratchJr, then we bridge to real Python by month four. Built around play, animation and music — but no “Python for kids” toys that hide the real language. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[Grades 4 – 6 Python Foundations + Micro:bit Real Python, real keyboard typing, real GitHub. Optional physical-computing add-on with BBC micro:bit so the code controls something they can see. USD 150 / month · 1:1 · 8 sessions](/courses/coding/kids)[Grades 7 – 8 Web Builders + AI Foundations HTML, CSS, JavaScript, React basics — they ship a real website by month two. AI module covers safe prompting, LLM mental models and a first agent-style project. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 9 – 10 (IGCSE / CBSE) IGCSE / CBSE Computer Science Direct alignment with Cambridge IGCSE 0478, Pearson Edexcel IGCSE 4CP1, CBSE Class 10 IT 402 / 416 and Oxford AQA. Past-paper drills + a real coursework project that scores. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 11 – 12 (A-Level / IB / AP) A-Level / IB DP / AP CS Cambridge 9608 / 9618 · Pearson 9CP0 · IB Computer Science HL & SL · AP CSP + AP CSA. Predicted-grade strategy, project portfolios and admissions-ready coding depth. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[Grade 11 – 12 (CBSE / ICSE) CBSE / ICSE Class 11 – 12 CS CBSE Class 11 / 12 Computer Science (083) and Informatics Practices (065). ISC Computer Science. Board-paper strategy + the real CS depth IIT-Delhi, BITS-Pilani and IIT-Bombay actually evaluate. USD 150 / month · 1:1 · 8 sessions](/courses/coding/teens)[University / Adult Agentic AI for Working Pros Python · SQL · LangChain · LangGraph · CrewAI · evaluations · production deployment. The exact stack Tabby, Careem, Talabat and DIFC-based AI startups recruit for. USD 150 / month · 1:1 · 8 sessions](/courses/coding/college)[For Girls — Grades 4 – 12 Girls-Only Coding & AI All-female mentor pool. Same Python / web / AI track, designed around a girls-only cohort. Many Emirati and South-Asian families specifically prefer this option for daughters. USD 150 / month · 1:1 · 8 sessions](/courses/coding/girls)
 
 Preparing for a specific exam? These live courses target the American, British and IB papers directly, taught to the current formats.
 
@@ -244,17 +244,17 @@ Active GST 15:00 – 20:00Also at Modern Age Coders
 
 ## Maths, taught with the same depth.
 
-The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For UAE students that means the school in front of them: IB, IGCSE, GCSE or an American-curriculum ladder, taught board-exact. Premium 1-on-1 mentorship and small-group plans are priced for your country (shown on this page in your local currency), 8 classes a month, and every student starts with a free demo class.
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For UAE students that means the school in front of them: IB, IGCSE, GCSE or an American-curriculum ladder, taught board-exact. Premium 1-on-1 mentorship is a flat USD 150 a month and small-group plans are USD 100 a month, billed in USD, 8 classes a month, and every student starts with a free demo class.
 
 [IB Maths (UAE)](/ib-maths-tutor-uae)[IGCSE Maths](/igcse-maths-tuition-online)[GCSE Maths](/gcse-maths-tuition-online)[Grades 3-8 ladder](/online-math-tutor-3rd-grade)[Catch-Up Program](/math-catch-up-program)[The 2026 Guide](/best-online-math-tutoring-2026)
 
 Gulf evening slots · 4.9 across 547 Google reviews · no registration fee
 
-Honest pricing in AED
+Honest pricing in USD
 
-## One price for the UAE: AED 368 a month. Eight live 1:1 sessions. Cancel anytime.
+## One price for the UAE: USD 150 a month. Eight live 1:1 sessions. Cancel anytime.
 
-No joining fee. No registration fee. No annual lock-in. No "diamond/platinum/gold" upsell tiers. The same price for a Grade-2 little coder, a Grade-12 A-Level applicant or a Dubai-Marina-based adult career-switcher. We price in USD and quote the AED equivalent at the current rate; you pay in whichever you prefer.
+No joining fee. No registration fee. No annual lock-in. No "diamond/platinum/gold" upsell tiers. The same price for a Grade-2 little coder, a Grade-12 A-Level applicant or a Dubai-Marina-based adult career-switcher. Pricing is a flat USD 150 a month for 1:1 and USD 100 for small-group, billed in USD.
 
 Most chosen by UAE families
 
@@ -262,7 +262,7 @@ Most chosen by UAE families
 
 A named mentor in GST. Live, every session.
 
-AED368/month / month
+USD150/monthBilled in USD
 
 - 8 live sessions per month · 2 per week · 45 min each
 - Same named mentor for as long as it's working
@@ -275,7 +275,7 @@ AED368/month / month
 
 3 – 5 learners, same age, same curriculum.
 
-AED147/month / month
+USD100/monthBilled in USD
 
 - 8 live group sessions per month · 2 per week · 60 min each
 - Same mentor every class · cohort stays together
@@ -283,7 +283,7 @@ AED147/month / month
 - All the same project + GitHub setup as 1:1
 - Move to 1:1 anytime · prorated · no fee
 
-We accept payment in **USD or AED**, by Visa / Mastercard, bank transfer, or Apple / Google Pay. No VAT charge to families (we're a service provider registered outside the UAE).
+We accept payment in **USD**, by Visa / Mastercard, bank transfer, or Apple / Google Pay. No VAT charge to families (we're a service provider registered outside the UAE).
 
 Why UAE families pick us
 
@@ -293,7 +293,7 @@ An honest comparison vs the options most UAE parents shortlist alongside us: GEM
 
 |   | Modern Age Coders | Local Dubai academy (centre-based) | Global brand (e.g. brilliant) | School after-school club |
 | --- | --- | --- | --- | --- |
-| Price per month | **AED 368** | AED 1,200 – 2,400 | AED 240 (self-paced) | AED 200 – 600 |
+| Price per month | **USD 150** | AED 1,200 – 2,400 | AED 240 (self-paced) | AED 200 – 600 |
 | Format | **Live 1:1 with named mentor** | Group, in-centre, drop-off | Self-paced video + AI | Group, school-based |
 | Sessions per month | **8 live** | 4 – 8 | Unlimited self-paced | 4 |
 | Curriculum alignment | **CBSE / ICSE / British / American / IB / MOE-UAE** | Usually one curriculum | Generic global | School's curriculum only |
@@ -303,7 +303,7 @@ An honest comparison vs the options most UAE parents shortlist alongside us: GEM
 | Cancel monthly | **Yes** | Term-locked | Yes | Term-locked |
 | Free trial | **Yes — live with the mentor** | Discounted first month | Free tier | Open day |
 
-We've left out global online platforms whose unit economics simply don't work at AED 368 / month for a live 1:1 mentor.
+We've left out global online platforms whose unit economics simply don't work at USD 150 / month for a live 1:1 mentor.
 
 University pathways
 
@@ -452,7 +452,7 @@ What we promise · and what we don't
 - Send you a written 6-month outcome plan after the trial
 - Coordinate around your child's school timetable, exam fortnight, Ramadan and Eid
 - Be honest if your child needs a different mentor — and switch them, free
-- Bill in USD or AED, your choice, on the date you joined — never on the 1st-of-month surprise
+- Bill in USD on the date you joined — never on the 1st-of-month surprise
 - Stop billing immediately the moment you cancel — no notice period, no last-month-trick
 
 ### We won't
@@ -523,7 +523,7 @@ Same mentors, same GST timings and same pricing, with a dedicated page for each 
 
 Are you a UAE-registered company?
 
-We're registered as an education-services provider outside the UAE, which is why no UAE VAT applies to your bill. Our delivery model is online-only — there is no UAE office to visit. If you need an invoice for accounting purposes, we issue cross-border invoices in USD or AED.
+We're registered as an education-services provider outside the UAE, which is why no UAE VAT applies to your bill. Our delivery model is online-only — there is no UAE office to visit. If you need an invoice for accounting purposes, we issue cross-border invoices in USD.
 
 Do you align with KHDA inspection criteria?
 
@@ -591,11 +591,11 @@ Yes — for advanced students who've been with us at least six months. NYU Abu D
 
 Do you charge VAT?
 
-No — there is no UAE VAT on our service, because we deliver as a cross-border online education provider. Your bill is exactly the AED equivalent of USD 100 / month for 1:1 (or USD 40 / month for cohort), at the current exchange rate. Nothing on top.
+No — there is no UAE VAT on our service, because we deliver as a cross-border online education provider. Your bill is exactly USD 150 / month for 1:1 (or USD 100 / month for cohort), billed in USD. Nothing on top.
 
 Can I pay in USD or AED?
 
-Either. Most UAE families pay by Visa or Mastercard (we accept both, AED-billed). Some pay by international bank transfer in USD. We also accept Apple Pay and Google Pay. Whichever you choose, the amount converts at the spot rate on the billing date.
+Billing is in USD. Most UAE families pay by Visa or Mastercard; your bank handles any AED conversion on its side. Some pay by international bank transfer in USD. We also accept Apple Pay and Google Pay.
 
 How do I cancel?
 
@@ -643,7 +643,7 @@ That's most of our UAE families. Mentors send a 2-line written session log after
 
 Do you offer scholarships for high-potential UAE students?
 
-Yes — a small annual scholarship pool for high-potential students whose families can't comfortably afford AED 368 / month. Apply by emailing us a short note from the parent + a piece of work from the child. We typically award 12 – 18 UAE scholarships per academic year, ranging from 50% to 100% of the monthly fee. Quietly and without publicity.
+Yes — a small annual scholarship pool for high-potential students whose families can't comfortably afford USD 150 / month. Apply by emailing us a short note from the parent + a piece of work from the child. We typically award 12 – 18 UAE scholarships per academic year, ranging from 50% to 100% of the monthly fee. Quietly and without publicity.
 
 What about students moving to the UAE mid-year from India / UK / Pakistan?
 
@@ -780,7 +780,7 @@ We don't dance around this. Most of our mentors are India-based. For UAE familie
 - **English-medium teaching is native.** Indian mentors deliver in clear, professional English. For Emirati and Arabic-first families, we also have bilingual mentors who can switch to Arabic for primary-school learners.
 - **Cultural sensitivity is real.** Mentors understand Ramadan, Eid, school exam fortnights, the iftar-time meeting reluctance and the “Friday is a holy day” rhythm. We don't need to be briefed on it.
 - **CS depth is world-class.** India produces more CS graduates per year than any other country, and the top tier of that pool — the people who passed IIT JEE Advanced, BITSAT, or top-IIT placement — is who teaches your child.
-- **Cost structure makes 1:1 viable.** Indian salary structures mean we can offer real 1:1 mentorship at AED 368 / month — a Dubai-based academy charging the same price would have to use 5:1 group sessions.
+- **Cost structure makes 1:1 viable.** Indian salary structures mean we can offer real 1:1 mentorship at USD 150 / month — a Dubai-based academy charging the same price would have to use 5:1 group sessions.
 
 Real shipped student projects
 

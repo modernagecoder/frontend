@@ -1,10 +1,10 @@
 ---
 title: "Online Coding & AI Classes in Sweden | Stockholm"
-description: "Live 1:1 online coding, Python & AI mentorship for Sweden students. Lgr 22 & Gymnasium aligned, built for KTH & Chalmers depth. USD 100/mo. Free demo."
+description: "Live 1:1 online coding, Python & AI mentorship for Sweden students. Lgr 22 & Gymnasium aligned, built for KTH & Chalmers depth. From USD 100/mo. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-sweden
 source: src/pages/coding-classes-in-sweden.html
 ---
-> Live 1:1 online coding, Python & AI mentorship for Sweden students. Lgr 22 & Gymnasium aligned, built for KTH & Chalmers depth. USD 100/mo. Free demo.
+> Live 1:1 online coding, Python & AI mentorship for Sweden students. Lgr 22 & Gymnasium aligned, built for KTH & Chalmers depth. From USD 100/mo. Free demo.
 
 ### Beställ uppringning
 
@@ -18,15 +18,15 @@ Sverige · Online School · +46 · CET
 
 # Real coding & AI for Sweden — *built like Swedish engineering.*
 
-Live 1:1 mentorship in **Python**, modern web and **agentic AI** for Swedish kids, teens and adults — aligned with **Lgr 22** programmering, **Gymnasiet Teknik / Natur**, and the algorithmic depth **KTH**, **Chalmers**, **Lund** and **Uppsala** quietly assume. **SEK 1 050 i månaden** (USD 100), eight live sessions, two a week, no contract.
+Live 1:1 mentorship in **Python**, modern web and **agentic AI** for Swedish kids, teens and adults — aligned with **Lgr 22** programmering, **Gymnasiet Teknik / Natur**, and the algorithmic depth **KTH**, **Chalmers**, **Lund** and **Uppsala** quietly assume. **USD 150 i månaden**, eight live sessions, two a week, no contract.
 
-Se alla kurser4.9/5Average parent & learner rating8 / månLive 1:1 sessions, 2 each weekSEK 1 050per month · monthly cancelCETSame time zone as your GymnasiumParent rating4.9 / 5 · 547 reviewsAligned withLgr 22 · GymnasieprogramMentor hours09:00 – 21:00 CETRiskGratis demo · månadsvisVälj en kurs · börja den här veckan
+Se alla kurser4.9/5Average parent & learner rating8 / månLive 1:1 sessions, 2 each weekUSD 150per month · monthly cancelCETSame time zone as your GymnasiumParent rating4.9 / 5 · 547 reviewsAligned withLgr 22 · GymnasieprogramMentor hours09:00 – 21:00 CETRiskGratis demo · månadsvisVälj en kurs · börja den här veckan
 
 ## Eight serious tracks. Same mentor every week. Real shipped projects.
 
 Click any row to open the full course page. Every track is live, 1:1 (or small-group) and runs on Swedish time.
 
-[01  Most chosen · Gymnasium-aware Coding & AI for Teens (13 – 18) — KTH / Chalmers / Lund ready Real Python, JavaScript, Git, web apps and modern AI engineering on a 12-month arc. Aligned with Teknikprogrammet & Naturvetenskapsprogrammet. Many of our students go on to KTH, Chalmers, Lund, Uppsala and Linköping informatics tracks.   SEK 1 050/ mån Open →](/courses/coding/teens)[02  Grundskola · Ages 6 – 12 Coding for Kids — Scratch to real Python, gentle Swedish pace For students in årskurs 1–6 across Sverige. Starts in Scratch (or BBC micro:bit), switches to real Python by week 10, ships a tiny project a month. Mapped to the Lgr 22 programming strand in Matematik and Teknik.   SEK 1 050/ mån Open →](/courses/coding/kids)[03  New · Ages 13 – 18 · AI track AI & Agentic-AI — the way Spotify, Klarna and Polestar actually ship Build real LLM apps end-to-end: prompts, retrieval, tool-calling agents, evals, deploy. The same patterns engineers ship at Stockholm and Gothenburg tech shops.   SEK 1 050/ mån Open →](/ai-ml-course-for-teens)[04  KTH · Chalmers · Lund · Uppsala · Linköping University prep & high-school top-up For Swedish Gymnasium students aiming at KTH, Chalmers, Lund, Uppsala, Linköping, Stockholm University, Umeå or KI. Algorithmic depth, system design, AI engineering — the foundations Swedish universities quietly expect.   SEK 1 050/ mån Open →](/courses/coding/college)[05  Vuxna · Career switch · Yrkesväxlare For Professionals — retraining into software, data & AI For Swedish adults aiming at SWE, data and AI engineer roles at Spotify, Klarna, King, Voi, Polestar, Zenseact, Truecaller, Tink, Volvo Cars and the rest of Sweden's tech sector. Builds a real portfolio.   SEK 1 050/ mån Open →](/courses/coding/college)[06  For girls · Ages 8 – 22 Tjejer kodar — all-female mentor pairing Same curriculum, all-female mentor pairing. Role models from the Stockholm, Gothenburg and Malmö tech scenes. We have mentors with backgrounds at Klarna, King, Spotify and AI Sweden.   SEK 1 050/ mån Open →](/courses/coding/girls)[07  Skolor · Företag · Teams For Swedish schools & companies — cohorts & AGs For Swedish skolor, friskolor, internationella skolor and companies upskilling staff. Cohorts of 6–30, tailored to your curriculum, on your hours.   SEK 420/ plats · grupp Open →](/courses/coding/corporate)[08  Free · join · Hackathon Hackathon-program för svenska familjer Free monthly coding & AI hackathons for Swedish kids, teens and adults. Real prizes, real shipped projects. A friendly entry point to see how we teach.   Free Join next →](/courses)Why Swedish families pick us
+[01  Most chosen · Gymnasium-aware Coding & AI for Teens (13 – 18) — KTH / Chalmers / Lund ready Real Python, JavaScript, Git, web apps and modern AI engineering on a 12-month arc. Aligned with Teknikprogrammet & Naturvetenskapsprogrammet. Many of our students go on to KTH, Chalmers, Lund, Uppsala and Linköping informatics tracks.   USD 150/ mån Open →](/courses/coding/teens)[02  Grundskola · Ages 6 – 12 Coding for Kids — Scratch to real Python, gentle Swedish pace For students in årskurs 1–6 across Sverige. Starts in Scratch (or BBC micro:bit), switches to real Python by week 10, ships a tiny project a month. Mapped to the Lgr 22 programming strand in Matematik and Teknik.   USD 150/ mån Open →](/courses/coding/kids)[03  New · Ages 13 – 18 · AI track AI & Agentic-AI — the way Spotify, Klarna and Polestar actually ship Build real LLM apps end-to-end: prompts, retrieval, tool-calling agents, evals, deploy. The same patterns engineers ship at Stockholm and Gothenburg tech shops.   USD 150/ mån Open →](/ai-ml-course-for-teens)[04  KTH · Chalmers · Lund · Uppsala · Linköping University prep & high-school top-up For Swedish Gymnasium students aiming at KTH, Chalmers, Lund, Uppsala, Linköping, Stockholm University, Umeå or KI. Algorithmic depth, system design, AI engineering — the foundations Swedish universities quietly expect.   USD 150/ mån Open →](/courses/coding/college)[05  Vuxna · Career switch · Yrkesväxlare For Professionals — retraining into software, data & AI For Swedish adults aiming at SWE, data and AI engineer roles at Spotify, Klarna, King, Voi, Polestar, Zenseact, Truecaller, Tink, Volvo Cars and the rest of Sweden's tech sector. Builds a real portfolio.   USD 150/ mån Open →](/courses/coding/college)[06  For girls · Ages 8 – 22 Tjejer kodar — all-female mentor pairing Same curriculum, all-female mentor pairing. Role models from the Stockholm, Gothenburg and Malmö tech scenes. We have mentors with backgrounds at Klarna, King, Spotify and AI Sweden.   USD 150/ mån Open →](/courses/coding/girls)[07  Skolor · Företag · Teams For Swedish schools & companies — cohorts & AGs For Swedish skolor, friskolor, internationella skolor and companies upskilling staff. Cohorts of 6–30, tailored to your curriculum, on your hours.   USD 100/ plats · grupp Open →](/courses/coding/corporate)[08  Free · join · Hackathon Hackathon-program för svenska familjer Free monthly coding & AI hackathons for Swedish kids, teens and adults. Real prizes, real shipped projects. A friendly entry point to see how we teach.   Free Join next →](/courses)Why Swedish families pick us
 
 ## Six things we get right — Scandinavian-honest.
 
@@ -426,7 +426,7 @@ Also at Modern Age Coders
 
 ## Maths, taught with the same depth.
 
-The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For international-school families in Sweden that means IB and IGCSE taught board-exact, in English, at European evening hours. Premium 1-on-1 mentorship and small-group plans are priced for your country (shown on this page in your local currency), 8 classes a month, and every student starts with a free demo class.
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For international-school families in Sweden that means IB and IGCSE taught board-exact, in English, at European evening hours. Premium 1-on-1 mentorship (USD 150 a month) and small-group plans (USD 100 a month) are billed in USD, 8 classes a month, and every student starts with a free demo class.
 
 [IB Maths (AA & AI)](/ib-maths-tuition-online)[IGCSE Maths](/igcse-maths-tuition-online)[Grades 3-8 ladder](/online-math-tutor-3rd-grade)[Catch-Up Program](/math-catch-up-program)[Singapore Method](/singapore-math-method-tutoring)[The 2026 Guide](/best-online-math-tutoring-2026)
 
@@ -434,9 +434,9 @@ CET evening slots · 4.9 across 547 Google reviews · no registration fee
 
 Plain pricing · månadsvis
 
-## SEK 1 050 per month. Eight live sessions. No fine print.
+## USD 150 per month. Eight live sessions. No fine print.
 
-No registration fee, no annual lock-in, no surprise upsells. Pay in USD via Visa, Mastercard, Amex, Apple Pay, Google Pay or Swish-linked card — your bank handles the SEK conversion.
+No registration fee, no annual lock-in, no surprise upsells. Pay in USD via Visa, Mastercard, Amex, Apple Pay, Google Pay or Swish-linked card — your bank handles any currency conversion.
 
 1:1 private mentorship
 
@@ -444,9 +444,9 @@ No registration fee, no annual lock-in, no surprise upsells. Pay in USD via Visa
 
 One mentor, one student, every class. Deepest progress, fully customised pace.
 
-USD100/ month
+USD150/ month
 
-050 / month · billed in USD · no joining fee
+Billed in USD · no joining fee
 
 - 8 live 1:1 sessions every month
 - 2 classes per week, your chosen CET slots
@@ -462,9 +462,9 @@ Small-group cohort
 
 Same curriculum, same mentors, age-banded small group. Friendly entry point.
 
-USD40/ month
+USD100/ month
 
-/ month · billed in USD · no joining fee
+Billed in USD · no joining fee
 
 - 8 live small-group sessions every month
 - Up to 6 students per group, age-banded
@@ -484,7 +484,7 @@ Slot (CET)DaysBest forAvailability**15:30 – 16:30***efter skolan*Mån · Ons �
 
 School after-school clubs, private tutors (privatlärare), free YouTube, Swedish online coding schools — every option has a place.
 
-What mattersModern Age CodersSchool / fritids clubPrivatlärareYouTube · free toolsSame 1:1 mentor weekly, all year✓ Yes— No✓ Often— NoReal coding (Python · JS · Git · deploy)✓ Week 1~ Mostly Scratch~ Tutor-specific~ Self-drivenModern AI & agentic-AI✓ Built in— No— Rare~ TutorialsLgr 22 / gymnasium alignment✓ Mapped✓ Native~ Tutor-specific— NoKTH / Chalmers / Lund prep✓ Yes— No~ Rare— NoBilingual EN / SV support✓ Available✓ Native✓ Native~ InconsistentMonthly costSEK 1 050 / 420FreeSEK 700 – 1 200 / hourFreeCancel / pause✓ Monthly~ Per termin✓ Hourly✓ FreeWhere Swedish families learn with us
+What mattersModern Age CodersSchool / fritids clubPrivatlärareYouTube · free toolsSame 1:1 mentor weekly, all year✓ Yes— No✓ Often— NoReal coding (Python · JS · Git · deploy)✓ Week 1~ Mostly Scratch~ Tutor-specific~ Self-drivenModern AI & agentic-AI✓ Built in— No— Rare~ TutorialsLgr 22 / gymnasium alignment✓ Mapped✓ Native~ Tutor-specific— NoKTH / Chalmers / Lund prep✓ Yes— No~ Rare— NoBilingual EN / SV support✓ Available✓ Native✓ Native~ InconsistentMonthly costUSD 150 / 100FreeSEK 700 – 1 200 / hourFreeCancel / pause✓ Monthly~ Per termin✓ Hourly✓ FreeWhere Swedish families learn with us
 
 ## Online classes — locally aware, Sweden-wide.
 
@@ -554,9 +554,9 @@ Will it help my child get into KTH, Chalmers, Lund or Uppsala?
 
 Yes. Our Gymnasium and university-prep tracks cover the algorithmic depth, Python fluency and project portfolio that map directly onto admissions pathways for KTH, Chalmers, Lund University, Uppsala University, Stockholm University, Linköping University, Umeå Universitet, KI and KTH-adjacent programmes.
 
-Vad kostar det i svenska kronor (SEK)?
+Vad kostar det per månad?
 
-Private 1:1 mentorship is **USD 100 (about SEK 1 050) per month** — 8 sessions, 2 per week. Small-group cohort is **USD 40 per month**. Ingen registreringsavgift, ingen bindningstid, månadsvis uppsägning.
+Private 1:1 mentorship is **USD 150 per month** — 8 sessions, 2 per week. Small-group cohort is **USD 100 per month**. Ingen registreringsavgift, ingen bindningstid, månadsvis uppsägning.
 
 Are classes taught in English or Swedish?
 
@@ -584,7 +584,7 @@ You decide. Most Swedish families pause during Sportlovet, Påsklov, Sommarlov, 
 
 Hur betalar man? Funkar svenska kort?
 
-Yes. We accept Visa, Mastercard, Amex (all issued in Sweden), Apple Pay and Google Pay. Billing is in USD via Stripe; your card issuer applies the live SEK conversion — typically around SEK 1 050 for the 1:1 plan at current rates. Swish-linked cards work normally.
+Yes. We accept Visa, Mastercard, Amex (all issued in Sweden), Apple Pay and Google Pay. Billing is in USD via Stripe; your card issuer applies its own currency conversion. Swish-linked cards work normally.
 
 Can my child switch mentor if it's not the right fit?
 

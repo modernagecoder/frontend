@@ -1,14 +1,14 @@
 ---
 title: "AI and Machine Learning Classes in Australia | Build AI"
-description: "Live online AI and machine learning classes for students in Australia, ages 6 to 67. Train real models in Python, not just prompts. About AUD 57 a month."
+description: "Live online AI and machine learning classes for students in Australia, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month."
 canonical: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-australia
 source: src/pages/ai-and-machine-learning-classes-in-australia.html
 ---
-> Live online AI and machine learning classes for students in Australia, ages 6 to 67. Train real models in Python, not just prompts. About AUD 57 a month.
+> Live online AI and machine learning classes for students in Australia, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month.
 
 In short
 
-Live online, from Cairns to Hobart to Perth, ages 6 to 67, in groups of five to eight or one to one. The subject is model building rather than tool use: Python first, then the statistics and linear algebra that sit under a trained model, then fitting and scoring models on published Australian data such as the Clean Energy Regulator rooftop solar and battery register. Teaching is in English, on your own time zone. A group place is USD 40 a month, roughly AUD 57, and the first class costs nothing.
+Live online, from Cairns to Hobart to Perth, ages 6 to 67, in groups of five to eight or one to one. The subject is model building rather than tool use: Python first, then the statistics and linear algebra that sit under a trained model, then fitting and scoring models on published Australian data such as the Clean Energy Regulator rooftop solar and battery register. Teaching is in English, on your own time zone. A group place is USD 100 a month, billed in US dollars, and the first class costs nothing.
 
 The catalogue
 
@@ -344,15 +344,15 @@ by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTe
 
 Fees
 
-## What this costs an Australian family, in a currency that floats
+## What this costs an Australian family
 
-Billing runs a rolling month at a time. Nothing is charged to join, nothing is signed for a year, and a family can stop at the end of any month. The Australian figures below convert at one dated rate, one US dollar to 1.431 Australian dollars, the European Central Bank reference for 24 July 2026, and the currency floats.
+Billing runs a rolling month at a time. Nothing is charged to join, nothing is signed for a year, and a family can stop at the end of any month. Fees are a flat USD 100 a month for a group place and USD 150 for one to one, billed in US dollars everywhere outside India.
 
 Free first class
 
-AUD 0
+USD 0
 
-USD 0, no card needed
+No card needed
 
 - Taught by a teacher, not run by a salesperson
 - Ends with a written placement view
@@ -362,9 +362,9 @@ Book it
 
 Group batch
 
-about AUD 57
+USD 100
 
-USD 40 a month
+a month, billed in US dollars
 
 - Five to eight students, one teacher throughout
 - Live video every week, with no recording sold as a lesson
@@ -375,9 +375,9 @@ Start here
 
 One to one
 
-about AUD 143
+USD 150
 
-USD 100 a month
+a month, billed in US dollars
 
 - The whole session belongs to one student
 - Suits Year 11 and Year 12 timetables, and adults with one free evening
@@ -385,7 +385,7 @@ USD 100 a month
 
 Enquire
 
-Fifty seven dollars a month is low against Australian tutoring rates, and a low number often signals a thin course sold on volume. Read the syllabus, work through the rooftop solar project, then ask whether a teenager could have produced the student applications above by prompting.
+One hundred US dollars a month is low against Australian tutoring rates, and a low number often signals a thin course sold on volume. Read the syllabus, work through the rooftop solar project, then ask whether a teenager could have produced the student applications above by prompting.
 
 What families say
 
@@ -451,7 +451,7 @@ Only for part of the country. New South Wales, Victoria, Tasmania, the ACT and S
 
 ### What does it cost in Australian dollars?
 
-A group place is USD 40 a month, about AUD 57, and one to one teaching is USD 100 a month, about AUD 143. Those conversions use one US dollar to 1.431 Australian dollars, the European Central Bank reference rate for 24 July 2026. The Australian dollar floats, so read the AUD figures as approximate and dated rather than a fixed price list. Billing is a rolling month and the first class is free.
+A group place is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars everywhere outside India. We do not publish an Australian dollar price list; your bank converts the charge at its own rate. Billing is a rolling month and the first class is free.
 
 ### Will this help my ATAR?
 

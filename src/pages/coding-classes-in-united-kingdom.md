@@ -1,10 +1,10 @@
 ---
 title: "Online Coding & AI Classes in the UK | GCSE & A-Level"
-description: "Live 1:1 online coding, Python & AI mentorship for UK students. GCSE Computer Science & A-Level ready, Oxbridge prep. £79/mo (USD 100). Book a free demo."
+description: "Live 1:1 online coding, Python & AI mentorship for UK students. GCSE Computer Science & A-Level ready, Oxbridge prep. From USD 100/mo. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-united-kingdom
 source: src/pages/coding-classes-in-united-kingdom.html
 ---
-> Live 1:1 online coding, Python & AI mentorship for UK students. GCSE Computer Science & A-Level ready, Oxbridge prep. £79/mo (USD 100). Book a free demo.
+> Live 1:1 online coding, Python & AI mentorship for UK students. GCSE Computer Science & A-Level ready, Oxbridge prep. From USD 100/mo. Book a free demo.
 
 ### Request a callback
 
@@ -18,7 +18,7 @@ An **Online School** · Serving the United Kingdom · +44 · GMT / BST
 
 # Britain learns to build — *with code.*
 
-Live 1:1 mentorship in real **Python**, modern web and **agentic AI** — aligned with **KS3–KS5 computing**, **GCSE Computer Science (AQA · OCR · Pearson)**, **A-Level** and the algorithmic depth Oxbridge, Imperial, UCL and the rest of the Russell Group quietly assume. **£79 a month**, eight live sessions, two a week, cancel any time.
+Live 1:1 mentorship in real **Python**, modern web and **agentic AI** — aligned with **KS3–KS5 computing**, **GCSE Computer Science (AQA · OCR · Pearson)**, **A-Level** and the algorithmic depth Oxbridge, Imperial, UCL and the rest of the Russell Group quietly assume. **USD 150 a month**, eight live sessions, two a week, cancel any time.
 
 See what we teach by Key StageThe frontier · featured
 
@@ -32,7 +32,7 @@ This is the part the National Curriculum hasn't caught up to yet. **Vibe coding*
 
 Click any tile to open the course page. Every track is live, 1:1 (or small-group), and runs on UK time — same mentor every week, no rotation.
 
-[01 Most chosen · GCSE & A-Level Coding & AI for Teens (KS3–KS5) — GCSE-aware, A-Level-aligned, Oxbridge-ready. Real Python, JavaScript, Git and modern AI engineering on a 12-month arc. Maps to AQA 8525, OCR J277, Pearson 1CP2 at GCSE, and AQA 7517 / OCR H446 at A-Level. We coach BIO, Bebras and the Oxbridge interview pattern.  £79/ mo · 1:1 Open course →](/courses/coding/teens)[02 KS1 – KS2 · Ages 6 – 11 Coding for Children Scratch → real Python by month three. Tiny games, drawing apps, friendly first AI projects. £79/ mo→](/courses/coding/kids)[03 New · KS3 – KS5 AI & Agentic-AI LLM apps, RAG, tool-using agents — the way DeepMind, Wayve and Synthesia engineers actually work. £79/ mo→](/ai-ml-course-for-teens)[04 Oxbridge & Russell Group Oxbridge interview prep Cambridge CSAT, Oxford admissions, Imperial, UCL, Warwick, Edinburgh — algorithmic interview depth. £79/ mo→](/courses/coding/college)[05 University · Top-up For University students Algorithms, system design, AI engineering top-ups for CS undergrads at any UK university. £79/ mo→](/courses/coding/college)[06 Adults · Career switch For Professionals — retraining into software, data & AI. For UK adults aiming at SWE, data and AI engineer roles. Builds the production-grade portfolio London, Manchester and Cambridge employers actually look at. £79/ moOpen course →](/courses/coding/college)[07 For girls · Ages 8 – 22 Coding for girls All-female mentor pairing, women-in-tech role models from London and Cambridge. £79/ mo→](/courses/coding/girls)[08 Schools & companies For UK Schools / Teams State, independent, prep and grammar schools. Code-club cohorts, after-school programmes, NEA support. £32/ seat · group→](/courses/coding/corporate)Parent rating4.9 / 5 · 547 reviewsAligned withAQA · OCR · PearsonMentor hours09:00 – 21:00 UK timeCommitmentFree trial · cancel monthlyBy Key Stage · the British way
+[01 Most chosen · GCSE & A-Level Coding & AI for Teens (KS3–KS5) — GCSE-aware, A-Level-aligned, Oxbridge-ready. Real Python, JavaScript, Git and modern AI engineering on a 12-month arc. Maps to AQA 8525, OCR J277, Pearson 1CP2 at GCSE, and AQA 7517 / OCR H446 at A-Level. We coach BIO, Bebras and the Oxbridge interview pattern.  USD 150/ mo · 1:1 Open course →](/courses/coding/teens)[02 KS1 – KS2 · Ages 6 – 11 Coding for Children Scratch → real Python by month three. Tiny games, drawing apps, friendly first AI projects. USD 150/ mo→](/courses/coding/kids)[03 New · KS3 – KS5 AI & Agentic-AI LLM apps, RAG, tool-using agents — the way DeepMind, Wayve and Synthesia engineers actually work. USD 150/ mo→](/ai-ml-course-for-teens)[04 Oxbridge & Russell Group Oxbridge interview prep Cambridge CSAT, Oxford admissions, Imperial, UCL, Warwick, Edinburgh — algorithmic interview depth. USD 150/ mo→](/courses/coding/college)[05 University · Top-up For University students Algorithms, system design, AI engineering top-ups for CS undergrads at any UK university. USD 150/ mo→](/courses/coding/college)[06 Adults · Career switch For Professionals — retraining into software, data & AI. For UK adults aiming at SWE, data and AI engineer roles. Builds the production-grade portfolio London, Manchester and Cambridge employers actually look at. USD 150/ moOpen course →](/courses/coding/college)[07 For girls · Ages 8 – 22 Coding for girls All-female mentor pairing, women-in-tech role models from London and Cambridge. USD 150/ mo→](/courses/coding/girls)[08 Schools & companies For UK Schools / Teams State, independent, prep and grammar schools. Code-club cohorts, after-school programmes, NEA support. USD 100/ seat · group→](/courses/coding/corporate)Parent rating4.9 / 5 · 547 reviewsAligned withAQA · OCR · PearsonMentor hours09:00 – 21:00 UK timeCommitmentFree trial · cancel monthlyBy Key Stage · the British way
 
 ## What we teach at each stage — and how it joins up with school.
 
@@ -314,7 +314,7 @@ Also at Modern Age Coders
 
 ## Maths, taught with the same depth.
 
-The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For UK students that means GCSE and IGCSE by board and tier, IB for international schools, and gaps repaired at the root. Premium 1-on-1 mentorship and small-group plans are priced for your country (shown on this page in your local currency), 8 classes a month, and every student starts with a free demo class.
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For UK students that means GCSE and IGCSE by board and tier, IB for international schools, and gaps repaired at the root. Premium 1-on-1 mentorship is a flat USD 150 a month and small-group plans are USD 100 a month, billed in USD, 8 classes a month, and every student starts with a free demo class.
 
 [GCSE Maths](/gcse-maths-tuition-online)[IGCSE Maths](/igcse-maths-tuition-online)[IB Maths (AA & AI)](/ib-maths-tuition-online)[Catch-Up Program](/math-catch-up-program)[Singapore Method](/singapore-math-method-tutoring)[The 2026 Guide](/best-online-math-tutoring-2026)
 
@@ -324,15 +324,15 @@ Plain pricing · cancel monthly
 
 ## Two plans, one schedule, no fine print.
 
-£79 a month for 1:1 mentorship. £32 a month for a small-group cohort. No registration fee, no annual contract, pause for half-term or exam leave whenever you need.
+USD 150 a month for 1:1 mentorship. USD 100 a month for a small-group cohort. No registration fee, no annual contract, pause for half-term or exam leave whenever you need.
 
-What's includedSmall-group cohort1:1 Private mentorNotesMonthly cost£32/ mo£79/ moBilled in USD ($100 / $150)Live sessions per month8 sessions8 sessions2 per week, same slotsSame mentor every week~ Same cohort✓ YesSwitch any timeCustom curriculum & pace— Shared✓ Fully customMapped to exam boardExam-board paper drills✓ Group drills✓ PersonalisedAQA · OCR · PearsonA-Level NEA project coaching— No✓ Yes, full project1:1 mentor requiredOxbridge interview prep— No✓ Cambridge + Oxford1:1 mentor requiredClass recordings + parent report✓ Monthly✓ WeeklyEmail or WhatsAppCancel / pause✓ Monthly✓ MonthlyNo fee, no contractFree trial lesson✓ Yes✓ Yes30 minutes, no cardHow we compare
+What's includedSmall-group cohort1:1 Private mentorNotesMonthly costUSD 100/ moUSD 150/ moBilled in USD ($100 / $150)Live sessions per month8 sessions8 sessions2 per week, same slotsSame mentor every week~ Same cohort✓ YesSwitch any timeCustom curriculum & pace— Shared✓ Fully customMapped to exam boardExam-board paper drills✓ Group drills✓ PersonalisedAQA · OCR · PearsonA-Level NEA project coaching— No✓ Yes, full project1:1 mentor requiredOxbridge interview prep— No✓ Cambridge + Oxford1:1 mentor requiredClass recordings + parent report✓ Monthly✓ WeeklyEmail or WhatsAppCancel / pause✓ Monthly✓ MonthlyNo fee, no contractFree trial lesson✓ Yes✓ Yes30 minutes, no cardHow we compare
 
 ## Side-by-side with what most British families already tried.
 
 Honest comparison. State-school after-school clubs, Tutorful / MyTutor private tutors, free YouTube, big online schools — they all have a place.
 
-What mattersModern Age CodersSchool / Code ClubTutorful · MyTutorYouTube · free toolsSame mentor weekly, all year✓ Yes— No~ Sometimes— NoReal Python, real Git, real deploy✓ Week 1~ Sometimes~ Depends~ Self-drivenModern AI & agentic-AI engineering✓ Built in— No— Rare~ TutorialsExam-board specific (AQA / OCR / Pearson)✓ Mapped✓ Mapped~ Tutor-dependent— NoOxbridge / Russell-Group prep✓ Yes— No~ Rare— NoMonthly cost£79 (1:1) / £32 (group)Free£25 – £60 per hourFreeCancel / pause✓ Monthly✓ Term-based✓ Hourly✓ FreeWhere British families learn with us
+What mattersModern Age CodersSchool / Code ClubTutorful · MyTutorYouTube · free toolsSame mentor weekly, all year✓ Yes— No~ Sometimes— NoReal Python, real Git, real deploy✓ Week 1~ Sometimes~ Depends~ Self-drivenModern AI & agentic-AI engineering✓ Built in— No— Rare~ TutorialsExam-board specific (AQA / OCR / Pearson)✓ Mapped✓ Mapped~ Tutor-dependent— NoOxbridge / Russell-Group prep✓ Yes— No~ Rare— NoMonthly costUSD 150 (1:1) / USD 100 (group)Free£25 – £60 per hourFreeCancel / pause✓ Monthly✓ Term-based✓ Hourly✓ FreeWhere British families learn with us
 
 ## Coding classes online — locally aware, exam-board aware.
 
@@ -430,9 +430,9 @@ Northern Ireland (CCEA) and Wales (WJEC / Eduqas)?
 
 Yes — both supported. Tell us your school's exam board on the trial call; your child's mentor adapts the term plan to match.
 
-How much does it cost in pounds?
+How much does it cost?
 
-Private 1:1 mentorship is **USD 100 (about £79) per month** — 8 sessions, 2 per week. Small-group cohort is **USD 40 (about £32) per month** on the same schedule. Billing is in USD via Stripe; your bank applies the live GBP conversion.
+Private 1:1 mentorship is **USD 150 per month** — 8 sessions, 2 per week. Small-group cohort is **USD 100 per month** on the same schedule. Billing is in USD via Stripe; your bank handles any GBP conversion on its side.
 
 What time of day are classes?
 
@@ -684,7 +684,7 @@ Yes — many families intensify mentor support during exam-prep windows. We can 
 
 "Do you accept payment in pounds via UK direct debit?"
 
-Billing is in USD via Stripe — your Visa, Mastercard, Amex or Apple Pay card converts at the live GBP rate (typically about £79 for the 1:1 plan). We don't run UK direct-debit at this time but most British families find the card route simple.
+Billing is in USD via Stripe — your Visa, Mastercard, Amex or Apple Pay card handles the GBP conversion on its side. We don't run UK direct-debit at this time but most British families find the card route simple.
 
 "What if my child wants to focus on game development rather than 'serious' coding?"
 

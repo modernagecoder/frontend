@@ -1,14 +1,14 @@
 ---
 title: "AI and Machine Learning Classes in Ireland | Build AI"
-description: "Live online AI and machine learning classes for learners in Ireland, ages 6 to 67. Build and train real models in Python, not prompts. About EUR 35 a month."
+description: "Live online AI and machine learning classes for learners in Ireland, ages 6 to 67. Build and train real models in Python, not prompts. From USD 100 a month."
 canonical: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-ireland
 source: src/pages/ai-and-machine-learning-classes-in-ireland.html
 ---
-> Live online AI and machine learning classes for learners in Ireland, ages 6 to 67. Build and train real models in Python, not prompts. About EUR 35 a month.
+> Live online AI and machine learning classes for learners in Ireland, ages 6 to 67. Build and train real models in Python, not prompts. From USD 100 a month.
 
 In short
 
-Modern Age Coders is a live online school. Learners in Ireland aged 6 to 67 join a group of five to eight or take private lessons, and the subject is model building rather than tool use: Python, then the statistics that decides whether a result is real, then training and testing on published data such as the CSO data centre electricity series. Teaching is in English on Irish clock time and aims at the 30 per cent Leaving Cert Computer Science coursework. A group place is USD 40 a month, about EUR 35, first class free.
+Modern Age Coders is a live online school. Learners in Ireland aged 6 to 67 join a group of five to eight or take private lessons, and the subject is model building rather than tool use: Python, then the statistics that decides whether a result is real, then training and testing on published data such as the CSO data centre electricity series. Teaching is in English on Irish clock time and aims at the 30 per cent Leaving Cert Computer Science coursework. A group place is USD 100 a month, billed in US dollars, first class free.
 
 The catalogue
 
@@ -367,15 +367,15 @@ by Krish · [Open the live project](https://krish-shroff.github.io/AuraWeatherTe
 
 Fees
 
-## A year of the Galway MSc is 9,040 euro. A month here is about 35.
+## A year of the Galway MSc is 9,040 euro. A month here is USD 100.
 
 University of Galway lists 9,040 euro as the 2026/27 total for an EU student on its one year MSc in Computer Science with Artificial Intelligence, and 28,640 euro for a non-EU student. Set a monthly class fee against that and the question stops being whether the price is low. It becomes whether a family would rather learn how the subject suits a child before committing five figures. Billing runs monthly, nothing is charged to join and nothing is signed for a year.
 
 Free first class
 
-EUR 0
+USD 0
 
-USD 0, no card needed
+No card needed
 
 - A taught hour, not a pitch
 - Sets the starting level
@@ -385,9 +385,9 @@ Book it
 
 Group batch
 
-about EUR 35
+USD 100
 
-USD 40 a month
+a month, billed in US dollars
 
 - Five to eight learners, one named teacher
 - Live only, with nothing resold as a recording
@@ -398,9 +398,9 @@ Start here
 
 One to one
 
-about EUR 88
+USD 150
 
-USD 100 a month
+a month, billed in US dollars
 
 - Private pace, private timetable
 - Built around a Leaving Cert coursework deadline
@@ -408,7 +408,7 @@ USD 100 a month
 
 Enquire
 
-The euro figures come from one dated rate: the European Central Bank published EUR 1 at USD 1.1377 on 24 July 2026. Note the direction, because it is where conversions go wrong. The ECB quotes dollars per euro, so a dollar price becomes euro by division, not multiplication. USD 40 divided by 1.1377 is 35.16 euro and USD 100 is 87.90 euro. An Irish card settles in euro with no conversion step.
+There is no exchange arithmetic on this page, because there is no euro price list. Fees are flat everywhere outside India: USD 100 a month for a group place, USD 150 a month for one to one, billed in US dollars.
 
 What families say
 
@@ -498,7 +498,7 @@ The verifiable list is broader than people expect. University College Cork place
 
 ### Are online AI classes credible in Ireland, or should we use a local grind school?
 
-They answer two different questions. A grind school exists to move a student up a grade band in a subject examined in June, and it is good at that. It is not built to leave a learner holding a trained model, a held out test window and a public link. Ireland is at 4.9 per cent unemployment against 6.4 per cent across the euro area, so the constraint here is not vacancies, it is being chosen among strong applicants, and that is settled by evidence of work rather than exam drilling. A group place is USD 40 a month, about EUR 35, so this is rarely a choice between the two.
+They answer two different questions. A grind school exists to move a student up a grade band in a subject examined in June, and it is good at that. It is not built to leave a learner holding a trained model, a held out test window and a public link. Ireland is at 4.9 per cent unemployment against 6.4 per cent across the euro area, so the constraint here is not vacancies, it is being chosen among strong applicants, and that is settled by evidence of work rather than exam drilling. A group place is USD 100 a month, so this is rarely a choice between the two.
 
 Start here
 

@@ -1,10 +1,10 @@
 ---
 title: "Coding & AI Classes in Germany | Abitur & Informatik"
-description: "Live online coding, Python & AI for students across Germany. Informatik LK & Abitur-aligned. 1:1 mentor, priced for your country Buchen Sie eine Demo."
+description: "Live online coding, Python & AI for students across Germany. Informatik LK & Abitur-aligned. 1:1 mentor, USD 150 a month. Buchen Sie eine Demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-germany
 source: src/pages/coding-classes-in-germany.html
 ---
-> Live online coding, Python & AI for students across Germany. Informatik LK & Abitur-aligned. 1:1 mentor, priced for your country Buchen Sie eine Demo.
+> Live online coding, Python & AI for students across Germany. Informatik LK & Abitur-aligned. 1:1 mentor, USD 150 a month. Buchen Sie eine Demo.
 
 ### Rückruf anfordern
 
@@ -18,15 +18,15 @@ Online · Deutschland · +49 · CET
 
 # Coding & AI taught the way *German engineering* respects.
 
-One mentor. One student. Real Python, real JavaScript, real AI agents — taught with the rigour your child's Gymnasium would respect and the openness their future at **TUM**, **RWTH Aachen** or **SAP** will require. **USD 100 / Monat** (≈ EUR 92), eight live sessions, zwei pro Woche, no contract.
+One mentor. One student. Real Python, real JavaScript, real AI agents — taught with the rigour your child's Gymnasium would respect and the openness their future at **TUM**, **RWTH Aachen** or **SAP** will require. **USD 150 / Monat**, eight live sessions, zwei pro Woche, no contract.
 
-See all courses4.9/5average parent & learner rating across Germany — 547 reviews2,400+German students mentored across 60+ cities since 20208 / molive 1:1 classes, two per week, on Central European TimeUSD 100monthly · ≈ EUR 92 · no joining fee · monatlich kündbar12+ yrsaverage mentor experience shipping real engineering codePick a course · start this week
+See all courses4.9/5average parent & learner rating across Germany — 547 reviews2,400+German students mentored across 60+ cities since 20208 / molive 1:1 classes, two per week, on Central European TimeUSD 150monthly · billed in USD · no joining fee · monatlich kündbar12+ yrsaverage mentor experience shipping real engineering codePick a course · start this week
 
 ## Seven serious tracks. Eight live sessions a month. Same mentor every week.
 
 Click any track to open the course page, or book a free demo and a mentor matches your child to the right one.
 
-[Most chosen in DE · Informatik LK Coding & AI for Teens (13–18) — Informatik LK & Abitur aligned Real Python, JavaScript, Git, web apps and modern AI engineering — paced to a German Gymnasium term. We line up with Informatik LK, Abitur exam content, BWInf rounds and Jugend forscht entries. Many of our students go on to TUM, RWTH, TU Berlin and KIT informatics tracks.  Format1:1 · 2 sessions / week Length8 sessions / month StackPython · JS · Web · LLM APIs ScheduleCET · 16:00 – 21:00 most days   USD 100/ month Open course →](/courses/coding/teens)[Ages 6 – 12 Coding for Kids Scratch → real Python by month three. Tiny games, drawing apps, first AI projects. USD 100 / mo→](/courses/coding/kids)[New · Ages 13 – 18 AI & Agentic-AI LLM apps, RAG, tool-using agents — the way German AI startups actually ship. USD 100 / mo→](/ai-ml-course-for-teens)[TUM · RWTH · KIT For College & Uni Algorithms, system design, AI engineering. Top-ups for German uni students. USD 100 / mo→](/courses/coding/college)[Adults · Career switch For Professionals Mid-career Quereinsteiger into software, data and AI roles. USD 100 / mo→](/courses/coding/college)[For girls · 8 – 22 Coding für Mädchen All-female mentor pairing, role models from the Berlin & Munich AI scene. USD 100 / mo→](/courses/coding/girls)[Schulen · Firmen For Schools / Teams Gymnasium informatics cohorts, AGs and German company upskilling programmes. USD 40 / seat→](/courses/coding/corporate)Why German families pick us
+[Most chosen in DE · Informatik LK Coding & AI for Teens (13–18) — Informatik LK & Abitur aligned Real Python, JavaScript, Git, web apps and modern AI engineering — paced to a German Gymnasium term. We line up with Informatik LK, Abitur exam content, BWInf rounds and Jugend forscht entries. Many of our students go on to TUM, RWTH, TU Berlin and KIT informatics tracks.  Format1:1 · 2 sessions / week Length8 sessions / month StackPython · JS · Web · LLM APIs ScheduleCET · 16:00 – 21:00 most days   USD 150/ month Open course →](/courses/coding/teens)[Ages 6 – 12 Coding for Kids Scratch → real Python by month three. Tiny games, drawing apps, first AI projects. USD 150 / mo→](/courses/coding/kids)[New · Ages 13 – 18 AI & Agentic-AI LLM apps, RAG, tool-using agents — the way German AI startups actually ship. USD 150 / mo→](/ai-ml-course-for-teens)[TUM · RWTH · KIT For College & Uni Algorithms, system design, AI engineering. Top-ups for German uni students. USD 150 / mo→](/courses/coding/college)[Adults · Career switch For Professionals Mid-career Quereinsteiger into software, data and AI roles. USD 150 / mo→](/courses/coding/college)[For girls · 8 – 22 Coding für Mädchen All-female mentor pairing, role models from the Berlin & Munich AI scene. USD 150 / mo→](/courses/coding/girls)[Schulen · Firmen For Schools / Teams Gymnasium informatics cohorts, AGs and German company upskilling programmes. USD 100 / seat→](/courses/coding/corporate)Why German families pick us
 
 ## Six things we get right that the rest of the market mostly does not.
 
@@ -242,7 +242,7 @@ Also at Modern Age Coders
 
 ## Maths, taught with the same depth.
 
-The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For international-school families in Germany that means IB and IGCSE taught board-exact, in English, at European evening hours. Premium 1-on-1 mentorship and small-group plans are priced for your country (shown on this page in your local currency), 8 classes a month, and every student starts with a free demo class.
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For international-school families in Germany that means IB and IGCSE taught board-exact, in English, at European evening hours. Premium 1-on-1 mentorship is a flat USD 150 a month and small-group plans are USD 100, billed in USD, 8 classes a month, and every student starts with a free demo class.
 
 [IB Maths (AA & AI)](/ib-maths-tuition-online)[IGCSE Maths](/igcse-maths-tuition-online)[Grades 3-8 ladder](/online-math-tutor-3rd-grade)[Catch-Up Program](/math-catch-up-program)[Singapore Method](/singapore-math-method-tutoring)[The 2026 Guide](/best-online-math-tutoring-2026)
 
@@ -260,9 +260,9 @@ Small-group cohort
 
 Same curriculum, same mentors, age-banded small group.
 
-USD40/ Monat
+USD100/ Monat
 
-/ Monat · 8 sessions · 2 per week
+Billed in USD · 8 sessions · 2 per week
 
 - 8 live small-group sessions every month
 - Up to 6 students per group, age-banded
@@ -276,9 +276,9 @@ USD40/ Monat
 
 Deepest progress, fully customised pace. Used by 80% of our German families.
 
-USD100/ Monat
+USD150/ Monat
 
-/ Monat · 8 sessions · 2 per week
+Billed in USD · 8 sessions · 2 per week
 
 - 8 live 1:1 sessions every month
 - Same mentor every week — no rotation
@@ -297,7 +297,7 @@ Same mentor every weekMonatlich kündbarErste Demo gratisHow we compare
 
 Volkshochschule, Nachhilfe, free YouTube — they all have a place. Here is honestly where we sit.
 
-What matters mostModern Age CodersVolkshochschule (VHS)Privat-NachhilfeYouTube / free tools1:1 live mentor, same person every week✓ Yes— Class format✓ Often— NoReal coding (Python, JS, Git, deploy)✓ Week one~ Sometimes~ Depends~ Self-drivenModern AI & agentic-AI engineering✓ Built in— Rare— Rare~ Tutorials onlyInformatik LK / Abitur alignment✓ Aligned~ Sometimes✓ Often— NoBWInf / Jugend forscht coaching✓ Yes— No~ Rare— NoCET-native schedule✓ Native✓ Native✓ Native✓ Self-pacedReal shipped portfolio every month✓ Yes— No~ Maybe— NoMonthly costUSD 100 (1:1) / 40 (group)EUR 80 – 200 (per course)EUR 200 – 500 / MonatKostenlosCancel / pause✓ Monatlich~ Per Semester~ Per contract✓ FreiBuilt for all 16 Bundesländer
+What matters mostModern Age CodersVolkshochschule (VHS)Privat-NachhilfeYouTube / free tools1:1 live mentor, same person every week✓ Yes— Class format✓ Often— NoReal coding (Python, JS, Git, deploy)✓ Week one~ Sometimes~ Depends~ Self-drivenModern AI & agentic-AI engineering✓ Built in— Rare— Rare~ Tutorials onlyInformatik LK / Abitur alignment✓ Aligned~ Sometimes✓ Often— NoBWInf / Jugend forscht coaching✓ Yes— No~ Rare— NoCET-native schedule✓ Native✓ Native✓ Native✓ Self-pacedReal shipped portfolio every month✓ Yes— No~ Maybe— NoMonthly costUSD 150 (1:1) / 100 (group)EUR 80 – 200 (per course)EUR 200 – 500 / MonatKostenlosCancel / pause✓ Monatlich~ Per Semester~ Per contract✓ FreiBuilt for all 16 Bundesländer
 
 ## Informatik is taught differently in every Bundesland. We adapt.
 
@@ -449,7 +449,7 @@ Classes are taught in clear, slow English — because every meaningful software 
 
 What does it cost in Euro?
 
-Private 1:1 mentorship is **priced for your country** per month — 8 sessions, 2 per week. Small-group cohort is **priced for your country** per month, same schedule. No registration fee, no contract, monatlich kündbar.
+Private 1:1 mentorship is **USD 150** per month — 8 sessions, 2 per week. Small-group cohort is **USD 100** per month, same schedule. Billed in USD. No registration fee, no contract, monatlich kündbar.
 
 Will my child learn real AI or just "use ChatGPT"?
 
@@ -473,7 +473,7 @@ Under-13s never operate LLM APIs against the open internet without a mentor pres
 
 How do we pay? German cards and SEPA OK?
 
-Yes. We accept Visa, Mastercard, Amex, Apple Pay, Google Pay (all issued in Germany), and SEPA-Lastschrift for adult invoices. Billing is in USD; your bank applies the live EUR conversion — typically for the 1:1 plan.
+Yes. We accept Visa, Mastercard, Amex, Apple Pay, Google Pay (all issued in Germany), and SEPA-Lastschrift for adult invoices. Billing is in USD; your bank applies the live EUR conversion.
 
 Does the schedule pause for school holidays and Ferien?
 

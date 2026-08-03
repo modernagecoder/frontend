@@ -1,14 +1,14 @@
 ---
 title: "AI and Machine Learning Classes in Bahrain | Build AI"
-description: "Live online AI and machine learning classes for students in Bahrain, ages 6 to 67. Train real models in Python, not just prompts. From BD 15.040 a month."
+description: "Live online AI and machine learning classes for students in Bahrain, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month."
 canonical: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-bahrain
 source: src/pages/ai-and-machine-learning-classes-in-bahrain.html
 ---
-> Live online AI and machine learning classes for students in Bahrain, ages 6 to 67. Train real models in Python, not just prompts. From BD 15.040 a month.
+> Live online AI and machine learning classes for students in Bahrain, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month.
 
 In short
 
-Modern Age Coders runs live online AI and machine learning classes for students in Bahrain, ages 6 to 67, in batches of five to eight or one to one. Students learn Python and the mathematics underneath machine learning, then train and evaluate their own models rather than only prompting AI tools. Classes run Sunday to Thursday on Bahrain time. Fees start at BD 15.040 a month, about USD 40, and the first class is free.
+Modern Age Coders runs live online AI and machine learning classes for students in Bahrain, ages 6 to 67, in batches of five to eight or one to one. Students learn Python and the mathematics underneath machine learning, then train and evaluate their own models rather than only prompting AI tools. Classes run Sunday to Thursday on Bahrain time. Fees start at USD 100 a month, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -354,13 +354,13 @@ Fees
 
 ## What it costs a family in Bahrain
 
-The Central Bank of Bahrain holds a fixed peg of one US dollar to 0.376 dinars, effectively unchanged since 1980, so a published dinar price stays honest rather than drifting month to month. Prices carry three decimals because the dinar divides into 1,000 fils rather than 100. Fees run month by month, with no joining charge and no year-long contract.
+Fees are a flat USD 100 a month for a group batch and USD 150 for one to one, billed in US dollars everywhere outside India. Fees run month by month, with no joining charge and no year-long contract.
 
 Free first class
 
-BD 0.000
+USD 0
 
-USD 0, no card needed
+No card needed
 
 - A real class with a real teacher, not a sales call
 - Doubles as a placement check so the level is pitched correctly
@@ -370,9 +370,9 @@ Book it
 
 Group batch
 
-BD 15.040
+USD 100
 
-about USD 40 a month
+a month, billed in US dollars
 
 - Five to eight students, same teacher every week
 - Live video, never a recording
@@ -383,9 +383,9 @@ Start here
 
 One to one
 
-BD 37.600
+USD 150
 
-about USD 100 a month
+a month, billed in US dollars
 
 - Private teaching, your pace and your schedule
 - Best for board years and for adults with few free evenings
@@ -393,7 +393,7 @@ about USD 100 a month
 
 Enquire
 
-One honest note on payment. Retail bank and card rates sit slightly wide of the peg, around 0.377 to 0.378 once the spread is applied, so a card billed in dollars settles a few hundred fils above the arithmetic conversion. At the peg one dinar is about 2.66 US dollars, one of the highest valued currencies in the world, so a dollar figure always looks larger to a Bahraini parent than it is.
+One honest note on payment. Your card is billed in US dollars, and your bank converts the charge to dinars at its own retail rate, which sits slightly wide of the Central Bank of Bahrain peg. At the peg one dinar is about 2.66 US dollars, one of the highest valued currencies in the world, so a dollar figure always looks larger to a Bahraini parent than it is.
 
 What families say
 
@@ -465,9 +465,9 @@ Bahrain keeps Arabia Standard Time, UTC+3, with no daylight saving, so the offse
 
 Yes, and it is the commonest scheduling error made by providers teaching into Bahrain from India. Our Bahrain batches run Sunday to Thursday, because Sunday is a school night here and not a free day. The weekend slot is Saturday morning, not Sunday morning. We place no class on a Friday before roughly 2:00pm local, so Jumu'ah prayers are never in competition with a lesson.
 
-### How much is this in Bahraini dinars, and can I pay in dinars rather than being billed in dollars?
+### How much is this, and can I pay in dinars rather than being billed in dollars?
 
-A group batch is BD 15.040 a month and one to one teaching is BD 37.600, priced from USD 40 and USD 100 at the Central Bank of Bahrain peg of 0.376 dinars to the dollar, effectively unchanged since 1980. Prices carry three decimals because the dinar divides into 1,000 fils rather than 100. If a card is billed in dollars, retail rates sit slightly wide of the peg, around 0.377 to 0.378 once the spread is applied, so the settled figure lands a few hundred fils higher.
+A group batch is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars everywhere outside India, so we do not take payment in dinars and we do not publish a dinar price list. Your card is billed in dollars and your bank converts at its own retail rate, which sits slightly wide of the Central Bank of Bahrain peg, so the dinar figure on the statement lands a little above a straight conversion. The first class is free.
 
 ### Will this help with Bahrain Polytechnic's entry requirement, or with the University of Bahrain's College of Information Technology, or with AUBH's Data Science and Artificial Intelligence degree?
 
