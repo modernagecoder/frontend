@@ -131,9 +131,46 @@ function checkRetiredFigures(rel, html) {
     targets.forEach(function (pair) {
         if (!RETIRED.test(pair[1])) return;
         if (COMPETITOR_CUE.test(pair[1])) return;   // quoting others is fine
-        const msg = pair[0] + ' quotes a retired flat price: "' +
-            pair[1].slice(0, 90) + '..." — the real price is per-country now.';
-        if (STRICT) fail(rel, msg); else notes.push(rel + ': ' + msg);
+        fail(rel, pair[0] + ' quotes a retired price: "' +
+            pair[1].slice(0, 90) + '..." — see pricing/pricing.config.jsonc for the real ones.');
+    });
+
+    // Bare price fields in structured data ("highPrice": "4999") — the shape
+    // that hid retired figures on 40 locality pages and /pricing itself,
+    // because the formatted-figure regex above cannot see plain digits.
+    // 4999 is allowed on camp pages only (the current one-time camp fee).
+    const ldRx2 = /<script[^>]*application\/ld\+json[^>]*>([\s\S]*?)<\/script>/gi;
+    while ((m = ldRx2.exec(html)) !== null) {
+        const bare = /"(?:price|lowPrice|highPrice)"\s*:\s*"?(2499|4999|9999)"?/g;
+        let b;
+        while ((b = bare.exec(m[1])) !== null) {
+            if (b[1] === '4999' && /camp/i.test(rel)) continue;
+            fail(rel, 'structured data publishes the retired figure ' + b[1] +
+                ' in a price field. The stamper never writes this — the block is ' +
+                'unanchored or hand-edited; give its <script> tag a data-price-scope.');
+        }
+    }
+
+    // Visible text. 2,499 and 9,999 have no current use at all; 4,999 is only
+    // legitimate as the one-time camp fee, so it fails when a monthly marker
+    // follows; "$40 a month" was the retired flat group price ($40/hour is a
+    // competitor rate and stays legal).
+    const visible = html.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ');
+    const VISIBLE_RETIRED = [
+        /(?:₹|&#8377;|Rs\.?\s)\s?(?<![\d,])(?:2,?499|9,?999)(?![\d.])/g,
+        /(?:₹|&#8377;|Rs\.?\s)\s?(?<![\d,])4,?999(?![\d.])(?=[^<₹$]{0,40}(?:\/\s?month|\/\s?mo\b|per month|a month))/g,
+        /\b(?:2,?499|9,?999) rupees\b/g,
+        /\b4,?999 rupees(?=[^<]{0,30}(?:a month|per month|\/\s?month))/g,
+        /(?:\$|USD\s?)40(?![\dk.,%])(?=[^<]{0,30}(?:a month|\/\s?month|\/\s?mo\b|per month))/g
+    ];
+    VISIBLE_RETIRED.forEach(function (rx) {
+        let v;
+        while ((v = rx.exec(visible)) !== null) {
+            const around = visible.slice(Math.max(0, v.index - 120), v.index + 140);
+            if (COMPETITOR_CUE.test(around)) continue;
+            fail(rel, 'visible text still shows the retired price "' + v[0] +
+                '": …' + around.replace(/\s+/g, ' ').trim().slice(0, 110) + '…');
+        }
     });
 }
 
