@@ -985,8 +985,6 @@ ESCALATE TO SHIVAM SIR FOR:
 - **January 2026.** Terms of Service last reviewed.
 - **2020.** Modern Age Coders founded by Shivam Khemka.
 
----
-
 ## APPENDIX A: EVERY COURSE PAGE (115 live courses)
 
 All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Every URL below was checked against the sitemap and the routing table on 4 August 2026.
@@ -1128,40 +1126,40 @@ Every URL below is present in a sitemap **and** resolves through the routing tab
 
 | URL path | Page title |
 |---|---|
-| `/` | Modern Age Coders - Online Coding & Maths Classes for All Ages / Learn Worldwide |
-| `/about` | About Modern Age Coders / Coding & Math Education That Actually Works |
-| `/aeo-geo-optimization-services` | AEO & GEO Services / Get Cited by ChatGPT, Gemini & Google AI / Modern Age Coders |
-| `/ai-tools-age-guide` | AI Tool Age Limits: What Your Child Can Actually Use / Modern Age Coders |
-| `/aura` | Aura Type - Master Your Typing Flow / Modern Age Coders |
-| `/beat-the-babu` | Beat The Babu - The Fastest 90-Second Math Challenge Game / ModernAgeCoders |
-| `/blog` |  |
-| `/book-demo` | Book a Free Coding Demo Class / Try Coding & Maths Live / Modern Age Coders |
+| `/` | Modern Age Coders - Online Coding & Maths Classes for All Ages |
+| `/about` | About Modern Age Coders |
+| `/aeo-geo-optimization-services` | AEO & GEO Services |
+| `/ai-tools-age-guide` | AI Tool Age Limits: What Your Child Can Actually Use |
+| `/aura` | Aura Type - Master Your Typing Flow |
+| `/beat-the-babu` | Beat The Babu - The Fastest 90-Second Math Challenge Game |
+| `/blog` | Blog index |
+| `/book-demo` | Book a Free Coding Demo Class |
 | `/cancellation` | Cancellation Policy |
-| `/coding-challenges` | Competitive Programming Practice: Daily Coding Challenges / Modern Age Coders |
-| `/coding-fee-calculator` | Coding Class Fee Calculator ,  Instant Transparent Pricing for India & Global / Modern... |
-| `/coding-roadmap` | How to Start Coding: Which Language First & The Full Roadmap (Ages 6-67) / Modern Age C... |
+| `/coding-challenges` | Competitive Programming Practice: Daily Coding Challenges |
+| `/coding-fee-calculator` | Coding Class Fee Calculator - Instant Transparent Pricing for India & Global |
+| `/coding-roadmap` | How to Start Coding: Which Language First & The Full Roadmap (Ages 6-67) |
 | `/contact` | Contact Us |
-| `/course-atlas` | The Course Atlas ,  Every Coding, AI & Mathematics Course (Kids, Teens, College, Profes... |
-| `/courses` | Learn Coding & Math Online / Courses for Kids, Teens & Adults / Modern Age Coders |
-| `/custom-software-development-services` | Custom Software Development Company / Bespoke Platforms & Tools / Modern Age Coders |
+| `/course-atlas` | The Course Atlas - Every Coding, AI & Mathematics Course (Kids, Teens, College, Profess... |
+| `/courses` | Learn Coding & Math Online |
+| `/custom-software-development-services` | Custom Software Development Company |
 | `/faq` | FAQ |
-| `/for-business` | Software Development Company for Business / Build, Scale, Fix & Grow / Modern Age Coders |
-| `/free-coding-starter-kit` | Free Coding Starter Kit / A Parent's 8-Page Field Guide / Modern Age Coders |
-| `/free-resources` | Free Programming Resources / Official Documentation & Learning Platforms / Modern Age C... |
-| `/free-trial` | Free Trial Class / One Real Hour, No Card, No Catch / Modern Age Coders |
-| `/guarantee` | Our Zero-Risk Promise / Free Demo, No Lock-In / Modern Age Coders |
-| `/how-we-teach` | How We Teach ,  Watch Our Free Coding & Maths Demo Library / Modern Age Coders |
+| `/for-business` | Software Development Company for Business |
+| `/free-coding-starter-kit` | Free Coding Starter Kit |
+| `/free-resources` | Free Programming Resources |
+| `/free-trial` | Free Trial Class |
+| `/guarantee` | Our Zero-Risk Promise |
+| `/how-we-teach` | How We Teach - Watch Our Free Coding & Maths Demo Library |
 | `/love` |  |
-| `/maths-challenges` | Daily Maths Challenge / Modern Age Coders |
-| `/mistakes-students-make` | 11 Common Coding & Maths Mistakes Students Make / Modern Age Coders |
-| `/parent-faq` | Parent FAQ / Every Question About Our Classes, Answered Plainly / Modern Age Coders |
-| `/pricing` | Affordable Coding Classes in India: Plans Starting Rs 1,499/month / Modern Age Coders |
+| `/maths-challenges` | Daily Maths Challenge |
+| `/mistakes-students-make` | 11 Common Coding & Maths Mistakes Students Make |
+| `/parent-faq` | Parent FAQ |
+| `/pricing` | Affordable Coding Classes in India: Plans Starting Rs 1,499/month |
 | `/privacy` | Privacy Policy |
 | `/refund` | Refund Policy |
-| `/schools` | Coding & Maths Classes for School Students / 21 Schools / Modern Age Coders |
-| `/seo-services` | SEO Services / Technical SEO & Content That Ranks / Modern Age Coders |
-| `/student-labs` | Student Labs ,  Real, Live Coding Projects Built by Kids, Teens & Students / Modern Age... |
-| `/success-stories` | Success Stories / Student Transformations at Modern Age Coders |
+| `/schools` | Coding & Maths Classes for School Students |
+| `/seo-services` | SEO Services |
+| `/student-labs` | Student Labs - Real, Live Coding Projects Built by Kids, Teens & Students |
+| `/success-stories` | Success Stories |
 | `/terms` | Terms of Service |
 
 ### B.2 Course detail pages (115)
@@ -1413,274 +1411,274 @@ Listed with titles in Appendix C.
 
 | URL path | Page title |
 |---|---|
-| `/blog/topic/ai` | AI & Machine Learning Guides / Modern Age Coders Blog |
-| `/blog/topic/java` | Java Tutorials & Programs / Modern Age Coders Blog |
-| `/blog/topic/kids-coding` | Coding for Kids: Guides for Parents / Modern Age Coders Blog |
-| `/blog/topic/maths` | Maths Learning Guides / Modern Age Coders Blog |
-| `/blog/topic/python` | Python Tutorials & Guides / Modern Age Coders Blog |
+| `/blog/topic/ai` | AI & Machine Learning Guides |
+| `/blog/topic/java` | Java Tutorials & Programs |
+| `/blog/topic/kids-coding` | Coding for Kids: Guides for Parents |
+| `/blog/topic/maths` | Maths Learning Guides |
+| `/blog/topic/python` | Python Tutorials & Guides |
 
 ### B.6 Indian city pages (131)
 
 | URL path | Page title |
 |---|---|
-| `/best-coding-class-in-agra` | Best Coding Classes in Agra / Modern Age Coders |
-| `/best-coding-class-in-ahmedabad` | Best Coding Classes in Ahmedabad / Modern Age Coders |
-| `/best-coding-class-in-ajmer` | Best Coding Classes in Ajmer / Modern Age Coders |
-| `/best-coding-class-in-akola` | Best Coding Classes in Akola / Modern Age Coders |
-| `/best-coding-class-in-aligarh` | Best Coding Classes in Aligarh / Modern Age Coders |
-| `/best-coding-class-in-amravati` | Best Coding Classes in Amravati / Modern Age Coders |
-| `/best-coding-class-in-amritsar` | Best Coding Classes in Amritsar / Modern Age Coders |
-| `/best-coding-class-in-anand` | Best Coding Classes in Anand / Modern Age Coders |
-| `/best-coding-class-in-asansol` | Best Coding Classes in Asansol / Modern Age Coders |
-| `/best-coding-class-in-aurangabad` | Best Coding Classes in Aurangabad / Modern Age Coders |
-| `/best-coding-class-in-balasore` | Best Coding Classes in Balasore / Modern Age Coders |
-| `/best-coding-class-in-bareilly` | Best Coding Classes in Bareilly / Modern Age Coders |
-| `/best-coding-class-in-belagavi` | Best Coding Classes in Belagavi (Belgaum) / Modern Age Coders |
-| `/best-coding-class-in-bengaluru` | Best Coding Classes in Bengaluru / Modern Age Coders |
-| `/best-coding-class-in-berhampur` | Best Coding Classes in Berhampur / Modern Age Coders |
-| `/best-coding-class-in-bhagalpur` | Best Coding Classes in Bhagalpur / Modern Age Coders |
-| `/best-coding-class-in-bhavnagar` | Best Coding Classes in Bhavnagar / Modern Age Coders |
-| `/best-coding-class-in-bhilai` | Best Coding Classes in Bhilai / Modern Age Coders |
-| `/best-coding-class-in-bhopal` | Best Coding Classes in Bhopal / Modern Age Coders |
-| `/best-coding-class-in-bhubaneswar` | Best Coding Classes in Bhubaneswar / Modern Age Coders |
-| `/best-coding-class-in-bikaner` | Best Coding Classes in Bikaner / Modern Age Coders |
-| `/best-coding-class-in-bokaro` | Best Coding Classes in Bokaro / Modern Age Coders |
-| `/best-coding-class-in-chandigarh` | Best Coding Classes in Chandigarh / Modern Age Coders |
-| `/best-coding-class-in-chennai` | Best Coding Classes in Chennai / Modern Age Coders |
-| `/best-coding-class-in-coimbatore` | Best Coding Classes in Coimbatore / Modern Age Coders |
-| `/best-coding-class-in-cuttack` | Best Coding Classes in Cuttack / Modern Age Coders |
-| `/best-coding-class-in-darbhanga` | Best Coding Classes in Darbhanga / Modern Age Coders |
-| `/best-coding-class-in-davanagere` | Best Coding Classes in Davanagere (Davangere) / Modern Age Coders |
-| `/best-coding-class-in-dehradun` | Best Coding Classes in Dehradun / Modern Age Coders |
-| `/best-coding-class-in-delhi` | Best Coding Classes in Delhi / Modern Age Coders |
-| `/best-coding-class-in-dhanbad` | Best Coding Classes in Dhanbad / Modern Age Coders |
-| `/best-coding-class-in-durgapur` | Best Coding Classes in Durgapur / Modern Age Coders |
-| `/best-coding-class-in-erode` | Best Coding Classes in Erode / Modern Age Coders |
-| `/best-coding-class-in-faridabad` | Best Coding Classes in Faridabad / Modern Age Coders |
-| `/best-coding-class-in-gandhinagar` | Best Coding Classes in Gandhinagar / Modern Age Coders |
-| `/best-coding-class-in-gangtok` | Best Coding Classes in Gangtok / Modern Age Coders |
-| `/best-coding-class-in-gaya` | Best Coding Classes in Gaya / Modern Age Coders |
-| `/best-coding-class-in-ghaziabad` | Best Coding Classes in Ghaziabad / Modern Age Coders |
-| `/best-coding-class-in-goa` | Best Coding Classes in Goa / Modern Age Coders |
-| `/best-coding-class-in-gorakhpur` | Best Coding Classes in Gorakhpur / Modern Age Coders |
-| `/best-coding-class-in-greater-noida` | Best Coding Classes in Greater Noida / Modern Age Coders |
-| `/best-coding-class-in-guntur` | Best Coding Classes in Guntur / Modern Age Coders |
-| `/best-coding-class-in-gurgaon` | Best Coding Classes in Gurgaon / Modern Age Coders |
-| `/best-coding-class-in-guwahati` | Best Coding Classes in Guwahati / Modern Age Coders |
-| `/best-coding-class-in-gwalior` | Best Coding Classes in Gwalior / Modern Age Coders |
-| `/best-coding-class-in-haldwani` | Best Coding Classes in Haldwani / Modern Age Coders |
-| `/best-coding-class-in-haridwar` | Best Coding Classes in Haridwar / Modern Age Coders |
-| `/best-coding-class-in-hisar` | Best Coding Classes in Hisar / Modern Age Coders |
-| `/best-coding-class-in-hubli` | Best Coding Classes in Hubli / Modern Age Coders |
-| `/best-coding-class-in-hyderabad` | Best Coding Classes in Hyderabad / Modern Age Coders |
-| `/best-coding-class-in-imphal` | Best Coding Classes in Imphal / Modern Age Coders |
-| `/best-coding-class-in-indore` | Best Coding Classes in Indore / Modern Age Coders |
-| `/best-coding-class-in-jabalpur` | Best Coding Classes in Jabalpur / Modern Age Coders |
-| `/best-coding-class-in-jaipur` | Best Coding Classes in Jaipur / Modern Age Coders |
-| `/best-coding-class-in-jalandhar` | Best Coding Classes in Jalandhar / Modern Age Coders |
-| `/best-coding-class-in-jammu` | Best Coding Classes in Jammu / Modern Age Coders |
-| `/best-coding-class-in-jamnagar` | Best Coding Classes in Jamnagar / Modern Age Coders |
-| `/best-coding-class-in-jamshedpur` | Best Coding Classes in Jamshedpur / Modern Age Coders |
-| `/best-coding-class-in-jhansi` | Best Coding Classes in Jhansi / Modern Age Coders |
-| `/best-coding-class-in-jodhpur` | Best Coding Classes in Jodhpur / Modern Age Coders |
-| `/best-coding-class-in-kakinada` | Best Coding Classes in Kakinada / Modern Age Coders |
-| `/best-coding-class-in-kannur` | Best Coding Classes in Kannur / Modern Age Coders |
-| `/best-coding-class-in-kanpur` | Best Coding Classes in Kanpur / Modern Age Coders |
-| `/best-coding-class-in-karimnagar` | Best Coding Classes in Karimnagar / Modern Age Coders |
-| `/best-coding-class-in-karnal` | Best Coding Classes in Karnal / Modern Age Coders |
-| `/best-coding-class-in-kharagpur` | Best Coding Classes in Kharagpur / Modern Age Coders |
-| `/best-coding-class-in-kochi` | Best Coding Classes in Kochi / Modern Age Coders |
-| `/best-coding-class-in-kolhapur` | Best Coding Classes in Kolhapur / Modern Age Coders |
-| `/best-coding-class-in-kolkata` | Best Coding Classes in Kolkata / Modern Age Coders |
-| `/best-coding-class-in-kollam` | Best Coding Classes in Kollam / Modern Age Coders |
-| `/best-coding-class-in-kota` | Best Coding Classes in Kota / Modern Age Coders |
-| `/best-coding-class-in-kottayam` | Best Coding Classes in Kottayam / Modern Age Coders |
-| `/best-coding-class-in-kozhikode` | Best Coding Classes in Kozhikode / Modern Age Coders |
-| `/best-coding-class-in-latur` | Best Coding Classes in Latur / Modern Age Coders |
-| `/best-coding-class-in-lucknow` | Best Coding Classes in Lucknow / Modern Age Coders |
-| `/best-coding-class-in-ludhiana` | Best Coding Classes in Ludhiana / Modern Age Coders |
-| `/best-coding-class-in-madurai` | Best Coding Classes in Madurai / Modern Age Coders |
-| `/best-coding-class-in-mangalore` | Best Coding Classes in Mangalore (Mangaluru) / Modern Age Coders |
-| `/best-coding-class-in-meerut` | Best Coding Classes in Meerut / Modern Age Coders |
-| `/best-coding-class-in-mohali` | Best Coding Classes in Mohali / Modern Age Coders |
-| `/best-coding-class-in-moradabad` | Best Coding Classes in Moradabad / Modern Age Coders |
-| `/best-coding-class-in-mumbai` | Best Coding Classes in Mumbai / Modern Age Coders |
-| `/best-coding-class-in-muzaffarpur` | Best Coding Classes in Muzaffarpur / Modern Age Coders |
-| `/best-coding-class-in-mysore` | Best Coding Classes in Mysore / Modern Age Coders |
-| `/best-coding-class-in-nagpur` | Best Coding Classes in Nagpur / Modern Age Coders |
-| `/best-coding-class-in-nashik` | Best Coding Classes in Nashik / Modern Age Coders |
-| `/best-coding-class-in-navi-mumbai` | Best Coding Classes in Navi Mumbai / Modern Age Coders |
-| `/best-coding-class-in-nellore` | Best Coding Classes in Nellore / Modern Age Coders |
-| `/best-coding-class-in-nizamabad` | Best Coding Classes in Nizamabad / Modern Age Coders |
-| `/best-coding-class-in-noida` | Best Coding Classes in Noida / Modern Age Coders |
-| `/best-coding-class-in-palakkad` | Best Coding Classes in Palakkad / Modern Age Coders |
-| `/best-coding-class-in-panipat` | Best Coding Classes in Panipat / Modern Age Coders |
-| `/best-coding-class-in-patiala` | Best Coding Classes in Patiala / Modern Age Coders |
-| `/best-coding-class-in-patna` | Best Coding Classes in Patna / Modern Age Coders |
-| `/best-coding-class-in-pimpri-chinchwad` | Best Coding Classes in Pimpri-Chinchwad / Modern Age Coders |
-| `/best-coding-class-in-prayagraj` | Best Coding Classes in Prayagraj / Modern Age Coders |
-| `/best-coding-class-in-pune` | Best Coding Classes in Pune / Modern Age Coders |
-| `/best-coding-class-in-raipur` | Best Coding Classes in Raipur / Modern Age Coders |
-| `/best-coding-class-in-rajahmundry` | Best Coding Classes in Rajahmundry / Modern Age Coders |
-| `/best-coding-class-in-rajkot` | Best Coding Classes in Rajkot / Modern Age Coders |
-| `/best-coding-class-in-ranchi` | Best Coding Classes in Ranchi / Modern Age Coders |
-| `/best-coding-class-in-rishikesh` | Best Coding Classes in Rishikesh / Modern Age Coders |
-| `/best-coding-class-in-rohtak` | Best Coding Classes in Rohtak / Modern Age Coders |
-| `/best-coding-class-in-roorkee` | Best Coding Classes in Roorkee / Modern Age Coders |
-| `/best-coding-class-in-rourkela` | Best Coding Classes in Rourkela / Modern Age Coders |
-| `/best-coding-class-in-salem` | Best Coding Classes in Salem / Modern Age Coders |
-| `/best-coding-class-in-sambalpur` | Best Coding Classes in Sambalpur / Modern Age Coders |
-| `/best-coding-class-in-shimla` | Best Coding Classes in Shimla / Modern Age Coders |
-| `/best-coding-class-in-shimoga` | Best Coding Classes in Shivamogga (Shimoga) / Modern Age Coders |
-| `/best-coding-class-in-sikar` | Best Coding Classes in Sikar / Modern Age Coders |
-| `/best-coding-class-in-siliguri` | Best Coding Classes in Siliguri / Modern Age Coders |
-| `/best-coding-class-in-solapur` | Best Coding Classes in Solapur / Modern Age Coders |
-| `/best-coding-class-in-sonipat` | Best Coding Classes in Sonipat / Modern Age Coders |
-| `/best-coding-class-in-srinagar` | Best Coding Classes in Srinagar / Modern Age Coders |
-| `/best-coding-class-in-surat` | Best Coding Classes in Surat / Modern Age Coders |
-| `/best-coding-class-in-thane` | Best Coding Classes in Thane / Modern Age Coders |
-| `/best-coding-class-in-thanjavur` | Best Coding Classes in Thanjavur / Modern Age Coders |
-| `/best-coding-class-in-thiruvananthapuram` | Coding Classes in Thiruvananthapuram / Modern Age Coders |
-| `/best-coding-class-in-thrissur` | Best Coding Classes in Thrissur / Modern Age Coders |
-| `/best-coding-class-in-tirunelveli` | Best Coding Classes in Tirunelveli / Modern Age Coders |
-| `/best-coding-class-in-tirupati` | Best Coding Classes in Tirupati / Modern Age Coders |
-| `/best-coding-class-in-trichy` | Best Coding Classes in Trichy / Modern Age Coders |
-| `/best-coding-class-in-udaipur` | Best Coding Classes in Udaipur / Modern Age Coders |
-| `/best-coding-class-in-udupi` | Best Coding Classes in Udupi & Manipal / Modern Age Coders |
-| `/best-coding-class-in-ujjain` | Best Coding Classes in Ujjain / Modern Age Coders |
-| `/best-coding-class-in-vadodara` | Best Coding Classes in Vadodara / Modern Age Coders |
-| `/best-coding-class-in-varanasi` | Best Coding Classes in Varanasi / Modern Age Coders |
-| `/best-coding-class-in-vellore` | Best Coding Classes in Vellore / Modern Age Coders |
-| `/best-coding-class-in-vijayawada` | Best Coding Classes in Vijayawada / Modern Age Coders |
-| `/best-coding-class-in-visakhapatnam` | Best Coding Classes in Visakhapatnam / Modern Age Coders |
-| `/best-coding-class-in-warangal` | Best Coding Classes in Warangal / Modern Age Coders |
+| `/best-coding-class-in-agra` | Best Coding Classes in Agra |
+| `/best-coding-class-in-ahmedabad` | Best Coding Classes in Ahmedabad |
+| `/best-coding-class-in-ajmer` | Best Coding Classes in Ajmer |
+| `/best-coding-class-in-akola` | Best Coding Classes in Akola |
+| `/best-coding-class-in-aligarh` | Best Coding Classes in Aligarh |
+| `/best-coding-class-in-amravati` | Best Coding Classes in Amravati |
+| `/best-coding-class-in-amritsar` | Best Coding Classes in Amritsar |
+| `/best-coding-class-in-anand` | Best Coding Classes in Anand |
+| `/best-coding-class-in-asansol` | Best Coding Classes in Asansol |
+| `/best-coding-class-in-aurangabad` | Best Coding Classes in Aurangabad |
+| `/best-coding-class-in-balasore` | Best Coding Classes in Balasore |
+| `/best-coding-class-in-bareilly` | Best Coding Classes in Bareilly |
+| `/best-coding-class-in-belagavi` | Best Coding Classes in Belagavi (Belgaum) |
+| `/best-coding-class-in-bengaluru` | Best Coding Classes in Bengaluru |
+| `/best-coding-class-in-berhampur` | Best Coding Classes in Berhampur |
+| `/best-coding-class-in-bhagalpur` | Best Coding Classes in Bhagalpur |
+| `/best-coding-class-in-bhavnagar` | Best Coding Classes in Bhavnagar |
+| `/best-coding-class-in-bhilai` | Best Coding Classes in Bhilai |
+| `/best-coding-class-in-bhopal` | Best Coding Classes in Bhopal |
+| `/best-coding-class-in-bhubaneswar` | Best Coding Classes in Bhubaneswar |
+| `/best-coding-class-in-bikaner` | Best Coding Classes in Bikaner |
+| `/best-coding-class-in-bokaro` | Best Coding Classes in Bokaro |
+| `/best-coding-class-in-chandigarh` | Best Coding Classes in Chandigarh |
+| `/best-coding-class-in-chennai` | Best Coding Classes in Chennai |
+| `/best-coding-class-in-coimbatore` | Best Coding Classes in Coimbatore |
+| `/best-coding-class-in-cuttack` | Best Coding Classes in Cuttack |
+| `/best-coding-class-in-darbhanga` | Best Coding Classes in Darbhanga |
+| `/best-coding-class-in-davanagere` | Best Coding Classes in Davanagere (Davangere) |
+| `/best-coding-class-in-dehradun` | Best Coding Classes in Dehradun |
+| `/best-coding-class-in-delhi` | Best Coding Classes in Delhi |
+| `/best-coding-class-in-dhanbad` | Best Coding Classes in Dhanbad |
+| `/best-coding-class-in-durgapur` | Best Coding Classes in Durgapur |
+| `/best-coding-class-in-erode` | Best Coding Classes in Erode |
+| `/best-coding-class-in-faridabad` | Best Coding Classes in Faridabad |
+| `/best-coding-class-in-gandhinagar` | Best Coding Classes in Gandhinagar |
+| `/best-coding-class-in-gangtok` | Best Coding Classes in Gangtok |
+| `/best-coding-class-in-gaya` | Best Coding Classes in Gaya |
+| `/best-coding-class-in-ghaziabad` | Best Coding Classes in Ghaziabad |
+| `/best-coding-class-in-goa` | Best Coding Classes in Goa |
+| `/best-coding-class-in-gorakhpur` | Best Coding Classes in Gorakhpur |
+| `/best-coding-class-in-greater-noida` | Best Coding Classes in Greater Noida |
+| `/best-coding-class-in-guntur` | Best Coding Classes in Guntur |
+| `/best-coding-class-in-gurgaon` | Best Coding Classes in Gurgaon |
+| `/best-coding-class-in-guwahati` | Best Coding Classes in Guwahati |
+| `/best-coding-class-in-gwalior` | Best Coding Classes in Gwalior |
+| `/best-coding-class-in-haldwani` | Best Coding Classes in Haldwani |
+| `/best-coding-class-in-haridwar` | Best Coding Classes in Haridwar |
+| `/best-coding-class-in-hisar` | Best Coding Classes in Hisar |
+| `/best-coding-class-in-hubli` | Best Coding Classes in Hubli |
+| `/best-coding-class-in-hyderabad` | Best Coding Classes in Hyderabad |
+| `/best-coding-class-in-imphal` | Best Coding Classes in Imphal |
+| `/best-coding-class-in-indore` | Best Coding Classes in Indore |
+| `/best-coding-class-in-jabalpur` | Best Coding Classes in Jabalpur |
+| `/best-coding-class-in-jaipur` | Best Coding Classes in Jaipur |
+| `/best-coding-class-in-jalandhar` | Best Coding Classes in Jalandhar |
+| `/best-coding-class-in-jammu` | Best Coding Classes in Jammu |
+| `/best-coding-class-in-jamnagar` | Best Coding Classes in Jamnagar |
+| `/best-coding-class-in-jamshedpur` | Best Coding Classes in Jamshedpur |
+| `/best-coding-class-in-jhansi` | Best Coding Classes in Jhansi |
+| `/best-coding-class-in-jodhpur` | Best Coding Classes in Jodhpur |
+| `/best-coding-class-in-kakinada` | Best Coding Classes in Kakinada |
+| `/best-coding-class-in-kannur` | Best Coding Classes in Kannur |
+| `/best-coding-class-in-kanpur` | Best Coding Classes in Kanpur |
+| `/best-coding-class-in-karimnagar` | Best Coding Classes in Karimnagar |
+| `/best-coding-class-in-karnal` | Best Coding Classes in Karnal |
+| `/best-coding-class-in-kharagpur` | Best Coding Classes in Kharagpur |
+| `/best-coding-class-in-kochi` | Best Coding Classes in Kochi |
+| `/best-coding-class-in-kolhapur` | Best Coding Classes in Kolhapur |
+| `/best-coding-class-in-kolkata` | Best Coding Classes in Kolkata |
+| `/best-coding-class-in-kollam` | Best Coding Classes in Kollam |
+| `/best-coding-class-in-kota` | Best Coding Classes in Kota |
+| `/best-coding-class-in-kottayam` | Best Coding Classes in Kottayam |
+| `/best-coding-class-in-kozhikode` | Best Coding Classes in Kozhikode |
+| `/best-coding-class-in-latur` | Best Coding Classes in Latur |
+| `/best-coding-class-in-lucknow` | Best Coding Classes in Lucknow |
+| `/best-coding-class-in-ludhiana` | Best Coding Classes in Ludhiana |
+| `/best-coding-class-in-madurai` | Best Coding Classes in Madurai |
+| `/best-coding-class-in-mangalore` | Best Coding Classes in Mangalore (Mangaluru) |
+| `/best-coding-class-in-meerut` | Best Coding Classes in Meerut |
+| `/best-coding-class-in-mohali` | Best Coding Classes in Mohali |
+| `/best-coding-class-in-moradabad` | Best Coding Classes in Moradabad |
+| `/best-coding-class-in-mumbai` | Best Coding Classes in Mumbai |
+| `/best-coding-class-in-muzaffarpur` | Best Coding Classes in Muzaffarpur |
+| `/best-coding-class-in-mysore` | Best Coding Classes in Mysore |
+| `/best-coding-class-in-nagpur` | Best Coding Classes in Nagpur |
+| `/best-coding-class-in-nashik` | Best Coding Classes in Nashik |
+| `/best-coding-class-in-navi-mumbai` | Best Coding Classes in Navi Mumbai |
+| `/best-coding-class-in-nellore` | Best Coding Classes in Nellore |
+| `/best-coding-class-in-nizamabad` | Best Coding Classes in Nizamabad |
+| `/best-coding-class-in-noida` | Best Coding Classes in Noida |
+| `/best-coding-class-in-palakkad` | Best Coding Classes in Palakkad |
+| `/best-coding-class-in-panipat` | Best Coding Classes in Panipat |
+| `/best-coding-class-in-patiala` | Best Coding Classes in Patiala |
+| `/best-coding-class-in-patna` | Best Coding Classes in Patna |
+| `/best-coding-class-in-pimpri-chinchwad` | Best Coding Classes in Pimpri-Chinchwad |
+| `/best-coding-class-in-prayagraj` | Best Coding Classes in Prayagraj |
+| `/best-coding-class-in-pune` | Best Coding Classes in Pune |
+| `/best-coding-class-in-raipur` | Best Coding Classes in Raipur |
+| `/best-coding-class-in-rajahmundry` | Best Coding Classes in Rajahmundry |
+| `/best-coding-class-in-rajkot` | Best Coding Classes in Rajkot |
+| `/best-coding-class-in-ranchi` | Best Coding Classes in Ranchi |
+| `/best-coding-class-in-rishikesh` | Best Coding Classes in Rishikesh |
+| `/best-coding-class-in-rohtak` | Best Coding Classes in Rohtak |
+| `/best-coding-class-in-roorkee` | Best Coding Classes in Roorkee |
+| `/best-coding-class-in-rourkela` | Best Coding Classes in Rourkela |
+| `/best-coding-class-in-salem` | Best Coding Classes in Salem |
+| `/best-coding-class-in-sambalpur` | Best Coding Classes in Sambalpur |
+| `/best-coding-class-in-shimla` | Best Coding Classes in Shimla |
+| `/best-coding-class-in-shimoga` | Best Coding Classes in Shivamogga (Shimoga) |
+| `/best-coding-class-in-sikar` | Best Coding Classes in Sikar |
+| `/best-coding-class-in-siliguri` | Best Coding Classes in Siliguri |
+| `/best-coding-class-in-solapur` | Best Coding Classes in Solapur |
+| `/best-coding-class-in-sonipat` | Best Coding Classes in Sonipat |
+| `/best-coding-class-in-srinagar` | Best Coding Classes in Srinagar |
+| `/best-coding-class-in-surat` | Best Coding Classes in Surat |
+| `/best-coding-class-in-thane` | Best Coding Classes in Thane |
+| `/best-coding-class-in-thanjavur` | Best Coding Classes in Thanjavur |
+| `/best-coding-class-in-thiruvananthapuram` | Coding Classes in Thiruvananthapuram |
+| `/best-coding-class-in-thrissur` | Best Coding Classes in Thrissur |
+| `/best-coding-class-in-tirunelveli` | Best Coding Classes in Tirunelveli |
+| `/best-coding-class-in-tirupati` | Best Coding Classes in Tirupati |
+| `/best-coding-class-in-trichy` | Best Coding Classes in Trichy |
+| `/best-coding-class-in-udaipur` | Best Coding Classes in Udaipur |
+| `/best-coding-class-in-udupi` | Best Coding Classes in Udupi & Manipal |
+| `/best-coding-class-in-ujjain` | Best Coding Classes in Ujjain |
+| `/best-coding-class-in-vadodara` | Best Coding Classes in Vadodara |
+| `/best-coding-class-in-varanasi` | Best Coding Classes in Varanasi |
+| `/best-coding-class-in-vellore` | Best Coding Classes in Vellore |
+| `/best-coding-class-in-vijayawada` | Best Coding Classes in Vijayawada |
+| `/best-coding-class-in-visakhapatnam` | Best Coding Classes in Visakhapatnam |
+| `/best-coding-class-in-warangal` | Best Coding Classes in Warangal |
 
 ### B.7 School partnership pages (21)
 
 | URL path | Page title |
 |---|---|
-| `/coding-and-maths-for-birla-high-school-kolkata` | Coding & Maths Classes for Birla High School Students Kolkata / CBSE Python, AI & JEE M... |
-| `/coding-and-maths-for-birla-high-school-mukundapur-kolkata` | Coding & Maths Classes for BHS Mukundapur Students Kolkata / CBSE Python, AI & Maths /... |
-| `/coding-and-maths-for-don-bosco-park-circus-kolkata` | Coding & Maths Classes for Don Bosco Park Circus Students Kolkata / ICSE Python, Java &... |
-| `/coding-and-maths-for-heritage-school-kolkata` | Coding & Maths Classes for Heritage School Students Kolkata / ICSE, IGCSE & IBDP / Mode... |
-| `/coding-and-maths-for-mahadevi-birla-world-academy-kolkata` | Coding & Maths Classes for Mahadevi Birla World Academy Students / CBSE Kolkata / Moder... |
-| `/coding-and-maths-for-sushila-birla-girls-school-kolkata` | Coding & Maths Classes for Sushila Birla Girls' School Kolkata / CBSE Python, AI & Math... |
-| `/coding-classes-for-dps-bangalore` | Coding Classes for DPS Bangalore Students / Python, Maths & CBSE / Modern Age Coders |
-| `/coding-classes-for-dps-dwarka-new-delhi` | Coding Classes for DPS Dwarka Students / Python, Maths & CBSE / Modern Age Coders |
-| `/coding-classes-for-dps-greater-noida` | Coding Classes for DPS Greater Noida Students / Python, Maths & CBSE / Modern Age Coders |
-| `/coding-classes-for-dps-gurgaon` | Coding Classes for DPS Gurgaon Students / Python, Maths & CBSE / Modern Age Coders |
-| `/coding-classes-for-dps-hyderabad` | Coding Classes for DPS Hyderabad Students / Python, Maths & CBSE / Modern Age Coders |
-| `/coding-classes-for-dps-international-saket-delhi` | Coding Classes for DPS Saket Students / Python, Maths & IGCSE / Cambridge / Modern Age... |
-| `/coding-classes-for-dps-navi-mumbai` | Coding Classes for DPS Navi Mumbai Students / Python, Maths & CBSE / Modern Age Coders |
-| `/coding-classes-for-dps-new-town-kolkata` | Coding Classes for DPS New Town / Python, Maths & CBSE / Modern Age Coders |
-| `/coding-classes-for-dps-noida` | Coding Classes for DPS Noida Students / Python, Maths & CBSE / Modern Age Coders |
-| `/coding-classes-for-dps-rk-puram-new-delhi` | Coding Classes for DPS R.K. Puram Students / Python, Maths & CBSE / Modern Age Coders |
-| `/coding-classes-for-dps-rohini-new-delhi` | Coding Classes for DPS Rohini Students / Python, Maths & CBSE / Modern Age Coders |
-| `/coding-classes-for-dps-ruby-park-kolkata` | Coding Classes for DPS Ruby Park Students Students / Python, Maths & CBSE / Modern Age... |
-| `/coding-classes-for-dps-vasant-kunj-new-delhi` | Coding Classes for DPS Vasant Kunj Students Students / Python, Maths & CBSE / Modern Ag... |
-| `/coding-classes-for-la-martiniere-boys-kolkata` | Coding Classes for La Martiniere for Boys Students / Python, Maths & ICSE / Modern Age... |
-| `/coding-classes-for-la-martiniere-girls-kolkata` | Coding Classes for La Martiniere for Girls Students / Python, AI & Maths / Modern Age C... |
+| `/coding-and-maths-for-birla-high-school-kolkata` | Coding & Maths Classes for Birla High School Students Kolkata |
+| `/coding-and-maths-for-birla-high-school-mukundapur-kolkata` | Coding & Maths Classes for BHS Mukundapur Students Kolkata |
+| `/coding-and-maths-for-don-bosco-park-circus-kolkata` | Coding & Maths Classes for Don Bosco Park Circus Students Kolkata |
+| `/coding-and-maths-for-heritage-school-kolkata` | Coding & Maths Classes for Heritage School Students Kolkata |
+| `/coding-and-maths-for-mahadevi-birla-world-academy-kolkata` | Coding & Maths Classes for Mahadevi Birla World Academy Students |
+| `/coding-and-maths-for-sushila-birla-girls-school-kolkata` | Coding & Maths Classes for Sushila Birla Girls' School Kolkata |
+| `/coding-classes-for-dps-bangalore` | Coding Classes for DPS Bangalore Students |
+| `/coding-classes-for-dps-dwarka-new-delhi` | Coding Classes for DPS Dwarka Students |
+| `/coding-classes-for-dps-greater-noida` | Coding Classes for DPS Greater Noida Students |
+| `/coding-classes-for-dps-gurgaon` | Coding Classes for DPS Gurgaon Students |
+| `/coding-classes-for-dps-hyderabad` | Coding Classes for DPS Hyderabad Students |
+| `/coding-classes-for-dps-international-saket-delhi` | Coding Classes for DPS Saket Students |
+| `/coding-classes-for-dps-navi-mumbai` | Coding Classes for DPS Navi Mumbai Students |
+| `/coding-classes-for-dps-new-town-kolkata` | Coding Classes for DPS New Town |
+| `/coding-classes-for-dps-noida` | Coding Classes for DPS Noida Students |
+| `/coding-classes-for-dps-rk-puram-new-delhi` | Coding Classes for DPS R.K. Puram Students |
+| `/coding-classes-for-dps-rohini-new-delhi` | Coding Classes for DPS Rohini Students |
+| `/coding-classes-for-dps-ruby-park-kolkata` | Coding Classes for DPS Ruby Park Students Students |
+| `/coding-classes-for-dps-vasant-kunj-new-delhi` | Coding Classes for DPS Vasant Kunj Students Students |
+| `/coding-classes-for-la-martiniere-boys-kolkata` | Coding Classes for La Martiniere for Boys Students |
+| `/coding-classes-for-la-martiniere-girls-kolkata` | Coding Classes for La Martiniere for Girls Students |
 
 ### B.8 Country and international pages (143)
 
 | URL path | Page title |
 |---|---|
-| `/ai-and-machine-learning-classes-in-australia` | AI and Machine Learning Classes in Australia / Build AI |
-| `/ai-and-machine-learning-classes-in-bahrain` | AI and Machine Learning Classes in Bahrain / Build AI |
-| `/ai-and-machine-learning-classes-in-canada` | AI and Machine Learning Classes in Canada / Build AI |
-| `/ai-and-machine-learning-classes-in-germany` | AI and Machine Learning Classes in Germany / Build AI |
-| `/ai-and-machine-learning-classes-in-hong-kong` | AI and Machine Learning Classes in Hong Kong / Build AI |
-| `/ai-and-machine-learning-classes-in-ireland` | AI and Machine Learning Classes in Ireland / Build AI |
-| `/ai-and-machine-learning-classes-in-kuwait` | AI & Machine Learning Classes in Kuwait / Build AI, Live Online |
-| `/ai-and-machine-learning-classes-in-kuwait-city` | AI & Machine Learning Classes in Kuwait City / Build AI |
-| `/ai-and-machine-learning-classes-in-london` | AI and Machine Learning Classes in London / Build AI |
-| `/ai-and-machine-learning-classes-in-muscat` | AI and Machine Learning Classes in Muscat / Build AI Models |
-| `/ai-and-machine-learning-classes-in-netherlands` | AI and Machine Learning Classes in the Netherlands / Build AI |
-| `/ai-and-machine-learning-classes-in-oman` | AI & Machine Learning Classes in Oman / Build AI, Live Online |
-| `/ai-and-machine-learning-classes-in-qatar` | AI & Machine Learning Classes in Qatar / Build AI Live |
-| `/ai-and-machine-learning-classes-in-saudi-arabia` | AI & Machine Learning Classes in Saudi Arabia / Build AI |
-| `/ai-and-machine-learning-classes-in-singapore` | AI and Machine Learning Classes in Singapore / Build AI |
-| `/ai-and-machine-learning-classes-in-switzerland` | AI and Machine Learning Classes in Switzerland / Build AI |
-| `/ai-and-machine-learning-classes-in-uae` | AI & Machine Learning Classes in UAE / Build AI, Live Online |
-| `/ai-and-machine-learning-classes-in-uk` | AI and Machine Learning Classes in the UK / Build AI |
-| `/ai-and-machine-learning-classes-in-usa` | AI and Machine Learning Classes in the USA / Build AI |
-| `/ai-and-machine-learning-classes-in-zurich` | AI and Machine Learning Classes in Zurich / Build AI |
-| `/ai-classes-in-dubai` | AI Classes in Dubai / Learn AI & Machine Learning Live Online |
-| `/ai-classes-in-qatar` | AI Classes in Qatar / Hands-On AI & ML, Live Online |
-| `/ai-classes-in-saudi-arabia` | AI Classes in Saudi Arabia / Learn AI & ML Live Online |
+| `/ai-and-machine-learning-classes-in-australia` | AI and Machine Learning Classes in Australia |
+| `/ai-and-machine-learning-classes-in-bahrain` | AI and Machine Learning Classes in Bahrain |
+| `/ai-and-machine-learning-classes-in-canada` | AI and Machine Learning Classes in Canada |
+| `/ai-and-machine-learning-classes-in-germany` | AI and Machine Learning Classes in Germany |
+| `/ai-and-machine-learning-classes-in-hong-kong` | AI and Machine Learning Classes in Hong Kong |
+| `/ai-and-machine-learning-classes-in-ireland` | AI and Machine Learning Classes in Ireland |
+| `/ai-and-machine-learning-classes-in-kuwait` | AI & Machine Learning Classes in Kuwait |
+| `/ai-and-machine-learning-classes-in-kuwait-city` | AI & Machine Learning Classes in Kuwait City |
+| `/ai-and-machine-learning-classes-in-london` | AI and Machine Learning Classes in London |
+| `/ai-and-machine-learning-classes-in-muscat` | AI and Machine Learning Classes in Muscat |
+| `/ai-and-machine-learning-classes-in-netherlands` | AI and Machine Learning Classes in the Netherlands |
+| `/ai-and-machine-learning-classes-in-oman` | AI & Machine Learning Classes in Oman |
+| `/ai-and-machine-learning-classes-in-qatar` | AI & Machine Learning Classes in Qatar |
+| `/ai-and-machine-learning-classes-in-saudi-arabia` | AI & Machine Learning Classes in Saudi Arabia |
+| `/ai-and-machine-learning-classes-in-singapore` | AI and Machine Learning Classes in Singapore |
+| `/ai-and-machine-learning-classes-in-switzerland` | AI and Machine Learning Classes in Switzerland |
+| `/ai-and-machine-learning-classes-in-uae` | AI & Machine Learning Classes in UAE |
+| `/ai-and-machine-learning-classes-in-uk` | AI and Machine Learning Classes in the UK |
+| `/ai-and-machine-learning-classes-in-usa` | AI and Machine Learning Classes in the USA |
+| `/ai-and-machine-learning-classes-in-zurich` | AI and Machine Learning Classes in Zurich |
+| `/ai-classes-in-dubai` | AI Classes in Dubai |
+| `/ai-classes-in-qatar` | AI Classes in Qatar |
+| `/ai-classes-in-saudi-arabia` | AI Classes in Saudi Arabia |
 | `/coding-classes-cost-india-2026` | Coding Classes Cost in India 2026: Honest Price Guide |
-| `/coding-classes-for-girls` | Coding Classes for Girls / Empowering Future Women in Tech Worldwide / Modern Age Coders |
+| `/coding-classes-for-girls` | Coding Classes for Girls |
 | `/coding-classes-for-kids-cost` | Coding Classes for Kids Cost 2026: US Prices by Format |
-| `/coding-classes-for-kids-in-doha` | Coding Classes for Kids in Doha / Ages 6-12, Live & Online |
-| `/coding-classes-for-kids-in-dubai` | Coding Classes for Kids in Dubai / Ages 6-12, Live & Online |
-| `/coding-classes-for-kids-in-riyadh` | Coding Classes for Kids in Riyadh / Ages 6-12, Live Online |
-| `/coding-classes-in-abu-dhabi` | Coding Classes in Abu Dhabi / Live Python & AI Courses Online |
-| `/coding-classes-in-andhra-pradesh` | Coding Classes in Andhra Pradesh / Online for Kids, Teens & Adults |
-| `/coding-classes-in-assam` | Coding Classes in Assam / Python, AI & Web Dev |
-| `/coding-classes-in-australia` | Online Coding & AI Classes in Australia / ATAR Ready |
+| `/coding-classes-for-kids-in-doha` | Coding Classes for Kids in Doha |
+| `/coding-classes-for-kids-in-dubai` | Coding Classes for Kids in Dubai |
+| `/coding-classes-for-kids-in-riyadh` | Coding Classes for Kids in Riyadh |
+| `/coding-classes-in-abu-dhabi` | Coding Classes in Abu Dhabi |
+| `/coding-classes-in-andhra-pradesh` | Coding Classes in Andhra Pradesh |
+| `/coding-classes-in-assam` | Coding Classes in Assam |
+| `/coding-classes-in-australia` | Online Coding & AI Classes in Australia |
 | `/coding-classes-in-avani-riverside-howrah` | Coding & Maths Classes near Avani Riverside, Howrah |
-| `/coding-classes-in-avidipta-mukundapur` | Coding & Maths Classes near Avidipta / Live Online |
-| `/coding-classes-in-bihar` | Coding Classes in Bihar / Python, AI & Web Dev |
-| `/coding-classes-in-calcutta-riverside` | Coding & Maths Classes near Calcutta Riverside / Live Online |
-| `/coding-classes-in-canada` | Coding & AI Classes in Canada / Toronto & Vancouver |
-| `/coding-classes-in-chhattisgarh` | Coding Classes in Chhattisgarh / Python, AI & Web Dev |
-| `/coding-classes-in-dammam` | Coding Classes in Dammam & Khobar / Live Online Courses |
-| `/coding-classes-in-diamond-city-north` | Coding & Maths Classes at Diamond City North / Live |
+| `/coding-classes-in-avidipta-mukundapur` | Coding & Maths Classes near Avidipta |
+| `/coding-classes-in-bihar` | Coding Classes in Bihar |
+| `/coding-classes-in-calcutta-riverside` | Coding & Maths Classes near Calcutta Riverside |
+| `/coding-classes-in-canada` | Coding & AI Classes in Canada |
+| `/coding-classes-in-chhattisgarh` | Coding Classes in Chhattisgarh |
+| `/coding-classes-in-dammam` | Coding Classes in Dammam & Khobar |
+| `/coding-classes-in-diamond-city-north` | Coding & Maths Classes at Diamond City North |
 | `/coding-classes-in-diamond-city-south` | Coding & Maths Classes near Diamond City South |
 | `/coding-classes-in-dlf-new-town-heights` | Coding & Maths Classes at DLF New Town Heights |
-| `/coding-classes-in-doha` | Coding Classes in Doha / Live Online Python & AI for All Ages |
-| `/coding-classes-in-dubai` | Coding Classes in Dubai / Live Online Courses, Ages 6 to Adult |
+| `/coding-classes-in-doha` | Coding Classes in Doha |
+| `/coding-classes-in-dubai` | Coding Classes in Dubai |
 | `/coding-classes-in-eden-city-maheshtala` | Coding & Maths Classes in Eden City, Maheshtala |
 | `/coding-classes-in-elita-garden-vista` | Coding & Maths Classes near Elita Garden Vista |
-| `/coding-classes-in-genexx-valley-joka` | Coding & Maths Classes in Joka / Live Online |
-| `/coding-classes-in-germany` | Coding & AI Classes in Germany / Abitur & Informatik |
-| `/coding-classes-in-goa` | Coding Classes in Goa / Python, AI & Web Dev |
+| `/coding-classes-in-genexx-valley-joka` | Coding & Maths Classes in Joka |
+| `/coding-classes-in-germany` | Coding & AI Classes in Germany |
+| `/coding-classes-in-goa` | Coding Classes in Goa |
 | `/coding-classes-in-godrej-prakriti` | Coding & Maths Classes at Godrej Prakriti, Sodepur |
 | `/coding-classes-in-greenfield-city-behala` | Coding & Maths Classes in Greenfield City, Behala |
-| `/coding-classes-in-gujarat` | Coding Classes in Gujarat / Online for Kids, Teens & Adults |
-| `/coding-classes-in-haryana` | Coding Classes in Haryana / Python, AI & Web Dev |
-| `/coding-classes-in-hiland-park` | Coding & Maths Classes near Hiland Park / Live Online |
-| `/coding-classes-in-hiland-willows` | Coding & Maths Classes near Hiland Willows / Live Online |
-| `/coding-classes-in-himachal-pradesh` | Coding Classes in Himachal Pradesh / Python, AI & Web Dev |
+| `/coding-classes-in-gujarat` | Coding Classes in Gujarat |
+| `/coding-classes-in-haryana` | Coding Classes in Haryana |
+| `/coding-classes-in-hiland-park` | Coding & Maths Classes near Hiland Park |
+| `/coding-classes-in-hiland-willows` | Coding & Maths Classes near Hiland Willows |
+| `/coding-classes-in-himachal-pradesh` | Coding Classes in Himachal Pradesh |
 | `/coding-classes-in-ideal-niketan-tangra` | Coding & Maths Classes near Ideal Niketan, Tangra |
-| `/coding-classes-in-india` | Coding Classes in India / 60+ Cities / Modern Age Coders |
-| `/coding-classes-in-ireland` | Online Coding & AI Classes in Ireland / Leaving Cert |
-| `/coding-classes-in-jeddah` | Coding Classes in Jeddah / Live Coding for Kids, Teens & Adults |
-| `/coding-classes-in-jharkhand` | Coding Classes in Jharkhand / Python, AI & Web Dev |
-| `/coding-classes-in-karnataka` | Coding Classes in Karnataka / Online for Kids, Teens & Adults |
-| `/coding-classes-in-kerala` | Coding Classes in Kerala / Online for Kids, Teens & Adults |
-| `/coding-classes-in-madhya-pradesh` | Coding Classes in Madhya Pradesh / Online for Kids, Teens & Adults |
-| `/coding-classes-in-maharashtra` | Coding Classes in Maharashtra / Online for Kids, Teens & Adults |
-| `/coding-classes-in-natural-city-garia` | Coding & Maths Classes in Garia, Kolkata / Live Online |
-| `/coding-classes-in-new-zealand` | Online Coding & AI Classes in New Zealand / NCEA |
-| `/coding-classes-in-odisha` | Coding Classes in Odisha / Python, AI & Web Dev |
-| `/coding-classes-in-punjab` | Coding Classes in Punjab / Online Python, AI & Web Dev for All Ages |
-| `/coding-classes-in-qatar` | Coding Classes in Qatar / Live Online Python & AI Courses |
-| `/coding-classes-in-rajasthan` | Coding Classes in Rajasthan / Online for Kids, Teens & Adults |
-| `/coding-classes-in-riyadh` | Coding Classes in Riyadh / Live Online Python & AI Courses |
-| `/coding-classes-in-rosedale-garden` | Coding & Maths Classes near Rosedale Garden / Live |
-| `/coding-classes-in-saudi-arabia` | Coding Classes in Saudi Arabia / Python & AI, Kids to Adults |
-| `/coding-classes-in-sharjah` | Coding Classes in Sharjah / Live Online Coding for Kids & Teens |
-| `/coding-classes-in-sherwood-estate` | Coding & Maths Classes near Sherwood Estate / Live |
+| `/coding-classes-in-india` | Coding Classes in India |
+| `/coding-classes-in-ireland` | Online Coding & AI Classes in Ireland |
+| `/coding-classes-in-jeddah` | Coding Classes in Jeddah |
+| `/coding-classes-in-jharkhand` | Coding Classes in Jharkhand |
+| `/coding-classes-in-karnataka` | Coding Classes in Karnataka |
+| `/coding-classes-in-kerala` | Coding Classes in Kerala |
+| `/coding-classes-in-madhya-pradesh` | Coding Classes in Madhya Pradesh |
+| `/coding-classes-in-maharashtra` | Coding Classes in Maharashtra |
+| `/coding-classes-in-natural-city-garia` | Coding & Maths Classes in Garia, Kolkata |
+| `/coding-classes-in-new-zealand` | Online Coding & AI Classes in New Zealand |
+| `/coding-classes-in-odisha` | Coding Classes in Odisha |
+| `/coding-classes-in-punjab` | Coding Classes in Punjab |
+| `/coding-classes-in-qatar` | Coding Classes in Qatar |
+| `/coding-classes-in-rajasthan` | Coding Classes in Rajasthan |
+| `/coding-classes-in-riyadh` | Coding Classes in Riyadh |
+| `/coding-classes-in-rosedale-garden` | Coding & Maths Classes near Rosedale Garden |
+| `/coding-classes-in-saudi-arabia` | Coding Classes in Saudi Arabia |
+| `/coding-classes-in-sharjah` | Coding Classes in Sharjah |
+| `/coding-classes-in-sherwood-estate` | Coding & Maths Classes near Sherwood Estate |
 | `/coding-classes-in-siddha-town-madhyamgram` | Coding & Maths Classes in Siddha Town, Madhyamgram |
-| `/coding-classes-in-singapore` | Coding & AI Classes in Singapore / PSLE to A-Level |
-| `/coding-classes-in-south-city` | Coding & Maths Classes near South City / Live Online |
-| `/coding-classes-in-sugam-habitat` | Coding & Maths Classes near Sugam Habitat / Live |
-| `/coding-classes-in-sukhobrishti` | Coding & Maths Classes near Sukhobrishti / Live Online |
-| `/coding-classes-in-sweden` | Online Coding & AI Classes in Sweden / Stockholm |
+| `/coding-classes-in-singapore` | Coding & AI Classes in Singapore |
+| `/coding-classes-in-south-city` | Coding & Maths Classes near South City |
+| `/coding-classes-in-sugam-habitat` | Coding & Maths Classes near Sugam Habitat |
+| `/coding-classes-in-sukhobrishti` | Coding & Maths Classes near Sukhobrishti |
+| `/coding-classes-in-sweden` | Online Coding & AI Classes in Sweden |
 | `/coding-classes-in-switzerland` | Online Coding & AI Classes in Switzerland |
-| `/coding-classes-in-tamil-nadu` | Coding Classes in Tamil Nadu / Online for Kids, Teens & Adults |
-| `/coding-classes-in-telangana` | Coding Classes in Telangana / Online for Kids, Teens & Adults |
-| `/coding-classes-in-uae` | Online Coding & AI Classes in the UAE / Dubai & Beyond |
-| `/coding-classes-in-udayan-condoville-em-bypass` | Coding & Maths Classes near Udayan Condoville / Live |
-| `/coding-classes-in-united-kingdom` | Online Coding & AI Classes in the UK / GCSE & A-Level |
-| `/coding-classes-in-united-states` | Online Coding & AI Classes in the USA / AP CS & USACO |
-| `/coding-classes-in-uniworld-city` | Coding & Maths Classes near Uniworld City / Live Online |
-| `/coding-classes-in-upohar` | Coding & Maths Classes near Upohar, EM Bypass / Live Online |
-| `/coding-classes-in-urbana` | Coding & Maths Classes near Urbana, Anandapur / Live Online |
-| `/coding-classes-in-uttar-pradesh` | Coding Classes in Uttar Pradesh / Online for Kids, Teens & Adults |
-| `/coding-classes-in-uttarakhand` | Coding Classes in Uttarakhand / Python, AI & Web Dev |
-| `/coding-classes-in-west-bengal` | Coding Classes in West Bengal / Online for Kids, Teens & Adults |
+| `/coding-classes-in-tamil-nadu` | Coding Classes in Tamil Nadu |
+| `/coding-classes-in-telangana` | Coding Classes in Telangana |
+| `/coding-classes-in-uae` | Online Coding & AI Classes in the UAE |
+| `/coding-classes-in-udayan-condoville-em-bypass` | Coding & Maths Classes near Udayan Condoville |
+| `/coding-classes-in-united-kingdom` | Online Coding & AI Classes in the UK |
+| `/coding-classes-in-united-states` | Online Coding & AI Classes in the USA |
+| `/coding-classes-in-uniworld-city` | Coding & Maths Classes near Uniworld City |
+| `/coding-classes-in-upohar` | Coding & Maths Classes near Upohar, EM Bypass |
+| `/coding-classes-in-urbana` | Coding & Maths Classes near Urbana, Anandapur |
+| `/coding-classes-in-uttar-pradesh` | Coding Classes in Uttar Pradesh |
+| `/coding-classes-in-uttarakhand` | Coding Classes in Uttarakhand |
+| `/coding-classes-in-west-bengal` | Coding Classes in West Bengal |
 | `/coding-classes-near-ajc-bose-road-kolkata` | Live Online Coding & Maths Classes near AJC Bose Road |
 | `/coding-classes-near-alipore-kolkata` | Live Online Coding & Maths Classes near Alipore, Kolkata |
 | `/coding-classes-near-andul-howrah` | Live Online Coding & Maths Classes near Andul, Howrah |
@@ -1713,19 +1711,19 @@ Listed with titles in Appendix C.
 | `/coding-classes-near-mandirtala-howrah` | Live Online Coding & Maths Classes near Mandirtala, Howrah |
 | `/coding-classes-near-nager-bazar-kolkata` | Live Online Coding & Maths Classes near Nager Bazar |
 | `/coding-classes-near-new-alipore-kolkata` | Live Online Coding & Maths Classes near New Alipore |
-| `/coding-classes-near-new-town-kolkata` | Coding & Maths Classes near New Town, Kolkata / Live |
+| `/coding-classes-near-new-town-kolkata` | Coding & Maths Classes near New Town, Kolkata |
 | `/coding-classes-near-park-circus-kolkata` | Live Online Coding & Maths Classes near Park Circus, Kolkata |
 | `/coding-classes-near-park-street-kolkata` | Live Online Coding & Maths Classes near Park Street |
 | `/coding-classes-near-ramrajatala-howrah` | Live Online Coding & Maths Classes near Ramrajatala, Howrah |
 | `/coding-classes-near-rashbehari-kolkata` | Live Online Coding & Maths Classes near Rashbehari |
-| `/coding-classes-near-salt-lake-kolkata` | Coding & Maths Classes near Salt Lake, Kolkata / Live |
+| `/coding-classes-near-salt-lake-kolkata` | Coding & Maths Classes near Salt Lake, Kolkata |
 | `/coding-classes-near-santragachi-howrah` | Live Online Coding & Maths Classes near Santragachi, Howrah |
 | `/coding-classes-near-shakespeare-sarani-kolkata` | Live Online Coding & Maths Classes near Shakespeare Sarani |
 | `/coding-classes-near-shibpur-howrah` | Live Online Coding & Maths Classes near Shibpur, Howrah |
 | `/coding-classes-near-shyambazar-kolkata` | Live Online Coding & Maths Classes near Shyambazar |
 | `/coding-classes-near-southern-avenue-kolkata` | Live Online Coding & Maths Classes near Southern Avenue |
 | `/coding-classes-near-sreebhumi-kolkata` | Live Online Coding & Maths Classes near Sreebhumi, Kolkata |
-| `/coding-classes-near-tollygunge-kolkata` | Coding & Maths Classes near Tollygunge, Kolkata / Live |
+| `/coding-classes-near-tollygunge-kolkata` | Coding & Maths Classes near Tollygunge, Kolkata |
 | `/coding-classes-near-uluberia-howrah` | Live Online Coding & Maths Classes near Uluberia, Howrah |
 | `/coding-classes-near-vip-road-kolkata` | Live Online Coding & Maths Classes near VIP Road, Kolkata |
 
@@ -1733,58 +1731,58 @@ Listed with titles in Appendix C.
 
 | URL path | Page title |
 |---|---|
-| `/coding-for-10-year-olds` | Coding for 10 Year Olds / Python, Scratch & AI Classes for Kids / Modern Age Coders |
-| `/coding-for-11-year-olds` | Coding for 11 Year Olds ,  Python, Web Development & AI Projects for Class 6 / Modern A... |
-| `/coding-for-12-year-olds` | Coding for 12 Year Olds ,  Python, Web Dev, App Building & AI for Class 7 / Modern Age... |
-| `/coding-for-13-year-olds` | Coding for 13 Year Olds ,  Python, Full Stack Web & App Development for Teens / Modern... |
-| `/coding-for-14-year-olds` | Coding for 14 Year Olds ,  Python OOP, Full Stack, AI/ML & DSA for Class 9 / Modern Age... |
-| `/coding-for-15-year-olds` | Coding for 15 Year Olds ,  Full Stack, AI/ML & DSA for Class 10 Board Year / Modern Age... |
-| `/coding-for-16-year-olds` | Coding for 16 Year Olds ,  CS Stream, Full Stack, AI/ML & DSA for Class 11 / Modern Age... |
-| `/coding-for-17-year-olds` | Coding for 17 Year Olds ,  Class 12 CS, College Prep, Portfolio & DSA / Modern Age Coders |
-| `/coding-for-8-year-olds` | Coding for 8 Year Olds ,  Scratch, Block Coding & Creative Projects for Kids / Modern A... |
-| `/coding-for-9-year-olds` | Coding for 9 Year Olds ,  Scratch, Python Basics & Game Projects for Kids / Modern Age... |
-| `/python-for-10-year-olds` | Python for 10 Year Olds ,  Real Python Programs, Turtle Art & Mini Games / Modern Age C... |
-| `/python-for-11-year-olds` | Python for 11 Year Olds ,  Functions, Files & First AI Projects for Class 6 / Modern Ag... |
-| `/python-for-12-year-olds` | Python for 12 Year Olds ,  OOP, Pygame, sklearn & Real Projects for Class 7 / Modern Ag... |
-| `/python-for-13-year-olds` | Python for 13 Year Olds ,  OOP, Flask APIs, sklearn ML & Portfolio Projects / Modern Ag... |
-| `/python-for-14-year-olds` | Python for 14 Year Olds ,  Flask, Django Intro, sklearn ML & Kaggle Projects / Modern A... |
-| `/python-for-15-year-olds` | Python for 15 Year Olds ,  Board-Safe Python + Django, ML & DSA for Class 10 / Modern A... |
-| `/python-for-16-year-olds` | Python for 16 Year Olds ,  CS Stream Python, Pandas, ML, Django & DSA / Modern Age Coders |
-| `/python-for-17-year-olds` | Python for 17 Year Olds ,  Class 12 Board CS, College Portfolio, ML & DSA / Modern Age... |
-| `/python-for-9-year-olds` | Python for 9 Year Olds ,  First Python Programs, Turtle Graphics & Games / Modern Age C... |
+| `/coding-for-10-year-olds` | Coding for 10 Year Olds |
+| `/coding-for-11-year-olds` | Coding for 11 Year Olds - Python, Web Development & AI Projects for Class 6 |
+| `/coding-for-12-year-olds` | Coding for 12 Year Olds - Python, Web Dev, App Building & AI for Class 7 |
+| `/coding-for-13-year-olds` | Coding for 13 Year Olds - Python, Full Stack Web & App Development for Teens |
+| `/coding-for-14-year-olds` | Coding for 14 Year Olds - Python OOP, Full Stack, AI/ML & DSA for Class 9 |
+| `/coding-for-15-year-olds` | Coding for 15 Year Olds - Full Stack, AI/ML & DSA for Class 10 Board Year |
+| `/coding-for-16-year-olds` | Coding for 16 Year Olds - CS Stream, Full Stack, AI/ML & DSA for Class 11 |
+| `/coding-for-17-year-olds` | Coding for 17 Year Olds - Class 12 CS, College Prep, Portfolio & DSA |
+| `/coding-for-8-year-olds` | Coding for 8 Year Olds - Scratch, Block Coding & Creative Projects for Kids |
+| `/coding-for-9-year-olds` | Coding for 9 Year Olds - Scratch, Python Basics & Game Projects for Kids |
+| `/python-for-10-year-olds` | Python for 10 Year Olds - Real Python Programs, Turtle Art & Mini Games |
+| `/python-for-11-year-olds` | Python for 11 Year Olds - Functions, Files & First AI Projects for Class 6 |
+| `/python-for-12-year-olds` | Python for 12 Year Olds - OOP, Pygame, sklearn & Real Projects for Class 7 |
+| `/python-for-13-year-olds` | Python for 13 Year Olds - OOP, Flask APIs, sklearn ML & Portfolio Projects |
+| `/python-for-14-year-olds` | Python for 14 Year Olds - Flask, Django Intro, sklearn ML & Kaggle Projects |
+| `/python-for-15-year-olds` | Python for 15 Year Olds - Board-Safe Python + Django, ML & DSA for Class 10 |
+| `/python-for-16-year-olds` | Python for 16 Year Olds - CS Stream Python, Pandas, ML, Django & DSA |
+| `/python-for-17-year-olds` | Python for 17 Year Olds - Class 12 Board CS, College Portfolio, ML & DSA |
+| `/python-for-9-year-olds` | Python for 9 Year Olds - First Python Programs, Turtle Graphics & Games |
 
 ### B.10 Coding and Python by school class (17)
 
 | URL path | Page title |
 |---|---|
-| `/coding-for-class-10` | Coding for Class 10 ,  Board-Safe CS Prep, Python, Java, AI & DSA / Modern Age Coders |
-| `/coding-for-class-11` | Coding for Class 11 ,  CS Stream, Python/Pandas, MERN, AI/ML & DSA in C++ / Modern Age... |
-| `/coding-for-class-12` | Coding for Class 12 ,  Board CS, College-Ready Portfolio, DSA & Competitive Programming... |
-| `/coding-for-class-3` | Coding for Class 3 ,  Scratch, Block Coding & First Python for 8 Year Olds / Modern Age... |
-| `/coding-for-class-4` | Coding for Class 4 ,  Scratch, Block Coding & First Python for 9 Year Olds / Modern Age... |
-| `/coding-for-class-5` | Coding for Class 5 ,  Python, Scratch & AI Tools for 10 Year Olds / Modern Age Coders |
-| `/coding-for-class-6` | Coding for Class 6 ,  Python, HTML/CSS & AI Projects Matched to CBSE/ICSE Syllabus / Mo... |
-| `/coding-for-class-7` | Coding for Class 7 ,  Python, JavaScript, App Dev & AI for CBSE/ICSE Students / Modern... |
-| `/coding-for-class-8` | Coding for Class 8 ,  Python OOP, Full Stack, Java & AI for CBSE/ICSE Students / Modern... |
-| `/coding-for-class-9` | Coding for Class 9 ,  CBSE/ICSE CS, Python, Java, Full Stack & DSA / Modern Age Coders |
-| `/python-for-class-10` | Python for Class 10 ,  Board-Safe Python for CBSE IT 402 + College Prep / Modern Age Co... |
-| `/python-for-class-11-cbse` | Python for Class 11 CBSE ,  CS 083 & IP Aligned, Pandas, SQL, Functions / Modern Age Co... |
-| `/python-for-class-12-cbse` | Python for Class 12 CBSE Board Exam ,  Full Syllabus, Project, SQL, Sample Papers / Mod... |
-| `/python-for-class-6` | Python for Class 6 ,  CBSE Code 166 Python, Turtle, First AI (Age 11) / Modern Age Coders |
-| `/python-for-class-7` | Python for Class 7 ,  OOP Basics, Pygame, First sklearn for Age 12 Students / Modern Ag... |
-| `/python-for-class-8` | Python for Class 8 ,  OOP, Flask API, sklearn, Kaggle Datasets & DSA Intro / Modern Age... |
-| `/python-for-class-9` | Python for Class 9 ,  CBSE Code 402 Python, Flask, Django Intro & Kaggle / Modern Age C... |
+| `/coding-for-class-10` | Coding for Class 10 - Board-Safe CS Prep, Python, Java, AI & DSA |
+| `/coding-for-class-11` | Coding for Class 11 - CS Stream, Python/Pandas, MERN, AI/ML & DSA in C++ |
+| `/coding-for-class-12` | Coding for Class 12 - Board CS, College-Ready Portfolio, DSA & Competitive Programming |
+| `/coding-for-class-3` | Coding for Class 3 - Scratch, Block Coding & First Python for 8 Year Olds |
+| `/coding-for-class-4` | Coding for Class 4 - Scratch, Block Coding & First Python for 9 Year Olds |
+| `/coding-for-class-5` | Coding for Class 5 - Python, Scratch & AI Tools for 10 Year Olds |
+| `/coding-for-class-6` | Coding for Class 6 - Python, HTML/CSS & AI Projects Matched to CBSE/ICSE Syllabus |
+| `/coding-for-class-7` | Coding for Class 7 - Python, JavaScript, App Dev & AI for CBSE/ICSE Students |
+| `/coding-for-class-8` | Coding for Class 8 - Python OOP, Full Stack, Java & AI for CBSE/ICSE Students |
+| `/coding-for-class-9` | Coding for Class 9 - CBSE/ICSE CS, Python, Java, Full Stack & DSA |
+| `/python-for-class-10` | Python for Class 10 - Board-Safe Python for CBSE IT 402 + College Prep |
+| `/python-for-class-11-cbse` | Python for Class 11 CBSE - CS 083 & IP Aligned, Pandas, SQL, Functions |
+| `/python-for-class-12-cbse` | Python for Class 12 CBSE Board Exam - Full Syllabus, Project, SQL, Sample Papers |
+| `/python-for-class-6` | Python for Class 6 - CBSE Code 166 Python, Turtle, First AI (Age 11) |
+| `/python-for-class-7` | Python for Class 7 - OOP Basics, Pygame, First sklearn for Age 12 Students |
+| `/python-for-class-8` | Python for Class 8 - OOP, Flask API, sklearn, Kaggle Datasets & DSA Intro |
+| `/python-for-class-9` | Python for Class 9 - CBSE Code 402 Python, Flask, Django Intro & Kaggle |
 
 ### B.11 Comparison and alternative pages (17)
 
 | URL path | Page title |
 |---|---|
-| `/brightchamps-alternative` | BrightChamps Alternative 2026: Focused Depth, Not Breadth / Modern Age Coders |
-| `/byjus-coding-alternative` | BYJU'S Coding Alternative 2026: Live, Small-Batch, Honest / Modern Age Coders |
-| `/coding-vs-maths` | Coding vs Maths: Which Should Your Child Learn? The Honest Answer / Modern Age Coders |
-| `/coding-vs-programming` | Coding vs Programming: The Real Difference & How We Build Programmers / Modern Age Coders |
-| `/codingal-alternative` | Codingal Alternative 2026: Depth-First Coding and Maths / Modern Age Coders |
-| `/cuemath-alternative` | Cuemath Alternative for 2026: A Live Coding and Maths School / Modern Age Coders |
+| `/brightchamps-alternative` | BrightChamps Alternative 2026: Focused Depth, Not Breadth |
+| `/byjus-coding-alternative` | BYJU'S Coding Alternative 2026: Live, Small-Batch, Honest |
+| `/coding-vs-maths` | Coding vs Maths: Which Should Your Child Learn? The Honest Answer |
+| `/coding-vs-programming` | Coding vs Programming: The Real Difference & How We Build Programmers |
+| `/codingal-alternative` | Codingal Alternative 2026: Depth-First Coding and Maths |
+| `/cuemath-alternative` | Cuemath Alternative for 2026: A Live Coding and Maths School |
 | `/modern-age-coders-vs-codingal` | Modern Age Coders vs Codingal: Honest 2026 Comparison |
 | `/modern-age-coders-vs-cuemath` | Modern Age Coders vs Cuemath: Honest 2026 Comparison |
 | `/modern-age-coders-vs-juni-learning` | Modern Age Coders vs Juni Learning: 2026 Comparison |
@@ -1792,231 +1790,231 @@ Listed with titles in Appendix C.
 | `/modern-age-coders-vs-mathnasium` | Modern Age Coders vs Mathnasium: Honest 2026 Comparison |
 | `/modern-age-coders-vs-outschool` | Modern Age Coders vs Outschool: School or Marketplace? (2026) |
 | `/modern-age-coders-vs-tynker` | Modern Age Coders vs Tynker: App or Live Teaching? (2026) |
-| `/modern-age-coders-vs-whitehat-jr-cuemath-codingal` | Modern Age Coders vs WhiteHat Jr, Cuemath & Codingal - Honest Comparison / Modern Age C... |
+| `/modern-age-coders-vs-whitehat-jr-cuemath-codingal` | Modern Age Coders vs WhiteHat Jr, Cuemath & Codingal - Honest Comparison |
 | `/private-math-tutor-vs-online-tutoring` | Private Math Tutor vs Online Tutoring: 2026 Decision Guide |
-| `/tynker-alternative` | Tynker Alternative 2026: A Live Teacher, Not an App Alone / Modern Age Coders |
-| `/whitehat-jr-alternative` | WhiteHat Jr Alternative in 2026: Real Mentors, Not Scripts / Modern Age Coders |
+| `/tynker-alternative` | Tynker Alternative 2026: A Live Teacher, Not an App Alone |
+| `/whitehat-jr-alternative` | WhiteHat Jr Alternative in 2026: Real Mentors, Not Scripts |
 
 ### B.12 Camps (summer and winter) (9)
 
 | URL path | Page title |
 |---|---|
-| `/online-coding-summer-camp` | Online Coding Summer Camp / Ages 6-16, Live Mentors / Modern Age Coders |
-| `/summer-coding-camp` | Summer Coding Camp 2026 / Modern Age Coders |
-| `/summer-coding-camp-adults` | Summer Coding Bootcamp for Adults 2026 (18+) / Online Worldwide / Modern Age Coders |
-| `/summer-coding-camp-kids` | Summer Coding Camp for Kids 2026 - Ages 6-12 / Online Live Classes / Modern Age Coders |
-| `/summer-coding-camp-teens` | Summer Coding Camp for Teens 2026 (Ages 12-17) / Online Worldwide / Modern Age Coders |
-| `/winter-coding-camp` | Winter Coding Camp 2026 / Online Worldwide / Modern Age Coders |
-| `/winter-coding-camp-adults` | Winter Coding Camp for Adults 2026 (Ages 18+) / Online Worldwide / Modern Age Coders |
-| `/winter-coding-camp-kids` | Winter Coding Camp for Kids 2026 (Ages 6-11) / Online Worldwide / Modern Age Coders |
-| `/winter-coding-camp-teens` | Winter Coding Camp for Teens 2026 (Ages 12-17) / Online Worldwide / Modern Age Coders |
+| `/online-coding-summer-camp` | Online Coding Summer Camp |
+| `/summer-coding-camp` | Summer Coding Camp 2026 |
+| `/summer-coding-camp-adults` | Summer Coding Bootcamp for Adults 2026 (18+) |
+| `/summer-coding-camp-kids` | Summer Coding Camp for Kids 2026 - Ages 6-12 |
+| `/summer-coding-camp-teens` | Summer Coding Camp for Teens 2026 (Ages 12-17) |
+| `/winter-coding-camp` | Winter Coding Camp 2026 |
+| `/winter-coding-camp-adults` | Winter Coding Camp for Adults 2026 (Ages 18+) |
+| `/winter-coding-camp-kids` | Winter Coding Camp for Kids 2026 (Ages 6-11) |
+| `/winter-coding-camp-teens` | Winter Coding Camp for Teens 2026 (Ages 12-17) |
 
 ### B.13 Mathematics landing pages (68)
 
 | URL path | Page title |
 |---|---|
-| `/11-plus-maths-tuition` | 11 Plus Maths Tuition Online · 1:1 GL & CEM 11+ Maths Prep ,  Modern Age Coders |
-| `/a-level-maths-tuition-online` | A-Level Maths Tuition Online · 1:1 Pure, Mechanics & Statistics ,  Modern Age Coders |
-| `/a-level-maths-tutor-uae` | A-Level Maths Tutor in the UAE · 1:1 Online Pure, Mechanics & Statistics ,  Modern Age... |
-| `/act-math-tutoring-online` | ACT Math Tutoring Online · 1:1 ACT Math Prep ,  Modern Age Coders |
-| `/algebra-2-tutoring-online` | Algebra 2 Tutoring Online / Live 1:1 Classes / Modern Age Coders |
-| `/algebra-tutoring-online-usa` | Algebra Tutoring Online (USA) · 1:1 Pre-Algebra, Algebra 1 & 2 ,  Modern Age Coders |
-| `/american-maths-tutor-uae` | American Curriculum & SAT Maths Tutor in the UAE · 1:1 Online ,  Modern Age Coders |
-| `/ap-calculus-tutoring-online` | AP Calculus Tutoring Online · 1:1 AP Calculus AB & BC Prep ,  Modern Age Coders |
-| `/ap-statistics-tutoring-online` | AP Statistics Tutoring Online · 1:1 AP Stats Prep ,  Modern Age Coders |
+| `/11-plus-maths-tuition` | 11 Plus Maths Tuition Online · 1:1 GL & CEM 11+ Maths Prep |
+| `/a-level-maths-tuition-online` | A-Level Maths Tuition Online · 1:1 Pure, Mechanics & Statistics |
+| `/a-level-maths-tutor-uae` | A-Level Maths Tutor in the UAE · 1:1 Online Pure, Mechanics & Statistics |
+| `/act-math-tutoring-online` | ACT Math Tutoring Online · 1:1 ACT Math Prep |
+| `/algebra-2-tutoring-online` | Algebra 2 Tutoring Online |
+| `/algebra-tutoring-online-usa` | Algebra Tutoring Online (USA) · 1:1 Pre-Algebra, Algebra 1 & 2 |
+| `/american-maths-tutor-uae` | American Curriculum & SAT Maths Tutor in the UAE · 1:1 Online |
+| `/ap-calculus-tutoring-online` | AP Calculus Tutoring Online · 1:1 AP Calculus AB & BC Prep |
+| `/ap-statistics-tutoring-online` | AP Statistics Tutoring Online · 1:1 AP Stats Prep |
 | `/best-online-math-tutoring-2026` | Best Online Math Tutoring 2026: Ranked Honestly, With Sources |
 | `/best-online-maths-classes-2026` | Best Online Maths Classes for Kids 2026: Ranked Honestly |
-| `/calculus-tutoring-online` | Calculus Tutoring Online / Live 1:1 Classes / Modern Age Coders |
-| `/cbse-maths-tutor-uae` | CBSE Maths Tutor in the UAE · 1:1 Online CBSE & ICSE ,  Class 6 to 12 ,  Modern Age Coders |
-| `/common-entrance-maths-tuition` | Common Entrance Maths Tuition · 1:1 ISEB 13+ & 11+ Maths ,  Modern Age Coders |
-| `/functional-skills-maths-tuition-online` | Functional Skills Maths Tuition Online · 1:1 Entry 3, Level 1 & Level 2 ,  Modern Age C... |
-| `/further-maths-tuition-online` | Further Maths Tuition Online · 1:1 A-Level Further Mathematics ,  Modern Age Coders |
-| `/gcse-maths-tuition-online` | GCSE Maths Tuition Online · 1:1 AQA, Edexcel & OCR ,  Modern Age Coders |
-| `/gcse-maths-tutor-uae` | GCSE Maths Tutor in the UAE · 1:1 Online IGCSE & GCSE ,  AQA, Edexcel, OCR, CIE ,  Mode... |
-| `/geometry-tutoring-online-usa` | Geometry Tutoring Online (USA) · 1:1 High School Geometry & Proofs ,  Modern Age Coders |
-| `/homeschool-math-curriculum-usa` | Homeschool Math Curriculum (USA) · 1:1 Online Math for Homeschoolers ,  Modern Age Coders |
-| `/ib-maths-tuition-online` | IB Maths Tuition Online / AA & AI, SL & HL / Modern Age Coders |
-| `/ib-maths-tutor-uae` | IB Maths Tutor in the UAE · 1:1 Maths AA & AI (SL & HL) ,  Modern Age Coders |
-| `/igcse-maths-tuition-online` | IGCSE Maths Tuition Online / Core, Extended & 0606 / Modern Age Coders |
-| `/isee-ssat-math-prep` | ISEE & SSAT Math Prep Online / Live 1:1 Classes / Modern Age Coders |
-| `/ks2-maths-tuition-online` | KS2 Maths Tuition Online · 1:1 Year 3-6 & SATs Maths ,  Modern Age Coders |
-| `/ks3-maths-tuition-online` | KS3 Maths Tuition Online · 1:1 Year 7-9 Maths ,  Modern Age Coders |
-| `/math-catch-up-program` | Math Catch-Up Program / Diagnose, Rebuild, Reconnect |
-| `/math-olympiad-amc-tutoring` | Math Olympiad & AMC Tutoring Online · 1:1 AMC 8/10/12 & MATHCOUNTS Coaching ,  Modern A... |
-| `/maths-behind-machine-learning` | The Maths Behind Machine Learning - Linear Algebra, Calculus & Probability for AI / Mod... |
-| `/maths-class-10` | Maths Tuition for Class 10 / CBSE & ICSE Board Exam Prep / Modern Age Coders |
-| `/maths-classes-for-adults-uae` | Maths Classes for Adults in the UAE · 1:1 Online ,  Work, Study & GMAT/GRE ,  Modern Ag... |
-| `/maths-tuition-for-kids-uae` | Maths Tuition for Kids in the UAE · 1:1 Online Primary Maths ,  Modern Age Coders |
-| `/maths-tuition-for-teens-uae` | Maths Tuition for Teens in the UAE · 1:1 Online Secondary Maths ,  Modern Age Coders |
-| `/maths-tutor-in-abu-dhabi` | Maths Tutor in Abu Dhabi · 1:1 Online Maths Tuition, Every Curriculum ,  Modern Age Coders |
-| `/maths-tutor-in-dubai` | Maths Tutor in Dubai · 1:1 Online Maths Tuition, Every Curriculum ,  Modern Age Coders |
-| `/maths-tutor-in-sharjah` | Maths Tutor in Sharjah · 1:1 Online Maths Tuition, Every Curriculum ,  Modern Age Coders |
-| `/online-math-tutor-10th-grade` | Online Math Tutor for 10th Grade / Geometry & Proof, Taught Right / Modern Age Coders |
-| `/online-math-tutor-11th-grade` | Online Math Tutor for 11th Grade / Algebra 2 + SAT, One Campaign / Modern Age Coders |
-| `/online-math-tutor-12th-grade` | Online Math Tutor for 12th Grade / Finish Strong, Land Ready / Modern Age Coders |
-| `/online-math-tutor-1st-grade` | Online Math Tutor for 1st Grade / Strategies, Not Drills / Modern Age Coders |
-| `/online-math-tutor-2nd-grade` | Online Math Tutor for 2nd Grade / Regrouping That Makes Sense / Modern Age Coders |
-| `/online-math-tutor-3rd-grade` | Online Math Tutor for 3rd Grade / Live 1:1 Classes / Modern Age Coders |
-| `/online-math-tutor-4th-grade` | Online Math Tutor for 4th Grade / Live 1:1 Classes / Modern Age Coders |
-| `/online-math-tutor-5th-grade` | Online Math Tutor for 5th Grade / Live 1:1 Classes / Modern Age Coders |
-| `/online-math-tutor-6th-grade` | Online Math Tutor for 6th Grade / Live 1:1 Classes / Modern Age Coders |
-| `/online-math-tutor-7th-grade` | Online Math Tutor for 7th Grade / Live 1:1 Classes / Modern Age Coders |
-| `/online-math-tutor-8th-grade` | Online Math Tutor for 8th Grade / Live 1:1 Classes / Modern Age Coders |
-| `/online-math-tutor-9th-grade` | Online Math Tutor for 9th Grade / Algebra 1, Taught to Own / Modern Age Coders |
-| `/online-math-tutor-canada` | Online Math Tutor Canada / EQAO to Calculus & Vectors / Modern Age Coders |
+| `/calculus-tutoring-online` | Calculus Tutoring Online |
+| `/cbse-maths-tutor-uae` | CBSE Maths Tutor in the UAE · 1:1 Online CBSE & ICSE - Class 6 to 12 |
+| `/common-entrance-maths-tuition` | Common Entrance Maths Tuition · 1:1 ISEB 13+ & 11+ Maths |
+| `/functional-skills-maths-tuition-online` | Functional Skills Maths Tuition Online · 1:1 Entry 3, Level 1 & Level 2 |
+| `/further-maths-tuition-online` | Further Maths Tuition Online · 1:1 A-Level Further Mathematics |
+| `/gcse-maths-tuition-online` | GCSE Maths Tuition Online · 1:1 AQA, Edexcel & OCR |
+| `/gcse-maths-tutor-uae` | GCSE Maths Tutor in the UAE · 1:1 Online IGCSE & GCSE - AQA, Edexcel, OCR, CIE |
+| `/geometry-tutoring-online-usa` | Geometry Tutoring Online (USA) · 1:1 High School Geometry & Proofs |
+| `/homeschool-math-curriculum-usa` | Homeschool Math Curriculum (USA) · 1:1 Online Math for Homeschoolers |
+| `/ib-maths-tuition-online` | IB Maths Tuition Online |
+| `/ib-maths-tutor-uae` | IB Maths Tutor in the UAE · 1:1 Maths AA & AI (SL & HL) |
+| `/igcse-maths-tuition-online` | IGCSE Maths Tuition Online |
+| `/isee-ssat-math-prep` | ISEE & SSAT Math Prep Online |
+| `/ks2-maths-tuition-online` | KS2 Maths Tuition Online · 1:1 Year 3-6 & SATs Maths |
+| `/ks3-maths-tuition-online` | KS3 Maths Tuition Online · 1:1 Year 7-9 Maths |
+| `/math-catch-up-program` | Math Catch-Up Program |
+| `/math-olympiad-amc-tutoring` | Math Olympiad & AMC Tutoring Online · 1:1 AMC 8/10/12 & MATHCOUNTS Coaching |
+| `/maths-behind-machine-learning` | The Maths Behind Machine Learning - Linear Algebra, Calculus & Probability for AI |
+| `/maths-class-10` | Maths Tuition for Class 10 |
+| `/maths-classes-for-adults-uae` | Maths Classes for Adults in the UAE · 1:1 Online - Work, Study & GMAT/GRE |
+| `/maths-tuition-for-kids-uae` | Maths Tuition for Kids in the UAE · 1:1 Online Primary Maths |
+| `/maths-tuition-for-teens-uae` | Maths Tuition for Teens in the UAE · 1:1 Online Secondary Maths |
+| `/maths-tutor-in-abu-dhabi` | Maths Tutor in Abu Dhabi · 1:1 Online Maths Tuition, Every Curriculum |
+| `/maths-tutor-in-dubai` | Maths Tutor in Dubai · 1:1 Online Maths Tuition, Every Curriculum |
+| `/maths-tutor-in-sharjah` | Maths Tutor in Sharjah · 1:1 Online Maths Tuition, Every Curriculum |
+| `/online-math-tutor-10th-grade` | Online Math Tutor for 10th Grade |
+| `/online-math-tutor-11th-grade` | Online Math Tutor for 11th Grade |
+| `/online-math-tutor-12th-grade` | Online Math Tutor for 12th Grade |
+| `/online-math-tutor-1st-grade` | Online Math Tutor for 1st Grade |
+| `/online-math-tutor-2nd-grade` | Online Math Tutor for 2nd Grade |
+| `/online-math-tutor-3rd-grade` | Online Math Tutor for 3rd Grade |
+| `/online-math-tutor-4th-grade` | Online Math Tutor for 4th Grade |
+| `/online-math-tutor-5th-grade` | Online Math Tutor for 5th Grade |
+| `/online-math-tutor-6th-grade` | Online Math Tutor for 6th Grade |
+| `/online-math-tutor-7th-grade` | Online Math Tutor for 7th Grade |
+| `/online-math-tutor-8th-grade` | Online Math Tutor for 8th Grade |
+| `/online-math-tutor-9th-grade` | Online Math Tutor for 9th Grade |
+| `/online-math-tutor-canada` | Online Math Tutor Canada |
 | `/online-math-tutor-cost` | Online Math Tutor Cost 2026: Real US Prices by Format |
-| `/online-math-tutor-kindergarten` | Online Math Tutor for Kindergarten / Playful, Live 1:1 / Modern Age Coders |
-| `/online-maths-classes-for-adults-in-uk` | Online Maths Classes for Adults in the UK · 1:1 Numeracy, GCSE Resit & Functional Skill... |
-| `/online-maths-classes-for-adults-in-usa` | Online Maths Classes for Adults in the USA · 1:1 Math for Work, Study & Confidence ,  M... |
-| `/online-maths-tuition` | Online Maths Tuition for All Ages / Class 1-12, College & Advanced / Modern Age Coders |
-| `/online-maths-tuition-for-college-students-in-uk` | Online Maths Tuition for College & Sixth Form in the UK · 1:1 A-Level & University Math... |
-| `/online-maths-tuition-for-kids-in-uk` | Online Maths Tuition for Kids in the UK · 1:1 Primary Maths (KS1 & KS2) ,  Modern Age C... |
-| `/online-maths-tuition-for-teens-in-uk` | Online Maths Tuition for Teens in the UK · 1:1 KS3 & GCSE Maths ,  Modern Age Coders |
-| `/online-maths-tuition-singapore` | Online Maths Tuition Singapore / PSLE to A Maths, Live 1:1 / Modern Age Coders |
-| `/online-maths-tuition-uae` | Online Maths Tuition in the UAE · 1:1 Across Every Curriculum & Emirate ,  Modern Age C... |
-| `/online-maths-tutoring-australia` | Online Maths Tutoring Australia / NAPLAN to Methods, Live 1:1 / Modern Age Coders |
+| `/online-math-tutor-kindergarten` | Online Math Tutor for Kindergarten |
+| `/online-maths-classes-for-adults-in-uk` | Online Maths Classes for Adults in the UK · 1:1 Numeracy, GCSE Resit & Functional Skills |
+| `/online-maths-classes-for-adults-in-usa` | Online Maths Classes for Adults in the USA · 1:1 Math for Work, Study & Confidence |
+| `/online-maths-tuition` | Online Maths Tuition for All Ages |
+| `/online-maths-tuition-for-college-students-in-uk` | Online Maths Tuition for College & Sixth Form in the UK · 1:1 A-Level & University Maths |
+| `/online-maths-tuition-for-kids-in-uk` | Online Maths Tuition for Kids in the UK · 1:1 Primary Maths (KS1 & KS2) |
+| `/online-maths-tuition-for-teens-in-uk` | Online Maths Tuition for Teens in the UK · 1:1 KS3 & GCSE Maths |
+| `/online-maths-tuition-singapore` | Online Maths Tuition Singapore |
+| `/online-maths-tuition-uae` | Online Maths Tuition in the UAE · 1:1 Across Every Curriculum & Emirate |
+| `/online-maths-tutoring-australia` | Online Maths Tutoring Australia |
 | `/online-maths-tutoring-for-college-students-in-usa` | Online Maths Tutoring for College Students in the USA · 1:1 Calculus, Linear Algebra &... |
-| `/online-maths-tutoring-for-kids-in-usa` | Online Maths Tutoring for Kids in the USA · 1:1 Elementary Math (K-5) ,  Modern Age Coders |
-| `/online-maths-tutoring-for-teens-in-usa` | Online Maths Tutoring for Teens in the USA · 1:1 Middle & High School Math ,  Modern Ag... |
-| `/precalculus-tutoring-online` | Precalculus Tutoring Online / Live 1:1 Classes / Modern Age Coders |
-| `/sat-math-tutoring-online` | SAT Math Tutoring Online · 1:1 Digital SAT Math Prep ,  Modern Age Coders |
-| `/singapore-math-method-tutoring` | Singapore Math Method Tutoring Online / Bar Models, Live 1:1 / Modern Age Coders |
-| `/summer-math-program-online` | Online Summer Math Program 2026 / Catch Up or Get Ahead |
-| `/ukmt-maths-challenge-tutoring` | UKMT Maths Challenge Tutoring · 1:1 Junior, Intermediate & Senior Challenge ,  Modern A... |
+| `/online-maths-tutoring-for-kids-in-usa` | Online Maths Tutoring for Kids in the USA · 1:1 Elementary Math (K-5) |
+| `/online-maths-tutoring-for-teens-in-usa` | Online Maths Tutoring for Teens in the USA · 1:1 Middle & High School Math |
+| `/precalculus-tutoring-online` | Precalculus Tutoring Online |
+| `/sat-math-tutoring-online` | SAT Math Tutoring Online · 1:1 Digital SAT Math Prep |
+| `/singapore-math-method-tutoring` | Singapore Math Method Tutoring Online |
+| `/summer-math-program-online` | Online Summer Math Program 2026 |
+| `/ukmt-maths-challenge-tutoring` | UKMT Maths Challenge Tutoring · 1:1 Junior, Intermediate & Senior Challenge |
 
 ### B.14 AI and machine learning pages (29)
 
 | URL path | Page title |
 |---|---|
-| `/ai-agents-and-automation` | AI Agents & Automation for Business / WhatsApp AI, Workflow Automation, AI Integration... |
-| `/ai-agents-course` | AI Agents Course / Build Autonomous AI Agents with LLMs |
-| `/ai-agents-explained` | AI Agents Explained ,  How to Actually Build One That Doesn't Hallucinate Itself Into P... |
-| `/ai-and-machine-learning-for-working-professionals` | AI & Machine Learning for Working Professionals / Upskill / Switch |
-| `/ai-classes-for-beginners` | AI Classes for Beginners - Start From Zero, No Experience Needed / Modern Age Coders |
-| `/ai-classes-for-cbse-class-6-to-8` | CBSE AI Classes for Class 6-8: Where AI Literacy Actually Begins / Modern Age Coders |
-| `/ai-classes-for-kids` | AI Classes for Kids (Ages 6-12) - Fun, Live, Project-Based / Modern Age Coders |
-| `/ai-classes-for-kids-in-uae` | AI Classes for Kids in UAE / Safe, Hands-On AI Learning |
-| `/ai-classes-for-teenagers` | AI Classes for Teenagers (13-18) - Build Real AI Projects & a Portfolio / Modern Age Co... |
-| `/ai-course-for-beginners` | AI Course for Beginners / Learn Artificial Intelligence from Zero |
-| `/ai-development-services` | AI Development Company / AI Agents, Chatbots & Automation / Modern Age Coders |
-| `/ai-engineer-roadmap-2026` | The AI Engineer Roadmap 2026 ,  From Python Day One to Shipping AI in Production / Mode... |
-| `/ai-ml-certification-course` | AI & ML Certification Course / Certificate + Real Portfolio |
-| `/ai-ml-course-for-college-students` | AI & ML Course for College Students / Placement-Focused in India |
-| `/ai-ml-course-for-teens` | AI & ML Course for Kids & Teens ,  Learn Artificial Intelligence / Modern Age Coders |
-| `/ai-ml-projects-for-students` | AI & ML Projects for Students / Build a Portfolio That Gets You Hired |
-| `/artificial-intelligence-course` | Artificial Intelligence Course / Complete AI Course Online (India) |
-| `/best-ai-and-machine-learning-course-in-india` | Best AI & Machine Learning Course in India / Live Online ML, DL & Python |
-| `/build-machine-learning-models-in-python` | Build Machine Learning Models in Python / Project-Based ML Course |
-| `/computer-vision-course` | Computer Vision Course / Learn Image AI & CNNs in Python |
-| `/deep-learning-course` | Deep Learning Course / Neural Networks, CNNs & Transformers (Online) |
-| `/deep-learning-with-tensorflow-and-pytorch` | Deep Learning with TensorFlow & PyTorch / Hands-On DL Course |
-| `/generative-ai-course` | Generative AI Course / Build with LLMs & GenAI (Online India) |
-| `/how-computer-vision-works` | How Computer Vision Works - CNNs, Feature Maps & Object Detection Explained / Modern Ag... |
-| `/how-to-train-machine-learning-models` | How to Train Machine Learning Models / Model Training Course |
-| `/machine-learning-course-for-beginners` | Machine Learning Course for Beginners / Learn ML with Python Online |
-| `/machine-learning-from-scratch` | Machine Learning From Scratch ,  Build Real AI/ML Models (College & Professionals) / Mo... |
-| `/online-ai-and-machine-learning-classes` | Online AI & Machine Learning Classes / Live, Mentor-Led in India |
-| `/python-for-machine-learning` | Python for Machine Learning / Learn ML Coding with scikit-learn Online |
+| `/ai-agents-and-automation` | AI Agents & Automation for Business |
+| `/ai-agents-course` | AI Agents Course |
+| `/ai-agents-explained` | AI Agents Explained - How to Actually Build One That Doesn't Hallucinate Itself Into Pi... |
+| `/ai-and-machine-learning-for-working-professionals` | AI & Machine Learning for Working Professionals |
+| `/ai-classes-for-beginners` | AI Classes for Beginners - Start From Zero, No Experience Needed |
+| `/ai-classes-for-cbse-class-6-to-8` | CBSE AI Classes for Class 6-8: Where AI Literacy Actually Begins |
+| `/ai-classes-for-kids` | AI Classes for Kids (Ages 6-12) - Fun, Live, Project-Based |
+| `/ai-classes-for-kids-in-uae` | AI Classes for Kids in UAE |
+| `/ai-classes-for-teenagers` | AI Classes for Teenagers (13-18) - Build Real AI Projects & a Portfolio |
+| `/ai-course-for-beginners` | AI Course for Beginners |
+| `/ai-development-services` | AI Development Company |
+| `/ai-engineer-roadmap-2026` | The AI Engineer Roadmap 2026 - From Python Day One to Shipping AI in Production |
+| `/ai-ml-certification-course` | AI & ML Certification Course |
+| `/ai-ml-course-for-college-students` | AI & ML Course for College Students |
+| `/ai-ml-course-for-teens` | AI & ML Course for Kids & Teens - Learn Artificial Intelligence |
+| `/ai-ml-projects-for-students` | AI & ML Projects for Students |
+| `/artificial-intelligence-course` | Artificial Intelligence Course |
+| `/best-ai-and-machine-learning-course-in-india` | Best AI & Machine Learning Course in India |
+| `/build-machine-learning-models-in-python` | Build Machine Learning Models in Python |
+| `/computer-vision-course` | Computer Vision Course |
+| `/deep-learning-course` | Deep Learning Course |
+| `/deep-learning-with-tensorflow-and-pytorch` | Deep Learning with TensorFlow & PyTorch |
+| `/generative-ai-course` | Generative AI Course |
+| `/how-computer-vision-works` | How Computer Vision Works - CNNs, Feature Maps & Object Detection Explained |
+| `/how-to-train-machine-learning-models` | How to Train Machine Learning Models |
+| `/machine-learning-course-for-beginners` | Machine Learning Course for Beginners |
+| `/machine-learning-from-scratch` | Machine Learning From Scratch - Build Real AI/ML Models (College & Professionals) |
+| `/online-ai-and-machine-learning-classes` | Online AI & Machine Learning Classes |
+| `/python-for-machine-learning` | Python for Machine Learning |
 
 ### B.15 Programming language and topic pages (95)
 
 | URL path | Page title |
 |---|---|
-| `/best-age-to-start-coding` | Best Age to Start Coding? The Honest Age-by-Age Answer / Modern Age Coders |
-| `/best-c-plus-plus-classes-in-india` | Best C++ Classes in India / Online C++ Course for Teens & College Students |
-| `/best-coding-classes-online` | Best Coding Classes for Kids in India and Worldwide / Online & Live / Modern Age Coders |
-| `/best-java-classes-in-india` | Best Java Classes in India / Online Java Course for Teens & Adults |
+| `/best-age-to-start-coding` | Best Age to Start Coding? The Honest Age-by-Age Answer |
+| `/best-c-plus-plus-classes-in-india` | Best C++ Classes in India |
+| `/best-coding-classes-online` | Best Coding Classes for Kids in India and Worldwide |
+| `/best-java-classes-in-india` | Best Java Classes in India |
 | `/best-online-coding-classes-for-kids-2026` | Best Online Coding Classes for Kids 2026: Ranked Honestly |
-| `/bootstrap` | Complete Bootstrap 5.3 Guide - Learn Bootstrap from Scratch / Modern Age Coders |
-| `/build-your-own-gpt-python` | Build Your Own GPT in Python ,  From Tokenizer to Trained Model in 300 Lines / Modern A... |
-| `/c-plus-plus-certification-course` | C++ Certification Course / Get C++ Certified + a Project Portfolio |
-| `/c-plus-plus-classes-for-college-students` | C++ Classes for College Students / DSA, STL & Placement-Ready C++ |
-| `/c-plus-plus-classes-for-teens` | C++ Classes for Teens / Online C++ Coding Course (Ages 13-18) |
-| `/c-plus-plus-dsa-course` | C++ DSA Course / Data Structures & Algorithms in C++ (with STL) Online |
-| `/c-plus-plus-for-beginners` | C++ for Beginners / Learn C++ From Scratch ,  Online Course (No Experience) |
-| `/c-plus-plus-for-competitive-programming` | C++ for Competitive Programming / Codeforces, CodeChef & ICPC Course |
-| `/c-plus-plus-for-placement-preparation` | C++ for Placement Preparation / Crack Coding Rounds & Interviews |
-| `/c-plus-plus-game-development` | C++ Game Development Course / Build Games with C++ (SFML) Online |
-| `/c-plus-plus-oops-concepts-course` | C++ OOP Concepts Course / Object-Oriented Programming in C++ Online |
-| `/c-plus-plus-projects-for-students` | C++ Projects for Students / Build Real C++ Projects (Beginner to Advanced) |
-| `/cbse-ai-curriculum-classes` | CBSE's Computational Thinking & AI Curriculum (2026-27): A Parent's Complete Guide / Mo... |
-| `/cbse-computational-thinking-classes-3-to-5` | CBSE Computational Thinking for Classes 3-5: What Your Child Actually Learns / Modern A... |
-| `/coding-comeback-women` | Coding Comeback for Women ,  Return to Tech After a Career Break, Maternity Pause or Sa... |
-| `/coding-for-cbse-students` | Coding for CBSE Students ,  Python, CS & Informatics Practices from Class 6 to 12 / Mod... |
-| `/coding-for-icse-students` | Coding for ICSE Students ,  Java BlueJ, Computer Applications & ISC CS / Modern Age Coders |
-| `/coding-for-igcse-students` | Coding for IGCSE Students ,  Cambridge CS 0478, 0984, ICT & Python / Modern Age Coders |
-| `/coding-lang` | Learn Programming Languages & Frameworks / Complete Coding Guide 2026 |
-| `/coding-olympiad-medal-track` | Coding Olympiad Medal Track ,  IOQI, ZIO, INOI, IOI, Bebras, Math Kangaroo Coaching / M... |
-| `/computer-applications-icse-class-10` | Computer Applications ICSE Class 10 ,  Java BlueJ Tuition, Project & Viva Prep / Modern... |
-| `/computer-science-class-11-cbse` | Computer Science Class 11 CBSE ,  Python, Boolean Logic & Full Syllabus Tuition / Moder... |
-| `/computer-science-class-11-icse` | Computer Science Class 11 ICSE ,  Java OOP, Boolean Algebra & ISC Full Syllabus / Moder... |
-| `/computer-science-class-12-cbse` | Computer Science Class 12 CBSE ,  Python Data Structures, SQL & Full Board Tuition / Mo... |
-| `/computer-science-class-12-icse` | Computer Science Class 12 ICSE ,  ISC Java Data Structures, Recursion & Board Prep / Mo... |
-| `/cpa-cpp-certification-prep` | CPA C++ Certification (CPA-21-02) ,  Full Exam Guide, Syllabus & Live Coaching / Modern... |
-| `/data-analytics-course` | Data Analytics Course / Learn Data Analysis, SQL & Dashboards |
-| `/data-science-course` | Data Science Course / Learn Data Science with Python Online (India) |
-| `/data-structures-and-algorithms-course` | DSA Course ,  Build Your Logic with Data Structures & Algorithms / Modern Age Coders |
-| `/gazette` | The Modern Age Coders Gazette / Toppers, Hackathons & Coding News |
-| `/hackathon` | Modern Age Coders Hackathon 1.0 (June 2026) ,  ₹30,000 Prize Pool / Build-Anything Onli... |
-| `/hackathon-guide` | Hackathon 1.0 Guide (June 2026) ,  How It Worked, 3 Rounds, Rules & What to Build / Mod... |
-| `/homeschool-coding-curriculum` | Homeschool Coding Curriculum / Live Mentor, Records Included / Modern Age Coders |
-| `/how-ai-actually-works` | How AI Actually Works ,  A First-Principles Guide to LLMs, Tokens, Embeddings and Trans... |
-| `/how-large-language-models-work` | How Large Language Models Work - Understand Tokens, Embeddings & Attention / Modern Age... |
-| `/how-to-build-ai-models` | How to Build AI Models / Course on Building AI & ML Models |
-| `/inside-neural-networks` | Inside Neural Networks ,  How Deep Learning Really Works, From Perceptron to Transforme... |
-| `/java-certification-course` | Java Certification Course / Online Java Course with Certificate & Portfolio |
-| `/java-classes-for-adults` | Java Classes for Adults / Online Java Course for Professionals & Beginners |
-| `/java-classes-for-teens` | Java Classes for Teens / Online Java Coding Course (Ages 13-18) |
-| `/java-dsa-course` | Java DSA Course / Data Structures & Algorithms in Java for Placements |
-| `/java-for-beginners` | Java for Beginners / Learn Java From Scratch (Online Live Course) |
-| `/java-oops-concepts-course` | Java OOP Concepts Course / Master Object-Oriented Programming in Java |
-| `/java-programming-for-icse-students` | Java for ICSE & ISC Students / BlueJ Coding Classes (Class 9-12) |
-| `/java-programming-for-kids-teens` | Java Programming for Kids & Teens: Learn Java Online / Modern Age Coders |
-| `/java-projects-for-students` | Java Projects for Students / Build Real Java Programs (Beginner to Advanced) |
-| `/jee-aspirant-coding-track` | JEE Aspirant Coding Track ,  Python & Computational Maths for Class 11 & 12 Without Dis... |
-| `/large-language-models-course` | Large Language Models Course (LLMs) / Learn & Build with LLMs |
-| `/learn-coding-by-age` | Learn Coding by Age (8-17) / Kids & Teen Programming / Modern Age Coders |
-| `/learn-coding-by-class` | Learn Coding by Class (4-12) / CBSE, ICSE, IGCSE / Modern Age Coders |
-| `/learn-coding-from-first-principles` | Learn Coding From First Principles ,  Understand How Code Actually Works / Modern Age C... |
-| `/learn-to-build-ai` | Learn to Build AI, Not Just Use It / Live Online, Worldwide |
-| `/levels/coding-for-college-students` | Coding for College Students - Python, DSA, Web Dev & AI / Modern Age Coders |
-| `/levels/coding-for-kids` | Online Coding Classes for Kids Ages 6-12 / Scratch, Python & Game Dev / Modern Age Coders |
-| `/levels/coding-for-professionals` | Coding for Adults & Beginners: Career Switch to Tech / Modern Age Coders |
-| `/levels/coding-for-teens` | Coding for Teenagers Ages 13-18 / Python, React, AI & Web Dev / Modern Age Coders |
-| `/levels/corporate-training` | Corporate Coding Training / AI, Data Science & Tech Upskilling for Global Teams / Moder... |
-| `/master-ai-ml-python-java` | Master AI, ML, Python & Java ,  Go Deeper / Modern Age Coders |
-| `/minecraft-coding-classes-for-kids` | Minecraft Coding Classes for Kids / MakeCode & Python, Live 1:1 / Modern Age Coders |
-| `/mobile-app-development-services` | Mobile App Development Company / Android, iOS & Cross-Platform / Modern Age Coders |
-| `/mvp-development-company` | MVP Development Company for Startups / Idea to Launch / Modern Age Coders |
-| `/natural-language-processing-course` | Natural Language Processing Course (NLP) / Learn NLP in Python |
-| `/neural-networks-course` | Neural Networks Course / Learn & Build Neural Networks in Python |
-| `/numpy-pandas-matplotlib-masterclass` | NumPy, Pandas & Matplotlib Masterclass ,  Python Data Analysis in Depth / Modern Age Co... |
-| `/oca-java-certification-prep` | OCA Java SE 8 Certification (1Z0-808) ,  Full Exam Guide, Objectives & Live Coaching /... |
-| `/online-c-plus-plus-classes` | Online C++ Classes / Live C++ Coding Classes in Small Batches (India) |
-| `/online-coding-classes-for-kids-uk` | Online Coding Classes for Kids in the UK / Live 1:1, Ages 6-14 / Modern Age Coders |
-| `/online-coding-classes-for-kids-usa` | Online Coding Classes for Kids in the USA / Live 1:1, Ages 6-14 / Modern Age Coders |
-| `/online-java-classes` | Online Java Classes / Live Java Course Online for All Levels |
-| `/pcep-python-certification-prep` | PCEP Certification Preparation ,  Python Entry-Level Exam Guide & Live Coaching / Moder... |
-| `/prompt-engineering-course` | Prompt Engineering Course / Master Prompting for AI & LLMs |
-| `/python-and-ai-classes-for-kids-teens` | Python for Kids & Teens / Learn Python & AI Online / Modern Age Coders |
-| `/python-classes-in-dubai` | Python Classes in Dubai / Live Course for Teens & Professionals |
-| `/python-classes-in-qatar` | Python Classes in Qatar / Live Online Course for All Levels |
-| `/python-classes-in-saudi-arabia` | Python Classes in Saudi Arabia / Live, Beginner to Advanced |
-| `/python-for-beginners-kids` | Python for Beginners Kids ,  Absolute Zero Start, Fun Projects, Live 1-on-1 Classes / M... |
-| `/python-for-data-science` | Python for Data Science / Learn NumPy, pandas & Matplotlib Online |
-| `/python-for-kids-in-dubai` | Python for Kids in Dubai / Fun Live Classes, Ages 8-14 |
-| `/python-from-the-ground-up` | Python From the Ground Up ,  Complete, In-Depth Python Course (Grade 6 to Professional)... |
-| `/python-projects-for-kids` | Python Projects for Kids ,  20+ Finishable Python Projects (Ages 8 to 15) / Modern Age... |
-| `/real-coding-classes` | Real Coding Classes ,  Learn How Code Actually Works, How to Think Like a Programmer &... |
-| `/results` | Our Results / Evidence, Not Adjectives / Modern Age Coders |
-| `/roblox-coding-classes-for-kids` | Roblox Coding Classes for Kids / Luau & Studio, Live 1:1 / Modern Age Coders |
-| `/scratch-coding-classes-for-kids` | Scratch Coding Classes for Kids / Live 1:1, Ages 6-11 / Modern Age Coders |
-| `/screen-time-to-skill` | Screen Time to Skill Calculator ,  Turn Your Child's YouTube Hours into Apps, Code & In... |
-| `/software-maintenance-and-support` | Bug Fixing, QA & Software Maintenance Services / Modern Age Coders |
-| `/software-scaling-and-modernization` | Software Scaling & Modernization Services / Fix Slow, Legacy Systems / Modern Age Coders |
-| `/team` | Our Team / Founder & Mentors / Modern Age Coders |
-| `/vibe-coding-classes` | Vibe Coding Classes for Kids, Teens & College / Live, Small-Batch ,  Modern Age Coders |
-| `/web-application-development-services` | Web Application Development Company / Custom Web Apps & SaaS / Modern Age Coders |
+| `/bootstrap` | Complete Bootstrap 5.3 Guide - Learn Bootstrap from Scratch |
+| `/build-your-own-gpt-python` | Build Your Own GPT in Python - From Tokenizer to Trained Model in 300 Lines |
+| `/c-plus-plus-certification-course` | C++ Certification Course |
+| `/c-plus-plus-classes-for-college-students` | C++ Classes for College Students |
+| `/c-plus-plus-classes-for-teens` | C++ Classes for Teens |
+| `/c-plus-plus-dsa-course` | C++ DSA Course |
+| `/c-plus-plus-for-beginners` | C++ for Beginners |
+| `/c-plus-plus-for-competitive-programming` | C++ for Competitive Programming |
+| `/c-plus-plus-for-placement-preparation` | C++ for Placement Preparation |
+| `/c-plus-plus-game-development` | C++ Game Development Course |
+| `/c-plus-plus-oops-concepts-course` | C++ OOP Concepts Course |
+| `/c-plus-plus-projects-for-students` | C++ Projects for Students |
+| `/cbse-ai-curriculum-classes` | CBSE's Computational Thinking & AI Curriculum (2026-27): A Parent's Complete Guide |
+| `/cbse-computational-thinking-classes-3-to-5` | CBSE Computational Thinking for Classes 3-5: What Your Child Actually Learns |
+| `/coding-comeback-women` | Coding Comeback for Women - Return to Tech After a Career Break, Maternity Pause or Sab... |
+| `/coding-for-cbse-students` | Coding for CBSE Students - Python, CS & Informatics Practices from Class 6 to 12 |
+| `/coding-for-icse-students` | Coding for ICSE Students - Java BlueJ, Computer Applications & ISC CS |
+| `/coding-for-igcse-students` | Coding for IGCSE Students - Cambridge CS 0478, 0984, ICT & Python |
+| `/coding-lang` | Learn Programming Languages & Frameworks |
+| `/coding-olympiad-medal-track` | Coding Olympiad Medal Track - IOQI, ZIO, INOI, IOI, Bebras, Math Kangaroo Coaching |
+| `/computer-applications-icse-class-10` | Computer Applications ICSE Class 10 - Java BlueJ Tuition, Project & Viva Prep |
+| `/computer-science-class-11-cbse` | Computer Science Class 11 CBSE - Python, Boolean Logic & Full Syllabus Tuition |
+| `/computer-science-class-11-icse` | Computer Science Class 11 ICSE - Java OOP, Boolean Algebra & ISC Full Syllabus |
+| `/computer-science-class-12-cbse` | Computer Science Class 12 CBSE - Python Data Structures, SQL & Full Board Tuition |
+| `/computer-science-class-12-icse` | Computer Science Class 12 ICSE - ISC Java Data Structures, Recursion & Board Prep |
+| `/cpa-cpp-certification-prep` | CPA C++ Certification (CPA-21-02) - Full Exam Guide, Syllabus & Live Coaching |
+| `/data-analytics-course` | Data Analytics Course |
+| `/data-science-course` | Data Science Course |
+| `/data-structures-and-algorithms-course` | DSA Course - Build Your Logic with Data Structures & Algorithms |
+| `/gazette` | The Modern Age Coders Gazette |
+| `/hackathon` | Modern Age Coders Hackathon 1.0 (June 2026) - ₹30,000 Prize Pool |
+| `/hackathon-guide` | Hackathon 1.0 Guide (June 2026) - How It Worked, 3 Rounds, Rules & What to Build |
+| `/homeschool-coding-curriculum` | Homeschool Coding Curriculum |
+| `/how-ai-actually-works` | How AI Actually Works - A First-Principles Guide to LLMs, Tokens, Embeddings and Transf... |
+| `/how-large-language-models-work` | How Large Language Models Work - Understand Tokens, Embeddings & Attention |
+| `/how-to-build-ai-models` | How to Build AI Models |
+| `/inside-neural-networks` | Inside Neural Networks - How Deep Learning Really Works, From Perceptron to Transformer |
+| `/java-certification-course` | Java Certification Course |
+| `/java-classes-for-adults` | Java Classes for Adults |
+| `/java-classes-for-teens` | Java Classes for Teens |
+| `/java-dsa-course` | Java DSA Course |
+| `/java-for-beginners` | Java for Beginners |
+| `/java-oops-concepts-course` | Java OOP Concepts Course |
+| `/java-programming-for-icse-students` | Java for ICSE & ISC Students |
+| `/java-programming-for-kids-teens` | Java Programming for Kids & Teens: Learn Java Online |
+| `/java-projects-for-students` | Java Projects for Students |
+| `/jee-aspirant-coding-track` | JEE Aspirant Coding Track - Python & Computational Maths for Class 11 & 12 Without Dist... |
+| `/large-language-models-course` | Large Language Models Course (LLMs) |
+| `/learn-coding-by-age` | Learn Coding by Age (8-17) |
+| `/learn-coding-by-class` | Learn Coding by Class (4-12) |
+| `/learn-coding-from-first-principles` | Learn Coding From First Principles - Understand How Code Actually Works |
+| `/learn-to-build-ai` | Learn to Build AI, Not Just Use It |
+| `/levels/coding-for-college-students` | Coding for College Students - Python, DSA, Web Dev & AI |
+| `/levels/coding-for-kids` | Online Coding Classes for Kids Ages 6-12 |
+| `/levels/coding-for-professionals` | Coding for Adults & Beginners: Career Switch to Tech |
+| `/levels/coding-for-teens` | Coding for Teenagers Ages 13-18 |
+| `/levels/corporate-training` | Corporate Coding Training |
+| `/master-ai-ml-python-java` | Master AI, ML, Python & Java - Go Deeper |
+| `/minecraft-coding-classes-for-kids` | Minecraft Coding Classes for Kids |
+| `/mobile-app-development-services` | Mobile App Development Company |
+| `/mvp-development-company` | MVP Development Company for Startups |
+| `/natural-language-processing-course` | Natural Language Processing Course (NLP) |
+| `/neural-networks-course` | Neural Networks Course |
+| `/numpy-pandas-matplotlib-masterclass` | NumPy, Pandas & Matplotlib Masterclass - Python Data Analysis in Depth |
+| `/oca-java-certification-prep` | OCA Java SE 8 Certification (1Z0-808) - Full Exam Guide, Objectives & Live Coaching |
+| `/online-c-plus-plus-classes` | Online C++ Classes |
+| `/online-coding-classes-for-kids-uk` | Online Coding Classes for Kids in the UK |
+| `/online-coding-classes-for-kids-usa` | Online Coding Classes for Kids in the USA |
+| `/online-java-classes` | Online Java Classes |
+| `/pcep-python-certification-prep` | PCEP Certification Preparation - Python Entry-Level Exam Guide & Live Coaching |
+| `/prompt-engineering-course` | Prompt Engineering Course |
+| `/python-and-ai-classes-for-kids-teens` | Python for Kids & Teens |
+| `/python-classes-in-dubai` | Python Classes in Dubai |
+| `/python-classes-in-qatar` | Python Classes in Qatar |
+| `/python-classes-in-saudi-arabia` | Python Classes in Saudi Arabia |
+| `/python-for-beginners-kids` | Python for Beginners Kids - Absolute Zero Start, Fun Projects, Live 1-on-1 Classes |
+| `/python-for-data-science` | Python for Data Science |
+| `/python-for-kids-in-dubai` | Python for Kids in Dubai |
+| `/python-from-the-ground-up` | Python From the Ground Up - Complete, In-Depth Python Course (Grade 6 to Professional) |
+| `/python-projects-for-kids` | Python Projects for Kids - 20+ Finishable Python Projects (Ages 8 to 15) |
+| `/real-coding-classes` | Real Coding Classes - Learn How Code Actually Works, How to Think Like a Programmer & B... |
+| `/results` | Our Results |
+| `/roblox-coding-classes-for-kids` | Roblox Coding Classes for Kids |
+| `/scratch-coding-classes-for-kids` | Scratch Coding Classes for Kids |
+| `/screen-time-to-skill` | Screen Time to Skill Calculator - Turn Your Child's YouTube Hours into Apps, Code & Income |
+| `/software-maintenance-and-support` | Bug Fixing, QA & Software Maintenance Services |
+| `/software-scaling-and-modernization` | Software Scaling & Modernization Services |
+| `/team` | Our Team |
+| `/vibe-coding-classes` | Vibe Coding Classes for Kids, Teens & College |
+| `/web-application-development-services` | Web Application Development Company |
 
 ---
 

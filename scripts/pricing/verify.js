@@ -377,7 +377,7 @@ function checkCampFigures(config) {
                 fail(rel, 'camp page shows ₹' + m[1] + ' but the camp fee is ₹' + inr + '.');
             }
         }
-        const usdRx = /(?:USD \$|\$)\s?(\d[\d,]*)(?![\d.])/g;
+        const usdRx = /(?:USD \$|\$)\s?(\d[\d,]*)(?!\d|\.\d)/g;
         while ((m = usdRx.exec(html)) !== null) {
             if (Number(m[1].replace(/,/g, '')) !== Number(usd)) {
                 fail(rel, 'camp page shows $' + m[1] + ' but the international camp fee is $' + usd + '.');

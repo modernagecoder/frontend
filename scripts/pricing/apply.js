@@ -275,7 +275,9 @@ function syncCampPages(config) {
         let s = before;
         s = s.replace(/(₹|&#8377;)\s?[\d,]+/g, '$1' + inrDisp);
         if (usd !== null && usd !== undefined) {
-            s = s.replace(/(USD \$|\$)\s?\d[\d,]*(?![\d.])/g, '$1' + usd);
+            // (?!\d|\.\d) blocks only decimals — "$60." at a sentence end must
+            // still match, which the old (?![\d.]) lookahead wrongly skipped.
+            s = s.replace(/(USD \$|\$)\s?\d[\d,]*(?!\d|\.\d)/g, '$1' + usd);
         }
         s = s.replace(/("price"\s*:\s*")[\d.]+(")/g, '$1' + inr + '$2');
         if (s !== before) { fs.writeFileSync(p, s); changed++; }

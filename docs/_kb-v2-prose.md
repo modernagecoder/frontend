@@ -32,9 +32,7 @@ The April 2026 knowledge base actively instructed agents to quote figures that a
 | RETIRED, never quote | What it was | Correct current figure |
 |---|---|---|
 | **₹2,499 / month** | Old Mini Batch | Mini Batch is now **₹2,999** |
-| **₹4,999 / month** | Old one-to-one | One-to-one is now **₹7,500** (maths **₹8,500**) |
-| **₹9,999 / month** | Old premium AI-agents one-to-one | Now **₹7,500**, same as every other course |
-| **₹2,499 and ₹4,999 tiers for AI agents** | Old premium agent-course pricing | Now **₹1,499 / ₹2,999 / ₹7,500** |
+| **₹4,999 / month** | Old one-to-one, and the old holiday camp fee | One-to-one is **₹7,500** (maths **₹8,500**); the camp fee is now **₹9,999** |
 | **$40 / month** | Old international group | International group is now **$100** |
 | **$100 / month as the one-to-one price** | Old international one-to-one | $100 is now the **group** price; one-to-one is **$150** |
 | **$149.99 and $374.99** | Old international list prices | Retired entirely |
@@ -46,6 +44,13 @@ The April 2026 knowledge base actively instructed agents to quote figures that a
 | **`/courses/kids-ai-mastery-course`** | Retired URL and retired audience | Now `/courses/teens-ai-tools-mastery-course`, and the **age floor moved to 13+**. This is a contract-law age change, not a rename. Never offer this course to an under-13. |
 
 Also note: the April document told agents that "₹2,499 is the OLD price for one-to-one." That instruction is itself now out of date, because ₹2,499 is retired at every tier and ₹2,999 replaced it at Mini Batch.
+
+> **The rule for deciding whether a figure is retired.** A number counts as retired **only when it is not a current price anywhere in the pricing config**. Numbers can come back. On 3 August 2026 the owner brought **₹9,999** back, so ₹9,999 is now a **live price in two places** and must not be treated as retired:
+>
+> - **₹9,999 / month** is the one-to-one rate for the two premium Codex + Claude Code AI-agents courses (§4.7)
+> - **₹9,999 one time** is the India holiday camp fee (§3.4)
+>
+> These two are easy to confuse because they are the same digits. One is **monthly**, one is a **single payment**. Always say which.
 
 ### 0.2 FACTS THAT NEED OWNER CONFIRMATION (flag, do not guess)
 
@@ -183,6 +188,8 @@ Prices come from one file, `pricing/pricing.config.jsonc`, last changed **1 Augu
 | **Mini Batch** *(Most Popular)* | **₹2,999 / month** | **Just 3 to 4 students** | Near one-to-one attention at an affordable price |
 | **Personalised 1-on-1** | **₹7,500 / month** | 1 student, 1 mentor | Custom curriculum, fast learners, exam prep, advanced learners |
 
+> **Two exceptions to the ₹7,500 one-to-one rate.** Maths one-to-one is **₹8,500** (§3.2). The two premium Codex + Claude Code AI-agents courses are **₹9,999** one-to-one (§4.7). Group and Mini Batch are ₹1,499 and ₹2,999 for every course without exception.
+
 ### 3.2 India, mathematics
 
 Identical to coding **except the one-to-one tier**.
@@ -215,14 +222,16 @@ Per-class maths, useful when a parent asks "is that expensive?":
 
 | Region | Price |
 |---|---|
-| India | **₹4,999 one time** |
-| International | **$60 one time** |
+| India | **₹9,999 one time** |
+| International | **$200 one time** |
+
+> Always say **"one time"** with the camp fee. ₹9,999 is also the monthly one-to-one rate for the two AI-agents courses, so an unqualified "₹9,999" is ambiguous.
 
 ### 3.5 In-school bootcamp programmes (India only)
 
 | Format | Price |
 |---|---|
-| Group | **₹1,999 / month** |
+| Group | **₹1,499 / month** |
 | One-to-one | **₹2,999 / month** |
 
 These are for programmes delivered in partnership with a school. Not offered internationally. Any school enquiry goes to Shivam Sir.
@@ -252,14 +261,15 @@ To get a quote, the customer fills the form on the website or speaks to Shivam S
 ### 3.8 What NOT to say about pricing
 
 - Do **not** quote any price below **₹1,499**. We have no plan cheaper than that.
-- Do **not** quote **₹2,499**, **₹4,999** or **₹9,999**. All three are retired. See §0.1.
+- Do **not** quote **₹2,499** or **₹4,999**. Both are retired. See §0.1.
 - Do **not** quote **$40**, **$149.99** or **$374.99**. All retired.
 - Do **not** quote **$100 as the one-to-one price**. $100 is the **group** price now; one-to-one is **$150**.
 - Do **not** quote **₹7,500 for maths one-to-one**. That tier is **₹8,500**.
+- Do **not** quote **₹7,500 for the two Codex + Claude Code courses**. Their one-to-one rate is **₹9,999**.
+- Do **not** say **₹9,999** without saying whether you mean the AI-agents one-to-one **monthly** rate or the India camp **one-time** fee.
 - Do **not** offer **Mini Batch** to an international customer. It is India only.
 - Do **not** offer any **lifetime** plan.
 - Do **not** promise a discount you cannot confirm. Say "let me check with Shivam Sir for any current offers".
-- Do **not** claim the premium AI-agents courses cost more. Since 1 August 2026 they are priced the same as everything else.
 
 ### 3.9 Payment terms
 
@@ -356,7 +366,7 @@ Two courses on OpenAI Codex and Anthropic Claude Code, 24 hands-on classes: inst
 - Teens: `/courses/codex-and-claude-code-ai-coding-agents-course-for-teens`
 - Adults and professionals: `/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals`
 
-> **Two things to get right.** (1) These are priced **the same as every other course** since 1 August 2026: ₹1,499 / ₹2,999 / ₹7,500. The old ₹2,499 / ₹4,999 / ₹9,999 premium pricing is retired. (2) Students **need their own Claude and ChatGPT subscriptions** for these two courses. Say so before enrolling anyone, so it is never a surprise.
+> **Two things to get right.** (1) **These are the only two courses with a premium one-to-one rate.** Group **₹1,499** and Mini Batch **₹2,999** are the same as everywhere else, but one-to-one is **₹9,999 / month**, not ₹7,500. The owner restored this premium rate on 3 August 2026. Internationally they follow the standard $100 group and $150 one-to-one. (2) Students **need their own Claude and ChatGPT subscriptions** for these two courses. Say so before enrolling anyone, so it is never a surprise.
 
 ### 4.8 Programming languages we teach
 
@@ -815,7 +825,7 @@ For the two Codex + Claude Code courses, yes: students need their own Claude and
 
 ### DO
 
-- Quote prices accurately: **₹1,499 / ₹2,999 / ₹7,500**, maths one-to-one **₹8,500**, international **$100 / $150**
+- Quote prices accurately: **₹1,499 / ₹2,999 / ₹7,500**, maths one-to-one **₹8,500**, AI-agents one-to-one **₹9,999**, international **$100 / $150**
 - Always offer the **free demo class** as the next step
 - Refer to **Shivam Sir on +91 9123366161** for batch timings, custom quotes and anything ambiguous
 - Use "Sir" and "Ma'am" politely with Indian customers
@@ -829,9 +839,11 @@ For the two Codex + Claude Code courses, yes: students need their own Claude and
 ### DO NOT
 
 - Quote any price below **₹1,499**
-- Quote **₹2,499**, **₹4,999**, **₹9,999**, **$40**, **$149.99** or **$374.99**. All retired.
+- Quote **₹2,499**, **₹4,999**, **$40**, **$149.99** or **$374.99**. All retired.
 - Quote **$100 as the one-to-one price**. That is now the group price.
 - Quote **₹7,500 for maths one-to-one**. It is **₹8,500**.
+- Quote **₹7,500 for the Codex + Claude Code courses**. Their one-to-one rate is **₹9,999**.
+- Say **₹9,999** without saying whether it is the AI-agents **monthly** rate or the camp **one-time** fee
 - Offer **Mini Batch** to an international customer
 - Offer any **lifetime** plan or lifetime price
 - Say **"6 to 65"**, **"500+ students"**, **"247 reviews"** or **"15+ countries"**. All retired.
@@ -937,21 +949,27 @@ PRICING (India, per month):
   Group Classes        Rs 1,499    capped at 10 students
   Mini Batch           Rs 2,999    3-4 students     MOST POPULAR
   Personalised 1-on-1  Rs 7,500    1 student + dedicated mentor
-  Maths 1-on-1         Rs 8,500    <- the ONLY subject difference
+  Maths 1-on-1         Rs 8,500    <- maths only
+  AI-agents 1-on-1     Rs 9,999    <- Codex + Claude Code courses only
 
 PRICING (International, per month):
   Group                $100
-  1-on-1               $150
+  1-on-1               $150        (all subjects, incl. AI agents)
   Mini Batch           NOT SOLD outside India
 
-CAMPS ................ Rs 4,999 one-time (India) / $60 (international)
-SCHOOL BOOTCAMP ...... Rs 1,999 group / Rs 2,999 1-on-1 (India only)
+CAMPS ................ Rs 9,999 ONE-TIME (India) / $200 ONE-TIME (intl)
+SCHOOL BOOTCAMP ...... Rs 1,499 group / Rs 2,999 1-on-1 (India only)
 CUSTOM / CORPORATE ... quote-based, route to Shivam Sir
 
+Rs 9,999 IS AMBIGUOUS. Always qualify it:
+  Rs 9,999 / month   = AI-agents 1-on-1
+  Rs 9,999 one time  = India holiday camp
+
 RETIRED, NEVER QUOTE:
-  Rs 2,499 · Rs 4,999 · Rs 9,999 · $40 · $149.99 · $374.99
+  Rs 2,499 · Rs 4,999 · $40 · $149.99 · $374.99
   any "lifetime" plan · "6 to 65" · "500+ students"
   "247 reviews" · "15+ countries" · /courses/kids-ai-mastery-course
+  (Rs 9,999 is NOT retired. It came back on 3 Aug 2026.)
 
 DEMO ................. free, live, real mentor, no card, 30-60 min
 CALLBACK ............. within 3 hours
@@ -978,7 +996,8 @@ ESCALATE TO SHIVAM SIR FOR:
 
 ## 20. CHANGELOG
 
-- **August 2026 (v2.0, this edition).** Rebuilt from the live codebase. Flat worldwide pricing adopted 1 August 2026: India ₹1,499 / ₹2,999 / ₹7,500 (maths one-to-one ₹8,500), international $100 group and $150 one-to-one. Per-country and purchasing-power pricing removed. Premium AI-agent pricing (₹2,499 / ₹4,999 / ₹9,999) retired and levelled to standard rates. Brand facts corrected to 10,000+ students, 547 Google reviews, 25+ countries, ages 6 to 67. Course catalogue grew to 115 and the blog to 116 posts. Added camps and school-bootcamp price rows, the For Business cluster, exam-board maths (A-Level, GCSE, IGCSE, IB, SAT, AP, JEE, PSLE, 11-plus, CBSE Class 10), certification prep, the Codex + Claude Code courses, the tools and games catalogue, the zero-risk guarantee, the registered office address and office hours. Corrected the LinkedIn and Facebook URLs. Kids AI Mastery retired to a 13+ teens course.
+- **4 August 2026 (v2.0, this edition).** Rebuilt from the live codebase. Flat worldwide pricing adopted 1 August 2026: India ₹1,499 / ₹2,999 / ₹7,500 (maths one-to-one ₹8,500), international $100 group and $150 one-to-one. Per-country and purchasing-power pricing removed. Brand facts corrected to 10,000+ students, 547 Google reviews, 25+ countries, ages 6 to 67.
+- **3 August 2026 (owner price change, captured in this edition).** Premium one-to-one restored at **₹9,999** for the two Codex + Claude Code AI-agents courses. Holiday camp fee raised to **₹9,999 one time** in India and **$200** internationally. School bootcamp group rate lowered to **₹1,499**. Because ₹9,999 is a current price again, it is no longer a retired figure. Course catalogue grew to 115 and the blog to 116 posts. Added camps and school-bootcamp price rows, the For Business cluster, exam-board maths (A-Level, GCSE, IGCSE, IB, SAT, AP, JEE, PSLE, 11-plus, CBSE Class 10), certification prep, the Codex + Claude Code courses, the tools and games catalogue, the zero-risk guarantee, the registered office address and office hours. Corrected the LinkedIn and Facebook URLs. Kids AI Mastery retired to a 13+ teens course.
 - **July 2026.** 131 Indian city pages differentiated. Course catalogue and blog expanded heavily. AI Tools Age Guide published. Admin panel rebuilt.
 - **April 2026.** Three-tier pricing rolled out (was two-tier). Mini Batch added as the middle tier, India only.
 - **February 2026.** Refund and cancellation policies last reviewed.

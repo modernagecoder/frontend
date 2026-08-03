@@ -1,10 +1,10 @@
 ---
 title: "Winter Coding Camp for Adults 2026 (Ages 18+) | Online Worldwide | Modern Age Coders"
-description: "Winter Coding Camp for Adults 2026 (Ages 18+) — Online worldwide. Learn Web Development, Python, AI & Data Science in 16 live sessions. Career change or upskill. ₹9,999 / $60."
+description: "Winter Coding Camp for Adults 2026 (Ages 18+) — Online worldwide. Learn Web Development, Python, AI & Data Science in 16 live sessions. Career change or upskill. ₹9,999 / $200."
 canonical: https://learn.modernagecoders.com/winter-coding-camp-adults
 source: src/pages/winter-coding-camp-adults.html
 ---
-> Winter Coding Camp for Adults 2026 (Ages 18+) — Online worldwide. Learn Web Development, Python, AI & Data Science in 16 live sessions. Career change or upskill. ₹9,999 / $60.
+> Winter Coding Camp for Adults 2026 (Ages 18+) — Online worldwide. Learn Web Development, Python, AI & Data Science in 16 live sessions. Career change or upskill. ₹9,999 / $200.
 
 Investment
 
