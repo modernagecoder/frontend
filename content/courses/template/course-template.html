@@ -224,20 +224,26 @@
                     <h3>International Students (Outside India)</h3>
                 </div>
                 <div id="intl-pricing-grid" class="cd-intl-grid">
+                    <!-- Prices come from pricing.config.jsonc via the generator; the
+                         data-price anchors are then re-priced for each visitor's
+                         country at runtime. The modal reads the LIVE figure from the
+                         card at click time, so it can never quote a different price
+                         from the one on screen. These used to be hardcoded $40/$100
+                         and were still telling every visitor the retired flat rate. -->
                     <div class="cd-intl-card">
                         <div class="cd-intl-label">Group Classes</div>
-                        <div class="cd-intl-price">$40</div>
+                        <div class="cd-intl-price" data-price="{{PRICE_SUBJECT}}.international.group">{{INTL_GROUP}}</div>
                         <div class="cd-intl-per">USD / month</div>
                         <div class="cd-intl-note">2 Classes per Week</div>
-                        <a href="javascript:void(0)" onclick="showInternationalContactModal('Group Classes', '$40 USD')" class="cd-intl-btn">Enroll Now</a>
+                        <a href="javascript:void(0)" onclick="showInternationalContactModal('Group Classes', (this.closest('.cd-intl-card').querySelector('[data-price]')||{}).textContent || '')" class="cd-intl-btn">Enroll Now</a>
                     </div>
                     <div class="cd-intl-card rec">
                         <div class="cd-intl-badge">Recommended</div>
                         <div class="cd-intl-label">Personalized</div>
-                        <div class="cd-intl-price">$100</div>
+                        <div class="cd-intl-price" data-price="{{PRICE_SUBJECT}}.international.personal">{{INTL_PERSONAL}}</div>
                         <div class="cd-intl-per">USD / month</div>
                         <div class="cd-intl-note">2 Classes per Week &middot; 1-on-1</div>
-                        <a href="javascript:void(0)" onclick="showInternationalContactModal('Personalized Mentorship', '$100 USD')" class="cd-intl-btn">Enroll Now</a>
+                        <a href="javascript:void(0)" onclick="showInternationalContactModal('Personalized Mentorship', (this.closest('.cd-intl-card').querySelector('[data-price]')||{}).textContent || '')" class="cd-intl-btn">Enroll Now</a>
                     </div>
                 </div>
                 <p class="cd-intl-more">Also available in EUR, GBP, CAD, AUD, SGD &amp; AED. <a href="/contact/">Contact us</a> for details.</p>

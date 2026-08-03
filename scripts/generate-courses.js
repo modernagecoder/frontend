@@ -1127,6 +1127,18 @@ class CourseGenerator {
         // any template can never reach a published page as literal text.
         html = html.replace(/{{PRICE_LIFETIME}}/g, '');
 
+        // International list prices for the static card, from the config. These
+        // were hardcoded $40/$100 in the template and post-edited by fragile
+        // regex swaps for maths/agents pages — which is how all 115 course
+        // pages went on showing the retired flat rate to no-JS visitors after
+        // the worldwide ladder replaced it.
+        const intlPrices = PRICING.coursePrices(meta.slug).international;
+        const usdDisplay = (n) => (n === null || n === undefined)
+            ? '' : PRICING.format(n, 'USD', { style: 'display' });
+        html = html.replace(/{{PRICE_SUBJECT}}/g, this.priceSubjectFor(meta.slug));
+        html = html.replace(/{{INTL_GROUP}}/g, usdDisplay(intlPrices.group));
+        html = html.replace(/{{INTL_PERSONAL}}/g, usdDisplay(intlPrices.personal));
+
         // New meta fields
         html = html.replace(/{{DURATION}}/g, this.escapeHtml(meta.duration || ''));
         html = html.replace(/{{LEVEL}}/g, this.escapeHtml(meta.level || ''));
@@ -1302,12 +1314,9 @@ class CourseGenerator {
             // Robust to body-class variants (the editorial reskin added a class,
             // which silently broke an exact-match replace here before).
             html = html.replace(/<body class="(course-detail-page[^"]*)">/, '<body class="$1" data-subject="maths">');
-            html = html.replace("showInternationalContactModal('Group Classes', '$40 USD')", "showInternationalContactModal('Group Classes', '$100 USD')");
-            html = html.replace("showInternationalContactModal('Personalized Mentorship', '$100 USD')", "showInternationalContactModal('Personalized Mentorship', '$150 USD')");
-            // Static intl FYI cards (editorial markup). Personalized first so the
-            // Group $40 -> $100 swap can't be double-bumped to $150.
-            html = html.replace(/(Personalized<\/div>\s*<div class="cd-intl-price">)\$100(<\/div>)/, '$1$$150$2');
-            html = html.replace(/(Group Classes<\/div>\s*<div class="cd-intl-price">)\$40(<\/div>)/, '$1$$100$2');
+            // The old $40->$100 / $100->$150 regex swaps are gone: the intl card
+            // is now filled from the config via {{INTL_GROUP}}/{{INTL_PERSONAL}}
+            // and the modal reads the live card price at click time.
         }
 
         // Premium Codex + Claude Code courses: international Group $100 / 1-on-1 $150
@@ -1317,10 +1326,7 @@ class CourseGenerator {
         // as maths above: Personalized first so Group $40 -> $100 can't double-bump.
         if (this.isPremiumAgentsCourse(meta.slug)) {
             html = html.replace(/<body class="(course-detail-page[^"]*)">/, '<body class="$1" data-price-tier="agents">');
-            html = html.replace("showInternationalContactModal('Group Classes', '$40 USD')", "showInternationalContactModal('Group Classes', '$100 USD')");
-            html = html.replace("showInternationalContactModal('Personalized Mentorship', '$100 USD')", "showInternationalContactModal('Personalized Mentorship', '$150 USD')");
-            html = html.replace(/(Personalized<\/div>\s*<div class="cd-intl-price">)\$100(<\/div>)/, '$1$$150$2');
-            html = html.replace(/(Group Classes<\/div>\s*<div class="cd-intl-price">)\$40(<\/div>)/, '$1$$100$2');
+            // Same as the maths branch: intl prices come from the config now.
         }
 
         return html;
