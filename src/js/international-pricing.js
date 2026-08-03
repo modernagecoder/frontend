@@ -100,6 +100,14 @@ const InternationalPricing = {
     if (!entry) return;
 
     var self = this;
+
+    function usdText(amount) {
+      return '$' + new Intl.NumberFormat('en-US', {
+        minimumFractionDigits: Number.isInteger(amount) ? 0 : 2,
+        maximumFractionDigits: Number.isInteger(amount) ? 0 : 2
+      }).format(amount);
+    }
+
     [['international', 'coding'], ['internationalMaths', 'maths'], ['internationalAgents', 'agents']]
       .forEach(function (pair) {
         var table = self.PRICES[pair[0]];
@@ -109,11 +117,20 @@ const InternationalPricing = {
           if (!table[tier]) return;
           var amount = prices[tier];
           table[tier].amount = amount;
-          table[tier].display = '$' + new Intl.NumberFormat('en-US', {
-            minimumFractionDigits: Number.isInteger(amount) ? 0 : 2,
-            maximumFractionDigits: Number.isInteger(amount) ? 0 : 2
-          }).format(amount);
+          table[tier].display = usdText(amount);
         });
+
+        // The camp fee lives under the "summer" alias in these tables and its
+        // country price sits under tiers.camps, so the loop above never
+        // reached it. That left the camp PAGES showing the $60 list price
+        // while checkout charged the country price — $54.99 in most of the
+        // world. Customer-favourable, but the page and the payment modal
+        // disagreed in front of the buyer.
+        var camp = entry.tiers && entry.tiers.camps && entry.tiers.camps.oneTime;
+        if (table.summer && camp !== null && camp !== undefined) {
+          table.summer.amount = camp;
+          table.summer.display = usdText(camp);
+        }
       });
   },
 
