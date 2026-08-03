@@ -6,13 +6,55 @@ Everything about money on this website is controlled by one file:
 pricing/pricing.config.jsonc
 ```
 
-You edit that file. Nothing else. Then you run three commands and every page
-updates — the price people see, the price Google is told, the price AI engines
-quote, and the amount Razorpay actually charges.
+Change a number there and every page updates — the price people see, the
+price Google is told, the price AI engines quote, and the amount Razorpay
+actually charges.
 
 ---
 
-## The five-minute version
+## The easiest way: the price editor page
+
+```bash
+npm run dev
+```
+
+Then open **http://localhost:3001/__pricing** in your browser.
+
+You get a simple form with every price on the site, grouped by market:
+
+- **India — Coding** (group / Mini Batch / 1-on-1, in rupees per month)
+- **India — Maths** (same three, maths 1-on-1 is the one price that differs)
+- **India — Premium Codex/Claude courses** (currently same as coding)
+- **India — Other** (school bootcamps, holiday camp)
+- **Outside India** (the flat US-dollar prices every non-Indian visitor pays)
+
+Change the numbers, press **Save & update every page**, and it does the whole
+job: rewrites the config file, updates every page, and then double-checks
+that what every page shows matches what it tells Google. You will see the
+full report on screen. If anything is wrong it says so in plain English and
+puts the old prices back — nothing half-changes.
+
+When it says **✓ Done**, the changes exist only on your computer. To make
+them live:
+
+```bash
+git add -A
+git commit -m "Raise group coding to Rs1,799"
+git push
+```
+
+Netlify rebuilds and the new prices are live everywhere within a few minutes.
+Visitors' browsers pick them up immediately — the pages carry a version stamp
+that changes whenever a price changes, so nobody is ever shown a stale price
+from their cache.
+
+**The editor only exists on your computer.** It is part of the local dev
+server, which never runs on the live site, so nobody on the internet can
+open it or change your prices.
+
+---
+
+## By hand (if you prefer editing the file)
 
 ```bash
 # 1. Open pricing/pricing.config.jsonc and change a number.
@@ -21,7 +63,7 @@ npm run pricing:check      # is my file valid? shows the resulting prices
 npm run pricing:preview    # exactly what would change, changes nothing
 npm run pricing:apply      # write it into every page
 npm run pricing:verify     # prove nothing broke
-npm run pricing:test       # 81 checks, including prices rendered in a real browser
+npm run pricing:test       # 50 checks, including prices rendered in a real browser
 
 git add -A
 git commit -m "Raise group coding to Rs1,799"
@@ -31,333 +73,138 @@ git push
 If `check` or `verify` complains, **stop and read what it says.** They are
 written to tell you what is wrong in plain English, not to be clicked past.
 
----
+Rules for editing the file directly:
 
-## Changing a price — the full walkthrough
-
-### Step 1 — edit the number
-
-Open `pricing/pricing.config.jsonc`. Find the line you want:
-
-```jsonc
-"coding": {
-  "india":         { "group": 1499,   "miniBatch": 2499, "personal": 4999,   "lifetime": null },
-  "international": { "group": 149.99, "miniBatch": null, "personal": 374.99, "lifetime": null }
-},
-```
-
-Change `1499` to `1799`. Save.
-
-**Rules for the number itself:**
-
-- Plain digits only. `1799` — never `1,799`, never `"1799"`, never `₹1799`.
-- India numbers are rupees. International numbers are US dollars.
-- `null` means *we do not sell this*. Leave it as `null` unless you are
-  genuinely starting to sell that plan.
-
-### Step 2 — check it
-
-```bash
-npm run pricing:check
-```
-
-This tells you whether the file is valid **and prints the price every country
-will be charged**, so you can see the consequence before anyone else does:
-
-```
-    Country            PPP       Group      1-on-1      You net     Shown locally  Why
-    India             22.7      ₹1,499      ₹4,999        ₹1464           (exact)  domestic
-    Nigeria           20.9      $61.99     $153.99        ₹5554        NGN 85,000  ppp
-    Germany           81.2     $121.99     $303.99       ₹10932              €110  ppp
-    United States    100.0     $149.99     $374.99       ₹13438           $149.99  list
-```
-
-Read the **"You net"** column. That is what actually reaches your bank after
-Razorpay's fee, GST on that fee, and the currency conversion.
-
-### Step 3 — preview
-
-```bash
-npm run pricing:preview
-```
-
-Shows every change it would make and which files, and writes nothing:
-
-```
-  coding.india.group  ₹1,499 → ₹1,799   (47 files)
-  coding.india.group (schema)  1499 → 1799   (112 files)
-```
-
-If a number appears that you did not intend to change, **stop here.** Nothing
-has been written yet.
-
-### Step 4 — apply and verify
-
-```bash
-npm run pricing:apply
-npm run pricing:verify
-```
-
-`verify` is the safety net. It fails if the price shown on a page does not
-match the price in that page's structured data — the exact fault that was
-live on your homepage before this system existed.
-
-### Step 5 — commit and deploy
-
-```bash
-git add -A
-git commit -m "Raise group coding to Rs1,799"
-git push
-```
-
-Netlify re-runs apply and verify during the build, so a deploy cannot publish
-a page whose prices disagree with the config.
+- Plain digits only: `7500`, never `7,500` or `"7500"` or `₹7500`.
+- `null` means "we do not sell this" — the plan is hidden on pages and
+  Razorpay refuses to charge for it. It is never given a made-up price.
+- Change **values** only. The structure (which rows exist) is rewritten by
+  the editor page from `scripts/pricing/config-template.js`, so structural
+  hand-edits get overwritten on the next editor save.
 
 ---
 
-## What the sections of the config mean
+## The pricing model (deliberately simple)
 
-### 1. `plans` — the prices
+Owner's decision, 2026-08-01: **flat pricing.**
 
-Every price on the site has a name in the form **subject . region . tier**:
+| Who | Group | Mini Batch | 1-on-1 |
+| --- | --- | --- | --- |
+| India — coding | ₹1,499/mo | ₹2,999/mo | ₹7,500/mo |
+| India — maths | ₹1,499/mo | ₹2,999/mo | **₹8,500/mo** |
+| Everywhere else — every course | **$100/mo** | not sold | **$150/mo** |
 
-| | |
-|---|---|
-| **subject** | `coding`, `maths`, `agents`, `school`, `camps` |
-| **region** | `india` (rupees) or `international` (dollars) |
-| **tier** | `group`, `miniBatch`, `personal`, `oneTime` |
+- One US-dollar price list for the entire world outside India. No
+  per-country prices, no currency conversion, no purchasing-power
+  adjustment. A visitor in Dublin, Karachi, Muscat, New York and London
+  all see the same $100 / $150 and pay in dollars.
+- Mini Batch is an India-only plan. Outside India the card simply does not
+  appear.
+- Maths 1-on-1 at ₹8,500 is the single India exception; everything else in
+  India follows the coding prices.
+- The premium Codex + Claude Code courses currently cost the same as every
+  other course, but keep their own rows in the config — put bigger numbers
+  there and premium pricing is back on without touching anything else.
+- School bootcamps and holiday camps have their own one-off rows.
 
-So `coding.india.group` is the ₹1,499 figure, and `maths.international.personal`
-is the $374.99 one.
+How a visitor's market is decided: the browser looks at the visitor's
+language/region settings and timezone. Indian settings → rupees; anything
+else → dollars. When nothing can be detected it assumes India (the home
+market). You can preview either view on any page by adding `?test=india` or
+`?test=intl` to the address.
 
-**The international figures are what the RICHEST countries pay.** Everywhere
-else scales down from there by purchasing power, never below the floor.
-
-**Coding and maths are listed separately even though the Indian prices are
-identical today.** That is deliberate: it means you can raise one without
-touching the other, and nothing has to be rewritten when you do.
-
-**`null` means not sold.** There has never been an international Mini-Batch
-price. Leaving it `null` means the plan is hidden from visitors outside India
-rather than being shown a made-up number. Put a real number there the day you
-decide to sell it, and it appears everywhere by itself.
-
-### 2. `courseOverrides` — one course priced differently
-
-```jsonc
-"courseOverrides": {
-  "codex-and-claude-code-ai-coding-agents-course-for-teens": "agents"
-}
-```
-
-The slug on the left is the course's own slug (its web address). The word on
-the right is any subject from `plans`. To put a course on premium pricing, add
-a line. To put it back, delete the line.
-
-`pricing:check` will tell you if you mistype a slug — a wrong slug silently
-does nothing otherwise.
-
-### 3. `worldwide` — the country-by-country prices
-
-This is what makes a family in Lagos see a price that fits Lagos.
-
-**How it works.** The World Bank publishes a *price level index* for every
-country: how expensive that country is compared with America. India is 22.7,
-Germany 81.2, the USA is 100. Your international list price is scaled by that,
-softened by `dampingExponent`, and then floored.
-
-**The floor is the important part.** Without it, real World Bank data would put
-**69 countries below what an Indian family pays you** for the same live
-teacher-hour. Steam and Google Play can discount that deeply because copying a
-game costs nothing. A live class costs a teacher's hour whether the seat sells
-in Lagos or Oslo. So the floor guarantees:
-
-> No country is ever charged less, after all fees, than an Indian enrolment
-> nets you.
-
-**The dials you can turn:**
-
-| Setting | What it does |
-|---|---|
-| `enabled` | `false` switches the whole thing off — everyone outside India pays list price, exactly as before this system existed |
-| `dampingExponent` | How closely to follow purchasing power. `0` = everyone pays list. `1` = follow it exactly, which is too deep for live teaching. `0.57` matches how your ₹1,499 and $40 already relate |
-| `maxDiscountPercent` | Never discount more than this, whatever the data says |
-| `maxPremiumPercent` | `100` means never charge above list. Raise it to `110` if you decide rich countries should pay a premium |
-| `costs` | What collecting the money costs you. Used to work out the floor |
-| `unstableCurrencies` | Currencies too volatile to quote. These visitors see dollars only |
-| `unifiedCurrencyZones` | Countries sharing a currency all pay the same. `EUR` is on, so every euro country sees one price. Add `XOF`, `XAF`, `XCD` to treat the CFA franc and East Caribbean zones the same way |
-
-**One number in `costs` is still a guess:**
-
-- `fxSpreadBufferPercent` is set to `3`. Razorpay does not publish its card
-  conversion spread anywhere. This is a cushion, not a measurement.
-
-`gstOnServicePercent` is `0`, confirmed by your CA on 2026-07-31 as a
-zero-rated export of services. If that ruling ever changes to 18, put `18` here
-and every floor rises about 22%.
-
-**`minNetInr` is your safety net.** It is the least you will accept from one
-international sale, in rupees, after every fee and the conversion: ₹3,000 for
-group, ₹9,500 for 1-on-1. At the current top price neither ever binds — the
-cheapest country still nets ₹5,375 — so they are insurance against a future
-price cut or a currency collapse.
-
-### 4. `display`
-
-`classesPerMonth` is used to recalculate the "per class" figures that appear on
-some pages. Because they are recalculated rather than replaced, the arithmetic
-on the page can never fall out of step with the headline price.
-
-### 5. `allowlist`
-
-Files and patterns the checker must ignore, because they contain numbers that
-look like prices but are not — `z-index: 9999`, SQL rows in a lesson, quiz
-answers, competitor rates, hackathon prize money.
+If the pricing data somehow fails to load for an international visitor, the
+payment button refuses to charge rather than guessing — a failed lookup can
+never bill the rupee amount in dollars or vice versa.
 
 ---
 
-## How a price actually reaches a page
+## What updates automatically when you save
 
-Prices are **not** found by searching pages for numbers. That would be
-catastrophic here: `9999` on this site is a `z-index` in `nav.html`, a
-`border-radius`, a quiz answer *and* a price, and `4999` is part of `49999`.
+1. **Visible prices** on every page — every price figure is tagged with a
+   `data-price` anchor, so the pipeline finds and rewrites all of them.
+2. **Google's structured data** (the JSON-LD schema blocks) — offers are
+   restamped from the config; the verifier then re-reads every page and
+   fails loudly if a shown price and a schema price ever disagree.
+3. **AI-engine feeds** — `llms.txt` and the `.md` twins of pages are
+   regenerated with the new figures.
+4. **Razorpay** — the checkout reads the same generated data file, so the
+   charge always matches the page. India pays in INR, everyone else in USD.
+5. **Course pages** — regenerated course HTML picks prices up from the same
+   config (`courseOverrides` maps a course slug to a different price row).
+6. **Caches** — the generated pricing script gets a new content-hash
+   version stamp, so browsers and the service worker fetch the new prices
+   immediately.
 
-Instead, each price sits in a labelled slot:
-
-```html
-<span data-price="coding.india.group">₹1,499</span>
-```
-
-and structured data is labelled on the `<script>` tag:
-
-```html
-<script type="application/ld+json" data-price-scope="coding.india">
-```
-
-`pricing:apply` fills those slots and nothing else. The number left in the file
-is the last one stamped, so the page is always correct on its own even if the
-build never runs.
-
-### Adding a price to a new page
-
-Write the slot, put today's price inside it, and run apply:
-
-```html
-<span data-price="coding.india.group">₹1,499</span>
-```
-
-That page is now part of the system permanently. Optional extras:
-
-| Attribute | Result |
-|---|---|
-| *(nothing)* | `₹1,499` |
-| `data-price-format="amount"` | `1,499` |
-| `data-price-format="full"` | `₹1,499/month` |
-| `data-price-format="plain"` | `1499` |
-| `data-price-derive="perClass"` | `₹187` — worked out, not typed |
+Future pages are covered too: `pricing:apply` injects the two pricing
+scripts into any page that shows a price and `pricing:verify` fails any
+page that is missing them, so a page added next year cannot silently show
+the wrong region's prices.
 
 ---
 
-## When something goes wrong
+## The safety nets
 
-**`check` says my file is not valid.**
-Almost always a missing comma between two lines, or an extra comma after the
-last item in a list. The message tells you which line. Comments starting with
-`//` are fine and never cause this.
-
-**`apply` says an offer "does not match any plan".**
-A page has structured data describing a plan whose name the system does not
-recognise. Either rename it to match the others, or tell me and I will add the
-name.
-
-**`verify` says visible price does not match structured data.**
-That page has a price sitting outside a labelled slot. It needs one. This is
-the check that matters most — it is the exact fault that was live on your
-homepage.
-
-**I changed a price and a page still shows the old one.**
-Run `npm run pricing:apply`. If it still shows the old price, that page's
-number is not in a slot yet.
-
-### Undoing a price change
-
-```bash
-git log --oneline -- pricing/pricing.config.jsonc   # find the change
-git revert <commit>
-npm run pricing:apply
-npm run pricing:verify
-```
+- **`pricing:check`** — validates the config before anything is written:
+  digits only, no missing required prices, every `courseOverrides` slug
+  matches a real course.
+- **`pricing:preview`** — shows the exact replacements `apply` would make,
+  and changes nothing.
+- **`pricing:verify`** — re-reads every page after `apply` and confirms:
+  every shown price matches the config, every schema price matches its
+  shown price, no **retired figure** (old prices like $40, $149.99,
+  ₹2,499, ₹4,999, ₹9,999) survives anywhere Google or a visitor can see
+  it, and every price-bearing page carries the two pricing scripts.
+- **`pricing:test`** — 50 automated checks: 26 on the stamping logic, 15
+  that render real pages in a headless browser and read the visible text
+  back (India view, international view, hidden Mini Batch, the maths
+  ₹8,500 exception, the refuse-to-charge path), and 9 on phone-number
+  handling.
+- **Netlify runs `apply` + `verify` on every deploy** — a deploy with a
+  price mismatch fails instead of going live.
+- The editor page runs `check → apply → verify` for you on every save and
+  rolls the config back if `check` rejects it.
 
 ---
 
-## Adding prices that are not yet under control
+## Files in this folder
 
-```bash
-npm run pricing:tag              # report only
-npm run pricing:tag -- --write   # anchor the confident ones
-```
+| File | What it is |
+| --- | --- |
+| `pricing.config.jsonc` | **The prices.** The only file you edit. |
+| `README.md` | This guide. |
 
-A price only changes when you edit the config if it is *anchored* — wrapped in
-`data-price`. An unanchored price still gets shown in the visitor's currency,
-but its VALUE stays as somebody typed it.
+The machinery lives in `scripts/pricing/`:
 
-`pricing:tag` finds unanchored prices and splits them in two:
+| File | Job |
+| --- | --- |
+| `editor.js` | The `/__pricing` editor page (local dev server only). |
+| `config-template.js` | Renders the config file; keeps its comments intact. |
+| `check.js` | Validates the config, prints the resulting price table. |
+| `apply.js` | Writes prices into pages, schema, feeds; injects scripts. |
+| `verify.js` | Proves every page matches the config. |
+| `test-stamp.js` / `test-rendered.js` / `test-phone.js` | The 50 tests. |
+| `lib/config.js` / `lib/stamp.js` | Shared price resolution and schema stamping. |
+| `tag.js`, `sweep-india.js`, `sweep-retired.js` | One-off migration tools already run; kept for history. |
 
-- **Confident** — a number sitting in a price component with its plan named
-  nearby. Anchored automatically.
-- **Needs you** — a number inside a sentence, or one whose plan cannot be read
-  from its surroundings. Left alone and listed in `pricing/TAGGING-REVIEW.md`.
-
-That split is deliberate. A wrong key does not fail loudly: it silently
-rewrites one plan's price to another plan's figure on the next build. `$100` is
-treated as ambiguous by default, because it used to be coding's 1-on-1 rate
-*and* maths's group rate.
-
-To anchor one from the review list yourself, wrap the number:
-
-```html
-<span data-price="coding.india.group">₹1,499</span>
-```
-
-## Keeping the worldwide data fresh
-
-```bash
-npm run pricing:refresh
-```
-
-Pulls the latest World Bank price levels and exchange rates and writes them to
-`pricing/data/`. Both are committed to the repository on purpose — the website
-never calls these services from a visitor's browser, which would hand every
-visitor's IP address to a company they have no relationship with and put a
-network round trip in front of your prices.
-
-Exchange rates move daily; purchasing power parity is republished about once a
-year. **Running this monthly is plenty.** `check` warns you when the rates are
-more than 30 days old.
-
-The refresh cross-checks the rates against European Central Bank figures and
-refuses to write anything if the two disagree by more than 2%, because a wrong
-exchange rate would silently mis-floor every price on the site.
-
-**Attribution is required.** The country price levels come from the World Bank
-under CC BY 4.0, so wherever these prices are shown the page must carry:
-
-> Price levels from World Bank World Development Indicators (PA.NUS.PRVT.PLI), CC BY 4.0.
+Browser-side: `src/js/pricing-data.generated.js` (the prices, generated —
+never edit) and `src/js/international-pricing.js` (detects India vs not,
+fills the anchors, hides unsold plans).
 
 ---
 
-## What is still open
+## Things that will bite you if you forget
 
-1. **Prices awaiting your decision.** See `pricing/TAGGING-REVIEW.md`. These are
-   visible on the site but not yet controlled by the config, almost all of them
-   inside sentences. Their currency is localised; their value is not.
-
-2. **Razorpay's FX spread.** `fxSpreadBufferPercent` is set to `3` as a cushion.
-   Razorpay does not publish its card conversion spread anywhere. One live
-   low-value charge, reading back `payment.base_amount` against the mid-market
-   rate at that moment, would settle it.
-
-Settled since this file was written: service GST is 0%, confirmed by the
-owner's CA on 2026-07-31 as a zero-rated export of services. And the phone
-forms now accept international numbers — they used to demand exactly ten
-digits, which rejected Oman, the UAE, Singapore, Norway and China outright.
+- **Never hand-type a price into a page.** Untagged figures are exactly
+  what this system exists to eliminate. If a new page needs a price, give
+  it a `data-price="subject.region.tier"` anchor and let the pipeline fill
+  it in — copy an existing one from `src/pages/pricing.html`.
+- **Prose sentences** ("costs less than a pizza a month") are not touched
+  automatically. `TAGGING-REVIEW.md` lists the ones found during
+  migration; review them when the wording matters.
+- **Generated course pages** (`content/courses/generated/`) are rebuilt on
+  deploy — editing them is useless; prices flow from the config and
+  `content/courses/data/*.json`.
+- The `updated` date in the config changes on every editor save. That is
+  what re-stamps the cache version — it is supposed to change; do not
+  "tidy" it back.
