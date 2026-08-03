@@ -71,7 +71,7 @@ We recommend Tynker to some families. Here is the honest split.
 
 ### What the money actually buys
 
-Tynker: ~$180 a year for **software access, no teacher**MAC group: $40 a month for **8 live taught hours**MAC 1-on-1: $100 a month, **$12.50 per taught hour**
+Tynker: ~$180 a year for **software access, no teacher**MAC group: $100 a month for **8 live taught hours**MAC 1-on-1: $100 a month, **$12.50 per taught hour**
 
 The comparison is not price, it is what the money buys: a year of app access versus a live mentor every week. Tynker figures as of July 2026 (tynker.com).
 
@@ -123,7 +123,7 @@ At five, a playful app like Tynker Junior is a fine first step. Our live classes
 
 What does Modern Age Coders cost?
 
-Live small-group coding is $40 a month and true 1-on-1 is $100 a month for international students, both with 8 one-hour live classes. Maths is available in the same school. No registration fee, monthly billing, and every student starts with a free live demo class.
+Live small-group coding is $100 a month and true 1-on-1 is $150 a month for international students, both with 8 one-hour live classes. Maths is available in the same school. No registration fee, monthly billing, and every student starts with a free live demo class.
 
 [What kids coding classes cost](/coding-classes-for-kids-cost)[vs Juni Learning](/modern-age-coders-vs-juni-learning)[vs Outschool](/modern-age-coders-vs-outschool)[Best coding classes for kids 2026](/best-online-coding-classes-for-kids-2026)[Full pricing](/pricing)
 

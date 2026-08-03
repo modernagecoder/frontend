@@ -374,7 +374,7 @@ Get Started
 
 ### 1-on-1 Classes
 
-₹2499/month
+₹7500/month
 
 - ✓ 2 Personal Sessions/Week
 - ✓ Customized CBSE curriculum

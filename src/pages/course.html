@@ -2145,7 +2145,7 @@
                 // BOTH regions: India group starts at ₹1,499, international at $100.
                 const isMathsCourse = /math|calculus|algebra/i.test(course.templateUrl || '');
                 const isAgentsCourse = /codex-and-claude-code/i.test(course.templateUrl || '');
-                const intlStart = (isMathsCourse || isAgentsCourse) ? '$100' : '$40';
+                const intlStart = '$100';   // flat model: every course, one USD price list
                 const priceAmount = isIndian ? (isAgentsCourse ? '₹1,499' : '₹1,499') : intlStart;
                 const prepPrice = isIndian ? '₹1,499/month' : intlStart + '/month';
                 const isHackathon = course.isHackathon === true;

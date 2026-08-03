@@ -317,7 +317,7 @@ Live small-batch classes, two sessions a week.
 - ** Recordings for revision
 - ** Certificate & portfolio
 
-[Start free trial](/book-demo)Most personalMini-Batch₹2,499/month
+[Start free trial](/book-demo)Most personalMini-Batch₹2,999/month
 
 Tiny 3–4 student groups for closer attention.
 
@@ -326,7 +326,7 @@ Tiny 3–4 student groups for closer attention.
 - ** Recordings for revision
 - ** Certificate & portfolio
 
-[Start free trial](/book-demo)1-on-1₹4,999/month
+[Start free trial](/book-demo)1-on-1₹7,500/month
 
 Fully personalised, scheduled around you.
 

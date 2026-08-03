@@ -282,7 +282,7 @@ Same curriculum, same mentors, in a small live group. Friendly entry point.
 
 USD40/ month
 
-$40 / month · billed in USD · no joining fee
+$100 / month · billed in USD · no joining fee
 
 - 8 live small-group sessions every month
 - Up to 6 students per group, age & grade-banded
@@ -296,7 +296,7 @@ How we compare
 
 School AP classes, private tutors, Outschool / Juni / iD Tech, free YouTube — each has a place. Here's where we sit.
 
-What mattersModern Age CodersSchool AP CS classOutschool / Juni / iD TechYouTube · freeSame 1:1 mentor weekly, all year✓ Yes— Class format~ Rotating— NoReal coding (Python · JS · Git · deploy)✓ Week 1✓ AP CSA Java~ Depends~ Self-drivenModern AI & agentic-AI✓ Built in— Rare~ Marketing~ TutorialsAP CSP / AP CSA alignment✓ Both✓ Native~ Sometimes— NoUSACO coaching✓ All divisions— Rare~ Limited— NoIvy / MIT / Stanford admissions awareness✓ Yes— No~ Marketing— NoMonthly cost$100 (1:1) / $40 (group)Free (in school)$200 – $700 / moFreeCancel / pause✓ Monthly~ School term~ Quarterly✓ FreeAll 50 states covered
+What mattersModern Age CodersSchool AP CS classOutschool / Juni / iD TechYouTube · freeSame 1:1 mentor weekly, all year✓ Yes— Class format~ Rotating— NoReal coding (Python · JS · Git · deploy)✓ Week 1✓ AP CSA Java~ Depends~ Self-drivenModern AI & agentic-AI✓ Built in— Rare~ Marketing~ TutorialsAP CSP / AP CSA alignment✓ Both✓ Native~ Sometimes— NoUSACO coaching✓ All divisions— Rare~ Limited— NoIvy / MIT / Stanford admissions awareness✓ Yes— No~ Marketing— NoMonthly cost$150 (1:1) / $100 (group)Free (in school)$200 – $700 / moFreeCancel / pause✓ Monthly~ School term~ Quarterly✓ FreeAll 50 states covered
 
 ## Mentors live in every state. Your zip code is supported.
 
@@ -488,7 +488,7 @@ All six US time zones: Hawaii (HT, UTC −10), Alaska (AKT, −9), Pacific (PT, 
 
 What does it cost?
 
-Private 1:1 mentorship is **$100 per month** for 8 sessions — two per week. Small-group cohort is **$40 per month** on the same schedule. No registration fee, no annual contract, month-to-month. Cancel any time before the next billing cycle, no fee.
+Private 1:1 mentorship is **$150 per month** for 8 sessions — two per week. Small-group cohort is **$100 per month** on the same schedule. No registration fee, no annual contract, month-to-month. Cancel any time before the next billing cycle, no fee.
 
 Is this a coding bootcamp?
 

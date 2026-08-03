@@ -169,7 +169,7 @@ Group₹1,499/month
 - Doubt-clearing support
 - Completion certificate
 
-Start freeMini Batch₹2,499/month
+Start freeMini Batch₹2,999/month
 
 2 live classes a week · just 3–4 students
 
@@ -178,7 +178,7 @@ Start freeMini Batch₹2,499/month
 - Faster doubt resolution
 - Closer progress tracking
 
-Book a free demoPersonal 1-on-1₹4,999/month
+Book a free demoPersonal 1-on-1₹7,500/month
 
 2 private sessions a week · fully bespoke
 

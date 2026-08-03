@@ -142,7 +142,7 @@ Two formats, clearly priced. Start with a free demo before you pay anything.
 
 ### Live group classes (mini batch)
 
-₹2,499/ month
+₹2,999/ month
 
 - Two live classes every week
 - Small mini-batch with a real instructor
@@ -153,7 +153,7 @@ Book a free demo
 
 ### One-to-one personalised
 
-₹4,999/ month
+₹7,500/ month
 
 - Two live classes every week
 - A dedicated teacher, fully on your child's pace
@@ -198,7 +198,7 @@ Do you have girls-only batches?
 
 What do the best coding classes near Siddha Town, Madhyamgram cost?
 
-**Live group mini-batches are ₹2,499 a month and one-to-one classes are ₹4,999 a month, each with two live classes every week.** Families looking for coding classes for kids near Siddha Town, Python classes in Madhyamgram or online maths tuition in Madhyamgram pay the same simple fees as anyone across Kolkata — there is no surcharge for the distance, because the class comes to your flat. Start with a free demo before you pay anything.
+**Live group mini-batches are ₹2,999 a month and one-to-one classes are ₹7,500 a month, each with two live classes every week.** Families looking for coding classes for kids near Siddha Town, Python classes in Madhyamgram or online maths tuition in Madhyamgram pay the same simple fees as anyone across Kolkata — there is no surcharge for the distance, because the class comes to your flat. Start with a free demo before you pay anything.
 
 How do we get started?
 

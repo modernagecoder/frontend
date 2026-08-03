@@ -55,7 +55,7 @@ Demand outruns supply in most districts. A live online mentor has no waitlist an
 
 ### Juni-style quotes gave you pause
 
-$250 a month for two short sessions is real money. Eight full hours for $40-$100 changes the decision entirely.
+$250 a month for two short sessions is real money. Eight full hours for $100-$150 changes the decision entirely.
 
 ### The app subscription went stale
 
@@ -217,7 +217,7 @@ Ages 6-14 on this ladder: Scratch (6-8), game building and first text code (9-11
 
 How is this different from Juni, Outschool or Code Ninjas?
 
-Contact time, continuity and price. We give 8 full one-hour live classes a month with the same dedicated mentor for $40-$100; Juni-style platforms run $200-$300 for fewer, shorter sessions, marketplaces sell one-off classes with no continuity, and centers add a commute. The teaching method, ideas before recipes, child explaining aloud, is the deeper difference, and the free demo shows it.
+Contact time, continuity and price. We give 8 full one-hour live classes a month with the same dedicated mentor for $100-$150; Juni-style platforms run $200-$300 for fewer, shorter sessions, marketplaces sell one-off classes with no continuity, and centers add a commute. The teaching method, ideas before recipes, child explaining aloud, is the deeper difference, and the free demo shows it.
 
 Will this help with school and AP Computer Science later?
 

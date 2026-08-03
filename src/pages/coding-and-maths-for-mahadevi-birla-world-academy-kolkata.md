@@ -209,7 +209,7 @@ Select Group BatchRECOMMENDED
 
 Complete personalization & flexibility.
 
-₹2499/ month
+₹2999/ month
 
 - ✓ 2 Exclusive Private Sessions
 - ✓ Direct WhatsApp to Mentor

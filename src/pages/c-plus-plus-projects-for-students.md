@@ -126,7 +126,7 @@ Start Free DemoMost Popular
 
 ### Mini Batch
 
-₹2,499per month · 2 classes/week
+₹2,999per month · 2 classes/week
 
 - Only 3–4 learners per batch
 - More personal mentoring
@@ -137,7 +137,7 @@ Start Free Demo
 
 ### 1-on-1 Personal
 
-₹4,999per month · fully personalised
+₹7,500per month · fully personalised
 
 - Dedicated personal mentor
 - Custom project roadmap

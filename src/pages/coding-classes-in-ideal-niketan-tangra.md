@@ -142,7 +142,7 @@ Two formats, clearly priced. Start with a free demo before you pay anything.
 
 ### Live group classes (mini batch)
 
-₹2,499/ month
+₹2,999/ month
 
 - Two live classes every week
 - Small mini-batch with a real instructor
@@ -153,7 +153,7 @@ Book a free demo
 
 ### One-to-one personalised
 
-₹4,999/ month
+₹7,500/ month
 
 - Two live classes every week
 - A dedicated teacher, fully on your child's pace

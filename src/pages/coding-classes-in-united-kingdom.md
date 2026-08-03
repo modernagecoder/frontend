@@ -326,7 +326,7 @@ Plain pricing · cancel monthly
 
 £79 a month for 1:1 mentorship. £32 a month for a small-group cohort. No registration fee, no annual contract, pause for half-term or exam leave whenever you need.
 
-What's includedSmall-group cohort1:1 Private mentorNotesMonthly cost£32/ mo£79/ moBilled in USD ($40 / $100)Live sessions per month8 sessions8 sessions2 per week, same slotsSame mentor every week~ Same cohort✓ YesSwitch any timeCustom curriculum & pace— Shared✓ Fully customMapped to exam boardExam-board paper drills✓ Group drills✓ PersonalisedAQA · OCR · PearsonA-Level NEA project coaching— No✓ Yes, full project1:1 mentor requiredOxbridge interview prep— No✓ Cambridge + Oxford1:1 mentor requiredClass recordings + parent report✓ Monthly✓ WeeklyEmail or WhatsAppCancel / pause✓ Monthly✓ MonthlyNo fee, no contractFree trial lesson✓ Yes✓ Yes30 minutes, no cardHow we compare
+What's includedSmall-group cohort1:1 Private mentorNotesMonthly cost£32/ mo£79/ moBilled in USD ($100 / $150)Live sessions per month8 sessions8 sessions2 per week, same slotsSame mentor every week~ Same cohort✓ YesSwitch any timeCustom curriculum & pace— Shared✓ Fully customMapped to exam boardExam-board paper drills✓ Group drills✓ PersonalisedAQA · OCR · PearsonA-Level NEA project coaching— No✓ Yes, full project1:1 mentor requiredOxbridge interview prep— No✓ Cambridge + Oxford1:1 mentor requiredClass recordings + parent report✓ Monthly✓ WeeklyEmail or WhatsAppCancel / pause✓ Monthly✓ MonthlyNo fee, no contractFree trial lesson✓ Yes✓ Yes30 minutes, no cardHow we compare
 
 ## Side-by-side with what most British families already tried.
 

@@ -294,7 +294,7 @@ Because practice repeats what the student already does, including the errors. A 
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract. IGCSE-specialist tutors bill $40 to $100 an hour for the same format.
+Pricing is a flat $100 a month for group classes and $150 for 1-on-1, billed in US dollars. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract. IGCSE-specialist tutors bill $40 to $100 an hour for the same format.
 
 Do you also cover GCSE (the UK domestic exam)?
 

@@ -16,7 +16,7 @@ Live, not recordedSmall batches (max 6-8)Engineer & maths-graduate tutorsICSE Ja
 
 ## The essentials, on one page
 
-Format**100% live online** — real tutor, real time, never pre-recordedBatch sizeSmall live batches: group max 6-8, mini batch 3-4, or 1-on-1Ages6 to 17 (school), plus college, girls-only and corporate tracksSubjectsCoding (Python, Java, AI/ML, web, DSA) + MathematicsBoardsICSE (Java/BlueJ), CBSE (Python/Informatics Practices), IGCSE/IBFees**From ₹1,499/month** (group) · ₹2,499 (mini batch) · ₹4,999 (1-on-1)Free demoYes — one free live demo class, no commitmentServingNew Town, Rajarhat, Action Area I/II/III, Eco Park, DLF IT Park beltPremium, genuinely live
+Format**100% live online** — real tutor, real time, never pre-recordedBatch sizeSmall live batches: group max 6-8, mini batch 3-4, or 1-on-1Ages6 to 17 (school), plus college, girls-only and corporate tracksSubjectsCoding (Python, Java, AI/ML, web, DSA) + MathematicsBoardsICSE (Java/BlueJ), CBSE (Python/Informatics Practices), IGCSE/IBFees**From ₹1,499/month** (group) · ₹2,999 (mini batch) · ₹7,500 (1-on-1)Free demoYes — one free live demo class, no commitmentServingNew Town, Rajarhat, Action Area I/II/III, Eco Park, DLF IT Park beltPremium, genuinely live
 
 ## A real live class, not a recorded course
 

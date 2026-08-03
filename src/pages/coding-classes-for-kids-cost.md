@@ -22,7 +22,7 @@ By format
 
 Typical published US prices as of July 2026. Sources: myelearningworld.com, brighterly.com, tynker.com, masandpas.com, and provider sites.
 
-Self-paced apps (Tynker)~$180 / yeargamified lessons, no live teacherClass marketplaces (Outschool)$10 to $30per class hour, teacher by teacher; series and 1-on-1 $50 to $100+Semi-private programs (Juni)from ~$160per month, 2 students, weekly sessions1-on-1 programs (Juni)$275 to $299per month for 4 sessions (~$70 per class)Private STEM tutors$25 to $80per hour, general US tutoring ratesLive online schools (Modern Age Coders)$40 to $100per month, 8 live one-hour classes, group or 1-on-1Behind the number
+Self-paced apps (Tynker)~$180 / yeargamified lessons, no live teacherClass marketplaces (Outschool)$10 to $30per class hour, teacher by teacher; series and 1-on-1 $50 to $100+Semi-private programs (Juni)from ~$160per month, 2 students, weekly sessions1-on-1 programs (Juni)$275 to $299per month for 4 sessions (~$70 per class)Private STEM tutors$25 to $80per hour, general US tutoring ratesLive online schools (Modern Age Coders)$100 to $150per month, 8 live one-hour classes, group or 1-on-1Behind the number
 
 ## What actually drives the price
 
@@ -70,7 +70,7 @@ We are a live online school. Every class is one full hour of deep, interactive, 
 
 ### Our published coding pricing
 
-Small group: $40 a month = **$5 per live class**True 1-on-1: $100 a month = **$12.50 per dedicated hour**Every plan: **8 one-hour live classes a month**Enrollment fees: **$0** · Contracts: **none**
+Small group: $100 a month = **$12.50 per live class**True 1-on-1: $150 a month = **$18.75 per dedicated hour**Every plan: **8 one-hour live classes a month**Enrollment fees: **$0** · Contracts: **none**
 
 Rated 4.9 across 547 Google reviews. The same dedicated taught hour US programs sell for ~$70, from a structurally different cost base. Judge the depth in a free demo class.
 
@@ -84,7 +84,7 @@ For real, live teaching in 2026: $40 to $160 a month for group formats and $100 
 
 Are coding apps worth it instead of classes?
 
-As a first taste for ages 5 to 7, yes. As the plan for actually learning to build, rarely: apps cannot explain, correct, or hold a child accountable, which is why most app subscriptions go quiet by month two. The honest budget question is whether ~$15 a month of software beats $40 a month of live taught hours.
+As a first taste for ages 5 to 7, yes. As the plan for actually learning to build, rarely: apps cannot explain, correct, or hold a child accountable, which is why most app subscriptions go quiet by month two. The honest budget question is whether ~$15 a month of software beats $100 a month of live taught hours.
 
 Why is Modern Age Coders so much less than Juni for 1-on-1?
 

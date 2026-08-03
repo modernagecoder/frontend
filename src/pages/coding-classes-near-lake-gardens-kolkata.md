@@ -206,7 +206,7 @@ Join the demo from the same room, watch a full-time engineer teach, and confirm 
 
 ### Pick the track and plan
 
-Choose the right course and a plan that fits — group from ₹1,499, Mini Batch ₹2,499, or 1-on-1 at ₹4,999.
+Choose the right course and a plan that fits — group from ₹1,499, Mini Batch ₹2,999, or 1-on-1 at ₹7,500.
 
 [View pricing →](/pricing)
 

@@ -121,7 +121,7 @@ No, Kumon covers maths and reading only. Modern Age Coders teaches coding and ma
 
 What does Modern Age Coders cost, exactly?
 
-For international students, maths is $100 a month in a small group or $150 a month 1-on-1, and coding is $40 a month in a group or $100 1-on-1. Every plan is 2 live classes a week, 8 a month, with no registration fee and monthly billing you can stop anytime. Every student starts with a free demo class.
+For international students, maths and coding are both $100 a month in a small group or $150 a month 1-on-1. Every plan is 2 live classes a week, 8 a month, with no registration fee and monthly billing you can stop anytime. Every student starts with a free demo class.
 
 [What math tutoring costs in 2026](/online-math-tutor-cost)[vs Mathnasium](/modern-age-coders-vs-mathnasium)[vs Cuemath](/modern-age-coders-vs-cuemath)[Best online math tutoring 2026](/best-online-math-tutoring-2026)[Full pricing](/pricing)
 

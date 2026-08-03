@@ -142,7 +142,7 @@ Two formats, clearly priced. Start with a free demo before you pay anything.
 
 ### Live group classes (mini batch)
 
-₹2,499/ month
+₹2,999/ month
 
 - Two live classes every week
 - Small mini-batch with a real instructor
@@ -153,7 +153,7 @@ Book a free demo
 
 ### One-to-one personalised
 
-₹4,999/ month
+₹7,500/ month
 
 - Two live classes every week
 - A dedicated teacher, fully on your child's pace
@@ -178,7 +178,7 @@ What ages do you teach?
 
 What does it cost, and can we try first?
 
-**Group mini-batches are ₹2,499 a month and one-to-one is ₹4,999 a month, each with two live classes a week — and the demo is free.** You and your child see the teaching first-hand before you decide, with no pressure to enrol.
+**Group mini-batches are ₹2,999 a month and one-to-one is ₹7,500 a month, each with two live classes a week — and the demo is free.** You and your child see the teaching first-hand before you decide, with no pressure to enrol.
 
 What device and internet do we need at home in Sukhobrishti?
 

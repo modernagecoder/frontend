@@ -387,7 +387,7 @@ No "call us for pricing." No surprise fees. Every plan includes live classes twi
 
 Up to 10 students
 
-₹1,499 / month$40 USD / month
+₹1,499 / month$100 USD / month
 
 - 2 live classes every week
 - Full depth-first curriculum
@@ -400,7 +400,7 @@ Try a free demoMost chosen
 
 3–4 students · India
 
-₹2,499 / month
+₹2,999 / month
 
 - Near 1-on-1 attention
 - Pace adjusted to the batch
@@ -413,7 +413,7 @@ Try a free demo
 
 Just you and the mentor
 
-₹4,999 / month$100 USD / month
+₹7,500 / month$150 USD / month
 
 - 2 private sessions every week
 - Curriculum bent around your goals
@@ -424,7 +424,7 @@ Try a free demo
 
 **International students:** prices are shown in your own currency and adjusted for your country (use the toggle above). Full details on the [pricing page](/pricing). The first demo class is always free — no payment details required.
 
-**International pricing:** Group classes are $40 USD/month and 1-on-1 personal classes are $100 USD/month — same live mentors, same depth-first curriculum, scheduled for your time zone. Students in India pay in ₹ (use the toggle above). Full details on the [pricing page](/pricing). The first demo class is always free — no payment details required.
+**International pricing:** Group classes are $100 USD/month and 1-on-1 personal classes are $150 USD/month — same live mentors, same depth-first curriculum, scheduled for your time zone. Students in India pay in ₹ (use the toggle above). Full details on the [pricing page](/pricing). The first demo class is always free — no payment details required.
 
 § 09 · Start here
 

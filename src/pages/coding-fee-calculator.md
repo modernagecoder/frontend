@@ -22,7 +22,7 @@ Pick your details on the left. The fee updates instantly. We do not store anythi
 
 **Eligible for scholarship.**Estimated monthly fee—
 
-This is an estimate. Our actual published international prices are flat: coding $40/month group or $100/month 1-on-1; mathematics $100/month group or $150/month 1-on-1, all with 8 live one-hour classes. See [full pricing](/pricing).
+This is an estimate. Our actual published international prices are flat: every course, coding or mathematics, is $100/month for group classes or $150/month for 1-on-1, all with 8 live one-hour classes. See [full pricing](/pricing).
 
 [Or book a free demo first](/book-demo)Our pricing promise
 

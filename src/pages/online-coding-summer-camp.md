@@ -1,10 +1,10 @@
 ---
 title: "Online Coding Summer Camp | Ages 6-16, Live Mentors | Modern Age Coders"
-description: "A live online coding summer camp for ages 6-16: four tracks from Scratch to Python and AI, 8 one-hour mentor-led classes a month, one shipped project, vacation-proof scheduling. From $40/month while US day camps run $300-$500 a week. Free demo."
+description: "A live online coding summer camp for ages 6-16: four tracks from Scratch to Python and AI, 8 one-hour mentor-led classes a month, one shipped project, vacation-proof scheduling. From $100/month while US day camps run $300-$500 a week. Free demo."
 canonical: https://learn.modernagecoders.com/online-coding-summer-camp
 source: src/pages/online-coding-summer-camp.html
 ---
-> A live online coding summer camp for ages 6-16: four tracks from Scratch to Python and AI, 8 one-hour mentor-led classes a month, one shipped project, vacation-proof scheduling. From $40/month while US day camps run $300-$500 a week. Free demo.
+> A live online coding summer camp for ages 6-16: four tracks from Scratch to Python and AI, 8 one-hour mentor-led classes a month, one shipped project, vacation-proof scheduling. From $100/month while US day camps run $300-$500 a week. Free demo.
 
 Enroll now
 
@@ -24,7 +24,7 @@ Here is what US parents actually face each summer: tech day camps at $300 to $50
 
 Skills are built the way sports coaches and music teachers have always known: **regular sessions, spaced over weeks, with the same teacher**. That is precisely what an online camp can do and a physical one cannot. Two one-hour classes a week, all summer, with a mentor who remembers exactly where your child left off, even if the family spent two of those weeks at the lake, because slots move with your vacation.
 
-The economics only work in your favor because our cost base is global: a month of eight live classes costs $40 in a small group or $100 fully 1-on-1, less than a single day at most US tech camps. Quality first, and the price simply makes trying it a non-decision.
+The economics only work in your favor because our cost base is global: a month of eight live classes costs $100 in a small group or $150 fully 1-on-1, less than a single week at most US tech camps. Quality first, and the price simply makes trying it a non-decision.
 
 And the quiet advantage nobody markets: a summer camp with us is a **beginning, not an event**. The child who discovers they love building games in July keeps the same mentor in September. No cliff, no "see you next summer", just a skill that compounds while other kids' camp certificates gather dust.
 
@@ -254,7 +254,7 @@ Yes, this is the online camp's superpower. Slots move around your trips, a lapto
 
 How does this compare to iD Tech or a local tech camp?
 
-Different shapes: those are one intense in-person week, typically $300-$500 (premium brands $1,000+), great fun, poor retention. Ours is eight spaced weeks of live 1-on-1 or small-group teaching for $40-$100 a month, which is how skills actually form. If you need childcare hours, the physical camp wins; if you want the skill, spacing wins.
+Different shapes: those are one intense in-person week, typically $300-$500 (premium brands $1,000+), great fun, poor retention. Ours is eight spaced weeks of live 1-on-1 or small-group teaching for $100-$150 a month, which is how skills actually form. If you need childcare hours, the physical camp wins; if you want the skill, spacing wins.
 
 Is it too late to join mid-summer?
 
@@ -270,7 +270,7 @@ Yes, and it is wonderful: we can build a small group from two or three friends i
 
 What does the camp cost?
 
-Exactly our regular pricing, because it is our regular teaching: 1-on-1 is $100 a month and small group is $40 a month, 8 live one-hour classes, recordings included, no registration fee. A single week at a US tech day camp typically costs more than our entire summer.
+Exactly our regular pricing, because it is our regular teaching: 1-on-1 is $150 a month and small group is $100 a month, 8 live one-hour classes, recordings included, no registration fee. A single week at a US tech day camp typically costs more than our entire summer.
 
 What equipment is needed?
 

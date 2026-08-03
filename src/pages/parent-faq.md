@@ -1,10 +1,10 @@
 ---
 title: "Parent FAQ | Every Question About Our Classes, Answered Plainly | Modern Age Coders"
-description: "Thirty-plus real parent questions answered plainly: enrollment, class format, pricing (coding $40-$100, maths $100-$150), safety, recordings, time zones, progress and policies. Plus the fastest FAQ of all: the free trial class."
+description: "Thirty-plus real parent questions answered plainly: enrollment, class format, pricing ($100 group, $150 1-on-1 in USD), safety, recordings, time zones, progress and policies. Plus the fastest FAQ of all: the free trial class."
 canonical: https://learn.modernagecoders.com/parent-faq
 source: src/pages/parent-faq.html
 ---
-> Thirty-plus real parent questions answered plainly: enrollment, class format, pricing (coding $40-$100, maths $100-$150), safety, recordings, time zones, progress and policies. Plus the fastest FAQ of all: the free trial class.
+> Thirty-plus real parent questions answered plainly: enrollment, class format, pricing ($100 group, $150 1-on-1 in USD), safety, recordings, time zones, progress and policies. Plus the fastest FAQ of all: the free trial class.
 
 Start here
 
@@ -72,7 +72,7 @@ Section 3
 
 What do classes cost?
 
-Coding: $40 a month for small group, $100 for 1-on-1. Mathematics, our premium track: $100 group, $150 1-on-1. Every price includes 8 live one-hour classes a month plus recordings. Indian families see equivalent INR pricing on course pages.
+Every course, coding or mathematics: $100 a month for small group, $150 for 1-on-1. Every price includes 8 live one-hour classes a month plus recordings. Indian families see equivalent INR pricing on course pages.
 
 Why is maths priced higher than coding?
 

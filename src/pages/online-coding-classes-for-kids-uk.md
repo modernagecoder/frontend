@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your child. Op
 
 [![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)Best fit  Scratch Programming Complete KS1-KS2 depth: the ideas school Scratch never has time for, from first sprite to shipped game. Ages 6-118 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The KS3 bridge and beyond: real Python taught gently, with the GCSE CS runway in sight. Ages 9-138 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Blocks, game builds and AI tools in one joyful arc: the KS2-to-KS3 bridge years, covered. Ages 8-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)See what is includedThe 20-second answer
 
-Good online coding classes for a British child work **with the national curriculum, not around it**: they deepen the Scratch years of KS2, carry the child properly into text-based programming before KS3 demands it, and build the runway to GCSE Computer Science for those who want it. That is what we do: 8 live one-hour classes a month with a dedicated mentor, at UK-friendly evening and weekend slots, 1-on-1 for $100 a month (about £80) or small group for $40 (about £32), free demo class first.
+Good online coding classes for a British child work **with the national curriculum, not around it**: they deepen the Scratch years of KS2, carry the child properly into text-based programming before KS3 demands it, and build the runway to GCSE Computer Science for those who want it. That is what we do: 8 live one-hour classes a month with a dedicated mentor, at UK-friendly evening and weekend slots, 1-on-1 for $150 a month or small group for $100, billed in USD, free demo class first.
 
 The British computing paradox
 
@@ -193,7 +193,7 @@ An honest comparison
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | $40-$100 / month (≈ £32-£80) | 8 live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real young programmer, with the GCSE CS road open |
+| Modern Age Coders | $100-$150 / month, billed in USD | 8 live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real young programmer, with the GCSE CS road open |
 | Private coding tutors | £30-£50+ / hour | Quality varies; twice-weekly runs £240-£400+ a month | Families who have found, and can keep, a proven local gem |
 | Franchise clubs and camps | £100-£200+ / month or £40+ / day | Group sessions of varying depth, plus the drive | Children who focus better out of the house |
 | Code Club / CoderDojo | Free | Volunteer-run, brilliant and brief: an hour a week while term and volunteers last | Always take these too; they complement real tuition |
@@ -227,7 +227,7 @@ Code Club and CoderDojo are brilliant, and we say so without reservation, but th
 
 What does it cost in pounds?
 
-Billing is in USD: $100 a month for 1-on-1 (about £80) and $40 for small group (about £32), both with 8 live one-hour classes and recordings, no registration fee, no contract. For calibration: one hour with a typical UK private tutor costs about the same as our entire month of group classes.
+Billing is in USD: $150 a month for 1-on-1 and $100 for small group, both with 8 live one-hour classes and recordings, no registration fee, no contract. For calibration: one hour with a typical UK private tutor costs about the same as our entire month of group classes.
 
 Are the mentors comfortable teaching British kids?
 

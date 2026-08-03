@@ -10,7 +10,7 @@ source: src/pages/pricing.html
 
 No hidden fees, no surprises. Pick a plan that works for you. Whether you prefer learning in a group or need personalized attention, we've got you covered.
 
-Modern Age Coders keeps pricing simple: live group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,499, and fully personalised one-to-one classes start at ₹4,999, with plans outside India shown in local currency. The premium Codex + Claude Code AI agents courses are ₹2,499 group, ₹4,999 mini batch and ₹9,999 one-to-one. Every plan is live, covers coding or maths for ages 6 to 67, and starts with a free demo before you pay.
+Modern Age Coders keeps pricing simple: live group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,999, and fully personalised one-to-one classes start at ₹7,500, with plans outside India shown in local currency. The premium Codex + Claude Code AI agents courses are ₹1,499 group, ₹2,999 mini batch and ₹7,500 one-to-one. Every plan is live, covers coding or maths for ages 6 to 67, and starts with a free demo before you pay.
 
 Rated 4.9 across 547 Google reviews
 
@@ -276,7 +276,7 @@ Affordable coding classes in India without compromising on quality.
 | Feature | Modern Age Coders | WhiteHat Jr | BYJU's | Vedantu |
 | --- | --- | --- | --- | --- |
 | Monthly Price (Group) | From Rs 1,499 | Rs 5,000+ | Rs 3,000-8,000+ | Rs 3,500+ |
-| 1-on-1 Available | Yes (from Rs 4,999) | Yes (Rs 8,000+) | Limited | Limited |
+| 1-on-1 Available | Yes (from Rs 7,500) | Yes (Rs 8,000+) | Limited | Limited |
 | Coding + Maths | Both Integrated | Coding Only | Maths Only | Maths Only |
 | Live Classes | 100% Live | Live | Mostly Recorded | Live |
 | Contracts | None. Cancel anytime | 6-12 month packs | Long-term lock-in | Varies |

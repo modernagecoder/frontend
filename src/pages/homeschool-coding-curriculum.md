@@ -227,7 +227,7 @@ Completely, ages on the ladder are typical, not rules, and homeschoolers scatter
 
 Can our co-op form a group?
 
-Yes, and it is one of our favorite arrangements: three or four children from co-op families in one small group, same class, same projects, at $40 a month each. Mentors will happily align project demos with your co-op showcase days.
+Yes, and it is one of our favorite arrangements: three or four children from co-op families in one small group, same class, same projects, at $100 a month each. Mentors will happily align project demos with your co-op showcase days.
 
 Does this lead anywhere for college admissions?
 

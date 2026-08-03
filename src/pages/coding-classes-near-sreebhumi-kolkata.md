@@ -16,7 +16,7 @@ Modern Age Coders runs live online coding and mathematics classes for families n
 
 ## The essentials, in one place
 
-Format**100% live online**, taught in real time — never pre-recordedBatch sizeSmall batches of **6–8**; mini batch of 3–4; or 1-on-1Ages**6 to 67** — kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, web, DSA) and mathematicsBoardsICSE (Java/BlueJ), CBSE (Python/Informatics Practices), IGCSE, WBBSEFeesFrom **₹1,499/month** (group), ₹2,499 (mini batch), ₹4,999 (1-on-1)Free demoYes — one free live demo class, no payment or commitmentServingSreebhumi, Lake Town, Bangur Avenue, VIP Road, Ultadanga, Salt Lake borderLIVE ONLINE · PREMIUM QUALITY
+Format**100% live online**, taught in real time — never pre-recordedBatch sizeSmall batches of **6–8**; mini batch of 3–4; or 1-on-1Ages**6 to 67** — kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, web, DSA) and mathematicsBoardsICSE (Java/BlueJ), CBSE (Python/Informatics Practices), IGCSE, WBBSEFeesFrom **₹1,499/month** (group), ₹2,999 (mini batch), ₹7,500 (1-on-1)Free demoYes — one free live demo class, no payment or commitmentServingSreebhumi, Lake Town, Bangur Avenue, VIP Road, Ultadanga, Salt Lake borderLIVE ONLINE · PREMIUM QUALITY
 
 ## Real teachers, real time, real projects
 
