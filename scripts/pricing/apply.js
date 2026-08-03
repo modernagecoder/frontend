@@ -252,6 +252,59 @@ function syncCoursesConfig(config) {
  * Only the answer to the pricing question is replaced, matched by its own
  * question line, so the rest of the hand-written file is untouched.
  */
+/**
+ * The eight holiday-camp pages. Their visible camp figures carry
+ * data-price="camps.india.oneTime" anchors (stamped like any other), but the
+ * pages also cite the fee where anchors cannot go: meta descriptions,
+ * dual-region sentences ("₹4,999 for India. USD $60 for international
+ * students"), and two bare "price" fields in winter's structured data. Every
+ * currency-prefixed figure on these pages IS the camp fee — verified before
+ * this step was written, and enforced by verify's checkCampFigures — so a
+ * page-wide currency-prefixed rewrite is safe here and ONLY here.
+ */
+function syncCampPages(config) {
+    const inr = config.plans.camps.india.oneTime;
+    const usd = config.plans.camps.international.oneTime;
+    const inrDisp = cfgLib.format(inr, 'INR', { style: 'amount' });     // 4,999
+    let changed = 0;
+
+    fs.readdirSync(path.join(ROOT, 'src', 'pages')).forEach(function (f) {
+        if (!/^(summer|winter)-coding-camp.*\.html$/.test(f)) return;
+        const p = path.join(ROOT, 'src', 'pages', f);
+        const before = fs.readFileSync(p, 'utf8');
+        let s = before;
+        s = s.replace(/(₹|&#8377;)\s?[\d,]+/g, '$1' + inrDisp);
+        if (usd !== null && usd !== undefined) {
+            s = s.replace(/(USD \$|\$)\s?\d[\d,]*(?![\d.])/g, '$1' + usd);
+        }
+        s = s.replace(/("price"\s*:\s*")[\d.]+(")/g, '$1' + inr + '$2');
+        if (s !== before) { fs.writeFileSync(p, s); changed++; }
+    });
+    return changed;
+}
+
+/**
+ * School-partnership pages quote the in-school bootcamp fee in one uniform
+ * sentence shape: "The <name> Bootcamp/Programme is ₹1999/month". That figure
+ * is plans.school.india.group; this keeps it in step with the config.
+ * verify's checkSchoolFigures fails if the shape ever drifts.
+ */
+function syncSchoolPages(config) {
+    const fee = config.plans.school.india.group;
+    if (fee === null || fee === undefined) return 0;
+    let changed = 0;
+    fs.readdirSync(path.join(ROOT, 'src', 'pages')).forEach(function (f) {
+        if (!/^coding-and-maths-for-.*\.html$/.test(f)) return;
+        const p = path.join(ROOT, 'src', 'pages', f);
+        const before = fs.readFileSync(p, 'utf8');
+        const s = before.replace(
+            /((?:Bootcamp|Programme)(?:\s*\([^)]*\))?\s+is\s+(?:₹|&#8377;)\s?)[\d,]+(\s?\/\s?month)/g,
+            '$1' + fee + '$2');
+        if (s !== before) { fs.writeFileSync(p, s); changed++; }
+    });
+    return changed;
+}
+
 function syncLlmsTxt(config) {
     const p = path.join(ROOT, 'llms.txt');
     if (!fs.existsSync(p)) return { changed: false };
@@ -398,6 +451,10 @@ function main() {
 
     const coursesCfg = syncCoursesConfig(config);
     const llms = syncLlmsTxt(config);
+    const camps = syncCampPages(config);
+    if (camps) console.log('\n' + camps + ' holiday-camp page(s) re-synced to the camp fee.');
+    const schools = syncSchoolPages(config);
+    if (schools) console.log(schools + ' school page(s) re-synced to the bootcamp fee.');
 
     // ─── report ───
     if (allChanges.length) {

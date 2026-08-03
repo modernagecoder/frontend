@@ -113,7 +113,7 @@ const COMPETITOR_CUE = /kumon|mathnasium|juni|cuemath|outschool|tynker|whitehat|
  * schema FAQ answers, offer descriptions and meta descriptions still quoting
  * $40/$100/$150 months after the worldwide ladder replaced them.
  */
-function checkRetiredFigures(rel, html) {
+function checkRetiredFigures(rel, html, config) {
     const targets = [];
 
     const metaRx = /<meta\s+(?:name|property)="(?:description|og:description|twitter:description)"\s+content="([^"]*)"/gi;
@@ -150,7 +150,8 @@ function checkRetiredFigures(rel, html) {
         const bare = /"(?:price|lowPrice|highPrice)"\s*:\s*"?(2499|4999|9999)"?/g;
         let b;
         while ((b = bare.exec(m[1])) !== null) {
-            if (b[1] === '4999' && /camp/i.test(rel)) continue;
+            const campFee = config && config.plans.camps && config.plans.camps.india.oneTime;
+            if (/camp/i.test(rel) && Number(b[1]) === Number(campFee)) continue;
             fail(rel, 'structured data publishes the retired figure ' + b[1] +
                 ' in a price field. The stamper never writes this — the block is ' +
                 'unanchored or hand-edited; give its <script> tag a data-price-scope.');
@@ -183,7 +184,7 @@ function checkRetiredFigures(rel, html) {
 function checkFile(rel, config) {
     const html = fs.readFileSync(path.join(ROOT, rel), 'utf8');
     checkScripts(rel, html);
-    checkRetiredFigures(rel, html);
+    checkRetiredFigures(rel, html, config);
     // No early return on pages without anchors: the schema scan below must run
     // everywhere. The old `return` here is how 16 country pages' $40 Offers
     // stayed invisible to this gate while it printed a green tick.
@@ -322,6 +323,63 @@ function checkPaymentCode() {
                 'from the amount shown:\n      ' + hits.slice(0, 4).join('\n      ') +
                 (hits.length > 4 ? '\n      ... and ' + (hits.length - 4) + ' more' : '');
             if (STRICT) failures.push(msg); else notes.push(msg);
+        }
+    });
+}
+
+/**
+ * The eight holiday-camp pages: every currency-prefixed figure on them must
+ * BE the camp fee from the config — apply's syncCampPages rewrites them all,
+ * and this is what makes that page-wide rewrite safe. A stray unrelated
+ * price added to a camp page fails here instead of getting silently
+ * clobbered on the next apply.
+ */
+function checkCampFigures(config) {
+    const inr = config.plans.camps.india.oneTime;
+    const usd = config.plans.camps.international.oneTime;
+    const dir = path.join(ROOT, 'src', 'pages');
+    if (!fs.existsSync(dir)) return;
+
+    fs.readdirSync(dir).forEach(function (f) {
+        if (!/^(summer|winter)-coding-camp.*\.html$/.test(f)) return;
+        const rel = 'src/pages/' + f;
+        const html = fs.readFileSync(path.join(dir, f), 'utf8');
+        let m;
+        const inrRx = /(?:₹|&#8377;)\s?([\d,]+)/g;
+        while ((m = inrRx.exec(html)) !== null) {
+            if (Number(m[1].replace(/,/g, '')) !== Number(inr)) {
+                fail(rel, 'camp page shows ₹' + m[1] + ' but the camp fee is ₹' + inr + '.');
+            }
+        }
+        const usdRx = /(?:USD \$|\$)\s?(\d[\d,]*)(?![\d.])/g;
+        while ((m = usdRx.exec(html)) !== null) {
+            if (Number(m[1].replace(/,/g, '')) !== Number(usd)) {
+                fail(rel, 'camp page shows $' + m[1] + ' but the international camp fee is $' + usd + '.');
+            }
+        }
+    });
+}
+
+/**
+ * School pages quote the in-school bootcamp fee as "<name> Bootcamp/Programme
+ * is ₹X/month" — X must be plans.school.india.group (apply's syncSchoolPages
+ * writes it; this proves it).
+ */
+function checkSchoolFigures(config) {
+    const fee = config.plans.school.india.group;
+    if (fee === null || fee === undefined) return;
+    const dir = path.join(ROOT, 'src', 'pages');
+    if (!fs.existsSync(dir)) return;
+    fs.readdirSync(dir).forEach(function (f) {
+        if (!/^coding-and-maths-for-.*\.html$/.test(f)) return;
+        const html = fs.readFileSync(path.join(dir, f), 'utf8');
+        const rx = /(?:Bootcamp|Programme)(?:\s*\([^)]*\))?\s+is\s+(?:₹|&#8377;)\s?([\d,]+)\s?\/\s?month/g;
+        let m;
+        while ((m = rx.exec(html)) !== null) {
+            if (Number(m[1].replace(/,/g, '')) !== Number(fee)) {
+                fail('src/pages/' + f, 'school bootcamp quoted at ₹' + m[1] +
+                    ' but the config says ₹' + fee + '.');
+            }
         }
     });
 }
@@ -511,6 +569,8 @@ function main() {
     SEARCH_DIRS.forEach(function (d) { walk(d, files); });
     files.forEach(function (f) { checkFile(f, config); });
     checkPaymentCode();
+    checkCampFigures(config);
+    checkSchoolFigures(config);
     checkCoursesConfig(config);
     checkMarkdownTwins();
     assertCoverage();
