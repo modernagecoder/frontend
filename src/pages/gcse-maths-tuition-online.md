@@ -1,10 +1,10 @@
 ---
 title: "GCSE Maths Tuition Online · 1:1 AQA, Edexcel & OCR — Modern Age Coders"
-description: "Live 1:1 online GCSE maths tuition for AQA, Edexcel and OCR, foundation and higher tier. We teach why the maths works, then drill past papers and method marks — so grades 1–9 stop being a mystery. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
+description: "Live 1:1 online GCSE maths tuition for AQA, Edexcel and OCR, foundation and higher tier. We teach why the maths works, then drill past papers and method marks — so grades 1–9 stop being a mystery. Same tutor, UK time. Priced for your country."
 canonical: https://learn.modernagecoders.com/gcse-maths-tuition-online
 source: src/pages/gcse-maths-tuition-online.html
 ---
-> Live 1:1 online GCSE maths tuition for AQA, Edexcel and OCR, foundation and higher tier. We teach why the maths works, then drill past papers and method marks — so grades 1–9 stop being a mystery. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
+> Live 1:1 online GCSE maths tuition for AQA, Edexcel and OCR, foundation and higher tier. We teach why the maths works, then drill past papers and method marks — so grades 1–9 stop being a mystery. Same tutor, UK time. Priced for your country.
 
 Why GCSE maths grades stall
 

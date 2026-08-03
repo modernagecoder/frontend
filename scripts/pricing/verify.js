@@ -104,11 +104,47 @@ function checkScripts(rel, html) {
     }
 }
 
+const RETIRED = /(?:\$|USD\s?)(?:40|100|150)(?![\d.])/;
+const COMPETITOR_CUE = /kumon|mathnasium|juni|cuemath|outschool|tynker|whitehat|byju|registration fee|per subject|per hour|per class|\$\d+\s*(?:-|–|to)\s*\$?\d+|million|billion|freelance|salary|LPA|k USD/i;
+
+/**
+ * The retired flat prices must never re-enter Google-facing text. This is the
+ * tripwire for the class of rot the 2026-08-01 audit found on 160+ pages:
+ * schema FAQ answers, offer descriptions and meta descriptions still quoting
+ * $40/$100/$150 months after the worldwide ladder replaced them.
+ */
+function checkRetiredFigures(rel, html) {
+    const targets = [];
+
+    const metaRx = /<meta\s+(?:name|property)="(?:description|og:description|twitter:description)"\s+content="([^"]*)"/gi;
+    let m;
+    while ((m = metaRx.exec(html)) !== null) targets.push(['meta description', m[1]]);
+
+    const ldRx = /<script[^>]*application\/ld\+json[^>]*>([\s\S]*?)<\/script>/gi;
+    while ((m = ldRx.exec(html)) !== null) {
+        const body = m[1];
+        const textRx = /"(?:text|description)"\s*:\s*"([^"]*)"/g;
+        let t;
+        while ((t = textRx.exec(body)) !== null) targets.push(['schema text', t[1]]);
+    }
+
+    targets.forEach(function (pair) {
+        if (!RETIRED.test(pair[1])) return;
+        if (COMPETITOR_CUE.test(pair[1])) return;   // quoting others is fine
+        const msg = pair[0] + ' quotes a retired flat price: "' +
+            pair[1].slice(0, 90) + '..." — the real price is per-country now.';
+        if (STRICT) fail(rel, msg); else notes.push(rel + ': ' + msg);
+    });
+}
+
 function checkFile(rel, config) {
     const html = fs.readFileSync(path.join(ROOT, rel), 'utf8');
     checkScripts(rel, html);
-    if (html.indexOf('data-price') === -1) return;
-    filesChecked++;
+    checkRetiredFigures(rel, html);
+    // No early return on pages without anchors: the schema scan below must run
+    // everywhere. The old `return` here is how 16 country pages' $40 Offers
+    // stayed invisible to this gate while it printed a green tick.
+    if (html.indexOf('data-price') !== -1) filesChecked++;
 
     // ─── 1 + 2: visible anchors show the configured price ───
     const seenVisible = {};

@@ -1,10 +1,10 @@
 ---
 title: "Functional Skills Maths Tuition Online · 1:1 Entry 3, Level 1 & Level 2 — Modern Age Coders"
-description: "Live 1:1 online Functional Skills maths tuition for Entry Level 3, Level 1 and Level 2. We teach the real, everyday maths the exam tests — money, measures, data — for apprenticeships, college and work. Patient, no judgment. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
+description: "Live 1:1 online Functional Skills maths tuition for Entry Level 3, Level 1 and Level 2. We teach the real, everyday maths the exam tests — money, measures, data — for apprenticeships, college and work. Patient, no judgment. Same tutor, UK time. Priced for your country."
 canonical: https://learn.modernagecoders.com/functional-skills-maths-tuition-online
 source: src/pages/functional-skills-maths-tuition-online.html
 ---
-> Live 1:1 online Functional Skills maths tuition for Entry Level 3, Level 1 and Level 2. We teach the real, everyday maths the exam tests — money, measures, data — for apprenticeships, college and work. Patient, no judgment. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
+> Live 1:1 online Functional Skills maths tuition for Entry Level 3, Level 1 and Level 2. We teach the real, everyday maths the exam tests — money, measures, data — for apprenticeships, college and work. Patient, no judgment. Same tutor, UK time. Priced for your country.
 
 Why Functional Skills can feel like a barrier
 

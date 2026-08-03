@@ -1,10 +1,10 @@
 ---
 title: "KS3 Maths Tuition Online · 1:1 Year 7–9 Maths — Modern Age Coders"
-description: "Live 1:1 online KS3 maths tuition for Years 7–9. We build the algebra, ratio and reasoning foundations that decide GCSE success — taught for understanding, not rushed. National curriculum aligned. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
+description: "Live 1:1 online KS3 maths tuition for Years 7–9. We build the algebra, ratio and reasoning foundations that decide GCSE success — taught for understanding, not rushed. National curriculum aligned. Same tutor, UK time. Priced for your country."
 canonical: https://learn.modernagecoders.com/ks3-maths-tuition-online
 source: src/pages/ks3-maths-tuition-online.html
 ---
-> Live 1:1 online KS3 maths tuition for Years 7–9. We build the algebra, ratio and reasoning foundations that decide GCSE success — taught for understanding, not rushed. National curriculum aligned. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
+> Live 1:1 online KS3 maths tuition for Years 7–9. We build the algebra, ratio and reasoning foundations that decide GCSE success — taught for understanding, not rushed. National curriculum aligned. Same tutor, UK time. Priced for your country.
 
 Why KS3 is the quiet danger zone
 

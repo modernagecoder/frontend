@@ -1,10 +1,10 @@
 ---
 title: "Maths Tuition for Teens in the UAE · 1:1 Online Secondary Maths — Modern Age Coders"
-description: "Live 1:1 online maths tuition for teenagers in the UAE, ages 12–17, across British (GCSE), American, IB and CBSE secondary schools. We rebuild the reasoning so it holds up in exams. Gulf Standard Time. USD 150/month. Free trial."
+description: "Live 1:1 online maths tuition for teenagers in the UAE, ages 12–17, across British (GCSE), American, IB and CBSE secondary schools. We rebuild the reasoning so it holds up in exams. Gulf Standard Time. Priced for your country."
 canonical: https://learn.modernagecoders.com/maths-tuition-for-teens-uae
 source: src/pages/maths-tuition-for-teens-uae.html
 ---
-> Live 1:1 online maths tuition for teenagers in the UAE, ages 12–17, across British (GCSE), American, IB and CBSE secondary schools. We rebuild the reasoning so it holds up in exams. Gulf Standard Time. USD 150/month. Free trial.
+> Live 1:1 online maths tuition for teenagers in the UAE, ages 12–17, across British (GCSE), American, IB and CBSE secondary schools. We rebuild the reasoning so it holds up in exams. Gulf Standard Time. Priced for your country.
 
 In short
 

@@ -333,6 +333,13 @@ function transforms(subject) {
             to: '"description": "Priced for each country — $1"'
         },
         {
+            // "USD 150/mo." — the tripwire in verify caught these after the
+            // dollar-sign variant was swept: same tail, spelled with "USD".
+            name: 'meta tail: USD n/mo or per month',
+            rx: /\.?\s*USD (?:40|100|150)(?:\/mo(?:nth)?|\s?per month)[.,]?\s*(?:8 (?:classes|lessons|sessions)[.,]?\s*)?(?:Free tria?l\.?\s*)?">/g,
+            to: '. Priced for your country.">'
+        },
+        {
             name: 'meta USD n ( ) remnants',
             rx: /USD (?:40|100|150) \( \)(?:\/mo\.?| per month\.?)?/g,
             to: 'priced for your country'

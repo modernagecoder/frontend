@@ -1,10 +1,10 @@
 ---
 title: "A-Level Maths Tutor in the UAE · 1:1 Online Pure, Mechanics & Statistics — Modern Age Coders"
-description: "Live 1:1 online A-Level maths tutoring for British-curriculum sixth-form students in the UAE — Edexcel, AQA, OCR and Cambridge International AS & A Level. Pure, mechanics and statistics taught from the ideas up. Gulf Standard Time. USD 150/month. Free trial."
+description: "Live 1:1 online A-Level maths tutoring for British-curriculum sixth-form students in the UAE — Edexcel, AQA, OCR and Cambridge International AS & A Level. Pure, mechanics and statistics taught from the ideas up. Gulf Standard Time. Priced for your country."
 canonical: https://learn.modernagecoders.com/a-level-maths-tutor-uae
 source: src/pages/a-level-maths-tutor-uae.html
 ---
-> Live 1:1 online A-Level maths tutoring for British-curriculum sixth-form students in the UAE — Edexcel, AQA, OCR and Cambridge International AS & A Level. Pure, mechanics and statistics taught from the ideas up. Gulf Standard Time. USD 150/month. Free trial.
+> Live 1:1 online A-Level maths tutoring for British-curriculum sixth-form students in the UAE — Edexcel, AQA, OCR and Cambridge International AS & A Level. Pure, mechanics and statistics taught from the ideas up. Gulf Standard Time. Priced for your country.
 
 In short
 

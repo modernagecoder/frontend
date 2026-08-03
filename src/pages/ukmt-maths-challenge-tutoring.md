@@ -1,10 +1,10 @@
 ---
 title: "UKMT Maths Challenge Tutoring · 1:1 Junior, Intermediate & Senior Challenge — Modern Age Coders"
-description: "Live 1:1 online UKMT Maths Challenge coaching — Junior, Intermediate and Senior Challenges, Kangaroo and the BMO pathway. We teach genuine problem-solving and elegant insight, not formula drilling. Same coach, UK time. USD 150/month, 8 sessions. Free trial."
+description: "Live 1:1 online UKMT Maths Challenge coaching — Junior, Intermediate and Senior Challenges, Kangaroo and the BMO pathway. We teach genuine problem-solving and elegant insight, not formula drilling. Same coach, UK time. Priced for your country."
 canonical: https://learn.modernagecoders.com/ukmt-maths-challenge-tutoring
 source: src/pages/ukmt-maths-challenge-tutoring.html
 ---
-> Live 1:1 online UKMT Maths Challenge coaching — Junior, Intermediate and Senior Challenges, Kangaroo and the BMO pathway. We teach genuine problem-solving and elegant insight, not formula drilling. Same coach, UK time. USD 150/month, 8 sessions. Free trial.
+> Live 1:1 online UKMT Maths Challenge coaching — Junior, Intermediate and Senior Challenges, Kangaroo and the BMO pathway. We teach genuine problem-solving and elegant insight, not formula drilling. Same coach, UK time. Priced for your country.
 
 Why top students still find the Challenge hard
 

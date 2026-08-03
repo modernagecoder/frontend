@@ -1,10 +1,10 @@
 ---
 title: "Online Maths Tuition for College & Sixth Form in the UK · 1:1 A-Level & University Maths — Modern Age Coders"
-description: "Live 1:1 online maths tuition for UK sixth-form and college students (16–19) and undergraduates. A-Level pure and applied, university foundation maths, proof and STEP — taught from the ideas up. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
+description: "Live 1:1 online maths tuition for UK sixth-form and college students (16–19) and undergraduates. A-Level pure and applied, university foundation maths, proof and STEP — taught from the ideas up. Same tutor, UK time. Priced for your country."
 canonical: https://learn.modernagecoders.com/online-maths-tuition-for-college-students-in-uk
 source: src/pages/online-maths-tuition-for-college-students-in-uk.html
 ---
-> Live 1:1 online maths tuition for UK sixth-form and college students (16–19) and undergraduates. A-Level pure and applied, university foundation maths, proof and STEP — taught from the ideas up. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
+> Live 1:1 online maths tuition for UK sixth-form and college students (16–19) and undergraduates. A-Level pure and applied, university foundation maths, proof and STEP — taught from the ideas up. Same tutor, UK time. Priced for your country.
 
 Why this stage catches students out
 

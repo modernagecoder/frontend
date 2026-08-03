@@ -1,10 +1,10 @@
 ---
 title: "Online Maths Tuition for Teens in the UK · 1:1 KS3 & GCSE Maths — Modern Age Coders"
-description: "Live 1:1 online maths tuition for UK teenagers (KS3 & KS4, Years 7–11). We teach why the maths works — algebra, ratio, geometry, probability — so it holds up at GCSE and beyond. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
+description: "Live 1:1 online maths tuition for UK teenagers (KS3 & KS4, Years 7–11). We teach why the maths works — algebra, ratio, geometry, probability — so it holds up at GCSE and beyond. Same tutor, UK time. Priced for your country."
 canonical: https://learn.modernagecoders.com/online-maths-tuition-for-teens-in-uk
 source: src/pages/online-maths-tuition-for-teens-in-uk.html
 ---
-> Live 1:1 online maths tuition for UK teenagers (KS3 & KS4, Years 7–11). We teach why the maths works — algebra, ratio, geometry, probability — so it holds up at GCSE and beyond. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
+> Live 1:1 online maths tuition for UK teenagers (KS3 & KS4, Years 7–11). We teach why the maths works — algebra, ratio, geometry, probability — so it holds up at GCSE and beyond. Same tutor, UK time. Priced for your country.
 
 Why teens slip in secondary maths
 

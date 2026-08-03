@@ -1,10 +1,10 @@
 ---
 title: "Maths Tuition for Kids in the UAE · 1:1 Online Primary Maths — Modern Age Coders"
-description: "Live 1:1 online maths tuition for children in the UAE, ages 5–11, across British, American, IB and CBSE primary schools. We teach why the maths works — number sense, times tables, fractions — not rote. Gulf Standard Time. USD 150/month. Free trial."
+description: "Live 1:1 online maths tuition for children in the UAE, ages 5–11, across British, American, IB and CBSE primary schools. We teach why the maths works — number sense, times tables, fractions — not rote. Gulf Standard Time. Priced for your country."
 canonical: https://learn.modernagecoders.com/maths-tuition-for-kids-uae
 source: src/pages/maths-tuition-for-kids-uae.html
 ---
-> Live 1:1 online maths tuition for children in the UAE, ages 5–11, across British, American, IB and CBSE primary schools. We teach why the maths works — number sense, times tables, fractions — not rote. Gulf Standard Time. USD 150/month. Free trial.
+> Live 1:1 online maths tuition for children in the UAE, ages 5–11, across British, American, IB and CBSE primary schools. We teach why the maths works — number sense, times tables, fractions — not rote. Gulf Standard Time. Priced for your country.
 
 In short
 

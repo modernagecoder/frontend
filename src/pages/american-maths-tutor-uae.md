@@ -1,10 +1,10 @@
 ---
 title: "American Curriculum & SAT Maths Tutor in the UAE · 1:1 Online — Modern Age Coders"
-description: "Live 1:1 online maths tutoring for American-curriculum students in the UAE — middle and high school math, the SAT and AP Calculus & Statistics. We teach the reasoning, then train the test. Gulf Standard Time. USD 150/month. Free trial."
+description: "Live 1:1 online maths tutoring for American-curriculum students in the UAE — middle and high school math, the SAT and AP Calculus & Statistics. We teach the reasoning, then train the test. Gulf Standard Time. Priced for your country."
 canonical: https://learn.modernagecoders.com/american-maths-tutor-uae
 source: src/pages/american-maths-tutor-uae.html
 ---
-> Live 1:1 online maths tutoring for American-curriculum students in the UAE — middle and high school math, the SAT and AP Calculus & Statistics. We teach the reasoning, then train the test. Gulf Standard Time. USD 150/month. Free trial.
+> Live 1:1 online maths tutoring for American-curriculum students in the UAE — middle and high school math, the SAT and AP Calculus & Statistics. We teach the reasoning, then train the test. Gulf Standard Time. Priced for your country.
 
 In short
 

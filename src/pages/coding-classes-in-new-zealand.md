@@ -1,10 +1,10 @@
 ---
 title: "Online Coding & AI Classes in New Zealand | NCEA"
-description: "Live 1:1 online coding, Python & AI mentorship for New Zealand students. NCEA Digital Technologies aligned, university-entrance ready. USD 100/mo. Free trial."
+description: "Live 1:1 online coding, Python & AI mentorship for New Zealand students. NCEA Digital Technologies aligned, university-entrance ready. Priced for your country."
 canonical: https://learn.modernagecoders.com/coding-classes-in-new-zealand
 source: src/pages/coding-classes-in-new-zealand.html
 ---
-> Live 1:1 online coding, Python & AI mentorship for New Zealand students. NCEA Digital Technologies aligned, university-entrance ready. USD 100/mo. Free trial.
+> Live 1:1 online coding, Python & AI mentorship for New Zealand students. NCEA Digital Technologies aligned, university-entrance ready. Priced for your country.
 
 ### Request a callback
 

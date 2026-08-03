@@ -1,10 +1,10 @@
 ---
 title: "CBSE Maths Tutor in the UAE · 1:1 Online CBSE & ICSE — Class 6 to 12 — Modern Age Coders"
-description: "Live 1:1 online CBSE & ICSE maths tutoring for Indian-curriculum students in the UAE — Class 6 to 12, including the Class 10 and 12 board exams. NCERT-aligned, taught for understanding, not rote. Gulf Standard Time. USD 150/month. Free trial."
+description: "Live 1:1 online CBSE & ICSE maths tutoring for Indian-curriculum students in the UAE — Class 6 to 12, including the Class 10 and 12 board exams. NCERT-aligned, taught for understanding, not rote. Gulf Standard Time. Priced for your country."
 canonical: https://learn.modernagecoders.com/cbse-maths-tutor-uae
 source: src/pages/cbse-maths-tutor-uae.html
 ---
-> Live 1:1 online CBSE & ICSE maths tutoring for Indian-curriculum students in the UAE — Class 6 to 12, including the Class 10 and 12 board exams. NCERT-aligned, taught for understanding, not rote. Gulf Standard Time. USD 150/month. Free trial.
+> Live 1:1 online CBSE & ICSE maths tutoring for Indian-curriculum students in the UAE — Class 6 to 12, including the Class 10 and 12 board exams. NCERT-aligned, taught for understanding, not rote. Gulf Standard Time. Priced for your country.
 
 In short
 

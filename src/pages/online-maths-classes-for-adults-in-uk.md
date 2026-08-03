@@ -1,10 +1,10 @@
 ---
 title: "Online Maths Classes for Adults in the UK · 1:1 Numeracy, GCSE Resit & Functional Skills — Modern Age Coders"
-description: "Live 1:1 online maths classes for adults in the UK. Rebuild the basics, pass a GCSE resit or Functional Skills, or master the maths your job needs — taught patiently, no judgment. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
+description: "Live 1:1 online maths classes for adults in the UK. Rebuild the basics, pass a GCSE resit or Functional Skills, or master the maths your job needs — taught patiently, no judgment. Same tutor, UK time. Priced for your country."
 canonical: https://learn.modernagecoders.com/online-maths-classes-for-adults-in-uk
 source: src/pages/online-maths-classes-for-adults-in-uk.html
 ---
-> Live 1:1 online maths classes for adults in the UK. Rebuild the basics, pass a GCSE resit or Functional Skills, or master the maths your job needs — taught patiently, no judgment. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
+> Live 1:1 online maths classes for adults in the UK. Rebuild the basics, pass a GCSE resit or Functional Skills, or master the maths your job needs — taught patiently, no judgment. Same tutor, UK time. Priced for your country.
 
 Why maths feels closed off to adults
 

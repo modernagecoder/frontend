@@ -1,10 +1,10 @@
 ---
 title: "Common Entrance Maths Tuition · 1:1 ISEB 13+ & 11+ Maths — Modern Age Coders"
-description: "Live 1:1 online Common Entrance maths tuition for ISEB 13+ and 11+ exams to independent senior schools. We build real understanding across calculator and non-calculator papers, with scholarship-level stretch where needed. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
+description: "Live 1:1 online Common Entrance maths tuition for ISEB 13+ and 11+ exams to independent senior schools. We build real understanding across calculator and non-calculator papers, with scholarship-level stretch where needed. Same tutor, UK time. Priced for your country."
 canonical: https://learn.modernagecoders.com/common-entrance-maths-tuition
 source: src/pages/common-entrance-maths-tuition.html
 ---
-> Live 1:1 online Common Entrance maths tuition for ISEB 13+ and 11+ exams to independent senior schools. We build real understanding across calculator and non-calculator papers, with scholarship-level stretch where needed. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
+> Live 1:1 online Common Entrance maths tuition for ISEB 13+ and 11+ exams to independent senior schools. We build real understanding across calculator and non-calculator papers, with scholarship-level stretch where needed. Same tutor, UK time. Priced for your country.
 
 Why Common Entrance is its own challenge
 

@@ -1,10 +1,10 @@
 ---
 title: "Maths Classes for Adults in the UAE · 1:1 Online — Work, Study & GMAT/GRE — Modern Age Coders"
-description: "Live 1:1 online maths classes for adults in the UAE. Rebuild the basics, master statistics and financial maths for work, or prep the GMAT/GRE quant — taught patiently, no judgment. Gulf Standard Time. USD 150/month, 8 classes. Free trial."
+description: "Live 1:1 online maths classes for adults in the UAE. Rebuild the basics, master statistics and financial maths for work, or prep the GMAT/GRE quant — taught patiently, no judgment. Gulf Standard Time. Priced for your country."
 canonical: https://learn.modernagecoders.com/maths-classes-for-adults-uae
 source: src/pages/maths-classes-for-adults-uae.html
 ---
-> Live 1:1 online maths classes for adults in the UAE. Rebuild the basics, master statistics and financial maths for work, or prep the GMAT/GRE quant — taught patiently, no judgment. Gulf Standard Time. USD 150/month, 8 classes. Free trial.
+> Live 1:1 online maths classes for adults in the UAE. Rebuild the basics, master statistics and financial maths for work, or prep the GMAT/GRE quant — taught patiently, no judgment. Gulf Standard Time. Priced for your country.
 
 In short
 

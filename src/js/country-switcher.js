@@ -142,12 +142,22 @@
     currencyFor: function (iso) {
       var data = window.MAC_PRICING;
       var entry = iso && data.worldwide.countries[iso];
-      return (entry && entry.currency) || 'USD';
+      var cur = (entry && entry.currency) || 'USD';
+      // Unstable currencies are priced and SHOWN in dollars, so the label
+      // must say USD too — a button reading "Prices for Turkey TRY" above
+      // dollar prices contradicts the page it is describing.
+      var unstable = (data.worldwide && data.worldwide.unstable) || [];
+      return unstable.indexOf(cur) !== -1 ? 'USD' : cur;
     },
 
     /** Regional-indicator flag from an ISO code. No image files needed. */
     flag: function (iso) {
       if (!iso || iso.length !== 2) return '🌐';
+      // A code we do not price (a bad ?country= value) gets the globe, not a
+      // pair of meaningless regional-indicator glyphs.
+      var data = window.MAC_PRICING;
+      if (data && data.worldwide && data.worldwide.countries &&
+          !data.worldwide.countries[iso.toUpperCase()]) return '🌐';
       try {
         return String.fromCodePoint(
           0x1F1E6 + iso.toUpperCase().charCodeAt(0) - 65,
