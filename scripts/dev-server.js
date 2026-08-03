@@ -187,7 +187,12 @@ function resolveFilePath(url) {
     return cleanPath;
 }
 
+// ── Price editor (local only): http://localhost:3001/__pricing ──
+const pricingEditor = require('./pricing/editor');
+
 const server = http.createServer((req, res) => {
+    if (req.url.startsWith('/__pricing') && pricingEditor.handle(req, res)) return;
+
     let filePath = resolveFilePath(req.url);
 
     // Debug logging
