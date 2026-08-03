@@ -284,6 +284,87 @@ function checkPaymentCode() {
 }
 
 /**
+ * courses-config.json is the file the payment modal charges from — the one
+ * place where a wrong number bills a real customer. Three rules:
+ *   1. defaultPricing must equal the coding India table.
+ *   2. A real course whose resolved India prices differ from the defaults
+ *      must have its own entry. This is exactly how every maths course once
+ *      showed ₹8,500 on the page while Razorpay charged the coding ₹7,500 —
+ *      the entry simply did not exist, so the modal fell back silently.
+ *   3. Every entry — including orphans left over from renamed courses — must
+ *      match the config. No retired figure may survive in a file the
+ *      browser downloads to decide a charge.
+ */
+function checkCoursesConfig(config) {
+    const rel = 'content/courses/data/courses-config.json';
+    const full = path.join(ROOT, rel);
+    if (!fs.existsSync(full)) return;
+    let json;
+    try { json = JSON.parse(fs.readFileSync(full, 'utf8')); }
+    catch (e) { fail(rel, 'not parseable JSON: ' + e.message); return; }
+
+    const coding = config.plans.coding.india;
+    cfgLib.MONTHLY_TIERS.forEach(function (t) {
+        const entry = json.defaultPricing && json.defaultPricing[t];
+        if (coding[t] === null || coding[t] === undefined) {
+            if (entry) fail(rel, 'defaultPricing.' + t + ' still exists but the tier is no longer sold.');
+            return;
+        }
+        if (!entry) { fail(rel, 'defaultPricing.' + t + ' is missing.'); return; }
+        if (entry.amount !== coding[t]) {
+            fail(rel, 'defaultPricing.' + t + ' charges ' + entry.amount +
+                ' but the config says ' + coding[t] + '.');
+        }
+    });
+
+    const realSlugs = new Set();
+    const dataDir = path.join(ROOT, 'content', 'courses', 'data');
+    fs.readdirSync(dataDir).forEach(function (f) {
+        if (!/\.json$/.test(f) || f === 'courses-config.json') return;
+        try {
+            const c = JSON.parse(fs.readFileSync(path.join(dataDir, f), 'utf8'));
+            if (c && c.meta && c.meta.slug) realSlugs.add(c.meta.slug);
+        } catch (e) { /* malformed course files are caught elsewhere */ }
+    });
+
+    realSlugs.forEach(function (slug) {
+        const prices = cfgLib.coursePrices(slug, config).india;
+        const differs = cfgLib.MONTHLY_TIERS.some(function (t) {
+            return (prices[t] || null) !== (coding[t] || null);
+        });
+        if (differs && !(json.courses && json.courses[slug])) {
+            fail(rel, slug + ' prices differ from the defaults but it has no entry, so the ' +
+                'payment modal would silently charge defaultPricing.');
+        }
+    });
+
+    Object.keys(json.courses || {}).forEach(function (slug) {
+        const prices = cfgLib.coursePrices(slug, config).india;
+        const pricing = (json.courses[slug] && json.courses[slug].pricing) || {};
+        cfgLib.MONTHLY_TIERS.forEach(function (t) {
+            const entry = pricing[t];
+            const want = (prices[t] === undefined) ? null : prices[t];
+            if (want === null) {
+                if (entry) fail(rel, slug + '.' + t + ' still exists but the tier is not sold — ' +
+                    'Razorpay could be handed ' + entry.amount + '.');
+                return;
+            }
+            if (!entry) {
+                if (want !== (coding[t] || null)) {
+                    fail(rel, slug + '.' + t + ' is missing, so the modal falls back to the default ' +
+                        coding[t] + ' instead of ' + want + '.');
+                }
+                return;
+            }
+            if (entry.amount !== want) {
+                fail(rel, slug + '.' + t + ' charges ' + entry.amount +
+                    ' but the config says ' + want + '.');
+            }
+        });
+    });
+}
+
+/**
  * Refuse to report success on an empty run.
  *
  * walk() returns [] for a directory that does not exist, so without this a
@@ -387,6 +468,7 @@ function main() {
     SEARCH_DIRS.forEach(function (d) { walk(d, files); });
     files.forEach(function (f) { checkFile(f, config); });
     checkPaymentCode();
+    checkCoursesConfig(config);
     checkMarkdownTwins();
     assertCoverage();
 

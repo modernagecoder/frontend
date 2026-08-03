@@ -652,14 +652,10 @@ class CourseGenerator {
      * rather than by editing this file.
      */
     priceSubjectFor(slug) {
-        const overrides = PRICING.load().courseOverrides || {};
-        if (overrides[slug]) {
-            // An override is either a subject name or an object that may name one.
-            return PRICING.coursePrices(slug).subject;
-        }
-        if (this.isPremiumAgentsCourse(slug)) return 'agents';
-        if (/math|calculus|algebra/i.test(slug || '')) return 'maths';
-        return 'coding';
+        // Delegates to the pricing library so every script resolves a slug to
+        // the same subject — a second copy of this logic once disagreed and a
+        // computer-science course got the maths price in its FAQ.
+        return PRICING.courseSubject(slug);
     }
 
     /**

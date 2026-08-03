@@ -155,13 +155,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -191,13 +191,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -209,13 +209,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -227,13 +227,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -245,13 +245,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -263,13 +263,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -281,13 +281,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -504,6 +504,482 @@
         "personal": {
           "amount": 7500,
           "display": "₹7,500/month"
+        }
+      }
+    },
+    "a-level-maths-course-pure-mechanics-statistics": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "abacus-mental-maths-course-for-kids": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "algebra-foundations-masterclass": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "ap-calculus-exam-prep": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "ap-precalculus-exam-prep-course": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "ap-statistics-maths-exam-prep-course": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "data-analytics-mathematics-masterclass": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "complete-business-finance-mathematics-mastery": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "cbse-class-10-maths-board-exam-prep-course": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "college-mathematics-complete-masterclass": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "early-math-foundations": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "elementary-mathematics-complete-masterclass": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "11-plus-maths-preparation-course-uk": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "gcse-mathematics-mastery": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "gre-gmat-quant-maths-prep-course": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "complete-high-school-mathematics-mastery": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "ib-mathematics-aa-ai-masterclass": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "igcse-mathematics-mastery": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "jee-foundation-maths-course-class-8-10": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "maths-through-coding": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "mental-maths-mastery-kids": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "comprehensive-middle-school-mathematics-mastery": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "olympiad-competition-mathematics-mastery": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "olympiad-mathematics-premium-course": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "psle-maths-mastery": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "sat-math-prep-course": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "statistics-probability-maths-course": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
+        }
+      }
+    },
+    "vedic-maths-course-speed-calculation-mastery": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 8500,
+          "display": "₹8,500/month"
         }
       }
     }

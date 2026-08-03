@@ -175,10 +175,11 @@ function syncCoursesConfig(config) {
             'pricing/pricing.config.jsonc — edit that file, not this one.';
     }
 
-    // Slugs of courses that actually exist. courses-config.json still carries
-    // seven entries for courses that were renamed or split, and those entries
-    // are never looked up. Rewriting them would churn the file and could
-    // destroy a figure someone still wants; they are left exactly as found.
+    // Slugs of courses that actually exist. courses-config.json also carries
+    // entries for courses that were renamed or split; every such slug 301s to
+    // a real course, so the entries are never looked up — but they are still
+    // rewritten to the current prices, because a file the browser downloads
+    // must never contain a retired figure Razorpay could be handed.
     const realSlugs = new Set();
     const dataDir = path.join(ROOT, 'content', 'courses', 'data');
     if (fs.existsSync(dataDir)) {
@@ -197,23 +198,40 @@ function syncCoursesConfig(config) {
         const prices = cfgLib.coursePrices(slug, config).india;
         const orphaned = realSlugs.size && !realSlugs.has(slug);
 
-        if (orphaned) {
-            orphans.push(slug);
-            // An orphaned entry keeps its own figures — they may still be wanted
-            // if the course comes back. But a tier that is no longer sold at all
-            // is deleted even here, so the file never advertises a product that
-            // does not exist.
-            cfgLib.MONTHLY_TIERS.forEach(function (t) {
-                if (prices[t] === null || prices[t] === undefined) {
-                    writeTier(json.courses[slug].pricing, t, null, slug + ' (orphan)');
-                }
-            });
-            return;
-        }
+        if (orphaned) orphans.push(slug);
 
         cfgLib.MONTHLY_TIERS.forEach(function (t) {
-            writeTier(json.courses[slug].pricing, t, prices[t], slug);
+            writeTier(json.courses[slug].pricing, t, prices[t], slug + (orphaned ? ' (orphan)' : ''));
         });
+        if (!orphaned) n++;
+    });
+
+    // Courses that price differently from the defaults MUST have their own
+    // entry, or the payment modal silently falls back to defaultPricing.
+    // This is exactly how every maths course once showed ₹8,500 on the page
+    // while Razorpay charged the coding ₹7,500 — the entry simply didn't
+    // exist, so it is created here.
+    const defaults = {};
+    cfgLib.MONTHLY_TIERS.forEach(function (t) { defaults[t] = coding[t]; });
+    realSlugs.forEach(function (slug) {
+        if (json.courses[slug]) return;
+        const prices = cfgLib.coursePrices(slug, config).india;
+        const differs = cfgLib.MONTHLY_TIERS.some(function (t) {
+            return (prices[t] || null) !== (defaults[t] || null);
+        });
+        if (!differs) return;
+
+        const pricing = {};
+        cfgLib.MONTHLY_TIERS.forEach(function (t) {
+            if (prices[t] === null || prices[t] === undefined) return;
+            pricing[t] = {
+                amount: prices[t],
+                display: cfgLib.format(prices[t], 'INR', { style: 'display' }) + '/month'
+            };
+            if (t === 'miniBatch') pricing[t].indiaOnly = true;
+        });
+        json.courses[slug] = { pricing: pricing };
+        changes.push(slug + ': entry created (prices differ from defaults)');
         n++;
     });
 

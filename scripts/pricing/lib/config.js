@@ -160,19 +160,31 @@ function resolve(key, config) {
  * Returns { subject, india: {...}, international: {...} } with the overrides
  * merged over the subject's own table. Never mutates the config.
  */
+// Which price set a slug belongs to, when no override names one. THE single
+// source of subject truth: generate-courses.js, apply.js, verify.js and
+// sweep-india.js must all agree, because two scripts once carried their own
+// regexes and a computer-science course (slug contains "igcse") was swept to
+// the maths ₹8,500 while its page charged the coding price.
+const AGENTS_SLUG_RX = /codex-and-claude-code/i;
+const MATHS_SLUG_RX = /math|calculus|algebra/i;
+
+function courseSubject(slug, config) {
+    const cfg = config || load();
+    const override = (cfg.courseOverrides || {})[slug];
+    if (typeof override === 'string') return override;
+    if (override && typeof override === 'object' && override.subject) return override.subject;
+    if (AGENTS_SLUG_RX.test(slug || '')) return 'agents';
+    if (MATHS_SLUG_RX.test(slug || '')) return 'maths';
+    return 'coding';
+}
+
 function coursePrices(slug, config) {
     const cfg = config || load();
     const override = (cfg.courseOverrides || {})[slug];
 
-    let subject = 'coding';
+    const subject = courseSubject(slug, cfg);
     let explicit = null;
-
-    if (typeof override === 'string') {
-        subject = override;
-    } else if (override && typeof override === 'object') {
-        if (override.subject) subject = override.subject;
-        explicit = override;
-    }
+    if (override && typeof override === 'object') explicit = override;
 
     if (!cfg.plans[subject]) {
         throw new Error('Course "' + slug + '" points at price set "' + subject +
@@ -340,6 +352,7 @@ module.exports = {
     load: load,
     loadData: loadData,
     resolve: resolve,
+    courseSubject: courseSubject,
     coursePrices: coursePrices,
     allKeys: allKeys,
     format: format,

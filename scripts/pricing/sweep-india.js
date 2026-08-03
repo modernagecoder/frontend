@@ -43,17 +43,11 @@ function pageSubject(file, html) {
 }
 
 function courseSubject(slug) {
-    // Mirrors generate-courses.js priceSubjectFor: overrides first, then the
-    // premium-agents slug pattern, then the maths slug family. Resolving via
-    // overrides alone sent every maths course to coding — which would have
-    // stamped ₹7,500 into sentences that must say ₹8,500.
-    try {
-        const o = (config.courseOverrides || {})[slug];
-        if (o) return cfgLib.coursePrices(slug, config).subject;
-    } catch (e) { /* fall through */ }
-    if (/codex-and-claude-code/i.test(slug || '')) return 'agents';
-    if (/math|calculus|algebra|abacus|vedic|statistics|geometry|precalculus|gre-gmat|sat-math|jee|olympiad|mental-maths|eleven-plus|gcse|igcse|psle|ib-mathematics/i.test(slug || '')) return 'maths';
-    return 'coding';
+    // The shared resolver in lib/config.js — never a private regex. This
+    // file's own wider maths pattern once matched "igcse" and swept the
+    // IGCSE Computer Science course to the maths ₹8,500 while its page
+    // charged the coding price (fixed by hand 2026-08-03).
+    return cfgLib.courseSubject(slug, config);
 }
 
 /** Replace old monthly figures with new, for one subject, in one text. */
