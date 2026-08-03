@@ -87,7 +87,10 @@ function editorHtml() {
 '<h1>Price Editor</h1>' +
 '<p class="sub">One save updates every page, Google&#39;s data, the AI feeds, and what Razorpay charges.</p>' +
 '<div class="note">Local tool — it edits files in this project. After saving, <b>commit and push</b> to make it live. ' +
-'Leave a box empty to stop selling that plan (it will be hidden, never given a made-up price).</div>' +
+'Leave a box empty to stop selling that plan (it will be hidden, never given a made-up price).<br><br>' +
+'<b>Changing to a brand-new number?</b> The payment server only accepts known amounts. ' +
+'Update VALID_INR_AMOUNTS / VALID_USD_AMOUNTS in the backend (routes/payment.js AND server.js) ' +
+'and redeploy it, or every payment at the new price is rejected as &quot;Invalid amount&quot;.</div>' +
 '<form id="f">' + groups +
 '<button type="submit" id="save">Save &amp; update every page</button><span id="status"></span>' +
 '</form><pre id="log"></pre>' +

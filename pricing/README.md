@@ -195,6 +195,15 @@ fills the anchors, hides unsold plans).
 
 ## Things that will bite you if you forget
 
+- **Changing a price to a brand-new number needs one backend step too.**
+  The payment server only accepts a fixed list of amounts (a safety net so
+  nobody can tamper with the checkout and pay ₹1). The list lives in the
+  backend repo — `routes/payment.js` and `server.js`, constants
+  `VALID_INR_AMOUNTS` / `VALID_USD_AMOUNTS` — and must contain every price
+  you sell. If you save a price the list doesn't know, the site will SHOW
+  the new price but every payment at it is rejected as "Invalid amount"
+  until the backend list is updated and redeployed. (Reverting to a price
+  already in the list needs nothing.)
 - **Never hand-type a price into a page.** Untagged figures are exactly
   what this system exists to eliminate. If a new page needs a price, give
   it a `data-price="subject.region.tier"` anchor and let the pipeline fill

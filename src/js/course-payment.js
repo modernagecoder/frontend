@@ -246,11 +246,10 @@ const CoursePayment = {
     return this.config.defaultPricing[planType];
   },
 
-  // Intl prices from the single source of truth (international-pricing.js),
-  // context-aware: the premium Codex + Claude Code pages (data-price-tier
-  // ="agents") and maths pages (data-subject="maths") both charge $100 group /
-  // $150 personal instead of the flat coding $40/$100. Falls back to the
-  // flat coding prices if that script is absent on the page.
+  // Intl prices from the single source of truth (international-pricing.js).
+  // The flat model charges every course the same worldwide USD prices, but
+  // the lookup stays subject-aware (agents/maths/coding) so a future config
+  // that differentiates them again needs no change here.
   getIntlPricing: function(planType) {
     var ip = window.InternationalPricing;
     // ip.PRICES is checked BEFORE any table is picked. It is null until
