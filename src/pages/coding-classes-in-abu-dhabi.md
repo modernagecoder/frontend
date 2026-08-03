@@ -235,7 +235,7 @@ Billing is monthly and in US dollars. Since the dirham is pegged to the dollar, 
 
 Group classes
 
-$40 per month
+ $1$149.99$2
 
 - Live weekly classes, batches of 5 to 8
 - Evening and weekend slots in GST
@@ -246,7 +246,7 @@ Book a Free Demo
 
 One-on-one classes
 
-$100 per month
+ $1$374.99$2
 
 - One student and one teacher, every class
 - Slots arranged around your own week
@@ -261,7 +261,7 @@ No registration fee, no long lock-in, no hidden charges. If the demo does not ea
 
 ## Frequently asked questions
 
-Are the classes online, or is there a centre in Abu Dhabi?Online only, taught live on a video call. There is no physical centre in Abu Dhabi, and none is needed: the student, the teacher and the code are all on the same screen. A laptop or desktop with a steady connection is the whole equipment list.Which parts of Abu Dhabi do you cover?All of them, because nobody travels. Students join the same class from the island, Khalifa City, Al Reef, Mohammed Bin Zayed City, Reem Island or Al Ain. Where you live changes nothing about the class itself.What class timings work for Abu Dhabi students?Weekday slots sit in the evening, roughly 4:00 to 9:00 PM Gulf Standard Time, once school and office hours are done. Saturday and Sunday slots cover the weekend. Each student keeps one fixed weekly slot, and because the UAE never shifts its clocks, that slot never moves.Will the classes suit my child's school curriculum?Abu Dhabi's private schools, overseen by ADEK, teach British, American, Indian and IB curricula, and our students come from every one of those systems. The coursework runs beside school rather than replacing it. Python is the language CBSE uses for Classes 11 and 12 computer science, and GCSE, A Level and AP papers all reward students who can genuinely program.What ages do you teach, and in what language?Ages six to adult, in English. Kids tracks run from 6 to 12, teen tracks from 13 to 18, and evening tracks serve college students and working professionals. Our teachers spend every day with students who speak another language at home, so explanations stay plain and understanding gets checked, not assumed.How much do coding classes cost in Abu Dhabi?Group classes are 40 US dollars per month, about AED 150. One-on-one classes are 100 US dollars per month, about AED 370. The dirham's dollar peg keeps those numbers steady. Billing is monthly, with no registration fee and no long contract.How does the free demo class work?Send the form on this page or a WhatsApp message. A mentor calls to ask about the student's age and experience, then books a slot. The demo is a full one-hour live class, the same thing paying students get every week. You decide afterwards, with no card details taken.
+Are the classes online, or is there a centre in Abu Dhabi?Online only, taught live on a video call. There is no physical centre in Abu Dhabi, and none is needed: the student, the teacher and the code are all on the same screen. A laptop or desktop with a steady connection is the whole equipment list.Which parts of Abu Dhabi do you cover?All of them, because nobody travels. Students join the same class from the island, Khalifa City, Al Reef, Mohammed Bin Zayed City, Reem Island or Al Ain. Where you live changes nothing about the class itself.What class timings work for Abu Dhabi students?Weekday slots sit in the evening, roughly 4:00 to 9:00 PM Gulf Standard Time, once school and office hours are done. Saturday and Sunday slots cover the weekend. Each student keeps one fixed weekly slot, and because the UAE never shifts its clocks, that slot never moves.Will the classes suit my child's school curriculum?Abu Dhabi's private schools, overseen by ADEK, teach British, American, Indian and IB curricula, and our students come from every one of those systems. The coursework runs beside school rather than replacing it. Python is the language CBSE uses for Classes 11 and 12 computer science, and GCSE, A Level and AP papers all reward students who can genuinely program.What ages do you teach, and in what language?Ages six to adult, in English. Kids tracks run from 6 to 12, teen tracks from 13 to 18, and evening tracks serve college students and working professionals. Our teachers spend every day with students who speak another language at home, so explanations stay plain and understanding gets checked, not assumed.How much do coding classes cost in Abu Dhabi?Group and one-on-one classes are billed monthly, with the price set for your country and shown on this page in your local currency. The dirham's dollar peg keeps those numbers steady. Billing is monthly, with no registration fee and no long contract.How does the free demo class work?Send the form on this page or a WhatsApp message. A mentor calls to ask about the student's age and experience, then books a slot. The demo is a full one-hour live class, the same thing paying students get every week. You decide afterwards, with no card details taken.
 
 11 · Free demo class
 

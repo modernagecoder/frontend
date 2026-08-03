@@ -1,10 +1,10 @@
 ---
 title: "Online Maths Classes for Adults in the USA · 1:1 Math for Work, Study & Confidence — Modern Age Coders"
-description: "Live 1:1 online math classes for adults in the USA. Rebuild the basics, master statistics and financial math for work, or prep for the GRE/GMAT quant — taught patiently, from the ground up, no judgment. Mentors in every US time zone. $150/month, 8 classes. Free trial."
+description: "Live 1:1 online math classes for adults in the USA. Rebuild the basics, master statistics and financial math for work, or prep for the GRE/GMAT quant — taught patiently, from the ground up, no judgment. Mentors in every US time zone. Priced for your country."
 canonical: https://learn.modernagecoders.com/online-maths-classes-for-adults-in-usa
 source: src/pages/online-maths-classes-for-adults-in-usa.html
 ---
-> Live 1:1 online math classes for adults in the USA. Rebuild the basics, master statistics and financial math for work, or prep for the GRE/GMAT quant — taught patiently, from the ground up, no judgment. Mentors in every US time zone. $150/month, 8 classes. Free trial.
+> Live 1:1 online math classes for adults in the USA. Rebuild the basics, master statistics and financial math for work, or prep for the GRE/GMAT quant — taught patiently, from the ground up, no judgment. Mentors in every US time zone. Priced for your country.
 
 Why math feels closed off to adults
 
@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Self-study videos | Test-prep course |
 | --- | --- | --- | --- |
 | Adapts to your exact goal | Fully | No — fixed playlist | Only the test |
 | Fills your specific gaps | Yes, diagnosed live | No | Rarely |
 | Patient with math anxiety | Built for it | You're on your own | Group-paced |
 | Same mentor each time | Yes | N/A | Usually not |
-| Monthly price | $150 (1:1) / $100 (group) | Free–$30 | $300–2,000+ |
+| Monthly price | Free–$30 | $300–2,000+ |
 
 Free videos are great if you already know what's missing. We add a mentor who finds the gaps for you and stays patient while you close them.
 

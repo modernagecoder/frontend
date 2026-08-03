@@ -1,10 +1,10 @@
 ---
 title: "Homeschool Math Curriculum (USA) · 1:1 Online Math for Homeschoolers — Modern Age Coders"
-description: "Live 1:1 online math for US homeschoolers, K–12. A custom scope-and-sequence built around your child, taught for understanding, with mastery-based pacing and parent reporting. Aligns with Common Core if you want it. Mentors in every US time zone. $150/month, 8 classes. Free trial."
+description: "Live 1:1 online math for US homeschoolers, K–12. A custom scope-and-sequence built around your child, taught for understanding, with mastery-based pacing and parent reporting. Aligns with Common Core if you want it. Mentors in every US time zone. Priced for your country."
 canonical: https://learn.modernagecoders.com/homeschool-math-curriculum-usa
 source: src/pages/homeschool-math-curriculum-usa.html
 ---
-> Live 1:1 online math for US homeschoolers, K–12. A custom scope-and-sequence built around your child, taught for understanding, with mastery-based pacing and parent reporting. Aligns with Common Core if you want it. Mentors in every US time zone. $150/month, 8 classes. Free trial.
+> Live 1:1 online math for US homeschoolers, K–12. A custom scope-and-sequence built around your child, taught for understanding, with mastery-based pacing and parent reporting. Aligns with Common Core if you want it. Mentors in every US time zone. Priced for your country.
 
 Why homeschool math gets hard for parents
 
@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Boxed curriculum | Self-paced app |
 | --- | --- | --- | --- |
 | Pace fits your child | Fully individual | Fixed sequence | Somewhat |
 | Live expert teaching | Yes, 1:1 | Parent-led | No |
 | Catches gaps as they form | Yes, in the moment | No | Limited |
 | Records for portfolio | Yes | You compile | Score logs |
-| Monthly price | $150 (1:1) / $100 (group) | $80–150/yr | $10–20/mo |
+| Monthly price | $80–150/yr | $10–20/mo |
 
 A boxed curriculum is inexpensive and works for many families. We add live expert teaching and an individual pace for the families who want them, especially through the harder high-school years.
 

@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | SATs apps | A typical tutor |
 | --- | --- | --- | --- |
 | Teaches the reasoning | Always | Rarely | Sometimes |
 | Notices quiet confusion | Yes, live, 1:1 | No | Usually |
 | Same tutor each time | Yes | N/A | Often |
 | Builds for secondary, not just SATs | Yes | No | Varies |
-| Monthly price | $150 (1:1) / $100 (group) | £5–10 | £25–40/hr |
+| Monthly price | £5–10 | £25–40/hr |
 
 SATs apps are fine for extra practice. They can't notice your child quietly guessing instead of understanding — which is precisely what we catch and fix.
 

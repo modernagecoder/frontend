@@ -1,10 +1,10 @@
 ---
 title: "AP Statistics Tutoring Online · 1:1 AP Stats Prep — Modern Age Coders"
-description: "Live 1:1 online AP Statistics tutoring. We teach what the statistics actually mean — sampling, probability, inference and p-values — then train the free-response and investigative-task writing the exam scores. College Board CED aligned. Mentors in every US time zone. $150/month, 8 classes. Free trial."
+description: "Live 1:1 online AP Statistics tutoring. We teach what the statistics actually mean — sampling, probability, inference and p-values — then train the free-response and investigative-task writing the exam scores. College Board CED aligned. Mentors in every US time zone. Priced for your country."
 canonical: https://learn.modernagecoders.com/ap-statistics-tutoring-online
 source: src/pages/ap-statistics-tutoring-online.html
 ---
-> Live 1:1 online AP Statistics tutoring. We teach what the statistics actually mean — sampling, probability, inference and p-values — then train the free-response and investigative-task writing the exam scores. College Board CED aligned. Mentors in every US time zone. $150/month, 8 classes. Free trial.
+> Live 1:1 online AP Statistics tutoring. We teach what the statistics actually mean — sampling, probability, inference and p-values — then train the free-response and investigative-task writing the exam scores. College Board CED aligned. Mentors in every US time zone. Priced for your country.
 
 Why AP Stats surprises people
 
@@ -143,7 +143,7 @@ Pricing
 
 ### 1:1 Private Mentorship
 
-$150 / month
+$374.99$1
 
 - 8 live one-to-one sessions a month (2 per week, 1 hour each)
 - The same mentor through the whole course
@@ -152,7 +152,7 @@ $150 / month
 
 ### Small-Group Cohort
 
-$100 / month
+$149.99$1
 
 - 8 live small-group sessions a month (2 per week, 1 hour each)
 - A few students in AP Stats together
@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Video courses | Review book |
 | --- | --- | --- | --- |
 | Explains the concepts, not just steps | Yes | Sometimes | Briefly |
 | Coaches FRQ wording 1:1 | Yes, with feedback | No | No feedback |
 | Same mentor all course | Yes | N/A | N/A |
 | Fixes your specific misreadings | Live, in the moment | No | No |
-| Monthly price | $150 (1:1) / $100 (group) | $20–100 | $15–25 |
+| Monthly price | $20–100 | $15–25 |
 
 A review book is a useful reference. It can't read your student's FRQ answer and tell them the one phrase that turns a partial into a full score — that's what live 1:1 adds.
 

@@ -185,13 +185,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1)$2
+
 | What matters | Modern Age Coders | Group tuition class | Solution apps |
 | --- | --- | --- | --- |
 | One-to-one attention | Always | No — shared | N/A |
 | Teaches concepts, not solutions | Always | Varies | No — answers |
 | Ready for competency questions | Yes | Sometimes | No |
 | Same tutor each time | Yes | Often large groups | N/A |
-| Monthly price | $150 / (1:1) | AED 300–900 | AED 20–60 |
+| Monthly price | AED 300–900 | AED 20–60 |
 
 Group classes are cheaper but share the tutor among many; solution apps just give answers. We give full one-to-one attention that builds real understanding for the boards.
 

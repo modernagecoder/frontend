@@ -1,10 +1,10 @@
 ---
 title: "ACT Math Tutoring Online · 1:1 ACT Math Prep — Modern Age Coders"
-description: "Live 1:1 online ACT Math tutoring. We rebuild the algebra, geometry and trig the ACT tests, then train the pacing the ACT demands — 60 questions in 60 minutes. Mentors in every US time zone. $150/month, 8 classes. Free trial."
+description: "Live 1:1 online ACT Math tutoring. We rebuild the algebra, geometry and trig the ACT tests, then train the pacing the ACT demands — 60 questions in 60 minutes. Mentors in every US time zone. Priced for your country."
 canonical: https://learn.modernagecoders.com/act-math-tutoring-online
 source: src/pages/act-math-tutoring-online.html
 ---
-> Live 1:1 online ACT Math tutoring. We rebuild the algebra, geometry and trig the ACT tests, then train the pacing the ACT demands — 60 questions in 60 minutes. Mentors in every US time zone. $150/month, 8 classes. Free trial.
+> Live 1:1 online ACT Math tutoring. We rebuild the algebra, geometry and trig the ACT tests, then train the pacing the ACT demands — 60 questions in 60 minutes. Mentors in every US time zone. Priced for your country.
 
 Why ACT math scores get stuck
 
@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Free practice apps | Big prep course |
 | --- | --- | --- | --- |
 | Trains pacing specifically | Yes, from day one | Rarely | Group-paced |
 | Fixes content gaps 1:1 | Yes | No | Limited |
 | Same mentor tracks you | Yes | N/A | Usually not |
 | Drills must-know formulas | Yes | Sometimes | Sometimes |
-| Monthly price | $150 (1:1) / $100 (group) | Free | $700–2,500+ |
+| Monthly price | Free | $700–2,500+ |
 
 Apps are useful for untimed drilling. We add the live diagnosis, the content fix and the pacing coaching that move an actual ACT score.
 

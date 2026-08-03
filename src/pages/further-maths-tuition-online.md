@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Revision videos | A typical tutor |
 | --- | --- | --- | --- |
 | Makes abstract ideas intuitive | Yes, the core of it | Rarely | Varies |
 | Knows Further Maths deeply | Yes | Sometimes | Not all tutors |
 | Covers your exact options | Yes | Generic | Varies |
 | STEP/MAT coaching | Yes | Rarely | Rarely |
-| Monthly price | $150 (1:1) / $100 (group) | Free–£20 | £40–70/hr |
+| Monthly price | Free–£20 | £40–70/hr |
 
 Many general tutors don't teach Further Maths confidently. Ours specialise in it — and in making its hardest ideas feel obvious.
 

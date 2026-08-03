@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Revision websites | University drop-in |
 | --- | --- | --- | --- |
 | Teaches transferable understanding | Always | Sometimes | Varies |
 | Works to your spec or module | Yes | Generic | Sometimes |
 | Same tutor all year | Yes | N/A | Rarely |
 | Handles proof & STEP | Yes | Limited | Sometimes |
-| Monthly price | $150 (1:1) / $100 (group) | Free–£15 | Free |
+| Monthly price | Free–£15 | Free |
 
 University drop-in help and revision sites are useful free resources. We add a dedicated tutor who knows your course and your gaps from week to week.
 

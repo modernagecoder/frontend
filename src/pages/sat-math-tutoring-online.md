@@ -1,10 +1,10 @@
 ---
 title: "SAT Math Tutoring Online · 1:1 Digital SAT Math Prep — Modern Age Coders"
-description: "Live 1:1 online SAT Math tutoring for the Digital SAT. We rebuild the algebra and data reasoning the test rewards — Heart of Algebra, Problem Solving & Data Analysis, Passport to Advanced Math — then train pacing and the traps. Mentors in every US time zone. $150/month, 8 classes. Free trial."
+description: "Live 1:1 online SAT Math tutoring for the Digital SAT. We rebuild the algebra and data reasoning the test rewards — Heart of Algebra, Problem Solving & Data Analysis, Passport to Advanced Math — then train pacing and the traps. Mentors in every US time zone. Priced for your country."
 canonical: https://learn.modernagecoders.com/sat-math-tutoring-online
 source: src/pages/sat-math-tutoring-online.html
 ---
-> Live 1:1 online SAT Math tutoring for the Digital SAT. We rebuild the algebra and data reasoning the test rewards — Heart of Algebra, Problem Solving & Data Analysis, Passport to Advanced Math — then train pacing and the traps. Mentors in every US time zone. $150/month, 8 classes. Free trial.
+> Live 1:1 online SAT Math tutoring for the Digital SAT. We rebuild the algebra and data reasoning the test rewards — Heart of Algebra, Problem Solving & Data Analysis, Passport to Advanced Math — then train pacing and the traps. Mentors in every US time zone. Priced for your country.
 
 Why scores stall
 
@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Free practice apps | Big prep course |
 | --- | --- | --- | --- |
 | Diagnoses why you miss points | Yes, every question | Score only | Rarely 1:1 |
 | Fixes the math underneath | Yes | No | Group-paced |
 | Same mentor tracks you | Yes | N/A | Usually not |
 | Trains pacing & Desmos | Yes | Limited | Sometimes |
-| Monthly price | $150 (1:1) / $100 (group) | Free | $700–2,500+ |
+| Monthly price | Free | $700–2,500+ |
 
 Free apps are great for drilling once you know your gaps. We provide the live diagnosis and the math fix that turn drilling into a higher score.
 

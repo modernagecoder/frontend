@@ -10,7 +10,7 @@ Honest alternative · 2026
 
 # Cuemath Alternative for 2026: A Live Coding and Maths School
 
-Looking for a Cuemath alternative? Modern Age Coders teaches live online maths, and coding and maths together, for ages 6 to 67, in small batches with a focus on real understanding rather than a fixed method. Group plans are 1,499 rupees a month in India or $100 international, with a free demo before you pay, and monthly billing with no lock-in.
+Looking for a Cuemath alternative? Modern Age Coders teaches live online maths, and coding and maths together, for ages 6 to 67, in small batches with a focus on real understanding rather than a fixed method. Group plans are 1,499 rupees a month in India, with international prices set for your country, with a free demo before you pay, and monthly billing with no lock-in.
 
 Rated 4.9 across 547 Google reviews
 
@@ -46,7 +46,7 @@ Cuemath is maths-only and built around one fixed method. Modern Age Coders teach
 
 Is Modern Age Coders cheaper than Cuemath?
 
-Modern Age Coders publishes clear monthly pricing, group maths from 1,499 rupees a month in India or $100 international, with a free demo before you pay and no prepaid lock-in. Compare against Cuemath's current plan for your child, and judge a free class before deciding on price alone.
+Modern Age Coders publishes clear monthly pricing, group maths from 1,499 rupees a month in India, with international prices set for your country, with a free demo before you pay and no prepaid lock-in. Compare against Cuemath's current plan for your child, and judge a free class before deciding on price alone.
 
 [Pricing](/pricing)[Courses](/courses)[Ranked: coding classes](/best-online-coding-classes-for-kids-2026)[Ranked: maths classes](/best-online-maths-classes-2026)[Reviews](/love)
 

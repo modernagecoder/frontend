@@ -10,7 +10,7 @@ Honest alternative · 2026
 
 # WhiteHat Jr Alternative in 2026: Real Mentors, Not Scripts
 
-Looking for a WhiteHat Jr alternative? Modern Age Coders teaches live online coding, and coding and maths together, for ages 6 to 67, in small batches with real mentors who teach, not read from a script. Group plans are 1,499 rupees a month in India or $40 international, with a free demo before you pay and monthly billing you can stop any time.
+Looking for a WhiteHat Jr alternative? Modern Age Coders teaches live online coding, and coding and maths together, for ages 6 to 67, in small batches with real mentors who teach, not read from a script. Group plans are 1,499 rupees a month in India, with international prices set for your country, with a free demo before you pay and monthly billing you can stop any time.
 
 Rated 4.9 across 547 Google reviews
 
@@ -46,7 +46,7 @@ Modern Age Coders teaches live with adaptive mentors rather than fixed scripts, 
 
 Is Modern Age Coders better value than WhiteHat Jr?
 
-Modern Age Coders uses clear monthly pricing you can stop any time, group coding from 1,499 rupees a month in India or $40 international, rather than large prepaid packages. Take a free demo and judge the teaching before comparing on price.
+Modern Age Coders uses clear monthly pricing you can stop any time, group coding from 1,499 rupees a month in India, with international prices set for your country, rather than large prepaid packages. Take a free demo and judge the teaching before comparing on price.
 
 [Pricing](/pricing)[Courses](/courses)[Ranked: coding classes](/best-online-coding-classes-for-kids-2026)[Ranked: maths classes](/best-online-maths-classes-2026)[Reviews](/love)
 

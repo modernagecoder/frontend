@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Problem-set books | Large online courses |
 | --- | --- | --- | --- |
 | Coaches your child's actual struggle | Yes, live 1:1 | No | Rarely |
 | Teaches heuristics, not formulas | Yes | Implicitly | Varies |
 | Same coach, long-term arc | Yes | N/A | Usually not |
 | Adapts pace to the student | Fully | You self-pace | Fixed schedule |
-| Monthly price | $150 (1:1) / $100 (group) | £15–30 | £150–400+ |
+| Monthly price | £15–30 | £150–400+ |
 
 Great problem books are essential and we use them. What a book can't do is watch your child get stuck and give the single nudge that teaches them to get unstuck themselves.
 

@@ -185,13 +185,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1)$2
+
 | What matters | Modern Age Coders | Tuition centre | Group class |
 | --- | --- | --- | --- |
 | One-to-one attention | Always | Often small group | No — shared |
 | Matched to your curriculum | Yes | Varies | Generic |
 | Teaches reasoning | Always | Varies | Rarely |
 | No commute / traffic | Fully online | You travel | You travel |
-| Monthly price | $150 / (1:1) | AED 800–2,000+ | AED 300–800 |
+| Monthly price | AED 800–2,000+ | AED 300–800 |
 
 Group classes are cheaper but share the tutor's attention; centres give attention at a premium. We give full one-to-one attention online at sensible value.
 

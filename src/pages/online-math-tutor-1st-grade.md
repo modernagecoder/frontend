@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your child. Op
 
 [![Early Math Foundations course thumbnail](/images/early-math-k2.webp)Best fit  Early Math Foundations (K-2) The K-2 arc this year sits inside: bonds, stories and place-value beginnings, taught playfully. Ages 4-78 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/early-math-foundations)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids The fluency engine: bonds and strategies through games, exactly what first grade runs on. Ages 5-108 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass The full grades 1-5 road, with the same mentor carrying your child rung by rung. Grades 1-58 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)See what is includedThe 20-second answer
 
-Good 1st grade math tutoring builds three things: **strategies to replace counting-everything** (counting on, making ten, using doubles), **fact fluency within 10 through games** rather than flashcard grind, and **place value that means something**, tens and ones as bundles, not columns. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 for $150 a month or small group for $100, free demo class first.
+Good 1st grade math tutoring builds three things: **strategies to replace counting-everything** (counting on, making ten, using doubles), **fact fluency within 10 through games** rather than flashcard grind, and **place value that means something**, tens and ones as bundles, not columns. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
 Why first grade wobbles
 
@@ -199,9 +199,11 @@ An honest comparison
 
 ## Your real options for a 1st grade student.
 
+ $1$149.99–$374.99 / month$2
+
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | $100-$150 / month | 8 live one-hour classes with a dedicated mentor, understanding-first teaching | Rebuilding understanding and confidence, sustained progress |
+| Modern Age Coders | 8 live one-hour classes with a dedicated mentor, understanding-first teaching | Rebuilding understanding and confidence, sustained progress |
 | Mathnasium center | $300-$450 / month + enrollment fee | Drop-in worksheet floor with rotating instructors | Children who focus better out of the house |
 | Kumon | $150-$220 / subject / month | Daily worksheet packets, brief check-ins, no taught lessons | Building a drill habit and calculation speed |
 | Local private tutor | $35-$80 / hour | Quality varies; twice-weekly quickly costs $280-$640 a month | Short-term help when you have found a gem nearby |
@@ -235,7 +237,7 @@ Yes, the map covers standard first-grade territory (operations within 20, place 
 
 What does it cost?
 
-1-on-1 is $150 a month and small group is $100 a month, both with 8 live one-hour classes (2 per week) and recordings included. No registration fee, no contract. US tutoring centers charge $300 to $450 a month for less individual attention.
+Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract. US tutoring centers charge $300 to $450 a month for less individual attention.
 
 Group or 1-on-1 at this age?
 

@@ -1,10 +1,10 @@
 ---
 title: "Coding & AI Classes in Canada | Toronto & Vancouver"
-description: "Live 1:1 online coding, Python & AI mentorship for students across Canada. Ontario, BC & Québec CEGEP aligned; Waterloo & UofT prep. USD 100 ( )/mo."
+description: "Live 1:1 online coding, Python & AI mentorship for students across Canada. Ontario, BC & Québec CEGEP aligned; Waterloo & UofT prep. priced for your country"
 canonical: https://learn.modernagecoders.com/coding-classes-in-canada
 source: src/pages/coding-classes-in-canada.html
 ---
-> Live 1:1 online coding, Python & AI mentorship for students across Canada. Ontario, BC & Québec CEGEP aligned; Waterloo & UofT prep. USD 100 ( )/mo.
+> Live 1:1 online coding, Python & AI mentorship for students across Canada. Ontario, BC & Québec CEGEP aligned; Waterloo & UofT prep. priced for your country
 
 ### Request a callback
 
@@ -218,7 +218,7 @@ Also at Modern Age Coders
 
 ## Math, taught with the same depth.
 
-The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at math. For Canadian students that means province-exact teaching, Ontario’s coding-in-math strand included, up to the Grade 12 gate. Premium 1-on-1 mentorship is USD $150 a month, small group $100, 8 classes a month, and every student starts with a free demo class.
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at math. For Canadian students that means province-exact teaching, Ontario’s coding-in-math strand included, up to the Grade 12 gate. Premium 1-on-1 mentorship and small-group plans are priced for your country (shown on this page in your local currency), 8 classes a month, and every student starts with a free demo class.
 
 [Math Tutoring Canada](/online-math-tutor-canada)[Calculus](/calculus-tutoring-online)[Grades 3-8 ladder](/online-math-tutor-3rd-grade)[IB Maths (AA & AI)](/ib-maths-tuition-online)[Catch-Up Program](/math-catch-up-program)[The 2026 Guide](/best-online-math-tutoring-2026)
 

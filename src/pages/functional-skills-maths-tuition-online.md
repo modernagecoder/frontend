@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Free online courses | College evening class |
 | --- | --- | --- | --- |
 | Teaches through real situations | Yes | Sometimes | Varies |
 | Patient with maths anxiety | Built for it | You're on your own | Class setting |
 | Fills your specific gaps 1:1 | Yes | No | Rarely |
 | Fits around your work | Fully flexible | Self-paced | Fixed times |
-| Monthly price | $150 (1:1) / $100 (group) | Free–£20 | Varies |
+| Monthly price | Free–£20 | Varies |
 
 Free courses are great if you already know your gaps and can self-motivate. We add a patient tutor who finds the gaps, keeps it calm, and fits around your job.
 

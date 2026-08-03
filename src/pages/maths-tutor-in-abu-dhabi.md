@@ -185,13 +185,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1)$2
+
 | What matters | Modern Age Coders | Tutoring centre | Home-visit tutor |
 | --- | --- | --- | --- |
 | No travel across the capital | Fully online | You travel | Tutor travels (costs more) |
 | Best-matched tutor | Anywhere, any curriculum | Centre's staff | Who's nearby |
 | Teaches reasoning | Always | Varies | Varies |
 | Same tutor each time | Yes | Often rotates | Usually |
-| Monthly price | $150 / (1:1) | AED 1,000–2,500+ | AED 1,500–4,000+ |
+| Monthly price | AED 1,000–2,500+ | AED 1,500–4,000+ |
 
 In-person options in Abu Dhabi are good but premium-priced and location-bound. We deliver matched, one-to-one teaching online for a fraction of the cost.
 

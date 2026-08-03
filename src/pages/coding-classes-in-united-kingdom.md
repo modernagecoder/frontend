@@ -314,7 +314,7 @@ Also at Modern Age Coders
 
 ## Maths, taught with the same depth.
 
-The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For UK students that means GCSE and IGCSE by board and tier, IB for international schools, and gaps repaired at the root. Premium 1-on-1 mentorship is USD $150 a month, small group $100, 8 classes a month, and every student starts with a free demo class.
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For UK students that means GCSE and IGCSE by board and tier, IB for international schools, and gaps repaired at the root. Premium 1-on-1 mentorship and small-group plans are priced for your country (shown on this page in your local currency), 8 classes a month, and every student starts with a free demo class.
 
 [GCSE Maths](/gcse-maths-tuition-online)[IGCSE Maths](/igcse-maths-tuition-online)[IB Maths (AA & AI)](/ib-maths-tuition-online)[Catch-Up Program](/math-catch-up-program)[Singapore Method](/singapore-math-method-tutoring)[The 2026 Guide](/best-online-math-tutoring-2026)
 

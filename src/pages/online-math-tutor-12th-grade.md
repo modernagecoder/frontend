@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your senior's 
 
 [![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery Whatever the senior course is, precalc, calc, stats, taught for the grade now and the readiness after. Grades 9-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![AP Calculus Exam Prep course thumbnail](/images/ap-calculus-prep.webp)  AP Calculus AB & BC Exam Prep For seniors in AP Calc: the rubric-and-mock machine, aimed at May and the college credit behind it. AP AB & BC8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/ap-calculus-exam-prep)[![College Mathematics Masterclass course thumbnail](/images/college-level-maths.webp)  College Mathematics Masterclass The bridge across the summer: calculus and linear algebra met early, so freshman year starts ahead. College level8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/college-mathematics-complete-masterclass)See what is includedThe 20-second answer
 
-Good 12th grade math tutoring plays both halves of the year honestly: **fall protects the transcript**, because colleges read mid-year reports and can revisit offers after a collapsed spring, and **the whole year builds what college will actually test**: placement exams, freshman calculus, and the quantitative footing every major now assumes. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 for $150 a month or small group for $100, free demo class first.
+Good 12th grade math tutoring plays both halves of the year honestly: **fall protects the transcript**, because colleges read mid-year reports and can revisit offers after a collapsed spring, and **the whole year builds what college will actually test**: placement exams, freshman calculus, and the quantitative footing every major now assumes. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
 The senior paradox
 
@@ -198,9 +198,11 @@ An honest comparison
 
 ## Your real options for a 12th grade student.
 
+ $1$149.99–$374.99 / month$2
+
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | $100-$150 / month | 8 live one-hour classes with a dedicated mentor, understanding-first teaching | Rebuilding understanding and confidence, sustained progress |
+| Modern Age Coders | 8 live one-hour classes with a dedicated mentor, understanding-first teaching | Rebuilding understanding and confidence, sustained progress |
 | Mathnasium center | $300-$450 / month + enrollment fee | Drop-in worksheet floor with rotating instructors | Children who focus better out of the house |
 | Kumon | $150-$220 / subject / month | Daily worksheet packets, brief check-ins, no taught lessons | Building a drill habit and calculation speed |
 | Local private tutor | $35-$80 / hour | Quality varies; twice-weekly quickly costs $280-$640 a month | Short-term help when you have found a gem nearby |
@@ -238,7 +240,7 @@ Of course, "pass the course, protect the offer" is a perfectly honorable brief, 
 
 What does it cost?
 
-1-on-1 is $150 a month and small group is $100 a month, both with 8 live one-hour classes (2 per week) and recordings included. No registration fee, no contract, and the flexibility a senior calendar demands.
+Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract, and the flexibility a senior calendar demands.
 
 Is it too late to start mid-year?
 

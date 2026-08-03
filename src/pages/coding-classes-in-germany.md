@@ -1,10 +1,10 @@
 ---
 title: "Coding & AI Classes in Germany | Abitur & Informatik"
-description: "Live online coding, Python & AI for students across Germany. Informatik LK & Abitur-aligned. 1:1 mentor, USD 100 ( )/mo. Buchen Sie eine Demo."
+description: "Live online coding, Python & AI for students across Germany. Informatik LK & Abitur-aligned. 1:1 mentor, priced for your country Buchen Sie eine Demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-germany
 source: src/pages/coding-classes-in-germany.html
 ---
-> Live online coding, Python & AI for students across Germany. Informatik LK & Abitur-aligned. 1:1 mentor, USD 100 ( )/mo. Buchen Sie eine Demo.
+> Live online coding, Python & AI for students across Germany. Informatik LK & Abitur-aligned. 1:1 mentor, priced for your country Buchen Sie eine Demo.
 
 ### Rückruf anfordern
 
@@ -242,7 +242,7 @@ Also at Modern Age Coders
 
 ## Maths, taught with the same depth.
 
-The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For international-school families in Germany that means IB and IGCSE taught board-exact, in English, at European evening hours. Premium 1-on-1 mentorship is USD $150 a month, small group $100, 8 classes a month, and every student starts with a free demo class.
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For international-school families in Germany that means IB and IGCSE taught board-exact, in English, at European evening hours. Premium 1-on-1 mentorship and small-group plans are priced for your country (shown on this page in your local currency), 8 classes a month, and every student starts with a free demo class.
 
 [IB Maths (AA & AI)](/ib-maths-tuition-online)[IGCSE Maths](/igcse-maths-tuition-online)[Grades 3-8 ladder](/online-math-tutor-3rd-grade)[Catch-Up Program](/math-catch-up-program)[Singapore Method](/singapore-math-method-tutoring)[The 2026 Guide](/best-online-math-tutoring-2026)
 
@@ -449,7 +449,7 @@ Classes are taught in clear, slow English — because every meaningful software 
 
 What does it cost in Euro?
 
-Private 1:1 mentorship is **USD 100 ( )** per month — 8 sessions, 2 per week. Small-group cohort is **USD 40 ( )** per month, same schedule. No registration fee, no contract, monatlich kündbar.
+Private 1:1 mentorship is **priced for your country** per month — 8 sessions, 2 per week. Small-group cohort is **priced for your country** per month, same schedule. No registration fee, no contract, monatlich kündbar.
 
 Will my child learn real AI or just "use ChatGPT"?
 

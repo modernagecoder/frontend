@@ -41,7 +41,7 @@ From an actual class — **this is the level our students write at**, and they c
 
 Real coding classes teach **how and why code works** — not just what to type. Modern Age Coders runs live, small-batch online classes built on four things most courses skip: **how things actually work** (Python internals, the mathematics behind AI and machine learning, memory in C++, how the web really runs), **how to think like a programmer**, **how to solve coding problems** you've never seen, and **how to build real models and software**. Students learn with expert mentors, build real projects every month, and finish able to explain — and defend — every line they write.
 
-**Live only**No recorded-video courses**≤ 10 students**Per batch (or 1-on-1)**From ₹1,499/moFrom $40/mo**Transparent pricing**Ages 13–65**Teens · college · professionals
+**Live only**No recorded-video courses**≤ 10 students**Per batch (or 1-on-1)**From ₹1,499/moFrom $149.99**Transparent pricing**Ages 13–65**Teens · college · professionals
 
 § 01 · The problem
 
@@ -464,7 +464,7 @@ Every class is live — never recorded-video-only. You learn in a small batch (u
 
 What do the classes cost?
 
-Pricing is fully transparent: Group classes (up to 10 students) are ₹1,499 per month, Mini batches (3–4 students, India) are ₹2,499 per month, and 1-on-1 personal classes are ₹4,999 per month. International students pay roughly $40 per month for group and $100 per month for 1-on-1. There are no hidden costs, and the first demo class is free.
+Pricing is fully transparent: Group classes (up to 10 students) are ₹1,499 per month, Mini batches (3–4 students, India) are ₹2,499 per month, and 1-on-1 personal classes are ₹4,999 per month. International students pay a price set for their own country, shown on each page in their local currency. There are no hidden costs, and the first demo class is free.
 
 Do you teach students outside India? What about time zones?
 

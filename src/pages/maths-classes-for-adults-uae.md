@@ -185,13 +185,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1)$2
+
 | What matters | Modern Age Coders | Self-study videos | Test-prep centre |
 | --- | --- | --- | --- |
 | Adapts to your exact goal | Fully | No — fixed playlist | Only the test |
 | Fills your specific gaps | Yes, diagnosed live | No | Rarely 1:1 |
 | Patient with maths anxiety | Built for it | You're on your own | Group-paced |
 | Fits around your work | Fully flexible, online | Self-paced | Fixed times |
-| Monthly price | $150 / (1:1) | Free–AED 100 | AED 1,500–6,000+ |
+| Monthly price | Free–AED 100 | AED 1,500–6,000+ |
 
 Free videos are great if you already know what's missing. We add a mentor who finds the gaps for you and stays patient while you close them — at a fraction of test-prep-centre prices.
 

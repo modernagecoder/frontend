@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Math apps | A typical tutor |
 | --- | --- | --- | --- |
 | Teaches the reasoning | Always — it's the point | Rarely — rewards taps | Sometimes |
 | Notices quiet confusion | Yes, live, one-to-one | No | Usually |
 | Same teacher each time | Yes, all year | N/A | Often, varies |
 | Parent updates | After every class | Score charts | Varies |
-| Monthly price | $150 (1:1) / $100 (group) | $10–15 | $200–600+ |
+| Monthly price | $10–15 | $200–600+ |
 
 Apps are cheap and fine for drill. A private in-home tutor is excellent and costly. We sit in between on price, with the live attention an app can't give.
 

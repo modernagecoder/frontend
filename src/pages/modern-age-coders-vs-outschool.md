@@ -34,13 +34,15 @@ Outschool figures are typical published ranges as of July 2026 (brighterly.com, 
 
 Scroll the table sideways to see every column →
 
+ $1$149.99 a month group · $374.99 1-on-1$2 (8 live classes)
+
 | Dimension | Modern Age CodersA school | Outschool |
 | --- | --- | --- |
 | What it is | **A coding and maths school with a curriculum** | A marketplace of classes from independent teachers |
 | Teacher continuity | **The same dedicated mentor, class after class** | Changes with every class you book |
 | Progression | **Structured path: each hour builds on the last** | Assembled by the parent from separate listings |
 | Depth per class | **One full hour, interactive and application-first** | Varies by teacher; many classes are 25 to 55 minutes |
-| Typical cost | **$40 a month group · $100 1-on-1** (8 live classes) | $10 to $30 per class hour; series and 1-on-1 run $50 to $100+ |
+| Typical cost | $10 to $30 per class hour; series and 1-on-1 run $50 to $100+ |
 | Quality consistency | **Vetted mentors, one standard, 4.9 across 547 reviews** | Varies teacher to teacher; you vet each listing yourself |
 | Maths + coding together | **Yes, one integrated school** | Possible only by juggling separate teachers |
 

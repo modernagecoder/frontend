@@ -1,10 +1,10 @@
 ---
 title: "AP Calculus Tutoring Online · 1:1 AP Calculus AB & BC Prep — Modern Age Coders"
-description: "Live 1:1 online AP Calculus AB & BC tutoring. We teach why calculus works — limits, derivatives, integrals, the Fundamental Theorem and series — then train the AP free-response technique. Aligned to the College Board CED. Mentors in every US time zone. $150/month, 8 classes. Free trial."
+description: "Live 1:1 online AP Calculus AB & BC tutoring. We teach why calculus works — limits, derivatives, integrals, the Fundamental Theorem and series — then train the AP free-response technique. Aligned to the College Board CED. Mentors in every US time zone. Priced for your country."
 canonical: https://learn.modernagecoders.com/ap-calculus-tutoring-online
 source: src/pages/ap-calculus-tutoring-online.html
 ---
-> Live 1:1 online AP Calculus AB & BC tutoring. We teach why calculus works — limits, derivatives, integrals, the Fundamental Theorem and series — then train the AP free-response technique. Aligned to the College Board CED. Mentors in every US time zone. $150/month, 8 classes. Free trial.
+> Live 1:1 online AP Calculus AB & BC tutoring. We teach why calculus works — limits, derivatives, integrals, the Fundamental Theorem and series — then train the AP free-response technique. Aligned to the College Board CED. Mentors in every US time zone. Priced for your country.
 
 Why AP Calculus trips students
 
@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Video courses | Cram review book |
 | --- | --- | --- | --- |
 | Builds the concept, not just rules | Yes | Sometimes | Rarely |
 | Coaches FRQ justification 1:1 | Yes | No | No feedback |
 | Same mentor all course | Yes | N/A | N/A |
 | Answers your specific confusion | Live, in the moment | No | No |
-| Monthly price | $150 (1:1) / $100 (group) | $20–100 | $15–25 |
+| Monthly price | $20–100 | $15–25 |
 
 A good review book is a fine supplement. It can't watch your student justify a maximum and tell them the exact word that earns the point — that's what live 1:1 adds.
 

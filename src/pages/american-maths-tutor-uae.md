@@ -185,13 +185,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1)$2
+
 | What matters | Modern Age Coders | SAT cram course | School-only tutor |
 | --- | --- | --- | --- |
 | Joins up GPA, SAT & AP | Yes — one tutor | SAT only | School only |
 | Teaches understanding | Always | Often just tricks | Varies |
 | Digital SAT & Desmos | Yes | Sometimes | Rarely |
 | Same tutor each time | Yes | Group-paced | Usually |
-| Monthly price | $150 / (1:1) | AED 2,000–6,000+ | AED 1,000–3,000+ |
+| Monthly price | AED 2,000–6,000+ | AED 1,000–3,000+ |
 
 Cram courses are pricey and SAT-only; school tutors rarely cover the test. We join everything up with one tutor at sensible value.
 

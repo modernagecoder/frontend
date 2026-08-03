@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your child. Op
 
 [![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  Maths Through Coding Learn math by building it in Python: fraction machines, turtle geometry and probability simulators. Ages 10-158 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/maths-through-coding)See what is includedThe 20-second answer
 
-A good online math tutor for a 6th grader does three things: **makes ratios and rates visual** with tables and tape diagrams before they become mechanical cross-multiplication; **builds negative numbers on the number line** so minus seven versus minus three never becomes a coin flip; and **turns variables into numbers-in-waiting** instead of mysterious letters. That is what we do: 8 live one-hour classes a month, 1-on-1 for $150 a month or small group for $100, free demo class first.
+A good online math tutor for a 6th grader does three things: **makes ratios and rates visual** with tables and tape diagrams before they become mechanical cross-multiplication; **builds negative numbers on the number line** so minus seven versus minus three never becomes a coin flip; and **turns variables into numbers-in-waiting** instead of mysterious letters. That is what we do: 8 live one-hour classes a month, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
 Why grade 6 feels like a different subject
 
@@ -409,9 +409,11 @@ An honest comparison
 
 ## Your real options for a struggling 6th grader.
 
+ $1$149.99–$374.99 / month$2
+
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | $100-$150 / month | 8 live one-hour classes with a dedicated mentor, concrete-first teaching | Rebuilding understanding and confidence, sustained progress |
+| Modern Age Coders | 8 live one-hour classes with a dedicated mentor, concrete-first teaching | Rebuilding understanding and confidence, sustained progress |
 | Mathnasium center | $300-$450 / month + enrollment fee | Drop-in worksheet floor with rotating instructors | Children who focus better out of the house |
 | Kumon | $150-$220 / subject / month | Daily worksheet packets, brief check-ins, no taught lessons | Building a drill habit and calculation speed |
 | Local private tutor | $35-$80 / hour | Quality varies; twice-weekly quickly costs $280-$640 a month | Short-term help when you have found a gem nearby |
@@ -449,7 +451,7 @@ A dedicated mentor, the same one every class, tracking your child against the fu
 
 What does it cost, exactly?
 
-1-on-1 is $150 a month, small group is $100 a month, both with 8 live one-hour classes (2 per week) and recordings included. No registration fee, no contract, cancel any month. The first class is a free live demo, no card needed.
+Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract, cancel any month. The first class is a free live demo, no card needed.
 
 Is this aligned with my child's school?
 

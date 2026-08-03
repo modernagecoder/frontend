@@ -1,10 +1,10 @@
 ---
 title: "Math Olympiad & AMC Tutoring Online · 1:1 AMC 8/10/12 & MATHCOUNTS Coaching — Modern Age Coders"
-description: "Live 1:1 online math olympiad coaching for AMC 8, AMC 10, AMC 12, MATHCOUNTS and the AIME pathway. We teach problem-solving — number theory, combinatorics, clever geometry — the way competition math is really won. Mentors in every US time zone. $150/month, 8 classes. Free trial."
+description: "Live 1:1 online math olympiad coaching for AMC 8, AMC 10, AMC 12, MATHCOUNTS and the AIME pathway. We teach problem-solving — number theory, combinatorics, clever geometry — the way competition math is really won. Mentors in every US time zone. Priced for your country."
 canonical: https://learn.modernagecoders.com/math-olympiad-amc-tutoring
 source: src/pages/math-olympiad-amc-tutoring.html
 ---
-> Live 1:1 online math olympiad coaching for AMC 8, AMC 10, AMC 12, MATHCOUNTS and the AIME pathway. We teach problem-solving — number theory, combinatorics, clever geometry — the way competition math is really won. Mentors in every US time zone. $150/month, 8 classes. Free trial.
+> Live 1:1 online math olympiad coaching for AMC 8, AMC 10, AMC 12, MATHCOUNTS and the AIME pathway. We teach problem-solving — number theory, combinatorics, clever geometry — the way competition math is really won. Mentors in every US time zone. Priced for your country.
 
 Why strong students still stall on the AMC
 
@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Problem-set books | Large online classes |
 | --- | --- | --- | --- |
 | Coaches your child's actual struggle | Yes, live 1:1 | No | Rarely |
 | Teaches heuristics, not formulas | Yes | Implicitly | Varies |
 | Same coach, long-term arc | Yes | N/A | Usually not |
 | Adapts pace to the student | Fully | You self-pace | Fixed schedule |
-| Monthly price | $150 (1:1) / $100 (group) | $20–40 | $200–500+ |
+| Monthly price | $20–40 | $200–500+ |
 
 Great problem books are essential and we use them. What a book can't do is watch your child get stuck and give the one nudge that teaches them to get unstuck themselves.
 

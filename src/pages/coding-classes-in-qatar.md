@@ -227,7 +227,7 @@ Fees are billed monthly in US dollars. The Qatari riyal is pegged to the dollar,
 
 Group classes
 
-$40 per month
+ $1$149.99$2
 
 - Live classes in batches of 5 to 8
 - Evening and weekend AST slots
@@ -238,7 +238,7 @@ Book a Free Demo
 
 One-on-one classes
 
-$100 per month
+ $1$374.99$2
 
 - One student, one teacher, every class
 - Schedule set around your week
@@ -253,7 +253,7 @@ Questions
 
 ## Frequently asked questions
 
-Are the classes online or in person in Qatar?Fully online, taught live. We do not run a physical academy in Doha or anywhere else in Qatar. A student in West Bay, Al Wakrah or Al Khor joins the same class with the same teacher. You need a laptop or desktop and a steady internet connection.What class timings work for students in Qatar?Weekday classes run through the evening, roughly 4:00 to 9:00 PM Arabia Standard Time, so they fit after school and office hours. Friday and Saturday slots cover the Qatar weekend. You choose a fixed weekly slot at enrolment, and one-on-one students can set their own days.Will the classes fit alongside my child's school in Qatar?Yes. Students join us from British, American, Indian CBSE and IB curriculum schools as well as the independent schools, and the coursework runs alongside school rather than replacing it. Some overlaps help directly: CBSE teaches Classes 11 and 12 computer science in Python, and IGCSE, A Level and AP papers all reward students who can genuinely program.What ages do you teach?Six to adult. Kids courses cover ages 6 to 12, teen courses cover 13 to 18, and separate tracks serve college students and working professionals. The free demo doubles as placement: the teacher meets the student and recommends the right starting course.What language are the classes taught in?English. That suits most of Qatar's international schools, and our instructors are used to students who speak Arabic, Hindi, Malayalam or another language at home. Teachers speak plainly and confirm understanding rather than assuming it.How much do coding classes cost in Qatar?Group classes are 40 US dollars per month, about QAR 145. One-on-one classes are 100 US dollars per month, about QAR 365. The riyal is pegged to the dollar, so those figures stay stable. Billing is monthly, there is no registration fee, and international cards work.What happens if we leave Qatar?The class comes with you. Because everything is online, a family relocating from Doha keeps the same course, the same teacher and the same progress records. We reschedule the weekly slot around the new timezone and nothing restarts.How does the free demo class work?Fill the form on this page or message us on WhatsApp. A mentor calls to understand the student's age and experience, then fixes a slot. The student attends a full one-hour live class. Afterwards you decide. No card details are taken and nothing is owed.
+Are the classes online or in person in Qatar?Fully online, taught live. We do not run a physical academy in Doha or anywhere else in Qatar. A student in West Bay, Al Wakrah or Al Khor joins the same class with the same teacher. You need a laptop or desktop and a steady internet connection.What class timings work for students in Qatar?Weekday classes run through the evening, roughly 4:00 to 9:00 PM Arabia Standard Time, so they fit after school and office hours. Friday and Saturday slots cover the Qatar weekend. You choose a fixed weekly slot at enrolment, and one-on-one students can set their own days.Will the classes fit alongside my child's school in Qatar?Yes. Students join us from British, American, Indian CBSE and IB curriculum schools as well as the independent schools, and the coursework runs alongside school rather than replacing it. Some overlaps help directly: CBSE teaches Classes 11 and 12 computer science in Python, and IGCSE, A Level and AP papers all reward students who can genuinely program.What ages do you teach?Six to adult. Kids courses cover ages 6 to 12, teen courses cover 13 to 18, and separate tracks serve college students and working professionals. The free demo doubles as placement: the teacher meets the student and recommends the right starting course.What language are the classes taught in?English. That suits most of Qatar's international schools, and our instructors are used to students who speak Arabic, Hindi, Malayalam or another language at home. Teachers speak plainly and confirm understanding rather than assuming it.How much do coding classes cost in Qatar?Group and one-on-one classes are billed monthly, with the price set for your country and shown on this page in your local currency. The riyal is pegged to the dollar, so those figures stay stable. Billing is monthly, there is no registration fee, and international cards work.What happens if we leave Qatar?The class comes with you. Because everything is online, a family relocating from Doha keeps the same course, the same teacher and the same progress records. We reschedule the weekly slot around the new timezone and nothing restarts.How does the free demo class work?Fill the form on this page or message us on WhatsApp. A mentor calls to understand the student's age and experience, then fixes a slot. The student attends a full one-hour live class. Afterwards you decide. No card details are taken and nothing is owed.
 
 Free demo class
 

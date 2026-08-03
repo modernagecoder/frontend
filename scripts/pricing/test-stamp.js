@@ -215,17 +215,36 @@ test('AggregateOffer low and high span the plans that exist', function () {
     assert.ok(/"highPrice":"4999"/.test(out.html), 'high: ' + out.html);
 });
 
-test('structured currency follows the region', function () {
+test('an offer\'s own currency decides its region, the scope only the subject', function () {
+    // A USD offer in an international scope takes the international price.
+    const usd = stamp('<script type="application/ld+json" data-price-scope="maths.international">' +
+        '{"@type":"Offer","name":"Small-Group Cohort","price":"1","priceCurrency":"USD"}</script>');
+    const intl = cfgLib.resolve('maths.international.group', config).amount;
+    assert.ok(usd.html.indexOf('"price":"' + intl + '"') !== -1, 'USD offer: ' + usd.html);
+
+    // An INR offer inside the SAME scope resolves against the india side.
+    // Two real pages publish INR and USD offers in one block, and forcing the
+    // scope's region onto both turned a ₹1,499 rupee offer into $149.99 —
+    // a fabricated dollar price on a rupee plan.
+    const inr = stamp('<script type="application/ld+json" data-price-scope="maths.international">' +
+        '{"@type":"Offer","name":"Group Classes","price":"999","priceCurrency":"INR"}</script>');
+    const india = cfgLib.resolve('maths.india.group', config).amount;
+    assert.ok(inr.html.indexOf('"price":"' + india + '"') !== -1, 'INR offer: ' + inr.html);
+    assert.ok(/"priceCurrency":"INR"/.test(inr.html),
+        'the INR offer must stay INR: ' + inr.html);
+});
+
+test('a mixed INR+USD block stamps each offer against its own region', function () {
     const src = '<script type="application/ld+json" data-price-scope="maths.international">' +
-        '{"@type":"Offer","name":"Small-Group Cohort","price":"1","priceCurrency":"INR"}</script>';
+        '{"offers":[' +
+        '{"@type":"Offer","name":"Group Classes","price":"1","priceCurrency":"INR"},' +
+        '{"@type":"Offer","name":"Mini Batch (3-4 students, India only)","price":"1","priceCurrency":"INR"},' +
+        '{"@type":"Offer","name":"Small-Group Cohort","price":"1","priceCurrency":"USD"}]}</script>';
     const out = stamp(src);
-    // Read the expected figure from the config, so a price change is a config
-    // edit rather than a test edit.
-    const expected = cfgLib.resolve('maths.international.group', config).amount;
-    assert.ok(out.html.indexOf('"price":"' + expected + '"') !== -1,
-        'expected price ' + expected + ', got: ' + out.html);
-    assert.ok(/"priceCurrency":"USD"/.test(out.html),
-        'an international scope must publish USD, not the INR it started with: ' + out.html);
+    assert.strictEqual(out.report.errors.length, 0, out.report.errors.join('; '));
+    assert.ok(out.html.indexOf('"price":"1499"') !== -1, 'INR group: ' + out.html);
+    assert.ok(out.html.indexOf('"price":"2499"') !== -1, 'INR mini batch (sold in India): ' + out.html);
+    assert.ok(out.html.indexOf('"price":"149.99"') !== -1, 'USD group: ' + out.html);
 });
 
 // ─── tier name lexicon ───

@@ -1,10 +1,10 @@
 ---
 title: "Algebra Tutoring Online (USA) · 1:1 Pre-Algebra, Algebra 1 & 2 — Modern Age Coders"
-description: "Live 1:1 online algebra tutoring for US students — pre-algebra, Algebra 1 and Algebra 2. We teach why algebra works, from balancing equations to functions, so it stops feeling like rules to memorize. Mentors in every US time zone. $150/month, 8 classes. Free trial."
+description: "Live 1:1 online algebra tutoring for US students — pre-algebra, Algebra 1 and Algebra 2. We teach why algebra works, from balancing equations to functions, so it stops feeling like rules to memorize. Mentors in every US time zone. Priced for your country."
 canonical: https://learn.modernagecoders.com/algebra-tutoring-online-usa
 source: src/pages/algebra-tutoring-online-usa.html
 ---
-> Live 1:1 online algebra tutoring for US students — pre-algebra, Algebra 1 and Algebra 2. We teach why algebra works, from balancing equations to functions, so it stops feeling like rules to memorize. Mentors in every US time zone. $150/month, 8 classes. Free trial.
+> Live 1:1 online algebra tutoring for US students — pre-algebra, Algebra 1 and Algebra 2. We teach why algebra works, from balancing equations to functions, so it stops feeling like rules to memorize. Mentors in every US time zone. Priced for your country.
 
 Why algebra breaks so many students
 
@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Homework-help apps | A typical tutor |
 | --- | --- | --- | --- |
 | Fixes the buried gap | Yes, diagnosed live | No | Sometimes |
 | Teaches why moves are legal | Always | Rarely | Varies |
 | Same teacher each time | Yes | N/A | Often |
 | Works from your child's class | Yes | No | Sometimes |
-| Monthly price | $150 (1:1) / $100 (group) | $10–20 | $200–600+ |
+| Monthly price | $10–20 | $200–600+ |
 
 An app that solves an equation for you can be handy, but it teaches your child to depend on it. We teach the reasoning so they don't need it.
 

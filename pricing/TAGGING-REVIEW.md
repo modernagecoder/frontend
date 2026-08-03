@@ -254,3 +254,198 @@ silently rewrite a real price to a different plan's figure on the next build.
 | `winter-coding-camp-adults.html` | ₹4,999 | `coding.india` | inside prose, needs a human to confirm the plan |
 | `winter-coding-camp-kids.html` | ₹4,999 | `coding.india` | inside prose, needs a human to confirm the plan |
 | `winter-coding-camp-teens.html` | ₹4,999 | `coding.india` | inside prose, needs a human to confirm the plan |
+
+## Retired international figures still inside sentences
+
+Each of these quotes $40, $100 or $150 — the pre-worldwide flat prices — inside
+unique prose. Scripts fixed every repeating shape; these one-off sentences need a
+human rewrite (or delete). Until then the figure is wrong for every visitor: the
+real price is set per country and starts at $59.99.
+
+| Page | Sentence fragment |
+|---|---|
+| `algebra-2-tutoring-online.html` | act. Compare with US test-prep and tutoring rates of $60 to $150 per hour for the same seniority of content.</p></div>< |
+| `best-online-math-tutoring-2026.html` | group. A well-run small group with a real teacher, like our $100 tier, outperforms passive 1-on-1 drilling for many chi |
+| `best-online-maths-classes-2026.html` | prices set for your country; one-to-one is 4,999 rupees or $150.</p> |
+| `calculus-tutoring-online.html` | free demo class. US calculus tutoring commonly runs $70 to $150 per hour." |
+| `calculus-tutoring-online.html` | fee, no contract. US calculus tutoring commonly runs $70 to $150 per hour.</p></div></details> |
+| `coding-classes-cost-india-2026.html` | <span class="math-chip">Coding group: <b>$40 a month</b>, 8 live one-hour classes</span> |
+| `coding-classes-cost-india-2026.html` | <span class="math-chip">Coding 1-on-1: <b>$100 a month</b></span> |
+| `coding-classes-cost-india-2026.html` | <span class="math-chip">Maths: <b>$100 group &middot; $150 1-on-1</b></span> |
+| `coding-classes-for-kids-cost.html` | online schools deliver 8 one-hour live classes a month from $40 (group) to $100 (1-on-1)." |
+| `coding-classes-for-kids-cost.html` | "text": "For real live teaching in 2026: $40 to $160 a month for group formats and $100 to $300 for |
+| `coding-classes-for-kids-cost.html` | rent wage economy, so eight dedicated one-hour classes cost $100." |
+| `coding-classes-for-kids-cost.html` | text": "Eight one-hour live classes a month, small group at $40 or 1-on-1 at $100 for international students, a dedica |
+| `coding-classes-for-kids-cost.html` | er class hour, teacher by teacher; series and 1-on-1 $50 to $100+</div></div> |
+| `coding-classes-for-kids-cost.html` | e online schools (Modern Age Coders)</span><div class="rng">$40 to $100</div><div class="sub">per month, 8 live one-ho |
+| `coding-classes-for-kids-cost.html` | <span class="math-chip">Small group: $40 a month = <b>$5 per live class</b></span> |
+| `coding-classes-for-kids-cost.html` | <span class="math-chip">True 1-on-1: $100 a month = <b>$12.50 per dedicated hour</b></span> |
+| `coding-classes-for-kids-cost.html` | <p>For real, live teaching in 2026: $40 to $160 a month for group formats and $100 to $300 for |
+| `coding-classes-for-kids-cost.html` | t budget question is whether ~$15 a month of software beats $40 a month of live taught hours.</p> |
+| `coding-classes-for-kids-cost.html` | rom a different wage economy, so eight dedicated hours cost $100. The hour itself, deep, interactive, project-first, is |
+| `coding-classes-in-abu-dhabi.html` | <div class="auh-spec-row"><dt>Group fee</dt><dd>$40 a month, about AED 150</dd></div> |
+| `coding-classes-in-riyadh.html` | <dd>$40 a month group, about SAR 150</dd> |
+| `coding-classes-in-united-kingdom.html` | <div>Billed in USD ($40 / $100)</div> |
+| `coding-classes-in-united-states.html` | tech</strong> and the Ivy League actually look for. <strong>$100 a month</strong>, eight live sessions, two a week, can |
+| `coding-classes-in-united-states.html` | <h2 class="cp-h2">$100 a month. Eight live classes. No fine print.</h2> |
+| `coding-classes-in-united-states.html` | <p class="plocal">$100 / month · billed in USD · no joining fee</p> |
+| `coding-classes-in-united-states.html` | <p class="plocal">$40 / month · billed in USD · no joining fee</p> |
+| `coding-classes-in-united-states.html` | <div class="us"><span class="y">$100 (1:1) / $40 (group)</span></div> |
+| `coding-classes-in-united-states.html` | <p>Private 1:1 mentorship is <strong>$100 per month</strong> for 8 sessions — two per week. Smal |
+| `coding-classes-in-united-states.html` | l-group cohort is <strong>$40 per month</strong> on the same schedule. No registrati |
+| `coding-fee-calculator.html` | coding $40/month group or $100/month 1-on-1; mathematics $100/month group or |
+| `coding-fee-calculator.html` | $150/month 1-on-1, all with 8 live one-hour classes. See <a |
+| `coding-fee-calculator.html` | // Maths is intentionally premium internationally ($100 group / $150 1-on-1 flat): |
+| `coding-vs-maths.html` | <p class="price"><strong>$40</strong>/mo group &middot; <strong>$100</strong>/mo 1- |
+| `coding-vs-maths.html` | and why the difference?</summary><div class="a"><p>Coding: $40 a month group, $100 1-on-1. Mathematics: $100 group, $ |
+| `course.html` | OTH regions: India group starts at ₹2,499, international at $100. |
+| `course.html` | const intlStart = (isMathsCourse || isAgentsCourse) ? '$100' : '$40'; |
+| `homeschool-coding-curriculum.html` | gress notes and a project portfolio. 8 classes a month from $40. Free demo."> |
+| `homeschool-coding-curriculum.html` | "text": "1-on-1 is $100 a month, small group $40 (co-op groups welcome), with 8 live one-hour classes, |
+| `homeschool-coding-curriculum.html` | families in one small group, same class, same projects, at $40 a month each. Mentors will happily align project demos |
+| `igcse-maths-tuition-online.html` | starts with a free demo class. IGCSE-specialist tutors bill $40 to $100 an hour for the same format." |
+| `igcse-maths-tuition-online.html` | twice a week, the same format IGCSE-specialist tutors bill $40 to $100 an hour for. Our cost base is global, so the p |
+| `igcse-maths-tuition-online.html` | <tr><th>IGCSE-specialist tutors</th><td>$40-$100+ / hour</td><td>Genuine syllabus expertise at hourly r |
+| `index.html` | timezone, and transparent USD pricing from $40 a month. |
+| `index.html` | <p>Live 1-on-1 from $100 to $150 a month, where US tutoring centers typically |
+| `index.html` | exceeding $100,000 annually. Tech careers offer remote work opportuni |
+| `index2.html` | s earn premium salaries with average compensation exceeding $100,000 annually. Tech careers offer remote work opportuni |
+| `math-catch-up-program.html` | "text": "1-on-1 $150 a month, small group $100, both with 8 live one-hour classes, recordings include |
+| `math-catch-up-program.html` | -hour classes a month with one dedicated mentor, 1-on-1 for $150 a month or small group for $100, free diagnostic demo |
+| `maths-class-10.html` | ss 10 start at just ₹1,499 per month for Indian students or $100 per month for international students. Mini Batch (3-4 |
+| `maths-class-10.html` | month. Personalized 1-on-1 sessions are ₹4,999 per month or $150 per month. There are no hidden fees and you can cancel |
+| `maths-class-10.html` | ational student interested in Class 10 Group Maths Classes ($100 USD/month). Can you share more details?" target="_blan |
+| `maths-class-10.html` | l student interested in Class 10 Personalized 1-on-1 Maths ($150 USD/month). Can you share more details?" target="_blan |
+| `maths-class-10.html` | start at just &#8377;1,499 per month for Indian students or $100 per month for international students. Mini Batch (3-4 |
+| `modern-age-coders-vs-codingal.html` | <span class="math-chip">MAC group: $40 &divide; 8 = <b>$5 per live class</b></span> |
+| `modern-age-coders-vs-codingal.html` | <span class="math-chip">MAC 1-on-1: $100 &divide; 8 = <b>$12.50 per dedicated hour</b></span> |
+| `modern-age-coders-vs-cuemath.html` | $200 to $256 a month for 1-on-1 maths. Modern Age Coders is $150 for the same live format, $100 for small groups, and a |
+| `modern-age-coders-vs-cuemath.html` | a week (as of July 2026). Modern Age Coders 1-on-1 maths is $150 a month for the same format, and the small-group optio |
+| `modern-age-coders-vs-cuemath.html` | rricula. The practical differences are price (we are $50 to $100 a month lower at regular rates) and breadth (we also r |
+| `modern-age-coders-vs-cuemath.html` | , "text": "For international students, small-group maths is $100 a month and 1-on-1 is $150 a month, both with 2 live 6 |
+| `modern-age-coders-vs-cuemath.html` | S price is $200 to $256 a month for 1-on-1; ours is <strong>$150 for 1-on-1</strong>, $100 in a small group.</p> |
+| `modern-age-coders-vs-cuemath.html` | e Coders if you want the same live 1-on-1 format for $50 to $100 less a month</strong>, a cheaper small-group option, a |
+| `modern-age-coders-vs-cuemath.html` | <td class="cell-us"><strong>Yes, $100 a month</strong></td> |
+| `modern-age-coders-vs-cuemath.html` | <li><strong>$50 to $100 less every month</strong> for the same live 1-on-1, tw |
+| `modern-age-coders-vs-cuemath.html` | <li><strong>A real small-group option.</strong> $100 a month gets live maths teaching in a small batch, a p |
+| `modern-age-coders-vs-cuemath.html` | with two classes a week. Modern Age Coders 1-on-1 maths is $150 a month for the same two-classes-a-week format, and ou |
+| `modern-age-coders-vs-cuemath.html` | he two practical differences are price, where we are $50 to $100 a month lower at regular rates, and breadth, where we |
+| `modern-age-coders-vs-cuemath.html` | <p>For international students, small-group maths is $100 a month and 1-on-1 is $150 a month, both with 2 live 6 |
+| `modern-age-coders-vs-juni-learning.html` | ts around $275 a month for 4 sessions. Modern Age Coders is $100 a month for 8 live 1-on-1 classes. A fair, sourced com |
+| `modern-age-coders-vs-juni-learning.html` | property="og:description" content="Eight 1-on-1 classes for $100 vs four for $275+. The honest comparison."> |
+| `modern-age-coders-vs-juni-learning.html` | ame="twitter:description" content="Eight 1-on-1 classes for $100 vs four for $275+. The honest comparison."> |
+| `modern-age-coders-vs-juni-learning.html` | code taught in the same school. And the month costs <strong>$100, not $275</strong>.</p> |
+| `modern-age-coders-vs-juni-learning.html` | r far less money</strong>: eight 1-on-1 classes a month for $100 versus four for $275+, mentors who also teach the math |
+| `modern-age-coders-vs-juni-learning.html` | s behind the code, and small-group options from $40 a month. Both let you try before you buy; our demo cla |
+| `modern-age-coders-vs-juni-learning.html` | <td class="cell-us"><strong>$100 for 8 live classes</strong></td> |
+| `modern-age-coders-vs-juni-learning.html` | <td class="cell-us"><strong>Yes, $40 a month, live small group</strong></td> |
+| `modern-age-coders-vs-juni-learning.html` | e teaching for the money.</strong> Eight 1-on-1 classes for $100 versus four for $275+.</li> |
+| `modern-age-coders-vs-kumon.html` | . Modern Age Coders is live maths teaching, $100 to $150 a month all-inclusive. A fair, sourced comparison, upd |
+| `modern-age-coders-vs-kumon.html` | e": "Answer", "text": "For international students, maths is $100 a month in a small group or $150 a month 1-on-1; codin |
+| `modern-age-coders-vs-kumon.html` | g is $40 a month group or $100 1-on-1. Every plan is 2 live classes a week, 8 a month |
+| `modern-age-coders-vs-kumon.html` | <li><strong>One price, everything included.</strong> $100 to $150 a month all-in versus per-subject fees plus re |
+| `modern-age-coders-vs-kumon.html` | <span class="math-chip">MAC 1-on-1 maths: $150 &divide; 8 = <b>$18.75 per hour of live teaching</b></ |
+| `modern-age-coders-vs-kumon.html` | <p>For international students, maths is $100 a month in a small group or $150 a month 1-on-1, and c |
+| `modern-age-coders-vs-kumon.html` | oding is $40 a month in a group or $100 1-on-1. Every plan is 2 live classes a week, 8 a month |
+| `modern-age-coders-vs-mathnasium.html` | lment fees. Modern Age Coders teaches maths live 1-on-1 for $150 a month. A fair, sourced comparison of both, updated J |
+| `modern-age-coders-vs-mathnasium.html` | eta property="og:description" content="Live 1-on-1 maths at $150/month vs $300-450 center memberships. The honest compa |
+| `modern-age-coders-vs-mathnasium.html` | ta name="twitter:description" content="Live 1-on-1 maths at $150/month vs $300-450 center memberships. The honest compa |
+| `modern-age-coders-vs-mathnasium.html` | , "text": "For international students, small-group maths is $100 a month and 1-on-1 maths is $150 a month. Every plan i |
+| `modern-age-coders-vs-mathnasium.html` | trong>All of it for less than half the membership.</strong> $150 a month for true 1-on-1 versus a typical $300 to $450, |
+| `modern-age-coders-vs-mathnasium.html` | <span class="math-chip">MAC 1-on-1 maths: $150 &divide; 8 classes = <b>$18.75 per hour of dedicated t |
+| `modern-age-coders-vs-mathnasium.html` | <p>For international students, small-group maths is $100 a month and 1-on-1 maths is $150 a month. Every plan i |
+| `modern-age-coders-vs-outschool.html` | s hour as of July 2026, with series and 1-on-1 often $50 to $100+; each teacher sets their own price. Modern Age Coders |
+| `modern-age-coders-vs-outschool.html` | is $40 a month for 8 live small-group hours or $100 for 8 dedicated 1-on-1 hours, one curriculum, one ment |
+| `modern-age-coders-vs-outschool.html` | s="math-chip">MAC group: 8 structured hours, one mentor, <b>$40</b></span> |
+| `modern-age-coders-vs-outschool.html` | 026, with multi-week series and 1-on-1 lessons often $50 to $100 or more; each teacher sets their own price. Modern Age |
+| `modern-age-coders-vs-outschool.html` | Coders is $40 a month for 8 live small-group hours or $100 a month for 8 dedicated 1-on-1 hours. For sustained we |
+| `modern-age-coders-vs-tynker.html` | "text": "Live small-group coding is $40 a month and 1-on-1 is $100 a month for international s |
+| `modern-age-coders-vs-tynker.html` | <span class="math-chip">MAC group: $40 a month for <b>8 live taught hours</b></span> |
+| `modern-age-coders-vs-tynker.html` | <span class="math-chip">MAC 1-on-1: $100 a month, <b>$12.50 per taught hour</b></span> |
+| `modern-age-coders-vs-tynker.html` | <p>Live small-group coding is $40 a month and true 1-on-1 is $100 a month for internatio |
+| `online-coding-classes-for-kids-uk.html` | taught at UK evening slots. 8 one-hour classes a month from $40. Free demo."> |
+| `online-coding-classes-for-kids-uk.html` | "text": "1-on-1 is $100 a month, small group $40, with 8 live one-hour classes and recordings, no regis |
+| `online-coding-classes-for-kids-uk.html` | entor, at UK-friendly evening and weekend slots, 1-on-1 for $100 a month (about &pound;80) or small group for $40 (abou |
+| `online-coding-classes-for-kids-uk.html` | <tr><th class="us">Modern Age Coders</th><td class="us">$40-$100 / month (&asymp; &pound;32-&pound;80)</td><td cla |
+| `online-coding-classes-for-kids-uk.html` | st in pounds?</summary><div class="a"><p>Billing is in USD: $100 a month for 1-on-1 (about &pound;80) and $40 for small |
+| `online-coding-classes-for-kids-usa.html` | one, AP CS runway built in. 8 one-hour classes a month from $40. Free demo."> |
+| `online-coding-classes-for-kids-usa.html` | one-hour live classes a month with one dedicated mentor for $40-$100, versus $200-$300 platforms with fewer shorter se |
+| `online-coding-classes-for-kids-usa.html` | for two short sessions is real money. Eight full hours for $40-$100 changes the decision entirely.</p></div> |
+| `online-coding-summer-camp.html` | month, one shipped project, vacation-proof scheduling. From $40/month while US day camps run $300-$500 a week. Free de |
+| `online-coding-summer-camp.html` | ght spaced weeks of live 1-on-1 or small-group teaching for $40-$100 a month - the way skills actually form. If you ne |
+| `online-coding-summer-camp.html` | "text": "1-on-1 is $100 a month and small group $40 a month - 8 live one-hour classes, recordings included |
+| `online-coding-summer-camp.html` | ong>, projects your child ships and keeps building on, from $40 for the month. No commute, vacation-friendly schedulin |
+| `online-coding-summer-camp.html` | ur cost base is global: a month of eight live classes costs $40 in a small group or $100 fully 1-on-1, less than a sin |
+| `online-coding-summer-camp.html` | ght spaced weeks of live 1-on-1 or small-group teaching for $40-$100 a month, which is how skills actually form. If yo |
+| `online-coding-summer-camp.html` | ular pricing, because it is our regular teaching: 1-on-1 is $100 a month and small group is $40 a month, 8 live one-hou |
+| `online-math-tutor-3rd-grade.html` | is what we do: 8 live one-hour classes a month, 1-on-1 for $150 a month or small group for $100, with a free demo clas |
+| `online-math-tutor-canada.html` | "text": "1-on-1 is USD $150 a month (about C$205), small group USD $100 (about C$1 |
+| `online-math-tutor-canada.html` | ses a month across every Canadian time zone, 1-on-1 for USD $150 a month (about C$205) or small group for $100, free de |
+| `online-math-tutor-canada.html` | standard responses each miss something: private tutors at C$40 to C$80 an hour are costly twice a week; franchise cen |
+| `online-math-tutor-canada.html` | our, twice a week, the format Canadian private tutors bill C$40 to C$80 an hour for. Our cost base is global, so the p |
+| `online-math-tutor-canada.html` | <tr><th class="us">Modern Age Coders</th><td class="us">USD $100-$150 / month (&asymp; C$140-$205)</td><td class="us">8 |
+| `online-math-tutor-canada.html` | <tr><th>Private tutors</th><td>C$40-$80+ / hour</td><td>Quality varies widely; twice weekl |
+| `online-math-tutor-canada.html` | it cost, honestly?</summary><div class="a"><p>1-on-1 is USD $150 a month (about C$205) and small group is USD $100 (abo |
+| `online-math-tutor-cost.html` | "text": "Eight one-hour live classes a month, 1-on-1 for $150 or small group for $100, taught by a dedicated mentor, |
+| `online-math-tutor-cost.html` | > for most private tutors, with elite specialists at $75 to $150+. Monthly structured programs cluster between <strong> |
+| `online-math-tutor-cost.html` | $150 and $450</strong>. The quiet exception: live online sc |
+| `online-math-tutor-cost.html` | "fmt">Private in-person tutor</span><div class="rng">$35 to $100</div><div class="sub">per hour; elite specialists $75 |
+| `online-math-tutor-cost.html` | to $150+</div></div> |
+| `online-math-tutor-cost.html` | span class="fmt">Live online schools</span><div class="rng">$100 to $150</div><div class="sub">per month, 8 live classe |
+| `online-math-tutor-cost.html` | oring runs cheaper ($23 to $75/hr) than high school ($30 to $100/hr); calculus and test prep sit at the top of every ra |
+| `online-math-tutor-cost.html` | <span class="math-chip">1-on-1: $150 a month = <b>$18.75 per dedicated hour</b></span> |
+| `online-math-tutor-cost.html` | <span class="math-chip">Small group: $100 a month = <b>$12.50 per live class</b></span> |
+| `online-math-tutor-cost.html` | <p>Eight one-hour live classes a month, 1-on-1 for $150 or small group for $100, taught by a dedicated mentor |
+| `online-maths-classes-for-adults-in-usa.html` | 250 = <strong>$225</strong><br><br>a price rose from $80 to $150 — what % change?<br>&nbsp;&nbsp; change ÷ original = 2 |
+| `online-maths-tuition-singapore.html` | vening slots, one-hour classes twice a week, free demo. USD $150 1-on-1."> |
+| `online-maths-tuition-singapore.html` | "text": "1-on-1 is USD $150 a month, small group USD $100, both with 8 live one-ho |
+| `online-maths-tuition-singapore.html` | a month in Singapore-friendly evening slots, 1-on-1 for USD $150 a month or small group for $100, free demo class first |
+| `online-maths-tuition-singapore.html` | and private tutors SGD 40 to 90 an hour. Our 1-on-1 is USD $150 a month, not because the teaching is lighter, but beca |
+| `online-maths-tuition-singapore.html` | <tr><th class="us">Modern Age Coders</th><td class="us">USD $100-$150 / month</td><td class="us">8 live one-hour 1-on-1 |
+| `online-maths-tuition-singapore.html` | o what we pay now?</summary><div class="a"><p>1-on-1 is USD $150 a month and small group is USD $100, both with 8 live |
+| `online-maths-tuition.html` | classes start at just ₹1,499/month (for Indian students) or $100/month (for international students). Mini Batch (3-4 st |
+| `online-maths-tuition.html` | onth. Personalized 1-on-1 sessions start at ₹4,999/month or $150/month. There are no hidden fees and you can cancel any |
+| `online-maths-tuition.html` | an international student interested in Group Maths Classes ($100 USD/month). Can you share more details?" target="_blan |
+| `online-maths-tuition.html` | al student interested in Personalized 1-on-1 Maths Classes ($150 USD/month). Can you share more details?" target="_blan |
+| `online-maths-tuition.html` | ses start at just &#8377;1,499/month for Indian students or $100/month for international students. Mini Batch (3-4 stud |
+| `online-maths-tuition.html` | nth. Personalized 1-on-1 sessions are &#8377;4,999/month or $150/month. There are no hidden fees and you can cancel any |
+| `online-maths-tutoring-australia.html` | "text": "1-on-1 is USD $150 a month (about A$220), small group USD $100 (about A$1 |
+| `online-maths-tutoring-australia.html` | es a month at Australian after-school hours, 1-on-1 for USD $150 a month (about A$220) or small group for $100, free de |
+| `online-maths-tutoring-australia.html` | n answers each solve part of it. Private tutors at A$50 to A$100 an hour are excellent when you find a good one, and ex |
+| `online-maths-tutoring-australia.html` | a week, the format Australian private tutors bill A$50 to A$100 an hour for. Our cost base is global, so the price is |
+| `online-maths-tutoring-australia.html` | <tr><th class="us">Modern Age Coders</th><td class="us">USD $100-$150 / month (&asymp; A$150-$220)</td><td class="us">8 |
+| `online-maths-tutoring-australia.html` | <tr><th>Private tutors</th><td>A$50-$100+ / hour</td><td>Quality varies widely; twice weekly ru |
+| `online-maths-tutoring-australia.html` | it cost, honestly?</summary><div class="a"><p>1-on-1 is USD $150 a month (about A$220) and small group is USD $100 (abo |
+| `online-maths-tutoring-australia.html` | ut A$150), both with 8 live one-hour classes (2 per week) and r |
+| `online-maths-tutoring-for-kids-in-usa.html` | ize. Aligned to Common Core, mentors in every US time zone. $150/month, 8 classes. Book a free trial."> |
+| `parent-faq.html` | answered plainly: enrollment, class format, pricing (coding $40-$100, maths $100-$150), safety, recordings, time zones |
+| `parent-faq.html` | "text": "Coding: $40 a month small group, $100 1-on-1. Mathematics (the premium track): $100 group, $ |
+| `parent-faq.html` | ry>What do classes cost?</summary><div class="a"><p>Coding: $40 a month for small group, $100 for 1-on-1. Mathematics, |
+| `parent-faq.html` | our premium track: $100 group, $150 1-on-1. Every price includes 8 live one-hour classes a |
+| `precalculus-tutoring-online.html` | no contract. US tutoring at this level commonly runs $60 to $150 per hour.</p></div></details> |
+| `private-math-tutor-vs-online-tutoring.html` | ame="description" content="Local private tutors cost $35 to $100 an hour; live online tutoring delivers the same dedica |
+| `private-math-tutor-vs-online-tutoring.html` | ted hour from $100 to $256 a month. When each format genuinely wins, with |
+| `private-math-tutor-vs-online-tutoring.html` | "text": "In 2026, most US private tutors charge $35 to $100 an hour, with metro rates like New York at $55 to $65 |
+| `private-math-tutor-vs-online-tutoring.html` | and elite specialists at $75 to $150+." |
+| `private-math-tutor-vs-online-tutoring.html` | rt version: a good local private tutor costs <strong>$35 to $100 an hour</strong> and wins on physical presence. Good l |
+| `private-math-tutor-vs-online-tutoring.html` | l, tighter scheduling, and structured programs from <strong>$100 to $256 a month</strong>. The format matters less than |
+| `private-math-tutor-vs-online-tutoring.html` | <td>$35 to $100 per hour; elite $75 to $150+</td> |
+| `private-math-tutor-vs-online-tutoring.html` | <td>$20 to $70 per hour; structured programs $100 to $256 a month</td> |
+| `private-math-tutor-vs-online-tutoring.html` | <td>Twice a week is the standard rhythm from $100 a month</td> |
+| `private-math-tutor-vs-online-tutoring.html` | <li><strong>Predictable cost.</strong> $100 to $150 a month for 8 dedicated one-hour classes versus $280 t |
+| `private-math-tutor-vs-online-tutoring.html` | <span class="math-chip">Local tutor, twice a week: $35 to $100 x 8 = <b>$280 to $800 a month</b></span> |
+| `private-math-tutor-vs-online-tutoring.html` | <span class="math-chip">MAC 1-on-1 maths, twice a week: <b>$150 a month total</b></span> |
+| `private-math-tutor-vs-online-tutoring.html` | <p>In 2026, most US private tutors charge $35 to $100 an hour, with metro rates like New York at $55 to $65 |
+| `private-math-tutor-vs-online-tutoring.html` | and elite specialists at $75 to $150+. Elementary help sits at the lower end, calculus and |
+| `real-coding-classes.html` | ,499<small> / month</small></span><span class="rc-usd-only">$40<small> USD / month</small></span></p> |
+| `real-coding-classes.html` | ,999<small> / month</small></span><span class="rc-usd-only">$100<small> USD / month</small></span></p> |
+| `real-coding-classes.html` | <b>International pricing:</b> Group classes are $40 USD/month and 1-on-1 personal classes are |
+| `real-coding-classes.html` | $100 USD/month — same live mentors, same depth-first curric |
+| `real-coding-classes.html` | // Currency: India sees ₹, everyone else sees USD ($40 group / $100 1-on-1). |
+| `singapore-math-method-tutoring.html` | free demo class. Singapore-brand online programs alone run $100 to $300 a month without a live teacher." |
+| `singapore-math-method-tutoring.html` | t just a workbook. We provide that teacher: live 1-on-1 for $150 a month or small group for $100, 8 one-hour classes, f |
+| `singapore-math-method-tutoring.html` | <tr><th>Workbooks alone</th><td>$50-$150 / year</td><td>Excellent materials with the teaching m |
+| `singapore-math-method-tutoring.html` | <tr><th>Singapore-brand online programs</th><td>$100-$300 / month</td><td>Video lessons plus exercises; str |
+| `singapore-math-method-tutoring.html` | <tr><th>Local tutor with the workbook</th><td>$40-$100 / hour</td><td>Often teaches their own school method o |
+| `singapore-math-method-tutoring.html` | fee, no contract. Singapore-brand online programs alone run $100 to $300 a month without a live teacher.</p></div></det |
+| `summer-math-program-online.html` | a week</strong>, scheduled around family trips, 1-on-1 for $150 a month or small group for $100, with a free demo clas |

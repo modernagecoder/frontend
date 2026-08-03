@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Homework apps | A typical tutor |
 | --- | --- | --- | --- |
 | Makes algebra meaningful | Yes | Rarely | Varies |
 | Fixes hidden primary gaps | Yes, diagnosed live | No | Sometimes |
 | Builds for GCSE, not just now | Yes | No | Varies |
 | Same tutor each time | Yes | N/A | Often |
-| Monthly price | $150 (1:1) / $100 (group) | £5–10 | £28–45/hr |
+| Monthly price | £5–10 | £28–45/hr |
 
 Homework apps help with the day's task. They won't notice your child has never really understood what a variable is — which is the gap that wrecks GCSE.
 

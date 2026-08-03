@@ -28,7 +28,8 @@ const cfgLib = require('./config');
 /** Offer names as they actually appear in this repo's structured data. */
 const TIER_PATTERNS = [
     ['miniBatch', /mini[\s-]?batch|micro[\s-]?batch/i],
-    ['personal',  /1[\s:-]?on[\s:-]?1|1:1|one[\s-]on[\s-]one|personal|private|mentorship|tuition/i],
+    // "one to one" (with to) is how the AI/ML cluster names its offers.
+    ['personal',  /1[\s:-]?on[\s:-]?1|1:1|one[\s-](?:on|to)[\s-]one|personal|private|mentorship|tuition/i],
     ['lifetime',  /lifetime|full[\s-]?course|one[\s-]?time\s+payment/i],
     ['oneTime',   /camp|bootcamp|workshop/i],
     ['group',     /group|small[\s-]?group|cohort|kids track|teens track|code queens|batch/i]
@@ -181,20 +182,29 @@ function stampJsonLd(html, config, report) {
                     ' does not match any plan. Rename it, or add a pattern to TIER_PATTERNS.');
                 return offerText;
             }
+            // The offer's OWN priceCurrency decides its region; the scope only
+            // supplies the subject. Some India-facing pages publish INR and
+            // USD offers inside one block, and resolving every offer against
+            // the scope's region turned a ₹1,499 INR offer into $149.99 USD —
+            // a fabricated dollar price on a rupee plan.
+            const curM = offerText.match(/"priceCurrency"\s*:\s*"([^"]*)"/);
+            const region = (curM && curM[1] === 'INR') ? 'india' : parts[1];
+            const key = parts[0] + '.' + region + '.' + tier;
+
             let r;
-            try { r = cfgLib.resolve(scope + '.' + tier, config); }
+            try { r = cfgLib.resolve(key, config); }
             catch (e) { report.errors.push(e.message); return offerText; }
 
             if (!r.exists) {
                 report.errors.push('Offer "' + nameM[1] + '" in scope ' + scope + ' maps to ' +
-                    scope + '.' + tier + ', which is set to null (not sold). Remove the Offer ' +
+                    key + ', which is set to null (not sold). Remove the Offer ' +
                     'from the structured data rather than publishing a price for a plan you do not sell.');
                 return offerText;
             }
 
             const plain = cfgLib.format(r.amount, r.currency, { style: 'plain' });
             return offerText.replace(/("price"\s*:\s*")([^"]*)(")/, function (all, a, old, c) {
-                if (old !== plain) report.changes.push({ key: scope + '.' + tier + ' (schema)', from: old, to: plain });
+                if (old !== plain) report.changes.push({ key: key + ' (schema)', from: old, to: plain });
                 report.anchors++;
                 return a + plain + c;
             }).replace(/("priceCurrency"\s*:\s*")([^"]*)(")/, function (all, a, old, c) {

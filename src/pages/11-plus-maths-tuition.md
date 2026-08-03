@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Past-paper packs | Drilling tutor |
 | --- | --- | --- | --- |
 | Builds flexible reasoning | Yes, first | No | Rarely |
 | Keeps the child confident | A priority | You manage it | Often not |
 | Same tutor to the exam | Yes | N/A | Usually |
 | Strengthens school maths too | Yes | No | Sometimes |
-| Monthly price | $150 (1:1) / $100 (group) | £10–30 | £30–50/hr |
+| Monthly price | £10–30 | £30–50/hr |
 
 Past-paper packs are a useful part of preparation, and we use them — but only on top of the reasoning and confidence that make a child perform when a question surprises them.
 

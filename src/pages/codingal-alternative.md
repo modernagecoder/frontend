@@ -10,7 +10,7 @@ Honest alternative · 2026
 
 # Codingal Alternative 2026: Depth-First Coding and Maths
 
-Looking for a Codingal alternative? Modern Age Coders teaches live online coding, and coding and maths together, for ages 6 to 67, in small batches focused on real understanding and shipped projects rather than mainly competitions. Group plans are 1,499 rupees a month in India or $40 international, with a free demo before you pay and monthly billing.
+Looking for a Codingal alternative? Modern Age Coders teaches live online coding, and coding and maths together, for ages 6 to 67, in small batches focused on real understanding and shipped projects rather than mainly competitions. Group plans are 1,499 rupees a month in India, with international prices set for your country, with a free demo before you pay and monthly billing.
 
 Rated 4.9 across 547 Google reviews
 

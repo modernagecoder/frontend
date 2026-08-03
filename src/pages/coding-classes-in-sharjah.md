@@ -234,7 +234,7 @@ Billing is monthly, in US dollars, and the dirham's dollar peg keeps the AED fig
 
 Group classes
 
-$40 per month
+ $1$149.99$2
 
 - Weekly live classes, 5 to 8 students
 - Evening and weekend GST slots
@@ -245,7 +245,7 @@ Book a Free Demo
 
 One-on-one classes
 
-$100 per month
+ $1$374.99$2
 
 - The teacher's full hour, one student
 - Slots built around the family calendar

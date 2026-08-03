@@ -293,9 +293,11 @@ An honest comparison
 
 ## Your real options for Singapore-method teaching.
 
+ $1$149.99–$374.99 / month$2
+
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | $100-$150 / month | 8 live one-hour classes with a mentor running the full CPA progression, your workbooks folded in | Families who want the actual method taught, not just its worksheets assigned |
+| Modern Age Coders | 8 live one-hour classes with a mentor running the full CPA progression, your workbooks folded in | Families who want the actual method taught, not just its worksheets assigned |
 | Workbooks alone | $50-$150 / year | Excellent materials with the teaching moves missing; parent becomes the untrained teacher | Confident parent-teachers with time and a math background |
 | Singapore-brand online programs | $100-$300 / month | Video lessons plus exercises; strong content, but nobody watches your child think | Self-driven older students who mainly need structure |
 | Local tutor with the workbook | $40-$100 / hour | Often teaches their own school method off Singapore pages, which defeats the purpose | When you have verified the tutor is genuinely method-trained |
@@ -341,7 +343,7 @@ Honestly, not by much, which is exactly why we offer it. Understanding before pr
 
 What does it cost?
 
-1-on-1 is $150 a month and small group is $100 a month, both with 8 live one-hour classes (2 per week) and recordings included. No registration fee, no contract. Singapore-brand online programs alone run $100 to $300 a month without a live teacher.
+Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract. Singapore-brand online programs alone run $100 to $300 a month without a live teacher.
 
 Do you follow the actual Singapore MOE syllabus?
 

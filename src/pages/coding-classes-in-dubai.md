@@ -243,7 +243,7 @@ Fees are charged in US dollars. The UAE dirham is pegged to the dollar, so the A
 
 Group classes
 
-$40 per month
+ $1$149.99$2
 
 - Live classes in batches of 5 to 8
 - Evening and weekend GST slots
@@ -254,7 +254,7 @@ Book a Free Demo
 
 One-on-one classes
 
-$100 per month
+ $1$374.99$2
 
 - One student, one teacher, every class
 - Schedule built around your week

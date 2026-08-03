@@ -185,13 +185,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1)$2
+
 | What matters | Modern Age Coders | Tutoring centre | Revision apps |
 | --- | --- | --- | --- |
 | Fixes the root gap | Diagnoses & rebuilds it | Sometimes | No |
 | Matched to your curriculum | Yes | Varies | Generic |
 | One-to-one attention | Always | Often group | N/A |
 | Same tutor each time | Yes | Often rotates | N/A |
-| Monthly price | $150 / (1:1) | AED 1,000–2,500+ | AED 20–50 |
+| Monthly price | AED 1,000–2,500+ | AED 20–50 |
 
 Apps are fine for practice; centres give attention at a premium and often in groups. We give full one-to-one attention, matched to your teen's curriculum, online.
 

@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your child. Op
 
 [![IB Mathematics AA and AI Masterclass course thumbnail](/images/ib-maths-aa-ai.webp)Best fit  IB Mathematics AA & AI Masterclass Your exact IB course taught to a 7: paper-specific technique, GDC fluency and honest IA coaching. AA & AI · SL & HL8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/ib-mathematics-aa-ai-masterclass)[![College Mathematics Masterclass course thumbnail](/images/college-level-maths.webp)  College Mathematics Masterclass Calculus, linear algebra and the mathematics behind engineering, computer science and data careers. College level8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/college-mathematics-complete-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
 
-Good IB maths tuition is **course-specific**: Analysis & Approaches and Applications & Interpretation are genuinely different subjects, each split into SL and HL, with different papers, calculator rules and emphasis. A tutor must teach *your* course, coach the Internal Assessment honestly (it is a fifth of the grade), and train paper technique on real past questions. That is what we do: 8 live one-hour classes a month, 1-on-1 for $150 a month or small group for $100, free demo class first.
+Good IB maths tuition is **course-specific**: Analysis & Approaches and Applications & Interpretation are genuinely different subjects, each split into SL and HL, with different papers, calculator rules and emphasis. A tutor must teach *your* course, coach the Internal Assessment honestly (it is a fifth of the grade), and train paper technique on real past questions. That is what we do: 8 live one-hour classes a month, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
 Why IB maths needs IB-specific help
 
@@ -247,9 +247,11 @@ An honest comparison
 
 ## Your real options for an IB maths student.
 
+ $1$149.99–$374.99 / month$2
+
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | $100-$150 / month | 8 live one-hour classes with a dedicated mentor teaching your exact course, level and papers, IA coached honestly | Sustained two-year support that moves grades and predicted grades |
+| Modern Age Coders | 8 live one-hour classes with a dedicated mentor teaching your exact course, level and papers, IA coached honestly | Sustained two-year support that moves grades and predicted grades |
 | IB-specialist agencies | $60-$120+ / hour | Genuine IB expertise at premium rates; twice weekly runs $480-$960+ a month | Families for whom price is no object |
 | Generic online tutoring platforms | $25-$60 / hour | Marketplace tutors of varying quality, often unfamiliar with AA/AI structure, papers or IA criteria | Occasional homework help on universal topics |
 | School extra-help sessions | Free | Well-meaning group revision, rarely individual, never IA-deep | Always take these too; they complement real tuition |
@@ -291,7 +293,7 @@ Often, yes, and this is the highest-leverage timing in the IB. Predicted grades 
 
 What does it cost?
 
-1-on-1 is $150 a month and small group is $100 a month, both with 8 live one-hour classes (2 per week) and recordings included. No registration fee, no contract. IB-specialist agencies bill $60 to $120 an hour for the same format.
+Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract. IB-specialist agencies bill $60 to $120 an hour for the same format.
 
 Do you cover MYP maths too?
 

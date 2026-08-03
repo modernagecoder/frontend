@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Revision videos | A typical tutor |
 | --- | --- | --- | --- |
 | Rebuilds the fluency gap | Yes | No | Sometimes |
 | Teaches unseen problem-solving | Yes | Rarely | Varies |
 | Covers pure, mechanics & stats | All three | Usually pure | Varies |
 | Same tutor to the exam | Yes | N/A | Often |
-| Monthly price | $150 (1:1) / $100 (group) | Free–£20 | £35–60/hr |
+| Monthly price | Free–£20 | £35–60/hr |
 
 Revision videos are a useful supplement. They can't watch you attempt an unseen question and coach the reasoning in real time — which is what moves an A-Level grade.
 

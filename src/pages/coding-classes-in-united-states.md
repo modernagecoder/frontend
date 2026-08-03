@@ -244,7 +244,7 @@ Also at Modern Age Coders
 
 ## Math, taught with the same depth.
 
-The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at math. For American students that means the Common Core grade ladder, the algebra-to-calculus sequence, and the tests that decide things. Premium 1-on-1 mentorship is USD $150 a month, small group $100, 8 classes a month, and every student starts with a free demo class.
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at math. For American students that means the Common Core grade ladder, the algebra-to-calculus sequence, and the tests that decide things. Premium 1-on-1 mentorship and small-group plans are priced for your country (shown on this page in your local currency), 8 classes a month, and every student starts with a free demo class.
 
 [Grades 3-8 ladder](/online-math-tutor-3rd-grade)[Algebra 2](/algebra-2-tutoring-online)[Precalculus](/precalculus-tutoring-online)[Calculus](/calculus-tutoring-online)[SAT Math](/sat-math-tutoring-online)[AP Calculus](/ap-calculus-tutoring-online)[ISEE & SSAT](/isee-ssat-math-prep)[Summer Program](/summer-math-program-online)[Catch-Up Program](/math-catch-up-program)
 

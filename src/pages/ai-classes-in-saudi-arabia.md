@@ -176,7 +176,7 @@ Monthly billing in US dollars, riyal equivalents shown for orientation. No tiers
 
 Group classes
 
-$40 per month
+ $1$149.99$2
 
 - Weekly live AI class, capped batch
 - Evening and weekend slots, AST
@@ -187,7 +187,7 @@ Book a Free Demo
 
 One-on-one classes
 
-$100 per month
+ $1$374.99$2
 
 - A dedicated teacher, a single student
 - Scheduling bent around your commitments

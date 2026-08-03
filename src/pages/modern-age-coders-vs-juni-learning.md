@@ -104,7 +104,7 @@ Honest answers
 
 Is Modern Age Coders cheaper than Juni Learning?
 
-Substantially. Juni's 1-on-1 plans start around $275 to $299 a month for four sessions as of July 2026, roughly $70 per class. Modern Age Coders 1-on-1 coding is $100 a month for eight live classes, $12.50 per class. Our small-group tier is $40 a month, and there are no registration fees on any plan.
+Substantially. Juni's 1-on-1 plans start around $275 to $299 a month for four sessions as of July 2026, roughly $70 per class. Modern Age Coders 1-on-1 coding is priced for each country, always for eight live classes a month. Our small-group tier is $40 a month, and there are no registration fees on any plan.
 
 Are Juni's US instructors better than international mentors?
 

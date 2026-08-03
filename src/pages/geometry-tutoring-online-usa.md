@@ -1,10 +1,10 @@
 ---
 title: "Geometry Tutoring Online (USA) · 1:1 High School Geometry & Proofs — Modern Age Coders"
-description: "Live 1:1 online geometry tutoring for US students. We teach proofs as plain logical reasoning — congruence, similarity, circles, coordinate geometry and trig — so the subject clicks instead of confusing. Mentors in every US time zone. $150/month, 8 classes. Free trial."
+description: "Live 1:1 online geometry tutoring for US students. We teach proofs as plain logical reasoning — congruence, similarity, circles, coordinate geometry and trig — so the subject clicks instead of confusing. Mentors in every US time zone. Priced for your country."
 canonical: https://learn.modernagecoders.com/geometry-tutoring-online-usa
 source: src/pages/geometry-tutoring-online-usa.html
 ---
-> Live 1:1 online geometry tutoring for US students. We teach proofs as plain logical reasoning — congruence, similarity, circles, coordinate geometry and trig — so the subject clicks instead of confusing. Mentors in every US time zone. $150/month, 8 classes. Free trial.
+> Live 1:1 online geometry tutoring for US students. We teach proofs as plain logical reasoning — congruence, similarity, circles, coordinate geometry and trig — so the subject clicks instead of confusing. Mentors in every US time zone. Priced for your country.
 
 Why geometry feels like a different subject
 
@@ -143,7 +143,7 @@ Pricing
 
 ### 1:1 Private Mentorship
 
-$150 / month
+$374.99$1
 
 - 8 live one-to-one classes a month (2 per week, 1 hour each)
 - The same dedicated mentor throughout
@@ -152,7 +152,7 @@ $150 / month
 
 ### Small-Group Cohort
 
-$100 / month
+$149.99$1
 
 - 8 live small-group classes a month (2 per week, 1 hour each)
 - A few students at the same level
@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Homework-help apps | A typical tutor |
 | --- | --- | --- | --- |
 | Teaches proof reasoning | Yes, as a core skill | No | Varies |
 | Trains figure-reading live | Yes, on a whiteboard | No | Sometimes |
 | Same teacher each time | Yes | N/A | Often |
 | Works from your child's class | Yes | No | Sometimes |
-| Monthly price | $150 (1:1) / $100 (group) | $10–20 | $200–600+ |
+| Monthly price | $10–20 | $200–600+ |
 
 An app can give the answer to a geometry problem, but it can't teach your child to construct a proof — which is the entire skill the course is built to develop.
 

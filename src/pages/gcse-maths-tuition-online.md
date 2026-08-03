@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Revision apps | A typical tutor |
 | --- | --- | --- | --- |
 | Diagnoses why marks are lost | Yes, every paper | No | Sometimes |
 | Fixes the maths underneath | Yes | No | Varies |
 | Coaches method marks & problem-solving | Yes | Limited | Varies |
 | Same tutor to the exam | Yes | N/A | Often |
-| Monthly price | $150 (1:1) / $100 (group) | £5–10 | £30–50/hr |
+| Monthly price | £5–10 | £30–50/hr |
 
 Revision apps are useful for practice once gaps are known. We add the live diagnosis and the maths fix that turn revision into a higher grade.
 

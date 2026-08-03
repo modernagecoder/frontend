@@ -10,7 +10,7 @@ Honest alternative · 2026
 
 # Tynker Alternative 2026: A Live Teacher, Not an App Alone
 
-Looking for a Tynker alternative? Modern Age Coders teaches live online coding, and coding and maths together, for ages 6 to 67, in small batches with a real mentor instead of a self-paced app. Group plans are 1,499 rupees a month in India or $40 international, with a free demo before you pay and monthly billing you can stop any time.
+Looking for a Tynker alternative? Modern Age Coders teaches live online coding, and coding and maths together, for ages 6 to 67, in small batches with a real mentor instead of a self-paced app. Group plans are 1,499 rupees a month in India, with international prices set for your country, with a free demo before you pay and monthly billing you can stop any time.
 
 Rated 4.9 across 547 Google reviews
 

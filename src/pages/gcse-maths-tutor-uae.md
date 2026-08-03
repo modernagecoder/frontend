@@ -187,13 +187,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1)$2
+
 | What matters | Modern Age Coders | Tutoring centre | Revision apps |
 | --- | --- | --- | --- |
 | Diagnoses why marks are lost | Yes, every paper | Sometimes | No |
 | Knows your exact board | Yes | Varies | Generic |
 | One-to-one attention | Always | Often group | N/A |
 | Same tutor to the exam | Yes | Often rotates | N/A |
-| Monthly price | $150 / (1:1) | AED 1,000–2,500+ | AED 20–50 |
+| Monthly price | AED 1,000–2,500+ | AED 20–50 |
 
 Apps help with practice once gaps are known; centres give attention at a premium and often in groups. We add live diagnosis and the maths fix that move a grade.
 

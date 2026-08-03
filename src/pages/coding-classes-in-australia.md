@@ -1,10 +1,10 @@
 ---
 title: "Online Coding & AI Classes in Australia | ATAR Ready"
-description: "Live 1:1 online coding, Python & AI mentorship for students across Australia. Aligned with NSW HSC, VIC VCE & QCE. USD 100 ( ) a month. Free trial."
+description: "Live 1:1 online coding, Python & AI mentorship for students across Australia. Aligned with NSW HSC, VIC VCE & QCE. priced for your country a month. Free trial."
 canonical: https://learn.modernagecoders.com/coding-classes-in-australia
 source: src/pages/coding-classes-in-australia.html
 ---
-> Live 1:1 online coding, Python & AI mentorship for students across Australia. Aligned with NSW HSC, VIC VCE & QCE. USD 100 ( ) a month. Free trial.
+> Live 1:1 online coding, Python & AI mentorship for students across Australia. Aligned with NSW HSC, VIC VCE & QCE. priced for your country a month. Free trial.
 
 ### Request a callback
 
@@ -312,7 +312,7 @@ Also at Modern Age Coders
 
 ## Maths, taught with the same depth.
 
-The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For Australian students that means the Australian Curriculum, NAPLAN-flagged gap repair, and the HSC/VCE/QCE road to Methods. Premium 1-on-1 mentorship is USD $150 a month, small group $100, 8 classes a month, and every student starts with a free demo class.
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For Australian students that means the Australian Curriculum, NAPLAN-flagged gap repair, and the HSC/VCE/QCE road to Methods. Premium 1-on-1 mentorship and small-group plans are priced for your country (shown on this page in your local currency), 8 classes a month, and every student starts with a free demo class.
 
 [Maths Tutoring Australia](/online-maths-tutoring-australia)[IB Maths (AA & AI)](/ib-maths-tuition-online)[IGCSE Maths](/igcse-maths-tuition-online)[Catch-Up Program](/math-catch-up-program)[Competition Maths](/courses/olympiad-competition-mathematics-mastery)[The 2026 Guide](/best-online-math-tutoring-2026)
 

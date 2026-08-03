@@ -179,22 +179,31 @@ function checkFile(rel, config) {
             if (!tier) { fail(rel, 'Offer "' + nameM[1] + '" matches no plan'); continue; }
 
             schemaChecked++;
+
+            // Same rule as the stamper: the offer's own priceCurrency decides
+            // its region, the scope only supplies the subject. India-facing
+            // pages legitimately publish INR and USD offers in one block.
+            const curM = offerText.match(/"priceCurrency"\s*:\s*"([^"]*)"/);
+            const region = (curM && curM[1] === 'INR') ? 'india' : scope.split('.')[1];
+            const key = scope.split('.')[0] + '.' + region + '.' + tier;
+
             let r;
-            try { r = cfgLib.resolve(scope + '.' + tier, config); }
+            try { r = cfgLib.resolve(key, config); }
             catch (e) { fail(rel, e.message); continue; }
 
             if (!r.exists) {
-                fail(rel, 'publishes an Offer "' + nameM[1] + '" for ' + scope + '.' + tier +
+                fail(rel, 'publishes an Offer "' + nameM[1] + '" for ' + key +
                     ', which is set to null (not sold). Remove the Offer.');
                 continue;
             }
             if (priceM[1] !== String(r.amount)) {
-                fail(rel, 'tells Google "' + priceM[1] + '" for ' + scope + '.' + tier +
+                fail(rel, 'tells Google "' + priceM[1] + '" for ' + key +
                     ' but the config says ' + r.amount + '. Run: npm run pricing:apply');
             }
 
             // The check that matters: does the page SHOW what it TELLS Google?
-            const visible = seenVisible[scope] && seenVisible[scope][tier];
+            const visible = seenVisible[scope.split('.')[0] + '.' + region] &&
+                seenVisible[scope.split('.')[0] + '.' + region][tier];
             if (visible && visible !== String(r.amount)) {
                 fail(rel, 'VISIBLE/SCHEMA MISMATCH — page shows ' + visible +
                     ' for ' + scope + '.' + tier + ' but tells Google ' + priceM[1]);

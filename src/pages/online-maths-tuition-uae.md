@@ -185,13 +185,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1)$2
+
 | What matters | Modern Age Coders | Local tutoring centre | Maths apps |
 | --- | --- | --- | --- |
 | Matches your exact curriculum | Yes — all five systems | Usually one | Generic |
 | Teaches the reasoning | Always | Varies | Rarely |
 | Same tutor each time | Yes | Often rotates | N/A |
 | Fully online, your time zone | Yes, GST | Travel required | Yes |
-| Monthly price | $150 / (1:1) | AED 800–2,500+ | AED 20–50 |
+| Monthly price | AED 800–2,500+ | AED 20–50 |
 
 In-person centres in the UAE are excellent but typically far costlier per hour and tied to one curriculum and location. We bring matched, one-to-one teaching to your home, online.
 

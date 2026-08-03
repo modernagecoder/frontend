@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your child. Op
 
 [![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)Best fit  Scratch Programming Complete The full blocks-to-mastery arc: games, animations and stories carrying real computer-science ideas. Ages 6-118 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Scratch plus AI tools: kids build games and apps with blocks and modern AI builders, side by side. Ages 8-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The graduation destination: real text code, taught gently, with AI projects that make eyes go wide. Ages 9-138 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)See what is includedThe 20-second answer
 
-Good Scratch classes do three things: **teach the ideas inside the blocks** (loops, events, conditionals, variables), not just block-snapping recipes; **let the child build their own projects**, because ownership is where learning lives; and **graduate the child on purpose**, into Python, when they are ready. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 for $100 a month or small group for $40, free demo class first.
+Good Scratch classes do three things: **teach the ideas inside the blocks** (loops, events, conditionals, variables), not just block-snapping recipes; **let the child build their own projects**, because ownership is where learning lives; and **graduate the child on purpose**, into Python, when they are ready. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
 Why Scratch, and why taught live
 
@@ -249,9 +249,11 @@ An honest comparison
 
 ## Your real options for a young coder.
 
+ $1$149.99–$374.99 / month$2
+
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | $40-$100 / month | 8 live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real maker, with the Python road open |
+| Modern Age Coders | 8 live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real maker, with the Python road open |
 | Premium 1:1 platforms (Juni-style) | $200-$300 / month | Live 1-on-1, often 2-4 sessions monthly at 30-50 minutes, rotating instructors common | Families who want brand-name polish and can absorb the price |
 | Marketplace classes (Outschool-style) | $15-$25 / class | One-off or short-series group classes of varying quality; no continuity of mentor or curriculum | Sampling topics cheaply before committing anywhere |
 | Coding centers (Code Ninjas-style) | $175-$350 / month | Drop-in dojo floors with game-based curriculum and rotating guides, plus the drive | Children who focus better out of the house |
@@ -293,7 +295,7 @@ Not when the child is building the whole time. Our hours are hands-on and varied
 
 What does it cost?
 
-1-on-1 is $100 a month and small group is $40 a month, both with 8 live one-hour classes (2 per week) and recordings included. No registration fee, no contract. US kids-coding programs typically run $175 to $350 a month for less contact time.
+Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract. US kids-coding programs typically run $175 to $350 a month for less contact time.
 
 What equipment does my child need?
 

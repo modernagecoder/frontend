@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your child. Op
 
 [![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
 
-Good ISEE or SSAT math prep does three things: **builds calculator-free number sense**, because neither test allows one and both punish slow arithmetic; **trains the reasoning sections separately from the achievement sections**, they measure different things; and **teaches strategy honestly**, when to reason, when to estimate, when to move on. That is what we do: 8 live one-hour classes a month, 1-on-1 for $150 a month or small group for $100, free demo class first.
+Good ISEE or SSAT math prep does three things: **builds calculator-free number sense**, because neither test allows one and both punish slow arithmetic; **trains the reasoning sections separately from the achievement sections**, they measure different things; and **teaches strategy honestly**, when to reason, when to estimate, when to move on. That is what we do: 8 live one-hour classes a month, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
 Why these tests are different
 
@@ -279,9 +279,11 @@ An honest comparison
 
 ## Your real options for ISEE or SSAT prep.
 
+ $1$149.99–$374.99 / month$2
+
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | $100-$150 / month | 8 live one-hour classes with a dedicated math mentor: number sense, strategy and real timed practice | Building the reasoning the tests measure, with honest timelines |
+| Modern Age Coders | 8 live one-hour classes with a dedicated math mentor: number sense, strategy and real timed practice | Building the reasoning the tests measure, with honest timelines |
 | Big test-prep companies | $1,000-$3,000+ / package | Fixed-length packages, often rotating instructors, strategy-heavy and math-depth-light | Families who want a bundled all-subjects package and can absorb the price |
 | Private admissions tutor | $80-$250 / hour | Quality varies enormously; twice weekly runs $640-$2,000 a month | Short final-stretch polish when you have found a proven specialist |
 | Prep books + practice tests | $30-$80 one-time | Good question banks, zero teaching; a child who computes everything just practices computing everything faster | Motivated older students who already own the reasoning habits |
@@ -327,7 +329,7 @@ We will not invent a number; movement depends on the starting gap, the weeks ava
 
 What does it cost?
 
-1-on-1 is $150 a month and small group is $100 a month, both with 8 live one-hour classes (2 per week) and recordings included. No registration fee, no package lock-in, which matters in a market where admissions-prep packages routinely run $1,000 to $3,000.
+Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no package lock-in, which matters in a market where admissions-prep packages routinely run $1,000 to $3,000.
 
 Is the prep useful if my child ends up not sitting the test?
 

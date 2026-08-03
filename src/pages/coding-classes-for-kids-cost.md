@@ -96,7 +96,7 @@ Enrollment and registration fees, long packs sold upfront (Rs 29,500-style bundl
 
 What does Modern Age Coders include?
 
-Eight one-hour live classes a month, small group at $40 or true 1-on-1 at $100 for international students, a dedicated mentor, real shipped projects, recordings for revision, and maths available in the same school. Free live demo class before any payment, monthly billing, no lock-in.
+Eight one-hour live classes a month, small group or true 1-on-1, priced for your country for international students, a dedicated mentor, real shipped projects, recordings for revision, and maths available in the same school. Free live demo class before any payment, monthly billing, no lock-in.
 
 [vs Juni Learning](/modern-age-coders-vs-juni-learning)[vs Outschool](/modern-age-coders-vs-outschool)[vs Tynker](/modern-age-coders-vs-tynker)[Best coding classes for kids 2026](/best-online-coding-classes-for-kids-2026)[Full pricing](/pricing)
 

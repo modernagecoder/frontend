@@ -185,13 +185,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1)$2
+
 | What matters | Modern Age Coders | General tutor | Revision videos |
 | --- | --- | --- | --- |
 | Knows AA/AI & the IB system | Yes, deeply | Not always | Generic |
 | Supports the IA exploration | Yes, properly | Rarely | No |
 | Teaches understanding | Always | Varies | Sometimes |
 | Coaches GDC & papers | Yes | Varies | Limited |
-| Monthly price | $150 / (1:1) | AED 1,500–4,000+ | Free–AED 150 |
+| Monthly price | AED 1,500–4,000+ | Free–AED 150 |
 
 A general tutor may not know the IB's specific demands; videos can't guide an IA. We combine deep IB knowledge with one-to-one teaching, online, at sensible value.
 

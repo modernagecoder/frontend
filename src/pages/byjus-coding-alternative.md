@@ -10,7 +10,7 @@ Honest alternative · 2026
 
 # BYJU'S Coding Alternative 2026: Live, Small-Batch, Honest
 
-Looking for a BYJU'S alternative for coding? Modern Age Coders teaches live online coding, and coding and maths together, for ages 6 to 67, in small batches, with real mentors instead of recorded video. Group plans are 1,499 rupees a month in India or $40 international, with a free demo before you pay and monthly billing you can cancel any time.
+Looking for a BYJU'S alternative for coding? Modern Age Coders teaches live online coding, and coding and maths together, for ages 6 to 67, in small batches, with real mentors instead of recorded video. Group plans are 1,499 rupees a month in India, with international prices set for your country, with a free demo before you pay and monthly billing you can cancel any time.
 
 Rated 4.9 across 547 Google reviews
 
@@ -46,7 +46,7 @@ Modern Age Coders classes are fully live and interactive in small batches, with 
 
 Does Modern Age Coders use prepaid lock-ins like some BYJU'S plans?
 
-No. Modern Age Coders uses simple monthly billing you can stop any time, group coding from 1,499 rupees a month in India or $40 international, with a free demo first. There is no large prepaid package required to start.
+No. Modern Age Coders uses simple monthly billing you can stop any time, group coding from 1,499 rupees a month in India, with international prices set for your country, with a free demo first. There is no large prepaid package required to start.
 
 [Pricing](/pricing)[Courses](/courses)[Ranked: coding classes](/best-online-coding-classes-for-kids-2026)[Ranked: maths classes](/best-online-maths-classes-2026)[Reviews](/love)
 

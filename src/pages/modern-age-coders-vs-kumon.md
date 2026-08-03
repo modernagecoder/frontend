@@ -36,7 +36,7 @@ Scroll the table sideways to see every column →
 
 | Dimension | Modern Age CodersLive teaching | Kumon |
 | --- | --- | --- |
-| Typical monthly price | **$100 group · $150 true 1-on-1** (maths, all-inclusive) | $150 to $220 per subject; maths and reading billed separately |
+| Typical monthly price | **$149.99 group · $374.99 true 1-on-1** (maths, all-inclusive) | $150 to $220 per subject; maths and reading billed separately |
 | Upfront fees | **None** | ~$50 registration plus $30 to $50 assessment reported |
 | How learning happens | **Live 60-minute classes with a mentor who teaches** | Daily worksheets done mostly independently, with brief center check-ins |
 | Who explains new concepts | **The teacher, in the moment, every class** | The method is self-discovery through worksheet progression by design |
@@ -69,7 +69,7 @@ Kumon has stayed popular for six decades for real reasons. Here is the fair trad
 
 ### Do the per-class maths
 
-MAC 1-on-1 maths: $150 ÷ 8 = **$18.75 per hour of live teaching**MAC group maths: $100 ÷ 8 = **$12.50 per live class**Kumon: **$150 to $220 per subject**, worksheets not classesKumon maths + reading: **$300 to $400 a month**
+MAC 1-on-1 maths: $150 ÷ 8 = **$18.75 per hour of live teaching**MAC group maths: $149.99 ÷ 8 = **$18.75 per live class**Kumon: **$150 to $220 per subject**, worksheets not classesKumon maths + reading: **$300 to $400 a month**
 
 Kumon figures: typical published US rates as of July 2026 (tutors.com, brighterly.com). Two Kumon subjects can cost more than our full 1-on-1 maths and a coding course combined.
 
@@ -105,7 +105,7 @@ Honest answers
 
 Is Modern Age Coders cheaper than Kumon?
 
-Usually, yes, and the difference grows with each subject. Kumon typically costs $150 to $220 per subject per month in the US as of July 2026, so maths plus reading commonly reaches $300 to $400, on top of a registration fee of about $50. Modern Age Coders maths is $100 a month for small groups or $150 for 1-on-1, all-inclusive, with 8 live 60-minute classes a month and no registration fee.
+Usually, yes, and the difference grows with each subject. Kumon typically costs $150 to $220 per subject per month in the US as of July 2026, so maths plus reading commonly reaches $300 to $400, on top of a registration fee of about $50. Modern Age Coders maths pricing is set for each country and shown on the page in your local currency, for both small-group and 1-on-1 plans.
 
 Is Kumon a class or worksheets?
 

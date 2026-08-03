@@ -14,7 +14,7 @@ Each camp track runs on a structured course, adapted live to your child. Open on
 
 [![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Most popular  Vibe Coding for Kids The summer crowd-pleaser: blocks, game builds and AI tools in one joyful arc, ages 8-12. Ages 8-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)  Scratch Programming Complete First Games track for ages 6-9: real ideas in friendly blocks, from first sprite to shipped game. Ages 6-98 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids Python Start and AI Explorers tracks: real text code and honest AI, for ages 10-14. Ages 10-148 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)See what is includedThe 20-second answer
 
-A good online coding camp gives your child **real live teaching** (not videos with a camp logo), **a project they ship** by summer's end, and **scheduling that survives family vacations**. That is ours: 8 live one-hour classes a month with a dedicated mentor, tracks by age from Scratch to Python and AI, 1-on-1 for $100 a month or small group for $40, free demo class first, and the option to simply keep going in September, because the mentor does not disappear when the campfire goes out.
+A good online coding camp gives your child **real live teaching** (not videos with a camp logo), **a project they ship** by summer's end, and **scheduling that survives family vacations**. That is ours: 8 live one-hour classes a month with a dedicated mentor, tracks by age from Scratch to Python and AI, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first, and the option to simply keep going in September, because the mentor does not disappear when the campfire goes out.
 
 The summer camp math
 
@@ -224,9 +224,11 @@ An honest comparison
 
 ## Your real summer options, compared honestly.
 
+ $1$149.99–$374.99 / month$2
+
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | $40-$100 / month | 8 live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real maker, with the Python road open |
+| Modern Age Coders | 8 live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real maker, with the Python road open |
 | Premium 1:1 platforms (Juni-style) | $200-$300 / month | Live 1-on-1, often 2-4 sessions monthly at 30-50 minutes, rotating instructors common | Families who want brand-name polish and can absorb the price |
 | Marketplace classes (Outschool-style) | $15-$25 / class | One-off or short-series group classes of varying quality; no continuity of mentor or curriculum | Sampling topics cheaply before committing anywhere |
 | Coding centers (Code Ninjas-style) | $175-$350 / month | Drop-in dojo floors with game-based curriculum and rotating guides, plus the drive | Children who focus better out of the house |

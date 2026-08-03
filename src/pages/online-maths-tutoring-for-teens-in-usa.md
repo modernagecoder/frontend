@@ -1,10 +1,10 @@
 ---
 title: "Online Maths Tutoring for Teens in the USA · 1:1 Middle & High School Math — Modern Age Coders"
-description: "Live 1:1 online math tutoring for American teens, grades 6–12. We teach why the math works — algebra, geometry, functions, pre-calc — so it holds up on tests and beyond. SAT/ACT ready, Common Core aligned, mentors in every US time zone. $150/month, 8 classes. Free trial."
+description: "Live 1:1 online math tutoring for American teens, grades 6–12. We teach why the math works — algebra, geometry, functions, pre-calc — so it holds up on tests and beyond. SAT/ACT ready, Common Core aligned, mentors in every US time zone. Priced for your country."
 canonical: https://learn.modernagecoders.com/online-maths-tutoring-for-teens-in-usa
 source: src/pages/online-maths-tutoring-for-teens-in-usa.html
 ---
-> Live 1:1 online math tutoring for American teens, grades 6–12. We teach why the math works — algebra, geometry, functions, pre-calc — so it holds up on tests and beyond. SAT/ACT ready, Common Core aligned, mentors in every US time zone. $150/month, 8 classes. Free trial.
+> Live 1:1 online math tutoring for American teens, grades 6–12. We teach why the math works — algebra, geometry, functions, pre-calc — so it holds up on tests and beyond. SAT/ACT ready, Common Core aligned, mentors in every US time zone. Priced for your country.
 
 Why teens fall behind in math
 
@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Homework-help apps | A typical tutor |
 | --- | --- | --- | --- |
 | Fixes the root gap | Diagnoses & rebuilds it | No — answers only | Sometimes |
 | Teaches reasoning | Always | Rarely | Varies |
 | Same teacher each time | Yes, all year | N/A | Often |
 | SAT/ACT readiness | Built in | Add-on app | Varies |
-| Monthly price | $150 (1:1) / $100 (group) | $10–20 | $240–700+ |
+| Monthly price | $10–20 | $240–700+ |
 
 Apps are fine for a quick answer. A private local tutor is great if you can afford it. We give the live, one-to-one attention of a tutor at a price closer to an app.
 

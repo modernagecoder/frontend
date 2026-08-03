@@ -115,7 +115,7 @@ They help each other rather than queueing: early coding builds the logical habit
 
 What does starting actually cost?
 
-Coding classes are $40 a month for small group or $100 for 1-on-1, 8 live one-hour classes with a dedicated mentor, recordings included, no registration fee. The trial that answers the readiness question is free.
+Class prices are set for each country and shown in your local currency, for small group and 1-on-1, 8 live one-hour classes with a dedicated mentor, recordings included, no registration fee. The trial that answers the readiness question is free.
 
 Keep exploring
 

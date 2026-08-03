@@ -172,7 +172,7 @@ Two plans, charged monthly in US dollars, with riyal equivalents that stay close
 
 Group classes
 
-$40 per month
+ $1$149.99$2
 
 - Weekly live Python class, eight students at most
 - AST evening and weekend hours
@@ -183,7 +183,7 @@ Book a Free Demo
 
 One-on-one classes
 
-$100 per month
+ $1$374.99$2
 
 - One learner, the teacher's undivided hour
 - Days and times set around your week

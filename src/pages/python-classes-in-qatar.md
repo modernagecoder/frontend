@@ -158,7 +158,7 @@ Python courses carry the same simple fees as everything else we teach. Dollar-bi
 
 Group classes
 
-$40 per month
+ $1$149.99$2
 
 - Live batches of five to eight
 - A fixed AST evening or weekend hour
@@ -169,7 +169,7 @@ Book a Free Demo
 
 One-on-one classes
 
-$100 per month
+ $1$374.99$2
 
 - A teacher entirely to yourself
 - Scheduling that bends to your week

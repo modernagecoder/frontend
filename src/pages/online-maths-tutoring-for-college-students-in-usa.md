@@ -1,10 +1,10 @@
 ---
 title: "Online Maths Tutoring for College Students in the USA · 1:1 Calculus, Linear Algebra & Stats — Modern Age Coders"
-description: "Live 1:1 online math tutoring for US college and university students. Calculus, linear algebra, discrete math, probability, statistics and proof writing — taught from the ideas up, not memorized. Mentors in every US time zone. $150/month, 8 classes. Free trial."
+description: "Live 1:1 online math tutoring for US college and university students. Calculus, linear algebra, discrete math, probability, statistics and proof writing — taught from the ideas up, not memorized. Mentors in every US time zone. Priced for your country."
 canonical: https://learn.modernagecoders.com/online-maths-tutoring-for-college-students-in-usa
 source: src/pages/online-maths-tutoring-for-college-students-in-usa.html
 ---
-> Live 1:1 online math tutoring for US college and university students. Calculus, linear algebra, discrete math, probability, statistics and proof writing — taught from the ideas up, not memorized. Mentors in every US time zone. $150/month, 8 classes. Free trial.
+> Live 1:1 online math tutoring for US college and university students. Calculus, linear algebra, discrete math, probability, statistics and proof writing — taught from the ideas up, not memorized. Mentors in every US time zone. Priced for your country.
 
 Why college math gets people
 
@@ -179,13 +179,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1) / $149.99 (group)$2
+
 | What matters | Modern Age Coders | Solution websites | Campus tutoring center |
 | --- | --- | --- | --- |
 | Teaches transferable understanding | Always | No — final answers | Varies by tutor |
 | Works from your syllabus | Yes | No | Sometimes |
 | Same mentor all term | Yes | N/A | Rarely — drop-in |
 | Handles proof-based courses | Yes | Poorly | Sometimes |
-| Monthly price | $150 (1:1) / $100 (group) | $15–30 | Free–$ varies |
+| Monthly price | $15–30 | Free–$ varies |
 
 Campus centers are a great free resource when you can get consistent help. We add a dedicated mentor who knows your course and your gaps from week to week.
 

@@ -221,7 +221,7 @@ Two plans. Charged monthly, quoted in US dollars, with riyal conversions that ar
 
 Group classes
 
-$40 per month
+ $1$149.99$2
 
 - Weekly live lessons, groups hold 5 to 8 students
 - AST hours in the evening and at weekends
@@ -232,7 +232,7 @@ Book a Free Demo
 
 One-on-one classes
 
-$100 per month
+ $1$374.99$2
 
 - Undivided teacher attention for the hour
 - Calendar fitted to the student's week

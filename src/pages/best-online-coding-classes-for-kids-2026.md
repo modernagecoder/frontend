@@ -26,7 +26,7 @@ How we ranked
 
 Live online school · coding + maths · ages 6 to 67
 
-One full hour of deep, project-first live teaching per class, twice a week, from a dedicated mentor; interactive classes students wait for all week. Students ship real apps, games and AI tools you can open in Student Labs, and the maths behind the code is taught in the same school. Group $40 a month, true 1-on-1 $100.
+One full hour of deep, project-first live teaching per class, twice a week, from a dedicated mentor; interactive classes students wait for all week. Students ship real apps, games and AI tools you can open in Student Labs, and the maths behind the code is taught in the same school. Group and true 1-on-1 plans are priced for your country.
 
 8 live hours / month$5 to $12.50 per classReal shipped projects4.9 across 547 reviews2
 
@@ -134,7 +134,7 @@ Per real taught hour in 2026: Modern Age Coders $5 to $12.50, Outschool $10 to $
 
 What does Modern Age Coders include?
 
-Eight one-hour live classes a month, small group at $40 or true 1-on-1 at $100 for international students, a dedicated mentor, real shipped projects with engineering feedback, recordings for revision, and maths in the same school. Free live demo class first, monthly billing, no lock-in.
+Eight one-hour live classes a month, small group or true 1-on-1, priced for your country for international students, a dedicated mentor, real shipped projects with engineering feedback, recordings for revision, and maths in the same school. Free live demo class first, monthly billing, no lock-in.
 
 [What kids coding classes cost](/coding-classes-for-kids-cost)[vs Juni Learning](/modern-age-coders-vs-juni-learning)[vs Outschool](/modern-age-coders-vs-outschool)[vs Tynker](/modern-age-coders-vs-tynker)[vs Codingal](/modern-age-coders-vs-codingal)
 

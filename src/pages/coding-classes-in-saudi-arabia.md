@@ -223,7 +223,7 @@ Fees are billed monthly in US dollars. The riyal figures below shift a little wi
 
 Group classes
 
-$40 per month
+ $1$149.99$2
 
 - Live classes in batches of 5 to 8
 - Evening and weekend AST slots
@@ -234,7 +234,7 @@ Book a Free Demo
 
 One-on-one classes
 
-$100 per month
+ $1$374.99$2
 
 - Private classes, one student, one teacher
 - Schedule built around your week
@@ -249,7 +249,7 @@ Questions
 
 ## Frequently asked questions
 
-Are the classes online or in person in Saudi Arabia?Fully online. We do not run a physical centre in the Kingdom. Classes are live video calls, so a student in Riyadh, Jeddah, Dammam or a smaller city gets the same teacher and the same batch. You need a laptop or desktop and a stable internet connection.What class timings are available in Arabia Standard Time?Weekday slots run through the evening, roughly 4:00 to 9:00 PM AST, after school and office hours. Friday and Saturday slots cover the Saudi weekend. You pick a fixed weekly schedule at enrolment so classes become a routine, and one-on-one students can set their own days.Does the coursework fit my child's school curriculum?Yes, because it runs alongside school rather than replacing it. Students join us from Ministry of Education schools and from British, American and Indian CBSE international schools. The overlaps help: CBSE Classes 11 and 12 teach computer science in Python, and IGCSE, A Level and AP courses all reward students who can genuinely program rather than memorise.What ages do you teach?Six to adult. Kids courses cover ages 6 to 12, teen courses 13 to 18, and separate tracks serve college students and working professionals. The free demo class doubles as a placement: the teacher meets the student and recommends the right starting course.What language are the classes taught in?English. Most of our Saudi students attend English-medium schools, and instructors are used to teaching students who speak Arabic or another language at home. Teachers speak clearly, repeat when needed, and check understanding rather than assuming it.How much do the classes cost, and how does payment work?Group classes are 40 US dollars per month, about SAR 150. One-on-one classes are 100 US dollars per month, about SAR 375. Billing is monthly, there is no registration fee and no long lock-in, and international cards work fine. The demo class before all of this is free.How does the free demo class work?Fill the form on this page or message us on WhatsApp. A mentor calls you to understand the student's age and experience and fixes a slot. The student then attends a real one-hour live class. Afterwards you decide, with no card details taken and no obligation.
+Are the classes online or in person in Saudi Arabia?Fully online. We do not run a physical centre in the Kingdom. Classes are live video calls, so a student in Riyadh, Jeddah, Dammam or a smaller city gets the same teacher and the same batch. You need a laptop or desktop and a stable internet connection.What class timings are available in Arabia Standard Time?Weekday slots run through the evening, roughly 4:00 to 9:00 PM AST, after school and office hours. Friday and Saturday slots cover the Saudi weekend. You pick a fixed weekly schedule at enrolment so classes become a routine, and one-on-one students can set their own days.Does the coursework fit my child's school curriculum?Yes, because it runs alongside school rather than replacing it. Students join us from Ministry of Education schools and from British, American and Indian CBSE international schools. The overlaps help: CBSE Classes 11 and 12 teach computer science in Python, and IGCSE, A Level and AP courses all reward students who can genuinely program rather than memorise.What ages do you teach?Six to adult. Kids courses cover ages 6 to 12, teen courses 13 to 18, and separate tracks serve college students and working professionals. The free demo class doubles as a placement: the teacher meets the student and recommends the right starting course.What language are the classes taught in?English. Most of our Saudi students attend English-medium schools, and instructors are used to teaching students who speak Arabic or another language at home. Teachers speak clearly, repeat when needed, and check understanding rather than assuming it.How much do the classes cost, and how does payment work?Group and one-on-one classes are billed monthly, with the price set for your country and shown on this page in your local currency. Billing is monthly, there is no registration fee and no long lock-in, and international cards work fine. The demo class before all of this is free.How does the free demo class work?Fill the form on this page or message us on WhatsApp. A mentor calls you to understand the student's age and experience and fixes a slot. The student then attends a real one-hour live class. Afterwards you decide, with no card details taken and no obligation.
 
 Free demo class
 

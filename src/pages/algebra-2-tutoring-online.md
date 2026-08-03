@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your child. Op
 
 [![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![SAT Math 800 Prep Course course thumbnail](/images/sat-math-prep.webp)  SAT Math 800 Prep Course The algebra core rebuilt, Desmos strategy and full adaptive mock cycles for the Digital SAT. Grades 10-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/sat-math-prep-course)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
 
-A good Algebra 2 tutor does three things: **organizes the course around function families**, linear, quadratic, polynomial, exponential, logarithmic, rational, trigonometric, so fifteen "units" become one repeating story; **rebuilds the Algebra 1 machinery** the course silently assumes; and **connects every topic to the SAT and ACT**, which draw most of their hardest math from exactly this course. That is what we do: 8 live one-hour classes a month, 1-on-1 for $150 a month or small group for $100, free demo class first.
+A good Algebra 2 tutor does three things: **organizes the course around function families**, linear, quadratic, polynomial, exponential, logarithmic, rational, trigonometric, so fifteen "units" become one repeating story; **rebuilds the Algebra 1 machinery** the course silently assumes; and **connects every topic to the SAT and ACT**, which draw most of their hardest math from exactly this course. That is what we do: 8 live one-hour classes a month, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
 Why Algebra 2 breaks students
 
@@ -252,9 +252,11 @@ An honest comparison
 
 ## Your real options for a Algebra 2 student.
 
+ $1$149.99–$374.99 / month$2
+
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | $100-$150 / month | 8 live one-hour classes with a dedicated mentor, concrete-first teaching | Rebuilding understanding and confidence, sustained progress |
+| Modern Age Coders | 8 live one-hour classes with a dedicated mentor, concrete-first teaching | Rebuilding understanding and confidence, sustained progress |
 | Mathnasium center | $300-$450 / month + enrollment fee | Drop-in worksheet floor with rotating instructors | Children who focus better out of the house |
 | Kumon | $150-$220 / subject / month | Daily worksheet packets, brief check-ins, no taught lessons | Building a drill habit and calculation speed |
 | Local private tutor | $35-$80 / hour | Quality varies; twice-weekly quickly costs $280-$640 a month | Short-term help when you have found a gem nearby |
@@ -288,7 +290,7 @@ Honestly: the current-unit grade usually stabilizes within two to four weeks, be
 
 What does it cost?
 
-1-on-1 is $150 a month and small group is $100 a month, both with 8 live one-hour classes (2 per week) and recordings included. No registration fee, no contract. Compare with US test-prep and tutoring rates of $60 to $150 per hour for the same seniority of content.
+Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract. Compare with US test-prep and tutoring rates of $60 to $150 per hour for the same seniority of content.
 
 Who teaches Algebra 2?
 

@@ -185,13 +185,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1)$2
+
 | What matters | Modern Age Coders | Maths apps | Tutoring centre |
 | --- | --- | --- | --- |
 | Teaches the reasoning | Always | Rarely — rewards taps | Varies |
 | Matched to your curriculum | Yes | Generic | Sometimes |
 | Notices quiet confusion | Yes, live, 1:1 | No | Group-dependent |
 | Same tutor each time | Yes | N/A | Often rotates |
-| Monthly price | $150 / (1:1) | AED 20–50 | AED 800–2,000+ |
+| Monthly price | AED 20–50 | AED 800–2,000+ |
 
 Apps are inexpensive and fine for drill. Centres give attention at a premium and in groups. We give full one-to-one attention, matched to your curriculum, online.
 

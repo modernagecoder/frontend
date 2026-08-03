@@ -187,13 +187,15 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
+ $1$374.99 (1:1)$2
+
 | What matters | Modern Age Coders | Revision videos | General tutor |
 | --- | --- | --- | --- |
 | Rebuilds the fluency gap | Yes | No | Sometimes |
 | Teaches unseen problem-solving | Yes | Rarely | Varies |
 | Covers pure, mechanics & stats | All three | Usually pure | Varies |
 | Same tutor to the exam | Yes | N/A | Often |
-| Monthly price | $150 / (1:1) | Free–AED 150 | AED 1,500–4,000+ |
+| Monthly price | Free–AED 150 | AED 1,500–4,000+ |
 
 Revision videos are a useful supplement; they can't watch you attempt an unseen question and coach the reasoning in real time — which is what moves an A-Level grade.
 

@@ -26,7 +26,7 @@ How we ranked
 
 Live online school · maths + coding · ages 6 to 67
 
-One full hour of deep, application-first live teaching per class, twice a week, from a dedicated mentor; the kind of interactive class students wait for. Maths and coding grow together in one school. 1-on-1 maths $150 a month, small group $100, with no enrollment fees and monthly billing.
+One full hour of deep, application-first live teaching per class, twice a week, from a dedicated mentor; the kind of interactive class students wait for. Maths and coding grow together in one school. 1-on-1 and small-group maths priced for your country, with no enrollment fees and monthly billing.
 
 8 live hours / month$12.50 to $18.75 per class4.9 across 547 Google reviewsFree demo class2
 
