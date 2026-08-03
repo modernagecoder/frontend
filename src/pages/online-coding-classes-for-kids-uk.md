@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the placement pick for you.
 
-[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)Best fit  Scratch Programming Complete KS1-KS2 depth: the ideas school Scratch never has time for, from first sprite to shipped game. Ages 6-118 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The KS3 bridge and beyond: real Python taught gently, with the GCSE CS runway in sight. Ages 9-138 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Blocks, game builds and AI tools in one joyful arc: the KS2-to-KS3 bridge years, covered. Ages 8-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)See what is includedThe 20-second answer
+[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)Best fit  Scratch Programming Complete KS1-KS2 depth: the ideas school Scratch never has time for, from first sprite to shipped game. Ages 6-118 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The KS3 bridge and beyond: real Python taught gently, with the GCSE CS runway in sight. Ages 9-138 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Blocks, game builds and AI tools in one joyful arc: the KS2-to-KS3 bridge years, covered. Ages 8-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)See what is includedThe 20-second answer
 
 Good online coding classes for a British child work **with the national curriculum, not around it**: they deepen the Scratch years of KS2, carry the child properly into text-based programming before KS3 demands it, and build the runway to GCSE Computer Science for those who want it. That is what we do: 8 live one-hour classes a month with a dedicated mentor, at UK-friendly evening and weekend slots, 1-on-1 for $100 a month (about £80) or small group for $40 (about £32), free demo class first.
 
@@ -147,7 +147,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the form
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your child by name
@@ -156,7 +156,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level

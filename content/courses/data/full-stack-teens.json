@@ -25,8 +25,8 @@
     "taxonomy": "web-dev",
     "price": {
       "group": "₹1,499/month",
-      "miniBatch": "₹2,499/month",
-      "personal": "₹4,999/month"
+      "miniBatch": "₹2,999/month",
+      "personal": "₹7,500/month"
     },
     "duration": "24 months (104 weeks)",
     "level": "Complete Beginner to Professional Full Stack Developer",
@@ -1635,7 +1635,7 @@
     },
     {
       "question": "How much are the monthly fees?",
-      "answer": "Group classes are ₹1,499 per month, including 2 live classes a week in batches capped at 10 students. A mini batch of 3-4 students is ₹2,499 per month, and personal 1-on-1 classes with 2 private sessions weekly are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency classes."
+      "answer": "Group classes are ₹1,499 per month, including 2 live classes a week in batches capped at 10 students. A mini batch of 3-4 students is ₹2,999 per month, and personal 1-on-1 classes with 2 private sessions weekly are ₹7,500 per month. International students pay a price set for their own country, shown on this page in their local currency classes."
     },
     {
       "question": "Does the course offer a free demo?",

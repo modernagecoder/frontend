@@ -17,8 +17,8 @@
     "category": "IB Diploma Computer Science",
     "price": {
       "group": "₹1,499/month",
-      "miniBatch": "₹2,499/month",
-      "personal": "₹4,999/month"
+      "miniBatch": "₹2,999/month",
+      "personal": "₹7,500/month"
     },
     "duration": "Ongoing DP support, joinable any month",
     "level": "IB Diploma Programme students taking Computer Science at SL or HL",
@@ -491,7 +491,7 @@
     },
     {
       "question": "How much do the IB Computer Science classes cost?",
-      "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,499 per month, and 1-on-1 classes are ₹4,999 per month. There is a free demo class first, so you can see the teaching before you decide."
+      "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,999 per month, and 1-on-1 classes are ₹7,500 per month. There is a free demo class first, so you can see the teaching before you decide."
     }
   ]
 }

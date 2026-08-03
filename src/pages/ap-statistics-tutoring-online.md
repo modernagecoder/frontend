@@ -143,7 +143,7 @@ Pricing
 
 ### 1:1 Private Mentorship
 
-$374.99$1
+$150$1
 
 - 8 live one-to-one sessions a month (2 per week, 1 hour each)
 - The same mentor through the whole course
@@ -152,7 +152,7 @@ $374.99$1
 
 ### Small-Group Cohort
 
-$149.99$1
+$100$1
 
 - 8 live small-group sessions a month (2 per week, 1 hour each)
 - A few students in AP Stats together
@@ -179,7 +179,7 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
- $1$374.99 (1:1) / $149.99 (group)$2
+ $1$150 (1:1) / $100 (group)$2
 
 | What matters | Modern Age Coders | Video courses | Review book |
 | --- | --- | --- | --- |

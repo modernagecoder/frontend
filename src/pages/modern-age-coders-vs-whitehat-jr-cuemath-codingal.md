@@ -93,17 +93,17 @@ Transparent pricing
 
 ## What Modern Age Coders costs
 
-Clear, published prices with live mentor-led teaching and recordings on every plan. Group classes are ₹1499/month, a small Mini-Batch is ₹2499/month, and fully personalised one-on-one classes are ₹4999/month.
+Clear, published prices with live mentor-led teaching and recordings on every plan. Group classes are ₹1499/month, a small Mini-Batch is ₹2,999/month, and fully personalised one-on-one classes are ₹8,500/month.
 
 Group₹1,499per month
 
 Live small-group classes with mentor support and recordings for revision.
 
-Mini-Batch₹2,499per month
+Mini-Batch₹2,999per month
 
 An even smaller group for closer attention, still live and mentor-led.
 
-1-on-1₹4,999per month
+1-on-1₹8,500per month
 
 Fully personalised one-on-one classes paced entirely around the learner.
 
@@ -135,7 +135,7 @@ Three things set us apart. First, we teach coding and maths together in one curr
 
 How much does Modern Age Coders cost?
 
-Group classes are ₹1499/month, a small Mini-Batch is ₹2499/month, and fully personalised one-on-one classes are ₹4999/month. Every plan includes live mentor-led teaching and recordings for revision, and you can start with a free trial class before you decide. Pricing may be shown in your local currency outside India.
+Group classes are ₹1499/month, a small Mini-Batch is ₹2,999/month, and fully personalised one-on-one classes are ₹8,500/month. Every plan includes live mentor-led teaching and recordings for revision, and you can start with a free trial class before you decide. Pricing may be shown in your local currency outside India.
 
 [Best coding classes online](/best-coding-classes-online)[Coding fee calculator](/coding-fee-calculator)[Full pricing](/pricing)
 

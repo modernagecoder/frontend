@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
 
-[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![AP Calculus AB and BC Exam Prep course thumbnail](/images/ap-calculus-prep.webp)  AP Calculus AB & BC Exam Prep Three ideas taught like ideas, then trained against real FRQ rubrics. Score 5 goal. AP AB & BC8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/ap-calculus-exam-prep)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
+[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![AP Calculus AB and BC Exam Prep course thumbnail](/images/ap-calculus-prep.webp)  AP Calculus AB & BC Exam Prep Three ideas taught like ideas, then trained against real FRQ rubrics. Score 5 goal. AP AB & BC8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ap-calculus-exam-prep)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
 
 A good precalculus tutor does three things: **teaches the unit circle as three triangles, not thirty memorized points**, so trigonometry becomes reconstruction instead of recall; **makes function behavior visual**, asymptotes, end behavior, composition, inverses, because calculus is entirely about function behavior; and **keeps the AP or college placement target in view** from week one. That is what we do: 8 live one-hour classes a month, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
@@ -206,7 +206,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the same
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your teen by name
@@ -215,7 +215,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level
@@ -250,7 +250,7 @@ An honest comparison
 
 ## Your real options for a precalculus student.
 
- $1$149.99–$374.99 / month$2
+ $1$100–$150 / month$2
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |

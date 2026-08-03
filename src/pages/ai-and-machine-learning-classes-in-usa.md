@@ -386,7 +386,7 @@ Book it
 
 Group batch
 
-$149.99
+$100
 
 USD 40 a month
 
@@ -399,7 +399,7 @@ Start here
 
 One to one
 
-$374.99
+$150
 
 USD 100 a month
 

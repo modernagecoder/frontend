@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the placement pick for you.
 
-[![Early Math Foundations course thumbnail](/images/early-math-k2.webp)Best fit  Early Math Foundations (K-2) The K-2 arc this year sits inside: bonds, stories and place-value beginnings, taught playfully. Ages 4-78 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/early-math-foundations)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids The fluency engine: bonds and strategies through games, exactly what first grade runs on. Ages 5-108 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass The full grades 1-5 road, with the same mentor carrying your child rung by rung. Grades 1-58 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)See what is includedThe 20-second answer
+[![Early Math Foundations course thumbnail](/images/early-math-k2.webp)Best fit  Early Math Foundations (K-2) The K-2 arc this year sits inside: bonds, stories and place-value beginnings, taught playfully. Ages 4-78 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/early-math-foundations)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids The fluency engine: bonds and strategies through games, exactly what first grade runs on. Ages 5-108 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass The full grades 1-5 road, with the same mentor carrying your child rung by rung. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)See what is includedThe 20-second answer
 
 Good 1st grade math tutoring builds three things: **strategies to replace counting-everything** (counting on, making ten, using doubles), **fact fluency within 10 through games** rather than flashcard grind, and **place value that means something**, tens and ones as bundles, not columns. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
@@ -155,7 +155,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the same
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your child by name
@@ -164,7 +164,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level
@@ -199,7 +199,7 @@ An honest comparison
 
 ## Your real options for a 1st grade student.
 
- $1$149.99–$374.99 / month$2
+ $1$100–$150 / month$2
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |

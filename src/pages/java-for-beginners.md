@@ -193,7 +193,7 @@ Anyone starting Java from scratch — school students (including ICSE/ISC and CB
 
 How much does the beginner Java course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 learners is ₹2,499 per month, and 1-on-1 classes are ₹4,999 per month. A free demo class is available before you enrol.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 learners is ₹2,999 per month, and 1-on-1 classes are ₹7,500 per month. A free demo class is available before you enrol.
 
 Are the classes live with a teacher?+
 

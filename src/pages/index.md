@@ -238,7 +238,7 @@ Up to 10 students · learn with peers
 
 3-4 students · near 1-on-1 attention
 
-₹2499/month
+₹2999/month
 
 - **Micro batch of just 3-4 students**
 - Weekly Two Classes (1 hr each)
@@ -254,7 +254,7 @@ Up to 10 students · learn with peers
 
 Private mentor · your pace, your goals
 
-₹4999/month
+₹7500/month
 
 - **Weekly Two 1-on-1 Classes**
 - 100% Customized Curriculum
@@ -288,7 +288,7 @@ Up to 10 students · solve problems together
 
 3-4 students · near 1-on-1 attention
 
-₹2499/month
+₹2999/month
 
 - **Micro batch of just 3-4 students**
 - Weekly Two Classes (1 hr each)
@@ -304,7 +304,7 @@ Up to 10 students · solve problems together
 
 Private tutor · your syllabus, your pace
 
-₹4999/month
+₹7500/month
 
 - **Weekly Two 1-on-1 Classes**
 - Customized to your syllabus

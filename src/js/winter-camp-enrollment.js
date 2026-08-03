@@ -20,12 +20,8 @@ const WinterCampEnrollment = {
         if (this.isIndian()) {
             return { amount: data.plans.camps.india.oneTime, currency: 'INR', symbol: '₹' };
         }
-        var country = window.__MAC_COUNTRY;
-        var entry = country && data.worldwide && data.worldwide.enabled
-            ? data.worldwide.countries[country] : null;
-        var amount = entry && entry.tiers && entry.tiers.camps
-            ? entry.tiers.camps.oneTime
-            : data.plans.camps.international.oneTime;
+        // Flat model: everyone outside India pays the same USD camp fee.
+        var amount = data.plans.camps.international.oneTime;
         if (amount === null || amount === undefined) return null;
         return { amount: amount, currency: 'USD', symbol: '$' };
     },

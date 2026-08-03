@@ -22,7 +22,6 @@ const path = require('path');
 
 const cfgLib = require('./lib/config');
 const stamper = require('./lib/stamp');
-const ppp = require('./lib/ppp');
 const applyLib = require('./apply-lib');
 const ensureScripts = applyLib.ensureScripts;
 
@@ -55,9 +54,6 @@ function walk(dir, out) {
  * typed into a script that fans out across the site is a site-wide claim.
  */
 function emitRuntimeData(config) {
-    const pppData = cfgLib.loadData('ppp');
-    const fxData = cfgLib.loadData('fx');
-
     const plans = {};
     Object.keys(config.plans).forEach(function (subject) {
         plans[subject] = {};
@@ -70,42 +66,13 @@ function emitRuntimeData(config) {
         });
     });
 
-    const worldwide = { enabled: false, countries: {}, currencies: {} };
-    if (config.worldwide.enabled && pppData && fxData) {
-        worldwide.enabled = true;
-        worldwide.fxDate = fxData.providerUpdatedAt;
-        worldwide.unstable = config.worldwide.unstableCurrencies;
-        Object.keys(config.plans).forEach(function (subject) {
-            if (!config.plans[subject].international) return;
-            const built = ppp.buildTable(subject, config, pppData, fxData);
-            Object.keys(built.table).forEach(function (iso) {
-                if (!worldwide.countries[iso]) {
-                    worldwide.countries[iso] = {
-                        currency: built.table[iso].currency,
-                        name: built.table[iso].name,
-                        tiers: {}
-                    };
-                }
-                worldwide.countries[iso].tiers[subject] = built.table[iso].tiers;
-            });
-        });
-        // Only the rates for currencies actually referenced, to keep the file small.
-        const needed = {};
-        Object.keys(worldwide.countries).forEach(function (iso) {
-            const c = worldwide.countries[iso].currency;
-            if (c && fxData.rates[c]) needed[c] = fxData.rates[c];
-        });
-        worldwide.currencies = needed;
-    }
-
     const payload = {
         version: config.version,
         updated: config.updated,
         generatedFrom: 'pricing/pricing.config.jsonc',
         plans: plans,
         courseOverrides: config.courseOverrides || {},
-        display: config.display,
-        worldwide: worldwide
+        display: config.display
     };
 
     const js = '/**\n' +
@@ -195,7 +162,6 @@ function syncCoursesConfig(config) {
         writeIntl('group', intl.group, '/month');
         writeIntl('personal', intl.personal, '/month');
         writeIntl('miniBatch', intl.miniBatch, '/month');
-        writeIntl('lifetime', intl.lifetime, '');
         writeIntl('summer', camps.oneTime, '');
     }
 
@@ -312,13 +278,9 @@ function syncLlmsTxt(config) {
     const count = WORDS[indiaTiers.length] || String(indiaTiers.length);
 
     const answer = 'A: In India there are ' + count + ' tiers, all billed monthly with no lock-in: ' +
-        indiaTiers.join(', ') + '. Outside India the price is set for each country using World Bank ' +
-        'purchasing power data, so a family pays what is reasonable where they live: ' +
-        usd(intl.group) + ' per month for group classes and ' + usd(intl.personal) + ' for one-on-one in the ' +
-        'highest-income countries, less elsewhere, and the price is shown in the local currency with the ' +
-        'exact US dollar charge stated beside it. One exception: the two premium Codex + Claude Code AI ' +
-        'coding agents courses are ' + agentTiers.join(', ') + ' per month in India ' +
-        '(students also need their own Claude and ChatGPT subscriptions). A free demo class is ' +
+        indiaTiers.join(', ') + '. Maths 1-on-1 is ' + inr(config.plans.maths.india.personal) + ' per month. ' +
+        'Outside India the pricing is a flat ' + usd(intl.group) + ' per month for group classes and ' +
+        usd(intl.personal) + ' for one-on-one, in US dollars, for all courses. A free demo class is ' +
         'available before enrollment, with no card required.';
 
     // Wrap to the file's existing line width so it stays readable.
@@ -391,6 +353,13 @@ function main() {
 
         // Normalise the version stamp on tags that already existed.
         out = applyLib.versionScripts(out, versions);
+
+        // The local-currency and country-switcher layers were REMOVED with the
+        // worldwide pricing feature (owner, 2026-08-01). Their tags are
+        // stripped from any page still carrying them.
+        out = out.replace(
+            new RegExp('[ \\t]*<script src="/js/(?:local-currency|country-switcher)\\.js(?:\\?v=[A-Za-z0-9]+)?"></script>\\r?\\n?', 'g'),
+            '');
 
         if (out.indexOf('data-price') !== -1) {
             const result = stamper.stamp(out, config);

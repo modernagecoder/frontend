@@ -14,7 +14,6 @@
 'use strict';
 
 const cfgLib = require('./lib/config');
-const ppp = require('./lib/ppp');
 
 const fs = require('fs');
 const path = require('path');
@@ -127,100 +126,31 @@ function validate(config) {
         err('display.classesPerMonth is missing. It is needed to recalculate the "per class" prices shown on some pages.');
     }
 
-    // --- worldwide sanity ---
-    const w = config.worldwide;
-    if (!w) { err('There is no "worldwide" section.'); return; }
-    if (w.dampingExponent < 0 || w.dampingExponent > 1) {
-        err('worldwide.dampingExponent is ' + w.dampingExponent + '. It must be between 0 and 1. 0 means everyone pays list price; 1 means follow purchasing power exactly, which would price 81 countries below your Indian price.');
-    }
-    if (w.maxDiscountPercent < 0 || w.maxDiscountPercent > 90) {
-        err('worldwide.maxDiscountPercent is ' + w.maxDiscountPercent + '. Keep it between 0 and 90.');
-    }
-    // gstOnServicePercent 0 was confirmed by the owner's CA on 2026-07-31 as a
-    // zero-rated export of services, so it is no longer flagged. What is worth
-    // flagging is a value nobody expects: anything other than 0 or 18 is almost
-    // certainly a typo, and it moves every floor.
-    if (w.costs.gstOnServicePercent !== 0 && w.costs.gstOnServicePercent !== 18) {
-        warn('worldwide.costs.gstOnServicePercent is ' + w.costs.gstOnServicePercent +
-            '. Indian GST on services is normally 0 (zero-rated export under an LUT) or 18. Check this is intended — it changes every floor.');
-    }
-    if (w.costs.fxSpreadBufferPercent === 0) {
-        warn('worldwide.costs.fxSpreadBufferPercent is 0. Razorpay does not publish its card FX spread, so charging with no buffer means an unknown slice of every international payment is unaccounted for.');
-    }
+
 }
 
-function showLadder(config) {
-    const pppData = cfgLib.loadData('ppp');
-    const fxData = cfgLib.loadData('fx');
-    if (!pppData || !fxData) {
-        warn('No World Bank or exchange-rate data yet. Run: npm run pricing:refresh');
-        return;
-    }
-
-    const ageDays = Math.round((Date.now() - new Date(fxData.fetchedAt).getTime()) / 86400000);
-    if (ageDays > 30) {
-        warn('Exchange rates are ' + ageDays + ' days old. Run npm run pricing:refresh to update them.');
-    }
-
-    console.log('\n─── What visitors are charged ─────────────────────────────────');
-    console.log('    World Bank data ' + pppData.worldBankLastUpdated + ' · 1 USD = ' + fxData.rates.INR.toFixed(2) + ' INR\n');
-
-    const sample = ['IN', 'NG', 'PK', 'EG', 'BD', 'KE', 'PH', 'BR', 'ZA', 'MX', 'AE', 'GB', 'DE', 'AU', 'US', 'CH'];
-    const subject = 'coding';
-    const india = config.plans[subject].india;
-    const intl = config.plans[subject].international;
-
-    console.log('    ' + 'Country'.padEnd(16) + 'PPP'.padStart(6) + '   ' +
-        'Group'.padStart(9) + '   ' + '1-on-1'.padStart(9) + '   ' + 'You net'.padStart(10) + '   ' + 'Shown locally'.padStart(15) + '  Why');
-    console.log('    ' + '─'.repeat(88));
-
-    // India is billed domestically in rupees, so it is shown from its own row.
-    const indiaNet = ppp.indiaNetInr(india.group, config);
-    console.log('    ' + 'India'.padEnd(16) + (pppData.countries.IN ? pppData.countries.IN.pli.toFixed(1) : '  -').padStart(6) + '   ' +
-        cfgLib.format(india.group, 'INR').padStart(9) + '   ' +
-        cfgLib.format(india.personal, 'INR').padStart(9) + '   ' +
-        ('₹' + indiaNet.toFixed(0)).padStart(10) + '   ' + '(exact)'.padStart(15) + '  domestic');
-
-    const netKeep = ppp.internationalNetKeep(config);
-    sample.forEach(function (iso) {
-        if (iso === 'IN') return;
-        const c = pppData.countries[iso];
-        if (!c) return;
-        const g = ppp.priceForCountry({ listUsd: intl.group, indiaGross: india.group, pli: c.pli, usdInrRate: fxData.rates.INR, tier: 'group', intlTable: intl }, config);
-        const p = ppp.priceForCountry({ listUsd: intl.personal, indiaGross: india.personal, pli: c.pli, usdInrRate: fxData.rates.INR, tier: 'personal', intlTable: intl }, config);
-        const netInr = g.usd * netKeep * fxData.rates.INR;
-
-        // What the visitor actually reads, in their own currency and symbol.
-        var local = '';
-        var cur = c.currency;
-        if (cur && fxData.rates[cur] && config.worldwide.unstableCurrencies.indexOf(cur) === -1) {
-            local = cfgLib.formatLocal(g.usd * fxData.rates[cur], cur);
-        } else if (cur) {
-            local = '(USD only)';
-        }
-
-        console.log('    ' + c.name.slice(0, 15).padEnd(16) + c.pli.toFixed(1).padStart(6) + '   ' +
-            ('$' + g.usd.toFixed(2)).padStart(9) + '   ' +
-            ('$' + p.usd.toFixed(2)).padStart(9) + '   ' +
-            ('₹' + netInr.toFixed(0)).padStart(10) + '   ' +
-            local.padStart(15) + '  ' + g.reason);
+function showPrices(config) {
+    console.log('');
+    console.log('─── What visitors are charged ─────────────────────────────────');
+    console.log('');
+    const inr = (n) => n == null ? '—' : cfgLib.format(n, 'INR');
+    const usd = (n) => n == null ? '—' : cfgLib.format(n, 'USD');
+    console.log('    ' + 'Plan'.padEnd(26) + 'India'.padStart(10) + 'Outside India'.padStart(18));
+    console.log('    ' + '─'.repeat(54));
+    [['coding', 'Coding'], ['maths', 'Maths'], ['agents', 'Codex/Claude premium'], ['school', 'School bootcamp']].forEach(function (row) {
+        const t = config.plans[row[0]];
+        ['group', 'miniBatch', 'personal'].forEach(function (tier) {
+            const label = { group: 'Group', miniBatch: 'Mini Batch', personal: '1-on-1' }[tier];
+            const i = t.india[tier], u = t.international[tier];
+            if (i == null && u == null) return;
+            console.log('    ' + (row[1] + ' — ' + label).padEnd(26) + inr(i).padStart(10) +
+                (u == null ? 'not sold'.padStart(18) : (usd(u) + '/month').padStart(18)));
+        });
     });
-
-    // How often does the floor actually bind? This is the number that tells you
-    // whether the damping is doing the work or the floor is.
-    let bound = 0, total = 0, belowIndia = 0;
-    Object.keys(pppData.countries).forEach(function (iso) {
-        if (iso === 'IN') return;
-        const c = pppData.countries[iso];
-        total++;
-        const r = ppp.priceForCountry({ listUsd: intl.group, indiaGross: india.group, pli: c.pli, usdInrRate: fxData.rates.INR }, config);
-        if (r.floorBound) bound++;
-        // What raw PPP with no damping and no floor would have done:
-        if (intl.group * (c.pli / 100) * netKeep * fxData.rates.INR < indiaNet) belowIndia++;
-    });
-
-    console.log('\n    Floor binds in ' + bound + ' of ' + total + ' countries.');
-    console.log('    Without it, ' + belowIndia + ' countries would net you less than one Indian enrolment.');
+    const c = config.plans.camps;
+    console.log('    ' + 'Holiday camp (one-time)'.padEnd(26) + inr(c.india.oneTime).padStart(10) + usd(c.international.oneTime).padStart(18));
+    console.log('');
+    console.log('    Everyone outside India pays the same flat USD prices, for all courses.');
 }
 
 function main() {
@@ -235,7 +165,7 @@ function main() {
     validate(config);
 
     if (!errors.length) {
-        try { showLadder(config); } catch (e) { warn('Could not work out the ladder: ' + e.message); }
+        try { showPrices(config); } catch (e) { warn('Could not print the price table: ' + e.message); }
     }
 
     console.log('');

@@ -28,9 +28,6 @@ const InternationalPricing = {
   // it is set to null in the config: it has never been sold in USD.
   PRICES: null,
 
-  // The visitor's country, once detected. Drives the purchasing-power price.
-  country: null,
-
   /**
    * Build the price tables from the generated config data.
    * Returns false if the data is missing, in which case this whole module
@@ -88,52 +85,6 @@ const InternationalPricing = {
     return true;
   },
 
-  /**
-   * Swap the USD figures for the visitor's own country, using the
-   * purchasing-power table. Falls back to the list price when the country is
-   * unknown or the worldwide layer is switched off.
-   */
-  applyCountryPrices: function () {
-    var data = window.MAC_PRICING;
-    if (!data || !data.worldwide || !data.worldwide.enabled) return;
-    var entry = this.country && data.worldwide.countries[this.country];
-    if (!entry) return;
-
-    var self = this;
-
-    function usdText(amount) {
-      return '$' + new Intl.NumberFormat('en-US', {
-        minimumFractionDigits: Number.isInteger(amount) ? 0 : 2,
-        maximumFractionDigits: Number.isInteger(amount) ? 0 : 2
-      }).format(amount);
-    }
-
-    [['international', 'coding'], ['internationalMaths', 'maths'], ['internationalAgents', 'agents']]
-      .forEach(function (pair) {
-        var table = self.PRICES[pair[0]];
-        var prices = entry.tiers && entry.tiers[pair[1]];
-        if (!table || !prices) return;
-        Object.keys(prices).forEach(function (tier) {
-          if (!table[tier]) return;
-          var amount = prices[tier];
-          table[tier].amount = amount;
-          table[tier].display = usdText(amount);
-        });
-
-        // The camp fee lives under the "summer" alias in these tables and its
-        // country price sits under tiers.camps, so the loop above never
-        // reached it. That left the camp PAGES showing the $60 list price
-        // while checkout charged the country price — $54.99 in most of the
-        // world. Customer-favourable, but the page and the payment modal
-        // disagreed in front of the buyer.
-        var camp = entry.tiers && entry.tiers.camps && entry.tiers.camps.oneTime;
-        if (table.summer && camp !== null && camp !== undefined) {
-          table.summer.amount = camp;
-          table.summer.display = usdText(camp);
-        }
-      });
-  },
-
   isIndian: true, // default to India
 
   // ─── Synchronous Detection (runs on script parse, before DOMContentLoaded) ───
@@ -141,40 +92,24 @@ const InternationalPricing = {
   // generateCourseCard() see the correct region flag when they build cards
   // inside their own DOMContentLoaded listeners.
   detectRegion() {
-    var urlParams = new URLSearchParams(window.location.search);
-    var testMode = urlParams.get('test');
-
-    // An explicit country — from the switcher's cookie or a ?country= override —
-    // decides BOTH the country and the currency.
-    //
-    // These two used to be worked out independently, which let them disagree:
-    // a visitor who picked Nigeria in the switcher, on a machine reporting an
-    // Indian timezone, was priced as Nigerian but billed in rupees. One signal
-    // now settles both.
-    var explicit = this.explicitCountry();
-
-    if (explicit) {
-      this.country = explicit;
-      this.isIndian = (explicit === 'IN');
-    } else if (testMode === 'intl' || testMode === 'international') {
+    // FLAT MODEL (owner, 2026-08-01): the only question is India or not.
+    // The per-country layer, its cookie and its ?country= override were
+    // removed with the worldwide pricing feature.
+    var testMode = new URLSearchParams(window.location.search).get('test');
+    if (testMode === 'intl' || testMode === 'international') {
       this.isIndian = false;
-      this.country = null;                 // unknown country: list price
     } else if (testMode === 'india') {
       this.isIndian = true;
-      this.country = 'IN';
     } else {
+      // Deliberately India-biased: an Indian locale OR an Indian timezone is
+      // enough, because an Indian family browsing in en-US must still be
+      // billed in rupees.
       this.isIndian = this.detectIndia();
-      // detectIndia() is deliberately biased towards India — either an Indian
-      // locale OR an Indian timezone is enough — because an Indian family whose
-      // browser is set to en-US must still be billed in rupees. So when it says
-      // India, that answer wins over any weaker country guess.
-      this.country = this.isIndian ? 'IN' : this.detectCountry();
     }
 
     // Store globals for payment JS files and inline scripts to read
     window.__MAC_IS_INDIAN = this.isIndian;
     window.__MAC_CURRENCY = this.isIndian ? 'INR' : 'USD';
-    window.__MAC_COUNTRY = this.country;
   },
 
   // ─── Initialize (DOM-dependent: runs on DOMContentLoaded) ───
@@ -194,10 +129,8 @@ const InternationalPricing = {
     // Every price this module writes comes from the config. Without it, stand
     // down and leave the page exactly as the server sent it.
     if (!this.loadTables()) return;
-    this.applyCountryPrices();
 
-    console.log('[International Pricing] Detected:', this.isIndian ? 'INDIA (INR)' : 'INTERNATIONAL (USD)',
-      this.country ? '· country ' + this.country : '');
+    console.log('[International Pricing] Detected:', this.isIndian ? 'INDIA (INR)' : 'INTERNATIONAL (USD)');
 
     // Anchors first, and for every visitor: they are the precise mechanism,
     // and the text-scanning fallbacks below must not run over a value they
@@ -256,99 +189,6 @@ const InternationalPricing = {
            (!!b && b.getAttribute('data-price-tier') === 'agents');
   },
 
-  // ─── Country detection ───
-  //
-  // No network call, and no third-party IP lookup. Sending every visitor's IP
-  // to a geolocation service would hand their address to a company they have no
-  // relationship with, add a round trip before a price could be shown, and take
-  // pricing down whenever that service had a bad day.
-  //
-  // Signals, in order of trust:
-  //   1. ?country=XX          — for testing
-  //   2. nf_country cookie    — what the visitor chose in the switcher; also
-  //                             the name Netlify itself uses
-  //   3. navigator.languages  — the region subtag of en-GB, de-DE, ar-AE...
-  //   4. timezone             — a coarse map of the zones that matter here
-  //
-  // Undetected visitors get the list price, which is the safe default for the
-  // merchant, and the switcher lets a real visitor correct it.
-
-  // Only zones whose country is unambiguous and where we actually sell. A zone
-  // that is missing simply falls through to the list price.
-  TZ_COUNTRY: {
-    'Asia/Kolkata': 'IN', 'Asia/Calcutta': 'IN',
-    'Asia/Karachi': 'PK', 'Asia/Dhaka': 'BD', 'Asia/Kathmandu': 'NP', 'Asia/Colombo': 'LK',
-    'Asia/Dubai': 'AE', 'Asia/Muscat': 'OM', 'Asia/Riyadh': 'SA', 'Asia/Qatar': 'QA',
-    'Asia/Bahrain': 'BH', 'Asia/Kuwait': 'KW', 'Asia/Amman': 'JO', 'Asia/Beirut': 'LB',
-    'Asia/Jerusalem': 'IL', 'Asia/Tehran': 'IR', 'Asia/Baghdad': 'IQ',
-    'Asia/Singapore': 'SG', 'Asia/Kuala_Lumpur': 'MY', 'Asia/Jakarta': 'ID',
-    'Asia/Manila': 'PH', 'Asia/Bangkok': 'TH', 'Asia/Ho_Chi_Minh': 'VN', 'Asia/Saigon': 'VN',
-    'Asia/Hong_Kong': 'HK', 'Asia/Tokyo': 'JP', 'Asia/Seoul': 'KR', 'Asia/Shanghai': 'CN',
-    'Asia/Taipei': 'TW', 'Asia/Yangon': 'MM', 'Asia/Phnom_Penh': 'KH',
-    'Africa/Lagos': 'NG', 'Africa/Accra': 'GH', 'Africa/Nairobi': 'KE',
-    'Africa/Kampala': 'UG', 'Africa/Dar_es_Salaam': 'TZ', 'Africa/Addis_Ababa': 'ET',
-    'Africa/Cairo': 'EG', 'Africa/Johannesburg': 'ZA', 'Africa/Casablanca': 'MA',
-    'Africa/Algiers': 'DZ', 'Africa/Tunis': 'TN', 'Africa/Kigali': 'RW',
-    'Africa/Lusaka': 'ZM', 'Africa/Harare': 'ZW', 'Africa/Abidjan': 'CI', 'Africa/Dakar': 'SN',
-    'Europe/London': 'GB', 'Europe/Dublin': 'IE', 'Europe/Paris': 'FR', 'Europe/Berlin': 'DE',
-    'Europe/Madrid': 'ES', 'Europe/Rome': 'IT', 'Europe/Amsterdam': 'NL', 'Europe/Brussels': 'BE',
-    'Europe/Vienna': 'AT', 'Europe/Zurich': 'CH', 'Europe/Lisbon': 'PT', 'Europe/Athens': 'GR',
-    'Europe/Stockholm': 'SE', 'Europe/Oslo': 'NO', 'Europe/Copenhagen': 'DK',
-    'Europe/Helsinki': 'FI', 'Europe/Warsaw': 'PL', 'Europe/Prague': 'CZ',
-    'Europe/Budapest': 'HU', 'Europe/Bucharest': 'RO', 'Europe/Sofia': 'BG',
-    'Europe/Moscow': 'RU', 'Europe/Kiev': 'UA', 'Europe/Kyiv': 'UA', 'Europe/Istanbul': 'TR',
-    'America/New_York': 'US', 'America/Chicago': 'US', 'America/Denver': 'US',
-    'America/Los_Angeles': 'US', 'America/Phoenix': 'US', 'America/Anchorage': 'US',
-    'Pacific/Honolulu': 'US', 'America/Detroit': 'US',
-    'America/Toronto': 'CA', 'America/Vancouver': 'CA', 'America/Edmonton': 'CA',
-    'America/Winnipeg': 'CA', 'America/Halifax': 'CA',
-    'America/Mexico_City': 'MX', 'America/Bogota': 'CO', 'America/Lima': 'PE',
-    'America/Santiago': 'CL', 'America/Sao_Paulo': 'BR', 'America/Argentina/Buenos_Aires': 'AR',
-    'America/Caracas': 'VE', 'America/Panama': 'PA', 'America/Guatemala': 'GT',
-    'America/Jamaica': 'JM', 'America/Port_of_Spain': 'TT',
-    'Australia/Sydney': 'AU', 'Australia/Melbourne': 'AU', 'Australia/Brisbane': 'AU',
-    'Australia/Perth': 'AU', 'Australia/Adelaide': 'AU',
-    'Pacific/Auckland': 'NZ', 'Pacific/Fiji': 'FJ'
-  },
-
-  /**
-   * A country the visitor stated, rather than one we guessed: the ?country=
-   * override used for testing, or the nf_country cookie the switcher writes.
-   * Returns null when nothing was stated.
-   */
-  explicitCountry: function () {
-    var forced = new URLSearchParams(window.location.search).get('country');
-    if (forced && /^[A-Za-z]{2}$/.test(forced)) return forced.toUpperCase();
-
-    // Guarded because this runs at script parse, before anything else. Some
-    // privacy modes and embedded webviews make document.cookie THROW rather
-    // than return '' — and an unguarded read here took the whole pricing
-    // runtime down with it: prices never localised, the switcher never
-    // rendered, and a UK visitor was left on the rupee view.
-    try {
-      var m = document.cookie.match(/(?:^|;\s*)nf_country=([A-Za-z]{2})(?:;|$)/);
-      if (m) return m[1].toUpperCase();
-    } catch (e) { /* cookies unavailable: fall through to detection */ }
-
-    return null;
-  },
-
-  /** Best guess at the visitor's country when they have not stated one. */
-  detectCountry: function () {
-    var langs = navigator.languages || [navigator.language || ''];
-    for (var i = 0; i < langs.length; i++) {
-      var region = String(langs[i]).match(/[-_]([A-Za-z]{2})(?:$|[-_])/);
-      if (region) return region[1].toUpperCase();
-    }
-
-    try {
-      var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
-      if (this.TZ_COUNTRY[tz]) return this.TZ_COUNTRY[tz];
-    } catch (e) { /* no Intl support; fall through to list price */ }
-
-    return null;
-  },
-
   // ─── Detection ───
   detectIndia() {
     // Signal 1: Browser locale contains India country code or Indian language
@@ -389,38 +229,24 @@ const InternationalPricing = {
     var data = window.MAC_PRICING;
     if (!data) return;
     var self = this;
-    var country = this.country;
-    var entry = (!this.isIndian && country && data.worldwide && data.worldwide.enabled)
-      ? data.worldwide.countries[country] : null;
 
     document.querySelectorAll('[data-price]').forEach(function (el) {
       var parts = (el.getAttribute('data-price') || '').split('.');
       if (parts.length !== 3) return;
       var subject = parts[0], tier = parts[2];
 
-      var amount, currency;
-      if (self.isIndian) {
-        var indiaTable = (data.plans[subject] && data.plans[subject].india) || {};
-        amount = indiaTable[tier];
-        currency = 'INR';
-      } else {
-        var perCountry = entry && entry.tiers && entry.tiers[subject];
-        amount = perCountry ? perCountry[tier] : undefined;
-        if (amount === undefined || amount === null) {
-          var intlTable = (data.plans[subject] && data.plans[subject].international) || {};
-          amount = intlTable[tier];
-        }
-        currency = 'USD';
-      }
+      // The anchor names the PLAN; the region follows the visitor. A maths
+      // page anchored to maths.international.personal must still show rupees
+      // to an Indian family.
+      var region = self.isIndian ? 'india' : 'international';
+      var table = (data.plans[subject] && data.plans[subject][region]) || {};
+      var amount = table[tier];
+      var currency = self.isIndian ? 'INR' : 'USD';
 
       // Not sold in this region. Leave the markup untouched and let the
       // India-only hiding rules deal with the card.
       if (amount === null || amount === undefined) return;
 
-      // Derived figures — "₹187 per live class" — are recalculated from the
-      // monthly amount, exactly as the build does. Without this branch the
-      // runtime would overwrite a per-class figure with the full monthly
-      // price the moment it re-priced the anchor.
       var derive = el.getAttribute('data-price-derive');
       if (derive) {
         var perMonth = (data.display && data.display.classesPerMonth) || 8;
@@ -436,8 +262,6 @@ const InternationalPricing = {
         maximumFractionDigits: Number.isInteger(amount) ? 0 : 2
       }).format(amount);
 
-      // Preserve the split shape (<span class="price-currency">₹</span>1499)
-      // where a page uses it, so card layouts do not collapse.
       var cur = el.querySelector('.price-currency');
       if (cur) {
         cur.textContent = symbol;

@@ -8,12 +8,12 @@
   },
   "internationalPricing": {
     "group": {
-      "amount": 149.99,
-      "display": "$149.99/month"
+      "amount": 100,
+      "display": "$100/month"
     },
     "personal": {
-      "amount": 374.99,
-      "display": "$374.99/month"
+      "amount": 150,
+      "display": "$150/month"
     },
     "summer": {
       "amount": 60,
@@ -27,14 +27,14 @@
       "description": "Weekly two classes with up to 10 students"
     },
     "miniBatch": {
-      "amount": 2499,
-      "display": "₹2,499/month",
+      "amount": 2999,
+      "display": "₹2,999/month",
       "description": "Weekly two classes in a micro batch of 3-4 students",
       "indiaOnly": true
     },
     "personal": {
-      "amount": 4999,
-      "display": "₹4,999/month",
+      "amount": 7500,
+      "display": "₹7,500/month",
       "description": "Weekly two private 1-on-1 sessions"
     }
   },
@@ -47,13 +47,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -65,13 +65,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -79,17 +79,17 @@
       "name": "Codex + Claude Code for Teens",
       "pricing": {
         "group": {
-          "amount": 2499,
-          "display": "₹2,499/month"
+          "amount": 1499,
+          "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 4999,
-          "display": "₹4,999/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 9999,
-          "display": "₹9,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -97,17 +97,17 @@
       "name": "Codex + Claude Code Masterclass (Pro)",
       "pricing": {
         "group": {
-          "amount": 2499,
-          "display": "₹2,499/month"
+          "amount": 1499,
+          "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 4999,
-          "display": "₹4,999/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 9999,
-          "display": "₹9,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -119,13 +119,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -137,13 +137,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -173,13 +173,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -299,13 +299,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -317,13 +317,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -335,13 +335,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -353,13 +353,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -371,13 +371,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -389,13 +389,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -407,13 +407,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -425,13 +425,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -443,13 +443,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -461,13 +461,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -479,13 +479,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     },
@@ -497,13 +497,13 @@
           "display": "₹1,499/month"
         },
         "miniBatch": {
-          "amount": 2499,
-          "display": "₹2,499/month",
+          "amount": 2999,
+          "display": "₹2,999/month",
           "indiaOnly": true
         },
         "personal": {
-          "amount": 4999,
-          "display": "₹4,999/month"
+          "amount": 7500,
+          "display": "₹7,500/month"
         }
       }
     }

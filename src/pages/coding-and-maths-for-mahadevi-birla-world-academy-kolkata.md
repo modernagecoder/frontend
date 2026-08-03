@@ -196,7 +196,7 @@ No hidden fees. No lock-in contracts. Subscribe to exactly what your child needs
 
 Max 5-8 students. High interaction.
 
-₹1499/ month
+₹1,499/ month
 
 - ✓ 2 Live Classes Per Week
 - ✓ Session Recordings Included

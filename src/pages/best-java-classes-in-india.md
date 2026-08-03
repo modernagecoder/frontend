@@ -240,7 +240,7 @@ Yes. Java (with BlueJ) is the official language of ICSE Class 9–10 Computer Ap
 
 How much do Java classes cost in India?+
 
-Group Java classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,499 per month, and personalised 1-on-1 Java mentoring is ₹4,999 per month. A free demo class is available before you enrol.
+Group Java classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and personalised 1-on-1 Java mentoring is ₹7,500 per month. A free demo class is available before you enrol.
 
 Can adults and working professionals learn Java with you?+
 

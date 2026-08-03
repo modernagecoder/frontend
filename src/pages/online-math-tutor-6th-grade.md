@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
 
-[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  Maths Through Coding Learn math by building it in Python: fraction machines, turtle geometry and probability simulators. Ages 10-158 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/maths-through-coding)See what is includedThe 20-second answer
+[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  Maths Through Coding Learn math by building it in Python: fraction machines, turtle geometry and probability simulators. Ages 10-158 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/maths-through-coding)See what is includedThe 20-second answer
 
 A good online math tutor for a 6th grader does three things: **makes ratios and rates visual** with tables and tape diagrams before they become mechanical cross-multiplication; **builds negative numbers on the number line** so minus seven versus minus three never becomes a coin flip; and **turns variables into numbers-in-waiting** instead of mysterious letters. That is what we do: 8 live one-hour classes a month, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
@@ -365,7 +365,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the same
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your child by name
@@ -374,7 +374,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level
@@ -409,7 +409,7 @@ An honest comparison
 
 ## Your real options for a struggling 6th grader.
 
- $1$149.99–$374.99 / month$2
+ $1$100–$150 / month$2
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |

@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
 
-[![IB Mathematics AA and AI Masterclass course thumbnail](/images/ib-maths-aa-ai.webp)Best fit  IB Mathematics AA & AI Masterclass Your exact IB course taught to a 7: paper-specific technique, GDC fluency and honest IA coaching. AA & AI · SL & HL8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/ib-mathematics-aa-ai-masterclass)[![College Mathematics Masterclass course thumbnail](/images/college-level-maths.webp)  College Mathematics Masterclass Calculus, linear algebra and the mathematics behind engineering, computer science and data careers. College level8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/college-mathematics-complete-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
+[![IB Mathematics AA and AI Masterclass course thumbnail](/images/ib-maths-aa-ai.webp)Best fit  IB Mathematics AA & AI Masterclass Your exact IB course taught to a 7: paper-specific technique, GDC fluency and honest IA coaching. AA & AI · SL & HL8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ib-mathematics-aa-ai-masterclass)[![College Mathematics Masterclass course thumbnail](/images/college-level-maths.webp)  College Mathematics Masterclass Calculus, linear algebra and the mathematics behind engineering, computer science and data careers. College level8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/college-mathematics-complete-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
 
 Good IB maths tuition is **course-specific**: Analysis & Approaches and Applications & Interpretation are genuinely different subjects, each split into SL and HL, with different papers, calculator rules and emphasis. A tutor must teach *your* course, coach the Internal Assessment honestly (it is a fifth of the grade), and train paper technique on real past questions. That is what we do: 8 live one-hour classes a month, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
@@ -203,7 +203,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the same
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your teen by name
@@ -212,7 +212,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level
@@ -247,7 +247,7 @@ An honest comparison
 
 ## Your real options for an IB maths student.
 
- $1$149.99–$374.99 / month$2
+ $1$100–$150 / month$2
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |

@@ -183,7 +183,7 @@ Core Java (syntax, control flow, methods, arrays, strings), Object-Oriented Prog
 
 How much do Java classes for adults cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 learners is ₹2,499 per month, and personalised 1-on-1 mentoring is ₹4,999 per month. A free demo class is available before you enrol.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 learners is ₹2,999 per month, and personalised 1-on-1 mentoring is ₹7,500 per month. A free demo class is available before you enrol.
 
 Is the class live or self-paced video?+
 

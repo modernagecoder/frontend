@@ -184,7 +184,7 @@ Billed monthly in US dollars. The dirham's dollar peg means the AED figures hold
 
 Group classes
 
- $1$149.99$2
+ $1$100$2
 
 - Weekly live hour, 5 to 8 children
 - After-school and weekend GST slots
@@ -195,7 +195,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$374.99$2
+ $1$150$2
 
 - Your child and the teacher, alone
 - Slot built around family routine

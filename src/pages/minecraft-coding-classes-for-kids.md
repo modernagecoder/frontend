@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the placement pick for you.
 
-[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Best fit  Vibe Coding for Kids Blocks, game builds and AI tools for ages 8-12: the perfect Minecraft-kid on-ramp to real coding. Ages 8-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Game Development Masterclass for Kids course thumbnail](/images/game-dev-kids.webp)  Game Development Masterclass for Kids Design, scripting and shipping real playable games, for the child ready to build beyond one world. Ages 9-148 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/game-development-masterclass-for-kids)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The same Python your child meets in Minecraft, grown into apps, games and AI projects. Ages 9-138 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)See what is includedThe 20-second answer
+[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Best fit  Vibe Coding for Kids Blocks, game builds and AI tools for ages 8-12: the perfect Minecraft-kid on-ramp to real coding. Ages 8-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Game Development Masterclass for Kids course thumbnail](/images/game-dev-kids.webp)  Game Development Masterclass for Kids Design, scripting and shipping real playable games, for the child ready to build beyond one world. Ages 9-148 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/game-development-masterclass-for-kids)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The same Python your child meets in Minecraft, grown into apps, games and AI projects. Ages 9-138 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)See what is includedThe 20-second answer
 
 Good Minecraft coding classes use the game as a **doorway into real programming**: block-based MakeCode for the youngest, then genuine Python commanding the Minecraft world, loops that build towers, conditionals that trigger traps, functions that raise castles. Not gameplay coaching, not server drama: code. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first. Independent classes, not affiliated with Mojang or Microsoft.
 
@@ -205,7 +205,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the form
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your child by name
@@ -214,7 +214,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level
@@ -249,7 +249,7 @@ An honest comparison
 
 ## Your real options for a young Minecraft builder.
 
- $1$149.99–$374.99 / month$2
+ $1$100–$150 / month$2
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |

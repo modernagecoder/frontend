@@ -26,7 +26,9 @@ const CONFIG_PATH = path.join(REPO_ROOT, 'pricing', 'pricing.config.jsonc');
 const DATA_DIR = path.join(REPO_ROOT, 'pricing', 'data');
 
 const REGIONS = ['india', 'international'];
-const MONTHLY_TIERS = ['group', 'miniBatch', 'personal', 'lifetime'];
+// lifetime was retired 2026-07-31 and removed from the schema entirely on
+// 2026-08-01 with the worldwide layer.
+const MONTHLY_TIERS = ['group', 'miniBatch', 'personal'];
 const ALL_TIERS = MONTHLY_TIERS.concat(['oneTime']);
 
 /**

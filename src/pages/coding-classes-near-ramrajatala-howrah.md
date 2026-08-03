@@ -16,7 +16,7 @@ Live, never recordedBatches of 6–8From ₹1,499/monthZero commute, zero traffi
 
 ## The Ramrajatala programme, in one screen
 
-Format**Live online, real-time small-group classes** — never pre-recorded videoBatch size6–8 (group) · 3–4 (mini batch) · 1-on-1 availableAges**6 to 67** — school kids, teens, college students and working adultsSubjectsCoding (Python, Java, C++, AI/ML, web, Scratch) + Mathematics (all boards, Olympiad, college)BoardsWBBSE / WBCHSE, ICSE / ISC, CBSE — Bengali, Hindi and English-medium welcomeFeesFrom ₹1,499/month (group) · ₹2,499/month (mini batch) · ₹4,999/month (1-on-1)Free demoYes — a real live class, no obligation, no card neededServingRamrajatala, Santragachi, Mourigram, Andul, Sapuipara, Mandirtala, Shibpur edge, Sankrail, Dasnagar and the wider Andul Road / Kona Expressway corridorLive & premium
+Format**Live online, real-time small-group classes** — never pre-recorded videoBatch size6–8 (group) · 3–4 (mini batch) · 1-on-1 availableAges**6 to 67** — school kids, teens, college students and working adultsSubjectsCoding (Python, Java, C++, AI/ML, web, Scratch) + Mathematics (all boards, Olympiad, college)BoardsWBBSE / WBCHSE, ICSE / ISC, CBSE — Bengali, Hindi and English-medium welcomeFeesFrom ₹1,499/month (group) · ₹2,999/month (mini batch) · ₹7,500/month (1-on-1)Free demoYes — a real live class, no obligation, no card neededServingRamrajatala, Santragachi, Mourigram, Andul, Sapuipara, Mandirtala, Shibpur edge, Sankrail, Dasnagar and the wider Andul Road / Kona Expressway corridorLive & premium
 
 ## Premium quality, delivered live — not a recorded video library
 
@@ -207,7 +207,7 @@ STEP 03
 
 ### Pick a track and plan
 
-Choose a course from the [full catalogue](/courses) and a plan that fits — from ₹1,499/month group to ₹4,999/month 1-on-1 on our [pricing page](/pricing).
+Choose a course from the [full catalogue](/courses) and a plan that fits — from ₹1,499/month group to ₹7,500/month 1-on-1 on our [pricing page](/pricing).
 
 STEP 04
 

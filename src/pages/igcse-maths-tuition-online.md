@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
 
-[![IGCSE Mathematics Mastery course thumbnail](/images/igcse-maths.webp)Best fit  IGCSE Mathematics Mastery Cambridge and Edexcel taught syllabus-exact, with non-calculator fluency and mark-scheme craft built in. Core · Extended · 06068 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/igcse-mathematics-mastery)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
+[![IGCSE Mathematics Mastery course thumbnail](/images/igcse-maths.webp)Best fit  IGCSE Mathematics Mastery Cambridge and Edexcel taught syllabus-exact, with non-calculator fluency and mark-scheme craft built in. Core · Extended · 06068 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/igcse-mathematics-mastery)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
 
 Good IGCSE maths tuition is **syllabus-exact**: it knows whether your child sits Cambridge 0580/0980 or Edexcel International GCSE, whether they are entered for Core or Extended (the tier caps the possible grade), whether Additional Maths 0606 is in the picture, and which of their papers now ban the calculator. Then it teaches for understanding and trains past-paper technique on the real mark schemes. That is what we do: 8 live one-hour classes a month, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
@@ -204,7 +204,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the same
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your teen by name
@@ -213,7 +213,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level
@@ -248,7 +248,7 @@ An honest comparison
 
 ## Your real options for an IGCSE maths student.
 
- $1$149.99–$374.99 / month$2
+ $1$100–$150 / month$2
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |

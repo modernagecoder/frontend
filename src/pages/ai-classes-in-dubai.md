@@ -218,7 +218,7 @@ Billed in US dollars, monthly. The dirham is pegged to the dollar, which keeps t
 
 Group classes
 
- $1$149.99$2
+ $1$100$2
 
 - Weekly live class, 5 to 8 students
 - Evening and weekend GST timings
@@ -229,7 +229,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$374.99$2
+ $1$150$2
 
 - A teacher entirely to yourself
 - Timings shaped around your week

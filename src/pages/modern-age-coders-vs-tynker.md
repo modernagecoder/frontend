@@ -34,7 +34,7 @@ Tynker figures are its published plans as of July 2026 (tynker.com, myelearningw
 
 Scroll the table sideways to see every column →
 
- $1$149.99 a month group · $374.99 1-on-1$2 (8 live classes)
+ $1$100 a month group · $150 1-on-1$2 (8 live classes)
 
 | Dimension | Modern Age CodersLive school | Tynker |
 | --- | --- | --- |

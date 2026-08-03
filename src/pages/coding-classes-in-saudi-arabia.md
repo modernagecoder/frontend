@@ -223,7 +223,7 @@ Fees are billed monthly in US dollars. The riyal figures below shift a little wi
 
 Group classes
 
- $1$149.99$2
+ $1$100$2
 
 - Live classes in batches of 5 to 8
 - Evening and weekend AST slots
@@ -234,7 +234,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$374.99$2
+ $1$150$2
 
 - Private classes, one student, one teacher
 - Schedule built around your week

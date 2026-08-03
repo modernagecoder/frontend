@@ -12,7 +12,7 @@ Enroll now
 
 Every level runs on a structured course, adapted live to your child and your homeschool's pace. Open one to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the placement pick for you.
 
-[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Best fit  Python & AI for Kids Level 3 of the ladder: real Python with AI literacy, the heart of a serious homeschool CS block. Ages 9-138 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)  Scratch Programming Complete Level 1: the foundations, taught for ideas, from first sprite to shipped game, ages 6-9. Ages 6-98 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Level 2 energy: blocks, game builds and AI tools for the 8-12 bridge years. Ages 8-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)See what is includedThe 20-second answer
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Best fit  Python & AI for Kids Level 3 of the ladder: real Python with AI literacy, the heart of a serious homeschool CS block. Ages 9-138 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)  Scratch Programming Complete Level 1: the foundations, taught for ideas, from first sprite to shipped game, ages 6-9. Ages 6-98 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Level 2 energy: blocks, game builds and AI tools for the 8-12 bridge years. Ages 8-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)See what is includedThe 20-second answer
 
 A good homeschool coding curriculum gives you three things most curricula cannot: **a live teacher** (so you never have to learn Python a chapter ahead of your child), **a real sequence** (Scratch to Python to AI, each level building on the last), and **records you can file**, curriculum maps, progress notes and a project portfolio for your homeschool documentation. That is what we do: 8 live one-hour classes a month with a dedicated mentor, daytime or afternoon slots, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
@@ -145,7 +145,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the form
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your child by name
@@ -154,7 +154,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level
@@ -189,7 +189,7 @@ An honest comparison
 
 ## Your real homeschool CS options, compared honestly.
 
- $1$149.99–$374.99 / month$2
+ $1$100–$150 / month$2
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |

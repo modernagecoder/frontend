@@ -162,7 +162,7 @@ Charged monthly in US dollars, which the riyal tracks exactly thanks to its peg.
 
 Group classes
 
- $1$149.99$2
+ $1$100$2
 
 - Your child among five to eight peers
 - One fixed weekly hour after school
@@ -173,7 +173,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$374.99$2
+ $1$150$2
 
 - A private teacher, full attention
 - Timing chosen around your family

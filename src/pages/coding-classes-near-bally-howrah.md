@@ -16,7 +16,7 @@ Modern Age Coders runs premium, 100% live online coding and mathematics classes 
 
 ## At a glance
 
-Format**100% live online**, real-time with a teacher — not pre-recorded videoBatch sizeGroup of 6-8, mini batch of 3-4, or fully 1-on-1Ages**6 to 67** — kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, DSA, web) and Mathematics (Grade 1 to college + Olympiad)BoardsICSE (Java/BlueJ), CBSE (Python), ISC and WBBSE — all supportedFeesFrom ₹1,499/month group, ₹2,499/month mini batch, ₹4,999/month 1-on-1Free demoYes — one free, no-commitment live demo class before you decideServingBally, Belur, Belur Math, Bally Halt, Liluah, Nischinda, Dewangazi, Bally Ghoshpara and the wider GT Road beltLIVE ONLINE · PREMIUM QUALITY
+Format**100% live online**, real-time with a teacher — not pre-recorded videoBatch sizeGroup of 6-8, mini batch of 3-4, or fully 1-on-1Ages**6 to 67** — kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, DSA, web) and Mathematics (Grade 1 to college + Olympiad)BoardsICSE (Java/BlueJ), CBSE (Python), ISC and WBBSE — all supportedFeesFrom ₹1,499/month group, ₹2,999/month mini batch, ₹7,500/month 1-on-1Free demoYes — one free, no-commitment live demo class before you decideServingBally, Belur, Belur Math, Bally Halt, Liluah, Nischinda, Dewangazi, Bally Ghoshpara and the wider GT Road beltLIVE ONLINE · PREMIUM QUALITY
 
 ## Live online, premium teaching — for a Bally household
 

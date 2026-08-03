@@ -221,7 +221,7 @@ Premium quality education at honest prices. No hidden fees. Free demo class befo
 
 ### Group Classes
 
-₹1499/month
+₹1,499/month
 
 - ✓ 2 Live Classes per Week
 - ✓ Small Batch Size (5-8 Students)
@@ -295,7 +295,7 @@ Most Popular👥
 
 Girls-only batches available
 
-₹1499/month
+₹1,499/month
 
 - ✓ 5-8 Students per Batch
 - ✓ 2 Live Classes per Week
@@ -385,7 +385,7 @@ Today, only 28% of the global STEM workforce is female — and that percentage i
 
 +
 
-Group classes start at just ₹1499 per month, which includes 2 live interactive sessions per week, small batch sizes of 5-8 students, recorded session access, and doubt-clearing support. Mini Batch (3-4 students) is ₹2499 per month. For personalised 1-on-1 classes with customised curriculum and scheduling, the cost is ₹4999 per month. We offer a free demo class before any commitment so you and your daughter can experience our teaching approach firsthand.
+Group classes start at just ₹1499 per month, which includes 2 live interactive sessions per week, small batch sizes of 5-8 students, recorded session access, and doubt-clearing support. Mini Batch (3-4 students) is ₹2,999 per month. For personalised 1-on-1 classes with customised curriculum and scheduling, the cost is ₹7,500 per month. We offer a free demo class before any commitment so you and your daughter can experience our teaching approach firsthand.
 
 ## Explore More
 

@@ -12,7 +12,7 @@ Enroll now
 
 Each camp track runs on a structured course, adapted live to your child. Open one to see the syllabus and enroll in minutes, or start with the **free demo class** and let the placement pick for you.
 
-[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Most popular  Vibe Coding for Kids The summer crowd-pleaser: blocks, game builds and AI tools in one joyful arc, ages 8-12. Ages 8-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)  Scratch Programming Complete First Games track for ages 6-9: real ideas in friendly blocks, from first sprite to shipped game. Ages 6-98 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids Python Start and AI Explorers tracks: real text code and honest AI, for ages 10-14. Ages 10-148 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)See what is includedThe 20-second answer
+[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Most popular  Vibe Coding for Kids The summer crowd-pleaser: blocks, game builds and AI tools in one joyful arc, ages 8-12. Ages 8-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)  Scratch Programming Complete First Games track for ages 6-9: real ideas in friendly blocks, from first sprite to shipped game. Ages 6-98 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids Python Start and AI Explorers tracks: real text code and honest AI, for ages 10-14. Ages 10-148 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)See what is includedThe 20-second answer
 
 A good online coding camp gives your child **real live teaching** (not videos with a camp logo), **a project they ship** by summer's end, and **scheduling that survives family vacations**. That is ours: 8 live one-hour classes a month with a dedicated mentor, tracks by age from Scratch to Python and AI, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first, and the option to simply keep going in September, because the mentor does not disappear when the campfire goes out.
 
@@ -180,7 +180,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, while US
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your child by name
@@ -189,7 +189,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level
@@ -224,7 +224,7 @@ An honest comparison
 
 ## Your real summer options, compared honestly.
 
- $1$149.99–$374.99 / month$2
+ $1$100–$150 / month$2
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |

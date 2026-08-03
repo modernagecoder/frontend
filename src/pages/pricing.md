@@ -37,7 +37,7 @@ Up to 10 students · learn with peers
 
 3-4 students · near 1-on-1 attention
 
-₹2499/month
+₹2999/month
 
 - **Micro batch of just 3-4 students**
 - 2 classes per week (1 hour each)
@@ -53,7 +53,7 @@ Up to 10 students · learn with peers
 
 Private mentor · your pace, your goals
 
-₹4999/month
+₹7500/month
 
 - **2 private sessions per week**
 - 100% personalized curriculum
@@ -69,7 +69,7 @@ Private mentor · your pace, your goals
 
 Every plan is **2 live classes a week, 8 a month**. Live teaching, not recordings.
 
-Group ₹1,499 ≈ **₹187 per live class**Mini Batch ₹2,499 ≈ **₹312 per live class**1-on-1 ₹4,999 ≈ **₹625 per live class**
+Group ₹1,499 ≈ **₹187 per live class**Mini Batch ₹2,999 ≈ **₹375 per live class**1-on-1 ₹7,500 ≈ **₹938 per live class**
 
 ### Group Classes
 
@@ -90,7 +90,7 @@ Up to 10 students · 1-hour live classes · 2 a week (8 a month)
 
 3-4 students · near 1-on-1 attention
 
-₹2499/month
+₹2999/month
 
 - **Micro batch of just 3-4 students**
 - 2 classes per week
@@ -106,7 +106,7 @@ Up to 10 students · 1-hour live classes · 2 a week (8 a month)
 
 Private tutor · 1-hour sessions · 2 a week (8 a month) · your pace
 
-₹4999/month
+₹7500/month
 
 - **2 private sessions per week**
 - Customized to your syllabus
@@ -122,7 +122,7 @@ Private tutor · 1-hour sessions · 2 a week (8 a month) · your pace
 
 Every plan is **2 live classes a week, 8 a month**. Live teaching, not recordings.
 
-Group ₹1,499 ≈ **₹187 per live class**Mini Batch ₹2,499 ≈ **₹312 per live class**1-on-1 ₹4,999 ≈ **₹625 per live class**
+Group ₹1,499 ≈ **₹187 per live class**Mini Batch ₹2,999 ≈ **₹375 per live class**1-on-1 ₹8,500 ≈ **₹1,063 per live class**
 
 Need something specific? We create custom training programs for individuals, schools, and companies. Tell us your goals, and we'll design a plan that fits.
 
@@ -161,14 +161,14 @@ Custom Quote
 
 For students outside India — coding courses at a single transparent price in USD. Mathematics is priced separately — see the **Mathematics** tab above.
 
-Group Classes$149.99USD / month
+Group Classes$100USD / month
 
 - 2 classes per week (1 hr each)
 - Batch of up to 10 students
 - Recorded sessions access
 - Course completion certificate
 
-[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm interested in Group Classes. I'm an international student and would like to know the price for my country and payment options.)RecommendedPersonalized 1-on-1$374.99USD / month
+[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm interested in Group Classes. I'm an international student and would like to know the price for my country and payment options.)RecommendedPersonalized 1-on-1$150USD / month
 
 - 2 private sessions per week
 - 100% personalized curriculum
@@ -178,7 +178,7 @@ Group Classes$149.99USD / month
 
 [Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm interested in Personalized 1-on-1 Classes. I'm an international student and would like to know the price for my country and payment options.)
 
-**Mathematics (international):** Group **$149.99** · Personalized 1-on-1 **$374.99** / month — 1-hour live classes, 2 per week (8 a month).
+**Mathematics (international):** Group **$100** · Personalized 1-on-1 **$150** / month — 1-hour live classes, 2 per week (8 a month).
 
 Also available in EUR, GBP, CAD, AUD, SGD & AED.
  Contact [+91 9123366161](tel:+919123366161) (Shivam Sir) for payment details.
@@ -230,7 +230,7 @@ Group classes work great when you enjoy learning with others and can keep up wit
 
 ### Choose Personalized 1-on-1
 
-₹4,999/month
+₹7,500/month
 
 Personalized classes are ideal when you need individual attention or have specific learning needs.
 

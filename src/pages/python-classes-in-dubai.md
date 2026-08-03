@@ -195,7 +195,7 @@ Fees are billed in US dollars. Because the dirham is pegged to the dollar, the A
 
 Group classes
 
- $1$149.99$2
+ $1$100$2
 
 - Live weekly class, batch of 5 to 8
 - GST evening and weekend slots
@@ -206,7 +206,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$374.99$2
+ $1$150$2
 
 - Private class, undivided teacher
 - Slot chosen around your week

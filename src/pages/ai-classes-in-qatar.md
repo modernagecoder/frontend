@@ -161,7 +161,7 @@ Every AI course on this page bills the same two ways, monthly and in dollars, wi
 
 Group classes
 
- $1$149.99$2
+ $1$100$2
 
 - Batches of five to eight students
 - Fixed weekly hour, AST evenings
@@ -172,7 +172,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$374.99$2
+ $1$150$2
 
 - Undivided teacher, every session
 - Hours arranged around your diary

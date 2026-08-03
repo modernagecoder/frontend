@@ -277,14 +277,9 @@ const CoursePayment = {
       var subject = (ip && ip.isAgentsContext && ip.isAgentsContext()) ? 'agents'
         : (ip && ip.isMathsContext && ip.isMathsContext()) ? 'maths' : 'coding';
 
-      // The visitor's own country price, where one is known.
-      var country = window.__MAC_COUNTRY;
-      var entry = country && data.worldwide && data.worldwide.enabled
-        ? data.worldwide.countries[country] : null;
-      var amount = entry && entry.tiers && entry.tiers[subject]
-        ? entry.tiers[subject][planType]
-        : (data.plans[subject] && data.plans[subject].international
-            ? data.plans[subject].international[planType] : null);
+      // Flat model: one USD price list for everyone outside India.
+      var amount = (data.plans[subject] && data.plans[subject].international)
+        ? data.plans[subject].international[planType] : null;
 
       if (amount === null || amount === undefined) return null;   // not sold
       p = {

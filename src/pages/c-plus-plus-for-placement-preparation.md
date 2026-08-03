@@ -183,7 +183,7 @@ Yes. The course includes mock technical interviews where a mentor plays the inte
 
 How much does C++ placement preparation cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,499 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹7,500 per month. A free demo class is available first.
 
 When should I start placement preparation?+
 

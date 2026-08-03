@@ -36,7 +36,7 @@ Scroll the table sideways to see every column →
 
 | Dimension | Modern Age CodersMaths + coding | Cuemath |
 | --- | --- | --- |
-| 1-on-1 maths, monthly | **$374.99** (8 live 60-minute classes) | $200 (K-7) to $256 (grades 8-12) at regular pricing |
+| 1-on-1 maths, monthly | **$150** (8 live 60-minute classes) | $200 (K-7) to $256 (grades 8-12) at regular pricing |
 | Small-group option | **Yes, $100 a month** | Primarily positioned as 1-on-1 |
 | Classes per week | **2 x 60 minutes** | 2 x 60 minutes |
 | Coding taught | **Yes, full coding school alongside maths** | Maths-focused; not a coding-first provider |

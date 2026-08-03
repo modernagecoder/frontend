@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the placement pick for you.
 
-[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)Best fit  Elementary Mathematics Masterclass The grades 1-5 road with second grade's regrouping and the grade-3 runway taught properly inside it. Grades 1-58 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids The fluency engine second grade demands: facts within 20 from memory, built through games. Ages 5-108 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)[![Early Math Foundations course thumbnail](/images/early-math-k2.webp)  Early Math Foundations (K-2) For the second grader whose gaps trace back further: the K-2 foundation, rebuilt kindly. Ages 4-78 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/early-math-foundations)See what is includedThe 20-second answer
+[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)Best fit  Elementary Mathematics Masterclass The grades 1-5 road with second grade's regrouping and the grade-3 runway taught properly inside it. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids The fluency engine second grade demands: facts within 20 from memory, built through games. Ages 5-108 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)[![Early Math Foundations course thumbnail](/images/early-math-k2.webp)  Early Math Foundations (K-2) For the second grader whose gaps trace back further: the K-2 foundation, rebuilt kindly. Ages 4-78 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/early-math-foundations)See what is includedThe 20-second answer
 
 Good 2nd grade math tutoring does three things: **teaches regrouping as unbundling real tens** (not a borrowing ritual), **finishes fact fluency within 20** so bigger arithmetic has fuel, and **builds the grade-3 runway**, skip counting and arrays that make multiplication feel inevitable instead of alien. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
@@ -155,7 +155,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the same
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your child by name
@@ -164,7 +164,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level
@@ -199,7 +199,7 @@ An honest comparison
 
 ## Your real options for a 2nd grade student.
 
- $1$149.99–$374.99 / month$2
+ $1$100–$150 / month$2
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |

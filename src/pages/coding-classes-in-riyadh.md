@@ -219,7 +219,7 @@ Billing is monthly and in US dollars. The riyal equivalents drift a little as th
 
 Group classes
 
- $1$149.99$2
+ $1$100$2
 
 - A live teacher and at most seven classmates
 - Evening and weekend timings in AST
@@ -230,7 +230,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$374.99$2
+ $1$150$2
 
 - The whole hour belongs to one student
 - Timings arranged around your family's week

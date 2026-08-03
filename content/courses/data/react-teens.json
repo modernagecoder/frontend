@@ -25,8 +25,8 @@
     "taxonomy": "web-dev",
     "price": {
       "group": "₹1,499/month",
-      "miniBatch": "₹2,499/month",
-      "personal": "₹4,999/month"
+      "miniBatch": "₹2,999/month",
+      "personal": "₹7,500/month"
     },
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Professional React Developer",
@@ -1265,7 +1265,7 @@
     },
     {
       "question": "How much does it cost?",
-      "answer": "Group classes are ₹1,499 per month with 2 classes weekly, a mini batch is ₹2,499 per month, and private 1-on-1 is ₹4,999 per month. Outside India, prices are set for each country and shown on this page in the local currency."
+      "answer": "Group classes are ₹1,499 per month with 2 classes weekly, a mini batch is ₹2,999 per month, and private 1-on-1 is ₹7,500 per month. Outside India, prices are set for each country and shown on this page in the local currency."
     },
     {
       "question": "Can we try a class for free?",

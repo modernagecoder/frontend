@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your senior's actual course and calendar. Open one to see the syllabus and enroll in minutes, or start with the **free demo class**.
 
-[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery Whatever the senior course is, precalc, calc, stats, taught for the grade now and the readiness after. Grades 9-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![AP Calculus Exam Prep course thumbnail](/images/ap-calculus-prep.webp)  AP Calculus AB & BC Exam Prep For seniors in AP Calc: the rubric-and-mock machine, aimed at May and the college credit behind it. AP AB & BC8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/ap-calculus-exam-prep)[![College Mathematics Masterclass course thumbnail](/images/college-level-maths.webp)  College Mathematics Masterclass The bridge across the summer: calculus and linear algebra met early, so freshman year starts ahead. College level8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/college-mathematics-complete-masterclass)See what is includedThe 20-second answer
+[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery Whatever the senior course is, precalc, calc, stats, taught for the grade now and the readiness after. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![AP Calculus Exam Prep course thumbnail](/images/ap-calculus-prep.webp)  AP Calculus AB & BC Exam Prep For seniors in AP Calc: the rubric-and-mock machine, aimed at May and the college credit behind it. AP AB & BC8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ap-calculus-exam-prep)[![College Mathematics Masterclass course thumbnail](/images/college-level-maths.webp)  College Mathematics Masterclass The bridge across the summer: calculus and linear algebra met early, so freshman year starts ahead. College level8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/college-mathematics-complete-masterclass)See what is includedThe 20-second answer
 
 Good 12th grade math tutoring plays both halves of the year honestly: **fall protects the transcript**, because colleges read mid-year reports and can revisit offers after a collapsed spring, and **the whole year builds what college will actually test**: placement exams, freshman calculus, and the quantitative footing every major now assumes. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
@@ -154,7 +154,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the same
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your senior by name
@@ -163,7 +163,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level
@@ -198,7 +198,7 @@ An honest comparison
 
 ## Your real options for a 12th grade student.
 
- $1$149.99–$374.99 / month$2
+ $1$100–$150 / month$2
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |

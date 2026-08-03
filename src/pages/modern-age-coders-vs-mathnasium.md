@@ -36,7 +36,7 @@ Scroll the table sideways to see every column →
 
 | Dimension | Modern Age CodersLive online | Mathnasium |
 | --- | --- | --- |
-| Typical monthly price | **$149.99 group · $374.99 true 1-on-1** (maths) | $300 to $450 typical; up to $500 in high-cost metros |
+| Typical monthly price | **$100 group · $150 true 1-on-1** (maths) | $300 to $450 typical; up to $500 in high-cost metros |
 | What a class costs | **$12.50 to $18.75 per 60-minute live class** (8 classes a month) | Depends on visit frequency; membership is monthly, sessions are center hours |
 | Enrollment or registration fee | **None** | Parents report $99 to $200 one-time enrollment and assessment fees |
 | Format | **Live online, 1-on-1 or small group, from home** | In-center learning floor; instructors rotate between several students |
@@ -70,7 +70,7 @@ No provider is best for every family. Here is the fair version of the trade-off.
 
 ### Do the per-class maths
 
-MAC 1-on-1 maths: $150 ÷ 8 classes = **$18.75 per hour of dedicated teaching**MAC group maths: $149.99 ÷ 8 = **$18.75 per live class**US private tutors: **$25 to $80 per hour**Mathnasium: **$300 to $450 per month** membership
+MAC 1-on-1 maths: $150 ÷ 8 classes = **$18.75 per hour of dedicated teaching**MAC group maths: $100 ÷ 8 = **$12.50 per live class**US private tutors: **$25 to $80 per hour**Mathnasium: **$300 to $450 per month** membership
 
 Private-tutor and Mathnasium figures: typical published US rates as of July 2026 (tutors.com, brighterly.com). A dedicated live teacher for $18.75 an hour is the quiet headline here.
 

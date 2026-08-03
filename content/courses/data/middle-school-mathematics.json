@@ -25,8 +25,8 @@
     "taxonomy": "mathematics",
     "price": {
       "group": "₹1,499/month",
-      "miniBatch": "₹2,499/month",
-      "personal": "₹4,999/month"
+      "miniBatch": "₹2,999/month",
+      "personal": "₹8,500/month"
     },
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Advanced Middle School Level",
@@ -1134,7 +1134,7 @@
     },
     {
       "question": "How much does it cost?",
-      "answer": "₹1,499 per month for group classes with 2 classes each week, ₹2,499 per month for a mini batch, and ₹4,999 per month for personal 1-on-1 classes. International families join the premium maths track at a price set for their own country."
+      "answer": "₹1,499 per month for group classes with 2 classes each week, ₹2,999 per month for a mini batch, and ₹8,500 per month for personal 1-on-1 classes. International families join the premium maths track at a price set for their own country."
     },
     {
       "question": "Can my child attend a class before we decide?",

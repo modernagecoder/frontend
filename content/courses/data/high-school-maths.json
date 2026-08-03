@@ -25,8 +25,8 @@
     "taxonomy": "mathematics",
     "price": {
       "group": "₹1,499/month",
-      "miniBatch": "₹2,499/month",
-      "personal": "₹4,999/month"
+      "miniBatch": "₹2,999/month",
+      "personal": "₹8,500/month"
     },
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Advanced High School",
@@ -1115,7 +1115,7 @@
     },
     {
       "question": "What are the fees?",
-      "answer": "Group classes cost ₹1,499 per month and include 2 live classes per week; a smaller mini batch is ₹2,499 per month; and private 1-on-1 tutoring is ₹4,999 per month. For students outside India, international students pay a price set for their own country, shown on this page in their local currency."
+      "answer": "Group classes cost ₹1,499 per month and include 2 live classes per week; a smaller mini batch is ₹2,999 per month; and private 1-on-1 tutoring is ₹8,500 per month. For students outside India, international students pay a price set for their own country, shown on this page in their local currency."
     },
     {
       "question": "Is there a free trial?",

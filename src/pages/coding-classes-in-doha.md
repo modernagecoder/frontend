@@ -220,7 +220,7 @@ Billing is monthly, in US dollars. The riyal's dollar peg keeps the QAR figures 
 
 Group classes
 
- $1$149.99$2
+ $1$100$2
 
 - Five to eight students per teacher
 - A fixed weekly evening hour, AST
@@ -231,7 +231,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$374.99$2
+ $1$150$2
 
 - Sixty minutes, one student, one teacher
 - Days and times arranged around you

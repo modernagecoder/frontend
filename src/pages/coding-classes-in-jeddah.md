@@ -223,7 +223,7 @@ Fees are charged monthly in US dollars, and the riyal equivalents below are clos
 
 Group classes
 
- $1$149.99$2
+ $1$100$2
 
 - Live weekly lessons, five to eight students
 - AST evening and weekend timings
@@ -234,7 +234,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$374.99$2
+ $1$150$2
 
 - A private teacher for the full hour
 - Scheduling shaped around your household

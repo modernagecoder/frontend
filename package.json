@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Frontend for Modern Age Coders",
   "scripts": {
-    "pricing:refresh": "node scripts/pricing/refresh.js",
     "pricing:check": "node scripts/pricing/check.js",
     "pricing:preview": "node scripts/pricing/apply.js --dry-run",
     "pricing:apply": "node scripts/pricing/apply.js",

@@ -62,9 +62,7 @@ function digits(s) {
 
 const PRICING_SCRIPTS = [
     '/js/pricing-data.generated.js',
-    '/js/international-pricing.js',
-    '/js/local-currency.js',
-    '/js/country-switcher.js'
+    '/js/international-pricing.js'
 ];
 
 let pagesWithPrices = 0;
@@ -104,7 +102,9 @@ function checkScripts(rel, html) {
     }
 }
 
-const RETIRED = /(?:\$|USD\s?)(?:40|100|150)(?![\d.])/;
+// $100/$150 are CURRENT again (flat model, 2026-08-01). Retired now means the
+// old $40 flat rate and the withdrawn per-country list figures.
+const RETIRED = /(?:\$|USD\s?)(?:40(?![\d.])|149\.99|374\.99|121\.99|61\.99)|(?:₹|&#8377;|Rs\.?\s?)\s?(?<![\d,])(?:2,?499|4,?999|9,?999)(?![\d.])/;
 const COMPETITOR_CUE = /kumon|mathnasium|juni|cuemath|outschool|tynker|whitehat|byju|registration fee|per subject|per hour|per class|\$\d+\s*(?:-|–|to)\s*\$?\d+|million|billion|freelance|salary|LPA|k USD/i;
 
 /**
@@ -175,7 +175,9 @@ function checkFile(rel, config) {
 
         const shownDigits = digits(shown);
         const expectDigits = String(expectAmount);
-        if (shownDigits !== expectDigits) {
+        // Numeric comparison: a derived $12.50 must equal the computed 12.5 —
+        // string equality failed on trailing-zero formatting alone.
+        if (Number(shownDigits) !== Number(expectDigits)) {
             fail(rel, 'shows "' + shown.trim().slice(0, 60) + '" for ' + key +
                 ' but the config says ' + expectDigits + '. Run: npm run pricing:apply');
         }

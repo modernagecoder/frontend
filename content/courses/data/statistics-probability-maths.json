@@ -18,8 +18,8 @@
     "taxonomy": "mathematics",
     "price": {
       "group": "₹1,499/month",
-      "miniBatch": "₹2,499/month",
-      "personal": "₹4,999/month"
+      "miniBatch": "₹2,999/month",
+      "personal": "₹8,500/month"
     },
     "duration": "6 months (24 weeks)",
     "level": "College students and working professionals; no programming required",
@@ -560,7 +560,7 @@
     },
     {
       "question": "What does the course cost, and can I try it first?",
-      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency. The first demo class is free: book at learn.modernagecoders.com/contact or on WhatsApp at +91 91233 66161."
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,999 per month, and personal 1-on-1 classes are ₹8,500 per month. International students pay a price set for their own country, shown on this page in their local currency. The first demo class is free: book at learn.modernagecoders.com/contact or on WhatsApp at +91 91233 66161."
     }
   ]
 }

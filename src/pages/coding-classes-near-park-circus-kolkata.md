@@ -16,7 +16,7 @@ Live, not recorded6-8 per batchEngineers & maths graduatesFree demo, no card6-8S
 
 ## The facts, in one screen
 
-Format**100% live online**, small-group; taught in real time, never pre-recordedBatch size6-8 (group), 3-4 (mini batch), or 1-on-1Ages**6 to 67** — kids, teens, college and working adultsSubjectsCoding (Scratch, Python, Java, C++, web, AI/ML, DSA) + Mathematics (Grade 1-12 + Olympiad)BoardsISC/ICSE, CBSE and WBBSE — board-aligned Computer Science & Computer ApplicationsFeesfrom ₹1,499/month (group), ₹2,499/month (mini batch 3-4), ₹4,999/month (1-on-1)Free demoYes — one full live class, no card, no commitmentServingPark Circus, Beck Bagan, Karaya, Darga Road, Convent Road, Entally, Tiljala, Topsia, Beniapukur, Mullick Bazar, Theatre Road & the Sealdah borderLive online, premium quality
+Format**100% live online**, small-group; taught in real time, never pre-recordedBatch size6-8 (group), 3-4 (mini batch), or 1-on-1Ages**6 to 67** — kids, teens, college and working adultsSubjectsCoding (Scratch, Python, Java, C++, web, AI/ML, DSA) + Mathematics (Grade 1-12 + Olympiad)BoardsISC/ICSE, CBSE and WBBSE — board-aligned Computer Science & Computer ApplicationsFeesfrom ₹1,499/month (group), ₹2,999/month (mini batch 3-4), ₹7,500/month (1-on-1)Free demoYes — one full live class, no card, no commitmentServingPark Circus, Beck Bagan, Karaya, Darga Road, Convent Road, Entally, Tiljala, Topsia, Beniapukur, Mullick Bazar, Theatre Road & the Sealdah borderLive online, premium quality
 
 ## Board-grade coding, taught live — without leaving Darga Road
 

@@ -170,7 +170,7 @@ Fees are billed monthly in US dollars, and the dirham's peg to the dollar keeps 
 
 Group classes
 
- $1$149.99$2
+ $1$100$2
 
 - Weekly live class, 5 to 8 children
 - After-school GST and weekend slots
@@ -181,7 +181,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$374.99$2
+ $1$150$2
 
 - One child, one teacher, full hour
 - Slot arranged around your family

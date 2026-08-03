@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
 
-[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![Algebra Foundations Masterclass course thumbnail](/images/algebra-foundations.webp)  Algebra Foundations Masterclass Pre-Algebra and Algebra 1 taught as a language, the most consequential stretch in school math. Grades 7-98 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/algebra-foundations-masterclass)See what is includedThe 20-second answer
+[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![Algebra Foundations Masterclass course thumbnail](/images/algebra-foundations.webp)  Algebra Foundations Masterclass Pre-Algebra and Algebra 1 taught as a language, the most consequential stretch in school math. Grades 7-98 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/algebra-foundations-masterclass)See what is includedThe 20-second answer
 
 A good online math tutor for an 8th grader does three things: **builds slope as a rate the child can see**, growing straight out of grade 7 proportionality; **makes functions concrete**, a machine with inputs and outputs, before the notation abstracts them; and **gets equation-solving industrial-strength**, variables on both sides, no fear. That is what we do: 8 live one-hour classes a month, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
@@ -362,7 +362,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the same
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your child by name
@@ -371,7 +371,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level
@@ -406,7 +406,7 @@ An honest comparison
 
 ## Your real options for a struggling 8th grader.
 
- $1$149.99–$374.99 / month$2
+ $1$100–$150 / month$2
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |

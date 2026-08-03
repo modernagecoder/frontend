@@ -25,8 +25,8 @@
     "taxonomy": "productivity",
     "price": {
       "group": "₹1,499/month",
-      "miniBatch": "₹2,499/month",
-      "personal": "₹4,999/month"
+      "miniBatch": "₹2,999/month",
+      "personal": "₹7,500/month"
     },
     "duration": "6 months (26 weeks)",
     "level": "Complete Beginner to Advanced User",
@@ -1412,7 +1412,7 @@
     },
     {
       "question": "What is the fee structure?",
-      "answer": "Group batches cost ₹1,499 per month and include 2 classes each week with at most 10 children. A mini batch of 3-4 students is ₹2,499 per month, while personal 1-on-1 coaching with 2 private classes weekly is ₹4,999 per month. Families outside India pay a price set for their own country, shown on this page in their local currency."
+      "answer": "Group batches cost ₹1,499 per month and include 2 classes each week with at most 10 children. A mini batch of 3-4 students is ₹2,999 per month, while personal 1-on-1 coaching with 2 private classes weekly is ₹7,500 per month. Families outside India pay a price set for their own country, shown on this page in their local currency."
     },
     {
       "question": "Can my child attend a trial class first?",

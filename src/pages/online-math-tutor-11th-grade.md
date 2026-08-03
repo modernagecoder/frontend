@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your teen and their test dates. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic build the plan.
 
-[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery The course-and-tests-as-one-skill approach this page describes, run by a dedicated mentor. Grades 9-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![SAT Math 800 Prep course thumbnail](/images/sat-math-prep.webp)  SAT Math 800 Prep Course The junior-year test machine: Desmos strategy, adaptive pacing and full mock cycles. Grades 10-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/sat-math-prep-course)[![AP Calculus Exam Prep course thumbnail](/images/ap-calculus-prep.webp)  AP Calculus AB & BC Exam Prep For juniors already in calculus: the FRQ-rubric track with a score-5 goal. AP AB & BC8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/ap-calculus-exam-prep)See what is includedThe 20-second answer
+[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery The course-and-tests-as-one-skill approach this page describes, run by a dedicated mentor. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![SAT Math 800 Prep course thumbnail](/images/sat-math-prep.webp)  SAT Math 800 Prep Course The junior-year test machine: Desmos strategy, adaptive pacing and full mock cycles. Grades 10-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/sat-math-prep-course)[![AP Calculus Exam Prep course thumbnail](/images/ap-calculus-prep.webp)  AP Calculus AB & BC Exam Prep For juniors already in calculus: the FRQ-rubric track with a score-5 goal. AP AB & BC8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ap-calculus-exam-prep)See what is includedThe 20-second answer
 
 Good 11th grade math tutoring treats the junior year as **one campaign, not three emergencies**: Algebra 2 taught for ownership (it is the SAT's core content anyway), the test calendar planned backward from application season, and every study hour engineered to pay both the GPA and the score. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
@@ -157,7 +157,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the same
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your teen by name
@@ -166,7 +166,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level
@@ -201,7 +201,7 @@ An honest comparison
 
 ## Your real options for a 11th grade student.
 
- $1$149.99–$374.99 / month$2
+ $1$100–$150 / month$2
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |

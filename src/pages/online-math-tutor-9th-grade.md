@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your teen. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick for you.
 
-[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery The grades 9-12 road: Algebra 1 through calculus readiness, with exam craft when it counts. Grades 9-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![Algebra Foundations Masterclass course thumbnail](/images/algebra-foundations.webp)  Algebra Foundations Masterclass For the ninth grader whose real gap is middle-school algebra: the base, rebuilt properly. Grades 7-98 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/algebra-foundations-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics For the ninth grader who finds class easy: AMC-style reasoning and the stretch that builds mathematicians. Ambitious students8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
+[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery The grades 9-12 road: Algebra 1 through calculus readiness, with exam craft when it counts. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![Algebra Foundations Masterclass course thumbnail](/images/algebra-foundations.webp)  Algebra Foundations Masterclass For the ninth grader whose real gap is middle-school algebra: the base, rebuilt properly. Grades 7-98 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/algebra-foundations-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics For the ninth grader who finds class easy: AMC-style reasoning and the stretch that builds mathematicians. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
 
 Good 9th grade math tutoring does three things: **teaches Algebra 1 as a language** (equations as sentences, functions as machines, graphs as stories), **repairs the middle-school debt inline**, fractions, negatives and equation habits that the year silently assumes, and **respects the new stakes**, because this grade is the first one colleges see. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
@@ -159,7 +159,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the same
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your teen by name
@@ -168,7 +168,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level
@@ -203,7 +203,7 @@ An honest comparison
 
 ## Your real options for a 9th grade student.
 
- $1$149.99–$374.99 / month$2
+ $1$100–$150 / month$2
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |

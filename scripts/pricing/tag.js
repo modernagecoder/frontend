@@ -94,9 +94,18 @@ const LEGACY_INTERNATIONAL = {
     agents: { '100': 'group', '150': 'personal' }
 };
 
+// The India prices before 2026-08-01 — the first India price change ever,
+// which is what exposed every still-unanchored rupee element.
+const LEGACY_INDIA = {
+    coding: { '1499': 'group', '2499': 'miniBatch', '4999': 'personal' },
+    maths:  { '1499': 'group', '2499': 'miniBatch', '4999': 'personal' },
+    agents: { '2499': 'group', '4999': 'miniBatch', '9999': 'personal' },
+    school: { '1999': 'group', '2999': 'personal' }
+};
+
 function legacyTier(subject, region, amount) {
-    if (region !== 'international') return null;
-    const map = LEGACY_INTERNATIONAL[subject];
+    const table = region === 'international' ? LEGACY_INTERNATIONAL : LEGACY_INDIA;
+    const map = table[subject];
     return (map && map[String(amount)]) || null;
 }
 
@@ -109,7 +118,13 @@ function legacyTier(subject, region, amount) {
  * would turn a group price into a 1-on-1 price on any page this misclassifies,
  * so it is only accepted when the copy itself names the plan.
  */
-function legacyAmbiguous(amount) {
+function legacyAmbiguous(amount, region) {
+    // India pages carry explicit subject markers (data-price-tier="agents",
+    // data-subject="maths"), so the per-page subject is trustworthy and the
+    // subject's own legacy map is unambiguous — ₹2,499 on a coding page IS the
+    // old Mini Batch. The cross-subject veto only applies internationally,
+    // where the subject is guessed from filenames.
+    if (region === 'india') return false;
     const tiers = {};
     Object.keys(LEGACY_INTERNATIONAL).forEach(function (s) {
         const t = LEGACY_INTERNATIONAL[s][String(amount)];
@@ -175,7 +190,7 @@ function main() {
                 // that means the same tier whatever the subject can be read off
                 // the old table alone; an ambiguous one needs the copy to say.
                 else if (legacy && namedTier === legacy) key = legacy;
-                else if (legacy && !namedTier && !legacyAmbiguous(amount)) key = legacy;
+                else if (legacy && !namedTier && !legacyAmbiguous(amount, region)) key = legacy;
             } else if (legacy && namedTier === legacy) {
                 // In prose, a retired price is only anchored when the sentence
                 // itself names the same plan. That is the owner's rule: a script
@@ -231,7 +246,7 @@ function main() {
             if (namedTier && candidates.indexOf(namedTier) !== -1) key = namedTier;
             else if (candidates.length === 1) key = candidates[0];
             else if (legacy && namedTier === legacy) key = legacy;
-            else if (legacy && !namedTier && !legacyAmbiguous(amount)) key = legacy;
+            else if (legacy && !namedTier && !legacyAmbiguous(amount, region)) key = legacy;
 
             if (!key) {
                 review.push({
@@ -251,6 +266,42 @@ function main() {
             });
             return '<' + tag + attrs + '><span data-price="' + subject + '.' + region + '.' + key + '">' +
                 amountText + '</span>' + suffix + '</' + tag + '>';
+        });
+
+        // THIRD SHAPE: the split card — a currency span BEFORE bare digits:
+        //   <span class="price-amount"><span class="price-currency">₹</span>2499</span>
+        // Neither earlier pass matches it (the amount is neither alone nor
+        // followed by a suffix), which left the main pricing cards unanchored
+        // and only correct by coincidence until the first India price change.
+        const rx3 = /<(span|div)([^>]*class="[^"]*(?:price-amount|plan-price)[^"]*"[^>]*)>(\s*)<span class="price-currency">(₹|\$|&#8377;)<\/span>([\d,]+(?:\.\d{2})?)(<span class="price-period">[^<]*<\/span>)?(\s*)<\/>/g;
+        html = html.replace(rx3, function (whole, tag3, attrs, ws1, sym, digitsText, period, ws2) {
+            if (/data-price\s*=/.test(attrs)) { alreadyOk++; return whole; }
+            const isRupee = sym !== '$';
+            const region = isRupee ? 'india' : 'international';
+            const amount = digitsText.replace(/,/g, '');
+
+            const at = arguments[arguments.length - 2];
+            const beforeText = before.slice(Math.max(0, at - 400), at);
+            const namedTier = tierFromContext(beforeText);
+            const candidates = tiersMatchingAmount(subject, region, amount, config);
+            const legacy = legacyTier(subject, region, amount);
+
+            let key = null;
+            if (namedTier && candidates.indexOf(namedTier) !== -1) key = namedTier;
+            else if (candidates.length === 1) key = candidates[0];
+            else if (legacy && namedTier === legacy) key = legacy;
+            else if (legacy && !namedTier && !legacyAmbiguous(amount, region)) key = legacy;
+
+            if (!key) {
+                review.push({ file: f, subject: subject, region: region, amount: amount,
+                    shown: sym + digitsText, cls: 'price-amount(split)', structural: true,
+                    why: 'split card, plan not resolvable' });
+                return whole;
+            }
+            tagged++;
+            return '<' + tag3 + attrs + ' data-price="' + subject + '.' + region + '.' + key +
+                '" data-price-format="split">' + (ws1 || '') + '<span class="price-currency">' + sym + '</span>' +
+                digitsText + (period || '') + (ws2 || '') + '</' + tag3 + '>';
         });
 
         if (html !== before) {

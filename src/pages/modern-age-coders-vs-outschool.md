@@ -34,7 +34,7 @@ Outschool figures are typical published ranges as of July 2026 (brighterly.com, 
 
 Scroll the table sideways to see every column →
 
- $1$149.99 a month group · $374.99 1-on-1$2 (8 live classes)
+ $1$100 a month group · $150 1-on-1$2 (8 live classes)
 
 | Dimension | Modern Age CodersA school | Outschool |
 | --- | --- | --- |
@@ -71,7 +71,7 @@ Outschool built something real. Here is the fair split.
 
 ### What sustained learning costs
 
-Outschool: **$10 to $30 per class hour**, teacher by teacher8 marketplace hours a month: **$80 to $240**, no continuityMAC group: 8 structured hours, one mentor, **$40**MAC 1-on-1: 8 dedicated hours, **$374.99**
+Outschool: **$10 to $30 per class hour**, teacher by teacher8 marketplace hours a month: **$80 to $240**, no continuityMAC group: 8 structured hours, one mentor, **$40**MAC 1-on-1: 8 dedicated hours, **$150**
 
 Outschool figures as of July 2026 (brighterly.com). The real difference is not the total, it is that our 8 hours belong to one curriculum and one mentor.
 

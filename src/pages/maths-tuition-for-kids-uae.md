@@ -149,7 +149,7 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$374.99 / month
+$150 / month
 
 - 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - The same dedicated, curriculum-matched tutor
@@ -158,7 +158,7 @@ $374.99 / month
 
 ### Small-Group Cohort
 
-$149.99 / month
+$100 / month
 
 - 8 live small-group lessons a month (2 per week, 1 hour each)
 - A handful of children at the same level
@@ -185,7 +185,7 @@ An honest comparison
 
 ## How we differ from the alternatives.
 
- $1$374.99 (1:1)$2
+ $1$150 (1:1)$2
 
 | What matters | Modern Age Coders | Maths apps | Tutoring centre |
 | --- | --- | --- | --- |

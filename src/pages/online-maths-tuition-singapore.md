@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
 
-[![PSLE Maths Mastery course thumbnail](/images/psle-maths.webp)Best fit  PSLE Maths Mastery Model method as thinking, problem-sum families and Paper 1 fluency, at Singapore evening hours. P4-P6 · MOE8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/psle-maths-mastery)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
+[![PSLE Maths Mastery course thumbnail](/images/psle-maths.webp)Best fit  PSLE Maths Mastery Model method as thinking, problem-sum families and Paper 1 fluency, at Singapore evening hours. P4-P6 · MOE8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/psle-maths-mastery)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
 
 Good online maths tuition for a Singapore student is **MOE-syllabus exact**: model method and heuristics for primary, PSLE paper technique (including the no-calculator Paper 1), the E Maths versus A Maths reality at secondary, and understanding-first teaching throughout, the way the syllabus was designed. That is what we do: 8 live one-hour classes a month in Singapore-friendly evening slots, 1-on-1 for USD $150 a month or small group for $100, free demo class first.
 
@@ -220,7 +220,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the form
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your child by name
@@ -229,7 +229,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level

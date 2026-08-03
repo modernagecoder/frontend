@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your teen. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick for you.
 
-[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery The grades 9-12 road: Geometry's reasoning plus the algebra that must stay warm underneath it. Grades 9-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![SAT Math 800 Prep course thumbnail](/images/sat-math-prep.webp)  SAT Math 800 Prep Course The PSAT is this year; the SAT is next. Sophomore starts get the calm, full runway. Grades 10-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/sat-math-prep-course)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Geometry's proofs done for joy: the contest track where deductive minds catch fire. Ambitious students8 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
+[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery The grades 9-12 road: Geometry's reasoning plus the algebra that must stay warm underneath it. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![SAT Math 800 Prep course thumbnail](/images/sat-math-prep.webp)  SAT Math 800 Prep Course The PSAT is this year; the SAT is next. Sophomore starts get the calm, full runway. Grades 10-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/sat-math-prep-course)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Geometry's proofs done for joy: the contest track where deductive minds catch fire. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
 
 Good 10th grade math tutoring does three things: **teaches proof as detective work**, seeing why before writing two columns, **keeps the algebra warm**, because Geometry's coordinate and similarity problems still run on it and Algebra 2 arrives next year, and **starts the test-year runway**, with the PSAT this fall and the SAT on next year's calendar. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
@@ -157,7 +157,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the same
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your teen by name
@@ -166,7 +166,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level
@@ -201,7 +201,7 @@ An honest comparison
 
 ## Your real options for a 10th grade student.
 
- $1$149.99–$374.99 / month$2
+ $1$100–$150 / month$2
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |

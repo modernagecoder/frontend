@@ -2,74 +2,64 @@
 //  MODERN AGE CODERS — THE ONLY FILE YOU EDIT TO CHANGE A PRICE
 // ═══════════════════════════════════════════════════════════════════════════
 //
-//  Change a number here, run  npm run pricing:apply , and it updates every
-//  page on the site — visible prices, Google's structured data, the .md files
-//  AI engines read, and the amount Razorpay actually charges.
+//  Easiest way: run  npm run dev  and open  http://localhost:3001/__pricing
+//  — a form that edits this file and updates every page for you.
 //
-//  Read pricing/README.md before your first edit. The three commands are:
+//  By hand: change a number below, then run
 //
-//    npm run pricing:check     tells you if this file is valid  (do this first)
-//    npm run pricing:preview   shows exactly what would change, changes nothing
-//    npm run pricing:apply     writes the change into every page
+//    npm run pricing:check      is my file valid? shows the resulting prices
+//    npm run pricing:preview    exactly what would change, changes nothing
+//    npm run pricing:apply      write it into every page
+//    npm run pricing:verify     prove nothing broke
 //
-//  Comments are allowed in this file (it is .jsonc). Trailing commas are not.
+//  PRICING MODEL (deliberately simple, owner's decision 2026-08-01):
+//  one USD price list for every country outside India, rupees inside India.
+//  Detection is automatic; international visitors are charged in USD.
 //
+//  Rules: plain digits only (7500, never 7,500 or "7500" or ₹7500).
+//  null means "we do not sell this" — the plan is hidden, never given a
+//  made-up price. Comments are allowed; trailing commas are not.
+//
+//  DO NOT hand-edit the structure — the price editor rewrites this file from
+//  scripts/pricing/config-template.js. Change VALUES here or use the editor.
 // ═══════════════════════════════════════════════════════════════════════════
 {
-  "version": 1,
-  "updated": "2026-07-31",
+  "version": 2,
+  "updated": "2026-08-01",
 
   // ───────────────────────────────────────────────────────────────────────
-  //  1. THE PRICES
+  //  THE PRICES  (subject.region.tier — e.g. coding.india.group)
   // ───────────────────────────────────────────────────────────────────────
-  //
-  //  Every price on the site is named  subject.region.tier  — for example
-  //  coding.india.group  is the ₹1,499 figure.
-  //
-  //  null  means "we do not sell this".  The build refuses to print a price
-  //  for it and hides that plan from those visitors. Never put a number in a
-  //  null slot unless you genuinely intend to start selling it.
-  //
-  //  india        = amounts in ₹ INR, charged by Razorpay domestic
-  //  international= amounts in $ USD. These are the LIST prices. Visitors in
-  //                 lower-income countries pay less, worked out automatically
-  //                 from the worldwide.* settings in section 3.
-  //
   "plans": {
 
-    // International list = what the RICHEST countries pay (USA, Switzerland).
-    // Everywhere else scales down from here by purchasing power, never below
-    // the floor in section 3. Owner set the group top at $149.99 on 2026-07-31;
-    // 1-on-1 keeps the 2.5x relationship the old $40/$100 pair had.
     "coding": {
-      "india":         { "group": 1499, "miniBatch": 2499, "personal": 4999, "lifetime": null },
-      "international": { "group": 149.99, "miniBatch": null, "personal": 374.99, "lifetime": null }
+      "india":         { "group": 1499, "miniBatch": 2999, "personal": 7500 },
+      "international": { "group": 100,  "miniBatch": null, "personal": 150 }
     },
 
-    // Maths currently costs the same as coding inside India. It is listed
-    // separately on purpose, so you can change one without touching the other.
+    // Maths is listed separately so it can differ from coding — today only
+    // the India 1-on-1 rate does.
     "maths": {
-      "india":         { "group": 1499, "miniBatch": 2499, "personal": 4999, "lifetime": null },
-      "international": { "group": 149.99, "miniBatch": null, "personal": 374.99, "lifetime": null }
+      "india":         { "group": 1499, "miniBatch": 2999, "personal": 8500 },
+      "international": { "group": 100,  "miniBatch": null, "personal": 150 }
     },
 
-    // The premium Codex + Claude Code courses. Students run the real paid
-    // agent tools on their own Claude / ChatGPT subscriptions, so these are
-    // priced above everything else. Applied via courseOverrides below.
+    // The premium Codex + Claude Code courses. Currently priced the SAME as
+    // everything else (owner's decision 2026-08-01, "all courses"); kept as
+    // their own row so premium pricing can be switched back on by editing
+    // these numbers alone.
     "agents": {
-      "india":         { "group": 2499, "miniBatch": 4999, "personal": 9999, "lifetime": null },
-      "international": { "group": 149.99, "miniBatch": null, "personal": 374.99, "lifetime": null }
+      "india":         { "group": 1499, "miniBatch": 2999, "personal": 7500 },
+      "international": { "group": 100,  "miniBatch": null, "personal": 150 }
     },
 
-    // In-school bootcamp programmes (CBSE CS Practical, Informatics Practices,
-    // ISC CS Practical, Girls in Tech). These prices are already published
-    // inside FAQ structured data on the school pages.
+    // In-school bootcamp programmes (published inside school-page FAQ schema).
     "school": {
-      "india":         { "group": 1999, "miniBatch": null, "personal": 2999, "lifetime": null },
-      "international": { "group": null, "miniBatch": null, "personal": null, "lifetime": null }
+      "india":         { "group": 1999, "miniBatch": null, "personal": 2999 },
+      "international": { "group": null, "miniBatch": null, "personal": null }
     },
 
-    // Holiday camps. One payment, not monthly — so the tier is "oneTime".
+    // Holiday camps: one payment, not monthly.
     "camps": {
       "india":         { "oneTime": 4999 },
       "international": { "oneTime": 60 }
@@ -77,189 +67,35 @@
   },
 
   // ───────────────────────────────────────────────────────────────────────
-  //  2. INDIVIDUAL COURSES THAT ARE PRICED DIFFERENTLY
+  //  COURSES PRICED DIFFERENTLY — add a slug to move a course onto another
+  //  price set. pricing:check errors on a slug that matches no course.
   // ───────────────────────────────────────────────────────────────────────
-  //
-  //  By default every course uses the "coding" prices. List a course slug
-  //  here to move it onto a different price set. Add a line, run apply, done —
-  //  no code change needed.
-  //
-  //  A course listed here is priced differently from the default coding set.
-  //
-  //    "slug": "agents"                                  use that whole price set
-  //    "slug": { "india": { "personal": 5999 } }          coding prices, own 1-on-1 rate
-  //    "slug": { "subject": "agents", "india": { ... } }   both
-  //
-  //  These 21 entries are the real per-course prices migrated out of
-  //  courses-config.json, which used to be a second authority on the amount
-  //  Razorpay actually charges. That file is generated from this one now.
   "courseOverrides": {
-    "codex-and-claude-code-ai-coding-agents-course-for-teens": { "subject": "agents" },
-    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": { "subject": "agents" }
+    "codex-and-claude-code-ai-coding-agents-course-for-teens":                  "agents",
+    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": "agents"
   },
 
   // ───────────────────────────────────────────────────────────────────────
-  //  3. WORLDWIDE PRICING (purchasing power parity)
-  // ───────────────────────────────────────────────────────────────────────
-  //
-  //  A family in Lagos earns very differently from a family in Oslo, so the
-  //  same $40 does not feel the same. These settings work out a fair price
-  //  per country automatically, from live World Bank data.
-  //
-  //  THE ONE RULE THAT PROTECTS YOU: no country is ever charged less, after
-  //  fees, than an Indian student pays you. That is the "floor" below.
-  //  Without it, real World Bank data puts 81 of 208 countries BELOW your
-  //  Indian price — you would earn less from Lagos than from Kolkata for the
-  //  same live teacher.
-  //
-  "worldwide": {
-
-    // Turn the whole worldwide layer on or off. When false, every visitor
-    // outside India simply sees the international list price above, exactly
-    // as the site behaved before this system existed.
-    "enabled": true,
-
-    // How strongly to follow purchasing power. 1.0 = follow it exactly
-    // (too deep — see the note above). 0 = ignore it, everyone pays list.
-    // 0.57 gives roughly the same relationship your ₹1,499 and $40 already
-    // have to each other today.
-    "dampingExponent": 0.57,
-
-    // Never discount more than this, whatever the data says.
-    "maxDiscountPercent": 60,
-
-    // Never charge MORE than the list price. Set to a number above 100 if you
-    // ever decide high-income countries should pay a premium (110 = up to +10%).
-    "maxPremiumPercent": 100,
-
-    // The floor. Your protection against ever earning less abroad than at home.
-    "floor": {
-      // ── THE HARD MINIMUM ──────────────────────────────────────────────
-      // The least you will accept from ONE international sale, in rupees,
-      // AFTER every fee and the currency conversion. No country, in any
-      // currency, is ever charged less than this.
-      //
-      // This is the number to change if you want more or less from abroad.
-      // Everything else in this section is secondary protection.
-      //
-      // A tier not listed here falls back to scaling group by its list-price
-      // ratio, so 1-on-1 at 2.5x the group list price gets 2.5x this floor.
-      // Owner's decision 2026-07-31: Rs9,500 is the 1-on-1 minimum. Group sits
-      // lower. At the current top price PPP alone keeps every country above
-      // both figures, so these are insurance rather than active constraints —
-      // they bind only if the top price is lowered or a currency collapses.
-      "minNetInr": {
-        "group":     3000,
-        "personal":  9500,
-        "miniBatch": null,
-        "lifetime":  null,
-        "oneTime":   null
-      },
-
-      // Secondary floor: never charge abroad less than the matching India
-      // plan nets. With minNetInr set this rarely binds, but it keeps the
-      // guarantee true if minNetInr is ever lowered or removed.
-      // EVERY tier you sell needs a line here.
-      "matchIndiaTier": {
-        "group":     "group",
-        "miniBatch": "miniBatch",
-        "personal":  "personal",
-        "lifetime":  "lifetime",
-        "oneTime":   "oneTime"
-      },
-      // Extra safety margin on top, in percent. Raise this if you want more cushion.
-      "safetyMarginPercent": 0
-    },
-
-    // What it costs you to collect the money. Used to work out the floor, so
-    // that "not less than India" means after fees, not before them.
-    "costs": {
-      "domesticGatewayPercent":      2.0,   // Razorpay domestic — published rate
-      "internationalGatewayPercent": 3.0,   // Razorpay international — published ceiling
-      "gstOnGatewayFeePercent":      18.0,  // published
-      "fxSpreadBufferPercent":       3.0,   // ASSUMPTION — Razorpay does not publish its card FX spread
-      "gstOnServicePercent":         0.0    // CONFIRMED by the owner's CA on 2026-07-31: these classes
-                                            // are a zero-rated export of services. Was carried as an
-                                            // open assumption until then. If the ruling ever changes to
-                                            // 18, put 18 here and every floor rises about 22%.
-    },
-
-    // How the final number is tidied up. "charm" turns 17.42 into 17.99.
-    "rounding": "charm",
-
-    // Countries whose currency moves too fast to quote safely. These visitors
-    // see the US dollar price only, with no local-currency estimate.
-    "unstableCurrencies": ["ARS", "TRY", "VES", "LBP", "SSP", "ZWL"],
-
-    // ── ONE PRICE PER SHARED CURRENCY ──────────────────────────────────
-    // Countries sharing a currency all pay the same, instead of each getting
-    // its own purchasing-power price.
-    //
-    // Why this matters for the euro specifically: across dollars, a price
-    // difference between Portugal and Ireland is invisible. In a shared
-    // currency inside a single market, EUR 110 next to EUR 140 for the same
-    // course is conspicuous. It is permitted — EU Regulation 2018/302 Article
-    // 4(2) allows different net prices between Member States on a
-    // non-discriminatory basis — but the owner chose one euro price on
-    // 2026-07-31.
-    //
-    // The West and Central African CFA francs (XOF, XAF) and the East
-    // Caribbean dollar (XCD) have exactly the same property. Add "XOF",
-    // "XAF", "XCD" to this list to treat them the same way.
-    //
-    // The zone price is the median of its members, then floored — so
-    // unification can never drop a country below the minimums above.
-    "unifiedCurrencyZones": ["EUR"],
-
-    // Ignore World Bank figures older than this many years and charge list
-    // price instead, rather than quietly using a 15-year-old price level.
-    "maxDataAgeYears": 3,
-
-    // Visitors we cannot place, and anyone in India, get this.
-    "defaultRegion": "india"
-  },
-
-  // ───────────────────────────────────────────────────────────────────────
-  //  4. HOW PRICES ARE WRITTEN OUT
+  //  DISPLAY
   // ───────────────────────────────────────────────────────────────────────
   "display": {
-    // The currency actually charged. Local currencies are shown as a clearly
-    // labelled estimate next to it, never instead of it.
     "chargeCurrencies": { "india": "INR", "international": "USD" },
-
-    // Wording used when a price is written in full.
     "periodLabels": { "monthly": "/month", "oneTime": "" },
-
-    // Live classes included per month. Used to work out the "per class" and
-    // "per hour" figures that appear on some pages, so they are recalculated
-    // rather than left behind when a price changes.
+    // Used to recalculate the "per class" figures on some pages.
     "classesPerMonth": 8,
     "hoursPerClass": 1
   },
 
   // ───────────────────────────────────────────────────────────────────────
-  //  5. THINGS THE CHECKER MUST IGNORE
+  //  NUMBERS THE CHECKER MUST IGNORE (lesson content, competitor prices)
   // ───────────────────────────────────────────────────────────────────────
-  //
-  //  Numbers that look like prices but are not. Without this list the verifier
-  //  would flag lesson content and CSS as broken prices.
-  //
   "allowlist": {
-    // Files where any price-looking number is intentional and must be left alone.
     "files": [
-      "src/pages/coding-fee-calculator.html",   // owns its own subject × age price matrix
-      "content/courses/data/*.json",            // lesson content: SQL rows, quiz answers
+      "src/pages/coding-fee-calculator.html",
+      "content/courses/data/*.json",
       "src/pages/*sql*.html",
       "src/pages/*quiz*.html"
     ],
-    // Text patterns that are never a price of ours.
-    "patterns": [
-      "z-index",           // z-index: 9999
-      "border-radius",     // border-radius: 9999px
-      "9999px",
-      "competitor",        // market-rate comparisons quoted from others
-      "exam fee",          // third-party exam fees
-      "prize"              // hackathon prize money
-    ]
+    "patterns": ["z-index", "border-radius", "9999px", "competitor", "exam fee", "prize"]
   }
 }

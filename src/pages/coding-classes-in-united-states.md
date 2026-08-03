@@ -20,7 +20,7 @@ America's coding classroom · +1 · all 50 states
 
 Live 1:1 mentorship in **Python**, modern web and **agentic AI** for K–12, college and adult learners across America. Aligned with **AP Computer Science Principles**, **AP CS A**, **USACO** (Bronze → Platinum), and the algorithmic depth **MIT**, **Stanford**, **CMU**, **Berkeley**, **Caltech** and the Ivy League actually look for. **$100 a month**, eight live sessions, two a week, cancel anytime. Mentors work in **your** time zone.
 
-See AP & USACO tracks4.9/5Average parent & learner rating · 547 Google reviews50 statesMentors live in all 6 US time zones8 / moLive 1:1 sessions, 2 each week$374.99Per month · cancel any time · no contractThe frontier · featured
+See AP & USACO tracks4.9/5Average parent & learner rating · 547 Google reviews50 statesMentors live in all 6 US time zones8 / moLive 1:1 sessions, 2 each week$150Per month · cancel any time · no contractThe frontier · featured
 
 ## Vibe Coding & AI Agents — where American coding is heading.
 

@@ -158,7 +158,7 @@ The fee is charged in US dollars once a month. In riyals the plans land near the
 
 Group classes
 
- $1$149.99$2
+ $1$100$2
 
 - One live hour weekly, 5 to 8 children
 - Fixed AST evening or weekend slot
@@ -169,7 +169,7 @@ Book a Free Demo
 
 One-on-one classes
 
- $1$374.99$2
+ $1$150$2
 
 - The teacher's whole hour, one child
 - Timings shaped around the family week

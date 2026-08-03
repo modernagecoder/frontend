@@ -12,7 +12,7 @@ Honest comparison · prices verified July 2026
 
 The short version: Juni Learning sells private 1-on-1 coding classes to US families from about $275 to $299 a month for four sessions. Modern Age Coders goes deeper on a faster rhythm: **eight one-hour live classes a month, project-first and interactive**, the kind of class students wait for, with the maths behind the code taught in the same school. And the month costs **$100, not $275**.
 
-[Book a free demo](/book-demo)See the full comparison8Live classes a month$374.991-on-1 coding, monthly$12.50Per 1-on-1 class4.9Across 547 Google reviews
+[Book a free demo](/book-demo)See the full comparison8Live classes a month$1501-on-1 coding, monthly$12.50Per 1-on-1 class4.9Across 547 Google reviews
 
 Modern Age Coders and Juni Learning both offer live online coding classes, but Modern Age Coders teaches coding and maths together for ages 6 to 67, in small live batches with real projects from the first class, and pricing built for Indian families.
 

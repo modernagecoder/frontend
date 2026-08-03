@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
 
-[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)Best fit  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids Number sense, not tricks: bonds, strategies and estimation built into speed that never expires. Ages 5-108 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)See what is includedThe 20-second answer
+[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)Best fit  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids Number sense, not tricks: bonds, strategies and estimation built into speed that never expires. Ages 5-108 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)See what is includedThe 20-second answer
 
 A good online math tutor for a 5th grader does three things: **completes the fraction story**, adding, subtracting, multiplying and dividing, built on the number line rather than on rules; **extends place value through decimals** so 0.3 × 0.4 stops producing 1.2; and **closes elementary gaps before middle school**, where ratios and negative numbers assume all of this is solid. That is what we do: 8 live one-hour classes a month, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
@@ -361,7 +361,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the same
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your child by name
@@ -370,7 +370,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level
@@ -405,7 +405,7 @@ An honest comparison
 
 ## Your real options for a struggling 5th grader.
 
- $1$149.99–$374.99 / month$2
+ $1$100–$150 / month$2
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |

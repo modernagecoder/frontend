@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the placement pick for you.
 
-[![Game Development Masterclass for Kids course thumbnail](/images/game-dev-kids.webp)Best fit  Game Development Masterclass for Kids The full builder's arc: design, scripting and shipping real playable games, Roblox-ready. Ages 9-148 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/game-development-masterclass-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids The younger on-ramp: blocks plus AI builders for the 8-12 crowd still warming up to text code. Ages 8-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The general-programming road: Luau's ideas re-met in Python, with AI projects on top. Ages 9-138 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)See what is includedThe 20-second answer
+[![Game Development Masterclass for Kids course thumbnail](/images/game-dev-kids.webp)Best fit  Game Development Masterclass for Kids The full builder's arc: design, scripting and shipping real playable games, Roblox-ready. Ages 9-148 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/game-development-masterclass-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids The younger on-ramp: blocks plus AI builders for the 8-12 crowd still warming up to text code. Ages 8-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The general-programming road: Luau's ideas re-met in Python, with AI projects on top. Ages 9-138 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)See what is includedThe 20-second answer
 
 Good Roblox classes teach **real Luau programming inside Roblox Studio**, variables, events, functions, loops, not just terrain painting and free models. They turn the obsession into a skill: the child designs, scripts, tests and ships actual playable games. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first. Independent classes, not affiliated with Roblox Corporation.
 
@@ -206,7 +206,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the form
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your child by name
@@ -215,7 +215,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level
@@ -250,7 +250,7 @@ An honest comparison
 
 ## Your real options for a young Roblox builder.
 
- $1$149.99–$374.99 / month$2
+ $1$100–$150 / month$2
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |

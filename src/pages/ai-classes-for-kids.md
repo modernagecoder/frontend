@@ -194,7 +194,7 @@ Yes. Early, hands-on exposure builds creativity, problem-solving and quiet confi
 
 How much do AI classes for kids cost?
 
-Group classes are ₹1499/month with two live classes a week. A small 3–4 student Mini-Batch is ₹2499/month, and fully personalised 1-on-1 classes are ₹4999/month. Every child can start with a free trial class before you decide.
+Group classes are ₹1499/month with two live classes a week. A small 3–4 student Mini-Batch is ₹2,999/month, and fully personalised 1-on-1 classes are ₹7,500/month. Every child can start with a free trial class before you decide.
 
 ## See your child light up in a free trial class
 

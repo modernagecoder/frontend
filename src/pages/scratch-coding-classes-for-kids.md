@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the placement pick for you.
 
-[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)Best fit  Scratch Programming Complete The full blocks-to-mastery arc: games, animations and stories carrying real computer-science ideas. Ages 6-118 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Scratch plus AI tools: kids build games and apps with blocks and modern AI builders, side by side. Ages 8-128 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The graduation destination: real text code, taught gently, with AI projects that make eyes go wide. Ages 9-138 live classes / monthFree demo first **$149.99**/mo group · **$374.99**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)See what is includedThe 20-second answer
+[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)Best fit  Scratch Programming Complete The full blocks-to-mastery arc: games, animations and stories carrying real computer-science ideas. Ages 6-118 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Scratch plus AI tools: kids build games and apps with blocks and modern AI builders, side by side. Ages 8-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The graduation destination: real text code, taught gently, with AI projects that make eyes go wide. Ages 9-138 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)See what is includedThe 20-second answer
 
 Good Scratch classes do three things: **teach the ideas inside the blocks** (loops, events, conditionals, variables), not just block-snapping recipes; **let the child build their own projects**, because ownership is where learning lives; and **graduate the child on purpose**, into Python, when they are ready. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
 
@@ -205,7 +205,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the form
 
 ### 1:1 Private Mentorship
 
-$374.99 / month
+$150 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your child by name
@@ -214,7 +214,7 @@ $374.99 / month
 
 ### Small-Group Class
 
-$149.99 / month
+$100 / month
 
 - 8 live one-hour classes a month, 2 per week
 - A handful of children at the same level
@@ -249,7 +249,7 @@ An honest comparison
 
 ## Your real options for a young coder.
 
- $1$149.99–$374.99 / month$2
+ $1$100–$150 / month$2
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
