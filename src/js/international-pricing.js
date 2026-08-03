@@ -658,6 +658,26 @@ const InternationalPricing = {
     var rules = [];
     var seen = {};
 
+    // The subject's own Mini Batch price is claimed FIRST, with no rule.
+    // Mini Batch is India-only — its rupee figure must never be rewritten to
+    // dollars. Without this reservation, other rules that happen to share the
+    // number claimed it: on the premium agents pages the ₹4,999 Mini Batch was
+    // matched by the camps rule and rendered as "$60 per month", and on the
+    // pricing capsule it was caught by the coding 1-on-1 rule and shown as
+    // "$374.99 mini batch". Registering the value in `seen` blocks every later
+    // rule from touching it, so the ₹ figure survives — which is correct,
+    // because the plan genuinely costs rupees and is labelled "(India only)".
+    (function reserveMiniBatch() {
+      var data = window.MAC_PRICING;
+      if (!data) return;
+      var subj = InternationalPricing.isAgentsContext() ? 'agents'
+        : InternationalPricing.isMathsContext() ? 'maths' : 'coding';
+      var india = data.plans[subj] && data.plans[subj].india;
+      if (india && india.miniBatch !== null && india.miniBatch !== undefined) {
+        seen[india.miniBatch] = true;
+      }
+    })();
+
     function add(inr, usdEntry) {
       if (inr === null || inr === undefined || !usdEntry) return;
       if (seen[inr]) return;                       // first rule for a value wins
