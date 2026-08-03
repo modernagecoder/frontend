@@ -73,8 +73,17 @@ function courseCard(meta) {
     const facts = [];
     if (meta.level) facts.push(`*Level:* ${meta.level}`);
     if (meta.duration) facts.push(`*Duration:* ${meta.duration}`);
-    if (meta.price && meta.price.group) facts.push(`*Group:* ${meta.price.group}`);
-    if (meta.price && meta.price.personal) facts.push(`*1-on-1:* ${meta.price.personal}`);
+
+    // Prices resolve through the config, never from raw meta.price. Six
+    // course JSONs still carry fossil figures there (₹1,999 to ₹5,999), and
+    // reading them verbatim published prices to AI engines that contradicted
+    // the same courses' own stamped schema two lines away. This file is
+    // quoted word-for-word in answers; it has to agree with the pages.
+    const prices = PRICING.coursePrices(meta.slug).india;
+    const money = (n) => PRICING.format(n, 'INR', { style: 'display' }) + '/month';
+    if (prices.group != null) facts.push(`*Group:* ${money(prices.group)}`);
+    if (prices.personal != null) facts.push(`*1-on-1:* ${money(prices.personal)}`);
+
     if (facts.length) lines.push(facts.join(' · '));
     if (meta.description) lines.push(trim(meta.description, COURSE_DESC_TRIM));
     return lines.join('\n\n');

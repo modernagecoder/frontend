@@ -38,7 +38,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Resources practice: /content/resources/generated/{lang}/{chapter}/practice/index.md
 - Static pages:  /src/pages/{slug}.md
 
-> Generated: 2026-08-02 · Source of truth: https://learn.modernagecoders.com/llms.txt
+> Generated: 2026-08-03 · Source of truth: https://learn.modernagecoders.com/llms.txt
 
 Full companion to /llms.txt — brand overview, complete course catalog, embedded text of featured blog posts, and full blog index. AI agents that prefer a single document can use this as the canonical knowledge base.
 
@@ -96,7 +96,7 @@ Live online AI literacy classes for ages 8 to 14. Children learn how AI actually
 
 ### [CBSE Computational Thinking & AI for Kids (Class 3-8)](https://learn.modernagecoders.com/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8/)
 
-*Level:* Absolute Beginner (Class 3-5) to Intermediate AI Project Builder (Class 6-8) · *Duration:* 9 months (40 weeks, expandable to 12-month mastery track) · *Group:* ₹1,499/month (2 classes per week) · *1-on-1:* ₹4,999/month
+*Level:* Absolute Beginner (Class 3-5) to Intermediate AI Project Builder (Class 6-8) · *Duration:* 9 months (40 weeks, expandable to 12-month mastery track) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 CBSE-aligned Computational Thinking & AI course for kids in Classes 3-8 (ages 8-13): decomposition, algorithms, Scratch, Teachable Machine and 50+ projects.
 
@@ -164,7 +164,7 @@ Live online web development course for kids: build real websites with HTML, CSS 
 
 ### [AI & Machine Learning for Teens: Zero to AI Expert](https://learn.modernagecoders.com/courses/ai-ml-masterclass-teens/)
 
-*Level:* Complete Beginner to AI Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹3,999/month
+*Level:* Complete Beginner to AI Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 A 1-year AI and Machine Learning program for teens: master Python, maths, ML algorithms, deep learning, computer vision, NLP and build real AI projects.
 
@@ -188,7 +188,7 @@ Live online C++ course for teens: a 12-month journey from zero to advanced, buil
 
 ### [CBSE Computational Thinking & AI for Teens (Class 9-12)](https://learn.modernagecoders.com/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843/)
 
-*Level:* Complete Beginner to CBSE AI Board Topper + Industry-Ready AI Developer · *Duration:* 12 months intensive (extendable to 4-year board track for Class 9 → Class 12) · *Group:* ₹1,499/month (2 classes per week, small batch) · *1-on-1:* ₹2,999/month (1-on-1 mentorship with AI engineer)
+*Level:* Complete Beginner to CBSE AI Board Topper + Industry-Ready AI Developer · *Duration:* 12 months intensive (extendable to 4-year board track for Class 9 → Class 12) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 CBSE Computational Thinking & AI for Classes 9-12: Python, Machine Learning and board practical mastery. Covers AI 417 (Class 10) and AI 843 (Classes 11-12).
 
@@ -310,13 +310,13 @@ Live online vibe coding course for teens 13-17: learn Python, HTML, CSS, JavaScr
 
 ### [AI & Machine Learning Masterclass: Zero to AI Expert](https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete-college/)
 
-*Level:* Complete Beginner to AI/ML Expert · *Duration:* 12 months (52 weeks) · *Group:* ₹1,999/month · *1-on-1:* ₹4,999/month
+*Level:* Complete Beginner to AI/ML Expert · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 A 12-month AI and Machine Learning program: master Python, mathematics, classical ML, deep learning, NLP, computer vision, MLOps and deploy models at scale.
 
 ### [AI Tools Mastery: ChatGPT to Production AI Automation](https://learn.modernagecoders.com/courses/ai-tools-mastery-complete-college/)
 
-*Level:* Complete Beginner to AI Tools Expert · *Duration:* 6 months (26 weeks) · *Group:* ₹1,999/month · *1-on-1:* ₹4,999/month
+*Level:* Complete Beginner to AI Tools Expert · *Duration:* 6 months (26 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 A 6-month AI Tools masterclass: master ChatGPT, Claude, Gemini, Midjourney, prompt engineering and no-code automation to build AI-powered workflows.
 
@@ -382,13 +382,13 @@ Full stack web development course: master frontend, backend, databases, DevOps a
 
 ### [Game Development Course: Unity, Unreal & C++, Zero to Pro](https://learn.modernagecoders.com/courses/game-development-complete-masterclass-college/)
 
-*Level:* Complete Beginner to Professional Game Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1,999/month · *1-on-1:* ₹5,999/month
+*Level:* Complete Beginner to Professional Game Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Game development course: master Unity, Unreal Engine, C++ and C#, 2D and 3D games, graphics, AI and multiplayer, then ship games to multiple platforms.
 
 ### [Generative AI Course: LLMs, RAG & AI Agents, Zero to Pro](https://learn.modernagecoders.com/courses/complete-generative-ai-masterclass-college/)
 
-*Level:* Complete Beginner to AI Engineer Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1,999/month · *1-on-1:* ₹5,999/month
+*Level:* Complete Beginner to AI Engineer Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Generative AI course: master LLMs, GPT models, Stable Diffusion, AI agents, RAG systems, fine-tuning and prompt engineering to build production AI.
 
@@ -412,7 +412,7 @@ Live online Java course for college students: a 1-year path from Core Java to Sp
 
 ### [MERN Stack Course Online: Job-Ready Full-Stack Bootcamp](https://learn.modernagecoders.com/courses/mern-stack-development-masterclass-college/)
 
-*Level:* Complete Beginner to Full Stack Expert · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹5,999/month
+*Level:* Complete Beginner to Full Stack Expert · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Live MERN Stack course online: MongoDB, Express, React and Node.js in a 12-month bootcamp that builds 6 production-ready portfolio projects. Free demo class.
 
@@ -504,7 +504,7 @@ Live online AP Statistics exam prep: all nine AP units, the Investigative Task, 
 
 ### [Business & Finance Mathematics: Investment to Risk](https://learn.modernagecoders.com/courses/complete-business-finance-mathematics-mastery/)
 
-*Level:* Complete Beginner to Advanced Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹2,999/month · *1-on-1:* ₹8,999/month
+*Level:* Complete Beginner to Advanced Professional · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 A 1-year business and finance mathematics course covering investment analysis, risk management, accounting maths, derivatives and portfolio optimization.
 
@@ -516,13 +516,13 @@ CBSE Class 10 Maths board prep course aligned to the 2026-27 syllabus: all 14 ch
 
 ### [College Mathematics: Calculus to Real Analysis & Beyond](https://learn.modernagecoders.com/courses/college-mathematics-complete-masterclass/)
 
-*Level:* High School Graduate to Advanced Undergraduate Mathematics · *Duration:* 24 months (104 weeks) · *Group:* ₹2,499/month · *1-on-1:* ₹4,999/month
+*Level:* High School Graduate to Advanced Undergraduate Mathematics · *Duration:* 24 months (104 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 A 2-year college mathematics program: from calculus fundamentals to abstract algebra, real analysis and topology, taught with rigorous proofs and applications.
 
 ### [Complete Data & Analytics Mathematics Masterclass - Statistics to Machine Learning](https://learn.modernagecoders.com/courses/data-analytics-mathematics-masterclass/)
 
-*Level:* Basic Math Knowledge to Advanced Data Science Mathematics · *Duration:* 24 months (104 weeks) · *Group:* ₹2,999/month · *1-on-1:* ₹5,999/month
+*Level:* Basic Math Knowledge to Advanced Data Science Mathematics · *Duration:* 24 months (104 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 The most comprehensive 2-year data science mathematics program. Master statistics, probability, linear algebra for ML, optimization, deep learning mathematics, Bayesian methods, causal inference, and cutting-edge analytics techniques. Build the mathematical foundation for AI and data science.
 
@@ -582,7 +582,7 @@ JEE foundation maths course for Class 8-10: NCERT-aligned depth, geometry proof 
 
 ### [Maths Olympiad & Competition Course: AMC, AIME to IMO](https://learn.modernagecoders.com/courses/olympiad-competition-mathematics-mastery/)
 
-*Level:* Intermediate to International Competition Level · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹3,999/month
+*Level:* Intermediate to International Competition Level · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 One-year maths olympiad course: master number theory, combinatorics, algebra, geometry and inequalities, with problem-solving craft for AMC, AIME and IMO.
 
@@ -724,7 +724,7 @@ Live online data analytics for working professionals who do not code: clean and 
 
 ### [Ethical Hacking & Cybersecurity: Zero to Pentester](https://learn.modernagecoders.com/courses/ethical-hacking-masterclass-complete/)
 
-*Level:* Complete Beginner to Professional Ethical Hacker · *Duration:* 6 months (26 weeks) - Can be taken as 1.5 hour daily sessions · *Group:* ₹999/month · *1-on-1:* ₹5,999/month
+*Level:* Complete Beginner to Professional Ethical Hacker · *Duration:* 6 months (26 weeks) - Can be taken as 1.5 hour daily sessions · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Ethical hacking and cybersecurity course covering penetration testing, OWASP Top 10, network and wireless hacking, and bug bounty hunting, from zero to pro.
 
