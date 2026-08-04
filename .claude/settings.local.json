@@ -260,7 +260,8 @@
       "WebFetch(domain:www.orfonline.org)",
       "WebFetch(domain:www.ibef.org)",
       "WebFetch(domain:ukhrultimes.com)",
-      "WebFetch(domain:informatics.nic.in)"
+      "WebFetch(domain:informatics.nic.in)",
+      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)"
     ]
   }
 }

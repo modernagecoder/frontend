@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Generate Appendices A-D for the Modern Age Coders knowledge base
+"""Generate Appendices A-E for the Modern Age Coders knowledge base
 straight from the repo, so the ~800 URLs are never hand-typed."""
 import re, json, os, glob
 from collections import defaultdict, Counter
@@ -96,6 +96,7 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'content/courses/data/*.json'))):
         'slug': m['slug'], 'title': clean(m.get('title')),
         'category': clean(m.get('category')), 'level': clean(m.get('level')),
         'duration': clean(m.get('duration')), 'file': os.path.basename(f),
+        'data': d,
     })
 # de-dupe on slug (applied-mathematics.json collides with data-analytics-mathematics.json)
 seen, uniq = set(), []
@@ -306,7 +307,9 @@ facts = {
     "pricing_currencies": pricing['display']['chargeCurrencies'],
     "pricing_updated": pricing['updated'],
     "premium_course_overrides": pricing['courseOverrides'],
-    "retired_never_quote": ["Rs 2499", "Rs 4999", "Rs 9999", "$40", "$149.99", "$374.99",
+    # Rs 9,999 is NOT retired: it is the India camp one-time fee AND the
+    # AI-agents monthly one-to-one rate (see pricing_ambiguous_figures).
+    "retired_never_quote": ["Rs 2499", "Rs 4999", "$40", "$149.99", "$374.99",
                             "any lifetime plan", "6 to 65", "500+ students", "247 reviews",
                             "15+ countries", "/courses/kids-ai-mastery-course"],
     "escalate_to_human": ["batch timings", "slot availability", "discounts",
@@ -325,6 +328,62 @@ lines.append('Paste this block straight into an agent prompt or a retrieval inde
 lines.append('```json')
 lines.append(json.dumps(facts, indent=2, ensure_ascii=False))
 lines.append('```')
+
+# ---------------------------------------------------------------- Appendix E
+# What each course actually teaches: phase outlines and the hands-on projects,
+# from the same JSON the course pages render. Parents get full transparency;
+# fees stay in section 3 / Appendix D so prices live in exactly one place.
+CURR_KEY = re.compile(r'^(phase|module|month|level|part|term|semester|stage|unit|week|curriculum|paper|topic)', re.I)
+
+def sec_lines(sec, depth):
+    out = []
+    if not isinstance(sec, dict):
+        return out
+    if sec.get('title'):
+        out.append('%s- %s' % ('  ' * depth, clean(str(sec['title']))))
+    if depth == 0 and sec.get('description'):
+        out.append('  ' + clean(str(sec['description'])))
+    for k, v in sec.items():
+        if k in ('title', 'description'):
+            continue
+        if isinstance(v, dict) and depth < 2:
+            out += sec_lines(v, depth + 1)
+    return out
+
+def collect_projects(o, acc):
+    if isinstance(o, dict):
+        pr = o.get('projects')
+        if isinstance(pr, list):
+            for p in pr:
+                if isinstance(p, str) and p not in acc:
+                    acc.append(p)
+        for v in o.values():
+            collect_projects(v, acc)
+
+lines.append('\n---\n')
+lines.append('## APPENDIX E: WHAT EACH COURSE TEACHES (curriculum outlines and projects)\n')
+lines.append('Share this freely and in detail when a parent or student asks what a course '
+             'covers - full transparency is the policy, and the course page has the '
+             'complete week-by-week plan. Fees are in section 3 and Appendix D; quote '
+             'only the fee that applies to where the asker lives.\n')
+for c in courses:
+    lines.append('\n### %s\n' % c['title'])
+    meta_bits = ['`/courses/%s`' % c['slug']]
+    if c['duration']:
+        meta_bits.append(c['duration'])
+    if c['level']:
+        meta_bits.append(c['level'])
+    lines.append(' · '.join(meta_bits) + '\n')
+    secs = [k for k in c['data'] if CURR_KEY.match(k) and isinstance(c['data'][k], dict)]
+    for k in secs:
+        lines += ['  ' + l for l in sec_lines(c['data'][k], 0)]
+    projects = []
+    collect_projects(c['data'], projects)
+    if projects:
+        shown = projects[:15]
+        more = len(projects) - len(shown)
+        lines.append('\n**Projects students build:** ' + '; '.join(clean(p) for p in shown) +
+                     (' - plus %d more on the course page.' % more if more else '.'))
 
 app = '\n'.join(lines)
 doc = open(PROSE, encoding='utf-8').read()

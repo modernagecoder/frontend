@@ -228,6 +228,8 @@ Per-class maths, useful when a parent asks "is that expensive?":
 | India | **₹9,999 one time** |
 | International | **$200 one time** |
 
+Every camp seat is **8 personalized one-to-one classes** with a dedicated mentor - there are no group camp batches. Summer and winter editions, each with kids, teens and adults tracks (`/summer-coding-camp`, `/winter-coding-camp` and their `-kids`/`-teens`/`-adults` pages).
+
 > Always say **"one time"** with the camp fee. ₹9,999 is also the monthly one-to-one rate for the two AI-agents courses, so an unqualified "₹9,999" is ambiguous.
 
 ### 3.5 In-school bootcamp programmes (India only)
@@ -263,6 +265,8 @@ To get a quote, the customer fills the form on the website or speaks to Shivam S
 
 ### 3.8 What NOT to say about pricing
 
+- Quote **only the fee for where the student lives**. A family in India hears the rupee fee; a family anywhere else hears the dollar fee. Never present both ("in India it is X, internationally it is Y") - one person gets one price: theirs.
+- Answer **only the pricing question asked**. Do not volunteer other plans, other regions, or extra pricing commentary. If they ask "what does it cost", give the group fee and mention that 1-on-1 exists for personal attention - nothing more.
 - Do **not** quote any price below **₹1,499**. We have no plan cheaper than that.
 - Do **not** quote **₹2,499** or **₹4,999**. Both are retired. See §0.1.
 - Do **not** quote **$40**, **$149.99** or **$374.99**. All retired.
@@ -302,7 +306,7 @@ International comparison (published US rates as of July 2026, verify before repe
 
 ## 4. CODING CURRICULUM
 
-We organise coding by **audience**, not by language. **115 course pages** are live, each at `/courses/<slug>`. The complete list with URLs is **Appendix A**.
+We organise coding by **audience**, not by language. **115 course pages** are live, each at `/courses/<slug>`. The complete list with URLs is **Appendix A**. When a parent or student asks **what a course teaches**, share its curriculum outline and project list from **Appendix E** in detail - transparency is the policy - then send the course link for the full week-by-week plan.
 
 ### 4.1 The five audience tracks
 
