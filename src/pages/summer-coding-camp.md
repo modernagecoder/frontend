@@ -1,10 +1,10 @@
 ---
 title: "Summer Coding Camp 2026 | Modern Age Coders"
-description: "Summer Coding Camp 2026 for Kids, Teens, and Adults. 16 Classes, 5 Projects. Python, AI, Game Dev, Web Development. ₹9,999 only. Enroll Now!"
+description: "Summer Coding Camp 2026 for Kids, Teens, and Adults. 8 One-to-One Classes, 5 Projects. Python, AI, Game Dev, Web Development. ₹9,999 only. Enroll Now!"
 canonical: https://learn.modernagecoders.com/summer-coding-camp
 source: src/pages/summer-coding-camp.html
 ---
-> Summer Coding Camp 2026 for Kids, Teens, and Adults. 16 Classes, 5 Projects. Python, AI, Game Dev, Web Development. ₹9,999 only. Enroll Now!
+> Summer Coding Camp 2026 for Kids, Teens, and Adults. 8 One-to-One Classes, 5 Projects. Python, AI, Game Dev, Web Development. ₹9,999 only. Enroll Now!
 
 ## Why Summer Coding?
 
@@ -14,9 +14,9 @@ No School Distractions2-3 Weeks Intensive5 Deployable ProjectsAdmissions Open Su
 
 # Build the Future
 
-The most immersive 16-session coding bootcamp. Master **AI, Games, and App Development** this summer.
+The most immersive 8-class one-to-one coding bootcamp. Master **AI, Games, and App Development** this summer.
 
-[Reserve Your Seat](/book-demo)View Curriculum**16 Sessions**Intensive**5 Projects**Portfolio**Summer 2026**Limited Seats The Experience
+[Reserve Your Seat](/book-demo)View Curriculum**8 One-to-One Classes**Intensive**5 Projects**Portfolio**Summer 2026**Limited Seats The Experience
 
 ## Your Summer Journey
 
@@ -144,7 +144,7 @@ Industry-ready skills and data science expertise.
 
 ### Small Batches
 
-Maximum 8 students per batch for personalized attention
+Every seat is one-to-one: a dedicated mentor, fully personalized attention
 
 ### Live Sessions
 

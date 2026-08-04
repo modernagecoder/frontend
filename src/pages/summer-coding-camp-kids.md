@@ -16,9 +16,9 @@ Most Popular
 
 ### Group Classes
 
-Learn with peers in small batches
+Learn one-to-one with a dedicated mentor
 
-₹4,999for 16 sessions
+₹4,999for 8 one-to-one classes
 
 - 16 Live Interactive Sessions
 - Small Batch (Max 8 Students)
@@ -69,7 +69,7 @@ Develop problem-solving skills, computational thinking, and logical reasoning th
 
 Detailed Syllabus
 
-## 16-Session Curriculum
+## One-to-One Curriculum
 
 A carefully designed learning journey spread across 2-3 weeks of summer
 

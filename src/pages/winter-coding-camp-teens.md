@@ -1,10 +1,10 @@
 ---
 title: "Winter Coding Camp for Teens 2026 (Ages 12–17) | Online Worldwide | Modern Age Coders"
-description: "Winter Coding Camp for Teens 2026 (Ages 12–17) — Online worldwide. Learn HTML, CSS, JavaScript, Python & AI in 16 live sessions. Build portfolio projects. ₹9,999 / $200. Enroll now!"
+description: "Winter Coding Camp for Teens 2026 (Ages 12–17) — Online worldwide. Learn HTML, CSS, JavaScript, Python & AI in 8 live one-to-one classes. Build portfolio projects. ₹9,999 / $200. Enroll now!"
 canonical: https://learn.modernagecoders.com/winter-coding-camp-teens
 source: src/pages/winter-coding-camp-teens.html
 ---
-> Winter Coding Camp for Teens 2026 (Ages 12–17) — Online worldwide. Learn HTML, CSS, JavaScript, Python & AI in 16 live sessions. Build portfolio projects. ₹9,999 / $200. Enroll now!
+> Winter Coding Camp for Teens 2026 (Ages 12–17) — Online worldwide. Learn HTML, CSS, JavaScript, Python & AI in 8 live one-to-one classes. Build portfolio projects. ₹9,999 / $200. Enroll now!
 
 Investment
 
@@ -18,7 +18,7 @@ Most Popular
 
 Collaborative learning with peers worldwide
 
-₹4,999for 16 sessions
+₹4,999for 8 one-to-one classes
 
 - 16 Live Interactive Sessions
 - Small Batch (Max 8 Students)
@@ -70,7 +70,7 @@ Build a personal portfolio website showcasing all your projects. A live, deploye
 
 Complete Syllabus
 
-## 16-Session Curriculum
+## One-to-One Curriculum
 
 Industry-aligned learning path designed for aspiring teen developers
 
@@ -234,7 +234,7 @@ All sessions are recorded. You can watch the recording anytime and schedule a 15
 
 ## Start Building Your Future
 
-Limited seats per batch. Winter 2026 enrollment is now open worldwide.
+Limited one-to-one seats. Winter 2026 enrollment is now open worldwide.
 
 Questions? Call or WhatsApp:[**+91 91233 66161**](tel:+919123366161)
 

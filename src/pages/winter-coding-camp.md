@@ -1,10 +1,10 @@
 ---
 title: "Winter Coding Camp 2026 | Online Worldwide | Modern Age Coders"
-description: "Winter Coding Camp 2026 — Online coding bootcamp for Kids, Teens & Adults worldwide. 16 live sessions, 5 real projects. Learn Python, AI, Web Dev & more. Enroll from anywhere in the world. ₹9,999 / $200."
+description: "Winter Coding Camp 2026 — Online coding bootcamp for Kids, Teens & Adults worldwide. 8 live one-to-one classes, 5 real projects. Learn Python, AI, Web Dev & more. Enroll from anywhere in the world. ₹9,999 / $200."
 canonical: https://learn.modernagecoders.com/winter-coding-camp
 source: src/pages/winter-coding-camp.html
 ---
-> Winter Coding Camp 2026 — Online coding bootcamp for Kids, Teens & Adults worldwide. 16 live sessions, 5 real projects. Learn Python, AI, Web Dev & more. Enroll from anywhere in the world. ₹9,999 / $200.
+> Winter Coding Camp 2026 — Online coding bootcamp for Kids, Teens & Adults worldwide. 8 live one-to-one classes, 5 real projects. Learn Python, AI, Web Dev & more. Enroll from anywhere in the world. ₹9,999 / $200.
 
 ## Why Winter Coding?
 
@@ -14,9 +14,9 @@ No School Distractions3-Week Intensive5 Deployable ProjectsStudents from 25+ Cou
 
 # Code the Future
 
-The most immersive 16-session online coding bootcamp — accessible from **anywhere in the world**. Master AI, Games, and App Development during your winter break.
+The most immersive 8-class one-to-one online coding bootcamp — accessible from **anywhere in the world**. Master AI, Games, and App Development during your winter break.
 
-[Reserve Your Seat](/book-demo)View Curriculum**16 Sessions**Live & Interactive**5 Projects**Portfolio-Ready**Worldwide**100% Online**Max 8**Students / BatchThe Journey
+[Reserve Your Seat](/book-demo)View Curriculum**8 One-to-One Classes**Live & Interactive**5 Projects**Portfolio-Ready**Worldwide**100% Online**Max 8**Students / BatchThe Journey
 
 ## Your Winter Journey
 
@@ -108,7 +108,7 @@ Industry-recognized certificate of completion. Add it to your LinkedIn, resume, 
 
 ## Start Building Your Future
 
-Limited seats per batch. Winter 2026 enrollment is now open for students worldwide.
+Limited one-to-one seats. Winter 2026 enrollment is now open for students worldwide.
 
 [Reserve Your Seat Now](/book-demo)Questions? Call or WhatsApp:[**+91 91233 66161**](tel:+919123366161)
 

@@ -1,10 +1,10 @@
 ---
 title: "Summer Coding Bootcamp for Adults 2026 (18+) | Online Worldwide | Modern Age Coders"
-description: "Summer Coding Bootcamp 2026 for Adults 18+. Master Python, Data Science, AI Integration in 16 live sessions. Career-ready skills, flexible scheduling across time zones!"
+description: "Summer Coding Bootcamp 2026 for Adults 18+. Master Python, Data Science, AI Integration in 8 live one-to-one classes. Career-ready skills, flexible scheduling across time zones!"
 canonical: https://learn.modernagecoders.com/summer-coding-camp-adults
 source: src/pages/summer-coding-camp-adults.html
 ---
-> Summer Coding Bootcamp 2026 for Adults 18+. Master Python, Data Science, AI Integration in 16 live sessions. Career-ready skills, flexible scheduling across time zones!
+> Summer Coding Bootcamp 2026 for Adults 18+. Master Python, Data Science, AI Integration in 8 live one-to-one classes. Career-ready skills, flexible scheduling across time zones!
 
 Investment
 
@@ -18,7 +18,7 @@ Best Value
 
 Intensive learning with peer support
 
-₹4,999for 16 sessions
+₹4,999for 8 one-to-one classes
 
 - 16 Intensive Live Sessions
 - Small Batch (Max 8 Learners)
@@ -90,7 +90,7 @@ Deploy your projects to production. GitHub, cloud hosting, and professional depl
 
 Professional Training
 
-## 16-Session Curriculum
+## One-to-One Curriculum
 
 Intensive, industry-aligned training designed for working professionals
 

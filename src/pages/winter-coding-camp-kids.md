@@ -1,10 +1,10 @@
 ---
 title: "Winter Coding Camp for Kids 2026 (Ages 6–11) | Online Worldwide | Modern Age Coders"
-description: "Winter Coding Camp for Kids 2026 (Ages 6–11) — Online worldwide. Learn Scratch, Python & build fun games in 16 live sessions. ₹9,999 / $200. Enroll now!"
+description: "Winter Coding Camp for Kids 2026 (Ages 6–11) — Online worldwide. Learn Scratch, Python & build fun games in 8 live one-to-one classes. ₹9,999 / $200. Enroll now!"
 canonical: https://learn.modernagecoders.com/winter-coding-camp-kids
 source: src/pages/winter-coding-camp-kids.html
 ---
-> Winter Coding Camp for Kids 2026 (Ages 6–11) — Online worldwide. Learn Scratch, Python & build fun games in 16 live sessions. ₹9,999 / $200. Enroll now!
+> Winter Coding Camp for Kids 2026 (Ages 6–11) — Online worldwide. Learn Scratch, Python & build fun games in 8 live one-to-one classes. ₹9,999 / $200. Enroll now!
 
 Investment
 
@@ -18,7 +18,7 @@ Most Popular
 
 Collaborative learning with peers worldwide
 
-₹4,999for 16 sessions
+₹4,999for 8 one-to-one classes
 
 - 16 Live Interactive Sessions
 - Small Batch (Max 8 Kids)
@@ -70,7 +70,7 @@ Learn to break big problems into small steps, spot patterns, and think algorithm
 
 Complete Syllabus
 
-## 16-Session Curriculum
+## One-to-One Curriculum
 
 A carefully designed journey from curious beginner to confident creator
 
@@ -234,7 +234,7 @@ All sessions are recorded. Your child can watch the recording anytime and schedu
 
 ## Give Your Child a Head Start
 
-Limited seats per batch. Winter 2026 enrollment is now open worldwide.
+Limited one-to-one seats. Winter 2026 enrollment is now open worldwide.
 
 Questions? Call or WhatsApp:[**+91 91233 66161**](tel:+919123366161)
 

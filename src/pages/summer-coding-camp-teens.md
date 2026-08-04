@@ -1,10 +1,10 @@
 ---
 title: "Summer Coding Camp for Teens 2026 (Ages 12-17) | Online Worldwide | Modern Age Coders"
-description: "Summer Coding Camp 2026 for Teens Ages 12-17. Learn HTML, CSS, JavaScript, Python, AI Tools in 16 live sessions. Build real projects. Students worldwide — limited seats!"
+description: "Summer Coding Camp 2026 for Teens Ages 12-17. Learn HTML, CSS, JavaScript, Python, AI Tools in 8 live one-to-one classes. Build real projects. Students worldwide — limited seats!"
 canonical: https://learn.modernagecoders.com/summer-coding-camp-teens
 source: src/pages/summer-coding-camp-teens.html
 ---
-> Summer Coding Camp 2026 for Teens Ages 12-17. Learn HTML, CSS, JavaScript, Python, AI Tools in 16 live sessions. Build real projects. Students worldwide — limited seats!
+> Summer Coding Camp 2026 for Teens Ages 12-17. Learn HTML, CSS, JavaScript, Python, AI Tools in 8 live one-to-one classes. Build real projects. Students worldwide — limited seats!
 
 Investment
 
@@ -18,7 +18,7 @@ Most Popular
 
 Collaborative learning with peers
 
-₹4,999for 16 sessions
+₹4,999for 8 one-to-one classes
 
 - 16 Live Interactive Sessions
 - Small Batch (Max 8 Students)
@@ -70,7 +70,7 @@ Build a personal portfolio website showcasing your projects. Stand out in colleg
 
 Complete Syllabus
 
-## 16-Session Curriculum
+## One-to-One Curriculum
 
 Industry-aligned learning path designed for aspiring teen developers
 

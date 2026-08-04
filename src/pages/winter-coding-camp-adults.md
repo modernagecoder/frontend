@@ -1,10 +1,10 @@
 ---
 title: "Winter Coding Camp for Adults 2026 (Ages 18+) | Online Worldwide | Modern Age Coders"
-description: "Winter Coding Camp for Adults 2026 (Ages 18+) — Online worldwide. Learn Web Development, Python, AI & Data Science in 16 live sessions. Career change or upskill. ₹9,999 / $200."
+description: "Winter Coding Camp for Adults 2026 (Ages 18+) — Online worldwide. Learn Web Development, Python, AI & Data Science in 8 live one-to-one classes. Career change or upskill. ₹9,999 / $200."
 canonical: https://learn.modernagecoders.com/winter-coding-camp-adults
 source: src/pages/winter-coding-camp-adults.html
 ---
-> Winter Coding Camp for Adults 2026 (Ages 18+) — Online worldwide. Learn Web Development, Python, AI & Data Science in 16 live sessions. Career change or upskill. ₹9,999 / $200.
+> Winter Coding Camp for Adults 2026 (Ages 18+) — Online worldwide. Learn Web Development, Python, AI & Data Science in 8 live one-to-one classes. Career change or upskill. ₹9,999 / $200.
 
 Investment
 
@@ -18,7 +18,7 @@ Most Popular
 
 Collaborative learning with peers worldwide
 
-₹4,999for 16 sessions
+₹4,999for 8 one-to-one classes
 
 - 16 Live Interactive Sessions
 - Small Batch (Max 8 Participants)
@@ -71,7 +71,7 @@ Deploy your projects live using GitHub Pages, Vercel, and basic cloud hosting. Y
 
 Complete Syllabus
 
-## 16-Session Curriculum
+## One-to-One Curriculum
 
 A career-focused curriculum designed to get you job-ready as fast as possible
 
@@ -191,7 +191,7 @@ Your career portfolio — live, polished, and job-ready
 
 #### Career Switch to Tech
 
-Junior developer, data analyst, AI product manager — these roles are accessible after 16 focused sessions. Thousands have made this switch.
+Junior developer, data analyst, AI product manager — these roles are accessible after 8 focused one-to-one classes. Thousands have made this switch.
 
 #### Supercharge Your Current Role
 
@@ -221,9 +221,9 @@ Absolutely. We schedule evening and weekend batches specifically for working pro
 
 Yes! We have learners from 25+ countries. International participants pay $200 USD. Contact us to find a time-zone-friendly batch. All sessions are 100% online via Zoom.
 
-#### Will 16 sessions really be enough to get a job?
+#### Will 8 classes really be enough to get a job?
 
-These 16 sessions give you the foundation and portfolio to start applying for junior roles and freelance work. Most career switchers continue learning independently after the camp — but the first job is achievable within 3–6 months of completing this.
+These 8 one-to-one classes give you the foundation and portfolio to start applying for junior roles and freelance work. Most career switchers continue learning independently after the camp — but the first job is achievable within 3–6 months of completing this.
 
 #### What age is too old to learn coding?
 
@@ -235,7 +235,7 @@ All sessions are recorded. Watch anytime and book a 15-minute 1:1 catch-up with 
 
 ## Your Career Change Starts Here
 
-Limited seats per batch. Winter 2026 enrollment is now open worldwide.
+Limited one-to-one seats. Winter 2026 enrollment is now open worldwide.
 
 Questions? Call or WhatsApp:[**+91 91233 66161**](tel:+919123366161)
 
