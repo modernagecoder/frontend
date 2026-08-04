@@ -112,3 +112,6 @@ design-system/dist/
 *.backup
 /src/pages/about.html.txt
 /src/pages/course.txt
+
+# knowledge base: regenerable intermediate (scripts/kb/make_pdf.py rewrites it)
+docs/_kb-v2.html

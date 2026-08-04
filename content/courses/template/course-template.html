@@ -215,8 +215,13 @@
                 </div>
             </div>
 
-            <!-- International Pricing (editorial) -->
-            <div class="cd-intl">
+            <!-- International Pricing (editorial). Ships hidden and is revealed
+                 by international-pricing.js for non-India visitors only: the
+                 data-price anchors inside re-price to the VISITOR's region, so
+                 for an Indian family this block would show rupee figures under
+                 a "USD / month" label (owner screenshot, 2026-08-04). India
+                 already has its own cards above. -->
+            <div class="cd-intl" data-intl-only="true" hidden>
                 <div class="cd-intl-head">
                     <div class="cd-intl-globe">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
@@ -246,7 +251,7 @@
                         <a href="javascript:void(0)" onclick="showInternationalContactModal('Personalized Mentorship', (this.closest('.cd-intl-card').querySelector('[data-price]')||{}).textContent || '')" class="cd-intl-btn">Enroll Now</a>
                     </div>
                 </div>
-                <p class="cd-intl-more">Also available in EUR, GBP, CAD, AUD, SGD &amp; AED. <a href="/contact/">Contact us</a> for details.</p>
+                <p class="cd-intl-more">Billed monthly in US dollars, the same price in every country. <a href="/contact/">Contact us</a> with any questions.</p>
             </div>
         </section>
 

@@ -4,7 +4,9 @@
 
 > **Purpose.** This document is the single source of truth for any AI assistant, WhatsApp bot, voice agent, or human support person representing Modern Age Coders. Read it top to bottom before answering customers. When uncertain, default to the answers and tone in this document. Anything not covered here, route to a human (Shivam Sir).
 >
-> **How this version was built.** Every number, price, URL and policy below was read directly out of the live codebase on 4 August 2026: prices from `pricing/pricing.config.jsonc`, self-claims from `scripts/brand-facts.json`, URLs from the seven sitemaps cross-checked against the Netlify routing table, and policies from the published policy pages. Nothing was carried forward from the April document on trust. The full site link check passed with 0 broken internal links across 53,903 link instances.
+> **How this version was built.** Every number, price, URL and policy below was read directly out of the live codebase on 4 August 2026: prices from `pricing/pricing.config.jsonc` (config dated **2026-08-03**, commit `e41a8e14`), self-claims from `scripts/brand-facts.json`, URLs from the seven sitemaps cross-checked against the Netlify routing table, and policies from the published policy pages. Nothing was carried forward from the April document on trust. The full site link check passed with 0 broken internal links across 53,903 link instances.
+>
+> **When prices change again**, do not hand-edit this document. Change `pricing/pricing.config.jsonc`, then regenerate: the price sections and Appendix D are built from that file.
 
 ---
 
@@ -64,6 +66,7 @@ These are places where the live website currently contradicts itself. Until the 
 | **Team size** | The April document claimed "50+ instructors and staff". This number is **not** in `brand-facts.json` and is not evidenced anywhere in the codebase. | Do not quote a team size. Say "a team of professional engineers and educators". |
 | **"500+ families from Delhi's top schools"** | Appears on 14 DPS pages, flagged in `brand-facts.json` as unevidenced. | Do not repeat this claim in chat. |
 | **Physical office** | `/contact` publishes a Kolkata address; the April document said "no physical campus to visit". | Both are true if phrased correctly: see §2 and §14 Q38. All teaching is online; the Kolkata address is the registered office, not a campus students attend. |
+| **Stale comment in the pricing config** | The comment above the `agents` block in `pricing/pricing.config.jsonc` still reads "Currently priced the SAME as everything else", but the value beneath it is now ₹9,999. The comment was not updated when the price was. | Trust the **value**, not the comment. AI-agents one-to-one is **₹9,999**. Worth a one-line fix in the repo. |
 
 ---
 
@@ -399,7 +402,7 @@ Full list in Appendix B.
 
 ### 4.12 Camps (seasonal)
 
-Summer and winter camps, each with kids, teens and adults variants: `/summer-coding-camp`, `/summer-coding-camp-kids`, `/summer-coding-camp-teens`, `/summer-coding-camp-adults`, and the same pattern for `/winter-coding-camp`. Priced as a one-time payment: **₹4,999 in India, $60 international**.
+Summer and winter camps, each with kids, teens and adults variants: `/summer-coding-camp`, `/summer-coding-camp-kids`, `/summer-coding-camp-teens`, `/summer-coding-camp-adults`, and the same pattern for `/winter-coding-camp`. Priced as a **one-time payment: ₹9,999 in India, $200 international**. See §3.4, and always say "one time" so it is not mistaken for a monthly fee.
 
 ---
 
