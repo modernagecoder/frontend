@@ -115,3 +115,4 @@ design-system/dist/
 
 # knowledge base: regenerable intermediate (scripts/kb/make_pdf.py rewrites it)
 docs/_kb-v2.html
+docs/_kb-agent.html

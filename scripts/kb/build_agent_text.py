@@ -657,6 +657,346 @@ for idx, (slug, m, d) in enumerate(courses, 1):
     out('  +91 9123366161, or send the parent this link: %s' % url)
     out()
 
+# ================================================================ PART 7
+rule()
+out('PART 7. HOW SOMEONE JOINS')
+rule()
+out()
+out('THE STEPS, IN ORDER')
+out()
+out('  1. First chat. Find out the age, the subject, the current level and the goal.')
+out('  2. Free demo class. One live class with a real teacher. No card. Parent may sit in.')
+out('  3. Pick a plan. Group, mini batch or one to one.')
+out('  4. Shivam Sir matches the student to a batch that fits their timetable.')
+out('  5. Pay the first month through a secure link.')
+out('  6. The student gets dashboard access, the class link and the recordings.')
+out('  7. Classes begin.')
+out('  8. Progress updates go to the parent every month.')
+out()
+out('WHAT TO COLLECT BEFORE HANDING A LEAD OVER')
+out()
+bullets([
+    'Student full name.',
+    'Age, and school class or grade.',
+    'School and board if it is a school subject (CBSE, ICSE, IGCSE, IB, state board).',
+    'Parent name.',
+    'Parent WhatsApp number, with the country code.',
+    'City and country, so we know the time zone.',
+    'Subject wanted: coding, maths, or both.',
+    'The goal: school marks, board exam, hobby, Olympiad, college prep, a job.',
+    'Roughly when they are free: weekdays or weekends, morning or evening.',
+    'Preferred language: English or Hindi.',
+])
+out()
+out('WHAT THE FREE DEMO ACTUALLY IS')
+out()
+bullets([
+    'A full live class with a real teacher, not a sales call and not a recording.',
+    'Free. No card details are ever asked for.',
+    'The parent is welcome to watch.',
+    'It doubles as a placement check, so the teacher recommends the right starting point.',
+    'One free demo per student.',
+    'If the child does not enjoy it, the family walks away owing nothing.',
+])
+out()
+para('If a parent wants to judge us before booking, offer this: they can watch recordings of '
+     'real, unedited classes first.')
+out()
+
+# ================================================================ PART 8
+rule()
+out('PART 8. REFUND AND CANCELLATION. READ THIS OUT EXACTLY, DO NOT REWORD IT')
+rule()
+out()
+out('REFUND POLICY')
+out()
+para('Modern Age Coders offers a 7 day money back guarantee on all online courses, provided '
+     'you have not completed more than 20 percent of the course content.', '  ')
+out()
+out('  To be eligible:')
+bullets(['The request must come within 7 days of the original purchase date.',
+         'Refunds apply to the first purchase only, not to renewals or repeat subscriptions.'],
+        '    ')
+out()
+out('  Not refundable:')
+bullets(['Courses where more than 20 percent of the content has been viewed or downloaded.',
+         'One to one mentorship sessions that have already been taught.',
+         'Customised bootcamps or special arrangements.'], '    ')
+out()
+para('Once a refund is approved it goes back to the original payment method. The credit '
+     'appears within 7 to 10 business days, depending on the card issuer.', '  ')
+out()
+para('To request one, email contact@modernagecoders.com with the order details and the '
+     'reason.', '  ')
+out()
+out('CANCELLATION POLICY')
+out()
+bullets([
+    'Enrolment can be cancelled at any time. A cancellation after a live batch has started, '
+    'or after materials have been accessed, falls under the refund policy above.',
+    'A recurring subscription can be cancelled any time from the account dashboard. It takes '
+    'effect at the end of the current billing cycle and there is no further charge.',
+    'We may cancel or reschedule a course if too few students enrol or something unforeseen '
+    'happens. Those students get a full refund or a transfer to another schedule.',
+    'After cancelling, access continues until the end of the billing period already paid for.',
+    'To cancel: use account settings, or email contact@modernagecoders.com.',
+])
+out()
+out('IF SOMEONE ASKS "WHAT IF WE ARE NOT HAPPY?"')
+out()
+para('Say: "There is a 7 day money back guarantee. If in the first week you have used less '
+     'than 20 percent of the course and it is not right for you, we refund it in full. And '
+     'before any of that, the demo class is free, so you see the teaching before you pay '
+     'anything at all."', '  ')
+out()
+
+# ================================================================ PART 9
+sm = set()
+for f in glob.glob(os.path.join(ROOT, 'sitemap*.xml')):
+    if 'index' in f:
+        continue
+    for u in re.findall(r'<loc>\s*(.*?)\s*</loc>',
+                        open(f, encoding='utf-8', errors='replace').read()):
+        u = u.strip().rstrip('/')
+        if u.startswith(SITE) and not u.endswith('.xml'):
+            sm.add(u[len(SITE):] or '/')
+
+def group(pred):
+    return sorted(u for u in sm if pred(u))
+
+cities = group(lambda u: u.startswith('/best-coding-class-in-'))
+localities = group(lambda u: u.startswith('/coding-classes-near-'))
+countries = group(lambda u: u.startswith('/coding-classes-in-'))
+schools = group(lambda u: u.startswith('/coding-classes-for-') or u.startswith('/coding-and-maths-for-'))
+byage = group(lambda u: re.match(r'^/(coding|python)-for-\d+-year-olds$', u))
+byclass = group(lambda u: re.match(r'^/(coding|python|maths)-for-class-\d+', u))
+blogs = group(lambda u: u.startswith('/blog/') and '/topic/' not in u)
+
+rule()
+out('PART 9. OTHER PAGES YOU CAN SEND A PARENT')
+rule()
+out()
+out('THE PAGES PARENTS ASK FOR MOST')
+out()
+for label, path in [
+        ('All courses', '/courses'), ('Prices', '/pricing'),
+        ('Book a free demo', '/book-demo'), ('Free trial class', '/free-trial'),
+        ('Our zero risk promise', '/guarantee'), ('How we teach', '/how-we-teach'),
+        ('About us', '/about'), ('Contact us', '/contact'),
+        ('Reviews from families', '/love'), ('Student success stories', '/success-stories'),
+        ('Real student projects', '/student-labs'), ('Course atlas, every course on one page', '/course-atlas'),
+        ('What to learn and in what order', '/coding-roadmap'),
+        ('Work out your monthly fee', '/coding-fee-calculator'),
+        ('Free resources', '/free-resources'), ('Blog', '/blog'),
+        ('Schools programme', '/schools'), ('For businesses', '/for-business'),
+        ('Refund policy', '/refund'), ('Cancellation policy', '/cancellation'),
+        ('Which AI tools are safe at which age', '/ai-tools-age-guide')]:
+    out('  %-46s %s%s' % (label, SITE, path))
+out()
+out('FREE THINGS TO PLAY WITH. Good for a parent who is unsure.')
+out()
+out('  %-46s %s/beat-the-babu' % ('Beat the Babu, 90 second maths game', SITE))
+out('  %-46s %s/aura' % ('Aura Type, typing game', SITE))
+out('  %-46s %s/coding-challenges' % ('Daily coding challenges', SITE))
+out('  %-46s %s/maths-challenges' % ('Maths challenges', SITE))
+out('  %-46s %s/mistakes-students-make' % ('Mistakes students make', SITE))
+out('  %-46s https://misti.modernagecoders.com' % 'Misti AI, our study assistant')
+out('  %-46s https://mind.modernagecoders.com' % 'The Beautiful Mind, our blog')
+out()
+out('  Student dashboard        https://dashboard.modernagecoders.com')
+out('  Mark attendance          https://dashboard.modernagecoders.com/attendance')
+out('  Class recordings         https://dashboard.modernagecoders.com/recording')
+out()
+for title, urls in [
+        ('CITY PAGES IN INDIA', cities),
+        ('AREAS IN AND AROUND KOLKATA', localities),
+        ('COUNTRY AND REGION PAGES', countries),
+        ('SCHOOL PAGES', schools),
+        ('PAGES BY THE CHILD\'S AGE', byage),
+        ('PAGES BY SCHOOL CLASS', byclass)]:
+    if not urls:
+        continue
+    out('%s (%d pages)' % (title, len(urls)))
+    out()
+    for u in urls:
+        out('  %s%s' % (SITE, u))
+    out()
+out('BLOG ARTICLES (%d)' % len(blogs))
+out()
+for u in blogs:
+    out('  %s%s' % (SITE, u))
+out()
+
+# ================================================================ PART 10
+rule()
+out('PART 10. GENERAL QUESTIONS AND THE ANSWERS TO GIVE')
+rule()
+out()
+GEN = [
+ ('What is Modern Age Coders?',
+  'We teach live online coding and mathematics to learners aged %s. Kids, teens, college '
+  'students, working professionals and corporate teams. We also build software for '
+  'businesses, which is how our advanced students get real project experience.' % BF['ages']),
+ ('Does my child need any experience?',
+  'No. Our beginner courses start from the very beginning and most of our students start with '
+  'zero experience.'),
+ ('Are the classes live or recorded?',
+  'Every class is live with a real teacher. Recordings are provided as well, so a missed class '
+  'can be caught up.'),
+ ('What does my child need at home?',
+  'A computer, Windows, Mac or Chromebook, and steady internet. Most courses run in the '
+  'browser so nothing needs installing. A webcam and microphone help, and for maths a notebook '
+  'and pen.'),
+ ('How many classes a week?',
+  'Two live classes a week, one hour each, which is eight classes a month.'),
+ ('How big are the batches?',
+  'Group classes are capped at 10 students. A mini batch is just 3 to 4. One to one is a '
+  'single student with their own mentor.'),
+ ('How long does a course take?',
+  'Beginner courses usually run 3 to 6 months. Advanced ones run 6 to 9 months. Custom '
+  'programmes are flexible.'),
+ ('What ages do you teach?',
+  'From 6 to 67. Kids are 6 to 12, teens are 13 to 18, and then college students and adults.'),
+ ('Is there a free class?',
+  'Yes. One free demo class per student, with a real teacher, and we never ask for card '
+  'details. Parents are welcome to sit in.'),
+ ('What if we miss a class?',
+  'Every class is recorded, so it can be watched later. For one to one classes we can often '
+  'reschedule if you tell us in advance.'),
+ ('Can we pause?',
+  'Yes, for exams or holidays. Tell us about a week ahead and we hold the spot.'),
+ ('Can we switch from group to one to one later?',
+  'Yes, any time. Tell us a few days before the next billing date and we adjust it.'),
+ ('Do you give a certificate?',
+  'Yes, when the course is completed. It lists the skills learned and the projects built.'),
+ ('Can parents see progress?',
+  'Yes. Progress reports go to parents, teachers give feedback in review sessions, there are '
+  'monthly tests, and the one to one plan includes a monthly parent and mentor call.'),
+ ('What if my child finds a topic hard?',
+  'We add extra doubt clearing sessions and one to one help. No student is left behind.'),
+ ('Which boards do you cover?',
+  'CBSE, ICSE, IGCSE, IB, A Level and GCSE, American Common Core and AP, Singapore MOE, and '
+  'most major Indian state boards.'),
+ ('Do you prepare for Olympiads and competitive exams?',
+  'Yes. Coding competitions and hackathons, and maths Olympiads including AMC, MATHCOUNTS, '
+  'AIME, USAMO, IMO and the Indian Olympiads. Also SAT, AP, A Level, GCSE, IGCSE, IB, JEE, '
+  'PSLE, 11 plus and the CBSE and ICSE boards.'),
+ ('Are there girls only batches?',
+  'Yes. Princess Coders for beginners and intermediate, Queen Coders for advanced, and Alpha '
+  'Girls for elite level. There is also a comeback programme for women returning to tech.'),
+ ('Do you teach AI?',
+  'Yes. AI Literacy for Kids from age 8, AI and machine learning for teens and college, and '
+  'our AI coding agent courses for 13 and above. We also publish a guide to the real minimum '
+  'age of 124 AI tools, because many of them set their own age limits.'),
+ ('Can college students and working adults join?',
+  'Yes. We have full tracks for college students and for working professionals, including '
+  'career changes and interview preparation.'),
+ ('Do you do corporate training?',
+  'Yes, for company teams. The curriculum is built around what the team actually needs. It is '
+  'quoted per company, so take the requirement and pass it to Shivam Sir.'),
+ ('Where is your office? Can we visit?',
+  'We are an online school, so every class happens live over video and there is no campus to '
+  'visit. Our registered office is 1B, JK Ambika Tower, Kolkata, West Bengal 700002.'),
+ ('Are your teachers qualified?',
+  'Yes. They are professional engineers and educators, and many of them work on real software '
+  'projects with our business clients, so they teach what they actually use.'),
+ ('Is my child too young at 5?',
+  'Our programmes start at 6. For a 5 year old, ask Shivam Sir on +91 9123366161. Depending on '
+  'the child he may suggest a starter session or suggest waiting a few months.'),
+ ('I am 50 or 60. Am I too old?',
+  'Not at all. We teach up to 67 and we have working professionals and retired learners. One '
+  'to one usually suits adult learners best because we pace it around your schedule.'),
+ ('Do you help with internships or real projects?',
+  'Yes. Advanced students get the chance to work on real client projects.'),
+ ('Can I gift a course?',
+  'Yes. We can invoice in the gifter\'s name and the student attends under their own login. '
+  'Ask Shivam Sir to set it up.'),
+ ('Do you have a mobile app?',
+  'Classes are joined from a computer through the browser, so there is nothing to install. '
+  'The student dashboard is at dashboard.modernagecoders.com.'),
+ ('Can we join in the middle of the month?',
+  'Yes. We either place the student in a batch already running or start a new one.'),
+]
+for q, a in GEN:
+    out('Q: %s' % q)
+    para('A: %s' % a, '   ')
+    out()
+
+# ================================================================ PART 11
+rule()
+out('PART 11. READY MADE REPLIES')
+rule()
+out()
+out('FIRST MESSAGE')
+out()
+para('"Hello, welcome to Modern Age Coders. I can help you with our live coding and maths '
+     'classes. Could you tell me the learner\'s age, and whether you are looking for coding, '
+     'maths or both? I will point you to the right starting place."', '  ')
+out()
+out('WHEN THEY ASK THE PRICE. Give only their own region, never both.')
+out()
+out('  If they are in India:')
+para('"Our classes are %s a month for a group class, %s for a mini batch of just 3 to 4 '
+     'students, and %s a month for fully one to one. That includes two live one hour classes '
+     'every week, recordings, doubt support and a certificate. The first class is free, would '
+     'you like me to book it?"'
+     % (rupee(PLANS['coding']['india']['group']),
+        rupee(PLANS['coding']['india']['miniBatch']),
+        rupee(PLANS['coding']['india']['personal'])), '    ')
+out()
+out('  If they are outside India:')
+para('"Our classes are $%s a month for a group class and $%s a month for fully one to one. '
+     'That includes two live one hour classes every week, recordings, doubt support and a '
+     'certificate. The first class is free, would you like me to book it?"'
+     % (PLANS['coding']['international']['group'],
+        PLANS['coding']['international']['personal']), '    ')
+out()
+out('  For maths in India the one to one rate is %s a month. Everything else is the same.'
+    % rupee(PLANS['maths']['india']['personal']))
+out()
+out('WHEN THEY ASK ABOUT TIMINGS')
+out()
+para('"We run batches on weekday evenings and on weekend mornings and afternoons, and we have '
+     'slots for other time zones too. To match you to the one that fits your child\'s school '
+     'routine, please message Shivam Sir on +91 9123366161. He arranges every batch himself."',
+     '  ')
+out()
+out('WHEN THEY ASK "IS IT WORTH IT?"')
+out()
+para('"The honest answer is to try the free class. No card, no commitment, one real lesson '
+     'with an actual teacher. You will know within the hour whether it suits your child, and '
+     'the teacher will tell you honestly where they should start. Shall I book it? I just need '
+     'the student\'s name, age and your WhatsApp number."', '  ')
+out()
+out('WHEN THEY ASK FOR A DISCOUNT')
+out()
+para('"Let me check the current offers with Shivam Sir. There are discounts for paying '
+     'quarterly or yearly, and sometimes for siblings. Please message him on +91 9123366161 '
+     'and he will tell you what is available right now."', '  ')
+out()
+out('WHEN THE COST WORRIES THEM')
+out()
+para('"I understand. Two things may help. The demo class is completely free and needs no card, '
+     'so you can see the teaching before spending anything. And there is no lock in, no '
+     'registration fee and no long package. You can stop any month. Would you like to try the '
+     'free class first?"', '  ')
+out()
+out('CLOSING THE CONVERSATION')
+out()
+para('"Shall I book your free class? I just need three things: the student\'s name and age, '
+     'whether you want coding or maths, and your WhatsApp number with country code. Once I '
+     'have those, Shivam Sir will confirm the time."', '  ')
+out()
+out('WHEN YOU DO NOT KNOW THE ANSWER')
+out()
+para('"That is a good question and I want to give you the right answer rather than guess. '
+     'Please message Shivam Sir on +91 9123366161 and he will help you personally within a few '
+     'hours."', '  ')
+out()
+rule()
+out('END OF KNOWLEDGE BASE. WHEN IN DOUBT, SEND THEM TO SHIVAM SIR ON +91 9123366161.')
+rule()
+
 open(OUT, 'w', encoding='utf-8', newline='\n').write('\n'.join(L) + '\n')
 print('courses written :', len(courses))
 print('lines           :', len(L))
