@@ -117,6 +117,22 @@
         "mainEntity": [
             {
                 "@type": "Question",
+                "name": "Can I see how you teach before booking a demo?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, instantly. We keep two open libraries of full, real, unedited class recordings: one for kids aged 6 to 12 and one for teens and adults, which also covers our maths classes. They are free to watch, no payment or card, just a quick Google sign-in. Best on a computer or laptop: click a library link, choose Watch Recording, sign in with Google, and in a few seconds the dashboard opens with all recordings. Some classes are in English and some in Hindi, and the libraries are updated frequently with our latest classes. Watch a class end to end, like you are in it: sessions are interactive, and each moment builds on the last."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do I have to wait for a live demo to start?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Live demos are typically scheduled within 48 hours because our mentors teach live for most of the day, but our free open recording libraries are available right now. Watch a full class today, and if it answers everything, you can enrol straight away without waiting for the demo."
+                }
+            },
+            {
+                "@type": "Question",
                 "name": "Is the demo class really free?",
                 "acceptedAnswer": {
                     "@type": "Answer",
@@ -160,7 +176,7 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
     <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
-    <link rel="stylesheet" href="/css/book-demo-redesign.css?v=20260705">
+    <link rel="stylesheet" href="/css/book-demo-redesign.css?v=20260806">
 
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
@@ -413,14 +429,24 @@
             <p>Experience our world-class teaching before you commit. Try a live 1-on-1 session with our expert
                 instructors — absolutely free, no strings attached.</p>
 
-            <a href="/how-we-teach" class="demo-alt-link">
-                Prefer to explore first? Watch real recorded classes
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <line x1="5" y1="12" x2="19" y2="12" />
-                    <polyline points="12 5 19 12 12 19" />
-                </svg>
-            </a>
+            <div class="bd-watch-strip">
+                <p class="bd-watch-lead">Live demos are typically scheduled within 48 hours, because our mentors spend
+                    most of the day teaching live classes. If you would rather see us teach right now, watch a full
+                    recorded class: free and unedited, just a quick Google sign-in. Some classes are in English,
+                    some in Hindi, and the libraries are updated frequently. Watch end to end, like you are in the
+                    class, on a computer or laptop for the clearest experience.</p>
+                <div class="bd-watch-btns">
+                    <a class="bd-watch-btn" href="https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-kids-Coding-6a3a27597efbc77440b2c68f" target="_blank" rel="noopener" onclick="try{gtag('event','watch_library_click',{library:'kids',page:'book-demo'})}catch(e){}">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                        Watch a Kids Class (6 to 12)
+                    </a>
+                    <a class="bd-watch-btn" href="https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-6a1888029a4f81888c408ab9" target="_blank" rel="noopener" onclick="try{gtag('event','watch_library_click',{library:'teens',page:'book-demo'})}catch(e){}">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                        Watch a Teens &amp; Adults Class (13+)
+                    </a>
+                </div>
+                <p class="bd-watch-more"><a href="/how-we-teach">Or read exactly how we teach</a></p>
+            </div>
 
             <div class="trust-badges">
                 <div class="trust-badge">
@@ -605,6 +631,9 @@
                             </svg>
                             WhatsApp Us
                         </a>
+                        <p class="bd-busy-note">If we have not reached you yet, we are almost certainly in live
+                            classes, never ignoring you. Feel free to call or WhatsApp any time, and complete a
+                            recorded class while you wait. It saves time for everyone.</p>
                     </div>
                 </div>
             </div>
@@ -896,6 +925,41 @@
             </div>
 
             <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can I see how you teach before booking a demo?
+                        <svg viewBox="0 0 24 24">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, instantly. We keep two open libraries of full, real, unedited class recordings:
+                            one for <a href="https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-kids-Coding-6a3a27597efbc77440b2c68f" target="_blank" rel="noopener">kids aged 6 to 12</a>
+                            and one for <a href="https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-6a1888029a4f81888c408ab9" target="_blank" rel="noopener">teens and adults</a>,
+                            which also covers our maths classes. They are free to watch, no payment or card, just a
+                            quick Google sign-in. Best on a computer or laptop: click a library link, choose
+                            <strong>Watch Recording</strong>, sign in with Google, and in a few seconds the dashboard
+                            opens with all recordings. Some classes are in English and some in Hindi, and the
+                            libraries are updated frequently with our latest classes. Watch a class end to end, like
+                            you are in it: sessions are interactive, and each moment builds on the last.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do I have to wait for a live demo to start?
+                        <svg viewBox="0 0 24 24">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No. Live demos are typically scheduled within 48 hours because our mentors teach live for
+                            most of the day, but our free open recording libraries are available right now. Watch a
+                            full class today, and if it answers everything, you can enrol straight away without
+                            waiting for the demo.</p>
+                    </div>
+                </div>
+
                 <div class="faq-item">
                     <button class="faq-question">
                         Is the demo class really free?

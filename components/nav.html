@@ -33,6 +33,14 @@
             padding: 10px;
         }
     }
+
+    /* Desktop nav is full at mid widths; keep the How We Teach link to wide
+       desktops and the mobile menu so the top row never wraps. */
+    @media (min-width: 981px) and (max-width: 1319px) {
+        .nav-hwt {
+            display: none;
+        }
+    }
 </style>
 
 <header>
@@ -74,6 +82,7 @@
                             <a href="/schools" class="dropdown-item">Schools Program</a>
                         </div>
                     </li>
+                    <li class="nav-item nav-hwt"><a href="/how-we-teach" class="nav-link">How We Teach</a></li>
                     <li class="nav-item dropdown">
                         <a href="/coding-challenges" class="nav-link">Practice
                             <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;" fill="currentColor"
@@ -192,7 +201,8 @@
         </div>
         <h3 style="font-size:24px; font-weight:700; color:#1f2937; margin:0 0 8px;">Request a Callback</h3>
         <p style="font-size:15px; color:#6b7280; margin:0 0 25px;">Enter your number, we'll call you right back!</p>
-        <p class="callback-direct-line" style="font-size:13.5px; color:#374151; margin:-12px 0 22px; line-height:1.5;">Or contact <a href="https://wa.me/919123366161?text=Hi%2C%20I%20need%20help%20%E2%80%93%20please%20get%20in%20touch" target="_blank" rel="noopener noreferrer" style="color:#10b981; font-weight:700; text-decoration:none;">9123366161</a> directly for a faster response</p>
+        <p class="callback-direct-line" style="font-size:13.5px; color:#374151; margin:-12px 0 14px; line-height:1.5;">Or contact <a href="https://wa.me/919123366161?text=Hi%2C%20I%20need%20help%20%E2%80%93%20please%20get%20in%20touch" target="_blank" rel="noopener noreferrer" style="color:#10b981; font-weight:700; text-decoration:none;">9123366161</a> directly for a faster response</p>
+        <p class="callback-watch-line" style="font-size:13px; color:#374151; margin:0 0 20px; line-height:1.5;">While you wait for our call, you can <a href="/how-we-teach" style="color:#d97706; font-weight:700; text-decoration:none;">watch a full recorded class</a> right now, free with a quick Google sign-in.</p>
         <form id="callbackForm" onsubmit="submitCallback(event)" style="display:flex; flex-direction:column; gap:15px;">
             <div
                 style="display:flex; align-items:center; background:#f9fafb; border:2px solid #e5e7eb; border-radius:12px; overflow:hidden;">
@@ -215,6 +225,7 @@
             <h4 style="font-size:20px; font-weight:700; color:#10b981; margin:0 0 8px;">We'll call you soon!</h4>
             <p style="font-size:14px; color:#6b7280; margin:0;">Expect a call within 3 hours</p>
             <p class="callback-success-direct" style="font-size:13px; color:#374151; margin:12px 0 0;">For a faster response, contact <a href="https://wa.me/919123366161?text=Hi%2C%20I%20just%20requested%20a%20callback" target="_blank" rel="noopener noreferrer" style="color:#10b981; font-weight:700; text-decoration:none;">9123366161</a> directly</p>
+            <p style="font-size:13px; color:#374151; margin:10px 0 0;">If our call gets delayed, we are likely teaching live classes. Meanwhile, <a href="/how-we-teach" style="color:#d97706; font-weight:700; text-decoration:none;">watch a full recorded class</a>, free with a quick Google sign-in.</p>
         </div>
     </div>
 </div>
