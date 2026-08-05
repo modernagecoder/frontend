@@ -48,6 +48,24 @@
 .ap-hero__panel li { display: flex; gap: .6rem; align-items: flex-start; font-size: .93rem; line-height: 1.55; color: var(--ink-soft); }
 .ap-hero__panel svg { width: 17px; height: 17px; flex: none; color: var(--amber); margin-top: .18rem; }
 
+/* ---------- course strip (directly under the hero) ---------- */
+.ap-course-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.1rem; max-width: var(--container); margin-inline: auto; }
+.ap-course {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 1.4rem; text-decoration: none; display: flex; flex-direction: column; gap: .5rem;
+  transition: border-color .18s ease, transform .18s ease, box-shadow .18s ease;
+}
+.ap-course:hover { border-color: var(--amber); transform: translateY(-2px); box-shadow: var(--shadow-sm); }
+.ap-course__lvl {
+  font-family: var(--font-mono); font-size: .68rem; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--amber-deep); background: var(--amber-tint); padding: .25rem .55rem;
+  border-radius: 999px; align-self: flex-start;
+}
+.ap-course h3 { font-size: 1.05rem; margin: 0; color: var(--ink); font-weight: 650; line-height: 1.35; }
+.ap-course p { font-size: .89rem; line-height: 1.6; color: var(--ink-soft); margin: 0; }
+.ap-course .go { font-family: var(--font-mono); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--amber); margin-top: auto; padding-top: .6rem; display: inline-flex; align-items: center; gap: .35rem; }
+.ap-course .go svg { width: 14px; height: 14px; }
+
 /* ---------- answer capsule + tldr ---------- */
 .ap-capsule {
   max-width: 860px; margin-inline: auto; background: var(--amber-tint);

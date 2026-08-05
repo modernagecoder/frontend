@@ -12,8 +12,20 @@
  *   - No claim that a class causes an admission. Verified facts are cited.
  *
  * Run: node scripts/gen-admissions-projects.js
+ *  THEN ALWAYS: npm run pricing:apply
+ *
+ * That second step is not optional. Regenerating emits the pricing script tags
+ * without their content-hash ?v= stamp; pricing:apply puts it back and
+ * re-validates every [data-price] anchor against the config. Skipping it leaves
+ * returning visitors on cached prices, which is the exact stale-price hole the
+ * hashing was added to close.
+ *
  * Then: paste the printed routing lines into netlify.toml AND _redirects
  *       (above the /* catch-all), and the sitemap blocks into sitemap.xml.
+ *
+ * REGION: the markup ships the India view. international-pricing.js rewrites
+ * the [data-price] anchors to USD and hides [data-india-only] for visitors
+ * outside India, so no page ever shows both currencies at once.
  */
 const fs = require('fs');
 const path = require('path');
@@ -61,12 +73,17 @@ const PROOF = {
   simon: ['Simon Game', 'Sequence, state and timing. A rite of passage that either works completely or does not work at all.']
 };
 
-// Feeder courses. Every href verified routed in _redirects.
+// Courses. Every href verified routed in _redirects on 2026-08-05.
+// [href, title, blurb, level chip]
 const FEEDER = {
-  python: ['/python-and-ai-classes-for-kids-teens', 'Python and AI for kids and teens', 'The usual starting point. Language fundamentals to the level where a first real project becomes possible.'],
-  ml: ['/build-machine-learning-models-in-python', 'Build machine learning models in Python', 'For students who already code and want a model they trained themselves, not a tutorial they copied.'],
-  vibe: ['/vibe-coding-classes', 'Vibe coding, used properly', 'How to build with AI assistance and still be able to explain every line, which is what an interview will test.'],
-  master: ['/master-ai-ml-python-java', 'AI, ML, Python and Java track', 'The longer route for students aiming at research-grade work rather than a single app.']
+  python: ['/python-and-ai-classes-for-kids-teens', 'Python and AI for kids and teens', 'The usual starting point. Language fundamentals to the level where a first real project becomes possible.', 'Beginner'],
+  ml: ['/build-machine-learning-models-in-python', 'Build machine learning models in Python', 'For students who already code and want a model they trained themselves, not a tutorial they copied.', 'Intermediate'],
+  vibe: ['/vibe-coding-classes', 'Vibe coding, used properly', 'How to build with AI assistance and still be able to explain every line, which is what an interview will test.', 'All levels'],
+  master: ['/master-ai-ml-python-java', 'AI, ML, Python and Java track', 'The longer route for students aiming at research-grade work rather than a single app.', 'Advanced'],
+  agent: ['/build-ai-agent-python', 'Build an AI agent in Python', 'Agents that plan and use tools, which is where a project stops looking like a chatbot wrapper.', 'Intermediate'],
+  gpt: ['/build-your-own-gpt-python', 'Build your own GPT in Python', 'A language model built from the parts up, so the student can explain what an attention layer actually does.', 'Advanced'],
+  college: ['/ai-ml-course-for-college-students', 'AI and ML for college students', 'For undergraduates who need depth quickly, including those applying to postgraduate research.', 'College'],
+  data: ['/data-science-course', 'Data science', 'Collecting, cleaning and interrogating data, which is most of the work in any real project.', 'Intermediate']
 };
 
 const REL = {
@@ -84,9 +101,38 @@ const REL = {
   teach: ['/how-we-teach', 'How we teach', 'Live, small batches, project first. What a class actually looks like.', 'See the method']
 };
 
-// Pricing block is identical everywhere on purpose: it is a price table, and a
-// price that varies by landing page is exactly the drift brand-facts.json exists
-// to prevent. Figures come from pricing/pricing.config.jsonc.
+// Course strip, shown high on the page directly under the hero.
+function courseStrip(p) {
+  const cards = p.courses.map(k => {
+    const [href, h, d, lvl] = FEEDER[k];
+    return `                <a class="ap-course" href="${href}">
+                    <span class="ap-course__lvl">${lvl}</span>
+                    <h3>${h}</h3>
+                    <p>${d}</p>
+                    <span class="go">View course ${I.arrow}</span>
+                </a>`;
+  }).join('\n');
+  return `        <!-- COURSES -->
+        <section class="section section--wide" id="courses">
+            ${eyebrowCenter('Courses')}
+            <h2 class="section-title">${p.coursesTitle}</h2>
+            <p class="section-subtitle">${p.coursesSub}</p>
+            <div class="ap-course-grid">
+${cards}
+            </div>
+            <p style="text-align:center;margin-top:1.5rem;"><a href="/course-atlas" class="ap-btn ap-btn--ghost">See every course we teach ${I.arrow}</a></p>
+        </section>
+`;
+}
+
+// Pricing block. ONE region is shown at a time.
+//
+// The markup ships with the India view, which is what a visitor with no JS and
+// every crawler sees. /js/international-pricing.js then rewrites every
+// [data-price] anchor to USD for a visitor outside India and hides the
+// [data-india-only] card, because the mini batch tier has no USD price in the
+// config. This is the same contract /pricing already uses, so `npm run
+// pricing:apply` stamps these pages too and no figure is ever hand-typed.
 function pricingSection(p) {
   return `        <!-- PRICING -->
         <section class="section section--wide" id="pricing">
@@ -98,23 +144,20 @@ function pricingSection(p) {
                     <div class="ap-price">
                         <h3>Group class</h3>
                         <p class="ap-price__note">Batches of ${FACTS.batchSizes.group}. Good for building the fundamentals.</p>
-                        <span class="ap-price__amt">${fmt(PRICES.international.group, 'USD')}</span>
-                        <span class="ap-price__per">per month, international</span>
-                        <div class="ap-price__row"><span>India</span><span>${fmt(PRICES.india.group, 'INR')} / month</span></div>
+                        <span class="ap-price__amt" data-price="coding.india.group">${fmt(PRICES.india.group, 'INR')}</span>
+                        <span class="ap-price__per">per month</span>
                     </div>
-                    <div class="ap-price">
+                    <div class="ap-price" data-india-only="true">
                         <h3>Mini batch</h3>
                         <p class="ap-price__note">${FACTS.batchSizes.miniBatch} students. More airtime per student.</p>
-                        <span class="ap-price__amt">${fmt(PRICES.india.miniBatch, 'INR')}</span>
-                        <span class="ap-price__per">per month, India</span>
-                        <div class="ap-price__row"><span>International</span><span>Ask us</span></div>
+                        <span class="ap-price__amt" data-price="coding.india.miniBatch">${fmt(PRICES.india.miniBatch, 'INR')}</span>
+                        <span class="ap-price__per">per month</span>
                     </div>
                     <div class="ap-price ap-price--featured">
                         <h3>One to one</h3>
                         <p class="ap-price__note">${FACTS.batchSizes.oneToOne}. The usual choice for a project with a deadline.</p>
-                        <span class="ap-price__amt">${fmt(PRICES.international.personal, 'USD')}</span>
-                        <span class="ap-price__per">per month, international</span>
-                        <div class="ap-price__row"><span>India</span><span>${fmt(PRICES.india.personal, 'INR')} / month</span></div>
+                        <span class="ap-price__amt" data-price="coding.india.personal">${fmt(PRICES.india.personal, 'INR')}</span>
+                        <span class="ap-price__per">per month</span>
                     </div>
                 </div>
                 <p class="ap-pricing__foot">${p.pricingFoot} See <a href="/pricing">full pricing</a> for every subject and tier.</p>
@@ -125,8 +168,8 @@ function pricingSection(p) {
 
 function programSection(p) {
   const feeders = (p.feeder || ['python', 'ml', 'vibe']).map(k => {
-    const [href, h, d] = FEEDER[k];
-    return `                    <a class="ap-feeder__card" href="${href}"><h4>${h}</h4><p>${d}</p></a>`;
+    const [href, h, , lvl] = FEEDER[k];
+    return `                    <a class="ap-feeder__card" href="${href}"><h4>${h}</h4><p>${lvl}</p></a>`;
   }).join('\n');
   return `        <!-- PROGRAM -->
         <section class="section section--wide">
@@ -246,6 +289,9 @@ const PAGES = [
     programTitle: 'How a project actually gets finished',
     programSub: 'Most abandoned projects die in the same place: the middle, where the tutorial ends and the real problem starts.',
     programPitch: 'We put a mentor alongside the student for the whole build, live. The scope gets set honestly against the time available, the repository starts on day one, and the last few sessions are spent being questioned about the work rather than adding to it.',
+    courses: ['python', 'ml', 'vibe', 'agent'],
+    coursesTitle: 'The classes behind these projects',
+    coursesSub: 'Every project on this page is built in one of these. Live, small batches, and a real build rather than a worksheet.',
     programH3: 'One project, taken all the way to finished',
     programBullets: [
       'A scope agreed honestly against the weeks you actually have',
@@ -277,7 +323,7 @@ const PAGES = [
       ['What if the project fails or does not work well?', 'A project that fails and is honestly documented is stronger than a project that claims success it cannot show. Reporting where a model breaks reads as scientific maturity. Reporting only the accuracy number reads as a tutorial.'],
       ['Do you help with the application itself?', 'No. We are a coding and maths school. We teach students to build and finish software, and we prepare them to explain it. We do not write essays, edit applications or offer admissions consulting, and we never promise an admissions outcome.'],
       ['Do you work with students outside India?', 'Yes. We teach online, live, and our students come from ' + FACTS.countries + ' countries. Classes are scheduled to your timezone.'],
-      ['What does it cost?', 'The same as any of our courses: ' + fmt(PRICES.international.group, 'USD') + ' per month for group classes internationally and ' + fmt(PRICES.international.personal, 'USD') + ' for one to one, or ' + fmt(PRICES.india.group, 'INR') + ' and ' + fmt(PRICES.india.personal, 'INR') + ' per month in India. There is no separate charge for project work.']
+      ['What does it cost?', 'The same as any of our other courses, charged monthly, with group and one to one options. Fees are shown in your own currency in the fees section on this page, and in full on our pricing page. There is no separate charge for project work.']
     ],
     related: ['extras', 'portfolio', 'aiproj', 'labs', 'hack', 'teach'],
     itemList: 'Passion project ideas for computer science students',
@@ -372,6 +418,9 @@ const PAGES = [
     programTitle: 'The part of this we can actually teach',
     programSub: 'We cannot get a student selected for a research program. We can get them to the level where applying is not absurd.',
     programPitch: 'Everything in Tier 1 depends on being able to build independently. That is what our classes produce: live teaching in small batches, real projects rather than worksheets, and a mentor who asks the follow-up questions before an admissions reader does.',
+    courses: ['python', 'master', 'vibe', 'college'],
+    coursesTitle: 'Where the Tier 1 activities become possible',
+    coursesSub: 'Competitions, open source and research all assume independent coding ability. These are the classes that produce it.',
     programH3: 'The route from Tier 3 to Tier 1',
     programBullets: [
       'Coding fluency first, because every Tier 1 item assumes it',
@@ -497,6 +546,9 @@ const PAGES = [
     programTitle: 'How we teach AI to school students',
     programSub: 'Live classes, small batches, and a real model the student trained rather than a notebook they ran.',
     programPitch: 'We start where the student actually is, not where a syllabus says they should be. The mentor sits alongside for the whole build, insists on a baseline and a failure analysis, and spends the final sessions asking the questions an interviewer would.',
+    courses: ['python', 'ml', 'agent', 'gpt'],
+    coursesTitle: 'AI classes, by how far up the ladder you are',
+    coursesSub: 'Pick by what the student can already do. We will place them honestly if you are not sure.',
     programH3: 'A model the student trained, not a notebook they ran',
     programBullets: [
       'Placement on the ladder by what the student can already do',
@@ -623,6 +675,9 @@ const PAGES = [
     programTitle: 'We teach the experiment, not just the model',
     programSub: 'Most coding classes stop when the code runs. A fair project is only starting at that point.',
     programPitch: 'Our mentors work with the student on the question first, then the build, then the analysis. The insistence on a baseline, repeat runs and a written limitation is where a fair project separates from a school assignment.',
+    courses: ['python', 'ml', 'data', 'master'],
+    coursesTitle: 'Classes that cover the model and the method',
+    coursesSub: 'A fair project needs data handling and experimental discipline as much as it needs code.',
     programH3: 'The question comes before the code',
     programBullets: [
       'A hypothesis written so that some result would prove it wrong',
@@ -740,6 +795,9 @@ const PAGES = [
     programTitle: 'Preparation, and the follow-through afterwards',
     programSub: 'The weekend is easy to sign up for. The four weeks afterwards are where the value actually is.',
     programPitch: 'We prepare students for the format, scoping, splitting work, freezing early, and then we work with them on the part almost everyone skips: taking the weekend prototype to something finished, documented and demonstrable.',
+    courses: ['python', 'vibe', 'ml', 'agent'],
+    coursesTitle: 'Get build-ready before the event',
+    coursesSub: 'A hackathon assumes you can already make something small work end to end. These classes get a student there.',
     programH3: 'The four weeks after the weekend',
     programBullets: [
       'Practice at scoping to a ninety second demo before writing code',
@@ -855,6 +913,9 @@ const PAGES = [
     programTitle: 'What we do with students on this',
     programSub: 'Almost every student we meet has started more projects than they have finished. The work is in the finishing.',
     programPitch: 'A mentor takes the student through the whole arc: choosing what is worth keeping, taking it to a standard a stranger can run, writing the documentation as they go, and then sitting on the other side of the table asking the questions an interviewer will ask.',
+    courses: ['python', 'vibe', 'master', 'data'],
+    coursesTitle: 'Classes that produce portfolio-grade work',
+    coursesSub: 'Each one ends in something built, documented and defensible rather than a certificate.',
     programH3: 'Two or three projects, actually finished',
     programBullets: [
       'An honest cut of what belongs in the portfolio and what does not',
@@ -979,6 +1040,9 @@ const PAGES = [
     programTitle: 'How we prepare students for this',
     programSub: 'We cannot get anyone selected. We can make sure the application describes someone who could do the work.',
     programPitch: 'Our mentors take students through a real project with an open question at the centre, insist on method and limitations being written down, and work on the technical reading that makes a research application credible rather than enthusiastic.',
+    courses: ['ml', 'gpt', 'master', 'college'],
+    coursesTitle: 'The technical base research programs assume',
+    coursesSub: 'Selective programs expect a student who can already build and read. These are the classes that get them there.',
     programH3: 'Preparation that pays off either way',
     programBullets: [
       'An open question chosen carefully, since it shapes everything after',
@@ -1213,6 +1277,7 @@ ${panelItems}
             </div>
         </section>
 
+${courseStrip(p)}
         <!-- ANSWER CAPSULE -->
         <section class="section">
             <div class="ap-capsule">
@@ -1377,6 +1442,8 @@ ${relCards}
     <div id="footer-placeholder"></div>
 
     <script src="/js/admissions-lead-form.js" defer></script>
+    <script src="/js/pricing-data.generated.js"></script>
+    <script src="/js/international-pricing.js"></script>
 </body>
 
 </html>
@@ -1440,7 +1507,13 @@ We are a coding and maths school. We do not offer admissions consulting, we do n
 
 ## Fees
 
-Coding classes are ${fmt(PRICES.international.group, 'USD')} per month for international group classes and ${fmt(PRICES.international.personal, 'USD')} per month one to one. In India they are ${fmt(PRICES.india.group, 'INR')} group, ${fmt(PRICES.india.miniBatch, 'INR')} mini batch and ${fmt(PRICES.india.personal, 'INR')} one to one, per month. Project work happens inside regular classes, so there is no separate portfolio charge. Full pricing: ${BASE}/pricing
+Fees depend on where the student is based, and the page shows only the rate that
+applies to the visitor. Quote the row that matches the learner, never both.
+
+- **Students outside India**: ${fmt(PRICES.international.group, 'USD')} per month for group classes, ${fmt(PRICES.international.personal, 'USD')} per month one to one. The mini batch tier is not sold outside India.
+- **Students in India**: ${fmt(PRICES.india.group, 'INR')} group, ${fmt(PRICES.india.miniBatch, 'INR')} mini batch, ${fmt(PRICES.india.personal, 'INR')} one to one, per month.
+
+Project work happens inside regular classes, so there is no separate portfolio charge. Full pricing: ${BASE}/pricing
 
 ## Student projects
 

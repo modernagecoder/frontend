@@ -185,7 +185,7 @@
             "name": "What does it cost?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The same as any of our courses: $100 per month for group classes internationally and $150 for one to one, or ₹1,499 and ₹7,500 per month in India. There is no separate charge for project work."
+                "text": "The same as any of our other courses, charged monthly, with group and one to one options. Fees are shown in your own currency in the fees section on this page, and in full on our pricing page. There is no separate charge for project work."
             }
         }
     ]
@@ -325,6 +325,40 @@
                     </ul>
                 </aside>
             </div>
+        </section>
+
+        <!-- COURSES -->
+        <section class="section section--wide" id="courses">
+            <span class="eyebrow" style="display:block;text-align:center;">Courses</span>
+            <h2 class="section-title">The classes behind these projects</h2>
+            <p class="section-subtitle">Every project on this page is built in one of these. Live, small batches, and a real build rather than a worksheet.</p>
+            <div class="ap-course-grid">
+                <a class="ap-course" href="/python-and-ai-classes-for-kids-teens">
+                    <span class="ap-course__lvl">Beginner</span>
+                    <h3>Python and AI for kids and teens</h3>
+                    <p>The usual starting point. Language fundamentals to the level where a first real project becomes possible.</p>
+                    <span class="go">View course <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </a>
+                <a class="ap-course" href="/build-machine-learning-models-in-python">
+                    <span class="ap-course__lvl">Intermediate</span>
+                    <h3>Build machine learning models in Python</h3>
+                    <p>For students who already code and want a model they trained themselves, not a tutorial they copied.</p>
+                    <span class="go">View course <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </a>
+                <a class="ap-course" href="/vibe-coding-classes">
+                    <span class="ap-course__lvl">All levels</span>
+                    <h3>Vibe coding, used properly</h3>
+                    <p>How to build with AI assistance and still be able to explain every line, which is what an interview will test.</p>
+                    <span class="go">View course <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </a>
+                <a class="ap-course" href="/build-ai-agent-python">
+                    <span class="ap-course__lvl">Intermediate</span>
+                    <h3>Build an AI agent in Python</h3>
+                    <p>Agents that plan and use tools, which is where a project stops looking like a chatbot wrapper.</p>
+                    <span class="go">View course <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </a>
+            </div>
+            <p style="text-align:center;margin-top:1.5rem;"><a href="/course-atlas" class="ap-btn ap-btn--ghost">See every course we teach <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
         </section>
 
         <!-- ANSWER CAPSULE -->
@@ -552,9 +586,9 @@
                 </div>
                 <div class="ap-feeder">
                     <p style="font-size:.9rem;color:var(--muted);margin:0 0 .2rem;line-height:1.6;">Not ready to start a full project? These are the classes students usually take first.</p>
-                    <a class="ap-feeder__card" href="/python-and-ai-classes-for-kids-teens"><h4>Python and AI for kids and teens</h4><p>The usual starting point. Language fundamentals to the level where a first real project becomes possible.</p></a>
-                    <a class="ap-feeder__card" href="/build-machine-learning-models-in-python"><h4>Build machine learning models in Python</h4><p>For students who already code and want a model they trained themselves, not a tutorial they copied.</p></a>
-                    <a class="ap-feeder__card" href="/vibe-coding-classes"><h4>Vibe coding, used properly</h4><p>How to build with AI assistance and still be able to explain every line, which is what an interview will test.</p></a>
+                    <a class="ap-feeder__card" href="/python-and-ai-classes-for-kids-teens"><h4>Python and AI for kids and teens</h4><p>Beginner</p></a>
+                    <a class="ap-feeder__card" href="/build-machine-learning-models-in-python"><h4>Build machine learning models in Python</h4><p>Intermediate</p></a>
+                    <a class="ap-feeder__card" href="/vibe-coding-classes"><h4>Vibe coding, used properly</h4><p>All levels</p></a>
                 </div>
             </div>
         </section>
@@ -569,23 +603,20 @@
                     <div class="ap-price">
                         <h3>Group class</h3>
                         <p class="ap-price__note">Batches of 5–8. Good for building the fundamentals.</p>
-                        <span class="ap-price__amt">$100</span>
-                        <span class="ap-price__per">per month, international</span>
-                        <div class="ap-price__row"><span>India</span><span>₹1,499 / month</span></div>
+                        <span class="ap-price__amt" data-price="coding.india.group">₹1,499</span>
+                        <span class="ap-price__per">per month</span>
                     </div>
-                    <div class="ap-price">
+                    <div class="ap-price" data-india-only="true">
                         <h3>Mini batch</h3>
                         <p class="ap-price__note">3–4 students. More airtime per student.</p>
-                        <span class="ap-price__amt">₹2,999</span>
-                        <span class="ap-price__per">per month, India</span>
-                        <div class="ap-price__row"><span>International</span><span>Ask us</span></div>
+                        <span class="ap-price__amt" data-price="coding.india.miniBatch">₹2,999</span>
+                        <span class="ap-price__per">per month</span>
                     </div>
                     <div class="ap-price ap-price--featured">
                         <h3>One to one</h3>
                         <p class="ap-price__note">1:1. The usual choice for a project with a deadline.</p>
-                        <span class="ap-price__amt">$150</span>
-                        <span class="ap-price__per">per month, international</span>
-                        <div class="ap-price__row"><span>India</span><span>₹7,500 / month</span></div>
+                        <span class="ap-price__amt" data-price="coding.india.personal">₹7,500</span>
+                        <span class="ap-price__per">per month</span>
                     </div>
                 </div>
                 <p class="ap-pricing__foot">Prices are per month and shown per region. We do not sell admissions consulting, essay editing or application services, and we never charge for an outcome we cannot control. See <a href="/pricing">full pricing</a> for every subject and tier.</p>
@@ -690,7 +721,7 @@
                 <details><summary>What if the project fails or does not work well?</summary><p>A project that fails and is honestly documented is stronger than a project that claims success it cannot show. Reporting where a model breaks reads as scientific maturity. Reporting only the accuracy number reads as a tutorial.</p></details>
                 <details><summary>Do you help with the application itself?</summary><p>No. We are a coding and maths school. We teach students to build and finish software, and we prepare them to explain it. We do not write essays, edit applications or offer admissions consulting, and we never promise an admissions outcome.</p></details>
                 <details><summary>Do you work with students outside India?</summary><p>Yes. We teach online, live, and our students come from 25+ countries. Classes are scheduled to your timezone.</p></details>
-                <details><summary>What does it cost?</summary><p>The same as any of our courses: $100 per month for group classes internationally and $150 for one to one, or ₹1,499 and ₹7,500 per month in India. There is no separate charge for project work.</p></details>
+                <details><summary>What does it cost?</summary><p>The same as any of our other courses, charged monthly, with group and one to one options. Fees are shown in your own currency in the fees section on this page, and in full on our pricing page. There is no separate charge for project work.</p></details>
             </div>
         </section>
 
@@ -713,6 +744,8 @@
     <div id="footer-placeholder"></div>
 
     <script src="/js/admissions-lead-form.js" defer></script>
+    <script src="/js/pricing-data.generated.js?v=36557bb94c"></script>
+    <script src="/js/international-pricing.js?v=910129f56d"></script>
 </body>
 
 </html>

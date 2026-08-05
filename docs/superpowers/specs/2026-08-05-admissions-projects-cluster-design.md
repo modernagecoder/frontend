@@ -25,6 +25,17 @@ silently drop foreign phone numbers.
 2. **Pricing**: show existing live prices, pulled from `pricing/pricing.config.jsonc`.
    Coding: India 1,499 group / 2,999 mini / 7,500 personal. International 100 group /
    150 personal. No hand-typed figures.
+
+   Revised 2026-08-05 on owner instruction: **one region only, never both.** The
+   first build showed India and international side by side on the same card. The
+   markup now ships the India view (what crawlers and no-JS visitors see) with
+   `data-price="coding.india.<tier>"` anchors, and `/js/international-pricing.js`
+   rewrites them to USD and hides the `data-india-only` mini batch card for
+   visitors outside India. Detection is browser locale plus timezone, no network
+   call. Prices were also removed from the FAQ answers, because FAQ text is static
+   and is copied into FAQPage schema, so a figure there would leak the wrong
+   region. Verified in four real browser contexts: US, UK and Singapore visitors
+   see no rupee symbol anywhere in the page body, India sees no dollar figure.
 3. **Structure**: highest US search volume (option B), chosen over the
    admissions-system split (option A).
 
@@ -57,6 +68,8 @@ All seven slugs verified free in `src/pages/` on 2026-08-05.
 Each page renders these blocks, target 2,200 to 3,000 words:
 
 1. Hero: H1, subhead, CTA row, trust strip, side panel
+1b. Course strip: 4 routed courses with level chips, directly under the hero
+    (owner request, 2026-08-05). Selection varies per page.
 2. Answer capsule (AEO pattern already used site-wide)
 3. TL;DR
 4. The honest verdict: verified facts with outbound citations

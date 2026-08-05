@@ -72,7 +72,13 @@ We are a coding and maths school. We do not offer admissions consulting, we do n
 
 ## Fees
 
-Coding classes are $100 per month for international group classes and $150 per month one to one. In India they are ₹1,499 group, ₹2,999 mini batch and ₹7,500 one to one, per month. Project work happens inside regular classes, so there is no separate portfolio charge. Full pricing: https://learn.modernagecoders.com/pricing
+Fees depend on where the student is based, and the page shows only the rate that
+applies to the visitor. Quote the row that matches the learner, never both.
+
+- **Students outside India**: $100 per month for group classes, $150 per month one to one. The mini batch tier is not sold outside India.
+- **Students in India**: ₹1,499 group, ₹2,999 mini batch, ₹7,500 one to one, per month.
+
+Project work happens inside regular classes, so there is no separate portfolio charge. Full pricing: https://learn.modernagecoders.com/pricing
 
 ## Student projects
 
