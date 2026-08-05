@@ -6,6 +6,8 @@ import VideoCard from './components/VideoCard';
 import SketchButton from './components/SketchButton';
 import LoveRain from './components/LoveRain';
 import MediaSlider from './components/MediaSlider';
+import MomentsWall from './components/MomentsWall';
+import SnapCarousel from './components/SnapCarousel';
 import { CourseType } from './types';
 
 const App: React.FC = () => {
@@ -159,8 +161,11 @@ const App: React.FC = () => {
         {/* DOUBLE SLIDING MARQUEE */}
         <div className="space-y-16 py-10 overflow-hidden bg-pop-yellow border-y-4 border-sketch-black">
           {/* Row 1: Left to Right */}
+          {/* w-max, not w-[200%]: the -50% keyframe must translate by exactly one copy of
+              the doubled content, so the track has to be content-sized — a viewport-relative
+              width made the loop land mid-list and visibly snap every cycle. */}
           <section className="relative rotate-1 scale-105 transform origin-center">
-             <div className="flex w-[200%] animate-marquee hover:[animation-play-state:paused]">
+             <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
                 {marqueeItems.map((item, idx) => (
                   <div key={`m1-${item.id}-${idx}`} className="w-[300px] md:w-[400px] flex-shrink-0 mx-4 md:mx-6">
                     <TestimonialCard data={item} rotate={idx % 2 === 0 ? 1 : -1} />
@@ -171,7 +176,7 @@ const App: React.FC = () => {
           
           {/* Row 2: Right to Left */}
           <section className="relative -rotate-1 scale-105 transform origin-center">
-             <div className="flex w-[200%] animate-marquee-reverse hover:[animation-play-state:paused]">
+             <div className="flex w-max animate-marquee-reverse hover:[animation-play-state:paused]">
                 {marqueeItemsReverse.map((item, idx) => (
                   <div key={`m2-${item.id}-${idx}`} className="w-[300px] md:w-[400px] flex-shrink-0 mx-4 md:mx-6">
                     <TestimonialCard data={item} rotate={idx % 2 === 0 ? -1 : 1} />
@@ -194,11 +199,14 @@ const App: React.FC = () => {
           </div>
 
           <MediaSlider items={MEETUP_MEDIA} />
-          
+
           <div className="text-center mt-8">
-            <p className="font-hand text-2xl animate-pulse text-pop-pink font-bold">← Slide to see more awesomeness →</p>
+            <p className="font-hand text-2xl animate-pulse text-pop-pink font-bold">← Swipe, drag or use the arrows →</p>
           </div>
         </section>
+
+        {/* THE MOMENTS WALL — real meetup photos, click any to enlarge */}
+        <MomentsWall />
 
         {/* CERTIFICATES DISTRIBUTION */}
         <section className="py-24 bg-pop-pink/10 border-b-4 border-sketch-black px-4">
@@ -274,16 +282,15 @@ const App: React.FC = () => {
                </a>
              </div>
 
-             {/* Scrolling Video Slider */}
-             <div className="w-full overflow-hidden">
-               <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
-                 {[...VIDEO_REVIEWS, ...VIDEO_REVIEWS, ...VIDEO_REVIEWS].map((video, idx) => (
-                   <div key={`${video.id}-${idx}`} className={`mx-4 w-80 md:w-96 flex-shrink-0 transform transition-all duration-300 ${idx % 2 === 0 ? 'rotate-1' : '-rotate-1'} hover:rotate-0 hover:scale-105 hover:z-20`}>
-                     <VideoCard data={video} />
-                   </div>
-                 ))}
-               </div>
-             </div>
+             {/* Video slider — user-scrollable, no auto-drift: these want to be WATCHED,
+                 and a row that moves on its own while a video plays is hostile. */}
+             <SnapCarousel scrollerClassName="py-6" ariaLabel="Video reviews">
+               {VIDEO_REVIEWS.map((video, idx) => (
+                 <div key={video.id} className={`mx-4 w-80 md:w-96 flex-shrink-0 transform transition-all duration-300 ${idx % 2 === 0 ? 'rotate-1' : '-rotate-1'} hover:rotate-0 hover:scale-105 hover:z-20`}>
+                   <VideoCard data={video} />
+                 </div>
+               ))}
+             </SnapCarousel>
           </div>
         </section>
 

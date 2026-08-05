@@ -73,8 +73,8 @@ const LoveRain: React.FC = () => {
   if (!isVisible) return null;
 
   return (
-    <div 
-      className={`fixed inset-0 z-[9999] bg-white overflow-hidden flex items-center justify-center transition-opacity duration-[1000ms] ease-out ${isFading ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
+    <div
+      className={`fixed inset-0 z-[9999] bg-white overflow-hidden flex items-center justify-center transition-opacity duration-[1000ms] ease-out pointer-events-none ${isFading ? 'opacity-0' : 'opacity-100'}`}
     >
       {/* 
         We use a white background to hide the app initially.

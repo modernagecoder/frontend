@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { Play, Pause } from 'lucide-react';
+import SnapCarousel from './SnapCarousel';
 
 export interface MediaItem {
   id: string;
@@ -133,16 +134,16 @@ const MediaCard: React.FC<{ item: MediaItem; idx: number }> = ({ item, idx }) =>
 };
 
 const MediaSlider: React.FC<Props> = ({ items }) => {
-  // Triple the items for smooth infinite loop
-  const marqueeItems = [...items, ...items, ...items];
-
+  // Was a CSS marquee over TRIPLED items — it snapped mid-list every loop and ignored
+  // every swipe while the page said "Slide to see more". SnapCarousel is genuinely
+  // scrollable (touch/drag/arrows) and loops seamlessly, drifting until touched.
   return (
-    <div className="w-full overflow-hidden py-12">
-      <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
-        {marqueeItems.map((item, idx) => (
+    <div className="w-full py-12">
+      <SnapCarousel autoDrift loop scrollerClassName="py-10" ariaLabel="Student meetup photos and videos">
+        {items.map((item, idx) => (
           <MediaCard key={`${item.id}-${idx}`} item={item} idx={idx} />
         ))}
-      </div>
+      </SnapCarousel>
     </div>
   );
 };
