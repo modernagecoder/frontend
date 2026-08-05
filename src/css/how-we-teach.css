@@ -650,6 +650,22 @@ body:has(.hwt) header nav {
     box-shadow: 2px 2px 0 var(--ink);
 }
 .lib-list li b { font-weight: 700; }
+.lib-steps { list-style: none; counter-reset: libstep; padding: 0; margin: 0 0 26px; display: grid; gap: 4px; }
+.lib-steps li {
+    counter-increment: libstep; position: relative;
+    padding: 7px 0 7px 40px; line-height: 1.5;
+    font-size: 0.96rem; color: var(--ink);
+}
+.lib-steps li::before {
+    content: counter(libstep); position: absolute; left: 0; top: 6px;
+    width: 26px; height: 26px;
+    display: inline-flex; align-items: center; justify-content: center;
+    background: var(--paper-3, #fff); color: var(--ink);
+    border: 1.5px solid var(--ink); border-radius: 8px;
+    font-size: 0.82rem; font-weight: 700;
+    box-shadow: 2px 2px 0 var(--ink);
+}
+.lib-steps li b { font-weight: 700; }
 .lib-cta-row { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; margin-top: 6px; }
 .lib-cta-row .note-hand { transform: rotate(-3deg); }
 .lib-cta-row .hwt-btn { font-size: 1.06rem; padding: 17px 30px; }
