@@ -185,6 +185,26 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Online Maths Tuition: https://learn.modernagecoders.com/online-maths-tuition
 - Maths Class 10: https://learn.modernagecoders.com/maths-class-10
 
+## Projects, Portfolios & Admissions Guides
+
+Guides for students building real coding and AI projects, whether for a university
+application, a science fair, a competition, or simply because they want to build
+something. Each cites its sources. We teach the building; we are not an admissions
+consultancy and we do not promise admissions outcomes.
+
+- Passion Project Ideas for Computer Science: https://learn.modernagecoders.com/passion-project-ideas-computer-science
+- Computer Science Extracurriculars, Ranked: https://learn.modernagecoders.com/computer-science-extracurriculars
+- AI Projects for High School Students: https://learn.modernagecoders.com/ai-projects-for-high-school-students
+- AI Science Fair Project Ideas: https://learn.modernagecoders.com/science-fair-project-ideas-ai
+- Hackathons for High School Students: https://learn.modernagecoders.com/hackathons-for-high-school-students
+- How to Build a Coding Portfolio: https://learn.modernagecoders.com/how-to-build-a-coding-portfolio
+- Summer Research Programs in Coding: https://learn.modernagecoders.com/summer-research-programs-coding
+
+Two routes are offered on every one of these pages: a long journey for a child
+starting at 6 or 7 who builds fluency over years, and a short route for a student
+facing a submission deadline in weeks. Fees are the standard class fees, shown in
+the visitor's own region only.
+
 ## City Landing Pages (Local SEO)
 
 We publish a page for each of 131 Indian cities at /best-coding-class-in-{city}, each with

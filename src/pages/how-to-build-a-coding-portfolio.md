@@ -60,6 +60,20 @@ A portfolio is not a gallery of screenshots. It is a set of claims about what yo
 - **Month 10 - Defence rehearsal**: Thirty minutes of hostile questioning per project. Fix what breaks.
 - **Month 11 - Freeze and submit**: Stop adding. A frozen, coherent portfolio beats one still being edited the night before.
 
+## A portfolio is a record of time spent
+
+That is precisely why it is hard to fake, and why when a student starts changes what the finished portfolio can be.
+
+**The long journey, starting at 6 or 7.** Years of commits, abandoned experiments and rebuilt projects produce a portfolio with a story. A student who started at seven has that story without ever having planned for it. Ages 6 to 9 block coding
+and logic; 10 to 13 real Python and first runnable projects; 14 to 16 AI and machine
+learning with own datasets; 17 to 18 portfolio, competitions and research-grade work.
+
+**The short route, a deadline in weeks.** From a standing start, two or three genuinely finished projects plus documentation and rehearsal takes about ten to eleven months. Compressing it further mostly removes the parts that made it credible. Weeks 1 to 2 scope
+honestly; weeks 3 to 6 build the smallest version that works; weeks 7 to 8 one real
+user and fixes; final week README, recorded demo and rehearsal.
+
+Send us what already exists. The most useful first conversation is usually an honest read on what is worth finishing and what to drop.
+
 ## How Modern Age Coders helps
 
 A mentor takes the student through the whole arc: choosing what is worth keeping, taking it to a standard a stranger can run, writing the documentation as they go, and then sitting on the other side of the table asking the questions an interviewer will ask.

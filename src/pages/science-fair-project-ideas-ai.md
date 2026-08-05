@@ -69,6 +69,20 @@ The most common reason a strong AI build does badly at a science fair is that it
 - **Month 8 - Write it up and build the board**: Method, results, limitations. The board is a summary of the work, not the work itself.
 - **Final weeks - Rehearse being questioned**: Judges interview you. Practise answering "how do you know?" about every claim on the board.
 
+## Fair seasons repeat, so early starts compound
+
+A fair is annual. A student who begins young enters several times, and each entry is visibly better than the last.
+
+**The long journey, starting at 6 or 7.** Children who start early get to fail at a fair at ten and come back at fourteen knowing what a control is. That progression is far more convincing than one polished entry. Ages 6 to 9 block coding
+and logic; 10 to 13 real Python and first runnable projects; 14 to 16 AI and machine
+learning with own datasets; 17 to 18 portfolio, competitions and research-grade work.
+
+**The short route, a deadline in weeks.** A first entry with a genuine question and a clean method can be built in a season. Note the research window is capped at twelve months, so more time is not automatically more project. Weeks 1 to 2 scope
+honestly; weeks 3 to 6 build the smallest version that works; weeks 7 to 8 one real
+user and fixes; final week README, recorded demo and rehearsal.
+
+Bring us the fair date first. Everything else, including whether the idea is the right size, is decided by how many weeks are actually left.
+
 ## How Modern Age Coders helps
 
 Our mentors work with the student on the question first, then the build, then the analysis. The insistence on a baseline, repeat runs and a written limitation is where a fair project separates from a school assignment.

@@ -69,6 +69,20 @@ There are a thousand lists of passion project ideas. Almost none of them mention
 - **6 weeks out - Rehearse the defence**: Have someone technical question you for thirty minutes. Anything you cannot explain becomes this week's work.
 - **2 weeks out - Freeze it**: Stop adding features. A finished small thing reads far better than an unfinished ambitious one.
 
+## Two very different families read this page
+
+One is planning a decade ahead for a seven year old. The other has an application deadline in eleven weeks. Both are legitimate, and they need different answers.
+
+**The long journey, starting at 6 or 7.** A child who starts at six or seven does not build an admissions project. They build the ability to finish things, and years later that ability produces a project nobody can fake. Ages 6 to 9 block coding
+and logic; 10 to 13 real Python and first runnable projects; 14 to 16 AI and machine
+learning with own datasets; 17 to 18 portfolio, competitions and research-grade work.
+
+**The short route, a deadline in weeks.** A student with a real deadline needs scope discipline more than ambition. One honest, finished, defensible build beats a grand idea abandoned in the middle. Weeks 1 to 2 scope
+honestly; weeks 3 to 6 build the smallest version that works; weeks 7 to 8 one real
+user and fixes; final week README, recorded demo and rehearsal.
+
+We teach both. If your child is seven, we are not going to talk to you about applications. If your child is seventeen with a January deadline, we are not going to sell you a five year plan.
+
 ## How Modern Age Coders helps
 
 We put a mentor alongside the student for the whole build, live. The scope gets set honestly against the time available, the repository starts on day one, and the last few sessions are spent being questioned about the work rather than adding to it.

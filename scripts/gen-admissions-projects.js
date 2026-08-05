@@ -73,17 +73,18 @@ const PROOF = {
   simon: ['Simon Game', 'Sequence, state and timing. A rite of passage that either works completely or does not work at all.']
 };
 
-// Courses. Every href verified routed in _redirects on 2026-08-05.
-// [href, title, blurb, level chip]
+// Courses. Every href verified routed in _redirects and every image verified
+// present in public/images on 2026-08-05.
+// [href, title, blurb, level chip, thumbnail base name]
 const FEEDER = {
-  python: ['/python-and-ai-classes-for-kids-teens', 'Python and AI for kids and teens', 'The usual starting point. Language fundamentals to the level where a first real project becomes possible.', 'Beginner'],
-  ml: ['/build-machine-learning-models-in-python', 'Build machine learning models in Python', 'For students who already code and want a model they trained themselves, not a tutorial they copied.', 'Intermediate'],
-  vibe: ['/vibe-coding-classes', 'Vibe coding, used properly', 'How to build with AI assistance and still be able to explain every line, which is what an interview will test.', 'All levels'],
-  master: ['/master-ai-ml-python-java', 'AI, ML, Python and Java track', 'The longer route for students aiming at research-grade work rather than a single app.', 'Advanced'],
-  agent: ['/build-ai-agent-python', 'Build an AI agent in Python', 'Agents that plan and use tools, which is where a project stops looking like a chatbot wrapper.', 'Intermediate'],
-  gpt: ['/build-your-own-gpt-python', 'Build your own GPT in Python', 'A language model built from the parts up, so the student can explain what an attention layer actually does.', 'Advanced'],
-  college: ['/ai-ml-course-for-college-students', 'AI and ML for college students', 'For undergraduates who need depth quickly, including those applying to postgraduate research.', 'College'],
-  data: ['/data-science-course', 'Data science', 'Collecting, cleaning and interrogating data, which is most of the work in any real project.', 'Intermediate']
+  python: ['/python-and-ai-classes-for-kids-teens', 'Python and AI classes for kids and teens', 'The usual starting point. Language fundamentals to the level where a first real project becomes possible.', 'Beginner', 'python-teens'],
+  ml: ['/build-machine-learning-models-in-python', 'Build machine learning models in Python', 'For students who already code and want a model they trained themselves, not a tutorial they copied.', 'Intermediate', 'ai-ml-teens'],
+  vibe: ['/vibe-coding-classes', 'Vibe coding, used properly', 'How to build with AI assistance and still be able to explain every line, which is what an interview will test.', 'All levels', 'vibe-coding-teens'],
+  master: ['/master-ai-ml-python-java', 'AI, ML, Python and Java track', 'The longer route for students aiming at research-grade work rather than a single app.', 'Advanced', 'python-college'],
+  agent: ['/build-ai-agent-python', 'Build an AI agent in Python', 'Agents that plan and use tools, which is where a project stops looking like a chatbot wrapper.', 'Intermediate', 'python-automation-ai-college'],
+  gpt: ['/build-your-own-gpt-python', 'Build your own GPT in Python', 'A language model built from the parts up, so the student can explain what an attention layer actually does.', 'Advanced', 'generative-ai-college'],
+  college: ['/ai-ml-course-for-college-students', 'AI and ML course for college students', 'For undergraduates who need depth quickly, including those applying to postgraduate research.', 'College', 'ai-ml-college'],
+  data: ['/data-science-course', 'Data science course', 'Collecting, cleaning and interrogating data, which is most of the work in any real project.', 'Intermediate', 'data-science-college']
 };
 
 const REL = {
@@ -104,12 +105,15 @@ const REL = {
 // Course strip, shown high on the page directly under the hero.
 function courseStrip(p) {
   const cards = p.courses.map(k => {
-    const [href, h, d, lvl] = FEEDER[k];
+    const [href, h, d, lvl, img] = FEEDER[k];
     return `                <a class="ap-course" href="${href}">
-                    <span class="ap-course__lvl">${lvl}</span>
-                    <h3>${h}</h3>
-                    <p>${d}</p>
-                    <span class="go">View course ${I.arrow}</span>
+                    <img class="ap-course__img" src="/images/${img}.webp" alt="${strip(h)} thumbnail, Modern Age Coders" width="800" height="450" loading="lazy" decoding="async">
+                    <div class="ap-course__body">
+                        <span class="ap-course__lvl">${lvl}</span>
+                        <h3>${h}</h3>
+                        <p>${d}</p>
+                        <span class="go">View course ${I.arrow}</span>
+                    </div>
                 </a>`;
   }).join('\n');
   return `        <!-- COURSES -->
@@ -121,6 +125,46 @@ function courseStrip(p) {
 ${cards}
             </div>
             <p style="text-align:center;margin-top:1.5rem;"><a href="/course-atlas" class="ap-btn ap-btn--ghost">See every course we teach ${I.arrow}</a></p>
+        </section>
+`;
+}
+
+// Two honest routes in. Parents arrive here in one of two states: planning years
+// ahead for a child of 6 or 7, or facing a submission deadline in weeks. The same
+// page has to serve both without pretending the short route is the better one.
+function pathsSection(p) {
+  return `        <!-- TWO PATHS -->
+        <section class="section section--wide">
+            ${eyebrowCenter('Two ways in')}
+            <h2 class="section-title">${p.pathsTitle}</h2>
+            <p class="section-subtitle">${p.pathsSub}</p>
+            <div class="ap-paths">
+                <div class="ap-path ap-path--long">
+                    <span class="ap-path__tag">The long journey</span>
+                    <h3>Starting at 6 or 7, building for years</h3>
+                    <p>${p.pathLong}</p>
+                    <ul>
+                        <li><strong>Ages 6 to 9</strong><span>Block coding and logic. Finishing small things, which is the habit everything later depends on.</span></li>
+                        <li><strong>Ages 10 to 13</strong><span>Real code in Python. First projects that another person can actually run.</span></li>
+                        <li><strong>Ages 14 to 16</strong><span>AI and machine learning, own datasets, work that goes in front of real users.</span></li>
+                        <li><strong>Ages 17 to 18</strong><span>Portfolio, competitions and research-grade work, with years of history behind it.</span></li>
+                    </ul>
+                    <p class="ap-path__note">By the time it matters, the repository is years deep. That cannot be assembled in a hurry, and it is obvious to anyone who looks.</p>
+                </div>
+                <div class="ap-path ap-path--short">
+                    <span class="ap-path__tag">The short route</span>
+                    <h3>A deadline in weeks, not years</h3>
+                    <p>${p.pathShort}</p>
+                    <ul>
+                        <li><strong>Weeks 1 to 2</strong><span>Scope honestly against the time left. Most ideas get cut down here, and that is the useful part.</span></li>
+                        <li><strong>Weeks 3 to 6</strong><span>Build the smallest version that genuinely works, with the repository open from day one.</span></li>
+                        <li><strong>Weeks 7 to 8</strong><span>One real user, then fix what tripped them up.</span></li>
+                        <li><strong>Final week</strong><span>README, recorded demo, and rehearsal for being questioned about it.</span></li>
+                    </ul>
+                    <p class="ap-path__note">Smaller and finished beats ambitious and broken. We will tell you before you start if the deadline does not allow honest work.</p>
+                </div>
+            </div>
+            <p class="ap-paths__foot">${p.pathsFoot}</p>
         </section>
 `;
 }
@@ -205,6 +249,14 @@ const PAGES = [
   // ======================================================================= 1
   {
     slug: 'passion-project-ideas-computer-science',
+    poster: 'adm-passion-projects',
+    posterAlt: 'Passion Projects poster, Modern Age Coders live online project mentoring',
+    keywords: 'passion project ideas computer science, coding passion project, computer science project ideas for students, passion project for college application, coding classes for students, AI classes online',
+    pathsTitle: 'Two very different families read this page',
+    pathsSub: 'One is planning a decade ahead for a seven year old. The other has an application deadline in eleven weeks. Both are legitimate, and they need different answers.',
+    pathLong: 'A child who starts at six or seven does not build an admissions project. They build the ability to finish things, and years later that ability produces a project nobody can fake.',
+    pathShort: 'A student with a real deadline needs scope discipline more than ambition. One honest, finished, defensible build beats a grand idea abandoned in the middle.',
+    pathsFoot: 'We teach both. If your child is seven, we are not going to talk to you about applications. If your child is seventeen with a January deadline, we are not going to sell you a five year plan.',
     crumb: 'Passion projects',
     metaTitle: 'Passion Project Ideas for Computer Science Students | What Actually Holds Up',
     metaDesc: 'Passion project ideas for computer science students, sorted by how long they take and whether they survive a sceptical reader. Includes what admissions officers now think of passion projects, and the standard a finished project has to meet.',
@@ -335,6 +387,14 @@ const PAGES = [
   // ======================================================================= 2
   {
     slug: 'computer-science-extracurriculars',
+    poster: 'adm-cs-extracurriculars',
+    posterAlt: 'CS Extracurriculars poster, Modern Age Coders live online coding classes',
+    keywords: 'computer science extracurriculars, best extracurriculars for computer science, coding extracurricular activities, CS activities for college applications, coding classes for kids and teens, learn AI online',
+    pathsTitle: 'Tier 1 rewards years, not months',
+    pathsSub: 'Every activity in the top tier assumes a student who can already build independently. That is why when a family starts matters as much as what they choose.',
+    pathLong: 'Start at six or seven and the Tier 1 list is simply reachable by the time it counts. Competitions, merged open source and research all become normal rather than aspirational.',
+    pathShort: 'Starting late is not disqualifying, it just narrows the list. One free competition and one finished, used project is achievable inside a year and still counts.',
+    pathsFoot: 'Tell us the age and the time available and we will tell you which tier is realistically in reach, including when the honest answer is Tier 2.',
     crumb: 'CS extracurriculars',
     metaTitle: 'Computer Science Extracurriculars, Ranked by What Actually Counts',
     metaDesc: 'Computer science extracurriculars ranked into what carries real weight, what is worth doing but rarely decisive, and what is filler. Based on published admissions criteria from NACAC, MIT, Oxford and UCAS.',
@@ -463,6 +523,14 @@ const PAGES = [
   // ======================================================================= 3
   {
     slug: 'ai-projects-for-high-school-students',
+    poster: 'adm-ai-projects-school',
+    posterAlt: 'AI Projects for Students poster, Modern Age Coders live online AI and machine learning classes',
+    keywords: 'AI projects for high school students, machine learning projects for students, AI project ideas for school, learn AI for students, coding and AI classes online, ML project for science fair',
+    pathsTitle: 'The ladder takes as long as it takes',
+    pathsSub: 'AI is the part of this where skipping ahead fails most visibly. A student who cannot debug a small program cannot debug a model.',
+    pathLong: 'A child who begins at six or seven reaches real machine learning around fourteen with years of fluency behind them. That is when own datasets and honest failure analysis become possible rather than performative.',
+    pathShort: 'A capable older student can reach a first trained model in six to ten weeks and something genuinely usable in a few months. Research grade in a rush is not realistic and we will say so.',
+    pathsFoot: 'We place students on the ladder by what they can actually do today, not by age and not by what a deadline would prefer to be true.',
     crumb: 'AI projects',
     metaTitle: 'AI Projects for High School Students | A Ladder From First Model to Research',
     metaDesc: 'AI and machine learning projects for high school students, arranged as a ladder from a first trained model to research-grade work. Includes what a finished AI project has to show and how long each stage honestly takes.',
@@ -591,6 +659,14 @@ const PAGES = [
   // ======================================================================= 4
   {
     slug: 'science-fair-project-ideas-ai',
+    poster: 'adm-science-fair-ai',
+    posterAlt: 'AI Science Fair Projects poster, Modern Age Coders live online project mentoring',
+    keywords: 'AI science fair project ideas, science fair projects with machine learning, ISEF AI project, science fair coding project, AI classes for school students, STEM project mentoring',
+    pathsTitle: 'Fair seasons repeat, so early starts compound',
+    pathsSub: 'A fair is annual. A student who begins young enters several times, and each entry is visibly better than the last.',
+    pathLong: 'Children who start early get to fail at a fair at ten and come back at fourteen knowing what a control is. That progression is far more convincing than one polished entry.',
+    pathShort: 'A first entry with a genuine question and a clean method can be built in a season. Note the research window is capped at twelve months, so more time is not automatically more project.',
+    pathsFoot: 'Bring us the fair date first. Everything else, including whether the idea is the right size, is decided by how many weeks are actually left.',
     crumb: 'Science fair AI',
     metaTitle: 'AI Science Fair Project Ideas That Follow the Actual Rules',
     metaDesc: 'AI science fair project ideas built around a testable question rather than an app demo, with the real ISEF rules: win an affiliated fair first, 12 month research cap, teams of up to three. Includes how to write the hypothesis.',
@@ -720,6 +796,14 @@ const PAGES = [
   // ======================================================================= 5
   {
     slug: 'hackathons-for-high-school-students',
+    poster: 'adm-hackathons',
+    posterAlt: 'Hackathons for Students poster, Modern Age Coders live online coding classes',
+    keywords: 'hackathons for high school students, coding competitions for students, Congressional App Challenge help, student hackathon preparation, learn to code for hackathons, AI classes for teens',
+    pathsTitle: 'A weekend is short. Getting good at weekends is not',
+    pathsSub: 'The event lasts two days. The ability to be useful in those two days takes considerably longer to build.',
+    pathLong: 'A student who has been coding since seven walks into a first hackathon able to contribute instead of watch. That is entirely a function of the years before it.',
+    pathShort: 'If the event is next month, the goal is to be able to build one small thing end to end and to scope ruthlessly. That is trainable quickly, unlike fluency.',
+    pathsFoot: 'Send us the event date. If there is not enough time to be useful at it, we will say so and point at the next one instead.',
     crumb: 'Hackathons',
     metaTitle: 'Hackathons for High School Students | Which Ones Accept You and What To Do After',
     metaDesc: 'Hackathons for high school students: which events accept school-age participants, the real Congressional App Challenge rules, and how to turn a weekend build into something that still counts twelve months later.',
@@ -840,6 +924,14 @@ const PAGES = [
   // ======================================================================= 6
   {
     slug: 'how-to-build-a-coding-portfolio',
+    poster: 'adm-coding-portfolio',
+    posterAlt: 'Coding Portfolio poster, Modern Age Coders live online project mentoring',
+    keywords: 'how to build a coding portfolio, coding portfolio for college applications, student programming portfolio, GitHub portfolio for students, coding classes online, AI and machine learning classes',
+    pathsTitle: 'A portfolio is a record of time spent',
+    pathsSub: 'That is precisely why it is hard to fake, and why when a student starts changes what the finished portfolio can be.',
+    pathLong: 'Years of commits, abandoned experiments and rebuilt projects produce a portfolio with a story. A student who started at seven has that story without ever having planned for it.',
+    pathShort: 'From a standing start, two or three genuinely finished projects plus documentation and rehearsal takes about ten to eleven months. Compressing it further mostly removes the parts that made it credible.',
+    pathsFoot: 'Send us what already exists. The most useful first conversation is usually an honest read on what is worth finishing and what to drop.',
     crumb: 'Coding portfolio',
     metaTitle: 'How To Build a Coding Portfolio That Holds Up Under Questioning',
     metaDesc: 'How to build a coding portfolio for university applications: the eight steps, the exact standard MIT asks for, what UK tutors probe at interview, and how Waterloo scores its admission form. Written for school and college students.',
@@ -959,6 +1051,14 @@ const PAGES = [
   // ======================================================================= 7
   {
     slug: 'summer-research-programs-coding',
+    poster: 'adm-summer-research',
+    posterAlt: 'Summer Research poster, Modern Age Coders live online AI and research preparation',
+    keywords: 'summer research programs coding, research programs for high school students, RSI application preparation, MIT PRIMES preparation, AI research for students, learn machine learning online',
+    pathsTitle: 'Research applications reward the long run',
+    pathsSub: 'These programs are selecting for students who can work on an open question unsupervised. That is not a skill anyone acquires in a term.',
+    pathLong: 'A student who has been building since childhood arrives with a visible history and the patience for problems that do not resolve quickly. That is what the application is really screening for.',
+    pathShort: 'With a year of focused work a capable student can produce one external result and one real project, which is a credible application. Most strong applicants are still rejected, so the plan has to be worth doing anyway.',
+    pathsFoot: 'We build the preparation so it pays off whether or not a program says yes, because for most applicants it will not.',
     crumb: 'Summer research',
     metaTitle: 'Summer Research Programs in Coding and AI | What They Ask For and How To Be Ready',
     metaDesc: 'Summer research programs in computing for high school students, what selective programs such as RSI, MIT PRIMES and SSP actually ask for, and the twelve month preparation that makes an application credible.',
@@ -1185,6 +1285,7 @@ ${ideas}
     <title>${mt}</title>
     <meta name="title" content="${mt}">
     <meta name="description" content="${md}">
+    <meta name="keywords" content="${escAttr(p.keywords)}">
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="canonical" href="${url}">
@@ -1195,7 +1296,10 @@ ${ideas}
     <meta property="og:url" content="${url}">
     <meta property="og:title" content="${mt}">
     <meta property="og:description" content="${md}">
-    <meta property="og:image" content="${BASE}/images/og-modern-age-coders.png">
+    <meta property="og:image" content="${BASE}/images/${p.poster}.png">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="450">
+    <meta property="og:image:alt" content="${escAttr(strip(p.posterAlt))}">
     <meta property="og:site_name" content="Modern Age Coders">
     <meta property="og:locale" content="en_US">
 
@@ -1204,7 +1308,8 @@ ${ideas}
     <meta name="twitter:url" content="${url}">
     <meta name="twitter:title" content="${mt}">
     <meta name="twitter:description" content="${md}">
-    <meta name="twitter:image" content="${BASE}/images/og-modern-age-coders.png">
+    <meta name="twitter:image" content="${BASE}/images/${p.poster}.png">
+    <meta name="twitter:image:alt" content="${escAttr(strip(p.posterAlt))}">
 
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -1269,6 +1374,7 @@ ${trustItems}
                     </div>
                 </div>
                 <aside class="ap-hero__panel">
+                    <img class="ap-hero__poster" src="/images/${p.poster}.webp" alt="${escAttr(strip(p.posterAlt))}" width="800" height="450" fetchpriority="high" decoding="async">
                     <h2>${p.panelHeading}</h2>
                     <ul>
 ${panelItems}
@@ -1335,6 +1441,7 @@ ${tlSteps}
             </div>
         </section>
 
+${pathsSection(p)}
 ${programSection(p)}
 ${pricingSection(p)}
         <!-- PROOF -->
@@ -1496,6 +1603,20 @@ ${std}
 ## ${p.timelineTitle}
 
 ${tl}
+
+## ${p.pathsTitle}
+
+${strip(p.pathsSub)}
+
+**The long journey, starting at 6 or 7.** ${strip(p.pathLong)} Ages 6 to 9 block coding
+and logic; 10 to 13 real Python and first runnable projects; 14 to 16 AI and machine
+learning with own datasets; 17 to 18 portfolio, competitions and research-grade work.
+
+**The short route, a deadline in weeks.** ${strip(p.pathShort)} Weeks 1 to 2 scope
+honestly; weeks 3 to 6 build the smallest version that works; weeks 7 to 8 one real
+user and fixes; final week README, recorded demo and rehearsal.
+
+${strip(p.pathsFoot)}
 
 ## How Modern Age Coders helps
 

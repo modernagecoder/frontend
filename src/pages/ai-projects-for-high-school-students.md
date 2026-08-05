@@ -68,6 +68,20 @@ The problem with most AI project lists is that they mix a two-hour tutorial with
 - **Months 5 to 8 - Rung two, wrapped in something usable**: A person who is not you can run it and get a result without instructions.
 - **Months 8 to 12 - Rung three, if the student wants it**: Research-grade work. Optional, and not the right goal for every student.
 
+## The ladder takes as long as it takes
+
+AI is the part of this where skipping ahead fails most visibly. A student who cannot debug a small program cannot debug a model.
+
+**The long journey, starting at 6 or 7.** A child who begins at six or seven reaches real machine learning around fourteen with years of fluency behind them. That is when own datasets and honest failure analysis become possible rather than performative. Ages 6 to 9 block coding
+and logic; 10 to 13 real Python and first runnable projects; 14 to 16 AI and machine
+learning with own datasets; 17 to 18 portfolio, competitions and research-grade work.
+
+**The short route, a deadline in weeks.** A capable older student can reach a first trained model in six to ten weeks and something genuinely usable in a few months. Research grade in a rush is not realistic and we will say so. Weeks 1 to 2 scope
+honestly; weeks 3 to 6 build the smallest version that works; weeks 7 to 8 one real
+user and fixes; final week README, recorded demo and rehearsal.
+
+We place students on the ladder by what they can actually do today, not by age and not by what a deadline would prefer to be true.
+
 ## How Modern Age Coders helps
 
 We start where the student actually is, not where a syllabus says they should be. The mentor sits alongside for the whole build, insists on a baseline and a failure analysis, and spends the final sessions asking the questions an interviewer would.

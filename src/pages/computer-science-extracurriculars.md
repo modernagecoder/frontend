@@ -68,6 +68,20 @@ Most lists give you twenty activities in no particular order. Admissions systems
 - **Year two, later - Contribute to something you did not start**: Open source review by a maintainer is the cheapest external validation available.
 - **Final year - Apply for the selective things**: Research programs and portfolio submissions, built on the evidence of the previous two years rather than assembled in a panic.
 
+## Tier 1 rewards years, not months
+
+Every activity in the top tier assumes a student who can already build independently. That is why when a family starts matters as much as what they choose.
+
+**The long journey, starting at 6 or 7.** Start at six or seven and the Tier 1 list is simply reachable by the time it counts. Competitions, merged open source and research all become normal rather than aspirational. Ages 6 to 9 block coding
+and logic; 10 to 13 real Python and first runnable projects; 14 to 16 AI and machine
+learning with own datasets; 17 to 18 portfolio, competitions and research-grade work.
+
+**The short route, a deadline in weeks.** Starting late is not disqualifying, it just narrows the list. One free competition and one finished, used project is achievable inside a year and still counts. Weeks 1 to 2 scope
+honestly; weeks 3 to 6 build the smallest version that works; weeks 7 to 8 one real
+user and fixes; final week README, recorded demo and rehearsal.
+
+Tell us the age and the time available and we will tell you which tier is realistically in reach, including when the honest answer is Tier 2.
+
 ## How Modern Age Coders helps
 
 Everything in Tier 1 depends on being able to build independently. That is what our classes produce: live teaching in small batches, real projects rather than worksheets, and a mentor who asks the follow-up questions before an admissions reader does.

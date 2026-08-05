@@ -62,6 +62,20 @@ A hackathon is the cheapest way to find out whether your child can build under p
 - **Months 6 to 10 - Enter something with a real deadline**: A district or national challenge with published rules and a submission date.
 - **Month 12 - One project, properly finished**: Repository, demo video, users, README. The hackathons were the training, this is the artefact.
 
+## A weekend is short. Getting good at weekends is not
+
+The event lasts two days. The ability to be useful in those two days takes considerably longer to build.
+
+**The long journey, starting at 6 or 7.** A student who has been coding since seven walks into a first hackathon able to contribute instead of watch. That is entirely a function of the years before it. Ages 6 to 9 block coding
+and logic; 10 to 13 real Python and first runnable projects; 14 to 16 AI and machine
+learning with own datasets; 17 to 18 portfolio, competitions and research-grade work.
+
+**The short route, a deadline in weeks.** If the event is next month, the goal is to be able to build one small thing end to end and to scope ruthlessly. That is trainable quickly, unlike fluency. Weeks 1 to 2 scope
+honestly; weeks 3 to 6 build the smallest version that works; weeks 7 to 8 one real
+user and fixes; final week README, recorded demo and rehearsal.
+
+Send us the event date. If there is not enough time to be useful at it, we will say so and point at the next one instead.
+
 ## How Modern Age Coders helps
 
 We prepare students for the format, scoping, splitting work, freezing early, and then we work with them on the part almost everyone skips: taking the weekend prototype to something finished, documented and demonstrable.

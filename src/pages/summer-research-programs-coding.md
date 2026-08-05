@@ -66,6 +66,20 @@ The selective programs reject most applicants, and the rejections are rarely abo
 - **6 months out - Prepare the application**: Applications for the winter deadlines. Ask referees early and give them the material.
 - **Summer - Do the work either way**: If accepted, excellent. If not, run the project yourself. The preparation was the point.
 
+## Research applications reward the long run
+
+These programs are selecting for students who can work on an open question unsupervised. That is not a skill anyone acquires in a term.
+
+**The long journey, starting at 6 or 7.** A student who has been building since childhood arrives with a visible history and the patience for problems that do not resolve quickly. That is what the application is really screening for. Ages 6 to 9 block coding
+and logic; 10 to 13 real Python and first runnable projects; 14 to 16 AI and machine
+learning with own datasets; 17 to 18 portfolio, competitions and research-grade work.
+
+**The short route, a deadline in weeks.** With a year of focused work a capable student can produce one external result and one real project, which is a credible application. Most strong applicants are still rejected, so the plan has to be worth doing anyway. Weeks 1 to 2 scope
+honestly; weeks 3 to 6 build the smallest version that works; weeks 7 to 8 one real
+user and fixes; final week README, recorded demo and rehearsal.
+
+We build the preparation so it pays off whether or not a program says yes, because for most applicants it will not.
+
 ## How Modern Age Coders helps
 
 Our mentors take students through a real project with an open question at the centre, insist on method and limitations being written down, and work on the technical reading that makes a research application credible rather than enthusiastic.
