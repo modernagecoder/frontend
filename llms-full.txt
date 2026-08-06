@@ -38,7 +38,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Resources practice: /content/resources/generated/{lang}/{chapter}/practice/index.md
 - Static pages:  /src/pages/{slug}.md
 
-> Generated: 2026-08-05 · Source of truth: https://learn.modernagecoders.com/llms.txt
+> Generated: 2026-08-06 · Source of truth: https://learn.modernagecoders.com/llms.txt
 
 Full companion to /llms.txt — brand overview, complete course catalog, embedded text of featured blog posts, and full blog index. AI agents that prefer a single document can use this as the canonical knowledge base.
 
@@ -76,7 +76,7 @@ Full companion to /llms.txt — brand overview, complete course catalog, embedde
 
 **Q: How are classes conducted?** Live over video in groups of 4-8. Recorded for revision. Student dashboard at https://dashboard.modernagecoders.com
 
-## Course Catalog (116 courses)
+## Course Catalog (119 courses)
 
 Every Modern Age Coders course, grouped by audience.
 
@@ -160,13 +160,19 @@ Live online vibe coding course for kids ages 8-12: learn Scratch, AI tools and g
 
 Live online web development course for kids: build real websites with HTML, CSS and AI tools in a 1-year program, from zero coding to professional sites.
 
-### Teens (24)
+### Teens (25)
 
 ### [AI & Machine Learning for Teens: Zero to AI Expert](https://learn.modernagecoders.com/courses/ai-ml-masterclass-teens/)
 
 *Level:* Complete Beginner to AI Developer · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹7,500/month
 
 A 1-year AI and Machine Learning program for teens: master Python, maths, ML algorithms, deep learning, computer vision, NLP and build real AI projects.
+
+### [AI Agents with Microsoft Copilot Studio for Teens](https://learn.modernagecoders.com/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens/)
+
+*Level:* Beginner (ages 13-18; no coding experience needed) · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹9,999/month
+
+Build real AI agents with Microsoft Copilot Studio in 24 live 1-on-1 online classes for ages 13-18: knowledge grounding, topics, connectors, agent flows, autonomous triggers and a published capstone agent. No heavy coding needed.
 
 ### [AI Tools for Teens (13+): Prompting, Creative Projects & Safe AI Use](https://learn.modernagecoders.com/courses/teens-ai-tools-mastery-course/)
 
@@ -306,13 +312,19 @@ A 1-year React course for teens: go from your first line of code to professional
 
 Live online vibe coding course for teens 13-17: learn Python, HTML, CSS, JavaScript and AI projects, build real apps and a portfolio in a 3-month program.
 
-### College (26)
+### College (27)
 
 ### [AI & Machine Learning Masterclass: Zero to AI Expert](https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete-college/)
 
 *Level:* Complete Beginner to AI/ML Expert · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹7,500/month
 
 A 12-month AI and Machine Learning program: master Python, mathematics, classical ML, deep learning, NLP, computer vision, MLOps and deploy models at scale.
+
+### [AI Agents with Microsoft Copilot Studio for College Students](https://learn.modernagecoders.com/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students/)
+
+*Level:* Intermediate (college students and early-career, ages 18+; no prior agent experience needed) · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹9,999/month
+
+Build business-grade AI agents in Microsoft Copilot Studio: 24 live 1-on-1 online classes on knowledge grounding, connectors, agent flows, MCP, autonomous triggers, multi-agent orchestration and a recruiter-ready published capstone.
 
 ### [AI Tools Mastery: ChatGPT to Production AI Automation](https://learn.modernagecoders.com/courses/ai-tools-mastery-complete-college/)
 
@@ -654,7 +666,7 @@ One-year coding program for girls and women: web development, app creation, AI b
 
 A 1-year advanced coding and leadership program for women: grow from intermediate developer to tech leader with cloud, AI/ML, system design and real apps.
 
-### Other (22)
+### Other (23)
 
 ### [Advanced Git & GitHub Masterclass for Professionals](https://learn.modernagecoders.com/courses/git-github-advanced-version-control-masterclass-for-professionals/)
 
@@ -709,6 +721,12 @@ Live online Codex + Claude Code masterclass for professionals. 24 mentor-led cla
 *Level:* Class 11 Beginner to Class 12 Board Exam Ready · *Duration:* 24 months (Class 11 + Class 12 full syllabus) · *Group:* ₹1,499/month · *1-on-1:* ₹7,500/month
 
 Class 11 & 12 Computer Science for CBSE (Python, SQL) and ICSE/ISC (Java, OOP): separate board batches, full syllabus, practical file and project guidance.
+
+### [Copilot Studio Agent Masterclass for Professionals](https://learn.modernagecoders.com/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals/)
+
+*Level:* Intermediate to advanced (working professionals; no prior agent experience assumed, business software fluency expected) · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹9,999/month
+
+Ship production AI agents in Microsoft Copilot Studio: 24 live 1-on-1 online classes for working professionals on enterprise grounding, autonomous agents, multi-agent A2A, governance and ROI.
 
 ### [Creative Coding & Animation: Content Creator Course](https://learn.modernagecoders.com/courses/creative-coding-animation-mastery/)
 

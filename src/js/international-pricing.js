@@ -179,8 +179,9 @@ const InternationalPricing = {
   },
 
   // ─── Premium agents context ───
-  // True on the two Codex + Claude Code course pages, which the generator tags
-  // <body data-price-tier="agents">. Picks the premium USD prices (group $100,
+  // True on the premium agents course pages (Codex + Claude Code, and the
+  // 1-on-1-only AI Agents with Copilot Studio trio), which the generator tags
+  // <body data-price-tier="agents">. Picks the agents USD prices (group $100,
   // 1-on-1 $150) when swapping ₹ markup and when charging card payments.
   isAgentsContext() {
     var el = document.documentElement;

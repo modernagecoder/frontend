@@ -1,0 +1,610 @@
+{
+  "meta": {
+    "slug": "ai-agents-with-microsoft-copilot-studio-course-for-teens",
+    "date": "2026-08-06",
+    "title": "AI Agents with Microsoft Copilot Studio for Teens",
+    "description": "Build real AI agents with Microsoft Copilot Studio in 24 live 1-on-1 online classes for ages 13-18: knowledge grounding, topics, connectors, agent flows, autonomous triggers and a published capstone agent. No heavy coding needed.",
+    "keywords": [
+      "copilot studio course for teens",
+      "microsoft copilot studio course",
+      "ai agent course for teens",
+      "build ai agents without coding",
+      "copilot studio training india",
+      "learn to build ai agents online",
+      "no code ai agent builder course",
+      "copilot studio for beginners",
+      "ai agents course for students",
+      "microsoft copilot studio tutorial live classes",
+      "agent builder course for teenagers",
+      "copilot studio topics and trigger phrases",
+      "copilot studio knowledge sources course",
+      "autonomous ai agents course",
+      "copilot studio agent flows training",
+      "ai agent classes 1 on 1",
+      "microsoft ai agent course for kids and teens",
+      "pl-900 copilot studio preparation"
+    ],
+    "category": "AI Agents & Automation",
+    "taxonomy": "technology",
+    "one_on_one_only": true,
+    "price": {
+      "personal": "₹9,999/month"
+    },
+    "duration": "24 classes (12 weeks · 2 classes/week)",
+    "level": "Beginner (ages 13-18; no coding experience needed)",
+    "commitment": "3-4 hours/week recommended",
+    "certification": "Modern Age Coders 'AI Agents with Copilot Studio' certificate upon completion",
+    "image_path": "copilot-studio-teens.webp"
+  },
+  "program_overview": {
+    "title": "AI Agents with Microsoft Copilot Studio: Build Agents That Actually Do Things",
+    "tagline": "Stop just chatting with AI. Design, ground, and publish your own AI agents on the platform 90% of the Fortune 500 already use, in private 1-on-1 classes built around your ideas.",
+    "description": "Every teenager has used a chatbot. Almost none of them have built an agent: an AI that knows a specific subject deeply, follows instructions it was given, uses tools, and acts on its own when something happens. That is exactly the skill this course teaches, on Microsoft Copilot Studio, the graphical low-code studio Microsoft describes as the way to build and manage AI-powered agents and workflows. Across 24 live 1-on-1 classes you go from your very first agent (described in plain English, tested the same hour) to agents grounded in real knowledge sources with citations, conversation design with topics and trigger phrases, tools built from connectors and agent flows, an autonomous agent that wakes up on an event trigger and works without you, and a published capstone agent demonstrated live on a website and shared for feedback. Along the way you learn the ideas that make agents trustworthy: grounding versus guessing, why an agent should cite its sources, what an agent should refuse to do, and how professionals measure whether an agent actually helped. Because every class is private, your mentor builds the whole course around agents you actually care about: a study buddy grounded in your own class notes, a quiz coach for your next exam, a club FAQ agent, a family trip planner. The syllabus is a Living Syllabus, updated as Copilot Studio ships new features, so you learn the current platform, never a frozen snapshot of last year's tool.",
+    "what_makes_this_different": [
+      "1-on-1 only, by design: agent building is a design discipline, and a private mentor can review your instructions, your knowledge sources, and your conversation maps line by line, which a group class simply cannot do.",
+      "Real platform, real skills: you work in Microsoft Copilot Studio itself, the same low-code agent studio used across enterprises, with topics, knowledge, tools, triggers and analytics, not a toy sandbox.",
+      "No heavy coding needed: Copilot Studio is a graphical, low-code studio, so the course runs on clear thinking and good instructions; teens who do code can go further with connectors and REST APIs in the same syllabus.",
+      "Agents that act, not just answer: by Phase 4 your agent responds to event triggers (a file added, a task completed, a schedule) and works autonomously, which is the difference between a chatbot and an agent.",
+      "Honest AI habits from Class 1: grounding answers in sources, keeping citations on, deciding what an agent must refuse, and testing before publishing, the same responsible-AI defaults professionals are held to.",
+      "Living Syllabus: Copilot Studio ships new models and features continuously (the current lineup includes GPT-5.5 Chat and Anthropic Claude models), and the curriculum is updated as they land, so nothing you learn is stale."
+    ],
+    "learning_path": [
+      "Phase 1, Your First Agents (Classes 1-5): what agents really are, the Copilot Studio tour, your first agent from a plain-English description, instructions that actually steer behaviour, and testing like a professional.",
+      "Phase 2, Knowledge & Grounding (Classes 6-9): knowledge sources (websites, documents, SharePoint), citations, generative answers, and the difference between an agent that knows and an agent that guesses.",
+      "Phase 3, Conversation Design (Classes 10-14): topics and trigger phrases, questions, entities and variables, condition logic, adaptive cards, and generative orchestration versus classic orchestration.",
+      "Phase 4, Tools & Autonomy (Classes 15-20): connectors, Prompt tools, agent flows, a look at Model Context Protocol, event triggers, and your first fully autonomous agent with analytics to prove it works.",
+      "Phase 5, Publish & Capstone (Classes 21-24): channels (demo website, Teams), safety and publishing checklists, then a capstone agent you design, build, test, publish and present."
+    ],
+    "career_outcomes": [
+      "A published capstone agent plus a portfolio of practice agents you can demo to anyone, on any screen",
+      "Fluency in the core Copilot Studio vocabulary employers now test: instructions, knowledge, topics, tools, triggers, channels, analytics",
+      "Prompt-writing and instruction-design skills that transfer to every AI tool you will ever use",
+      "A head start toward Microsoft's entry credential, the PL-900 Power Platform Fundamentals exam, which now includes a dedicated Copilot Studio agents domain",
+      "The habit hiring managers call out: grounding claims in sources and testing before shipping"
+    ]
+  },
+  "phase_1_first_agents": {
+    "title": "Phase 1: Your First Agents",
+    "description": "Understand what an AI agent actually is, tour Microsoft Copilot Studio, build your first agent from a plain-English description, and learn how instructions and testing really work.",
+    "week_1": {
+      "title": "Class 1: What an AI Agent Really Is (and What It Is Not)",
+      "topics": [
+        "Chatbot vs assistant vs agent: an agent has instructions, knowledge, tools and can act, not just answer",
+        "Agents you already meet every week: support bots, order trackers, school helpdesks, and what they get right and wrong",
+        "Microsoft Copilot Studio in one sentence: a graphical, low-code studio for building and managing AI-powered agents and workflows",
+        "The guided tour: agents, knowledge, topics, tools, triggers, channels and analytics, and what each tab is for",
+        "How access works honestly: Copilot Studio uses a Microsoft work or school account, and your mentor gets your practice environment ready with you in this class",
+        "The anatomy of every agent you will build: name, description, instructions, knowledge, tools, and where each lives",
+        "Setting the course goal: the capstone agent you will publish in Class 24, chosen from your own school, club or family life"
+      ],
+      "projects": [
+        "Agent safari: analyse two real agents you have used (a support bot, a game helper), map what their instructions and knowledge must look like, and write a one-page teardown"
+      ],
+      "practice": "List five agent ideas from your own week (study, club, family, hobby) and rank them by how much real knowledge each would need.",
+      "assessment": "Explain the difference between a chatbot and an agent in two sentences, using the words instructions, knowledge and tools correctly."
+    },
+    "week_2": {
+      "title": "Class 2: Your First Agent in One Hour",
+      "topics": [
+        "Describe-to-create: starting an agent from a plain-English description of what it should do",
+        "Writing your first instructions: role, audience, tone, and the three behaviours your agent must always show",
+        "The test panel: talking to your agent the moment it exists, and reading its answers critically",
+        "Iteration as the core loop: change one instruction line, retest, compare, keep or revert",
+        "Naming, descriptions and icons: why a clear agent description matters for users and for you",
+        "What the model does with your instructions: a teen-friendly picture of how a large language model follows a system prompt",
+        "Saving versions of your instruction text outside the tool, the habit that saves every project later"
+      ],
+      "projects": [
+        "Build 'Study Buddy v1': an agent with instructions for your real timetable and subjects that answers revision questions in a tone you designed"
+      ],
+      "practice": "Rewrite your agent's instructions three different ways and record how each version changes the same test question's answer.",
+      "assessment": "Show a before-and-after: one instruction change and the exact behaviour difference it caused in the test panel."
+    },
+    "week_3": {
+      "title": "Class 3: Instructions That Actually Steer Behaviour",
+      "topics": [
+        "The instruction stack: identity, scope, tone, format rules, and refusals, in that order",
+        "Scope fences: telling an agent what it must NOT do, and testing that the fence holds",
+        "Tone control for real audiences: the same agent for classmates vs teachers vs grandparents",
+        "Format discipline: making answers arrive as steps, tables or short paragraphs on demand",
+        "Refusal design: choosing the questions your agent should decline (medical advice, personal data, exam cheating) and wording the refusal kindly",
+        "Instruction smells: vague verbs, contradictions, and instructions that fight each other",
+        "A/B testing instructions: running the same 10 questions against two instruction sets and scoring the answers"
+      ],
+      "projects": [
+        "The Refusal Gauntlet: write 10 questions your Study Buddy must refuse or redirect, then tune instructions until all 10 are handled gracefully"
+      ],
+      "practice": "Take a classmate's (or parent's) three trickiest questions and tune your instructions until the answers pass their review.",
+      "assessment": "Present your instruction stack and defend each line: what breaks if it is removed?"
+    },
+    "week_4": {
+      "title": "Class 4: Testing Like a Professional",
+      "topics": [
+        "Why 'it answered nicely once' is not evidence: building a fixed test set of 15 questions",
+        "Happy path, edge case, and adversarial questions: three test types every agent needs",
+        "Reading answers critically: correctness, tone, format, and whether the agent stayed in scope",
+        "Regression testing by hand: rerunning your test set after every meaningful change",
+        "Keeping a test log: question, expected behaviour, actual behaviour, verdict",
+        "When the agent is confidently wrong: recognising hallucination before you have knowledge sources to fix it",
+        "The professional habit this course grades you on: no change ships without a retest"
+      ],
+      "projects": [
+        "Build your permanent 15-question test set for Study Buddy, with expected behaviour written down before you run it"
+      ],
+      "practice": "Run your full test set twice this week and log every verdict; bring the two failures you found to class.",
+      "assessment": "Given a transcript of an agent conversation, mark every line as pass or fail against the written instructions."
+    },
+    "week_5": {
+      "title": "Class 5: How the Platform Thinks: Environments, Models and Harnesses",
+      "topics": [
+        "Where agents live: environments, and why your practice environment is separate from a company's production one",
+        "The model picker: Copilot Studio agents run on a chosen model (the lineup currently includes GPT-4.1 as default, GPT-5.5 Chat, and Anthropic Claude models), and what changing it does",
+        "Harnesses in plain words: the runtime between your design and the model, and why Microsoft now ships more than one",
+        "What is free and what costs money: Copilot Credits exist, adults pay for capacity, and testing in class is covered by your practice environment",
+        "Responsible-AI defaults you inherit: content filters and guardrails the platform applies before your instructions even run",
+        "Saving and organising agents so week-12-you can find what week-2-you built",
+        "Checkpoint: everything in one map, from your typed instruction to the model's answer"
+      ],
+      "projects": [
+        "Draw the journey of one question through your agent: user, harness, instructions, model, answer, and label the parts you control"
+      ],
+      "practice": "Try the same three test questions on two different models in the picker and write down every difference you can defend.",
+      "assessment": "Phase 1 review: rebuild a small agent from a written spec in 20 minutes, with instructions, a refusal, and a 5-question test."
+    }
+  },
+  "phase_2_knowledge_grounding": {
+    "title": "Phase 2: Knowledge & Grounding",
+    "description": "Give your agent real knowledge: websites, documents and SharePoint sources, citations users can check, and the discipline of grounding answers instead of guessing.",
+    "week_6": {
+      "title": "Class 6: Grounding vs Guessing",
+      "topics": [
+        "Why a bare model guesses: training data vs your data, in a picture a friend could follow",
+        "Knowledge sources in Copilot Studio: public websites, uploaded documents, SharePoint, Dataverse, and connector-indexed enterprise data",
+        "Generative answers: how the agent searches your sources and composes an answer from what it found",
+        "Citations: why the little source link is the most trustworthy pixel on the screen",
+        "The 'Allow ungrounded responses' setting, and why this course keeps it off by default",
+        "Limits that shape design: sources per agent, website counts, and file size ceilings exist, so knowledge is curated, not dumped",
+        "Choosing knowledge for your capstone: authoritative, current, and small enough to verify"
+      ],
+      "projects": [
+        "Ground Study Buddy in one real source (your school's public website or a subject site) and prove three answers now cite it"
+      ],
+      "practice": "Ask your grounded agent five questions its source cannot answer and observe exactly how it behaves at the edge of its knowledge.",
+      "assessment": "Explain grounding, citation and hallucination to a parent in under two minutes; they grade you."
+    },
+    "week_7": {
+      "title": "Class 7: Document Knowledge Done Right",
+      "topics": [
+        "Uploading documents as knowledge: what formats work well and what makes a document searchable",
+        "Writing documents FOR agents: headings, one fact per paragraph, and names spelled consistently",
+        "The curation habit: five great pages beat fifty messy ones, every time",
+        "Testing document knowledge: questions whose answers live in one exact paragraph",
+        "Updating knowledge: what happens when the source document changes and the agent must not lag behind",
+        "Privacy first pass: what should never go into an agent's knowledge (family data, friends' names, anything you would not print)",
+        "Building the knowledge pack for your own subjects: notes that become a genuinely useful revision agent"
+      ],
+      "projects": [
+        "Create a clean 3-document knowledge pack from your own class notes and ground a Revision Coach agent in it, with a 10-question proof test"
+      ],
+      "practice": "Deliberately break one document (vague headings, mixed topics), watch answer quality drop, then fix it and retest.",
+      "assessment": "Given two versions of the same document, predict which grounds better and verify by testing both."
+    },
+    "week_8": {
+      "title": "Class 8: Multi-Source Knowledge and Conflicts",
+      "topics": [
+        "Combining sources: website plus documents plus a SharePoint folder, and how the agent picks",
+        "When sources disagree: seeing conflicting-answer behaviour and designing around it",
+        "Source scoping: pointing a question type at the right source with instructions",
+        "Freshness: preferring the source that updates (a website) for facts that change",
+        "The web question: what 'Use information from the web' changes, and when a curated agent should leave it off",
+        "Auditing an agent's knowledge like a librarian: what is in, what is out, what is stale",
+        "Knowledge design for the capstone: writing the source list you will defend in Class 24"
+      ],
+      "projects": [
+        "Build 'Club Desk': an agent for a real club or activity grounded in two sources, with documented behaviour when sources conflict"
+      ],
+      "practice": "Write five questions that force your agent to choose between its sources and log which one wins each time.",
+      "assessment": "Defend your capstone source list: for each source, why it is authoritative and how you will keep it current."
+    },
+    "week_9": {
+      "title": "Class 9: Honest Agents: Accuracy, Bias and Boundaries",
+      "topics": [
+        "Measuring accuracy properly: scoring 20 grounded answers against the source text itself",
+        "Bias in, bias out: how a one-sided source list produces a one-sided agent",
+        "Uncertainty language: making the agent say 'my sources do not cover that' instead of improvising",
+        "Personal data rules for minors, in plain words: what an agent about your life may never store or repeat",
+        "Academic honesty: a revision agent that teaches you vs one that does your homework, and where this course draws the line",
+        "What professionals add later: evaluation suites and monitoring, previewed honestly so you know where this road goes",
+        "Phase 2 wrap: the grounding checklist you will apply to every agent from now on"
+      ],
+      "projects": [
+        "Accuracy audit: score 20 answers from Revision Coach against the actual source paragraphs and publish your agent's accuracy number with examples"
+      ],
+      "practice": "Add an uncertainty rule to every agent you own and collect three real 'my sources do not cover that' responses.",
+      "assessment": "Phase 2 exam: given a topic, design the full knowledge plan (sources, scoping, refusals, accuracy test) in writing."
+    }
+  },
+  "phase_3_conversation_design": {
+    "title": "Phase 3: Conversation Design",
+    "description": "Design conversations deliberately: topics and trigger phrases, questions and variables, condition logic, adaptive cards, and the two orchestration modes that decide how your agent thinks.",
+    "week_10": {
+      "title": "Class 10: Topics and Trigger Phrases",
+      "topics": [
+        "What a topic is: a designed conversation path for one job your agent does",
+        "Trigger phrases: teaching the agent the many ways people ask for the same thing (topics support up to 200)",
+        "The topics you get for free: greeting, goodbye, escalate, and why system topics exist",
+        "Building a topic on the authoring canvas: message nodes, question nodes, and the flow between them",
+        "When to use a topic vs when to let generative answers handle it: control vs flexibility",
+        "Peeking under the canvas: every topic is also code (YAML), the first hint that low-code and pro-code meet",
+        "Designing your agent's topic map: the five jobs users will actually ask it to do"
+      ],
+      "projects": [
+        "Build a 'Homework Planner' agent with three hand-designed topics: add a task, list this week, and what should I do first"
+      ],
+      "practice": "Collect ten real phrasings of one request from friends or family and add the best ones as trigger phrases, then test recognition.",
+      "assessment": "Given three user messages, predict which topic each will trigger and verify live."
+    },
+    "week_11": {
+      "title": "Class 11: Questions, Entities and Variables",
+      "topics": [
+        "Question nodes: asking for exactly the information a topic needs, one clean question at a time",
+        "Entities: how the agent extracts a date, a number, a choice from a messy sentence",
+        "Variables: storing what the user said and reusing it later in the conversation",
+        "Slot filling: when a user gives three answers in one sentence and the agent skips already-answered questions",
+        "Choice questions vs open questions: constraining answers when structure matters",
+        "Validating input: what happens when the user answers a date question with 'idk, whenever'",
+        "Conversation memory across a session: what your agent remembers and what it forgets"
+      ],
+      "projects": [
+        "Upgrade Homework Planner: the add-a-task topic now collects subject, due date and effort through entities and confirms with a summary using variables"
+      ],
+      "practice": "Test the same topic with cooperative, messy and hostile answers; log where extraction fails and tighten the questions.",
+      "assessment": "Trace a conversation on paper: name the entity and variable at each step before running it live."
+    },
+    "week_12": {
+      "title": "Class 12: Condition Logic and Branching",
+      "topics": [
+        "Condition nodes: sending the conversation down different paths based on variables",
+        "Condition groups: combining tests (subject is maths AND due tomorrow) without spaghetti",
+        "Designing branches on paper first: a flow diagram before ever touching the canvas",
+        "The escalation branch: recognising 'this needs a human' and saying so",
+        "Default branches: the path for everything you did not predict",
+        "Testing branch coverage: one test conversation per path, no path untested",
+        "Refactoring topics: splitting one giant topic into three small clean ones"
+      ],
+      "projects": [
+        "Build 'Event Helper' for a real school or family event: RSVP path, question path, and organiser-escalation path, all condition-driven"
+      ],
+      "practice": "Draw your Event Helper flow as a diagram, then have your mentor try to reach a dead end you did not design.",
+      "assessment": "Given a flow diagram with a logic bug, find and fix the bad branch in one session."
+    },
+    "week_13": {
+      "title": "Class 13: Adaptive Cards and Rich Responses",
+      "topics": [
+        "Beyond plain text: adaptive cards for structured, tappable answers",
+        "Card anatomy: title, facts, images, actions, and when a card beats a paragraph",
+        "Designing cards for small screens: your agent will mostly be read on phones",
+        "Buttons that continue the conversation: card actions feeding back into topics",
+        "Consistency: a small card style guide so your agent looks designed, not assembled",
+        "Accessibility basics: alt text and reading order, because agents are for everyone",
+        "When NOT to use a card: the restraint that separates designers from decorators"
+      ],
+      "projects": [
+        "Give Homework Planner a card-based weekly view: each task a card with subject, due date and a 'mark done' action"
+      ],
+      "practice": "Convert your three most-used answers into cards and A/B them with two real users against the text versions.",
+      "assessment": "Card critique: improve a deliberately ugly card (walls of text, no hierarchy) and justify each change."
+    },
+    "week_14": {
+      "title": "Class 14: Generative Orchestration vs Classic",
+      "topics": [
+        "Two brains, one agent: classic orchestration (trigger phrases pick topics) vs generative orchestration (the model plans across topics, knowledge and tools)",
+        "What generative orchestration unlocks: multi-intent requests, tool choice, and the autonomous triggers you will use in Phase 4",
+        "What you trade: predictability, and how instructions rein the planner back in",
+        "Watching the plan: reading how the agent decided which topic, knowledge source or tool to use",
+        "Mixing modes wisely: designed topics for the critical paths, generative flexibility for the long tail",
+        "Guardrails under orchestration: scope fences and refusals still rule, and you retest them now",
+        "Phase 3 wrap: your conversation-design checklist, from trigger phrases to orchestration choice"
+      ],
+      "projects": [
+        "Switch Event Helper to generative orchestration, rerun your full test set, and document every behaviour change with a keep-or-fix verdict"
+      ],
+      "practice": "Craft three multi-intent messages ('RSVP yes and what time and can my sister come') and tune until all three resolve cleanly.",
+      "assessment": "Phase 3 exam: design a five-topic agent on paper (topics, entities, branches, cards, orchestration mode) and defend the design."
+    }
+  },
+  "phase_4_tools_autonomy": {
+    "title": "Phase 4: Tools & Autonomy",
+    "description": "Make your agent act: connectors and Prompt tools, agent flows for multi-step work, a first look at Model Context Protocol, then event triggers and a fully autonomous agent with analytics to prove it works.",
+    "week_15": {
+      "title": "Class 15: Tools: Giving Your Agent Hands",
+      "topics": [
+        "The tool menu: Prompt, Agent flow, Custom connector, Model Context Protocol and REST API, and what each is for",
+        "Connectors: Copilot Studio's library of more than 1,400 prebuilt connections to real services",
+        "Your first tool: a Prompt tool that does one transformation perfectly (summarise, translate, rewrite)",
+        "Tool descriptions matter: the agent chooses tools by reading their descriptions, so you write them carefully",
+        "Fewer, better tools: the platform allows many tools per agent, professionals deliberately keep the list short",
+        "Safety question of the day: what is this tool allowed to touch, and who said so",
+        "Planning the tools your capstone actually needs (usually two, rarely five)"
+      ],
+      "projects": [
+        "Add a 'flashcard maker' Prompt tool to Revision Coach: paste messy notes, get clean question-answer pairs, every time"
+      ],
+      "practice": "Write two versions of your tool's description and show how the wording changes when the agent decides to use it.",
+      "assessment": "Explain to your mentor, without notes, how an agent decides between answering directly, using knowledge, and calling a tool."
+    },
+    "week_16": {
+      "title": "Class 16: Agent Flows: Multi-Step Work That Always Runs the Same",
+      "topics": [
+        "Agent flows: deterministic step-by-step automations your agent can call as a tool",
+        "Flow anatomy: trigger, steps, conditions, and outputs handed back to the conversation",
+        "When a flow beats the model: anything that must happen exactly the same way every time",
+        "Building a notify flow: collect details in conversation, send a formatted email or Teams message",
+        "Error paths in flows: what the user sees when a step fails, and why silence is never acceptable",
+        "Flows vs topics: designed conversation vs designed action, and how they hand off",
+        "Reading a flow run: inputs, outputs and the step where things went wrong"
+      ],
+      "projects": [
+        "Build 'Permission Slip': Event Helper collects details, an agent flow sends a tidy summary email to the organiser (a parent or teacher), and the agent confirms with the flow's result"
+      ],
+      "practice": "Break your flow on purpose (bad input, missing field), observe the failure, then add the error path that makes it graceful.",
+      "assessment": "Given a task description, decide flow or topic or Prompt tool, and justify the choice in three sentences."
+    },
+    "week_17": {
+      "title": "Class 17: Connecting to the Real World: Connectors, REST and MCP",
+      "topics": [
+        "Using a prebuilt connector as a tool: real services (To Do, Calendar, SharePoint) inside your conversation",
+        "Authentication in plain words: why tools ask 'connect your account' and what is being granted",
+        "REST APIs, demystified: request in, JSON out, and how an agent turns that into an answer",
+        "Model Context Protocol (MCP): the open standard for plugging tool servers into agents, added from the same Add-a-tool menu",
+        "Why MCP matters beyond Microsoft: the same protocol appears in Claude, IDEs and other agent platforms you already know",
+        "Governance preview: connector access is policy-controlled in real companies, so 'can' and 'may' are different questions",
+        "Choosing the responsible option: the least-powerful tool that does the job"
+      ],
+      "projects": [
+        "Wire one real connector tool into a practice agent (task list or calendar lookup) and demonstrate a conversation that reads and writes real data"
+      ],
+      "practice": "Map one API you wish existed for your life (canteen menu, bus times) and write the tool description and three test utterances for it.",
+      "assessment": "Sketch the path of one tool call end to end: utterance, orchestration, tool choice, call, result, answer."
+    },
+    "week_18": {
+      "title": "Class 18: Event Triggers: Agents That Wake Up by Themselves",
+      "topics": [
+        "The autonomy switch: event triggers let an agent act with no user in the chat at all",
+        "Trigger types that matter: item created (SharePoint), file added (OneDrive), task completed (Planner), and Recurrence for schedules",
+        "The trigger payload: the event's data arriving as input, and instructions deciding what to do with it",
+        "Generative orchestration required: why autonomous behaviour needs the planning brain from Class 14",
+        "The security fact professionals underline: triggers run with the maker's credentials, so you design as if everything it does is signed by you",
+        "Designing the first autonomous job: small, observable, reversible",
+        "Logging what your agent did while you were at school: the activity trail habit"
+      ],
+      "projects": [
+        "Build 'Drop Folder Librarian': when a file lands in a watched folder, the agent files a tidy summary card automatically, on a Recurrence backup schedule"
+      ],
+      "practice": "Feed your autonomous agent five files while you are away from the keyboard and audit its five actions afterwards, scoring each.",
+      "assessment": "Explain maker-credential risk in your own words and name the two design rules you applied because of it."
+    },
+    "week_19": {
+      "title": "Class 19: Your Autonomous Agent, Hardened",
+      "topics": [
+        "From demo to dependable: retries, idempotence in plain words (running twice must not double the damage)",
+        "Human-in-the-loop: which autonomous actions should pause for approval, and how to design the pause",
+        "Notification etiquette: an autonomous agent that spams is an autonomous agent that gets turned off",
+        "Failure diaries: capturing what went wrong so Tuesday's bug is not repeated on Thursday",
+        "Scope creep in autonomy: resisting the urge to let the agent 'also just' do one more thing",
+        "Multi-agent preview: child agents and connected agents exist, and when one agent should become two",
+        "Rehearsing the demo: showing autonomous behaviour live without praying"
+      ],
+      "projects": [
+        "Harden Drop Folder Librarian: add an approval pause for deletes, an error diary, and a weekly self-report message, then run it for three real days"
+      ],
+      "practice": "Write the one-page 'operations note' for your agent: what it does, when, with whose permissions, and how to turn it off.",
+      "assessment": "Live drill: your mentor breaks one input; your agent must fail gracefully and your diary must show why."
+    },
+    "week_20": {
+      "title": "Class 20: Analytics: Proving Your Agent Works",
+      "topics": [
+        "The analytics view: sessions, outcomes (resolved, escalated, abandoned), and what each outcome means",
+        "Reading transcripts respectfully: real conversations are the best design feedback you will ever get",
+        "Customer satisfaction in miniature: asking users to rate your agent and surviving the answers",
+        "Finding the gap: the questions users asked that your agent could not handle, ranked",
+        "Evaluations, previewed: professionals run test sets automatically against agents; you have been doing it by hand since Class 4",
+        "The improvement loop: analytics, hypothesis, one change, retest, remeasure",
+        "Phase 4 wrap: tools, autonomy and analytics as one system, ready for the capstone"
+      ],
+      "projects": [
+        "Analytics sprint: put one agent in front of five real users for a week, read every session, and ship two improvements the data demanded"
+      ],
+      "practice": "Write your capstone's success metrics before building it: three numbers that will define 'it works'.",
+      "assessment": "Phase 4 exam: from a set of session transcripts, diagnose the top failure and propose the one-line fix, then prove it."
+    }
+  },
+  "phase_5_publish_capstone": {
+    "title": "Phase 5: Publish & Capstone",
+    "description": "Publish agents to real channels, pass a safety and quality checklist, then design, build, test and present a capstone agent that does a real job for real people.",
+    "week_21": {
+      "title": "Class 21: Channels: Where Agents Live",
+      "topics": [
+        "The channel lineup: demo website, custom website, Microsoft Teams and Microsoft 365 Copilot, SharePoint, and even WhatsApp in business setups",
+        "Publishing flow: from the studio to a shareable demo website in one class",
+        "How the same agent feels different per channel: phone vs desktop vs inside Teams",
+        "Access decisions: who can reach your agent, and why 'everyone' is rarely the right answer",
+        "Versioning discipline: what publishing again replaces, and how not to break your live users",
+        "The Agent Store idea: in companies, published agents go through an admin's approval, a preview of real-world governance",
+        "Choosing your capstone's channel and writing its one-paragraph launch plan"
+      ],
+      "projects": [
+        "Publish Homework Planner to the demo website and run a supervised test with two real users on their own phones"
+      ],
+      "practice": "Collect structured feedback from your two testers (what confused, what delighted) and file it against Class 23's build time.",
+      "assessment": "Explain what changes and what stays the same when one agent is published to two different channels."
+    },
+    "week_22": {
+      "title": "Class 22: The Pre-Flight Checklist: Safety, Quality, Honesty",
+      "topics": [
+        "The publishing checklist professionals use: scope fences retested, refusals verified, sources cited, personal data audited",
+        "Prompt injection for teens: how a malicious message tries to hijack instructions, and the defensive habits that blunt it",
+        "Data minimisation: your agent stores the least it can and forgets what it should",
+        "Transparency: users must know they are talking to an agent, and what it can and cannot do",
+        "Credits and cost awareness: agent usage is metered in real deployments (Copilot Credits), and design choices change the bill",
+        "Accessibility and kindness passes: language level, error tone, and the user having a bad day",
+        "Signing off: the written go / no-go your mentor countersigns before capstone launch"
+      ],
+      "projects": [
+        "Run the full 20-point pre-flight checklist against your published agent, fix the failures, and produce the signed one-page audit"
+      ],
+      "practice": "Attempt three prompt-injection attacks on your own agent, document what happened, and add one mitigation.",
+      "assessment": "Checklist mastery: audit a deliberately flawed agent spec and catch at least four of its five planted problems."
+    },
+    "week_23": {
+      "title": "Class 23: Capstone Build Week",
+      "topics": [
+        "Freezing the spec: the capstone's job, users, sources, tools, trigger and channel on one page",
+        "Building in the right order: knowledge first, topics second, tools third, trigger last",
+        "Timeboxing with a mentor: what gets cut when reality bites, and why the core loop is protected",
+        "The test set as safety net: your fixed questions rerun after every build milestone",
+        "Polish that matters: greeting, name, description, card style, error tone",
+        "Dress rehearsal: the full demo run, timed, with one planned failure recovery",
+        "Presentation craft: showing the design decisions, not just the happy path"
+      ],
+      "projects": [
+        "Build the complete capstone agent: grounded knowledge, at least two designed topics, one tool or agent flow, one trigger if autonomous, published to your chosen channel"
+      ],
+      "practice": "Run the dress rehearsal for a family member and cut or fix the two weakest moments of the demo.",
+      "assessment": "Milestone gate: the capstone passes its own test set and pre-flight checklist before demo day."
+    },
+    "week_24": {
+      "title": "Class 24: Demo Day and What Comes Next",
+      "topics": [
+        "The live demo: your capstone, in front of a real audience, on a real channel, with citations showing",
+        "Defending design decisions: why these sources, these topics, this tool, this trigger",
+        "The retrospective: what you would build differently, the most honest slide in any deck",
+        "Your portfolio: the capstone plus the practice agents, packaged so a school or interviewer can browse them",
+        "The credential road: Microsoft's PL-900 Power Platform Fundamentals now has a Copilot Studio agents domain, and the Applied Skills lab 'Build an agent in Microsoft Copilot Studio' is the natural next rung",
+        "Where this skill goes: Gartner projects that by 2029 at least half of knowledge workers will need to work with, govern or create AI agents",
+        "Certificate, feedback, and the Living Syllabus promise: what changed in Copilot Studio while you were learning it"
+      ],
+      "projects": [
+        "Deliver the capstone demo and hand over the full packet: spec, source list, test log, audit page and a two-minute recorded walkthrough"
+      ],
+      "practice": "Write your next agent's one-page spec unprompted, because you will not stop at one.",
+      "assessment": "Final evaluation: capstone demo, design defence, and the complete documentation packet, graded against the rubric from Class 20."
+    }
+  },
+  "prerequisites": {
+    "device": "A laptop or desktop (Windows, Mac or Linux) with the Chrome or Edge browser and a reliable internet connection; Copilot Studio runs fully in the browser",
+    "coding_experience": "None needed. Copilot Studio is a graphical, low-code studio; clear thinking and good writing matter far more than syntax. Teens who already code can go deeper into connectors and REST tools inside the same syllabus",
+    "accounts": "Copilot Studio uses a Microsoft work or school account rather than a personal email. Many students already have one from school; if you do not, we arrange access to a practice environment for the course, and for students under 18 a parent or guardian accepts Microsoft's terms",
+    "mindset": "Curiosity about how AI actually works, and the patience to test before you trust. The course rewards students who ask 'how do I know this answer is right?'"
+  },
+  "who_is_this_for": {
+    "curious_builders": "Teens who use ChatGPT or Copilot daily and are ready to move from asking AI questions to building AI that answers them",
+    "future_professionals": "Students eyeing careers in technology, product or business who want the agent-building vocabulary employers now test, on the platform 90% of the Fortune 500 use",
+    "non_coders": "Teens who thought AI was locked behind programming: Copilot Studio's low-code canvas makes design thinking, not syntax, the superpower",
+    "young_coders": "Students from our Python or web development courses who want to see where low-code agents meet APIs, REST and Model Context Protocol",
+    "portfolio_hunters": "Teens building a portfolio for internships or university applications who want a published, working agent to show, not a certificate alone"
+  },
+  "career_paths_after_completion": [
+    "A visible head start toward roles that now appear in real job listings: AI agent builder, automation specialist, Power Platform maker",
+    "Microsoft's own credential ladder: PL-900 Power Platform Fundamentals (which now includes a Copilot Studio agents domain), then the Applied Skills lab 'Build an agent in Microsoft Copilot Studio'",
+    "A published capstone agent and portfolio that make school projects, internship applications and university statements concrete",
+    "The design-and-test discipline (grounding, refusals, evaluation) that transfers to every AI platform, not just Microsoft's",
+    "A natural bridge into our Codex + Claude Code course when you are ready to build agents with real code"
+  ],
+  "course_guarantees": {
+    "one_on_one_only": "This course is taught 1-on-1 only: every class is a private session with a dedicated mentor, and the entire syllabus bends around your ideas and pace.",
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "structured_curriculum": "A structured, well-paced 24-class curriculum taught step by step, with a real project in every single class.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never stuck for four days with a broken agent.",
+    "certificate": "A course-completion certificate you can share, earned by a demonstrated capstone, not attendance.",
+    "free_demo": "A free demo class before you enrol, so you can meet the mentor and the platform with no pressure."
+  },
+  "additional_learning_resources": {
+    "total_projects_built": "24 hands-on projects, one per class, finishing with a published capstone agent",
+    "projects_throughout_course": [
+      "Phase 1: an agent teardown, Study Buddy v1 from a plain-English description, a refusal gauntlet, a permanent 15-question test set, and a full map of how a question travels through the platform",
+      "Phase 2: a website-grounded Study Buddy with citations, a 3-document Revision Coach with a proof test, a two-source Club Desk with conflict handling, and a published accuracy audit",
+      "Phase 3: a Homework Planner with designed topics, entity-driven task capture, a condition-driven Event Helper, card-based weekly views, and a generative-orchestration migration with documented behaviour changes",
+      "Phase 4: a flashcard-maker Prompt tool, a Permission Slip agent flow with graceful errors, a real connector tool reading and writing live data, the autonomous Drop Folder Librarian, its hardened successor with approval pauses, and an analytics sprint with shipped improvements",
+      "Phase 5: a published agent tested by real users, a signed 20-point pre-flight audit, the complete capstone build, and a demo-day presentation with a full documentation packet",
+      "Total: 24 hands-on projects, one per class, finishing with a published capstone agent"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 private 1-on-1 classes per week, about 1 hour each, across 12 weeks",
+      "hands_on_agent_work": "1-1.5 hours building and testing in Copilot Studio between classes",
+      "project_time": "1 hour completing each class project, usually inside your own agents",
+      "review_and_doubts": "20-40 minutes reviewing feedback and clearing doubts over WhatsApp before the next class"
+    },
+    "certification": {
+      "completion_certificate": "Modern Age Coders 'AI Agents with Copilot Studio' certificate, earned by presenting and defending your Class 24 capstone agent",
+      "project_portfolio": "A published capstone agent plus 24 documented class projects, packaged as a browsable portfolio",
+      "next_credentials": "A clear path to Microsoft's PL-900 Power Platform Fundamentals exam (now with a dedicated Copilot Studio agents domain) and the Applied Skills lab 'Build an agent in Microsoft Copilot Studio'"
+    },
+    "skills_mastered": [
+      "Agent design: instructions, scope fences, refusals and tone control",
+      "Knowledge grounding: websites, documents and SharePoint sources with citations",
+      "Conversation design: topics, trigger phrases, entities, variables and condition logic",
+      "Adaptive cards and mobile-first response design",
+      "Generative orchestration vs classic orchestration, chosen deliberately",
+      "Tools: Prompt tools, connectors, agent flows, and a working understanding of REST and Model Context Protocol",
+      "Autonomous agents: event triggers, recurrence schedules, human-in-the-loop approvals",
+      "Analytics and evaluation: outcomes, transcripts, test sets and the improvement loop",
+      "Publishing: demo and custom websites, Teams, and the pre-flight checklist that gates a launch",
+      "Responsible AI habits: grounding, transparency, data minimisation and injection awareness"
+    ],
+    "support_provided": {
+      "dedicated_mentor": "The same mentor for all 24 classes, who knows exactly where your agents and your understanding stand",
+      "whatsapp_doubts": "Doubt support between classes over WhatsApp",
+      "practice_environment": "Help setting up your Copilot Studio practice environment in Class 1, including the account path for students under 18",
+      "session_recordings": "Class recordings available for revision, so a missed detail is never lost"
+    },
+    "copilot_studio_docs": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/",
+    "microsoft_learn_path": "https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/",
+    "whats_new_page": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/whats-new"
+  },
+  "why_this_course": {
+    "the_gap": "Teens are the heaviest users of AI chat tools and almost never get to build with them. The distance between 'I ask ChatGPT things' and 'I designed an agent that is grounded in real sources, uses tools, and acts on triggers' is exactly one good course, and this is that course, taught 1-on-1 so the projects are actually yours.",
+    "real_platform": "This is not a toy simulator. Microsoft Copilot Studio is the low-code agent platform used across enterprises, with 90% of the Fortune 500 using it by Microsoft's own count. The vocabulary you learn here (instructions, knowledge, topics, tools, triggers, channels, analytics) is the vocabulary of real job listings.",
+    "always_current": "Copilot Studio ships new capabilities continuously: new models including Anthropic's Claude, Model Context Protocol tools, autonomous triggers, agent evaluations. The syllabus is a Living Syllabus, re-verified and updated as features land, which is also why classes are taught live by a mentor and not recorded in 2024.",
+    "one_on_one": "Agent building is a design discipline: your instructions, your sources, your conversation maps. A private mentor reviews all of it, every class, and bends every project toward your school, your clubs and your ideas. That review loop is the fastest way to get good, and it is why this course is taught 1-on-1 only."
+  },
+  "faqs": [
+    {
+      "question": "Does my teenager need to know coding to build AI agents in Copilot Studio?",
+      "answer": "No. Microsoft Copilot Studio is a graphical, low-code studio: agents are built from instructions written in plain English, knowledge sources, and a visual conversation canvas. The skills that matter are clear thinking, good writing and honest testing, and the course teaches all three. Students who do already code can go deeper into connectors, REST APIs and Model Context Protocol inside the same syllabus."
+    },
+    {
+      "question": "What exactly will my child build in this course?",
+      "answer": "Twenty-four real projects, one per class: a study buddy grounded in their own notes with citations, a homework planner with designed conversation topics, an event helper with condition logic and adaptive cards, an agent that sends real emails through an agent flow, an autonomous agent that responds to file and schedule triggers, and a published capstone agent demonstrated live on demo day with a full documentation packet."
+    },
+    {
+      "question": "Why is this course taught 1-on-1 only?",
+      "answer": "Because agent building is a design discipline. The mentor reviews your child's actual instructions, knowledge sources and conversation maps line by line every class, and rebuilds the projects around their real school, clubs and interests. That per-student review loop is what makes students genuinely good at this, and it cannot be done honestly in a group format."
+    },
+    {
+      "question": "Does my teen need a special Microsoft account for Copilot Studio?",
+      "answer": "Copilot Studio uses a Microsoft work or school account rather than a personal email. Many students already have a school-provided Microsoft account that works. If not, we arrange access to a practice environment for the duration of the course, and for students under 18 a parent or guardian accepts Microsoft's terms. Your mentor handles the setup with you in the first class."
+    },
+    {
+      "question": "Is Copilot Studio a real professional skill or just a learning tool?",
+      "answer": "It is the same product enterprises run: Microsoft's own materials state that 90% of the Fortune 500 use Copilot Studio, and Microsoft's cloud reported more than 230,000 organizations building with it as far back as April 2025. The course vocabulary (topics, knowledge grounding, agent flows, event triggers, analytics) maps directly to Microsoft's PL-900 exam, which added a dedicated Copilot Studio agents domain in July 2026."
+    },
+    {
+      "question": "How current is the syllabus, given how fast AI tools change?",
+      "answer": "It is a Living Syllabus, re-verified against Microsoft's official documentation and What's New pages as features ship. Students on the current syllabus learn the present-day platform: generative orchestration, the current model lineup including GPT-5.5 Chat and Anthropic Claude models, Model Context Protocol tools, autonomous event triggers and agent analytics. When Copilot Studio changes, the course changes."
+    },
+    {
+      "question": "What age is this course for, and does it suit complete beginners?",
+      "answer": "It is designed for ages 13-18 and assumes no prior experience with coding or AI tools beyond ordinary chatting. Classes 1-5 build everything from first principles. For students younger than 13 we recommend our kids' coding and AI-literacy courses first, since Microsoft's own AI tools set 13 as the general minimum age for its consumer Copilot."
+    },
+    {
+      "question": "What does my child have at the end to show for it?",
+      "answer": "A published capstone agent demonstrated live to a real audience, a portfolio of 24 documented projects, a written accuracy audit and pre-flight safety checklist they produced themselves, a Modern Age Coders certificate earned by defending the capstone, and a mapped next step toward Microsoft's PL-900 credential if they want the official ladder."
+    }
+  ],
+  "related_courses": [
+    "codex-and-claude-code-ai-coding-agents-course-for-teens",
+    "vibe-coding-for-teens-python-web-ai-projects-course",
+    "teens-ai-tools-mastery-course"
+  ]
+}

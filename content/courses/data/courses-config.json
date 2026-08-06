@@ -982,6 +982,57 @@
           "display": "₹8,500/month"
         }
       }
+    },
+    "ai-agents-with-microsoft-copilot-studio-course-for-college-students": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 9999,
+          "display": "₹9,999/month"
+        }
+      }
+    },
+    "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 9999,
+          "display": "₹9,999/month"
+        }
+      }
+    },
+    "ai-agents-with-microsoft-copilot-studio-course-for-teens": {
+      "pricing": {
+        "group": {
+          "amount": 1499,
+          "display": "₹1,499/month"
+        },
+        "miniBatch": {
+          "amount": 2999,
+          "display": "₹2,999/month",
+          "indiaOnly": true
+        },
+        "personal": {
+          "amount": 9999,
+          "display": "₹9,999/month"
+        }
+      }
     }
   },
   "notes": {

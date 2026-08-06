@@ -1,0 +1,611 @@
+{
+  "meta": {
+    "slug": "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals",
+    "date": "2026-08-06",
+    "title": "Copilot Studio Agent Masterclass for Professionals",
+    "description": "Ship production AI agents in Microsoft Copilot Studio: 24 live 1-on-1 online classes for working professionals on enterprise grounding, autonomous agents, multi-agent A2A, governance and ROI.",
+    "keywords": [
+      "copilot studio masterclass",
+      "copilot studio training for professionals",
+      "microsoft copilot studio corporate training india",
+      "enterprise ai agents course",
+      "copilot studio governance training",
+      "microsoft agent 365 course",
+      "entra agent id training",
+      "ab-620 certification preparation",
+      "microsoft ai agent builder associate",
+      "copilot studio licensing copilot credits",
+      "autonomous ai agents enterprise course",
+      "computer use agents copilot studio",
+      "multi agent orchestration a2a course",
+      "copilot studio mcp model context protocol",
+      "agent roi analytics course",
+      "copilot studio agent flows training",
+      "ai automation course for working professionals",
+      "copilot studio evaluations and analytics"
+    ],
+    "category": "AI Agents & Automation",
+    "taxonomy": "technology",
+    "one_on_one_only": true,
+    "price": {
+      "personal": "₹9,999/month"
+    },
+    "duration": "24 classes (12 weeks · 2 classes/week)",
+    "level": "Intermediate to advanced (working professionals; no prior agent experience assumed, business software fluency expected)",
+    "commitment": "4-6 hours/week recommended",
+    "certification": "Modern Age Coders 'Copilot Studio Agent Masterclass' certificate upon completion",
+    "image_path": "copilot-studio-professionals.webp"
+  },
+  "program_overview": {
+    "title": "Copilot Studio Agent Masterclass: Ship Production Agents and Own the Governance Conversation",
+    "tagline": "Most agent projects die in pilot. Learn to build, evaluate, govern and cost agents that survive contact with your organisation, in private 1-on-1 classes built around your actual work.",
+    "description": "Gartner projects that over 40% of agentic AI projects will be canceled by the end of 2027, and that by 2027, 40% of enterprises will demote or decommission autonomous agents due to governance failures. The builders who survive that filter are the ones who can answer the unglamorous questions: what is this agent grounded in, who approved its connector permissions, what does a conversation cost in Copilot Credits, and how do we know it is actually resolving anything? This masterclass teaches exactly that, on Microsoft Copilot Studio, the graphical low-code studio that 90% of the Fortune 500 use by Microsoft's own count. Across 24 live 1-on-1 classes you build the full professional stack: enterprise knowledge grounding across SharePoint, Dataverse and connector-indexed enterprise data with tenant graph grounding; designed topics and generative orchestration; the complete tool surface from prebuilt and premium connectors through custom connectors, REST, Prompt tools, agent flows, Model Context Protocol under DLP policies, and computer use with access control, HTTPS enforcement, stored credentials and human supervision; autonomous agents on event triggers, hardened with approval pauses and run under the maker-credentials rule; multi-agent architectures with child agents, connected agents and the A2A protocol; agent evaluations with test sets and graders; analytics down to outcomes, CSAT and the cost savings metric; and the governance layer that makes it all deployable, from mandatory Microsoft Entra Agent IDs and Conditional Access to Microsoft Agent 365 as the control plane and the Agent Store approval path. You finish with a production-grade capstone agent for your own team plus the governance and ROI pack to defend it in front of your leadership. Because every class is 1-on-1, the whole course runs on your organisation's real use cases, discussed at whatever depth your role demands. The syllabus is a Living Syllabus, re-verified against Microsoft's documentation as the platform ships, so what you learn is the August 2026 platform, not a 2024 recording.",
+    "what_makes_this_different": [
+      "1-on-1 only, by design: production agent work involves your real processes, your data boundaries and your org's licensing, none of which can be discussed honestly in a group class; a private mentor can go exactly as deep as your role requires.",
+      "Governance is taught as a first-class skill, not an afterthought: Microsoft Entra Agent ID (mandatory for new agents since July 2026), Conditional Access over connector permissions, DLP policies, Microsoft Agent 365 and the Agent Store approval path are all in the syllabus.",
+      "Cost fluency that most builders lack: you learn the Copilot Credits model down to per-feature rates, what a Microsoft 365 Copilot licence covers at no charge, what it does not (computer use), and the 125% capacity cutoff that silently disables over-budget agents.",
+      "The full 2026 tool surface: Prompt tools, agent flows, premium and on-premises connectors, custom connectors, REST, Model Context Protocol, computer use with enterprise guardrails, and deep reasoning, taught with their real limits and billing behaviour.",
+      "Quality you can prove: agent evaluations (GA March 2026) with test sets, graders and multi-turn tests, plus analytics outcomes, CSAT and the cost savings metric, so your capstone ships with evidence, not vibes.",
+      "Living Syllabus: Copilot Studio ships monthly (the current model lineup includes GPT-5.5 Chat and Anthropic Claude Opus 4.7; the A2A protocol went GA in April 2026), and this course is re-verified against Microsoft's What's New pages as features land."
+    ],
+    "learning_path": [
+      "Phase 1, Platform & Foundations (Classes 1-4): the agent landscape, Copilot Studio vs Microsoft Foundry, agent anatomy and instruction discipline, professional testing, and the model and harness decisions that shape everything downstream.",
+      "Phase 2, Enterprise Knowledge (Classes 5-8): grounding strategy across SharePoint, Dataverse, documents and connector-indexed enterprise data, tenant graph grounding, source curation at scale, and accuracy audits you can show an auditor.",
+      "Phase 3, Orchestration & Tools (Classes 9-14): designed topics for critical paths, generative orchestration, Prompt tools and agent flows, the connector estate, custom connectors and REST, Model Context Protocol under DLP, computer use and deep reasoning.",
+      "Phase 4, Autonomy, Multi-Agent & Quality (Classes 15-20): event triggers and the maker-credentials rule, hardening autonomous agents, multi-agent architecture with A2A and Microsoft Foundry interop, agent evaluations, analytics, and full cost management in Copilot Credits.",
+      "Phase 5, Governance, Rollout & Capstone (Classes 21-24): Entra Agent ID, Conditional Access and DLP, Microsoft Agent 365 and the Agent Store, the org rollout playbook, then a production capstone agent defended with a governance and ROI pack."
+    ],
+    "career_outcomes": [
+      "A production-grade capstone agent for your own team, shipped with an evaluation suite, cost model and governance pack",
+      "Readiness for Microsoft Certified: AI Agent Builder Associate (exam AB-620), whose domains map directly onto this syllabus",
+      "The Applied Skills labs as nearer milestones: 'Build an agent in Microsoft Copilot Studio' and 'Enhance agents with autonomous capabilities'",
+      "The governance vocabulary that wins internal approvals: Entra Agent ID, Conditional Access, DLP, Agent 365, Agent Store",
+      "Standing in the skill Gartner says half of knowledge workers will need by 2029: working with, governing and creating AI agents"
+    ]
+  },
+  "phase_1_platform_foundations": {
+    "title": "Phase 1: Platform & Foundations",
+    "description": "Map the 2026 agent landscape, learn the anatomy of a Copilot Studio agent, build instruction and testing discipline, and make the model and harness decisions that shape cost and capability.",
+    "week_1": {
+      "title": "Class 1: The 2026 Agent Landscape and Where Copilot Studio Sits",
+      "topics": [
+        "What Microsoft ships in 2026: Copilot Studio as a graphical, low-code studio for building and managing AI-powered agents and workflows, run standalone at copilotstudio.microsoft.com on Power Platform infrastructure",
+        "The ownership decision Microsoft itself recommends making first: Copilot Studio (SaaS, low-code, managed guardrails) vs Microsoft Foundry (PaaS, pro-code, fine-grained control), and how the two interoperate rather than compete",
+        "The three build artifacts by their exact names: agents, workflows and agent flows, and which business problems map to which",
+        "Why the market filter matters to you: Gartner's finding that over 40% of agentic AI projects will be canceled by end of 2027, and what the surviving 60% do differently",
+        "Environments and tenants: where agents live, why production and practice environments are separated, and what your employer's admin controls",
+        "Access honestly stated: Copilot Studio needs a Microsoft work or school (Entra ID) account; a work email gets a 30-day self-service trial that cannot publish agents, and this course arranges a practice environment where needed",
+        "Choosing your capstone: one real process from your own team that an agent could genuinely improve, nominated in Class 1 and refined all course"
+      ],
+      "projects": [
+        "Write the one-page 'agent opportunity memo' for your organisation: three candidate processes, the data each would need, the risks each carries, and which one becomes your capstone"
+      ],
+      "practice": "Audit two agents you already encounter at work (a support bot, an IT helpdesk) and reverse-engineer their instructions, knowledge and escalation rules.",
+      "assessment": "Defend your capstone choice in five minutes: the process, the users, the data, the risk, and what 'better' will measurably mean."
+    },
+    "week_2": {
+      "title": "Class 2: Agent Anatomy and Instruction Discipline",
+      "topics": [
+        "The anatomy every agent shares: name, description, instructions, knowledge, tools, triggers, channels, and where each is configured",
+        "The new-experience component names as Microsoft spells them: Instructions, Knowledge, Tools and skills, Model, Connected agents, Memory",
+        "The instruction stack for business agents: identity, scope, tone, format rules, refusals and escalation, in that order",
+        "Scope fences that survive real users: what the agent must not answer (HR disputes, legal advice, pricing exceptions) and wording refusals that de-escalate",
+        "Describe-to-create and Build with natural language (preview): what the generators give you and why professionals still rewrite the instructions by hand",
+        "Instruction anti-patterns from real deployments: contradictions, vague verbs, policy text pasted verbatim, and instructions that fight the knowledge sources",
+        "Versioning instructions outside the tool from day one, because 'what changed last Tuesday' is a governance question"
+      ],
+      "projects": [
+        "Build 'Policy Desk v1': an internal FAQ agent for one real policy area of your workplace, with a complete instruction stack and five tested refusals"
+      ],
+      "practice": "Run the same 10 workplace questions against two instruction variants and score every difference in a comparison table.",
+      "assessment": "Present your instruction stack line by line and state, for each line, what production incident removing it would eventually cause."
+    },
+    "week_3": {
+      "title": "Class 3: Testing Like It Is Already in Production",
+      "topics": [
+        "The fixed test set: happy path, edge case and adversarial questions written before you tune anything",
+        "Adversarial testing for business agents: prompt injection attempts, policy-boundary probes, and the disgruntled-user tone test",
+        "Regression discipline: rerunning the full set after every instruction, knowledge or tool change, and logging verdicts",
+        "Hallucination triage: distinguishing missing knowledge, bad grounding and model overreach, because each has a different fix",
+        "The escalation path as a tested feature: 'this needs a human' is a designed outcome, not a failure",
+        "What you are rehearsing for: agent evaluations (GA March 2026) automate exactly this loop with test sets and graders in Phase 4",
+        "The rule this course grades you on: no change ships without a retest, and every retest leaves a written trail"
+      ],
+      "projects": [
+        "Build the permanent 25-question test set for Policy Desk, including five adversarial probes, with expected behaviour written before the first run"
+      ],
+      "practice": "Attempt three prompt-injection attacks on your own agent, document the outcomes, and patch the weakest point.",
+      "assessment": "Given a transcript with three subtle failures, identify each one and classify it: instructions, knowledge or escalation gap."
+    },
+    "week_4": {
+      "title": "Class 4: Models and Harnesses: The Decisions Underneath Everything",
+      "topics": [
+        "The model picker in August 2026: GPT-4.1 as default, GPT-5 Chat and GPT-5.5 Chat GA, Anthropic Claude Sonnet 4.6, Claude Opus 4.6 and Claude Opus 4.7 GA, with GPT-5 Reasoning and GPT-5 Auto in preview",
+        "External models are an admin decision: Anthropic, Mistral and xAI models must be allowed in both the Power Platform admin center and the Microsoft 365 admin center before makers can pick them",
+        "Model release types you must read correctly: Experimental, Preview, GA, Default, Retired (GPT-4o and Claude Sonnet 4.5 are already retired), and why production agents pin to GA",
+        "Harnesses, the 2026 architectural change: the runtime between your design and the model, in three flavours, standard harness, GitHub Copilot harness and Copilot chat harness",
+        "The GitHub Copilot harness honestly costed: most capable, creates Word, Excel, PowerPoint and PDF files natively, supports skills and memory, and bills Copilot Credits from the moment you start building, including preview and testing",
+        "Agents cannot move between harnesses, so the harness choice is made once, per agent, with eyes open",
+        "The Copilot Studio extension for Visual Studio Code (GA January 2026): where low-code agents meet source control and code review"
+      ],
+      "projects": [
+        "Run your Policy Desk test set against two GA models (one OpenAI, one Anthropic), score the differences, and write the one-paragraph model decision with evidence attached"
+      ],
+      "practice": "Draft the admin request you would send to enable an external model in your tenant, naming both admin centers and the business justification.",
+      "assessment": "Phase 1 gate: rebuild a small business agent from a written spec in 30 minutes, with instruction stack, refusals, a 10-question test and a defended model choice."
+    }
+  },
+  "phase_2_enterprise_knowledge": {
+    "title": "Phase 2: Enterprise Knowledge",
+    "description": "Ground agents in enterprise sources at scale: SharePoint, Dataverse, documents and connector-indexed data, tenant graph grounding, curation strategy, and accuracy audits an auditor would accept.",
+    "week_5": {
+      "title": "Class 5: Grounding Strategy: The Knowledge Source Estate",
+      "topics": [
+        "The knowledge source lineup with real limits: public websites via Bing (25 websites), uploaded documents stored in Dataverse (512 MB per file, up to 500 files), SharePoint (25 URLs), Dataverse tables, and enterprise data via connectors indexed by Microsoft Search",
+        "The hard ceilings that force strategy: 500 knowledge sources per agent and 1,000 topics per agent mean knowledge is curated, never dumped",
+        "Generative answers under the hood: how the agent searches sources and composes cited answers, and what 'Allow ungrounded responses' changes",
+        "Citations as a compliance feature: why grounded-with-sources is the difference between an answer and a liability",
+        "Matching source type to content type: policies in SharePoint, structured records in Dataverse, public facts on the website, and why mixing them carelessly produces conflicts",
+        "Web search as a deliberate exception: what 'Use information from the web' adds and when a curated internal agent must leave it off",
+        "Designing the capstone's source map: authoritative, current, permissioned, and small enough to audit"
+      ],
+      "projects": [
+        "Ground Policy Desk in a real SharePoint site (or a mirrored practice copy) and prove ten answers cite the correct policy paragraph"
+      ],
+      "practice": "Ask your grounded agent five questions its sources cannot answer and document the exact edge-of-knowledge behaviour.",
+      "assessment": "Present your capstone source map: every source, its owner, its update cadence, and why it earns its place under the 500-source discipline."
+    },
+    "week_6": {
+      "title": "Class 6: SharePoint and Documents Done Right",
+      "topics": [
+        "Writing documents for retrieval: headings that answer questions, one fact per paragraph, consistent terminology, and the anti-pattern of 40-page PDFs",
+        "SharePoint hygiene that grounding exposes: stale copies, duplicate policies, draft folders, and the librarian pass that fixes them",
+        "Permissions reality: agents surface what the knowledge configuration can reach, so source selection is a security decision, not just a quality one",
+        "Freshness engineering: which source updates win, what happens when the underlying document changes, and update cadences you can promise",
+        "Testing document knowledge surgically: questions whose answers live in one exact paragraph, and what retrieval failure looks like",
+        "The curation multiplier: five well-structured pages outperform fifty messy ones, demonstrated live on your own content",
+        "Data minimisation at the source: what never belongs in agent knowledge (personal data, credentials, unreleased financials)"
+      ],
+      "projects": [
+        "Rebuild one messy real document into a retrieval-optimised version, ground both versions side by side, and publish the before-and-after accuracy comparison"
+      ],
+      "practice": "Run a librarian audit on one SharePoint area you actually use: what is in, what is stale, what would embarrass the agent that cites it.",
+      "assessment": "Given two document structures, predict which grounds better and prove it with a five-question retrieval test."
+    },
+    "week_7": {
+      "title": "Class 7: Dataverse, Connector-Indexed Data and Tenant Graph Grounding",
+      "topics": [
+        "Dataverse as knowledge: structured tables behind conversational answers, and when structure beats prose",
+        "Enterprise data via connectors, indexed by Microsoft Search: reaching systems beyond Microsoft 365 without exporting them",
+        "Tenant graph grounding with semantic search: retrieval over the tenant's Microsoft Graph, what it unlocks, and the fact that it costs extra Copilot Credits (10 per use)",
+        "Source arbitration: what happens when SharePoint, Dataverse and a website disagree, and how instructions scope question types to sources",
+        "Knowledge source health: monitoring which sources actually get used, and retiring the ones that never answer",
+        "Foundry IQ and Microsoft IQ in preview: where Microsoft is taking enterprise knowledge, flagged honestly as preview, not promised",
+        "Cost-aware knowledge design: grounding choices are billing choices, previewing the credit mathematics of Class 20"
+      ],
+      "projects": [
+        "Add a second source type to Policy Desk (Dataverse table or connector-indexed source), then document the arbitration behaviour with five conflict questions"
+      ],
+      "practice": "Write the scoping instructions that route 'how many' and 'which record' questions to structured sources and 'what is the policy' questions to documents.",
+      "assessment": "Whiteboard the retrieval path of one question end to end: user, orchestration, source choice, retrieval, citation, answer."
+    },
+    "week_8": {
+      "title": "Class 8: Accuracy Audits and Honest Agents",
+      "topics": [
+        "The accuracy audit protocol: scoring 25 grounded answers against the actual source text, with a rubric a non-builder could apply",
+        "Uncertainty language as policy: agents that say 'my sources do not cover that' instead of improvising, and how instructions enforce it",
+        "Bias in the source list: how a one-sided knowledge estate produces a one-sided agent, and the review that catches it",
+        "The 'Allow ungrounded responses' decision as a governance artifact: who signs it, and for which agent categories it is defensible",
+        "Transparency obligations: users must know they are talking to an agent and what it can reach",
+        "The audit trail: accuracy numbers, test logs and source maps as the documents that survive an internal review",
+        "Phase 2 gate: the grounding checklist you will apply to every agent for the rest of your career"
+      ],
+      "projects": [
+        "Run the full 25-answer accuracy audit on Policy Desk and publish the result as a one-page report with examples, methodology and a remediation list"
+      ],
+      "practice": "Have a colleague ask your agent ten unscripted questions from their real work and log every answer they would not accept.",
+      "assessment": "Phase 2 exam: design the complete knowledge plan for a new use case in writing (sources, limits, scoping, refusals, audit protocol) in 30 minutes."
+    }
+  },
+  "phase_3_orchestration_tools": {
+    "title": "Phase 3: Orchestration & Tools",
+    "description": "Design conversations for critical paths, choose orchestration modes deliberately, then master the full tool surface: Prompt tools, agent flows, connectors, custom connectors and REST, Model Context Protocol under DLP, computer use with guardrails, and deep reasoning.",
+    "week_9": {
+      "title": "Class 9: Topics for Critical Paths",
+      "topics": [
+        "Topics as designed conversation: when a business process demands the same path every time, you design it, you do not hope for it",
+        "Trigger phrases at scale: teaching the many phrasings of one request (topics support up to 200 trigger phrases)",
+        "Question nodes, entities and variables: collecting exactly the data a process needs, with validation for messy human answers",
+        "Condition groups (June 2026): combining tests cleanly, and the escalation branch every customer-facing topic must have",
+        "Adaptive cards for business: structured, tappable responses for approvals, summaries and forms, designed for phones first",
+        "System topics: greeting, escalate, goodbye, and why you customise rather than delete them",
+        "The topic map for your capstone: the five jobs users will actually ask it to do, each with an owner path"
+      ],
+      "projects": [
+        "Build 'Support Triage v1': a customer-facing agent with three designed topics (report an issue, check status, escalate to human), entities capturing the details, and an adaptive card summary"
+      ],
+      "practice": "Collect ten real phrasings of one request from colleagues and tune trigger phrases until all ten route correctly.",
+      "assessment": "Given four user messages, predict the topic each triggers and the variables each fills, then verify live."
+    },
+    "week_10": {
+      "title": "Class 10: Generative Orchestration, Deliberately",
+      "topics": [
+        "The two orchestration modes: classic (trigger phrases select topics) versus generative (the model plans across topics, knowledge and tools), and what each buys you",
+        "What generative orchestration unlocks: multi-intent requests, dynamic tool choice, and the event triggers and autonomy of Phase 4, which require it",
+        "What you trade: determinism, and the instruction patterns that rein the planner back onto approved paths",
+        "Reading the plan: inspecting how the agent chose a topic, source or tool, and turning surprises into design fixes",
+        "The hybrid pattern professionals actually ship: designed topics for critical and regulated paths, generative flexibility for the long tail",
+        "Re-running your guardrail tests after the mode switch, because refusals and scope fences must survive orchestration",
+        "Microsoft's own scale heuristic, previewed: when an agent grows past 30 to 40 choices of tools, topics and agents, you split it, which is where Phase 4's multi-agent work begins"
+      ],
+      "projects": [
+        "Migrate Support Triage to generative orchestration, rerun the full test set, and publish the behaviour-change log with a keep-or-fix verdict per change"
+      ],
+      "practice": "Craft three multi-intent messages ('report this, and also what happened to yesterday's ticket, and who do I call') and tune until all three resolve cleanly.",
+      "assessment": "Defend your capstone's orchestration choice in writing: mode, why, and the two risks you are explicitly accepting."
+    },
+    "week_11": {
+      "title": "Class 11: Prompt Tools and Agent Flows",
+      "topics": [
+        "The tool menu by its exact names: Prompt, Agent flow, Computer use, Custom connector, Model Context Protocol and REST API, plus prebuilt connectors",
+        "Prompt tools: one perfect transformation (summarise, classify, extract, rewrite) with a tested prompt behind a stable interface",
+        "Agent flows: deterministic multi-step automations the agent calls as tools, for anything that must run the same way every time",
+        "Flow anatomy in practice: trigger, steps, conditions, outputs handed back to the conversation, and the error paths that make failure graceful",
+        "The approvals pattern: a flow that pauses for a human decision, the single most reused pattern in business agents",
+        "Tool descriptions as the real API: the orchestrator chooses tools by reading descriptions, so you write them like documentation",
+        "Tool discipline: the platform allows 128 tools per agent under generative orchestration, Microsoft recommends 25 to 30, and good architects use fewer"
+      ],
+      "projects": [
+        "Build 'Expense Helper': conversation collects an expense claim, an agent flow validates it, routes it for approval, and returns the outcome, with tested error paths for every step"
+      ],
+      "practice": "Break your flow deliberately (missing field, rejected approval, timeout) and verify the user sees a designed message for each failure.",
+      "assessment": "Given five business tasks, assign each to Prompt tool, agent flow, topic or knowledge, and justify each assignment in two sentences."
+    },
+    "week_12": {
+      "title": "Class 12: The Connector Estate: Standard, Premium, On-Premises, Custom, REST",
+      "topics": [
+        "The scale of the estate: more than 1,400 prebuilt connectors, categorised as Standard, Premium, Custom and On-premises, with licensing implications per category",
+        "Using prebuilt connectors as tools: reading and writing real systems (SharePoint, Outlook, Planner, third-party SaaS) from inside a conversation",
+        "Authentication honestly explained: connection credentials, who consents to what, and why 'connect your account' is a governance event",
+        "On-premises connectivity: reaching systems behind the firewall via the gateway, and when that is the right call versus an API",
+        "Custom connectors: wrapping your organisation's own REST API so agents (and flows) can call it like any other connector",
+        "The REST API tool: calling an endpoint directly, mapping JSON responses into conversation variables",
+        "DLP preview: connector access is policy-controlled, and the same DLP machinery will govern MCP in the next class"
+      ],
+      "projects": [
+        "Wire one real connector tool and one REST or custom connector tool into a practice agent, and demonstrate a conversation that reads and writes live data through both"
+      ],
+      "practice": "Inventory the five systems your capstone's users touch daily and classify the connector path to each: prebuilt, premium, custom or REST.",
+      "assessment": "Sketch one tool call end to end (utterance, orchestration, tool selection, auth, call, result, answer) and mark every point where governance can intervene."
+    },
+    "week_13": {
+      "title": "Class 13: Model Context Protocol Under Enterprise Governance",
+      "topics": [
+        "MCP in one sentence: the open protocol for plugging tool servers into agents, added in Copilot Studio via Tools, Add a tool, Model Context Protocol",
+        "What an MCP server exposes: Tools and Resources, with per-tool toggles and the Allow all switch you will learn to distrust",
+        "The governance fact that makes MCP enterprise-safe here: MCP runs over Power Platform connector infrastructure, so DLP data policies govern MCP access like any connector",
+        "Why MCP fluency compounds: the same protocol appears in Claude, IDEs and other agent platforms, so this is portable knowledge",
+        "The Windows 365 for Agents MCP server (GA June 2026): full operational control of a Cloud PC as a case study in how much power a single MCP server can carry",
+        "Evaluating a third-party MCP server before connecting it: capabilities, data flows, failure modes, and the least-power principle",
+        "MCP versus custom connector versus REST: three ways to reach the same system, chosen by governance posture, not fashion"
+      ],
+      "projects": [
+        "Add an MCP server to a practice agent, disable every tool you do not need, and document the resulting capability surface as a one-page security note"
+      ],
+      "practice": "Write the DLP review request for your MCP integration as you would submit it to your Power Platform admin, naming the data boundaries.",
+      "assessment": "Explain to a skeptical security lead, in three minutes, why this MCP integration is governable and what would make you switch it off."
+    },
+    "week_14": {
+      "title": "Class 14: Computer Use and Deep Reasoning: The Power Tools",
+      "topics": [
+        "Computer use (GA 2026): Computer-Using Agents that operate real user interfaces when no API exists, and why it is the tool of last resort, not first",
+        "The model menu with per-step credit costs: OpenAI Computer-Using Agent at 5 credits per step, Claude Sonnet 4.6 at 5, Claude Opus 4.6 at 15 as the premium option",
+        "The four guardrails you configure before any computer-use agent runs: Access control allow-lists, Enforce HTTPS, Stored credentials (internal or Azure Key Vault), Human supervision",
+        "Costing a computer-use task honestly: steps multiply, credits are per step, and computer use is not covered by the Microsoft 365 Copilot licence",
+        "Deep reasoning (preview): the Azure OpenAI o3 model invoked by the keyword 'reason' in agent instructions, US and EU availability, and why preview features stay out of production commitments",
+        "Choosing between a designed flow, an API call and computer use for the same task: the decision tree with cost and fragility on it",
+        "Phase 3 gate: the complete tool architecture of your capstone, every tool justified"
+      ],
+      "projects": [
+        "Build a governed computer-use demo: one legacy-UI task automated with allow-lists, HTTPS enforcement and human supervision configured, plus a per-run credit cost estimate"
+      ],
+      "practice": "Take one process from your workplace with no API and write the computer-use feasibility note: steps, guardrails, cost per run, and the API alternative if any.",
+      "assessment": "Phase 3 exam: given a use case, design the full tool architecture (tools chosen, tools rejected, governance controls, cost notes) and defend it."
+    }
+  },
+  "phase_4_autonomy_quality": {
+    "title": "Phase 4: Autonomy, Multi-Agent & Quality",
+    "description": "Ship agents that act on their own and prove they work: event triggers under the maker-credentials rule, hardening, multi-agent architectures with A2A, agent evaluations, analytics, and full cost management in Copilot Credits.",
+    "week_15": {
+      "title": "Class 15: Event Triggers and Autonomous Agents",
+      "topics": [
+        "The autonomy switch: event triggers let agents act with no user in the chat, on events like item created in SharePoint, file created in OneDrive, task completed in Planner, and Recurrence schedules",
+        "Generative orchestration required: autonomous behaviour runs on the planning brain, which is why Class 10 preceded this one",
+        "The trigger payload: event data arriving as input, and instructions deciding what the agent does with it",
+        "The security fact that shapes everything: triggers run with the agent maker's credentials, so every autonomous action is effectively signed by you",
+        "Designing the first autonomous job: small, observable, reversible, and logged",
+        "The activity trail habit: knowing exactly what your agent did at 3am, before anyone asks",
+        "Autonomy scoping: which of your capstone's jobs deserve a trigger, and which must stay human-initiated"
+      ],
+      "projects": [
+        "Build 'Weekly Reporter': an autonomous agent on a Recurrence trigger that compiles a weekly status summary from real sources and posts it for review, never directly to stakeholders"
+      ],
+      "practice": "Let Weekly Reporter run unattended for three real events and audit every action against what you intended, scoring each.",
+      "assessment": "Explain the maker-credentials rule and name the three design constraints you imposed on your agent because of it."
+    },
+    "week_16": {
+      "title": "Class 16: Hardening Autonomy: Approval Pauses and Failure Design",
+      "topics": [
+        "From demo to dependable: idempotence (running twice must not double the damage), retries, and safe defaults when inputs surprise you",
+        "Human-in-the-loop as architecture: which autonomous actions pause for approval, how the pause is built, and who the approver is on paper",
+        "Notification etiquette: an autonomous agent that spams gets disabled by its own users, so frequency and channel are design decisions",
+        "Failure diaries: structured capture of what went wrong, so Tuesday's incident is not repeated on Thursday",
+        "Scope creep in autonomy: the 'it could also just' trap, and the change-control habit that resists it",
+        "Gartner's warning as a design brief: 40% of enterprises will demote or decommission autonomous agents by 2027 due to governance failures, and hardened agents are how you stay in the other 60%",
+        "The operations note: one page stating what the agent does, when, with whose permissions, and how to turn it off"
+      ],
+      "projects": [
+        "Harden Weekly Reporter: add an approval pause before anything leaves draft, an error diary, and a self-report of its own actions, then run it for a full real week"
+      ],
+      "practice": "Write the operations note for Weekly Reporter and have a colleague verify they could disable the agent using only that page.",
+      "assessment": "Live drill: your mentor corrupts one input source; your agent must fail gracefully and your diary must show why, unedited."
+    },
+    "week_17": {
+      "title": "Class 17: Multi-Agent Architecture and the A2A Protocol",
+      "topics": [
+        "When one agent becomes several: Microsoft's own heuristic, split when an agent exceeds 30 to 40 choices of tools, topics and agents",
+        "The four ways to add agents to an agent, by their exact names: child agents, other Copilot Studio agents, agents over the A2A protocol, and (preview) Microsoft Foundry agents, Fabric Data agents and Microsoft 365 Agents SDK agents",
+        "The A2A protocol, GA since April 2026: agent-to-agent interoperability beyond a single vendor's walls",
+        "Child agents in practice: decomposing Support Triage into a router plus specialists, each with its own 128-tool budget",
+        "Interop with Microsoft Foundry: low-code front door, pro-code specialist behind it, the documented enterprise pattern",
+        "Failure across agent boundaries: timeouts, unclear hand-offs, and the tracing habits that keep multi-agent systems debuggable",
+        "Architecture review: when multi-agent is real engineering and when it is complexity cosplay"
+      ],
+      "projects": [
+        "Refactor Support Triage into a two-agent architecture: a routing agent plus a specialist child agent, with documented hand-off contracts and a failure-mode table"
+      ],
+      "practice": "Diagram your capstone as both a single agent and a multi-agent design, and write the three-sentence verdict on which ships.",
+      "assessment": "Defend one hand-off contract: what crosses the boundary, what must never cross it, and what happens when the far side fails."
+    },
+    "week_18": {
+      "title": "Class 18: Agent Evaluations: Quality You Can Prove",
+      "topics": [
+        "Agent evaluations, GA March 2026: automated test sets run against your agent, the industrial version of the discipline you built by hand in Class 3",
+        "Evaluation anatomy: test sets, graders scoring responses, multi-turn tests for whole conversations, and activity maps showing what the agent did",
+        "Writing graders that mean something: correctness, groundedness, tone and policy compliance as separately scored dimensions",
+        "The evaluation REST API (preview): wiring evaluations into release habits, flagged honestly as preview",
+        "Evaluation-gated changes: no instruction, knowledge or tool change ships without a green evaluation run",
+        "Building the capstone's evaluation suite: the 30 conversations that define 'working' for your use case",
+        "Evaluations as governance evidence: the artifact you hand to a reviewer instead of a demo"
+      ],
+      "projects": [
+        "Build the full evaluation suite for your capstone: 30 test conversations, graders for correctness and policy compliance, and a baseline report you will beat by Class 23"
+      ],
+      "practice": "Make one deliberate regression (weaken an instruction), prove the evaluation suite catches it, then revert.",
+      "assessment": "Present your grader definitions and defend why a passing score actually means the agent is safe to ship."
+    },
+    "week_19": {
+      "title": "Class 19: Analytics: Outcomes, CSAT and the Cost Savings Metric",
+      "topics": [
+        "The analytics view by its real dimensions: sessions, outcomes (Resolved, Escalated, Abandoned), daily and monthly active users, CSAT, and themes",
+        "The cost savings metric and custom metrics: putting a defensible number on what the agent is worth",
+        "Transcript review as design fuel: session details and transcripts are retained 28 days, analytics 360 days, so review cadence is a calendar item, not a hope",
+        "The Analytics Viewer role: giving stakeholders the numbers without giving them the editor",
+        "Finding the gap: unanswered and escalated questions, ranked, as the roadmap for the next iteration",
+        "The improvement loop as a weekly ritual: analytics, hypothesis, one change, evaluation run, remeasure",
+        "Instrumenting the capstone: the three numbers that will define success in front of your leadership"
+      ],
+      "projects": [
+        "Analytics sprint: run one agent with at least five real users for a week, review every session, ship two data-demanded improvements, and write the before-and-after"
+      ],
+      "practice": "Draft the monthly one-page agent report your leadership would actually read: outcomes, CSAT, cost savings, next actions.",
+      "assessment": "From a set of session transcripts, diagnose the top failure pattern, propose the fix, and prove it with an evaluation run."
+    },
+    "week_20": {
+      "title": "Class 20: Cost Management: Copilot Credits Without Surprises",
+      "topics": [
+        "The billing currency since September 1, 2025: Copilot Credits, replacing messages, with pay-as-you-go at $0.01 per credit and prepaid packs at $200 per 25,000 credits per month, billed annually, unused credits not rolling over",
+        "The per-feature rate card you estimate with: classic answer 1 credit, generative answer 2, agent action 5, tenant graph grounding 10, agent flow actions 13 per 100, AI tools at 1, 15 or 100 per 10 responses by tier",
+        "What the Microsoft 365 Copilot licence (at $30 per user per month) covers at no extra charge for licensed users, and the pointed exception: computer use is not included",
+        "The 125% rule: at 125% of prepaid capacity, custom agents are disabled and users see the unavailable message, so capacity planning is an availability feature",
+        "GitHub Copilot harness economics: credits consumed from the moment you start building, including preview, testing and evaluation generation",
+        "Modelling a real workload: your capstone's expected sessions, features used, credits per session, and monthly cost under pack versus pay-as-you-go",
+        "Cost as a design input: grounding choices, tool counts and orchestration mode all move the bill, and you now know by how much"
+      ],
+      "projects": [
+        "Build the complete cost model for your capstone: per-session credit estimate by feature, monthly projection at three adoption levels, pack versus pay-as-you-go recommendation, and the 125% risk line"
+      ],
+      "practice": "Re-estimate the cost model twice: once with tenant graph grounding on, once off, and write down what the difference buys.",
+      "assessment": "Phase 4 exam: given a described workload, produce the credit estimate, the licensing recommendation and the capacity alert plan in 30 minutes."
+    }
+  },
+  "phase_5_governance_capstone": {
+    "title": "Phase 5: Governance, Rollout & Capstone",
+    "description": "Master the governance layer that makes agents deployable: Entra Agent ID, Conditional Access, DLP, Microsoft Agent 365 and the Agent Store, then ship a production capstone with the governance and ROI pack to defend it.",
+    "week_21": {
+      "title": "Class 21: Identity and Policy: Entra Agent ID, Conditional Access, DLP",
+      "topics": [
+        "The July 2026 line in the sand: all new agents must have Microsoft Entra Agent IDs, with no opt-out, making every agent a first-class identity in your tenant",
+        "What an agent identity buys: connector permissions surfacing as API permissions that Conditional Access policies can target",
+        "DLP policies over the whole tool surface: connectors, custom connectors and MCP governed by the same data policies, reviewed in the Power Platform admin center",
+        "The two admin centers in the loop: Power Platform admin center and Microsoft 365 admin center, and which decisions live where (including enabling Anthropic and other external models)",
+        "Environment strategy as governance: who can make agents where, and why production environments have fewer makers than pilots",
+        "Guest users cannot access Copilot Studio, and other tenant facts that shape rollout plans",
+        "Drafting your capstone's identity and policy plan: the Agent ID, the permissions it needs, and the Conditional Access posture it will live under"
+      ],
+      "projects": [
+        "Write the identity and policy plan for your capstone: Entra Agent ID registration, the permission list with justifications, the DLP review outcome, and the Conditional Access recommendation"
+      ],
+      "practice": "Map your organisation's (or a model organisation's) admin roles to the approvals your capstone needs, with named decision points.",
+      "assessment": "Role-play the security review: your mentor plays the identity admin, and your plan must answer every 'who approved this' question."
+    },
+    "week_22": {
+      "title": "Class 22: The Agent Estate: Microsoft Agent 365, the Agent Store, and Rollout",
+      "topics": [
+        "Microsoft Agent 365, GA May 1, 2026 at $15 per user per month: the control plane for the agent estate, with registry, access control and observability, already holding nearly 40 million registered agents by Microsoft's July 2026 count",
+        "The Agent Store path: publishing a Copilot Studio agent to Microsoft 365 Copilot via Channels, then Microsoft 365 Copilot and Microsoft Teams, followed by admin approval in the Microsoft 365 admin center",
+        "Channel strategy for business agents: Teams and Microsoft 365 Copilot, SharePoint, custom websites, and WhatsApp for customer-facing cases, chosen by audience, not fashion",
+        "Versioning and change control on live channels: what re-publishing replaces and how not to break your users mid-shift",
+        "The rollout playbook: pilot cohort, feedback loop, evaluation gates, comms, training, and the rollback plan nobody hopes to use",
+        "The adoption evidence: IDC's projection of 1.3 billion agents by 2028 (as cited by Microsoft) and nearly 90% of the Fortune 500 with active agents on Microsoft's low-code tools (Microsoft FY26 Q3 earnings), used correctly as context, not hype",
+        "Pre-launch gate: the 20-point production checklist covering grounding, evaluations, identity, DLP, cost and rollback"
+      ],
+      "projects": [
+        "Produce the rollout pack for your capstone: channel plan, pilot design, approval path through the Agent Store or internal publishing, comms draft and rollback runbook"
+      ],
+      "practice": "Run the 20-point production checklist against your capstone as it stands today and file every failure into Class 23's build plan.",
+      "assessment": "Present the rollout pack in ten minutes as if to your real leadership, and survive the 'what if it goes wrong' round."
+    },
+    "week_23": {
+      "title": "Class 23: Capstone Build Week",
+      "topics": [
+        "Freezing the spec: the capstone's job, users, sources, tools, triggers, channel, identity plan and cost model on one page",
+        "Building in production order: knowledge first, topics second, tools third, triggers last, evaluations running throughout",
+        "Timeboxing with a mentor: what gets cut when reality bites, and why the evaluated core loop is protected",
+        "Beating your baseline: the Class 18 evaluation suite as the bar, rerun at every milestone",
+        "Governance artifacts finalised: identity plan, DLP note, cost model and operations note, versioned alongside the agent",
+        "Polish that earns trust: greeting, transparency statement, escalation tone, card design, error messages",
+        "Dress rehearsal: the full demo with one planned failure and recovery, timed"
+      ],
+      "projects": [
+        "Build the complete capstone: a production-grade agent for your own team with grounded knowledge, designed topics, at least one tool or agent flow, one governed trigger if autonomous, a passing evaluation suite, and the full governance pack"
+      ],
+      "practice": "Run the dress rehearsal for a colleague outside the course and fix the two weakest moments they point at.",
+      "assessment": "Milestone gate: the capstone beats its evaluation baseline and passes the 20-point production checklist before demo day."
+    },
+    "week_24": {
+      "title": "Class 24: Capstone Defence and the Credential Road",
+      "topics": [
+        "The live defence: your capstone demonstrated on a real channel, with evaluations, analytics and the governance pack on the table",
+        "Defending decisions like an architect: why these sources, this orchestration mode, these tools, this identity posture, this cost model",
+        "The retrospective: what you would build differently, and the honest limits of the current platform for your use case",
+        "The credential road mapped: Microsoft Certified: AI Agent Builder Associate (exam AB-620, covering planning and configuring agent solutions, integrating and extending agents, and testing and managing them), with the Applied Skills labs 'Build an agent in Microsoft Copilot Studio' and 'Enhance agents with autonomous capabilities' as nearer milestones, and PL-900 as the on-ramp for teammates you onboard",
+        "Where the skill curve goes: Gartner's projection that by 2029 at least half of knowledge workers will need to work with, govern or create AI agents, and by 2028 at least 15% of day-to-day work decisions will be made autonomously",
+        "Taking it internal: turning your capstone pack into your organisation's agent playbook, and positioning yourself as the person who owns it",
+        "Certificate, feedback, and the Living Syllabus promise: what changed in Copilot Studio while you were learning it, reviewed together"
+      ],
+      "projects": [
+        "Deliver the capstone defence and hand over the complete packet: spec, source map, evaluation report, analytics plan, cost model, identity and DLP plan, rollout runbook, and the leadership deck"
+      ],
+      "practice": "Book the next step while momentum is real: an AB-620 study plan, or the internal pitch meeting for your agent playbook.",
+      "assessment": "Final evaluation: capstone defence, governance pack review, and the complete documentation packet, graded against the Class 22 production checklist."
+    }
+  },
+  "prerequisites": {
+    "device": "A laptop or desktop (Windows, Mac or Linux) with the Chrome or Edge browser and a reliable internet connection; Copilot Studio runs fully in the browser",
+    "coding_experience": "None required. Copilot Studio is a graphical, low-code studio, and this course teaches the design, governance and cost disciplines around it. Professionals who do code can go deeper into custom connectors, REST tools and Power Fx expressions inside the same syllabus",
+    "accounts": "Copilot Studio uses a Microsoft work or school (Entra ID) account. With a work email you can self-serve the 30-day trial (which cannot publish agents); ideally you use your employer's tenant with your admin's awareness, and we arrange a practice environment where that is not possible. Your mentor sorts this out with you in the first class",
+    "mindset": "The willingness to treat agents as production software: tested before trusted, costed before scaled, and governed before shipped. The course rewards professionals who ask 'who approved this and what does it cost' as instinctively as 'does it work'"
+  },
+  "who_is_this_for": {
+    "operations_and_business_analysts": "Analysts and process owners who know exactly which workflows are broken and want to ship the agent that fixes one, with the evidence to defend it",
+    "it_and_m365_admins": "IT professionals and Microsoft 365 admins who will be asked to govern agents either way, and would rather be the person who understands Entra Agent ID, DLP and Agent 365 before the first incident",
+    "developers_and_makers": "Developers and Power Platform makers adding the 2026 agent stack (MCP, A2A, computer use, evaluations) to skills employers already recognise",
+    "team_leads_and_managers": "Leads and managers who must decide what gets automated, what it costs in Copilot Credits, and which agent projects deserve to survive the pilot filter",
+    "consultants_and_freelancers": "Consultants who want to sell agent builds that pass a client's security review, with governance and ROI packs as deliverables, not afterthoughts"
+  },
+  "career_paths_after_completion": [
+    "AI agent builder or automation specialist roles, the titles now appearing in real job listings as organisations move from pilots to estates",
+    "Microsoft Certified: AI Agent Builder Associate (exam AB-620), for which this syllabus is direct preparation, with the Applied Skills labs 'Build an agent in Microsoft Copilot Studio' and 'Enhance agents with autonomous capabilities' as nearer milestones",
+    "The internal agent champion or center-of-excellence role: the person who owns the organisation's agent playbook, governance posture and cost model",
+    "Consulting and freelance agent delivery, with a portfolio capstone that includes the governance and ROI artifacts clients' security teams actually ask for",
+    "A bridge to code-first agent engineering: Microsoft Foundry interop from this course, and our Codex + Claude Code masterclass when you want to build agents in code"
+  ],
+  "course_guarantees": {
+    "one_on_one_only": "This course is taught 1-on-1 only: every class is a private session with a dedicated mentor, built around your organisation's real use cases and your role's real depth.",
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "structured_curriculum": "A structured, well-paced 24-class curriculum taught step by step, with a real deliverable in every single class.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so a blocked flow or a failed evaluation never waits four days.",
+    "certificate": "A course-completion certificate earned by defending a production-grade capstone, not by attendance.",
+    "free_demo": "A free demo class before you enrol, so you can meet the mentor and judge the depth for yourself."
+  },
+  "additional_learning_resources": {
+    "total_projects_built": "24 professional deliverables, one per class, finishing with a production capstone agent plus a governance and ROI pack",
+    "projects_throughout_course": [
+      "Phase 1: an agent opportunity memo for your organisation, Policy Desk v1 with a tested instruction stack, a 25-question adversarial test set, and a defended model-and-harness decision",
+      "Phase 2: a SharePoint-grounded Policy Desk with citation proofs, a retrieval-optimised document rebuild with before-and-after accuracy, a multi-source arbitration study, and a published 25-answer accuracy audit",
+      "Phase 3: Support Triage with designed topics and adaptive cards, a generative-orchestration migration log, the Expense Helper approvals flow with tested error paths, live connector and REST integrations, a governed MCP integration with a security note, and a costed computer-use demo",
+      "Phase 4: the autonomous Weekly Reporter, its hardened successor with approval pauses and an operations note, a two-agent A2A architecture with hand-off contracts, a 30-conversation evaluation suite with graders, an analytics sprint with shipped improvements, and a complete Copilot Credits cost model",
+      "Phase 5: an identity and policy plan (Entra Agent ID, DLP, Conditional Access), a full rollout pack with rollback runbook, the production capstone build, and the final defence with the leadership deck",
+      "Total: 24 professional deliverables, one per class, finishing with a production capstone agent plus a governance and ROI pack"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 private 1-on-1 classes per week, about 1 hour each, across 12 weeks",
+      "hands_on_agent_work": "1.5-2 hours building, testing and evaluating in Copilot Studio between classes",
+      "project_time": "1-1.5 hours completing each class deliverable, usually against your own organisation's use case",
+      "review_and_doubts": "30-60 minutes reviewing feedback and clearing doubts over WhatsApp before the next class"
+    },
+    "certification": {
+      "completion_certificate": "Modern Age Coders 'Copilot Studio Agent Masterclass' certificate, earned by defending your Class 24 production capstone and governance pack",
+      "project_portfolio": "A production capstone agent plus 24 documented professional deliverables, including the evaluation suite, cost model and governance artifacts",
+      "next_credentials": "Direct preparation for Microsoft Certified: AI Agent Builder Associate (exam AB-620), with the Applied Skills labs 'Build an agent in Microsoft Copilot Studio' and 'Enhance agents with autonomous capabilities' as nearer milestones"
+    },
+    "skills_mastered": [
+      "Agent design for business: instruction stacks, scope fences, refusals and escalation paths",
+      "Enterprise knowledge grounding: SharePoint, Dataverse, documents, connector-indexed data and tenant graph grounding, within real platform limits",
+      "Conversation design: topics, trigger phrases, entities, condition groups and adaptive cards for critical paths",
+      "Generative orchestration, chosen deliberately and guarded with retested fences",
+      "The full tool surface: Prompt tools, agent flows, standard, premium, on-premises and custom connectors, REST, and Model Context Protocol under DLP",
+      "Computer use with enterprise guardrails: access control, HTTPS enforcement, stored credentials and human supervision, costed per step",
+      "Autonomous agents: event triggers, the maker-credentials rule, approval pauses, idempotence and operations notes",
+      "Multi-agent architecture: child agents, connected agents, the A2A protocol and Microsoft Foundry interop",
+      "Quality engineering: agent evaluations with test sets and graders, analytics outcomes, CSAT and the cost savings metric",
+      "Cost management: Copilot Credits rates, licence coverage, the 125% cutoff and workload cost modelling",
+      "Governance: Microsoft Entra Agent ID, Conditional Access, DLP policies, Microsoft Agent 365 and the Agent Store approval path"
+    ],
+    "support_provided": {
+      "dedicated_mentor": "The same mentor for all 24 classes, who knows your organisation's context, your capstone and your governance constraints",
+      "whatsapp_doubts": "Doubt support between classes over WhatsApp",
+      "practice_environment": "Help arranging your Copilot Studio access in Class 1: employer tenant, 30-day trial where appropriate, or a practice environment we arrange",
+      "session_recordings": "Class recordings available for revision, so a missed detail is never lost"
+    },
+    "copilot_studio_docs": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/",
+    "microsoft_learn_path": "https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/",
+    "whats_new_page": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/whats-new"
+  },
+  "why_this_course": {
+    "the_gap": "Most professionals have watched an agent demo; very few can take an agent through grounding, evaluation, identity, DLP, cost modelling and rollout, which is the part organisations actually pay for. Gartner expects over 40% of agentic AI projects to be canceled by end of 2027, and the difference between the canceled and the kept is exactly the discipline this course teaches, 1-on-1, on your own use cases.",
+    "real_platform": "This is the platform your organisation most likely already licenses: Microsoft's own materials state that 90% of the Fortune 500 use Copilot Studio, and nearly 90% of the Fortune 500 have active agents built with Microsoft's low-code tools per its FY26 Q3 earnings call. The vocabulary here (Entra Agent ID, DLP, agent flows, evaluations, Copilot Credits) is the vocabulary of your next security review.",
+    "always_current": "Copilot Studio moved fast through 2025 and 2026: Anthropic Claude models joined the lineup, the A2A protocol and agent evaluations went GA, computer use shipped with enterprise guardrails, Entra Agent IDs became mandatory, and billing moved to Copilot Credits. The syllabus is a Living Syllabus, re-verified against Microsoft's documentation as features land, which is why it is taught live and not recorded.",
+    "one_on_one": "Production agent work cannot be taught honestly in a group: it involves your processes, your data boundaries, your licensing and your politics. A private mentor reviews your actual instruction stacks, source maps, evaluation suites and governance packs every class, and pushes exactly where your role needs depth. That is why this masterclass is taught 1-on-1 only."
+  },
+  "faqs": [
+    {
+      "question": "Do I need to be a developer to take this Copilot Studio masterclass?",
+      "answer": "No. Copilot Studio is a graphical, low-code studio, and the masterclass is built for professionals who own processes, not necessarily code. The hard parts it teaches are design, evaluation, governance and cost discipline, which are not programming skills. Professionals who do code can go deeper into custom connectors, REST tools and Power Fx inside the same syllabus, and the course maps the interop path to Microsoft Foundry for pro-code work."
+    },
+    {
+      "question": "How is this different from watching Copilot Studio tutorials or Microsoft Learn modules?",
+      "answer": "Tutorials teach the clicks; this course builds and defends a production agent for your own team. Every class produces a professional deliverable: instruction stacks, accuracy audits, evaluation suites with graders, a Copilot Credits cost model, an Entra Agent ID and DLP plan, and a rollout runbook. Microsoft Learn is excellent and free, and we point you at it; what it cannot do is review your specific agent's governance pack line by line, which is what the 1-on-1 mentor does."
+    },
+    {
+      "question": "Why is this masterclass taught 1-on-1 only?",
+      "answer": "Because the material is your organisation's material. Honest sessions discuss your processes, your data boundaries, your tenant's admin posture and your licensing position, none of which belongs in a group class. The mentor reviews your actual instruction stacks, source maps, evaluation results and governance artifacts every session, and adjusts depth to your role, whether you are an analyst, an admin or an architect."
+    },
+    {
+      "question": "What do I need to get access to Copilot Studio for the course?",
+      "answer": "A Microsoft work or school (Entra ID) account. With a work email you can self-serve the 30-day trial, which is enough to build and test but cannot publish agents. The better path is your employer's tenant with your admin's awareness, and the course includes drafting exactly that request. Where neither is possible, we arrange a practice environment, and your mentor sorts access out with you in the first class."
+    },
+    {
+      "question": "Which Microsoft certification does this course prepare me for?",
+      "answer": "The headline target is Microsoft Certified: AI Agent Builder Associate (exam AB-620), whose domains, planning and configuring agent solutions, integrating and extending agents in Copilot Studio, and testing and managing agents, map directly onto this syllabus, including MCP and the A2A protocol named in its prerequisites. On the way, the Applied Skills labs 'Build an agent in Microsoft Copilot Studio' and 'Enhance agents with autonomous capabilities' are natural milestones, and PL-900 is the on-ramp we recommend for teammates you later onboard."
+    },
+    {
+      "question": "Does the course cover what agents cost to run, not just how to build them?",
+      "answer": "Yes, an entire class is dedicated to it. You learn the Copilot Credits model that replaced messages in September 2025, the per-feature rate card, what a Microsoft 365 Copilot licence covers at no extra charge and what it does not (computer use), the capacity cutoff that disables over-budget agents, and how the GitHub Copilot harness bills from the moment you start building. Your capstone ships with a real cost model at three adoption levels, because 'what does it cost' is the second question leadership asks."
+    },
+    {
+      "question": "How current is the syllabus, given how fast the platform is changing?",
+      "answer": "It is a Living Syllabus, re-verified against Microsoft's official documentation and What's New pages as features ship. The current version covers the August 2026 platform: the multi-model lineup including Anthropic Claude Opus 4.7, harnesses, Model Context Protocol under DLP, computer use with enterprise guardrails, the A2A protocol, agent evaluations, mandatory Entra Agent IDs and Microsoft Agent 365. When the platform changes, the course changes, and your mentor tells you what moved while you were learning."
+    },
+    {
+      "question": "What do I walk away with at the end of the masterclass?",
+      "answer": "A production-grade capstone agent for your own team, demonstrated and defended on a real channel, plus the full professional packet: source map, evaluation suite and baseline report, analytics plan, Copilot Credits cost model, Entra Agent ID and DLP plan, rollout runbook and a leadership deck. You also leave with a Modern Age Coders certificate earned by that defence, and a mapped credential road to AB-620 if you want Microsoft's official stamp."
+    }
+  ],
+  "related_courses": [
+    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals",
+    "git-github-advanced-version-control-masterclass-for-professionals",
+    "ai-agents-with-microsoft-copilot-studio-course-for-college-students"
+  ]
+}

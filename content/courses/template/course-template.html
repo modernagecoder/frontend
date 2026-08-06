@@ -193,12 +193,15 @@
                     <p class="enroll-trust" style="margin:.6rem 0 0;font-weight:600;">Rated 4.9 across 547 Google reviews. Free demo first, no card needed. Monthly billing, cancel anytime.</p>
                 </div>
                 <div class="enrollment-options">
+                    <!-- TIER:GROUP START -->
                     <div class="enrollment-option">
                         <h4>Group Classes</h4>
                         <div class="price">{{PRICE_GROUP}}</div>
                         <p class="class-info">2 Classes per Week · Up to 10 students</p>
                         <a href="#" class="enroll-btn outline" data-plan-type="group">Enroll Now</a>
                     </div>
+                    <!-- TIER:GROUP END -->
+                    <!-- TIER:MINIBATCH START -->
                     <div class="enrollment-option featured" data-india-only="true">
                         <span class="recommended-badge" style="position:absolute;top:14px;right:14px;background:linear-gradient(135deg,#f59e0b,#d97706);color:#fff;font-size:.65rem;font-weight:700;letter-spacing:1px;padding:4px 10px;border-radius:999px;text-transform:uppercase;">Most Popular</span>
                         <h4>Mini Batch</h4>
@@ -206,6 +209,7 @@
                         <p class="class-info">2 Classes per Week · Just 3-4 students</p>
                         <a href="#" class="enroll-btn primary" data-plan-type="miniBatch">Enroll Now</a>
                     </div>
+                    <!-- TIER:MINIBATCH END -->
                     <div class="enrollment-option">
                         <h4>Personalized 1-on-1</h4>
                         <div class="price">{{PRICE_PERSONAL}}</div>
@@ -235,6 +239,7 @@
                          card at click time, so it can never quote a different price
                          from the one on screen. These used to be hardcoded $40/$100
                          and were still telling every visitor the retired flat rate. -->
+                    <!-- TIER:INTL_GROUP START -->
                     <div class="cd-intl-card">
                         <div class="cd-intl-label">Group Classes</div>
                         <div class="cd-intl-price" data-price="{{PRICE_SUBJECT}}.international.group">{{INTL_GROUP}}</div>
@@ -242,6 +247,7 @@
                         <div class="cd-intl-note">2 Classes per Week</div>
                         <a href="javascript:void(0)" onclick="showInternationalContactModal('Group Classes', (this.closest('.cd-intl-card').querySelector('[data-price]')||{}).textContent || '')" class="cd-intl-btn">Enroll Now</a>
                     </div>
+                    <!-- TIER:INTL_GROUP END -->
                     <div class="cd-intl-card rec">
                         <div class="cd-intl-badge">Recommended</div>
                         <div class="cd-intl-label">Personalized</div>

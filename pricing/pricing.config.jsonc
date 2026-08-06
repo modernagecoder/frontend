@@ -44,10 +44,10 @@
       "international": { "group": 100,  "miniBatch": null, "personal": 150 }
     },
 
-    // The premium Codex + Claude Code courses. Currently priced the SAME as
-    // everything else (owner's decision 2026-08-01, "all courses"); kept as
-    // their own row so premium pricing can be switched back on by editing
-    // these numbers alone.
+    // The premium AI agents courses (Codex + Claude Code, and AI Agents with
+    // Copilot Studio — see courseOverrides below). 1-on-1 runs at a premium;
+    // the Copilot Studio courses are sold 1-on-1 ONLY (their pages hide the
+    // Group and Mini Batch plans, so those two numbers never show there).
     "agents": {
       "india":         { "group": 1499, "miniBatch": 2999, "personal": 9999 },
       "international": { "group": 100,  "miniBatch": null, "personal": 150 }
@@ -72,7 +72,10 @@
   // ───────────────────────────────────────────────────────────────────────
   "courseOverrides": {
     "codex-and-claude-code-ai-coding-agents-course-for-teens":                  "agents",
-    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": "agents"
+    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": "agents",
+    "ai-agents-with-microsoft-copilot-studio-course-for-teens":                 "agents",
+    "ai-agents-with-microsoft-copilot-studio-course-for-college-students":      "agents",
+    "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals":    "agents"
   },
 
   // ───────────────────────────────────────────────────────────────────────

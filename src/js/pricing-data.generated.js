@@ -71,7 +71,10 @@ window.MAC_PRICING = {
   },
   "courseOverrides": {
     "codex-and-claude-code-ai-coding-agents-course-for-teens": "agents",
-    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": "agents"
+    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": "agents",
+    "ai-agents-with-microsoft-copilot-studio-course-for-teens": "agents",
+    "ai-agents-with-microsoft-copilot-studio-course-for-college-students": "agents",
+    "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals": "agents"
   },
   "display": {
     "chargeCurrencies": {

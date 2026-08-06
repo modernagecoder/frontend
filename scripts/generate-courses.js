@@ -634,16 +634,16 @@ class CourseGenerator {
     }
 
     /**
-     * The two Codex + Claude Code courses are the ONLY premium-priced courses:
-     * students run the real paid agent tools (their own Claude / ChatGPT
-     * subscriptions), so the tiers are Group ₹2,499 / Mini Batch ₹4,999 /
-     * 1-on-1 ₹9,999 (international Group $100 / 1-on-1 $150). Every other
-     * course keeps the site-wide standard tiers. Prices must stay in sync
-     * with courses-config.json (Razorpay amounts) and the
-     * PRICES.internationalAgents table in international-pricing.js.
+     * Premium "agents" courses — the ones where students drive real, paid AI
+     * agent tooling live in class (Codex + Claude Code, AI Agents with
+     * Copilot Studio). They price from the agents row of
+     * pricing/pricing.config.jsonc instead of the coding row, so membership
+     * is decided the same way the pricing library decides it: the slug's
+     * resolved subject. New courses join the tier by one courseOverrides
+     * line in the config, not by widening a regex here.
      */
     isPremiumAgentsCourse(slug) {
-        return /codex-and-claude-code/i.test(slug || '');
+        return this.priceSubjectFor(slug) === 'agents';
     }
 
     /**
@@ -789,6 +789,9 @@ class CourseGenerator {
         const eligibleRegion = { "@type": "Place", "name": "Worldwide" };
         const courseUrl = `https://learn.modernagecoders.com/courses/${meta.slug || ''}`;
         const tierPrices = this.getTierPrices(meta.slug);
+        // A 1-on-1-only course publishes exactly the offer it sells; a Group
+        // or Mini Batch Offer here would tell Google about plans the page
+        // (correctly) never shows.
         courseSchema.offers = [
             {
                 "@type": "Offer",
@@ -833,6 +836,9 @@ class CourseGenerator {
                 "eligibleRegion": eligibleRegion
             }
         ];
+        if (meta.one_on_one_only === true) {
+            courseSchema.offers = courseSchema.offers.filter(o => o.name === 'Personalized 1-on-1');
+        }
 
         // Add keywords
         if (meta.keywords && meta.keywords.length > 0) {
@@ -1111,8 +1117,31 @@ class CourseGenerator {
         html = html.replace(/{{HERO_TITLE}}/g, this.escapeHtml(overview.title || meta.title || ''));
         html = html.replace(/{{HERO_SUBTITLE}}/g, this.escapeHtml(overview.tagline || meta.description || ''));
 
+        // 1-on-1-only courses (meta.one_on_one_only = true): sold exclusively as
+        // private mentorship, so the Group and Mini Batch cards are cut from the
+        // India panel, the Group card from the international panel, and the one
+        // remaining card is promoted to the primary CTA. Everything downstream
+        // (payment modal, USD swap) keys off the buttons that exist in the DOM,
+        // so removing the markup is the whole mechanism. On every other course
+        // the markers are stripped and the output is byte-identical to before.
+        const oneOnOneOnly = meta.one_on_one_only === true;
+        if (oneOnOneOnly) {
+            html = html.replace(/[ \t]*<!-- TIER:(GROUP|MINIBATCH|INTL_GROUP) START -->[\s\S]*?<!-- TIER:\1 END -->\r?\n/g, '');
+            html = html.replace('class="enroll-btn outline" data-plan-type="personal"',
+                'class="enroll-btn primary" data-plan-type="personal"');
+            // The stylesheet lays the panel out as a fixed 3-column grid; with
+            // one card left, center a single sensible-width column instead of
+            // leaving the card stranded in the first cell.
+            html = html.replace('<div class="enrollment-options">',
+                '<div class="enrollment-options" style="grid-template-columns:minmax(280px,380px);justify-content:center;">');
+            html = html.replace('<p>Choose your plan and start your journey into the future of technology today.</p>',
+                '<p>This course runs as 1-on-1 private mentorship only: two private classes a week, a pace set to you, and a dedicated mentor on your screen.</p>');
+        } else {
+            html = html.replace(/[ \t]*<!-- TIER:(?:GROUP|MINIBATCH|INTL_GROUP) (?:START|END) -->\r?\n/g, '');
+        }
+
         // Pricing — site-wide standard 3-tier pricing, except the premium
-        // Codex + Claude Code courses (see getTierPrices / isPremiumAgentsCourse).
+        // agents courses (see getTierPrices / isPremiumAgentsCourse).
         // (Per-course JSON prices are otherwise ignored in favor of standard tiers.)
         const tierP = this.getTierPrices(meta.slug);
         html = html.replace(/{{PRICE_GROUP}}/g, tierP.groupDisplay);
@@ -1188,9 +1217,14 @@ class CourseGenerator {
         // Learning path
         let learningPathHTML = '';
         if (overview.learning_path) {
-            learningPathHTML = Object.entries(overview.learning_path).map(([key, value]) =>
+            // learning_path arrives as an object ({phase_1: ...}) in older
+            // course JSONs and as an array in newer ones. Array keys are
+            // "0".."4", which used to print a bare zero-based digit as the
+            // phase chip on every array-based course page.
+            const isPathArray = Array.isArray(overview.learning_path);
+            learningPathHTML = Object.entries(overview.learning_path).map(([key, value], i) =>
                 `<div class="learning-path-item">
-                    <div class="path-number">${key.replace('phase_', 'Phase ')}</div>
+                    <div class="path-number">${isPathArray ? 'Phase ' + (i + 1) : key.replace('phase_', 'Phase ')}</div>
                     <div class="path-content">${this.escapeHtml(value)}</div>
                 </div>`
             ).join('');

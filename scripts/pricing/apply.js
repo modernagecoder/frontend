@@ -340,10 +340,15 @@ function syncLlmsTxt(config) {
     if (india.miniBatch != null) indiaTiers.push('mini batches of 3-4 students at ' + inr(india.miniBatch) + ' per month');
     if (india.personal != null) indiaTiers.push('one-on-one classes at ' + inr(india.personal) + ' per month');
 
-    const agentTiers = [];
-    if (agents.group != null) agentTiers.push(inr(agents.group) + ' group');
-    if (agents.miniBatch != null) agentTiers.push(inr(agents.miniBatch) + ' mini batch (India only)');
-    if (agents.personal != null) agentTiers.push(inr(agents.personal) + ' one-on-one');
+    // The premium AI agents courses (Codex + Claude Code, and AI Agents with
+    // Microsoft Copilot Studio) price from the agents row. Mention them only
+    // when that row actually differs from the standard 1-on-1 rate, so the
+    // answer never grows a phantom "exception" that equals the normal price.
+    const agentsNote = (agents.personal != null && agents.personal !== india.personal)
+        ? ' One exception: the premium AI agents courses (Codex + Claude Code, and AI Agents ' +
+          'with Microsoft Copilot Studio) are ' + inr(agents.personal) + ' per month for 1-on-1, ' +
+          'and the Copilot Studio courses are taught 1-on-1 only.'
+        : '';
 
     // Spelled out, because this text is read aloud by assistants and quoted in
     // answers: "there are 3 tiers" reads like a database dump.
@@ -351,7 +356,8 @@ function syncLlmsTxt(config) {
     const count = WORDS[indiaTiers.length] || String(indiaTiers.length);
 
     const answer = 'A: In India there are ' + count + ' tiers, all billed monthly with no lock-in: ' +
-        indiaTiers.join(', ') + '. Maths 1-on-1 is ' + inr(config.plans.maths.india.personal) + ' per month. ' +
+        indiaTiers.join(', ') + '. Maths 1-on-1 is ' + inr(config.plans.maths.india.personal) + ' per month.' +
+        agentsNote + ' ' +
         'Outside India the pricing is a flat ' + usd(intl.group) + ' per month for group classes and ' +
         usd(intl.personal) + ' for one-on-one, in US dollars, for all courses. A free demo class is ' +
         'available before enrollment, with no card required.';

@@ -20,9 +20,9 @@ const FIELDS = [
     ['maths.india.group', 'India maths — Group'],
     ['maths.india.miniBatch', 'India maths — Mini Batch'],
     ['maths.india.personal', 'India maths — 1-on-1'],
-    ['agents.india.group', 'Premium Codex/Claude — Group (India)'],
-    ['agents.india.miniBatch', 'Premium Codex/Claude — Mini Batch (India)'],
-    ['agents.india.personal', 'Premium Codex/Claude — 1-on-1 (India)'],
+    ['agents.india.group', 'Premium agents (Codex/Claude, Copilot Studio) — Group (India)'],
+    ['agents.india.miniBatch', 'Premium agents (Codex/Claude, Copilot Studio) — Mini Batch (India)'],
+    ['agents.india.personal', 'Premium agents (Codex/Claude, Copilot Studio) — 1-on-1 (India)'],
     ['school.india.group', 'School bootcamp — Group (India)'],
     ['school.india.personal', 'School bootcamp — 1-on-1 (India)'],
     ['camps.india.oneTime', 'Holiday camp — one payment (India)'],
@@ -86,10 +86,10 @@ function render(v) {
       "international": { "group": ${num(v['intl.group'])},  "miniBatch": null, "personal": ${num(v['intl.personal'])} }
     },
 
-    // The premium Codex + Claude Code courses. Currently priced the SAME as
-    // everything else (owner's decision 2026-08-01, "all courses"); kept as
-    // their own row so premium pricing can be switched back on by editing
-    // these numbers alone.
+    // The premium AI agents courses (Codex + Claude Code, and AI Agents with
+    // Copilot Studio — see courseOverrides below). 1-on-1 runs at a premium;
+    // the Copilot Studio courses are sold 1-on-1 ONLY (their pages hide the
+    // Group and Mini Batch plans, so those two numbers never show there).
     "agents": {
       "india":         { "group": ${num(v['agents.india.group'])}, "miniBatch": ${num(v['agents.india.miniBatch'])}, "personal": ${num(v['agents.india.personal'])} },
       "international": { "group": ${num(v['intl.group'])},  "miniBatch": null, "personal": ${num(v['intl.personal'])} }
@@ -114,7 +114,10 @@ function render(v) {
   // ───────────────────────────────────────────────────────────────────────
   "courseOverrides": {
     "codex-and-claude-code-ai-coding-agents-course-for-teens":                  "agents",
-    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": "agents"
+    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": "agents",
+    "ai-agents-with-microsoft-copilot-studio-course-for-teens":                 "agents",
+    "ai-agents-with-microsoft-copilot-studio-course-for-college-students":      "agents",
+    "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals":    "agents"
   },
 
   // ───────────────────────────────────────────────────────────────────────
