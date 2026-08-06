@@ -62,6 +62,8 @@
     <!-- Editorial theme (shared) + Course detail styles. No legacy CSS. -->
     <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
     <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20260709">
+    <link rel="stylesheet" href="/css/moments-strip.css?v=20260806b">
+    <script src="/js/moments-strip.js?v=20260806b" defer></script>
     <meta name="theme-color" content="#B45309">
     <style>html,body{overflow-x:hidden;max-width:100vw}</style>
     <noscript><style>.section{opacity:1 !important;transform:none !important}</style></noscript>
@@ -371,36 +373,124 @@
             </div>
         </section>
 
-        <!-- Feedback / testimonials from real Modern Age Coders families -->
-        <section class="cd-testimonials">
-            <h2>What Families Say</h2>
-            <p class="cd-tm-sub">Real feedback from the parents and students who learn with us.</p>
-            <div class="cd-tm-rating"><span class="stars">★★★★★</span> 4.9 average · 547+ Google reviews</div>
-            <div class="cd-tm-grid">
-                <div class="cd-tm-card">
-                    <div class="cd-tm-stars">★★★★★</div>
-                    <p class="cd-tm-quote">"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding, truly amazing class."</p>
-                    <div class="cd-tm-person"><div class="cd-tm-avatar">S</div><div><div class="cd-tm-name">Shradha Saraf</div><div class="cd-tm-role">Mother of Mivaan</div></div></div>
-                </div>
-                <div class="cd-tm-card">
-                    <div class="cd-tm-stars">★★★★★</div>
-                    <p class="cd-tm-quote">"My son struggled with maths for years. Integrating it into coding projects has transformed how he thinks. He now genuinely enjoys both."</p>
-                    <div class="cd-tm-person"><div class="cd-tm-avatar">S</div><div><div class="cd-tm-name">Shewta Singh</div><div class="cd-tm-role">Mother of Ishan</div></div></div>
-                </div>
-                <div class="cd-tm-card">
-                    <div class="cd-tm-stars">★★★★★</div>
-                    <p class="cd-tm-quote">"Modern Age Coders has wonderful teachers who teach in a clear, easy and practical way. My son looks forward to every single class."</p>
-                    <div class="cd-tm-person"><div class="cd-tm-avatar">S</div><div><div class="cd-tm-name">Sonu Goyal</div><div class="cd-tm-role">Father of Nikit</div></div></div>
-                </div>
-                <div class="cd-tm-card">
-                    <div class="cd-tm-stars">★★★★★</div>
-                    <p class="cd-tm-quote">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts before, and now they finally click, and I actually look forward to learning."</p>
-                    <div class="cd-tm-person"><div class="cd-tm-avatar">S</div><div><div class="cd-tm-name">Samridho Mondal</div><div class="cd-tm-role">Student · Grade 9</div></div></div>
-                </div>
+
+        <!-- MOMENTS STRIP: the Wall of Love meetup photos as mid-page trust proof.
+             Same 39 real, deduped photos as /love, served from /images/moments/.
+             Behaviour: /js/moments-strip.js. Update /love first, then mirror here. -->
+        <section class="mac-moments" aria-label="Photos from Modern Age Coders student meetups">
+            <div class="mac-head">
+                <span class="mac-badge">📸 Straight from our camera roll</span>
+                <h2>Real students. Real moments. Real joy.</h2>
+                <p class="mac-sub">These are our actual student meetups. No stock photos, no filters. Swipe through and meet the community you'll be joining.</p>
             </div>
-            <a href="https://g.page/r/Cff_QkHNaP9yEAE/review" target="_blank" rel="noopener" class="cd-tm-google">Read &amp; write reviews on Google
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-            </a>
+            <div class="mac-shell">
+                <div class="mac-strip mac-moments-strip" data-mac-strip="drift">
+                    <figure class="mac-moment"><img src="/images/moments/moment-31.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="826" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-34.webp" alt="Modern Age Coders students and mentors at the August 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 2 Aug 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-16.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-20.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-39.webp" alt="Modern Age Coders students and mentors at the August 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 2 Aug 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-26.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-12.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-37.webp" alt="Modern Age Coders students and mentors at the August 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 2 Aug 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-29.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="826" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-07.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-05.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-33.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-22.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="825" height="1100" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-21.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-01.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-10.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-19.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-04.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-32.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="826" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-08.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-13.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-25.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-28.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-11.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-06.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-35.webp" alt="Modern Age Coders students and mentors at the August 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 2 Aug 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-09.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-36.webp" alt="Modern Age Coders students and mentors at the August 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 2 Aug 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-17.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-15.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-14.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-38.webp" alt="Modern Age Coders students and mentors at the August 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 2 Aug 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-30.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="826" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-03.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-02.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-23.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-27.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-18.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                    <figure class="mac-moment"><img src="/images/moments/moment-24.webp" alt="Modern Age Coders students and mentors at the July 2026 student meetup" width="1100" height="825" loading="lazy" decoding="async"><figcaption>Meetup · 6 July 2026</figcaption></figure>
+                </div>
+                <button class="mac-arrow prev" type="button" aria-label="Scroll photos left"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+                <button class="mac-arrow next" type="button" aria-label="Scroll photos right"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+            </div>
+            <div class="mac-cta">
+                <a class="mac-btn" href="/love">See our full Wall of Love →</a>
+            </div>
+        </section>
+
+        <!-- VIBE ZONE 2/3 — sticky-note strip of real lovewall reviews (verbatim
+             excerpts; ground truth lovewall/feedback.txt). Rating phrasing follows
+             scripts/brand-facts.json: the 4.9 comes from Google REVIEWS. -->
+        <section class="mac-notes" aria-label="Reviews from Modern Age Coders families">
+            <div class="mac-head">
+                <span class="mac-badge">💛 Real families, real words</span>
+                <h2>What families say</h2>
+                <p class="mac-sub">Straight from the parents and students who learn with us. Rated 4.9 across 547 Google reviews.</p>
+            </div>
+            <div class="mac-shell">
+                <div class="mac-strip mac-notes-strip" data-mac-strip="drift">
+                    <figure class="mac-note"><div class="mac-note-stars" aria-hidden="true">★★★★★</div><p>&ldquo;Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class.&rdquo;</p><figcaption><strong>Shradha Saraf</strong><span>Parent of Mivaan</span></figcaption></figure>
+                    <figure class="mac-note"><div class="mac-note-stars" aria-hidden="true">★★★★★</div><p>&ldquo;I absolutely love it here! I made new friends and learned important valuable coding skills while having the fun of my life. It's not just coding here, it's outings, bonding and most importantly preparing you for your future. Definitely five stars.&rdquo;</p><figcaption><strong>Yug Rathore</strong><span>Student</span></figcaption></figure>
+                    <figure class="mac-note"><div class="mac-note-stars" aria-hidden="true">★★★★★</div><p>&ldquo;What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!&rdquo;</p><figcaption><strong>Poonam Rathore</strong><span>Parent</span></figcaption></figure>
+                    <figure class="mac-note"><div class="mac-note-stars" aria-hidden="true">★★★★★</div><p>&ldquo;Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease.&rdquo;</p><figcaption><strong>Samriddha Mondal</strong><span>Student</span></figcaption></figure>
+                    <figure class="mac-note"><div class="mac-note-stars" aria-hidden="true">★★★★★</div><p>&ldquo;Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.&rdquo;</p><figcaption><strong>Sonu Goyal</strong><span>Parent</span></figcaption></figure>
+                    <figure class="mac-note"><div class="mac-note-stars" aria-hidden="true">★★★★★</div><p>&ldquo;The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it.&rdquo;</p><figcaption><strong>Ria Mukherjee</strong><span>Parent</span></figcaption></figure>
+                    <figure class="mac-note"><div class="mac-note-stars" aria-hidden="true">★★★★★</div><p>&ldquo;Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner.&rdquo;</p><figcaption><strong>Arush Poddar</strong><span>Student</span></figcaption></figure>
+                    <figure class="mac-note"><div class="mac-note-stars" aria-hidden="true">★★★★★</div><p>&ldquo;One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.&rdquo;</p><figcaption><strong>Vansh Agarwal</strong><span>Student</span></figcaption></figure>
+                    <figure class="mac-note"><div class="mac-note-stars" aria-hidden="true">★★★★★</div><p>&ldquo;I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful.&rdquo;</p><figcaption><strong>Ritu Kedia</strong><span>Parent</span></figcaption></figure>
+                    <figure class="mac-note"><div class="mac-note-stars" aria-hidden="true">★★★★★</div><p>&ldquo;My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it.&rdquo;</p><figcaption><strong>Sonam Oswal</strong><span>Parent of Dhairya</span></figcaption></figure>
+                    <figure class="mac-note"><div class="mac-note-stars" aria-hidden="true">★★★★★</div><p>&ldquo;Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.&rdquo;</p><figcaption><strong>Shaarav Wadhwa</strong><span>Student</span></figcaption></figure>
+                    <figure class="mac-note"><div class="mac-note-stars" aria-hidden="true">★★★★★</div><p>&ldquo;Very good classes. Makes learning very easy and interactive.&rdquo;</p><figcaption><strong>Vineeta Shyamsukha</strong><span>Parent</span></figcaption></figure>
+                </div>
+                <button class="mac-arrow prev" type="button" aria-label="Scroll reviews left"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+                <button class="mac-arrow next" type="button" aria-label="Scroll reviews right"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+            </div>
+            <div class="mac-cta">
+                <a class="mac-btn-ghost" href="https://g.page/r/Cff_QkHNaP9yEAE/review" target="_blank" rel="noopener">Read and write reviews on Google</a>
+            </div>
+        </section>
+
+        <!-- VIBE ZONE 3/3 — feedback video strip. Names and durations are the REAL
+             values from the lovewall VideoObject schema (read from YouTube 2026-07-14);
+             do not reinvent vibe-titles or estimate durations. -->
+        <section class="mac-vids" aria-label="Video feedback from Modern Age Coders families">
+            <div class="mac-head">
+                <span class="mac-badge">🎬 Press play</span>
+                <h2>Hear it from our students</h2>
+                <p class="mac-sub">Real parents and students in their own words, on our public YouTube channel.</p>
+            </div>
+            <div class="mac-shell">
+                <div class="mac-strip mac-vids-strip" data-mac-strip>
+                    <div class="mac-vid"><div class="mac-vid-frame"><button class="cd-vid-play" type="button" data-yt="U7vTcMULDY8" data-title="Feedback by Harnoor Kaur" aria-label="Play feedback video by Harnoor Kaur"><img src="https://i.ytimg.com/vi/U7vTcMULDY8/hqdefault.jpg" alt="Video feedback by Harnoor Kaur" loading="lazy" width="480" height="360"><span class="mac-vid-pin" aria-hidden="true"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></span></span></button></div><div class="mac-vid-meta"><span class="mac-vid-title">Harnoor Kaur</span><span class="mac-vid-dur">0:31</span></div></div>
+                    <div class="mac-vid"><div class="mac-vid-frame"><button class="cd-vid-play" type="button" data-yt="GhoF3-d-92E" data-title="Feedback by Adishree" aria-label="Play feedback video by Adishree"><img src="https://i.ytimg.com/vi/GhoF3-d-92E/hqdefault.jpg" alt="Video feedback by Adishree" loading="lazy" width="480" height="360"><span class="mac-vid-pin" aria-hidden="true"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></span></span></button></div><div class="mac-vid-meta"><span class="mac-vid-title">Adishree</span><span class="mac-vid-dur">0:59</span></div></div>
+                    <div class="mac-vid"><div class="mac-vid-frame"><button class="cd-vid-play" type="button" data-yt="Up6S920LyRs" data-title="Feedback by Muqeem" aria-label="Play feedback video by Muqeem"><img src="https://i.ytimg.com/vi/Up6S920LyRs/hqdefault.jpg" alt="Video feedback by Muqeem" loading="lazy" width="480" height="360"><span class="mac-vid-pin" aria-hidden="true"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></span></span></button></div><div class="mac-vid-meta"><span class="mac-vid-title">Muqeem</span><span class="mac-vid-dur">0:48</span></div></div>
+                    <div class="mac-vid"><div class="mac-vid-frame"><button class="cd-vid-play" type="button" data-yt="j-eaIPbSksc" data-title="Feedback by Ayushi" aria-label="Play feedback video by Ayushi"><img src="https://i.ytimg.com/vi/j-eaIPbSksc/hqdefault.jpg" alt="Video feedback by Ayushi" loading="lazy" width="480" height="360"><span class="mac-vid-pin" aria-hidden="true"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></span></span></button></div><div class="mac-vid-meta"><span class="mac-vid-title">Ayushi</span><span class="mac-vid-dur">0:51</span></div></div>
+                    <div class="mac-vid"><div class="mac-vid-frame"><button class="cd-vid-play" type="button" data-yt="5hgvxieimTM" data-title="Feedback by Aarya Shee" aria-label="Play feedback video by Aarya Shee"><img src="https://i.ytimg.com/vi/5hgvxieimTM/hqdefault.jpg" alt="Video feedback by Aarya Shee" loading="lazy" width="480" height="360"><span class="mac-vid-pin" aria-hidden="true"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></span></span></button></div><div class="mac-vid-meta"><span class="mac-vid-title">Aarya Shee</span><span class="mac-vid-dur">0:53</span></div></div>
+                    <div class="mac-vid"><div class="mac-vid-frame"><button class="cd-vid-play" type="button" data-yt="v9pNat8vY9M" data-title="Feedback by Sahreen" aria-label="Play feedback video by Sahreen"><img src="https://i.ytimg.com/vi/v9pNat8vY9M/hqdefault.jpg" alt="Video feedback by Sahreen" loading="lazy" width="480" height="360"><span class="mac-vid-pin" aria-hidden="true"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></span></span></button></div><div class="mac-vid-meta"><span class="mac-vid-title">Sahreen</span><span class="mac-vid-dur">1:00</span></div></div>
+                    <div class="mac-vid"><div class="mac-vid-frame"><button class="cd-vid-play" type="button" data-yt="7Y4qFO1VwKc" data-title="Feedback by Pratik" aria-label="Play feedback video by Pratik"><img src="https://i.ytimg.com/vi/7Y4qFO1VwKc/hqdefault.jpg" alt="Video feedback by Pratik" loading="lazy" width="480" height="360"><span class="mac-vid-pin" aria-hidden="true"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></span></span></button></div><div class="mac-vid-meta"><span class="mac-vid-title">Pratik</span><span class="mac-vid-dur">0:47</span></div></div>
+                </div>
+                <button class="mac-arrow prev" type="button" aria-label="Scroll videos left"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+                <button class="mac-arrow next" type="button" aria-label="Scroll videos right"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+            </div>
+            <div class="mac-cta">
+                <a class="mac-btn" href="/love">See the full Wall of Love →</a>
+                <a class="mac-btn-ghost" href="https://youtube.com/playlist?list=PLfTigabkzKdy4y52hmNOQRaL8gsc9lbU1" target="_blank" rel="noopener">Watch the playlist on YouTube</a>
+            </div>
         </section>
 
         <!-- FAQ Section - Only displays if course has FAQs -->
@@ -418,86 +508,6 @@
         <!-- Related Blogs Section - Auto-generated for internal linking -->
         {{RELATED_BLOGS}}
 
-        <!-- Feedback videos from the Wall of Love (same on every course) -->
-        <section class="cd-videos">
-            <h2>Feedback from our families</h2>
-            <p class="cd-vid-sub">Real parents and students, in their own words. Press play on any story, or watch the full Wall of Love and our complete feedback playlist.</p>
-            <div class="cd-vid-grid">
-                <div class="cd-vid">
-                    <div class="cd-vid-frame">
-                        <button class="cd-vid-play" type="button" data-yt="U7vTcMULDY8" data-title="Pure Love & Joy" aria-label="Play feedback video: Pure Love and Joy">
-                            <img src="https://i.ytimg.com/vi/U7vTcMULDY8/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
-                            <span class="cd-vid-pin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>
-                        </button>
-                    </div>
-                    <div class="cd-vid-meta"><span class="cd-vid-title">Pure Love &amp; Joy</span><span class="cd-vid-dur">2:30</span></div>
-                </div>
-                <div class="cd-vid">
-                    <div class="cd-vid-frame">
-                        <button class="cd-vid-play" type="button" data-yt="GhoF3-d-92E" data-title="Honest Feelings" aria-label="Play feedback video: Honest Feelings">
-                            <img src="https://i.ytimg.com/vi/GhoF3-d-92E/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
-                            <span class="cd-vid-pin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>
-                        </button>
-                    </div>
-                    <div class="cd-vid-meta"><span class="cd-vid-title">Honest Feelings</span><span class="cd-vid-dur">1:45</span></div>
-                </div>
-                <div class="cd-vid">
-                    <div class="cd-vid-frame">
-                        <button class="cd-vid-play" type="button" data-yt="Up6S920LyRs" data-title="Life Changing Moments" aria-label="Play feedback video: Life Changing Moments">
-                            <img src="https://i.ytimg.com/vi/Up6S920LyRs/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
-                            <span class="cd-vid-pin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>
-                        </button>
-                    </div>
-                    <div class="cd-vid-meta"><span class="cd-vid-title">Life Changing Moments</span><span class="cd-vid-dur">4:10</span></div>
-                </div>
-                <div class="cd-vid">
-                    <div class="cd-vid-frame">
-                        <button class="cd-vid-play" type="button" data-yt="j-eaIPbSksc" data-title="Proud & Happy" aria-label="Play feedback video: Proud and Happy">
-                            <img src="https://i.ytimg.com/vi/j-eaIPbSksc/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
-                            <span class="cd-vid-pin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>
-                        </button>
-                    </div>
-                    <div class="cd-vid-meta"><span class="cd-vid-title">Proud &amp; Happy</span><span class="cd-vid-dur">3:05</span></div>
-                </div>
-                <div class="cd-vid">
-                    <div class="cd-vid-frame">
-                        <button class="cd-vid-play" type="button" data-yt="5hgvxieimTM" data-title="Sweet Memories" aria-label="Play feedback video: Sweet Memories">
-                            <img src="https://i.ytimg.com/vi/5hgvxieimTM/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
-                            <span class="cd-vid-pin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>
-                        </button>
-                    </div>
-                    <div class="cd-vid-meta"><span class="cd-vid-title">Sweet Memories</span><span class="cd-vid-dur">2:15</span></div>
-                </div>
-                <div class="cd-vid">
-                    <div class="cd-vid-frame">
-                        <button class="cd-vid-play" type="button" data-yt="v9pNat8vY9M" data-title="Heartfelt Stories" aria-label="Play feedback video: Heartfelt Stories">
-                            <img src="https://i.ytimg.com/vi/v9pNat8vY9M/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
-                            <span class="cd-vid-pin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>
-                        </button>
-                    </div>
-                    <div class="cd-vid-meta"><span class="cd-vid-title">Heartfelt Stories</span><span class="cd-vid-dur">3:20</span></div>
-                </div>
-                <div class="cd-vid">
-                    <div class="cd-vid-frame">
-                        <button class="cd-vid-play" type="button" data-yt="7Y4qFO1VwKc" data-title="Genuine Smiles" aria-label="Play feedback video: Genuine Smiles">
-                            <img src="https://i.ytimg.com/vi/7Y4qFO1VwKc/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
-                            <span class="cd-vid-pin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>
-                        </button>
-                    </div>
-                    <div class="cd-vid-meta"><span class="cd-vid-title">Genuine Smiles</span><span class="cd-vid-dur">2:45</span></div>
-                </div>
-            </div>
-            <div class="cd-vid-actions">
-                <a class="cd-vid-btn-primary" href="/love">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-                    See the full Wall of Love
-                </a>
-                <a class="cd-vid-btn-ghost" href="https://youtube.com/playlist?list=PLfTigabkzKdy4y52hmNOQRaL8gsc9lbU1" target="_blank" rel="noopener">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-                    Watch the feedback playlist on YouTube
-                </a>
-            </div>
-        </section>
 
         <!-- Final CTA -->
         <section class="cd-final-cta">
@@ -548,7 +558,6 @@
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
     <script src="/js/pricing-data.generated.js"></script>
     <script src="/js/international-pricing.js"></script>
-    <script src="/js/local-currency.js"></script>
     <script src="/js/course-payment.js"></script>
 
     <!-- Professional Enrollment Modal System -->

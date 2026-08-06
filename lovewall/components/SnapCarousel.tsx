@@ -26,7 +26,7 @@ interface Props {
   ariaLabel?: string;
 }
 
-const DRIFT_PX_PER_FRAME = 0.6;
+const DRIFT_PX_PER_SEC = 34; // time-based so speed is identical at any refresh rate
 const RESUME_AFTER_MS = 2500;
 
 const SnapCarousel: React.FC<Props> = ({ children, autoDrift = false, loop = false, className = '', scrollerClassName = '', ariaLabel }) => {
@@ -63,11 +63,24 @@ const SnapCarousel: React.FC<Props> = ({ children, autoDrift = false, loop = fal
     if (!autoDrift) return;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     let raf = 0;
-    const tick = () => {
+    // Time-based drift (delta-clamped so a throttled tab never lurches on wake),
+    // stepped in whole CSS pixels: browsers quantize scrollLeft to device pixels
+    // (0.8px at 125% Windows scaling), so sub-pixel increments round away to
+    // nothing and the drift stalls.
+    let acc = 0;
+    let last = performance.now();
+    const tick = (now: number) => {
+      const dt = Math.min(now - last, 100);
+      last = now;
       const el = scrollerRef.current;
       if (el && !document.hidden && !hoveredRef.current && !dragRef.current && Date.now() > pausedUntilRef.current) {
-        el.scrollLeft += DRIFT_PX_PER_FRAME;
-        wrap();
+        acc += (dt / 1000) * DRIFT_PX_PER_SEC;
+        if (acc >= 1) {
+          const step = Math.floor(acc);
+          acc -= step;
+          el.scrollLeft += step;
+          wrap();
+        }
       }
       raf = requestAnimationFrame(tick);
     };

@@ -1,0 +1,394 @@
+/* The mid-page "vibe zone" on course pages: moments photos + family reviews + feedback
+   videos, all as love-wall-style strips on the editorial brand (paper/ink/amber,
+   Fraunces + Inter). Loaded by course-template.html and course.html.
+
+   SPECIFICITY NOTE: editorial-theme.css ships `body.editorial img { max-width:100%;
+   height:auto }` at (0,1,2) and similar element-scoped rules, so every img/figure rule
+   here is written at two classes deep or more. Do not "simplify" the selectors.
+
+   Markup contract (shared by all three strips):
+     section.mac-moments|.mac-notes|.mac-vids
+       .mac-head > .mac-badge + h2 + p.mac-sub
+       .mac-shell > .mac-strip[data-mac-strip] + button.mac-arrow.prev/.next
+       .mac-cta > a.mac-btn / a.mac-btn-ghost
+   Behaviour (drag/arrows/drift/loop + course.html video play) : /js/moments-strip.js.
+   Without JS every strip is still a native horizontal scroller. */
+
+/* ---------- shared head / badge / cta ---------- */
+
+.mac-head {
+    max-width: 760px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.mac-badge {
+    display: inline-block;
+    background: #D97706;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border: 2px solid #1C1814;
+    box-shadow: 3px 3px 0 #1C1814;
+    transform: rotate(-1.5deg);
+    margin-bottom: 20px;
+}
+
+.mac-head h2 {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(1.9rem, 4.5vw, 3rem);
+    line-height: 1.1;
+    color: #1C1814;
+    margin: 0 0 14px;
+}
+
+.mac-head .mac-sub {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #6B6259;
+    margin: 0;
+}
+
+.mac-cta {
+    text-align: center;
+    margin-top: 34px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+}
+
+.mac-cta .mac-btn,
+.mac-cta .mac-btn-ghost {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 14px 28px;
+    border: 2px solid #1C1814;
+    box-shadow: 4px 4px 0 #1C1814;
+    text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.2s ease;
+}
+
+.mac-cta .mac-btn { background: #B45309; color: #FFFFFF; }
+.mac-cta .mac-btn:hover { background: #D97706; color: #FFFFFF; transform: translate(-2px, -2px); box-shadow: 6px 6px 0 #1C1814; }
+.mac-cta .mac-btn-ghost { background: #FFFFFF; color: #1C1814; }
+.mac-cta .mac-btn-ghost:hover { background: #FDE68A; transform: translate(-2px, -2px); box-shadow: 6px 6px 0 #1C1814; }
+
+/* ---------- shared strip machinery ---------- */
+
+.mac-shell {
+    position: relative;
+}
+
+.mac-shell .mac-strip {
+    display: flex;
+    gap: 28px;
+    overflow-x: auto;
+    padding: 26px 32px 34px;
+    cursor: grab;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.mac-shell .mac-strip::-webkit-scrollbar { display: none; }
+.mac-shell .mac-strip.is-dragging { cursor: grabbing; }
+
+.mac-shell .mac-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 2px solid #1C1814;
+    box-shadow: 3px 3px 0 #1C1814;
+    color: #1C1814;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    padding: 0;
+    transition: background 0.2s ease, transform 0.15s ease;
+}
+.mac-shell .mac-arrow:hover { background: #FDE68A; }
+.mac-shell .mac-arrow:active { transform: translateY(calc(-50% + 2px)); box-shadow: 1px 1px 0 #1C1814; }
+.mac-shell .mac-arrow.prev { left: 14px; }
+.mac-shell .mac-arrow.next { right: 14px; }
+.mac-shell .mac-arrow svg { width: 22px; height: 22px; }
+
+/* ---------- moments: polaroid photo cards ---------- */
+
+.mac-moments {
+    background: #FDF6E9;
+    border-top: 3px solid #1C1814;
+    border-bottom: 3px solid #1C1814;
+    padding: 64px 0 72px;
+    margin: 48px 0 0;
+    overflow: hidden;
+}
+
+.mac-moments .mac-moment {
+    flex: 0 0 auto;
+    margin: 0;
+    background: #FFFFFF;
+    border: 2px solid #1C1814;
+    box-shadow: 5px 5px 0 rgba(28, 24, 20, 0.85);
+    padding: 8px 8px 6px;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mac-moments .mac-moment:nth-child(3n)   { transform: rotate(1.6deg); }
+.mac-moments .mac-moment:nth-child(3n+1) { transform: rotate(-1.4deg); }
+.mac-moments .mac-moment:nth-child(3n+2) { transform: rotate(0.6deg); }
+.mac-moments .mac-moment:hover {
+    transform: rotate(0deg) translateY(-6px);
+    box-shadow: 8px 10px 0 rgba(28, 24, 20, 0.85);
+    z-index: 2;
+}
+
+/* washi tape */
+.mac-moments .mac-moment::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    width: 64px;
+    height: 18px;
+    transform: translateX(-50%) rotate(-2deg);
+    background: rgba(217, 119, 6, 0.28);
+    border: 1px solid rgba(180, 83, 9, 0.25);
+    z-index: 1;
+}
+
+/* emoji stickers on a few cards for the energy */
+.mac-moments .mac-moment:nth-child(5n+2)::after,
+.mac-moments .mac-moment:nth-child(7n+4)::after {
+    position: absolute;
+    right: -12px;
+    bottom: -10px;
+    font-size: 1.6rem;
+    filter: drop-shadow(1px 2px 1px rgba(28, 24, 20, 0.3));
+}
+.mac-moments .mac-moment:nth-child(5n+2)::after { content: '🎉'; }
+.mac-moments .mac-moment:nth-child(7n+4)::after { content: '🫶'; transform: rotate(8deg); }
+
+.mac-moments .mac-moment img {
+    display: block;
+    height: 230px;
+    width: auto;
+    max-width: none;
+}
+
+.mac-moments .mac-moment figcaption {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.76rem;
+    color: #6B6259;
+    text-align: center;
+    padding: 7px 4px 4px;
+}
+
+/* ---------- notes: sticky-note review cards ---------- */
+
+.mac-notes {
+    background: #FFFFFF;
+    border-bottom: 3px dashed rgba(28, 24, 20, 0.35);
+    padding: 64px 0 72px;
+    overflow: hidden;
+}
+
+.mac-notes .mac-note {
+    flex: 0 0 auto;
+    width: 310px;
+    margin: 0;
+    padding: 22px 22px 18px;
+    border: 2px solid #1C1814;
+    box-shadow: 5px 5px 0 rgba(28, 24, 20, 0.85);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* warm sticky-note papers, rotating */
+.mac-notes .mac-note:nth-child(4n+1) { background: #FEF9C3; transform: rotate(-1.3deg); }
+.mac-notes .mac-note:nth-child(4n+2) { background: #FFEDD5; transform: rotate(1.2deg); }
+.mac-notes .mac-note:nth-child(4n+3) { background: #FFE4E6; transform: rotate(-0.7deg); }
+.mac-notes .mac-note:nth-child(4n)   { background: #F5F5F4; transform: rotate(1.6deg); }
+.mac-notes .mac-note:hover {
+    transform: rotate(0deg) translateY(-6px);
+    box-shadow: 8px 10px 0 rgba(28, 24, 20, 0.85);
+    z-index: 2;
+}
+
+/* pin dot */
+.mac-notes .mac-note::before {
+    content: '';
+    position: absolute;
+    top: -9px;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    background: #B45309;
+    border: 2px solid #1C1814;
+    box-shadow: 0 2px 3px rgba(28, 24, 20, 0.35);
+}
+
+.mac-notes .mac-note-stars {
+    color: #D97706;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.mac-notes .mac-note p {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 1.02rem;
+    line-height: 1.55;
+    color: #1C1814;
+    margin: 0 0 16px;
+    flex: 1;
+}
+
+.mac-notes .mac-note figcaption {
+    font-family: 'Inter', sans-serif;
+    border-top: 1.5px dashed rgba(28, 24, 20, 0.3);
+    padding-top: 10px;
+}
+.mac-notes .mac-note figcaption strong {
+    display: block;
+    font-size: 0.92rem;
+    color: #1C1814;
+}
+.mac-notes .mac-note figcaption span {
+    font-size: 0.8rem;
+    color: #6B6259;
+}
+
+/* ---------- vids: feedback video cards ---------- */
+
+.mac-vids {
+    background: #FDF6E9;
+    border-bottom: 3px solid #1C1814;
+    padding: 64px 0 72px;
+    overflow: hidden;
+}
+
+.mac-vids .mac-vid {
+    flex: 0 0 auto;
+    width: 340px;
+    background: #FFFFFF;
+    border: 2px solid #1C1814;
+    box-shadow: 5px 5px 0 rgba(28, 24, 20, 0.85);
+    padding: 8px 8px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.mac-vids .mac-vid:nth-child(2n)   { transform: rotate(1.1deg); }
+.mac-vids .mac-vid:nth-child(2n+1) { transform: rotate(-1.1deg); }
+.mac-vids .mac-vid:hover {
+    transform: rotate(0deg) translateY(-6px);
+    box-shadow: 8px 10px 0 rgba(28, 24, 20, 0.85);
+    z-index: 2;
+}
+
+.mac-vids .mac-vid-frame {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border: 1.5px solid rgba(28, 24, 20, 0.25);
+    background: #1C1814;
+}
+
+.mac-vids .mac-vid-frame .cd-vid-play {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.mac-vids .mac-vid-frame img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    transition: transform 0.4s ease;
+}
+.mac-vids .mac-vid:hover .mac-vid-frame img { transform: scale(1.06); }
+
+.mac-vids .mac-vid-frame iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.mac-vids .mac-vid-frame .mac-vid-pin {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(28, 24, 20, 0.18);
+    transition: background 0.2s ease;
+}
+.mac-vids .cd-vid-play:hover .mac-vid-pin { background: rgba(28, 24, 20, 0.05); }
+
+.mac-vids .mac-vid-frame .mac-vid-pin span {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: #D97706;
+    border: 2px solid #1C1814;
+    box-shadow: 3px 3px 0 rgba(28, 24, 20, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    transition: transform 0.15s ease;
+}
+.mac-vids .cd-vid-play:hover .mac-vid-pin span { transform: scale(1.1); }
+.mac-vids .mac-vid-frame .mac-vid-pin svg { width: 24px; height: 24px; margin-left: 3px; }
+
+.mac-vids .mac-vid-meta {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: 'Inter', sans-serif;
+    padding: 10px 6px 12px;
+}
+.mac-vids .mac-vid-meta .mac-vid-title { font-weight: 700; font-size: 0.95rem; color: #1C1814; }
+.mac-vids .mac-vid-meta .mac-vid-dur { font-size: 0.8rem; color: #6B6259; white-space: nowrap; }
+
+/* ---------- responsive ---------- */
+
+@media (max-width: 640px) {
+    .mac-moments, .mac-notes, .mac-vids { padding: 44px 0 52px; }
+    .mac-shell .mac-strip { gap: 18px; padding: 20px 18px 26px; }
+    .mac-moments .mac-moment img { height: 170px; }
+    .mac-notes .mac-note { width: 260px; padding: 18px 16px 14px; }
+    .mac-vids .mac-vid { width: 280px; }
+    .mac-shell .mac-arrow { width: 42px; height: 42px; }
+    .mac-shell .mac-arrow.prev { left: 8px; }
+    .mac-shell .mac-arrow.next { right: 8px; }
+}
