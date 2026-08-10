@@ -647,6 +647,20 @@ class CourseGenerator {
     }
 
     /**
+     * India 1-on-1 classes per month for a course, read from the config's
+     * display.classesPerMonthOverrides. Every 1-on-1 plan runs 4 a month
+     * (1 a week) since 2026-08-10; a plan with no override runs the default
+     * 8 (2 a week). Schedule copy keys off THIS, never off the subject, so
+     * restoring a premium schedule in the config flips the copy by itself.
+     */
+    indiaPersonalClassesPerMonth(slug) {
+        const config = PRICING.load();
+        const overrides = (config.display && config.display.classesPerMonthOverrides) || {};
+        return overrides[this.priceSubjectFor(slug) + '.india.personal'] ||
+            (config.display && config.display.classesPerMonth) || 8;
+    }
+
+    /**
      * Which price set a course belongs to. Explicit overrides in the config win,
      * so a course can be repriced by adding one line to pricing.config.jsonc
      * rather than by editing this file.
@@ -824,12 +838,12 @@ class CourseGenerator {
             {
                 "@type": "Offer",
                 "name": "Personalized 1-on-1",
-                // INR offer, so it describes the India schedule: 1 private
-                // class a week since 2026-08-10 — except the premium agents
-                // courses, which run 2 a week in every region.
-                "description": this.isPremiumAgentsCourse(meta.slug)
-                    ? "Weekly two private sessions with a dedicated mentor"
-                    : "One private session a week (four a month) with a dedicated mentor",
+                // INR offer, so it describes the India schedule, read from
+                // display.classesPerMonthOverrides (4 a month on every 1-on-1
+                // plan since 2026-08-10; 8 means two a week).
+                "description": this.indiaPersonalClassesPerMonth(meta.slug) === 4
+                    ? "One private session a week (four a month) with a dedicated mentor"
+                    : "Weekly two private sessions with a dedicated mentor",
                 "price": tierPrices.personal,
                 "priceCurrency": "INR",
                 "availability": "https://schema.org/InStock",
@@ -1141,9 +1155,10 @@ class CourseGenerator {
                 '<div class="enrollment-options" style="grid-template-columns:minmax(280px,380px);justify-content:center;">');
             html = html.replace('<p>Choose your plan and start your journey into the future of technology today.</p>',
                 '<p>This course runs as 1-on-1 private mentorship only: ' +
-                (this.isPremiumAgentsCourse(meta.slug)
-                    ? 'two private classes a week'
-                    : 'one private class a week') +
+                (this.indiaPersonalClassesPerMonth(meta.slug) === 4
+                    ? '<span data-india-only="true">one private class a week</span>' +
+                      '<span data-intl-only="true" hidden>two private classes a week</span>'
+                    : 'two private classes a week') +
                 ', a pace set to you, and a dedicated mentor on your screen.</p>');
         } else {
             html = html.replace(/[ \t]*<!-- TIER:(?:GROUP|MINIBATCH|INTL_GROUP) (?:START|END) -->\r?\n/g, '');
@@ -1156,16 +1171,16 @@ class CourseGenerator {
         html = html.replace(/{{PRICE_GROUP}}/g, tierP.groupDisplay);
         html = html.replace(/{{PRICE_MINIBATCH}}/g, tierP.miniBatchDisplay);
         html = html.replace(/{{PRICE_PERSONAL}}/g, tierP.personalDisplay);
-        // The 1-on-1 schedule line. Standard courses run the India schedule
-        // (1 private class a week, 4 a month, since 2026-08-10) as the static
-        // default, with the international schedule (2 a week) revealed to
-        // visitors abroad. The premium agents courses run 2 a week for
-        // everyone, in every region.
+        // The 1-on-1 schedule line, read from the config's
+        // classesPerMonthOverrides: a 4-a-month India plan ships the India
+        // schedule as the static default with the international 2-a-week
+        // schedule revealed abroad; an 8-a-month plan runs 2 a week for
+        // every region and needs no gating.
         html = html.replace(/{{PERSONAL_SCHEDULE}}/g,
-            this.isPremiumAgentsCourse(meta.slug)
-                ? '2 Private Classes per Week'
-                : '<span data-india-only="true">1 Private Class per Week &middot; 4 a Month</span>' +
-                  '<span data-intl-only="true" hidden>2 Private Classes per Week</span>');
+            this.indiaPersonalClassesPerMonth(meta.slug) === 4
+                ? '<span data-india-only="true">1 Private Class per Week &middot; 4 a Month</span>' +
+                  '<span data-intl-only="true" hidden>2 Private Classes per Week</span>'
+                : '2 Private Classes per Week');
         // Lifetime access was retired on 2026-07-31. The placeholder is still
         // blanked rather than left unreplaced, so a stale {{PRICE_LIFETIME}} in
         // any template can never reach a published page as literal text.

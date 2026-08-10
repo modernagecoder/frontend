@@ -441,7 +441,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Codex & Claude Code for Teens: AI Coding Agents Course
 
 - Link: https://learn.modernagecoders.com/courses/codex-and-claude-code-ai-coding-agents-course-for-teens
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹9,999/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 classes (12 weeks · 2 classes/week)
 - Level: Beginner-friendly (ages 13-18) to confident AI-agent builder
@@ -489,7 +489,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Codex & Claude Code: AI Coding Agents for Professionals
 
 - Link: https://learn.modernagecoders.com/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹9,999/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 classes (12 weeks · 2 classes/week)
 - Level: Beginner to advanced, for working professionals, career switchers & developers

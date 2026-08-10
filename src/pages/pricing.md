@@ -10,7 +10,7 @@ source: src/pages/pricing.html
 
 No hidden fees, no surprises. Pick a plan that works for you. Whether you prefer learning in a group or need personalized attention, we've got you covered.
 
-Modern Age Coders keeps pricing simple: live group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,999, and fully personalised one-to-one classes are ₹4,999 a month for one private class a week (4 a month); plans outside India are shown in local currency. The premium AI agents courses (Codex + Claude Code, and AI Agents with Copilot Studio) run 1-on-1 at their own premium rate. Every plan is live, covers coding or maths for ages 6 to 67, and starts with a free demo before you pay.
+Modern Age Coders keeps pricing simple: live group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,999, and fully personalised one-to-one classes are ₹4,999 a month for one private class a week (4 a month); plans outside India are shown in local currency. The Copilot Studio AI agents courses are taught 1-on-1 only. Every plan is live, covers coding or maths for ages 6 to 67, and starts with a free demo before you pay.
 
 Rated 4.9 across 547 Google reviews
 

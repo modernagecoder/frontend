@@ -33,7 +33,7 @@ const GROUPS = [
         ['maths.india.miniBatch', 'Mini Batch (3–4 students)'],
         ['maths.india.personal', '1-on-1 personal']
     ]],
-    ['India — Premium Codex/Claude courses (₹ per month)', [
+    ['India — AI agents courses: Codex/Claude, Copilot Studio (₹ per month)', [
         ['agents.india.group', 'Group classes'],
         ['agents.india.miniBatch', 'Mini Batch (3–4 students)'],
         ['agents.india.personal', '1-on-1 personal']

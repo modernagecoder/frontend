@@ -101,7 +101,9 @@ const LEGACY_INTERNATIONAL = {
 const LEGACY_INDIA = {
     coding: { '1499': 'group', '2499': 'miniBatch', '4999': 'personal', '7500': 'personal' },
     maths:  { '1499': 'group', '2499': 'miniBatch', '4999': 'personal', '8500': 'personal' },
-    agents: { '2499': 'group', '4999': 'miniBatch', '9999': 'personal' },
+    // agents 4999-as-miniBatch removed 2026-08-10: ₹4,999 is now the CURRENT
+    // agents 1-on-1 price, so the stale mapping would mislabel a live figure.
+    agents: { '2499': 'group', '9999': 'personal' },
     school: { '1999': 'group', '2999': 'personal' }
 };
 

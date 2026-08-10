@@ -88,8 +88,8 @@
           "indiaOnly": true
         },
         "personal": {
-          "amount": 9999,
-          "display": "₹9,999/month"
+          "amount": 4999,
+          "display": "₹4,999/month"
         }
       }
     },
@@ -106,8 +106,8 @@
           "indiaOnly": true
         },
         "personal": {
-          "amount": 9999,
-          "display": "₹9,999/month"
+          "amount": 4999,
+          "display": "₹4,999/month"
         }
       }
     },
@@ -995,8 +995,8 @@
           "indiaOnly": true
         },
         "personal": {
-          "amount": 9999,
-          "display": "₹9,999/month"
+          "amount": 4999,
+          "display": "₹4,999/month"
         }
       }
     },
@@ -1012,8 +1012,8 @@
           "indiaOnly": true
         },
         "personal": {
-          "amount": 9999,
-          "display": "₹9,999/month"
+          "amount": 4999,
+          "display": "₹4,999/month"
         }
       }
     },
@@ -1029,8 +1029,8 @@
           "indiaOnly": true
         },
         "personal": {
-          "amount": 9999,
-          "display": "₹9,999/month"
+          "amount": 4999,
+          "display": "₹4,999/month"
         }
       }
     }

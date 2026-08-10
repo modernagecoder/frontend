@@ -35,7 +35,11 @@ const config = cfgLib.load({ fresh: true });
 const LEGACY_INDIA = {
     coding: { 2499: 'miniBatch', 4999: 'personal', 1499: 'group', 7500: 'personal', 8500: 'personal' },
     maths: { 2499: 'miniBatch', 4999: 'personal', 1499: 'group', 7500: 'personal', 8500: 'personal' },
-    agents: { 2499: 'group', 4999: 'miniBatch', 9999: 'personal' },
+    // agents 4999-as-miniBatch is deliberately GONE: since 2026-08-10 ₹4,999
+    // is the CURRENT agents 1-on-1 price, and the old mapping would rewrite a
+    // live price to the mini-batch figure. 9999 was the premium 1-on-1
+    // (2026-07-22 → 2026-08-10).
+    agents: { 2499: 'group', 9999: 'personal' },
     school: {}
 };
 

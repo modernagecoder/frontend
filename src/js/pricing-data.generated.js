@@ -40,7 +40,7 @@ window.MAC_PRICING = {
       "india": {
         "group": 1499,
         "miniBatch": 2999,
-        "personal": 9999
+        "personal": 4999
       },
       "international": {
         "group": 100,
@@ -88,7 +88,8 @@ window.MAC_PRICING = {
     "classesPerMonth": 8,
     "classesPerMonthOverrides": {
       "coding.india.personal": 4,
-      "maths.india.personal": 4
+      "maths.india.personal": 4,
+      "agents.india.personal": 4
     },
     "hoursPerClass": 1
   }

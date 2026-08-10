@@ -292,7 +292,7 @@ Yes! Upon completing any course, you'll receive a certificate of completion. But
 
 We get it - not everything clicks for everyone. That's why we offer a trial class before you commit. If after a few sessions your child isn't enjoying it, we'll work with you to find a better fit or discuss refund options. Our goal is happy learners, not trapped customers.
 
-Group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,999, and fully personalised 1-on-1 is ₹4,999 with one private class a week (4 a month), with plans outside India priced in local currency. One exception: the premium AI agents courses (Codex + Claude Code, and AI Agents with Microsoft Copilot Studio) have a ₹9,999 per month 1-on-1 plan, and the Copilot Studio courses are taught 1-on-1 only. Every course starts with a free demo class before you pay.
+Group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,999, and fully personalised 1-on-1 is ₹4,999 with one private class a week (4 a month), with plans outside India priced in local currency. The AI agents courses with Microsoft Copilot Studio are taught 1-on-1 only. Every course starts with a free demo class before you pay.
 
 Both are live and taught by an expert mentor. Group classes in small batches of 5 to 8 are the most affordable and add peer learning, a mini batch of 3 to 4 gives near one-to-one attention, and 1-on-1 gives a fully personalised pace. Start with a free demo, and you can change your plan later.
 

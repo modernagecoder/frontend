@@ -170,7 +170,7 @@ A 1-year AI and Machine Learning program for teens: master Python, maths, ML alg
 
 ### [AI Agents with Microsoft Copilot Studio for Teens](https://learn.modernagecoders.com/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens/)
 
-*Level:* Beginner (ages 13-18; no coding experience needed) · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹9,999/month
+*Level:* Beginner (ages 13-18; no coding experience needed) · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Build real AI agents with Microsoft Copilot Studio in 24 live 1-on-1 online classes for ages 13-18: knowledge grounding, topics, connectors, agent flows, autonomous triggers and a published capstone agent. No heavy coding needed.
 
@@ -200,7 +200,7 @@ CBSE Computational Thinking & AI for Classes 9-12: Python, Machine Learning and 
 
 ### [Codex & Claude Code for Teens: AI Coding Agents Course](https://learn.modernagecoders.com/courses/codex-and-claude-code-ai-coding-agents-course-for-teens/)
 
-*Level:* Beginner-friendly (ages 13-18) to confident AI-agent builder · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹9,999/month
+*Level:* Beginner-friendly (ages 13-18) to confident AI-agent builder · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Live online Codex + Claude Code course for teens 13-18. 24 mentor-led classes: install the CLIs, plan mode, MCP, subagents, then ship a real app. Free demo class.
 
@@ -322,7 +322,7 @@ A 12-month AI and Machine Learning program: master Python, mathematics, classica
 
 ### [AI Agents with Microsoft Copilot Studio for College Students](https://learn.modernagecoders.com/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students/)
 
-*Level:* Intermediate (college students and early-career, ages 18+; no prior agent experience needed) · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹9,999/month
+*Level:* Intermediate (college students and early-career, ages 18+; no prior agent experience needed) · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Build business-grade AI agents in Microsoft Copilot Studio: 24 live 1-on-1 online classes on knowledge grounding, connectors, agent flows, MCP, autonomous triggers, multi-agent orchestration and a recruiter-ready published capstone.
 
@@ -712,7 +712,7 @@ A 6-month design course to master Canva, photo and video editing and AI tools, c
 
 ### [Codex & Claude Code: AI Coding Agents for Professionals](https://learn.modernagecoders.com/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals/)
 
-*Level:* Beginner to advanced, for working professionals, career switchers & developers · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹9,999/month
+*Level:* Beginner to advanced, for working professionals, career switchers & developers · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Live online Codex + Claude Code masterclass for professionals. 24 mentor-led classes: CLIs, MCP, subagents, hooks, both SDKs and a production capstone.
 
@@ -724,7 +724,7 @@ Class 11 & 12 Computer Science for CBSE (Python, SQL) and ICSE/ISC (Java, OOP): 
 
 ### [Copilot Studio Agent Masterclass for Professionals](https://learn.modernagecoders.com/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals/)
 
-*Level:* Intermediate to advanced (working professionals; no prior agent experience assumed, business software fluency expected) · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹9,999/month
+*Level:* Intermediate to advanced (working professionals; no prior agent experience assumed, business software fluency expected) · *Duration:* 24 classes (12 weeks · 2 classes/week) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Ship production AI agents in Microsoft Copilot Studio: 24 live 1-on-1 online classes for working professionals on enterprise grounding, autonomous agents, multi-agent A2A, governance and ROI.
 

@@ -103,8 +103,8 @@ Owner's decision, 2026-08-01: **flat pricing.**
 - Maths follows the coding prices on every tier; the old ₹8,500 maths
   1-on-1 exception ended 2026-08-10. India 1-on-1 runs 1 class a week
   (4 a month) — see display.classesPerMonthOverrides in the config.
-- The premium AI-agents courses (Codex + Claude Code, Copilot Studio) run
-  1-on-1 at ₹9,999 via their own rows in the config — put bigger numbers
+- The AI-agents courses (Codex + Claude Code, Copilot Studio) currently
+  cost the same as every other course, but keep their own rows in the config — put bigger numbers
   there and premium pricing is back on without touching anything else.
 - School bootcamps and holiday camps have their own one-off rows.
 

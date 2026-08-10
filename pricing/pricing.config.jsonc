@@ -44,12 +44,13 @@
       "international": { "group": 100,  "miniBatch": null, "personal": 150 }
     },
 
-    // The premium AI agents courses (Codex + Claude Code, and AI Agents with
-    // Copilot Studio — see courseOverrides below). 1-on-1 runs at a premium;
-    // the Copilot Studio courses are sold 1-on-1 ONLY (their pages hide the
-    // Group and Mini Batch plans, so those two numbers never show there).
+    // The AI agents courses (Codex + Claude Code, and AI Agents with Copilot
+    // Studio — see courseOverrides below). Priced the same as coding since
+    // 2026-08-10; raise these rows alone to restore a premium. The Copilot
+    // Studio courses are sold 1-on-1 ONLY (their pages hide the Group and
+    // Mini Batch plans, so those two numbers never show there).
     "agents": {
-      "india":         { "group": 1499, "miniBatch": 2999, "personal": 9999 },
+      "india":         { "group": 1499, "miniBatch": 2999, "personal": 4999 },
       "international": { "group": 100,  "miniBatch": null, "personal": 150 }
     },
 
@@ -89,7 +90,7 @@
     // schedule are listed in the overrides by full subject.region.tier key:
     // the India 1-on-1 plan runs 1 class a week (4 a month) since 2026-08-10.
     "classesPerMonth": 8,
-    "classesPerMonthOverrides": { "coding.india.personal": 4, "maths.india.personal": 4 },
+    "classesPerMonthOverrides": { "coding.india.personal": 4, "maths.india.personal": 4, "agents.india.personal": 4 },
     "hoursPerClass": 1
   },
 

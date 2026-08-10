@@ -20,9 +20,9 @@ const FIELDS = [
     ['maths.india.group', 'India maths — Group'],
     ['maths.india.miniBatch', 'India maths — Mini Batch'],
     ['maths.india.personal', 'India maths — 1-on-1'],
-    ['agents.india.group', 'Premium agents (Codex/Claude, Copilot Studio) — Group (India)'],
-    ['agents.india.miniBatch', 'Premium agents (Codex/Claude, Copilot Studio) — Mini Batch (India)'],
-    ['agents.india.personal', 'Premium agents (Codex/Claude, Copilot Studio) — 1-on-1 (India)'],
+    ['agents.india.group', 'AI agents (Codex/Claude, Copilot Studio) — Group (India)'],
+    ['agents.india.miniBatch', 'AI agents (Codex/Claude, Copilot Studio) — Mini Batch (India)'],
+    ['agents.india.personal', 'AI agents (Codex/Claude, Copilot Studio) — 1-on-1 (India)'],
     ['school.india.group', 'School bootcamp — Group (India)'],
     ['school.india.personal', 'School bootcamp — 1-on-1 (India)'],
     ['camps.india.oneTime', 'Holiday camp — one payment (India)'],
@@ -86,10 +86,11 @@ function render(v) {
       "international": { "group": ${num(v['intl.group'])},  "miniBatch": null, "personal": ${num(v['intl.personal'])} }
     },
 
-    // The premium AI agents courses (Codex + Claude Code, and AI Agents with
-    // Copilot Studio — see courseOverrides below). 1-on-1 runs at a premium;
-    // the Copilot Studio courses are sold 1-on-1 ONLY (their pages hide the
-    // Group and Mini Batch plans, so those two numbers never show there).
+    // The AI agents courses (Codex + Claude Code, and AI Agents with Copilot
+    // Studio — see courseOverrides below). Priced the same as coding since
+    // 2026-08-10; raise these rows alone to restore a premium. The Copilot
+    // Studio courses are sold 1-on-1 ONLY (their pages hide the Group and
+    // Mini Batch plans, so those two numbers never show there).
     "agents": {
       "india":         { "group": ${num(v['agents.india.group'])}, "miniBatch": ${num(v['agents.india.miniBatch'])}, "personal": ${num(v['agents.india.personal'])} },
       "international": { "group": ${num(v['intl.group'])},  "miniBatch": null, "personal": ${num(v['intl.personal'])} }
@@ -131,7 +132,7 @@ function render(v) {
     // schedule are listed in the overrides by full subject.region.tier key:
     // the India 1-on-1 plan runs 1 class a week (4 a month) since 2026-08-10.
     "classesPerMonth": 8,
-    "classesPerMonthOverrides": { "coding.india.personal": 4, "maths.india.personal": 4 },
+    "classesPerMonthOverrides": { "coding.india.personal": 4, "maths.india.personal": 4, "agents.india.personal": 4 },
     "hoursPerClass": 1
   },
 

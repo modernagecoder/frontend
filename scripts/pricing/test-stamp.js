@@ -103,13 +103,14 @@ test('per-class price is recalculated from the monthly price', function () {
 });
 
 // classesPerMonth (8) fits the group/mini-batch schedule of 2 classes a week.
-// The India 1-on-1 plan runs 1 class a week (4 a month) since 2026-08-10 and
-// carries that in display.classesPerMonthOverrides, keyed by the full anchor.
+// Every India 1-on-1 plan (coding, maths, agents) runs 1 class a week (4 a
+// month) since 2026-08-10 and carries that in display.classesPerMonthOverrides,
+// keyed by the full anchor.
 test('per-class derivation honours per-plan schedule overrides', function () {
     const c = stamp('<span data-price="coding.india.personal" data-price-derive="perClass">x</span>');
     assert.ok(c.html.indexOf('>₹1,250<') !== -1, '4999/4 rounds to 1250, got: ' + c.html);
     const a = stamp('<span data-price="agents.india.personal" data-price-derive="perClass">x</span>');
-    assert.ok(a.html.indexOf('>₹1,250<') !== -1, 'agents run the default 8: 9999/8 rounds to 1250, got: ' + a.html);
+    assert.ok(a.html.indexOf('>₹1,250<') !== -1, 'agents 1-on-1 too: 4999/4 is 1250, got: ' + a.html);
     const m = stamp('<span data-price="maths.international.personal" data-price-derive="perClass">x</span>');
     assert.ok(m.html.indexOf('>$18.75<') !== -1, 'international 1-on-1 keeps 8: 150/8 is 18.75, got: ' + m.html);
 });

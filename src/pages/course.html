@@ -193,7 +193,7 @@
           "name": "How much do the courses cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,999, and fully personalised 1-on-1 is ₹4,999 with one private class a week (4 a month), with plans outside India priced in local currency. One exception: the premium AI agents courses (Codex + Claude Code, and AI Agents with Microsoft Copilot Studio) have a ₹9,999 per month 1-on-1 plan, and the Copilot Studio courses are taught 1-on-1 only. Every course starts with a free demo class before you pay."
+            "text": "Group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,999, and fully personalised 1-on-1 is ₹4,999 with one private class a week (4 a month), with plans outside India priced in local currency. The AI agents courses with Microsoft Copilot Studio are taught 1-on-1 only. Every course starts with a free demo class before you pay."
           }
         },
         {
@@ -1015,7 +1015,7 @@
                     </svg>
                 </button>
                 <div class="faq-answer">
-                    <p>Group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,999, and fully personalised 1-on-1 is ₹4,999 with one private class a week (4 a month), with plans outside India priced in local currency. One exception: the premium AI agents courses (Codex + Claude Code, and AI Agents with Microsoft Copilot Studio) have a ₹9,999 per month 1-on-1 plan, and the Copilot Studio courses are taught 1-on-1 only. Every course starts with a free demo class before you pay.</p>
+                    <p>Group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,999, and fully personalised 1-on-1 is ₹4,999 with one private class a week (4 a month), with plans outside India priced in local currency. The AI agents courses with Microsoft Copilot Studio are taught 1-on-1 only. Every course starts with a free demo class before you pay.</p>
                 </div>
             </div>
             <div class="faq-item">
@@ -2291,7 +2291,7 @@
                 const isMathsCourse = /math|calculus|algebra/i.test(course.templateUrl || '');
                 const isAgentsCourse = /codex-and-claude-code/i.test(course.templateUrl || '');
                 // The Copilot Studio agent-building courses are sold 1-on-1 only,
-                // so their cards quote the 1-on-1 rate (agents tier: ₹9,999 / $150)
+                // so their cards quote the agents-tier 1-on-1 rate from the config
                 // — there is no ₹1,499 group plan for them to "start" at.
                 const isOneOnOneOnly = /copilot-studio/i.test(course.templateUrl || '');
                 const intlStart = '$100';   // flat model: every course, one USD price list
@@ -2857,7 +2857,7 @@
     <script src="/js/unified-mobile-nav.js"></script>
     <script src="/js/keyboard-navigation.js"></script>
     <script src="/js/tab-accessibility.js"></script>
-    <script src="/js/pricing-data.generated.js?v=02e70192c5"></script>
+    <script src="/js/pricing-data.generated.js?v=8206dedc88"></script>
     <script src="/js/international-pricing.js?v=f7655b1c30"></script>
 
 

@@ -38,7 +38,7 @@
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,999/month",
-      "personal": "₹9,999/month"
+      "personal": "₹4,999/month"
     },
     "duration": "24 classes (12 weeks · 2 classes/week)",
     "level": "Beginner to advanced, for working professionals, career switchers & developers",
@@ -594,7 +594,7 @@
     },
     {
       "question": "How much does the Codex + Claude Code masterclass cost?",
-      "answer": "Three plans are available: group classes at ₹1,499 per month, a mini batch of 3 to 4 students (India only) at ₹2,999 per month, and personalized 1-on-1 mentorship at ₹9,999 per month. Students outside India pay a price set for their own country, shown on this page in their local currency. Billing is monthly, cancel anytime, and you start with a free demo class. The required Claude and ChatGPT subscriptions are purchased separately."
+      "answer": "Three plans are available: group classes at ₹1,499 per month, a mini batch of 3 to 4 students (India only) at ₹2,999 per month, and personalized 1-on-1 mentorship at ₹4,999 per month. Students outside India pay a price set for their own country, shown on this page in their local currency. Billing is monthly, cancel anytime, and you start with a free demo class. The required Claude and ChatGPT subscriptions are purchased separately."
     },
     {
       "question": "Why is this masterclass priced above your other courses?",
