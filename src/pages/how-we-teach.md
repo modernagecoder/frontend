@@ -1,18 +1,18 @@
 ---
 title: "How We Teach — Watch Our Free Coding & Maths Demo Library | Modern Age Coders"
-description: "Watch every Modern Age Coders teaching demo, free. Our open methodology library shows exactly how we teach coding (Python, AI, web design) and maths (fractions, algebra, calculus) — real class recordings, organised by topic and age. No sign-up, no payment."
+description: "Watch every Modern Age Coders teaching demo, free. Our open methodology library shows exactly how we teach coding (Python, AI, web design) and maths (fractions, algebra, calculus) — real class recordings, organised by topic and age. No payment, just a quick Google sign-in."
 canonical: https://learn.modernagecoders.com/how-we-teach
 source: src/pages/how-we-teach.html
 ---
-> Watch every Modern Age Coders teaching demo, free. Our open methodology library shows exactly how we teach coding (Python, AI, web design) and maths (fractions, algebra, calculus) — real class recordings, organised by topic and age. No sign-up, no payment.
+> Watch every Modern Age Coders teaching demo, free. Our open methodology library shows exactly how we teach coding (Python, AI, web design) and maths (fractions, algebra, calculus) — real class recordings, organised by topic and age. No payment, just a quick Google sign-in.
 
 show meThe teaching journal · open methodology library
 
 # Watch us teach *before* you decide.
 
-Most classes ask you to pay first and find out later. We do the opposite. Our entire teaching methodology — every coding and maths lesson — is open for you to watch. Free. No sign-up. Just press play.
+Most classes ask you to pay first and find out later. We do the opposite. Our entire teaching methodology — every coding and maths lesson — is open for you to watch. Free, with a quick Google sign-in. Just press play.
 
-[Open the demo library](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-6a1888029a4f81888c408ab9)What's inside ↓free to watch — no signup!******lesson_01.py — live
+[Kids coding classes (6-12)](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-kids-Coding-6a3a27597efbc77440b2c68f)[Teens, adults & maths (13+)](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-6a1888029a4f81888c408ab9)What's inside ↓free to watch · quick google sign-in!******lesson_01.py — live
 
 ```
 # make the computer say hi to YOU
@@ -64,9 +64,17 @@ Every demo class we record — from a six-year-old's first Python loop to a teen
 - **Real classroom recordings.** Not actors, not scripts.
 - **Coding & maths together.** One library, both subjects.
 - **Sorted by topic & age.** Find what fits your child fast.
-- **Truly free.** No sign-up, no card, no email.
+- **English and Hindi.** Some classes are in English, some in Hindi, so everyone can follow at their own pace.
+- **Updated frequently.** New recordings keep the library current with our latest classes and teaching style.
+- **Watch start to finish.** Classes are interactive and each moment builds on the last, so do not skip ahead. Watch it like you are in the class.
+- **Truly free.** No payment, no card. Just sign in with Google.
 
-[Open the demo library ↗](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-6a1888029a4f81888c408ab9)opens in a new tab ↗📚 hundredsmore
+1. Open the library on a **computer or laptop** for the smoothest, clearest experience.
+2. Click a button below, then choose **"Watch Recording"** on the page that opens.
+3. **Sign in with Google** and give it a few seconds.
+4. The recording dashboard opens and you can **see all the recordings**.
+
+[Kids coding library (ages 6-12) ↗](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-kids-Coding-6a3a27597efbc77440b2c68f)[Teens & adults library (13+) ↗](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-6a1888029a4f81888c408ab9)opens in a new tab ↗📚 hundredsmore
 
 ### Can't find a lesson you want? *Just ask us.*
 
@@ -152,7 +160,7 @@ Book a free, no-obligation demo class and let your child experience this teachin
 
 ## Questions, answered
 
-Our complete teaching methodology library is open and free to watch. The big **"Open the demo library"** button on this page takes you straight there — no sign-up, no payment. You'll see real class recordings across coding and maths, organised by topic, level and age.Yes. Every lesson in the open library is an actual Modern Age Coders live session — not a scripted promo or an actor. We share them so you can judge our real teaching style and quality before you ever pay.Same philosophy, different subject. Whether it's a Python loop or a quadratic equation, we start from intuition, build understanding step by step, and don't move on until it truly clicks. Use the Coding ⟷ Maths switch at the top to flip this page's vibe between the two.Yes — every demo in the library is free to watch. We believe parents and students deserve to see how we actually teach before committing. No card, no signup, no email. Just press play.Absolutely. After watching how we teach, book a free demo class — a live, no-obligation session with one of our mentors. Just hit "Book a Free Demo" anywhere on this page.
+Our complete teaching methodology is open and free to watch, split into two libraries: **kids coding (ages 6 to 12)** and **teens & up, which also covers maths**. The buttons on this page take you straight there. No payment, just a quick Google sign-in. Best watched on a **computer or laptop** for a smooth, clear experience: click a library button, choose **Watch Recording**, sign in with Google, and in a few seconds the recording dashboard opens where you can see all recordings.Yes. Every lesson in the open library is an actual Modern Age Coders live session — not a scripted promo or an actor. We share them so you can judge our real teaching style and quality before you ever pay.Some classes are in **English** and some are in **Hindi**, so every family can follow comfortably at their own pace. The libraries are **updated frequently**, so you are always watching our latest classes and current teaching style. One tip: **watch a class end to end, like you are in it.** Sessions are interactive and each moment builds on the last, so skipping ahead breaks the thread.Same philosophy, different subject. Whether it's a Python loop or a quadratic equation, we start from intuition, build understanding step by step, and don't move on until it truly clicks. Use the Coding ⟷ Maths switch at the top to flip this page's vibe between the two.Yes — every demo in the library is free to watch. We believe parents and students deserve to see how we actually teach before committing. No card, no payment. Just a quick Google sign-in, then press play.Absolutely. After watching how we teach, book a free demo class — a live, no-obligation session with one of our mentors. Just hit "Book a Free Demo" anywhere on this page.
 
 ---
 

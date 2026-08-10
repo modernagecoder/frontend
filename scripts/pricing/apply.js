@@ -338,7 +338,7 @@ function syncLlmsTxt(config) {
     const indiaTiers = [];
     if (india.group != null) indiaTiers.push('group batches of 4-8 students at ' + inr(india.group) + ' per month (two live classes per week)');
     if (india.miniBatch != null) indiaTiers.push('mini batches of 3-4 students at ' + inr(india.miniBatch) + ' per month');
-    if (india.personal != null) indiaTiers.push('one-on-one classes at ' + inr(india.personal) + ' per month');
+    if (india.personal != null) indiaTiers.push('one-on-one classes at ' + inr(india.personal) + ' per month (one class a week, four classes a month)');
 
     // The premium AI agents courses (Codex + Claude Code, and AI Agents with
     // Microsoft Copilot Studio) price from the agents row. Mention them only
@@ -350,13 +350,21 @@ function syncLlmsTxt(config) {
           'and the Copilot Studio courses are taught 1-on-1 only.'
         : '';
 
+    // Maths gets its own sentence only while its 1-on-1 rate actually differs
+    // from the standard one — same rule as agentsNote, for the same reason: the
+    // answer must never grow a phantom "exception" that equals the normal price.
+    const mathsNote = (config.plans.maths.india.personal != null &&
+        config.plans.maths.india.personal !== india.personal)
+        ? ' Maths 1-on-1 is ' + inr(config.plans.maths.india.personal) + ' per month.'
+        : '';
+
     // Spelled out, because this text is read aloud by assistants and quoted in
     // answers: "there are 3 tiers" reads like a database dump.
     const WORDS = ['no', 'one', 'two', 'three', 'four', 'five', 'six'];
     const count = WORDS[indiaTiers.length] || String(indiaTiers.length);
 
     const answer = 'A: In India there are ' + count + ' tiers, all billed monthly with no lock-in: ' +
-        indiaTiers.join(', ') + '. Maths 1-on-1 is ' + inr(config.plans.maths.india.personal) + ' per month.' +
+        indiaTiers.join(', ') + '.' + mathsNote +
         agentsNote + ' ' +
         'Outside India the pricing is a flat ' + usd(intl.group) + ' per month for group classes and ' +
         usd(intl.personal) + ' for one-on-one, in US dollars, for all courses. A free demo class is ' +

@@ -7,9 +7,14 @@
  *   node scripts/pricing/sweep-india.js            report only
  *   node scripts/pricing/sweep-india.js --write    apply
  *
- * Old → new, resolved per page/course subject:
- *   coding/maths: ₹2,499 miniBatch → ₹2,999 · ₹4,999 1-on-1 → ₹7,500 (maths ₹8,500)
- *   agents (now standard): ₹2,499 → ₹1,499 · ₹4,999 → ₹2,999 · ₹9,999 → ₹7,500
+ * Old → new, resolved per page/course subject (the arrows record history; the
+ * replacement value always comes from the live config):
+ *   2026-08-01: coding/maths ₹2,499 miniBatch → ₹2,999 · ₹4,999 1-on-1 → ₹7,500/₹8,500
+ *               agents ₹2,499 → group · ₹4,999 → miniBatch · ₹9,999 → personal
+ *   2026-08-10: coding/maths 1-on-1 ₹7,500/₹8,500 → ₹4,999. Either old figure
+ *               on either subject's page maps to that page's own personal rate
+ *               (cross-sell copy quotes the other subject's 1-on-1; both now
+ *               resolve to the same ₹4,999).
  *
  * A figure is only touched when it is unmistakably a monthly class price:
  * followed by /month, /mo, or "per month", or inside a "priceRange" schema
@@ -28,8 +33,8 @@ const ROOT = cfgLib.REPO_ROOT;
 const config = cfgLib.load({ fresh: true });
 
 const LEGACY_INDIA = {
-    coding: { 2499: 'miniBatch', 4999: 'personal', 1499: 'group' },
-    maths: { 2499: 'miniBatch', 4999: 'personal', 1499: 'group' },
+    coding: { 2499: 'miniBatch', 4999: 'personal', 1499: 'group', 7500: 'personal', 8500: 'personal' },
+    maths: { 2499: 'miniBatch', 4999: 'personal', 1499: 'group', 7500: 'personal', 8500: 'personal' },
     agents: { 2499: 'group', 4999: 'miniBatch', 9999: 'personal' },
     school: {}
 };

@@ -343,7 +343,7 @@ Honestly, not by much, which is exactly why we offer it. Understanding before pr
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract. Singapore-brand online programs alone run $100 to $300 a month without a live teacher.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. Singapore-brand online programs alone run $100 to $300 a month without a live teacher.
 
 Do you follow the actual Singapore MOE syllabus?
 

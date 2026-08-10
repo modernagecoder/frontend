@@ -193,7 +193,7 @@ An honest comparison
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | 8 live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real maker, with the Python road open |
+| Modern Age Coders | Live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real maker, with the Python road open |
 | Premium 1:1 platforms (Juni-style) | $200-$300 / month | Live 1-on-1, often 2-4 sessions monthly at 30-50 minutes, rotating instructors common | Families who want brand-name polish and can absorb the price |
 | Marketplace classes (Outschool-style) | $15-$25 / class | One-off or short-series group classes of varying quality; no continuity of mentor or curriculum | Sampling topics cheaply before committing anywhere |
 | Coding centers (Code Ninjas-style) | $175-$350 / month | Drop-in dojo floors with game-based curriculum and rotating guides, plus the drive | Children who focus better out of the house |
@@ -235,7 +235,7 @@ Two places: a genuine project portfolio (shipped work a transcript line can poin
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract, pause any month your homeschool calendar demands it.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract, pause any month your homeschool calendar demands it.
 
 Do you teach homeschool math too?
 

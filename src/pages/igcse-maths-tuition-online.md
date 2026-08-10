@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your child. Op
 
 [![IGCSE Mathematics Mastery course thumbnail](/images/igcse-maths.webp)Best fit  IGCSE Mathematics Mastery Cambridge and Edexcel taught syllabus-exact, with non-calculator fluency and mark-scheme craft built in. Core · Extended · 06068 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/igcse-mathematics-mastery)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
 
-Good IGCSE maths tuition is **syllabus-exact**: it knows whether your child sits Cambridge 0580/0980 or Edexcel International GCSE, whether they are entered for Core or Extended (the tier caps the possible grade), whether Additional Maths 0606 is in the picture, and which of their papers now ban the calculator. Then it teaches for understanding and trains past-paper technique on the real mark schemes. That is what we do: 8 live one-hour classes a month, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
+Good IGCSE maths tuition is **syllabus-exact**: it knows whether your child sits Cambridge 0580/0980 or Edexcel International GCSE, whether they are entered for Core or Extended (the tier caps the possible grade), whether Additional Maths 0606 is in the picture, and which of their papers now ban the calculator. Then it teaches for understanding and trains past-paper technique on the real mark schemes. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
 
 Why IGCSE maths needs IGCSE-specific help
 
@@ -294,7 +294,7 @@ Because practice repeats what the student already does, including the errors. A 
 
 What does it cost?
 
-Pricing is a flat $100 a month for group classes and $150 for 1-on-1, billed in US dollars. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract. IGCSE-specialist tutors bill $40 to $100 an hour for the same format.
+Pricing is a flat $100 a month for group classes and $150 for 1-on-1, billed in US dollars. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. IGCSE-specialist tutors bill $40 to $100 an hour for the same format.
 
 Do you also cover GCSE (the UK domestic exam)?
 

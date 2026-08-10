@@ -209,7 +209,7 @@ An honest comparison
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | 8 live one-hour classes with a dedicated mentor, concrete-first teaching | Rebuilding understanding and confidence, sustained progress |
+| Modern Age Coders | Live one-hour classes with a dedicated mentor, concrete-first teaching | Rebuilding understanding and confidence, sustained progress |
 | Mathnasium center | $300-$450 / month + enrollment fee | Drop-in worksheet floor with rotating instructors | Children who focus better out of the house |
 | Kumon | $150-$220 / subject / month | Daily worksheet packets, brief check-ins, no taught lessons | Building a drill habit and calculation speed |
 | Local private tutor | $35-$80 / hour | Quality varies; twice-weekly quickly costs $280-$640 a month | Short-term help when you have found a gem nearby |
@@ -243,7 +243,7 @@ One properly rebuilt idea: about four weeks at twice a week. A full catch-up arc
 
 What does it cost?
 
-The same transparent pricing as the rest of the year: Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no summer surcharge, cancel any month. Compare that with US summer math camps and intensives, which commonly run several hundred dollars a week.
+The same transparent pricing as the rest of the year: Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no summer surcharge, cancel any month. Compare that with US summer math camps and intensives, which commonly run several hundred dollars a week.
 
 Who teaches?
 

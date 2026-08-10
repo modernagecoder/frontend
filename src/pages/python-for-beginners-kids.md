@@ -153,7 +153,7 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time 
 - Flexible timing — you pick the slots
 - Every class recorded and shared with parents
 
-**₹7,500**/ month · 8 sessionsOption B
+**₹4,999**/ month · 4 sessionsOption B
 
 ### Live Small-Group Online Class
 

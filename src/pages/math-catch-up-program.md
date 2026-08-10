@@ -207,7 +207,7 @@ An honest comparison
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | 8 live one-hour classes with a dedicated mentor, concrete-first teaching | Rebuilding understanding and confidence, sustained progress |
+| Modern Age Coders | Live one-hour classes with a dedicated mentor, concrete-first teaching | Rebuilding understanding and confidence, sustained progress |
 | Mathnasium center | $300-$450 / month + enrollment fee | Drop-in worksheet floor with rotating instructors | Children who focus better out of the house |
 | Kumon | $150-$220 / subject / month | Daily worksheet packets, brief check-ins, no taught lessons | Building a drill habit and calculation speed |
 | Local private tutor | $35-$80 / hour | Quality varies; twice-weekly quickly costs $280-$640 a month | Short-term help when you have found a gem nearby |
@@ -245,7 +245,7 @@ After the diagnostic we will tell you which shape your child is: one term behind
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no packs, no long contracts sold on a worried evening. The diagnostic demo is free, no card needed.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no packs, no long contracts sold on a worried evening. The diagnostic demo is free, no card needed.
 
 Who teaches, and is it the same person throughout?
 

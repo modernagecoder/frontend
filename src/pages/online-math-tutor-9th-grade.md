@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your teen. Ope
 
 [![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery The grades 9-12 road: Algebra 1 through calculus readiness, with exam craft when it counts. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![Algebra Foundations Masterclass course thumbnail](/images/algebra-foundations.webp)  Algebra Foundations Masterclass For the ninth grader whose real gap is middle-school algebra: the base, rebuilt properly. Grades 7-98 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/algebra-foundations-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics For the ninth grader who finds class easy: AMC-style reasoning and the stretch that builds mathematicians. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
 
-Good 9th grade math tutoring does three things: **teaches Algebra 1 as a language** (equations as sentences, functions as machines, graphs as stories), **repairs the middle-school debt inline**, fractions, negatives and equation habits that the year silently assumes, and **respects the new stakes**, because this grade is the first one colleges see. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
+Good 9th grade math tutoring does three things: **teaches Algebra 1 as a language** (equations as sentences, functions as machines, graphs as stories), **repairs the middle-school debt inline**, fractions, negatives and equation habits that the year silently assumes, and **respects the new stakes**, because this grade is the first one colleges see. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
 
 Why ninth grade is different
 
@@ -207,7 +207,7 @@ An honest comparison
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | 8 live one-hour classes with a dedicated mentor, understanding-first teaching | Rebuilding understanding and confidence, sustained progress |
+| Modern Age Coders | Live one-hour classes with a dedicated mentor, understanding-first teaching | Rebuilding understanding and confidence, sustained progress |
 | Mathnasium center | $300-$450 / month + enrollment fee | Drop-in worksheet floor with rotating instructors | Children who focus better out of the house |
 | Kumon | $150-$220 / subject / month | Daily worksheet packets, brief check-ins, no taught lessons | Building a drill habit and calculation speed |
 | Local private tutor | $35-$80 / hour | Quality varies; twice-weekly quickly costs $280-$640 a month | Short-term help when you have found a gem nearby |
@@ -241,7 +241,7 @@ Privately, respectfully, and with fast wins: 1-on-1 means no audience, and the f
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract. US tutoring centers charge $300 to $450 a month for the same format.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. US tutoring centers charge $300 to $450 a month for the same format.
 
 Can you also stretch a strong ninth grader?
 

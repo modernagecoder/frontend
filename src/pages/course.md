@@ -32,6 +32,230 @@ Rated 4.9 across 547 Google reviews
 
 *Shivam Khemka, Founder of Modern Age Coders*
 
+📸 Straight from our camera roll
+
+## Real students. Real moments. Real joy.
+
+These are our actual student meetups. No stock photos, no filters. Swipe through and meet the community you'll be joining.
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-31.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the August 2026 student meetup](/images/moments/moment-34.webp)
+
+*Meetup · 2 Aug 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-16.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-20.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the August 2026 student meetup](/images/moments/moment-39.webp)
+
+*Meetup · 2 Aug 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-26.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-12.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the August 2026 student meetup](/images/moments/moment-37.webp)
+
+*Meetup · 2 Aug 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-29.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-07.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-05.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-33.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-22.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-21.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-01.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-10.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-19.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-04.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-32.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-08.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-13.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-25.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-28.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-11.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-06.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the August 2026 student meetup](/images/moments/moment-35.webp)
+
+*Meetup · 2 Aug 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-09.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the August 2026 student meetup](/images/moments/moment-36.webp)
+
+*Meetup · 2 Aug 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-17.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-15.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-14.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the August 2026 student meetup](/images/moments/moment-38.webp)
+
+*Meetup · 2 Aug 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-30.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-03.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-02.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-23.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-27.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-18.webp)
+
+*Meetup · 6 July 2026*
+
+![Modern Age Coders students and mentors at the July 2026 student meetup](/images/moments/moment-24.webp)
+
+*Meetup · 6 July 2026*
+
+[See our full Wall of Love →](/love)💛 Real families, real words
+
+## What families say
+
+Straight from the parents and students who learn with us. Rated 4.9 across 547 Google reviews.
+
+“Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class.”
+
+***Shradha Saraf**Parent of Mivaan*
+
+“I absolutely love it here! I made new friends and learned important valuable coding skills while having the fun of my life. It's not just coding here, it's outings, bonding and most importantly preparing you for your future. Definitely five stars.”
+
+***Yug Rathore**Student*
+
+“What stands out most is how excited my son is before every class—he looks forward to learning, problem-solving, and sharing what he's built. I've noticed a big boost in his confidence!”
+
+***Poonam Rathore**Parent*
+
+“Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease.”
+
+***Samriddha Mondal**Student*
+
+“Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.”
+
+***Sonu Goyal**Parent*
+
+“The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it.”
+
+***Ria Mukherjee**Parent*
+
+“Coding classes here make learning very interesting and conceptual. The teachers teach us in a very easy-to-understand and efficient manner.”
+
+***Arush Poddar**Student*
+
+“One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey and still continuing.”
+
+***Vansh Agarwal**Student*
+
+“I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding. They make every session engaging and insightful.”
+
+***Ritu Kedia**Parent*
+
+“My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it.”
+
+***Sonam Oswal**Parent of Dhairya*
+
+“Very good classes. Don't worry about coding—they teach the best, especially Shivam sir.”
+
+***Shaarav Wadhwa**Student*
+
+“Very good classes. Makes learning very easy and interactive.”
+
+***Vineeta Shyamsukha**Parent*
+
+[Read and write reviews on Google](https://g.page/r/Cff_QkHNaP9yEAE/review)🎬 Press play
+
+## Hear it from our students
+
+Real parents and students in their own words, on our public YouTube channel.
+
+Harnoor Kaur0:31Adishree0:59Muqeem0:48Ayushi0:51Aarya Shee0:53Sahreen1:00Pratik0:47[See the full Wall of Love →](/love)[Watch the playlist on YouTube](https://youtube.com/playlist?list=PLfTigabkzKdy4y52hmNOQRaL8gsc9lbU1)
+
 ## Why Students Love Learning With Us
 
 Real skills, real projects, real mentorship - not another boring course.
@@ -68,7 +292,7 @@ Yes! Upon completing any course, you'll receive a certificate of completion. But
 
 We get it - not everything clicks for everyone. That's why we offer a trial class before you commit. If after a few sessions your child isn't enjoying it, we'll work with you to find a better fit or discuss refund options. Our goal is happy learners, not trapped customers.
 
-Group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,999, and fully personalised 1-on-1 starts at ₹7,500, with plans outside India priced in local currency. One exception: the premium Codex + Claude Code AI agents courses are ₹1,499 group, ₹2,999 mini batch and ₹7,500 1-on-1 per month. Every course starts with a free demo class before you pay.
+Group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,999, and fully personalised 1-on-1 is ₹4,999 with one private class a week (4 a month), with plans outside India priced in local currency. One exception: the premium AI agents courses (Codex + Claude Code, and AI Agents with Microsoft Copilot Studio) have a ₹9,999 per month 1-on-1 plan, and the Copilot Studio courses are taught 1-on-1 only. Every course starts with a free demo class before you pay.
 
 Both are live and taught by an expert mentor. Group classes in small batches of 5 to 8 are the most affordable and add peer learning, a mini batch of 3 to 4 gives near one-to-one attention, and 1-on-1 gives a fully personalised pace. Start with a free demo, and you can change your plan later.
 
@@ -82,11 +306,11 @@ Quick links to all our coding, AI, and maths courses
 
 ### Teens (Ages 13-18)
 
-[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python Masterclass](/courses/python-complete-masterclass-teens)[Full Stack Web Dev](/courses/full-stack-web-development-teens-masterclass)[React.js](/courses/react-for-teens-complete-masterclass)[Java Programming](/courses/java-programming-masterclass-for-teens)[C++ Programming](/courses/cpp-programming-masterclass-for-teens)[Frontend Development](/courses/frontend-development-masterclass-for-teens)[Backend Coding](/courses/backend-coding-masterclass-for-teens)[App Development](/courses/complete-app-development-masterclass-for-teens)[AI & ML](/courses/ai-ml-masterclass-teens)[Game Development](/courses/complete-game-development-masterclass-for-teens)[Creative Media Design](/courses/creative-media-design-masterclass-teens)[DSA & Problem Solving](/courses/problem-solving-dsa-masterclass-teens)[MySQL](/courses/mysql-mastery-for-teens)[CBSE/ICSE CS Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)[CBSE IP Class 11-12](/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course)[Competitive Programming](/courses/competitive-programming-masterclass)[Git & GitHub](/courses/git-github-version-control-course-for-teens)[Orange Data Mining](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python Masterclass](/courses/python-complete-masterclass-teens)[Full Stack Web Dev](/courses/full-stack-web-development-teens-masterclass)[React.js](/courses/react-for-teens-complete-masterclass)[Java Programming](/courses/java-programming-masterclass-for-teens)[C++ Programming](/courses/cpp-programming-masterclass-for-teens)[Frontend Development](/courses/frontend-development-masterclass-for-teens)[Backend Coding](/courses/backend-coding-masterclass-for-teens)[App Development](/courses/complete-app-development-masterclass-for-teens)[AI & ML](/courses/ai-ml-masterclass-teens)[Game Development](/courses/complete-game-development-masterclass-for-teens)[Creative Media Design](/courses/creative-media-design-masterclass-teens)[DSA & Problem Solving](/courses/problem-solving-dsa-masterclass-teens)[MySQL](/courses/mysql-mastery-for-teens)[CBSE/ICSE CS Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)[CBSE IP Class 11-12](/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course)[Competitive Programming](/courses/competitive-programming-masterclass)[Git & GitHub](/courses/git-github-version-control-course-for-teens)[Orange Data Mining](/courses/orange-data-mining-visual-machine-learning-course-for-teens)[AI Agents (Copilot Studio)](/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens)
 
 ### College & Professional
 
-[Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[Full Stack Web Dev](/courses/full-stack-web-development-masterclass-college)[Python Zero to Advanced](/courses/python-programming-masterclass-zero-to-advanced-college)[Flutter App Dev](/courses/complete-flutter-app-development-masterclass-college)[Swift Programming](/courses/complete-swift-programming-masterclass-college)[Kotlin Programming](/courses/complete-kotlin-programming-masterclass-professional)[TypeScript](/courses/complete-typescript-programming-masterclass-college)[Golang](/courses/complete-golang-programming-masterclass-college)[Generative AI](/courses/complete-generative-ai-masterclass-college)[AI & ML Complete](/courses/ai-ml-masterclass-complete-college)[Data Science](/courses/data-science-complete-masterclass-college)[React.js](/courses/react-js-complete-masterclass-college)[MERN Stack](/courses/mern-stack-development-masterclass-college)[Java Programming](/courses/complete-java-programming-masterclass-college)[C++ Programming](/courses/cpp-programming-complete-masterclass-college)[DSA](/courses/data-structures-algorithms-masterclass-college)[Competitive Programming](/courses/competitive-programming-masterclass-college)[App Development](/courses/complete-app-development-masterclass-college)[Game Development](/courses/game-development-complete-masterclass-college)[AI Complete](/courses/artificial-intelligence-complete-masterclass-college)[Python AI Automation](/courses/python-ai-automation-masterclass-college)[AI Tools Mastery](/courses/ai-tools-mastery-complete-college)[MySQL Database](/courses/mysql-database-complete-masterclass-college)[Data Analysis](/courses/data-analysis-mastery-course-college)[Ethical Hacking](/courses/ethical-hacking-masterclass-complete)[Algorithmic Trading](/courses/algorithmic-trading-masterclass-complete)[Trading Automation](/courses/algorithmic-trading-automation-masterclass)[AI Tools Professional](/courses/ai-tools-mastery-complete)[Git & GitHub for College](/courses/git-github-version-control-course-for-college-students)[Advanced Git & GitHub](/courses/git-github-advanced-version-control-masterclass-for-professionals)[Orange Data Mining](/courses/orange-data-mining-machine-learning-course-for-college-students)
+[Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[Full Stack Web Dev](/courses/full-stack-web-development-masterclass-college)[Python Zero to Advanced](/courses/python-programming-masterclass-zero-to-advanced-college)[Flutter App Dev](/courses/complete-flutter-app-development-masterclass-college)[Swift Programming](/courses/complete-swift-programming-masterclass-college)[Kotlin Programming](/courses/complete-kotlin-programming-masterclass-professional)[TypeScript](/courses/complete-typescript-programming-masterclass-college)[Golang](/courses/complete-golang-programming-masterclass-college)[Generative AI](/courses/complete-generative-ai-masterclass-college)[AI & ML Complete](/courses/ai-ml-masterclass-complete-college)[Data Science](/courses/data-science-complete-masterclass-college)[React.js](/courses/react-js-complete-masterclass-college)[MERN Stack](/courses/mern-stack-development-masterclass-college)[Java Programming](/courses/complete-java-programming-masterclass-college)[C++ Programming](/courses/cpp-programming-complete-masterclass-college)[DSA](/courses/data-structures-algorithms-masterclass-college)[Competitive Programming](/courses/competitive-programming-masterclass-college)[App Development](/courses/complete-app-development-masterclass-college)[Game Development](/courses/game-development-complete-masterclass-college)[AI Complete](/courses/artificial-intelligence-complete-masterclass-college)[Python AI Automation](/courses/python-ai-automation-masterclass-college)[AI Tools Mastery](/courses/ai-tools-mastery-complete-college)[MySQL Database](/courses/mysql-database-complete-masterclass-college)[Data Analysis](/courses/data-analysis-mastery-course-college)[Ethical Hacking](/courses/ethical-hacking-masterclass-complete)[Algorithmic Trading](/courses/algorithmic-trading-masterclass-complete)[Trading Automation](/courses/algorithmic-trading-automation-masterclass)[AI Tools Professional](/courses/ai-tools-mastery-complete)[Git & GitHub for College](/courses/git-github-version-control-course-for-college-students)[Advanced Git & GitHub](/courses/git-github-advanced-version-control-masterclass-for-professionals)[Orange Data Mining](/courses/orange-data-mining-machine-learning-course-for-college-students)[AI Agents (Copilot Studio)](/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students)[Copilot Studio Masterclass](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)
 
 ### Girls Programs
 

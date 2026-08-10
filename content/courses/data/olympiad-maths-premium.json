@@ -18,7 +18,7 @@
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,999/month",
-      "personal": "₹8,500/month"
+      "personal": "₹4,999/month"
     },
     "duration": "12 months (48 weeks), joinable any month",
     "level": "Students roughly aged 12 to 18 who are strong at school maths and want genuine olympiad problem solving",
@@ -300,7 +300,7 @@
     },
     {
       "question": "How much do the olympiad maths classes cost?",
-      "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,999 per month, and 1-on-1 classes are ₹8,500 per month. There is a free demo class first, so you can see the teaching before you decide."
+      "answer": "Group classes start at ₹1,499 per month for two classes a week. A Mini Batch of three to four students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. There is a free demo class first, so you can see the teaching before you decide."
     }
   ]
 }

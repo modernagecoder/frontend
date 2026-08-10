@@ -10,7 +10,13 @@ source: src/pages/book-demo.html
 
 Experience our world-class teaching before you commit. Try a live 1-on-1 session with our expert instructors — absolutely free, no strings attached.
 
-[Prefer to explore first? Watch real recorded classes](/how-we-teach)100% FreeNo Commitment30-45 Min Session10,000+ Students Trained
+Live demos are typically scheduled within 48 hours, because our mentors spend most of the day teaching live classes. If you would rather see us teach right now, watch a full recorded class: free and unedited, just a quick Google sign-in. Some classes are in English, some in Hindi, and the libraries are updated frequently. Watch end to end, like you are in the class, on a computer or laptop for the clearest experience.
+
+[Watch a Kids Class (6 to 12)](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-kids-Coding-6a3a27597efbc77440b2c68f)[Watch a Teens & Adults Class (13+)](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-6a1888029a4f81888c408ab9)
+
+[Or read exactly how we teach](/how-we-teach)
+
+100% FreeNo Commitment30-45 Min Session10,000+ Students Trained
 
 ## Schedule Your Demo
 
@@ -45,6 +51,8 @@ See how we tailor our courses for your specific goals.
 Available Mon-Sat, 9 AM - 6 PM IST
 
 [WhatsApp Us](https://wa.me/919123366161?text=Hi,%20I%20would%20like%20to%20book%20a%20free%20demo%20class)
+
+If we have not reached you yet, we are almost certainly in live classes, never ignoring you. Feel free to call or WhatsApp any time, and complete a recorded class while you wait. It saves time for everyone.
 
 ## Choose Your Path
 
@@ -101,6 +109,10 @@ See what our students have built during their learning journey
 ## Frequently Asked Questions
 
 Everything you need to know about our demo classes
+
+Yes, instantly. We keep two open libraries of full, real, unedited class recordings: one for [kids aged 6 to 12](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-kids-Coding-6a3a27597efbc77440b2c68f) and one for [teens and adults](https://modernagecoders.graphy.com/courses/How-We-Teach-The-Modern-Age-Coders-Methodology-6a1888029a4f81888c408ab9), which also covers our maths classes. They are free to watch, no payment or card, just a quick Google sign-in. Best on a computer or laptop: click a library link, choose **Watch Recording**, sign in with Google, and in a few seconds the dashboard opens with all recordings. Some classes are in English and some in Hindi, and the libraries are updated frequently with our latest classes. Watch a class end to end, like you are in it: sessions are interactive, and each moment builds on the last.
+
+No. Live demos are typically scheduled within 48 hours because our mentors teach live for most of the day, but our free open recording libraries are available right now. Watch a full class today, and if it answers everything, you can enrol straight away without waiting for the demo.
 
 Yes! Our demo class is 100% free with no hidden charges. Experience our teaching methodology, meet your instructor, and see if we're the right fit — all at zero cost to you.
 

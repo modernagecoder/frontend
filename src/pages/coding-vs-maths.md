@@ -101,7 +101,7 @@ Starting coding does not require strong maths, Scratch at age 6-9 needs no more 
 
 What do the two tracks cost, and why the difference?
 
-Both tracks cost the same outside India: $100 a month group, $150 1-on-1, still well under the $200-$425 US tutoring norm. Maths carries deeper diagnostics and school-system alignment; in India its 1-on-1 tier is ₹8,500 against ₹7,500 for coding. Both: 8 live one-hour classes a month, recordings, no registration fee, free trial first.
+Both tracks cost the same outside India: $100 a month group, $150 1-on-1, still well under the $200-$425 US tutoring norm. Maths carries deeper diagnostics and school-system alignment; in India both tracks now share one 1-on-1 rate, ₹4,999 a month for 4 private classes. Group plans run 8 live one-hour classes a month. Both: recordings, no registration fee, free trial first.
 
 Can one child do both without overload?
 

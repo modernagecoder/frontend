@@ -193,7 +193,7 @@ An honest comparison
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | $100-$150 / month, billed in USD | 8 live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real young programmer, with the GCSE CS road open |
+| Modern Age Coders | $100-$150 / month, billed in USD | Live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real young programmer, with the GCSE CS road open |
 | Private coding tutors | £30-£50+ / hour | Quality varies; twice-weekly runs £240-£400+ a month | Families who have found, and can keep, a proven local gem |
 | Franchise clubs and camps | £100-£200+ / month or £40+ / day | Group sessions of varying depth, plus the drive | Children who focus better out of the house |
 | Code Club / CoderDojo | Free | Volunteer-run, brilliant and brief: an hour a week while term and volunteers last | Always take these too; they complement real tuition |

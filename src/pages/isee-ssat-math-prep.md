@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your child. Op
 
 [![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
 
-Good ISEE or SSAT math prep does three things: **builds calculator-free number sense**, because neither test allows one and both punish slow arithmetic; **trains the reasoning sections separately from the achievement sections**, they measure different things; and **teaches strategy honestly**, when to reason, when to estimate, when to move on. That is what we do: 8 live one-hour classes a month, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
+Good ISEE or SSAT math prep does three things: **builds calculator-free number sense**, because neither test allows one and both punish slow arithmetic; **trains the reasoning sections separately from the achievement sections**, they measure different things; and **teaches strategy honestly**, when to reason, when to estimate, when to move on. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
 
 Why these tests are different
 
@@ -329,7 +329,7 @@ We will not invent a number; movement depends on the starting gap, the weeks ava
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no package lock-in, which matters in a market where admissions-prep packages routinely run $1,000 to $3,000.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no package lock-in, which matters in a market where admissions-prep packages routinely run $1,000 to $3,000.
 
 Is the prep useful if my child ends up not sitting the test?
 

@@ -12,7 +12,7 @@ Coding + Maths · Ages 6–67 · Live 1-on-1
 
 We don't just teach coding and maths. We teach you how to think, build, and solve problems that actually matter. Just real skills that work in the real world at any age, any stage.
 
-[Book a Free Demo](/book-demo)[View Courses →](/courses)★ **4.9****547** reviews**25+** countriessince **2020**
+[Book a Free Demo](/book-demo)[Watch a Real Class](/how-we-teach)[View Courses →](/courses)★ **4.9****547** reviews**25+** countriessince **2020**
 
 make.js// where logic meets imaginationfunctionlearn(you) {const skill = code + maths;return you.build(skill);}learn(you); // real-world ready
 
@@ -32,7 +32,7 @@ f′(x) = 2ax + b
 
 codingmaths
 
-Modern Age Coders runs live online coding and maths classes for students aged 6 to 67, taught in small batches with real projects from the first class. It is rated 4.9 across 547 Google reviews and has taught over 10,000 students since 2020. Every class is live, and there is a free demo before you pay.
+Modern Age Coders runs live online coding and maths classes for students aged 6 to 67, taught in small batches with real projects from the first class. It is rated 4.9 across 547 Google reviews and has taught over 10,000 students since 2020. Every class is live, and there is a free demo before you pay. Full recordings of real, unedited coding and maths classes are also [free to watch before booking anything](/how-we-teach), in two open libraries: one for kids aged 6 to 12 and one for teens and adults, in a mix of English and Hindi, updated frequently, free with a quick Google sign-in.
 
 Rated 4.9 across 547 Google reviews
 
@@ -254,11 +254,11 @@ Up to 10 students · learn with peers
 
 Private mentor · your pace, your goals
 
-₹7500/month
+₹4999/month
 
-- **Weekly Two 1-on-1 Classes**
+- **Weekly One 1-on-1 Class · 4 a Month**
 - 100% Customized Curriculum
-- Cover 2× content or go at your pace
+- The full hour is yours alone
 - Dedicated Expert Mentor
 - Flexible Scheduling
 - Monthly Parent-Mentor Sync Call
@@ -304,9 +304,9 @@ Up to 10 students · solve problems together
 
 Private tutor · your syllabus, your pace
 
-₹7500/month
+₹4999/month
 
-- **Weekly Two 1-on-1 Classes**
+- **Weekly One 1-on-1 Class · 4 a Month**
 - Customized to your syllabus
 - Exam Preparation (CBSE / ICSE / State)
 - Personalized Study Materials

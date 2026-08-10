@@ -38,7 +38,7 @@
     "taxonomy": "programming",
     "price": {
       "group": "₹1,499/month",
-      "personal": "₹7,500/month"
+      "personal": "₹4,999/month"
     },
     "duration": "12 weeks pro prep + Live Hackathon Weekend",
     "level": "Beginner-Friendly to Advanced (Adults 18+)",
@@ -70,7 +70,7 @@
   "program_overview": {
     "title": "Hackathon for Adults & Professionals, Build Something Worth Building",
     "tagline": "Free hackathon for everyone. Pro-grade prep for those who want to build at production scale.",
-    "description": "Hackathon for Adults & Professionals is a free-to-enter hackathon and a 12-week pro-grade prep course at Modern Age Coders, designed for working professionals, career switchers, founders, students 18+, and anyone who has ever said 'I wish I could just build that idea myself.'\n\nThe hackathon participation is 100% free, no fee, no employer endorsement needed. You can be a software engineer, a product manager, a designer, a marketer, a teacher, a doctor, a small-business owner, or a fresh graduate. If you're 18+ and want to build, you're in.\n\nOur only motive: build something great. Build something innovative. Use coding logic, efficient algorithms, AI agents and modern infrastructure to ship real production software in 48 hours that solves a problem people would actually pay for.\n\nThe optional 12-week Pro Prep Course is for adults who want to walk into a hackathon (or a startup) with deep, current technical fluency. It is priced the same as our other professional courses, Group ₹1,499/mo, Mini Batch ₹2,999/mo, or 1-on-1 ₹7,500/mo.\n\nThe curriculum is dense and modern. We cover full-stack engineering with Next.js 16 + Server Actions + Cache Components, distributed system design, AI agents with tool calling and durable workflows, RAG pipelines with vector databases, prompt engineering with Claude / GPT-4o / Gemini 2, observability, security, and shipping to production on Vercel / AWS / Cloudflare. We also cover the soft skills that actually matter, scoping under time pressure, founder-grade pitching, sponsor relationship management, and demo storytelling.\n\nBy Week 12, every participant has a polished GitHub portfolio, a deployed capstone with paying-customer-ready quality, a 3-minute investor-style pitch video, and competes in the Live Modern Age Coders Pro Hackathon Weekend with sponsor prizes (cloud credits, API credits, mentor calls, and cash awards).",
+    "description": "Hackathon for Adults & Professionals is a free-to-enter hackathon and a 12-week pro-grade prep course at Modern Age Coders, designed for working professionals, career switchers, founders, students 18+, and anyone who has ever said 'I wish I could just build that idea myself.'\n\nThe hackathon participation is 100% free, no fee, no employer endorsement needed. You can be a software engineer, a product manager, a designer, a marketer, a teacher, a doctor, a small-business owner, or a fresh graduate. If you're 18+ and want to build, you're in.\n\nOur only motive: build something great. Build something innovative. Use coding logic, efficient algorithms, AI agents and modern infrastructure to ship real production software in 48 hours that solves a problem people would actually pay for.\n\nThe optional 12-week Pro Prep Course is for adults who want to walk into a hackathon (or a startup) with deep, current technical fluency. It is priced the same as our other professional courses, Group ₹1,499/mo, Mini Batch ₹2,999/mo, or 1-on-1 ₹4,999/mo.\n\nThe curriculum is dense and modern. We cover full-stack engineering with Next.js 16 + Server Actions + Cache Components, distributed system design, AI agents with tool calling and durable workflows, RAG pipelines with vector databases, prompt engineering with Claude / GPT-4o / Gemini 2, observability, security, and shipping to production on Vercel / AWS / Cloudflare. We also cover the soft skills that actually matter, scoping under time pressure, founder-grade pitching, sponsor relationship management, and demo storytelling.\n\nBy Week 12, every participant has a polished GitHub portfolio, a deployed capstone with paying-customer-ready quality, a 3-minute investor-style pitch video, and competes in the Live Modern Age Coders Pro Hackathon Weekend with sponsor prizes (cloud credits, API credits, mentor calls, and cash awards).",
     "what_makes_this_different": [
       "Free hackathon participation, anyone 18+ can register at zero cost",
       "Prep course priced same as other Modern Age Coders professional programs",
@@ -436,7 +436,7 @@
       "Optional internship / full-time interview pipeline"
     ],
     "what_the_paid_prep_includes": [
-      "Same monthly pricing as our other professional courses (Group ₹1,499/mo, Mini Batch ₹2,999/mo, 1-on-1 ₹7,500/mo)",
+      "Same monthly pricing as our other professional courses (Group ₹1,499/mo, Mini Batch ₹2,999/mo, 1-on-1 ₹4,999/mo)",
       "12 weeks of structured pro-grade curriculum",
       "Live evening + weekend classes + recorded replays",
       "1-on-1 mentor matching for capstone (senior engineers / founders)",
@@ -457,7 +457,7 @@
     },
     {
       "question": "Why is the prep course paid?",
-      "answer": "The prep course is optional. It's for adults who want serious, structured 12-week training in modern engineering, AI agents, RAG, system design and pitching. It's priced same as our other professional courses, Group ₹1,499/mo, Mini Batch ₹2,999/mo, 1-on-1 ₹7,500/mo. The hackathon participation stays free regardless."
+      "answer": "The prep course is optional. It's for adults who want serious, structured 12-week training in modern engineering, AI agents, RAG, system design and pitching. It's priced same as our other professional courses, Group ₹1,499/mo, Mini Batch ₹2,999/mo, 1-on-1 ₹4,999/mo. The hackathon participation stays free regardless."
     },
     {
       "question": "I'm a non-technical adult, can I still do this?",

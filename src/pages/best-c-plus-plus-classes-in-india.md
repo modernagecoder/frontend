@@ -189,7 +189,7 @@ Start Free Demo
 
 ### 1-on-1 Personal
 
-₹7,500per month · fully personalised
+₹4,999per month · fully personalised
 
 - Dedicated personal C++ mentor
 - Custom pace & schedule
@@ -240,7 +240,7 @@ C++ is the dominant language on Codeforces, CodeChef, LeetCode and the ICPC beca
 
 How much do C++ classes cost in India?+
 
-Group C++ classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and personalised 1-on-1 C++ mentoring is ₹7,500 per month. A free demo class is available before you enrol.
+Group C++ classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and personalised 1-on-1 C++ mentoring is ₹4,999 per month. A free demo class is available before you enrol.
 
 Can college students learn C++ for placements with you?+
 

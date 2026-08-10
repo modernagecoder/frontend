@@ -19,7 +19,7 @@
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,999/month",
-      "personal": "₹7,500/month"
+      "personal": "₹4,999/month"
     },
     "duration": "4 months (16 weeks)",
     "level": "Absolute beginner, ages 10 to adult",
@@ -403,7 +403,7 @@
     },
     {
       "question": "What does the course cost?",
-      "answer": "₹1,499 per month for group classes, with 2 live classes weekly. Mini batches of 3 to 4 students are ₹2,999 per month, and personal 1-on-1 classes are ₹7,500 per month. International students pay a price set for their own country, shown on this page in their local currency. Over the 4-month course, group classes total under ₹6,000."
+      "answer": "₹1,499 per month for group classes, with 2 live classes weekly. Mini batches of 3 to 4 students are ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency. Over the 4-month course, group classes total under ₹6,000."
     },
     {
       "question": "Is there a free trial class?",

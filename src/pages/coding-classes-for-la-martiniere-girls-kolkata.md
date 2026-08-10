@@ -234,9 +234,9 @@ Get Started
 
 ### 1-on-1 Classes
 
-₹7500/month
+₹4999/month
 
-- ✓ 2 Personal Sessions/Week
+- ✓ 1 Personal Session/Week (4 a month)
 - ✓ Customized Curriculum
 - ✓ Flexible Scheduling
 - ✓ Priority Support
@@ -385,7 +385,7 @@ Today, only 28% of the global STEM workforce is female — and that percentage i
 
 +
 
-Group classes start at just ₹1499 per month, which includes 2 live interactive sessions per week, small batch sizes of 5-8 students, recorded session access, and doubt-clearing support. Mini Batch (3-4 students) is ₹2,999 per month. For personalised 1-on-1 classes with customised curriculum and scheduling, the cost is ₹7,500 per month. We offer a free demo class before any commitment so you and your daughter can experience our teaching approach firsthand.
+Group classes start at just ₹1499 per month, which includes 2 live interactive sessions per week, small batch sizes of 5-8 students, recorded session access, and doubt-clearing support. Mini Batch (3-4 students) is ₹2,999 per month. For personalised 1-on-1 classes with customised curriculum and scheduling, the cost is ₹4,999 per month. We offer a free demo class before any commitment so you and your daughter can experience our teaching approach firsthand.
 
 ## Explore More
 

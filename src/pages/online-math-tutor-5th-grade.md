@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your child. Op
 
 [![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)Best fit  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids Number sense, not tricks: bonds, strategies and estimation built into speed that never expires. Ages 5-108 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)See what is includedThe 20-second answer
 
-A good online math tutor for a 5th grader does three things: **completes the fraction story**, adding, subtracting, multiplying and dividing, built on the number line rather than on rules; **extends place value through decimals** so 0.3 × 0.4 stops producing 1.2; and **closes elementary gaps before middle school**, where ratios and negative numbers assume all of this is solid. That is what we do: 8 live one-hour classes a month, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
+A good online math tutor for a 5th grader does three things: **completes the fraction story**, adding, subtracting, multiplying and dividing, built on the number line rather than on rules; **extends place value through decimals** so 0.3 × 0.4 stops producing 1.2; and **closes elementary gaps before middle school**, where ratios and negative numbers assume all of this is solid. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
 
 Why grade 5 is the hinge
 
@@ -409,7 +409,7 @@ An honest comparison
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | 8 live one-hour classes with a dedicated mentor, concrete-first teaching | Rebuilding understanding and confidence, sustained progress |
+| Modern Age Coders | Live one-hour classes with a dedicated mentor, concrete-first teaching | Rebuilding understanding and confidence, sustained progress |
 | Mathnasium center | $300-$450 / month + enrollment fee | Drop-in worksheet floor with rotating instructors | Children who focus better out of the house |
 | Kumon | $150-$220 / subject / month | Daily worksheet packets, brief check-ins, no taught lessons | Building a drill habit and calculation speed |
 | Local private tutor | $35-$80 / hour | Quality varies; twice-weekly quickly costs $280-$640 a month | Short-term help when you have found a gem nearby |
@@ -447,7 +447,7 @@ A dedicated mentor, the same one every class, tracking your child against the fu
 
 What does it cost, exactly?
 
-Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract, cancel any month. The first class is a free live demo, no card needed.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract, cancel any month. The first class is a free live demo, no card needed.
 
 Is this aligned with my child's school?
 

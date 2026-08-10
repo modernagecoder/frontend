@@ -10,7 +10,7 @@ source: src/pages/pricing.html
 
 No hidden fees, no surprises. Pick a plan that works for you. Whether you prefer learning in a group or need personalized attention, we've got you covered.
 
-Modern Age Coders keeps pricing simple: live group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,999, and fully personalised one-to-one classes start at ₹7,500, with plans outside India shown in local currency. The premium Codex + Claude Code AI agents courses are ₹1,499 group, ₹2,999 mini batch and ₹7,500 one-to-one. Every plan is live, covers coding or maths for ages 6 to 67, and starts with a free demo before you pay.
+Modern Age Coders keeps pricing simple: live group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,999, and fully personalised one-to-one classes are ₹4,999 a month for one private class a week (4 a month); plans outside India are shown in local currency. The premium AI agents courses (Codex + Claude Code, and AI Agents with Copilot Studio) run 1-on-1 at their own premium rate. Every plan is live, covers coding or maths for ages 6 to 67, and starts with a free demo before you pay.
 
 Rated 4.9 across 547 Google reviews
 
@@ -53,11 +53,11 @@ Up to 10 students · learn with peers
 
 Private mentor · your pace, your goals
 
-₹7500/month
+₹4999/month
 
-- **2 private sessions per week**
+- **1 private session per week · 4 a month**
 - 100% personalized curriculum
-- Cover 2× content or go at your pace
+- The full hour is yours alone
 - Dedicated expert mentor
 - Flexible scheduling
 - Monthly parent-mentor sync call
@@ -67,9 +67,9 @@ Private mentor · your pace, your goals
 
 [Get Started](/contact)
 
-Every plan is **2 live classes a week, 8 a month**. Live teaching, not recordings.
+Group and Mini Batch run **2 live classes a week, 8 a month**; 1-on-1 runs **1 class a week, 4 a month**. Live teaching, not recordings.
 
-Group ₹1,499 ≈ **₹187 per live class**Mini Batch ₹2,999 ≈ **₹375 per live class**1-on-1 ₹7,500 ≈ **₹938 per live class**
+Group ₹1,499 ≈ **₹187 per live class**Mini Batch ₹2,999 ≈ **₹375 per live class**1-on-1 ₹4,999 ≈ **₹1,250 per live class**
 
 ### Group Classes
 
@@ -104,11 +104,11 @@ Up to 10 students · 1-hour live classes · 2 a week (8 a month)
 
 ### Personalized 1-on-1
 
-Private tutor · 1-hour sessions · 2 a week (8 a month) · your pace
+Private tutor · 1-hour sessions · 1 a week (4 a month) · your pace
 
-₹7500/month
+₹4999/month
 
-- **2 private sessions per week**
+- **1 private session per week · 4 a month**
 - Customized to your syllabus
 - Exam preparation (CBSE / ICSE / State)
 - Personalized study materials
@@ -120,9 +120,9 @@ Private tutor · 1-hour sessions · 2 a week (8 a month) · your pace
 
 [Get Started](/contact)
 
-Every plan is **2 live classes a week, 8 a month**. Live teaching, not recordings.
+Group and Mini Batch run **2 live classes a week, 8 a month**; 1-on-1 runs **1 class a week, 4 a month**. Live teaching, not recordings.
 
-Group ₹1,499 ≈ **₹187 per live class**Mini Batch ₹2,999 ≈ **₹375 per live class**1-on-1 ₹8,500 ≈ **₹1,063 per live class**
+Group ₹1,499 ≈ **₹187 per live class**Mini Batch ₹2,999 ≈ **₹375 per live class**1-on-1 ₹4,999 ≈ **₹1,250 per live class**
 
 Need something specific? We create custom training programs for individuals, schools, and companies. Tell us your goals, and we'll design a plan that fits.
 
@@ -230,7 +230,7 @@ Group classes work great when you enjoy learning with others and can keep up wit
 
 ### Choose Personalized 1-on-1
 
-₹7,500/month
+₹4,999/month
 
 Personalized classes are ideal when you need individual attention or have specific learning needs.
 
@@ -276,7 +276,7 @@ Affordable coding classes in India without compromising on quality.
 | Feature | Modern Age Coders | WhiteHat Jr | BYJU's | Vedantu |
 | --- | --- | --- | --- | --- |
 | Monthly Price (Group) | From Rs 1,499 | Rs 5,000+ | Rs 3,000-8,000+ | Rs 3,500+ |
-| 1-on-1 Available | Yes (from Rs 7,500) | Yes (Rs 8,000+) | Limited | Limited |
+| 1-on-1 Available | Yes (from Rs 4,999) | Yes (Rs 8,000+) | Limited | Limited |
 | Coding + Maths | Both Integrated | Coding Only | Maths Only | Maths Only |
 | Live Classes | 100% Live | Live | Mostly Recorded | Live |
 | Contracts | None. Cancel anytime | 6-12 month packs | Long-term lock-in | Varies |

@@ -128,7 +128,7 @@ Start Free Demo
 
 ### 1-on-1 Personal
 
-₹7,500per month · fully personalised
+₹4,999per month · fully personalised
 
 - Dedicated personal mentor
 - Custom pace & schedule
@@ -183,7 +183,7 @@ Yes. You write the code to load data, split it, train models with scikit-learn, 
 
 How much does the Python for ML course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹7,500 per month. A free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
 
 Are the classes live and hands-on?+
 

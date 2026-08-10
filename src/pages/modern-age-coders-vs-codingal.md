@@ -39,7 +39,7 @@ Scroll the table sideways to see every column →
 | Core pitch | **Depth: real knowledge, applied in real projects** | Coding for kids with competitions and certificates |
 | Class length | **One full hour, interactive, every class** | Typically around 55 minutes; varies by course |
 | Maths taught | **Yes, full live maths programme in the same school** | Coding-first; maths not the core product |
-| Published monthly plans | **Rs 1,499 group · Rs 7,500 true 1-on-1** (8 classes) | Around Rs 8,999 to Rs 12,999 a month; ~Rs 800 per class listings |
+| Published monthly plans | **Rs 1,499 group (8 classes) · Rs 4,999 true 1-on-1 (4 private classes)** | Around Rs 8,999 to Rs 12,999 a month; ~Rs 800 per class listings |
 | Course packs | **None needed; simple monthly billing** | Larger packs from about Rs 29,500 upward |
 | Ages served | **6 to 67, kids through working adults** | Primarily school-age children |
 | Free trial | **Yes, free live demo class** | Typically offers a trial class |
@@ -106,7 +106,7 @@ Philosophy. Codingal organises learning around coding competitions, contests and
 
 How do the prices compare?
 
-Codingal's published plans run around Rs 8,999 to Rs 12,999 a month as of July 2026, with per-class listings near Rs 800 and larger packs from about Rs 29,500. Modern Age Coders group classes are Rs 1,499 a month and true 1-on-1 is Rs 7,500 a month, both with 8 live one-hour classes and no packs to buy. Depth does not require the bigger number.
+Codingal's published plans run around Rs 8,999 to Rs 12,999 a month as of July 2026, with per-class listings near Rs 800 and larger packs from about Rs 29,500. Modern Age Coders group classes are Rs 1,499 a month with 8 live one-hour classes, and true 1-on-1 is Rs 4,999 a month with 4 private classes, no packs to buy on either. Depth does not require the bigger number.
 
 Does Codingal teach maths?
 

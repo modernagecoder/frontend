@@ -34,7 +34,7 @@
     "taxonomy": "programming",
     "price": {
       "group": "₹1,499/month",
-      "personal": "₹7,500/month"
+      "personal": "₹4,999/month"
     },
     "duration": "12 weeks prep + Live Hackathon Weekend",
     "level": "Complete Beginner (Ages 8-12)",
@@ -424,7 +424,7 @@
       "Free post-hackathon code review for all submissions"
     ],
     "what_the_paid_prep_includes": [
-      "Same monthly pricing as other Modern Age Coders courses (Group ₹1,499/mo, Mini Batch ₹2,999/mo, 1-on-1 ₹7,500/mo)",
+      "Same monthly pricing as other Modern Age Coders courses (Group ₹1,499/mo, Mini Batch ₹2,999/mo, 1-on-1 ₹4,999/mo)",
       "12 weeks of structured curriculum",
       "Live classes + recorded replays",
       "Personal mentor matching for capstone",
@@ -443,7 +443,7 @@
     },
     {
       "question": "Then why is there a paid prep course?",
-      "answer": "The prep course is optional. It's for parents and kids who want serious, structured training before the hackathon, coding skills, AI tools, algorithm thinking, team practice and pitch coaching. It's priced the same as our other courses (Group ₹1,499/mo, Mini Batch ₹2,999/mo, 1-on-1 ₹7,500/mo). Many kids do the prep, many compete without it. Both are valid paths."
+      "answer": "The prep course is optional. It's for parents and kids who want serious, structured training before the hackathon, coding skills, AI tools, algorithm thinking, team practice and pitch coaching. It's priced the same as our other courses (Group ₹1,499/mo, Mini Batch ₹2,999/mo, 1-on-1 ₹4,999/mo). Many kids do the prep, many compete without it. Both are valid paths."
     },
     {
       "question": "Does my child need any prior coding experience?",

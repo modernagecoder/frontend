@@ -37,7 +37,7 @@
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,999/month",
-      "personal": "₹7,500/month"
+      "personal": "₹9,999/month"
     },
     "duration": "24 classes (12 weeks · 2 classes/week)",
     "level": "Beginner-friendly (ages 13-18) to confident AI-agent builder",
@@ -586,7 +586,7 @@
     },
     {
       "question": "How much does the Codex + Claude Code course for teens cost?",
-      "answer": "Three plans are available: group classes at ₹1,499 per month, a mini batch of 3 to 4 students (India only) at ₹2,999 per month, and personalized 1-on-1 classes at ₹7,500 per month. Students outside India pay a price set for their own country, shown on this page in their local currency. Billing is monthly and you can stop anytime. Every student starts with a free demo class, and the required Claude and ChatGPT subscriptions are purchased separately."
+      "answer": "Three plans are available: group classes at ₹1,499 per month, a mini batch of 3 to 4 students (India only) at ₹2,999 per month, and personalized 1-on-1 classes at ₹9,999 per month. Students outside India pay a price set for their own country, shown on this page in their local currency. Billing is monthly and you can stop anytime. Every student starts with a free demo class, and the required Claude and ChatGPT subscriptions are purchased separately."
     },
     {
       "question": "Why is this course priced higher than other coding courses?",

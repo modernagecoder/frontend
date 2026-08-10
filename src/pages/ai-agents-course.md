@@ -82,7 +82,7 @@ What's Next
 
 Tracks that power agentic AI.
 
-[Large Language ModelsGPT-style models](/large-language-models-course)[Prompt EngineeringGet more from LLMs](/prompt-engineering-course)[Generative AICreate with AI](/generative-ai-course)[NLP CourseLanguage & text AI](/natural-language-processing-course)[Python for MLscikit-learn coding](/python-for-machine-learning)[How to Build AI ModelsThe build process](/how-to-build-ai-models)[Best AI & ML CourseThe full course hub](/best-ai-and-machine-learning-course-in-india)[Online AI & MLLive online format](/online-ai-and-machine-learning-classes)
+[Copilot Studio for TeensBuild agents, no code, 1-on-1](/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens)[Copilot Studio for CollegeBusiness-grade agents, 1-on-1](/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students)[Copilot Studio MasterclassEnterprise agents at work](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)[Large Language ModelsGPT-style models](/large-language-models-course)[Prompt EngineeringGet more from LLMs](/prompt-engineering-course)[Generative AICreate with AI](/generative-ai-course)[NLP CourseLanguage & text AI](/natural-language-processing-course)[Python for MLscikit-learn coding](/python-for-machine-learning)[How to Build AI ModelsThe build process](/how-to-build-ai-models)[Best AI & ML CourseThe full course hub](/best-ai-and-machine-learning-course-in-india)[Online AI & MLLive online format](/online-ai-and-machine-learning-classes)
 
 Why This Course
 
@@ -183,7 +183,7 @@ Yes. Every topic is hands-on in Python/Colab and you build real, mentor-reviewed
 
 How much does the course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹7,500 per month. A free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
 
 Are the classes live and mentor-led?+
 

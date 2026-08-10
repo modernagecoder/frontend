@@ -208,7 +208,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 ## Simple, honest pricing
 
-1-hour live classes, twice a week. Start with a free demo — pay only when you're sure it's right for your child.
+1-hour live classes: 2 a week in Group and Mini Batch, 1 a week in 1-on-1. Start with a free demo — pay only when you're sure it's right for your child.
 
 Group₹1,499/month
 
@@ -228,9 +228,9 @@ Start freeMini Batch₹2,999/month
 - Faster doubt resolution
 - Closer progress tracking
 
-Book a free demoPersonal 1-on-1₹7,500/month
+Book a free demoPersonal 1-on-1₹4,999/month
 
-2 private sessions a week · fully bespoke
+1 private session a week · fully bespoke
 
 - Customised curriculum
 - Flexible scheduling

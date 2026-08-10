@@ -128,7 +128,7 @@ Start Free Demo
 
 ### 1-on-1 Personal
 
-₹7,500per month · fully personalised
+₹4,999per month · fully personalised
 
 - Dedicated personal mentor
 - Custom pace & schedule
@@ -183,7 +183,7 @@ Data analytics focuses on understanding past data and reporting insights; machin
 
 How much does the data science course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹7,500 per month. A free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
 
 Are the data science classes live and project-based?+
 

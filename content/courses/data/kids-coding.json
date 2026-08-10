@@ -26,7 +26,7 @@
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,999/month",
-      "personal": "₹7,500/month"
+      "personal": "₹4,999/month"
     },
     "duration": "24 months (104 weeks)",
     "level": "Complete Beginner (Age 7+) to Advanced Creator",
@@ -1673,7 +1673,7 @@
     },
     {
       "question": "How much do classes cost each month?",
-      "answer": "₹1,499 per month for group classes, which include 2 live classes a week in batches of no more than 10 kids. Smaller mini batches of 3-4 students are ₹2,999 per month, and dedicated 1-on-1 classes with 2 private sessions weekly are ₹7,500 per month. For students outside India, prices are set per country and shown on this page in the local currency."
+      "answer": "₹1,499 per month for group classes, which include 2 live classes a week in batches of no more than 10 kids. Smaller mini batches of 3-4 students are ₹2,999 per month, and dedicated 1-on-1 classes with 2 private sessions weekly are ₹4,999 per month. For students outside India, prices are set per country and shown on this page in the local currency."
     },
     {
       "question": "Is there a free trial class?",

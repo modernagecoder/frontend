@@ -153,7 +153,7 @@ Book a free demo
 
 ### One-to-one personalised
 
-₹7,500/ month
+₹4,999/ month
 
 - Two live classes every week
 - A dedicated teacher, fully on your child's pace
@@ -162,7 +162,7 @@ Book a free demo
 
 Book a free demo
 
-Both plans are billed monthly and include two live classes every week. Summer camps, corporate training and college tracks are also available — call [+91 91233 66161](tel:+919123366161) for details.
+Both plans are billed monthly. The mini batch runs two live classes a week; one-to-one runs one live class a week. Summer camps, corporate training and college tracks are also available — call [+91 91233 66161](tel:+919123366161) for details.
 
 Questions parents ask
 
@@ -178,7 +178,7 @@ What ages do you teach?
 
 What does it cost, and can we try first?
 
-**Group mini-batches are ₹2,999 a month and one-to-one is ₹7,500 a month, each with two live classes a week — and the demo is free.** You and your child see the teaching first-hand before you decide, with no pressure to enrol.
+**Group mini-batches are ₹2,999 a month with two live classes a week, and one-to-one is ₹4,999 a month with one live class a week — and the demo is free.** You and your child see the teaching first-hand before you decide, with no pressure to enrol.
 
 What device and internet do we need at home in Sukhobrishti?
 

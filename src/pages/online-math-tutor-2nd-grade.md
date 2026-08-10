@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your child. Op
 
 [![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)Best fit  Elementary Mathematics Masterclass The grades 1-5 road with second grade's regrouping and the grade-3 runway taught properly inside it. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids The fluency engine second grade demands: facts within 20 from memory, built through games. Ages 5-108 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)[![Early Math Foundations course thumbnail](/images/early-math-k2.webp)  Early Math Foundations (K-2) For the second grader whose gaps trace back further: the K-2 foundation, rebuilt kindly. Ages 4-78 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/early-math-foundations)See what is includedThe 20-second answer
 
-Good 2nd grade math tutoring does three things: **teaches regrouping as unbundling real tens** (not a borrowing ritual), **finishes fact fluency within 20** so bigger arithmetic has fuel, and **builds the grade-3 runway**, skip counting and arrays that make multiplication feel inevitable instead of alien. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
+Good 2nd grade math tutoring does three things: **teaches regrouping as unbundling real tens** (not a borrowing ritual), **finishes fact fluency within 20** so bigger arithmetic has fuel, and **builds the grade-3 runway**, skip counting and arrays that make multiplication feel inevitable instead of alien. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
 
 Why second grade bites
 
@@ -203,7 +203,7 @@ An honest comparison
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | 8 live one-hour classes with a dedicated mentor, understanding-first teaching | Rebuilding understanding and confidence, sustained progress |
+| Modern Age Coders | Live one-hour classes with a dedicated mentor, understanding-first teaching | Rebuilding understanding and confidence, sustained progress |
 | Mathnasium center | $300-$450 / month + enrollment fee | Drop-in worksheet floor with rotating instructors | Children who focus better out of the house |
 | Kumon | $150-$220 / subject / month | Daily worksheet packets, brief check-ins, no taught lessons | Building a drill habit and calculation speed |
 | Local private tutor | $35-$80 / hour | Quality varies; twice-weekly quickly costs $280-$640 a month | Short-term help when you have found a gem nearby |
@@ -237,7 +237,7 @@ It runs underneath school rather than against it: same territory, deeper method,
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract. US tutoring centers charge $300 to $450 a month for less individual attention.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. US tutoring centers charge $300 to $450 a month for less individual attention.
 
 My child is behind from earlier grades. Is 2nd grade tutoring still right?
 

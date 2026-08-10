@@ -26,7 +26,7 @@
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,999/month",
-      "personal": "₹7,500/month"
+      "personal": "₹4,999/month"
     },
     "duration": "3 months (12 weeks)",
     "level": "Complete Beginner to Advanced Scratch Developer",
@@ -1305,7 +1305,7 @@
     },
     {
       "question": "How much does the Scratch course cost?",
-      "answer": "Group classes are ₹1,499 per month, which includes 2 live classes every week in a batch of at most 10 children. A mini batch of 3-4 students costs ₹2,999 per month, and personal 1-on-1 coaching with 2 private classes a week is ₹7,500 per month. International students pay a price set for their own country, shown on this page in their local currency."
+      "answer": "Group classes are ₹1,499 per month, which includes 2 live classes every week in a batch of at most 10 children. A mini batch of 3-4 students costs ₹2,999 per month, and personal 1-on-1 coaching with 2 private classes a week is ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
     },
     {
       "question": "Can we try a free class before enrolling?",

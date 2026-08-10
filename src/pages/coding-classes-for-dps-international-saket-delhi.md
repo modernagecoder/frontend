@@ -378,9 +378,9 @@ Get Started
 
 ### 1-on-1 Classes
 
-₹7500/month
+₹4999/month
 
-- ✓ 2 Personal Sessions/Week
+- ✓ 1 Personal Session/Week (4 a month)
 - ✓ Customized Cambridge curriculum
 - ✓ Flexible Scheduling
 - ✓ Priority Support
@@ -431,7 +431,7 @@ Children can start as early as 6-8 years old with our Scratch programming course
 
 +
 
-Our group coding classes start at just ₹1499/month with 2 live classes per week in small batches of 5-8 students. Mini Batch (3-4 students) is available at ₹2,999/month. For personalized 1-on-1 classes with customized Cambridge curriculum, we offer sessions at ₹7,500/month. We provide a free demo class before enrollment so you can experience our teaching quality firsthand. No hidden fees, no long-term commitments required.
+Our group coding classes start at just ₹1499/month with 2 live classes per week in small batches of 5-8 students. Mini Batch (3-4 students) is available at ₹2,999/month. For personalized 1-on-1 classes with customized Cambridge curriculum, we offer sessions at ₹4,999/month. We provide a free demo class before enrollment so you can experience our teaching quality firsthand. No hidden fees, no long-term commitments required.
 
 ### Do you offer classes during school vacations?
 

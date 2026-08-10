@@ -270,9 +270,9 @@ Private mentor · your pace, your goals
 
 ₹4999/month
 
-- **Weekly Two 1-on-1 Classes**
+- **Weekly One 1-on-1 Class · 4 a Month**
 - 100% Customized Curriculum
-- Cover 2× content or go at your pace
+- The full hour is yours alone
 - Dedicated Expert Mentor
 - Flexible Scheduling
 - Monthly Parent-Mentor Sync Call
@@ -320,7 +320,7 @@ Private tutor · your syllabus, your pace
 
 ₹4999/month
 
-- **Weekly Two 1-on-1 Classes**
+- **Weekly One 1-on-1 Class · 4 a Month**
 - Customized to your syllabus
 - Exam Preparation (CBSE / ICSE / State)
 - Personalized Study Materials

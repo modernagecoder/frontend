@@ -30,11 +30,11 @@ function stamp(html) { return stamper.stamp(html, config); }
 
 // ─── the configured prices themselves ───
 
-test('the config carries the owner\'s 2026-08-01 flat prices', function () {
+test('the config carries the owner\'s current flat prices', function () {
     assert.strictEqual(config.plans.coding.india.group, 1499);
     assert.strictEqual(config.plans.coding.india.miniBatch, 2999);
-    assert.strictEqual(config.plans.coding.india.personal, 7500);
-    assert.strictEqual(config.plans.maths.india.personal, 8500, 'maths 1-on-1 is the one India exception');
+    assert.strictEqual(config.plans.coding.india.personal, 4999, '1-on-1 moved to ₹4,999 on 2026-08-10');
+    assert.strictEqual(config.plans.maths.india.personal, 4999, 'maths 1-on-1 matches coding since 2026-08-10');
     assert.strictEqual(config.plans.coding.international.group, 100);
     assert.strictEqual(config.plans.coding.international.personal, 150);
     assert.strictEqual(config.plans.maths.international.group, 100, 'international is flat across subjects');
@@ -63,7 +63,7 @@ test('leaves a correct price byte-identical', function () {
 
 test('amount format drops the symbol', function () {
     const out = stamp('<b data-price="coding.india.personal" data-price-format="amount">x</b>');
-    assert.strictEqual(out.html, '<b data-price="coding.india.personal" data-price-format="amount">7,500</b>');
+    assert.strictEqual(out.html, '<b data-price="coding.india.personal" data-price-format="amount">4,999</b>');
 });
 
 test('plain format is bare digits for structured data', function () {
@@ -73,7 +73,7 @@ test('plain format is bare digits for structured data', function () {
 
 test('full format appends the period', function () {
     const out = stamp('<p data-price="maths.india.personal" data-price-format="full">x</p>');
-    assert.ok(/₹8,500\/month/.test(out.html), 'got: ' + out.html);
+    assert.ok(/₹4,999\/month/.test(out.html), 'got: ' + out.html);
 });
 
 test('split format rebuilds the currency-span shape', function () {
@@ -102,11 +102,16 @@ test('per-class price is recalculated from the monthly price', function () {
     assert.ok(out.html.indexOf('>₹187<') !== -1, 'expected ₹187, got: ' + out.html);
 });
 
-test('per-class price of the new 1-on-1 rates', function () {
+// classesPerMonth (8) fits the group/mini-batch schedule of 2 classes a week.
+// The India 1-on-1 plan runs 1 class a week (4 a month) since 2026-08-10 and
+// carries that in display.classesPerMonthOverrides, keyed by the full anchor.
+test('per-class derivation honours per-plan schedule overrides', function () {
     const c = stamp('<span data-price="coding.india.personal" data-price-derive="perClass">x</span>');
-    assert.ok(c.html.indexOf('>₹938<') !== -1, '7500/8 rounds to 938, got: ' + c.html);
-    const m = stamp('<span data-price="maths.india.personal" data-price-derive="perClass">x</span>');
-    assert.ok(m.html.indexOf('>₹1,063<') !== -1, '8500/8 rounds to 1063, got: ' + m.html);
+    assert.ok(c.html.indexOf('>₹1,250<') !== -1, '4999/4 rounds to 1250, got: ' + c.html);
+    const a = stamp('<span data-price="agents.india.personal" data-price-derive="perClass">x</span>');
+    assert.ok(a.html.indexOf('>₹1,250<') !== -1, 'agents run the default 8: 9999/8 rounds to 1250, got: ' + a.html);
+    const m = stamp('<span data-price="maths.international.personal" data-price-derive="perClass">x</span>');
+    assert.ok(m.html.indexOf('>$18.75<') !== -1, 'international 1-on-1 keeps 8: 150/8 is 18.75, got: ' + m.html);
 });
 
 // ─── plans that are not sold ───
@@ -157,14 +162,14 @@ test('rewrites Offer prices by matching the offer name to a tier', function () {
     assert.strictEqual(out.report.errors.length, 0, out.report.errors.join('; '));
     assert.ok(/"name":"Group Classes","price":"1499"/.test(out.html), 'group: ' + out.html);
     assert.ok(/"name":"Mini Batch \(3-4 students\)","price":"2999"/.test(out.html), 'mini: ' + out.html);
-    assert.ok(/"name":"1:1 Private Mentorship","price":"7500"/.test(out.html), 'personal: ' + out.html);
+    assert.ok(/"name":"1:1 Private Mentorship","price":"4999"/.test(out.html), 'personal: ' + out.html);
 });
 
-test('a maths scope gives the maths 1-on-1 exception', function () {
+test('a maths scope resolves the maths table', function () {
     const src = '<script type="application/ld+json" data-price-scope="maths.india">' +
         '{"@type":"Offer","name":"1:1 Private Tuition","price":"1","priceCurrency":"INR"}</script>';
     const out = stamp(src);
-    assert.ok(/"price":"8500"/.test(out.html), 'maths 1-on-1 must be 8500: ' + out.html);
+    assert.ok(/"price":"4999"/.test(out.html), 'maths 1-on-1 must be 4999: ' + out.html);
 });
 
 test('an untagged JSON-LD block is left completely alone', function () {
@@ -191,7 +196,7 @@ test('AggregateOffer low and high span the plans that exist', function () {
         '{"@type":"AggregateOffer","lowPrice":"1","highPrice":"2","priceCurrency":"INR"}</script>';
     const out = stamp(src);
     assert.ok(/"lowPrice":"1499"/.test(out.html), 'low: ' + out.html);
-    assert.ok(/"highPrice":"7500"/.test(out.html), 'high: ' + out.html);
+    assert.ok(/"highPrice":"4999"/.test(out.html), 'high: ' + out.html);
 });
 
 test('an offer\'s own currency decides its region, the scope only the subject', function () {

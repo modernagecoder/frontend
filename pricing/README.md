@@ -75,7 +75,7 @@ written to tell you what is wrong in plain English, not to be clicked past.
 
 Rules for editing the file directly:
 
-- Plain digits only: `7500`, never `7,500` or `"7500"` or `₹7500`.
+- Plain digits only: `4999`, never `4,999` or `"4999"` or `₹4999`.
 - `null` means "we do not sell this" — the plan is hidden on pages and
   Razorpay refuses to charge for it. It is never given a made-up price.
 - Change **values** only. The structure (which rows exist) is rewritten by
@@ -90,8 +90,8 @@ Owner's decision, 2026-08-01: **flat pricing.**
 
 | Who | Group | Mini Batch | 1-on-1 |
 | --- | --- | --- | --- |
-| India — coding | ₹1,499/mo | ₹2,999/mo | ₹7,500/mo |
-| India — maths | ₹1,499/mo | ₹2,999/mo | **₹8,500/mo** |
+| India — coding | ₹1,499/mo | ₹2,999/mo | ₹4,999/mo |
+| India — maths | ₹1,499/mo | ₹2,999/mo | ₹4,999/mo |
 | Everywhere else — every course | **$100/mo** | not sold | **$150/mo** |
 
 - One US-dollar price list for the entire world outside India. No
@@ -100,10 +100,11 @@ Owner's decision, 2026-08-01: **flat pricing.**
   all see the same $100 / $150 and pay in dollars.
 - Mini Batch is an India-only plan. Outside India the card simply does not
   appear.
-- Maths 1-on-1 at ₹8,500 is the single India exception; everything else in
-  India follows the coding prices.
-- The premium Codex + Claude Code courses currently cost the same as every
-  other course, but keep their own rows in the config — put bigger numbers
+- Maths follows the coding prices on every tier; the old ₹8,500 maths
+  1-on-1 exception ended 2026-08-10. India 1-on-1 runs 1 class a week
+  (4 a month) — see display.classesPerMonthOverrides in the config.
+- The premium AI-agents courses (Codex + Claude Code, Copilot Studio) run
+  1-on-1 at ₹9,999 via their own rows in the config — put bigger numbers
   there and premium pricing is back on without touching anything else.
 - School bootcamps and holiday camps have their own one-off rows.
 
@@ -155,10 +156,10 @@ the wrong region's prices.
   shown price, no **retired figure** (old prices like $40, $149.99,
   ₹2,499, ₹4,999, ₹9,999) survives anywhere Google or a visitor can see
   it, and every price-bearing page carries the two pricing scripts.
-- **`pricing:test`** — 50 automated checks: 26 on the stamping logic, 15
+- **`pricing:test`** — 51 automated checks: 26 on the stamping logic, 16
   that render real pages in a headless browser and read the visible text
-  back (India view, international view, hidden Mini Batch, the maths
-  ₹8,500 exception, the refuse-to-charge path), and 9 on phone-number
+  back (India view, international view, hidden Mini Batch, the per-plan
+  schedule overrides and India overlays, the refuse-to-charge path), and 9 on phone-number
   handling.
 - **Netlify runs `apply` + `verify` on every deploy** — a deploy with a
   price mismatch fails instead of going live.

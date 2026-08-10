@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your child. Op
 
 [![Early Math Foundations course thumbnail](/images/early-math-k2.webp)Best fit  Early Math Foundations (K-2) Counting with meaning, number bonds and shapes, taught playfully in the years that decide everything. Ages 4-78 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/early-math-foundations)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids Number sense, not tricks: bonds and strategies built through games, from age 5. Ages 5-108 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass The grades 1-5 road this year opens onto, with the same mentor carrying your child forward. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)See what is includedThe 20-second answer
 
-Good kindergarten math tutoring is **play with a spine**: counting that means something (not just reciting), quantities handled and compared with real objects, and number bonds beginning as games, taught in short varied segments that respect a five-year-old's attention. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first, and an honest "wait six months" when that is the right answer.
+Good kindergarten math tutoring is **play with a spine**: counting that means something (not just reciting), quantities handled and compared with real objects, and number bonds beginning as games, taught in short varied segments that respect a five-year-old's attention. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first, and an honest "wait six months" when that is the right answer.
 
 Why this year matters
 
@@ -207,7 +207,7 @@ An honest comparison
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | 8 live one-hour classes with a dedicated mentor, understanding-first teaching | Rebuilding understanding and confidence, sustained progress |
+| Modern Age Coders | Live one-hour classes with a dedicated mentor, understanding-first teaching | Rebuilding understanding and confidence, sustained progress |
 | Mathnasium center | $300-$450 / month + enrollment fee | Drop-in worksheet floor with rotating instructors | Children who focus better out of the house |
 | Kumon | $150-$220 / subject / month | Daily worksheet packets, brief check-ins, no taught lessons | Building a drill habit and calculation speed |
 | Local private tutor | $35-$80 / hour | Quality varies; twice-weekly quickly costs $280-$640 a month | Short-term help when you have found a gem nearby |
@@ -241,7 +241,7 @@ Maybe! Counting far is memory; the advanced signals are different: instant "how 
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract. US math tutoring for young children commonly runs $200 to $400 a month for less contact time.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. US math tutoring for young children commonly runs $200 to $400 a month for less contact time.
 
 Group or 1-on-1 for a kindergartner?
 

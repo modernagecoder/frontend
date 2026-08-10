@@ -79,8 +79,8 @@ function render(v) {
       "international": { "group": ${num(v['intl.group'])},  "miniBatch": null, "personal": ${num(v['intl.personal'])} }
     },
 
-    // Maths is listed separately so it can differ from coding — today only
-    // the India 1-on-1 rate does.
+    // Maths is listed separately so it can differ from coding when the owner
+    // wants it to (today it matches coding on every tier).
     "maths": {
       "india":         { "group": ${num(v['maths.india.group'])}, "miniBatch": ${num(v['maths.india.miniBatch'])}, "personal": ${num(v['maths.india.personal'])} },
       "international": { "group": ${num(v['intl.group'])},  "miniBatch": null, "personal": ${num(v['intl.personal'])} }
@@ -126,8 +126,12 @@ function render(v) {
   "display": {
     "chargeCurrencies": { "india": "INR", "international": "USD" },
     "periodLabels": { "monthly": "/month", "oneTime": "" },
-    // Used to recalculate the "per class" figures on some pages.
+    // Used to recalculate the "per class" figures on some pages. 8 fits the
+    // group/mini-batch schedule (2 classes a week). Plans on a different
+    // schedule are listed in the overrides by full subject.region.tier key:
+    // the India 1-on-1 plan runs 1 class a week (4 a month) since 2026-08-10.
     "classesPerMonth": 8,
+    "classesPerMonthOverrides": { "coding.india.personal": 4, "maths.india.personal": 4 },
     "hoursPerClass": 1
   },
 

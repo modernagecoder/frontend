@@ -11,7 +11,7 @@ _Generated 2026-08-04 from the live pricing config. Regenerate with `node script
   - Answer only the pricing question they asked. Do not volunteer other plans, other regions, or extra pricing commentary. If they ask "what does it cost", give the group fee and mention 1-on-1 exists if they want personal attention — nothing more.
   - Quote fees exactly as written here. Never invent discounts.
 - Every course includes a FREE demo class first — always offer to book it (share https://learn.modernagecoders.com/contact/ or take their phone number for a callback).
-- Classes are LIVE with a real teacher (never recordings), 2 classes per week (8 per month), for ages 6 to 67.
+- Classes are LIVE with a real teacher (never recordings), for ages 6 to 67. Group and Mini Batch run 2 classes per week (8 per month); 1-on-1 in India runs 1 class per week (4 per month).
 
 ## Fee reference (internal — quote only the line that matches the asker)
 
@@ -19,7 +19,7 @@ _Generated 2026-08-04 from the live pricing config. Regenerate with `node script
 |---|---|---|
 | Group class (max 10 students) | ₹1,499/month | $100/month |
 | Mini Batch (3-4 students) | ₹2,999/month | not offered |
-| Personalized 1-on-1 | ₹7,500/month (₹8,500 for Maths) | $150/month |
+| Personalized 1-on-1 | ₹4,999/month (coding and maths; 1 class a week, 4 a month in India) | $150/month (2 classes a week) |
 
 Courses with their own fees are marked on their entries below.
 
@@ -41,7 +41,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### College Mathematics: Calculus to Real Analysis & Beyond
 
 - Link: https://learn.modernagecoders.com/courses/college-mathematics-complete-masterclass
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 months (104 weeks)
 - Level: High School Graduate to Advanced Undergraduate Mathematics
@@ -139,7 +139,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### AP Computer Science A: Java Programming and Full Exam Prep
 
 - Link: https://learn.modernagecoders.com/courses/ap-computer-science-a-java-exam-prep-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (24 weeks)
 - Level: High school students preparing for AP Computer Science A; taught from Java basics, no prior coding required
@@ -189,7 +189,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### AP Computer Science Principles: Create Task and Exam Prep
 
 - Link: https://learn.modernagecoders.com/courses/ap-computer-science-principles-exam-prep-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (24 weeks)
 - Level: High school students preparing for AP Computer Science Principles; beginner-friendly, no prior coding required
@@ -241,7 +241,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### AP Precalculus: Units 1 to 3 and Full Exam Prep
 
 - Link: https://learn.modernagecoders.com/courses/ap-precalculus-exam-prep-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (24 weeks)
 - Level: High school students preparing for AP Precalculus; a solid Algebra 2 background is assumed
@@ -291,7 +291,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### AP Statistics: Exam Prep with the Investigative Task
 
 - Link: https://learn.modernagecoders.com/courses/ap-statistics-maths-exam-prep-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (24 weeks)
 - Level: High school students preparing for AP Statistics; taught from the ground up, comfort with school algebra assumed
@@ -343,7 +343,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Queen Coders: 1-Year Advanced Tech Leadership for Women
 
 - Link: https://learn.modernagecoders.com/courses/queen-coders-advanced-tech-leadership
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Intermediate Developer to Tech Leader/Architect
@@ -539,7 +539,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### AI Tools for Teens (13+): Prompting, Creative Projects & Safe AI Use
 
 - Link: https://learn.modernagecoders.com/courses/teens-ai-tools-mastery-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (26 weeks)
 - Level: Complete Beginner to Confident AI User
@@ -594,7 +594,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### AI Literacy for Kids (Ages 8 to 14): Understand AI, Do Not Just Use It
 
 - Link: https://learn.modernagecoders.com/courses/ai-literacy-for-kids-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 4 months (16 weeks), joinable any month
 - Level: Ages 8 to 14; no prior coding required, everything is taught from scratch
@@ -631,7 +631,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### AI Tools Mastery: ChatGPT to Production AI Automation
 
 - Link: https://learn.modernagecoders.com/courses/ai-tools-mastery-complete-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (26 weeks)
 - Level: Complete Beginner to AI Tools Expert
@@ -682,7 +682,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Algorithmic Trading Masterclass: Zero to Automated Systems
 
 - Link: https://learn.modernagecoders.com/courses/algorithmic-trading-masterclass-complete
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Professional Quant Trader
@@ -756,7 +756,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Artificial Intelligence Course: Classical AI to AGI
 
 - Link: https://learn.modernagecoders.com/courses/artificial-intelligence-complete-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to AI Research Scientist
@@ -830,7 +830,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### AI & Machine Learning for Teens: Zero to AI Expert
 
 - Link: https://learn.modernagecoders.com/courses/ai-ml-masterclass-teens
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to AI Developer
@@ -926,7 +926,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### AI & Machine Learning Masterclass: Zero to AI Expert
 
 - Link: https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to AI/ML Expert
@@ -1016,7 +1016,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Business & Finance Mathematics: Investment to Risk
 
 - Link: https://learn.modernagecoders.com/courses/complete-business-finance-mathematics-mastery
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Advanced Professional
@@ -1094,7 +1094,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### CBSE Computational Thinking & AI for Teens (Class 9-12)
 
 - Link: https://learn.modernagecoders.com/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months intensive (extendable to 4-year board track for Class 9 → Class 12)
 - Level: Complete Beginner to CBSE AI Board Topper + Industry-Ready AI Developer
@@ -1168,7 +1168,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### CBSE Computational Thinking & AI for Kids (Class 3-8)
 
 - Link: https://learn.modernagecoders.com/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 9 months (40 weeks, expandable to 12-month mastery track)
 - Level: Absolute Beginner (Class 3-5) to Intermediate AI Project Builder (Class 6-8)
@@ -1234,7 +1234,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Vibe Coding for College: Full Stack, AI & DSA (Ages 18+)
 
 - Link: https://learn.modernagecoders.com/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 3 months (12 weeks)
 - Level: Intermediate to Advanced (Ages 18+ / College Students)
@@ -1268,7 +1268,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Maths Olympiad & Competition Course: AMC, AIME to IMO
 
 - Link: https://learn.modernagecoders.com/courses/olympiad-competition-mathematics-mastery
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Intermediate to International Competition Level
@@ -1346,7 +1346,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Competitive Programming for Teens: ZCO, INOI and USACO Track
 
 - Link: https://learn.modernagecoders.com/courses/competitive-programming-for-teens-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (24 weeks), joinable any month
 - Level: Teens aged 13 to 18 who can already write basic programs and want contest-level problem solving
@@ -1387,7 +1387,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Competitive Programming Course Online: Crack Codeforces
 
 - Link: https://learn.modernagecoders.com/courses/competitive-programming-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (26 weeks)
 - Level: Complete Beginner to Expert Competitive Programmer
@@ -1485,7 +1485,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Python Programming for Teens: Zero to Advanced in 2 Years
 
 - Link: https://learn.modernagecoders.com/courses/python-complete-masterclass-teens
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 months (104 weeks)
 - Level: Absolute Beginner to Python Expert
@@ -1583,7 +1583,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Data Structures & Algorithms Course: Interview-Ready DSA
 
 - Link: https://learn.modernagecoders.com/courses/data-structures-algorithms-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (26 weeks)
 - Level: Beginner to Advanced Problem Solver
@@ -1681,7 +1681,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### DSA & Problem Solving for Teens: Algorithms to Interviews
 
 - Link: https://learn.modernagecoders.com/courses/problem-solving-dsa-masterclass-teens
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Competition Ready
@@ -1779,7 +1779,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Creative Media & Design for Teens: Photo, Video & Editing
 
 - Link: https://learn.modernagecoders.com/courses/creative-media-design-masterclass-teens
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Advanced Professional
@@ -1877,7 +1877,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Creative Coding & Animation: Content Creator Course
 
 - Link: https://learn.modernagecoders.com/courses/creative-coding-animation-mastery
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (26 weeks)
 - Level: Beginner to Professional Content Creator
@@ -1930,7 +1930,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Problem-Solving & Computational Thinking Course for Kids
 
 - Link: https://learn.modernagecoders.com/courses/problem-solving-and-computational-thinking-for-kids
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (26 weeks)
 - Level: Complete Beginner to Advanced Problem Solver
@@ -2028,7 +2028,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Cybersecurity for Teens: Online Safety & White-Hat Defense
 
 - Link: https://learn.modernagecoders.com/courses/cybersecurity-course-for-teens-ethical-defensive
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (24 weeks)
 - Level: Beginner, ages 13 to 18, no coding required
@@ -2080,7 +2080,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Ethical Hacking & Cybersecurity: Zero to Pentester
 
 - Link: https://learn.modernagecoders.com/courses/ethical-hacking-masterclass-complete
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (26 weeks) - Can be taken as 1.5 hour daily sessions
 - Level: Complete Beginner to Professional Ethical Hacker
@@ -2170,7 +2170,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)
 
 - Link: https://learn.modernagecoders.com/courses/data-and-ai-analytics-for-non-programmers-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 4 months (16 weeks), joinable any month
 - Level: Working professionals and students with no programming background; spreadsheet familiarity helps but is not required
@@ -2212,7 +2212,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Data Science for Teens: Python & Your First ML Models
 
 - Link: https://learn.modernagecoders.com/courses/data-science-course-for-teens-python-data
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (24 weeks)
 - Level: Ages 14 to 18, basic Python required
@@ -2264,7 +2264,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Complete Data & Analytics Mathematics Masterclass - Statistics to Machine Learning
 
 - Link: https://learn.modernagecoders.com/courses/data-analytics-mathematics-masterclass
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 months (104 weeks)
 - Level: Basic Math Knowledge to Advanced Data Science Mathematics
@@ -2360,7 +2360,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Data & Analytics Mathematics: Statistics to ML for AI
 
 - Link: https://learn.modernagecoders.com/courses/data-analytics-mathematics-masterclass
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 months (104 weeks)
 - Level: Basic Math Knowledge to Advanced Data Science Mathematics
@@ -2456,7 +2456,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Statistics & Probability: Data to Hypothesis Testing
 
 - Link: https://learn.modernagecoders.com/courses/statistics-probability-maths-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (24 weeks)
 - Level: College students and working professionals; no programming required
@@ -2508,7 +2508,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Data Analysis Course: From Excel to Machine Learning
 
 - Link: https://learn.modernagecoders.com/courses/data-analysis-mastery-course-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (26 weeks)
 - Level: Complete Beginner to Professional Analyst
@@ -2606,7 +2606,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Data Science Course: Zero to Job-Ready Data Scientist
 
 - Link: https://learn.modernagecoders.com/courses/data-science-complete-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Professional Data Scientist
@@ -2678,7 +2678,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Orange Data Mining Course for College Students: Machine Learning and Analytics
 
 - Link: https://learn.modernagecoders.com/courses/orange-data-mining-machine-learning-course-for-college-students
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 classes (12 weeks · 2 classes/week)
 - Level: Beginner to applied practitioner (college students and graduates), no prior machine learning required
@@ -2726,7 +2726,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Orange Data Mining Course for Teens: Machine Learning Without Code
 
 - Link: https://learn.modernagecoders.com/courses/orange-data-mining-visual-machine-learning-course-for-teens
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 classes (12 weeks · 2 classes/week)
 - Level: Beginner-friendly (ages 13-18), no programming experience required
@@ -2776,7 +2776,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### MySQL Database Masterclass: SQL, Design & Administration
 
 - Link: https://learn.modernagecoders.com/courses/mysql-database-complete-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Database Expert
@@ -2848,7 +2848,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### MySQL for Teens: SQL Queries, Database Design & Security
 
 - Link: https://learn.modernagecoders.com/courses/mysql-mastery-for-teens
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Advanced Professional
@@ -2946,7 +2946,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Microsoft Office & Windows for Kids: Digital Skills Course
 
 - Link: https://learn.modernagecoders.com/courses/microsoft-office-kids-mastery
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (26 weeks)
 - Level: Complete Beginner to Advanced User
@@ -3000,7 +3000,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Early Math Foundations: Playful, Concrete Math (Ages 4-7)
 
 - Link: https://learn.modernagecoders.com/courses/early-math-foundations
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Ages 4-7 (kindergarten to grade 2), all starting points
@@ -3058,7 +3058,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Mental Maths for Kids: Number Sense, Not Tricks (Ages 5-10)
 
 - Link: https://learn.modernagecoders.com/courses/mental-maths-mastery-kids
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Ages 5-10 (roughly grades K-5), all starting levels
@@ -3118,7 +3118,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Elementary Mathematics for Grade 1-5: Numbers to Geometry
 
 - Link: https://learn.modernagecoders.com/courses/elementary-mathematics-complete-masterclass
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 months (104 weeks)
 - Level: Complete Beginner to Advanced Elementary Mathematics
@@ -3215,7 +3215,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### A-Level Maths: Pure, Mechanics, Statistics (Edexcel/AQA)
 
 - Link: https://learn.modernagecoders.com/courses/a-level-maths-course-pure-mechanics-statistics
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 18 months (72 weeks)
 - Level: A-Level students (Years 12-13 or equivalent), Edexcel, AQA and OCR
@@ -3293,7 +3293,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### GCSE Maths: Foundation & Higher (9-1), AQA, Edexcel, OCR
 
 - Link: https://learn.modernagecoders.com/courses/gcse-mathematics-mastery
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 18 months (72 weeks)
 - Level: Years 9-11 GCSE students, Foundation and Higher tiers, plus resit candidates
@@ -3351,7 +3351,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### IB Maths AA & AI: SL & HL, Live Online with IA Coaching
 
 - Link: https://learn.modernagecoders.com/courses/ib-mathematics-aa-ai-masterclass
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 months (the full Diploma Programme arc)
 - Level: IB DP students (AA & AI, SL & HL) and MYP students heading to the DP
@@ -3404,7 +3404,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### IGCSE Maths: Core, Extended & Additional Mathematics Online
 
 - Link: https://learn.modernagecoders.com/courses/igcse-mathematics-mastery
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 18 months (72 weeks)
 - Level: IGCSE students, years 9-11: Core, Extended and Additional Maths
@@ -3463,7 +3463,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### PSLE Maths: Model Method, Problem Sums & MOE Syllabus
 
 - Link: https://learn.modernagecoders.com/courses/psle-maths-mastery
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Primary 4-6 students on the MOE syllabus, PSLE-bound
@@ -3523,7 +3523,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### JEE Foundation Maths Class 8-10: Proofs & Problem Solving
 
 - Link: https://learn.modernagecoders.com/courses/jee-foundation-maths-course-class-8-10
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (48 weeks)
 - Level: Class 8 to 10 students, batched by class
@@ -3583,7 +3583,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### React.js Masterclass: Zero to Senior Frontend Developer
 
 - Link: https://learn.modernagecoders.com/courses/react-js-complete-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Senior React Developer
@@ -3657,7 +3657,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### MERN Stack Course Online: Job-Ready Full-Stack Bootcamp
 
 - Link: https://learn.modernagecoders.com/courses/mern-stack-development-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Full Stack Expert
@@ -3755,7 +3755,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Roblox Game Coding for Kids: Build Real Games in Luau
 
 - Link: https://learn.modernagecoders.com/courses/roblox-game-coding-for-kids-lua-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (24 weeks)
 - Level: Beginner, ages 8 to 14
@@ -3807,7 +3807,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Game Development for Kids: Scratch, Roblox & Minecraft
 
 - Link: https://learn.modernagecoders.com/courses/game-development-masterclass-for-kids
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (26 weeks)
 - Level: Complete Beginner to Advanced Game Creator
@@ -3905,7 +3905,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Game Development Course: Unity, Unreal & C++, Zero to Pro
 
 - Link: https://learn.modernagecoders.com/courses/game-development-complete-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Professional Game Developer
@@ -3979,7 +3979,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### GRE & GMAT Quantitative Prep: Live Maths Coaching
 
 - Link: https://learn.modernagecoders.com/courses/gre-gmat-quant-maths-prep-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (24 weeks)
 - Level: Adults preparing for graduate admissions; school maths is refreshed from the ground up
@@ -4031,7 +4031,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Hackathon for Kids: Free Event + 12-Week Prep (Ages 8-12)
 
 - Link: https://learn.modernagecoders.com/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 weeks prep + Live Hackathon Weekend
 - Level: Complete Beginner (Ages 8-12)
@@ -4063,7 +4063,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Hackathon for Teens: Free Event + 12-Week Prep (Ages 13-17)
 
 - Link: https://learn.modernagecoders.com/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 weeks prep + Live Hackathon Weekend
 - Level: Beginner-Friendly to Intermediate (Ages 13-17)
@@ -4097,7 +4097,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Hackathon for Adults: Free Event + 12-Week Pro Prep (18+)
 
 - Link: https://learn.modernagecoders.com/courses/hackathon-prep-for-adults-professionals-coding-ai-innovation-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 weeks pro prep + Live Hackathon Weekend
 - Level: Beginner-Friendly to Advanced (Adults 18+)
@@ -4131,7 +4131,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### IB DP Computer Science (New Guide, First Assessment 2027)
 
 - Link: https://learn.modernagecoders.com/courses/ib-diploma-computer-science-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: Ongoing DP support, joinable any month
 - Level: IB Diploma Programme students taking Computer Science at SL or HL
@@ -4183,7 +4183,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### ICSE Computer Applications (Class 9-10): Java with BlueJ
 
 - Link: https://learn.modernagecoders.com/courses/icse-computer-applications-java-bluej-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: Class 9 and 10 board program, monthly enrolment
 - Level: ICSE Class 9 and 10 students taking Computer Applications; taught from the basics, no prior coding required
@@ -4235,7 +4235,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### IGCSE Computer Science (0478): Full Syllabus and Exam Prep
 
 - Link: https://learn.modernagecoders.com/courses/igcse-computer-science-0478-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (24 weeks), joinable any month
 - Level: IGCSE students taking Computer Science 0478; taught from the basics, no prior coding required
@@ -4287,7 +4287,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Kids Coding Masterclass: Scratch, Games, Apps & AI Projects
 
 - Link: https://learn.modernagecoders.com/courses/kids-coding-blocks-masterclass
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 months (104 weeks)
 - Level: Complete Beginner (Age 7+) to Advanced Creator
@@ -4385,7 +4385,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Minecraft Coding for Kids: From Blocks to Real Code
 
 - Link: https://learn.modernagecoders.com/courses/minecraft-coding-for-kids-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 4 months (16 weeks)
 - Level: Beginner, ages 7 to 12
@@ -4425,7 +4425,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Vibe Coding for Kids: AI, Scratch & Game Dev (Ages 8-12)
 
 - Link: https://learn.modernagecoders.com/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 3 months (12 weeks)
 - Level: Complete Beginner (Ages 8-12)
@@ -4459,7 +4459,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Python & AI for Kids: Coding, Games, Robotics & AI Projects
 
 - Link: https://learn.modernagecoders.com/courses/python-ai-kids-masterclass
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Advanced Young Programmer
@@ -4537,7 +4537,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Web Development for Kids: Build Websites with HTML, CSS & AI
 
 - Link: https://learn.modernagecoders.com/courses/kids-ai-web-development-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Advanced Young Developer
@@ -4615,7 +4615,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Maths Through Coding: Learn Math in Python (Ages 10-15)
 
 - Link: https://learn.modernagecoders.com/courses/maths-through-coding
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 9 months (36 weeks)
 - Level: Ages 10-15 (grades 5-10); no coding experience required
@@ -4666,7 +4666,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### High School Mathematics: Algebra to Calculus (Grade 9-12)
 
 - Link: https://learn.modernagecoders.com/courses/complete-high-school-mathematics-mastery
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Advanced High School
@@ -4744,7 +4744,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Abacus & Mental Maths for Kids: From First Beads to Anzan
 
 - Link: https://learn.modernagecoders.com/courses/abacus-mental-maths-course-for-kids
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 8 months (32 weeks)
 - Level: Ages 5 to 10, no prior maths needed beyond counting
@@ -4792,7 +4792,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Middle School Mathematics Mastery: Pre-Algebra & Geometry
 
 - Link: https://learn.modernagecoders.com/courses/comprehensive-middle-school-mathematics-mastery
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Advanced Middle School Level
@@ -4870,7 +4870,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### App Development Course: Build Mobile & Web Apps From Zero
 
 - Link: https://learn.modernagecoders.com/courses/complete-app-development-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Professional App Developer
@@ -4944,7 +4944,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Olympiad Mathematics: IOQM, INMO and AMC Preparation
 
 - Link: https://learn.modernagecoders.com/courses/olympiad-mathematics-premium-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (48 weeks), joinable any month
 - Level: Students roughly aged 12 to 18 who are strong at school maths and want genuine olympiad problem solving
@@ -4981,7 +4981,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Python & AI Automation: Machine Learning, NLP & Scripting
 
 - Link: https://learn.modernagecoders.com/courses/python-ai-automation-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Advanced Professional
@@ -5079,7 +5079,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Generative AI Course: LLMs, RAG & AI Agents, Zero to Pro
 
 - Link: https://learn.modernagecoders.com/courses/complete-generative-ai-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to AI Engineer Professional
@@ -5169,7 +5169,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Canva & AI Design Course: Zero to Professional Designer
 
 - Link: https://learn.modernagecoders.com/courses/canva-ai-design-masterclass
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (26 weeks)
 - Level: Complete Beginner to Advanced Professional
@@ -5267,7 +5267,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Algorithmic Trading & Stock Market Automation Masterclass
 
 - Link: https://learn.modernagecoders.com/courses/algorithmic-trading-automation-masterclass
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Professional Quant Trader
@@ -5365,7 +5365,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Flutter App Development Course: Zero to Pro Developer
 
 - Link: https://learn.modernagecoders.com/courses/complete-flutter-app-development-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Advanced Professional
@@ -5455,7 +5455,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Game Development for Teens: Unity, Unreal & Real Games
 
 - Link: https://learn.modernagecoders.com/courses/complete-game-development-masterclass-for-teens
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 months (104 weeks)
 - Level: Complete Beginner to Professional Game Developer
@@ -5553,7 +5553,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Go (Golang) Programming: Concurrency, gRPC & Microservices
 
 - Link: https://learn.modernagecoders.com/courses/complete-golang-programming-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Cloud Native Expert
@@ -5637,7 +5637,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Swift Programming Masterclass: Zero to iOS & macOS Pro
 
 - Link: https://learn.modernagecoders.com/courses/complete-swift-programming-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to iOS/macOS Professional
@@ -5727,7 +5727,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Java Programming: Core Java, Spring Boot & Microservices
 
 - Link: https://learn.modernagecoders.com/courses/complete-java-programming-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Enterprise Professional
@@ -5817,7 +5817,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Kotlin Programming: Zero to Android & Backend Developer
 
 - Link: https://learn.modernagecoders.com/courses/complete-kotlin-programming-masterclass-professional
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Professional Developer
@@ -5907,7 +5907,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Java Programming for Teens: Zero to Professional Developer
 
 - Link: https://learn.modernagecoders.com/courses/java-programming-masterclass-for-teens
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 months (104 weeks)
 - Level: Complete Beginner to Advanced Professional
@@ -6005,7 +6005,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Python Programming Masterclass: Zero to Advanced Pro
 
 - Link: https://learn.modernagecoders.com/courses/python-programming-masterclass-zero-to-advanced-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Advanced Professional
@@ -6095,7 +6095,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### TypeScript Programming: Zero to Enterprise Developer
 
 - Link: https://learn.modernagecoders.com/courses/complete-typescript-programming-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Enterprise Professional
@@ -6179,7 +6179,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Full Stack Web Development: Frontend, Backend & DevOps
 
 - Link: https://learn.modernagecoders.com/courses/full-stack-web-development-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 months (104 weeks)
 - Level: Complete Beginner to Advanced Professional
@@ -6277,7 +6277,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### C Programming for Beginners: Pointers, Memory & Structs
 
 - Link: https://learn.modernagecoders.com/courses/c-programming-course-for-college-beginners
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (24 weeks)
 - Level: Beginner, college students and first-year engineers
@@ -6329,7 +6329,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### PCAP Certification Prep: Certified Associate in Python Programming
 
 - Link: https://learn.modernagecoders.com/courses/pcap-python-certification-prep-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 4 months (16 weeks), joinable any month
 - Level: Anyone with basic Python (PCEP level or equivalent) preparing for the PCAP associate certification
@@ -6371,7 +6371,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Computer Science Class 11-12: CBSE Python & ICSE/ISC Java
 
 - Link: https://learn.modernagecoders.com/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 months (Class 11 + Class 12 full syllabus)
 - Level: Class 11 Beginner to Class 12 Board Exam Ready
@@ -6425,7 +6425,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Informatics Practices (IP) Class 11-12: CBSE Python & SQL
 
 - Link: https://learn.modernagecoders.com/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 months (Class 11 + Class 12 full syllabus)
 - Level: Class 11 Beginner to Class 12 Board Exam Ready
@@ -6494,7 +6494,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### CBSE Class 10 Maths Board Prep: Case Studies & Mocks
 
 - Link: https://learn.modernagecoders.com/courses/cbse-class-10-maths-board-exam-prep-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 10 months (40 weeks)
 - Level: CBSE Class 10 students, Standard (041) and Basic (241)
@@ -6548,7 +6548,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Algebra Foundations: Pre-Algebra & Algebra 1, Live Online
 
 - Link: https://learn.modernagecoders.com/courses/algebra-foundations-masterclass
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Grades 7-9, or any student whose algebra base needs a real rebuild
@@ -6579,7 +6579,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Vedic Maths Mastery: Speed Calculation with All 16 Sutras
 
 - Link: https://learn.modernagecoders.com/courses/vedic-maths-course-speed-calculation-mastery
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (24 weeks)
 - Level: Beginner friendly, ages 8 to adult
@@ -6631,7 +6631,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### C++ Programming Masterclass: Zero to System Programmer
 
 - Link: https://learn.modernagecoders.com/courses/cpp-programming-complete-masterclass-college
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Expert C++ Developer
@@ -6705,7 +6705,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Backend Development for Teens: APIs, Databases & Cloud
 
 - Link: https://learn.modernagecoders.com/courses/backend-coding-masterclass-for-teens
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Professional Backend Developer
@@ -6795,7 +6795,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### C++ Course for Teens Online: Games & Competitive Coding
 
 - Link: https://learn.modernagecoders.com/courses/cpp-programming-masterclass-for-teens
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Advanced C++ Developer
@@ -6893,7 +6893,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17)
 
 - Link: https://learn.modernagecoders.com/courses/vibe-coding-for-teens-python-web-ai-projects-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 3 months (12 weeks)
 - Level: Beginner to Intermediate (Ages 13-17)
@@ -6927,7 +6927,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Frontend Development Course for Teens: HTML, CSS, React
 
 - Link: https://learn.modernagecoders.com/courses/frontend-development-masterclass-for-teens
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Professional Frontend Developer
@@ -7025,7 +7025,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Full Stack Web Development for Teens: React & Node.js
 
 - Link: https://learn.modernagecoders.com/courses/full-stack-web-development-teens-masterclass
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 months (104 weeks)
 - Level: Complete Beginner to Professional Full Stack Developer
@@ -7123,7 +7123,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Mobile App Development for Teens: Publish to App Stores
 
 - Link: https://learn.modernagecoders.com/courses/complete-app-development-masterclass-for-teens
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 18 months (78 weeks)
 - Level: Complete Beginner to Professional App Developer
@@ -7215,7 +7215,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### React for Teens: Build Real Apps, Zero to Pro Developer
 
 - Link: https://learn.modernagecoders.com/courses/react-for-teens-complete-masterclass
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Professional React Developer
@@ -7299,7 +7299,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### 11 Plus Maths Prep: UK Grammar & Independent School Entry
 
 - Link: https://learn.modernagecoders.com/courses/11-plus-maths-preparation-course-uk
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 8 months (32 weeks)
 - Level: UK students ages 9-11 (Years 5-6), grammar and independent school applicants
@@ -7345,7 +7345,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### AP Calculus AB & BC Exam Prep, Live Online, Score 5 Goal
 
 - Link: https://learn.modernagecoders.com/courses/ap-calculus-exam-prep
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 10 months (40 weeks)
 - Level: AP Calculus AB and BC students, grades 11-12
@@ -7374,7 +7374,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### SAT Math 800 Prep: Live Classes for the Digital SAT
 
 - Link: https://learn.modernagecoders.com/courses/sat-math-prep-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹8,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (26 weeks)
 - Level: Grades 10-12, all starting scores
@@ -7406,7 +7406,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Alpha Girls: Elite Tech Mastery & Leadership for Women
 
 - Link: https://learn.modernagecoders.com/courses/alpha-girls-elite-tech-mastery
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Expert Developer to Industry Pioneer/Tech Mogul
@@ -7504,7 +7504,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Advanced Git & GitHub Masterclass for Professionals
 
 - Link: https://learn.modernagecoders.com/courses/git-github-advanced-version-control-masterclass-for-professionals
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 classes (12 weeks · 2 classes/week)
 - Level: Intermediate to advanced (working professionals; basic Git assumed or fast-tracked)
@@ -7552,7 +7552,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Git & GitHub Course for College Students: Team-Ready Skills
 
 - Link: https://learn.modernagecoders.com/courses/git-github-version-control-course-for-college-students
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 classes (12 weeks · 2 classes/week)
 - Level: Beginner to job-ready collaborator (college students and recent graduates)
@@ -7600,7 +7600,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Git & GitHub Course for Teens: Version Control from Zero
 
 - Link: https://learn.modernagecoders.com/courses/git-github-version-control-course-for-teens
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 24 classes (12 weeks · 2 classes/week)
 - Level: Beginner-friendly (ages 13-18) to confident GitHub collaborator
@@ -7650,7 +7650,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Block-Based App Development: Build Apps With No Code
 
 - Link: https://learn.modernagecoders.com/courses/block-coding-app-development-masterclass
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (26 weeks)
 - Level: Complete Beginner to Advanced App Creator
@@ -7748,7 +7748,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Scratch Programming for Kids: 3-Month Course, 50+ Projects
 
 - Link: https://learn.modernagecoders.com/courses/scratch-programming-complete-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 3 months (12 weeks)
 - Level: Complete Beginner to Advanced Scratch Developer
@@ -7783,7 +7783,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### HTML & CSS for Beginners: Build Real Responsive Websites
 
 - Link: https://learn.modernagecoders.com/courses/html-css-course-for-beginners-build-real-websites
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 4 months (16 weeks)
 - Level: Absolute beginner, ages 10 to adult
@@ -7821,7 +7821,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### JavaScript for Teens: Interactive Websites & Browser Games
 
 - Link: https://learn.modernagecoders.com/courses/javascript-course-for-teens-beginners-interactive-web
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (24 weeks)
 - Level: Beginner, ages 13 to 18
@@ -7871,7 +7871,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Python Web Development with Django and Flask Course
 
 - Link: https://learn.modernagecoders.com/courses/python-web-development-django-flask-course
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 6 months (24 weeks)
 - Level: Intermediate, college students and working professionals with Python basics
@@ -7923,7 +7923,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 #### Princess Coders: Complete Coding Course for Girls & Women
 
 - Link: https://learn.modernagecoders.com/courses/princess-coders-complete-coding-masterclass
-- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹7,500/month
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
 - Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
 - Duration: 12 months (52 weeks)
 - Level: Complete Beginner to Advanced Developer
@@ -8021,7 +8021,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 ## Quick answers for common parent questions
 
 - **Demo class**: free, no card needed, book at https://learn.modernagecoders.com/contact/ or via callback.
-- **Class format**: live online with a real teacher, 2 classes/week, small groups (max 10) or 1-on-1.
+- **Class format**: live online with a real teacher; small groups (max 10) at 2 classes/week, or 1-on-1 at 1 class/week (4 a month) in India.
 - **Ages**: 6 to 67 — kids (6-12), teens (13-18), college students and working professionals.
 - **Certificates**: yes, on course completion.
 - **Full catalog page**: https://learn.modernagecoders.com/courses · Course atlas: https://learn.modernagecoders.com/course-atlas

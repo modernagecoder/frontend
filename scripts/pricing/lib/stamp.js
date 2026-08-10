@@ -80,7 +80,7 @@ function renderVisible(key, format, deriveKind, config) {
 
     let amount = r.amount;
     if (deriveKind) {
-        amount = cfgLib.derive(deriveKind, amount, config);
+        amount = cfgLib.derive(deriveKind, amount, config, key);
         // Per-class figures are shown as whole units — ₹187, not ₹187.375.
         amount = r.currency === 'INR' ? Math.round(amount) : Math.round(amount * 100) / 100;
     }

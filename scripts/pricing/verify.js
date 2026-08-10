@@ -103,8 +103,11 @@ function checkScripts(rel, html) {
 }
 
 // $100/$150 are CURRENT again (flat model, 2026-08-01). Retired now means the
-// old $40 flat rate and the withdrawn per-country list figures.
-const RETIRED = /(?:\$|USD\s?)(?:40(?![\d.])|149\.99|374\.99|121\.99|61\.99)|(?:₹|&#8377;|Rs\.?\s?)\s?(?<![\d,])(?:2,?499|4,?999|9,?999)(?![\d.])/;
+// old $40 flat rate and the withdrawn per-country list figures. ₹7,500/₹8,500
+// joined the list on 2026-08-10 when the India 1-on-1 rate moved to ₹4,999
+// (4,999 itself stays listed: isCurrentFigure exempts it while it is live, and
+// the tripwire re-arms by itself if the owner ever moves off it again).
+const RETIRED = /(?:\$|USD\s?)(?:40(?![\d.])|149\.99|374\.99|121\.99|61\.99)|(?:₹|&#8377;|Rs\.?\s?)\s?(?<![\d,])(?:2,?499|4,?999|9,?999|7,?500|8,?500)(?![\d.])/;
 const COMPETITOR_CUE = /kumon|mathnasium|juni|cuemath|outschool|tynker|whitehat|byju|registration fee|per subject|per hour|per class|\$\d+\s*(?:-|–|to)\s*\$?\d+|million|billion|freelance|salary|LPA|k USD/i;
 
 /**
@@ -133,7 +136,10 @@ function currentAmounts(config) {
     return s;
 }
 function isCurrentFigure(text, config) {
-    const digits = String(text).replace(/[^\d]/g, '');
+    // The currency entity must go BEFORE the digit strip: "&#8377;4,999"
+    // would otherwise collapse to "83774999" and a perfectly current price
+    // would be reported as retired on every entity-encoded page.
+    const digits = String(text).replace(/&#8377;|&nbsp;/g, '').replace(/[^\d]/g, '');
     return digits && currentAmounts(config).has(digits);
 }
 
@@ -170,10 +176,11 @@ function checkRetiredFigures(rel, html, config) {
     // Bare price fields in structured data ("highPrice": "4999") — the shape
     // that hid retired figures on 40 locality pages and /pricing itself,
     // because the formatted-figure regex above cannot see plain digits.
-    // 4999 is allowed on camp pages only (the current one-time camp fee).
+    // Figures that are currently sold (4999 became the 1-on-1 rate on
+    // 2026-08-10) pass through the isCurrentFigure exemption below.
     const ldRx2 = /<script[^>]*application\/ld\+json[^>]*>([\s\S]*?)<\/script>/gi;
     while ((m = ldRx2.exec(html)) !== null) {
-        const bare = /"(?:price|lowPrice|highPrice)"\s*:\s*"?(2499|4999|9999)"?/g;
+        const bare = /"(?:price|lowPrice|highPrice)"\s*:\s*"?(2499|4999|9999|7500|8500)"?/g;
         let b;
         while ((b = bare.exec(m[1])) !== null) {
             if (isCurrentFigure(b[1], config)) continue;
@@ -183,15 +190,18 @@ function checkRetiredFigures(rel, html, config) {
         }
     }
 
-    // Visible text. 2,499 and 9,999 have no current use at all; 4,999 is only
-    // legitimate as the one-time camp fee, so it fails when a monthly marker
-    // follows; "$40 a month" was the retired flat group price ($40/hour is a
+    // Visible text. 2,499 has no current use at all; 7,500/8,500 died on
+    // 2026-08-10 when the 1-on-1 rate moved to ₹4,999. 9,999 and 4,999 are
+    // listed but currently live (agents 1-on-1 + camp fee, and the standard
+    // 1-on-1 rate) — isCurrentFigure spares them for as long as the config
+    // sells them, and the tripwires re-arm on their own the day it stops.
+    // "$40 a month" was the retired flat group price ($40/hour is a
     // competitor rate and stays legal).
     const visible = html.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ');
     const VISIBLE_RETIRED = [
-        /(?:₹|&#8377;|Rs\.?\s)\s?(?<![\d,])(?:2,?499|9,?999)(?![\d.])/g,
+        /(?:₹|&#8377;|Rs\.?\s)\s?(?<![\d,])(?:2,?499|9,?999|7,?500|8,?500)(?![\d.])/g,
         /(?:₹|&#8377;|Rs\.?\s)\s?(?<![\d,])4,?999(?![\d.])(?=[^<₹$]{0,40}(?:\/\s?month|\/\s?mo\b|per month|a month))/g,
-        /\b(?:2,?499|9,?999) rupees\b/g,
+        /\b(?:2,?499|9,?999|7,?500|8,?500) rupees\b/g,
         /\b4,?999 rupees(?=[^<]{0,30}(?:a month|per month|\/\s?month))/g,
         /(?:\$|USD\s?)40(?![\dk.,%])(?=[^<]{0,30}(?:a month|\/\s?month|\/\s?mo\b|per month))/g
     ];
@@ -239,7 +249,7 @@ function checkFile(rel, config) {
         const derive = (attrs.match(/data-price-derive\s*=\s*"([^"]*)"/i) || [])[1];
         let expectAmount = r.amount;
         if (derive) {
-            expectAmount = cfgLib.derive(derive, r.amount, config);
+            expectAmount = cfgLib.derive(derive, r.amount, config, key);
             expectAmount = r.currency === 'INR' ? Math.round(expectAmount) : Math.round(expectAmount * 100) / 100;
         }
 

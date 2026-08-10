@@ -103,6 +103,24 @@ test('the Mini Batch stays visible for Indian visitors at ₹2,999', function ()
     assert.ok(card.textContent.indexOf('2999') !== -1, 'and priced ₹2,999: ' + card.textContent);
 });
 
+test('India overlays: intl-default copy swaps to india-reveal for Indian visitors', function () {
+    const html = '<!doctype html><html><body>' +
+        '<li><span data-intl-default="true">8 live one-hour classes a month, 2 per week</span>' +
+        '<span data-india-reveal="true" hidden>4 live one-hour classes a month, 1 per week</span></li>' +
+        '</body></html>';
+    const india = render(html, 'india');
+    assert.strictEqual(india.document.querySelector('[data-intl-default]').style.display, 'none',
+        'the international schedule must be hidden for an Indian visitor');
+    assert.strictEqual(india.document.querySelector('[data-india-reveal]').hidden, false,
+        'the India schedule must be revealed for an Indian visitor');
+
+    const intl = render(html, 'intl');
+    assert.notStrictEqual(intl.document.querySelector('[data-intl-default]').style.display, 'none',
+        'the international schedule must stay visible abroad');
+    assert.strictEqual(intl.document.querySelector('[data-india-reveal]').hidden, true,
+        'the India schedule must stay hidden abroad');
+});
+
 test('the runtime holds no price literals of its own', function () {
     const src = fs.readFileSync(path.join(ROOT, 'src', 'js', 'international-pricing.js'), 'utf8');
     const offenders = [];
@@ -125,14 +143,14 @@ test('the removed worldwide layers are really gone', function () {
     assert.ok(data.indexOf('worldwide') === -1, 'no per-country table may ship to the browser');
 });
 
-test('maths pages charge the maths India exception', function () {
+test('maths pages resolve the maths India table', function () {
     const html = '<!doctype html><html><body data-subject="maths">' +
         '<span data-price="maths.india.personal">x</span></body></html>';
     const stamped = stamper.stamp(html, config).html;
-    assert.ok(stamped.indexOf('₹8,500') !== -1, 'stamped: ' + stamped);
+    assert.ok(stamped.indexOf('₹4,999') !== -1, 'stamped: ' + stamped);
     const win = render(stamped, 'india');
     const el = win.document.querySelector('[data-price]');
-    assert.ok(el.textContent.indexOf('8,500') !== -1, 'rendered: ' + el.textContent);
+    assert.ok(el.textContent.indexOf('4,999') !== -1, 'rendered: ' + el.textContent);
 });
 
 // ─── the real pricing page, end to end ───
@@ -164,7 +182,7 @@ function withPricing(scriptRel, region) {
     return win;
 }
 
-test('the camp fee is flat: ₹4,999 in India, $60 everywhere else', function () {
+test('the camp fee is flat: one India figure, one USD figure, from the config', function () {
     const india = withPricing('src/js/summer-camp-enrollment.js', 'india');
     assert.strictEqual(india.SummerCampEnrollment.getCoursePrice(), config.plans.camps.india.oneTime);
     assert.strictEqual(india.SummerCampEnrollment.getCourseCurrency(), 'INR');
@@ -199,7 +217,7 @@ test('a degraded page (no pricing data) refuses to charge rather than guess', fu
 
     assert.strictEqual(w.CoursePayment.getIntlPricing('group'), null, 'no data, no price');
     let alerted = null; w.alert = function (m) { alerted = m; };
-    w.CoursePayment.config = { defaultPricing: { personal: { amount: 7500, display: '₹7,500/month' } }, courses: {} };
+    w.CoursePayment.config = { defaultPricing: { personal: { amount: 4999, display: '₹4,999/month' } }, courses: {} };
     w.CoursePayment.showPaymentModal('personal');
     assert.ok(alerted, 'the modal must refuse to open');
     assert.ok(!w.document.querySelector('.payment-modal-overlay'), 'and no modal in the DOM');

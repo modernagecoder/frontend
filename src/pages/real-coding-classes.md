@@ -413,7 +413,7 @@ Try a free demo
 
 Just you and the mentor
 
-₹7,500 / month$150 USD / month
+₹4,999 / month$150 USD / month
 
 - 2 private sessions every week
 - Curriculum bent around your goals
@@ -464,7 +464,7 @@ Every class is live — never recorded-video-only. You learn in a small batch (u
 
 What do the classes cost?
 
-Pricing is fully transparent: Group classes (up to 10 students) are ₹1,499 per month, Mini batches (3–4 students, India) are ₹2,999 per month, and 1-on-1 personal classes are ₹7,500 per month. International students pay a price set for their own country, shown on each page in their local currency. There are no hidden costs, and the first demo class is free.
+Pricing is fully transparent: Group classes (up to 10 students) are ₹1,499 per month, Mini batches (3–4 students, India) are ₹2,999 per month, and 1-on-1 personal classes are ₹4,999 per month. International students pay a price set for their own country, shown on each page in their local currency. There are no hidden costs, and the first demo class is free.
 
 Do you teach students outside India? What about time zones?
 

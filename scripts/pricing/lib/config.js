@@ -329,10 +329,17 @@ function formatLocal(amount, currency, options) {
  * substituted. The site quotes "₹187 per live class" in ~52 places; leaving
  * those behind after a price change is how the visible arithmetic stops
  * matching the headline price.
+ *
+ * `key` is the anchor's full subject.region.tier. Plans that do not run on
+ * the default schedule (the India 1-on-1 plan is 1 class a week, 4 a month,
+ * since 2026-08-10) carry their own classes-per-month figure in
+ * display.classesPerMonthOverrides; dividing their price by the default 8
+ * would publish arithmetic the timetable contradicts.
  */
-function derive(kind, amount, config) {
+function derive(kind, amount, config, key) {
     const cfg = config || load();
-    const perMonth = cfg.display.classesPerMonth;
+    const overrides = cfg.display.classesPerMonthOverrides || {};
+    const perMonth = (key && overrides[key]) || cfg.display.classesPerMonth;
     const hours = cfg.display.hoursPerClass;
     switch (kind) {
         case 'perClass': return amount / perMonth;

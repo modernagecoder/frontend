@@ -9,14 +9,14 @@
  */
 window.MAC_PRICING = {
   "version": 2,
-  "updated": "2026-08-03",
+  "updated": "2026-08-10",
   "generatedFrom": "pricing/pricing.config.jsonc",
   "plans": {
     "coding": {
       "india": {
         "group": 1499,
         "miniBatch": 2999,
-        "personal": 7500
+        "personal": 4999
       },
       "international": {
         "group": 100,
@@ -28,7 +28,7 @@ window.MAC_PRICING = {
       "india": {
         "group": 1499,
         "miniBatch": 2999,
-        "personal": 8500
+        "personal": 4999
       },
       "international": {
         "group": 100,
@@ -86,6 +86,10 @@ window.MAC_PRICING = {
       "oneTime": ""
     },
     "classesPerMonth": 8,
+    "classesPerMonthOverrides": {
+      "coding.india.personal": 4,
+      "maths.india.personal": 4
+    },
     "hoursPerClass": 1
   }
 };

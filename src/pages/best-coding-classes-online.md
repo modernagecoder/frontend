@@ -334,7 +334,7 @@ Book Free Demo →
 
 ₹4,999
 
-per month · 2 private classes/week
+per month · 1 private class/week (4 a month)
 
 - **1 instructor : 1 student always**
 - Fully personalised curriculum

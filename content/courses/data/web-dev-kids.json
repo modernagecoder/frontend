@@ -24,7 +24,7 @@
     "price": {
       "group": "₹1,499/month",
       "miniBatch": "₹2,999/month",
-      "personal": "₹7,500/month"
+      "personal": "₹4,999/month"
     },
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Advanced Young Developer",
@@ -1239,7 +1239,7 @@
     },
     {
       "question": "How is the course priced?",
-      "answer": "Group learning costs ₹1,499 per month for 2 live classes a week with no more than 10 kids per batch. A mini batch of 3-4 children is ₹2,999 per month, and 1-on-1 personal classes with 2 private sessions weekly cost ₹7,500 per month. Families outside India pay a price set for their own country, shown on this page in their local currency."
+      "answer": "Group learning costs ₹1,499 per month for 2 live classes a week with no more than 10 kids per batch. A mini batch of 3-4 children is ₹2,999 per month, and 1-on-1 personal classes with 2 private sessions weekly cost ₹4,999 per month. Families outside India pay a price set for their own country, shown on this page in their local currency."
     },
     {
       "question": "Can we see a class before paying anything?",

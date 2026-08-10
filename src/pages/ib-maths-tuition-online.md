@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your child. Op
 
 [![IB Mathematics AA and AI Masterclass course thumbnail](/images/ib-maths-aa-ai.webp)Best fit  IB Mathematics AA & AI Masterclass Your exact IB course taught to a 7: paper-specific technique, GDC fluency and honest IA coaching. AA & AI · SL & HL8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ib-mathematics-aa-ai-masterclass)[![College Mathematics Masterclass course thumbnail](/images/college-level-maths.webp)  College Mathematics Masterclass Calculus, linear algebra and the mathematics behind engineering, computer science and data careers. College level8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/college-mathematics-complete-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
 
-Good IB maths tuition is **course-specific**: Analysis & Approaches and Applications & Interpretation are genuinely different subjects, each split into SL and HL, with different papers, calculator rules and emphasis. A tutor must teach *your* course, coach the Internal Assessment honestly (it is a fifth of the grade), and train paper technique on real past questions. That is what we do: 8 live one-hour classes a month, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
+Good IB maths tuition is **course-specific**: Analysis & Approaches and Applications & Interpretation are genuinely different subjects, each split into SL and HL, with different papers, calculator rules and emphasis. A tutor must teach *your* course, coach the Internal Assessment honestly (it is a fifth of the grade), and train paper technique on real past questions. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
 
 Why IB maths needs IB-specific help
 
@@ -293,7 +293,7 @@ Often, yes, and this is the highest-leverage timing in the IB. Predicted grades 
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract. IB-specialist agencies bill $60 to $120 an hour for the same format.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. IB-specialist agencies bill $60 to $120 an hour for the same format.
 
 Do you cover MYP maths too?
 

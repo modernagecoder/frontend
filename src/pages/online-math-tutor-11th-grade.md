@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your teen and 
 
 [![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery The course-and-tests-as-one-skill approach this page describes, run by a dedicated mentor. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![SAT Math 800 Prep course thumbnail](/images/sat-math-prep.webp)  SAT Math 800 Prep Course The junior-year test machine: Desmos strategy, adaptive pacing and full mock cycles. Grades 10-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/sat-math-prep-course)[![AP Calculus Exam Prep course thumbnail](/images/ap-calculus-prep.webp)  AP Calculus AB & BC Exam Prep For juniors already in calculus: the FRQ-rubric track with a score-5 goal. AP AB & BC8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ap-calculus-exam-prep)See what is includedThe 20-second answer
 
-Good 11th grade math tutoring treats the junior year as **one campaign, not three emergencies**: Algebra 2 taught for ownership (it is the SAT's core content anyway), the test calendar planned backward from application season, and every study hour engineered to pay both the GPA and the score. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
+Good 11th grade math tutoring treats the junior year as **one campaign, not three emergencies**: Algebra 2 taught for ownership (it is the SAT's core content anyway), the test calendar planned backward from application season, and every study hour engineered to pay both the GPA and the score. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
 
 Why junior year crushes
 
@@ -205,7 +205,7 @@ An honest comparison
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | 8 live one-hour classes with a dedicated mentor, understanding-first teaching | Rebuilding understanding and confidence, sustained progress |
+| Modern Age Coders | Live one-hour classes with a dedicated mentor, understanding-first teaching | Rebuilding understanding and confidence, sustained progress |
 | Mathnasium center | $300-$450 / month + enrollment fee | Drop-in worksheet floor with rotating instructors | Children who focus better out of the house |
 | Kumon | $150-$220 / subject / month | Daily worksheet packets, brief check-ins, no taught lessons | Building a drill habit and calculation speed |
 | Local private tutor | $35-$80 / hour | Quality varies; twice-weekly quickly costs $280-$640 a month | Short-term help when you have found a gem nearby |
@@ -243,7 +243,7 @@ Structurally, not with pep talks: a visible plan (chaos is the real stressor), t
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract, and no separate "SAT package" upsell, the campaign is the product.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract, and no separate "SAT package" upsell, the campaign is the product.
 
 What about SAT Subject-style depth or AP exams in May?
 

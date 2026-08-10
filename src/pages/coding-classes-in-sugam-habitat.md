@@ -153,7 +153,7 @@ Book a free demo
 
 ### One-to-one personalised
 
-₹7,500/ month
+₹4,999/ month
 
 - Two live classes every week
 - A dedicated teacher, fully on your child's pace
@@ -162,7 +162,7 @@ Book a free demo
 
 Book a free demo
 
-Both plans are billed monthly and include two live classes every week. Summer camps, corporate training and college tracks are also available — call [+91 91233 66161](tel:+919123366161) for details.
+Both plans are billed monthly. The mini batch runs two live classes a week; one-to-one runs one live class a week. Summer camps, corporate training and college tracks are also available — call [+91 91233 66161](tel:+919123366161) for details.
 
 Questions parents ask
 

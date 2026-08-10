@@ -128,7 +128,7 @@ Start Free Demo
 
 ### 1-on-1 Personal
 
-₹7,500per month · fully personalised
+₹4,999per month · fully personalised
 
 - Dedicated personal mentor
 - Custom capstone project
@@ -183,7 +183,7 @@ Complete the C++ course modules — Core C++, OOP, the STL and DSA — and build
 
 How much does the C++ certification course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹7,500 per month. The certificate is included on completion, and a free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. The certificate is included on completion, and a free demo class is available first.
 
 Is it suitable for both school and college students?+
 

@@ -824,7 +824,12 @@ class CourseGenerator {
             {
                 "@type": "Offer",
                 "name": "Personalized 1-on-1",
-                "description": "Weekly two private sessions with a dedicated mentor",
+                // INR offer, so it describes the India schedule: 1 private
+                // class a week since 2026-08-10 — except the premium agents
+                // courses, which run 2 a week in every region.
+                "description": this.isPremiumAgentsCourse(meta.slug)
+                    ? "Weekly two private sessions with a dedicated mentor"
+                    : "One private session a week (four a month) with a dedicated mentor",
                 "price": tierPrices.personal,
                 "priceCurrency": "INR",
                 "availability": "https://schema.org/InStock",
@@ -1135,7 +1140,11 @@ class CourseGenerator {
             html = html.replace('<div class="enrollment-options">',
                 '<div class="enrollment-options" style="grid-template-columns:minmax(280px,380px);justify-content:center;">');
             html = html.replace('<p>Choose your plan and start your journey into the future of technology today.</p>',
-                '<p>This course runs as 1-on-1 private mentorship only: two private classes a week, a pace set to you, and a dedicated mentor on your screen.</p>');
+                '<p>This course runs as 1-on-1 private mentorship only: ' +
+                (this.isPremiumAgentsCourse(meta.slug)
+                    ? 'two private classes a week'
+                    : 'one private class a week') +
+                ', a pace set to you, and a dedicated mentor on your screen.</p>');
         } else {
             html = html.replace(/[ \t]*<!-- TIER:(?:GROUP|MINIBATCH|INTL_GROUP) (?:START|END) -->\r?\n/g, '');
         }
@@ -1147,6 +1156,16 @@ class CourseGenerator {
         html = html.replace(/{{PRICE_GROUP}}/g, tierP.groupDisplay);
         html = html.replace(/{{PRICE_MINIBATCH}}/g, tierP.miniBatchDisplay);
         html = html.replace(/{{PRICE_PERSONAL}}/g, tierP.personalDisplay);
+        // The 1-on-1 schedule line. Standard courses run the India schedule
+        // (1 private class a week, 4 a month, since 2026-08-10) as the static
+        // default, with the international schedule (2 a week) revealed to
+        // visitors abroad. The premium agents courses run 2 a week for
+        // everyone, in every region.
+        html = html.replace(/{{PERSONAL_SCHEDULE}}/g,
+            this.isPremiumAgentsCourse(meta.slug)
+                ? '2 Private Classes per Week'
+                : '<span data-india-only="true">1 Private Class per Week &middot; 4 a Month</span>' +
+                  '<span data-intl-only="true" hidden>2 Private Classes per Week</span>');
         // Lifetime access was retired on 2026-07-31. The placeholder is still
         // blanked rather than left unreplaced, so a stale {{PRICE_LIFETIME}} in
         // any template can never reach a published page as literal text.

@@ -95,10 +95,12 @@ const LEGACY_INTERNATIONAL = {
 };
 
 // The India prices before 2026-08-01 — the first India price change ever,
-// which is what exposed every still-unanchored rupee element.
+// which is what exposed every still-unanchored rupee element — plus the
+// 2026-08-01 personal rates (₹7,500 coding / ₹8,500 maths), retired in turn
+// on 2026-08-10 when the 1-on-1 rate moved to ₹4,999.
 const LEGACY_INDIA = {
-    coding: { '1499': 'group', '2499': 'miniBatch', '4999': 'personal' },
-    maths:  { '1499': 'group', '2499': 'miniBatch', '4999': 'personal' },
+    coding: { '1499': 'group', '2499': 'miniBatch', '4999': 'personal', '7500': 'personal' },
+    maths:  { '1499': 'group', '2499': 'miniBatch', '4999': 'personal', '8500': 'personal' },
     agents: { '2499': 'group', '4999': 'miniBatch', '9999': 'personal' },
     school: { '1999': 'group', '2999': 'personal' }
 };

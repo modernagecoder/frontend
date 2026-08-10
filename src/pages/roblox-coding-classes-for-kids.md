@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your child. Op
 
 [![Game Development Masterclass for Kids course thumbnail](/images/game-dev-kids.webp)Best fit  Game Development Masterclass for Kids The full builder's arc: design, scripting and shipping real playable games, Roblox-ready. Ages 9-148 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/game-development-masterclass-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids The younger on-ramp: blocks plus AI builders for the 8-12 crowd still warming up to text code. Ages 8-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The general-programming road: Luau's ideas re-met in Python, with AI projects on top. Ages 9-138 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)See what is includedThe 20-second answer
 
-Good Roblox classes teach **real Luau programming inside Roblox Studio**, variables, events, functions, loops, not just terrain painting and free models. They turn the obsession into a skill: the child designs, scripts, tests and ships actual playable games. That is what we do: 8 live one-hour classes a month with a dedicated mentor, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first. Independent classes, not affiliated with Roblox Corporation.
+Good Roblox classes teach **real Luau programming inside Roblox Studio**, variables, events, functions, loops, not just terrain painting and free models. They turn the obsession into a skill: the child designs, scripts, tests and ships actual playable games. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first. Independent classes, not affiliated with Roblox Corporation.
 
 The obsession, redirected
 
@@ -254,7 +254,7 @@ An honest comparison
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | 8 live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real maker, with the Python road open |
+| Modern Age Coders | Live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real maker, with the Python road open |
 | Premium 1:1 platforms (Juni-style) | $200-$300 / month | Live 1-on-1, often 2-4 sessions monthly at 30-50 minutes, rotating instructors common | Families who want brand-name polish and can absorb the price |
 | Marketplace classes (Outschool-style) | $15-$25 / class | One-off or short-series group classes of varying quality; no continuity of mentor or curriculum | Sampling topics cheaply before committing anywhere |
 | Coding centers (Code Ninjas-style) | $175-$350 / month | Drop-in dojo floors with game-based curriculum and rotating guides, plus the drive | Children who focus better out of the house |
@@ -296,7 +296,7 @@ Because assembly without understanding hits a ceiling fast: the moment your chil
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract. US kids-coding programs typically run $175 to $350 a month for less contact time.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. US kids-coding programs typically run $175 to $350 a month for less contact time.
 
 What equipment does my child need?
 

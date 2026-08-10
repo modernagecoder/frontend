@@ -138,7 +138,7 @@ Start Free Demo
 
 ### 1-on-1 Personal
 
-₹7,500per month · fully personalised
+₹4,999per month · fully personalised
 
 - Dedicated personal mentor
 - Custom pace & schedule
@@ -193,7 +193,7 @@ Yes. Because classes are fully online, students join from any city in India and 
 
 How much do online Java classes cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 classes are ₹7,500 per month. A free demo class is available before you enrol.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. A free demo class is available before you enrol.
 
 Who are the online Java classes for?+
 

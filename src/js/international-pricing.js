@@ -140,6 +140,15 @@ const InternationalPricing = {
     // Toggle catalog price chips (course.html) regardless of region
     this.updateCatalogPriceChips();
 
+    // Inverse region pair for pages WRITTEN for international audiences.
+    // Most of the site ships the India view as its static markup and uses
+    // [data-india-only]/[data-intl-only] to adapt it abroad. Pages whose
+    // static copy is USD-coherent (the US/grade tutoring cluster) do the
+    // opposite: [data-intl-default] is visible for crawlers and international
+    // visitors, and an Indian visitor — whose prices the anchors above have
+    // just rewritten to rupees — gets it swapped for [data-india-reveal].
+    if (this.isIndian) this.applyIndiaOverlays();
+
     // Pages that ship their own India/International toggle panels (the maths hub
     // pages) keep both currencies in static markup. Just activate the panel that
     // matches the visitor; skip DOM price-swapping so the static prices stand.
@@ -250,7 +259,14 @@ const InternationalPricing = {
 
       var derive = el.getAttribute('data-price-derive');
       if (derive) {
-        var perMonth = (data.display && data.display.classesPerMonth) || 8;
+        // A plan can run on its own timetable: the India 1-on-1 plan is 1
+        // class a week (4 a month), while everything else runs 8 a month.
+        // The overrides map is keyed by the resolved subject.region.tier —
+        // resolved, because an Indian visitor on an internationally-anchored
+        // element must get the Indian schedule along with the rupee price.
+        var overrides = (data.display && data.display.classesPerMonthOverrides) || {};
+        var perMonth = overrides[subject + '.' + region + '.' + tier] ||
+          (data.display && data.display.classesPerMonth) || 8;
         var hours = (data.display && data.display.hoursPerClass) || 1;
         if (derive === 'perClass') amount = amount / perMonth;
         else if (derive === 'perHour') amount = amount / (perMonth * hours);
@@ -306,6 +322,18 @@ const InternationalPricing = {
   // and crawlers always see the India-default view without any JS.
   showIntlOnlySections() {
     document.querySelectorAll('[data-intl-only="true"]').forEach(function(el) {
+      el.hidden = false;
+      el.style.removeProperty('display');
+    });
+  },
+
+  // For Indian visitors on internationally-written pages: hide the
+  // USD-schedule copy, reveal the India-schedule copy. See init().
+  applyIndiaOverlays() {
+    document.querySelectorAll('[data-intl-default="true"]').forEach(function(el) {
+      el.style.display = 'none';
+    });
+    document.querySelectorAll('[data-india-reveal="true"]').forEach(function(el) {
       el.hidden = false;
       el.style.removeProperty('display');
     });

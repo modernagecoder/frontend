@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your child. Op
 
 [![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![AP Calculus AB and BC Exam Prep course thumbnail](/images/ap-calculus-prep.webp)  AP Calculus AB & BC Exam Prep Three ideas taught like ideas, then trained against real FRQ rubrics. Score 5 goal. AP AB & BC8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ap-calculus-exam-prep)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
 
-A good precalculus tutor does three things: **teaches the unit circle as three triangles, not thirty memorized points**, so trigonometry becomes reconstruction instead of recall; **makes function behavior visual**, asymptotes, end behavior, composition, inverses, because calculus is entirely about function behavior; and **keeps the AP or college placement target in view** from week one. That is what we do: 8 live one-hour classes a month, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
+A good precalculus tutor does three things: **teaches the unit circle as three triangles, not thirty memorized points**, so trigonometry becomes reconstruction instead of recall; **makes function behavior visual**, asymptotes, end behavior, composition, inverses, because calculus is entirely about function behavior; and **keeps the AP or college placement target in view** from week one. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
 
 Why precalculus feels like two courses
 
@@ -254,7 +254,7 @@ An honest comparison
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | 8 live one-hour classes with a dedicated mentor, concrete-first teaching | Rebuilding understanding and confidence, sustained progress |
+| Modern Age Coders | Live one-hour classes with a dedicated mentor, concrete-first teaching | Rebuilding understanding and confidence, sustained progress |
 | Mathnasium center | $300-$450 / month + enrollment fee | Drop-in worksheet floor with rotating instructors | Children who focus better out of the house |
 | Kumon | $150-$220 / subject / month | Daily worksheet packets, brief check-ins, no taught lessons | Building a drill habit and calculation speed |
 | Local private tutor | $35-$80 / hour | Quality varies; twice-weekly quickly costs $280-$640 a month | Short-term help when you have found a gem nearby |
@@ -288,7 +288,7 @@ Yes. We track both pillars against AP-readiness explicitly, preview limits hones
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group and 1-on-1 plans are billed month to month, with 8 live one-hour classes a month, and every student starts with a free demo class. No registration fee, no contract. US tutoring at this level commonly runs $60 to $150 per hour.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. US tutoring at this level commonly runs $60 to $150 per hour.
 
 Who teaches precalculus?
 
