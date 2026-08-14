@@ -447,7 +447,7 @@
         <!-- ANSWER CAPSULE (Phase 4.1 GEO — quotable answer for AI engines) -->
         <div class="answer-capsule-wrap">
             <div class="answer-capsule">
-                <p class="answer-capsule-lede">Modern Age Coders keeps pricing simple: live group classes start at &#8377;1,499 a month, a mini batch with near one-to-one attention starts at &#8377;2,999, and fully personalised one-to-one classes are &#8377;4,999 a month for <span data-india-only="true">one private class a week (4 a month)</span><span data-intl-only="true" hidden>two private classes a week</span>; plans outside India are shown in local currency. The Copilot Studio AI agents courses are taught 1-on-1 only. Every plan is live, covers coding or maths for ages 6 to 67, and starts with a free demo before you pay.</p>
+                <p class="answer-capsule-lede">Modern Age Coders keeps pricing simple: live group classes start at &#8377;1,499 a month,<span data-india-only="true"> a mini batch with near one-to-one attention starts at &#8377;2,999,</span> and fully personalised one-to-one classes are &#8377;4,999 a month for <span data-india-only="true">one private class a week (4 a month)</span><span data-intl-only="true" hidden>two private classes a week</span>; plans outside India are shown in local currency. The Copilot Studio AI agents courses are taught 1-on-1 only. Every plan is live, covers coding or maths for ages 6 to 67, and starts with a free demo before you pay.</p>
                 <p class="answer-capsule-meta"><span class="answer-capsule-stat">Rated 4.9 across 547 Google reviews</span></p>
                 <figure class="answer-capsule-quote">
                     <blockquote>&ldquo;Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.&rdquo;</blockquote>
@@ -925,7 +925,15 @@
         </section>
 
         <!-- ====== INTERNATIONAL PRICING SECTION ====== -->
-        <section class="intl-pricing-section">
+        <!-- Ships hidden and is only ever revealed outside India. The prices in
+             here are ANCHORS, and an anchor names the plan while the region
+             follows the visitor — so for an Indian family every figure below
+             re-priced to rupees and sat under a hardcoded "USD / month" label
+             (owner screenshot, 2026-08-15). Indian visitors already have their
+             own rupee cards above, and owner instruction 2026-08-05 is that
+             international pricing must never be shown to an Indian student.
+             Same fix, same reason, as the course template's .cd-intl block. -->
+        <section class="intl-pricing-section" data-intl-only="true" hidden>
 <div class="intl-pricing-inner">
                 <!-- Header -->
                 <div class="intl-header">

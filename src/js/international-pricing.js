@@ -630,10 +630,15 @@ const InternationalPricing = {
 
   // ─── Hide Old International Sections ───
   hideInternationalSections() {
-    // Pricing page: .intl-pricing-section
-    document.querySelectorAll('.intl-pricing-section').forEach(function(el) {
-      el.style.display = 'none';
-    });
+    // .intl-pricing-section (pricing.html, and nowhere else) used to be hidden
+    // here. That left it with no audience at all: this function only runs
+    // abroad, so the one visitor who ever saw the section was the Indian one it
+    // is not written for — and its anchors re-priced to rupees under a
+    // hardcoded "USD / month" label. The section now ships
+    // data-intl-only="true" hidden, so India never sees it and the visitor
+    // outside India does, in dollars. Nothing else is changed here: the course
+    // template's own international block is still hidden by the heading loop
+    // and the #intl-pricing-grid rule below.
 
     // Course template: International pricing box (by heading text)
     document.querySelectorAll('h3, h4').forEach(function(heading) {
