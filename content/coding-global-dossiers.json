@@ -27,6 +27,52 @@
     "confirmed at primary source, and second-hand accounts contradicted each other on",
     "both the start year and which credit it covered. It was removed from the page."
   ],
+  "coding-classes-in-illinois": {
+    "market": "Illinois",
+    "bodyClass": "cg-il",
+    "curriculumAuthority": "Illinois computer science learning standards, written by the State Board of Education under HB 2170 and delivered by the end of 2021. The legal frame is an ENTITLEMENT to be offered a course, which is the page's spine: a floor, not a ceiling.",
+    "localProject": "Chicago Data Portal beach water quality. Chicago Park District issues a swim advisory when predicted E. coli reaches at least 235 Colony Forming Units per 100 ml, and publishes lab data, advisories and model predictions daily through the season. Trap: CLASS IMBALANCE and the accuracy paradox. Advisories are rare, so a model that always answers safe scores about the same accuracy as a real one. Forces confusion matrix, precision and recall, and the judgement that a missed advisory and a false alarm are not equivalent harms. Sixth distinct KIND of error in the cluster.",
+    "requiredMentions": [
+      "HB 2170",
+      "Education and Workforce Equity Act",
+      "Illinois Legislative Black Caucus",
+      "intensive instruction in computer literacy",
+      "Chicago Park District",
+      "Colony Forming Units",
+      "Chicago Public Schools",
+      "Naperville",
+      "Schaumburg",
+      "State Board of Education"
+    ],
+    "sources": [
+      {
+        "claim": "HB 2170, the Education and Workforce Equity Act, was signed in March 2021 and championed by the Illinois Legislative Black Caucus. It requires schools to offer every student the opportunity to take at least one computer science course aligned to rigorous CS learning standards beginning in the 2023-2024 school year; requires ISBE to develop computer science learning standards, delivered by the end of 2021; requires districts to ensure students gain computer literacy skills starting in elementary school; and requires high school students to take one year of a course that includes intensive instruction in computer literacy beginning in the 2022-2023 school year.",
+        "citation": "Illinois HB 2170, Education and Workforce Equity Act, 2021",
+        "url": "https://edsystemsniu.org/hb-2170-overview/"
+      },
+      {
+        "claim": "Chicago Public Schools made computer science a high school graduation requirement in 2016, ahead of the state and ahead of almost every large district in the United States.",
+        "citation": "Contemporaneous reporting on the CPS graduation requirement, 2016",
+        "url": "https://techcrunch.com/2016/02/24/computer-science-is-now-a-high-school-graduation-requirement-in-chicagos-public-school-district"
+      },
+      {
+        "claim": "The Chicago Park District monitors Lake Michigan beach water quality, testing for Escherichia coli as an indicator species, and a swim advisory is issued when the predicted E. coli level is at least 235 Colony Forming Units per 100 ml. The Chicago Data Portal publishes Beach E. coli Predictions, Beach Lab Data and Beach Swim Advisories, updated daily during the beach season. The City worked with the Park District, volunteer data scientists and university students on the forecasting model.",
+        "citation": "City of Chicago Data Portal, Beach E. coli Predictions",
+        "url": "https://data.cityofchicago.org/Parks-Recreation/Beach-E-coli-Predictions/xvsz-3xcj"
+      },
+      {
+        "claim": "Illinois has 260,055 Indian Americans, 2.03 percent of the state population.",
+        "citation": "2020 United States Census",
+        "url": "https://en.wikipedia.org/wiki/Indian_Americans"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "An AP computer science course counts toward the three years of mathematics required for graduation in Illinois.",
+        "why": "Widely reported but not confirmed at primary source, and the New Jersey lesson applies: a credential claim that resists sourcing gets stated as unconfirmed, never asserted. The page and its FAQ say plainly that we could not confirm it and direct families to their counsellor for the rule in force for their cohort."
+      }
+    ]
+  },
   "coding-classes-in-new-york": {
     "market": "New York",
     "bodyClass": "cg-ny",

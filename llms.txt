@@ -286,6 +286,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Texas, USA: https://learn.modernagecoders.com/coding-classes-in-texas
 - California, USA: https://learn.modernagecoders.com/coding-classes-in-california
 - New York State, USA: https://learn.modernagecoders.com/coding-classes-in-new-york
+- Illinois, USA: https://learn.modernagecoders.com/coding-classes-in-illinois
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states
