@@ -28,6 +28,65 @@
     "both the start year and which credit it covered. It was removed from the page."
   ],
 
+  "coding-classes-in-ontario": {
+    "market": "Ontario",
+    "bodyClass": "cg-on",
+    "curriculumAuthority": "Ontario mathematics curriculum, Grades 1 to 8 (2020). Six strands, with coding placed inside the Algebra strand rather than taught as a separate subject. Ontario was the first province in Canada to do this.",
+    "localProject": "IESO hourly Ontario electricity demand against temperature. Trap: the relationship is V-shaped, because Ontario heats in winter and cools in summer. A single straight-line fit returns a near-zero correlation and invites the student to conclude that temperature does not drive electricity demand, which is spectacularly wrong. The fix is to model two regimes, or to use heating and cooling degree days. This is a model-misspecification trap, deliberately a different KIND of error from the metric-definition trap used on the New Jersey page.",
+    "requiredMentions": [
+      "Ontario Secondary School Diploma",
+      "Social-Emotional Learning Skills and Mathematical Processes",
+      "Algebra strand",
+      "Financial Literacy Graduation Requirement",
+      "40 hours of community involvement",
+      "Ontario Secondary School Literacy Test",
+      "IESO",
+      "Forward Sortation Area",
+      "heating and cooling degree days",
+      "Spatial Sense",
+      "ICS4U",
+      "Digital Technology and Innovations in the Changing World"
+    ],
+    "sources": [
+      {
+        "claim": "The 2020 Ontario Grades 1 to 8 mathematics curriculum has six strands: Number, Algebra, Data, Spatial Sense, Financial Literacy, and Social-Emotional Learning Skills and Mathematical Processes. Coding sits inside the Algebra strand. Grade 1 students write code to order a sequence of steps; Grade 2 develop code to move multiple objects from one location on a grid to another; Grade 3 write code to perform a repeating operation such as a repeating add 3; Grade 4 write and read code to create geometric designs.",
+        "citation": "Government of Ontario, mathematics curriculum Grades 1 to 8, effective 2020",
+        "url": "https://www.ontario.ca/page/math-curriculum-grades-1-8"
+      },
+      {
+        "claim": "OSSD requires a minimum of 30 credits. Students entering Grade 9 in 2023 or earlier need 18 compulsory and 12 optional; those entering in 2024-25 onwards need 17 compulsory and 13 optional. All cohorts must earn at least two of the 30 credits online. Students must meet the literacy graduation requirement via the OSSLT, the OSSLC, or an adjudication process, and complete 40 hours of community involvement activities.",
+        "citation": "Ontario Schools, Kindergarten to Grade 12: Policy and Program Requirements, section 6",
+        "url": "https://www.ontario.ca/document/ontario-schools-kindergarten-grade-12-policy-and-program-requirements/diploma-and-certificate-requirements-related-procedures"
+      },
+      {
+        "claim": "Starting in the 2026-2027 school year, students who enter Grade 9 in 2025-2026 and onwards must meet a Financial Literacy Graduation Requirement, achieving a mark of 70 percent or higher on the financial literacy modules.",
+        "citation": "Ontario Schools, Kindergarten to Grade 12: Policy and Program Requirements, section 6",
+        "url": "https://www.ontario.ca/document/ontario-schools-kindergarten-grade-12-policy-and-program-requirements/diploma-and-certificate-requirements-related-procedures"
+      },
+      {
+        "claim": "The IESO Data Directory publishes Ontario demand and market demand for each hour, plus hourly electricity consumption aggregated by Forward Sortation Area, which is the first three characters of a postal code. It also publishes the Hourly Ontario Energy Price.",
+        "citation": "Independent Electricity System Operator, Data Directory",
+        "url": "https://www.ieso.ca/power-data/data-directory"
+      },
+      {
+        "claim": "Ontario secondary computer studies runs on The Ontario Curriculum, Grades 10 to 12: Computer Studies, revised 2008. Course codes: ICS3U (Grade 11 university preparation), ICS3C (Grade 11 college preparation), ICS4U (Grade 12 university preparation), ICS4C (Grade 12 college preparation). The Grade 10 course ICS2O was replaced from September 2023 by ICD2O, Digital Technology and Innovations in the Changing World. ICS3U and ICS4U remain on the 2008 revision.",
+        "citation": "Ontario Ministry of Education, The Ontario Curriculum Grades 10 to 12: Computer Studies, 2008 Revised",
+        "url": "https://www.edu.gov.on.ca/eng/curriculum/secondary/computer10to12_2008.pdf"
+      },
+      {
+        "claim": "Ontario has 1,052,045 residents of Indian origin, 7.5 percent of the provincial population, the largest such population of any Canadian province.",
+        "citation": "2021 Census of Canada",
+        "url": "https://en.wikipedia.org/wiki/Indo-Canadians"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "Our courses can count toward the two online credits the OSSD requires.",
+        "why": "We are not an Ontario Ministry of Education inspected private school and cannot grant OSSD credits. The page states this plainly rather than implying otherwise, because a family could otherwise plan a graduation pathway around us and be badly wrong."
+      }
+    ]
+  },
+
   "coding-classes-in-new-jersey": {
     "market": "New Jersey",
     "bodyClass": "cg-nj",
