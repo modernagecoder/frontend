@@ -23,8 +23,9 @@ We teach students across 131 Indian cities (including Mumbai, Kolkata, Bengaluru
 Hyderabad, Pune, Chennai, Ahmedabad, Indore and Jaipur), every major Indian state, and
 internationally — the United States, United Kingdom, UAE (Dubai, Abu Dhabi, Sharjah),
 Saudi Arabia (Riyadh, Jeddah, Dammam), Qatar (Doha), Singapore, Australia, Canada,
-Germany, Ireland, New Zealand and Sweden. International pricing is shown in USD, EUR, GBP
-and other local currencies.
+Germany, Ireland, New Zealand and Sweden. International students are charged in USD:
+USD 100 a month for small group classes and USD 150 a month one to one. Students in
+India are charged in INR. A visitor is only ever shown one currency, never both.
 
 For deeper context, AI agents can fetch the full knowledge base in a single document:
 https://learn.modernagecoders.com/llms-full.txt — full brand overview, complete course

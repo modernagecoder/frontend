@@ -1,0 +1,82 @@
+{
+  "_comment": [
+    "PER-MARKET DOSSIERS for the international growth cluster.",
+    "Spec: docs/superpowers/specs/2026-08-15-international-growth-cluster-design.md",
+    "",
+    "WHY THIS FILE EXISTS",
+    "Shingle-overlap catches duplication only AFTER a page is written. This file",
+    "catches thinness BEFORE. A page may not be written until its dossier is filled,",
+    "and verify-cluster-pages.js fails the page if the market-specific facts listed",
+    "here are not actually present in the rendered HTML.",
+    "",
+    "RULES",
+    "  1. requiredMentions must contain at least 8 entries, each a market-SPECIFIC",
+    "     string: a named statute, regulation, curriculum document, exam board,",
+    "     institution, dataset, operator or place. Generic marketing words do not",
+    "     count and defeat the purpose.",
+    "  2. No string in requiredMentions may appear in another market's dossier.",
+    "     That is the anti-duplication rule, enforced by the gate.",
+    "  3. localProject must name a real dataset from that market with a real",
+    "     analytical trap. This is the strongest anti-duplication device we have.",
+    "  4. sources must contain at least 3 primary sources, with the claim each one",
+    "     supports. If a claim cannot be sourced, it does not go on the page.",
+    "     A claim that resists sourcing gets stated as unconfirmed, or dropped.",
+    "",
+    "The New Jersey entry records a real lesson: the widely repeated claim that AP",
+    "computer science satisfies part of a New Jersey mathematics credit could not be",
+    "confirmed at primary source, and second-hand accounts contradicted each other on",
+    "both the start year and which credit it covered. It was removed from the page."
+  ],
+
+  "coding-classes-in-new-jersey": {
+    "market": "New Jersey",
+    "bodyClass": "cg-nj",
+    "curriculumAuthority": "New Jersey Student Learning Standards for Computer Science and Design Thinking (NJSLS-CSDT), adopted 2020, K to 12",
+    "localProject": "NJ Transit punctuality. Trap: cancellations are reported as a separate statistic and sit outside On-Time Performance entirely, so a line that cancels services can post better punctuality than one that runs everything late. Second trap: two rail dashboards exist for the same trains, all-causes and Amtrak-adjusted.",
+    "requiredMentions": [
+      "N.J.S.A. 18A:7C-1.1",
+      "N.J.A.C. 6A:8-5.1",
+      "Computer Science and Design Thinking",
+      "county vocational school district",
+      "NJ Transit",
+      "Northeast Corridor",
+      "Mean Distance Between Failure",
+      "On-Time Performance",
+      "Integrated throughout all courses",
+      "Edison"
+    ],
+    "sources": [
+      {
+        "claim": "Every public school enrolling grades 9 to 12, other than a county vocational school district, must offer a computer science course from the 2018 to 2019 school year, covering computational thinking, computer programming, appropriate use of the internet and development of internet web pages, data security and prevention of data breaches, ethical matters, and global impact.",
+        "citation": "N.J.S.A. 18A:7C-1.1, P.L. 2017 c.303, enacted 16 January 2018",
+        "url": "https://www.nj.gov/education/broadcasts/2018/APR/19/18144/NJDOE%20Provides%20Guidance%20on%20Computer%20Science%20Course%20Requirement.pdf"
+      },
+      {
+        "claim": "New Jersey state minimum graduation requirements total 120 credits. Mathematics 15 credits including Algebra I, Geometry and a third year building on them. Science 15 credits with at least 5 in laboratory biology or life science. Technology is integrated throughout all courses rather than a separate credit line. There is no computer science credit line in the state minimum.",
+        "citation": "N.J.A.C. 6A:8-5.1, New Jersey State Minimum Graduation Requirements by Content Area",
+        "url": "https://www.nj.gov/education/standards/docs/grad.pdf"
+      },
+      {
+        "claim": "NJSLS-CSDT covers Kindergarten through grade 12. Computer science concepts: Computing Systems; Networks and the Internet; Impacts of Computing; Data and Analysis; Algorithms and Programming. Design thinking concepts: Engineering Design; Interaction of Technology and Humans; Nature of Technology; Effects of Technology on the Natural World; Ethics and Culture.",
+        "citation": "New Jersey Department of Education, Computer Science and Design Thinking standards page",
+        "url": "https://www.nj.gov/education/standards/compsci/"
+      },
+      {
+        "claim": "NJ Transit publishes On-Time Performance, Mean Distance Between Failure and Total Cancellations. A vehicle operating within 6 minutes of published schedule counts as on time. Two rail dashboards exist: All Causes, and Adjusted for Amtrak-related Causes.",
+        "citation": "NJ Transit performance dashboards",
+        "url": "https://www.njtransit.com/performance"
+      },
+      {
+        "claim": "New Jersey has 415,342 Indian Americans, 4.47 percent of the state population, the highest concentration of any US state.",
+        "citation": "2020 United States Census",
+        "url": "https://en.wikipedia.org/wiki/Indian_Americans"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "An Advanced Placement computer science course satisfies part of the New Jersey mathematics credit requirement for graduation.",
+        "why": "Could not be confirmed at primary source. Absent from the state minimum graduation requirements chart at N.J.A.C. 6A:8-5.1 and from the Cornell LII text of that regulation. Second-hand accounts conflict on the starting grade nine class year (2014-2015 vs 2016-2017) and on whether it covers mathematics only or mathematics or science. Page now states it as unconfirmed and directs families to their school counsellor."
+      }
+    ]
+  }
+}

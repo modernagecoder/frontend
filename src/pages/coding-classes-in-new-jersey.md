@@ -18,7 +18,9 @@ Part of [coding classes in the United States](https://learn.modernagecoders.com/
 
 ## Why New Jersey is different
 
-New Jersey asks more of its students in computer science than most states. Since the 2018 to 2019 school year, every public high school in the state has been required to offer a computer science course covering computational thinking, computer programming, appropriate use of the internet and development of web pages, data security and the prevention of data breaches, ethical matters in computer science, and the global impact of advances in computer science.
+New Jersey asks more of its students in computer science than most states. Under **N.J.S.A. 18A:7C-1.1**, enacted January 2018, no later than the beginning of the 2018 to 2019 school year every public school enrolling students in grades nine through twelve, other than a county vocational school district, must offer a course in computer science covering computational thinking, computer programming, appropriate use of the internet and development of internet web pages, data security and the prevention of data breaches, ethical matters in computer science, and the global impact of advancements in computer science.
+
+The statute requires the school to **offer** the course. It does not require a student to take it, does not guarantee how well it is taught, and gives an already-advanced student nowhere further to go.
 
 The standards behind that requirement are the New Jersey Student Learning Standards for Computer Science and Design Thinking, adopted in 2020. They run from Kindergarten through grade 12 and are split into two halves:
 
@@ -28,11 +30,26 @@ The standards behind that requirement are the New Jersey Student Learning Standa
 
 Every course a New Jersey student is placed into maps onto named concepts from that document.
 
-## The graduation credit rule most families miss
+## New Jersey graduation credits, and the gap
 
-New Jersey requires that local graduation requirements adopted by a board of education permit an Advanced Placement computer science course to satisfy part of the total credit requirement in **mathematics**. The condition is that the student is concurrently enrolled in, or has already completed, Algebra 1 and Geometry or the content equivalent. It applies beginning with the grade nine class of 2016 to 2017.
+The New Jersey state minimum graduation requirements at **N.J.A.C. 6A:8-5.1** total 120 credits:
 
-That makes AP Computer Science A unusually valuable in New Jersey: it can cover part of a mathematics requirement while also being an exam colleges recognise. Districts set their own local requirements within the state framework, so confirm the specifics with your school counsellor before planning a schedule around it.
+| Content area | State minimum |
+|---|---|
+| English Language Arts | 20 credits |
+| Mathematics | 15 credits, including Algebra I, Geometry, and a third year building on algebra and geometry |
+| Science | 15 credits, at least 5 in laboratory biology or life science |
+| Social Studies | 15 credits, including 5 in world history |
+| Health, Safety and Physical Education | 15 credits across four years |
+| Visual and Performing Arts | 5 credits |
+| World Languages | 5 credits |
+| 21st Century Life and Careers | 5 credits |
+| Financial, Economic, Business and Entrepreneurial Literacy | 2.5 credits |
+| Technology | Integrated throughout all courses, not a separate credit line |
+
+There is no computer science credit line in the state minimum. Technology is integrated rather than counted. So a New Jersey student can meet every state graduation requirement and still have written almost no code, in a state whose own law obliges their school to offer the course.
+
+**On AP computer science and credits:** some sources claim an Advanced Placement computer science course can satisfy part of a New Jersey mathematics or science credit requirement. We could not confirm that provision at primary source, and second-hand accounts disagree on both the starting year and which credit it covers. Districts also set requirements above the state minimum. Ask your school counsellor directly rather than relying on any website, including this one.
 
 Relevant courses:
 

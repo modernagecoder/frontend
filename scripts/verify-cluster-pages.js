@@ -67,6 +67,7 @@ const CLUSTERS = {
     prefix: 'cg',
     markets: ['om', 'mct', 'kw', 'bh', 'hk', 'nl', 'nj', 'ca', 'tx', 'ny', 'il',
       'ga', 'va', 'wa', 'md', 'on', 'bc', 'ab', 'lei', 'bhm'],
+    dossierFile: 'content/coding-global-dossiers.json',
     siblingRe: /^\/coding-classes-in-(oman|muscat|kuwait|bahrain|hong-kong|netherlands|new-jersey|california|texas|new-york|illinois|georgia|virginia|washington|maryland|ontario|british-columbia|alberta|leicester|birmingham)$/
   }
 };
@@ -85,7 +86,10 @@ const active = Object.entries(CLUSTERS)
   .map(([name, c]) => ({
     name,
     ...c,
-    slugs: allFiles.filter(f => c.fileRe.test(f)).map(f => f.replace('.html', '')).sort()
+    slugs: allFiles.filter(f => c.fileRe.test(f)).map(f => f.replace('.html', '')).sort(),
+    dossiers: c.dossierFile && fs.existsSync(path.join(ROOT, c.dossierFile))
+      ? JSON.parse(fs.readFileSync(path.join(ROOT, c.dossierFile), 'utf8'))
+      : null
   }))
   .filter(c => c.slugs.length);
 
@@ -243,6 +247,34 @@ for (const cluster of active) {
       if (mdCourses < 10) errs.push(`.md twin links only ${mdCourses} courses`);
       if (md.includes('—')) errs.push('.md twin contains em-dashes');
       if (md.split(/\s+/).length < 600) errs.push('.md twin under 600 words');
+    }
+
+    // --- 12. dossier: market specificity and sourcing ---------------------
+    // Overlap checks catch duplication after the fact. This catches thinness
+    // before it ships: the market-specific facts promised in the dossier must
+    // actually be on the page, and every dossier fact must be unique to its
+    // market. See content/coding-global-dossiers.json.
+    if (cluster.dossiers) {
+      const d = cluster.dossiers[slug];
+      if (!d) {
+        errs.push('no dossier entry in content/coding-global-dossiers.json');
+      } else {
+        const mentions = d.requiredMentions || [];
+        if (mentions.length < 8) errs.push(`dossier lists only ${mentions.length} requiredMentions (need 8+)`);
+        const absent = mentions.filter(m => !html.includes(m));
+        if (absent.length) errs.push('dossier facts missing from page: ' + absent.join(' | '));
+        if (!d.localProject) errs.push('dossier has no localProject');
+        const srcs = d.sources || [];
+        if (srcs.length < 3) errs.push(`dossier lists only ${srcs.length} primary sources (need 3+)`);
+        if (srcs.some(s => !s.claim || !s.url)) errs.push('a dossier source is missing its claim or url');
+
+        // A fact shared with another market is not a market-specific fact.
+        for (const [otherSlug, other] of Object.entries(cluster.dossiers)) {
+          if (otherSlug === slug || otherSlug.startsWith('_')) continue;
+          const shared = mentions.filter(m => (other.requiredMentions || []).includes(m));
+          if (shared.length) errs.push(`dossier facts shared with ${otherSlug}: ` + shared.join(' | '));
+        }
+      }
     }
 
     // --- 11. market accent actually resolves ------------------------------

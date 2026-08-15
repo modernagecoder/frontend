@@ -107,6 +107,33 @@ country hub in the first 300 words, and the hub gains a link down to it.
 
 ## 4. Uniqueness contract
 
+**Now machine enforced.** Owner requirement restated 2026-08-15: every page must
+be genuinely unique, with real depth and no thin content. Shingle overlap only
+catches duplication after a page is written, so the dossier is now a checked
+artifact rather than a discipline.
+
+`content/coding-global-dossiers.json` holds one entry per market.
+`verify-cluster-pages.js` fails the page unless:
+
+- `requiredMentions` has at least 8 market-specific strings, each a named
+  statute, regulation, curriculum document, exam board, institution, dataset,
+  operator or place. Generic marketing words defeat the purpose and do not count.
+- **Every one of those strings actually appears in the page HTML.** A promise in
+  the dossier that never made it onto the page fails the build.
+- **No string is shared with another market's dossier.** This is the
+  anti-duplication rule, enforced rather than trusted.
+- `localProject` names a real dataset from that market with a real analytical
+  trap.
+- `sources` lists at least 3 primary sources, each with the claim it supports and
+  a URL.
+
+The gate was negative-tested on 2026-08-15: injecting a fact the page does not
+contain produced `ERROR dossier facts missing from page`, and removing it
+restored the pass. A gate that has never been seen to fail is not a gate.
+
+The dossier also carries `rejectedClaims`, recording facts that could not be
+sourced and were therefore removed. See section 4a.
+
 A page may not be written until its dossier fills eight slots with sourced local
 fact. This is the device that kept the AI cluster between 0.4 and 5.7 percent
 overlap and it is mandatory here.
@@ -138,6 +165,36 @@ education policy below national level really does differ:
 - Leicester and Birmingham share England's National Curriculum, so those two
   differentiate on local schools, local employers, and GCSE and A level context
   instead. They are the two hardest pages in the cluster and are scheduled last.
+
+## 4a. Sourcing rule, learned on page one
+
+**A search-result summary is not a source.** New Jersey nearly shipped with a
+claim, repeated by two separate search summaries, that an Advanced Placement
+computer science course satisfies part of the New Jersey mathematics graduation
+credit. It was the page's strongest commercial hook.
+
+Checked at primary source, it did not hold up. The claim is absent from the state
+minimum graduation requirements chart at N.J.A.C. 6A:8-5.1 and from the Cornell
+LII text of that regulation, and the two summaries contradicted each other on the
+starting grade nine class year (2014-2015 versus 2016-2017) and on whether it
+covers mathematics only or mathematics or science. It was removed, and the page
+now tells families to ask their school counsellor instead.
+
+Rules that follow from this, binding on all 19 remaining pages:
+
+1. Any legal, curricular or statistical claim goes on a page only with a primary
+   source recorded in the dossier. Government site, statute, regulation, exam
+   board, official dataset.
+2. If a claim cannot be verified, it is either stated as unconfirmed with the
+   reason, or dropped. It is never asserted and quietly hedged.
+3. Removing an unverifiable claim usually improves the page. New Jersey lost the
+   AP hook and gained the real statute (N.J.S.A. 18A:7C-1.1, including the county
+   vocational exclusion) plus the actual 120 credit graduation table, which is
+   more useful to a parent and more citable by an AI engine. Word count went up,
+   not down.
+4. Government PDFs often defeat text conversion. Inflating the content streams
+   directly works and is how the credit table was recovered. Do not give up on a
+   primary source because the first fetch returns binary.
 
 ## 5. Design system
 
@@ -506,6 +563,24 @@ differences are gate items, not preferences:
 2. Different section order. The Build-AI pages lead with the project brief;
    these lead with courses and the ladder, with the local project sitting mid
    page.
+
+### Still open, carried forward from page one
+
+1. **The lead payload is unexercised.** Every check run so far is static or
+   DOM-level. Nothing has actually POSTed. New Jersey is a US 10 digit number, so
+   even a missing `countryIso` would pass there; the bug only bites in Tier 1.
+   **Before Oman, submit one real lead from a Tier 1 page** and confirm it lands
+   with a callable 8 digit number and the right `attribution.formPage`. Reading
+   the backend told us the rule, not that our payload satisfies it.
+2. **Uniqueness is untested at n=2.** 0.5 percent overlap is what a cluster of
+   one scores. Page two shares the alignment column, the ladder, the how-it-runs
+   grid and the FAQ skeleton with page one. **Run
+   `check-cluster-uniqueness.js coding-global` as soon as Ontario's draft body
+   exists, before polishing it.** If stripping `cg-course-card` proves
+   insufficient, learn that at n=2, not n=14.
+3. **The Build-AI cluster sends `source` and `meta` that nothing reads**, so its
+   21 pages capture no name or age and rely on the `Referer` fallback for
+   attribution. Out of scope here, worth a follow-up.
 
 ## 16. Non goals
 
