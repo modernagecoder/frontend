@@ -27,7 +27,59 @@
     "confirmed at primary source, and second-hand accounts contradicted each other on",
     "both the start year and which credit it covered. It was removed from the page."
   ],
-
+  "coding-classes-in-new-york": {
+    "market": "New York",
+    "bodyClass": "cg-ny",
+    "curriculumAuthority": "New York State Learning Standards for Computer Science and Digital Fluency, adopted by the Board of Regents in December 2020, full implementation expected by September 2024. Five concept areas, grade bands K-1, 2-3, 4-6, 7-8, 9-12. Distinctive because Cybersecurity is named as a top-level concept, which very few states do.",
+    "localProject": "NYC Open Data 311 Service Requests, over 40 million rows by end of 2025, updated daily. Trap: rate versus count, the denominator problem. Ranking boroughs by raw noise complaints mostly ranks them by population. Second layer: a 311 record measures somebody choosing to report, not the event itself. Deliberately a fifth distinct KIND of error, and specifically NOT Texas's observation bias, which was about detection changing over time; this is about comparing groups of different sizes at one moment.",
+    "requiredMentions": [
+      "Computer Science and Digital Fluency",
+      "Networks and System Design",
+      "Portrait of a Graduate",
+      "Blue Ribbon Commission",
+      "NY Inspires",
+      "311 Service Requests",
+      "NYC Open Data",
+      "Board of Regents",
+      "Regents exam",
+      "Cybersecurity",
+      "Hecht-Calandra",
+      "Stuyvesant"
+    ],
+    "sources": [
+      {
+        "claim": "The Board of Regents adopted the New York State Learning Standards for Computer Science and Digital Fluency in December 2020, following a two-year statewide collaborative authoring, reviewing and revision process. Five concept areas: Impacts of Computing, Computational Thinking, Networks and System Design, Cybersecurity, and Digital Literacy. Standards are grouped into grade bands K-1, 2-3, 4-6, 7-8 and 9-12. All K-12 schools were expected to fully implement by September 2024.",
+        "citation": "New York State Education Department, Computer Science and Digital Fluency Learning Standards",
+        "url": "https://www.nysed.gov/standards-instruction/computer-science-and-digital-fluency"
+      },
+      {
+        "claim": "On 4 November 2024 the State Education Department presented NY Inspires, implementing the Blue Ribbon Commission on Graduation Measures recommendations through four transformations: adopt the New York State Portrait of a Graduate, redefine credits, sunset diploma assessment requirements, and move to one diploma. Until specific changes are approved by the Board of Regents, current graduation requirements remain in effect for all public school students. Reporting has indicated the Regents exam requirement ending around the 2027-28 school year.",
+        "citation": "New York State Education Department, Current Diploma Requirements and the Graduation Measures Initiative",
+        "url": "https://www.nysed.gov/standards-instruction/news/current-diploma-requirements-and-graduation-measures-initiative"
+      },
+      {
+        "claim": "NYC Open Data publishes 311 Service Requests covering 2010 to the present, updated daily, split into a 2010-2019 historical set and a 2020-to-present set. As of December 2025 the data contained over 40 million rows. Each row includes complaint type, responding agency and geographic location.",
+        "citation": "NYC Open Data, 311 Service Requests",
+        "url": "https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2020-to-Present/erm2-nwe9"
+      },
+      {
+        "claim": "New York has 387,376 Indian Americans, 1.92 percent of the state population.",
+        "citation": "2020 United States Census",
+        "url": "https://en.wikipedia.org/wiki/Indian_Americans"
+      },
+      {
+        "claim": "The Hecht-Calandra Act of 1971 requires New York City to admit students to its specialized high schools solely on performance in the Specialized High Schools Admissions Test. The legislation originally covered Stuyvesant High School, the Bronx High School of Science and Brooklyn Technical High School. The SHSAT is the sole criterion for eight of the nine specialized high schools; the ninth, LaGuardia, admits by audition or portfolio.",
+        "citation": "New York Education Law, Hecht-Calandra Act 1971; NYC specialized high schools admissions",
+        "url": "https://en.wikipedia.org/wiki/Specialized_High_Schools_Admissions_Test"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "New York students no longer need to pass Regents exams to graduate.",
+        "why": "Premature. The direction is announced and the plan is published, but until the Board of Regents approves specific changes the current requirements remain in force for every public school student. The page states the plan, states plainly that nothing has changed yet, and tells families to confirm the position for their child's cohort with the school."
+      }
+    ]
+  },
   "coding-classes-in-california": {
     "market": "California",
     "bodyClass": "cg-ca",
@@ -74,7 +126,6 @@
       }
     ]
   },
-
   "coding-classes-in-texas": {
     "market": "Texas",
     "bodyClass": "cg-tx",
@@ -126,7 +177,6 @@
       }
     ]
   },
-
   "coding-classes-in-ontario": {
     "market": "Ontario",
     "bodyClass": "cg-on",
@@ -185,7 +235,6 @@
       }
     ]
   },
-
   "coding-classes-in-new-jersey": {
     "market": "New Jersey",
     "bodyClass": "cg-nj",

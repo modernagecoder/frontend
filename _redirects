@@ -1500,4 +1500,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-california /src/pages/coding-classes-in-california.html 200
 /coding-classes-in-california.md /src/pages/coding-classes-in-california.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-new-york /src/pages/coding-classes-in-new-york.html 200
+/coding-classes-in-new-york.md /src/pages/coding-classes-in-new-york.md 200
 /* /src/pages/404.html 404
