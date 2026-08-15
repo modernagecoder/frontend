@@ -249,7 +249,7 @@ Uttar Pradesh, West Bengal and others.
 ## Build AI, Not Just Use It (AI & machine learning by market)
 
 Live AI and machine learning classes taught by building models, not by prompting tools.
-Ages 6 to 67, small live batches, priced from USD 40 a month.
+Ages 6 to 67, small live batches, priced from USD 100 a month.
 
 - Learn to Build AI (cluster hub): https://learn.modernagecoders.com/learn-to-build-ai
 - Oman: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-oman
@@ -273,6 +273,14 @@ Ages 6 to 67, small live batches, priced from USD 40 a month.
 - Hong Kong: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-hong-kong
 - Germany: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-germany
 - Netherlands: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-netherlands
+## Coding Classes by State, Province & Market
+
+Live online coding and mathematics for a specific state, province or market,
+mapped to that place's own curriculum standards. Ages 6 to 67.
+USD 100 a month small group, USD 150 a month one to one.
+
+- New Jersey, USA: https://learn.modernagecoders.com/coding-classes-in-new-jersey
+
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

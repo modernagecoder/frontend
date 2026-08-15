@@ -1,0 +1,408 @@
+/* ==========================================================================
+   coding-global.css
+   International growth cluster. Six half-built markets plus fourteen
+   sub-national spokes. Spec:
+   docs/superpowers/specs/2026-08-15-international-growth-cluster-design.md
+
+   Identity: "The Ledger". Ruled rows, ledger hairlines, mono authority
+   labels. Brand tokens only (Ledger & Proof), never the retired dark neon.
+
+   Deliberately NOT ai-global.css:
+     - no numbered protocol spine (ag-protocol / ag-stage / ag-band-num)
+     - no timezone slot table (ag-slots / ag-slot-time as a promise)
+     - courses and the age ladder come first, the local project sits mid page
+   The two files must not read as twins, because six markets carry a page
+   from each cluster on the same domain.
+
+   Signature: .cg-align, the alignment column. Left is what the market's own
+   curriculum authority already asks of the student, right is the course that
+   answers it. Every market has a different left column by definition.
+
+   Per-market accent: --cg-accent / --cg-accent-soft on .cg-root.cg-<code>
+   Each accent derives from something real about the place, not a rotation.
+   ========================================================================== */
+
+:root {
+  /* Brand tokens. Source: src/css/editorial-theme.css */
+  --cg-paper:    #FBF8F2;
+  --cg-paper-2:  #F5F1E8;
+  --cg-paper-3:  #EDE7DA;
+  --cg-ink:      #1C1814;
+  --cg-ink-2:    #3A332C;
+  --cg-muted:    #6B6259;
+  --cg-rule:     #DDD5C6;
+  --cg-rule-2:   #C9BFAC;
+  --cg-amber:    #B45309;
+  --cg-amber-2:  #D97706;
+
+  --cg-accent:      #2E5A88;
+  --cg-accent-soft: rgba(46, 90, 136, 0.09);
+
+  --cg-serif: "Fraunces", Georgia, "Times New Roman", serif;
+  --cg-sans:  "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --cg-mono:  "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --cg-measure: 68ch;
+  --cg-gap: clamp(1rem, 2.5vw, 1.75rem);
+}
+
+/* --------------------------------------------------------------------------
+   Per-market accents. Derivation noted so a future editor does not treat
+   these as arbitrary and reshuffle them.
+   -------------------------------------------------------------------------- */
+.cg-root.cg-nj  { --cg-accent: #2E5A88; --cg-accent-soft: rgba(46,90,136,.09); }   /* Jersey blue, state flag */
+.cg-root.cg-ca  { --cg-accent: #B4531A; --cg-accent-soft: rgba(180,83,26,.09); }   /* California poppy */
+.cg-root.cg-tx  { --cg-accent: #9B2335; --cg-accent-soft: rgba(155,35,53,.09); }   /* Texas flag red */
+.cg-root.cg-ny  { --cg-accent: #2F6B5E; --cg-accent-soft: rgba(47,107,94,.09); }   /* Hudson green */
+.cg-root.cg-il  { --cg-accent: #4C5B8A; --cg-accent-soft: rgba(76,91,138,.09); }   /* Illinois flag blue */
+.cg-root.cg-ga  { --cg-accent: #7B3F2E; --cg-accent-soft: rgba(123,63,46,.09); }   /* Georgia clay */
+.cg-root.cg-va  { --cg-accent: #3D6B47; --cg-accent-soft: rgba(61,107,71,.09); }   /* Virginia pine */
+.cg-root.cg-wa  { --cg-accent: #1F5F63; --cg-accent-soft: rgba(31,95,99,.09); }    /* Cascade evergreen */
+.cg-root.cg-md  { --cg-accent: #8A4B14; --cg-accent-soft: rgba(138,75,20,.09); }   /* Maryland gold, state flag */
+.cg-root.cg-on  { --cg-accent: #A32A2A; --cg-accent-soft: rgba(163,42,42,.09); }   /* Ontario trillium red */
+.cg-root.cg-bc  { --cg-accent: #275C87; --cg-accent-soft: rgba(39,92,135,.09); }   /* BC flag blue */
+.cg-root.cg-ab  { --cg-accent: #7A4A86; --cg-accent-soft: rgba(122,74,134,.09); }  /* Alberta wild rose */
+.cg-root.cg-lei { --cg-accent: #1D5C9B; --cg-accent-soft: rgba(29,92,155,.09); }   /* Leicester blue */
+.cg-root.cg-bhm { --cg-accent: #1A5AA8; --cg-accent-soft: rgba(26,90,168,.09); }   /* Birmingham blue */
+.cg-root.cg-om  { --cg-accent: #A5202C; --cg-accent-soft: rgba(165,32,44,.09); }   /* Omani red */
+.cg-root.cg-mct { --cg-accent: #7A2E3B; --cg-accent-soft: rgba(122,46,59,.09); }   /* Muscat */
+.cg-root.cg-kw  { --cg-accent: #1E7A47; --cg-accent-soft: rgba(30,122,71,.09); }   /* Kuwait flag green */
+.cg-root.cg-bh  { --cg-accent: #B02A30; --cg-accent-soft: rgba(176,42,48,.09); }   /* Bahrain flag red */
+.cg-root.cg-hk  { --cg-accent: #BA2026; --cg-accent-soft: rgba(186,32,38,.09); }   /* Hong Kong red */
+.cg-root.cg-nl  { --cg-accent: #C1571B; --cg-accent-soft: rgba(193,87,27,.09); }   /* Dutch orange */
+
+/* --------------------------------------------------------------------------
+   Base
+   -------------------------------------------------------------------------- */
+.cg-root {
+  margin: 0;
+  background: var(--cg-paper);
+  color: var(--cg-ink);
+  font-family: var(--cg-sans);
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.cg-root *,
+.cg-root *::before,
+.cg-root *::after { box-sizing: border-box; }
+
+.cg-root h1, .cg-root h2, .cg-root h3 {
+  font-family: var(--cg-serif);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  margin: 0 0 0.5em;
+  text-wrap: balance;
+}
+
+.cg-root h1 { font-size: clamp(2.1rem, 5.2vw, 3.5rem); }
+.cg-root h2 { font-size: clamp(1.6rem, 3.4vw, 2.3rem); }
+.cg-root h3 { font-size: clamp(1.1rem, 1.9vw, 1.3rem); line-height: 1.3; }
+.cg-root p  { margin: 0 0 1.1em; max-width: var(--cg-measure); }
+.cg-root a  { color: var(--cg-accent); }
+
+.cg-root a:focus-visible,
+.cg-root button:focus-visible,
+.cg-root input:focus-visible,
+.cg-root select:focus-visible,
+.cg-root textarea:focus-visible {
+  outline: 2px solid var(--cg-accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.cg-sr {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+.cg-wrap {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 clamp(1.1rem, 4vw, 2.5rem);
+}
+
+.cg-section { padding: clamp(3rem, 7vw, 5.5rem) 0; border-top: 1px solid var(--cg-rule); }
+/* The nav is sticky, so an anchor jump would otherwise land the heading
+   underneath it. 62px nav plus breathing room. */
+.cg-root [id] { scroll-margin-top: 82px; }
+.cg-root { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { .cg-root { scroll-behavior: auto; } }
+.cg-section--tint { background: var(--cg-paper-2); }
+.cg-section--deep { background: var(--cg-paper-3); }
+.cg-section-head { max-width: var(--cg-measure); margin-bottom: clamp(1.75rem, 4vw, 2.75rem); }
+
+/* Eyebrow. Mono because these label real things (standards, codes, regions). */
+.cg-eyebrow {
+  font-family: var(--cg-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--cg-accent);
+  margin: 0 0 0.9rem;
+  display: block;
+}
+
+.cg-inline-link { color: var(--cg-accent); text-underline-offset: 3px; }
+
+/* --------------------------------------------------------------------------
+   Nav
+   -------------------------------------------------------------------------- */
+.cg-nav {
+  border-bottom: 1px solid var(--cg-rule);
+  background: var(--cg-paper);
+  position: sticky; top: 0; z-index: 40;
+}
+.cg-nav-inner {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1.5rem; min-height: 62px;
+}
+.cg-nav-brand {
+  font-family: var(--cg-serif);
+  font-size: 1.12rem; font-weight: 600;
+  color: var(--cg-ink); text-decoration: none; white-space: nowrap;
+}
+.cg-nav-brand span { color: var(--cg-accent); }
+.cg-nav-links { display: flex; gap: 1.4rem; flex-wrap: wrap; align-items: center; }
+.cg-nav-links a {
+  font-size: 0.88rem; color: var(--cg-ink-2); text-decoration: none;
+  padding: 0.2rem 0; border-bottom: 1px solid transparent;
+}
+.cg-nav-links a:hover { color: var(--cg-accent); border-bottom-color: var(--cg-accent); }
+/* On a phone the section links are noise, but dropping the whole nav would
+   leave a lead-gen page with no call to action above the fold. Keep the one
+   link that matters. */
+.cg-nav-cta { font-weight: 600; color: var(--cg-accent); }
+@media (max-width: 720px) {
+  .cg-nav-links a:not(.cg-nav-cta) { display: none; }
+  .cg-nav-cta {
+    border: 1px solid var(--cg-accent); border-radius: 2px;
+    padding: 0.35rem 0.75rem;
+  }
+  .cg-nav-cta:hover { border-bottom-color: var(--cg-accent); }
+}
+
+/* --------------------------------------------------------------------------
+   Buttons
+   -------------------------------------------------------------------------- */
+.cg-btn-row { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1.6rem 0 0; }
+.cg-btn {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  padding: 0.78rem 1.4rem;
+  background: var(--cg-accent); color: #fff;
+  font-family: var(--cg-sans); font-size: 0.94rem; font-weight: 600;
+  text-decoration: none; border: 1px solid var(--cg-accent);
+  border-radius: 2px; cursor: pointer;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+.cg-btn:hover { opacity: 0.92; transform: translateY(-1px); }
+.cg-btn--ghost { background: transparent; color: var(--cg-ink); border-color: var(--cg-rule-2); }
+.cg-btn--ghost:hover { border-color: var(--cg-accent); color: var(--cg-accent); }
+
+/* --------------------------------------------------------------------------
+   Hero
+   -------------------------------------------------------------------------- */
+.cg-hero { padding: clamp(2.5rem, 6vw, 4.5rem) 0 clamp(2rem, 5vw, 3.5rem); border-top: 0; }
+.cg-hero-grid { display: grid; grid-template-columns: 1.35fr 1fr; gap: clamp(2rem, 5vw, 4rem); align-items: start; }
+@media (max-width: 900px) { .cg-hero-grid { grid-template-columns: 1fr; } }
+.cg-lede { font-size: clamp(1.06rem, 1.6vw, 1.2rem); color: var(--cg-ink-2); max-width: 60ch; }
+.cg-hero-note { font-size: 0.85rem; color: var(--cg-muted); margin-top: 1.1rem; }
+
+.cg-crumbs { font-size: 0.8rem; color: var(--cg-muted); margin-bottom: 1.4rem; font-family: var(--cg-mono); }
+.cg-crumbs a { color: var(--cg-muted); text-decoration: none; }
+.cg-crumbs a:hover { color: var(--cg-accent); }
+
+/* Answer capsule. The block AI engines lift, so it gets real prominence. */
+.cg-capsule {
+  border-left: 3px solid var(--cg-accent);
+  background: var(--cg-accent-soft);
+  padding: 1.15rem 1.35rem;
+  margin: 0 0 1.5rem;
+}
+.cg-capsule-q {
+  font-family: var(--cg-mono);
+  font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--cg-accent);
+  margin: 0 0 0.5rem;
+}
+.cg-capsule p { margin: 0; font-size: 0.98rem; color: var(--cg-ink-2); max-width: 62ch; }
+
+/* Trust facts. Brand-facts driven, so the markup is deliberately plain. */
+.cg-trust {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1px; background: var(--cg-rule);
+  border: 1px solid var(--cg-rule); margin-top: 1.75rem;
+}
+.cg-fact { background: var(--cg-paper); padding: 0.95rem 1rem; }
+.cg-fact-k { font-family: var(--cg-serif); font-size: 1.32rem; font-weight: 600; display: block; }
+.cg-fact-l { font-size: 0.74rem; color: var(--cg-muted); letter-spacing: 0.03em; }
+
+/* --------------------------------------------------------------------------
+   SIGNATURE: the alignment column
+   Left  = what this market's curriculum authority already asks for
+   Right = the course that answers it
+   Ruled like a ledger. No numbers: these are pairings, not a sequence.
+   -------------------------------------------------------------------------- */
+.cg-align { border-top: 2px solid var(--cg-ink); margin-top: 0.5rem; }
+.cg-align-row {
+  display: grid;
+  grid-template-columns: 1.05fr 1.25fr;
+  gap: clamp(1rem, 3vw, 2.5rem);
+  padding: 1.35rem 0;
+  border-bottom: 1px solid var(--cg-rule);
+  align-items: start;
+}
+@media (max-width: 760px) {
+  .cg-align-row { grid-template-columns: 1fr; gap: 0.6rem; padding: 1.15rem 0; }
+}
+.cg-align-req { position: relative; }
+.cg-align-code {
+  font-family: var(--cg-mono);
+  font-size: 0.7rem; font-weight: 600; letter-spacing: 0.08em;
+  color: var(--cg-accent); text-transform: uppercase;
+  display: block; margin-bottom: 0.35rem;
+}
+.cg-align-req p,
+.cg-align-ours p { margin: 0; font-size: 0.94rem; }
+.cg-align-req p { color: var(--cg-ink); font-weight: 500; }
+.cg-align-ours p { color: var(--cg-ink-2); }
+.cg-align-ours { border-left: 2px solid var(--cg-accent-soft); padding-left: clamp(0.9rem, 2vw, 1.5rem); }
+@media (max-width: 760px) {
+  .cg-align-ours { border-left: 2px solid var(--cg-accent); padding-left: 0.9rem; margin-left: 0.1rem; }
+}
+.cg-align-ours a { font-weight: 600; }
+
+/* --------------------------------------------------------------------------
+   Courses
+   -------------------------------------------------------------------------- */
+.cg-course-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1px; background: var(--cg-rule); border: 1px solid var(--cg-rule); }
+.cg-course-card { background: var(--cg-paper); padding: 1.3rem 1.25rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.cg-course-card h3 { margin: 0; font-size: 1.05rem; }
+.cg-course-card p { margin: 0; font-size: 0.88rem; color: var(--cg-muted); }
+.cg-course-code {
+  font-family: var(--cg-mono); font-size: 0.66rem; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--cg-accent);
+}
+.cg-course-link { margin-top: auto; padding-top: 0.6rem; font-size: 0.86rem; font-weight: 600; text-decoration: none; }
+.cg-course-link:hover { text-decoration: underline; }
+
+/* Age ladder */
+.cg-ladder { display: grid; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); gap: clamp(1.25rem, 3vw, 2rem); }
+.cg-ladder-col { border-top: 2px solid var(--cg-accent); padding-top: 1rem; }
+.cg-ladder-col h3 { margin-bottom: 0.4rem; }
+.cg-ladder-col ul { margin: 0.6rem 0 0; padding-left: 1.05rem; }
+.cg-ladder-col li { font-size: 0.9rem; color: var(--cg-ink-2); margin-bottom: 0.35rem; }
+
+/* --------------------------------------------------------------------------
+   Local project
+   -------------------------------------------------------------------------- */
+.cg-proj { border: 1px solid var(--cg-rule-2); background: var(--cg-paper); padding: clamp(1.4rem, 3.5vw, 2.25rem); }
+.cg-proj-meta {
+  font-family: var(--cg-mono); font-size: 0.7rem; letter-spacing: 0.09em;
+  text-transform: uppercase; color: var(--cg-muted);
+  display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem;
+  padding-bottom: 0.9rem; margin-bottom: 1.25rem; border-bottom: 1px solid var(--cg-rule);
+}
+.cg-proj-body p:last-child { margin-bottom: 0; }
+
+/* Data tables, hairline ruled */
+.cg-table-wrap { overflow-x: auto; margin: 1.5rem 0; border: 1px solid var(--cg-rule); }
+.cg-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; min-width: 440px; }
+.cg-table th, .cg-table td { text-align: left; padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--cg-rule); }
+.cg-table th { font-family: var(--cg-mono); font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--cg-muted); background: var(--cg-paper-2); }
+.cg-table tr:last-child td { border-bottom: 0; }
+
+.cg-spec { border-left: 3px solid var(--cg-rule-2); padding-left: 1.2rem; margin: 1.5rem 0; }
+.cg-spec-title { font-family: var(--cg-mono); font-size: 0.7rem; letter-spacing: 0.09em; text-transform: uppercase; color: var(--cg-muted); margin-bottom: 0.4rem; }
+
+.cg-chip {
+  display: inline-block; font-family: var(--cg-mono); font-size: 0.68rem;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  border: 1px solid var(--cg-rule-2); border-radius: 2px;
+  padding: 0.22rem 0.55rem; margin: 0 0.35rem 0.35rem 0; color: var(--cg-ink-2);
+}
+
+.cg-band-head { font-family: var(--cg-mono); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--cg-muted); margin-bottom: 0.6rem; }
+.cg-slot-time { font-family: var(--cg-mono); font-size: 0.85rem; color: var(--cg-ink-2); }
+
+/* --------------------------------------------------------------------------
+   Pricing. USD only in this cluster.
+   -------------------------------------------------------------------------- */
+.cg-price { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1px; background: var(--cg-rule); border: 1px solid var(--cg-rule); }
+.cg-price > div { background: var(--cg-paper); padding: 1.4rem 1.3rem; }
+.cg-price--feature { box-shadow: inset 0 3px 0 var(--cg-accent); }
+.cg-price-name { font-family: var(--cg-mono); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--cg-muted); }
+.cg-price-amt { font-family: var(--cg-serif); font-size: 2.1rem; font-weight: 600; display: block; margin: 0.35rem 0 0.15rem; }
+.cg-price-alt { font-size: 0.84rem; color: var(--cg-muted); }
+
+/* --------------------------------------------------------------------------
+   Reviews. Only the real verified ones, ever.
+   -------------------------------------------------------------------------- */
+.cg-review { border-top: 1px solid var(--cg-rule); padding-top: 1.15rem; }
+.cg-review-text { font-size: 0.94rem; color: var(--cg-ink-2); }
+.cg-review-name { font-weight: 600; font-size: 0.88rem; }
+.cg-review-role { font-size: 0.8rem; color: var(--cg-muted); }
+.cg-stars { color: var(--cg-amber); letter-spacing: 0.08em; font-size: 0.85rem; }
+
+/* --------------------------------------------------------------------------
+   FAQ. Text here must match FAQPage schema character for character.
+   -------------------------------------------------------------------------- */
+.cg-faq { border-top: 2px solid var(--cg-ink); }
+.cg-faq-item { border-bottom: 1px solid var(--cg-rule); padding: 1.3rem 0; }
+.cg-faq-item h3 { margin-bottom: 0.45rem; font-size: 1.06rem; }
+.cg-faq-item p { margin: 0; font-size: 0.94rem; color: var(--cg-ink-2); }
+
+/* --------------------------------------------------------------------------
+   Lead form
+   -------------------------------------------------------------------------- */
+.cg-form-panel { border: 1px solid var(--cg-rule-2); background: var(--cg-paper); padding: clamp(1.35rem, 3vw, 2rem); }
+.cg-field { margin-bottom: 1rem; }
+.cg-field label { display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.3rem; color: var(--cg-ink-2); }
+.cg-field input, .cg-field select, .cg-field textarea {
+  width: 100%; padding: 0.65rem 0.75rem;
+  border: 1px solid var(--cg-rule-2); border-radius: 2px;
+  background: var(--cg-paper); color: var(--cg-ink);
+  font-family: var(--cg-sans); font-size: 0.94rem;
+}
+.cg-field textarea { min-height: 90px; resize: vertical; }
+.cg-field .cg-err { color: #9B2335; font-size: 0.78rem; margin-top: 0.25rem; display: block; min-height: 1em; }
+.cg-form-note { font-size: 0.78rem; color: var(--cg-muted); margin-top: 0.85rem; }
+.cg-form-ok { color: #1E7A47; font-weight: 600; font-size: 0.9rem; margin-top: 0.8rem; }
+
+/* --------------------------------------------------------------------------
+   Sibling markets
+   -------------------------------------------------------------------------- */
+.cg-markets { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.cg-market {
+  font-size: 0.85rem; text-decoration: none; color: var(--cg-ink-2);
+  border: 1px solid var(--cg-rule-2); border-radius: 2px; padding: 0.35rem 0.7rem;
+}
+.cg-market:hover { border-color: var(--cg-accent); color: var(--cg-accent); }
+
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+.cg-footer { background: var(--cg-paper-3); border-top: 1px solid var(--cg-rule-2); padding: clamp(2.5rem, 5vw, 3.5rem) 0 1.75rem; }
+.cg-footer h3 { font-family: var(--cg-sans); font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--cg-muted); margin-bottom: 0.8rem; }
+.cg-footer ul { list-style: none; margin: 0; padding: 0; }
+.cg-footer li { margin-bottom: 0.4rem; }
+.cg-footer a { font-size: 0.88rem; color: var(--cg-ink-2); text-decoration: none; }
+.cg-footer a:hover { color: var(--cg-accent); }
+.cg-footer-bottom { border-top: 1px solid var(--cg-rule-2); margin-top: 2rem; padding-top: 1.25rem; font-size: 0.8rem; color: var(--cg-muted); }
+
+.cg-grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: clamp(1.25rem, 3vw, 2.25rem); }
+.cg-mt-2 { margin-top: 2rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  .cg-root *, .cg-root *::before, .cg-root *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  .cg-btn:hover { transform: none; }
+}

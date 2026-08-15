@@ -1484,4 +1484,8 @@
 /summer-research-programs-coding /src/pages/summer-research-programs-coding.html 200
 /summer-research-programs-coding.md /src/pages/summer-research-programs-coding.md 200
 
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-new-jersey /src/pages/coding-classes-in-new-jersey.html 200
+/coding-classes-in-new-jersey.md /src/pages/coding-classes-in-new-jersey.md 200
 /* /src/pages/404.html 404

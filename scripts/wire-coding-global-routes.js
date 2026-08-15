@@ -1,15 +1,19 @@
 #!/usr/bin/env node
 /**
- * wire-ai-global-routes.js
+ * wire-coding-global-routes.js
  *
- * Wires the global Build-AI cluster pages into every place a page needs to exist
- * or it 404s in production:
+ * Wires the international growth cluster into every place a page must exist or
+ * it 404s in production:
  *
- *   1. _redirects            /<slug>      -> /src/pages/<slug>.html  200
- *   2. _redirects            /<slug>.md   -> /src/pages/<slug>.md    200
- *   3. netlify.toml          both of the above as [[redirects]] blocks
- *   4. sitemap.xml           <url> entry
+ *   1. _redirects                 /<slug>     -> /src/pages/<slug>.html  200
+ *   2. _redirects                 /<slug>.md  -> /src/pages/<slug>.md    200
+ *   3. netlify.toml               both of the above as [[redirects]] blocks
+ *   4. sitemap.xml                <url> entry
  *   5. sitemap-international.xml  <url> entry
+ *   6. llms.txt                   listed under its own heading
+ *
+ * llms.txt wiring lives here deliberately, so a page cannot be routed without
+ * also being visible to the AI answer engines this cluster is written for.
  *
  * Two ordering hazards this script exists to respect:
  *   - _redirects has a `/* -> 404` catch-all. Netlify applies the FIRST matching
@@ -18,8 +22,10 @@
  *
  * Idempotent: running it twice changes nothing the second time.
  *
- * Usage:  node scripts/wire-ai-global-routes.js [slug ...]
- *         node scripts/wire-ai-global-routes.js            (wires every slug in SLUGS)
+ * Spec: docs/superpowers/specs/2026-08-15-international-growth-cluster-design.md
+ *
+ * Usage:  node scripts/wire-coding-global-routes.js [slug ...]
+ *         node scripts/wire-coding-global-routes.js          (every built slug)
  */
 
 'use strict';
@@ -29,48 +35,51 @@ const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
 const TODAY = new Date().toISOString().slice(0, 10);
+const BASE = 'https://learn.modernagecoders.com';
 
-// The full cluster. Pages that do not exist on disk yet are skipped with a note.
-const SLUGS = [
-  'learn-to-build-ai',
-  'ai-and-machine-learning-classes-in-oman',
-  'ai-and-machine-learning-classes-in-muscat',
-  'ai-and-machine-learning-classes-in-kuwait',
-  'ai-and-machine-learning-classes-in-kuwait-city',
-  'ai-and-machine-learning-classes-in-bahrain',
-  'ai-and-machine-learning-classes-in-uae',
-  'ai-and-machine-learning-classes-in-saudi-arabia',
-  'ai-and-machine-learning-classes-in-qatar',
-  'ai-and-machine-learning-classes-in-usa',
-  'ai-and-machine-learning-classes-in-uk',
-  'ai-and-machine-learning-classes-in-london',
-  'ai-and-machine-learning-classes-in-switzerland',
-  'ai-and-machine-learning-classes-in-zurich',
-  'ai-and-machine-learning-classes-in-singapore',
-  'ai-and-machine-learning-classes-in-canada',
-  'ai-and-machine-learning-classes-in-australia',
-  'ai-and-machine-learning-classes-in-germany',
-  'ai-and-machine-learning-classes-in-netherlands',
-  'ai-and-machine-learning-classes-in-ireland',
-  'ai-and-machine-learning-classes-in-hong-kong'
+// The full cluster, in build order. Pages not yet on disk are skipped with a note.
+// Label is what appears in llms.txt.
+const MARKETS = [
+  // Tier 2: sub-national spokes
+  ['coding-classes-in-new-jersey',       'New Jersey, USA'],
+  ['coding-classes-in-ontario',          'Ontario, Canada'],
+  ['coding-classes-in-texas',            'Texas, USA'],
+  ['coding-classes-in-california',       'California, USA'],
+  ['coding-classes-in-new-york',         'New York State, USA'],
+  ['coding-classes-in-illinois',         'Illinois, USA'],
+  ['coding-classes-in-virginia',         'Virginia, USA'],
+  ['coding-classes-in-washington',       'Washington State, USA'],
+  ['coding-classes-in-georgia',          'Georgia, USA'],
+  ['coding-classes-in-maryland',         'Maryland, USA'],
+  ['coding-classes-in-british-columbia', 'British Columbia, Canada'],
+  ['coding-classes-in-alberta',          'Alberta, Canada'],
+  ['coding-classes-in-leicester',        'Leicester, UK'],
+  ['coding-classes-in-birmingham',       'Birmingham, UK'],
+  // Tier 1: markets that had an AI page but no coding page
+  ['coding-classes-in-oman',             'Oman'],
+  ['coding-classes-in-muscat',           'Muscat'],
+  ['coding-classes-in-kuwait',           'Kuwait'],
+  ['coding-classes-in-bahrain',          'Bahrain'],
+  ['coding-classes-in-hong-kong',        'Hong Kong'],
+  ['coding-classes-in-netherlands',      'Netherlands']
 ];
 
-const BASE = 'https://learn.modernagecoders.com';
+const SLUGS = MARKETS.map(m => m[0]);
+const LABELS = Object.fromEntries(MARKETS);
 
 function read(f) { return fs.readFileSync(path.join(ROOT, f), 'utf8'); }
 function write(f, s) { fs.writeFileSync(path.join(ROOT, f), s, 'utf8'); }
 function exists(f) { return fs.existsSync(path.join(ROOT, f)); }
 
-const report = { wired: [], skipped: [], missing: [] };
+const COMMENT = 'International growth cluster (coding-global.css). Must precede the /* catch-all.';
 
 // ---------------------------------------------------------------- _redirects
 function wireRedirects(slugs) {
   const file = '_redirects';
-  let src = read(file);
+  const src = read(file);
   const eol = src.includes('\r\n') ? '\r\n' : '\n';
   const lines = src.split(/\r?\n/);
 
-  // Netlify applies the first matching rule; everything after `/*` is unreachable.
   let catchAll = lines.findIndex(l => /^\/\*\s/.test(l));
   if (catchAll === -1) catchAll = lines.length;
 
@@ -83,8 +92,7 @@ function wireRedirects(slugs) {
   }
   if (!additions.length) return 0;
 
-  const block = ['', '# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.', ...additions];
-  lines.splice(catchAll, 0, ...block);
+  lines.splice(catchAll, 0, '', '# ' + COMMENT, ...additions);
   write(file, lines.join(eol));
   return additions.length;
 }
@@ -92,13 +100,13 @@ function wireRedirects(slugs) {
 // -------------------------------------------------------------- netlify.toml
 function wireNetlifyToml(slugs) {
   const file = 'netlify.toml';
-  let src = read(file);
+  const src = read(file);
   const eol = src.includes('\r\n') ? '\r\n' : '\n';
   const lines = src.split(/\r?\n/);
 
-  // Find the [[redirects]] block whose `from` is the "/*" catch-all, then walk
-  // back to that block's opening header so we insert above the whole block.
-  let fromIdx = lines.findIndex(l => /^\s*from\s*=\s*"\/\*"\s*$/.test(l));
+  // Find the catch-all [[redirects]] block, then walk back to its header so the
+  // insertion lands above the whole block rather than inside it.
+  const fromIdx = lines.findIndex(l => /^\s*from\s*=\s*"\/\*"\s*$/.test(l));
   let insertAt = lines.length;
   if (fromIdx !== -1) {
     for (let i = fromIdx; i >= 0; i--) {
@@ -109,28 +117,15 @@ function wireNetlifyToml(slugs) {
   const additions = [];
   for (const slug of slugs) {
     if (!new RegExp(`from\\s*=\\s*"/${slug}"`).test(src)) {
-      additions.push(
-        '[[redirects]]',
-        `  from = "/${slug}"`,
-        `  to = "/src/pages/${slug}.html"`,
-        '  status = 200',
-        ''
-      );
+      additions.push('[[redirects]]', `  from = "/${slug}"`, `  to = "/src/pages/${slug}.html"`, '  status = 200', '');
     }
     if (!new RegExp(`from\\s*=\\s*"/${slug}\\.md"`).test(src)) {
-      additions.push(
-        '[[redirects]]',
-        `  from = "/${slug}.md"`,
-        `  to = "/src/pages/${slug}.md"`,
-        '  status = 200',
-        ''
-      );
+      additions.push('[[redirects]]', `  from = "/${slug}.md"`, `  to = "/src/pages/${slug}.md"`, '  status = 200', '');
     }
   }
   if (!additions.length) return 0;
 
-  const block = ['# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.', '', ...additions];
-  lines.splice(insertAt, 0, ...block);
+  lines.splice(insertAt, 0, '# ' + COMMENT, '', ...additions);
   write(file, lines.join(eol));
   return additions.filter(l => l === '[[redirects]]').length;
 }
@@ -140,7 +135,6 @@ function wireSitemap(file, slugs, priority) {
   if (!exists(file)) return 0;
   let src = read(file);
   const eol = src.includes('\r\n') ? '\r\n' : '\n';
-  let added = 0;
   const entries = [];
 
   for (const slug of slugs) {
@@ -154,43 +148,18 @@ function wireSitemap(file, slugs, priority) {
       `    <priority>${priority}</priority>`,
       '  </url>'
     );
-    added++;
   }
-  if (!added) return 0;
+  if (!entries.length) return 0;
 
   src = src.replace(/<\/urlset>\s*$/, entries.join(eol) + eol + '</urlset>' + eol);
   write(file, src);
-  return added;
+  return entries.length / 6;
 }
 
 // ------------------------------------------------------------------ llms.txt
-// AI answer engines read llms.txt. A page that is routed and in the sitemap but
+// AI answer engines read this file. A page that is routed and in the sitemap but
 // absent here is invisible to exactly the audience this cluster targets.
-const LLMS_HEADING = '## Build AI, Not Just Use It (AI & machine learning by market)';
-
-const LLMS_LABELS = {
-  'learn-to-build-ai': 'Learn to Build AI (cluster hub)',
-  'ai-and-machine-learning-classes-in-oman': 'Oman',
-  'ai-and-machine-learning-classes-in-muscat': 'Muscat',
-  'ai-and-machine-learning-classes-in-kuwait': 'Kuwait',
-  'ai-and-machine-learning-classes-in-kuwait-city': 'Kuwait City',
-  'ai-and-machine-learning-classes-in-bahrain': 'Bahrain',
-  'ai-and-machine-learning-classes-in-uae': 'United Arab Emirates',
-  'ai-and-machine-learning-classes-in-saudi-arabia': 'Saudi Arabia',
-  'ai-and-machine-learning-classes-in-qatar': 'Qatar',
-  'ai-and-machine-learning-classes-in-usa': 'United States',
-  'ai-and-machine-learning-classes-in-uk': 'United Kingdom',
-  'ai-and-machine-learning-classes-in-london': 'London',
-  'ai-and-machine-learning-classes-in-switzerland': 'Switzerland',
-  'ai-and-machine-learning-classes-in-zurich': 'Zurich',
-  'ai-and-machine-learning-classes-in-singapore': 'Singapore',
-  'ai-and-machine-learning-classes-in-canada': 'Canada',
-  'ai-and-machine-learning-classes-in-australia': 'Australia',
-  'ai-and-machine-learning-classes-in-germany': 'Germany',
-  'ai-and-machine-learning-classes-in-netherlands': 'Netherlands',
-  'ai-and-machine-learning-classes-in-ireland': 'Ireland',
-  'ai-and-machine-learning-classes-in-hong-kong': 'Hong Kong'
-};
+const LLMS_HEADING = '## Coding Classes by State, Province & Market';
 
 function wireLlms(slugs) {
   const file = 'llms.txt';
@@ -201,25 +170,23 @@ function wireLlms(slugs) {
   const wanted = slugs.filter(s => !src.includes(`${BASE}/${s}`));
   if (!wanted.length) return 0;
 
-  const lines = wanted.map(s => `- ${LLMS_LABELS[s] || s}: ${BASE}/${s}`);
+  const lines = wanted.map(s => `- ${LABELS[s] || s}: ${BASE}/${s}`);
 
   if (src.includes(LLMS_HEADING)) {
-    // append inside the existing block, before the next "## " heading
     const start = src.indexOf(LLMS_HEADING);
     const rest = src.slice(start + LLMS_HEADING.length);
     const nextIdx = rest.indexOf(eol + '## ');
     const insertAt = nextIdx === -1 ? src.length : start + LLMS_HEADING.length + nextIdx;
     src = src.slice(0, insertAt) + eol + lines.join(eol) + src.slice(insertAt);
   } else {
-    // new section, placed just before the International Country Pages block so
-    // the two geo clusters sit together
+    // Sit next to the existing country pages so the geo clusters group together.
     const anchor = '## International Country Pages';
+    // Prices come from pricing/pricing.config.jsonc. International is USD only:
+    // group 100, one-to-one 150. Never write a retired figure into this file.
     const block = LLMS_HEADING + eol + eol +
-      'Live AI and machine learning classes taught by building models, not by prompting tools.' + eol +
-      // Price comes from pricing/pricing.config.jsonc: international group is
-      // USD 100. USD 40 is retired and must never reappear here, because AI
-      // answer engines read this file and will quote it at prospects.
-      'Ages 6 to 67, small live batches, priced from USD 100 a month.' + eol + eol +
+      'Live online coding and mathematics for a specific state, province or market,' + eol +
+      'mapped to that place\'s own curriculum standards. Ages 6 to 67.' + eol +
+      'USD 100 a month small group, USD 150 a month one to one.' + eol + eol +
       lines.join(eol) + eol + eol;
     src = src.includes(anchor) ? src.replace(anchor, block + anchor) : src + eol + block;
   }
@@ -233,15 +200,23 @@ function main() {
   const argv = process.argv.slice(2);
   const requested = argv.length ? argv : SLUGS;
 
+  const unknown = requested.filter(s => !SLUGS.includes(s));
+  if (unknown.length) {
+    console.error('Not in this cluster: ' + unknown.join(', '));
+    console.error('Add it to MARKETS first, so llms.txt gets a proper label.');
+    process.exit(2);
+  }
+
   const live = [];
+  const missing = [];
   for (const slug of requested) {
     if (exists(`src/pages/${slug}.html`)) live.push(slug);
-    else report.missing.push(slug);
+    else missing.push(slug);
   }
 
   if (!live.length) {
     console.log('No built pages found for the requested slugs. Nothing wired.');
-    if (report.missing.length) console.log('Missing HTML: ' + report.missing.join(', '));
+    if (missing.length) console.log('Missing HTML: ' + missing.join(', '));
     process.exit(0);
   }
 
@@ -266,9 +241,9 @@ function main() {
     console.log('WARNING: .md twin missing for: ' + noMd.join(', '));
     console.log('The route is wired but will 404 until the file exists.');
   }
-  if (report.missing.length) {
+  if (missing.length) {
     console.log('');
-    console.log('Not built yet, skipped: ' + report.missing.join(', '));
+    console.log('Not built yet, skipped: ' + missing.join(', '));
   }
 }
 
