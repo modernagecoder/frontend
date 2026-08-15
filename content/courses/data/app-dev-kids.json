@@ -1618,10 +1618,8 @@
     "support_provided": {
       "live_sessions": "Weekly Q&A and coding sessions",
       "mentorship": "Dedicated mentor support",
-      "community": "Active Discord community",
       "code_review": "Project feedback and reviews",
-      "career_support": "App publishing guidance and portfolio reviews",
-      "lifetime_access": "All content and future updates"
+      "career_support": "App publishing guidance and portfolio reviews"
     },
     "certification": {
       "phase_certificates": "Certificate after each major milestone",

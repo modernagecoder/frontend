@@ -1799,10 +1799,8 @@
     "support_provided": {
       "live_sessions": "Weekly doubt clearing and code reviews",
       "mentorship": "1-on-1 guidance from senior developers",
-      "community": "Active Discord/Slack community",
       "code_review": "Professional code reviews on projects",
-      "career_support": "Resume review, mock interviews, job referrals",
-      "lifetime_access": "All content and future updates",
+      "career_support": "Resume review, mock interviews",
       "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
     },
     "certification": {

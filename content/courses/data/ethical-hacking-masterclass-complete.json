@@ -1656,13 +1656,11 @@
     "support_provided": {
       "live_sessions": "Weekly live hacking sessions and Q&A",
       "mentorship": "1-on-1 mentorship from professional pentesters",
-      "community": "Active Discord with security professionals",
       "lab_access": "24/7 access to vulnerable lab environments",
       "code_review": "Expert review of tools and exploits",
-      "career_support": "Resume review, interview prep, job referrals",
+      "career_support": "Resume review, interview prep",
       "bug_bounty_guidance": "Tips and collaboration for bug bounties",
       "certification_prep": "Study groups for CEH, OSCP, etc.",
-      "lifetime_access": "All content and future updates",
       "legal_guidance": "Legal framework and ethical guidelines"
     },
     "certification": {

@@ -46,7 +46,6 @@
       "Real industry projects and real-world applications",
       "Age-appropriate teaching methodologies",
       "Career guidance and certification",
-      "Lifetime access and continuous updates",
       "Build impressive portfolio across multiple domains"
     ],
     "learning_path": {
@@ -1501,10 +1500,8 @@
     "support_provided": {
       "live_sessions": "Weekly doubt clearing and live coding sessions",
       "mentorship": "1-on-1 Python expert mentorship",
-      "community": "Active Discord community with 24/7 support",
       "code_review": "Expert code reviews for all projects",
-      "career_support": "Resume review, mock interviews, job referrals",
-      "lifetime_access": "All content, future updates, new modules forever",
+      "career_support": "Resume review, mock interviews",
       "age_appropriate": "Separate support channels for kids, teens, adults",
       "parent_support": "For kids track - parent guidance and progress reports"
     },

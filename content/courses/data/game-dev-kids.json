@@ -1624,10 +1624,8 @@
     "support_provided": {
       "live_sessions": "Weekly game dev workshops",
       "mentorship": "Expert game developer mentors",
-      "community": "Active Discord with 1000+ young developers",
       "code_review": "Game testing and feedback",
-      "career_support": "Portfolio reviews and industry connections",
-      "lifetime_access": "All content and platform updates forever"
+      "career_support": "Portfolio reviews and industry connections"
     },
     "certification": {
       "phase_certificates": "Certificates for each game platform mastered",

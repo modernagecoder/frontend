@@ -45,7 +45,6 @@
       "Covers both free and pro tools comprehensively",
       "Business and freelancing modules included",
       "Personal branding and portfolio development",
-      "Lifetime access to all updates and new AI tools",
       "Ready-to-use templates and resources library"
     ],
     "learning_path": {
@@ -1148,7 +1147,6 @@
     "description": "Continuous updates with new tools, techniques, and industry developments. Access to masterclasses and advanced workshops.",
     "month_19_20": {
       "title": "Ongoing Advanced Workshops",
-      "weeks": "Lifetime Access",
       "week_79_80": {
         "title": "AI Tools Updates",
         "topics": [
@@ -1635,10 +1633,8 @@
     "support_provided": {
       "live_sessions": "Weekly live design critiques and Q&A",
       "mentorship": "Monthly 1-on-1 mentor sessions",
-      "community": "24/7 Discord community with peer support",
       "code_review": "Professional design feedback on all projects",
-      "career_support": "Portfolio reviews, job search help, client acquisition",
-      "lifetime_access": "All content, updates, new tools, and features"
+      "career_support": "Portfolio reviews, job search help, client acquisition"
     },
     "certification": {
       "phase_certificates": "Certificate after each 2-month phase",

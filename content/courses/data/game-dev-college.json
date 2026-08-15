@@ -1121,10 +1121,8 @@
     "support_provided": {
       "live_sessions": "Weekly game dev workshops and code reviews",
       "mentorship": "1-on-1 guidance from industry game developers",
-      "community": "Active Discord with 5000+ game developers",
       "code_review": "Expert reviews of all game projects",
-      "career_support": "Portfolio reviews, job referrals, interview prep",
-      "lifetime_access": "All content and engine updates forever"
+      "career_support": "Portfolio reviews, interview prep"
     },
     "certification": {
       "phase_certificates": "Certificate after each phase",

@@ -1172,10 +1172,8 @@
     "support_provided": {
       "live_sessions": "Weekly SQL workshops and DBA sessions",
       "mentorship": "1-on-1 guidance from senior DBAs",
-      "community": "Active Discord community of database professionals",
       "code_review": "Expert review of database designs and queries",
-      "career_support": "Resume review, interview prep, certification guidance",
-      "lifetime_access": "All content and future MySQL version updates"
+      "career_support": "Resume review, interview prep, certification guidance"
     },
     "certification": {
       "phase_certificates": "Certificate after each phase",

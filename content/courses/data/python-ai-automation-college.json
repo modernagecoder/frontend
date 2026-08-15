@@ -44,7 +44,6 @@
       "Covers 100% of modern Python automation & AI stack",
       "Real industry projects and case studies",
       "Interview preparation and AI system design",
-      "Lifetime access and updates",
       "Build production-ready AI portfolio"
     ],
     "learning_path": {
@@ -1585,10 +1584,8 @@
     "support_provided": {
       "live_sessions": "Weekly doubt clearing sessions",
       "mentorship": "1-on-1 mentor guidance",
-      "community": "Active Discord/Slack community",
       "code_review": "Expert code reviews for projects",
-      "career_support": "Resume review, interview prep, job referrals",
-      "lifetime_access": "All content, updates, and new modules"
+      "career_support": "Resume review, interview prep"
     },
     "certification": {
       "phase_certificates": "Certificate after each phase completion",
@@ -1697,8 +1694,7 @@
       "12-month structured curriculum with 500+ hours of content",
       "30+ portfolio-ready projects including a capstone AI application",
       "Direct mentorship from industry AI professionals",
-      "Career support including resume review and interview preparation",
-      "Lifetime access to course updates and alumni community"
+      "Career support including resume review and interview preparation"
     ]
   }
 }

@@ -50,8 +50,7 @@
       "Hands-on with latest models (GPT-4, Claude, Gemini, Stable Diffusion)",
       "Build production-ready AI applications",
       "Ethics and responsible AI development",
-      "Direct path to high-paying AI engineer jobs",
-      "Lifetime access with continuous model updates"
+      "Direct path to high-paying AI engineer jobs"
     ],
     "learning_path": {
       "phase_1": "Foundation (Months 1-3): Python, Math, ML Basics, Neural Networks, Introduction to GenAI",
@@ -1906,10 +1905,8 @@
     "support_provided": {
       "live_sessions": "Weekly live coding sessions, office hours, and expert Q&A",
       "mentorship": "1-on-1 AI engineer mentorship and career guidance",
-      "community": "Active Discord community with 24/7 peer support and collaboration",
       "code_review": "Expert code reviews for all major projects and assignments",
-      "career_support": "Resume review, mock interviews, job referrals to AI companies",
-      "lifetime_access": "All content, future updates, new models and techniques coverage",
+      "career_support": "Resume review, mock interviews",
       "interview_prep": "Mock technical interviews, system design practice with experts",
       "research_guidance": "Paper reading groups, research implementation support",
       "startup_support": "For those building AI products, access to entrepreneurship resources",
