@@ -166,6 +166,33 @@ education policy below national level really does differ:
   differentiate on local schools, local employers, and GCSE and A level context
   instead. They are the two hardest pages in the cluster and are scheduled last.
 
+## 4b. Answer capsule rule, learned on page three
+
+**Lead the capsule with the market's distinctive fact, never with the brand.**
+
+At n=3 the highest overlap was Texas against New Jersey at 3.9 percent, and a
+shingle diff showed the shared text was concentrated in the answer capsule: all
+three pages opened "Modern Age Coders teaches live online coding and mathematics
+to X students aged 6 to 67, in groups of five to eight or one to one."
+
+That is bad twice over. It is the single most duplicated block in the cluster,
+and it is weak AEO, because the capsule is the block an AI engine lifts and it
+was spending its first sentence on boilerplate instead of on the thing that makes
+the page worth citing.
+
+All three capsules were rewritten to open on the market fact: New Jersey on the
+missing computer science credit line, Ontario on coding living in the Algebra
+strand, Texas on 19 TAC 74.12. Overlap fell to 3.6 percent and every capsule now
+answers its own page's question in its first clause.
+
+Also vary the sentence construction for batch size and fees rather than repeating
+"in small groups of five to eight or one to one" and "USD 100 a month for group
+and USD 150 one to one" verbatim on twenty pages.
+
+Watch this metric as the US states accumulate: two US states share more context
+than a US state and a Canadian province do, so nine of them will drift upward.
+Re-run the shingle diff whenever a page crosses 5 percent.
+
 ## 4a. Sourcing rule, learned on page one
 
 **A search-result summary is not a source.** New Jersey nearly shipped with a

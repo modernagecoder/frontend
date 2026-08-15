@@ -1492,4 +1492,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-ontario /src/pages/coding-classes-in-ontario.html 200
 /coding-classes-in-ontario.md /src/pages/coding-classes-in-ontario.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-texas /src/pages/coding-classes-in-texas.html 200
+/coding-classes-in-texas.md /src/pages/coding-classes-in-texas.md 200
 /* /src/pages/404.html 404

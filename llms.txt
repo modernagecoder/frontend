@@ -283,6 +283,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - New Jersey, USA: https://learn.modernagecoders.com/coding-classes-in-new-jersey
 
 - Ontario, Canada: https://learn.modernagecoders.com/coding-classes-in-ontario
+- Texas, USA: https://learn.modernagecoders.com/coding-classes-in-texas
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

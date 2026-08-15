@@ -28,6 +28,58 @@
     "both the start year and which credit it covered. It was removed from the page."
   ],
 
+  "coding-classes-in-texas": {
+    "market": "Texas",
+    "bodyClass": "cg-tx",
+    "curriculumAuthority": "Technology Applications TEKS, revised by the State Board of Education in 2022, implemented from the 2024-25 school year. Five strands, with computational thinking the largest departure from the 2011 standards.",
+    "localProject": "NOAA Storm Prediction Center tornado records for Texas. Trap: observation bias. Reported counts climb since 1950, but population spread, the 1990s Doppler radar rollout and the 2007 switch from the Fujita to the Enhanced Fujita scale all changed detection. NOAA's own assessment is that removing F/EF0 counts nearly eliminates the annual frequency trend. Method taught: find a subset whose collection method did not change (strong tornadoes) and see whether the trend survives. Deliberately a different KIND of error from New Jersey (metric definition) and Ontario (model misspecification).",
+    "requiredMentions": [
+      "19 TAC 74.12",
+      "Technology Applications TEKS",
+      "decomposition, pattern recognition, abstraction",
+      "digital citizenship",
+      "Foundation High School Program",
+      "Distinguished Level of Achievement",
+      "Storm Prediction Center",
+      "Enhanced Fujita",
+      "Computer Science I, II and III",
+      "Frisco"
+    ],
+    "sources": [
+      {
+        "claim": "19 TAC 74.12 Languages Other Than English, two credits: 'The credits may be selected from the following: (i) any two levels in the same language, including comparable AP or IB language courses that do not count toward another credit required for graduation; or (ii) two credits in computer programming languages, including computer coding, to be selected from Computer Science I, II, and III, AP Computer Science Principles, AP Computer Science A, IB Computer Science Standard Level, and IB Computer Science Higher Level.' A separate provision covers a student who cannot complete a second LOTE credit, requiring agreement from the LOTE teacher, the principal or designee and the parent, or the ARD committee, or the Section 504 committee. NOTE the copy consulted is marked effective until 2025-08-01 and TEA issued an August 2025 update to Chapter 74 Subchapter B; the page tells families to confirm the current text.",
+        "citation": "19 Tex. Admin. Code section 74.12, Foundation High School Program",
+        "url": "https://law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-74-12"
+      },
+      {
+        "claim": "Technology Applications TEKS were revised in 2022 and implemented from the 2024-25 school year. Five strands: computational thinking; creativity and innovation; data literacy, management, and representation; digital citizenship; and practical technology concepts. Computational thinking breaks problem solving into decomposition, pattern recognition, abstraction and algorithms. The 2022 revision gave each grade K to 5 its own standards instead of grade bands.",
+        "citation": "Texas Education Agency, Technology Applications; SBOE April 2022 adoption",
+        "url": "https://tea.texas.gov/academics/subject-areas/technology-applications"
+      },
+      {
+        "claim": "The Foundation High School Program requires at least 22 credits; an endorsement takes the total to 26. Subject minimums include English 4, Mathematics 3, Science 3, Social Studies 3, Languages Other Than English 2, Physical Education 1, Fine Arts 1 and Electives 5. Endorsement options are STEM, business and industry, public services, arts and humanities, and multidisciplinary studies. The Distinguished Level of Achievement requires 26 credits including Algebra II.",
+        "citation": "Texas Education Agency, Graduation Toolkit 2025",
+        "url": "https://tea.texas.gov/about-tea/newsroom/brochures/tea-graduation-toolkit-2025.pdf"
+      },
+      {
+        "claim": "Inconsistencies in the NOAA severe events database arise from changes in population awareness, reporting practices, Doppler radar technology and NWS guidelines, which have likely introduced artificial trends. Removing F/EF0 counts from the database nearly eliminates the annual frequency trend. The 2007 change from the Fujita to the Enhanced Fujita scale produced large increases in weak tornado reports.",
+        "citation": "NOAA State of the Science Fact Sheet: Tornadoes, Climate Variability and Climate Change, September 2023",
+        "url": "https://repository.library.noaa.gov/view/noaa/69985/noaa_69985_DS1.pdf"
+      },
+      {
+        "claim": "Texas has 480,566 Indian Americans, 1.65 percent of the state population, the second largest such population of any US state.",
+        "citation": "2020 United States Census",
+        "url": "https://en.wikipedia.org/wiki/Indian_Americans"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "A Texas student needs district or principal approval to use computer science for the LOTE requirement.",
+        "why": "This confuses two separate provisions of 19 TAC 74.12. Clause (ii) is an unconditional listed alternative needing no permission. The named-approval process belongs to the different provision covering a student who has begun a language and is unlikely to complete the second credit. The page explains both and distinguishes them, because families are routinely quoted the wrong one."
+      }
+    ]
+  },
+
   "coding-classes-in-ontario": {
     "market": "Ontario",
     "bodyClass": "cg-on",

@@ -8,7 +8,7 @@ updated: "2026-08-16"
 
 # Coding Classes in Ontario
 
-> Modern Age Coders runs live online coding and mathematics classes for Ontario learners aged 6 to 67, in groups of five to eight or one to one. Ontario places coding inside the Algebra strand of its mathematics curriculum, so we teach coding and maths together rather than selling them separately. USD 100 a month small group, USD 150 one to one, eight classes a month, first class free.
+> Ontario became the first Canadian province to place coding inside the mathematics curriculum, in the Algebra strand, from 2020. That is why we teach coding and maths as one subject rather than two products. Live classes for ages 6 to 67, batches of five to eight or private tuition, USD 100 and USD 150 a month for eight sessions, and the opening class is free.
 
 ## The fact this page turns on
 

@@ -8,7 +8,7 @@ updated: "2026-08-15"
 
 # Coding Classes in New Jersey
 
-> Modern Age Coders teaches live online coding and mathematics to New Jersey students aged 6 to 67, in small groups of five to eight or one to one. Courses are mapped to the New Jersey Student Learning Standards for Computer Science and Design Thinking. Fees are USD 100 a month for small group and USD 150 a month one to one, both running eight classes a month. The first class is free and doubles as a placement check.
+> State law obliges almost every New Jersey public high school to offer computer science, yet the 120 credit state graduation minimum contains no computer science credit line at all. Modern Age Coders closes that gap with live online coding and mathematics for ages 6 to 67, mapped to the NJSLS Computer Science and Design Thinking standards. Small groups hold five to eight. USD 100 monthly, or USD 150 privately, for eight classes. The first class is free and doubles as a placement check.
 
 ## Who this is for
 
