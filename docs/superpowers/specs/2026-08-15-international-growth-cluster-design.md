@@ -366,8 +366,34 @@ pages. Requirements per page:
   page cannot be routed without being listed.
 - Sourced, checkable facts with named sources. Fabricated statistics are the
   fastest way to lose AI citation and the site has a history of them.
-- Bing and IndexNow submission requires owner account access. Flag at the end of
-  the cluster, do not attempt.
+- **IndexNow is already automated. Corrected 2026-08-16.** The earlier note that
+  it needs owner account access was wrong. `plugins/indexnow/index.js` is a
+  Netlify `onSuccess` plugin that submits URLs changed since the last successful
+  production build, and two verified key files are live at the site root. Every
+  page in this cluster is announced to Bing, Yandex, Naver, Seznam and Yep
+  automatically on the production deploy that publishes it. Nothing to do per
+  page.
+
+  Two changes made on 2026-08-16 after the owner shared a Bing Webmaster Tools
+  recommendation, "Avoid IndexNow Batch Mode to prevent excessive server load
+  and potential indexing delays":
+
+  1. `scripts/indexnow-ping.js` posted a batched `urlList`. Bing raises a
+     Moderate recommendation for that and prefers streaming, meaning URLs
+     submitted individually as they change. The script now sends one paced GET
+     per URL by default, up to 50 URLs, and keeps the batch POST behind
+     `--batch` for a genuine full regeneration.
+  2. The script now rejects unknown flags. It previously ignored them, so
+     `--dry` instead of `--dry-run` fell through to a live submission. That
+     happened once during this work and announced two not-yet-deployed URLs
+     while they still returned 404. Harmless in itself, since search engines
+     simply fail to fetch and retry later, and self-correcting once the deploy
+     publishes and the plugin re-submits. But the guard now makes a real
+     outward-facing action impossible to trigger by typo.
+
+  Consequence for this cluster: **ship one page per deploy.** That keeps every
+  submission a single-URL stream, which is exactly Bing's preference, and it is
+  already the agreed build rhythm.
 
 ## 10. Internal linking
 

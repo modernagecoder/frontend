@@ -30,6 +30,29 @@ const ENDPOINT = 'https://api.indexnow.org/indexnow';
 const MAX_URLS = 10000; // IndexNow per-request cap
 
 const argv = process.argv.slice(2);
+
+// Reject unknown flags rather than ignoring them. This script performs a real,
+// irreversible outward-facing action: it tells several search engines to come
+// and crawl. A typo like `--dry` instead of `--dry-run` previously fell straight
+// through to a live submission, which is how two not-yet-deployed URLs got
+// announced to Bing while they still returned 404. Fail loudly instead.
+const KNOWN_FLAGS = new Set(['--dry-run', '--all', '--since', '--batch']);
+{
+  const bad = [];
+  for (let i = 0; i < argv.length; i++) {
+    const a = argv[i];
+    if (!a.startsWith('--')) continue;
+    if (!KNOWN_FLAGS.has(a)) bad.push(a);
+    if (a === '--since') i++; // skip its value
+  }
+  if (bad.length) {
+    console.error(`Unknown flag(s): ${bad.join(', ')}`);
+    console.error(`Known flags: ${[...KNOWN_FLAGS].join(', ')}`);
+    console.error('Refusing to run. Nothing was submitted.');
+    process.exit(2);
+  }
+}
+
 const DRY = argv.includes('--dry-run');
 const ALL = argv.includes('--all');
 const sinceIdx = argv.indexOf('--since');
@@ -209,69 +232,131 @@ if (urls.length > MAX_URLS) {
 }
 
 const key = findKey();
-const payload = {
-  host: HOST,
-  key,
-  keyLocation: `${BASE}/${key}.txt`,
-  urlList: urls,
-};
+const keyLocation = `${BASE}/${key}.txt`;
+
+// --- submission mode -------------------------------------------------------
+// Bing Webmaster Tools raises a Moderate recommendation, "Avoid IndexNow Batch
+// Mode to prevent excessive server load and potential indexing delays", when a
+// site posts URLs in batches. Bing's stated preference is STREAMING: notify
+// about URLs individually, or in small groups, as they actually change.
+//
+// So the default here is one GET per URL. The batch POST with a urlList is kept
+// behind --batch for the genuine bulk case (a full regeneration), where issuing
+// hundreds of sequential requests would be worse for everyone.
+const STREAM_MAX = 50;
+const forceBatch = argv.includes('--batch');
+const useStream = !forceBatch && urls.length <= STREAM_MAX;
 
 console.log(`\nIndexNow — ${context}`);
 console.log(`  key         : ${key}`);
-console.log(`  keyLocation : ${payload.keyLocation}`);
+console.log(`  keyLocation : ${keyLocation}`);
+console.log(`  mode        : ${useStream ? 'streaming (one request per URL, Bing preferred)' : 'batch POST (urlList)'}`);
 console.log(`  submitting  : ${urls.length} URL(s)`);
 urls.slice(0, 15).forEach((u) => console.log(`    ${u}`));
 if (urls.length > 15) console.log(`    …and ${urls.length - 15} more`);
+
+if (!useStream && !forceBatch) {
+  console.log(`\n  NOTE: ${urls.length} URLs exceeds the ${STREAM_MAX}-URL streaming threshold, so this`);
+  console.log('  falls back to a batch POST. Bing prefers streaming. If this is a routine');
+  console.log('  deploy rather than a full regeneration, ship fewer pages per deploy.');
+}
 
 if (DRY) {
   console.log('\n(dry run — nothing sent)');
   process.exit(0);
 }
 
-// --- submit ----------------------------------------------------------------
-const body = JSON.stringify(payload);
-const req = https.request(
-  ENDPOINT,
-  {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json; charset=utf-8',
-      'Content-Length': Buffer.byteLength(body),
-    },
-  },
-  (res) => {
-    let data = '';
-    res.on('data', (c) => (data += c));
-    res.on('end', () => {
-      // 200 = accepted, 202 = accepted but key not yet validated (fine on first run)
-      const ok = res.statusCode === 200 || res.statusCode === 202;
-      console.log(`\n  HTTP ${res.statusCode} ${ok ? '— accepted' : '— NOT accepted'}`);
-      if (data.trim()) console.log(`  response: ${data.trim().slice(0, 300)}`);
-      if (res.statusCode === 202) {
-        console.log('  202 means the key file is being verified; that is expected on first use.');
-      }
-      if (res.statusCode === 403) {
-        // Two very different causes share this code, so read the body before acting.
-        if (/SiteVerificationNotCompleted/i.test(data)) {
-          console.log('  403 (SiteVerificationNotCompleted) = the key file IS reachable, but the');
-          console.log('  search engine has not finished verifying the site yet. This is normal on a');
-          console.log('  freshly published key. Nothing is broken and nothing needs changing:');
-          console.log('  simply wait and re-run the same command later.');
-        } else {
-          console.log(`  403 = key file not reachable. Confirm ${payload.keyLocation} is live`);
-          console.log('  (curl it: it must return 200 and its body must equal the key exactly).');
-        }
-      }
-      if (res.statusCode === 422) {
-        console.log('  422 = URLs do not match the host, or the key does not match.');
-      }
-      process.exit(ok ? 0 : 1);
-    });
+/** Explain a status code once, in the same voice for both submission modes. */
+function explain(status, data) {
+  if (status === 202) {
+    console.log('  202 means the key file is being verified; that is expected on first use.');
   }
-);
-req.on('error', (e) => {
-  console.error(`\n  request failed: ${e.message}`);
-  process.exit(1);
-});
-req.write(body);
-req.end();
+  if (status === 403) {
+    // Two very different causes share this code, so read the body before acting.
+    if (/SiteVerificationNotCompleted/i.test(data)) {
+      console.log('  403 (SiteVerificationNotCompleted) = the key file IS reachable, but the');
+      console.log('  search engine has not finished verifying the site yet. This is normal on a');
+      console.log('  freshly published key. Nothing is broken and nothing needs changing:');
+      console.log('  simply wait and re-run the same command later.');
+    } else {
+      console.log(`  403 = key file not reachable. Confirm ${keyLocation} is live`);
+      console.log('  (curl it: it must return 200 and its body must equal the key exactly).');
+    }
+  }
+  if (status === 422) {
+    console.log('  422 = URLs do not match the host, or the key does not match.');
+  }
+  if (status === 429) {
+    console.log('  429 = too many requests. Slow down, or ship fewer pages per deploy.');
+  }
+}
+
+function request(options, body) {
+  return new Promise((resolve, reject) => {
+    const req = https.request(options.url, options.init, (res) => {
+      let data = '';
+      res.on('data', (c) => (data += c));
+      res.on('end', () => resolve({ status: res.statusCode, data }));
+    });
+    req.on('error', reject);
+    if (body) req.write(body);
+    req.end();
+  });
+}
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+(async () => {
+  try {
+    if (useStream) {
+      // One GET per URL, paced. This is the shape IndexNow documents for single
+      // URL submission and the shape Bing's recommendation asks for.
+      let accepted = 0;
+      const failures = [];
+      for (let i = 0; i < urls.length; i++) {
+        const u = urls[i];
+        const endpoint =
+          `${ENDPOINT}?url=${encodeURIComponent(u)}` +
+          `&key=${encodeURIComponent(key)}` +
+          `&keyLocation=${encodeURIComponent(keyLocation)}`;
+        const { status, data } = await request({ url: endpoint, init: { method: 'GET' } });
+        const ok = status === 200 || status === 202;
+        if (ok) accepted++;
+        else failures.push({ u, status, data });
+        console.log(`  HTTP ${status} ${ok ? 'accepted' : 'NOT accepted'}  ${u}`);
+        if (!ok) explain(status, data);
+        // Be a polite client. This is the "excessive server load" Bing mentions.
+        if (i < urls.length - 1) await sleep(300);
+      }
+      console.log(`\n  ${accepted}/${urls.length} accepted.`);
+      if (failures.length) {
+        console.log(`  ${failures.length} failed. First failing URL: ${failures[0].u}`);
+      }
+      process.exit(failures.length ? 1 : 0);
+    }
+
+    // Bulk path, explicitly requested or unavoidable.
+    const body = JSON.stringify({ host: HOST, key, keyLocation, urlList: urls });
+    const { status, data } = await request(
+      {
+        url: ENDPOINT,
+        init: {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json; charset=utf-8',
+            'Content-Length': Buffer.byteLength(body),
+          },
+        },
+      },
+      body
+    );
+    const ok = status === 200 || status === 202;
+    console.log(`\n  HTTP ${status} ${ok ? '— accepted' : '— NOT accepted'}`);
+    if (data.trim()) console.log(`  response: ${data.trim().slice(0, 300)}`);
+    explain(status, data);
+    process.exit(ok ? 0 : 1);
+  } catch (e) {
+    console.error(`\n  request failed: ${e.message}`);
+    process.exit(1);
+  }
+})();
