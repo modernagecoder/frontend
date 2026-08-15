@@ -193,6 +193,39 @@ Watch this metric as the US states accumulate: two US states share more context
 than a US state and a Canadian province do, so nine of them will drift upward.
 Re-run the shingle diff whenever a page crosses 5 percent.
 
+## 4c. The two real drivers, found at n=4
+
+California against Texas hit 5.6 percent, crossing the 5 percent line above. The
+shingle diff named the causes precisely, and neither was the capsule this time.
+
+**1. The age ladder.** Texas and California listed almost identical courses in
+identical order. The ladder is not stripped as shared chrome, and it should not
+be, because which courses a market gets is a real editorial choice. So make it a
+real choice. California's ladder now leans AI and data, which is what its page
+argues about, and shares only two entries with Texas instead of most of them.
+
+**2. The generic FAQ answers.** Roughly half of each page's ten questions were
+market neutral (equipment, ages, class size, live versus recorded, how to start)
+and had been written in near-identical language. Rewriting California's four
+worst offenders in genuinely different sentence shapes, not synonyms, was most
+of the fix.
+
+Together these took the pair from 5.6 percent to 3.8 percent.
+
+**Rules for the remaining pages:**
+
+- Choose the ladder for the market. If a page argues about AI policy, its ladder
+  should be AI heavy. If it argues about an exam, its ladder should point at that
+  exam. Never paste the previous state's ladder.
+- Aim for at least seven of ten FAQs to be market specific. Where a generic
+  question must appear, write the answer fresh rather than adapting the last
+  page's wording.
+- When editing an FAQ answer, replace it **globally**. The text lives twice on
+  every page, once in the visible block and once in the FAQPage schema, and the
+  gate compares them character for character. A single-occurrence edit breaks the
+  page. Every replacement in this cluster asserts a count of exactly 2 before
+  writing.
+
 ## 4a. Sourcing rule, learned on page one
 
 **A search-result summary is not a source.** New Jersey nearly shipped with a

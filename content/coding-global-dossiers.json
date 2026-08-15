@@ -28,6 +28,53 @@
     "both the start year and which credit it covered. It was removed from the page."
   ],
 
+  "coding-classes-in-california": {
+    "market": "California",
+    "bodyClass": "cg-ca",
+    "curriculumAuthority": "California Computer Science Standards, adopted by the State Board of Education on 6 September 2018. Six core concepts and seven core practices, aligned to the K-12 Computer Science Framework. Crucially VOLUNTARY, which is the page's central fact and the sharpest contrast with New Jersey and Texas.",
+    "localProject": "CAL FIRE incident acreage. Trap: heavy-tailed distribution defeating a summary statistic. In 2020 nearly 10,000 fires burned over 4.2 million acres, a mean near 400 acres per fire, but the August Complex alone exceeded one million acres, close to a quarter of the season, while most fires were tiny. The mean describes no actual fire and no arithmetic error exists anywhere. Comparing mean acreage across years mostly measures whether a megafire happened. Deliberately a fourth distinct KIND of error: New Jersey metric definition, Ontario model misspecification, Texas observation bias, California summary statistics on a heavy tail.",
+    "requiredMentions": [
+      "California Computer Science Standards",
+      "six core concepts and seven core practices",
+      "K-12 Computer Science Framework",
+      "a-g course list",
+      "Area D",
+      "CAL FIRE",
+      "August Complex",
+      "gigafire",
+      "Fremont",
+      "September 6, 2018"
+    ],
+    "sources": [
+      {
+        "claim": "The State Board of Education adopted California's first K-12 computer science standards on 6 September 2018. They are built on six core computer science concepts and seven core practices, aligned to the K-12 Computer Science Framework, and developed with input from CSTA, NSF-funded work and industry. They are voluntary, intended to give substantive guidance while allowing flexibility across local education agencies to decide how best to incorporate computer science based on local capacity and context.",
+        "citation": "California Department of Education, Computer Science Content Standards",
+        "url": "https://www.cde.ca.gov/be/st/ss/computerscicontentstds.asp"
+      },
+      {
+        "claim": "UC subject requirement Area D asks for two years of laboratory science providing fundamental knowledge in at least two of biology, chemistry and physics, with a third year recommended. Computer science, engineering and applied science courses can be used in Area D as an additional science, that is a third year and beyond, not toward the core two years. Area G is one year of college-preparatory elective. Courses must be approved by UC and appear on the school's a-g course list.",
+        "citation": "University of California, A-G subject requirements, Subject Area D: Science",
+        "url": "https://hs-articulation.ucop.edu/guide/a-g-subject-requirements/d-science/"
+      },
+      {
+        "claim": "In the 2020 California fire season nearly 10,000 fires burned over 4.2 million acres, the largest wildfire season in California's modern recorded history. The August Complex exceeded one million acres, described as the first gigafire, formed from around 30 separate lightning-caused fires in the Mendocino National Forest that converged.",
+        "citation": "CAL FIRE 2020 incident archive; contemporaneous reporting on the 2020 fire siege",
+        "url": "https://www.fire.ca.gov/incidents/2020"
+      },
+      {
+        "claim": "California has 830,259 Indian Americans, 2.1 percent of the state population, the largest such population of any US state in absolute terms.",
+        "citation": "2020 United States Census",
+        "url": "https://en.wikipedia.org/wiki/Indian_Americans"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "Computer science counts as a laboratory science for University of California admission.",
+        "why": "Half true and therefore dangerous. It counts only as an ADDITIONAL science, third year and beyond, and does not replace the required two years drawn from biology, chemistry and physics. A student who plans as though it substitutes arrives in Grade 12 short. The page states the distinction explicitly and contrasts it with the Texas LOTE rule, which genuinely is a substitution."
+      }
+    ]
+  },
+
   "coding-classes-in-texas": {
     "market": "Texas",
     "bodyClass": "cg-tx",

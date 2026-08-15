@@ -284,6 +284,7 @@ USD 100 a month small group, USD 150 a month one to one.
 
 - Ontario, Canada: https://learn.modernagecoders.com/coding-classes-in-ontario
 - Texas, USA: https://learn.modernagecoders.com/coding-classes-in-texas
+- California, USA: https://learn.modernagecoders.com/coding-classes-in-california
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states
