@@ -1,0 +1,44 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1620px;height:1080px;background:#5c5c5c;overflow:hidden}
+  .grid{display:grid;grid-template-columns:repeat(3,540px);grid-template-rows:repeat(2,540px)}
+  .cell{width:540px;height:540px;position:relative;overflow:hidden;border:1px solid #333}
+  .cell iframe{width:1080px;height:1080px;border:0;transform:scale(.5);transform-origin:top left;display:block}
+  .cell .tag{position:absolute;left:0;top:0;background:#000;color:#0f0;font:700 15px monospace;padding:2px 7px;z-index:9}
+</style></head>
+<body>
+<div class="grid" id="g"></div>
+<script>
+  const c = new URLSearchParams(location.search).get('c') || '1';
+  const g = document.getElementById('g');
+  for (let i = 1; i <= 6; i++) {
+    const d = document.createElement('div');
+    d.className = 'cell';
+    d.innerHTML = '<span class="tag">c' + c + '-' + i + '</span><iframe src="c' + c + '-' + i + '.html"></iframe>';
+    g.appendChild(d);
+  }
+  // after all iframes load, run the same auto-fit each slide would get standalone
+  window.fitAll = async function () {
+    const frames = [...document.querySelectorAll('iframe')];
+    await Promise.all(frames.map(f => f.contentDocument && f.contentDocument.readyState === 'complete'
+      ? Promise.resolve() : new Promise(r => f.addEventListener('load', r))));
+    for (const f of frames) {
+      const doc = f.contentDocument;
+      if (!doc) continue;
+      try { await doc.fonts.ready; } catch (e) {}
+      const main = doc.querySelector('.main'), fit = doc.querySelector('.fit');
+      if (!main || !fit) continue;
+      fit.style.transform = 'none';
+      const s = Math.min(1, main.clientHeight / fit.scrollHeight, main.clientWidth / fit.scrollWidth);
+      if (s < 1) fit.style.transform = 'scale(' + s.toFixed(4) + ')';
+    }
+    // report any slide whose content still overflows its frame
+    return frames.map((f, i) => {
+      const doc = f.contentDocument;
+      const fr = doc && doc.querySelector('.frame');
+      return { slide: i + 1, overflow: fr ? (fr.scrollHeight > 1082 || fr.scrollWidth > 1082) : 'noframe' };
+    });
+  };
+</script>
+</body></html>

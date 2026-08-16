@@ -1,0 +1,21 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><link rel="stylesheet" href="carousel.css">
+<style>
+.wrap{display:flex;flex-direction:column;gap:18px}
+.win{width:100%}
+.win .body2{padding:20px 24px;font-family:'JetBrains Mono',monospace;font-size:24px;line-height:1.6;color:#e7e3ec}
+</style></head>
+<body><div class="frame">
+  <div class="brand-row"><span class="logo"><img src="art/logo.svg"></span><span class="brand-name">Modern Age Coders</span><span class="sn">4/6</span></div>
+  <div class="main"><div class="fit">
+   <div class="wrap">
+    <span class="step">Yes, it really is this small</span>
+    <h2>The training loop,<br>with nothing hidden.</h2>
+    <div class="win">
+      <div class="bar"><span class="dot" style="background:#ff5f57"></span><span class="dot" style="background:#febc2e"></span><span class="dot" style="background:#28c840"></span></div>
+      <div class="body2">weight = <span class="yel">0.5</span>&nbsp;&nbsp;<span class="cmt"># a random guess</span><br><br><span class="cor">for</span> round <span class="cor">in</span> <span class="cyn">range</span>(<span class="yel">1000</span>):<br>&nbsp;&nbsp;guess = weight * hours_studied<br>&nbsp;&nbsp;error = guess - real_marks&nbsp;<span class="cmt"># how wrong</span><br>&nbsp;&nbsp;weight = weight - <span class="yel">0.01</span> * error&nbsp;<span class="cmt"># nudge</span></div>
+    </div>
+    <div class="body">That is a model learning to predict marks from study hours. Every giant AI is this loop, with far more numbers.</div>
+   </div>
+  </div></div>
+  <div class="swipe">swipe <span class="ar">&rarr;</span></div>
+</div></body></html>

@@ -1,0 +1,21 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><link rel="stylesheet" href="carousel.css">
+<style>
+.wrap{display:flex;flex-direction:column;gap:18px}
+.wr .bd2{font-size:23px}
+.err{background:#211F24;border:3px solid var(--ink);border-radius:14px;padding:16px 20px;font-family:'JetBrains Mono',monospace;font-size:22px;line-height:1.5;color:#ff7a6b;box-shadow:6px 7px 0 rgba(32,30,36,.28)}
+.err .dim{color:#7f7a87}
+</style></head>
+<body><div class="frame">
+  <div class="brand-row"><span class="logo"><img src="art/logo.svg"></span><span class="brand-name">Modern Age Coders</span><span class="sn">5/6</span></div>
+  <div class="main"><div class="fit">
+   <div class="wrap">
+    <span class="step c">The mistake everybody makes once</span>
+    <h2>Forget rule 1,<br>meet this error.</h2>
+    <div class="wr bad"><span class="tag">FORGOT</span><span class="bd2"><span style="color:#8a5b4d">def</span> ahead(p): return 1 + ahead(p.in_front)</span></div>
+    <div class="err">RecursionError: maximum recursion depth exceeded<br><span class="dim"># translation: nobody at the front ever said "zero",<br># so they kept tapping shoulders until Python gave up</span></div>
+    <div class="wr good"><span class="tag">FIXED</span><span class="bd2">add the base case back. always write it first.</span></div>
+    <div class="hand p">write the stopping line before the clever line. every time.</div>
+   </div>
+  </div></div>
+  <div class="swipe">swipe <span class="ar">&rarr;</span></div>
+</div></body></html>

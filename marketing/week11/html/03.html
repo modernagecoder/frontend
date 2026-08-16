@@ -1,0 +1,32 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css">
+<style>
+.wrap{display:flex;flex-direction:column;gap:16px}
+h1{font-size:64px}
+.roster{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.ch{border:3px solid var(--ink);border-radius:18px;overflow:hidden;box-shadow:5px 6px 0 var(--ink);display:flex;flex-direction:column}
+.ch .im{padding:14px 12px 6px;display:flex;align-items:center;justify-content:center;min-height:150px}
+.ch .im img{width:100%;height:auto;display:block}
+.ch .nm{border-top:3px solid var(--ink);padding:11px 10px;text-align:center;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:26px;letter-spacing:-.5px}
+.ch .sk{font-family:'JetBrains Mono',monospace;font-weight:500;font-size:16px;display:block;margin-top:3px;letter-spacing:.5px}
+.c1{background:#EAF2EE}.c1 .nm{background:var(--pine);color:#fff}
+.c2{background:#FBE6DE}.c2 .nm{background:var(--coral);color:#fff}
+.c3{background:#FBF0D8}.c3 .nm{background:var(--amber);color:#fff}
+.c4{background:#F0EDE4}.c4 .nm{background:var(--ink);color:var(--yellow)}
+</style></head>
+<body><div class="frame">
+  <div class="brand-row"><span class="logo"><img src="art/logo.svg"></span><span class="brand-name">Modern Age Coders</span><span class="brand-tag">// player select</span></div>
+  <div class="main"><div class="fit">
+   <div class="wrap">
+    <span class="meme-tag">Choose your fighter</span>
+    <h1>Pick one. All four<br>are <span class="hl">live</span> classes.</h1>
+    <div class="roster">
+      <div class="ch c1"><div class="im"><img src="art/coding.svg" alt=""></div><div class="nm">Python<span class="sk">beginner to builder</span></div></div>
+      <div class="ch c2"><div class="im"><img src="art/robotics.svg" alt=""></div><div class="nm">AI + ML<span class="sk">train real models</span></div></div>
+      <div class="ch c3"><div class="im"><img src="art/developer.svg" alt=""></div><div class="nm">Coding<span class="sk">web, apps, games</span></div></div>
+      <div class="ch c4"><div class="im"><img src="art/science.svg" alt=""></div><div class="nm">Maths<span class="sk">it finally clicks</span></div></div>
+    </div>
+    <div class="punch p">comment your pick. we will tell you where to start.</div>
+   </div>
+  </div></div>
+  <div class="foot"><span class="site">learn.modernagecoders.com</span><span class="pill">Ages 6 to 67</span></div>
+</div></body></html>

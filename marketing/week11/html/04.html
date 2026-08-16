@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css">
+<style>
+.wrap{display:flex;flex-direction:column;gap:20px;align-items:center;width:100%}
+.ttl{font-family:Georgia,'Times New Roman',serif;font-size:52px;color:#111;text-align:center;line-height:1.15}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;width:100%}
+.it{border:2px solid #ddd6c9;border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:10px;align-items:center;text-align:center;background:#fff}
+.vis{height:104px;width:100%;border-radius:8px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.vis img{width:82%;height:auto;display:block}
+.cap{font-family:Georgia,'Times New Roman',serif;font-size:20px;color:#333;line-height:1.25}
+.v1{background:#EAF2EE}.v2{background:#FBE6DE}.v3{background:#FBF0D8}
+.tabs{display:flex;gap:3px;align-items:flex-end}
+.tabs i{display:block;width:13px;height:34px;background:#c9c2b4;border-radius:3px 3px 0 0}
+.tabs i.on{background:var(--pine);height:46px}
+.note{width:78px;height:78px;background:var(--yellow);border:2px solid #d8bf62;transform:rotate(-4deg);display:flex;align-items:center;justify-content:center;font-family:'Caveat',cursive;font-weight:700;font-size:22px;color:#5a4a12;padding:6px;line-height:1.05}
+.clock{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:38px;color:var(--coral)}
+.mono{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:19px;color:#2a2833;line-height:1.4}
+</style></head>
+<body class="plain"><div class="frame">
+  <div class="brand-row"><span class="logo"><img src="art/logo.svg"></span><span class="brand-name">Modern Age Coders</span><span class="brand-tag">// starterpack</span></div>
+  <div class="main"><div class="fit">
+   <div class="wrap">
+    <div class="ttl">the kid who codes <b>starterpack</b></div>
+    <div class="grid">
+      <div class="it"><div class="vis v1"><span class="tabs"><i></i><i class="on"></i><i></i><i></i><i class="on"></i><i></i><i></i><i class="on"></i><i></i></span></div><div class="cap">forty seven tabs, three of them useful</div></div>
+      <div class="it"><div class="vis v2"><span class="clock">9:04 pm</span></div><div class="cap">"five more minutes, I almost fixed it"</div></div>
+      <div class="it"><div class="vis v3"><span class="note">it works<br>do not<br>touch</span></div><div class="cap">a note taped to the laptop</div></div>
+      <div class="it"><div class="vis v1"><img src="art/coding.svg" alt=""></div><div class="cap">a game only the family is allowed to test</div></div>
+      <div class="it"><div class="vis v3"><span class="mono">"wait,<br>let me<br>show you"</span></div><div class="cap">said at least four times a day</div></div>
+      <div class="it"><div class="vis v2"><img src="art/thinking.svg" alt=""></div><div class="cap">one bug that lived rent free for three days</div></div>
+    </div>
+    <div class="punch p" style="align-self:flex-start">parents, tag your own. we know you recognised at least four.</div>
+   </div>
+  </div></div>
+  <div class="foot"><span class="site">learn.modernagecoders.com</span><span class="pill">Kids coding, live</span></div>
+</div></body></html>

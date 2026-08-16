@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><link rel="stylesheet" href="carousel.css">
+<style>
+.wrap{display:flex;flex-direction:column;gap:14px}
+.win{width:100%}
+.win .body2{padding:18px 22px;font-family:'JetBrains Mono',monospace;font-size:23px;line-height:1.55;color:#e7e3ec}
+.lbl{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:18px;letter-spacing:2px;color:#8a8478}
+</style></head>
+<body><div class="frame">
+  <div class="brand-row"><span class="logo"><img src="art/logo.svg"></span><span class="brand-name">Modern Age Coders</span><span class="sn">3/6</span></div>
+  <div class="main"><div class="fit">
+   <div class="wrap">
+    <span class="step">The order, and what comes back</span>
+    <h2>Two halves. Always.</h2>
+    <div class="lbl">YOU SEND (the order)</div>
+    <div class="win">
+      <div class="bar"><span class="dot" style="background:#ff5f57"></span><span class="dot" style="background:#febc2e"></span><span class="dot" style="background:#28c840"></span></div>
+      <div class="body2">GET https://api.weather.com/<span class="cyn">now</span>?city=<span class="grn">Kolkata</span></div>
+    </div>
+    <div class="lbl">IT SENDS BACK (the food)</div>
+    <div class="win">
+      <div class="bar"><span class="dot" style="background:#ff5f57"></span><span class="dot" style="background:#febc2e"></span><span class="dot" style="background:#28c840"></span></div>
+      <div class="body2">{<br>&nbsp;&nbsp;<span class="cyn">"city"</span>: <span class="grn">"Kolkata"</span>,<br>&nbsp;&nbsp;<span class="cyn">"temp_c"</span>: <span class="yel">31</span>,<br>&nbsp;&nbsp;<span class="cyn">"rain"</span>: <span class="cor">true</span><br>}</div>
+    </div>
+    <div class="hand">that curly bracket thing is JSON. it is just labelled values.</div>
+   </div>
+  </div></div>
+  <div class="swipe">swipe <span class="ar">&rarr;</span></div>
+</div></body></html>
