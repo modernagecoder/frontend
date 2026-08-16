@@ -261,7 +261,10 @@ for (const cluster of active) {
       } else {
         const mentions = d.requiredMentions || [];
         if (mentions.length < 8) errs.push(`dossier lists only ${mentions.length} requiredMentions (need 8+)`);
-        const absent = mentions.filter(m => !html.includes(m));
+        // Case-insensitive: a required fact is no less present for starting a
+        // sentence. This produced a false failure on "Inductive loops".
+        const haystack = html.toLowerCase();
+        const absent = mentions.filter(m => !haystack.includes(m.toLowerCase()));
         if (absent.length) errs.push('dossier facts missing from page: ' + absent.join(' | '));
         if (!d.localProject) errs.push('dossier has no localProject');
         const srcs = d.sources || [];

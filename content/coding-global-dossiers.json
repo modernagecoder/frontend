@@ -27,6 +27,51 @@
     "confirmed at primary source, and second-hand accounts contradicted each other on",
     "both the start year and which credit it covered. It was removed from the page."
   ],
+  "coding-classes-in-washington": {
+    "market": "Washington State",
+    "bodyClass": "cg-wa",
+    "curriculumAuthority": "Washington state computer science learning standards, referenced by RCW 28A.230.300 as the alignment test a course must meet before it can substitute for a third year mathematics or science course.",
+    "localProject": "Seattle Open Data, Fremont Bridge Bicycle Counter, running since October 2012 with hourly counts from inductive loops in the east and west pathways. Two traps, both about CONSTRUCT VALIDITY rather than statistics: (1) one bridge is not a city, so any claim about Seattle cycling drawn from a single sensor is a claim about that sensor; (2) the columns are east PATHWAY and west PATHWAY, not eastbound and westbound, and the loops count bicycles regardless of travel direction, so a commute-direction chart built from them measures which side of the bridge people ride on. Eighth distinct KIND of error: the variable does not mean what its name implies, and nothing was miscalculated. NOTE: no claim about counter outages or missing data appears on the page, because that could not be verified.",
+    "requiredMentions": [
+      "RCW 28A.230.300",
+      "RCW 28A.230.097",
+      "High School and Beyond Plan",
+      "written notification of the consequences",
+      "math-based quantitative course",
+      "Fremont Bridge",
+      "inductive loops",
+      "third year mathematics or third year science",
+      "Redmond",
+      "Sammamish"
+    ],
+    "sources": [
+      {
+        "claim": "RCW 28A.230.300 permits a student to substitute a computer science course aligned to state computer science learning standards as an alternative to a third year mathematics or third year science course. Before approving it, the school counselor provides the student and the student's parent or guardian with written notification of the consequences of the substitution on postsecondary opportunities. The student, parent or guardian, and school counselor or principal must all agree; the substitution must align with the student's High School and Beyond Plan; and each student is limited to one such substitution.",
+        "citation": "Revised Code of Washington 28A.230.300, Computer science",
+        "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=28A.230.300"
+      },
+      {
+        "claim": "RCW 28A.230.097 requires boards of directors to approve AP computer science courses as equivalent to high school mathematics or science, and to denote on a student's transcript that AP computer science qualifies as a math-based quantitative course for students who take the course in their senior year.",
+        "citation": "Revised Code of Washington 28A.230.097",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=28A.230.097"
+      },
+      {
+        "claim": "The Fremont Bridge Bicycle Counter began operation in October 2012 and records bicycles crossing the bridge on the pedestrian and bicycle pathways. Inductive loops on the east and west pathways count the passing of bicycles REGARDLESS of travel direction. The data consists of a date and time field plus east and west pathway count fields giving the total bicycles detected in each one-hour period, published on the City of Seattle Open Data portal.",
+        "citation": "City of Seattle Open Data portal, Fremont Bridge Bicycle Counter",
+        "url": "https://data.seattle.gov/Transportation/Fremont-Bridge-Bicycle-Counter/65db-xm6k"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "The Fremont Bridge counter has documented outages that read as zeros, so missing data looks like a collapse in cycling.",
+        "why": "Plausible and pedagogically attractive, but the dataset documentation reviewed did not confirm any specific outage or gap history, so it is not asserted on the page. The two traps that ARE taught (single-sensor sampling, and pathway columns not being directions) are both stated in the city's own dataset description."
+      },
+      {
+        "claim": "A specific Indian American population figure for Washington State.",
+        "why": "Not verified at a source we were willing to cite, so no number appears on the page. The page names the tech-corridor cities instead, which is what the audience recognises anyway."
+      }
+    ]
+  },
   "coding-classes-in-virginia": {
     "market": "Virginia",
     "bodyClass": "cg-va",
