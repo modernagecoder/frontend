@@ -27,6 +27,51 @@
     "confirmed at primary source, and second-hand accounts contradicted each other on",
     "both the start year and which credit it covered. It was removed from the page."
   ],
+  "coding-classes-in-georgia": {
+    "market": "Georgia (US state)",
+    "bodyClass": "cg-ga",
+    "curriculumAuthority": "Georgia Code 20-2-149.3, Requirements for computer science education (SB 108, 2019). All middle schools in a local system must offer instruction in exploratory computer science, including state charter schools serving middle grades. High schools were phased: at least 50 percent of a system's high schools from 2023-24, all from 2024-25. The statute supplies an unusually BROAD definition of computer science, which is the page's second point: two schools can both comply while teaching very different things.",
+    "localProject": "Base rates and conditional probability, anchored on published CDC prevalence figures, with Atlanta as the home of the Centers for Disease Control and Prevention. Trap: given a positive result from a highly accurate screening test for a rare condition, most positives are FALSE positives, because the small error rate applies to the very large healthy population. Taught as a two by two table of counts for 100,000 people rather than as Bayes' theorem in symbols. Ninth distinct KIND of error. Deliberately distinguished from the Illinois class-imbalance project: Illinois is about choosing the right METRIC for an imbalanced problem, Georgia is about what a positive result actually MEANS once the base rate is known.",
+    "requiredMentions": [
+      "20-2-149.3",
+      "HOPE Scholar",
+      "Academic Rigor Course List",
+      "Games, Apps and Society",
+      "exploratory computer science",
+      "gafutures.org",
+      "Centers for Disease Control",
+      "Alpharetta",
+      "Johns Creek",
+      "algorithmic processes, coding, and logical thinking"
+    ],
+    "sources": [
+      {
+        "claim": "Georgia Code 20-2-149.3 requires each local school system to provide that all middle schools offer instruction in exploratory computer science, and that state charter schools serving middle school students do the same. For high schools the duty is phased: beginning in the 2023-2024 school year at least 50 percent of a system's high schools must offer a course in computer science, and beginning in the 2024-2025 school year all of them must. The statute defines computer science as the study of computers, algorithmic processes, coding, and logical thinking, including computer principles, their hardware and software designs, their implementation, and their impact on society.",
+        "citation": "Official Code of Georgia Annotated 20-2-149.3, Requirements for computer science education",
+        "url": "https://law.justia.com/codes/georgia/title-20/chapter-2/article-6/part-2/section-20-2-149-3/"
+      },
+      {
+        "claim": "A student meeting the requirements to be a HOPE Scholar at the time of high school graduation must earn a minimum of four full rigor credits from the Academic Rigor Course List prior to graduating. Computer Science Principles and Games, Apps and Society are among the courses that satisfy HOPE rigor, and Advanced Placement courses in core subjects are approved rigor courses. The list is maintained by the Georgia Student Finance Commission.",
+        "citation": "Georgia Student Finance Commission, HOPE Scholarship initial academic eligibility and Academic Rigor Course List",
+        "url": "https://www.gafutures.org/hope-state-aid-programs/hope-zell-miller-scholarships/hope-scholarship/initial-academic-eligibility/"
+      },
+      {
+        "claim": "The Centers for Disease Control and Prevention is headquartered in Atlanta, Georgia, and publishes prevalence figures for conditions that students can look up directly.",
+        "citation": "Centers for Disease Control and Prevention",
+        "url": "https://www.cdc.gov/"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "Georgia's computer science requirement came from HB 897.",
+        "why": "Wrong bill, caught before writing. The requirement traces to SB 108 (2019), codified at O.C.G.A. 20-2-149.3. The initial research assumption was checked against the code section rather than trusted."
+      },
+      {
+        "claim": "A specific named test with specific sensitivity and specificity figures.",
+        "why": "The page deliberately describes the screening test in general terms ('correctly identifies almost everybody who has the condition, wrongly flags only a small percentage of those who do not') and has students look up current CDC prevalence themselves, rather than printing invented or unsourced diagnostic accuracy numbers that would date badly and could be read as medical guidance."
+      }
+    ]
+  },
   "coding-classes-in-washington": {
     "market": "Washington State",
     "bodyClass": "cg-wa",

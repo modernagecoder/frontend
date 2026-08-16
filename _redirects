@@ -1516,4 +1516,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-washington /src/pages/coding-classes-in-washington.html 200
 /coding-classes-in-washington.md /src/pages/coding-classes-in-washington.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-georgia /src/pages/coding-classes-in-georgia.html 200
+/coding-classes-in-georgia.md /src/pages/coding-classes-in-georgia.md 200
 /* /src/pages/404.html 404
