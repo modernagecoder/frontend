@@ -1475,7 +1475,6 @@
       "week_101_102": {
         "title": "Alumni Network & Support",
         "topics": [
-          "Lifetime alumni access",
           "Exclusive job board",
           "Continued mentorship",
           "Advanced workshops",
@@ -1574,8 +1573,7 @@
       "mentorship": "Female mentors from the industry",
       "community": "Exclusive Princess Coders community platform",
       "code_review": "Personalized feedback on all projects",
-      "career_support": "Women-focused career guidance and opportunities",
-      "lifetime_access": "Forever access to content and community"
+      "career_support": "Women-focused career guidance and opportunities"
     },
     "certification": {
       "phase_certificates": "Certificate after each phase (4 total)",

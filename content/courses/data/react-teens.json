@@ -1310,10 +1310,8 @@
     "support_provided": {
       "live_sessions": "Weekly teen group sessions",
       "mentorship": "Young mentor (college age) guidance",
-      "community": "Discord server for teen developers",
       "code_review": "Peer and expert code reviews",
-      "career_support": "College prep, internship guidance",
-      "lifetime_access": "Keep learning as you grow"
+      "career_support": "College prep, internship guidance"
     },
     "certification": {
       "phase_certificates": "Certificate after each phase",

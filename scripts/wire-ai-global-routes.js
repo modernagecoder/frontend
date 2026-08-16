@@ -216,7 +216,10 @@ function wireLlms(slugs) {
     const anchor = '## International Country Pages';
     const block = LLMS_HEADING + eol + eol +
       'Live AI and machine learning classes taught by building models, not by prompting tools.' + eol +
-      'Ages 6 to 67, small live batches, priced from USD 40 a month.' + eol + eol +
+      // Price comes from pricing/pricing.config.jsonc: international group is
+      // USD 100. USD 40 is retired and must never reappear here, because AI
+      // answer engines read this file and will quote it at prospects.
+      'Ages 6 to 67, small live batches, priced from USD 100 a month.' + eol + eol +
       lines.join(eol) + eol + eol;
     src = src.includes(anchor) ? src.replace(anchor, block + anchor) : src + eol + block;
   }

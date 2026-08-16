@@ -1,0 +1,1733 @@
+{
+  "_comment": [
+    "PER-MARKET DOSSIERS for the international growth cluster.",
+    "Spec: docs/superpowers/specs/2026-08-15-international-growth-cluster-design.md",
+    "",
+    "WHY THIS FILE EXISTS",
+    "Shingle-overlap catches duplication only AFTER a page is written. This file",
+    "catches thinness BEFORE. A page may not be written until its dossier is filled,",
+    "and verify-cluster-pages.js fails the page if the market-specific facts listed",
+    "here are not actually present in the rendered HTML.",
+    "",
+    "RULES",
+    "  1. requiredMentions must contain at least 8 entries, each a market-SPECIFIC",
+    "     string: a named statute, regulation, curriculum document, exam board,",
+    "     institution, dataset, operator or place. Generic marketing words do not",
+    "     count and defeat the purpose.",
+    "  2. No string in requiredMentions may appear in another market's dossier.",
+    "     That is the anti-duplication rule, enforced by the gate.",
+    "  3. localProject must name a real dataset from that market with a real",
+    "     analytical trap. This is the strongest anti-duplication device we have.",
+    "  4. sources must contain at least 3 primary sources, with the claim each one",
+    "     supports. If a claim cannot be sourced, it does not go on the page.",
+    "     A claim that resists sourcing gets stated as unconfirmed, or dropped.",
+    "",
+    "The New Jersey entry records a real lesson: the widely repeated claim that AP",
+    "computer science satisfies part of a New Jersey mathematics credit could not be",
+    "confirmed at primary source, and second-hand accounts contradicted each other on",
+    "both the start year and which credit it covered. It was removed from the page."
+  ],
+  "coding-classes-in-georgia": {
+    "market": "Georgia (US state)",
+    "bodyClass": "cg-ga",
+    "curriculumAuthority": "Georgia Code 20-2-149.3, Requirements for computer science education (SB 108, 2019). All middle schools in a local system must offer instruction in exploratory computer science, including state charter schools serving middle grades. High schools were phased: at least 50 percent of a system's high schools from 2023-24, all from 2024-25. The statute supplies an unusually BROAD definition of computer science, which is the page's second point: two schools can both comply while teaching very different things.",
+    "localProject": "Base rates and conditional probability, anchored on published CDC prevalence figures, with Atlanta as the home of the Centers for Disease Control and Prevention. Trap: given a positive result from a highly accurate screening test for a rare condition, most positives are FALSE positives, because the small error rate applies to the very large healthy population. Taught as a two by two table of counts for 100,000 people rather than as Bayes' theorem in symbols. Ninth distinct KIND of error. Deliberately distinguished from the Illinois class-imbalance project: Illinois is about choosing the right METRIC for an imbalanced problem, Georgia is about what a positive result actually MEANS once the base rate is known.",
+    "requiredMentions": [
+      "20-2-149.3",
+      "HOPE Scholar",
+      "Academic Rigor Course List",
+      "Games, Apps and Society",
+      "exploratory computer science",
+      "gafutures.org",
+      "Centers for Disease Control",
+      "Alpharetta",
+      "Johns Creek",
+      "algorithmic processes, coding, and logical thinking"
+    ],
+    "sources": [
+      {
+        "claim": "Georgia Code 20-2-149.3 requires each local school system to provide that all middle schools offer instruction in exploratory computer science, and that state charter schools serving middle school students do the same. For high schools the duty is phased: beginning in the 2023-2024 school year at least 50 percent of a system's high schools must offer a course in computer science, and beginning in the 2024-2025 school year all of them must. The statute defines computer science as the study of computers, algorithmic processes, coding, and logical thinking, including computer principles, their hardware and software designs, their implementation, and their impact on society.",
+        "citation": "Official Code of Georgia Annotated 20-2-149.3, Requirements for computer science education",
+        "url": "https://law.justia.com/codes/georgia/title-20/chapter-2/article-6/part-2/section-20-2-149-3/"
+      },
+      {
+        "claim": "A student meeting the requirements to be a HOPE Scholar at the time of high school graduation must earn a minimum of four full rigor credits from the Academic Rigor Course List prior to graduating. Computer Science Principles and Games, Apps and Society are among the courses that satisfy HOPE rigor, and Advanced Placement courses in core subjects are approved rigor courses. The list is maintained by the Georgia Student Finance Commission.",
+        "citation": "Georgia Student Finance Commission, HOPE Scholarship initial academic eligibility and Academic Rigor Course List",
+        "url": "https://www.gafutures.org/hope-state-aid-programs/hope-zell-miller-scholarships/hope-scholarship/initial-academic-eligibility/"
+      },
+      {
+        "claim": "The Centers for Disease Control and Prevention is headquartered in Atlanta, Georgia, and publishes prevalence figures for conditions that students can look up directly.",
+        "citation": "Centers for Disease Control and Prevention",
+        "url": "https://www.cdc.gov/"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "Georgia's computer science requirement came from HB 897.",
+        "why": "Wrong bill, caught before writing. The requirement traces to SB 108 (2019), codified at O.C.G.A. 20-2-149.3. The initial research assumption was checked against the code section rather than trusted."
+      },
+      {
+        "claim": "A specific named test with specific sensitivity and specificity figures.",
+        "why": "The page deliberately describes the screening test in general terms ('correctly identifies almost everybody who has the condition, wrongly flags only a small percentage of those who do not') and has students look up current CDC prevalence themselves, rather than printing invented or unsourced diagnostic accuracy numbers that would date badly and could be read as medical guidance."
+      }
+    ]
+  },
+  "coding-classes-in-washington": {
+    "market": "Washington State",
+    "bodyClass": "cg-wa",
+    "curriculumAuthority": "Washington state computer science learning standards, referenced by RCW 28A.230.300 as the alignment test a course must meet before it can substitute for a third year mathematics or science course.",
+    "localProject": "Seattle Open Data, Fremont Bridge Bicycle Counter, running since October 2012 with hourly counts from inductive loops in the east and west pathways. Two traps, both about CONSTRUCT VALIDITY rather than statistics: (1) one bridge is not a city, so any claim about Seattle cycling drawn from a single sensor is a claim about that sensor; (2) the columns are east PATHWAY and west PATHWAY, not eastbound and westbound, and the loops count bicycles regardless of travel direction, so a commute-direction chart built from them measures which side of the bridge people ride on. Eighth distinct KIND of error: the variable does not mean what its name implies, and nothing was miscalculated. NOTE: no claim about counter outages or missing data appears on the page, because that could not be verified.",
+    "requiredMentions": [
+      "RCW 28A.230.300",
+      "RCW 28A.230.097",
+      "High School and Beyond Plan",
+      "written notification of the consequences",
+      "math-based quantitative course",
+      "Fremont Bridge",
+      "inductive loops",
+      "third year mathematics or third year science",
+      "Redmond",
+      "Sammamish"
+    ],
+    "sources": [
+      {
+        "claim": "RCW 28A.230.300 permits a student to substitute a computer science course aligned to state computer science learning standards as an alternative to a third year mathematics or third year science course. Before approving it, the school counselor provides the student and the student's parent or guardian with written notification of the consequences of the substitution on postsecondary opportunities. The student, parent or guardian, and school counselor or principal must all agree; the substitution must align with the student's High School and Beyond Plan; and each student is limited to one such substitution.",
+        "citation": "Revised Code of Washington 28A.230.300, Computer science",
+        "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=28A.230.300"
+      },
+      {
+        "claim": "RCW 28A.230.097 requires boards of directors to approve AP computer science courses as equivalent to high school mathematics or science, and to denote on a student's transcript that AP computer science qualifies as a math-based quantitative course for students who take the course in their senior year.",
+        "citation": "Revised Code of Washington 28A.230.097",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=28A.230.097"
+      },
+      {
+        "claim": "The Fremont Bridge Bicycle Counter began operation in October 2012 and records bicycles crossing the bridge on the pedestrian and bicycle pathways. Inductive loops on the east and west pathways count the passing of bicycles REGARDLESS of travel direction. The data consists of a date and time field plus east and west pathway count fields giving the total bicycles detected in each one-hour period, published on the City of Seattle Open Data portal.",
+        "citation": "City of Seattle Open Data portal, Fremont Bridge Bicycle Counter",
+        "url": "https://data.seattle.gov/Transportation/Fremont-Bridge-Bicycle-Counter/65db-xm6k"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "The Fremont Bridge counter has documented outages that read as zeros, so missing data looks like a collapse in cycling.",
+        "why": "Plausible and pedagogically attractive, but the dataset documentation reviewed did not confirm any specific outage or gap history, so it is not asserted on the page. The two traps that ARE taught (single-sensor sampling, and pathway columns not being directions) are both stated in the city's own dataset description."
+      },
+      {
+        "claim": "A specific Indian American population figure for Washington State.",
+        "why": "Not verified at a source we were willing to cite, so no number appears on the page. The page names the tech-corridor cities instead, which is what the audience recognises anyway."
+      }
+    ]
+  },
+  "coding-classes-in-virginia": {
+    "market": "Virginia",
+    "bodyClass": "cg-va",
+    "curriculumAuthority": "2017 Computer Science Standards of Learning, adopted November 2017, taught from 2019-20. Virginia was the FIRST state to require computer science instruction at all K-12 levels. K-8 is addressed WITHIN existing content areas; middle and high school are stand-alone electives. The page's spine is that integration is the most fragile delivery model: no timetable slot, no specialist teacher, no assessment to reveal absence.",
+    "localProject": "Virginia School Quality Profiles / VDOE SOL pass rates, published for schools, divisions and the state across three years. Trap: REGRESSION TO THE MEAN. Select the bottom tenth of schools in year one and they rise in year two with no intervention, because selecting on an extreme selects partly for bad luck and luck does not repeat. Mirror it with the top tenth falling. Consequence: any programme aimed at the worst performers appears to work even if it does nothing, so an evaluation without a comparison group is worthless. Seventh distinct KIND of error in the cluster. Framed explicitly as being about statistics, not about judging schools.",
+    "requiredMentions": [
+      "Computer Science Standards of Learning",
+      "verified credits",
+      "Advanced Studies Diploma",
+      "Profile of a Virginia Graduate",
+      "critical thinking, creative thinking, collaboration, communication, and citizenship",
+      "School Quality Profiles",
+      "regression to the mean",
+      "stand-alone electives",
+      "Loudoun",
+      "November 2017"
+    ],
+    "sources": [
+      {
+        "claim": "In November 2017 Virginia became the first state to require computer science instruction integrated at all K-12 levels, adopting K-12 Computer Science Standards of Learning, expected to be taught from the 2019-2020 academic year. Computer science in grades K-8 is addressed within the content areas, including language arts and history, while middle and high school classes are designed as stand-alone electives.",
+        "citation": "Virginia Department of Education, 2017 Computer Science Standards of Learning",
+        "url": "https://www.doe.virginia.gov/teaching-learning-assessment/k-12-standards-instruction/computer-science/standards-of-learning/2017-computer-science-standards-of-learning"
+      },
+      {
+        "claim": "A Standard Diploma requires at least 22 standard credits and 5 verified credits. An Advanced Studies Diploma requires at least 26 standard credits and 5 verified credits. Standard credits are earned by completing required and elective courses; verified credits are earned by completing required courses AND passing associated end-of-course SOL tests or other Board-approved assessments.",
+        "citation": "Virginia Department of Education, Standard and Advanced Studies Diploma graduation requirements",
+        "url": "https://www.doe.virginia.gov/parents-students/for-students/graduation/diploma-options/standard-diploma-graduation-requirements"
+      },
+      {
+        "claim": "In accordance with the Profile of a Virginia Graduate, students shall acquire and demonstrate foundational skills in Virginia's 5 C's: critical thinking, creative thinking, collaboration, communication, and citizenship.",
+        "citation": "Virginia Department of Education, Profile of a Virginia Graduate",
+        "url": "https://www.doe.virginia.gov/parents-students/for-students/graduation/diploma-options/advanced-studies-diploma-graduation-requirements"
+      },
+      {
+        "claim": "The Virginia Department of Education publishes School Quality Profiles containing accreditation, historical Standards of Learning scores and passing rates, and provides downloadable SOL test results for schools, school divisions and the state by grade level, course and content area covering three years with numerators and denominators.",
+        "citation": "Virginia Department of Education, SOL Test Pass Rates and Other Results; Virginia School Quality Profiles",
+        "url": "https://www.doe.virginia.gov/data-policy-funding/data-reports/statistics-reports/sol-test-pass-rates-other-results"
+      },
+      {
+        "claim": "Virginia has 157,635 Indian Americans, 1.83 percent of the state population.",
+        "citation": "2020 United States Census",
+        "url": "https://en.wikipedia.org/wiki/Indian_Americans"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "Because Virginia requires computer science K-12, every Virginia child is learning to code.",
+        "why": "The requirement is real and Virginia genuinely got there first, but K-8 delivery is integration into other subjects with no dedicated lesson, teacher or assessment. The page credits the policy, states the delivery model plainly, says explicitly that integration done well is genuinely good and that the problem is variance rather than ceiling, and gives parents a specific question to ask their own school instead of asserting a failure we cannot measure."
+      }
+    ]
+  },
+  "coding-classes-in-illinois": {
+    "market": "Illinois",
+    "bodyClass": "cg-il",
+    "curriculumAuthority": "Illinois computer science learning standards, written by the State Board of Education under HB 2170 and delivered by the end of 2021. The legal frame is an ENTITLEMENT to be offered a course, which is the page's spine: a floor, not a ceiling.",
+    "localProject": "Chicago Data Portal beach water quality. Chicago Park District issues a swim advisory when predicted E. coli reaches at least 235 Colony Forming Units per 100 ml, and publishes lab data, advisories and model predictions daily through the season. Trap: CLASS IMBALANCE and the accuracy paradox. Advisories are rare, so a model that always answers safe scores about the same accuracy as a real one. Forces confusion matrix, precision and recall, and the judgement that a missed advisory and a false alarm are not equivalent harms. Sixth distinct KIND of error in the cluster.",
+    "requiredMentions": [
+      "HB 2170",
+      "Education and Workforce Equity Act",
+      "Illinois Legislative Black Caucus",
+      "intensive instruction in computer literacy",
+      "Chicago Park District",
+      "Colony Forming Units",
+      "Chicago Public Schools",
+      "Naperville",
+      "Schaumburg",
+      "State Board of Education"
+    ],
+    "sources": [
+      {
+        "claim": "HB 2170, the Education and Workforce Equity Act, was signed in March 2021 and championed by the Illinois Legislative Black Caucus. It requires schools to offer every student the opportunity to take at least one computer science course aligned to rigorous CS learning standards beginning in the 2023-2024 school year; requires ISBE to develop computer science learning standards, delivered by the end of 2021; requires districts to ensure students gain computer literacy skills starting in elementary school; and requires high school students to take one year of a course that includes intensive instruction in computer literacy beginning in the 2022-2023 school year.",
+        "citation": "Illinois HB 2170, Education and Workforce Equity Act, 2021",
+        "url": "https://edsystemsniu.org/hb-2170-overview/"
+      },
+      {
+        "claim": "Chicago Public Schools made computer science a high school graduation requirement in 2016, ahead of the state and ahead of almost every large district in the United States.",
+        "citation": "Contemporaneous reporting on the CPS graduation requirement, 2016",
+        "url": "https://techcrunch.com/2016/02/24/computer-science-is-now-a-high-school-graduation-requirement-in-chicagos-public-school-district"
+      },
+      {
+        "claim": "The Chicago Park District monitors Lake Michigan beach water quality, testing for Escherichia coli as an indicator species, and a swim advisory is issued when the predicted E. coli level is at least 235 Colony Forming Units per 100 ml. The Chicago Data Portal publishes Beach E. coli Predictions, Beach Lab Data and Beach Swim Advisories, updated daily during the beach season. The City worked with the Park District, volunteer data scientists and university students on the forecasting model.",
+        "citation": "City of Chicago Data Portal, Beach E. coli Predictions",
+        "url": "https://data.cityofchicago.org/Parks-Recreation/Beach-E-coli-Predictions/xvsz-3xcj"
+      },
+      {
+        "claim": "Illinois has 260,055 Indian Americans, 2.03 percent of the state population.",
+        "citation": "2020 United States Census",
+        "url": "https://en.wikipedia.org/wiki/Indian_Americans"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "An AP computer science course counts toward the three years of mathematics required for graduation in Illinois.",
+        "why": "Widely reported but not confirmed at primary source, and the New Jersey lesson applies: a credential claim that resists sourcing gets stated as unconfirmed, never asserted. The page and its FAQ say plainly that we could not confirm it and direct families to their counsellor for the rule in force for their cohort."
+      }
+    ]
+  },
+  "coding-classes-in-new-york": {
+    "market": "New York",
+    "bodyClass": "cg-ny",
+    "curriculumAuthority": "New York State Learning Standards for Computer Science and Digital Fluency, adopted by the Board of Regents in December 2020, full implementation expected by September 2024. Five concept areas, grade bands K-1, 2-3, 4-6, 7-8, 9-12. Distinctive because Cybersecurity is named as a top-level concept, which very few states do.",
+    "localProject": "NYC Open Data 311 Service Requests, over 40 million rows by end of 2025, updated daily. Trap: rate versus count, the denominator problem. Ranking boroughs by raw noise complaints mostly ranks them by population. Second layer: a 311 record measures somebody choosing to report, not the event itself. Deliberately a fifth distinct KIND of error, and specifically NOT Texas's observation bias, which was about detection changing over time; this is about comparing groups of different sizes at one moment.",
+    "requiredMentions": [
+      "Computer Science and Digital Fluency",
+      "Networks and System Design",
+      "Portrait of a Graduate",
+      "Blue Ribbon Commission",
+      "NY Inspires",
+      "311 Service Requests",
+      "NYC Open Data",
+      "Board of Regents",
+      "Regents exam",
+      "Cybersecurity",
+      "Hecht-Calandra",
+      "Stuyvesant"
+    ],
+    "sources": [
+      {
+        "claim": "The Board of Regents adopted the New York State Learning Standards for Computer Science and Digital Fluency in December 2020, following a two-year statewide collaborative authoring, reviewing and revision process. Five concept areas: Impacts of Computing, Computational Thinking, Networks and System Design, Cybersecurity, and Digital Literacy. Standards are grouped into grade bands K-1, 2-3, 4-6, 7-8 and 9-12. All K-12 schools were expected to fully implement by September 2024.",
+        "citation": "New York State Education Department, Computer Science and Digital Fluency Learning Standards",
+        "url": "https://www.nysed.gov/standards-instruction/computer-science-and-digital-fluency"
+      },
+      {
+        "claim": "On 4 November 2024 the State Education Department presented NY Inspires, implementing the Blue Ribbon Commission on Graduation Measures recommendations through four transformations: adopt the New York State Portrait of a Graduate, redefine credits, sunset diploma assessment requirements, and move to one diploma. Until specific changes are approved by the Board of Regents, current graduation requirements remain in effect for all public school students. Reporting has indicated the Regents exam requirement ending around the 2027-28 school year.",
+        "citation": "New York State Education Department, Current Diploma Requirements and the Graduation Measures Initiative",
+        "url": "https://www.nysed.gov/standards-instruction/news/current-diploma-requirements-and-graduation-measures-initiative"
+      },
+      {
+        "claim": "NYC Open Data publishes 311 Service Requests covering 2010 to the present, updated daily, split into a 2010-2019 historical set and a 2020-to-present set. As of December 2025 the data contained over 40 million rows. Each row includes complaint type, responding agency and geographic location.",
+        "citation": "NYC Open Data, 311 Service Requests",
+        "url": "https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2020-to-Present/erm2-nwe9"
+      },
+      {
+        "claim": "New York has 387,376 Indian Americans, 1.92 percent of the state population.",
+        "citation": "2020 United States Census",
+        "url": "https://en.wikipedia.org/wiki/Indian_Americans"
+      },
+      {
+        "claim": "The Hecht-Calandra Act of 1971 requires New York City to admit students to its specialized high schools solely on performance in the Specialized High Schools Admissions Test. The legislation originally covered Stuyvesant High School, the Bronx High School of Science and Brooklyn Technical High School. The SHSAT is the sole criterion for eight of the nine specialized high schools; the ninth, LaGuardia, admits by audition or portfolio.",
+        "citation": "New York Education Law, Hecht-Calandra Act 1971; NYC specialized high schools admissions",
+        "url": "https://en.wikipedia.org/wiki/Specialized_High_Schools_Admissions_Test"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "New York students no longer need to pass Regents exams to graduate.",
+        "why": "Premature. The direction is announced and the plan is published, but until the Board of Regents approves specific changes the current requirements remain in force for every public school student. The page states the plan, states plainly that nothing has changed yet, and tells families to confirm the position for their child's cohort with the school."
+      }
+    ]
+  },
+  "coding-classes-in-california": {
+    "market": "California",
+    "bodyClass": "cg-ca",
+    "curriculumAuthority": "California Computer Science Standards, adopted by the State Board of Education on 6 September 2018. Six core concepts and seven core practices, aligned to the K-12 Computer Science Framework. Crucially VOLUNTARY, which is the page's central fact and the sharpest contrast with New Jersey and Texas.",
+    "localProject": "CAL FIRE incident acreage. Trap: heavy-tailed distribution defeating a summary statistic. In 2020 nearly 10,000 fires burned over 4.2 million acres, a mean near 400 acres per fire, but the August Complex alone exceeded one million acres, close to a quarter of the season, while most fires were tiny. The mean describes no actual fire and no arithmetic error exists anywhere. Comparing mean acreage across years mostly measures whether a megafire happened. Deliberately a fourth distinct KIND of error: New Jersey metric definition, Ontario model misspecification, Texas observation bias, California summary statistics on a heavy tail.",
+    "requiredMentions": [
+      "California Computer Science Standards",
+      "six core concepts and seven core practices",
+      "K-12 Computer Science Framework",
+      "a-g course list",
+      "Area D",
+      "CAL FIRE",
+      "August Complex",
+      "gigafire",
+      "Fremont",
+      "September 6, 2018"
+    ],
+    "sources": [
+      {
+        "claim": "The State Board of Education adopted California's first K-12 computer science standards on 6 September 2018. They are built on six core computer science concepts and seven core practices, aligned to the K-12 Computer Science Framework, and developed with input from CSTA, NSF-funded work and industry. They are voluntary, intended to give substantive guidance while allowing flexibility across local education agencies to decide how best to incorporate computer science based on local capacity and context.",
+        "citation": "California Department of Education, Computer Science Content Standards",
+        "url": "https://www.cde.ca.gov/be/st/ss/computerscicontentstds.asp"
+      },
+      {
+        "claim": "UC subject requirement Area D asks for two years of laboratory science providing fundamental knowledge in at least two of biology, chemistry and physics, with a third year recommended. Computer science, engineering and applied science courses can be used in Area D as an additional science, that is a third year and beyond, not toward the core two years. Area G is one year of college-preparatory elective. Courses must be approved by UC and appear on the school's a-g course list.",
+        "citation": "University of California, A-G subject requirements, Subject Area D: Science",
+        "url": "https://hs-articulation.ucop.edu/guide/a-g-subject-requirements/d-science/"
+      },
+      {
+        "claim": "In the 2020 California fire season nearly 10,000 fires burned over 4.2 million acres, the largest wildfire season in California's modern recorded history. The August Complex exceeded one million acres, described as the first gigafire, formed from around 30 separate lightning-caused fires in the Mendocino National Forest that converged.",
+        "citation": "CAL FIRE 2020 incident archive; contemporaneous reporting on the 2020 fire siege",
+        "url": "https://www.fire.ca.gov/incidents/2020"
+      },
+      {
+        "claim": "California has 830,259 Indian Americans, 2.1 percent of the state population, the largest such population of any US state in absolute terms.",
+        "citation": "2020 United States Census",
+        "url": "https://en.wikipedia.org/wiki/Indian_Americans"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "Computer science counts as a laboratory science for University of California admission.",
+        "why": "Half true and therefore dangerous. It counts only as an ADDITIONAL science, third year and beyond, and does not replace the required two years drawn from biology, chemistry and physics. A student who plans as though it substitutes arrives in Grade 12 short. The page states the distinction explicitly and contrasts it with the Texas LOTE rule, which genuinely is a substitution."
+      }
+    ]
+  },
+  "coding-classes-in-texas": {
+    "market": "Texas",
+    "bodyClass": "cg-tx",
+    "curriculumAuthority": "Technology Applications TEKS, revised by the State Board of Education in 2022, implemented from the 2024-25 school year. Five strands, with computational thinking the largest departure from the 2011 standards.",
+    "localProject": "NOAA Storm Prediction Center tornado records for Texas. Trap: observation bias. Reported counts climb since 1950, but population spread, the 1990s Doppler radar rollout and the 2007 switch from the Fujita to the Enhanced Fujita scale all changed detection. NOAA's own assessment is that removing F/EF0 counts nearly eliminates the annual frequency trend. Method taught: find a subset whose collection method did not change (strong tornadoes) and see whether the trend survives. Deliberately a different KIND of error from New Jersey (metric definition) and Ontario (model misspecification).",
+    "requiredMentions": [
+      "19 TAC 74.12",
+      "Technology Applications TEKS",
+      "decomposition, pattern recognition, abstraction",
+      "digital citizenship",
+      "Foundation High School Program",
+      "Distinguished Level of Achievement",
+      "Storm Prediction Center",
+      "Enhanced Fujita",
+      "Computer Science I, II and III",
+      "Frisco"
+    ],
+    "sources": [
+      {
+        "claim": "19 TAC 74.12 Languages Other Than English, two credits: 'The credits may be selected from the following: (i) any two levels in the same language, including comparable AP or IB language courses that do not count toward another credit required for graduation; or (ii) two credits in computer programming languages, including computer coding, to be selected from Computer Science I, II, and III, AP Computer Science Principles, AP Computer Science A, IB Computer Science Standard Level, and IB Computer Science Higher Level.' A separate provision covers a student who cannot complete a second LOTE credit, requiring agreement from the LOTE teacher, the principal or designee and the parent, or the ARD committee, or the Section 504 committee. NOTE the copy consulted is marked effective until 2025-08-01 and TEA issued an August 2025 update to Chapter 74 Subchapter B; the page tells families to confirm the current text.",
+        "citation": "19 Tex. Admin. Code section 74.12, Foundation High School Program",
+        "url": "https://law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-74-12"
+      },
+      {
+        "claim": "Technology Applications TEKS were revised in 2022 and implemented from the 2024-25 school year. Five strands: computational thinking; creativity and innovation; data literacy, management, and representation; digital citizenship; and practical technology concepts. Computational thinking breaks problem solving into decomposition, pattern recognition, abstraction and algorithms. The 2022 revision gave each grade K to 5 its own standards instead of grade bands.",
+        "citation": "Texas Education Agency, Technology Applications; SBOE April 2022 adoption",
+        "url": "https://tea.texas.gov/academics/subject-areas/technology-applications"
+      },
+      {
+        "claim": "The Foundation High School Program requires at least 22 credits; an endorsement takes the total to 26. Subject minimums include English 4, Mathematics 3, Science 3, Social Studies 3, Languages Other Than English 2, Physical Education 1, Fine Arts 1 and Electives 5. Endorsement options are STEM, business and industry, public services, arts and humanities, and multidisciplinary studies. The Distinguished Level of Achievement requires 26 credits including Algebra II.",
+        "citation": "Texas Education Agency, Graduation Toolkit 2025",
+        "url": "https://tea.texas.gov/about-tea/newsroom/brochures/tea-graduation-toolkit-2025.pdf"
+      },
+      {
+        "claim": "Inconsistencies in the NOAA severe events database arise from changes in population awareness, reporting practices, Doppler radar technology and NWS guidelines, which have likely introduced artificial trends. Removing F/EF0 counts from the database nearly eliminates the annual frequency trend. The 2007 change from the Fujita to the Enhanced Fujita scale produced large increases in weak tornado reports.",
+        "citation": "NOAA State of the Science Fact Sheet: Tornadoes, Climate Variability and Climate Change, September 2023",
+        "url": "https://repository.library.noaa.gov/view/noaa/69985/noaa_69985_DS1.pdf"
+      },
+      {
+        "claim": "Texas has 480,566 Indian Americans, 1.65 percent of the state population, the second largest such population of any US state.",
+        "citation": "2020 United States Census",
+        "url": "https://en.wikipedia.org/wiki/Indian_Americans"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "A Texas student needs district or principal approval to use computer science for the LOTE requirement.",
+        "why": "This confuses two separate provisions of 19 TAC 74.12. Clause (ii) is an unconditional listed alternative needing no permission. The named-approval process belongs to the different provision covering a student who has begun a language and is unlikely to complete the second credit. The page explains both and distinguishes them, because families are routinely quoted the wrong one."
+      }
+    ]
+  },
+  "coding-classes-in-ontario": {
+    "market": "Ontario",
+    "bodyClass": "cg-on",
+    "curriculumAuthority": "Ontario mathematics curriculum, Grades 1 to 8 (2020). Six strands, with coding placed inside the Algebra strand rather than taught as a separate subject. Ontario was the first province in Canada to do this.",
+    "localProject": "IESO hourly Ontario electricity demand against temperature. Trap: the relationship is V-shaped, because Ontario heats in winter and cools in summer. A single straight-line fit returns a near-zero correlation and invites the student to conclude that temperature does not drive electricity demand, which is spectacularly wrong. The fix is to model two regimes, or to use heating and cooling degree days. This is a model-misspecification trap, deliberately a different KIND of error from the metric-definition trap used on the New Jersey page.",
+    "requiredMentions": [
+      "Ontario Secondary School Diploma",
+      "Social-Emotional Learning Skills and Mathematical Processes",
+      "Algebra strand",
+      "Financial Literacy Graduation Requirement",
+      "40 hours of community involvement",
+      "Ontario Secondary School Literacy Test",
+      "IESO",
+      "Forward Sortation Area",
+      "heating and cooling degree days",
+      "Spatial Sense",
+      "ICS4U",
+      "Digital Technology and Innovations in the Changing World"
+    ],
+    "sources": [
+      {
+        "claim": "The 2020 Ontario Grades 1 to 8 mathematics curriculum has six strands: Number, Algebra, Data, Spatial Sense, Financial Literacy, and Social-Emotional Learning Skills and Mathematical Processes. Coding sits inside the Algebra strand. Grade 1 students write code to order a sequence of steps; Grade 2 develop code to move multiple objects from one location on a grid to another; Grade 3 write code to perform a repeating operation such as a repeating add 3; Grade 4 write and read code to create geometric designs.",
+        "citation": "Government of Ontario, mathematics curriculum Grades 1 to 8, effective 2020",
+        "url": "https://www.ontario.ca/page/math-curriculum-grades-1-8"
+      },
+      {
+        "claim": "OSSD requires a minimum of 30 credits. Students entering Grade 9 in 2023 or earlier need 18 compulsory and 12 optional; those entering in 2024-25 onwards need 17 compulsory and 13 optional. All cohorts must earn at least two of the 30 credits online. Students must meet the literacy graduation requirement via the OSSLT, the OSSLC, or an adjudication process, and complete 40 hours of community involvement activities.",
+        "citation": "Ontario Schools, Kindergarten to Grade 12: Policy and Program Requirements, section 6",
+        "url": "https://www.ontario.ca/document/ontario-schools-kindergarten-grade-12-policy-and-program-requirements/diploma-and-certificate-requirements-related-procedures"
+      },
+      {
+        "claim": "Starting in the 2026-2027 school year, students who enter Grade 9 in 2025-2026 and onwards must meet a Financial Literacy Graduation Requirement, achieving a mark of 70 percent or higher on the financial literacy modules.",
+        "citation": "Ontario Schools, Kindergarten to Grade 12: Policy and Program Requirements, section 6",
+        "url": "https://www.ontario.ca/document/ontario-schools-kindergarten-grade-12-policy-and-program-requirements/diploma-and-certificate-requirements-related-procedures"
+      },
+      {
+        "claim": "The IESO Data Directory publishes Ontario demand and market demand for each hour, plus hourly electricity consumption aggregated by Forward Sortation Area, which is the first three characters of a postal code. It also publishes the Hourly Ontario Energy Price.",
+        "citation": "Independent Electricity System Operator, Data Directory",
+        "url": "https://www.ieso.ca/power-data/data-directory"
+      },
+      {
+        "claim": "Ontario secondary computer studies runs on The Ontario Curriculum, Grades 10 to 12: Computer Studies, revised 2008. Course codes: ICS3U (Grade 11 university preparation), ICS3C (Grade 11 college preparation), ICS4U (Grade 12 university preparation), ICS4C (Grade 12 college preparation). The Grade 10 course ICS2O was replaced from September 2023 by ICD2O, Digital Technology and Innovations in the Changing World. ICS3U and ICS4U remain on the 2008 revision.",
+        "citation": "Ontario Ministry of Education, The Ontario Curriculum Grades 10 to 12: Computer Studies, 2008 Revised",
+        "url": "https://www.edu.gov.on.ca/eng/curriculum/secondary/computer10to12_2008.pdf"
+      },
+      {
+        "claim": "Ontario has 1,052,045 residents of Indian origin, 7.5 percent of the provincial population, the largest such population of any Canadian province.",
+        "citation": "2021 Census of Canada",
+        "url": "https://en.wikipedia.org/wiki/Indo-Canadians"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "Our courses can count toward the two online credits the OSSD requires.",
+        "why": "We are not an Ontario Ministry of Education inspected private school and cannot grant OSSD credits. The page states this plainly rather than implying otherwise, because a family could otherwise plan a graduation pathway around us and be badly wrong."
+      }
+    ]
+  },
+  "coding-classes-in-new-jersey": {
+    "market": "New Jersey",
+    "bodyClass": "cg-nj",
+    "curriculumAuthority": "New Jersey Student Learning Standards for Computer Science and Design Thinking (NJSLS-CSDT), adopted 2020, K to 12",
+    "localProject": "NJ Transit punctuality. Trap: cancellations are reported as a separate statistic and sit outside On-Time Performance entirely, so a line that cancels services can post better punctuality than one that runs everything late. Second trap: two rail dashboards exist for the same trains, all-causes and Amtrak-adjusted.",
+    "requiredMentions": [
+      "N.J.S.A. 18A:7C-1.1",
+      "N.J.A.C. 6A:8-5.1",
+      "Computer Science and Design Thinking",
+      "county vocational school district",
+      "NJ Transit",
+      "Northeast Corridor",
+      "Mean Distance Between Failure",
+      "On-Time Performance",
+      "Integrated throughout all courses",
+      "Edison"
+    ],
+    "sources": [
+      {
+        "claim": "Every public school enrolling grades 9 to 12, other than a county vocational school district, must offer a computer science course from the 2018 to 2019 school year, covering computational thinking, computer programming, appropriate use of the internet and development of internet web pages, data security and prevention of data breaches, ethical matters, and global impact.",
+        "citation": "N.J.S.A. 18A:7C-1.1, P.L. 2017 c.303, enacted 16 January 2018",
+        "url": "https://www.nj.gov/education/broadcasts/2018/APR/19/18144/NJDOE%20Provides%20Guidance%20on%20Computer%20Science%20Course%20Requirement.pdf"
+      },
+      {
+        "claim": "New Jersey state minimum graduation requirements total 120 credits. Mathematics 15 credits including Algebra I, Geometry and a third year building on them. Science 15 credits with at least 5 in laboratory biology or life science. Technology is integrated throughout all courses rather than a separate credit line. There is no computer science credit line in the state minimum.",
+        "citation": "N.J.A.C. 6A:8-5.1, New Jersey State Minimum Graduation Requirements by Content Area",
+        "url": "https://www.nj.gov/education/standards/docs/grad.pdf"
+      },
+      {
+        "claim": "NJSLS-CSDT covers Kindergarten through grade 12. Computer science concepts: Computing Systems; Networks and the Internet; Impacts of Computing; Data and Analysis; Algorithms and Programming. Design thinking concepts: Engineering Design; Interaction of Technology and Humans; Nature of Technology; Effects of Technology on the Natural World; Ethics and Culture.",
+        "citation": "New Jersey Department of Education, Computer Science and Design Thinking standards page",
+        "url": "https://www.nj.gov/education/standards/compsci/"
+      },
+      {
+        "claim": "NJ Transit publishes On-Time Performance, Mean Distance Between Failure and Total Cancellations. A vehicle operating within 6 minutes of published schedule counts as on time. Two rail dashboards exist: All Causes, and Adjusted for Amtrak-related Causes.",
+        "citation": "NJ Transit performance dashboards",
+        "url": "https://www.njtransit.com/performance"
+      },
+      {
+        "claim": "New Jersey has 415,342 Indian Americans, 4.47 percent of the state population, the highest concentration of any US state.",
+        "citation": "2020 United States Census",
+        "url": "https://en.wikipedia.org/wiki/Indian_Americans"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "An Advanced Placement computer science course satisfies part of the New Jersey mathematics credit requirement for graduation.",
+        "why": "Could not be confirmed at primary source. Absent from the state minimum graduation requirements chart at N.J.A.C. 6A:8-5.1 and from the Cornell LII text of that regulation. Second-hand accounts conflict on the starting grade nine class year (2014-2015 vs 2016-2017) and on whether it covers mathematics only or mathematics or science. Page now states it as unconfirmed and directs families to their school counsellor."
+      }
+    ]
+  },
+  "coding-classes-in-oman": {
+    "market": "Oman (country hub)",
+    "bodyClass": "cg-om",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Weighted vs unweighted averages. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Higher Education Admission Centre",
+      "Monthly Statistical Bulletin",
+      "Early Maths Foundations",
+      "School Education Law",
+      "Ministerial Decree",
+      "Higher Education",
+      "Official Gazette",
+      "Data Processing",
+      "Oman’s Grade",
+      "Across Oman"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://main.moe.gov.om/images/library/file/Book483663.pdf"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-muscat": {
+    "market": "Muscat Governorate",
+    "bodyClass": "cg-mct",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Integer division and the remainder. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "4,000 square kilometres",
+      "College Mathematics",
+      "Hajar Mountains",
+      "South Sharqiyah",
+      "The Ministry's",
+      "This Muscat",
+      "An American",
+      "Al Amerat",
+      "If Grade",
+      "An India"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gom.gov.om/en/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-bawshar": {
+    "market": "Bawshar, Muscat",
+    "bodyClass": "cg-bwh",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Bin width changes the story. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Muscat Private Hospital",
+      "Bayt al-Sidra Thuraiya",
+      "Muscat Governorate's",
+      "Muscat Expressway",
+      "Education Group",
+      "Bawshar Street",
+      "Muscat College",
+      "Histogram bin",
+      "Oman's Sunday",
+      "Nearby Muscat"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gom.gov.om/en/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-seeb": {
+    "market": "Seeb, Muscat",
+    "bodyClass": "cg-seb",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Sorting by the wrong key. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Seeb International School",
+      "Can Pakistan School Seeb",
+      "Oman’s Foreign Ministry",
+      "Suhail bin Omar School",
+      "Al Ithraa Basic School",
+      "Oman Foreign Ministry",
+      "Muscat Governorate’s",
+      "Pakistan School Seeb",
+      "Soud Global School",
+      "The Oman Ministry"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-muttrah": {
+    "market": "Muttrah, Muscat",
+    "bodyClass": "cg-mut",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Non-response bias. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "The Muscat Municipal Council",
+      "Grand Muttrah Directorate",
+      "Muscat Municipal Council",
+      "Hassan bin Thabit School",
+      "Faisal bin Turki School",
+      "Al Waleed Basic School",
+      "Household Expenditure",
+      "Municipal Council",
+      "Minecraft Coding",
+      "Al Tawfik School"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.mmc.gov.om/Pages.aspx?MID=29&amp;PGID=11"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-qurum": {
+    "market": "Qurum, Muscat",
+    "bodyClass": "cg-qur",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Correlation is not causation. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Qurum International Private School",
+      "Oman's Environment Authority",
+      "Royal Opera House Muscat",
+      "Al Qurum Natural Reserve",
+      "Qurum Natural Reserve",
+      "Environment Authority",
+      "Qurum Nature Reserve",
+      "Qurum Natural Park",
+      "Al Sahwa Schools",
+      "Shatti Al Qurum"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.ea.gov.om/en/media-center/media-news/news/ramsar/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-mouj": {
+    "market": "Al Mouj, Muscat",
+    "bodyClass": "cg-mou",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "A ratio of ratios. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Roblox Game Coding",
+      "Does Horizon Kids",
+      "Al Mouj Muscat",
+      "Community Hub",
+      "Place Al Mouj",
+      "Four Al Mouj",
+      "Horizon Kids",
+      "Al Mouj Walk",
+      "The Al Mouj",
+      "Are Al Mouj"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.almouj.com/en/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-madinat-al-sultan-qaboos": {
+    "market": "Madinat Al Sultan Qaboos, Muscat",
+    "bodyClass": "cg-msq",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "An average hiding a bimodal split. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Muscat Municipality Bawshar Directorate",
+      "British School Muscat's Sunday",
+      "Can British School Muscat",
+      "British Schools Overseas",
+      "British School Muscat's",
+      "British School Muscat",
+      "British Council Oman",
+      "The British Council",
+      "Are Madinat Qaboos",
+      "Islamic Education"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.mm.gov.om/Directorates.aspx?ESID=3"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-khuwair": {
+    "market": "Al Khuwair, Muscat",
+    "bodyClass": "cg-khw",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Unique visitors vs visits. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Overseas Workers Welfare Administration",
+      "Philippine Honorary Consul General",
+      "Can Philippine School Oman",
+      "Philippine School Oman",
+      "Beaconhouse Al Khuwair",
+      "Dohat Al Adab School",
+      "Al Khuwair Square",
+      "Sharia Judiciary",
+      "Scholars Council",
+      "Sharia Sciences"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://alkhuwair.beaconhouse.edu.om/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-ghubrah": {
+    "market": "Al Ghubrah, Muscat",
+    "bodyClass": "cg-ghb",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Percent vs percentage points. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Al Ghubra Health Center",
+      "Informatics Practices",
+      "Secondary Education",
+      "Senior Secondary",
+      "North Al Ghubrah",
+      "Web Technology",
+      "Related Muscat",
+      "Central Board",
+      "Round Square",
+      "Mohamed Ali"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://indianschoolsoman.com/indian-schools-oman/school-profiles/indian-school-al-ghubra/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-azaiba": {
+    "market": "Azaiba, Muscat",
+    "bodyClass": "cg-azb",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Truncating instead of rounding. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "English Muscat Municipality",
+      "International School's",
+      "Azaiba Beach Park",
+      "Lower Secondary",
+      "Urban Planning",
+      "1,600 metres",
+      "Thuraya City",
+      "200 metres",
+      "Are Azaiba",
+      "3,087,000"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://tlcoman.edu.om/our_school/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-madinat-al-irfan": {
+    "market": "Madinat Al Irfan / Airport Heights, Muscat",
+    "bodyClass": "cg-irf",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Extrapolating past the data. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "International Financial Centre",
+      "Oman International School",
+      "Performing Arts Center",
+      "Crowne Plaza Muscat",
+      "Orange Data Mining",
+      "Exhibition Centre",
+      "Athletics Center",
+      "Exhibition Halls",
+      "Oman Convention",
+      "Learning Center"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.abaoman.org/about-us/al-irfan-campus"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-mawaleh": {
+    "market": "Mawaleh, Muscat",
+    "bodyClass": "cg-maw",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "The median of medians. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Consumer Protection Authority",
+      "Al Mawaleh Private School",
+      "Mawaleh Central Market",
+      "Sarh Al Elm School",
+      "Cambridge Primary",
+      "Historic Mawaleh",
+      "Can Sarh Al Elm",
+      "South Mawaleh",
+      "Its Primary",
+      "Sarh Al Elm"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://mps.edu.om/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-hail": {
+    "market": "Al Hail, Muscat",
+    "bodyClass": "cg-hal",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Survivorship bias. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Knowledge Gate International School",
+      "Cambridge International Primary",
+      "National University's College",
+      "International Baccalaureate",
+      "Cambridge Lower Secondary",
+      "Can National University",
+      "National University",
+      "Al Marafah Street",
+      "Caledonian Campus",
+      "Al Hail Al Jadida"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://myschooloman.com/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.kgis.edu.om/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://nu.edu.om/engineering/about-college-of-engineering/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://ibo.org/school/052356/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-khoudh": {
+    "market": "Al Khoudh, Muscat",
+    "bodyClass": "cg-khd",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Multiple comparisons. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Assafwah International Schools",
+      "New Al-Khoudh Private School",
+      "Can Sultan Qaboos University",
+      "Sultan Qaboos University",
+      "Artificial Intelligence",
+      "Lower Secondary Grades",
+      "Upper Secondary Grades",
+      "Sultan Qaboos Highway",
+      "United Private School",
+      "Chemical Engineering"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.squ.edu.om/About"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.squ.edu.om/science/Academic-Programs/Undergraduate-Programs"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.squ.edu.om/science/Academic-Programs/Postgraduate-Programs"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.squ.edu.om/portals/18/downloads/College%20Catalog%202.0.pdf"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-sohar": {
+    "market": "Sohar, Al Batinah North",
+    "bodyClass": "cg-shr",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Mismatched units in a sum. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Sohar Industrial Port Company",
+      "Hutchison Ports Sohar",
+      "Can Sohar University",
+      "North Al Batinah's",
+      "Asyad's Sohar Port",
+      "Higher Education's",
+      "Sohar University",
+      "Synthetic Sohar",
+      "Verified Sohar",
+      "Sohar Fort's"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/al-batinah-north-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.asyad.om/who-we-are/Address-directory/sohar-port"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://studyinoman.moheri.gov.om/en-us/Colleges-Universities/HEI-Details?heiparam=Tg3R3dzL5d8qh2W0SyphdQ%3D%3D"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.asyad.om/what-we-do/ports-free-zones-thank-you/hutchinson-sohar"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-barka": {
+    "market": "Barka, Al Batinah South",
+    "bodyClass": "cg-brk",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Sorting dates as text. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Al Takween Private Schools",
+      "Khazaen Economic City",
+      "Khazaen Dry Port",
+      "Full-Stack Web",
+      "Can Al Takween",
+      "Barka Fort's",
+      "Barka Fort",
+      "Your Barka",
+      "Al Takween",
+      "Free Barka"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.asyad.om/ports/oman%27s-ports/khazaen-dry-port"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://asyad.om/your-logistics-hub-in-mena-test-ssl/2021/11/03/asyad-group-announces-the-start-of-operations-for-khazaen-dry-port"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://mht.gov.om/ar/%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85%D9%8A/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%88%D9%82%D8%B9%D8%AA-%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D8%AB-%D9%88%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%B9%D9%82%D8%AF-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D9%88%D8%AA%D8%B4%D8%BA%D9%8A%D9%84-%D9%88%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D8%AD%D8%B5%D9%86-%D8%A8%D8%B1%D9%83%D8%A7%D8%A1-%D8%A8%D9%88%D9%84%D8%A7%D9%8A%D8%A9-%D8%A8%D8%B1%D9%83%D8%A7%D8%A1-%D8%A8%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9-%D8%AC%D9%86%D9%88%D8%A8-%D8%A7%D9%84%D8%A8%D8%A7%D8%B7%D9%86%D8%A9-%D9%85%D8%B9-%D8%B4%D8%B1%D9%83%D8%A9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D8%BA%D8%B4%D8%A7%D9%85-%D9%84%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.asyad.om/WorkWithUs/investors-relations/2025/08/11/khazaen-dry-port-launches-secure-customs-corridor-with-sohar"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-salalah": {
+    "market": "Salalah, Dhofar",
+    "bodyClass": "cg-sll",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Seasonality and moving averages. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Communications Engineering",
+      "Can Dhofar University",
+      "Frankincense Museum",
+      "Dhofar University",
+      "Salalah's Khareef",
+      "Verified Salalah",
+      "Another Salalah",
+      "Salalah Khareef",
+      "Oman Airports",
+      "Salalah Port"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/topics/en/80/show/123807/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/topics/en/80/show/124030"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/topics/en/128/show/124334"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/topics/en/128/show/123799"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-nizwa": {
+    "market": "Nizwa, Ad Dakhiliyah",
+    "bodyClass": "cg-nzw",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Date arithmetic across two calendars. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Salt bin Malik al-Kharusi",
+      "The National Museum's",
+      "Information Systems",
+      "Java Programming",
+      "Historical Nizwa",
+      "Ad Dakhiliyah's",
+      "The University",
+      "Can University",
+      "Nizwa Castle",
+      "Nizwa Fort"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.nm.gov.om/en/collection/gift/architectural-heritage"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/ad-dakhiliyah-%E2%80%8Dgovernorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.unizwa.edu.om/index.php?contentid=1&amp;lang=en"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.unizwa.edu.om/index.php?contentid=6&amp;lang=en"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-sur": {
+    "market": "Sur, Ash Sharqiyah South",
+    "bodyClass": "cg-sur",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "A cumulative total read as a rate. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "South Al Sharqiyah Governorate",
+      "Applied Biotechnology",
+      "Sur Industrial Area",
+      "South Al Sharqiyah",
+      "Al Sharqiyah Sands",
+      "360 kilometres",
+      "Signature Sur",
+      "Synthetic Sur",
+      "Ras Al Hadd",
+      "Wadi Shab"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://ssg.gov.om/public/about-south-al-sharqiyah-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/mainsections/62"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omanlng.co.om/en/OmanLNGInBrief/Pages/key-facts.aspx"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-ibra": {
+    "market": "Ibra, Ash Sharqiyah North",
+    "bodyClass": "cg-iba",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "A lookup that fails silently. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Ibra Technical Industrial College",
+      "Vocational Training Institute",
+      "Preparatory Studies Centre",
+      "Oman News Agency's Ibra",
+      "Ash Sharqiyah North’s",
+      "North Al Sharqiyah's",
+      "Sharqiyah University",
+      "Ministerial Decision",
+      "North Al Sharqiyah",
+      "Sultanate Decree"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/ash-sharqiyah-north-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/mainsections/56"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://nsg.gov.om/states"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-ibri": {
+    "market": "Ibri, Adh Dhahirah",
+    "bodyClass": "cg-ibr",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Stale cached data. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "45,000 square kilometres",
+      "Western Hajar Mountains",
+      "World Heritage Centre",
+      "Water Procurement's",
+      "Water Procurement",
+      "Signature Ibri",
+      "Synthetic Ibri",
+      "Al Dhahirah's",
+      "Wadi Sharsah",
+      "Bronze Age"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/ad-dhahirah-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.dhr.gov.om/ibri"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://whc.unesco.org/en/list/434/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-duqm": {
+    "market": "Duqm, Al Wusta",
+    "bodyClass": "cg-duq",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "A growth rate off a base near zero. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Kuwait Petroleum International",
+      "The Special Economic Zone",
+      "2,000 square kilometres",
+      "Special Economic Zones",
+      "Special Economic Zone",
+      "Public Authority",
+      "The Rock Garden",
+      "Signature Duqm",
+      "Synthetic Duqm",
+      "Rock Garden"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/al-wusta-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.opaz.gov.om/en/zones/special-economic-zone-at-duqm"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-khasab": {
+    "market": "Khasab, Musandam",
+    "bodyClass": "cg-kha",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Map projection distorts area. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Synthetic Web Mercator",
+      "100 square kilometres",
+      "Representative Khasab",
+      "Computer Technology",
+      "Educational Studies",
+      "Oman News Agency's",
+      "Signature Khasab",
+      "Because Mercator",
+      "Four Musandam",
+      "Umm Al Ghanam"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/musandam-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/mainsections/29"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-dhofar": {
+    "market": "Dhofar Governorate",
+    "bodyClass": "cg-dhf",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Sampling bias. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Oman News Agency Thumrait",
+      "99,300 square kilometres",
+      "Oman News Agency Rakhyut",
+      "Applied Sciences-Salalah",
+      "Experience Oman Dhofar",
+      "General Requirements",
+      "Hallaniyat Islands",
+      "Signature Dhofar",
+      "Synthetic Dhofar",
+      "Salalah College"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/dhofar-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://experienceoman.om/en/destinations/dhofar"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-batinah-north": {
+    "market": "Al Batinah North Governorate",
+    "bodyClass": "cg-btn",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Simpson's paradox. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Wadi Al Hawasinah Hospital",
+      "Signature Al Batinah North",
+      "Al Batinah North Simpson's",
+      "Oman News Agency Shinas",
+      "Wadi As Sarami Hospital",
+      "Your Al Batinah North",
+      "No Al Batinah North",
+      "Al Hajar Mountains",
+      "Shinas Public Park",
+      "Madinat Al Teeb"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/al-batinah-north-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://opendata.gov.om/en/datasets/951a1f0d-da9c-4ae5-aba0-c9d72d826841"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-batinah-south": {
+    "market": "Al Batinah South Governorate",
+    "bodyClass": "cg-bts",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "A rate over the wrong time window. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Signature Al Batinah South",
+      "Oman News Agency Rustaq",
+      "Your Al Batinah South",
+      "No Al Batinah South",
+      "Nakhal Public Park",
+      "Rustaq Hospital",
+      "Wadi Al Maawil",
+      "Al Huqain Fort",
+      "Al Malada Fort",
+      "South Batinah"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/al-batinah-south-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/mainsections/52"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-ad-dakhiliyah": {
+    "market": "Ad Dakhiliyah Governorate",
+    "bodyClass": "cg-dak",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Interpolating over a non-linear surface. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "31,900 square kilometres",
+      "Signature Ad Dakhiliyah",
+      "Oman News Agency Manah",
+      "Synthetic Jebel Akhdar",
+      "World Heritage List",
+      "Oman Building Code",
+      "Your Ad Dakhiliyah",
+      "Al Faiqain Castle",
+      "No Ad Dakhiliyah",
+      "Jabal Al Akhdar"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/ad-dakhiliyah-%E2%80%8Dgovernorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://whc.unesco.org/en/list/433"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-ash-sharqiyah-north": {
+    "market": "Ash Sharqiyah North Governorate",
+    "bodyClass": "cg-shn",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Double counting after a join. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Signature Ash Sharqiyah North",
+      "Bidiyah Recreational Center",
+      "Eastern Al Hajar Mountains",
+      "Your Ash Sharqiyah North",
+      "No Ash Sharqiyah North",
+      "Dima Wa At Taiyin",
+      "Eastern Al Hajar",
+      "North Sharqiyah",
+      "Sharqiyah Sands",
+      "Ghar Abu Habban"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/ash-sharqiyah-north-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/mainsections/9"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-ash-sharqiyah-south": {
+    "market": "Ash Sharqiyah South Governorate",
+    "bodyClass": "cg-shs",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Null is not zero. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Your Ash Sharqiyah South",
+      "Masirah Winter Festival",
+      "Al Falah Neighbourhood",
+      "No Ash Sharqiyah South",
+      "220 square kilometres",
+      "Arabian Gazelle",
+      "Masirah Island",
+      "4,172 metres",
+      "Al Saleel",
+      "Al Falah"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/ash-sharqiyah-south-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/topics/en/138/show/124855/ona"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-adh-dhahirah": {
+    "market": "Adh Dhahirah Governorate",
+    "bodyClass": "cg-dhr",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Precision loss in a large aggregate. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "2,030 square kilometres",
+      "3,100 square kilometres",
+      "9,007,199,254,740,991,",
+      "9,007,199,254,740,991",
+      "9,007,199,254,740,993",
+      "9,007,199,254,740,992",
+      "Understand Number",
+      "Your Adh Dhahirah",
+      "No Adh Dhahirah",
+      "Mazoon Mining"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/ad-dhahirah-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/topics/en/80/show/122268"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-buraimi": {
+    "market": "Al Buraimi Governorate",
+    "bodyClass": "cg-bur",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Accumulated rounding error. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "1,055 square kilometres",
+      "Al Buraimi Governorate",
+      "Mazoon Dairy Project",
+      "Million Palm Project",
+      "Arabian Peninsula",
+      "Your Al Buraimi",
+      "100 kilometres",
+      "No Al Buraimi",
+      "As Sunaynah",
+      "Use Decimal"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/en/index.html"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/al-buraimi-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/en/explore-wilayat-mahadar.html"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-musandam": {
+    "market": "Musandam Governorate",
+    "bodyClass": "cg-msd",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Straight-line distance on latitude and longitude. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Implement Haversine",
+      "Dibba Waterfront",
+      "Bukha Platforms",
+      "Musandam Winter",
+      "Your Musandam",
+      "1,300 metres",
+      "No Musandam",
+      "0000,",
+      "1000,"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/musandam-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/topics/en/79/show/121334/ona"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-wusta": {
+    "market": "Al Wusta Governorate",
+    "bodyClass": "cg-wst",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Small-denominator volatility. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Ras Souqra Development Project",
+      "82,471 square kilometres",
+      "3,400 square kilometres",
+      "Al Jazir Public Park",
+      "Mahout Hospital",
+      "Muscat-Salalah",
+      "Al Lakbi Beach",
+      "Khor Ghadisir",
+      "Your Al Wusta",
+      "Khor Qaised"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://alwusta.gov.om/wp-content/uploads/2025/10/Promulgating-the-System-of-Governorates.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/al-wusta-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://api.ncsi.gov.om/uploads/pdfs/statistical_year_book_2026___issue_54_1777963604.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      }
+    ],
+    "rejectedClaims": []
+  }
+}

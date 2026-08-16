@@ -1,0 +1,19 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><link rel="stylesheet" href="carousel.css">
+<style>
+.wrap{display:flex;flex-direction:column;gap:16px}
+.wr .bd2{font-size:23px}
+</style></head>
+<body><div class="frame">
+  <div class="brand-row"><span class="logo"><img src="art/logo.svg"></span><span class="brand-name">Modern Age Coders</span><span class="sn">5/6</span></div>
+  <div class="main"><div class="fit">
+   <div class="wrap">
+    <span class="step c">The catch nobody mentions</span>
+    <h2>The key has to<br>hold still.</h2>
+    <div class="body">If a key could change after you filed it, the calculated address would point at the wrong shelf. So a key must be something unchangeable.</div>
+    <div class="wr bad"><span class="tag">BREAKS</span><span class="bd2">d[[1, 2]] = "x"&nbsp;&nbsp;# a list can change. not allowed</span></div>
+    <div class="wr good"><span class="tag">WORKS</span><span class="bd2">d["Meera"] = "x"&nbsp;&nbsp;d[(1, 2)] = "x"&nbsp;&nbsp;d[7] = "x"</span></div>
+    <div class="hand p">"unhashable type: list" now makes complete sense. it changes, so it cannot be an address.</div>
+   </div>
+  </div></div>
+  <div class="swipe">swipe <span class="ar">&rarr;</span></div>
+</div></body></html>

@@ -46,7 +46,6 @@
       "Competitive programming and interview preparation included",
       "Game development with C++ and graphics programming",
       "System programming and embedded development",
-      "Lifetime access with updates for new C++ standards",
       "Build portfolio of production-quality C++ applications"
     ],
     "learning_path": {
@@ -1224,10 +1223,8 @@
     "support_provided": {
       "live_sessions": "Weekly problem-solving and code review sessions",
       "mentorship": "1-on-1 guidance from senior C++ developers",
-      "community": "Active Discord community of C++ enthusiasts",
       "code_review": "Expert code reviews for all major projects",
-      "career_support": "Resume review, interview prep, job referrals",
-      "lifetime_access": "All content and future C++ standard updates"
+      "career_support": "Resume review, interview prep"
     },
     "certification": {
       "phase_certificates": "Certificate after each phase completion",

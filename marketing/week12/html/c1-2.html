@@ -1,0 +1,29 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><link rel="stylesheet" href="carousel.css">
+<style>
+.wrap{display:flex;flex-direction:column;gap:18px}
+.q{display:flex;flex-direction:column;gap:9px;margin-top:4px}
+.pr{display:flex;align-items:center;gap:15px;border:3px solid var(--ink);border-radius:14px;padding:12px 18px;box-shadow:4px 5px 0 var(--ink);background:#fff}
+.pr .who{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:19px;width:92px;flex:none;color:#8a8478}
+.pr .sp{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:26px;line-height:1.1}
+.pr.front{background:#EAF2EE}
+.pr.front .who{color:var(--pine)}
+.back{background:#FBF0D8}
+</style></head>
+<body><div class="frame">
+  <div class="brand-row"><span class="logo"><img src="art/logo.svg"></span><span class="brand-name">Modern Age Coders</span><span class="sn">2/6</span></div>
+  <div class="main"><div class="fit">
+   <div class="wrap">
+    <span class="step">The analogy that finally works</span>
+    <h2>You are standing<br>in a queue.</h2>
+    <div class="body">You cannot see the front. So you tap the person ahead and ask: <b>"how many people are in front of you?"</b></div>
+    <div class="q">
+      <div class="pr"><span class="who">you</span><span class="sp">"how many ahead of you?"</span></div>
+      <div class="pr"><span class="who">them</span><span class="sp">"no idea" (taps the next person)</span></div>
+      <div class="pr front"><span class="who">the front</span><span class="sp">"zero. I am first."</span></div>
+      <div class="pr back"><span class="who">back down</span><span class="sp">1... 2... 3... until it reaches you</span></div>
+    </div>
+    <div class="hand p">that is recursion. nobody knew the answer alone.</div>
+   </div>
+  </div></div>
+  <div class="swipe">swipe <span class="ar">&rarr;</span></div>
+</div></body></html>

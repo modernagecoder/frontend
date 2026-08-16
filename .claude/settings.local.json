@@ -261,7 +261,11 @@
       "WebFetch(domain:www.ibef.org)",
       "WebFetch(domain:ukhrultimes.com)",
       "WebFetch(domain:informatics.nic.in)",
-      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)"
+      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)",
+      "Bash(cp -f Modern-Age-Coders-KnowledgeBase-v2-Aug2026.pdf /c/Users/hp/Desktop/)",
+      "Bash(cp -f Modern-Age-Coders-Agent-KnowledgeBase.pdf /c/Users/hp/Desktop/)",
+      "Bash(cp -f Modern-Age-Coders-Agent-KnowledgeBase.txt /c/Users/hp/Desktop/)",
+      "Bash(cp -f marketing/whatsapp-agent-course-guide.md /c/Users/hp/Desktop/)"
     ]
   }
 }

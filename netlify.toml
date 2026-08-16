@@ -6331,6 +6331,458 @@
   to = "/src/pages/summer-research-programs-coding.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-new-jersey"
+  to = "/src/pages/coding-classes-in-new-jersey.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-new-jersey.md"
+  to = "/src/pages/coding-classes-in-new-jersey.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-ontario"
+  to = "/src/pages/coding-classes-in-ontario.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-ontario.md"
+  to = "/src/pages/coding-classes-in-ontario.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-texas"
+  to = "/src/pages/coding-classes-in-texas.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-texas.md"
+  to = "/src/pages/coding-classes-in-texas.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-california"
+  to = "/src/pages/coding-classes-in-california.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-california.md"
+  to = "/src/pages/coding-classes-in-california.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-new-york"
+  to = "/src/pages/coding-classes-in-new-york.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-new-york.md"
+  to = "/src/pages/coding-classes-in-new-york.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-illinois"
+  to = "/src/pages/coding-classes-in-illinois.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-illinois.md"
+  to = "/src/pages/coding-classes-in-illinois.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-virginia"
+  to = "/src/pages/coding-classes-in-virginia.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-virginia.md"
+  to = "/src/pages/coding-classes-in-virginia.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-washington"
+  to = "/src/pages/coding-classes-in-washington.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-washington.md"
+  to = "/src/pages/coding-classes-in-washington.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-georgia"
+  to = "/src/pages/coding-classes-in-georgia.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-georgia.md"
+  to = "/src/pages/coding-classes-in-georgia.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-oman"
+  to = "/src/pages/coding-classes-in-oman.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-oman.md"
+  to = "/src/pages/coding-classes-in-oman.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-muscat"
+  to = "/src/pages/coding-classes-in-muscat.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-muscat.md"
+  to = "/src/pages/coding-classes-in-muscat.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-bawshar"
+  to = "/src/pages/coding-classes-in-bawshar.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-bawshar.md"
+  to = "/src/pages/coding-classes-in-bawshar.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-seeb"
+  to = "/src/pages/coding-classes-in-seeb.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-seeb.md"
+  to = "/src/pages/coding-classes-in-seeb.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-muttrah"
+  to = "/src/pages/coding-classes-in-muttrah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-muttrah.md"
+  to = "/src/pages/coding-classes-in-muttrah.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-qurum"
+  to = "/src/pages/coding-classes-in-qurum.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-qurum.md"
+  to = "/src/pages/coding-classes-in-qurum.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-mouj"
+  to = "/src/pages/coding-classes-in-al-mouj.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-mouj.md"
+  to = "/src/pages/coding-classes-in-al-mouj.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-madinat-al-sultan-qaboos"
+  to = "/src/pages/coding-classes-in-madinat-al-sultan-qaboos.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-madinat-al-sultan-qaboos.md"
+  to = "/src/pages/coding-classes-in-madinat-al-sultan-qaboos.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-khuwair"
+  to = "/src/pages/coding-classes-in-al-khuwair.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-khuwair.md"
+  to = "/src/pages/coding-classes-in-al-khuwair.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-ghubrah"
+  to = "/src/pages/coding-classes-in-al-ghubrah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-ghubrah.md"
+  to = "/src/pages/coding-classes-in-al-ghubrah.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-azaiba"
+  to = "/src/pages/coding-classes-in-azaiba.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-azaiba.md"
+  to = "/src/pages/coding-classes-in-azaiba.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-madinat-al-irfan"
+  to = "/src/pages/coding-classes-in-madinat-al-irfan.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-madinat-al-irfan.md"
+  to = "/src/pages/coding-classes-in-madinat-al-irfan.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-mawaleh"
+  to = "/src/pages/coding-classes-in-mawaleh.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-mawaleh.md"
+  to = "/src/pages/coding-classes-in-mawaleh.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-hail"
+  to = "/src/pages/coding-classes-in-al-hail.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-hail.md"
+  to = "/src/pages/coding-classes-in-al-hail.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-khoudh"
+  to = "/src/pages/coding-classes-in-al-khoudh.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-khoudh.md"
+  to = "/src/pages/coding-classes-in-al-khoudh.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-sohar"
+  to = "/src/pages/coding-classes-in-sohar.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-sohar.md"
+  to = "/src/pages/coding-classes-in-sohar.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-barka"
+  to = "/src/pages/coding-classes-in-barka.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-barka.md"
+  to = "/src/pages/coding-classes-in-barka.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-salalah"
+  to = "/src/pages/coding-classes-in-salalah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-salalah.md"
+  to = "/src/pages/coding-classes-in-salalah.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-nizwa"
+  to = "/src/pages/coding-classes-in-nizwa.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-nizwa.md"
+  to = "/src/pages/coding-classes-in-nizwa.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-sur"
+  to = "/src/pages/coding-classes-in-sur.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-sur.md"
+  to = "/src/pages/coding-classes-in-sur.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-ibra"
+  to = "/src/pages/coding-classes-in-ibra.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-ibra.md"
+  to = "/src/pages/coding-classes-in-ibra.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-ibri"
+  to = "/src/pages/coding-classes-in-ibri.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-ibri.md"
+  to = "/src/pages/coding-classes-in-ibri.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-duqm"
+  to = "/src/pages/coding-classes-in-duqm.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-duqm.md"
+  to = "/src/pages/coding-classes-in-duqm.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-khasab"
+  to = "/src/pages/coding-classes-in-khasab.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-khasab.md"
+  to = "/src/pages/coding-classes-in-khasab.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-dhofar"
+  to = "/src/pages/coding-classes-in-dhofar.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-dhofar.md"
+  to = "/src/pages/coding-classes-in-dhofar.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-batinah-north"
+  to = "/src/pages/coding-classes-in-al-batinah-north.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-batinah-north.md"
+  to = "/src/pages/coding-classes-in-al-batinah-north.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-batinah-south"
+  to = "/src/pages/coding-classes-in-al-batinah-south.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-batinah-south.md"
+  to = "/src/pages/coding-classes-in-al-batinah-south.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-ad-dakhiliyah"
+  to = "/src/pages/coding-classes-in-ad-dakhiliyah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-ad-dakhiliyah.md"
+  to = "/src/pages/coding-classes-in-ad-dakhiliyah.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-ash-sharqiyah-north"
+  to = "/src/pages/coding-classes-in-ash-sharqiyah-north.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-ash-sharqiyah-north.md"
+  to = "/src/pages/coding-classes-in-ash-sharqiyah-north.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-ash-sharqiyah-south"
+  to = "/src/pages/coding-classes-in-ash-sharqiyah-south.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-ash-sharqiyah-south.md"
+  to = "/src/pages/coding-classes-in-ash-sharqiyah-south.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-adh-dhahirah"
+  to = "/src/pages/coding-classes-in-adh-dhahirah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-adh-dhahirah.md"
+  to = "/src/pages/coding-classes-in-adh-dhahirah.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-buraimi"
+  to = "/src/pages/coding-classes-in-al-buraimi.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-buraimi.md"
+  to = "/src/pages/coding-classes-in-al-buraimi.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-musandam"
+  to = "/src/pages/coding-classes-in-musandam.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-musandam.md"
+  to = "/src/pages/coding-classes-in-musandam.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-wusta"
+  to = "/src/pages/coding-classes-in-al-wusta.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-al-wusta.md"
+  to = "/src/pages/coding-classes-in-al-wusta.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -1386,8 +1386,7 @@
           "Course completion certificate",
           "Final project presentation",
           "Career roadmap document",
-          "Alumni network membership",
-          "Lifetime course access"
+          "Alumni network membership"
         ],
         "assessment": "FINAL COMPREHENSIVE ASSESSMENT - Complete backend system from scratch"
       }
@@ -1423,10 +1422,8 @@
     "support_provided": {
       "live_sessions": "Weekly doubt clearing with teen mentors",
       "mentorship": "Young mentors who understand teen culture",
-      "community": "Discord server with teen developers worldwide",
       "code_review": "Expert reviews for all projects",
-      "career_support": "College admissions, internships, first job",
-      "lifetime_access": "All content and future updates"
+      "career_support": "College admissions, internships, first job"
     },
     "certification": {
       "phase_certificates": "Certificate after each quarter",

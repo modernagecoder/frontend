@@ -74,15 +74,24 @@ out.push('  - Quote ONLY the fee that applies to where the family lives. If they
 out.push('  - Answer only the pricing question they asked. Do not volunteer other plans, other regions, or extra pricing commentary. If they ask "what does it cost", give the group fee and mention 1-on-1 exists if they want personal attention — nothing more.');
 out.push('  - Quote fees exactly as written here. Never invent discounts.');
 out.push('- Every course includes a FREE demo class first — always offer to book it (share ' + BASE + '/contact/ or take their phone number for a callback).');
-out.push('- Classes are LIVE with a real teacher (never recordings), 2 classes per week (8 per month), for ages 6 to 67.');
+out.push('- Classes are LIVE with a real teacher (never recordings), for ages 6 to 67.');
+out.push('- CLASS FREQUENCY — differs by plan and region, do not blur them:');
+out.push('  - Group and Mini Batch: 2 classes a week, 8 a month.');
+out.push('  - 1-on-1 in India: 1 private class a week, 4 a month.');
+out.push('  - 1-on-1 outside India: 2 private classes a week, 8 a month.');
 out.push('');
 out.push('## Fee reference (internal — quote only the line that matches the asker)');
 out.push('');
 out.push('| Plan | If the student is in India | If the student is outside India |');
 out.push('|---|---|---|');
-out.push('| Group class (max 10 students) | ₹1,499/month | $100/month |');
-out.push('| Mini Batch (3-4 students) | ₹2,999/month | not offered |');
-out.push('| Personalized 1-on-1 | ₹7,500/month (₹8,500 for Maths) | $150/month |');
+// Read the fee table from the same config the course entries use, so it can
+// never drift from the live prices the way the old hand-typed table did.
+const dp = cfg.defaultPricing || {};
+function fee(tier, src) { return (src[tier] && src[tier].display) ? src[tier].display : 'not offered'; }
+out.push('| Group class (max 10 students) | ' + fee('group', dp) + ' | ' + fee('group', intl) + ' |');
+out.push('| Mini Batch (3-4 students, India only) | ' + fee('miniBatch', dp) + ' | not offered |');
+out.push('| Personalized 1-on-1 | ' + fee('personal', dp) + ' (1 class a week, 4 a month) | ' +
+    fee('personal', intl) + ' (2 classes a week, 8 a month) |');
 out.push('');
 out.push('Courses with their own fees are marked on their entries below.');
 out.push('');

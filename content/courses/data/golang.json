@@ -37,18 +37,18 @@
   "program_overview": {
     "title": "Complete Go Programming Masterclass",
     "tagline": "From 'Hello, World!' to Cloud Native Microservices Architecture",
-    "description": "This is not just a Go course, it's a complete transformation into a cloud-native Go expert. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Go developer capable of building scalable microservices, high-performance APIs, distributed systems, and cloud-native solutions.\n\nYou'll master Go from ground zero to cloud architect level: from basic syntax to advanced concurrency patterns, from CLI tools to production microservices, from REST APIs to gRPC services, from monolithic apps to Kubernetes operators. By the end, you'll have built 40+ projects, mastered the entire Go ecosystem, and be ready for senior Go developer roles in top tech companies.",
+    "description": "Go exists because large engineering teams needed a language that compiles in seconds, runs close to C speed, and stays readable when a hundred people touch the same repository. Google released it in 2009, and much of the infrastructure the rest of the industry runs on followed: Docker, Kubernetes, Terraform and Prometheus are all written in Go. That is the reason this course exists, and it is why the syllabus is shaped the way it is. You are not collecting another language for a list. You are learning the one the servers, schedulers and networking tools underneath modern software are actually written in.\n\nThe year is structured the way Go itself is designed: a small set of ideas, used correctly, over and over. Months 1 to 3 are the language, which is deliberately small enough to hold in your head. Months 4 to 6 are concurrency, where most of the real thinking lives: goroutines, channels, select, context, and the race detector that finds the bugs a code review will not. Months 7 to 9 build services other programs can call: HTTP, REST, databases, gRPC and Protocol Buffers. Months 10 to 12 are systems: microservices, containers, Kubernetes and the design questions that have no single right answer. Every week, your own code is read line by line with the instructor.",
     "what_makes_this_different": [
-      "Starts from absolute zero - perfect for complete beginners",
-      "Separate learning tracks for kids (12+), teens, and adults",
-      "1 year of structured, industry-aligned learning",
-      "Covers Core Go + Cloud Native Go (Kubernetes, Docker, gRPC)",
-      "Real enterprise projects and industry case studies",
-      "Hands-on with latest Go versions (Go 1.21+)",
-      "Interview preparation for FAANG and top companies",
-      "Lifetime access with continuous updates",
-      "Build production-ready cloud native portfolio",
-      "Direct path to high-paying Go developer jobs"
+      "Concurrency taught as reasoning, not syntax: why a channel deadlocks, when a mutex beats a channel, what 'go test -race' catches that review never does",
+      "Errors handled the Go way: no exceptions, no silent swallowing, the failure handled where it happens",
+      "Interfaces taught properly: satisfied implicitly, kept small, accepted as arguments rather than returned",
+      "Standard library first: net/http, encoding/json, context and testing before any third-party framework",
+      "Real production Go is open source, so by month 10 you can read parts of Docker and Kubernetes and follow what they do",
+      "Live classes only, group batches capped at 10 students, with mini-batch and 1-on-1 options",
+      "Weekly instructor review of your actual code, which is the part a video course or a tutorial cannot do",
+      "Professional tooling from week one: gofmt, go vet, modules, benchmarks, pprof profiling, Delve debugging",
+      "Projects that run and can be deployed: CLI tools, a TCP chat server, a REST API, a gRPC service, containerised microservices",
+      "Starts from zero programming experience, and Go's small, strict design makes that a fair claim rather than a slogan"
     ],
     "learning_path": {
       "phase_1": "Foundation (Months 1-3): Go Fundamentals, Data Structures, Concurrency Basics",
@@ -57,10 +57,10 @@
       "phase_4": "Professional (Months 10-12): Microservices, Kubernetes, Cloud Native, System Design"
     },
     "career_outcomes": [
-      "Junior Go Developer (after 3 months)",
-      "Go Developer / Backend Engineer (after 6 months)",
-      "Senior Go Developer / Platform Engineer (after 9 months)",
-      "Lead Go Developer / Cloud Architect (after 12 months)"
+      "After 3 months: you can write, test and structure idiomatic Go on your own, with structs, interfaces, packages and error values",
+      "After 6 months: you can reason about concurrent code, find a data race, and profile a program that is slower than it should be",
+      "After 9 months: you can build, secure, test and deploy an HTTP or gRPC service backed by a real database",
+      "After 12 months: you can design a small microservice system, containerise it, run it on Kubernetes, and defend your trade-offs in an interview"
     ]
   },
   "phase_1_foundation": {
@@ -1922,7 +1922,7 @@
       "Phase 4 (Months 10-12): 20+ advanced projects - distributed systems, Kubernetes operators, cloud-native apps",
       "Final: 5 major capstone projects demonstrating cloud-native expertise"
     ],
-    "total_projects_built": "90+ projects from beginner to cloud-native distributed systems",
+    "total_projects_built": "Every week of the syllabus carries a project set, and each phase ends in a capstone: a distributed task processing system in phase 2, an e-commerce platform backend in phase 3, and a cloud-native system design piece in phase 4",
     "skills_mastered": [
       "Core Go: Syntax, Types, Functions, Structs, Interfaces, Error Handling, Concurrency",
       "Advanced Go: Generics, Reflection, Code Generation, Testing, Benchmarking",
@@ -1945,23 +1945,17 @@
       "total_per_week": "15-20 hours"
     },
     "support_provided": {
-      "live_sessions": "Weekly live coding sessions and doubt clearing",
-      "mentorship": "1-on-1 expert Go developer mentorship",
-      "community": "Active Discord community with 24/7 peer support",
-      "code_review": "Expert code reviews for all major projects",
-      "career_support": "Resume review, mock interviews, job referrals to product companies",
-      "lifetime_access": "All content, future updates, new Go versions coverage",
-      "interview_prep": "Mock interviews with industry professionals",
-      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
+      "live_sessions": "Live online classes with an instructor, interactive and never pre-recorded",
+      "batch_options": "Group batches capped at 10 students, mini batches of 3 to 4, or personal 1-on-1 mentorship",
+      "doubt_support": "Doubt support between classes over WhatsApp, so a broken build does not cost you a week",
+      "code_review": "Your project code is read and reviewed by the instructor, not auto-graded by a checker",
+      "career_guidance": "Portfolio and profile review, plus interview practice on the concurrency and system design questions Go roles actually ask",
+      "free_demo": "A free live demo class before you enrol, so you can judge the teaching before you pay"
     },
     "certification": {
-      "phase_certificates": "Certificate after each phase completion (4 certificates)",
-      "final_certificate": "Professional Go Developer Certification",
-      "cloud_native_certificate": "Cloud Native Developer Certificate",
-      "kubernetes_certificate": "Kubernetes Developer Certificate",
-      "linkedin_badge": "Digital badges for LinkedIn profile",
-      "industry_recognized": "Recognized by top tech companies (Google, Uber, Docker, Kubernetes)",
-      "portfolio_projects": "50+ production-ready portfolio projects"
+      "completion_certificate": "A course-completion certificate from Modern Age Coders that you can share",
+      "portfolio": "A GitHub repository of the Go you built: CLI tools, APIs, gRPC services and deployed microservices, which is what a backend interviewer opens first",
+      "honest_note": "We do not issue vendor certifications and no school can. Cloud-native exams such as CKAD and CKA are taken directly with the Linux Foundation, and this course prepares you for that work rather than pretending to replace it"
     }
   },
   "prerequisites": {

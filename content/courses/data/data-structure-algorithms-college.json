@@ -1575,7 +1575,6 @@
     },
     "month_23": {
       "title": "Resources & Community",
-      "weeks": "Lifetime Access",
       "week_97": {
         "title": "Learning Resources",
         "topics": [
@@ -1736,8 +1735,7 @@
           "Career roadmap",
           "Milestone tracker",
           "Success journal"
-        ],
-        "assessment": "LIFETIME ACCESS - Continuous support and updates"
+        ]
       }
     }
   },
@@ -1770,11 +1768,9 @@
     "support_provided": {
       "live_sessions": "Weekly problem-solving sessions",
       "mentorship": "1-on-1 guidance from FAANG engineers",
-      "community": "Active Discord with 24/7 support",
       "code_review": "Solution review and optimization tips",
       "mock_interviews": "Bi-weekly mock interview practice",
-      "career_support": "Resume review and referrals",
-      "lifetime_access": "All content and future updates"
+      "career_support": "Resume review and referrals"
     },
     "certification": {
       "phase_certificates": "Certificate after each phase",

@@ -1,0 +1,22 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><link rel="stylesheet" href="carousel.css">
+<style>
+.wrap{display:flex;flex-direction:column;gap:18px}
+.win{width:100%}
+.win .body2{padding:20px 24px;font-family:'JetBrains Mono',monospace;font-size:25px;line-height:1.6;color:#e7e3ec}
+</style></head>
+<body><div class="frame">
+  <div class="brand-row"><span class="logo"><img src="art/logo.svg"></span><span class="brand-name">Modern Age Coders</span><span class="sn">4/6</span></div>
+  <div class="main"><div class="fit">
+   <div class="wrap">
+    <span class="step c">Spot it in your own code</span>
+    <h2>A loop inside<br>a loop. That is it.</h2>
+    <div class="win">
+      <div class="bar"><span class="dot" style="background:#ff5f57"></span><span class="dot" style="background:#febc2e"></span><span class="dot" style="background:#28c840"></span></div>
+      <div class="body2"><span class="cor">for</span> a <span class="cor">in</span> students:<br>&nbsp;&nbsp;<span class="cor">for</span> b <span class="cor">in</span> students:&nbsp;&nbsp;<span class="cmt"># the expensive line</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cor">if</span> a.name == b.name:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cyn">print</span>(<span class="grn">"duplicate"</span>)</div>
+    </div>
+    <div class="body">This looks harmless. With 100 students it runs 10,000 times. With 10,000 students it runs <b>100 million</b> times.</div>
+    <div class="hand p">whenever you indent a loop inside a loop, pause and ask how big the list gets.</div>
+   </div>
+  </div></div>
+  <div class="swipe">swipe <span class="ar">&rarr;</span></div>
+</div></body></html>

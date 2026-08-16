@@ -1700,10 +1700,8 @@
     "support_provided": {
       "live_sessions": "Weekly Q&A and problem-solving",
       "mentorship": "1-on-1 guidance from industry analysts",
-      "community": "Active Slack/Discord community",
       "project_review": "Detailed feedback on all projects",
-      "career_support": "Resume review, mock interviews, job referrals",
-      "lifetime_access": "All content and future updates"
+      "career_support": "Resume review, mock interviews"
     },
     "certification": {
       "phase_certificates": "Certificate after each phase",

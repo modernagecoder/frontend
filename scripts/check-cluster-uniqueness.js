@@ -34,30 +34,95 @@ const SHINGLE = 7;
 const WARN = 0.06;   // 6 percent of shingles shared with one other page
 const FAIL = 0.12;   // 12 percent is a template with the nouns swapped
 
+// ---------------------------------------------------------------------------
+// Cluster registry. Each cluster owns the filename pattern for its own members,
+// the pre-existing pages it is most likely to accidentally clone, and the class
+// prefix used to strip its designed-to-repeat components.
+// ---------------------------------------------------------------------------
+const CLUSTERS = {
+  'build-ai': {
+    label: 'Build-AI cluster',
+    fileRe: /^(learn-to-build-ai|ai-and-machine-learning-classes-in-.+)\.html$/,
+    prefix: 'ag',
+    incumbents: [
+      'online-ai-and-machine-learning-classes',
+      'how-to-build-ai-models',
+      'machine-learning-course-for-beginners',
+      'ai-ml-course-for-college-students',
+      'ai-ml-course-for-teens',
+      'deep-learning-course',
+      'ai-ml-certification-course',
+      'machine-learning-from-scratch',
+      'how-ai-actually-works',
+      'coding-classes-in-uae',
+      'coding-classes-in-qatar',
+      'coding-classes-in-saudi-arabia',
+      'ai-classes-in-dubai',
+      'coding-classes-in-united-states',
+      'coding-classes-in-united-kingdom',
+      'coding-classes-in-switzerland',
+      'coding-classes-in-singapore'
+    ]
+  },
+
+  // The international growth cluster. Its members are SPOKES of country hubs,
+  // so the hubs are the highest-risk incumbents, followed by the Build-AI page
+  // for the same market, which is the true sibling most likely to collide.
+  'coding-global': {
+    label: 'International growth cluster',
+    fileRe: /^coding-classes-in-(madinat-al-sultan-qaboos|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|dhofar|khasab|kuwait|muscat|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)\.html$/,
+    prefix: 'cg',
+    incumbents: [
+      // country hubs these pages spoke from
+      'coding-classes-in-united-states',
+      'coding-classes-in-united-kingdom',
+      'coding-classes-in-canada',
+      'coding-classes-in-australia',
+      'coding-classes-in-uae',
+      'coding-classes-in-qatar',
+      'coding-classes-in-saudi-arabia',
+      'coding-classes-in-singapore',
+      'coding-classes-in-switzerland',
+      'coding-classes-in-germany',
+      'coding-classes-in-ireland',
+      'coding-classes-in-new-zealand',
+      'coding-classes-in-sweden',
+      'coding-classes-in-india',
+      // the matching Build-AI page for the same market
+      'ai-and-machine-learning-classes-in-oman',
+      'ai-and-machine-learning-classes-in-muscat',
+      'ai-and-machine-learning-classes-in-kuwait',
+      'ai-and-machine-learning-classes-in-bahrain',
+      'ai-and-machine-learning-classes-in-hong-kong',
+      'ai-and-machine-learning-classes-in-netherlands',
+      'ai-and-machine-learning-classes-in-usa',
+      'ai-and-machine-learning-classes-in-uk',
+      'ai-and-machine-learning-classes-in-canada',
+      'ai-and-machine-learning-classes-in-london',
+      // geo pages on adjacent intent
+      'online-coding-classes-for-kids-usa',
+      'online-coding-classes-for-kids-uk',
+      'online-maths-tutoring-for-kids-in-usa',
+      'online-math-tutor-canada'
+    ]
+  }
+};
+
+const requested = process.argv[2];
+if (requested && !CLUSTERS[requested]) {
+  console.error('Unknown cluster: ' + requested);
+  console.error('Known clusters: ' + Object.keys(CLUSTERS).join(', '));
+  process.exit(2);
+}
+const ACTIVE_NAME = requested || 'build-ai';
+const ACTIVE = CLUSTERS[ACTIVE_NAME];
+
 const CLUSTER = fs.readdirSync(PAGES)
-  .filter(f => /^(learn-to-build-ai|ai-and-machine-learning-classes-in-.+)\.html$/.test(f))
+  .filter(f => ACTIVE.fileRe.test(f))
   .map(f => f.replace('.html', ''));
 
-// Pre-existing pages a "build AI" page is most likely to accidentally clone.
-const INCUMBENTS = [
-  'online-ai-and-machine-learning-classes',
-  'how-to-build-ai-models',
-  'machine-learning-course-for-beginners',
-  'ai-ml-course-for-college-students',
-  'ai-ml-course-for-teens',
-  'deep-learning-course',
-  'ai-ml-certification-course',
-  'machine-learning-from-scratch',
-  'how-ai-actually-works',
-  'coding-classes-in-uae',
-  'coding-classes-in-qatar',
-  'coding-classes-in-saudi-arabia',
-  'ai-classes-in-dubai',
-  'coding-classes-in-united-states',
-  'coding-classes-in-united-kingdom',
-  'coding-classes-in-switzerland',
-  'coding-classes-in-singapore'
-].filter(s => fs.existsSync(path.join(PAGES, s + '.html')));
+const INCUMBENTS = ACTIVE.incumbents
+  .filter(s => fs.existsSync(path.join(PAGES, s + '.html')));
 
 // Text that is SUPPOSED to repeat across the cluster and must not count as
 // duplication: real review quotes, project blurbs, course titles, brand facts.
@@ -95,10 +160,42 @@ const ALLOWED = [
 // Everything that is supposed to be original stays in: the h1, the hero lede,
 // the answer capsule, all body paragraphs, the market ML project, and every FAQ
 // answer. Strip more than this and the check stops meaning anything.
+// Named by suffix and prefixed per cluster below, so a new cluster inherits the
+// same honest line without a second list drifting out of sync.
+const SHARED_SUFFIXES = [
+  'spec', 'price', 'review', 'proj', 'trust', 'form-panel', 'markets',
+  'btn-row', 'hero-note', 'crumbs', 'eyebrow', 'course-code', 'capsule-q',
+  'band-head', 'chip', 'slot-time'
+];
+
+// Also strips cg-pick, the course strip under the hero: same catalogue, same
+// thumbnails, same blurbs on every market page by design.
+// Spoke pages carry the SAME course cards as the hub they spoke from, by design:
+// the catalogue does not change per market. Leaving them in would flood the
+// signal with catalogue text and mask real body-prose duplication, which is the
+// exact thing this script exists to catch. Original prose all still counts: the
+// h1, hero lede, answer capsule, every body paragraph, the local project brief
+// and every FAQ answer.
+// The Oman cluster added more furniture that is identical on every page BY DESIGN:
+// the contact block and mobile bar (guide section 18 mandates them verbatim), the
+// price grid, and the form/contact two-column wrapper. Stripping them stops the
+// score reporting required chrome as duplication.
+// NOT stripped, on purpose: the #placement and #delivery prose. That IS shared text
+// the pages should not have had, and the score must keep showing it.
+const SPOKE_EXTRA_SUFFIXES = ['course-card', 'pick', 'picks-more', 'boiler',
+  'contact-card', 'contact-row', 'contact-bar', 'contact-bar-in', 'contact-grid',
+  'sticky', 'form-layout', 'price-grid', 'price-label', 'hero-actions', 'breadcrumb',
+  // the course ladder is the SAME catalogue on every market page, exactly like
+  // cg-course-card, and 'verified' is the one-line freshness stamp section 18.4
+  // requires verbatim. Both are mandated chrome, not authored prose.
+  'ladder', 'verified',
+  // cg-callout is touchpoint 3 of the four the guide mandates, and its wording
+  // is fixed by section 18.1. Same status as the price block: required chrome.
+  'callout'];
+
 const SHARED_COMPONENTS = [
-  'ag-spec', 'ag-price', 'ag-review', 'ag-proj', 'ag-trust', 'ag-form-panel', 'ag-markets',
-  'ag-btn-row', 'ag-hero-note', 'ag-crumbs', 'ag-eyebrow', 'ag-course-code', 'ag-capsule-q',
-  'ag-band-head', 'ag-chip', 'ag-slot-time'
+  ...SHARED_SUFFIXES.map(s => ACTIVE.prefix + '-' + s),
+  ...(ACTIVE_NAME === 'coding-global' ? SPOKE_EXTRA_SUFFIXES.map(s => ACTIVE.prefix + '-' + s) : [])
 ];
 
 function stripByClass(html, cls) {
@@ -160,6 +257,7 @@ if (!CLUSTER.length) {
   process.exit(0);
 }
 
+console.log('Cluster: ' + ACTIVE.label + ' (' + ACTIVE_NAME + ')');
 console.log('Cluster pages: ' + CLUSTER.length);
 console.log('Incumbent pages compared against: ' + INCUMBENTS.length);
 console.log('Shingle size ' + SHINGLE + ' words. warn >' + (WARN * 100) + '%, fail >' + (FAIL * 100) + '%\n');

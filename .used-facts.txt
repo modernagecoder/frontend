@@ -1,0 +1,35 @@
+**Georgia (US state)** (`coding-classes-in-georgia`, body class `cg-ga`)
+- Trap: Base rates and conditional probability, anchored on published CDC prevalence figures, with Atlanta as the home of the Centers for Disease Control and Prevention.
+- Claimed facts: , , , , , , , , , 
+
+**Washington State** (`coding-classes-in-washington`, body class `cg-wa`)
+- Trap: Seattle Open Data, Fremont Bridge Bicycle Counter, running since October 2012 with hourly counts from inductive loops in the east and west pathways.
+- Claimed facts: , , , , , , , , , 
+
+**Virginia** (`coding-classes-in-virginia`, body class `cg-va`)
+- Trap: Virginia School Quality Profiles / VDOE SOL pass rates, published for schools, divisions and the state across three years.
+- Claimed facts: , , , , , , , , , 
+
+**Illinois** (`coding-classes-in-illinois`, body class `cg-il`)
+- Trap: Chicago Data Portal beach water quality.
+- Claimed facts: , , , , , , , , , 
+
+**New York** (`coding-classes-in-new-york`, body class `cg-ny`)
+- Trap: NYC Open Data 311 Service Requests, over 40 million rows by end of 2025, updated daily.
+- Claimed facts: , , , , , , , , , , , 
+
+**California** (`coding-classes-in-california`, body class `cg-ca`)
+- Trap: CAL FIRE incident acreage.
+- Claimed facts: , , , , , , , , , 
+
+**Texas** (`coding-classes-in-texas`, body class `cg-tx`)
+- Trap: NOAA Storm Prediction Center tornado records for Texas.
+- Claimed facts: , , , , , , , , , 
+
+**Ontario** (`coding-classes-in-ontario`, body class `cg-on`)
+- Trap: IESO hourly Ontario electricity demand against temperature.
+- Claimed facts: , , , , , , , , , , , 
+
+**New Jersey** (`coding-classes-in-new-jersey`, body class `cg-nj`)
+- Trap: NJ Transit punctuality.
+- Claimed facts: , , , , , , , , , 

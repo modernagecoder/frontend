@@ -23,8 +23,9 @@ We teach students across 131 Indian cities (including Mumbai, Kolkata, Bengaluru
 Hyderabad, Pune, Chennai, Ahmedabad, Indore and Jaipur), every major Indian state, and
 internationally — the United States, United Kingdom, UAE (Dubai, Abu Dhabi, Sharjah),
 Saudi Arabia (Riyadh, Jeddah, Dammam), Qatar (Doha), Singapore, Australia, Canada,
-Germany, Ireland, New Zealand and Sweden. International pricing is shown in USD, EUR, GBP
-and other local currencies.
+Germany, Ireland, New Zealand and Sweden. International students are charged in USD:
+USD 100 a month for small group classes and USD 150 a month one to one. Students in
+India are charged in INR. A visitor is only ever shown one currency, never both.
 
 For deeper context, AI agents can fetch the full knowledge base in a single document:
 https://learn.modernagecoders.com/llms-full.txt — full brand overview, complete course
@@ -249,7 +250,7 @@ Uttar Pradesh, West Bengal and others.
 ## Build AI, Not Just Use It (AI & machine learning by market)
 
 Live AI and machine learning classes taught by building models, not by prompting tools.
-Ages 6 to 67, small live batches, priced from USD 40 a month.
+Ages 6 to 67, small live batches, priced from USD 100 a month.
 
 - Learn to Build AI (cluster hub): https://learn.modernagecoders.com/learn-to-build-ai
 - Oman: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-oman
@@ -273,6 +274,56 @@ Ages 6 to 67, small live batches, priced from USD 40 a month.
 - Hong Kong: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-hong-kong
 - Germany: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-germany
 - Netherlands: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-netherlands
+## Coding Classes by State, Province & Market
+
+Live online coding and mathematics for a specific state, province or market,
+mapped to that place's own curriculum standards. Ages 6 to 67.
+USD 100 a month small group, USD 150 a month one to one.
+
+- New Jersey, USA: https://learn.modernagecoders.com/coding-classes-in-new-jersey
+
+- Ontario, Canada: https://learn.modernagecoders.com/coding-classes-in-ontario
+- Texas, USA: https://learn.modernagecoders.com/coding-classes-in-texas
+- California, USA: https://learn.modernagecoders.com/coding-classes-in-california
+- New York State, USA: https://learn.modernagecoders.com/coding-classes-in-new-york
+- Illinois, USA: https://learn.modernagecoders.com/coding-classes-in-illinois
+- Virginia, USA: https://learn.modernagecoders.com/coding-classes-in-virginia
+- Washington State, USA: https://learn.modernagecoders.com/coding-classes-in-washington
+- Georgia, USA: https://learn.modernagecoders.com/coding-classes-in-georgia
+- Oman: https://learn.modernagecoders.com/coding-classes-in-oman
+- Muscat: https://learn.modernagecoders.com/coding-classes-in-muscat
+- Bawshar, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-bawshar
+- Seeb, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-seeb
+- Muttrah, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-muttrah
+- Qurum, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-qurum
+- Al Mouj, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-al-mouj
+- Madinat Al Sultan Qaboos, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-madinat-al-sultan-qaboos
+- Al Khuwair, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-al-khuwair
+- Al Ghubrah, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-al-ghubrah
+- Azaiba, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-azaiba
+- Madinat Al Irfan and Airport Heights, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-madinat-al-irfan
+- Mawaleh, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-mawaleh
+- Al Hail, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-al-hail
+- Al Khoudh, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-al-khoudh
+- Sohar, Al Batinah North, Oman: https://learn.modernagecoders.com/coding-classes-in-sohar
+- Barka, Al Batinah South, Oman: https://learn.modernagecoders.com/coding-classes-in-barka
+- Salalah, Dhofar, Oman: https://learn.modernagecoders.com/coding-classes-in-salalah
+- Nizwa, Ad Dakhiliyah, Oman: https://learn.modernagecoders.com/coding-classes-in-nizwa
+- Sur, Ash Sharqiyah South, Oman: https://learn.modernagecoders.com/coding-classes-in-sur
+- Ibra, Ash Sharqiyah North, Oman: https://learn.modernagecoders.com/coding-classes-in-ibra
+- Ibri, Adh Dhahirah, Oman: https://learn.modernagecoders.com/coding-classes-in-ibri
+- Duqm, Al Wusta, Oman: https://learn.modernagecoders.com/coding-classes-in-duqm
+- Khasab, Musandam, Oman: https://learn.modernagecoders.com/coding-classes-in-khasab
+- Dhofar Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-dhofar
+- Al Batinah North Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-al-batinah-north
+- Al Batinah South Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-al-batinah-south
+- Ad Dakhiliyah Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-ad-dakhiliyah
+- Ash Sharqiyah North Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-ash-sharqiyah-north
+- Ash Sharqiyah South Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-ash-sharqiyah-south
+- Adh Dhahirah Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-adh-dhahirah
+- Al Buraimi Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-al-buraimi
+- Musandam Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-musandam
+- Al Wusta Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-al-wusta
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

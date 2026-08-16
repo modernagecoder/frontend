@@ -1128,10 +1128,8 @@
     "support_provided": {
       "live_sessions": "Weekly Q&A sessions with database experts",
       "mentorship": "1-on-1 guidance from professional DBAs",
-      "community": "Teen-friendly Discord community",
       "code_review": "Expert review of database designs",
-      "career_support": "Internship guidance and college application help",
-      "lifetime_access": "All content available forever with updates"
+      "career_support": "Internship guidance and college application help"
     },
     "certification": {
       "phase_certificates": "Certificate after Phase 1 completion",

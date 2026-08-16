@@ -1942,11 +1942,9 @@
     "support_provided": {
       "live_sessions": "Weekly problem-solving sessions",
       "mentorship": "1-on-1 guidance from red coders",
-      "community": "Elite Discord with 24/7 support",
       "code_review": "Solution optimization and debugging help",
       "contest_analysis": "Post-contest discussion and upsolving",
-      "career_support": "Interview prep and referrals",
-      "lifetime_access": "All content and future updates"
+      "career_support": "Interview prep and referrals"
     },
     "certification": {
       "phase_certificates": "Certificate after each phase",

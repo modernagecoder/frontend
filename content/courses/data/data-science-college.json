@@ -45,7 +45,6 @@
       "Focus on both theory and practical implementation",
       "MLOps and production deployment included",
       "Interview preparation for FAANG and top companies",
-      "Lifetime access with continuous updates",
       "Build a portfolio showcasing end-to-end ML projects"
     ],
     "learning_path": {
@@ -1108,10 +1107,8 @@
     "support_provided": {
       "live_sessions": "Weekly problem-solving and doubt clearing sessions",
       "mentorship": "1-on-1 guidance from senior data scientists",
-      "community": "Active Discord community with 10,000+ members",
       "code_review": "Expert code reviews for all major projects",
-      "career_support": "Resume review, mock interviews, job referrals",
-      "lifetime_access": "All content, updates, and new modules forever",
+      "career_support": "Resume review, mock interviews",
       "kaggle_support": "Kaggle competition teams and guidance",
       "cloud_credits": "Free credits for AWS, GCP, Azure practice"
     },
