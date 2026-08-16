@@ -1,6 +1,6 @@
 # Modern Age Coders — Course & Pricing Guide for WhatsApp Agents
 
-_Generated 2026-08-04 from the live pricing config. Regenerate with `node scripts/gen-whatsapp-agent-guide.js` after any change._
+_Generated 2026-08-14 from the live pricing config. Regenerate with `node scripts/gen-whatsapp-agent-guide.js` after any change._
 
 ## How to use this guide (instructions for the AI agent)
 
@@ -11,15 +11,19 @@ _Generated 2026-08-04 from the live pricing config. Regenerate with `node script
   - Answer only the pricing question they asked. Do not volunteer other plans, other regions, or extra pricing commentary. If they ask "what does it cost", give the group fee and mention 1-on-1 exists if they want personal attention — nothing more.
   - Quote fees exactly as written here. Never invent discounts.
 - Every course includes a FREE demo class first — always offer to book it (share https://learn.modernagecoders.com/contact/ or take their phone number for a callback).
-- Classes are LIVE with a real teacher (never recordings), for ages 6 to 67. Group and Mini Batch run 2 classes per week (8 per month); 1-on-1 in India runs 1 class per week (4 per month).
+- Classes are LIVE with a real teacher (never recordings), for ages 6 to 67.
+- CLASS FREQUENCY — differs by plan and region, do not blur them:
+  - Group and Mini Batch: 2 classes a week, 8 a month.
+  - 1-on-1 in India: 1 private class a week, 4 a month.
+  - 1-on-1 outside India: 2 private classes a week, 8 a month.
 
 ## Fee reference (internal — quote only the line that matches the asker)
 
 | Plan | If the student is in India | If the student is outside India |
 |---|---|---|
 | Group class (max 10 students) | ₹1,499/month | $100/month |
-| Mini Batch (3-4 students) | ₹2,999/month | not offered |
-| Personalized 1-on-1 | ₹4,999/month (coding and maths; 1 class a week, 4 a month in India) | $150/month (2 classes a week) |
+| Mini Batch (3-4 students, India only) | ₹2,999/month | not offered |
+| Personalized 1-on-1 | ₹4,999/month (1 class a week, 4 a month) | $150/month (2 classes a week, 8 a month) |
 
 Courses with their own fees are marked on their entries below.
 
@@ -34,7 +38,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 
 ---
 
-## All courses (116)
+## All courses (119)
 
 ### Advanced Mathematics Education
 
@@ -435,6 +439,152 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
       - Queens Forever - Your Reign Begins
 - Projects students build: Design and implement a distributed cache system; Build a custom ORM framework; Create a microservices architecture blueprint; Implement advanced design patterns library; Multi-region Kubernetes deployment; Serverless e-commerce backend; Infrastructure automation with Terraform; Cloud cost optimization audit tool; Build a sharded database system; Real-time analytics pipeline with Kafka; Graph-based recommendation engine; Data warehouse ETL pipeline; Build a high-performance web server; Optimize a slow application (10x improvement); Implement custom load balancer — plus 205 more on the course page
 - Career paths after completion: Chief Technology Officer (CTO); VP of Engineering; Principal/Staff Engineer; Technical Founder/CEO; Engineering Director
+
+### AI Agents & Automation
+
+#### AI Agents with Microsoft Copilot Studio for College Students
+
+- Link: https://learn.modernagecoders.com/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 24 classes (12 weeks · 2 classes/week)
+- Level: Intermediate (college students and early-career, ages 18+; no prior agent experience needed)
+- About: Build business-grade AI agents in Microsoft Copilot Studio: 24 live 1-on-1 online classes on knowledge grounding, connectors, agent flows, MCP, autonomous triggers, multi-agent orchestration and a recruiter-ready published capstone.
+- Who it is for: Final and pre-final year students who want a demonstrable AI agent skill on their resume, with a published capstone and documentation packet recruiters can actually inspect; BBA, BCom and management students who will never be full-time programmers but will absolutely be asked to automate processes and build departmental agents; CS and IT students who know code but not the low-code agent stack enterprises deploy, and want the governance and orchestration vocabulary interviews now probe; Students already running societies and fests who have real users, real FAQs and real processes, the perfect training ground for business-grade agents; Recent graduates in operations, support or analyst roles who want to become the person on the team who ships the agent instead of requesting one
+- Prerequisites: device: A laptop or desktop (Windows, Mac or Linux) with the Chrome or Edge browser and a reliable internet connection; Copilot Studio runs fully in the browser · coding experience: None required. Copilot Studio is a graphical, low-code studio, and the course teaches every concept from first principles. Students who do code will get further faster in the REST, custom connector and MCP classes, but the syllabus assumes nothing · accounts: Copilot Studio uses a Microsoft work or school (Entra ID) account rather than a personal email. Most college email addresses qualify for the 30-day self-serve trial (note: trial environments cannot publish agents). Where a college account is not available, we arrange a practice environment for the duration of the course · mindset: The willingness to test before you trust, and to treat instructions, sources and logs as engineering artifacts. The course rewards students who ask for evidence
+- Curriculum outline:
+  - Phase 1: Agent Foundations
+    Understand agents in business terms, tour Microsoft Copilot Studio properly, write instructions that actually steer behaviour, test like a professional, and meet the models and harnesses underneath every agent.
+    - Class 1: Agents as a Business Skill, Not a Toy
+    - Class 2: Your First Agent, Built Properly
+    - Class 3: Instructions at Business Depth
+    - Class 4: Testing Like Someone Whose Name Is on It
+    - Class 5: Models, Harnesses and What You Are Actually Running On
+  - Phase 2: Knowledge & Grounding at Business Depth
+    Ground agents in the knowledge sources enterprises actually use: SharePoint, documents, Dataverse and connector-indexed enterprise data, with citations, conflict handling and accuracy audits you publish.
+    - Class 6: Grounding vs Guessing, the Business Version
+    - Class 7: SharePoint and Documents Done Right
+    - Class 8: Dataverse, Enterprise Data and Source Conflicts
+    - Class 9: Accuracy Audits, Bias and the Trust Contract
+  - Phase 3: Conversation & Orchestration
+    Design conversations that hold up under real users: topics and trigger phrases, entities and variables, condition groups, adaptive cards, and a deliberate choice between generative and classic orchestration.
+    - Class 10: Topics and Trigger Phrases
+    - Class 11: Entities, Variables and Slot Filling
+    - Class 12: Condition Groups and Branch Design
+    - Class 13: Adaptive Cards and Business-Grade Responses
+    - Class 14: Generative Orchestration vs Classic, Chosen Deliberately
+  - Phase 4: Tools, Automation & Multi-Agent
+    The employability core: connectors and Prompt tools, deterministic agent flows, REST and custom connectors, Model Context Protocol, autonomous event triggers with real security discipline, multi-agent design with A2A, and analytics with agent evaluations.
+    - Class 15: The Tool Menu and Connector Library
+    - Class 16: Agent Flows: Automation That Runs the Same Every Time
+    - Class 17: REST APIs, Custom Connectors and Governance
+    - Class 18: Model Context Protocol and Computer Use
+    - Class 19: Autonomous Agents: Event Triggers and the Security They Demand
+    - Class 20: Multi-Agent Design, Analytics and Evaluations
+  - Phase 5: Publish, Credentials & Capstone
+    Publish to the channels businesses use, pass a professional pre-flight checklist, then build and defend a business-grade capstone agent, leaving with a mapped Microsoft credential roadmap.
+    - Class 21: Channels and the Agent Store
+    - Class 22: The Pre-Flight Checklist: Security, Cost and Honesty
+    - Class 23: Capstone Build Week
+    - Class 24: Demo Day and the Credential Roadmap
+- Projects students build: Agent teardown, business edition: analyse one real customer-facing agent (bank, airline, university helpdesk), reverse-engineer its probable instructions, knowledge and tools, and write a one-page teardown; Build 'Placement FAQ v1': an agent with hand-written instructions that answers questions about one real company's hiring process in a tone you designed; The Refusal Gauntlet, corporate edition: 10 questions your Placement FAQ agent must refuse or redirect (offer-letter legal advice, personal data, salary speculation), tuned until all 10 are handled gracefully; Build the permanent 15-question test set for Placement FAQ, run it twice in one week, and file the two most instructive failures with root causes; Model comparison memo: run your full Placement FAQ test set on two available models and write a one-page recommendation with evidence; Ground Placement FAQ in the target company's public website and prove five answers now carry citations a recruiter could check; Build 'Society Desk': an agent for a real college society grounded in a clean 3-document knowledge pack you author, with a 10-question proof test; Build a two-source Internship Tracker knowledge base (structured table plus policy document) and document exactly how the agent behaves when they conflict; Publish an accuracy audit of Society Desk: 20 scored answers with cited source paragraphs, an accuracy figure, and the three fixes it demanded; Build 'Fest Helpdesk' with three designed topics for a real event: schedule lookup, registration help and venue directions; Upgrade Internship Tracker: an add-application topic that collects company, role, deadline and status through entities, confirming with a variable-built summary; Rebuild Fest Helpdesk registration as a condition-driven flow: student vs guest vs volunteer paths, each with its own confirmation and an escalation branch; Give Internship Tracker a card-based pipeline view: each application a card with company, role, deadline and a status-update action; Migrate Fest Helpdesk to generative orchestration, rerun the full test set, and file a keep-or-fix verdict on every behaviour change; Add a 'JD decoder' Prompt tool to Placement FAQ: paste any job description, get requirements, keywords and preparation gaps in a fixed format — plus 9 more on the course page
+- Career paths after completion: AI agent builder or automation specialist roles, the job titles now appearing in listings as enterprises staff their agent programmes; Power Platform maker and business technologist tracks, where Copilot Studio fluency is the differentiator; Microsoft's credential ladder with course-to-exam mapping: PL-900 Power Platform Fundamentals, the Applied Skills labs (APL-6006 and APL-6000), and Microsoft Certified: AI Agent Builder Associate (AB-620); Operations, support and analyst roles upgraded: the person who automates the workflow rather than performing it manually; A bridge to pro-code agent work through our Codex + Claude Code masterclass, with MCP knowledge that transfers directly
+
+#### AI Agents with Microsoft Copilot Studio for Teens
+
+- Link: https://learn.modernagecoders.com/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 24 classes (12 weeks · 2 classes/week)
+- Level: Beginner (ages 13-18; no coding experience needed)
+- About: Build real AI agents with Microsoft Copilot Studio in 24 live 1-on-1 online classes for ages 13-18: knowledge grounding, topics, connectors, agent flows, autonomous triggers and a published capstone agent. No heavy coding needed.
+- Who it is for: Teens who use ChatGPT or Copilot daily and are ready to move from asking AI questions to building AI that answers them; Students eyeing careers in technology, product or business who want the agent-building vocabulary employers now test, on the platform 90% of the Fortune 500 use; Teens who thought AI was locked behind programming: Copilot Studio's low-code canvas makes design thinking, not syntax, the superpower; Students from our Python or web development courses who want to see where low-code agents meet APIs, REST and Model Context Protocol; Teens building a portfolio for internships or university applications who want a published, working agent to show, not a certificate alone
+- Prerequisites: device: A laptop or desktop (Windows, Mac or Linux) with the Chrome or Edge browser and a reliable internet connection; Copilot Studio runs fully in the browser · coding experience: None needed. Copilot Studio is a graphical, low-code studio; clear thinking and good writing matter far more than syntax. Teens who already code can go deeper into connectors and REST tools inside the same syllabus · accounts: Copilot Studio uses a Microsoft work or school account rather than a personal email. Many students already have one from school; if you do not, we arrange access to a practice environment for the course, and for students under 18 a parent or guardian accepts Microsoft's terms · mindset: Curiosity about how AI actually works, and the patience to test before you trust. The course rewards students who ask 'how do I know this answer is right?'
+- Curriculum outline:
+  - Phase 1: Your First Agents
+    Understand what an AI agent actually is, tour Microsoft Copilot Studio, build your first agent from a plain-English description, and learn how instructions and testing really work.
+    - Class 1: What an AI Agent Really Is (and What It Is Not)
+    - Class 2: Your First Agent in One Hour
+    - Class 3: Instructions That Actually Steer Behaviour
+    - Class 4: Testing Like a Professional
+    - Class 5: How the Platform Thinks: Environments, Models and Harnesses
+  - Phase 2: Knowledge & Grounding
+    Give your agent real knowledge: websites, documents and SharePoint sources, citations users can check, and the discipline of grounding answers instead of guessing.
+    - Class 6: Grounding vs Guessing
+    - Class 7: Document Knowledge Done Right
+    - Class 8: Multi-Source Knowledge and Conflicts
+    - Class 9: Honest Agents: Accuracy, Bias and Boundaries
+  - Phase 3: Conversation Design
+    Design conversations deliberately: topics and trigger phrases, questions and variables, condition logic, adaptive cards, and the two orchestration modes that decide how your agent thinks.
+    - Class 10: Topics and Trigger Phrases
+    - Class 11: Questions, Entities and Variables
+    - Class 12: Condition Logic and Branching
+    - Class 13: Adaptive Cards and Rich Responses
+    - Class 14: Generative Orchestration vs Classic
+  - Phase 4: Tools & Autonomy
+    Make your agent act: connectors and Prompt tools, agent flows for multi-step work, a first look at Model Context Protocol, then event triggers and a fully autonomous agent with analytics to prove it works.
+    - Class 15: Tools: Giving Your Agent Hands
+    - Class 16: Agent Flows: Multi-Step Work That Always Runs the Same
+    - Class 17: Connecting to the Real World: Connectors, REST and MCP
+    - Class 18: Event Triggers: Agents That Wake Up by Themselves
+    - Class 19: Your Autonomous Agent, Hardened
+    - Class 20: Analytics: Proving Your Agent Works
+  - Phase 5: Publish & Capstone
+    Publish agents to real channels, pass a safety and quality checklist, then design, build, test and present a capstone agent that does a real job for real people.
+    - Class 21: Channels: Where Agents Live
+    - Class 22: The Pre-Flight Checklist: Safety, Quality, Honesty
+    - Class 23: Capstone Build Week
+    - Class 24: Demo Day and What Comes Next
+- Projects students build: Agent safari: analyse two real agents you have used (a support bot, a game helper), map what their instructions and knowledge must look like, and write a one-page teardown; Build 'Study Buddy v1': an agent with instructions for your real timetable and subjects that answers revision questions in a tone you designed; The Refusal Gauntlet: write 10 questions your Study Buddy must refuse or redirect, then tune instructions until all 10 are handled gracefully; Build your permanent 15-question test set for Study Buddy, with expected behaviour written down before you run it; Draw the journey of one question through your agent: user, harness, instructions, model, answer, and label the parts you control; Ground Study Buddy in one real source (your school's public website or a subject site) and prove three answers now cite it; Create a clean 3-document knowledge pack from your own class notes and ground a Revision Coach agent in it, with a 10-question proof test; Build 'Club Desk': an agent for a real club or activity grounded in two sources, with documented behaviour when sources conflict; Accuracy audit: score 20 answers from Revision Coach against the actual source paragraphs and publish your agent's accuracy number with examples; Build a 'Homework Planner' agent with three hand-designed topics: add a task, list this week, and what should I do first; Upgrade Homework Planner: the add-a-task topic now collects subject, due date and effort through entities and confirms with a summary using variables; Build 'Event Helper' for a real school or family event: RSVP path, question path, and organiser-escalation path, all condition-driven; Give Homework Planner a card-based weekly view: each task a card with subject, due date and a 'mark done' action; Switch Event Helper to generative orchestration, rerun your full test set, and document every behaviour change with a keep-or-fix verdict; Add a 'flashcard maker' Prompt tool to Revision Coach: paste messy notes, get clean question-answer pairs, every time — plus 9 more on the course page
+- Career paths after completion: A visible head start toward roles that now appear in real job listings: AI agent builder, automation specialist, Power Platform maker; Microsoft's own credential ladder: PL-900 Power Platform Fundamentals (which now includes a Copilot Studio agents domain), then the Applied Skills lab 'Build an agent in Microsoft Copilot Studio'; A published capstone agent and portfolio that make school projects, internship applications and university statements concrete; The design-and-test discipline (grounding, refusals, evaluation) that transfers to every AI platform, not just Microsoft's; A natural bridge into our Codex + Claude Code course when you are ready to build agents with real code
+
+#### Copilot Studio Agent Masterclass for Professionals
+
+- Link: https://learn.modernagecoders.com/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 24 classes (12 weeks · 2 classes/week)
+- Level: Intermediate to advanced (working professionals; no prior agent experience assumed, business software fluency expected)
+- About: Ship production AI agents in Microsoft Copilot Studio: 24 live 1-on-1 online classes for working professionals on enterprise grounding, autonomous agents, multi-agent A2A, governance and ROI.
+- Who it is for: Analysts and process owners who know exactly which workflows are broken and want to ship the agent that fixes one, with the evidence to defend it; IT professionals and Microsoft 365 admins who will be asked to govern agents either way, and would rather be the person who understands Entra Agent ID, DLP and Agent 365 before the first incident; Developers and Power Platform makers adding the 2026 agent stack (MCP, A2A, computer use, evaluations) to skills employers already recognise; Leads and managers who must decide what gets automated, what it costs in Copilot Credits, and which agent projects deserve to survive the pilot filter; Consultants who want to sell agent builds that pass a client's security review, with governance and ROI packs as deliverables, not afterthoughts
+- Prerequisites: device: A laptop or desktop (Windows, Mac or Linux) with the Chrome or Edge browser and a reliable internet connection; Copilot Studio runs fully in the browser · coding experience: None required. Copilot Studio is a graphical, low-code studio, and this course teaches the design, governance and cost disciplines around it. Professionals who do code can go deeper into custom connectors, REST tools and Power Fx expressions inside the same syllabus · accounts: Copilot Studio uses a Microsoft work or school (Entra ID) account. With a work email you can self-serve the 30-day trial (which cannot publish agents); ideally you use your employer's tenant with your admin's awareness, and we arrange a practice environment where that is not possible. Your mentor sorts this out with you in the first class · mindset: The willingness to treat agents as production software: tested before trusted, costed before scaled, and governed before shipped. The course rewards professionals who ask 'who approved this and what does it cost' as instinctively as 'does it work'
+- Curriculum outline:
+  - Phase 1: Platform & Foundations
+    Map the 2026 agent landscape, learn the anatomy of a Copilot Studio agent, build instruction and testing discipline, and make the model and harness decisions that shape cost and capability.
+    - Class 1: The 2026 Agent Landscape and Where Copilot Studio Sits
+    - Class 2: Agent Anatomy and Instruction Discipline
+    - Class 3: Testing Like It Is Already in Production
+    - Class 4: Models and Harnesses: The Decisions Underneath Everything
+  - Phase 2: Enterprise Knowledge
+    Ground agents in enterprise sources at scale: SharePoint, Dataverse, documents and connector-indexed data, tenant graph grounding, curation strategy, and accuracy audits an auditor would accept.
+    - Class 5: Grounding Strategy: The Knowledge Source Estate
+    - Class 6: SharePoint and Documents Done Right
+    - Class 7: Dataverse, Connector-Indexed Data and Tenant Graph Grounding
+    - Class 8: Accuracy Audits and Honest Agents
+  - Phase 3: Orchestration & Tools
+    Design conversations for critical paths, choose orchestration modes deliberately, then master the full tool surface: Prompt tools, agent flows, connectors, custom connectors and REST, Model Context Protocol under DLP, computer use with guardrails, and deep reasoning.
+    - Class 9: Topics for Critical Paths
+    - Class 10: Generative Orchestration, Deliberately
+    - Class 11: Prompt Tools and Agent Flows
+    - Class 12: The Connector Estate: Standard, Premium, On-Premises, Custom, REST
+    - Class 13: Model Context Protocol Under Enterprise Governance
+    - Class 14: Computer Use and Deep Reasoning: The Power Tools
+  - Phase 4: Autonomy, Multi-Agent & Quality
+    Ship agents that act on their own and prove they work: event triggers under the maker-credentials rule, hardening, multi-agent architectures with A2A, agent evaluations, analytics, and full cost management in Copilot Credits.
+    - Class 15: Event Triggers and Autonomous Agents
+    - Class 16: Hardening Autonomy: Approval Pauses and Failure Design
+    - Class 17: Multi-Agent Architecture and the A2A Protocol
+    - Class 18: Agent Evaluations: Quality You Can Prove
+    - Class 19: Analytics: Outcomes, CSAT and the Cost Savings Metric
+    - Class 20: Cost Management: Copilot Credits Without Surprises
+  - Phase 5: Governance, Rollout & Capstone
+    Master the governance layer that makes agents deployable: Entra Agent ID, Conditional Access, DLP, Microsoft Agent 365 and the Agent Store, then ship a production capstone with the governance and ROI pack to defend it.
+    - Class 21: Identity and Policy: Entra Agent ID, Conditional Access, DLP
+    - Class 22: The Agent Estate: Microsoft Agent 365, the Agent Store, and Rollout
+    - Class 23: Capstone Build Week
+    - Class 24: Capstone Defence and the Credential Road
+- Projects students build: Write the one-page 'agent opportunity memo' for your organisation: three candidate processes, the data each would need, the risks each carries, and which one becomes your capstone; Build 'Policy Desk v1': an internal FAQ agent for one real policy area of your workplace, with a complete instruction stack and five tested refusals; Build the permanent 25-question test set for Policy Desk, including five adversarial probes, with expected behaviour written before the first run; Run your Policy Desk test set against two GA models (one OpenAI, one Anthropic), score the differences, and write the one-paragraph model decision with evidence attached; Ground Policy Desk in a real SharePoint site (or a mirrored practice copy) and prove ten answers cite the correct policy paragraph; Rebuild one messy real document into a retrieval-optimised version, ground both versions side by side, and publish the before-and-after accuracy comparison; Add a second source type to Policy Desk (Dataverse table or connector-indexed source), then document the arbitration behaviour with five conflict questions; Run the full 25-answer accuracy audit on Policy Desk and publish the result as a one-page report with examples, methodology and a remediation list; Build 'Support Triage v1': a customer-facing agent with three designed topics (report an issue, check status, escalate to human), entities capturing the details, and an adaptive card summary; Migrate Support Triage to generative orchestration, rerun the full test set, and publish the behaviour-change log with a keep-or-fix verdict per change; Build 'Expense Helper': conversation collects an expense claim, an agent flow validates it, routes it for approval, and returns the outcome, with tested error paths for every step; Wire one real connector tool and one REST or custom connector tool into a practice agent, and demonstrate a conversation that reads and writes live data through both; Add an MCP server to a practice agent, disable every tool you do not need, and document the resulting capability surface as a one-page security note; Build a governed computer-use demo: one legacy-UI task automated with allow-lists, HTTPS enforcement and human supervision configured, plus a per-run credit cost estimate; Build 'Weekly Reporter': an autonomous agent on a Recurrence trigger that compiles a weekly status summary from real sources and posts it for review, never directly to stakeholders — plus 9 more on the course page
+- Career paths after completion: AI agent builder or automation specialist roles, the titles now appearing in real job listings as organisations move from pilots to estates; Microsoft Certified: AI Agent Builder Associate (exam AB-620), for which this syllabus is direct preparation, with the Applied Skills labs 'Build an agent in Microsoft Copilot Studio' and 'Enhance agents with autonomous capabilities' as nearer milestones; The internal agent champion or center-of-excellence role: the person who owns the organisation's agent playbook, governance posture and cost model; Consulting and freelance agent delivery, with a portfolio capstone that includes the governance and ROI artifacts clients' security teams actually ask for; A bridge to code-first agent engineering: Microsoft Foundry interop from this course, and our Codex + Claude Code masterclass when you want to build agents in code
 
 ### AI Coding Agents
 
@@ -8021,7 +8171,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 ## Quick answers for common parent questions
 
 - **Demo class**: free, no card needed, book at https://learn.modernagecoders.com/contact/ or via callback.
-- **Class format**: live online with a real teacher; small groups (max 10) at 2 classes/week, or 1-on-1 at 1 class/week (4 a month) in India.
+- **Class format**: live online with a real teacher, 2 classes/week, small groups (max 10) or 1-on-1.
 - **Ages**: 6 to 67 — kids (6-12), teens (13-18), college students and working professionals.
 - **Certificates**: yes, on course completion.
 - **Full catalog page**: https://learn.modernagecoders.com/courses · Course atlas: https://learn.modernagecoders.com/course-atlas

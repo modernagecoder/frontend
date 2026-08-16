@@ -975,7 +975,7 @@ Rs 9,999 = the India holiday camp fee, ONE TIME. It is not a course price:
 RETIRED, NEVER QUOTE:
   Rs 2,499 · Rs 7,500 · Rs 8,500 · $40 · $149.99 · $374.99
   any "lifetime" plan · "6 to 65" · "500+ students"
-  "247 reviews" · "15+ countries" · /courses/kids-ai-mastery-course
+  "247 reviews" · "15+ countries" · /courses/kids-ai-mastery-course — never quote
   (Rs 9,999 stays valid ONLY as the one-time camp fee.)
 
 DEMO ................. free, live, real mentor, no card, 30-60 min

@@ -975,7 +975,7 @@ Rs 9,999 = the India holiday camp fee, ONE TIME. It is not a course price:
 RETIRED, NEVER QUOTE:
   Rs 2,499 · Rs 7,500 · Rs 8,500 · $40 · $149.99 · $374.99
   any "lifetime" plan · "6 to 65" · "500+ students"
-  "247 reviews" · "15+ countries" · /courses/kids-ai-mastery-course
+  "247 reviews" · "15+ countries" · /courses/kids-ai-mastery-course — never quote
   (Rs 9,999 stays valid ONLY as the one-time camp fee.)
 
 DEMO ................. free, live, real mentor, no card, 30-60 min
@@ -1012,18 +1012,20 @@ ESCALATE TO SHIVAM SIR FOR:
 - **January 2026.** Terms of Service last reviewed.
 - **2020.** Modern Age Coders founded by Shivam Khemka.
 
-## APPENDIX A: EVERY COURSE PAGE (115 live courses)
+## APPENDIX A: EVERY COURSE PAGE (118 live courses)
 
 All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Every URL below was checked against the sitemap and the routing table on 4 August 2026.
 
 
-### A.1 Coding, AI and technology courses (87)
+### A.1 Coding, AI and technology courses (90)
 
 | Course | URL path | Who it is for |
 |---|---|---|
 | Advanced Git & GitHub Masterclass for Professionals | `/courses/git-github-advanced-version-control-masterclass-for-professionals` | College |
 | AI & Machine Learning for Teens: Zero to AI Expert | `/courses/ai-ml-masterclass-teens` | Teens |
 | AI & Machine Learning Masterclass: Zero to AI Expert | `/courses/ai-ml-masterclass-complete-college` | College |
+| AI Agents with Microsoft Copilot Studio for College Students | `/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students` | College |
+| AI Agents with Microsoft Copilot Studio for Teens | `/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens` | Teens |
 | AI Literacy for Kids (Ages 8 to 14): Understand AI, Do Not Just Use It | `/courses/ai-literacy-for-kids-course` | Kids |
 | AI Tools for Teens (13+): Prompting, Creative Projects & Safe AI Use | `/courses/teens-ai-tools-mastery-course` | Teens |
 | AI Tools Mastery: ChatGPT to Production AI Automation | `/courses/ai-tools-mastery-complete-college` | College |
@@ -1047,6 +1049,7 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | Competitive Programming Course Online: Crack Codeforces | `/courses/competitive-programming-masterclass-college` | College |
 | Competitive Programming for Teens: ZCO, INOI and USACO Track | `/courses/competitive-programming-for-teens-course` | Teens |
 | Computer Science Class 11-12: CBSE Python & ICSE/ISC Java | `/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course` | Teens |
+| Copilot Studio Agent Masterclass for Professionals | `/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals` | College |
 | Creative Coding & Animation: Content Creator Course | `/courses/creative-coding-animation-mastery` | Kids |
 | Creative Media & Design for Teens: Photo, Video & Editing | `/courses/creative-media-design-masterclass-teens` | Teens |
 | Cybersecurity for Teens: Online Safety & White-Hat Defense | `/courses/cybersecurity-course-for-teens-ethical-defensive` | Teens |
@@ -1144,7 +1147,7 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 
 ---
 
-## APPENDIX B: COMPLETE SITE URL INDEX (820 live URLs)
+## APPENDIX B: COMPLETE SITE URL INDEX (830 live URLs)
 
 Every URL below is present in a sitemap **and** resolves through the routing table. Redirect-only URLs are excluded. The site-wide link check passed with 0 broken internal links across 53,903 link instances on 4 August 2026. Prefix any path with `https://learn.modernagecoders.com`.
 
@@ -1189,7 +1192,7 @@ Every URL below is present in a sitemap **and** resolves through the routing tab
 | `/success-stories` | Success Stories |
 | `/terms` | Terms of Service |
 
-### B.2 Course detail pages (115)
+### B.2 Course detail pages (118)
 
 Listed with titles in Appendix A.
 
@@ -1197,6 +1200,9 @@ Listed with titles in Appendix A.
 /courses/11-plus-maths-preparation-course-uk
 /courses/a-level-maths-course-pure-mechanics-statistics
 /courses/abacus-mental-maths-course-for-kids
+/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students
+/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens
+/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals
 /courses/ai-literacy-for-kids-course
 /courses/ai-ml-masterclass-complete-college
 /courses/ai-ml-masterclass-teens
@@ -1909,7 +1915,7 @@ Listed with titles in Appendix C.
 | `/summer-math-program-online` | Online Summer Math Program 2026 |
 | `/ukmt-maths-challenge-tutoring` | UKMT Maths Challenge Tutoring · 1:1 Junior, Intermediate & Senior Challenge |
 
-### B.14 AI and machine learning pages (29)
+### B.14 AI and machine learning pages (30)
 
 | URL path | Page title |
 |---|---|
@@ -1929,6 +1935,7 @@ Listed with titles in Appendix C.
 | `/ai-ml-course-for-college-students` | AI & ML Course for College Students |
 | `/ai-ml-course-for-teens` | AI & ML Course for Kids & Teens - Learn Artificial Intelligence |
 | `/ai-ml-projects-for-students` | AI & ML Projects for Students |
+| `/ai-projects-for-high-school-students` | AI Projects for High School Students |
 | `/artificial-intelligence-course` | Artificial Intelligence Course |
 | `/best-ai-and-machine-learning-course-in-india` | Best AI & Machine Learning Course in India |
 | `/build-machine-learning-models-in-python` | Build Machine Learning Models in Python |
@@ -1943,7 +1950,7 @@ Listed with titles in Appendix C.
 | `/online-ai-and-machine-learning-classes` | Online AI & Machine Learning Classes |
 | `/python-for-machine-learning` | Python for Machine Learning |
 
-### B.15 Programming language and topic pages (95)
+### B.15 Programming language and topic pages (101)
 
 | URL path | Page title |
 |---|---|
@@ -1977,6 +1984,7 @@ Listed with titles in Appendix C.
 | `/computer-science-class-11-icse` | Computer Science Class 11 ICSE - Java OOP, Boolean Algebra & ISC Full Syllabus |
 | `/computer-science-class-12-cbse` | Computer Science Class 12 CBSE - Python Data Structures, SQL & Full Board Tuition |
 | `/computer-science-class-12-icse` | Computer Science Class 12 ICSE - ISC Java Data Structures, Recursion & Board Prep |
+| `/computer-science-extracurriculars` | Computer Science Extracurriculars, Ranked by What Actually Counts |
 | `/cpa-cpp-certification-prep` | CPA C++ Certification (CPA-21-02) - Full Exam Guide, Syllabus & Live Coaching |
 | `/data-analytics-course` | Data Analytics Course |
 | `/data-science-course` | Data Science Course |
@@ -1984,9 +1992,11 @@ Listed with titles in Appendix C.
 | `/gazette` | The Modern Age Coders Gazette |
 | `/hackathon` | Modern Age Coders Hackathon 1.0 (June 2026) - ₹30,000 Prize Pool |
 | `/hackathon-guide` | Hackathon 1.0 Guide (June 2026) - How It Worked, 3 Rounds, Rules & What to Build |
+| `/hackathons-for-high-school-students` | Hackathons for High School Students |
 | `/homeschool-coding-curriculum` | Homeschool Coding Curriculum |
 | `/how-ai-actually-works` | How AI Actually Works - A First-Principles Guide to LLMs, Tokens, Embeddings and Transf... |
 | `/how-large-language-models-work` | How Large Language Models Work - Understand Tokens, Embeddings & Attention |
+| `/how-to-build-a-coding-portfolio` | How To Build a Coding Portfolio That Holds Up Under Questioning |
 | `/how-to-build-ai-models` | How to Build AI Models |
 | `/inside-neural-networks` | Inside Neural Networks - How Deep Learning Really Works, From Perceptron to Transformer |
 | `/java-certification-course` | Java Certification Course |
@@ -2021,6 +2031,7 @@ Listed with titles in Appendix C.
 | `/online-coding-classes-for-kids-uk` | Online Coding Classes for Kids in the UK |
 | `/online-coding-classes-for-kids-usa` | Online Coding Classes for Kids in the USA |
 | `/online-java-classes` | Online Java Classes |
+| `/passion-project-ideas-computer-science` | Passion Project Ideas for Computer Science Students |
 | `/pcep-python-certification-prep` | PCEP Certification Preparation - Python Entry-Level Exam Guide & Live Coaching |
 | `/prompt-engineering-course` | Prompt Engineering Course |
 | `/python-and-ai-classes-for-kids-teens` | Python for Kids & Teens |
@@ -2035,10 +2046,12 @@ Listed with titles in Appendix C.
 | `/real-coding-classes` | Real Coding Classes - Learn How Code Actually Works, How to Think Like a Programmer & B... |
 | `/results` | Our Results |
 | `/roblox-coding-classes-for-kids` | Roblox Coding Classes for Kids |
+| `/science-fair-project-ideas-ai` | AI Science Fair Project Ideas That Follow the Actual Rules |
 | `/scratch-coding-classes-for-kids` | Scratch Coding Classes for Kids |
 | `/screen-time-to-skill` | Screen Time to Skill Calculator - Turn Your Child's YouTube Hours into Apps, Code & Income |
 | `/software-maintenance-and-support` | Bug Fixing, QA & Software Maintenance Services |
 | `/software-scaling-and-modernization` | Software Scaling & Modernization Services |
+| `/summer-research-programs-coding` | Summer Research Programs in Coding and AI |
 | `/team` | Our Team |
 | `/vibe-coding-classes` | Vibe Coding Classes for Kids, Teens & College |
 | `/web-application-development-services` | Web Application Development Company |
@@ -2277,15 +2290,15 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
     "one_to_one": 1,
     "custom_group": "3-10"
   },
-  "courses_live": 115,
+  "courses_live": 118,
   "blog_posts": 116,
-  "live_urls": 820,
+  "live_urls": 830,
   "pricing": {
     "coding": {
       "india": {
         "group": 1499,
         "miniBatch": 2999,
-        "personal": 7500
+        "personal": 4999
       },
       "international": {
         "group": 100,
@@ -2297,7 +2310,7 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
       "india": {
         "group": 1499,
         "miniBatch": 2999,
-        "personal": 8500
+        "personal": 4999
       },
       "international": {
         "group": 100,
@@ -2309,7 +2322,7 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
       "india": {
         "group": 1499,
         "miniBatch": 2999,
-        "personal": 9999
+        "personal": 4999
       },
       "international": {
         "group": 100,
@@ -2338,20 +2351,18 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
       }
     }
   },
-  "pricing_ambiguous_figures": {
-    "9999": [
-      "agents.india.personal (per month)",
-      "camps.india.oneTime (one time)"
-    ]
-  },
+  "pricing_ambiguous_figures": {},
   "pricing_currencies": {
     "india": "INR",
     "international": "USD"
   },
-  "pricing_updated": "2026-08-03",
+  "pricing_updated": "2026-08-10",
   "premium_course_overrides": {
     "codex-and-claude-code-ai-coding-agents-course-for-teens": "agents",
-    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": "agents"
+    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": "agents",
+    "ai-agents-with-microsoft-copilot-studio-course-for-teens": "agents",
+    "ai-agents-with-microsoft-copilot-studio-course-for-college-students": "agents",
+    "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals": "agents"
   },
   "retired_never_quote": [
     "Rs 2499",
@@ -2759,6 +2770,88 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Career Launch & AI/ML Professional
 
 **Projects students build:** Vector operations visualizer; Matrix calculator implementation; Linear equation solver; Geometric transformations with matrices; PCA implementation from scratch; Image compression using SVD; Gradient descent visualizer; Function optimizer using calculus; Probability calculator; Distribution visualizer; Bayes theorem applications; Monte Carlo simulations; Statistical analysis tool; Hypothesis testing framework; A/B testing simulator - plus 296 more on the course page.
+
+### AI Agents with Microsoft Copilot Studio for College Students
+
+`/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students` · 24 classes (12 weeks · 2 classes/week) · Intermediate (college students and early-career, ages 18+; no prior agent experience needed)
+
+  - Phase 1: Agent Foundations
+    Understand agents in business terms, tour Microsoft Copilot Studio properly, write instructions that actually steer behaviour, test like a professional, and meet the models and harnesses underneath every agent.
+    - Class 1: Agents as a Business Skill, Not a Toy
+    - Class 2: Your First Agent, Built Properly
+    - Class 3: Instructions at Business Depth
+    - Class 4: Testing Like Someone Whose Name Is on It
+    - Class 5: Models, Harnesses and What You Are Actually Running On
+  - Phase 2: Knowledge & Grounding at Business Depth
+    Ground agents in the knowledge sources enterprises actually use: SharePoint, documents, Dataverse and connector-indexed enterprise data, with citations, conflict handling and accuracy audits you publish.
+    - Class 6: Grounding vs Guessing, the Business Version
+    - Class 7: SharePoint and Documents Done Right
+    - Class 8: Dataverse, Enterprise Data and Source Conflicts
+    - Class 9: Accuracy Audits, Bias and the Trust Contract
+  - Phase 3: Conversation & Orchestration
+    Design conversations that hold up under real users: topics and trigger phrases, entities and variables, condition groups, adaptive cards, and a deliberate choice between generative and classic orchestration.
+    - Class 10: Topics and Trigger Phrases
+    - Class 11: Entities, Variables and Slot Filling
+    - Class 12: Condition Groups and Branch Design
+    - Class 13: Adaptive Cards and Business-Grade Responses
+    - Class 14: Generative Orchestration vs Classic, Chosen Deliberately
+  - Phase 4: Tools, Automation & Multi-Agent
+    The employability core: connectors and Prompt tools, deterministic agent flows, REST and custom connectors, Model Context Protocol, autonomous event triggers with real security discipline, multi-agent design with A2A, and analytics with agent evaluations.
+    - Class 15: The Tool Menu and Connector Library
+    - Class 16: Agent Flows: Automation That Runs the Same Every Time
+    - Class 17: REST APIs, Custom Connectors and Governance
+    - Class 18: Model Context Protocol and Computer Use
+    - Class 19: Autonomous Agents: Event Triggers and the Security They Demand
+    - Class 20: Multi-Agent Design, Analytics and Evaluations
+  - Phase 5: Publish, Credentials & Capstone
+    Publish to the channels businesses use, pass a professional pre-flight checklist, then build and defend a business-grade capstone agent, leaving with a mapped Microsoft credential roadmap.
+    - Class 21: Channels and the Agent Store
+    - Class 22: The Pre-Flight Checklist: Security, Cost and Honesty
+    - Class 23: Capstone Build Week
+    - Class 24: Demo Day and the Credential Roadmap
+
+**Projects students build:** Agent teardown, business edition: analyse one real customer-facing agent (bank, airline, university helpdesk), reverse-engineer its probable instructions, knowledge and tools, and write a one-page teardown; Build 'Placement FAQ v1': an agent with hand-written instructions that answers questions about one real company's hiring process in a tone you designed; The Refusal Gauntlet, corporate edition: 10 questions your Placement FAQ agent must refuse or redirect (offer-letter legal advice, personal data, salary speculation), tuned until all 10 are handled gracefully; Build the permanent 15-question test set for Placement FAQ, run it twice in one week, and file the two most instructive failures with root causes; Model comparison memo: run your full Placement FAQ test set on two available models and write a one-page recommendation with evidence; Ground Placement FAQ in the target company's public website and prove five answers now carry citations a recruiter could check; Build 'Society Desk': an agent for a real college society grounded in a clean 3-document knowledge pack you author, with a 10-question proof test; Build a two-source Internship Tracker knowledge base (structured table plus policy document) and document exactly how the agent behaves when they conflict; Publish an accuracy audit of Society Desk: 20 scored answers with cited source paragraphs, an accuracy figure, and the three fixes it demanded; Build 'Fest Helpdesk' with three designed topics for a real event: schedule lookup, registration help and venue directions; Upgrade Internship Tracker: an add-application topic that collects company, role, deadline and status through entities, confirming with a variable-built summary; Rebuild Fest Helpdesk registration as a condition-driven flow: student vs guest vs volunteer paths, each with its own confirmation and an escalation branch; Give Internship Tracker a card-based pipeline view: each application a card with company, role, deadline and a status-update action; Migrate Fest Helpdesk to generative orchestration, rerun the full test set, and file a keep-or-fix verdict on every behaviour change; Add a 'JD decoder' Prompt tool to Placement FAQ: paste any job description, get requirements, keywords and preparation gaps in a fixed format - plus 9 more on the course page.
+
+### AI Agents with Microsoft Copilot Studio for Teens
+
+`/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens` · 24 classes (12 weeks · 2 classes/week) · Beginner (ages 13-18; no coding experience needed)
+
+  - Phase 1: Your First Agents
+    Understand what an AI agent actually is, tour Microsoft Copilot Studio, build your first agent from a plain-English description, and learn how instructions and testing really work.
+    - Class 1: What an AI Agent Really Is (and What It Is Not)
+    - Class 2: Your First Agent in One Hour
+    - Class 3: Instructions That Actually Steer Behaviour
+    - Class 4: Testing Like a Professional
+    - Class 5: How the Platform Thinks: Environments, Models and Harnesses
+  - Phase 2: Knowledge & Grounding
+    Give your agent real knowledge: websites, documents and SharePoint sources, citations users can check, and the discipline of grounding answers instead of guessing.
+    - Class 6: Grounding vs Guessing
+    - Class 7: Document Knowledge Done Right
+    - Class 8: Multi-Source Knowledge and Conflicts
+    - Class 9: Honest Agents: Accuracy, Bias and Boundaries
+  - Phase 3: Conversation Design
+    Design conversations deliberately: topics and trigger phrases, questions and variables, condition logic, adaptive cards, and the two orchestration modes that decide how your agent thinks.
+    - Class 10: Topics and Trigger Phrases
+    - Class 11: Questions, Entities and Variables
+    - Class 12: Condition Logic and Branching
+    - Class 13: Adaptive Cards and Rich Responses
+    - Class 14: Generative Orchestration vs Classic
+  - Phase 4: Tools & Autonomy
+    Make your agent act: connectors and Prompt tools, agent flows for multi-step work, a first look at Model Context Protocol, then event triggers and a fully autonomous agent with analytics to prove it works.
+    - Class 15: Tools: Giving Your Agent Hands
+    - Class 16: Agent Flows: Multi-Step Work That Always Runs the Same
+    - Class 17: Connecting to the Real World: Connectors, REST and MCP
+    - Class 18: Event Triggers: Agents That Wake Up by Themselves
+    - Class 19: Your Autonomous Agent, Hardened
+    - Class 20: Analytics: Proving Your Agent Works
+  - Phase 5: Publish & Capstone
+    Publish agents to real channels, pass a safety and quality checklist, then design, build, test and present a capstone agent that does a real job for real people.
+    - Class 21: Channels: Where Agents Live
+    - Class 22: The Pre-Flight Checklist: Safety, Quality, Honesty
+    - Class 23: Capstone Build Week
+    - Class 24: Demo Day and What Comes Next
+
+**Projects students build:** Agent safari: analyse two real agents you have used (a support bot, a game helper), map what their instructions and knowledge must look like, and write a one-page teardown; Build 'Study Buddy v1': an agent with instructions for your real timetable and subjects that answers revision questions in a tone you designed; The Refusal Gauntlet: write 10 questions your Study Buddy must refuse or redirect, then tune instructions until all 10 are handled gracefully; Build your permanent 15-question test set for Study Buddy, with expected behaviour written down before you run it; Draw the journey of one question through your agent: user, harness, instructions, model, answer, and label the parts you control; Ground Study Buddy in one real source (your school's public website or a subject site) and prove three answers now cite it; Create a clean 3-document knowledge pack from your own class notes and ground a Revision Coach agent in it, with a 10-question proof test; Build 'Club Desk': an agent for a real club or activity grounded in two sources, with documented behaviour when sources conflict; Accuracy audit: score 20 answers from Revision Coach against the actual source paragraphs and publish your agent's accuracy number with examples; Build a 'Homework Planner' agent with three hand-designed topics: add a task, list this week, and what should I do first; Upgrade Homework Planner: the add-a-task topic now collects subject, due date and effort through entities and confirms with a summary using variables; Build 'Event Helper' for a real school or family event: RSVP path, question path, and organiser-escalation path, all condition-driven; Give Homework Planner a card-based weekly view: each task a card with subject, due date and a 'mark done' action; Switch Event Helper to generative orchestration, rerun your full test set, and document every behaviour change with a keep-or-fix verdict; Add a 'flashcard maker' Prompt tool to Revision Coach: paste messy notes, get clean question-answer pairs, every time - plus 9 more on the course page.
 
 ### AI Literacy for Kids (Ages 8 to 14): Understand AI, Do Not Just Use It
 
@@ -4582,6 +4675,47 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Final Revision & Last-Minute Board Exam Tips
 
 **Projects students build:** Create an illustrated computer system diagram with all components labeled; Memory hierarchy comparison chart with speed, cost, and capacity; Research report: Evolution of processors from Intel 4004 to latest chips; Software classification mind map with 20+ real-world examples; OS comparison: Windows vs Linux vs macOS, features and use cases; Install and explore Linux (Ubuntu) in a virtual machine; Number system converter calculator (manual worksheet with 50 conversions); Color code converter: RGB decimal to hexadecimal; Binary arithmetic drill, 30 addition and subtraction problems; Truth table generator for any 2-3 variable Boolean expression; Gate diagram drawing practice, 10 circuits; Encoding explorer: Convert your name to ASCII, Unicode values; Personal bio generator, takes name, age, hobby as input and formats output; Simple calculator, add, subtract, multiply, divide two numbers; Temperature converter, Celsius to Fahrenheit and vice versa - plus 130 more on the course page.
+
+### Copilot Studio Agent Masterclass for Professionals
+
+`/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals` · 24 classes (12 weeks · 2 classes/week) · Intermediate to advanced (working professionals; no prior agent experience assumed, business software fluency expected)
+
+  - Phase 1: Platform & Foundations
+    Map the 2026 agent landscape, learn the anatomy of a Copilot Studio agent, build instruction and testing discipline, and make the model and harness decisions that shape cost and capability.
+    - Class 1: The 2026 Agent Landscape and Where Copilot Studio Sits
+    - Class 2: Agent Anatomy and Instruction Discipline
+    - Class 3: Testing Like It Is Already in Production
+    - Class 4: Models and Harnesses: The Decisions Underneath Everything
+  - Phase 2: Enterprise Knowledge
+    Ground agents in enterprise sources at scale: SharePoint, Dataverse, documents and connector-indexed data, tenant graph grounding, curation strategy, and accuracy audits an auditor would accept.
+    - Class 5: Grounding Strategy: The Knowledge Source Estate
+    - Class 6: SharePoint and Documents Done Right
+    - Class 7: Dataverse, Connector-Indexed Data and Tenant Graph Grounding
+    - Class 8: Accuracy Audits and Honest Agents
+  - Phase 3: Orchestration & Tools
+    Design conversations for critical paths, choose orchestration modes deliberately, then master the full tool surface: Prompt tools, agent flows, connectors, custom connectors and REST, Model Context Protocol under DLP, computer use with guardrails, and deep reasoning.
+    - Class 9: Topics for Critical Paths
+    - Class 10: Generative Orchestration, Deliberately
+    - Class 11: Prompt Tools and Agent Flows
+    - Class 12: The Connector Estate: Standard, Premium, On-Premises, Custom, REST
+    - Class 13: Model Context Protocol Under Enterprise Governance
+    - Class 14: Computer Use and Deep Reasoning: The Power Tools
+  - Phase 4: Autonomy, Multi-Agent & Quality
+    Ship agents that act on their own and prove they work: event triggers under the maker-credentials rule, hardening, multi-agent architectures with A2A, agent evaluations, analytics, and full cost management in Copilot Credits.
+    - Class 15: Event Triggers and Autonomous Agents
+    - Class 16: Hardening Autonomy: Approval Pauses and Failure Design
+    - Class 17: Multi-Agent Architecture and the A2A Protocol
+    - Class 18: Agent Evaluations: Quality You Can Prove
+    - Class 19: Analytics: Outcomes, CSAT and the Cost Savings Metric
+    - Class 20: Cost Management: Copilot Credits Without Surprises
+  - Phase 5: Governance, Rollout & Capstone
+    Master the governance layer that makes agents deployable: Entra Agent ID, Conditional Access, DLP, Microsoft Agent 365 and the Agent Store, then ship a production capstone with the governance and ROI pack to defend it.
+    - Class 21: Identity and Policy: Entra Agent ID, Conditional Access, DLP
+    - Class 22: The Agent Estate: Microsoft Agent 365, the Agent Store, and Rollout
+    - Class 23: Capstone Build Week
+    - Class 24: Capstone Defence and the Credential Road
+
+**Projects students build:** Write the one-page 'agent opportunity memo' for your organisation: three candidate processes, the data each would need, the risks each carries, and which one becomes your capstone; Build 'Policy Desk v1': an internal FAQ agent for one real policy area of your workplace, with a complete instruction stack and five tested refusals; Build the permanent 25-question test set for Policy Desk, including five adversarial probes, with expected behaviour written before the first run; Run your Policy Desk test set against two GA models (one OpenAI, one Anthropic), score the differences, and write the one-paragraph model decision with evidence attached; Ground Policy Desk in a real SharePoint site (or a mirrored practice copy) and prove ten answers cite the correct policy paragraph; Rebuild one messy real document into a retrieval-optimised version, ground both versions side by side, and publish the before-and-after accuracy comparison; Add a second source type to Policy Desk (Dataverse table or connector-indexed source), then document the arbitration behaviour with five conflict questions; Run the full 25-answer accuracy audit on Policy Desk and publish the result as a one-page report with examples, methodology and a remediation list; Build 'Support Triage v1': a customer-facing agent with three designed topics (report an issue, check status, escalate to human), entities capturing the details, and an adaptive card summary; Migrate Support Triage to generative orchestration, rerun the full test set, and publish the behaviour-change log with a keep-or-fix verdict per change; Build 'Expense Helper': conversation collects an expense claim, an agent flow validates it, routes it for approval, and returns the outcome, with tested error paths for every step; Wire one real connector tool and one REST or custom connector tool into a practice agent, and demonstrate a conversation that reads and writes live data through both; Add an MCP server to a practice agent, disable every tool you do not need, and document the resulting capability surface as a one-page security note; Build a governed computer-use demo: one legacy-UI task automated with allow-lists, HTTPS enforcement and human supervision configured, plus a per-run credit cost estimate; Build 'Weekly Reporter': an autonomous agent on a Recurrence trigger that compiles a weekly status summary from real sources and posts it for review, never directly to stakeholders - plus 9 more on the course page.
 
 ### Creative Coding & Animation: Content Creator Course
 
