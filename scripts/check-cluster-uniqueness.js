@@ -168,13 +168,15 @@ const SHARED_SUFFIXES = [
   'band-head', 'chip', 'slot-time'
 ];
 
+// Also strips cg-pick, the course strip under the hero: same catalogue, same
+// thumbnails, same blurbs on every market page by design.
 // Spoke pages carry the SAME course cards as the hub they spoke from, by design:
 // the catalogue does not change per market. Leaving them in would flood the
 // signal with catalogue text and mask real body-prose duplication, which is the
 // exact thing this script exists to catch. Original prose all still counts: the
 // h1, hero lede, answer capsule, every body paragraph, the local project brief
 // and every FAQ answer.
-const SPOKE_EXTRA_SUFFIXES = ['course-card'];
+const SPOKE_EXTRA_SUFFIXES = ['course-card', 'pick', 'picks-more'];
 
 const SHARED_COMPONENTS = [
   ...SHARED_SUFFIXES.map(s => ACTIVE.prefix + '-' + s),

@@ -32,7 +32,7 @@
   --cg-muted:    #6B6259;
   --cg-rule:     #DDD5C6;
   --cg-rule-2:   #C9BFAC;
-  --cg-amber:    #B45309;
+  --cg-amber:    #A34A08;
   --cg-amber-2:  #D97706;
 
   --cg-accent:      #2E5A88;
@@ -51,7 +51,7 @@
    these as arbitrary and reshuffle them.
    -------------------------------------------------------------------------- */
 .cg-root.cg-nj  { --cg-accent: #2E5A88; --cg-accent-soft: rgba(46,90,136,.09); }   /* Jersey blue, state flag */
-.cg-root.cg-ca  { --cg-accent: #B4531A; --cg-accent-soft: rgba(180,83,26,.09); }   /* California poppy */
+.cg-root.cg-ca  { --cg-accent: #A34A17; --cg-accent-soft: rgba(163,74,23,.10); }   /* California poppy */
 .cg-root.cg-tx  { --cg-accent: #9B2335; --cg-accent-soft: rgba(155,35,53,.09); }   /* Texas flag red */
 .cg-root.cg-ny  { --cg-accent: #2F6B5E; --cg-accent-soft: rgba(47,107,94,.09); }   /* Hudson green */
 .cg-root.cg-il  { --cg-accent: #4C5B8A; --cg-accent-soft: rgba(76,91,138,.09); }   /* Illinois flag blue */
@@ -66,10 +66,10 @@
 .cg-root.cg-bhm { --cg-accent: #1A5AA8; --cg-accent-soft: rgba(26,90,168,.09); }   /* Birmingham blue */
 .cg-root.cg-om  { --cg-accent: #A5202C; --cg-accent-soft: rgba(165,32,44,.09); }   /* Omani red */
 .cg-root.cg-mct { --cg-accent: #7A2E3B; --cg-accent-soft: rgba(122,46,59,.09); }   /* Muscat */
-.cg-root.cg-kw  { --cg-accent: #1E7A47; --cg-accent-soft: rgba(30,122,71,.09); }   /* Kuwait flag green */
+.cg-root.cg-kw  { --cg-accent: #1D7544; --cg-accent-soft: rgba(29,117,68,.10); }   /* Kuwait flag green */
 .cg-root.cg-bh  { --cg-accent: #B02A30; --cg-accent-soft: rgba(176,42,48,.09); }   /* Bahrain flag red */
 .cg-root.cg-hk  { --cg-accent: #BA2026; --cg-accent-soft: rgba(186,32,38,.09); }   /* Hong Kong red */
-.cg-root.cg-nl  { --cg-accent: #C1571B; --cg-accent-soft: rgba(193,87,27,.09); }   /* Dutch orange */
+.cg-root.cg-nl  { --cg-accent: #A64B17; --cg-accent-soft: rgba(166,75,23,.10); }   /* Dutch orange */
 
 /* --------------------------------------------------------------------------
    Base
@@ -140,9 +140,9 @@
 /* Eyebrow. Mono because these label real things (standards, codes, regions). */
 .cg-eyebrow {
   font-family: var(--cg-mono);
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 600;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--cg-accent);
   margin: 0 0 0.9rem;
@@ -155,9 +155,12 @@
    Nav
    -------------------------------------------------------------------------- */
 .cg-nav {
-  border-bottom: 1px solid var(--cg-rule);
+  border-bottom: 1px solid var(--cg-rule-2);
   background: var(--cg-paper);
   position: sticky; top: 0; z-index: 40;
+  /* Without a cast shadow the paper-coloured bar reads as a mismatched band
+     when it sits over a tinted section rather than as a bar floating above it. */
+  box-shadow: 0 6px 18px -14px rgba(28, 24, 20, 0.55);
 }
 .cg-nav-inner {
   display: flex; align-items: center; justify-content: space-between;
@@ -178,21 +181,40 @@
 /* On a phone the section links are noise, but dropping the whole nav would
    leave a lead-gen page with no call to action above the fold. Keep the one
    link that matters. */
-.cg-nav-cta { font-weight: 600; color: var(--cg-accent); }
+/* The primary action on the page. It was rendering as plain bold text among the
+   section links, which made the one thing we want a visitor to click the least
+   distinguishable item in the bar. Give it a button at every width. */
+/* Specificity note: .cg-nav-links a is (0,1,1) and beats a bare .cg-nav-cta
+   (0,1,0), which silently kept the link colour and produced dark text on the
+   dark accent fill. Match the parent selector so the button colour actually
+   lands. */
+.cg-nav-links a.cg-nav-cta {
+  font-weight: 600;
+  color: #fff; background: var(--cg-accent);
+  border: 1px solid var(--cg-accent); border-radius: 2px;
+  min-height: 38px; padding: 0 0.95rem;
+  display: inline-flex; align-items: center;
+  transition: opacity 0.15s ease;
+}
+.cg-nav-links a.cg-nav-cta:hover { color: #fff; opacity: 0.9; border-bottom-color: var(--cg-accent); }
 @media (max-width: 720px) {
   .cg-nav-links a:not(.cg-nav-cta) { display: none; }
-  .cg-nav-cta {
-    border: 1px solid var(--cg-accent); border-radius: 2px;
-    padding: 0.35rem 0.75rem;
-  }
-  .cg-nav-cta:hover { border-bottom-color: var(--cg-accent); }
+  /* 44px minimum on a phone: this is the primary call to action. */
+  .cg-nav-links a.cg-nav-cta { min-height: 44px; padding: 0 0.9rem; }
+  /* At the narrowest widths the brand and the CTA crowd each other. */
+  .cg-nav-brand { font-size: 1rem; }
+  .cg-nav-inner { gap: 0.75rem; }
 }
 
 /* --------------------------------------------------------------------------
    Buttons
    -------------------------------------------------------------------------- */
 .cg-btn-row { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1.6rem 0 0; }
-.cg-btn {
+/* .cg-root a is (0,1,1) and beats a bare .cg-btn (0,1,0). Without matching that
+   specificity the button inherited the accent as its TEXT colour on an accent
+   background: a solid block with invisible words on it. Measured at 1.00
+   contrast. Every primary call to action was affected. */
+.cg-root .cg-btn {
   display: inline-flex; align-items: center; gap: 0.5rem;
   padding: 0.78rem 1.4rem;
   background: var(--cg-accent); color: #fff;
@@ -201,9 +223,9 @@
   border-radius: 2px; cursor: pointer;
   transition: transform 0.15s ease, opacity 0.15s ease;
 }
-.cg-btn:hover { opacity: 0.92; transform: translateY(-1px); }
-.cg-btn--ghost { background: transparent; color: var(--cg-ink); border-color: var(--cg-rule-2); }
-.cg-btn--ghost:hover { border-color: var(--cg-accent); color: var(--cg-accent); }
+.cg-root .cg-btn:hover { color: #fff; opacity: 0.92; transform: translateY(-1px); }
+.cg-root .cg-btn--ghost { background: transparent; color: var(--cg-ink); border-color: var(--cg-rule-2); }
+.cg-root .cg-btn--ghost:hover { border-color: var(--cg-accent); color: var(--cg-accent); }
 
 /* --------------------------------------------------------------------------
    Hero
@@ -227,7 +249,7 @@
 }
 .cg-capsule-q {
   font-family: var(--cg-mono);
-  font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em;
+  font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--cg-accent);
   margin: 0 0 0.5rem;
 }
@@ -241,7 +263,7 @@
 }
 .cg-fact { background: var(--cg-paper); padding: 0.95rem 1rem; }
 .cg-fact-k { font-family: var(--cg-serif); font-size: 1.32rem; font-weight: 600; display: block; }
-.cg-fact-l { font-size: 0.74rem; color: var(--cg-muted); letter-spacing: 0.03em; }
+.cg-fact-l { font-size: 0.78rem; color: var(--cg-muted); letter-spacing: 0.03em; }
 
 /* --------------------------------------------------------------------------
    SIGNATURE: the alignment column
@@ -264,7 +286,7 @@
 .cg-align-req { position: relative; }
 .cg-align-code {
   font-family: var(--cg-mono);
-  font-size: 0.7rem; font-weight: 600; letter-spacing: 0.08em;
+  font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em;
   color: var(--cg-accent); text-transform: uppercase;
   display: block; margin-bottom: 0.35rem;
 }
@@ -286,10 +308,13 @@
 .cg-course-card h3 { margin: 0; font-size: 1.05rem; }
 .cg-course-card p { margin: 0; font-size: 0.88rem; color: var(--cg-muted); }
 .cg-course-code {
-  font-family: var(--cg-mono); font-size: 0.66rem; letter-spacing: 0.1em;
+  font-family: var(--cg-mono); font-size: 0.75rem; letter-spacing: 0.09em;
   text-transform: uppercase; color: var(--cg-accent);
 }
-.cg-course-link { margin-top: auto; padding-top: 0.6rem; font-size: 0.86rem; font-weight: 600; text-decoration: none; }
+.cg-course-link {
+  margin-top: auto; font-size: 0.9rem; font-weight: 600; text-decoration: none;
+  min-height: 44px; display: inline-flex; align-items: center; /* finger-sized */
+}
 .cg-course-link:hover { text-decoration: underline; }
 
 /* Age ladder */
@@ -304,7 +329,7 @@
    -------------------------------------------------------------------------- */
 .cg-proj { border: 1px solid var(--cg-rule-2); background: var(--cg-paper); padding: clamp(1.4rem, 3.5vw, 2.25rem); }
 .cg-proj-meta {
-  font-family: var(--cg-mono); font-size: 0.7rem; letter-spacing: 0.09em;
+  font-family: var(--cg-mono); font-size: 0.75rem; letter-spacing: 0.09em;
   text-transform: uppercase; color: var(--cg-muted);
   display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem;
   padding-bottom: 0.9rem; margin-bottom: 1.25rem; border-bottom: 1px solid var(--cg-rule);
@@ -315,21 +340,21 @@
 .cg-table-wrap { overflow-x: auto; margin: 1.5rem 0; border: 1px solid var(--cg-rule); }
 .cg-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; min-width: 440px; }
 .cg-table th, .cg-table td { text-align: left; padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--cg-rule); }
-.cg-table th { font-family: var(--cg-mono); font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--cg-muted); background: var(--cg-paper-2); }
+.cg-table th { font-family: var(--cg-mono); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--cg-muted); background: var(--cg-paper-2); }
 .cg-table tr:last-child td { border-bottom: 0; }
 
 .cg-spec { border-left: 3px solid var(--cg-rule-2); padding-left: 1.2rem; margin: 1.5rem 0; }
-.cg-spec-title { font-family: var(--cg-mono); font-size: 0.7rem; letter-spacing: 0.09em; text-transform: uppercase; color: var(--cg-muted); margin-bottom: 0.4rem; }
+.cg-spec-title { font-family: var(--cg-mono); font-size: 0.75rem; letter-spacing: 0.09em; text-transform: uppercase; color: var(--cg-muted); margin-bottom: 0.4rem; }
 
 .cg-chip {
-  display: inline-block; font-family: var(--cg-mono); font-size: 0.68rem;
+  display: inline-block; font-family: var(--cg-mono); font-size: 0.75rem;
   letter-spacing: 0.06em; text-transform: uppercase;
   border: 1px solid var(--cg-rule-2); border-radius: 2px;
   padding: 0.22rem 0.55rem; margin: 0 0.35rem 0.35rem 0; color: var(--cg-ink-2);
 }
 
-.cg-band-head { font-family: var(--cg-mono); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--cg-muted); margin-bottom: 0.6rem; }
-.cg-slot-time { font-family: var(--cg-mono); font-size: 0.85rem; color: var(--cg-ink-2); }
+.cg-band-head { font-family: var(--cg-mono); font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--cg-muted); margin-bottom: 0.6rem; }
+.cg-slot-time { font-family: var(--cg-mono); font-size: 0.88rem; color: var(--cg-ink-2); }
 
 /* --------------------------------------------------------------------------
    Pricing. USD only in this cluster.
@@ -337,7 +362,7 @@
 .cg-price { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1px; background: var(--cg-rule); border: 1px solid var(--cg-rule); }
 .cg-price > div { background: var(--cg-paper); padding: 1.4rem 1.3rem; }
 .cg-price--feature { box-shadow: inset 0 3px 0 var(--cg-accent); }
-.cg-price-name { font-family: var(--cg-mono); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--cg-muted); }
+.cg-price-name { font-family: var(--cg-mono); font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--cg-muted); }
 .cg-price-amt { font-family: var(--cg-serif); font-size: 2.1rem; font-weight: 600; display: block; margin: 0.35rem 0 0.15rem; }
 .cg-price-alt { font-size: 0.84rem; color: var(--cg-muted); }
 
@@ -373,15 +398,16 @@
 .cg-field textarea { min-height: 90px; resize: vertical; }
 .cg-field .cg-err { color: #9B2335; font-size: 0.78rem; margin-top: 0.25rem; display: block; min-height: 1em; }
 .cg-form-note { font-size: 0.78rem; color: var(--cg-muted); margin-top: 0.85rem; }
-.cg-form-ok { color: #1E7A47; font-weight: 600; font-size: 0.9rem; margin-top: 0.8rem; }
+.cg-form-ok { color: #1D7544; font-weight: 600; font-size: 0.9rem; margin-top: 0.8rem; }
 
 /* --------------------------------------------------------------------------
    Sibling markets
    -------------------------------------------------------------------------- */
 .cg-markets { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .cg-market {
-  font-size: 0.85rem; text-decoration: none; color: var(--cg-ink-2);
-  border: 1px solid var(--cg-rule-2); border-radius: 2px; padding: 0.35rem 0.7rem;
+  font-size: 0.88rem; text-decoration: none; color: var(--cg-ink-2);
+  border: 1px solid var(--cg-rule-2); border-radius: 2px; padding: 0 0.85rem;
+  min-height: 44px; display: inline-flex; align-items: center; /* finger-sized */
 }
 .cg-market:hover { border-color: var(--cg-accent); color: var(--cg-accent); }
 
@@ -406,3 +432,60 @@
   }
   .cg-btn:hover { transform: none; }
 }
+
+
+/* --------------------------------------------------------------------------
+   Course picks. Sits immediately below the hero on every page in this cluster.
+   A visitor should see the actual product, with pictures, before they are asked
+   to read a paragraph about state curriculum policy. Cards carry the real
+   course thumbnails from /images, the same artwork used on the course atlas.
+
+   Named cg-pick so check-cluster-uniqueness.js can strip it: the catalogue is
+   identical across markets by design and must not count as duplicated prose.
+   -------------------------------------------------------------------------- */
+.cg-picks {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(228px, 1fr));
+  gap: clamp(1rem, 2vw, 1.5rem);
+}
+.cg-root .cg-pick {
+  display: flex; flex-direction: column;
+  background: var(--cg-paper);
+  border: 1px solid var(--cg-rule);
+  border-radius: 3px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.cg-pick:hover { border-color: var(--cg-accent); transform: translateY(-2px); }
+.cg-pick:focus-visible { outline: 2px solid var(--cg-accent); outline-offset: 2px; }
+.cg-pick-shot {
+  display: block; width: 100%;
+  /* height:auto is load-bearing. The <img> carries a height attribute, which
+     acts as a presentational hint and beats aspect-ratio without it. Omitting
+     it made the box 240x250 against a 1.78 image, so object-fit:cover sliced
+     the poster titles off at both edges. */
+  height: auto;
+  /* Matches the source artwork (800x450), so nothing is cropped at all. */
+  aspect-ratio: 16 / 9;
+  object-fit: cover; background: var(--cg-paper-3);
+  border-bottom: 1px solid var(--cg-rule);
+}
+.cg-pick-body { padding: 0.95rem 1rem 1.1rem; display: flex; flex-direction: column; gap: 0.4rem; flex: 1; }
+.cg-pick-band {
+  font-family: var(--cg-mono); font-size: 0.75rem; font-weight: 600;
+  letter-spacing: 0.09em; text-transform: uppercase; color: var(--cg-accent);
+}
+.cg-pick-title {
+  font-family: var(--cg-serif); font-size: 1.05rem; font-weight: 600;
+  line-height: 1.25; margin: 0; color: var(--cg-ink);
+}
+.cg-pick-note { font-size: 0.88rem; color: var(--cg-muted); margin: 0; }
+.cg-pick-go {
+  margin-top: auto; padding-top: 0.55rem;
+  font-size: 0.88rem; font-weight: 600; color: var(--cg-accent);
+}
+.cg-picks-more { margin-top: clamp(1.25rem, 3vw, 1.75rem); }
+
+@media (prefers-reduced-motion: reduce) { .cg-pick:hover { transform: none; } }
