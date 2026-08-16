@@ -1508,4 +1508,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-illinois /src/pages/coding-classes-in-illinois.html 200
 /coding-classes-in-illinois.md /src/pages/coding-classes-in-illinois.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-virginia /src/pages/coding-classes-in-virginia.html 200
+/coding-classes-in-virginia.md /src/pages/coding-classes-in-virginia.md 200
 /* /src/pages/404.html 404

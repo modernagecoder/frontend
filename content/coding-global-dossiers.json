@@ -27,6 +27,57 @@
     "confirmed at primary source, and second-hand accounts contradicted each other on",
     "both the start year and which credit it covered. It was removed from the page."
   ],
+  "coding-classes-in-virginia": {
+    "market": "Virginia",
+    "bodyClass": "cg-va",
+    "curriculumAuthority": "2017 Computer Science Standards of Learning, adopted November 2017, taught from 2019-20. Virginia was the FIRST state to require computer science instruction at all K-12 levels. K-8 is addressed WITHIN existing content areas; middle and high school are stand-alone electives. The page's spine is that integration is the most fragile delivery model: no timetable slot, no specialist teacher, no assessment to reveal absence.",
+    "localProject": "Virginia School Quality Profiles / VDOE SOL pass rates, published for schools, divisions and the state across three years. Trap: REGRESSION TO THE MEAN. Select the bottom tenth of schools in year one and they rise in year two with no intervention, because selecting on an extreme selects partly for bad luck and luck does not repeat. Mirror it with the top tenth falling. Consequence: any programme aimed at the worst performers appears to work even if it does nothing, so an evaluation without a comparison group is worthless. Seventh distinct KIND of error in the cluster. Framed explicitly as being about statistics, not about judging schools.",
+    "requiredMentions": [
+      "Computer Science Standards of Learning",
+      "verified credits",
+      "Advanced Studies Diploma",
+      "Profile of a Virginia Graduate",
+      "critical thinking, creative thinking, collaboration, communication, and citizenship",
+      "School Quality Profiles",
+      "regression to the mean",
+      "stand-alone electives",
+      "Loudoun",
+      "November 2017"
+    ],
+    "sources": [
+      {
+        "claim": "In November 2017 Virginia became the first state to require computer science instruction integrated at all K-12 levels, adopting K-12 Computer Science Standards of Learning, expected to be taught from the 2019-2020 academic year. Computer science in grades K-8 is addressed within the content areas, including language arts and history, while middle and high school classes are designed as stand-alone electives.",
+        "citation": "Virginia Department of Education, 2017 Computer Science Standards of Learning",
+        "url": "https://www.doe.virginia.gov/teaching-learning-assessment/k-12-standards-instruction/computer-science/standards-of-learning/2017-computer-science-standards-of-learning"
+      },
+      {
+        "claim": "A Standard Diploma requires at least 22 standard credits and 5 verified credits. An Advanced Studies Diploma requires at least 26 standard credits and 5 verified credits. Standard credits are earned by completing required and elective courses; verified credits are earned by completing required courses AND passing associated end-of-course SOL tests or other Board-approved assessments.",
+        "citation": "Virginia Department of Education, Standard and Advanced Studies Diploma graduation requirements",
+        "url": "https://www.doe.virginia.gov/parents-students/for-students/graduation/diploma-options/standard-diploma-graduation-requirements"
+      },
+      {
+        "claim": "In accordance with the Profile of a Virginia Graduate, students shall acquire and demonstrate foundational skills in Virginia's 5 C's: critical thinking, creative thinking, collaboration, communication, and citizenship.",
+        "citation": "Virginia Department of Education, Profile of a Virginia Graduate",
+        "url": "https://www.doe.virginia.gov/parents-students/for-students/graduation/diploma-options/advanced-studies-diploma-graduation-requirements"
+      },
+      {
+        "claim": "The Virginia Department of Education publishes School Quality Profiles containing accreditation, historical Standards of Learning scores and passing rates, and provides downloadable SOL test results for schools, school divisions and the state by grade level, course and content area covering three years with numerators and denominators.",
+        "citation": "Virginia Department of Education, SOL Test Pass Rates and Other Results; Virginia School Quality Profiles",
+        "url": "https://www.doe.virginia.gov/data-policy-funding/data-reports/statistics-reports/sol-test-pass-rates-other-results"
+      },
+      {
+        "claim": "Virginia has 157,635 Indian Americans, 1.83 percent of the state population.",
+        "citation": "2020 United States Census",
+        "url": "https://en.wikipedia.org/wiki/Indian_Americans"
+      }
+    ],
+    "rejectedClaims": [
+      {
+        "claim": "Because Virginia requires computer science K-12, every Virginia child is learning to code.",
+        "why": "The requirement is real and Virginia genuinely got there first, but K-8 delivery is integration into other subjects with no dedicated lesson, teacher or assessment. The page credits the policy, states the delivery model plainly, says explicitly that integration done well is genuinely good and that the problem is variance rather than ceiling, and gives parents a specific question to ask their own school instead of asserting a failure we cannot measure."
+      }
+    ]
+  },
   "coding-classes-in-illinois": {
     "market": "Illinois",
     "bodyClass": "cg-il",

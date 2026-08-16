@@ -226,6 +226,35 @@ Together these took the pair from 5.6 percent to 3.8 percent.
   page. Every replacement in this cluster asserts a count of exactly 2 before
   writing.
 
+## 4d. Formula drift, found at n=7
+
+Virginia against New York hit 6.5 percent, the first breach of the warn line.
+The cause was not research or structure. It was **my own sentence formulas
+accumulating across pages**, three of them:
+
+1. **The data-project intro.** Six pages opened with a variant of "Every market
+   gets a project on local data containing one particular way of being wrong."
+   Virginia's and New York's were word for word identical.
+2. **The hub-link line.** Five pages said "It sits under coding classes in the
+   United States."
+3. **A whole alignment row.** Virginia's Impacts-of-Computing answer was a
+   verbatim copy of New York's, including the clause about AI tools.
+
+All rewritten so each page opens its project on its own dataset rather than on a
+shared template sentence. 6.5 down to 5.5 percent.
+
+A second pass tagged genuinely repeat-by-design chrome that the strip list did
+not cover: the Reviews intro ("Rated 4.9 across 547 Google reviews. These are
+real reviews, reproduced as written") and the fee framing line, now
+`class="cg-boiler"` and registered in `SPOKE_EXTRA_SUFFIXES`. That is honest
+bookkeeping, not gaming the metric: those sentences are identical on purpose and
+were never original prose.
+
+**Rule for the remaining pages.** Before writing, re-read the previous page's
+project intro, hub-link line, equipment sentence and alignment rows, and
+deliberately construct different ones. The research and the structure were never
+the duplication risk. The connective tissue is.
+
 ## 4a. Sourcing rule, learned on page one
 
 **A search-result summary is not a source.** New Jersey nearly shipped with a

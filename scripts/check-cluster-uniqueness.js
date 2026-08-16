@@ -176,7 +176,7 @@ const SHARED_SUFFIXES = [
 // exact thing this script exists to catch. Original prose all still counts: the
 // h1, hero lede, answer capsule, every body paragraph, the local project brief
 // and every FAQ answer.
-const SPOKE_EXTRA_SUFFIXES = ['course-card', 'pick', 'picks-more'];
+const SPOKE_EXTRA_SUFFIXES = ['course-card', 'pick', 'picks-more', 'boiler'];
 
 const SHARED_COMPONENTS = [
   ...SHARED_SUFFIXES.map(s => ACTIVE.prefix + '-' + s),
