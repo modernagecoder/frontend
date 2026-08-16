@@ -472,5 +472,1262 @@
         "why": "Could not be confirmed at primary source. Absent from the state minimum graduation requirements chart at N.J.A.C. 6A:8-5.1 and from the Cornell LII text of that regulation. Second-hand accounts conflict on the starting grade nine class year (2014-2015 vs 2016-2017) and on whether it covers mathematics only or mathematics or science. Page now states it as unconfirmed and directs families to their school counsellor."
       }
     ]
+  },
+  "coding-classes-in-oman": {
+    "market": "Oman (country hub)",
+    "bodyClass": "cg-om",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Weighted vs unweighted averages. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Higher Education Admission Centre",
+      "Monthly Statistical Bulletin",
+      "Early Maths Foundations",
+      "School Education Law",
+      "Ministerial Decree",
+      "Higher Education",
+      "Official Gazette",
+      "Data Processing",
+      "Oman’s Grade",
+      "Across Oman"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://main.moe.gov.om/images/library/file/Book483663.pdf"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-muscat": {
+    "market": "Muscat Governorate",
+    "bodyClass": "cg-mct",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Integer division and the remainder. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "4,000 square kilometres",
+      "College Mathematics",
+      "Hajar Mountains",
+      "South Sharqiyah",
+      "The Ministry's",
+      "This Muscat",
+      "An American",
+      "Al Amerat",
+      "If Grade",
+      "An India"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gom.gov.om/en/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-bawshar": {
+    "market": "Bawshar, Muscat",
+    "bodyClass": "cg-bwh",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Bin width changes the story. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Muscat Private Hospital",
+      "Bayt al-Sidra Thuraiya",
+      "Muscat Governorate's",
+      "Muscat Expressway",
+      "Education Group",
+      "Bawshar Street",
+      "Muscat College",
+      "Histogram bin",
+      "Oman's Sunday",
+      "Nearby Muscat"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gom.gov.om/en/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-seeb": {
+    "market": "Seeb, Muscat",
+    "bodyClass": "cg-seb",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Sorting by the wrong key. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Seeb International School",
+      "Can Pakistan School Seeb",
+      "Oman’s Foreign Ministry",
+      "Suhail bin Omar School",
+      "Al Ithraa Basic School",
+      "Oman Foreign Ministry",
+      "Muscat Governorate’s",
+      "Pakistan School Seeb",
+      "Soud Global School",
+      "The Oman Ministry"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-muttrah": {
+    "market": "Muttrah, Muscat",
+    "bodyClass": "cg-mut",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Non-response bias. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "The Muscat Municipal Council",
+      "Grand Muttrah Directorate",
+      "Muscat Municipal Council",
+      "Hassan bin Thabit School",
+      "Faisal bin Turki School",
+      "Al Waleed Basic School",
+      "Household Expenditure",
+      "Municipal Council",
+      "Minecraft Coding",
+      "Al Tawfik School"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.mmc.gov.om/Pages.aspx?MID=29&amp;PGID=11"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-qurum": {
+    "market": "Qurum, Muscat",
+    "bodyClass": "cg-qur",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Correlation is not causation. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Qurum International Private School",
+      "Oman's Environment Authority",
+      "Royal Opera House Muscat",
+      "Al Qurum Natural Reserve",
+      "Qurum Natural Reserve",
+      "Environment Authority",
+      "Qurum Nature Reserve",
+      "Qurum Natural Park",
+      "Al Sahwa Schools",
+      "Shatti Al Qurum"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.ea.gov.om/en/media-center/media-news/news/ramsar/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-mouj": {
+    "market": "Al Mouj, Muscat",
+    "bodyClass": "cg-mou",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "A ratio of ratios. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Roblox Game Coding",
+      "Does Horizon Kids",
+      "Al Mouj Muscat",
+      "Community Hub",
+      "Place Al Mouj",
+      "Four Al Mouj",
+      "Horizon Kids",
+      "Al Mouj Walk",
+      "The Al Mouj",
+      "Are Al Mouj"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.almouj.com/en/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-madinat-al-sultan-qaboos": {
+    "market": "Madinat Al Sultan Qaboos, Muscat",
+    "bodyClass": "cg-msq",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "An average hiding a bimodal split. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Muscat Municipality Bawshar Directorate",
+      "British School Muscat's Sunday",
+      "Can British School Muscat",
+      "British Schools Overseas",
+      "British School Muscat's",
+      "British School Muscat",
+      "British Council Oman",
+      "The British Council",
+      "Are Madinat Qaboos",
+      "Islamic Education"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.mm.gov.om/Directorates.aspx?ESID=3"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-khuwair": {
+    "market": "Al Khuwair, Muscat",
+    "bodyClass": "cg-khw",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Unique visitors vs visits. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Overseas Workers Welfare Administration",
+      "Philippine Honorary Consul General",
+      "Can Philippine School Oman",
+      "Philippine School Oman",
+      "Beaconhouse Al Khuwair",
+      "Dohat Al Adab School",
+      "Al Khuwair Square",
+      "Sharia Judiciary",
+      "Scholars Council",
+      "Sharia Sciences"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://alkhuwair.beaconhouse.edu.om/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-ghubrah": {
+    "market": "Al Ghubrah, Muscat",
+    "bodyClass": "cg-ghb",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Percent vs percentage points. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Al Ghubra Health Center",
+      "Informatics Practices",
+      "Secondary Education",
+      "Senior Secondary",
+      "North Al Ghubrah",
+      "Web Technology",
+      "Related Muscat",
+      "Central Board",
+      "Round Square",
+      "Mohamed Ali"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://indianschoolsoman.com/indian-schools-oman/school-profiles/indian-school-al-ghubra/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-azaiba": {
+    "market": "Azaiba, Muscat",
+    "bodyClass": "cg-azb",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Truncating instead of rounding. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "English Muscat Municipality",
+      "International School's",
+      "Azaiba Beach Park",
+      "Lower Secondary",
+      "Urban Planning",
+      "1,600 metres",
+      "Thuraya City",
+      "200 metres",
+      "Are Azaiba",
+      "3,087,000"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://tlcoman.edu.om/our_school/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-madinat-al-irfan": {
+    "market": "Madinat Al Irfan / Airport Heights, Muscat",
+    "bodyClass": "cg-irf",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Extrapolating past the data. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "International Financial Centre",
+      "Oman International School",
+      "Performing Arts Center",
+      "Crowne Plaza Muscat",
+      "Orange Data Mining",
+      "Exhibition Centre",
+      "Athletics Center",
+      "Exhibition Halls",
+      "Oman Convention",
+      "Learning Center"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.abaoman.org/about-us/al-irfan-campus"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-mawaleh": {
+    "market": "Mawaleh, Muscat",
+    "bodyClass": "cg-maw",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "The median of medians. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Consumer Protection Authority",
+      "Al Mawaleh Private School",
+      "Mawaleh Central Market",
+      "Sarh Al Elm School",
+      "Cambridge Primary",
+      "Historic Mawaleh",
+      "Can Sarh Al Elm",
+      "South Mawaleh",
+      "Its Primary",
+      "Sarh Al Elm"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.gstatic.com"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://mps.edu.om/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-hail": {
+    "market": "Al Hail, Muscat",
+    "bodyClass": "cg-hal",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Survivorship bias. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Knowledge Gate International School",
+      "Cambridge International Primary",
+      "National University's College",
+      "International Baccalaureate",
+      "Cambridge Lower Secondary",
+      "Can National University",
+      "National University",
+      "Al Marafah Street",
+      "Caledonian Campus",
+      "Al Hail Al Jadida"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://myschooloman.com/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.kgis.edu.om/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://nu.edu.om/engineering/about-college-of-engineering/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://ibo.org/school/052356/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-khoudh": {
+    "market": "Al Khoudh, Muscat",
+    "bodyClass": "cg-khd",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Multiple comparisons. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Assafwah International Schools",
+      "New Al-Khoudh Private School",
+      "Can Sultan Qaboos University",
+      "Sultan Qaboos University",
+      "Artificial Intelligence",
+      "Lower Secondary Grades",
+      "Upper Secondary Grades",
+      "Sultan Qaboos Highway",
+      "United Private School",
+      "Chemical Engineering"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.squ.edu.om/About"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.squ.edu.om/science/Academic-Programs/Undergraduate-Programs"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.squ.edu.om/science/Academic-Programs/Postgraduate-Programs"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.squ.edu.om/portals/18/downloads/College%20Catalog%202.0.pdf"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-sohar": {
+    "market": "Sohar, Al Batinah North",
+    "bodyClass": "cg-shr",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Mismatched units in a sum. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Sohar Industrial Port Company",
+      "Hutchison Ports Sohar",
+      "Can Sohar University",
+      "North Al Batinah's",
+      "Asyad's Sohar Port",
+      "Higher Education's",
+      "Sohar University",
+      "Synthetic Sohar",
+      "Verified Sohar",
+      "Sohar Fort's"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/al-batinah-north-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.asyad.om/who-we-are/Address-directory/sohar-port"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://studyinoman.moheri.gov.om/en-us/Colleges-Universities/HEI-Details?heiparam=Tg3R3dzL5d8qh2W0SyphdQ%3D%3D"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.asyad.om/what-we-do/ports-free-zones-thank-you/hutchinson-sohar"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-barka": {
+    "market": "Barka, Al Batinah South",
+    "bodyClass": "cg-brk",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Sorting dates as text. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Al Takween Private Schools",
+      "Khazaen Economic City",
+      "Khazaen Dry Port",
+      "Full-Stack Web",
+      "Can Al Takween",
+      "Barka Fort's",
+      "Barka Fort",
+      "Your Barka",
+      "Al Takween",
+      "Free Barka"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.asyad.om/ports/oman%27s-ports/khazaen-dry-port"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://asyad.om/your-logistics-hub-in-mena-test-ssl/2021/11/03/asyad-group-announces-the-start-of-operations-for-khazaen-dry-port"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://mht.gov.om/ar/%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85%D9%8A/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%88%D9%82%D8%B9%D8%AA-%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D8%AB-%D9%88%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%B9%D9%82%D8%AF-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D9%88%D8%AA%D8%B4%D8%BA%D9%8A%D9%84-%D9%88%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D8%AD%D8%B5%D9%86-%D8%A8%D8%B1%D9%83%D8%A7%D8%A1-%D8%A8%D9%88%D9%84%D8%A7%D9%8A%D8%A9-%D8%A8%D8%B1%D9%83%D8%A7%D8%A1-%D8%A8%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9-%D8%AC%D9%86%D9%88%D8%A8-%D8%A7%D9%84%D8%A8%D8%A7%D8%B7%D9%86%D8%A9-%D9%85%D8%B9-%D8%B4%D8%B1%D9%83%D8%A9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D8%BA%D8%B4%D8%A7%D9%85-%D9%84%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.asyad.om/WorkWithUs/investors-relations/2025/08/11/khazaen-dry-port-launches-secure-customs-corridor-with-sohar"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-salalah": {
+    "market": "Salalah, Dhofar",
+    "bodyClass": "cg-sll",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Seasonality and moving averages. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Communications Engineering",
+      "Can Dhofar University",
+      "Frankincense Museum",
+      "Dhofar University",
+      "Salalah's Khareef",
+      "Verified Salalah",
+      "Another Salalah",
+      "Salalah Khareef",
+      "Oman Airports",
+      "Salalah Port"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/topics/en/80/show/123807/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/topics/en/80/show/124030"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/topics/en/128/show/124334"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/topics/en/128/show/123799"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-nizwa": {
+    "market": "Nizwa, Ad Dakhiliyah",
+    "bodyClass": "cg-nzw",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Date arithmetic across two calendars. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Salt bin Malik al-Kharusi",
+      "The National Museum's",
+      "Information Systems",
+      "Java Programming",
+      "Historical Nizwa",
+      "Ad Dakhiliyah's",
+      "The University",
+      "Can University",
+      "Nizwa Castle",
+      "Nizwa Fort"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.nm.gov.om/en/collection/gift/architectural-heritage"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/ad-dakhiliyah-%E2%80%8Dgovernorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.unizwa.edu.om/index.php?contentid=1&amp;lang=en"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.unizwa.edu.om/index.php?contentid=6&amp;lang=en"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-sur": {
+    "market": "Sur, Ash Sharqiyah South",
+    "bodyClass": "cg-sur",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "A cumulative total read as a rate. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "South Al Sharqiyah Governorate",
+      "Applied Biotechnology",
+      "Sur Industrial Area",
+      "South Al Sharqiyah",
+      "Al Sharqiyah Sands",
+      "360 kilometres",
+      "Signature Sur",
+      "Synthetic Sur",
+      "Ras Al Hadd",
+      "Wadi Shab"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://ssg.gov.om/public/about-south-al-sharqiyah-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/mainsections/62"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omanlng.co.om/en/OmanLNGInBrief/Pages/key-facts.aspx"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-ibra": {
+    "market": "Ibra, Ash Sharqiyah North",
+    "bodyClass": "cg-iba",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "A lookup that fails silently. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Ibra Technical Industrial College",
+      "Vocational Training Institute",
+      "Preparatory Studies Centre",
+      "Oman News Agency's Ibra",
+      "Ash Sharqiyah North’s",
+      "North Al Sharqiyah's",
+      "Sharqiyah University",
+      "Ministerial Decision",
+      "North Al Sharqiyah",
+      "Sultanate Decree"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/ash-sharqiyah-north-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/mainsections/56"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://nsg.gov.om/states"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-ibri": {
+    "market": "Ibri, Adh Dhahirah",
+    "bodyClass": "cg-ibr",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Stale cached data. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "45,000 square kilometres",
+      "Western Hajar Mountains",
+      "World Heritage Centre",
+      "Water Procurement's",
+      "Water Procurement",
+      "Signature Ibri",
+      "Synthetic Ibri",
+      "Al Dhahirah's",
+      "Wadi Sharsah",
+      "Bronze Age"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/ad-dhahirah-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.dhr.gov.om/ibri"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://whc.unesco.org/en/list/434/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-duqm": {
+    "market": "Duqm, Al Wusta",
+    "bodyClass": "cg-duq",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "A growth rate off a base near zero. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Kuwait Petroleum International",
+      "The Special Economic Zone",
+      "2,000 square kilometres",
+      "Special Economic Zones",
+      "Special Economic Zone",
+      "Public Authority",
+      "The Rock Garden",
+      "Signature Duqm",
+      "Synthetic Duqm",
+      "Rock Garden"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/al-wusta-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.opaz.gov.om/en/zones/special-economic-zone-at-duqm"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-khasab": {
+    "market": "Khasab, Musandam",
+    "bodyClass": "cg-kha",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Map projection distorts area. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Synthetic Web Mercator",
+      "100 square kilometres",
+      "Representative Khasab",
+      "Computer Technology",
+      "Educational Studies",
+      "Oman News Agency's",
+      "Signature Khasab",
+      "Because Mercator",
+      "Four Musandam",
+      "Umm Al Ghanam"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/musandam-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/mainsections/29"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-dhofar": {
+    "market": "Dhofar Governorate",
+    "bodyClass": "cg-dhf",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Sampling bias. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Oman News Agency Thumrait",
+      "99,300 square kilometres",
+      "Oman News Agency Rakhyut",
+      "Applied Sciences-Salalah",
+      "Experience Oman Dhofar",
+      "General Requirements",
+      "Hallaniyat Islands",
+      "Signature Dhofar",
+      "Synthetic Dhofar",
+      "Salalah College"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/dhofar-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://experienceoman.om/en/destinations/dhofar"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-batinah-north": {
+    "market": "Al Batinah North Governorate",
+    "bodyClass": "cg-btn",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Simpson's paradox. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Wadi Al Hawasinah Hospital",
+      "Signature Al Batinah North",
+      "Al Batinah North Simpson's",
+      "Oman News Agency Shinas",
+      "Wadi As Sarami Hospital",
+      "Your Al Batinah North",
+      "No Al Batinah North",
+      "Al Hajar Mountains",
+      "Shinas Public Park",
+      "Madinat Al Teeb"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/al-batinah-north-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://opendata.gov.om/en/datasets/951a1f0d-da9c-4ae5-aba0-c9d72d826841"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-batinah-south": {
+    "market": "Al Batinah South Governorate",
+    "bodyClass": "cg-bts",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "A rate over the wrong time window. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Signature Al Batinah South",
+      "Oman News Agency Rustaq",
+      "Your Al Batinah South",
+      "No Al Batinah South",
+      "Nakhal Public Park",
+      "Rustaq Hospital",
+      "Wadi Al Maawil",
+      "Al Huqain Fort",
+      "Al Malada Fort",
+      "South Batinah"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/al-batinah-south-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/mainsections/52"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-ad-dakhiliyah": {
+    "market": "Ad Dakhiliyah Governorate",
+    "bodyClass": "cg-dak",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Interpolating over a non-linear surface. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "31,900 square kilometres",
+      "Signature Ad Dakhiliyah",
+      "Oman News Agency Manah",
+      "Synthetic Jebel Akhdar",
+      "World Heritage List",
+      "Oman Building Code",
+      "Your Ad Dakhiliyah",
+      "Al Faiqain Castle",
+      "No Ad Dakhiliyah",
+      "Jabal Al Akhdar"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/ad-dakhiliyah-%E2%80%8Dgovernorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://whc.unesco.org/en/list/433"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-ash-sharqiyah-north": {
+    "market": "Ash Sharqiyah North Governorate",
+    "bodyClass": "cg-shn",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Double counting after a join. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Signature Ash Sharqiyah North",
+      "Bidiyah Recreational Center",
+      "Eastern Al Hajar Mountains",
+      "Your Ash Sharqiyah North",
+      "No Ash Sharqiyah North",
+      "Dima Wa At Taiyin",
+      "Eastern Al Hajar",
+      "North Sharqiyah",
+      "Sharqiyah Sands",
+      "Ghar Abu Habban"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/ash-sharqiyah-north-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/mainsections/9"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-ash-sharqiyah-south": {
+    "market": "Ash Sharqiyah South Governorate",
+    "bodyClass": "cg-shs",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Null is not zero. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Your Ash Sharqiyah South",
+      "Masirah Winter Festival",
+      "Al Falah Neighbourhood",
+      "No Ash Sharqiyah South",
+      "220 square kilometres",
+      "Arabian Gazelle",
+      "Masirah Island",
+      "4,172 metres",
+      "Al Saleel",
+      "Al Falah"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/ash-sharqiyah-south-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/topics/en/138/show/124855/ona"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-adh-dhahirah": {
+    "market": "Adh Dhahirah Governorate",
+    "bodyClass": "cg-dhr",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Precision loss in a large aggregate. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "2,030 square kilometres",
+      "3,100 square kilometres",
+      "9,007,199,254,740,991,",
+      "9,007,199,254,740,991",
+      "9,007,199,254,740,993",
+      "9,007,199,254,740,992",
+      "Understand Number",
+      "Your Adh Dhahirah",
+      "No Adh Dhahirah",
+      "Mazoon Mining"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/ad-dhahirah-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/topics/en/80/show/122268"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-buraimi": {
+    "market": "Al Buraimi Governorate",
+    "bodyClass": "cg-bur",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Accumulated rounding error. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "1,055 square kilometres",
+      "Al Buraimi Governorate",
+      "Mazoon Dairy Project",
+      "Million Palm Project",
+      "Arabian Peninsula",
+      "Your Al Buraimi",
+      "100 kilometres",
+      "No Al Buraimi",
+      "As Sunaynah",
+      "Use Decimal"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/en/index.html"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/al-buraimi-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/en/explore-wilayat-mahadar.html"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-musandam": {
+    "market": "Musandam Governorate",
+    "bodyClass": "cg-msd",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Straight-line distance on latitude and longitude. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Implement Haversine",
+      "Dibba Waterfront",
+      "Bukha Platforms",
+      "Musandam Winter",
+      "Your Musandam",
+      "1,300 metres",
+      "No Musandam",
+      "0000,",
+      "1000,"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://bur.gov.om/assets/pdf/en/governorate-system.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/musandam-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://omannews.gov.om/topics/en/79/show/121334/ona"
+      }
+    ],
+    "rejectedClaims": []
+  },
+  "coding-classes-in-al-wusta": {
+    "market": "Al Wusta Governorate",
+    "bodyClass": "cg-wst",
+    "curriculumAuthority": "Oman Ministry of Education, General Education Diploma. Grade 11 is internally assessed; Grade 12 is sat as external Ministry examinations. Eight subjects, five compulsory and three optional, and a student must pass all eight. The page's argument is that a system with no droppable subject leaves no slack, so the weekly cost of a class has to be stated honestly.",
+    "localProject": "Small-denominator volatility. Assigned to this page and no other in the cluster; checked against the nine traps used by the US and Canadian pages and the two owned by the Oman and Muscat AI pages.",
+    "requiredMentions": [
+      "Ras Souqra Development Project",
+      "82,471 square kilometres",
+      "3,400 square kilometres",
+      "Al Jazir Public Park",
+      "Mahout Hospital",
+      "Muscat-Salalah",
+      "Al Lakbi Beach",
+      "Khor Ghadisir",
+      "Your Al Wusta",
+      "Khor Qaised"
+    ],
+    "sources": [
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://alwusta.gov.om/wp-content/uploads/2025/10/Promulgating-the-System-of-Governorates.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://gov.om/en/al-wusta-governorate"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://api.ncsi.gov.om/uploads/pdfs/statistical_year_book_2026___issue_54_1777963604.pdf"
+      },
+      {
+        "claim": "Cited on the page for a place-specific administrative, population or infrastructure fact.",
+        "url": "https://www.fm.gov.om/en/about-oman/state/oman-by-region/"
+      }
+    ],
+    "rejectedClaims": []
   }
 }

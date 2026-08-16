@@ -52,8 +52,8 @@ const CLUSTERS = {
     fileRe: /^(learn-to-build-ai|ai-and-machine-learning-classes-in-.+)\.html$/,
     css: 'src/css/ai-global.css',
     prefix: 'ag',
-    markets: ['om', 'mct', 'kw', 'kwc', 'bh', 'ae', 'sa', 'qa', 'us', 'uk', 'lon',
-      'ch', 'zrh', 'sg', 'ca', 'au', 'de', 'nl', 'ie', 'hk', 'hub'],
+    markets: ['om', 'mct', 'kw', 'kwc', 'bh', 'ae', 'sa', 'qa', 'us', 'uk',
+      'lon', 'ch', 'zrh', 'sg', 'ca', 'au', 'de', 'nl', 'ie', 'hk', 'hub'],
     siblingRe: /^\/(learn-to-build-ai|ai-and-machine-learning-classes-in-)/
   },
 
@@ -62,15 +62,47 @@ const CLUSTERS = {
   // docs/superpowers/specs/2026-08-15-international-growth-cluster-design.md
   'coding-global': {
     label: 'International growth cluster',
-    fileRe: /^coding-classes-in-(oman|muscat|kuwait|bahrain|hong-kong|netherlands|new-jersey|california|texas|new-york|illinois|georgia|virginia|washington|maryland|ontario|british-columbia|alberta|leicester|birmingham)\.html$/,
+    fileRe: /^coding-classes-in-(madinat-al-sultan-qaboos|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|dhofar|khasab|kuwait|muscat|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)\.html$/,
     css: 'src/css/coding-global.css',
     prefix: 'cg',
     markets: ['om', 'mct', 'kw', 'bh', 'hk', 'nl', 'nj', 'ca', 'tx', 'ny', 'il',
-      'ga', 'va', 'wa', 'md', 'on', 'bc', 'ab', 'lei', 'bhm'],
+      'ga', 'va', 'wa', 'md', 'on', 'bc', 'ab', 'lei', 'bhm',
+      // Oman cluster: 13 Muscat metropolitan districts, 9 cities, 10 governorates
+      'bwh', 'seb', 'mut', 'qur', 'mou', 'msq', 'khw', 'ghb', 'azb', 'irf',
+      'maw', 'hal', 'khd', 'shr', 'brk', 'sll', 'nzw', 'sur', 'iba', 'ibr',
+      'duq', 'kha', 'dhf', 'btn', 'bts', 'dak', 'shn', 'shs', 'dhr', 'bur',
+      'msd', 'wst'],
     dossierFile: 'content/coding-global-dossiers.json',
-    siblingRe: /^\/coding-classes-in-(oman|muscat|kuwait|bahrain|hong-kong|netherlands|new-jersey|california|texas|new-york|illinois|georgia|virginia|washington|maryland|ontario|british-columbia|alberta|leicester|birmingham)$/
+    siblingRe: /^\/coding-classes-in-(madinat-al-sultan-qaboos|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|dhofar|khasab|kuwait|muscat|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)$/
   }
 };
+
+
+// --- depth floors by page type (build guide section 6.3) --------------------
+const OMAN_DISTRICTS = new Set(['bawshar', 'seeb', 'muttrah', 'qurum', 'al-mouj',
+  'madinat-al-sultan-qaboos', 'al-khuwair', 'al-ghubrah', 'azaiba',
+  'madinat-al-irfan', 'mawaleh', 'al-hail', 'al-khoudh']);
+const OMAN_CITIES = new Set(['sohar', 'barka', 'salalah', 'nizwa', 'sur', 'ibra',
+  'ibri', 'duqm', 'khasab']);
+const OMAN_GOVERNORATES = new Set(['dhofar', 'al-batinah-north', 'al-batinah-south',
+  'ad-dakhiliyah', 'ash-sharqiyah-north', 'ash-sharqiyah-south', 'adh-dhahirah',
+  'al-buraimi', 'musandam', 'al-wusta', 'muscat']);
+
+function pageTypeOf(slug) {
+  const m = slug.replace(/^coding-classes-in-/, '');
+  if (OMAN_DISTRICTS.has(m)) return 'district';
+  if (OMAN_CITIES.has(m)) return 'city';
+  if (OMAN_GOVERNORATES.has(m)) return 'governorate';
+  return 'market';
+}
+function minWordsFor(slug) {
+  switch (pageTypeOf(slug)) {
+    case 'district':    return 1400;
+    case 'city':        return 2200;
+    case 'governorate': return 1800;
+    default:            return 3000;
+  }
+}
 
 const requested = process.argv[2];
 if (requested && !CLUSTERS[requested]) {
@@ -232,7 +264,14 @@ for (const cluster of active) {
     // --- 8. depth ---------------------------------------------------------
     const bodyOnly = html.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<head[\s\S]*?<\/head>/g, ' ');
     const words = stripTags(bodyOnly).split(' ').filter(Boolean).length;
-    if (words < 3000) errs.push(`only ${words} words (<3000)`);
+    // Depth floor is per PAGE TYPE, not flat. A national or state page has a whole
+    // curriculum authority to cover; a Muscat district three streets wide does not.
+    // Holding a district to 3,000 words does not buy depth, it buys padding, which
+    // is the thin content this gate exists to prevent. Targets mirror section 6.3
+    // of the build guide, so the guide and the gate cannot contradict each other.
+    if (words < minWordsFor(slug)) {
+      errs.push(`only ${words} words (<${minWordsFor(slug)} for a ${pageTypeOf(slug)} page)`);
+    }
 
     // --- 9. md twin, existence AND substance ------------------------------
     // The twin is the AEO deliverable. An empty or stub file passes an existence

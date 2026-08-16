@@ -290,6 +290,40 @@ USD 100 a month small group, USD 150 a month one to one.
 - Virginia, USA: https://learn.modernagecoders.com/coding-classes-in-virginia
 - Washington State, USA: https://learn.modernagecoders.com/coding-classes-in-washington
 - Georgia, USA: https://learn.modernagecoders.com/coding-classes-in-georgia
+- Oman: https://learn.modernagecoders.com/coding-classes-in-oman
+- Muscat: https://learn.modernagecoders.com/coding-classes-in-muscat
+- Bawshar, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-bawshar
+- Seeb, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-seeb
+- Muttrah, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-muttrah
+- Qurum, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-qurum
+- Al Mouj, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-al-mouj
+- Madinat Al Sultan Qaboos, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-madinat-al-sultan-qaboos
+- Al Khuwair, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-al-khuwair
+- Al Ghubrah, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-al-ghubrah
+- Azaiba, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-azaiba
+- Madinat Al Irfan and Airport Heights, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-madinat-al-irfan
+- Mawaleh, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-mawaleh
+- Al Hail, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-al-hail
+- Al Khoudh, Muscat, Oman: https://learn.modernagecoders.com/coding-classes-in-al-khoudh
+- Sohar, Al Batinah North, Oman: https://learn.modernagecoders.com/coding-classes-in-sohar
+- Barka, Al Batinah South, Oman: https://learn.modernagecoders.com/coding-classes-in-barka
+- Salalah, Dhofar, Oman: https://learn.modernagecoders.com/coding-classes-in-salalah
+- Nizwa, Ad Dakhiliyah, Oman: https://learn.modernagecoders.com/coding-classes-in-nizwa
+- Sur, Ash Sharqiyah South, Oman: https://learn.modernagecoders.com/coding-classes-in-sur
+- Ibra, Ash Sharqiyah North, Oman: https://learn.modernagecoders.com/coding-classes-in-ibra
+- Ibri, Adh Dhahirah, Oman: https://learn.modernagecoders.com/coding-classes-in-ibri
+- Duqm, Al Wusta, Oman: https://learn.modernagecoders.com/coding-classes-in-duqm
+- Khasab, Musandam, Oman: https://learn.modernagecoders.com/coding-classes-in-khasab
+- Dhofar Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-dhofar
+- Al Batinah North Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-al-batinah-north
+- Al Batinah South Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-al-batinah-south
+- Ad Dakhiliyah Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-ad-dakhiliyah
+- Ash Sharqiyah North Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-ash-sharqiyah-north
+- Ash Sharqiyah South Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-ash-sharqiyah-south
+- Adh Dhahirah Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-adh-dhahirah
+- Al Buraimi Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-al-buraimi
+- Musandam Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-musandam
+- Al Wusta Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-al-wusta
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

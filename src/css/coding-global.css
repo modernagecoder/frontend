@@ -71,6 +71,41 @@
 .cg-root.cg-hk  { --cg-accent: #BA2026; --cg-accent-soft: rgba(186,32,38,.09); }   /* Hong Kong red */
 .cg-root.cg-nl  { --cg-accent: #A64B17; --cg-accent-soft: rgba(166,75,23,.10); }   /* Dutch orange */
 
+/* Oman cluster. Every hex below clears 4.5:1 on all three paper tints and
+   they are spread so no two a visitor sees in sequence look alike. */
+.cg-root.cg-bwh { --cg-accent: #7053A4; --cg-accent-soft: rgba(112,83,164,.09); }   /* Bawshar, the violet the sands take at dusk */
+.cg-root.cg-seb { --cg-accent: #004E5C; --cg-accent-soft: rgba(0,78,92,.09); }   /* Seeb, deep water off the corniche */
+.cg-root.cg-mut { --cg-accent: #683100; --cg-accent-soft: rgba(104,49,0,.09); }   /* Muttrah, the dark timber of the souq */
+.cg-root.cg-qur { --cg-accent: #367154; --cg-accent-soft: rgba(54,113,84,.09); }   /* Qurum, the nature reserve */
+.cg-root.cg-mou { --cg-accent: #006BA9; --cg-accent-soft: rgba(0,107,169,.09); }   /* Al Mouj, the marina water */
+.cg-root.cg-msq { --cg-accent: #6C683C; --cg-accent-soft: rgba(108,104,60,.09); }   /* Madinat Al Sultan Qaboos, the diplomatic quarter olive */
+.cg-root.cg-khw { --cg-accent: #2D3985; --cg-accent-soft: rgba(45,57,133,.09); }   /* Al Khuwair, the ministries district */
+.cg-root.cg-ghb { --cg-accent: #374924; --cg-accent-soft: rgba(55,73,36,.09); }   /* Al Ghubrah, the palm strip behind the beach */
+.cg-root.cg-azb { --cg-accent: #5B6C00; --cg-accent-soft: rgba(91,108,0,.09); }   /* Azaiba, coastal scrub */
+.cg-root.cg-irf { --cg-accent: #632C73; --cg-accent-soft: rgba(99,44,115,.09); }   /* Madinat Al Irfan, new build */
+.cg-root.cg-maw { --cg-accent: #9C4E02; --cg-accent-soft: rgba(156,78,2,.09); }   /* Mawaleh, the produce market */
+.cg-root.cg-hal { --cg-accent: #005207; --cg-accent-soft: rgba(0,82,7,.09); }   /* Al Hail, wadi green */
+.cg-root.cg-khd { --cg-accent: #994373; --cg-accent-soft: rgba(153,67,115,.09); }   /* Al Khoudh, the university quarter */
+.cg-root.cg-shr { --cg-accent: #8A3214; --cg-accent-soft: rgba(138,50,20,.09); }   /* Sohar, copper */
+.cg-root.cg-brk { --cg-accent: #3F7320; --cg-accent-soft: rgba(63,115,32,.09); }   /* Barka, palm groves behind the fort */
+.cg-root.cg-sll { --cg-accent: #0D7134; --cg-accent-soft: rgba(13,113,52,.09); }   /* Salalah, the green khareef turns the hills */
+.cg-root.cg-nzw { --cg-accent: #5A3928; --cg-accent-soft: rgba(90,57,40,.09); }   /* Nizwa, the fired clay of the fort */
+.cg-root.cg-sur { --cg-accent: #004789; --cg-accent-soft: rgba(0,71,137,.09); }   /* Sur, dhow indigo */
+.cg-root.cg-iba { --cg-accent: #963950; --cg-accent-soft: rgba(150,57,80,.09); }   /* Ibra, the old Beit al-Qufl doors */
+.cg-root.cg-ibr { --cg-accent: #965131; --cg-accent-soft: rgba(150,81,49,.09); }   /* Ibri, desert ochre */
+.cg-root.cg-duq { --cg-accent: #196B7D; --cg-accent-soft: rgba(25,107,125,.09); }   /* Duqm, the port water */
+.cg-root.cg-kha { --cg-accent: #225146; --cg-accent-soft: rgba(34,81,70,.09); }   /* Khasab, the Hormuz fjords */
+.cg-root.cg-dhf { --cg-accent: #755417; --cg-accent-soft: rgba(117,84,23,.09); }   /* Dhofar, frankincense resin */
+.cg-root.cg-btn { --cg-accent: #007461; --cg-accent-soft: rgba(0,116,97,.09); }   /* Al Batinah North, the shallow coast */
+.cg-root.cg-bts { --cg-accent: #2B5E01; --cg-accent-soft: rgba(43,94,1,.09); }   /* Al Batinah South, the date belt */
+.cg-root.cg-dak { --cg-accent: #513F8F; --cg-accent-soft: rgba(81,63,143,.09); }   /* Ad Dakhiliyah, Jebel Akhdar at altitude */
+.cg-root.cg-shn { --cg-accent: #3864AE; --cg-accent-soft: rgba(56,100,174,.09); }   /* Ash Sharqiyah North, Wadi Bani Khalid pools */
+.cg-root.cg-shs { --cg-accent: #4E6180; --cg-accent-soft: rgba(78,97,128,.09); }   /* Ash Sharqiyah South, the water off Ras Al Hadd */
+.cg-root.cg-dhr { --cg-accent: #734E5E; --cg-accent-soft: rgba(115,78,94,.09); }   /* Adh Dhahirah, the iron-red western Hajar */
+.cg-root.cg-bur { --cg-accent: #7B5781; --cg-accent-soft: rgba(123,87,129,.09); }   /* Al Buraimi, the escarpment at dusk */
+.cg-root.cg-msd { --cg-accent: #413E5E; --cg-accent-soft: rgba(65,62,94,.09); }   /* Musandam, shadowed fjord walls */
+.cg-root.cg-wst { --cg-accent: #4A4800; --cg-accent-soft: rgba(74,72,0,.09); }   /* Al Wusta, the khaki scrub of the Jiddat al-Harasis */
+
 /* --------------------------------------------------------------------------
    Base
    -------------------------------------------------------------------------- */
@@ -489,3 +524,150 @@
 .cg-picks-more { margin-top: clamp(1.25rem, 3vw, 1.75rem); }
 
 @media (prefers-reduced-motion: reduce) { .cg-pick:hover { transform: none; } }
+
+
+/* ==========================================================================
+   Oman cluster components.
+   The Oman pages introduced these. They are defined here, never inline: rule
+   6.6 of the build guide forbids inline style, so an undefined class ships as
+   naked markup. Anything that paints text on the accent is written at
+   .cg-root .x so it beats `.cg-root a` (0,1,1). That specificity trap once
+   shipped invisible button text on six live pages.
+   ========================================================================== */
+
+/* --- primary button alias. The pages use cg-btn--primary for the same look
+       cg-btn already has; define it so it can never fall through. --- */
+.cg-root .cg-btn--primary {
+  background: var(--cg-accent); color: #fff; border-color: var(--cg-accent);
+}
+.cg-root .cg-btn--primary:hover { color: #fff; }
+
+/* --- WhatsApp button. Secondary weight so it sits beside the primary CTA
+       without competing with it. --- */
+.cg-root .cg-btn-wa {
+  background: transparent; color: var(--cg-accent);
+  border: 1px solid var(--cg-accent);
+}
+.cg-root .cg-btn-wa:hover { background: var(--cg-accent-soft); color: var(--cg-accent); }
+
+/* --- hero --- */
+.cg-hero-actions { display: flex; flex-wrap: wrap; gap: 0.7rem; align-items: center; }
+.cg-hero-lead {
+  font-size: clamp(1.05rem, 1.6vw, 1.2rem); line-height: 1.6;
+  color: var(--cg-ink); max-width: var(--cg-measure); margin: 0 0 1rem;
+}
+
+/* --- breadcrumb --- */
+.cg-breadcrumb {
+  font-family: var(--cg-mono); font-size: 0.78rem; letter-spacing: 0.04em;
+  color: var(--cg-muted); margin-bottom: 1rem;
+}
+.cg-root .cg-breadcrumb a { color: var(--cg-muted); text-decoration: none; }
+.cg-root .cg-breadcrumb a:hover { color: var(--cg-accent); text-decoration: underline; }
+
+/* --- layout helpers --- */
+.cg-grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: var(--cg-gap); }
+
+/* --- callout, a ruled aside rather than a coloured box --- */
+.cg-callout {
+  border-left: 3px solid var(--cg-accent);
+  background: var(--cg-accent-soft);
+  padding: 1rem 1.15rem; border-radius: 2px;
+}
+.cg-callout h3 { margin: 0 0 0.35rem; font-size: 1.05rem; }
+.cg-callout p  { margin: 0; }
+
+/* --- pricing --- */
+.cg-price-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: var(--cg-gap); }
+.cg-price-label {
+  display: block; font-family: var(--cg-mono); font-size: 0.72rem; font-weight: 600;
+  letter-spacing: 0.09em; text-transform: uppercase; color: var(--cg-accent);
+  margin-bottom: 0.3rem;
+}
+.cg-price-grid .cg-price strong {
+  display: block; font-family: var(--cg-serif); font-size: 1.6rem;
+  font-weight: 600; line-height: 1.1; margin-bottom: 0.35rem;
+}
+.cg-price-grid .cg-price p { margin: 0; font-size: 0.9rem; color: var(--cg-muted); }
+
+/* --- the lead form and its contact card --- */
+.cg-form-layout { display: grid; grid-template-columns: 1.35fr 1fr; gap: clamp(1.5rem, 4vw, 3rem); align-items: start; }
+.cg-form { display: block; }
+.cg-contact-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: var(--cg-gap); }
+.cg-contact-card {
+  border: 1px solid var(--cg-rule-2); border-radius: 2px;
+  padding: 1.15rem 1.25rem; background: var(--cg-paper);
+}
+.cg-contact-card h3 { margin: 0 0 0.7rem; font-size: 1.05rem; }
+.cg-contact-card p  { margin: 0 0 0.5rem; font-size: 0.92rem; }
+.cg-contact-card .cg-btn { margin-top: 0.5rem; }
+.cg-phone { font-family: var(--cg-mono); font-size: 0.95rem; }
+.cg-privacy { font-size: 0.82rem; color: var(--cg-muted); margin: 0.6rem 0 0; }
+.cg-error   { color: #9B2335; font-size: 0.82rem; }
+.cg-success { color: #1E6B4E; font-size: 0.9rem; }
+
+/* --- verified / source attribution. These carry the citations that make the
+       page quotable, so they must stay legible, not shrink into grey noise. --- */
+.cg-verified,
+.cg-source-note {
+  font-family: var(--cg-mono); font-size: 0.78rem; line-height: 1.5;
+  color: var(--cg-muted); margin: 0.6rem 0 0;
+}
+.cg-boiler { color: var(--cg-muted); margin: 0.35rem 0 0; }
+
+/* --- the data-project verdict block --- */
+.cg-verdict {
+  border-top: 2px solid var(--cg-accent); padding-top: 0.85rem; margin-top: 1rem;
+}
+.cg-verdict-k {
+  font-family: var(--cg-mono); font-size: 0.72rem; font-weight: 600;
+  letter-spacing: 0.09em; text-transform: uppercase; color: var(--cg-accent);
+  display: block; margin-bottom: 0.25rem;
+}
+
+/* --- mobile contact bar. Two variants exist because the pages were written in
+       two passes: cg-sticky and cg-contact-bar. Both are styled so neither can
+       ship naked. Desktop hides them; body padding is added in the SAME query
+       so the bar can never cover the last paragraph or the submit button. --- */
+.cg-contact-bar, .cg-sticky { display: none; }
+
+@media (max-width: 767px) {
+  .cg-contact-bar,
+  .cg-sticky {
+    display: block; position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+    background: var(--cg-paper);
+    border-top: 1px solid var(--cg-rule-2);
+    box-shadow: 0 -2px 10px rgba(28,24,20,.08);
+    padding: 0.5rem max(0.75rem, env(safe-area-inset-left)) calc(0.5rem + env(safe-area-inset-bottom));
+  }
+  .cg-contact-bar[hidden], .cg-sticky[hidden] { display: none; }
+
+  .cg-contact-bar-in,
+  .cg-sticky { display: flex; gap: 0.5rem; }
+  .cg-contact-bar-in > *, .cg-sticky > a { flex: 1 1 0; }
+
+  /* 44px minimum tap target, guide rule 6.6 */
+  .cg-root .cg-sticky a {
+    display: flex; align-items: center; justify-content: center; text-align: center;
+    min-height: 44px; padding: 0.6rem 0.75rem;
+    font-family: var(--cg-sans); font-size: 0.88rem; font-weight: 600;
+    text-decoration: none; border-radius: 2px;
+    border: 1px solid var(--cg-accent);
+  }
+  .cg-root .cg-sticky a:first-child { background: var(--cg-accent); color: #fff; }
+  .cg-root .cg-sticky a:last-child  { background: transparent; color: var(--cg-accent); }
+  .cg-root .cg-contact-bar .cg-btn { min-height: 44px; justify-content: center; width: 100%; }
+
+  /* clear the bar */
+  .cg-root { padding-bottom: 68px; }
+}
+
+/* --- responsive collapses --- */
+@media (max-width: 900px) {
+  .cg-form-layout { grid-template-columns: 1fr; }
+  .cg-price-grid  { grid-template-columns: 1fr; }
+  .cg-grid-2, .cg-contact-grid { grid-template-columns: 1fr; }
+}
+
+.cg-contact-row { display: flex; flex-wrap: wrap; gap: 0.9rem 1.4rem; align-items: center; }
+.cg-root .cg-contact-row a { color: var(--cg-accent); font-weight: 600; }

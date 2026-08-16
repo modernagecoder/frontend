@@ -70,7 +70,7 @@ const CLUSTERS = {
   // for the same market, which is the true sibling most likely to collide.
   'coding-global': {
     label: 'International growth cluster',
-    fileRe: /^coding-classes-in-(oman|muscat|kuwait|bahrain|hong-kong|netherlands|new-jersey|california|texas|new-york|illinois|georgia|virginia|washington|maryland|ontario|british-columbia|alberta|leicester|birmingham)\.html$/,
+    fileRe: /^coding-classes-in-(madinat-al-sultan-qaboos|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|dhofar|khasab|kuwait|muscat|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)\.html$/,
     prefix: 'cg',
     incumbents: [
       // country hubs these pages spoke from
@@ -176,7 +176,19 @@ const SHARED_SUFFIXES = [
 // exact thing this script exists to catch. Original prose all still counts: the
 // h1, hero lede, answer capsule, every body paragraph, the local project brief
 // and every FAQ answer.
-const SPOKE_EXTRA_SUFFIXES = ['course-card', 'pick', 'picks-more', 'boiler'];
+// The Oman cluster added more furniture that is identical on every page BY DESIGN:
+// the contact block and mobile bar (guide section 18 mandates them verbatim), the
+// price grid, and the form/contact two-column wrapper. Stripping them stops the
+// score reporting required chrome as duplication.
+// NOT stripped, on purpose: the #placement and #delivery prose. That IS shared text
+// the pages should not have had, and the score must keep showing it.
+const SPOKE_EXTRA_SUFFIXES = ['course-card', 'pick', 'picks-more', 'boiler',
+  'contact-card', 'contact-row', 'contact-bar', 'contact-bar-in', 'contact-grid',
+  'sticky', 'form-layout', 'price-grid', 'price-label', 'hero-actions', 'breadcrumb',
+  // the course ladder is the SAME catalogue on every market page, exactly like
+  // cg-course-card, and 'verified' is the one-line freshness stamp section 18.4
+  // requires verbatim. Both are mandated chrome, not authored prose.
+  'ladder', 'verified'];
 
 const SHARED_COMPONENTS = [
   ...SHARED_SUFFIXES.map(s => ACTIVE.prefix + '-' + s),
