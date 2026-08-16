@@ -188,7 +188,10 @@ const SPOKE_EXTRA_SUFFIXES = ['course-card', 'pick', 'picks-more', 'boiler',
   // the course ladder is the SAME catalogue on every market page, exactly like
   // cg-course-card, and 'verified' is the one-line freshness stamp section 18.4
   // requires verbatim. Both are mandated chrome, not authored prose.
-  'ladder', 'verified'];
+  'ladder', 'verified',
+  // cg-callout is touchpoint 3 of the four the guide mandates, and its wording
+  // is fixed by section 18.1. Same status as the price block: required chrome.
+  'callout'];
 
 const SHARED_COMPONENTS = [
   ...SHARED_SUFFIXES.map(s => ACTIVE.prefix + '-' + s),

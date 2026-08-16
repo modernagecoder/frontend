@@ -176,8 +176,12 @@ const report = [];
 for (const cluster of active) {
   const ACCENTS = loadAccents(cluster);
   const P = cluster.prefix;
-  const faqItemRe = new RegExp('<div class="' + P + '-faq-item">\\s*<h3>([\\s\\S]*?)<\\/h3>', 'g');
-  const faqAnsRe = new RegExp('<div class="' + P + '-faq-item">[\\s\\S]*?<p>([\\s\\S]*?)<\\/p>', 'g');
+  // Matched attribute-tolerantly on purpose. These used to require the class list to
+  // be EXACTLY "cg-faq-item", so the moment a second class was added to an item the
+  // counter went blind and reported a schema/visible mismatch that did not exist.
+  // The same brittleness once made the JSON-LD check miss every page in this repo.
+  const faqItemRe = new RegExp('<div class="[^"]*\\b' + P + '-faq-item\\b[^"]*">\\s*<h3>([\\s\\S]*?)<\\/h3>', 'g');
+  const faqAnsRe = new RegExp('<div class="[^"]*\\b' + P + '-faq-item\\b[^"]*">[\\s\\S]*?<p>([\\s\\S]*?)<\\/p>', 'g');
   const rootRe = new RegExp('\\b' + P + '-root\\b');
   const marketRe = new RegExp('\\b' + P + '-(' + cluster.markets.join('|') + ')\\b');
   const anyMarketRe = new RegExp('\\b' + P + '-(?!root)[a-z]+\\b');
