@@ -2159,5 +2159,46 @@
       "The +1 leading-digit strip used on the US and Canada pages. Brunei numbers are 7 digits with no trunk prefix.",
       "Any re-argument of the SPN21 assessment ladder or the split working week, both of which belong to the Brunei country page. The working week appears here as one alignment row about the capital being the seat of government, and links out."
     ]
+  },
+  "coding-classes-in-kuala-belait": {
+    "market": "Kuala Belait",
+    "bodyClass": "cg-kb",
+    "curriculumAuthority": "TWO curricula in one district, which is what makes Belait unlike anywhere else in Brunei. Government schools run SPN21 under the Ministry of Education; Panaga School, on the Brunei Shell Petroleum camp between Kuala Belait and Seria, has operated since 1948, is now run by Jerudong International School, teaches ages TWO TO THIRTEEN with roughly 280 pupils from more than thirty-five nations, and blends the International Early Years and International Primary curricula with the British curriculum for English and Mathematics. The load-bearing consequence for a parent: every Panaga pupil changes school at thirteen, to Jerudong, to a government secondary school, or to another country, which is the reason to have built something by twelve rather than to be busier at fourteen. Belait carries five secondary and sixteen primary public schools. District context: westernmost and largest by area at 2,727 sq km, 65,531 people at the 2021 census and about 67,900 estimated for 2025, Seria oil field found 1929 with commercial production from 1932, Brunei Shell Petroleum running the major facilities, South West Ampa thirteen kilometres offshore holding more than half the country's gas reserves, Brunei LNG at Lumut, Sungai Liang industrial park, and British Forces Brunei present at Panaga. Because this is the energy district, most households keep a Monday to Friday week, the OPPOSITE of the ministry households on the Bandar Seri Begawan page.",
+    "localProject": "A number that arrives as text still looks like a number. The learner totals the eight 2021 mukim figures and gets 287931831316813759727812916, twenty-seven digits, because every published Brunei figure carries a thousands separator and a comma is not a digit, so the cells are strings and the plus sign joins them. That failure is loud and harmless. The QUIET version is in the same dataset: sorted largest to smallest as text, the largest place in Belait is reported as Sukang with 81 residents, then Labi, then Bukit Sawat, then Melilas with 29, and only then Kuala Belait with 28,793. What makes it dangerous is that parts of the corrupted order are accidentally correct (Labi 727 does sit below Bukit Sawat 759), every printed number is accurate, and only the ordering is nonsense, which is the one column a reader never verifies. The check that catches both: the parts must reconcile with the published total, and 28,793 + 18,313 + 16,813 + 759 + 727 + 81 + 29 + 16 is exactly 65,531. Deliberately distinct from the Bandar Seri Begawan page, whose trap is set membership: that page asks whether two counts overlap, this one asks what type they arrived as, so a reader of both sees an escalation rather than a repeat.",
+    "requiredMentions": [
+      "Kuala Belait",
+      "Panaga School",
+      "Brunei Shell Petroleum",
+      "Jerudong International School",
+      "Seria oil field",
+      "65,531",
+      "2,727",
+      "Melilas",
+      "Sukang",
+      "A number that arrives as text still looks like a number"
+    ],
+    "sources": [
+      {
+        "claim": "Belait is the westernmost and largest district by area at 2,727 square kilometres, with 65,531 people at the 2021 census and about 67,900 estimated for 2025. Mukim populations 2021: Kuala Belait 28,793, Seria 18,313, Liang 16,813, Bukit Sawat 759, Labi 727, Sukang 81, Melilas 29, Kuala Balai 16, which sum exactly to 65,531. Seria oil field found 1929 with commercial production from 1932; South West Ampa 13 km offshore holds over half of Brunei's gas reserves; Brunei LNG at Lumut; Sungai Liang industrial park; British Forces Brunei present at Panaga; five secondary and sixteen primary public schools.",
+        "url": "https://en.wikipedia.org/wiki/Belait_District"
+      },
+      {
+        "claim": "Panaga School is on the Brunei Shell Petroleum camp between Kuala Belait and Seria, was established in 1948, is now operated by Jerudong International School, teaches ages 2 to 13, has about 280 pupils from more than 35 nations, and blends the International Early Years Curriculum and International Primary Curriculum with the British curriculum for English and Mathematics.",
+        "url": "https://www.panagaschool.com/"
+      },
+      {
+        "claim": "Brunei country code +673, subscriber numbers exactly 7 digits in a closed plan with no area codes, mobile prefixes 7 and 8, regulator AITI. This is why the form accepts 7 digits and the +1 strip line is absent.",
+        "url": "https://en.wikipedia.org/wiki/Telephone_numbers_in_Brunei"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim that we prepare a child specifically for IGCSE, Cambridge Lower Secondary or any named international qualification. Panaga's pupils sit no external certificate with us and the page says the work awards nothing.",
+      "Any implication of a relationship with Panaga School, Jerudong International School or Brunei Shell Petroleum. The school is described from its own published information as context for a parent's timing decision, nothing more.",
+      "Any expatriate or oil-sector price. One international rate is published and the page says explicitly that there is no Belait price and no expatriate rate.",
+      "A single published weekly slot. Belait's ordinary-weekend pattern is stated as the likely case, not as a booking, because government households in the same district keep the other pattern.",
+      "Any office, branch, centre or Brunei phone number. Teaching is live online from India and the number shown is Indian.",
+      "The +1 leading-digit strip used on the US and Canada pages. Brunei numbers are 7 digits with no trunk prefix.",
+      "Any re-argument of the SPN21 assessment ladder or the split working week in detail, both of which belong to the Brunei country page and are linked out to."
+    ]
   }
 }

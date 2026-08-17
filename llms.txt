@@ -335,6 +335,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Birmingham, UK: https://learn.modernagecoders.com/coding-classes-in-birmingham
 - Brunei Darussalam: https://learn.modernagecoders.com/coding-classes-in-brunei
 - Bandar Seri Begawan, Brunei: https://learn.modernagecoders.com/coding-classes-in-bandar-seri-begawan
+- Kuala Belait, Belait, Brunei: https://learn.modernagecoders.com/coding-classes-in-kuala-belait
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states
