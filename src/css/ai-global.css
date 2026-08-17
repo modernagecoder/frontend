@@ -54,6 +54,7 @@
 .ag-root.ag-nl  { --ag-accent: #C05621; --ag-accent-soft: rgba(192,86,33,.09); }
 .ag-root.ag-ie  { --ag-accent: #17643B; --ag-accent-soft: rgba(23,100,59,.09); }
 .ag-root.ag-hk  { --ag-accent: #A32638; --ag-accent-soft: rgba(163,38,56,.09); }
+.ag-root.ag-bn  { --ag-accent: #5A4A6F; --ag-accent-soft: rgba(90,74,111,.09); }
 .ag-root.ag-hub { --ag-accent: #B45309; --ag-accent-soft: rgba(180,83,9,.09); }
 
 /* ---------------------------------------------------------------- base */

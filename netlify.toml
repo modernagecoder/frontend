@@ -6951,6 +6951,18 @@
   to = "/src/pages/coding-classes-in-temburong.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-brunei"
+  to = "/src/pages/ai-and-machine-learning-classes-in-brunei.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-brunei.md"
+  to = "/src/pages/ai-and-machine-learning-classes-in-brunei.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

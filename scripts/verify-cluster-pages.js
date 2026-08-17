@@ -53,7 +53,7 @@ const CLUSTERS = {
     css: 'src/css/ai-global.css',
     prefix: 'ag',
     markets: ['om', 'mct', 'kw', 'kwc', 'bh', 'ae', 'sa', 'qa', 'us', 'uk',
-      'lon', 'ch', 'zrh', 'sg', 'ca', 'au', 'de', 'nl', 'ie', 'hk', 'hub'],
+      'lon', 'ch', 'zrh', 'sg', 'ca', 'au', 'de', 'nl', 'ie', 'hk', 'bn', 'hub'],
     siblingRe: /^\/(learn-to-build-ai|ai-and-machine-learning-classes-in-)/
   },
 

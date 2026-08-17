@@ -52,7 +52,8 @@ const SLUGS = [
   'ai-and-machine-learning-classes-in-germany',
   'ai-and-machine-learning-classes-in-netherlands',
   'ai-and-machine-learning-classes-in-ireland',
-  'ai-and-machine-learning-classes-in-hong-kong'
+  'ai-and-machine-learning-classes-in-hong-kong',
+  'ai-and-machine-learning-classes-in-brunei'
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -189,7 +190,8 @@ const LLMS_LABELS = {
   'ai-and-machine-learning-classes-in-germany': 'Germany',
   'ai-and-machine-learning-classes-in-netherlands': 'Netherlands',
   'ai-and-machine-learning-classes-in-ireland': 'Ireland',
-  'ai-and-machine-learning-classes-in-hong-kong': 'Hong Kong'
+  'ai-and-machine-learning-classes-in-hong-kong': 'Hong Kong',
+  'ai-and-machine-learning-classes-in-brunei': 'Brunei'
 };
 
 function wireLlms(slugs) {
