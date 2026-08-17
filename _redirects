@@ -1652,4 +1652,14 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ai-and-machine-learning-classes-in-brunei /src/pages/ai-and-machine-learning-classes-in-brunei.html 200
 /ai-and-machine-learning-classes-in-brunei.md /src/pages/ai-and-machine-learning-classes-in-brunei.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-seria /src/pages/coding-classes-in-seria.html 200
+/coding-classes-in-seria.md /src/pages/coding-classes-in-seria.md 200
+/coding-classes-in-liang /src/pages/coding-classes-in-liang.html 200
+/coding-classes-in-liang.md /src/pages/coding-classes-in-liang.md 200
+/coding-classes-in-gadong /src/pages/coding-classes-in-gadong.html 200
+/coding-classes-in-gadong.md /src/pages/coding-classes-in-gadong.md 200
+/coding-classes-in-jerudong /src/pages/coding-classes-in-jerudong.html 200
+/coding-classes-in-jerudong.md /src/pages/coding-classes-in-jerudong.md 200
 /* /src/pages/404.html 404

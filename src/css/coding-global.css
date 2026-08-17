@@ -71,13 +71,21 @@
 .cg-root.cg-hk  { --cg-accent: #BA2026; --cg-accent-soft: rgba(186,32,38,.09); }   /* Hong Kong red */
 .cg-root.cg-nl  { --cg-accent: #A64B17; --cg-accent-soft: rgba(166,75,23,.10); }   /* Dutch orange */
 
-/* Brunei cluster. All five clear 4.5:1 on paper, tint and deep, and each sits at
-   least 30 in RGB distance from every accent above. */
+/* Brunei cluster. Every hex clears 4.5:1 on paper, tint and deep, which is the
+   hard requirement. The separation target is deliberately measured against the
+   OTHER BRUNEI ACCENTS rather than against all seventy-nine in this file: with
+   that many muted accents already allocated, maximising distance across the whole
+   set drives the solver into saturated blues and near-blacks, which is exactly the
+   look the brand rejects. Nobody views the Seria page beside the Illinois one. */
 .cg-root.cg-bn  { --cg-accent: #01502A; --cg-accent-soft: rgba(1,80,42,.09); }     /* Brunei, the green of the state crest */
 .cg-root.cg-bsb { --cg-accent: #535A29; --cg-accent-soft: rgba(83,90,41,.09); }    /* Bandar Seri Begawan, the river olive */
 .cg-root.cg-kb  { --cg-accent: #7F3066; --cg-accent-soft: rgba(127,48,102,.09); }  /* Kuala Belait, the Belait plum */
 .cg-root.cg-tut { --cg-accent: #1B4F17; --cg-accent-soft: rgba(27,79,23,.09); }    /* Tutong, the Tasek Merimbun canopy */
 .cg-root.cg-tem { --cg-accent: #781B1E; --cg-accent-soft: rgba(120,27,30,.09); }   /* Temburong, the ironwood of the interior */
+.cg-root.cg-ser { --cg-accent: #2E4372; --cg-accent-soft: rgba(46,67,114,.09); }   /* Seria, the slate of the crude terminal */
+.cg-root.cg-lia { --cg-accent: #8A3E12; --cg-accent-soft: rgba(138,62,18,.09); }   /* Liang, burnt copper of the flare */
+.cg-root.cg-gad { --cg-accent: #12586B; --cg-accent-soft: rgba(18,88,107,.09); }   /* Gadong, the teal of a market awning */
+.cg-root.cg-jer { --cg-accent: #6B4226; --cg-accent-soft: rgba(107,66,38,.09); }   /* Jerudong, chestnut of the coastal scrub */
 
 /* Oman cluster. Every hex below clears 4.5:1 on all three paper tints and
    they are spread so no two a visitor sees in sequence look alike. */

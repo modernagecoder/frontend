@@ -2286,5 +2286,166 @@
       "Any office, branch, centre or Brunei phone number. Teaching is live online from India and the number shown is Indian.",
       "The +1 leading-digit strip used on the US and Canada pages. Brunei numbers are 7 digits with no trunk prefix."
     ]
+  },
+  "coding-classes-in-seria": {
+    "market": "Seria",
+    "bodyClass": "cg-ser",
+    "curriculumAuthority": "SPN21 under Brunei's Ministry of Education, argued in full on the country page and the Kuala Belait page, not repeated here. This page's subject is SCALE MISMATCH plus SCHEDULE. Seria town recorded 2,659 residents at the 2021 census while Mukim Seria recorded 18,313, so the town is roughly a seventh of the mukim named after it and the two figures must be kept apart. The municipal area is 1.56 sq km and the town lies 65 km west of Bandar Seri Begawan. The field beneath it was located in 1929 by the British Malayan Petroleum Company, production began in 1931, first export 1932; by 1935 royalties were 47 per cent of state revenue and between 1932 and 1959 the government received $340 million in royalties; the field has been continuously in production since 1931. Around the town sit the Seria refinery (the only refinery in Brunei), the Seria Crude Oil Terminal, a gas compression plant, and at Panaga the headquarters of Brunei Shell Petroleum. The commercial argument is the SHIFT PATTERN: a town of 2,659 cannot fill a class at a given level, and its adults work rosters and rotations that a fixed local timetable does not survive, so the slot is agreed per household and pausing costs one month.",
+    "localProject": "A cumulative total can only go up. The Billionth Barrel Monument, built in 1991, marks the billionth barrel from a field producing since 1931; asked whether the field was doing well in 1991, most learners say yes. But a cumulative total is monotonic by construction, so its direction is fixed by arithmetic before any data arrives and carries no information. What the figure DOES support: 1931 to 1991 is sixty years, so an average of about 16.7 million barrels a year or roughly 45,600 a day, and a field producing ten times that in 1955 and a tenth of it in 1990 reaches the same total on the same date. The slope of the cumulative curve is the production rate, so a flattening curve describes decline and still points up and to the right. General rule: ask whether the quantity can move in both directions. Total users ever registered, total cases recorded, total revenue since founding: none can fall, so none can show that anything got worse. Arithmetic verified in python. Distinct from every other page in the cluster: Bandar Seri Begawan is set membership, Kuala Belait is data type, Tutong is choice of summary statistic, Temburong is choice of model, Gadong is choice of denominator, Liang is the join key, Jerudong is missing versus zero. This one is a quantity that is monotonic by construction.",
+    "requiredMentions": [
+      "Billionth Barrel Monument",
+      "British Malayan Petroleum Company",
+      "Seria Crude Oil Terminal",
+      "2,659",
+      "18,313",
+      "1.56",
+      "47 per cent of state revenue",
+      "A cumulative total can only go up",
+      "45,600 barrels a day",
+      "Panaga"
+    ],
+    "sources": [
+      {
+        "claim": "Seria town population 2,659 at the 2021 census, municipal area 1.56 square kilometres, 65 km west of Bandar Seri Begawan. Oil field found 1929 by the British Malayan Petroleum Company, production began 1931 and first export 1932, royalties 47 per cent of state revenue by 1935, $340 million in royalties 1932 to 1959, continuous production since 1931. Billionth Barrel Monument built 1991 to commemorate the billionth barrel from the Seria field. Seria refinery is the only refinery in Brunei; Seria Crude Oil Terminal and a gas compression plant; Brunei Shell Petroleum headquartered at Panaga.",
+        "url": "https://en.wikipedia.org/wiki/Seria,_Brunei"
+      },
+      {
+        "claim": "Mukim Seria recorded 18,313 at the 2021 census, within Belait district's total of 65,531.",
+        "url": "https://en.wikipedia.org/wiki/Belait_District"
+      },
+      {
+        "claim": "Brunei country code +673, subscriber numbers exactly 7 digits in a closed plan with no area codes, mobile prefixes 7 and 8, regulator AITI. Proven live on 17 August 2026: a 7-digit number with countryIso BN returned HTTP 201 from both /api/contact/submit and /api/callback/request.",
+        "url": "https://en.wikipedia.org/wiki/Telephone_numbers_in_Brunei"
+      }
+    ],
+    "rejectedClaims": [
+      "Any office, branch, centre or Brunei phone number. Teaching is live online from India and the number shown is Indian.",
+      "The +1 leading-digit strip used on the US and Canada pages. Brunei numbers are 7 digits with no trunk prefix.",
+      "A published weekly slot. Brunei is the one country whose working week is not continuous, so the page asks which days a household is free rather than advertising a default.",
+      "Any figure for current or annual production from the Seria field. None was found and none is estimated; the page is explicit that the cumulative milestone supports only a sixty-year average.",
+      "Any claim that the field was or was not in decline in 1991. The whole point of the project is that the available figure cannot answer that, and the page does not answer it either.",
+      "Any relationship with Brunei Shell Petroleum. The company is named as context for the town's shape and schedules, nothing more."
+    ]
+  },
+  "coding-classes-in-liang": {
+    "market": "Liang and Lumut",
+    "bodyClass": "cg-lia",
+    "curriculumAuthority": "SPN21 alongside the British-influenced international programme at Panaga, as set out on the Kuala Belait page and not re-argued here. This page's subject is GROWTH AND NAMES. Mukim Liang, in northern Belait on the South China Sea, recorded 14,301 residents at the 2016 census and 16,813 at the 2021 one, an increase of 2,512 or 17.6 per cent in five years, against the capital's six water village mukims falling from 10,250 to 8,902, about thirteen per cent, over the same interval. In 2016 the mukim was 32.3 per cent urban and 67.7 per cent rural and 51.4 per cent male. It contains twenty listed settlements and is anchored by the Sungai Liang Industrial Park with Brunei Fertilizer Industries. The commercial argument: provision follows population with a lag of years, so a growing young mukim is precisely where local options have not caught up, and an online group removes the wait entirely.",
+    "localProject": "Joining on a name merges things that are not the same. Three settlements in this mukim carry the name Lumut: Kampong Lumut with 171 residents, RPN Kampong Lumut Area 1 with 2,035 and RPN Kampong Lumut Area 2 with 5,605, together 7,811. A loose match collapses them into one row and reports the village at forty-five times its size; a strict match drops the two housing scheme rows and 7,640 people vanish with no error raised. One join, two opposite silent failures. The fix is not a better string comparison but to stop joining on names at all, because names get abbreviated, transliterated, prefixed with RPN, suffixed with Area 2 and renamed: an identifier is a value that exists in order to be matched and a name is not one. The check taught: count rows before and after the join; up means something matched more than once, down means something matched nothing. Distinct from Jerudong, which is about a lookup returning NOTHING, and from Gadong, which is about which population goes underneath a division.",
+    "requiredMentions": [
+      "RPN Kampong Lumut Area 2",
+      "Kampong Sungai Bakong",
+      "Sungai Liang Industrial Park",
+      "Brunei Fertilizer Industries",
+      "16,813",
+      "14,301",
+      "17.6 per cent",
+      "7,811",
+      "An identifier is a value that exists in order to be matched",
+      "Kampong Tunggulian"
+    ],
+    "sources": [
+      {
+        "claim": "Mukim Liang is in Belait district, recorded 14,301 in 2016 and 16,813 in 2021, was 32.3 per cent urban and 67.7 per cent rural and 51.4 per cent male in 2016, and comprises twenty listed settlements including Kampong Sungai Tali 1,051, Kampong Sungai Bakong 1,642, Kampong Lumut 171, RPN Kampong Lumut Area 1 2,035, RPN Kampong Lumut Area 2 5,605, Kampong Sungai Liang 641 and Kampong Tunggulian 656. Sungai Liang Industrial Park and Brunei Fertilizer Industries are located here.",
+        "url": "https://en.wikipedia.org/wiki/Mukim_Liang"
+      },
+      {
+        "claim": "The six Kampong Ayer mukims in the capital fell from 10,250 in 2016 to 8,902 in 2021, which is the comparison used against Liang's growth.",
+        "url": "https://en.wikipedia.org/wiki/Kampong_Ayer"
+      },
+      {
+        "claim": "Brunei country code +673, subscriber numbers exactly 7 digits in a closed plan with no area codes, mobile prefixes 7 and 8, regulator AITI. Proven live on 17 August 2026: a 7-digit number with countryIso BN returned HTTP 201 from both /api/contact/submit and /api/callback/request.",
+        "url": "https://en.wikipedia.org/wiki/Telephone_numbers_in_Brunei"
+      }
+    ],
+    "rejectedClaims": [
+      "Any office, branch, centre or Brunei phone number. Teaching is live online from India and the number shown is Indian.",
+      "The +1 leading-digit strip used on the US and Canada pages. Brunei numbers are 7 digits with no trunk prefix.",
+      "A published weekly slot. Brunei is the one country whose working week is not continuous, so the page asks which days a household is free rather than advertising a default.",
+      "Any claim that the seven settlements listed sum to the mukim total. They are the largest seven of twenty and the page says so explicitly rather than implying a reconciliation it cannot support.",
+      "Any explanation of WHY Liang grew. The growth is documented; its cause is not, and the page does not speculate about industrial employment driving it.",
+      "Any operational detail about Brunei Fertilizer Industries or the industrial park beyond their presence, which is all the source supports."
+    ]
+  },
+  "coding-classes-in-gadong": {
+    "market": "Gadong",
+    "bodyClass": "cg-gad",
+    "curriculumAuthority": "SPN21, with the Years 7 and 8 window and the Brunei-Cambridge GCE argued in full on the country and Bandar Seri Begawan pages. This page's subject is SCOPE. Kampong Gadong is a village and neighbourhood inside Bandar Seri Begawan, in Mukim Gadong 'B', covering 254.4872 hectares, and recorded 3,356 residents at the 2021 census. Mukim Gadong 'A' recorded 35,424 and Mukim Gadong 'B' 38,067, giving 73,491 between them. Brunei-Muara district recorded 318,530 and its eighteen mukims sum to EXACTLY that figure, which the page uses as its reconciliation check. Landmarks: the Centrepoint Hotel completed in 1994 as part of the Abdul Razak Complex, and The Mall with the Rizqun International Hotel inaugurated on 9 July 2006. IMPORTANT CONSISTENCY NOTE: 318,530 is the 2021 census figure for Brunei-Muara and the 332,462 used on the Bandar Seri Begawan page is a later estimate; the source note says so rather than letting the two sit unexplained.",
+    "localProject": "The denominator is a choice, and a rate means nothing until you name it. Asked for shops per thousand people in Gadong, the learner finds four defensible populations: 3,356 for the village, 38,067 for the mukim containing it, 73,491 for both Gadong mukims, and 318,530 for the district whose residents actually shop there. The largest is ninety-five times the smallest, so the rate moves by that factor while the numerator never changes, and every one of the four is real and correctly cited. Nothing in the data selects between them, because rightness is a property of the question rather than of the numbers: how well served the residents are makes residents the denominator, how busy the shops are makes arrivals the denominator, and most of those live elsewhere. The discipline taught is to write the sentence before the code: this is X per Y, where Y is the population of, as of, counted by. General form: crime per resident in a district full of visitors, revenue per employee where half the staff are contractors, cases per capita where the population moved. Distinct from Bandar Seri Begawan's set membership, which asks whether one count sits INSIDE another; this asks which count belongs UNDERNEATH a division.",
+    "requiredMentions": [
+      "Kampong Gadong",
+      "Rizqun International Hotel",
+      "Abdul Razak Complex",
+      "Centrepoint Hotel",
+      "3,356",
+      "35,424",
+      "38,067",
+      "318,530",
+      "The denominator is a choice",
+      "254.4872"
+    ],
+    "sources": [
+      {
+        "claim": "Kampong Gadong recorded 3,356 residents in 2021, covers 254.4872 hectares, lies in Mukim Gadong 'B' within Bandar Seri Begawan; the Centrepoint Hotel was completed in 1994 as part of the Abdul Razak Complex and The Mall with the Rizqun International Hotel was inaugurated on 9 July 2006.",
+        "url": "https://en.wikipedia.org/wiki/Gadong,_Brunei"
+      },
+      {
+        "claim": "Brunei-Muara district recorded 318,530 at the 2021 census across eighteen mukims including Gadong 'A' 35,424 and Gadong 'B' 38,067, and those eighteen figures sum to exactly 318,530.",
+        "url": "https://en.wikipedia.org/wiki/Brunei%E2%80%93Muara_District"
+      },
+      {
+        "claim": "Brunei country code +673, subscriber numbers exactly 7 digits in a closed plan with no area codes, mobile prefixes 7 and 8, regulator AITI. Proven live on 17 August 2026: a 7-digit number with countryIso BN returned HTTP 201 from both /api/contact/submit and /api/callback/request.",
+        "url": "https://en.wikipedia.org/wiki/Telephone_numbers_in_Brunei"
+      }
+    ],
+    "rejectedClaims": [
+      "Any office, branch, centre or Brunei phone number. Teaching is live online from India and the number shown is Indian.",
+      "The +1 leading-digit strip used on the US and Canada pages. Brunei numbers are 7 digits with no trunk prefix.",
+      "A published weekly slot. Brunei is the one country whose working week is not continuous, so the page asks which days a household is free rather than advertising a default.",
+      "Any actual count of shops in Gadong. The project is about the denominator, the numerator is supplied by the learner, and no retail figure is asserted anywhere on the page.",
+      "The Gadong Night Market, Times Square, or any university or hospital in Gadong. None of these appears in the source consulted, so none is claimed.",
+      "Any suggestion that 318,530 corrects the 332,462 used elsewhere on this site. They are a census return and a later estimate, and the source note says so."
+    ]
+  },
+  "coding-classes-in-jerudong": {
+    "market": "Jerudong",
+    "bodyClass": "cg-jer",
+    "curriculumAuthority": "Several school systems in one area, which is why placement here is explicitly curriculum-independent; SPN21 itself is argued on the country page. This page's subject is a PLACE WITH NO ADMINISTRATIVE UNIT OF ITS OWN. There is NO Mukim Jerudong. Kampong Jerudong is a settlement of Mukim Sengkurong, which recorded 40,972 at the 2021 census and is the largest of Brunei-Muara's eighteen mukims. Kampong Jerudong itself recorded 3,856 at the 2016 census, covers 32.97 sq km, takes in twenty-three settlements and lies about 21 km from the capital. Institutions far larger than the resident population: Jerudong Park, opened 1994, free admission for years, revamped and relaunched 2014, amphitheatre concerts in 1996; Jerudong Park Medical Centre housing Gleneagles JPMC; The Empire, a five-star beach resort, opened 2000. Commercial argument: a small resident population wrapped around institutions that draw nationally, plus households that move, so nothing here depends on a building and a learner keeps the same teacher and group through a posting.",
+    "localProject": "An absent record is not a zero. A lookup for Jerudong in the mukim table returns nothing because the mukim is called Sengkurong, and what happens next is a choice usually made without noticing. A default of zero, or a fill after a merge, turns a fact the data does not contain into a fact it appears to assert: Jerudong, population 0. That row then enters the sum harmlessly, drags the mean down, wins the minimum, and sits at the bottom of the sorted table looking like a real finding. Three states are separated that ordinary code mashes together: a genuine zero is a measurement, a missing value means nobody measured, and a value under another key means it was measured and filed elsewhere, which is the case here. Rule: never let a lookup failure become a value; keep missing as missing, print the missing count beside every summary, and find out why before filling anything in. Distinct from Liang, which is about a join that matches too much or too little between records that BOTH EXIST; this one is about nothing coming back at all.",
+    "requiredMentions": [
+      "Mukim Sengkurong",
+      "Jerudong Park",
+      "Gleneagles JPMC",
+      "The Empire",
+      "40,972",
+      "3,856",
+      "32.97",
+      "twenty-three settlements",
+      "An absent record is not a zero",
+      "no such mukim"
+    ],
+    "sources": [
+      {
+        "claim": "Kampong Jerudong recorded 3,856 at the 2016 census, covers 32.97 square kilometres, takes in twenty-three settlements, lies about 21 km from Bandar Seri Begawan and belongs to Mukim Sengkurong. Jerudong Park opened in 1994, used to offer free admission and was revamped and relaunched in 2014, with amphitheatre concerts in 1996. Jerudong Park Medical Centre houses Gleneagles JPMC. The Empire, a five-star beach resort, opened in 2000.",
+        "url": "https://en.wikipedia.org/wiki/Jerudong"
+      },
+      {
+        "claim": "The eighteen mukims of Brunei-Muara at the 2021 census contain no Mukim Jerudong; Mukim Sengkurong is the largest at 40,972, followed by Mentiri 39,324, Berakas 'B' 39,284 and Gadong 'B' 38,067, and the eighteen sum to exactly the published district total of 318,530.",
+        "url": "https://en.wikipedia.org/wiki/Brunei%E2%80%93Muara_District"
+      },
+      {
+        "claim": "Brunei country code +673, subscriber numbers exactly 7 digits in a closed plan with no area codes, mobile prefixes 7 and 8, regulator AITI. Proven live on 17 August 2026: a 7-digit number with countryIso BN returned HTTP 201 from both /api/contact/submit and /api/callback/request.",
+        "url": "https://en.wikipedia.org/wiki/Telephone_numbers_in_Brunei"
+      }
+    ],
+    "rejectedClaims": [
+      "Any office, branch, centre or Brunei phone number. Teaching is live online from India and the number shown is Indian.",
+      "The +1 leading-digit strip used on the US and Canada pages. Brunei numbers are 7 digits with no trunk prefix.",
+      "A published weekly slot. Brunei is the one country whose working week is not continuous, so the page asks which days a household is free rather than advertising a default.",
+      "Jerudong International School. It is real and well known, but the source consulted for this page does not cover it, so no claim about it, its curriculum or its outcomes appears anywhere on the page.",
+      "Any figure for visitors to Jerudong Park, before or after the change from free admission. None was found and none is estimated.",
+      "Any 2021 figure for Kampong Jerudong. The settlement figure available is 2016 and the page labels it as such, while the mukim figure quoted alongside it is 2021.",
+      "Any claim that Jerudong is missing from official records. It is fully recorded, under Mukim Sengkurong, and the page says so; the project is about what code does with a failed lookup, not about a gap in the data."
+    ]
   }
 }

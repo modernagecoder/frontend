@@ -339,6 +339,10 @@ USD 100 a month small group, USD 150 a month one to one.
 - Kuala Belait, Belait, Brunei: https://learn.modernagecoders.com/coding-classes-in-kuala-belait
 - Tutong, Brunei: https://learn.modernagecoders.com/coding-classes-in-tutong
 - Temburong, Brunei: https://learn.modernagecoders.com/coding-classes-in-temburong
+- Seria, Belait, Brunei: https://learn.modernagecoders.com/coding-classes-in-seria
+- Liang and Lumut, Belait, Brunei: https://learn.modernagecoders.com/coding-classes-in-liang
+- Gadong, Bandar Seri Begawan, Brunei: https://learn.modernagecoders.com/coding-classes-in-gadong
+- Jerudong, Brunei-Muara, Brunei: https://learn.modernagecoders.com/coding-classes-in-jerudong
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

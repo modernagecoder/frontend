@@ -6963,6 +6963,48 @@
   to = "/src/pages/ai-and-machine-learning-classes-in-brunei.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-seria"
+  to = "/src/pages/coding-classes-in-seria.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-seria.md"
+  to = "/src/pages/coding-classes-in-seria.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-liang"
+  to = "/src/pages/coding-classes-in-liang.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-liang.md"
+  to = "/src/pages/coding-classes-in-liang.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-gadong"
+  to = "/src/pages/coding-classes-in-gadong.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-gadong.md"
+  to = "/src/pages/coding-classes-in-gadong.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-jerudong"
+  to = "/src/pages/coding-classes-in-jerudong.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-jerudong.md"
+  to = "/src/pages/coding-classes-in-jerudong.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -62,7 +62,7 @@ const CLUSTERS = {
   // docs/superpowers/specs/2026-08-15-international-growth-cluster-design.md
   'coding-global': {
     label: 'International growth cluster',
-    fileRe: /^coding-classes-in-(madinat-al-sultan-qaboos|bandar-seri-begawan|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|kuala-belait|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|temburong|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|brunei|dhofar|khasab|kuwait|muscat|tutong|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)\.html$/,
+    fileRe: /^coding-classes-in-(madinat-al-sultan-qaboos|bandar-seri-begawan|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|kuala-belait|jerudong|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|temburong|gadong|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|brunei|liang|seria|dhofar|khasab|kuwait|muscat|tutong|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)\.html$/,
     css: 'src/css/coding-global.css',
     prefix: 'cg',
     markets: ['om', 'mct', 'kw', 'bh', 'hk', 'nl', 'nj', 'ca', 'tx', 'ny', 'il',
@@ -73,9 +73,9 @@ const CLUSTERS = {
       'duq', 'kha', 'dhf', 'btn', 'bts', 'dak', 'shn', 'shs', 'dhr', 'bur',
       'msd', 'wst',
       // Brunei cluster: country plus its four districts
-      'bn', 'bsb', 'kb', 'tut', 'tem'],
+      'bn', 'bsb', 'kb', 'tut', 'tem', 'ser', 'lia', 'gad', 'jer'],
     dossierFile: 'content/coding-global-dossiers.json',
-    siblingRe: /^\/coding-classes-in-(madinat-al-sultan-qaboos|bandar-seri-begawan|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|kuala-belait|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|temburong|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|brunei|dhofar|khasab|kuwait|muscat|tutong|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)$/
+    siblingRe: /^\/coding-classes-in-(madinat-al-sultan-qaboos|bandar-seri-begawan|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|kuala-belait|jerudong|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|temburong|gadong|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|brunei|liang|seria|dhofar|khasab|kuwait|muscat|tutong|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)$/
   }
 };
 
@@ -93,7 +93,8 @@ const OMAN_GOVERNORATES = new Set(['dhofar', 'al-batinah-north', 'al-batinah-sou
 // Brunei's four districts. Bandar Seri Begawan, Kuala Belait and Tutong carry a
 // city's depth floor; Temburong is an exclave of 9,564 people and is held to the
 // governorate floor rather than a city one.
-const BRUNEI_CITIES = new Set(['bandar-seri-begawan', 'kuala-belait', 'tutong']);
+const BRUNEI_CITIES = new Set(['bandar-seri-begawan', 'kuala-belait', 'tutong',
+  'seria', 'liang', 'gadong', 'jerudong']);
 const BRUNEI_DISTRICTS = new Set(['temburong']);
 
 function pageTypeOf(slug) {

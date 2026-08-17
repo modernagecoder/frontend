@@ -100,7 +100,11 @@ const MARKETS = [
   ['coding-classes-in-bandar-seri-begawan',       'Bandar Seri Begawan, Brunei'],
   ['coding-classes-in-kuala-belait',              'Kuala Belait, Belait, Brunei'],
   ['coding-classes-in-tutong',                    'Tutong, Brunei'],
-  ['coding-classes-in-temburong',                 'Temburong, Brunei']
+  ['coding-classes-in-temburong',                 'Temburong, Brunei'],
+  ['coding-classes-in-seria',                     'Seria, Belait, Brunei'],
+  ['coding-classes-in-liang',                     'Liang and Lumut, Belait, Brunei'],
+  ['coding-classes-in-gadong',                    'Gadong, Bandar Seri Begawan, Brunei'],
+  ['coding-classes-in-jerudong',                  'Jerudong, Brunei-Muara, Brunei']
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

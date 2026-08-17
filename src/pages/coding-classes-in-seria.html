@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding Classes in Seria, Brunei | Modern Age Coders</title>
+  <meta name="description" content="Live online coding and AI classes for Seria and Panaga, the Brunei oil town of 2,659 people, for ages 6 to 67. USD 100 a month, and the first class is free.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-classes-in-seria">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-classes-in-seria.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#2E4372">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-classes-in-seria">
+  <meta property="og:title" content="Coding Classes in Seria, Brunei | Modern Age Coders">
+  <meta property="og:description" content="A town of 2,659 people sits on a field that has produced oil without a break since 1931. Live online coding and AI classes, built for the households that run it.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_BN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding Classes in Seria">
+  <meta name="twitter:description" content="Live online coding, AI and maths for Seria and Panaga. Published USD fees and a free first class.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="BN-BE">
+  <meta name="geo.placename" content="Seria">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/coding-global.css?v=20260817">
+
+  <!-- PAGE PERSONALITY. Guide section 19. Override-only, every selector prefixed
+       .cg-root.cg-ser, whitelisted properties, no new class names. The page
+       renders correctly with this block deleted.
+       Seria is a refinery town, so the page is set like a plant schedule: a heavier hairline grid on the tables, the alignment column ruled top and bottom rather than between rows, the callout given a rule down each side, and slightly tighter section rhythm than the rest of the cluster. -->
+  <style>
+  .cg-root.cg-ser .cg-section            { padding-block: 3.9rem; }
+  .cg-root.cg-ser .cg-align              { border-top: 2px solid var(--cg-accent); border-bottom: 2px solid var(--cg-accent); padding-block: 0.6rem; }
+  .cg-root.cg-ser .cg-align-row          { border-bottom: 1px solid var(--cg-rule); }
+  .cg-root.cg-ser .cg-spec               { border: 0; border-left: 4px solid var(--cg-accent); border-right: 4px solid var(--cg-accent); padding-inline: 1.4rem; }
+  .cg-root.cg-ser .cg-table td           { border-color: var(--cg-rule-2); }
+  .cg-root.cg-ser .cg-table td + td      { text-align: right; font-family: var(--cg-mono); }
+  .cg-root.cg-ser .cg-table th + th      { text-align: right; }
+  .cg-root.cg-ser .cg-section-head h2    { letter-spacing: -0.022em; }
+  @media (max-width: 900px) {
+    .cg-root.cg-ser .cg-spec             { border-right: 0; padding-inline: 1rem; }
+  }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com",
+        "logo": "https://learn.modernagecoders.com/images/logo.svg",
+        "foundingDate": "2020",
+        "areaServed": { "@type": "City", "name": "Seria", "containedInPlace": { "@type": "Country", "name": "Brunei Darussalam" } },
+        "knowsAbout": ["Computer Science Education", "Artificial Intelligence", "Computational Thinking", "Python", "Mathematics", "Algorithms", "Data Analysis", "Web Development", "Scratch"]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Coding Classes in Brunei", "item": "https://learn.modernagecoders.com/coding-classes-in-brunei" },
+          { "@type": "ListItem", "position": 3, "name": "Seria", "item": "https://learn.modernagecoders.com/coding-classes-in-seria" }
+        ]
+      },
+      {
+        "@type": "Course",
+        "name": "Live Online Coding, AI and Maths Classes for Seria",
+        "description": "Live online coding, artificial intelligence and mathematics in small groups or private lessons for learners in Seria, Panaga and across Belait district, taught from India with no journey required.",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "educationalLevel": "Primary, Secondary, Sixth Form, University, Adult",
+        "inLanguage": "en",
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "courseWorkload": "PT2H",
+          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/coding-classes-in-seria" }
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "100",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://learn.modernagecoders.com/coding-classes-in-seria"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "My roster changes. Can the class move with it?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and this is the market where we get asked most. There is no minimum term and no enrolment charge, so a month paused for a rotation costs you that month and nothing further. Where a pattern is regular we can usually place a learner in a slot that matches it, and where it is not, one to one is the sensible format because the time is yours rather than a group's. What we will not do is take a booking for a slot we can already see the household will miss half of."}},
+          {"@type": "Question", "name": "Do you have anywhere in Seria or Panaga?", "acceptedAnswer": {"@type": "Answer", "text": "None in the town, none at Panaga, none anywhere in Brunei. Teaching reaches you as a live video call from India, and the number on this page is an Indian one. From your end the list is short: a computer rather than a phone, a connection that stays up for ninety minutes, a microphone that works, and a browser that has been updated recently. Nothing is purchased and nothing is installed."}},
+          {"@type": "Question", "name": "Only 2,659 people live in the town. Is a group class realistic?", "acceptedAnswer": {"@type": "Answer", "text": "It is, and the reason is that the town has nothing to do with who is in the room. Groups of five to eight are built on what each learner can demonstrate, drawn from an intake across twenty-five countries. A fourteen year old in Seria therefore works with people at their own standard instead of with whoever lives close by and is roughly the right age, which in a town of this size is the difference between having a class and not having one."}},
+          {"@type": "Question", "name": "My child is on the international programme rather than SPN21. Does that matter?", "acceptedAnswer": {"@type": "Answer", "text": "Not to the teaching, and Belait is where the question comes up most in Brunei. Placement is by watching a learner attempt one problem, which does not depend on a curriculum. What we do change is the vocabulary, so a lesson is not built around a syllabus your child has never opened. Full detail on the two systems side by side is on the Kuala Belait page."}},
+          {"@type": "Question", "name": "How much do coding classes in Seria cost?", "acceptedAnswer": {"@type": "Answer", "text": "The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of five to eight compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term."}},
+          {"@type": "Question", "name": "What time would the lesson be, and does it drift?", "acceptedAnswer": {"@type": "Answer", "text": "It does not drift. Brunei holds UTC plus 8 for the whole year and India holds UTC plus 5:30 for the whole year, so the separation is permanently two and a half hours: half past seven here is five in the afternoon for the teacher. A family that has done European postings tends to find that surprising, because a schedule agreed in one season usually needs redoing in the next. Not here."}},
+          {"@type": "Question", "name": "Which days do you teach on?", "acceptedAnswer": {"@type": "Answer", "text": "Whichever days the household names, and in Brunei that is a genuine question rather than a formality, because the country does not run a single working week. Belait leans toward a conventional Monday to Friday because of the energy sector, but government households here keep the other pattern. We ask on the free call. The evidence is on the Brunei country page."}},
+          {"@type": "Question", "name": "Does this replace school?", "acceptedAnswer": {"@type": "Answer", "text": "It does not replace school, and nothing here is examined or certified. The addition is a run of weeks on a single piece of work with an adult who can read failing code and explain the failure. School timetables are not built to hand that to one subject. And when the correct advice is to do less rather than more, during a certificate term for example, that is the advice given."}},
+          {"@type": "Question", "name": "Do adults join from the plant?", "acceptedAnswer": {"@type": "Answer", "text": "Regularly. Ages six to sixty-seven are taught, and in Belait a good share of adult learners come from the energy sector and its contractors wanting to stop assembling the same monthly return by hand. That is a narrow, finishable goal and it usually suits one to one, often completed within a few months."}},
+          {"@type": "Question", "name": "What happens after we send the form?", "acceptedAnswer": {"@type": "Answer", "text": "A person reads it and telephones to arrange the free session. No card is asked for and nothing is charged. To be plain about it: sending the form opens a conversation and does not hold a place in any class. Course, format and evening are all settled in that conversation before money comes up."}}
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Online coding, AI and mathematics classes",
+    "provider": { "@type": "EducationalOrganization", "name": "Modern Age Coders", "url": "https://learn.modernagecoders.com/" },
+    "areaServed": { "@type": "City", "name": "Seria", "containedInPlace": { "@type": "Country", "name": "Brunei Darussalam" } },
+    "availableChannel": { "@type": "ServiceChannel", "serviceUrl": "https://learn.modernagecoders.com/coding-classes-in-seria", "availableLanguage": ["en"] }
+  }
+  </script>
+</head>
+<body class="cg-root cg-ser">
+
+<a class="cg-sr" href="#main">Skip to content</a>
+
+<nav class="cg-nav" aria-label="Primary">
+  <div class="cg-wrap cg-nav-inner">
+    <a class="cg-nav-brand" href="/">Modern Age <span>Coders</span></a>
+    <div class="cg-nav-links">
+      <a href="#picks">Courses</a>
+      <a href="#place">The town</a>
+      <a href="#project">Student project</a>
+      <a href="#fees">Fees</a>
+      <a class="cg-nav-cta" href="#start">Book a free class</a>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+
+<header class="cg-section cg-hero">
+  <div class="cg-wrap">
+    <p class="cg-crumbs"><a href="/">Home</a> / <a href="/coding-classes-in-brunei">Brunei</a> / Seria</p>
+    <div class="cg-hero-grid">
+      <div>
+        <span class="cg-eyebrow">Seria, Belait District / Live online</span>
+        <h1>A town of 2,659 people sits on a field that has produced without a break since 1931</h1>
+
+        <div class="cg-capsule">
+          <p class="cg-capsule-q">The short answer</p>
+          <p>Seria recorded 2,659 residents at the 2021 census, and Mukim Seria, the wider administrative unit, recorded 18,313. Around that small town sit the only refinery in the country, the Seria Crude Oil Terminal and the Brunei Shell Petroleum headquarters at Panaga. Modern Age Coders runs live online lessons in coding, AI and mathematics for six to sixty-seven year olds here, priced from USD 100 monthly. Because none of it happens in a room, a household working shifts or rotations is not penalised for it. The first lesson is free.</p>
+        </div>
+
+        <p class="cg-lede">The interesting thing about Seria is the ratio. Very few residents, very large infrastructure, and a set of household schedules that a fixed local timetable would struggle to serve.</p>
+
+        <p>Teaching happens over live video out of India. Because Brunei sits at UTC plus 8 and India at UTC plus 5:30 with no seasonal change at either end, the separation is a fixed two and a half hours and an agreed time does not need revisiting. Nothing of ours exists in this town.</p>
+
+        <div class="cg-btn-row">
+          <a class="cg-btn" href="#start">Book the free first class</a>
+          <a class="cg-btn cg-btn-wa" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Seria." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'coding-classes-in-seria'});">Ask on WhatsApp</a>
+          <a class="cg-btn cg-btn--ghost" href="#place">Read the evidence</a>
+        </div>
+        <p class="cg-hero-note">No card. No obligation. We call, we do not spam.</p>
+        <p class="cg-verified">Facts last verified 17 August 2026. Teaching is online; no premises in Brunei are claimed.</p>
+      </div>
+
+      <aside>
+        <div class="cg-trust">
+          <div class="cg-fact"><span class="cg-fact-k">10,000+</span><span class="cg-fact-l">students taught</span></div>
+          <div class="cg-fact"><span class="cg-fact-k">4.9</span><span class="cg-fact-l">across 547 Google reviews</span></div>
+          <div class="cg-fact"><span class="cg-fact-k">2020</span><span class="cg-fact-l">teaching since</span></div>
+          <div class="cg-fact"><span class="cg-fact-k">25+</span><span class="cg-fact-l">countries</span></div>
+          <div class="cg-fact"><span class="cg-fact-k">6 to 67</span><span class="cg-fact-l">ages taught</span></div>
+          <div class="cg-fact"><span class="cg-fact-k">5 to 8</span><span class="cg-fact-l">students per group</span></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="cg-section" id="picks">
+  <div class="cg-wrap">
+    <div class="cg-section-head">
+      <span class="cg-eyebrow">Courses for Seria and Panaga</span>
+      <h2>Four sensible starting points, not one course for everybody</h2>
+      <p>Four entry points, and in a town whose adults work shifts and rotations the useful question is not which course sounds good but which one survives the household calendar. There is one for a child still in primary school, one for the two years before a stream is chosen, one for a teenager already deep in certificate work, and one for a working adult.</p>
+    </div>
+    <div class="cg-picks">
+      <a class="cg-pick" href="/courses/kids-coding-blocks-masterclass">
+        <img class="cg-pick-shot" src="/images/kids-coding.webp" alt="Kids Coding Blocks Masterclass course thumbnail" loading="lazy" decoding="async" width="400" height="250">
+        <div class="cg-pick-body">
+          <span class="cg-pick-band">Ages 6 to 10</span>
+          <h3 class="cg-pick-title">Kids Coding Blocks Masterclass</h3>
+          <p class="cg-pick-note">Sequencing, conditions and debugging before syntax becomes the distraction.</p>
+          <span class="cg-pick-go">See the syllabus</span>
+        </div>
+      </a>
+      <a class="cg-pick" href="/courses/maths-through-coding">
+        <img class="cg-pick-shot" src="/images/maths-through-coding.webp" alt="Maths Through Coding course thumbnail" loading="lazy" decoding="async" width="400" height="250">
+        <div class="cg-pick-body">
+          <span class="cg-pick-band">Ages 9 to 14</span>
+          <h3 class="cg-pick-title">Maths Through Coding</h3>
+          <p class="cg-pick-note">Variables, coordinates and patterns become things a learner can run and test.</p>
+          <span class="cg-pick-go">See the syllabus</span>
+        </div>
+      </a>
+      <a class="cg-pick" href="/courses/python-complete-masterclass-teens">
+        <img class="cg-pick-shot" src="/images/python-teens.webp" alt="Python Complete Masterclass for Teens course thumbnail" loading="lazy" decoding="async" width="400" height="250">
+        <div class="cg-pick-body">
+          <span class="cg-pick-band">Ages 13 to 18</span>
+          <h3 class="cg-pick-title">Python Complete Masterclass for Teens</h3>
+          <p class="cg-pick-note">A structured move from logic to functions, data and independent programs.</p>
+          <span class="cg-pick-go">See the syllabus</span>
+        </div>
+      </a>
+      <a class="cg-pick" href="/courses/html-css-course-for-beginners-build-real-websites">
+        <img class="cg-pick-shot" src="/images/html-css-beginners.webp" alt="HTML and CSS for Beginners course thumbnail" loading="lazy" decoding="async" width="400" height="250">
+        <div class="cg-pick-body">
+          <span class="cg-pick-band">Teens and adults</span>
+          <h3 class="cg-pick-title">HTML and CSS for Beginners</h3>
+          <p class="cg-pick-note">The shortest route to something a learner can show a parent who has just come off a shift.</p>
+          <span class="cg-pick-go">See the syllabus</span>
+        </div>
+      </a>
+    </div>
+    <p class="cg-picks-more cg-boiler">That is four of more than a hundred. The rest, sorted by age and subject, sit on the <a class="cg-inline-link" href="/course-atlas">course atlas</a>, and the order we teach them in is on the <a class="cg-inline-link" href="/coding-roadmap">coding roadmap</a>.</p>
+  </div>
+</section>
+
+<section class="cg-section cg-section--tint" id="place">
+  <div class="cg-wrap">
+    <div class="cg-section-head">
+      <span class="cg-eyebrow">Verified 17 August 2026</span>
+      <h2>Small town, large plant, and a field that has never stopped</h2>
+      <p>The numbers below are worth knowing because they explain why a fixed local class here is difficult and an online one is not.</p>
+    </div>
+
+      <p>Seria lies sixty-five kilometres west of Bandar Seri Begawan and covers a municipal area of 1.56 square kilometres. The town itself recorded <strong>2,659</strong> residents at the 2021 census. The mukim that surrounds it recorded 18,313, so the two figures describe different things and are worth keeping apart; the town is roughly a seventh of the mukim named after it.</p>
+
+      <p>The field beneath it was located in <strong>1929</strong> by the British Malayan Petroleum Company. Production began in 1931 and the first export followed in 1932. By 1935, royalties from it accounted for <strong>47 per cent of state revenue</strong>, and between 1932 and 1959 the government received $340 million in royalties. The field has been continuously in production since 1931.</p>
+
+      <p>What sits around the town today is disproportionate to its population: the Seria refinery, which is the only refinery in Brunei, the Seria Crude Oil Terminal, a gas compression plant, and at <strong>Panaga</strong> the headquarters of Brunei Shell Petroleum along with its recreational facilities and a resident population of hornbills.</p>
+
+      <div class="cg-table-wrap">
+        <table class="cg-table">
+          <thead><tr><th>Seria in figures</th><th>Value</th></tr></thead>
+          <tbody><tr><td>Town population, 2021 census</td><td>2,659</td></tr><tr><td>Mukim Seria population, 2021 census</td><td>18,313</td></tr><tr><td>Municipal area</td><td>1.56 sq km</td></tr><tr><td>Distance to Bandar Seri Begawan</td><td>65 km</td></tr><tr><td>Oil field located</td><td>1929</td></tr><tr><td>Production began</td><td>1931</td></tr><tr><td>First export</td><td>1932</td></tr><tr><td>Royalties as a share of state revenue, 1935</td><td>47 per cent</td></tr><tr><td>Billionth Barrel Monument built</td><td>1991</td></tr></tbody>
+        </table>
+      </div>
+
+    <div class="cg-spec">
+      <p class="cg-spec-title">Why a fixed evening class is hard here and an online one is not</p>
+      <p>A town of 2,659 people cannot fill a class at any particular level in any particular subject, and that is only half the problem. The other half is that the adults here work to industrial schedules: shifts, rotations and postings, none of which line up with a fixed Tuesday at five. An online class solves both at once. The group is assembled by ability from our intake across twenty-five countries rather than from the town, and the recurring slot is agreed with your household rather than published in advance. If the schedule changes, the class moves with it instead of being lost.</p>
+    </div>
+
+    <p class="cg-source-note">Sources: Seria town population of 2,659 at the 2021 census, the municipal area of 1.56 square kilometres, the distance of 65 kilometres from the capital, the discovery of the field in 1929 by the British Malayan Petroleum Company, production from 1931 and first export in 1932, royalties at 47 per cent of state revenue by 1935, $340 million in royalties between 1932 and 1959, continuous production since 1931, the Billionth Barrel Monument built in 1991 to commemorate the billionth barrel from the Seria field, the refinery being the only one in Brunei, the Seria Crude Oil Terminal and Brunei Shell Petroleum headquartered at Panaga, all from the <a class="cg-inline-link" href="https://en.wikipedia.org/wiki/Seria,_Brunei">Seria</a> summary citing Brunei government and company material. Mukim Seria at 18,313 from the <a class="cg-inline-link" href="https://en.wikipedia.org/wiki/Belait_District">Belait District</a> 2021 census breakdown. Verified 17 August 2026.</p>
+  </div>
+</section>
+
+<section class="cg-section cg-section--deep" id="alignment">
+  <div class="cg-wrap">
+    <div class="cg-section-head">
+      <span class="cg-eyebrow">Alignment</span>
+      <h2>What a Seria household is up against, and our answer to it</h2>
+      <p>The constraint on the left is the household reality here. Our answer is on the right.</p>
+    </div>
+    <div class="cg-align">
+      <div class="cg-align-row">
+        <div class="cg-align-req"><span class="cg-align-code">SHIFTS AND ROTATIONS</span><p>Industrial schedules do not line up with a fixed weekly evening, and a missed month usually ends a course.</p></div>
+        <div class="cg-align-ours"><p>The slot is agreed with you and can be moved when the roster moves. Pausing for a rotation costs nothing and no minimum term applies.</p></div>
+      </div>
+      <div class="cg-align-row">
+        <div class="cg-align-req"><span class="cg-align-code">2,659 RESIDENTS</span><p>A town this size cannot supply five to eight learners at one level in one subject who are free at one hour.</p></div>
+        <div class="cg-align-ours"><p>The group is drawn from our whole intake across twenty-five countries. Level decides who a learner sits with; the town has no bearing on it.</p></div>
+      </div>
+      <div class="cg-align-row">
+        <div class="cg-align-req"><span class="cg-align-code">TWO CURRICULA NEARBY</span><p>Belait households sit on SPN21 or on the international programme at Panaga, and the two do not line up by year.</p></div>
+        <div class="cg-align-ours"><p>Placement follows a task in the free session rather than a year group, and the vocabulary of a lesson is matched to the school a learner actually attends.</p></div>
+      </div>
+      <div class="cg-align-row">
+        <div class="cg-align-req"><span class="cg-align-code">65 KM TO THE CAPITAL</span><p>Anything specialised in Bandar Seri Begawan is an hour and a bit each way, twice.</p></div>
+        <div class="cg-align-ours"><p>No journey at all, and none of the attrition that comes with one. The commitment is two evenings rather than two evenings plus the road.</p></div>
+      </div>
+      <div class="cg-align-row">
+        <div class="cg-align-req"><span class="cg-align-code">A FIXED 2H30 OFFSET</span><p>Neither Brunei nor India moves its clocks at any point in the year.</p></div>
+        <div class="cg-align-ours"><p>An evening agreed once is still the right evening twelve months later, including through a posting to another country.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cg-section" id="ask">
+  <div class="cg-wrap">
+    <div class="cg-contact-row">
+      <p>Tell us the age, the school and which evenings the roster leaves free. That is enough for a recommendation.</p>
+      <a class="cg-btn cg-btn-wa" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Seria." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'coding-classes-in-seria',pos:'mid'});">Ask on WhatsApp</a>
+      <a class="cg-btn cg-btn--ghost" href="#start">Book the free class</a>
+    </div>
+  </div>
+</section>
+
+<section class="cg-section" id="ladder">
+  <div class="cg-wrap">
+    <div class="cg-section-head">
+      <span class="cg-eyebrow">Placement</span>
+      <h2>A course ladder that leaves room for school</h2>
+      <p>Building first, explaining second, typing third. Nothing has to be memorised before it has been understood. From about fifteen the ladder narrows on purpose, because by then the scarce thing is hours rather than options. Adults enter at the point their goal and prior knowledge support.</p>
+    </div>
+    <div class="cg-ladder">
+      <div class="cg-ladder-col">
+        <h3>Builders</h3>
+        <p class="cg-band-head">Ages 6 to 10</p>
+        <ul>
+          <li><a href="/courses/kids-coding-blocks-masterclass">Kids Coding Blocks</a></li>
+          <li><a href="/courses/scratch-programming-complete-course">Scratch Programming</a></li>
+          <li><a href="/courses/creative-coding-animation-mastery">Creative Coding and Animation</a></li>
+          <li><a href="/courses/early-math-foundations">Early Maths Foundations</a></li>
+        </ul>
+      </div>
+      <div class="cg-ladder-col">
+        <h3>Problem solvers</h3>
+        <p class="cg-band-head">Ages 11 to 13</p>
+        <ul>
+          <li><a href="/courses/maths-through-coding">Maths Through Coding</a></li>
+          <li><a href="/courses/python-ai-kids-masterclass">Python and AI for Kids</a></li>
+          <li><a href="/courses/kids-ai-web-development-course">Kids AI Web Development</a></li>
+          <li><a href="/courses/comprehensive-middle-school-mathematics-mastery">Middle School Mathematics</a></li>
+        </ul>
+      </div>
+      <div class="cg-ladder-col">
+        <h3>Independent programmers</h3>
+        <p class="cg-band-head">Ages 14 to 18</p>
+        <ul>
+          <li><a href="/courses/python-complete-masterclass-teens">Python for Teens</a></li>
+          <li><a href="/courses/html-css-course-for-beginners-build-real-websites">HTML and CSS</a></li>
+          <li><a href="/courses/javascript-course-for-teens-beginners-interactive-web">JavaScript for Teens</a></li>
+          <li><a href="/courses/complete-high-school-mathematics-mastery">High School Mathematics</a></li>
+        </ul>
+      </div>
+      <div class="cg-ladder-col">
+        <h3>Applied study</h3>
+        <p class="cg-band-head">College and adult, 18 to 67</p>
+        <ul>
+          <li><a href="/courses/python-ai-automation-masterclass-college">Python AI Automation</a></li>
+          <li><a href="/courses/data-analysis-mastery-course-college">Data Analysis</a></li>
+          <li><a href="/courses/full-stack-web-development-masterclass-college">Full Stack Web Development</a></li>
+          <li><a href="/courses/data-analytics-mathematics-masterclass">Data Analytics Mathematics</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="cg-mt-2 cg-boiler">The complete catalogue is on the <a class="cg-inline-link" href="/course-atlas">course atlas</a>, and the method is set out on <a class="cg-inline-link" href="/how-we-teach">how we teach</a>.</p>
+  </div>
+</section>
+
+<section class="cg-section cg-section--tint" id="project">
+  <div class="cg-wrap">
+    <div class="cg-section-head">
+      <span class="cg-eyebrow">The student data project</span>
+      <h2>A cumulative total can only go up</h2>
+      <p>Every page in this cluster works through one analytical mistake. Seria has a monument to this one, which makes it the easiest place in the world to teach it.</p>
+    </div>
+
+    <p>The Billionth Barrel Monument was built in 1991 to mark the billionth barrel of crude produced from the Seria field. The learner is given that, plus the fact that production started in 1931, and asked a simple question: was the field doing well in 1991?</p>
+
+    <div class="cg-proj">
+      <div class="cg-proj-meta">
+        <span class="cg-eyebrow">The trap</span>
+        <p class="cg-spec-title">The answer cannot be read off a running total, because a running total never falls</p>
+      </div>
+      <div class="cg-proj-body">
+        <p>The first instinct is to say yes. A billion barrels is a large number and it was reached in 1991, so 1991 sounds like a good year. But a cumulative total is the sum of everything that has happened up to a date, which means it can rise and it can stay flat and it can never, under any circumstances, go down. Its direction is fixed by arithmetic before any data arrives. A quantity whose direction is guaranteed carries no information in that direction.</p>
+        <p>The learner works out what the figure does support. From 1931 to 1991 is sixty years, so a billion barrels is an average of about <strong>16.7 million barrels a year</strong>, or roughly <strong>45,600 barrels a day</strong>, sustained across six decades. That average is real and it is the only rate the cumulative number gives you. It says nothing whatsoever about 1991 in particular, and a field producing at ten times that rate in 1955 and a tenth of it in 1990 would reach exactly the same total on exactly the same date.</p>
+        <p>So the learner plots the two things side by side and sees the point directly. The cumulative curve climbs and keeps climbing. Its <strong>slope</strong>, however, is the annual production rate, and slope is where all the information lives. A cumulative curve that is flattening describes a field in decline, and it is still, on the page, a line going up and to the right. Anybody reading the level rather than the gradient will report growth in the middle of a collapse.</p>
+        <p>The general rule is worth more than the example. <strong>Ask whether the quantity you are looking at is capable of moving in both directions.</strong> Total users ever registered, total cases recorded, total miles driven, total revenue since founding: none of these can fall, so none of them can tell you that anything has got worse. Every one of them appears in real dashboards, presented as though it were evidence. The correction is always the same, and it is one line of code: difference the series and look at the change rather than the level.</p>
+      </div>
+    </div>
+
+    <p class="cg-mt-2">All the figures used are public and linked above. The two averages are the learner's own arithmetic, and the exercise ends by asking what the numbers would have to look like for the average to be misleading, which is a better question than the one it started with.</p>
+  </div>
+</section>
+
+<section class="cg-section" id="ai">
+  <div class="cg-wrap">
+    <div class="cg-section-head">
+      <span class="cg-eyebrow">The question parents ask first</span>
+      <h2>Does coding still matter when AI can write it?</h2>
+    </div>
+    <p>Ask any assistant whether the Seria field was performing well in 1991 and you will usually get a fluent paragraph built around the billionth barrel, because that is the fact the internet has about Seria in 1991.</p>
+    <p>The answer will not normally point out that the billionth barrel is a cumulative milestone and therefore says nothing about that year. It is not that the system does not know; ask it directly whether a cumulative total can decline and it will tell you correctly that it cannot. The gap is that nobody asked, and it does not volunteer the objection to its own answer.</p>
+    <p>That is the whole of what remains for a person. Somebody has to notice that the quantity being quoted is the wrong shape for the question being asked. It is a small habit, it takes a term of being caught out on data you can check to build, and it does not appear in any syllabus.</p>
+    <p>Model building rather than programming foundations is a separate page: <a class="cg-inline-link" href="/ai-and-machine-learning-classes-in-brunei">AI and machine learning classes in Brunei</a>. The longer case is <a class="cg-inline-link" href="/blog/is-coding-worth-learning-2026">is coding still worth learning in 2026?</a>, the order of topics is on <a class="cg-inline-link" href="/coding-roadmap">the coding roadmap</a>, and <a class="cg-inline-link" href="/how-we-teach">how we teach</a> shows an hour from inside.</p>
+  </div>
+</section>
+
+<section class="cg-section cg-section--deep" id="how">
+  <div class="cg-wrap">
+    <div class="cg-section-head">
+      <span class="cg-eyebrow">Live online delivery</span>
+      <h2>How a term runs from a household on shift</h2>
+      <p>Every hour is taught in real time by a person who was there last week. Nothing is recorded in advance.</p>
+    </div>
+    <div class="cg-grid-3">
+      <div><h3>The first hour</h3><p>Free, and it decides the level. One problem, watched rather than marked, and a recommendation you are welcome to push back on.</p></div>
+      <div><h3>Five to eight per group</h3><p>Grouped by demonstrated ability from twenty-five countries. Seria and Kuala Belait are the same address as far as grouping goes.</p></div>
+      <div><h3>Or one to one</h3><p>The usual answer for a rotation, a crowded examination year, or a narrow adult goal.</p></div>
+      <div><h3>Two evenings a week</h3><p>Around eight lessons a month, on evenings your roster actually leaves free rather than evenings we advertise.</p></div>
+      <div><h3>An offset that never moves</h3><p>Two and a half hours, permanently, because summer time is observed at neither end.</p></div>
+      <div><h3>Pausing is normal</h3><p>No minimum term, so a rotation or an examination month costs you the month and nothing else.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cg-section cg-section--tint" id="fees">
+  <div class="cg-wrap">
+    <div class="cg-section-head">
+      <span class="cg-eyebrow">Fees</span>
+      <h2>What do coding classes in Seria cost?</h2>
+      <p class="cg-boiler">No enrolment charge, nothing to buy, no minimum term.</p>
+    </div>
+    <div class="cg-price">
+      <div>
+        <span class="cg-price-name">Group</span>
+        <span class="cg-price-amt">$100</span>
+        <span class="cg-price-alt">per month, 8 classes</span>
+        <p>The usual answer, and the one that supplies what a town of 2,659 cannot: five or six other people at the same level, getting the same thing wrong in different ways.</p>
+      </div>
+      <div class="cg-price--feature">
+        <span class="cg-price-name">Private</span>
+        <span class="cg-price-amt">$150</span>
+        <span class="cg-price-alt">per month, 8 classes</span>
+        <p>Right for a shift pattern no group slot survives, for a narrow adult goal, or for an examination year with nothing spare in it.</p>
+      </div>
+    </div>
+    <p class="cg-mt-2">Two live lessons a week on either plan, and working out which one fits costs nothing. The same figure applies in every country we teach, which means Belait has neither a local price nor an expatriate one, and no room to haggle.</p>
+    <p class="cg-mt-2 cg-boiler">Pauses, plan changes and missed classes are covered on the <a class="cg-inline-link" href="/pricing">pricing page</a>.</p>
+  </div>
+</section>
+
+<section class="cg-section cg-section--deep" id="reviews">
+  <div class="cg-wrap">
+    <div class="cg-section-head">
+      <span class="cg-eyebrow">Reviews</span>
+      <h2>What families say</h2>
+      <p class="cg-boiler">Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.</p>
+    </div>
+    <div class="cg-grid-3">
+      <div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="cg-review-name">Ria Mukherjee</p><p class="cg-review-role">Parent</p></div>
+      <div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="cg-review-name">Samriddha Mondal</p><p class="cg-review-role">Student</p></div>
+      <div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="cg-review-name">Vansh Agarwal</p><p class="cg-review-role">Student</p></div>
+      <div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="cg-review-name">Sonam Oswal</p><p class="cg-review-role">Parent of Dhairya</p></div>
+      <div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="cg-review-name">Sonu Goyal</p><p class="cg-review-role">Parent</p></div>
+      <div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="cg-review-name">Ritu Kedia</p><p class="cg-review-role">Parent</p></div>
+    </div>
+    <p class="cg-mt-2">More, with photographs and student work, on the <a class="cg-inline-link" href="/love">wall of love</a>.</p>
+  </div>
+</section>
+
+<section class="cg-section" id="faq">
+  <div class="cg-wrap">
+    <div class="cg-section-head">
+      <span class="cg-eyebrow">FAQ</span>
+      <h2>Questions from Seria and Panaga households</h2>
+      <p>Beginning with the one a shift pattern raises before anything else.</p>
+    </div>
+    <div class="cg-faq"><div class="cg-faq-item"><h3>My roster changes. Can the class move with it?</h3><p>Yes, and this is the market where we get asked most. There is no minimum term and no enrolment charge, so a month paused for a rotation costs you that month and nothing further. Where a pattern is regular we can usually place a learner in a slot that matches it, and where it is not, one to one is the sensible format because the time is yours rather than a group's. What we will not do is take a booking for a slot we can already see the household will miss half of.</p></div><div class="cg-faq-item"><h3>Do you have anywhere in Seria or Panaga?</h3><p>None in the town, none at Panaga, none anywhere in Brunei. Teaching reaches you as a live video call from India, and the number on this page is an Indian one. From your end the list is short: a computer rather than a phone, a connection that stays up for ninety minutes, a microphone that works, and a browser that has been updated recently. Nothing is purchased and nothing is installed.</p></div><div class="cg-faq-item"><h3>Only 2,659 people live in the town. Is a group class realistic?</h3><p>It is, and the reason is that the town has nothing to do with who is in the room. Groups of five to eight are built on what each learner can demonstrate, drawn from an intake across twenty-five countries. A fourteen year old in Seria therefore works with people at their own standard instead of with whoever lives close by and is roughly the right age, which in a town of this size is the difference between having a class and not having one.</p></div><div class="cg-faq-item"><h3>My child is on the international programme rather than SPN21. Does that matter?</h3><p>Not to the teaching, and Belait is where the question comes up most in Brunei. Placement is by watching a learner attempt one problem, which does not depend on a curriculum. What we do change is the vocabulary, so a lesson is not built around a syllabus your child has never opened. Full detail on the two systems side by side is on the Kuala Belait page.</p></div><div class="cg-faq-item cg-boiler"><h3>How much do coding classes in Seria cost?</h3><p>The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of five to eight compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.</p></div><div class="cg-faq-item cg-boiler"><h3>What time would the lesson be, and does it drift?</h3><p>It does not drift. Brunei holds UTC plus 8 for the whole year and India holds UTC plus 5:30 for the whole year, so the separation is permanently two and a half hours: half past seven here is five in the afternoon for the teacher. A family that has done European postings tends to find that surprising, because a schedule agreed in one season usually needs redoing in the next. Not here.</p></div><div class="cg-faq-item"><h3>Which days do you teach on?</h3><p>Whichever days the household names, and in Brunei that is a genuine question rather than a formality, because the country does not run a single working week. Belait leans toward a conventional Monday to Friday because of the energy sector, but government households here keep the other pattern. We ask on the free call. The evidence is on the Brunei country page.</p></div><div class="cg-faq-item"><h3>Does this replace school?</h3><p>It does not replace school, and nothing here is examined or certified. The addition is a run of weeks on a single piece of work with an adult who can read failing code and explain the failure. School timetables are not built to hand that to one subject. And when the correct advice is to do less rather than more, during a certificate term for example, that is the advice given.</p></div><div class="cg-faq-item"><h3>Do adults join from the plant?</h3><p>Regularly. Ages six to sixty-seven are taught, and in Belait a good share of adult learners come from the energy sector and its contractors wanting to stop assembling the same monthly return by hand. That is a narrow, finishable goal and it usually suits one to one, often completed within a few months.</p></div><div class="cg-faq-item"><h3>What happens after we send the form?</h3><p>A person reads it and telephones to arrange the free session. No card is asked for and nothing is charged. To be plain about it: sending the form opens a conversation and does not hold a place in any class. Course, format and evening are all settled in that conversation before money comes up.</p></div></div>
+    <div class="cg-callout cg-mt-2">
+      <h3>Ask before booking</h3>
+      <p>Send <a class="cg-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Seria.">one message on WhatsApp</a> with the learner's age and your free evenings, or use the form below. Everything is settled before a payment is discussed.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cg-section cg-section--tint" id="start">
+  <div class="cg-wrap">
+    <div class="cg-hero-grid">
+      <div>
+        <span class="cg-eyebrow">Book a free class</span>
+        <h2>One task, and a schedule built around your roster</h2>
+        <p>The opening session costs nothing and is a lesson rather than a pitch. A learner is handed one problem chosen for their age and the teacher reads the approach rather than the result. Tell us the shift pattern while we are on the call, because that decides the format more than anything else does. If the honest recommendation is to wait for a quieter rotation, that is what you will hear.</p>
+        <p>Prefer to read first? Every way of reaching us is on the <a class="cg-inline-link" href="/contact">contact page</a>, the people behind this are described in <a class="cg-inline-link" href="/about">about us</a>, and the national picture is on the <a class="cg-inline-link" href="/coding-classes-in-brunei">Brunei guide</a>.</p>
+      </div>
+
+      <div class="cg-form-panel">
+        <form id="serLeadForm" novalidate>
+          <div class="cg-field"><label for="serName">Parent or student name</label><input type="text" id="serName" name="name" autocomplete="name" required><span class="cg-err" id="serNameErr"></span></div>
+          <div class="cg-field"><label for="serEmail">Email</label><input type="email" id="serEmail" name="email" autocomplete="email" required><span class="cg-err" id="serEmailErr"></span></div>
+          <div class="cg-field"><label for="serPhone">Phone (Brunei mobile number)</label><input type="tel" id="serPhone" name="phone" autocomplete="tel" placeholder="712 3456" required><span class="cg-err" id="serPhoneErr"></span></div>
+          <div class="cg-field"><label for="serGrade">Student year or age</label><input type="text" id="serGrade" name="grade" placeholder="Age 13, or adult" required><span class="cg-err" id="serGradeErr"></span></div>
+          <div class="cg-field"><label for="serMsg">Which evenings are free, and what should they work on?</label><textarea id="serMsg" name="message" placeholder="For example: age 13 in Panaga, father on a two-week rotation, free Sunday and Monday evenings."></textarea></div>
+          <button class="cg-btn" type="submit" id="serSubmit">Book the free class</button>
+          <p class="cg-form-note">No card. No obligation. We call, we do not spam.</p>
+          <p class="cg-err" id="serFormErr" role="alert"></p>
+          <p class="cg-form-ok" id="serOk" hidden>Thank you. We will call you to confirm a slot.</p>
+        </form>
+
+        <div class="cg-contact-row">
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Seria." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'coding-classes-in-seria',pos:'end'});">WhatsApp us</a>
+          <a href="tel:+919123366161">+91 91233 66161</a>
+          <a href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </div>
+        <p class="cg-form-note">WhatsApp reaches us fastest from Brunei and costs nothing to use. The number is Indian, not a local one.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cg-section" id="markets">
+  <div class="cg-wrap">
+    <div class="cg-section-head"><span class="cg-eyebrow">Across Brunei</span><h2>Other guides</h2></div>
+    <div class="cg-markets">
+      <a class="cg-market" href="/coding-classes-in-brunei"><strong>Brunei</strong><span>The country page, and the working week explained</span></a>
+      <a class="cg-market" href="/coding-classes-in-kuala-belait"><strong>Kuala Belait</strong><span>The district town, and Panaga School</span></a>
+      <a class="cg-market" href="/coding-classes-in-liang"><strong>Liang and Lumut</strong><span>The gas end of Belait</span></a>
+      <a class="cg-market" href="/coding-classes-in-bandar-seri-begawan"><strong>Bandar Seri Begawan</strong><span>The capital, in Brunei-Muara</span></a>
+      <a class="cg-market" href="/ai-and-machine-learning-classes-in-brunei"><strong>AI and machine learning</strong><span>Model building rather than programming foundations</span></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div class="cg-contact-bar" id="cgBar">
+  <div class="cg-contact-bar-in">
+    <a class="cg-btn cg-btn-wa" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Seria." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'coding-classes-in-seria',pos:'bar'});">Ask on WhatsApp</a>
+    <a class="cg-btn" href="#start">Book a free class</a>
+  </div>
+</div>
+
+<footer class="cg-footer">
+  <div class="cg-wrap">
+    <div class="cg-grid-3">
+      <div><h3>Start here</h3><ul><li><a href="/courses">All courses</a></li><li><a href="/course-atlas">Course atlas</a></li><li><a href="/pricing">Pricing</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/coding-roadmap">Coding roadmap</a></li></ul></div>
+      <div><h3>Brunei</h3><ul><li><a href="/coding-classes-in-brunei">Coding Classes in Brunei</a></li><li><a href="/coding-classes-in-kuala-belait">Kuala Belait</a></li><li><a href="/coding-classes-in-liang">Liang and Lumut</a></li><li><a href="/coding-classes-in-tutong">Tutong</a></li></ul></div>
+      <div><h3>Company</h3><ul><li><a href="/about">About us</a></li><li><a href="/contact">Contact</a></li><li><a href="/love">Wall of love</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/blog">Blog</a></li></ul></div>
+    </div>
+    <p class="cg-footer-bottom">Modern Age Coders. Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p>
+  </div>
+</footer>
+
+<script>(function(){var API_URL='https://backend-modernagecoders.vercel.app';var form=document.getElementById('serLeadForm');var bar=document.getElementById('cgBar');if(!form)return;function val(id){var e=document.getElementById(id);return e?e.value.trim():'';}function err(id,m){var e=document.getElementById(id);if(e)e.textContent=m||'';}form.addEventListener('focusin',function(){if(bar)bar.hidden=true;});form.addEventListener('focusout',function(){setTimeout(function(){if(bar&&!form.contains(document.activeElement))bar.hidden=false;},0);});form.addEventListener('submit',function(e){e.preventDefault();var name=val('serName'),email=val('serEmail'),phone=val('serPhone'),grade=val('serGrade'),msg=val('serMsg');err('serNameErr','');err('serEmailErr','');err('serPhoneErr','');err('serGradeErr','');err('serFormErr','');var ok=true;if(name.length<2){err('serNameErr','Please enter a name');ok=false;}if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){err('serEmailErr','Please enter a valid email');ok=false;}var digits=phone.replace(/\D/g,'');if(digits.length<7||digits.length>15){err('serPhoneErr','Please enter a valid phone number');ok=false;}if(!grade){err('serGradeErr','Please enter a year or age');ok=false;}if(!ok)return;var btn=document.getElementById('serSubmit');btn.disabled=true;btn.textContent='Sending...';var body={name:name,email:email,contact:digits,countryCode:'+673',countryIso:'BN',countryName:'Brunei Darussalam',message:('Seria enquiry. Student year or age: '+grade+'. '+(msg||'No further detail given.')).slice(0,1000),attribution:{formPage:'/coding-classes-in-seria',landingPage:'/coding-classes-in-seria',referrer:document.referrer||''}};fetch(API_URL+'/api/contact/submit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}).then(function(r){if(!r.ok)throw new Error('Request failed');form.reset();document.getElementById('serOk').hidden=false;if(typeof gtag==='function')gtag('event','generate_lead',{page:'coding-classes-in-seria'});}).catch(function(){err('serFormErr','Something went wrong sending that. Please try again, or reach us on the contact page.');}).finally(function(){btn.disabled=false;btn.textContent='Book the free class';});});})();</script>
+
+</body>
+</html>
