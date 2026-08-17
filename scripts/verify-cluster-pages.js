@@ -62,7 +62,7 @@ const CLUSTERS = {
   // docs/superpowers/specs/2026-08-15-international-growth-cluster-design.md
   'coding-global': {
     label: 'International growth cluster',
-    fileRe: /^coding-classes-in-(madinat-al-sultan-qaboos|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|dhofar|khasab|kuwait|muscat|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)\.html$/,
+    fileRe: /^coding-classes-in-(madinat-al-sultan-qaboos|bandar-seri-begawan|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|kuala-belait|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|temburong|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|brunei|dhofar|khasab|kuwait|muscat|tutong|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)\.html$/,
     css: 'src/css/coding-global.css',
     prefix: 'cg',
     markets: ['om', 'mct', 'kw', 'bh', 'hk', 'nl', 'nj', 'ca', 'tx', 'ny', 'il',
@@ -71,9 +71,11 @@ const CLUSTERS = {
       'bwh', 'seb', 'mut', 'qur', 'mou', 'msq', 'khw', 'ghb', 'azb', 'irf',
       'maw', 'hal', 'khd', 'shr', 'brk', 'sll', 'nzw', 'sur', 'iba', 'ibr',
       'duq', 'kha', 'dhf', 'btn', 'bts', 'dak', 'shn', 'shs', 'dhr', 'bur',
-      'msd', 'wst'],
+      'msd', 'wst',
+      // Brunei cluster: country plus its four districts
+      'bn', 'bsb', 'kb', 'tut', 'tem'],
     dossierFile: 'content/coding-global-dossiers.json',
-    siblingRe: /^\/coding-classes-in-(madinat-al-sultan-qaboos|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|dhofar|khasab|kuwait|muscat|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)$/
+    siblingRe: /^\/coding-classes-in-(madinat-al-sultan-qaboos|bandar-seri-begawan|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|kuala-belait|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|temburong|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|brunei|dhofar|khasab|kuwait|muscat|tutong|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)$/
   }
 };
 
@@ -88,11 +90,17 @@ const OMAN_GOVERNORATES = new Set(['dhofar', 'al-batinah-north', 'al-batinah-sou
   'ad-dakhiliyah', 'ash-sharqiyah-north', 'ash-sharqiyah-south', 'adh-dhahirah',
   'al-buraimi', 'musandam', 'al-wusta', 'muscat']);
 
+// Brunei's four districts. Bandar Seri Begawan, Kuala Belait and Tutong carry a
+// city's depth floor; Temburong is an exclave of 9,564 people and is held to the
+// governorate floor rather than a city one.
+const BRUNEI_CITIES = new Set(['bandar-seri-begawan', 'kuala-belait', 'tutong']);
+const BRUNEI_DISTRICTS = new Set(['temburong']);
+
 function pageTypeOf(slug) {
   const m = slug.replace(/^coding-classes-in-/, '');
   if (OMAN_DISTRICTS.has(m)) return 'district';
-  if (OMAN_CITIES.has(m)) return 'city';
-  if (OMAN_GOVERNORATES.has(m)) return 'governorate';
+  if (OMAN_CITIES.has(m) || BRUNEI_CITIES.has(m)) return 'city';
+  if (OMAN_GOVERNORATES.has(m) || BRUNEI_DISTRICTS.has(m)) return 'governorate';
   return 'market';
 }
 function minWordsFor(slug) {

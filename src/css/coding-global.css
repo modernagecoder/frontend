@@ -71,6 +71,14 @@
 .cg-root.cg-hk  { --cg-accent: #BA2026; --cg-accent-soft: rgba(186,32,38,.09); }   /* Hong Kong red */
 .cg-root.cg-nl  { --cg-accent: #A64B17; --cg-accent-soft: rgba(166,75,23,.10); }   /* Dutch orange */
 
+/* Brunei cluster. All five clear 4.5:1 on paper, tint and deep, and each sits at
+   least 30 in RGB distance from every accent above. */
+.cg-root.cg-bn  { --cg-accent: #01502A; --cg-accent-soft: rgba(1,80,42,.09); }     /* Brunei, the green of the state crest */
+.cg-root.cg-bsb { --cg-accent: #535A29; --cg-accent-soft: rgba(83,90,41,.09); }    /* Bandar Seri Begawan, the river olive */
+.cg-root.cg-kb  { --cg-accent: #7F3066; --cg-accent-soft: rgba(127,48,102,.09); }  /* Kuala Belait, the Belait plum */
+.cg-root.cg-tut { --cg-accent: #1B4F17; --cg-accent-soft: rgba(27,79,23,.09); }    /* Tutong, the Tasek Merimbun canopy */
+.cg-root.cg-tem { --cg-accent: #781B1E; --cg-accent-soft: rgba(120,27,30,.09); }   /* Temburong, the ironwood of the interior */
+
 /* Oman cluster. Every hex below clears 4.5:1 on all three paper tints and
    they are spread so no two a visitor sees in sequence look alike. */
 .cg-root.cg-bwh { --cg-accent: #7053A4; --cg-accent-soft: rgba(112,83,164,.09); }   /* Bawshar, the violet the sands take at dusk */

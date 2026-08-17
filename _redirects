@@ -1628,4 +1628,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-birmingham /src/pages/coding-classes-in-birmingham.html 200
 /coding-classes-in-birmingham.md /src/pages/coding-classes-in-birmingham.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-brunei /src/pages/coding-classes-in-brunei.html 200
+/coding-classes-in-brunei.md /src/pages/coding-classes-in-brunei.md 200
 /* /src/pages/404.html 404

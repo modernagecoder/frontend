@@ -94,7 +94,13 @@ const MARKETS = [
   ['coding-classes-in-adh-dhahirah',              'Adh Dhahirah Governorate, Oman'],
   ['coding-classes-in-al-buraimi',                'Al Buraimi Governorate, Oman'],
   ['coding-classes-in-musandam',                  'Musandam Governorate, Oman'],
-  ['coding-classes-in-al-wusta',                  'Al Wusta Governorate, Oman']
+  ['coding-classes-in-al-wusta',                  'Al Wusta Governorate, Oman'],
+  // Brunei cluster: the country plus its four districts
+  ['coding-classes-in-brunei',                    'Brunei Darussalam'],
+  ['coding-classes-in-bandar-seri-begawan',       'Bandar Seri Begawan, Brunei'],
+  ['coding-classes-in-kuala-belait',              'Kuala Belait, Belait, Brunei'],
+  ['coding-classes-in-tutong',                    'Tutong, Brunei'],
+  ['coding-classes-in-temburong',                 'Temburong, Brunei']
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

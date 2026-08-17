@@ -2066,5 +2066,49 @@
       "The no-majority framing and the majority-versus-plurality data project, both of which belong to the Leicester page. Two English city pages cannot share one argument.",
       "Birmingham City Council census PDF returned HTTP 403, so the population figure is reported as published rather than as read from the council document, and the page says so."
     ]
+  },
+  "coding-classes-in-brunei": {
+    "market": "Brunei",
+    "bodyClass": "cg-bn",
+    "curriculumAuthority": "SPN21, Brunei's National Education System for the 21st Century, administered by the Ministry of Education. Primary runs Year 1 to Year 6 ending in the Penilaian Sekolah Rendah (Primary School Assessment). Secondary runs Year 7 to Year 11: Years 7 and 8 are lower secondary ending in the Student Progress Assessment, and Years 9 to 11 are upper secondary ending in the Brunei-Cambridge GCE Ordinary Level, a qualification jointly branded with Cambridge rather than a purely national one. A learner may opt for a shorter two years of upper secondary instead of three, subject to evaluation of their lower secondary academic record. The Ministry administered or oversaw 232 schools across preschool, primary and secondary as of 2019, in a country of 458,604 people. THE SPINE OF THIS PAGE IS NOT THE CURRICULUM, it is the calendar: Ministry of Finance and Economy division listings state working days as Monday to Thursday and Saturday, Friday varies by division and Sunday appears on none of them, so Saturday is a working day and Brunei is widely described as the only country with a non-contiguous working week. Much of the private sector runs Monday to Friday instead, so two Bruneian households can have completely different free days. The page therefore refuses to publish a default weekly slot. Deliberately NOT led on: the express two-year upper secondary route, which is real and verified but is structurally the same 'the decisive moment is earlier than you think' argument as the Kuwait and Maryland pages, so it sits in the SPN21 section rather than the spine.",
+    "localProject": "The weekend is an input, not a constant. The learner writes the working-days-between-two-dates function every programmer has written, tests it, passes, then runs it for a family in Brunei and is wrong by roughly a day a week, compounding, with no error raised. Every mainstream date library, spreadsheet function and tutorial hardcodes Saturday and Sunday, usually not even as a parameter. The fix reframes the function: the set of non-working days stops being a constant inside the code and becomes an argument passed in, which forces the caller to know it, which forces somebody to ask. In Brunei asking is unavoidable because the answer differs between a government household and an oil-sector one, so one program yields two correct answers depending on an input the original version did not have. Distinct from every other page in the cluster: this is a genuine hardcoded-locale bug rather than a statistical misreading, and it is the only page whose trap the market's own calendar creates. Unused across all 52 existing pages.",
+    "requiredMentions": [
+      "Monday to Thursday and Saturday",
+      "non-contiguous working week",
+      "Penilaian Sekolah Rendah",
+      "Student Progress Assessment",
+      "Brunei-Cambridge GCE Ordinary Level",
+      "Ministry of Finance and Economy",
+      "232 schools",
+      "458,604",
+      "The weekend is an input, not a constant",
+      "two and a half hours ahead"
+    ],
+    "sources": [
+      {
+        "claim": "Brunei Ministry of Finance and Economy division contact listings state working days including \"Monday - Thursday and Saturday\", show Friday hours varying by division, and list no Sunday hours, establishing that Saturday is a working day and the working week is not continuous.",
+        "url": "https://www.mofe.gov.bn/"
+      },
+      {
+        "claim": "SPN21 structure: primary Year 1-6 ending in the Penilaian Sekolah Rendah; secondary Year 7-11; Year 7-8 lower secondary ending in the Student Progress Assessment; Year 9-11 upper secondary ending in the Brunei-Cambridge GCE Ordinary Level; students may opt for a shorter 2 years of upper secondary subject to evaluation of lower secondary academic records; Ministry of Education administered or oversaw 232 schools as of 2019.",
+        "url": "https://en.wikipedia.org/wiki/Education_in_Brunei"
+      },
+      {
+        "claim": "District populations: Brunei-Muara 332,462, Belait 67,887, Tutong 48,691, Temburong 9,564, totalling 458,604.",
+        "url": "https://en.wikipedia.org/wiki/Districts_of_Brunei"
+      },
+      {
+        "claim": "Brunei country code +673, subscriber numbers exactly 7 digits in a closed plan with no area codes, mobile prefixes 7 and 8, regulator AITI. This is why the form accepts 7 digits and the +1 strip line is absent.",
+        "url": "https://en.wikipedia.org/wiki/Telephone_numbers_in_Brunei"
+      }
+    ],
+    "rejectedClaims": [
+      "Any published Brunei figure for hours of computing taught in school. None was found, and the page does not estimate one; it says provision is school-dependent and tells parents to ask.",
+      "Any claim that the government pattern applies to every Bruneian household. It does not. Much of the private sector, energy in particular, runs Monday to Friday, and the page states that explicitly rather than advertising Saturday classes.",
+      "A fixed published weekly class slot. The whole argument of the page is that the free days must be asked for rather than assumed, so publishing a default slot would contradict it.",
+      "Any assertion that the non-contiguous working week is stated as such in a single official document. The division listings evidence the pattern; the characterisation as the only country with such a week is widely reported, and the page labels it as reported rather than official.",
+      "Any Brunei office, branch, centre or local phone number. Teaching is live online from India and the number shown is Indian.",
+      "The +1 leading-digit strip used on the US and Canada pages. Brunei numbers are 7 digits with no trunk prefix, so stripping would corrupt them."
+    ]
   }
 }
