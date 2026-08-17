@@ -1729,5 +1729,42 @@
       }
     ],
     "rejectedClaims": []
+  },
+  "coding-classes-in-kuwait": {
+    "market": "Kuwait",
+    "bodyClass": "cg-kw",
+    "curriculumAuthority": "Kuwait Ministry of Education. Primary Grades 1-5, intermediate 6-9, secondary 10-12; compulsory ages 6 to 14. The Shahadat Al-Thanawiya Al-A'ama is awarded at the end of Grade 12 and the final mark is CUMULATIVE and WEIGHTED: Grade 10 contributes 10 per cent, Grade 11 20 per cent, Grade 12 70 per cent. Science/Arts specialisation from Grade 11. The page's argument turns on that weighting: the pressure is not evenly spread, so Grade 10 is the cheapest year in the whole sequence to add a skill and Grade 12 is the most expensive. Deliberately a DIFFERENT axis from Oman's 'all eight subjects must pass'.",
+    "localProject": "Inclusive-range off-by-one (fencepost). Counting the school terms left before the next certificate tranche closes: 12 minus 10 gives the gaps, not the years, so the answer is 9 terms not 6. Checked against all 43 built pages; no fencepost error is used by the nine US and Canadian traps or the thirty-four Oman traps.",
+    "requiredMentions": [
+      "Shahadat Al-Thanawiya Al-A'ama",
+      "Grade 11 contributes 20 per cent",
+      "Grade 12 contributes 70 per cent",
+      "Indian Educational School",
+      "Sabah Al Salem",
+      "Abu Halifa",
+      "Jabriya",
+      "Mangaf",
+      "two and a half hours behind India",
+      "a straight fence with ten panels"
+    ],
+    "sources": [
+      {
+        "claim": "Kuwait school stages, compulsory ages 6-14, Science/Arts split from Grade 11, and the Shahadat Al-Thanawiya Al-Aama awarded at Grade 12.",
+        "url": "https://www.aacrao.org/edge/country/kuwait/"
+      },
+      {
+        "claim": "Final certificate mark accumulates Grade 10 at 10 per cent, Grade 11 at 20 per cent, Grade 12 at 70 per cent.",
+        "url": "https://www.aacrao.org/edge/country/kuwait/"
+      },
+      {
+        "claim": "Kuwait uses a closed 8-digit numbering plan under country code +965, regulator CITRA; mobile prefixes 5, 6 and 9.",
+        "url": "https://en.wikipedia.org/wiki/Telephone_numbers_in_Kuwait"
+      }
+    ],
+    "rejectedClaims": [
+      "CBSE March 2026 Gulf exam disruption. A search summary claimed the Class 12 exam was CANCELLED for 50,000+ students across 150+ schools. The Gulf News article of 5 March 2026 says Class 10 exams were cancelled and only the 7 March Class 12 paper was POSTPONED, and carries neither figure. Rejected on three counts: the summary misreported it, the outcome after 9 March is unknown to us, and a regional disruption is the wrong spine for a sales page.",
+      "A count of Indian or CBSE schools in Kuwait. Could not verify a figure to a standard we would defend, so the page states no count and says so.",
+      "Anything from the sibling AI page: the Shamal Dust Classifier and Shagaya, the draft national AI strategy and two announced cloud regions, 'driving a model and building one are separate skills', the 'Sunday to Thursday week, not a Western one' framing, the 'four school systems in one country' framing, and the Kuwait City / Salmiya / Fahaheel district trio."
+    ]
   }
 }

@@ -1592,4 +1592,8 @@
 /coding-classes-in-musandam.md /src/pages/coding-classes-in-musandam.md 200
 /coding-classes-in-al-wusta /src/pages/coding-classes-in-al-wusta.html 200
 /coding-classes-in-al-wusta.md /src/pages/coding-classes-in-al-wusta.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-kuwait /src/pages/coding-classes-in-kuwait.html 200
+/coding-classes-in-kuwait.md /src/pages/coding-classes-in-kuwait.md 200
 /* /src/pages/404.html 404
