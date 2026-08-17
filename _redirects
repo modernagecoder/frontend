@@ -1600,4 +1600,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-bahrain /src/pages/coding-classes-in-bahrain.html 200
 /coding-classes-in-bahrain.md /src/pages/coding-classes-in-bahrain.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-hong-kong /src/pages/coding-classes-in-hong-kong.html 200
+/coding-classes-in-hong-kong.md /src/pages/coding-classes-in-hong-kong.md 200
 /* /src/pages/404.html 404

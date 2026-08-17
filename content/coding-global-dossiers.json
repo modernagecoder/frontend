@@ -1802,5 +1802,42 @@
       "Per-type in-scope totals for the 547 institutions. BQA publishes reviewed counts by type but not the denominator per type, so the page states four of the six rates cannot be computed rather than estimating them. This limitation is the point of the data project.",
       "Anything from the sibling AI page: the Bahrain International Airport traffic dataset and the month the minimum moved, the national AI policy and the 50,000 target, the two-different-educations-one-label framing, the Sunday-to-Thursday sentence shape, Bahrain Polytechnic and its 70 per cent, and the Manama-centred district framing."
     ]
+  },
+  "coding-classes-in-hong-kong": {
+    "market": "Hong Kong",
+    "bodyClass": "cg-hk",
+    "curriculumAuthority": "CoolThink@JC, created and funded by The Hong Kong Jockey Club Charities Trust and co-created with MIT, the Education University of Hong Kong and City University of Hong Kong. It provides 14 or more hours of computational thinking and coding education in formal ICT lessons annually to P4 to P6 pupils, across 3 levels and 24 units, and 204 aided and DSS primary schools have adopted it, with stated reach to all publicly funded primary schools. The page argument: Hong Kong is one of few places that has put an actual NUMBER on primary coding, so a parent can stop choosing in the dark. 14+ hours a year is a serious introduction AND roughly one afternoon a term, and the page says both. Deliberately NOT the HKDSE / ICT paper / Extended Part axis, which the sibling AI page already owns.",
+    "localProject": "Treating a bound as a value. The published figure is 14 OR MORE hours a year, so 14 x 3 = 42 is wrong twice: it converts a floor into a point value, and it assumes three sequential LEVELS are identical years. The learner writes the program twice, once returning a single number and once returning a lower bound with the unknowns noted. Unused across all 45 existing pages.",
+    "requiredMentions": [
+      "CoolThink@JC",
+      "Hong Kong Jockey Club Charities Trust",
+      "Education University of Hong Kong",
+      "204 aided and DSS primary schools",
+      "24 units",
+      "14 or more hours",
+      "Tseung Kwan O",
+      "Sha Tin",
+      "Kwun Tong",
+      "A bound is not a value"
+    ],
+    "sources": [
+      {
+        "claim": "CoolThink@JC was created and funded by The Hong Kong Jockey Club Charities Trust, co-created with MIT, EdUHK and CityU; it provides 14+ hours of computational thinking and coding in formal ICT lessons annually to P4-6 across 3 levels and 24 units; 204 aided/DSS primary schools adopted it; stated reach is all publicly funded primary schools.",
+        "url": "https://www.coolthink.hk/en/"
+      },
+      {
+        "claim": "Hong Kong uses 8-digit numbers under country code +852 with no area codes; mobile prefixes 4 to 9; regulator OFCA.",
+        "url": "https://en.wikipedia.org/wiki/Telephone_numbers_in_Hong_Kong"
+      },
+      {
+        "claim": "MIT confirms its role as a co-creator of CoolThink@JC, independently of the programme's own site.",
+        "url": "https://hkinnovationnode.mit.edu/programs/coolthink/"
+      }
+    ],
+    "rejectedClaims": [
+      "The Education Bureau 10 to 14 hours per upper primary level figure. A search summary attributed it to the 2020 Computational Thinking Coding Education Supplement to the Primary Curriculum, but it does not appear on the CoolThink site and was not confirmed at an EDB source, so the page uses only the primary-sourced 14+ figure and says so explicitly.",
+      "Anything from the sibling AI page: Signal No. 8 and the Observatory record, the one-label-two-occupations framing, the HK billion and 200 government procedures, THE HKDSE / ICT paper / Extended Part spine, the timezone heading and its three published recurring slots, and JUPAS.",
+      "Specific recurring class times. The sibling AI page publishes three fixed slots; this page states the fixed 2:30 offset and no daylight saving but leaves the slot to the demo call, per the guide rule on unconfirmed staffing."
+    ]
   }
 }
