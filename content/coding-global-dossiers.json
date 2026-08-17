@@ -2027,5 +2027,44 @@
       "The commercially tempting claim that Indian-heritage Leicester families want Indian curriculum teaching. Explicitly rejected ON the page as a lazy and often insulting assumption.",
       "The English national curriculum computing programme of study as this page spine. Available but reserved, because Birmingham shares it and two city pages cannot both be built on one curriculum."
     ]
+  },
+  "coding-classes-in-birmingham": {
+    "market": "Birmingham (English city)",
+    "bodyClass": "cg-bhm",
+    "curriculumAuthority": "English national curriculum, in which computing is statutory. Birmingham shares BOTH that curriculum AND no-majority status with Leicester, so it needed a third axis entirely. Built instead on the contrast between a number that reconciles and a claim that cannot be tested. VERIFIED: 2021 Census resident population 1,144,900, up 6.7 per cent (71,900) since 2011, and the trio reconciles (1,144,900 - 71,900 = 1,073,000; 71,900/1,073,000 = 6.70 per cent) which the page shows as a positive contrast with the Alberta page where published parts did NOT reconcile. THE CLAIM: Birmingham is the youngest major city in Europe with under 25s nearly 40 per cent, asserted by the University of Birmingham City-REDI analysis WITHOUT citation or method. The page does not repeat it as fact; it uses it to show that a claim missing an operational definition cannot be checked at all. Also uses 400+ schools to argue that a school or year group predicts nothing, so placement is by observed task.",
+    "localProject": "The boundary is part of the statistic. Grounded on a figure we nearly misused: 538,290 students is Birmingham AND the whole West Midlands Metropolitan County, which also contains Coventry, Wolverhampton, Dudley, Sandwell, Solihull and Walsall. The learner attaches a geography field to every figure and makes the comparison function REFUSE to compare records whose geographies differ, then applies the same idea to the youngest-city claim and finds the function needs three parameters nobody supplied. Checked against all 51 built pages; unused.",
+    "requiredMentions": [
+      "1,144,900",
+      "West Midlands Metropolitan County",
+      "the parts agree with the whole",
+      "which comparison set",
+      "Sutton Coldfield",
+      "Handsworth",
+      "Sparkhill",
+      "Selly Oak",
+      "a sentence that cannot be checked is not evidence",
+      "over four hundred schools"
+    ],
+    "sources": [
+      {
+        "claim": "University of Birmingham City-REDI states Birmingham is the youngest major city in Europe with under 25s accounting for nearly 40 per cent of its population, without a source citation or stated methodology.",
+        "url": "https://blog.bham.ac.uk/cityredi/the-birmingham-economic-review-2018-people-population-and-employment/"
+      },
+      {
+        "claim": "2021 Census resident population for Birmingham 1,144,900, up 6.7 per cent (71,900) since 2011.",
+        "url": "https://www.birmingham.gov.uk/download/downloads/id/26348/first_results_for_2021_census.pdf"
+      },
+      {
+        "claim": "Birmingham is one of the English cities with no ethnic group majority, alongside Leicester, London and Manchester.",
+        "url": "https://www.hepi.ac.uk/2023/01/10/leicester-a-super-diverse-city/"
+      }
+    ],
+    "rejectedClaims": [
+      "The 538,290 student figure as a BIRMINGHAM statistic. It covers Birmingham AND the whole West Midlands Metropolitan County. Explicitly quoted on the page only as the example of the boundary trap, never as a city figure. This is the error the page teaches and we nearly made it.",
+      "The youngest-city-in-Europe claim as a fact. Repeated everywhere including by the University of Birmingham, with no published boundary, comparison set or age threshold. Presented as an unverifiable claim, which is the page spine.",
+      "The under-30s 43.8 per cent versus England 35.7 per cent figures, and the -2.1 per cent change in the 20-29 cohort. Both from secondary summaries and not confirmed at a primary source, so neither appears on the page.",
+      "The no-majority framing and the majority-versus-plurality data project, both of which belong to the Leicester page. Two English city pages cannot share one argument.",
+      "Birmingham City Council census PDF returned HTTP 403, so the population figure is reported as published rather than as read from the council document, and the page says so."
+    ]
   }
 }
