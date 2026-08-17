@@ -2110,5 +2110,54 @@
       "Any Brunei office, branch, centre or local phone number. Teaching is live online from India and the number shown is Indian.",
       "The +1 leading-digit strip used on the US and Canada pages. Brunei numbers are 7 digits with no trunk prefix, so stripping would corrupt them."
     ]
+  },
+  "coding-classes-in-bandar-seri-begawan": {
+    "market": "Bandar Seri Begawan",
+    "bodyClass": "cg-bsb",
+    "curriculumAuthority": "SPN21 under Brunei's Ministry of Education, the same system as the country page, so this page deliberately does NOT re-argue the curriculum. Its subject is the administrative shape of the capital. Bandar Seri Begawan sits in Brunei-Muara, the smallest and most populous of the four districts at 332,462 residents. The municipality is estimated at 72,133 people and is composed of THIRTEEN mukims: Berakas 'A', Berakas 'B', Burong Pingai Ayer, Gadong 'A', Gadong 'B', Kianggeh, Kilanas, Kota Batu, Peramu, Saba, Sungai Kebun, Sungai Kedayan and Tamoi. SIX of those thirteen are Kampong Ayer, the stilt settlement over the Brunei River, and both mukim lists were cross-checked so the subset relation is exact. Awang Semaun Secondary School is described as the only school of its kind whose buildings are built on water. On 1 August 2007 the municipal area went from 12.87 to 100.36 square kilometres, roughly eight times larger, with nobody moving house, which is used ONLY as a practical travel-time point because 'the boundary is part of the statistic' is the Birmingham page's argument and must not be repeated here.",
+    "localProject": "You cannot add a part to its whole. The learner is asked how many people live in the capital and its water village, given 72,133 for the city and 10,250 for Kampong Ayer at the 2016 census, and almost everybody adds them to 82,383. But Kampong Ayer's six mukims are six of the capital's thirteen, so the smaller set is entirely contained in the larger, the intersection IS the smaller set, and the union collapses to 72,133. The addition overstated by exactly 10,250, which is 14.2 per cent. The rule taken away: before adding two counts, name one person who is in the first and not the second; if you cannot describe that person the sets are nested and addition is a category error whose size depends on the overlap rather than on the magnitude of the numbers. The extension turns the same discipline on the two census columns: the total falls 10,250 to 8,902 between 2016 and 2021, about 13 per cent, yet two of the six mukims RISE (Peramu 1,111 to 1,151, Sungai Kedayan 230 to 241), so a direction true of a total can be false of its parts. Every mukim figure was fetched from that mukim's own record and the 2016 column sums exactly to the reported 10,250. Distinct from every other page: this is set membership, not a boundary definition and not a statistical misreading.",
+    "requiredMentions": [
+      "Kampong Ayer",
+      "Burong Pingai Ayer",
+      "Sungai Kebun",
+      "Awang Semaun Secondary School",
+      "thirteen mukims",
+      "10,250",
+      "72,133",
+      "332,462",
+      "100.36",
+      "You cannot add a part to its whole"
+    ],
+    "sources": [
+      {
+        "claim": "Bandar Seri Begawan is composed of thirteen mukims, its municipal area went from 12.87 square kilometres to 100.36 on 1 August 2007, and the city population is estimated at 72,133. Metropolitan-area figures are quoted at both 279,924 and 318,530, so no metropolitan figure is used.",
+        "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan"
+      },
+      {
+        "claim": "Kampong Ayer comprises six mukims (Burong Pingai Ayer, Peramu, Saba, Sungai Kebun, Sungai Kedayan, Tamoi), its 2016 census population was 10,250, the settlement held about 28,000 people in 1981 and about 13,000 in 2011, and Awang Semaun Secondary School is the only school of its kind with buildings built on water.",
+        "url": "https://en.wikipedia.org/wiki/Kampong_Ayer"
+      },
+      {
+        "claim": "Mukim Sungai Kebun population 4,750 in 2016 and 4,282 in 2021, in Brunei-Muara district.",
+        "url": "https://en.wikipedia.org/wiki/Mukim_Sungai_Kebun"
+      },
+      {
+        "claim": "Mukim Burong Pingai Ayer population 1,770 in 2016 and 1,459 in 2021, and it is stated to lie within Kampong Ayer.",
+        "url": "https://en.wikipedia.org/wiki/Mukim_Burong_Pingai_Ayer"
+      },
+      {
+        "claim": "Mukim Tamoi 1,389 in 2016 and 942 in 2021; Mukim Peramu 1,111 in 2016 and 1,151 in 2021; Mukim Saba 1,000 in 2016 and 827 in 2021; Mukim Sungai Kedayan 230 in 2016 and 241 in 2021, most of its villages having been cleared for Taman Mahkota Jubli Emas.",
+        "url": "https://en.wikipedia.org/wiki/Mukim_Tamoi"
+      }
+    ],
+    "rejectedClaims": [
+      "The widely repeated figure of about 30,000 residents in Kampong Ayer. It is used ONLY as the worked example of a stale consensus, alongside the 1981 figure of about 28,000 that explains where it came from, and never as a present-tense fact.",
+      "Any metropolitan-area population for the capital. Two different figures are in circulation, 279,924 and 318,530, so the page uses neither and says so.",
+      "Any office, branch, centre or Brunei phone number. Teaching is live online from India and the number shown is Indian.",
+      "Any claim that living in a particular mukim changes the price, the group or the teacher. It does not, and that is the point of the page.",
+      "The boundary-definition argument. The 2007 municipal expansion appears only as a travel-time point, because the analytical use of a boundary belongs to the Birmingham page.",
+      "The +1 leading-digit strip used on the US and Canada pages. Brunei numbers are 7 digits with no trunk prefix.",
+      "Any re-argument of the SPN21 assessment ladder or the split working week, both of which belong to the Brunei country page. The working week appears here as one alignment row about the capital being the seat of government, and links out."
+    ]
   }
 }
