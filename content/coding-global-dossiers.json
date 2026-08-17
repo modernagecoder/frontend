@@ -2200,5 +2200,46 @@
       "The +1 leading-digit strip used on the US and Canada pages. Brunei numbers are 7 digits with no trunk prefix.",
       "Any re-argument of the SPN21 assessment ladder or the split working week in detail, both of which belong to the Brunei country page and are linked out to."
     ]
+  },
+  "coding-classes-in-tutong": {
+    "market": "Tutong",
+    "bodyClass": "cg-tut",
+    "curriculumAuthority": "SPN21 under Brunei's Ministry of Education, the same national system as the country page, so this page does not re-argue the curriculum ladder. Its subject is SUPPLY. Tutong covers 1,166 sq km and recorded 47,210 residents at the 2021 census across eight mukims, the largest being Telisai at 13,253 and the smallest Rambai at 980. A viable class needs five to eight learners sharing a level, a subject and a free hour, and those conditions multiply rather than add, so in a pool this size the set that clears all four is frequently empty. The district's one specialist institution is TUTONG SIXTH FORM CENTRE, which teaches A Level alongside secondary schools including Muda Hashim, Raja Isteri Pengiran Anak Saleha, Sayyidina 'Othman, Sufri Bolkiah and Tanjong Maya. That gives the page its timing argument, distinct from the other Brunei pages: sixth form is where a subject becomes a specialism, so a learner should arrive there having already built things rather than spend the first of two years catching up. Geography used as texture, not as argument: the 137 km Tutong River, Bukit Bedawan at 529 m, and Tasek Merimbun, Brunei's largest natural lake, an ASEAN Heritage Park since 29 November 1984. Population is Tutong, Dusun, Kedayan, Iban and Chinese.",
+    "localProject": "The midrange is not the median. Asked how big a typical Tutong mukim is, a learner takes the halfway point between Telisai's 13,253 and Rambai's 980 and gets 7,116.5, which is one keystroke in a spreadsheet and feels like the middle. FIVE of the eight mukims are below it; only Telisai, Pekan Tutong and Keriam are above. The two statistics that use all the data give 5,901.25 (mean) and 4,417.5 (median), so three defensible answers spread across 2,699, which is more than the entire population of Ukong and nearly three times Rambai's. The demonstration that makes it stick: delete the largest and smallest values and the midrange moves to 5,956 while the median stays at EXACTLY 4,417.5, because the midrange is computed from the two extremes and the median is computed from everything except them. The midrange is not a statistic that happens to be sensitive to outliers, it is a statistic made of nothing but outliers. Every figure verified in python before writing, and the eight mukims sum to exactly the published 47,210. Distinct from the other pages in the cluster: Bandar Seri Begawan is set membership, Kuala Belait is data type, this one is choice of summary statistic.",
+    "requiredMentions": [
+      "Tutong Sixth Form Centre",
+      "Tasek Merimbun",
+      "ASEAN Heritage Park",
+      "Pekan Tutong",
+      "Telisai",
+      "Keriam",
+      "Bukit Bedawan",
+      "47,210",
+      "1,166",
+      "The midrange is not the median"
+    ],
+    "sources": [
+      {
+        "claim": "Tutong district covers 1,166 square kilometres and recorded 47,210 residents at the 2021 census. Mukim populations 2021: Telisai 13,253, Pekan Tutong 9,883, Keriam 8,589, Kiudang 5,063, Tanjong Maya 3,772, Lamunin 3,641, Ukong 2,029, Rambai 980, which sum to exactly 47,210. Tutong Town (Pekan Tutong) is the administrative centre; the Tutong River runs 137 km; Bukit Bedawan is the highest point at 529 m; Tasek Merimbun is Brunei's largest natural lake and an ASEAN Heritage Park since 29 November 1984; ethnic groups listed are Tutong, Dusun, Kedayan, Iban and Chinese; secondary schools include Muda Hashim, Raja Isteri Pengiran Anak Saleha, Sayyidina 'Othman, Sufri Bolkiah and Tanjong Maya, plus Tutong Sixth Form Centre for A Level.",
+        "url": "https://en.wikipedia.org/wiki/Tutong_District"
+      },
+      {
+        "claim": "Brunei is UTC+8 with no daylight saving and India is UTC+5:30 with none, so the offset is permanently two and a half hours, which is why the page promises a slot that never needs revisiting.",
+        "url": "https://en.wikipedia.org/wiki/Time_in_Brunei"
+      },
+      {
+        "claim": "Brunei country code +673, subscriber numbers exactly 7 digits in a closed plan with no area codes, mobile prefixes 7 and 8, regulator AITI. This is why the form accepts 7 digits and the +1 strip line is absent.",
+        "url": "https://en.wikipedia.org/wiki/Telephone_numbers_in_Brunei"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim to prepare a learner for a specific A Level specification or to be affiliated with Tutong Sixth Form Centre. The centre is named as the district's destination institution to make a timing argument, nothing more, and the page states that the work awards nothing.",
+      "Any figure for how many Tutong children currently study computing. None is published and none is estimated.",
+      "Any suggestion that a local class in Tutong is impossible for anybody else to run. The page argues from pool size and says explicitly that this is arithmetic rather than a criticism of the district.",
+      "A published weekly slot. Tutong holds both government and private sector households, which keep different weeks in Brunei, so the page asks rather than advertising a default.",
+      "Any office, branch, centre or Brunei phone number. Teaching is live online from India and the number shown is Indian.",
+      "Any promise that bandwidth inland will be adequate. The page says the free call is where that gets tested and that we will advise waiting rather than take a booking that will fail.",
+      "The +1 leading-digit strip used on the US and Canada pages. Brunei numbers are 7 digits with no trunk prefix."
+    ]
   }
 }
