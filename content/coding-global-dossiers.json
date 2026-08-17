@@ -1839,5 +1839,43 @@
       "Anything from the sibling AI page: Signal No. 8 and the Observatory record, the one-label-two-occupations framing, the HK billion and 200 government procedures, THE HKDSE / ICT paper / Extended Part spine, the timezone heading and its three published recurring slots, and JUPAS.",
       "Specific recurring class times. The sibling AI page publishes three fixed slots; this page states the fixed 2:30 offset and no daylight saving but leaves the slot to the demo call, per the guide rule on unconfirmed staffing."
     ]
+  },
+  "coding-classes-in-netherlands": {
+    "market": "Netherlands",
+    "bodyClass": "cg-nl",
+    "curriculumAuthority": "Dutch digital literacy core objectives. Until this reform there was NO compulsory education in digital literacy or informatics in Dutch primary or lower secondary schooling. In 2022 the Ministry of Education, Culture and Science tasked SLO (Netherlands Institute for Curriculum Development) with developing core objectives; the curriculum was FINALISED IN MARCH 2024 with nine core objectives in three domains: (A) practical knowledge and skills, (B) designing and making, (C) interaction between digital technology, media, people and society. Digital literacy is defined as ICT skills + media literacy + information literacy + computational thinking, with CT integrated throughout. The page argument: a finalised curriculum is a starting gun, not a description of classrooms, so the honest answer to what a child already covers is school-dependent and parents should ask. Deliberate CONTRAST with the Hong Kong page, where a published hours figure exists.",
+    "localProject": "A policy date is not an outcome date. Core objectives finalised March 2024; a 2026 primary leaver spent most of their schooling before that, so the policy cannot have caused most of what a 2026 measurement records. The learner writes a program computing how much of each cohort exposure actually fell inside the policy window. Distinct from a plain correlation-causation exercise: both facts are real and in the right order, the flaw is EXPOSURE. Unused across all 46 existing pages.",
+    "requiredMentions": [
+      "Netherlands Institute for Curriculum Development",
+      "nine core objectives",
+      "Designing and making",
+      "Ministry of Education, Culture and Science",
+      "A policy date is not an outcome date",
+      "Groep 6 to 8",
+      "Almere",
+      "Eindhoven",
+      "CET and CEST",
+      "streaming decision at the end of groep 8"
+    ],
+    "sources": [
+      {
+        "claim": "There has been no compulsory education in digital literacy or informatics in Dutch primary or secondary education; the new curriculum framework formalises it.",
+        "url": "https://www.oecd.org/en/publications/oecd-review-of-digital-education-policy-in-the-netherlands_91118813-en/full-report/the-curriculum-framework-assessments-and-school-evaluations_bde116eb.html"
+      },
+      {
+        "claim": "In 2022 the Ministry tasked SLO with developing core objectives for digital literacy; finalised March 2024; nine core objectives in three domains; digital literacy defined as ICT skills, media literacy, information literacy and computational thinking with CT integrated throughout.",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-73474-8_3"
+      },
+      {
+        "claim": "Netherlands country code +31, national significant number 9 digits, mobile dialled 06 domestically; regulator ACM.",
+        "url": "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Netherlands"
+      }
+    ],
+    "rejectedClaims": [
+      "Any national figure for hours of coding taught in Dutch schools. None exists, because provision depends on each school implementation, and the page says so explicitly rather than estimating one.",
+      "Any claim that these classes help with the groep 8 streaming decision into VMBO, HAVO or VWO. They do not, and the page advises WAITING through that year, which is against our own commercial interest.",
+      "A fixed published weekly class slot. The Netherlands observes daylight saving and India does not, so the offset moves between 4.5 and 3.5 hours. The page uses the approved wording (weekend and late-afternoon easiest, weekday evenings case by case, confirmed on the call).",
+      "Anything from the sibling AI page: the Dutch cycling decline dataset, the operating-versus-constructing framing, the AI-infrastructure policy spine, the Dutch-evenings-and-a-difference-that-moves-twice-a-year heading, and the portfolio-versus-grade framing."
+    ]
   }
 }

@@ -327,6 +327,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Kuwait: https://learn.modernagecoders.com/coding-classes-in-kuwait
 - Bahrain: https://learn.modernagecoders.com/coding-classes-in-bahrain
 - Hong Kong: https://learn.modernagecoders.com/coding-classes-in-hong-kong
+- Netherlands: https://learn.modernagecoders.com/coding-classes-in-netherlands
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states
