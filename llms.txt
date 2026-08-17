@@ -329,6 +329,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Hong Kong: https://learn.modernagecoders.com/coding-classes-in-hong-kong
 - Netherlands: https://learn.modernagecoders.com/coding-classes-in-netherlands
 - Maryland, USA: https://learn.modernagecoders.com/coding-classes-in-maryland
+- British Columbia, Canada: https://learn.modernagecoders.com/coding-classes-in-british-columbia
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

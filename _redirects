@@ -1612,4 +1612,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-maryland /src/pages/coding-classes-in-maryland.html 200
 /coding-classes-in-maryland.md /src/pages/coding-classes-in-maryland.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-british-columbia /src/pages/coding-classes-in-british-columbia.html 200
+/coding-classes-in-british-columbia.md /src/pages/coding-classes-in-british-columbia.md 200
 /* /src/pages/404.html 404

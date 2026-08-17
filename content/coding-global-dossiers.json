@@ -1914,5 +1914,42 @@
       "A published weekday evening class slot on Eastern Time. That is the early hours in India and staffing is unconfirmed, so the page uses the approved wording (weekend easiest, weekday case by case, confirmed on the call) and explains why in a dedicated paragraph.",
       "A Maryland state CS standards spine. Available but rejected: all nine existing US and Canadian pages in this cluster already use adopted-CS-standards as their axis, so a tenth would read as a clone. The CCR timing argument is genuinely different."
     ]
+  },
+  "coding-classes-in-british-columbia": {
+    "market": "British Columbia (Canadian province)",
+    "bodyClass": "cg-bc",
+    "curriculumAuthority": "BC Applied Design, Skills and Technologies (ADST), quoted from the Ministry introduction. K-5: Big Ideas and Curricular Competencies are provided for use with grade-level content from other learning areas, through exploratory and purposeful play. Grades 6-7: a common set of Content options structured as short modules that may be offered in a variety of ways, e.g. in rotation. Grades 8-9: Content options differ from 6 and 7 and may be offered as modular rotations of varying length or as full-year courses. The argument is VARIABILITY: because delivery is by rotation, two students in the same province and grade can both have completed ADST and met different material, so grade level is a poor predictor and every learner is placed by watching. Deliberately different from Ontario in this cluster, where coding sits INSIDE the compulsory Algebra strand.",
+    "localProject": "Combinations versus permutations. Asked how many different module years are possible, learners compute 8x7x6=336, which counts ORDERED selections and overcounts every set of three by 6. The answer is 56. They then generalise to dividing by k factorial and verify the formula against a brute-force enumeration for small n. Checked against all 48 built pages; unused.",
+    "requiredMentions": [
+      "Applied Design, Skills and Technologies",
+      "modular rotations of varying length",
+      "exploratory and purposeful play",
+      "Ask which modules, not whether ADST happened",
+      "Counting arrangements when you meant to count sets",
+      "Coquitlam",
+      "Abbotsford",
+      "Kelowna",
+      "thirteen and a half hours behind India"
+    ],
+    "sources": [
+      {
+        "claim": "ADST K-5 is cross-curricular via Big Ideas and Curricular Competencies used with content from other learning areas, through exploratory and purposeful play.",
+        "url": "https://curriculum.gov.bc.ca/content/applied-design-skills-and-technologiesintroduction"
+      },
+      {
+        "claim": "Grades 6 and 7 content options are structured as short modules that may be offered in a variety of ways, for example in rotation.",
+        "url": "https://curriculum.gov.bc.ca/content/applied-design-skills-and-technologiesintroduction"
+      },
+      {
+        "claim": "Grade 8 and 9 content options differ from Grades 6 and 7 and may be offered as modular rotations of varying length or as full-year courses.",
+        "url": "https://curriculum.gov.bc.ca/content/applied-design-skills-and-technologiesintroduction"
+      }
+    ],
+    "rejectedClaims": [
+      "That ADST is mandatory for grades K-9 and that schools must provide the equivalent of a full-year ADST course. Secondary sources state this; the Ministry introduction page does not, and the K-9 curriculum PDF could not be read at source because it embeds subset fonts with custom glyph encodings rather than extractable text. NOT asserted on the page.",
+      "That students in Grades 6 and 7 must select a minimum of three modules, and any specific module list (Computational Thinking, Digital Literacy, Metalwork, Food Studies etc). Same reason: secondary sources only. The page cites only the rotation structure, and the data project uses numbers the LEARNER chooses rather than a claimed module count.",
+      "Any claim of BC transcript credit or graduation requirement satisfaction. Stated twice on the page that there is none.",
+      "A published weekday class slot. Pacific Time is 12.5 to 13.5 hours behind India, the widest gap in the cluster, so the page states weekend slots are the realistic option and that weekday availability is sometimes nil."
+    ]
   }
 }
