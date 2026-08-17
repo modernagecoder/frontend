@@ -331,6 +331,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Maryland, USA: https://learn.modernagecoders.com/coding-classes-in-maryland
 - British Columbia, Canada: https://learn.modernagecoders.com/coding-classes-in-british-columbia
 - Alberta, Canada: https://learn.modernagecoders.com/coding-classes-in-alberta
+- Leicester, UK: https://learn.modernagecoders.com/coding-classes-in-leicester
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

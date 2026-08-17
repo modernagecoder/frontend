@@ -1989,5 +1989,43 @@
       "A published weekday class slot. Mountain Time is 11.5 to 12.5 hours behind India, so the page uses the approved wording and explains why in its own paragraph.",
       "The assumption that a prerequisite must COMPLETE before the next course starts is flagged on the page as an assumption rather than a verified rule, and the learner is asked to test what happens when it is relaxed."
     ]
+  },
+  "coding-classes-in-leicester": {
+    "market": "Leicester (English city)",
+    "bodyClass": "cg-lei",
+    "curriculumAuthority": "English national curriculum, in which computing is statutory and the school is responsible for it. BOTH English city pages share that curriculum, so neither can be built on it. Leicester is therefore built on the CITY, from ONS Census figures: 2021 total 368,571, Asian or Asian British 43.40 per cent (159,977), White 40.88 per cent (150,657), Black 7.80 per cent (28,766), Mixed 3.77 per cent (13,899), Other 4.14 per cent (15,272); 2011 total 329,839, White 50.52 per cent (166,636), Asian 37.13 per cent (122,470). No group holds a majority; the plurality is Asian or Asian British at 43.40 per cent. The page also states plainly, against the obvious commercial temptation, that INDIAN HERITAGE DOES NOT MEAN INDIAN CURRICULUM: a child in a Leicester school follows the English curriculum and assuming otherwise gets the family wrong.",
+    "localProject": "Majority versus plurality, as two different predicates. Majority is testable on ONE value (is 43.40 > 50), plurality requires the WHOLE list. One predicate is local, the other global, and a learner writing both feels the difference. Second beat on the same table: White share fell 9+ points, White count fell about 16,000, and the city grew by about 38,700, all true and each supporting a different headline, so the program prints all three and refuses to pick. Checked against all 50 built pages; unused.",
+    "requiredMentions": [
+      "no group holds a majority",
+      "43.40 per cent",
+      "368,571",
+      "Indian heritage does not mean Indian curriculum",
+      "Beaumont Leys",
+      "Braunstone",
+      "Belgrave",
+      "Oadby",
+      "Evington",
+      "One predicate is local, the other"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 ethnic group shares and counts for Leicester, total population 368,571, Asian or Asian British 43.40 per cent largest with no group holding a majority.",
+        "url": "https://en.wikipedia.org/wiki/Demographics_of_Leicester"
+      },
+      {
+        "claim": "ONS Census 2011 comparison figures for Leicester, total 329,839, White 50.52 per cent (166,636), Asian 37.13 per cent (122,470).",
+        "url": "https://en.wikipedia.org/wiki/Demographics_of_Leicester"
+      },
+      {
+        "claim": "Leicester is one of a small number of English cities with no ethnic group majority, alongside Birmingham, London and Manchester.",
+        "url": "https://www.hepi.ac.uk/2023/01/10/leicester-a-super-diverse-city/"
+      }
+    ],
+    "rejectedClaims": [
+      "School-age cohort ethnic percentages (Asian/Asian British 33.2 per cent, White British 22.6 per cent among roughly 60,000 resident children). Found in a search summary, and they are NOT comparable with the whole-population figures because the category labels differ (Asian British vs White British vs Asian or Asian British), so putting them in the same table would itself be the error this page teaches. Not published.",
+      "Any claim that these classes count toward a GCSE, appear on a school report, or award a qualification. Stated twice that they do not.",
+      "The commercially tempting claim that Indian-heritage Leicester families want Indian curriculum teaching. Explicitly rejected ON the page as a lazy and often insulting assumption.",
+      "The English national curriculum computing programme of study as this page spine. Available but reserved, because Birmingham shares it and two city pages cannot both be built on one curriculum."
+    ]
   }
 }
