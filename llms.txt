@@ -325,6 +325,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Musandam Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-musandam
 - Al Wusta Governorate, Oman: https://learn.modernagecoders.com/coding-classes-in-al-wusta
 - Kuwait: https://learn.modernagecoders.com/coding-classes-in-kuwait
+- Bahrain: https://learn.modernagecoders.com/coding-classes-in-bahrain
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

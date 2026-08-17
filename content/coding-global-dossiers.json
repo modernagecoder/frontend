@@ -1766,5 +1766,41 @@
       "A count of Indian or CBSE schools in Kuwait. Could not verify a figure to a standard we would defend, so the page states no count and says so.",
       "Anything from the sibling AI page: the Shamal Dust Classifier and Shagaya, the draft national AI strategy and two announced cloud regions, 'driving a model and building one are separate skills', the 'Sunday to Thursday week, not a Western one' framing, the 'four school systems in one country' framing, and the Kuwait City / Salmiya / Fahaheel district trio."
     ]
+  },
+  "coding-classes-in-bahrain": {
+    "market": "Bahrain",
+    "bodyClass": "cg-bh",
+    "curriculumAuthority": "Bahrain Education and Training Quality Authority (BQA). Two independent functions: it runs NATIONAL EXAMINATIONS at Grade 9 and Grade 12 against the national curriculum, assessing students separately from their own school; and it reviews institutions and publishes the findings. Its 2025-2026 sector performance report states 172 of 547 institutions reviewed, 31 per cent. The page argument: Bahrain is one of few systems where a family can see an EXTERNAL measure of both the child and the school, and the gap between the internal and external number is the useful signal. Deliberately a different axis from the sibling AI page, which used Bahrain Polytechnic and the national AI policy.",
+    "localProject": "Counting unlike things as one. BQA reviewed 172 of 547 institutions, but the 172 is 50 government schools, 22 private schools, 51 kindergartens, 24 special education institutions, 22 vocational providers and 3 higher education institutions. One 31 per cent flattens six populations. Distinct from Sohar mismatched-units, which is one quantity measured two ways; this is six different entities counted as the same unit. The learner ends up writing six rates, cannot complete four because in-scope totals per type are not published, and documents that limitation.",
+    "requiredMentions": [
+      "Education and Training Quality Authority",
+      "172 of the 547 institutions",
+      "Special education institutions",
+      "Vocational education and training providers",
+      "Isa Town",
+      "Hamad Town",
+      "Budaiya",
+      "Muharraq",
+      "a kindergarten and a university",
+      "Grade 9 and at Grade 12"
+    ],
+    "sources": [
+      {
+        "claim": "BQA runs national examinations at Grade 9 and Grade 12 against the national curriculum, assessing students independently of their school.",
+        "url": "https://www.bqa.gov.bh/national-examinations/"
+      },
+      {
+        "claim": "2025-2026: 172 of 547 institutions reviewed (31 per cent), being 50 government schools, 22 private schools, 51 kindergartens, 24 special education institutions, 22 VET providers, 3 higher education institutions.",
+        "url": "https://www.bqa.gov.bh/education-and-training-quality-authority-issues-2025-2026-education-and-training-sector-performance-report-in-bahrain/"
+      },
+      {
+        "claim": "Bahrain uses exactly 8 digits under country code +973, no area code, mobile prefixes 3 and 6; regulator TRA.",
+        "url": "https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000110008PDFE.pdf"
+      }
+    ],
+    "rejectedClaims": [
+      "Per-type in-scope totals for the 547 institutions. BQA publishes reviewed counts by type but not the denominator per type, so the page states four of the six rates cannot be computed rather than estimating them. This limitation is the point of the data project.",
+      "Anything from the sibling AI page: the Bahrain International Airport traffic dataset and the month the minimum moved, the national AI policy and the 50,000 target, the two-different-educations-one-label framing, the Sunday-to-Thursday sentence shape, Bahrain Polytechnic and its 70 per cent, and the Manama-centred district framing."
+    ]
   }
 }
