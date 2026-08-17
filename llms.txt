@@ -337,6 +337,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Bandar Seri Begawan, Brunei: https://learn.modernagecoders.com/coding-classes-in-bandar-seri-begawan
 - Kuala Belait, Belait, Brunei: https://learn.modernagecoders.com/coding-classes-in-kuala-belait
 - Tutong, Brunei: https://learn.modernagecoders.com/coding-classes-in-tutong
+- Temburong, Brunei: https://learn.modernagecoders.com/coding-classes-in-temburong
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

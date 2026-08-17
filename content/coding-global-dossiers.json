@@ -2241,5 +2241,50 @@
       "Any promise that bandwidth inland will be adequate. The page says the free call is where that gets tested and that we will advise waiting rather than take a booking that will fail.",
       "The +1 leading-digit strip used on the US and Canada pages. Brunei numbers are 7 digits with no trunk prefix."
     ]
+  },
+  "coding-classes-in-temburong": {
+    "market": "Temburong",
+    "bodyClass": "cg-tem",
+    "curriculumAuthority": "SPN21 under Brunei's Ministry of Education, argued in full on the country page and not repeated here. This page's subject is SUPPLY OF ONE. Temburong is an exclave divided from the rest of Brunei by the Malaysian district of Limbang. It covers 1,306 sq km, the second largest district, and recorded 9,444 residents at the 2021 census, up from 8,852 in 2011 and estimated at about 9,600 by 2024. Bangar is the district town. It has thirteen primary schools, public and private, and exactly ONE secondary school, Sultan Hassan Secondary School, so for a specialised subject a learner is choosing between the one thing that exists and nothing. Ulu Temburong National Park covers more than 500 sq km with a canopy walkway at 250 metres; the Peradayan, Selirong and Labu forest reserves hold mangrove and old growth. The Sultan Haji Omar Ali Saifuddien Bridge opened in 2020 and cut the road journey to the capital from two or more hours via Sarawak, requiring four international passport checks, to about thirty minutes. The page's commercial argument turns on that precisely: the bridge fixed transport and nothing else, and what 9,444 people cannot supply is not travel but a room of five to eight learners at the same level.",
+    "localProject": "The network changed, not the map. A learner writes a travel-time program from coordinates and straight-line distance, which passes on a dozen town pairs, then runs it on Bangar and Bandar Seri Begawan for 2019 and for 2021. It returns the SAME number for both years and was wrong in both: too optimistic in 2019, when the only road route crossed another country and four checkpoints, and too pessimistic in 2021, after the bridge. Nothing on the map moved between those dates, so a coordinate model cannot see the difference and never signals difficulty. The rewrite is a graph: places as nodes, connections as edges, edge cost including the border checks. Bangar and the capital were always close; before 2020 they were simply not adjacent. Distance is a property of geometry, cost is a property of the network, and a model built on the wrong quantity produces stable, plausible answers for years and fails silently on the day the network changes, which is the day somebody is relying on it. Distinct from every other page in the cluster: Bandar Seri Begawan is set membership, Kuala Belait is data type, Tutong is choice of summary statistic, this one is choice of MODEL.",
+    "requiredMentions": [
+      "Sultan Haji Omar Ali Saifuddien Bridge",
+      "Ulu Temburong National Park",
+      "Sultan Hassan Secondary School",
+      "four international passport checks",
+      "Limbang",
+      "Bangar",
+      "9,444",
+      "1,306",
+      "The network changed, not the map",
+      "Distance is a property of geometry"
+    ],
+    "sources": [
+      {
+        "claim": "Temburong is an exclave divided from the rest of Brunei by the Malaysian district of Limbang. Area 1,306 square kilometres, second largest district. Population 8,852 in 2011, 9,444 in 2021, about 9,600 in 2024. Bangar is the administrative centre. Thirteen primary schools and one secondary school, Sultan Hassan Secondary School. Ulu Temburong National Park covers more than 500 square kilometres with a canopy walkway at 250 metres; Peradayan, Selirong and Labu forest reserves.",
+        "url": "https://en.wikipedia.org/wiki/Temburong_District"
+      },
+      {
+        "claim": "The Sultan Haji Omar Ali Saifuddien Bridge opened in 2020, spans Brunei Bay, and reduced the journey from two or more hours via Sarawak requiring four international passport checks to approximately thirty minutes.",
+        "url": "https://en.wikipedia.org/wiki/Sultan_Haji_Omar_Ali_Saifuddien_Bridge"
+      },
+      {
+        "claim": "Brunei is UTC+8 with no daylight saving and India is UTC+5:30 with none, so the offset is permanently two and a half hours, which is why the page promises a slot that never needs revisiting.",
+        "url": "https://en.wikipedia.org/wiki/Time_in_Brunei"
+      },
+      {
+        "claim": "Brunei country code +673, subscriber numbers exactly 7 digits in a closed plan with no area codes, mobile prefixes 7 and 8, regulator AITI. This is why the form accepts 7 digits and the +1 strip line is absent.",
+        "url": "https://en.wikipedia.org/wiki/Telephone_numbers_in_Brunei"
+      }
+    ],
+    "rejectedClaims": [
+      "A mukim population table. The five figures reported for this district (Amo 1,667, Bokok 3,812, Bangar 2,112, Batu Apoi 1,355, Labu 508) sum to 9,454 against a published district total of 9,444, a gap of ten I could not resolve. Belait and Tutong carry mukim tables that DO reconcile exactly, so a non-reconciling third one is not published, and the source note says why.",
+      "Any claim that the bridge caused the population rise between the 2011 and 2021 censuses. The bridge covers only the last year or two of that decade, and the exposure argument belongs to the Netherlands page.",
+      "Any promise about bandwidth in the district. The page says the free class is where the connection gets tested and that we will advise waiting rather than take a booking that will fail.",
+      "Any suggestion that Sultan Hassan Secondary School is inadequate. The page argues from there being one of it, which is a fact about supply rather than about quality, and says so.",
+      "A published weekly slot. Brunei does not run a single working week and the page asks rather than assuming.",
+      "Any office, branch, centre or Brunei phone number. Teaching is live online from India and the number shown is Indian.",
+      "The +1 leading-digit strip used on the US and Canada pages. Brunei numbers are 7 digits with no trunk prefix."
+    ]
   }
 }

@@ -1644,4 +1644,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-tutong /src/pages/coding-classes-in-tutong.html 200
 /coding-classes-in-tutong.md /src/pages/coding-classes-in-tutong.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-temburong /src/pages/coding-classes-in-temburong.html 200
+/coding-classes-in-temburong.md /src/pages/coding-classes-in-temburong.md 200
 /* /src/pages/404.html 404
