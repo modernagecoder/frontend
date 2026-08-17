@@ -1951,5 +1951,43 @@
       "Any claim of BC transcript credit or graduation requirement satisfaction. Stated twice on the page that there is none.",
       "A published weekday class slot. Pacific Time is 12.5 to 13.5 hours behind India, the widest gap in the cluster, so the page states weekend slots are the realistic option and that weekday availability is sometimes nil."
     ]
+  },
+  "coding-classes-in-alberta": {
+    "market": "Alberta (Canadian province)",
+    "bodyClass": "cg-ab",
+    "curriculumAuthority": "Alberta CTS Computing Science (CSE), verified from the Calgary Board of Education CBe-learn listing. Every course is worth 1 CREDIT, students usually aim to complete five in a semester, and an Alberta High School Diploma requires a minimum of 100 credits, so one CSE course is one per cent of a diploma and competes with fine arts, second languages and PE for the same optional space. The load-bearing structure is the PREREQUISITE GRAPH: CSE1110 Structured Programming 1 (none) -> CSE1120 (needs 1110) -> CSE2110 Procedural Programming 1 (needs 1120) -> CSE2120 Data Structures 1 (needs 2110) -> CSE3110 Iterative Algorithm 1 (needs 2120) -> CSE3310 Recursive Algorithms 1 (needs 3110 AND 3120), with CSE3120 Object-oriented Programming 1 needing 2110. Client-side Scripting 1 and 2 and the CSE project courses have NO prerequisite. Argument: six links deep and high school is six semesters, so the ORDER decides whether the deep end is reachable, and arriving at Grade 10 already able to program is worth a semester. Deliberately different from BC (rotations, no credit) and Ontario (coding inside compulsory Algebra strand).",
+    "localProject": "Longest path through a dependency graph, i.e. capacity does not beat dependency. Six courses at five per semester looks like two semesters; the bound is the DEPTH of the chain, six, because a queue is not shortened by spare capacity. The learner builds the graph as course-to-prerequisites, writes a longest-chain function, and finds adding capacity changes nothing while removing one prerequisite changes everything. Critical path as a real algorithm rather than a metaphor. Checked against all 49 built pages; unused.",
+    "requiredMentions": [
+      "CSE1110 Structured Programming 1",
+      "CSE3310 Recursive Algorithms 1",
+      "Iterative Algorithm 1",
+      "Client-side Scripting 1 and 2",
+      "Six links, six semesters",
+      "Capacity does not beat dependency",
+      "Fort McMurray",
+      "Lethbridge",
+      "Red Deer",
+      "one per cent of a diploma"
+    ],
+    "sources": [
+      {
+        "claim": "All Alberta CTS computing science courses are worth 1 credit each; students usually aim to complete 5 of these courses in a semester.",
+        "url": "https://cbe-learn.cbe.ab.ca/computing-science.aspx"
+      },
+      {
+        "claim": "Course codes and prerequisites: CSE1110 none; CSE1120 needs CSE1110; CSE2110 needs CSE1120; CSE2120 needs CSE2110; CSE3120 needs CSE2110; CSE3110 needs CSE2120; CSE3310 needs CSE3110 and CSE3120; Client-side Scripting 1 and 2 and CSE project courses have no prerequisite.",
+        "url": "https://cbe-learn.cbe.ab.ca/computing-science.aspx"
+      },
+      {
+        "claim": "Alberta CTS is a provincially authorized curriculum designed on a pathways model using 1-credit courses, and the Alberta High School Diploma requires a minimum of 100 credits.",
+        "url": "https://education.alberta.ca/career-and-technology-foundations/"
+      }
+    ],
+    "rejectedClaims": [
+      "The per-grade credit breakdown of 40 credits from Grade 10, 35 from Grade 11 and 30 from Grade 12. Those sum to 105 against a stated 100-credit minimum, so the parts do not reconcile with the whole and one of the two must be a misreading. NOT published. The discrepancy is instead used honestly inside the data project as the reason reconciliation matters, which is the most transferable habit on the page.",
+      "Any claim of CTS credit, Alberta transcript entry, or contribution to the 100 credits. Stated twice on the page that there is none.",
+      "A published weekday class slot. Mountain Time is 11.5 to 12.5 hours behind India, so the page uses the approved wording and explains why in its own paragraph.",
+      "The assumption that a prerequisite must COMPLETE before the next course starts is flagged on the page as an assumption rather than a verified rule, and the learner is asked to test what happens when it is relaxed."
+    ]
   }
 }
