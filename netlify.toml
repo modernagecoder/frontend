@@ -7113,6 +7113,108 @@
   to = "/src/pages/machine-learning-for-school-students-oman.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-nassau"
+  to = "/src/pages/coding-and-ai-classes-in-nassau.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-nassau.md"
+  to = "/src/pages/coding-and-ai-classes-in-nassau.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-bahamas"
+  to = "/src/pages/coding-and-ai-classes-in-bahamas.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-bahamas.md"
+  to = "/src/pages/coding-and-ai-classes-in-bahamas.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-kids-in-nassau"
+  to = "/src/pages/coding-classes-for-kids-in-nassau.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-kids-in-nassau.md"
+  to = "/src/pages/coding-classes-for-kids-in-nassau.md"
+  status = 200
+
+[[redirects]]
+  from = "/python-and-ai-track-for-students-bahamas"
+  to = "/src/pages/python-and-ai-track-for-students-bahamas.html"
+  status = 200
+
+[[redirects]]
+  from = "/python-and-ai-track-for-students-bahamas.md"
+  to = "/src/pages/python-and-ai-track-for-students-bahamas.md"
+  status = 200
+
+[[redirects]]
+  from = "/one-to-one-coding-classes-in-nassau"
+  to = "/src/pages/one-to-one-coding-classes-in-nassau.html"
+  status = 200
+
+[[redirects]]
+  from = "/one-to-one-coding-classes-in-nassau.md"
+  to = "/src/pages/one-to-one-coding-classes-in-nassau.md"
+  status = 200
+
+[[redirects]]
+  from = "/github-portfolio-for-students-bahamas"
+  to = "/src/pages/github-portfolio-for-students-bahamas.html"
+  status = 200
+
+[[redirects]]
+  from = "/github-portfolio-for-students-bahamas.md"
+  to = "/src/pages/github-portfolio-for-students-bahamas.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-competitions-for-students-bahamas"
+  to = "/src/pages/coding-competitions-for-students-bahamas.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-competitions-for-students-bahamas.md"
+  to = "/src/pages/coding-competitions-for-students-bahamas.md"
+  status = 200
+
+[[redirects]]
+  from = "/year-round-coding-classes-vs-summer-camps-bahamas"
+  to = "/src/pages/year-round-coding-classes-vs-summer-camps-bahamas.html"
+  status = 200
+
+[[redirects]]
+  from = "/year-round-coding-classes-vs-summer-camps-bahamas.md"
+  to = "/src/pages/year-round-coding-classes-vs-summer-camps-bahamas.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-and-ai-alongside-bjc-and-bgcse-bahamas"
+  to = "/src/pages/coding-and-ai-alongside-bjc-and-bgcse-bahamas.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-and-ai-alongside-bjc-and-bgcse-bahamas.md"
+  to = "/src/pages/coding-and-ai-alongside-bjc-and-bgcse-bahamas.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-bahamas"
+  to = "/src/pages/ai-and-machine-learning-classes-in-bahamas.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-classes-in-bahamas.md"
+  to = "/src/pages/ai-and-machine-learning-classes-in-bahamas.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

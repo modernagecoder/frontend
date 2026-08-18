@@ -42,7 +42,7 @@ const FAIL = 0.12;   // 12 percent is a template with the nouns swapped
 const CLUSTERS = {
   'build-ai': {
     label: 'Build-AI cluster',
-    fileRe: /^(learn-to-build-ai|ai-and-machine-learning-classes-in-.+|ai-and-python-academy-oman|ai-and-python-academy-salalah|ai-and-python-academy-sohar|ai-and-python-academy-nizwa|ai-and-python-academy-for-girls-oman|ai-agents-course-for-students-oman|python-to-ai-roadmap-for-students-oman|build-real-ai-projects-oman|machine-learning-for-school-students-oman|vibe-coding-vs-building-ai-oman)\.html$/,
+    fileRe: /^(learn-to-build-ai|ai-and-machine-learning-classes-in-.+|ai-and-python-academy-oman|ai-and-python-academy-salalah|ai-and-python-academy-sohar|ai-and-python-academy-nizwa|ai-and-python-academy-for-girls-oman|ai-agents-course-for-students-oman|python-to-ai-roadmap-for-students-oman|build-real-ai-projects-oman|machine-learning-for-school-students-oman|vibe-coding-vs-building-ai-oman|coding-and-ai-classes-in-nassau|coding-and-ai-classes-in-bahamas|coding-classes-for-kids-in-nassau|python-and-ai-track-for-students-bahamas|one-to-one-coding-classes-in-nassau|github-portfolio-for-students-bahamas|coding-competitions-for-students-bahamas|year-round-coding-classes-vs-summer-camps-bahamas|coding-and-ai-alongside-bjc-and-bgcse-bahamas)\.html$/,
     prefix: 'ag',
     incumbents: [
       'online-ai-and-machine-learning-classes',

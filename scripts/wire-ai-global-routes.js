@@ -64,7 +64,18 @@ const SLUGS = [
   'python-to-ai-roadmap-for-students-oman',
   'build-real-ai-projects-oman',
   'machine-learning-for-school-students-oman',
-  'vibe-coding-vs-building-ai-oman'
+  'vibe-coding-vs-building-ai-oman',
+  // Bahamas family
+  'coding-and-ai-classes-in-nassau',
+  'coding-and-ai-classes-in-bahamas',
+  'coding-classes-for-kids-in-nassau',
+  'python-and-ai-track-for-students-bahamas',
+  'one-to-one-coding-classes-in-nassau',
+  'github-portfolio-for-students-bahamas',
+  'coding-competitions-for-students-bahamas',
+  'year-round-coding-classes-vs-summer-camps-bahamas',
+  'coding-and-ai-alongside-bjc-and-bgcse-bahamas',
+  'ai-and-machine-learning-classes-in-bahamas'
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -212,7 +223,17 @@ const LLMS_LABELS = {
   'python-to-ai-roadmap-for-students-oman': 'Python to AI roadmap for students, Oman',
   'build-real-ai-projects-oman': 'Build real AI projects, Oman',
   'machine-learning-for-school-students-oman': 'Machine learning for school students, Oman',
-  'vibe-coding-vs-building-ai-oman': 'Vibe coding vs building AI, Oman'
+  'vibe-coding-vs-building-ai-oman': 'Vibe coding vs building AI, Oman',
+  'coding-and-ai-classes-in-nassau': 'Coding and AI classes in Nassau, Bahamas',
+  'coding-and-ai-classes-in-bahamas': 'Coding and AI classes in The Bahamas',
+  'coding-classes-for-kids-in-nassau': 'Coding classes for kids in Nassau',
+  'python-and-ai-track-for-students-bahamas': 'The 12-month Python and AI track, Bahamas',
+  'one-to-one-coding-classes-in-nassau': 'One to one coding classes in Nassau',
+  'github-portfolio-for-students-bahamas': 'GitHub portfolios for Bahamian students',
+  'coding-competitions-for-students-bahamas': 'Coding competitions for students, Bahamas',
+  'year-round-coding-classes-vs-summer-camps-bahamas': 'Year-round classes vs summer camps, Bahamas',
+  'coding-and-ai-alongside-bjc-and-bgcse-bahamas': 'Coding and AI alongside BJC and BGCSE',
+  'ai-and-machine-learning-classes-in-bahamas': 'AI and machine learning classes in The Bahamas'
 };
 
 function wireLlms(slugs) {

@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en-BS">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The 12-Month Python and AI Track for Bahamian Students</title>
+  <meta name="description" content="Four quarters, four finished projects, a GitHub portfolio and a written parent update every month. The 12-month Python and AI track for students in the Bahamas.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/python-and-ai-track-for-students-bahamas">
+  <link rel="alternate" type="text/markdown" href="/src/pages/python-and-ai-track-for-students-bahamas.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#2C3E7A">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/python-and-ai-track-for-students-bahamas">
+  <meta property="og:title" content="The 12-Month Python and AI Track for Bahamian Students">
+  <meta property="og:description" content="Every quarter ends in a thing rather than a topic. A student who finished four things has four pieces of evidence; one who covered four topics has none.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_BS">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The 12-Month Python and AI Track, Bahamas">
+  <meta name="twitter:description" content="Four quarters, four finished projects, a GitHub portfolio and a monthly parent update.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="BS">
+  <meta name="geo.placename" content="The Bahamas">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260819">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com",
+        "logo": "https://learn.modernagecoders.com/images/logo.svg",
+        "foundingDate": "2020",
+        "areaServed": { "@type": "Country", "name": "Bahamas" },
+        "knowsAbout": ["Python", "Machine Learning", "AI Agents", "Git and GitHub", "Data Science", "Curriculum Design", "Project Based Learning", "Technical Writing"]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Coding and AI classes in Nassau", "item": "https://learn.modernagecoders.com/coding-and-ai-classes-in-nassau" },
+          { "@type": "ListItem", "position": 3, "name": "The 12-month track", "item": "https://learn.modernagecoders.com/python-and-ai-track-for-students-bahamas" }
+        ]
+      },
+      {
+        "@type": "Course",
+        "name": "12-Month Python and AI Development Track for Students",
+        "description": "A structured twelve-month live online programme for learners in the Bahamas, organised into four quarters each ending in a finished, published project, with individual progress tracking, competitions used as deadlines, a public GitHub portfolio and a written monthly report to parents.",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "inLanguage": "en",
+        "educationalCredentialAwarded": "Modern Age Coders certificate of completion",
+        "audience": { "@type": "EducationalAudience", "educationalRole": "student" },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseWorkload": "PT1H30M",
+          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/python-and-ai-track-for-students-bahamas" },
+          "instructor": { "@type": "Organization", "name": "Modern Age Coders" }
+        },
+        "offers": [
+          { "@type": "Offer", "name": "Group batch", "price": "100", "priceCurrency": "USD", "category": "Monthly", "availability": "https://schema.org/InStock", "url": "https://learn.modernagecoders.com/python-and-ai-track-for-students-bahamas" },
+          { "@type": "Offer", "name": "One to one", "price": "150", "priceCurrency": "USD", "category": "Monthly", "availability": "https://schema.org/InStock", "url": "https://learn.modernagecoders.com/python-and-ai-track-for-students-bahamas" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "Do we have to pay for twelve months up front?", "acceptedAnswer": {"@type": "Answer", "text": "No, and we would rather you did not think of it that way. Fees are charged monthly and you can stop at the end of any month with nothing owing. The track is designed as a year because that is how long the useful version takes, not because we want a year of your money locked in. A programme that has to trap people is not one worth committing to."}},
+          {"@type": "Question", "name": "What if my child falls behind the quarter plan?", "acceptedAnswer": {"@type": "Answer", "text": "Then the plan moves, because the plan is a route rather than a schedule to be enforced. The quarters above describe a student starting at around twelve with no code; a nine year old goes considerably slower through the first one and that is expected rather than a problem. The individual progress record exists precisely so that pace is tracked per student instead of per cohort."}},
+          {"@type": "Question", "name": "How much does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "A group batch of five to eight students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. There is no enrolment fee, no annual contract, and the first class is free without a card."}},
+          {"@type": "Question", "name": "What exactly is in the monthly parent update?", "acceptedAnswer": {"@type": "Answer", "text": "A few hundred words of plain English written by the teacher: what was covered, what your child found difficult, what they built, and what would help before the next session. No dashboard, no percentage, no automated summary. If a month went badly it says that, because a report that is always positive tells you nothing."}},
+          {"@type": "Question", "name": "Which competitions do you enter students into?", "acceptedAnswer": {"@type": "Answer", "text": "We aim work at open-entry competitions where the timing and subject fit, and we are careful about what we claim here: entry routes for school students frequently run through the school rather than through a private provider, and selection is never ours to promise. The value we are actually selling is the deadline, which is the thing that gets a project finished. That argument is set out on its own page."}},
+          {"@type": "Question", "name": "Can a student join mid-year?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and most do. The four quarters are a route rather than a cohort, so a learner starts at whichever stage the free first class puts them at and works forward from there. Nobody waits for a January intake, and nobody is dropped into the middle of a group at the wrong level to fill a seat."}},
+          {"@type": "Question", "name": "What if we go away for the summer?", "acceptedAnswer": {"@type": "Answer", "text": "Pause it. There is no minimum term and no penalty, and a month paused costs you that month and nothing else. What we would say honestly is that long gaps are the main enemy of a twelve-month programme, so if the summer is going to be six weeks away, a single session mid-break to keep the project alive is worth more than it sounds."}},
+          {"@type": "Question", "name": "Is this suitable for a complete beginner?", "acceptedAnswer": {"@type": "Answer", "text": "It is written for one. Quarter one assumes no code at all and starts at a blank file. The only thing that changes for a student who arrives with some Python is that quarter one compresses and the modelling work starts sooner, which the free first class exists to establish."}},
+          {"@type": "Question", "name": "Does the student need to buy any software?", "acceptedAnswer": {"@type": "Answer", "text": "No. Python, the libraries, Git and GitHub are all free, and deployment for a student project is normally free too. The one exception in our whole catalogue is the coding agents course, where the student needs their own subscription to the tools that course works with, and that is stated on the course page rather than buried in the small print."}},
+          {"@type": "Question", "name": "What happens after we send the form?", "acceptedAnswer": {"@type": "Answer", "text": "A mentor telephones you at a Bahamian hour to arrange the free session. Nothing is charged and no card is requested. Sending the form opens a conversation rather than an enrolment and holds no place in any batch. Which quarter the learner starts in, the format and the weekend slot are all settled on that call before money is discussed."}}
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Online twelve-month Python and AI programme for students",
+    "provider": { "@type": "EducationalOrganization", "name": "Modern Age Coders", "url": "https://learn.modernagecoders.com/" },
+    "areaServed": { "@type": "Country", "name": "Bahamas" },
+    "availableChannel": { "@type": "ServiceChannel", "serviceUrl": "https://learn.modernagecoders.com/python-and-ai-track-for-students-bahamas", "availableLanguage": ["en"] }
+  }
+  </script>
+</head>
+
+<body class="ag-root ag-trk">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">The track</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#one">The four quarters</a></li>
+      <li><a href="#two">The five promises</a></li>
+      <li><a href="/python-and-ai-track-for-students-bahamas">The 12-month track</a></li>
+      <li><a href="#fees">Fees</a></li>
+      <li><a href="/how-we-teach">How we teach</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-and-ai-classes-in-nassau">Nassau</a> / The 12-month track
+    </nav>
+    <div class="ag-hero-grid" style="margin-top:26px">
+      <div>
+        <p class="ag-eyebrow">The product &middot; Bahamas &middot; Live online &middot; Ages 6 to 67</p>
+        <h1>Four quarters. Four finished things. One teacher for the whole year.</h1>
+        <p class="ag-lede">This is what we sell, described precisely enough to be checked. Twelve months of weekly ninety-minute sessions, organised into four quarters that each end in something running at a public address rather than a topic covered. Underneath it: a written progress record per student, competitions used as deadlines rather than trophies, a GitHub repository whose commits are dated across the year, and a few hundred words to the parent every month in plain English.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#one" class="ag-btn ag-btn--ghost">See the four quarters</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20student%20in%20the%20Bahamas%2C%20and%20I%20want%20to%20know%20about%20the%2012-month%20track." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'bahamas-track'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">
+          Live online &middot; ages 6 to 67 &middot; from USD 100 a month &middot; first class free &middot; no centre in the Bahamas
+        </p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Length</dt><dd>12 months</dd>
+          <dt>Sessions</dt><dd>90 minutes, weekly</dd>
+          <dt>Milestones</dt><dd>Four, one per quarter</dd>
+          <dt>Teacher</dt><dd>The same one all year</dd>
+          <dt>Reporting</dt><dd>Written, monthly</dd>
+          <dt>Ends in</dt><dd>A public GitHub portfolio</dd>
+          <dt>Fees</dt><dd>From USD 100 a month</dd>
+          <dt>First class</dt><dd>Free, no card</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>The twelve-month Python and AI track is a live online programme of weekly ninety-minute sessions for learners in the Bahamas aged six to sixty-seven, organised into four quarters. Each quarter ends in a finished project running at a public address, with the code readable on GitHub. Underneath it sit four things a camp cannot offer: the same teacher for twelve months, an individual written progress record, competitions used as external deadlines, and a monthly written update to the parent. Group teaching is USD 100 a month, private teaching USD 150, and the first class is free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="one">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The year, quarter by quarter</p>
+      <h2>Twelve months, four milestones, and something running at the end of each</h2>
+      <p class="ag-lede">
+        This is the plan for a student starting at around twelve with no code. A younger child moves
+        more slowly through the first quarter and a teenager with some Python compresses it, but the
+        shape holds.
+      </p>
+    </div>
+
+    <div class="ag-table-wrap">
+        <table class="ag-table">
+          <thead><tr><th scope="col">Quarter</th><th scope="col">The work</th><th scope="col">Ends in</th><th scope="col">What a parent should see</th></tr></thead>
+          <tbody><tr><td>1, months 1 to 3</td><td class="ag-num">Typed Python from the first weeks: loops, functions, files, and errors read rather than feared</td><td class="ag-num">A small program that does something the student chose</td><td class="ag-num">A blank file becoming a working thing, and a child reading an error instead of asking for help</td></tr><tr><td>2, months 4 to 6</td><td class="ag-num">Real data. Loading a messy file, cleaning it, plotting it, and finding the row that would have poisoned the answer</td><td class="ag-num">A chart and a short written finding, published</td><td class="ag-num">Charts your child made, and complaints about how bad the data was</td></tr><tr><td>3, months 7 to 9</td><td class="ag-num">A first model, measured. Trained, error stated in a real unit, and compared against a baseline it has to beat</td><td class="ag-num">A model with its error rate written down</td><td class="ag-num">Your child telling you how wrong their model is, in units, without being asked</td></tr><tr><td>4, months 10 to 12</td><td class="ag-num">Putting it together: a project that runs for somebody else, documented, with its limits stated</td><td class="ag-num">A live address and a repository with a year of commits</td><td class="ag-num">A link you can open, and a child who can explain what it cannot do</td></tr></tbody>
+        </table>
+      </div>
+
+    <p class="ag-mt-40">
+      Notice that every quarter ends in a thing rather than a topic. That is deliberate and it is the
+      main structural difference between this and a syllabus: a student who has finished four things
+      in a year has four pieces of evidence, and a student who has covered four topics has none.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section" id="two">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The five promises</p>
+      <h2>What you are actually buying, stated so you can hold us to it</h2>
+      <p class="ag-lede">
+        A twelve-month commitment deserves specifics rather than adjectives. Each of these is a thing
+        that either happens or does not, and you will be able to tell which.
+      </p>
+    </div>
+
+    <ol class="ag-protocol">
+        <li class="ag-step" data-step="1">
+          <h4>Individual progress tracking, not class progress</h4>
+          <p>A record per student: which concepts are solid, which were shaky last month, what the next session is for. It exists so that a teacher returning after a holiday does not restart from a guess, and so that a parent asking how is it going gets an answer with specifics in it rather than a reassurance.</p>
+        </li>
+        <li class="ag-step" data-step="2">
+          <h4>Real projects, chosen by the student</h4>
+          <p>Every quarter ends in something that runs. The subject is the student's, with one rule imposed: they must be able to check the answer themselves. That single constraint is the strongest predictor we know of a project being finished rather than quietly abandoned in week four.</p>
+        </li>
+        <li class="ag-step" data-step="3">
+          <h4>Competitions used as deadlines</h4>
+          <p>Not for the medal. A fixed external date is the only thing we have found that reliably finishes student work, because a project with no deadline expands until it dies. We aim work at open-entry competitions where they fit, and we make no promise whatsoever about selection or results, which are not ours to give.</p>
+        </li>
+        <li class="ag-step" data-step="4">
+          <h4>A public GitHub portfolio, built weekly</h4>
+          <p>Commits from the first weeks rather than an upload at the end. The point is the history: a repository showing twelve months of dated work says something a certificate cannot, and for a Bahamian student applying abroad it is the asset that crosses water without losing anything in transit.</p>
+        </li>
+        <li class="ag-step" data-step="5">
+          <h4>A written update to the parent every month</h4>
+          <p>A few hundred words in plain English: what was covered, what your child found difficult, what they built, and what we would like them to do next. No dashboard to log into, no score out of ten, and no automated summary. If a month went badly the note says so.</p>
+        </li>
+      </ol>
+
+    <p class="ag-mt-40">
+      There is a sixth thing that is not a promise so much as a consequence: the same teacher for the
+      whole year. That is what makes the other five possible. A record is only useful if somebody
+      reads it, and a project only survives a bad month if somebody remembers what it was for.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What the milestones look like in practice</p>
+      <h2>Four things, each smaller than you would expect</h2>
+      <p class="ag-lede">
+        Parents reading a quarter plan usually imagine something more ambitious than what we actually
+        aim at, so it is worth being concrete. Small and finished beats large and abandoned every
+        time, and the negotiation down is often the most useful conversation of the quarter.
+      </p>
+    </div>
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          <strong>Quarter one</strong> tends to produce a small program with one clear job: a
+          calculator for something the student cares about, a game with rules they invented, a tool
+          that renames a folder full of files. Nothing that would impress a stranger, and everything
+          that proves a blank file is no longer frightening.
+        </p>
+        <p>
+          <strong>Quarter two</strong> produces a chart and a paragraph. The student has taken a messy
+          file, usually one they built by recording something themselves, cleaned it, plotted it and
+          written down what they think it shows. The paragraph is harder than the chart and matters
+          more.
+        </p>
+      </div>
+      <div>
+        <p>
+          <strong>Quarter three</strong> produces a model with a number attached: this predicts the
+          thing, it is wrong by about this much, and here is what you would have got by not modelling
+          at all. That last clause is the whole quarter, and it is the part almost no school-age
+          project includes.
+        </p>
+        <p>
+          <strong>Quarter four</strong> produces a link. Something running where a stranger can open
+          it, with the code readable, the commit history intact across the year, and an honest
+          paragraph on where it fails. A linear model a fourteen year old wrote, documented like
+          that, is worth more to a reader than something clever with nothing behind it.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The honest parts</p>
+      <h2>What this is not, and when you should not buy it</h2>
+    </div>
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p>
+          <strong>It is not a school qualification.</strong> Nothing here appears on a BJC or a BGCSE,
+          and we will not imply otherwise. Where it sits against those examinations, including the
+          years when you should reduce or pause, is set out on
+          <a class="ag-inline-link" href="/coding-and-ai-alongside-bjc-and-bgcse-bahamas">its own page</a>.
+        </p>
+        <p>
+          <strong>It is not a guarantee of anything downstream.</strong> We cannot promise a
+          university place, a competition result or a job, and any provider who does is selling
+          something they do not control. What we can promise is the five items above.
+        </p>
+      </div>
+      <div>
+        <p>
+          <strong>Do not buy it if the schedule will not survive.</strong> The track assumes roughly
+          weekly sessions across twelve months. A family who knows in advance that half of that will
+          be missed is better served by one to one, where the pace bends, and that is a genuine
+          recommendation rather than a redirect.
+        </p>
+        <p>
+          <strong>Do not buy it for a child under six</strong>, and be cautious under eight if the
+          only free slot is a Saturday morning after a busy school week. Ninety minutes of
+          concentration is a real ask. We would rather you started a year later than have a child
+          decide at seven that this subject is tiring.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where each quarter is taught</p>
+      <h2>The courses the four quarters map onto</h2>
+      <p class="ag-lede">
+        The track is a route through the catalogue rather than a separate product, so every stage has
+        a published syllabus you can read before committing to anything.
+      </p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Quarter one: Python</h3><p><a class="ag-inline-link" href="/courses/python-ai-kids-masterclass">Python and AI for Kids</a> for younger learners, or <a class="ag-inline-link" href="/courses/python-complete-masterclass-teens">Python for Teens</a>, which runs from a blank file to genuinely advanced work.</p></div>
+      <div><h3>Quarter two: data</h3><p><a class="ag-inline-link" href="/courses/data-science-course-for-teens-python-data">Data Science for Teens</a>, which is everything that has to happen before any modelling can, taught properly rather than skipped.</p></div>
+      <div><h3>Quarter three: the model</h3><p><a class="ag-inline-link" href="/courses/ai-ml-masterclass-teens">AI and Machine Learning for Teens</a> is the main route, with <a class="ag-inline-link" href="/courses/ai-ml-masterclass-complete-college">the full masterclass</a> for university students and adults.</p></div>
+      <div><h3>Quarter four: shipping it</h3><p><a class="ag-inline-link" href="/courses/git-github-version-control-course-for-teens">Git and GitHub for Teens</a>, which is the habit the whole track is built on, plus deployment work inside whichever course the student is on.</p></div>
+      <div><h3>If the blocker is mathematics</h3><p>It sometimes is, and struggling on is the wrong answer. We teach mathematics as its own subject at every level, and a term spent on the actual gap beats a year of stalling at the same wall.</p></div>
+      <div><h3>If the student is already ahead</h3><p>Then the track compresses and the interesting work starts earlier. <a class="ag-inline-link" href="/courses/complete-generative-ai-masterclass-college">Generative AI, RAG and agents</a> and <a class="ag-inline-link" href="/courses/data-structures-algorithms-masterclass-college">data structures and algorithms</a> are where strong students tend to go next.</p></div>
+    </div>
+    <p class="ag-mt-40">
+      The full catalogue with every syllabus is on
+      <a class="ag-inline-link" href="/coding-and-ai-classes-in-nassau#catalogue">the Nassau page</a>,
+      and the site-wide teaching order across all subjects is the
+      <a class="ag-inline-link" href="/coding-roadmap">coding roadmap</a>.
+    </p>
+    <p class="ag-mt-40">
+      A last word on what a year is for. Most educational purchases are bought on what they cover, and
+      a syllabus is easy to compare. The thing that actually separates two students at the end of twelve
+      months is not coverage but whether anybody was still watching in month eight, when the novelty has
+      gone and the project is at the difficult stage and nothing is working. That is the point at which
+      a short course has already ended and a rota of instructors has nobody who remembers what was
+      promised in month two. Continuity is not a premium feature attached to this programme. It is the
+      only part of it that cannot be bought in any other format.
+    </p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>What twelve months costs</h2>
+      <p class="ag-lede">USD 100 a month in a group batch, USD 150 one to one, charged monthly rather than as a year up front. Twelve months at the group rate is USD 1,200, and you can stop at the end of any month, which is deliberate: a year-long commitment should be earned month by month rather than taken in advance.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>Taught, not sold</li><li>It settles which stage the learner starts at</li><li>You watch it, then decide</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to eight students, one teacher throughout</li><li>Live video, never a recording</li><li>Weekly build work reviewed by the teacher</li><li>Certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private teaching at your own pace</li><li>The only way to get a weekday morning slot</li><li>Syllabus shaped to the goal</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about the track</p>
+      <h2>What families ask before committing to a year</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Do we have to pay for twelve months up front?</h3>
+        <p>No, and we would rather you did not think of it that way. Fees are charged monthly and you can stop at the end of any month with nothing owing. The track is designed as a year because that is how long the useful version takes, not because we want a year of your money locked in. A programme that has to trap people is not one worth committing to.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What if my child falls behind the quarter plan?</h3>
+        <p>Then the plan moves, because the plan is a route rather than a schedule to be enforced. The quarters above describe a student starting at around twelve with no code; a nine year old goes considerably slower through the first one and that is expected rather than a problem. The individual progress record exists precisely so that pace is tracked per student instead of per cohort.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much does it cost?</h3>
+        <p>A group batch of five to eight students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. There is no enrolment fee, no annual contract, and the first class is free without a card.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What exactly is in the monthly parent update?</h3>
+        <p>A few hundred words of plain English written by the teacher: what was covered, what your child found difficult, what they built, and what would help before the next session. No dashboard, no percentage, no automated summary. If a month went badly it says that, because a report that is always positive tells you nothing.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which competitions do you enter students into?</h3>
+        <p>We aim work at open-entry competitions where the timing and subject fit, and we are careful about what we claim here: entry routes for school students frequently run through the school rather than through a private provider, and selection is never ours to promise. The value we are actually selling is the deadline, which is the thing that gets a project finished. That argument is set out on its own page.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a student join mid-year?</h3>
+        <p>Yes, and most do. The four quarters are a route rather than a cohort, so a learner starts at whichever stage the free first class puts them at and works forward from there. Nobody waits for a January intake, and nobody is dropped into the middle of a group at the wrong level to fill a seat.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What if we go away for the summer?</h3>
+        <p>Pause it. There is no minimum term and no penalty, and a month paused costs you that month and nothing else. What we would say honestly is that long gaps are the main enemy of a twelve-month programme, so if the summer is going to be six weeks away, a single session mid-break to keep the project alive is worth more than it sounds.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is this suitable for a complete beginner?</h3>
+        <p>It is written for one. Quarter one assumes no code at all and starts at a blank file. The only thing that changes for a student who arrives with some Python is that quarter one compresses and the modelling work starts sooner, which the free first class exists to establish.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does the student need to buy any software?</h3>
+        <p>No. Python, the libraries, Git and GitHub are all free, and deployment for a student project is normally free too. The one exception in our whole catalogue is the coding agents course, where the student needs their own subscription to the tools that course works with, and that is stated on the course page rather than buried in the small print.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens after we send the form?</h3>
+        <p>A mentor telephones you at a Bahamian hour to arrange the free session. Nothing is charged and no card is requested. Sending the form opens a conversation rather than an enrolment and holds no place in any batch. Which quarter the learner starts in, the format and the weekend slot are all settled on that call before money is discussed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>One task, and the honest starting quarter</h2>
+        <p class="ag-lede">The free first session decides where in the year a learner actually begins, which is the only question that matters before committing to twelve months. A student attempts one problem chosen for their age while the teacher reads how they approach it. Sometimes the answer is a quarter later than a parent expected and sometimes considerably earlier, and both are more useful than a guess.</p>
+        <p style="margin-top:22px">Rather read first? <a class="ag-inline-link" href="/coding-and-ai-classes-in-nassau">The Nassau page</a>, <a class="ag-inline-link" href="/year-round-coding-classes-vs-summer-camps-bahamas">why a year rather than a week</a>, or <a class="ag-inline-link" href="/how-we-teach">how we teach</a>.</p>
+        <p style="margin-top:22px">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20student%20in%20the%20Bahamas%2C%20and%20I%20want%20to%20know%20about%20the%2012-month%20track." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'bahamas-track',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">We hold no premises anywhere in the Bahamas. Every session is a live video call taught from India, and the number above rings in India.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitBahamasTrackLead(event)" novalidate>
+          <div class="ag-field">
+            <label for="bs-name">Your name</label>
+            <input id="bs-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="bs-phone">Phone or WhatsApp, Bahamas +1 242</label>
+            <input id="bs-phone" type="tel" name="phone" placeholder="242 XXX XXXX" required>
+          </div>
+          <div class="ag-field">
+            <label for="bs-age">Learner age group</label>
+            <select id="bs-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card. No obligation. We call, we do not spam.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Bahamas pages</h4><ul><li><a href="/coding-and-ai-classes-in-nassau">Nassau</a></li><li><a href="/coding-and-ai-classes-in-bahamas">The Bahamas</a></li><li><a href="/coding-classes-for-kids-in-nassau">For kids in Nassau</a></li><li><a href="/one-to-one-coding-classes-in-nassau">One to one in Nassau</a></li></ul></div>
+      <div><h4>The 12-month track</h4><ul><li><a href="/python-and-ai-track-for-students-bahamas">The track itself</a></li><li><a href="/ai-and-machine-learning-classes-in-bahamas">AI and machine learning</a></li><li><a href="/github-portfolio-for-students-bahamas">GitHub portfolios</a></li><li><a href="/coding-competitions-for-students-bahamas">Competitions</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Serving Oman on Gulf Standard Time, all year</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitBahamasTrackLead = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var d = phoneRaw.replace(/\D/g, '');
+  // The Bahamas is in the North American Numbering Plan, so a family may type the
+  // leading 1. Strip it, exactly as the US and Canada pages do, and nowhere else.
+  if (d.length === 11 && d.charAt(0) === '1') { d = d.slice(1); }
+  if (d.length !== 10) { alert('Please enter a 10-digit Bahamas number, area code 242 first.'); return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: d, countryCode: '+1', countryIso: 'BS', countryName: 'Bahamas',
+      source: 'python-and-ai-track-for-students-bahamas-inline', meta: { name: name, age: age }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      alert((data && data.message) || 'Something went wrong. Please try again.');
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    alert('Network error. Please try again.');
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+</body>
+</html>
