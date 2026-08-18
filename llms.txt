@@ -279,6 +279,12 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - AI and Python Academy, Salalah (Dhofar): https://learn.modernagecoders.com/ai-and-python-academy-salalah
 - AI and Python Academy, Sohar (North Al Batinah): https://learn.modernagecoders.com/ai-and-python-academy-sohar
 - AI and Python Academy, Nizwa (Ad Dakhiliyah): https://learn.modernagecoders.com/ai-and-python-academy-nizwa
+- AI agents course for students, Oman: https://learn.modernagecoders.com/ai-agents-course-for-students-oman
+- Python to AI roadmap for students, Oman: https://learn.modernagecoders.com/python-to-ai-roadmap-for-students-oman
+- Build real AI projects, Oman: https://learn.modernagecoders.com/build-real-ai-projects-oman
+- Vibe coding vs building AI, Oman: https://learn.modernagecoders.com/vibe-coding-vs-building-ai-oman
+- AI and Python Academy for girls, Oman: https://learn.modernagecoders.com/ai-and-python-academy-for-girls-oman
+- Machine learning for school students, Oman: https://learn.modernagecoders.com/machine-learning-for-school-students-oman
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

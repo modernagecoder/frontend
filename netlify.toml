@@ -7049,6 +7049,70 @@
   to = "/src/pages/ai-and-python-academy-nizwa.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-agents-course-for-students-oman"
+  to = "/src/pages/ai-agents-course-for-students-oman.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-agents-course-for-students-oman.md"
+  to = "/src/pages/ai-agents-course-for-students-oman.md"
+  status = 200
+
+[[redirects]]
+  from = "/python-to-ai-roadmap-for-students-oman"
+  to = "/src/pages/python-to-ai-roadmap-for-students-oman.html"
+  status = 200
+
+[[redirects]]
+  from = "/python-to-ai-roadmap-for-students-oman.md"
+  to = "/src/pages/python-to-ai-roadmap-for-students-oman.md"
+  status = 200
+
+[[redirects]]
+  from = "/build-real-ai-projects-oman"
+  to = "/src/pages/build-real-ai-projects-oman.html"
+  status = 200
+
+[[redirects]]
+  from = "/build-real-ai-projects-oman.md"
+  to = "/src/pages/build-real-ai-projects-oman.md"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-vs-building-ai-oman"
+  to = "/src/pages/vibe-coding-vs-building-ai-oman.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-vs-building-ai-oman.md"
+  to = "/src/pages/vibe-coding-vs-building-ai-oman.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-python-academy-for-girls-oman"
+  to = "/src/pages/ai-and-python-academy-for-girls-oman.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-python-academy-for-girls-oman.md"
+  to = "/src/pages/ai-and-python-academy-for-girls-oman.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/machine-learning-for-school-students-oman"
+  to = "/src/pages/machine-learning-for-school-students-oman.html"
+  status = 200
+
+[[redirects]]
+  from = "/machine-learning-for-school-students-oman.md"
+  to = "/src/pages/machine-learning-for-school-students-oman.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
