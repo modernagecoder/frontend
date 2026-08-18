@@ -7005,6 +7005,50 @@
   to = "/src/pages/coding-classes-in-jerudong.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-python-academy-oman"
+  to = "/src/pages/ai-and-python-academy-oman.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-python-academy-oman.md"
+  to = "/src/pages/ai-and-python-academy-oman.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-python-academy-salalah"
+  to = "/src/pages/ai-and-python-academy-salalah.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-python-academy-salalah.md"
+  to = "/src/pages/ai-and-python-academy-salalah.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-python-academy-sohar"
+  to = "/src/pages/ai-and-python-academy-sohar.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-python-academy-sohar.md"
+  to = "/src/pages/ai-and-python-academy-sohar.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-python-academy-nizwa"
+  to = "/src/pages/ai-and-python-academy-nizwa.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-python-academy-nizwa.md"
+  to = "/src/pages/ai-and-python-academy-nizwa.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

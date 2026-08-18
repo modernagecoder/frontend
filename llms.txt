@@ -275,6 +275,10 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Germany: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-germany
 - Netherlands: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-netherlands
 - Brunei: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-brunei
+- AI and Python Academy, Oman: https://learn.modernagecoders.com/ai-and-python-academy-oman
+- AI and Python Academy, Salalah (Dhofar): https://learn.modernagecoders.com/ai-and-python-academy-salalah
+- AI and Python Academy, Sohar (North Al Batinah): https://learn.modernagecoders.com/ai-and-python-academy-sohar
+- AI and Python Academy, Nizwa (Ad Dakhiliyah): https://learn.modernagecoders.com/ai-and-python-academy-nizwa
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

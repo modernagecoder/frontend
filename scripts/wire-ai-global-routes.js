@@ -53,7 +53,18 @@ const SLUGS = [
   'ai-and-machine-learning-classes-in-netherlands',
   'ai-and-machine-learning-classes-in-ireland',
   'ai-and-machine-learning-classes-in-hong-kong',
-  'ai-and-machine-learning-classes-in-brunei'
+  'ai-and-machine-learning-classes-in-brunei',
+  // Oman AI and Python Academy family
+  'ai-and-python-academy-oman',
+  'ai-and-python-academy-salalah',
+  'ai-and-python-academy-sohar',
+  'ai-and-python-academy-nizwa',
+  'ai-and-python-academy-for-girls-oman',
+  'ai-agents-course-for-students-oman',
+  'python-to-ai-roadmap-for-students-oman',
+  'build-real-ai-projects-oman',
+  'machine-learning-for-school-students-oman',
+  'vibe-coding-vs-building-ai-oman'
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -191,7 +202,17 @@ const LLMS_LABELS = {
   'ai-and-machine-learning-classes-in-netherlands': 'Netherlands',
   'ai-and-machine-learning-classes-in-ireland': 'Ireland',
   'ai-and-machine-learning-classes-in-hong-kong': 'Hong Kong',
-  'ai-and-machine-learning-classes-in-brunei': 'Brunei'
+  'ai-and-machine-learning-classes-in-brunei': 'Brunei',
+  'ai-and-python-academy-oman': 'AI and Python Academy, Oman',
+  'ai-and-python-academy-salalah': 'AI and Python Academy, Salalah (Dhofar)',
+  'ai-and-python-academy-sohar': 'AI and Python Academy, Sohar (North Al Batinah)',
+  'ai-and-python-academy-nizwa': 'AI and Python Academy, Nizwa (Ad Dakhiliyah)',
+  'ai-and-python-academy-for-girls-oman': 'AI and Python Academy for girls, Oman',
+  'ai-agents-course-for-students-oman': 'AI agents course for students, Oman',
+  'python-to-ai-roadmap-for-students-oman': 'Python to AI roadmap for students, Oman',
+  'build-real-ai-projects-oman': 'Build real AI projects, Oman',
+  'machine-learning-for-school-students-oman': 'Machine learning for school students, Oman',
+  'vibe-coding-vs-building-ai-oman': 'Vibe coding vs building AI, Oman'
 };
 
 function wireLlms(slugs) {

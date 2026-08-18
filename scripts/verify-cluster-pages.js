@@ -49,12 +49,14 @@ const GEN = path.join(ROOT, 'content/courses/generated');
 const CLUSTERS = {
   'build-ai': {
     label: 'Build-AI cluster',
-    fileRe: /^(learn-to-build-ai|ai-and-machine-learning-classes-in-.+)\.html$/,
+    fileRe: /^(learn-to-build-ai|ai-and-machine-learning-classes-in-.+|ai-and-python-academy-oman|ai-and-python-academy-salalah|ai-and-python-academy-sohar|ai-and-python-academy-nizwa|ai-and-python-academy-for-girls-oman|ai-agents-course-for-students-oman|python-to-ai-roadmap-for-students-oman|build-real-ai-projects-oman|machine-learning-for-school-students-oman|vibe-coding-vs-building-ai-oman)\.html$/,
     css: 'src/css/ai-global.css',
     prefix: 'ag',
     markets: ['om', 'mct', 'kw', 'kwc', 'bh', 'ae', 'sa', 'qa', 'us', 'uk',
-      'lon', 'ch', 'zrh', 'sg', 'ca', 'au', 'de', 'nl', 'ie', 'hk', 'bn', 'hub'],
-    siblingRe: /^\/(learn-to-build-ai|ai-and-machine-learning-classes-in-)/
+      'lon', 'ch', 'zrh', 'sg', 'ca', 'au', 'de', 'nl', 'ie', 'hk', 'bn', 'hub',
+      // Oman AI and Python Academy family
+      'oap', 'sal', 'soh', 'niz', 'grl', 'agt', 'rdm', 'prj', 'mls', 'vbc'],
+    siblingRe: /^\/(learn-to-build-ai|ai-and-machine-learning-classes-in-|ai-and-python-academy-|ai-agents-course-for-students-oman|python-to-ai-roadmap-for-students-oman|build-real-ai-projects-oman|machine-learning-for-school-students-oman|vibe-coding-vs-building-ai-oman)/
   },
 
   // The international growth cluster. Six half-built markets plus fourteen

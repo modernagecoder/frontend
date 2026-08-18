@@ -42,7 +42,7 @@ const FAIL = 0.12;   // 12 percent is a template with the nouns swapped
 const CLUSTERS = {
   'build-ai': {
     label: 'Build-AI cluster',
-    fileRe: /^(learn-to-build-ai|ai-and-machine-learning-classes-in-.+)\.html$/,
+    fileRe: /^(learn-to-build-ai|ai-and-machine-learning-classes-in-.+|ai-and-python-academy-oman|ai-and-python-academy-salalah|ai-and-python-academy-sohar|ai-and-python-academy-nizwa|ai-and-python-academy-for-girls-oman|ai-agents-course-for-students-oman|python-to-ai-roadmap-for-students-oman|build-real-ai-projects-oman|machine-learning-for-school-students-oman|vibe-coding-vs-building-ai-oman)\.html$/,
     prefix: 'ag',
     incumbents: [
       'online-ai-and-machine-learning-classes',

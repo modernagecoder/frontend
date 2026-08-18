@@ -55,6 +55,24 @@
 .ag-root.ag-ie  { --ag-accent: #17643B; --ag-accent-soft: rgba(23,100,59,.09); }
 .ag-root.ag-hk  { --ag-accent: #A32638; --ag-accent-soft: rgba(163,38,56,.09); }
 .ag-root.ag-bn  { --ag-accent: #5A4A6F; --ag-accent-soft: rgba(90,74,111,.09); }
+
+/* Oman AI and Python Academy family. Ten pages, three sub-families matching the
+   three jobs they do: the places themselves in earth and red, the work itself in
+   ink and teal, and the two positioning pages deliberately set apart. Every hex
+   clears 4.5:1 on all three paper tints; separation is measured against each
+   other and the Gulf accents a reader could plausibly meet next to them, not
+   against all 83 in the repo, because maximising that drives the palette into
+   the saturated look the brand rejects. */
+.ag-root.ag-oap { --ag-accent: #8C2F39; --ag-accent-soft: rgba(140,47,57,.09); }  /* hub: Omani red */
+.ag-root.ag-sal { --ag-accent: #7A5210; --ag-accent-soft: rgba(122,82,16,.09); }  /* Salalah: frankincense resin */
+.ag-root.ag-soh { --ag-accent: #94441A; --ag-accent-soft: rgba(148,68,26,.09); }  /* Sohar: the copper it traded */
+.ag-root.ag-niz { --ag-accent: #6E3B22; --ag-accent-soft: rgba(110,59,34,.09); }  /* Nizwa: fired clay of the fort */
+.ag-root.ag-grl { --ag-accent: #4A5F1E; --ag-accent-soft: rgba(74,95,30,.09); }   /* girls: olive, set apart */
+.ag-root.ag-agt { --ag-accent: #26456E; --ag-accent-soft: rgba(38,69,110,.09); }  /* agents: ink blue */
+.ag-root.ag-rdm { --ag-accent: #1D6070; --ag-accent-soft: rgba(29,96,112,.09); }  /* roadmap: teal */
+.ag-root.ag-prj { --ag-accent: #3A4C87; --ag-accent-soft: rgba(58,76,135,.09); }  /* projects: periwinkle slate */
+.ag-root.ag-mls { --ag-accent: #2F6250; --ag-accent-soft: rgba(47,98,80,.09); }   /* machine learning: sea green */
+.ag-root.ag-vbc { --ag-accent: #6B2F5E; --ag-accent-soft: rgba(107,47,94,.09); }  /* vibe coding: plum, set apart */
 .ag-root.ag-hub { --ag-accent: #B45309; --ag-accent-soft: rgba(180,83,9,.09); }
 
 /* ---------------------------------------------------------------- base */
